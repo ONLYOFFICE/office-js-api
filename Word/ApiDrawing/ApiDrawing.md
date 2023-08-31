@@ -1,0 +1,38 @@
+# ApiDrawing
+
+Class representing a graphical object.
+
+## Methods
+
+- [AddBreak](./Methods/AddBreak.md)
+- [Copy](./Methods/Copy.md)
+- [Delete](./Methods/Delete.md)
+- [Fill](./Methods/Fill.md)
+- [GetClassType](./Methods/GetClassType.md)
+- [GetHeight](./Methods/GetHeight.md)
+- [GetLockValue](./Methods/GetLockValue.md)
+- [GetNextDrawing](./Methods/GetNextDrawing.md)
+- [GetParentContentControl](./Methods/GetParentContentControl.md)
+- [GetParentParagraph](./Methods/GetParentParagraph.md)
+- [GetParentTable](./Methods/GetParentTable.md)
+- [GetParentTableCell](./Methods/GetParentTableCell.md)
+- [GetPrevDrawing](./Methods/GetPrevDrawing.md)
+- [GetWidth](./Methods/GetWidth.md)
+- [InsertInContentControl](./Methods/InsertInContentControl.md)
+- [InsertParagraph](./Methods/InsertParagraph.md)
+- [ScaleHeight](./Methods/ScaleHeight.md)
+- [ScaleWidth](./Methods/ScaleWidth.md)
+- [Select](./Methods/Select.md)
+- [SetDistances](./Methods/SetDistances.md)
+- [SetDrawingPrFromDrawing](./Methods/SetDrawingPrFromDrawing.md)
+- [SetHorAlign](./Methods/SetHorAlign.md)
+- [SetHorFlip](./Methods/SetHorFlip.md)
+- [SetHorPosition](./Methods/SetHorPosition.md)
+- [SetLockValue](./Methods/SetLockValue.md)
+- [SetOutLine](./Methods/SetOutLine.md)
+- [SetSize](./Methods/SetSize.md)
+- [SetVerAlign](./Methods/SetVerAlign.md)
+- [SetVerPosition](./Methods/SetVerPosition.md)
+- [SetVertFlip](./Methods/SetVertFlip.md)
+- [SetWrappingStyle](./Methods/SetWrappingStyle.md)
+- [ToJSON](./Methods/ToJSON.md)

@@ -1,0 +1,28 @@
+# End
+
+Returns a Range object that represents the end in the specified direction in the specified range.
+
+## Syntax
+
+expression.
+
+`expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
+
+## Parametrs
+
+| **Name** | **Required/Optional** | **Data type** | **Description** |
+| ------------- | ------------- | ------------- | ------------- |
+| name | Required/Optional | type | Description |
+
+## Returns
+
+return
+[return](todo_link)
+
+## Example
+
+This example
+
+```javascript
+	code
+```

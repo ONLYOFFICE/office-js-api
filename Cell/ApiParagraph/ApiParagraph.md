@@ -1,0 +1,37 @@
+# ApiParagraph
+
+Class representing a paragraph.
+
+## Methods
+
+- [AddElement](./Methods/AddElement.md)
+- [AddLineBreak](./Methods/AddLineBreak.md)
+- [AddTabStop](./Methods/AddTabStop.md)
+- [AddText](./Methods/AddText.md)
+- [Copy](./Methods/Copy.md)
+- [Delete](./Methods/Delete.md)
+- [GetClassType](./Methods/GetClassType.md)
+- [GetElement](./Methods/GetElement.md)
+- [GetElementsCount](./Methods/GetElementsCount.md)
+- [GetIndFirstLine](./Methods/GetIndFirstLine.md)
+- [GetIndLeft](./Methods/GetIndLeft.md)
+- [GetIndRight](./Methods/GetIndRight.md)
+- [GetJc](./Methods/GetJc.md)
+- [GetNext](./Methods/GetNext.md)
+- [GetParaPr](./Methods/GetParaPr.md)
+- [GetPrevious](./Methods/GetPrevious.md)
+- [GetSpacingAfter](./Methods/GetSpacingAfter.md)
+- [GetSpacingBefore](./Methods/GetSpacingBefore.md)
+- [GetSpacingLineRule](./Methods/GetSpacingLineRule.md)
+- [GetSpacingLineValue](./Methods/GetSpacingLineValue.md)
+- [RemoveAllElements](./Methods/RemoveAllElements.md)
+- [RemoveElement](./Methods/RemoveElement.md)
+- [SetBullet](./Methods/SetBullet.md)
+- [SetIndFirstLine](./Methods/SetIndFirstLine.md)
+- [SetIndLeft](./Methods/SetIndLeft.md)
+- [SetIndRight](./Methods/SetIndRight.md)
+- [SetJc](./Methods/SetJc.md)
+- [SetSpacingAfter](./Methods/SetSpacingAfter.md)
+- [SetSpacingBefore](./Methods/SetSpacingBefore.md)
+- [SetSpacingLine](./Methods/SetSpacingLine.md)
+- [SetTabs](./Methods/SetTabs.md)

@@ -1,0 +1,43 @@
+# ApiRange
+
+Class representing a continuous region in a document. Each Range object is determined by the position of the start and end characters.
+
+## Properties
+
+todo we don't have such properties in code
+- [Start](./Properties/Start.md)
+- [End](./Properties/End.md)
+
+## Methods
+
+- [AddBookmark](./Methods/AddBookmark.md)
+- [AddComment](./Methods/AddComment.md)
+- [AddHyperlink](./Methods/AddHyperlink.md)
+- [AddText](./Methods/AddText.md)
+- [Delete](./Methods/Delete.md)
+- [ExpandTo](./Methods/ExpandTo.md)
+- [GetAllParagraphs](./Methods/GetAllParagraphs.md)
+- [GetClassType](./Methods/GetClassType.md)
+- [GetParagraph](./Methods/GetParagraph.md)
+- [GetRange](./Methods/GetRange.md)
+- [GetText](./Methods/GetText.md)
+- [IntersectWith](./Methods/IntersectWith.md)
+- [Select](./Methods/Select.md)
+- [SetBold](./Methods/SetBold.md)
+- [SetCaps](./Methods/SetCaps.md)
+- [SetColor](./Methods/SetColor.md)
+- [SetDoubleStrikeout](./Methods/SetDoubleStrikeout.md)
+- [SetFontFamily](./Methods/SetFontFamily.md)
+- [SetFontSize](./Methods/SetFontSize.md)
+- [SetHighlight](./Methods/SetHighlight.md)
+- [SetItalic](./Methods/SetItalic.md)
+- [SetPosition](./Methods/SetPosition.md)
+- [SetShd](./Methods/SetShd.md)
+- [SetSmallCaps](./Methods/SetSmallCaps.md)
+- [SetSpacing](./Methods/SetSpacing.md)
+- [SetStrikeout](./Methods/SetStrikeout.md)
+- [SetStyle](./Methods/SetStyle.md)
+- [SetTextPr](./Methods/SetTextPr.md)
+- [SetUnderline](./Methods/SetUnderline.md)
+- [SetVertAlign](./Methods/SetVertAlign.md)
+- [ToJSON](./Methods/ToJSON.md)

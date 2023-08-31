@@ -1,0 +1,34 @@
+# InsertWatermark
+
+Inserts a watermark on each document page.
+
+## Syntax
+
+expression.InsertWatermark(sText?, bIsDiagonal?);
+
+`expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
+
+## Parametrs
+
+| **Name** | **Required/Optional** | **Data type** | **Description** |
+| ------------- | ------------- | ------------- | ------------- |
+| sText | Required/Optional | String | Watermark text. Default value is "WATERMARK". |
+| bIsDiagonal | Required/Optional | Boolean | Specifies if the watermark is placed diagonally (true) or horizontally (false). Default value is "true". |
+
+## Returns
+
+This method doesn't return any data.
+
+## Example
+
+This example inserts a watermark on each document page.
+
+```javascript
+	builder.CreateFile("docx");
+	var oDocument = Api.GetDocument();
+	var oParagraph = oDocument.GetElement(0);
+	oParagraph.AddText("A watermark was inserted into this document.");
+	oDocument.InsertWatermark("Watermark");
+	builder.SaveFile("docx", "InsertWatermark.docx");
+	builder.CloseFile();
+```
