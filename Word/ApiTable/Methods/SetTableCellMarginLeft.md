@@ -23,7 +23,7 @@ This method doesn't return any data.
 This example specifies an amount of space which will be left between the left extent of the cell contents and the left border of all table cells within the parent table.
 
 ```javascript
-	builder.CreateFile("docx");
+builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");

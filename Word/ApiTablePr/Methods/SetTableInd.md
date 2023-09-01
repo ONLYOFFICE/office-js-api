@@ -2,27 +2,43 @@
 
 Specifies the indentation which will be added before the leading edge of the current table in the document (the left edge in the left-to-right table, and the right edge in the right-to-left table).
 
+
 ## Syntax
 
-expression.
+expression.SetTableInd(nValue);
 
 `expression` - A variable that represents a [ApiTablePr](../ApiTablePr.md) class.
 
 ## Parametrs
 
+## Parametrs
+
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| nValue | Required | [twips](../../../Enumerations/twips.md)  | The indentation value measured in twentieths of a point (1/1440 of an inch). |
 
 ## Returns
 
-return
-[return](todo_link)
+This method doesn't return any data.
 
 ## Example
 
-This example
+This example specifies the indentation which will be added before the leading edge of the table in the document.
 
 ```javascript
-	code
+builder.CreateFile("docx");
+var oDocument = Api.GetDocument();
+var oParagraph = oDocument.GetElement(0);
+oParagraph.AddText("We set the indent of 1 inch for the table:");
+var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
+oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
+var oTablePr = oTableStyle.GetTablePr();
+var oTable = Api.CreateTable(3, 3);
+oTable.SetWidth("percent", 100);
+oTablePr.SetTableInd(1440);
+oTable.SetTableLook(true, true, true, true, false, false);
+oTable.SetStyle(oTableStyle);
+oDocument.Push(oTable);
+builder.SaveFile("docx", "SetTableInd.docx");
+builder.CloseFile();
 ```

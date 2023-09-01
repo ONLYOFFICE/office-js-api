@@ -4,25 +4,27 @@ Saves changes to the specified document.
 
 ## Syntax
 
-expression.
+expression.Save();
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
 ## Parametrs
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+This method doesn't have any parameters.
 
 ## Returns
 
-return
-[return](todo_link)
+This method doesn't return any data.
 
 ## Example
 
-This example
+This example saves changes to the specified document.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+oWorksheet.GetRange("A1").SetValue("This sample text is saved to the worksheet.");
+Api.Save();
+builder.SaveFile("xlsx", "Save.xlsx");
+builder.CloseFile();
 ```

@@ -4,7 +4,7 @@ Returns the text from the current form. This method is used only for text and co
 
 ## Syntax
 
-expression.
+expression.GetText();
 
 `expression` - A variable that represents a [ApiCheckBoxForm](../ApiCheckBoxForm.md) class.
 

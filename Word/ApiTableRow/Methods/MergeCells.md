@@ -4,25 +4,33 @@ Merges the cells in the current row.
 
 ## Syntax
 
-expression.
+expression.MergeCells();
 
 `expression` - A variable that represents a [ApiTableRow](../ApiTableRow.md) class.
 
 ## Parametrs
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+This method doesn't have any parameters.
 
 ## Returns
 
-return
-[return](todo_link)
+[ApiTableCell](../../ApiTableCell/ApiTableCell.md) &#124; null
 
 ## Example
 
-This example
+This example merges the cells in the row.
 
 ```javascript
-	code
+builder.CreateFile("docx");
+var oDocument = Api.GetDocument();
+var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
+oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
+var oTable = Api.CreateTable(3, 3);
+oTable.SetStyle(oTableStyle);
+var oRow = oTable.GetRow(0);
+oTable.SetWidth("percent", 100);
+oRow.MergeCells();
+oDocument.Push(oTable);
+builder.SaveFile("docx", "MergeCells.docx");
+builder.CloseFile();
 ```

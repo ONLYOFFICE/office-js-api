@@ -12,9 +12,7 @@ expression.CreateRadialGradientFill(aGradientStop);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| aGradientStop | Required | Array<[ApiGradientStop](../../ApiGradientStop/ApiGradientStop.md)> | The array of gradient color stops measured in 1000th of percent.
-
- |
+| aGradientStop | Required | Array<[ApiGradientStop](../../ApiGradientStop/ApiGradientStop.md)> | The array of gradient color stops measured in 1000th of percent. |
 
 ## Returns
 

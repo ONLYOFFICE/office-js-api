@@ -4,7 +4,7 @@ Creates a new worksheet. The new worksheet becomes the active sheet.
 
 ## Syntax
 
-expression.
+expression.AddSheet(sName);
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -12,17 +12,19 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| sName | Required | String | The name of a new worksheet. |
 
 ## Returns
 
-return
-[return](todo_link)
+This method doesn't return any data.
 
 ## Example
 
-This example
+This example creates a new worksheet.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oSheet = Api.AddSheet("New sheet");
+builder.SaveFile("xlsx", "AddSheet.xlsx");
+builder.CloseFile();
 ```

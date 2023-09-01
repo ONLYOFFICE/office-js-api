@@ -1,10 +1,10 @@
 # SetFormKey
 
-Sets a key to the current form.
+Sets a key to the current form.<br>Inherited From: [ApiFormBase#SetFormKey](../../ApiFormBase/Methods/SetFormKey.md)
 
 ## Syntax
 
-expression.
+expression.SetFormKey(sKey);
 
 `expression` - A variable that represents a [ApiTextForm](../ApiTextForm.md) class.
 
@@ -12,17 +12,27 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| sKey | Required | String | Form key. |
 
 ## Returns
 
-return
-[return](todo_link)
+Boolean
 
 ## Example
 
-This example
+This example sets a key to the current form.
 
 ```javascript
-	code
+builder.CreateFile("docx");
+var oDocument = Api.GetDocument();
+var oTextForm = Api.CreateTextForm({"tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});
+var oParagraph = oDocument.GetElement(0);
+oParagraph.AddElement(oTextForm);
+oTextForm.SetFormKey("Personal information");
+var sKey = oTextForm.GetFormKey();
+oParagraph = Api.CreateParagraph();
+oParagraph.AddText("Form key: " + sKey);
+oDocument.Push(oParagraph);
+builder.SaveFile("docx", "SetFormKey.docx");
+builder.CloseFile();
 ```

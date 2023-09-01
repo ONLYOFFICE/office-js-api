@@ -4,25 +4,34 @@ Returns the parent table of the current row.
 
 ## Syntax
 
-expression.
+expression.GetParentTable();
 
 `expression` - A variable that represents a [ApiTableRow](../ApiTableRow.md) class.
 
 ## Parametrs
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+This method doesn't have any parameters.
 
 ## Returns
 
-return
-[return](todo_link)
+[ApiTable](../ApiTable.md) &#124; null
 
 ## Example
 
-This example
+This example shows how to get the parent table of the row.
 
 ```javascript
-	code
+builder.CreateFile("docx");
+var oDocument = Api.GetDocument();
+var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
+oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
+var oTable = Api.CreateTable(3, 3);
+oTable.SetStyle(oTableStyle);
+oTable.SetWidth("percent", 100);
+var oRow = oTable.GetRow(0);
+var oParentTable = oRow.GetParentTable();
+oParentTable.SetTableBorderBottom("single", 32, 0, 51, 51, 51);
+oDocument.Push(oParentTable);
+builder.SaveFile("docx", "GetParentTable.docx");
+builder.CloseFile();
 ```

@@ -12,17 +12,30 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| sJcType | Required | [HorAlign](../../../Enumerations/HorAlign.md) | The alignment type used for the current table placement. |
 
 ## Returns
 
-return
-[return](todo_link)
+This method doesn't return any data.
 
 ## Example
 
-This example
+This example specifies the alignment of the table with respect to the text margins in the current section.
 
 ```javascript
-	code
+builder.CreateFile("docx");
+var oDocument = Api.GetDocument();
+var oParagraph = oDocument.GetElement(0);
+oParagraph.AddText("The table is aligned at the center of the page horizontally:");
+var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
+oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
+var oTablePr = oTableStyle.GetTablePr();
+oTablePr.SetJc("center");
+var oTable = Api.CreateTable(3, 3);
+oTable.SetWidth("percent", 50);
+oTable.SetTableLook(true, true, true, true, false, false);
+oTable.SetStyle(oTableStyle);
+oDocument.Push(oTable);
+builder.SaveFile("docx", "SetJc.docx");
+builder.CloseFile();
 ```

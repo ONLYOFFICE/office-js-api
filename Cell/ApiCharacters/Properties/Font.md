@@ -1,21 +1,29 @@
 # Font
 
-The font of the specified characters.
+The font of the specified characters. **Read-only**.
 
 ## Syntax
 
-expression.
+expression.Font;
 
 `expression` - A variable that represents a [ApiCharacters](../ApiCharacters.md) class.
 
 ## Returns
 
-ApiFont
+[ApiFont](../../ApiFont/ApiFont.md)
 
 ## Example
 
-This example
+This example shows how to get the ApiFont object that represents the font of the specified characters.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+var oRange = oWorksheet.GetRange("B1");
+oRange.SetValue("This is just a sample text.");
+var oCharacters = oRange.GetCharacters(9, 4);
+var oFont = oCharacters.GetFont();
+oFont.SetBold(true);
+builder.SaveFile("xlsx", "GetFont.xlsx");
+builder.CloseFile();
 ```

@@ -4,25 +4,35 @@ Returns a type of the ApiTableCellPr class.
 
 ## Syntax
 
-expression.
+expression.GetClassType();
 
 `expression` - A variable that represents a [ApiTableCellPr](../ApiTableCellPr.md) class.
 
 ## Parametrs
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+This method doesn't have any parameters.
 
 ## Returns
 
-return
-[return](todo_link)
+String
 
 ## Example
 
-This example
+This example gets a class type and pastes it into the presentation.
 
 ```javascript
-	code
+builder.CreateFile("docx");
+var oDocument = Api.GetDocument();
+var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
+oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
+var oTable = Api.CreateTable(3, 3);
+oTable.SetWidth("percent", 100);
+var oTableCellPr = oTableStyle.GetTableCellPr();
+oTable.SetStyle(oTableStyle);
+oDocument.Push(oTable);
+var sClassType = oTableCellPr.GetClassType();
+var oParagraph = oDocument.GetElement(0);
+oParagraph.AddText("Class Type = " + sClassType);
+builder.SaveFile("docx", "GetClassType.docx");
+builder.CloseFile();
 ```

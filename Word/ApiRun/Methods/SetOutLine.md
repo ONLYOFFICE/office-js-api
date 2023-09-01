@@ -32,7 +32,7 @@ oRun.AddText("This is just a sample text. ");
 oParagraph.AddElement(oRun);
 oRun = Api.CreateRun();
 oRun.AddText("This is a text run with the black text outline.");
-oStroke = Api.CreateStroke(0.2 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51)));
+var oStroke = Api.CreateStroke(0.2 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51)));
 oRun.SetOutLine(oStroke);
 oParagraph.AddElement(oRun);
 builder.SaveFile("docx", "SetOutLine.docx");

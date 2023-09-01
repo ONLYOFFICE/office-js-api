@@ -4,25 +4,35 @@ Returns the table title (caption).
 
 ## Syntax
 
-expression.
+expression.GetTableTitle();
 
 `expression` - A variable that represents a [ApiTablePr](../ApiTablePr.md) class.
 
 ## Parametrs
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+This method doesn't have any parameters.
 
 ## Returns
 
-return
-[return](todo_link)
+String
 
 ## Example
 
-This example
+This example shows how to get the table title.
 
 ```javascript
-	code
+builder.CreateFile("docx");
+var oDocument = Api.GetDocument();
+var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
+oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
+var oTablePr = oTableStyle.GetTablePr();
+var oTable = Api.CreateTable(3, 3);
+oTable.SetWidth("percent", 100);
+oTablePr.SetTableTitle("Table 1");
+oTable.SetStyle(oTableStyle);
+var oParagraph = oDocument.GetElement(0);
+oParagraph.AddText("Table title: " + oTablePr.GetTableTitle());
+oDocument.Push(oTable);
+builder.SaveFile("docx", "GetTableTitle.docx");
+builder.CloseFile();
 ```

@@ -4,7 +4,7 @@ Specifies that any lowercase characters in the current text run are formatted fo
 
 ## Syntax
 
-expression.
+expression.SetCaps(isCaps);
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 

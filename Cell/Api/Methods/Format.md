@@ -4,7 +4,7 @@ Returns a class formatted according to the instructions contained in the format 
 
 ## Syntax
 
-expression.
+expression.Format(expression, format?);
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -12,17 +12,22 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| expression | Required | String | Any valid expression. |
+| format | Optional | String | A valid named or user-defined format expression. Dedault value is "null". |
 
 ## Returns
 
-return
-[return](todo_link)
+String
 
 ## Example
 
-This example
+This example shows how to get a class formatted according to the instructions contained in the format expression.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+var oFormat = Api.Format("123456", ["$#,##0"]);
+oWorksheet.GetRange("A1").SetValue(oFormat);
+builder.SaveFile("xlsx", "Format.xlsx");
+builder.CloseFile();
 ```

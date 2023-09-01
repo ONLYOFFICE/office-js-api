@@ -4,7 +4,7 @@ Returns the ApiRange object that represents the rectangular intersection of two 
 
 ## Syntax
 
-expression.
+expression.Intersect(Range1, Range2);
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -12,17 +12,24 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| Range1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | One of the intersecting ranges. At least two Range objects must be specified. |
+| Range2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | One of the intersecting ranges. At least two Range objects must be specified. |
 
 ## Returns
 
-return
-[return](todo_link)
+[ApiRange](../../ApiRange/ApiRange.md) &#124; Error
 
 ## Example
 
-This example
+This example shows how to get the ApiRange object that represents the rectangular intersection of two or more ranges.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+var oRange1 = oWorksheet.GetRange("A1:C5");
+var oRange2 = oWorksheet.GetRange("B2:B4");
+var oRange = Api.Intersect(oRange1, oRange2);
+oRange.SetFillColor(Api.CreateColorFromRGB(255, 213, 191));
+builder.SaveFile("xlsx", "Intersect.xlsx");
+builder.CloseFile();
 ```

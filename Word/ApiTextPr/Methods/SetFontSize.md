@@ -4,7 +4,7 @@ Sets the font size to the characters of the current text run.
 
 ## Syntax
 
-expression.
+expression.SetFontSize(nSize);
 
 `expression` - A variable that represents a [ApiTextPr](../ApiTextPr.md) class.
 
@@ -12,17 +12,23 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| nSize | Required | [hps](../../../Enumerations/hps.md) | The text size value measured in half-points (1/144 of an inch). |
 
 ## Returns
 
-return
-[return](todo_link)
+[ApiTextPr](../../ApiTextPr/ApiTextPr.md)
 
 ## Example
 
-This example
+This example sets the font size to the characters of the current text run.
 
 ```javascript
-	code
+builder.CreateFile("docx");
+var oDocument = Api.GetDocument();
+var oTextPr = oDocument.GetDefaultTextPr();
+oTextPr.SetFontSize(30);
+var oParagraph = oDocument.GetElement(0);
+oParagraph.AddText("A sample text with the font size set to 15 points using the text properties.");
+builder.SaveFile("docx", "SetFontSize.docx");
+builder.CloseFile();
 ```

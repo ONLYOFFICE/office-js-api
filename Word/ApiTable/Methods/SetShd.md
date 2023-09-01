@@ -1,6 +1,6 @@
 # SetShd
 
-Specifies the shading which shall be applied to the extents of the current table.
+Specifies the shading which shall be applied to the extents of the current table.<br>Inherited From: [ApiTablePr#SetShd](../../ApiTablePr/Methods/SetShd.md)
 
 ## Syntax
 

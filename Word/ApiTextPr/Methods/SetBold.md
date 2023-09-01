@@ -4,7 +4,7 @@ Sets the bold property to the text character.
 
 ## Syntax
 
-expression.
+expression.SetBold(isBold);
 
 `expression` - A variable that represents a [ApiTextPr](../ApiTextPr.md) class.
 
@@ -12,17 +12,23 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| isBold | Required | Boolean | Specifies that the contents of the current run are displayed bold. |
 
 ## Returns
 
-return
-[return](todo_link)
+[ApiTextPr](../../ApiTextPr/ApiTextPr.md)
 
 ## Example
 
-This example
+This example sets the bold property to the text character.
 
 ```javascript
-	code
+builder.CreateFile("docx");
+var oDocument = Api.GetDocument();
+var oTextPr = oDocument.GetDefaultTextPr();
+oTextPr.SetBold(true);
+var oParagraph = oDocument.GetElement(0);
+oParagraph.AddText("A sample text with the font weight set to bold using the text properties.");
+builder.SaveFile("docx", "SetBold.docx");
+builder.CloseFile();
 ```

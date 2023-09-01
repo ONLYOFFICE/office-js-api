@@ -26,7 +26,7 @@ This method doesn't return any data.
 This example specifies the indentation which will be added before the leading edge of the table in the document.
 
 ```javascript
-	builder.CreateFile("docx");
+builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("We set the indent of 1 inch for the table:");

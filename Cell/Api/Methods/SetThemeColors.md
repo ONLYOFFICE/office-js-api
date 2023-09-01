@@ -4,7 +4,7 @@ Sets the theme colors to the current spreadsheet.
 
 ## Syntax
 
-expression.
+expression.SetThemeColors(sTheme);
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -12,17 +12,25 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| sTheme | Required | String | The color scheme that will be set to the current spreadsheet. |
 
 ## Returns
 
-return
-[return](todo_link)
+Boolean
 
 ## Example
 
-This example
+This example sets the theme colors to the current spreadsheet.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+var themes = Api.GetThemesColors();
+for (let i = 0; i < themes.length; ++i) {
+	oWorksheet.GetRange("A" + (i + 1)).SetValue(themes[i]);
+}
+Api.SetThemeColors(themes[3]);
+oWorksheet.GetRange("C3").SetValue("The 'Apex' theme colors were set to the current spreadsheet.");
+builder.SaveFile("xlsx", "SetThemeColors.xlsx");
+builder.CloseFile();
 ```

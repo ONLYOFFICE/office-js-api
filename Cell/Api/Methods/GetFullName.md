@@ -4,25 +4,27 @@ Returns the full name of the currently opened file.
 
 ## Syntax
 
-expression.
+expression.GetFullName();
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
 ## Parametrs
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+This method doesn't have any parameters.
 
 ## Returns
 
-return
-[return](todo_link)
+String
 
 ## Example
 
-This example
+This example shows how to get the full name of the currently opened file.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+var sName = Api.GetFullName();
+oWorksheet.GetRange("B1").SetValue("File name: " + sName);
+builder.SaveFile("xlsx", "GetFullName.xlsx");
+builder.CloseFile();
 ```

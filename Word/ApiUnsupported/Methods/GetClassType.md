@@ -1,28 +1,25 @@
 # GetClassType
 
-Returns a type of the ApiUniColor class.
+Returns a type of the ApiUnsupported class.
 
 ## Syntax
 
-expression.
+expression.GetClassType();
 
 `expression` - A variable that represents a [ApiUnsupported](../ApiUnsupported.md) class.
 
 ## Parametrs
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+This method doesn't have any parameters.
 
 ## Returns
 
-return
-[return](todo_link)
+String
 
 ## Example
 
-This example
+This example gets a class type and pastes it into the presentation.
 
 ```javascript
-	code
+// todo_example
 ```

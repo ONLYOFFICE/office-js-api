@@ -4,7 +4,7 @@ Specifies that the current table row will be repeated at the top of each new pag
 
 ## Syntax
 
-expression.
+expression.SetTableHeader(isHeader);
 
 `expression` - A variable that represents a [ApiTableRowPr](../ApiTableRowPr.md) class.
 
@@ -12,17 +12,30 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| isHeader | Required | Boolean | The true value means that the current table row will be repeated at the top of each new page. |
 
 ## Returns
 
-return
-[return](todo_link)
+This method doesn't return any data.
 
 ## Example
 
-This example
+This example specifies that the current table row will be repeated at the top of each new page wherever this table is displayed.
 
 ```javascript
-	code
+builder.CreateFile("docx");
+var oDocument = Api.GetDocument();
+var oParagraph = oDocument.GetElement(0);
+oParagraph.AddText("We create a 3x3 table and set all table rows as the table headers:");
+var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
+oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
+var oTable = Api.CreateTable(3, 3);
+oTable.SetWidth("percent", 100);
+oTable.SetTableLook(true, true, true, true, false, false);
+var oTableRowPr = oTableStyle.GetTableRowPr();
+oTableRowPr.SetTableHeader(true);
+oTable.SetStyle(oTableStyle);
+oDocument.Push(oTable);
+builder.SaveFile("docx", "SetTableHeader.docx");
+builder.CloseFile();
 ```

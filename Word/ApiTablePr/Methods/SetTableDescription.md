@@ -4,7 +4,7 @@ Sets the table description.
 
 ## Syntax
 
-expression.
+expression.SetTableDescription(sDescr);
 
 `expression` - A variable that represents a [ApiTablePr](../ApiTablePr.md) class.
 
@@ -12,17 +12,29 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| sDescr | Required | String | The table description to be set. |
 
 ## Returns
 
-return
-[return](todo_link)
+Boolean
 
 ## Example
 
-This example
+This example sets the table description.
 
 ```javascript
-	code
+builder.CreateFile("docx");
+var oDocument = Api.GetDocument();
+var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
+oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
+var oTablePr = oTableStyle.GetTablePr();
+var oTable = Api.CreateTable(3, 3);
+oTable.SetWidth("percent", 100);
+oTablePr.SetTableDescription("Empty table");
+oTable.SetStyle(oTableStyle);
+var oParagraph = oDocument.GetElement(0);
+oParagraph.AddText("Table description: " + oTablePr.GetTableDescription());
+oDocument.Push(oTable);
+builder.SaveFile("docx", "SetTableDescription.docx");
+builder.CloseFile();
 ```

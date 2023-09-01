@@ -24,7 +24,6 @@ expression.SetTextFill(oApiFill);
 This example sets the text fill to the current text run.
 
 ```javascript
-
 builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);

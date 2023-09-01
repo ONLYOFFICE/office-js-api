@@ -4,25 +4,33 @@ Removes the current table row.
 
 ## Syntax
 
-expression.
+expression.Remove();
 
 `expression` - A variable that represents a [ApiTableRow](../ApiTableRow.md) class.
 
 ## Parametrs
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+This method doesn't have any parameters.
 
 ## Returns
 
-return
-[return](todo_link)
+Boolean
 
 ## Example
 
-This example
+This example removes the table row.
 
 ```javascript
-	code
+builder.CreateFile("docx");
+var oDocument = Api.GetDocument();
+var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
+oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
+var oTable = Api.CreateTable(3, 3);
+oTable.SetStyle(oTableStyle);
+var oRow = oTable.GetRow(0);
+oRow.GetCell(0).GetContent().GetElement(0).AddText("First row");
+oRow.Remove();
+oDocument.Push(oTable);
+builder.SaveFile("docx", "Remove.docx");
+builder.CloseFile();
 ```

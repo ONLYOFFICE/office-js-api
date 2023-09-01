@@ -1,10 +1,10 @@
 # SetUnderline
 
-Specifies that the contents of the run are displayed along with a line appearing directly below the character (less than all the spacing above and below the characters on the line).
+Specifies that the contents of the current run are displayed along with a line appearing directly below the character (less than all the spacing above and below the characters on the line).
 
 ## Syntax
 
-expression.
+expression.SetUnderline(isUnderline);
 
 `expression` - A variable that represents a [ApiTextPr](../ApiTextPr.md) class.
 
@@ -12,17 +12,23 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| isUnderline | Required | Boolean | Specifies that the contents of the current run are displayed underlined. |
 
 ## Returns
 
-return
-[return](todo_link)
+[ApiTextPr](../../ApiTextPr/ApiTextPr.md)
 
 ## Example
 
-This example
+This example specifies that the contents of the current run are displayed along with a line appearing directly below the character (less than all the spacing above and below the characters on the line).
 
 ```javascript
-	code
+builder.CreateFile("docx");
+var oDocument = Api.GetDocument();
+var oTextPr = oDocument.GetDefaultTextPr();
+oTextPr.SetUnderline(true);
+var oParagraph = oDocument.GetElement(0);
+oParagraph.AddText("A sample text underlined with a single line.");
+builder.SaveFile("docx", "SetUnderline.docx");
+builder.CloseFile();
 ```

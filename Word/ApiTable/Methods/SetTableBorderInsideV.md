@@ -10,8 +10,6 @@ expression.SetTableBorderInsideV(sType, nSize, nSpace, r, g, b);
 
 ## Parametrs
 
-## Parametrs
-
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
 | sType | Required | [BorderType](../../../Enumerations/BorderType.md) | The border style. |

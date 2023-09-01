@@ -4,7 +4,7 @@ Creates a color selecting it from one of the available color presets.
 
 ## Syntax
 
-expression.
+expression.CreateColorByName(sPresetColor);
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -12,17 +12,22 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| sPresetColor | Required | [PresetColor](../../../Enumerations/PresetColor.md) | A preset selected from the list of the available color preset names. |
 
 ## Returns
 
-return
-[return](todo_link)
+[ApiColor](../../ApiColor/ApiColor.md)
 
 ## Example
 
-This example
+This example creates a color selecting it from one of the available color presets.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+var oColor = Api.CreateColorByName("peachPuff");
+oWorksheet.GetRange("A2").SetValue("Text with color");
+oWorksheet.GetRange("A2").SetFontColor(oColor);
+builder.SaveFile("xlsx", "CreateColorByName.xlsx");
+builder.CloseFile();
 ```

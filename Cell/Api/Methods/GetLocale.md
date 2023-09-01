@@ -4,25 +4,28 @@ Returns the current locale ID.
 
 ## Syntax
 
-expression.
+expression.GetLocale();
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
 ## Parametrs
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+This method doesn't have any parameters.
 
 ## Returns
 
-return
-[return](todo_link)
+Number
 
 ## Example
 
-This example
+This example shows how to get the current locale ID.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+Api.SetLocale("en-CA");
+var nLocale = Api.GetLocale();
+oWorksheet.GetRange("A1").SetValue("Locale: " + nLocale);
+builder.SaveFile("xlsx", "GetLocale.xlsx");
+builder.CloseFile();
 ```

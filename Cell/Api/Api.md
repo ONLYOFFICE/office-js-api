@@ -2,6 +2,10 @@
 
 Class representing a base class.
 
+## Events
+
+- [onWorksheetChange](./Events/onWorksheetChange.md)
+
 ## Properties
 
 - [Sheets](./Properties/Sheets.md)

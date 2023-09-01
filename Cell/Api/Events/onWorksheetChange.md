@@ -1,10 +1,11 @@
-# attachEvent
+# onWorksheetChange
 
-Subscribes to the specified event and calls the callback function when the event fires.
+The callback function which is called when the specified range of the current sheet changes.
+<br>Please note that the event is not called for the undo/redo operations.
 
 ## Syntax
 
-expression.attachEvent(eventName, callback);
+expression.attachEvent("asc_onHyperlinkClick", callback);
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -14,10 +15,6 @@ expression.attachEvent(eventName, callback);
 | ------------- | ------------- | ------------- | ------------- |
 | eventName | Required | String | The event name. |
 | callback | Required | Function | Function to be called when the event fires. |
-
-## Returns
-
-This method doesn't return any data.
 
 ## Example
 

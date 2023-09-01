@@ -4,7 +4,7 @@ Returns an object that represents a sheet.
 
 ## Syntax
 
-expression.
+expression.GetSheet(nameOrIndex);
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -12,17 +12,20 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| nameOrIndex | Required | String &#124; Number | Sheet name or sheet index. |
 
 ## Returns
 
-return
-[return](todo_link)
+[ApiWorksheet](../../ApiWorksheet/ApiWorksheet.md) &#124; null
 
 ## Example
 
-This example
+This example shows how to get an object that represents a sheet.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetSheet("Sheet1");
+oWorksheet.GetRange("A1").SetValue("This is a sample text on 'Sheet1'.");
+builder.SaveFile("xlsx", "GetSheet.xlsx");
+builder.CloseFile();
 ```

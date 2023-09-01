@@ -4,7 +4,7 @@ Sets a locale to the document.
 
 ## Syntax
 
-expression.
+expression.SetLocale(LCID);
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -12,17 +12,21 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| LCID | Required | number | The locale specified. |
 
 ## Returns
 
-return
-[return](todo_link)
+This method doesn't return any data.
 
 ## Example
 
-This example
+This example sets a locale to the document.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+Api.SetLocale("en-CA");
+oWorksheet.GetRange("A1").SetValue("A sample spreadsheet with the language set to English (Canada).");
+builder.SaveFile("xlsx", "SetLocale.xlsx");
+builder.CloseFile();
 ```

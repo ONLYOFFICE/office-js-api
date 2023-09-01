@@ -23,7 +23,7 @@ This method doesn't return any data.
 This example specifies the default table cell spacing.
 
 ```javascript
-	builder.CreateFile("docx");
+builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("We create a 3x3 table and set the cell spacing to half an inch:");

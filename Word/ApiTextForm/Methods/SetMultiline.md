@@ -4,7 +4,7 @@ Specifies if the current text field should be miltiline.
 
 ## Syntax
 
-expression.
+expression.SetMultiline(bMultiline);
 
 `expression` - A variable that represents a [ApiTextForm](../ApiTextForm.md) class.
 
@@ -12,17 +12,28 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| bMultiline | Required | Boolean | Defines if the current text field is multiline (true) or not (false). |
 
 ## Returns
 
-return
-[return](todo_link)
+Boolean
 
 ## Example
 
-This example
+This example specifies if the text field should be miltiline.
 
 ```javascript
-	code
+builder.CreateFile("docx");
+var oDocument = Api.GetDocument();
+var oTextForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "autoFit": false});
+var oParagraph = oDocument.GetElement(0);
+oParagraph.AddElement(oTextForm);
+oTextForm.ToFixed(3 * 240, 3 * 240);
+oTextForm.SetMultiline(true);
+var bMultiline = oTextForm.IsMultiline();
+oParagraph = Api.CreateParagraph();
+oParagraph.AddText("The first text form from this document is multiline: " + bMultiline);
+oDocument.Push(oParagraph);
+builder.SaveFile("docx", "SetMultiline.docx");
+builder.CloseFile();
 ```

@@ -4,25 +4,33 @@ Returns the next row if exists.
 
 ## Syntax
 
-expression.
+expression.GetNext();
 
 `expression` - A variable that represents a [ApiTableRow](../ApiTableRow.md) class.
 
 ## Parametrs
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+This method doesn't have any parameters.
 
 ## Returns
 
-return
-[return](todo_link)
+[ApiTableRow](../ApiTableRow.md) &#124; null
 
 ## Example
 
-This example
+This example shows how to get the next row.
 
 ```javascript
-	code
+builder.CreateFile("docx");
+var oDocument = Api.GetDocument();
+var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
+oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
+var oTable = Api.CreateTable(3, 3);
+oTable.SetStyle(oTableStyle);
+var oRow = oTable.GetRow(0);
+oRow.GetCell(0).GetContent().GetElement(0).AddText("First row");
+oRow.GetNext().GetCell(0).GetContent().GetElement(0).AddText("Second row");
+oDocument.Push(oTable);
+builder.SaveFile("docx", "GetNext.docx");
+builder.CloseFile();
 ```

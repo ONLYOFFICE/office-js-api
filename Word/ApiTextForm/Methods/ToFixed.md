@@ -1,10 +1,10 @@
 # ToFixed
 
-Converts the current form to a fixed size form.
+Converts the current form to a fixed size form.<br>Inherited From: [ApiFormBase#ToFixed](../../ApiFormBase/Methods/ToFixed.md)
 
 ## Syntax
 
-expression.
+expression.ToFixed(nWidth, nHeight);
 
 `expression` - A variable that represents a [ApiTextForm](../ApiTextForm.md) class.
 
@@ -12,17 +12,28 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| nWidth | Required | [twips](../../../Enumerations/twips.md) | The wrapper shape width measured in twentieths of a point (1/1440 of an inch). |
+| nHeight | Required | [twips](../../../Enumerations/twips.md) | The wrapper shape height measured in twentieths of a point (1/1440 of an inch). |
 
 ## Returns
 
-return
-[return](todo_link)
+Boolean
 
 ## Example
 
-This example
+This example converts the current form to a fixed size form.
 
 ```javascript
-	code
+builder.CreateFile("docx");
+var oDocument = Api.GetDocument();
+var oTextForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});
+var oParagraph = oDocument.GetElement(0);
+oParagraph.AddElement(oTextForm);
+oTextForm.ToFixed(10 * 240, 2 * 240);
+var bFixed = oTextForm.IsFixed();
+oParagraph = Api.CreateParagraph();
+oParagraph.AddText("The first form from this document has a fixed size: " + bFixed);
+oDocument.Push(oParagraph);
+builder.SaveFile("docx", "ToFixed.docx");
+builder.CloseFile();
 ```
