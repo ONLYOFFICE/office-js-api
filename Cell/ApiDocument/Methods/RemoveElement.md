@@ -1,10 +1,10 @@
 # RemoveElement
 
-Removes an element using the position specified.
+Removes an element using the position specified.<br>Inherited From: [ApiDocumentContent#RemoveElement](../../ApiDocumentContent/Methods/RemoveElement.md)
 
 ## Syntax
 
-expression.
+expression.RemoveElement(nPos);
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
@@ -12,17 +12,16 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| nPos | Required | Number | The element number (position) in the document or inside other element. |
 
 ## Returns
 
-return
-[return](todo_link)
+This method doesn't return any data.
 
 ## Example
 
-This example
+This example removes an element using the position specified.
 
 ```javascript
-	code
+// todo_example
 ```

@@ -1,4 +1,4 @@
-# DrawingAlign
+# HorAlign
 
 The alignment type which will be used for the object horizontal alignment.
 

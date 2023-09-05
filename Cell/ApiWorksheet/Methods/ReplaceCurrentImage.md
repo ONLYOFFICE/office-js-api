@@ -4,7 +4,7 @@ Replaces the current image with a new one.
 
 ## Syntax
 
-expression.
+expression.ReplaceCurrentImage(sImageUrl, nWidth, nHeight);
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 
@@ -12,17 +12,18 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| sImageUrl | Required | String | The image source where the image to be inserted should be taken from (currently only internet URL or Base64 encoded images are supported). |
+| nWidth | Required | [EMU](../../../Enumerations/Emu.md) | The image width in English measure units. |
+| nHeight | Required | [EMU](../../../Enumerations/Emu.md) | The image height in English measure units. |
 
 ## Returns
 
-return
-[return](todo_link)
+This method doesn't return any data.
 
 ## Example
 
-This example
+This example replaces the image with a new one.
 
 ```javascript
-	code
+// todo_example
 ```

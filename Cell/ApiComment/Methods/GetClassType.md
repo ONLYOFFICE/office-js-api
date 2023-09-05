@@ -4,25 +4,31 @@ Returns a type of the ApiComment class.
 
 ## Syntax
 
-expression.
+expression.GetClassType();
 
 `expression` - A variable that represents a [ApiComment](../ApiComment.md) class.
 
 ## Parametrs
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+This method doesn't have any parameters.
 
 ## Returns
 
-return
-[return](todo_link)
+String
 
 ## Example
 
-This example
+This example gets a class type and inserts it into the table.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+oWorksheet.GetRange("A1").SetValue("1");
+var oRange = oWorksheet.GetRange("A1");
+oRange.AddComment("This is just a number.");
+var oComment = oRange.GetComment();
+var sType = oComment.GetClassType();
+oWorksheet.GetRange("A3").SetValue("Type: " + sType + " (number of comment data type)");
+builder.SaveFile("xlsx", "GetClassType.xlsx");
+builder.CloseFile();
 ```

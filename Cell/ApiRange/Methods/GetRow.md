@@ -4,25 +4,27 @@ Returns a row number for the selected cell.
 
 ## Syntax
 
-expression.
+expression.GetRow();
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
 ## Parametrs
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+This method doesn't have any parameters.
 
 ## Returns
 
-return
-[return](todo_link)
+Number
 
 ## Example
 
-This example
+This example shows how to get a row number for the selected cell.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+var oRange = oWorksheet.GetRange("A9").GetRow();
+oWorksheet.GetRange("A2").SetValue(oRange.toString());
+builder.SaveFile("xlsx", "GetRow.xlsx");
+builder.CloseFile();
 ```

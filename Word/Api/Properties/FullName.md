@@ -1,6 +1,6 @@
 # FullName
 
-Returns the full name of the currently opened file. **Read-only**.
+Returns the full name of the currently opened file. **Read-only**
 
 ## Syntax
 

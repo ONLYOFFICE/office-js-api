@@ -4,7 +4,7 @@ Returns the ApiCharacters object that represents a range of characters within th
 
 ## Syntax
 
-expression.
+expression.GetCharacters(Start, Length);
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
@@ -12,17 +12,25 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| Start | Required | Number | The first character to be returned. If this argument is either 1 or omitted, this property returns a range of characters starting with the first character. |
+| Length | Required | Number | The number of characters to be returned. If this argument is omitted, this property returns the remainder of the string (everything after the Start character). |
 
 ## Returns
 
-return
-[return](todo_link)
+[ApiCharacters](../../ApiCharacters/ApiCharacters.md)
 
 ## Example
 
-This example
+This example shows how to get the ApiCharacters object that represents a range of characters within the object text.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+var oRange = oWorksheet.GetRange("B1");
+oRange.SetValue("This is just a sample text.");
+var oCharacters = oRange.GetCharacters(9, 4);
+var oFont = oCharacters.GetFont();
+oFont.SetBold(true);
+builder.SaveFile("xlsx", "GetCharacters.xlsx");
+builder.CloseFile();
 ```

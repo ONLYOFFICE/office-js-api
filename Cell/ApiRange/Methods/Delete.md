@@ -4,7 +4,7 @@ Deletes the Range object.
 
 ## Syntax
 
-expression.
+expression.Delete(shift);
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
@@ -12,17 +12,25 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| shift | Required | String | Specifies how to shift cells to replace the deleted cells ("up", "left"). |
 
 ## Returns
 
-return
-[return](todo_link)
+This method doesn't return any data.
 
 ## Example
 
-This example
+This example deletes the Range object.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+oWorksheet.GetRange("B4").SetValue("1");
+oWorksheet.GetRange("C4").SetValue("2");
+oWorksheet.GetRange("D4").SetValue("3");
+oWorksheet.GetRange("C5").SetValue("5");
+var oRange = oWorksheet.GetRange("C4");
+oRange.Delete("up");
+builder.SaveFile("xlsx", "Delete.xlsx");
+builder.CloseFile();
 ```

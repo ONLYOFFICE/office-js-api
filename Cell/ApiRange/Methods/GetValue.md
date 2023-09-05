@@ -4,25 +4,29 @@ Returns a value of the specified range.
 
 ## Syntax
 
-expression.
+expression.GetValue();
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
 ## Parametrs
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+This method doesn't have any parameters.
 
 ## Returns
 
-return
-[return](todo_link)
+String &#124; Array<Array<String>>
 
 ## Example
 
-This example
+This example shows how to get a value of the specified range.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+oWorksheet.GetRange("A1").SetValue("1");
+var sValue = oWorksheet.GetRange("A1").GetValue();
+oWorksheet.GetRange("A3").SetValue("Value of the cell A1: ");
+oWorksheet.GetRange("B3").SetValue(sValue);
+builder.SaveFile("xlsx", "GetValue.xlsx");
+builder.CloseFile();
 ```

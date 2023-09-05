@@ -4,25 +4,27 @@ Returns the left margin of the sheet.
 
 ## Syntax
 
-expression.
+expression.GetLeftMargin();
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 
 ## Parametrs
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+This method doesn't have any parameters.
 
 ## Returns
 
-return
-[return](todo_link)
+Number
 
 ## Example
 
-This example
+This example shows how to get the left margin of the sheet.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+var nLeftMargin = oWorksheet.GetLeftMargin();
+oWorksheet.GetRange("A1").SetValue("Left margin: " + nLeftMargin + " mm");
+builder.SaveFile("xlsx", "GetLeftMargin.xlsx");
+builder.CloseFile();
 ```

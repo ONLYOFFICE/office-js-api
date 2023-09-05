@@ -4,25 +4,28 @@ Returns the page orientation.
 
 ## Syntax
 
-expression.
+expression.GetPageOrientation();
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 
 ## Parametrs
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+This method doesn't have any parameters.
 
 ## Returns
 
-return
-[return](todo_link)
+[PageOrientation](../../../Enumerations/PageOrientation.md)
 
 ## Example
 
-This example
+This example shows how to get the page orientation.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+var sPageOrientation = oWorksheet.GetPageOrientation();
+oWorksheet.GetRange("A1").SetValue("Page orientation: ");
+oWorksheet.GetRange("C1").SetValue(sPageOrientation);
+builder.SaveFile("xlsx", "GetPageOrientation.xlsx");
+builder.CloseFile();
 ```

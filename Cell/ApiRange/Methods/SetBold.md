@@ -4,7 +4,7 @@ Sets the bold property to the text characters in the current cell or cell range.
 
 ## Syntax
 
-expression.
+expression.SetBold(isBold);
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
@@ -12,17 +12,22 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| isBold | Required | Boolean | Specifies that the contents of the current cell / cell range are displayed bold. |
 
 ## Returns
 
-return
-[return](todo_link)
+This method doesn't return any data.
 
 ## Example
 
-This example
+This example sets the bold property to the text characters in the current cell or cell range.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+oWorksheet.GetRange("A2").SetValue("Bold text");
+oWorksheet.GetRange("A2").SetBold(true);
+oWorksheet.GetRange("A3").SetValue("Normal text");
+builder.SaveFile("xlsx", "SetBold.xlsx");
+builder.CloseFile();
 ```

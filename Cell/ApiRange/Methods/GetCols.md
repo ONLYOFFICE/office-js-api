@@ -4,7 +4,7 @@ Returns a Range object that represents the columns in the specified range.
 
 ## Syntax
 
-expression.
+expression.GetCols(nCol);
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
@@ -12,17 +12,21 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| nCol | Required | Number | The column number. |
 
 ## Returns
 
-return
-[return](todo_link)
+[ApiRange](../ApiRange.md) | &#124;
 
 ## Example
 
-This example
+This example shows how to get a Range object that represents the columns in the specified range.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+var oRange = oWorksheet.GetRange("A1:C3");
+oRange.GetCols(2).SetFillColor(Api.CreateColorFromRGB(255, 213, 191));
+builder.SaveFile("xlsx", "GetCols.xlsx");
+builder.CloseFile();
 ```

@@ -10,19 +10,26 @@ expression.
 
 ## Parametrs
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+This method doesn't have any parameters.
 
 ## Returns
 
-return
-[return](todo_link)
+Number &#124; null
 
 ## Example
 
-This example
+This example shows how to get the font size property of the specified font.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+var oRange = oWorksheet.GetRange("B1");
+oRange.SetValue("This is just a sample text.");
+var oCharacters = oRange.GetCharacters(9, 4);
+var oFont = oCharacters.GetFont();
+oFont.SetSize(18);
+var nSize = oFont.GetSize();
+oWorksheet.GetRange("B3").SetValue("Size property: " + nSize);
+builder.SaveFile("xlsx", "GetSize.xlsx");
+builder.CloseFile();
 ```

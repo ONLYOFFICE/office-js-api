@@ -1,28 +1,25 @@
 # GetElementsCount
 
-Returns a number of elements in the current document.
+Returns a number of elements in the current document.<br>Inherited From: [ApiDocumentContent#GetElementsCount](../../ApiDocumentContent/Methods/GetElementsCount.md)
 
 ## Syntax
 
-expression.
+expression.GetElementsCount();
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
 ## Parametrs
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+This method doesn't have any parameters.
 
 ## Returns
 
-return
-[return](todo_link)
+Number
 
 ## Example
 
-This example
+This example shows how to get a number of elements in the current document.
 
 ```javascript
-	code
+// todo_example
 ```

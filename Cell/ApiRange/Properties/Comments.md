@@ -1,21 +1,28 @@
 # Comments
 
-Returns the ApiComment collection that represents all the comments from the specified worksheet.
+Returns the ApiComment collection that represents all the comments from the specified worksheet. **Read-only**
 
 ## Syntax
 
-expression.
+expression.Comments;
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
 ## Returns
 
-ApiComment | null
+[ApiComment](../../ApiComment/ApiComment.md) &#124; null
 
 ## Example
 
-This example
+This example shows how to get the ApiComment object of the range.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+var oRange = oWorksheet.GetRange("A1");
+oRange.SetValue("1");
+oRange.AddComment("This is just a number.");
+oWorksheet.GetRange("A3").SetValue("Comment: " + oRange.Comments.GetText());
+builder.SaveFile("xlsx", "Comments.xlsx");
+builder.CloseFile();
 ```

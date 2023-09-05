@@ -4,7 +4,7 @@ Specifies whether the current sheet row/column headers must be printed or not.
 
 ## Syntax
 
-expression.
+expression.SetPrintHeadings(bPrint);
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 
@@ -12,17 +12,21 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| bPrint | Required | boolean | Specifies whether the current sheet row/column headers must be printed or not. |
 
 ## Returns
 
-return
-[return](todo_link)
+This method doesn't return any data.
 
 ## Example
 
-This example
+This example specifies whether the current sheet row/column headers must be printed or not.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+oWorksheet.SetPrintHeadings(true);
+oWorksheet.GetRange("A1").SetValue("Row and column headings will be printed with this page: " + oWorksheet.GetPrintHeadings());
+builder.SaveFile("xlsx", "SetPrintHeadings.xlsx");
+builder.CloseFile();
 ```

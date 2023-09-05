@@ -4,25 +4,27 @@ Returns the page PrintGridlines property which specifies whether the current she
 
 ## Syntax
 
-expression.
+expression.GetPrintGridlines();
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 
 ## Parametrs
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+This method doesn't have any parameters.
 
 ## Returns
 
-return
-[return](todo_link)
+Boolean
 
 ## Example
 
-This example
+This example shows how to get the page PrintGridlines property which specifies whether the sheet gridlines must be printed or not.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+oWorksheet.SetPrintGridlines(true);
+oWorksheet.GetRange("A1").SetValue("Gridlines of cells will be printed on this page: " + oWorksheet.GetPrintGridlines());
+builder.SaveFile("xlsx", "GetPrintGridlines.xlsx");
+builder.CloseFile();
 ```

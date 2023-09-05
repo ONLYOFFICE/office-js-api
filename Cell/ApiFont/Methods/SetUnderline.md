@@ -4,7 +4,7 @@ Sets an underline of the type specified in the request to the current font.
 
 ## Syntax
 
-expression.
+expression.SetUnderline(Underline);
 
 `expression` - A variable that represents a [ApiFont](../ApiFont.md) class.
 
@@ -12,17 +12,24 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| Underline | Required | [XlUnderlineStyle](../../../Enumerations/XlUnderlineStyle.md) | Underline type. |
 
 ## Returns
 
-return
-[return](todo_link)
+This method doesn't return any data.
 
 ## Example
 
-This example
+This example sets an underline of the type specified in the request to the font.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+var oRange = oWorksheet.GetRange("B1");
+oRange.SetValue("This is just a sample text.");
+var oCharacters = oRange.GetCharacters(9, 4);
+var oFont = oCharacters.GetFont();
+oFont.SetUnderline("xlUnderlineStyleSingle");
+builder.SaveFile("xlsx", "SetUnderline.xlsx");
+builder.CloseFile();
 ```

@@ -1,10 +1,10 @@
 # Push
 
-Pushes a paragraph or a table to actually add it to the document.
+Pushes a paragraph or a table to actually add it to the document.<br>Inherited From: [ApiDocumentContent#Push](../../ApiDocumentContent/Methods/Push.md)
 
 ## Syntax
 
-expression.
+expression.Push(oElement);
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
@@ -12,17 +12,16 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| oElement | Required | [DocumentElement](../../../Enumerations/DocumentElement.md) | The element type which will be pushed to the document. |
 
 ## Returns
 
-return
-[return](todo_link)
+Boolean
 
 ## Example
 
-This example
+This example pushes 5 paragraphs to actually add its to the document.
 
 ```javascript
-	code
+// todo_example
 ```

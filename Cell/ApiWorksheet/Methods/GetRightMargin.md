@@ -4,25 +4,27 @@ Returns the right margin of the sheet.
 
 ## Syntax
 
-expression.
+expression.GetRightMargin();
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 
 ## Parametrs
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+This method doesn't have any parameters.
 
 ## Returns
 
-return
-[return](todo_link)
+Number
 
 ## Example
 
-This example
+This example shows how to get the right margin of the sheet.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+var nRightMargin = oWorksheet.GetRightMargin();
+oWorksheet.GetRange("A1").SetValue("Right margin: " + nRightMargin + " mm");
+builder.SaveFile("xlsx", "GetRightMargin.xlsx");
+builder.CloseFile();
 ```

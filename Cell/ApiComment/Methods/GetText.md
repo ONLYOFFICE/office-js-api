@@ -4,25 +4,30 @@ Returns the comment text.
 
 ## Syntax
 
-expression.
+expression.GetText();
 
 `expression` - A variable that represents a [ApiComment](../ApiComment.md) class.
 
 ## Parametrs
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+This method doesn't have any parameters.
 
 ## Returns
 
-return
-[return](todo_link)
+String
 
 ## Example
 
-This example
+This example shows how to get the comment text.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+oWorksheet.GetRange("A1").SetValue("1");
+var oRange = oWorksheet.GetRange("A1");
+oRange.AddComment("This is just a number.");
+oWorksheet.GetRange("A3").SetValue("Comment: ");
+oWorksheet.GetRange("B3").SetValue(oRange.GetComment().GetText());
+builder.SaveFile("xlsx", "GetText.xlsx");
+builder.CloseFile();
 ```

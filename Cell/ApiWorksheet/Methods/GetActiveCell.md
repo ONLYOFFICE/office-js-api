@@ -4,25 +4,27 @@ Returns an object that represents an active cell.
 
 ## Syntax
 
-expression.
+expression.GetActiveCell();
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 
 ## Parametrs
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+This method doesn't have any parameters.
 
 ## Returns
 
-return
-[return](todo_link)
+[ApiRange](../../ApiRange/ApiRange.md)
 
 ## Example
 
-This example
+This example shows how to get an object that represents an active cell.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+var oActiveCell = oWorksheet.GetActiveCell();
+oActiveCell.SetValue("This sample text was placed in an active cell.");
+builder.SaveFile("xlsx", "GetActiveCell.xlsx");
+builder.CloseFile();
 ```

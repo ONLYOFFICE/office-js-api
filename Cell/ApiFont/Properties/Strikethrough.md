@@ -4,18 +4,32 @@ The font strikethrough property.
 
 ## Syntax
 
-expression.
+expression.Strikethrough; &#124; expression.Strikethrough = isStrikethrough;
 
 `expression` - A variable that represents a [ApiFont](../ApiFont.md) class.
 
+## Parametrs
+
+| **Name** | **Required/Optional** | **Data type** | **Description** |
+| ------------- | ------------- | ------------- | ------------- |
+| isStrikethrough | Required | Boolean | Specifies that the text characters are displayed strikethrough. |
+
 ## Returns
 
-boolean | null
+Boolean &#124; null
 
 ## Example
 
-This example
+This example sets the strikethrough property to the specified font.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+var oRange = oWorksheet.GetRange("B1");
+oRange.SetValue("This is just a sample text.");
+var oCharacters = oRange.GetCharacters(9, 4);
+var oFont = oCharacters.GetFont();
+oFont.Strikethrough = true;
+builder.SaveFile("xlsx", "Strikethrough.xlsx");
+builder.CloseFile();
 ```

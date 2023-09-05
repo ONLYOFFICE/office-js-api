@@ -1,6 +1,6 @@
 # Comments
 
-Returns an array of ApiComment objects. **Read-only**.
+Returns an array of ApiComment objects. **Read-only**
 
 ## Syntax
 

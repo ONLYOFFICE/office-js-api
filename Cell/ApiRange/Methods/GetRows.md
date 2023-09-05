@@ -4,7 +4,7 @@ Returns a Range object that represents the rows in the specified range. If the s
 
 ## Syntax
 
-expression.
+expression.GetRows(nRow);
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
@@ -12,17 +12,24 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| nRow | Required | Number | The row number (starts counting from 1, the 0 value returns an error). |
 
 ## Returns
 
-return
-[return](todo_link)
+[ApiRange](../ApiRange.md) &#124; Error
 
 ## Example
 
 This example
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+var oRange = oWorksheet.GetRange("1:3");
+for (var i=1; i <= 3; i++) {
+	var oRows = oRange.GetRows(i);    
+	oRows.SetValue(i);
+}
+builder.SaveFile("xlsx", "GetRows.xlsx");
+builder.CloseFile();
 ```

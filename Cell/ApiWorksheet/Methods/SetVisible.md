@@ -4,7 +4,7 @@ Sets the state of sheet visibility.
 
 ## Syntax
 
-expression.
+expression.SetVisible(isVisible);
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 
@@ -12,17 +12,21 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| isVisible | Required | Boolean | Specifies if the sheet is visible or not. |
 
 ## Returns
 
-return
-[return](todo_link)
+This method doesn't return any data.
 
 ## Example
 
-This example
+This example sets the state of sheet visibility.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+oWorksheet.SetVisible(true);
+oWorksheet.GetRange("A1").SetValue("The current worksheet is visible.");
+builder.SaveFile("xlsx", "SetVisible.xlsx");
+builder.CloseFile();
 ```

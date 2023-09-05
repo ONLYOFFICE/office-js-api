@@ -4,7 +4,7 @@ Sets the row height value.
 
 ## Syntax
 
-expression.
+expression.SetRowHeight(nHeight);
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
@@ -12,17 +12,20 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| nHeight | Required | [pt](../../../Enumerations/pt.md) | The row height in the current range measured in points. |
 
 ## Returns
 
-return
-[return](todo_link)
+This method doesn't return any data.
 
 ## Example
 
-This example
+This example sets the row height value.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+oWorksheet.GetRange("A1").SetRowHeight(32);
+builder.SaveFile("xlsx", "SetRowHeight.xlsx");
+builder.CloseFile();
 ```

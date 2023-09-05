@@ -4,7 +4,7 @@ Returns an object that represents the selected range of the current sheet. Can b
 
 ## Syntax
 
-expression.
+expression.GetRange(Range1, Range2);
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 
@@ -12,17 +12,23 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| Range1 | Required | String &#124; [ApiRange](../../ApiRange/ApiRange.md) | The range of cells from the current sheet. |
+| Range2 | Required | String &#124; [ApiRange](../../ApiRange/ApiRange.md) | The range of cells from the current sheet. |
 
 ## Returns
 
-return
-[return](todo_link)
+[ApiRange](../../ApiRange/ApiRange.md) &#124; null
 
 ## Example
 
-This example
+This example shows how to get an object that represents the selected range of the sheet.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+oWorksheet.GetRange("A2").SetValue("2");
+var oRange = oWorksheet.GetRange("A1:D5");
+oRange.SetAlignHorizontal("center");
+builder.SaveFile("xlsx", "GetRange.xlsx");
+builder.CloseFile();
 ```

@@ -4,7 +4,7 @@ Specifies whether the words in the cell must be wrapped to fit the cell size or 
 
 ## Syntax
 
-expression.
+expression.SetWrap(isWrap);
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
@@ -12,17 +12,23 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| isWrap | Required | Boolean | Specifies if the words in the cell will be wrapped to fit the cell size. |
 
 ## Returns
 
-return
-[return](todo_link)
+This method doesn't return any data.
 
 ## Example
 
-This example
+This example specifies whether the words in the cell must be wrapped to fit the cell size or not.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+var oRange = oWorksheet.GetRange("A1");
+oRange.SetValue("This is the text wrapped to fit the cell size.");
+oRange.SetWrap(true);
+oWorksheet.GetRange("A3").SetValue("The text in the cell A1 is wrapped: " + oRange.GetWrapText());
+builder.SaveFile("xlsx", "SetWrap.xlsx");
+builder.CloseFile();
 ```

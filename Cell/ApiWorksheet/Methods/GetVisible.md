@@ -4,25 +4,29 @@ Returns the state of sheet visibility.
 
 ## Syntax
 
-expression.
+expression.GetVisible();
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 
 ## Parametrs
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+This method doesn't have any parameters.
 
 ## Returns
 
-return
-[return](todo_link)
+Boolean
 
 ## Example
 
-This example
+This example shows how to get the state of sheet visibility.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+oWorksheet.SetVisible(true);
+var bVisible = oWorksheet.GetVisible();
+oWorksheet.GetRange("A1").SetValue("Visible: ");
+oWorksheet.GetRange("B1").SetValue(bVisible);
+builder.SaveFile("xlsx", "GetVisible.xlsx");
+builder.CloseFile();
 ```

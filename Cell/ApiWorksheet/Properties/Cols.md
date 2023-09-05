@@ -1,10 +1,10 @@
 # Cols
 
-Returns ApiRange that represents all the cells of the columns range.
+Returns ApiRange that represents all the cells of the columns range. **Read-only**
 
 ## Syntax
 
-expression.
+expression.Cols;
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 
@@ -14,8 +14,13 @@ expression.
 
 ## Example
 
-This example
+This example shows how to get the ApiRange object that represents all the cells on the columns range.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+var oCols = oWorksheet.Cols;
+oCols.SetFillColor(Api.CreateColorFromRGB(255, 213, 191));
+builder.SaveFile("xlsx", "Cols.xlsx");
+builder.CloseFile();
 ```

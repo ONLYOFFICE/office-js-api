@@ -1,6 +1,6 @@
 # Sheets
 
-Returns the Sheets collection that represents all the sheets in the active workbook. **Read-only**.
+Returns the Sheets collection that represents all the sheets in the active workbook. **Read-only**
 
 ## Syntax
 

@@ -4,25 +4,31 @@ Returns a formula of the specified range.
 
 ## Syntax
 
-expression.
+expression.GetFormula();
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
 ## Parametrs
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+This method doesn't have any parameters.
 
 ## Returns
 
-return
-[return](todo_link)
+String &#124; Array<Array<String>>
 
 ## Example
 
-This example
+This example shows how to get a formula of the specified range.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+oWorksheet.GetRange("B1").SetValue(1);
+oWorksheet.GetRange("C1").SetValue(2);
+var oRange = oWorksheet.GetRange("A1");
+oRange.SetValue("=SUM(B1:C1)");
+var sFormula = oRange.GetFormula();
+oWorksheet.GetRange("A3").SetValue("Formula from cell A1: " + sFormula);
+builder.SaveFile("xlsx", "GetFormula.xlsx");
+builder.CloseFile();
 ```

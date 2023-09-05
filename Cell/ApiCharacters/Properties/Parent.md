@@ -1,6 +1,6 @@
 # Parent
 
-The parent object of the specified characters. **Read-only**.
+The parent object of the specified characters. **Read-only**
 
 ## Syntax
 

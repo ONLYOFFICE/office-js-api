@@ -1,6 +1,6 @@
 # Parent
 
-Returns the parent object for the specified collection. **Read-only**.
+Returns the parent object for the specified collection. **Read-only**
 
 ## Syntax
 

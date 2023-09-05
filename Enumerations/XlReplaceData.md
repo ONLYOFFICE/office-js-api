@@ -1,0 +1,27 @@
+# XlReplaceData
+
+The data used to make search and replace.
+
+## Type
+
+Object
+
+## Properties
+
+| **Name** | **Data type** | **Description** |
+| ------------- | ------------- | ------------- |
+| What | String &#124; undefined | The data to search for. |
+| Replacement | String | The replacement string. |
+| LookAt | [XlLookAt](./XlLookAt.md) | Specifies whether the whole search text or any part of the search text is matched. |
+| SearchOrder | [XlSearchOrder](./XlSearchOrder.md) | Range search order - by rows or by columns. |
+| SearchDirection | [XlSearchDirection](./XlSearchDirection.md) | Range search direction - next match or previous match. |
+| MatchCase | Boolean | Case sensitive or not. The default value is "false". |
+| ReplaceAll | Boolean | Specifies if all the found data will be replaced or not. The default value is "true". |
+
+## Example
+
+This example replaces specific information to another one in a range.
+
+```javascript
+oRange.Replace( { What: "200", Replacement: "0", LookAt: "xlWhole", SearchOrder: "xlByColumns", SearchDirection: "xlNext", MatchCase: true, ReplaceAll: true } );
+```

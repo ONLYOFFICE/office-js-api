@@ -4,7 +4,7 @@ Returns a Range object that represents the end in the specified direction in the
 
 ## Syntax
 
-expression.
+expression.End(direction);
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
@@ -12,17 +12,21 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| direction | Required | [Direction](../../../Enumerations/Direction.md) | The direction of end in the specified range. |
 
 ## Returns
 
-return
-[return](todo_link)
+[ApiRange](../ApiRange.md)
 
 ## Example
 
-This example
+This example shows how to get a Range object that represents the end in the specified direction in the specified range.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+var oRange = oWorksheet.GetRange("C4:D5");
+oRange.End("xlToLeft").SetFillColor(Api.CreateColorFromRGB(255, 213, 191));
+builder.SaveFile("xlsx", "End.xlsx");
+builder.CloseFile();
 ```

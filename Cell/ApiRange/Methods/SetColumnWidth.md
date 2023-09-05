@@ -4,7 +4,7 @@ Sets the width of all the columns in the current range. One unit of column width
 
 ## Syntax
 
-expression.
+expression.SetColumnWidth(nWidth);
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
@@ -12,17 +12,20 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| nWidth | Required | Number | The width of the column divided by 7 pixels. |
 
 ## Returns
 
-return
-[return](todo_link)
+This method doesn't return any data.
 
 ## Example
 
-This example
+This example sets the width of all the columns in the range.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+oWorksheet.GetRange("A1").SetColumnWidth(20);
+builder.SaveFile("xlsx", "SetColumnWidth.xlsx");
+builder.CloseFile();
 ```

@@ -1,10 +1,10 @@
 # ActiveCell
 
-Returns an object that represents an active cell.
+Returns an object that represents an active cell. **Read-only**
 
 ## Syntax
 
-expression.
+expression.ActiveCell;
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 
@@ -14,8 +14,13 @@ expression.
 
 ## Example
 
-This example
+This example shows how to get an object that represents an active cell.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+var oActiveCell = oWorksheet.ActiveCell;
+oActiveCell.SetValue("This sample text was placed in an active cell.");
+builder.SaveFile("xlsx", "ActiveCell.xlsx");
+builder.CloseFile();
 ```

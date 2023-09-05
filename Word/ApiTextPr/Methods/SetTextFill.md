@@ -23,7 +23,6 @@ expression.SetTextFill(oApiFill);
 This example sets the text fill to the current text run.
 
 ```javascript
-
 builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));

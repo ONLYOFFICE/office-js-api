@@ -1,10 +1,10 @@
 # SetVertAlign
 
-Specifies the alignment which will be applied to the contents of the run in relation to the default appearance of the run text:
+Specifies the alignment which will be applied to the contents of the current run in relation to the default appearance of the text run.
 
 ## Syntax
 
-expression.
+expression.SetVertAlign(sType);
 
 `expression` - A variable that represents a [ApiTextPr](../ApiTextPr.md) class.
 
@@ -12,17 +12,30 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| sType | Required | [VertAlign](../../../Enumerations/VertAlign.md) | The vertical alignment type applied to the text contents. |
 
 ## Returns
 
-return
-[return](todo_link)
+[ApiTextPr](../../ApiTextPr/ApiTextPr.md)
 
 ## Example
 
-This example
+This example specifies the alignment which will be applied to the contents of the current run in relation to the default appearance of the text run.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
+var oShape = oWorksheet.AddShape("flowChartOnlineStorage", 120 * 36000, 70 * 36000, oFill, oStroke, 0, 2 * 36000, 0, 3 * 36000);
+var oDocContent = oShape.GetContent();
+var oParagraph = oDocContent.GetElement(0);
+var oRun = Api.CreateRun();
+var oTextPr = oRun.GetTextPr();
+oTextPr.SetVertAlign("superscript");
+oParagraph.SetJc("left");
+oRun.AddText("This is a text inside the shape with vertical alignment set to 'superscript'.");
+oParagraph.AddElement(oRun);
+builder.SaveFile("xlsx", "SetVertAlign.xlsx");
+builder.CloseFile();
 ```

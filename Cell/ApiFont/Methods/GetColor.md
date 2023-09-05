@@ -4,25 +4,35 @@ Returns the font color property of the specified font.
 
 ## Syntax
 
-expression.
+expression.GetColor();
 
 `expression` - A variable that represents a [ApiFont](../ApiFont.md) class.
 
 ## Parametrs
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+This method doesn't have any parameters.
 
 ## Returns
 
-return
-[return](todo_link)
+[ApiColor](../../ApiColor/ApiColor.md) &#124; null
 
 ## Example
 
-This example
+This example shows how to get the font color property of the specified font.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+var oRange = oWorksheet.GetRange("B1");
+oRange.SetValue("This is just a sample text.");
+var oCharacters = oRange.GetCharacters(9, 4);
+var oFont = oCharacters.GetFont();
+var oColor = Api.CreateColorFromRGB(255, 111, 61);
+oFont.SetColor(oColor);
+oColor = oFont.GetColor();
+oCharacters = oRange.GetCharacters(16, 6);
+oFont = oCharacters.GetFont();
+oFont.SetColor(oColor);
+builder.SaveFile("xlsx", "GetColor.xlsx");
+builder.CloseFile();
 ```

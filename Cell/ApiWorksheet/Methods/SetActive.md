@@ -4,25 +4,29 @@ Makes the current sheet active.
 
 ## Syntax
 
-expression.
+expression.SetActive();
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 
 ## Parametrs
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+This method doesn't have any parameters.
 
 ## Returns
 
-return
-[return](todo_link)
+This method doesn't return any data.
 
 ## Example
 
-This example
+This example makes the sheet active.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+Api.AddSheet("New_sheet");
+var oSheet = Api.GetSheet("New_sheet");
+oSheet.SetActive();
+var oWorksheet = Api.GetActiveSheet();
+oWorksheet.GetRange("A1").SetValue("The current sheet is active.");
+builder.SaveFile("xlsx", "SetActive.xlsx");
+builder.CloseFile();
 ```

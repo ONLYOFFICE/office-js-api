@@ -1,6 +1,6 @@
 # Count
 
-The number of characters in the collection. **Read-only**.
+The number of characters in the collection. **Read-only**
 
 ## Syntax
 

@@ -4,7 +4,7 @@ Sets the page orientation.
 
 ## Syntax
 
-expression.
+expression.SetPageOrientation(sPageOrientation);
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 
@@ -12,17 +12,23 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| sPageOrientation | Required | [PageOrientation](../../../Enumerations/PageOrientation.md) | The page orientation type |
 
 ## Returns
 
-return
-[return](todo_link)
+This method doesn't return any data.
 
 ## Example
 
-This example
+This example sets the page orientation.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+oWorksheet.SetPageOrientation("xlPortrait");
+var sPageOrientation = oWorksheet.GetPageOrientation();
+oWorksheet.GetRange("A1").SetValue("Page orientation: ");
+oWorksheet.GetRange("C1").SetValue(sPageOrientation);
+builder.SaveFile("xlsx", "SetPageOrientation.xlsx");
+builder.CloseFile();
 ```

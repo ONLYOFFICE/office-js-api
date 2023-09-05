@@ -1,6 +1,6 @@
 # Selection
 
-Returns an object that represents the selected range. **Read-only**.
+Returns an object that represents the selected range. **Read-only**
 
 ## Syntax
 

@@ -4,25 +4,28 @@ Returns the column width value.
 
 ## Syntax
 
-expression.
+expression.GetColumnWidth();
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
 ## Parametrs
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+This method doesn't have any parameters.
 
 ## Returns
 
-return
-[return](todo_link)
+Number
 
 ## Example
 
-This example
+This example shows how to get the column width value.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+var sWidth = oWorksheet.GetRange("A1").GetColumnWidth();
+oWorksheet.GetRange("A1").SetValue("Width: ");
+oWorksheet.GetRange("B1").SetValue(sWidth);
+builder.SaveFile("xlsx", "GetColumnWidth.xlsx");
+builder.CloseFile();
 ```

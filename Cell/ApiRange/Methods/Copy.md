@@ -4,7 +4,7 @@ Copies a range to the specified range.
 
 ## Syntax
 
-expression.
+expression.Copy(destination);
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
@@ -12,17 +12,22 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| destination | Required | [ApiRange](../ApiRange.md) | Specifies a new range to which the specified range will be copied. |
 
 ## Returns
 
-return
-[return](todo_link)
+This method doesn't return any data.
 
 ## Example
 
-This example
+This example copies a range to the specified range.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+var oRange = oWorksheet.GetRange("A1");
+oRange.SetValue("This is a sample text which is copied to the range A3.");
+oRange.Copy(oWorksheet.GetRange("A3"));
+builder.SaveFile("xlsx", "Copy.xlsx");
+builder.CloseFile();
 ```

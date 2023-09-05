@@ -4,25 +4,29 @@ Clears the current range.
 
 ## Syntax
 
-expression.
+expression.Clear();
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
 ## Parametrs
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+This method doesn't have any parameters.
 
 ## Returns
 
-return
-[return](todo_link)
+This method doesn't return any data.
 
 ## Example
 
-This example
+This example clears the range.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+var oRange = oWorksheet.GetRange("A1:B1");
+oRange.SetValue("1");
+oRange.Clear();
+oWorksheet.GetRange("A2").SetValue("The range A1:B1 was just cleared.");
+builder.SaveFile("xlsx", "Clear.xlsx");
+builder.CloseFile();
 ```

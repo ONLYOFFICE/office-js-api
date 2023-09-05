@@ -4,7 +4,7 @@ Inserts a cell or a range of cells into the worksheet or macro sheet and shifts 
 
 ## Syntax
 
-expression.
+expression.Insert(shift);
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
@@ -12,17 +12,25 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| shift | Required | String | Specifies which way to shift the cells ("right", "down"). |
 
 ## Returns
 
-return
-[return](todo_link)
+This method doesn't return any data.
 
 ## Example
 
-This example
+This example inserts a cell or a range of cells into the worksheet or macro sheet and shifts other cells away to make space.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+oWorksheet.GetRange("B4").SetValue("1");
+oWorksheet.GetRange("C4").SetValue("2");
+oWorksheet.GetRange("D4").SetValue("3");
+oWorksheet.GetRange("C5").SetValue("5");
+var oRange = oWorksheet.GetRange("C4");
+oRange.Insert("down");
+builder.SaveFile("xlsx", "Insert.xlsx");
+builder.CloseFile();
 ```

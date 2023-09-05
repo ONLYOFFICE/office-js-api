@@ -4,7 +4,7 @@ Executes a provided function once for each cell.
 
 ## Syntax
 
-expression.
+expression.ForEach(fCallback);
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
@@ -12,17 +12,29 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| fCallback | Required | Function | A function which will be executed for each cell. |
 
 ## Returns
 
-return
-[return](todo_link)
+This method doesn't return any data.
 
 ## Example
 
-This example
+This example executes a provided function once for each cell.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+oWorksheet.GetRange("A1").SetValue("1");
+oWorksheet.GetRange("B1").SetValue("2");
+oWorksheet.GetRange("C1").SetValue("3");
+var oRange = oWorksheet.GetRange("A1:C1");
+oRange.ForEach(function (range) {
+	var sValue = range.GetValue();
+	if (sValue != "1") {
+		range.SetBold(true);
+	}
+});
+builder.SaveFile("xlsx", "ForEach.xlsx");
+builder.CloseFile();
 ```

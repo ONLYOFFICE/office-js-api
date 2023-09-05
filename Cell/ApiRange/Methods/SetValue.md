@@ -4,7 +4,7 @@ Sets a value to the current cell or cell range.
 
 ## Syntax
 
-expression.
+expression.SetValue(data);
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
@@ -12,17 +12,23 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| data | Required | String &#124; Boolean &#124; Number &#124; Array<String &#124; Boolean &#124; Number> &#124; Array<Array<String &#124; Boolean &#124; Number>> | The general value for the cell or cell range. |
 
 ## Returns
 
-return
-[return](todo_link)
+Boolean
 
 ## Example
 
-This example
+This example sets a value to cells.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+oWorksheet.GetRange("B1").SetValue("2");
+oWorksheet.GetRange("B2").SetValue("2");
+oWorksheet.GetRange("A3").SetValue("2x2=");
+oWorksheet.GetRange("B3").SetValue("=B1*B2");
+builder.SaveFile("xlsx", "SetValue.xlsx");
+builder.CloseFile();
 ```

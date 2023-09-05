@@ -21,7 +21,7 @@ This method doesn't return any data.
 
 ## Example
 
-This example adds a paragrapht in document content.
+This example adds a paragraph in document content.
 
 ```javascript
 	builder.CreateFile("docx");

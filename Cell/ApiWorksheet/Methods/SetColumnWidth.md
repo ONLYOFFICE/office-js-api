@@ -4,7 +4,7 @@ Sets the width of the specified column. One unit of column width is equal to the
 
 ## Syntax
 
-expression.
+expression.SetColumnWidth(nColumn, nWidth);
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 
@@ -12,17 +12,22 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| nColumn | Required | Number | The number of the column to set the width to. |
+| nWidth | Required | Number | The width of the column divided by 7 pixels. |
 
 ## Returns
 
-return
-[return](todo_link)
+This method doesn't return any data.
 
 ## Example
 
-This example
+This example sets the width of the specified column.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+oWorksheet.SetColumnWidth(0, 10);
+oWorksheet.SetColumnWidth(1, 20);
+builder.SaveFile("xlsx", "SetColumnWidth.xlsx");
+builder.CloseFile();
 ```

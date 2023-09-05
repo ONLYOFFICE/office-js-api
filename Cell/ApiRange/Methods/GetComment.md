@@ -4,25 +4,29 @@ Returns the ApiComment object of the current range.
 
 ## Syntax
 
-expression.
+expression.GetComment();
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
 ## Parametrs
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+This method doesn't have any parameters.
 
 ## Returns
 
-return
-[return](todo_link)
+[ApiComment](../../ApiComment/ApiComment.md) &#124; null
 
 ## Example
 
-This example
+This example shows how to get the ApiComment object of the range.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+var oRange = oWorksheet.GetRange("A1");
+oRange.SetValue("1");
+oRange.AddComment("This is just a number.");
+oWorksheet.GetRange("A3").SetValue("Comment: " + oRange.GetComment().GetText());
+builder.SaveFile("xlsx", "GetComment.xlsx");
+builder.CloseFile();
 ```

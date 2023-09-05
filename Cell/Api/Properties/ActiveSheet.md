@@ -1,6 +1,6 @@
 # ActiveSheet
 
-Returns an object that represents the active sheet. **Read-only**.
+Returns an object that represents the active sheet. **Read-only**
 
 ## Syntax
 

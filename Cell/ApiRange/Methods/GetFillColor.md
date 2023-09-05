@@ -4,25 +4,32 @@ Returns the background color for the current cell range. Returns 'No Fill' when 
 
 ## Syntax
 
-expression.
+expression.GetFillColor();
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
 ## Parametrs
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+This method doesn't have any parameters.
 
 ## Returns
 
-return
-[return](todo_link)
+[ApiColor](../../ApiColor/ApiColor.md) &#124; "No Fill"
 
 ## Example
 
-This example
+This example shows how to get the background color for the cell range.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+oWorksheet.SetColumnWidth(0, 60);
+var oRange = oWorksheet.GetRange("A1");
+oRange.SetFillColor(Api.CreateColorFromRGB(255, 213, 191));
+oRange.SetValue("This is the cell with a color set to its background.");
+var oFillColor = oRange.GetFillColor();
+oWorksheet.GetRange("A3").SetValue("This is another cell with the same color set to its background");
+oWorksheet.GetRange("A3").SetFillColor(oFillColor);
+builder.SaveFile("xlsx", "GetFillColor.xlsx");
+builder.CloseFile();
 ```

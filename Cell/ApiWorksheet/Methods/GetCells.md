@@ -4,7 +4,7 @@ Returns the ApiRange that represents all the cells on the worksheet (not just th
 
 ## Syntax
 
-expression.
+expression.GetCells(row, col);
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 
@@ -12,17 +12,22 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| row | Required | Number | The row number or the cell number (if only row is defined). |
+| col | Required | Number | The column number. |
 
 ## Returns
 
-return
-[return](todo_link)
+[ApiRange](../../ApiRange/ApiRange.md) &#124; Error
 
 ## Example
 
-This example
+This example shows how to get the ApiRange that represents all the cells on the worksheet.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+var oCells = oWorksheet.GetCells();
+oCells.SetFillColor(Api.CreateColorFromRGB(255, 213, 191));
+builder.SaveFile("xlsx", "GetCells.xlsx");
+builder.CloseFile();
 ```

@@ -1,10 +1,10 @@
 # GetElement
 
-Returns an element by its position in the document.
+Returns an element by its position in the document.<br>Inherited From: [ApiDocumentContent#GetElement](../../ApiDocumentContent/Methods/GetElement.md)
 
 ## Syntax
 
-expression.
+expression.GetElement(nPos);
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
@@ -12,17 +12,16 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| nPos | Required | Number | The element position that will be taken from the document. |
 
 ## Returns
 
-return
-[return](todo_link)
+[DocumentElement](../../../Enumerations/DocumentElement.md)
 
 ## Example
 
-This example
+This example shows how to get an element by its position in the document.
 
 ```javascript
-	code
+// todo_example
 ```

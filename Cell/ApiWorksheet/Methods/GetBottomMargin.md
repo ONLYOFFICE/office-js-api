@@ -4,25 +4,27 @@ Returns the bottom margin of the sheet.
 
 ## Syntax
 
-expression.
+expression.GetBottomMargin();
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 
 ## Parametrs
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+This method doesn't have any parameters.
 
 ## Returns
 
-return
-[return](todo_link)
+Number
 
 ## Example
 
-This example
+This example shows how to get the bottom margin of the sheet.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+var nBottomMargin = oWorksheet.GetBottomMargin();
+oWorksheet.GetRange("A1").SetValue("Bottom margin: " + nBottomMargin + " mm");
+builder.SaveFile("xlsx", "GetBottomMargin.xlsx");
+builder.CloseFile();
 ```

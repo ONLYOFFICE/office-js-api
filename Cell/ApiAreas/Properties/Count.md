@@ -1,6 +1,6 @@
 # Count
 
-Returns a value that represents the number of objects in the collection. **Read-only**.
+Returns a value that represents the number of objects in the collection. **Read-only**
 
 ## Syntax
 

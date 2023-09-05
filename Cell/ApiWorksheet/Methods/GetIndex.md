@@ -4,25 +4,28 @@ Returns a sheet index.
 
 ## Syntax
 
-expression.
+expression.GetIndex();
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 
 ## Parametrs
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+This method doesn't have any parameters.
 
 ## Returns
 
-return
-[return](todo_link)
+Number
 
 ## Example
 
-This example
+This example shows how to get a sheet index.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+var nIndex = oWorksheet.GetIndex();
+oWorksheet.GetRange("A1").SetValue("Index: ");
+oWorksheet.GetRange("B1").SetValue(nIndex);
+builder.SaveFile("xlsx", "GetIndex.xlsx");
+builder.CloseFile();
 ```

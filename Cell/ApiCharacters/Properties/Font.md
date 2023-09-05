@@ -1,6 +1,6 @@
 # Font
 
-The font of the specified characters. **Read-only**.
+The font of the specified characters. **Read-only**
 
 ## Syntax
 

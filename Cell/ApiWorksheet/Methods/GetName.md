@@ -4,25 +4,28 @@ Returns a sheet name.
 
 ## Syntax
 
-expression.
+expression.GetName();
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 
 ## Parametrs
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+This method doesn't have any parameters.
 
 ## Returns
 
-return
-[return](todo_link)
+String
 
 ## Example
 
-This example
+This example shows how to get a sheet name.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+var sName = oWorksheet.GetName();
+oWorksheet.GetRange("A1").SetValue("Name: ");
+oWorksheet.GetRange("B1").SetValue(sName);
+builder.SaveFile("xlsx", "GetName.xlsx");
+builder.CloseFile();
 ```

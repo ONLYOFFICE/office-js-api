@@ -4,7 +4,7 @@ Specifies that the contents of the cell / cell range are displayed with a single
 
 ## Syntax
 
-expression.
+expression.SetStrikeout(isStrikeout);
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
@@ -12,17 +12,22 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| isStrikeout | Required | Boolean | Specifies if the contents of the current cell / cell range are displayed struck through. |
 
 ## Returns
 
-return
-[return](todo_link)
+This method doesn't return any data.
 
 ## Example
 
-This example
+This example specifies that the contents of the cell is displayed with a single horizontal line through the center of the contents.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+oWorksheet.GetRange("A2").SetValue("Struckout text");
+oWorksheet.GetRange("A2").SetStrikeout(true);
+oWorksheet.GetRange("A3").SetValue("Normal text");
+builder.SaveFile("xlsx", "SetStrikeout.xlsx");
+builder.CloseFile();
 ```

@@ -4,7 +4,7 @@ Sets the font color property to the specified font.
 
 ## Syntax
 
-expression.
+expression.SetColor(Color);
 
 `expression` - A variable that represents a [ApiFont](../ApiFont.md) class.
 
@@ -12,17 +12,25 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| Color | Required | [ApiColor](../../ApiColor/ApiColor.md) | Font color. |
 
 ## Returns
 
-return
-[return](todo_link)
+This method doesn't return any data.
 
 ## Example
 
-This example
+This example sets the font color property to the specified font.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+var oRange = oWorksheet.GetRange("B1");
+oRange.SetValue("This is just a sample text.");
+var oCharacters = oRange.GetCharacters(9, 4);
+var oFont = oCharacters.GetFont();
+var oColor = Api.CreateColorFromRGB(255, 111, 61);
+oFont.SetColor(oColor);
+builder.SaveFile("xlsx", "SetColor.xlsx");
+builder.CloseFile();
 ```

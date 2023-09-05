@@ -1,10 +1,10 @@
 # Cells
 
-Returns ApiRange that represents all the cells on the worksheet (not just the cells that are currently in use).
+Returns ApiRange that represents all the cells on the worksheet (not just the cells that are currently in use). **Read-only**
 
 ## Syntax
 
-expression.
+expression.Cells;
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 
@@ -14,8 +14,13 @@ expression.
 
 ## Example
 
-This example
+This example shows how to get the ApiRange that represents all the cells on the worksheet.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+var oCells = oWorksheet.Cells;
+oCells.SetFillColor(Api.CreateColorFromRGB(255, 213, 191));
+builder.SaveFile("xlsx", "Cells.xlsx");
+builder.CloseFile();
 ```

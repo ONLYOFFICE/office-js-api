@@ -4,7 +4,7 @@ Sets the right margin of the sheet.
 
 ## Syntax
 
-expression.
+expression.SetRightMargin(nPoints);
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 
@@ -12,17 +12,22 @@ expression.
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| nPoints | Required | Number | The right margin size measured in points. |
 
 ## Returns
 
-return
-[return](todo_link)
+This method doesn't return any data.
 
 ## Example
 
-This example
+This example sets the right margin of the sheet.
 
 ```javascript
-	code
+builder.CreateFile("xlsx");
+var oWorksheet = Api.GetActiveSheet();
+oWorksheet.SetRightMargin(20.8);
+var nRightMargin = oWorksheet.GetRightMargin();
+oWorksheet.GetRange("A1").SetValue("Right margin: " + nRightMargin + " mm");
+builder.SaveFile("xlsx", "SetRightMargin.xlsx");
+builder.CloseFile();
 ```
