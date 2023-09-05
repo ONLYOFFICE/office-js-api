@@ -20,5 +20,5 @@ String
 This example sets horizontal aligment for a drawing object
 
 ```javascript
-	oDrawing.SetHorAlign("page", "center");
+oDrawing.SetHorAlign("page", "center");
 ```

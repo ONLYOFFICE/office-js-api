@@ -18,5 +18,5 @@ String
 This example adds a cross-reference to the page containing a footnote.
 
 ```javascript
-	oParagraph.AddFootnoteCrossRef("pageNum", oFootnoteParagraph);
+oParagraph.AddFootnoteCrossRef("pageNum", oFootnoteParagraph);
 ```

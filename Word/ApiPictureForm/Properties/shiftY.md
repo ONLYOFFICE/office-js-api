@@ -20,5 +20,5 @@ expression.
 This example
 
 ```javascript
-	code
+code
 ```

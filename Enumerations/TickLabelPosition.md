@@ -8,10 +8,6 @@ String
 
 ## Properties
 
-| **Name** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- |
-| name | type | Description |
-
 - "none" - does not display the selected tick labels.
 - "nextTo" - sets the position of the selected tick labels next to the main label.
 - "low" - sets the position of the selected tick labels in the part of the chart with lower values.
@@ -22,5 +18,5 @@ String
 This example sets the position of the vertical tick labels next to the main vertical label.
 
 ```javascript
-	oChart.SetVertAxisTickLabelPosition("nextTo");
+oChart.SetVertAxisTickLabelPosition("nextTo");
 ```

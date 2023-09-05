@@ -17,5 +17,5 @@ String
 This example add a cross-reference to the page containing a table caption.
 
 ```javascript
-	oParagraph.AddCaptionCrossRef("Table", "pageNum", oCaptionParagraph);
+oParagraph.AddCaptionCrossRef("Table", "pageNum", oCaptionParagraph);
 ```

@@ -19,5 +19,5 @@ Class
 This example copies a text form.
 
 ```javascript
-	var oCopyTextForm = oTextForm.Copy();
+var oCopyTextForm = oTextForm.Copy();
 ```

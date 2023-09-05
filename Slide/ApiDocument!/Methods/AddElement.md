@@ -24,5 +24,5 @@ This method doesn't return any data.
 This example
 
 ```javascript
-	code
+// todo_example
 ```

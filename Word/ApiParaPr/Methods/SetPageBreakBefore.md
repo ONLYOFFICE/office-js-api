@@ -12,8 +12,7 @@ expression.SetPageBreakBefore(isPageBreakBefore);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| isPageBreakBefore | Required | Boolean | 	
-The true value enables the option to render the contents of the paragraph at the beginning of a new page in the document. |
+| isPageBreakBefore | Required | Boolean | The true value enables the option to render the contents of the paragraph at the beginning of a new page in the document. |
 
 ## Returns
 

@@ -18,5 +18,5 @@ type
 This example
 
 ```javascript
-	code
+code
 ```

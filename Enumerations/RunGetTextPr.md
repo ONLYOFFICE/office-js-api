@@ -18,5 +18,5 @@ Object
 This example returns a text from the text run.
 
 ```javascript
-	var sText = oRun.GetText({"NewLineSeparator": "\r", "TabSymbol": "\t"});
+var sText = oRun.GetText({"NewLineSeparator": "\r", "TabSymbol": "\t"});
 ```

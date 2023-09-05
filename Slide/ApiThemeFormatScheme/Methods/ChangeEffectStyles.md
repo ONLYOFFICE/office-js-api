@@ -23,5 +23,5 @@ Boolean
 This example
 
 ```javascript
-	// It's not implemented yet.
+// todo_example It's not implemented yet.
 ```

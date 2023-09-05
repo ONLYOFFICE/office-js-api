@@ -17,5 +17,5 @@ String
 This example sets flow direction "tbrl" for a cell.
 
 ```javascript
-	oCell.SetTextDirection("tbrl");
+oCell.SetTextDirection("tbrl");
 ```

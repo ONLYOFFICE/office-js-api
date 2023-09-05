@@ -23,5 +23,5 @@ This method doesn't return any data.
 This example shows how to unsubscribe on hyperlink click event.
 
 ```javascript
-	Api.detachEvent("asc_onHyperlinkClick");
+Api.detachEvent("asc_onHyperlinkClick");
 ```

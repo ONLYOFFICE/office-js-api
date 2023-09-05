@@ -17,5 +17,5 @@ boolean
 This example
 
 ```javascript
-	code
+code
 ```

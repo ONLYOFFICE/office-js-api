@@ -28,5 +28,5 @@ String
 This example creates a scheme color with the 'accent2' identifier.
 
 ```javascript
-	var oSchemeColor = Api.CreateSchemeColor("accent2");
+var oSchemeColor = Api.CreateSchemeColor("accent2");
 ```

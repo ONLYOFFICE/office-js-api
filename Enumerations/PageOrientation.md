@@ -16,5 +16,5 @@ String
 This example sets the page orientation to portrait.
 
 ```javascript
-	oWorksheet.SetPageOrientation("xlPortrait");
+oWorksheet.SetPageOrientation("xlPortrait");
 ```

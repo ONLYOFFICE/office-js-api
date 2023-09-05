@@ -17,5 +17,5 @@ boolean
 description.
 
 ```javascript
-	// todo this property doesn't exist in code
+// todo_example this property doesn't exist in code
 ```

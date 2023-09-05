@@ -21,17 +21,17 @@ This method doesn't have any parameters.
 This example shows how to get a set of default paragraph properties in the current document.
 
 ```javascript
-	builder.CreateFile("docx");
-	var oDocument = Api.GetDocument();
-	var oParagraph = oDocument.GetElement(0);
-	var oParaPr = oDocument.GetDefaultParaPr();
-	oParaPr.SetSpacingLine(276, "auto");
-	oParaPr.SetSpacingAfter(200);
-	var oNormalStyle = oDocument.GetDefaultStyle("paragraph");
-	oParaPr = oNormalStyle.GetParaPr();
-	oParaPr.SetSpacingLine(240, "auto");
-	oParaPr.SetJc("both");
-	oParagraph.AddText("This is just a text.");
-	builder.SaveFile("docx", "GetDefaultParaPr.docx");
-	builder.CloseFile();
+builder.CreateFile("docx");
+var oDocument = Api.GetDocument();
+var oParagraph = oDocument.GetElement(0);
+var oParaPr = oDocument.GetDefaultParaPr();
+oParaPr.SetSpacingLine(276, "auto");
+oParaPr.SetSpacingAfter(200);
+var oNormalStyle = oDocument.GetDefaultStyle("paragraph");
+oParaPr = oNormalStyle.GetParaPr();
+oParaPr.SetSpacingLine(240, "auto");
+oParaPr.SetJc("both");
+oParagraph.AddText("This is just a text.");
+builder.SaveFile("docx", "GetDefaultParaPr.docx");
+builder.CloseFile();
 ```

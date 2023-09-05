@@ -19,7 +19,7 @@ expression.attachEvent("asc_onHyperlinkClick", callback);
 This example shows how to subscribe on hyperlink click event.
 
 ```javascript
-	Api.attachEvent("asc_onHyperlinkClick", function() {
-		console.log("HYPERLINK!!!");
-	});
+Api.attachEvent("asc_onHyperlinkClick", function() {
+console.log("HYPERLINK!!!");
+});
 ```

@@ -22,5 +22,5 @@ todo_create_class
 This example
 
 ```javascript
-	todo_example
+// todo_example
 ```

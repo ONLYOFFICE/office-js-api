@@ -13,8 +13,7 @@ expression.AddText(sText, sPosition?);
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
 | sText | Optional | String | The text that we want to insert into the current document element. Default value is "". |
-| sPosition | Optional | String | 	
-The position where the text will be added ("before" or "after" the range specified). Default value is "after". |
+| sPosition | Optional | String | The position where the text will be added ("before" or "after" the range specified). Default value is "after". |
 
 ## Returns
 

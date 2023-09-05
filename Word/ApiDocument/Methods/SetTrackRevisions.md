@@ -23,11 +23,11 @@ This method doesn't return any data.
 This example sets the change tracking mode.
 
 ```javascript
-	builder.CreateFile("docx");
-	var oDocument = Api.GetDocument();
-	var oParagraph = oDocument.GetElement(0);
-	oDocument.SetTrackRevisions(true);
-	oParagraph.AddText("Track revisions mode was set.");
-	builder.SaveFile("docx", "SetTrackRevisions.docx");
-	builder.CloseFile();
+builder.CreateFile("docx");
+var oDocument = Api.GetDocument();
+var oParagraph = oDocument.GetElement(0);
+oDocument.SetTrackRevisions(true);
+oParagraph.AddText("Track revisions mode was set.");
+builder.SaveFile("docx", "SetTrackRevisions.docx");
+builder.CloseFile();
 ```

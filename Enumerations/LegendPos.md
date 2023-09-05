@@ -19,5 +19,5 @@ String
 This example sets position "bottom" for chart legend.
 
 ```javascript
-	oChart.SetLegendPos("bottom");
+oChart.SetLegendPos("bottom");
 ```

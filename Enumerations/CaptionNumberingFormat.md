@@ -19,5 +19,5 @@ String
 This example add a caption with the Arabic numbering format to the paragraph.
 
 ```javascript
-	oParagraph.AddCaption("", "Figure", false, "Arabic", false, undefined, "hyphen");
+oParagraph.AddCaption("", "Figure", false, "Arabic", false, undefined, "hyphen");
 ```

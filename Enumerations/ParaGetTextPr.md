@@ -20,5 +20,5 @@ Object
 This example gets the paragraph text.
 
 ```javascript
-	var sText = oParagraph.GetText({"Numbering": true, "Math": true, "NewLineSeparator": "\r", "TabSymbol": "\t"});
+var sText = oParagraph.GetText({"Numbering": true, "Math": true, "NewLineSeparator": "\r", "TabSymbol": "\t"});
 ```

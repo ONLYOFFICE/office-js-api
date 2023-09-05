@@ -13,8 +13,7 @@ expression.AddRow(oCell?, isBefore?);
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
 | oCell | Optional | [ApiTableCell](../../ApiTableCell/ApiTableCell.md) | If not specified, a new row will be added to the end of the table. Default value is "null". |
-| isBefore | Optional | Boolean | 	
-Adds a new row before or after the specified cell. If no cell is specified, then this parameter will be ignored. Default value is "false". |
+| isBefore | Optional | Boolean | Adds a new row before or after the specified cell. If no cell is specified, then this parameter will be ignored. Default value is "false". |
 
 ## Returns
 

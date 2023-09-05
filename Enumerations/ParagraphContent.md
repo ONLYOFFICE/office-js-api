@@ -19,5 +19,5 @@ Class
 This example adds an element called 'text run' to the paragraph.
 
 ```javascript
-	oParagraph.AddElement(oRun, 0);
+oParagraph.AddElement(oRun, 0);
 ```

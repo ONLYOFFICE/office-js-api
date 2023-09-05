@@ -12,8 +12,7 @@ expression.SetSpacingBefore(nBefore, isBeforeAuto?);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| nBefore | Required | [twips](../../../Enumerations/twips.md) | 	
-The value of the spacing before the current paragraph measured in twentieths of a point (1/1440 of an inch). |
+| nBefore | Required | [twips](../../../Enumerations/twips.md) | The value of the spacing before the current paragraph measured in twentieths of a point (1/1440 of an inch). |
 | isBeforeAuto | Optional | Boolean | The true value disables the spacing before the current paragraph. Default value is "false". |
 
 ## Returns

@@ -29,5 +29,5 @@ String
 This example gets a lock value of a shape.
 
 ```javascript
-	var bLockValue = oShape.GetLockValue("noSelect");
+var bLockValue = oShape.GetLockValue("noSelect");
 ```

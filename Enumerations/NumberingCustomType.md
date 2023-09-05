@@ -22,5 +22,5 @@ String
 This example sets your own customized numbering type.
 
 ```javascript
-	oNumLvl.SetCustomType("lowerRoman", sFormatString, "left");
+oNumLvl.SetCustomType("lowerRoman", sFormatString, "left");
 ```

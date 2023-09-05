@@ -20,5 +20,5 @@ String
 This example adds a cross-reference to the page containing a numbered paragraph.
 
 ```javascript
-	oParagraph.AddNumberedCrossRef("pageNum", oNumberedParagraph, true, true);
+oParagraph.AddNumberedCrossRef("pageNum", oNumberedParagraph, true, true);
 ```

@@ -31,5 +31,5 @@ String
 This example sets a paragraph highlight in green.
 
 ```javascript
-	oParagraph.SetHighlight("green");
+oParagraph.SetHighlight("green");
 ```

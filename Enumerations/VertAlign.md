@@ -17,5 +17,5 @@ String
 This example sets vertical align "subscript" for paragraph.
 
 ```javascript
-	oParagraph.SetVertAlign("subscript");
+oParagraph.SetVertAlign("subscript");
 ```

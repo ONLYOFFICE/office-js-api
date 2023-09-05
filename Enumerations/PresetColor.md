@@ -204,5 +204,5 @@ String
 This example creates a scheme color using the 'lightYellow' color preset.
 
 ```javascript
-	var oSchemeColor = Api.CreatePresetColor("lightYellow");
+var oSchemeColor = Api.CreatePresetColor("lightYellow");
 ```

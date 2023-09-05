@@ -16,7 +16,7 @@ expression.AddFootnoteCrossRef(sRefType, oParaTo, bLink?, bAboveBelow?);
 | sRefType | Required | [footnoteRefTo](../../../Enumerations/footnoteRefTo.md) | The text or numeric value of an footnote reference you want to insert. |
 | oParaTo | Required | [ApiParagraph](../ApiParagraph.md) | The first paragraph from an footnote to be referred to (must be in the document). |
 | bLink | Optional | Boolean | Specifies if the reference will be inserted as a hyperlink. Default value is "true". |
-| bAboveBelow | Optional | 	Specifies if the above/below words indicating the position of the reference should be included (don't used with the "aboveBelow" sRefType). Default value is "false". |
+| bAboveBelow | Optional | Specifies if the above/below words indicating the position of the reference should be included (don't used with the "aboveBelow" sRefType). Default value is "false". |
 
 
 ## Returns

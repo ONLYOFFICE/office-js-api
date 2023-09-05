@@ -23,8 +23,7 @@ Boolean
 
 This example sets a name to the specified chart series.
 
-```javascript
-	builder.CreateFile("docx");
+builder.CreateFile("docx");
 	var oDocument = Api.GetDocument();
 	var oParagraph = oDocument.GetElement(0);
 	var oChart = Api.CreateChart("bar3D", [

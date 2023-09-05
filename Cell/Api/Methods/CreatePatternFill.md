@@ -12,8 +12,7 @@ expression.CreatePatternFill(sPatternType, BgColor, FgColor);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| sPatternType | Required | [PatternType](../../../Enumerations/PatternType.md) | 	
-The pattern type used for the fill selected from one of the available pattern types. |
+| sPatternType | Required | [PatternType](../../../Enumerations/PatternType.md) | The pattern type used for the fill selected from one of the available pattern types. |
 | BgColor | Required | [ApiUniColor](../../ApiUniColor/ApiUniColor.md) | The background color used for the pattern creation. |
 | FgColor | Required | [ApiUniColor](../../ApiUniColor/ApiUniColor.md) | The foreground color used for the pattern creation. |
 

@@ -15,8 +15,7 @@ expression.SetShd(sType, r, g, b);
 | sType | Required | [ShdType](../../../Enumerations/ShdType.md) | The shading type applied to the contents of the current text Range. |
 | r | Required | [byte](../../../Enumerations/byte.md) | Red color component value. |
 | g | Required | [byte](../../../Enumerations/byte.md) | Green color component value. |
-| b | Required | [byte](../../../Enumerations/byte.md) | 	
-Blue color component value. |
+| b | Required | [byte](../../../Enumerations/byte.md) | Blue color component value. |
 
 ## Returns
 

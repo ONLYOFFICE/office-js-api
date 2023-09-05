@@ -18,5 +18,5 @@ String
 This example assigns the default document paragraph style to the 'oNormalStyle' variable.
 
 ```javascript
-	var oNormalStyle = oDocument.GetDefaultStyle("paragraph");
+var oNormalStyle = oDocument.GetDefaultStyle("paragraph");
 ```

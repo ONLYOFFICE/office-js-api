@@ -18,5 +18,5 @@ String
 This example adds a cross-reference to the page containing an endnote.
 
 ```javascript
-	oParagraph.AddEndnoteCrossRef("pageNum", oEndnoteParagraph);
+oParagraph.AddEndnoteCrossRef("pageNum", oEndnoteParagraph);
 ```

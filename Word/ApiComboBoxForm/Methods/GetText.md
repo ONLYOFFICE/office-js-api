@@ -4,35 +4,32 @@ Returns the text from the current form. This method is used only for text and co
 
 ## Syntax
 
-expression.
+expression.GetText();
 
 `expression` - A variable that represents a [ApiComboBoxForm](../ApiComboBoxForm.md) class.
 
 ## Parametrs
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+This method doesn't have any parameters.
 
 ## Returns
 
-return
-[return](todo_link)
+String
 
 ## Example
 
 This example shows how to get the text from the form.
 
 ```javascript
-	builder.CreateFile("docx");
-	var oDocument = Api.GetDocument();
-	var oComboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});
-	var oParagraph = oDocument.GetElement(0);
-	oParagraph.AddElement(oComboBoxForm);
-	var sText = oComboBoxForm.GetText();
-	oParagraph = Api.CreateParagraph();
-	oParagraph.AddText("Form text: " + sText);
-	oDocument.Push(oParagraph);
-	builder.SaveFile("docx", "GetText.docx");
-	builder.CloseFile();
+builder.CreateFile("docx");
+var oDocument = Api.GetDocument();
+var oComboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});
+var oParagraph = oDocument.GetElement(0);
+oParagraph.AddElement(oComboBoxForm);
+var sText = oComboBoxForm.GetText();
+oParagraph = Api.CreateParagraph();
+oParagraph.AddText("Form text: " + sText);
+oDocument.Push(oParagraph);
+builder.SaveFile("docx", "GetText.docx");
+builder.CloseFile();
 ```

@@ -39,8 +39,8 @@ String
 
 ## Example
 
-	This example shows how to specify that the range contents will be rotated upward.
+This example shows how to specify that the range contents will be rotated upward.
 
 ```javascript
-	oWorksheet.GetRange("A1").SetOrientation("xlUpward");
+oWorksheet.GetRange("A1").SetOrientation("xlUpward");
 ```

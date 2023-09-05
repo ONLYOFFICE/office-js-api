@@ -23,5 +23,5 @@ String
 This example sets one of the existing predefined numbering templates.
 
 ```javascript
-	oNumLvl.SetTemplateType("A.");
+oNumLvl.SetTemplateType("A.");
 ```

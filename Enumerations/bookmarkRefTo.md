@@ -20,5 +20,5 @@ String
 This example adds a cross-reference to the page containing a bookmark.
 
 ```javascript
-	oParagraph.AddBookmarkCrossRef("pageNum", sBookmark);
+oParagraph.AddBookmarkCrossRef("pageNum", sBookmark);
 ```

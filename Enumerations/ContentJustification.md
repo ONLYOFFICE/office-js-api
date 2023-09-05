@@ -20,5 +20,5 @@ String
 This example gets the paragraph contents justification.
 
 ```javascript
-	var sJc = oParagraph.GetJc();
+var sJc = oParagraph.GetJc();
 ```

@@ -18,5 +18,5 @@ String
 This example sets the horizontal alignment of the text in the cell range.
 
 ```javascript
-	oRange.SetAlignHorizontal("center");
+oRange.SetAlignHorizontal("center");
 ```

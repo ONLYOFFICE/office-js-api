@@ -18,5 +18,5 @@ String
 This example sets the paragraph line spacing.
 
 ```javascript
-	oParagraph.SetSpacingLine(200, "exact");
+oParagraph.SetSpacingLine(200, "exact");
 ```

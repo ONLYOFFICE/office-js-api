@@ -21,16 +21,16 @@ This method doesn't return any data.
 This example clears the form.
 
 ```javascript
-	builder.CreateFile("docx");
-	var oDocument = Api.GetDocument();
-	var oComboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});
-	var oParagraph = oDocument.GetElement(0);
-	oParagraph.AddElement(oComboBoxForm);
-	oComboBoxForm.SetText("John Smith");
-	oComboBoxForm.Clear();
-	oParagraph = Api.CreateParagraph();
-	oParagraph.AddText("The first form from this document was cleared.");
-	oDocument.Push(oParagraph);
-	builder.SaveFile("docx", "Clear.docx");
-	builder.CloseFile();
+builder.CreateFile("docx");
+var oDocument = Api.GetDocument();
+var oComboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});
+var oParagraph = oDocument.GetElement(0);
+oParagraph.AddElement(oComboBoxForm);
+oComboBoxForm.SetText("John Smith");
+oComboBoxForm.Clear();
+oParagraph = Api.CreateParagraph();
+oParagraph.AddText("The first form from this document was cleared.");
+oDocument.Push(oParagraph);
+builder.SaveFile("docx", "Clear.docx");
+builder.CloseFile();
 ```

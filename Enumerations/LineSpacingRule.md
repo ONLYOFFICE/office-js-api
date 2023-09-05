@@ -18,5 +18,5 @@ String
 This example gets the paragraph line spacing rule.
 
 ```javascript
-	var sSpacingLineRule = oParagraph.GetSpacingLineRule();
+var sSpacingLineRule = oParagraph.GetSpacingLineRule();
 ```

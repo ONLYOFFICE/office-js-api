@@ -16,5 +16,5 @@ String
 This example creates a "bullet" numbering.
 
 ```javascript
-	var oNumbering = oDocument.CreateNumbering("bullet");
+var oNumbering = oDocument.CreateNumbering("bullet");
 ```

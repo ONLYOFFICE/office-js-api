@@ -12,12 +12,12 @@ Object
 | ------------- | ------------- | ------------- |
 | searchString | String | Search string. |
 | replaceString | String | Replacement string. |
-| matchCase	 | String | Case sensitive or not. |
+| matchCase | String | Case sensitive or not. |
 
 ## Example
 
 This example replaces text "first" to the text "second".
 
 ```javascript
-	oDocument.SearchAndReplace({"searchString": "first", "replaceString": "second"});
+oDocument.SearchAndReplace({"searchString": "first", "replaceString": "second"});
 ```

@@ -19,5 +19,5 @@ String
 This example sets section break type "continuous".
 
 ```javascript
-	oSection.SetType("continuous");
+oSection.SetType("continuous");
 ```

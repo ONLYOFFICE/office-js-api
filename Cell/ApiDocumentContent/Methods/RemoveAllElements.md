@@ -11,9 +11,7 @@ expression.RemoveAllElements();
 
 ## Parametrs
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+This method doesn't have any parameters.
 
 ## Returns
 

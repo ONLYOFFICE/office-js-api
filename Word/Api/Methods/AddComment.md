@@ -4,7 +4,7 @@ Adds a comment to the specifed document element or array of Runs.
 
 ## Syntax
 
-expression.AddComment(oElement, sText, sAuthor?);
+expression.AddComment(oElement, sText, sAuthor?); 
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -25,11 +25,11 @@ expression.AddComment(oElement, sText, sAuthor?);
 This example adds text and comment to the first paragraph.
 
 ```javascript
-	builder.CreateFile("docx");
-	var oDocument = Api.GetDocument();
-	var oParagraph = oDocument.GetElement(0);
-	oParagraph.AddText("ONLYOFFICE Document Builder");
-	Api.AddComment(oParagraph, "ONLYOFFICE for developers", "Jane");
-	builder.SaveFile("docx", "AddComment.docx");
-	builder.CloseFile();
+builder.CreateFile("docx");
+var oDocument = Api.GetDocument();
+var oParagraph = oDocument.GetElement(0);
+oParagraph.AddText("ONLYOFFICE Document Builder");
+Api.AddComment(oParagraph, "ONLYOFFICE for developers", "Jane");
+builder.SaveFile("docx", "AddComment.docx");
+builder.CloseFile();
 ```

@@ -201,5 +201,5 @@ String
 This example creates a shape using the 'diamond' preset.
 
 ```javascript
-	var oDrawing = Api.CreateShape("diamond", 100 * 36000, 100 * 36000, oFill, oStroke);
+var oDrawing = Api.CreateShape("diamond", 100 * 36000, 100 * 36000, oFill, oStroke);
 ```

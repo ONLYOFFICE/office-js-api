@@ -21,5 +21,5 @@ String
 This example sets wrapping style "squeare" for drawing object.
 
 ```javascript
-	oDrawing.SetWrappingStyle("square");
+oDrawing.SetWrappingStyle("square");
 ```

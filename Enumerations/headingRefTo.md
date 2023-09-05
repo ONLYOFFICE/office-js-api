@@ -20,5 +20,5 @@ String
 This example adds a cross-reference to the page containing a heading.
 
 ```javascript
-	oParagraph.AddHeadingCrossRef("pageNum", oHeadingParagraph);
+oParagraph.AddHeadingCrossRef("pageNum", oHeadingParagraph);
 ```

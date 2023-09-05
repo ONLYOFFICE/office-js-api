@@ -30,5 +30,5 @@ String
 This example creates placholder "picture".
 
 ```javascript
-	var oPlaceholder = Api.CreatePlaceholder("picture");
+var oPlaceholder = Api.CreatePlaceholder("picture");
 ```

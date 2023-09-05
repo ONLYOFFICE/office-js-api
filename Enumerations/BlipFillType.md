@@ -16,5 +16,5 @@ String
 This example creates a blip fill with an image which is tiled all over the created shape:
 
 ```javascript
-	var oFill = Api.CreateBlipFill("https://example.com/myimage.png", "tile");
+var oFill = Api.CreateBlipFill("https://example.com/myimage.png", "tile");
 ```

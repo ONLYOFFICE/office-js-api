@@ -19,5 +19,5 @@ expression.
 description2
 
 ```javascript
-	code
+code
 ```

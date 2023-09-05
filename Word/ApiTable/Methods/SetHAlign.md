@@ -23,7 +23,7 @@ Boolean
 This example sets the horizontal alignment to the table.
 
 ```javascript
-	builder.CreateFile("docx");
+builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));

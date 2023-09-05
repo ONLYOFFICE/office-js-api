@@ -17,5 +17,5 @@ Class
 This example adds a document element called "paragraph" to the document.
 
 ```javascript
-	oDocument.AddElement(oParagraph);
+oDocument.AddElement(oParagraph);
 ```

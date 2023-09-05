@@ -16,5 +16,5 @@ String
 This example sets the table height rule.
 
 ```javascript
-	oTableRow.SetHeight("atLeast", 720);
+oTableRow.SetHeight("atLeast", 720);
 ```

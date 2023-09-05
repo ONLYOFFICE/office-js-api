@@ -17,5 +17,5 @@ Array.<(string|Array.
 description.
 
 ```javascript
-	// todo this property doesn't exist in code
+// todo this property doesn't exist in code
 ```

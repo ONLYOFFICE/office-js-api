@@ -17,5 +17,5 @@ return1
 This example
 
 ```javascript
-	code
+code
 ```

@@ -12,7 +12,7 @@ expression.SetScaleFlag(sScaleFlag);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| sScaleFlag | Required | [ScaleFlag](../../../Enumerations/ScaleFlag.md) | Picture scaling condition |
 
 ## Returns
 

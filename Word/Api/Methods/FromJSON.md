@@ -23,14 +23,14 @@ This method doesn't return any data.
 This example transforms paragraph to JSON then restore it from JSON.
 
 ```javascript
-	builder.CreateFile("docx");
-	var oDocument = Api.GetDocument();
-	var oParagraph = Api.CreateParagraph();
-	oParagraph.AddText("This is a new paragraph");
-	var json = oParagraph.ToJSON(false, true);
-	var oParagraphFromJSON = Api.FromJSON(json);
-	oParagraphFromJSON.SetBold(true);
-	oDocument.AddElement(0, oParagraphFromJSON);
-	builder.SaveFile("docx", "FromJSON.docx");
-	builder.CloseFile();
+builder.CreateFile("docx");
+var oDocument = Api.GetDocument();
+var oParagraph = Api.CreateParagraph();
+oParagraph.AddText("This is a new paragraph");
+var json = oParagraph.ToJSON(false, true);
+var oParagraphFromJSON = Api.FromJSON(json);
+oParagraphFromJSON.SetBold(true);
+oDocument.AddElement(0, oParagraphFromJSON);
+builder.SaveFile("docx", "FromJSON.docx");
+builder.CloseFile();
 ```

@@ -21,7 +21,7 @@ This method doesn't have any parameters.
 This example shows how to get the previous inline shape.
 
 ```javascript
-	builder.CreateFile("docx");
+builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);

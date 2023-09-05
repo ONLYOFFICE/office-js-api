@@ -26,5 +26,5 @@ String
 This example sets "General" number format for the range.
 
 ```javascript
-	oWorksheet.GetRange("A2").SetNumberFormat("General");
+oWorksheet.GetRange("A2").SetNumberFormat("General");
 ```

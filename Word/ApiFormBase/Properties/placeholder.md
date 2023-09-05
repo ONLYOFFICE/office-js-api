@@ -17,5 +17,5 @@ string
 This example
 
 ```javascript
-	code
+code
 ```

@@ -17,5 +17,5 @@ String
 This example sets vertical aligment for a drawing object
 
 ```javascript
-	oDrawing.SetVerAlign("page", "top");
+oDrawing.SetVerAlign("page", "top");
 ```

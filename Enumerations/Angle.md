@@ -18,5 +18,5 @@ String
 This example specifys that the range contents will be rotated upward.
 
 ```javascript
-	oWorksheet.GetRange("A1").SetOrientation("xlUpward");
+oWorksheet.GetRange("A1").SetOrientation("xlUpward");
 ```

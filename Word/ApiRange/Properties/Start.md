@@ -17,5 +17,5 @@ Number
 This example
 
 ```javascript
-	code
+code
 ```

@@ -24,5 +24,5 @@ return
 This example
 
 ```javascript
-	code
+// todo_exampele
 ```
