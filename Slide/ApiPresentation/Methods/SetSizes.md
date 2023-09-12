@@ -18,6 +18,7 @@ expression.SetSizes(nWidth, nHeight);
 ## Returns
 
 This method doesn't return any data.
+
 ## Example
 
 This example sets the size to the current presentation.

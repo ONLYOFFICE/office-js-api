@@ -18,7 +18,7 @@ expression.AddComment(sText, sAuthor?);
 
 ## Returns
 
-[ApiComment](../../ApiComment/ApiComment.md)
+[ApiComment](../../ApiComment/ApiComment.md) &#124; null (returns "null" if the comment was not added)
 
 ## Example
 

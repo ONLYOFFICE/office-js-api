@@ -16,7 +16,7 @@ expression.Bold; &#124; expression.Bold = isBold;
 
 ## Returns
 
-boolean &#124; null
+Boolean &#124; null
 
 ## Example
 

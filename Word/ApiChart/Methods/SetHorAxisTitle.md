@@ -4,7 +4,7 @@ Specifies the chart horizontal axis title.
 
 ## Syntax
 
-expression.SetHorAxisTitle(sTitle, nFontSize, bIsBold)
+expression.SetHorAxisTitle(sTitle, nFontSize, bIsBold);
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 

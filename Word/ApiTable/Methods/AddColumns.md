@@ -18,7 +18,7 @@ expression.AddColumns(oCell?, nCount, isBefore?);
 
 ## Returns
 
-This method doesn't return any data.
+[ApiTable](../ApiTable.md)
 
 ## Example
 

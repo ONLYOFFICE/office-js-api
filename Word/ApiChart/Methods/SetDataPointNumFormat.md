@@ -12,10 +12,10 @@ expression.SetDataPointNumFormat(sFormat, nSeria, nDataPoint, bAllSeries);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| sFormat | Required | [NumFormat](../../../Enumerations/NumFormat.md) &#124; String | Description |
-| nSeria | Required | Number | Description |
-| nDataPoint | Required | Number | Description |
-| bAllSeries | Required | Boolean | Description |
+| sFormat | Required | [NumFormat](../../../Enumerations/NumFormat.md) &#124; String | Numeric format (can be custom format). |
+| nSeria | Required | Number | Series index. |
+| nDataPoint | Required | Number | The index of the data point in the specified chart series. |
+| bAllSeries | Required | Boolean | Specifies if the numeric format will be applied to the specified data point in all series. |
 
 ## Returns
 

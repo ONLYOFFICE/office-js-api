@@ -5,7 +5,7 @@ Returns the paragraph line spacing value.
 
 ## Syntax
 
-expression.GetSpacingLineValue()
+expression.GetSpacingLineValue();
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

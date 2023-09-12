@@ -16,7 +16,7 @@ expression.SetLanguage(sLangId);
 
 ## Returns
 
-[ApiTextPr](../../ApiTextPr/ApiTextPr.md)
+[ApiTextPr](../ApiTextPr.md)
 
 ## Example
 

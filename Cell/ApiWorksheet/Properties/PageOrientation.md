@@ -4,7 +4,7 @@ Returns or sets the page orientation.
 
 ## Syntax
 
-expression.PageOrientation &#124; expression.PageOrientation = sPageOrientation;
+expression.PageOrientation; &#124; expression.PageOrientation = sPageOrientation;
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

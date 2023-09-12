@@ -14,7 +14,6 @@ This method doesn't have any parameters.
 
 ## Returns
 
-return
 [ReviewReport](../../../Enumerations/ReviewReport.md)
 
 ## Example

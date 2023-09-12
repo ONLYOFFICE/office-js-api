@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Boolean
+Boolean (returns true if the values in the range specified are hidden)
 
 ## Example
 

@@ -16,7 +16,7 @@ expression.SetValue(data);
 
 ## Returns
 
-Boolean
+Boolean (returns false if such a range does not exist)
 
 ## Example
 

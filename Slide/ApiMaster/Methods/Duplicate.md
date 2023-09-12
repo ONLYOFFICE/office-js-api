@@ -16,7 +16,7 @@ expression.Duplicate(nPos?);
 
 ## Returns
 
-[ApiMaster](../ApiMaster.md) | null
+[ApiMaster](../ApiMaster.md) &#124; null (returns new ApiMaster object that represents the copy of slide master or null if slide master doesn't exist or is not in the presentation)
 
 ## Example
 

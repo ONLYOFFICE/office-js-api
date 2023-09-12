@@ -2,12 +2,6 @@
 
 Class representing a document combo box / dropdown list.
 
-## Properties
-
-- [editable](./Properties/editable.md)
-- [autoFit](./Properties/autoFit.md)
-- [items](./Properties/items.md)
-
 ## Methods
 
 - [Clear](./Methods/Clear.md)

@@ -2,10 +2,6 @@
 
 Class representing a document checkbox / radio button.
 
-## Properties
-
-- [radio](./Properties/radio.md)
-
 ## Methods
 
 - [Clear](./Methods/Clear.md)

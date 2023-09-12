@@ -12,7 +12,7 @@ expression.SetTextDirection(sType);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| sType | Required/Optional | [TextDirection](../../../Enumerations/TextDirection.md) | The type of the text flow direction. |
+| sType | Required | [TextDirection](../../../Enumerations/TextDirection.md) | The type of the text flow direction. |
 
 ## Returns
 

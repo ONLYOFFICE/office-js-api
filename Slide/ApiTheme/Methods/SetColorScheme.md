@@ -16,7 +16,7 @@ expression.SetColorScheme(oApiColorScheme);
 
 ## Returns
 
-Boolean
+Boolean (return false if color scheme doesn't exist)
 
 ## Example
 

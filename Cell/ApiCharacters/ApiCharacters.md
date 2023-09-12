@@ -4,11 +4,11 @@ Class representing characters in an object that contains text.
 
 ## Properties
 
-- [Count](./Properties/Count.md)
-- [Parent](./Properties/Parent.md)
 - [Caption](./Properties/Caption.md)
-- [Text](./Properties/Text.md)
+- [Count](./Properties/Count.md)
 - [Font](./Properties/Font.md)
+- [Parent](./Properties/Parent.md)
+- [Text](./Properties/Text.md)
 
 ## Methods
 

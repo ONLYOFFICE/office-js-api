@@ -16,7 +16,7 @@ expression.GetCols(nCol);
 
 ## Returns
 
-[ApiRange](../ApiRange.md) | &#124;
+[ApiRange](../ApiRange.md) | &#124; null
 
 ## Example
 

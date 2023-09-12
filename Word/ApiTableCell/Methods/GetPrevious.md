@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiTableCell](../ApiTableCell.md) &#124; null
+[ApiTableCell](../ApiTableCell.md) &#124; null (returns null is cell is first)
 
 ## Example
 

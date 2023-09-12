@@ -4,7 +4,7 @@ Adds a comment to the current range.
 
 ## Syntax
 
-expression.AddComment(sText);
+expression.AddComment(sText, sAuthor?);
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
@@ -12,11 +12,12 @@ expression.AddComment(sText);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| sText | Optional | String | The comment text. |
+| sText | Required | String | The comment text. |
+| sText | Optional | String | The comment text. Default value is username. |
 
 ## Returns
 
-Boolean
+[ApiComment](../../ApiComment/ApiComment.md) &#124; null (returns null if comment can't be added)
 
 ## Example
 

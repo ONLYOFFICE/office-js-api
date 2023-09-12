@@ -4,7 +4,7 @@ Creates a new slide.
 
 ## Syntax
 
-expression.CreateSlide()
+expression.CreateSlide();
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

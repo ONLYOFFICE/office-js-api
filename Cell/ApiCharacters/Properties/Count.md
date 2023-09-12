@@ -10,7 +10,7 @@ expression.Count;
 
 ## Returns
 
-number
+Number
 
 ## Example
 

@@ -28,7 +28,7 @@ var oRange = oWorksheet.GetRange("A1");
 oRange.AddComment("This is just a number.");
 var oComment = oRange.GetComment();
 var sType = oComment.GetClassType();
-oWorksheet.GetRange("A3").SetValue("Type: " + sType + " (number of comment data type)");
+oWorksheet.GetRange("A3").SetValue("Type: " + sType);
 builder.SaveFile("xlsx", "GetClassType.xlsx");
 builder.CloseFile();
 ```

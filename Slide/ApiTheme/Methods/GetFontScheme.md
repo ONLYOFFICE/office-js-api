@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiThemeFontScheme](../../ApiThemeFontScheme/ApiThemeFontScheme.md)
+[ApiThemeFontScheme](../../ApiThemeFontScheme/ApiThemeFontScheme.md) &#124; null
 
 ## Example
 

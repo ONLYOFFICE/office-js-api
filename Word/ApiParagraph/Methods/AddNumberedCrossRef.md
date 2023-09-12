@@ -1,7 +1,7 @@
 # AddNumberedCrossRef
 
 Adds a numbered cross-reference to the current paragraph.
-Please note that this paragraph must be in the document.
+<br>Please note that this paragraph must be in the document.
 
 ## Syntax
 
@@ -25,7 +25,7 @@ Boolean
 
 ## Example
 
-This example
+This example adds a numbered cross-reference to the paragraph.
 
 ```javascript
 builder.CreateFile("docx");

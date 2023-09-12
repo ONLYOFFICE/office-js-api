@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ParagraphContent](../../../Enumerations/ParagraphContent.md)
+[ParagraphContent](../../../Enumerations/ParagraphContent.md) &#124; null
 
 ## Example
 

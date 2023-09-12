@@ -16,8 +16,7 @@ expression.AddDrawing(oDrawing);
 
 ## Returns
 
-return
-[return](todo_link)
+This method doesn't return any data.
 
 ## Example
 

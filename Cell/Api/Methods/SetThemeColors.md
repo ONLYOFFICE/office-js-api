@@ -16,7 +16,7 @@ expression.SetThemeColors(sTheme);
 
 ## Returns
 
-Boolean
+Boolean (returns false if sTheme isn't a string)
 
 ## Example
 

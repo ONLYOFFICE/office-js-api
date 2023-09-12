@@ -1,6 +1,6 @@
 # GetClassType
 
-Returns a type of the ApiComboBoxForm class.
+Returns a type of the ApiComboBoxForm class.<br>Inherited From: [ApiFormBase#GetClassType](../../ApiFormBase/Methods/GetClassType.md)
 
 ## Syntax
 

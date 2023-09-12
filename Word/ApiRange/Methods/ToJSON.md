@@ -21,7 +21,7 @@ JSON
 
 ## Example
 
-This example
+This example converts the ApiRange object into the JSON object.
 
 ```javascript
 builder.CreateFile("docx");

@@ -16,8 +16,7 @@ expression.SetLockAspectRatio(isLock?);
 
 ## Returns
 
-return
-[return](todo_link)
+Boolean
 
 ## Example
 

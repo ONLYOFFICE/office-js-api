@@ -4,7 +4,7 @@ Returns or sets a name of the active sheet.
 
 ## Syntax
 
-expression.Name &#124; expression.Name = sName;
+expression.Name; &#124; expression.Name = sName;
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

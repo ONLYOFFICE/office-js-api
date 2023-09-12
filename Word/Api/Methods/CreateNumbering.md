@@ -12,7 +12,7 @@ expression.CreateNumbering(sType, nStartAt?);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| sType | Required | [BulletType](../../../Enumerations/BulletType.md) | Description |
+| sType | Required | [BulletType](../../../Enumerations/BulletType.md) | The numbering type the paragraphs will be numbered with. |
 | nStartAt | Optional | Number | The number the first numbered paragraph will start with. |
 
 ## Returns

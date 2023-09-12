@@ -4,7 +4,7 @@ Specifies the chart title with the specified parameters.
 
 ## Syntax
 
-expression.SetTitle(sTitle, nFontSize, bIsBold)
+expression.SetTitle(sTitle, nFontSize, bIsBold);
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 

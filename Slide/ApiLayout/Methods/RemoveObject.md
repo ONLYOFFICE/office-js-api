@@ -17,7 +17,7 @@ expression.RemoveObject(nPos, nCount?);
 
 ## Returns
 
-Boolean
+Boolean (returns false if layout doesn't exist or position is invalid or layout hasn't objects)
 
 ## Example
 

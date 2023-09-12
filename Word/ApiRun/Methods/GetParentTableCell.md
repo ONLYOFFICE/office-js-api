@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiTableCell](../../ApiTableCell/ApiTableCell.md) &#124; null
+[ApiTableCell](../../ApiTableCell/ApiTableCell.md) &#124; null (returns null is parent cell doesn't exist)
 
 ## Example
 

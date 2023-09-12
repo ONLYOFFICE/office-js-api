@@ -12,7 +12,7 @@ expression.CreateGroup(aDrawings);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| aDrawings | Required | Array | The array of drawings. |
+| aDrawings | Required | Array<[ApiDrawing](../../ApiDrawing/ApiDrawing.md)> | The array of drawings. |
 
 ## Returns
 

@@ -16,7 +16,7 @@ expression.SetFontFamily(sFontFamily);
 
 ## Returns
 
-[ApiParagraph](../ApiParagraph.md)
+[ApiParagraph](../ApiParagraph.md) &#124; null
 
 ## Example
 

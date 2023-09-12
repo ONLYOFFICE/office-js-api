@@ -4,7 +4,7 @@ Adds a hyperlink to a paragraph.
 
 ## Syntax
 
-expression.AddHyperlink(sLink, sScreenTipText);
+expression.AddHyperlink(sLink, sScreenTipText?);
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 
@@ -13,11 +13,11 @@ expression.AddHyperlink(sLink, sScreenTipText);
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
 | sLink | Required | String | The link address. |
-| sScreenTipText | Required | String | The screen tip text. |
+| sScreenTipText | Optional | String | The screen tip text. Default value is "". |
 
 ## Returns
 
-[ApiHyperlink](../../ApiHyperlink/ApiHyperlink.md) &#124; null
+[ApiHyperlink](../../ApiHyperlink/ApiHyperlink.md) &#124; null (returns null if params are invalid)
 
 ## Example
 

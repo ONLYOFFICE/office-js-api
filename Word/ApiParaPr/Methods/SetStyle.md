@@ -17,7 +17,7 @@ expression.SetStyle(oStyle);
 
 ## Returns
 
-This method doesn't return any data.
+[ApiStyle](../../ApiStyle/ApiStyle.md)
 
 ## Example
 

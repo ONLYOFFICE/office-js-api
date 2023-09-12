@@ -4,7 +4,7 @@ Returns the current comment ID. If the comment doesn't have an ID, null is retur
 
 ## Syntax
 
-expression.
+expression.GetId();
 
 `expression` - A variable that represents a [ApiComment](../ApiComment.md) class.
 
@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-String
+String &#124; null
 
 ## Example
 

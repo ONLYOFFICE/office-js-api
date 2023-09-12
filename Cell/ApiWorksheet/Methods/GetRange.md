@@ -17,7 +17,7 @@ expression.GetRange(Range1, Range2);
 
 ## Returns
 
-[ApiRange](../../ApiRange/ApiRange.md) &#124; null
+[ApiRange](../../ApiRange/ApiRange.md) &#124; null (returns null if such a range does not exist)
 
 ## Example
 

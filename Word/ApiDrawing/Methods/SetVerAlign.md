@@ -12,8 +12,8 @@ expression.SetVerAlign(sRelativeFrom?, sAlign?);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| sRelativeFrom | Optional | [RelFromV](../../../Enumerations/RelFromV.md) | The document element which will be taken as a countdown point for the object vertical alignment. |
-| sAlign | Optional | [DrawingVertAlign](../../../Enumerations/DrawingVertAlign.md) | The alingment type which will be used for the object vertical alignment. |
+| sRelativeFrom | Optional | [RelFromV](../../../Enumerations/RelFromV.md) | The document element which will be taken as a countdown point for the object vertical alignment. Dedault value is "page". |
+| sAlign | Optional | [DrawingVertAlign](../../../Enumerations/DrawingVertAlign.md) | The alingment type which will be used for the object vertical alignment. Dedault value is "top". |
 
 ## Returns
 

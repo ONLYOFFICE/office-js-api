@@ -16,7 +16,7 @@ expression.SetMultiline(bMultiline);
 
 ## Returns
 
-Boolean
+Boolean (returns false, if the text field is not fixed size)
 
 ## Example
 

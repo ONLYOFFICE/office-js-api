@@ -21,7 +21,7 @@ Boolean
 
 ## Example
 
-This example
+This example sets the specified numeric format to the axis values.
 
 ```javascript
 builder.CreateFile("docx");

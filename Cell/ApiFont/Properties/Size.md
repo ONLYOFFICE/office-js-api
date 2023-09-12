@@ -12,7 +12,7 @@ expression.Size; &#124; expression.Size = Size;
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| Size | Required | number | Font size. |
+| Size | Required | Number | Font size. |
 
 ## Returns
 

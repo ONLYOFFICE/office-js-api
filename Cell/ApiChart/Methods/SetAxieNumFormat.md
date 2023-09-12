@@ -12,7 +12,7 @@ expression.SetAxieNumFormat(sFormat, sAxiePos);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| sFormat | Required | NumFormat &#124; String | Numeric format (can be custom format). |
+| sFormat | Required | [NumFormat](../../../Enumerations/NumFormat.md) &#124; String | Numeric format (can be custom format). |
 | sAxiePos | Required | [AxisPos](../../../Enumerations/AxisPos.md) | Axis position. |
 
 ## Returns
@@ -21,7 +21,7 @@ Boolean
 
 ## Example
 
-This example
+This example sets the specified numeric format to the axis values.
 
 ```javascript
 builder.CreateFile("xlsx");

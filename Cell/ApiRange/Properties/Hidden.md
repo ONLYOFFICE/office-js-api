@@ -4,7 +4,7 @@ Returns or sets the value hiding property.
 
 ## Syntax
 
-expression.Hidden &#124; expression.Hidden = isHidden;
+expression.Hidden; &#124; expression.Hidden = isHidden;
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
@@ -16,7 +16,7 @@ expression.Hidden &#124; expression.Hidden = isHidden;
 
 ## Returns
 
-Boolean
+Boolean (returns true if the values in the range specified are hidden)
 
 ## Example
 

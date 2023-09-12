@@ -11,10 +11,10 @@ expression.GetParentTableCell();
 ## Parametrs
 
 This method doesn't have any parameters.
-s
+
 ## Returns
 
-[ApiTableCell](../../ApiTableCell/ApiTableCell.md) &#124; null
+[ApiTableCell](../../ApiTableCell/ApiTableCell.md) &#124; null (returns null if parent cell doesn't exist)
 
 ## Example
 

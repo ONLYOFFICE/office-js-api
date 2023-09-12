@@ -16,7 +16,7 @@ expression.SetFontFamily(sFontFamily);
 
 ## Returns
 
-[ApiTextPr](../../ApiTextPr/ApiTextPr.md)
+[ApiTextPr](../ApiTextPr.md)
 
 ## Example
 

@@ -14,7 +14,7 @@ expression.AddSeria(sNameRange, sValuesRange, sXValuesRange?);
 | ------------- | ------------- | ------------- | ------------- |
 | sNameRange | Required | String | The series name. Can be a range of cells or usual text. For example: 1) "'sheet 1'!$A$2:$A$5" - must be a single cell, row or column, 2) "A1:A5" - must be a single cell, row or column, 3) "Example series". |
 | sValuesRange | Required | String | A range of cells from the sheet with series values. For example: 1) "'sheet 1'!$A$2:$A$5" - must be a single cell, row or column, 2) "A1:A5" - must be a single cell, row or column. |
-| sXValuesRange | Optional | String | A range of cells from the sheet with series x-axis values. It is used with the scatter charts only. For example: 1) "'sheet 1'!$A$2:$A$5" - must be a single cell, row or column, 2) "A1:A5" - must be a single cell, row or column. |
+| sXValuesRange | Optional | String | A range of cells from the sheet with series x-axis values. It is used with the scatter charts only. For example: 1) "'sheet 1'!$A$2:$A$5" - must be a single cell, row or column, 2) "A1:A5" - must be a single cell, row or column. Default value is "undefined". |
 
 ## Returns
 

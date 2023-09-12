@@ -12,12 +12,11 @@ expression.SetRespectBorders(isRespect?);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| isRespect | Required | Boolean | Specifies if the form border width will be respected (true) or not (false). Default value is "true". |
+| isRespect | Optional | Boolean | Specifies if the form border width will be respected (true) or not (false). Default value is "true". |
 
 ## Returns
 
-return
-[return](todo_link)
+Boolean
 
 ## Example
 

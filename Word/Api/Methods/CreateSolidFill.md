@@ -12,8 +12,7 @@ expression.CreateSolidFill(oUniColor);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| oUniColor | Required | [ApiUniColor](../../ApiUniColor/ApiUniColor.md
-) | The color used for the element fill. |
+| oUniColor | Required | [ApiUniColor](../../ApiUniColor/ApiUniColor.md) | The color used for the element fill. |
 
 ## Returns
 

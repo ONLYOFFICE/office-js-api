@@ -12,7 +12,7 @@ expression.SetMajorVerticalGridlines(oStroke);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| oStroke | Required | [ApiStroke](../../ApiStroke/ApiStroke.md) | The stroke used to create the element shadow. |
+| oStroke | Optional | [ApiStroke](../../ApiStroke/ApiStroke.md) &#124; null | The stroke used to create the element shadow. Default value is "null". |
 
 ## Returns
 

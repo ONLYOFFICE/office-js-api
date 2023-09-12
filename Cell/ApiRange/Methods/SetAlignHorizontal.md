@@ -16,7 +16,7 @@ expression.SetAlignHorizontal(sAlignment);
 
 ## Returns
 
-Boolean
+Boolean (return false if sAligment doesn't exist)
 
 ## Example
 

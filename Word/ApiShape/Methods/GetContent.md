@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiDocumentContent](../../ApiDocumentContent/ApiDocumentContent.md)
+[ApiDocumentContent](../../ApiDocumentContent/ApiDocumentContent.md) &#124; null
 
 ## Example
 

@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiPlaceholder](../../ApiPlaceholder/ApiPlaceholder.md) &#124; null
+[ApiPlaceholder](../../ApiPlaceholder/ApiPlaceholder.md) &#124; null (returns null if placeholder doesn't exist)
 
 
 ## Example

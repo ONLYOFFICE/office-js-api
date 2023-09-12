@@ -12,7 +12,7 @@ expression.CreateCheckBoxForm(oFormPr);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| oFormPr | Required | [CheckBoxFormPr](../../../Enumerations/CheckBoxFormPr.md) | Checkbox / radio button properties. |
+| oFormPr | Required | [CheckBoxFormPr](../../../Enumerations/CheckBoxFormPr.md) | Checkbox &#124; radio button properties. |
 
 ## Returns
 

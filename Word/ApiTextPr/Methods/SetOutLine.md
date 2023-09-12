@@ -16,7 +16,7 @@ expression.SetOutLine(oStroke);
 
 ## Returns
 
-[ApiTextPr](../../ApiTextPr/ApiTextPr.md)
+[ApiTextPr](../ApiTextPr.md)
 
 ## Example
 

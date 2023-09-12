@@ -1,6 +1,6 @@
 # SetBackgroundColor
 
-Sets the background color to the current form.
+Sets the background color to the current form.<br>Inherited From: [ApiFormBase#SetBackgroundColor](../../ApiFormBase/Methods/SetBackgroundColor.md)
 
 ## Syntax
 

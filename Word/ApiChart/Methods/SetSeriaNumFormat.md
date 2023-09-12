@@ -12,8 +12,8 @@ expression.SetSeriaNumFormat(sFormat, nSeria);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| sFormat | Required/Optional | [NumFormat](../../../Enumerations/NumFormat.md) &#124; String | Numeric format (can be custom format). |
-| nSeria | Required/Optional | Number | Series index. |
+| sFormat | Required | [NumFormat](../../../Enumerations/NumFormat.md) &#124; String | Numeric format (can be custom format). |
+| nSeria | Required | Number | Series index. |
 
 ## Returns
 

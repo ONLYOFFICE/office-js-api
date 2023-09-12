@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiShape](../ApiShape.md) &#124; null
+[ApiShape](../ApiShape.md) &#124; null (returns null is shape is first)
 
 ## Example
 

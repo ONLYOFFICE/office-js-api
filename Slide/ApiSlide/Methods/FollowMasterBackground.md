@@ -4,7 +4,7 @@ Sets the master background as the background of the slide.
 
 ## Syntax
 
-expression.FollowMasterBackground() 
+expression.FollowMasterBackground();
 
 `expression` - A variable that represents a [ApiSlide](../ApiSlide.md) class.
 
@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Boolean
+Boolean (returns false if master is null or master hasn't background or slide doesn't exist)
 
 ## Example
 

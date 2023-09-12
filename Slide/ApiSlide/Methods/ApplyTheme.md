@@ -16,7 +16,7 @@ expression.ApplyTheme(oApiTheme);
 
 ## Returns
 
-Boolean
+Boolean (returns false if master is null or master hasn't background)
 
 ## Example
 

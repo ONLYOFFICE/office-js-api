@@ -13,9 +13,9 @@ expression.SetPosition(nFromCol, nColOffset, nFromRow, nRowOffset);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| nFromCol | Required | number | The number of the column where the beginning of the drawing object will be placed. |
+| nFromCol | Required | Number | The number of the column where the beginning of the drawing object will be placed. |
 | nColOffset | Required | [EMU](../../../Enumerations/Emu.md) | The offset from the nFromCol column to the left part of the drawing object measured in English measure units. |
-| nFromRow | Required | number | The number of the row where the beginning of the drawing object will be placed. |
+| nFromRow | Required | Number | The number of the row where the beginning of the drawing object will be placed. |
 | nRowOffset | Required | [EMU](../../../Enumerations/Emu.md) | The offset from the nFromRow row to the upper part of the drawing object measured in English measure units. |
 
 ## Returns
@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 ## Example
 
-This example
+This example changes the position for the drawing object.
 
 ```javascript
 builder.CreateFile("xlsx");

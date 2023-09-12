@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiThemeColorScheme](../../ApiThemeColorScheme/ApiThemeColorScheme.md)
+[ApiThemeColorScheme](../../ApiThemeColorScheme/ApiThemeColorScheme.md) &#124; null
 
 ## Example
 

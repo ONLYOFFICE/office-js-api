@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiImage](../../ApiImage/ApiImage.md) &#124; null
+[ApiImage](../../ApiImage/ApiImage.md) &#124; null (returns null if image is first)
 
 ## Example
 

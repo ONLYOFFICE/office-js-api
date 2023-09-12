@@ -4,7 +4,7 @@ Sets the height to the current table row.
 
 ## Syntax
 
-expression.SetHeight(nValue?);
+expression.SetHeight(nValue);
 
 `expression` - A variable that represents a [ApiTableRow](../ApiTableRow.md) class.
 

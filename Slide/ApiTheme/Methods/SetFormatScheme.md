@@ -16,8 +16,7 @@ expression.SetFormatScheme(oApiFormatScheme);
 
 ## Returns
 
-return
-[return](todo_link)
+Boolean (return false if format scheme doesn't exist)
 
 ## Example
 

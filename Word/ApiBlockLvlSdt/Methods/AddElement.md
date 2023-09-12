@@ -17,7 +17,7 @@ expression.AddElement(oElement, nPos);
 
 ## Returns
 
-Boolean
+Boolean (returns false if oElement unsupported)
 
 ## Example
 

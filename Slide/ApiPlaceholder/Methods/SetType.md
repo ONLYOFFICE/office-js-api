@@ -16,7 +16,7 @@ expression.SetType(sType);
 
 ## Returns
 
-Boolean
+Boolean (returns false if placeholder type doesn't exist)
 
 ## Example
 

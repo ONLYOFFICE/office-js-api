@@ -16,7 +16,7 @@ expression.Push(oElement);
 
 ## Returns
 
-Boolaen
+Boolaen (returns "false" if the type of "oElement" is not supported by paragraph content)
 
 ## Example
 

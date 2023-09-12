@@ -13,12 +13,12 @@ expression.AddDefName(sName, sRef, isHidden);
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
 | sName | Required | String | The range name. |
-| sRef | Required/Optional | String | The reference to the specified rangeIt must contain the sheet name, followed by sign ! and a range of cells. Example: "Sheet1!$A$1:$B$2". |
+| sRef | Required | String | The reference to the specified rangeIt must contain the sheet name, followed by sign ! and a range of cells. Example: "Sheet1!$A$1:$B$2". |
 | isHidden | Required | Boolean | Defines if the range name is hidden or not. |
 
 ## Returns
 
-Error &#124; Boolean
+Boolean (returns false if sName or sRef are invalid)
 
 ## Example
 

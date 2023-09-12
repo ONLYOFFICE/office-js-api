@@ -17,7 +17,7 @@ expression.SetText(sText);
 ## Returns
 
 Boolean
-s
+
 ## Example
 
 This example sets the text to the current combo box.

@@ -12,7 +12,7 @@ expression.SetCellSpacing(nValue);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| nValue | Required | [twips](../../../Enumerations/twips.md)  | Spacing value measured in twentieths of a point (1/1440 of an inch). "Null" means that no spacing will be applied. |
+| nValue | Required | [twips](../../../Enumerations/twips.md) &#124; null | Spacing value measured in twentieths of a point (1/1440 of an inch). "null" means that no spacing will be applied. |
 
 ## Returns
 

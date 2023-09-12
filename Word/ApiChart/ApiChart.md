@@ -5,6 +5,7 @@ Class representing a chart.
 ## Methods
 
 - [ApplyChartStyle](./Methods/ApplyChartStyle.md)
+- [CreateTitle](./Methods/CreateTitle.md)
 - [GetClassType](./Methods/GetClassType.md)
 - [GetNextChart](./Methods/GetNextChart.md)
 - [GetPrevChart](./Methods/GetPrevChart.md)

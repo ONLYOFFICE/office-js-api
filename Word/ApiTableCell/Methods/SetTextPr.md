@@ -16,7 +16,7 @@ expression.SetTextPr(oTextPr);
 
 ## Returns
 
-Boolean
+Boolean (returns false if param is invalid)
 
 ## Example
 

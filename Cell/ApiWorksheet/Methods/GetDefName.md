@@ -16,7 +16,7 @@ expression.GetDefName(sName);
 
 ## Returns
 
-[ApiName](../../ApiName/ApiName.md) | &#124; null
+[ApiName](../../ApiName/ApiName.md) | &#124; null (returns null if definition name doesn't exist)
 
 ## Example
 

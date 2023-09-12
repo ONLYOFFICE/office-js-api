@@ -16,7 +16,7 @@ expression.MoveTo(nPos);
 
 ## Returns
 
-Boolean
+Boolean (returns false if slide doesn't exist or position is invalid or slide is not in the presentation)
 
 ## Example
 

@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiFormBase](../ApiFormBase.md)
+[ApiFormBase](../ApiFormBase.md) &#124; null
 
 ## Example
 

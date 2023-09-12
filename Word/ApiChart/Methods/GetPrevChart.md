@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiChart](../ApiChart.md) &#124; null
+[ApiChart](../ApiChart.md) &#124; null (returns null if char if first)
 
 ## Example
 

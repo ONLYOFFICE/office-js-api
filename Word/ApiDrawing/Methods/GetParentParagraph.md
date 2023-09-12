@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiParagraph](../../ApiParagraph/ApiParagraph.md) &#124; null
+[ApiParagraph](../../ApiParagraph/ApiParagraph.md) &#124; null (returns null if parent paragraph doesn't exist)
 
 ## Example
 

@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiTableRow](../ApiTableRow.md) &#124; null
+[ApiTableRow](../ApiTableRow.md) &#124; null (returns null if row is first)
 
 ## Example
 

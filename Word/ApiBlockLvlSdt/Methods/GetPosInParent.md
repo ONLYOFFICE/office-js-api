@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Number
+Number (returns -1 if the content control parent doesn't exist)
 
 ## Example
 

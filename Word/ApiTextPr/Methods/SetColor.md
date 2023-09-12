@@ -19,7 +19,7 @@ expression.SetColor(r, g, b, isAuto?);
 
 ## Returns
 
-[ApiTextPr](../../ApiTextPr/ApiTextPr.md)
+[ApiTextPr](../ApiTextPr.md)
 
 ## Example
 

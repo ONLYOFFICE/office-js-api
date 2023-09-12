@@ -16,7 +16,7 @@ expression.Bold = isBold;
 
 ## Returns
 
-Boolean
+This properties doesn't return any data.
 
 ## Example
 

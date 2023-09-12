@@ -15,7 +15,7 @@ This method doesn't have any parameters.
 ## Returns
 
 Object
-Returns the document statistics represented as an object with the following parameters:
+<br>Returns the document statistics represented as an object with the following parameters:
 - PageCount - number of pages;
 - WordsCount - number of words;
 - ParagraphCount - number of paragraphs;

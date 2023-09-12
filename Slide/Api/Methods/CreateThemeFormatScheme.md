@@ -12,14 +12,14 @@ expression.CreateThemeFormatScheme(arrFill, arrBgFill, arrLine, sName);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| arrFill | Required | Array<[ApiFill](../../ApiFill/ApiFill.md)> | Description |
-| arrBgFill | Required | Array<[ApiFill](../../ApiFill/ApiFill.md)> | Description |
-| arrLine | Required | Array<[ApiStroke](../../ApiStroke/ApiStroke.md)> | Description |
-| sName | Required | String | Description |
+| arrFill | Required | Array<[ApiFill](../../ApiFill/ApiFill.md)> | This array contains the fill styles. It should be consist of subtle, moderate and intense fills. |
+| arrBgFill | Required | Array<[ApiFill](../../ApiFill/ApiFill.md)> | This array contains the background fill styles. It should be consist of subtle, moderate and intense fills. |
+| arrLine | Required | Array<[ApiStroke](../../ApiStroke/ApiStroke.md)> | This array contains the line styles. It should be consist of subtle, moderate and intense lines. |
+| sName | Required | String | Theme format scheme name. |
 
 ## Returns
 
-[ApiThemeFormatScheme](../../ApiThemeFormatScheme/ApiThemeFormatScheme.md)
+[ApiThemeFormatScheme](../../ApiThemeFormatScheme/ApiThemeFormatScheme.md) &#124; null
 
 ## Example
 

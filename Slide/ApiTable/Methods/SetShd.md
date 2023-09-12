@@ -12,7 +12,7 @@ expression.SetShd(sType, r, g, b);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| sType | Required | [ShdType](../../../Enumerations/ShdType.md) &#124; [ApiFill](../../ApiFill/ApiFill.md) | Description |
+| sType | Required | [ShdType](../../../Enumerations/ShdType.md) &#124; [ApiFill](../../ApiFill/ApiFill.md) | The shading type applied to the contents of the current table. Can be ShdType or ApiFill. |
 | r | Required | [byte](../../../Enumerations/byte.md) | Red color component value. |
 | g | Required | [byte](../../../Enumerations/byte.md) | Green color component value. |
 | b | Required | [byte](../../../Enumerations/byte.md) | Blue color component value. |

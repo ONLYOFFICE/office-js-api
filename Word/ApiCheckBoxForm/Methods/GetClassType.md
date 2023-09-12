@@ -1,6 +1,6 @@
 # GetClassType
 
-Returns a type of the ApiCheckBoxForm class.
+Returns a type of the ApiCheckBoxForm class.<br>Inherited From: [ApiFormBase#GetClassType](../../ApiFormBase/Methods/GetClassType.md)
 
 ## Syntax
 

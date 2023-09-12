@@ -17,7 +17,7 @@ expression.CreateTable(nCols, nCols);
 
 ## Returns
 
-[ApiTable](../../ApiTable/ApiTable.md)
+[ApiTable](../../ApiTable/ApiTable.md) &#124; null
 
 ## Example
 

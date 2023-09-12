@@ -16,7 +16,7 @@ expression.SetTextPr(oTextPr);
 
 ## Returns
 
-Boolean
+Boolean (returns false if parent table doesn't exist or param is invalid)
 
 ## Example
 

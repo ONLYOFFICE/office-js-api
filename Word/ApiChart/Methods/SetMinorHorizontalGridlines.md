@@ -12,7 +12,7 @@ expression.SetMinorHorizontalGridlines(oStroke);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| oStroke | Required | ApiStroke | The stroke used to create the element shadow. |
+| oStroke | Optional | ApiStroke &#124; null | The stroke used to create the element shadow. Default value is "null". |
 
 ## Returns
 

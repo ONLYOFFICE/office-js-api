@@ -4,7 +4,7 @@ Copies the current form (copies with the shape if it exists).<br>Inherited From:
 
 ## Syntax
 
-expression.
+expression.Copy();
 
 `expression` - A variable that represents a [ApiComboBoxForm](../ApiComboBoxForm.md) class.
 

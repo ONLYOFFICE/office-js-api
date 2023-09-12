@@ -16,7 +16,7 @@ expression.AddObject(oDrawing);
 
 ## Returns
 
-Boolean
+Boolean (returns false if slide doesn't exist)
 
 ## Example
 

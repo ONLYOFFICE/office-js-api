@@ -23,7 +23,7 @@ This method doesn't return any data.
 
 ## Example
 
-This example
+This example specifies the page margins for all the pages in this section.
 
 ```javascript
 builder.CreateFile("docx");

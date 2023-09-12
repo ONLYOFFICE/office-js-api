@@ -16,7 +16,7 @@ expression.SetVertFlip(bFlip);
 
 ## Returns
 
-Boolean
+Boolean (returns false if param is invalid)
 
 ## Example
 

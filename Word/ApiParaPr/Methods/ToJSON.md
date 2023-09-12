@@ -20,7 +20,7 @@ JSON
 
 ## Example
 
-This example
+This example converts the ApiParaPr object into the JSON object.
 
 ```javascript
 builder.CreateFile("docx");

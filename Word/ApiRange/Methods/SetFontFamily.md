@@ -17,6 +17,7 @@ expression.SetFontFamily(sFontFamily);
 ## Returns
 
 [ApiRange](../ApiRange.md) &#124; null
+<br> Returns null if can't set font family.
 
 ## Example
 

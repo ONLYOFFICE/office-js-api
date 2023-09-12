@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiMaster](../../ApiMaster/ApiMaster.md)
+[ApiMaster](../../ApiMaster/ApiMaster.md) &#124; null (returns null if parent slide master doesn't exist)
 
 ## Example
 

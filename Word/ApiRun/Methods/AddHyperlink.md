@@ -13,11 +13,11 @@ expression.AddHyperlink(sLink, sScreenTipText);
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
 | sLink | Required | String | The link address. |
-| sScreenTipText | Required | String | The screen tip text. |
+| sScreenTipText | Optional | String | The screen tip text. Default value is "". |
 
 ## Returns
 
-[ApiHyperlink](../../ApiHyperlink/ApiHyperlink.md) &#124; null
+[ApiHyperlink](../../ApiHyperlink/ApiHyperlink.md) &#124; null (returns false if params are invalid)
 
 ## Example
 

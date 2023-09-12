@@ -12,7 +12,7 @@ expression.SetPrintHeadings(bPrint);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| bPrint | Required | boolean | Specifies whether the current sheet row/column headers must be printed or not. |
+| bPrint | Required | Boolean | Specifies whether the current sheet row/column headers must be printed or not. |
 
 ## Returns
 

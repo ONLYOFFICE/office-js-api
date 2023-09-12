@@ -16,7 +16,7 @@ expression.SetDoubleStrikeout(isDoubleStrikeout);
 
 ## Returns
 
-[ApiTextPr](../../ApiTextPr/ApiTextPr.md)
+[ApiTextPr](../ApiTextPr.md)
 
 ## Example
 

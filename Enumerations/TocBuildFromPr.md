@@ -8,10 +8,10 @@ Object
 
 ## Properties
 
-| **Name** | **Data type** | **Description** |
+| **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- |
-| OutlineLvls | Number | Maximum number of levels in the table of contents. |
-| StylesLvls | Array | Style levels (for example, [{Name: "Heading 1", Lvl: 2}, {Name: "Heading 2", Lvl: 3}]). If StylesLvls.length > 0, then the OutlineLvls property will be ignored. |
+| OutlineLvls | Optional | Number | Maximum number of levels in the table of contents. Default value is "9". |
+| StylesLvls | Required | Array | Style levels (for example, [{Name: "Heading 1", Lvl: 2}, {Name: "Heading 2", Lvl: 3}]). If StylesLvls.length > 0, then the OutlineLvls property will be ignored. |
 
 ## Example
 

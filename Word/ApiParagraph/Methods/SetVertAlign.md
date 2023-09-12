@@ -16,7 +16,7 @@ expression.SetVertAlign(sType);
 
 ## Returns
 
-[ApiParagraph](../ApiParagraph.md) or null
+[ApiParagraph](../ApiParagraph.md) &#124; null (returns null is sType is invalid)
 
 ## Example
 

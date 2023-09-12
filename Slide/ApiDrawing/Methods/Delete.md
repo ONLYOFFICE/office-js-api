@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Boolean
+Boolean (returns false if drawing doesn't exist or drawing hasn't a parent)
 
 ## Example
 

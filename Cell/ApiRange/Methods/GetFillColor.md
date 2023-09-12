@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiColor](../../ApiColor/ApiColor.md) &#124; "No Fill"
+[ApiColor](../../ApiColor/ApiColor.md) &#124; String (return 'No Fill' when the color to the background in the cell / cell range is null)
 
 ## Example
 

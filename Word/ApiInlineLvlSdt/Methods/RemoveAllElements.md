@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Boolean
+Boolean (returns false if control has not elements)
 
 ## Example
 

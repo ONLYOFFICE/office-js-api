@@ -1,18 +1,19 @@
 # GetAllTablesOnPage
 
 Returns a collection of tables on a given absolute page.
-<br>
-This method can be a little bit slow, because it runs the document calculation process to arrange tables on the specified page.
+<br>This method can be a little bit slow, because it runs the document calculation process to arrange tables on the specified page.
 
 ## Syntax
 
-expression.GetAllTablesOnPage();
+expression.GetAllTablesOnPage(nPage);
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 
 ## Parametrs
 
-This method doesn't have any parameters.
+| **Name** | **Required/Optional** | **Data type** | **Description** |
+| ------------- | ------------- | ------------- | ------------- |
+| nPage | Required | Number | Page number. If it is not specified, an empty array will be returned. |
 
 ## Returns
 

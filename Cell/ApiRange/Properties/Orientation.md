@@ -4,7 +4,7 @@ Sets an angle to the current cell range.
 
 ## Syntax
 
-expression.Orientation &#124; expression.Orientation = angle;
+expression.Orientation; &#124; expression.Orientation = angle;
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

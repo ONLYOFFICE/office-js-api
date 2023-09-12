@@ -16,7 +16,7 @@ expression.GetRow(nIndex);
 
 ## Returns
 
-[ApiTableRow](../../ApiTableRow/ApiTableRow.md) &#124; null
+[ApiTableRow](../../ApiTableRow/ApiTableRow.md) &#124; null (returns null if param is invalid)
 
 ## Example
 

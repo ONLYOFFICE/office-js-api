@@ -14,11 +14,11 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiTable](../../ApiTable/ApiTable.md) &#124; null
+[ApiTable](../../ApiTable/ApiTable.md) &#124; null (returns null if parent table doesn't exist)
 
 ## Example
 
-This example
+This example shows how to get a parent table that contains the graphic object.
 
 ```javascript
 builder.CreateFile("docx");

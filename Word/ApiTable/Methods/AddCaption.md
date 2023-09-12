@@ -13,13 +13,13 @@ expression.AddCaption(sAdditional, sLabel?, ?bExludeLabel?, sNumberingFormat?, b
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| sAdditional | Required | String | Description |
-| sLabel | Optional | [CaptionLabel](../../../Enumerations/CaptionLabel.md) | String | Description |
-| bExludeLabel | Optional | Boolean | Description |
-| sNumberingFormat | Optional | [CaptionNumberingFormat](../../../Enumerations/CaptionNumberingFormat.md) | Description |
-| bBefore | Optional | Boolean | Description |
-| nHeadingLvl | Optional | Number | Description |
-| sCaptionSep | Optional | [CaptionSep](../../../Enumerations/CaptionSep.md) | Description |
+| sAdditional | Required | String | The additional text. |
+| sLabel | Optional | [CaptionLabel](../../../Enumerations/CaptionLabel.md) &#124; String | The caption label. Default value is "Table". |
+| bExludeLabel | Optional | Boolean | Specifies whether to exclude the label from the caption. Default value is "false". |
+| sNumberingFormat | Optional | [CaptionNumberingFormat](../../../Enumerations/CaptionNumberingFormat.md) | The possible caption numbering format. Default value is "Arabic". |
+| bBefore | Optional | Boolean | Specifies whether to insert the caption before the current table (true) or after (false) (after/before the shape if it is placed in the shape). Default value is "false". |
+| nHeadingLvl | Optional | Number | The heading level (used if you want to specify the chapter number). If you want to specify "Heading 1", then nHeadingLvl === 0 and etc. Default value is "null". |
+| sCaptionSep | Optional | [CaptionSep](../../../Enumerations/CaptionSep.md) | The caption separator (used if you want to specify the chapter number). Default value is "hyphen". |
 
 ## Returns
 

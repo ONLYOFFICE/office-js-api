@@ -16,8 +16,8 @@ expression.AddCaptionCrossRef(sCaption, sRefType, oParaTo, bLink?, bAboveBelow?)
 | sCaption | Required | [CaptionLabel](../../../Enumerations/CaptionLabel.md) &#124; String | The caption label ("Equation", "Figure", "Table", or another caption label). |
 | sRefType | Required | [captionRefTo](../../../Enumerations/captionRefTo.md) | The text or numeric value of a caption reference you want to insert. |
 | oParaTo | Required | [ApiParagraph](../ApiParagraph.md) | The caption paragraph to be referred to (must be in the document). |
-| bLink | Optional | Boolean | Specifies if the reference will be inserted as a hyperlink. |
-| bAboveBelow | Optional | Boolean | Specifies if the above/below words indicating the position of the reference should be included (used only with the "pageNum" sRefType). |
+| bLink | Optional | Boolean | Specifies if the reference will be inserted as a hyperlink. Default value is "true". |
+| bAboveBelow | Optional | Boolean | Specifies if the above/below words indicating the position of the reference should be included (used only with the "pageNum" sRefType). Default value is "false". |
 
 ## Returns
 

@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Number
+Number (if this method returns -1 -> the form has no limit for characters)
 
 ## Example
 

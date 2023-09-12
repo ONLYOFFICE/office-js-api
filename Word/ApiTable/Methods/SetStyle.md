@@ -16,7 +16,7 @@ expression.SetStyle(oStyle);
 
 ## Returns
 
-Boolean
+Boolean (returns false if param is invalid)
 
 ## Example
 

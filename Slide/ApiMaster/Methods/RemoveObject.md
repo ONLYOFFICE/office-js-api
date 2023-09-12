@@ -10,12 +10,14 @@ expression.RemoveObject(nPos, nCount?);
 
 ## Parametrs
 
+| **Name** | **Required/Optional** | **Data type** | **Description** |
+| ------------- | ------------- | ------------- | ------------- |
 | nPos | Required | Number | Position from which a layout will be deleted. |
 | nCount | Optional | Number | Number of layouts to delete. Default value is "1". |
 
 ## Returns
 
-Boolean
+Boolean (returns false if master doesn't exist or position is invalid or master hasn't objects)
 
 ## Example
 

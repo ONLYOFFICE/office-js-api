@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiBlockLvlSdt](../ApiBlockLvlSdt.md) &#124; null
+[ApiBlockLvlSdt](../ApiBlockLvlSdt.md) &#124; null (returns null if parent content control doesn't exist)
 
 ## Example
 

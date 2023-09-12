@@ -16,11 +16,11 @@ expression.GetRows(nRow);
 
 ## Returns
 
-[ApiRange](../ApiRange.md) &#124; Error
+[ApiRange](../ApiRange.md) &#124; null
 
 ## Example
 
-This example
+This example shows how to get a Range object that represents the rows in the specified range.
 
 ```javascript
 builder.CreateFile("xlsx");

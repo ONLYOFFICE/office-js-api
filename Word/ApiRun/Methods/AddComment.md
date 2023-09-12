@@ -5,7 +5,7 @@ Adds a comment to the current run.
 
 ## Syntax
 
-expression.
+expression.AddComment(sText, sAuthor);
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 
@@ -14,11 +14,11 @@ expression.
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
 | sText | Required | String | The comment text. |
-| sAuthor | Optional | String | The author's name. |
+| sAuthor | Optional | String | The author's name. Default value is "". |
 
 ## Returns
 
-[ApiComment](../../ApiComment/ApiComment.md)
+[ApiComment](../../ApiComment/ApiComment.md) &#124; null (returns null if the comment was not added)
 
 ## Example
 

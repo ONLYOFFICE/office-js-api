@@ -4,7 +4,7 @@ Returns a number of elements in the current document.
 
 ## Syntax
 
-expression.GetElementsCount()
+expression.GetElementsCount();
 
 `expression` - A variable that represents a [ApiDocumentContent](../ApiDocumentContent.md) class.
 

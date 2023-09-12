@@ -18,7 +18,7 @@ String
 
 ## Example
 
-This example
+This example shows how to get the comment reply author's name.
 
 ```javascript
 builder.CreateFile("docx");

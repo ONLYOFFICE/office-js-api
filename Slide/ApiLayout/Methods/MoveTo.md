@@ -16,7 +16,7 @@ expression.MoveTo(nPos);
 
 ## Returns
 
-Boolean
+Boolean (returns false if layout or parent slide master doesn't exist or position is invalid)
 
 ## Example
 

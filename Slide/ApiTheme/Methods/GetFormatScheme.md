@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiThemeFormatScheme](../../ApiThemeFormatScheme/ApiThemeFormatScheme.md)
+[ApiThemeFormatScheme](../../ApiThemeFormatScheme/ApiThemeFormatScheme.md) &#124; null
 
 ## Example
 

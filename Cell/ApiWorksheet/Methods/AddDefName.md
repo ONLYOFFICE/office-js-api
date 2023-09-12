@@ -18,7 +18,7 @@ expression.AddDefName(sName, sRef, isHidden);
 
 ## Returns
 
-Boolean
+Boolean (returns false if sName or sRef are invalid)
 
 ## Example
 

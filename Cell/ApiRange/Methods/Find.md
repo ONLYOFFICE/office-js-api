@@ -16,7 +16,7 @@ expression.Find(oSearchData);
 
 ## Returns
 
-[ApiRange](../ApiRange.md) &#124; null
+[ApiRange](../ApiRange.md) &#124; null (returns null if the current range does not contain such text)
 
 ## Example
 

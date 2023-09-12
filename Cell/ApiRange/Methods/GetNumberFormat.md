@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[XlNumberFormat](../../../Enumerations/XlNumberFormat.md) &#124; null
+[XlNumberFormat](../../../Enumerations/XlNumberFormat.md) &#124; null (returns null if all cells in the specified range don't have the same number format)
 
 ## Example
 

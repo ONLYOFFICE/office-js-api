@@ -4,7 +4,7 @@ Returns or sets the size of the sheet right margin measured in points.
 
 ## Syntax
 
-expression.RightMargin &#124; expression.RightMargin = nPoints;
+expression.RightMargin; &#124; expression.RightMargin = nPoints;
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

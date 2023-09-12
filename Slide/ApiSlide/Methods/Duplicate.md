@@ -12,11 +12,11 @@ expression.Duplicate(nPos?);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| nPos | Required | Number | Position where the new slide will be added. Defalult value is "ApiPresentation.GetSlidesCount()". |
+| nPos | Optional | Number | Position where the new slide will be added. Defalult value is "ApiPresentation.GetSlidesCount()". |
 
 ## Returns
 
-[ApiSlide](../../ApiSlide/ApiSlide.md) &#124; null
+[ApiSlide](../../ApiSlide/ApiSlide.md) &#124; null (returns new ApiSlide object that represents the duplicate slide or null if slide doesn't exist or is not in the presentation)
 
 ## Example
 

@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Boolean &#124; null
+Boolean &#124; null (returns null if parent table doesn't exist)
 
 ## Example
 

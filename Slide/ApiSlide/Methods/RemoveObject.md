@@ -17,7 +17,7 @@ expression.RemoveObject(nPos, nCount?);
 
 ## Returns
 
-Boolean
+Boolean (returns false if slide doesn't exist)
 
 ## Example
 

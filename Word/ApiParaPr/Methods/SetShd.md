@@ -12,10 +12,10 @@ expression.SetShd(sType, r, g, b, isAuto?);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| sType | Required | [ShdType](../../../Enumerations/ShdType.md) | Description |
-| r | Required | [byte](../../../Enumerations/byte.md) | Description |
-| g | Required | [byte](../../../Enumerations/byte.md) | Description |
-| b | Required | [byte](../../../Enumerations/byte.md) | Description |
+| sType | Required | [ShdType](../../../Enumerations/ShdType.md) | The shading type which will be applied to the contents of the current paragraph. |
+| r | Required | [byte](../../../Enumerations/byte.md) | Red color component value. |
+| g | Required | [byte](../../../Enumerations/byte.md) | Green color component value. |
+| b | Required | [byte](../../../Enumerations/byte.md) | Blue color component value. |
 | isAuto | Optional | Boolean | The true value disables paragraph contents shading. Default value is "false". |
 
 ## Returns

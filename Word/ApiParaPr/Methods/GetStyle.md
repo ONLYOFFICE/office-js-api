@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiStyle](../../ApiStyle/ApiStyle.md)
+[ApiStyle](../../ApiStyle/ApiStyle.md) &#124; null
 
 ## Example
 

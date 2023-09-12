@@ -12,7 +12,7 @@ expression.CreateNumbering(sType?);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| sType | Optional | [DocumentNumberingType](../../../Enumerations/DocumentNumberingType.md) | Description | The type of the numbering which will be created. Default value is "bullet". |
+| sType | Optional | [DocumentNumberingType](../../../Enumerations/DocumentNumberingType.md) | The type of the numbering which will be created. Default value is "bullet". |
 
 ## Returns
 

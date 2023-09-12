@@ -12,8 +12,8 @@ expression.InsertWatermark(sText?, bIsDiagonal?);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| sText | Required/Optional | String | Watermark text. Default value is "WATERMARK". |
-| bIsDiagonal | Required/Optional | Boolean | Specifies if the watermark is placed diagonally (true) or horizontally (false). Default value is "true". |
+| sText | Optional | String | Watermark text. Default value is "WATERMARK". |
+| bIsDiagonal | Optional | Boolean | Specifies if the watermark is placed diagonally (true) or horizontally (false). Default value is "true". |
 
 ## Returns
 

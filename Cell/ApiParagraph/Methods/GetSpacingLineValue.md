@@ -4,7 +4,7 @@ Returns the paragraph line spacing value.<br>Inherited From: [ApiParaPr#GetSpaci
 
 ## Syntax
 
-expression.
+expression.GetSpacingLineValue();
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

@@ -18,11 +18,11 @@ expression.InsertParagraph(paragraph, sPosition, beRNewPara);
 
 ## Returns
 
-[ApiParagraph](../../ApiParagraph/ApiParagraph.md) &#124; [ApiDrawing](../ApiDrawing.md)
+[ApiParagraph](../../ApiParagraph/ApiParagraph.md) &#124; [ApiDrawing](../ApiDrawing.md) &#124; null (returns null if parent paragraph doesn't exist)
 
 ## Example
 
-This example
+This example inserts a paragraph at the specified position.
 
 ```javascript
 // todo_example

@@ -4,7 +4,7 @@ Specifies the visual properties for the minor horizontal gridlines.
 
 ## Syntax
 
-expression.SetMinorHorizontalGridlines(oStroke);
+expression.SetMinorHorizontalGridlines(oStroke?);
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 
@@ -12,7 +12,7 @@ expression.SetMinorHorizontalGridlines(oStroke);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| oStroke | Required | ApiStroke | The stroke used to create the element shadow. |
+| oStroke | Optional | [ApiStroke](../../ApiStroke/ApiStroke.md) | The stroke used to create the element shadow. Default value is "null". |
 
 ## Returns
 

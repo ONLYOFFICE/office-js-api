@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Boolean
+Boolean (return false if master doesn't exist or is not in the presentation)
 
 ## Example
 

@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiTheme](../../ApiTheme/ApiTheme.md)
+[ApiTheme](../../ApiTheme/ApiTheme.md) &#124; null (returns null if slide or layout or master or theme doesn't exist)
 
 ## Example
 

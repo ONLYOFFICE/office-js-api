@@ -5,7 +5,7 @@ When all the elements are removed from the paragraph, a new empty run is automat
 
 ## Syntax
 
-expression.
+expression.RemoveAllElements();
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

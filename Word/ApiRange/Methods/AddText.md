@@ -17,7 +17,7 @@ expression.AddText(sText, sPosition?);
 
 ## Returns
 
-Boolean
+Boolean (returns false if range is empty or sText isn't string value)
 
 ## Example
 

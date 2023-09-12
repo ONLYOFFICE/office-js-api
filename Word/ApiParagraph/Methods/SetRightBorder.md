@@ -4,7 +4,7 @@ Specifies the border which will be displayed at the right side of the page aroun
 
 ## Syntax
 
-expression.
+expression.SetRightBorder(sType, nSize, nSpace, r, g, b);
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

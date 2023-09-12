@@ -4,7 +4,7 @@ Returns the text properties from the current form. This method is used only for 
 
 ## Syntax
 
-expression.
+expression.GetTextPr();
 
 `expression` - A variable that represents a [ApiPictureForm](../ApiPictureForm.md) class.
 

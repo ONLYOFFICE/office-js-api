@@ -15,7 +15,6 @@ expression.CreateRGBColor(r, g, b);
 | r | Required | [byte](../../../Enumerations/byte.md) | Red color component value. |
 | g | Required | [byte](../../../Enumerations/byte.md) | Green color component value. |
 | b | Required | [byte](../../../Enumerations/byte.md) | Blue color component value. |
-| isAuto | Optional | Boolean | If this parameter is set to "true", then r,g,b parameters will be ignored. Default values is "false". |
 
 ## Returns
 

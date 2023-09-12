@@ -12,8 +12,8 @@ expression.SetWidth(sType, nValue?);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| sType | Required | type | Type of the width value from one of the available width values types. |
-| nValue | Optional | number | The table cell width value measured in positive integers. Default value is "null". |
+| sType | Required | [TableWidth](../../../Enumerations/TableWidth.md) | Type of the width value from one of the available width values types. |
+| nValue | Optional | Number | The table cell width value measured in positive integers. Default value is "null". |
 
 ## Returns
 

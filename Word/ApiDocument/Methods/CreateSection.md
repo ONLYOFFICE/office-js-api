@@ -16,7 +16,7 @@ expression.CreateSection(oParagraph);
 
 ## Returns
 
-[ApiSection](../../ApiSection/ApiSection.md)
+[ApiSection](../../ApiSection/ApiSection.md) &#124; null
 
 ## Example
 

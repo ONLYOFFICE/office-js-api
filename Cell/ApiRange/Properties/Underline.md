@@ -4,7 +4,7 @@ Sets the type of underline applied to the font. **Set-only**.
 
 ## Syntax
 
-expression.Underline = isBold;
+expression.Underline = undelineType;
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

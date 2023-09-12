@@ -16,7 +16,7 @@ expression.Push(oElement);
 
 ## Returns
 
-Boolean
+Boolean (returns "false" if oElement is unsupported)
 
 ## Example
 

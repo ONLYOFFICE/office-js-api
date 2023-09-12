@@ -4,7 +4,7 @@ Converts the ApiTable object into the JSON object.
 
 ## Syntax
 
-expression.ToJSON(bWriteTableStyles?);
+expression.ToJSON(bWriteNumberings, bWriteStyles);
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 
@@ -12,7 +12,8 @@ expression.ToJSON(bWriteTableStyles?);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| bWriteTableStyles | Optional | Boolean | Specifies whether to write used table styles to the JSON object (true) or not (false). Default value is "false". |
+| bWriteNumberings | Required | Boolean | Specifies if the used numberings will be written to the JSON object or not. |
+| bWriteStyles | Required | Boolean | Specifies if the used styles will be written to the JSON object or not. |
 
 ## Returns
 

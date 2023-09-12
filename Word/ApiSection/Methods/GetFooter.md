@@ -17,7 +17,7 @@ expression.GetFooter(sType, isCreate?);
 
 ## Returns
 
-[ApiDocumentContent](../../ApiDocumentContent/ApiDocumentContent.md)
+[ApiDocumentContent](../../ApiDocumentContent/ApiDocumentContent.md) &#124; null
 
 ## Example
 

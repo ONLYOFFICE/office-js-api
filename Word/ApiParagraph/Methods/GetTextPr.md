@@ -4,7 +4,7 @@ Returns the paragraph text properties.
 
 ## Syntax
 
-expression.GetTextPr()
+expression.GetTextPr();
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

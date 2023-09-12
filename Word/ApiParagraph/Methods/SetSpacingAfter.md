@@ -14,7 +14,7 @@ expression.SetSpacingAfter(nAfter, isAfterAuto?);
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
 | nAfter | Required | [twips](../../../Enumerations/twips.md) | The value of the spacing after the current paragraph measured in twentieths of a point (1/1440 of an inch). |
-| isAfterAuto | Optional | Boolean | The true value disables the spacing after the current paragraph. |
+| isAfterAuto | Optional | Boolean | The true value disables the spacing after the current paragraph. Default value is "false". |
 
 ## Returns
 

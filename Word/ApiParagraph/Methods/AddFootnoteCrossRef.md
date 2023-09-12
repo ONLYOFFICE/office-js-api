@@ -18,7 +18,6 @@ expression.AddFootnoteCrossRef(sRefType, oParaTo, bLink?, bAboveBelow?);
 | bLink | Optional | Boolean | Specifies if the reference will be inserted as a hyperlink. Default value is "true". |
 | bAboveBelow | Optional | Specifies if the above/below words indicating the position of the reference should be included (don't used with the "aboveBelow" sRefType). Default value is "false". |
 
-
 ## Returns
 
 Boolean

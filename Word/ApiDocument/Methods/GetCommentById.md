@@ -16,7 +16,7 @@ expression.GetCommentById(sId);
 
 ## Returns
 
-[ApiComment](../../ApiComment/ApiComment.md)
+[ApiComment](../../ApiComment/ApiComment.md) &#124; null
 
 ## Example
 

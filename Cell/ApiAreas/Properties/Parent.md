@@ -10,7 +10,7 @@ expression.Parent;
 
 ## Returns
 
-Number
+[ApiRange](../../ApiRange/ApiRange.md)
 
 ## Example
 

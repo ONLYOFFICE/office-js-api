@@ -1,6 +1,6 @@
 # Clear
 
-Clears the current form.
+Clears the current form.<br>Inherited From: [ApiFormBase#Clear](../../ApiFormBase/Methods/Clear.md)
 
 ## Syntax
 

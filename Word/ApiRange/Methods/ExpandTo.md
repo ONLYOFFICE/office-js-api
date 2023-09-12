@@ -16,7 +16,7 @@ expression.ExpandTo(oRange);
 
 ## Returns
 
-[ApiRange](../ApiRange.md) &#124; null
+[ApiRange](../ApiRange.md) &#124; null (returns null if the specified range can't be expanded)
 
 ## Example
 

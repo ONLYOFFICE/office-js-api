@@ -16,7 +16,7 @@ expression.GetMaster(nPos);
 
 ## Returns
 
-[ApiMaster](../../ApiMaster/ApiMaster.md) &#124; null
+[ApiMaster](../../ApiMaster/ApiMaster.md) &#124; null (returns null if position is invalid)
 
 ## Example
 

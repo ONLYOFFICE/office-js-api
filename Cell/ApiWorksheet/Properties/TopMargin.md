@@ -4,7 +4,7 @@ Returns or sets the size of the sheet top margin measured in points.
 
 ## Syntax
 
-expression.TopMargin &#124; expression.TopMargin = nPoints;
+expression.TopMargin; &#124; expression.TopMargin = nPoints;
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

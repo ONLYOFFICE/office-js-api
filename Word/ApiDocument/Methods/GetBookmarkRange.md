@@ -16,7 +16,7 @@ expression.GetBookmarkRange(sName);
 
 ## Returns
 
-[ApiRange](../../ApiRange/ApiRange.md) &#124; null
+[ApiRange](../../ApiRange/ApiRange.md) &#124; null (returns "null" if sName is invalid)
 
 ## Example
 

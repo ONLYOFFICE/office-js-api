@@ -17,7 +17,7 @@ expression.AddLayout(nPos?, oLayout);
 
 ## Returns
 
-Boolean
+Boolean (returns false if oLayout isn't a layout)
 
 ## Example
 

@@ -4,7 +4,7 @@ Returns the value2 (value without format) from the first cell of the specified r
 
 ## Syntax
 
-expression.
+expression.Value2;
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

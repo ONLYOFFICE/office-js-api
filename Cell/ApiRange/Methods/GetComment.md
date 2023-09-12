@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiComment](../../ApiComment/ApiComment.md) &#124; null
+[ApiComment](../../ApiComment/ApiComment.md) &#124; null (returns null if range does not consist of one cell)
 
 ## Example
 

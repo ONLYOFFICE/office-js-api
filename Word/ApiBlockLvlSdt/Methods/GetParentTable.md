@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiTable](../../ApiTable/ApiTable.md) &#124; null
+[ApiTable](../../ApiTable/ApiTable.md) &#124; null (returns null is parent table does'n exist)
 
 ## Example
 

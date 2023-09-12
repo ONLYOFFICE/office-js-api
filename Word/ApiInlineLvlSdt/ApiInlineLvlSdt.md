@@ -11,6 +11,7 @@ Class representing a container for the paragraph elements.
 - [Delete](./Methods/Delete.md)
 - [GetAlias](./Methods/GetAlias.md)
 - [GetClassType](./Methods/GetClassType.md)
+- [GetDropdownList](./Methods/GetDropdownList.md)
 - [GetElement](./Methods/GetElement.md)
 - [GetElementsCount](./Methods/GetElementsCount.md)
 - [GetLabel](./Methods/GetLabel.md)

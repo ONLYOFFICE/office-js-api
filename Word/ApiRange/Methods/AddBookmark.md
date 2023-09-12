@@ -16,11 +16,11 @@ expression.AddBookmark(sName);
 
 ## Returns
 
-Boolean
+Boolean (returns false if range is empty)
 
 ## Example
 
-This example
+This example adds a bookmark to the specified range.
 
 ```javascript
 builder.CreateFile("docx");

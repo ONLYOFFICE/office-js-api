@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Boolean
+Boolean (return false if parent slide master doesn't exist)
 
 ## Example
 

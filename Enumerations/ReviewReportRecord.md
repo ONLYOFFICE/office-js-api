@@ -8,11 +8,11 @@ Object
 
 ## Properties
 
-| **Name** | **Data type** | **Description** |
+| **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- |
-| Type | [ReviewReportRecordType](./ReviewReportRecordType.md) | Review record type. |
-| Value | String | Review change value that is set for the "TextAdd" and "TextRem" types only. |
-| Date | Number | The time when this change was made. |
+| Type | Required | [ReviewReportRecordType](./ReviewReportRecordType.md) | Review record type. |
+| Value | Optional | String | Review change value that is set for the "TextAdd" and "TextRem" types only. Default value is "undefined". |
+| Date | Required | Number | The time when this change was made. |
 
 ## Example
 

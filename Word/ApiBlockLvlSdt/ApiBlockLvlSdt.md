@@ -16,6 +16,7 @@ Class representing a container for the document content.
 - [GetAllTablesOnPage](./Methods/GetAllTablesOnPage.md)
 - [GetClassType](./Methods/GetClassType.md)
 - [GetContent](./Methods/GetContent.md)
+- [GetDropdownList](./Methods/GetDropdownList.md)
 - [GetLabel](./Methods/GetLabel.md)
 - [GetLock](./Methods/GetLock.md)
 - [GetParentContentControl](./Methods/GetParentContentControl.md)

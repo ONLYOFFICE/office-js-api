@@ -16,7 +16,7 @@ expression.DeleteBookmark(sName);
 
 ## Returns
 
-Boolean
+Boolean (returns "false" if param is invalid)
 
 ## Example
 

@@ -16,7 +16,7 @@ expression.SetFontSize(FontSize);
 
 ## Returns
 
-[ApiRange](../ApiRange.md) &#124; null
+[ApiRange](../ApiRange.md) &#124; null (returns null if can't set font size)
 
 ## Example
 

@@ -4,7 +4,7 @@ Sets the border which shall be displayed at the left of the current table cell.
 
 ## Syntax
 
-expression.SetCellBorderLeft(fSize, oApiFill)
+expression.SetCellBorderLeft(fSize, oApiFill);
 
 `expression` - A variable that represents a [ApiTableCell](../ApiTableCell.md) class.
 

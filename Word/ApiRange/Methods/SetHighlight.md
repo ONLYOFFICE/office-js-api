@@ -16,7 +16,7 @@ expression.SetHighlight(sColor);
 
 ## Returns
 
-[ApiRange](../ApiRange.md) &#124; null
+[ApiRange](../ApiRange.md) &#124; null (returns null if can't apply highlight)
 
 ## Example
 

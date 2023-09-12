@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Object
+[CommentReport](../../../Enumerations/CommentReport.md)
 
 ## Example
 

@@ -12,8 +12,8 @@ expression.MailMerge(nStartIndex?, nEndIndex?);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| nStartIndex | Required | Number | The start index of the document for mail merge process. Default value is `0`. |
-| nEndIndex | Required | Number | The end index of the document for mail merge process. Default value is `Api.GetMailMergeReceptionsCount() - 1`. |
+| nStartIndex | Optional | Number | The start index of the document for mail merge process. Default value is `0`. |
+| nEndIndex | Optional | Number | The end index of the document for mail merge process. Default value is `Api.GetMailMergeReceptionsCount() - 1`. |
 
 ## Returns
 

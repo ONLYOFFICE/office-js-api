@@ -16,7 +16,7 @@ expression.Delete(keepContent);
 
 ## Returns
 
-Boolean
+Boolean (returns false if content control haven't parent)
 
 ## Example
 

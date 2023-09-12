@@ -17,7 +17,7 @@ expression.AddElement(oElement, nPos?);
 
 ## Returns
 
-Boolean
+Boolean (returns "false" if the type of "oElement" is not supported by paragraph content)
 
 ## Example
 

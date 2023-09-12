@@ -15,6 +15,7 @@ This method doesn't have any parameters.
 ## Returns
 
 This method doesn't return any data.
+
 ## Example
 
 This example adds a line break to the run position and starts the next element from a new line.

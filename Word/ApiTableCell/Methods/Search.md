@@ -4,7 +4,7 @@ Searches for a scope of a table cell object. The search results are a collection
 
 ## Syntax
 
-expression.Search(sText, isMatchCase);
+expression.Search(sText, isMatchCase?);
 
 `expression` - A variable that represents a [ApiTableCell](../ApiTableCell.md) class.
 
@@ -13,7 +13,7 @@ expression.Search(sText, isMatchCase);
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
 | sText | Required | String | Search string. |
-| isMatchCase | Required | Boolean | Case sensitive or not. |
+| isMatchCase | Optional | Boolean | Case sensitive or not. Default value is "false". |
 
 ## Returns
 

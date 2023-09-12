@@ -20,7 +20,7 @@ This method doesn't return any data.
 
 ## Example
 
-This example
+This example sets a range with the category values to the current chart.
 
 ```javascript
 builder.CreateFile("xlsx");

@@ -4,7 +4,7 @@ Returns a type of the current form.<br>Inherited From: [ApiFormBase#GetFormType]
 
 ## Syntax
 
-expression.
+expression.GetFormType();
 
 `expression` - A variable that represents a [ApiPictureForm](../ApiPictureForm.md) class.
 

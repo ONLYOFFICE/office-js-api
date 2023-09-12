@@ -12,13 +12,12 @@ expression.CreateGradientStop(oUniColor, nPos);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| oUniColor | Required | [ApiUniColor](todo_link) | The color used for the gradient stop. |
+| oUniColor | Required | [ApiUniColor](../../ApiUniColor/ApiUniColor.md) | The color used for the gradient stop. |
 | nPos | Required | [PositivePercentage](../../../Enumerations/PositivePercentage.md) | The position of the gradient stop measured in 1000th of percent. |
 
 ## Returns
 
-todo
-[ApiGradientStop](todo_link)
+[ApiGradientStop](../../ApiGradientStop/ApiGradientStop.md)
 
 ## Example
 

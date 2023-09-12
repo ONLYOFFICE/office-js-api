@@ -16,7 +16,7 @@ expression.Text; &#124; expression.Text = Text;
 
 ## Returns
 
-This method doesn't return any data.
+String
 
 ## Example
 

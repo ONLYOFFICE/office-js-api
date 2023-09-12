@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiSlide](../../ApiSlide/ApiSlide.md) &#124; null
+[ApiSlide](../../ApiSlide/ApiSlide.md) &#124; null (return null if parent ins't a slide)
 
 
 ## Example

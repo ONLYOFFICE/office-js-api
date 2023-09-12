@@ -14,11 +14,11 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Boolean shows how to get the information about the wrapping cell style.
+Boolean 
 
 ## Example
 
-This example
+This example shows how to get the information about the wrapping cell style.
 
 ```javascript
 builder.CreateFile("xlsx");

@@ -14,12 +14,11 @@ This method doesn't have any parameters.
 
 ## Returns
 
-todo_create_class
 [ApiContentControlList](../../ApiContentControlList/ApiContentControlList.md)
 
 ## Example
 
-This example
+This example shows how to get a list values of combobox/dropdown list content control.
 
 ```javascript
 // todo_example

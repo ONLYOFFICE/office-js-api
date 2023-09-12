@@ -16,7 +16,7 @@ expression.Fill(oFill);
 
 ## Returns
 
-Boolean
+Boolean (return false if param is invalid)
 
 ## Example
 

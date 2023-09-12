@@ -12,16 +12,16 @@ expression.CreateWordArt(oTextPr?, sText?, sTransform?, oFill?, oStroke?, nRotAn
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| oTextPr | Optional | [ApiTextPr](../../ApiTextPr/ApiTextPr.md) | The text properties. Default value is Api.CreateTextPr(). Default value is "Api.CreateTextPr()"|
-| sText | Optional | String | The text for the Text Art object. Default value is "Your text here". Default value is "Your text here"|
-| sTransform | Optional | [TextTransform](../../../Enumerations/TextTransform.md) | Text transform type. Default value is "textNoShape". Default value is "textNoShape"|
-| oFill | Optional | [ApiFill](../../ApiFill/ApiFill.md) | The color or pattern used to fill the Text Art object. Default value is Api.CreateNoFill(). Default value is "Api.CreateNoFill()"|
-| oStroke | Optional | [ApiStroke](../../ApiStroke/ApiStroke.md) | The stroke used to create the Text Art object shadow. Default value is Api.CreateStroke(0, Api.CreateNoFill()). Default value is "Api.CreateStroke(0, Api.CreateNoFill())"|
-| nRotAngle | Optional | Number | Rotation angle. Default value is 0. Default value is "0"|
-| nWidth | Optional | [EMU](../../../Enumerations/Emu.md) | The Text Art width measured in English measure units. Default value is 1828800. Default value is "1828800"|
-| nHeight | Optional | [EMU](../../../Enumerations/Emu.md) | The Text Art heigth measured in English measure units. Default value is 1828800. Default value is "1828800"|
-| nIndLeft | Optional | [EMU](../../../Enumerations/Emu.md) | The Text Art left side indentation value measured in English measure units. Default value is "ApiPresentation.GetWidth() / 2"|
-| nIndTop | Optional | [EMU](../../../Enumerations/Emu.md) | The Text Art top side indentation value measured in English measure units. Default value is "ApiPresentation.GetHeight() / 2"|
+| oTextPr | Optional | [ApiTextPr](../../ApiTextPr/ApiTextPr.md) | The text properties. Default value is "Api.CreateTextPr()". |
+| sText | Optional | String | The text for the Text Art object. Default value is "Your text here". |
+| sTransform | Optional | [TextTransform](../../../Enumerations/TextTransform.md) | Text transform type. Default value is "textNoShape". |
+| oFill | Optional | [ApiFill](../../ApiFill/ApiFill.md) | The color or pattern used to fill the Text Art object. Default value is "Api.CreateNoFill()". |
+| oStroke | Optional | [ApiStroke](../../ApiStroke/ApiStroke.md) | The stroke used to create the Text Art object shadow. Default value is "Api.CreateStroke(0, Api.CreateNoFill())". |
+| nRotAngle | Optional | Number | Rotation angle. Default value is "0". |
+| nWidth | Optional | [EMU](../../../Enumerations/Emu.md) | The Text Art width measured in English measure units. Default value is "1828800". |
+| nHeight | Optional | [EMU](../../../Enumerations/Emu.md) | The Text Art heigth measured in English measure units. Default value is "1828800". |
+| nIndLeft | Optional | [EMU](../../../Enumerations/Emu.md) | The Text Art left side indentation value measured in English measure units. Default value is "ApiPresentation.GetWidth() / 2". |
+| nIndTop | Optional | [EMU](../../../Enumerations/Emu.md) | The Text Art top side indentation value measured in English measure units. Default value is "ApiPresentation.GetHeight() / 2". |
 
 
 ## Returns

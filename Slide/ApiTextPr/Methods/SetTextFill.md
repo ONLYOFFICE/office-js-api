@@ -20,7 +20,7 @@ expression.SetTextFill(oApiFill);
 
 ## Example
 
-This example
+This example sets the text fill to the current text run.
 
 ```javascript
 builder.CreateFile("pptx");

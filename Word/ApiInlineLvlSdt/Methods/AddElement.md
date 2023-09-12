@@ -13,7 +13,7 @@ expression.AddElement(oElement, nPos?);
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
 | oElement | Required | [	ParagraphContent	](../../../Enumerations/	ParagraphContent	.md) | The type of the element which will be added to the current container. |
-| nPos | Optional | Number | The type of the element which will be added to the current container. Default value is "oInlineLvlSdt.GetElementsCount() - 1" |
+| nPos | Optional | Number | The type of the element which will be added to the current container. Default value is "oInlineLvlSdt.GetElementsCount() - 1". |
 
 ## Returns
 

@@ -19,11 +19,11 @@ expression.SetColor(r, g, b, isAuto?);
 
 ## Returns
 
-[ApiRange](../ApiRange.md) &#124; null
+[ApiRange](../ApiRange.md) &#124; null (returns null if can't apply color)
 
 ## Example
 
-This example
+This example sets the text color to the text Range in the RGB format.
 
 ```javascript
 builder.CreateFile("docx");

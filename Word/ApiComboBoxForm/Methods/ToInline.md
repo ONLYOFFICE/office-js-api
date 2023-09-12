@@ -18,7 +18,7 @@ Boolean
 
 ## Example
 
-This example
+This example converts the form to an inline form.
 
 ```javascript
 builder.CreateFile("docx");

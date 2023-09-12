@@ -16,7 +16,7 @@ expression.SetSchemeName(sName);
 
 ## Returns
 
-Boolean
+Boolean (returns false if font scheme doesn't exist)
 
 ## Example
 

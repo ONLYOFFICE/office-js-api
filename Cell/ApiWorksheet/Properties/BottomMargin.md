@@ -4,7 +4,7 @@ Returns or sets the size of the sheet bottom margin measured in points.
 
 ## Syntax
 
-expression.BottomMargin &#124; expression.BottomMargin = nPoints;
+expression.BottomMargin; &#124; expression.BottomMargin = nPoints;
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

@@ -4,13 +4,15 @@ Sets a style to the current chart by style ID.
 
 ## Syntax
 
-expression.ApplyChartStyle();
+expression.ApplyChartStyle(nStyleId);
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 
 ## Parametrs
 
-This method doesn't have any parameters.
+| **Name** | **Required/Optional** | **Data type** | **Description** |
+| ------------- | ------------- | ------------- | ------------- |
+| nStyleId | Required | Number | One of the styles available in the editor. This value must be a positive. |
 
 ## Returns
 

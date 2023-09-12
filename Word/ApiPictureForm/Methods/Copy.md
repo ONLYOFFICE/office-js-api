@@ -18,7 +18,7 @@ This method doesn't have any parameters.
 
 ## Example
 
-This example
+This example copies the form.
 
 ```javascript
 builder.CreateFile("docx");

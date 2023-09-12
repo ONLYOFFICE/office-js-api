@@ -4,7 +4,7 @@ Returns a value that represents the number of objects in the collection. **Read-
 
 ## Syntax
 
-expression.Count
+expression.Count;
 
 `expression` - A variable that represents a [ApiAreas](../ApiAreas.md) class.
 

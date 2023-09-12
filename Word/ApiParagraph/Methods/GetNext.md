@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiParagraph](../ApiParagraph.md) &#124; null
+[ApiParagraph](../ApiParagraph.md) &#124; null (returns "null" if paragraph is the last)
 
 ## Example
 

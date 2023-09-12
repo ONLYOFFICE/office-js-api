@@ -8,6 +8,8 @@ expression.Delete();
 
 `expression` - A variable that represents a [ApiComment](../ApiComment.md) class.
 
+## Parametrs
+
 This method doesn't have any parameters.
 
 ## Returns

@@ -4,7 +4,7 @@ Returns or sets the background color of the current cell range.
 
 ## Syntax
 
-expression.FillColor
+expression.FillColor; &#124; expression.FillColor = oColor;
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
@@ -16,7 +16,7 @@ expression.FillColor
 
 ## Returns
 
-[ApiColor](../../ApiColor/ApiColor.md) &#124; "No Fill"
+[ApiColor](../../ApiColor/ApiColor.md) &#124; String (return 'No Fill' when the color to the background in the cell / cell range is null)
 
 ## Example
 

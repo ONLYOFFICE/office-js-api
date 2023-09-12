@@ -4,7 +4,7 @@ Returns the information about the wrapping cell style or specifies whether the w
 
 ## Syntax
 
-expression.WrapText &#124; expression.WrapText = isWrap;
+expression.WrapText; &#124; expression.WrapText = isWrap;
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

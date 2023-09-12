@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiNumberingLevel](../../ApiNumberingLevel/ApiNumberingLevel.md)
+[ApiNumberingLevel](../../ApiNumberingLevel/ApiNumberingLevel.md) &#124; null
 
 ## Example
 

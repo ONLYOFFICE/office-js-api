@@ -4,7 +4,7 @@ Returns all shapes from the current sheet.
 
 ## Syntax
 
-expression.GetAllShapes()
+expression.GetAllShapes();
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiSection](../ApiSection.md) &#124; null
+[ApiSection](../ApiSection.md) &#124; null (returns null if section is the last)
 
 ## Example
 

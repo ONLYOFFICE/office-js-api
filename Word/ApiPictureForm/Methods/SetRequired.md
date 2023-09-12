@@ -4,7 +4,7 @@ Specifies if the current form should be required.<br>Inherited From: [ApiFormBas
 
 ## Syntax
 
-expression.SetRequired(bRequired)
+expression.SetRequired(bRequired);
 
 `expression` - A variable that represents a [ApiPictureForm](../ApiPictureForm.md) class.
 

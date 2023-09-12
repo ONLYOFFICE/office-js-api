@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiDrawing](../ApiDrawing.md) &#124; null
+[ApiDrawing](../ApiDrawing.md) &#124; null (returns null if drawing object is first)
 
 ## Example
 

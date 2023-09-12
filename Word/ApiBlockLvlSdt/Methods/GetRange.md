@@ -13,7 +13,8 @@ expression.GetRange(Start, End);
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
 | Start | Required | Number | Start character in the current element. |
-| End | Required | Number | End character in the current element. 
+| End | Required | Number | End character in the current element. |
+
 ## Returns
 
 [ApiRange](../../ApiRange/ApiRange.md)

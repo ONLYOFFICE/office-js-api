@@ -4,7 +4,7 @@ Returns or sets the page PrintHeadings property.
 
 ## Syntax
 
-expression.PrintHeadings &#124; expression.PrintHeadings = bPrint;
+expression.PrintHeadings; &#124; expression.PrintHeadings = bPrint;
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

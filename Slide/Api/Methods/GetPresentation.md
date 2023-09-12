@@ -4,7 +4,7 @@ Returns the main presentation.
 
 ## Syntax
 
-expression.GetPresentation()
+expression.GetPresentation();
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiPresentation](../../ApiPresentation/ApiPresentation.md)
+[ApiPresentation](../../ApiPresentation/ApiPresentation.md) &#124; null
 
 ## Example
 

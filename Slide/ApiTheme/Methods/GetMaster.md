@@ -14,7 +14,8 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiMaster](../../ApiMaster/ApiMaster.md) &#124; null
+[ApiMaster](../../ApiMaster/ApiMaster.md) &#124; null (returns null if slide master doesn't exist)
+
 ## Example
 
 This example shows how to get the slide master of the theme.

@@ -16,7 +16,7 @@ expression.Name; &#124; expression.Name = sName;
 
 ## Returns
 
-String &#124; Error &#124; Boolean
+String &#124; Boolean
 
 ## Example
 

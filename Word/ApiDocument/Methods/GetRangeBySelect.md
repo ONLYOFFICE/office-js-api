@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiRange](../../ApiRange/ApiRange.md) &#124; null
+[ApiRange](../../ApiRange/ApiRange.md) &#124; null (returns null if selection doesn't exist)
 
 ## Example
 

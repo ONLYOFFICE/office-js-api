@@ -4,7 +4,7 @@ Returns or sets the height of the first row in the specified range measured in p
 
 ## Syntax
 
-expression.RowHeight &#124; expression.RowHeight = nHeight;
+expression.RowHeight; &#124; expression.RowHeight = nHeight;
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
@@ -16,7 +16,7 @@ expression.RowHeight &#124; expression.RowHeight = nHeight;
 
 ## Returns
 
-Number
+[pt](../../../Enumerations/pt.md)
 
 ## Example
 

@@ -4,7 +4,7 @@ Specifies the algorithm which will be used to lay out the contents of the curren
 
 ## Syntax
 
-expression.
+expression.SetTableLayout(sType);
 
 `expression` - A variable that represents a [ApiTablePr](../ApiTablePr.md) class.
 

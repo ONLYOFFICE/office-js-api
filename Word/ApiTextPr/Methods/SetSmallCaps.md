@@ -16,7 +16,7 @@ expression.SetSmallCaps(isSmallCaps);
 
 ## Returns
 
-[ApiTextPr](../../ApiTextPr/ApiTextPr.md)
+[ApiTextPr](../ApiTextPr.md)
 
 ## Example
 

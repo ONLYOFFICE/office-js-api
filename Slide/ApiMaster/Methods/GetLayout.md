@@ -16,7 +16,7 @@ expression.GetLayout(nPos);
 
 ## Returns
 
-[ApiLayout](../../ApiLayout/ApiLayout.md) &#124; null
+[ApiLayout](../../ApiLayout/ApiLayout.md) &#124; null (returns null if position is invalid)
 
 ## Example
 

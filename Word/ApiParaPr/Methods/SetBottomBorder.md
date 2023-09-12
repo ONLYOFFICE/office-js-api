@@ -5,7 +5,7 @@ The paragraphs of the same style going one by one are considered as a single blo
 
 ## Syntax
 
-expression.
+expression.SetBottomBorder(sType, nSize, nSpace, r, g, b);
 
 `expression` - A variable that represents a [ApiParaPr](../ApiParaPr.md) class.
 

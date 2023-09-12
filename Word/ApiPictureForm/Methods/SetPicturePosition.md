@@ -15,8 +15,8 @@ expression.SetPicturePosition(nShiftX, nShiftY);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| nShiftX | Required/Optional | [percentage](../../../Enumerations/percentage.md) | Horizontal position measured in percent. |
-| nShiftY | Required/Optional | [percentage](../../../Enumerations/percentage.md) | Vertical position measured in percent. |
+| nShiftX | Required | [percentage](../../../Enumerations/percentage.md) | Horizontal position measured in percent. |
+| nShiftY | Required | [percentage](../../../Enumerations/percentage.md) | Vertical position measured in percent. |
 
 ## Returns
 

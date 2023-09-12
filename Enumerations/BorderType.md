@@ -8,8 +8,8 @@ String
 
 ## Properties
 
-- "none" 
-- "single"
+- "none" - no border will be added to the created element or the selected element side.
+- "single" - a single border will be added to the created element or the selected element side.
 
 ## Example
 

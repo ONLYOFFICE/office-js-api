@@ -17,7 +17,7 @@ The object which will be added to the current slide master. |
 
 ## Returns
 
-Boolean
+Boolean (returns false if slide master doesn't exist)
 
 ## Example
 

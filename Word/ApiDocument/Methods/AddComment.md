@@ -13,11 +13,11 @@ expression.AddComment(sText, sAuthor?);
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
 | sText | Required | String | The comment text. |
-| sAuthor | Optional | String | The author's name. |
+| sAuthor | Optional | String | The author's name. Default value is "". |
 
 ## Returns
 
-[ApiComment](../../ApiComment/ApiComment.md)
+[ApiComment](../../ApiComment/ApiComment.md) &#124; null (returns "null" if the comment was not added)
 
 ## Example
 

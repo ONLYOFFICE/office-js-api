@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiMaster](../ApiMaster.md) &#124; null
+[ApiMaster](../ApiMaster.md) &#124; null (returns new ApiMaster object that represents the copy of slide master or null if slide doesn't exist)
 
 ## Example
 

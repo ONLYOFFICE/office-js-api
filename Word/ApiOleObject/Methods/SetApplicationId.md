@@ -12,7 +12,7 @@ expression.SetApplicationId(sAppId);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| sAppId	 | Required | String | The application ID associated with the curent OLE object. |
+| sAppId | Required | String | The application ID associated with the curent OLE object. |
 
 ## Returns
 

@@ -12,13 +12,13 @@ expression.AddComment(oElement, sText, sAuthor?);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| oElement | Required | Array of [ApiRun](../../ApiRun/ApiRun.md) or DocumentElement | The element where the comment will be added. It may be applied to any element which has the AddComment method. |
+| oElement | Required | Array<[ApiRun](../../ApiRun/ApiRun.md)> &#124; [DocumentElement](../../../Enumerations/DocumentElement.md) | The element where the comment will be added. It may be applied to any element which has the AddComment method. |
 | sText | Required | String | The comment text. |
-| sAuthor | Optional | String | The author's name. |
+| sAuthor | Optional | String | The author's name. Default value is "". |
 
 ## Returns
 
-[ApiComment](../../ApiComment/ApiComment.md)
+[ApiComment](../../ApiComment/ApiComment.md) &#124; null (returns null if the comment was not added.)
 
 ## Example
 

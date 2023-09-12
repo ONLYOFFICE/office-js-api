@@ -14,7 +14,7 @@ expression.Rows;
 
 ## Example
 
-This example
+This example shows how to get the ApiRange object that represents the rows of the specified range.
 
 ```javascript
 builder.CreateFile("xlsx");

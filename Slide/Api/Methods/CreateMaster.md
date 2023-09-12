@@ -16,7 +16,7 @@ expression.CreateMaster(oTheme?);
 
 ## Returns
 
-[ApiMaster](../../ApiMaster/ApiMaster.md)
+[ApiMaster](../../ApiMaster/ApiMaster.md) &#124; null (returns null if presentation theme doesn't exist)
 
 ## Example
 

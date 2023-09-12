@@ -15,7 +15,7 @@ expression.SetDataPointOutLine(oStroke, nSeries, nDataPoint, bAllSeries);
 | oStroke | Required | [ApiStroke](../../ApiStroke/ApiStroke.md) | The stroke used to create the data point outline. |
 | nSeries | Required | Number | The index of the chart series. |
 | nDataPoint | Required | Number | The index of the data point in the specified chart series. |
-| bAllSeries | Required | Number | Specifies if the outline will be applied to the specified data point in all series. |
+| bAllSeries | Required | Boolean | Specifies if the outline will be applied to the specified data point in all series. |
 
 ## Returns
 

@@ -16,8 +16,7 @@ expression.GetElement(nPos);
 
 ## Returns
 
-return
-[ParagraphContent](../../../Enumerations/ParagraphContent.md)
+[ParagraphContent](../../../Enumerations/ParagraphContent.md) &#124; null
 
 ## Example
 

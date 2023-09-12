@@ -12,8 +12,8 @@ expression.GetCells(row, col);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| row | Required | number | The row number or the cell number (if only row is defined). |
-| col | Required | number | The column number. |
+| row | Required | Number | The row number or the cell number (if only row is defined). |
+| col | Required | Number | The column number. |
 
 ## Returns
 

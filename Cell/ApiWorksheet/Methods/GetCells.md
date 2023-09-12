@@ -17,7 +17,7 @@ expression.GetCells(row, col);
 
 ## Returns
 
-[ApiRange](../../ApiRange/ApiRange.md) &#124; Error
+[ApiRange](../../ApiRange/ApiRange.md) &#124; null
 
 ## Example
 

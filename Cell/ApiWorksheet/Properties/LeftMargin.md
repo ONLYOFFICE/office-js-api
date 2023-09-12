@@ -4,7 +4,7 @@ Returns or sets the size of the sheet left margin measured in points.
 
 ## Syntax
 
-expression.LeftMargin &#124; expression.LeftMargin = nPoints;
+expression.LeftMargin; &#124; expression.LeftMargin = nPoints;
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

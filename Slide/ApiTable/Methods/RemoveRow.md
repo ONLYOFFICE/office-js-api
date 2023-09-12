@@ -16,7 +16,7 @@ expression.RemoveRow(oCell);
 
 ## Returns
 
-Boolean
+Boolean (defines if the table is empty after removing or not)
 
 ## Example
 

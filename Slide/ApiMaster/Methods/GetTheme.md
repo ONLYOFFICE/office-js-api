@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiTheme](../../ApiTheme/ApiTheme.md) &#124; null
+[ApiTheme](../../ApiTheme/ApiTheme.md) &#124; null (returns null if theme doesn't exist)
 
 ## Example
 

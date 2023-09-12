@@ -4,7 +4,7 @@ Returns the superscript property of the specified font.
 
 ## Syntax
 
-expression.
+expression.GetSuperscript();
 
 `expression` - A variable that represents a [ApiFont](../ApiFont.md) class.
 

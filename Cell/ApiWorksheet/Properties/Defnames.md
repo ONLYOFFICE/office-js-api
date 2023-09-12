@@ -4,7 +4,7 @@ Returns an array of the ApiName objects. **Read-only**
 
 ## Syntax
 
-expression.
+expression.Defnames;
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

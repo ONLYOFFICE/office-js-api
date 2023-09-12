@@ -4,7 +4,7 @@ Specifies the visual properties of the major horizontal gridline.
 
 ## Syntax
 
-expression.SetMajorHorizontalGridlines(oStroke);
+expression.SetMajorHorizontalGridlines(oStroke?);
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 
@@ -12,7 +12,7 @@ expression.SetMajorHorizontalGridlines(oStroke);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| oStroke | Required | [ApiStroke](../../ApiStroke/ApiStroke.md) | The stroke used to create the element shadow. |
+| oStroke | Required | [ApiStroke](../../ApiStroke/ApiStroke.md) | The stroke used to create the element shadow. Default value is "null". |
 
 ## Returns
 

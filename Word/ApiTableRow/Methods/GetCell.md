@@ -16,8 +16,7 @@ expression.GetCell(nPos);
 
 ## Returns
 
-return
-[return](todo_link)
+[ApiTableCell](../../ApiTableCell/ApiTableCell.md)
 
 ## Example
 

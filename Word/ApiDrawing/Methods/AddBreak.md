@@ -12,12 +12,12 @@ expression.AddBreak(breakType, position);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| breakType | Required | Boolean | The break type: page break (0) or line break (1). |
+| breakType | Required | Number | The break type: page break (0) or line break (1). |
 | position | Required | String | The position where the page or line break will be inserted ("before" or "after" the current drawing). |
 
 ## Returns
 
-Boolean
+Boolean (returns false if drawing object haven't parent run or params are invalid)
 
 ## Example
 

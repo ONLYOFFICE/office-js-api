@@ -12,10 +12,10 @@ expression.SetFormsHighlight(r, g, b, bNone?);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| r | Required | type | Red color component value. |
-| g | Required | type | Green color component value. |
-| b | Required | type | Blue color component value. |
-| bNone | Optional | type | Defines that highlight will not be set. Default value is "false". |
+| r | Required | [byte](../../../Enumerations/byte.md) | Red color component value. |
+| g | Required | [byte](../../../Enumerations/byte.md) | Green color component value. |
+| b | Required | [byte](../../../Enumerations/byte.md) | Blue color component value. |
+| bNone | Optional | Boolean | Defines that highlight will not be set. Default value is "false". |
 
 ## Returns
 

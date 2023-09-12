@@ -20,7 +20,7 @@ Boolean
 
 ## Example
 
-This example
+This example sets the background to the current slide master.
 
 ```javascript
 builder.CreateFile("pptx");

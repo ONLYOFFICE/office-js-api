@@ -4,16 +4,16 @@ Class that contains the font attributes (font name, font size, color, and so on)
 
 ## Properties
 
-- [Parent](./Properties/Parent.md)
 - [Bold](./Properties/Bold.md)
+- [Color](./Properties/Color.md)
 - [Italic](./Properties/Italic.md)
+- [Name](./Properties/Name.md)
+- [Parent](./Properties/Parent.md)
 - [Size](./Properties/Size.md)
 - [Strikethrough](./Properties/Strikethrough.md)
-- [Underline](./Properties/Underline.md)
 - [Subscript](./Properties/Subscript.md)
 - [Superscript](./Properties/Superscript.md)
-- [Name](./Properties/Name.md)
-- [Color](./Properties/Color.md)
+- [Underline](./Properties/Underline.md)
 
 ## Methods
 

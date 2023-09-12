@@ -14,7 +14,7 @@ expression.SetSeriesOutLine(oStroke, nSeries, bAll?);
 | ------------- | ------------- | ------------- | ------------- |
 | oStroke | Required | [ApiStroke](../../ApiStroke/ApiStroke.md) | The stroke used to create the series outline. |
 | nSeries | Required | Number | The index of the chart series. |
-| bAll | Optional | Boolean | Specifies if the outline will be applied to all series. |
+| bAll | Optional | Boolean | Specifies if the outline will be applied to all series. Default value is "false". |
 
 ## Returns
 

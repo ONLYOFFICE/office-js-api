@@ -16,7 +16,7 @@ expression.SetName(sName);
 
 ## Returns
 
-Error &#124; Boolean
+Boolean (returns false if sName is invalid)
 
 ## Example
 

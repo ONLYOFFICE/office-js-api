@@ -21,7 +21,7 @@ This method doesn't return any data.
 
 ## Example
 
-This example
+This example sets one of the existing predefined numbering templates.
 
 ```javascript
 builder.CreateFile("docx");

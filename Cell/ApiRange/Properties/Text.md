@@ -4,7 +4,7 @@ Returns the text from the first cell of the specified range or sets it to this c
 
 ## Syntax
 
-expression.
+expression.Text;
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

@@ -4,7 +4,7 @@ Specifies that any space before or after this paragraph set using the [ApiParaPr
 
 ## Syntax
 
-expression.SetContextualSpacing(isContextualSpacing)
+expression.SetContextualSpacing(isContextualSpacing);
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

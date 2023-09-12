@@ -12,13 +12,12 @@ expression.AddElement(nPos, oElement);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| oCell | Required | [ApiTableCell](../../ApiTableCell/ApiTableCell.md) | The cell where the specified element will be added. |
 | nPos | Required | Number | The position in the cell where the specified element will be added. |
 | oElement | Required | [DocumentElement](../../../Enumerations/DocumentElement.md) | The document element which will be added at the current position. |
 
 ## Returns
 
-Boolean
+Boolean (returns false if oElement is invalid)
 
 ## Example
 

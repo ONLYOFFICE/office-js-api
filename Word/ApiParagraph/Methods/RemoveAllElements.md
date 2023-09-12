@@ -15,7 +15,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Boolean
+This method doesn't return any data.
 
 ## Example
 

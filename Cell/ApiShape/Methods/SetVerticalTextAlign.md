@@ -16,7 +16,7 @@ expression.SetVerticalTextAlign(VerticalAlign);
 
 ## Returns
 
-This method doesn't return any data.
+Boolean (returns false if shape or aligment doesn't exist)
 
 ## Example
 

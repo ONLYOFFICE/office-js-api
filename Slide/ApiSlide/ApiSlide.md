@@ -28,4 +28,5 @@ Class representing a slide.
 - [RemoveAllObjects](./Methods/RemoveAllObjects.md)
 - [RemoveObject](./Methods/RemoveObject.md)
 - [SetBackground](./Methods/SetBackground.md)
+- [SetSetVisible](./Methods/SetSetVisible.md)
 - [ToJSON](./Methods/ToJSON.md)

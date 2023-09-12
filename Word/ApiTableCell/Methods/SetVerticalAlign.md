@@ -12,7 +12,7 @@ expression.SetVerticalAlign(sType);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | [VerticalTextAlign](../../../Enumerations/VerticalTextAlign.md) | The available types of the vertical alignment for the text contents of the current table cell. |
+| name | Required | [VerticalTextAlign](../../../Enumerations/VerticalTextAlign.md) | The available types of the vertical alignment for the text contents of the current table cell. |
 
 ## Returns
 

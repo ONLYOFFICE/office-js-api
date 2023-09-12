@@ -16,7 +16,7 @@ expression.SetFontScheme(oApiFontScheme);
 
 ## Returns
 
-Boolean
+Boolean (return false if font scheme doesn't exist)
 
 ## Example
 

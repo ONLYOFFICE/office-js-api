@@ -17,7 +17,7 @@ expression.AddRows(nCount, isBefore?);
 
 ## Returns
 
-[ApiTable](../../ApiTable/ApiTable.md) &#124; null
+[ApiTable](../../ApiTable/ApiTable.md) &#124; null (returns null if parent table doesn't exist)
 
 ## Example
 

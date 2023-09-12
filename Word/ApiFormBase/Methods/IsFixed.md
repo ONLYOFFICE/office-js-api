@@ -4,7 +4,7 @@ Checks if the current form is fixed size.
 
 ## Syntax
 
-expression.IsFixed()
+expression.IsFixed();
 
 `expression` - A variable that represents a [ApiFormBase](../ApiFormBase.md) class.
 

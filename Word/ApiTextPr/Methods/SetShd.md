@@ -19,7 +19,7 @@ expression.SetShd(sType, r, g, b);
 
 ## Returns
 
-[ApiTextPr](../../ApiTextPr/ApiTextPr.md)
+[ApiTextPr](../ApiTextPr.md)
 
 ## Example
 

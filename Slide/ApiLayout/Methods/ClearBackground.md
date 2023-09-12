@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Boolean
+Boolean (return false if slide layout doesn't exist)
 
 ## Example
 

@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiRun](../../ApiRun/ApiRun.md)
+[ApiRun](../../ApiRun/ApiRun.md) (returns "false" if the paragraph doesn't containt the required run)
 
 ## Example
 

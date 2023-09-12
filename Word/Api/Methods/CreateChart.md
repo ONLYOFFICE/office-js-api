@@ -12,7 +12,7 @@ expression.CreateChart(sType, aSeries, aSeriesNames, aCatNames, nWidth, nHeight,
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| sType | Required | [ChartType](../../../Enumerations/ChartType.md) | The chart type used for the chart display. The chart type used for the chart display. Default value is "bar" |
+| sType | Required | [ChartType](../../../Enumerations/ChartType.md) | The chart type used for the chart display. The chart type used for the chart display. Default value is "bar". |
 | aSeries | Required | Array | The array of the data used to build the chart from. |
 | aSeriesNames | Required | Array | The array of the names (the source table column names) used for the data which the chart will be build from. |
 | aCatNames | Required | Array | The array of the names (the source table row names) used for the data which the chart will be build from. |

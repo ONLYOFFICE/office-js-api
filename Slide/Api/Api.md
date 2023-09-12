@@ -42,3 +42,7 @@ Class representing a base class.
 - [GetPresentation](./Methods/GetPresentation.md)
 - [ReplaceTextSmart](./Methods/ReplaceTextSmart.md)
 - [Save](./Methods/Save.md)
+
+## Properties
+
+- [FullName](./Properties/FullName.md)

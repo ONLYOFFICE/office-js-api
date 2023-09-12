@@ -2,12 +2,6 @@
 
 Class representing a continuous region in a document. Each Range object is determined by the position of the start and end characters.
 
-## Properties
-
-todo we don't have such properties in code
-- [Start](./Properties/Start.md)
-- [End](./Properties/End.md)
-
 ## Methods
 
 - [AddBookmark](./Methods/AddBookmark.md)

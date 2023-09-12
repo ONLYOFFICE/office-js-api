@@ -20,7 +20,7 @@ This method doesn't return any data.
 
 ## Example
 
-This example
+This example sets the line styles to the current theme format scheme.
 
 ```javascript
 builder.CreateFile("pptx");

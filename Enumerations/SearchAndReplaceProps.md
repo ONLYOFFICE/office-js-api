@@ -8,11 +8,11 @@ Object
 
 ## Properties
 
-| **Name** | **Data type** | **Description** |
+| **Name**  | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- |
-| searchString | String | Search string. |
-| replaceString | String | Replacement string. |
-| matchCase | String | Case sensitive or not. |
+| searchString | Required | String | Search string. |
+| replaceString | Required | String | Replacement string. |
+| matchCase | Optional | String | Case sensitive or not. Default value is "true". |
 
 ## Example
 

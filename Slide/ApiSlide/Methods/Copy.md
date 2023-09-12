@@ -4,7 +4,7 @@ Creates a copy of the current slide object.
 
 ## Syntax
 
-expression.
+expression.Copy();
 
 `expression` - A variable that represents a [ApiSlide](../ApiSlide.md) class.
 
@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiSlide](../ApiSlide.md) &#124; null
+[ApiSlide](../ApiSlide.md) &#124; null (returns new ApiSlide object that represents the duplicate slide or null if slide doesn't exist)
 
 ## Example
 

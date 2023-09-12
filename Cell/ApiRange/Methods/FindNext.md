@@ -16,7 +16,7 @@ expression.FindNext(After);
 
 ## Returns
 
-[ApiRange](../ApiRange.md)
+[ApiRange](../ApiRange.md) &#124; null (returns null if the range does not contain such text)
 
 ## Example
 

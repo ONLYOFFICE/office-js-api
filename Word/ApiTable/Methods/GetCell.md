@@ -17,7 +17,7 @@ expression.GetCell(nRow, nCell);
 
 ## Returns
 
-[ApiTableCell](../../ApiTableCell/ApiTableCell.md) &#124; null
+[ApiTableCell](../../ApiTableCell/ApiTableCell.md) &#124; null (returns null if params are invalid)
 
 ## Example
 

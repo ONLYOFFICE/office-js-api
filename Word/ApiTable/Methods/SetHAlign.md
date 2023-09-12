@@ -16,7 +16,7 @@ expression.SetHAlign(sType);
 
 ## Returns
 
-Boolean
+Boolean (returns false if param is invalid)
 
 ## Example
 

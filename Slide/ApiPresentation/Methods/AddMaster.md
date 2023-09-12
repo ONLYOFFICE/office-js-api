@@ -12,12 +12,12 @@ expression.AddMaster(nPos?, oApiMaster);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| nPos | Optional | Number | The position where the Master will be added. Default value is "ApiPresentation.GetMastersCount()" |
+| nPos | Optional | Number | The position where the Master will be added. Default value is "ApiPresentation.GetMastersCount()". |
 | oApiMaster | Required | [ApiMaster](../../ApiMaster/ApiMaster.md) | The slide master to be added. |
 
 ## Returns
 
-Boolean
+Boolean (return false if position is invalid or oApiMaster doesn't exist)
 
 ## Example
 

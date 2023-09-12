@@ -14,11 +14,11 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Type Array<String>
+Array<String>
 
 ## Example
 
-This example
+This example shows how to get a list of all tags that are used for all forms in the document.
 
 ```javascript
 builder.CreateFile("docx");

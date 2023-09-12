@@ -4,7 +4,7 @@ Returns the font size property of the specified font.
 
 ## Syntax
 
-expression.
+expression.GetSize();
 
 `expression` - A variable that represents a [ApiFont](../ApiFont.md) class.
 

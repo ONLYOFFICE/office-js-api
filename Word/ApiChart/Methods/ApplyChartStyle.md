@@ -4,7 +4,7 @@ Sets a style to the current chart by style ID.
 
 ## Syntax
 
-expression.ApplyChartStyle()
+expression.ApplyChartStyle();
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 
@@ -12,7 +12,7 @@ expression.ApplyChartStyle()
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| nStyleId | Required | Number | One of the styles available in the editor. |
+| nStyleId | Required | Number | One of the styles available in the editor. This value must be a positive. |
 
 ## Returns
 

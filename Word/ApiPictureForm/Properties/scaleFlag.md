@@ -4,7 +4,7 @@ The condition to scale an image in the picture form: [ScaleFlag](../../../Enumer
 
 ## Syntax
 
-expression.scaleFlag or expression.scaleFlag = [ScaleFlag](../../../Enumerations/ScaleFlag.md)
+expression.scaleFlag or expression.scaleFlag = [ScaleFlag](../../../Enumerations/ScaleFlag.md);
 
 `expression` - A variable that represents a [ApiPictureForm](../ApiPictureForm.md) class.
 

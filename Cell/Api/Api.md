@@ -8,13 +8,15 @@ Class representing a base class.
 
 ## Properties
 
-- [Sheets](./Properties/Sheets.md)
 - [ActiveSheet](./Properties/ActiveSheet.md)
+- [FullName](./Properties/FullName.md)
+- [Sheets](./Properties/Sheets.md)
 - [Selection](./Properties/Selection.md)
 - [Comments](./Properties/Comments.md)
 
 ## Methods
 
+- [AddComment](./Methods/AddComment.md)
 - [AddDefName](./Methods/AddDefName.md)
 - [AddSheet](./Methods/AddSheet.md)
 - [attachEvent](./Methods/attachEvent.md)
@@ -40,13 +42,13 @@ Class representing a base class.
 - [detachEvent](./Methods/detachEvent.md)
 - [Format](./Methods/Format.md)
 - [GetActiveSheet](./Methods/GetActiveSheet.md)
+- [GetCommentById](./Methods/GetCommentById.md)
 - [GetComments](./Methods/GetComments.md)
 - [GetDefName](./Methods/GetDefName.md)
 - [GetFullName](./Methods/GetFullName.md)
 - [GetLocale](./Methods/GetLocale.md)
 - [GetMailMergeData](./Methods/GetMailMergeData.md)
 - [GetRange](./Methods/GetRange.md)
-- [GetRangeByNumber](./Methods/GetRangeByNumber.md)
 - [GetSelection](./Methods/GetSelection.md)
 - [GetSheet](./Methods/GetSheet.md)
 - [GetSheets](./Methods/GetSheets.md)

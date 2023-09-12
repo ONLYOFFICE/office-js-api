@@ -18,7 +18,7 @@ expression.CreateImage(sImageSrc, nWidth, nHeight);
 
 ## Returns
 
-[ApiImage](todo_link)
+[ApiImage](../../ApiImage/ApiImage.md)
 
 ## Example
 

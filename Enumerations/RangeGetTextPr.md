@@ -4,20 +4,20 @@ The resulting string display properties.
 
 ## Type
 
-object
+Object
 
 ## Properties
 
-| **Name** | **Data type** | **Description** |
+| **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- |
-| NewLineParagraph | Boolean | Defines if the resulting string will include paragraph line boundaries or not. Default value is "false". |
-| Numbering | Boolean | Defines if the resulting string will include numbering or not. Default value is "false". |
-| Math | Boolean | Defines if the resulting string will include mathematical expressions or not. Default value is "false". |
-| NewLineSeparator | String | Defines how the line separator will be specified in the resulting string Default value is "\r". |
-| TableCellSeparator | String | Defines how the table cell separator will be specified in the resulting string. Default value is "\t". |
-| TableRowSeparator | String | Defines how the table row separator will be specified in the resulting string. Default value is "\r\n". |
-| ParaSeparator | String | Defines how the paragraph separator will be specified in the resulting string. Default value is "\r\n". |
-| TabSymbol | String | Defines how the tab will be specified in the resulting string (does not apply to numbering). Default value is "\t". |
+| NewLineParagraph | Optional | Boolean | Defines if the resulting string will include paragraph line boundaries or not. Default value is "false". |
+| Numbering | Optional | Boolean | Defines if the resulting string will include numbering or not. Default value is "false". |
+| Math | Optional | Boolean | Defines if the resulting string will include mathematical expressions or not. Default value is "false". |
+| NewLineSeparator | Optional | String | Defines how the line separator will be specified in the resulting string Default value is "\r". |
+| TableCellSeparator | Optional | String | Defines how the table cell separator will be specified in the resulting string. Default value is "\t". |
+| TableRowSeparator | Optional | String | Defines how the table row separator will be specified in the resulting string. Default value is "\r\n". |
+| ParaSeparator | Optional | String | Defines how the paragraph separator will be specified in the resulting string. Default value is "\r\n". |
+| TabSymbol | Optional | String | Defines how the tab will be specified in the resulting string (does not apply to numbering). Default value is "\t". |
 
 ## Example
 

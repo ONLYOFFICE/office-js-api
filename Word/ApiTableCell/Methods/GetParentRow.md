@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiTableRow](../../ApiTableRow/ApiTableRow.md) &#124; null
+[ApiTableRow](../../ApiTableRow/ApiTableRow.md) &#124; null (returns null if parent row doesn't exist)
 
 ## Example
 

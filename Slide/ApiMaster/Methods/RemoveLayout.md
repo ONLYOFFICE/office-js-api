@@ -17,7 +17,7 @@ expression.RemoveLayout(nPos, nCount?);
 
 ## Returns
 
-Boolean
+Boolean (return false if position is invalid)
 
 ## Example
 

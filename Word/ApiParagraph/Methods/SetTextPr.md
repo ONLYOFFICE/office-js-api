@@ -12,7 +12,7 @@ expression.SetTextPr(oTextPr);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| oTextPr | Required/Optional | [ApiTextPr](../../ApiTextPr/ApiTextPr.md) | The properties that will be set to the content of the content control. |
+| oTextPr | Required | [ApiTextPr](../../ApiTextPr/ApiTextPr.md) | The properties that will be set to the content of the content control. |
 
 ## Returns
 

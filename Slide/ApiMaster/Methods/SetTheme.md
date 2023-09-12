@@ -16,7 +16,7 @@ expression.SetTheme(oTheme);
 
 ## Returns
 
-Boolean
+Boolean (return false if oTheme isn't a theme or slide master doesn't exist)
 
 ## Example
 

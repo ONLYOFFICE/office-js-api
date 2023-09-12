@@ -12,11 +12,11 @@ expression.SetUnderline(isUnderline);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| isUnderline | Required/Optional | Boolean | Specifies if the contents of the current Range are displayed underlined or not. |
+| isUnderline | Required | Boolean | Specifies if the contents of the current Range are displayed underlined or not. |
 
 ## Returns
 
-[ApiRange](../ApiRange.md) &#124; null
+[ApiRange](../ApiRange.md) &#124; null (returns null if can't apply underline)
 
 ## Example
 

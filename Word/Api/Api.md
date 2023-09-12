@@ -11,6 +11,7 @@ Represents a base class.
 - [AddComment](./Methods/AddComment.md)
 - [attachEvent](./Methods/attachEvent.md)
 - [ConvertDocument](./Methods/ConvertDocument.md)
+- [CoAuthoringChatSendMessage](./Methods/ConvertDocument.md)
 - [CreateBlipFill](./Methods/CreateBlipFill.md)
 - [CreateBlockLvlSdt](./Methods/CreateBlockLvlSdt.md)
 - [CreateBullet](./Methods/CreateBullet.md)

@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Number
+Number (returns -1 if slide doesn't exist or is not in the presentation)
 
 ## Example
 

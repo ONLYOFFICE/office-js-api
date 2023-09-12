@@ -16,7 +16,7 @@ expression.SetPlaceholder(oPlaceholder);
 
 ## Returns
 
-Boolean
+Boolean (returns false if parameter isn't a placeholder)
 
 ## Example
 

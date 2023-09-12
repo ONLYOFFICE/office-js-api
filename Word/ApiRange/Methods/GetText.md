@@ -16,7 +16,7 @@ expression.GetText(oPr);
 
 ## Returns
 
-String
+String (returns "" if range is empty)
 
 ## Example
 

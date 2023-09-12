@@ -16,7 +16,6 @@ expression.GetElement(nPos);
 
 ## Returns
 
-return
 [ParagraphContent](../../../Enumerations/ParagraphContent.md)
 
 ## Example

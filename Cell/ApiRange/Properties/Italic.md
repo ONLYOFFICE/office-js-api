@@ -16,7 +16,7 @@ expression.Italic = isItalic;
 
 ## Returns
 
-Boolean
+This properties doesn't return any data.
 
 ## Example
 

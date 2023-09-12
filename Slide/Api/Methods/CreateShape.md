@@ -12,11 +12,11 @@ expression.CreateShape(sType?, nWidth?, nHeight?, oFill?, oStroke?);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| sType | Optional | [ShapeType](../../../Enumerations/ShapeType.md) | The shape type which specifies the preset shape geometry. |
-| nWidth | Optional | [EMU](../../../Enumerations/Emu.md) | The shape width in English measure units. |
-| nHeight | Optional | [EMU](../../../Enumerations/Emu.md) | The shape height in English measure units. |
-| oFill | Optional | [ApiFill](../../ApiFill/ApiFill.md) | The color or pattern used to fill the shape. |
-| oStroke | Optional | [ApiStroke](../../ApiStroke/ApiStroke.md) | The stroke used to create the element shadow. |
+| sType | Optional | [ShapeType](../../../Enumerations/ShapeType.md) | The shape type which specifies the preset shape geometry. Default value is "rect". |
+| nWidth | Optional | [EMU](../../../Enumerations/Emu.md) | The shape width in English measure units. Default value is "914400". |
+| nHeight | Optional | [EMU](../../../Enumerations/Emu.md) | The shape height in English measure units. Default value is "914400". |
+| oFill | Optional | [ApiFill](../../ApiFill/ApiFill.md) | The color or pattern used to fill the shape. Default value is "Api.CreateNoFill()". |
+| oStroke | Optional | [ApiStroke](../../ApiStroke/ApiStroke.md) | The stroke used to create the element shadow. Default value is "Api.CreateStroke(0, Api.CreateNoFill())". |
 
 ## Returns
 

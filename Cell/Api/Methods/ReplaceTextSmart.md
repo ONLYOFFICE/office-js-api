@@ -13,8 +13,8 @@ expression.ReplaceTextSmart(arrString, sParaTab?, sParaNewLine?);
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
 | arrString | Required | Array<String> | An array of replacement strings. |
-| sParaTab | Optional | String | A character which is used to specify the tab in the source text. Default value is "". |
-| sParaNewLine | Optional | String | A character which is used to specify the line break character in the source text. Default value is "". |
+| sParaTab | Optional | String | A character which is used to specify the tab in the source text. Default value is " ". |
+| sParaNewLine | Optional | String | A character which is used to specify the line break character in the source text. Default value is " ". |
 
 ## Returns
 

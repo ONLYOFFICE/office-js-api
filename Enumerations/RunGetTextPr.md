@@ -8,10 +8,10 @@ Object
 
 ## Properties
 
-| **Name** | **Data type** | **Description** |
+| **Name**  | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- |
-| NewLineSeparator | String | Defines how the line separator will be specified in the resulting string. Default value is "\r". |
-| TabSymbol | String | Defines how the tab will be specified in the resulting string. Default value is "\t". |
+| NewLineSeparator | Optional | String | Defines how the line separator will be specified in the resulting string. Default value is "\r". |
+| TabSymbol | Optional | String | Defines how the tab will be specified in the resulting string. Default value is "\t". |
 
 ## Example
 

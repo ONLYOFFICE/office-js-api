@@ -18,7 +18,7 @@ expression.InsertParagraph(paragraph, sPosition, beRNewPara);
 
 ## Returns
 
-[ApiParagraph](../ApiParagraph.md) &#124; null
+[ApiParagraph](../ApiParagraph.md) &#124; null (returns null if param paragraph is invalid)
 
 ## Example
 

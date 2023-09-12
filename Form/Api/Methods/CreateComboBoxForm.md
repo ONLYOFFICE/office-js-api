@@ -12,7 +12,7 @@ expression.CreateComboBoxForm(oFormPr);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| oFormPr | Required | [ComboBoxFormPr](../../../Enumerations/ComboBoxFormPr.md) | Combo box / dropdown list properties. |
+| oFormPr | Required | [ComboBoxFormPr](../../../Enumerations/ComboBoxFormPr.md) | Combobox &#124; null dropdown list properties. |
 
 ## Returns
 

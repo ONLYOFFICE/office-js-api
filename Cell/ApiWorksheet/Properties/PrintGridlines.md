@@ -4,7 +4,7 @@ Returns or sets the page PrintGridlines property.
 
 ## Syntax
 
-expression.PrintGridlines &#124; expression.PrintGridlines = bPrint;
+expression.PrintGridlines; &#124; expression.PrintGridlines = bPrint;
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

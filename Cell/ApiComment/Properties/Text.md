@@ -1,10 +1,10 @@
 # Text
 
-The string value representing the text of the comment text.
+Returns or sets the comment text
 
 ## Syntax
 
-expression.Text; &#124; expression.Text = Text;
+expression.Text; &#124; expression.Text = text;
 
 `expression` - A variable that represents a [ApiComment](../ApiComment.md) class.
 
@@ -12,7 +12,7 @@ expression.Text; &#124; expression.Text = Text;
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| Text | Required | String | The text to be set. |
+| text | Required | String | New text for comment. |
 
 ## Returns
 

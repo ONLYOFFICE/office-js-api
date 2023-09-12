@@ -1,6 +1,6 @@
 # GetClassType
 
-Returns a type of the ApiPictureForm class.
+Returns a type of the ApiPictureForm class.<br>Inherited From: [ApiFormBase#GetClassType](../../ApiFormBase/Methods/GetClassType.md)
 
 ## Syntax
 
