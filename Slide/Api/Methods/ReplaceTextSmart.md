@@ -42,8 +42,9 @@ oFParagraph.AddLineBreak();
 var oSParagraph = Api.CreateParagraph();
 oSParagraph.AddTabStop();
 oSParagraph.AddText("This is just a sample text with a tab stop before it.");
-oDocContent.AddElement(oSParagraph);\
-// todo_example proble (how to make select)
+oDocContent.AddElement(oSParagraph);
+oSlide.AddObject(oShape);
+// todo_example problem (how to make select in slide)
 // var oRange1 = oFParagraph.GetRange();
 // var oRange2 = oSParagraph.GetRange();
 // var oRange3 = oRange1.ExpandTo(oRange2);

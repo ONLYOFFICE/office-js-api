@@ -2,7 +2,7 @@
 
 Class representing a ContentControlList
 
-todo_examples for the hole class.
+todo_examples we don't have ability to create such object from code.
 
 ## Methods
 - [Delete](./Methods/Delete.md)

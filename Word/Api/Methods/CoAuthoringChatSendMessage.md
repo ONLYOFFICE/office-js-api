@@ -12,7 +12,7 @@ expression.CoAuthoringChatSendMessage(sString);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| sString | Required | String | todo_description |
+| sString | Required | String | Text message. |
 
 ## Returns
 
@@ -23,5 +23,6 @@ Boolean
 This example
 
 ```javascript
-// todo_example
+// todo_example this method doesn't have description in code
+Api.CoAuthoringChatSendMessage("Hello, I'm John.");
 ```

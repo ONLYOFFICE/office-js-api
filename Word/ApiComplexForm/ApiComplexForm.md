@@ -2,7 +2,7 @@
 
 Class representing a complex field.
 
-todo_examples for the hole class. and this class doesn't have any methods in code.
+todo_examples we have only private function for creating such form.
 
 ## Methods
 
