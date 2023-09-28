@@ -17,7 +17,7 @@ expression.InsertWatermark(sText?, bIsDiagonal?);
 
 ## Returns
 
-This method doesn't return any data.
+[ApiDrawing](../../ApiDrawing/ApiDrawing.md) &#124; null
 
 ## Example
 
