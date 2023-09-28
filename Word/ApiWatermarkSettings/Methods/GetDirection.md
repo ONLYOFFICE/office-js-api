@@ -42,6 +42,6 @@ const oWatermarkSettings2 = oDocument.GetWatermarkSettings();
 const oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Watermark Direction = " + oWatermarkSettings2.GetDirection());
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetText.docx");
+builder.SaveFile("docx", "GetDirection.docx");
 builder.CloseFile();
 ```

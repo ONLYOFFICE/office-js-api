@@ -33,6 +33,6 @@ oWatermarkSettings.SetImageSize(36000 * 70, 36000 * 80);
 oWatermarkSettings.SetDirection("clockwise45");
 oWatermarkSettings.SetOpacity(200);
 oDocument.SetWatermarkSettings(oWatermarkSettings);
-builder.SaveFile("docx", "SetImageURL.docx");
+builder.SaveFile("docx", "SetImageSize.docx");
 builder.CloseFile();
 ```

@@ -21,6 +21,7 @@ Number
 This example sets the parameters of the watermark settings and apply them to the document.
 
 ```javascript
+builder.CreateFile("docx");
 const oDocument = Api.GetDocument();
 const oWatermarkSettings = oDocument.GetWatermarkSettings();
 oWatermarkSettings.SetType("text");
@@ -40,6 +41,6 @@ const oWatermarkSettings2 = oDocument.GetWatermarkSettings();
 const oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Watermark Opacity = " + oWatermarkSettings2.GetOpacity());
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetOpacity.docx");
+builder.SaveFile("docx", "GetOpacity.docx");
 builder.CloseFile();
 ```
