@@ -41,6 +41,7 @@ Class representing a base class.
 - [CreateTextPr](./Methods/CreateTextPr.md)
 - [detachEvent](./Methods/detachEvent.md)
 - [Format](./Methods/Format.md)
+- [FreezePanes](./Methods/FreezePanes.md)
 - [GetActiveSheet](./Methods/GetActiveSheet.md)
 - [GetCommentById](./Methods/GetCommentById.md)
 - [GetComments](./Methods/GetComments.md)
