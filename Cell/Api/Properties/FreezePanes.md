@@ -1,10 +1,10 @@
 # FreezePanes
 
-Freeze and unfeeze Panes.
+Returns or sets a freeze panes type.
 
 ## Syntax
 
-expression.FreezePanes(FreezePaneType);
+expression.FreezePanes; &#124; expression.FreezePanes = FreezePaneType;
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -16,20 +16,18 @@ expression.FreezePanes(FreezePaneType);
 
 ## Returns
 
-This method doesn't return any data.
+[FreezePaneType](../../../Enumerations/FreezePaneType.md)
 
 ## Example
 
-This example freezes first column and get pastes a freezed range address into the table.
+This example freezes first column and get pastes a freezed type into the table.
 
 ```javascript
 builder.CreateFile("xlsx");
-Api.FreezePanes('column');
+Api.FreezePanes = 'column';
 var oWorksheet = Api.GetActiveSheet();
-var oFreezePanes = oWorksheet.GetFreezePanes();
-var oRange = oFreezePanes.GetLocation();
-oWorksheet.GetRange("A1").SetValue("Location: ");
-oWorksheet.GetRange("B1").SetValue(oRange.GetAddress());
+oWorksheet.GetRange("A1").SetValue("Type: ");
+oWorksheet.GetRange("B1").SetValue(Api.FreezePanes);
 builder.SaveFile("xlsx", "FreezePanes.xlsx");
 builder.CloseFile();
 ```

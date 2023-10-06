@@ -8,10 +8,10 @@ String &#124; null
 
 ## Properties
 
-- "row" - freeze top row.
-- "column" - freeze firs column.
-- "cell" - freeze panes by current cell.
-- null - unfreeze panes.
+- "row" - freeze top row &#124; if current freeze type is row.
+- "column" - freeze firs column &#124; if current freeze type is column.
+- "cell" - freeze panes by current cell &#124; if current freeze type is cell.
+- null - unfreeze panes &#124; if there is no frozen pane.
 
 ## Example
 

@@ -13,6 +13,7 @@ Class representing a base class.
 - [Sheets](./Properties/Sheets.md)
 - [Selection](./Properties/Selection.md)
 - [Comments](./Properties/Comments.md)
+- [FreezePanes](./Properties/FreezePanes.md)
 
 ## Methods
 
@@ -41,11 +42,11 @@ Class representing a base class.
 - [CreateTextPr](./Methods/CreateTextPr.md)
 - [detachEvent](./Methods/detachEvent.md)
 - [Format](./Methods/Format.md)
-- [FreezePanes](./Methods/FreezePanes.md)
 - [GetActiveSheet](./Methods/GetActiveSheet.md)
 - [GetCommentById](./Methods/GetCommentById.md)
 - [GetComments](./Methods/GetComments.md)
 - [GetDefName](./Methods/GetDefName.md)
+- [GetFreezePanesType](./Methods/GetFreezePanesType.md)
 - [GetFullName](./Methods/GetFullName.md)
 - [GetLocale](./Methods/GetLocale.md)
 - [GetMailMergeData](./Methods/GetMailMergeData.md)
@@ -58,5 +59,6 @@ Class representing a base class.
 - [RecalculateAllFormulas](./Methods/RecalculateAllFormulas.md)
 - [ReplaceTextSmart](./Methods/ReplaceTextSmart.md)
 - [Save](./Methods/Save.md)
+- [SetFreezePanesType](./Methods/SetFreezePanesType.md)
 - [SetLocale](./Methods/SetLocale.md)
 - [SetThemeColors](./Methods/SetThemeColors.md)
