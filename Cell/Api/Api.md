@@ -9,11 +9,11 @@ Class representing a base class.
 ## Properties
 
 - [ActiveSheet](./Properties/ActiveSheet.md)
-- [FullName](./Properties/FullName.md)
-- [Sheets](./Properties/Sheets.md)
-- [Selection](./Properties/Selection.md)
 - [Comments](./Properties/Comments.md)
 - [FreezePanes](./Properties/FreezePanes.md)
+- [FullName](./Properties/FullName.md)
+- [Selection](./Properties/Selection.md)
+- [Sheets](./Properties/Sheets.md)
 
 ## Methods
 
