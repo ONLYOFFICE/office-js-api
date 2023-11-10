@@ -14,6 +14,7 @@ expression.SetColumnWidth(nColumn, nWidth);
 | ------------- | ------------- | ------------- | ------------- |
 | nColumn | Required | Number | The number of the column to set the width to. |
 | nWidth | Required | Number | The width of the column divided by 7 pixels. |
+| bWithotPaddings | Optional | Boolean | Specifies whether the nWidth will be set witout standart padding. Default value is "false". |
 
 ## Returns
 
