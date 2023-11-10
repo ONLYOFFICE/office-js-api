@@ -6,6 +6,7 @@ Class representing a document.
 
 - [AcceptAllRevisionChanges](./Methods/AcceptAllRevisionChanges.md)
 - [AddComment](./Methods/AddComment.md)
+- [AddDrawingToPage](./Methods/AddDrawingToPage.md)
 - [AddElement](./Methods/AddElement.md)
 - [AddEndnote](./Methods/AddEndnote.md)
 - [AddFootnote](./Methods/AddFootnote.md)
