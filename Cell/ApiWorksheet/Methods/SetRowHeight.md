@@ -14,7 +14,6 @@ expression.SetRowHeight(nRow, nHeight);
 | ------------- | ------------- | ------------- | ------------- |
 | nRow | Required | Number | The number of the row to set the height to. |
 | nHeight | Required | Number | The height of the row measured in points. |
-| bWithotPaddings | Optional | Boolean | Specifies whether the nWidth will be set witout standart padding. Default value is "false". |
 
 ## Returns
 
