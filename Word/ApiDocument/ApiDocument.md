@@ -49,6 +49,8 @@ Class representing a document.
 - [GetFinalSection](./Methods/GetFinalSection.md)
 - [GetFootnotesFirstParagraphs](./Methods/GetFootnotesFirstParagraphs.md)
 - [GetFormsByTag](./Methods/GetFormsByTag.md)
+- [GetFormsData](./Methods/GetFormsData.md)
+- [SetFormsData](./Methods/SetFormsData.md)
 - [GetPageCount](./Methods/GetPageCount.md)
 - [GetRange](./Methods/GetRange.md)
 - [GetRangeBySelect](./Methods/GetRangeBySelect.md)
