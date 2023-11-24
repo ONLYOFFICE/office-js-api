@@ -1,7 +1,6 @@
 # AddPagesCount
 
 Inserts a number of pages in the current document into the paragraph.
-<br>This method works for the paragraphs in the document header/footer only.
 
 ## Syntax
 

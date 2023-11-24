@@ -1,7 +1,6 @@
 # AddPageNumber
 
 Inserts a number of the current document page into the paragraph.
-<br>This method works for the paragraphs in the document header/footer only.
 
 ## Syntax
 
