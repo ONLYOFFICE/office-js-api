@@ -1,6 +1,6 @@
 # GetTextPr
 
-Returns the text properties from the current form. This method is used only for text and combo box forms.
+Returns the text properties from the current form. Used if possible for this type of form.
 
 ## Syntax
 

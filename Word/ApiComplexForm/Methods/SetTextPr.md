@@ -1,6 +1,6 @@
 # SetTextPr
 
-Sets the text properties to the current form. This method is used only for text and combo box forms.
+Sets the text properties to the current form. Used if possible for this type of form.
 
 ## Syntax
 

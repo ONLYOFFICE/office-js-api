@@ -6,7 +6,7 @@ Sets the text properties to the current form. <br>Inherited From: [ApiFormBase#S
 
 expression.SetTextPr(oTextPr);
 
-`expression` - A variable that represents a [ApiComboBoxForm](../ApiComboBoxForm.md) class.
+`expression` - A variable that represents a [ApiDateForm](../ApiDateForm.md) class.
 
 ## Parametrs
 
@@ -25,13 +25,13 @@ This example sets the text properties to the current form.
 ```javascript
 builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
-var oComboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});
+var oDateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});
 var oParagraph = oDocument.GetElement(0);
-oParagraph.AddElement(oComboBoxForm);
+oParagraph.AddElement(oDateForm);
 var oTextPr = Api.CreateTextPr();
 oTextPr.SetFontSize(30);
 oTextPr.SetBold(true);
-oComboBoxForm.SetTextPr(oTextPr);
+oDateForm.SetTextPr(oTextPr);
 builder.SaveFile("docx", "SetTextPr.docx");
 builder.CloseFile();
 ```

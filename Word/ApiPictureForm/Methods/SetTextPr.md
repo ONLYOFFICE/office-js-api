@@ -1,6 +1,6 @@
 # SetTextPr
 
-Sets the text properties to the current form. This method is used only for text and combo box forms.<br>Inherited From: [ApiFormBase#SetTextPr](../../ApiFormBase/Methods/SetTextPr.md)
+Sets the text properties to the current form. Used if possible for this type of form. <br>Inherited From: [ApiFormBase#SetTextPr](../../ApiFormBase/Methods/SetTextPr.md)
 
 ## Syntax
 

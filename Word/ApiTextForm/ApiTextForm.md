@@ -2,14 +2,6 @@
 
 Class representing a document text field.
 
-## Properties
-todo we don't have such properties in code
-- [comb](./Properties/comb.md)
-- [maxCharacters](./Properties/maxCharacters.md)
-- [cellWidth](./Properties/cellWidth.md)
-- [multiLine](./Properties/multiLine.md)
-- [autoFit](./Properties/autoFit.md)
-
 ## Methods
 
 - [Clear](./Methods/Clear.md)
