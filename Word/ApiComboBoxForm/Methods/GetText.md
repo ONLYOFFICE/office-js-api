@@ -1,6 +1,6 @@
 # GetText
 
-Returns the text from the current form. This method is used only for text and combo box forms.<br>Inherited From: [ApiFormBase#GetText](../../ApiFormBase/Methods/GetText.md)
+Returns the text properties from the current form. <br>Inherited From: [ApiFormBase#GetText](../../ApiFormBase/Methods/GetText.md)
 
 ## Syntax
 

@@ -2,15 +2,6 @@
 
 Class representing a document picture form.
 
-## Properties
-
-todo we don't have such properties in code
-- [scaleFlag](./Properties/scaleFlag.md)
-- [lockAspectRatio](./Properties/lockAspectRatio.md)
-- [respectBorders](./Properties/respectBorders.md)
-- [shiftX](./Properties/shiftX.md)
-- [shiftY](./Properties/shiftY.md)
-
 ## Methods
 
 - [Clear](./Methods/Clear.md)

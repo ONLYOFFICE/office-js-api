@@ -1,6 +1,6 @@
-# ApiFormBase
+# ApiDateForm
 
-Class representing a document form base.
+Class representing a document date field.
 
 ## Methods
 
@@ -15,6 +15,9 @@ Class representing a document form base.
 - [GetWrapperShape](./Methods/GetWrapperShape.md)
 - [IsFixed](./Methods/IsFixed.md)
 - [IsRequired](./Methods/IsRequired.md)
+- [GetFormat](./Methods/GetFormat.md)
+- [GetLanguage](./Methods/GetLanguage.md)
+- [GetTime](./Methods/GetTime.md)
 - [SetBackgroundColor](./Methods/SetBackgroundColor.md)
 - [SetBorderColor](./Methods/SetBorderColor.md)
 - [SetFormKey](./Methods/SetFormKey.md)
@@ -23,4 +26,6 @@ Class representing a document form base.
 - [SetTextPr](./Methods/SetTextPr.md)
 - [SetTipText](./Methods/SetTipText.md)
 - [ToFixed](./Methods/ToFixed.md)
-- [ToInline](./Methods/ToInline.md)
+- [SetFormat](./Methods/SetFormat.md)
+- [SetLanguage](./Methods/SetLanguage.md)
+- [SetTime](./Methods/SetTime.md)

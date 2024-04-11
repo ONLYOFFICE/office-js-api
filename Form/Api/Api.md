@@ -8,3 +8,4 @@ Class representing a base class.
 - [CreateComboBoxForm](./Methods/CreateComboBoxForm.md)
 - [CreatePictureForm](./Methods/CreatePictureForm.md)
 - [CreateTextForm](./Methods/CreateTextForm.md)
+- [CreateDateForm](./Methods/CreateDateForm.md)

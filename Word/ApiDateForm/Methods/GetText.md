@@ -6,7 +6,7 @@ Returns the text properties from the current form. <br>Inherited From: [ApiFormB
 
 expression.GetText();
 
-`expression` - A variable that represents a [ApiTextForm](../ApiTextForm.md) class.
+`expression` - A variable that represents a [ApiDateForm](../ApiDateForm.md) class.
 
 ## Parametrs
 
@@ -23,10 +23,10 @@ This example shows how to get the text from the form.
 ```javascript
 builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
-var oTextForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});
+var oDateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});
 var oParagraph = oDocument.GetElement(0);
-oParagraph.AddElement(oTextForm);
-var sText = oTextForm.GetText();
+oParagraph.AddElement(oDateForm);
+var sText = oDateForm.GetText();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Form text: " + sText);
 oDocument.Push(oParagraph);
