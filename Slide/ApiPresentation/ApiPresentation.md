@@ -11,6 +11,7 @@ Class representing a presentation.
 - [GetClassType](./Methods/GetClassType.md)
 - [GetCurrentSlide](./Methods/GetCurrentSlide.md)
 - [GetCurSlideIndex](./Methods/GetCurSlideIndex.md)
+- [GetDocumentInfo](./Methods/GetDocumentInfo.md)
 - [GetHeight](./Methods/GetHeight.md)
 - [GetMaster](./Methods/GetMaster.md)
 - [GetMastersCount](./Methods/GetMastersCount.md)
