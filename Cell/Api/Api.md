@@ -46,6 +46,7 @@ Class representing a base class.
 - [GetCommentById](./Methods/GetCommentById.md)
 - [GetComments](./Methods/GetComments.md)
 - [GetDefName](./Methods/GetDefName.md)
+- [GetDocumentInfo](./Methods/GetDocumentInfo.md)
 - [GetFreezePanesType](./Methods/GetFreezePanesType.md)
 - [GetFullName](./Methods/GetFullName.md)
 - [GetLocale](./Methods/GetLocale.md)

@@ -43,6 +43,7 @@ Class representing a document.
 - [GetDefaultParaPr](./Methods/GetDefaultParaPr.md)
 - [GetDefaultStyle](./Methods/GetDefaultStyle.md)
 - [GetDefaultTextPr](./Methods/GetDefaultTextPr.md)
+- [GetDocumentInfo](./Methods/GetDocumentInfo.md)
 - [GetElement](./Methods/GetElement.md)
 - [GetElementsCount](./Methods/GetElementsCount.md)
 - [GetEndNotesFirstParagraphs](./Methods/GetEndNotesFirstParagraphs.md)
