@@ -1,4 +1,4 @@
-# MethodName
+# GetDocumentInfo
 
 Returns the document information.
 
