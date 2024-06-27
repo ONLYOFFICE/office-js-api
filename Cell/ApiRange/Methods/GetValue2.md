@@ -23,7 +23,7 @@ This example shows how to get the value without format of the specified range.
 ```javascript
 builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
-var oFormat = Api.Format("123456", ["$#,##0"]);
+var oFormat = Api.Format("123456", "$#,##0");
 var oRange = oWorksheet.GetRange("A1");
 oRange.SetValue(oFormat);
 var sValue2 = oRange.GetValue2();
