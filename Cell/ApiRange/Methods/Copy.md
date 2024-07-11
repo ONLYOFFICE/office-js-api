@@ -12,7 +12,7 @@ expression.Copy(destination);
 
 | **Name** | **Required/Optional** | **Data type** | **Description** |
 | ------------- | ------------- | ------------- | ------------- |
-| destination | Required | [ApiRange](../ApiRange.md) | Specifies a new range to which the specified range will be copied. |
+| destination | Optional | [ApiRange](../ApiRange.md) | Specifies a new range to which the specified range will be copied. If this argument is omitted, the range will be copied to the clipboard. |
 
 ## Returns
 
