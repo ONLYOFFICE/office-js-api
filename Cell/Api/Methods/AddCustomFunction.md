@@ -20,7 +20,7 @@ This method doesn't return any data.
 
 ## Example
 
-This example adds a comment to the document.
+This example calculates custom function result.
 
 ```javascript
 builder.CreateFile("xlsx");
@@ -29,6 +29,6 @@ Api.AddCustomFunction(function ADD(first, second) {
 })
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange('A1').SetValue('=ADD(1,2)');
-builder.SaveFile("xlsx", "AddComment.xlsx");
+builder.SaveFile("xlsx", "AddCustomFunction.xlsx");
 builder.CloseFile();
 ```

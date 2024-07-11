@@ -19,19 +19,17 @@ String &#124; null
 
 ## Example
 
-This example changes the the user protected range.
+This example changes the user protected range.
 
 ```javascript
 builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var wsName = oWorksheet.GetName();
 var protectedRange = Api.AddProtectedRange("protectedRange", wsName + "!$A$1:$B$1");
-if (protectedRange) {
-	protectedRange.AddUser("userId", "name", "CanView");
-    var userInfo = protectedRange.GetUser("userId");
-    var userName = userName && userInfo.GetName();
-    oWorksheet.GetRange("A3").SetValue("Name: " + userName);
-}
-builder.SaveFile("xlsx", "changeProtectedRange.xlsx");
+protectedRange.AddUser("userId", "name", "CanView");
+var userInfo = protectedRange.GetUser("userId");
+var userName = userInfo.GetName();
+oWorksheet.GetRange("A3").SetValue("Name: " + userName);
+builder.SaveFile("xlsx", "changeProtectedRangeInfo.xlsx");
 builder.CloseFile();
 ```
