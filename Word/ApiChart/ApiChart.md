@@ -50,3 +50,5 @@ Class representing a chart.
 - [SetVertAxisMinorTickMark](./Methods/SetVertAxisMinorTickMark.md)
 - [SetVertAxisTickLabelPosition](./Methods/SetVertAxisTickLabelPosition.md)
 - [SetXValues](./Methods/SetXValues.md)
+- [GetAllSeries](./Methods/GetAllSeries.md)
+- [GetSeries](./Methods/GetSeries.md)
