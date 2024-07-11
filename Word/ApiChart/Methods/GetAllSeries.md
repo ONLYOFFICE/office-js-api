@@ -39,9 +39,10 @@ oChart.SetShowDataLabels(false, false, true, false);
 oChart.SetTitle("Financial Overview", 13);
 oParagraph.AddDrawing(oChart);
 var aAllSeries = oChart.GetAllSeries();
+var oSeries, sSeriesType;
 for(var nSeries = 0; nSeries < aAllSeries.length; ++nSeries) {
-	let oSeries = aAllSeries[nSeries];
-	var sSeriesType = oSeries.GetChartType();
+	oSeries = aAllSeries[nSeries];
+	sSeriesType = oSeries.GetChartType();
 	oParagraph = Api.CreateParagraph();
 	oParagraph.AddText((nSeries + 1) + " Series Type = " + sSeriesType);
 	oDocument.Push(oParagraph);
