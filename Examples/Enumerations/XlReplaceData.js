@@ -1,0 +1,2 @@
+// This example replaces specific information to another one in a range.
+oRange.Replace( { What: "200", Replacement: "0", LookAt: "xlWhole", SearchOrder: "xlByColumns", SearchDirection: "xlNext", MatchCase: true, ReplaceAll: true } );
