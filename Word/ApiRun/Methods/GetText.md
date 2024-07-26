@@ -4,26 +4,27 @@ Returns a text from the text run.
 
 ## Syntax
 
-expression.GetText(oPr);
+expression.GetText(oPr, oPr.NewLineSeparator, oPr.TabSymbol);
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| oPr | Required | [RunGetTextPr](../../../Enumerations/RunGetTextPr.md) | The resulting string display properties. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| oPr | Required | object |  | The resulting string display properties. |
+| oPr.NewLineSeparator | Optional | string | '\r' | Defines how the line separator will be specified in the resulting string. |
+| oPr.TabSymbol | Optional | string | '\t' | Defines how the tab will be specified in the resulting string. |
 
 ## Returns
 
-String
+string
 
 ## Example
 
 This example returns a text from the text run.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oRun = Api.CreateRun();
@@ -33,6 +34,4 @@ var sText = oRun.GetText({"NewLineSeparator": "\r", "TabSymbol": "\t"});
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("The text of the specified run: " + sText);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetText.docx");
-builder.CloseFile();
 ```

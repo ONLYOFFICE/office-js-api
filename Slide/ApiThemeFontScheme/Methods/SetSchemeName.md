@@ -8,22 +8,21 @@ expression.SetSchemeName(sName);
 
 `expression` - A variable that represents a [ApiThemeFontScheme](../ApiThemeFontScheme.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sName | Required | String | Theme font scheme name. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sName | Required | string |  | Theme font scheme name. |
 
 ## Returns
 
-Boolean (returns false if font scheme doesn't exist)
+boolean
 
 ## Example
 
 This example sets a name to the theme font scheme.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -42,6 +41,4 @@ oParagraph.SetJc("left");
 oParagraph.AddText("New name was set to the theme font scheme.");
 oSlide.RemoveAllObjects();
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetSchemeName.pptx");
-builder.CloseFile();
 ```

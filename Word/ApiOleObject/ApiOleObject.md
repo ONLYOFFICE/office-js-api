@@ -1,11 +1,11 @@
 # ApiOleObject
 
-Class representing an Ole-object.
+Represents the ApiOleObject class.
 
 ## Methods
 
-- [GetApplicationId](./Methods/GetApplicationId.md)
 - [GetClassType](./Methods/GetClassType.md)
+- [SetData](./Methods/SetData.md)
 - [GetData](./Methods/GetData.md)
 - [SetApplicationId](./Methods/SetApplicationId.md)
-- [SetData](./Methods/SetData.md)
+- [GetApplicationId](./Methods/GetApplicationId.md)

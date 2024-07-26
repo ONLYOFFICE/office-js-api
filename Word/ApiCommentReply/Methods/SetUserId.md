@@ -8,22 +8,21 @@ expression.SetUserId(sUserId);
 
 `expression` - A variable that represents a [ApiCommentReply](../ApiCommentReply.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sUserId | Required | String | The user ID of the comment reply author. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sUserId | Required | string |  | The user ID of the comment reply author. |
 
 ## Returns
 
-[ApiCommentReply](../ApiCommentReply.md)
+[ApiCommentReply](../../ApiCommentReply/ApiCommentReply.md)
 
 ## Example
 
 This example sets the user ID to the comment reply author.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is just a sample text");
@@ -36,6 +35,4 @@ var sUserId = oCommentReply.GetUserId();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Comment reply user ID: " + sUserId);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetUserId.docx");
-builder.CloseFile();
 ```

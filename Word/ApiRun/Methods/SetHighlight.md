@@ -1,6 +1,6 @@
 # SetHighlight
 
-Specifies a highlighting color which is applied as a background to the contents of the current run.
+Specifies a highlighting color which is added to the text properties and applied as a background to the contents of the current run/range/paragraph.
 
 ## Syntax
 
@@ -8,11 +8,11 @@ expression.SetHighlight(sColor);
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sColor | Required | [highlightColor](../../../Enumerations/highlightColor.md) | Available highlight color. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sColor | Required | highlightColor |  | Available highlight color. |
 
 ## Returns
 
@@ -20,19 +20,12 @@ expression.SetHighlight(sColor);
 
 ## Example
 
-This example specifies a highlighting color which is applied as a background to the contents of the run.
+This example specifies a highlighting color which is added to the text properties and applied as a background to the contents of the current run/range/paragraph.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
+var oTextPr = oDocument.GetDefaultTextPr();
+oTextPr.SetHighlight("lightGray");
 var oParagraph = oDocument.GetElement(0);
-var oRun = Api.CreateRun();
-oRun.AddText("This is just a sample text. ");
-oParagraph.AddElement(oRun);
-oRun = Api.CreateRun();
-oRun.SetHighlight("lightGray");
-oRun.AddText("This is a text run with the text highlighted with light gray color.");
-oParagraph.AddElement(oRun);
-builder.SaveFile("docx", "SetHighlight.docx");
-builder.CloseFile();
+oParagraph.AddText("A sample text highlighted with light gray color using the text properties.");
 ```

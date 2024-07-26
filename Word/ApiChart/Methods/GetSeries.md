@@ -8,11 +8,11 @@ expression.GetSeries(nIdx);
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nIdx | Required | Number | Series index. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nIdx | Required | number |  | Series index. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ expression.GetSeries(nIdx);
 This example gets the first series of ApiChart class and inserts its type into the document.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("comboBarLine", [
@@ -45,6 +44,4 @@ var sSeriesType = oSeries.GetChartType();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Series Type = " + sSeriesType);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetSeries.docx");
-builder.CloseFile();
 ```

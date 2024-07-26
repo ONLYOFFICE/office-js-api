@@ -1,6 +1,6 @@
 # ApiImage
 
-Class representing an image.
+Represents the ApiImage class.
 
 ## Methods
 

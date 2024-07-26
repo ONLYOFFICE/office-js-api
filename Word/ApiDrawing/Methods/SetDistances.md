@@ -1,6 +1,6 @@
 # SetDistances
 
-Specifies the minimum distance which will be maintained between the edges of the current drawing object and any subsequent text.
+Specifies the minimum distance which will be maintained between the edges of the current drawing object and anysubsequent text.
 
 ## Syntax
 
@@ -8,14 +8,14 @@ expression.SetDistances(nLeft, nTop, nRight, nBottom);
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nLeft | Required | [EMU](../../../Enumerations/Emu.md) | The distance from the left side of the current object and the subsequent text run measured in English measure units. |
-| nTop | Required | [EMU](../../../Enumerations/Emu.md) | The distance from the top side of the current object and the preceding text run measured in English measure units. |
-| nRight | Required | [EMU](../../../Enumerations/Emu.md) | The distance from the right side of the current object and the subsequent text run measured in English measure units. |
-| nBottom | Required | [EMU](../../../Enumerations/Emu.md) | The distance from the bottom side of the current object and the subsequent text run measured in English measure units. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nLeft | Required | EMU |  | The distance from the left side of the current object and the subsequent text run measured in English measure units. |
+| nTop | Required | EMU |  | The distance from the top side of the current object and the preceding text run measured in English measure units. |
+| nRight | Required | EMU |  | The distance from the right side of the current object and the subsequent text run measured in English measure units. |
+| nBottom | Required | EMU |  | The distance from the bottom side of the current object and the subsequent text run measured in English measure units. |
 
 ## Returns
 
@@ -26,7 +26,6 @@ This method doesn't return any data.
 This example specifies the minimum distance which will be maintained between the edges of the drawing object and any subsequent text.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is a paragraph with a shape. ");
@@ -43,6 +42,4 @@ oParagraph.AddDrawing(oDrawing);
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("This is another paragraph.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetDistances.docx");
-builder.CloseFile();
 ```

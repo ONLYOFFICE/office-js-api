@@ -1,0 +1,21 @@
+# FDIST
+
+Returns the (right-tailed) F probability distribution (degree of diversity) for two data sets.
+
+## Syntax
+
+expression.FDIST(arg1, arg2, arg3);
+
+`expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
+
+## Parameters
+
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| arg1 | Required | number |  | The value at which to evaluate the function, a nonnegative number. |
+| arg2 | Required | number |  | The numerator degrees of freedom, a number between 1 and 10^10, excluding 10^10. |
+| arg3 | Required | number |  | The denominator degrees of freedom, a number between 1 and 10^10, excluding 10^10. |
+
+## Returns
+
+number

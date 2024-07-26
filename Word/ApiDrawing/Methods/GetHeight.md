@@ -8,20 +8,19 @@ expression.GetHeight();
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-[EMU](../../../Enumerations/Emu.md)
+EMU
 
 ## Example
 
 This example shows how to get the height of the drawing.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);
@@ -35,6 +34,4 @@ var oDocContent = oDrawing.GetContent();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Drawing height: " + nHeight / 36000 + " mm");
 oDocContent.AddElement(0, oParagraph);
-builder.SaveFile("docx", "GetHeight.docx");
-builder.CloseFile();
 ```

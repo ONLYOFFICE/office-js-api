@@ -1,23 +1,15 @@
 # ApiCharacters
 
-Class representing characters in an object that contains text.
-
-## Properties
-
-- [Caption](./Properties/Caption.md)
-- [Count](./Properties/Count.md)
-- [Font](./Properties/Font.md)
-- [Parent](./Properties/Parent.md)
-- [Text](./Properties/Text.md)
+Represents the ApiCharacters class.
 
 ## Methods
 
-- [Delete](./Methods/Delete.md)
-- [GetCaption](./Methods/GetCaption.md)
 - [GetCount](./Methods/GetCount.md)
-- [GetFont](./Methods/GetFont.md)
 - [GetParent](./Methods/GetParent.md)
-- [GetText](./Methods/GetText.md)
+- [Delete](./Methods/Delete.md)
 - [Insert](./Methods/Insert.md)
 - [SetCaption](./Methods/SetCaption.md)
+- [GetCaption](./Methods/GetCaption.md)
 - [SetText](./Methods/SetText.md)
+- [GetText](./Methods/GetText.md)
+- [GetFont](./Methods/GetFont.md)

@@ -8,22 +8,21 @@ expression.SetData(sData);
 
 `expression` - A variable that represents a [ApiOleObject](../ApiOleObject.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sData | Required | String | The OLE object string data. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sData | Required | string |  | The OLE object string data. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example sets the data to the current OLE object.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -32,6 +31,4 @@ oOleObject.SetSize(200 * 36000, 130 * 36000);
 oOleObject.SetPosition(70 * 36000, 30 * 36000);
 oSlide.AddObject(oOleObject);
 oOleObject.SetData("https://youtu.be/eJxpkjQG6Ew");
-builder.SaveFile("pptx", "SetData.pptx");
-builder.CloseFile();
 ```

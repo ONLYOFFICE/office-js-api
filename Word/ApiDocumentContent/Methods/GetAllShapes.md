@@ -8,20 +8,19 @@ expression.GetAllShapes();
 
 `expression` - A variable that represents a [ApiDocumentContent](../ApiDocumentContent.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Array<[ApiShape](../../ApiShape/ApiShape.md)>
+Array.<[ApiShape](../../ApiShape/ApiShape.md)>
 
 ## Example
 
 This example shows how to get a collection of shape objects from the document content.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
@@ -42,6 +41,4 @@ oParagraph = oDocContent.GetElement(0);
 oParagraph.AddText("Class Type = " + sClassType);
 oParagraph.SetColor(51, 51, 51);
 aShapes[0].SetVerticalTextAlign("bottom");
-builder.SaveFile("docx", "GetAllShapes.docx");
-builder.CloseFile();
 ```

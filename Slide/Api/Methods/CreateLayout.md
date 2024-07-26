@@ -4,15 +4,15 @@ Creates a new slide layout and adds it to the slide master if it is specified.
 
 ## Syntax
 
-expression.CreateLayout(oMaster?);
+expression.CreateLayout(oMaster);
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| oMaster | Optional | [ApiMaster](../../ApiMaster/ApiMaster.md) | Parent slide master. Default value is "null". |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| oMaster | Optional | [ApiMaster](../../ApiMaster/ApiMaster.md) |  | Parent slide master. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ expression.CreateLayout(oMaster?);
 This example shows how to create layout.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide1 = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -40,6 +39,4 @@ oSlide1.ApplyLayout(oLayout);
 var oSlide2 = Api.CreateSlide();
 oPresentation.AddSlide(oSlide2);
 oSlide2.ApplyLayout(oLayout);
-builder.SaveFile("pptx", "CreateLayout.pptx");
-builder.CloseFile();
 ```

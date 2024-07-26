@@ -1,6 +1,6 @@
 # GetFormKey
 
-Returns the current form key.<br>Inherited From: [ApiFormBase#GetFormKey](../../ApiFormBase/Methods/GetFormKey.md)
+Returns the current form key.
 
 ## Syntax
 
@@ -8,35 +8,25 @@ expression.GetFormKey();
 
 `expression` - A variable that represents a [ApiCheckBoxForm](../ApiCheckBoxForm.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-String
+string
 
 ## Example
 
 This example shows how to get the form key.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
-var oCheckBoxForm = Api.CreateCheckBoxForm({"tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": false});
-oCheckBoxForm.SetFormKey("Marital status 1");
+var oComboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});
 var oParagraph = oDocument.GetElement(0);
-oParagraph.AddElement(oCheckBoxForm);
-oParagraph.AddText(" Married");
-oParagraph.AddLineBreak();
-oCheckBoxForm = Api.CreateCheckBoxForm({"tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": false});
-oCheckBoxForm.SetFormKey("Marital status 2");
-oParagraph.AddElement(oCheckBoxForm);
-oParagraph.AddText(" Single");
-var sKey = oCheckBoxForm.GetFormKey();
+oParagraph.AddElement(oComboBoxForm);
+var sKey = oComboBoxForm.GetFormKey();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Form key: " + sKey);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetFormKey.docx");
-builder.CloseFile();
 ```

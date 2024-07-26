@@ -8,7 +8,7 @@ expression.RemoveSelection();
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
@@ -21,7 +21,6 @@ This method doesn't return any data.
 This example removes the current selection.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("Api ONLYOFFICE");
@@ -31,6 +30,4 @@ oDocument.RemoveSelection();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("The selection from the word 'Api' was removed.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "RemoveSelection.docx");
-builder.CloseFile();
 ```

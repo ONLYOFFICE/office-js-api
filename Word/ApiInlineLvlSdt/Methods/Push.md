@@ -8,22 +8,21 @@ expression.Push(oElement);
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| oElement | Required | [ParagraphContent](../../../Enumerations/ParagraphContent.md) | The type of the element which will be pushed to the current container. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| oElement | Required | DocumentElement |  | The document element which will be added to the end of the container. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example pushes a run to actually add it to the container.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oInlineLvlSdt = Api.CreateInlineLvlSdt();
@@ -34,6 +33,4 @@ oInlineLvlSdt.AddElement(oRun, 0);
 oRun = Api.CreateRun();
 oRun.AddText("This sentence was pushed here.");
 oInlineLvlSdt.Push(oRun);
-builder.SaveFile("docx", "Push.docx");
-builder.CloseFile();
 ```

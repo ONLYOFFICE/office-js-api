@@ -1,6 +1,6 @@
 # ApiRGBColor
 
-Class representing an RGB Color.
+Represents the ApiRGBColor class.
 
 ## Methods
 

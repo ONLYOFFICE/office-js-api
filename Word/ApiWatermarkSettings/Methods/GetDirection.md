@@ -1,6 +1,6 @@
 # GetDirection
 
-Returns the direction of the watermark.
+Returns the direction of the watermark in the document.
 
 ## Syntax
 
@@ -8,20 +8,19 @@ expression.GetDirection();
 
 `expression` - A variable that represents a [ApiWatermarkSettings](../ApiWatermarkSettings.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-[WatermarkDirection](../../../Enumerations/WatermarkDirection.md)
+WatermarkDirection
 
 ## Example
 
 This example gets a watermark text and pastes it into the document.
 
 ```javascript
-builder.CreateFile("docx");
 const oDocument = Api.GetDocument();
 const oWatermarkSettings = oDocument.GetWatermarkSettings();
 oWatermarkSettings.SetType("text");
@@ -42,6 +41,4 @@ const oWatermarkSettings2 = oDocument.GetWatermarkSettings();
 const oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Watermark Direction = " + oWatermarkSettings2.GetDirection());
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetDirection.docx");
-builder.CloseFile();
 ```

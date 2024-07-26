@@ -4,29 +4,28 @@ Sets the fill to the data point in the specified chart series.
 
 ## Syntax
 
-expression.SetDataPointFill(oFill, nSeries, nDataPoint, bAllSeries?);
+expression.SetDataPointFill(oFill, nSeries, nDataPoint, bAllSeries);
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| oFill | Required | [ApiFill](../../ApiFill/ApiFill.md) | The fill type used to fill the data point. |
-| nSeries | Required | Number | The index of the chart series. |
-| nDataPoint | Required | Number | The index of the data point in the specified chart series. |
-| bAllSeries | Optional | Boolean | Specifies if the fill will be applied to the specified data point in all series. Default value is "false". |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| oFill | Required | [ApiFill](../../ApiFill/ApiFill.md) |  | The fill type used to fill the data point. |
+| nSeries | Required | number |  | The index of the chart series. |
+| nDataPoint | Required | number |  | The index of the data point in the specified chart series. |
+| bAllSeries | Optional | boolean | false | Specifies if the fill will be applied to the specified data point in all series. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example show how to set the fill to the data point.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("bar3D", [
@@ -40,6 +39,4 @@ oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 oChart.SetSeriesFill(oFill, 1, false);
 oFill = Api.CreateSolidFill(Api.CreateRGBColor(128, 128, 128));
 oChart.SetDataPointFill(oFill, 0, 0, false);
-builder.SaveFile("docx", "SetDataPointFill.docx");
-builder.CloseFile();
 ```

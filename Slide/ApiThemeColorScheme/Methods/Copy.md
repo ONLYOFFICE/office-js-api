@@ -8,20 +8,19 @@ expression.Copy();
 
 `expression` - A variable that represents a [ApiThemeColorScheme](../ApiThemeColorScheme.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-[ApiThemeColorScheme](../ApiThemeColorScheme.md)
+[ApiThemeColorScheme](../../ApiThemeColorScheme/ApiThemeColorScheme.md)
 
 ## Example
 
 This example creates a copy of the current theme color scheme.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide1 = oPresentation.GetSlideByIndex(0);
 oSlide1.RemoveAllObjects();
@@ -63,6 +62,4 @@ var oFontScheme = Api.CreateThemeFontScheme("Arial", "Noto Sans Simplified Chine
 var oTheme2 = Api.CreateTheme("New theme", oMaster, oCopyClrScheme, oFormatScheme, oFontScheme);
 oSlide2.ApplyTheme(oTheme2);
 oSlide2.AddObject(oChart);
-builder.SaveFile("pptx", "Copy.pptx");
-builder.CloseFile();
 ```

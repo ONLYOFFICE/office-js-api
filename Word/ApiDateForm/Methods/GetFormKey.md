@@ -1,6 +1,6 @@
 # GetFormKey
 
-Returns the current form key.<br>Inherited From: [ApiFormBase#GetFormKey](../../ApiFormBase/Methods/GetFormKey.md)
+Returns the current form key.
 
 ## Syntax
 
@@ -8,28 +8,25 @@ expression.GetFormKey();
 
 `expression` - A variable that represents a [ApiDateForm](../ApiDateForm.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-String
+string
 
 ## Example
 
 This example shows how to get the form key.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
-var oDateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});
+var oComboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});
 var oParagraph = oDocument.GetElement(0);
-oParagraph.AddElement(oDateForm);
-var sKey = oDateForm.GetFormKey();
+oParagraph.AddElement(oComboBoxForm);
+var sKey = oComboBoxForm.GetFormKey();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Form key: " + sKey);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetFormKey.docx");
-builder.CloseFile();
 ```

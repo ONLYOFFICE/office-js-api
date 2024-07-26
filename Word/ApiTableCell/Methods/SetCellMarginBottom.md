@@ -1,6 +1,6 @@
 # SetCellMarginBottom
 
-Specifies an amount of space which will be left between the bottom extent of the cell contents and the border of a specific table cell within a table.<br>Inherited From: [ApiTableCellPr#SetCellMarginBottom](../../ApiTableCellPr/Methods/SetCellMarginBottom.md)
+Specifies an amount of space which will be left between the bottom extent of the cell contents and the borderof a specific table cell within a table.
 
 ## Syntax
 
@@ -8,11 +8,11 @@ expression.SetCellMarginBottom(nValue);
 
 `expression` - A variable that represents a [ApiTableCell](../ApiTableCell.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nValue | Required | [twips](../../../Enumerations/twips.md) | The value for the amount of space below the bottom extent of the cell measured in twentieths of a point (1/1440 of an inch). If this value is null, then default table cell bottom margin will be used, otherwise the table cell bottom margin will be overridden with the specified value for the current cell. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nValue | Required | twips |  | The value for the amount of space below the bottom extent of the cell measured in twentiethsof a point (1/1440 of an inch). If this value is <code>null</code>, then default table cell bottom margin will be used, otherwisethe table cell bottom margin will be overridden with the specified value for the current cell. |
 
 ## Returns
 
@@ -23,18 +23,16 @@ This method doesn't return any data.
 This example specifies an amount of space which will be left between the bottom extent of the cell contents and the border of a specific table cell within a table.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
 var oTable = Api.CreateTable(3, 3);
-oTable.SetWidth("percent", 100);
 var oCell = oTable.GetRow(0).GetCell(0);
-oCell.SetCellMarginBottom(720);
-oCell.GetContent().GetElement(0).AddText("This is just a sample text to show that the bottom cell margin is 36 points.");
+oCell.GetContent().GetElement(0).AddText("This is just a sample text to show that the bottom margin for all the table cells is 36 points.");
+oTable.SetWidth("percent", 100);
+var oTableCellPr = oTableStyle.GetTableCellPr();
+oTableCellPr.SetCellMarginBottom(720);
 oTable.SetStyle(oTableStyle);
 oDocument.Push(oTable);
-builder.SaveFile("docx", "SetCellMarginBottom.docx");
-builder.CloseFile();
 ```

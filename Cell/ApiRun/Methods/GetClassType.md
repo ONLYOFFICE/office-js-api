@@ -1,6 +1,6 @@
 # GetClassType
 
-Returns a type of the ApiRun class.
+Returns a type of the ApiTextPr class.
 
 ## Syntax
 
@@ -8,31 +8,29 @@ expression.GetClassType();
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-String
+"textPr"
 
 ## Example
 
-This example gets a class type and inserts it into the document.
+This example gets a class type and pastes it into the presentation.
 
 ```javascript
-builder.CreateFile("xlsx");
-var oWorksheet = Api.GetActiveSheet();
-var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oShape = oWorksheet.AddShape("flowChartOnlineStorage", 120 * 36000, 70 * 36000, oFill, oStroke, 0, 2 * 36000, 0, 3 * 36000);
-var oDocContent = oShape.GetContent();
-var oParagraph = oDocContent.GetElement(0);
-var oRun = Api.CreateRun();
-var sClassType = oRun.GetClassType();
-oRun.SetFontSize(30);
-oRun.AddText("Class Type = " + sClassType);
-oParagraph.AddElement(oRun);
-builder.SaveFile("xlsx", "GetClassType.xlsx");
-builder.CloseFile();
+var oDocument = Api.GetDocument();
+var oParagraph = oDocument.GetElement(0);
+oParagraph.AddText("This is a sample text with the font size set to 30 and the font weight set to bold.");
+var oTextPr = Api.CreateTextPr();
+oTextPr.SetFontSize(32);
+oTextPr.SetBold(true);
+oParagraph.SetTextPr(oTextPr);
+oTextPr = oParagraph.GetTextPr();
+var sClassType = oTextPr.GetClassType();
+oParagraph = Api.CreateParagraph();
+oParagraph.AddText("Class type: " + sClassType);
+oDocument.Push(oParagraph);
 ```

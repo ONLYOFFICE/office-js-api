@@ -8,12 +8,12 @@ expression.SetSizes(nWidth, nHeight);
 
 `expression` - A variable that represents a [ApiPresentation](../ApiPresentation.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nWidth | Required | [EMU](../../../Enumerations/Emu.md) | The presentation width in English measure units. |
-| nHeight | Required | [EMU](../../../Enumerations/Emu.md) | The presentation height in English measure units. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nWidth | Required | EMU |  | The presentation width in English measure units. |
+| nHeight | Required | EMU |  | The presentation height in English measure units. |
 
 ## Returns
 
@@ -24,7 +24,6 @@ This method doesn't return any data.
 This example sets the size to the current presentation.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 oPresentation.SetSizes(254 * 36000, 190 * 36000);
 var oSlide = oPresentation.GetSlideByIndex(0);
@@ -37,6 +36,4 @@ var oDocContent = oShape.GetDocContent();
 var oParagraph = oDocContent.GetElement(0);
 oParagraph.AddText("The size of this presentation was changed: width - 254 mm, height - 190 mm.");
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetSizes.pptx");
-builder.CloseFile();
 ```

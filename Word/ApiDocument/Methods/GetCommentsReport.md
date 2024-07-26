@@ -8,20 +8,19 @@ expression.GetCommentsReport();
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-[CommentReport](../../../Enumerations/CommentReport.md)
+CommentReport
 
 ## Example
 
 This example showh how to get a report about all the comments added to the document.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph1 = oDocument.GetElement(0);
 oParagraph1.AddText("Commenting");
@@ -98,6 +97,4 @@ for (let sUserName in oCommentsReport) {
 	}
 }
 oTable.SetStyle(oDocument.GetStyle("Bordered"));
-builder.SaveFile("docx", "GetCommentsReport.docx");
-builder.CloseFile();
 ```

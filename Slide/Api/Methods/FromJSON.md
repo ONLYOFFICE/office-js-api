@@ -8,11 +8,11 @@ expression.FromJSON(sMessage);
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sMessage | Required | JSON | The JSON object to convert. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sMessage | Required | JSON |  | The JSON object to convert. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ This method doesn't return any data.
 This example transforms font scheme to JSON then restore it from JSON.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -47,6 +46,4 @@ var oParagraph = oDocContent.GetElement(0);
 oParagraph.SetJc("left");
 oParagraph.AddText("Class type = " + sType);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "FromJSON.pptx");
-builder.CloseFile();
 ```

@@ -1,6 +1,6 @@
 # ApiUnsupported
 
-Class representing an unsupported element.
+Represents the ApiUnsupported class.
 
 ## Methods
 

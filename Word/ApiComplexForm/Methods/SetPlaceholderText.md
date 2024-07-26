@@ -1,28 +1,31 @@
 # SetPlaceholderText
 
-Sets the placeholder text to the current form. Can't be set to checkbox or radio button.
+Sets the placeholder text to the current form.*Can't be set to checkbox or radio button.*
 
 ## Syntax
 
-expression.
+expression.SetPlaceholderText(sText);
 
 `expression` - A variable that represents a [ApiComplexForm](../ApiComplexForm.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sText | Required | string |  | The text that will be set to the current form. |
 
 ## Returns
 
-return
-[return](todo_link)
+boolean
 
 ## Example
 
-This example
+This example sets the placeholder text to the form.
 
 ```javascript
-// todo_exampeles
+var oDocument = Api.GetDocument();
+var oTextForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});
+var oParagraph = oDocument.GetElement(0);
+oParagraph.AddElement(oTextForm);
+oTextForm.SetPlaceholderText("First name");
 ```

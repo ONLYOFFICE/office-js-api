@@ -8,20 +8,19 @@ expression.GetClassType();
 
 `expression` - A variable that represents a [ApiStyle](../ApiStyle.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-String
+"style"
 
 ## Example
 
 This example gets a class type and inserts it into the document.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.GetStyle("Bordered");
 oTableStyle.SetName("My Custom Style");
@@ -32,6 +31,4 @@ oDocument.Push(oTable);
 var sClassType = oTableStyle.GetClassType();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("Class Type = " + sClassType);
-builder.SaveFile("docx", "GetClassType.docx");
-builder.CloseFile();
 ```

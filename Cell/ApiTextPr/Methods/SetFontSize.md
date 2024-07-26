@@ -8,11 +8,11 @@ expression.SetFontSize(nSize);
 
 `expression` - A variable that represents a [ApiTextPr](../ApiTextPr.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nSize | Required | [hps](../../../Enumerations/hps.md) | The text size value measured in half-points (1/144 of an inch). |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nSize | Required | hps |  | The text size value measured in half-points (1/144 of an inch). |
 
 ## Returns
 
@@ -23,19 +23,9 @@ expression.SetFontSize(nSize);
 This example sets the font size to the characters of the current text run.
 
 ```javascript
-builder.CreateFile("xlsx");
-var oWorksheet = Api.GetActiveSheet();
-var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oShape = oWorksheet.AddShape("flowChartOnlineStorage", 120 * 36000, 70 * 36000, oFill, oStroke, 0, 2 * 36000, 0, 3 * 36000);
-var oDocContent = oShape.GetContent();
-var oParagraph = oDocContent.GetElement(0);
-var oRun = Api.CreateRun();
-var oTextPr = oRun.GetTextPr();
+var oDocument = Api.GetDocument();
+var oTextPr = oDocument.GetDefaultTextPr();
 oTextPr.SetFontSize(30);
-oParagraph.SetJc("left");
-oRun.AddText("This is a sample text inside the shape with the font size set to 15 points using the text properties.");
-oParagraph.AddElement(oRun);
-builder.SaveFile("xlsx", "SetFontSize.xlsx");
-builder.CloseFile();
+var oParagraph = oDocument.GetElement(0);
+oParagraph.AddText("A sample text with the font size set to 15 points using the text properties.");
 ```

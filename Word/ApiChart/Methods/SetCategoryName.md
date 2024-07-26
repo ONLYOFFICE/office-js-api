@@ -8,23 +8,22 @@ expression.SetCategoryName(sName, nCategory);
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sName | Required | String | The name which will be set to the specified chart category. |
-| nCategory | Required | Number | The index of the chart category. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sName | Required | string |  | The name which will be set to the specified chart category. |
+| nCategory | Required | number |  | The index of the chart category. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example sets a category name for chart.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("bar3D", [
@@ -37,6 +36,4 @@ oChart.SetSeriesFill(oFill, 0, false);
 oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 oChart.SetSeriesFill(oFill, 1, false);
 oChart.SetCategoryName("2013", 0);
-builder.SaveFile("docx", "SetCategoryName.docx");
-builder.CloseFile();
 ```

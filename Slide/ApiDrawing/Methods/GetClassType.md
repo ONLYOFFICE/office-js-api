@@ -1,6 +1,6 @@
 # GetClassType
 
-Returns a type of the ApiDrawing class.
+Returns the type of the ApiDrawing class.
 
 ## Syntax
 
@@ -8,20 +8,19 @@ expression.GetClassType();
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-String
+"drawing"
 
 ## Example
 
 This example gets a class type and pastes it into the presentation.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -37,6 +36,4 @@ var oDocContent = oDrawing.GetDocContent();
 var oParagraph = oDocContent.GetElement(0);
 oParagraph.SetJc("left");
 oParagraph.AddText("Class Type = " + sType);
-builder.SaveFile("pptx", "GetClassType.pptx");
-builder.CloseFile();
 ```

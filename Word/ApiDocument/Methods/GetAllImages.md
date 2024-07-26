@@ -1,6 +1,6 @@
 # GetAllImages
 
-Returns a collection of image objects from the document content.<br>Inherited From: [ApiDocumentContent#GetAllImages](../../ApiDocumentContent/Methods/GetAllImages.md)
+Returns a collection of image objects from the document content.
 
 ## Syntax
 
@@ -8,31 +8,33 @@ expression.GetAllImages();
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Array<[ApiImage](../../ApiImage/ApiImage.md)>
+Array.<[ApiImage](../../ApiImage/ApiImage.md)>
 
 ## Example
 
-This example shows how to get a collection of image objects from the document.
+This example shows how to get a collection of image objects from the document content.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
-var oImage1 = Api.CreateImage("https://api.onlyoffice.com/content/img/docbuilder/examples/coordinate_aspects.png", 60 * 36000, 35 * 36000);
-oParagraph.AddDrawing(oImage1);
-var oImage2 = Api.CreateImage("https://api.onlyoffice.com/content/img/editor/sharing_settings.png", 60 * 36000, 35 * 36000);
-oParagraph.AddDrawing(oImage2);
-var aImages = oDocument.GetAllImages();
+var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
+var oShape = Api.CreateShape("rect", 100 * 36000, 100 * 36000, oFill, oStroke);
+oParagraph.AddDrawing(oShape);
+oParagraph = Api.CreateParagraph();
+var oImage = Api.CreateImage("https://api.onlyoffice.com/content/img/docbuilder/examples/coordinate_aspects.png", 95 * 36000, 45 * 36000);
+oParagraph.AddDrawing(oImage);
+var oDocContent = oShape.GetDocContent();
+oDocContent.AddElement(0, oParagraph);
+var aImages = oDocContent.GetAllImages();
 var sClassType = aImages[0].GetClassType();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Class type: " + sClassType);
-oDocument.Push(oParagraph); 
-builder.SaveFile("docx", "GetAllImages.docx");
-builder.CloseFile();
+oDocument.Push(oParagraph);
 ```

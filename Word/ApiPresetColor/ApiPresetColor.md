@@ -1,6 +1,6 @@
 # ApiPresetColor
 
-Class representing a Preset Color.
+Represents the ApiPresetColor class.
 
 ## Methods
 

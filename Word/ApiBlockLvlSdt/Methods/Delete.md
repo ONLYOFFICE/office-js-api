@@ -8,27 +8,24 @@ expression.Delete(keepContent);
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| keepContent | Required | Boolean | Specifies if the content will be deleted or not. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| keepContent | Required | boolean |  | Specifies if the content will be deleted or not. |
 
 ## Returns
 
-Boolean (returns false if content control haven't parent)
+boolean
 
 ## Example
 
 This example deletes a content control and its content.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oBlockLvlSdt = Api.CreateBlockLvlSdt();
 oBlockLvlSdt.GetContent().GetElement(0).AddText("This is a block text content control.");
 oDocument.AddElement(0, oBlockLvlSdt);
 oBlockLvlSdt.Delete(false);
-builder.SaveFile("docx", "AddText.docx");
-builder.CloseFile();
 ```

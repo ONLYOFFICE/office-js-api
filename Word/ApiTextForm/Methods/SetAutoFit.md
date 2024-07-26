@@ -8,22 +8,21 @@ expression.SetAutoFit(bAutoFit);
 
 `expression` - A variable that represents a [ApiTextForm](../ApiTextForm.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| bAutoFit | Required | Boolean | Defines if the text field content is autofit (true) or not (false). |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| bAutoFit | Required | boolean |  | Defines if the text field content is autofit (true) or not (false). |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example specifies if the text field content should be autofit.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTextForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "multiLine": false});
 var oParagraph = oDocument.GetElement(0);
@@ -34,6 +33,4 @@ var bAutoFit = oTextForm.IsAutoFit();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("The first text form from this document is autofit: " + bAutoFit);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetAutoFit.docx");
-builder.CloseFile();
 ```

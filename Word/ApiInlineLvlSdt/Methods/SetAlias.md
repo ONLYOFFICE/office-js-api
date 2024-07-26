@@ -8,11 +8,11 @@ expression.SetAlias(sAlias);
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sAlias | Required | String | The alias which will be added to the current inline text content control. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sAlias | Required | string |  | The alias which will be added to the current inline text content control. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ This method doesn't return any data.
 This example sets the alias attribute to the container.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oInlineLvlSdt = Api.CreateInlineLvlSdt();
@@ -36,6 +35,4 @@ var sAlias = oInlineLvlSdt.GetAlias();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Alias: " + sAlias);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetAlias.docx");
-builder.CloseFile();
 ```

@@ -1,6 +1,6 @@
 # GetTextPr
 
-Returns the text properties from the current form. <br>Inherited From: [ApiFormBase#GetTextPr](../../ApiFormBase/Methods/GetTextPr.md)
+Returns the text properties from the current form.*Used if possible for this type of form*
 
 ## Syntax
 
@@ -8,7 +8,7 @@ expression.GetTextPr();
 
 `expression` - A variable that represents a [ApiComboBoxForm](../ApiComboBoxForm.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
@@ -18,21 +18,18 @@ This method doesn't have any parameters.
 
 ## Example
 
-This example returns the text properties from the current form.
+This example shows how to get the text properties from the form.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
-var oComboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});
+var oTextForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});
 var oParagraph = oDocument.GetElement(0);
-oParagraph.AddElement(oComboBoxForm);
+oParagraph.AddElement(oTextForm);
 var oTextPr = Api.CreateTextPr();
 oTextPr.SetFontSize(30);
 oTextPr.SetBold(true);
-oComboBoxForm.SetTextPr(oTextPr);
-var oFormTextPr = oComboBoxForm.GetTextPr();
+oTextForm.SetTextPr(oTextPr);
+var oFormTextPr = oTextForm.GetTextPr();
 oFormTextPr.SetItalic(true);
-oComboBoxForm.SetTextPr(oFormTextPr);
-builder.SaveFile("docx", "GetTextPr.docx");
-builder.CloseFile();
+oTextForm.SetTextPr(oFormTextPr);
 ```

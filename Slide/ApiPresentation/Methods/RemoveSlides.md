@@ -1,30 +1,29 @@
 # RemoveSlides
 
-Removes a range of slides from the presentation. Deletes all the slides from the presentation if no parameters are specified.
+Removes a range of slides from the presentation.Deletes all the slides from the presentation if no parameters are specified.
 
 ## Syntax
 
-expression.RemoveSlides(nStart?, nCount?);
+expression.RemoveSlides(nStart, nCount);
 
 `expression` - A variable that represents a [ApiPresentation](../ApiPresentation.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nStart | Optional | Number | The starting position for the deletion range. Default value is "0". |
-| nCount | Optional | Number | The number of slides to delete. Default value is "ApiPresentation.GetSlidesCount()". |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nStart | Optional | Number | false | The starting position for the deletion range. |
+| nCount | Optional | Number | ApiPresentation.GetSlidesCount() | The number of slides to delete. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example shows how to remove a range of slides from the presentation.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = Api.CreateSlide();
 var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);
@@ -43,6 +42,4 @@ var oParagraph = oDocContent.GetElement(0);
 var sClassType = oPresentation.GetClassType();
 oParagraph.AddText("A slide with no background was removed from this presentation.");
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "RemoveSlides.pptx");
-builder.CloseFile();
 ```

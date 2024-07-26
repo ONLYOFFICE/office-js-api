@@ -4,16 +4,16 @@ Converts the ApiLayout object into the JSON object.
 
 ## Syntax
 
-expression.ToJSON(bWriteMaster?, bWriteTableStyles?);
+expression.ToJSON(bWriteMaster, bWriteTableStyles);
 
 `expression` - A variable that represents a [ApiLayout](../ApiLayout.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| bWriteMaster | Optional | Boolean | Specifies if the slide master will be written to the JSON object or not. Default value is "false". |
-| bWriteTableStyles | Optional | Boolean | Specifies whether to write used table styles to the JSON object (true) or not (false). Default value is "false". |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| bWriteMaster | Optional | bool | false | Specifies if the slide master will be written to the JSON object or not. |
+| bWriteTableStyles | Optional | bool | false | Specifies whether to write used table styles to the JSON object (true) or not (false). |
 
 ## Returns
 
@@ -24,7 +24,6 @@ JSON
 This example converts the ApiLayout object into the JSON object.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -44,6 +43,4 @@ var oParagraph = oDocContent.GetElement(0);
 oParagraph.AddText("Class type = " + sType);
 oLayoutFromJSON.AddObject(oShape);
 oSlide.ApplyLayout(oLayoutFromJSON);
-builder.SaveFile("pptx", "ToJSON.pptx");
-builder.CloseFile();
 ```

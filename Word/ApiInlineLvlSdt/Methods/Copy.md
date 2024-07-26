@@ -8,20 +8,19 @@ expression.Copy();
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-[ApiInlineLvlSdt](../ApiInlineLvlSdt.md)
+[ApiInlineLvlSdt](../../ApiInlineLvlSdt/ApiInlineLvlSdt.md)
 
 ## Example
 
 This example creates a copy of an inline content control.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oInlineLvlSdt = Api.CreateInlineLvlSdt();
@@ -30,6 +29,4 @@ oParagraph.AddInlineLvlSdt(oInlineLvlSdt);
 var oCopyInlineLvlSdt = oInlineLvlSdt .Copy();
 oParagraph.AddLineBreak();
 oParagraph.AddInlineLvlSdt(oCopyInlineLvlSdt);
-builder.SaveFile("docx", "Copy.docx");
-builder.CloseFile();
 ```

@@ -8,20 +8,19 @@ expression.Delete();
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example deletes the table.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
@@ -33,6 +32,4 @@ oTable.Delete();
 var oParagraph = Api.CreateParagraph();
 oParagraph.AddText("The table was removed from the document.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "Delete.docx");
-builder.CloseFile();
 ```

@@ -1,6 +1,6 @@
 # SetFormKey
 
-Sets a key to the current form.<br>Inherited From: [ApiFormBase#SetFormKey](../../ApiFormBase/Methods/SetFormKey.md)
+Sets a key to the current form.
 
 ## Syntax
 
@@ -8,31 +8,28 @@ expression.SetFormKey(sKey);
 
 `expression` - A variable that represents a [ApiComboBoxForm](../ApiComboBoxForm.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sKey | Required | String | Form key. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sKey | Required | string |  | Form key. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
-This example sets a key to the current form.
+This example sets a key to the form.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
-var oComboBoxForm = Api.CreateComboBoxForm({"tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});
+var oTextForm = Api.CreateTextForm({"tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});
 var oParagraph = oDocument.GetElement(0);
-oParagraph.AddElement(oComboBoxForm);
-oComboBoxForm.SetFormKey("Personal information");
-var sKey = oComboBoxForm.GetFormKey();
+oParagraph.AddElement(oTextForm);
+oTextForm.SetFormKey("Personal information");
+var sKey = oTextForm.GetFormKey();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Form key: " + sKey);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetFormKey.docx");
-builder.CloseFile();
 ```

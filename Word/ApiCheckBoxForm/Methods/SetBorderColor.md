@@ -1,6 +1,6 @@
 # SetBorderColor
 
-Sets the border color to the current form.<br>Inherited From: [ApiFormBase#SetBorderColor](../../ApiFormBase/Methods/SetBorderColor.md)
+Sets the border color to the current form.
 
 ## Syntax
 
@@ -8,37 +8,27 @@ expression.SetBorderColor(r, g, b, bNone);
 
 `expression` - A variable that represents a [ApiCheckBoxForm](../ApiCheckBoxForm.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| r | Required | [byte](../../../Enumerations/byte.md) | Red color component value. |
-| g | Required | [byte](../../../Enumerations/byte.md) | Green color component value. |
-| b | Required | [byte](../../../Enumerations/byte.md) | Blue color component value. |
-| bNone | Required | Boolean | Defines that border color will not be set. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| r | Required | byte |  | Red color component value. |
+| g | Required | byte |  | Green color component value. |
+| b | Required | byte |  | Blue color component value. |
+| bNone | Required | boolean |  | Defines that border color will not be set. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
-This example sets the border color to the current form.
+This example sets the border color to the form.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
-var oCheckBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});
+var oTextForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});
 var oParagraph = oDocument.GetElement(0);
-oParagraph.AddElement(oCheckBoxForm);
-oParagraph.AddText(" Married");
-oCheckBoxForm.SetBorderColor(255, 111, 61);
-oCheckBoxForm.SetBackgroundColor(255, 255, 0);
-oParagraph.AddLineBreak();
-oCheckBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});
-oParagraph.AddElement(oCheckBoxForm);
-oParagraph.AddText(" Single");
-oCheckBoxForm.SetBorderColor(255, 111, 61);
-builder.SaveFile("docx", "SetBorderColor.docx");
-builder.CloseFile();
+oParagraph.AddElement(oTextForm);
+oTextForm.SetBorderColor(255, 111, 61);
 ```

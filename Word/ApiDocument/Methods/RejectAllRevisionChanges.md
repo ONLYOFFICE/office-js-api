@@ -8,7 +8,7 @@ expression.RejectAllRevisionChanges();
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
@@ -21,7 +21,6 @@ This method doesn't return any data.
 This example rejects all changes made in review mode.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph1 = oDocument.GetElement(0);
 oDocument.SetTrackRevisions(true);
@@ -37,6 +36,4 @@ oDocument.SetTrackRevisions(false);
 var oParagraph = Api.CreateParagraph();
 oParagraph.AddText("All revision changes in this document were rejected.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "RejectAllRevisionChanges.docx");
-builder.CloseFile();
 ```

@@ -1,18 +1,12 @@
 # ApiName
 
-Class representing a name.
-
-## Properties
-
-- [Name](./Properties/Name.md)
-- [RefersTo](./Properties/RefersTo.md)
-- [RefersToRange](./Properties/RefersToRange.md)
+Represents the ApiName class.
 
 ## Methods
 
-- [Delete](./Methods/Delete.md)
 - [GetName](./Methods/GetName.md)
+- [SetName](./Methods/SetName.md)
+- [Delete](./Methods/Delete.md)
+- [SetRefersTo](./Methods/SetRefersTo.md)
 - [GetRefersTo](./Methods/GetRefersTo.md)
 - [GetRefersToRange](./Methods/GetRefersToRange.md)
-- [SetName](./Methods/SetName.md)
-- [SetRefersTo](./Methods/SetRefersTo.md)

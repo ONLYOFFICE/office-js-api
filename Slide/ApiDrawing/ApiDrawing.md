@@ -1,22 +1,22 @@
 # ApiDrawing
 
-Class representing a graphical object.
+Represents the ApiDrawing class.
 
 ## Methods
 
-- [Copy](./Methods/Copy.md)
-- [Delete](./Methods/Delete.md)
 - [GetClassType](./Methods/GetClassType.md)
-- [GetHeight](./Methods/GetHeight.md)
-- [GetLockValue](./Methods/GetLockValue.md)
+- [SetSize](./Methods/SetSize.md)
+- [SetPosition](./Methods/SetPosition.md)
 - [GetParent](./Methods/GetParent.md)
+- [GetParentSlide](./Methods/GetParentSlide.md)
 - [GetParentLayout](./Methods/GetParentLayout.md)
 - [GetParentMaster](./Methods/GetParentMaster.md)
-- [GetParentSlide](./Methods/GetParentSlide.md)
+- [Copy](./Methods/Copy.md)
+- [Delete](./Methods/Delete.md)
+- [SetPlaceholder](./Methods/SetPlaceholder.md)
 - [GetPlaceholder](./Methods/GetPlaceholder.md)
 - [GetWidth](./Methods/GetWidth.md)
+- [GetHeight](./Methods/GetHeight.md)
+- [GetLockValue](./Methods/GetLockValue.md)
 - [SetLockValue](./Methods/SetLockValue.md)
-- [SetPlaceholder](./Methods/SetPlaceholder.md)
-- [SetPosition](./Methods/SetPosition.md)
-- [SetSize](./Methods/SetSize.md)
 - [ToJSON](./Methods/ToJSON.md)

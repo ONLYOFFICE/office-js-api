@@ -1,6 +1,6 @@
 # ApiNumbering
 
-Class representing the numbering properties.
+Represents the ApiNumbering class.
 
 ## Methods
 

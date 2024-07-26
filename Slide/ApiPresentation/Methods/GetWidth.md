@@ -8,20 +8,19 @@ expression.GetWidth();
 
 `expression` - A variable that represents a [ApiPresentation](../ApiPresentation.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-[EMU](../../../Enumerations/Emu.md)
+EMU
 
 ## Example
 
 This example shows how to get the presentation width in English measure units.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -34,6 +33,4 @@ var oParagraph = oDocContent.GetElement(0);
 var nHeight = oPresentation.GetWidth();
 oParagraph.AddText("Height = " + nHeight);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "GetCurSlideIndex.pptx");
-builder.CloseFile();
 ```

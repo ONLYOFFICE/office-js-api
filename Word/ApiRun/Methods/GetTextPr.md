@@ -8,7 +8,7 @@ expression.GetTextPr();
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
@@ -21,7 +21,6 @@ This method doesn't have any parameters.
 This example shows how to get the text properties of the run.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oMyNewRunStyle = oDocument.CreateStyle("My New Run Style", "run");
 var oTextPr = oMyNewRunStyle.GetTextPr();
@@ -36,6 +35,4 @@ oRun = Api.CreateRun();
 oRun.SetStyle(oMyNewRunStyle);
 oRun.AddText("This is a text run with its own style.");
 oParagraph.AddElement(oRun);
-builder.SaveFile("docx", "GetTextPr.docx");
-builder.CloseFile();
 ```

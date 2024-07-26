@@ -8,11 +8,11 @@ expression.GetLevel(nLevel);
 
 `expression` - A variable that represents a [ApiNumbering](../ApiNumbering.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nLevel | Required | number | The numbering level index. This value MUST BE from 0 to 8. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nLevel | Required | number |  | The numbering level index. This value MUST BE from 0 to 8. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ expression.GetLevel(nLevel);
 This example shows how to get the specified level of the numbering.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oNumbering = oDocument.CreateNumbering("bullet");
 for (let nLvl = 0; nLvl < 8; ++nLvl) {
@@ -34,6 +33,4 @@ for (let nLvl = 0; nLvl < 8; ++nLvl) {
 	oParagraph.SetContextualSpacing(true);
 	oDocument.Push(oParagraph);
 }
-builder.SaveFile("docx", "GetLevel.docx");
-builder.CloseFile();
 ```

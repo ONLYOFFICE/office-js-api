@@ -8,12 +8,12 @@ expression.SetSize(nWidth, nHeight);
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nWidth | Required | [EMU](../../../Enumerations/Emu.md) | The object width measured in English measure units. |
-| nHeight | Required | [EMU](../../../Enumerations/Emu.md) | The object height measured in English measure units. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nWidth | Required | EMU |  | The object width measured in English measure units. |
+| nHeight | Required | EMU |  | The object height measured in English measure units. |
 
 ## Returns
 
@@ -24,7 +24,6 @@ This method doesn't return any data.
 This example sets the size of the shape bounding box.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is a paragraph with a shape. ");
@@ -42,6 +41,4 @@ oParagraph.AddDrawing(oDrawing);
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("The shape was created with a size of 53x39 millimeters, then resized to the size of 2x2 inches.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetSize.docx");
-builder.CloseFile();
 ```

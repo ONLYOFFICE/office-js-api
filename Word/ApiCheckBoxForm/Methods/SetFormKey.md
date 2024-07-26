@@ -1,6 +1,6 @@
 # SetFormKey
 
-Sets a key to the current form.<br>Inherited From: [ApiFormBase#SetFormKey](../../ApiFormBase/Methods/SetFormKey.md)
+Sets a key to the current form.
 
 ## Syntax
 
@@ -8,37 +8,28 @@ expression.SetFormKey(sKey);
 
 `expression` - A variable that represents a [ApiCheckBoxForm](../ApiCheckBoxForm.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sKey | Required | String | Form key. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sKey | Required | string |  | Form key. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
-This example sets a key to the current form.
+This example sets a key to the form.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
-var oCheckBoxForm = Api.CreateCheckBoxForm({"tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": false});
-oCheckBoxForm.SetFormKey("Marital status 1");
+var oTextForm = Api.CreateTextForm({"tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});
 var oParagraph = oDocument.GetElement(0);
-oParagraph.AddElement(oCheckBoxForm);
-oParagraph.AddText(" Married");
-oParagraph.AddLineBreak();
-oCheckBoxForm = Api.CreateCheckBoxForm({"tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": false});
-oCheckBoxForm.SetFormKey("Marital status 2");
-oParagraph.AddElement(oCheckBoxForm);
-oParagraph.AddText(" Single");
-var sKey = oCheckBoxForm.GetFormKey();
+oParagraph.AddElement(oTextForm);
+oTextForm.SetFormKey("Personal information");
+var sKey = oTextForm.GetFormKey();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Form key: " + sKey);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetFormKey.docx");
-builder.CloseFile();
 ```

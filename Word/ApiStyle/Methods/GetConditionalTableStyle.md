@@ -1,18 +1,18 @@
 # GetConditionalTableStyle
 
-Returns a set of formatting properties which will be conditionally applied to the parts of a table that match the requirement specified in the sType parameter.
+Returns a set of formatting properties which will be conditionally applied to the parts of a table that match the requirement specified in the sType parameter.
 
 ## Syntax
 
-expression.GetConditionalTableStyle(sType?);
+expression.GetConditionalTableStyle(sType);
 
 `expression` - A variable that represents a [ApiStyle](../ApiStyle.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sType | Optional | [TableStyleOverrideType](../../../Enumerations//TableStyleOverrideType.md) | The table part which the formatting properties must be applied to. Default value is "wholeTable". |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sType | Optional | TableStyleOverrideType | "wholeTable" | The table part which the formatting properties must be applied to. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ expression.GetConditionalTableStyle(sType?);
 This example shows how to get a set of formatting properties which will be conditionally applied to the parts of a table that match the requirement specified in the sType parameter.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTable = Api.CreateTable(2, 2);
 oTable.SetWidth("percent", 100);
@@ -50,6 +49,4 @@ oParagraph.AddText("This cell font remains default");
 oCellContent = oTable.GetRow(1).GetCell(1).GetContent();
 oParagraph = oCellContent.GetElement(0);
 oParagraph.AddText("This cell font also remains default");
-builder.SaveFile("docx", "GetConditionalTableStyle.docx");
-builder.CloseFile();
 ```

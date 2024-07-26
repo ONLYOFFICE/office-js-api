@@ -1,6 +1,6 @@
 # ApiShape
 
-Class representing a shape.
+Represents the ApiShape class.
 
 ## Methods
 

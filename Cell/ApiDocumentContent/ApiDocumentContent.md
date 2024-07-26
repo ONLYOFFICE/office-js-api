@@ -1,13 +1,13 @@
 # ApiDocumentContent
 
-Class representing a container for paragraphs and tables.
+Represents the ApiDocumentContent class.
 
 ## Methods
 
-- [AddElement](./Methods/AddElement.md)
 - [GetClassType](./Methods/GetClassType.md)
-- [GetElement](./Methods/GetElement.md)
 - [GetElementsCount](./Methods/GetElementsCount.md)
+- [GetElement](./Methods/GetElement.md)
+- [AddElement](./Methods/AddElement.md)
 - [Push](./Methods/Push.md)
 - [RemoveAllElements](./Methods/RemoveAllElements.md)
 - [RemoveElement](./Methods/RemoveElement.md)

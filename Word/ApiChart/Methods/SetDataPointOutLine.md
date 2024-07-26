@@ -8,25 +8,24 @@ expression.SetDataPointOutLine(oStroke, nSeries, nDataPoint, bAllSeries);
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| oStroke | Required | [ApiStroke](../../ApiStroke/ApiStroke.md) | The stroke used to create the data point outline. |
-| nSeries | Required | Number | The index of the chart series. |
-| nDataPoint | Required | Number | The index of the data point in the specified chart series. |
-| bAllSeries | Required | Boolean | Specifies if the outline will be applied to the specified data point in all series. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| oStroke | Required | [ApiStroke](../../ApiStroke/ApiStroke.md) |  | The stroke used to create the data point outline. |
+| nSeries | Required | number |  | The index of the chart series. |
+| nDataPoint | Required | number |  | The index of the data point in the specified chart series. |
+| bAllSeries | Required | boolean |  | Specifies if the outline will be applied to the specified data point in all series. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example show how to set the outline to the data point.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("bar3D", [
@@ -40,6 +39,4 @@ oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 oChart.SetSeriesFill(oFill, 1, false);
 var oStroke = Api.CreateStroke(0.5 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61)));
 oChart.SetDataPointOutLine(oStroke, 0, 0, false);
-builder.SaveFile("docx", "SetDataPointOutLine.docx");
-builder.CloseFile();
 ```

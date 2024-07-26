@@ -8,7 +8,7 @@ expression.ToJSON();
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
@@ -21,7 +21,6 @@ JSON
 This example converts the shape into JSON.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -33,6 +32,4 @@ var oDrawingFromJSON = Api.FromJSON(json);
 oDrawingFromJSON.SetPosition(608400, 1267200);
 oDrawingFromJSON.SetSize(300 * 36000, 130 * 36000);
 oSlide.AddObject(oDrawingFromJSON);
-builder.SaveFile("pptx", "ToJSON.pptx");
-builder.CloseFile();
 ```

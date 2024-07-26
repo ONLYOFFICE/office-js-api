@@ -8,20 +8,19 @@ expression.GetCurSlideIndex();
 
 `expression` - A variable that represents a [ApiPresentation](../ApiPresentation.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Number
+number
 
 ## Example
 
 This example shows how to get the index for the current slide.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -34,6 +33,4 @@ var oParagraph = oDocContent.GetElement(0);
 var nCurrentSlideIndex = oPresentation.GetCurSlideIndex();
 oParagraph.AddText("Current Slide Index = " + nCurrentSlideIndex);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "GetCurSlideIndex.pptx");
-builder.CloseFile();
 ```

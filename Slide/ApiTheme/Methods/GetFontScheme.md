@@ -8,20 +8,19 @@ expression.GetFontScheme();
 
 `expression` - A variable that represents a [ApiTheme](../ApiTheme.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-[ApiThemeFontScheme](../../ApiThemeFontScheme/ApiThemeFontScheme.md) &#124; null
+[ApiThemeFontScheme](../../ApiThemeFontScheme/ApiThemeFontScheme.md)
 
 ## Example
 
 This example shows how to get the font scheme of the theme.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -39,6 +38,4 @@ var oParagraph = oDocContent.GetElement(0);
 oParagraph.SetJc("left");
 oParagraph.AddText("Class type = " + sType);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "GetFontScheme.pptx");
-builder.CloseFile();
 ```

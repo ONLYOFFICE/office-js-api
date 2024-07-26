@@ -8,20 +8,19 @@ expression.GetLevelIndex();
 
 `expression` - A variable that represents a [ApiNumberingLevel](../ApiNumberingLevel.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Number
+number
 
 ## Example
 
 This example shows how to get the level index.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oNumbering = oDocument.CreateNumbering("numbered");
 var oNumLvl = oNumbering.GetLevel(0);
@@ -46,6 +45,4 @@ oParagraph = Api.CreateParagraph();
 nLevelIndex = oNumLvl1.GetLevelIndex();
 oParagraph.AddText("Level index for the element of a child numbered list  = " + nLevelIndex);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetLevelIndex.docx");
-builder.CloseFile();
 ```

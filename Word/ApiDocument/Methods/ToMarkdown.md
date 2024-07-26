@@ -4,29 +4,28 @@ Converts a document to Markdown.
 
 ## Syntax
 
-expression.ToMarkdown(bHtmlHeadings?, bBase64img?, bDemoteHeadings?, bRenderHTMLTags?);
+expression.ToMarkdown(bHtmlHeadings, bBase64img, bDemoteHeadings, bRenderHTMLTags);
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| bHtmlHeadings | Optional | Boolean | Defines if the HTML headings and IDs will be generated when the Markdown renderer of your target platform does not handle Markdown-style IDs. Default value is "false". |
-| bBase64img | Optional | Boolean | Defines if the images will be created in the base64 format. Default value is "false". |
-| bDemoteHeadings | Optional | Boolean | Defines if all heading levels in your document will be demoted to conform with the following standard: single H1 as title, H2 as top-level heading in the text body. Default value is "false". |
-| bRenderHTMLTags | Optional | Boolean | Defines if HTML tags will be preserved in your Markdown. If you just want to use an occasional HTML tag, you can avoid using the opening angle bracket in the following way: <tag>text</tag>. By default, the opening angle brackets will be replaced with the special characters. Default value is "false". |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| bHtmlHeadings | Optional | boolean | false | Defines if the HTML headings and IDs will be generated when the Markdown renderer of your target platform does not handle Markdown-style IDs. |
+| bBase64img | Optional | boolean | false | Defines if the images will be created in the base64 format. |
+| bDemoteHeadings | Optional | boolean | false | Defines if all heading levels in your document will be demoted to conform with the following standard: single H1 as title, H2 as top-level heading in the text body. |
+| bRenderHTMLTags | Optional | boolean | false | Defines if HTML tags will be preserved in your Markdown. If you just want to use an occasional HTML tag, you can avoid using the opening angle bracketin the following way: \<tag&gt;text\</tag&gt;. By default, the opening angle brackets will be replaced with the special characters. |
 
 ## Returns
 
-String
+string
 
 ## Example
 
 This example converts a document to Markdown.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph1 = oDocument.GetElement(0);
 oParagraph1.AddText("Heading 1");
@@ -52,6 +51,4 @@ oParagraph5.AddText("Markdown").SetBold(true);
 oParagraph5.AddLineBreak();
 oParagraph5.AddText(sMarkdown);
 oDocument.Push(oParagraph5);
-builder.SaveFile("docx", "ToMarkdown.docx");
-builder.CloseFile();
 ```

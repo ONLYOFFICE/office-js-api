@@ -1,6 +1,6 @@
 # GetTipText
 
-Returns the tip text of the current form.<br>Inherited From: [ApiFormBase#GetTipText](../../ApiFormBase/Methods/GetTipText.md)
+Returns the tip text of the current form.
 
 ## Syntax
 
@@ -8,29 +8,25 @@ expression.GetTipText();
 
 `expression` - A variable that represents a [ApiPictureForm](../ApiPictureForm.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-String
+string
 
 ## Example
 
-This example shows how to get the tip text of the current form.
+This example shows how to get the tip text of the form.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
-var oPictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false, "shiftX": 50, "shiftY": 50});
+var oComboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});
 var oParagraph = oDocument.GetElement(0);
-oParagraph.AddElement(oPictureForm);
-oPictureForm.SetImage("https://api.onlyoffice.com/content/img/docbuilder/examples/user-profile.png");
-var sTipText = oPictureForm.GetTipText();
+oParagraph.AddElement(oComboBoxForm);
+var sTipText = oComboBoxForm.GetTipText();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Form tip text: " + sTipText);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetTipText.docx");
-builder.CloseFile();
 ```

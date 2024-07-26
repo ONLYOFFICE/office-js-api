@@ -8,23 +8,22 @@ expression.ChangeColor(nPos, oColor);
 
 `expression` - A variable that represents a [ApiThemeColorScheme](../ApiThemeColorScheme.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nPos | Required | Number | Color position in the color scheme which will be changed. |
-| oColor | Required | [ApiUniColor](../../ApiUniColor/ApiUniColor.md) &#124; [ApiRGBColor](../../ApiRGBColor/ApiRGBColor.md) | New color of the theme color scheme. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nPos | Required | number |  | Color position in the color scheme which will be changed. |
+| oColor | Required | [ApiUniColor](../../ApiUniColor/ApiUniColor.md) &#124;[ApiRGBColor](../../ApiRGBColor/ApiRGBColor.md) |  | New color of the theme color scheme. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example changes a color in the theme color scheme.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -45,6 +44,4 @@ oChart.SetTitle("Financial Overview", 20);
 oChart.SetSize(300 * 36000, 130 * 36000);
 oChart.SetPosition(608400, 1267200);
 oSlide.AddObject(oChart);
-builder.SaveFile("pptx", "ChangeColor.pptx");
-builder.CloseFile();
 ```

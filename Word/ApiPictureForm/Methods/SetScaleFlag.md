@@ -8,22 +8,21 @@ expression.SetScaleFlag(sScaleFlag);
 
 `expression` - A variable that represents a [ApiPictureForm](../ApiPictureForm.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sScaleFlag | Required | [ScaleFlag](../../../Enumerations/ScaleFlag.md) | Picture scaling condition |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sScaleFlag | Required | ScaleFlag |  | Picture scaling condition: "always", "never", "tooBig" or "tooSmall". |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example sets the scaling condition to the current picture form.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oPictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "lockAspectRatio": true, "respectBorders": false, "shiftX": 50, "shiftY": 50});
 var oParagraph = oDocument.GetElement(0);
@@ -34,6 +33,4 @@ var sScaleFlag = oPictureForm.GetScaleFlag();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Picture scale flag: " + sScaleFlag);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetScaleFlag.docx");
-builder.CloseFile();
 ```

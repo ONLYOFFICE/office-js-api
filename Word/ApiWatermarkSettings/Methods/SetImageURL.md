@@ -1,6 +1,6 @@
 # SetImageURL
 
-Sets the image URL of the watermark.
+Sets the image URL of the watermark in the document.
 
 ## Syntax
 
@@ -8,11 +8,11 @@ expression.SetImageURL(sURL);
 
 `expression` - A variable that represents a [ApiWatermarkSettings](../ApiWatermarkSettings.md) class.
 
-## Parametrs
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sURL | Required | String | The image URL of the watermark. |
+## Parameters
 
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sURL | Required | string |  | The watermark image URL. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ This method doesn't return any data.
 This example sets the parameters of the watermark settings and apply them to the document.
 
 ```javascript
-builder.CreateFile("docx");
 const oDocument = Api.GetDocument();
 const oWatermarkSettings = oDocument.GetWatermarkSettings();
 oWatermarkSettings.SetType("image");
@@ -32,6 +31,4 @@ oWatermarkSettings.SetImageSize(36000 * 70, 36000 * 80);
 oWatermarkSettings.SetDirection("clockwise45");
 oWatermarkSettings.SetOpacity(200);
 oDocument.SetWatermarkSettings(oWatermarkSettings);
-builder.SaveFile("docx", "SetImageURL.docx");
-builder.CloseFile();
 ```

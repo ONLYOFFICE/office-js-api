@@ -1,6 +1,6 @@
 # SetTipText
 
-Sets the tip text to the current form.<br>Inherited From: [ApiFormBase#SetTipText](../../ApiFormBase/Methods/SetTipText.md)
+Sets the tip text to the current form.
 
 ## Syntax
 
@@ -8,32 +8,28 @@ expression.SetTipText(sText);
 
 `expression` - A variable that represents a [ApiPictureForm](../ApiPictureForm.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sText | Required | String | Tip text. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sText | Required | string |  | Tip text. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
-This example sets the tip text to the current form.
+This example sets the tip text to the form.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
-var oPictureForm = Api.CreatePictureForm({"key": "Personal information", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false, "shiftX": 50, "shiftY": 50});
-oPictureForm.SetImage("https://api.onlyoffice.com/content/img/docbuilder/examples/user-profile.png");
+var oTextForm = Api.CreateTextForm({"key": "Personal information", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});
 var oParagraph = oDocument.GetElement(0);
-oParagraph.AddElement(oPictureForm);
-oPictureForm.SetTipText("Upload your photo");
-var sTipText = oPictureForm.GetTipText();
+oParagraph.AddElement(oTextForm);
+oTextForm.SetTipText("Enter your first name");
+var sTipText = oTextForm.GetTipText();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Tip text: " + sTipText);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetTipText.docx");
-builder.CloseFile();
 ```

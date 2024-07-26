@@ -8,11 +8,11 @@ expression.SetCellMarginRight(nValue);
 
 `expression` - A variable that represents a [ApiTableCellPr](../ApiTableCellPr.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nValue | Required | [twips](../../../Enumerations/twips.md) | The value for the amount of space to the right extent of the cell measured in twentieths of a point (1/1440 of an inch). If this value is null, then default table cell right margin will be used, otherwise the table cell right margin will be overridden with the specified value for the current cell. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nValue | Required | twips |  | The value for the amount of space to the right extent of the cell measured in twentiethsof a point (1/1440 of an inch). If this value is <code>null</code>, then default table cell right margin will be used, otherwisethe table cell right margin will be overridden with the specified value for the current cell. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ This method doesn't return any data.
 This example specifies an amount of space which will be left between the right extent of the cell contents and the border of a specific table cell within a table.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
@@ -36,6 +35,4 @@ var oTableCellPr = oTableStyle.GetTableCellPr();
 oTableCellPr.SetCellMarginRight(720);
 oTable.SetStyle(oTableStyle);
 oDocument.Push(oTable);
-builder.SaveFile("docx", "SetCellMarginRight.docx");
-builder.CloseFile();
 ```

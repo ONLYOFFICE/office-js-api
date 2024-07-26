@@ -8,20 +8,19 @@ expression.GetAllSeries();
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Array<[ApiChartSeries](../../ApiChartSeries/ApiChartSeries.md)>
+Array.<[ApiChartSeries](../../ApiChartSeries/ApiChartSeries.md)>
 
 ## Example
 
 This example gets all series of ApiChart class and inserts their types into the document.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("comboBarLine", [
@@ -47,6 +46,4 @@ for(var nSeries = 0; nSeries < aAllSeries.length; ++nSeries) {
 	oParagraph.AddText((nSeries + 1) + " Series Type = " + sSeriesType);
 	oDocument.Push(oParagraph);
 }
-builder.SaveFile("docx", "GetAllSeries.docx");
-builder.CloseFile();
 ```

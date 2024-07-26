@@ -4,25 +4,32 @@ Sets the tip text to the current form.
 
 ## Syntax
 
-expression.
+expression.SetTipText(sText);
 
 `expression` - A variable that represents a [ApiComplexForm](../ApiComplexForm.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sText | Required | string |  | Tip text. |
 
 ## Returns
 
-return
-[return](todo_link)
+boolean
 
 ## Example
 
-This example
+This example sets the tip text to the form.
 
 ```javascript
-// todo_exampele
+var oDocument = Api.GetDocument();
+var oTextForm = Api.CreateTextForm({"key": "Personal information", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});
+var oParagraph = oDocument.GetElement(0);
+oParagraph.AddElement(oTextForm);
+oTextForm.SetTipText("Enter your first name");
+var sTipText = oTextForm.GetTipText();
+oParagraph = Api.CreateParagraph();
+oParagraph.AddText("Tip text: " + sTipText);
+oDocument.Push(oParagraph);
 ```

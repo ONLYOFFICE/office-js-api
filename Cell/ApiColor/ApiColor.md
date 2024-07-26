@@ -1,7 +1,8 @@
 # ApiColor
 
-Class representing a base class for the color types.
+Represents the ApiColor class.
 
 ## Methods
 
+- [GetRGB](./Methods/GetRGB.md)
 - [GetClassType](./Methods/GetClassType.md)

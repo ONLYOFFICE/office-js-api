@@ -1,6 +1,6 @@
 # RemoveFooter
 
-Removes the footer of the specified type from the current section. After removal, the footer will be inherited from the previous section, or if this is the first section in the document, no footer of the specified type will be presented.
+Removes the footer of the specified type from the current section. After removal, the footer will be inherited from the previous section, or if this is the first section in the document, no footer of the specified type will be presented.
 
 ## Syntax
 
@@ -8,11 +8,11 @@ expression.RemoveFooter(sType);
 
 `expression` - A variable that represents a [ApiSection](../ApiSection.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sType | Required | [HdrFtrType](../../../Enumerations/HdrFtrType.md) | Footer type to be removed. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sType | Required | HdrFtrType |  | Footer type to be removed. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ This method doesn't return any data.
 This example removes the footer of the specified type from the section.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This page first was with a footer. ");
@@ -43,6 +42,4 @@ oParagraph = oFooter.GetElement(0);
 oParagraph.AddText("This is page footer #2. ");
 oParagraph.AddText("Only this footer can be seen, as the first one has been removed.");
 oSection.RemoveFooter("default");
-builder.SaveFile("docx", "RemoveFooter.docx");
-builder.CloseFile();
 ```

@@ -1,6 +1,6 @@
 # ToFixed
 
-Converts the current form to a fixed size form.<br>Inherited From: [ApiFormBase#ToFixed](../../ApiFormBase/Methods/ToFixed.md)
+Converts the current form to a fixed size form.
 
 ## Syntax
 
@@ -8,23 +8,22 @@ expression.ToFixed(nWidth, nHeight);
 
 `expression` - A variable that represents a [ApiTextForm](../ApiTextForm.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nWidth | Required | [twips](../../../Enumerations/twips.md) | The wrapper shape width measured in twentieths of a point (1/1440 of an inch). |
-| nHeight | Required | [twips](../../../Enumerations/twips.md) | The wrapper shape height measured in twentieths of a point (1/1440 of an inch). |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nWidth | Required | twips |  | The wrapper shape width measured in twentieths of a point (1/1440 of an inch). |
+| nHeight | Required | twips |  | The wrapper shape height measured in twentieths of a point (1/1440 of an inch). |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
-This example converts the current form to a fixed size form.
+This example converts the form to a fixed size form.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTextForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});
 var oParagraph = oDocument.GetElement(0);
@@ -34,6 +33,4 @@ var bFixed = oTextForm.IsFixed();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("The first form from this document has a fixed size: " + bFixed);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "ToFixed.docx");
-builder.CloseFile();
 ```

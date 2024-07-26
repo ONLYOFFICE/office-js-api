@@ -1,10 +1,10 @@
 # ApiTableRow
 
-Class representing a table row.
+Represents the ApiTableRow class.
 
 ## Methods
 
-- [GetCell](./Methods/GetCell.md)
-- [GetCellsCount](./Methods/GetCellsCount.md)
 - [GetClassType](./Methods/GetClassType.md)
+- [GetCellsCount](./Methods/GetCellsCount.md)
+- [GetCell](./Methods/GetCell.md)
 - [SetHeight](./Methods/SetHeight.md)

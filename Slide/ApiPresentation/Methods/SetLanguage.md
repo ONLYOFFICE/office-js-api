@@ -8,22 +8,21 @@ expression.SetLanguage(sLangId);
 
 `expression` - A variable that represents a [ApiPresentation](../ApiPresentation.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sLangId | Required | String | The possible value for this parameter is a language identifier as defined by RFC 4646/BCP 47. Example: "en-CA". |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sLangId | Required | string |  | The possible value for this parameter is a language identifier as defined byRFC 4646/BCP 47. Example: "en-CA". |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example sets pecifies the languages which will be used to check spelling and grammar.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 oPresentation.SetLanguage("en-CA");
 var oSlide = oPresentation.GetSlideByIndex(0);
@@ -36,6 +35,4 @@ var oDocContent = oShape.GetDocContent();
 var oParagraph = oDocContent.GetElement(0);
 oParagraph.AddText("English (Canada) will be used to check spelling and grammar in this presentation (if requested).");
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetLanguage.pptx");
-builder.CloseFile();
 ```

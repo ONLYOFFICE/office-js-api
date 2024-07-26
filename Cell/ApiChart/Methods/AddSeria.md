@@ -4,17 +4,17 @@ Adds a new series to the current chart.
 
 ## Syntax
 
-expression.AddSeria(sNameRange, sValuesRange, sXValuesRange?);
+expression.AddSeria(sNameRange, sValuesRange, sXValuesRange);
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sNameRange | Required | String | The series name. Can be a range of cells or usual text. For example: 1) "'sheet 1'!$A$2:$A$5" - must be a single cell, row or column, 2) "A1:A5" - must be a single cell, row or column, 3) "Example series". |
-| sValuesRange | Required | String | A range of cells from the sheet with series values. For example: 1) "'sheet 1'!$A$2:$A$5" - must be a single cell, row or column, 2) "A1:A5" - must be a single cell, row or column. |
-| sXValuesRange | Optional | String | A range of cells from the sheet with series x-axis values. It is used with the scatter charts only. For example: 1) "'sheet 1'!$A$2:$A$5" - must be a single cell, row or column, 2) "A1:A5" - must be a single cell, row or column. Default value is "undefined". |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sNameRange | Required | string |  | The series name. Can be a range of cells or usual text. For example:* "'sheet 1'!$A$2:$A$5" - must be a single cell, row or column,* "A1:A5" - must be a single cell, row or column,* "Example series". |
+| sValuesRange | Required | string |  | A range of cells from the sheet with series values. For example:* "'sheet 1'!$A$2:$A$5" - must be a single cell, row or column,* "A1:A5" - must be a single cell, row or column. |
+| sXValuesRange | Optional | string |  | A range of cells from the sheet with series x-axis values. It is used with the scatter charts only. For example:* "'sheet 1'!$A$2:$A$5" - must be a single cell, row or column,* "A1:A5" - must be a single cell, row or column. |
 
 ## Returns
 
@@ -25,7 +25,6 @@ This method doesn't return any data.
 This example adds a new series to the chart.
 
 ```javascript
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);
@@ -49,6 +48,4 @@ var oFill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
 oChart.SetSeriesFill(oFill, 0, false);
 oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 oChart.SetSeriesFill(oFill, 1, false);
-builder.SaveFile("xlsx", "AddSeria.xlsx");
-builder.CloseFile();
 ```

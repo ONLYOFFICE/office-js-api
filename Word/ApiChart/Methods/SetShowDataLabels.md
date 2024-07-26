@@ -8,41 +8,15 @@ expression.SetShowDataLabels(bShowSerName, bShowCatName, bShowVal, bShowPercent)
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| bShowSerName | Required | Boolean | Whether to show or hide the source table column names used for the data which the chart will be build from. |
-| bShowCatName | Required | Boolean | Whether to show or hide the source table row names used for the data which the chart will be build from. |
-| bShowVal | Required | Boolean | Whether to show or hide the chart data values. |
-| bShowPercent | Required | Boolean | Whether to show or hide the percent for the data values (works with stacked chart types). |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| bShowSerName | Required | boolean |  | Whether to show or hide the source table column names used for the data which the chart will be build from. |
+| bShowCatName | Required | boolean |  | Whether to show or hide the source table row names used for the data which the chart will be build from. |
+| bShowVal | Required | boolean |  | Whether to show or hide the chart data values. |
+| bShowPercent | Required | boolean |  | Whether to show or hide the percent for the data values (works with stacked chart types).* @see office-js-api/Examples/Word/ApiChart/Methods/SetShowDataLabels.js |
 
 ## Returns
 
 This method doesn't return any data.
-
-## Example
-
-This example specifies which chart data labels are shown for the chart.
-
-```javascript
-builder.CreateFile("docx");
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oChart = Api.CreateChart("bar3D", [
-	[200, 240, 280],
-	[250, 260, 280]
-], ["Projected Revenue", "Estimated Costs"], [2014, 2015, 2016], 4051300, 2347595, 24);
-var oFill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
-oChart.SetSeriesFill(oFill, 0, false);
-oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-oChart.SetSeriesFill(oFill, 1, false);
-oChart.SetVerAxisTitle("USD In Hundred Thousands", 10);
-oChart.SetHorAxisTitle("Year", 11);
-oChart.SetLegendPos("bottom");
-oChart.SetShowDataLabels(false, false, true, false);
-oChart.SetTitle("Financial Overview", 13);
-oParagraph.AddDrawing(oChart);
-builder.SaveFile("docx", "SetShowDataLabels.docx");
-builder.CloseFile();
-```

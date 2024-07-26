@@ -1,11 +1,6 @@
 # ApiAreas
 
-Class representing the areas.
-
-## Properties
-
-- [Count](./Properties/Count.md)
-- [Parent](./Properties/Parent.md)
+Represents the ApiAreas class.
 
 ## Methods
 

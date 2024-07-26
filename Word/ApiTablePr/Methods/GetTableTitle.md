@@ -8,20 +8,19 @@ expression.GetTableTitle();
 
 `expression` - A variable that represents a [ApiTablePr](../ApiTablePr.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-String
+string
 
 ## Example
 
 This example shows how to get the table title.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
@@ -33,6 +32,4 @@ oTable.SetStyle(oTableStyle);
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("Table title: " + oTablePr.GetTableTitle());
 oDocument.Push(oTable);
-builder.SaveFile("docx", "GetTableTitle.docx");
-builder.CloseFile();
 ```

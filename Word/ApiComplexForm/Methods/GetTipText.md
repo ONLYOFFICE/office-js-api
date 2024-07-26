@@ -4,25 +4,29 @@ Returns the tip text of the current form.
 
 ## Syntax
 
-expression.
+expression.GetTipText();
 
 `expression` - A variable that represents a [ApiComplexForm](../ApiComplexForm.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+This method doesn't have any parameters.
 
 ## Returns
 
-return
-[return](todo_link)
+string
 
 ## Example
 
-This example
+This example shows how to get the tip text of the form.
 
 ```javascript
-// todo_exampele
+var oDocument = Api.GetDocument();
+var oComboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});
+var oParagraph = oDocument.GetElement(0);
+oParagraph.AddElement(oComboBoxForm);
+var sTipText = oComboBoxForm.GetTipText();
+oParagraph = Api.CreateParagraph();
+oParagraph.AddText("Form tip text: " + sTipText);
+oDocument.Push(oParagraph);
 ```

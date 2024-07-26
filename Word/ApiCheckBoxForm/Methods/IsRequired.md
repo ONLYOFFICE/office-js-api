@@ -1,6 +1,6 @@
 # IsRequired
 
-Checks if the current form is required.<br>Inherited From: [ApiFormBase#IsRequired](../../ApiFormBase/Methods/IsRequired.md)
+Checks if the current form is required.
 
 ## Syntax
 
@@ -8,34 +8,25 @@ expression.IsRequired();
 
 `expression` - A variable that represents a [ApiCheckBoxForm](../ApiCheckBoxForm.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example checks if the current form is required.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
-var oCheckBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "placeholder": "Marital status", "radio": true});
+var oTextForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});
 var oParagraph = oDocument.GetElement(0);
-oParagraph.AddElement(oCheckBoxForm);
-oParagraph.AddText(" Married");
-oParagraph.AddLineBreak();
-oCheckBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "placeholder": "Marital status", "radio": true});
-oParagraph.AddElement(oCheckBoxForm);
-oParagraph.AddText(" Single");
-oCheckBoxForm.SetRequired(true);
-var bRequired = oCheckBoxForm.IsRequired();
+oParagraph.AddElement(oTextForm);
+var bRequired = oTextForm.IsRequired();
 oParagraph = Api.CreateParagraph();
-oParagraph.AddText("The second form from this document is required: " + bRequired);
+oParagraph.AddText("The first form from this document is required: " + bRequired);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "IsRequired.docx");
-builder.CloseFile();
 ```

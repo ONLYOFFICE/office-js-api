@@ -8,11 +8,11 @@ expression.SetTag(sTag);
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sTag | Required | String | The tag which will be added to the current inline text content control. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sTag | Required | string |  | The tag which will be added to the current inline text content control. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ This method doesn't return any data.
 This example sets a string tag to the inline text content control.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oInlineLvlSdt = Api.CreateInlineLvlSdt();
@@ -36,6 +35,4 @@ var sTag = oInlineLvlSdt.GetTag();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Tag: " + sTag);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetTag.docx");
-builder.CloseFile();
 ```

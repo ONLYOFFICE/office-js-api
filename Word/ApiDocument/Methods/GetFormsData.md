@@ -1,6 +1,6 @@
 # GetFormsData
 
-Returns an array of form data for all forms presented in the documenta.
+Returns the data from all forms present in the current document.If a form was created and not assigned to any part of the document, it won't appear in this list.
 
 ## Syntax
 
@@ -8,20 +8,19 @@ expression.GetFormsData();
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-[Array<[FormData](../../../Enumerations/FormData.md)>]
+Array.<FormData>
 
 ## Example
 
 This example showh how to get the data for all forms added to the document.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph1 = oDocument.GetElement(0);
 var oCheckBox = Api.CreateCheckBoxForm({key: "BestCompany"});
@@ -36,6 +35,4 @@ let oParagraph2 = Api.CreateParagraph();
 oParagraph2.AddText(sText);
 oDocument.Push(oParagraph2);
 
-builder.SaveFile("docx", "GetFormsData.docx");
-builder.CloseFile();
 ```

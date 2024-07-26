@@ -8,22 +8,21 @@ expression.Fill(oFill);
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| oFill | Required | [ApiFill](../../ApiFill/ApiFill.md) | The fill type used to fill the graphic object. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| oFill | Required | [ApiFill](../../ApiFill/ApiFill.md) |  | The fill type used to fill the graphic object. |
 
 ## Returns
 
-Boolean (return false if param is invalid)
+boolean
 
 ## Example
 
 This example sets the fill formatting properties to the current graphic object.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
@@ -36,6 +35,4 @@ var oGs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);
 oFill = Api.CreateRadialGradientFill([oGs1, oGs2]);
 oCopyDrawing.Fill(oFill);
 oParagraph.AddDrawing(oCopyDrawing);
-builder.SaveFile("docx", "Fill.docx");
-builder.CloseFile();
 ```

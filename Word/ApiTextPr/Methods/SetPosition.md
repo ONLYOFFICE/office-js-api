@@ -1,6 +1,6 @@
 # SetPosition
 
-Specifies an amount by which text is raised or lowered for this run in relation to the default baseline of the surrounding non-positioned text.
+Specifies an amount by which text is raised or lowered for this run in relation to the defaultbaseline of the surrounding non-positioned text.
 
 ## Syntax
 
@@ -8,22 +8,21 @@ expression.SetPosition(nPosition);
 
 `expression` - A variable that represents a [ApiTextPr](../ApiTextPr.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nPosition | Required | [hps](../../../Enumerations/hps.md) | Specifies a positive (raised text) or negative (lowered text) measurement in half-points (1/144 of an inch). |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nPosition | Required | hps |  | Specifies a positive (raised text) or negative (lowered text)measurement in half-points (1/144 of an inch). |
 
 ## Returns
 
-[ApiTextPr](../ApiTextPr.md)
+[ApiTextPr](../../ApiTextPr/ApiTextPr.md)
 
 ## Example
 
 This example specifies an amount by which text is raised or lowered for this run in relation to the default baseline of the surrounding non-positioned text.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oMyNewRunStyle1 = oDocument.CreateStyle("My New Run Style 1", "run");
 var oTextPr1 = oMyNewRunStyle1.GetTextPr();
@@ -43,6 +42,4 @@ oRun = Api.CreateRun();
 oRun.SetStyle(oMyNewRunStyle2);
 oRun.AddText("This is a text run with the text lowered 8 points (16 half-points).");
 oParagraph.AddElement(oRun);
-builder.SaveFile("docx", "SetPosition.docx");
-builder.CloseFile();
 ```

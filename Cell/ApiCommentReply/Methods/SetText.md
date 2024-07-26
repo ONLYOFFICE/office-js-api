@@ -4,15 +4,15 @@ Sets the comment reply text.
 
 ## Syntax
 
-expression.SetText(text);
+expression.SetText(sText);
 
 `expression` - A variable that represents a [ApiCommentReply](../ApiCommentReply.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| text | Required | String | The comment reply text. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sText | Required | string |  | The comment reply text. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ This method doesn't return any data.
 This example sets the comment reply text.
 
 ```javascript
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A1").SetValue("1");
 var oRange = oWorksheet.GetRange("A1");
@@ -33,6 +32,4 @@ var oReply = oComment.GetReply();
 oReply.SetText("New reply text.");
 oWorksheet.GetRange("A3").SetValue("Comment's reply text: ");
 oWorksheet.GetRange("B3").SetValue(oReply.GetText());
-builder.SaveFile("xlsx", "SetText.xlsx");
-builder.CloseFile();
 ```

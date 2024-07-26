@@ -8,22 +8,21 @@ expression.SetAuthorName(sAuthorName);
 
 `expression` - A variable that represents a [ApiCommentReply](../ApiCommentReply.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sAuthorName | Required | String | The comment reply author's name. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sAuthorName | Required | string |  | The comment reply author's name. |
 
 ## Returns
 
-[ApiCommentReply](../ApiCommentReply.md)
+[ApiCommentReply](../../ApiCommentReply/ApiCommentReply.md)
 
 ## Example
 
 This example sets the comment reply author's name.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is just a sample text");
@@ -36,6 +35,4 @@ var sAuthorName = oCommentReply.GetAuthorName();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Comment reply author name: " + sAuthorName);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetAuthorName.docx");
-builder.CloseFile();
 ```

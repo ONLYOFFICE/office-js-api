@@ -8,22 +8,21 @@ expression.SetName(sName);
 
 `expression` - A variable that represents a [ApiLayout](../ApiLayout.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sName | Required | String | Layout name to be set. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sName | Required | string |  | Layout name to be set. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example sets a name to the current layout.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -40,6 +39,4 @@ var oParagraph = oDocContent.GetElement(0);
 oParagraph.SetJc("left");
 oParagraph.AddText("A new name was set to the current layout.");
 oLayout.AddObject(oShape);
-builder.SaveFile("pptx", "SetName.pptx");
-builder.CloseFile();
 ```

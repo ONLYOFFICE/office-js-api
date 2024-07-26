@@ -8,11 +8,11 @@ expression.SetName(sStyleName);
 
 `expression` - A variable that represents a [ApiStyle](../ApiStyle.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sStyleName | Required | String | The name which will be used for the current style. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sStyleName | Required | string |  | The name which will be used for the current style. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ This method doesn't return any data.
 This example sets a name of the current style.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.GetStyle("Bordered");
 oTableStyle.SetName("My Custom Style");
@@ -34,6 +33,4 @@ oDocument.Push(oTable);
 var sTableStyleName = oTableStyle.GetName();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("Table style name = " + sTableStyleName);
-builder.SaveFile("docx", "SetName.docx");
-builder.CloseFile();
 ```

@@ -8,20 +8,19 @@ expression.GetReviewReport();
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-[ReviewReport](../../../Enumerations/ReviewReport.md)
+ReviewReport
 
 ## Example
 
 This example shows how to get a report about every change which was made to the document in the review mode.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph1 = oDocument.GetElement(0);
 oDocument.SetTrackRevisions(true);
@@ -98,6 +97,4 @@ for (let sUserName in oReviewReport) {
 	}
 }
 oTable.SetStyle(oDocument.GetStyle("Bordered"));
-builder.SaveFile("docx", "GetReviewReport.docx");
-builder.CloseFile();
 ```

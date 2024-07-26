@@ -8,22 +8,21 @@ expression.SetSection(oSection);
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| oSection | Required | [ApiSection](../../ApiSection/ApiSection.md) | The section which will be set to the paragraph. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| oSection | Required | [ApiSection](../../ApiSection/ApiSection.md) |  | The section which will be set to the paragraph. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example sets the specified section to the current paragraph.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is a new paragraph.");
@@ -42,6 +41,4 @@ oParagraph.SetSpacingAfter(360);
 oParagraph.AddText("This is a paragraph in a new section. The properties from the first section was applied to this one.");
 oDocument.Push(oParagraph);
 oParagraph.SetSection(oSection);
-builder.SaveFile("docx", "SetSection.docx");
-builder.CloseFile();
 ```

@@ -8,20 +8,19 @@ expression.GetAllContentControls();
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Array<[ApiBlockLvlSdt](../ApiBlockLvlSdt.md)> &#124; Array<[ApiInlineLvlSdt](../../ApiInlineLvlSdt/ApiInlineLvlSdt.md)>
+Array.<[ApiBlockLvlSdt](../../ApiBlockLvlSdt/ApiBlockLvlSdt.md)>, Array.<[ApiInlineLvlSdt](../../ApiInlineLvlSdt/ApiInlineLvlSdt.md)>
 
 ## Example
 
 This example shows how to get a collection of content control objects in the current content control.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oBlockLvlSdt = Api.CreateBlockLvlSdt();
 var oBlockLvlSdt1 = Api.CreateBlockLvlSdt();
@@ -37,6 +36,4 @@ var sClassType = aContentControls[0].GetClassType();
 var oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Class type: " + sClassType);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetAllContentControls.docx");
-builder.CloseFile();
 ```

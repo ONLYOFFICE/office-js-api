@@ -1,6 +1,6 @@
 # IsFixed
 
-Checks if the current form is fixed size.<br>Inherited From: [ApiFormBase#IsFixed](../../ApiFormBase/Methods/IsFixed.md)
+Checks if the current form is fixed size.
 
 ## Syntax
 
@@ -8,35 +8,26 @@ expression.IsFixed();
 
 `expression` - A variable that represents a [ApiCheckBoxForm](../ApiCheckBoxForm.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example checks if the current form is fixed size.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
-var oCheckBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});
+var oTextForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});
 var oParagraph = oDocument.GetElement(0);
-oParagraph.AddElement(oCheckBoxForm);
-oParagraph.AddText(" Married");
-oCheckBoxForm.ToFixed(2 * 240, 1 * 240);
-oParagraph.AddLineBreak();
-oCheckBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});
-oParagraph.AddElement(oCheckBoxForm);
-oParagraph.AddText(" Single");
-oCheckBoxForm.ToFixed(2 * 240, 1 * 240);
-var bFixed = oCheckBoxForm.IsFixed();
+oParagraph.AddElement(oTextForm);
+oTextForm.ToFixed(10 * 240, 2 * 240);
+var bFixed = oTextForm.IsFixed();
 oParagraph = Api.CreateParagraph();
-oParagraph.AddText("The second form from this document has a fixed size: " + bFixed);
+oParagraph.AddText("The first form from this document is fixed: " + bFixed);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "IsFixed.docx");
-builder.CloseFile();
 ```

@@ -8,12 +8,12 @@ expression.SetEqualColumns(nCount, nSpace);
 
 `expression` - A variable that represents a [ApiSection](../ApiSection.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nCount | Required | Number | Number of columns. |
-| nSpace | Required | [twips](../../../Enumerations/twips.md)  | Distance between columns measured in twentieths of a point (1/1440 of an inch). |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nCount | Required | number |  | Number of columns. |
+| nSpace | Required | twips |  | Distance between columns measured in twentieths of a point (1/1440 of an inch). |
 
 ## Returns
 
@@ -24,7 +24,6 @@ This method doesn't return any data.
 This example specifies that all the text columns in the current section are of equal width.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oSection = oDocument.GetFinalSection();
@@ -37,6 +36,4 @@ oParagraph.AddText("This sentence is used to add lines for demonstrative purpose
 oParagraph.AddColumnBreak();
 oParagraph.AddText("This text starts from column #3. ");
 oParagraph.AddText("This sentence is used to add lines for demonstrative purposes.");
-builder.SaveFile("docx", "SetEqualColumns.docx");
-builder.CloseFile();
 ```

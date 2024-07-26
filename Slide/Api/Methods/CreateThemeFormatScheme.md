@@ -8,25 +8,24 @@ expression.CreateThemeFormatScheme(arrFill, arrBgFill, arrLine, sName);
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| arrFill | Required | Array<[ApiFill](../../ApiFill/ApiFill.md)> | This array contains the fill styles. It should be consist of subtle, moderate and intense fills. |
-| arrBgFill | Required | Array<[ApiFill](../../ApiFill/ApiFill.md)> | This array contains the background fill styles. It should be consist of subtle, moderate and intense fills. |
-| arrLine | Required | Array<[ApiStroke](../../ApiStroke/ApiStroke.md)> | This array contains the line styles. It should be consist of subtle, moderate and intense lines. |
-| sName | Required | String | Theme format scheme name. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| arrFill | Required | Array.<[ApiFill](../../ApiFill/ApiFill.md)> |  | This array contains the fill styles. It should be consist of subtle, moderate and intense fills. |
+| arrBgFill | Required | Array.<[ApiFill](../../ApiFill/ApiFill.md)> |  | This array contains the background fill styles. It should be consist of subtle, moderate and intense fills. |
+| arrLine | Required | Array.<[ApiStroke](../../ApiStroke/ApiStroke.md)> |  | This array contains the line styles. It should be consist of subtle, moderate and intense lines. |
+| sName | Required | string |  | Theme format scheme name. |
 
 ## Returns
 
-[ApiThemeFormatScheme](../../ApiThemeFormatScheme/ApiThemeFormatScheme.md) &#124; null
+[ApiThemeFormatScheme](../../ApiThemeFormatScheme/ApiThemeFormatScheme.md)
 
 ## Example
 
 This example shows how to create a new theme format scheme.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -47,6 +46,4 @@ var oFormatScheme = Api.CreateThemeFormatScheme([oFill1, oFill2, oFill3], [oBgFi
 var oFontScheme = Api.CreateThemeFontScheme("Arial", "Noto Sans Simplified Chinese", "Arabic", "Times New Roman", "Noto Serif Simplified Chinese", "Arabic", "New font scheme");
 var oTheme = Api.CreateTheme("New theme", oMaster, oClrScheme, oFormatScheme, oFontScheme);
 oPresentation.ApplyTheme(oTheme);
-builder.SaveFile("pptx", "CreateThemeFormatScheme.pptx");
-builder.CloseFile();
 ```

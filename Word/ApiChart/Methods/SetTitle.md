@@ -8,13 +8,13 @@ expression.SetTitle(sTitle, nFontSize, bIsBold);
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sTitle | Required | String | The title which will be displayed for the current chart. |
-| nFontSize | Required | [pt](../../../Enumerations/pt.md) | The text size value measured in points. |
-| bIsBold | Required | Boolean | Specifies if the chart title is written in bold font or not. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sTitle | Required | string |  | The title which will be displayed for the current chart. |
+| nFontSize | Required | pt |  | The text size value measured in points. |
+| bIsBold | Required | bool |  | Specifies if the chart title is written in bold font or not. |
 
 ## Returns
 
@@ -25,7 +25,6 @@ This method doesn't return any data.
 This example specifies the chart title.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("bar3D", [
@@ -42,6 +41,4 @@ oChart.SetLegendPos("bottom");
 oChart.SetShowDataLabels(false, false, true, false);
 oChart.SetTitle("Financial Overview", 13);
 oParagraph.AddDrawing(oChart);
-builder.SaveFile("docx", "SetTitle.docx");
-builder.CloseFile();
 ```

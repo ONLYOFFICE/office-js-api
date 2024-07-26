@@ -8,11 +8,11 @@ expression.SetCellSpacing(nValue);
 
 `expression` - A variable that represents a [ApiTablePr](../ApiTablePr.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nValue | Required | [twips](../../../Enumerations/twips.md)  | Spacing value measured in twentieths of a point (1/1440 of an inch). "Null" means that no spacing will be applied. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nValue | Required | twips |  | Spacing value measured in twentieths of a point (1/1440 of an inch). <code>"Null"</code> means that no spacing will be applied. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ This method doesn't return any data.
 This example specifies the default table cell spacing.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("We create a 3x3 table and set the cell spacing to half an inch:");
@@ -34,6 +33,4 @@ var oTable = Api.CreateTable(3, 3);
 oTable.SetStyle(oTableStyle);
 oTablePr.SetCellSpacing(720);
 oDocument.Push(oTable);
-builder.SaveFile("docx", "SetCellSpacing.docx");
-builder.CloseFile();
 ```

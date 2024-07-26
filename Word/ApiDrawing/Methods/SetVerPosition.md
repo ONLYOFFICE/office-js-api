@@ -8,12 +8,12 @@ expression.SetVerPosition(sRelativeFrom, nDistance);
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sRelativeFrom | Required | [RelFromV](../../../Enumerations/RelFromV.md) | The document element which will be taken as a countdown point for the object vertical alignment. |
-| nDistance | Required | [EMU](../../../Enumerations/Emu.md) | The distance from the bottom part of the document element to the floating object measured in English measure units. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sRelativeFrom | Required | RelFromV |  | The document element which will be taken as a countdown point for the object vertical alignment. |
+| nDistance | Required | EMU |  | The distance from the bottom part of the document element to the floating object measured in English measure units. |
 
 ## Returns
 
@@ -24,7 +24,6 @@ This method doesn't return any data.
 This example sets the absolute measurement for the vertical positioning of the floating object.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is a paragraph with a shape. ");
@@ -42,6 +41,4 @@ oParagraph.AddDrawing(oDrawing);
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("The shape is aligned to the top of the page, and outstands from the page top 1 inch.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetVerPosition.docx");
-builder.CloseFile();
 ```

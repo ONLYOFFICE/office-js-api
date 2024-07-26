@@ -8,12 +8,12 @@ expression.AddElement(nPos, oElement);
 
 `expression` - A variable that represents a [ApiDocumentContent](../ApiDocumentContent.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nPos | Required | Number | The position where the current element will be added. |
-| oElement | Required | [DocumentElement](../../../Enumerations/DocumentElement.md) | The document element which will be added at the current position. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nPos | Required | number |  | The position where the current element will be added. |
+| oElement | Required | DocumentElement |  | The document element which will be added at the current position. |
 
 ## Returns
 
@@ -21,24 +21,18 @@ This method doesn't return any data.
 
 ## Example
 
-This example adds a paragraph to presentation.
+This example adds a paragraph in document content.
 
 ```javascript
-builder.CreateFile("pptx");
-var oPresentation = Api.GetPresentation();
-var oSlide = oPresentation.GetSlideByIndex(0);
-oSlide.RemoveAllObjects();
+var oDocument = Api.GetDocument();
+var oParagraph = oDocument.GetElement(0);
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oShape = Api.CreateShape("flowChartMagneticTape", 300 * 36000, 130 * 36000, oFill, oStroke);
-oShape.SetPosition(608400, 1267200);
-var oDocContent = oShape.GetDocContent();
+var oDrawing = Api.CreateShape("rect", 3212465, 963295, oFill, oStroke);
+oParagraph.AddDrawing(oDrawing);
+var oDocContent = oDrawing.GetDocContent();
 oDocContent.RemoveAllElements();
-var oParagraph = Api.CreateParagraph();
+oParagraph = Api.CreateParagraph();
 oParagraph.AddText("We removed all elements from the shape and added a new paragraph inside it.");
-oDocContent.AddElement(oParagraph);
-oDocContent.Push(oParagraph);
-oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "AddElement.pptx");
-builder.CloseFile();
+oDocContent.AddElement(0, oParagraph);
 ```

@@ -1,25 +1,17 @@
 # ApiCommentReply
 
-Class representing a comment reply.
-
-## Properties
-
-- [AuthorName](./Properties/AuthorName.md)
-- [Text](./Properties/Text.md)
-- [Time](./Properties/Time.md)
-- [TimeUTC](./Properties/TimeUTC.md)
-- [UserId](./Properties/UserId.md)
+Represents the ApiCommentReply class.
 
 ## Methods
 
-- [GetAuthorName](./Methods/GetAuthorName.md)
 - [GetClassType](./Methods/GetClassType.md)
 - [GetText](./Methods/GetText.md)
-- [GetTime](./Methods/GetTime.md)
-- [SetTimeUTC](./Methods/SetTimeUTC.md)
-- [GetUserId](./Methods/GetUserId.md)
-- [SetAuthorName](./Methods/SetAuthorName.md)
 - [SetText](./Methods/SetText.md)
-- [SetTime](./Methods/SetTime.md)
-- [GetTimeUTC](./Methods/GetTimeUTC.md)
+- [GetAuthorName](./Methods/GetAuthorName.md)
+- [SetAuthorName](./Methods/SetAuthorName.md)
+- [GetUserId](./Methods/GetUserId.md)
 - [SetUserId](./Methods/SetUserId.md)
+- [GetTimeUTC](./Methods/GetTimeUTC.md)
+- [SetTimeUTC](./Methods/SetTimeUTC.md)
+- [GetTime](./Methods/GetTime.md)
+- [SetTime](./Methods/SetTime.md)

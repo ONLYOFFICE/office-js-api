@@ -1,38 +1,26 @@
 # ApiComment
 
-Class representing a comment.
-
-## Properties
-
-- [AuthorName](./Properties/AuthorName.md)
-- [Id](./Properties/Id.md)
-- [QuoteText](./Properties/QuoteText.md)
-- [RepliesCount](./Properties/RepliesCount.md)
-- [Solved](./Properties/Solved.md)
-- [Text](./Properties/Text.md)
-- [Time](./Properties/Time.md)
-- [TimeUTC](./Properties/TimeUTC.md)
-- [UserId](./Properties/UserId.md)
+Represents the ApiComment class.
 
 ## Methods
 
-- [AddReply](./Methods/AddReply.md)
-- [Delete](./Methods/Delete.md)
-- [GetAuthorName](./Methods/GetAuthorName.md)
 - [GetClassType](./Methods/GetClassType.md)
+- [GetText](./Methods/GetText.md)
+- [SetText](./Methods/SetText.md)
 - [GetId](./Methods/GetId.md)
+- [GetAuthorName](./Methods/GetAuthorName.md)
+- [SetAuthorName](./Methods/SetAuthorName.md)
+- [GetUserId](./Methods/GetUserId.md)
+- [SetUserId](./Methods/SetUserId.md)
+- [IsSolved](./Methods/IsSolved.md)
+- [SetSolved](./Methods/SetSolved.md)
+- [GetTimeUTC](./Methods/GetTimeUTC.md)
+- [SetTimeUTC](./Methods/SetTimeUTC.md)
+- [GetTime](./Methods/GetTime.md)
+- [SetTime](./Methods/SetTime.md)
 - [GetQuoteText](./Methods/GetQuoteText.md)
 - [GetRepliesCount](./Methods/GetRepliesCount.md)
 - [GetReply](./Methods/GetReply.md)
-- [GetText](./Methods/GetText.md)
-- [GetTime](./Methods/GetTime.md)
-- [GetTimeUTC](./Methods/GetTimeUTC.md)
-- [GetUserId](./Methods/GetUserId.md)
-- [IsSolved](./Methods/IsSolved.md)
+- [AddReply](./Methods/AddReply.md)
 - [RemoveReplies](./Methods/RemoveReplies.md)
-- [SetAuthorName](./Methods/SetAuthorName.md)
-- [SetSolved](./Methods/SetSolved.md)
-- [SetText](./Methods/SetText.md)
-- [SetTimeUTC](./Methods/SetTimeUTC.md)
-- [SetTime](./Methods/SetTime.md)
-- [SetUserId](./Methods/SetUserId.md)
+- [Delete](./Methods/Delete.md)

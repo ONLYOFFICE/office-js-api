@@ -8,7 +8,7 @@ expression.ToJSON();
 
 `expression` - A variable that represents a [ApiUniColor](../ApiUniColor.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
@@ -21,7 +21,6 @@ JSON
 This example converts the ApiUniColor object into the JSON object.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oPresetColor = Api.CreatePresetColor("peachPuff");
@@ -33,6 +32,4 @@ var oFill = Api.CreateRadialGradientFill([oGs1, oGs2]);
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
 var oDrawing = Api.CreateShape("rect", 5930900, 395605, oFill, oStroke);
 oParagraph.AddDrawing(oDrawing);
-builder.SaveFile("docx", "ToJSON.docx");
-builder.CloseFile();
 ```

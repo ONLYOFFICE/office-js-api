@@ -1,16 +1,16 @@
 # ApiNumberingLevel
 
-Class representing a reference to a specified level of the numbering.
+Represents the ApiNumberingLevel class.
 
 ## Methods
 
 - [GetClassType](./Methods/GetClassType.md)
-- [GetLevelIndex](./Methods/GetLevelIndex.md)
 - [GetNumbering](./Methods/GetNumbering.md)
-- [GetParaPr](./Methods/GetParaPr.md)
+- [GetLevelIndex](./Methods/GetLevelIndex.md)
 - [GetTextPr](./Methods/GetTextPr.md)
+- [GetParaPr](./Methods/GetParaPr.md)
+- [SetTemplateType](./Methods/SetTemplateType.md)
 - [SetCustomType](./Methods/SetCustomType.md)
 - [SetRestart](./Methods/SetRestart.md)
 - [SetStart](./Methods/SetStart.md)
 - [SetSuff](./Methods/SetSuff.md)
-- [SetTemplateType](./Methods/SetTemplateType.md)

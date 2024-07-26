@@ -8,12 +8,12 @@ expression.AddElement(nPos, oElement);
 
 `expression` - A variable that represents a [ApiDocumentContent](../ApiDocumentContent.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nPos | Required | Number | The position where the current element will be added. |
-| oElement | Required | [DocumentElement](../../../Enumerations/DocumentElement.md) | The document element which will be added at the current position. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nPos | Required | number |  | The position where the current element will be added. |
+| oElement | Required | DocumentElement |  | The document element which will be added at the current position. |
 
 ## Returns
 
@@ -24,7 +24,6 @@ This method doesn't return any data.
 This example adds a paragraph in document content.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
@@ -36,6 +35,4 @@ oDocContent.RemoveAllElements();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("We removed all elements from the shape and added a new paragraph inside it.");
 oDocContent.AddElement(0, oParagraph);
-builder.SaveFile("docx", "AddElement.docx");
-builder.CloseFile();
 ```

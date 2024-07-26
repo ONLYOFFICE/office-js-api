@@ -8,22 +8,21 @@ expression.RemoveSeria(nSeria);
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nSeria | Required | Number | The index of the chart series. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nSeria | Required | number |  | The index of the chart series. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example shows how to remove the specified series from the current chart.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("bar3D", [
@@ -38,6 +37,4 @@ oChart.SetSeriesFill(oFill, 1, false);
 oChart.RemoveSeria(1);
 oParagraph.AddLineBreak();
 oParagraph.AddText("The Estimated Costs series was removed from the current chart.");
-builder.SaveFile("docx", "RemoveSeria.docx");
-builder.CloseFile();
 ```

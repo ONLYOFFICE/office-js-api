@@ -8,20 +8,19 @@ expression.GetApplicationId();
 
 `expression` - A variable that represents a [ApiOleObject](../ApiOleObject.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-String
+string
 
 ## Example
 
 This example gets the application ID from the current OLE object.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -40,6 +39,4 @@ var oDocContent = oDrawing.GetContent();
 var oParagraph = oDocContent.GetElement(0);
 oParagraph.AddText("The application ID for the current OLE object: " + sAppId);
 oSlide.AddObject(oDrawing);
-builder.SaveFile("pptx", "GetApplicationId.pptx");
-builder.CloseFile();
 ```

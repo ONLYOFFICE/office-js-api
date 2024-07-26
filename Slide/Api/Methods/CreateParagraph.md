@@ -8,7 +8,7 @@ expression.CreateParagraph();
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
@@ -21,7 +21,6 @@ This method doesn't have any parameters.
 This example creates a new paragraph and inserts it into the shape.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -36,6 +35,4 @@ oParagraph.SetJc("left");
 oParagraph.AddText("This is an example of a paragraph inside a shape. Nothing special.");
 oDocContent.Push(oParagraph);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "CreateParagraph.pptx");
-builder.CloseFile();
 ```

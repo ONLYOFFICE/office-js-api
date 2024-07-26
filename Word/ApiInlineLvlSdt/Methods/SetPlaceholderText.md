@@ -1,6 +1,6 @@
 # SetPlaceholderText
 
-Sets the placeholder text to the current inline content control. Can't be set to checkbox or radio button
+Sets the placeholder text to the current inline content control.*Can't be set to checkbox or radio button*
 
 ## Syntax
 
@@ -8,22 +8,21 @@ expression.SetPlaceholderText(sText);
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sText | Required | String | The text that will be set to the current content control. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sText | Required | string |  | The text that will be set to the current inline content control. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example sets the placeholder text to the inline content control.
 
 ```javascript
-builder.CreateFile("docxf");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oRun = Api.CreateRun();
@@ -32,6 +31,4 @@ oParagraph.AddElement(oRun);
 var aForms = oDocument.GetAllForms();
 oParagraph.RemoveElement(0);
 var sText = aForms[0].SetPlaceholderText("Name");
-builder.SaveFile("docxf", "SetPlaceholderText.docxf");
-builder.CloseFile();
 ```

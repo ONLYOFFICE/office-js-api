@@ -1,9 +1,6 @@
 # SetPicturePosition
 
-Sets the picture position inside the current form:
-- 0 - the picture is placed on the left/top;
-- 50 - the picture is placed in the center;
-- 100 - the picture is placed on the right/bottom.
+Sets the picture position inside the current form:* **0** - the picture is placed on the left/top;* **50** - the picture is placed in the center;* **100** - the picture is placed on the right/bottom.
 
 ## Syntax
 
@@ -11,23 +8,22 @@ expression.SetPicturePosition(nShiftX, nShiftY);
 
 `expression` - A variable that represents a [ApiPictureForm](../ApiPictureForm.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nShiftX | Required | [percentage](../../../Enumerations/percentage.md) | Horizontal position measured in percent. |
-| nShiftY | Required | [percentage](../../../Enumerations/percentage.md) | Vertical position measured in percent. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nShiftX | Required | percentage |  | Horizontal position measured in percent. |
+| nShiftY | Required | percentage |  | Vertical position measured in percent. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example sets the picture position inside the form.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oPictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false});
 var oParagraph = oDocument.GetElement(0);
@@ -44,6 +40,4 @@ for (let i = 0; i < aPosition.length; i++ ){
 	oParagraph.AddLineBreak();
 }
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetPicturePosition.docx");
-builder.CloseFile();
 ```

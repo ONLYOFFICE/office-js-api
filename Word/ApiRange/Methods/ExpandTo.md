@@ -8,22 +8,21 @@ expression.ExpandTo(oRange);
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| oRange | Required | [ApiRange](../ApiRange.md) | The range that will be expanded. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| oRange | Required | [ApiRange](../../ApiRange/ApiRange.md) |  | The range that will be expanded. |
 
 ## Returns
 
-[ApiRange](../ApiRange.md) &#124; null (returns null if the specified range can't be expanded)
+ApiRange, null
 
 ## Example
 
 This example returns a new range that goes beyond the specified range in any direction and spans a different range.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("Lorem ipsum dolor sit amet,");
@@ -33,6 +32,4 @@ var oRangeFirst = oDocument.GetRange(0, 22);
 var oRangeSecond = oDocument.GetRange(49, 123);
 var oRange = oRangeFirst.ExpandTo(oRangeSecond);
 oRange.SetItalic(true);
-builder.SaveFile("docx", "ExpandTo.docx");
-builder.CloseFile();
 ```

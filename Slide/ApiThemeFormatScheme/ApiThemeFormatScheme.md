@@ -1,14 +1,14 @@
 # ApiThemeFormatScheme
 
-Class representing a theme format scheme.
+Represents the ApiThemeFormatScheme class.
 
 ## Methods
 
-- [ChangeBgFillStyles](./Methods/ChangeBgFillStyles.md)
-- [ChangeEffectStyles](./Methods/ChangeEffectStyles.md)
-- [ChangeFillStyles](./Methods/ChangeFillStyles.md)
-- [ChangeLineStyles](./Methods/ChangeLineStyles.md)
-- [Copy](./Methods/Copy.md)
 - [GetClassType](./Methods/GetClassType.md)
 - [SetSchemeName](./Methods/SetSchemeName.md)
+- [ChangeFillStyles](./Methods/ChangeFillStyles.md)
+- [ChangeBgFillStyles](./Methods/ChangeBgFillStyles.md)
+- [ChangeLineStyles](./Methods/ChangeLineStyles.md)
+- [ChangeEffectStyles](./Methods/ChangeEffectStyles.md)
+- [Copy](./Methods/Copy.md)
 - [ToJSON](./Methods/ToJSON.md)

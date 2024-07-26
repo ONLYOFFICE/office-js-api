@@ -4,15 +4,21 @@ Replaces specific information to another one in a range.
 
 ## Syntax
 
-expression.Replace(oReplaceData);
+expression.Replace(What, Replacement, LookAt, SearchOrder, SearchDirection, MatchCase, ReplaceAll);
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| oReplaceData | Required | [XlReplaceData](../../../Enumerations/XlReplaceData.md) | The data used to make search and replace. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| What | Required | string &#124;undefined |  | The data to search for. |
+| Replacement | Required | string |  | The replacement string. |
+| LookAt | Required | XlLookAt |  | Specifies whether the whole search text or any part of the search text is matched. |
+| SearchOrder | Required | XlSearchOrder |  | Range search order - by rows or by columns. |
+| SearchDirection | Required | XlSearchDirection |  | Range search direction - next match or previous match. |
+| MatchCase | Required | boolean |  | Case sensitive or not. The default value is "false". |
+| ReplaceAll | Required | boolean |  | Specifies if all the found data will be replaced or not. The default value is "true". |
 
 ## Returns
 
@@ -23,7 +29,6 @@ This method doesn't return any data.
 This example replaces specific information to another one in a range.
 
 ```javascript
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);
@@ -51,6 +56,4 @@ var oReplaceData = {
 	ReplaceAll: true
 };
 oRange.Replace(oReplaceData);
-builder.SaveFile("xlsx", "Replace.xlsx");
-builder.CloseFile();
 ```

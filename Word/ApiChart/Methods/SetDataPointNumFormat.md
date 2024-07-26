@@ -8,25 +8,24 @@ expression.SetDataPointNumFormat(sFormat, nSeria, nDataPoint, bAllSeries);
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sFormat | Required | [NumFormat](../../../Enumerations/NumFormat.md) &#124; String | Numeric format (can be custom format). |
-| nSeria | Required | Number | Series index. |
-| nDataPoint | Required | Number | The index of the data point in the specified chart series. |
-| bAllSeries | Required | Boolean | Specifies if the numeric format will be applied to the specified data point in all series. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sFormat | Required | NumFormat &#124;String |  | Numeric format (can be custom format). |
+| nSeria | Required | Number |  | Series index. |
+| nDataPoint | Required | number |  | The index of the data point in the specified chart series. |
+| bAllSeries | Required | boolean |  | Specifies if the numeric format will be applied to the specified data point in all series. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example sets "0.00" numeric format for chart.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("bar3D", [
@@ -40,6 +39,4 @@ oChart.SetSeriesFill(oFill, 1, false);
 oChart.SetShowPointDataLabel(1, 0, false, false, true, false);
 oChart.SetDataPointNumFormat("0.00", 1, 0, true);
 oParagraph.AddDrawing(oChart);
-builder.SaveFile("docx", "SetDataPointNumFormat.docx");
-builder.CloseFile();
 ```

@@ -4,25 +4,33 @@ Converts the current form to a fixed size form.
 
 ## Syntax
 
-expression.
+expression.ToFixed(nWidth, nHeight);
 
 `expression` - A variable that represents a [ApiComplexForm](../ApiComplexForm.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nWidth | Required | twips |  | The wrapper shape width measured in twentieths of a point (1/1440 of an inch). |
+| nHeight | Required | twips |  | The wrapper shape height measured in twentieths of a point (1/1440 of an inch). |
 
 ## Returns
 
-return
-[return](todo_link)
+boolean
 
 ## Example
 
-This example
+This example converts the form to a fixed size form.
 
 ```javascript
-// todo_exampele
+var oDocument = Api.GetDocument();
+var oTextForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});
+var oParagraph = oDocument.GetElement(0);
+oParagraph.AddElement(oTextForm);
+oTextForm.ToFixed(10 * 240, 2 * 240);
+var bFixed = oTextForm.IsFixed();
+oParagraph = Api.CreateParagraph();
+oParagraph.AddText("The first form from this document has a fixed size: " + bFixed);
+oDocument.Push(oParagraph);
 ```

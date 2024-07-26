@@ -8,11 +8,11 @@ expression.SetNumberFormat(sFormat);
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sFormat | Required | [XlNumberFormat](../../../Enumerations/XlNumberFormat.md) | Specifies the mask applied to the number in the cell. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sFormat | Required | string |  | Specifies the mask applied to the number in the cell. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ This method doesn't return any data.
 This example specifies whether a number in the cell should be treated like number, currency, date, time, etc. or just like text.
 
 ```javascript
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.SetColumnWidth(0, 30);
 oWorksheet.SetColumnWidth(1, 30);
@@ -63,6 +62,4 @@ oWorksheet.GetRange("B12").SetValue("Scientific");
 oWorksheet.GetRange("A13").SetNumberFormat("@");
 oWorksheet.GetRange("A13").SetValue("123456");
 oWorksheet.GetRange("B13").SetValue("Text");
-builder.SaveFile("xlsx", "SetNumberFormat.xlsx");
-builder.CloseFile();
 ```

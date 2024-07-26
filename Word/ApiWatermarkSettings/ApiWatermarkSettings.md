@@ -1,6 +1,6 @@
 # ApiWatermarkSettings
 
-Class representing settings which are used for creating a watermark.
+Represents the ApiWatermarkSettings class.
 
 ## Methods
 

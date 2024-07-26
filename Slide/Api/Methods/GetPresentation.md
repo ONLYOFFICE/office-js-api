@@ -8,20 +8,19 @@ expression.GetPresentation();
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-[ApiPresentation](../../ApiPresentation/ApiPresentation.md) &#124; null
+[ApiPresentation](../../ApiPresentation/ApiPresentation.md)
 
 ## Example
 
 This example show how to get a presentation.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -41,6 +40,4 @@ oChart.SetSeriesFill(oFill, 0, false);
 oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 oChart.SetSeriesFill(oFill, 1, false);
 oSlide.AddObject(oChart);
-builder.SaveFile("pptx", "GetPresentation.pptx");
-builder.CloseFile();
 ```

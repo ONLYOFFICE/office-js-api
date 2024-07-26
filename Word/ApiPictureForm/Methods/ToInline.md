@@ -1,6 +1,6 @@
 # ToInline
 
-Converts the current form to an inline form. Picture form can't be converted to an inline form, it's always a fixed size object.<br>Inherited From: [ApiFormBase#ToInline](../../ApiFormBase/Methods/ToInline.md)
+Converts the current form to an inline form.*Picture form can't be converted to an inline form, it's always a fixed size object.*
 
 ## Syntax
 
@@ -8,35 +8,34 @@ expression.ToInline();
 
 `expression` - A variable that represents a [ApiPictureForm](../ApiPictureForm.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
-This example converts the current form to an inline form.
+This example converts the form to an inline form.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
-var oPictureForm = Api.CreatePictureForm({"key": "Personal information", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false, "shiftX": 50, "shiftY": 50});
-oPictureForm.SetImage("https://api.onlyoffice.com/content/img/docbuilder/examples/user-profile.png");
+var oTextForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});
 var oParagraph = oDocument.GetElement(0);
-oParagraph.AddElement(oPictureForm);
-oPictureForm.SetTipText("Upload your photo");
-var oCopyPictureForm= oPictureForm.Copy();
-oCopyPictureForm.ToInline();
-var bFixed = oPictureForm.IsFixed();
-var bFixedCopy = oCopyPictureForm.IsFixed();
+oParagraph.AddElement(oTextForm);
+oTextForm.ToFixed(10 * 240, 2 * 240);
+var oCopyForm = oTextForm.Copy();
+oParagraph = Api.CreateParagraph();
+oParagraph.AddElement(oCopyForm);
+oDocument.Push(oParagraph);
+oCopyForm.ToInline();
+var bFixed = oTextForm.IsFixed();
+var bFixedCopy = oCopyForm.IsFixed();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("The first form from this document has a fixed size: " + bFixed);
 oParagraph.AddLineBreak();
 oParagraph.AddText("The second form from this document has a fixed size: " + bFixedCopy);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "ToInline.docx");
-builder.CloseFile();
 ```

@@ -1,30 +1,29 @@
 # AddElement
 
-Adds a paragraph or a table or a block content control to the current container.
+Adds an element to the inline text content control.
 
 ## Syntax
 
-expression.AddElement(oElement, nPos?);
+expression.AddElement(oElement, nPos);
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| oElement | Required | [	ParagraphContent	](../../../Enumerations/	ParagraphContent	.md) | The type of the element which will be added to the current container. |
-| nPos | Optional | Number | The type of the element which will be added to the current container. Default value is "oInlineLvlSdt.GetElementsCount() - 1". |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| oElement | Required | ParagraphContent |  | The document element which will be added at the position specified. Returns **false** if the type of *oElement* is not supported by an inline text content control. |
+| nPos | Optional | number |  | The position of the element where it will be added to the current inline text content control. If this value is not specified, then the element will be added to the end of the current inline text content control. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example adds a run to the container.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oInlineLvlSdt = Api.CreateInlineLvlSdt();
@@ -32,6 +31,4 @@ oParagraph.AddInlineLvlSdt(oInlineLvlSdt);
 var oRun = Api.CreateRun();
 oRun.AddText("This is an inline text content control with a text run in it.");
 oInlineLvlSdt.AddElement(oRun, 0);
-builder.SaveFile("docx", "AddElement.docx");
-builder.CloseFile();
 ```

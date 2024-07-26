@@ -1,0 +1,19 @@
+# FISHERINV
+
+Returns the inverse of the Fisher transformation: if y = FISHER(x), then FISHERINV(y) = x.
+
+## Syntax
+
+expression.FISHERINV(arg1);
+
+`expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
+
+## Parameters
+
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| arg1 | Required | number |  | The value to perform the inverse of the transformation. |
+
+## Returns
+
+number

@@ -8,20 +8,19 @@ expression.GetAllImages();
 
 `expression` - A variable that represents a [ApiDocumentContent](../ApiDocumentContent.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Array<[ApiImage](../../ApiImage/ApiImage.md)>
+Array.<[ApiImage](../../ApiImage/ApiImage.md)>
 
 ## Example
 
 This example shows how to get a collection of image objects from the document content.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
@@ -38,6 +37,4 @@ var sClassType = aImages[0].GetClassType();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Class type: " + sClassType);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetAllImages.docx");
-builder.CloseFile();
 ```

@@ -1,6 +1,6 @@
 # GetClassType
 
-Returns a type of the ApiSlide class.
+Returns the type of the ApiSlide class.
 
 ## Syntax
 
@@ -8,20 +8,19 @@ expression.GetClassType();
 
 `expression` - A variable that represents a [ApiSlide](../ApiSlide.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-String
+"slide"
 
 ## Example
 
 This example gets a class type and pastes it into the presentation.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -36,6 +35,4 @@ var oParagraph = oDocContent.GetElement(0);
 var sClassType = oSlide.GetClassType();
 oParagraph.AddText("Class Type = " + sClassType);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "GetClassType.pptx");
-builder.CloseFile();
 ```

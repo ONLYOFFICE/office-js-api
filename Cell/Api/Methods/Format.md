@@ -4,30 +4,27 @@ Returns a class formatted according to the instructions contained in the format 
 
 ## Syntax
 
-expression.Format(expression, format?);
+expression.Format(expression, format);
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| expression | Required | String | Any valid expression. |
-| format | Optional | String | A valid named or user-defined format expression. Dedault value is "null". |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| expression | Required | string |  | Any valid expression. |
+| format | Optional | string |  | A valid named or user-defined format expression. |
 
 ## Returns
 
-String
+string
 
 ## Example
 
 This example shows how to get a class formatted according to the instructions contained in the format expression.
 
 ```javascript
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFormat = Api.Format("123456", "$#,##0");
 oWorksheet.GetRange("A1").SetValue(oFormat);
-builder.SaveFile("xlsx", "Format.xlsx");
-builder.CloseFile();
 ```

@@ -8,20 +8,19 @@ expression.GetAllParagraphs();
 
 `expression` - A variable that represents a [ApiDocumentContent](../ApiDocumentContent.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Array<[ApiParagraph](../../ApiParagraph/ApiParagraph.md)>
+Array.<[ApiParagraph](../../ApiParagraph/ApiParagraph.md)>
 
 ## Example
 
 This example shows how to get an array of all paragraphs from the document content.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
@@ -36,6 +35,4 @@ oParagraph.AddText("Paragraph 2");
 oDocContent.Push(oParagraph);
 var aParagraphs = oDocContent.GetAllParagraphs();
 aParagraphs[0].SetBold(true);
-builder.SaveFile("docx", "GetAllParagraphs.docx");
-builder.CloseFile();
 ```

@@ -8,11 +8,11 @@ expression.SetType(sType);
 
 `expression` - A variable that represents a [ApiWatermarkSettings](../ApiWatermarkSettings.md) class.
 
-## Parametrs
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sType | Required | [WatermarkType](../../../Enumerations/WatermarkType.md) | The type of watermark. |
+## Parameters
 
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sType | Required | WatermarkType |  | The watermark type. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ This method doesn't return any data.
 This example sets the parameters of the watermark settings and apply them to the document.
 
 ```javascript
-builder.CreateFile("docx");
 const oDocument = Api.GetDocument();
 const oWatermarkSettings = oDocument.GetWatermarkSettings();
 oWatermarkSettings.SetType("text");
@@ -39,6 +38,4 @@ oTextPr.SetColor(0, 255, 0);
 oTextPr.SetHighlight("blue");
 oWatermarkSettings.SetTextPr(oTextPr);
 oDocument.SetWatermarkSettings(oWatermarkSettings);
-builder.SaveFile("docx", "SetType.docx");
-builder.CloseFile();
 ```

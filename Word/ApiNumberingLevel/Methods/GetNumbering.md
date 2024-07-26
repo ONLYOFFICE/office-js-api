@@ -8,7 +8,7 @@ expression.GetNumbering();
 
 `expression` - A variable that represents a [ApiNumberingLevel](../ApiNumberingLevel.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
@@ -21,7 +21,6 @@ This method doesn't have any parameters.
 This example shows how to get the numbering definition.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oNumbering = oDocument.CreateNumbering("numbered");
 var oNumLvl = oNumbering.GetLevel(0);
@@ -49,6 +48,4 @@ oParagraph.AddText("This is the second element of a parent numbered list which s
 oParagraph.SetNumbering(oNumLvl2);
 oParagraph.SetContextualSpacing(true);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetNumbering.docx");
-builder.CloseFile();
 ```

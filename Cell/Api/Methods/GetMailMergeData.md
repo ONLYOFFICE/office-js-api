@@ -4,27 +4,26 @@ Returns the mail merge data.
 
 ## Syntax
 
-expression.GetMailMergeData(nSheet, bWithFormat?);
+expression.GetMailMergeData(nSheet, bWithFormat);
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nSheet | Required | Number | The sheet index. |
-| bWithFormat | Optional | Boolean | Specifies that the data will be received with the format. Default value is "false". |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nSheet | Required | number |  | The sheet index. |
+| bWithFormat | Optional | boolean | false | Specifies that the data will be received with the format. |
 
 ## Returns
 
-Array<Array<String>>
+Array.<Array.<string>>
 
 ## Example
 
 This example shows how to get the mail merge data.
 
 ```javascript
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.SetColumnWidth(0, 20);
 oWorksheet.GetRange("A1").SetValue("Email address");
@@ -41,6 +40,4 @@ oWorksheet.GetRange("C3").SetValue("Kate");
 oWorksheet.GetRange("D3").SetValue("Cage");
 var aMailMergeData = Api.GetMailMergeData(0);
 oWorksheet.GetRange("A5").SetValue("Mail merge data: " + aMailMergeData);
-builder.SaveFile("xlsx", "GetMailMergeData.xlsx");
-builder.CloseFile();
 ```

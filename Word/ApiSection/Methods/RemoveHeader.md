@@ -1,6 +1,6 @@
 # RemoveHeader
 
-Removes the header of the specified type from the current section. After removal, the header will be inherited from the previous section, or if this is the first section in the document, no header of the specified type will be presented.
+Removes the header of the specified type from the current section. After removal, the header will be inherited fromthe previous section, or if this is the first section in the document, no header of the specified type will be presented.
 
 ## Syntax
 
@@ -8,11 +8,11 @@ expression.RemoveHeader(sType);
 
 `expression` - A variable that represents a [ApiSection](../ApiSection.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sType | Required | [HdrFtrType](../../../Enumerations/HdrFtrType.md) | Header type to be removed. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sType | Required | HdrFtrType |  | Header type to be removed. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ This method doesn't return any data.
 This example removes the header of the specified type from the section.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This page first was with a header. ");
@@ -43,6 +42,4 @@ oParagraph = oHeader.GetElement(0);
 oParagraph.AddText("This is page header #2. ");
 oParagraph.AddText("Only this header can be seen, as the first one has been removed.");
 oSection.RemoveHeader("default");
-builder.SaveFile("docx", "RemoveHeader.docx");
-builder.CloseFile();
 ```

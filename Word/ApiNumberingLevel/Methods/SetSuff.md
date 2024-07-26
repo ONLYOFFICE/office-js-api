@@ -8,11 +8,11 @@ expression.SetSuff(sType);
 
 `expression` - A variable that represents a [ApiNumberingLevel](../ApiNumberingLevel.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sType | Required | [NumberingStuffType](../../../Enumerations/NumberingStuffType.md) | The content added between the numbering level text and the text in the numbered paragraph. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sType | Required | "space" &#124;"tab" &#124;"none" |  | The content added between the numbering level text and the text in the numbered paragraph. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ This method doesn't return any data.
 This example specifies the content which will be added between the given numbering level text and the text of every numbered paragraph which references that numbering level.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oNumbering = oDocument.CreateNumbering("numbered");
 var oNumLvl = oNumbering.GetLevel(0);
@@ -36,6 +35,4 @@ oParagraph = Api.CreateParagraph();
 oParagraph.SetNumbering(oNumLvl);
 oParagraph.AddText("This is the second element of a numbered list using custom text with numbering");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetSuff.docx");
-builder.CloseFile();
 ```

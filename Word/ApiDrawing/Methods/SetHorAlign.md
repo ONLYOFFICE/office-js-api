@@ -4,16 +4,16 @@ Specifies how the floating object will be horizontally aligned.
 
 ## Syntax
 
-expression.SetHorAlign(sRelativeFrom?, sAlign?);
+expression.SetHorAlign(sRelativeFrom, sAlign);
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sRelativeFrom | Optional | [RelFromH](../../../Enumerations/RelFromH.md) | The document element which will be taken as a countdown point for the object horizontal alignment. Default value is "page". |
-| sAlign | Optional | [HorAlign](../../../Enumerations/HorAlign.md) | The alignment type which will be used for the object horizontal alignment. Default value is "left". |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sRelativeFrom | Optional | RelFromH | "page" | The document element which will be taken as a countdown point for the object horizontal alignment. |
+| sAlign | Optional | "left" &#124;"right" &#124;"center" | "left" | The alignment type which will be used for the object horizontal alignment. |
 
 ## Returns
 
@@ -24,7 +24,6 @@ This method doesn't return any data.
 This example specifies how the floating object will be horizontally aligned.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is a paragraph with a shape. ");
@@ -45,6 +44,4 @@ oDocument.Push(oParagraph);
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("The shape is aligned at the center of the page horizontally.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetHorAlign.docx");
-builder.CloseFile();
 ```

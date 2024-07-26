@@ -4,26 +4,25 @@ Returns the specified comment reply.
 
 ## Syntax
 
-expression.GetReply(nIndex?);
+expression.GetReply(nIndex);
 
 `expression` - A variable that represents a [ApiComment](../ApiComment.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nIndex | Optional | Number | The comment reply index. Default value is "0". |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nIndex | Optional | Number | false | The comment reply index. |
 
 ## Returns
 
-[ApiCommentReply](../../ApiCommentReply/ApiCommentReply.md) &#124; null
+[ApiCommentReply](../../ApiCommentReply/ApiCommentReply.md)
 
 ## Example
 
 This example shows how to get the specified comment reply.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is just a sample text");
@@ -34,6 +33,4 @@ var oCommentReply = aComments[0].GetReply(0);
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("First comment reply: " + oCommentReply.GetText());
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetReply.docx");
-builder.CloseFile();
 ```

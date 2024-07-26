@@ -8,23 +8,22 @@ expression.SetSeriaNumFormat(sFormat, nSeria);
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sFormat | Required | [NumFormat](../../../Enumerations/NumFormat.md) &#124; String | Numeric format (can be custom format). |
-| nSeria | Required | Number | Series index. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sFormat | Required | NumFormat &#124;String |  | Numeric format (can be custom format). |
+| nSeria | Required | Number |  | Series index. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example sets the specified numeric format to the chart series.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("bar3D", [
@@ -37,6 +36,4 @@ oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 oChart.SetSeriesFill(oFill, 1, false);
 oChart.SetSeriaNumFormat("0.00", 0);
 oParagraph.AddDrawing(oChart);
-builder.SaveFile("docx", "SetSeriaNumFormat.docx");
-builder.CloseFile();
 ```

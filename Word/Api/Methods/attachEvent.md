@@ -8,12 +8,12 @@ expression.attachEvent(eventName, callback);
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| eventName | Required | String | The event name |
-| callback | Required | Function | Function to be called when the event fires. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| eventName | Required | string |  | The event name. |
+| callback | Required | function |  | Function to be called when the event fires. |
 
 ## Returns
 

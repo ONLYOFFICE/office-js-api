@@ -1,6 +1,6 @@
 # SetHorAxisLablesFontSize
 
-Specifies font size for the labels of the horizontal axis.
+Specifies font size for labels of the horizontal axis.
 
 ## Syntax
 
@@ -8,11 +8,11 @@ expression.SetHorAxisLablesFontSize(nFontSize);
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nFontSize | Required | [pt](../../../Enumerations/pt.md) | The text size value measured in points. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nFontSize | Required | pt |  | The text size value measured in points. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ This method doesn't return any data.
 This example sets font size for labels of the horizontal axis.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("bar3D", [
@@ -39,6 +38,4 @@ oChart.SetHorAxisTitle("Year", 11);
 oChart.SetHorAxisLablesFontSize(8);
 oChart.SetTitle("Financial Overview", 13);
 oParagraph.AddDrawing(oChart);
-builder.SaveFile("docx", "SetHorAxisLablesFontSize.docx");
-builder.CloseFile();
 ```

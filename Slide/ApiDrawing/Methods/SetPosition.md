@@ -8,12 +8,12 @@ expression.SetPosition(nPosX, nPosY);
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nPosX | Required | [EMU](../../../Enumerations/Emu.md) | The distance from the left side of the slide to the left side of the drawing measured in English measure units. |
-| nPosY | Required | [EMU](../../../Enumerations/Emu.md) | The distance from the top side of the slide to the upper side of the drawing measured in English measure units. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nPosX | Required | EMU |  | The distance from the left side of the slide to the left side of the drawing measured in English measure units. |
+| nPosY | Required | EMU |  | The distance from the top side of the slide to the upper side of the drawing measured in English measure units. |
 
 ## Returns
 
@@ -24,7 +24,6 @@ This method doesn't return any data.
 This example sets position to the shape.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -40,6 +39,4 @@ oParagraph.SetJc("left");
 oParagraph.AddText("This is an example of a paragraph inside a shape. Nothing special.");
 oDocContent.Push(oParagraph);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetPosition.pptx");
-builder.CloseFile();
 ```

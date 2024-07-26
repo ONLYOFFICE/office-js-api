@@ -1,6 +1,6 @@
 # Clear
 
-Clears the list of values of combobox/dropdown list.
+Clears a list of values of the combo box / dropdown list content control.
 
 ## Syntax
 
@@ -8,7 +8,7 @@ expression.Clear();
 
 `expression` - A variable that represents a [ApiContentControlList](../ApiContentControlList.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 

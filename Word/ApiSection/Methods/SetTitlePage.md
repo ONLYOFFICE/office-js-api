@@ -8,11 +8,11 @@ expression.SetTitlePage(isTitlePage);
 
 `expression` - A variable that represents a [ApiSection](../ApiSection.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| isTitlePage | Required | Boolean | If true, the first page of the section will have header and footer that will differ from the other pages of the same section. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| isTitlePage | Required | boolean |  | If true, the first page of the section will have header and footer that will differ from the other pages of the same section. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ This method doesn't return any data.
 This example specifies whether the current section in this document has the different header and footer for the section first page.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This page does not have a footer, as it is a title page. ");
@@ -38,6 +37,4 @@ oParagraph = Api.CreateParagraph();
 oParagraph.AddText("This is page #2 and it has a footer. ");
 oParagraph.AddText("Scroll down the page to see it.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetTitlePage.docx");
-builder.CloseFile();
 ```

@@ -8,20 +8,19 @@ expression.GetAllCharts();
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Array<[ApiChart](../../ApiChart/ApiChart.md)>
+Array.<[ApiChart](../../ApiChart/ApiChart.md)>
 
 ## Example
 
 This example shows how to get all charts from the sheet.
 
 ```javascript
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);
@@ -43,6 +42,4 @@ oChart.SetSeriesFill(oFill, 1, false);
 var aCharts = oWorksheet.GetAllCharts();
 var oStroke = Api.CreateStroke(1 * 5000, Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61)));
 aCharts[0].SetMinorHorizontalGridlines(oStroke);
-builder.SaveFile("xlsx", "GetAllCharts.xlsx");
-builder.CloseFile();
 ```

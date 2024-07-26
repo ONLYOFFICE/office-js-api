@@ -8,11 +8,11 @@ expression.SetStart(nStart);
 
 `expression` - A variable that represents a [ApiNumberingLevel](../ApiNumberingLevel.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nStart | Required | Number | The starting value for the numbering used by the parent numbering level. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nStart | Required | number |  | The starting value for the numbering used by the parent numbering level. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ This method doesn't return any data.
 This example specifies the starting value for the numbering used by the parent numbering level within a given numbering level definition.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oNumbering = oDocument.CreateNumbering("numbered");
 var oNumLvl = oNumbering.GetLevel(0);
@@ -36,6 +35,4 @@ oParagraph = Api.CreateParagraph();
 oParagraph.SetNumbering(oNumLvl1);
 oParagraph.AddText("This is the first element of a child numbered list which starts with 'e'");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetStart.docx");
-builder.CloseFile();
 ```

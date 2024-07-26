@@ -8,13 +8,13 @@ expression.CreateColorFromRGB(r, g, b);
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| r | Required | [byte](../../../Enumerations/byte.md) | Red color component value. |
-| g | Required | [byte](../../../Enumerations/byte.md) | Green color component value. |
-| b | Required | [byte](../../../Enumerations/byte.md) | Blue color component value. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| r | Required | byte |  | Red color component value. |
+| g | Required | byte |  | Green color component value. |
+| b | Required | byte |  | Blue color component value. |
 
 ## Returns
 
@@ -25,11 +25,8 @@ expression.CreateColorFromRGB(r, g, b);
 This example creates an RGB color setting the appropriate values for the red, green and blue color components.
 
 ```javascript
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oColor = Api.CreateColorFromRGB(255, 111, 61);
 oWorksheet.GetRange("A2").SetValue("Text with color");
 oWorksheet.GetRange("A2").SetFontColor(oColor);
-builder.SaveFile("xlsx", "CreateColorFromRGB.xlsx");
-builder.CloseFile();
 ```

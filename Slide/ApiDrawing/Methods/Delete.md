@@ -8,20 +8,19 @@ expression.Delete();
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Boolean (returns false if drawing doesn't exist or drawing hasn't a parent)
+boolean
 
 ## Example
 
 This example shows how to delete a drawing object.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);
@@ -49,6 +48,4 @@ var oDocContent = oDrawing1.GetDocContent();
 var oParagraph = oDocContent.GetElement(0);
 oParagraph.SetJc("left");
 oParagraph.AddText("The chart was deleted from this slide.");
-builder.SaveFile("pptx", "Delete.pptx");
-builder.CloseFile();
 ```

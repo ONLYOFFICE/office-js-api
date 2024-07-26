@@ -8,20 +8,19 @@ expression.GetTagsOfAllContentControls();
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Array<String>
+Array.<String>
 
 ## Example
 
 This example shows how to get a list of all tags that are used for all content controls in the document.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oInlineLvlSdt = Api.CreateInlineLvlSdt();
@@ -41,6 +40,4 @@ for (let i = 0; i < aTags.length; i++ ){
 	oParagraph.AddLineBreak();
 }
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetTagsOfAllContentControls.docx");
-builder.CloseFile();
 ```

@@ -1,6 +1,6 @@
 # Copy
 
-Copies the current form (copies with the shape if it exists).<br>Inherited From: [ApiFormBase#Copy](../../ApiFormBase/Methods/Copy.md)
+Copies the current form (copies with the shape if it exists).
 
 ## Syntax
 
@@ -8,29 +8,24 @@ expression.Copy();
 
 `expression` - A variable that represents a [ApiCheckBoxForm](../ApiCheckBoxForm.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-[ApiCheckBoxForm](../ApiCheckBoxForm.md)
+ApiForm
 
 ## Example
 
-This example copies the form.
+This example shows how to make a copy of the form.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
-var oCheckBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});
+var oTextForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});
 var oParagraph = oDocument.GetElement(0);
-oParagraph.AddElement(oCheckBoxForm);
-oParagraph.AddText(" Married");
-var oCopyCheckBoxForm = oCheckBoxForm.Copy();
+oParagraph.AddElement(oTextForm);
+var oCopyTextForm = oTextForm.Copy();
 oParagraph.AddLineBreak();
-oParagraph.AddElement(oCopyCheckBoxForm);
-oParagraph.AddText(" Single");
-builder.SaveFile("docx", "Copy.docx");
-builder.CloseFile();
+oParagraph.AddElement(oCopyTextForm);
 ```

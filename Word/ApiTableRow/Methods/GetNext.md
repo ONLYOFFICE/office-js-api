@@ -8,20 +8,19 @@ expression.GetNext();
 
 `expression` - A variable that represents a [ApiTableRow](../ApiTableRow.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-[ApiTableRow](../ApiTableRow.md) &#124; null (returns null if row is last)
+ApiTableRow, null
 
 ## Example
 
 This example shows how to get the next row.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
@@ -31,6 +30,4 @@ var oRow = oTable.GetRow(0);
 oRow.GetCell(0).GetContent().GetElement(0).AddText("First row");
 oRow.GetNext().GetCell(0).GetContent().GetElement(0).AddText("Second row");
 oDocument.Push(oTable);
-builder.SaveFile("docx", "GetNext.docx");
-builder.CloseFile();
 ```

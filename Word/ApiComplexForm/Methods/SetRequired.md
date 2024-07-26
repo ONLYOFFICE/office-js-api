@@ -4,25 +4,32 @@ Specifies if the current form should be required.
 
 ## Syntax
 
-expression.
+expression.SetRequired(bRequired);
 
 `expression` - A variable that represents a [ApiComplexForm](../ApiComplexForm.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| bRequired | Required | boolean |  | Defines if the current form is required (true) or not (false). |
 
 ## Returns
 
-return
-[return](todo_link)
+boolean
 
 ## Example
 
-This example
+This example specifies if the current form should be required.
 
 ```javascript
-// todo_exampele
+var oDocument = Api.GetDocument();
+var oTextForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});
+var oParagraph = oDocument.GetElement(0);
+oParagraph.AddElement(oTextForm);
+oTextForm.SetRequired(true);
+var bRequired = oTextForm.IsRequired();
+oParagraph = Api.CreateParagraph();
+oParagraph.AddText("The first form from this document is required: " + bRequired);
+oDocument.Push(oParagraph);
 ```

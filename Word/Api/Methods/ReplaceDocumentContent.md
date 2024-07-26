@@ -8,11 +8,11 @@ expression.ReplaceDocumentContent(oApiDocumentContent);
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| oApiDocumentContent | Required | [ApiDocumentContent](../../ApiDocumentContent/ApiDocumentContent.md) | The document content which the main document content will be replaced with. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| oApiDocumentContent | Required | [ApiDocumentContent](../../ApiDocumentContent/ApiDocumentContent.md) |  | The document content which the main document content will be replaced with. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ This method doesn't return any data.
 This examle shows how to reaplace document content with mail merge data.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var arrField = ["Greeting line", "First name", "Last name"];
@@ -58,6 +57,4 @@ oParagraph = Api.CreateParagraph();
 oParagraph.AddLineBreak();
 oParagraph.AddText("The mail merge process was run twice for each mail merge reception. But the results were replaced with the mail merge template document content. This template allows you to save each mail merge reception to the separate file.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "ReplaceDocumentContent.docx");
-builder.CloseFile();
 ```

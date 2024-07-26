@@ -8,20 +8,19 @@ expression.GetAllCharts();
 
 `expression` - A variable that represents a [ApiDocumentContent](../ApiDocumentContent.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Array<[ApiChart](../../ApiChart/ApiChart.md)>
+Array.<[ApiChart](../../ApiChart/ApiChart.md)>
 
 ## Example
 
 This example shows how to get a collection of chart objects from the document content.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
@@ -48,6 +47,4 @@ oDocContent.AddElement(0, oParagraph);
 var aCharts = oDocContent.GetAllCharts();
 oStroke = Api.CreateStroke(1 * 150, Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61)));
 aCharts[0].SetMinorHorizontalGridlines(oStroke);
-builder.SaveFile("docx", "GetAllCharts.docx");
-builder.CloseFile();
 ```

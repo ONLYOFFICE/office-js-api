@@ -8,20 +8,19 @@ expression.GetSpacingBefore();
 
 `expression` - A variable that represents a [ApiParaPr](../ApiParaPr.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-[twips](../../../Enumerations/twips.md)
+twips
 
 ## Example
 
 This example shows how to get the spacing before value of the current paragraph.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is an example of setting a space before a paragraph. ");
@@ -35,6 +34,4 @@ oParagraph.AddLineBreak();
 var nSpacingBefore = oParaPr.GetSpacingBefore();
 oParagraph.AddText("Spacing before: " + nSpacingBefore);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetSpacingBefore.docx");
-builder.CloseFile();
 ```

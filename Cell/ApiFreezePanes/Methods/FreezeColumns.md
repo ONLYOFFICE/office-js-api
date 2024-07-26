@@ -1,18 +1,18 @@
 # FreezeColumns
 
-Freeze the first column or columns of the worksheet in place.
+Freezes the first column or columns of the current worksheet.
 
 ## Syntax
 
-expression.FreezeColumns(count?);
+expression.FreezeColumns(count);
 
 `expression` - A variable that represents a [ApiFreezePanes](../ApiFreezePanes.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| count | Optional | Number | Optional number of columns to freeze, or zero to unfreeze all columns. Default value is "0". |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| count | Optional | Number | false | Optional number of columns to freeze, or zero to unfreeze all columns. |
 
 ## Returns
 
@@ -23,10 +23,7 @@ This method doesn't return any data.
 This example freezes the the first column.
 
 ```javascript
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFreezePanes = oWorksheet.GetFreezePanes();
 oFreezePanes.FreezeColumns(1);
-builder.SaveFile("xlsx", "FreezeColumns.xlsx");
-builder.CloseFile();
 ```

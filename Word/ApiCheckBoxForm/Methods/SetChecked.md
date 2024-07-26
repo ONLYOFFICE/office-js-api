@@ -8,22 +8,21 @@ expression.SetChecked(isChecked);
 
 `expression` - A variable that represents a [ApiCheckBoxForm](../ApiCheckBoxForm.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| isChecked | Required | Boolean | Specifies if the current checkbox will be checked (true) or not (false). |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| isChecked | Required | boolean |  | Specifies if the current checkbox will be checked (true) or not (false). |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example hecks the checkbox.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oCheckBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});
 var oParagraph = oDocument.GetElement(0);
@@ -34,6 +33,4 @@ oCheckBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify
 oParagraph.AddElement(oCheckBoxForm);
 oParagraph.AddText(" Single");
 oCheckBoxForm.SetChecked(true);
-builder.SaveFile("docx", "SetChecked.docx");
-builder.CloseFile();
 ```

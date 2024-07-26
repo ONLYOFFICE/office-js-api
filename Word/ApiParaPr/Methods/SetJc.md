@@ -8,11 +8,11 @@ expression.SetJc(sJc);
 
 `expression` - A variable that represents a [ApiParaPr](../ApiParaPr.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sJc | Required | [ContentJustification](../../../Enumerations/ContentJustification.md) | The justification type that will be applied to the paragraph contents. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sJc | Required | "left" &#124;"right" &#124;"both" &#124;"center" |  | The justification type thatwill be applied to the paragraph contents. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ This method doesn't return any data.
 This example sets the paragraph contents justification.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oMyStyleLeft = oDocument.CreateStyle("My style with left text alignment");
 var oParaPr = oMyStyleLeft.GetParaPr();
@@ -64,6 +63,4 @@ oParagraph.AddText("These sentences are used to add lines for demonstrative purp
 oParagraph.AddText("These sentences are used to add lines for demonstrative purposes.");
 oParagraph.SetStyle(oMyStyleBoth);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetJc.docx");
-builder.CloseFile();
 ```

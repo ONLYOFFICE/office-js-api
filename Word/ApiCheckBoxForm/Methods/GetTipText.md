@@ -1,6 +1,6 @@
 # GetTipText
 
-Returns the tip text of the current form.<br>Inherited From: [ApiFormBase#GetTipText](../../ApiFormBase/Methods/GetTipText.md)
+Returns the tip text of the current form.
 
 ## Syntax
 
@@ -8,34 +8,25 @@ expression.GetTipText();
 
 `expression` - A variable that represents a [ApiCheckBoxForm](../ApiCheckBoxForm.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-String
+string
 
 ## Example
 
-This example shows how to get the tip text of the current form.
+This example shows how to get the tip text of the form.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
-var oCheckBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});
+var oComboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});
 var oParagraph = oDocument.GetElement(0);
-oParagraph.AddElement(oCheckBoxForm);
-oParagraph.AddText(" Married");
-oParagraph.AddLineBreak();
-oCheckBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});
-oParagraph.AddElement(oCheckBoxForm);
-oParagraph.AddText(" Single");
-oCheckBoxForm.SetTipText("Specify your marital status");
-var sTipText = oCheckBoxForm.GetTipText();
+oParagraph.AddElement(oComboBoxForm);
+var sTipText = oComboBoxForm.GetTipText();
 oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Tip text: " + sTipText);
+oParagraph.AddText("Form tip text: " + sTipText);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetTipText.docx");
-builder.CloseFile();
 ```

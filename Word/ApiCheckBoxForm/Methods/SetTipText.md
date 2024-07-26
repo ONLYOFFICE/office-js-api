@@ -1,6 +1,6 @@
 # SetTipText
 
-Sets the tip text to the current form.<br>Inherited From: [ApiFormBase#SetTipText](../../ApiFormBase/Methods/SetTipText.md)
+Sets the tip text to the current form.
 
 ## Syntax
 
@@ -8,36 +8,28 @@ expression.SetTipText(sText);
 
 `expression` - A variable that represents a [ApiCheckBoxForm](../ApiCheckBoxForm.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sText | Required | String | Tip text. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sText | Required | string |  | Tip text. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
-This example sets the tip text to the current form.
+This example sets the tip text to the form.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
-var oCheckBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});
+var oTextForm = Api.CreateTextForm({"key": "Personal information", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});
 var oParagraph = oDocument.GetElement(0);
-oParagraph.AddElement(oCheckBoxForm);
-oParagraph.AddText(" Married");
-oParagraph.AddLineBreak();
-oCheckBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});
-oParagraph.AddElement(oCheckBoxForm);
-oParagraph.AddText(" Single");
-oCheckBoxForm.SetTipText("Specify your marital status");
-var sTipText = oCheckBoxForm.GetTipText();
+oParagraph.AddElement(oTextForm);
+oTextForm.SetTipText("Enter your first name");
+var sTipText = oTextForm.GetTipText();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Tip text: " + sTipText);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetTipText.docx");
-builder.CloseFile();
 ```

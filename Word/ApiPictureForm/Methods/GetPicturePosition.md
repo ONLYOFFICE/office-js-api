@@ -8,20 +8,19 @@ expression.GetPicturePosition();
 
 `expression` - A variable that represents a [ApiPictureForm](../ApiPictureForm.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Array<[percentage](../../../Enumerations/percentage.md)> ([shiftX, shiftY])
+Array.<percentage>
 
 ## Example
 
 This example shows how to get the picture position inside the current form.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oPictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false});
 var oParagraph = oDocument.GetElement(0);
@@ -38,6 +37,4 @@ for (let i = 0; i < aPosition.length; i++ ){
 	oParagraph.AddLineBreak();
 }
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetPicturePosition.docx");
-builder.CloseFile();
 ```

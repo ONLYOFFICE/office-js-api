@@ -1,6 +1,6 @@
 # GetSpacingBefore
 
-Returns the spacing before value of the current paragraph.<br>Inherited From: [ApiParaPr#GetSpacingBefore](../../ApiParaPr/Methods/GetSpacingBefore.md)
+Returns the spacing before value of the current paragraph.
 
 ## Syntax
 
@@ -8,32 +8,30 @@ expression.GetSpacingBefore();
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-[twips](../../../Enumerations/twips.md) 
+twips
 
 ## Example
 
-This example shows how to get the spacing before value of the paragraph.
+This example shows how to get the spacing before value of the current paragraph.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
-var oParagraph1 = oDocument.GetElement(0);
-oParagraph1.AddText("This is an example of setting a space before a paragraph. ");
-oParagraph1.AddText("The second paragraph will have an offset of one inch from the top. ");
-oParagraph1.AddText("This is due to the fact that the second paragraph has this offset enabled.");
-var oParagraph2 = Api.CreateParagraph();
-oParagraph2.AddText("This is the second paragraph and it is one inch away from the first paragraph.");
-oParagraph2.SetSpacingBefore(1440);
-oParagraph2.AddLineBreak();
-var nSpacingBefore = oParagraph2.GetSpacingBefore();
-oParagraph2.AddText("Spacing before: " + nSpacingBefore);
-oDocument.Push(oParagraph2);
-builder.SaveFile("docx", "GetSpacingBefore.docx");
-builder.CloseFile();
+var oParagraph = oDocument.GetElement(0);
+oParagraph.AddText("This is an example of setting a space before a paragraph. ");
+oParagraph.AddText("The second paragraph will have an offset of one inch from the top. ");
+oParagraph.AddText("This is due to the fact that the second paragraph has this offset enabled.");
+oParagraph = Api.CreateParagraph();
+oParagraph.AddText("This is the second paragraph and it is one inch away from the first paragraph.");
+var oParaPr = oParagraph.GetParaPr();
+oParaPr.SetSpacingBefore(1440);
+oParagraph.AddLineBreak();
+var nSpacingBefore = oParaPr.GetSpacingBefore();
+oParagraph.AddText("Spacing before: " + nSpacingBefore);
+oDocument.Push(oParagraph);
 ```

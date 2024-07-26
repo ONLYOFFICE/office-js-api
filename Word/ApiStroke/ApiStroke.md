@@ -1,6 +1,6 @@
 # ApiStroke
 
-Class representing a stroke.
+Represents the ApiStroke class.
 
 ## Methods
 

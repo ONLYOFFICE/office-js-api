@@ -8,20 +8,19 @@ expression.GetColorScheme();
 
 `expression` - A variable that represents a [ApiTheme](../ApiTheme.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-[ApiThemeColorScheme](../../ApiThemeColorScheme/ApiThemeColorScheme.md) &#124; null
+[ApiThemeColorScheme](../../ApiThemeColorScheme/ApiThemeColorScheme.md)
 
 ## Example
 
 This example shows how to get the color scheme of the theme.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -42,6 +41,4 @@ oChart.SetTitle("Financial Overview", 20);
 oChart.SetSize(300 * 36000, 130 * 36000);
 oChart.SetPosition(608400, 1267200);
 oSlide.AddObject(oChart);
-builder.SaveFile("pptx", "GetColorScheme.pptx");
-builder.CloseFile();
 ```

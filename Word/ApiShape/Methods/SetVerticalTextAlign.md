@@ -8,11 +8,11 @@ expression.SetVerticalTextAlign(VerticalAlign);
 
 `expression` - A variable that represents a [ApiShape](../ApiShape.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| VerticalAlign | Required | [VerticalTextAlign](../../../Enumerations/VerticalTextAlign.md) | The type of the vertical alignment for the shape inner contents. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| VerticalAlign | Required | VerticalTextAlign |  | The type of the vertical alignment for the shape inner contents. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ This method doesn't return any data.
 This example sets the vertical alignment to the shape content where a paragraph or text runs can be inserted.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
@@ -36,6 +35,4 @@ oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Class Type = " + sClassType);
 oDocContent.AddElement(0, oParagraph);
 oDrawing.SetVerticalTextAlign("top");
-builder.SaveFile("docx", "SetVerticalTextAlign.docx");
-builder.CloseFile();
 ```

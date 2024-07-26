@@ -8,25 +8,24 @@ expression.SetBackgroundColor(r, g, b, bNone);
 
 `expression` - A variable that represents a [ApiTableCell](../ApiTableCell.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| r | Required | [byte](../../../Enumerations/byte.md) | Red color component value. |
-| g | Required | [byte](../../../Enumerations/byte.md) | Green color component value. |
-| b | Required | [byte](../../../Enumerations/byte.md) | Blue color component value. |
-| bNone | Required | Boolean | Defines that background color will not be set. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| r | Required | byte |  | Red color component value. |
+| g | Required | byte |  | Green color component value. |
+| b | Required | byte |  | Blue color component value. |
+| bNone | Required | boolean |  | Defines that background color will not be set. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example sets the background color to the table cell.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
@@ -36,6 +35,4 @@ oTable.SetStyle(oTableStyle);
 var oCell = oTable.GetRow(0).GetCell(0);
 oCell.SetBackgroundColor(255, 111, 61, false);
 oDocument.Push(oTable);
-builder.SaveFile("docx", "SetBackgroundColor.docx");
-builder.CloseFile();
 ```
