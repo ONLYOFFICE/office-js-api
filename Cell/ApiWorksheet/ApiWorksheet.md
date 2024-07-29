@@ -8,24 +8,24 @@ Represents the ApiWorksheet class.
 | ---- | ---- | ----------- |
 | Visible | boolean | Returns or sets the state of sheet visibility. |
 | Active | number | Makes the current sheet active. |
-| ActiveCell | [ApiRange](../../ApiRange/ApiRange.md) | Returns an object that represents an active cell. |
-| Selection | [ApiRange](../../ApiRange/ApiRange.md) | Returns an object that represents the selected range. |
-| Cells | [ApiRange](../../ApiRange/ApiRange.md) | Returns ApiRange that represents all the cells on the worksheet (not just the cells that are currently in use). |
-| Rows | [ApiRange](../../ApiRange/ApiRange.md) | Returns ApiRange that represents all the cells of the rows range. |
-| Cols | [ApiRange](../../ApiRange/ApiRange.md) | Returns ApiRange that represents all the cells of the columns range. |
-| UsedRange | [ApiRange](../../ApiRange/ApiRange.md) | Returns ApiRange that represents the used range on the specified worksheet. |
+| ActiveCell | [ApiRange](../ApiRange/ApiRange.md) | Returns an object that represents an active cell. |
+| Selection | [ApiRange](../ApiRange/ApiRange.md) | Returns an object that represents the selected range. |
+| Cells | [ApiRange](../ApiRange/ApiRange.md) | Returns ApiRange that represents all the cells on the worksheet (not just the cells that are currently in use). |
+| Rows | [ApiRange](../ApiRange/ApiRange.md) | Returns ApiRange that represents all the cells of the rows range. |
+| Cols | [ApiRange](../ApiRange/ApiRange.md) | Returns ApiRange that represents all the cells of the columns range. |
+| UsedRange | [ApiRange](../ApiRange/ApiRange.md) | Returns ApiRange that represents the used range on the specified worksheet. |
 | Name | string | Returns or sets a name of the active sheet. |
 | Index | number | Returns a sheet index. |
 | LeftMargin | number | Returns or sets the size of the sheet left margin measured in points. |
 | RightMargin | number | Returns or sets the size of the sheet right margin measured in points. |
 | TopMargin | number | Returns or sets the size of the sheet top margin measured in points. |
 | BottomMargin | number | Returns or sets the size of the sheet bottom margin measured in points. |
-| PageOrientation | [PageOrientation](../../Enumeration/PageOrientation.md) | Returns or sets the page orientation. |
+| PageOrientation | [PageOrientation](../Enumeration/PageOrientation.md) | Returns or sets the page orientation. |
 | PrintHeadings | boolean | Returns or sets the page PrintHeadings property. |
 | PrintGridlines | boolean | Returns or sets the page PrintGridlines property. |
 | Defnames | Array | Returns an array of the ApiName objects. |
 | Comments | Array | Returns all comments from the current worksheet. |
-| FreezePanes | [ApiFreezePanes](../../ApiFreezePanes/ApiFreezePanes.md) | Returns the freeze panes for the current worksheet. |
+| FreezePanes | [ApiFreezePanes](../ApiFreezePanes/ApiFreezePanes.md) | Returns the freeze panes for the current worksheet. |
 | AllProtectedRanges | Array.<[ApiProtectedRange](../../ApiProtectedRange/ApiProtectedRange.md)> | Returns all protected ranges from the current worksheet. |
 
 ## Methods

@@ -8,7 +8,7 @@ Represents the ApiName class.
 | ---- | ---- | ----------- |
 | Name | string | Sets a name to the active sheet. |
 | RefersTo | string | Returns or sets a formula that the name is defined to refer to. |
-| RefersToRange | [ApiRange](../../ApiRange/ApiRange.md) | Returns the ApiRange object by reference. |
+| RefersToRange | [ApiRange](../ApiRange/ApiRange.md) | Returns the ApiRange object by reference. |
 
 ## Methods
 

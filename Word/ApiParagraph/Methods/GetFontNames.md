@@ -36,5 +36,4 @@ oNewParagraph.AddText("Fonts from previous paragraph: " + arrFonts.join(", "));
 oDocument.AddElement(1, oNewParagraph);
 
 
-
 ```

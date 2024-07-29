@@ -7,7 +7,7 @@ Represents the ApiAreas class.
 | Name | Type | Description |
 | ---- | ---- | ----------- |
 | Count | number | Returns a value that represents the number of objects in the collection. |
-| Parent | [ApiRange](../../ApiRange/ApiRange.md) | Returns the parent object for the specified collection. |
+| Parent | [ApiRange](../ApiRange/ApiRange.md) | Returns the parent object for the specified collection. |
 
 ## Methods
 
