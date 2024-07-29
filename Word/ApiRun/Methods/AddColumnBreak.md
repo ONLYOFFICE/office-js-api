@@ -8,7 +8,7 @@ expression.AddColumnBreak();
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
@@ -21,7 +21,6 @@ This method doesn't return any data.
 This example adds a column break to the run position and starts the next element from a new column.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oSection = oDocument.GetFinalSection(oParagraph);
@@ -32,6 +31,4 @@ oRun.AddColumnBreak();
 oRun.AddText("This is the text which starts from the beginning of the second column. ");
 oRun.AddText("It is written in two text runs, you need a space at the end of the first run sentence to separate them.");
 oParagraph.AddElement(oRun);
-builder.SaveFile("docx", "AddColumnBreak.docx");
-builder.CloseFile();
 ```

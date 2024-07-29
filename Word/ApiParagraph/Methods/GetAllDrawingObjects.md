@@ -8,20 +8,19 @@ expression.GetAllDrawingObjects();
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 
-## Parametrs
+## Parameters
 
-This method doesn't have any parameters
+This method doesn't have any parameters.
 
 ## Returns
 
-Array<[ApiDrawing](../../ApiDrawing/ApiDrawing.md)>
+Array.<[ApiDrawing](../../ApiDrawing/ApiDrawing.md)>
 
 ## Example
 
 This example shows how to get a collection of drawing objects in the paragraph.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);
@@ -47,6 +46,4 @@ oParagraph.AddDrawing(oDrawing2);
 var aDrawings = oParagraph.GetAllDrawingObjects();
 oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 aDrawings[0].Fill(oFill);
-builder.SaveFile("docx", "GetAllDrawingObjects.docx");
-builder.CloseFile();
 ```

@@ -8,23 +8,22 @@ expression.SetSeriaXValues(sRange, nSeria);
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sNameRange | Required | String | The series name. Can be a range of cells or usual text. For example: 1) "'sheet 1'!$A$2:$A$5" - must be a single cell, row or column, 2) "A1:A5" - must be a single cell, row or column, 3) "Example series". |
-| nSeria | Required | Number | The index of the chart series. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sRange | Required | string |  | A range of cells from the sheet with series x-axis values. For example:* "'sheet 1'!$A$2:$A$5" - must be a single cell, row or column,* "A1:A5" - must be a single cell, row or column,* "Example series". |
+| nSeria | Required | number |  | The index of the chart series. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example sets the x-axis values from the specified range to the specified series. It is used with the scatter charts only.
 
 ```javascript
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);
@@ -51,6 +50,4 @@ oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 oChart.SetMarkerFill(oFill, 1, 0, true);
 oStroke = Api.CreateStroke(0.5 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61)));
 oChart.SetMarkerOutLine(oStroke, 1, 0, true);
-builder.SaveFile("xlsx", "SetSeriaXValues.xlsx");
-builder.CloseFile();
 ```

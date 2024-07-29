@@ -1,6 +1,6 @@
 # GetIndex
 
-Returns the index of a content control list item in the collection of list items.
+Returns an index of the content control list item in the combo box / dropdown list content control.
 
 ## Syntax
 
@@ -8,13 +8,13 @@ expression.GetIndex();
 
 `expression` - A variable that represents a [ApiContentControlListEntry](../ApiContentControlListEntry.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Number
+number
 
 ## Example
 

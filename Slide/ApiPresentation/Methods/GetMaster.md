@@ -8,22 +8,21 @@ expression.GetMaster(nPos);
 
 `expression` - A variable that represents a [ApiPresentation](../ApiPresentation.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nPos | Required | Number | Slide master position in the presentation. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nPos | Required | number |  | Slide master position in the presentation |
 
 ## Returns
 
-[ApiMaster](../../ApiMaster/ApiMaster.md) &#124; null (returns null if position is invalid)
+ApiMaster, null
 
 ## Example
 
 This example shows how to get a slide master by its position in the presentation.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -39,6 +38,4 @@ var oParagraph = oDocContent.GetElement(0);
 oParagraph.SetJc("left");
 oParagraph.AddText("Class type = " + sType);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "GetMaster.pptx");
-builder.CloseFile();
 ```

@@ -1,6 +1,6 @@
 # ApiUniColor
 
-Class representing a uni color types.
+Represents the ApiUniColor class.
 
 ## Methods
 

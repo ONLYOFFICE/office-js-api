@@ -1,6 +1,6 @@
 # ApiTableRowPr
 
-Class representing the table row properties.
+Represents the ApiTableRowPr class.
 
 ## Methods
 

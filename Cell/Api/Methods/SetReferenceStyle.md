@@ -1,6 +1,6 @@
 # SetReferenceStyle
 
-Sets freeze panes type.
+Sets the cell reference style.
 
 ## Syntax
 
@@ -8,11 +8,11 @@ expression.SetReferenceStyle(sReferenceStyle);
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sReferenceStyle | Required | [ReferenceStyle](../../../Enumerations/ReferenceStyle.md) | The type of freezing ('null' to unfreeze). |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sReferenceStyle | Required | [ReferenceStyle](../../Enumeration/ReferenceStyle.md) |  | The cell reference style. |
 
 ## Returns
 
@@ -23,10 +23,7 @@ This method doesn't return any data.
 This example sets reference style.
 
 ```javascript
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 Api.SetReferenceStyle("xlR1C1");
 oWorksheet.GetRange("A1").SetValue(Api.GetRefereceStyle());
-builder.SaveFile("xlsx", "ReferenceStyle.xlsx");
-builder.CloseFile();
 ```

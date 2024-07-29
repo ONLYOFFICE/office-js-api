@@ -8,20 +8,19 @@ expression.GetContent();
 
 `expression` - A variable that represents a [ApiShape](../ApiShape.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-[ApiDocumentContent](../../ApiDocumentContent/ApiDocumentContent.md) &#124; null
+[ApiDocumentContent](../../ApiDocumentContent/ApiDocumentContent.md)
 
 ## Example
 
 This example shows how to get the shape inner contents where a paragraph or text runs can be inserted.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
@@ -33,6 +32,4 @@ var sClassType = oDrawing.GetClassType();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Class Type = " + sClassType);
 oDocContent.AddElement(0, oParagraph);
-builder.SaveFile("docx", "GetContent.docx");
-builder.CloseFile();
 ```

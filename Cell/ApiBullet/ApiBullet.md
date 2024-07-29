@@ -1,6 +1,6 @@
 # ApiBullet
 
-Class representing a paragraph bullet.
+Represents the ApiBullet class.
 
 ## Methods
 

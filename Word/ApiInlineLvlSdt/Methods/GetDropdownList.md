@@ -1,6 +1,6 @@
 # GetDropdownList
 
-Checks if the content control is a form.
+Returns a list of values of the combo box / dropdown list content control.
 
 ## Syntax
 
@@ -8,7 +8,7 @@ expression.GetDropdownList();
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 

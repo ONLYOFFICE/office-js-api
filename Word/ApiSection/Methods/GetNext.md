@@ -8,20 +8,19 @@ expression.GetNext();
 
 `expression` - A variable that represents a [ApiSection](../ApiSection.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-[ApiSection](../ApiSection.md) &#124; null (returns null if section is the last)
+ApiSection, null
 
 ## Example
 
 This example shows how to get the next section.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is a new paragraph.");
@@ -34,6 +33,4 @@ oDocument.Push(oParagraph);
 var oSection2 = oDocument.CreateSection(oParagraph);
 var oNextSection = oSection1.GetNext();
 oNextSection.SetPageMargins(7200, 2880, 1440, 5760);
-builder.SaveFile("docx", "GetNext.docx");
-builder.CloseFile();
 ```

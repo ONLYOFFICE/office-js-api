@@ -1,22 +1,22 @@
 # SetIndex
 
-Sets the index of a content control list item in the collection of list items.
+Sets an index to the content control list item in the combo box / dropdown list content control.
 
 ## Syntax
 
-expression.SetIndex(number);
+expression.SetIndex(nIndex);
 
 `expression` - A variable that represents a [ApiContentControlListEntry](../ApiContentControlListEntry.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| number | Required | Number | The index of a content control list item in the collection of list items. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nIndex | Required | number |  | An index of the content control list item. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 

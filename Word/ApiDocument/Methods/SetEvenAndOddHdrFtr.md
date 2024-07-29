@@ -1,6 +1,6 @@
 # SetEvenAndOddHdrFtr
 
-Specifies whether sections in this document will have different headers and footers for even and odd pages (one header/footer for odd pages and another header/footer for even pages).
+Specifies whether sections in this document will have different headers and footers for even andodd pages (one header/footer for odd pages and another header/footer for even pages).
 
 ## Syntax
 
@@ -8,11 +8,11 @@ expression.SetEvenAndOddHdrFtr(isEvenAndOdd);
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| isEvenAndOdd | Required | Boolean | If true the header/footer will be different for odd and even pages, if false they will be the same. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| isEvenAndOdd | Required | boolean |  | If true the header/footer will be different for odd and even pages, if false they will be the same. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ This method doesn't return any data.
 This example specifies whether sections in this document will have different headers and footers for even and odd pages.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oSection = oDocument.CreateSection(oParagraph);
@@ -63,6 +62,4 @@ oParagraph = Api.CreateParagraph();
 oParagraph.AddText("This is section #4 of the document. ");
 oParagraph.AddText("It has a header and a footer for even pages.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetEvenAndOddHdrFtr.docx");
-builder.CloseFile();
 ```

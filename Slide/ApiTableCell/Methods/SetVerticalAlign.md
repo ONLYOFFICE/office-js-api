@@ -8,11 +8,11 @@ expression.SetVerticalAlign(sType);
 
 `expression` - A variable that represents a [ApiTableCell](../ApiTableCell.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sType | Required | [VertAlign](../../../Enumerations/VertAlign.md) | The type of the vertical alignment. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sType | Required | "top" &#124;"center" &#124;"bottom" |  | The type of the vertical alignment. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ This method doesn't return any data.
 This example specifies the vertical alignment for text within the current table cell.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oTable = Api.CreateTable(2, 4);
 var oRow = oTable.GetRow(1);
@@ -37,6 +36,4 @@ oCell.SetVerticalAlign("bottom");
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
 oSlide.AddObject(oTable);
-builder.SaveFile("pptx", "SetVerticalAlign.pptx");
-builder.CloseFile();
 ```

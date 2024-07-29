@@ -8,7 +8,7 @@ expression.GetDefaultParaPr();
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
@@ -21,7 +21,6 @@ This method doesn't have any parameters.
 This example shows how to get a set of default paragraph properties in the current document.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oParaPr = oDocument.GetDefaultParaPr();
@@ -32,6 +31,4 @@ oParaPr = oNormalStyle.GetParaPr();
 oParaPr.SetSpacingLine(240, "auto");
 oParaPr.SetJc("both");
 oParagraph.AddText("This is just a text.");
-builder.SaveFile("docx", "GetDefaultParaPr.docx");
-builder.CloseFile();
 ```

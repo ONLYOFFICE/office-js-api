@@ -1,6 +1,6 @@
 # ApiPlaceholder
 
-Class representing a placeholder.
+Represents the ApiPlaceholder class.
 
 ## Methods
 

@@ -8,16 +8,16 @@ expression.SetFonts(mjLatin, mjEa, mjCs, mnLatin, mnEa, mnCs);
 
 `expression` - A variable that represents a [ApiThemeFontScheme](../ApiThemeFontScheme.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| mjLatin | Required | String | The major theme font applied to the latin text. |
-| mjEa | Required | String | The major theme font applied to the east asian text. |
-| mjCs | Required | String | The major theme font applied to the complex script text. |
-| mnLatin | Required | String | The minor theme font applied to the latin text. |
-| mnEa | Required | String | The minor theme font applied to the east asian text. |
-| mnCs | Required | String | The minor theme font applied to the complex script text. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| mjLatin | Required | string |  | The major theme font applied to the latin text. |
+| mjEa | Required | string |  | The major theme font applied to the east asian text. |
+| mjCs | Required | string |  | The major theme font applied to the complex script text. |
+| mnLatin | Required | string |  | The minor theme font applied to the latin text. |
+| mnEa | Required | string |  | The minor theme font applied to the east asian text. |
+| mnCs | Required | string |  | The minor theme font applied to the complex script text. |
 
 ## Returns
 
@@ -28,7 +28,6 @@ This method doesn't return any data.
 This example sets the fonts to the current theme font scheme.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -46,6 +45,4 @@ oParagraph.SetJc("left");
 oParagraph.AddText("New font scheme was set to this slide.");
 oSlide.RemoveAllObjects();
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetFonts.pptx");
-builder.CloseFile();
 ```

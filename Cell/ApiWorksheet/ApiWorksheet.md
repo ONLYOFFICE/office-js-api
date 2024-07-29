@@ -1,81 +1,88 @@
 # ApiWorksheet
 
-Class representing a sheet.
+Represents the ApiWorksheet class.
 
 ## Properties
 
-- [Visible](./Properties/Visible.md)
-- [Active](./Properties/Active.md)
-- [ActiveCell](./Properties/ActiveCell.md)
-- [Selection](./Properties/Selection.md)
-- [Cells](./Properties/Cells.md)
-- [FreezePanes](./Properties/FreezePanes.md)
-- [Rows](./Properties/Rows.md)
-- [Cols](./Properties/Cols.md)
-- [UsedRange](./Properties/UsedRange.md)
-- [Name](./Properties/Name.md)
-- [Index](./Properties/Index.md)
-- [LeftMargin](./Properties/LeftMargin.md)
-- [RightMargin](./Properties/RightMargin.md)
-- [TopMargin](./Properties/TopMargin.md)
-- [BottomMargin](./Properties/BottomMargin.md)
-- [PageOrientation](./Properties/PageOrientation.md)
-- [PrintHeadings](./Properties/PrintHeadings.md)
-- [PrintGridlines](./Properties/PrintGridlines.md)
-- [Defnames](./Properties/Defnames.md)
-- [Comments](./Properties/Comments.md)
+| Name | Type | Description |
+| ---- | ---- | ----------- |
+| Visible | boolean | Returns or sets the state of sheet visibility. |
+| Active | number | Makes the current sheet active. |
+| ActiveCell | [ApiRange](../../ApiRange/ApiRange.md) | Returns an object that represents an active cell. |
+| Selection | [ApiRange](../../ApiRange/ApiRange.md) | Returns an object that represents the selected range. |
+| Cells | [ApiRange](../../ApiRange/ApiRange.md) | Returns ApiRange that represents all the cells on the worksheet (not just the cells that are currently in use). |
+| Rows | [ApiRange](../../ApiRange/ApiRange.md) | Returns ApiRange that represents all the cells of the rows range. |
+| Cols | [ApiRange](../../ApiRange/ApiRange.md) | Returns ApiRange that represents all the cells of the columns range. |
+| UsedRange | [ApiRange](../../ApiRange/ApiRange.md) | Returns ApiRange that represents the used range on the specified worksheet. |
+| Name | string | Returns or sets a name of the active sheet. |
+| Index | number | Returns a sheet index. |
+| LeftMargin | number | Returns or sets the size of the sheet left margin measured in points. |
+| RightMargin | number | Returns or sets the size of the sheet right margin measured in points. |
+| TopMargin | number | Returns or sets the size of the sheet top margin measured in points. |
+| BottomMargin | number | Returns or sets the size of the sheet bottom margin measured in points. |
+| PageOrientation | [PageOrientation](../../Enumeration/PageOrientation.md) | Returns or sets the page orientation. |
+| PrintHeadings | boolean | Returns or sets the page PrintHeadings property. |
+| PrintGridlines | boolean | Returns or sets the page PrintGridlines property. |
+| Defnames | Array | Returns an array of the ApiName objects. |
+| Comments | Array | Returns all comments from the current worksheet. |
+| FreezePanes | [ApiFreezePanes](../../ApiFreezePanes/ApiFreezePanes.md) | Returns the freeze panes for the current worksheet. |
+| AllProtectedRanges | Array.<[ApiProtectedRange](../../ApiProtectedRange/ApiProtectedRange.md)> | Returns all protected ranges from the current worksheet. |
 
 ## Methods
 
-- [AddChart](./Methods/AddChart.md)
-- [AddDefName](./Methods/AddDefName.md)
-- [AddImage](./Methods/AddImage.md)
-- [AddOleObject](./Methods/AddOleObject.md)
-- [AddShape](./Methods/AddShape.md)
-- [AddWordArt](./Methods/AddWordArt.md)
-- [Delete](./Methods/Delete.md)
-- [FormatAsTable](./Methods/FormatAsTable.md)
+- [GetVisible](./Methods/GetVisible.md)
+- [SetVisible](./Methods/SetVisible.md)
+- [SetActive](./Methods/SetActive.md)
 - [GetActiveCell](./Methods/GetActiveCell.md)
-- [GetAllCharts](./Methods/GetAllCharts.md)
-- [GetAllDrawings](./Methods/GetAllDrawings.md)
-- [GetAllImages](./Methods/GetAllImages.md)
-- [GetAllOleObjects](./Methods/GetAllOleObjects.md)
-- [GetAllShapes](./Methods/GetAllShapes.md)
-- [GetBottomMargin](./Methods/GetBottomMargin.md)
+- [GetSelection](./Methods/GetSelection.md)
 - [GetCells](./Methods/GetCells.md)
+- [GetRows](./Methods/GetRows.md)
 - [GetCols](./Methods/GetCols.md)
-- [GetComments](./Methods/GetComments.md)
-- [GetDefName](./Methods/GetDefName.md)
-- [GetDefNames](./Methods/GetDefNames.md)
-- [GetFreezePanes](./Methods/GetFreezePanes.md)
-- [GetIndex](./Methods/GetIndex.md)
-- [GetLeftMargin](./Methods/GetLeftMargin.md)
+- [GetUsedRange](./Methods/GetUsedRange.md)
 - [GetName](./Methods/GetName.md)
-- [GetPageOrientation](./Methods/GetPageOrientation.md)
-- [GetPrintGridlines](./Methods/GetPrintGridlines.md)
-- [GetPrintHeadings](./Methods/GetPrintHeadings.md)
+- [SetName](./Methods/SetName.md)
+- [GetIndex](./Methods/GetIndex.md)
 - [GetRange](./Methods/GetRange.md)
 - [GetRangeByNumber](./Methods/GetRangeByNumber.md)
-- [GetRightMargin](./Methods/GetRightMargin.md)
-- [GetRows](./Methods/GetRows.md)
-- [GetSelection](./Methods/GetSelection.md)
-- [GetTopMargin](./Methods/GetTopMargin.md)
-- [GetUsedRange](./Methods/GetUsedRange.md)
-- [GetVisible](./Methods/GetVisible.md)
-- [Move](./Methods/Move.md)
-- [ReplaceCurrentImage](./Methods/ReplaceCurrentImage.md)
-- [SetActive](./Methods/SetActive.md)
-- [SetBottomMargin](./Methods/SetBottomMargin.md)
+- [FormatAsTable](./Methods/FormatAsTable.md)
 - [SetColumnWidth](./Methods/SetColumnWidth.md)
+- [SetRowHeight](./Methods/SetRowHeight.md)
 - [SetDisplayGridlines](./Methods/SetDisplayGridlines.md)
 - [SetDisplayHeadings](./Methods/SetDisplayHeadings.md)
-- [SetHyperlink](./Methods/SetHyperlink.md)
 - [SetLeftMargin](./Methods/SetLeftMargin.md)
-- [SetName](./Methods/SetName.md)
-- [SetPageOrientation](./Methods/SetPageOrientation.md)
-- [SetPrintGridlines](./Methods/SetPrintGridlines.md)
-- [SetPrintHeadings](./Methods/SetPrintHeadings.md)
+- [GetLeftMargin](./Methods/GetLeftMargin.md)
 - [SetRightMargin](./Methods/SetRightMargin.md)
-- [SetRowHeight](./Methods/SetRowHeight.md)
+- [GetRightMargin](./Methods/GetRightMargin.md)
 - [SetTopMargin](./Methods/SetTopMargin.md)
-- [SetVisible](./Methods/SetVisible.md)
+- [GetTopMargin](./Methods/GetTopMargin.md)
+- [SetBottomMargin](./Methods/SetBottomMargin.md)
+- [GetBottomMargin](./Methods/GetBottomMargin.md)
+- [SetPageOrientation](./Methods/SetPageOrientation.md)
+- [GetPageOrientation](./Methods/GetPageOrientation.md)
+- [GetPrintHeadings](./Methods/GetPrintHeadings.md)
+- [SetPrintHeadings](./Methods/SetPrintHeadings.md)
+- [GetPrintGridlines](./Methods/GetPrintGridlines.md)
+- [SetPrintGridlines](./Methods/SetPrintGridlines.md)
+- [GetDefNames](./Methods/GetDefNames.md)
+- [GetDefName](./Methods/GetDefName.md)
+- [AddDefName](./Methods/AddDefName.md)
+- [GetComments](./Methods/GetComments.md)
+- [Delete](./Methods/Delete.md)
+- [SetHyperlink](./Methods/SetHyperlink.md)
+- [AddChart](./Methods/AddChart.md)
+- [AddShape](./Methods/AddShape.md)
+- [AddImage](./Methods/AddImage.md)
+- [AddWordArt](./Methods/AddWordArt.md)
+- [AddOleObject](./Methods/AddOleObject.md)
+- [ReplaceCurrentImage](./Methods/ReplaceCurrentImage.md)
+- [GetAllDrawings](./Methods/GetAllDrawings.md)
+- [GetAllImages](./Methods/GetAllImages.md)
+- [GetAllShapes](./Methods/GetAllShapes.md)
+- [GetAllCharts](./Methods/GetAllCharts.md)
+- [GetAllOleObjects](./Methods/GetAllOleObjects.md)
+- [Move](./Methods/Move.md)
+- [GetFreezePanes](./Methods/GetFreezePanes.md)
+- [AddProtectedRange](./Methods/AddProtectedRange.md)
+- [GetProtectedRange](./Methods/GetProtectedRange.md)
+- [GetAllProtectedRanges](./Methods/GetAllProtectedRanges.md)
+- [Paste](./Methods/Paste.md)

@@ -8,30 +8,21 @@ expression.CreateParagraph();
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-[ApiParagraph](../../ApiParagraph/ApiParagraph.mdx)
+[ApiParagraph](../../ApiParagraph/ApiParagraph.md)
 
 ## Example
 
-This example creates a new paragraph.
+This example creates a new paragraph and inserts it into the document.
 
 ```javascript
-builder.CreateFile("xlsx");
-var oWorksheet = Api.GetActiveSheet();
-var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oShape = oWorksheet.AddShape("flowChartOnlineStorage", 60 * 36000, 35 * 36000, oFill, oStroke, 0, 2 * 36000, 0, 3 * 36000);
-var oDocContent = oShape.GetContent();
-oDocContent.RemoveAllElements();
+var oDocument = Api.GetDocument();
 var oParagraph = Api.CreateParagraph();
-oParagraph.SetJc("left");
-oParagraph.AddText("We removed all elements from the shape and added a new paragraph inside it.");
-oDocContent.Push(oParagraph);
-builder.SaveFile("xlsx", "CreateParagraph.xlsx");
-builder.CloseFile();
+oParagraph.AddText("This is a new paragraph");
+oDocument.Push(oParagraph);
 ```

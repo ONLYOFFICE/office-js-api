@@ -8,22 +8,21 @@ expression.RemoveRow(oCell);
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| oCell | Required | [ApiTableCell](../../ApiTableCell/ApiTableCell.md) | The table cell from the row which will be removed. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| oCell | Required | [ApiTableCell](../../ApiTableCell/ApiTableCell.md) |  | The table cell from the row which will be removed. |
 
 ## Returns
 
-Boolean (defines if the table is empty after removing or not)
+boolean
 
 ## Example
 
 This example removes a table row with the specified cell.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oTable = Api.CreateTable(2, 4);
 var oRow = oTable.GetRow(0);
@@ -38,6 +37,4 @@ oContent.Push(oParagraph);
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
 oSlide.AddObject(oTable);
-builder.SaveFile("pptx", "RemoveRow.pptx");
-builder.CloseFile();
 ```

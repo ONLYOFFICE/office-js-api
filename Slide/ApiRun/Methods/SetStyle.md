@@ -8,11 +8,11 @@ expression.SetStyle(oStyle);
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| oStyle | Required | [ApiStyle](../../../Word/ApiStyle/ApiStyle.md) | The style which must be applied to the text run. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| oStyle | Required | ApiStyle |  | The style which must be applied to the text run. |
 
 ## Returns
 
@@ -23,26 +23,18 @@ expression.SetStyle(oStyle);
 This example sets a style to the run.
 
 ```javascript
-builder.CreateFile("pptx");
-var oPresentation = Api.GetPresentation();
-var oSlide = oPresentation.GetSlideByIndex(0);
-oSlide.RemoveAllObjects();
-var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oShape = Api.CreateShape("flowChartMagneticTape", 300 * 36000, 130 * 36000, oFill, oStroke);
-oShape.SetPosition(608400, 1267200);
-var oDocContent = oShape.GetDocContent();
-var oParagraph = oDocContent.GetElement(0);
+var oDocument = Api.GetDocument();
 var oMyNewRunStyle = oDocument.CreateStyle("My New Run Style", "run");
 var oTextPr = oMyNewRunStyle.GetTextPr();
-oTextPr.SetFontSize(30);
-oTextPr.SetBold(true);
+oTextPr.SetCaps(true);
+oTextPr.SetFontFamily("Calibri Light");
+var oParagraph = oDocument.GetElement(0);
+var oRun = Api.CreateRun();
+oRun.AddText("This is just a sample text. ");
+oRun.AddText("The text properties are changed and the style is added to the paragraph. ");
+oParagraph.AddElement(oRun);
 oRun = Api.CreateRun();
 oRun.SetStyle(oMyNewRunStyle);
 oRun.AddText("This is a text run with its own style.");
-oRun.SetTextPr(oTextPr);
 oParagraph.AddElement(oRun);
-oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetTextPr.pptx");
-builder.CloseFile();
 ```

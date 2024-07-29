@@ -8,20 +8,19 @@ expression.GetParentTableCell();
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-[ApiTableCell](../../ApiTableCell/ApiTableCell.md) &#124; null (returns null is parent cell doesn't exist)
+ApiTableCell, null
 
 ## Example
 
 This example shows how to get a table cell that contains the run.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
@@ -37,6 +36,4 @@ var oCell = oTable.GetCell(0,0);
 oTable.AddElement(oCell, 0, oParagraph);
 var oParentTableCell = oRun.GetParentTableCell();
 oParentTableCell.SetShd("clear", 255, 111, 61, false);
-builder.SaveFile("docx", "GetParentTableCell.docx");
-builder.CloseFile();
 ```

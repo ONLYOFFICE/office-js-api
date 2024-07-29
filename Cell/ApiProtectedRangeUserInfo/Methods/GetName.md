@@ -8,21 +8,19 @@ expression.GetName();
 
 `expression` - A variable that represents a [ApiProtectedRangeUserInfo](../ApiProtectedRangeUserInfo.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-String &#124; null
-
+string, null
 
 ## Example
 
 This example changes the user protected range.
 
 ```javascript
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var wsName = oWorksheet.GetName();
 var protectedRange = Api.AddProtectedRange("protectedRange", wsName + "!$A$1:$B$1");
@@ -30,6 +28,4 @@ protectedRange.AddUser("userId", "name", "CanView");
 var userInfo = protectedRange.GetUser("userId");
 var userName = userInfo.GetName();
 oWorksheet.GetRange("A3").SetValue("Name: " + userName);
-builder.SaveFile("xlsx", "changeProtectedRangeInfo.xlsx");
-builder.CloseFile();
 ```

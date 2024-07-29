@@ -8,22 +8,21 @@ expression.SetColorScheme(oApiColorScheme);
 
 `expression` - A variable that represents a [ApiTheme](../ApiTheme.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| oApiColorScheme | Required | [ApiThemeColorScheme](../../ApiThemeColorScheme/ApiThemeColorScheme.md) | Theme color scheme. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| oApiColorScheme | Required | [ApiThemeColorScheme](../../ApiThemeColorScheme/ApiThemeColorScheme.md) |  | Theme color scheme. |
 
 ## Returns
 
-Boolean (return false if color scheme doesn't exist)
+boolean
 
 ## Example
 
 This example sets the color scheme to the current presentation theme.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -43,6 +42,4 @@ oChart.SetTitle("Financial Overview", 20);
 oChart.SetSize(300 * 36000, 130 * 36000);
 oChart.SetPosition(608400, 1267200);
 oSlide.AddObject(oChart);
-builder.SaveFile("pptx", "SetColorScheme.pptx");
-builder.CloseFile();
 ```

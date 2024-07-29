@@ -4,26 +4,31 @@ Finds specific information in the current range.
 
 ## Syntax
 
-expression.Find(oSearchData);
+expression.Find(What, After, LookIn, LookAt, SearchOrder, SearchDirection, MatchCase);
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| oSearchData | Required | [XlSearchData](../../../Enumerations/XlSearchData.md) | The search data used to make search. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| What | Required | string &#124;undefined |  | The data to search for. |
+| After | Required | [ApiRange](../../ApiRange/ApiRange.md) |  | The cell after which you want the search to begin. If this argument is not specified, the search starts after the cell in the upper-left corner of the range. |
+| LookIn | Required | [XlFindLookIn](../../Enumeration/XlFindLookIn.md) |  | Search data type (formulas or values). |
+| LookAt | Required | [XlLookAt](../../Enumeration/XlLookAt.md) |  | Specifies whether the whole search text or any part of the search text is matched. |
+| SearchOrder | Required | [XlSearchOrder](../../Enumeration/XlSearchOrder.md) |  | Range search order - by rows or by columns. |
+| SearchDirection | Required | [XlSearchDirection](../../Enumeration/XlSearchDirection.md) |  | Range search direction - next match or previous match. |
+| MatchCase | Required | boolean |  | Case sensitive or not. The default value is "false". |
 
 ## Returns
 
-[ApiRange](../ApiRange.md) &#124; null (returns null if the current range does not contain such text)
+ApiRange, null
 
 ## Example
 
 This example finds specific information in the range.
 
 ```javascript
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);
@@ -52,6 +57,4 @@ var oSearchData = {
 };
 var oSearchRange = oRange.Find(oSearchData);
 oSearchRange.SetFillColor(Api.CreateColorFromRGB(255, 213, 191));
-builder.SaveFile("xlsx", "Find.xlsx");
-builder.CloseFile();
 ```

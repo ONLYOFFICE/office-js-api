@@ -8,7 +8,7 @@ expression.CreateTextPr();
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
@@ -18,24 +18,19 @@ This method doesn't have any parameters.
 
 ## Example
 
-This example creates the empty text properties.
+This example shows how to create a text properties and use it.
 
 ```javascript
-builder.CreateFile("xlsx");
-var oWorksheet = Api.GetActiveSheet();
-var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oShape = oWorksheet.AddShape("flowChartOnlineStorage", 80 * 36000, 50 * 36000, oFill, oStroke, 0, 2 * 36000, 0, 3 * 36000);
-var oDocContent = oShape.GetContent();
-oDocContent.RemoveAllElements();
+var oDocument = Api.GetDocument();
 var oTextPr = Api.CreateTextPr();
 oTextPr.SetFontSize(30);
 oTextPr.SetBold(true);
-var oParagraph = Api.CreateParagraph();
-oParagraph.SetJc("left");
-oParagraph.AddText("This is a sample text with the font size set to 30 and the font weight set to bold.");
-oParagraph.SetTextPr(oTextPr);
-oDocContent.Push(oParagraph);
-builder.SaveFile("xlsx", "CreateTextPr.xlsx");
-builder.CloseFile();
+oTextPr.SetCaps(true);
+oTextPr.SetColor(51, 51, 51, false);
+oTextPr.SetFontFamily("Comic Sans MS");
+var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+var oStroke = Api.CreateStroke(1 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51)));
+var oTextArt = Api.CreateWordArt(oTextPr, "onlyoffice", "textArchUp", oFill, oStroke, 0, 150 * 36000, 50 * 36000);
+var oParagraph = oDocument.GetElement(0);
+oParagraph.AddDrawing(oTextArt);
 ```

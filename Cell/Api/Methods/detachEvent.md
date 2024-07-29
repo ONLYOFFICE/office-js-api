@@ -8,11 +8,11 @@ expression.detachEvent(eventName);
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| eventName | Required | String | The event name. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| eventName | Required | string |  | The event name. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ This method doesn't return any data.
 This example unsubscribes from the "onWorksheetChange" event.
 
 ```javascript
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oRange = oWorksheet.GetRange("A1");
 oRange.SetValue("1");
@@ -32,6 +31,4 @@ Api.attachEvent("onWorksheetChange", function(oRange){
     console.log(oRange.GetAddress());
 });
 Api.detachEvent("onWorksheetChange");
-builder.SaveFile("xlsx", "detachEvent.xlsx");
-builder.CloseFile();
 ```

@@ -1,6 +1,6 @@
 # SetPageBreakBefore
 
-Specifies that when rendering the document using a paginated view, the contents of the current paragraph are rendered at the beginning of a new page in the document.
+Specifies that when rendering the document using a paginated view, the contents of the current paragraph are rendered atthe beginning of a new page in the document.
 
 ## Syntax
 
@@ -8,11 +8,11 @@ expression.SetPageBreakBefore(isPageBreakBefore);
 
 `expression` - A variable that represents a [ApiParaPr](../ApiParaPr.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| isPageBreakBefore | Required | Boolean | The true value enables the option to render the contents of the paragraph at the beginning of a new page in the document. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| isPageBreakBefore | Required | boolean |  | The true value enables the option to render the contents of the paragraphat the beginning of a new page in the document. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ This method doesn't return any data.
 This example specifies that when rendering the document using a paginated view, the contents of the current paragraph are rendered at the beginning of a new page in the document.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oMyStyle = oDocument.CreateStyle("My document style");
 var oParaPr = oMyStyle.GetParaPr();
@@ -36,6 +35,4 @@ oParagraph = Api.CreateParagraph();
 oParagraph.AddText("This is the second paragraph and it has page break before it enabled.");
 oParagraph.SetStyle(oMyStyle);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetPageBreakBefore.docx");
-builder.CloseFile();
 ```

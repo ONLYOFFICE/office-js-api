@@ -8,11 +8,11 @@ expression.SetTextDirection(sType);
 
 `expression` - A variable that represents a [ApiTableCell](../ApiTableCell.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sType | Required | [TextDirection](../../../Enumerations/TextDirection.md) | The type of the text flow direction. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sType | Required | "lrtb" &#124;"tbrl" &#124;"btlr" |  | The type of the text flow direction. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ This method doesn't return any data.
 This example specifies the direction of the text flow for the current table cell.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oTable = Api.CreateTable(2, 4);
 var oRow = oTable.GetRow(0);
@@ -37,6 +36,4 @@ oContent.Push(oParagraph);
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
 oSlide.AddObject(oTable);
-builder.SaveFile("pptx", "SetTextDirection.pptx");
-builder.CloseFile();
 ```

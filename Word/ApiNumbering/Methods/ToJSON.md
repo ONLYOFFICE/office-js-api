@@ -8,7 +8,7 @@ expression.ToJSON();
 
 `expression` - A variable that represents a [ApiNumbering](../ApiNumbering.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
@@ -21,7 +21,6 @@ JSON
 This example converts the ApiNumbering object into the JSON object.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oNumbering = oDocument.CreateNumbering("bullet");
 var json = oNumbering.ToJSON();
@@ -37,6 +36,4 @@ var sType = oNumberingFromJSON.GetClassType();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Class type = " + sType);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "ToJSON.docx");
-builder.CloseFile();
 ```

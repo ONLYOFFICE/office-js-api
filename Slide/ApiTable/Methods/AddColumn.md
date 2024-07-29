@@ -4,16 +4,16 @@ Adds a new column to the end of the current table.
 
 ## Syntax
 
-expression.AddColumn(oCell?, isBefore?);
+expression.AddColumn(oCell, isBefore);
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| oCell | Optional | [ApiTableCell](../../ApiTableCell/ApiTableCell.md) | If not specified, a new column will be added to the end of the table. Default value is "null". |
-| isBefore | Optional | Boolean | Add a new column before or after the specified cell. If no cell is specified, then this parameter will be ignored. Default value is "false". |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| oCell | Optional | [ApiTableCell](../../ApiTableCell/ApiTableCell.md) |  | If not specified, a new column will be added to the end of the table. |
+| isBefore | Optional | boolean | false | Add a new column before or after the specified cell. If no cell is specified,then this parameter will be ignored. |
 
 ## Returns
 
@@ -24,7 +24,6 @@ This method doesn't return any data.
 This example adds a new column to the table.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 oPresentation.SetSizes(300 * 36000, 190 * 36000);
 var oTable = Api.CreateTable(2, 4);
@@ -39,6 +38,4 @@ oContent.Push(oParagraph);
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
 oSlide.AddObject(oTable);
-builder.SaveFile("pptx", "AddColumn.pptx");
-builder.CloseFile();
 ```

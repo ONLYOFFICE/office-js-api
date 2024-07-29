@@ -8,12 +8,12 @@ expression.SetHorPosition(sRelativeFrom, nDistance);
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sRelativeFrom | Required | [RelFromH](../../../Enumerations/RelFromH.md) | The document element which will be taken as a countdown point for the object horizontal alignment. |
-| nDistance | Required | [EMU](../../../Enumerations/Emu.md) | The distance from the right side of the document element to the floating object measured in English measure units. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sRelativeFrom | Required | [RelFromH](../../Enumeration/RelFromH.md) |  | The document element which will be taken as a countdown point for the object horizontal alignment. |
+| nDistance | Required | [EMU](../../Enumeration/EMU.md) |  | The distance from the right side of the document element to the floating object measured in English measure units. |
 
 ## Returns
 
@@ -24,7 +24,6 @@ This method doesn't return any data.
 This example sets the absolute measurement for the horizontal positioning of the floating object.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is a paragraph with a shape. ");
@@ -45,6 +44,4 @@ oDocument.Push(oParagraph);
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("The shape is aligned next to the right margin horizontally.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetHorPosition.docx");
-builder.CloseFile();
 ```

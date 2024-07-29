@@ -4,30 +4,29 @@ Converts a document to Markdown or HTML text.
 
 ## Syntax
 
-expression.ConvertDocument(sConvertType?, bHtmlHeadings?, bBase64img?, bDemoteHeadings?, bRenderHTMLTags?);
+expression.ConvertDocument(sConvertType, bHtmlHeadings, bBase64img, bDemoteHeadings, bRenderHTMLTags);
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sConvertType | Optional | String | Conversion type. Default value is "markdown". |
-| bHtmlHeadings | Optional | Boolean | Defines if the HTML headings and IDs will be generated when the Markdown renderer of your target platform does not handle Markdown-style IDs. Can be either of the following variants: "markdown", "html". The default value is the "false". |
-| bBase64img | Optional | Boolean | Defines if the images will be created in the base64 format. The default value is the "false". |
-| bDemoteHeadings | Optional | Boolean | Defines if all heading levels in your document will be demoted to conform with the following standard: single H1 as title, H2 as top-level heading in the text body. Defines if the images will be created in the base64 format. The default value is the "false". |
-| bRenderHTMLTags | Optional | Boolean | Defines if HTML tags will be preserved in your Markdown. If you just want to use an occasional HTML tag, you can avoid using the opening angle bracket in the following way: <tag>text</tag>. By default, the opening angle brackets will be replaced with the special characters. Defines if the images will be created in the base64 format. The default value is the "false". |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sConvertType | Optional | "markdown" &#124;"html" | "markdown" | Conversion type. |
+| bHtmlHeadings | Optional | boolean | false | Defines if the HTML headings and IDs will be generated when the Markdown renderer of your target platform does not handle Markdown-style IDs. |
+| bBase64img | Optional | boolean | false | Defines if the images will be created in the base64 format. |
+| bDemoteHeadings | Optional | boolean | false | Defines if all heading levels in your document will be demoted to conform with the following standard: single H1 as title, H2 as top-level heading in the text body. |
+| bRenderHTMLTags | Optional | boolean | false | Defines if HTML tags will be preserved in your Markdown. If you just want to use an occasional HTML tag, you can avoid using the opening angle bracketin the following way: \<tag&gt;text\</tag&gt;. By default, the opening angle brackets will be replaced with the special characters. |
 
 ## Returns
 
-String
+string
 
 ## Example
 
 This example shows how to gets your document as Markdown and paste the result into the document.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph1 = oDocument.GetElement(0);
 oParagraph1.AddText("Heading 1");
@@ -53,6 +52,4 @@ oParagraph5.AddText("Markdown").SetBold(true);
 oParagraph5.AddLineBreak();
 oParagraph5.AddText(sMarkdown);
 oDocument.Push(oParagraph5);
-builder.SaveFile("docx", "ConvertDocument.docx");
-builder.CloseFile();
 ```

@@ -8,7 +8,7 @@ expression.ToJSON();
 
 `expression` - A variable that represents a [ApiThemeFormatScheme](../ApiThemeFormatScheme.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
@@ -21,7 +21,6 @@ JSON
 This example converts the ApiThemeFormatScheme object into the JSON object.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -54,6 +53,4 @@ oChart.SetTitle("Class type = " + sType, 20);
 oChart.SetSize(300 * 36000, 130 * 36000);
 oChart.SetPosition(608400, 1267200);
 oSlide.AddObject(oChart);
-builder.SaveFile("pptx", "ToJSON.pptx");
-builder.CloseFile();
 ```

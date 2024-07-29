@@ -4,28 +4,27 @@ Sets the fill to the specified chart series.
 
 ## Syntax
 
-expression.SetSeriesFill(oFill, nSeries, bAll?) 
+expression.SetSeriesFill(oFill, nSeries, bAll);
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| oFill | Required | [ApiFill](../../ApiFill/ApiFill.md) | The fill type used to fill the series. |
-| nSeries | Required | Number | The index of the chart series. |
-| bAll | Optional | Boolean | Specifies if the fill will be applied to all series. Default value is "false". |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| oFill | Required | [ApiFill](../../ApiFill/ApiFill.md) |  | The fill type used to fill the series. |
+| nSeries | Required | number |  | The index of the chart series. |
+| bAll | Optional | boolean | false | Specifies if the fill will be applied to all series. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example sets the fill to the specified chart series.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("bar3D", [
@@ -39,6 +38,4 @@ oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 oChart.SetSeriesFill(oFill, 1, false);
 oFill = Api.CreateSolidFill(Api.CreateRGBColor(128, 128, 128));
 oChart.SetSeriesFill(oFill, 1, false);
-builder.SaveFile("docx", "SetSeriesFill.docx");
-builder.CloseFile();
 ```

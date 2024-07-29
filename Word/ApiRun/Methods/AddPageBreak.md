@@ -8,7 +8,7 @@ expression.AddPageBreak();
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
@@ -21,7 +21,6 @@ This method doesn't return any data.
 This example adds a page break and starts the next element from a new page.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oRun = Api.CreateRun();
@@ -30,6 +29,4 @@ oRun.AddPageBreak();
 oRun.AddText("This is the text which starts from the beginning of the second page. ");
 oRun.AddText("It is written in two text runs, you need a space at the end of the first run sentence to separate them.");
 oParagraph.AddElement(oRun);
-builder.SaveFile("docx", "AddPageBreak.docx");
-builder.CloseFile();
 ```

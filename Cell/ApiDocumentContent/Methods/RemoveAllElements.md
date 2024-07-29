@@ -1,7 +1,6 @@
 # RemoveAllElements
 
-Removes all the elements from the current document or from the current document element.
-<br>When all elements are removed, a new empty paragraph is automatically created. If you want to add content to this paragraph, use the [ApiDocumentContent#GetElement](../Methods/GetElement.md) method.
+Removes all the elements from the current document or from the current document element.💡 When all elements are removed, a new empty paragraph is automatically created. If you want to addcontent to this paragraph, use the {@link ApiDocumentContent#GetElement} method.
 
 ## Syntax
 
@@ -9,7 +8,7 @@ expression.RemoveAllElements();
 
 `expression` - A variable that represents a [ApiDocumentContent](../ApiDocumentContent.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
@@ -22,19 +21,16 @@ This method doesn't return any data.
 This example removes all the elements from the current document or from the current document content.
 
 ```javascript
-builder.CreateFile("xlsx");
-var oWorksheet = Api.GetActiveSheet();
+var oDocument = Api.GetDocument();
+var oParagraph = oDocument.GetElement(0);
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oShape = oWorksheet.AddShape("flowChartOnlineStorage", 60 * 36000, 35 * 36000, oFill, oStroke, 0, 2 * 36000, 0, 3 * 36000);
-var oDocContent = oShape.GetContent();
-var oParagraph = oDocContent.GetElement(0);
-oParagraph.AddText("This is just a sample paragraph.");
+var oDrawing = Api.CreateShape("rect", 3212465, 963295, oFill, oStroke);
+oParagraph.AddDrawing(oDrawing);
+var oDocContent = oDrawing.GetDocContent();
 oDocContent.RemoveAllElements();
 oParagraph = Api.CreateParagraph();
 oParagraph.SetJc("left");
 oParagraph.AddText("We removed all elements from the shape and added a new paragraph inside it.");
-oDocContent.Push(oParagraph);
-builder.SaveFile("xlsx", "RemoveAllElements.xlsx");
-builder.CloseFile();
+oDocContent.AddElement(0, oParagraph);
 ```

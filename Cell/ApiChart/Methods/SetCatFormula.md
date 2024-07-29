@@ -8,11 +8,11 @@ expression.SetCatFormula(sRange);
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sRange | Required | String | A range of cells from the sheet with the category names. For example: 1) "'sheet 1'!$A$2:$A$5" - must be a single cell, row or column, 2) "A1:A5" - must be a single cell, row or column. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sRange | Required | string |  | A range of cells from the sheet with the category names. For example:* "'sheet 1'!$A$2:$A$5" - must be a single cell, row or column,* "A1:A5" - must be a single cell, row or column. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ This method doesn't return any data.
 This example sets a range with the category values to the current chart.
 
 ```javascript
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);
@@ -46,6 +45,4 @@ var oFill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
 oChart.SetSeriesFill(oFill, 0, false);
 oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 oChart.SetSeriesFill(oFill, 1, false);
-builder.SaveFile("xlsx", "SetCatFormula.xlsx");
-builder.CloseFile();
 ```

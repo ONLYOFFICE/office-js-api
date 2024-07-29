@@ -1,6 +1,6 @@
 # SetTableHeader
 
-Specifies that the current table row will be repeated at the top of each new page wherever this table is displayed. This gives this table row the behavior of a 'header' row on each of these pages. This element can be applied to any number of rows at the top of the table structure in order to generate multi-row table headers.
+Specifies that the current table row will be repeated at the top of each new page wherever this table is displayed. This gives this table row the behavior of a 'header' row on each of these pages. This element can be applied to any number of rows at the top of the table structure in order to generate multi-row table headers.
 
 ## Syntax
 
@@ -8,11 +8,11 @@ expression.SetTableHeader(isHeader);
 
 `expression` - A variable that represents a [ApiTableRowPr](../ApiTableRowPr.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| isHeader | Required | Boolean | The true value means that the current table row will be repeated at the top of each new page. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| isHeader | Required | boolean |  | The true value means that the current table row will be repeated at the top of each new page. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ This method doesn't return any data.
 This example specifies that the current table row will be repeated at the top of each new page wherever this table is displayed.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("We create a 3x3 table and set all table rows as the table headers:");
@@ -36,6 +35,4 @@ var oTableRowPr = oTableStyle.GetTableRowPr();
 oTableRowPr.SetTableHeader(true);
 oTable.SetStyle(oTableStyle);
 oDocument.Push(oTable);
-builder.SaveFile("docx", "SetTableHeader.docx");
-builder.CloseFile();
 ```

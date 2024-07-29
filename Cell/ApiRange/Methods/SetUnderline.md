@@ -8,11 +8,11 @@ expression.SetUnderline(undelineType);
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| undelineType | Required | [XlUnderlineType](../../../Enumerations/XlUnderlineType.md) | Specifies the type of the line displayed under the characters. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| undelineType | Required | 'none' &#124;'single' &#124;'singleAccounting' &#124;'double' &#124;'doubleAccounting' |  | Specifies the type of theline displayed under the characters. The following values are available:* **"none"** - for no underlining;* **"single"** - for a single line underlining the cell contents;* **"singleAccounting"** - for a single line underlining the cell contents but not protruding beyond the cell borders;* **"double"** - for a double line underlining the cell contents;* **"doubleAccounting"** - for a double line underlining the cell contents but not protruding beyond the cell borders. |
 
 ## Returns
 
@@ -23,11 +23,8 @@ This method doesn't return any data.
 This example specifies that the contents of the current cell is displayed along with a line appearing directly below the character.
 
 ```javascript
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A2").SetValue("The text underlined with a single line");
 oWorksheet.GetRange("A2").SetUnderline("single");
 oWorksheet.GetRange("A4").SetValue("Normal text");
-builder.SaveFile("xlsx", "SetUnderline.xlsx");
-builder.CloseFile();
 ```

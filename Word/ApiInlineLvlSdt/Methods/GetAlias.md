@@ -8,20 +8,19 @@ expression.GetAlias();
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-String
+string
 
 ## Example
 
 This example showh how to get the alias attribute for the container.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oInlineLvlSdt = Api.CreateInlineLvlSdt();
@@ -34,6 +33,4 @@ var oAlias = oInlineLvlSdt.GetAlias();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Alias: " + oAlias);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetAlias.docx");
-builder.CloseFile();
 ```

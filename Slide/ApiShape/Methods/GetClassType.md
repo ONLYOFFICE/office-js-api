@@ -1,6 +1,6 @@
 # GetClassType
 
-Returns a type of the ApiShape class.
+Returns the type of the ApiShape class.
 
 ## Syntax
 
@@ -8,20 +8,19 @@ expression.GetClassType();
 
 `expression` - A variable that represents a [ApiShape](../ApiShape.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-String
+"shape"
 
 ## Example
 
 This example gets a class type and pastes it into the presentation.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 oPresentation.SetSizes(254 * 36000, 190 * 36000);
 var oSlide = oPresentation.GetCurrentSlide();
@@ -35,6 +34,4 @@ var oParagraph = oDocContent.GetElement(0);
 var sClassType = oShape.GetClassType();
 oParagraph.AddText("Class Type = " + sClassType);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "GetClassType.pptx");
-builder.CloseFile();
 ```

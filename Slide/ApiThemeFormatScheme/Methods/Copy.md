@@ -8,20 +8,19 @@ expression.Copy();
 
 `expression` - A variable that represents a [ApiThemeFormatScheme](../ApiThemeFormatScheme.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-[ApiThemeFormatScheme](../ApiThemeFormatScheme.md)
+[ApiThemeFormatScheme](../../ApiThemeFormatScheme/ApiThemeFormatScheme.md)
 
 ## Example
 
 This example creates a copy of the current theme format scheme.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oMaster = oPresentation.GetMaster(0);
 var oSlide1 = oPresentation.GetSlideByIndex(0);
@@ -53,6 +52,4 @@ var oCopyFormatScheme = oFormatScheme.Copy();
 oCopyFormatScheme.ChangeBgFillStyles([oNewBgFill1, oNewBgFill2, oNewBgFill3]);
 var oTheme2 = Api.CreateTheme("Theme 2", oMaster, oClrScheme, oCopyFormatScheme, oFontScheme);
 oSlide2.ApplyTheme(oTheme2);
-builder.SaveFile("pptx", "Copy.pptx");
-builder.CloseFile();
 ```

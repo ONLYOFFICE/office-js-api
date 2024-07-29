@@ -1,6 +1,6 @@
 # GetParent
 
-Gets parent content control.
+Returns a parent of the combo box / dropdown list content control.
 
 ## Syntax
 
@@ -8,13 +8,13 @@ expression.GetParent();
 
 `expression` - A variable that represents a [ApiContentControlList](../ApiContentControlList.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-[ApiInlineLvlSdt](../../ApiInlineLvlSdt/ApiInlineLvlSdt.md) &#124; [ApiBlockLvlSdt](../../ApiBlockLvlSdt/ApiBlockLvlSdt.md)ApiInlineLvlSdt
+ApiInlineLvlSdt, ApiBlockLvlSdt
 
 ## Example
 

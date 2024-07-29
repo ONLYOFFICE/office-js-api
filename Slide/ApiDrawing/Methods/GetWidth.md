@@ -8,20 +8,19 @@ expression.GetWidth();
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-[EMU](../../../Enumerations/Emu.md)
+[EMU](../../Enumeration/EMU.md)
 
 ## Example
 
 This example gets width of shape and inserts it into the presentation.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -34,6 +33,4 @@ var oDocContent = oShape.GetDocContent();
 var oParagraph = oDocContent.GetElement(0);
 oParagraph.AddText("Drawing width: " + nWidth);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "GetWidth.pptx");
-builder.CloseFile();
 ```

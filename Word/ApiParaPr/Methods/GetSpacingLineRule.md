@@ -8,20 +8,19 @@ expression.GetSpacingLineRule();
 
 `expression` - A variable that represents a [ApiParaPr](../ApiParaPr.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-[LineSpacingRule](../../../Enumerations/LineSpacingRule.md)
+"auto", "atLeast", "exact", undefined
 
 ## Example
 
 This example shows how to get the paragraph line spacing rule.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oParaPr = oParagraph.GetParaPr();
@@ -33,6 +32,4 @@ oParagraph.AddText("These sentences are used to add lines for demonstrative purp
 oParagraph.AddLineBreak();
 var sSpacingLineRule = oParaPr.GetSpacingLineRule();
 oParagraph.AddText("Spacing line rule: " + sSpacingLineRule);
-builder.SaveFile("docx", "GetSpacingLineRule.docx");
-builder.CloseFile();
 ```

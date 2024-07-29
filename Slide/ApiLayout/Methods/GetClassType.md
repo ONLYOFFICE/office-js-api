@@ -1,6 +1,6 @@
 # GetClassType
 
-Returns a type of the ApiLayout class.
+Returns the type of the ApiLayout class.
 
 ## Syntax
 
@@ -8,20 +8,19 @@ expression.GetClassType();
 
 `expression` - A variable that represents a [ApiLayout](../ApiLayout.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-String
+"layout"
 
 ## Example
 
 This example gets a class type and pastes it into the presentation.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -38,6 +37,4 @@ var oParagraph = oDocContent.GetElement(0);
 oParagraph.SetJc("left");
 oParagraph.AddText("Class type = " + sType);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "GetClassType.pptx");
-builder.CloseFile();
 ```

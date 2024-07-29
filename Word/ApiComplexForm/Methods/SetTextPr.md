@@ -1,28 +1,34 @@
 # SetTextPr
 
-Sets the text properties to the current form. Used if possible for this type of form.
+Sets the text properties to the current form.*Used if possible for this type of form*
 
 ## Syntax
 
-expression.
+expression.SetTextPr(oTextPr);
 
 `expression` - A variable that represents a [ApiComplexForm](../ApiComplexForm.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required/Optional | type | Description |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| oTextPr | Required | [ApiTextPr](../../ApiTextPr/ApiTextPr.md) |  | The text properties that will be set to the current form. |
 
 ## Returns
 
-return
-[return](todo_link)
+boolean
 
 ## Example
 
-This example
+This example sets the text properties to the form.
 
 ```javascript
-// todo_exampele
+var oDocument = Api.GetDocument();
+var oTextForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});
+var oParagraph = oDocument.GetElement(0);
+oParagraph.AddElement(oTextForm);
+var oTextPr = Api.CreateTextPr();
+oTextPr.SetFontSize(30);
+oTextPr.SetBold(true);
+oTextForm.SetTextPr(oTextPr);
 ```

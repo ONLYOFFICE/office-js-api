@@ -8,7 +8,7 @@ expression.ToJSON();
 
 `expression` - A variable that represents a [ApiTableRowPr](../ApiTableRowPr.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
@@ -21,7 +21,6 @@ JSON
 This example converts the ApiTableRowPr object into the JSON object.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
@@ -36,6 +35,4 @@ var oTableRowPrFromJSON = Api.FromJSON(json);
 var sType = oTableRowPrFromJSON.GetClassType();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("Class type = " + sType);
-builder.SaveFile("docx", "ToJSON.docx");
-builder.CloseFile();
 ```

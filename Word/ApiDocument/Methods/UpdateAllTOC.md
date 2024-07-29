@@ -4,15 +4,15 @@ Updates all tables of contents in the current document.
 
 ## Syntax
 
-expression.UpdateAllTOC(bOnlyPageNumbers?);
+expression.UpdateAllTOC(bOnlyPageNumbers);
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| bOnlyPageNumbers | Optional | Boolean | Specifies that only page numbers will be updated. Default value is "false". |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| bOnlyPageNumbers | Optional | boolean | false | Specifies that only page numbers will be updated. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ This method doesn't return any data.
 This example updates all tables of contents in the current document.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oNewDocumentStyle = oDocument.GetStyle("Heading 1");
 var oParagraph = oDocument.GetElement(0);
@@ -42,6 +41,4 @@ oParagraph.SetStyle(oNewDocumentStyle);
 oParagraph.AddText("Heading 2");
 oDocument.AddElement(3, oParagraph);
 oDocument.UpdateAllTOC(false);
-builder.SaveFile("docx", "UpdateAllTOC.docx");
-builder.CloseFile();
 ```

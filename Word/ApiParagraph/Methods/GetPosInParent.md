@@ -8,20 +8,19 @@ expression.GetPosInParent();
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Number (returns -1 if the paragraph parent doesn't exist)
+Number
 
 ## Example
 
 This example shows how to get the paragraph position within its parent element.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = Api.CreateParagraph();
 var oRun = Api.CreateRun();
@@ -40,6 +39,4 @@ oBlockLvlSdt.SetPlaceholderText("Content control");
 var nPosition = oParagraph.GetPosInParent();
 oParagraph = oDocument.GetElement(nPosition);
 oParagraph.SetBold(true);
-builder.SaveFile("docx", "GetPosInParent.docx");
-builder.CloseFile();
 ```

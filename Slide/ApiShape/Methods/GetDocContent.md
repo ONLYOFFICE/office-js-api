@@ -1,6 +1,6 @@
 # GetDocContent
 
-Deprecated in 6.2. Returns the shape inner contents where a paragraph or text runs can be inserted.
+Deprecated in 6.2.Returns the shape inner contents where a paragraph or text runs can be inserted.
 
 ## Syntax
 
@@ -8,20 +8,19 @@ expression.GetDocContent();
 
 `expression` - A variable that represents a [ApiShape](../ApiShape.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-[ApiDocumentContent](../../ApiDocumentContent/ApiDocumentContent.md) &#124; null
+[ApiDocumentContent](../../ApiDocumentContent/ApiDocumentContent.md)
 
 ## Example
 
 This example shows how to get the shape inner contents where a paragraph or text runs can be inserted.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 oPresentation.SetSizes(254 * 36000, 190 * 36000);
 var oSlide = oPresentation.GetCurrentSlide();
@@ -38,6 +37,4 @@ oParagraph.AddText("We removed all elements from the shape and added a new parag
 oParagraph.AddText("aligning it vertically by the bottom.");
 oDocContent.Push(oParagraph);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "GetDocContent.pptx");
-builder.CloseFile();
 ```

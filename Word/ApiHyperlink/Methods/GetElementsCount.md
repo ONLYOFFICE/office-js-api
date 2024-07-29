@@ -8,20 +8,19 @@ expression.GetElementsCount();
 
 `expression` - A variable that represents a [ApiHyperlink](../ApiHyperlink.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Number
+number
 
 ## Example
 
 This example shows how to get a number of elements in the hyperlink.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oRun1 = Api.CreateRun();
@@ -37,6 +36,4 @@ oParagraph.AddText("Number of elements in hyperlink: " + nElementsCount);
 oParagraph.AddLineBreak();
 oParagraph.AddText("Elements: oParagraph, oRun1, oRun2, oHyperlink");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetElementsCount.docx");
-builder.CloseFile();
 ```

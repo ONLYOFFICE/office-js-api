@@ -8,20 +8,19 @@ expression.GetText();
 
 `expression` - A variable that represents a [ApiCommentReply](../ApiCommentReply.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-String
+string
 
 ## Example
 
 This example shows how to get the comment reply text.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is just a sample text");
@@ -33,6 +32,4 @@ var sText = oCommentReply.GetText();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Comment reply text: " + sText);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetText.docx");
-builder.CloseFile();
 ```

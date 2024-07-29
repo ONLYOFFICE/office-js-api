@@ -8,22 +8,21 @@ expression.SetCellPr(oApiTableCellPr);
 
 `expression` - A variable that represents a [ApiTableCell](../ApiTableCell.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| oApiTableCellPr | Required | [ApiTableCellPr](../../ApiTableCellPr/ApiTableCellPr.md) | The properties that will be set to the current table cell. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| oApiTableCellPr | Required | [ApiTableCellPr](../../ApiTableCellPr/ApiTableCellPr.md) |  | The properties that will be set to the current table cell. |
 
 ## Returns
 
-Boolean (returns false if param is invalid)
+boolean
 
 ## Example
 
 This example sets the cell properties to the current cell.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
@@ -40,6 +39,4 @@ oTable2.SetStyle(oTableStyle);
 oTable2.GetCell(0, 0).GetContent().GetElement(0).AddText("Cell 1");
 oDocument.Push(oTable2);
 oTable2.GetCell(0, 0).SetCellPr(oTableCellPr);
-builder.SaveFile("docx", "SetCellPr.docx");
-builder.CloseFile();
 ```

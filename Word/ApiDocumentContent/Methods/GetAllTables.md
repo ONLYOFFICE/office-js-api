@@ -8,20 +8,19 @@ expression.GetAllTables();
 
 `expression` - A variable that represents a [ApiDocumentContent](../ApiDocumentContent.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Array<[ApiTable](../../ApiTable/ApiTable.md)>
+Array.<[ApiParagraph](../../ApiParagraph/ApiParagraph.md)>
 
 ## Example
 
 This example showh how to get an array of all tables from the document content.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
@@ -40,6 +39,4 @@ oParagraph = Api.CreateParagraph();
 oParagraph.AddText("This is just a sample text in the first cell.");
 var oCell = aTables[0].GetCell(0,0);
 aTables[0].AddElement(oCell, 0, oParagraph);
-builder.SaveFile("docx", "GetAllTables.docx");
-builder.CloseFile();
 ```

@@ -1,10 +1,9 @@
 # ApiProtectedRangeUserInfo
 
-Class representing a user-protected range info.
+Represents the ApiProtectedRangeUserInfo class.
 
 ## Methods
-SetTitle
- 
+
 - [GetName](./Methods/GetName.md)
 - [GetType](./Methods/GetType.md)
 - [GetId](./Methods/GetId.md)

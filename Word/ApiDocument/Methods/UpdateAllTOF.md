@@ -4,15 +4,15 @@ Updates all tables of figures in the current document.
 
 ## Syntax
 
-expression.UpdateAllTOF(bOnlyPageNumbers?);
+expression.UpdateAllTOF(bOnlyPageNumbers);
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| bOnlyPageNumbers | Optional | Boolean | Specifies that only page numbers will be updated. Default value is "false". |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| bOnlyPageNumbers | Optional | boolean | false | Specifies that only page numbers will be updated. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ This method doesn't return any data.
 This example updates all tables of figures in the current document.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("bar3D", [
@@ -47,6 +46,4 @@ oParagraph.AddDrawing(oDrawing);
 oDocument.AddElement(2, oParagraph);
 oParagraph.AddCaption(" - Sample shape", "Figure", false, "Arabic", false, undefined, "hyphen");
 oDocument.UpdateAllTOF(false);
-builder.SaveFile("docx", "UpdateAllTOF.docx");
-builder.CloseFile();
 ```

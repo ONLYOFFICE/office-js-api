@@ -1,22 +1,22 @@
 # SetValue
 
-Sets a string that represents the display text of a list item for a drop-down list or combo box content control.
+Sets a String that represents the value of a list item for the combo box / dropdown list content control.
 
 ## Syntax
 
-expression.SetValue(sText);
+expression.SetValue(sValue);
 
 `expression` - A variable that represents a [ApiContentControlListEntry](../ApiContentControlListEntry.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sText | Required | String | a string that represents the display text of a list item for a drop-down list or combo box content control |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sValue | Required | string |  | The value of a list item. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 

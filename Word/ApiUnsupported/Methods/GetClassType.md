@@ -8,13 +8,13 @@ expression.GetClassType();
 
 `expression` - A variable that represents a [ApiUnsupported](../ApiUnsupported.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-String
+"unsupported"
 
 ## Example
 

@@ -1,0 +1,22 @@
+# WEIBULL_DIST
+
+Returns the Weibull distribution.
+
+## Syntax
+
+expression.WEIBULL_DIST(arg1, arg2, arg3, arg4);
+
+`expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
+
+## Parameters
+
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| arg1 | Required | number |  | The value at which to evaluate the function, a nonnegative number. |
+| arg2 | Required | number |  | The alpha parameter of the distribution, a positive number. |
+| arg3 | Required | number |  | The beta parameter of the distribution, a positive number. |
+| arg4 | Required | boolean |  | A logical value (**true** or **false**) that determines the function form.If it is **true**, the function returns the cumulative distribution function.If it is **false**, the function returns the probability mass function. |
+
+## Returns
+
+number

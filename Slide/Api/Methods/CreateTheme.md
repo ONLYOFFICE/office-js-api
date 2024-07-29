@@ -8,26 +8,25 @@ expression.CreateTheme(sName, oMaster, oClrScheme, oFormatScheme, oFontScheme);
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sName | Required | String | Theme name. |
-| oMaster | Required | [ApiMaster](../../ApiMaster/ApiMaster.md) | Slide master. Required parameter. |
-| oClrScheme | Required | [ApiThemeColorScheme](../../ApiThemeColorScheme/ApiThemeColorScheme.md) | Theme color scheme. Required parameter. |
-| oFormatScheme | Required | [ApiThemeFormatScheme](../../ApiThemeFormatScheme/ApiThemeFormatScheme.md) | Theme format scheme. Required parameter. |
-| oFontScheme | Required | [ApiThemeFontScheme](../../ApiThemeFontScheme/ApiThemeFontScheme.md) | Theme font scheme. Required parameter. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sName | Required | string |  | Theme name. |
+| oMaster | Required | [ApiMaster](../../ApiMaster/ApiMaster.md) |  | Slide master. Required parameter. |
+| oClrScheme | Required | [ApiThemeColorScheme](../../ApiThemeColorScheme/ApiThemeColorScheme.md) |  | Theme color scheme. Required parameter. |
+| oFormatScheme | Required | [ApiThemeFormatScheme](../../ApiThemeFormatScheme/ApiThemeFormatScheme.md) |  | Theme format scheme. Required parameter. |
+| oFontScheme | Required | [ApiThemeFontScheme](../../ApiThemeFontScheme/ApiThemeFontScheme.md) |  | Theme font scheme. Required parameter. |
 
 ## Returns
 
-[ApiTheme](../../ApiTheme/ApiTheme.md) &#124; null
+ApiTheme, null
 
 ## Example
 
 This example creates theme and applies it for presentation.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -48,6 +47,4 @@ var oFormatScheme = Api.CreateThemeFormatScheme([oFill1, oFill2, oFill3], [oBgFi
 var oFontScheme = Api.CreateThemeFontScheme("Arial", "Noto Sans Simplified Chinese", "Arabic", "Times New Roman", "Noto Serif Simplified Chinese", "Arabic", "New font scheme");
 var oTheme = Api.CreateTheme("New theme", oMaster, oClrScheme, oFormatScheme, oFontScheme);
 oPresentation.ApplyTheme(oTheme);
-builder.SaveFile("pptx", "CreateTheme.pptx");
-builder.CloseFile();
 ```

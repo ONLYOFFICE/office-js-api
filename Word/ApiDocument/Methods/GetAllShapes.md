@@ -1,6 +1,6 @@
 # GetAllShapes
 
-Returns a collection of shape objects from the document content.<br>Inherited From: [ApiDocumentContent#GetAllShapes](../../ApiDocumentContent/Methods/GetAllShapes.md)
+Returns a collection of shape objects from the document content.
 
 ## Syntax
 
@@ -8,33 +8,37 @@ expression.GetAllShapes();
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Array<[ApiShape](../../ApiShape/ApiShape.md)>
+Array.<[ApiShape](../../ApiShape/ApiShape.md)>
 
 ## Example
 
-This example shows how to get a collection of shape objects from the document.
+This example shows how to get a collection of shape objects from the document content.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
-var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);
-var oGs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);
-var oFill = Api.CreateLinearGradientFill([oGs1, oGs2], 5400000);
+var oFill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oDrawing1 = Api.CreateShape("rect", 3212465, 963295, oFill, oStroke);
-oParagraph.AddDrawing(oDrawing1);
-var oDrawing2 = Api.CreateShape("wave", 3212465, 963295, oFill, oStroke);
-oParagraph.AddDrawing(oDrawing2);
-var aDrawings = oDocument.GetAllShapes();
-oFill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
-aDrawings[1].Fill(oFill);
-builder.SaveFile("docx", "GetAllShapes.docx");
-builder.CloseFile();
+var oShape1 = Api.CreateShape("rect", 95 * 36000, 85 * 36000, oFill, oStroke);
+oParagraph.AddDrawing(oShape1);
+oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+oStroke = Api.CreateStroke(0, Api.CreateNoFill());
+var oShape2 = Api.CreateShape("ellipse", 90 * 36000, 80 * 36000, oFill, oStroke);
+oParagraph = Api.CreateParagraph();
+oParagraph.AddDrawing(oShape2);
+var oDocContent = oShape1.GetDocContent();
+oDocContent.AddElement(0, oParagraph);
+var aShapes = oDocContent.GetAllShapes();
+oDocContent = aShapes[0].GetDocContent();
+var sClassType = aShapes[0].GetClassType();
+oParagraph = oDocContent.GetElement(0);
+oParagraph.AddText("Class Type = " + sClassType);
+oParagraph.SetColor(51, 51, 51);
+aShapes[0].SetVerticalTextAlign("bottom");
 ```

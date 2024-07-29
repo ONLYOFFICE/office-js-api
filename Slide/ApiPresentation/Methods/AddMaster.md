@@ -4,27 +4,26 @@ Adds the slide master to the presentation slide masters collection.
 
 ## Syntax
 
-expression.AddMaster(nPos?, oApiMaster);
+expression.AddMaster(nPos, oApiMaster);
 
 `expression` - A variable that represents a [ApiPresentation](../ApiPresentation.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nPos | Optional | Number | The position where the Master will be added. Default value is "ApiPresentation.GetMastersCount()". |
-| oApiMaster | Required | [ApiMaster](../../ApiMaster/ApiMaster.md) | The slide master to be added. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nPos | Optional | number | ApiPresentation.GetMastersCount() | No description provided. |
+| oApiMaster | Required | [ApiMaster](../../ApiMaster/ApiMaster.md) |  | The slide master to be added. |
 
 ## Returns
 
-Boolean (return false if position is invalid or oApiMaster doesn't exist)
+boolean
 
 ## Example
 
 This example adds the slide master to the presentation slide masters collection.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = Api.CreateMaster();
@@ -44,6 +43,4 @@ oParagraph.AddLineBreak();
 oParagraph.AddText("Number of masters after adding new master: " + nCountAfter);
 oSlide.RemoveAllObjects();
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "AddMaster.pptx");
-builder.CloseFile();
 ```

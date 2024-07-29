@@ -8,20 +8,19 @@ expression.GetPosInParent();
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Number (returns -1 if the content control parent doesn't exist)
+Number
 
 ## Example
 
 This example shows how to get the content control position within its parent element.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = Api.CreateParagraph();
 var oRun = Api.CreateRun();
@@ -39,6 +38,4 @@ oDocument.AddElement(0, oBlockLvlSdt);
 var nPosition = oBlockLvlSdt.GetPosInParent();
 oBlockLvlSdt = oDocument.GetElement(nPosition);
 oBlockLvlSdt.SetPlaceholderText("Content control");
-builder.SaveFile("docx", "GetPosInParent.docx");
-builder.CloseFile();
 ```

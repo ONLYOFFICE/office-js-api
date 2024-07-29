@@ -8,20 +8,19 @@ expression.GetSlidesCount();
 
 `expression` - A variable that represents a [ApiPresentation](../ApiPresentation.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Number
+number
 
 ## Example
 
 This example shows how to get a number of slides.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide1 = oPresentation.GetSlideByIndex(0);
 var oSlide2 = Api.CreateSlide();
@@ -38,6 +37,4 @@ var oParagraph = oDocContent.GetElement(0);
 oParagraph.SetJc("left");
 oParagraph.AddText("Number of slides = " + nSlides);
 oSlide1.AddObject(oShape);
-builder.SaveFile("pptx", "GetSlidesCount.pptx");
-builder.CloseFile();
 ```

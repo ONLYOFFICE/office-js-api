@@ -1,6 +1,6 @@
 # GetElementsCount
 
-Gets items count of the list of values of combobox/listbox.
+Returns a number of items of the combo box / dropdown list content control.
 
 ## Syntax
 
@@ -8,13 +8,13 @@ expression.GetElementsCount();
 
 `expression` - A variable that represents a [ApiContentControlList](../ApiContentControlList.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Number
+number
 
 ## Example
 

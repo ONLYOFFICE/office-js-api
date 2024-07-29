@@ -8,20 +8,19 @@ expression.GetAllDrawingObjects();
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Array<[ApiDrawing](../../ApiDrawing/ApiDrawing.md)>
+Array.<[ApiDrawing](../../ApiDrawing/ApiDrawing.md)>
 
 ## Example
 
 This example shows how to get a collection of drawing objects in the content control.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = Api.CreateParagraph();
 var oBlockLvlSdt = Api.CreateBlockLvlSdt();
@@ -37,6 +36,4 @@ oBlockLvlSdt.AddElement(oParagraph, 0);
 oDocument.AddElement(0, oBlockLvlSdt);
 var arrAllDrawingObjects = oBlockLvlSdt.GetAllDrawingObjects();
 arrAllDrawingObjects[0].Delete();
-builder.SaveFile("docx", "GetAllDrawingObjects.docx");
-builder.CloseFile();
 ```

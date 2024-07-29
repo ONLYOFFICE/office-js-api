@@ -1,13 +1,13 @@
 # ApiCommentReply
 
-Class representing a comment reply.
+Represents the ApiCommentReply class.
 
 ## Methods
 
-- [GetAuthorName](./Methods/GetAuthorName.md)
 - [GetClassType](./Methods/GetClassType.md)
 - [GetText](./Methods/GetText.md)
-- [GetUserId](./Methods/GetUserId.md)
-- [SetAuthorName](./Methods/SetAuthorName.md)
 - [SetText](./Methods/SetText.md)
+- [GetAuthorName](./Methods/GetAuthorName.md)
+- [SetAuthorName](./Methods/SetAuthorName.md)
+- [GetUserId](./Methods/GetUserId.md)
 - [SetUserId](./Methods/SetUserId.md)

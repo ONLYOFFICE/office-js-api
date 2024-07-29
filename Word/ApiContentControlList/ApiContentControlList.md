@@ -1,14 +1,13 @@
 # ApiContentControlList
 
-Class representing a ContentControlList.
+Represents the ApiContentControlList class.
 
-todo_examples we don't have ability to create such object from code.
 ## Methods
 
-- [Clear](./Methods/Clear.md)
-- [GetAllItems](./Methods/GetAllItems.md)
 - [GetClassType](./Methods/GetClassType.md)
+- [GetAllItems](./Methods/GetAllItems.md)
 - [GetElementsCount](./Methods/GetElementsCount.md)
-- [GetItem](./Methods/GetItem.md)
-- [GetItem](./Methods/GetItem.md)
 - [GetParent](./Methods/GetParent.md)
+- [Add](./Methods/Add.md)
+- [Clear](./Methods/Clear.md)
+- [GetItem](./Methods/GetItem.md)

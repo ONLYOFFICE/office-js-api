@@ -1,11 +1,11 @@
 # ApiThemeColorScheme
 
-Class representing a theme color scheme.
+Represents the ApiThemeColorScheme class.
 
 ## Methods
 
-- [ChangeColor](./Methods/ChangeColor.md)
-- [Copy](./Methods/Copy.md)
 - [GetClassType](./Methods/GetClassType.md)
 - [SetSchemeName](./Methods/SetSchemeName.md)
+- [ChangeColor](./Methods/ChangeColor.md)
+- [Copy](./Methods/Copy.md)
 - [ToJSON](./Methods/ToJSON.md)

@@ -1,7 +1,6 @@
 # RemoveAllElements
 
-Removes all the elements from the current document or from the current document element.<br>Inherited From: [ApiDocumentContent#RemoveAllElements](../../ApiDocumentContent/Methods/RemoveAllElements.md)
-<br>When all elements are removed, a new empty paragraph is automatically created. If you want to add content to this paragraph, use the [ApiDocumentContent#GetElement](../../ApiDocumentContent/Methods/GetElement.md) method.
+Removes all the elements from the current document or from the current document element.💡 When all elements are removed, a new empty paragraph is automatically created. If you want to addcontent to this paragraph, use the {@link ApiDocumentContent#GetElement} method.
 
 ## Syntax
 
@@ -9,7 +8,7 @@ expression.RemoveAllElements();
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
@@ -19,17 +18,19 @@ This method doesn't return any data.
 
 ## Example
 
-This example removes all the elements from the current document or from the current document element.
+This example removes all the elements from the current document or from the current document content.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
-oDocument.RemoveAllElements();
-var oParagraph = Api.CreateParagraph();
-oParagraph.AddText("This is the first paragraph. ");
-oParagraph.AddText("We removed all document elements (including the first paragraph, created by default). ");
-oParagraph.AddText("This paragraph now took its place.");
-oDocument.AddElement(0, oParagraph);
-builder.SaveFile("docx", "RemoveAllElements.docx");
-builder.CloseFile();
+var oParagraph = oDocument.GetElement(0);
+var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
+var oDrawing = Api.CreateShape("rect", 3212465, 963295, oFill, oStroke);
+oParagraph.AddDrawing(oDrawing);
+var oDocContent = oDrawing.GetDocContent();
+oDocContent.RemoveAllElements();
+oParagraph = Api.CreateParagraph();
+oParagraph.SetJc("left");
+oParagraph.AddText("We removed all elements from the shape and added a new paragraph inside it.");
+oDocContent.AddElement(0, oParagraph);
 ```

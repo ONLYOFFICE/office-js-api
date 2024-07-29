@@ -1,29 +1,28 @@
 # GetRow
 
-Returns a row by its index.
+Returns a table row by its position in the table.
 
 ## Syntax
 
-expression.GetRow(nIndex);
+expression.GetRow(nPos);
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nIndex | Required | Number | The row index (position) in the table. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nPos | Required | number |  | The row position within the table. |
 
 ## Returns
 
-[ApiTableRow](../../ApiTableRow/ApiTableRow.md) &#124; null (returns null if param is invalid)
+ApiTableRow, null
 
 ## Example
 
 This example shows how to get a row by its index.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("We create a 2x2 table and add a new row, so that it becomes 2x3:");
@@ -34,6 +33,4 @@ oTable.SetWidth("percent", 100);
 oTable.SetStyle(oTableStyle);
 oTable.AddRow(oTable.GetRow(1).GetCell(0), true);
 oDocument.Push(oTable);
-builder.SaveFile("docx", "GetRow.docx");
-builder.CloseFile();
 ```

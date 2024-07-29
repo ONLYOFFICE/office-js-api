@@ -1,6 +1,6 @@
 # GetElement
 
-Returns an element by its position in the document.<br>Inherited From: [ApiDocumentContent#GetElement](../../ApiDocumentContent/Methods/GetElement.md)
+Returns an element by its position in the document.
 
 ## Syntax
 
@@ -8,27 +8,24 @@ expression.GetElement(nPos);
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nPos | Required | Number | The element position that will be taken from the document. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nPos | Required | number |  | The element position that will be taken from the document. |
 
 ## Returns
 
-[DocumentElement](../../../Enumerations/DocumentElement.md) &#124; null
+[DocumentElement](../../Enumeration/DocumentElement.md)
 
 ## Example
 
-This example shows how to get an element by its position in the document.
+This example shows how to get an element by its position in the document content.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oRun = Api.CreateRun();
-oRun.AddText("This is just a sample text. Nothing special.");
-oParagraph.AddElement(oRun);
-builder.SaveFile("docx", "GetElement.docx");
-builder.CloseFile();
+var oSection = oDocument.GetFinalSection();
+var oDocContent = oSection.GetHeader("default", true);
+var oParagraph = oDocContent.GetElement(0);
+oParagraph.AddText("This is the text in the default header");
 ```

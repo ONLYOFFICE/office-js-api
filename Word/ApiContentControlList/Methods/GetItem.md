@@ -1,18 +1,18 @@
 # GetItem
 
-Gets the item of values of combobox/dropdown list.
+Returns an item of the combo box / dropdown list content control by the position specified in the request.
 
 ## Syntax
 
-expression.
+expression.GetItem(nIndex);
 
 `expression` - A variable that represents a [ApiContentControlList](../ApiContentControlList.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nIndex | Required | Number | The element position that will be taken from the comb. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nIndex | Required | number |  | Item position. |
 
 ## Returns
 

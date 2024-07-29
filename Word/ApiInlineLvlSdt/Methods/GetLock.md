@@ -8,20 +8,19 @@ expression.GetLock();
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-[SdtLock](../../../Enumerations/SdtLock.md)
+[SdtLock](../../Enumeration/SdtLock.md)
 
 ## Example
 
 This example shows hpw to get the lock type of the container.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oInlineLvlSdt = Api.CreateInlineLvlSdt();
@@ -34,6 +33,4 @@ var sLock = oInlineLvlSdt.GetLock();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Lock type: " + sLock);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetLock.docx");
-builder.CloseFile();
 ```

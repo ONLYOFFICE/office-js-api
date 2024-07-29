@@ -8,22 +8,21 @@ expression.SetApplicationId(sAppId);
 
 `expression` - A variable that represents a [ApiOleObject](../ApiOleObject.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sAppId | Required | String | The application ID associated with the current OLE object. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sAppId | Required | string |  | The application ID associated with the current OLE object. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example sets the application ID to the current OLE object.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -32,6 +31,4 @@ oOleObject.SetSize(200 * 36000, 130 * 36000);
 oOleObject.SetPosition(70 * 36000, 30 * 36000);
 oSlide.AddObject(oOleObject);
 oOleObject.SetApplicationId("asc.{E5773A43-F9B3-4E81-81D9-CE0A132470E7}");
-builder.SaveFile("pptx", "SetApplicationId.pptx");
-builder.CloseFile();
 ```

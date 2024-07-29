@@ -8,17 +8,17 @@ expression.CreateThemeFontScheme(mjLatin, mjEa, mjCs, mnLatin, mnEa, mnCs, sName
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| mjLatin | Required | String | The major theme font applied to the latin text. |
-| mjEa | Required | String | The major theme font applied to the east asian text. |
-| mjCs | Required | String | The major theme font applied to the complex script text. |
-| mnLatin | Required | String | The minor theme font applied to the latin text. |
-| mnEa | Required | String | The minor theme font applied to the east asian text. |
-| mnCs | Required | String | The minor theme font applied to the complex script text. |
-| sName | Required | String | Theme font scheme name. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| mjLatin | Required | string |  | The major theme font applied to the latin text. |
+| mjEa | Required | string |  | The major theme font applied to the east asian text. |
+| mjCs | Required | string |  | The major theme font applied to the complex script text. |
+| mnLatin | Required | string |  | The minor theme font applied to the latin text. |
+| mnEa | Required | string |  | The minor theme font applied to the east asian text. |
+| mnCs | Required | string |  | The minor theme font applied to the complex script text. |
+| sName | Required | string |  | Theme font scheme name. |
 
 ## Returns
 
@@ -29,7 +29,6 @@ expression.CreateThemeFontScheme(mjLatin, mjEa, mjCs, mnLatin, mnEa, mnCs, sName
 This example shows how to create a new theme font scheme.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -61,6 +60,4 @@ var oParagraph = oDocContent.GetElement(0);
 oParagraph.SetJc("left");
 oParagraph.AddText("This text is written in the Times New Roman font.");
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "CreateThemeFontScheme.pptx");
-builder.CloseFile();
 ```

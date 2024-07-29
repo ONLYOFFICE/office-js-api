@@ -8,22 +8,21 @@ expression.GetElement(nPos);
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nPos | Required | Number | The position where the element which content we want to get must be located. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nPos | Required | number |  | The position where the element which content we want to get must be located. |
 
 ## Returns
 
-[ParagraphContent](../../../Enumerations/ParagraphContent.md) &#124; null
+[ParagraphContent](../../Enumeration/ParagraphContent.md)
 
 ## Example
 
 This example shows how to get a paragraph element using the position specified.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = Api.CreateParagraph();
 oParagraph.RemoveAllElements();
@@ -39,6 +38,4 @@ oParagraph.AddElement(oRun);
 oRun = oParagraph.GetElement(1);
 oRun.SetBold(true);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetElement.docx");
-builder.CloseFile();
 ```

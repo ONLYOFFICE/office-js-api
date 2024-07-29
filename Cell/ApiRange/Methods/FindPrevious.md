@@ -1,6 +1,6 @@
 # FindPrevious
 
-Continues a search that was begun with the [ApiRange#Find](./Find.md) method. Finds the previous cell that matches those same conditions and returns the ApiRange object that represents that cell. This does not affect the selection or the active cell.
+Continues a search that was begun with the {@link ApiRange#Find} method. Finds the previous cell that matches those same conditions and returns the ApiRange object that represents that cell. This does not affect the selection or the active cell.
 
 ## Syntax
 
@@ -8,22 +8,21 @@ expression.FindPrevious(Before);
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| Before | Required | [ApiRange](../ApiRange.md) | The cell before which the search will start. If this argument is not specified, the search starts from the last cell found. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| Before | Required | [ApiRange](../../ApiRange/ApiRange.md) |  | The cell before which the search will start. If this argument is not specified, the search starts from the last cell found. |
 
 ## Returns
 
-[ApiRange](../ApiRange.md) &#124; null (returns null if the range does not contain such text)
+ApiRange, null
 
 ## Example
 
 This example finds the previous cell that matches those same conditions.
 
 ```javascript
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);
@@ -47,6 +46,4 @@ var oNextSearchRange = oRange.FindNext(oSearchRange);
 oNextSearchRange.SetFillColor(Api.CreateColorFromRGB(255, 213, 191));
 var oPrevSearchRange = oRange.FindPrevious(oNextSearchRange);
 oPrevSearchRange.SetValue(0);
-builder.SaveFile("xlsx", "FindPrevious.xlsx");
-builder.CloseFile();
 ```

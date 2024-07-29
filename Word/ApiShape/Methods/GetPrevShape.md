@@ -8,20 +8,19 @@ expression.GetPrevShape();
 
 `expression` - A variable that represents a [ApiShape](../ApiShape.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-[ApiShape](../ApiShape.md) &#124; null (returns null is shape is first)
+ApiShape, null
 
 ## Example
 
 This example shows how to get the previous inline shape.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);
@@ -35,6 +34,4 @@ oParagraph.AddDrawing(oShape2);
 var oPrevShape = oShape2.GetPrevShape();
 oFill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
 oPrevShape.Fill(oFill);
-builder.SaveFile("docx", "GetPrevShape.docx");
-builder.CloseFile();
 ```

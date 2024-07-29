@@ -8,20 +8,19 @@ expression.GetAllParagraphs();
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Array<[ApiParagraph](../../ApiParagraph/ApiParagraph.md)>
+Array.<[ApiParagraph](../../ApiParagraph/ApiParagraph.md)>
 
 ## Example
 
 This example shows how to get a collection of paragraph objects in the content control.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oBlockLvlSdt = Api.CreateBlockLvlSdt();
 var oParagraph1 = Api.CreateParagraph();
@@ -33,6 +32,4 @@ oBlockLvlSdt.AddElement(oParagraph2, 1);
 oDocument.AddElement(0, oBlockLvlSdt);
 var aParagraphs = oBlockLvlSdt.GetAllParagraphs();
 aParagraphs[0].SetBold(true);
-builder.SaveFile("docx", "GetAllParagraphs.docx");
-builder.CloseFile();
 ```

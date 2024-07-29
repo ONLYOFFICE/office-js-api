@@ -8,20 +8,19 @@ expression.GetFontNames();
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Array<String>
+Array.<string>
 
 ## Example
 
 This example shows how to get all font names from all elements inside the run.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oRun = Api.CreateRun();
@@ -37,6 +36,4 @@ for (let i = 0; i < aFontNames.length; i++ ){
 	oParagraph.AddLineBreak();
 }
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetFontNames.docx");
-builder.CloseFile();
 ```

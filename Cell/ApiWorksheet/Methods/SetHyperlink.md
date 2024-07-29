@@ -8,28 +8,16 @@ expression.SetHyperlink(sRange, sAddress, subAddress, sScreenTip, sTextToDisplay
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sRange | Required | String | The range where the hyperlink will be added to. |
-| sAddress | Required | String | The link address. |
-| subAddress | Required | String | The link subaddress to insert internal sheet hyperlinks. |
-| sScreenTip | Required | String | The screen tip text. |
-| sTextToDisplay | Required | String | The link text that will be displayed on the sheet. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sRange | Required | string |  | The range where the hyperlink will be added to. |
+| sAddress | Required | string |  | The link address. |
+| subAddress | Required | string |  | The link subaddress to insert internal sheet hyperlinks. |
+| sScreenTip | Required | string |  | The screen tip text. |
+| sTextToDisplay | Required | string |  | The link text that will be displayed on the sheet.* @see office-js-api/Examples/Cell/ApiWorksheet/Methods/SetHyperlink.js |
 
 ## Returns
 
 This method doesn't return any data.
-
-## Example
-
-This example adds a hyperlink to the specified range.
-
-```javascript
-builder.CreateFile("xlsx");
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.SetHyperlink("A1", "https://api.onlyoffice.com/docbuilder/basic", "Api ONLYOFFICE", "ONLYOFFICE for developers");
-builder.SaveFile("xlsx", "SetHyperlink.xlsx");
-builder.CloseFile();
-```

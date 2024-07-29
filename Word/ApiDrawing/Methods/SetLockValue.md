@@ -8,23 +8,22 @@ expression.SetLockValue(sType, bValue);
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sType | Required | [DrawingLockType](../../../Enumerations/DrawingLockType.md) | Lock type in the string format. |
-| bValue | Required | Boolean | Specifies if the specified lock is applied to the current drawing. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sType | Required | [DrawingLockType](../../Enumeration/DrawingLockType.md) |  | Lock type in the string format. |
+| bValue | Required | bool |  | Specifies if the specified lock is applied to the current drawing. |
 
 ## Returns
 
-Boolean
+bool
 
 ## Example
 
 This example sets the lock value to the specified lock type of the current drawing.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);
@@ -39,6 +38,4 @@ var bLockValue = oDrawing.GetLockValue("noSelect");
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("This drawing cannot be selected: " + bLockValue);
 oDocContent.AddElement(0, oParagraph);
-builder.SaveFile("docx", "SetLockValue.docx");
-builder.CloseFile();
 ```

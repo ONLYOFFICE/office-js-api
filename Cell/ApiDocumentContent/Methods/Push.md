@@ -8,32 +8,31 @@ expression.Push(oElement);
 
 `expression` - A variable that represents a [ApiDocumentContent](../ApiDocumentContent.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| oElement | Required | [DocumentElement](../../../Enumerations/DocumentElement.md) | The element type which will be pushed to the document. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| oElement | Required | [DocumentElement](../../Enumeration/DocumentElement.md) |  | The element type which will be pushed to the document. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example pushes 5 paragraphs to actually add its to the document content.
 
 ```javascript
-builder.CreateFile("xlsx");
-var oWorksheet = Api.GetActiveSheet();
+var oDocument = Api.GetDocument();
+var oParagraph = oDocument.GetElement(0);
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oShape = oWorksheet.AddShape("flowChartOnlineStorage", 60 * 36000, 35 * 36000, oFill, oStroke, 0, 2 * 36000, 0, 3 * 36000);
-var oDocContent = oShape.GetContent();
+var oDrawing = Api.CreateShape("rect", 3212465, 963295, oFill, oStroke);
+oParagraph.AddDrawing(oDrawing);
+var oDocContent = oDrawing.GetDocContent();
 oDocContent.RemoveAllElements();
-var oParagraph = Api.CreateParagraph();
+oParagraph = Api.CreateParagraph();
 oParagraph.SetJc("left");
 oParagraph.AddText("We removed all elements from the shape and added a new paragraph inside it.");
 oDocContent.Push(oParagraph);
-builder.SaveFile("xlsx", "Push.xlsx");
-builder.CloseFile();
 ```

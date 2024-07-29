@@ -8,20 +8,19 @@ expression.GetRowsCount();
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Number
+number
 
 ## Example
 
 This example shows how to get a number of rows in the table.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("We create a 2x2 table and add a new row, so that it becomes 2x3:");
@@ -38,6 +37,4 @@ oParagraph = Api.CreateParagraph();
 oParagraph.AddText("The table above had " + nTableRowsNumber + " rows before we added a new one. ");
 oParagraph.AddText("Now this table has " + nTableRowsNumber1 + " rows.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetRowsCount.docx");
-builder.CloseFile();
 ```

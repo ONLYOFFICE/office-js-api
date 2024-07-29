@@ -8,23 +8,21 @@ expression.GetFullName();
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-String
+string
 
 ## Example
 
-This example shows how to get the full name of the currently opened file.
+This example gets a document name and inserts it into the document.
 
 ```javascript
-builder.CreateFile("xlsx");
-var oWorksheet = Api.GetActiveSheet();
+var oDocument = Api.GetDocument();
 var sName = Api.GetFullName();
-oWorksheet.GetRange("B1").SetValue("File name: " + sName);
-builder.SaveFile("xlsx", "GetFullName.xlsx");
-builder.CloseFile();
+var oParagraph = oDocument.GetElement(0);
+oParagraph.AddText("File name: " + sName);
 ```

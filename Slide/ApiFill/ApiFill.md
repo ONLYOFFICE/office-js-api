@@ -1,6 +1,6 @@
 # ApiFill
 
-Class representing a base class for fill.
+Represents the ApiFill class.
 
 ## Methods
 

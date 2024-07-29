@@ -8,7 +8,7 @@ expression.RemoveAllObjects();
 
 `expression` - A variable that represents a [ApiSlide](../ApiSlide.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
@@ -21,7 +21,6 @@ This method doesn't return any data.
 This example removes all the objects from the current slide.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 oPresentation.SetSizes(254 * 36000, 190 * 36000);
 var oSlide = oPresentation.GetCurrentSlide();
@@ -40,6 +39,4 @@ var oDocContent = oShape.GetDocContent();
 var oParagraph = oDocContent.GetElement(0);
 oParagraph.AddText("All objects were removed from this slide before adding this shape.");
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "RemoveAllObjects.pptx");
-builder.CloseFile();
 ```

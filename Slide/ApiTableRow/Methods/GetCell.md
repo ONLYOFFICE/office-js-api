@@ -8,11 +8,11 @@ expression.GetCell(nPos);
 
 `expression` - A variable that represents a [ApiTableRow](../ApiTableRow.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nPos | Required | Number | The cell position in the table row. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nPos | Required | number |  | The cell position in the table row. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ expression.GetCell(nPos);
 This example shows how to get a cell by its position in the row.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oTable = Api.CreateTable(2, 4);
 var oRow = oTable.GetRow(0);
@@ -35,6 +34,4 @@ oContent.Push(oParagraph);
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
 oSlide.AddObject(oTable);
-builder.SaveFile("pptx", "GetCell.pptx");
-builder.CloseFile();
 ```

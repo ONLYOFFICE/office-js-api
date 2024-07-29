@@ -1,22 +1,22 @@
 # ChangeEffectStyles
 
-Need to do Sets the effect styles to the current theme format scheme.
+**Need to do**Sets the effect styles to the current theme format scheme.
 
 ## Syntax
 
-expression.ChangeEffectStyles(arrEffect?);
+expression.ChangeEffectStyles(arrEffect);
 
 `expression` - A variable that represents a [ApiThemeFormatScheme](../ApiThemeFormatScheme.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| arrEffect | Optional | Array | The array of effect styles must contain 3 elements - subtle, moderate and intense fills. If an array is empty or NoFill elements are in the array, it will be filled with the Api.CreateStroke(0, Api.CreateNoFill()) elements. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| arrEffect | Required | Array |  | The array of effect styles must contain 3 elements - subtle, moderate and intense fills.If an array is empty or NoFill elements are in the array, it will be filled with the Api.CreateStroke(0, Api.CreateNoFill()) elements. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 

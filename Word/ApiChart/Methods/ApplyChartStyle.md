@@ -4,26 +4,25 @@ Sets a style to the current chart by style ID.
 
 ## Syntax
 
-expression.ApplyChartStyle();
+expression.ApplyChartStyle(nStyleId);
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nStyleId | Required | Number | One of the styles available in the editor. This value must be a positive. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nStyleId | Required |  |  | One of the styles available in the editor. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example shows how to apply a styhe for chart.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("bar3D", [
@@ -40,6 +39,4 @@ oStroke = Api.CreateStroke(0.5 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(2
 oChart.SetSeriesFill(oFill, 1, false);
 oChart.SetSeriesOutLine(oStroke, 1, false);
 oParagraph.AddDrawing(oChart);
-builder.SaveFile("docx", "ApplyChartStyle.docx");
-builder.CloseFile();
 ```

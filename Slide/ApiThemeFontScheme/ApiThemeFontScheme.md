@@ -1,11 +1,11 @@
 # ApiThemeFontScheme
 
-Class representing a theme font scheme.
+Represents the ApiThemeFontScheme class.
 
 ## Methods
 
-- [Copy](./Methods/Copy.md)
 - [GetClassType](./Methods/GetClassType.md)
-- [SetFonts](./Methods/SetFonts.md)
 - [SetSchemeName](./Methods/SetSchemeName.md)
+- [SetFonts](./Methods/SetFonts.md)
+- [Copy](./Methods/Copy.md)
 - [ToJSON](./Methods/ToJSON.md)

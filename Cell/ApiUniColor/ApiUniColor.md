@@ -1,6 +1,6 @@
-# ApiTextPr
+# ApiUniColor
 
-Returns a type of the ApiUniColor class.
+Represents the ApiUniColor class.
 
 ## Methods
 

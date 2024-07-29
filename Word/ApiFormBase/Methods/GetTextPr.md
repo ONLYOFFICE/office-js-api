@@ -1,6 +1,6 @@
 # GetTextPr
 
-Returns the text properties from the current form. Used if possible for this type of form.
+Returns the text properties from the current form.*Used if possible for this type of form*
 
 ## Syntax
 
@@ -8,7 +8,7 @@ expression.GetTextPr();
 
 `expression` - A variable that represents a [ApiFormBase](../ApiFormBase.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
@@ -21,7 +21,6 @@ This method doesn't have any parameters.
 This example shows how to get the text properties from the form.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTextForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});
 var oParagraph = oDocument.GetElement(0);
@@ -33,6 +32,4 @@ oTextForm.SetTextPr(oTextPr);
 var oFormTextPr = oTextForm.GetTextPr();
 oFormTextPr.SetItalic(true);
 oTextForm.SetTextPr(oFormTextPr);
-builder.SaveFile("docx", "GetTextPr.docx");
-builder.CloseFile();
 ```

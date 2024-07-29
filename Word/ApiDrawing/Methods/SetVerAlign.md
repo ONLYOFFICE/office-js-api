@@ -4,16 +4,16 @@ Specifies how the floating object will be vertically aligned.
 
 ## Syntax
 
-expression.SetVerAlign(sRelativeFrom?, sAlign?);
+expression.SetVerAlign(sRelativeFrom, sAlign);
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sRelativeFrom | Optional | [RelFromV](../../../Enumerations/RelFromV.md) | The document element which will be taken as a countdown point for the object vertical alignment. Dedault value is "page". |
-| sAlign | Optional | [DrawingVertAlign](../../../Enumerations/DrawingVertAlign.md) | The alingment type which will be used for the object vertical alignment. Dedault value is "top". |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sRelativeFrom | Optional | [RelFromV](../../Enumeration/RelFromV.md) | "page" | The document element which will be taken as a countdown point for the object vertical alignment. |
+| sAlign | Optional | "top" &#124;"bottom" &#124;"center" | "top" | The alingment type which will be used for the object vertical alignment. |
 
 ## Returns
 
@@ -24,7 +24,6 @@ This method doesn't return any data.
 This example specifies how the floating object will be vertically aligned.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is a paragraph with a shape. ");
@@ -42,6 +41,4 @@ oParagraph.AddDrawing(oDrawing);
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("The shape is aligned to the top of the page.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetVerAlign.docx");
-builder.CloseFile();
 ```

@@ -1,19 +1,19 @@
 # SetImageSize
 
-Sets the size of the image.
+Sets the size (width and height) of the watermark image in the document.
 
 ## Syntax
 
-expressionSetImageSize(nWidth, nHeight);
+expression.SetImageSize(nWidth, nHeight);
 
 `expression` - A variable that represents a [ApiWatermarkSettings](../ApiWatermarkSettings.md) class.
 
-## Parametrs
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nWidth | Required | [EMU](../../../Enumerations/Emu.md) | The width of the image. |
-| nHeight | Required | [EMU](../../../Enumerations/Emu.md) | The height of the image. |
+## Parameters
 
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nWidth | Required | [EMU](../../Enumeration/EMU.md) |  | The watermark image width. |
+| nHeight | Required | [EMU](../../Enumeration/EMU.md) |  | The watermark image height. |
 
 ## Returns
 
@@ -24,7 +24,6 @@ This method doesn't return any data.
 This example sets the parameters of the watermark settings and apply them to the document.
 
 ```javascript
-builder.CreateFile("docx");
 const oDocument = Api.GetDocument();
 const oWatermarkSettings = oDocument.GetWatermarkSettings();
 oWatermarkSettings.SetType("image");
@@ -33,6 +32,4 @@ oWatermarkSettings.SetImageSize(36000 * 70, 36000 * 80);
 oWatermarkSettings.SetDirection("clockwise45");
 oWatermarkSettings.SetOpacity(200);
 oDocument.SetWatermarkSettings(oWatermarkSettings);
-builder.SaveFile("docx", "SetImageSize.docx");
-builder.CloseFile();
 ```

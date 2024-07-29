@@ -8,11 +8,11 @@ expression.RemoveElement(nPos);
 
 `expression` - A variable that represents a [ApiDocumentContent](../ApiDocumentContent.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nPos | Required | Number | The element number (position) in the document or inside other element. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nPos | Required | number |  | The element number (position) in the document or inside other element. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ This method doesn't return any data.
 This example removes an element using the position specified.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
@@ -43,6 +42,4 @@ oDocContent.RemoveElement(2);
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("We removed paragraph #3, check that out above.");
 oDocContent.Push(oParagraph);
-builder.SaveFile("docx", "RemoveElement.docx");
-builder.CloseFile();
 ```

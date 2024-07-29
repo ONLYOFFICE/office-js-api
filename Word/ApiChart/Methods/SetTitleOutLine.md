@@ -8,22 +8,21 @@ expression.SetTitleOutLine(oStroke);
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| oStroke | Required | [ApiStroke](../../ApiStroke/ApiStroke.md) | The stroke used to create the title outline. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| oStroke | Required | [ApiStroke](../../ApiStroke/ApiStroke.md) |  | The stroke used to create the title outline. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example sets the outline to the chart title.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("bar3D", [
@@ -38,6 +37,4 @@ oChart.SetSeriesFill(oFill, 1, false);
 var oStroke = Api.CreateStroke(0.5 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51)));
 oChart.SetTitle("Financial Overview", 13);
 oChart.SetTitleOutLine(oStroke);
-builder.SaveFile("docx", "SetTitleOutLine.docx");
-builder.CloseFile();
 ```

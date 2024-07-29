@@ -8,20 +8,19 @@ expression.GetClassType();
 
 `expression` - A variable that represents a [ApiChartSeries](../ApiChartSeries.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-String
+"chartSeries"
 
 ## Example
 
 This example gets a type of ApiChartSeries class and inserts it into the document.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("comboBarLine", [
@@ -43,6 +42,4 @@ var sClassType = oSeries.GetClassType();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("The ApiChartSeries class type: " + sClassType);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetClassType.docx");
-builder.CloseFile();
 ```

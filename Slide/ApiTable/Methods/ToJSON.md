@@ -4,15 +4,15 @@ Converts the ApiTable object into the JSON object.
 
 ## Syntax
 
-expression.ToJSON(bWriteTableStyles?);
+expression.ToJSON(bWriteTableStyles);
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| bWriteTableStyles | Optional | Boolean | Specifies whether to write used table styles to the JSON object (true) or not (false). Default value is "false". |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| bWriteTableStyles | Optional | bool | false | Specifies whether to write used table styles to the JSON object (true) or not (false). |
 
 ## Returns
 
@@ -23,7 +23,6 @@ JSON
 This example converts the table object into the JSON object.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -38,6 +37,4 @@ var oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Class type = " + sType);
 oContent.Push(oParagraph);
 oSlide.AddObject(oTableFromJSON);
-builder.SaveFile("pptx", "ToJSON.pptx");
-builder.CloseFile();
 ```

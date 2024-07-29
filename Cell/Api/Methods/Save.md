@@ -8,7 +8,7 @@ expression.Save();
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
@@ -21,10 +21,7 @@ This method doesn't return any data.
 This example saves changes to the specified document.
 
 ```javascript
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A1").SetValue("This sample text is saved to the worksheet.");
 Api.Save();
-builder.SaveFile("xlsx", "Save.xlsx");
-builder.CloseFile();
 ```

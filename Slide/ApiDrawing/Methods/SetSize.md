@@ -8,12 +8,12 @@ expression.SetSize(nWidth, nHeight);
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nWidth | Required | [EMU](../../../Enumerations/Emu.md) | The object width measured in English measure units. |
-| nHeight | Required | [EMU](../../../Enumerations/Emu.md) | The object height measured in English measure units. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nWidth | Required | [EMU](../../Enumeration/EMU.md) |  | The object width measured in English measure units. |
+| nHeight | Required | [EMU](../../Enumeration/EMU.md) |  | The object height measured in English measure units. |
 
 ## Returns
 
@@ -24,7 +24,6 @@ This method doesn't return any data.
 This example sets size to the shape.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -40,6 +39,4 @@ oParagraph.SetJc("left");
 oParagraph.AddText("This is an example of a paragraph inside a shape. Nothing special.");
 oDocContent.Push(oParagraph);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetSize.pptx");
-builder.CloseFile();
 ```

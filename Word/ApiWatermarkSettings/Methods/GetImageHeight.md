@@ -1,6 +1,6 @@
 # GetImageHeight
 
-Returns the height of the image watermark.
+Returns the height of the watermark image in the document.
 
 ## Syntax
 
@@ -8,20 +8,19 @@ expression.GetImageHeight();
 
 `expression` - A variable that represents a [ApiWatermarkSettings](../ApiWatermarkSettings.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-[EMU](../../../Enumerations/Emu.md)
+EMU, null
 
 ## Example
 
 This example sets the parameters of the watermark settings and apply them to the document.
 
 ```javascript
-builder.CreateFile("docx");
 const oDocument = Api.GetDocument();
 const oWatermarkSettings = oDocument.GetWatermarkSettings();
 oWatermarkSettings.SetType("image");
@@ -34,6 +33,4 @@ const oWatermarkSettings2 = oDocument.GetWatermarkSettings();
 const oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Watermark height = " + oWatermarkSettings2.GetImageHeight());
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetImageHeight.docx");
-builder.CloseFile();
 ```

@@ -8,20 +8,19 @@ expression.GetMastersCount();
 
 `expression` - A variable that represents a [ApiPresentation](../ApiPresentation.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Number
+number
 
 ## Example
 
 This example shows how to get a number of slide masters.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var nMasters = oPresentation.GetMastersCount();
@@ -36,6 +35,4 @@ var oParagraph = oDocContent.GetElement(0);
 oParagraph.SetJc("left");
 oParagraph.AddText("Number of masters = " + nMasters);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "GetMastersCount.pptx");
-builder.CloseFile();
 ```

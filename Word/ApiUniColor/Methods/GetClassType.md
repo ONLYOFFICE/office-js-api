@@ -8,20 +8,19 @@ expression.GetClassType();
 
 `expression` - A variable that represents a [ApiUniColor](../ApiUniColor.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-String
+"uniColor"
 
 ## Example
 
 This example gets a class type and pastes it into the presentation.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oPresetColor = Api.CreatePresetColor("peachPuff");
@@ -35,6 +34,4 @@ var sClassType = oPresetColor.GetClassType();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Class Type = " + sClassType);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetClassType.docx");
-builder.CloseFile();
 ```

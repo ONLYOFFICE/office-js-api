@@ -8,20 +8,19 @@ expression.GetNextChart();
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-[ApiChart](../ApiChart.md) &#124; null (returns null if chart is last)
+ApiChart, null
 
 ## Example
 
 This example show how to get the next chart.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("bar3D", [
@@ -43,6 +42,4 @@ oParagraph.AddDrawing(oCopyChart);
 var oNextChart = oChart.GetNextChart();
 var oStroke = Api.CreateStroke(1 * 150, Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61)));
 oNextChart.SetMinorHorizontalGridlines(oStroke);
-builder.SaveFile("docx", "GetNextChart.docx");
-builder.CloseFile();
 ```

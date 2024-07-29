@@ -8,22 +8,21 @@ expression.ChangeChartType(sType);
 
 `expression` - A variable that represents a [ApiChartSeries](../ApiChartSeries.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sType | Required | [ChartType](../../../Enumerations/ChartType.md) | Chart type. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sType | Required | [ChartType](../../Enumeration/ChartType.md) |  | Chart type. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example changes the type of the first series of ApiChart class and inserts the new type into the document.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("comboBarLine", [
@@ -50,6 +49,4 @@ sSeriesType = oSeries.GetChartType();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("New Series Type = " + sSeriesType);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "ChangeChartType.docx");
-builder.CloseFile();
 ```
