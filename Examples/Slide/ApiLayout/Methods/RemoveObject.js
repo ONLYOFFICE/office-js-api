@@ -1,5 +1,4 @@
 // This example shows how to remove objects from a slide layout.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -20,5 +19,3 @@ var oDocContent = oDrawing.GetDocContent();
 var oParagraph = oDocContent.GetElement(0);
 oParagraph.SetJc("left");
 oParagraph.AddText("The second cube was removed from this layout.");
-builder.SaveFile("pptx", "RemoveObject.pptx");
-builder.CloseFile();

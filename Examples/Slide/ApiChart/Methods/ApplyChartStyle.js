@@ -1,5 +1,4 @@
 // This example shows how to apply a styhe for chart.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -19,5 +18,3 @@ oStroke = Api.CreateStroke(0.5 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(2
 oChart.SetSeriesFill(oFill, 1, false);
 oChart.SetSeriesOutLine(oStroke, 1, false);
 oSlide.AddObject(oChart);
-builder.SaveFile("pptx", "ApplyChartStyle.pptx");
-builder.CloseFile();

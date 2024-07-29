@@ -1,5 +1,4 @@
 // This example shows how to get an array with all the shape objects from the slide master.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -17,5 +16,3 @@ var oParagraph = oDocContent.GetElement(0);
 oParagraph.SetJc("left");
 oParagraph.AddText("Class type = " + sType);
 oShape.SetVerticalTextAlign("center");
-builder.SaveFile("pptx", "GetAllShapes.pptx");
-builder.CloseFile();

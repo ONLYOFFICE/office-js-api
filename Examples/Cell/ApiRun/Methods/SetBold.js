@@ -1,5 +1,4 @@
 // This example sets the bold property to the text character.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -13,5 +12,3 @@ oRun = Api.CreateRun();
 oRun.SetBold(true);
 oRun.AddText("This is a text run with the font set to bold.");
 oParagraph.AddElement(oRun);
-builder.SaveFile("xlsx", "SetBold.xlsx");
-builder.CloseFile();

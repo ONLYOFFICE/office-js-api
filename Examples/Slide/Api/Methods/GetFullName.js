@@ -1,5 +1,4 @@
 // This example gets a presentation name and inserts it into the presentation.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -14,5 +13,3 @@ var oParagraph = oDocContent.GetElement(0);
 var sName = Api.GetFullName();
 oParagraph.AddText("File name: " + sName);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "GetFullName.pptx");
-builder.CloseFile();

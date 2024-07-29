@@ -1,5 +1,4 @@
 // This example shows how to get a number of elements in the current document content.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -11,5 +10,3 @@ oParagraph.AddLineBreak();
 oParagraph.AddText("Number of elements inside the shape: " + oDocContent.GetElementsCount());
 oParagraph.AddLineBreak();
 oParagraph.AddText("Line breaks are NOT counted into the number of elements.");
-builder.SaveFile("xlsx", "GetElementsCount.xlsx");
-builder.CloseFile();

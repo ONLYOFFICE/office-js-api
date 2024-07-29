@@ -1,5 +1,4 @@
 // This example sets the spacing after the paragraph.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -13,5 +12,3 @@ oParagraph.SetSpacingAfter(1440);
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("This is the second paragraph and it is one inch away from the first paragraph.");
 oDocContent.Push(oParagraph);
-builder.SaveFile("xlsx", "SetSpacingAfter.xlsx");
-builder.CloseFile();

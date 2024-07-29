@@ -1,5 +1,4 @@
 // This example gets a class type and inserts it into the document.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oMyStyle = oDocument.CreateStyle("My document style");
 var oParaPr = oMyStyle.GetParaPr();
@@ -12,5 +11,3 @@ var sClassType = oParaPr.GetClassType();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Class Type = " + sClassType);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetClassType.docx");
-builder.CloseFile();

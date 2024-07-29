@@ -1,5 +1,4 @@
 // This example sets the absolute measurement for the horizontal positioning of the floating object.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is a paragraph with a shape. ");
@@ -20,5 +19,3 @@ oDocument.Push(oParagraph);
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("The shape is aligned next to the right margin horizontally.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetHorPosition.docx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example show how to set the fill to the data point.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -16,5 +15,3 @@ oChart.SetSeriesFill(oFill, 1, false);
 oFill = Api.CreateSolidFill(Api.CreateRGBColor(128, 128, 128));
 oChart.SetDataPointFill(oFill, 0, 0, false);
 oSlide.AddObject(oChart);
-builder.SaveFile("pptx", "SetDataPointFill.pptx");
-builder.CloseFile();

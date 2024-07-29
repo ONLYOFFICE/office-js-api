@@ -1,5 +1,4 @@
 // This example specifies how the floating object will be horizontally aligned.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is a paragraph with a shape. ");
@@ -20,5 +19,3 @@ oDocument.Push(oParagraph);
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("The shape is aligned at the center of the page horizontally.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetHorAlign.docx");
-builder.CloseFile();

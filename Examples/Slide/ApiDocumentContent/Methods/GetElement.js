@@ -1,5 +1,4 @@
 // This example shows how to get element.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -17,5 +16,3 @@ oParagraph.SetBullet(oBullet);
 oParagraph.AddText(" This is an example of the numbered paragraph.");
 oDocContent.Push(oParagraph);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "GetElement.pptx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example sets the outline to the chart title.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -17,5 +16,3 @@ oChart.SetSeriesFill(oFill, 1, false);
 var oStroke = Api.CreateStroke(0.5 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51)));
 oChart.SetTitleOutLine(oStroke);
 oSlide.AddObject(oChart);
-builder.SaveFile("pptx", "SetTitleOutLine.pptx");
-builder.CloseFile();

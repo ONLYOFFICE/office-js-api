@@ -1,5 +1,4 @@
 // This example shows how to get a number of slides.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide1 = oPresentation.GetSlideByIndex(0);
 var oSlide2 = Api.CreateSlide();
@@ -16,5 +15,3 @@ var oParagraph = oDocContent.GetElement(0);
 oParagraph.SetJc("left");
 oParagraph.AddText("Number of slides = " + nSlides);
 oSlide1.AddObject(oShape);
-builder.SaveFile("pptx", "GetSlidesCount.pptx");
-builder.CloseFile();

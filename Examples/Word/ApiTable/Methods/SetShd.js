@@ -1,5 +1,4 @@
 // This example specifies the shading which shall be applied to the extents of the table.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("We added an orange shading to the table:");
@@ -10,5 +9,3 @@ oTable.SetWidth("percent", 100);
 oTable.SetStyle(oTableStyle);
 oTable.SetShd("clear", 255, 111, 61, false);
 oDocument.Push(oTable);
-builder.SaveFile("docx", "SetShd.docx");
-builder.CloseFile();

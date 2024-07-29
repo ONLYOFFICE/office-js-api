@@ -1,5 +1,4 @@
 // This example clears the content from the table.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
@@ -12,5 +11,3 @@ oTable.Clear();
 var oParagraph = Api.CreateParagraph();
 oParagraph.AddText("The content of the table was cleared.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "Clear.docx");
-builder.CloseFile();

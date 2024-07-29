@@ -1,5 +1,4 @@
 // This example adds a numbered cross-reference to the paragraph.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oNumbering = oDocument.CreateNumbering("numbered");
 for (let nLvl = 0; nLvl < 8; ++nLvl) {
@@ -20,5 +19,3 @@ oParagraph = Api.CreateParagraph();
 oParagraph.AddText("An example of the customized numbering type can be found in the paragraph № ");
 oDocument.Push(oParagraph);
 oParagraph.AddNumberedCrossRef("paraNum", aNumberedParagraphs[1], true, true);
-builder.SaveFile("docx", "AddNumberedCrossRef.docx");
-builder.CloseFile();

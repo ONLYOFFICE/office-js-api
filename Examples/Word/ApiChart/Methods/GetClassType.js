@@ -1,5 +1,4 @@
 // This example gets a type of ApiChart class and inserts it into the document.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("bar3D", [
@@ -20,5 +19,3 @@ var sClassType = oChart.GetClassType();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Class Type = " + sClassType);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetClassType.docx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example sets the specified numeric format to the chart series.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("bar3D", [
@@ -12,5 +11,3 @@ oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 oChart.SetSeriesFill(oFill, 1, false);
 oChart.SetSeriaNumFormat("0.00", 0);
 oParagraph.AddDrawing(oChart);
-builder.SaveFile("docx", "SetSeriaNumFormat.docx");
-builder.CloseFile();

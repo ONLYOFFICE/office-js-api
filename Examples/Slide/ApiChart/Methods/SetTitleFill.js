@@ -1,5 +1,4 @@
 // This example sets the fill to the chart title.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -17,5 +16,3 @@ oFill = Api.CreateSolidFill(Api.CreateRGBColor(128, 128, 128));
 oChart.SetTitle("Financial Overview", 13);
 oChart.SetTitleFill(oFill);
 oSlide.AddObject(oChart);
-builder.SaveFile("pptx", "SetTitleFill.pptx");
-builder.CloseFile();

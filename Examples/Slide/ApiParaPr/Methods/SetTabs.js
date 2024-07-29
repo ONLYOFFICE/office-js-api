@@ -1,5 +1,4 @@
 // This example sets a sequence of custom tab stops which will be used for any tab characters in the paragraph.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -25,5 +24,3 @@ oParagraph.AddTabStop();
 oParagraph.AddTabStop();
 oParagraph.AddText("Custom tab - 5 inches right");
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetTabs.pptx");
-builder.CloseFile();

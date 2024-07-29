@@ -1,5 +1,4 @@
 // This example spicifies tick label position for the vertical axis.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -18,5 +17,3 @@ oChart.SetSeriesFill(oFill, 0, false);
 oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 oChart.SetSeriesFill(oFill, 1, false);
 oSlide.AddObject(oChart);
-builder.SaveFile("pptx", "SetVertAxisTickLabelPosition.pptx");
-builder.CloseFile();

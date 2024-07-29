@@ -1,5 +1,4 @@
 // This example removes all the elements from the run.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -15,5 +14,3 @@ oRun.RemoveAllElements();
 oRun.AddText("All elements from this run were removed before adding this text.");
 oParagraph.AddElement(oRun);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "RemoveAllElements.pptx");
-builder.CloseFile();

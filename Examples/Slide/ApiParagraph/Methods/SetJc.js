@@ -1,5 +1,4 @@
 // This example sets the paragraph contents justification.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -28,5 +27,3 @@ oParagraph.AddText("These sentences are used to add lines for demonstrative purp
 oParagraph.SetJc("left");
 oDocContent.Push(oParagraph);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetJc.pptx");
-builder.CloseFile();

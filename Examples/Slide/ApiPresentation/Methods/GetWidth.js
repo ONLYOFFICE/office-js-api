@@ -1,5 +1,4 @@
 // This example shows how to get the presentation width in English measure units.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -12,5 +11,3 @@ var oParagraph = oDocContent.GetElement(0);
 var nHeight = oPresentation.GetWidth();
 oParagraph.AddText("Height = " + nHeight);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "GetCurSlideIndex.pptx");
-builder.CloseFile();

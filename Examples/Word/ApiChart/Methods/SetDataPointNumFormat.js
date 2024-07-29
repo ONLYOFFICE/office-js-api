@@ -1,5 +1,4 @@
 // This example sets "0.00" numeric format for chart.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("bar3D", [
@@ -13,5 +12,3 @@ oChart.SetSeriesFill(oFill, 1, false);
 oChart.SetShowPointDataLabel(1, 0, false, false, true, false);
 oChart.SetDataPointNumFormat("0.00", 1, 0, true);
 oParagraph.AddDrawing(oChart);
-builder.SaveFile("docx", "SetDataPointNumFormat.docx");
-builder.CloseFile();

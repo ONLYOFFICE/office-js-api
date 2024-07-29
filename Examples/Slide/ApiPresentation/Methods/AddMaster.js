@@ -1,5 +1,4 @@
 // This example adds the slide master to the presentation slide masters collection.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = Api.CreateMaster();
@@ -19,5 +18,3 @@ oParagraph.AddLineBreak();
 oParagraph.AddText("Number of masters after adding new master: " + nCountAfter);
 oSlide.RemoveAllObjects();
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "AddMaster.pptx");
-builder.CloseFile();

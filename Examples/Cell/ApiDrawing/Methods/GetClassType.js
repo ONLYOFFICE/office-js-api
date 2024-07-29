@@ -1,5 +1,4 @@
 // This example gets a class type and inserts it into the document.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -10,5 +9,3 @@ var sClassType = oDrawing.GetClassType();
 oWorksheet.SetColumnWidth(0, 15);
 oWorksheet.SetColumnWidth(1, 10);
 oWorksheet.GetRange("A1").SetValue("Class Type = " + sClassType);
-builder.SaveFile("xlsx", "GetClassType.xlsx");
-builder.CloseFile();

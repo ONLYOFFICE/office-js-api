@@ -1,5 +1,4 @@
 // This example shows how to get a cell by its position.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
@@ -13,5 +12,3 @@ var oParagraph = oCell.GetContent().GetElement(0);
 oParagraph.AddText("Align bottom");
 oTable.SetStyle(oTableStyle);
 oDocument.Push(oTable);
-builder.SaveFile("docx", "GetCell.docx");
-builder.CloseFile();

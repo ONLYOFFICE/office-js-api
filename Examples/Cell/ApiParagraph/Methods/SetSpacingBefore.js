@@ -1,5 +1,4 @@
 // This example sets the spacing before the paragraph.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -13,5 +12,3 @@ oParagraph = Api.CreateParagraph();
 oParagraph.AddText("This is the second paragraph and it is one inch away from the first paragraph.");
 oParagraph.SetSpacingBefore(1440);
 oDocContent.Push(oParagraph);
-builder.SaveFile("xlsx", "SetSpacingBefore.xlsx");
-builder.CloseFile();

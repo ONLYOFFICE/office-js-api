@@ -1,5 +1,4 @@
 // This example sets the absolute measurement for the vertical positioning of the floating object.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is a paragraph with a shape. ");
@@ -17,5 +16,3 @@ oParagraph.AddDrawing(oDrawing);
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("The shape is aligned to the top of the page, and outstands from the page top 1 inch.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetVerPosition.docx");
-builder.CloseFile();

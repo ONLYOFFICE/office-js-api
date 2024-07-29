@@ -1,5 +1,4 @@
 // This example deletes the paragraph.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -19,5 +18,3 @@ oParagraph = Api.CreateParagraph();
 oParagraph.AddText("This is the second paragraph. The first paragraph was removed from the shape content.");
 oDocContent.Push(oParagraph);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "Delete.pptx");
-builder.CloseFile();

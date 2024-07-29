@@ -1,5 +1,4 @@
 // This example sets the line styles to the current theme format scheme.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -30,5 +29,3 @@ var oParagraph = oDocContent.GetElement(0);
 oParagraph.SetJc("left");
 oParagraph.AddText("Create a shape by yourself to see the stroke style set to this presentation.");
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "ChangeLineStyles.pptx");
-builder.CloseFile();

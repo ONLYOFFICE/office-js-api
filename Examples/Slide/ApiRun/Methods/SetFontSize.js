@@ -1,5 +1,4 @@
 // This example sets the font size to the characters of the current text run.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -17,5 +16,3 @@ oRun.SetFontSize(50);
 oRun.AddText("This is a text run with the font size set to 25 points (50 half-points).");
 oParagraph.AddElement(oRun);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetFontSize.pptx");
-builder.CloseFile();

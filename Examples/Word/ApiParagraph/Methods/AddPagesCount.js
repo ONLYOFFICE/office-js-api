@@ -1,5 +1,4 @@
 // This example inserts a number of pages in the current document into the paragraph.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("First page");
@@ -12,5 +11,3 @@ oParagraph.AddText("Page ");
 oParagraph.AddPageNumber();
 oParagraph.AddText(" of ");
 oParagraph.AddPagesCount();
-builder.SaveFile("docx", "AddPagesCount.docx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example shows how to get a parent content control that contains the graphic object.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = Api.CreateParagraph();
 var oBlockLvlSdt = Api.CreateBlockLvlSdt();
@@ -11,5 +10,3 @@ oBlockLvlSdt.AddElement(oParagraph, 0);
 oDocument.AddElement(0, oBlockLvlSdt);
 var oParentContentControl = oDrawing.GetParentContentControl();
 oParentContentControl.AddText("This is a parent content control.");
-builder.SaveFile("docx", "GetParentContentControl.docx");
-builder.CloseFile();

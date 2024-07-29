@@ -1,5 +1,4 @@
 // This example shows how to get a collection of tables on a given absolute page.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oBlockLvlSdt = Api.CreateBlockLvlSdt();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
@@ -16,5 +15,3 @@ oDocument.AddElement(0, oBlockLvlSdt);
 var aTables = oBlockLvlSdt.GetAllTablesOnPage(0);
 var oCell = aTables[0].GetRow(1).GetCell(0);
 aTables[0].RemoveRow(oCell);
-builder.SaveFile("docx", "GetAllTablesOnPage.docx");
-builder.CloseFile();

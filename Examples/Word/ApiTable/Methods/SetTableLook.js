@@ -1,5 +1,4 @@
 // This example shows how to set table lock.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("We set the table look to override the current table style:");
@@ -11,5 +10,3 @@ oTable.SetStyle(oTableStyle);
 oTable.SetTableLook(true, true, true, true, true, true);
 oTableStyle.GetConditionalTableStyle("topLeftCell").GetTableCellPr().SetShd("clear", 255, 111, 61);
 oDocument.Push(oTable);
-builder.SaveFile("docx", "SetTableLook.docx");
-builder.CloseFile();

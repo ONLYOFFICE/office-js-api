@@ -1,5 +1,4 @@
 // This example specifies the major tick mark for the vertical axis.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("scatter", [
@@ -19,5 +18,3 @@ oChart.SetHorAxisTitle("Year", 11);
 oChart.SetVertAxisMajorTickMark("cross");
 oChart.SetTitle("Financial Overview", 13);
 oParagraph.AddDrawing(oChart);
-builder.SaveFile("docx", "SetVertAxisMajorTickMark.docx");
-builder.CloseFile();

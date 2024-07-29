@@ -1,5 +1,4 @@
 // This example shows how to get the index for the current slide.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -12,5 +11,3 @@ var oParagraph = oDocContent.GetElement(0);
 var nCurrentSlideIndex = oPresentation.GetCurSlideIndex();
 oParagraph.AddText("Current Slide Index = " + nCurrentSlideIndex);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "GetCurSlideIndex.pptx");
-builder.CloseFile();

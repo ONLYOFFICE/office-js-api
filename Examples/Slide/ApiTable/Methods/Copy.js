@@ -1,5 +1,4 @@
 // This example creates a copy of the table.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oTable = Api.CreateTable(2, 4);
 oTable.AddRow(1, true);
@@ -16,5 +15,3 @@ var oCopyTable = oTable.Copy();
 var newSlide = Api.CreateSlide();
 oPresentation.AddSlide(newSlide);
 newSlide.AddObject(oCopyTable);
-builder.SaveFile("pptx", "Copy.pptx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example shows how to get a list of all tags that are used for all forms in the document.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTextForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "tag": "form_1", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});
 var oParagraph = oDocument.GetElement(0);
@@ -19,5 +18,3 @@ for (let i = 0; i < aTags.length; i++ ){
 	oParagraph.AddLineBreak();
 }
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetTagsOfAllForms.docx");
-builder.CloseFile();

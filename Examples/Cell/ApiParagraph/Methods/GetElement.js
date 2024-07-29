@@ -1,5 +1,4 @@
 // This example shows how to get a paragraph element using the position specified.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -18,5 +17,3 @@ oRun.AddText("This is the text for the third run. It ends the paragraph.");
 oParagraph.AddElement(oRun);
 oRun = oParagraph.GetElement(2);
 oRun.SetBold(true);
-builder.SaveFile("xlsx", "GetElement.xlsx");
-builder.CloseFile();

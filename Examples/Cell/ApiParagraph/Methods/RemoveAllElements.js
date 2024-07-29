@@ -1,5 +1,4 @@
 // This example removes all the elements from the current paragraph.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -14,5 +13,3 @@ oRun = Api.CreateRun();
 oRun.AddText("We removed all the paragraph elements and added a new text run inside it.");
 oParagraph.AddElement(oRun);
 oDocContent.Push(oParagraph);
-builder.SaveFile("xlsx", "RemoveAllElements.xlsx");
-builder.CloseFile();

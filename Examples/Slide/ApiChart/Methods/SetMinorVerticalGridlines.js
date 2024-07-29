@@ -1,5 +1,4 @@
 // This example specifies the visual properties for the minor vertical gridlines.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -19,5 +18,3 @@ var oStroke = Api.CreateStroke(1 * 10000, Api.CreateSolidFill(Api.CreateRGBColor
 oChart.SetMinorVerticalGridlines(oStroke);
 oChart.SetPosition(608400, 1267200);
 oSlide.AddObject(oChart);
-builder.SaveFile("pptx", "SetMinorVerticalGridlines.pptx");
-builder.CloseFile();

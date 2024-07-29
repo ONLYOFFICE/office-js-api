@@ -1,5 +1,4 @@
 // This example sets the font size to the characters of the text run.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -16,5 +15,3 @@ oParagraph.SetJc("left");
 oRun.AddText("This is a sample text inside the shape with the font size set to 15 points using the text properties.");
 oParagraph.AddElement(oRun);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetFontSize.pptx");
-builder.CloseFile();

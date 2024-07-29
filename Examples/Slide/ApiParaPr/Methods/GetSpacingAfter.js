@@ -1,5 +1,4 @@
 // This example shows how to get the spacing after value of the current paragraph.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -23,5 +22,3 @@ var nSpacingAfter = oParaPr.GetSpacingAfter();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Spacing after : " + nSpacingAfter);
 oDocContent.Push(oParagraph);
-builder.SaveFile("pptx", "GetSpacingAfter.pptx");
-builder.CloseFile();

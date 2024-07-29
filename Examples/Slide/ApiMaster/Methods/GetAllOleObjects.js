@@ -1,5 +1,4 @@
 // This example show how to get an array with all the OLE objects from the slide master.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -19,5 +18,3 @@ var oDocContent = oDrawing.GetContent();
 var oParagraph = oDocContent.GetElement(0);
 oParagraph.AddText("The application ID for the current OLE object: " + sAppId);
 oMaster.AddObject(oDrawing);
-builder.SaveFile("pptx", "GetAllOleObjects.pptx");
-builder.CloseFile();

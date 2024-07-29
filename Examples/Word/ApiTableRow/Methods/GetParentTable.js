@@ -1,5 +1,4 @@
 // This example shows how to get the parent table of the row.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
@@ -10,5 +9,3 @@ var oRow = oTable.GetRow(0);
 var oParentTable = oRow.GetParentTable();
 oParentTable.SetTableBorderBottom("single", 32, 0, 51, 51, 51);
 oDocument.Push(oParentTable);
-builder.SaveFile("docx", "GetParentTable.docx");
-builder.CloseFile();

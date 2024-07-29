@@ -1,5 +1,4 @@
 // This example removes the layouts from the current slide master.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -19,5 +18,3 @@ oParagraph.AddLineBreak();
 oParagraph.AddText("Number of layouts after deletion: " + nCountAfter);
 oSlide.RemoveAllObjects();
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "RemoveLayout.pptx");
-builder.CloseFile();

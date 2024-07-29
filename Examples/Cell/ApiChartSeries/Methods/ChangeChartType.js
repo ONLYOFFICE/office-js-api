@@ -1,5 +1,4 @@
 // This example changes the type of the first series of ApiChart class and inserts the new type into the document.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);
@@ -24,5 +23,3 @@ oWorksheet.GetRange("F1").SetValue("Old Series Type = " + sSeriesType);
 oSeries.ChangeChartType("area");
 sSeriesType = oSeries.GetChartType();
 oWorksheet.GetRange("F2").SetValue("New Series Type = " + sSeriesType);
-builder.SaveFile("xlsx", "ChangeChartType.xlsx");
-builder.CloseFile();

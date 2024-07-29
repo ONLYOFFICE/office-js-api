@@ -1,5 +1,4 @@
 // This example specifies the alignment which will be applied to the contents of the current run in relation to the default appearance of the text run.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oRun = Api.CreateRun();
@@ -17,5 +16,3 @@ oRun = Api.CreateRun();
 oRun.SetVertAlign("superscript");
 oRun.AddText("This is a text run with the text aligned above the baseline vertically.");
 oParagraph.AddElement(oRun);
-builder.SaveFile("docx", "SetVertAlign.docx");
-builder.CloseFile();

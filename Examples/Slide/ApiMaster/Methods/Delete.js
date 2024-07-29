@@ -1,5 +1,4 @@
 // This example deletes the specified object from the parent if it exists.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -19,5 +18,3 @@ oParagraph.AddLineBreak();
 oParagraph.AddText("Number of masters after deletion: " + nCountAfter);
 oSlide.RemoveAllObjects();
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "Delete.pptx");
-builder.CloseFile();

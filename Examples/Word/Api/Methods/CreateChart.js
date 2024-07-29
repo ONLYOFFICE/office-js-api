@@ -1,5 +1,4 @@
 // This example shows how to create a chart and paste it into the document.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("bar3D", [
@@ -11,5 +10,3 @@ var oFill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
 oChart.SetSeriesFill(oFill, 0, false);
 oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 oChart.SetSeriesFill(oFill, 1, false);
-builder.SaveFile("docx", "CreateChart.docx");
-builder.CloseFile();

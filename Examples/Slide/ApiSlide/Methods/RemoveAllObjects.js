@@ -1,5 +1,4 @@
 // This example removes all the objects from the current slide.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 oPresentation.SetSizes(254 * 36000, 190 * 36000);
 var oSlide = oPresentation.GetCurrentSlide();
@@ -18,5 +17,3 @@ var oDocContent = oShape.GetDocContent();
 var oParagraph = oDocContent.GetElement(0);
 oParagraph.AddText("All objects were removed from this slide before adding this shape.");
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "RemoveAllObjects.pptx");
-builder.CloseFile();

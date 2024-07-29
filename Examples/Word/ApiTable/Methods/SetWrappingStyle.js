@@ -1,5 +1,4 @@
 // This example sets the table wrapping style.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is just a sample text.");
@@ -19,5 +18,3 @@ oParagraph.AddLineBreak();
 oParagraph.AddText("The tables were added to the paragraph. Table 1 is inline and Table 2 is not.");
 oTable1.SetWrappingStyle(true);
 oTable2.SetWrappingStyle(false);
-builder.SaveFile("docx", "SetWrappingStyle.docx");
-builder.CloseFile();

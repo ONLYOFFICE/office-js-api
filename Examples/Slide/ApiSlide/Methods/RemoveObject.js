@@ -1,5 +1,4 @@
 // This example removes objects (image, shape or chart) from the current slide.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -14,5 +13,3 @@ oCopyDrawing.SetSize(150 * 36000, 130 * 36000);
 oSlide.AddObject(oDrawing);
 oSlide.AddObject(oCopyDrawing);
 oSlide.RemoveObject(1, 1);
-builder.SaveFile("pptx", "RemoveObject.pptx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example shows how to get a set of the paragraph properties which will be applied to all the paragraphs within a table which match the conditional formatting type.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("We create a 3x3 table and set the text alignment to center for row #1:");
@@ -15,5 +14,3 @@ oParagraph = oTable.GetRow(0).GetCell(0).GetContent().GetElement(0);
 oParagraph.AddText("This is a paragraph with the text in it aligned by the center.");
 oTable.SetStyle(oTableStyle);
 oDocument.Push(oTable);
-builder.SaveFile("docx", "GetParaPr.docx");
-builder.CloseFile();

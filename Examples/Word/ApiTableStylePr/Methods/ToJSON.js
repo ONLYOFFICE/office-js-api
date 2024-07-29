@@ -1,5 +1,4 @@
 // This example converts the ApiTableStylePr object into the JSON object.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
@@ -13,5 +12,3 @@ var oTableStylePrFromJSON = Api.FromJSON(json);
 var sType = oTableStylePrFromJSON.GetClassType();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("Class type = " + sType);
-builder.SaveFile("docx", "ToJSON.docx");
-builder.CloseFile();

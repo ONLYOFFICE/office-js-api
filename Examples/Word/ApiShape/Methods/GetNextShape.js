@@ -1,5 +1,4 @@
 // This example shows how to get the next inline shape.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);
@@ -13,5 +12,3 @@ oParagraph.AddDrawing(oShape2);
 var oNextShape = oShape1.GetNextShape();
 oFill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
 oNextShape.Fill(oFill);
-builder.SaveFile("docx", "GetNextShape.docx");
-builder.CloseFile();

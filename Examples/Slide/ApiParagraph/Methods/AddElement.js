@@ -1,5 +1,4 @@
 // This example adds a run to the paragraph.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -15,5 +14,3 @@ var oRun = Api.CreateRun();
 oRun.AddText("This is the text for a text run. Nothing special.");
 oParagraph.AddElement(oRun);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "AddElement.pptx");
-builder.CloseFile();

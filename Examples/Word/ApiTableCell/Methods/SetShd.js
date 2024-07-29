@@ -1,5 +1,4 @@
 // This example specifies the shading applied to the contents of the table cell.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("We create a 3x3 table and add an orange shading to cell #1:");
@@ -11,5 +10,3 @@ var oCell = oTable.GetRow(0).GetCell(0);
 oCell.SetShd("clear", 255, 111, 61, false);
 oTable.SetStyle(oTableStyle);
 oDocument.Push(oTable);
-builder.SaveFile("docx", "SetShd.docx");
-builder.CloseFile();

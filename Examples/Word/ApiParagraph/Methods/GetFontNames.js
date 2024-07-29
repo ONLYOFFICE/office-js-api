@@ -1,5 +1,4 @@
 // This example shows how to get all font names from all elements inside the paragraph.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oRun = Api.CreateRun();
@@ -13,8 +12,5 @@ var arrFonts = oParagraph.GetFontNames();
 var oNewParagraph = Api.CreateParagraph();
 oNewParagraph.AddText("Fonts from previous paragraph: " + arrFonts.join(", "));
 oDocument.AddElement(1, oNewParagraph);
-builder.SaveFile("docx", "GetFontNames.docx");
-builder.CloseFile();
-
 
 

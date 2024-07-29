@@ -1,5 +1,4 @@
 // This example adds a table of figures to the current document.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oDrawing = Api.CreateChart("bar3D", [
@@ -19,5 +18,3 @@ oParagraph.AddDrawing(oDrawing);
 oParagraph.AddCaption(" - Financial Overview", "Figure", false, "Arabic", false, undefined, "hyphen");
 var oTofPr = {"ShowPageNums": true, "RightAlgn": true, "LeaderType": "dot", "FormatAsLinks": true, "BuildFrom": "Figure", "LabelNumber": true, "TofStyle": "distinctive"};
 oDocument.AddTableOfFigures(oTofPr);
-builder.SaveFile("docx", "AddTableOfFigures.docx");
-builder.CloseFile();

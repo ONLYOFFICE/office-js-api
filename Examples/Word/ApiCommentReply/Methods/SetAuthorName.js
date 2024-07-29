@@ -1,5 +1,4 @@
 // This example sets the comment reply author's name.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is just a sample text");
@@ -12,5 +11,3 @@ var sAuthorName = oCommentReply.GetAuthorName();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Comment reply author name: " + sAuthorName);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetAuthorName.docx");
-builder.CloseFile();

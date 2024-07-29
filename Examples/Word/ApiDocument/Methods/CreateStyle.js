@@ -1,5 +1,4 @@
 // This example creates a new style with the "Heading 1" type and "paragraph" name.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oHeading1Style = oDocument.CreateStyle("Heading 1", "paragraph");
 var oParaPr = oHeading1Style.GetParaPr();
@@ -16,5 +15,3 @@ oParagraph.AddText("This is a heading with a style created above");
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("This is just a text.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetStyle.docx");
-builder.CloseFile();

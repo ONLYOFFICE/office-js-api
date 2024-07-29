@@ -1,5 +1,4 @@
 // This example updates all tables of figures in the current document.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("bar3D", [
@@ -23,5 +22,3 @@ oParagraph.AddDrawing(oDrawing);
 oDocument.AddElement(2, oParagraph);
 oParagraph.AddCaption(" - Sample shape", "Figure", false, "Arabic", false, undefined, "hyphen");
 oDocument.UpdateAllTOF(false);
-builder.SaveFile("docx", "UpdateAllTOF.docx");
-builder.CloseFile();

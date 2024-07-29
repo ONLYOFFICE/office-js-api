@@ -1,5 +1,4 @@
 // This example specifies the border which will be displayed between each paragraph in a set of paragraphs which have the same set of paragraph border settings.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is the first paragraph. We will add a thick orange border between it and the next paragraph. ");
@@ -13,5 +12,3 @@ oDocument.Push(oParagraph);
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("This is the third paragraph. The border can be displayed above it only, as there are no new paragraphs after it.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetBetweenBorder.docx");
-builder.CloseFile();

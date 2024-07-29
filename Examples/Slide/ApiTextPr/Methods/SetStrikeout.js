@@ -1,5 +1,4 @@
 // This example specifies that the contents of the run are displayed with a single horizontal line through the center of the line.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -17,5 +16,3 @@ oParagraph.SetJc("left");
 oRun.AddText("This is a struck out text inside the shape.");
 oParagraph.AddElement(oRun);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetStrikeout.pptx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example shows how to get a list of all content controls in the document with the specified tag name.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oInlineLvlSdt = Api.CreateInlineLvlSdt();
@@ -12,5 +11,3 @@ oBlockLvlSdt.SetTag("Tag 2");
 oDocument.AddElement(0, oBlockLvlSdt);
 var aContentControls = oDocument.GetContentControlsByTag("Tag 1");
 aContentControls[0].SetAlias("№1");
-builder.SaveFile("docx", "GetContentControlsByTag.docx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example gets a watermark text and pastes it into the document.
-builder.CreateFile("docx");
 const oDocument = Api.GetDocument();
 const oWatermarkSettings = oDocument.GetWatermarkSettings();
 oWatermarkSettings.SetType("text");
@@ -19,5 +18,3 @@ const oWatermarkSettings2 = oDocument.GetWatermarkSettings();
 const oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Watermark Text = " + oWatermarkSettings2.GetText());
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetText.docx");
-builder.CloseFile();

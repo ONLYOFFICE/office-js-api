@@ -1,5 +1,4 @@
 // This example converts the ApiPresetColor object into the JSON object.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oPresetColor = Api.CreatePresetColor("peachPuff");
@@ -12,5 +11,3 @@ var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
 var oDrawing = Api.CreateShape("rect", 5930900, 395605, oFill, oStroke);
 oParagraph.AddDrawing(oDrawing);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "ToJSON.docx");
-builder.CloseFile();

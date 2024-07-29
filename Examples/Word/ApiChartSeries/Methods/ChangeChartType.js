@@ -1,5 +1,4 @@
 // This example changes the type of the first series of ApiChart class and inserts the new type into the document.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("comboBarLine", [
@@ -26,5 +25,3 @@ sSeriesType = oSeries.GetChartType();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("New Series Type = " + sSeriesType);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "ChangeChartType.docx");
-builder.CloseFile();

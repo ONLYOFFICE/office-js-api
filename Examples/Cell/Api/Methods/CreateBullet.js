@@ -1,5 +1,4 @@
 // This example creates a bullet for a paragraph.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -9,5 +8,3 @@ var oParagraph = oDocContent.GetElement(0);
 var oBullet = Api.CreateBullet("-");
 oParagraph.SetBullet(oBullet);
 oParagraph.AddText(" This is an example of the bulleted paragraph.");
-builder.SaveFile("xlsx", "CreateBullet.xlsx");
-builder.CloseFile();

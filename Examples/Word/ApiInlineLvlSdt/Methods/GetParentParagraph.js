@@ -1,5 +1,4 @@
 // This example shows how to get a paragraph that contains the content control.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is a parent paragraph. ");
@@ -8,5 +7,3 @@ oInlineLvlSdt.AddText("This is an inline text content control added to the parag
 oParagraph.AddInlineLvlSdt(oInlineLvlSdt);
 var oParentParagraph = oInlineLvlSdt.GetParentParagraph();
 oParentParagraph.SetBold(true);
-builder.SaveFile("docx", "GetParentParagraph.docx");
-builder.CloseFile();

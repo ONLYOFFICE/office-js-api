@@ -1,5 +1,4 @@
 // This example scales the width of the figure using the specified coefficient.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 for (let i = 1; i < 4; i++ ){
@@ -9,5 +8,3 @@ for (let i = 1; i < 4; i++ ){
 	oParagraph.AddDrawing(oDrawing);
 	oDrawing.ScaleWidth( i );
 }
-builder.SaveFile("docx", "ScaleWidth.docx");
-builder.CloseFile();

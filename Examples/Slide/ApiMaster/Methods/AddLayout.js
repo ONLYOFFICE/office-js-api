@@ -1,5 +1,4 @@
 // This example adds a layout to the specified slide master.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -20,5 +19,3 @@ oParagraph.AddLineBreak();
 oParagraph.AddText("Number of layouts after adding new layout: " + nCountAfter);
 oSlide.RemoveAllObjects();
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "AddLayout.pptx");
-builder.CloseFile();

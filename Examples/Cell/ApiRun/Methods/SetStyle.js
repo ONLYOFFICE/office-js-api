@@ -1,5 +1,4 @@
 // This example sets a style to the run.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -17,5 +16,3 @@ oRun = Api.CreateRun();
 // oRun.SetStyle(oMyNewRunStyle);
 oRun.AddText("This is a text run with its own style.");
 oParagraph.AddElement(oRun);
-builder.SaveFile("xlsx", "SetStyle.xlsx");
-builder.CloseFile();

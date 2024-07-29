@@ -1,5 +1,4 @@
 // This example sets the text outline to the current text run
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -14,5 +13,3 @@ oStroke = Api.CreateStroke(0.2 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(1
 oRun.SetOutLine(oStroke);
 oRun.AddText("This is a text run with the gray text outline.");
 oParagraph.AddElement(oRun);
-builder.SaveFile("xlsx", "SetOutLine.xlsx");
-builder.CloseFile();

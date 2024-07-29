@@ -1,5 +1,4 @@
 // This example gets a type of ApiBullet class and inserts it into the document.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -18,5 +17,3 @@ oParagraph.SetJc("left");
 oParagraph.AddText("Class Type = " + sClassType);
 oDocContent.Push(oParagraph);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "GetClassType.pptx");
-builder.CloseFile();

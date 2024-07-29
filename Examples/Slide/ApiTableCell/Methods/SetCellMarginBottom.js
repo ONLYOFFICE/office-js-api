@@ -1,5 +1,4 @@
 // This example shows how to specifies an amount of space which shall be left between the bottom extent of the cell contents and the border of a specific individual table cell within a table.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oTable = Api.CreateTable(2, 4);
 var oRow = oTable.GetRow(0);
@@ -12,5 +11,3 @@ oCell.SetCellMarginBottom(600);
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
 oSlide.AddObject(oTable);
-builder.SaveFile("pptx", "SetCellMarginBottom.pptx");
-builder.CloseFile();

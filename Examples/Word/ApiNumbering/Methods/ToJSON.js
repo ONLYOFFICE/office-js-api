@@ -1,5 +1,4 @@
 // This example converts the ApiNumbering object into the JSON object.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oNumbering = oDocument.CreateNumbering("bullet");
 var json = oNumbering.ToJSON();
@@ -15,5 +14,3 @@ var sType = oNumberingFromJSON.GetClassType();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Class type = " + sType);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "ToJSON.docx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example sets the background to the current slide master.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -12,5 +11,3 @@ oShape.SetPosition(608400, 1267200);
 oShape.SetSize(300 * 36000, 130 * 36000);
 oMaster.AddObject(oShape);
 oMaster.SetBackground(oFill);
-builder.SaveFile("pptx", "AddObject.pptx");
-builder.CloseFile();

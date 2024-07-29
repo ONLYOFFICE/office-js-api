@@ -1,5 +1,4 @@
 // This example shows how to get the comment reply author's name.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is just a sample text");
@@ -10,5 +9,3 @@ var oCommentReply = aComments[0].GetReply(0);
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("First comment reply's author: " + oCommentReply.GetAuthorName());
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetReply.docx");
-builder.CloseFile();

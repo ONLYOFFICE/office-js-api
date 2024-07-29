@@ -1,5 +1,4 @@
 // This example specifies the alignment which will be applied to the contents of the run in relation to the default appearance of the run text.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -17,5 +16,3 @@ oParagraph.SetJc("left");
 oRun.AddText("This is a text inside the shape with vertical alignment set to 'superscript'.");
 oParagraph.AddElement(oRun);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetVertAlign.pptx");
-builder.CloseFile();

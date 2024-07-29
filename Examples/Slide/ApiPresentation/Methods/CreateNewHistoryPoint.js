@@ -1,5 +1,4 @@
 // This example creates a new history point.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -15,5 +14,3 @@ oParagraph = Api.CreateParagraph();
 oParagraph.AddText("New history point was just created.");
 oDocContent.Push(oParagraph);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "CreateNewHistoryPoint.pptx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example sets the spacing after the paragraph.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -19,5 +18,3 @@ oParagraph = Api.CreateParagraph();
 oParagraph.AddText("This is the second paragraph and it is one inch away from the first paragraph.");
 oDocContent.Push(oParagraph);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetSpacingAfter.pptx");
-builder.CloseFile();

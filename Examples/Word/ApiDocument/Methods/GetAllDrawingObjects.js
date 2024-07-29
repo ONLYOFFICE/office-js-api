@@ -1,5 +1,4 @@
 // This example shows how to get a collection of drawing objects from the document.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(51, 51, 51), 0);
@@ -25,5 +24,3 @@ oParagraph.AddDrawing(oDrawing2);
 var aDrawings = oDocument.GetAllDrawingObjects();
 oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 aDrawings[0].Fill(oFill);
-builder.SaveFile("docx", "GetAllDrawingObjects.docx");
-builder.CloseFile();

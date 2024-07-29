@@ -1,5 +1,4 @@
 // This example sets a sequence of custom tab stops which will be used for any tab characters in the paragraph.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -18,5 +17,3 @@ oParagraph.AddTabStop();
 oParagraph.AddTabStop();
 oParagraph.AddTabStop();
 oParagraph.AddText("Custom tab - 3 inches right");
-builder.SaveFile("xlsx", "SetTabs.xlsx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example adds a oRun to the paragraph.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oRun = Api.CreateRun();
@@ -12,5 +11,3 @@ for (let nRunIncrease = 0; nRunIncrease < 5; ++nRunIncrease) {
 	oParagraph.AddLineBreak();
 	oParagraph.Push(oRun);
 }
-builder.SaveFile("docx", "Push.docx");
-builder.CloseFile();

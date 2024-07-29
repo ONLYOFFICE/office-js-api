@@ -1,5 +1,4 @@
 // This example showh how to get a table cell that contains the current content control.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
@@ -12,5 +11,3 @@ var oCell = oTable.GetRow(0).GetCell(0);
 oCell.AddElement(0, oBlockLvlSdt);
 var oParentTableCell = oBlockLvlSdt.GetParentTableCell();
 oParentTableCell.SetCellBorderTop("single", 32, 0, 51, 51, 51);
-builder.SaveFile("docx", "GetParentTableCell.docx");
-builder.CloseFile();

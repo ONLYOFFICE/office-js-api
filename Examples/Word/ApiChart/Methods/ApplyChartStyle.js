@@ -1,5 +1,4 @@
 // This example shows how to apply a styhe for chart.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("bar3D", [
@@ -16,5 +15,3 @@ oStroke = Api.CreateStroke(0.5 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(2
 oChart.SetSeriesFill(oFill, 1, false);
 oChart.SetSeriesOutLine(oStroke, 1, false);
 oParagraph.AddDrawing(oChart);
-builder.SaveFile("docx", "ApplyChartStyle.docx");
-builder.CloseFile();

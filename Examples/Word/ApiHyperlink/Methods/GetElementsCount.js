@@ -1,5 +1,4 @@
 // This example shows how to get a number of elements in the hyperlink.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oRun1 = Api.CreateRun();
@@ -15,5 +14,3 @@ oParagraph.AddText("Number of elements in hyperlink: " + nElementsCount);
 oParagraph.AddLineBreak();
 oParagraph.AddText("Elements: oParagraph, oRun1, oRun2, oHyperlink");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetElementsCount.docx");
-builder.CloseFile();

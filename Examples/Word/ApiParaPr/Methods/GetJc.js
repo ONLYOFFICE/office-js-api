@@ -1,5 +1,4 @@
 // This example shows how to get the paragraph contents justification.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oParaPr = oParagraph.GetParaPr();
@@ -12,5 +11,3 @@ var sJc = oParaPr.GetJc();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Justification: " + sJc);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetJc.docx");
-builder.CloseFile();

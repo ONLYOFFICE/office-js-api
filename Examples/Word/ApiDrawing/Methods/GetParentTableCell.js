@@ -1,5 +1,4 @@
 // This example showh how to get a parent table cell that contains the graphic object.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = Api.CreateParagraph();
 var oTable = Api.CreateTable(3, 3);
@@ -16,5 +15,3 @@ var oParentCell = oDrawing.GetParentTableCell();
 var oCellContent = oParentCell.GetContent().GetElement(0);
 oCellContent.AddLineBreak();
 oCellContent.AddText("This is a parent cell");
-builder.SaveFile("docx", "GetParentTableCell.docx");
-builder.CloseFile();

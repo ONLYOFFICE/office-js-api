@@ -1,5 +1,4 @@
 // This example shows how to get the text properties of the paragraph mark which is used to mark the paragraph end.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("We set the font size, font color and spacing for the paragraph mark. ");
@@ -8,5 +7,3 @@ var oParagraphMarkTextPr = oParagraph.GetParagraphMarkTextPr();
 oParagraphMarkTextPr.SetFontSize(52);
 oParagraphMarkTextPr.SetColor(255, 255, 0, false);
 oParagraphMarkTextPr.SetSpacing(5);
-builder.SaveFile("docx", "GetParagraphMarkTextPr.docx");
-builder.CloseFile();

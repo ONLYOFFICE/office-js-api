@@ -1,5 +1,4 @@
 // This example converts a document to HTML.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph1 = oDocument.GetElement(0);
 oParagraph1.AddText("Heading 1");
@@ -25,5 +24,3 @@ oParagraph5.AddText("HTML").SetBold(true);
 oParagraph5.AddLineBreak();
 oParagraph5.AddText(sHtml);
 oDocument.Push(oParagraph5);
-builder.SaveFile("docx", "ToHtml.docx");
-builder.CloseFile();

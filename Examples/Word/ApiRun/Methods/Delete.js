@@ -1,5 +1,4 @@
 // This example deletes the run.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oRun1 = Api.CreateRun();
@@ -11,5 +10,3 @@ oParagraph.AddElement(oRun2);
 oRun1.RemoveAllElements();
 oParagraph.AddLineBreak();
 oParagraph.AddText("The first run was removed from the document.");
-builder.SaveFile("docx", "Delete.docx");
-builder.CloseFile();

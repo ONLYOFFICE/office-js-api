@@ -1,5 +1,4 @@
 // This example sets the text spacing measured in twentieths of a point.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -17,5 +16,3 @@ oRun.SetSpacing(80);
 oRun.AddText("This is a text run with the text spacing set to 4 points (20 twentieths of a point).");
 oParagraph.AddElement(oRun);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetSpacing.pptx");
-builder.CloseFile();

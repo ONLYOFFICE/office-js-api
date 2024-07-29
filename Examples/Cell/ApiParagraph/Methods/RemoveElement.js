@@ -1,5 +1,4 @@
 // This example removes an element using the position specified.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -25,5 +24,3 @@ oRun = Api.CreateRun();
 oRun.AddText("Please note that line breaks are not counted into paragraph elements!");
 oParagraph.AddElement(oRun);
 oParagraph.RemoveElement(3);
-builder.SaveFile("xlsx", "RemoveElement.xlsx");
-builder.CloseFile();

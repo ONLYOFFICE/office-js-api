@@ -1,5 +1,4 @@
 // This example shows how to get the previous section.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is a new paragraph.");
@@ -12,5 +11,3 @@ oDocument.Push(oParagraph);
 var oSection2 = oDocument.CreateSection(oParagraph);
 var oPreviousSection = oSection2.GetPrevious();
 oPreviousSection.SetPageMargins(7200, 2880, 1440, 5760);
-builder.SaveFile("docx", "GetPrevious.docx");
-builder.CloseFile();

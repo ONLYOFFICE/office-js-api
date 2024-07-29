@@ -1,5 +1,4 @@
 // This example sets the alias attribute to the container.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oInlineLvlSdt = Api.CreateInlineLvlSdt();
@@ -12,5 +11,3 @@ var sAlias = oInlineLvlSdt.GetAlias();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Alias: " + sAlias);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetAlias.docx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example shows how to get the next cell.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
@@ -11,5 +10,3 @@ oTable.GetCell(0, 1).GetContent().GetElement(0).AddText("Cell 2");
 oDocument.Push(oTable);
 var oNextCell = oTable.GetCell(0, 0).GetNext();
 oNextCell.GetContent().GetElement(0).SetBold(true);
-builder.SaveFile("docx", "GetNext.docx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example shows how to get all drawings from the sheet.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);
@@ -20,5 +19,3 @@ oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 oDrawing.SetSeriesFill(oFill, 1, false);
 var aDrawings = oWorksheet.GetAllDrawings();
 aDrawings[0].SetSize(150 * 36000, 100 * 36000);
-builder.SaveFile("xlsx", "GetAllDrawings.xlsx");
-builder.CloseFile();

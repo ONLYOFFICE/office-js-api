@@ -1,5 +1,4 @@
 // This example shows how to get all styles of the current document.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("Document styles:");
@@ -10,5 +9,3 @@ for (let i = 0; i < aStyles.length; i++ ){
 	oParagraph.AddText(aStyles[i].GetName());
 	oDocument.AddElement(i + 1, oParagraph);
 }
-builder.SaveFile("docx", "GetAllStyles.docx");
-builder.CloseFile();

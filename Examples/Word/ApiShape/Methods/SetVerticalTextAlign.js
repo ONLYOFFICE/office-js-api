@@ -1,5 +1,4 @@
 // This example sets the vertical alignment to the shape content where a paragraph or text runs can be inserted.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
@@ -12,5 +11,3 @@ oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Class Type = " + sClassType);
 oDocContent.AddElement(0, oParagraph);
 oDrawing.SetVerticalTextAlign("top");
-builder.SaveFile("docx", "SetVerticalTextAlign.docx");
-builder.CloseFile();

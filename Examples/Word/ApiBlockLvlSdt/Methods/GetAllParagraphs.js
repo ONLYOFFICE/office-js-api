@@ -1,5 +1,4 @@
 // This example shows how to get a collection of paragraph objects in the content control.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oBlockLvlSdt = Api.CreateBlockLvlSdt();
 var oParagraph1 = Api.CreateParagraph();
@@ -11,5 +10,3 @@ oBlockLvlSdt.AddElement(oParagraph2, 1);
 oDocument.AddElement(0, oBlockLvlSdt);
 var aParagraphs = oBlockLvlSdt.GetAllParagraphs();
 aParagraphs[0].SetBold(true);
-builder.SaveFile("docx", "GetAllParagraphs.docx");
-builder.CloseFile();

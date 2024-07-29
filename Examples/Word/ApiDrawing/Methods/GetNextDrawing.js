@@ -1,5 +1,4 @@
 // This example shows how to get the next inline drawing object if exists.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
@@ -10,5 +9,3 @@ var oCopyDrawing = oDrawing.Copy();
 oParagraph.AddDrawing(oCopyDrawing);
 var oNextDrawing = oDrawing.GetNextDrawing();
 oNextDrawing.SetHorFlip(true);
-builder.SaveFile("docx", "GetNextDrawing.docx");
-builder.CloseFile();

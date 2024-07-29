@@ -1,5 +1,4 @@
 // This example specifies whether a single line of the current paragraph will be displayed on a separate page from the remaining content at display time by moving the line onto the following page.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oMyStyle = oDocument.CreateStyle("My document style");
 var oParaPr = oMyStyle.GetParaPr();
@@ -20,5 +19,3 @@ for (let i = 0; i < 3; ++i) {
 oParagraph.SetStyle(oMyStyle);
 oParagraph.AddText("This last line would be displayed on the next page, if we had not used the set widow control method.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetWidowControl.docx");
-builder.CloseFile();

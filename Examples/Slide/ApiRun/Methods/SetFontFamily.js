@@ -1,5 +1,4 @@
 // This example sets all 4 font slots with the specified font family.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -17,5 +16,3 @@ oRun.SetFontFamily("Comic Sans MS");
 oRun.AddText("This is a text run with the font family set to 'Comic Sans MS'.");
 oParagraph.AddElement(oRun);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetFontFamily.pptx");
-builder.CloseFile();

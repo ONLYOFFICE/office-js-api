@@ -1,5 +1,4 @@
 // This example sSpecifies that when rendering the document using a page view, all lines of the current paragraph are maintained on a single page whenever possible.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is an example of how the paragraph tries to keep lines together. ");
@@ -18,5 +17,3 @@ for (let i = 0; i < 10; ++i) {
 }
 oParagraph.SetKeepLines(true);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetKeepLines.docx");
-builder.CloseFile();

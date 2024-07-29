@@ -1,5 +1,4 @@
 // This example creates the empty text properties.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -14,5 +13,3 @@ oParagraph.SetJc("left");
 oParagraph.AddText("This is a sample text with the font size set to 30 and the font weight set to bold.");
 oParagraph.SetTextPr(oTextPr);
 oDocContent.Push(oParagraph);
-builder.SaveFile("xlsx", "CreateTextPr.xlsx");
-builder.CloseFile();

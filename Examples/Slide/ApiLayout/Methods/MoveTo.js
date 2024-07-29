@@ -1,5 +1,4 @@
 // This example shows how to move a layout.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide1 = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -22,5 +21,3 @@ var oParagraph = oDocContent.GetElement(0);
 oParagraph.SetJc("left");
 oParagraph.AddText("The third layout was moved to the seventh position within the same collection.");
 oPresentation.AddSlide(oSlide3);
-builder.SaveFile("pptx", "MoveTo.pptx");
-builder.CloseFile();

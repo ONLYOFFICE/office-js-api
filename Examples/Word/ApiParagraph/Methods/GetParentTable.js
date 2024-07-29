@@ -1,5 +1,4 @@
 // This example shows how to get a table that contains the paragraph.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
@@ -14,5 +13,3 @@ oTable.AddElement(oCell, 0, oParagraph);
 var oParentTable = oParagraph.GetParentTable();
 oCell = oParentTable.GetRow(2).GetCell(0);
 oParentTable.RemoveRow(oCell);
-builder.SaveFile("docx", "GetParentTable.docx");
-builder.CloseFile();

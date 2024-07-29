@@ -1,5 +1,4 @@
 // This example specifies that the contents of the current run are displayed with two horizontal lines through each character displayed on the line.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -17,5 +16,3 @@ oRun.SetDoubleStrikeout(true);
 oRun.AddText("This is a text run with the text struck out with two lines.");
 oParagraph.AddElement(oRun);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetDoubleStrikeout.pptx");
-builder.CloseFile();

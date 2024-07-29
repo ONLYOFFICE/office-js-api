@@ -1,5 +1,4 @@
 // This example accepts all changes made in review mode.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph1 = oDocument.GetElement(0);
 oDocument.SetTrackRevisions(true);
@@ -15,5 +14,3 @@ oDocument.SetTrackRevisions(false);
 var oParagraph = Api.CreateParagraph();
 oParagraph.AddText("All revision changes in this document were accepted.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "AcceptAllRevisionChanges.docx");
-builder.CloseFile();

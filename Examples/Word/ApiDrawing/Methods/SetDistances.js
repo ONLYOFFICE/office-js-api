@@ -1,5 +1,4 @@
 // This example specifies the minimum distance which will be maintained between the edges of the drawing object and any subsequent text.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is a paragraph with a shape. ");
@@ -16,5 +15,3 @@ oParagraph.AddDrawing(oDrawing);
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("This is another paragraph.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetDistances.docx");
-builder.CloseFile();

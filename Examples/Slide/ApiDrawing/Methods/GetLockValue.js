@@ -1,5 +1,4 @@
 // This example gets a lock value of a shape and inserts it into the presentation.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -14,5 +13,3 @@ var oParagraph = oDocContent.GetElement(0);
 oParagraph.AddText("This drawing cannot be selected: " + bLockValue);
 oDocContent.AddElement(0, oParagraph);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "GetLockValue.pptx");
-builder.CloseFile();

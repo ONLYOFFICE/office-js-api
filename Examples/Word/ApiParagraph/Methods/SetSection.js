@@ -1,5 +1,4 @@
 // This example sets the specified section to the current paragraph.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is a new paragraph.");
@@ -18,5 +17,3 @@ oParagraph.SetSpacingAfter(360);
 oParagraph.AddText("This is a paragraph in a new section. The properties from the first section was applied to this one.");
 oDocument.Push(oParagraph);
 oParagraph.SetSection(oSection);
-builder.SaveFile("docx", "SetSection.docx");
-builder.CloseFile();

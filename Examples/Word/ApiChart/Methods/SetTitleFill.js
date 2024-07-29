@@ -1,5 +1,4 @@
 // This example sets the fill to the chart title.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("bar3D", [
@@ -14,5 +13,3 @@ oChart.SetSeriesFill(oFill, 1, false);
 oFill = Api.CreateSolidFill(Api.CreateRGBColor(128, 128, 128));
 oChart.SetTitle("Financial Overview", 13);
 oChart.SetTitleFill(oFill);
-builder.SaveFile("docx", "SetTitleFill.docx");
-builder.CloseFile();

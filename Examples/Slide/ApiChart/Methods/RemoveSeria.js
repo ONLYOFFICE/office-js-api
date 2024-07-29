@@ -1,5 +1,4 @@
 // This example shows how to remove the specified series from the current chart.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -14,5 +13,3 @@ oChart.SetTitle("The Estimated Costs series was removed from the current chart."
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 oChart.SetSeriesFill(oFill, 0, false);
 oSlide.AddObject(oChart);
-builder.SaveFile("pptx", "RemoveSeria.pptx");
-builder.CloseFile();

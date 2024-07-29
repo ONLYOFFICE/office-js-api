@@ -1,5 +1,4 @@
 // This example shows how to get a collection of image objects from the document content.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
@@ -16,5 +15,3 @@ var sClassType = aImages[0].GetClassType();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Class type: " + sClassType);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetAllImages.docx");
-builder.CloseFile();

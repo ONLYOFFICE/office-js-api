@@ -1,5 +1,4 @@
 // This example shows how to get a collection of shape objects from the document content.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
@@ -20,5 +19,3 @@ oParagraph = oDocContent.GetElement(0);
 oParagraph.AddText("Class Type = " + sClassType);
 oParagraph.SetColor(51, 51, 51);
 aShapes[0].SetVerticalTextAlign("bottom");
-builder.SaveFile("docx", "GetAllShapes.docx");
-builder.CloseFile();

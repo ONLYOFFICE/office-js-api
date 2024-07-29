@@ -1,5 +1,4 @@
 // This example sets the italic property to the text character.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -17,5 +16,3 @@ oRun.SetItalic(true);
 oRun.AddText("This is a text run with the font set to italicized letters.");
 oParagraph.AddElement(oRun);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetItalic.pptx");
-builder.CloseFile();

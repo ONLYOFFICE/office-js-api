@@ -1,5 +1,4 @@
 // This example shows how to get a paragraph element using the position specified.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -24,5 +23,3 @@ oParagraph.AddElement(oRun);
 oRun = oParagraph.GetElement(2);
 oRun.SetBold(true);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "GetElement.pptx");
-builder.CloseFile();

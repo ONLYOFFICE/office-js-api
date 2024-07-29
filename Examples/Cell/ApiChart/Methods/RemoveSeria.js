@@ -1,5 +1,4 @@
 // This example shows how to remove the specified series from the current chart.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);
@@ -18,5 +17,3 @@ oChart.RemoveSeria(1);
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 oChart.SetSeriesFill(oFill, 0, false);
 oWorksheet.GetRange("A5").SetValue("The Estimated Costs series was removed from the current chart.");
-builder.SaveFile("xlsx", "RemoveSeria.xlsx");
-builder.CloseFile();

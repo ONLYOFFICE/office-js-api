@@ -1,5 +1,4 @@
 // This example shows how to get a number of elements in the current document content.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
@@ -13,5 +12,3 @@ oParagraph.AddText("We removed all elements from the shape and added a new parag
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Number of elements inside the shape: " + oDocContent.GetElementsCount());
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetElementsCount.docx");
-builder.CloseFile();

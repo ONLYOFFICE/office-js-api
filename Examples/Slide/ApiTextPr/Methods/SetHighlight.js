@@ -1,5 +1,4 @@
 // This example specifies a highlighting color which is added to the text properties and applied as a background to the contents of the run.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -17,5 +16,3 @@ oParagraph.SetJc("left");
 oRun.AddText("This is a sample text inside the shape with the text highlighted with light gray color using the text properties.");
 oParagraph.AddElement(oRun);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetHighlight.pptx");
-builder.CloseFile();

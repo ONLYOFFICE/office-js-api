@@ -1,5 +1,4 @@
 // This example shows how to get an array with all the shape objects from the slide layout.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -16,5 +15,3 @@ var oDocContent = aShapes[0].GetContent();
 var oParagraph = oDocContent.GetElement(0);
 oParagraph.SetJc("left");
 oParagraph.AddText("This is a sample shape which was added to the current layout.");
-builder.SaveFile("pptx", "GetAllShapes.pptx");
-builder.CloseFile();

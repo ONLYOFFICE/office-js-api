@@ -1,5 +1,4 @@
 // This example gets elements count and inserts this value into the presentation.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -15,5 +14,3 @@ oParagraph.AddText("Number of elements inside the shape: " + oDocContent.GetElem
 oParagraph.AddLineBreak();
 oParagraph.AddText("Line breaks are NOT counted into the number of elements.");
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "GetElementsCount.pptx");
-builder.CloseFile();

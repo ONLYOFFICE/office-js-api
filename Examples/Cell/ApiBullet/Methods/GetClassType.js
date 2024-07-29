@@ -1,5 +1,4 @@
 // This example shows how to get a type of the ApiBullet class and insert it into the table.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -18,5 +17,3 @@ oParagraph = Api.CreateParagraph();
 oParagraph.SetJc("left");
 oParagraph.AddText("Class Type = " + sClassType);
 oDocContent.Push(oParagraph);
-builder.SaveFile("xlsx", "GetClassType.xlsx");
-builder.CloseFile();

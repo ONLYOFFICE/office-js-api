@@ -1,5 +1,4 @@
 // This example shows how to get the hyperlink element using the position specified.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oRun1 = Api.CreateRun();
@@ -13,5 +12,3 @@ var oElement = oHyperlink.GetElement(1);
 oParagraph = Api.CreateParagraph();
 oParagraph.AddElement(oElement);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetElement.docx");
-builder.CloseFile();

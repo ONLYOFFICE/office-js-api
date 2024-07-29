@@ -1,5 +1,4 @@
 // This example shows how to get a number of elements in the current paragraph.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -16,5 +15,3 @@ oParagraph.AddElement(oRun);
 oRun.AddText("Number of paragraph elements after we added a text run: ");
 oRun.AddTabStop();
 oRun.AddText("" + oParagraph.GetElementsCount());
-builder.SaveFile("xlsx", "GetElementsCount.xlsx");
-builder.CloseFile();

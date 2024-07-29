@@ -1,5 +1,4 @@
 // This example sets the spacing after the current paragraph.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oMyStyle = oDocument.CreateStyle("My document style");
 var oParaPr = oMyStyle.GetParaPr();
@@ -12,5 +11,3 @@ oParagraph.SetStyle(oMyStyle);
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("This is the second paragraph and it is one inch away from the first paragraph.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetSpacingAfter.docx");
-builder.CloseFile();

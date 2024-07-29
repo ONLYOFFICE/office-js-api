@@ -1,5 +1,4 @@
 // This example shows how to get the row index.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
@@ -9,5 +8,3 @@ oTable.SetWidth("percent", 100);
 var oRow = oTable.GetRow(1);
 oRow.GetCell(0).GetContent().GetElement(0).AddText("Row index: " + oRow.GetIndex());
 oDocument.Push(oTable);
-builder.SaveFile("docx", "GetIndex.docx");
-builder.CloseFile();

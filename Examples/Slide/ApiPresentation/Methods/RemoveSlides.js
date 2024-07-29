@@ -1,5 +1,4 @@
 // This example shows how to remove a range of slides from the presentation.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = Api.CreateSlide();
 var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);
@@ -18,5 +17,3 @@ var oParagraph = oDocContent.GetElement(0);
 var sClassType = oPresentation.GetClassType();
 oParagraph.AddText("A slide with no background was removed from this presentation.");
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "RemoveSlides.pptx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example creates a paragraph copy.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -16,5 +15,3 @@ oDocContent.Push(oParagraph);
 var oCopyParagraph = oParagraph.Copy();
 oDocContent.Push(oCopyParagraph);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "Copy.pptx");
-builder.CloseFile();

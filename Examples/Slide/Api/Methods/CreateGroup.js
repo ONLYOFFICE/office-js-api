@@ -1,5 +1,4 @@
 // This example show how to create a group.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -12,5 +11,3 @@ var oGroup = Api.CreateGroup([oShape1, oShape2]);
 oShape1.SetPosition(608400, 1267200);
 oShape2.SetPosition(3100000, 1867200);
 oSlide.AddObject(oGroup);
-builder.SaveFile("pptx", "CreateGroup.pptx");
-builder.CloseFile();

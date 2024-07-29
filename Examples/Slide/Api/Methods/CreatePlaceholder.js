@@ -1,5 +1,4 @@
 // This example shows how to create placeholder for shape.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -11,5 +10,3 @@ oShape.SetSize(300 * 36000, 130 * 36000);
 var oPlaceholder = Api.CreatePlaceholder("picture");
 oShape.SetPlaceholder(oPlaceholder);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "CreatePlaceholder.pptx");
-builder.CloseFile();

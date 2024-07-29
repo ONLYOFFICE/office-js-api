@@ -1,5 +1,4 @@
 // This example specifies how the floating object will be vertically aligned.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is a paragraph with a shape. ");
@@ -17,5 +16,3 @@ oParagraph.AddDrawing(oDrawing);
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("The shape is aligned to the top of the page.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetVerAlign.docx");
-builder.CloseFile();

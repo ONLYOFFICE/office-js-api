@@ -1,5 +1,4 @@
 // This example clears the slide master background.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -11,5 +10,3 @@ var oShape = Api.CreateShape("flowChartMagneticTape", 300 * 36000, 130 * 36000, 
 oShape.SetPosition(608400, 1267200);
 oShape.SetSize(300 * 36000, 130 * 36000);
 oMaster.AddObject(oShape);
-builder.SaveFile("pptx", "AddObject.pptx");
-builder.CloseFile();

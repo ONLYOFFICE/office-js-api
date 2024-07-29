@@ -1,5 +1,4 @@
 // This example sets the border which will be displayed at the bottom of the table.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("We create a 3x3 table and add the bottom 4 point black border:");
@@ -12,5 +11,3 @@ oTable.SetTableBorderRight("single", 4, 0, 51, 51, 51);
 oTable.SetTableBorderInsideV("single", 4, 0, 255, 111, 61);
 oTable.SetTableBorderInsideH("single", 4, 0, 255, 111, 61);
 oDocument.Push(oTable);
-builder.SaveFile("docx", "SetTableBorderBottom.docx");
-builder.CloseFile();

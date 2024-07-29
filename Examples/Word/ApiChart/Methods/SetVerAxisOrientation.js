@@ -1,5 +1,4 @@
 // This example specifies the vertical axis orientation.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("bar3D", [
@@ -15,5 +14,3 @@ oChart.SetHorAxisTitle("Year", 11);
 oChart.SetVerAxisOrientation(false);
 oChart.SetTitle("Financial Overview", 13);
 oParagraph.AddDrawing(oChart);
-builder.SaveFile("docx", "SetVerAxisOrientation.docx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example shows how to get a report about every change which was made to the document in the review mode.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph1 = oDocument.GetElement(0);
 oDocument.SetTrackRevisions(true);
@@ -76,5 +75,3 @@ for (let sUserName in oReviewReport) {
 	}
 }
 oTable.SetStyle(oDocument.GetStyle("Bordered"));
-builder.SaveFile("docx", "GetReviewReport.docx");
-builder.CloseFile();

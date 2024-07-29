@@ -1,5 +1,4 @@
 // This example sets a limit to the text field characters.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTextForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "cellWidth": 3, "multiLine": false, "autoFit": false});
 var oParagraph = oDocument.GetElement(0);
@@ -10,5 +9,3 @@ var nLimit = oTextForm.GetCharactersLimit();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Characters limit: " + nLimit);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetCharactersLimit.docx");
-builder.CloseFile();

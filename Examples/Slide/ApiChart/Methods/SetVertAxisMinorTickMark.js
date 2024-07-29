@@ -1,5 +1,4 @@
 // This example specifies the minor tick mark for the vertical axis.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -21,5 +20,3 @@ oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 oChart.SetMarkerFill(oFill, 1, 0, true);
 oChart.SetMarkerOutLine(oStroke, 1, 0, true);
 oSlide.AddObject(oChart);
-builder.SaveFile("pptx", "SetVertAxisMinorTickMark.pptx");
-builder.CloseFile();

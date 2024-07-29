@@ -1,5 +1,4 @@
 // This example shows how to get the text properties of the run.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oMyNewRunStyle = oDocument.CreateStyle("My New Run Style", "run");
 var oTextPr = oMyNewRunStyle.GetTextPr();
@@ -14,5 +13,3 @@ oRun = Api.CreateRun();
 oRun.SetStyle(oMyNewRunStyle);
 oRun.AddText("This is a text run with its own style.");
 oParagraph.AddElement(oRun);
-builder.SaveFile("docx", "GetTextPr.docx");
-builder.CloseFile();

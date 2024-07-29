@@ -1,5 +1,4 @@
 // This example shows how to get a parent table that contains the graphic object.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = Api.CreateParagraph();
 var oTable = Api.CreateTable(3, 3);
@@ -14,5 +13,3 @@ oDocument.Push(oTable);
 var oParentTable = oDrawing.GetParentTable();
 var oTableStyle = oDocument.GetStyle("Bordered");
 oParentTable.SetStyle(oTableStyle);
-builder.SaveFile("docx", "GetParentTable.docx");
-builder.CloseFile();

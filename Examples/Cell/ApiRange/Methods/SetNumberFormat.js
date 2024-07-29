@@ -1,5 +1,4 @@
 // This example specifies whether a number in the cell should be treated like number, currency, date, time, etc. or just like text.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.SetColumnWidth(0, 30);
 oWorksheet.SetColumnWidth(1, 30);
@@ -39,5 +38,3 @@ oWorksheet.GetRange("B12").SetValue("Scientific");
 oWorksheet.GetRange("A13").SetNumberFormat("@");
 oWorksheet.GetRange("A13").SetValue("123456");
 oWorksheet.GetRange("B13").SetValue("Text");
-builder.SaveFile("xlsx", "SetNumberFormat.xlsx");
-builder.CloseFile();

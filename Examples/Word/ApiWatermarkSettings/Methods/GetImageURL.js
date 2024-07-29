@@ -1,5 +1,4 @@
 // This example sets the parameters of the watermark settings and apply them to the document.
-builder.CreateFile("docx");
 const oDocument = Api.GetDocument();
 const oWatermarkSettings = oDocument.GetWatermarkSettings();
 oWatermarkSettings.SetType("image");
@@ -12,5 +11,3 @@ const oWatermarkSettings2 = oDocument.GetWatermarkSettings();
 const oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Watermark URL = " + oWatermarkSettings2.GetImageURL());
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetImageURL.docx");
-builder.CloseFile();

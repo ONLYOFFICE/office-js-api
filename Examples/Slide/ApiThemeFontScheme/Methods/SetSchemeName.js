@@ -1,5 +1,4 @@
 // This example sets a name to the theme font scheme.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -18,5 +17,3 @@ oParagraph.SetJc("left");
 oParagraph.AddText("New name was set to the theme font scheme.");
 oSlide.RemoveAllObjects();
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetSchemeName.pptx");
-builder.CloseFile();

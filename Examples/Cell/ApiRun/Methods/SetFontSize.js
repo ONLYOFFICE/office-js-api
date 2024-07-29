@@ -1,5 +1,4 @@
 // This example sets the font size to the characters of the current text run.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -13,5 +12,3 @@ oRun = Api.CreateRun();
 oRun.SetFontSize(30);
 oRun.AddText("This is a text run with the font size set to 15 points (30 half-points).");
 oParagraph.AddElement(oRun);
-builder.SaveFile("xlsx", "SetFontSize.xlsx");
-builder.CloseFile();

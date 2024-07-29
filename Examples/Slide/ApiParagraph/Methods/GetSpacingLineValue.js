@@ -1,5 +1,4 @@
 // This example shows how to get the paragraph line spacing value.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -20,5 +19,3 @@ oParagraph.AddText("These sentences are used to add lines for demonstrative purp
 oParagraph.AddLineBreak();
 var nSpacingLineValue = oParagraph.GetSpacingLineValue();
 oParagraph.AddText("Spacing line value: " + nSpacingLineValue);
-builder.SaveFile("pptx", "GetSpacingLineValue.pptx");
-builder.CloseFile();

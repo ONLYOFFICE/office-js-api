@@ -1,5 +1,4 @@
 // This example gets width of shape and inserts it into the presentation.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -12,5 +11,3 @@ var oDocContent = oShape.GetDocContent();
 var oParagraph = oDocContent.GetElement(0);
 oParagraph.AddText("Drawing width: " + nWidth);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "GetWidth.pptx");
-builder.CloseFile();

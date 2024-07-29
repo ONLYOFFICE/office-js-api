@@ -1,5 +1,4 @@
 // This example specifies a number of columns which will comprise each table column band for this table style.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 oDocument.RemoveAllElements();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
@@ -20,5 +19,3 @@ oTable.GetRow(1).GetCell(1).GetContent().GetElement(0).AddText("Bold");
 oTable.GetRow(1).GetCell(2).GetContent().GetElement(0).AddText("Normal");
 oTable.GetRow(1).GetCell(3).GetContent().GetElement(0).AddText("Normal");
 oDocument.Push(oTable);
-builder.SaveFile("docx", "SetStyleColBandSize.docx");
-builder.CloseFile();

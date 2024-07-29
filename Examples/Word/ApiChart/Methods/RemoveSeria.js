@@ -1,5 +1,4 @@
 // This example shows how to remove the specified series from the current chart.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("bar3D", [
@@ -14,5 +13,3 @@ oChart.SetSeriesFill(oFill, 1, false);
 oChart.RemoveSeria(1);
 oParagraph.AddLineBreak();
 oParagraph.AddText("The Estimated Costs series was removed from the current chart.");
-builder.SaveFile("docx", "RemoveSeria.docx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example removes all the elements from the paragraph.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -16,5 +15,3 @@ oParagraph.RemoveAllElements();
 oParagraph.AddText("We removed all the paragraph elements and added a new text run inside it.");
 oDocContent.Push(oParagraph);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "RemoveAllElements.pptx");
-builder.CloseFile();

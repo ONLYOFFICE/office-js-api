@@ -1,5 +1,4 @@
 // This example sets the spacing before the current paragraph.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oMyStyle = oDocument.CreateStyle("My document style");
 var oParaPr = oMyStyle.GetParaPr();
@@ -12,5 +11,3 @@ oParagraph = Api.CreateParagraph();
 oParagraph.AddText("This is the second paragraph and it is one inch away from the first paragraph.");
 oParagraph.SetStyle(oMyStyle);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetSpacingBefore.docx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example shows how to get the paragraph line spacing rule.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -22,5 +21,3 @@ var sSpacingLineRule = oParaPr.GetSpacingLineRule();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Spacing line rule : " + sSpacingLineRule);
 oDocContent.Push(oParagraph);
-builder.SaveFile("pptx", "GetSpacingLineRule.pptx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example returns the text properties from the current form.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oCheckBoxForm = Api.CreateCheckBoxForm({"tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": false});
 oCheckBoxForm.SetFormKey("Marital status 1");
@@ -18,5 +17,3 @@ oCheckBoxForm.SetTextPr(oTextPr);
 var oFormTextPr = oCheckBoxForm.GetTextPr();
 oFormTextPr.SetItalic(true);
 oCheckBoxForm.SetTextPr(oFormTextPr);
-builder.SaveFile("docx", "GetTextPr.docx");
-builder.CloseFile();

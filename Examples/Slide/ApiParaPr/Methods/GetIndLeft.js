@@ -1,5 +1,4 @@
 // This example shows how to get the paragraph left side indentation.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -23,5 +22,3 @@ var nIndLeft = oParaPr.GetIndLeft();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Left indent: " + nIndLeft);
 oDocContent.Push(oParagraph);
-builder.SaveFile("pptx", "GetIndLeft.pptx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example shows how to get all shapes from the sheet.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);
 var oGs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);
@@ -15,5 +14,3 @@ oParagraph.SetJc("left");
 oParagraph.AddText("We removed all elements from the shape and added a new paragraph inside it ");
 oParagraph.AddText("aligning it vertically by the bottom.");
 oDocContent.Push(oParagraph);
-builder.SaveFile("xlsx", "GetAllShapes.xlsx");
-builder.CloseFile();

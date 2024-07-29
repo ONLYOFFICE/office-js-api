@@ -1,5 +1,4 @@
 // This example adds a paragraph in document content.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -10,5 +9,3 @@ var oParagraph = Api.CreateParagraph();
 oParagraph.AddText("We removed all elements from the shape and added a new paragraph inside it.");
 oDocContent.AddElement(oParagraph);
 oDocContent.Push(oParagraph);
-builder.SaveFile("xlsx", "AddElement.xlsx");
-builder.CloseFile();

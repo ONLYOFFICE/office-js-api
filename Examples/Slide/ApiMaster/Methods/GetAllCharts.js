@@ -1,5 +1,4 @@
 // This example show how to get an array with all the chart objects from the slide master.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -23,5 +22,3 @@ oSlide.RemoveAllObjects();
 var aCharts = oMaster.GetAllCharts();
 var oStroke = Api.CreateStroke(1 * 150, Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61)));
 aCharts[0].SetMinorHorizontalGridlines(oStroke);
-builder.SaveFile("pptx", "GetAllCharts.pptx");
-builder.CloseFile();

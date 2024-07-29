@@ -1,5 +1,4 @@
 // This example shows how to get the parent slide master of the current layout.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oLayout = oSlide.GetLayout();
@@ -16,5 +15,3 @@ var oParagraph = oDocContent.GetElement(0);
 oParagraph.SetJc("left");
 oParagraph.AddText("Class type = " + sType);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "GetMaster.pptx");
-builder.CloseFile();

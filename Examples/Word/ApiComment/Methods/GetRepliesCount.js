@@ -1,5 +1,4 @@
 // This example shows how to get a number of the comment replies.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is just a sample text");
@@ -10,5 +9,3 @@ var nReplies = aComments[0].GetRepliesCount();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Number of comment replies: " + nReplies);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetRepliesCount.docx");
-builder.CloseFile();

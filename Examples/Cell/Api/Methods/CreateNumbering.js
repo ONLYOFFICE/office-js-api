@@ -1,5 +1,4 @@
 // This example creates a bullet for a paragraph with the numbering character or symbol specified with the sType parameter.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -13,5 +12,3 @@ oParagraph = Api.CreateParagraph();
 oParagraph.SetBullet(oBullet);
 oParagraph.AddText(" This is an example of the numbered paragraph.");
 oDocContent.Push(oParagraph);
-builder.SaveFile("xlsx", "CreateNumbering.xlsx");
-builder.CloseFile();

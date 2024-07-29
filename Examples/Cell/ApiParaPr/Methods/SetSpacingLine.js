@@ -1,5 +1,4 @@
 // This example sets the paragraph line spacing.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -12,5 +11,3 @@ oParagraph.AddText("Paragraph 1. Spacing: 3 times of a common paragraph line spa
 oParagraph.AddLineBreak();
 oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
 oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-builder.SaveFile("xlsx", "SetSpacingLine.xlsx");
-builder.CloseFile();

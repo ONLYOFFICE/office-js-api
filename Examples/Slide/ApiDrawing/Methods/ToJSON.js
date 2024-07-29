@@ -1,5 +1,4 @@
 // This example converts the shape into JSON.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -11,5 +10,3 @@ var oDrawingFromJSON = Api.FromJSON(json);
 oDrawingFromJSON.SetPosition(608400, 1267200);
 oDrawingFromJSON.SetSize(300 * 36000, 130 * 36000);
 oSlide.AddObject(oDrawingFromJSON);
-builder.SaveFile("pptx", "ToJSON.pptx");
-builder.CloseFile();

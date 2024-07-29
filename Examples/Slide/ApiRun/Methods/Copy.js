@@ -1,5 +1,4 @@
 // This example reates a copy of the run.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -15,5 +14,3 @@ oParagraph.AddElement(oRun);
 var oCopyRun = oRun.Copy();
 oParagraph.AddElement(oCopyRun);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "Copy.pptx");
-builder.CloseFile();

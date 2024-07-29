@@ -1,5 +1,4 @@
 // This example shows how to get the content control position within its parent element.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = Api.CreateParagraph();
 var oRun = Api.CreateRun();
@@ -17,5 +16,3 @@ oDocument.AddElement(0, oBlockLvlSdt);
 var nPosition = oBlockLvlSdt.GetPosInParent();
 oBlockLvlSdt = oDocument.GetElement(nPosition);
 oBlockLvlSdt.SetPlaceholderText("Content control");
-builder.SaveFile("docx", "GetPosInParent.docx");
-builder.CloseFile();

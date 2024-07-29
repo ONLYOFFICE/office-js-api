@@ -1,5 +1,4 @@
 // This example sets the table title.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
@@ -10,5 +9,3 @@ oTable.SetStyle(oTableStyle);
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("Table title: " + oTable.GetTableTitle());
 oDocument.Push(oTable);
-builder.SaveFile("docx", "SetTableTitle.docx");
-builder.CloseFile();

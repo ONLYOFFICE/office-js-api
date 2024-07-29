@@ -1,5 +1,4 @@
 // This example shows how to get the color scheme of the theme.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -20,5 +19,3 @@ oChart.SetTitle("Financial Overview", 20);
 oChart.SetSize(300 * 36000, 130 * 36000);
 oChart.SetPosition(608400, 1267200);
 oSlide.AddObject(oChart);
-builder.SaveFile("pptx", "GetColorScheme.pptx");
-builder.CloseFile();

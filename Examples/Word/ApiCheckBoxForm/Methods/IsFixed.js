@@ -1,5 +1,4 @@
 // This example checks if the current form is fixed size.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oCheckBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});
 var oParagraph = oDocument.GetElement(0);
@@ -15,5 +14,3 @@ var bFixed = oCheckBoxForm.IsFixed();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("The second form from this document has a fixed size: " + bFixed);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "IsFixed.docx");
-builder.CloseFile();

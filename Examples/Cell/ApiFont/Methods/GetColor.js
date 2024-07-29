@@ -1,5 +1,4 @@
 // This example shows how to get the font color property of the specified font.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oRange = oWorksheet.GetRange("B1");
 oRange.SetValue("This is just a sample text.");
@@ -11,5 +10,3 @@ oColor = oFont.GetColor();
 oCharacters = oRange.GetCharacters(16, 6);
 oFont = oCharacters.GetFont();
 oFont.SetColor(oColor);
-builder.SaveFile("xlsx", "GetColor.xlsx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example shows how to ge t the paragraph properties which are applied to any numbered paragraph that references the given numbering definition and numbering level.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oNumbering = oDocument.CreateNumbering("numbered");
 var oNumLvl = oNumbering.GetLevel(0);
@@ -14,5 +13,3 @@ oParagraph = Api.CreateParagraph();
 oParagraph.AddText("This is the second element of a parent numbered list which starts with '2'");
 oParagraph.SetNumbering(oNumLvl);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetParaPr.docx");
-builder.CloseFile();

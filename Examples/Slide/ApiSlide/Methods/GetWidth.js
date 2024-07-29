@@ -1,5 +1,4 @@
 // This example shows how to get the slide width in English measure units.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 oPresentation.SetSizes(254 * 36000, 190 * 36000);
 var oSlide = oPresentation.GetCurrentSlide();
@@ -13,5 +12,3 @@ var oParagraph = oDocContent.GetElement(0);
 var nSlideWidth = oSlide.GetWidth();
 oParagraph.AddText("The slide width = " + nSlideWidth / 36000 + " mm");
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "GetWidth.pptx");
-builder.CloseFile();

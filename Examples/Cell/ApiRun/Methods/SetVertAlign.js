@@ -1,5 +1,4 @@
 // This example specifies the alignment which will be applied to the contents of the current run in relation to the default appearance of the text run.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -21,5 +20,3 @@ oRun = Api.CreateRun();
 oRun.SetVertAlign("superscript");
 oRun.AddText("This is a text run with the text aligned above the baseline vertically.");
 oParagraph.AddElement(oRun);
-builder.SaveFile("xlsx", "SetVertAlign.xlsx");
-builder.CloseFile();

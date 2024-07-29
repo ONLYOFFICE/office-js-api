@@ -1,5 +1,4 @@
 // This example replaces a drawing with a new drawing.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oOldDrawing = Api.CreateChart("bar3D", [
@@ -21,5 +20,3 @@ oParagraph = Api.CreateParagraph();
 oParagraph.AddText("The chart was replaced with the current shape in this document.");
 oDocContent.AddElement(0, oParagraph);
 oDocument.ReplaceDrawing(oOldDrawing, oNewDrawing, false);
-builder.SaveFile("docx", "ReplaceDrawing.docx");
-builder.CloseFile();

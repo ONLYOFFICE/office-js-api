@@ -1,5 +1,4 @@
 // This example clears all forms in the document.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oInlineLvlSdt = Api.CreateInlineLvlSdt();
@@ -14,5 +13,3 @@ oDocument.ClearAllFields();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("All fields from this document were just cleared.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "ClearAllFields.docx");
-builder.CloseFile();

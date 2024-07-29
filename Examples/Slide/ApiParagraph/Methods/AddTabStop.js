@@ -1,5 +1,4 @@
 // This example adds a tab stop to the paragraph.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -17,5 +16,3 @@ oParagraph.AddTabStop();
 oParagraph.AddTabStop();
 oParagraph.AddText("This is the text which starts after the tab stops.");
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "AddTabStop.pptx");
-builder.CloseFile();

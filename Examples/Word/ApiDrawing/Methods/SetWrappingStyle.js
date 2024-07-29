@@ -1,5 +1,4 @@
 // This example creates a shape with wrapping style "square".
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is a paragraph with a shape. ");
@@ -13,5 +12,3 @@ var oDrawing = Api.CreateShape("rect", 1908000, 1404000, oFill, oStroke);
 oDrawing.SetDistances(457200, 457200, 457200, 0);
 oDrawing.SetWrappingStyle("square");
 oParagraph.AddDrawing(oDrawing);
-builder.SaveFile("docx", "SetWrappingStyle.docx");
-builder.CloseFile();

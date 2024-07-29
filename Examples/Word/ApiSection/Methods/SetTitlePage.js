@@ -1,5 +1,4 @@
 // This example specifies whether the current section in this document has the different header and footer for the section first page.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This page does not have a footer, as it is a title page. ");
@@ -14,5 +13,3 @@ oParagraph = Api.CreateParagraph();
 oParagraph.AddText("This is page #2 and it has a footer. ");
 oParagraph.AddText("Scroll down the page to see it.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetTitlePage.docx");
-builder.CloseFile();

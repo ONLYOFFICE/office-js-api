@@ -1,5 +1,4 @@
 // This example shows how to get a collection of chart objects in the paragraph.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart1 = Api.CreateChart("bar3D", [
@@ -24,5 +23,3 @@ oParagraph.AddDrawing(oChart2);
 var aCharts = oParagraph.GetAllCharts();
 var oStroke = Api.CreateStroke(1 * 150, Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61)));
 aCharts[1].SetMinorHorizontalGridlines(oStroke);
-builder.SaveFile("docx", "GetAllCharts.docx");
-builder.CloseFile();

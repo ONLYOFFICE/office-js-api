@@ -1,5 +1,4 @@
 // This example show how to get an array with all the drawing objects from the slide.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -12,5 +11,3 @@ oSlide.AddObject(oDrawing);
 var aDrawings = oSlide.GetAllDrawings();
 var oPlaceholder = Api.CreatePlaceholder("chart");
 aDrawings[0].SetPlaceholder(oPlaceholder);
-builder.SaveFile("pptx", "GetAllDrawings.pptx");
-builder.CloseFile();

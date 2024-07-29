@@ -1,5 +1,4 @@
 // This example adds some text to the run.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -14,5 +13,3 @@ oRun.SetFontSize(30);
 oRun.AddText("This is just a sample text. Nothing special.");
 oParagraph.AddElement(oRun);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "AddText.pptx");
-builder.CloseFile();

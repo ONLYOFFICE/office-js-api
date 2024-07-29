@@ -1,5 +1,4 @@
 // This example adds a caption paragraph after (or before) the current content control.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oBlockLvlSdt = Api.CreateBlockLvlSdt();
 var oParagraph = Api.CreateParagraph();
@@ -8,5 +7,3 @@ oParagraph.AddDrawing(oDrawing);
 oBlockLvlSdt.AddElement(oParagraph, 0);
 oDocument.AddElement(0, oBlockLvlSdt);
 oBlockLvlSdt.AddCaption("", "Figure", false, "Arabic", false, undefined, "hyphen");
-builder.SaveFile("docx", "AddCaption.docx");
-builder.CloseFile();

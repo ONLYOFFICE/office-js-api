@@ -1,5 +1,4 @@
 // This example specifies the border which will be displayed between each paragraph in a set of paragraphs which have the same set of paragraph border settings.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oMyStyle = oDocument.CreateStyle("My document style");
 var oParaPr = oMyStyle.GetParaPr();
@@ -20,5 +19,3 @@ oParagraph.AddText("This is the third paragraph. ");
 oParagraph.AddText("No need to add anything additionally to it. ");
 oParagraph.AddText("The borders between the paragraphs have already been set.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetBetweenBorder.docx");
-builder.CloseFile();

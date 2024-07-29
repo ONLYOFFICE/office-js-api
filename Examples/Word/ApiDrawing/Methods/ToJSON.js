@@ -1,5 +1,4 @@
 // This example converts the ApiDrawing object into the JSON object.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 224, 204), 0);
@@ -10,5 +9,3 @@ var oDrawing = Api.CreateShape("rect", 5930900, 395605, oFill, oStroke);
 var json = oDrawing.ToJSON(false, true);
 var oDrawingFromJSON = Api.FromJSON(json);
 oParagraph.AddDrawing(oDrawingFromJSON);
-builder.SaveFile("docx", "ToJSON.docx");
-builder.CloseFile();

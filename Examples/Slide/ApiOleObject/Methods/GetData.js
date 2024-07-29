@@ -1,5 +1,4 @@
 // This example shows how to get the string data from the current OLE object.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -18,5 +17,3 @@ var oDocContent = oDrawing.GetContent();
 var oParagraph = oDocContent.GetElement(0);
 oParagraph.AddText("The OLE object data: " + sData);
 oSlide.AddObject(oDrawing);
-builder.SaveFile("pptx", "GetData.pptx");
-builder.CloseFile();

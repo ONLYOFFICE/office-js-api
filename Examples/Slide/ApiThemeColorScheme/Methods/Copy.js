@@ -1,5 +1,4 @@
 // This example creates a copy of the current theme color scheme.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide1 = oPresentation.GetSlideByIndex(0);
 oSlide1.RemoveAllObjects();
@@ -41,5 +40,3 @@ var oFontScheme = Api.CreateThemeFontScheme("Arial", "Noto Sans Simplified Chine
 var oTheme2 = Api.CreateTheme("New theme", oMaster, oCopyClrScheme, oFormatScheme, oFontScheme);
 oSlide2.ApplyTheme(oTheme2);
 oSlide2.AddObject(oChart);
-builder.SaveFile("pptx", "Copy.pptx");
-builder.CloseFile();

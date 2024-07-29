@@ -1,5 +1,4 @@
 // This example converts the ApiLayout object into the JSON object.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -19,5 +18,3 @@ var oParagraph = oDocContent.GetElement(0);
 oParagraph.AddText("Class type = " + sType);
 oLayoutFromJSON.AddObject(oShape);
 oSlide.ApplyLayout(oLayoutFromJSON);
-builder.SaveFile("pptx", "ToJSON.pptx");
-builder.CloseFile();

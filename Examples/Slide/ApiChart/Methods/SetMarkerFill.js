@@ -1,5 +1,4 @@
 // This example sets the fill to the marker in the specified chart series.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -18,5 +17,3 @@ oStroke = Api.CreateStroke(0.5 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(2
 oChart.SetMarkerFill(oFill, 1, 0, true);
 oChart.SetMarkerOutLine(oStroke, 1, 0, true);
 oSlide.AddObject(oChart);
-builder.SaveFile("pptx", "SetMarkerFill.pptx");
-builder.CloseFile();

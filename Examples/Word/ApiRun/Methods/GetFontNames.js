@@ -1,5 +1,4 @@
 // This example shows how to get all font names from all elements inside the run.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oRun = Api.CreateRun();
@@ -15,5 +14,3 @@ for (let i = 0; i < aFontNames.length; i++ ){
 	oParagraph.AddLineBreak();
 }
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetFontNames.docx");
-builder.CloseFile();

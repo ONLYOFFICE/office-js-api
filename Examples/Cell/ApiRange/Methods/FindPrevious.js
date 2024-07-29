@@ -1,5 +1,4 @@
 // This example finds the previous cell that matches those same conditions.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);
@@ -23,5 +22,3 @@ var oNextSearchRange = oRange.FindNext(oSearchRange);
 oNextSearchRange.SetFillColor(Api.CreateColorFromRGB(255, 213, 191));
 var oPrevSearchRange = oRange.FindPrevious(oNextSearchRange);
 oPrevSearchRange.SetValue(0);
-builder.SaveFile("xlsx", "FindPrevious.xlsx");
-builder.CloseFile();

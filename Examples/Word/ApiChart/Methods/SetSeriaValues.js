@@ -1,5 +1,4 @@
 // This example sets values to the specified chart series.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("bar3D", [
@@ -15,5 +14,3 @@ oChart.SetSeriaValues([260, 270, 300], 1);
 oChart.SetShowPointDataLabel(1, 0, false, false, true, false);
 oChart.SetShowPointDataLabel(1, 1, false, false, true, false);
 oChart.SetShowPointDataLabel(1, 2, false, false, true, false);
-builder.SaveFile("docx", "SetSeriaValues.docx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example shows how to get the paragraph position within its parent element.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = Api.CreateParagraph();
 var oRun = Api.CreateRun();
@@ -18,5 +17,3 @@ oBlockLvlSdt.SetPlaceholderText("Content control");
 var nPosition = oParagraph.GetPosInParent();
 oParagraph = oDocument.GetElement(nPosition);
 oParagraph.SetBold(true);
-builder.SaveFile("docx", "GetPosInParent.docx");
-builder.CloseFile();

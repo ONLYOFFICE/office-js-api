@@ -1,5 +1,4 @@
 // This example shows how to get a collection of drawing objects in the content control.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = Api.CreateParagraph();
 var oBlockLvlSdt = Api.CreateBlockLvlSdt();
@@ -15,5 +14,3 @@ oBlockLvlSdt.AddElement(oParagraph, 0);
 oDocument.AddElement(0, oBlockLvlSdt);
 var arrAllDrawingObjects = oBlockLvlSdt.GetAllDrawingObjects();
 arrAllDrawingObjects[0].Delete();
-builder.SaveFile("docx", "GetAllDrawingObjects.docx");
-builder.CloseFile();

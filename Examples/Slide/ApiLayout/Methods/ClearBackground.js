@@ -1,5 +1,4 @@
 // This example clears backgound for a slide.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -13,5 +12,3 @@ oSlide = Api.CreateSlide();
 oPresentation.AddSlide(oSlide);
 oLayout.ClearBackground();
 oSlide.FollowLayoutBackground();
-builder.SaveFile("pptx", "ClearBackground.pptx");
-builder.CloseFile();

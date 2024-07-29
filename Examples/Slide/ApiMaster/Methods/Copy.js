@@ -1,5 +1,4 @@
 // This example shows how to creates a copy of the specified slide master object.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -20,5 +19,3 @@ oParagraph.AddLineBreak();
 oParagraph.AddText("Number of masters after adding the copied master: " + nCountAfter);
 oSlide.RemoveAllObjects();
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "Copy.pptx");
-builder.CloseFile();

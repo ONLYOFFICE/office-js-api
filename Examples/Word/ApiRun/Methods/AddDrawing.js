@@ -1,5 +1,4 @@
 // This example adds a chart to the run.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oRun = Api.CreateRun();
@@ -18,5 +17,3 @@ oDrawing.SetShowDataLabels(false, false, true, false);
 oDrawing.SetTitle("Financial Overview", 13);
 oRun.AddDrawing(oDrawing);
 oParagraph.AddElement(oRun);
-builder.SaveFile("docx", "AddDrawing.docx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example shows how to get the document statistics represented as an object.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is just a sample paragraph.");
@@ -24,5 +23,3 @@ oDocument.Push(oParagraph);
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Symbols with spaces: " + oStatistics.SymbolsWSCount);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetStatistics.docx");
-builder.CloseFile();

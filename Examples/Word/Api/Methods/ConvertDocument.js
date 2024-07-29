@@ -1,5 +1,4 @@
 // This example shows how to gets your document as Markdown and paste the result into the document.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph1 = oDocument.GetElement(0);
 oParagraph1.AddText("Heading 1");
@@ -25,5 +24,3 @@ oParagraph5.AddText("Markdown").SetBold(true);
 oParagraph5.AddLineBreak();
 oParagraph5.AddText(sMarkdown);
 oDocument.Push(oParagraph5);
-builder.SaveFile("docx", "ConvertDocument.docx");
-builder.CloseFile();

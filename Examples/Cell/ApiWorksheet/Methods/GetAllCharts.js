@@ -1,5 +1,4 @@
 // This example shows how to get all charts from the sheet.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);
@@ -21,5 +20,3 @@ oChart.SetSeriesFill(oFill, 1, false);
 var aCharts = oWorksheet.GetAllCharts();
 var oStroke = Api.CreateStroke(1 * 5000, Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61)));
 aCharts[0].SetMinorHorizontalGridlines(oStroke);
-builder.SaveFile("xlsx", "GetAllCharts.xlsx");
-builder.CloseFile();

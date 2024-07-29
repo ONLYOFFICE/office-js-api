@@ -1,5 +1,4 @@
 // This example sets the bullet or numbering to the current paragraph.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -16,5 +15,3 @@ var oBullet = Api.CreateBullet("-");
 oParaPr.SetBullet(oBullet);
 oParagraph.AddText(" This is an example of the bulleted paragraph.");
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetBullet.pptx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example specifies that the contents of the run are displayed with two horizontal lines through each character displayed on the line.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -13,5 +12,3 @@ oTextPr.SetDoubleStrikeout(true);
 oParagraph.SetJc("left");
 oRun.AddText("This is a sample text inside the shape struck out with two lines using the text properties.");
 oParagraph.AddElement(oRun);
-builder.SaveFile("xlsx", "SetDoubleStrikeout.xlsx");
-builder.CloseFile();

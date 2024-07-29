@@ -1,5 +1,4 @@
 // This example shows how to get a set of formatting properties which will be conditionally applied to the parts of a table that match the requirement specified in the sType parameter.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTable = Api.CreateTable(2, 2);
 oTable.SetWidth("percent", 100);
@@ -26,5 +25,3 @@ oParagraph.AddText("This cell font remains default");
 oCellContent = oTable.GetRow(1).GetCell(1).GetContent();
 oParagraph = oCellContent.GetElement(0);
 oParagraph.AddText("This cell font also remains default");
-builder.SaveFile("docx", "GetConditionalTableStyle.docx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example sets the height to the current table row within the table.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("We create a 3x3 table and set the height of half an inch to all the rows:");
@@ -12,5 +11,3 @@ var oTableRowPr = oTableStyle.GetTableRowPr();
 oTableRowPr.SetHeight("atLeast", 720);
 oTable.SetStyle(oTableStyle);
 oDocument.Push(oTable);
-builder.SaveFile("docx", "SetHeight.docx");
-builder.CloseFile();

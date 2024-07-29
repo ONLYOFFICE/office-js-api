@@ -1,5 +1,4 @@
 // This example shows how to get a type of the current table conditional style.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.GetStyle("Bordered");
 oTableStyle.SetName("My Custom Style");
@@ -11,5 +10,3 @@ oDocument.Push(oTable);
 var sTableStylePrType = oTableStylePr.GetType();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("Style type = " + sTableStylePrType);
-builder.SaveFile("docx", "GetType.docx");
-builder.CloseFile();

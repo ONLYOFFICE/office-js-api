@@ -1,5 +1,4 @@
 // This example shows hot to get the drawing parent slide layout.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -17,5 +16,3 @@ var oDocContent = oShape.GetDocContent();
 var oParagraph = oDocContent.GetElement(0);
 oParagraph.SetJc("left");
 oParagraph.AddText("Class type of the shape parent = " + sType);
-builder.SaveFile("pptx", "GetParentLayout.pptx");
-builder.CloseFile();

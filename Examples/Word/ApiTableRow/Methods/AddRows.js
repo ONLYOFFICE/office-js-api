@@ -1,5 +1,4 @@
 // This example adds the new rows to the table.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
@@ -10,5 +9,3 @@ oRow.GetCell(0).GetContent().GetElement(0).AddText("Second row");
 oTable.SetWidth("percent", 100);
 oRow.AddRows(1, true);
 oDocument.Push(oTable);
-builder.SaveFile("docx", "AddRows.docx");
-builder.CloseFile();

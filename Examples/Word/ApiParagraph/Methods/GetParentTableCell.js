@@ -1,5 +1,4 @@
 // This example shows how to get a table cell that contains the current paragraph.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
@@ -13,5 +12,3 @@ var oCell = oTable.GetCell(0,0);
 oTable.AddElement(oCell, 0, oParagraph);
 var oParentTableCell = oParagraph.GetParentTableCell();
 oParentTableCell.SetShd("clear", 255, 111, 61, false);
-builder.SaveFile("docx", "GetParentTableCell.docx");
-builder.CloseFile();

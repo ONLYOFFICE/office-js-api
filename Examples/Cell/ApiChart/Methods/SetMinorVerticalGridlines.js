@@ -1,5 +1,4 @@
 // This example specifies the visual properties of the minor vertical gridline.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);
@@ -20,5 +19,3 @@ oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 oChart.SetSeriesFill(oFill, 1, false);
 var oStroke = Api.CreateStroke(1 * 5000, Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61)));
 oChart.SetMinorVerticalGridlines(oStroke);
-builder.SaveFile("xlsx", "SetMinorVerticalGridlines.xlsx");
-builder.CloseFile();

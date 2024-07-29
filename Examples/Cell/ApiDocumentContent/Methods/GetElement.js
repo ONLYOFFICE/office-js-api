@@ -1,5 +1,4 @@
 // This example shows how to get an element by its position in the document content.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -12,5 +11,3 @@ oParagraph.AddText("This is a paragraph with the text in it aligned by the cente
 oParagraph.AddText("The justification is specified in the paragraph style. ");
 oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
 oParagraph.AddText("These sentences are used to add lines for demonstrative purposes.");
-builder.SaveFile("xlsx", "GetElement.xlsx");
-builder.CloseFile();

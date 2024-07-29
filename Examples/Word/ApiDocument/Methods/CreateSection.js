@@ -1,5 +1,4 @@
 // This example creates a new document section which ends at the specified paragraph.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is a new paragraph.");
@@ -16,5 +15,3 @@ oParagraph.SetSpacingBefore(100, true);
 oParagraph.SetSpacingAfter(360);
 oParagraph.AddText("This is a paragraph in a new section");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "CreateSection.docx");
-builder.CloseFile();

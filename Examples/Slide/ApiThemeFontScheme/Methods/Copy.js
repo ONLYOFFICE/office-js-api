@@ -1,5 +1,4 @@
 // This example creates a copy of the theme font scheme.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide1 = oPresentation.GetSlideByIndex(0);
 oSlide1.RemoveAllObjects();
@@ -48,5 +47,3 @@ oParagraph = oDocContent.GetElement(0);
 oParagraph.SetJc("left");
 oParagraph.AddText("New font scheme was set to this slide.");
 oSlide2.AddObject(oShape);
-builder.SaveFile("pptx", "Copy.pptx");
-builder.CloseFile();

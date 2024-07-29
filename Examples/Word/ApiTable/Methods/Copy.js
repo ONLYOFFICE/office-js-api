@@ -1,5 +1,4 @@
 // This example creates a copy of the table.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
@@ -9,5 +8,3 @@ oTable.SetStyle(oTableStyle);
 oDocument.Push(oTable);
 var oCopyTable = oTable.Copy();
 oDocument.Push(oCopyTable);
-builder.SaveFile("docx", "Copy.docx");
-builder.CloseFile();

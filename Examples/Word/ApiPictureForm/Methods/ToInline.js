@@ -1,5 +1,4 @@
 // This example converts the current form to an inline form.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oPictureForm = Api.CreatePictureForm({"key": "Personal information", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false, "shiftX": 50, "shiftY": 50});
 oPictureForm.SetImage("https://api.onlyoffice.com/content/img/docbuilder/examples/user-profile.png");
@@ -15,5 +14,3 @@ oParagraph.AddText("The first form from this document has a fixed size: " + bFix
 oParagraph.AddLineBreak();
 oParagraph.AddText("The second form from this document has a fixed size: " + bFixedCopy);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "ToInline.docx");
-builder.CloseFile();

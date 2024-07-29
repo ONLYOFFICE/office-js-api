@@ -1,5 +1,4 @@
 // This example adds a line break to the run position and starts the next element from a new line.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -12,5 +11,3 @@ oRun.AddLineBreak();
 oRun.AddText("This is the text which starts from the beginning of the second line. ");
 oRun.AddText("It is written in two text runs, you need a space at the end of the first run sentence to separate them.");
 oParagraph.AddElement(oRun);
-builder.SaveFile("xlsx", "AddLineBreak.xlsx");
-builder.CloseFile();

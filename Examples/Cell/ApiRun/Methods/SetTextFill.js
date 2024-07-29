@@ -1,5 +1,4 @@
 // This example sets the text fill to the current text run.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -14,5 +13,3 @@ oFill = Api.CreateSolidFill(Api.CreateRGBColor(128, 128, 128));
 oRun.SetTextFill(oFill);
 oRun.AddText("This is a text run with the gray text.");
 oParagraph.AddElement(oRun);
-builder.SaveFile("xlsx", "SetTextFill.xlsx");
-builder.CloseFile();

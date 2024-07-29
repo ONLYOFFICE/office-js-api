@@ -1,5 +1,4 @@
 // This example sets the paragraph left side indentation.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -18,5 +17,3 @@ oParagraph.AddText("This indent is set by the paragraph style. No paragraph inli
 oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
 oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetIndLeft.pptx");
-builder.CloseFile();

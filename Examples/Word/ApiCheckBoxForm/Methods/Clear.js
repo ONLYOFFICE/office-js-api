@@ -1,5 +1,4 @@
 // This example clears the form.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oCheckBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});
 var oParagraph = oDocument.GetElement(0);
@@ -14,5 +13,3 @@ oCheckBoxForm.Clear();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("The second form from this document was cleared.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "Clear.docx");
-builder.CloseFile();

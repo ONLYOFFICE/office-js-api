@@ -1,5 +1,4 @@
 // This example removes the current selection.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("Api ONLYOFFICE");
@@ -9,5 +8,3 @@ oDocument.RemoveSelection();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("The selection from the word 'Api' was removed.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "RemoveSelection.docx");
-builder.CloseFile();

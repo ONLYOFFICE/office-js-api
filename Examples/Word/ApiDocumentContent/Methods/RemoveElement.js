@@ -1,5 +1,4 @@
 // This example removes an element using the position specified.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
@@ -19,5 +18,3 @@ oDocContent.RemoveElement(2);
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("We removed paragraph #3, check that out above.");
 oDocContent.Push(oParagraph);
-builder.SaveFile("docx", "RemoveElement.docx");
-builder.CloseFile();

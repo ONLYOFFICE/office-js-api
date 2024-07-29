@@ -1,5 +1,4 @@
 // This example sets the text spacing measured in twentieths of a point.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -13,5 +12,3 @@ oRun = Api.CreateRun();
 oRun.SetSpacing(80);
 oRun.AddText("This is a text run with the text spacing set to 4 points (20 twentieths of a point).");
 oParagraph.AddElement(oRun);
-builder.SaveFile("xlsx", "SetSpacing.xlsx");
-builder.CloseFile();

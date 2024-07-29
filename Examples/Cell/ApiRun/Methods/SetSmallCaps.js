@@ -1,5 +1,4 @@
 // This example specifies that all the small letter characters in this text run are formatted for display only as their capital letter character equivalents which are two points smaller than the actual font size specified for this text.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -13,5 +12,3 @@ oRun = Api.CreateRun();
 oRun.SetSmallCaps(true);
 oRun.AddText("This is a text run with the font set to small capitalized letters.");
 oParagraph.AddElement(oRun);
-builder.SaveFile("xlsx", "SetSmallCaps.xlsx");
-builder.CloseFile();

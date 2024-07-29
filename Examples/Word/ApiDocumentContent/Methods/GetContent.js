@@ -1,5 +1,4 @@
 // This example shows how to get an array of document elements from the document content.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
@@ -27,5 +26,3 @@ var aDocElements = oDocContent.GetContent(false);
 aDocElements[0].SetBold(true);
 aDocElements[1].SetBackgroundColor(235, 235, 235, false);
 aDocElements[2].Search("block text content control")[0].SetBold(true);
-builder.SaveFile("docx", "GetContent.docx");
-builder.CloseFile();

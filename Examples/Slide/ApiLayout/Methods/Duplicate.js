@@ -1,5 +1,4 @@
 // This example makes a duplicate of slide layout and applies it to another slide.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -14,5 +13,3 @@ oSlide = Api.CreateSlide();
 oPresentation.AddSlide(oSlide);
 var oDuplicateLayout = oLayout.Duplicate(1);
 oSlide.ApplyLayout(oDuplicateLayout);
-builder.SaveFile("pptx", "Duplicate.pptx");
-builder.CloseFile();

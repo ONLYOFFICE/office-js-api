@@ -1,5 +1,4 @@
 // This example sets the paragraph contents justification.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -22,5 +21,3 @@ oParagraph.AddText("These sentences are used to add lines for demonstrative purp
 oParagraph.AddText("These sentences are used to add lines for demonstrative purposes.");
 oParagraph.SetJc("left");
 oDocContent.Push(oParagraph);
-builder.SaveFile("xlsx", "SetJc.xlsx");
-builder.CloseFile();

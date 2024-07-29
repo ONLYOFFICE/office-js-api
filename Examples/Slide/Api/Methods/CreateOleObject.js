@@ -1,5 +1,4 @@
 // This example creates an Ole object and inserts it into the slide.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -7,5 +6,3 @@ var oOleObject = Api.CreateOleObject("https://api.onlyoffice.com/content/img/doc
 oOleObject.SetSize(200 * 36000, 130 * 36000);
 oOleObject.SetPosition(70 * 36000, 30 * 36000);
 oSlide.AddObject(oOleObject);
-builder.SaveFile("pptx", "CreateOleObject.pptx");
-builder.CloseFile();

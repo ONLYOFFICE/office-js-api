@@ -1,5 +1,4 @@
 // This example shows how to get the spacing before value of the current paragraph.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -24,5 +23,3 @@ var nSpacingBefore = oParaPr.GetSpacingBefore();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Spacing before: " + nSpacingBefore);
 oDocContent.Push(oParagraph);
-builder.SaveFile("pptx", "GetSpacingBefore.pptx");
-builder.CloseFile();

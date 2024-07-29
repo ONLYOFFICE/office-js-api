@@ -1,5 +1,4 @@
 // This example sets the parameters of the watermark settings and apply them to the document.
-builder.CreateFile("docx");
 const oDocument = Api.GetDocument();
 const oWatermarkSettings = oDocument.GetWatermarkSettings();
 oWatermarkSettings.SetType("image");
@@ -8,5 +7,3 @@ oWatermarkSettings.SetImageSize(36000 * 70, 36000 * 80);
 oWatermarkSettings.SetDirection("clockwise45");
 oWatermarkSettings.SetOpacity(200);
 oDocument.SetWatermarkSettings(oWatermarkSettings);
-builder.SaveFile("docx", "SetImageSize.docx");
-builder.CloseFile();

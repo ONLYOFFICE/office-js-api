@@ -1,5 +1,4 @@
 // This example shows how to get the slide height in English measure units.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 oPresentation.SetSizes(254 * 36000, 190 * 36000);
 var oSlide = oPresentation.GetCurrentSlide();
@@ -13,5 +12,3 @@ var oParagraph = oDocContent.GetElement(0);
 var nSlideHeight = oSlide.GetHeight();
 oParagraph.AddText("The slide height = " + nSlideHeight / 36000 + " mm");
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "GetHeight.pptx");
-builder.CloseFile();

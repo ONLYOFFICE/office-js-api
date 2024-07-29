@@ -1,5 +1,4 @@
 // This example sets a name to the current theme format scheme.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -17,5 +16,3 @@ var oParagraph = oDocContent.GetElement(0);
 oParagraph.SetJc("left");
 oParagraph.AddText("New name was set to the theme format scheme.");
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetSchemeName.pptx");
-builder.CloseFile();

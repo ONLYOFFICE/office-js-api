@@ -1,5 +1,4 @@
 // This example specifies an amount by which text is raised or lowered for this run in relation to the default baseline of the surrounding non-positioned text.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oMyNewRunStyle1 = oDocument.CreateStyle("My New Run Style 1", "run");
 var oTextPr1 = oMyNewRunStyle1.GetTextPr();
@@ -19,5 +18,3 @@ oRun = Api.CreateRun();
 oRun.SetStyle(oMyNewRunStyle2);
 oRun.AddText("This is a text run with the text lowered 8 points (16 half-points).");
 oParagraph.AddElement(oRun);
-builder.SaveFile("docx", "SetPosition.docx");
-builder.CloseFile();
