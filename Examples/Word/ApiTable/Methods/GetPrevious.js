@@ -1,5 +1,4 @@
 // This example shows how to get the previous table.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTable = Api.CreateTable(3, 3);
 oDocument.Push(oTable);
@@ -9,5 +8,3 @@ oNextTable.SetWidth("percent", 100);
 oDocument.Push(oNextTable);
 oTable = oNextTable.GetPrevious();
 oTable.SetWidth("percent", 50);
-builder.SaveFile("docx", "CreateTable.docx");
-builder.CloseFile();

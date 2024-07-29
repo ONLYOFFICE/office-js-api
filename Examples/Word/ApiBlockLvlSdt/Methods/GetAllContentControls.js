@@ -1,5 +1,4 @@
 // This example shows how to get a collection of content control objects in the current content control.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oBlockLvlSdt = Api.CreateBlockLvlSdt();
 var oBlockLvlSdt1 = Api.CreateBlockLvlSdt();
@@ -15,5 +14,3 @@ var sClassType = aContentControls[0].GetClassType();
 var oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Class type: " + sClassType);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetAllContentControls.docx");
-builder.CloseFile();

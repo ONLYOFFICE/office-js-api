@@ -1,5 +1,4 @@
 // This example sets the outline to the chart plot area.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("bar3D", [
@@ -13,5 +12,3 @@ oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 oChart.SetSeriesFill(oFill, 1, false);
 var oStroke = Api.CreateStroke(0.5 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51)));
 oChart.SetPlotAreaOutLine(oStroke);
-builder.SaveFile("docx", "SetPlotAreaOutLine.docx");
-builder.CloseFile();der.CloseFile();

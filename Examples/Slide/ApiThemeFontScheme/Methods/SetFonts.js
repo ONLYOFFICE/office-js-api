@@ -1,5 +1,4 @@
 // This example sets the fonts to the current theme font scheme.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -17,5 +16,3 @@ oParagraph.SetJc("left");
 oParagraph.AddText("New font scheme was set to this slide.");
 oSlide.RemoveAllObjects();
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetFonts.pptx");
-builder.CloseFile();

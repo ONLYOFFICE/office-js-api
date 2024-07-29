@@ -1,5 +1,4 @@
 // This example gets the first series of ApiChart class and inserts its type into the document.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("comboBarLine", [
@@ -21,5 +20,3 @@ var sSeriesType = oSeries.GetChartType();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Series Type = " + sSeriesType);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetChartType.docx");
-builder.CloseFile();

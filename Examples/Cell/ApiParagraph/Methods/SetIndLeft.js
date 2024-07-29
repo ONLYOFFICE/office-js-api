@@ -1,5 +1,4 @@
 // This example sets the paragraph left side indentation.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -13,5 +12,3 @@ oParagraph = Api.CreateParagraph();
 oParagraph.AddText("This is a paragraph without any indent set to it. ");
 oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
 oDocContent.Push(oParagraph);
-builder.SaveFile("xlsx", "SetIndLeft.xlsx");
-builder.CloseFile();

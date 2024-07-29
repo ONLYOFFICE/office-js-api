@@ -1,5 +1,4 @@
 // This example creates a duplicate of the specified slide master object, adds the new slide master to the slide masters collection.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -19,5 +18,3 @@ oParagraph.AddLineBreak();
 oParagraph.AddText("Number of masters after duplicating: " + nCountAfter);
 oSlide.RemoveAllObjects();
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "Duplicate.pptx");
-builder.CloseFile();

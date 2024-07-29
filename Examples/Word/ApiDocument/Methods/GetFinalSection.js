@@ -1,5 +1,4 @@
 // This example shows how to get the document final section.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oSection = oDocument.GetFinalSection();
 var oHeader = oSection.GetHeader("default", true);
@@ -14,5 +13,3 @@ oParaPr.SetSpacingLine(276, "auto");
 oParaPr.SetSpacingAfter(200);
 oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is a text in a paragraph.");
-builder.SaveFile("docx", "GetFinalSection.docx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example creastes a copy of slide layout and apply it for other slide.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -15,5 +14,3 @@ oPresentation.AddSlide(oSlide);
 var oCopyLayout = oLayout.Copy();
 oMaster.AddLayout(1, oCopyLayout);
 oSlide.ApplyLayout(oCopyLayout);
-builder.SaveFile("pptx", "Copy.pptx");
-builder.CloseFile();

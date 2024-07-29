@@ -1,5 +1,4 @@
 // This example sSpecifies the border which will be displayed on all horizontal table cell borders which are not on the outmost edge of the parent table.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("We add the inside horizontal 4 point black border:");
@@ -12,5 +11,3 @@ oTablePr.SetTableBorderInsideH("single", 32, 0, 51, 51, 51);
 oTable.SetTableLook(true, true, true, true, false, false);
 oTable.SetStyle(oTableStyle);
 oDocument.Push(oTable);
-builder.SaveFile("docx", "SetTableBorderInsideH.docx");
-builder.CloseFile();

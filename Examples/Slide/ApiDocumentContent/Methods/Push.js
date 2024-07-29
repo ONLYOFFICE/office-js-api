@@ -1,5 +1,4 @@
 // This example adds a paragraph to the presentation.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -14,5 +13,3 @@ oParagraph.AddText("We removed all elements from the shape and added a new parag
 oDocContent.AddElement(oParagraph);
 oDocContent.Push(oParagraph);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "Push.pptx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example adds a Run to the paragraph.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -9,5 +8,3 @@ var oParagraph = oDocContent.GetElement(0);
 var oRun = Api.CreateRun();
 oRun.AddText("This is just a sample text run. Nothing special.");
 oParagraph.AddElement(oRun);
-builder.SaveFile("xlsx", "AddElement.xlsx");
-builder.CloseFile();

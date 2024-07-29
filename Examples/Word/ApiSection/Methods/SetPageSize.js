@@ -1,5 +1,4 @@
 // This example sSpecifies the properties (size and orientation) for all the pages in the section.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is a page with a page size set. ");
@@ -9,5 +8,3 @@ oParagraph.AddText("The font size is default (11 points).");
 var oSection = oDocument.GetFinalSection();
 oSection.SetPageMargins(720, 720, 720, 720);
 oSection.SetPageSize(7200, 4320);
-builder.SaveFile("docx", "SetPageSize.docx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example specifies the shading applied to the contents of the current text run.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -14,5 +13,3 @@ oRun.AddText("This is a text run with the text shading set to black.");
 oParagraph.AddElement(oRun);
 oRun.SetShd("clear", 51, 51, 51);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetShd.pptx");
-builder.CloseFile();

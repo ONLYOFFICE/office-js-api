@@ -1,5 +1,4 @@
 // This example specifies the vertical alignment for text within the current table cell.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oTable = Api.CreateTable(2, 4);
 var oRow = oTable.GetRow(1);
@@ -13,5 +12,3 @@ oCell.SetVerticalAlign("bottom");
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
 oSlide.AddObject(oTable);
-builder.SaveFile("pptx", "SetVerticalAlign.pptx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example adds a tab stop to the run.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -14,5 +13,3 @@ oRun.AddTabStop();
 oRun.AddTabStop();
 oRun.AddText("This is the text which starts after the tab stops.");
 oParagraph.AddElement(oRun);
-builder.SaveFile("xlsx", "AddTabStop.xlsx");
-builder.CloseFile();

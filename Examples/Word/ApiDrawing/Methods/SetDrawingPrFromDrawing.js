@@ -1,5 +1,4 @@
 // This example sets the properties from another drawing to the drawing.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is a paragraph with a shape. ");
@@ -31,5 +30,3 @@ oDocument.Push(oParagraph);
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("It has the same properties (alignment type, distances and wrapping type) as the shape above.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetDrawingPrFromDrawing.docx");
-builder.CloseFile();

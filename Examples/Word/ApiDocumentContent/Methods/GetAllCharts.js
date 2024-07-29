@@ -1,5 +1,4 @@
 // This example shows how to get a collection of chart objects from the document content.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
@@ -26,5 +25,3 @@ oDocContent.AddElement(0, oParagraph);
 var aCharts = oDocContent.GetAllCharts();
 oStroke = Api.CreateStroke(1 * 150, Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61)));
 aCharts[0].SetMinorHorizontalGridlines(oStroke);
-builder.SaveFile("docx", "GetAllCharts.docx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example sets a style to the chart by style ID.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);
@@ -23,5 +22,3 @@ oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 oChart.SetSeriesFill(oFill, 1, false);
 oStroke = Api.CreateStroke(0.5 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61)));
 oChart.SetSeriesOutLine(oStroke, 1, false);
-builder.SaveFile("xlsx", "ApplyChartStyle.xlsx");
-builder.CloseFile();

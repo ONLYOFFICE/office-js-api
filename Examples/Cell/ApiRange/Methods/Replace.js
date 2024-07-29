@@ -1,5 +1,4 @@
 // This example replaces specific information to another one in a range.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);
@@ -27,5 +26,3 @@ var oReplaceData = {
 	ReplaceAll: true
 };
 oRange.Replace(oReplaceData);
-builder.SaveFile("xlsx", "Replace.xlsx");
-builder.CloseFile();

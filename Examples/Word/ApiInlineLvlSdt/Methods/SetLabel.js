@@ -1,5 +1,4 @@
 // This example sets a string label to the inline text content control.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oInlineLvlSdt = Api.CreateInlineLvlSdt();
@@ -12,5 +11,3 @@ var sLabel = oInlineLvlSdt.GetLabel();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Label: " + sLabel);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetLabel.docx");
-builder.CloseFile();

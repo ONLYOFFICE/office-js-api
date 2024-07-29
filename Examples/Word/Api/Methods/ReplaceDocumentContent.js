@@ -1,5 +1,4 @@
 // This examle shows how to reaplace document content with mail merge data.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var arrField = ["Greeting line", "First name", "Last name"];
@@ -34,5 +33,3 @@ oParagraph = Api.CreateParagraph();
 oParagraph.AddLineBreak();
 oParagraph.AddText("The mail merge process was run twice for each mail merge reception. But the results were replaced with the mail merge template document content. This template allows you to save each mail merge reception to the separate file.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "ReplaceDocumentContent.docx");
-builder.CloseFile();

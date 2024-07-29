@@ -1,5 +1,4 @@
 // This example shows how to get a number of elements in the current paragraph.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -22,5 +21,3 @@ oRun.AddText("Number of paragraph elements after we added a text run: ");
 oRun.AddTabStop();
 oRun.AddText("" + oParagraph.GetElementsCount());
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "GetElementsCount.pptx");
-builder.CloseFile();

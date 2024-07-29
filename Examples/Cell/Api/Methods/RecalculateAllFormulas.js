@@ -1,5 +1,4 @@
 // This example recalculates all formulas in the active workbook.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(1);
 oWorksheet.GetRange("C1").SetValue(2);
@@ -10,5 +9,3 @@ oRange.SetValue("=A1+1");
 oWorksheet.GetRange("B1").SetValue(3);
 Api.RecalculateAllFormulas();
 oWorksheet.GetRange("A3").SetValue("Formulas from cells A1 and E1 were recalculated with a new value from cell C1.");
-builder.SaveFile("xlsx", "RecalculateAllFormulas.xlsx");
-builder.CloseFile();

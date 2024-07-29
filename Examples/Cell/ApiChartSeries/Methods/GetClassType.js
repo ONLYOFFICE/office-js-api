@@ -1,5 +1,4 @@
 // This example gets a type of ApiChartSeries class and inserts it into the document.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);
@@ -21,5 +20,3 @@ oChart.SetSeriesFill(oFill, 1, false);
 var oSeries = oChart.GetSeries(0);
 var sClassType = oSeries.GetClassType();
 oWorksheet.GetRange("F1").SetValue("Class Type = " + sClassType);
-builder.SaveFile("xlsx", "GetClassType.xlsx");
-builder.CloseFile();

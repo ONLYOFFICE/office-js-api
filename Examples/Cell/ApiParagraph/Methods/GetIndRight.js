@@ -1,5 +1,4 @@
 // This example shows how to get the paragraph right side indentation.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -14,5 +13,3 @@ var nIndRight = oParagraph.GetIndRight();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Right indent: " + nIndRight);
 oDocContent.Push(oParagraph);
-builder.SaveFile("xlsx", "GetIndRight.xlsx");
-builder.CloseFile();

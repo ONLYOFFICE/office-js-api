@@ -1,5 +1,4 @@
 // This example clears the content from the row.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
@@ -11,5 +10,3 @@ oRow.Clear();
 oRow = oTable.GetRow(1);
 oRow.GetCell(0).GetContent().GetElement(0).AddText("The first row content was cleared.");
 oDocument.Push(oTable);
-builder.SaveFile("docx", "Clear.docx");
-builder.CloseFile();

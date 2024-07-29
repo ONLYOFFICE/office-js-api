@@ -1,5 +1,4 @@
 // This example shows how to get a paragraph element using the position specified.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = Api.CreateParagraph();
 oParagraph.RemoveAllElements();
@@ -15,5 +14,3 @@ oParagraph.AddElement(oRun);
 oRun = oParagraph.GetElement(1);
 oRun.SetBold(true);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetElement.docx");
-builder.CloseFile();

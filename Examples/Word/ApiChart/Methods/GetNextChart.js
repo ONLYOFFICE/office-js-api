@@ -1,5 +1,4 @@
 // This example show how to get the next chart.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("bar3D", [
@@ -21,5 +20,3 @@ oParagraph.AddDrawing(oCopyChart);
 var oNextChart = oChart.GetNextChart();
 var oStroke = Api.CreateStroke(1 * 150, Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61)));
 oNextChart.SetMinorHorizontalGridlines(oStroke);
-builder.SaveFile("docx", "GetNextChart.docx");
-builder.CloseFile();

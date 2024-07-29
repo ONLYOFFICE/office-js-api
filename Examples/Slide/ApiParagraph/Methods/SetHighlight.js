@@ -1,5 +1,4 @@
 // This example sets hiighlight color "lightGray" for the paragraph.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -15,5 +14,3 @@ oParagraph.AddText("This is just a sample text. ");
 oParagraph.SetHighlight("lightGray");
 oDocContent.Push(oParagraph);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetHighlight.pptx");
-builder.CloseFile();

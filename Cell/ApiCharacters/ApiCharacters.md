@@ -7,10 +7,10 @@ Represents the ApiCharacters class.
 | Name | Type | Description |
 | ---- | ---- | ----------- |
 | Count | number | The number of characters in the collection. |
-| Parent | [ApiRange](../../ApiRange/ApiRange.md) | The parent object of the specified characters. |
+| Parent | [ApiRange](../ApiRange/ApiRange.md) | The parent object of the specified characters. |
 | Caption | string | The text of the specified range of characters. |
 | Text | string | The string value representing the text of the specified range of characters. |
-| Font | [ApiFont](../../ApiFont/ApiFont.md) | The font of the specified characters. |
+| Font | [ApiFont](../ApiFont/ApiFont.md) | The font of the specified characters. |
 
 ## Methods
 

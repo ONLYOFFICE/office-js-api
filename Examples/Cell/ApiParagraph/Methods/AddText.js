@@ -1,5 +1,4 @@
 // This example adds some text to the paragraph.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -10,5 +9,3 @@ oParagraph.SetJc("left");
 oParagraph.AddText("This is a text inside the shape aligned left.");
 oParagraph.AddLineBreak();
 oParagraph.AddText("This is a text after the line break.");
-builder.SaveFile("xlsx", "AddText.xlsx");
-builder.CloseFile();

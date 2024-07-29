@@ -1,5 +1,4 @@
 // This example sets the text properties to the current run.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -13,5 +12,3 @@ oTextPr.SetFontSize(30);
 oTextPr.SetBold(true);
 oRun.SetTextPr(oTextPr);
 oParagraph.AddElement(oRun);
-builder.SaveFile("xlsx", "SetTextPr.xlsx");
-builder.CloseFile();

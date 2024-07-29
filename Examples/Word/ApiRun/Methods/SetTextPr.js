@@ -1,5 +1,4 @@
 // This example sets the text properties to the current run.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oRun = Api.CreateRun();
@@ -9,5 +8,3 @@ var oTextPr = Api.CreateTextPr();
 oTextPr.SetFontSize(30);
 oTextPr.SetBold(true);
 oRun.SetTextPr(oTextPr);
-builder.SaveFile("docx", "SetTextPr.docx");
-builder.CloseFile();

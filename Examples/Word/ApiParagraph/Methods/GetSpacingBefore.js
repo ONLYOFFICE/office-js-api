@@ -1,5 +1,4 @@
 // This example shows how to get the spacing before value of the paragraph.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph1 = oDocument.GetElement(0);
 oParagraph1.AddText("This is an example of setting a space before a paragraph. ");
@@ -12,5 +11,3 @@ oParagraph2.AddLineBreak();
 var nSpacingBefore = oParagraph2.GetSpacingBefore();
 oParagraph2.AddText("Spacing before: " + nSpacingBefore);
 oDocument.Push(oParagraph2);
-builder.SaveFile("docx", "GetSpacingBefore.docx");
-builder.CloseFile();

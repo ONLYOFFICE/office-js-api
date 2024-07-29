@@ -1,5 +1,4 @@
 // This example sets the paragraph first line indentation.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -16,5 +15,3 @@ oParagraph.AddText("This is a paragraph without any indent set to the first line
 oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
 oParagraph.AddText("These sentences are used to add lines for demonstrative purposes.");
 oDocContent.Push(oParagraph);
-builder.SaveFile("xlsx", "SetIndFirstLine.xlsx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example shows how to make search in table.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
@@ -12,5 +11,3 @@ oTable.GetCell(0, 2).GetContent().GetElement(0).AddText("Cell 3");
 oDocument.Push(oTable);
 var aSearch = oTable.Search("Cell");
 aSearch[0].SetBold(true);
-builder.SaveFile("docx", "Search.docx");
-builder.CloseFile();

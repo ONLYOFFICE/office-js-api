@@ -1,5 +1,4 @@
 // This example sets the fill to the marker in the specified chart series.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);
@@ -22,5 +21,3 @@ oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 oChart.SetMarkerFill(oFill, 1, 0, true);
 oStroke = Api.CreateStroke(0.5 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61)));
 oChart.SetMarkerOutLine(oStroke, 1, 0, true);
-builder.SaveFile("xlsx", "SetMarkerFill.xlsx");
-builder.CloseFile();

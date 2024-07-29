@@ -1,5 +1,4 @@
 // This example shows how to get a list of all tags that are used for all content controls in the document.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oInlineLvlSdt = Api.CreateInlineLvlSdt();
@@ -19,5 +18,3 @@ for (let i = 0; i < aTags.length; i++ ){
 	oParagraph.AddLineBreak();
 }
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetTagsOfAllContentControls.docx");
-builder.CloseFile();

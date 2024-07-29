@@ -1,5 +1,4 @@
 // This example specifies that when rendering the document using a page view, all lines of the paragraph are maintained on a single page whenever possible.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oMyStyle = oDocument.CreateStyle("My document style");
 var oParaPr = oMyStyle.GetParaPr();
@@ -21,5 +20,3 @@ for (let i = 0; i < 10; ++i) {
 }
 oParagraph.SetStyle(oMyStyle);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetKeepLines.docx");
-builder.CloseFile();

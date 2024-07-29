@@ -1,5 +1,4 @@
 // This example shows how to crate a stroke.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -11,5 +10,3 @@ var oStroke = Api.CreateStroke(3 * 36000, oFill1);
 var oShape = Api.CreateShape("flowChartMagneticTape", 300 * 36000, 130 * 36000, oFill, oStroke);
 oSlide.AddObject(oShape);
 oShape.SetPosition(608400, 1267200);
-builder.SaveFile("pptx", "CreateStroke.pptx");
-builder.CloseFile();

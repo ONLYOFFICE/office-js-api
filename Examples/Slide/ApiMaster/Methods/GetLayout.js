@@ -1,5 +1,4 @@
 // This example shows how to get a layout of the specified slide master by its position.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -12,5 +11,3 @@ oShape.SetSize(300 * 36000, 130 * 36000);
 oLayout.AddObject(oShape);
 oMaster.AddLayout(0, oLayout);
 oSlide.ApplyLayout(oMaster.GetLayout(0));
-builder.SaveFile("pptx", "GetLayout.pptx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example shows how to get the paragraph line spacing rule.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -15,5 +14,3 @@ var sSpacingLineRule = oParaPr.GetSpacingLineRule();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Spacing line rule : " + sSpacingLineRule);
 oDocContent.Push(oParagraph);
-builder.SaveFile("xlsx", "GetSpacingLineRule.xlsx");
-builder.CloseFile();

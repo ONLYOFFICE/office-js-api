@@ -1,5 +1,4 @@
 // This example splits the cell into a given number of rows and columns.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
@@ -9,5 +8,3 @@ oTable.SetStyle(oTableStyle);
 oDocument.Push(oTable);
 var oCell = oTable.GetCell(0, 0);
 oTable.Split(oCell, 2, 2);
-builder.SaveFile("docx", "Split.docx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example specifies that the current paragraph references a numbering definition instance in the current document.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oMyStyle = oDocument.CreateStyle("My document style");
 var oParaPr = oMyStyle.GetParaPr();
@@ -17,5 +16,3 @@ oParagraph.SetStyle(oMyStyle);
 oParagraph.SetNumPr(oNumbering, 3);
 oParagraph.AddText("This is a paragraph styled as level 4 of a bulleted list.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetNumPr.docx");
-builder.CloseFile();

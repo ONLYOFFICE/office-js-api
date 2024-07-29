@@ -1,5 +1,4 @@
 // This example shows how to get the paragraph contents justification.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -23,5 +22,3 @@ var sJc = oParaPr.GetJc();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Justification: " + sJc);
 oDocContent.Push(oParagraph);
-builder.SaveFile("pptx", "GetJc.pptx");
-builder.CloseFile();

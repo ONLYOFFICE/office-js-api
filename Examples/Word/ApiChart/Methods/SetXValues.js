@@ -1,5 +1,4 @@
 // This example sets the x-axis values to all chart series. It is used with the scatter charts only.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("scatter", [
@@ -16,5 +15,3 @@ oStroke = Api.CreateStroke(1 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(255
 oChart.SetMarkerFill(oFill, 1, 0, true);
 oChart.SetMarkerOutLine(oStroke, 1, 0, true);
 oChart.SetXValues([2020, 2021, 2022]);
-builder.SaveFile("docx", "SetXValues.docx");
-builder.CloseFile();er.CloseFile();

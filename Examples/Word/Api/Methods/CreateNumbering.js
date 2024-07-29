@@ -1,5 +1,4 @@
 // This example creates a bullet for a paragraph.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oNumbering = oDocument.CreateNumbering("bullet");
 for (let nLvl = 0; nLvl < 2; ++nLvl) {
@@ -9,5 +8,3 @@ for (let nLvl = 0; nLvl < 2; ++nLvl) {
 	oParagraph.SetNumbering(oNumLvl);
 	oDocument.Push(oParagraph);
 }
-builder.SaveFile("docx", "CreateNumbering.docx");
-builder.CloseFile();

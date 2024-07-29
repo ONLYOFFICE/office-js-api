@@ -1,5 +1,4 @@
 // This example shows how to get the paragraph line spacing rule.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oParaPr = oParagraph.GetParaPr();
@@ -11,5 +10,3 @@ oParagraph.AddText("These sentences are used to add lines for demonstrative purp
 oParagraph.AddLineBreak();
 var sSpacingLineRule = oParaPr.GetSpacingLineRule();
 oParagraph.AddText("Spacing line rule: " + sSpacingLineRule);
-builder.SaveFile("docx", "GetSpacingLineRule.docx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example shows how to get a comment from the document by its ID.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is just a sample text");
@@ -11,5 +10,3 @@ var sAutor = oComment.GetAutorName();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Comment author name: " + sAutor);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetCommentById.docx");
-builder.CloseFile();

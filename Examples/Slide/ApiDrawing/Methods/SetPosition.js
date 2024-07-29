@@ -1,5 +1,4 @@
 // This example sets position to the shape.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -15,5 +14,3 @@ oParagraph.SetJc("left");
 oParagraph.AddText("This is an example of a paragraph inside a shape. Nothing special.");
 oDocContent.Push(oParagraph);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetPosition.pptx");
-builder.CloseFile();

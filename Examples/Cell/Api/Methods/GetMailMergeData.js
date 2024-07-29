@@ -1,5 +1,4 @@
 // This example shows how to get the mail merge data.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.SetColumnWidth(0, 20);
 oWorksheet.GetRange("A1").SetValue("Email address");
@@ -16,5 +15,3 @@ oWorksheet.GetRange("C3").SetValue("Kate");
 oWorksheet.GetRange("D3").SetValue("Cage");
 var aMailMergeData = Api.GetMailMergeData(0);
 oWorksheet.GetRange("A5").SetValue("Mail merge data: " + aMailMergeData);
-builder.SaveFile("xlsx", "GetMailMergeData.xlsx");
-builder.CloseFile();

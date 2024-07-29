@@ -1,5 +1,4 @@
 // This example shows how to create a slide master.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = Api.CreateMaster();
@@ -19,5 +18,3 @@ oParagraph.AddLineBreak();
 oParagraph.AddText("Number of masters after adding new master: " + nCountAfter);
 oSlide.RemoveAllObjects();
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "CreateMaster.pptx");
-builder.CloseFile();

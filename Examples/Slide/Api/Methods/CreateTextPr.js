@@ -1,5 +1,4 @@
 // This example shows how to create a text properties and use it.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -20,5 +19,3 @@ oRun.SetTextPr(oTextPr);
 oParagraph.AddElement(oRun);
 oDocContent.Push(oParagraph);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "CreateTextPr.pptx");
-builder.CloseFile();

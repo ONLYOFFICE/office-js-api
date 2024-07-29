@@ -1,5 +1,4 @@
 // This example sets the size of the shape bounding box.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is a paragraph with a shape. ");
@@ -17,5 +16,3 @@ oParagraph.AddDrawing(oDrawing);
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("The shape was created with a size of 53x39 millimeters, then resized to the size of 2x2 inches.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetSize.docx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example shows how to get a theme of the current slide.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oTheme = oSlide.GetTheme();
@@ -19,5 +18,3 @@ oChart.SetTitle("Financial Overview", 20);
 oChart.SetSize(300 * 36000, 130 * 36000);
 oChart.SetPosition(608400, 1267200);
 oSlide.AddObject(oChart);
-builder.SaveFile("pptx", "GetTheme.pptx");
-builder.CloseFile();

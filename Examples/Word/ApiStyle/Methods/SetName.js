@@ -1,5 +1,4 @@
 // This example sets a name of the current style.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.GetStyle("Bordered");
 oTableStyle.SetName("My Custom Style");
@@ -10,5 +9,3 @@ oDocument.Push(oTable);
 var sTableStyleName = oTableStyle.GetName();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("Table style name = " + sTableStyleName);
-builder.SaveFile("docx", "SetName.docx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example sets the preferred width to the current table cell.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
@@ -19,5 +18,3 @@ oParagraph = oCell.GetContent().GetElement(0);
 oParagraph.AddText("3 inches");
 oTable.SetStyle(oTableStyle);
 oDocument.Push(oTable);
-builder.SaveFile("docx", "SetWidth.docx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example saves changes to the specified document.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -15,5 +14,3 @@ oParagraph.AddText("This shape with paragraph in it is saved to the document.");
 oDocContent.Push(oParagraph);
 oSlide.AddObject(oShape);
 Api.Save();
-builder.SaveFile("pptx", "Save.pptx");
-builder.CloseFile();

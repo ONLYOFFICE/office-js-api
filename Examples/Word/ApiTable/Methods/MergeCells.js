@@ -1,5 +1,4 @@
 // This example merges an array of cells.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
@@ -9,5 +8,3 @@ oTable.SetStyle(oTableStyle);
 var oCell = oTable.MergeCells([oTable.GetRow(1).GetCell(1), oTable.GetRow(1).GetCell(2), oTable.GetRow(2).GetCell(1), oTable.GetRow(2).GetCell(2)]);
 oCell.GetContent().GetElement(0).AddText("Merged cell");
 oDocument.Push(oTable);
-builder.SaveFile("docx", "MergeCells.docx");
-builder.CloseFile();

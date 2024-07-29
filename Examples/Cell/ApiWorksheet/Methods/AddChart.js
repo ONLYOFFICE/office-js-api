@@ -1,5 +1,4 @@
 // This example creates a chart of the specified type from the selected data range of the sheet.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);
@@ -18,5 +17,3 @@ var oFill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
 oChart.SetSeriesFill(oFill, 0, false);
 oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 oChart.SetSeriesFill(oFill, 1, false);
-builder.SaveFile("xlsx", "AddChart.xlsx");
-builder.CloseFile();

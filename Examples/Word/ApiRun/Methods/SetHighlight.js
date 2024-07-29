@@ -1,5 +1,4 @@
 // This example specifies a highlighting color which is applied as a background to the contents of the run.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oRun = Api.CreateRun();
@@ -9,5 +8,3 @@ oRun = Api.CreateRun();
 oRun.SetHighlight("lightGray");
 oRun.AddText("This is a text run with the text highlighted with light gray color.");
 oParagraph.AddElement(oRun);
-builder.SaveFile("docx", "SetHighlight.docx");
-builder.CloseFile();

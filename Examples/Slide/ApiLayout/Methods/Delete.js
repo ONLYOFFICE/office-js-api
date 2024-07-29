@@ -1,5 +1,4 @@
 // This example shows how to delete the specified object from the parent slide master if it exists.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -20,5 +19,3 @@ oParagraph.AddLineBreak();
 oParagraph.AddText("Number of layouts after deletion: " + nCountAfter);
 oSlide.RemoveAllObjects();
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "Delete.pptx");
-builder.CloseFile();

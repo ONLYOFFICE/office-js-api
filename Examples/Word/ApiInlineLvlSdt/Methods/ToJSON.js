@@ -1,5 +1,4 @@
 // This example converts the ApiInlineLvlSdt object into the JSON object.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oInlineLvlSdt = Api.CreateInlineLvlSdt();
@@ -10,5 +9,3 @@ oParagraph.AddInlineLvlSdt(oInlineLvlSdtFromJSON);
 var oRun = Api.CreateRun();
 oRun.AddText("This is an inline text content control.");
 oInlineLvlSdtFromJSON.AddElement(oRun, 0);
-builder.SaveFile("docx", "ToJSON.docx");
-builder.CloseFile();

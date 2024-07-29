@@ -1,5 +1,4 @@
 // This example sets the user ID to the comment reply author.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is just a sample text");
@@ -12,5 +11,3 @@ var sUserId = oCommentReply.GetUserId();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Comment reply user ID: " + sUserId);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetUserId.docx");
-builder.CloseFile();

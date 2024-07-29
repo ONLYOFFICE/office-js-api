@@ -1,5 +1,4 @@
 // This example scales the height of the figure using the specified coefficient.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 for (let i = 3; i > 0; i-- ){
@@ -9,5 +8,3 @@ for (let i = 3; i > 0; i-- ){
 	oParagraph.AddDrawing(oDrawing);
 	oDrawing.ScaleHeight( i );
 }
-builder.SaveFile("docx", "ScaleHeight.docx");
-builder.CloseFile();

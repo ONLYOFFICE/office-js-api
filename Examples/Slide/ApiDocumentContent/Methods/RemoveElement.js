@@ -1,5 +1,4 @@
 // This example shows how to remove an element.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -15,5 +14,3 @@ oParagraph = Api.CreateParagraph();
 oParagraph.AddText("This is the second paragraph. The first paragraph was removed from the document content.");
 oDocContent.Push(oParagraph);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "RemoveElement.pptx");
-builder.CloseFile();

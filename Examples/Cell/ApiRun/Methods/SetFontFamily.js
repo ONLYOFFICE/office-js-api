@@ -1,5 +1,4 @@
 // This example sets all 4 font slots with the specified font family.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -13,5 +12,3 @@ oRun = Api.CreateRun();
 oRun.SetFontFamily("Comic Sans MS");
 oRun.AddText("This is a text run with the font family set to 'Comic Sans MS'.");
 oParagraph.AddElement(oRun);
-builder.SaveFile("xlsx", "SetFontFamily.xlsx");
-builder.CloseFile();

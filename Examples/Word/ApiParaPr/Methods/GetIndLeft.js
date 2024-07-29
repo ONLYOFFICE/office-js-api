@@ -1,5 +1,4 @@
 // This example shows how to get the paragraph left side indentation.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oParaPr = oParagraph.GetParaPr();
@@ -13,5 +12,3 @@ var nIndLeft = oParaPr.GetIndLeft();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Left indent: " + nIndLeft);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetIndLeft.docx");
-builder.CloseFile();

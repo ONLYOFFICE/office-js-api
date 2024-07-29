@@ -1,5 +1,4 @@
 // This example gets a class type and pastes it into the presentation.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -13,5 +12,3 @@ oParagraph.SetJc("left");
 var sClassType = oTextPr.GetClassType();
 oRun.AddText("Class Type = " + sClassType);
 oParagraph.AddElement(oRun);
-builder.SaveFile("xlsx", "GetClassType.xlsx");
-builder.CloseFile();

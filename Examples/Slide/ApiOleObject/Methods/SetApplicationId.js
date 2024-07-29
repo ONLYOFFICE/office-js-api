@@ -1,5 +1,4 @@
 // This example sets the application ID to the current OLE object.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -8,5 +7,3 @@ oOleObject.SetSize(200 * 36000, 130 * 36000);
 oOleObject.SetPosition(70 * 36000, 30 * 36000);
 oSlide.AddObject(oOleObject);
 oOleObject.SetApplicationId("asc.{E5773A43-F9B3-4E81-81D9-CE0A132470E7}");
-builder.SaveFile("pptx", "SetApplicationId.pptx");
-builder.CloseFile();

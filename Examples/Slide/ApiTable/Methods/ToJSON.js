@@ -1,5 +1,4 @@
 // This example converts the table object into the JSON object.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -14,5 +13,3 @@ var oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Class type = " + sType);
 oContent.Push(oParagraph);
 oSlide.AddObject(oTableFromJSON);
-builder.SaveFile("pptx", "ToJSON.pptx");
-builder.CloseFile();

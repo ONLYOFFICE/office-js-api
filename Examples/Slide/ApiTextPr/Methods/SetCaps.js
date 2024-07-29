@@ -1,5 +1,4 @@
 // This example specifies that any lowercase characters in the text run are formatted for display only as their capital letter character equivalents.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -17,5 +16,3 @@ oParagraph.SetJc("left");
 oRun.AddText("This is a sample text inside the shape set to capital letters using the text properties.");
 oParagraph.AddElement(oRun);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetCaps.pptx");
-builder.CloseFile();

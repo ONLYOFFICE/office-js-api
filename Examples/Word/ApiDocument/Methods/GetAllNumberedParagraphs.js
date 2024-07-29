@@ -1,5 +1,4 @@
 // This example shows how to get all numbered paragraphs from the current document.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oNumbering = oDocument.CreateNumbering("numbered");
 for (let nLvl = 0; nLvl < 8; ++nLvl) {
@@ -17,5 +16,3 @@ for (let nLvl = 0; nLvl < 8; ++nLvl) {
 }
 var aNumberedParagraphs = oDocument.GetAllNumberedParagraphs();
 aNumberedParagraphs[0].SetBold(true);
-builder.SaveFile("docx", "GetAllNumberedParagraphs.docx");
-builder.CloseFile();

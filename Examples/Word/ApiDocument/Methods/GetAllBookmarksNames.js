@@ -1,5 +1,4 @@
 // This example shows how to get an array with names of all bookmarks in the document.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument(); 
 var oParagraph = oDocument.GetElement(0); 
 oParagraph.AddText("ONLYOFFICE Document Builder"); 
@@ -13,5 +12,3 @@ oParagraph.AddText("Bookmark names: ");
 for (let i = 0; i < 2; i++ ){
 	oParagraph.AddText(aBookmarks[i] + "," + " ");
 }
-builder.SaveFile("docx", "GetAllBookmarksNames.docx");
-builder.CloseFile();

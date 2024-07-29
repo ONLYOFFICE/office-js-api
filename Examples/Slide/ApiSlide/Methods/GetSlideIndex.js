@@ -1,5 +1,4 @@
 // This example shows how to get a position of the current slide in the presentation.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -14,5 +13,3 @@ var oParagraph = oDocContent.GetElement(0);
 oParagraph.SetJc("left");
 oParagraph.AddText("Slide index = " + nIndex);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "GetSlideIndex.pptx");
-builder.CloseFile();

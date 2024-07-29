@@ -1,5 +1,4 @@
 // This example sets the vertical alignment to the table.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("The table was added to the bottom of the page. Scroll down to see it."); 
@@ -17,5 +16,3 @@ oTable.SetTableBorderInsideV("single", 4, 0, 255, 111, 61);
 oTable.SetTableBorderInsideH("single", 4, 0, 255, 111, 61);
 oTable.GetCell(0, 0).GetContent().GetElement(0).AddText("This is just a sample text.");
 oTable.SetVAlign("bottom");
-builder.SaveFile("docx", "SetVAlign.docx");
-builder.CloseFile();

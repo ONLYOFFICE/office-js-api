@@ -1,5 +1,4 @@
 // This example shows how to get the text properties of the run.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -12,5 +11,3 @@ oTextPr.SetFontSize(30);
 oParagraph.SetJc("left");
 oRun.AddText("This is a sample text inside the shape with the font size set to 15 points using the text properties.");
 oParagraph.AddElement(oRun);
-builder.SaveFile("xlsx", "GetTextPr.xlsx");
-builder.CloseFile();

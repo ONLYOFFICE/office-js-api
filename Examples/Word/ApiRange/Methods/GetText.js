@@ -1,5 +1,4 @@
 // This example shows how to get a text from the specified range.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("\tONLYOFFICE Document Builder");
@@ -8,5 +7,3 @@ var sText = oRange.GetText({"Numbering": true, "Math": true, "NewLineSeparator":
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("The text of the specified range: " + sText);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetText.docx");
-builder.CloseFile();

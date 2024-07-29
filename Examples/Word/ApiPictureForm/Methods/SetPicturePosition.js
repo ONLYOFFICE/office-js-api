@@ -1,5 +1,4 @@
 // This example sets the picture position inside the form.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oPictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false});
 var oParagraph = oDocument.GetElement(0);
@@ -16,5 +15,3 @@ for (let i = 0; i < aPosition.length; i++ ){
 	oParagraph.AddLineBreak();
 }
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetPicturePosition.docx");
-builder.CloseFile();

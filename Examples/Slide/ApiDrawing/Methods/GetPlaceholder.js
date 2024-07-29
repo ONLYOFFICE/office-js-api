@@ -1,5 +1,4 @@
 // This example shows how to get a placeholder from the current drawing object.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -18,5 +17,3 @@ var oParagraph = oDocContent.GetElement(0);
 oParagraph.SetJc("left");
 oParagraph.AddText("Class type of the element from the shape = " + sType);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "GetPlaceholder.pptx");
-builder.CloseFile();

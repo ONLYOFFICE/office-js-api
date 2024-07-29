@@ -1,5 +1,4 @@
 // This example shows how to get the width of the drawing.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -8,5 +7,3 @@ oDrawing.SetSize(120 * 36000, 70 * 36000);
 oDrawing.SetPosition(0, 2 * 36000, 1, 3 * 36000);
 var nWidth = oDrawing.GetWidth();
 oWorksheet.GetRange("A1").SetValue("Drawing width = " + nWidth);
-builder.SaveFile("xlsx", "GetWidth.xlsx");
-builder.CloseFile();

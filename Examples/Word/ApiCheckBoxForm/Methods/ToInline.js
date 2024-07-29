@@ -1,5 +1,4 @@
 // This example converts the current form to an inline form.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oCheckBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});
 var oParagraph = oDocument.GetElement(0);
@@ -19,5 +18,3 @@ oParagraph.AddText("The first form from this document has a fixed size: " + bFix
 oParagraph.AddLineBreak();
 oParagraph.AddText("The second form from this document has a fixed size: " + bFixedCopy);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "ToInline.docx");
-builder.CloseFile();

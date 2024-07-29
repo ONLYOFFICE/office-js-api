@@ -1,5 +1,4 @@
 // This example showh how to get a report about all the comments added to the document.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph1 = oDocument.GetElement(0);
 oParagraph1.AddText("Commenting");
@@ -76,5 +75,3 @@ for (let sUserName in oCommentsReport) {
 	}
 }
 oTable.SetStyle(oDocument.GetStyle("Bordered"));
-builder.SaveFile("docx", "GetCommentsReport.docx");
-builder.CloseFile();

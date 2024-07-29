@@ -1,5 +1,4 @@
 // This example sets the fill to the specified chart series.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("bar3D", [
@@ -13,5 +12,3 @@ oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 oChart.SetSeriesFill(oFill, 1, false);
 oFill = Api.CreateSolidFill(Api.CreateRGBColor(128, 128, 128));
 oChart.SetSeriesFill(oFill, 1, false);
-builder.SaveFile("docx", "SetSeriesFill.docx");
-builder.CloseFile();

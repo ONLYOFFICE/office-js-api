@@ -1,5 +1,4 @@
 // This example shows how to get a range object by the selection.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oRun1 = Api.CreateRun();
@@ -11,5 +10,3 @@ oParagraph.AddElement(oRun2);
 oRun1.Select();
 var oRange = oDocument.GetRangeBySelect();
 oRange.SetBold(true);
-builder.SaveFile("docx", "GetRangeBySelect.docx");
-builder.CloseFile();

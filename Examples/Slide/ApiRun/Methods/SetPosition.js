@@ -1,5 +1,4 @@
 // This example specifies an amount by which text is raised or lowered for this run in relation to the default baseline of the surrounding non-positioned text.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -18,5 +17,3 @@ oRun.AddText("This is a text run with the text lowered 16 half-points.");
 oParagraph.AddElement(oRun);
 oRun.SetPosition(-16);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetPosition.pptx");
-builder.CloseFile();

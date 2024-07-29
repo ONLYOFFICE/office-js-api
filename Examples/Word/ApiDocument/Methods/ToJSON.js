@@ -1,5 +1,4 @@
 // This example converts the ApiDocument object into the JSON object.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var json = oDocument.ToJSON(true, true, true, true, true, true);
 var oDocumentFromJSON = Api.FromJSON(json);
@@ -17,5 +16,3 @@ oParagraph = oDocument.GetElement(0);
 oParagraph.AddDrawing(aDrawings[0]);
 oParagraph.AddLineBreak();
 oParagraph.AddText("This is the first shape from the JSON document.");
-builder.SaveFile("docx", "ToJSON.docx");
-builder.CloseFile();

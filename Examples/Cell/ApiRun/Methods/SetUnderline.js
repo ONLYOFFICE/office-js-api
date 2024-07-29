@@ -1,5 +1,4 @@
 // This example specifies that the contents of the current run are displayed along with a line appearing directly below the character (less than all the spacing above and below the characters on the line).
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -13,5 +12,3 @@ oRun = Api.CreateRun();
 oRun.SetUnderline(true);
 oRun.AddText("This is a text run with the text underlined with a single line.");
 oParagraph.AddElement(oRun);
-builder.SaveFile("xlsx", "SetUnderline.xlsx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example shows how to get the paragraph line spacing value.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -14,5 +13,3 @@ oParagraph.AddText("These sentences are used to add lines for demonstrative purp
 oParagraph.AddLineBreak();
 var nSpacingLineValue = oParagraph.GetSpacingLineValue();
 oParagraph.AddText("Spacing line value: " + nSpacingLineValue);
-builder.SaveFile("xlsx", "GetSpacingLineValue.xlsx");
-builder.CloseFile();

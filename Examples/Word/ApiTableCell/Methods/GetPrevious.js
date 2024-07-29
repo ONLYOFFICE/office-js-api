@@ -1,5 +1,4 @@
 // This example shows how to get the previous cell.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
@@ -11,5 +10,3 @@ oTable.GetCell(0, 1).GetContent().GetElement(0).AddText("Cell 2");
 oDocument.Push(oTable);
 var oPreviousCell = oTable.GetCell(0, 1).GetPrevious();
 oPreviousCell.GetContent().GetElement(0).SetBold(true);
-builder.SaveFile("docx", "GetPrevious.docx");
-builder.CloseFile();

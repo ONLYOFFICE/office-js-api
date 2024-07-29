@@ -1,5 +1,4 @@
 // This example shows how to get the paragraph style.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oHeading6Style = oDocument.GetStyle("Heading 6");
 var oParagraph = oDocument.GetElement(0);
@@ -10,5 +9,3 @@ oParagraph.AddText("This is a text in a paragraph styled with the 'Heading 6' st
 var oStyle = oParaPr.GetStyle();
 oParagraph.AddLineBreak();
 oParagraph.AddText("Style: " + oStyle.GetName());
-builder.SaveFile("docx", "GetStyle.docx");
-builder.CloseFile();

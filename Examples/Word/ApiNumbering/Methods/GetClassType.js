@@ -1,5 +1,4 @@
 // This example gets a class type and inserts it into the document.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oNumbering = oDocument.CreateNumbering("bullet");
 for (let nLvl = 0; nLvl < 8; ++nLvl) {
@@ -14,5 +13,3 @@ var sClassType = oNumbering.GetClassType();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Class Type = " + sClassType);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetClassType.docx");
-builder.CloseFile();

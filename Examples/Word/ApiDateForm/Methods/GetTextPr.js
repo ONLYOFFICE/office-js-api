@@ -1,5 +1,4 @@
 // This example returns the text properties from the current form.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oDateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});
 var oParagraph = oDocument.GetElement(0);
@@ -11,5 +10,3 @@ oDateForm.SetTextPr(oTextPr);
 var oFormTextPr = oDateForm.GetTextPr();
 oFormTextPr.SetItalic(true);
 oDateForm.SetTextPr(oFormTextPr);
-builder.SaveFile("docx", "GetTextPr.docx");
-builder.CloseFile();

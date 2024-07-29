@@ -1,5 +1,4 @@
 // This example sets the paragraph contents justification.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oMyStyleLeft = oDocument.CreateStyle("My style with left text alignment");
 var oParaPr = oMyStyleLeft.GetParaPr();
@@ -40,5 +39,3 @@ oParagraph.AddText("These sentences are used to add lines for demonstrative purp
 oParagraph.AddText("These sentences are used to add lines for demonstrative purposes.");
 oParagraph.SetStyle(oMyStyleBoth);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetJc.docx");
-builder.CloseFile();

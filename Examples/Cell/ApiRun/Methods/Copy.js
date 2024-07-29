@@ -1,5 +1,4 @@
 // This example reates a copy of the run.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -11,5 +10,3 @@ oRun.AddText("This is just a sample text that was copied. ");
 oParagraph.AddElement(oRun);
 var oCopyRun = oRun.Copy();
 oParagraph.AddElement(oCopyRun);
-builder.SaveFile("xlsx", "Copy.xlsx");
-builder.CloseFile();

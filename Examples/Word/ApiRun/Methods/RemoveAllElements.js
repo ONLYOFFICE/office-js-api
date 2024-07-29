@@ -1,5 +1,4 @@
 // This example removes all the elements from the run.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oRun1 = Api.CreateRun();
@@ -11,5 +10,3 @@ oParagraph.AddElement(oRun2);
 oRun1.RemoveAllElements();
 oParagraph.AddLineBreak();
 oParagraph.AddText("The sample text №1 was removed from the document.");
-builder.SaveFile("docx", "RemoveAllElements.docx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example gets a class type and pastes it into the presentation.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oPresetColor = Api.CreatePresetColor("peachPuff");
 var oGs1 = Api.CreateGradientStop(oPresetColor, 0);
@@ -12,5 +11,3 @@ oWorksheet.SetColumnWidth(0, 15);
 oWorksheet.SetColumnWidth(1, 10);
 oWorksheet.GetRange("A1").SetValue("Class Type = ");
 oWorksheet.GetRange("B1").SetValue(sClassType);
-builder.SaveFile("xlsx", "GetClassType.xlsx");
-builder.CloseFile();

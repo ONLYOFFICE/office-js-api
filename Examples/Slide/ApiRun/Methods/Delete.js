@@ -1,5 +1,4 @@
 // This example deletes the run.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -17,5 +16,3 @@ oRun = Api.CreateRun();
 oRun.AddText("This is the second run. The first run was removed from the paragraph.");
 oParagraph.AddElement(oRun);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "Delete.pptx");
-builder.CloseFile();

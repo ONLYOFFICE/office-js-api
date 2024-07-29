@@ -1,5 +1,4 @@
 // This example sets the text properties to the current row.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
@@ -12,5 +11,3 @@ oTextPr.SetBold(true);
 oRow.GetCell(0).GetContent().GetElement(0).AddText("First row");
 oRow.SetTextPr(oTextPr);
 oDocument.Push(oTable);
-builder.SaveFile("docx", "SetTextPr.docx");
-builder.CloseFile();

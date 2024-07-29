@@ -1,5 +1,4 @@
 // This example specifies that all the columns in the current section have the different widths.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oSection = oDocument.GetFinalSection();
@@ -14,5 +13,3 @@ oParagraph.AddColumnBreak();
 oParagraph.AddText("This text starts from column #3. ");
 oParagraph.AddText("This column is 3 inches wide (4320 twentieths of a point). ");
 oParagraph.AddText("The distance between this column and column #2 is 1/3 of an inch (480 twentieths of a point).");
-builder.SaveFile("docx", "SetNotEqualColumns.docx");
-builder.CloseFile();

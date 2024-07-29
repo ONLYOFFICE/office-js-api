@@ -1,5 +1,4 @@
 // This example gets all series of ApiChart class and inserts their types into the table.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);
@@ -25,5 +24,3 @@ for(var nSeries = 0; nSeries < aAllSeries.length; ++nSeries) {
 	sSeriesType = oSeries.GetChartType();
 	oWorksheet.GetRange("F" + (nSeries + 1)).SetValue((nSeries + 1) + " Series Type = " + sSeriesType);
 }
-builder.SaveFile("xlsx", "GetAllSeries.xlsx");
-builder.CloseFile();

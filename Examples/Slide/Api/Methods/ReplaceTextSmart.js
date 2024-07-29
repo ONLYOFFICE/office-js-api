@@ -1,5 +1,4 @@
 // This example replace text from two paragraphs to another text.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -25,5 +24,3 @@ oSlide.AddObject(oShape);
 // oRange3.Select();
 var arr = ["test_1", "test_2"];
 Api.ReplaceTextSmart(arr, "", "");
-builder.SaveFile("pptx", "ReplaceTextSmart.pptx");
-builder.CloseFile();

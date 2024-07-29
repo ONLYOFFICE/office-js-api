@@ -8,16 +8,16 @@ Represents the ApiRange class.
 | ---- | ---- | ----------- |
 | Row | number | Returns the row number for the selected cell. |
 | Col | number | Returns the column number for the selected cell. |
-| Rows | [ApiRange](../../ApiRange/ApiRange.md) | Returns the ApiRange object that represents the rows of the specified range. |
-| Cols | [ApiRange](../../ApiRange/ApiRange.md) | Returns the ApiRange object that represents the columns of the specified range. |
-| Cells | [ApiRange](../../ApiRange/ApiRange.md) | Returns a Range object that represents all the cells in the specified range or a specified cell. |
+| Rows | [ApiRange](../ApiRange/ApiRange.md) | Returns the ApiRange object that represents the rows of the specified range. |
+| Cols | [ApiRange](../ApiRange/ApiRange.md) | Returns the ApiRange object that represents the columns of the specified range. |
+| Cells | [ApiRange](../ApiRange/ApiRange.md) | Returns a Range object that represents all the cells in the specified range or a specified cell. |
 | Count | number | Returns the rows or columns count. |
 | Address | string | Returns the range address. |
 | Value | string | Returns a value from the first cell of the specified range or sets it to this cell. |
 | Formula | string | Returns a formula from the first cell of the specified range or sets it to this cell. |
 | Value2 | string | Returns the value2 (value without format) from the first cell of the specified range or sets it to this cell. |
 | Text | string | Returns the text from the first cell of the specified range or sets it to this cell. |
-| FontColor | [ApiColor](../../ApiColor/ApiColor.md) | Sets the text color to the current cell range with the previously created color object. |
+| FontColor | [ApiColor](../ApiColor/ApiColor.md) | Sets the text color to the current cell range with the previously created color object. |
 | Hidden | boolean | Returns or sets the value hiding property. |
 | ColumnWidth | number | Returns or sets the width of all the columns in the specified range measured in points. |
 | Width | number | Returns a value that represents the range width measured in points. |
@@ -32,15 +32,15 @@ Represents the ApiRange class.
 | Underline | 'none' &#124;'single' &#124;'singleAccounting' &#124;'double' &#124;'doubleAccounting' | Sets the type of underline applied to the font. |
 | Strikeout | boolean | Sets a value that indicates whether the contents of the current cell or cell range are displayed struck through. |
 | WrapText | boolean | Returns the information about the wrapping cell style or specifies whether the words in the cell must be wrapped to fit the cell size or not. |
-| FillColor | [ApiColor](../../ApiColor/ApiColor.md) &#124;'No Fill' | Returns or sets the background color of the current cell range. |
+| FillColor | [ApiColor](../ApiColor/ApiColor.md) &#124;'No Fill' | Returns or sets the background color of the current cell range. |
 | NumberFormat | string | Sets a value that represents the format code for the object. |
-| MergeArea | [ApiRange](../../ApiRange/ApiRange.md) | Returns the cell or cell range from the merge area. |
-| Worksheet | [ApiWorksheet](../../ApiWorksheet/ApiWorksheet.md) | Returns the ApiWorksheet object that represents the worksheet containing the specified range. |
-| DefName | [ApiName](../../ApiName/ApiName.md) | Returns the ApiName object. |
-| Comments | [ApiComment](../../ApiComment/ApiComment.md) &#124;null | Returns the ApiComment collection that represents all the comments from the specified worksheet. |
+| MergeArea | [ApiRange](../ApiRange/ApiRange.md) | Returns the cell or cell range from the merge area. |
+| Worksheet | [ApiWorksheet](../ApiWorksheet/ApiWorksheet.md) | Returns the ApiWorksheet object that represents the worksheet containing the specified range. |
+| DefName | [ApiName](../ApiName/ApiName.md) | Returns the ApiName object. |
+| Comments | [ApiComment](../ApiComment/ApiComment.md) &#124;null | Returns the ApiComment collection that represents all the comments from the specified worksheet. |
 | Orientation | 'xlDownward' &#124;'xlHorizontal' &#124;'xlUpward' &#124;'xlVertical' | Sets an angle to the current cell range. |
-| Areas | [ApiAreas](../../ApiAreas/ApiAreas.md) | Returns a collection of the areas. |
-| Characters | [ApiCharacters](../../ApiCharacters/ApiCharacters.md) | Returns the ApiCharacters object that represents a range of characters within the object text. Use the ApiCharacters object to format characters within a text string. |
+| Areas | [ApiAreas](../ApiAreas/ApiAreas.md) | Returns a collection of the areas. |
+| Characters | [ApiCharacters](../ApiCharacters/ApiCharacters.md) | Returns the ApiCharacters object that represents a range of characters within the object text. Use the ApiCharacters object to format characters within a text string. |
 
 ## Methods
 

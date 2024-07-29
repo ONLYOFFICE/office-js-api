@@ -1,5 +1,4 @@
 // This example shows how to get the next paragraph.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -14,5 +13,3 @@ oParagraph2.AddText("This is the second paragraph.");
 oDocContent.Push(oParagraph2);
 var oNextParagraph = oParagraph1.GetNext();
 oNextParagraph.SetBold(true);
-builder.SaveFile("xlsx", "GetNext.xlsx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example sets the lock value to the specified lock type of the current drawing.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);
@@ -14,5 +13,3 @@ var bLockValue = oDrawing.GetLockValue("noSelect");
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("This drawing cannot be selected: " + bLockValue);
 oDocContent.AddElement(0, oParagraph);
-builder.SaveFile("docx", "SetLockValue.docx");
-builder.CloseFile();

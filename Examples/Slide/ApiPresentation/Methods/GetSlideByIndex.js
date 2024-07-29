@@ -1,5 +1,4 @@
 // This example shows how to get a slide by its position in the presentation.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -8,5 +7,3 @@ var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
 var oShape = Api.CreateShape("flowChartMagneticTape", 300 * 36000, 130 * 36000, oFill, oStroke);
 oShape.SetPosition(608400, 1267200);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "GetSlideByIndex.pptx");
-builder.CloseFile();

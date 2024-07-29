@@ -1,5 +1,4 @@
 // This example copies the current graphic object.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
@@ -12,5 +11,3 @@ var oGs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);
 oFill = Api.CreateRadialGradientFill([oGs1, oGs2]);
 oCopyDrawing.Fill(oFill);
 oParagraph.AddDrawing(oCopyDrawing);
-builder.SaveFile("docx", "Copy.docx");
-builder.CloseFile();

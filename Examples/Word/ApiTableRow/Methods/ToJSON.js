@@ -1,5 +1,4 @@
 // This example converts the ApiTableRowPr object into the JSON object.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTable = Api.CreateTable(3, 3);
 oDocument.Push(oTable);
@@ -17,5 +16,3 @@ oParagraph.AddText("The ApiTableRow object in the JSON format: ").SetBold(true);
 oParagraph.AddLineBreak();
 oParagraph.AddText(json);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "ToJSON.docx");
-builder.CloseFile();

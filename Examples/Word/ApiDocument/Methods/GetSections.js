@@ -1,5 +1,4 @@
 // This example shows how to get a collection of section objects in the document.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is a new paragraph.");
@@ -14,5 +13,3 @@ oParagraph = Api.CreateParagraph();
 var sClassType = aSections[1].GetClassType();
 oParagraph.AddText("Class type: " + sClassType);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetSections.docx");
-builder.CloseFile();

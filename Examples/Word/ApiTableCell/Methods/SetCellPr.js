@@ -1,5 +1,4 @@
 // This example sets the cell properties to the current cell.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
@@ -16,5 +15,3 @@ oTable2.SetStyle(oTableStyle);
 oTable2.GetCell(0, 0).GetContent().GetElement(0).AddText("Cell 1");
 oDocument.Push(oTable2);
 oTable2.GetCell(0, 0).SetCellPr(oTableCellPr);
-builder.SaveFile("docx", "SetCellPr.docx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example specifies the chart legend font size.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("bar3D", [
@@ -15,5 +14,3 @@ oChart.SetHorAxisTitle("Year", 11);
 oChart.SetLegendFontSize(12);
 oChart.SetTitle("Financial Overview", 13);
 oParagraph.AddDrawing(oChart);
-builder.SaveFile("docx", "SetLegendFontSize.docx");
-builder.CloseFile();

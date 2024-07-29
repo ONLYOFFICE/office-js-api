@@ -1,5 +1,4 @@
 // This example shows how to get the paragraph contents justification.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -17,5 +16,3 @@ var sJc = oParaPr.GetJc();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Justification: " + sJc);
 oDocContent.Push(oParagraph);
-builder.SaveFile("xlsx", "GetJc.xlsx");
-builder.CloseFile();

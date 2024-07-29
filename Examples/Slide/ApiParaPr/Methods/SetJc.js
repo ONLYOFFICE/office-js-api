@@ -1,5 +1,4 @@
 // This example sets the paragraph contents justification.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -18,5 +17,3 @@ oParagraph.AddText("The justification is specified in the paragraph style. ");
 oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
 oParagraph.AddText("These sentences are used to add lines for demonstrative purposes.");
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetJc.pptx");
-builder.CloseFile();

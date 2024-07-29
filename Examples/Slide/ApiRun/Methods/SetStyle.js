@@ -1,5 +1,4 @@
 // This example sets a style to the run.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -19,5 +18,3 @@ oRun.AddText("This is a text run with its own style.");
 oRun.SetTextPr(oTextPr);
 oParagraph.AddElement(oRun);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetTextPr.pptx");
-builder.CloseFile();

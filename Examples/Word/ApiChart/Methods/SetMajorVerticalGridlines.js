@@ -1,5 +1,4 @@
 // This example specifies the visual properties for the major horizontal gridlines.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("bar3D", [
@@ -16,5 +15,3 @@ var oStroke = Api.CreateStroke(1 * 15000, Api.CreateSolidFill(Api.CreateRGBColor
 oChart.SetMajorVerticalGridlines(oStroke);
 oChart.SetTitle("Financial Overview", 13);
 oParagraph.AddDrawing(oChart);
-builder.SaveFile("docx", "SetMajorVerticalGridlines.docx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example sets your own customized numbering type.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oNumbering = oDocument.CreateNumbering("numbered");
 for (let nLvl = 0; nLvl < 8; ++nLvl) {
@@ -15,5 +14,3 @@ for (let nLvl = 0; nLvl < 8; ++nLvl) {
 	oParagraph.SetContextualSpacing(true);
 	oDocument.Push(oParagraph);
 }
-builder.SaveFile("docx", "SetCustomType.docx");
-builder.CloseFile();

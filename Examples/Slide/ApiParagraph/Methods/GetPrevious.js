@@ -1,5 +1,4 @@
 // This example shows how to get the previous paragraph.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -20,5 +19,3 @@ oDocContent.Push(oParagraph2);
 oSlide.AddObject(oShape);
 var oPreviousParagraph = oParagraph2.GetPrevious();
 oPreviousParagraph.SetBold(true);
-builder.SaveFile("pptx", "GetPrevious.pptx");
-builder.CloseFile();

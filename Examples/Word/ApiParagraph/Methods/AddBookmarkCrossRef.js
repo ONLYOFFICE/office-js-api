@@ -1,5 +1,4 @@
 // This example adds a bookmark cross-reference to the paragraph.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument(); 
 var oParagraph = oDocument.GetElement(0); 
 oParagraph.AddText("ONLYOFFICE Document Builder"); 
@@ -10,5 +9,3 @@ oParagraph = Api.CreateParagraph();
 oParagraph.AddText("A bookmark was added ");
 oDocument.Push(oParagraph);
 oParagraph.AddBookmarkCrossRef("aboveBelow", aBookmarks[0]);
-builder.SaveFile("docx", "AddBookmarkCrossRef.docx");
-builder.CloseFile();

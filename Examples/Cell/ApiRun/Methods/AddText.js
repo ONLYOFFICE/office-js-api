@@ -1,5 +1,4 @@
 // This example adds some text to the run.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -10,5 +9,3 @@ var oRun = Api.CreateRun();
 oRun.SetFontSize(30);
 oRun.AddText("This is just a sample text. Nothing special.");
 oParagraph.AddElement(oRun);
-builder.SaveFile("xlsx", "AddText.xlsx");
-builder.CloseFile();

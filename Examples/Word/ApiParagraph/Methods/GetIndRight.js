@@ -1,5 +1,4 @@
 // This example shows how to get the paragraph right side indentation.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is a paragraph with the right offset of 2 inches set to it. ");
@@ -12,5 +11,3 @@ var nIndRight = oParagraph.GetIndRight();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Right indent: " + nIndRight);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetIndRight.docx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example creates a paragraph copy.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -12,5 +11,3 @@ oParagraph.AddLineBreak();
 oParagraph.AddText("This is a text after the line break.");
 var oParagraph2 = oParagraph.Copy();
 oDocContent.Push(oParagraph2);
-builder.SaveFile("xlsx", "Copy.xlsx");
-builder.CloseFile();

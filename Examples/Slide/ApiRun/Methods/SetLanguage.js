@@ -1,5 +1,4 @@
 // This example specifies the languages which will be used to check spelling and grammar (if requested) when processing the contents of this text run.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -14,5 +13,3 @@ oRun.AddText("This is a text run with the text language set to English (Canada).
 oParagraph.AddElement(oRun);
 oRun.SetLanguage("en-CA");
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetLanguage.pptx");
-builder.CloseFile();

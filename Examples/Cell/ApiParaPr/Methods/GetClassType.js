@@ -1,5 +1,4 @@
 // This example gets a class type and inserts it into the document.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -16,5 +15,3 @@ oParagraph.AddText("These sentences are used to add lines for demonstrative purp
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Class Type = " + sClassType);
 oDocContent.Push(oParagraph);
-builder.SaveFile("xlsx", "GetClassType.xlsx");
-builder.CloseFile();

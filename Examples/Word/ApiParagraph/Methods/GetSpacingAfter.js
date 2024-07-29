@@ -1,5 +1,4 @@
 // This example shows how to get the spacing after value of the paragraph.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph1 = oDocument.GetElement(0);
 oParagraph1.AddText("This is an example of setting a space after a paragraph. ");
@@ -12,5 +11,3 @@ oParagraph2.AddLineBreak();
 var nSpacingAfter = oParagraph1.GetSpacingAfter();
 oParagraph2.AddText("Spacing after: " + nSpacingAfter);
 oDocument.Push(oParagraph2);
-builder.SaveFile("docx", "GetSpacingAfter.docx");
-builder.CloseFile();

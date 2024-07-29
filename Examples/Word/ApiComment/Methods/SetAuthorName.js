@@ -1,5 +1,4 @@
 // This example sets the comment author's name.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is just a sample text");
@@ -9,5 +8,3 @@ aComments[0].SetAuthorName("Mark Potato");
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("The comment author's name was changed");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetAuthorName.docx");
-builder.CloseFile();

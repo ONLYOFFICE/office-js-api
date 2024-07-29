@@ -1,5 +1,4 @@
 // This example gets a class type and pastes it into the presentation.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -18,5 +17,3 @@ var oDocContent = oDrawing.GetContent();
 var oParagraph = oDocContent.GetElement(0);
 oParagraph.AddText("Class type: " + sType);
 oSlide.AddObject(oDrawing);
-builder.SaveFile("pptx", "GetClassType.pptx");
-builder.CloseFile();

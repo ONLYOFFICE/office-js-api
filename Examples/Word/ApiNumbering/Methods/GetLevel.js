@@ -1,5 +1,4 @@
 // This example shows how to get the specified level of the numbering.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oNumbering = oDocument.CreateNumbering("bullet");
 for (let nLvl = 0; nLvl < 8; ++nLvl) {
@@ -10,5 +9,3 @@ for (let nLvl = 0; nLvl < 8; ++nLvl) {
 	oParagraph.SetContextualSpacing(true);
 	oDocument.Push(oParagraph);
 }
-builder.SaveFile("docx", "GetLevel.docx");
-builder.CloseFile();

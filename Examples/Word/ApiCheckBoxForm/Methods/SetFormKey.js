@@ -1,5 +1,4 @@
 // This example sets a key to the current form.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oCheckBoxForm = Api.CreateCheckBoxForm({"tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": false});
 oCheckBoxForm.SetFormKey("Marital status 1");
@@ -15,5 +14,3 @@ var sKey = oCheckBoxForm.GetFormKey();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Form key: " + sKey);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetFormKey.docx");
-builder.CloseFile();

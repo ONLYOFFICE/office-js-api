@@ -1,5 +1,4 @@
 // This example deletes the run.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -11,5 +10,3 @@ oRun.AddText("This is just a sample text.");
 oParagraph.AddElement(oRun);
 oRun.Delete();
 oWorksheet.GetRange("A9").SetValue("The run from the shape content was removed.");
-builder.SaveFile("xlsx", "Delete.xlsx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example shows how to get a content control that contains the run.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oBlockLvlSdt = Api.CreateBlockLvlSdt();
 var oParagraph = Api.CreateParagraph();
@@ -13,5 +12,3 @@ var sClassType = oContentControl.GetClassType();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Class type: " + sClassType);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetParentContentControl.docx");
-builder.CloseFile();

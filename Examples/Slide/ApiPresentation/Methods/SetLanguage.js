@@ -1,5 +1,4 @@
 // This example sets pecifies the languages which will be used to check spelling and grammar.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 oPresentation.SetLanguage("en-CA");
 var oSlide = oPresentation.GetSlideByIndex(0);
@@ -12,5 +11,3 @@ var oDocContent = oShape.GetDocContent();
 var oParagraph = oDocContent.GetElement(0);
 oParagraph.AddText("English (Canada) will be used to check spelling and grammar in this presentation (if requested).");
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetLanguage.pptx");
-builder.CloseFile();

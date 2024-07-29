@@ -1,5 +1,4 @@
 // This example gets a number of layout objects and insert it itno the presentation.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -15,5 +14,3 @@ var oParagraph = oDocContent.GetElement(0);
 oParagraph.SetJc("left");
 oParagraph.AddText("Number of layouts = " + nLayouts);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "GetLayoutsCount.pptx");
-builder.CloseFile();

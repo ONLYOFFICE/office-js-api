@@ -1,5 +1,4 @@
 // This example shows how to remove all elements from a shape.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -15,5 +14,3 @@ oParagraph = Api.CreateParagraph();
 oParagraph.AddText("We removed all elements from the shape and added a new paragraph inside it.");
 oDocContent.Push(oParagraph);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "RemoveAllElements.pptx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example sets the bullet or numbering to the current paragraph.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -10,5 +9,3 @@ var oParaPr = oParagraph.GetParaPr();
 var oBullet = Api.CreateBullet("-");
 oParaPr.SetBullet(oBullet);
 oParagraph.AddText(" This is an example of the bulleted paragraph.");
-builder.SaveFile("xlsx", "SetBullet.xlsx");
-builder.CloseFile();

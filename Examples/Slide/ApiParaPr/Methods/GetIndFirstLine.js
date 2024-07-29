@@ -1,5 +1,4 @@
 // This example shows how to get the paragraph first line indentation.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -23,5 +22,3 @@ var nIndFirstLine = oParaPr.GetIndFirstLine();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("First line indent: " + nIndFirstLine);
 oDocContent.Push(oParagraph);
-builder.SaveFile("pptx", "GetIndFirstLine.pptx");
-builder.CloseFile();

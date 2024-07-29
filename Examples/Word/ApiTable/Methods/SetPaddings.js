@@ -1,5 +1,4 @@
 // This example sets the table paddings.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
@@ -8,5 +7,3 @@ oTable.SetStyle(oTableStyle);
 oDocument.Push(oTable);
 oTable.GetCell(0, 0).GetContent().GetElement(0).AddText("This is just a sample text.");
 oTable.SetPaddings(10, 10, 5, 5);
-builder.SaveFile("docx", "SetPaddings.docx");
-builder.CloseFile();

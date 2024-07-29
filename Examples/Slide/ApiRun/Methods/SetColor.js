@@ -1,5 +1,4 @@
 // This example sets the text color for the current text run in the RGB format.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -14,5 +13,3 @@ oRun.AddText("This is a text run with the font color set to black.");
 oParagraph.AddElement(oRun);
 oRun.SetColor(51, 51, 51);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetColor.pptx");
-builder.CloseFile();

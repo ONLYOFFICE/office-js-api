@@ -1,5 +1,4 @@
 // This example updates all tables of contents in the current document.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oNewDocumentStyle = oDocument.GetStyle("Heading 1");
 var oParagraph = oDocument.GetElement(0);
@@ -18,5 +17,3 @@ oParagraph.SetStyle(oNewDocumentStyle);
 oParagraph.AddText("Heading 2");
 oDocument.AddElement(3, oParagraph);
 oDocument.UpdateAllTOC(false);
-builder.SaveFile("docx", "UpdateAllTOC.docx");
-builder.CloseFile();

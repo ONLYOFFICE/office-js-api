@@ -1,5 +1,4 @@
 // This example specifies whether sections in this document will have different headers and footers for even and odd pages.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oSection = oDocument.CreateSection(oParagraph);
@@ -39,5 +38,3 @@ oParagraph = Api.CreateParagraph();
 oParagraph.AddText("This is section #4 of the document. ");
 oParagraph.AddText("It has a header and a footer for even pages.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetEvenAndOddHdrFtr.docx");
-builder.CloseFile();

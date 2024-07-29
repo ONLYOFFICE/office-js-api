@@ -1,5 +1,4 @@
 // This example shows how to get the previous paragraph.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -14,5 +13,3 @@ oParagraph2.AddText("This is the second paragraph.");
 oDocContent.Push(oParagraph2);
 var oPreviousParagraph = oParagraph2.GetPrevious();
 oPreviousParagraph.SetBold(true);
-builder.SaveFile("xlsx", "GetPrevious.xlsx");
-builder.CloseFile();

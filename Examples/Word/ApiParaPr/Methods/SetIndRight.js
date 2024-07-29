@@ -1,5 +1,4 @@
 // This example sets the paragraph right side indentation.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oMyStyle = oDocument.CreateStyle("My document style");
 var oParaPr = oMyStyle.GetParaPr();
@@ -19,5 +18,3 @@ oParagraph.AddText("These sentences are used to add lines for demonstrative purp
 oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
 oParagraph.AddText("These sentences are used to add lines for demonstrative purposes.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetIndRight.docx");
-builder.CloseFile();

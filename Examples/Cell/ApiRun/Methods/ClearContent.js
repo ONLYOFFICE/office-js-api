@@ -1,5 +1,4 @@
 // This example clears the content from the run.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -17,5 +16,3 @@ oRun = Api.CreateRun();
 oRun.AddText("The text in the previous paragraph cannot be seen, as it has been cleared.");
 oParagraph.AddElement(oRun);
 oDocContent.Push(oParagraph);
-builder.SaveFile("xlsx", "ClearContent.xlsx");
-builder.CloseFile();

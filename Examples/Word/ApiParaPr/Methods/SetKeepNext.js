@@ -1,5 +1,4 @@
 // This example specifies that when rendering the document using a paginated view, the contents of the paragraph are at least partly rendered on the same page as the following paragraph whenever possible.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oMyStyle = oDocument.CreateStyle("My document style");
 var oParaPr = oMyStyle.GetParaPr();
@@ -21,5 +20,3 @@ for (let i = 0; i < 10; ++i) {
 	oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
 }
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetKeepNext.docx");
-builder.CloseFile();

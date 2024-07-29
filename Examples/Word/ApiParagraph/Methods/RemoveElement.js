@@ -1,5 +1,4 @@
 // This example removes an element using the position specified.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.RemoveAllElements();
@@ -21,5 +20,3 @@ oRun = Api.CreateRun();
 oRun.AddText("Please note that line breaks are not counted into paragraph elements!");
 oParagraph.AddElement(oRun);
 oParagraph.RemoveElement(2);
-builder.SaveFile("docx", "RemoveElement.docx");
-builder.CloseFile();

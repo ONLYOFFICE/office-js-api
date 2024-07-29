@@ -1,5 +1,4 @@
 // This example sets the paragraph line spacing.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.SetSpacingLine(3 * 240, "auto");
@@ -27,5 +26,3 @@ oParagraph.AddText("These sentences are used to add lines for demonstrative purp
 oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
 oParagraph.AddText("These sentences are used to add lines for demonstrative purposes.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetSpacingLine.docx");
-builder.CloseFile();

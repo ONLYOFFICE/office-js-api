@@ -1,5 +1,4 @@
 // This example inserts a paragraph at the specified position.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This graphic object with paragraph.");
@@ -10,5 +9,3 @@ oParagraph.AddDrawing(oDrawing);
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("This is a new paragraph.");
 oDrawing.InsertParagraph(oParagraph);
-builder.SaveFile("docx", "InsertParagraph.docx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example specifies a one-based index which determines when a numbering level should restart to its starting value.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oNumbering = oDocument.CreateNumbering("numbered");
 var oNumLvl = oNumbering.GetLevel(0);
@@ -28,5 +27,3 @@ oParagraph = Api.CreateParagraph();
 oParagraph.SetNumbering(oNumLvl1);
 oParagraph.AddText("This is the fourth element of a child numbered list which starts with 'd'");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetRestart.docx");
-builder.CloseFile();

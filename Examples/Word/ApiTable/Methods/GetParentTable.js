@@ -1,5 +1,4 @@
 // This example shows how to get a table that contains the table.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
@@ -15,5 +14,3 @@ oTable1.AddElement(oCell, 0, oTable2);
 var oParentTable = oTable2.GetParentTable();
 oCell = oParentTable.GetRow(2).GetCell(0);
 oParentTable.RemoveRow(oCell);
-builder.SaveFile("docx", "GetParentTable.docx");
-builder.CloseFile();

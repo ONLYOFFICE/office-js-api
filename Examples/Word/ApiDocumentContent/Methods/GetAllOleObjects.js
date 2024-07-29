@@ -1,5 +1,4 @@
 // This example showh how to get a collection of OLE objects from the document content.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
@@ -16,5 +15,3 @@ var sAppId = aOleObjects[0].GetApplicationId();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("The application ID for the current OLE object: " + sAppId);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetAllOleObjects.docx");
-builder.CloseFile();

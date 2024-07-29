@@ -1,5 +1,4 @@
 // This example adds a table of content to the document.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oNewDocumentStyle = oDocument.GetStyle("Heading 1");
 var oParagraph = oDocument.GetElement(0);
@@ -12,5 +11,3 @@ oParagraph.AddText("Heading 2");
 oDocument.Push(oParagraph);
 var oTocPr = {"ShowPageNums": true, "RightAlgn": true, "LeaderType": "dot", "FormatAsLinks": true, "BuildFrom": {"OutlineLvls": 9}, "TocStyle": "standard"};
 oDocument.AddTableOfContents(oTocPr);
-builder.SaveFile("docx", "AddTableOfContents.docx");
-builder.CloseFile();

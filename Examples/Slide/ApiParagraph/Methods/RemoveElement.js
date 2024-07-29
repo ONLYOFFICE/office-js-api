@@ -1,5 +1,4 @@
 // This example removes an element using the position specified.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -32,5 +31,3 @@ oRun.AddText("Please note that line breaks are not counted into paragraph elemen
 oParagraph.AddElement(oRun);
 oParagraph.RemoveElement(3);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "RemoveElement.pptx");
-builder.CloseFile();

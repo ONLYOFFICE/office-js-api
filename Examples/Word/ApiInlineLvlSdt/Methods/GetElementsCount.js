@@ -1,5 +1,4 @@
 // This example shows how to get a number of elements in the inline text content control.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oInlineLvlSdt = Api.CreateInlineLvlSdt();
@@ -19,5 +18,3 @@ oInlineLvlSdt.AddElement(oRun1, 1);
 oInlineLvlSdtCount = oInlineLvlSdt.GetElementsCount();
 oParagraph.AddLineBreak();
 oParagraph.AddText("Number of elements in oInlineLvlSdt (after adding one more element) = " + oInlineLvlSdtCount);
-builder.SaveFile("docx", "GetElementsCount.docx");
-builder.CloseFile();

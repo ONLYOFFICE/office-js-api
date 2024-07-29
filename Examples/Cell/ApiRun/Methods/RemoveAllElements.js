@@ -1,5 +1,4 @@
 // This example removes all the elements from the run.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -11,5 +10,3 @@ oRun.AddText("This is just a sample text.");
 oRun.RemoveAllElements();
 oRun.AddText("All elements from this run were removed before adding this text.");
 oParagraph.AddElement(oRun);
-builder.SaveFile("xlsx", "RemoveAllElements.xlsx");
-builder.CloseFile();

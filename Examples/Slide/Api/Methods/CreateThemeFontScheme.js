@@ -1,5 +1,4 @@
 // This example shows how to create a new theme font scheme.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -31,5 +30,3 @@ var oParagraph = oDocContent.GetElement(0);
 oParagraph.SetJc("left");
 oParagraph.AddText("This text is written in the Times New Roman font.");
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "CreateThemeFontScheme.pptx");
-builder.CloseFile();

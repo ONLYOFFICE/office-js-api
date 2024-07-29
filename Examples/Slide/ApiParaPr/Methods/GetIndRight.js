@@ -1,5 +1,4 @@
 // This example shows how to get the paragraph right side indentation.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -24,5 +23,3 @@ var nIndRight = oParaPr.GetIndRight();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Right indent: " + nIndRight);
 oDocContent.Push(oParagraph);
-builder.SaveFile("pptx", "GetIndRight.pptx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example shows how to get the table row properties of the current style.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 var oTable = Api.CreateTable(2, 2);
@@ -12,5 +11,3 @@ oTableStyle.GetConditionalTableStyle("topLeftCell").GetTableCellPr().SetShd("cle
 oTableStyle.GetConditionalTableStyle("topRightCell").GetTableCellPr().SetShd("clear", 51, 51, 51);
 oTableStyle.GetConditionalTableStyle("bottomLeftCell").GetTableCellPr().SetShd("clear", 128, 128, 128);
 oTableStyle.GetConditionalTableStyle("bottomRightCell").GetTableCellPr().SetShd("clear", 255, 213, 191);
-builder.SaveFile("docx", "GetTableRowPr.docx");
-builder.CloseFile();

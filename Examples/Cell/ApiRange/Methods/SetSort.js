@@ -1,5 +1,4 @@
 // This example sorts the cells in the given range by the parameters specified in the request.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A1").SetValue(2016);
 oWorksheet.GetRange("A2").SetValue(2015);
@@ -17,5 +16,3 @@ oWorksheet.GetRange("C3").SetValue("A");
 oWorksheet.GetRange("C4").SetValue("G");
 oWorksheet.GetRange("C5").SetValue("E");
 oWorksheet.GetRange("A1:C5").SetSort("A1:A5", "xlAscending", "B1:B5", "xlDescending", "C1:C5", "xlAscending", "xlYes", "xlSortColumns");
-builder.SaveFile("xlsx", "SetSort.xlsx");
-builder.CloseFile();

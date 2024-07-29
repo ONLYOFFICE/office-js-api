@@ -1,5 +1,4 @@
 // This example specifies a number of rows which will comprise each table row band for this table style.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 oDocument.RemoveAllElements();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
@@ -19,5 +18,3 @@ oTable.GetRow(2).GetCell(1).GetContent().GetElement(0).AddText("Bold");
 oTable.GetRow(3).GetCell(0).GetContent().GetElement(0).AddText("Normal");
 oTable.GetRow(3).GetCell(1).GetContent().GetElement(0).AddText("Normal");
 oDocument.Push(oTable);
-builder.SaveFile("docx", "SetStyleRowBandSize.docx");
-builder.CloseFile();

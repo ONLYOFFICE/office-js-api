@@ -1,5 +1,4 @@
 // This example specifies the chart legend position.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("bar3D", [
@@ -16,5 +15,3 @@ oChart.SetLegendPos("bottom");
 oChart.SetShowDataLabels(false, false, true, false);
 oChart.SetTitle("Financial Overview", 13);
 oParagraph.AddDrawing(oChart);
-builder.SaveFile("docx", "SetLegendPos.docx");
-builder.CloseFile();

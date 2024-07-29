@@ -1,5 +1,4 @@
 // This example adds some text to the paragraph.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -16,5 +15,3 @@ oParagraph.AddText("This is a text inside the shape aligned left.");
 oParagraph.AddLineBreak();
 oParagraph.AddText("This is a text after the line break.");
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "AddText.pptx");
-builder.CloseFile();

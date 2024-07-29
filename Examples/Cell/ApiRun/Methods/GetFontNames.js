@@ -1,5 +1,4 @@
 // This example shows how to get all font names from all elements inside the run.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -23,5 +22,3 @@ for (let i = 0; i < aFontNames.length; i++ ){
 	oParagraph.AddLineBreak();
 }
 oDocContent.Push(oParagraph);
-builder.SaveFile("xlsx", "GetFontNames.xlsx");
-builder.CloseFile();

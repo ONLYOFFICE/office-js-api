@@ -1,5 +1,4 @@
 // This example adds a new column to the table.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 oPresentation.SetSizes(300 * 36000, 190 * 36000);
 var oTable = Api.CreateTable(2, 4);
@@ -14,5 +13,3 @@ oContent.Push(oParagraph);
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
 oSlide.AddObject(oTable);
-builder.SaveFile("pptx", "AddColumn.pptx");
-builder.CloseFile();

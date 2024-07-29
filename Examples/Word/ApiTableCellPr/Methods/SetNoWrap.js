@@ -1,5 +1,4 @@
 // This example specifies how the table cell is laid out when the parent table is displayed in a document.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
@@ -28,5 +27,3 @@ oCell.GetContent().GetElement(0).AddText("This is a table cell where text is not
 oTableCellPr.SetNoWrap(true);
 oCopyTable2.SetStyle(oTableStyle);
 oDocument.Push(oCopyTable2);
-builder.SaveFile("docx", "SetNoWrap.docx");
-builder.CloseFile();

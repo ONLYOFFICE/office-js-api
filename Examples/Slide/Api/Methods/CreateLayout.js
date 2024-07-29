@@ -1,5 +1,4 @@
 // This example shows how to create layout.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide1 = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -16,5 +15,3 @@ oSlide1.ApplyLayout(oLayout);
 var oSlide2 = Api.CreateSlide();
 oPresentation.AddSlide(oSlide2);
 oSlide2.ApplyLayout(oLayout);
-builder.SaveFile("pptx", "CreateLayout.pptx");
-builder.CloseFile();

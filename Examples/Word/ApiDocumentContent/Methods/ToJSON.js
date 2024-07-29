@@ -1,5 +1,4 @@
 // This example converts the ApiDocumentContent object into the JSON object.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
@@ -17,5 +16,3 @@ oDocContentFromJSON.RemoveAllElements();
 oParagraph = oDocContentFromJSON.GetElement(0);
 oParagraph.AddText("Class type = " + sType);
 Api.ReplaceDocumentContent(oDocContentFromJSON);
-builder.SaveFile("docx", "ToJSON.docx");
-builder.CloseFile();

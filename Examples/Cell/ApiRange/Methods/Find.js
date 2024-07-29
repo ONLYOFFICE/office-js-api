@@ -1,5 +1,4 @@
 // This example finds specific information in the range.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);
@@ -28,5 +27,3 @@ var oSearchData = {
 };
 var oSearchRange = oRange.Find(oSearchData);
 oSearchRange.SetFillColor(Api.CreateColorFromRGB(255, 213, 191));
-builder.SaveFile("xlsx", "Find.xlsx");
-builder.CloseFile();

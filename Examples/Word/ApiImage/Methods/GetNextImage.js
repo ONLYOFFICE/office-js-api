@@ -1,5 +1,4 @@
 // This example shows how to get the next inline image if exists.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oImage1 = Api.CreateImage("https://api.onlyoffice.com/content/img/docbuilder/examples/coordinate_aspects.png", 60 * 36000, 35 * 36000);
@@ -11,5 +10,3 @@ var oNextImage = oImage1.GetNextImage();
 var oCopyImage = oNextImage.Copy();
 oParagraph.AddLineBreak();
 oParagraph.AddDrawing(oCopyImage);
-builder.SaveFile("docx", "GetNextImage.docx");
-builder.CloseFile();

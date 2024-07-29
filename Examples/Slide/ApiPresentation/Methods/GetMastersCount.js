@@ -1,5 +1,4 @@
 // This example shows how to get a number of slide masters.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var nMasters = oPresentation.GetMastersCount();
@@ -14,5 +13,3 @@ var oParagraph = oDocContent.GetElement(0);
 oParagraph.SetJc("left");
 oParagraph.AddText("Number of masters = " + nMasters);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "GetMastersCount.pptx");
-builder.CloseFile();

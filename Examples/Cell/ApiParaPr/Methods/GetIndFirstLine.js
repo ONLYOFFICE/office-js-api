@@ -1,5 +1,4 @@
 // This example shows how to get the paragraph first line indentation.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -17,5 +16,3 @@ var nIndFirstLine = oParaPr.GetIndFirstLine();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("First line indent: " + nIndFirstLine);
 oDocContent.Push(oParagraph);
-builder.SaveFile("xlsx", "GetIndFirstLine.xlsx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example sets the fill to the marker in the specified chart series.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("scatter", [
@@ -15,5 +14,3 @@ oFill = Api.CreateSolidFill(Api.CreateRGBColor(128, 128, 128));
 oChart.SetMarkerFill(oFill, 1, 0, true);
 var oStroke = Api.CreateStroke(1 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(128, 128, 128)));
 oChart.SetMarkerOutLine(oStroke, 1, 0, true);
-builder.SaveFile("docx", "SetMarkerFill.docx");
-builder.CloseFile();

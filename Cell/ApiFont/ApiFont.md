@@ -6,7 +6,7 @@ Represents the ApiFont class.
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| Parent | [ApiCharacters](../../ApiCharacters/ApiCharacters.md) | The parent object of the specified font object. |
+| Parent | [ApiCharacters](../ApiCharacters/ApiCharacters.md) | The parent object of the specified font object. |
 | Bold | boolean &#124;null | The font bold property. |
 | Italic | boolean &#124;null | The font italic property. |
 | Size | number &#124;null | The font size property. |
@@ -15,7 +15,7 @@ Represents the ApiFont class.
 | Subscript | boolean &#124;null | The font subscript property. |
 | Superscript | boolean &#124;null | The font superscript property. |
 | Name | string &#124;null | The font name. |
-| Color | [ApiColor](../../ApiColor/ApiColor.md) &#124;null | The font color property. |
+| Color | [ApiColor](../ApiColor/ApiColor.md) &#124;null | The font color property. |
 
 ## Methods
 

@@ -1,5 +1,4 @@
 // This example sets a theme to the slide master. Sets a copy of the theme object.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -37,5 +36,3 @@ oChart.SetSeriesFill(oFill, 0, false);
 oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 oChart.SetSeriesFill(oFill, 1, false);
 oSlide.AddObject(oChart);
-builder.SaveFile("pptx", "SetTheme.pptx");
-builder.CloseFile();

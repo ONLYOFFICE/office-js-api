@@ -1,5 +1,4 @@
 // This example removes the specified comment replies.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is just a sample text");
@@ -10,5 +9,3 @@ aComments[0].RemoveReplies();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("The comment replies were removed");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "RemoveReplies.docx");
-builder.CloseFile();

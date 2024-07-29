@@ -1,5 +1,4 @@
 // This example shows how to convert the ApiPresentation object into the JSON object.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var json = oPresentation.ToJSON(true);
 var oPresentationFromJSON = Api.FromJSON(json);
@@ -14,5 +13,3 @@ var oDocContent = oShape.GetDocContent();
 var oParagraph = oDocContent.GetElement(0);
 oParagraph.AddText("Class type = " + sType);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "ToJSON.pptx");
-builder.CloseFile();

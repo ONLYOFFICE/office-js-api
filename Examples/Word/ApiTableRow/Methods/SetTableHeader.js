@@ -1,5 +1,4 @@
 // This example specifies that the current table row will be repeated at the top of each new page wherever this table is displayed.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("We create a 3x90 table and set row #1 as the table header:");
@@ -20,5 +19,3 @@ oParagraph = oCell.GetContent().GetElement(0);
 oParagraph.AddText("Header cell #3");
 oTable.SetStyle(oTableStyle);
 oDocument.Push(oTable);
-builder.SaveFile("docx", "SetTableHeader.docx");
-builder.CloseFile();

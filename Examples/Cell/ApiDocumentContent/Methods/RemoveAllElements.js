@@ -1,5 +1,4 @@
 // This example removes all the elements from the current document or from the current document content.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -12,5 +11,3 @@ oParagraph = Api.CreateParagraph();
 oParagraph.SetJc("left");
 oParagraph.AddText("We removed all elements from the shape and added a new paragraph inside it.");
 oDocContent.Push(oParagraph);
-builder.SaveFile("xlsx", "RemoveAllElements.xlsx");
-builder.CloseFile();

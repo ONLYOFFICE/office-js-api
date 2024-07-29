@@ -1,5 +1,4 @@
 // This example shows how to get the shape inner contents where a paragraph or text runs can be inserted.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
@@ -11,5 +10,3 @@ var sClassType = oDrawing.GetClassType();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Class Type = " + sClassType);
 oDocContent.AddElement(0, oParagraph);
-builder.SaveFile("docx", "GetDocContent.docx");
-builder.CloseFile();

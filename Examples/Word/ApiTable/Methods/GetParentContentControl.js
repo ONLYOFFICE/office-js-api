@@ -1,5 +1,4 @@
 // This example shows how to get a content control that contains the table.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oBlockLvlSdt = Api.CreateBlockLvlSdt();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
@@ -11,5 +10,3 @@ oBlockLvlSdt.AddElement(oTable, 0);
 oDocument.AddElement(0, oBlockLvlSdt);
 var oParentContentControl = oTable.GetParentContentControl();
 oParentContentControl.SetAlias("№1");
-builder.SaveFile("docx", "GetParentContentControl.docx");
-builder.CloseFile();

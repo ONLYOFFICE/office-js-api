@@ -1,5 +1,4 @@
 // This example sets the text fill to the current text run.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -18,5 +17,3 @@ oRun.SetTextFill(oFill);
 oRun.AddText("This is a text run with the black text.");
 oParagraph.AddElement(oRun);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetTextFill.pptx");
-builder.CloseFile();

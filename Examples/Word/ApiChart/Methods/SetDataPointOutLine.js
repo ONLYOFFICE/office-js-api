@@ -1,5 +1,4 @@
 // This example show how to set the outline to the data point.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("bar3D", [
@@ -13,5 +12,3 @@ oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 oChart.SetSeriesFill(oFill, 1, false);
 var oStroke = Api.CreateStroke(0.5 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61)));
 oChart.SetDataPointOutLine(oStroke, 0, 0, false);
-builder.SaveFile("docx", "SetDataPointOutLine.docx");
-builder.CloseFile();

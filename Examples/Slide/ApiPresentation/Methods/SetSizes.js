@@ -1,5 +1,4 @@
 // This example sets the size to the current presentation.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 oPresentation.SetSizes(254 * 36000, 190 * 36000);
 var oSlide = oPresentation.GetSlideByIndex(0);
@@ -12,5 +11,3 @@ var oDocContent = oShape.GetDocContent();
 var oParagraph = oDocContent.GetElement(0);
 oParagraph.AddText("The size of this presentation was changed: width - 254 mm, height - 190 mm.");
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetSizes.pptx");
-builder.CloseFile();

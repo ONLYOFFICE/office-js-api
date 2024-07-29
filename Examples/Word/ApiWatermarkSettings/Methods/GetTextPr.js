@@ -1,5 +1,4 @@
 // This example sets the parameters of the watermark settings and apply them to the document.
-builder.CreateFile("docx");
 const oDocument = Api.GetDocument();
 const oWatermarkSettings = oDocument.GetWatermarkSettings();
 oWatermarkSettings.SetType("text");
@@ -15,5 +14,3 @@ oTextPr.SetColor(0, 255, 0);
 oTextPr.SetHighlight("blue");
 oWatermarkSettings.SetTextPr(oTextPr);
 oDocument.SetWatermarkSettings(oWatermarkSettings);
-builder.SaveFile("docx", "GetTextPr.docx");
-builder.CloseFile();

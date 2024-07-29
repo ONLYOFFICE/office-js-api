@@ -1,5 +1,4 @@
 // This example shows how to get an array of all paragraphs from the document content.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
@@ -14,5 +13,3 @@ oParagraph.AddText("Paragraph 2");
 oDocContent.Push(oParagraph);
 var aParagraphs = oDocContent.GetAllParagraphs();
 aParagraphs[0].SetBold(true);
-builder.SaveFile("docx", "GetAllParagraphs.docx");
-builder.CloseFile();

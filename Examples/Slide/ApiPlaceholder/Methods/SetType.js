@@ -1,5 +1,4 @@
 // This example sets the placeholder type.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -12,5 +11,3 @@ var oPlaceholder = Api.CreatePlaceholder("chart");
 oShape.SetPlaceholder(oPlaceholder);
 oPlaceholder.SetType("picture");
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetType.pptx");
-builder.CloseFile();

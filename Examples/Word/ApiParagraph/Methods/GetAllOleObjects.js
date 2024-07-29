@@ -1,5 +1,4 @@
 // This example shows how to get a collection of OLE objects in the paragraph.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oOleObject = Api.CreateOleObject("https://i.ytimg.com/vi_webp/SKGz4pmnpgY/sddefault.webp", 130 * 36000, 90 * 36000, "https://youtu.be/SKGz4pmnpgY", "asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}");
 var oParagraph = oDocument.GetElement(0);
@@ -9,5 +8,3 @@ var sAppId = aOleObjects[0].GetApplicationId();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("The application ID for the current OLE object: " + sAppId);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetAllOleObjects.docx");
-builder.CloseFile();

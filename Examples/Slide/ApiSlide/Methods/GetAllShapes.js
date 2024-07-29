@@ -1,5 +1,4 @@
 // This example shows how to get an array with all the shape objects from the slide.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -11,5 +10,3 @@ oShape.SetSize(300 * 36000, 130 * 36000);
 oSlide.AddObject(oShape);
 var aShapes = oSlide.GetAllShapes();
 aShapes[0].SetSize(150 * 36000, 65 * 36000);
-builder.SaveFile("pptx", "GetAllShapes.pptx");
-builder.CloseFile();

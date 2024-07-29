@@ -1,5 +1,4 @@
 // This example removes the footer of the specified type from the section.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This page first was with a footer. ");
@@ -19,5 +18,3 @@ oParagraph = oFooter.GetElement(0);
 oParagraph.AddText("This is page footer #2. ");
 oParagraph.AddText("Only this footer can be seen, as the first one has been removed.");
 oSection.RemoveFooter("default");
-builder.SaveFile("docx", "RemoveFooter.docx");
-builder.CloseFile();

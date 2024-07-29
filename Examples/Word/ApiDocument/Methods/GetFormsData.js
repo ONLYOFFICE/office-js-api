@@ -1,5 +1,4 @@
 // This example showh how to get the data for all forms added to the document.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph1 = oDocument.GetElement(0);
 var oCheckBox = Api.CreateCheckBoxForm({key: "BestCompany"});
@@ -13,6 +12,3 @@ var sText = JSON.stringify(oDocument.GetFormsData());
 let oParagraph2 = Api.CreateParagraph();
 oParagraph2.AddText(sText);
 oDocument.Push(oParagraph2);
-
-builder.SaveFile("docx", "GetFormsData.docx");
-builder.CloseFile();

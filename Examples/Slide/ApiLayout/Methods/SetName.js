@@ -1,5 +1,4 @@
 // This example sets a name to the current layout.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -16,5 +15,3 @@ var oParagraph = oDocContent.GetElement(0);
 oParagraph.SetJc("left");
 oParagraph.AddText("A new name was set to the current layout.");
 oLayout.AddObject(oShape);
-builder.SaveFile("pptx", "SetName.pptx");
-builder.CloseFile();

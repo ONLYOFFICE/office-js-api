@@ -1,5 +1,4 @@
 // This example adds a shape to slide.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -15,5 +14,3 @@ var oDocContent = oShape.GetDocContent();
 var oParagraph = oDocContent.GetElement(0);
 oParagraph.SetJc("left");
 oParagraph.AddText("This shape was added to the current layout.");
-builder.SaveFile("pptx", "AddObject.pptx");
-builder.CloseFile();

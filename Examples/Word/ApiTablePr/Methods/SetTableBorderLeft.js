@@ -1,5 +1,4 @@
 // This example sets the border which will be displayed on the left of the table.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("We add the left 4 point black border:");
@@ -12,5 +11,3 @@ oTablePr.SetTableBorderLeft("single", 32, 0, 51, 51, 51);
 oTable.SetTableLook(true, true, true, true, false, false);
 oTable.SetStyle(oTableStyle);
 oDocument.Push(oTable);
-builder.SaveFile("docx", "SetTableBorderLeft.docx");
-builder.CloseFile();

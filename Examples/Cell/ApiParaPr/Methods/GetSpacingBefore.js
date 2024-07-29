@@ -1,5 +1,4 @@
 // This example shows how to get the spacing before value of the current paragraph.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -18,5 +17,3 @@ var nSpacingBefore = oParaPr.GetSpacingBefore();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Spacing before: " + nSpacingBefore);
 oDocContent.Push(oParagraph);
-builder.SaveFile("xlsx", "GetSpacingBefore.xlsx");
-builder.CloseFile();

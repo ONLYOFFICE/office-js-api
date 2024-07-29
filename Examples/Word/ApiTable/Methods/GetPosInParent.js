@@ -1,5 +1,4 @@
 // This example shows how to get the table position within its parent element.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = Api.CreateParagraph();
 var oRun = Api.CreateRun();
@@ -19,5 +18,3 @@ oTable = oDocument.GetElement(nPosition);
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
 oTable.SetStyle(oTableStyle);
-builder.SaveFile("docx", "GetPosInParent.docx");
-builder.CloseFile();

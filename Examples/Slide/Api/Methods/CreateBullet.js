@@ -1,5 +1,4 @@
 // This example show how to create a bullet.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -13,5 +12,3 @@ var oBullet = Api.CreateBullet("-");
 oParagraph.SetBullet(oBullet);
 oParagraph.AddText(" This is an example of the bulleted paragraph.");
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "CreateBullet.pptx");
-builder.CloseFile();

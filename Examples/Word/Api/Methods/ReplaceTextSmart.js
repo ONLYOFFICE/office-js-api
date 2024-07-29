@@ -1,5 +1,4 @@
 // This example replace text from two paragraphs to another text.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oFParagraph = oDocument.GetElement(0);
 oFParagraph.AddText("This is the text for the first line. The line break is added after it.");
@@ -14,5 +13,3 @@ var oRange3 = oRange1.ExpandTo(oRange2);
 oRange3.Select();
 var arr = ["test_1", "test_2"];
 Api.ReplaceTextSmart(arr, "", "");
-builder.SaveFile("docx", "ReplaceTextSmart.docx");
-builder.CloseFile();

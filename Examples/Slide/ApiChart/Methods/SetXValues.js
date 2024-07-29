@@ -1,5 +1,4 @@
 // This example sets the x-axis values to all chart series. It is used with the scatter charts only.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -19,5 +18,3 @@ oStroke = Api.CreateStroke(1 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(255
 oChart.SetMarkerFill(oFill, 1, 0, true);
 oChart.SetMarkerOutLine(oStroke, 1, 0, true);
 oSlide.AddObject(oChart);
-builder.SaveFile("pptx", "SetXValues.pptx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example creates a copy of a shape and inserts it into the presentation.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -13,5 +12,3 @@ var oCopyShape = oShape.Copy();
 oSlide = Api.CreateSlide();
 oPresentation.AddSlide(oSlide);
 oSlide.AddObject(oCopyShape);
-builder.SaveFile("pptx", "Copy.pptx");
-builder.CloseFile();

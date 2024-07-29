@@ -1,5 +1,4 @@
 // This example shows how to get the hyperlink address.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oRun = Api.CreateRun();
@@ -11,5 +10,3 @@ var sLinkedText = oHyperlink.GetLinkedText();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Linked text: " + sLinkedText);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetLinkedText.docx");
-builder.CloseFile();

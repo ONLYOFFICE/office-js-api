@@ -1,5 +1,4 @@
 // This example specifies that all the text columns in the current section are of equal width.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oSection = oDocument.GetFinalSection();
@@ -12,5 +11,3 @@ oParagraph.AddText("This sentence is used to add lines for demonstrative purpose
 oParagraph.AddColumnBreak();
 oParagraph.AddText("This text starts from column #3. ");
 oParagraph.AddText("This sentence is used to add lines for demonstrative purposes.");
-builder.SaveFile("docx", "SetEqualColumns.docx");
-builder.CloseFile();

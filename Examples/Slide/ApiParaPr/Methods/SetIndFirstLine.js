@@ -1,5 +1,4 @@
 // This example sets the paragraph first line indentation.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -19,5 +18,3 @@ oParagraph.AddText("These sentences are used to add lines for demonstrative purp
 oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
 oParagraph.AddText("These sentences are used to add lines for demonstrative purposes.");
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetIndFirstLine.pptx");
-builder.CloseFile();

@@ -1,5 +1,4 @@
 // This example sets a sequence of custom tab stops which will be used for any tab characters in the paragraph.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oMyStyle = oDocument.CreateStyle("My document style");
 var oParaPr = oMyStyle.GetParaPr();
@@ -17,5 +16,3 @@ oParagraph.AddTabStop();
 oParagraph.AddTabStop();
 oParagraph.AddTabStop();
 oParagraph.AddText("Custom tab - 5 inches right");
-builder.SaveFile("docx", "SetTabs.docx");
-builder.CloseFile();

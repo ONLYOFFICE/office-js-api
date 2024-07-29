@@ -1,5 +1,4 @@
 // This example shows how to get all font names from all elements inside the run.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -27,5 +26,3 @@ for (let i = 0; i < aFontNames.length; i++ ){
 }
 oDocContent.Push(oParagraph);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "GetFontNames.pptx");
-builder.CloseFile();

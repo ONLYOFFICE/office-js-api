@@ -1,5 +1,4 @@
 // This example converts the ApiParaPr object into the JSON object.
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oMyStyle = oDocument.CreateStyle("My document style");
 var oParaPr = oMyStyle.GetParaPr();
@@ -9,5 +8,3 @@ var oParaPrFromJSON = Api.FromJSON(json);
 var sType = oParaPrFromJSON.GetClassType();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("Class type = " + sType);
-builder.SaveFile("docx", "ToJSON.docx");
-builder.CloseFile();

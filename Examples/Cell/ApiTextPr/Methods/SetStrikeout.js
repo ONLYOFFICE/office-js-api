@@ -1,5 +1,4 @@
 // This example specifies that the contents of the run are displayed with a single horizontal line through the center of the line.
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -13,5 +12,3 @@ oTextPr.SetStrikeout(true);
 oParagraph.SetJc("left");
 oRun.AddText("This is a struck out text inside the shape.");
 oParagraph.AddElement(oRun);
-builder.SaveFile("xlsx", "SetStrikeout.xlsx");
-builder.CloseFile();

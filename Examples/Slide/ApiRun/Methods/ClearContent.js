@@ -1,5 +1,4 @@
 // This example clears the content from the run.
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -21,5 +20,3 @@ oRun.AddText("The text in the previous paragraph cannot be seen, as it has been 
 oParagraph.AddElement(oRun);
 oDocContent.Push(oParagraph);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "ClearContent.pptx");
-builder.CloseFile();
