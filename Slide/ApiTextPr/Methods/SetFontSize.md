@@ -8,38 +8,24 @@ expression.SetFontSize(nSize);
 
 `expression` - A variable that represents a [ApiTextPr](../ApiTextPr.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nSize | Required | [hps](../../../Enumerations/hps.md) | The text size value measured in half-points (1/144 of an inch). |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nSize | Required | [hps](../../Enumeration/hps.md) |  | The text size value measured in half-points (1/144 of an inch). |
 
 ## Returns
 
-[ApiTextPr](../ApiTextPr.md)
+[ApiTextPr](../../ApiTextPr/ApiTextPr.md)
 
 ## Example
 
-This example sets the font size to the characters of the text run.
+This example sets the font size to the characters of the current text run.
 
 ```javascript
-builder.CreateFile("pptx");
-var oPresentation = Api.GetPresentation();
-var oSlide = oPresentation.GetSlideByIndex(0);
-oSlide.RemoveAllObjects();
-var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oShape = Api.CreateShape("flowChartMagneticTape", 300 * 36000, 130 * 36000, oFill, oStroke);
-oShape.SetPosition(608400, 1267200);
-var oDocContent = oShape.GetDocContent();
-var oParagraph = oDocContent.GetElement(0);
-var oRun = Api.CreateRun();
-var oTextPr = oRun.GetTextPr();
+var oDocument = Api.GetDocument();
+var oTextPr = oDocument.GetDefaultTextPr();
 oTextPr.SetFontSize(30);
-oParagraph.SetJc("left");
-oRun.AddText("This is a sample text inside the shape with the font size set to 15 points using the text properties.");
-oParagraph.AddElement(oRun);
-oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetFontSize.pptx");
-builder.CloseFile();
+var oParagraph = oDocument.GetElement(0);
+oParagraph.AddText("A sample text with the font size set to 15 points using the text properties.");
 ```

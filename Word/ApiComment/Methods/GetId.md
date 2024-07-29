@@ -8,20 +8,19 @@ expression.GetId();
 
 `expression` - A variable that represents a [ApiComment](../ApiComment.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-String &#124; null
+string
 
 ## Example
 
 This example shows how to get the comment ID.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is just a sample text");
@@ -33,6 +32,4 @@ var sAutor = oComment.GetAutorName();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Comment author name: " + sAutor);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetId.docx");
-builder.CloseFile();
 ```

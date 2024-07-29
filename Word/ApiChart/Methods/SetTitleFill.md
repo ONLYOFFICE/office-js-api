@@ -8,22 +8,21 @@ expression.SetTitleFill(oFill);
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| oFill | Required | [ApiFill](../../ApiFill/ApiFill.md) | The fill type used to fill the title. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| oFill | Required | [ApiFill](../../ApiFill/ApiFill.md) |  | The fill type used to fill the title. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example sets the fill to the chart title.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("bar3D", [
@@ -38,6 +37,4 @@ oChart.SetSeriesFill(oFill, 1, false);
 oFill = Api.CreateSolidFill(Api.CreateRGBColor(128, 128, 128));
 oChart.SetTitle("Financial Overview", 13);
 oChart.SetTitleFill(oFill);
-builder.SaveFile("docx", "SetTitleFill.docx");
-builder.CloseFile();
 ```

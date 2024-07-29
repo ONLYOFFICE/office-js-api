@@ -8,11 +8,11 @@ expression.ChangeFillStyles(arrFill);
 
 `expression` - A variable that represents a [ApiThemeFormatScheme](../ApiThemeFormatScheme.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| arrFill | Required | Array<[ApiFill](../../ApiFill/ApiFill.md)> | The array of fill styles must contain 3 elements - subtle, moderate and intense fills. If an array is empty or NoFill elements are in the array, it will be filled with the Api.CreateNoFill() elements. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| arrFill | Required | Array.<[ApiFill](../../ApiFill/ApiFill.md)> |  | The array of fill styles must contain 3 elements - subtle, moderate and intense fills.If an array is empty or NoFill elements are in the array, it will be filled with the Api.CreateNoFill() elements. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ This method doesn't return any data.
 This example sets the fill styles to the current theme format scheme.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -53,6 +52,4 @@ oChart.SetTitle("Financial Overview", 20);
 oChart.SetSize(300 * 36000, 130 * 36000);
 oChart.SetPosition(608400, 1267200);
 oSlide.AddObject(oChart);
-builder.SaveFile("pptx", "ChangeFillStyles.pptx");
-builder.CloseFile();
 ```

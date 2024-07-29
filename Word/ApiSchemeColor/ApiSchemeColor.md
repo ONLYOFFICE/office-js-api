@@ -1,6 +1,6 @@
 # ApiSchemeColor
 
-Class representing a Scheme Color.
+Represents the ApiSchemeColor class.
 
 ## Methods
 

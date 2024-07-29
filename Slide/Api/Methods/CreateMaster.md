@@ -4,26 +4,25 @@ Creates a new slide master.
 
 ## Syntax
 
-expression.CreateMaster(oTheme?);
+expression.CreateMaster(oTheme);
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| oTheme | Optional | [ApiTheme](../../ApiTheme/ApiTheme.md) | The presentation theme object. Default value is "ApiPresentation.GetMaster(0).GetTheme()" |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| oTheme | Optional | [ApiTheme](../../ApiTheme/ApiTheme.md) | ApiPresentation.GetMaster(0).GetTheme() | The presentation theme object. |
 
 ## Returns
 
-[ApiMaster](../../ApiMaster/ApiMaster.md) &#124; null (returns null if presentation theme doesn't exist)
+[ApiMaster](../../ApiMaster/ApiMaster.md)
 
 ## Example
 
 This example shows how to create a slide master.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = Api.CreateMaster();
@@ -43,6 +42,4 @@ oParagraph.AddLineBreak();
 oParagraph.AddText("Number of masters after adding new master: " + nCountAfter);
 oSlide.RemoveAllObjects();
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "CreateMaster.pptx");
-builder.CloseFile();
 ```

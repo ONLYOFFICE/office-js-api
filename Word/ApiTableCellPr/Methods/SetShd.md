@@ -4,19 +4,19 @@ Specifies the shading applied to the contents of the table cell.
 
 ## Syntax
 
-expression.SetShd(sType, r, g, b, isAuto?);
+expression.SetShd(sType, r, g, b, isAuto);
 
 `expression` - A variable that represents a [ApiTableCellPr](../ApiTableCellPr.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sType | Required | [ShdType](../../../Enumerations/ShdType.md) &#124; [ApiFill](../../ApiFill/ApiFill.md) | The shading type applied to the contents of the current table. Can be ShdType or ApiFill. |
-| r | Required | [byte](../../../Enumerations/byte.md) | Red color component value. |
-| g | Required | [byte](../../../Enumerations/byte.md) | Green color component value. |
-| b | Required | [byte](../../../Enumerations/byte.md) | Blue color component value. |
-| isAuto | Optional | Boolean | The true value disables the table cell contents shading. Default value is "false". |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sType | Required | [ShdType](../../Enumeration/ShdType.md) |  | The shading type which will be applied to the contents of the current table cell. |
+| r | Required | [byte](../../Enumeration/byte.md) |  | Red color component value. |
+| g | Required | [byte](../../Enumeration/byte.md) |  | Green color component value. |
+| b | Required | [byte](../../Enumeration/byte.md) |  | Blue color component value. |
+| isAuto | Optional | boolean | false | The true value disables the table cell contents shading. |
 
 ## Returns
 
@@ -27,7 +27,6 @@ This method doesn't return any data.
 This example specifies the shading applied to the contents of the table cell.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("We create a 3x3 table and add add an orange shading to all cells:");
@@ -39,6 +38,4 @@ var oTableCellPr = oTableStyle.GetTableCellPr();
 oTableCellPr.SetShd("clear", 255, 111, 61, false);
 oTable.SetStyle(oTableStyle);
 oDocument.Push(oTable);
-builder.SaveFile("docx", "SetShd.docx");
-builder.CloseFile();
 ```

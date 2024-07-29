@@ -1,6 +1,6 @@
 # Delete
 
-Deletes the specified item in a combo box or drop-down list content control.
+Deletes the specified item in the combo box / dropdown list content control.
 
 ## Syntax
 
@@ -8,13 +8,13 @@ expression.Delete();
 
 `expression` - A variable that represents a [ApiContentControlListEntry](../ApiContentControlListEntry.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 

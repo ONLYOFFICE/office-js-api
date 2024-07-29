@@ -1,18 +1,18 @@
 # SetFormsData
 
-Returns an array of form data for all forms presented in the documenta.
+Sets the data to the specified forms.
 
 ## Syntax
 
-expression.SetFormsData();
+expression.SetFormsData(arrData);
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| arrData | Required | [Array<[FormData](../../../Enumerations/FormData.md)>] | The data for the specified forms. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| arrData | Required | Array.<[FormData](../../Enumeration/FormData.md)> |  | An array of form data to set to the specified forms. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ This method doesn't return any data.
 This example showh how to set data to forms.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph1 = oDocument.GetElement(0);
 var oCheckBox = Api.CreateCheckBoxForm({key: "BestCompany"});
@@ -36,6 +35,4 @@ oDocument.SetFormsData([
     {key: "CompanyName", value: "OnlyOffice"}
 ]);
 
-builder.SaveFile("docx", "SetFormsData.docx");
-builder.CloseFile();
 ```

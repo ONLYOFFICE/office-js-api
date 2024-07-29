@@ -8,20 +8,19 @@ expression.GetSections();
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Array<[ApiSection](../../ApiSection/ApiSection.md)>
+Array.<[ApiSection](../../ApiSection/ApiSection.md)>
 
 ## Example
 
 This example shows how to get a collection of section objects in the document.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is a new paragraph.");
@@ -36,6 +35,4 @@ oParagraph = Api.CreateParagraph();
 var sClassType = aSections[1].GetClassType();
 oParagraph.AddText("Class type: " + sClassType);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetSections.docx");
-builder.CloseFile();
 ```

@@ -8,7 +8,7 @@ expression.GetIndex();
 
 `expression` - A variable that represents a [ApiTableCell](../ApiTableCell.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
@@ -21,7 +21,6 @@ Number
 This example shows how to get the cell index.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
@@ -30,6 +29,4 @@ oTable.SetWidth("percent", 100);
 oTable.SetStyle(oTableStyle);
 oDocument.Push(oTable);
 oTable.GetCell(0, 0).GetContent().GetElement(0).AddText("Cell index: " + oTable.GetCell(0, 0).GetIndex());
-builder.SaveFile("docx", "GetIndex.docx");
-builder.CloseFile();
 ```

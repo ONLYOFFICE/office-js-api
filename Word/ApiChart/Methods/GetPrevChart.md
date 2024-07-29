@@ -8,20 +8,19 @@ expression.GetPrevChart();
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-[ApiChart](../ApiChart.md) &#124; null (returns null if char if first)
+ApiChart, null
 
 ## Example
 
 This example show how to get the previous chart.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("bar3D", [
@@ -43,6 +42,4 @@ oParagraph.AddDrawing(oCopyChart);
 var oPrevChart = oCopyChart.GetPrevChart();
 var oStroke = Api.CreateStroke(1 * 150, Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61)));
 oPrevChart.SetMinorHorizontalGridlines(oStroke);
-builder.SaveFile("docx", "GetPrevChart.docx");
-builder.CloseFile();
 ```

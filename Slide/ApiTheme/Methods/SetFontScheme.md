@@ -8,22 +8,21 @@ expression.SetFontScheme(oApiFontScheme);
 
 `expression` - A variable that represents a [ApiTheme](../ApiTheme.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| oApiFontScheme | Required | [ApiThemeFontScheme](../../ApiThemeFontScheme/ApiThemeFontScheme.md) | Theme font scheme. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| oApiFontScheme | Required | [ApiThemeFontScheme](../../ApiThemeFontScheme/ApiThemeFontScheme.md) |  | Theme font scheme. |
 
 ## Returns
 
-Boolean (return false if font scheme doesn't exist)
+boolean
 
 ## Example
 
 This example sets the font scheme to the current presentation theme.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oFontScheme = Api.CreateThemeFontScheme("Arial", "Noto Sans Simplified Chinese", "Arabic", "Times New Roman", "Noto Serif Simplified Chinese", "Arabic", "New font scheme");
@@ -41,6 +40,4 @@ oParagraph.SetJc("left");
 oParagraph.AddText("This is an example of a paragraph with a new font scheme set.");
 oDocContent.Push(oParagraph);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetFontScheme.pptx");
-builder.CloseFile();
 ```

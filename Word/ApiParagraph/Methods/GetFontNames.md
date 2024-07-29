@@ -8,20 +8,19 @@ expression.GetFontNames();
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Array<String>
+Array.<string>
 
 ## Example
 
 This example shows how to get all font names from all elements inside the paragraph.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oRun = Api.CreateRun();
@@ -35,9 +34,6 @@ var arrFonts = oParagraph.GetFontNames();
 var oNewParagraph = Api.CreateParagraph();
 oNewParagraph.AddText("Fonts from previous paragraph: " + arrFonts.join(", "));
 oDocument.AddElement(1, oNewParagraph);
-builder.SaveFile("docx", "GetFontNames.docx");
-builder.CloseFile();
-
 
 
 

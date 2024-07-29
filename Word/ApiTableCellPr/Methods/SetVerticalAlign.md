@@ -8,11 +8,11 @@ expression.SetVerticalAlign(sType);
 
 `expression` - A variable that represents a [ApiTableCellPr](../ApiTableCellPr.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| name | Required | [VerticalTextAlign](../../../Enumerations/VerticalTextAlign.md) | The available types of the vertical alignment for the text contents of the current table cell. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sType | Required | "top" &#124;"center" &#124;"bottom" |  | The available types of the vertical alignment for the text contents of the current table cell. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ This method doesn't return any data.
 This example specifies the vertical alignment for the text contents within the table cell.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
@@ -38,6 +37,4 @@ var oParagraph = oCell.GetContent().GetElement(0);
 oParagraph.AddText("Align bottom");
 oTable.SetStyle(oTableStyle);
 oDocument.Push(oTable);
-builder.SaveFile("docx", "SetVerticalAlign.docx");
-builder.CloseFile();
 ```

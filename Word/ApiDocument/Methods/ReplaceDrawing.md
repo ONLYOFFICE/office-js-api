@@ -4,28 +4,27 @@ Replaces a drawing with a new drawing.
 
 ## Syntax
 
-expression.ReplaceDrawing(oOldDrawing, oNewDrawing, bSaveOldDrawingPr?);
+expression.ReplaceDrawing(oOldDrawing, oNewDrawing, bSaveOldDrawingPr);
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| oOldDrawing | Required | [ApiDrawing](../../ApiDrawing/ApiDrawing.md) | A drawing which will be replaced. |
-| oNewDrawing | Required | [ApiDrawing](../../ApiDrawing/ApiDrawing.md) | A drawing to replace the old drawing. |
-| bSaveOldDrawingPr | Optional | Boolean | Specifies if the old drawing settings will be saved. Default value is "false". |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| oOldDrawing | Required | [ApiDrawing](../../ApiDrawing/ApiDrawing.md) |  | A drawing which will be replaced. |
+| oNewDrawing | Required | [ApiDrawing](../../ApiDrawing/ApiDrawing.md) |  | A drawing to replace the old drawing. |
+| bSaveOldDrawingPr | Optional | boolean | false | Specifies if the old drawing settings will be saved. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example replaces a drawing with a new drawing.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oOldDrawing = Api.CreateChart("bar3D", [
@@ -47,6 +46,4 @@ oParagraph = Api.CreateParagraph();
 oParagraph.AddText("The chart was replaced with the current shape in this document.");
 oDocContent.AddElement(0, oParagraph);
 oDocument.ReplaceDrawing(oOldDrawing, oNewDrawing, false);
-builder.SaveFile("docx", "ReplaceDrawing.docx");
-builder.CloseFile();
 ```

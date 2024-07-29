@@ -8,22 +8,21 @@ expression.SetSchemeName(sName);
 
 `expression` - A variable that represents a [ApiThemeFormatScheme](../ApiThemeFormatScheme.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sName | Required | String | Theme format scheme name. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sName | Required | string |  | Theme format scheme name. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example sets a name to the current theme format scheme.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -41,6 +40,4 @@ var oParagraph = oDocContent.GetElement(0);
 oParagraph.SetJc("left");
 oParagraph.AddText("New name was set to the theme format scheme.");
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetSchemeName.pptx");
-builder.CloseFile();
 ```

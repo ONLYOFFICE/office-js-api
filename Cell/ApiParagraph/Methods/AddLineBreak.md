@@ -8,7 +8,7 @@ expression.AddLineBreak();
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
@@ -21,17 +21,10 @@ This method doesn't have any parameters.
 This example adds a line break to the current position and starts the next element from a new line.
 
 ```javascript
-builder.CreateFile("xlsx");
-var oWorksheet = Api.GetActiveSheet();
-var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oShape = oWorksheet.AddShape("flowChartOnlineStorage", 120 * 36000, 70 * 36000, oFill, oStroke, 0, 2 * 36000, 0, 3 * 36000);
-var oDocContent = oShape.GetContent();
-var oParagraph = oDocContent.GetElement(0);
-oParagraph.SetJc("left");
-oParagraph.AddText("This is a text inside the shape aligned left.");
+var oDocument = Api.GetDocument();
+var oParagraph = oDocument.GetElement(0);
+var oRun = oParagraph.AddText("This is the text for the first line. Nothing special.");
 oParagraph.AddLineBreak();
-oParagraph.AddText("This is a text after the line break.");
-builder.SaveFile("xlsx", "AddLineBreak.xlsx");
-builder.CloseFile();
+oRun = oParagraph.AddText("This is the text which starts from the beginning of the second line. ");
+oRun = oParagraph.AddText("It is written in two text runs, you need a space at the end of the first run sentence to separate them.");
 ```

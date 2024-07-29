@@ -1,6 +1,6 @@
 # GetImageURL
 
-Returns the direction of the watermark.
+Returns the image URL of the watermark in the document.
 
 ## Syntax
 
@@ -8,20 +8,19 @@ expression.GetImageURL();
 
 `expression` - A variable that represents a [ApiWatermarkSettings](../ApiWatermarkSettings.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-String
+string, null
 
 ## Example
 
 This example sets the parameters of the watermark settings and apply them to the document.
 
 ```javascript
-builder.CreateFile("docx");
 const oDocument = Api.GetDocument();
 const oWatermarkSettings = oDocument.GetWatermarkSettings();
 oWatermarkSettings.SetType("image");
@@ -34,6 +33,4 @@ const oWatermarkSettings2 = oDocument.GetWatermarkSettings();
 const oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Watermark URL = " + oWatermarkSettings2.GetImageURL());
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetImageURL.docx");
-builder.CloseFile();
 ```

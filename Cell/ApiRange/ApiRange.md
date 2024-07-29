@@ -1,104 +1,108 @@
 # ApiRange
 
-Class representing a range.
+Represents the ApiRange class.
 
 ## Properties
 
-- [Row](./Properties/Row.md)
-- [Col](./Properties/Col.md)
-- [Rows](./Properties/Rows.md)
-- [Cols](./Properties/Cols.md)
-- [Cells](./Properties/Cells.md)
-- [Count](./Properties/Count.md)
-- [Address](./Properties/Address.md)
-- [Value](./Properties/Value.md)
-- [Formula](./Properties/Formula.md)
-- [Value2](./Properties/Value2.md)
-- [Text](./Properties/Text.md)
-- [FontColor](./Properties/FontColor.md)
-- [Hidden](./Properties/Hidden.md)
-- [ColumnWidth](./Properties/ColumnWidth.md)
-- [Width](./Properties/Width.md)
-- [RowHeight](./Properties/RowHeight.md)
-- [Height](./Properties/Height.md)
-- [FontSize](./Properties/FontSize.md)
-- [FontName](./Properties/FontName.md)
-- [AlignVertical](./Properties/AlignVertical.md)
-- [AlignHorizontal](./Properties/AlignHorizontal.md)
-- [Bold](./Properties/Bold.md)
-- [Italic](./Properties/Italic.md)
-- [Underline](./Properties/Underline.md)
-- [Strikeout](./Properties/Strikeout.md)
-- [WrapText](./Properties/WrapText.md)
-- [FillColor](./Properties/FillColor.md)
-- [NumberFormat](./Properties/NumberFormat.md)
-- [MergeArea](./Properties/MergeArea.md)
-- [Worksheet](./Properties/Worksheet.md)
-- [DefName](./Properties/DefName.md)
-- [Comments](./Properties/Comments.md)
-- [Orientation](./Properties/Orientation.md)
-- [Areas](./Properties/Areas.md)
-- [Characters](./Properties/Characters.md)
+| Name | Type | Description |
+| ---- | ---- | ----------- |
+| Row | number | Returns the row number for the selected cell. |
+| Col | number | Returns the column number for the selected cell. |
+| Rows | [ApiRange](../../ApiRange/ApiRange.md) | Returns the ApiRange object that represents the rows of the specified range. |
+| Cols | [ApiRange](../../ApiRange/ApiRange.md) | Returns the ApiRange object that represents the columns of the specified range. |
+| Cells | [ApiRange](../../ApiRange/ApiRange.md) | Returns a Range object that represents all the cells in the specified range or a specified cell. |
+| Count | number | Returns the rows or columns count. |
+| Address | string | Returns the range address. |
+| Value | string | Returns a value from the first cell of the specified range or sets it to this cell. |
+| Formula | string | Returns a formula from the first cell of the specified range or sets it to this cell. |
+| Value2 | string | Returns the value2 (value without format) from the first cell of the specified range or sets it to this cell. |
+| Text | string | Returns the text from the first cell of the specified range or sets it to this cell. |
+| FontColor | [ApiColor](../../ApiColor/ApiColor.md) | Sets the text color to the current cell range with the previously created color object. |
+| Hidden | boolean | Returns or sets the value hiding property. |
+| ColumnWidth | number | Returns or sets the width of all the columns in the specified range measured in points. |
+| Width | number | Returns a value that represents the range width measured in points. |
+| RowHeight | number | Returns or sets the height of the first row in the specified range measured in points. |
+| Height | number | Returns a value that represents the range height measured in points. |
+| FontSize | number | Sets the font size to the characters of the current cell range. |
+| FontName | string | Sets the specified font family as the font name for the current cell range. |
+| AlignVertical | 'center' &#124;'bottom' &#124;'top' &#124;'distributed' &#124;'justify' | Sets the text vertical alignment to the current cell range. |
+| AlignHorizontal | 'left' &#124;'right' &#124;'center' &#124;'justify' | Sets the text horizontal alignment to the current cell range. |
+| Bold | boolean | Sets the bold property to the text characters from the current cell or cell range. |
+| Italic | boolean | Sets the italic property to the text characters in the current cell or cell range. |
+| Underline | 'none' &#124;'single' &#124;'singleAccounting' &#124;'double' &#124;'doubleAccounting' | Sets the type of underline applied to the font. |
+| Strikeout | boolean | Sets a value that indicates whether the contents of the current cell or cell range are displayed struck through. |
+| WrapText | boolean | Returns the information about the wrapping cell style or specifies whether the words in the cell must be wrapped to fit the cell size or not. |
+| FillColor | [ApiColor](../../ApiColor/ApiColor.md) &#124;'No Fill' | Returns or sets the background color of the current cell range. |
+| NumberFormat | string | Sets a value that represents the format code for the object. |
+| MergeArea | [ApiRange](../../ApiRange/ApiRange.md) | Returns the cell or cell range from the merge area. |
+| Worksheet | [ApiWorksheet](../../ApiWorksheet/ApiWorksheet.md) | Returns the ApiWorksheet object that represents the worksheet containing the specified range. |
+| DefName | [ApiName](../../ApiName/ApiName.md) | Returns the ApiName object. |
+| Comments | [ApiComment](../../ApiComment/ApiComment.md) &#124;null | Returns the ApiComment collection that represents all the comments from the specified worksheet. |
+| Orientation | 'xlDownward' &#124;'xlHorizontal' &#124;'xlUpward' &#124;'xlVertical' | Sets an angle to the current cell range. |
+| Areas | [ApiAreas](../../ApiAreas/ApiAreas.md) | Returns a collection of the areas. |
+| Characters | [ApiCharacters](../../ApiCharacters/ApiCharacters.md) | Returns the ApiCharacters object that represents a range of characters within the object text. Use the ApiCharacters object to format characters within a text string. |
 
 ## Methods
 
-- [AddComment](./Methods/AddComment.md)
-- [AutoFit](./Methods/AutoFit.md)
+- [GetClassType](./Methods/GetClassType.md)
+- [GetRow](./Methods/GetRow.md)
+- [GetCol](./Methods/GetCol.md)
 - [Clear](./Methods/Clear.md)
-- [Copy](./Methods/Copy.md)
-- [Delete](./Methods/Delete.md)
+- [GetRows](./Methods/GetRows.md)
+- [GetCols](./Methods/GetCols.md)
 - [End](./Methods/End.md)
+- [GetCells](./Methods/GetCells.md)
+- [SetOffset](./Methods/SetOffset.md)
+- [GetAddress](./Methods/GetAddress.md)
+- [GetCount](./Methods/GetCount.md)
+- [GetValue](./Methods/GetValue.md)
+- [SetValue](./Methods/SetValue.md)
+- [GetFormula](./Methods/GetFormula.md)
+- [GetValue2](./Methods/GetValue2.md)
+- [GetText](./Methods/GetText.md)
+- [SetFontColor](./Methods/SetFontColor.md)
+- [GetHidden](./Methods/GetHidden.md)
+- [SetHidden](./Methods/SetHidden.md)
+- [GetColumnWidth](./Methods/GetColumnWidth.md)
+- [SetColumnWidth](./Methods/SetColumnWidth.md)
+- [GetRowHeight](./Methods/GetRowHeight.md)
+- [SetRowHeight](./Methods/SetRowHeight.md)
+- [SetFontSize](./Methods/SetFontSize.md)
+- [SetFontName](./Methods/SetFontName.md)
+- [SetAlignVertical](./Methods/SetAlignVertical.md)
+- [SetAlignHorizontal](./Methods/SetAlignHorizontal.md)
+- [SetBold](./Methods/SetBold.md)
+- [SetItalic](./Methods/SetItalic.md)
+- [SetUnderline](./Methods/SetUnderline.md)
+- [SetStrikeout](./Methods/SetStrikeout.md)
+- [SetWrap](./Methods/SetWrap.md)
+- [GetWrapText](./Methods/GetWrapText.md)
+- [SetFillColor](./Methods/SetFillColor.md)
+- [GetFillColor](./Methods/GetFillColor.md)
+- [GetNumberFormat](./Methods/GetNumberFormat.md)
+- [SetNumberFormat](./Methods/SetNumberFormat.md)
+- [SetBorders](./Methods/SetBorders.md)
+- [Merge](./Methods/Merge.md)
+- [UnMerge](./Methods/UnMerge.md)
+- [ForEach](./Methods/ForEach.md)
+- [AddComment](./Methods/AddComment.md)
+- [GetWorksheet](./Methods/GetWorksheet.md)
+- [GetDefName](./Methods/GetDefName.md)
+- [GetComment](./Methods/GetComment.md)
+- [Select](./Methods/Select.md)
+- [GetOrientation](./Methods/GetOrientation.md)
+- [SetOrientation](./Methods/SetOrientation.md)
+- [SetSort](./Methods/SetSort.md)
+- [Delete](./Methods/Delete.md)
+- [Insert](./Methods/Insert.md)
+- [AutoFit](./Methods/AutoFit.md)
+- [GetAreas](./Methods/GetAreas.md)
+- [Copy](./Methods/Copy.md)
+- [Cut](./Methods/Cut.md)
+- [Paste](./Methods/Paste.md)
+- [PasteSpecial](./Methods/PasteSpecial.md)
 - [Find](./Methods/Find.md)
 - [FindNext](./Methods/FindNext.md)
 - [FindPrevious](./Methods/FindPrevious.md)
-- [ForEach](./Methods/ForEach.md)
-- [GetAddress](./Methods/GetAddress.md)
-- [GetAreas](./Methods/GetAreas.md)
-- [GetCells](./Methods/GetCells.md)
-- [GetCharacters](./Methods/GetCharacters.md)
-- [GetClassType](./Methods/GetClassType.md)
-- [GetCol](./Methods/GetCol.md)
-- [GetCols](./Methods/GetCols.md)
-- [GetColumnWidth](./Methods/GetColumnWidth.md)
-- [GetComment](./Methods/GetComment.md)
-- [GetCount](./Methods/GetCount.md)
-- [GetDefName](./Methods/GetDefName.md)
-- [GetFillColor](./Methods/GetFillColor.md)
-- [GetFormula](./Methods/GetFormula.md)
-- [GetHidden](./Methods/GetHidden.md)
-- [GetNumberFormat](./Methods/GetNumberFormat.md)
-- [GetOrientation](./Methods/GetOrientation.md)
-- [GetRow](./Methods/GetRow.md)
-- [GetRowHeight](./Methods/GetRowHeight.md)
-- [GetRows](./Methods/GetRows.md)
-- [GetText](./Methods/GetText.md)
-- [GetValue](./Methods/GetValue.md)
-- [GetValue2](./Methods/GetValue2.md)
-- [GetWorksheet](./Methods/GetWorksheet.md)
-- [GetWrapText](./Methods/GetWrapText.md)
-- [Insert](./Methods/Insert.md)
-- [Merge](./Methods/Merge.md)
-- [Paste](./Methods/Paste.md)
 - [Replace](./Methods/Replace.md)
-- [Select](./Methods/Select.md)
-- [SetAlignHorizontal](./Methods/SetAlignHorizontal.md)
-- [SetAlignVertical](./Methods/SetAlignVertical.md)
-- [SetBold](./Methods/SetBold.md)
-- [SetBorders](./Methods/SetBorders.md)
-- [SetColumnWidth](./Methods/SetColumnWidth.md)
-- [SetFillColor](./Methods/SetFillColor.md)
-- [SetFontColor](./Methods/SetFontColor.md)
-- [SetFontName](./Methods/SetFontName.md)
-- [SetFontSize](./Methods/SetFontSize.md)
-- [SetHidden](./Methods/SetHidden.md)
-- [SetItalic](./Methods/SetItalic.md)
-- [SetNumberFormat](./Methods/SetNumberFormat.md)
-- [SetOffset](./Methods/SetOffset.md)
-- [SetOrientation](./Methods/SetOrientation.md)
-- [SetRowHeight](./Methods/SetRowHeight.md)
-- [SetSort](./Methods/SetSort.md)
-- [SetStrikeout](./Methods/SetStrikeout.md)
-- [SetUnderline](./Methods/SetUnderline.md)
-- [SetValue](./Methods/SetValue.md)
-- [SetWrap](./Methods/SetWrap.md)
-- [UnMerge](./Methods/UnMerge.md)
+- [GetCharacters](./Methods/GetCharacters.md)

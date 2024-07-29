@@ -1,6 +1,6 @@
 # SetKeepLines
 
-Specifies that when rendering the document using a page view, all lines of the current paragraph are maintained on a single page whenever possible.<br>Inherited From: [ApiParaPr#SetKeepLines](../../ApiParaPr/Methods/SetKeepLines.md)
+Specifies that when rendering the document using a page view, all lines of the current paragraph are maintained on a single page whenever possible.
 
 ## Syntax
 
@@ -8,11 +8,11 @@ expression.SetKeepLines(isKeepLines);
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| isKeepLines | Required | Boolean | The true value enables the option to keep lines of the paragraph on a single page. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| isKeepLines | Required | boolean |  | The true value enables the option to keep lines of the paragraph on a single page. |
 
 ## Returns
 
@@ -20,11 +20,13 @@ This method doesn't return any data.
 
 ## Example
 
-This example sSpecifies that when rendering the document using a page view, all lines of the current paragraph are maintained on a single page whenever possible.
+This example specifies that when rendering the document using a page view, all lines of the paragraph are maintained on a single page whenever possible.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
+var oMyStyle = oDocument.CreateStyle("My document style");
+var oParaPr = oMyStyle.GetParaPr();
+oParaPr.SetKeepLines(true);
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is an example of how the paragraph tries to keep lines together. ");
 oParagraph.AddText("Scroll down to the second page to see it.");
@@ -40,8 +42,6 @@ oParagraph.AddText("The paragraph lines are moved to the next page to keep them 
 for (let i = 0; i < 10; ++i) {
 	oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
 }
-oParagraph.SetKeepLines(true);
+oParagraph.SetStyle(oMyStyle);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetKeepLines.docx");
-builder.CloseFile();
 ```

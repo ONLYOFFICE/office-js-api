@@ -1,6 +1,6 @@
 # GetAllItems
 
-Returns a collection of the ApiContentControlListEntry of a list.
+Returns a collection of items (the ApiContentControlListEntry objects) of the combo box / dropdown list content control.
 
 ## Syntax
 
@@ -8,13 +8,13 @@ expression.GetAllItems();
 
 `expression` - A variable that represents a [ApiContentControlList](../ApiContentControlList.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Array<[ApiContentControlListEntry](../../ApiContentControlListEntry/ApiContentControlListEntry.md)>
+Array.<[ApiContentControlListEntry](../../ApiContentControlListEntry/ApiContentControlListEntry.md)>
 
 ## Example
 

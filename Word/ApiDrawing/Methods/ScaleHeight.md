@@ -8,22 +8,21 @@ expression.ScaleHeight(coefficient);
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| coefficient | Required | Number | The coefficient by which the figure height will be scaled. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| coefficient | Required | number |  | The coefficient by which the figure height will be scaled. |
 
 ## Returns
 
-Boolean (return false if param is invalid)
+boolean
 
 ## Example
 
 This example scales the height of the figure using the specified coefficient.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 for (let i = 3; i > 0; i-- ){
@@ -33,6 +32,4 @@ for (let i = 3; i > 0; i-- ){
 	oParagraph.AddDrawing(oDrawing);
 	oDrawing.ScaleHeight( i );
 }
-builder.SaveFile("docx", "ScaleHeight.docx");
-builder.CloseFile();
 ```

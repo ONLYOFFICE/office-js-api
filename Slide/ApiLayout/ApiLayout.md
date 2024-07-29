@@ -1,24 +1,24 @@
 # ApiLayout
 
-Class representing a slide layout.
+Represents the ApiLayout class.
 
 ## Methods
 
+- [GetClassType](./Methods/GetClassType.md)
+- [SetName](./Methods/SetName.md)
 - [AddObject](./Methods/AddObject.md)
+- [RemoveObject](./Methods/RemoveObject.md)
+- [SetBackground](./Methods/SetBackground.md)
 - [ClearBackground](./Methods/ClearBackground.md)
+- [FollowMasterBackground](./Methods/FollowMasterBackground.md)
 - [Copy](./Methods/Copy.md)
 - [Delete](./Methods/Delete.md)
 - [Duplicate](./Methods/Duplicate.md)
-- [FollowMasterBackground](./Methods/FollowMasterBackground.md)
-- [GetAllCharts](./Methods/GetAllCharts.md)
-- [GetAllDrawings](./Methods/GetAllDrawings.md)
-- [GetAllImages](./Methods/GetAllImages.md)
-- [GetAllOleObjects](./Methods/GetAllOleObjects.md)
-- [GetAllShapes](./Methods/GetAllShapes.md)
-- [GetClassType](./Methods/GetClassType.md)
-- [GetMaster](./Methods/GetMaster.md)
 - [MoveTo](./Methods/MoveTo.md)
-- [RemoveObject](./Methods/RemoveObject.md)
-- [SetBackground](./Methods/SetBackground.md)
-- [SetName](./Methods/SetName.md)
+- [GetAllDrawings](./Methods/GetAllDrawings.md)
+- [GetAllShapes](./Methods/GetAllShapes.md)
+- [GetAllImages](./Methods/GetAllImages.md)
+- [GetAllCharts](./Methods/GetAllCharts.md)
+- [GetAllOleObjects](./Methods/GetAllOleObjects.md)
+- [GetMaster](./Methods/GetMaster.md)
 - [ToJSON](./Methods/ToJSON.md)

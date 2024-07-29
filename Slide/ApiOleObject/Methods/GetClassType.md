@@ -8,20 +8,19 @@ expression.GetClassType();
 
 `expression` - A variable that represents a [ApiOleObject](../ApiOleObject.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-String
+"oleObject"
 
 ## Example
 
 This example gets a class type and pastes it into the presentation.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -40,6 +39,4 @@ var oDocContent = oDrawing.GetContent();
 var oParagraph = oDocContent.GetElement(0);
 oParagraph.AddText("Class type: " + sType);
 oSlide.AddObject(oDrawing);
-builder.SaveFile("pptx", "GetClassType.pptx");
-builder.CloseFile();
 ```

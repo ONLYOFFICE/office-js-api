@@ -1,6 +1,6 @@
 # SetMinorHorizontalGridlines
 
-Specifies the visual properties for the minor horizontal gridlines.
+Specifies minor horizontal gridline visual properties.
 
 ## Syntax
 
@@ -8,38 +8,12 @@ expression.SetMinorHorizontalGridlines(oStroke);
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| oStroke | Optional | ApiStroke &#124; null | The stroke used to create the element shadow. Default value is "null". |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| oStroke | Required | [ApiStroke](../../ApiStroke/ApiStroke.md) |  | The stroke used to create the element shadow.* @see office-js-api/Examples/Word/ApiChart/Methods/SetMinorHorizontalGridlines.js |
 
 ## Returns
 
 This method doesn't return any data.
-
-## Example
-
-This example specifies the visual properties for the minor horizontal gridlines.
-
-```javascript
-builder.CreateFile("docx");
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oChart = Api.CreateChart("bar3D", [
-	[200, 240, 280],
-	[250, 260, 280]
-], ["Projected Revenue", "Estimated Costs"], [2014, 2015, 2016], 4051300, 2347595, 24);
-var oFill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
-oChart.SetSeriesFill(oFill, 0, false);
-oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-oChart.SetSeriesFill(oFill, 1, false);
-oChart.SetVerAxisTitle("USD In Hundred Thousands", 10);
-oChart.SetHorAxisTitle("Year", 11);
-var oStroke = Api.CreateStroke(1 * 150, Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61)));
-oChart.SetMinorHorizontalGridlines(oStroke);
-oChart.SetTitle("Financial Overview", 13);
-oParagraph.AddDrawing(oChart);
-builder.SaveFile("docx", "SetMinorHorizontalGridlines.docx");
-builder.CloseFile();
-```

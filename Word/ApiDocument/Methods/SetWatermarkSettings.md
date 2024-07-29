@@ -1,6 +1,6 @@
 # SetWatermarkSettings
 
-Sets the settings of watermark in the document.
+Sets the watermark settings in the current document.
 
 ## Syntax
 
@@ -8,22 +8,21 @@ expression.SetWatermarkSettings(Settings);
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| Settings | Required | [ApiWatermarkSettings](../../ApiWatermarkSettings/ApiWatermarkSettings.md) | The object which represents the watermark settings. | 
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| Settings | Required | [ApiWatermarkSettings](../../ApiWatermarkSettings/ApiWatermarkSettings.md) |  | The object which represents the watermark settings. |
 
 ## Returns
 
-[ApiDrawing](../../ApiDrawing/ApiDrawing.md) &#124; null
+[ApiDrawing](../../ApiDrawing/ApiDrawing.md)
 
 ## Example
 
 This example sets the parameters of the watermark settings and apply them to the document.
 
 ```javascript
-builder.CreateFile("docx");
 const oDocument = Api.GetDocument();
 const oWatermarkSettings = oDocument.GetWatermarkSettings();
 oWatermarkSettings.SetType("text");
@@ -39,6 +38,4 @@ oTextPr.SetColor(0, 255, 0);
 oTextPr.SetHighlight("blue");
 oWatermarkSettings.SetTextPr(oTextPr);
 oDocument.SetWatermarkSettings(oWatermarkSettings);
-builder.SaveFile("docx", "SetWatermarkSettings.docx");
-builder.CloseFile();
 ```

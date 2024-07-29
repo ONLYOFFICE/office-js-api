@@ -8,22 +8,21 @@ expression.SetPlaceholder(oPlaceholder);
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| oPlaceholder | Required | [ApiPlaceholder](../../ApiPlaceholder/ApiPlaceholder.md) | Placeholder object. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| oPlaceholder | Required | [ApiPlaceholder](../../ApiPlaceholder/ApiPlaceholder.md) |  | Placeholder object. |
 
 ## Returns
 
-Boolean (returns false if parameter isn't a placeholder)
+boolean
 
 ## Example
 
 This example sets a placeholder for the shape.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -35,6 +34,4 @@ oShape.SetSize(300 * 36000, 130 * 36000);
 var oPlaceholder = Api.CreatePlaceholder("picture");
 oShape.SetPlaceholder(oPlaceholder);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "SetPlaceholder.pptx");
-builder.CloseFile();
 ```

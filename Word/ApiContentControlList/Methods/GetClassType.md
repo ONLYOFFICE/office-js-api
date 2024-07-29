@@ -8,13 +8,13 @@ expression.GetClassType();
 
 `expression` - A variable that represents a [ApiContentControlList](../ApiContentControlList.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-String
+"contentControlList"
 
 ## Example
 

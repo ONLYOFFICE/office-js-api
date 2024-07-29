@@ -8,7 +8,7 @@ expression.GetContent();
 
 `expression` - A variable that represents a [ApiTableCell](../ApiTableCell.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
@@ -21,7 +21,6 @@ This method doesn't have any parameters.
 This example shows how to get the current cell content.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
@@ -31,6 +30,4 @@ var oCell = oTable.GetRow(0).GetCell(0);
 oCell.GetContent().GetElement(0).AddText("Cell #1");
 oTable.SetStyle(oTableStyle);
 oDocument.Push(oTable);
-builder.SaveFile("docx", "GetContent.docx");
-builder.CloseFile();
 ```

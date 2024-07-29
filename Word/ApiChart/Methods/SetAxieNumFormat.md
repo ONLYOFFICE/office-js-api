@@ -8,23 +8,22 @@ expression.SetAxieNumFormat(sFormat, sAxiePos);
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sFormat | Required | NumFormat &#124; String | Numeric format (can be custom format). |
-| sAxiePos | Required | [AxisPos](../../../Enumerations/AxisPos.md) | Axis position. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sFormat | Required | [NumFormat](../../Enumeration/NumFormat.md) &#124;String |  | Numeric format (can be custom format). |
+| sAxiePos | Required | [AxisPos](../../Enumeration/AxisPos.md) |  | Axis position in the chart. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example sets the specified numeric format to the axis values.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("bar3D", [
@@ -37,6 +36,4 @@ oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 oChart.SetSeriesFill(oFill, 1, false);
 oChart.SetAxieNumFormat("0.00", "left");
 oParagraph.AddDrawing(oChart);
-builder.SaveFile("docx", "SetAxieNumFormat.docx");
-builder.CloseFile();
 ```

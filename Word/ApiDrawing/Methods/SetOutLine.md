@@ -8,22 +8,21 @@ expression.SetOutLine(oStroke);
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| oStroke | Required | [ApiStroke](../../ApiStroke/ApiStroke.md) | The stroke used to create the graphic object outline. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| oStroke | Required | [ApiStroke](../../ApiStroke/ApiStroke.md) |  | The stroke used to create the graphic object outline. |
 
 ## Returns
 
-Boolean (return false if param is invalid)
+boolean
 
 ## Example
 
 This example sets the outline properties to the specified graphic object.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
@@ -34,6 +33,4 @@ var oCopyDrawing = oDrawing.Copy();
 oStroke = Api.CreateStroke(36000, Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51)));
 oCopyDrawing.SetOutLine(oStroke);
 oParagraph.AddDrawing(oCopyDrawing);
-builder.SaveFile("docx", "SetOutLine.docx");
-builder.CloseFile();
 ```

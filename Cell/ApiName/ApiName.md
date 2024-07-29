@@ -1,18 +1,20 @@
 # ApiName
 
-Class representing a name.
+Represents the ApiName class.
 
 ## Properties
 
-- [Name](./Properties/Name.md)
-- [RefersTo](./Properties/RefersTo.md)
-- [RefersToRange](./Properties/RefersToRange.md)
+| Name | Type | Description |
+| ---- | ---- | ----------- |
+| Name | string | Sets a name to the active sheet. |
+| RefersTo | string | Returns or sets a formula that the name is defined to refer to. |
+| RefersToRange | [ApiRange](../../ApiRange/ApiRange.md) | Returns the ApiRange object by reference. |
 
 ## Methods
 
-- [Delete](./Methods/Delete.md)
 - [GetName](./Methods/GetName.md)
+- [SetName](./Methods/SetName.md)
+- [Delete](./Methods/Delete.md)
+- [SetRefersTo](./Methods/SetRefersTo.md)
 - [GetRefersTo](./Methods/GetRefersTo.md)
 - [GetRefersToRange](./Methods/GetRefersToRange.md)
-- [SetName](./Methods/SetName.md)
-- [SetRefersTo](./Methods/SetRefersTo.md)

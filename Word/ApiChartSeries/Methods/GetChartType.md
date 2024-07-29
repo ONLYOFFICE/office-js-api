@@ -8,20 +8,19 @@ expression.GetChartType();
 
 `expression` - A variable that represents a [ApiChartSeries](../ApiChartSeries.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-[ChartType](../../../Enumerations/ChartType.md)
+[ChartType](../../Enumeration/ChartType.md)
 
 ## Example
 
 This example gets the first series of ApiChart class and inserts its type into the document.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("comboBarLine", [
@@ -43,6 +42,4 @@ var sSeriesType = oSeries.GetChartType();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Series Type = " + sSeriesType);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetChartType.docx");
-builder.CloseFile();
 ```

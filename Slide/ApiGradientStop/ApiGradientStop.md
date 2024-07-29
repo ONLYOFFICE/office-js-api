@@ -1,6 +1,6 @@
 # ApiGradientStop
 
-Class representing gradient stop.
+Represents the ApiGradientStop class.
 
 ## Methods
 

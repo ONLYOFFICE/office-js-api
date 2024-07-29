@@ -1,6 +1,6 @@
 # ApiFreezePanes
 
-Class representing a freeze Panes.
+Represents the ApiFreezePanes class.
 
 ## Methods
 

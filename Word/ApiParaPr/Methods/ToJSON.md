@@ -8,11 +8,11 @@ expression.ToJSON(bWriteStyles);
 
 `expression` - A variable that represents a [ApiParaPr](../ApiParaPr.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| bWriteStyles | Required | Boolean | Specifies if the used styles will be written to the JSON object or not |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| bWriteStyles | Required | boolean |  | Specifies if the used styles will be written to the JSON object or not. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ JSON
 This example converts the ApiParaPr object into the JSON object.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oMyStyle = oDocument.CreateStyle("My document style");
 var oParaPr = oMyStyle.GetParaPr();
@@ -33,6 +32,4 @@ var oParaPrFromJSON = Api.FromJSON(json);
 var sType = oParaPrFromJSON.GetClassType();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("Class type = " + sType);
-builder.SaveFile("docx", "ToJSON.docx");
-builder.CloseFile();
 ```

@@ -8,11 +8,11 @@ expression.ToJSON(bWriteNumberings);
 
 `expression` - A variable that represents a [ApiStyle](../ApiStyle.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| bWriteNumberings | Required | Boolean | Specifies if the used numberings will be written to the JSON object or not. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| bWriteNumberings | Required | boolean |  | Specifies if the used numberings will be written to the JSON object or not. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ JSON
 This example converts the ApiStyle object into the JSON object.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.GetStyle("Bordered");
 var json = oTableStyle.ToJSON(false);
@@ -33,6 +32,4 @@ var oTable = Api.CreateTable(2, 2);
 oTable.SetWidth("percent", 100);
 oTable.SetStyle(oStyleFromJSON);
 oDocument.Push(oTable);
-builder.SaveFile("docx", "ToJSON.docx");
-builder.CloseFile();
 ```

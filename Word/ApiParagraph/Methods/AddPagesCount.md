@@ -8,7 +8,7 @@ expression.AddPagesCount();
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
@@ -21,7 +21,6 @@ This method doesn't have any parameters.
 This example inserts a number of pages in the current document into the paragraph.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("First page");
@@ -34,6 +33,4 @@ oParagraph.AddText("Page ");
 oParagraph.AddPageNumber();
 oParagraph.AddText(" of ");
 oParagraph.AddPagesCount();
-builder.SaveFile("docx", "AddPagesCount.docx");
-builder.CloseFile();
 ```

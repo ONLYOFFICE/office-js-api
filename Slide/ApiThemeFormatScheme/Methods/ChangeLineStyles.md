@@ -8,11 +8,11 @@ expression.ChangeLineStyles(arrLine);
 
 `expression` - A variable that represents a [ApiThemeFormatScheme](../ApiThemeFormatScheme.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| arrLine | Required | Array<[ApiStroke](../../ApiStroke/ApiStroke.md)> | The array of line styles must contain 3 elements - subtle, moderate and intense fills. If an array is empty or ApiStroke elements are with no fill, it will be filled with the Api.CreateStroke(0, Api.CreateNoFill()) elements. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| arrLine | Required | Array.<[ApiStroke](../../ApiStroke/ApiStroke.md)> |  | The array of line styles must contain 3 elements - subtle, moderate and intense fills.If an array is empty or ApiStroke elements are with no fill, it will be filled with the Api.CreateStroke(0, Api.CreateNoFill()) elements. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ This method doesn't return any data.
 This example sets the line styles to the current theme format scheme.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -54,6 +53,4 @@ var oParagraph = oDocContent.GetElement(0);
 oParagraph.SetJc("left");
 oParagraph.AddText("Create a shape by yourself to see the stroke style set to this presentation.");
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "ChangeLineStyles.pptx");
-builder.CloseFile();
 ```

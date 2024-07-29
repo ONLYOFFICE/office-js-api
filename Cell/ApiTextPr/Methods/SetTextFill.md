@@ -8,11 +8,11 @@ expression.SetTextFill(oApiFill);
 
 `expression` - A variable that represents a [ApiTextPr](../ApiTextPr.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| oApiFill | Required | [ApiFill](../../ApiFill/ApiFill.md) | The color or pattern used to fill the text color. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| oApiFill | Required | [ApiFill](../../ApiFill/ApiFill.md) |  | The color or pattern used to fill the text color. |
 
 ## Returns
 
@@ -23,21 +23,16 @@ expression.SetTextFill(oApiFill);
 This example sets the text fill to the current text run.
 
 ```javascript
-builder.CreateFile("xlsx");
-var oWorksheet = Api.GetActiveSheet();
-var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oShape = oWorksheet.AddShape("flowChartOnlineStorage", 120 * 36000, 70 * 36000, oFill, oStroke, 0, 2 * 36000, 0, 3 * 36000);
-var oDocContent = oShape.GetContent();
-var oParagraph = oDocContent.GetElement(0);
+var oDocument = Api.GetDocument();
+var oFill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
+var oTextPr = oDocument.GetDefaultTextPr();
+oTextPr.SetTextFill(oFill);
+var oParagraph = oDocument.GetElement(0);
 var oRun = Api.CreateRun();
-var oTextPr = oRun.GetTextPr();
-oTextPr.SetFontSize(30);
-oFill = Api.CreateSolidFill(Api.CreateRGBColor(128, 128, 128));
-oRun.SetTextFill(oFill);
-oParagraph.SetJc("left");
-oRun.AddText("This is a text run with the gray text set using the text properties.");
+oRun.AddText("This is just a sample text. ");
 oParagraph.AddElement(oRun);
-builder.SaveFile("xlsx", "SetTextFill.xlsx");
-builder.CloseFile();
+oRun = Api.CreateRun();
+oRun.AddText("This is a text run with the black text.");
+oRun.SetTextPr(oTextPr);
+oParagraph.AddElement(oRun);
 ```

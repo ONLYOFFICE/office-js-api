@@ -8,26 +8,23 @@ expression.GetCells(row, col);
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| row | Required | Number | The row number or the cell number (if only row is defined). |
-| col | Required | Number | The column number. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| row | Required | number |  | The row number or the cell number (if only row is defined). |
+| col | Required | number |  | The column number. |
 
 ## Returns
 
-[ApiRange](../../ApiRange/ApiRange.md) &#124; null
+ApiRange, null
 
 ## Example
 
 This example shows how to get the ApiRange that represents all the cells on the worksheet.
 
 ```javascript
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oCells = oWorksheet.GetCells();
 oCells.SetFillColor(Api.CreateColorFromRGB(255, 213, 191));
-builder.SaveFile("xlsx", "GetCells.xlsx");
-builder.CloseFile();
 ```

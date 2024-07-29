@@ -8,11 +8,11 @@ expression.SetText(text);
 
 `expression` - A variable that represents a [ApiComment](../ApiComment.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| text | Required | String | New text for comment. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| text | Required | string |  | New text for comment. |
 
 ## Returns
 
@@ -23,12 +23,9 @@ This method doesn't return any data.
 This example sets the comment text.
 
 ```javascript
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A1").SetValue("1");
 var oRange = oWorksheet.GetRange("A1");
 var oComment = oRange.AddComment("This is just a number.");
 oComment.SetText("New comment text");
-builder.SaveFile("xlsx", "SetText.xlsx");
-builder.CloseFile();
 ```

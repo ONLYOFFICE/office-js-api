@@ -4,27 +4,26 @@ Adds a layout to the specified slide master.
 
 ## Syntax
 
-expression.AddLayout(nPos?, oLayout);
+expression.AddLayout(nPos, oLayout);
 
 `expression` - A variable that represents a [ApiMaster](../ApiMaster.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nPos | Optional | Number | Position where a layout will be added. Default value is "ApiMaster.GetLayoutsCount()". |
-| oLayout | Required | [ApiLayout](../../ApiLayout/ApiLayout.md) | A layout to be added. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nPos | Optional | number | ApiMaster.GetLayoutsCount() | Position where a layout will be added. |
+| oLayout | Required | [ApiLayout](../../ApiLayout/ApiLayout.md) |  | A layout to be added. |
 
 ## Returns
 
-Boolean (returns false if oLayout isn't a layout)
+boolean
 
 ## Example
 
 This example adds a layout to the specified slide master.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -45,6 +44,4 @@ oParagraph.AddLineBreak();
 oParagraph.AddText("Number of layouts after adding new layout: " + nCountAfter);
 oSlide.RemoveAllObjects();
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "AddLayout.pptx");
-builder.CloseFile();
 ```

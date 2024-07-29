@@ -8,20 +8,19 @@ expression.GetClassType();
 
 `expression` - A variable that represents a [ApiGradientStop](../ApiGradientStop.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-String
+"gradientStop"
 
 ## Example
 
 This example gets a class type and inserts it into the document.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);
@@ -34,6 +33,4 @@ oDrawing.SetWrappingStyle("square");
 oParagraph.AddDrawing(oDrawing);
 var sClassType = oGs1.GetClassType();
 oParagraph.AddText("Class Type = " + sClassType);
-builder.SaveFile("docx", "GetClassType.docx");
-builder.CloseFile();
 ```

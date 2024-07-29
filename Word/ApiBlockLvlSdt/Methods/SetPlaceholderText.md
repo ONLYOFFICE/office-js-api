@@ -8,26 +8,23 @@ expression.SetPlaceholderText(sText);
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sText | Required | String | The text that will be set to the current content control. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sText | Required | string |  | The text that will be set to the current content control. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example sets the placeholder text to the content control.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oBlockLvlSdt = Api.CreateBlockLvlSdt();
 oDocument.AddElement(0, oBlockLvlSdt);
 oBlockLvlSdt.SetPlaceholderText("Name");
-builder.SaveFile("docx", "SetPlaceholderText.docx");
-builder.CloseFile();
 ```

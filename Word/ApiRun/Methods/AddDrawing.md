@@ -8,22 +8,21 @@ expression.AddDrawing(oDrawing);
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| oDrawing | Required | [ApiDrawing](../../ApiDrawing/ApiDrawing.md) | The object which will be added to the current run. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| oDrawing | Required | [ApiDrawing](../../ApiDrawing/ApiDrawing.md) |  | The object which will be added to the current run. |
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 
 This example adds a chart to the run.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oRun = Api.CreateRun();
@@ -42,6 +41,4 @@ oDrawing.SetShowDataLabels(false, false, true, false);
 oDrawing.SetTitle("Financial Overview", 13);
 oRun.AddDrawing(oDrawing);
 oParagraph.AddElement(oRun);
-builder.SaveFile("docx", "AddDrawing.docx");
-builder.CloseFile();
 ```

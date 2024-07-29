@@ -8,22 +8,21 @@ expression.SetTextPr(oTextPr);
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| oTextPr | Required | [ApiTextPr](../../ApiTextPr/ApiTextPr.md) | The text properties that will be set to the current table. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| oTextPr | Required | [ApiTextPr](../../ApiTextPr/ApiTextPr.md) |  | The text properties that will be set to the current table. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example applies the text settings to the entire contents of the table.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
@@ -38,6 +37,4 @@ var oTextPr = Api.CreateTextPr();
 oTextPr.SetFontSize(30);
 oTextPr.SetBold(true);
 oTable.SetTextPr(oTextPr);
-builder.SaveFile("docx", "SetTextPr.docx");
-builder.CloseFile();
 ```

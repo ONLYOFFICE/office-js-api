@@ -8,37 +8,29 @@ expression.GetClassType();
 
 `expression` - A variable that represents a [ApiTextPr](../ApiTextPr.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-String
+"textPr"
 
 ## Example
 
 This example gets a class type and pastes it into the presentation.
 
 ```javascript
-builder.CreateFile("pptx");
-var oPresentation = Api.GetPresentation();
-var oSlide = oPresentation.GetSlideByIndex(0);
-oSlide.RemoveAllObjects();
-var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oShape = Api.CreateShape("flowChartMagneticTape", 300 * 36000, 130 * 36000, oFill, oStroke);
-oShape.SetPosition(608400, 1267200);
-var oDocContent = oShape.GetDocContent();
-var oParagraph = oDocContent.GetElement(0);
-var oRun = Api.CreateRun();
-var oTextPr = oRun.GetTextPr();
-oTextPr.SetFontSize(50);
-oParagraph.SetJc("left");
+var oDocument = Api.GetDocument();
+var oParagraph = oDocument.GetElement(0);
+oParagraph.AddText("This is a sample text with the font size set to 30 and the font weight set to bold.");
+var oTextPr = Api.CreateTextPr();
+oTextPr.SetFontSize(32);
+oTextPr.SetBold(true);
+oParagraph.SetTextPr(oTextPr);
+oTextPr = oParagraph.GetTextPr();
 var sClassType = oTextPr.GetClassType();
-oRun.AddText("Class Type = " + sClassType);
-oParagraph.AddElement(oRun);
-oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "GetClassType.pptx");
-builder.CloseFile();
+oParagraph = Api.CreateParagraph();
+oParagraph.AddText("Class type: " + sClassType);
+oDocument.Push(oParagraph);
 ```

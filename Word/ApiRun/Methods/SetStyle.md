@@ -1,6 +1,6 @@
 # SetStyle
 
-Sets a style to the current run.
+The text style base method.💡 This method is not used by itself, as it only forms the basis for the {@link ApiRun#SetStyle} method which setsthe selected or created style to the text.
 
 ## Syntax
 
@@ -8,11 +8,11 @@ expression.SetStyle(oStyle);
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| oStyle | Required | [ApiStyle](../../../Word/ApiStyle/ApiStyle.md) | The style which must be applied to the text run. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| oStyle | Required | [ApiStyle](../../ApiStyle/ApiStyle.md) |  | The style which must be applied to the text character. |
 
 ## Returns
 
@@ -20,10 +20,9 @@ expression.SetStyle(oStyle);
 
 ## Example
 
-This example sets a style to the run.
+This example sets a style to run.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oMyNewRunStyle = oDocument.CreateStyle("My New Run Style", "run");
 var oTextPr = oMyNewRunStyle.GetTextPr();
@@ -38,6 +37,4 @@ oRun = Api.CreateRun();
 oRun.SetStyle(oMyNewRunStyle);
 oRun.AddText("This is a text run with its own style.");
 oParagraph.AddElement(oRun);
-builder.SaveFile("docx", "SetStyle.docx");
-builder.CloseFile();
 ```

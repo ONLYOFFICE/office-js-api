@@ -8,20 +8,19 @@ expression.Copy();
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-[ApiDrawing](../../ApiDrawing/ApiDrawing.md) &#124; null (return null if drawing doesn't exist)
+[ApiDrawing](../../ApiDrawing/ApiDrawing.md)
 
 ## Example
 
 This example creates a copy of a shape and inserts it into the presentation.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -35,6 +34,4 @@ var oCopyShape = oShape.Copy();
 oSlide = Api.CreateSlide();
 oPresentation.AddSlide(oSlide);
 oSlide.AddObject(oCopyShape);
-builder.SaveFile("pptx", "Copy.pptx");
-builder.CloseFile();
 ```

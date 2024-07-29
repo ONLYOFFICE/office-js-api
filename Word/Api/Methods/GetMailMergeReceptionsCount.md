@@ -8,20 +8,19 @@ expression.GetMailMergeReceptionsCount();
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Number
+number
 
 ## Example
 
 This example shows how to get mail merge receptions count.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var arrField = ["Greeting line", "First name", "Last name"];
@@ -56,6 +55,4 @@ oParagraph = Api.CreateParagraph();
 oParagraph.AddLineBreak();
 oParagraph.AddText("The mail merge process was run twice for each mail merge reception. But the results were replaced with the mail merge template document content. This template allows you to save each mail merge reception to the separate file.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetMailMergeReceptionsCount.docx");
-builder.CloseFile();
 ```

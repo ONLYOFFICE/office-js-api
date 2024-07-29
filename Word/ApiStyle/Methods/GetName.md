@@ -8,20 +8,19 @@ expression.GetName();
 
 `expression` - A variable that represents a [ApiStyle](../ApiStyle.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-String
+string
 
 ## Example
 
 This example shows how to get a name of the current style.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.GetStyle("Bordered");
 oTableStyle.SetName("My Custom Style");
@@ -32,6 +31,4 @@ oDocument.Push(oTable);
 var sTableStyleName = oTableStyle.GetName();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("Table style name = " + sTableStyleName);
-builder.SaveFile("docx", "GetName.docx");
-builder.CloseFile();
 ```

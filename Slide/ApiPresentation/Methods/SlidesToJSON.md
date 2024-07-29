@@ -4,31 +4,30 @@ Converts the slides from the current ApiPresentation object into the JSON object
 
 ## Syntax
 
-expression.SlidesToJSON(nStart?, nStart?, bWriteLayout?, bWriteMaster?, bWriteAllMasLayouts?, bWriteTableStyles?);
+expression.SlidesToJSON(nStart, nStart, bWriteLayout, bWriteMaster, bWriteAllMasLayouts, bWriteTableStyles);
 
 `expression` - A variable that represents a [ApiPresentation](../ApiPresentation.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nStart | Optional | Boolean | The index to the start slide. Default value is "0". |
-| nEnd | Optional | Boolean | The index to the end slide. Default value is "ApiPresentation.GetSlidesCount() - 1". |
-| bWriteLayout | Optional | Boolean | Specifies if the slide layout will be written to the JSON object or not. Default value is "false". |
-| bWriteMaster | Optional | Boolean | Specifies if the slide master will be written to the JSON object or not (bWriteMaster is false if bWriteLayout === false). Default value is "false". |
-| bWriteAllMasLayouts | Optional | Boolean | Specifies if all child layouts from the slide master will be written to the JSON object or not. Default value is "false". |
-| bWriteTableStyles | Optional | Boolean | Specifies whether to write used table styles to the JSON object (true) or not (false). Default value is "false". |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nStart | Optional | bool | false | The index to the start slide. |
+| nStart | Optional | bool | ApiPresentation.GetSlidesCount() - 1 | The index to the end slide. |
+| bWriteLayout | Optional | bool | false | Specifies if the slide layout will be written to the JSON object or not. |
+| bWriteMaster | Optional | bool | false | Specifies if the slide master will be written to the JSON object or not (bWriteMaster is false if bWriteLayout === false). |
+| bWriteAllMasLayouts | Optional | bool | false | Specifies if all child layouts from the slide master will be written to the JSON object or not. |
+| bWriteTableStyles | Optional | bool | false | Specifies whether to write used table styles to the JSON object (true) or not (false). |
 
 ## Returns
 
-Array<JSON>
+Array.<JSON>
 
 ## Example
 
 This example shows how to convert the slides from the current ApiPresentation object into the JSON objects.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -46,6 +45,4 @@ oSlide.AddObject(oDrawing);
 var oDocContent = oDrawing.GetDocContent();
 var oParagraph = oDocContent.GetElement(0);
 oParagraph.AddText("Class type = " + sType);
-builder.SaveFile("pptx", "SlidesToJSON.pptx");
-builder.CloseFile();
 ```

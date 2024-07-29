@@ -4,27 +4,26 @@ Adds a table of figures to the current document.
 
 ## Syntax
 
-expression.AddTableOfFigures(oTofPr?, bReplace?);
+expression.AddTableOfFigures(oTofPr, bReplace);
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| oTofPr | Optional | [TofPr](../../../Enumerations/TofPr.md) | Table of figures properties. Please note that the table of figures properties will be filled with the default properties if they are undefined. Default value is "{}". |
-| bReplace | Optional | Boolean | Specifies whether to replace the selected table of figures instead of adding a new one. Default value is "true". |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| oTofPr | Optional | [TofPr](../../Enumeration/TofPr.md) | {} | Table of figures properties.💡 Please note that the table of figures properties will be filled with the default properties if they are undefined. |
+| bReplace | Optional | boolean | true | Specifies whether to replace the selected table of figures instead of adding a new one. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example adds a table of figures to the current document.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oDrawing = Api.CreateChart("bar3D", [
@@ -44,6 +43,4 @@ oParagraph.AddDrawing(oDrawing);
 oParagraph.AddCaption(" - Financial Overview", "Figure", false, "Arabic", false, undefined, "hyphen");
 var oTofPr = {"ShowPageNums": true, "RightAlgn": true, "LeaderType": "dot", "FormatAsLinks": true, "BuildFrom": "Figure", "LabelNumber": true, "TofStyle": "distinctive"};
 oDocument.AddTableOfFigures(oTofPr);
-builder.SaveFile("docx", "AddTableOfFigures.docx");
-builder.CloseFile();
 ```

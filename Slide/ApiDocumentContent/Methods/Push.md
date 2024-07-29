@@ -8,36 +8,31 @@ expression.Push(oElement);
 
 `expression` - A variable that represents a [ApiDocumentContent](../ApiDocumentContent.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| oElement | Required | [DocumentElement](../../../Enumerations/DocumentElement.md) | The element type which will be pushed to the document. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| oElement | Required | [DocumentElement](../../Enumeration/DocumentElement.md) |  | The element type which will be pushed to the document. |
 
 ## Returns
 
-Boolean (returns "false" if oElement is unsupported)
+boolean
 
 ## Example
 
-This example adds a paragraph to the presentation.
+This example pushes 5 paragraphs to actually add its to the document content.
 
 ```javascript
-builder.CreateFile("pptx");
-var oPresentation = Api.GetPresentation();
-var oSlide = oPresentation.GetSlideByIndex(0);
-oSlide.RemoveAllObjects();
+var oDocument = Api.GetDocument();
+var oParagraph = oDocument.GetElement(0);
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oShape = Api.CreateShape("flowChartMagneticTape", 300 * 36000, 130 * 36000, oFill, oStroke);
-oShape.SetPosition(608400, 1267200);
-var oDocContent = oShape.GetDocContent();
+var oDrawing = Api.CreateShape("rect", 3212465, 963295, oFill, oStroke);
+oParagraph.AddDrawing(oDrawing);
+var oDocContent = oDrawing.GetDocContent();
 oDocContent.RemoveAllElements();
-var oParagraph = Api.CreateParagraph();
+oParagraph = Api.CreateParagraph();
+oParagraph.SetJc("left");
 oParagraph.AddText("We removed all elements from the shape and added a new paragraph inside it.");
-oDocContent.AddElement(oParagraph);
 oDocContent.Push(oParagraph);
-oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "Push.pptx");
-builder.CloseFile();
 ```

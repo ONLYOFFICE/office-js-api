@@ -1,6 +1,6 @@
 # SetNoWrap
 
-Specifies how the current table cell is laid out when the parent table is displayed in a document. This setting only affects the behavior of the cell when the [ApiTablePr#SetTableLayout](../../ApiTablePr/Methods/SetTableLayout.md) table layout for this table is set to use the "autofit" algorithm.
+Specifies how the current table cell is laid out when the parent table is displayed in a document. This settingonly affects the behavior of the cell when the {@link ApiTablePr#SetTableLayout} table layout for this table is set to use the <code>"autofit"</code> algorithm.
 
 ## Syntax
 
@@ -8,11 +8,11 @@ expression.SetNoWrap(isNoWrap);
 
 `expression` - A variable that represents a [ApiTableCellPr](../ApiTableCellPr.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| isNoWrap | Required | Boolean | The true value means that the current table cell will not be wrapped in the parent table. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| isNoWrap | Required | boolean |  | The true value means that the current table cell will not be wrapped in the parent table. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ This method doesn't return any data.
 This example specifies how the table cell is laid out when the parent table is displayed in a document.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
@@ -52,6 +51,4 @@ oCell.GetContent().GetElement(0).AddText("This is a table cell where text is not
 oTableCellPr.SetNoWrap(true);
 oCopyTable2.SetStyle(oTableStyle);
 oDocument.Push(oCopyTable2);
-builder.SaveFile("docx", "SetNoWrap.docx");
-builder.CloseFile();
 ```

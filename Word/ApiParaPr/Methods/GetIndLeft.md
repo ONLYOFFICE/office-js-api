@@ -8,20 +8,19 @@ expression.GetIndLeft();
 
 `expression` - A variable that represents a [ApiParaPr](../ApiParaPr.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-[twips](../../../Enumerations/twips.md) &#124; undefined
+twips, undefined
 
 ## Example
 
 This example shows how to get the paragraph left side indentation.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oParaPr = oParagraph.GetParaPr();
@@ -35,6 +34,4 @@ var nIndLeft = oParaPr.GetIndLeft();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Left indent: " + nIndLeft);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetIndLeft.docx");
-builder.CloseFile();
 ```

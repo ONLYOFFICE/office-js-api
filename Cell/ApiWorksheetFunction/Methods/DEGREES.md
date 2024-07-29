@@ -1,0 +1,19 @@
+# DEGREES
+
+Converts radians to degrees.
+
+## Syntax
+
+expression.DEGREES(arg1);
+
+`expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
+
+## Parameters
+
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| arg1 | Required | number |  | Is the angle in radians that you want to convert. |
+
+## Returns
+
+number, string, boolean

@@ -8,11 +8,11 @@ expression.AddDrawing(oDrawing);
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| oDrawing | Required | [ApiDrawing](../../ApiDrawing/ApiDrawing.md) | The object which will be added to the current paragraph. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| oDrawing | Required | [ApiDrawing](../../ApiDrawing/ApiDrawing.md) |  | The object which will be added to the current paragraph. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ expression.AddDrawing(oDrawing);
 This example adds a chart to the paragraph.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("bar3D", [
@@ -40,6 +39,4 @@ oChart.SetLegendPos("bottom");
 oChart.SetShowDataLabels(false, false, true, false);
 oChart.SetTitle("Financial Overview", 13);
 oParagraph.AddDrawing(oChart);
-builder.SaveFile("docx", "AddDrawing.docx");
-builder.CloseFile();
 ```

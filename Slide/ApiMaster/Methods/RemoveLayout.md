@@ -4,27 +4,26 @@ Removes the layouts from the current slide master.
 
 ## Syntax
 
-expression.RemoveLayout(nPos, nCount?);
+expression.RemoveLayout(nPos, nCount);
 
 `expression` - A variable that represents a [ApiMaster](../ApiMaster.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nPos | Required | Number | Position from which a layout will be deleted. |
-| nCount | Optional | Number | Number of layouts to delete. Default value is "1". |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nPos | Required | number |  | Position from which a layout will be deleted. |
+| nCount | Optional | number | true | Number of layouts to delete. |
 
 ## Returns
 
-Boolean (return false if position is invalid)
+boolean
 
 ## Example
 
 This example removes the layouts from the current slide master.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -44,6 +43,4 @@ oParagraph.AddLineBreak();
 oParagraph.AddText("Number of layouts after deletion: " + nCountAfter);
 oSlide.RemoveAllObjects();
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "RemoveLayout.pptx");
-builder.CloseFile();
 ```

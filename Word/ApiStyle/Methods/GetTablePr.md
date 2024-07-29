@@ -8,7 +8,7 @@ expression.GetTablePr();
 
 `expression` - A variable that represents a [ApiStyle](../ApiStyle.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
@@ -21,7 +21,6 @@ This method doesn't have any parameters.
 This example shows how to get the table properties of the style.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 var oTable = Api.CreateTable(2, 2);
@@ -39,6 +38,4 @@ oTableStyle.GetConditionalTableStyle("topLeftCell").GetTableCellPr().SetShd("cle
 oTableStyle.GetConditionalTableStyle("topRightCell").GetTableCellPr().SetShd("clear", 51, 51, 51);
 oTableStyle.GetConditionalTableStyle("bottomLeftCell").GetTableCellPr().SetShd("clear", 128, 128, 128);
 oTableStyle.GetConditionalTableStyle("bottomRightCell").GetTableCellPr().SetShd("clear", 255, 213, 191);
-builder.SaveFile("docx", "GetTablePr.docx");
-builder.CloseFile();
 ```

@@ -8,20 +8,19 @@ expression.Copy();
 
 `expression` - A variable that represents a [ApiThemeFontScheme](../ApiThemeFontScheme.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-[ApiThemeFontScheme](../ApiThemeFontScheme.md)
+[ApiThemeFontScheme](../../ApiThemeFontScheme/ApiThemeFontScheme.md)
 
 ## Example
 
 This example creates a copy of the theme font scheme.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide1 = oPresentation.GetSlideByIndex(0);
 oSlide1.RemoveAllObjects();
@@ -70,6 +69,4 @@ oParagraph = oDocContent.GetElement(0);
 oParagraph.SetJc("left");
 oParagraph.AddText("New font scheme was set to this slide.");
 oSlide2.AddObject(oShape);
-builder.SaveFile("pptx", "Copy.pptx");
-builder.CloseFile();
 ```

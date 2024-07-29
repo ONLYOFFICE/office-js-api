@@ -1,6 +1,6 @@
 # SetVertAxisLablesFontSize
 
-Specifies font size for the labels of the vertical axis.
+Specifies font size for labels of the vertical axis.
 
 ## Syntax
 
@@ -8,11 +8,11 @@ expression.SetVertAxisLablesFontSize(nFontSize);
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nFontSize	 | Required | [pt](../../../Enumerations/pt.md) | The text size value measured in points. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nFontSize | Required | [pt](../../Enumeration/pt.md) |  | The text size value measured in points. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ This method doesn't return any data.
 This example specifies font size for the labels of the vertical axis.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("bar3D", [
@@ -39,6 +38,4 @@ oChart.SetHorAxisTitle("Year", 11);
 oChart.SetVertAxisLablesFontSize(8);
 oChart.SetTitle("Financial Overview", 13);
 oParagraph.AddDrawing(oChart);
-builder.SaveFile("docx", "SetVertAxisLablesFontSize.docx");
-builder.CloseFile();
 ```

@@ -8,20 +8,19 @@ expression.GetParentTableCell();
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-[ApiTableCell](../../ApiTableCell/ApiTableCell.md) &#124; null (returns null if parent cell doesn't exist)
+ApiTableCell, null
 
 ## Example
 
 This example showh how to get a parent table cell that contains the graphic object.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = Api.CreateParagraph();
 var oTable = Api.CreateTable(3, 3);
@@ -38,6 +37,4 @@ var oParentCell = oDrawing.GetParentTableCell();
 var oCellContent = oParentCell.GetContent().GetElement(0);
 oCellContent.AddLineBreak();
 oCellContent.AddText("This is a parent cell");
-builder.SaveFile("docx", "GetParentTableCell.docx");
-builder.CloseFile();
 ```

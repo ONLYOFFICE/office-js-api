@@ -4,16 +4,16 @@ Creates a new style with the specified type and name. If there is a style with t
 
 ## Syntax
 
-expression.CreateStyle(sStyleName, sType?);
+expression.CreateStyle(sStyleName, sType);
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sStyleName | Required | String | The name of the style which will be created. |
-| sType | Optional | [StyleType](../../../Enumerations/StyleType.md) | The document element which the style will be applied to. Default value is "paragraph". |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sStyleName | Required | string |  | The name of the style which will be created. |
+| sType | Optional | [StyleType](../../Enumeration/StyleType.md) | "paragraph" | The document element which the style will be applied to. |
 
 ## Returns
 
@@ -24,7 +24,6 @@ expression.CreateStyle(sStyleName, sType?);
 This example creates a new style with the "Heading 1" type and "paragraph" name.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oHeading1Style = oDocument.CreateStyle("Heading 1", "paragraph");
 var oParaPr = oHeading1Style.GetParaPr();
@@ -41,6 +40,4 @@ oParagraph.AddText("This is a heading with a style created above");
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("This is just a text.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetStyle.docx");
-builder.CloseFile();
 ```

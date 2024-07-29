@@ -8,20 +8,19 @@ expression.GetClassType();
 
 `expression` - A variable that represents a [ApiTableCellPr](../ApiTableCellPr.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-String
+"tableCellPr"
 
 ## Example
 
 This example gets a class type and pastes it into the presentation.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
@@ -33,6 +32,4 @@ oDocument.Push(oTable);
 var sClassType = oTableCellPr.GetClassType();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("Class Type = " + sClassType);
-builder.SaveFile("docx", "GetClassType.docx");
-builder.CloseFile();
 ```

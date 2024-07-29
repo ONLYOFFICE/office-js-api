@@ -1,6 +1,6 @@
 # FindNext
 
-Continues a search that was begun with the [ApiRange#Find](./Find.md) method. Finds the next cell that matches those same conditions and returns the ApiRange object that represents that cell. This does not affect the selection or the active cell.
+Continues a search that was begun with the {@link ApiRange#Find} method. Finds the next cell that matches those same conditions and returns the ApiRange object that represents that cell. This does not affect the selection or the active cell.
 
 ## Syntax
 
@@ -8,22 +8,21 @@ expression.FindNext(After);
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| After | Required | [ApiRange](../ApiRange.md) | The cell after which the search will start. If this argument is not specified, the search starts from the last cell found. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| After | Required | [ApiRange](../../ApiRange/ApiRange.md) |  | The cell after which the search will start. If this argument is not specified, the search starts from the last cell found. |
 
 ## Returns
 
-[ApiRange](../ApiRange.md) &#124; null (returns null if the range does not contain such text)
+ApiRange, null
 
 ## Example
 
 This example finds the next cell that matches those same conditions.
 
 ```javascript
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);
@@ -45,6 +44,4 @@ var oSearchRange = oRange.Find("200", "B1", "xlValues", "xlWhole", "xlByColumns"
 oSearchRange.SetFillColor(Api.CreateColorFromRGB(255, 213, 191));
 var oNextSearchRange = oRange.FindNext(oSearchRange);
 oNextSearchRange.SetFillColor(Api.CreateColorFromRGB(255, 213, 191));
-builder.SaveFile("xlsx", "FindNext.xlsx");
-builder.CloseFile();
 ```

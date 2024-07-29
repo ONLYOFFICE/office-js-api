@@ -8,21 +8,19 @@ expression.GetParentMaster();
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-[ApiMaster](../../ApiMaster/ApiMaster.md) &#124; null (return null if parent ins't a slide master)
-
+ApiMaster, null
 
 ## Example
 
 This example show how to get the drawing parent slide master.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);
@@ -39,6 +37,4 @@ var oDocContent = oShape.GetDocContent();
 var oParagraph = oDocContent.GetElement(0);
 oParagraph.SetJc("left");
 oParagraph.AddText("Class type of the shape parent = " + sType);
-builder.SaveFile("pptx", "GetParentMaster.pptx");
-builder.CloseFile();
 ```

@@ -8,20 +8,19 @@ expression.GetPlaceholderText();
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-String
+string
 
 ## Example
 
 This example shows how to get the placeholder text from the content control.
 
 ```javascript
-builder.CreateFile("docxf");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oRun = Api.CreateRun();
@@ -33,6 +32,4 @@ var sText = aForms[0].GetPlaceholderText();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Placeholder text: " + sText);
 oDocument.Push(oParagraph);
-builder.SaveFile("docxf", "GetPlaceholderText.docxf");
-builder.CloseFile();
 ```

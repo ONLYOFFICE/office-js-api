@@ -1,23 +1,25 @@
 # ApiCharacters
 
-Class representing characters in an object that contains text.
+Represents the ApiCharacters class.
 
 ## Properties
 
-- [Caption](./Properties/Caption.md)
-- [Count](./Properties/Count.md)
-- [Font](./Properties/Font.md)
-- [Parent](./Properties/Parent.md)
-- [Text](./Properties/Text.md)
+| Name | Type | Description |
+| ---- | ---- | ----------- |
+| Count | number | The number of characters in the collection. |
+| Parent | [ApiRange](../../ApiRange/ApiRange.md) | The parent object of the specified characters. |
+| Caption | string | The text of the specified range of characters. |
+| Text | string | The string value representing the text of the specified range of characters. |
+| Font | [ApiFont](../../ApiFont/ApiFont.md) | The font of the specified characters. |
 
 ## Methods
 
-- [Delete](./Methods/Delete.md)
-- [GetCaption](./Methods/GetCaption.md)
 - [GetCount](./Methods/GetCount.md)
-- [GetFont](./Methods/GetFont.md)
 - [GetParent](./Methods/GetParent.md)
-- [GetText](./Methods/GetText.md)
+- [Delete](./Methods/Delete.md)
 - [Insert](./Methods/Insert.md)
 - [SetCaption](./Methods/SetCaption.md)
+- [GetCaption](./Methods/GetCaption.md)
 - [SetText](./Methods/SetText.md)
+- [GetText](./Methods/GetText.md)
+- [GetFont](./Methods/GetFont.md)

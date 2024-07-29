@@ -8,20 +8,19 @@ expression.GetAllDrawingObjects();
 
 `expression` - A variable that represents a [ApiDocumentContent](../ApiDocumentContent.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Array<[ApiDrawing](../../ApiDrawing/ApiDrawing.md)>
+Array.<[ApiDrawing](../../ApiDrawing/ApiDrawing.md)>
 
 ## Example
 
 This example shows how to get a collection of drawing objects from the document content.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
@@ -48,6 +47,4 @@ oDocContent.AddElement(0, oParagraph);
 var aDrawings = oDocContent.GetAllDrawingObjects();
 oFill = Api.CreateSolidFill(Api.CreateRGBColor(128, 128, 128));
 aDrawings[0].Fill(oFill);
-builder.SaveFile("docx", "GetAllDrawingObjects.docx");
-builder.CloseFile();
 ```

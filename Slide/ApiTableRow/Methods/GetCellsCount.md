@@ -8,20 +8,19 @@ expression.GetCellsCount();
 
 `expression` - A variable that represents a [ApiTableRow](../ApiTableRow.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Number
+number
 
 ## Example
 
 This example gets a number of cells in the row.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oTable = Api.CreateTable(2, 4);
 var oRow = oTable.GetRow(0);
@@ -34,6 +33,4 @@ oContent.Push(oParagraph);
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
 oSlide.AddObject(oTable);
-builder.SaveFile("pptx", "GetCellsCount.pptx");
-builder.CloseFile();
 ```

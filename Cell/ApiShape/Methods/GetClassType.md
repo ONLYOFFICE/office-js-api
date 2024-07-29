@@ -8,20 +8,19 @@ expression.GetClassType();
 
 `expression` - A variable that represents a [ApiShape](../ApiShape.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-String
+"shape"
 
 ## Example
 
 This example gets a class type and inserts it into the document.
 
 ```javascript
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -31,6 +30,4 @@ oWorksheet.SetColumnWidth(0, 15);
 oWorksheet.SetColumnWidth(1, 10);
 oWorksheet.GetRange("A1").SetValue("Class Type = ");
 oWorksheet.GetRange("B1").SetValue(sClassType);
-builder.SaveFile("xlsx", "GetClassType.xlsx");
-builder.CloseFile();
 ```

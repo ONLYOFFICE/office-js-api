@@ -8,11 +8,11 @@ expression.CreatePlaceholder(sType);
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sType | Required | [PlaceholderTypes](../../../Enumerations/PlaceholderTypes.md) | The placeholder type |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sType | Required | string |  | The placeholder type ("body", "chart", "clipArt", "ctrTitle", "diagram", "date", "footer", "header", "media", "object", "picture", "sldImage", "sldNumber", "subTitle", "table", "title"). |
 
 ## Returns
 
@@ -23,7 +23,6 @@ expression.CreatePlaceholder(sType);
 This example shows how to create placeholder for shape.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -35,6 +34,4 @@ oShape.SetSize(300 * 36000, 130 * 36000);
 var oPlaceholder = Api.CreatePlaceholder("picture");
 oShape.SetPlaceholder(oPlaceholder);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "CreatePlaceholder.pptx");
-builder.CloseFile();
 ```

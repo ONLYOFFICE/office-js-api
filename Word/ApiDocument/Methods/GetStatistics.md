@@ -1,6 +1,6 @@
 # GetStatistics
 
-Returns the document statistics represented as an object with the following parameters.
+Returns the document statistics represented as an object with the following parameters:* **PageCount** - number of pages;* **WordsCount** - number of words;* **ParagraphCount** - number of paragraphs;* **SymbolsCount** - number of symbols;* **SymbolsWSCount** - number of symbols with spaces.
 
 ## Syntax
 
@@ -8,26 +8,19 @@ expression.GetStatistics();
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Object
-<br>Returns the document statistics represented as an object with the following parameters:
-- PageCount - number of pages;
-- WordsCount - number of words;
-- ParagraphCount - number of paragraphs;
-- SymbolsCount - number of symbols;
-- SymbolsWSCount - number of symbols with spaces.
+object
 
 ## Example
 
 This example shows how to get the document statistics represented as an object.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is just a sample paragraph.");
@@ -52,6 +45,4 @@ oDocument.Push(oParagraph);
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Symbols with spaces: " + oStatistics.SymbolsWSCount);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetStatistics.docx");
-builder.CloseFile();
 ```

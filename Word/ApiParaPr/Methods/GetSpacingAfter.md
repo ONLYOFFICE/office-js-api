@@ -8,20 +8,19 @@ expression.GetSpacingAfter();
 
 `expression` - A variable that represents a [ApiParaPr](../ApiParaPr.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-[twips](../../../Enumerations/twips.md)
+[twips](../../Enumeration/twips.md)
 
 ## Example
 
 This example shows how to get the spacing after value of the current paragraph.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph1 = oDocument.GetElement(0);
 var oParaPr = oParagraph1.GetParaPr();
@@ -35,6 +34,4 @@ oParagraph2.AddLineBreak();
 var nSpacingAfter = oParaPr.GetSpacingAfter();
 oParagraph2.AddText("Spacing after: " + nSpacingAfter);
 oDocument.Push(oParagraph2);
-builder.SaveFile("docx", "GetSpacingAfter.docx");
-builder.CloseFile();
 ```

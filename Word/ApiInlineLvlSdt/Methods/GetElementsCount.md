@@ -1,6 +1,6 @@
 # GetElementsCount
 
-Returns a number of elements in the current inline text content control. The text content control is created with one text run present in it by default, so even without any element added this method will return the value of '1'.
+Returns a number of elements in the current inline text content control. The text content control is created with one text run present in it by default, so even without any element added this method will return the value of '1'.
 
 ## Syntax
 
@@ -8,20 +8,19 @@ expression.GetElementsCount();
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Number
+number
 
 ## Example
 
 This example shows how to get a number of elements in the inline text content control.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oInlineLvlSdt = Api.CreateInlineLvlSdt();
@@ -41,6 +40,4 @@ oInlineLvlSdt.AddElement(oRun1, 1);
 oInlineLvlSdtCount = oInlineLvlSdt.GetElementsCount();
 oParagraph.AddLineBreak();
 oParagraph.AddText("Number of elements in oInlineLvlSdt (after adding one more element) = " + oInlineLvlSdtCount);
-builder.SaveFile("docx", "GetElementsCount.docx");
-builder.CloseFile();
 ```

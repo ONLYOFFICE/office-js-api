@@ -8,22 +8,21 @@ expression.SetXValues(aValues);
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| aValues | Required | Array<String> | The array of the data which will be set to the x-axis data points. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| aValues | Required | Array.<string> |  | The array of the data which will be set to the x-axis data points. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example sets the x-axis values to all chart series. It is used with the scatter charts only.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oChart = Api.CreateChart("scatter", [
@@ -40,6 +39,4 @@ oStroke = Api.CreateStroke(1 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(255
 oChart.SetMarkerFill(oFill, 1, 0, true);
 oChart.SetMarkerOutLine(oStroke, 1, 0, true);
 oChart.SetXValues([2020, 2021, 2022]);
-builder.SaveFile("docx", "SetXValues.docx");
-builder.CloseFile();er.CloseFile();
 ```

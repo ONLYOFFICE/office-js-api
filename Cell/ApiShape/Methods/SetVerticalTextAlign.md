@@ -4,26 +4,25 @@ Sets the vertical alignment to the shape content where a paragraph or text runs 
 
 ## Syntax
 
-expression.SetVerticalTextAlign(VerticalAlign);
+expression.SetVerticalTextAlign(sVerticalAlign);
 
 `expression` - A variable that represents a [ApiShape](../ApiShape.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| VerticalAlign | Required | [VerticalTextAlign](../../../Enumerations/VerticalTextAlign.md) | The type of the vertical alignment for the shape inner contents. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sVerticalAlign | Required | "top" &#124;"center" &#124;"bottom" |  | The vertical alignment type for the shape inner contents. |
 
 ## Returns
 
-Boolean (returns false if shape or aligment doesn't exist)
+boolean
 
 ## Example
 
 This example sets the vertical alignment to the shape content where a paragraph or text runs can be inserted.
 
 ```javascript
-builder.CreateFile("xlsx");
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -36,6 +35,4 @@ oParagraph.SetJc("left");
 oParagraph.AddText("We removed all elements from the shape and added a new paragraph inside it ");
 oParagraph.AddText("aligning it vertically by the bottom.");
 oDocContent.Push(oParagraph);
-builder.SaveFile("xlsx", "SetVerticalTextAlign.xlsx");
-builder.CloseFile();
 ```

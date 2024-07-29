@@ -8,20 +8,19 @@ expression.GetLabel();
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-String
+string
 
 ## Example
 
 This example shows how to get the label attribute for the container.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oInlineLvlSdt = Api.CreateInlineLvlSdt();
@@ -34,6 +33,4 @@ var sLabel = oInlineLvlSdt.GetLabel();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Label: " + sLabel);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "GetLabel.docx");
-builder.CloseFile();
 ```

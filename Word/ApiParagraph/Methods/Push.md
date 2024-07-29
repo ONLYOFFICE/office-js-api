@@ -8,22 +8,21 @@ expression.Push(oElement);
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| oElement | Required | [ParagraphContent](../../../Enumerations/ParagraphContent.md) | The document element which will be added at the current position. Returns false if the oElement type is not supported by a paragraph. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| oElement | Required | [ParagraphContent](../../Enumeration/ParagraphContent.md) |  | The document element which will be added at the current position. Returns false if theoElement type is not supported by a paragraph. |
 
 ## Returns
 
-Boolaen (returns "false" if the type of "oElement" is not supported by paragraph content)
+boolean
 
 ## Example
 
 This example adds a oRun to the paragraph.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oRun = Api.CreateRun();
@@ -36,6 +35,4 @@ for (let nRunIncrease = 0; nRunIncrease < 5; ++nRunIncrease) {
 	oParagraph.AddLineBreak();
 	oParagraph.Push(oRun);
 }
-builder.SaveFile("docx", "Push.docx");
-builder.CloseFile();
 ```

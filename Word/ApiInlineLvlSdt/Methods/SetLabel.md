@@ -8,11 +8,11 @@ expression.SetLabel(sLabel);
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| sLabel | Required | String | The label which will be added to the current inline text content control. Can be a positive or negative integer from -2147483647 to 2147483647. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sLabel | Required | string |  | The label which will be added to the current inline text content control. Can be a positive or negative integer from **-2147483647** to **2147483647**. |
 
 ## Returns
 
@@ -23,7 +23,6 @@ This method doesn't return any data.
 This example sets a string label to the inline text content control.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oInlineLvlSdt = Api.CreateInlineLvlSdt();
@@ -36,6 +35,4 @@ var sLabel = oInlineLvlSdt.GetLabel();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Label: " + sLabel);
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetLabel.docx");
-builder.CloseFile();
 ```

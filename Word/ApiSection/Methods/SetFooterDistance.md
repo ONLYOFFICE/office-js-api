@@ -8,11 +8,11 @@ expression.SetFooterDistance(nDistance);
 
 `expression` - A variable that represents a [ApiSection](../ApiSection.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| nDistance | Required | [twips](../../../Enumerations/twips.md)  | The distance from the bottom edge of the page to the bottom edge of the footer measured in twentieths of a point (1/1440 of an inch). |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| nDistance | Required | [twips](../../Enumeration/twips.md) |  | The distance from the bottom edge of the page to the bottom edge of the footer measuredin twentieths of a point (1/1440 of an inch). |
 
 ## Returns
 
@@ -23,7 +23,6 @@ This method doesn't return any data.
 This example specifies the distance from the bottom edge of the page to the bottom edge of the footer.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is a page with a footer. ");
@@ -34,6 +33,4 @@ oSection.SetFooterDistance(1440);
 oParagraph = oFooter.GetElement(0);
 oParagraph.AddText("This is a page footer. ");
 oParagraph.AddText("The distance from the page bottom to the footer is 1 inch (1440 twentieths of a point).");
-builder.SaveFile("docx", "SetFooterDistance.docx");
-builder.CloseFile();
 ```

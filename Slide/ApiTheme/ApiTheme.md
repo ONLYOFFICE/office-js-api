@@ -1,14 +1,14 @@
 # ApiTheme
 
-Class representing a theme.
+Represents the ApiTheme class.
 
 ## Methods
 
 - [GetClassType](./Methods/GetClassType.md)
-- [GetColorScheme](./Methods/GetColorScheme.md)
-- [GetFontScheme](./Methods/GetFontScheme.md)
-- [GetFormatScheme](./Methods/GetFormatScheme.md)
 - [GetMaster](./Methods/GetMaster.md)
 - [SetColorScheme](./Methods/SetColorScheme.md)
-- [SetFontScheme](./Methods/SetFontScheme.md)
+- [GetColorScheme](./Methods/GetColorScheme.md)
 - [SetFormatScheme](./Methods/SetFormatScheme.md)
+- [GetFormatScheme](./Methods/GetFormatScheme.md)
+- [SetFontScheme](./Methods/SetFontScheme.md)
+- [GetFontScheme](./Methods/GetFontScheme.md)

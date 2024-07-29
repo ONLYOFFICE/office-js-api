@@ -1,6 +1,6 @@
 # SetDrawingPrFromDrawing
 
-Sets the properties from another drawing to the current drawing. The following properties will be copied: horizontal and vertical alignment, distance between the edges of the current drawing object and any subsequent text, wrapping style, drawing name, title and description.
+Sets the properties from another drawing to the current drawing.The following properties will be copied: horizontal and vertical alignment, distance between the edges of the current drawing object and any subsequent text, wrapping style, drawing name, title and description.
 
 ## Syntax
 
@@ -8,22 +8,21 @@ expression.SetDrawingPrFromDrawing(oAnotherDrawing);
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 
-## Parametrs
+## Parameters
 
-| **Name** | **Required/Optional** | **Data type** | **Description** |
-| ------------- | ------------- | ------------- | ------------- |
-| oAnotherDrawing | Required | [ApiDrawing](../ApiDrawing.md) | The drawing which properties will be set to the current drawing. |
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| oAnotherDrawing | Required | [ApiDrawing](../../ApiDrawing/ApiDrawing.md) |  | The drawing which properties will be set to the current drawing. |
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example sets the properties from another drawing to the drawing.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is a paragraph with a shape. ");
@@ -55,6 +54,4 @@ oDocument.Push(oParagraph);
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("It has the same properties (alignment type, distances and wrapping type) as the shape above.");
 oDocument.Push(oParagraph);
-builder.SaveFile("docx", "SetDrawingPrFromDrawing.docx");
-builder.CloseFile();
 ```

@@ -8,7 +8,7 @@ expression.CreateNewHistoryPoint();
 
 `expression` - A variable that represents a [ApiPresentation](../ApiPresentation.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
@@ -21,7 +21,6 @@ This method doesn't return any data.
 This example creates a new history point.
 
 ```javascript
-builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
@@ -37,6 +36,4 @@ oParagraph = Api.CreateParagraph();
 oParagraph.AddText("New history point was just created.");
 oDocContent.Push(oParagraph);
 oSlide.AddObject(oShape);
-builder.SaveFile("pptx", "CreateNewHistoryPoint.pptx");
-builder.CloseFile();
 ```

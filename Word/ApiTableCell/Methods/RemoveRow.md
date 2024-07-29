@@ -8,20 +8,19 @@ expression.RemoveRow();
 
 `expression` - A variable that represents a [ApiTableCell](../ApiTableCell.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
 ## Returns
 
-Boolean
+boolean
 
 ## Example
 
 This example removes a row containing the cell.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
 oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
@@ -32,6 +31,4 @@ oDocument.Push(oTable);
 oTable.GetCell(0, 0).GetContent().GetElement(0).AddText("Cell 1");
 oTable.GetCell(0, 0).RemoveRow();
 oTable.GetCell(0, 0).GetContent().GetElement(0).AddText("A row with Cell 1 was removed.");
-builder.SaveFile("docx", "RemoveRow.docx");
-builder.CloseFile();
 ```

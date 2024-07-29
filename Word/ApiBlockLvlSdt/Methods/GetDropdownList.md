@@ -1,6 +1,6 @@
 # GetDropdownList
 
-Returns list values of combobox/dropdown list content control.
+Returns a list of values of the combo box / dropdown list content control.
 
 ## Syntax
 
@@ -8,7 +8,7 @@ expression.GetDropdownList();
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 

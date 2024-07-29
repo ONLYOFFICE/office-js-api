@@ -8,7 +8,7 @@ expression.RemoveAllElements();
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
@@ -21,7 +21,6 @@ This method doesn't return any data.
 This example removes all the elements from the run.
 
 ```javascript
-builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 var oRun1 = Api.CreateRun();
@@ -33,6 +32,4 @@ oParagraph.AddElement(oRun2);
 oRun1.RemoveAllElements();
 oParagraph.AddLineBreak();
 oParagraph.AddText("The sample text №1 was removed from the document.");
-builder.SaveFile("docx", "RemoveAllElements.docx");
-builder.CloseFile();
 ```

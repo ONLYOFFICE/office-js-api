@@ -1,6 +1,6 @@
 # GetWatermarkSettings
 
-Returns the current settings of watermark in the document.
+Returns the watermark settings in the current document.
 
 ## Syntax
 
@@ -8,7 +8,7 @@ expression.GetWatermarkSettings();
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
-## Parametrs
+## Parameters
 
 This method doesn't have any parameters.
 
@@ -21,7 +21,6 @@ This method doesn't have any parameters.
 This example sets the parameters of the watermark settings and apply them to the document.
 
 ```javascript
-builder.CreateFile("docx");
 const oDocument = Api.GetDocument();
 const oWatermarkSettings = oDocument.GetWatermarkSettings();
 oWatermarkSettings.SetType("text");
@@ -37,6 +36,4 @@ oTextPr.SetColor(0, 255, 0);
 oTextPr.SetHighlight("blue");
 oWatermarkSettings.SetTextPr(oTextPr);
 oDocument.SetWatermarkSettings(oWatermarkSettings);
-builder.SaveFile("docx", "GetWatermarkSettings.docx");
-builder.CloseFile();
 ```
