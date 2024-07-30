@@ -11,7 +11,7 @@ oRun.AddText("The text properties are changed and the style is added to the para
 oParagraph.AddElement(oRun);
 // todo_example in cells we don't have ability to create a style
 // var oMyNewRunStyle = oDocument.CreateStyle("My New Run Style", "run");
-var oTextPr = oMyNewRunStyle.GetTextPr();
+//var oTextPr = oMyNewRunStyle.GetTextPr();
 oRun = Api.CreateRun();
 // oRun.SetStyle(oMyNewRunStyle);
 oRun.AddText("This is a text run with its own style.");

@@ -1,6 +1,6 @@
 // This example freezes first column and get pastes a freezed range address into the table.
 builder.CreateFile("xlsx");
-Api.FreezePanes('column');
+Api.SetFreezePanesType('column');
 var oWorksheet = Api.GetActiveSheet();
 var oFreezePanes = oWorksheet.GetFreezePanes();
 var oRange = oFreezePanes.GetLocation();

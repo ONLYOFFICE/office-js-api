@@ -29,5 +29,5 @@ var oRange = oWorksheet.GetRange("A1");
 var oComment = oRange.AddComment("This is just a number.", "John Smith");
 oWorksheet.GetRange("A3").SetValue("Comment is solved: ");
 oComment.SetSolved(true);
-oWorksheet.GetRange("B3").SetValue(oComment.GetSolved());
+oWorksheet.GetRange("B3").SetValue(oComment.IsSolved());
 ```

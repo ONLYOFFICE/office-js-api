@@ -1,5 +1,5 @@
 // This example freezes first column then unfreeze all panes in the worksheet.
-Api.FreezePanes('column');
+Api.SetFreezePanesType('column');
 var oWorksheet = Api.GetActiveSheet();
 var oFreezePanes = oWorksheet.GetFreezePanes();
 oFreezePanes.Unfreeze();
