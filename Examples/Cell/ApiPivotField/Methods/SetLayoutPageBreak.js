@@ -23,10 +23,15 @@ var dataRef = Api.GetRange("'Sheet1'!$B$1:$D$5");
 var pivotTable = Api.InsertPivotNewWorksheet(dataRef);
 
 pivotTable.AddFields({
-	rows: 'Region',
-	columns: 'Style',
+	rows: ['Region', 'Style'],
 });
 
 pivotTable.AddDataField('Price');
 
-pivotTable.GetDataBodyRange().Select();
+var pivotWorksheet = Api.GetActiveSheet();
+var pivotField = pivotTable.GetPivotFields('Region');
+
+pivotField.SetLayoutPageBreak(true);
+
+pivotWorksheet.GetRange('A15').SetValue('Page break:');
+pivotWorksheet.GetRange('B15').SetValue(pivotField.GetLayoutPageBreak());

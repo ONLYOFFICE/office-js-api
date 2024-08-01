@@ -1,3 +1,4 @@
+ 
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');
@@ -22,18 +23,7 @@ oWorksheet.GetRange('D5').SetValue(24.8);
 var dataRef = Api.GetRange("'Sheet1'!$B$1:$D$5");
 var pivotTable = Api.InsertPivotNewWorksheet(dataRef);
 
-pivotTable.AddDataField('Price');
+pivotTable.ClearAllFilters();
 
-pivotTable.AddFields({
-	rows: 'Region',
-	pages: 'Style',
-});
-
-const info = pivotTable.GetDisplayFieldsInReportFilterArea();
-
-var pivotWorksheet = Api.GetActiveSheet();
-pivotWorksheet.GetRange('A9').SetValue('Type');
-pivotWorksheet.GetRange('B9').SetValue(info.Type);
-
-pivotWorksheet.GetRange('A10').SetValue('ReportFilterFields');
-pivotWorksheet.GetRange('B10').SetValue(info.ReportFilterFields);
+builder.SaveFile('xlsx', 'ClearAllFilters.xlsx');
+builder.CloseFile();

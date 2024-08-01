@@ -22,16 +22,18 @@ oWorksheet.GetRange('D5').SetValue(24.8);
 var dataRef = Api.GetRange("'Sheet1'!$B$1:$D$5");
 var pivotTable = Api.InsertPivotNewWorksheet(dataRef);
 
-pivotTable.AddFields({
-	columns: ['Region', 'Style'],
-});
-
 pivotTable.AddDataField('Price');
 
+pivotTable.AddFields({
+	pages: ['Region','Style', 'Price'],
+});
+
+pivotTable.SetDisplayFieldsInReportFilterArea('OverThenDown', 3);
+const info = pivotTable.GetDisplayFieldsInReportFilterArea();
+
 var pivotWorksheet = Api.GetActiveSheet();
-var pivotField = pivotTable.GetPivotFields('Region');
+pivotWorksheet.GetRange('A9').SetValue('Type');
+pivotWorksheet.GetRange('B9').SetValue(info.Type);
 
-pivotField.SetSubtotalName('My name');
-
-pivotWorksheet.GetRange('A14').SetValue('Region subtotal name');
-pivotWorksheet.GetRange('B14').SetValue(pivotField.GetSubtotalName());
+pivotWorksheet.GetRange('A10').SetValue('ReportFilterFields');
+pivotWorksheet.GetRange('B10').SetValue(info.ReportFilterFields);

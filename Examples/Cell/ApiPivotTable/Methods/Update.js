@@ -1,3 +1,4 @@
+ 
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');
@@ -23,10 +24,13 @@ var dataRef = Api.GetRange("'Sheet1'!$B$1:$D$5");
 var pivotTable = Api.InsertPivotNewWorksheet(dataRef);
 
 pivotTable.AddFields({
-	rows: 'Region',
-	columns: 'Style',
+    rows: 'Region',
+    columns: 'Style'
 });
 
 pivotTable.AddDataField('Price');
 
-pivotTable.GetDataBodyRange().Select();
+pivotTable.Update();
+
+builder.SaveFile('xlsx', 'ShowDetails.xlsx');
+builder.CloseFile();

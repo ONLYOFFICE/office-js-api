@@ -29,4 +29,6 @@ pivotTable.AddFields({
 
 pivotTable.AddDataField('Price');
 
-pivotTable.GetDataBodyRange().Select();
+var pivotWorksheet = Api.GetActiveSheet();
+var pivotField = pivotTable.GetPivotFields('Region');
+pivotField.ClearLabelFilters();

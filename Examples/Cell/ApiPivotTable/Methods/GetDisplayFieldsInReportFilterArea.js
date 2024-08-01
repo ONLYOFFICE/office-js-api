@@ -22,11 +22,17 @@ oWorksheet.GetRange('D5').SetValue(24.8);
 var dataRef = Api.GetRange("'Sheet1'!$B$1:$D$5");
 var pivotTable = Api.InsertPivotNewWorksheet(dataRef);
 
-pivotTable.AddFields({
-	rows: 'Region',
-	columns: 'Style',
-});
-
 pivotTable.AddDataField('Price');
 
-pivotTable.GetDataBodyRange().Select();
+pivotTable.AddFields({
+	pages: ['Style', 'Region']
+});
+
+const info = pivotTable.GetDisplayFieldsInReportFilterArea();
+
+var pivotWorksheet = Api.GetActiveSheet();
+pivotWorksheet.GetRange('A9').SetValue('Type');
+pivotWorksheet.GetRange('B9').SetValue(info.Type);
+
+pivotWorksheet.GetRange('A10').SetValue('ReportFilterFields');
+pivotWorksheet.GetRange('B10').SetValue(info.ReportFilterFields);
