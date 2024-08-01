@@ -32,7 +32,5 @@ pivotTable.AddDataField('Style');
 var pivotWorksheet = Api.GetActiveSheet();
 var pivotField = pivotTable.GetPivotFields('Style');
 
-pivotField.SetDragToPage(false);
-
 pivotWorksheet.GetRange('A13').SetValue('Current Page');
 pivotWorksheet.GetRange('B13').SetValue(pivotField.GetCurrentPage());
