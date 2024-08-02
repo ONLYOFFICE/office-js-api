@@ -1,0 +1,1 @@
+window.Asc.plugin.executeMethod ("RemoveComments", [["1_631", "1_632"]]);

@@ -1,0 +1,1 @@
+window.Asc.plugin.executeMethod ("MoveToComment", ["1_631"]);
