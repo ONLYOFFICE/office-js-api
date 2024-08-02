@@ -21,16 +21,24 @@ This method doesn't have any parameters.
 This example shows how to create a text properties and use it.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oTextPr = Api.CreateTextPr();
-oTextPr.SetFontSize(30);
-oTextPr.SetBold(true);
-oTextPr.SetCaps(true);
-oTextPr.SetColor(51, 51, 51, false);
-oTextPr.SetFontFamily("Comic Sans MS");
+var oPresentation = Api.GetPresentation();
+var oSlide = oPresentation.GetSlideByIndex(0);
+oSlide.RemoveAllObjects();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-var oStroke = Api.CreateStroke(1 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51)));
-var oTextArt = Api.CreateWordArt(oTextPr, "onlyoffice", "textArchUp", oFill, oStroke, 0, 150 * 36000, 50 * 36000);
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddDrawing(oTextArt);
+var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
+var oShape = Api.CreateShape("flowChartMagneticTape", 300 * 36000, 130 * 36000, oFill, oStroke);
+oShape.SetPosition(608400, 1267200);
+var oDocContent = oShape.GetDocContent();
+oDocContent.RemoveAllElements();
+var oTextPr = Api.CreateTextPr();
+oTextPr.SetFontSize(50);
+oTextPr.SetBold(true);
+var oParagraph = Api.CreateParagraph();
+oParagraph.SetJc("left");
+var oRun = Api.CreateRun();
+oRun.AddText("This is a sample text with the font size set to 25 points and the font weight set to bold.");
+oRun.SetTextPr(oTextPr);
+oParagraph.AddElement(oRun);
+oDocContent.Push(oParagraph);
+oSlide.AddObject(oShape);
 ```

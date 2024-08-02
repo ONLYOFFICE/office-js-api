@@ -23,15 +23,12 @@ This method doesn't return any data.
 This example removes an element using the position specified.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
+var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oDrawing = Api.CreateShape("rect", 3212465, 1926590, oFill, oStroke);
-oParagraph.AddDrawing(oDrawing);
-var oDocContent = oDrawing.GetDocContent();
-oDocContent.RemoveAllElements();
-oParagraph = oDocContent.GetElement(0);
+var oShape = oWorksheet.AddShape("flowChartOnlineStorage", 200 * 36000, 60 * 36000, oFill, oStroke, 0, 2 * 36000, 0, 3 * 36000);
+var oDocContent = oShape.GetContent();
+var oParagraph = oDocContent.GetElement(0);
 oParagraph.AddText("This is paragraph #1.");
 for (let nParaIncrease = 1; nParaIncrease < 5; ++nParaIncrease) {
 	oParagraph = Api.CreateParagraph();

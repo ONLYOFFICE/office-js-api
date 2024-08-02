@@ -23,8 +23,12 @@ expression.GetElement(nPos);
 This example shows how to get a paragraph element using the position specified.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = Api.CreateParagraph();
+var oWorksheet = Api.GetActiveSheet();
+var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
+var oShape = oWorksheet.AddShape("flowChartOnlineStorage", 120 * 36000, 70 * 36000, oFill, oStroke, 0, 2 * 36000, 0, 3 * 36000);
+var oDocContent = oShape.GetContent();
+var oParagraph = oDocContent.GetElement(0);
 oParagraph.RemoveAllElements();
 var oRun = Api.CreateRun();
 oRun.AddText("This is the text for the first text run. Do not forget a space at its end to separate from the second one. ");
@@ -35,7 +39,6 @@ oParagraph.AddElement(oRun);
 oRun = Api.CreateRun();
 oRun.AddText("This is the text for the third run. It ends the paragraph.");
 oParagraph.AddElement(oRun);
-oRun = oParagraph.GetElement(1);
+oRun = oParagraph.GetElement(2);
 oRun.SetBold(true);
-oDocument.Push(oParagraph);
 ```

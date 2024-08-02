@@ -15,7 +15,7 @@ expression.SetPosition(nFromCol, nColOffset, nFromRow, nRowOffset);
 | nFromCol | Required | number |  | The number of the column where the beginning of the drawing object will be placed. |
 | nColOffset | Required | [EMU](../../Enumeration/EMU.md) |  | The offset from the nFromCol column to the left part of the drawing object measured in English measure units. |
 | nFromRow | Required | number |  | The number of the row where the beginning of the drawing object will be placed. |
-| nRowOffset | Required | [EMU](../../Enumeration/EMU.md) |  | The offset from the nFromRow row to the upper part of the drawing object measured in English measure units.* @see office-js-api/Examples/Cell/ApiDrawing/Methods/SetPosition.js |
+| nRowOffset | Required | [EMU](../../Enumeration/EMU.md) |  | The offset from the nFromRow row to the upper part of the drawing object measured in English measure units.* @see office-js-api/Examples/{Editor}/ApiDrawing/Methods/SetPosition.js |
 
 ## Returns
 

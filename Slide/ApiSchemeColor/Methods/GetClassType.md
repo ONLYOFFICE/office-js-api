@@ -18,18 +18,22 @@ This method doesn't have any parameters.
 
 ## Example
 
-This example gets a class type and inserts it into the document.
+This example gets a class type and pastes it into the presentation.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
+var oPresentation = Api.GetPresentation();
+var oSlide = oPresentation.GetSlideByIndex(0);
+oSlide.RemoveAllObjects();
 var oSchemeColor = Api.CreateSchemeColor("dk1");
 var oFill = Api.CreateSolidFill(oSchemeColor);
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oDrawing = Api.CreateShape("curvedUpArrow", 5930900, 595605, oFill, oStroke);
-oParagraph.AddDrawing(oDrawing);
+var oShape = Api.CreateShape("flowChartMagneticTape", 300 * 36000, 130 * 36000, oFill, oStroke);
+oShape.SetPosition(608400, 1267200);
+oShape.SetSize(300 * 36000, 130 * 36000);
+var oDocContent = oShape.GetDocContent();
 var sClassType = oSchemeColor.GetClassType();
-oParagraph = Api.CreateParagraph();
+var oParagraph = oDocContent.GetElement(0);
+oParagraph.SetJc("left");
 oParagraph.AddText("Class Type = " + sClassType);
-oDocument.Push(oParagraph);
+oSlide.AddObject(oShape);
 ```

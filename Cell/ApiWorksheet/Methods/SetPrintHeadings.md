@@ -12,7 +12,7 @@ expression.SetPrintHeadings(bPrint);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| bPrint | Required | boolean |  | Specifies whether the current sheet row/column headers must be printed or not.* @see office-js-api/Examples/Cell/ApiWorksheet/Methods/SetPrintHeadings.js |
+| bPrint | Required | boolean |  | Specifies whether the current sheet row/column headers must be printed or not.* @see office-js-api/Examples/{Editor}/ApiWorksheet/Methods/SetPrintHeadings.js |
 
 ## Returns
 

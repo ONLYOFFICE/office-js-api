@@ -21,15 +21,15 @@ This method doesn't return any data.
 This example removes all the elements from the run.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oRun1 = Api.CreateRun();
-oRun1.AddText("This is sample text №1.");
-oParagraph.AddElement(oRun1);
-var oRun2 = Api.CreateRun();
-oRun2.AddText("This is sample text №2.");
-oParagraph.AddElement(oRun2);
-oRun1.RemoveAllElements();
-oParagraph.AddLineBreak();
-oParagraph.AddText("The sample text №1 was removed from the document.");
+var oWorksheet = Api.GetActiveSheet();
+var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
+var oShape = oWorksheet.AddShape("flowChartOnlineStorage", 60 * 36000, 35 * 36000, oFill, oStroke, 0, 2 * 36000, 0, 3 * 36000);
+var oDocContent = oShape.GetContent();
+var oParagraph = oDocContent.GetElement(0);
+var oRun = Api.CreateRun();
+oRun.AddText("This is just a sample text.");
+oRun.RemoveAllElements();
+oRun.AddText("All elements from this run were removed before adding this text.");
+oParagraph.AddElement(oRun);
 ```

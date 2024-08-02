@@ -12,7 +12,7 @@ expression.SetLegendFontSize(nFontSize);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| nFontSize | Required | [pt](../../Enumeration/pt.md) |  | The text size value measured in points.* @see office-js-api/Examples/Word/ApiChart/Methods/SetLegendFontSize.js |
+| nFontSize | Required | [pt](../../Enumeration/pt.md) |  | The text size value measured in points.* @see office-js-api/Examples/{Editor}/ApiChart/Methods/SetLegendFontSize.js |
 
 ## Returns
 

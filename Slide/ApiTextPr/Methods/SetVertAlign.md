@@ -20,33 +20,24 @@ expression.SetVertAlign(sType);
 
 ## Example
 
-This example specifies the alignment which will be applied to the contents of the current run in relation to the default appearance of the text run.
+This example specifies the alignment which will be applied to the contents of the run in relation to the default appearance of the run text.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
+var oPresentation = Api.GetPresentation();
+var oSlide = oPresentation.GetSlideByIndex(0);
+oSlide.RemoveAllObjects();
+var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
+var oShape = Api.CreateShape("flowChartMagneticTape", 300 * 36000, 130 * 36000, oFill, oStroke);
+oShape.SetPosition(608400, 1267200);
+var oDocContent = oShape.GetDocContent();
+var oParagraph = oDocContent.GetElement(0);
 var oRun = Api.CreateRun();
-oRun.AddText("This is just a sample text. ");
+var oTextPr = oRun.GetTextPr();
+oTextPr.SetFontSize(50);
+oTextPr.SetVertAlign("superscript");
+oParagraph.SetJc("left");
+oRun.AddText("This is a text inside the shape with vertical alignment set to 'superscript'.");
 oParagraph.AddElement(oRun);
-var oMyNewRunStyle1 = oDocument.CreateStyle("My New Run Style 1", "run");
-var oTextPr1 = oMyNewRunStyle1.GetTextPr();
-oTextPr1.SetVertAlign("subscript");
-oRun = Api.CreateRun();
-oRun.SetStyle(oMyNewRunStyle1);
-oRun.AddText("This is a text run with the text aligned below the baseline vertically. ");
-oParagraph.AddElement(oRun);
-var oMyNewRunStyle2 = oDocument.CreateStyle("My New Run Style 2", "run");
-var oTextPr2 = oMyNewRunStyle2.GetTextPr();
-oTextPr2.SetVertAlign("baseline");
-oRun = Api.CreateRun();
-oRun.SetStyle(oMyNewRunStyle2);
-oRun.AddText("This is a text run with the text aligned by the baseline vertically. ");
-oParagraph.AddElement(oRun);
-var oMyNewRunStyle3 = oDocument.CreateStyle("My New Run Style 3", "run");
-var oTextPr3 = oMyNewRunStyle3.GetTextPr();
-oTextPr3.SetVertAlign("superscript");
-oRun = Api.CreateRun();
-oRun.SetStyle(oMyNewRunStyle3);
-oRun.AddText("This is a text run with the text aligned above the baseline vertically.");
-oParagraph.AddElement(oRun);
+oSlide.AddObject(oShape);
 ```

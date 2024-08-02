@@ -21,20 +21,13 @@ This method doesn't have any parameters.
 This example gets a class type and inserts it into the document.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
+var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oDrawing = Api.CreateShape("rect", 3212465, 963295, oFill, oStroke);
-oParagraph.AddDrawing(oDrawing);
-var oDocContent = oDrawing.GetDocContent();
-oDocContent.RemoveAllElements();
-oParagraph = Api.CreateParagraph();
-oParagraph.SetJc("left");
-oParagraph.AddText("We removed all elements from the shape and added a new paragraph inside it.");
-oDocContent.AddElement(0, oParagraph);
+var oShape = oWorksheet.AddShape("flowChartOnlineStorage", 200 * 36000, 60 * 36000, oFill, oStroke, 0, 2 * 36000, 0, 3 * 36000);
+var oDocContent = oShape.GetContent();
 var sClassType = oDocContent.GetClassType();
-oParagraph = Api.CreateParagraph();
+var oParagraph = oDocContent.GetElement(0);
+oParagraph.SetJc("left");
 oParagraph.AddText("Class Type = " + sClassType);
-oDocument.Push(oParagraph);
 ```

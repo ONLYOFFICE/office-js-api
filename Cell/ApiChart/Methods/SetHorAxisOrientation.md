@@ -12,7 +12,7 @@ expression.SetHorAxisOrientation(bIsMinMax);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| bIsMinMax | Required | boolean |  | The <code>true</code> value will set the normal data direction for the horizontal axis (from minimum to maximum).* @see office-js-api/Examples/Word/ApiChart/Methods/SetHorAxisOrientation.js |
+| bIsMinMax | Required | boolean |  | The <code>true</code> value will set the normal data direction for the horizontal axis (from minimum to maximum).* @see office-js-api/Examples/{Editor}/ApiChart/Methods/SetHorAxisOrientation.js |
 
 ## Returns
 

@@ -12,7 +12,7 @@ expression.SetHorAxisMajorTickMark(sTickMark);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sTickMark | Required | [TickMark](../../Enumeration/TickMark.md) |  | The type of tick mark appearance.* @see office-js-api/Examples/Word/ApiChart/Methods/SetHorAxisMajorTickMark.js |
+| sTickMark | Required | [TickMark](../../Enumeration/TickMark.md) |  | The type of tick mark appearance.* @see office-js-api/Examples/{Editor}/ApiChart/Methods/SetHorAxisMajorTickMark.js |
 
 ## Returns
 

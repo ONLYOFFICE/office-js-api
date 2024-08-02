@@ -17,7 +17,7 @@ expression.SetShowPointDataLabel(nSeriesIndex, nPointIndex, bShowSerName, bShowC
 | bShowSerName | Required | boolean |  | Whether to show or hide the source table column names used for the data which the chart will be build from. |
 | bShowCatName | Required | boolean |  | Whether to show or hide the source table row names used for the data which the chart will be build from. |
 | bShowVal | Required | boolean |  | Whether to show or hide the chart data values. |
-| bShowPercent | Required | boolean |  | Whether to show or hide the percent for the data values (works with stacked chart types).* @see office-js-api/Examples/Word/ApiChart/Methods/SetShowPointDataLabel.js |
+| bShowPercent | Required | boolean |  | Whether to show or hide the percent for the data values (works with stacked chart types).* @see office-js-api/Examples/{Editor}/ApiChart/Methods/SetShowPointDataLabel.js |
 
 ## Returns
 

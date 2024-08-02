@@ -21,18 +21,16 @@ This method doesn't have any parameters.
 This example shows how to get the text properties of the run.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oMyNewRunStyle = oDocument.CreateStyle("My New Run Style", "run");
-var oTextPr = oMyNewRunStyle.GetTextPr();
-oTextPr.SetCaps(true);
-oTextPr.SetFontFamily("Calibri Light");
-var oParagraph = oDocument.GetElement(0);
+var oWorksheet = Api.GetActiveSheet();
+var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
+var oShape = oWorksheet.AddShape("flowChartOnlineStorage", 120 * 36000, 70 * 36000, oFill, oStroke, 0, 2 * 36000, 0, 3 * 36000);
+var oDocContent = oShape.GetContent();
+var oParagraph = oDocContent.GetElement(0);
 var oRun = Api.CreateRun();
-oRun.AddText("This is just a sample text. ");
-oRun.AddText("The text properties are changed and the style is added to the paragraph. ");
-oParagraph.AddElement(oRun);
-oRun = Api.CreateRun();
-oRun.SetStyle(oMyNewRunStyle);
-oRun.AddText("This is a text run with its own style.");
+var oTextPr = oRun.GetTextPr();
+oTextPr.SetFontSize(30);
+oParagraph.SetJc("left");
+oRun.AddText("This is a sample text inside the shape with the font size set to 15 points using the text properties.");
 oParagraph.AddElement(oRun);
 ```

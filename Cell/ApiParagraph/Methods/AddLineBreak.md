@@ -21,10 +21,14 @@ This method doesn't have any parameters.
 This example adds a line break to the current position and starts the next element from a new line.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oRun = oParagraph.AddText("This is the text for the first line. Nothing special.");
+var oWorksheet = Api.GetActiveSheet();
+var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
+var oShape = oWorksheet.AddShape("flowChartOnlineStorage", 120 * 36000, 70 * 36000, oFill, oStroke, 0, 2 * 36000, 0, 3 * 36000);
+var oDocContent = oShape.GetContent();
+var oParagraph = oDocContent.GetElement(0);
+oParagraph.SetJc("left");
+oParagraph.AddText("This is a text inside the shape aligned left.");
 oParagraph.AddLineBreak();
-oRun = oParagraph.AddText("This is the text which starts from the beginning of the second line. ");
-oRun = oParagraph.AddText("It is written in two text runs, you need a space at the end of the first run sentence to separate them.");
+oParagraph.AddText("This is a text after the line break.");
 ```

@@ -12,7 +12,7 @@ expression.SetPageOrientation(sPageOrientation);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sPageOrientation | Required | [PageOrientation](../../Enumeration/PageOrientation.md) |  | The page orientation type.* @see office-js-api/Examples/Cell/ApiWorksheet/Methods/SetPageOrientation.js |
+| sPageOrientation | Required | [PageOrientation](../../Enumeration/PageOrientation.md) |  | The page orientation type.* @see office-js-api/Examples/{Editor}/ApiWorksheet/Methods/SetPageOrientation.js |
 
 ## Returns
 

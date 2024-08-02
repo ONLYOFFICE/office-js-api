@@ -24,21 +24,23 @@ This method doesn't return any data.
 This example sets a sequence of custom tab stops which will be used for any tab characters in the paragraph.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oMyStyle = oDocument.CreateStyle("My document style");
-var oParaPr = oMyStyle.GetParaPr();
-oParaPr.SetTabs([1440, 4320, 7200], ["left", "center", "right"]);
-var oParagraph = oDocument.GetElement(0);
-oParagraph.SetStyle(oMyStyle);
+var oWorksheet = Api.GetActiveSheet();
+var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
+var oShape = oWorksheet.AddShape("flowChartOnlineStorage", 150 * 36000, 70 * 36000, oFill, oStroke, 0, 2 * 36000, 0, 3 * 36000);
+var oDocContent = oShape.GetContent();
+var oParagraph = oDocContent.GetElement(0);
+var oParaPr = oParagraph.GetParaPr();
+oParaPr.SetTabs([1440, 2880, 4320], ["left", "center", "right"]);
 oParagraph.AddTabStop();
 oParagraph.AddText("Custom tab - 1 inch left");
 oParagraph.AddLineBreak();
 oParagraph.AddTabStop();
 oParagraph.AddTabStop();
-oParagraph.AddText("Custom tab - 3 inches center");
+oParagraph.AddText("Custom tab - 2 inches center");
 oParagraph.AddLineBreak();
 oParagraph.AddTabStop();
 oParagraph.AddTabStop();
 oParagraph.AddTabStop();
-oParagraph.AddText("Custom tab - 5 inches right");
+oParagraph.AddText("Custom tab - 3 inches right");
 ```

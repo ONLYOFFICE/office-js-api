@@ -12,7 +12,7 @@ expression.SetPrintGridlines(bPrint);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| bPrint | Required | boolean |  | Defines if cell gridlines are printed on this page or not.* @see office-js-api/Examples/Cell/ApiWorksheet/Methods/SetPrintGridlines.js |
+| bPrint | Required | boolean |  | Defines if cell gridlines are printed on this page or not.* @see office-js-api/Examples/{Editor}/ApiWorksheet/Methods/SetPrintGridlines.js |
 
 ## Returns
 
