@@ -12,7 +12,7 @@ expression.SetVertAxisTickLabelPosition(sTickLabelPosition);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sTickLabelPosition | Required | [TickLabelPosition](../../Enumeration/TickLabelPosition.md) |  | The type for the position of chart vertical tick labels.* @see office-js-api/Examples/Word/ApiChart/Methods/SetVertAxisTickLabelPosition.js |
+| sTickLabelPosition | Required | [TickLabelPosition](../../Enumeration/TickLabelPosition.md) |  | The type for the position of chart vertical tick labels.* @see office-js-api/Examples/{Editor}/ApiChart/Methods/SetVertAxisTickLabelPosition.js |
 
 ## Returns
 

@@ -12,7 +12,7 @@ expression.SetLegendPos(sLegendPos);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sLegendPos | Required | "left" &#124;"top" &#124;"right" &#124;"bottom" &#124;"none" |  | The position of the chart legend inside the chart window.* @see office-js-api/Examples/Word/ApiChart/Methods/SetLegendPos.js |
+| sLegendPos | Required | "left" &#124;"top" &#124;"right" &#124;"bottom" &#124;"none" |  | The position of the chart legend inside the chart window.* @see office-js-api/Examples/{Editor}/ApiChart/Methods/SetLegendPos.js |
 
 ## Returns
 

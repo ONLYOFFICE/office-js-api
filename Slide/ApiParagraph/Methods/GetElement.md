@@ -23,8 +23,17 @@ expression.GetElement(nPos);
 This example shows how to get a paragraph element using the position specified.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = Api.CreateParagraph();
+var oPresentation = Api.GetPresentation();
+var oSlide = oPresentation.GetSlideByIndex(0);
+oSlide.RemoveAllObjects();
+var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);
+var oGs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);
+var oFill = Api.CreateRadialGradientFill([oGs1, oGs2]);
+var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
+var oShape = Api.CreateShape("flowChartMagneticTape", 300 * 36000, 130 * 36000, oFill, oStroke);
+oShape.SetPosition(608400, 1267200);
+var oDocContent = oShape.GetDocContent();
+var oParagraph = oDocContent.GetElement(0);
 oParagraph.RemoveAllElements();
 var oRun = Api.CreateRun();
 oRun.AddText("This is the text for the first text run. Do not forget a space at its end to separate from the second one. ");
@@ -35,7 +44,7 @@ oParagraph.AddElement(oRun);
 oRun = Api.CreateRun();
 oRun.AddText("This is the text for the third run. It ends the paragraph.");
 oParagraph.AddElement(oRun);
-oRun = oParagraph.GetElement(1);
+oRun = oParagraph.GetElement(2);
 oRun.SetBold(true);
-oDocument.Push(oParagraph);
+oSlide.AddObject(oShape);
 ```

@@ -22,9 +22,8 @@ This example changes the user protected range.
 
 ```javascript
 var oWorksheet = Api.GetActiveSheet();
-var wsName = oWorksheet.GetName();
-var protectedRange = oWorksheet.AddProtectedRange("protectedRange", wsName + "!$A$1:$B$1");
-protectedRange.AddUser("userId", "name", "CanView");
+oWorksheet.AddProtectedRange("protectedRange", "$A$1:$B$1").AddUser("userId", "name", "CanView");
+var protectedRange = oWorksheet.GetProtectedRange("protectedRange");
 var userInfo = protectedRange.GetUser("userId");
 var userId = userInfo.GetId();
 oWorksheet.GetRange("A3").SetValue("Id: " + userId);

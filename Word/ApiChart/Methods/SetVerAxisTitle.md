@@ -14,7 +14,7 @@ expression.SetVerAxisTitle(sTitle, nFontSize, bIsBold);
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | sTitle | Required | string |  | The title which will be displayed for the vertical axis of the current chart. |
 | nFontSize | Required | [pt](../../Enumeration/pt.md) |  | The text size value measured in points. |
-| bIsBold | Required | bool |  | Specifies if the vertical axis title is written in bold font or not.* @see office-js-api/Examples/Word/ApiChart/Methods/SetVerAxisTitle.js |
+| bIsBold | Required | bool |  | Specifies if the vertical axis title is written in bold font or not.* @see office-js-api/Examples/{Editor}/ApiChart/Methods/SetVerAxisTitle.js |
 
 ## Returns
 

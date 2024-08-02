@@ -18,19 +18,23 @@ This method doesn't have any parameters.
 
 ## Example
 
-This example gets a class type and inserts it into the document.
+This example gets a class type and pastes it into the presentation.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
+var oPresentation = Api.GetPresentation();
+var oSlide = oPresentation.GetSlideByIndex(0);
+oSlide.RemoveAllObjects();
 var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);
 var oGs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);
 var oFill = Api.CreateRadialGradientFill([oGs1, oGs2]);
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oDrawing = Api.CreateShape("rect", 1908000, 1404000, oFill, oStroke);
-oDrawing.SetDistances(914400, 0, 914400, 0);
-oDrawing.SetWrappingStyle("square");
-oParagraph.AddDrawing(oDrawing);
+var oShape = Api.CreateShape("flowChartMagneticTape", 300 * 36000, 130 * 36000, oFill, oStroke);
+oShape.SetPosition(608400, 1267200);
+oShape.SetSize(300 * 36000, 130 * 36000);
+var oDocContent = oShape.GetDocContent();
 var sClassType = oFill.GetClassType();
+var oParagraph = oDocContent.GetElement(0);
+oParagraph.SetJc("left");
 oParagraph.AddText("Class Type = " + sClassType);
+oSlide.AddObject(oShape);
 ```

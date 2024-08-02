@@ -12,7 +12,7 @@ expression.SetVerAxisOrientation(bIsMinMax);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| bIsMinMax | Required | boolean |  | The <code>true</code> value will set the normal data direction for the vertical axis (from minimum to maximum).* @see office-js-api/Examples/Word/ApiChart/Methods/SetVerAxisOrientation.js |
+| bIsMinMax | Required | boolean |  | The <code>true</code> value will set the normal data direction for the vertical axis (from minimum to maximum).* @see office-js-api/Examples/{Editor}/ApiChart/Methods/SetVerAxisOrientation.js |
 
 ## Returns
 

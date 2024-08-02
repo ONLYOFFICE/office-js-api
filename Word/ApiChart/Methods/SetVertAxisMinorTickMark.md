@@ -12,7 +12,7 @@ expression.SetVertAxisMinorTickMark(sTickMark);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sTickMark | Required | [TickMark](../../Enumeration/TickMark.md) |  | The type of tick mark appearance.* @see office-js-api/Examples/Word/ApiChart/Methods/SetVertAxisMinorTickMark.js |
+| sTickMark | Required | [TickMark](../../Enumeration/TickMark.md) |  | The type of tick mark appearance.* @see office-js-api/Examples/{Editor}/ApiChart/Methods/SetVertAxisMinorTickMark.js |
 
 ## Returns
 

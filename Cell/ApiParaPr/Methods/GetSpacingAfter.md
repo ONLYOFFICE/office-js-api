@@ -21,17 +21,21 @@ This method doesn't have any parameters.
 This example shows how to get the spacing after value of the current paragraph.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph1 = oDocument.GetElement(0);
-var oParaPr = oParagraph1.GetParaPr();
+var oWorksheet = Api.GetActiveSheet();
+var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
+var oShape = oWorksheet.AddShape("flowChartOnlineStorage", 120 * 36000, 70 * 36000, oFill, oStroke, 0, 2 * 36000, 0, 3 * 36000);
+var oDocContent = oShape.GetContent();
+var oParagraph = oDocContent.GetElement(0);
+var oParaPr = oParagraph.GetParaPr();
 oParaPr.SetSpacingAfter(1440);
-oParagraph1.AddText("This is an example of setting a space after a paragraph. ");
-oParagraph1.AddText("The second paragraph will have an offset of one inch from the top. ");
-oParagraph1.AddText("This is due to the fact that the first paragraph has this offset enabled.");
-var oParagraph2 = Api.CreateParagraph();
-oParagraph2.AddText("This is the second paragraph and it is one inch away from the first paragraph.");
-oParagraph2.AddLineBreak();
+oParagraph.AddText("This is an example of setting a space after a paragraph. ");
+oParagraph.AddText("The second paragraph will have an offset of one inch from the top. ");
+oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
+oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
+oParagraph.AddText("These sentences are used to add lines for demonstrative purposes.");
 var nSpacingAfter = oParaPr.GetSpacingAfter();
-oParagraph2.AddText("Spacing after: " + nSpacingAfter);
-oDocument.Push(oParagraph2);
+oParagraph = Api.CreateParagraph();
+oParagraph.AddText("Spacing after : " + nSpacingAfter);
+oDocContent.Push(oParagraph);
 ```

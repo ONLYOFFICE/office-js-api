@@ -12,7 +12,7 @@ expression.SetMajorHorizontalGridlines(oStroke);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| oStroke | Required | [ApiStroke](../../ApiStroke/ApiStroke.md) |  | The stroke used to create the element shadow.* @see office-js-api/Examples/Word/ApiChart/Methods/SetMajorHorizontalGridlines.js |
+| oStroke | Required | [ApiStroke](../../ApiStroke/ApiStroke.md) |  | The stroke used to create the element shadow.* @see office-js-api/Examples/{Editor}/ApiChart/Methods/SetMajorHorizontalGridlines.js |
 
 ## Returns
 

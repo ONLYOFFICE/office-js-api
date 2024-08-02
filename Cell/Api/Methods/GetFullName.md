@@ -18,11 +18,10 @@ string
 
 ## Example
 
-This example gets a document name and inserts it into the document.
+This example shows how to get the full name of the currently opened file.
 
 ```javascript
-var oDocument = Api.GetDocument();
+var oWorksheet = Api.GetActiveSheet();
 var sName = Api.GetFullName();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("File name: " + sName);
+oWorksheet.GetRange("B1").SetValue("File name: " + sName);
 ```

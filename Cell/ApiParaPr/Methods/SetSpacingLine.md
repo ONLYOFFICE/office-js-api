@@ -24,40 +24,16 @@ This method doesn't return any data.
 This example sets the paragraph line spacing.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oMyStyle1 = oDocument.CreateStyle("My document style #1");
-var oParaPr = oMyStyle1.GetParaPr();
+var oWorksheet = Api.GetActiveSheet();
+var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
+var oShape = oWorksheet.AddShape("flowChartOnlineStorage", 120 * 36000, 70 * 36000, oFill, oStroke, 0, 2 * 36000, 0, 3 * 36000);
+var oDocContent = oShape.GetContent();
+var oParagraph = oDocContent.GetElement(0);
+var oParaPr = oParagraph.GetParaPr();
 oParaPr.SetSpacingLine(3 * 240, "auto");
-var oMyStyle2 = oDocument.CreateStyle("My document style #2");
-oParaPr = oMyStyle2.GetParaPr();
-oParaPr.SetSpacingLine(200, "exact");
-var oMyStyle3 = oDocument.CreateStyle("My document style #3");
-oParaPr = oMyStyle3.GetParaPr();
-oParaPr.SetSpacingLine(400, "atLeast");
-var oParagraph = oDocument.GetElement(0);
-oParagraph.SetStyle(oMyStyle1);
 oParagraph.AddText("Paragraph 1. Spacing: 3 times of a common paragraph line spacing.");
 oParagraph.AddLineBreak();
 oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
 oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes.");
-oParagraph = Api.CreateParagraph();
-oParagraph.SetStyle(oMyStyle2);
-oParagraph.AddText("Paragraph 2. Spacing: exact 10 points.");
-oParagraph.AddLineBreak();
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes.");
-oDocument.Push(oParagraph);
-oParagraph = Api.CreateParagraph();
-oParagraph.SetStyle(oMyStyle3);
-oParagraph.AddText("Paragraph 3. Spacing: atLeast 20 points.");
-oParagraph.AddLineBreak();
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes.");
-oDocument.Push(oParagraph);
 ```
