@@ -1,0 +1,1 @@
+window.Asc.plugin.executeMethod ("RemoveOleObject", ["5_556"]);

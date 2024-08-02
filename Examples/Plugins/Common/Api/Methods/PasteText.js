@@ -1,0 +1,1 @@
+window.Asc.plugin.executeMethod ("PasteText", ["ONLYOFFICE for developers"]);
