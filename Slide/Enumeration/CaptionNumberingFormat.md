@@ -13,3 +13,12 @@ Enumeration
 - "Roman"
 - "roman"
 - "Arabic"
+
+
+## Example
+
+This example add a caption with the Arabic numbering format to the paragraph.
+
+```javascript
+oParagraph.AddCaption("", "Figure", false, "Arabic", false, undefined, "hyphen");
+```
