@@ -22,3 +22,12 @@ Enumeration
 - "lt2"
 - "tx1"
 - "tx2"
+
+
+## Example
+
+This example creates a scheme color with the 'accent2' identifier.
+
+```javascript
+var oSchemeColor = Api.CreateSchemeColor("accent2");
+```

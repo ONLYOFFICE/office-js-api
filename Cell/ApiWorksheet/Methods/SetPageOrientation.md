@@ -12,8 +12,20 @@ expression.SetPageOrientation(sPageOrientation);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sPageOrientation | Required | [PageOrientation](../../Enumeration/PageOrientation.md) |  | The page orientation type.* @see office-js-api/Examples/{Editor}/ApiWorksheet/Methods/SetPageOrientation.js |
+| sPageOrientation | Required | [PageOrientation](../../Enumeration/PageOrientation.md) |  | The page orientation type. |
 
 ## Returns
 
 This method doesn't return any data.
+
+## Example
+
+This example sets the page orientation.
+
+```javascript
+var oWorksheet = Api.GetActiveSheet();
+oWorksheet.SetPageOrientation("xlPortrait");
+var sPageOrientation = oWorksheet.GetPageOrientation();
+oWorksheet.GetRange("A1").SetValue("Page orientation: ");
+oWorksheet.GetRange("C1").SetValue(sPageOrientation);
+```

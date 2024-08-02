@@ -13,3 +13,12 @@ Enumeration
 - "xlPasteSpecialOperationMultiply"
 - "xlPasteSpecialOperationNone"
 - "xlPasteSpecialOperationSubtract"
+
+
+## Example
+
+This example paste data with paste all option and add operation.
+
+```javascript
+oApiRange.PasteSpecial("xlPasteAll", "xlPasteSpecialOperationAdd");
+```
