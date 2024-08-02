@@ -17,3 +17,12 @@ Enumeration
 - "xlPasteFormulasAndNumberFormats"
 - "xlPasteValues"
 - "xlPasteValuesAndNumberFormats"
+
+
+## Example
+
+This example paste data with paste all option.
+
+```javascript
+oApiRange.PasteSpecial("xlPasteAll");
+```

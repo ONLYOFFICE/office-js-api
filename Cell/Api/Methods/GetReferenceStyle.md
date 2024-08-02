@@ -15,3 +15,12 @@ This method doesn't have any parameters.
 ## Returns
 
 [ReferenceStyle](../../Enumeration/ReferenceStyle.md)
+
+## Example
+
+This example gets reference style.
+
+```javascript
+var oWorksheet = Api.GetActiveSheet();
+oWorksheet.GetRange("A1").SetValue(Api.GetReferenceStyle());
+```
