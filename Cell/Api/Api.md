@@ -13,7 +13,8 @@ Represents the Api class.
 | FreezePanes | [FreezePaneType](../Enumeration/FreezePaneType.md) | Returns or sets the type of freeze panes. |
 | AllComments | Array.<[ApiComment](../../ApiComment/ApiComment.md)> | Returns all comments from the current workbook including comments from all worksheets. |
 | ReferenceStyle | [ReferenceStyle](../Enumeration/ReferenceStyle.md) | Returns or sets the reference style. |
-| WorksheetFunction | [ApiWorksheetFunction](../ApiWorksheetFunction/ApiWorksheetFunction.md) | Returns an object that represents a list of functions. |
+| WorksheetFunction | [ApiWorksheetFunction](../ApiWorksheetFunction/ApiWorksheetFunction.md) | Returns an object that represents the function list. |
+| PivotTables | Array.<[ApiPivotTable](../../ApiPivotTable/ApiPivotTable.md)> | Returns all PivotTables. |
 
 ## Methods
 
@@ -58,6 +59,11 @@ Represents the Api class.
 - [GetWorksheetFunction](./Methods/GetWorksheetFunction.md)
 - [GetMailMergeData](./Methods/GetMailMergeData.md)
 - [RecalculateAllFormulas](./Methods/RecalculateAllFormulas.md)
+- [InsertPivotExistingWorksheet](./Methods/InsertPivotExistingWorksheet.md)
+- [InsertPivotNewWorksheet](./Methods/InsertPivotNewWorksheet.md)
+- [GetPivotByName](./Methods/GetPivotByName.md)
+- [RefreshAllPivots](./Methods/RefreshAllPivots.md)
+- [GetAllPivotTables](./Methods/GetAllPivotTables.md)
 - [attachEvent](./Methods/attachEvent.md)
 - [detachEvent](./Methods/detachEvent.md)
 - [AddComment](./Methods/AddComment.md)
