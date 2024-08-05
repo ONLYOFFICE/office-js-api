@@ -17,3 +17,14 @@ expression.SetVisible(value);
 ## Returns
 
 boolean
+
+## Example
+
+This example
+
+```javascript
+var oPresentation = Api.GetPresentation();
+var oSlide = Api.CreateSlide();
+oSlide.SetVisible(false);
+oPresentation.AddSlide(oSlide);
+```
