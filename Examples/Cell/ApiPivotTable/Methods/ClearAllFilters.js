@@ -24,6 +24,3 @@ var dataRef = Api.GetRange("'Sheet1'!$B$1:$D$5");
 var pivotTable = Api.InsertPivotNewWorksheet(dataRef);
 
 pivotTable.ClearAllFilters();
-
-builder.SaveFile('xlsx', 'ClearAllFilters.xlsx');
-builder.CloseFile();

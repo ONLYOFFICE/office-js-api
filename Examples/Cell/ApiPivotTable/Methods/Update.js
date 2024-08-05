@@ -31,6 +31,3 @@ pivotTable.AddFields({
 pivotTable.AddDataField('Price');
 
 pivotTable.Update();
-
-builder.SaveFile('xlsx', 'ShowDetails.xlsx');
-builder.CloseFile();
