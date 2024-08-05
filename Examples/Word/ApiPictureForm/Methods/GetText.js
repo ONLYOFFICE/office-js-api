@@ -4,6 +4,6 @@ var oPictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": 
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddElement(oPictureForm);
 oPictureForm.SetImage("https://api.onlyoffice.com/content/img/docbuilder/examples/user-profile.png");
-var sText = oCheckBoxForm.GetText();
+var sText = oPictureForm.GetText();
 oParagraph.AddText("Form text: " + sText);
 oDocument.Push(oParagraph);
