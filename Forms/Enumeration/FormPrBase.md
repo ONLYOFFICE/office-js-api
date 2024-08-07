@@ -12,6 +12,7 @@ Object
 | ---- | ---- | ----------- |
 | key | string | Form key. |
 | tip | string | Form tip text. |
+| tag | string | Form tag. |
 | required | boolean | Specifies if the form is required or not. |
 | placeholder | string | Form placeholder text. |
 

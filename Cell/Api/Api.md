@@ -36,6 +36,7 @@ Represents the Api class.
 - [GetFullName](./Methods/GetFullName.md)
 - [Format](./Methods/Format.md)
 - [AddCustomFunction](./Methods/AddCustomFunction.md)
+- [AddCustomFunctionLibrary](./Methods/AddCustomFunctionLibrary.md)
 - [RemoveCustomFunction](./Methods/RemoveCustomFunction.md)
 - [ClearCustomFunctions](./Methods/ClearCustomFunctions.md)
 - [AddSheet](./Methods/AddSheet.md)

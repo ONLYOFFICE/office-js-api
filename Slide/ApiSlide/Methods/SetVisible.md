@@ -20,7 +20,7 @@ boolean
 
 ## Example
 
-This example
+This example sets the visibility to the current presentation slide.
 
 ```javascript
 var oPresentation = Api.GetPresentation();
