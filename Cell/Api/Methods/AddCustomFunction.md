@@ -17,15 +17,3 @@ expression.AddCustomFunction(fCustom);
 ## Returns
 
 This method doesn't return any data.
-
-## Example
-
-This example calculates custom function result.
-
-```javascript
-Api.AddCustomFunction(function ADD(first, second) {
-    return first + second;
-})
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.GetRange('A1').SetValue('=ADD(1,2)');
-```
