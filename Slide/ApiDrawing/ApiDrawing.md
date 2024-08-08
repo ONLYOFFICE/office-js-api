@@ -21,3 +21,4 @@ Represents the ApiDrawing class.
 - [GetLockValue](./Methods/GetLockValue.md)
 - [SetLockValue](./Methods/SetLockValue.md)
 - [ToJSON](./Methods/ToJSON.md)
+- [Select](./Methods/Select.md)
