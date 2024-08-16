@@ -41,6 +41,7 @@ Represents the ApiRange class.
 | Orientation | 'xlDownward' &#124;'xlHorizontal' &#124;'xlUpward' &#124;'xlVertical' | Sets an angle to the current cell range. |
 | Areas | [ApiAreas](../ApiAreas/ApiAreas.md) | Returns a collection of the areas. |
 | Characters | [ApiCharacters](../ApiCharacters/ApiCharacters.md) | Returns the ApiCharacters object that represents a range of characters within the object text. Use the ApiCharacters object to format characters within a text string. |
+| PivotTable | [ApiPivotTable](../ApiPivotTable/ApiPivotTable.md) &#124;null | Returns a PivotTable object that represents the PivotTable report containing the upper-left corner of the specified range. |
 
 ## Methods
 
@@ -101,6 +102,7 @@ Represents the ApiRange class.
 - [Cut](./Methods/Cut.md)
 - [Paste](./Methods/Paste.md)
 - [PasteSpecial](./Methods/PasteSpecial.md)
+- [GetPivotTable](./Methods/GetPivotTable.md)
 - [Find](./Methods/Find.md)
 - [FindNext](./Methods/FindNext.md)
 - [FindPrevious](./Methods/FindPrevious.md)
