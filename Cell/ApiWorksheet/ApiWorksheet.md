@@ -26,7 +26,8 @@ Represents the ApiWorksheet class.
 | Defnames | Array | Returns an array of the ApiName objects. |
 | Comments | Array | Returns all comments from the current worksheet. |
 | FreezePanes | [ApiFreezePanes](../ApiFreezePanes/ApiFreezePanes.md) | Returns the freeze panes for the current worksheet. |
-| AllProtectedRanges | Array.<[ApiProtectedRange](../../ApiProtectedRange/ApiProtectedRange.md)> | Returns all protected ranges from the current worksheet. |
+| AllProtectedRanges | Array.<[ApiProtectedRange](../ApiProtectedRange/ApiProtectedRange.md)> | Returns all protected ranges from the current worksheet. |
+| PivotTables | Array.<[ApiPivotTable](../ApiPivotTable/ApiPivotTable.md)> | Returns all PivotTables on worksheet. |
 
 ## Methods
 
@@ -81,6 +82,9 @@ Represents the ApiWorksheet class.
 - [GetAllCharts](./Methods/GetAllCharts.md)
 - [GetAllOleObjects](./Methods/GetAllOleObjects.md)
 - [Move](./Methods/Move.md)
+- [GetPivotByName](./Methods/GetPivotByName.md)
+- [GetAllPivotTables](./Methods/GetAllPivotTables.md)
+- [RefreshAllPivots](./Methods/RefreshAllPivots.md)
 - [GetFreezePanes](./Methods/GetFreezePanes.md)
 - [AddProtectedRange](./Methods/AddProtectedRange.md)
 - [GetProtectedRange](./Methods/GetProtectedRange.md)
