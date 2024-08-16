@@ -14,7 +14,7 @@ expression.InsertContent(arrContent, isInline, oPr);
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | arrContent | Required | Array.<[DocumentElement](../../Enumeration/DocumentElement.md)> |  | An array of elements to insert. |
 | isInline | Optional | boolean | false | Inline insert or not (works only for the last and the first element and only if it's a paragraph). |
-| oPr | Optional | object |  | Specifies that text and paragraph document properties are preserved for the inserted elements. The object should look like this: {"KeepTextOnly": true}. |
+| oPr | Optional | object |  | Specifies that text and paragraph document properties are preserved for the inserted elements.  The object should look like this: {"KeepTextOnly": true}. |
 
 ## Returns
 

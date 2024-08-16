@@ -17,7 +17,7 @@ expression.AddCaption(sAdditional, sLabel, bExludeLabel, sNumberingFormat, bBefo
 | bExludeLabel | Optional | boolean | false | Specifies whether to exclude the label from the caption. |
 | sNumberingFormat | Optional | [CaptionNumberingFormat](../../Enumeration/CaptionNumberingFormat.md) | "Arabic" | The possible caption numbering format. |
 | bBefore | Optional | boolean | false | Specifies whether to insert the caption before the current content control (true) or after (false) (after/before the shape if it is placed in the shape). |
-| nHeadingLvl | Optional | Number |  | The heading level (used if you want to specify the chapter number).💡 If you want to specify "Heading 1", then nHeadingLvl === 0 and etc. |
+| nHeadingLvl | Optional | Number |  | The heading level (used if you want to specify the chapter number). 💡 If you want to specify "Heading 1", then nHeadingLvl === 0 and etc. |
 | sCaptionSep | Optional | [CaptionSep](../../Enumeration/CaptionSep.md) | "hyphen" | The caption separator (used if you want to specify the chapter number). |
 
 ## Returns

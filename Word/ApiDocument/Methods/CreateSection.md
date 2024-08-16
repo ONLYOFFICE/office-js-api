@@ -12,7 +12,7 @@ expression.CreateSection(oParagraph);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| oParagraph | Required | [ApiParagraph](../../ApiParagraph/ApiParagraph.md) |  | The paragraph after which a new document section will be inserted.Paragraph must be in a document. |
+| oParagraph | Required | [ApiParagraph](../../ApiParagraph/ApiParagraph.md) |  | The paragraph after which a new document section will be inserted. Paragraph must be in a document. |
 
 ## Returns
 
