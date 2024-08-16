@@ -12,7 +12,7 @@ expression.SetJc(sJc);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sJc | Required | "left" &#124;"right" &#124;"both" &#124;"center" |  | The justification type thatwill be applied to the paragraph contents. |
+| sJc | Required | "left" &#124;"right" &#124;"both" &#124;"center" |  | The justification type that will be applied to the paragraph contents. |
 
 ## Returns
 

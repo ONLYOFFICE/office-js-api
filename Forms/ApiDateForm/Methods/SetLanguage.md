@@ -12,7 +12,7 @@ expression.SetLanguage(sLangId);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sLangId | Required | string |  | The date language. The possible value for this parameter is a language identifier as defined inRFC 4646/BCP 47. Example: "en-CA". |
+| sLangId | Required | string |  | The date language. The possible value for this parameter is a language identifier as defined in RFC 4646/BCP 47. Example: "en-CA". |
 
 ## Returns
 

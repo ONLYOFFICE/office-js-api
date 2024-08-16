@@ -12,7 +12,7 @@ expression.SetCellMarginLeft(nValue);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| nValue | Required | [twips](../../Enumeration/twips.md) |  | If this value is <code>null</code>, then default table cell left margin shall be used,otherwise override the table cell left margin with specified value for the current cell. |
+| nValue | Required | [twips](../../Enumeration/twips.md) |  | If this value is <code>null</code>, then default table cell left margin shall be used, otherwise override the table cell left margin with specified value for the current cell. |
 
 ## Returns
 
