@@ -12,7 +12,7 @@ expression.Delete(shift);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| shift | Required | string |  | Specifies how to shift cells to replace the deleted cells ("up", "left"). |
+| shift | Required | [DeleteShiftDirection](../../Enumeration/DeleteShiftDirection.md) |  | Specifies how to shift cells to replace the deleted cells. |
 
 ## Returns
 
