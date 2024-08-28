@@ -12,7 +12,7 @@ expression.SetXValues(aValues);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| aValues | Required | Array.<string> |  | The array of the data which will be set to the x-axis data points. |
+| aValues | Required | Array.&lt;string&gt; |  | The array of the data which will be set to the x-axis data points. |
 
 ## Returns
 

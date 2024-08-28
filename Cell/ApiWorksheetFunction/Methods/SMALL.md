@@ -12,7 +12,7 @@ expression.SMALL(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | Array.<number> &#124;[ApiRange](../../ApiRange/ApiRange.md) |  | An array or range of numerical data for which the k-th smallest value will be determined. |
+| arg1 | Required | Array.&lt;number&gt; &#124;[ApiRange](../../ApiRange/ApiRange.md) |  | An array or range of numerical data for which the k-th smallest value will be determined. |
 | arg2 | Required | number |  | The position (from the smallest) in the array or range of the value to return. |
 
 ## Returns

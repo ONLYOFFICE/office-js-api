@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-string, Array.<Array.<string>>
+string, Array.<Array.&lt;string&gt;>
 
 ## Example
 

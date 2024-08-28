@@ -17,7 +17,7 @@ expression.GetMailMergeData(nSheet, bWithFormat);
 
 ## Returns
 
-Array.<Array.<string>>
+Array.<Array.&lt;string&gt;>
 
 ## Example
 

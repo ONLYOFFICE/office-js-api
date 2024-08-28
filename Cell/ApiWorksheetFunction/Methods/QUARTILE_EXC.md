@@ -12,7 +12,7 @@ expression.QUARTILE_EXC(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | Array.<number> &#124;[ApiRange](../../ApiRange/ApiRange.md) |  | The array or cell range of numeric values for which the quartile value will be returned. |
+| arg1 | Required | Array.&lt;number&gt; &#124;[ApiRange](../../ApiRange/ApiRange.md) |  | The array or cell range of numeric values for which the quartile value will be returned. |
 | arg2 | Required | number |  | The quartile value to return: 1st quartile = 1; median value = 2; 3rd quartile = 3. |
 
 ## Returns

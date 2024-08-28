@@ -13,7 +13,7 @@ expression.GetPivotData(dataField, fieldItemsArray);
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | dataField | Optional | string |  | No description provided. |
-| fieldItemsArray | Optional | Array.<string> |  | No description provided. |
+| fieldItemsArray | Optional | Array.&lt;string&gt; |  | No description provided. |
 
 ## Returns
 

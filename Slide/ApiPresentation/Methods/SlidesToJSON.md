@@ -21,7 +21,7 @@ expression.SlidesToJSON(nStart, nStart, bWriteLayout, bWriteMaster, bWriteAllMas
 
 ## Returns
 
-Array.<JSON>
+Array.&lt;JSON&gt;
 
 ## Example
 

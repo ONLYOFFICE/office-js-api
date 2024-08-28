@@ -12,7 +12,7 @@ expression.LARGE(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124;Array.<number> |  | The array or range of data for which the k-th largest value will be determined. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124;Array.&lt;number&gt; |  | The array or range of data for which the k-th largest value will be determined. |
 | arg2 | Required | number |  | The position (from the largest) in the array or cell range of data to return. |
 
 ## Returns
