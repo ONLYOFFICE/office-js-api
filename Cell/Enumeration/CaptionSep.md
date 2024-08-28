@@ -1,6 +1,11 @@
 # CaptionSep
 
-Possible values for the caption separator.**"hyphen"** - the "-" punctuation mark.**"period"** - the "." punctuation mark.**"colon"** - the ":" punctuation mark.**"longDash"** - the "—" punctuation mark.**"dash"** - the "-" punctuation mark.
+Possible values for the caption separator.
+**"hyphen"** - the "-" punctuation mark.
+**"period"** - the "." punctuation mark.
+**"colon"** - the ":" punctuation mark.
+**"longDash"** - the "—" punctuation mark.
+**"dash"** - the "-" punctuation mark.
 
 ## Type
 

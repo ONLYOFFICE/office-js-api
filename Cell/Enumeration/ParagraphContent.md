@@ -9,7 +9,7 @@ Enumeration
 ## Values
 
 - ApiUnsupported
-- [ApiRun](../../ApiRun/ApiRun.md)
+- ApiRun
 - ApiInlineLvlSdt
 - ApiHyperlink
 - ApiFormBase

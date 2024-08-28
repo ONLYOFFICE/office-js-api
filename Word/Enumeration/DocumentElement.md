@@ -8,9 +8,9 @@ Enumeration
 
 ## Values
 
-- [ApiParagraph](../../ApiParagraph/ApiParagraph.md)
-- [ApiTable](../../ApiTable/ApiTable.md)
-- [ApiBlockLvlSdt](../../ApiBlockLvlSdt/ApiBlockLvlSdt.md)
+- ApiParagraph
+- ApiTable
+- ApiBlockLvlSdt
 
 
 ## Example
