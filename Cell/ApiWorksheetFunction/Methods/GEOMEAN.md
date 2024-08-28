@@ -12,7 +12,7 @@ expression.GEOMEAN(args);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| args | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124;Array.<number> |  | Up to 255 numeric values for which the geometric mean will be calculated. |
+| args | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124;Array.&lt;number&gt; |  | Up to 255 numeric values for which the geometric mean will be calculated. |
 
 ## Returns
 

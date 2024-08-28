@@ -12,7 +12,7 @@ expression.TRIMMEAN(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124;Array.<number> |  | The range or array of values to trim and average. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124;Array.&lt;number&gt; |  | The range or array of values to trim and average. |
 | arg2 | Required | number |  | The fractional number of data points to exclude from the top and bottom of the data set. |
 
 ## Returns

@@ -12,7 +12,7 @@ expression.SetListValues(aListString);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| aListString | Required | Array.<string> |  | The combo box list values. |
+| aListString | Required | Array.&lt;string&gt; |  | The combo box list values. |
 
 ## Returns
 

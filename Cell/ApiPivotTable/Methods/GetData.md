@@ -12,7 +12,7 @@ expression.GetData(items);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| items | Required | Array.<string> |  | Describes a single cell in the PivotTable report. |
+| items | Required | Array.&lt;string&gt; |  | Describes a single cell in the PivotTable report. |
 
 ## Returns
 
