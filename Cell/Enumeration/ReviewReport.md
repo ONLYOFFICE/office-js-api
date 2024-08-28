@@ -1,6 +1,7 @@
 # ReviewReport
 
-Report on all review changes.This is a dictionary where the keys are usernames.
+Report on all review changes.
+This is a dictionary where the keys are usernames.
 
 ## Type
 
