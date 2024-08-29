@@ -11,7 +11,7 @@ Object
 | Name | Type | Description |
 | ---- | ---- | ----------- |
 | key | string | The form key. If the current form is a radio button, then this field contains the group key. |
-| value | string &#124;boolean | The current field value. |
+| value | string &#124; boolean | The current field value. |
 | tag | string | The form tag. |
 | type | [FormSpecificType](../../Enumeration/FormSpecificType.md) | The form type. |
 
