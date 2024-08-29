@@ -1,4 +1,3 @@
-
 Api.AddCustomFunction (function add (first, second) {
     if (second === null) {
         second = 0;
