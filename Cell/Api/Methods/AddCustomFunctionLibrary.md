@@ -1,6 +1,9 @@
 # AddCustomFunctionLibrary
 
-Register a new custom functions library (see SetCustomFunctions plugin method).The description of the function parameters and result is specified using JSDoc. The <em>@customfunction</em> tag is required in JSDoc.Parameters and results can be specified as the <em>number / string / bool / any / number[][] / string[][] / bool[][] / any[][]</em> types.Parameters can be required or optional. A user can also set a default value.
+Register a new custom functions library (see SetCustomFunctions plugin method).
+The description of the function parameters and result is specified using JSDoc. The <em>@customfunction</em> tag is required in JSDoc.
+Parameters and results can be specified as the <em>number / string / bool / any / number[][] / string[][] / bool[][] / any[][]</em> types.
+Parameters can be required or optional. A user can also set a default value.
 
 ## Syntax
 

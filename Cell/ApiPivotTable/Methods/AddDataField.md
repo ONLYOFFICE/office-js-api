@@ -12,7 +12,7 @@ expression.AddDataField(field);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| field | Required | number &#124;string |  | The index number or name of the field. |
+| field | Required | number &#124; string |  | The index number or name of the field. |
 
 ## Returns
 

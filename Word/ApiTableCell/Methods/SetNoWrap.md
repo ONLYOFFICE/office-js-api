@@ -1,6 +1,7 @@
 # SetNoWrap
 
-Specifies how the current table cell is laid out when the parent table is displayed in a document. This settingonly affects the behavior of the cell when the {@link ApiTablePr#SetTableLayout} table layout for this table is set to use the <code>"autofit"</code> algorithm.
+Specifies how the current table cell is laid out when the parent table is displayed in a document. This setting
+only affects the behavior of the cell when the {@link ApiTablePr#SetTableLayout} table layout for this table is set to use the <code>"autofit"</code> algorithm.
 
 ## Syntax
 

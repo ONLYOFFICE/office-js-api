@@ -20,3 +20,13 @@ expression.ISPMT(arg1, arg2, arg3, arg4);
 ## Returns
 
 number, string, boolean
+
+## Example
+
+
+
+```javascript
+var oWorksheet = Api.GetActiveSheet();
+var oFunction = Api.GetWorksheetFunction();
+oWorksheet.GetRange("A1").SetValue(oFunction.ISPMT(0.1/12, 1, 2*12, 2000));
+```

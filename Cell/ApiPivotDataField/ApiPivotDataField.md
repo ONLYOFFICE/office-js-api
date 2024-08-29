@@ -12,7 +12,7 @@ Represents the ApiPivotDataField class.
 | Name | string | Returns a value representing the name of the object. |
 | Value | string | Returns a value representing the value of the object. |
 | Caption | string | Returns a value that represents the label text for the data field. |
-| NumberFormat | string &#124;null | Returns a value that represents the format code for the object. |
+| NumberFormat | string &#124; null | Returns a value that represents the format code for the object. |
 | Index | number | Returns index of the data field. |
 | PivotField | [ApiPivotField](../ApiPivotField/ApiPivotField.md) | Returns the pivotField from which the data field was created. |
 

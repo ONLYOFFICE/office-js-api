@@ -18,11 +18,11 @@ Represents the ApiPivotTable class.
 | ShowTableStyleRowStripes | boolean | Returns or sets the banded rows style for PivotTable. |
 | ShowTableStyleColumnStripes | boolean | Returns or sets the banded columns style for PivotTable. |
 | Source | [ApiRange](../ApiRange/ApiRange.md) | Returns or sets source for the PivotTable. |
-| ColumnRange | [ApiRange](../ApiRange/ApiRange.md) &#124;null | Returns a Range object that represents the range that contains the column area in the PivotTable report. |
-| RowRange | [ApiRange](../ApiRange/ApiRange.md) &#124;null | Returns a Range object that represents the range that contains the row area in the PivotTable report. |
+| ColumnRange | [ApiRange](../ApiRange/ApiRange.md) &#124; null | Returns a Range object that represents the range that contains the column area in the PivotTable report. |
+| RowRange | [ApiRange](../ApiRange/ApiRange.md) &#124; null | Returns a Range object that represents the range that contains the row area in the PivotTable report. |
 | DataBodyRange | [ApiRange](../ApiRange/ApiRange.md) | Returns a Range object that represents the range of values in a PivotTable. |
-| TableRange1 | [ApiRange](../ApiRange/ApiRange.md) &#124;null | Returns a Range object that represents the range containing the entire PivotTable report, but doesn't include page fields. |
-| TableRange2 | [ApiRange](../ApiRange/ApiRange.md) &#124;null | Returns a Range object that represents the range containing the entire PivotTable report, including page fields |
+| TableRange1 | [ApiRange](../ApiRange/ApiRange.md) &#124; null | Returns a Range object that represents the range containing the entire PivotTable report, but doesn't include page fields. |
+| TableRange2 | [ApiRange](../ApiRange/ApiRange.md) &#124; null | Returns a Range object that represents the range containing the entire PivotTable report, including page fields |
 | GrandTotalName | string | Sets the text string label that is displayed in the grand total column or row heading in the specified PivotTable report. |
 | RepeatAllLabels | boolean | Specifies whether to repeat item labels for all PivotFields in the specified PivotTable. |
 | RowAxisLayout | object | Sets the way the specified PivotTable items appear—in table format or in outline format. |

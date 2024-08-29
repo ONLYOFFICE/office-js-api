@@ -12,7 +12,7 @@ expression.InsertParagraph(paragraph, sPosition, beRNewPara);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| paragraph | Required | string &#124;[ApiParagraph](../../ApiParagraph/ApiParagraph.md) |  | Text or paragraph. |
+| paragraph | Required | string &#124; [ApiParagraph](../../ApiParagraph/ApiParagraph.md) |  | Text or paragraph. |
 | sPosition | Required | string |  | The position where the text or paragraph will be inserted ("before" or "after" the paragraph specified). |
 | beRNewPara | Required | boolean |  | Defines if this method returns a new paragraph (true) or the current paragraph (false). |
 

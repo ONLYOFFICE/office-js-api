@@ -12,7 +12,7 @@ expression.GetSheet(nameOrIndex);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| nameOrIndex | Required | string &#124;number |  | Sheet name or sheet index. |
+| nameOrIndex | Required | string &#124; number |  | Sheet name or sheet index. |
 
 ## Returns
 

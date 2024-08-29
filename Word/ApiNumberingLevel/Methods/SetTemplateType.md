@@ -12,7 +12,7 @@ expression.SetTemplateType(sType, sSymbol);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sType | Required | "none" &#124;"bullet" &#124;"1)" &#124;"1." &#124;"I." &#124;"A." &#124;"a)" &#124;"a." &#124;"i." |  | The predefined numbering template. |
+| sType | Required | "none" &#124; "bullet" &#124; "1)" &#124; "1." &#124; "I." &#124; "A." &#124; "a)" &#124; "a." &#124; "i." |  | The predefined numbering template. |
 | sSymbol | Optional | string | "" | The symbol used for the list numbering. This parameter has the meaning only if the predefined numbering template is "bullet". |
 
 ## Returns

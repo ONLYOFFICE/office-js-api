@@ -12,7 +12,7 @@ expression.SetValue(data);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| data | Required | string &#124;bool &#124;number &#124;Array.&lt;Array&gt; &#124;Array.<Array.&lt;Array&gt;> |  | The general value for the cell or cell range. |
+| data | Required | string &#124; bool &#124; number &#124; Array.&lt;Array&gt; &#124; Array.<Array.&lt;Array&gt;> |  | The general value for the cell or cell range. |
 
 ## Returns
 

@@ -1,6 +1,7 @@
 # GetPivotItems
 
-Returns an object that represents either a single PivotTable item (a PivotItem object)or a collection of all the visible and hidden items (a PivotItems object) in the specified field.
+Returns an object that represents either a single PivotTable item (a PivotItem object)
+or a collection of all the visible and hidden items (a PivotItems object) in the specified field.
 
 ## Syntax
 

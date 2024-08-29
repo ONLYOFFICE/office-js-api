@@ -1,6 +1,7 @@
 # SetStyle
 
-The paragraph style base method.💡 This method is not used by itself, as it only forms the basis for the {@link ApiParagraph#SetStyle} method which sets the selected or created style for the paragraph.
+The paragraph style base method.
+💡 This method is not used by itself, as it only forms the basis for the {@link ApiParagraph#SetStyle} method which sets the selected or created style for the paragraph.
 
 ## Syntax
 

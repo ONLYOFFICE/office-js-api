@@ -12,7 +12,7 @@ expression.SetJc(sJcType);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sJcType | Required | "left" &#124;"right" &#124;"center" |  | The alignment type used for the current table placement. |
+| sJcType | Required | "left" &#124; "right" &#124; "center" |  | The alignment type used for the current table placement. |
 
 ## Returns
 

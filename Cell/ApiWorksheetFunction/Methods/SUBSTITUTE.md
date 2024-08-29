@@ -20,3 +20,13 @@ expression.SUBSTITUTE(arg1, arg2, arg3, arg4);
 ## Returns
 
 string
+
+## Example
+
+
+
+```javascript
+var oWorksheet = Api.GetActiveSheet();
+var oFunction = Api.GetWorksheetFunction();
+oWorksheet.GetRange("A1").SetValue(oFunction.SUBSTITUTE("Online Office is a cloud business service portal", "Office", "portal"));
+```

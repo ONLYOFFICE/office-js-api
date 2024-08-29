@@ -18,3 +18,16 @@ expression.T_INV(arg1, arg2);
 ## Returns
 
 number
+
+## Example
+
+
+
+```javascript
+var oWorksheet = Api.GetActiveSheet();
+var oFunction = Api.GetWorksheetFunction();
+var result = oFunction.T_INV(0.75, 2);
+oWorksheet.GetRange("B2").SetValue(result);
+
+
+```

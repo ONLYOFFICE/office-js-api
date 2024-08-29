@@ -12,7 +12,7 @@ expression.SetTextDirection(sType);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sType | Required | "lrtb" &#124;"tbrl" &#124;"btlr" |  | The available types of the text direction in the table cell: <code>"lrtb"</code> - text direction left-to-right moving from top to bottom, <code>"tbrl"</code> - text direction top-to-bottom moving from right to left, <code>"btlr"</code> - text direction bottom-to-top moving from left to right. |
+| sType | Required | "lrtb" &#124; "tbrl" &#124; "btlr" |  | The available types of the text direction in the table cell: <code>"lrtb"</code> - text direction left-to-right moving from top to bottom, <code>"tbrl"</code> - text direction top-to-bottom moving from right to left, <code>"btlr"</code> - text direction bottom-to-top moving from left to right. |
 
 ## Returns
 

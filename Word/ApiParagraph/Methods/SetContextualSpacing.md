@@ -1,6 +1,8 @@
 # SetContextualSpacing
 
-Specifies that any space before or after this paragraph set using the {@link ApiParaPr#SetSpacingBefore} or {@link ApiParaPr#SetSpacingAfter} spacing element, should not be applied when the preceding and following paragraphs are of the same paragraph style, affecting the top and bottom spacing respectively.
+Specifies that any space before or after this paragraph set using the 
+{@link ApiParaPr#SetSpacingBefore} or {@link ApiParaPr#SetSpacingAfter} spacing element, should not be applied when the preceding and 
+following paragraphs are of the same paragraph style, affecting the top and bottom spacing respectively.
 
 ## Syntax
 

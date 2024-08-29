@@ -18,3 +18,13 @@ expression.MROUND(arg1, arg2);
 ## Returns
 
 number, string, boolean
+
+## Example
+
+
+
+```javascript
+var oWorksheet = Api.GetActiveSheet();
+var oFunction = Api.GetWorksheetFunction();
+oWorksheet.GetRange("A1").SetValue(oFunction.MROUND(14.35, 0.4));
+```

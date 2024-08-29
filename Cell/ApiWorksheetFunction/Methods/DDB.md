@@ -21,3 +21,13 @@ expression.DDB(arg1, arg2, arg3, arg4, arg5);
 ## Returns
 
 number, string, boolean
+
+## Example
+
+
+
+```javascript
+var oWorksheet = Api.GetActiveSheet();
+var oFunction = Api.GetWorksheetFunction();
+oWorksheet.GetRange("A1").SetValue(oFunction.DDB(3500, 500, 5, 1, 2));
+```

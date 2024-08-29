@@ -1,6 +1,9 @@
 # SetLock
 
-Sets the lock to the current inline text content control:**"contentLocked"** - content cannot be edited.**"sdtContentLocked"** - content cannot be edited and the container cannot be deleted.**"sdtLocked"** - the container cannot be deleted.
+Sets the lock to the current inline text content control:
+**"contentLocked"** - content cannot be edited.
+**"sdtContentLocked"** - content cannot be edited and the container cannot be deleted.
+**"sdtLocked"** - the container cannot be deleted.
 
 ## Syntax
 
@@ -12,7 +15,7 @@ expression.SetLock(sLockType);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sLockType | Required | "contentLocked" &#124;"sdtContentLocked" &#124;"sdtLocked" |  | The lock type applied to the inline text content control. |
+| sLockType | Required | "contentLocked" &#124; "sdtContentLocked" &#124; "sdtLocked" |  | The lock type applied to the inline text content control. |
 
 ## Returns
 

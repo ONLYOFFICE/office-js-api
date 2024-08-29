@@ -20,3 +20,16 @@ expression.GAMMA_DIST(arg1, arg2, arg3, arg4);
 ## Returns
 
 number
+
+## Example
+
+
+
+```javascript
+var oWorksheet = Api.GetActiveSheet();
+var oFunction = Api.GetWorksheetFunction();
+var ans = oFunction.GAMMA_DIST(10, 9, 2, false);
+oWorksheet.GetRange("B2").SetValue(ans);
+
+
+```

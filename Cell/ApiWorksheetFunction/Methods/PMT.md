@@ -21,3 +21,13 @@ expression.PMT(arg1, arg2, arg3, arg4, arg5);
 ## Returns
 
 number, string, boolean
+
+## Example
+
+
+
+```javascript
+var oWorksheet = Api.GetActiveSheet();
+var oFunction = Api.GetWorksheetFunction();
+oWorksheet.GetRange("A1").SetValue(oFunction.PMT(0.08/12, 2*12, 10000, 0));
+```

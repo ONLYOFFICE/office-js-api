@@ -19,3 +19,13 @@ expression.F_INV_RT(arg1, arg2, arg3);
 ## Returns
 
 number
+
+## Example
+
+
+
+```javascript
+var oWorksheet = Api.GetActiveSheet();
+var oFunction = Api.GetWorksheetFunction();
+oWorksheet.GetRange("A1").SetValue(oFunction.F_INV_RT(0.01, 6, 4));
+```

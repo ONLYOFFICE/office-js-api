@@ -23,3 +23,13 @@ expression.PRICE(arg1, arg2, arg3, arg4, arg5, arg6, arg7);
 ## Returns
 
 number, string, boolean
+
+## Example
+
+
+
+```javascript
+var oWorksheet = Api.GetActiveSheet();
+var oFunction = Api.GetWorksheetFunction();
+oWorksheet.GetRange("A1").SetValue(oFunction.PRICE("1/1/2017", "6/1/2019", 0.05, 0.09, 105, 2));
+```

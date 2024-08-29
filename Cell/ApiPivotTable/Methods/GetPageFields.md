@@ -1,6 +1,7 @@
 # GetPageFields
 
-Returns an collection that represents either a single PivotTable page fieldor a collection of all visible page fields.
+Returns an collection that represents either a single PivotTable page field
+or a collection of all visible page fields.
 
 ## Syntax
 

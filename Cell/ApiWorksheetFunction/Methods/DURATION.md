@@ -22,3 +22,13 @@ expression.DURATION(arg1, arg2, arg3, arg4, arg5, arg6);
 ## Returns
 
 number, string, boolean
+
+## Example
+
+
+
+```javascript
+var oWorksheet = Api.GetActiveSheet();
+var oFunction = Api.GetWorksheetFunction();
+oWorksheet.GetRange("A1").SetValue(oFunction.DURATION("1/10/2018", "6/15/2019", 0.08, 0.09, 4, 1));
+```

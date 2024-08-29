@@ -12,7 +12,7 @@ expression.SetAxieNumFormat(sFormat, sAxiePos);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sFormat | Required | [NumFormat](../../Enumeration/NumFormat.md) &#124;String |  | Numeric format (can be custom format). |
+| sFormat | Required | [NumFormat](../../Enumeration/NumFormat.md) &#124; String |  | Numeric format (can be custom format). |
 | sAxiePos | Required | [AxisPos](../../Enumeration/AxisPos.md) |  | Axis position in the chart. |
 
 ## Returns

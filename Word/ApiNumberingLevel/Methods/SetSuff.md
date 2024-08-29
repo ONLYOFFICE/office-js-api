@@ -12,7 +12,7 @@ expression.SetSuff(sType);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sType | Required | "space" &#124;"tab" &#124;"none" |  | The content added between the numbering level text and the text in the numbered paragraph. |
+| sType | Required | "space" &#124; "tab" &#124; "none" |  | The content added between the numbering level text and the text in the numbered paragraph. |
 
 ## Returns
 

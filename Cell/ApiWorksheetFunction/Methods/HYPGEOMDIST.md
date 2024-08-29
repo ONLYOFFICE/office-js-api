@@ -20,3 +20,13 @@ expression.HYPGEOMDIST(arg1, arg2, arg3, arg4);
 ## Returns
 
 number
+
+## Example
+
+
+
+```javascript
+var oWorksheet = Api.GetActiveSheet();
+var oFunction = Api.GetWorksheetFunction();
+oWorksheet.GetRange("A1").SetValue(oFunction.HYPGEOMDIST(2, 3, 3, 12));
+```
