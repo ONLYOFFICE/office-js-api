@@ -8,11 +8,11 @@ Enumeration
 
 ## Values
 
-- ApiUnsupported
-- ApiRun
-- ApiInlineLvlSdt
-- ApiHyperlink
-- ApiFormBase
+- [ApiUnsupported](../../ApiUnsupported/ApiUnsupported.md)
+- [ApiRun](../../ApiRun/ApiRun.md)
+- [ApiInlineLvlSdt](../../ApiInlineLvlSdt/ApiInlineLvlSdt.md)
+- [ApiHyperlink](../../ApiHyperlink/ApiHyperlink.md)
+- [ApiFormBase](../../ApiFormBase/ApiFormBase.md)
 
 
 ## Example

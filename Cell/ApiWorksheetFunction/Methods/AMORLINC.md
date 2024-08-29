@@ -23,3 +23,13 @@ expression.AMORLINC(arg1, arg2, arg3, arg4, arg5, arg6, arg7);
 ## Returns
 
 number, string, boolean
+
+## Example
+
+
+
+```javascript
+var oWorksheet = Api.GetActiveSheet();
+var oFunction = Api.GetWorksheetFunction();
+oWorksheet.GetRange("A1").SetValue(oFunction.AMORLINC(3500, "1/1/2018", "3/1/2018", 500, 1, 0.25, 1));
+```

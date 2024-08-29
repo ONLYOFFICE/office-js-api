@@ -31,8 +31,8 @@ Represents the ApiPivotField class.
 | DragToRow | boolean | Returns or sets the specified field, can be dragged to the row position or not. |
 | DragToData | boolean | Returns or sets the specified field, can be dragged to the data position or not. |
 | DragToPage | boolean | Returns or sets the specified field, can be dragged to the page position or not. |
-| NumberFormat | string &#124;null | Returns or sets a value that represents the format code for the object. |
-| CurrentPage | string &#124;number | Returns the current page showing for the page field (valid only for page fields). |
+| NumberFormat | string &#124; null | Returns or sets a value that represents the format code for the object. |
+| CurrentPage | string &#124; number | Returns the current page showing for the page field (valid only for page fields). |
 
 ## Methods
 

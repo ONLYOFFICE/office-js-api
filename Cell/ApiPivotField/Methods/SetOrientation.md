@@ -1,6 +1,7 @@
 # SetOrientation
 
-Sets a pivot field orientation value that represents the locationof the field in the specified PivotTable report.
+Sets a pivot field orientation value that represents the location
+of the field in the specified PivotTable report.
 
 ## Syntax
 

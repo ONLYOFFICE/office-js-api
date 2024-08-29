@@ -1,6 +1,7 @@
 # GetTableRange1
 
-Returns a Range object that represents the range containing the entire PivotTable report,but doesn't include page fields.
+Returns a Range object that represents the range containing the entire PivotTable report,
+but doesn't include page fields.
 
 ## Syntax
 

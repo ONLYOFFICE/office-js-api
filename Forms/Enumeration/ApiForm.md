@@ -8,12 +8,12 @@ Enumeration
 
 ## Values
 
-- ApiTextForm
-- ApiComboBoxForm
-- ApiCheckBoxForm
-- ApiPictureForm
-- ApiDateForm
-- ApiComplexForm
+- [ApiTextForm](../../ApiTextForm/ApiTextForm.md)
+- [ApiComboBoxForm](../../ApiComboBoxForm/ApiComboBoxForm.md)
+- [ApiCheckBoxForm](../../ApiCheckBoxForm/ApiCheckBoxForm.md)
+- [ApiPictureForm](../../ApiPictureForm/ApiPictureForm.md)
+- [ApiDateForm](../../ApiDateForm/ApiDateForm.md)
+- [ApiComplexForm](../../ApiComplexForm/ApiComplexForm.md)
 
 
 ## Example

@@ -1,6 +1,7 @@
 # SetGrandTotalName
 
-Sets the text string label that is displayed in the grand total columnor row heading in the specified PivotTable report.
+Sets the text string label that is displayed in the grand total column
+or row heading in the specified PivotTable report.
 
 ## Syntax
 

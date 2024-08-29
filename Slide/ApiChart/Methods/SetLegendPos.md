@@ -12,7 +12,7 @@ expression.SetLegendPos(sLegendPos);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sLegendPos | Required | "left" &#124;"top" &#124;"right" &#124;"bottom" &#124;"none" |  | The position of the chart legend inside the chart window. |
+| sLegendPos | Required | "left" &#124; "top" &#124; "right" &#124; "bottom" &#124; "none" |  | The position of the chart legend inside the chart window. |
 
 ## Returns
 

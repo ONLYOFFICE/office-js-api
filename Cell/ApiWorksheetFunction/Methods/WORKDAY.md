@@ -19,3 +19,17 @@ expression.WORKDAY(arg1, arg2, arg3);
 ## Returns
 
 number, string, boolean
+
+## Example
+
+
+
+```javascript
+const oWorksheet = Api.GetActiveSheet();
+
+var oFunction = Api.GetWorksheetFunction();
+var ans = oFunction.WORKDAY("12/7/1981", 56); 
+
+oWorksheet.GetRange("C1").SetValue(ans);
+
+```

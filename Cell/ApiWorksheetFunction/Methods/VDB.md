@@ -23,3 +23,13 @@ expression.VDB(arg1, arg2, arg3, arg4, arg5, arg6, arg7);
 ## Returns
 
 number, string, boolean
+
+## Example
+
+
+
+```javascript
+var oWorksheet = Api.GetActiveSheet();
+var oFunction = Api.GetWorksheetFunction();
+oWorksheet.GetRange("A1").SetValue(oFunction.VDB(3500, 500, 5, 1, 3, 2, false));
+```

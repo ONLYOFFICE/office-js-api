@@ -18,3 +18,13 @@ expression.DECIMAL(arg1, arg2);
 ## Returns
 
 number, string, boolean
+
+## Example
+
+
+
+```javascript
+var oWorksheet = Api.GetActiveSheet();
+var oFunction = Api.GetWorksheetFunction();
+oWorksheet.GetRange("A1").SetValue(oFunction.DECIMAL(101, 2));
+```

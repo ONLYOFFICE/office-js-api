@@ -1,6 +1,14 @@
 # SetWrappingStyle
 
-Sets the wrapping type of the current object (image, shape, chart). One of the following wrapping style types can be set:**"inline"** - the object is considered to be a part of the text, like a character, so when the text moves, the object moves as well. In this case the positioning options are inaccessible.If one of the following styles is selected, the object can be moved independently of the text and positioned on the page exactly:**"square"** - the text wraps the rectangular box that bounds the object.**"tight"** - the text wraps the actual object edges.**"through"** - the text wraps around the object edges and fills in the open white space within the object.**"topAndBottom"** - the text is only above and below the object.**"behind"** - the text overlaps the object.**"inFront"** - the object overlaps the text.
+Sets the wrapping type of the current object (image, shape, chart). One of the following wrapping style types can be set:
+**"inline"** - the object is considered to be a part of the text, like a character, so when the text moves, the object moves as well. In this case the positioning options are inaccessible.
+If one of the following styles is selected, the object can be moved independently of the text and positioned on the page exactly:
+**"square"** - the text wraps the rectangular box that bounds the object.
+**"tight"** - the text wraps the actual object edges.
+**"through"** - the text wraps around the object edges and fills in the open white space within the object.
+**"topAndBottom"** - the text is only above and below the object.
+**"behind"** - the text overlaps the object.
+**"inFront"** - the object overlaps the text.
 
 ## Syntax
 
@@ -12,7 +20,7 @@ expression.SetWrappingStyle(sType);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sType | Required | "inline" &#124;"square" &#124;"tight" &#124;"through" &#124;"topAndBottom" &#124;"behind" &#124;"inFront" |  | The wrapping style type available for the object. |
+| sType | Required | "inline" &#124; "square" &#124; "tight" &#124; "through" &#124; "topAndBottom" &#124; "behind" &#124; "inFront" |  | The wrapping style type available for the object. |
 
 ## Returns
 

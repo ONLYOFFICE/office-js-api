@@ -12,7 +12,7 @@ expression.SetSeriaNumFormat(sFormat, nSeria);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sFormat | Required | [NumFormat](../../Enumeration/NumFormat.md) &#124;String |  | Numeric format (can be custom format). |
+| sFormat | Required | [NumFormat](../../Enumeration/NumFormat.md) &#124; String |  | Numeric format (can be custom format). |
 | nSeria | Required | Number |  | Series index. |
 
 ## Returns

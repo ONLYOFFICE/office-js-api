@@ -12,7 +12,7 @@ expression.CreateNumbering(sType);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sType | Optional | "bullet" &#124;"numbered" | "bullet" | The type of the numbering which will be created. |
+| sType | Optional | "bullet" &#124; "numbered" | "bullet" | The type of the numbering which will be created. |
 
 ## Returns
 

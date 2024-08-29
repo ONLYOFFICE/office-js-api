@@ -8,7 +8,7 @@ Enumeration
 
 ## Values
 
-- ApiParagraph
+- [ApiParagraph](../../ApiParagraph/ApiParagraph.md)
 - ApiTable
 - ApiBlockLvlSdt
 

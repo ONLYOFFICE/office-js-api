@@ -19,3 +19,16 @@ expression.GAMMA_INV(arg1, arg2, arg3);
 ## Returns
 
 number
+
+## Example
+
+
+
+```javascript
+var oWorksheet = Api.GetActiveSheet();
+var oFunction = Api.GetWorksheetFunction();
+var ans = oFunction.GAMMA_INV(0.4, 9, 2);
+oWorksheet.GetRange("B2").SetValue(ans);
+
+
+```

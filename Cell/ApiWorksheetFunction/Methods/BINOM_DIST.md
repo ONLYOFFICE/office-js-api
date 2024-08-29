@@ -20,3 +20,13 @@ expression.BINOM_DIST(arg1, arg2, arg3, arg4);
 ## Returns
 
 number
+
+## Example
+
+
+
+```javascript
+var oWorksheet = Api.GetActiveSheet();
+var oFunction = Api.GetWorksheetFunction();
+oWorksheet.GetRange("A1").SetValue(oFunction.BINOM_DIST(50, 67, 0.45, false));
+```

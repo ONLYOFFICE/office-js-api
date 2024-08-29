@@ -1,6 +1,9 @@
 # SetSpacingLine
 
-Sets the paragraph line spacing. If the value of the sLineRule parameter is either "atLeast" or "exact", then the value of nLine will be interpreted as twentieths of a point. If the value of the sLineRule parameter is "auto", then the value of the nLine parameter will be interpreted as 240ths of a line.
+Sets the paragraph line spacing. If the value of the sLineRule parameter is either 
+"atLeast" or "exact", then the value of nLine will be interpreted as twentieths of a point. If 
+the value of the sLineRule parameter is "auto", then the value of the 
+nLine parameter will be interpreted as 240ths of a line.
 
 ## Syntax
 
@@ -12,8 +15,8 @@ expression.SetSpacingLine(nLine, sLineRule);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| nLine | Required | [twips](../../Enumeration/twips.md) &#124;[line240](../../Enumeration/line240.md) |  | The line spacing value measured either in twentieths of a point (1/1440 of an inch) or in 240ths of a line. |
-| sLineRule | Required | "auto" &#124;"atLeast" &#124;"exact" |  | The rule that determines the measuring units of the line spacing. |
+| nLine | Required | [twips](../../Enumeration/twips.md) &#124; [line240](../../Enumeration/line240.md) |  | The line spacing value measured either in twentieths of a point (1/1440 of an inch) or in 240ths of a line. |
+| sLineRule | Required | "auto" &#124; "atLeast" &#124; "exact" |  | The rule that determines the measuring units of the line spacing. |
 
 ## Returns
 

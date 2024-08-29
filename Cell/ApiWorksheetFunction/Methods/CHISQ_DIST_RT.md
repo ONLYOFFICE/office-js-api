@@ -18,3 +18,13 @@ expression.CHISQ_DIST_RT(arg1, arg2);
 ## Returns
 
 number
+
+## Example
+
+
+
+```javascript
+var oWorksheet = Api.GetActiveSheet();
+var oFunction = Api.GetWorksheetFunction();
+oWorksheet.GetRange("A1").SetValue(oFunction.CHISQ_DIST_RT(12, 10));
+```

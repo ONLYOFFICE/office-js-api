@@ -1,6 +1,7 @@
 # GetGrandTotalName
 
-Returns the text string label that is displayed in the grand total columnor row heading in the specified PivotTable report.
+Returns the text string label that is displayed in the grand total column
+or row heading in the specified PivotTable report.
 
 ## Syntax
 

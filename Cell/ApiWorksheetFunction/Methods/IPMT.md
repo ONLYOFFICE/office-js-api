@@ -22,3 +22,13 @@ expression.IPMT(arg1, arg2, arg3, arg4, arg5, arg6);
 ## Returns
 
 number, string, boolean
+
+## Example
+
+
+
+```javascript
+var oWorksheet = Api.GetActiveSheet();
+var oFunction = Api.GetWorksheetFunction();
+oWorksheet.GetRange("A1").SetValue(oFunction.IPMT(0.1/12, 1, 2*12, 2000, 0));
+```

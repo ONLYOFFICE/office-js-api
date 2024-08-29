@@ -12,7 +12,7 @@ expression.SetTableLayout(sType);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sType | Required | "autofit" &#124;"fixed" |  | The type of the table layout in the document. |
+| sType | Required | "autofit" &#124; "fixed" |  | The type of the table layout in the document. |
 
 ## Returns
 

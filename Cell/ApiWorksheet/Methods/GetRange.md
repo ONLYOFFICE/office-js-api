@@ -1,6 +1,7 @@
 # GetRange
 
-Returns an object that represents the selected range of the current sheet. Can be a single cell - **A1**, or cellsfrom a single row - **A1:E1**, or cells from a single column - **A1:A10**, or cells from several rows and columns - **A1:E10**.
+Returns an object that represents the selected range of the current sheet. Can be a single cell - **A1**, or cells
+from a single row - **A1:E1**, or cells from a single column - **A1:A10**, or cells from several rows and columns - **A1:E10**.
 
 ## Syntax
 
@@ -12,8 +13,8 @@ expression.GetRange(Range1, Range2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Range1 | Required | string &#124;[ApiRange](../../ApiRange/ApiRange.md) |  | The range of cells from the current sheet. |
-| Range2 | Required | string &#124;[ApiRange](../../ApiRange/ApiRange.md) |  | The range of cells from the current sheet. |
+| Range1 | Required | string &#124; [ApiRange](../../ApiRange/ApiRange.md) |  | The range of cells from the current sheet. |
+| Range2 | Required | string &#124; [ApiRange](../../ApiRange/ApiRange.md) |  | The range of cells from the current sheet. |
 
 ## Returns
 
