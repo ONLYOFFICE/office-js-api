@@ -54,7 +54,7 @@ jobs:
 
       - name: Parse missing examples
         run: |
-          MISSING_EXAMPLES=$(sed -n '/START_MISSING_EXAMPLES/,/END_MISSING_EXAMPLES/p' script_output.txt | sed '1d;$d' | tr '\n' ',' | sed 's/,$//')
+          MISSING_EXAMPLES=$(sed -n '/START_OF_LIST/,/END_OF_LIST/p' script_output.txt | sed '1d;$d')
 
       - name: Set up Git
         run: |
