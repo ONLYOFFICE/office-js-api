@@ -1,9 +1,15 @@
-Api.AddCustomFunction (function add (first, second) {
-    if (second === null) {
-        second = 0;
-    }
-    return first + second;
-})
+// This example clear current custom function.
+Api.AddCustomFunctionLibrary("LibraryName", function(){
+    /**
+     * Function that returns the argument
+     * @customfunction
+     * @param {any} first First argument.
+     * @returns {any} second Second argument.
+     */
+    Api.AddCustomFunction(function ADD(first, second) {
+        return first + second;
+    });
+});
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A1").SetValue("=ADD(1, 2)");
 Api.RemoveCustomFunction("add");
