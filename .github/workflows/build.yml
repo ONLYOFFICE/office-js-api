@@ -52,7 +52,7 @@ jobs:
           cd build_tools/scripts/sdkjs_common/jsdoc
           output=$(python generate_docs_md.py)
           
-          missing_examples=$(echo "$output" | sed -n '/START_MISSING_EXAMPLES/,/END_MISSING_EXAMPLES/p' | sed '1d;$d')
+          missing_examples=$(echo "$output" | sed -n '/START_MISSING_EXAMPLES/,/END_MISSING_EXAMPLES/p' | sed '1d;$d' | tr ',' '\n')
           echo "missing_examples=$missing_examples" >> $GITHUB_ENV
 
       - name: Set up Git
