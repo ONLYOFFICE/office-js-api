@@ -1,26 +1,4 @@
-# GetTextPr
-
-Returns the merged text properties of entire range.
-
-## Syntax
-
-expression.GetTextPr();
-
-`expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
-
-## Parameters
-
-This method doesn't have any parameters.
-
-## Returns
-
-[ApiTextPr](../../ApiTextPr/ApiTextPr.md)
-
-## Example
-
-This example get the text properties from the Range.
-
-```javascript
+// This example get the text properties from the Range.
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("Welcome to ONLYOFFICE Document Builder");
@@ -40,5 +18,3 @@ oRange2.SetTextPr(oTextPr);
 var oNewParagraph = Api.CreateParagraph();
 oNewParagraph.AddText("This text is in italic as per the modified text properties.");
 oDocument.Push(oNewParagraph);
-
-```
