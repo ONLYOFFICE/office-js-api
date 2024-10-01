@@ -2,5 +2,5 @@
 var oDocument = Api.GetDocument();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("ONLYOFFICE Document Builder");
-var oRange = oDocument.GetRange(0, 9);
+var oRange = oDocument.GetRange(0, 11);
 oRange.AddHyperlink("https://www.onlyoffice.com/", "Main portal");
