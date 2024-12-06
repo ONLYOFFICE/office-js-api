@@ -8,5 +8,3 @@ let oRange2 = oDocument.GetRange(14, 22);
 oRange2.AddBookmark("Bookmark 2");
 let oBookmark1 = oDocument.GetBookmark("Bookmark 1");
 oBookmark1.Delete();
-oParagraph.AddLineBreak();
-oParagraph.AddText(oBookmark1.GetName() + " is " + (oBookmark1.IsActive() ? "active" : "inactive"));

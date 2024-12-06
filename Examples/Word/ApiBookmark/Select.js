@@ -5,4 +5,4 @@ oParagraph.AddText("ONLYOFFICE Document Builder");
 let oRange1 = oDocument.GetRange(21, 28);
 oRange1.AddBookmark("BookmarkName");
 let oBookmark = oDocument.GetBookmark("BookmarkName");
-oBookmark.GoTo();
+oBookmark.Select();
