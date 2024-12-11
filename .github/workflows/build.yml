@@ -55,6 +55,12 @@ jobs:
           ref: ${{ env.build_branch }}
           path: sdkjs-forms
 
+
+      - name: Set up Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
       - name: Generate docs
         run: |
           git -C build_tools switch "$build_branch" || echo "Failed to switch $build_branch in build_tools"
