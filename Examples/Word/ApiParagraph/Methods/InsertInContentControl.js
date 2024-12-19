@@ -2,5 +2,5 @@
 var oDocument = Api.GetDocument();
 var oParagraph = Api.CreateParagraph();
 oParagraph.AddText("This is a paragraph inserted into the content control.");
-var oBlockLvlSdt = oParagraph.InsertInContentControl(1);
+var oBlockLvlSdt = oParagraph.InsertInContentControl();
 oDocument.AddElement(0, oBlockLvlSdt);

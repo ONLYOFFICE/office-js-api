@@ -5,5 +5,5 @@ oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
 var oTable = Api.CreateTable(3, 3);
 oTable.SetWidth("percent", 100);
 oTable.SetStyle(oTableStyle);
-var oBlockLvlSdt = oTable.InsertInContentControl(1);
+var oBlockLvlSdt = oTable.InsertInContentControl();
 oDocument.AddElement(0, oBlockLvlSdt);
