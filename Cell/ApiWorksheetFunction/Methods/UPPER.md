@@ -12,7 +12,7 @@ expression.UPPER(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | string |  | The text which will be converted to uppercase, a reference or a text string. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; string |  | The text which will be converted to uppercase, a reference or a text string. |
 
 ## Returns
 

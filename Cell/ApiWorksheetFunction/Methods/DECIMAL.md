@@ -12,12 +12,12 @@ expression.DECIMAL(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | string |  | Is the number that you want to convert. |
-| arg2 | Required | number |  | Is the base Radix of the number you are converting. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; string |  | The number to convert. The string lenght must be less than or equal to 255 characters. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The base Radix of the number that is converting. An integer greater than or equal to 2 and less than or equal to 36. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

@@ -1,6 +1,6 @@
 # IntersectWith
 
-Returns a new range as the intersection of the current range with another range. The current range has not changed. Throws an error if two ranges do not overlap or are not adjacent.
+Returns a new range as the intersection of the current range with another range. The current range has not changed.
 
 ## Syntax
 

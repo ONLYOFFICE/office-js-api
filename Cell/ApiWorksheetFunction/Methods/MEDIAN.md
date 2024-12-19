@@ -12,7 +12,7 @@ expression.MEDIAN(args);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| args | Required | number &#124; string &#124; array &#124; [ApiRange](../../ApiRange/ApiRange.md) |  | Up to 255 numeric values for which the median will be calculated. The first argument is required, subsequent arguments are optional. |
+| args | Required | number &#124; [ApiRange](../../ApiRange/ApiRange.md) &#124; array &#124; [ApiName](../../ApiName/ApiName.md) |  | Up to 255 numeric values for which the median will be calculated. The first argument is required, subsequent arguments are optional. Arguments can be numbers, names, ranges, or arrays of numbers. |
 
 ## Returns
 

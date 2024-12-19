@@ -1,6 +1,6 @@
 # ISEVEN
 
-Returns TRUE if the number is even.
+Returns **true** if a number is even.
 
 ## Syntax
 
@@ -12,11 +12,11 @@ expression.ISEVEN(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is the value to test. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The value to test. |
 
 ## Returns
 
-number, string, boolean
+boolean
 
 ## Example
 

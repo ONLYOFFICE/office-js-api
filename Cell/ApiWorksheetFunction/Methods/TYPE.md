@@ -12,11 +12,11 @@ expression.TYPE(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Can be any value. |
+| arg1 | Required | number &#124; string &#124; boolean &#124; array &#124; [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) |  | A value to test. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

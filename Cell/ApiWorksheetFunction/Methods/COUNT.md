@@ -12,7 +12,7 @@ expression.COUNT(args);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| args | Required | string &#124; array &#124; [ApiRange](../../ApiRange/ApiRange.md) |  | Up to 255 items, cell references, or ranges to count numbers. The first argument is required, subsequent arguments are optional. |
+| args | Required | string &#124; number &#124; boolean &#124; [ApiRange](../../ApiRange/ApiRange.md) &#124; array &#124; [ApiName](../../ApiName/ApiName.md) |  | Up to 255 items, or ranges to count numbers. The first argument is required, subsequent arguments are optional. Arguments can be numbers, logical values and text representations of numbers, ranges, names, or arrays. |
 
 ## Returns
 

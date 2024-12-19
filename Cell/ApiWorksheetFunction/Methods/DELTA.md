@@ -1,6 +1,6 @@
 # DELTA
 
-Tests whether two numbers are equal.
+Tests whether two numbers are equal. The function returns 1 if the numbers are equal and 0 otherwise.
 
 ## Syntax
 
@@ -12,12 +12,12 @@ expression.DELTA(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is the first number. |
-| arg2 | Required | any |  | Is the second number. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The first number. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The second number. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

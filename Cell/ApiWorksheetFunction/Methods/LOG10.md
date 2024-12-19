@@ -12,11 +12,11 @@ expression.LOG10(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is the positive real number for which you want the base-10 logarithm. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The positive real number for which the base-10 logarithm will be returned. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

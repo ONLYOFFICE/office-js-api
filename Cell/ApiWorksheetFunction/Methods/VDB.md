@@ -1,6 +1,6 @@
 # VDB
 
-Returns the depreciation of an asset for any period you specify, including partial periods, using the double-declining balance method or some other method you specify.
+Returns the depreciation of an asset for any specified period, including partial periods, using the double-declining balance method or some other method specified.
 
 ## Syntax
 
@@ -12,17 +12,17 @@ expression.VDB(arg1, arg2, arg3, arg4, arg5, arg6, arg7);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is the initial cost of the asset. |
-| arg2 | Required | number |  | Is the salvage value at the end of the life of the asset. |
-| arg3 | Required | number |  | Is the number of periods over which the asset is being depreciated (sometimes called the useful life of the asset). |
-| arg4 | Required | number |  | Is the starting period for which you want to calculate the depreciation, in the same units as Life. |
-| arg5 | Required | number |  | Is the ending period for which you want to calculate the depreciation, in the same units as Life. |
-| arg6 | Required | number |  | Is the rate at which the balance declines, 2 (double-declining balance) if omitted. |
-| arg7 | Required | boolean |  | Switch to straight-line depreciation when depreciation is greater than the declining balance = FALSE or omitted; do not switch = TRUE. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The initial cost of the asset. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The salvage value of the asset at the end of its lifetime. |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The number of periods over which the asset is being depreciated (sometimes called the useful life of the asset). |
+| arg4 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The starting period for which the depreciation will be calculated, in the same units as the useful life of the asset. |
+| arg5 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The ending period for which the depreciation will be calculated, in the same units as the useful life of the asset. |
+| arg6 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The rate at which the balance declines. If it is omitted, the function will assume it to be 2 |
+| arg7 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; boolean |  | Specifies whether to use straight-line depreciation when depreciation is greater than the declining balance calculation (**false** or omitted). If it is set to **true**, the function uses the declining balance method. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

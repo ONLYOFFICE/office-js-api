@@ -31,3 +31,6 @@ Represents the ApiSlide class.
 - [GetAllCharts](./Methods/GetAllCharts.md)
 - [GetAllOleObjects](./Methods/GetAllOleObjects.md)
 - [ToJSON](./Methods/ToJSON.md)
+- [GetDrawingsByPlaceholderType](./Methods/GetDrawingsByPlaceholderType.md)
+- [Select](./Methods/Select.md)
+- [GroupDrawings](./Methods/GroupDrawings.md)

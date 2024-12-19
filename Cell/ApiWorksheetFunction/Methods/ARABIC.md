@@ -12,11 +12,11 @@ expression.ARABIC(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | string |  | Is the Roman numeral you want to convert. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; string |  | The Roman numeral to convert. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

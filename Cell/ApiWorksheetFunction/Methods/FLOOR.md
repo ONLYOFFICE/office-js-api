@@ -12,12 +12,12 @@ expression.FLOOR(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is the numeric value you want to round. |
-| arg2 | Required | number |  | Is the multiple to which you want to round. Number and Significance must either both be positive or both be negative. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The numeric value to round down. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The multiple of significance to round down to. The number to round down and the multiple of significance must have the same sign. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

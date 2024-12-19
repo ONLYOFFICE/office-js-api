@@ -1,6 +1,6 @@
 # SetTableStyleRowStripes
 
-Sets the banded rows style for PivotTable.
+Sets the setting which specifies whether the background color alternation for odd and even rows will be enabled for the pivot table.
 
 ## Syntax
 
@@ -12,8 +12,51 @@ expression.SetTableStyleRowStripes(show);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| show | Required | boolean |  | Flag show or not banded rows. |
+| show | Required | boolean |  | Specifies whether the background color alternation for odd and even rows will be enabled for the pivot table. |
 
 ## Returns
 
 This method doesn't return any data.
+
+## Example
+
+
+
+```javascript
+var oWorksheet = Api.GetActiveSheet();
+
+oWorksheet.GetRange('B1').SetValue('Region');
+oWorksheet.GetRange('C1').SetValue('Style');
+oWorksheet.GetRange('D1').SetValue('Price');
+
+oWorksheet.GetRange('B2').SetValue('East');
+oWorksheet.GetRange('B3').SetValue('West');
+oWorksheet.GetRange('B4').SetValue('East');
+oWorksheet.GetRange('B5').SetValue('West');
+
+oWorksheet.GetRange('C2').SetValue('Fancy');
+oWorksheet.GetRange('C3').SetValue('Fancy');
+oWorksheet.GetRange('C4').SetValue('Tee');
+oWorksheet.GetRange('C5').SetValue('Tee');
+
+oWorksheet.GetRange('D2').SetValue(42.5);
+oWorksheet.GetRange('D3').SetValue(35.2);
+oWorksheet.GetRange('D4').SetValue(12.3);
+oWorksheet.GetRange('D5').SetValue(24.8);
+
+var dataRef = Api.GetRange("'Sheet1'!$B$1:$D$5");
+var pivotTable = Api.InsertPivotNewWorksheet(dataRef);
+
+pivotTable.AddFields({
+	rows: ['Region', 'Style'],
+});
+
+pivotTable.AddDataField('Price');
+pivotTable.SetTableStyleRowStripes(true);
+
+var pivotWorksheet = Api.GetActiveSheet();
+
+pivotWorksheet.GetRange('A12').SetValue('Table Style Row Stripes');
+pivotWorksheet.GetRange('B12').SetValue(pivotTable.GetTableStyleRowStripes());
+
+```

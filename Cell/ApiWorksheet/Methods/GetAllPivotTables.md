@@ -1,6 +1,6 @@
 # GetAllPivotTables
 
-Returns all PivotTables on worksheet.
+Returns all pivot tables from the current worksheet.
 
 ## Syntax
 

@@ -12,11 +12,11 @@ expression.FACTDOUBLE(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is the value for which to return the double factorial. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The value for which to return the double factorial. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

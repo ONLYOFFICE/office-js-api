@@ -1,20 +1,22 @@
 # SUMSQ
 
-Returns the sum of the squares of the arguments. The arguments can be numbers, arrays, names or references to cells that contain numbers.
+Returns the sum of the squares of the arguments.
 
 ## Syntax
 
-expression.SUMSQ();
+expression.SUMSQ(args);
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
 ## Parameters
 
-This method doesn't have any parameters.
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| args | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; number &#124; string &#124; boolean &#124; [ApiName](../../ApiName/ApiName.md) &#124; array |  | Up to 255 numeric values for which the sum of the squares will be calculated. The first argument is required, subsequent arguments are optional. The arguments can be numbers, names, logical values or text representations of numbers, ranges of cells that contain numbers, or arrays. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

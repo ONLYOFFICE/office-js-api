@@ -12,12 +12,12 @@ expression.IMDIV(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is the complex numerator or dividend. |
-| arg2 | Required | any |  | Is the complex denominator or divisor. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The complex numerator or dividend in the <em>x + yi</em> or <em>x + yj</em> form. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The complex denominator or divisor in the <em>x + yi</em> or <em>x + yj</em> form. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

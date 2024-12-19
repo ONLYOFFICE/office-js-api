@@ -27,7 +27,7 @@ Represents the ApiWorksheet class.
 | Comments | Array | Returns all comments from the current worksheet. |
 | FreezePanes | [ApiFreezePanes](../ApiFreezePanes/ApiFreezePanes.md) | Returns the freeze panes for the current worksheet. |
 | AllProtectedRanges | Array.<[ApiProtectedRange](../ApiProtectedRange/ApiProtectedRange.md)> | Returns all protected ranges from the current worksheet. |
-| PivotTables | Array.<[ApiPivotTable](../ApiPivotTable/ApiPivotTable.md)> | Returns all PivotTables on worksheet. |
+| PivotTables | Array.<[ApiPivotTable](../ApiPivotTable/ApiPivotTable.md)> | Returns all pivot tables from the current worksheet. |
 
 ## Methods
 
@@ -73,6 +73,7 @@ Represents the ApiWorksheet class.
 - [AddChart](./Methods/AddChart.md)
 - [AddShape](./Methods/AddShape.md)
 - [AddImage](./Methods/AddImage.md)
+- [GroupDrawings](./Methods/GroupDrawings.md)
 - [AddWordArt](./Methods/AddWordArt.md)
 - [AddOleObject](./Methods/AddOleObject.md)
 - [ReplaceCurrentImage](./Methods/ReplaceCurrentImage.md)

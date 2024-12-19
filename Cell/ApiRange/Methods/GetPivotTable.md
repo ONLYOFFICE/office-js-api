@@ -1,6 +1,6 @@
 # GetPivotTable
 
-Returns a PivotTable object that represents the PivotTable report containing the upper-left corner of the specified range.
+Returns the ApiPivotTable object that represents the pivot table report containing the upper-left corner of the specified range.
 
 ## Syntax
 

@@ -12,13 +12,13 @@ expression.TBILLEQ(arg1, arg2, arg3);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is the Treasury bill's settlement date, expressed as a serial date number. |
-| arg2 | Required | any |  | Is the Treasury bill's maturity date, expressed as a serial date number. |
-| arg3 | Required | any |  | Is the Treasury bill's discount rate. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The settlement date of the Treasury bill, expressed as a serial date number. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The maturity date of the Treasury bill, expressed as a serial date number. |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The discount rate of the Treasury bill. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

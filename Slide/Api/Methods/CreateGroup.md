@@ -12,11 +12,11 @@ expression.CreateGroup(aDrawings);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| aDrawings | Required | Array |  | The array of drawings. |
+| aDrawings | Required | [DrawingForGroup](../../Enumeration/DrawingForGroup.md) |  | The array of drawings not in document. |
 
 ## Returns
 
-ApiGroup
+[ApiGroup](../../ApiGroup/ApiGroup.md)
 
 ## Example
 

@@ -1,6 +1,7 @@
 # STDEVPA
 
-Calculates standard deviation based on an entire population, including logical values and text. Text and the **false** logical value have the value 0; the **true** logical value has the value 1.
+Calculates standard deviation based on the entire population, including logical values and text.
+Text and the **false** logical value have the value 0; the **true** logical value has the value 1.
 
 ## Syntax
 
@@ -12,11 +13,11 @@ expression.STDEVPA(args);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| args | Required | number &#124; string &#124; boolean &#124; Array.&lt;number&gt; &#124; [ApiRange](../../ApiRange/ApiRange.md) |  | Up to 255 values for which the standard deviation will be calculated. The first argument is required, subsequent arguments are optional. |
+| args | Required | Array.&lt;number&gt; &#124; number &#124; string &#124; boolean &#124; [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) |  | Up to 255 values for which the standard deviation will be calculated. The first argument is required, subsequent arguments are optional. Arguments can be numbers, logical values, text strings, names, ranges, or arrays. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

@@ -12,9 +12,9 @@ expression.DAYS360(arg1, arg2, arg3);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Start date from which days will be counted. |
-| arg2 | Required | number |  | End date until which days will be counted. |
-| arg3 | Required | boolean |  | A logical value that specifies whether to use the U.S. (NASD) (false or omitted) or European (true) method in the calculation. According to the European method, the start and end dates that occur on the 31st of a month become equal to the 30th of the same month. According to the U.S. method, the start date is the last day of a month, it becomes equal to the 30th of the same month. If the end date is the last day of a month and the start date is earlier than the 30th of a month, the end date becomes equal to the 1st of the next month. Otherwise the end date becomes equal to the 30th of the same month. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | Start date from which days will be counted. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | End date until which days will be counted. |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; boolean |  | A logical value that specifies whether to use the U.S. (NASD) (false or omitted) or European (true) method in the calculation. According to the European method, the start and end dates that occur on the 31st of a month become equal to the 30th of the same month. According to the U.S. method, the start date is the last day of a month, it becomes equal to the 30th of the same month. If the end date is the last day of a month and the start date is earlier than the 30th of a month, the end date becomes equal to the 1st of the next month. Otherwise the end date becomes equal to the 30th of the same month. |
 
 ## Returns
 

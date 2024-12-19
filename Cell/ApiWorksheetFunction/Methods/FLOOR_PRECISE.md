@@ -1,10 +1,10 @@
 # FLOOR_PRECISE
 
-Returns a number that is rounded down to the nearest integer or to the nearest multiple of significance.
+Returns a number that is rounded down to the nearest integer or to the nearest multiple of significance. The number is always rounded down regardless of its sign.
 
 ## Syntax
 
-expression.FLOOR_PRECISE(arg1., arg2.);
+expression.FLOOR_PRECISE(arg1, arg2);
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,12 +12,12 @@ expression.FLOOR_PRECISE(arg1., arg2.);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1. | Required | number |  | No description provided. |
-| arg2. | Required | number |  | No description provided. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The numeric value to round down. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The multiple of significance to round down to. If it is omitted, the default value of 1 is used. If it is set to zero, the function returns 0. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

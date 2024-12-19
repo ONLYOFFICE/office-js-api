@@ -12,11 +12,11 @@ expression.IMAGINARY(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is a complex number for which you want the imaginary coefficient. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | A complex number expressed in the <em>x + yi</em> or <em>x + yj</em> form. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

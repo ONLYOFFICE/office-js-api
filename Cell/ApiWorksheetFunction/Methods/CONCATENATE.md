@@ -12,7 +12,7 @@ expression.CONCATENATE(arg_n);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg_n | Required | string |  | Up to 255 data values that will be combined. |
+| arg_n | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; string |  | Up to 255 data values that will be combined. |
 
 ## Returns
 

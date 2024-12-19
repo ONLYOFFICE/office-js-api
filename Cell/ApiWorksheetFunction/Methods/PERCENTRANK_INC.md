@@ -12,9 +12,9 @@ expression.PERCENTRANK_INC(arg1, arg2, arg3);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | Array.&lt;number&gt; &#124; [ApiRange](../../ApiRange/ApiRange.md) |  | The array or range of data with numeric values that defines relative standing. |
-| arg2 | Required | number |  | The value for which the rank will be returned. |
-| arg3 | Required | number |  | An optional value that identifies the number of significant digits for the returned percentage, three digits if omitted (0.xxx%). |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; Array.&lt;number&gt; |  | The array or range of data with numeric values that defines relative standing. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The value for which the rank will be returned. |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | An optional value that identifies the number of significant digits for the returned percentage, three digits if omitted (0.xxx%). |
 
 ## Returns
 

@@ -12,16 +12,16 @@ expression.PPMT(arg1, arg2, arg3, arg4, arg5, arg6);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is the interest rate per period. For example, use 6%/4 for quarterly payments at 6% APR. |
-| arg2 | Required | number |  | Specifies the period and must be in the range 1 to nper. |
-| arg3 | Required | number |  | Is the total number of payment periods in an investment. |
-| arg4 | Required | number |  | Is the present value: the total amount that a series of future payments is worth now. |
-| arg5 | Required | number |  | Is the future value, or cash balance you want to attain after the last payment is made. |
-| arg6 | Required | number |  | Is a logical value: payment at the beginning of the period = 1; payment at the end of the period = 0 or omitted. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The interest rate per period. For example, use 6%/4 for quarterly payments at 6% APR. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The period for which the principal payment will be returned. It must be in the range from 1 to to the total number of payment periods. |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The total number of payment periods in an investment. |
+| arg4 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The present value: the total amount that a series of future payments is worth now. |
+| arg5 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The future value, or cash balance which will be attained after the last payment is made. |
+| arg6 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | A logical value: payment at the beginning of the period = 1; payment at the end of the period = 0 or omitted. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

@@ -1,6 +1,6 @@
 # TODAY
 
-Returns the current date formatted as a date..
+Returns the current date in the <em>MM/dd/yy</em> format.
 
 ## Syntax
 
@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

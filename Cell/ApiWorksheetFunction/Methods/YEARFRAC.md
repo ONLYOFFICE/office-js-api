@@ -1,6 +1,6 @@
 # YEARFRAC
 
-Returns the year fraction representing the number of whole days between start_date and end_date.
+Returns the year fraction representing the number of whole days between the start date and end date.
 
 ## Syntax
 
@@ -12,13 +12,13 @@ expression.YEARFRAC(arg1, arg2, arg3);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is a serial date number that represents the start date. |
-| arg2 | Required | any |  | Is a serial date number that represents the end date. |
-| arg3 | Required | any |  | Is the type of day count basis to use. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | A serial date number that represents the start date. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | A serial date number that represents the end date. |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The type of day count basis to use: **0** or omitted - US (NASD) 30/360; **1** - Actual/actual; **2** - Actual/360; **3** - Actual/365; **4** - European 30/360. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

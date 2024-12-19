@@ -1,6 +1,6 @@
 # AddComment
 
-Adds a comment to the document.
+Adds a comment to the current document selection, or to the current word if no text is selected.
 
 ## Syntax
 

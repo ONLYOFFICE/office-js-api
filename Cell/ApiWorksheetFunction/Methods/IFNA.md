@@ -1,6 +1,6 @@
 # IFNA
 
-Returns the value you specify if the expression resolves to #N/A, otherwise returns the result of the expression.
+Checks if there is an error in the formula in the first argument. The function returns the specified value if the formula returns the <em>#N/A</em> error value, otherwise returns the result of the formula.
 
 ## Syntax
 
@@ -12,8 +12,8 @@ expression.IFNA(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is any value or expression or reference. |
-| arg2 | Required | any |  | Is any value or expression or reference. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number &#124; string &#124; boolean |  | The value, expression, or reference that is checked for an error. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number &#124; string &#124; boolean |  | The value to return if the formula evaluates to the <em>#N/A</em> error value. |
 
 ## Returns
 

@@ -1,6 +1,6 @@
 # ERF_PRECISE
 
-Returns the error function.
+Returns the error function integrated between 0 and the specified lower limit.
 
 ## Syntax
 
@@ -12,11 +12,11 @@ expression.ERF_PRECISE(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is the lower bound for integrating ERF.PRECISE. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The lower bound for integrating the error function. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

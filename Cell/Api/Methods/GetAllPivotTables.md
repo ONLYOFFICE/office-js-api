@@ -1,6 +1,6 @@
 # GetAllPivotTables
 
-Returns all PivotTables.
+Returns all pivot tables.
 
 ## Syntax
 

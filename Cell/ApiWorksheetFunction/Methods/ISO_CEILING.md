@@ -1,10 +1,11 @@
 # ISO_CEILING
 
-Returns a number that is rounded up to the nearest integer or to the nearest multiple of significance regardless of the sign of the number. However, if the number or the significance is zero, zero is returned..
+Returns a number that is rounded up to the nearest integer or to the nearest multiple of significance regardless of the sign of the number.
+The number is always rounded up regardless of its sing.
 
 ## Syntax
 
-expression.ISO_CEILING(arg1., arg2.);
+expression.ISO_CEILING(arg1, arg2);
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,12 +13,12 @@ expression.ISO_CEILING(arg1., arg2.);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1. | Required | number |  | No description provided. |
-| arg2. | Required | number |  | No description provided. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The numeric value to round up. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The multiple of significance to round up to. If it is omitted, the default value of 1 is used. If it is set to zero, the function returns 0. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

@@ -1,6 +1,6 @@
 # EXP
 
-Returns e raised to the power of a given number.
+Returns the **e** constant raised to the power of a given number. The **e** constant is equal to **2.71828182845904**, the base of the natural logarithm.
 
 ## Syntax
 
@@ -12,11 +12,11 @@ expression.EXP(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is the exponent applied to the base e. The constant e equals 2.71828182845904, the base of the natural logarithm. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The exponent applied to the base **e**. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

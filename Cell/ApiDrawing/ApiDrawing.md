@@ -11,3 +11,4 @@ Represents the ApiDrawing class.
 - [SetPosition](./Methods/SetPosition.md)
 - [GetLockValue](./Methods/GetLockValue.md)
 - [SetLockValue](./Methods/SetLockValue.md)
+- [GetParentSheet](./Methods/GetParentSheet.md)

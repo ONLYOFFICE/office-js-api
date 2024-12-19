@@ -1,20 +1,22 @@
 # MULTINOMIAL
 
-Returns the multinomial of a set of numbers.
+Returns the ratio of the factorial of a sum of numbers to the product of factorials.
 
 ## Syntax
 
-expression.MULTINOMIAL();
+expression.MULTINOMIAL(args);
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
 ## Parameters
 
-This method doesn't have any parameters.
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| args | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | Up to 255 numeric values for which the multinomial will be returned. The first argument is required, subsequent arguments are optional. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

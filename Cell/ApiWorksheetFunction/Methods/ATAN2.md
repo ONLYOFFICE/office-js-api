@@ -12,12 +12,12 @@ expression.ATAN2(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is the x-coordinate of the point. |
-| arg2 | Required | number |  | Is the y-coordinate of the point. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The x coordinate of the point. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The y coordinate of the point. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

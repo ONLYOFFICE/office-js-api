@@ -12,11 +12,11 @@ expression.ASINH(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is any real number equal to or greater than 1. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | Any real number equal to or greater than 1. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

@@ -1,6 +1,6 @@
 # RefreshAllPivots
 
-Refreshs all PivotTables.
+Refreshes all pivot tables.
 
 ## Syntax
 

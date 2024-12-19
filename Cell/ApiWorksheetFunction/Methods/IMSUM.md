@@ -1,20 +1,22 @@
 # IMSUM
 
-Returns the sum of complex numbers.
+Returns the sum of the specified complex numbers.
 
 ## Syntax
 
-expression.IMSUM();
+expression.IMSUM(args);
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
 ## Parameters
 
-This method doesn't have any parameters.
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| args | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; string |  | Up to 255 complex numbers expressed in the <em>x + yi</em> or <em>x + yj</em> form. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

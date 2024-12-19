@@ -1,6 +1,6 @@
 # ASIN
 
-Returns the arcsine of a number in radians, in the range -Pi/2 to Pi/2.
+Returns the arcsine of a number in radians, in the range from <em>-Pi/2</em> to <em>Pi/2</em>.
 
 ## Syntax
 
@@ -12,11 +12,11 @@ expression.ASIN(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is the sine of the angle you want and must be from -1 to 1. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The angle sine. It must be from -1 to 1. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

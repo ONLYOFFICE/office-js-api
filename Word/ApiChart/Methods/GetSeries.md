@@ -1,6 +1,6 @@
 # GetSeries
 
-Returns the series with specific index.
+Returns the series with a specific index.
 
 ## Syntax
 

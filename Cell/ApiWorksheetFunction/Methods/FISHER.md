@@ -12,7 +12,7 @@ expression.FISHER(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | The value for the transformation, a number between -1 and 1, excluding -1 and 1. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The value for the transformation, a number between -1 and 1, excluding -1 and 1. |
 
 ## Returns
 

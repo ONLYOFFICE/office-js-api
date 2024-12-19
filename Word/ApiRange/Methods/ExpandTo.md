@@ -1,6 +1,6 @@
 # ExpandTo
 
-Returns a new range that goes beyond the specified range in any direction and spans a different range. The current range has not changed. Throws an error if two ranges do not have a union.
+Returns a new range that goes beyond the specified range in any direction and spans a different range. The current range has not changed.
 
 ## Syntax
 

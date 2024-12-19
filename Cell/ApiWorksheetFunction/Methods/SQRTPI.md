@@ -1,6 +1,6 @@
 # SQRTPI
 
-Returns the square root of (number * Pi).
+Returns the square root of (number * pi).
 
 ## Syntax
 
@@ -12,11 +12,11 @@ expression.SQRTPI(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is the number by which p is multiplied. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The number by which pi is multiplied. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

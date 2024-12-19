@@ -22,3 +22,5 @@ Represents the ApiLayout class.
 - [GetAllOleObjects](./Methods/GetAllOleObjects.md)
 - [GetMaster](./Methods/GetMaster.md)
 - [ToJSON](./Methods/ToJSON.md)
+- [GetDrawingsByPlaceholderType](./Methods/GetDrawingsByPlaceholderType.md)
+- [GroupDrawings](./Methods/GroupDrawings.md)

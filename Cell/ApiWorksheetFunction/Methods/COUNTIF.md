@@ -12,8 +12,8 @@ expression.COUNTIF(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) |  | The range of cells to count nonblank cells. |
-| arg2 | Required | number &#124; string |  | The condition in the form of a number, expression, or text that defines which cells will be counted. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) |  | The range of cells to count nonblank cells. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number &#124; string |  | The condition in the form of a number, expression, or text that defines which cells will be counted. |
 
 ## Returns
 

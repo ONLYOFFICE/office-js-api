@@ -12,8 +12,8 @@ expression.CHITEST(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | The range of data that contains observations to test against expected values. |
-| arg2 | Required | any |  | The range of data that contains the ratio of the product of row totals and column totals to the grand total. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number &#124; string &#124; boolean |  | The range of data that contains observations to test against expected values. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number &#124; string &#124; boolean |  | The range of data that contains the ratio of the product of row totals and column totals to the grand total. |
 
 ## Returns
 

@@ -1,6 +1,6 @@
 # GetOutlineLvl
 
-Gets the outline level of the specified properties.
+Returns the outline level of the specified properties.
 
 ## Syntax
 

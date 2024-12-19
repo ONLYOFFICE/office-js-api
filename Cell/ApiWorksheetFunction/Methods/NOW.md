@@ -1,6 +1,6 @@
 # NOW
 
-Returns the current date and time formatted as a date and time..
+Returns the current date and time in the <em>MM/dd/yy hh:mm</em> format.
 
 ## Syntax
 
@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

@@ -12,11 +12,11 @@ expression.ABS(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is the real number for which you want the absolute value. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The real number for which the absolute value will be returned. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

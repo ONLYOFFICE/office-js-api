@@ -1,6 +1,6 @@
 # ERFC_PRECISE
 
-Returns the complementary error function.
+Returns the complementary error function integrated between the specified lower limit and infinity.
 
 ## Syntax
 
@@ -12,11 +12,11 @@ expression.ERFC_PRECISE(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is the lower bound for integrating ERFC.PRECISE. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The lower bound for integrating the complementary error function. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

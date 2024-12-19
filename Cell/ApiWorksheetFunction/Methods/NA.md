@@ -1,6 +1,6 @@
 # NA
 
-Returns the error value #N/A (value not available).
+Returns the <em>#N/A</em> error value which means "no value is available".
 
 ## Syntax
 
@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-number, string, boolean
+string
 
 ## Example
 

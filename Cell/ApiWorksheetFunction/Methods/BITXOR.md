@@ -1,6 +1,6 @@
 # BITXOR
 
-Returns a bitwise 'Exclusive Or' of two numbers.
+Returns a bitwise "XOR" (Exclusive Or) of two numbers.
 
 ## Syntax
 
@@ -12,12 +12,12 @@ expression.BITXOR(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is the decimal representation of the binary number you want to evaluate. |
-| arg2 | Required | number |  | Is the decimal representation of the binary number you want to evaluate. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The first decimal representation of the binary number to evaluate. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The second decimal representation of the binary number to evaluate. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

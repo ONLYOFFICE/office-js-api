@@ -12,9 +12,9 @@ expression.CRITBINOM(arg1, arg2, arg3);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | The number of Bernoulli trials. |
-| arg2 | Required | number |  | The probability of success on each trial, a number between 0 and 1 inclusive. |
-| arg3 | Required | number |  | The criterion value, a number between 0 and 1 inclusive. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The number of Bernoulli trials. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The probability of success on each trial, a number between 0 and 1 inclusive. |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The criterion value, a number between 0 and 1 inclusive. |
 
 ## Returns
 

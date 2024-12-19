@@ -1,6 +1,6 @@
 # PivotMoveFieldType
 
-No description provided.
+The direction to move the pivot table field.
 
 ## Type
 

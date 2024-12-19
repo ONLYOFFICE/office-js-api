@@ -1,6 +1,6 @@
 # NOT
 
-Changes FALSE to TRUE, or TRUE to FALSE.
+Checks if the specified logical value is **true** or **false**. The function returns **true** if the argument is **false** and **false** if the argument is **true**.
 
 ## Syntax
 
@@ -12,11 +12,11 @@ expression.NOT(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | boolean |  | Is a value or expression that can be evaluated to TRUE or FALSE. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number &#124; string &#124; boolean |  | A value or expression that can be evaluated to **true** or **false**. |
 
 ## Returns
 
-number, string, boolean
+boolean
 
 ## Example
 

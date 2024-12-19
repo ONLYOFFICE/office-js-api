@@ -1,6 +1,6 @@
 # GetType
 
-Returns the section type.
+Returns the section break type.
 
 ## Syntax
 
@@ -14,4 +14,4 @@ This method doesn't have any parameters.
 
 ## Returns
 
-"nextPage", "oddPage", "evenPage", "continuous", "nextColumn"
+[SectionBreakType](../../Enumeration/SectionBreakType.md)

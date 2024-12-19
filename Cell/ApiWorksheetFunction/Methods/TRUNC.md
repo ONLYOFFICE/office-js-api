@@ -12,12 +12,12 @@ expression.TRUNC(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is the number you want to truncate. |
-| arg2 | Required | number |  | Is a number specifying the precision of the truncation, 0 (zero) if omitted. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The number which will be truncated. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | A number specifying the precision of the truncation. If this argument is omitted, it is equal to 0 (zero). |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

@@ -1,6 +1,6 @@
 # GetTables
 
-Returns a Tables array that represents all the tables nested within the specified table.
+Returns an array of tables that represents all the tables nested within the specified table.
 
 ## Syntax
 

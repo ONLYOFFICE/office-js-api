@@ -1,6 +1,6 @@
 # IMSUB
 
-Returns the difference of two complex numbers.
+Returns the difference of two complex numbers expressed in the <em>x + yi</em> or <em>x + yj</em> form.
 
 ## Syntax
 
@@ -12,12 +12,12 @@ expression.IMSUB(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is the complex number from which to subtract inumber2. |
-| arg2 | Required | any |  | Is the complex number to subtract from inumber1. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The complex number from which to subtract the second number. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The complex number to subtract from the first number. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

@@ -14,7 +14,7 @@ Represents the Api class.
 | AllComments | Array.<[ApiComment](../ApiComment/ApiComment.md)> | Returns all comments from the current workbook including comments from all worksheets. |
 | ReferenceStyle | [ReferenceStyle](../Enumeration/ReferenceStyle.md) | Returns or sets the reference style. |
 | WorksheetFunction | [ApiWorksheetFunction](../ApiWorksheetFunction/ApiWorksheetFunction.md) | Returns an object that represents the function list. |
-| PivotTables | Array.<[ApiPivotTable](../ApiPivotTable/ApiPivotTable.md)> | Returns all PivotTables. |
+| PivotTables | Array.<[ApiPivotTable](../ApiPivotTable/ApiPivotTable.md)> | Returns all pivot tables. |
 
 ## Methods
 

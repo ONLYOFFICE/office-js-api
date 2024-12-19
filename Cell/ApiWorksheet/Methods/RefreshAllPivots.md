@@ -1,6 +1,6 @@
 # RefreshAllPivots
 
-Refresh all PivotTables on current worksheet.
+Refreshes all pivot tables on the current worksheet.
 
 ## Syntax
 

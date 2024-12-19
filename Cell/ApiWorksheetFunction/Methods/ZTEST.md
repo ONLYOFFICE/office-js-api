@@ -12,9 +12,9 @@ expression.ZTEST(arg1, arg2, arg3);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | Array.&lt;number&gt; &#124; [ApiRange](../../ApiRange/ApiRange.md) |  | The array or range of data against which to test X. |
-| arg2 | Required | number |  | The value to test. |
-| arg3 | Required | number |  | The population (known) standard deviation. If omitted, the sample standard deviation is used. |
+| arg1 | Required | Array.&lt;number&gt; &#124; [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) |  | The array or range of data against which to test X. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The value to test. |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The population (known) standard deviation. If omitted, the sample standard deviation is used. |
 
 ## Returns
 

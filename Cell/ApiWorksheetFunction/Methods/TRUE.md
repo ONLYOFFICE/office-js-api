@@ -1,6 +1,6 @@
 # TRUE
 
-Returns the logical value TRUE.
+Returns the **true** logical value.
 
 ## Syntax
 
@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-number, string, boolean
+boolean
 
 ## Example
 

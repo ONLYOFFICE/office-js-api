@@ -1,17 +1,7 @@
 # SetType
 
 Specifies a type of the current section. The section type defines how the contents of the current 
-section are placed relative to the previous section.<br/>
-WordprocessingML supports five distinct types of section breaks:
-  * **Next page** section breaks (the default if type is not specified), which begin the new section on the
-  following page.
-  * **Odd** page section breaks, which begin the new section on the next odd-numbered page.
-  * **Even** page section breaks, which begin the new section on the next even-numbered page.
-  * **Continuous** section breaks, which begin the new section on the following paragraph. This means that
-  continuous section breaks might not specify certain page-level section properties, since they shall be
-  inherited from the following section. These breaks, however, can specify other section properties, such
-  as line numbering and footnote/endnote settings.
-  * **Column** section breaks, which begin the new section on the next column on the page.
+section are placed relative to the previous section.
 
 ## Syntax
 
@@ -23,7 +13,7 @@ expression.SetType(sType);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sType | Required | "nextPage" &#124; "oddPage" &#124; "evenPage" &#124; "continuous" &#124; "nextColumn" |  | The section break type. |
+| sType | Required | [SectionBreakType](../../Enumeration/SectionBreakType.md) |  | The section break type. |
 
 ## Returns
 

@@ -12,11 +12,11 @@ expression.TRANSPOSE(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is a range of cells on a worksheet or an array of values that you want to transpose. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; array |  | A range of cells on a worksheet or an array that will be transposed. |
 
 ## Returns
 
-number, string, boolean
+[ApiRange](../../ApiRange/ApiRange.md)
 
 ## Example
 

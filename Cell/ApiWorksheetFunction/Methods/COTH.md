@@ -12,11 +12,11 @@ expression.COTH(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is the angle in radians for which you want the hyperbolic cotangent. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The angle in radians for which the hyperbolic cotangent will be calculated. Its absolute value must be less than <em>2^27</em>. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

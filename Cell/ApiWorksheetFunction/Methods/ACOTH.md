@@ -12,11 +12,11 @@ expression.ACOTH(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is the hyperbolic cotangent of the angle that you want. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The angle hyperbolic cotangent. It must be less than -1 or greater than 1. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

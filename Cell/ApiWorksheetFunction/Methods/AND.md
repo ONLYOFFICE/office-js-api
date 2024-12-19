@@ -1,20 +1,22 @@
 # AND
 
-Checks whether all arguments are TRUE, and returns TRUE if all arguments are TRUE.
+Checks whether all conditions in a test are **true**.
 
 ## Syntax
 
-expression.AND();
+expression.AND(args);
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
 ## Parameters
 
-This method doesn't have any parameters.
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| args | Required | number &#124; string &#124; [ApiRange](../../ApiRange/ApiRange.md) &#124; boolean &#124; [ApiName](../../ApiName/ApiName.md) |  | A condition to check. |
 
 ## Returns
 
-number, string, boolean
+boolean
 
 ## Example
 

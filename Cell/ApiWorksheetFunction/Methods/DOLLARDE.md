@@ -12,12 +12,12 @@ expression.DOLLARDE(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is a number expressed as a fraction. |
-| arg2 | Required | any |  | Is the integer to use in the denominator of the fraction. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | A number expressed as a fraction. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The integer to use in the denominator of the fraction. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

@@ -1,6 +1,6 @@
 # N
 
-Converts non-number value to a number, dates to serial numbers, TRUE to 1, anything else to 0 (zero).
+Converts a value to a number, dates to serial numbers, **true** to 1, error to {@link global#ErrorValue ErrorValue}, anything else to 0 (zero).
 
 ## Syntax
 
@@ -12,11 +12,11 @@ expression.N(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is the value you want converted. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number &#124; string &#124; boolean |  | The value to be converted. The value can be a logical value, text, or number. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

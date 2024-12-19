@@ -12,11 +12,11 @@ expression.SEC(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is the angle in radians for which you want the secant. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The angle in radians for which the secant will be returned. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

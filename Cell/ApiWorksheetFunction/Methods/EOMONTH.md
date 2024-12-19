@@ -1,6 +1,6 @@
 # EOMONTH
 
-Returns the serial number of the last day of the month before or after a specified number of months.
+Returns the serial number of the last day of the month before or after the specified number of months.
 
 ## Syntax
 
@@ -12,8 +12,8 @@ expression.EOMONTH(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is a serial date number that represents the start date. |
-| arg2 | Required | any |  | Is the number of months before or after the start_date. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | A serial date number that represents the start date. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The number of months before or after the start date. |
 
 ## Returns
 

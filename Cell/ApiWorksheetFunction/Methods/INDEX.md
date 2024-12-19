@@ -12,14 +12,14 @@ expression.INDEX(arg1, arg2, arg3, arg4);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) |  | Is a range of cells or an array constant.. |
-| arg2 | Required | number |  | Selects the row in Array or Reference from which to return a value. If omitted, Column_num is required. |
-| arg3 | Required | number |  | Selects the column in Array or Reference from which to return a value. If omitted, Row_num is required. |
-| arg4 | Required | any |  | Is a reference to one or more cell ranges. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; array |  | A range of cells or an array constant. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The row in the range from which to return a value. If omitted, the column number is required. |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The column in the range from which to return a value. If omitted, the row number is required. |
+| arg4 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | An area to use in case the range contains several ranges. If it is omitted, the function will assume argument to be 1. |
 
 ## Returns
 
-number, string, boolean
+number, string
 
 ## Example
 

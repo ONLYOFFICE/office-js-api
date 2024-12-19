@@ -45,6 +45,7 @@ Represents the ApiRun class.
 - [ToJSON](./Methods/ToJSON.md)
 - [AddComment](./Methods/AddComment.md)
 - [GetText](./Methods/GetText.md)
+- [MoveCursorToPos](./Methods/MoveCursorToPos.md)
 - [GetClassType](./Methods/GetClassType.md)
 - [SetStyle](./Methods/SetStyle.md)
 - [GetStyle](./Methods/GetStyle.md)

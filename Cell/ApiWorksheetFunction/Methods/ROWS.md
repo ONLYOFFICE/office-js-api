@@ -1,6 +1,6 @@
 # ROWS
 
-Returns the number of rows in a reference or array.
+Returns the number of rows in a range.
 
 ## Syntax
 
@@ -12,11 +12,11 @@ expression.ROWS(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) |  | Is an array, an array formula, or a reference to a range of cells for which you want the number of rows. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; array |  | A range of cells or an array for which the number of rows will be returned. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

@@ -1,6 +1,6 @@
 # HOUR
 
-Returns the hour as a number from 0 (12:00 A.M.) to 23 (11:00 P.M.)..
+Returns the hour as a number from 0 (12:00 A.M.) to 23 (11:00 P.M.).
 
 ## Syntax
 
@@ -12,11 +12,11 @@ expression.HOUR(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is a number in the date-time code used by Microsoft Excel, or text in time format, such as 16:48:00 or 4:48:00 PM. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number &#124; string |  | A number in the date-time code, or text in the time format, such as "16:48:00" or "4:48:00 PM", or a result of other formulas or functions. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

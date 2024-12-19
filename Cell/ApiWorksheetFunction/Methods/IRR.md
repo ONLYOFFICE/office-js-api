@@ -12,12 +12,12 @@ expression.IRR(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) |  | Is an array or a reference to cells that contain numbers for which you want to calculate the internal rate of return. |
-| arg2 | Required | number |  | Is a number that you guess is close to the result of IRR; 0.1 (10 percent) if omitted. |
+| arg1 | Required | Array.&lt;number&gt; &#124; [ApiRange](../../ApiRange/ApiRange.md) |  | A range or array of cells that contain numbers for which the internal rate of return will be calculated. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | An estimate at what the internal rate of return will be. If it is omitted, the function will assume guess to be 0.1 (10 percent). |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

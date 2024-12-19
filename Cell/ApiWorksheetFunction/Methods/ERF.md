@@ -1,6 +1,6 @@
 # ERF
 
-Returns the error function.
+Returns the error function integrated between the specified lower and upper limits.
 
 ## Syntax
 
@@ -12,12 +12,12 @@ expression.ERF(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is the lower bound for integrating ERF. |
-| arg2 | Required | any |  | Is the upper bound for integrating ERF. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The lower bound for integrating the error function. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The upper bound for integrating the error function. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

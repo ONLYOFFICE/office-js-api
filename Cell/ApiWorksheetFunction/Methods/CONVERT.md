@@ -12,13 +12,13 @@ expression.CONVERT(arg1, arg2, arg3);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is the value in from_units to convert. |
-| arg2 | Required | any |  | Is the units for number. |
-| arg3 | Required | any |  | Is the units for the result. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The value in the specified units to be converted. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; string |  | The original measurement unit. |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; string |  | The units for the result. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

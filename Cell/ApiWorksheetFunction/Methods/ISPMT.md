@@ -12,14 +12,14 @@ expression.ISPMT(arg1, arg2, arg3, arg4);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Interest rate per period. For example, use 6%/4 for quarterly payments at 6% APR. |
-| arg2 | Required | number |  | Period for which you want to find the interest. |
-| arg3 | Required | number |  | Number of payment periods in an investment. |
-| arg4 | Required | number |  | Lump sum amount that a series of future payments is right now. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The interest rate per period. For example, use 6%/4 for quarterly payments at 6% APR. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The period for which the interest will be retuned. It must be in the range from 1 to the total number of payments. |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The total number of payment periods in an investment. |
+| arg4 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The present value, or the lump-sum amount that a series of future payments is worth now. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

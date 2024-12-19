@@ -1,6 +1,6 @@
 # VLOOKUP
 
-Looks for a value in the leftmost column of a table and then returns a value in the same row from a column that you specify. By default, the table must be sorted in an ascending order.
+Looks for a value in the leftmost column of a table and then returns a value in the same row from the specified column. By default, the table must be sorted in an ascending order.
 
 ## Syntax
 
@@ -12,14 +12,14 @@ expression.VLOOKUP(arg1, arg2, arg3, arg4);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is the value to be found in the first column of the table, and can be a value, a reference, or a text string. |
-| arg2 | Required | number |  | Is a table of text, numbers, or logical values, in which data is retrieved. Table_array can be a reference to a range or a range name. |
-| arg3 | Required | number |  | Is the column number in table_array from which the matching value should be returned. The first column of values in the table is column 1. |
-| arg4 | Required | boolean |  | Is a logical value: to find the closest match in the first column (sorted in ascending order) = TRUE or omitted; find an exact match = FALSE. |
+| arg1 | Required | number &#124; string &#124; [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) |  | The value to be found in the first column of the table. It can be a value, a reference, or a text string. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) |  | A table of text, numbers, or logical values, in which data is retrieved. It can be a range of cells. |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The column number in the data table from which the matching value should be returned. The first column of values in the table is column 1. |
+| arg4 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; boolean |  | A logical value that specifies whether to find the closest match in the first column (sorted in ascending order) (**true** or omitted) or find an exact match (**false**). |
 
 ## Returns
 
-number, string, boolean
+number, string
 
 ## Example
 

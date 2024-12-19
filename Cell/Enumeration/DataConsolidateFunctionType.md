@@ -1,6 +1,6 @@
 # DataConsolidateFunctionType
 
-Type of calculation to perform on the data field items.
+The type of calculation to perform on the data field items.
 
 ## Type
 

@@ -1,6 +1,6 @@
 # SIGN
 
-Returns the sign of a number: 1 if the number is positive, zero if the number is zero, or -1 if the number is negative.
+Returns the sign of a number: **1** if the number is positive, **0** if the number is zero, or **-1** if the number is negative.
 
 ## Syntax
 
@@ -12,11 +12,11 @@ expression.SIGN(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is any real number. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | Any real number. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

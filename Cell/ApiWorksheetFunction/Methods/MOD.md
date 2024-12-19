@@ -12,12 +12,12 @@ expression.MOD(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is the number for which you want to find the remainder after the division is performed. |
-| arg2 | Required | number |  | Is the number by which you want to divide Number. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The number to divide and find the remainder. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The number to divide by. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

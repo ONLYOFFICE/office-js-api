@@ -1,6 +1,6 @@
 # GetChartType
 
-Returns a chart type of the series.
+Returns a chart type of the current series.
 
 ## Syntax
 

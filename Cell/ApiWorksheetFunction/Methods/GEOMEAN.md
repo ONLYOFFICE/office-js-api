@@ -1,6 +1,6 @@
 # GEOMEAN
 
-Returns the geometric mean of an array or range of positive numeric data.
+Returns the geometric mean of positive numeric data.
 
 ## Syntax
 
@@ -12,7 +12,7 @@ expression.GEOMEAN(args);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| args | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; Array.&lt;number&gt; |  | Up to 255 numeric values for which the geometric mean will be calculated. |
+| args | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; Array.&lt;number&gt; &#124; [ApiName](../../ApiName/ApiName.md) |  | Up to 255 numeric values for which the geometric mean will be calculated. Arguments can be numbers, names, ranges, or arrays of numbers. |
 
 ## Returns
 

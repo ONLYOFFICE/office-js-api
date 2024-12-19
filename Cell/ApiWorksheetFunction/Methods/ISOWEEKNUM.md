@@ -12,11 +12,11 @@ expression.ISOWEEKNUM(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is the date-time code used by Microsoft Excel for date and time calculation. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The date-time code used for date and time calculation. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

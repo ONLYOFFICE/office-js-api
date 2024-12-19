@@ -1,6 +1,6 @@
 # HEX2BIN
 
-Converts a Hexadecimal number to binary.
+Converts a hexadecimal number to binary.
 
 ## Syntax
 
@@ -12,12 +12,12 @@ expression.HEX2BIN(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is the hexadecimal number you want to convert. |
-| arg2 | Required | any |  | Is the number of characters to use. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The hexadecimal number to convert. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The number of characters to use. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

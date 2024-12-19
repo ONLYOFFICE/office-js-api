@@ -12,8 +12,8 @@ expression.GetRange(Start, End);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Start | Required | Number |  | Start character index in the current element. |
-| End | Required | Number |  | End character index in the current element. |
+| Start | Required | Number |  | Start position index in the current element. |
+| End | Required | Number |  | End position index in the current element. |
 
 ## Returns
 

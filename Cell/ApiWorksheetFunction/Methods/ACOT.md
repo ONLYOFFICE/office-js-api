@@ -1,6 +1,6 @@
 # ACOT
 
-Returns the arccotangent of a number, in radians in the range 0 to Pi..
+Returns the arccotangent of a number, in radians in the range from 0 to Pi.
 
 ## Syntax
 
@@ -12,11 +12,11 @@ expression.ACOT(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is the cotangent of the angle you want. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The angle cotangent. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

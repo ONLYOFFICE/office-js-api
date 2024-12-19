@@ -28,6 +28,7 @@ Represents the ApiBlockLvlSdt class.
 - [AddElement](./Methods/AddElement.md)
 - [AddText](./Methods/AddText.md)
 - [GetRange](./Methods/GetRange.md)
+- [Copy](./Methods/Copy.md)
 - [Search](./Methods/Search.md)
 - [Select](./Methods/Select.md)
 - [GetPlaceholderText](./Methods/GetPlaceholderText.md)

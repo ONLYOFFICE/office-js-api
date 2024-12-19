@@ -1,6 +1,6 @@
 # BITLSHIFT
 
-Returns a number shifted left by shift_amount bits.
+Returns a number shifted left by the specified number of bits.
 
 ## Syntax
 
@@ -12,12 +12,12 @@ expression.BITLSHIFT(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is the decimal representation of the binary number you want to evaluate. |
-| arg2 | Required | number |  | Is the number of bits that you want to shift Number left by. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The decimal representation of the binary number to evaluate. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The number of bits by which the number will be shifted left. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

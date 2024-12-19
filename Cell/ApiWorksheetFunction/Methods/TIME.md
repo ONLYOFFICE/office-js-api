@@ -1,6 +1,6 @@
 # TIME
 
-Converts hours, minutes and seconds given as numbers to a serial number, formatted with a time format.
+Converts hours, minutes and seconds given as numbers to a serial number, formatted with the time format.
 
 ## Syntax
 
@@ -12,13 +12,13 @@ expression.TIME(arg1, arg2, arg3);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is a number from 0 to 23 representing the hour. |
-| arg2 | Required | number |  | Is a number from 0 to 59 representing the minute. |
-| arg3 | Required | number |  | Is a number from 0 to 59 representing the second. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | A number from 0 to 23 representing the hour. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | A number from 0 to 59 representing the minute. |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | A number from 0 to 59 representing the second. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

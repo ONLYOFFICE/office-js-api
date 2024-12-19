@@ -1,6 +1,6 @@
 # ISFORMULA
 
-Checks whether a reference is to a cell containing a formula, and returns TRUE or FALSE.
+Checks whether a reference to a cell contains a formula, and returns **true** or **false**.
 
 ## Syntax
 
@@ -12,11 +12,11 @@ expression.ISFORMULA(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) |  | Is a reference to the cell you want to test.  Reference can be a cell reference, a formula, or name that refers to a cell. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) |  | A cell range to test. This argument can be a range or a range name. |
 
 ## Returns
 
-number, string, boolean
+boolean
 
 ## Example
 

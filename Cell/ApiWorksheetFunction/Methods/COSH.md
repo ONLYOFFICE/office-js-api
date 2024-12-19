@@ -12,11 +12,11 @@ expression.COSH(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is any real number. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | Any real number for which the hyperbolic cosine will be returned. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

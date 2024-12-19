@@ -12,12 +12,12 @@ expression.IMPOWER(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is a complex number you want to raise to a power. |
-| arg2 | Required | any |  | Is the power to which you want to raise the complex number. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | A complex number expressed in the <em>x + yi</em> or <em>x + yj</em> form. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The power to which the complex number will be raised. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

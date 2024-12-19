@@ -12,11 +12,11 @@ expression.DEGREES(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is the angle in radians that you want to convert. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The angle in radians to convert. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

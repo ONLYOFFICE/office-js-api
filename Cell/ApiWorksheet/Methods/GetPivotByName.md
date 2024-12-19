@@ -1,6 +1,6 @@
 # GetPivotByName
 
-Return PivotTable by name.
+Returns a pivot table by its name from the current worksheet, or null if it does not exist.
 
 ## Syntax
 
@@ -12,7 +12,7 @@ expression.GetPivotByName(name);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| name | Required | string |  | Name of PivotTable. |
+| name | Required | string |  | The pivot table name. |
 
 ## Returns
 

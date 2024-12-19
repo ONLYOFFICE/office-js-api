@@ -1,6 +1,6 @@
 # GetTextPr
 
-Returns the merged text properties of entire range.
+Returns the merged text properties of the entire range.
 
 ## Syntax
 

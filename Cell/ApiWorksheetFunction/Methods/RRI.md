@@ -12,13 +12,13 @@ expression.RRI(arg1, arg2, arg3);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is the number of periods for the investment. |
-| arg2 | Required | number |  | Is the present value of the investment. |
-| arg3 | Required | number |  | Is the future value of the investment. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The number of periods for the investment. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The present value of the investment. |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The future value of the investment. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

@@ -1,6 +1,6 @@
 # GetStartPage
 
-Returns the start page number of current range.
+Returns the start page number of the current range.
 
 ## Syntax
 

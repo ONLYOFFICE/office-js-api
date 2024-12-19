@@ -23,3 +23,5 @@ Represents the ApiSection class.
 - [GetNext](./Methods/GetNext.md)
 - [GetPrevious](./Methods/GetPrevious.md)
 - [ToJSON](./Methods/ToJSON.md)
+- [SetStartPageNumber](./Methods/SetStartPageNumber.md)
+- [GetStartPageNumber](./Methods/GetStartPageNumber.md)

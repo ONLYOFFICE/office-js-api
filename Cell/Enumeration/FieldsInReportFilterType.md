@@ -1,6 +1,6 @@
 # FieldsInReportFilterType
 
-No description provided.
+Specifies how the report filter fields are located.
 
 ## Type
 

@@ -12,11 +12,11 @@ expression.SQRT(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is the number for which you want the square root. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The number for which the square root will be returned. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

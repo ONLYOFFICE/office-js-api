@@ -12,11 +12,11 @@ expression.MUNIT(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is an integer specifying the dimension of the unit matrix that you want to return. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | An integer specifying the dimension of the unit matrix to be returned. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

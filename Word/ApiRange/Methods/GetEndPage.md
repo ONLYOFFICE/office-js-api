@@ -1,6 +1,6 @@
 # GetEndPage
 
-Returns the end page number of current range.
+Returns the end page number of the current range.
 
 ## Syntax
 

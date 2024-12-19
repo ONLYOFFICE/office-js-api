@@ -12,9 +12,9 @@ expression.LOGNORMDIST(arg1, arg2, arg3);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | The value at which to evaluate the function, a positive number. |
-| arg2 | Required | number |  | The mean of ln(x). |
-| arg3 | Required | number |  | The standard deviation of ln(x), a positive number. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The value at which to evaluate the function, a positive number. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The mean of ln(x). |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The standard deviation of ln(x), a positive number. |
 
 ## Returns
 

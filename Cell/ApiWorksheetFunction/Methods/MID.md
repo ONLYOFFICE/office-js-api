@@ -12,9 +12,9 @@ expression.MID(arg1, arg2, arg3);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | string |  | The text string from which to extract the characters. |
-| arg2 | Required | number |  | The position of the first character to extract. The first text character is 1. |
-| arg3 | Required | number |  | A number of the characters to extract. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; string |  | The text string from which to extract the characters. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The position of the first character to extract. The first text character is 1. |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | A number of the characters to extract. |
 
 ## Returns
 
