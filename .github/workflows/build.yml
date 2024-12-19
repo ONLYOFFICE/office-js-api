@@ -2,7 +2,7 @@ name: Build API Specification
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '0 0 * * *'  # Runs every day at midnight UTC
   workflow_dispatch:
 
 jobs:
