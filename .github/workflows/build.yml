@@ -2,7 +2,7 @@ name: Build API Specification
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '0 0 * * *'  # Runs every day at midnight UTC
   workflow_dispatch:
 
 jobs:
@@ -21,7 +21,7 @@ jobs:
       - name: Checkout repository office-js-api
         uses: actions/checkout@v4
         with:
-          ref: master
+          ref: develop
           path: office-js-api
 
       - name: Checkout build_tools repository
