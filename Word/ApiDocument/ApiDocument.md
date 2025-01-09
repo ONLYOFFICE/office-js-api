@@ -99,3 +99,4 @@ Represents the ApiDocument class.
 - [GetAllOleObjects](./Methods/GetAllOleObjects.md)
 - [GetAllParagraphs](./Methods/GetAllParagraphs.md)
 - [GetAllTables](./Methods/GetAllTables.md)
+- [GetText](./Methods/GetText.md)
