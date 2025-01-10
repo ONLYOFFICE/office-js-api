@@ -72,6 +72,8 @@ Represents the ApiDocument class.
 - [AddTableOfFigures](./Methods/AddTableOfFigures.md)
 - [GetStatistics](./Methods/GetStatistics.md)
 - [GetPageCount](./Methods/GetPageCount.md)
+- [GetCurrentPage](./Methods/GetCurrentPage.md)
+- [GetCurrentVisiblePages](./Methods/GetCurrentVisiblePages.md)
 - [GetAllStyles](./Methods/GetAllStyles.md)
 - [GetDocumentInfo](./Methods/GetDocumentInfo.md)
 - [GetCurrentWord](./Methods/GetCurrentWord.md)
