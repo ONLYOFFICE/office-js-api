@@ -1,6 +1,6 @@
 # GetCurrentVisiblePages
 
-Returns the indexes of currently visible pages.
+Returns the indexes of the currently visible pages.
 
 ## Syntax
 

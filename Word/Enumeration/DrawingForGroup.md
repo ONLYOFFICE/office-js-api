@@ -1,6 +1,6 @@
 # DrawingForGroup
 
-Available drwaing element for grouping
+Available drawing element for grouping.
 
 ## Type
 

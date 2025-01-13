@@ -1,6 +1,6 @@
 # SetStartPageNumber
 
-Sets start page number for specified section.
+Sets the start page number for the specified section.
 
 ## Syntax
 
@@ -12,7 +12,7 @@ expression.SetStartPageNumber(nStartNumber);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| nStartNumber | Required | number |  | No description provided. |
+| nStartNumber | Required | number |  | The start page number. |
 
 ## Returns
 

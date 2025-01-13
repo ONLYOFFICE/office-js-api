@@ -1,6 +1,6 @@
 # SetAutoFilter
 
-Adds a AutoFilter to the current worksheet.
+Adds an AutoFilter to the current range.
 
 ## Syntax
 

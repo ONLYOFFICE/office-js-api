@@ -1,6 +1,6 @@
 # GetSlides
 
-Returns selected slides.
+Returns the selected slides.
 
 ## Syntax
 

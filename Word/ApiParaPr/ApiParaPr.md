@@ -39,4 +39,3 @@ Represents the ApiParaPr class.
 - [SetOutlineLvl](./Methods/SetOutlineLvl.md)
 - [GetOutlineLvl](./Methods/GetOutlineLvl.md)
 - [ToJSON](./Methods/ToJSON.md)
-- [ApiNumberingLevel#LinkWithStyle](./Methods/ApiNumberingLevel#LinkWithStyle.md)

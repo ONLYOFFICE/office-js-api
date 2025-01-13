@@ -1,6 +1,6 @@
 # GetAllSlideMasters
 
-Returns an array of all slide masters in the presentation
+Returns an array of all slide masters from the current presentation.
 
 ## Syntax
 

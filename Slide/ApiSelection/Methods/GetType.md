@@ -1,6 +1,6 @@
 # GetType
 
-Returns the type of selection.
+Returns the type of the current selection.
 
 ## Syntax
 

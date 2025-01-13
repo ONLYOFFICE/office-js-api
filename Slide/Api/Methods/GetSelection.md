@@ -1,6 +1,6 @@
 # GetSelection
 
-Converts the specified JSON object into the Document Builder object of the corresponding type.
+Returns the selection from the current presentation.
 
 ## Syntax
 

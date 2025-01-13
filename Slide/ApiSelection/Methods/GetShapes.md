@@ -1,6 +1,6 @@
 # GetShapes
 
-Returns selected shapes.
+Returns the selected shapes.
 
 ## Syntax
 

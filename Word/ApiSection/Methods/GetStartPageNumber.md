@@ -1,6 +1,6 @@
 # GetStartPageNumber
 
-Gets start page number of specified section.
+Returns the start page number of the specified section.
 
 ## Syntax
 
@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-boolean
+number
 
 ## Example
 

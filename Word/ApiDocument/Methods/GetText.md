@@ -1,6 +1,6 @@
 # GetText
 
-Returns an inner text of this document content object.
+Returns the inner text of the current document content object.
 
 ## Syntax
 

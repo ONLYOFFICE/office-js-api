@@ -1,6 +1,6 @@
 # Ungroup
 
-Ungroups current group drawing.
+Ungroups the current group of drawings.
 
 ## Syntax
 

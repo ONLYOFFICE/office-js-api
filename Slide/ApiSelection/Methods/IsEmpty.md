@@ -1,6 +1,6 @@
 # IsEmpty
 
-Returns is current selection empty or not
+Specifies whether the current selection is empty or not.
 
 ## Syntax
 

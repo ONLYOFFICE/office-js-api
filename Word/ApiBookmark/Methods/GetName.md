@@ -1,12 +1,12 @@
 # GetName
 
-Returns a name of the current layout.
+Returns the bookmark name.
 
 ## Syntax
 
 expression.GetName();
 
-`expression` - A variable that represents a [ApiLayout](../ApiLayout.md) class.
+`expression` - A variable that represents a [ApiBookmark](../ApiBookmark.md) class.
 
 ## Parameters
 

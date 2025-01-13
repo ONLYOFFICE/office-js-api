@@ -1,20 +1,22 @@
 # GetBookmark
 
-Gets bookmark by name
+Returns a bookmark by its name from the current document.
 
 ## Syntax
 
-expression.GetBookmark();
+expression.GetBookmark(sBookmarkName);
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
 ## Parameters
 
-This method doesn't have any parameters.
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sBookmarkName | Required | string |  | The bookmark name. |
 
 ## Returns
 
-ApiBookmark
+[ApiBookmark](../../ApiBookmark/ApiBookmark.md)
 
 ## Example
 

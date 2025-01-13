@@ -1,6 +1,6 @@
 # GetParentSheet
 
-Gets drawing parent Sheet
+Returns the parent sheet of the current drawing.
 
 ## Syntax
 

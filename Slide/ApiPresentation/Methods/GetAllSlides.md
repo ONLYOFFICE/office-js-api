@@ -1,6 +1,6 @@
 # GetAllSlides
 
-Returns an array of all slides in the presentation.
+Returns an array of all slides from the current presentation.
 
 ## Syntax
 

@@ -1,6 +1,6 @@
 # GroupDrawings
 
-Groups an array of drawings in worksheet.
+Groups an array of drawings in the current worksheet.
 
 ## Syntax
 
@@ -12,7 +12,7 @@ expression.GroupDrawings(aDrawings);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| aDrawings | Required | [DrawingForGroup](../../Enumeration/DrawingForGroup.md) |  | The array of drawings not in document. |
+| aDrawings | Required | Array.<[DrawingForGroup](../../Enumeration/DrawingForGroup.md)> |  | An array of drawings to group. |
 
 ## Returns
 
