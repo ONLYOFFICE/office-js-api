@@ -1,13 +1,12 @@
-// This example sets the text fill to the current text run.
+// In this example, the WordArt text has a text fill.
 var oDocument = Api.GetDocument();
-var oFill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
-var oTextPr = oDocument.GetDefaultTextPr();
-oTextPr.SetTextFill(oFill);
+var oTextPr = Api.CreateTextPr();
+oTextPr.SetFontSize(30);
+oTextPr.SetBold(true);
+oTextPr.SetCaps(true);
+oTextPr.SetOutLine(Api.CreateStroke(0.2 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51))));
+oTextPr.SetTextFill(Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61)));
+oTextPr.SetFontFamily("Comic Sans MS");
+var oTextArt = Api.CreateWordArt(oTextPr, "onlyoffice", "textArchUp", null, null, 0, 150 * 36000, 50 * 36000);
 var oParagraph = oDocument.GetElement(0);
-var oRun = Api.CreateRun();
-oRun.AddText("This is just a sample text. ");
-oParagraph.AddElement(oRun);
-oRun = Api.CreateRun();
-oRun.AddText("This is a text run with the black text.");
-oRun.SetTextPr(oTextPr);
-oParagraph.AddElement(oRun);
+oParagraph.AddDrawing(oTextArt);
