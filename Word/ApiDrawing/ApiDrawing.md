@@ -5,6 +5,7 @@ Represents the ApiDrawing class.
 ## Methods
 
 - [GetClassType](./Methods/GetClassType.md)
+- [GetContent](./Methods/GetContent.md)
 - [SetSize](./Methods/SetSize.md)
 - [SetWrappingStyle](./Methods/SetWrappingStyle.md)
 - [SetHorAlign](./Methods/SetHorAlign.md)

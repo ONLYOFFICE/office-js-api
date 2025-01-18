@@ -6,6 +6,6 @@ Represents the ApiShape class.
 
 - [GetClassType](./Methods/GetClassType.md)
 - [GetDocContent](./Methods/GetDocContent.md)
-- [GetContent](./Methods/GetContent.md)
 - [SetVerticalTextAlign](./Methods/SetVerticalTextAlign.md)
 - [SetPaddings](./Methods/SetPaddings.md)
+- [GetContent](./Methods/GetContent.md)
