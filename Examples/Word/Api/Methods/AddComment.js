@@ -1,5 +1,5 @@
 // This example adds text and comment to the first paragraph.
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("ONLYOFFICE Document Builder");
-Api.AddComment(oParagraph, "ONLYOFFICE for developers", "Jane");
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("ONLYOFFICE Document Builder");
+Api.AddComment(paragraph, "ONLYOFFICE for developers", "Jane");
