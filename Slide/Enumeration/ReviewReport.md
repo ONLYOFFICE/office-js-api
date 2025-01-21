@@ -5,7 +5,7 @@ This is a dictionary where the keys are usernames.
 
 ## Type
 
-Object.<string, Array.<[ReviewReportRecord](../../Enumeration/ReviewReportRecord.md)>>
+Object.<string, Array.\<[ReviewReportRecord](../../Enumeration/ReviewReportRecord.md)>>
 
 
 

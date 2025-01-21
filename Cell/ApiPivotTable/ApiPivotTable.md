@@ -30,13 +30,13 @@ Represents the ApiPivotTable class.
 | LayoutBlankLine | boolean | Sets the setting which specifies whether to insert blank rows after each item in the pivot table. |
 | LayoutSubtotals | boolean | Sets the setting which specifies whether to show subtotals in the pivot table. |
 | SubtotalLocation | number | Sets the layout subtotal location. |
-| PivotFields | Array.<[ApiPivotField](../ApiPivotField/ApiPivotField.md)> | Returns all pivot fields in the pivot table. |
-| ColumnFields | Array.<[ApiPivotField](../ApiPivotField/ApiPivotField.md)> | Returns an array that is currently displayed as column fields in the pivot table. |
-| DataFields | Array.<[ApiPivotField](../ApiPivotField/ApiPivotField.md)> | Returns an array that is currently displayed as data fields in the pivot table. |
-| HiddenFields | Array.<[ApiPivotField](../ApiPivotField/ApiPivotField.md)> | Returns an array that represents all hidden fields in the pivot table. |
-| VisibleFields | Array.<[ApiPivotField](../ApiPivotField/ApiPivotField.md)> | Returns an array that represents all visible fields in the pivot table. |
-| PageFields | Array.<[ApiPivotField](../ApiPivotField/ApiPivotField.md)> | Returns an array that is currently displayed as page fields in the pivot table. |
-| RowFields | Array.<[ApiPivotField](../ApiPivotField/ApiPivotField.md)> | Returns an array that is currently displayed as row fields in the pivot table. |
+| PivotFields | Array.\<[ApiPivotField](../ApiPivotField/ApiPivotField.md)> | Returns all pivot fields in the pivot table. |
+| ColumnFields | Array.\<[ApiPivotField](../ApiPivotField/ApiPivotField.md)> | Returns an array that is currently displayed as column fields in the pivot table. |
+| DataFields | Array.\<[ApiPivotField](../ApiPivotField/ApiPivotField.md)> | Returns an array that is currently displayed as data fields in the pivot table. |
+| HiddenFields | Array.\<[ApiPivotField](../ApiPivotField/ApiPivotField.md)> | Returns an array that represents all hidden fields in the pivot table. |
+| VisibleFields | Array.\<[ApiPivotField](../ApiPivotField/ApiPivotField.md)> | Returns an array that represents all visible fields in the pivot table. |
+| PageFields | Array.\<[ApiPivotField](../ApiPivotField/ApiPivotField.md)> | Returns an array that is currently displayed as page fields in the pivot table. |
+| RowFields | Array.\<[ApiPivotField](../ApiPivotField/ApiPivotField.md)> | Returns an array that is currently displayed as row fields in the pivot table. |
 
 ## Methods
 

@@ -13,8 +13,8 @@ expression.SetNotEqualColumns(aWidths, aSpaces);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| aWidths | Required | Array.<[twips](../../Enumeration/twips.md)> |  | An array of column width values measured in twentieths of a point (1/1440 of an inch). |
-| aSpaces | Required | Array.<[twips](../../Enumeration/twips.md)> |  | An array of distance values between the columns measured in twentieths of a point (1/1440 of an inch). |
+| aWidths | Required | Array.\<[twips](../../Enumeration/twips.md)> |  | An array of column width values measured in twentieths of a point (1/1440 of an inch). |
+| aSpaces | Required | Array.\<[twips](../../Enumeration/twips.md)> |  | An array of distance values between the columns measured in twentieths of a point (1/1440 of an inch). |
 
 ## Returns
 

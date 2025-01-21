@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Array.<[ApiParagraph](../../ApiParagraph/ApiParagraph.md)>
+Array.\<[ApiParagraph](../../ApiParagraph/ApiParagraph.md)>
 
 ## Example
 

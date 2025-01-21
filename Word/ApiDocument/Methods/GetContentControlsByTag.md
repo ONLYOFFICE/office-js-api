@@ -16,7 +16,7 @@ expression.GetContentControlsByTag(sTag);
 
 ## Returns
 
-Array.<[ApiBlockLvlSdt](../../ApiBlockLvlSdt/ApiBlockLvlSdt.md)>, Array.<[ApiInlineLvlSdt](../../ApiInlineLvlSdt/ApiInlineLvlSdt.md)>
+Array.\<[ApiBlockLvlSdt](../../ApiBlockLvlSdt/ApiBlockLvlSdt.md)>, Array.\<[ApiInlineLvlSdt](../../ApiInlineLvlSdt/ApiInlineLvlSdt.md)>
 
 ## Example
 

@@ -17,7 +17,7 @@ expression.GetPivotFields(field);
 
 ## Returns
 
-Array.<[ApiPivotField](../../ApiPivotField/ApiPivotField.md)>, ApiPivotField, ApiPivotDataField, null
+Array.\<[ApiPivotField](../../ApiPivotField/ApiPivotField.md)>, ApiPivotField, ApiPivotDataField, null
 
 ## Example
 

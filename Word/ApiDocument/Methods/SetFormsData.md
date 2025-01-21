@@ -12,7 +12,7 @@ expression.SetFormsData(arrData);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arrData | Required | Array.<[FormData](../../Enumeration/FormData.md)> |  | An array of form data to set to the specified forms. |
+| arrData | Required | Array.\<[FormData](../../Enumeration/FormData.md)> |  | An array of form data to set to the specified forms. |
 
 ## Returns
 

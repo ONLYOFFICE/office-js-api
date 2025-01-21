@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Array.<[ApiImage](../../ApiImage/ApiImage.md)>
+Array.\<[ApiImage](../../ApiImage/ApiImage.md)>
 
 ## Example
 

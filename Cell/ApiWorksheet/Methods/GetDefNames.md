@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Array.<[ApiName](../../ApiName/ApiName.md)>
+Array.\<[ApiName](../../ApiName/ApiName.md)>
 
 ## Example
 

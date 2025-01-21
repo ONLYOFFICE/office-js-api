@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Array.<[ApiComment](../../ApiComment/ApiComment.md)>
+Array.\<[ApiComment](../../ApiComment/ApiComment.md)>
 
 ## Example
 

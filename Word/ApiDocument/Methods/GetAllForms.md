@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Array.<[ApiForm](../../Enumeration/ApiForm.md)>
+Array.\<[ApiForm](../../Enumeration/ApiForm.md)>
 
 ## Example
 

@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Array.<[percentage](../../Enumeration/percentage.md)>
+Array.\<[percentage](../../Enumeration/percentage.md)>
 
 ## Example
 

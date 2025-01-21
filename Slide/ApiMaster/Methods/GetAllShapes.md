@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Array.<[ApiShape](../../ApiShape/ApiShape.md)>
+Array.\<[ApiShape](../../ApiShape/ApiShape.md)>
 
 ## Example
 

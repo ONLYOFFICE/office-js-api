@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Array.<[ApiOleObject](../../ApiOleObject/ApiOleObject.md)>
+Array.\<[ApiOleObject](../../ApiOleObject/ApiOleObject.md)>
 
 ## Example
 

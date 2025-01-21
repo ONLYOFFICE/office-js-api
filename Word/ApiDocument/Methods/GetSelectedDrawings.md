@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Array.<[ApiShape](../../ApiShape/ApiShape.md)>, Array.<[ApiImage](../../ApiImage/ApiImage.md)>, Array.<[ApiChart](../../ApiChart/ApiChart.md)>, Array.<[ApiDrawing](../../ApiDrawing/ApiDrawing.md)>
+Array.\<[ApiShape](../../ApiShape/ApiShape.md)>, Array.\<[ApiImage](../../ApiImage/ApiImage.md)>, Array.\<[ApiChart](../../ApiChart/ApiChart.md)>, Array.\<[ApiDrawing](../../ApiDrawing/ApiDrawing.md)>
 
 ## Example
 

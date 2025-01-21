@@ -14,4 +14,4 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Array.<[ApiSlide](../../ApiSlide/ApiSlide.md)>
+Array.\<[ApiSlide](../../ApiSlide/ApiSlide.md)>

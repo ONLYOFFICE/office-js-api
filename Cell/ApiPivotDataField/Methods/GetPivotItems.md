@@ -17,7 +17,7 @@ expression.GetPivotItems(index);
 
 ## Returns
 
-Array.<[ApiPivotItem](../../ApiPivotItem/ApiPivotItem.md)>, ApiPivotItem, null
+Array.\<[ApiPivotItem](../../ApiPivotItem/ApiPivotItem.md)>, ApiPivotItem, null
 
 ## Example
 

@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Array.<[Drawing](../../Enumeration/Drawing.md)>
+Array.\<[Drawing](../../Enumeration/Drawing.md)>
 
 ## Example
 

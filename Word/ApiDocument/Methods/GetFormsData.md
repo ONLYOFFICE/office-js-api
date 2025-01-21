@@ -15,7 +15,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Array.<[FormData](../../Enumeration/FormData.md)>
+Array.\<[FormData](../../Enumeration/FormData.md)>
 
 ## Example
 

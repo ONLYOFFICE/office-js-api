@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Array.<[ApiContentControlListEntry](../../ApiContentControlListEntry/ApiContentControlListEntry.md)>
+Array.\<[ApiContentControlListEntry](../../ApiContentControlListEntry/ApiContentControlListEntry.md)>
 
 ## Example
 

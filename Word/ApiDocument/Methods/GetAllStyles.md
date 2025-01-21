@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Array.<[ApiStyle](../../ApiStyle/ApiStyle.md)>
+Array.\<[ApiStyle](../../ApiStyle/ApiStyle.md)>
 
 ## Example
 

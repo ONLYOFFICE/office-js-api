@@ -16,7 +16,7 @@ expression.GetAllCaptionParagraphs(sCaption);
 
 ## Returns
 
-Array.<[ApiParagraph](../../ApiParagraph/ApiParagraph.md)>
+Array.\<[ApiParagraph](../../ApiParagraph/ApiParagraph.md)>
 
 ## Example
 

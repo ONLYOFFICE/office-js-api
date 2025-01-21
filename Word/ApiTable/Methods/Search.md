@@ -17,7 +17,7 @@ expression.Search(sText, isMatchCase);
 
 ## Returns
 
-Array.<[ApiRange](../../ApiRange/ApiRange.md)>
+Array.\<[ApiRange](../../ApiRange/ApiRange.md)>
 
 ## Example
 

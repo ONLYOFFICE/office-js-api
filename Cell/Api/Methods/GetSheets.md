@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Array.<[ApiWorksheet](../../ApiWorksheet/ApiWorksheet.md)>
+Array.\<[ApiWorksheet](../../ApiWorksheet/ApiWorksheet.md)>
 
 ## Example
 

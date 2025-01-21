@@ -11,7 +11,7 @@ Object
 | Name | Type | Description |
 | ---- | ---- | ----------- |
 | OutlineLvls | number | Maximum number of levels in the table of contents. |
-| StylesLvls | Array.<[TocStyleLvl](../../Enumeration/TocStyleLvl.md)> | Style levels (for example, [{Name: "Heading 1", Lvl: 2}, {Name: "Heading 2", Lvl: 3}]). 💡 If StylesLvls.length > 0, then the OutlineLvls property will be ignored. |
+| StylesLvls | Array.\<[TocStyleLvl](../../Enumeration/TocStyleLvl.md)> | Style levels (for example, [{Name: "Heading 1", Lvl: 2}, {Name: "Heading 2", Lvl: 3}]). 💡 If StylesLvls.length > 0, then the OutlineLvls property will be ignored. |
 
 
 

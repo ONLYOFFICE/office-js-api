@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Array.<[ApiTable](../../ApiTable/ApiTable.md)>
+Array.\<[ApiTable](../../ApiTable/ApiTable.md)>
 
 ## Example
 

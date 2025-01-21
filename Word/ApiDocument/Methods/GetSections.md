@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Array.<[ApiSection](../../ApiSection/ApiSection.md)>
+Array.\<[ApiSection](../../ApiSection/ApiSection.md)>
 
 ## Example
 

@@ -18,7 +18,7 @@ expression.GetAllTablesOnPage(nPage);
 
 ## Returns
 
-Array.<[ApiTable](../../ApiTable/ApiTable.md)>
+Array.\<[ApiTable](../../ApiTable/ApiTable.md)>
 
 ## Example
 
