@@ -1,7 +1,7 @@
 // This example pushes a paragraph to actually add it to the container.
-var oDocument = Api.GetDocument();
-var oBlockLvlSdt = Api.CreateBlockLvlSdt();
-var oParagraph = Api.CreateParagraph();
-oParagraph.AddText("This is a block text content control.");
-oBlockLvlSdt.Push(oParagraph);
-oDocument.AddElement(0, oBlockLvlSdt);
+let document = Api.GetDocument();
+let blockLvlSdt = Api.CreateBlockLvlSdt();
+let paragraph = Api.CreateParagraph();
+paragraph.AddText("This is a block text content control.");
+blockLvlSdt.Push(paragraph);
+document.AddElement(0, blockLvlSdt);
