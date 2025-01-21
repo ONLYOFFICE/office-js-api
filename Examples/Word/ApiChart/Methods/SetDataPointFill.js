@@ -1,14 +1,14 @@
 // This example show how to set the fill to the data point.
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oChart = Api.CreateChart("bar3D", [
+let document = Api.GetDocument();
+let paragraph = document.GetElement(0);
+let chart = Api.CreateChart("bar3D", [
 	[200, 240, 280],
 	[250, 260, 280]
 ], ["Projected Revenue", "Estimated Costs"], [2014, 2015, 2016], 4051300, 2347595, 24);
-oParagraph.AddDrawing(oChart);
-var oFill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
-oChart.SetSeriesFill(oFill, 0, false);
-oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-oChart.SetSeriesFill(oFill, 1, false);
-oFill = Api.CreateSolidFill(Api.CreateRGBColor(128, 128, 128));
-oChart.SetDataPointFill(oFill, 0, 0, false);
+paragraph.AddDrawing(chart);
+let fill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
+chart.SetSeriesFill(fill, 0, false);
+fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+chart.SetSeriesFill(fill, 1, false);
+fill = Api.CreateSolidFill(Api.CreateRGBColor(128, 128, 128));
+chart.SetDataPointFill(fill, 0, 0, false);

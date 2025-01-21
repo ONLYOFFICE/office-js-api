@@ -1,12 +1,12 @@
 // This example shows how to get the comment reply text.
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("This is just a sample text");
-Api.AddComment(oParagraph, "comment", "John Smith");
-var aComments = oDocument.GetAllComments();
-aComments[0].AddReply("reply1", "Mark Potato", "uid-2", 0);
-var oCommentReply = aComments[0].GetReply(0);
-var sText = oCommentReply.GetText();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Comment reply text: " + sText);
-oDocument.Push(oParagraph);
+let document = Api.GetDocument();
+let paragraph = document.GetElement(0);
+paragraph.AddText("This is just a sample text");
+Api.AddComment(paragraph, "comment", "John Smith");
+let comments = document.GetAllComments();
+comments[0].AddReply("reply1", "Mark Potato", "uid-2", 0);
+let commentReply = comments[0].GetReply(0);
+let text = commentReply.GetText();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Comment reply text: " + text);
+document.Push(paragraph);

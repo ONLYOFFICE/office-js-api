@@ -1,10 +1,10 @@
 // This example sets the tip text to the current form.
-var oDocument = Api.GetDocument();
-var oComboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddElement(oComboBoxForm);
-oComboBoxForm.SetTipText("Choose your country");
-var sTipText = oComboBoxForm.GetTipText();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Tip text: " + sTipText);
-oDocument.Push(oParagraph);
+let document = Api.GetDocument();
+let comboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});
+let paragraph = document.GetElement(0);
+paragraph.AddElement(comboBoxForm);
+comboBoxForm.SetTipText("Choose your country");
+let tipText = comboBoxForm.GetTipText();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Tip text: " + tipText);
+document.Push(paragraph);

@@ -1,14 +1,14 @@
 // This example gets a class type and inserts it into the document.
-var oDocument = Api.GetDocument();
-var oCheckBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddElement(oCheckBoxForm);
-oParagraph.AddText(" Married");
-oParagraph.AddLineBreak();
-oCheckBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});
-oParagraph.AddElement(oCheckBoxForm);
-oParagraph.AddText(" Single");
-var sClassType = oCheckBoxForm.GetClassType();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Class type: " + sClassType);
-oDocument.Push(oParagraph);
+let document = Api.GetDocument();
+let checkBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});
+let paragraph = document.GetElement(0);
+paragraph.AddElement(checkBoxForm);
+paragraph.AddText(" Married");
+paragraph.AddLineBreak();
+checkBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});
+paragraph.AddElement(checkBoxForm);
+paragraph.AddText(" Single");
+let classType = checkBoxForm.GetClassType();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Class type: " + classType);
+document.Push(paragraph);

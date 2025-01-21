@@ -1,13 +1,13 @@
 // This example sets the border color to the current form.
-var oDocument = Api.GetDocument();
-var oCheckBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddElement(oCheckBoxForm);
-oParagraph.AddText(" Married");
-oCheckBoxForm.SetBorderColor(255, 111, 61);
-oCheckBoxForm.SetBackgroundColor(255, 255, 0);
-oParagraph.AddLineBreak();
-oCheckBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});
-oParagraph.AddElement(oCheckBoxForm);
-oParagraph.AddText(" Single");
-oCheckBoxForm.SetBorderColor(255, 111, 61);
+let document = Api.GetDocument();
+let checkBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});
+let paragraph = document.GetElement(0);
+paragraph.AddElement(checkBoxForm);
+paragraph.AddText(" Married");
+checkBoxForm.SetBorderColor(255, 111, 61);
+checkBoxForm.SetBackgroundColor(255, 255, 0);
+paragraph.AddLineBreak();
+checkBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});
+paragraph.AddElement(checkBoxForm);
+paragraph.AddText(" Single");
+checkBoxForm.SetBorderColor(255, 111, 61);

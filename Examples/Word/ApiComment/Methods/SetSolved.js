@@ -1,11 +1,11 @@
 // This example marks a comment as solved.
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("This is just a sample text");
-Api.AddComment(oParagraph, "comment", "John Smith");
-var aComments = oDocument.GetAllComments();
-aComments[0].SetSolved(true);
-var bSolved = aComments[0].IsSolved();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("The comment is solved: " + bSolved);
-oDocument.Push(oParagraph);
+let document = Api.GetDocument();
+let paragraph = document.GetElement(0);
+paragraph.AddText("This is just a sample text");
+Api.AddComment(paragraph, "comment", "John Smith");
+let comments = document.GetAllComments();
+comments[0].SetSolved(true);
+let solved = comments[0].IsSolved();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("The comment is solved: " + solved);
+document.Push(paragraph);

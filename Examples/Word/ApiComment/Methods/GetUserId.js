@@ -1,11 +1,11 @@
 // This example shows how to get the user ID of the comment author.
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("This is just a sample text");
-Api.AddComment(oParagraph, "comment", "John Smith");
-var aComments = oDocument.GetAllComments();
-aComments[0].SetUserId("uid-1");
-var sUserId = aComments[0].GetUserId();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Comment user ID: " + sUserId);
-oDocument.Push(oParagraph);
+let document = Api.GetDocument();
+let paragraph = document.GetElement(0);
+paragraph.AddText("This is just a sample text");
+Api.AddComment(paragraph, "comment", "John Smith");
+let comments = document.GetAllComments();
+comments[0].SetUserId("uid-1");
+let userId = comments[0].GetUserId();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Comment user ID: " + userId);
+document.Push(paragraph);

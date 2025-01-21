@@ -1,13 +1,13 @@
 // This example shows how to get the user ID of the comment reply author.
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("This is just a sample text");
-Api.AddComment(oParagraph, "comment", "John Smith");
-var aComments = oDocument.GetAllComments();
-aComments[0].AddReply("reply1", "Mark Potato", "uid-2", 0);
-var oCommentReply = aComments[0].GetReply(0);
-oCommentReply.SetUserId("uid-2");
-var sUserId = oCommentReply.GetUserId();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Comment reply user ID: " + sUserId);
-oDocument.Push(oParagraph);
+let document = Api.GetDocument();
+let paragraph = document.GetElement(0);
+paragraph.AddText("This is just a sample text");
+Api.AddComment(paragraph, "comment", "John Smith");
+let comments = document.GetAllComments();
+comments[0].AddReply("reply1", "Mark Potato", "uid-2", 0);
+let commentReply = comments[0].GetReply(0);
+commentReply.SetUserId("uid-2");
+let userId = commentReply.GetUserId();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Comment reply user ID: " + userId);
+document.Push(paragraph);
