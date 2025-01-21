@@ -1,9 +1,9 @@
 // This example shows how to get the previous paragraph.
-var oDocument = Api.GetDocument();
-var oParagraph1 = oDocument.GetElement(0);
-oParagraph1.AddText("This is just a sample paragraph №1.");
-var oParagraph2 = Api.CreateParagraph();
-oParagraph2.AddText("This is just a sample paragraph №2.");
-oDocument.Push(oParagraph2);
-var oPreviousParagraph = oParagraph2.GetPrevious();
-oPreviousParagraph.SetBold(true);
+let document = Api.GetDocument();
+let paragraph1 = document.GetElement(0);
+paragraph1.AddText("This is just a sample paragraph №1.");
+let paragraph2 = Api.CreateParagraph();
+paragraph2.AddText("This is just a sample paragraph №2.");
+document.Push(paragraph2);
+let previousParagraph = paragraph2.GetPrevious();
+previousParagraph.SetBold(true);

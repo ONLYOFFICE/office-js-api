@@ -1,10 +1,10 @@
 // This example converts the current form to a fixed size form.
-var oDocument = Api.GetDocument();
-var oDateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddElement(oDateForm);
-oDateForm.ToFixed(10 * 240, 2 * 240);
-var bFixed = oDateForm.IsFixed();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("The first form from this document has a fixed size: " + bFixed);
-oDocument.Push(oParagraph);
+let document = Api.GetDocument();
+let dateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});
+let paragraph = document.GetElement(0);
+paragraph.AddElement(dateForm);
+dateForm.ToFixed(10 * 240, 2 * 240);
+let fixed = dateForm.IsFixed();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("The first form from this document has a fixed size: " + fixed);
+document.Push(paragraph);

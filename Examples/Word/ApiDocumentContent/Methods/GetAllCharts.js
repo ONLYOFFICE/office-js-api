@@ -1,27 +1,27 @@
 // This example shows how to get a collection of chart objects from the document content.
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oShape = Api.CreateShape("rect", 100 * 36000, 100 * 36000, oFill, oStroke);
-oParagraph.AddDrawing(oShape);
-var oChart = Api.CreateChart("bar3D", [
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+let stroke = Api.CreateStroke(0, Api.CreateNoFill());
+let shape = Api.CreateShape("rect", 100 * 36000, 100 * 36000, fill, stroke);
+paragraph.AddDrawing(shape);
+let chart = Api.CreateChart("bar3D", [
 	[200, 240, 280],
 	[250, 260, 280]
 ], ["Projected Revenue", "Estimated Costs"], [2014, 2015, 2016], 95 * 36000, 70 * 36000, 24);
-oFill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
-oChart.SetSeriesFill(oFill, 0, false);
-oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-oChart.SetSeriesFill(oFill, 1, false);
-oChart.SetVerAxisTitle("USD In Hundred Thousands", 10);
-oChart.SetHorAxisTitle("Year", 11);
-oChart.SetLegendPos("bottom");
-oChart.SetShowDataLabels(false, false, true, false);
-oChart.SetTitle("Financial Overview", 13);
-oParagraph = Api.CreateParagraph();
-oParagraph.AddDrawing(oChart);
-var oDocContent = oShape.GetDocContent();
-oDocContent.AddElement(0, oParagraph);
-var aCharts = oDocContent.GetAllCharts();
-oStroke = Api.CreateStroke(1 * 150, Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61)));
-aCharts[0].SetMinorHorizontalGridlines(oStroke);
+fill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
+chart.SetSeriesFill(fill, 0, false);
+fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+chart.SetSeriesFill(fill, 1, false);
+chart.SetVerAxisTitle("USD In Hundred Thousands", 10);
+chart.SetHorAxisTitle("Year", 11);
+chart.SetLegendPos("bottom");
+chart.SetShowDataLabels(false, false, true, false);
+chart.SetTitle("Financial Overview", 13);
+paragraph = Api.CreateParagraph();
+paragraph.AddDrawing(chart);
+let docContent = shape.GetDocContent();
+docContent.AddElement(0, paragraph);
+let charts = docContent.GetAllCharts();
+stroke = Api.CreateStroke(1 * 150, Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61)));
+charts[0].SetMinorHorizontalGridlines(stroke);

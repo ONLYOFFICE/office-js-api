@@ -1,5 +1,5 @@
 // This example sets the change tracking mode.
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oDocument.SetTrackRevisions(true);
-oParagraph.AddText("Track revisions mode was set.");
+let document = Api.GetDocument();
+let paragraph = document.GetElement(0);
+document.SetTrackRevisions(true);
+paragraph.AddText("Track revisions mode was set.");

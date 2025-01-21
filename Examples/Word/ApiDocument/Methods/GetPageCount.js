@@ -1,5 +1,5 @@
 // This example shows how to get a number of pages in the current document.
-var oDocument = Api.GetDocument();
-var sPageCount = oDocument.GetPageCount();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("Number of pages: " + sPageCount);
+let document = Api.GetDocument();
+let pageCount = document.GetPageCount();
+let paragraph = document.GetElement(0);
+paragraph.AddText("Number of pages: " + pageCount);

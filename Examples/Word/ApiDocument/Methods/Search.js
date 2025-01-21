@@ -1,9 +1,9 @@
 // This example shows how to make a search.
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("This is paragraph №1.");
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("This is paragraph №2.");
-oDocument.Push(oParagraph);
-var aSearch = oDocument.Search("paragraph");
-aSearch[1].SetBold(true);
+let document = Api.GetDocument();
+let paragraph = document.GetElement(0);
+paragraph.AddText("This is paragraph №1.");
+paragraph = Api.CreateParagraph();
+paragraph.AddText("This is paragraph №2.");
+document.Push(paragraph);
+let searchResults = document.Search("paragraph");
+searchResults[1].SetBold(true);

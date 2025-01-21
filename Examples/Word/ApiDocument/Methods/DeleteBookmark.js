@@ -1,10 +1,10 @@
 // This example removes a bookmark from the document.
-var oDocument = Api.GetDocument(); 
-var oParagraph = oDocument.GetElement(0); 
-oParagraph.AddText( "ONLYOFFICE Document Builder "); 
-var oRange = oDocument.GetRange(0, 9); 
-oRange.AddBookmark( "Bookmark"); 
-oDocument.DeleteBookmark("Bookmark");
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("The bookmark was removed from this document.");
-oDocument.Push(oParagraph);
+let document = Api.GetDocument(); 
+let paragraph = document.GetElement(0); 
+paragraph.AddText("ONLYOFFICE Document Builder "); 
+let range = document.GetRange(0, 9); 
+range.AddBookmark("Bookmark"); 
+document.DeleteBookmark("Bookmark");
+paragraph = Api.CreateParagraph();
+paragraph.AddText("The bookmark was removed from this document.");
+document.Push(paragraph);

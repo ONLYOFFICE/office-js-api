@@ -1,7 +1,7 @@
 // This example inserts a paragraph at the specified position.
-var oDocument = Api.GetDocument();
-var oParagraph1 = oDocument.GetElement(0);
-oParagraph1.AddText("This is just a sample text.");
-var oParagraph2 = Api.CreateParagraph();
-oParagraph2.AddText("This paragraph was inserted here.");
-oParagraph1.InsertParagraph(oParagraph2, "after", true);
+let doc = Api.GetDocument();
+let paragraph1 = doc.GetElement(0);
+paragraph1.AddText("This is just a sample text.");
+let paragraph2 = Api.CreateParagraph();
+paragraph2.AddText("This paragraph was inserted here.");
+paragraph1.InsertParagraph(paragraph2, "after", true);

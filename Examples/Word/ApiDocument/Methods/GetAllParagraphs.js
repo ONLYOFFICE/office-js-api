@@ -1,9 +1,9 @@
 // This example shows how to get an array of all paragraphs from the document.
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("Paragraph 1");
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Paragraph 2");
-oDocument.AddElement(1, oParagraph);
-var aParagraphs = oDocument.GetAllParagraphs();
-aParagraphs[0].SetBold(true);
+let document = Api.GetDocument();
+let paragraph = document.GetElement(0);
+paragraph.AddText("Paragraph 1");
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Paragraph 2");
+document.AddElement(1, paragraph);
+let paragraphs = document.GetAllParagraphs();
+paragraphs[0].SetBold(true);

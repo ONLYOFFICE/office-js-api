@@ -1,6 +1,6 @@
 // This example gets a class type and inserts it into the document.
-var oDocument = Api.GetDocument();
-var oParagraph = Api.CreateParagraph();
-var sClassType = oDocument.GetClassType();
-oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("Class Type = " + sClassType);
+let document = Api.GetDocument();
+let paragraph = Api.CreateParagraph();
+let classType = document.GetClassType();
+paragraph = document.GetElement(0);
+paragraph.AddText("Class Type = " + classType);

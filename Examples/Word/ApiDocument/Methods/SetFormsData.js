@@ -1,12 +1,12 @@
-// This example showh how to set data to forms.
-var oDocument = Api.GetDocument();
-var oParagraph1 = oDocument.GetElement(0);
-var oCheckBox = Api.CreateCheckBoxForm({key: "BestCompany"});
-oParagraph1.Push(oCheckBox);
-var oTextForm = Api.CreateTextForm({key: "CompanyName"});
-oParagraph1.Push(oTextForm);
+// This example shows how to set data to forms.
+let document = Api.GetDocument();
+let paragraph1 = document.GetElement(0);
+let checkBox = Api.CreateCheckBoxForm({key: "BestCompany"});
+paragraph1.Push(checkBox);
+let textForm = Api.CreateTextForm({key: "CompanyName"});
+paragraph1.Push(textForm);
 
-oDocument.SetFormsData([
+document.SetFormsData([
     {key: "BestCompany", value: true},
     {key: "CompanyName", value: "OnlyOffice"}
 ]);

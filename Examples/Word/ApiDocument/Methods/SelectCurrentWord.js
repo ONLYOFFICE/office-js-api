@@ -1,11 +1,11 @@
 // This example shows how to select the current word.
-let oDocument = Api.GetDocument();
-let oPara1 = oDocument.GetElement(0);
-let oRun = oPara1.AddText("The quick brown fox jumps over the lazy dog");
-oRun.MoveCursorToPos(16);
+let document = Api.GetDocument();
+let para1 = document.GetElement(0);
+let run = para1.AddText("The quick brown fox jumps over the lazy dog");
+run.MoveCursorToPos(16);
 
-oDocument.SelectCurrentWord();
+document.SelectCurrentWord();
 
-let oPara2 = Api.CreateParagraph();
-oPara2.AddText("The selected text is " + oDocument.GetRangeBySelect().GetText());
-oDocument.Push(oPara2);
+let para2 = Api.CreateParagraph();
+para2.AddText("The selected text is " + document.GetRangeBySelect().GetText());
+document.Push(para2);

@@ -1,10 +1,10 @@
 // This example shows how to set the date format on a date form.
-var oDocument = Api.GetDocument();
-var oDateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddElement(oDateForm);
-oDateForm.SetFormat("dddd, dd MMMM yyyy");
-var sFormat = oDateForm.GetFormat();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("The first date form from this document has format: " + sFormat);
-oDocument.Push(oParagraph);
+let document = Api.GetDocument();
+let dateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});
+let paragraph = document.GetElement(0);
+paragraph.AddElement(dateForm);
+dateForm.SetFormat("dddd, dd MMMM yyyy");
+let format = dateForm.GetFormat();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("The first date form from this document has format: " + format);
+document.Push(paragraph);

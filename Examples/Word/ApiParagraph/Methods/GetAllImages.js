@@ -1,12 +1,12 @@
 // This example shows how to get a collection of image objects in the paragraph.
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oImage1 = Api.CreateImage("https://api.onlyoffice.com/content/img/docbuilder/examples/coordinate_aspects.png", 60 * 36000, 35 * 36000);
-oParagraph.AddDrawing(oImage1);
-var oImage2 = Api.CreateImage("https://api.onlyoffice.com/content/img/editor/sharing_settings.png", 60 * 36000, 35 * 36000);
-oParagraph.AddDrawing(oImage2);
-var aImages = oParagraph.GetAllImages();
-var sClassType = aImages[0].GetClassType();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Class type: " + sClassType);
-oDocument.Push(oParagraph); 
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let image1 = Api.CreateImage("https://static.onlyoffice.com/assets/docs/samples/img/onlyoffice_logo.png", 60 * 36000, 35 * 36000);
+paragraph.AddDrawing(image1);
+let image2 = Api.CreateImage("https://static.onlyoffice.com/assets/docs/samples/img/presentation_sky.png", 60 * 36000, 35 * 36000);
+paragraph.AddDrawing(image2);
+let images = paragraph.GetAllImages();
+let classType = images[0].GetClassType();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Class type: " + classType);
+doc.Push(paragraph);

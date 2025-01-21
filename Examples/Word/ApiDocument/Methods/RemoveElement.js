@@ -1,13 +1,13 @@
 // This example removes an element using the position specified.
-var oDocument = Api.GetDocument();
-var oParagraph0 = oDocument.GetElement(0);
-oParagraph0.AddText("This is paragraph #1.");
-for (let nParaIncrease = 0; nParaIncrease < 4; ++nParaIncrease) {
-	var oParagraph = Api.CreateParagraph();
-	oParagraph.AddText("This is paragraph #" + (nParaIncrease + 2) + ".");
-	oDocument.Push(oParagraph);
+let document = Api.GetDocument();
+let paragraph0 = document.GetElement(0);
+paragraph0.AddText("This is paragraph #1.");
+for (let i = 0; i < 4; ++i) {
+	let paragraph = Api.CreateParagraph();
+	paragraph.AddText("This is paragraph #" + (i + 2) + ".");
+	document.Push(paragraph);
 }
-oDocument.RemoveElement(2);
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("We removed paragraph #3, check that out above.");
-oDocument.Push(oParagraph);
+document.RemoveElement(2);
+let paragraph = Api.CreateParagraph();
+paragraph.AddText("We removed paragraph #3, check that out above.");
+document.Push(paragraph);

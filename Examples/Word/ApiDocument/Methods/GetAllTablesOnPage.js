@@ -1,10 +1,10 @@
 // This example shows how to get a collection of tables on a given absolute page.
-var oDocument = Api.GetDocument();
-var oTableStyle = oDocument.GetStyle("Bordered");
-var oTable = Api.CreateTable(3, 3);
-oTable.SetWidth("percent", 50);
-oTable.SetStyle(oTableStyle);
-oDocument.Push(oTable);
-var arrTables = oDocument.GetAllTablesOnPage(0);
-var oRow_1 = arrTables[0].GetRow(0);
-oRow_1.Remove();
+let document = Api.GetDocument();
+let tableStyle = document.GetStyle("Bordered");
+let table = Api.CreateTable(3, 3);
+table.SetWidth("percent", 50);
+table.SetStyle(tableStyle);
+document.Push(table);
+let tables = document.GetAllTablesOnPage(0);
+let row1 = tables[0].GetRow(0);
+row1.Remove();

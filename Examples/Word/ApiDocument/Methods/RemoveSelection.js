@@ -1,10 +1,10 @@
 // This example removes the current selection.
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("Api ONLYOFFICE");
-var oRange = oDocument.GetRange(0, 2);
-oRange.Select();
-oDocument.RemoveSelection();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("The selection from the word 'Api' was removed.");
-oDocument.Push(oParagraph);
+let document = Api.GetDocument();
+let paragraph = document.GetElement(0);
+paragraph.AddText("Api ONLYOFFICE");
+let range = document.GetRange(0, 2);
+range.Select();
+document.RemoveSelection();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("The selection from the word 'Api' was removed.");
+document.Push(paragraph);

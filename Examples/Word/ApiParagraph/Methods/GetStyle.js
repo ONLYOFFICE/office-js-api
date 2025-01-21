@@ -1,9 +1,9 @@
 // This example shows how to get the paragraph style method.
-var oDocument = Api.GetDocument();
-var oNewDocumentStyle = oDocument.GetStyle("Heading 6");
-var oParagraph = oDocument.GetElement(0);
-oParagraph.SetStyle(oNewDocumentStyle);
-oParagraph.AddText("This is a text in a paragraph styled with the 'Heading 6' style.");
-var oStyle = oParagraph.GetStyle();
-oParagraph.AddLineBreak();
-oParagraph.AddText("Style: " + oStyle.GetName());
+let document = Api.GetDocument();
+let newDocumentStyle = document.GetStyle("Heading 6");
+let paragraph = document.GetElement(0);
+paragraph.SetStyle(newDocumentStyle);
+paragraph.AddText("This is a text in a paragraph styled with the 'Heading 6' style.");
+let style = paragraph.GetStyle();
+paragraph.AddLineBreak();
+paragraph.AddText("Style: " + style.GetName());

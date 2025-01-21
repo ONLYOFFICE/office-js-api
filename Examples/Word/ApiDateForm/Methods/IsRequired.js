@@ -1,9 +1,9 @@
 // This example checks if the current form is required.
-var oDocument = Api.GetDocument();
-var oDateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddElement(oDateForm);
-var bRequired = oDateForm.IsRequired();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("The first form from this document is required: " + bRequired);
-oDocument.Push(oParagraph);
+let document = Api.GetDocument();
+let dateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});
+let paragraph = document.GetElement(0);
+paragraph.AddElement(dateForm);
+let required = dateForm.IsRequired();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("The first form from this document is required: " + required);
+document.Push(paragraph);

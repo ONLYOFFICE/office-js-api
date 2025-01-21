@@ -1,9 +1,9 @@
 // This example sets the text properties to the current form.
-var oDocument = Api.GetDocument();
-var oDateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddElement(oDateForm);
-var oTextPr = Api.CreateTextPr();
-oTextPr.SetFontSize(30);
-oTextPr.SetBold(true);
-oDateForm.SetTextPr(oTextPr);
+let document = Api.GetDocument();
+let dateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});
+let paragraph = document.GetElement(0);
+paragraph.AddElement(dateForm);
+let textPr = Api.CreateTextPr();
+textPr.SetFontSize(30);
+textPr.SetBold(true);
+dateForm.SetTextPr(textPr);

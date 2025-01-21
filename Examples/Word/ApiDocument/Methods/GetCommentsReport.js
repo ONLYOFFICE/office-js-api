@@ -1,77 +1,76 @@
-// This example showh how to get a report about all the comments added to the document.
-var oDocument = Api.GetDocument();
-var oParagraph1 = oDocument.GetElement(0);
-oParagraph1.AddText("Commenting");
-oParagraph1.SetJc("center");
-oParagraph1.SetFontSize(24);
-oParagraph1.SetBold(true);
-var oParagraph2 = Api.CreateParagraph();
-oParagraph2.AddText("The Comment option allows you to leave comments on the specific words, edit and remove these comments.");
-oDocument.Push(oParagraph2);
-var oParagraph3 = Api.CreateParagraph();
-oParagraph3.AddText("All the comments will be saved and shown to other document users.");
-oDocument.Push(oParagraph3);
-Api.AddComment(oParagraph2, "You can also leave comment on phrases, sentences and other document parts", "John Smith");
-var oParagraph4 = Api.CreateParagraph();
-oParagraph4.AddText("In order to enable the comment option, the comment parameter must be set to true.");
-oDocument.Push(oParagraph4);
-var oParagraph5 = Api.CreateParagraph();
-oParagraph5.AddText("The document side bar will contain the Comment menu option.");
-oDocument.Push(oParagraph5);
-Api.AddComment(oParagraph4, "You can set the comment option in the permissions section of the document initialization", "Mark Pottato");
-var oCommentsReport = oDocument.GetCommentsReport();
-var oParagraph = Api.CreateParagraph();
-oParagraph.AddLineBreak();
-oParagraph.AddLineBreak();
-oParagraph.AddText("Comments report");
-oDocument.Push(oParagraph);
-var nRows = 1;
-for (let sUserName in oCommentsReport) {
-	nRows += oCommentsReport[sUserName].length;
+// This example shows how to get a report about all the comments added to the document.
+let document = Api.GetDocument();
+let paragraph1 = document.GetElement(0);
+paragraph1.AddText("Commenting");
+paragraph1.SetJc("center");
+paragraph1.SetFontSize(24);
+paragraph1.SetBold(true);
+let paragraph2 = Api.CreateParagraph();
+paragraph2.AddText("The Comment option allows you to leave comments on the specific words, edit and remove these comments.");
+document.Push(paragraph2);
+let paragraph3 = Api.CreateParagraph();
+paragraph3.AddText("All the comments will be saved and shown to other document users.");
+document.Push(paragraph3);
+Api.AddComment(paragraph2, "You can also leave comment on phrases, sentences and other document parts", "John Smith");
+let paragraph4 = Api.CreateParagraph();
+paragraph4.AddText("In order to enable the comment option, the comment parameter must be set to true.");
+document.Push(paragraph4);
+let paragraph5 = Api.CreateParagraph();
+paragraph5.AddText("The document side bar will contain the Comment menu option.");
+document.Push(paragraph5);
+Api.AddComment(paragraph4, "You can set the comment option in the permissions section of the document initialization", "Mark Pottato");
+let commentsReport = document.GetCommentsReport();
+let paragraph = Api.CreateParagraph();
+paragraph.AddLineBreak();
+paragraph.AddLineBreak();
+paragraph.AddText("Comments report");
+document.Push(paragraph);
+let rows = 1;
+for (let userName in commentsReport) {
+	rows += commentsReport[userName].length;
 }
-var nCols = 6;
-var oTable = Api.CreateTable(nCols, nRows);
-oDocument.Push(oTable);
+let cols = 6;
+let table = Api.CreateTable(cols, rows);
+document.Push(table);
 
-function privateFillCell(nCurRow, nCurCol, sText) {
-	var oRow = oTable.GetRow(nCurRow);
-	var oCell = oRow.GetCell(nCurCol);
-	var oCellContent = oCell.GetContent();
-	var oRun = oCellContent.GetElement(0).AddText(sText);
-	return {
-		Cell: oCell,
-		Run: oRun
-	};
+function addTextToCell(cell, text) {
+	return cell.GetContent().GetElement(0).AddText(text);
 }
-privateFillCell(0, 0, "Name");
-privateFillCell(0, 1, "Date");
-privateFillCell(0, 2, "");
-privateFillCell(0, 3, "Solved");
-privateFillCell(0, 4, "Text");
-privateFillCell(0, 5, "Quote text");
-var nCurRow = 1;
-for (let sUserName in oCommentsReport) {
-	var arrUserComments = oCommentsReport[sUserName];
-	var arrCells = [];
-	for (let nIndex = 0, nCount = arrUserComments.length; nIndex < nCount; ++nIndex, ++nCurRow) {
-		var oCommentInfo = oCommentsReport[sUserName][nIndex];
-		arrCells.push(privateFillCell(nCurRow, 0, "").Cell);
-		privateFillCell(nCurRow, 1, (new Date(oCommentInfo["Date"])).toString());
-		privateFillCell(nCurRow, 2, oCommentInfo["IsAnswer"] === true ? "answer" : "comment");
-		if (oCommentInfo["IsAnswer"] !== true) {
-		if (oCommentInfo["IsSolved"] === true) privateFillCell(nCurRow, 3, "yes").Run.SetColor(0, 255, 0);
-		else privateFillCell(nCurRow, 3, "no").Run.SetColor(255, 0, 0);
+function fillCell(rowIndex, colIndex, text) {
+	return addTextToCell(table.GetRow(rowIndex).GetCell(colIndex), text);
+}
+
+fillCell(0, 0, "Name");
+fillCell(0, 1, "Date");
+fillCell(0, 2, "");
+fillCell(0, 3, "Solved");
+fillCell(0, 4, "Text");
+fillCell(0, 5, "Quote text");
+
+let rowIndex = 1;
+for (let userName in commentsReport) {
+	let userComments = commentsReport[userName];
+	let cells = [];
+	for (let i = 0; i < userComments.length; ++i, ++rowIndex) {
+		let commentInfo = commentsReport[userName][i];
+		fillCell(rowIndex, 0, "");
+		cells.push(table.GetRow(rowIndex).GetCell(0));
+		fillCell(rowIndex, 1, (new Date(commentInfo["Date"])).toString());
+		fillCell(rowIndex, 2, commentInfo["IsAnswer"] === true ? "answer" : "comment");
+		if (commentInfo["IsAnswer"] !== true) 
+		{
+			if (commentInfo["IsSolved"] === true) 
+				fillCell(rowIndex, 3, "yes").SetColor(0, 255, 0);
+			else 
+				fillCell(rowIndex, 3, "no").SetColor(255, 0, 0);
 		}
-		privateFillCell(nCurRow, 4, oCommentInfo["CommentMessage"] ? oCommentInfo["CommentMessage"] : "");
-		privateFillCell(nCurRow, 5, oCommentInfo["QuoteText"] ? oCommentInfo["QuoteText"] : "");
+		fillCell(rowIndex, 4, commentInfo["CommentMessage"] ? commentInfo["CommentMessage"] : "");
+		fillCell(rowIndex, 5, commentInfo["QuoteText"] ? commentInfo["QuoteText"] : "");
 	}
-	var oMergedCell = oTable.MergeCells(arrCells);
-	if (oMergedCell) {
-		var oCellContent = oMergedCell.GetContent();
-		oCellContent.GetElement(0).AddText(sUserName);
-	} else if (arrCells.length > 0) {
-		oCellContent = arrCells[0].GetContent();
-		oCellContent.GetElement(0).AddText(sUserName);
-	}
+	let mergedCell = table.MergeCells(cells);
+	if (mergedCell)
+		addTextToCell(mergedCell, userName);
+	else if (cells.length > 0)
+		addTextToCell(cells[0], userName);
 }
-oTable.SetStyle(oDocument.GetStyle("Bordered"));
+table.SetStyle(document.GetStyle("Bordered"));
