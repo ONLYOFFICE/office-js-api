@@ -1,8 +1,8 @@
 // This example shows how to go to bookmark and select it.
-let oDocument = Api.GetDocument(); 
-let oParagraph = oDocument.GetElement(0); 
-oParagraph.AddText("ONLYOFFICE Document Builder"); 
-let oRange1 = oDocument.GetRange(21, 28);
-oRange1.AddBookmark("BookmarkName");
-let oBookmark = oDocument.GetBookmark("BookmarkName");
-oBookmark.GoTo();
+let document = Api.GetDocument();
+let paragraph = document.GetElement(0);
+paragraph.AddText("ONLYOFFICE Document Builder");
+let range = document.GetRange(21, 28);
+range.AddBookmark("BookmarkName");
+let bookmark = document.GetBookmark("BookmarkName");
+bookmark.GoTo();

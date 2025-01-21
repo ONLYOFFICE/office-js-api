@@ -1,11 +1,11 @@
 // This example shows how to set bookmark text.
-let oDocument = Api.GetDocument(); 
-let oParagraph = oDocument.GetElement(0); 
-oParagraph.AddText("ONLYOFFICE Document Builder"); 
-let oRange1 = oDocument.GetRange(0, 11);
-oRange1.AddBookmark("BookmarkName");
-let oBookmark = oDocument.GetBookmark("BookmarkName");
-let sOldText = oBookmark.GetText();
-oBookmark.SetText("New bookmark text");
-oParagraph.AddLineBreak();
-oParagraph.AddText("Bookmark text changed from: '" + sOldText + "' to: '" + oBookmark.GetText() + "'");
+let document = Api.GetDocument();
+let paragraph = document.GetElement(0);
+paragraph.AddText("ONLYOFFICE Document Builder");
+let range1 = document.GetRange(0, 11);
+range1.AddBookmark("BookmarkName");
+let bookmark = document.GetBookmark("BookmarkName");
+let oldText = bookmark.GetText();
+bookmark.SetText("New bookmark text");
+paragraph.AddLineBreak();
+paragraph.AddText("Bookmark text changed from: '" + oldText + "' to: '" + bookmark.GetText() + "'");
