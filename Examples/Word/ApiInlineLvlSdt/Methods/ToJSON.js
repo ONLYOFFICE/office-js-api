@@ -1,11 +1,11 @@
 // This example converts the ApiInlineLvlSdt object into the JSON object.
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oInlineLvlSdt = Api.CreateInlineLvlSdt();
-oInlineLvlSdt.SetAlias("№1");
-var json = oInlineLvlSdt.ToJSON(true);
-var oInlineLvlSdtFromJSON = Api.FromJSON(json);
-oParagraph.AddInlineLvlSdt(oInlineLvlSdtFromJSON);
-var oRun = Api.CreateRun();
-oRun.AddText("This is an inline text content control.");
-oInlineLvlSdtFromJSON.AddElement(oRun, 0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let inlineLvlSdt = Api.CreateInlineLvlSdt();
+inlineLvlSdt.SetAlias("№1");
+let json = inlineLvlSdt.ToJSON(true);
+let inlineLvlSdtFromJSON = Api.FromJSON(json);
+paragraph.AddInlineLvlSdt(inlineLvlSdtFromJSON);
+let run = Api.CreateRun();
+run.AddText("This is an inline text content control.");
+inlineLvlSdtFromJSON.AddElement(run, 0);

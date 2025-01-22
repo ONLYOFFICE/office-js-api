@@ -1,9 +1,9 @@
 // This example shows how to get bookmark name.
-let oDocument = Api.GetDocument(); 
-let oParagraph = oDocument.GetElement(0); 
-oParagraph.AddText("ONLYOFFICE Document Builder"); 
-let oRange1 = oDocument.GetRange(0, 11); 
-oRange1.AddBookmark("BookmarkName");
-let oBookmark = oDocument.GetBookmark("BookmarkName");
-oParagraph.AddLineBreak();
-oParagraph.AddText("Bookmark with name: " + oBookmark.GetName());
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("ONLYOFFICE Document Builder");
+let range = doc.GetRange(0, 11);
+range.AddBookmark("BookmarkName");
+let bookmark = doc.GetBookmark("BookmarkName");
+paragraph.AddLineBreak();
+paragraph.AddText("Bookmark with name: " + bookmark.GetName());

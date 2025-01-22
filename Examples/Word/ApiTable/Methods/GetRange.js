@@ -1,11 +1,11 @@
 // This example shows how to get a Range object that represents the part of the document contained in the specified table.
-var oDocument = Api.GetDocument();
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-var oTable = Api.CreateTable(3, 3);
-oTable.SetWidth("percent", 100);
-oTable.SetStyle(oTableStyle);
-oDocument.Push(oTable);
-oTable.GetCell(0, 0).GetContent().GetElement(0).AddText("This is just a sample text.");
-var oRange = oTable.GetRange(0, 3);
-oRange.SetBold(true);
+let doc = Api.GetDocument();
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
+let table = Api.CreateTable(3, 3);
+table.SetWidth("percent", 100);
+table.SetStyle(tableStyle);
+doc.Push(table);
+table.GetCell(0, 0).GetContent().GetElement(0).AddText("This is just a sample text.");
+let range = table.GetRange(0, 3);
+range.SetBold(true);

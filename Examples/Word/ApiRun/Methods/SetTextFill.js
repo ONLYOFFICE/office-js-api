@@ -1,19 +1,19 @@
 // In this example, add the text with a text fill to the WordArt.
-var oDocument = Api.GetDocument();
-var oTextPr = Api.CreateTextPr();
-oTextPr.SetFontSize(30);
-oTextPr.SetBold(true);
-oTextPr.SetCaps(true);
-oTextPr.SetFontFamily("Comic Sans MS");
-var oTextArt = Api.CreateWordArt(oTextPr, "onlyoffice", "textWave1", null, null, 0, 1550 * 36000, 50 * 36000);
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddDrawing(oTextArt);
+let doc = Api.GetDocument();
+let textPr = Api.CreateTextPr();
+textPr.SetFontSize(30);
+textPr.SetBold(true);
+textPr.SetCaps(true);
+textPr.SetFontFamily("Comic Sans MS");
+let textArt = Api.CreateWordArt(textPr, "onlyoffice", "textWave1", null, null, 0, 1550 * 36000, 50 * 36000);
+let paragraph = doc.GetElement(0);
+paragraph.AddDrawing(textArt);
 
-oParagraph = Api.CreateParagraph();
-let oRun = Api.CreateRun();
-oRun.AddText("is the best office suite");
-oRun.SetOutLine(Api.CreateStroke(0.2 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51))));
-oRun.SetTextFill(Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61)));
-oParagraph.Push(oRun);
-oParagraph.SetJc("center");
-oTextArt.GetContent().Push(oParagraph);
+paragraph = Api.CreateParagraph();
+let run = Api.CreateRun();
+run.AddText("is the best office suite");
+run.SetOutLine(Api.CreateStroke(0.2 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51))));
+run.SetTextFill(Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61)));
+paragraph.Push(run);
+paragraph.SetJc("center");
+textArt.GetContent().Push(paragraph);

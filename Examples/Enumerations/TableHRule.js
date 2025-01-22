@@ -1,2 +1,2 @@
 // This example sets the table height rule.
-oTableRow.SetHeight("atLeast", 720);
+tableRow.SetHeight("atLeast", 720);

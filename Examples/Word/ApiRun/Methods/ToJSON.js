@@ -1,9 +1,9 @@
 // This example converts the ApiRun object into the JSON object.
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oRun = Api.CreateRun();
-oRun.AddText("This is a text run");
-var json = oRun.ToJSON(true);
-var oRunFromJSON = Api.FromJSON(json);
-oRunFromJSON.SetBold(true);
-oParagraph.AddElement(oRunFromJSON);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let run = Api.CreateRun();
+run.AddText("This is a text run");
+let json = run.ToJSON(true);
+let runFromJSON = Api.FromJSON(json);
+runFromJSON.SetBold(true);
+paragraph.AddElement(runFromJSON);

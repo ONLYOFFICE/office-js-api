@@ -1,6 +1,6 @@
 // This example sets verlical aligment "superscript" for [ApiRange](../ApiRange.md).
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("ONLYOFFICE Copyright Document Builder");
-var oRange = oDocument.GetRange(10, 19);
-oRange.SetVertAlign("superscript");
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("ONLYOFFICE Copyright Document Builder");
+let range = doc.GetRange(10, 19);
+range.SetVertAlign("superscript");

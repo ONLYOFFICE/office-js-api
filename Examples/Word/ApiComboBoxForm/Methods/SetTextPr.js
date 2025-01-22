@@ -1,9 +1,9 @@
 // This example sets the text properties to the current form.
-var oDocument = Api.GetDocument();
-var oComboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddElement(oComboBoxForm);
-var oTextPr = Api.CreateTextPr();
-oTextPr.SetFontSize(30);
-oTextPr.SetBold(true);
-oComboBoxForm.SetTextPr(oTextPr);
+let doc = Api.GetDocument();
+let comboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});
+let paragraph = doc.GetElement(0);
+paragraph.AddElement(comboBoxForm);
+let textPr = Api.CreateTextPr();
+textPr.SetFontSize(30);
+textPr.SetBold(true);
+comboBoxForm.SetTextPr(textPr);

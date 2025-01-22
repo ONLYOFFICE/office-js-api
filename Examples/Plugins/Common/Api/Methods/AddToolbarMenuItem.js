@@ -1,4 +1,4 @@
-var oToolbarMenuItem = {
+let toolbarMenuItem = {
     "id": "MeaningItem",
     "type": "button",
     "text": "Meaning",
@@ -28,13 +28,13 @@ var oToolbarMenuItem = {
         }
     ]
 };
-var oToolbarMenuTab = {
+let toolbarMenuTab = {
     "id": "ChatGPT",
     "text": "AI Assistant",
-    "items": [oToolbarMenuItem]
+    "items": [toolbarMenuItem]
 };
-var oToolbarMenuMainItem = {
+let toolbarMenuMainItem = {
     "guid": "asc.{9DC93CDB-B576-4F0C-B55E-FCC9C48DD007}",
-    "tabs": [oToolbarMenuTab]
+    "tabs": [toolbarMenuTab]
 };
-window.Asc.plugin.executeMethod ("AddToolbarMenuItem", [[oToolbarMenuMainItem]]);
+window.Asc.plugin.executeMethod ("AddToolbarMenuItem", [[toolbarMenuMainItem]]);

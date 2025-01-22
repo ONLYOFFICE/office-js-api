@@ -1,7 +1,7 @@
-var sToolbarMenuItemType = "button";
-var oToolbarMenuItem = {
+let toolbarMenuItemType = "button";
+let toolbarMenuItem = {
     "id": "MeaningItem",
-    "type": sToolbarMenuItemType,
+    "type": toolbarMenuItemType,
     "text": "Meaning",
     "hint": "Meaning",
     "icons": "resources/light/icon.png",

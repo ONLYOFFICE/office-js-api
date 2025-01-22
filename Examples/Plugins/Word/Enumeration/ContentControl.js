@@ -1,4 +1,4 @@
-var oContentControl = {
+let contentControl = {
     "Tag": "Document",
     "Id": 0,
     "Lock": 0,

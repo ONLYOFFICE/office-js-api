@@ -1,8 +1,7 @@
-var Date = new window.Date();
 window.Asc.plugin.executeMethod ("AddContentControlDatePicker", [
     {
         "DateFormat" : "DD\ MMMM\ YYYY",
-        "Date" : Date
+        "Date" : new window.Date()
     },
     {
         "Id" : 7,

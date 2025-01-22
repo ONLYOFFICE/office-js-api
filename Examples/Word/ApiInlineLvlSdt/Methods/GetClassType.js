@@ -1,11 +1,11 @@
 // This example gets a class type and inserts it into the document.
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oInlineLvlSdt = Api.CreateInlineLvlSdt();
-oParagraph.AddInlineLvlSdt(oInlineLvlSdt);
-var oRun = Api.CreateRun();
-oRun.AddText("This is an inline text content control.");
-oInlineLvlSdt.AddElement(oRun, 0);
-var sClassType = oInlineLvlSdt.GetClassType();
-oParagraph.AddLineBreak();
-oParagraph.AddText("Class Type = " + sClassType);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let inlineLvlSdt = Api.CreateInlineLvlSdt();
+paragraph.AddInlineLvlSdt(inlineLvlSdt);
+let run = Api.CreateRun();
+run.AddText("This is an inline text content control.");
+inlineLvlSdt.AddElement(run, 0);
+let classType = inlineLvlSdt.GetClassType();
+paragraph.AddLineBreak();
+paragraph.AddText("Class Type = " + classType);

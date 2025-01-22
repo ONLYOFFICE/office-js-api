@@ -1,4 +1,4 @@
-var oCommentData = {
+let commentData = {
     "UserName": "John Smith",
     "Text": "comment",
     "Time": "1662737941471",
@@ -12,4 +12,4 @@ var oCommentData = {
         }
     ]
 };
-window.Asc.plugin.executeMethod ("AddComment", [oCommentData]);
+window.Asc.plugin.executeMethod ("AddComment", [commentData]);

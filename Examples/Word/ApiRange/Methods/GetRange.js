@@ -1,8 +1,8 @@
 // This example shows how to get a Range object that represents the document part contained in the specified range.
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("ONLYOFFICE Document Builder");
-var oRange1 = oDocument.GetRange(0, 24);
-oRange1.SetBold(true);
-var oRange2 = oRange1.GetRange(0, 9);
-oRange2.SetItalic(true);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("ONLYOFFICE Document Builder");
+let range1 = doc.GetRange(0, 24);
+range1.SetBold(true);
+let range2 = range1.GetRange(0, 9);
+range2.SetItalic(true);

@@ -1,7 +1,7 @@
 // This example adds a hyperlink to a paragraph.
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oRun = Api.CreateRun();
-oRun.AddText("ONLYOFFICE Document Builder");
-oParagraph.AddElement(oRun);
-oParagraph.AddHyperlink("https://api.onlyoffice.com/docbuilder/basic", "docbuilder");
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let run = Api.CreateRun();
+run.AddText("ONLYOFFICE Document Builder");
+paragraph.AddElement(run);
+paragraph.AddHyperlink("https://api.onlyoffice.com/docbuilder/basic", "docbuilder");

@@ -1,15 +1,9 @@
-// This example replace text from two paragraphs to another text.
-var oDocument = Api.GetDocument();
-var oFParagraph = oDocument.GetElement(0);
-oFParagraph.AddText("This is the text for the first line. The line break is added after it.");
-oFParagraph.AddLineBreak();
-var oSParagraph = Api.CreateParagraph();
-oSParagraph.AddTabStop();
-oSParagraph.AddText("This is just a sample text with a tab stop before it.");
-oDocument.Push(oSParagraph);
-var oRange1 = oFParagraph.GetRange();
-var oRange2 = oSParagraph.GetRange();
-var oRange3 = oRange1.ExpandTo(oRange2);
-oRange3.Select();
-var arr = ["test_1", "test_2"];
-Api.ReplaceTextSmart(arr, "", "");
+// This example replaces text while preserving formatting and other things.
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("This is the normal text. ");
+paragraph.AddText("The is bold text. ").SetBold(true);
+paragraph.AddText("This is italic text.").SetItalic(true);
+
+paragraph.GetRange().Select();
+Api.ReplaceTextSmart(["This is the normal text. This bold text was smart replaced. This is italic text."]);

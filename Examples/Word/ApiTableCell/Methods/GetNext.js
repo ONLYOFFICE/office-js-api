@@ -1,12 +1,12 @@
 // This example shows how to get the next cell.
-var oDocument = Api.GetDocument();
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-var oTable = Api.CreateTable(3, 3);
-oTable.SetWidth("percent", 100);
-oTable.SetStyle(oTableStyle);
-oTable.GetCell(0, 0).GetContent().GetElement(0).AddText("Cell 1");
-oTable.GetCell(0, 1).GetContent().GetElement(0).AddText("Cell 2");
-oDocument.Push(oTable);
-var oNextCell = oTable.GetCell(0, 0).GetNext();
-oNextCell.GetContent().GetElement(0).SetBold(true);
+let doc = Api.GetDocument();
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
+let table = Api.CreateTable(3, 3);
+table.SetWidth("percent", 100);
+table.SetStyle(tableStyle);
+table.GetCell(0, 0).GetContent().GetElement(0).AddText("Cell 1");
+table.GetCell(0, 1).GetContent().GetElement(0).AddText("Cell 2");
+doc.Push(table);
+let nextCell = table.GetCell(0, 0).GetNext();
+nextCell.GetContent().GetElement(0).SetBold(true);

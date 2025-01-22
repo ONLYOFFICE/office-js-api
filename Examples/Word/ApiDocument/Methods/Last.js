@@ -1,9 +1,9 @@
 // This example shows how to get the last document element.
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("This is a sample text №1.");
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("This is a sample text №2.");
-oDocument.Push(oParagraph);
-var oElement = oDocument.Last();
-oElement.SetBold(true);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("This is a sample text №1.");
+paragraph = Api.CreateParagraph();
+paragraph.AddText("This is a sample text №2.");
+doc.Push(paragraph);
+let element = doc.Last();
+element.SetBold(true);

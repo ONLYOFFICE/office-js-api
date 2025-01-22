@@ -1,9 +1,9 @@
 // This example shows how to get bookmark in document.
-let oDocument = Api.GetDocument(); 
-let oParagraph = oDocument.GetElement(0); 
-oParagraph.AddText("ONLYOFFICE Document Builder"); 
-let oRange1 = oDocument.GetRange(0, 11); 
-oRange1.AddBookmark("Bookmark_ex");
-let oBookmark = oDocument.GetBookmark("Bookmark_ex");
-oParagraph.AddLineBreak();
-oParagraph.AddText("Bookmark with name: " + oBookmark.GetName() + " is " + (oBookmark.IsActive() ? "active" : "inactive"));
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("ONLYOFFICE Document Builder");
+let range1 = doc.GetRange(0, 11);
+range1.AddBookmark("Bookmark_ex");
+let bookmark = doc.GetBookmark("Bookmark_ex");
+paragraph.AddLineBreak();
+paragraph.AddText("Bookmark with name '" + bookmark.GetName() + "' surrounds text: " + bookmark.GetText());

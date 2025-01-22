@@ -1,6 +1,6 @@
 // This example specifies that the contents of the current Range are displayed along with a line appearing directly below the character.
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("ONLYOFFICE Document Builder");
-var oRange = oDocument.GetRange(0, 24);
-oRange.SetUnderline(true);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("ONLYOFFICE Document Builder");
+let range = doc.GetRange(0, 24);
+range.SetUnderline(true);

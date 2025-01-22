@@ -1,2 +1,2 @@
 // This example returns a text from the text run.
-var sText = oRun.GetText({"NewLineSeparator": "\r", "TabSymbol": "\t"});
+let text = run.GetText({"NewLineSeparator": "\r", "TabSymbol": "\t"});
