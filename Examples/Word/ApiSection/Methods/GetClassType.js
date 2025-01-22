@@ -1,8 +1,8 @@
 // This example gets a class type and inserts it into the document.
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oSection = oDocument.GetFinalSection();
-oSection.SetPageMargins(720, 720, 720, 720);
-oSection.SetPageSize(7200, 4320);
-var sClassType = oSection.GetClassType();
-oParagraph.AddText("Class Type = " + sClassType);
+let document = Api.GetDocument();
+let paragraph = document.GetElement(0);
+let section = document.GetFinalSection();
+section.SetPageMargins(720, 720, 720, 720);
+section.SetPageSize(7200, 4320);
+let classType = section.GetClassType();
+paragraph.AddText("Class Type = " + classType);

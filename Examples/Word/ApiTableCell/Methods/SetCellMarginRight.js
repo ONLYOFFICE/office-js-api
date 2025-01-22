@@ -1,12 +1,12 @@
 // This example specifies an amount of space which will be left between the right extent of the cell contents and the border of a specific table cell within a table.
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-var oTable = Api.CreateTable(3, 3);
-oTable.SetWidth("percent", 100);
-var oCell = oTable.GetRow(0).GetCell(0);
-oCell.SetCellMarginRight(720);
-oCell.GetContent().GetElement(0).AddText("This is just a sample text to show that the right cell margin is 36 points.");
-oTable.SetStyle(oTableStyle);
-oDocument.Push(oTable);
+let document = Api.GetDocument();
+let paragraph = document.GetElement(0);
+let tableStyle = document.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(document.GetStyle("Bordered"));
+let table = Api.CreateTable(3, 3);
+table.SetWidth("percent", 100);
+let cell = table.GetRow(0).GetCell(0);
+cell.SetCellMarginRight(720);
+cell.GetContent().GetElement(0).AddText("This is just a sample text to show that the right cell margin is 36 points.");
+table.SetStyle(tableStyle);
+document.Push(table);

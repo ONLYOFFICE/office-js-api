@@ -1,5 +1,5 @@
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oSection = oDocument.GetFinalSection();
-var nHeight = oSection.GetPageHeight();
-oParagraph.AddText("Page height = " + nHeight);
+let document = Api.GetDocument();
+let paragraph = document.GetElement(0);
+let section = document.GetFinalSection();
+let height = section.GetPageHeight();
+paragraph.AddText("Page height = " + height);

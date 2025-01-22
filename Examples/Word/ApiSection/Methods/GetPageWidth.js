@@ -1,5 +1,5 @@
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oSection = oDocument.GetFinalSection();
-var nWidth = oSection.GetPageWidth();
-oParagraph.AddText("Page width = " + nWidth);
+let document = Api.GetDocument();
+let paragraph = document.GetElement(0);
+let section = document.GetFinalSection();
+let width = section.GetPageWidth();
+paragraph.AddText("Page width = " + width);

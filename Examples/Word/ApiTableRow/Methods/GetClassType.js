@@ -1,12 +1,12 @@
 // This example gets a class type and pastes it into the presentation.
-var oDocument = Api.GetDocument();
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-var oTable = Api.CreateTable(3, 3);
-oTable.SetWidth("percent", 100);
-var oTableRow = oTable.GetRow(0);
-oTable.SetStyle(oTableStyle);
-oDocument.Push(oTable);
-var sClassType = oTableRow.GetClassType();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("Class Type = " + sClassType);
+let document = Api.GetDocument();
+let tableStyle = document.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(document.GetStyle("Bordered"));
+let table = Api.CreateTable(3, 3);
+table.SetWidth("percent", 100);
+let tableRow = table.GetRow(0);
+table.SetStyle(tableStyle);
+document.Push(table);
+let classType = tableRow.GetClassType();
+let paragraph = document.GetElement(0);
+paragraph.AddText("Class Type = " + classType);

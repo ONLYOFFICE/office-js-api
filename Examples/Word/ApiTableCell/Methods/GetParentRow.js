@@ -1,11 +1,11 @@
 // This example shows how to get a parent row of the cell.
-var oDocument = Api.GetDocument();
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-var oTable = Api.CreateTable(3, 3);
-oTable.SetWidth("percent", 100);
-oTable.SetStyle(oTableStyle);
-oDocument.Push(oTable);
-oTable.GetCell(0, 0).GetContent().GetElement(0).AddText("Cell 1");
-var oParentRow = oTable.GetCell(0, 0).GetParentRow();
-oParentRow.SetHeight("atLeast", 720);
+let document = Api.GetDocument();
+let tableStyle = document.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(document.GetStyle("Bordered"));
+let table = Api.CreateTable(3, 3);
+table.SetWidth("percent", 100);
+table.SetStyle(tableStyle);
+document.Push(table);
+table.GetCell(0, 0).GetContent().GetElement(0).AddText("Cell 1");
+let parentRow = table.GetCell(0, 0).GetParentRow();
+parentRow.SetHeight("atLeast", 720);

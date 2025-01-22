@@ -1,10 +1,10 @@
 // This example merges the cells in the row.
-var oDocument = Api.GetDocument();
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-var oTable = Api.CreateTable(3, 3);
-oTable.SetStyle(oTableStyle);
-var oRow = oTable.GetRow(0);
-oTable.SetWidth("percent", 100);
-oRow.MergeCells();
-oDocument.Push(oTable);
+let document = Api.GetDocument();
+let tableStyle = document.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(document.GetStyle("Bordered"));
+let table = Api.CreateTable(3, 3);
+table.SetStyle(tableStyle);
+let row = table.GetRow(0);
+table.SetWidth("percent", 100);
+row.MergeCells();
+document.Push(table);

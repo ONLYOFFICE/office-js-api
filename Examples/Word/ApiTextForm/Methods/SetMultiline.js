@@ -1,11 +1,11 @@
 // This example specifies if the text field should be miltiline.
-var oDocument = Api.GetDocument();
-var oTextForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "autoFit": false});
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddElement(oTextForm);
-oTextForm.ToFixed(3 * 240, 3 * 240);
-oTextForm.SetMultiline(true);
-var bMultiline = oTextForm.IsMultiline();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("The first text form from this document is multiline: " + bMultiline);
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "autoFit": false});
+let paragraph = doc.GetElement(0);
+paragraph.AddElement(textForm);
+textForm.ToFixed(3 * 240, 3 * 240);
+textForm.SetMultiline(true);
+let multiline = textForm.IsMultiline();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("The first text form from this document is multiline: " + multiline);
+doc.Push(paragraph);

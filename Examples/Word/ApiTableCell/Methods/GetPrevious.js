@@ -1,12 +1,12 @@
 // This example shows how to get the previous cell.
-var oDocument = Api.GetDocument();
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-var oTable = Api.CreateTable(3, 3);
-oTable.SetWidth("percent", 100);
-oTable.SetStyle(oTableStyle);
-oTable.GetCell(0, 0).GetContent().GetElement(0).AddText("Cell 1");
-oTable.GetCell(0, 1).GetContent().GetElement(0).AddText("Cell 2");
-oDocument.Push(oTable);
-var oPreviousCell = oTable.GetCell(0, 1).GetPrevious();
-oPreviousCell.GetContent().GetElement(0).SetBold(true);
+let document = Api.GetDocument();
+let tableStyle = document.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(document.GetStyle("Bordered"));
+let table = Api.CreateTable(3, 3);
+table.SetWidth("percent", 100);
+table.SetStyle(tableStyle);
+table.GetCell(0, 0).GetContent().GetElement(0).AddText("Cell 1");
+table.GetCell(0, 1).GetContent().GetElement(0).AddText("Cell 2");
+document.Push(table);
+let previousCell = table.GetCell(0, 1).GetPrevious();
+previousCell.GetContent().GetElement(0).SetBold(true);

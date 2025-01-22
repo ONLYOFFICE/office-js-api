@@ -1,6 +1,6 @@
 // This example specifies a highlighting color which is applied as a background to the contents of the Range.
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("ONLYOFFICE Document Builder");
-var oRange = oDocument.GetRange(0, 26);
-oRange.SetHighlight("lightGray");
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("ONLYOFFICE Document Builder");
+let range = doc.GetRange(0, 26);
+range.SetHighlight("lightGray");

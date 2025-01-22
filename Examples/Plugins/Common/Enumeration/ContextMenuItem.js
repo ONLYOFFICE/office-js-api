@@ -1,4 +1,4 @@
-var aContextMenuItems = function getContextMenuItems() {
+let contextMenuItems = function getContextMenuItems() {
 	let settings = {
 		guid: window.Asc.plugin.guid,
 		items: [
@@ -15,5 +15,5 @@ window.Asc.plugin.attachEvent('onContextMenuShow', function(options) {
 	if (!options) return;
 
 	if (options.type === 'Selection' || options.type === 'Target')
-		this.executeMethod('AddContextMenuItem', [aContextMenuItems]);
+		this.executeMethod('AddContextMenuItem', [contextMenuItems]);
 });

@@ -1,4 +1,4 @@
-var oToolbarMenuItem = {
+let toolbarMenuItem = {
     "id": "MeaningItem",
     "type": "button",
     "text": "Meaning",
