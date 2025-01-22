@@ -1,6 +1,6 @@
 // This example shows how to get a collection of chart objects from the document.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 let chart1 = Api.CreateChart("bar3D", [
 	[200, 240, 280],
 	[250, 260, 280]
@@ -24,6 +24,6 @@ chart2.SetLegendPos("bottom");
 chart2.SetShowDataLabels(false, false, true, false);
 chart2.SetTitle("Financial Overview", 13);
 paragraph.AddDrawing(chart2);
-let charts = document.GetAllCharts();
+let charts = doc.GetAllCharts();
 let stroke = Api.CreateStroke(1 * 150, Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61)));
 charts[1].SetMinorHorizontalGridlines(stroke);

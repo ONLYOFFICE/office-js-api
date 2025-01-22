@@ -1,6 +1,6 @@
 // This example converts the ApiGradientStop object into the JSON object.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 let gs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);
 let json = gs1.ToJSON();
 let gs1FromJSON = Api.FromJSON(json);

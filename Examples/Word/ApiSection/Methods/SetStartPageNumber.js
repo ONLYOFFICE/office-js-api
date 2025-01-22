@@ -1,6 +1,6 @@
 // This example sets a custom start page index for section
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 paragraph.AddText("This section starts with second page number");
 paragraph.AddPageBreak();
 paragraph.AddText("Third page");

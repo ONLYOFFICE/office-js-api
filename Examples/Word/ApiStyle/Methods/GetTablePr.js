@@ -1,6 +1,6 @@
 // This example shows how to get the table properties of the style.
-let document = Api.GetDocument();
-let tableStyle = document.CreateStyle("CustomTableStyle", "table");
+let doc = Api.GetDocument();
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 let table = Api.CreateTable(2, 2);
 table.SetWidth("percent", 100);
 let tablePr = tableStyle.GetTablePr();
@@ -9,7 +9,7 @@ tablePr.SetTableCellMarginTop(720);
 tablePr.SetTableCellMarginLeft(120);
 tablePr.SetTableCellMarginRight(120);
 tablePr.SetTableCellMarginBottom(0);
-document.Push(table);
+doc.Push(table);
 table.SetStyle(tableStyle);
 table.SetTableLook(true, true, true, true, true, true);
 tableStyle.GetConditionalTableStyle("topLeftCell").GetTableCellPr().SetShd("clear", 255, 111, 61);

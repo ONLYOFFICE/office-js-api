@@ -1,6 +1,6 @@
 // This example specifies the minimum distance which will be maintained between the edges of the drawing object and any subsequent text.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 paragraph.AddText("This is a paragraph with a shape. ");
 paragraph.AddText("The text wraps the rectangular box that bounds the object. ");
 paragraph.AddText("The distance between the shape and the text is 1 inch (914400 English measure units).");
@@ -14,4 +14,4 @@ drawing.SetWrappingStyle("square");
 paragraph.AddDrawing(drawing);
 paragraph = Api.CreateParagraph();
 paragraph.AddText("This is another paragraph.");
-document.Push(paragraph);
+doc.Push(paragraph);

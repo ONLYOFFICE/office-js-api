@@ -1,6 +1,6 @@
 // This example shows how to get the last Run with text in the paragraph.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 for (let i = 0; i < 5; ++i) {
 	let run = Api.CreateRun();
 	run.AddText("This run # " + (i + 1));

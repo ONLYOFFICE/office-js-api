@@ -1,6 +1,6 @@
 // This example gets a type of ApiChart class and inserts it into the document.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [
 	[200, 240, 280],
 	[250, 260, 280]
@@ -18,4 +18,4 @@ paragraph.AddDrawing(chart);
 let classType = chart.GetClassType();
 paragraph = Api.CreateParagraph();
 paragraph.AddText("Class Type = " + classType);
-document.Push(paragraph);
+doc.Push(paragraph);

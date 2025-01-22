@@ -1,6 +1,6 @@
 // This example sets the text fill to the current text run.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 let run = Api.CreateRun();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
 run.SetTextFill(fill);

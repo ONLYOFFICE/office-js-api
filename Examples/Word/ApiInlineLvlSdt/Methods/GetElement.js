@@ -1,6 +1,6 @@
 // This example shows how to get an element of the inline text content control using the position specified.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 let inlineLvlSdt = Api.CreateInlineLvlSdt();
 paragraph.AddInlineLvlSdt(inlineLvlSdt);
 for (let i = 0; i < 10; ++i) {

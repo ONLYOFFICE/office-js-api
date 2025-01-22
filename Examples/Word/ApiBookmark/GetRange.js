@@ -1,10 +1,10 @@
 // This example shows how to get bookmark range.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 paragraph.AddText("ONLYOFFICE Document Builder");
-let range = document.GetRange(0, 11);
+let range = doc.GetRange(0, 11);
 range.AddBookmark("BookmarkName");
-let bookmark = document.GetBookmark("BookmarkName");
+let bookmark = doc.GetBookmark("BookmarkName");
 let bookmarkRange = bookmark.GetRange();
 bookmarkRange.SetBold(true);
 paragraph.AddLineBreak();

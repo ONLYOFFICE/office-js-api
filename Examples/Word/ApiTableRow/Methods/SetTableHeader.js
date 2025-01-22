@@ -1,9 +1,9 @@
 // This example specifies that the current table row will be repeated at the top of each new page wherever this table is displayed.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 paragraph.AddText("We create a 3x90 table and set row #1 as the table header:");
-let tableStyle = document.CreateStyle("CustomTableStyle", "table");
-tableStyle.SetBasedOn(document.GetStyle("Bordered"));
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
 let table = Api.CreateTable(3, 90);
 table.SetWidth("percent", 100);
 let tableRow = table.GetRow(0);
@@ -18,4 +18,4 @@ cell = tableRow.GetCell(2);
 paragraph = cell.GetContent().GetElement(0);
 paragraph.AddText("Header cell #3");
 table.SetStyle(tableStyle);
-document.Push(table);
+doc.Push(table);

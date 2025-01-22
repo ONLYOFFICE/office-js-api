@@ -1,20 +1,20 @@
 // This example shows how to get a report about every change which was made to the document in the review mode.
-let document = Api.GetDocument();
-let paragraph1 = document.GetElement(0);
-document.SetTrackRevisions(true);
+let doc = Api.GetDocument();
+let paragraph1 = doc.GetElement(0);
+doc.SetTrackRevisions(true);
 paragraph1.AddText("Reviewing documents");
 paragraph1.SetJc("center");
 paragraph1.SetFontSize(24);
 paragraph1.SetBold(true);
 let paragraph2 = Api.CreateParagraph();
 paragraph2.AddText("If you need to get review report, you can use Document Builder. The steps below will show how to do it.");
-document.Push(paragraph2);
-let reviewReport = document.GetReviewReport();
-document.SetTrackRevisions(false);
+doc.Push(paragraph2);
+let reviewReport = doc.GetReviewReport();
+doc.SetTrackRevisions(false);
 let paragraph = Api.CreateParagraph();
-document.Push(paragraph);
+doc.Push(paragraph);
 paragraph = Api.CreateParagraph();
-document.Push(paragraph);
+doc.Push(paragraph);
 paragraph.AddText("Review report");
 let rows = 1;
 for (let userName in reviewReport) {
@@ -22,7 +22,7 @@ for (let userName in reviewReport) {
 }
 let cols = 4;
 let table = Api.CreateTable(cols, rows);
-document.Push(table);
+doc.Push(table);
 
 function privateFillCell(curRow, curCol, text) {
     let row = table.GetRow(curRow);
@@ -74,4 +74,4 @@ for (let userName in reviewReport) {
         cellContent.GetElement(0).AddText(userName);
     }
 }
-table.SetStyle(document.GetStyle("Bordered"));
+table.SetStyle(doc.GetStyle("Bordered"));

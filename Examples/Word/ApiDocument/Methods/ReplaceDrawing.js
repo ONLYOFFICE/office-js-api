@@ -1,6 +1,6 @@
 // This example replaces a drawing with a new drawing.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 let oldDrawing = Api.CreateChart("bar3D", [
 	[200, 240, 280],
 	[250, 260, 280]
@@ -19,4 +19,4 @@ let docContent = newDrawing.GetContent();
 paragraph = Api.CreateParagraph();
 paragraph.AddText("The chart was replaced with the current shape in this document.");
 docContent.AddElement(0, paragraph);
-document.ReplaceDrawing(oldDrawing, newDrawing, false);
+doc.ReplaceDrawing(oldDrawing, newDrawing, false);

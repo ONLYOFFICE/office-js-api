@@ -1,6 +1,6 @@
 // This example shows how to get all numbered paragraphs from the current document.
-let document = Api.GetDocument();
-let numbering = document.CreateNumbering("numbered");
+let doc = Api.GetDocument();
+let numbering = doc.CreateNumbering("numbered");
 for (let lvl = 0; lvl < 8; ++lvl) {
 	let numLvl = numbering.GetLevel(lvl);
 	let formatString = "";
@@ -12,7 +12,7 @@ for (let lvl = 0; lvl < 8; ++lvl) {
 	paragraph.AddText("Custom numbered lvl " + (lvl + 1));
 	paragraph.SetNumbering(numLvl);
 	paragraph.SetContextualSpacing(true);
-	document.Push(paragraph);
+	doc.Push(paragraph);
 }
-let numberedParagraphs = document.GetAllNumberedParagraphs();
+let numberedParagraphs = doc.GetAllNumberedParagraphs();
 numberedParagraphs[0].SetBold(true);

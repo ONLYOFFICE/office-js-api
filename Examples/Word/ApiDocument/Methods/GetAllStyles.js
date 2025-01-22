@@ -1,11 +1,11 @@
 // This example shows how to get all styles of the current document.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 paragraph.AddText("Document styles:");
 paragraph.SetBold(true);
-let styles = document.GetAllStyles();
+let styles = doc.GetAllStyles();
 for (let i = 0; i < styles.length; i++) {
 	paragraph = Api.CreateParagraph();
 	paragraph.AddText(styles[i].GetName());
-	document.AddElement(i + 1, paragraph);
+	doc.AddElement(i + 1, paragraph);
 }

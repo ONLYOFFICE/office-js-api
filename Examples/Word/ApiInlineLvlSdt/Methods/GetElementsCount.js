@@ -1,6 +1,6 @@
 // This example shows how to get a number of elements in the inline text content control.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 let inlineLvlSdt = Api.CreateInlineLvlSdt();
 paragraph.AddInlineLvlSdt(inlineLvlSdt);
 paragraph.AddLineBreak();

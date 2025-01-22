@@ -1,6 +1,6 @@
 // This example shows how to get the hyperlink address.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 let run = Api.CreateRun();
 run.AddText("ONLYOFFICE Document Builder");
 paragraph.AddElement(run);
@@ -9,4 +9,4 @@ hyperlink.SetLink("https://api.onlyoffice.com/");
 let linkedText = hyperlink.GetLinkedText();
 paragraph = Api.CreateParagraph();
 paragraph.AddText("Linked text: " + linkedText);
-document.Push(paragraph);
+doc.Push(paragraph);

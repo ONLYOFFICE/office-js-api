@@ -1,37 +1,37 @@
 // This example shows how to get a report about all the comments added to the document.
-let document = Api.GetDocument();
-let paragraph1 = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph1 = doc.GetElement(0);
 paragraph1.AddText("Commenting");
 paragraph1.SetJc("center");
 paragraph1.SetFontSize(24);
 paragraph1.SetBold(true);
 let paragraph2 = Api.CreateParagraph();
 paragraph2.AddText("The Comment option allows you to leave comments on the specific words, edit and remove these comments.");
-document.Push(paragraph2);
+doc.Push(paragraph2);
 let paragraph3 = Api.CreateParagraph();
 paragraph3.AddText("All the comments will be saved and shown to other document users.");
-document.Push(paragraph3);
+doc.Push(paragraph3);
 Api.AddComment(paragraph2, "You can also leave comment on phrases, sentences and other document parts", "John Smith");
 let paragraph4 = Api.CreateParagraph();
 paragraph4.AddText("In order to enable the comment option, the comment parameter must be set to true.");
-document.Push(paragraph4);
+doc.Push(paragraph4);
 let paragraph5 = Api.CreateParagraph();
 paragraph5.AddText("The document side bar will contain the Comment menu option.");
-document.Push(paragraph5);
+doc.Push(paragraph5);
 Api.AddComment(paragraph4, "You can set the comment option in the permissions section of the document initialization", "Mark Pottato");
-let commentsReport = document.GetCommentsReport();
+let commentsReport = doc.GetCommentsReport();
 let paragraph = Api.CreateParagraph();
 paragraph.AddLineBreak();
 paragraph.AddLineBreak();
 paragraph.AddText("Comments report");
-document.Push(paragraph);
+doc.Push(paragraph);
 let rows = 1;
 for (let userName in commentsReport) {
 	rows += commentsReport[userName].length;
 }
 let cols = 6;
 let table = Api.CreateTable(cols, rows);
-document.Push(table);
+doc.Push(table);
 
 function addTextToCell(cell, text) {
 	return cell.GetContent().GetElement(0).AddText(text);
@@ -73,4 +73,4 @@ for (let userName in commentsReport) {
 	else if (cells.length > 0)
 		addTextToCell(cells[0], userName);
 }
-table.SetStyle(document.GetStyle("Bordered"));
+table.SetStyle(doc.GetStyle("Bordered"));

@@ -1,8 +1,8 @@
 // This example converts the ApiSection object into the JSON object.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 paragraph.AddText("This is a page with a page size set in the current document section.");
-let section = document.GetFinalSection();
+let section = doc.GetFinalSection();
 section.SetPageMargins(720, 720, 720, 720);
 section.SetPageSize(7200, 4320);
 let json = section.ToJSON(false, true);

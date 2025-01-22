@@ -1,6 +1,6 @@
 // This example gets a class type and inserts it into the document.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 let fill1 = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let fill2 = Api.CreateSolidFill(Api.CreateRGBColor(111, 255, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -11,7 +11,7 @@ shape2.SetWrappingStyle("inFront");
 shape2.SetHorPosition("page", 1606232);
 paragraph.AddDrawing(shape1);
 paragraph.AddDrawing(shape2);
-let group = document.GroupDrawings([shape1, shape2]);
+let group = doc.GroupDrawings([shape1, shape2]);
 let classType = group.GetClassType();
 let docContent1 = shape1.GetContent();
 paragraph = Api.CreateParagraph();

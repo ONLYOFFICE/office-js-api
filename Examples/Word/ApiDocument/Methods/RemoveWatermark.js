@@ -1,6 +1,6 @@
 // This example sets the parameters of the watermark settings and apply them to the document.
-let document = Api.GetDocument();
-let watermarkSettings = document.GetWatermarkSettings();
+let doc = Api.GetDocument();
+let watermarkSettings = doc.GetWatermarkSettings();
 watermarkSettings.SetType("text");
 watermarkSettings.SetText("Example");
 let textPr = watermarkSettings.GetTextPr();
@@ -13,13 +13,13 @@ textPr.SetUnderline(true);
 textPr.SetColor(0, 255, 0);
 textPr.SetHighlight("blue");
 watermarkSettings.SetTextPr(textPr);
-document.SetWatermarkSettings(watermarkSettings);
-let watermarkSettings2 = document.GetWatermarkSettings();
+doc.SetWatermarkSettings(watermarkSettings);
+let watermarkSettings2 = doc.GetWatermarkSettings();
 let paragraph1 = Api.CreateParagraph();
 paragraph1.AddText("Watermark Type = " + watermarkSettings2.GetType());
-document.Push(paragraph1);
-document.RemoveWatermark();
-let watermarkSettings3 = document.GetWatermarkSettings();
+doc.Push(paragraph1);
+doc.RemoveWatermark();
+let watermarkSettings3 = doc.GetWatermarkSettings();
 let paragraph2 = Api.CreateParagraph();
 paragraph2.AddText("Watermark Type = " + watermarkSettings3.GetType());
-document.Push(paragraph2);
+doc.Push(paragraph2);

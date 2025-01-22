@@ -1,6 +1,6 @@
 // This example sets the absolute measurement for the horizontal positioning of the floating object.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 paragraph.AddText("This is a paragraph with a shape. ");
 paragraph.AddText("The text wraps the rectangular box that bounds the object. ");
 paragraph.AddText("The distance between the shape and the text is half an inch (457200 English measure units).");
@@ -15,7 +15,7 @@ drawing.SetHorPosition("rightMargin", 0);
 paragraph.AddDrawing(drawing);
 paragraph = Api.CreateParagraph();
 paragraph.AddText("This is another paragraph.");
-document.Push(paragraph);
+doc.Push(paragraph);
 paragraph = Api.CreateParagraph();
 paragraph.AddText("The shape is aligned next to the right margin horizontally.");
-document.Push(paragraph);
+doc.Push(paragraph);

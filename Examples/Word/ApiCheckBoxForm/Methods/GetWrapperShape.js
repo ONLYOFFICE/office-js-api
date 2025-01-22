@@ -1,7 +1,7 @@
 // This example shows how to get a shape in which the form is placed to control the position and size of the fixed size form frame.
-let document = Api.GetDocument();
+let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});
-let paragraph = document.GetElement(0);
+let paragraph = doc.GetElement(0);
 paragraph.AddElement(checkBoxForm);
 paragraph.AddText(" Married");
 checkBoxForm.ToFixed(1 * 240, 1 * 240);

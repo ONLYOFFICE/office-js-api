@@ -1,7 +1,7 @@
 // This example converts the ApiTableRowPr object into the JSON object.
-let document = Api.GetDocument();
+let doc = Api.GetDocument();
 let table = Api.CreateTable(3, 3);
-document.Push(table);
+doc.Push(table);
 table.SetTableBorderTop("single", 32, 0, 51, 51, 51);
 table.SetTableBorderBottom("single", 32, 0, 51, 51, 51);
 table.SetTableBorderLeft("single", 32, 0, 51, 51, 51);
@@ -15,4 +15,4 @@ let paragraph = Api.CreateParagraph();
 paragraph.AddText("The ApiTableRow object in the JSON format: ").SetBold(true);
 paragraph.AddLineBreak();
 paragraph.AddText(json);
-document.Push(paragraph);
+doc.Push(paragraph);

@@ -1,6 +1,6 @@
 // This example shows how to get the paragraph right side indentation.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 let paraPr = paragraph.GetParaPr();
 paraPr.SetJc("right");
 paraPr.SetIndRight(2880);
@@ -12,4 +12,4 @@ paragraph.AddText("These sentences are used to add lines for demonstrative purpo
 let indRight = paraPr.GetIndRight();
 paragraph = Api.CreateParagraph();
 paragraph.AddText("Right indent: " + indRight);
-document.Push(paragraph);
+doc.Push(paragraph);

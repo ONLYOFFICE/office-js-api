@@ -1,8 +1,8 @@
 // This example specifies a number of rows which will comprise each table row band for this table style.
-let document = Api.GetDocument();
-document.RemoveAllElements();
-let tableStyle = document.CreateStyle("CustomTableStyle", "table");
-tableStyle.SetBasedOn(document.GetStyle("Bordered"));
+let doc = Api.GetDocument();
+doc.RemoveAllElements();
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
 let table = Api.CreateTable(2, 4);
 table.SetWidth("percent", 100);
 table.SetStyle(tableStyle);
@@ -17,4 +17,4 @@ table.GetRow(2).GetCell(0).GetContent().GetElement(0).AddText("Bold");
 table.GetRow(2).GetCell(1).GetContent().GetElement(0).AddText("Bold");
 table.GetRow(3).GetCell(0).GetContent().GetElement(0).AddText("Normal");
 table.GetRow(3).GetCell(1).GetContent().GetElement(0).AddText("Normal");
-document.Push(table);
+doc.Push(table);

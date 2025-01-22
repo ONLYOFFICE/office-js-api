@@ -1,6 +1,6 @@
 // This example gets a start page index of section
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 let section = paragraph.GetSection();
 section.SetStartPageNumber(5);
 let startPageNumber = section.GetStartPageNumber();

@@ -1,11 +1,11 @@
 // This example adds a heading cross-reference to the paragraph.
-let document = Api.GetDocument();
-let newDocumentStyle = document.GetStyle("Heading 1");
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let newDocumentStyle = doc.GetStyle("Heading 1");
+let paragraph = doc.GetElement(0);
 paragraph.SetStyle(newDocumentStyle);
 paragraph.AddText("Cross-reference method");
-let headingParagraphs = document.GetAllHeadingParagraphs();
+let headingParagraphs = doc.GetAllHeadingParagraphs();
 paragraph = Api.CreateParagraph();
 paragraph.AddText("Heading 1 style is applied to the heading ");
-document.Push(paragraph);
+doc.Push(paragraph);
 paragraph.AddHeadingCrossRef("text", headingParagraphs[0]);

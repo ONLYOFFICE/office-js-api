@@ -1,9 +1,9 @@
 // This example shows how to get the table row properties of the current style.
-let document = Api.GetDocument();
-let tableStyle = document.CreateStyle("CustomTableStyle", "table");
+let doc = Api.GetDocument();
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 let table = Api.CreateTable(2, 2);
 table.SetWidth("percent", 100);
-document.Push(table);
+doc.Push(table);
 table.SetStyle(tableStyle);
 table.SetTableLook(true, true, true, true, false, false);
 tableStyle.GetTableRowPr().SetHeight("atLeast", 1440);

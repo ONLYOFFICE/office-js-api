@@ -1,6 +1,6 @@
 // This example specifies that all the small letter characters in this text run are formatted for display only as their capital letter character equivalents which are two points smaller than the actual font size specified for this text.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 let run = Api.CreateRun();
 run.AddText("This is just a sample text. ");
 paragraph.AddElement(run);

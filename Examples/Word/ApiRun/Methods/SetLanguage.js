@@ -1,6 +1,6 @@
 // This example specifies the languages which will be used to check spelling and grammar (if requested) when processing the contents of this text run.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 let run = Api.CreateRun();
 run.AddText("This is just a sample text. ");
 paragraph.AddElement(run);

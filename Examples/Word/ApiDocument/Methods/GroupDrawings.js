@@ -1,5 +1,5 @@
 // This example show how to create a group of drawings in document.
-let document = Api.GetDocument();
+let doc = Api.GetDocument();
 let fill1 = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let fill2 = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -10,5 +10,5 @@ shape2.SetWrappingStyle("inFront");
 let paragraph = Api.CreateParagraph();
 paragraph.AddDrawing(shape1);
 paragraph.AddDrawing(shape2);
-document.Push(paragraph);
-document.GroupDrawings([shape1, shape2]);
+doc.Push(paragraph);
+doc.GroupDrawings([shape1, shape2]);

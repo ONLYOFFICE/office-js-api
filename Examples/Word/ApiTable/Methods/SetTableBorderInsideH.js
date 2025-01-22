@@ -1,6 +1,6 @@
 // This example specifies the border which will be displayed on all horizontal table cell borders which are not on the outmost edge of the parent table.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 paragraph.AddText("We create a 3x3 table and add the inside horizontal 4 point orange borders:");
 let table = Api.CreateTable(3, 3);
 table.SetWidth("percent", 100);
@@ -10,4 +10,4 @@ table.SetTableBorderLeft("single", 4, 0, 51, 51, 51);
 table.SetTableBorderRight("single", 4, 0, 51, 51, 51);
 table.SetTableBorderInsideV("single", 4, 0, 255, 111, 61);
 table.SetTableBorderInsideH("single", 32, 0, 255, 111, 61);
-document.Push(table);
+doc.Push(table);

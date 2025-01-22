@@ -1,6 +1,6 @@
 // This example shows how to get a content control that contains the content control.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 let inlineLvlSdt1 = Api.CreateInlineLvlSdt();
 inlineLvlSdt1.AddText("This is a parent inline text content control.");
 paragraph.AddInlineLvlSdt(inlineLvlSdt1);

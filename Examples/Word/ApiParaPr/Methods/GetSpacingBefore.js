@@ -1,6 +1,6 @@
 // This example shows how to get the spacing before value of the current paragraph.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 paragraph.AddText("This is an example of setting a space before a paragraph. ");
 paragraph.AddText("The second paragraph will have an offset of one inch from the top. ");
 paragraph.AddText("This is due to the fact that the second paragraph has this offset enabled.");
@@ -11,4 +11,4 @@ paraPr.SetSpacingBefore(1440);
 paragraph.AddLineBreak();
 let spacingBefore = paraPr.GetSpacingBefore();
 paragraph.AddText("Spacing before: " + spacingBefore);
-document.Push(paragraph);
+doc.Push(paragraph);

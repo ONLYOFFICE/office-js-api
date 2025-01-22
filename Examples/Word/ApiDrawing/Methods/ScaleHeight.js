@@ -1,6 +1,6 @@
 // This example scales the height of the figure using the specified coefficient.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 for (let i = 3; i > 0; i--) {
     let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
     let stroke = Api.CreateStroke(0, Api.CreateNoFill());

@@ -1,8 +1,8 @@
 // This example shows how to get the radio group key if the checkbox is a radio button.
-let document = Api.GetDocument();
+let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});
 checkBoxForm.SetRadioGroup("Marital status");
-let paragraph = document.GetElement(0);
+let paragraph = doc.GetElement(0);
 paragraph.AddElement(checkBoxForm);
 paragraph.AddText(" Married");
 paragraph.AddLineBreak();
@@ -13,4 +13,4 @@ paragraph.AddText(" Single");
 let radioGroup = checkBoxForm.GetRadioGroup();
 paragraph = Api.CreateParagraph();
 paragraph.AddText("Radio group name of the radio buttons in this document: " + radioGroup);
-document.Push(paragraph);
+doc.Push(paragraph);

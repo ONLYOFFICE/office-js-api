@@ -1,6 +1,6 @@
 // This example gets a watermark text and pastes it into the document.
-let document = Api.GetDocument();
-let watermarkSettings = document.GetWatermarkSettings();
+let doc = Api.GetDocument();
+let watermarkSettings = doc.GetWatermarkSettings();
 watermarkSettings.SetType("text");
 watermarkSettings.SetText("Example");
 let textPr = watermarkSettings.GetTextPr();
@@ -15,8 +15,8 @@ textPr.SetHighlight("blue");
 watermarkSettings.SetTextPr(textPr);
 watermarkSettings.SetOpacity(127);
 watermarkSettings.SetDirection("clockwise45");
-document.SetWatermarkSettings(watermarkSettings);
-let watermarkSettings2 = document.GetWatermarkSettings();
+doc.SetWatermarkSettings(watermarkSettings);
+let watermarkSettings2 = doc.GetWatermarkSettings();
 let paragraph = Api.CreateParagraph();
 paragraph.AddText("Watermark Text = " + watermarkSettings2.GetText());
-document.Push(paragraph);
+doc.Push(paragraph);

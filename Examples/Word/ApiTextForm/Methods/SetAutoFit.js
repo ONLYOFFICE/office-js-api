@@ -1,11 +1,11 @@
 // This example specifies if the text field content should be autofit.
-let document = Api.GetDocument();
+let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "multiLine": false});
-let paragraph = document.GetElement(0);
+let paragraph = doc.GetElement(0);
 paragraph.AddElement(textForm);
 textForm.ToFixed(6 * 240, 2 * 240);
 textForm.SetAutoFit(true);
 let autoFit = textForm.IsAutoFit();
 paragraph = Api.CreateParagraph();
 paragraph.AddText("The first text form from this document is autofit: " + autoFit);
-document.Push(paragraph);
+doc.Push(paragraph);

@@ -1,11 +1,11 @@
 // This example shows how to get a number of the comment replies.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 paragraph.AddText("This is just a sample text");
 Api.AddComment(paragraph, "comment", "John Smith");
-let comments = document.GetAllComments();
+let comments = doc.GetAllComments();
 comments[0].AddReply("reply1", "Mark Potato", "uid-2", 0);
 let repliesCount = comments[0].GetRepliesCount();
 paragraph = Api.CreateParagraph();
 paragraph.AddText("Number of comment replies: " + repliesCount);
-document.Push(paragraph);
+doc.Push(paragraph);

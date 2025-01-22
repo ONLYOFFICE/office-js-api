@@ -1,6 +1,6 @@
 // This example show how to get the previous chart.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [
 	[200, 240, 280],
 	[250, 260, 280]

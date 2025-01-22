@@ -1,6 +1,6 @@
 // This example changes the type of the first series of ApiChart class and inserts the new type into the document.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("comboBarLine", [
 	[200, 240, 280],
 	[250, 260, 280]
@@ -19,9 +19,9 @@ let series = chart.GetSeries(0);
 let seriesType = series.GetChartType();
 paragraph = Api.CreateParagraph();
 paragraph.AddText("Old Series Type = " + seriesType);
-document.Push(paragraph);
+doc.Push(paragraph);
 series.ChangeChartType("area");
 seriesType = series.GetChartType();
 paragraph = Api.CreateParagraph();
 paragraph.AddText("New Series Type = " + seriesType);
-document.Push(paragraph);
+doc.Push(paragraph);

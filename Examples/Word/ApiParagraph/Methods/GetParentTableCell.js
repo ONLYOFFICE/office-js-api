@@ -1,11 +1,11 @@
 // This example shows how to get a table cell that contains the current paragraph.
-let document = Api.GetDocument();
-let tableStyle = document.CreateStyle("CustomTableStyle", "table");
-tableStyle.SetBasedOn(document.GetStyle("Bordered"));
+let doc = Api.GetDocument();
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
 let table = Api.CreateTable(3, 3);
 table.SetWidth("percent", 100);
 table.SetStyle(tableStyle);
-document.Push(table);
+doc.Push(table);
 let paragraph = Api.CreateParagraph();
 paragraph.AddText("This is just a sample text.");
 let cell = table.GetCell(0, 0);

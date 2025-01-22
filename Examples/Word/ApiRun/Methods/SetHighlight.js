@@ -1,6 +1,6 @@
 // This example specifies a highlighting color which is applied as a background to the contents of the run.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 let run = Api.CreateRun();
 run.AddText("This is just a sample text. ");
 paragraph.AddElement(run);

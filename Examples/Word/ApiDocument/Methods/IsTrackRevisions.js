@@ -1,6 +1,6 @@
 // This example checks if change tracking mode is enabled or not.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
-document.SetTrackRevisions(true);
-let trackRevisions = document.IsTrackRevisions();
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+doc.SetTrackRevisions(true);
+let trackRevisions = doc.IsTrackRevisions();
 paragraph.AddText("Change tracking is enabled: " + trackRevisions);

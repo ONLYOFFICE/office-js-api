@@ -1,9 +1,9 @@
 // This example shows how to get a set of formatting properties which will be conditionally applied to the parts of a table that match the requirement specified in the sType parameter.
-let document = Api.GetDocument();
+let doc = Api.GetDocument();
 let table = Api.CreateTable(2, 2);
 table.SetWidth("percent", 100);
-document.Push(table);
-let tableStyle = document.CreateStyle("CustomTableStyle", "table");
+doc.Push(table);
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 table.SetStyle(tableStyle);
 table.SetTableLook(true, true, true, true, true, true);
 tableStyle.GetTablePr().SetTableBorderTop("single", 4, 0, 51, 51, 51);

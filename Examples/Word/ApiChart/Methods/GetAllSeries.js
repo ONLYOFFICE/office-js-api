@@ -1,6 +1,6 @@
 // This example gets all series of ApiChart class and inserts their types into the document.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("comboBarLine", [
 	[200, 240, 280],
 	[250, 260, 280]
@@ -22,5 +22,5 @@ for (let i = 0; i < allSeries.length; ++i) {
 	seriesType = series.GetChartType();
 	paragraph = Api.CreateParagraph();
 	paragraph.AddText((i + 1) + " Series Type = " + seriesType);
-	document.Push(paragraph);
+	doc.Push(paragraph);
 }

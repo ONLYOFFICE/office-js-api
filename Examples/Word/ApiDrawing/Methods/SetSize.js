@@ -1,6 +1,6 @@
 // This example sets the size of the shape bounding box.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 paragraph.AddText("This is a paragraph with a shape. ");
 paragraph.AddText("The text wraps the rectangular box that bounds the object. ");
 paragraph.AddText("The distance between the shape and the text is half an inch (457200 English measure units).");
@@ -15,4 +15,4 @@ drawing.SetSize(2 * 914400, 2 * 914400);
 paragraph.AddDrawing(drawing);
 paragraph = Api.CreateParagraph();
 paragraph.AddText("The shape was created with a size of 53x39 millimeters, then resized to the size of 2x2 inches.");
-document.Push(paragraph);
+doc.Push(paragraph);

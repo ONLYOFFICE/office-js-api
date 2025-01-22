@@ -1,11 +1,11 @@
 // This example creates an abstract multilevel numbering with a "bullet" type.
-let document = Api.GetDocument();
-let numbering = document.CreateNumbering("bullet");
-for (let nLvl = 0; nLvl < 8; ++nLvl) {
-	let numLvl = numbering.GetLevel(nLvl);
+let doc = Api.GetDocument();
+let numbering = doc.CreateNumbering("bullet");
+for (let lvl = 0; lvl < 8; ++lvl) {
+	let numLvl = numbering.GetLevel(lvl);
 	let paragraph = Api.CreateParagraph();
-	paragraph.AddText("Default numbered lvl " + (nLvl + 1));
+	paragraph.AddText("Default numbered lvl " + (lvl + 1));
 	paragraph.SetNumbering(numLvl);
 	paragraph.SetContextualSpacing(true);
-	document.Push(paragraph);
+	doc.Push(paragraph);
 }

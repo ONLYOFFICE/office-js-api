@@ -1,6 +1,6 @@
 // This example shows how to get the paragraph left side indentation.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 let paraPr = paragraph.GetParaPr();
 paraPr.SetIndLeft(2880);
 paragraph.AddText("This is the first paragraph with the indent of 2 inches set to it. ");
@@ -11,4 +11,4 @@ paragraph.AddText("These sentences are used to add lines for demonstrative purpo
 let indLeft = paraPr.GetIndLeft();
 paragraph = Api.CreateParagraph();
 paragraph.AddText("Left indent: " + indLeft);
-document.Push(paragraph);
+doc.Push(paragraph);

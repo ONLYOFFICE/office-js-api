@@ -1,6 +1,6 @@
 // This example gets a class type and inserts it into the document.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 let rgbColor = Api.CreateRGBColor(255, 111, 61);
 let fill = Api.CreateSolidFill(rgbColor);
 let stroke = Api.CreateStroke(5 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51)));
@@ -9,4 +9,4 @@ paragraph.AddDrawing(drawing);
 let classType = stroke.GetClassType();
 paragraph = Api.CreateParagraph();
 paragraph.AddText("Class Type = " + classType);
-document.Push(paragraph);
+doc.Push(paragraph);

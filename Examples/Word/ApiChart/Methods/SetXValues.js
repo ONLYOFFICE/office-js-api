@@ -1,6 +1,6 @@
 // This example sets the x-axis values to all chart series. It is used with the scatter charts only.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("scatter", [
 	[200, 240, 280],
 	[250, 260, 280]

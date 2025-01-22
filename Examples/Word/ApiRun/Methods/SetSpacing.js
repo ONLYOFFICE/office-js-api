@@ -1,6 +1,6 @@
 // This example sets the text spacing measured in twentieths of a point.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 let run = Api.CreateRun();
 run.AddText("This is just a sample text. ");
 paragraph.AddElement(run);

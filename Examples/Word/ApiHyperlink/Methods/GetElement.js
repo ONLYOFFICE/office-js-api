@@ -1,6 +1,6 @@
 // This example shows how to get the hyperlink element using the position specified.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 let run1 = Api.CreateRun();
 run1.AddText("Api Document Builder.");
 paragraph.AddElement(run1, 0);
@@ -11,4 +11,4 @@ let hyperlink = paragraph.AddHyperlink("https://api.onlyoffice.com/docbuilder/ba
 let element = hyperlink.GetElement(1);
 paragraph = Api.CreateParagraph();
 paragraph.AddElement(element);
-document.Push(paragraph);
+doc.Push(paragraph);

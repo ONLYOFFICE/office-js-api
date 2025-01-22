@@ -1,6 +1,6 @@
 // This example shows how to get a collection of drawing objects from the document.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 let gs1 = Api.CreateGradientStop(Api.CreateRGBColor(51, 51, 51), 0);
 let gs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);
 let fill = Api.CreateLinearGradientFill([gs1, gs2], 5400000);
@@ -21,6 +21,6 @@ drawing2.SetLegendPos("bottom");
 drawing2.SetShowDataLabels(false, false, true, false);
 drawing2.SetTitle("Financial Overview", 13);
 paragraph.AddDrawing(drawing2);
-let drawings = document.GetAllDrawingObjects();
+let drawings = doc.GetAllDrawingObjects();
 fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 drawings[0].Fill(fill);

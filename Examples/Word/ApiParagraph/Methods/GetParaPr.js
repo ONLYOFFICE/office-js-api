@@ -1,8 +1,8 @@
 // This example shows how to get the paragraph properties.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
-let paraStyle = document.GetDefaultStyle("paragraph");
-paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let paraStyle = doc.GetDefaultStyle("paragraph");
+paragraph = doc.GetElement(0);
 paragraph.SetStyle(paraStyle);
 let paraPr = paragraph.GetParaPr();
 paraPr.SetSpacingLine(480, "auto");

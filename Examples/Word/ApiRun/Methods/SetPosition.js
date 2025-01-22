@@ -1,6 +1,6 @@
 // This example specifies an amount by which text is raised or lowered for this run in relation to the default baseline of the surrounding non-positioned text.
-let document = Api.GetDocument();
-let paragraph = document.GetElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
 let run = Api.CreateRun();
 run.AddText("This is just a sample text. ");
 paragraph.AddElement(run);

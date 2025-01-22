@@ -1,5 +1,5 @@
 // This example shows how to get the content control position within its parent element.
-let document = Api.GetDocument();
+let doc = Api.GetDocument();
 let paragraph = Api.CreateParagraph();
 let run = Api.CreateRun();
 run.AddText("Number of paragraph elements at this point: ");
@@ -10,9 +10,9 @@ paragraph.AddElement(run);
 run.AddText("Number of paragraph elements after we added a text run: ");
 run.AddTabStop();
 run.AddText("" + paragraph.GetElementsCount());
-document.AddElement(0, paragraph);
+doc.AddElement(0, paragraph);
 let blockLvlSdt = Api.CreateBlockLvlSdt();
-document.AddElement(0, blockLvlSdt);
+doc.AddElement(0, blockLvlSdt);
 let position = blockLvlSdt.GetPosInParent();
-blockLvlSdt = document.GetElement(position);
+blockLvlSdt = doc.GetElement(position);
 blockLvlSdt.SetPlaceholderText("Content control");
