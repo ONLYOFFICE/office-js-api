@@ -21,6 +21,7 @@ object
 ## Example
 
 ```javascript
-window.Asc.plugin.executeMethod ("UpdatePlugin", [config], function (result) &#123;
+window.Asc.plugin.executeMethod ("UpdatePlugin", [config], function (result) {
     postMessage (JSON.stringify (result));
-&#125;);
+});
+```

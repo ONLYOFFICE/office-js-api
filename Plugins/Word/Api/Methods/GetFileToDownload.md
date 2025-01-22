@@ -21,6 +21,7 @@ string
 ## Example
 
 ```javascript
-window.Asc.plugin.executeMethod ("GetFileToDownload", ["pdf"], function (res) &#123;
+window.Asc.plugin.executeMethod ("GetFileToDownload", ["pdf"], function (res) {
     console.log (res)
-&#125;);
+});
+```

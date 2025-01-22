@@ -21,22 +21,23 @@ Object
 ## Example
 
 ```javascript
-var aContextMenuItems = function getContextMenuItems() &#123;
-	let settings = &#123;
+var aContextMenuItems = function getContextMenuItems() {
+	let settings = {
 		guid: window.Asc.plugin.guid,
 		items: [
-			&#123;
+			{
 				id : 'onConvert',
 				text : getMessage('Convert to Markdown or HTML')
-			&#125;
+			}
 		]
-	&#125;;
+	};
 	return settings;
-&#125;;
+};
 
-window.Asc.plugin.attachEvent('onContextMenuShow', function(options) &#123;
+window.Asc.plugin.attachEvent('onContextMenuShow', function(options) {
 	if (!options) return;
 
 	if (options.type === 'Selection' || options.type === 'Target')
 		this.executeMethod('AddContextMenuItem', [aContextMenuItems]);
-&#125;);
+});
+```

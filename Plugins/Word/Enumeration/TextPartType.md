@@ -16,6 +16,7 @@ Enumeration
 ## Example
 
 ```javascript
-window.Asc.plugin.executeMethod ("GetCurrentWord", ["entirely"], function (res) &#123;
+window.Asc.plugin.executeMethod ("GetCurrentWord", ["entirely"], function (res) {
     console.log (res)
-&#125;);
+});
+```

@@ -19,15 +19,16 @@ Object
 ## Example
 
 ```javascript
-var oPlugin = &#123;
+var oPlugin = {
     "url": "https://example.com/plugin/config.json",
-    "guid": "asc.&#123;38E022EA-AD92-45FC-B22B-49DF39746DB4&#125;",
+    "guid": "asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}",
     "canRemoved": true,
-    "obj": &#123;
+    "obj": {
         "baseUrl": "",
-        "guid": "asc.&#123;FFE1F462-1EA2-4391-990D-4CC84940B754&#125;",
+        "guid": "asc.{FFE1F462-1EA2-4391-990D-4CC84940B754}",
         "version": "1.0",
         "minVersion": "6.3.0",
         ...
-    &#125;
-&#125;;
+    }
+};
+```

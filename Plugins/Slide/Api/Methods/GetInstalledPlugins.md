@@ -19,6 +19,7 @@ This method doesn't have any parameters.
 ## Example
 
 ```javascript
-window.Asc.plugin.executeMethod ("GetInstalledPlugins", null, function (result) &#123;
-    postMessage (JSON.stringify (&#123;type: 'InstalledPlugins', data: result &#125;));
-&#125;);
+window.Asc.plugin.executeMethod ("GetInstalledPlugins", null, function (result) {
+    postMessage (JSON.stringify ({type: 'InstalledPlugins', data: result }));
+});
+```

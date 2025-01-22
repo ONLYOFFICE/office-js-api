@@ -24,4 +24,5 @@ This method doesn't return any data.
 ## Example
 
 ```javascript
-window.Asc.plugin.executeMethod ("ShowInputHelper", ["asc.&#123;UUID&#125;", 70, 70, true]);
+window.Asc.plugin.executeMethod ("ShowInputHelper", ["asc.{UUID}", 70, 70, true]);
+```

@@ -22,3 +22,4 @@ This method doesn't return any data.
 
 ```javascript
 window.Asc.plugin.executeMethod ("PasteText", ["ONLYOFFICE for developers"]);
+```

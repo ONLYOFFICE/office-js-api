@@ -19,11 +19,12 @@ This method doesn't have any parameters.
 ## Example
 
 ```javascript
-window.Asc.plugin.init = function(text) &#123;
-    if (!window.isInit) &#123;
+window.Asc.plugin.init = function(text) {
+    if (!window.isInit) {
         window.isInit = true;
         window.Asc.plugin.currentContentControl = null;
         window.Asc.plugin.createInputHelper();
         window.Asc.plugin.getInputHelper().createWindow();
-    &#125;
-&#125;;
+    }
+};
+```

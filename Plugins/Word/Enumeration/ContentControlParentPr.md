@@ -18,8 +18,9 @@ Object
 ## Example
 
 ```javascript
-var oContentControlParentPr = &#123;
+var oContentControlParentPr = {
     "Parent" : oParagraph,
     "Pos" : 0,
     "Count" : 1
-&#125;;
+};
+```

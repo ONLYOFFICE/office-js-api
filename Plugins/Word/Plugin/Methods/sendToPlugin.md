@@ -22,12 +22,13 @@ boolean
 ## Example
 
 ```javascript
-function makeConvetration() &#123;
-    if (window.Asc.plugin.windowID) &#123;
-        window.Asc.plugin.sendToPlugin("onWindowMessage", &#123;config: oConfig&#125;);
-    &#125; else &#123;
-        window.Asc.plugin.executeMethod('ConvertDocument', [oConfig.convertType, oConfig.htmlHeadings, oConfig.base64img, oConfig.demoteHeadings, oConfig.renderHTMLTags], function(sOutput) &#123;
+function makeConvetration() {
+    if (window.Asc.plugin.windowID) {
+        window.Asc.plugin.sendToPlugin("onWindowMessage", {config: oConfig});
+    } else {
+        window.Asc.plugin.executeMethod('ConvertDocument', [oConfig.convertType, oConfig.htmlHeadings, oConfig.base64img, oConfig.demoteHeadings, oConfig.renderHTMLTags], function(sOutput) {
             document.getElementById("text-area").value = sOutput;
-        &#125;);
-    &#125;
-&#125;;
+        });
+    }
+};
+```

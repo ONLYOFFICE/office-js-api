@@ -18,8 +18,9 @@ Object
 ## Example
 
 ```javascript
-var oToolbarMenuTab = &#123;
+var oToolbarMenuTab = {
     "id": "ChatGPT",
     "text": "AI Assistant",
     "items": [oToolbarMenuItem]
-&#125;;
+};
+```

@@ -18,8 +18,9 @@ Object
 
 ```javascript
 var Date = new window.Date();
-var oControlDatePickerPr = &#123;
+var oControlDatePickerPr = {
     "DateFormat" : "DD\ MMMM\ YYYY",
     "Date" : Date
-&#125;;
-window.Asc.plugin.executeMethod ("AddContentControlDatePicker", [oControlDatePickerPr, &#123;"Id" : 7, "Tag" : "&#123;tag&#125;", "Lock" : 0&#125;]);
+};
+window.Asc.plugin.executeMethod ("AddContentControlDatePicker", [oControlDatePickerPr, {"Id" : 7, "Tag" : "{tag}", "Lock" : 0}]);
+```

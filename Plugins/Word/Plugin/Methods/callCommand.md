@@ -24,11 +24,12 @@ This method doesn't return any data.
 ## Example
 
 ```javascript
-window.Asc.plugin.init = function () &#123;
-    this.callCommand(function() &#123;
+window.Asc.plugin.init = function () {
+    this.callCommand(function() {
         var oDocument = Api.GetDocument();
         var oParagraph = Api.CreateParagraph();
         oParagraph.AddText("Hello world!");
         oDocument.InsertContent([oParagraph]);
-    &#125;, true);
-&#125;;
+    }, true);
+};
+```

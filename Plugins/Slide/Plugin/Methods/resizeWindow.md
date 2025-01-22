@@ -26,6 +26,7 @@ This method doesn't return any data.
 ## Example
 
 ```javascript
-window.Asc.plugin.init = function() &#123;
+window.Asc.plugin.init = function() {
     this.resizeWindow(392, 147, 392, 147, 392, 147);
-&#125;;
+};
+```

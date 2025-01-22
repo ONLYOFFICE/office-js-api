@@ -19,40 +19,41 @@ string | null
 ## Example
 
 ```javascript
-window.Asc.plugin.executeMethod ("GetVBAMacros", null, function (data) &#123;
-    if (data && typeof data === 'string' && data.includes ('&lt;Module')) &#123;
-        var arr = data.split ('&lt;Module ').filter (function (el) &#123;return el.includes ('Type="Procedural"')&#125;);
-        arr.forEach (function (el) &#123;
-            var start = el.indexOf ('&lt;SourceCode&gt;') + 12;
-            var end = el.indexOf ('&lt;/SourceCode&gt;', start);
+window.Asc.plugin.executeMethod ("GetVBAMacros", null, function (data) {
+    if (data && typeof data === 'string' && data.includes ('<Module')) {
+        var arr = data.split ('<Module ').filter (function (el) {return el.includes ('Type="Procedural"')});
+        arr.forEach (function (el) {
+            var start = el.indexOf ('<SourceCode>') + 12;
+            var end = el.indexOf ('</SourceCode>', start);
             var macros = el.slice (start, end);
 
             start = el.indexOf ('Name="') + 6;
             end = el.indexOf ('"', start);
             var name = el.slice (start, end);
-            var index = Content.macrosArray.findIndex (function (macr) &#123;return macr.name == name&#125;);
-            if (index == -1) &#123;
+            var index = Content.macrosArray.findIndex (function (macr) {return macr.name == name});
+            if (index == -1) {
                 macros = macros.replace (/&amp;/g,'&');
-                macros = macros.replace (/&lt;/g,'&lt;');
-                macros = macros.replace (/&gt;/g,'&gt;');
+                macros = macros.replace (/&lt;/g,'<');
+                macros = macros.replace (/&gt;/g,'>');
                 macros = macros.replace (/&apos;/g,'\'');
                 macros = macros.replace (/&quot;/g,'"');
                 macros = macros.replace (/Attribute [\w \.="\\]*/g,'');
                 Content.macrosArray.push (
-                    &#123;
+                    {
                         name: name,
-                        value: '(function ()\n&#123;\n\t\n&#125;)();\n\n',
+                        value: '(function ()\n{\n\t\n})();\n\n',
                         guid: create_guid ()
-                    &#125;
+                    }
                 );
-            &#125;
-        &#125;);
-    &#125;
+            }
+        });
+    }
     updateMenu ();
     window.CustomContextMenu.init ();
     if (Content.current === -1)
-    &#123;
+    {
         let event = new Event ("click");
         document.getElementById ("button_new").dispatchEvent (event);
-    &#125;
-&#125;);
+    }
+});
+```

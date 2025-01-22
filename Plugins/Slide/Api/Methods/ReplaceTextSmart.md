@@ -23,9 +23,10 @@ boolean
 ## Example
 
 ```javascript
-window.Asc.plugin.executeMethod ("ReplaceTextSmart", [Asc.scope.arr, String.fromCharCode(9), String.fromCharCode(13)], function (isDone) &#123;
+window.Asc.plugin.executeMethod ("ReplaceTextSmart", [Asc.scope.arr, String.fromCharCode(9), String.fromCharCode(13)], function (isDone) {
     if (!isDone)
-        window.Asc.plugin.callCommand (function () &#123;
+        window.Asc.plugin.callCommand (function () {
             Api.ReplaceTextSmart (Asc.scope.arr);
-        &#125;);
-&#125;);
+        });
+});
+```

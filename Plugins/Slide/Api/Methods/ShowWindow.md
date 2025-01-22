@@ -22,7 +22,7 @@ This method doesn't return any data.
 ## Example
 
 ```javascript
-let variation = &#123;
+let variation = {
     url : location.href.replace(file, 'modal.html'),
     description : window.Asc.plugin.tr('Warning'),
     isVisual : true,
@@ -30,14 +30,15 @@ let variation = &#123;
     EditorsSupport : ['word', 'cell', 'slide'],
     size : [350, 100],
     buttons : [
-        &#123;
+        {
             'text': window.Asc.plugin.tr('Yes'),
             'primary': true
-        &#125;,
-        &#123;
+        },
+        {
             'text': window.Asc.plugin.tr('No'),
             'primary': false
-        &#125;
+        }
     ]
-&#125;;
-window.Asc.plugin.executeMethod ("ShowWindow", ["iframe_asc.&#123;BE5CBF95-C0AD-4842-B157-AC40FEDD9841&#125;", variation]);
+};
+window.Asc.plugin.executeMethod ("ShowWindow", ["iframe_asc.{BE5CBF95-C0AD-4842-B157-AC40FEDD9841}", variation]);
+```

@@ -19,11 +19,12 @@ This method doesn't return any data.
 ## Example
 
 ```javascript
-window.Asc.plugin.init = function(text) &#123;
-    if (!window.isInit) &#123;
+window.Asc.plugin.init = function(text) {
+    if (!window.isInit) {
         window.isInit = true;
         window.Asc.plugin.currentText = "";
         window.Asc.plugin.createInputHelper();
         window.Asc.plugin.getInputHelper().createWindow();
-    &#125;
-&#125;;
+    }
+};
+```

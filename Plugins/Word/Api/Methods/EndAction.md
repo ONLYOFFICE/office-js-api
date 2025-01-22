@@ -24,3 +24,4 @@ This method doesn't return any data.
 
 ```javascript
 window.Asc.plugin.executeMethod ("EndAction", ["Block", "Save to local storage...", ""]);
+```

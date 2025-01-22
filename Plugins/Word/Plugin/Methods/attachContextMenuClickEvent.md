@@ -22,6 +22,7 @@ This method doesn't return any data.
 ## Example
 
 ```javascript
-window.Asc.plugin.attachContextMenuClickEvent("onClickItem1Sub1", function()&#123;
+window.Asc.plugin.attachContextMenuClickEvent("onClickItem1Sub1", function(){
     window.Asc.plugin.executeMethod("InputText", ["clicked: onClickItem1Sub1"]);
-&#125;);
+});
+```

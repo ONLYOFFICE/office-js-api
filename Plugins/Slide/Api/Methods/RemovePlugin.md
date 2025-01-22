@@ -22,11 +22,12 @@ object
 ## Example
 
 ```javascript
-function removePlugin(backup) &#123;
+function removePlugin(backup) {
     if (removeGuid)
-        window.Asc.plugin.executeMethod('RemovePlugin', [removeGuid, backup], function(result) &#123;
+        window.Asc.plugin.executeMethod('RemovePlugin', [removeGuid, backup], function(result) {
             postMessage(result);
-        &#125;);
+        });
 
     removeGuid = null;
-&#125;;
+};
+```

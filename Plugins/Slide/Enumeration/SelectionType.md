@@ -17,16 +17,17 @@ Enumeration
 ## Example
 
 ```javascript
-window.Asc.plugin.executeMethod ("GetSelectionType", [], function(sType) &#123;
-    switch (sType) &#123;
+window.Asc.plugin.executeMethod ("GetSelectionType", [], function(sType) {
+    switch (sType) {
         case "none":
         case "drawing":
             window.Asc.plugin.executeMethod ("PasteText", [$("#txt_shower")[0].innerText]);
             break;
         case "text":
-            window.Asc.plugin.callCommand (function() &#123;
+            window.Asc.plugin.callCommand (function() {
                 Api.ReplaceTextSmart (Asc.scope.arr);
-            &#125;);
+            });
             break;
-    &#125;
-&#125;);
+    }
+});
+```

@@ -18,9 +18,10 @@ Object
 ## Example
 
 ```javascript
-var oControlCkeckBoxPr = &#123;
+var oControlCkeckBoxPr = {
     "Checked" : false,
     "CheckedSymbol" : 9756,
     "UncheckedSymbol" : 9744
-&#125;;
-window.Asc.plugin.executeMethod ("AddContentControlCheckBox", [oControlCkeckBoxPr, &#123;"Id" : 7, "Tag" : "&#123;tag&#125;", "Lock" : 0&#125;]);
+};
+window.Asc.plugin.executeMethod ("AddContentControlCheckBox", [oControlCkeckBoxPr, {"Id" : 7, "Tag" : "{tag}", "Lock" : 0}]);
+```

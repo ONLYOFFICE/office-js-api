@@ -19,21 +19,22 @@ Object
 ## Example
 
 ```javascript
-var config = &#123;
+var config = {
     "variations": [
-        &#123;
+        {
             "buttons": [
-                &#123; 
+                { 
                     "text": "Cancel",
                     "primary": false,
                     "isviewer": false,
-                    "textLocale": &#123;
+                    "textLocale": {
                         "fr": "Annuler",
                         "es": "Cancelar"
-                    &#125;
-                &#125;
+                    }
+                }
             ],
             ...
-        &#125;
+        }
     ]
-&#125;;
+};
+```

@@ -21,15 +21,16 @@ This method doesn't return any data.
 ## Example
 
 ```javascript
-var _param = &#123;
-    "data": "&#123;data&#125;",
+var _param = {
+    "data": "{data}",
     "imgSrc": "https://link-to-the-image.jpg",
     "objectId": "5_556",
     "width": 70,
     "height": 70,
     "widthPix": 60 * 36000,
     "heightPix": 60 * 36000
-&#125;;
-window.Asc.plugin.executeMethod ("EditOleObject", [_param], function () &#123;
+};
+window.Asc.plugin.executeMethod ("EditOleObject", [_param], function () {
     window.Asc.plugin.executeCommand ("close", "");
-&#125;);
+});
+```

@@ -22,8 +22,9 @@ This method doesn't return any data.
 ## Example
 
 ```javascript
-window.Asc.plugin.attachEvent("onContextMenuShow", function(options) &#123;
+window.Asc.plugin.attachEvent("onContextMenuShow", function(options) {
     if (!options) return;
     if (options.type === "Selection" || options.type === "Target")
         this.executeMethod("AddContextMenuItem", [getContextMenuItems()]);
-&#125;);
+});
+```

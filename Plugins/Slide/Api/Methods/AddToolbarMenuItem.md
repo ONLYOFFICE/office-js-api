@@ -21,7 +21,7 @@ This method doesn't return any data.
 ## Example
 
 ```javascript
-var oToolbarMenuItem = &#123;
+var oToolbarMenuItem = {
     "id": "MeaningItem",
     "type": "button",
     "text": "Meaning",
@@ -33,31 +33,32 @@ var oToolbarMenuItem = &#123;
     "separator": true,
     "split": true,
     "items": [
-        &#123;
+        {
             "id": "onMeaningT",
             "text": "Explain text in comment"
-        &#125;,
-        &#123;
+        },
+        {
             "id": "onFixSpelling",
             "text": "Fix spelling & grammar"
-        &#125;,
-        &#123;
+        },
+        {
             "id": "onMakeLonger",
             "text": "Make longer"
-        &#125;,
-        &#123;
+        },
+        {
             "id": "onMakeShorter",
             "text": "Make shorter"
-        &#125;
+        }
     ]
-&#125;;
-var oToolbarMenuTab = &#123;
+};
+var oToolbarMenuTab = {
     "id": "ChatGPT",
     "text": "AI Assistant",
     "items": [oToolbarMenuItem]
-&#125;;
-var oToolbarMenuMainItem = &#123;
-    "guid": "asc.&#123;9DC93CDB-B576-4F0C-B55E-FCC9C48DD007&#125;",
+};
+var oToolbarMenuMainItem = {
+    "guid": "asc.{9DC93CDB-B576-4F0C-B55E-FCC9C48DD007}",
     "tabs": [oToolbarMenuTab]
-&#125;;
+};
 window.Asc.plugin.executeMethod ("AddToolbarMenuItem", [[oToolbarMenuMainItem]]);
+```

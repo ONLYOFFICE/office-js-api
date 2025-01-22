@@ -18,13 +18,14 @@ Object
 ## Example
 
 ```javascript
-var oControlPrContent = &#123;
-    "Props": &#123;
+var oControlPrContent = {
+    "Props": {
         "Id": 100,
         "Tag": "CC_Tag",
         "Lock": 3
-    &#125;,
+    },
     "Script": "var oParagraph = Api.CreateParagraph();oParagraph.AddText('Hello world!');Api.GetDocument().InsertContent([oParagraph]);"
-&#125;;
+};
 var arrDocuments = [oControlPrContent];
 window.Asc.plugin.executeMethod("InsertAndReplaceContentControls", [arrDocuments]);
+```

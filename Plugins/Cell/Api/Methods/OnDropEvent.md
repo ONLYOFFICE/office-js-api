@@ -26,16 +26,17 @@ This method doesn't return any data.
 ## Example
 
 ```javascript
-window.Asc.plugin.executeMethod ("OnDropEvent", [&#123;
+window.Asc.plugin.executeMethod ("OnDropEvent", [{
   "type": "onbeforedrop",
   "x" : pos.x,
   "y" : pos.y
-&#125;]);
+}]);
 
-window.Asc.plugin.executeMethod ("OnDropEvent", [&#123;
+window.Asc.plugin.executeMethod ("OnDropEvent", [{
   "type": "ondrop",
   "x" : pos.x,
   "y" : pos.y,
   "text" : "test text",
-  "html" : "&lt;span&gt;test html&lt;/span&gt;"
-&#125;]);
+  "html" : "<span>test html</span>"
+}]);
+```

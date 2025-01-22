@@ -21,15 +21,16 @@ This method doesn't return any data.
 ## Example
 
 ```javascript
-window.Asc.plugin.button = function(id, windowId) &#123;
+window.Asc.plugin.button = function(id, windowId) {
 	if (!modalWindow)
 		return;
 
-	if (windowId) &#123;
-		switch (id) &#123;
+	if (windowId) {
+		switch (id) {
 			case -1:
 			default:
 				window.Asc.plugin.executeMethod('CloseWindow', [windowId]);
-		&#125;
-	&#125;
-&#125;;
+		}
+	}
+};
+```

@@ -19,20 +19,21 @@ This method doesn't have any parameters.
 ## Example
 
 ```javascript
-window.Asc.plugin.executeMethod ("GetSelectionType", [], function(sType) &#123;
-    switch (sType) &#123;
+window.Asc.plugin.executeMethod ("GetSelectionType", [], function(sType) {
+    switch (sType) {
         case "none":
         case "drawing":
-            window.Asc.plugin.executeMethod ("PasteText", [$("#txt_shower")[0].innerText], function (result) &#123;
+            window.Asc.plugin.executeMethod ("PasteText", [$("#txt_shower")[0].innerText], function (result) {
                 paste_done = true;
-            &#125;);
+            });
             break;
         case "text":
-            window.Asc.plugin.callCommand (function() &#123;
+            window.Asc.plugin.callCommand (function() {
                 Api.ReplaceTextSmart (Asc.scope.arr);
-            &#125;, undefined, undefined, function(result) &#123;
+            }, undefined, undefined, function(result) {
                 paste_done = true;
-            &#125;);
+            });
             break;
-    &#125;
-&#125;);
+    }
+});
+```

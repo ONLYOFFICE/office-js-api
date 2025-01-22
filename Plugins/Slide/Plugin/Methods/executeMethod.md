@@ -23,12 +23,13 @@ boolean
 ## Example
 
 ```javascript
-var arrDocuments = [&#123;
-    "Props": &#123;
+var arrDocuments = [{
+    "Props": {
         "Id": 100,
         "Tag": "CC_Tag",
         "Lock": 3
-    &#125;,
+    },
     "Script": "var oParagraph = Api.CreateParagraph();oParagraph.AddText('Hello world!');Api.GetDocument().InsertContent([oParagraph]);"
-&#125;];
+}];
 window.Asc.plugin.executeMethod ("InsertAndReplaceContentControls", [arrDocuments]);
+```

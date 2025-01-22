@@ -13,15 +13,16 @@ Object
 ## Example
 
 ```javascript
-var config = &#123;
+var config = {
     "variations": [
-        &#123;
+        {
             "name": "plugin name",
-            "nameLocale": &#123;
+            "nameLocale": {
                 "fr": "french plugin name",
                 "es": "spanish plugin name"
-            &#125;,
+            },
             ...
-        &#125;
+        }
     ]
-&#125;;
+};
+```

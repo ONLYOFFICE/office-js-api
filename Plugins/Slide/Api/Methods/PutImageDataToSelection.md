@@ -21,16 +21,17 @@ This method doesn't return any data.
 ## Example
 
 ```javascript
-window.saveImage = function () &#123;
+window.saveImage = function () {
     let sImageSrc = imageEditor.toDataURL ();
     let editorDimension = imageEditor.getCanvasSize ();
     let nWidth = editorDimension.width;
     let nHeight = editorDimension.height;
-    let oImageData = &#123;
+    let oImageData = {
         "src": sImageSrc,
         "width": nWidth,
         "height": nHeight
-    &#125;;
+    };
     window.Asc.plugin.executeMethod ("PutImageDataToSelection", [oImageData]);
     window.Asc.plugin.executeCommand ("close", "");
-&#125;;
+};
+```

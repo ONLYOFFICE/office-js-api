@@ -11,11 +11,12 @@ string
 ## Example
 
 ```javascript
-var config = &#123;
+var config = {
     "variations": [
-        &#123;
+        {
             "events": ["onClick"],
             ...
-        &#125;
+        }
     ]
-&#125;;
+};
+```

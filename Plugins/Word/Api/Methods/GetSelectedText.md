@@ -30,28 +30,29 @@ string
 ## Example
 
 ```javascript
-function CorrectText () &#123;
-    switch (window.Asc.plugin.info.editorType) &#123;
+function CorrectText () {
+    switch (window.Asc.plugin.info.editorType) {
         case 'word':
-        case 'slide': &#123;
-            window.Asc.plugin.executeMethod ("GetSelectedText", [&#123;"Numbering": false, "Math": false, "TableCellSeparator": '\n', "ParaSeparator": '\n', "TabSymbol": String.fromCharCode(9)&#125;], function (data) &#123;
+        case 'slide': {
+            window.Asc.plugin.executeMethod ("GetSelectedText", [{"Numbering": false, "Math": false, "TableCellSeparator": '\n', "ParaSeparator": '\n', "TabSymbol": String.fromCharCode(9)}], function (data) {
                 sText = data;
                 ExecTypograf (sText);
-            &#125;);
+            });
             break;
-        &#125;
-        case 'cell': &#123;
-            window.Asc.plugin.executeMethod ("GetSelectedText", [&#123;"Numbering": false, "Math": false, "TableCellSeparator": '\n', "ParaSeparator": '\n', "TabSymbol": String.fromCharCode(9)&#125;], function (data) &#123;
-                if (data == '') &#123;
+        }
+        case 'cell': {
+            window.Asc.plugin.executeMethod ("GetSelectedText", [{"Numbering": false, "Math": false, "TableCellSeparator": '\n', "ParaSeparator": '\n', "TabSymbol": String.fromCharCode(9)}], function (data) {
+                if (data == '') {
                     sText = sText.replace (/\t/g, '\n');
                     ExecTypograf (sText);
-                &#125;
-                else &#123;
+                }
+                else {
                     sText = data;
                     ExecTypograf (sText);
-                &#125;
-            &#125;);
+                }
+            });
             break;
-        &#125;
-    &#125;
-&#125;
+        }
+    }
+}
+```

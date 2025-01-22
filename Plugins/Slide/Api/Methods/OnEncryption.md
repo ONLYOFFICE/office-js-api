@@ -29,10 +29,11 @@ This method doesn't return any data.
 
 ```javascript
 window.Asc.plugin.executeMethod ("OnEncryption", [
-    &#123;
+    {
         "type": "getPasswordByFile",
         "password": "123456",
-        "docinfo": "&#123;docinfo&#125;",
+        "docinfo": "{docinfo}",
         "hash": "sha256"
-    &#125;
+    }
 ]);
+```

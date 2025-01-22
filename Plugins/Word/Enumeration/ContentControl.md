@@ -19,9 +19,10 @@ Object
 ## Example
 
 ```javascript
-var oContentControl = &#123;
+var oContentControl = {
     "Tag": "Document",
     "Id": 0,
     "Lock": 0,
     "InternalId": "1_713"
-&#125;;
+};
+```

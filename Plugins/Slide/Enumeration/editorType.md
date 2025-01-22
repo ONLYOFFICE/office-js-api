@@ -17,11 +17,12 @@ Enumeration
 ## Example
 
 ```javascript
-var config = &#123;
+var config = {
     "variations": [
-        &#123;
+        {
             "EditorsSupport": ["word", "cell", "slide"],
             ...
-        &#125;
+        }
     ]
-&#125;;
+};
+```

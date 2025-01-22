@@ -19,6 +19,7 @@ This method doesn't have any parameters.
 ## Example
 
 ```javascript
-window.Asc.plugin.executeMethod ("GetFontList", null, function (res) &#123;
+window.Asc.plugin.executeMethod ("GetFontList", null, function (res) {
     console.log (res)
-&#125;);
+});
+```
