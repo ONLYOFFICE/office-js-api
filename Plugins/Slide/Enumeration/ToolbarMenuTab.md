@@ -1,0 +1,28 @@
+# ToolbarMenuTab
+
+The toolbar menu tab.
+
+## Properties
+
+| Name | Type | Description |
+| ---- | ---- | ----------- |
+| id | string | The tab ID. |
+| text | string | The tab text. |
+| items | [ToolbarMenuItem[]](../../Enumeration/ToolbarMenuItem.md) | An array containing the toolbar menu items for the current tab. |
+## Type
+
+Object
+
+
+
+## Example
+
+**Example 1:**
+
+```javascript
+var oToolbarMenuTab = {
+    "id": "ChatGPT",
+    "text": "AI Assistant",
+    "items": [oToolbarMenuItem]
+};
+```
