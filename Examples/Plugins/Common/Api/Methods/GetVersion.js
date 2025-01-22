@@ -5,8 +5,8 @@ window.Asc.plugin.executeMethod ("GetVersion", [], function (version) {
         });
     }
     else {
-        window.Asc.plugin.executeMethod ("GetSelectionType", [], function (sType) {
-            switch (sType) {
+        window.Asc.plugin.executeMethod ("GetSelectionType", [], function (type) {
+            switch (type) {
                 case "none":
                 case "drawing":
                     window.Asc.plugin.executeMethod("PasteText", [ifr.contentDocument.getElementById ("google_translate_element").outerText], function (result) {

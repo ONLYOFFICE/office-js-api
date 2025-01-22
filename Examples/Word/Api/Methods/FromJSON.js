@@ -1,8 +1,7 @@
 // This example transforms paragraph to JSON then restore it from JSON.
-var oDocument = Api.GetDocument();
-var oParagraph = Api.CreateParagraph();
-oParagraph.AddText("This is a new paragraph");
-var json = oParagraph.ToJSON(false, true);
-var oParagraphFromJSON = Api.FromJSON(json);
-oParagraphFromJSON.SetBold(true);
-oDocument.AddElement(0, oParagraphFromJSON);
+let paragraph = Api.CreateParagraph();
+paragraph.AddText("This is a new paragraph");
+let json = paragraph.ToJSON(false, true);
+let paragraphFromJSON = Api.FromJSON(json);
+paragraphFromJSON.SetBold(true);
+Api.GetDocument().AddElement(0, paragraphFromJSON);

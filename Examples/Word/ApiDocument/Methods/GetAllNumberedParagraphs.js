@@ -1,18 +1,18 @@
 // This example shows how to get all numbered paragraphs from the current document.
-var oDocument = Api.GetDocument();
-var oNumbering = oDocument.CreateNumbering("numbered");
-for (let nLvl = 0; nLvl < 8; ++nLvl) {
-	var oNumLvl = oNumbering.GetLevel(nLvl);
-	var sFormatString = "";
-	for (let nTempLvl = 0; nTempLvl <= nLvl; ++nTempLvl) sFormatString += "%" + nTempLvl + ".";
-	oNumLvl.SetCustomType("lowerRoman", sFormatString, "left");
-	oNumLvl.SetStart(nLvl + 1);
-	oNumLvl.SetSuff("space");
-	var oParagraph = Api.CreateParagraph();
-	oParagraph.AddText("Custom numbered lvl " + (nLvl + 1));
-	oParagraph.SetNumbering(oNumLvl);
-	oParagraph.SetContextualSpacing(true);
-	oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let numbering = doc.CreateNumbering("numbered");
+for (let lvl = 0; lvl < 8; ++lvl) {
+	let numLvl = numbering.GetLevel(lvl);
+	let formatString = "";
+	for (let tempLvl = 0; tempLvl <= lvl; ++tempLvl) formatString += "%" + tempLvl + ".";
+	numLvl.SetCustomType("lowerRoman", formatString, "left");
+	numLvl.SetStart(lvl + 1);
+	numLvl.SetSuff("space");
+	let paragraph = Api.CreateParagraph();
+	paragraph.AddText("Custom numbered lvl " + (lvl + 1));
+	paragraph.SetNumbering(numLvl);
+	paragraph.SetContextualSpacing(true);
+	doc.Push(paragraph);
 }
-var aNumberedParagraphs = oDocument.GetAllNumberedParagraphs();
-aNumberedParagraphs[0].SetBold(true);
+let numberedParagraphs = doc.GetAllNumberedParagraphs();
+numberedParagraphs[0].SetBold(true);

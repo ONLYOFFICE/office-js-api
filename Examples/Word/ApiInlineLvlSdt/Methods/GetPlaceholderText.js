@@ -1,10 +1,10 @@
 // This example shows how to get the placeholder text from the content control.
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oInlineLvlSdt = Api.CreateInlineLvlSdt();
-oInlineLvlSdt.SetPlaceholderText("Enter your text here");
-oParagraph.AddInlineLvlSdt(oInlineLvlSdt);
-var sText = oInlineLvlSdt.GetPlaceholderText();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Placeholder text: " + sText);
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let inlineLvlSdt = Api.CreateInlineLvlSdt();
+inlineLvlSdt.SetPlaceholderText("Enter your text here");
+paragraph.AddInlineLvlSdt(inlineLvlSdt);
+let placeholderText = inlineLvlSdt.GetPlaceholderText();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Placeholder text: " + placeholderText);
+doc.Push(paragraph);

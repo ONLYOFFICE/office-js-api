@@ -1,2 +1,2 @@
-var sDocumentEditingRestrictions = "readOnly";
-window.Asc.plugin.executeMethod("SetEditingRestrictions", [sDocumentEditingRestrictions]);
+let documentEditingRestrictions = "readOnly";
+window.Asc.plugin.executeMethod("SetEditingRestrictions", [documentEditingRestrictions]);

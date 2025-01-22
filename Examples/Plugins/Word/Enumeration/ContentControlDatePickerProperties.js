@@ -1,6 +1,6 @@
-var Date = new window.Date();
-var oControlDatePickerPr = {
+let date = new window.Date();
+let controlDatePickerPr = {
     "DateFormat" : "DD\ MMMM\ YYYY",
-    "Date" : Date
+    "Date" : date
 };
-window.Asc.plugin.executeMethod ("AddContentControlDatePicker", [oControlDatePickerPr, {"Id" : 7, "Tag" : "{tag}", "Lock" : 0}]);
+window.Asc.plugin.executeMethod ("AddContentControlDatePicker", [controlDatePickerPr, {"Id" : 7, "Tag" : "{tag}", "Lock" : 0}]);

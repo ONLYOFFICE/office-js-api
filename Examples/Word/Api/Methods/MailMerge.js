@@ -1,14 +1,15 @@
 // This example shows how to start the mail merge process.
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var arrField = ["Greeting line", "First name", "Last name"];
-for (let i = 0; i < 3; i++) {
-	var oRun = Api.CreateRun();
-	oRun.AddText(arrField[i]);
-	oParagraph.AddElement(oRun);
-	oRun.WrapInMailMergeField();
-	oParagraph.AddText(" ");
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let fields = ["Greeting line", "First name", "Last name"];
+for (let i = 0; i < fields.length; ++i) 
+{
+	let run = Api.CreateRun();
+	run.AddText(fields[i]);
+	paragraph.AddElement(run);
+	run.WrapInMailMergeField();
+	paragraph.AddText(" ");
 }
-oParagraph.AddText("!");
-Api.LoadMailMergeData([arrField, ["Dear", "John", "Smith"], ["Hello", "Lara", "Davis"]]);
+paragraph.AddText("!");
+Api.LoadMailMergeData([fields, ["Dear", "John", "Smith"], ["Hello", "Lara", "Davis"]]);
 Api.MailMerge(1);

@@ -1,4 +1,4 @@
-var arrDocuments = [{
+let documents = [{
     "Props": {
         "Id": 100,
         "Tag": "CC_Tag",
@@ -6,4 +6,4 @@ var arrDocuments = [{
     },
     "Script": "var oParagraph = Api.CreateParagraph();oParagraph.AddText('Hello world!');Api.GetDocument().InsertContent([oParagraph]);"
 }];
-window.Asc.plugin.executeMethod ("InsertAndReplaceContentControls", [arrDocuments]);
+window.Asc.plugin.executeMethod ("InsertAndReplaceContentControls", [documents]);

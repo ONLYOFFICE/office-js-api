@@ -1,2 +1,2 @@
 // This example sets your own customized numbering type.
-oNumLvl.SetCustomType("lowerRoman", sFormatString, "left");
+numLvl.SetCustomType("lowerRoman", format, "left");

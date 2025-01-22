@@ -1,20 +1,20 @@
 // This example removes an element using the position specified.
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oDrawing = Api.CreateShape("rect", 3212465, 1926590, oFill, oStroke);
-oParagraph.AddDrawing(oDrawing);
-var oDocContent = oDrawing.GetDocContent();
-oDocContent.RemoveAllElements();
-oParagraph = oDocContent.GetElement(0);
-oParagraph.AddText("This is paragraph #1.");
-for (let nParaIncrease = 1; nParaIncrease < 5; ++nParaIncrease) {
-	oParagraph = Api.CreateParagraph();
-	oParagraph.AddText("This is paragraph #" + (nParaIncrease + 1) + ".");
-	oDocContent.Push(oParagraph);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+let stroke = Api.CreateStroke(0, Api.CreateNoFill());
+let drawing = Api.CreateShape("rect", 3212465, 1926590, fill, stroke);
+paragraph.AddDrawing(drawing);
+let docContent = drawing.GetDocContent();
+docContent.RemoveAllElements();
+paragraph = docContent.GetElement(0);
+paragraph.AddText("This is paragraph #1.");
+for (let i = 1; i < 5; ++i) {
+	paragraph = Api.CreateParagraph();
+	paragraph.AddText("This is paragraph #" + (i + 1) + ".");
+	docContent.Push(paragraph);
 }
-oDocContent.RemoveElement(2);
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("We removed paragraph #3, check that out above.");
-oDocContent.Push(oParagraph);
+docContent.RemoveElement(2);
+paragraph = Api.CreateParagraph();
+paragraph.AddText("We removed paragraph #3, check that out above.");
+docContent.Push(paragraph);

@@ -1,11 +1,11 @@
 // This example adds an endnote cross-reference to the paragraph.
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0); 
-oParagraph.AddText("This is just a sample text.");
-oDocument.AddEndnote();
-var aEndNotesFirstParagraphs = oDocument.GetEndNotesFirstParagraphs();
-aEndNotesFirstParagraphs[0].AddText("Endnote 1");
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("For more information on previous sentences see endnote on page ");
-oDocument.Push(oParagraph);
-oParagraph.AddEndnoteCrossRef("pageNum", aEndNotesFirstParagraphs[0]);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0); 
+paragraph.AddText("This is just a sample text.");
+doc.AddEndnote();
+let endNotesFirstParagraphs = doc.GetEndNotesFirstParagraphs();
+endNotesFirstParagraphs[0].AddText("Endnote 1");
+paragraph = Api.CreateParagraph();
+paragraph.AddText("For more information on previous sentences see endnote on page ");
+doc.Push(paragraph);
+paragraph.AddEndnoteCrossRef("pageNum", endNotesFirstParagraphs[0]);

@@ -1,8 +1,7 @@
 // This example creates hyperlink and pastes it into the document.
-var oDocument = Api.GetDocument();
-var oHyperlink = Api.CreateHyperlink("https://api.onlyoffice.com/", "ONLYOFFICE Document Builder", "ONLYOFFICE for developers");
-var sType = oHyperlink.GetClassType();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddElement(oHyperlink, 0);
-oParagraph.AddLineBreak();
-oParagraph.AddText("Class type of the created object: " + sType);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let hyperlink = Api.CreateHyperlink("https://api.onlyoffice.com/", "ONLYOFFICE Document Builder", "ONLYOFFICE for developers");
+paragraph.AddElement(hyperlink, 0);
+paragraph.AddLineBreak();
+paragraph.AddText("Class type of the created object: " + hyperlink.GetClassType());

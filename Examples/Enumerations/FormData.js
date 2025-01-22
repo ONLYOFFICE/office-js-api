@@ -1,2 +1,2 @@
 // Report on all review changes that contains two review records for every user.
-var oFormData = {key: "CompanyName", value: "OnlyOffice", type: "text"};
+let formData = {key: "CompanyName", value: "OnlyOffice", type: "text"};
