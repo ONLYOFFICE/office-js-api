@@ -16,21 +16,18 @@ This method doesn't have any parameters.
 
 [InputHelperItem[]](../../Enumeration/InputHelperItem.md)
 
-## Examples
-
-**Example 1:**
+## Example
 
 ```javascript
-function getInputHelperSize () {
+function getInputHelperSize () &#123;
     var _size = window.Asc.plugin.getInputHelper().getScrollSizes();
     var _width = 150;
     var _height = _size.h;
     var _heightMin = window.Asc.plugin.getInputHelper().getItemsHeight(Math.min(5, window.Asc.plugin.getInputHelper().getItems().length));
-    if (_width > 400)
+    if (_width &gt; 400)
         _width = 400;
-    if (_height > _heightMin)
+    if (_height &gt; _heightMin)
         _height = _heightMin;
         _width += 30;
-        return { w: _width, h : _height };
-}
-```
+        return &#123; w: _width, h : _height &#125;;
+&#125;

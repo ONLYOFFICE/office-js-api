@@ -20,15 +20,12 @@ expression.ReplaceTextSmart(arrString, sParaTab, sParaNewLine);
 
 boolean
 
-## Examples
-
-**Example 1:**
+## Example
 
 ```javascript
-window.Asc.plugin.executeMethod ("ReplaceTextSmart", [Asc.scope.arr, String.fromCharCode(9), String.fromCharCode(13)], function (isDone) {
+window.Asc.plugin.executeMethod ("ReplaceTextSmart", [Asc.scope.arr, String.fromCharCode(9), String.fromCharCode(13)], function (isDone) &#123;
     if (!isDone)
-        window.Asc.plugin.callCommand (function () {
+        window.Asc.plugin.callCommand (function () &#123;
             Api.ReplaceTextSmart (Asc.scope.arr);
-        });
-});
-```
+        &#125;);
+&#125;);

@@ -16,38 +16,35 @@ This method doesn't have any parameters.
 
 [Macros](../../Enumeration/Macros.md)
 
-## Examples
-
-**Example 1:**
+## Example
 
 ```javascript
-window.Asc.plugin.executeMethod ("GetMacros", [JSON.stringify(Content)], function(data) {
+window.Asc.plugin.executeMethod ("GetMacros", [JSON.stringify(Content)], function(data) &#123;
 
     try
-    {
+    &#123;
         Content = JSON.parse (data);
 
-        for (var i = 0; i < Content.macrosArray.length; i++)
-        {
+        for (var i = 0; i &lt; Content.macrosArray.length; i++)
+        &#123;
             var value = Content.macrosArray[i].name;
             if (undefined === value)
                 value = "";
 
             value = value.replace (/&/g,'&amp;');
-            value = value.replace (/</g,'&lt;');
-            value = value.replace (/>/g,'&gt;');
+            value = value.replace (/&lt;/g,'&lt;');
+            value = value.replace (/&gt;/g,'&gt;');
             value = value.replace (/'/g,'&apos;');
             value = value.replace (/"/g,'&quot;');
 
             Content.macrosArray[i].name = value;
-        }
-    }
+        &#125;
+    &#125;
     catch (err)
-    {
-        Content = {
+    &#123;
+        Content = &#123;
             macrosArray : [],
             current : -1
-        };
-    }
-});
-```
+        &#125;;
+    &#125;
+&#125;);

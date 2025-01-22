@@ -22,13 +22,10 @@ expression.ConvertDocument(sConvertType, bHtmlHeadings, bBase64img, bDemoteHeadi
 
 string
 
-## Examples
-
-**Example 1:**
+## Example
 
 ```javascript
 var sInfo = "";
-window.Asc.plugin.executeMethod ("ConvertDocument", ["markdown", false, false, true, false], function (sOutput) {
+window.Asc.plugin.executeMethod ("ConvertDocument", ["markdown", false, false, true, false], function (sOutput) &#123;
     document.getElementById ("text-area").value = sInfo + sOutput;
-});
-```
+&#125;);

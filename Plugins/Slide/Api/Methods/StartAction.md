@@ -19,16 +19,13 @@ expression.StartAction(type, description);
 
 This method doesn't return any data.
 
-## Examples
-
-**Example 1:**
+## Example
 
 ```javascript
-window.Asc.plugin.executeMethod ("StartAction", ["Block", "Save to local storage..."], function () {
+window.Asc.plugin.executeMethod ("StartAction", ["Block", "Save to local storage..."], function () &#123;
     setPasswordByFile ("sha256", "123456");
 
-    setTimeout (function () {
+    setTimeout (function () &#123;
         window.Asc.plugin.executeMethod ("EndAction", ["Block", "Save to localstorage..."]);
-    }, 200););
-});
-```
+    &#125;, 200););
+&#125;);

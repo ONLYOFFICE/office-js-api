@@ -25,13 +25,10 @@ Object
 
 ## Example
 
-**Example 1:**
-
 ```javascript
-var oContentControlPr = {
+var oContentControlPr = &#123;
     "Id" : 7,
-    "Tag" : "{tag}",
+    "Tag" : "&#123;tag&#125;",
     "Lock" : 0
-};
+&#125;;
 window.Asc.plugin.executeMethod ("AddContentControl", [1, oContentControlPr]);
-```

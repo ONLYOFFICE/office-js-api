@@ -18,10 +18,7 @@ expression.PasteText(text);
 
 This method doesn't return any data.
 
-## Examples
-
-**Example 1:**
+## Example
 
 ```javascript
 window.Asc.plugin.executeMethod ("PasteText", ["ONLYOFFICE for developers"]);
-```

@@ -18,13 +18,10 @@ Object
 
 ## Example
 
-**Example 1:**
-
 ```javascript
-var oContentControl = {
+var oContentControl = &#123;
     "Tag": "Document",
     "Id": 0,
     "Lock": 0,
     "InternalId": "1_713"
-};
-```
+&#125;;

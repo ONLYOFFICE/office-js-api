@@ -14,11 +14,9 @@ Enumeration
 
 ## Example
 
-**Example 1:**
-
 ```javascript
 var sToolbarMenuItemType = "button";
-var oToolbarMenuItem = {
+var oToolbarMenuItem = &#123;
     "id": "MeaningItem",
     "type": sToolbarMenuItemType,
     "text": "Meaning",
@@ -30,22 +28,21 @@ var oToolbarMenuItem = {
     "separator": true,
     "split": true,
     "items": [
-        {
+        &#123;
             "id": "onMeaningT",
             "text": "Explain text in comment"
-        },
-        {
+        &#125;,
+        &#123;
             "id": "onFixSpelling",
             "text": "Fix spelling & grammar"
-        },
-        {
+        &#125;,
+        &#123;
             "id": "onMakeLonger",
             "text": "Make longer"
-        },
-        {
+        &#125;,
+        &#123;
             "id": "onMakeShorter",
             "text": "Make shorter"
-        }
+        &#125;
     ]
-};
-```
+&#125;;

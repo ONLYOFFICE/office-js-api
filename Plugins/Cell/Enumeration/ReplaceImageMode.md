@@ -16,21 +16,18 @@ Enumeration
 
 ## Example
 
-**Example 1:**
-
 ```javascript
-window.saveImage = function () {
+window.saveImage = function () &#123;
     let sImageSrc = imageEditor.toDataURL();
     let editorDimension = imageEditor.getCanvasSize();
     let nWidth = editorDimension.width;
     let nHeight = editorDimension.height;
-    let oImageData = {
+    let oImageData = &#123;
         "src": sImageSrc,
         "width": nWidth,
         "height": nHeight,
         "replaceMode": "original"
-    };
+    &#125;;
     window.Asc.plugin.executeMethod ("PutImageDataToSelection", [oImageData]);
     window.Asc.plugin.executeCommand("close", "");
-};
-```
+&#125;;

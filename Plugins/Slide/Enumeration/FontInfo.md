@@ -37,10 +37,8 @@ Object
 
 ## Example
 
-**Example 1:**
-
 ```javascript
-var oFontInfo = {
+var oFontInfo = &#123;
     "m_wsFontName": "Open Sans",
     "m_wsFontPath": "OpenSans-Bold.ttf",
     "m_lIndex": 0,
@@ -64,5 +62,4 @@ var oFontInfo = {
     "m_shLineGap": 64,
     "m_shXHeight": 545,
     "m_shCapHeight": 713
-};
-```
+&#125;;

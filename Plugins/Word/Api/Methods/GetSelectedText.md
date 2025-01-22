@@ -27,34 +27,31 @@ expression.GetSelectedText(prop, prop.NewLine, prop.NewLineParagraph, prop.Numbe
 
 string
 
-## Examples
-
-**Example 1:**
+## Example
 
 ```javascript
-function CorrectText () {
-    switch (window.Asc.plugin.info.editorType) {
+function CorrectText () &#123;
+    switch (window.Asc.plugin.info.editorType) &#123;
         case 'word':
-        case 'slide': {
-            window.Asc.plugin.executeMethod ("GetSelectedText", [{"Numbering": false, "Math": false, "TableCellSeparator": '\n', "ParaSeparator": '\n', "TabSymbol": String.fromCharCode(9)}], function (data) {
+        case 'slide': &#123;
+            window.Asc.plugin.executeMethod ("GetSelectedText", [&#123;"Numbering": false, "Math": false, "TableCellSeparator": '\n', "ParaSeparator": '\n', "TabSymbol": String.fromCharCode(9)&#125;], function (data) &#123;
                 sText = data;
                 ExecTypograf (sText);
-            });
+            &#125;);
             break;
-        }
-        case 'cell': {
-            window.Asc.plugin.executeMethod ("GetSelectedText", [{"Numbering": false, "Math": false, "TableCellSeparator": '\n', "ParaSeparator": '\n', "TabSymbol": String.fromCharCode(9)}], function (data) {
-                if (data == '') {
+        &#125;
+        case 'cell': &#123;
+            window.Asc.plugin.executeMethod ("GetSelectedText", [&#123;"Numbering": false, "Math": false, "TableCellSeparator": '\n', "ParaSeparator": '\n', "TabSymbol": String.fromCharCode(9)&#125;], function (data) &#123;
+                if (data == '') &#123;
                     sText = sText.replace (/\t/g, '\n');
                     ExecTypograf (sText);
-                }
-                else {
+                &#125;
+                else &#123;
                     sText = data;
                     ExecTypograf (sText);
-                }
-            });
+                &#125;
+            &#125;);
             break;
-        }
-    }
-}
-```
+        &#125;
+    &#125;
+&#125;

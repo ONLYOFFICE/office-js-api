@@ -18,10 +18,7 @@ expression.ActivateWindow(frameId);
 
 This method doesn't return any data.
 
-## Examples
-
-**Example 1:**
+## Example
 
 ```javascript
-window.Asc.plugin.executeMethod ("ActivateWindow", ["iframe_asc.{BE5CBF95-C0AD-4842-B157-AC40FEDD9841}"]);
-```
+window.Asc.plugin.executeMethod ("ActivateWindow", ["iframe_asc.&#123;BE5CBF95-C0AD-4842-B157-AC40FEDD9841&#125;"]);

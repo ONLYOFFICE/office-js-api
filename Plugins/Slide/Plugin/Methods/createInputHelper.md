@@ -16,17 +16,14 @@ This method doesn't have any parameters.
 
 This method doesn't return any data.
 
-## Examples
-
-**Example 1:**
+## Example
 
 ```javascript
-window.Asc.plugin.init = function(text) {
-    if (!window.isInit) {
+window.Asc.plugin.init = function(text) &#123;
+    if (!window.isInit) &#123;
         window.isInit = true;
         window.Asc.plugin.currentContentControl = null;
         window.Asc.plugin.createInputHelper();
         window.Asc.plugin.getInputHelper().createWindow();
-    }
-};
-```
+    &#125;
+&#125;;

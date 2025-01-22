@@ -20,26 +20,23 @@ Object
 
 ## Example
 
-**Example 1:**
-
 ```javascript
-var aContextMenuItems = function getContextMenuItems() {
-	let settings = {
+var aContextMenuItems = function getContextMenuItems() &#123;
+	let settings = &#123;
 		guid: window.Asc.plugin.guid,
 		items: [
-			{
+			&#123;
 				id : 'onConvert',
 				text : getMessage('Convert to Markdown or HTML')
-			}
+			&#125;
 		]
-	};
+	&#125;;
 	return settings;
-};
+&#125;;
 
-window.Asc.plugin.attachEvent('onContextMenuShow', function(options) {
+window.Asc.plugin.attachEvent('onContextMenuShow', function(options) &#123;
 	if (!options) return;
 
 	if (options.type === 'Selection' || options.type === 'Target')
 		this.executeMethod('AddContextMenuItem', [aContextMenuItems]);
-});
-```
+&#125;);

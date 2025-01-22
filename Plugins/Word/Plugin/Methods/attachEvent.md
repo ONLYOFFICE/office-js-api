@@ -19,14 +19,11 @@ expression.attachEvent(id, action);
 
 This method doesn't return any data.
 
-## Examples
-
-**Example 1:**
+## Example
 
 ```javascript
-window.Asc.plugin.attachEvent("onContextMenuShow", function(options) {
+window.Asc.plugin.attachEvent("onContextMenuShow", function(options) &#123;
     if (!options) return;
     if (options.type === "Selection" || options.type === "Target")
         this.executeMethod("AddContextMenuItem", [getContextMenuItems()]);
-});
-```
+&#125;);

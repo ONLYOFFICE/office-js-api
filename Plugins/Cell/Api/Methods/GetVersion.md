@@ -16,35 +16,32 @@ This method doesn't have any parameters.
 
 string
 
-## Examples
-
-**Example 1:**
+## Example
 
 ```javascript
-window.Asc.plugin.executeMethod ("GetVersion", [], function (version) {
-    if (version === undefined) {
-        window.Asc.plugin.executeMethod ("PasteText", [ifr.contentDocument.getElementById ("google_translate_element").outerText], function (result) {
+window.Asc.plugin.executeMethod ("GetVersion", [], function (version) &#123;
+    if (version === undefined) &#123;
+        window.Asc.plugin.executeMethod ("PasteText", [ifr.contentDocument.getElementById ("google_translate_element").outerText], function (result) &#123;
             paste_done = true;
-        });
-    }
-    else {
-        window.Asc.plugin.executeMethod ("GetSelectionType", [], function (sType) {
-            switch (sType) {
+        &#125;);
+    &#125;
+    else &#123;
+        window.Asc.plugin.executeMethod ("GetSelectionType", [], function (sType) &#123;
+            switch (sType) &#123;
                 case "none":
                 case "drawing":
-                    window.Asc.plugin.executeMethod("PasteText", [ifr.contentDocument.getElementById ("google_translate_element").outerText], function (result) {
+                    window.Asc.plugin.executeMethod("PasteText", [ifr.contentDocument.getElementById ("google_translate_element").outerText], function (result) &#123;
                         paste_done = true;
-                    });
+                    &#125;);
                     break;
                 case "text":
-                    window.Asc.plugin.callCommand (function () {
+                    window.Asc.plugin.callCommand (function () &#123;
                         Api.ReplaceTextSmart (Asc.scope.arr);
-                    }, undefined, undefined, function (result) {
+                    &#125;, undefined, undefined, function (result) &#123;
                         paste_done = true;
-                    });
+                    &#125;);
                     break;
-            }
-        });
-    }
-});
-```
+            &#125;
+        &#125;);
+    &#125;
+&#125;);

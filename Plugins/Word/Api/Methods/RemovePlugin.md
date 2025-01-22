@@ -19,17 +19,14 @@ expression.RemovePlugin(guid, backup);
 
 object
 
-## Examples
-
-**Example 1:**
+## Example
 
 ```javascript
-function removePlugin(backup) {
+function removePlugin(backup) &#123;
     if (removeGuid)
-        window.Asc.plugin.executeMethod('RemovePlugin', [removeGuid, backup], function(result) {
+        window.Asc.plugin.executeMethod('RemovePlugin', [removeGuid, backup], function(result) &#123;
             postMessage(result);
-        });
+        &#125;);
 
     removeGuid = null;
-};
-```
+&#125;;

@@ -25,17 +25,14 @@ expression.OnEncryption(obj, obj.type, obj.password, obj.data, obj.check, obj.do
 
 This method doesn't return any data.
 
-## Examples
-
-**Example 1:**
+## Example
 
 ```javascript
 window.Asc.plugin.executeMethod ("OnEncryption", [
-    {
+    &#123;
         "type": "getPasswordByFile",
         "password": "123456",
-        "docinfo": "{docinfo}",
+        "docinfo": "&#123;docinfo&#125;",
         "hash": "sha256"
-    }
+    &#125;
 ]);
-```

@@ -23,12 +23,9 @@ expression.resizeWindow(width, height, minW, minH, maxW, maxH);
 
 This method doesn't return any data.
 
-## Examples
-
-**Example 1:**
+## Example
 
 ```javascript
-window.Asc.plugin.init = function() {
+window.Asc.plugin.init = function() &#123;
     this.resizeWindow(392, 147, 392, 147, 392, 147);
-};
-```
+&#125;;

@@ -17,9 +17,6 @@ Object
 
 ## Example
 
-**Example 1:**
-
 ```javascript
-var oAddinFieldData = {"FieldId": "1", "Value": "Addin №1", "Content": "This is the first addin field"};
+var oAddinFieldData = &#123;"FieldId": "1", "Value": "Addin №1", "Content": "This is the first addin field"&#125;;
 window.Asc.plugin.executeMethod("AddAddinField", [oAddinFieldData]);
-```

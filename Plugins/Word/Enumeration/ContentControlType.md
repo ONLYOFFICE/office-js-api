@@ -16,9 +16,6 @@ Enumeration
 
 ## Example
 
-**Example 1:**
-
 ```javascript
 var nContentControlType = 1;
-window.Asc.plugin.executeMethod ("AddContentControl", [nContentControlType, {"Id" : 7, "Tag" : "{tag}", "Lock" : 0}]);
-```
+window.Asc.plugin.executeMethod ("AddContentControl", [nContentControlType, &#123;"Id" : 7, "Tag" : "&#123;tag&#125;", "Lock" : 0&#125;]);

@@ -18,12 +18,9 @@ expression.UpdatePlugin(config);
 
 object
 
-## Examples
-
-**Example 1:**
+## Example
 
 ```javascript
-window.Asc.plugin.executeMethod ("UpdatePlugin", [config], function (result) {
+window.Asc.plugin.executeMethod ("UpdatePlugin", [config], function (result) &#123;
     postMessage (JSON.stringify (result));
-});
-```
+&#125;);

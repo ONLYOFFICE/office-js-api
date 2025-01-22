@@ -20,18 +20,15 @@ expression.executeMethod(name, params, callback);
 
 boolean
 
-## Examples
-
-**Example 1:**
+## Example
 
 ```javascript
-var arrDocuments = [{
-    "Props": {
+var arrDocuments = [&#123;
+    "Props": &#123;
         "Id": 100,
         "Tag": "CC_Tag",
         "Lock": 3
-    },
+    &#125;,
     "Script": "var oParagraph = Api.CreateParagraph();oParagraph.AddText('Hello world!');Api.GetDocument().InsertContent([oParagraph]);"
-}];
+&#125;];
 window.Asc.plugin.executeMethod ("InsertAndReplaceContentControls", [arrDocuments]);
-```

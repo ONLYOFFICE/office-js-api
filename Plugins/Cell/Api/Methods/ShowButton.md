@@ -20,10 +20,7 @@ expression.ShowButton(id, bShow, align);
 
 This method doesn't return any data.
 
-## Examples
-
-**Example 1:**
+## Example
 
 ```javascript
 window.Asc.plugin.executeMethod ("ShowButton", ["back", false, "right"]);
-```

@@ -16,24 +16,21 @@ Object
 
 ## Example
 
-**Example 1:**
-
 ```javascript
-var comment = {
+var comment = &#123;
     "Id": "1_631",
-    "Data": {
+    "Data": &#123;
         "UserName": "John Smith",
         "Text": "comment",
         "Time": "1662737941471",
         "Solved": true,
         "Replies": [
-            {
+            &#123;
                 "UserName": "Mark Potato",
                 "Text": "reply 1",
                 "Time": "1662740895892",
                 "Solved": false
-            }
+            &#125;
         ]
-    }
-}
-```
+    &#125;
+&#125;

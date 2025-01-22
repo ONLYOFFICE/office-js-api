@@ -19,22 +19,19 @@ Object
 
 ## Example
 
-**Example 1:**
-
 ```javascript
-var oCommentData = {
+var oCommentData = &#123;
     "UserName": "John Smith",
     "Text": "comment",
     "Time": "1662737941471",
     "Solved": true,
     "Replies": [
-        {
+        &#123;
             "UserName": "Mark Potato",
             "Text": "reply 1",
             "Time": "1662740895892",
             "Solved": false
-        }
+        &#125;
     ]
-};
+&#125;;
 window.Asc.plugin.executeMethod ("AddComment", [oCommentData]);
-```

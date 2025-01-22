@@ -23,22 +23,19 @@ expression.OnDropEvent(obj, obj.type, obj.x, obj.y, obj.html, obj.text);
 
 This method doesn't return any data.
 
-## Examples
-
-**Example 1:**
+## Example
 
 ```javascript
-window.Asc.plugin.executeMethod ("OnDropEvent", [{
+window.Asc.plugin.executeMethod ("OnDropEvent", [&#123;
   "type": "onbeforedrop",
   "x" : pos.x,
   "y" : pos.y
-}]);
+&#125;]);
 
-window.Asc.plugin.executeMethod ("OnDropEvent", [{
+window.Asc.plugin.executeMethod ("OnDropEvent", [&#123;
   "type": "ondrop",
   "x" : pos.x,
   "y" : pos.y,
   "text" : "test text",
-  "html" : "<span>test html</span>"
-}]);
-```
+  "html" : "&lt;span&gt;test html&lt;/span&gt;"
+&#125;]);

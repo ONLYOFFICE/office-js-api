@@ -20,12 +20,9 @@ expression.callModule(url, callback, isClose);
 
 This method doesn't return any data.
 
-## Examples
-
-**Example 1:**
+## Example
 
 ```javascript
-window.Asc.plugin.callModule("./templates/" + _templates[_index][0] + "/script.txt", function(content) {
+window.Asc.plugin.callModule("./templates/" + _templates[_index][0] + "/script.txt", function(content) &#123;
     _templates_code[_index] = content;
-});
-```
+&#125;);

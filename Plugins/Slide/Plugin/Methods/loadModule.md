@@ -19,17 +19,14 @@ expression.loadModule(url, callback);
 
 This method doesn't return any data.
 
-## Examples
-
-**Example 1:**
+## Example
 
 ```javascript
-window.Asc.plugin.loadModule("./vendor/highlight/styles/" + e.params.data.id , function(content) {
+window.Asc.plugin.loadModule("./vendor/highlight/styles/" + e.params.data.id , function(content) &#123;
     var style_value = content;
-    if (isDE || isFF) {
+    if (isDE || isFF) &#123;
         $("#jq_color").spectrum("set", (hexc($(container).css('backgroundColor'))));
-    } else {
+    &#125; else &#123;
         background_color.value = hexc($(container).css('backgroundColor'));
-    }
-});
-```
+    &#125;
+&#125;);

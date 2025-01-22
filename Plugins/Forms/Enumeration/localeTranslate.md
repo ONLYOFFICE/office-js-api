@@ -12,19 +12,16 @@ Object
 
 ## Example
 
-**Example 1:**
-
 ```javascript
-var config = {
+var config = &#123;
     "variations": [
-        {
+        &#123;
             "name": "plugin name",
-            "nameLocale": {
+            "nameLocale": &#123;
                 "fr": "french plugin name",
                 "es": "spanish plugin name"
-            },
+            &#125;,
             ...
-        }
+        &#125;
     ]
-};
-```
+&#125;;

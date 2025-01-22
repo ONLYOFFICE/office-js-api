@@ -19,15 +19,12 @@ Enumeration
 
 ## Example
 
-**Example 1:**
-
 ```javascript
-var config = {
+var config = &#123;
     "variations": [
-        {
+        &#123;
             "initDataType": "ole",
             ...
-        }
+        &#125;
     ]
-};
-```
+&#125;;

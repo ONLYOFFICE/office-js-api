@@ -18,12 +18,9 @@ expression.SetMacros(data);
 
 This method doesn't return any data.
 
-## Examples
-
-**Example 1:**
+## Example
 
 ```javascript
-window.Asc.plugin.executeMethod ("SetMacros", [JSON.stringify (Content)], function () {
+window.Asc.plugin.executeMethod ("SetMacros", [JSON.stringify (Content)], function () &#123;
     window.Asc.plugin.executeCommand ("close", "");
-});
-```
+&#125;);

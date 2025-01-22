@@ -19,12 +19,9 @@ expression.attachContextMenuClickEvent(id, action);
 
 This method doesn't return any data.
 
-## Examples
-
-**Example 1:**
+## Example
 
 ```javascript
-window.Asc.plugin.attachContextMenuClickEvent("onClickItem1Sub1", function(){
+window.Asc.plugin.attachContextMenuClickEvent("onClickItem1Sub1", function()&#123;
     window.Asc.plugin.executeMethod("InputText", ["clicked: onClickItem1Sub1"]);
-});
-```
+&#125;);

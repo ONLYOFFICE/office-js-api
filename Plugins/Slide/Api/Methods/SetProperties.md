@@ -23,15 +23,13 @@ expression.SetProperties(obj, obj.copyoutenabled, obj.hideContentControlTrack, o
 
 This method doesn't return any data.
 
-## Examples
-
-**Example 1:**
+## Example
 
 ```javascript
-var initSettings = {
+var initSettings = &#123;
     "copyoutenabled" : false,
     "hideContentControlTrack" : false,
-    "watermark_on_draw" : JSON.stringify ( {
+    "watermark_on_draw" : JSON.stringify ( &#123;
         "transparent" : 0.3,
         "type" : "rect",
         "width" : 100,
@@ -43,13 +41,13 @@ var initSettings = {
         "stroke" : [0, 0, 255],
         "align" : 1,
 
-        "paragraphs" : [ {
+        "paragraphs" : [ &#123;
             "align" : 2,
             "fill" : [255, 0, 0],
             "linespacing" : 1,
 
             "runs" : [
-                        {
+                        &#123;
                             "text" : "Do not steal, %user_name%!",
                             "fill" : [0, 0, 0],
                             "font-family" : "Arial",
@@ -58,35 +56,34 @@ var initSettings = {
                             "italic" : false,
                             "strikeout" : false,
                             "underline" : false
-                        },
-                        {
-                            "text" : "<%br%>"
-                        }
+                        &#125;,
+                        &#123;
+                            "text" : "&lt;%br%&gt;"
+                        &#125;
                     ]
-            }
+            &#125;
         ]
-    }),
+    &#125;),
     "disableAutostartMacros" : true,
-    "fillForms" : JSON.stringify ( {
-        "tags" : {
-            "111" : {
+    "fillForms" : JSON.stringify ( &#123;
+        "tags" : &#123;
+            "111" : &#123;
                 "text" : "Text in form with tag 111",
                 "checkBox" : "true",
                 "picture" : "https://upload.wikimedia.org/wikipedia/commons/9/91/ONLYOFFICE_logo.png",
                 "comboBox" : "item1"
-            },
-            "222" : {
+            &#125;,
+            "222" : &#123;
                 "text" : "Text in form with tag 222",
                 "checkBox" : "false",
                 "comboBox" : "item2"
-            },
-            "333" : {
+            &#125;,
+            "333" : &#123;
                 "text" : "OnlyOffice"
-            }
-        }
-    })
-};
-window.Asc.plugin.executeMethod ("SetProperties", [initSettings], function () {
+            &#125;
+        &#125;
+    &#125;)
+&#125;;
+window.Asc.plugin.executeMethod ("SetProperties", [initSettings], function () &#123;
     window.Asc.plugin.executeCommand ("close", "");
-});
-```
+&#125;);

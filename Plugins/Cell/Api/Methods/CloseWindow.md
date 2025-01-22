@@ -18,21 +18,18 @@ expression.CloseWindow(frameId);
 
 This method doesn't return any data.
 
-## Examples
-
-**Example 1:**
+## Example
 
 ```javascript
-window.Asc.plugin.button = function(id, windowId) {
+window.Asc.plugin.button = function(id, windowId) &#123;
 	if (!modalWindow)
 		return;
 
-	if (windowId) {
-		switch (id) {
+	if (windowId) &#123;
+		switch (id) &#123;
 			case -1:
 			default:
 				window.Asc.plugin.executeMethod('CloseWindow', [windowId]);
-		}
-	}
-};
-```
+		&#125;
+	&#125;
+&#125;;

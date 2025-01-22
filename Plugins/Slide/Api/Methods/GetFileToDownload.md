@@ -18,12 +18,9 @@ expression.GetFileToDownload(format);
 
 string
 
-## Examples
-
-**Example 1:**
+## Example
 
 ```javascript
-window.Asc.plugin.executeMethod ("GetFileToDownload", ["pdf"], function (res) {
+window.Asc.plugin.executeMethod ("GetFileToDownload", ["pdf"], function (res) &#123;
     console.log (res)
-});
-```
+&#125;);

@@ -21,17 +21,14 @@ expression.callCommand(func, isClose, isCalc, callback);
 
 This method doesn't return any data.
 
-## Examples
-
-**Example 1:**
+## Example
 
 ```javascript
-window.Asc.plugin.init = function () {
-    this.callCommand(function() {
+window.Asc.plugin.init = function () &#123;
+    this.callCommand(function() &#123;
         var oDocument = Api.GetDocument();
         var oParagraph = Api.CreateParagraph();
         oParagraph.AddText("Hello world!");
         oDocument.InsertContent([oParagraph]);
-    }, true);
-};
-```
+    &#125;, true);
+&#125;;

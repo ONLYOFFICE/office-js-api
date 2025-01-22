@@ -16,12 +16,9 @@ This method doesn't have any parameters.
 
 [PluginData[]](../../Enumeration/PluginData.md)
 
-## Examples
-
-**Example 1:**
+## Example
 
 ```javascript
-window.Asc.plugin.executeMethod ("GetInstalledPlugins", null, function (result) {
-    postMessage (JSON.stringify ({type: 'InstalledPlugins', data: result }));
-});
-```
+window.Asc.plugin.executeMethod ("GetInstalledPlugins", null, function (result) &#123;
+    postMessage (JSON.stringify (&#123;type: 'InstalledPlugins', data: result &#125;));
+&#125;);

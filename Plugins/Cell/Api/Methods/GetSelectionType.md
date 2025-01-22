@@ -16,26 +16,23 @@ This method doesn't have any parameters.
 
 [SelectionType](../../Enumeration/SelectionType.md)
 
-## Examples
-
-**Example 1:**
+## Example
 
 ```javascript
-window.Asc.plugin.executeMethod ("GetSelectionType", [], function(sType) {
-    switch (sType) {
+window.Asc.plugin.executeMethod ("GetSelectionType", [], function(sType) &#123;
+    switch (sType) &#123;
         case "none":
         case "drawing":
-            window.Asc.plugin.executeMethod ("PasteText", [$("#txt_shower")[0].innerText], function (result) {
+            window.Asc.plugin.executeMethod ("PasteText", [$("#txt_shower")[0].innerText], function (result) &#123;
                 paste_done = true;
-            });
+            &#125;);
             break;
         case "text":
-            window.Asc.plugin.callCommand (function() {
+            window.Asc.plugin.callCommand (function() &#123;
                 Api.ReplaceTextSmart (Asc.scope.arr);
-            }, undefined, undefined, function(result) {
+            &#125;, undefined, undefined, function(result) &#123;
                 paste_done = true;
-            });
+            &#125;);
             break;
-    }
-});
-```
+    &#125;
+&#125;);

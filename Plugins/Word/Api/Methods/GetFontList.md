@@ -16,12 +16,9 @@ This method doesn't have any parameters.
 
 [FontInfo[]](../../Enumeration/FontInfo.md)
 
-## Examples
-
-**Example 1:**
+## Example
 
 ```javascript
-window.Asc.plugin.executeMethod ("GetFontList", null, function (res) {
+window.Asc.plugin.executeMethod ("GetFontList", null, function (res) &#123;
     console.log (res)
-});
-```
+&#125;);
