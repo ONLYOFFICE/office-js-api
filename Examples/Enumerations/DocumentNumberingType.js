@@ -1,2 +1,2 @@
 // This example creates a "bullet" numbering.
-let numbering = document.CreateNumbering("bullet");
+let numbering = doc.CreateNumbering("bullet");
