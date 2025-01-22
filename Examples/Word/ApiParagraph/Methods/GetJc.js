@@ -5,7 +5,7 @@ paragraph.AddText("This is a paragraph with the text in it aligned by the center
 paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
 paragraph.AddText("These sentences are used to add lines for demonstrative purposes.");
 paragraph.SetJc("center");
-let jc = paragraph.GetJc();
+let paraJc = paragraph.GetJc();
 paragraph = Api.CreateParagraph();
-paragraph.AddText("Justification: " + jc);
+paragraph.AddText("Justification: " + paraJc);
 doc.Push(paragraph);

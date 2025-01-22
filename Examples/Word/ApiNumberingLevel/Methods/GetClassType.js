@@ -9,6 +9,5 @@ for (let lvl = 0; lvl < 8; ++lvl) {
 	paragraph.SetContextualSpacing(true);
 	doc.Push(paragraph);
 }
-let classType = numLvl.GetClassType();
-paragraph = doc.GetElement(0);
-paragraph.AddText("Class Type = " + classType);
+let paragraph = doc.GetElement(0);
+paragraph.AddText("Class Type = " + numbering.GetLevel(0).GetClassType());
