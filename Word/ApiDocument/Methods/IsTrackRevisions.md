@@ -21,9 +21,9 @@ boolean
 This example checks if change tracking mode is enabled or not.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oDocument.SetTrackRevisions(true);
-var bTrackRevisions = oDocument.IsTrackRevisions();
-oParagraph.AddText("Change tracking is enabled: " + bTrackRevisions);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+doc.SetTrackRevisions(true);
+let trackRevisions = doc.IsTrackRevisions();
+paragraph.AddText("Change tracking is enabled: " + trackRevisions);
 ```

@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Array.\<[ApiProtectedRange](../../ApiProtectedRange/ApiProtectedRange.md)>, null
+[ApiProtectedRange[]](../../ApiProtectedRange/ApiProtectedRange.md) | null
 
 ## Example
 

@@ -23,10 +23,10 @@ boolean
 This example sets the end position of a given range object.
 
 ```javascript
-let oDocument = Api.GetDocument();
-let oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("ONLYOFFICE Document Builder");
-let oRange = oParagraph.GetRange();
-oRange.SetEndPos(12);
-oRange.SetBold(true);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("ONLYOFFICE Document Builder");
+let range = paragraph.GetRange();
+range.SetEndPos(12);
+range.SetBold(true);
 ```

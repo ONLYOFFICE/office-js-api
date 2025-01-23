@@ -12,7 +12,7 @@ expression.COLUMNS(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; Array.&lt;number&gt; |  | A range or array of cells for which the number of columns will be returned. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number[] |  | A range or array of cells for which the number of columns will be returned. |
 
 ## Returns
 

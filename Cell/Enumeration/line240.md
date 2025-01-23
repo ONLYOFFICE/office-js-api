@@ -13,5 +13,5 @@ number
 This example sets The paragraph line spacing to 1 line.
 
 ```javascript
-oParaPr.SetSpacingLine(240, "auto");
+paraPr.SetSpacingLine(240, "auto");
 ```

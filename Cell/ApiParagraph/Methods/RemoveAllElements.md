@@ -2,7 +2,7 @@
 
 Removes all the elements from the current paragraph.
 💡 When all the elements are removed from the paragraph, a new empty run is automatically created. If you want to add
-content to this run, use the {@link ApiParagraph#GetElement} method.
+content to this run, use the &#123;@link ApiParagraph#GetElement&#125; method.
 
 ## Syntax
 

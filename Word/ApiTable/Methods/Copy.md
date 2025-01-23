@@ -21,13 +21,13 @@ This method doesn't have any parameters.
 This example creates a copy of the table.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-var oTable = Api.CreateTable(2, 2);
-oTable.SetWidth("percent", 100);
-oTable.SetStyle(oTableStyle);
-oDocument.Push(oTable);
-var oCopyTable = oTable.Copy();
-oDocument.Push(oCopyTable);
+let doc = Api.GetDocument();
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
+let table = Api.CreateTable(2, 2);
+table.SetWidth("percent", 100);
+table.SetStyle(tableStyle);
+doc.Push(table);
+let copyTable = table.Copy();
+doc.Push(copyTable);
 ```

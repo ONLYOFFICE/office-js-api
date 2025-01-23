@@ -14,13 +14,12 @@ Object
 | Lvl | number | Level which will be applied to the specified style in the table of contents. |
 
 
-
 ## Example
 
 This example adds a table of contents which is generated from the specified styles to the document.
 
 ```javascript
-var aTocStyleLvl = [{Name: "Heading 1", Lvl: 2}, {Name: "Heading 2", Lvl: 3}];
-var oTocPr = {"ShowPageNums": true, "RightAlgn": true, "LeaderType": "dot", "FormatAsLinks": true, "BuildFrom": {"StylesLvls": aTocStyleLvl}, "TocStyle": "standard"};
-oDocument.AddTableOfContents(oTocPr);
+let tocStyleLvl = [{Name: "Heading 1", Lvl: 2}, {Name: "Heading 2", Lvl: 3}];
+let tocPr = {"ShowPageNums": true, "RightAlgn": true, "LeaderType": "dot", "FormatAsLinks": true, "BuildFrom": {"StylesLvls": tocStyleLvl}, "TocStyle": "standard"};
+doc.AddTableOfContents(tocPr);
 ```

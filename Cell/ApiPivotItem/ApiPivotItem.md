@@ -11,7 +11,6 @@ Represents the ApiPivotItem class.
 | Value | string | Returns a name of the specified item in the pivot table field. |
 | Parent | string | Returns a parent of the pivot item. |
 | Field | string | Returns a field of the pivot item. |
-
 ## Methods
 
 - [GetName](./Methods/GetName.md)

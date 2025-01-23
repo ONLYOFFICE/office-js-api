@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-ApiColor, 'No Fill'
+[ApiColor](../../ApiColor/ApiColor.md) | 'No Fill'
 
 ## Example
 

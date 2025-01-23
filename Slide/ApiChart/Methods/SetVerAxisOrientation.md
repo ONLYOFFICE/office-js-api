@@ -12,7 +12,7 @@ expression.SetVerAxisOrientation(bIsMinMax);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| bIsMinMax | Required | boolean |  | The <code>true</code> value will set the normal data direction for the vertical axis (from minimum to maximum). |
+| bIsMinMax | Required | boolean |  | The &lt;code&gt;true&lt;/code&gt; value will set the normal data direction for the vertical axis (from minimum to maximum). |
 
 ## Returns
 

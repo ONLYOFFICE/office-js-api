@@ -4,7 +4,7 @@ Creates an image with the parameters specified.
 
 ## Syntax
 
-expression.CreateImage(sImageSrc, nWidth, nHeight);
+expression.CreateImage(imageSrc, width, height);
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -12,9 +12,9 @@ expression.CreateImage(sImageSrc, nWidth, nHeight);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sImageSrc | Required | string |  | The image source where the image to be inserted should be taken from (currently only internet URL or Base64 encoded images are supported). |
-| nWidth | Required | [EMU](../../Enumeration/EMU.md) |  | The image width in English measure units. |
-| nHeight | Required | [EMU](../../Enumeration/EMU.md) |  | The image height in English measure units. |
+| imageSrc | Required | string |  | The image source where the image to be inserted should be taken from (currently only internet URL or Base64 encoded images are supported). |
+| width | Required | [EMU](../../Enumeration/EMU.md) |  | The image width in English measure units. |
+| height | Required | [EMU](../../Enumeration/EMU.md) |  | The image height in English measure units. |
 
 ## Returns
 
@@ -25,8 +25,8 @@ expression.CreateImage(sImageSrc, nWidth, nHeight);
 This example creastes an image and pastes it into the document.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oDrawing = Api.CreateImage("https://api.onlyoffice.com/content/img/docbuilder/examples/coordinate_aspects.png", 60 * 36000, 35 * 36000);
-oParagraph.AddDrawing(oDrawing);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let image = Api.CreateImage("https://static.onlyoffice.com/assets/docs/samples/img/onlyoffice_logo.png", 60 * 36000, 35 * 36000);
+paragraph.AddDrawing(image);
 ```

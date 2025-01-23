@@ -12,7 +12,7 @@ expression.SetTimeUTC(nTimeStamp);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| nTimeStamp | Required | Number &#124; String |  | The timestamp of the comment reply creation in UTC format. |
+| nTimeStamp | Required | Number | String |  | The timestamp of the comment reply creation in UTC format. |
 
 ## Returns
 

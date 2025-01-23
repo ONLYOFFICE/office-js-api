@@ -27,5 +27,5 @@ Enumeration
 This example adds a cross-reference to the page containing a numbered paragraph.
 
 ```javascript
-oParagraph.AddNumberedCrossRef("pageNum", oNumberedParagraph, true, true);
+paragraph.AddNumberedCrossRef("pageNum", numberedParagraph, true, true);
 ```

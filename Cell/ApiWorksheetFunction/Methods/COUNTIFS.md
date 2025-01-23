@@ -12,10 +12,10 @@ expression.COUNTIFS(arg1, arg2, arg3, arg4);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) |  | The first range of cells to count nonblank cells. |
-| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number &#124; string |  | The first condition in the form of a number, expression, or text that defines which cells will be counted. |
-| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) |  | Up to 127 additional ranges of cells to count nonblank cells. This argument is optional. |
-| arg4 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number &#124; string |  | Up to 127 additional conditions in the form of a number, expression, or text that define which cells will be counted. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) |  | The first range of cells to count nonblank cells. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number | string |  | The first condition in the form of a number, expression, or text that defines which cells will be counted. |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) |  | Up to 127 additional ranges of cells to count nonblank cells. This argument is optional. |
+| arg4 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number | string |  | Up to 127 additional conditions in the form of a number, expression, or text that define which cells will be counted. |
 
 ## Returns
 

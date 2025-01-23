@@ -4,7 +4,7 @@ Creates a stroke adding shadows to the element.
 
 ## Syntax
 
-expression.CreateStroke(nWidth, oFill);
+expression.CreateStroke(width, fill);
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -12,8 +12,8 @@ expression.CreateStroke(nWidth, oFill);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| nWidth | Required | [EMU](../../Enumeration/EMU.md) |  | The width of the shadow measured in English measure units. |
-| oFill | Required | [ApiFill](../../ApiFill/ApiFill.md) |  | The fill type used to create the shadow. |
+| width | Required | [EMU](../../Enumeration/EMU.md) |  | The width of the shadow measured in English measure units. |
+| fill | Required | [ApiFill](../../ApiFill/ApiFill.md) |  | The fill type used to create the shadow. |
 
 ## Returns
 

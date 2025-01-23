@@ -14,26 +14,25 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Array.\<[ApiBlockLvlSdt](../../ApiBlockLvlSdt/ApiBlockLvlSdt.md)>, Array.\<[ApiInlineLvlSdt](../../ApiInlineLvlSdt/ApiInlineLvlSdt.md)>
+[ApiBlockLvlSdt[]](../../ApiBlockLvlSdt/ApiBlockLvlSdt.md) | [ApiInlineLvlSdt[]](../../ApiInlineLvlSdt/ApiInlineLvlSdt.md)
 
 ## Example
 
 This example shows how to get a collection of content control objects in the current content control.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oBlockLvlSdt = Api.CreateBlockLvlSdt();
-var oBlockLvlSdt1 = Api.CreateBlockLvlSdt();
-oBlockLvlSdt1.GetContent().GetElement(0).AddText("This is the first block text content control.");
-var oBlockLvlSdt2 = Api.CreateBlockLvlSdt();
-oBlockLvlSdt2.GetContent().GetElement(0).AddText("This is the second block text content control.");
-oBlockLvlSdt.AddElement(oBlockLvlSdt1, 0);
-oBlockLvlSdt.AddElement(oBlockLvlSdt2, 1);
-oDocument.AddElement(0, oBlockLvlSdt);
-var aContentControls = oBlockLvlSdt.GetAllContentControls();
-aContentControls[0].GetContent().GetElement(0).SetBold(true);
-var sClassType = aContentControls[0].GetClassType();
-var oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Class type: " + sClassType);
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let blockLvlSdt = Api.CreateBlockLvlSdt();
+let innerSdt1 = Api.CreateBlockLvlSdt();
+innerSdt1.GetContent().GetElement(0).AddText("This is the first block text content control.");
+let innerSdt2 = Api.CreateBlockLvlSdt();
+innerSdt2.GetContent().GetElement(0).AddText("This is the second block text content control.");
+blockLvlSdt.AddElement(innerSdt1, 0);
+blockLvlSdt.AddElement(innerSdt2, 1);
+doc.AddElement(0, blockLvlSdt);
+let contentControls = blockLvlSdt.GetAllContentControls();
+contentControls[0].GetContent().GetElement(0).SetBold(true);
+let paragraph = Api.CreateParagraph();
+paragraph.AddText("Class type: " + contentControls[0].GetClassType());
+doc.Push(paragraph);
 ```

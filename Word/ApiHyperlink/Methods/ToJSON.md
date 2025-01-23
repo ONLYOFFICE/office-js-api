@@ -23,11 +23,11 @@ JSON
 This example converts the ApiHyperlink object into the JSON object.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oHyperlink = Api.CreateHyperlink("https://api.onlyoffice.com/", "ONLYOFFICE Document Builder", "ONLYOFFICE for developers");
-var json = oHyperlink.ToJSON(true);
-var oHyperlinkFromJSON = Api.FromJSON(json);
-oHyperlinkFromJSON.SetDefaultStyle();
-oParagraph.AddElement(oHyperlinkFromJSON);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let hyperlink = Api.CreateHyperlink("https://api.onlyoffice.com/", "ONLYOFFICE Document Builder", "ONLYOFFICE for developers");
+let json = hyperlink.ToJSON(true);
+let hyperlinkFromJSON = Api.FromJSON(json);
+hyperlinkFromJSON.SetDefaultStyle();
+paragraph.AddElement(hyperlinkFromJSON);
 ```

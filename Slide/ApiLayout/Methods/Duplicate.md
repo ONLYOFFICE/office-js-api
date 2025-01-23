@@ -16,7 +16,7 @@ expression.Duplicate(nPos);
 
 ## Returns
 
-ApiLayout, null
+[ApiLayout](../../ApiLayout/ApiLayout.md) | null
 
 ## Example
 

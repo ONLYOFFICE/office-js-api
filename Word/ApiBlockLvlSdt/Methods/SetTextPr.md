@@ -4,7 +4,7 @@ Applies text settings to the content of the content control.
 
 ## Syntax
 
-expression.SetTextPr(oTextPr);
+expression.SetTextPr(textPr);
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 
@@ -12,7 +12,7 @@ expression.SetTextPr(oTextPr);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| oTextPr | Required | [ApiTextPr](../../ApiTextPr/ApiTextPr.md) |  | The properties that will be set to the content of the content control. |
+| textPr | Required | [ApiTextPr](../../ApiTextPr/ApiTextPr.md) |  | The properties that will be set to the content of the content control. |
 
 ## Returns
 
@@ -23,12 +23,12 @@ This method doesn't return any data.
 This example applies text settings to the content of the content control.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oBlockLvlSdt = Api.CreateBlockLvlSdt();
-oBlockLvlSdt.GetContent().GetElement(0).AddText("This is a block text content control with the font size set to 30 and the font weight set to bold.");
-oDocument.AddElement(0, oBlockLvlSdt);
-var oTextPr = Api.CreateTextPr();
-oTextPr.SetFontSize(30);
-oTextPr.SetBold(true);
-oBlockLvlSdt.SetTextPr(oTextPr);
+let doc = Api.GetDocument();
+let blockLvlSdt = Api.CreateBlockLvlSdt();
+blockLvlSdt.GetContent().GetElement(0).AddText("This is a block text content control with the font size set to 30 and the font weight set to bold.");
+doc.AddElement(0, blockLvlSdt);
+let textPr = Api.CreateTextPr();
+textPr.SetFontSize(30);
+textPr.SetBold(true);
+blockLvlSdt.SetTextPr(textPr);
 ```

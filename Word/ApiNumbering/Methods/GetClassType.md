@@ -21,18 +21,18 @@ This method doesn't have any parameters.
 This example gets a class type and inserts it into the document.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oNumbering = oDocument.CreateNumbering("bullet");
+let doc = Api.GetDocument();
+let numbering = doc.CreateNumbering("bullet");
 for (let nLvl = 0; nLvl < 8; ++nLvl) {
-	var oNumLvl = oNumbering.GetLevel(nLvl);
-	var oParagraph = Api.CreateParagraph();
-	oParagraph.AddText("Default bullet lvl " + (nLvl + 1));
-	oParagraph.SetNumbering(oNumLvl);
-	oParagraph.SetContextualSpacing(true);
-	oDocument.Push(oParagraph);
+	let numLvl = numbering.GetLevel(nLvl);
+	let paragraph = Api.CreateParagraph();
+	paragraph.AddText("Default bullet lvl " + (nLvl + 1));
+	paragraph.SetNumbering(numLvl);
+	paragraph.SetContextualSpacing(true);
+	doc.Push(paragraph);
 }
-var sClassType = oNumbering.GetClassType();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Class Type = " + sClassType);
-oDocument.Push(oParagraph);
+let classType = numbering.GetClassType();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Class Type = " + classType);
+doc.Push(paragraph);
 ```

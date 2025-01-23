@@ -8,7 +8,7 @@ Enumeration
 
 ## Values
 
-- [ApiShape](../../ApiShape/ApiShape.md)
-- [ApiGroup](../../ApiGroup/ApiGroup.md)
-- [ApiImage](../../ApiImage/ApiImage.md)
-- [ApiChart](../../ApiChart/ApiChart.md)
+- [ApiShape](../ApiShape/ApiShape.md)
+- [ApiGroup](../ApiGroup/ApiGroup.md)
+- [ApiImage](../ApiImage/ApiImage.md)
+- [ApiChart](../ApiChart/ApiChart.md)

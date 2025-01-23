@@ -24,12 +24,12 @@ expression.GetFooter(sType, isCreate);
 This example shows how to get the content for the specified footer type.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("This is a page with a footer. ");
-oParagraph.AddText("Scroll down the page to see it.");
-var oSection = oDocument.GetFinalSection();
-var oFooter = oSection.GetFooter("default", true);
-oParagraph = oFooter.GetElement(0);
-oParagraph.AddText("This is a page footer");
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("This is a page with a footer. ");
+paragraph.AddText("Scroll down the page to see it.");
+let section = doc.GetFinalSection();
+let footer = section.GetFooter("default", true);
+paragraph = footer.GetElement(0);
+paragraph.AddText("This is a page footer");
 ```

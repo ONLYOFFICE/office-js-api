@@ -4,7 +4,7 @@ Creates a blip fill to apply to the object using the selected image as the objec
 
 ## Syntax
 
-expression.CreateBlipFill(sImageUrl, sBlipFillType);
+expression.CreateBlipFill(imageUrl, blipFillType);
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -12,8 +12,8 @@ expression.CreateBlipFill(sImageUrl, sBlipFillType);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sImageUrl | Required | string |  | The path to the image used for the blip fill (currently only internet URL or Base64 encoded images are supported). |
-| sBlipFillType | Required | [BlipFillType](../../Enumeration/BlipFillType.md) |  | The type of the fill used for the blip fill (tile or stretch). |
+| imageUrl | Required | string |  | The path to the image used for the blip fill (currently only internet URL or Base64 encoded images are supported). |
+| blipFillType | Required | [BlipFillType](../../Enumeration/BlipFillType.md) |  | The type of the fill used for the blip fill (tile or stretch). |
 
 ## Returns
 

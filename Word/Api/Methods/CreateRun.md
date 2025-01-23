@@ -21,9 +21,9 @@ This method doesn't have any parameters.
 This example creates a run and inserts it into the document.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oRun = Api.CreateRun();
-oRun.AddText("This is a text run");
-oParagraph.AddElement(oRun);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let run = Api.CreateRun();
+run.AddText("This is a text run");
+paragraph.AddElement(run);
 ```

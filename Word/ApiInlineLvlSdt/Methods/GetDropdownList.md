@@ -21,5 +21,5 @@ This method doesn't have any parameters.
 This example checks if the content control is a form.
 
 ```javascript
-// todo_example we don't have ability to create such class in bulder
+// todo_example we don't have ability to create such class in builder
 ```

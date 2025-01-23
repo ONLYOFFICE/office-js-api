@@ -21,19 +21,19 @@ JSON
 This example converts the ApiNumbering object into the JSON object.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oNumbering = oDocument.CreateNumbering("bullet");
-var json = oNumbering.ToJSON();
-var oNumberingFromJSON = Api.FromJSON(json);
-for (var nLvl = 0; nLvl < 2; ++nLvl) {
-	var oNumLvl = oNumberingFromJSON.GetLevel(nLvl);
-	var oParagraph = Api.CreateParagraph();
-	oParagraph.AddText("This is an example of the bulleted paragraph № " + (nLvl + 1));
-	oParagraph.SetNumbering(oNumLvl);
-	oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let numbering = doc.CreateNumbering("bullet");
+let json = numbering.ToJSON();
+let numberingFromJSON = Api.FromJSON(json);
+for (let lvl = 0; lvl < 2; ++lvl) {
+	let numLvl = numberingFromJSON.GetLevel(lvl);
+	let paragraph = Api.CreateParagraph();
+	paragraph.AddText("This is an example of the bulleted paragraph № " + (lvl + 1));
+	paragraph.SetNumbering(numLvl);
+	doc.Push(paragraph);
 }
-var sType = oNumberingFromJSON.GetClassType();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Class type = " + sType);
-oDocument.Push(oParagraph);
+let type = numberingFromJSON.GetClassType();
+let paragraph = Api.CreateParagraph();
+paragraph.AddText("Class type = " + type);
+doc.Push(paragraph);
 ```

@@ -12,11 +12,11 @@ expression.SetSort(key1, sSortOrder1, key2, sSortOrder2, key3, sSortOrder3, sHea
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| key1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; String |  | First sort field. |
+| key1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | String |  | First sort field. |
 | sSortOrder1 | Required | [SortOrder](../../Enumeration/SortOrder.md) |  | The sort order for the values specified in Key1. |
-| key2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; String |  | Second sort field. |
+| key2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | String |  | Second sort field. |
 | sSortOrder2 | Required | [SortOrder](../../Enumeration/SortOrder.md) |  | The sort order for the values specified in Key2. |
-| key3 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; String |  | Third sort field. |
+| key3 | Required | [ApiRange](../../ApiRange/ApiRange.md) | String |  | Third sort field. |
 | sSortOrder3 | Required | [SortOrder](../../Enumeration/SortOrder.md) |  | The sort order for the values specified in Key3. |
 | sHeader | Required | [SortHeader](../../Enumeration/SortHeader.md) |  | Specifies whether the first row contains header information. |
 | sOrientation | Required | [SortOrientation](../../Enumeration/SortOrientation.md) |  | Specifies if the sort should be by row (default) or column. |

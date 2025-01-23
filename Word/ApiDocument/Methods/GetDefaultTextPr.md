@@ -21,11 +21,11 @@ This method doesn't have any parameters.
 This example shows how to get a set of default properties for the text run in the current document.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oTextPr = oDocument.GetDefaultTextPr();
-oTextPr.SetFontSize(30);
-oTextPr.SetLanguage("en-US");
-oTextPr.SetFontFamily("Comic Sans MS");
-oParagraph.AddText("This is just a text.");
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let textPr = doc.GetDefaultTextPr();
+textPr.SetFontSize(30);
+textPr.SetLanguage("en-US");
+textPr.SetFontFamily("Comic Sans MS");
+paragraph.AddText("This is just a text.");
 ```

@@ -14,20 +14,20 @@ This method doesn't have any parameters.
 
 ## Returns
 
-ApiBlockLvlSdt, null
+[ApiBlockLvlSdt](../../ApiBlockLvlSdt/ApiBlockLvlSdt.md) | null
 
 ## Example
 
 This example shows how to get a content control that contains the content control.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oBlockLvlSdt1 = Api.CreateBlockLvlSdt();
-oBlockLvlSdt1.GetContent().GetElement(0).AddText("This is a parent block text content control.");
-oDocument.AddElement(0, oBlockLvlSdt1);
-var oBlockLvlSdt2 = Api.CreateBlockLvlSdt();
-oBlockLvlSdt2.GetContent().GetElement(0).AddText("This is a block text content control added in another content control.");
-oBlockLvlSdt1.AddElement(oBlockLvlSdt2, 0);
-var oParentBlockLvlSdt = oBlockLvlSdt2.GetParentContentControl();
-oParentBlockLvlSdt.SetAlias("№1");
+let doc = Api.GetDocument();
+let blockLvlSdt = Api.CreateBlockLvlSdt();
+blockLvlSdt.GetContent().GetElement(0).AddText("This is a parent block text content control.");
+doc.AddElement(0, blockLvlSdt);
+let innerSdt = Api.CreateBlockLvlSdt();
+innerSdt.GetContent().GetElement(0).AddText("This is a block text content control added in another content control.");
+blockLvlSdt.AddElement(innerSdt, 0);
+innerSdt.GetParentContentControl().SetAlias("Parent content control");
+
 ```

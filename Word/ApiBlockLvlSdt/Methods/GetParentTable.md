@@ -14,24 +14,24 @@ This method doesn't have any parameters.
 
 ## Returns
 
-ApiTable, null
+[ApiTable](../../ApiTable/ApiTable.md) | null
 
 ## Example
 
 This example shows how to get a table that contains the current content control.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-var oTable = Api.CreateTable(3, 3);
-oTable.SetStyle(oTableStyle);
-oDocument.Push(oTable);
-var oBlockLvlSdt = Api.CreateBlockLvlSdt();
-oBlockLvlSdt.GetContent().GetElement(0).AddText("This is a block text content control.");
-var oCell = oTable.GetRow(0).GetCell(0);
-oCell.AddElement(0, oBlockLvlSdt);
-var oParentTable = oBlockLvlSdt.GetParentTable();
-oCell = oParentTable.GetRow(2).GetCell(0);
-oParentTable.RemoveRow(oCell);
+let doc = Api.GetDocument();
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
+let table = Api.CreateTable(3, 3);
+table.SetStyle(tableStyle);
+doc.Push(table);
+let blockLvlSdt = Api.CreateBlockLvlSdt();
+blockLvlSdt.GetContent().GetElement(0).AddText("This is a block text content control.");
+let cell = table.GetRow(0).GetCell(0);
+cell.AddElement(0, blockLvlSdt);
+let parentTable = blockLvlSdt.GetParentTable();
+cell = parentTable.GetRow(2).GetCell(0);
+parentTable.RemoveRow(cell);
 ```

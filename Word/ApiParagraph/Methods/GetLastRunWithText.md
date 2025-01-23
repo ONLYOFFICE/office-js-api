@@ -21,14 +21,14 @@ This method doesn't have any parameters.
 This example shows how to get the last Run with text in the paragraph.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-for (let nRunIncrease = 0; nRunIncrease < 5; ++nRunIncrease) {
-	var oRun = Api.CreateRun();
-	oRun.AddText("This run # " + (nRunIncrease + 1) );
-	oParagraph.Push(oRun);
-	oParagraph.AddLineBreak();
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+for (let i = 0; i < 5; ++i) {
+	let run = Api.CreateRun();
+	run.AddText("This run # " + (i + 1));
+	paragraph.Push(run);
+	paragraph.AddLineBreak();
 }
-var oLastRun = oParagraph.GetLastRunWithText();
-oLastRun.AddText(" Last run.");
+let lastRun = paragraph.GetLastRunWithText();
+lastRun.AddText(" Last run.");
 ```

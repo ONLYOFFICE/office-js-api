@@ -21,80 +21,80 @@ This method doesn't have any parameters.
 This example shows how to get a report about every change which was made to the document in the review mode.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph1 = oDocument.GetElement(0);
-oDocument.SetTrackRevisions(true);
-oParagraph1.AddText("Reviewing documents");
-oParagraph1.SetJc("center");
-oParagraph1.SetFontSize(24);
-oParagraph1.SetBold(true);
-var oParagraph2 = Api.CreateParagraph();
-oParagraph2.AddText("If you need to get review report, you can use Document Builder. The steps below will show how to do it.");
-oDocument.Push(oParagraph2);
-var oReviewReport = oDocument.GetReviewReport();
-oDocument.SetTrackRevisions(false);
-var oParagraph = Api.CreateParagraph();
-oDocument.Push(oParagraph);
-oParagraph = Api.CreateParagraph();
-oDocument.Push(oParagraph);
-oParagraph.AddText("Review report");
-var nRows = 1;
-for (let sUserName in oReviewReport) {
-	nRows += oReviewReport[sUserName].length;
+let doc = Api.GetDocument();
+let paragraph1 = doc.GetElement(0);
+doc.SetTrackRevisions(true);
+paragraph1.AddText("Reviewing documents");
+paragraph1.SetJc("center");
+paragraph1.SetFontSize(24);
+paragraph1.SetBold(true);
+let paragraph2 = Api.CreateParagraph();
+paragraph2.AddText("If you need to get review report, you can use Document Builder. The steps below will show how to do it.");
+doc.Push(paragraph2);
+let reviewReport = doc.GetReviewReport();
+doc.SetTrackRevisions(false);
+let paragraph = Api.CreateParagraph();
+doc.Push(paragraph);
+paragraph = Api.CreateParagraph();
+doc.Push(paragraph);
+paragraph.AddText("Review report");
+let rows = 1;
+for (let userName in reviewReport) {
+    rows += reviewReport[userName].length;
 }
-var nCols = 4;
-var oTable = Api.CreateTable(nCols, nRows);
-oDocument.Push(oTable);
+let cols = 4;
+let table = Api.CreateTable(cols, rows);
+doc.Push(table);
 
-function privateFillCell(nCurRow, nCurCol, sText) {
-	var oRow = oTable.GetRow(nCurRow);
-	var oCell = oRow.GetCell(nCurCol);
-	var oCellContent = oCell.GetContent();
-	var oRun = oCellContent.GetElement(0).AddText(sText);
-	return {
-		Cell: oCell,
-		Run: oRun
-	};
+function privateFillCell(curRow, curCol, text) {
+    let row = table.GetRow(curRow);
+    let cell = row.GetCell(curCol);
+    let cellContent = cell.GetContent();
+    let run = cellContent.GetElement(0).AddText(text);
+    return {
+        Cell: cell,
+        Run: run
+    };
 }
 privateFillCell(0, 0, "Name");
 privateFillCell(0, 1, "Date");
 privateFillCell(0, 2, "Action");
 privateFillCell(0, 3, "Text");
-var nCurRow = 1;
-for (let sUserName in oReviewReport) {
-	var arrUserChanges = oReviewReport[sUserName];
-	var arrCells = [];
-	for (let nIndex = 0, nCount = arrUserChanges.length; nIndex < nCount; ++nIndex, ++nCurRow) {
-		var oChangeInfo = arrUserChanges[nIndex];
-		arrCells.push(privateFillCell(nCurRow, 0, "").Cell);
-		privateFillCell(nCurRow, 1, (new Date(oChangeInfo["Date"])).toString());
-		var sType = oChangeInfo["Type"];
-		if ("TextAdd" === sType) {
-		privateFillCell(nCurRow, 2, "Added text");
-		privateFillCell(nCurRow, 3, oChangeInfo["Value"]);
-		} else if ("TextRem" === sType) {
-		privateFillCell(nCurRow, 2, "Removed text");
-		privateFillCell(nCurRow, 3, oChangeInfo["Value"]).Run.SetStrikeout(true);
-		} else if ("TextPr" === sType) {
-		privateFillCell(nCurRow, 2, "Formatted text");
-		} else if ("ParaAdd" === sType) {
-		privateFillCell(nCurRow, 2, "Added paragraph");
-		} else if ("ParaRem" === sType) {
-		privateFillCell(nCurRow, 2, "Removed paragraph");
-		} else if ("ParaPr" === sType) {
-		privateFillCell(nCurRow, 2, "Formatted paragraph");
-		} else {
-		privateFillCell(nCurRow, 2, "Unknown change");
-		}
-	}
-	var oMergedCell = oTable.MergeCells(arrCells);
-	if (oMergedCell) {
-		var oCellContent = oMergedCell.GetContent();
-		oCellContent.GetElement(0).AddText(sUserName);
-	} else if (arrCells.length > 0) {
-		oCellContent = arrCells[0].GetContent();
-		oCellContent.GetElement(0).AddText(sUserName);
-	}
+let curRow = 1;
+for (let userName in reviewReport) {
+    let userChanges = reviewReport[userName];
+    let cells = [];
+    for (let index = 0, count = userChanges.length; index < count; ++index, ++curRow) {
+        let changeInfo = userChanges[index];
+        cells.push(privateFillCell(curRow, 0, "").Cell);
+        privateFillCell(curRow, 1, (new Date(changeInfo["Date"])).toString());
+        let type = changeInfo["Type"];
+        if ("TextAdd" === type) {
+            privateFillCell(curRow, 2, "Added text");
+            privateFillCell(curRow, 3, changeInfo["Value"]);
+        } else if ("TextRem" === type) {
+            privateFillCell(curRow, 2, "Removed text");
+            privateFillCell(curRow, 3, changeInfo["Value"]).Run.SetStrikeout(true);
+        } else if ("TextPr" === type) {
+            privateFillCell(curRow, 2, "Formatted text");
+        } else if ("ParaAdd" === type) {
+            privateFillCell(curRow, 2, "Added paragraph");
+        } else if ("ParaRem" === type) {
+            privateFillCell(curRow, 2, "Removed paragraph");
+        } else if ("ParaPr" === type) {
+            privateFillCell(curRow, 2, "Formatted paragraph");
+        } else {
+            privateFillCell(curRow, 2, "Unknown change");
+        }
+    }
+    let mergedCell = table.MergeCells(cells);
+    if (mergedCell) {
+        let cellContent = mergedCell.GetContent();
+        cellContent.GetElement(0).AddText(userName);
+    } else if (cells.length > 0) {
+        cellContent = cells[0].GetContent();
+        cellContent.GetElement(0).AddText(userName);
+    }
 }
-oTable.SetStyle(oDocument.GetStyle("Bordered"));
+table.SetStyle(doc.GetStyle("Bordered"));
 ```

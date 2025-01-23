@@ -12,7 +12,7 @@ expression.RemoveField(identifier);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| identifier | Required | number &#124; string |  | The index number or name of the field. |
+| identifier | Required | number | string |  | The index number or name of the field. |
 
 ## Returns
 

@@ -4,7 +4,7 @@ Creates a new hyperlink text block to be inserted to the current paragraph or ta
 
 ## Syntax
 
-expression.CreateHyperlink(sLink, sDisplay, sScreenTipText);
+expression.CreateHyperlink(link, display, screenTipText);
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -12,9 +12,9 @@ expression.CreateHyperlink(sLink, sDisplay, sScreenTipText);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sLink | Required | string |  | The hyperlink address. |
-| sDisplay | Required | string |  | The text to display the hyperlink. |
-| sScreenTipText | Required | string |  | The screen tip text. |
+| link | Required | string |  | The hyperlink address. |
+| display | Required | string |  | The text to display the hyperlink. |
+| screenTipText | Required | string |  | The screen tip text. |
 
 ## Returns
 
@@ -25,11 +25,10 @@ expression.CreateHyperlink(sLink, sDisplay, sScreenTipText);
 This example creates hyperlink and pastes it into the document.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oHyperlink = Api.CreateHyperlink("https://api.onlyoffice.com/", "ONLYOFFICE Document Builder", "ONLYOFFICE for developers");
-var sType = oHyperlink.GetClassType();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddElement(oHyperlink, 0);
-oParagraph.AddLineBreak();
-oParagraph.AddText("Class type of the created object: " + sType);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let hyperlink = Api.CreateHyperlink("https://api.onlyoffice.com/", "ONLYOFFICE Document Builder", "ONLYOFFICE for developers");
+paragraph.AddElement(hyperlink, 0);
+paragraph.AddLineBreak();
+paragraph.AddText("Class type of the created object: " + hyperlink.GetClassType());
 ```

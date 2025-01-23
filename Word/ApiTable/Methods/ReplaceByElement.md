@@ -23,13 +23,13 @@ boolean
 This example replaces the current table with a paragraph.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oTable = Api.CreateTable(3, 3);
-oDocument.AddElement(0, oTable);
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-oTable.SetStyle(oTableStyle);
-var oParagraph = Api.CreateParagraph();
-oParagraph.AddText("The table was replaced with the current paragraph.");
-oTable.ReplaceByElement(oParagraph);
+let doc = Api.GetDocument();
+let table = Api.CreateTable(3, 3);
+doc.AddElement(0, table);
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
+table.SetStyle(tableStyle);
+let paragraph = Api.CreateParagraph();
+paragraph.AddText("The table was replaced with the current paragraph.");
+table.ReplaceByElement(paragraph);
 ```

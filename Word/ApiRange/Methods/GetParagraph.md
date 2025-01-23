@@ -16,20 +16,20 @@ expression.GetParagraph(nPos);
 
 ## Returns
 
-ApiParagraph, null
+[ApiParagraph](../../ApiParagraph/ApiParagraph.md) | null
 
 ## Example
 
 This example shows how to get a paragraph from all the paragraphs that are in the range.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oFParagraph = oDocument.GetElement(0);
-oFParagraph.AddText("First paragraph");
-var oSParagraph = Api.CreateParagraph();
-oSParagraph.AddText("Second Paragraph");
-oDocument.Push(oSParagraph);
-var oRange = oDocument.GetRange(0, 28);
-var oRangeParagraph = oRange.GetParagraph(1);
-oRangeParagraph.SetBold("true");
+let doc = Api.GetDocument();
+let firstParagraph = doc.GetElement(0);
+firstParagraph.AddText("First paragraph");
+let secondParagraph = Api.CreateParagraph();
+secondParagraph.AddText("Second Paragraph");
+doc.Push(secondParagraph);
+let range = doc.GetRange(0, 28);
+let rangeParagraph = range.GetParagraph(1);
+rangeParagraph.SetBold("true");
 ```

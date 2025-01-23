@@ -21,18 +21,18 @@ number
 This example gets a start page index of section
 
 ```javascript
-let oDocument = Api.GetDocument();
-let oParagraph = oDocument.GetElement(0);
-let oSection = oParagraph.GetSection();
-oSection.SetStartPageNumber(5);
-let nStartPageNumber = oSection.GetStartPageNumber();
-oParagraph.AddText("The start page number for this section is: " + nStartPageNumber);
-let oHeader = oSection.GetHeader("default", true);
-oParagraph = oHeader.GetElement(0);
-oParagraph.AddText("Page #");
-oParagraph.AddPageNumber();
-oFooter = oSection.GetFooter("default", true);
-oParagraph = oFooter.GetElement(0);
-oParagraph.AddText("Page #");
-oParagraph.AddPageNumber();
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let section = paragraph.GetSection();
+section.SetStartPageNumber(5);
+let startPageNumber = section.GetStartPageNumber();
+paragraph.AddText("The start page number for this section is: " + startPageNumber);
+let header = section.GetHeader("default", true);
+paragraph = header.GetElement(0);
+paragraph.AddText("Page #");
+paragraph.AddPageNumber();
+let footer = section.GetFooter("default", true);
+paragraph = footer.GetElement(0);
+paragraph.AddText("Page #");
+paragraph.AddPageNumber();
 ```

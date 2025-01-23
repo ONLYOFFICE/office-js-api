@@ -16,20 +16,20 @@ expression.IntersectWith(oRange);
 
 ## Returns
 
-ApiRange, null
+[ApiRange](../../ApiRange/ApiRange.md) | null
 
 ## Example
 
 This example returns a new range as the intersection of the current range with another range.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("Lorem ipsum dolor sit amet,");
-oParagraph.AddText(" consectetuer adipiscing elit,");
-oParagraph.AddText(" sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.");
-var oRangeFirst = oDocument.GetRange(0, 49);
-var oRangeSecond = oDocument.GetRange(22, 123);
-var oRange = oRangeFirst.IntersectWith(oRangeSecond);
-oRange.SetBold(true);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("Lorem ipsum dolor sit amet,");
+paragraph.AddText(" consectetuer adipiscing elit,");
+paragraph.AddText(" sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.");
+let rangeFirst = doc.GetRange(0, 49);
+let rangeSecond = doc.GetRange(22, 123);
+let range = rangeFirst.IntersectWith(rangeSecond);
+range.SetBold(true);
 ```

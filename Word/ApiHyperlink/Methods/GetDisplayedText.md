@@ -21,12 +21,12 @@ string
 This example shows how to get the hyperlink display text.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("ONLYOFFICE Document Builder");
-var oHyperlink = oParagraph.AddHyperlink("https://api.onlyoffice.com/docbuilder/basic");
-var sDisplayedText = oHyperlink.GetDisplayedText();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Displayed text: " + sDisplayedText);
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("ONLYOFFICE Document Builder");
+let hyperlink = paragraph.AddHyperlink("https://api.onlyoffice.com/docbuilder/basic");
+let displayedText = hyperlink.GetDisplayedText();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Displayed text: " + displayedText);
+doc.Push(paragraph);
 ```

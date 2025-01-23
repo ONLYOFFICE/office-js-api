@@ -3,7 +3,7 @@
 Removes an element using the position specified.
 💡 If the element you remove is the last paragraph element (i.e. all the elements are removed from the paragraph),
 a new empty run is automatically created. If you want to add
-content to this run, use the {@link ApiParagraph#GetElement} method.
+content to this run, use the &#123;@link ApiParagraph#GetElement&#125; method.
 
 ## Syntax
 
@@ -26,25 +26,25 @@ This method doesn't return any data.
 This example removes an element using the position specified.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.RemoveAllElements();
-var oRun = Api.CreateRun();
-oRun.AddText("This is the first paragraph element. ");
-oParagraph.AddElement(oRun);
-oRun = Api.CreateRun();
-oRun.AddText("This is the second paragraph element. ");
-oParagraph.AddElement(oRun);
-oRun = Api.CreateRun();
-oRun.AddText("This is the third paragraph element (it will be removed from the paragraph and we will not see it). ");
-oParagraph.AddElement(oRun);
-oParagraph.AddLineBreak();
-oRun = Api.CreateRun();
-oRun.AddText("This is the fourth paragraph element - it became the third, because we removed the previous run from the paragraph. ");
-oParagraph.AddElement(oRun);
-oParagraph.AddLineBreak();
-oRun = Api.CreateRun();
-oRun.AddText("Please note that line breaks are not counted into paragraph elements!");
-oParagraph.AddElement(oRun);
-oParagraph.RemoveElement(2);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.RemoveAllElements();
+let run = Api.CreateRun();
+run.AddText("This is the first paragraph element. ");
+paragraph.AddElement(run);
+run = Api.CreateRun();
+run.AddText("This is the second paragraph element. ");
+paragraph.AddElement(run);
+run = Api.CreateRun();
+run.AddText("This is the third paragraph element (it will be removed from the paragraph and we will not see it). ");
+paragraph.AddElement(run);
+paragraph.AddLineBreak();
+run = Api.CreateRun();
+run.AddText("This is the fourth paragraph element - it became the third, because we removed the previous run from the paragraph. ");
+paragraph.AddElement(run);
+paragraph.AddLineBreak();
+run = Api.CreateRun();
+run.AddText("Please note that line breaks are not counted into paragraph elements!");
+paragraph.AddElement(run);
+paragraph.RemoveElement(2);
 ```

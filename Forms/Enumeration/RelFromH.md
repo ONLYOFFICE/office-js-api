@@ -21,5 +21,5 @@ Enumeration
 This example sets horizontal aligment for a drawing object
 
 ```javascript
-oDrawing.SetHorAlign("page", "center");
+drawing.SetHorAlign("page", "center");
 ```

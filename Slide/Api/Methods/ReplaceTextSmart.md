@@ -4,7 +4,7 @@ Replaces each paragraph (or text in cell) in the select with the corresponding t
 
 ## Syntax
 
-expression.ReplaceTextSmart(arrString, sParaTab, sParaNewLine);
+expression.ReplaceTextSmart(textStrings, tab, newLine);
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -12,9 +12,9 @@ expression.ReplaceTextSmart(arrString, sParaTab, sParaNewLine);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arrString | Required | Array |  | An array of replacement strings. |
-| sParaTab | Optional | string | "\t" | A character which is used to specify the tab in the source text. |
-| sParaNewLine | Optional | string | "\r\n" | A character which is used to specify the line break character in the source text. |
+| textStrings | Required | Array |  | An array of replacement strings. |
+| tab | Optional | string | "\t" | A character which is used to specify the tab in the source text. |
+| newLine | Optional | string | "\r\n" | A character which is used to specify the line break character in the source text. |
 
 ## Returns
 

@@ -1,6 +1,6 @@
 # ISERR
 
-Checks whether a value is an error other than <em>#N/A</em>, and returns **true** or **false**.
+Checks whether a value is an error other than &lt;em&gt;#N/A&lt;/em&gt;, and returns **true** or **false**.
 
 ## Syntax
 
@@ -12,7 +12,7 @@ expression.ISERR(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number &#124; string &#124; boolean &#124; [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) |  | The value to test. The value can be an empty cell, error, logical value, text, number, range, or range name. |
+| arg1 | Required | number | string | boolean | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) |  | The value to test. The value can be an empty cell, error, logical value, text, number, range, or range name. |
 
 ## Returns
 

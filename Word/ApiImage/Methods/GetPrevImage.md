@@ -14,22 +14,22 @@ This method doesn't have any parameters.
 
 ## Returns
 
-ApiImage, null
+[ApiImage](../../ApiImage/ApiImage.md) | null
 
 ## Example
 
 This example shows how to get the previous inline image if exists.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oImage1 = Api.CreateImage("https://api.onlyoffice.com/content/img/docbuilder/examples/coordinate_aspects.png", 60 * 36000, 35 * 36000);
-oParagraph.AddDrawing(oImage1);
-var oImage2 = Api.CreateImage("https://helpcenter.onlyoffice.com/images/Help/GettingStarted/Documents/big/EditDocument.png", 60 * 36000, 35 * 36000);
-oParagraph.AddLineBreak();
-oParagraph.AddDrawing(oImage2);
-var oPrevImage = oImage2.GetPrevImage();
-var oCopyImage = oPrevImage.Copy();
-oParagraph.AddLineBreak();
-oParagraph.AddDrawing(oCopyImage);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let image1 = Api.CreateImage("https://static.onlyoffice.com/assets/docs/samples/img/onlyoffice_logo.png", 60 * 36000, 35 * 36000);
+paragraph.AddDrawing(image1);
+let image2 = Api.CreateImage("https://static.onlyoffice.com/assets/docs/samples/img/presentation_sky.png", 60 * 36000, 35 * 36000);
+paragraph.AddLineBreak();
+paragraph.AddDrawing(image2);
+let prevImage = image2.GetPrevImage();
+let copyImage = prevImage.Copy();
+paragraph.AddLineBreak();
+paragraph.AddDrawing(copyImage);
 ```

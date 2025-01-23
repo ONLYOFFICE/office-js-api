@@ -12,7 +12,7 @@ expression.SUMSQ(args);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| args | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; number &#124; string &#124; boolean &#124; [ApiName](../../ApiName/ApiName.md) &#124; array |  | Up to 255 numeric values for which the sum of the squares will be calculated. The first argument is required, subsequent arguments are optional. The arguments can be numbers, names, logical values or text representations of numbers, ranges of cells that contain numbers, or arrays. |
+| args | Required | [ApiRange](../../ApiRange/ApiRange.md) | number | string | boolean | [ApiName](../../ApiName/ApiName.md) | array |  | Up to 255 numeric values for which the sum of the squares will be calculated. The first argument is required, subsequent arguments are optional. The arguments can be numbers, names, logical values or text representations of numbers, ranges of cells that contain numbers, or arrays. |
 
 ## Returns
 

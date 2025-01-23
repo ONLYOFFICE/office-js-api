@@ -20,7 +20,7 @@ expression.CreateTheme(sName, oMaster, oClrScheme, oFormatScheme, oFontScheme);
 
 ## Returns
 
-ApiTheme, null
+[ApiTheme](../../ApiTheme/ApiTheme.md) | null
 
 ## Example
 

@@ -21,15 +21,15 @@ This method doesn't have any parameters.
 This example gets a class type and inserts it into the document.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oRGBColor = Api.CreateRGBColor(255, 111, 61);
-var oFill = Api.CreateSolidFill(oRGBColor);
-var oStroke = Api.CreateStroke(5 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51)));
-var oDrawing = Api.CreateShape("roundRect", 5930900, 395605, oFill, oStroke);
-oParagraph.AddDrawing(oDrawing);
-var sClassType = oStroke.GetClassType();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Class Type = " + sClassType);
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let rgbColor = Api.CreateRGBColor(255, 111, 61);
+let fill = Api.CreateSolidFill(rgbColor);
+let stroke = Api.CreateStroke(5 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51)));
+let drawing = Api.CreateShape("roundRect", 5930900, 395605, fill, stroke);
+paragraph.AddDrawing(drawing);
+let classType = stroke.GetClassType();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Class Type = " + classType);
+doc.Push(paragraph);
 ```

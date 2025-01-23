@@ -4,7 +4,7 @@ Adds the row, column, and page fields to the pivot table report.
 
 ## Syntax
 
-expression.AddFields(options, options.rows, options.columns, options.pages, options.addToTable);
+expression.AddFields(options);
 
 `expression` - A variable that represents a [ApiPivotTable](../ApiPivotTable.md) class.
 
@@ -12,11 +12,7 @@ expression.AddFields(options, options.rows, options.columns, options.pages, opti
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| options | Required | Object |  | The settings for adding row, column, and page fields to the pivot table report. |
-| options.rows | Optional | number &#124; string &#124; Array.&lt;number&gt; &#124; Array.&lt;string&gt; |  | An array of field names or IDs to be added as rows or added to the category axis. |
-| options.columns | Optional | number &#124; string &#124; Array.&lt;number&gt; &#124; Array.&lt;string&gt; |  | An array of field names or IDs to be added as columns or added to the series axis. |
-| options.pages | Optional | number &#124; string &#124; Array.&lt;number&gt; &#124; Array.&lt;string&gt; |  | An array of field names or IDs to be added as pages or added to the page area. |
-| options.addToTable | Optional | boolean |  | Specifies whether to apply fields only to the pivot table reports. If this parameter is set to **true**, the specified fields will be added to the report (none of the existing fields are replaced). If **false**, the existing fields will be replaced with the new fields. The default value is **false**. |
+| options | Required | [PivotTableFieldOptions](../../Enumeration/PivotTableFieldOptions.md) |  | The settings for adding row, column, and page fields to the pivot table report. |
 
 ## Returns
 

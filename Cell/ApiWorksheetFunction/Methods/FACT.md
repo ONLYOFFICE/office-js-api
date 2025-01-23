@@ -1,6 +1,6 @@
 # FACT
 
-Returns the factorial of a number, which is equal to <em>1*2*3*...*</em> number.
+Returns the factorial of a number, which is equal to &lt;em&gt;1*2*3*...*&lt;/em&gt; number.
 
 ## Syntax
 
@@ -12,7 +12,7 @@ expression.FACT(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The nonnegative number for which the factorial will be calculated. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The nonnegative number for which the factorial will be calculated. |
 
 ## Returns
 

@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-boolean, null
+boolean | null
 
 ## Example
 

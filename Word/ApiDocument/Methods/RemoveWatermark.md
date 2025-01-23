@@ -21,28 +21,28 @@ This method doesn't return any data.
 This example sets the parameters of the watermark settings and apply them to the document.
 
 ```javascript
-const oDocument = Api.GetDocument();
-const oWatermarkSettings = oDocument.GetWatermarkSettings();
-oWatermarkSettings.SetType("text");
-oWatermarkSettings.SetText("Example");
-const oTextPr = oWatermarkSettings.GetTextPr();
-oTextPr.SetFontFamily("Calibri");
-oTextPr.SetFontSize(-1);
-oTextPr.SetDoubleStrikeout(true);
-oTextPr.SetItalic(true);
-oTextPr.SetBold(true);
-oTextPr.SetUnderline(true);
-oTextPr.SetColor(0, 255, 0);
-oTextPr.SetHighlight("blue");
-oWatermarkSettings.SetTextPr(oTextPr);
-oDocument.SetWatermarkSettings(oWatermarkSettings);
-const oWatermarkSettings2 = oDocument.GetWatermarkSettings();
-const oParagraph1 = Api.CreateParagraph();
-oParagraph1.AddText("Watermark Type = " + oWatermarkSettings2.GetType());
-oDocument.Push(oParagraph1);
-oDocument.RemoveWatermark();
-const oWatermarkSettings3 = oDocument.GetWatermarkSettings();
-const oParagraph2 = Api.CreateParagraph();
-oParagraph2.AddText("Watermark Type = " + oWatermarkSettings3.GetType());
-oDocument.Push(oParagraph2);
+let doc = Api.GetDocument();
+let watermarkSettings = doc.GetWatermarkSettings();
+watermarkSettings.SetType("text");
+watermarkSettings.SetText("Example");
+let textPr = watermarkSettings.GetTextPr();
+textPr.SetFontFamily("Calibri");
+textPr.SetFontSize(-1);
+textPr.SetDoubleStrikeout(true);
+textPr.SetItalic(true);
+textPr.SetBold(true);
+textPr.SetUnderline(true);
+textPr.SetColor(0, 255, 0);
+textPr.SetHighlight("blue");
+watermarkSettings.SetTextPr(textPr);
+doc.SetWatermarkSettings(watermarkSettings);
+let watermarkSettings2 = doc.GetWatermarkSettings();
+let paragraph1 = Api.CreateParagraph();
+paragraph1.AddText("Watermark Type = " + watermarkSettings2.GetType());
+doc.Push(paragraph1);
+doc.RemoveWatermark();
+let watermarkSettings3 = doc.GetWatermarkSettings();
+let paragraph2 = Api.CreateParagraph();
+paragraph2.AddText("Watermark Type = " + watermarkSettings3.GetType());
+doc.Push(paragraph2);
 ```

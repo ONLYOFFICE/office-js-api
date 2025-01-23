@@ -7,7 +7,7 @@ Sets the lock to the current block text content control:
 
 ## Syntax
 
-expression.SetLock(sLockType);
+expression.SetLock(lockType);
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 
@@ -15,7 +15,7 @@ expression.SetLock(sLockType);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sLockType | Required | "contentLocked" &#124; "sdtContentLocked" &#124; "sdtLocked" |  | The type of the lock applied to the block text content control. |
+| lockType | Required | "contentLocked" | "sdtContentLocked" | "sdtLocked" |  | The type of the lock applied to the block text content control. |
 
 ## Returns
 
@@ -26,12 +26,12 @@ This method doesn't return any data.
 This example sets the lock to the block text content control.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oBlockLvlSdt = Api.CreateBlockLvlSdt();
-oBlockLvlSdt.GetContent().GetElement(0).AddText("This is a block text content control with the content lock set to it.");
-oBlockLvlSdt.SetLock("sdtContentLocked");
-oDocument.AddElement(0, oBlockLvlSdt);
-var oLock = oBlockLvlSdt.GetLock();
-var oParagraph = oDocument.GetElement(1);
-oParagraph.AddText("Lock type: " + oLock);
+let doc = Api.GetDocument();
+let blockLvlSdt = Api.CreateBlockLvlSdt();
+blockLvlSdt.GetContent().GetElement(0).AddText("This is a block text content control with the content lock set to it.");
+blockLvlSdt.SetLock("sdtContentLocked");
+doc.AddElement(0, blockLvlSdt);
+let lock = blockLvlSdt.GetLock();
+let paragraph = doc.GetElement(1);
+paragraph.AddText("Lock type: " + lock);
 ```

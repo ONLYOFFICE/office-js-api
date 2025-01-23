@@ -16,7 +16,7 @@ expression.GetCols(nCol);
 
 ## Returns
 
-ApiRange, null
+[ApiRange](../../ApiRange/ApiRange.md) | null
 
 ## Example
 

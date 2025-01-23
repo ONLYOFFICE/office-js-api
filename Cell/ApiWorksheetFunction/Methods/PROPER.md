@@ -12,7 +12,7 @@ expression.PROPER(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; string |  | The text enclosed in quotation marks, a formula that returns text, or a reference to a cell containing text to partially capitalize. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | string |  | The text enclosed in quotation marks, a formula that returns text, or a reference to a cell containing text to partially capitalize. |
 
 ## Returns
 

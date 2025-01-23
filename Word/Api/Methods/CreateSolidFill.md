@@ -4,7 +4,7 @@ Creates a solid fill to apply to the object using a selected solid color as the 
 
 ## Syntax
 
-expression.CreateSolidFill(oUniColor);
+expression.CreateSolidFill(uniColor);
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -12,7 +12,7 @@ expression.CreateSolidFill(oUniColor);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| oUniColor | Required | [ApiUniColor](../../ApiUniColor/ApiUniColor.md) |  | The color used for the element fill. |
+| uniColor | Required | [ApiUniColor](../../ApiUniColor/ApiUniColor.md) |  | The color used for the element fill. |
 
 ## Returns
 
@@ -23,11 +23,10 @@ expression.CreateSolidFill(oUniColor);
 This example shows how to create a solid fill.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oRGBColor = Api.CreateRGBColor(255, 111, 61);
-var oFill = Api.CreateSolidFill(oRGBColor);
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oDrawing = Api.CreateShape("roundRect", 5930900, 395605, oFill, oStroke);
-oParagraph.AddDrawing(oDrawing);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+let stroke = Api.CreateStroke(0, Api.CreateNoFill());
+let shape = Api.CreateShape("roundRect", 5930900, 395605, fill, stroke);
+paragraph.AddDrawing(shape);
 ```

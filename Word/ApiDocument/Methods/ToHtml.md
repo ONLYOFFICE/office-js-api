@@ -15,7 +15,7 @@ expression.ToHtml(bHtmlHeadings, bBase64img, bDemoteHeadings, bRenderHTMLTags);
 | bHtmlHeadings | Optional | boolean | false | Defines if the HTML headings and IDs will be generated when the Markdown renderer of your target platform does not handle Markdown-style IDs. |
 | bBase64img | Optional | boolean | false | Defines if the images will be created in the base64 format. |
 | bDemoteHeadings | Optional | boolean | false | Defines if all heading levels in your document will be demoted to conform with the following standard: single H1 as title, H2 as top-level heading in the text body. |
-| bRenderHTMLTags | Optional | boolean | false | Defines if HTML tags will be preserved in your Markdown. If you just want to use an occasional HTML tag, you can avoid using the opening angle bracket in the following way: \<tag&gt;text\</tag&gt;. By default, the opening angle brackets will be replaced with the special characters. |
+| bRenderHTMLTags | Optional | boolean | false | Defines if HTML tags will be preserved in your Markdown. If you just want to use an occasional HTML tag, you can avoid using the opening angle bracket in the following way: \&lt;tag&gt;text\&lt;/tag&gt;. By default, the opening angle brackets will be replaced with the special characters. |
 
 ## Returns
 
@@ -26,29 +26,29 @@ string
 This example converts a document to HTML.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph1 = oDocument.GetElement(0);
-oParagraph1.AddText("Heading 1");
-var oHeading1Style = oDocument.GetStyle("Heading 1");
-oParagraph1.SetStyle(oHeading1Style);
-var oParagraph2 = Api.CreateParagraph();
-oParagraph2.AddText("This document will be converted to HTML.");
-oDocument.Push(oParagraph2);
-var aSearch = oParagraph2.Search("HTML");
-aSearch[0].SetBold(true);
-var oParagraph3 = Api.CreateParagraph();
-oParagraph3.AddText("Heading 2");
-oDocument.Push(oParagraph3);
-var oHeading2Style = oDocument.GetStyle("Heading 2");
-oParagraph3.SetStyle(oHeading2Style);
-var oParagraph4 = Api.CreateParagraph();
-oParagraph4.AddText("There is an example of two heading levels.");
-oDocument.Push(oParagraph4);
-var sHtml = Api.ConvertDocument("html", false, false, false, true);
-var oParagraph5 = Api.CreateParagraph();
-oParagraph5.AddLineBreak();
-oParagraph5.AddText("HTML").SetBold(true);
-oParagraph5.AddLineBreak();
-oParagraph5.AddText(sHtml);
-oDocument.Push(oParagraph5);
+let doc = Api.GetDocument();
+let paragraph1 = doc.GetElement(0);
+paragraph1.AddText("Heading 1");
+let heading1Style = doc.GetStyle("Heading 1");
+paragraph1.SetStyle(heading1Style);
+let paragraph2 = Api.CreateParagraph();
+paragraph2.AddText("This document will be converted to HTML.");
+doc.Push(paragraph2);
+let search = paragraph2.Search("HTML");
+search[0].SetBold(true);
+let paragraph3 = Api.CreateParagraph();
+paragraph3.AddText("Heading 2");
+doc.Push(paragraph3);
+let heading2Style = doc.GetStyle("Heading 2");
+paragraph3.SetStyle(heading2Style);
+let paragraph4 = Api.CreateParagraph();
+paragraph4.AddText("There is an example of two heading levels.");
+doc.Push(paragraph4);
+let html = Api.ConvertDocument("html", false, false, false, true);
+let paragraph5 = Api.CreateParagraph();
+paragraph5.AddLineBreak();
+paragraph5.AddText("HTML").SetBold(true);
+paragraph5.AddLineBreak();
+paragraph5.AddText(html);
+doc.Push(paragraph5);
 ```

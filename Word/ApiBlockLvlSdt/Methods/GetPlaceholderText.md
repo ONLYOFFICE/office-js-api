@@ -21,12 +21,12 @@ string
 This example shows how to get the placeholder text from the content control.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oBlockLvlSdt = Api.CreateBlockLvlSdt();
-oDocument.AddElement(0, oBlockLvlSdt);
-oBlockLvlSdt.SetPlaceholderText("Name");
-var sText = oBlockLvlSdt.GetPlaceholderText();
-var oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Placeholder text: " + sText);
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let blockLvlSdt = Api.CreateBlockLvlSdt();
+doc.AddElement(0, blockLvlSdt);
+blockLvlSdt.SetPlaceholderText("Name");
+let text = blockLvlSdt.GetPlaceholderText();
+let paragraph = Api.CreateParagraph();
+paragraph.AddText("Placeholder text: " + text);
+doc.Push(paragraph);
 ```

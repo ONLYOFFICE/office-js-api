@@ -27,15 +27,15 @@ This method doesn't return any data.
 This example specifies the shading applied to the contents of the table cell.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("We create a 3x3 table and add add an orange shading to all cells:");
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-var oTable = Api.CreateTable(3, 3);
-oTable.SetWidth("percent", 100);
-var oTableCellPr = oTableStyle.GetTableCellPr();
-oTableCellPr.SetShd("clear", 255, 111, 61, false);
-oTable.SetStyle(oTableStyle);
-oDocument.Push(oTable);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("We create a 3x3 table and add add an orange shading to all cells:");
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
+let table = Api.CreateTable(3, 3);
+table.SetWidth("percent", 100);
+let tableCellPr = tableStyle.GetTableCellPr();
+tableCellPr.SetShd("clear", 255, 111, 61, false);
+table.SetStyle(tableStyle);
+doc.Push(table);
 ```

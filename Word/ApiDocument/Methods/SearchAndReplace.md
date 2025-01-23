@@ -26,8 +26,8 @@ This method doesn't return any data.
 This example shows how to make search and replace.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("This is the first sample text. The serial number of this sample text was replaced here.");
-oDocument.SearchAndReplace({"searchString": "first", "replaceString": "second"});
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("This is the first sample text. The serial number of this sample text was replaced here.");
+doc.SearchAndReplace({"searchString": "first", "replaceString": "second"});
 ```

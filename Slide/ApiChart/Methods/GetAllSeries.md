@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Array.\<[ApiChartSeries](../../ApiChartSeries/ApiChartSeries.md)>
+[ApiChartSeries[]](../../ApiChartSeries/ApiChartSeries.md)
 
 ## Example
 

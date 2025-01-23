@@ -1,6 +1,6 @@
 # NA
 
-Returns the <em>#N/A</em> error value which means "no value is available".
+Returns the &lt;em&gt;#N/A&lt;/em&gt; error value which means "no value is available".
 
 ## Syntax
 

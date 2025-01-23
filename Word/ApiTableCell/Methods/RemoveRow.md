@@ -21,14 +21,14 @@ boolean
 This example removes a row containing the cell.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-var oTable = Api.CreateTable(3, 3);
-oTable.SetWidth("percent", 100);
-oTable.SetStyle(oTableStyle);
-oDocument.Push(oTable);
-oTable.GetCell(0, 0).GetContent().GetElement(0).AddText("Cell 1");
-oTable.GetCell(0, 0).RemoveRow();
-oTable.GetCell(0, 0).GetContent().GetElement(0).AddText("A row with Cell 1 was removed.");
+let doc = Api.GetDocument();
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
+let table = Api.CreateTable(3, 3);
+table.SetWidth("percent", 100);
+table.SetStyle(tableStyle);
+doc.Push(table);
+table.GetCell(0, 0).GetContent().GetElement(0).AddText("Cell 1");
+table.GetCell(0, 0).RemoveRow();
+table.GetCell(0, 0).GetContent().GetElement(0).AddText("A row with Cell 1 was removed.");
 ```

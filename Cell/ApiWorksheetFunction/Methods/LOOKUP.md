@@ -12,13 +12,13 @@ expression.LOOKUP(arg1, arg2, arg3);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number &#124; string &#124; boolean &#124; [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) |  | A value that is searched for in the first vector. It can be a number, text, a logical value, or a name or reference to a value. |
-| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) |  | A range that contains only one row or one column of text, numbers, or logical values, placed in ascending order. |
-| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) |  | A range that contains only one row or column. It must be the same size as the first vector. |
+| arg1 | Required | number | string | boolean | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) |  | A value that is searched for in the first vector. It can be a number, text, a logical value, or a name or reference to a value. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) |  | A range that contains only one row or one column of text, numbers, or logical values, placed in ascending order. |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) |  | A range that contains only one row or column. It must be the same size as the first vector. |
 
 ## Returns
 
-number, string, boolean
+number | string | boolean
 
 ## Example
 

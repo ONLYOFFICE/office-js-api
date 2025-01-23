@@ -16,7 +16,7 @@ expression.GetDrawingsByPlaceholderType(sType);
 
 ## Returns
 
-Array.\<[Drawing](../../Enumeration/Drawing.md)>
+[Drawing[]](../../Enumeration/Drawing.md)
 
 ## Example
 

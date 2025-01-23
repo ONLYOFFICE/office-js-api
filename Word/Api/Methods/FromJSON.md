@@ -4,7 +4,7 @@ Converts the specified JSON object into the Document Builder object of the corre
 
 ## Syntax
 
-expression.FromJSON(sMessage);
+expression.FromJSON(message);
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -12,7 +12,7 @@ expression.FromJSON(sMessage);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sMessage | Required | JSON |  | The JSON object to convert. |
+| message | Required | JSON |  | The JSON object to convert. |
 
 ## Returns
 
@@ -23,11 +23,10 @@ This method doesn't return any data.
 This example transforms paragraph to JSON then restore it from JSON.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = Api.CreateParagraph();
-oParagraph.AddText("This is a new paragraph");
-var json = oParagraph.ToJSON(false, true);
-var oParagraphFromJSON = Api.FromJSON(json);
-oParagraphFromJSON.SetBold(true);
-oDocument.AddElement(0, oParagraphFromJSON);
+let paragraph = Api.CreateParagraph();
+paragraph.AddText("This is a new paragraph");
+let json = paragraph.ToJSON(false, true);
+let paragraphFromJSON = Api.FromJSON(json);
+paragraphFromJSON.SetBold(true);
+Api.GetDocument().AddElement(0, paragraphFromJSON);
 ```

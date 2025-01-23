@@ -18,20 +18,20 @@ expression.GetAllTablesOnPage(nPage);
 
 ## Returns
 
-Array.\<[ApiTable](../../ApiTable/ApiTable.md)>
+[ApiTable[]](../../ApiTable/ApiTable.md)
 
 ## Example
 
 This example shows how to get a collection of tables on a given absolute page.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oTableStyle = oDocument.GetStyle("Bordered");
-var oTable = Api.CreateTable(3, 3);
-oTable.SetWidth("percent", 50);
-oTable.SetStyle(oTableStyle);
-oDocument.Push(oTable);
-var arrTables = oDocument.GetAllTablesOnPage(0);
-var oRow_1 = arrTables[0].GetRow(0);
-oRow_1.Remove();
+let doc = Api.GetDocument();
+let tableStyle = doc.GetStyle("Bordered");
+let table = Api.CreateTable(3, 3);
+table.SetWidth("percent", 50);
+table.SetStyle(tableStyle);
+doc.Push(table);
+let tables = doc.GetAllTablesOnPage(0);
+let row1 = tables[0].GetRow(0);
+row1.Remove();
 ```

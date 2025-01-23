@@ -23,9 +23,9 @@ expression.SetBold(isBold);
 This example sets the bold property to the text character.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oTextPr = oDocument.GetDefaultTextPr();
-oTextPr.SetBold(true);
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("A sample text with the font weight set to bold using the text properties.");
+let doc = Api.GetDocument();
+let textPr = doc.GetDefaultTextPr();
+textPr.SetBold(true);
+let paragraph = doc.GetElement(0);
+paragraph.AddText("A sample text with the font weight set to bold using the text properties.");
 ```

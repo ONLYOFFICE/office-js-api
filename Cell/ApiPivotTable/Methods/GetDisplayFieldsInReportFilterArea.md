@@ -1,8 +1,6 @@
 # GetDisplayFieldsInReportFilterArea
 
 Returns the pivot table display fields in the report filter area settings.
-The returned object has the following structure: <em>{Type: FieldsInReportFilterType, ReportFilterFields: number}</em>,
-where **Type** specifies how the report filter fields are located, **ReportFilterFields** defines a number of the report filter fields.
 
 ## Syntax
 
@@ -16,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-object
+[PivotTableFilterAreaInfo](../../Enumeration/PivotTableFilterAreaInfo.md)
 
 ## Example
 

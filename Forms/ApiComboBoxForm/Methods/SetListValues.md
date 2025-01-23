@@ -12,7 +12,7 @@ expression.SetListValues(aListString);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| aListString | Required | Array.&lt;string&gt; |  | The combo box list values. |
+| aListString | Required | string[] |  | The combo box list values. |
 
 ## Returns
 
@@ -23,9 +23,9 @@ boolean
 This example sets the list values to the current combo box.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oComboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false});
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddElement(oComboBoxForm);
-oComboBoxForm.SetListValues(["Latvia", "USA", "UK"]);
+let doc = Api.GetDocument();
+let comboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false});
+let paragraph = doc.GetElement(0);
+paragraph.AddElement(comboBoxForm);
+comboBoxForm.SetListValues(["Latvia", "USA", "UK"]);
 ```

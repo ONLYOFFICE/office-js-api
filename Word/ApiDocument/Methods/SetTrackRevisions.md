@@ -23,8 +23,8 @@ This method doesn't return any data.
 This example sets the change tracking mode.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oDocument.SetTrackRevisions(true);
-oParagraph.AddText("Track revisions mode was set.");
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+doc.SetTrackRevisions(true);
+paragraph.AddText("Track revisions mode was set.");
 ```

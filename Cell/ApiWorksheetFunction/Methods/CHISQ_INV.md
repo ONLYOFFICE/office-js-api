@@ -12,8 +12,8 @@ expression.CHISQ_INV(arg1, arg2-);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | A probability associated with the chi-squared distribution, a value between 0 and 1 inclusive. |
-| arg2- | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The number of degrees of freedom, a number between 1 and 10^10, excluding 10^10. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | A probability associated with the chi-squared distribution, a value between 0 and 1 inclusive. |
+| arg2- | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The number of degrees of freedom, a number between 1 and 10^10, excluding 10^10. |
 
 ## Returns
 

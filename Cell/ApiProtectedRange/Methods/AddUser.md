@@ -18,7 +18,7 @@ expression.AddUser(sId, sName, protectedRangeUserType);
 
 ## Returns
 
-ApiProtectedRangeUserInfo, null
+[ApiProtectedRangeUserInfo](../../ApiProtectedRangeUserInfo/ApiProtectedRangeUserInfo.md) | null
 
 ## Example
 

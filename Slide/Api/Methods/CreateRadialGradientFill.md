@@ -4,7 +4,7 @@ Creates a radial gradient fill to apply to the object using the selected radial 
 
 ## Syntax
 
-expression.CreateRadialGradientFill(aGradientStop);
+expression.CreateRadialGradientFill(gradientStops);
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -12,7 +12,7 @@ expression.CreateRadialGradientFill(aGradientStop);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| aGradientStop | Required | Array |  | The array of gradient color stops measured in 1000th of percent. |
+| gradientStops | Required | Array |  | The array of gradient color stops measured in 1000th of percent. |
 
 ## Returns
 

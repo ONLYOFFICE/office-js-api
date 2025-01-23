@@ -21,12 +21,12 @@ expression.GetRange(Start, End);
 
 ## Example
 
-This example shows how to get a Range object that represents the part of the document contained in the specified paragraph.
+This example shows how to get a Range object that represents the part of the doc contained in the specified paragraph.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("This is just a sample paragraph.");
-var oRange = oParagraph.GetRange(8, 11);
-oRange.SetBold(true);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("This is just a sample paragraph.");
+let range = paragraph.GetRange(8, 11);
+range.SetBold(true);
 ```

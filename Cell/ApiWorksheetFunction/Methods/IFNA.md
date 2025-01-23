@@ -1,6 +1,6 @@
 # IFNA
 
-Checks if there is an error in the formula in the first argument. The function returns the specified value if the formula returns the <em>#N/A</em> error value, otherwise returns the result of the formula.
+Checks if there is an error in the formula in the first argument. The function returns the specified value if the formula returns the &lt;em&gt;#N/A&lt;/em&gt; error value, otherwise returns the result of the formula.
 
 ## Syntax
 
@@ -12,12 +12,12 @@ expression.IFNA(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number &#124; string &#124; boolean |  | The value, expression, or reference that is checked for an error. |
-| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number &#124; string &#124; boolean |  | The value to return if the formula evaluates to the <em>#N/A</em> error value. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number | string | boolean |  | The value, expression, or reference that is checked for an error. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number | string | boolean |  | The value to return if the formula evaluates to the &lt;em&gt;#N/A&lt;/em&gt; error value. |
 
 ## Returns
 
-number, string, boolean
+number | string | boolean
 
 ## Example
 

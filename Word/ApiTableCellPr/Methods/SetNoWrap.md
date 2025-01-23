@@ -1,7 +1,7 @@
 # SetNoWrap
 
 Specifies how the current table cell is laid out when the parent table is displayed in a document. This setting
-only affects the behavior of the cell when the {@link ApiTablePr#SetTableLayout} table layout for this table is set to use the <code>"autofit"</code> algorithm.
+only affects the behavior of the cell when the &#123;@link ApiTablePr#SetTableLayout&#125; table layout for this table is set to use the &lt;code&gt;"autofit"&lt;/code&gt; algorithm.
 
 ## Syntax
 
@@ -24,32 +24,32 @@ This method doesn't return any data.
 This example specifies how the table cell is laid out when the parent table is displayed in a document.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-var oTablePr = oTableStyle.GetTablePr();
-var oTable = Api.CreateTable(3, 3);
-oTablePr.SetTableLayout("autofit");
-oTable.SetTableLook(true, true, true, true, false, false);
-oTable.SetStyle(oTableStyle);
-var oCell = oTable.GetRow(0).GetCell(0);
-oCell.GetContent().GetElement(0).AddText("This is a table with the autofit type of the table layout.");
-oDocument.Push(oTable);
-var oCopyTable1 = oTable.Copy();
-oCopyTable1.SetWidth("percent", 10);
-oCell = oCopyTable1.GetRow(0).GetCell(0);
-oCell.Clear();
-oCell.GetContent().GetElement(0).AddText("This is a table cell where text is wrapped when we try to change table width.");
-var oTableCellPr = oTableStyle.GetTableCellPr();
-oTableCellPr.SetNoWrap(false);
-oDocument.Push(oCopyTable1);
-var oCopyTable2 = oTable.Copy();
-oCopyTable2.SetWidth("percent", 10);
-oCell = oCopyTable2.GetRow(0).GetCell(0);
-oCell.Clear();
-oCell.GetContent().GetElement(0).AddText("This is a table cell where text is not wrapped when we try to change table width.");
-oTableCellPr.SetNoWrap(true);
-oCopyTable2.SetStyle(oTableStyle);
-oDocument.Push(oCopyTable2);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
+let tablePr = tableStyle.GetTablePr();
+let table = Api.CreateTable(3, 3);
+tablePr.SetTableLayout("autofit");
+table.SetTableLook(true, true, true, true, false, false);
+table.SetStyle(tableStyle);
+let cell = table.GetRow(0).GetCell(0);
+cell.GetContent().GetElement(0).AddText("This is a table with the autofit type of the table layout.");
+doc.Push(table);
+let copyTable1 = table.Copy();
+copyTable1.SetWidth("percent", 10);
+cell = copyTable1.GetRow(0).GetCell(0);
+cell.Clear();
+cell.GetContent().GetElement(0).AddText("This is a table cell where text is wrapped when we try to change table width.");
+let tableCellPr = tableStyle.GetTableCellPr();
+tableCellPr.SetNoWrap(false);
+doc.Push(copyTable1);
+let copyTable2 = table.Copy();
+copyTable2.SetWidth("percent", 10);
+cell = copyTable2.GetRow(0).GetCell(0);
+cell.Clear();
+cell.GetContent().GetElement(0).AddText("This is a table cell where text is not wrapped when we try to change table width.");
+tableCellPr.SetNoWrap(true);
+copyTable2.SetStyle(tableStyle);
+doc.Push(copyTable2);
 ```

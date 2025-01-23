@@ -21,12 +21,12 @@ base64img
 This example shows how to get an image in the base64 format from the picture form.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oPictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false, "shiftX": 50, "shiftY": 50});
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddElement(oPictureForm);
-oPictureForm.SetImage("https://api.onlyoffice.com/content/img/docbuilder/examples/coordinate_aspects.png");
-var base64img = oPictureForm.GetImage();
-var oDrawing = Api.CreateImage(base64img, 60 * 36000, 35 * 36000);
-oParagraph.AddDrawing(oDrawing);
+let doc = Api.GetDocument();
+let pictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false, "shiftX": 50, "shiftY": 50});
+let paragraph = doc.GetElement(0);
+paragraph.AddElement(pictureForm);
+pictureForm.SetImage("https://static.onlyoffice.com/assets/docs/samples/img/onlyoffice_logo.png");
+let base64img = pictureForm.GetImage();
+let drawing = Api.CreateImage(base64img, 60 * 36000, 35 * 36000);
+paragraph.AddDrawing(drawing);
 ```

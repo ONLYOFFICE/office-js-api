@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-"left", "right", "both", "center", undefined
+"left" | "right" | "both" | "center" | undefined
 
 ## Example
 

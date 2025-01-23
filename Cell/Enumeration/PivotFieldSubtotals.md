@@ -21,4 +21,3 @@ Object
 | StdDevP | boolean | Specififes whether the STDEV.P function will be used. |
 | Var | boolean | Specififes whether the VAR function will be used. |
 | VarP | boolean | Specififes whether the VAR.P function will be used. |
-

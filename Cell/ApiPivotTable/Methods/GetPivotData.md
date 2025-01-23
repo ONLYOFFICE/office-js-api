@@ -13,7 +13,7 @@ expression.GetPivotData(dataField, fieldItemsArray);
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | dataField | Optional | string |  | The name of the field containing the data for the PivotTable. |
-| fieldItemsArray | Optional | Array.&lt;string&gt; |  | An array of field items from the pivot table. |
+| fieldItemsArray | Optional | string[] |  | An array of field items from the pivot table. |
 
 ## Returns
 

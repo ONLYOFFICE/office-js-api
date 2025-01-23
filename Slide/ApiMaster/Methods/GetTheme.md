@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-ApiTheme, null
+[ApiTheme](../../ApiTheme/ApiTheme.md) | null
 
 ## Example
 

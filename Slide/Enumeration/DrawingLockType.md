@@ -30,5 +30,5 @@ Enumeration
 This example shows how to get the lock value for the specified lock type of a drawing.
 
 ```javascript
-var bLockValue = oDrawing.GetLockValue("noSelect");
+let lockValue = drawing.GetLockValue("noSelect");
 ```

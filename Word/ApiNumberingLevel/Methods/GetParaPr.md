@@ -18,21 +18,21 @@ This method doesn't have any parameters.
 
 ## Example
 
-This example shows how to ge t the paragraph properties which are applied to any numbered paragraph that references the given numbering definition and numbering level.
+This example shows how to get the paragraph properties which are applied to any numbered paragraph that references the given numbering definition and numbering level.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oNumbering = oDocument.CreateNumbering("numbered");
-var oNumLvl = oNumbering.GetLevel(0);
-var oParaPr = oNumLvl.GetParaPr();
-oParaPr.SetSpacingLine(480, "auto");
-oParaPr.SetJc("both");
-oParaPr.SetIndFirstLine(720);
-var oParagraph = oDocument.GetElement(0);
-oParagraph.SetNumbering(oNumLvl);
-oParagraph.AddText("This is the first element of a parent numbered list which starts with '1'");
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("This is the second element of a parent numbered list which starts with '2'");
-oParagraph.SetNumbering(oNumLvl);
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let numbering = doc.CreateNumbering("numbered");
+let numLvl = numbering.GetLevel(0);
+let paraPr = numLvl.GetParaPr();
+paraPr.SetSpacingLine(480, "auto");
+paraPr.SetJc("both");
+paraPr.SetIndFirstLine(720);
+let paragraph = doc.GetElement(0);
+paragraph.SetNumbering(numLvl);
+paragraph.AddText("This is the first element of a parent numbered list which starts with '1'");
+paragraph = Api.CreateParagraph();
+paragraph.AddText("This is the second element of a parent numbered list which starts with '2'");
+paragraph.SetNumbering(numLvl);
+doc.Push(paragraph);
 ```

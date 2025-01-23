@@ -1,6 +1,6 @@
 # ATAN
 
-Returns the arctangent of a number in radians, in the range from <em>-Pi/2</em> to <em>Pi/2</em>.
+Returns the arctangent of a number in radians, in the range from &lt;em&gt;-Pi/2&lt;/em&gt; to &lt;em&gt;Pi/2&lt;/em&gt;.
 
 ## Syntax
 
@@ -12,7 +12,7 @@ expression.ATAN(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The angle tangent. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The angle tangent. |
 
 ## Returns
 

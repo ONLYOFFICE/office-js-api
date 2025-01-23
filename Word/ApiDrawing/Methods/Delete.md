@@ -21,13 +21,13 @@ boolean
 This example deletes the current graphic object.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oDrawing = Api.CreateShape("rect", 3212465, 963295, oFill, oStroke);
-oParagraph.AddDrawing(oDrawing);
-oDrawing.Delete();
-oParagraph.AddLineBreak();
-oParagraph.AddText("In this paragraph, the Drawing object has been deleted.");
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+let stroke = Api.CreateStroke(0, Api.CreateNoFill());
+let drawing = Api.CreateShape("rect", 3212465, 963295, fill, stroke);
+paragraph.AddDrawing(drawing);
+drawing.Delete();
+paragraph.AddLineBreak();
+paragraph.AddText("In this paragraph, the Drawing object has been deleted.");
 ```

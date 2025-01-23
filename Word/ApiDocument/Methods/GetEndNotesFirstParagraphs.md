@@ -14,18 +14,18 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Array.\<[ApiParagraph](../../ApiParagraph/ApiParagraph.md)>
+[ApiParagraph[]](../../ApiParagraph/ApiParagraph.md)
 
 ## Example
 
 This example shows how to get the first paragraphs from all endnotes in the document.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0); 
-oParagraph.AddText("This is just a sample text.");
-oDocument.AddEndnote();
-var aEndNotesFirstParagraphs = oDocument.GetEndNotesFirstParagraphs();
-aEndNotesFirstParagraphs[0].AddText("Endnote 1");
-aEndNotesFirstParagraphs[0].SetBold(true);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0); 
+paragraph.AddText("This is just a sample text.");
+doc.AddEndnote();
+let endNotesFirstParagraphs = doc.GetEndNotesFirstParagraphs();
+endNotesFirstParagraphs[0].AddText("Endnote 1");
+endNotesFirstParagraphs[0].SetBold(true);
 ```

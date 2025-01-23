@@ -12,7 +12,7 @@ expression.TIMEVALUE(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; string |  | A text string that represents a time in one of the time formats (date information in the string is ignored). |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | string |  | A text string that represents a time in one of the time formats (date information in the string is ignored). |
 
 ## Returns
 

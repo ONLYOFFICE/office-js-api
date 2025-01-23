@@ -32,5 +32,5 @@ Enumeration
 This example sets a paragraph highlight in green.
 
 ```javascript
-oParagraph.SetHighlight("green");
+paragraph.SetHighlight("green");
 ```

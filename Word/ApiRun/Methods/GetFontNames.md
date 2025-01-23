@@ -14,26 +14,26 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Array.&lt;string&gt;
+string[]
 
 ## Example
 
 This example shows how to get all font names from all elements inside the run.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oRun = Api.CreateRun();
-oRun.SetFontFamily("Calibri Light");
-oRun.AddText("This is just a sample text.");
-oParagraph.AddElement(oRun);
-var aFontNames = oRun.GetFontNames();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Run font names: ");
-oParagraph.AddLineBreak();
-for (let i = 0; i < aFontNames.length; i++ ){
-	oParagraph.AddText(aFontNames[i]);
-	oParagraph.AddLineBreak();
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let run = Api.CreateRun();
+run.SetFontFamily("Calibri Light");
+run.AddText("This is just a sample text.");
+paragraph.AddElement(run);
+let fontNames = run.GetFontNames();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Run font names: ");
+paragraph.AddLineBreak();
+for (let i = 0; i < fontNames.length; i++) {
+	paragraph.AddText(fontNames[i]);
+	paragraph.AddLineBreak();
 }
-oDocument.Push(oParagraph);
+doc.Push(paragraph);
 ```

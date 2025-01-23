@@ -4,7 +4,7 @@ Returns a Range object that represents the part of the document contained in the
 
 ## Syntax
 
-expression.GetRange(Start, End);
+expression.GetRange(start, end);
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 
@@ -12,8 +12,8 @@ expression.GetRange(Start, End);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Start | Required | Number |  | Start position index in the current element. |
-| End | Required | Number |  | End position index in the current element. |
+| start | Required | Number |  | Start position index in the current element. |
+| end | Required | Number |  | End position index in the current element. |
 
 ## Returns
 
@@ -24,10 +24,10 @@ expression.GetRange(Start, End);
 This example shows how to get a Range object that represents the part of the document contained in the specified content control.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oBlockLvlSdt = Api.CreateBlockLvlSdt();
-oBlockLvlSdt.GetContent().GetElement(0).AddText("This is a block text content control.");
-oDocument.AddElement(0, oBlockLvlSdt);
-var oRange = oBlockLvlSdt.GetRange(10, 14);
-oRange.SetBold(true);
+let doc = Api.GetDocument();
+let blockLvlSdt = Api.CreateBlockLvlSdt();
+blockLvlSdt.GetContent().GetElement(0).AddText("This is a block text content control.");
+doc.AddElement(0, blockLvlSdt);
+let range = blockLvlSdt.GetRange(10, 16);
+range.SetBold(true);
 ```

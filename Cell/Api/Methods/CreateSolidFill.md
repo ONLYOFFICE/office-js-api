@@ -4,7 +4,7 @@ Creates a solid fill to apply to the object using a selected solid color as the 
 
 ## Syntax
 
-expression.CreateSolidFill(oUniColor);
+expression.CreateSolidFill(uniColor);
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -12,7 +12,7 @@ expression.CreateSolidFill(oUniColor);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| oUniColor | Required | [ApiUniColor](../../ApiUniColor/ApiUniColor.md) |  | The color used for the element fill. |
+| uniColor | Required | [ApiUniColor](../../ApiUniColor/ApiUniColor.md) |  | The color used for the element fill. |
 
 ## Returns
 

@@ -23,13 +23,13 @@ JSON
 This example converts the ApiParaPr object into the JSON object.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oMyStyle = oDocument.CreateStyle("My document style");
-var oParaPr = oMyStyle.GetParaPr();
-oParaPr.SetLeftBorder("single", 24, 0, 0, 255, 0);
-var json = oParaPr.ToJSON(true);
-var oParaPrFromJSON = Api.FromJSON(json);
-var sType = oParaPrFromJSON.GetClassType();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("Class type = " + sType);
+let doc = Api.GetDocument();
+let myStyle = doc.CreateStyle("My document style");
+let paraPr = myStyle.GetParaPr();
+paraPr.SetLeftBorder("single", 24, 0, 0, 255, 0);
+let json = paraPr.ToJSON(true);
+let paraPrFromJSON = Api.FromJSON(json);
+let type = paraPrFromJSON.GetClassType();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("Class type = " + type);
 ```

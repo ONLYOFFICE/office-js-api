@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-ApiPivotTable, null
+[ApiPivotTable](../../ApiPivotTable/ApiPivotTable.md) | null
 
 ## Example
 

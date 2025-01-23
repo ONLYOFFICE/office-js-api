@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-ApiComment, null
+[ApiComment](../../ApiComment/ApiComment.md) | null
 
 ## Example
 

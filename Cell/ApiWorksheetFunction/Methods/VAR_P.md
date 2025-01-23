@@ -12,7 +12,7 @@ expression.VAR_P(args);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| args | Required | number &#124; [ApiName](../../ApiName/ApiName.md) &#124; [ApiRange](../../ApiRange/ApiRange.md) &#124; Array.&lt;number&gt; |  | Up to 255 numeric values for which the variance will be calculated. The first argument is required, subsequent arguments are optional. Arguments can be numbers, names, ranges, or arrays of numbers. |
+| args | Required | number | [ApiName](../../ApiName/ApiName.md) | [ApiRange](../../ApiRange/ApiRange.md) | number[] |  | Up to 255 numeric values for which the variance will be calculated. The first argument is required, subsequent arguments are optional. Arguments can be numbers, names, ranges, or arrays of numbers. |
 
 ## Returns
 

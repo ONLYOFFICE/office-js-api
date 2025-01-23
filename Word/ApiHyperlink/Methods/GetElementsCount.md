@@ -21,19 +21,19 @@ number
 This example shows how to get a number of elements in the hyperlink.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oRun1 = Api.CreateRun();
-oRun1.AddText("Api Document Builder.");
-oParagraph.AddElement(oRun1, 0);
-var oRun2 = Api.CreateRun();
-oRun2.AddText(" ONLYOFFICE for developers");
-oParagraph.AddElement(oRun2, 1);
-var oHyperlink = oParagraph.AddHyperlink("https://api.onlyoffice.com/docbuilder/basic");
-var nElementsCount = oHyperlink.GetElementsCount();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Number of elements in hyperlink: " + nElementsCount);
-oParagraph.AddLineBreak();
-oParagraph.AddText("Elements: oParagraph, oRun1, oRun2, oHyperlink");
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let run1 = Api.CreateRun();
+run1.AddText("Api Document Builder.");
+paragraph.AddElement(run1, 0);
+let run2 = Api.CreateRun();
+run2.AddText(" ONLYOFFICE for developers");
+paragraph.AddElement(run2, 1);
+let hyperlink = paragraph.AddHyperlink("https://api.onlyoffice.com/docbuilder/basic");
+let elementsCount = hyperlink.GetElementsCount();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Number of elements in hyperlink: " + elementsCount);
+paragraph.AddLineBreak();
+paragraph.AddText("Elements: paragraph, run1, run2, hyperlink");
+doc.Push(paragraph);
 ```

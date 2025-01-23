@@ -23,11 +23,11 @@ expression.AddInlineLvlSdt(oSdt);
 This example adds an inline container to the paragraph.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oInlineLvlSdt = Api.CreateInlineLvlSdt();
-var oRun = Api.CreateRun();
-oRun.AddText("This is an inline text content control.");
-oInlineLvlSdt.AddElement(oRun, 0);
-oParagraph.AddInlineLvlSdt(oInlineLvlSdt);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let inlineLvlSdt = Api.CreateInlineLvlSdt();
+let run = Api.CreateRun();
+run.AddText("This is an inline text content control.");
+inlineLvlSdt.AddElement(run, 0);
+paragraph.AddInlineLvlSdt(inlineLvlSdt);
 ```

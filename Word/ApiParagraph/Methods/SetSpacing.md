@@ -23,8 +23,8 @@ expression.SetSpacing(nSpacing);
 This example sets the text spacing measured in twentieths of a point.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("This is just a sample paragraph.");
-oParagraph.SetSpacing(2);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("This is just a sample paragraph.");
+paragraph.SetSpacing(2);
 ```

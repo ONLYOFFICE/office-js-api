@@ -16,7 +16,7 @@ expression.Duplicate(nPos);
 
 ## Returns
 
-ApiMaster, null
+[ApiMaster](../../ApiMaster/ApiMaster.md) | null
 
 ## Example
 

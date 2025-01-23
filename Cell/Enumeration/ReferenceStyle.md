@@ -18,8 +18,8 @@ This example gets reference style.
 
 ```javascript
 builder.CreateFile("xlsx");
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.GetRange("A1").SetValue(Api.GetReferenceStyle());
+let worksheet = Api.GetActiveSheet();
+worksheet.GetRange("A1").SetValue(Api.GetReferenceStyle());
 builder.SaveFile("xlsx", "ReferenceStyle.xlsx");
 builder.CloseFile();
 ```

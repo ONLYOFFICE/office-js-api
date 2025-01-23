@@ -14,24 +14,24 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Array.\<[ApiInlineLvlSdt](../../ApiInlineLvlSdt/ApiInlineLvlSdt.md)>
+[ApiInlineLvlSdt[]](../../ApiInlineLvlSdt/ApiInlineLvlSdt.md)
 
 ## Example
 
 This example shows how to get a collection of content control objects in the paragraph.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oInlineLvlSdt = Api.CreateInlineLvlSdt();
-oParagraph.AddInlineLvlSdt(oInlineLvlSdt);
-var oRun = Api.CreateRun();
-oRun.AddText("This is an inline text content control.");
-oInlineLvlSdt.AddElement(oRun);
-var aContentControls = oParagraph.GetAllContentControls();
-aContentControls[0].GetElement(0).SetBold(true);
-var sClassType = aContentControls[0].GetClassType();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Class type: " + sClassType);
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let inlineLvlSdt = Api.CreateInlineLvlSdt();
+paragraph.AddInlineLvlSdt(inlineLvlSdt);
+let run = Api.CreateRun();
+run.AddText("This is an inline text content control.");
+inlineLvlSdt.AddElement(run);
+let contentControls = paragraph.GetAllContentControls();
+contentControls[0].GetElement(0).SetBold(true);
+let classType = contentControls[0].GetClassType();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Class type: " + classType);
+doc.Push(paragraph);
 ```

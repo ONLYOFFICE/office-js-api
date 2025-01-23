@@ -11,8 +11,7 @@ Object
 | Name | Type | Description |
 | ---- | ---- | ----------- |
 | OutlineLvls | number | Maximum number of levels in the table of contents. |
-| StylesLvls | Array.\<[TocStyleLvl](../../Enumeration/TocStyleLvl.md)> | Style levels (for example, [{Name: "Heading 1", Lvl: 2}, {Name: "Heading 2", Lvl: 3}]). 💡 If StylesLvls.length > 0, then the OutlineLvls property will be ignored. |
-
+| StylesLvls | [TocStyleLvl[]](../../Enumeration/TocStyleLvl.md) | Style levels (for example, [&#123;Name: "Heading 1", Lvl: 2&#125;, &#123;Name: "Heading 2", Lvl: 3&#125;]). 💡 If StylesLvls.length &gt; 0, then the OutlineLvls property will be ignored. |
 
 
 ## Example
@@ -20,7 +19,7 @@ Object
 This example adds a table of contents which is generated from 9 outline levels to the document.
 
 ```javascript
-var oTocBuildFromPr = {"OutlineLvls": 9};
-var oTocPr = {"ShowPageNums": true, "RightAlgn": true, "LeaderType": "dot", "FormatAsLinks": true, "BuildFrom": oTocBuildFromPr, "TocStyle": "standard"};
-oDocument.AddTableOfContents(oTocPr);
+let tocBuildFromPr = {"OutlineLvls": 9};
+let tocPr = {"ShowPageNums": true, "RightAlgn": true, "LeaderType": "dot", "FormatAsLinks": true, "BuildFrom": tocBuildFromPr, "TocStyle": "standard"};
+doc.AddTableOfContents(tocPr);
 ```

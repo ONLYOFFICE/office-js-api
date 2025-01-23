@@ -12,7 +12,7 @@ expression.AddSlide(oSlide);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| oSlide | Required | [ApiSlide](../../ApiSlide/ApiSlide.md) |  | The slide created using the {@link Api#CreateSlide} method. |
+| oSlide | Required | [ApiSlide](../../ApiSlide/ApiSlide.md) |  | The slide created using the &#123;@link Api#CreateSlide&#125; method. |
 
 ## Returns
 

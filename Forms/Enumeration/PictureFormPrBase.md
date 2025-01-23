@@ -17,12 +17,11 @@ Object
 | shiftY | [percentage](../../Enumeration/percentage.md) | Vertical picture position inside the picture form measured in percent: **0** - the picture is placed on top; **50** - the picture is placed in the center; **100** - the picture is placed on the bottom. |
 
 
-
 ## Example
 
 This example creates a combo box form with the specific combo box form properties.
 
 ```javascript
-var oComboBoxFormPrBase = {"editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]};
-var oComboBoxForm = Api.CreateComboBoxForm(oComboBoxFormPrBase);
+let comboBoxFormPr = {"editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]};
+let comboBoxForm = Api.CreateComboBoxForm(comboBoxFormPr);
 ```

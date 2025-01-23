@@ -12,27 +12,27 @@ expression.InsertParagraph(paragraph, sPosition, beRNewPara);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| paragraph | Required | string &#124; [ApiParagraph](../../ApiParagraph/ApiParagraph.md) |  | Text or paragraph. |
+| paragraph | Required | string | [ApiParagraph](../../ApiParagraph/ApiParagraph.md) |  | Text or paragraph. |
 | sPosition | Required | string |  | The position where the text or paragraph will be inserted ("before" or "after" the drawing specified). |
 | beRNewPara | Required | boolean |  | Defines if this method returns a new paragraph (true) or the current ApiDrawing (false). |
 
 ## Returns
 
-ApiParagraph, ApiDrawing
+[ApiParagraph](../../ApiParagraph/ApiParagraph.md) | [ApiDrawing](../../ApiDrawing/ApiDrawing.md)
 
 ## Example
 
 This example inserts a paragraph at the specified position.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("This graphic object with paragraph.");
-var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oDrawing = Api.CreateShape("rect", 3212465, 963295, oFill, oStroke);
-oParagraph.AddDrawing(oDrawing);
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("This is a new paragraph.");
-oDrawing.InsertParagraph(oParagraph);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("This graphic object with paragraph.");
+let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+let stroke = Api.CreateStroke(0, Api.CreateNoFill());
+let drawing = Api.CreateShape("rect", 3212465, 963295, fill, stroke);
+paragraph.AddDrawing(drawing);
+paragraph = Api.CreateParagraph();
+paragraph.AddText("This is a new paragraph.");
+drawing.InsertParagraph(paragraph);
 ```

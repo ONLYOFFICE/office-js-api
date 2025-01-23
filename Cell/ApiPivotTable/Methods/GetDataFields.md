@@ -13,11 +13,11 @@ expression.GetDataFields(field);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| field | Required | number &#124; string &#124; undefined |  | The name or index of the field to be returned. |
+| field | Required | number | string | undefined |  | The name or index of the field to be returned. |
 
 ## Returns
 
-Array.\<[ApiPivotDataField](../../ApiPivotDataField/ApiPivotDataField.md)>, ApiPivotDataField, null
+[ApiPivotDataField[]](../../ApiPivotDataField/ApiPivotDataField.md) | [ApiPivotDataField](../../ApiPivotDataField/ApiPivotDataField.md) | null
 
 ## Example
 

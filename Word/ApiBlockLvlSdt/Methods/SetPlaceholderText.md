@@ -4,7 +4,7 @@ Sets the placeholder text to the current content control.
 
 ## Syntax
 
-expression.SetPlaceholderText(sText);
+expression.SetPlaceholderText(text);
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 
@@ -12,7 +12,7 @@ expression.SetPlaceholderText(sText);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sText | Required | string |  | The text that will be set to the current content control. |
+| text | Required | string |  | The text that will be set to the current content control. |
 
 ## Returns
 
@@ -20,11 +20,11 @@ boolean
 
 ## Example
 
-This example sets the placeholder text to the content control.
+This example shows how to set the placeholder text for the content control.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oBlockLvlSdt = Api.CreateBlockLvlSdt();
-oDocument.AddElement(0, oBlockLvlSdt);
-oBlockLvlSdt.SetPlaceholderText("Name");
+let doc = Api.GetDocument();
+let blockLvlSdt = Api.CreateBlockLvlSdt();
+doc.AddElement(0, blockLvlSdt);
+blockLvlSdt.SetPlaceholderText("Enter your name here");
 ```

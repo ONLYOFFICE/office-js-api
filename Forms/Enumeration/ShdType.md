@@ -17,5 +17,5 @@ Enumeration
 This example adds a green shadow to the table.
 
 ```javascript
-oTablePr.SetShd("clear", 0, 255, 0, false);
+tablePr.SetShd("clear", 0, 255, 0, false);
 ```

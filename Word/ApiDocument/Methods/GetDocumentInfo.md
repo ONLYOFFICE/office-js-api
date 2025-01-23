@@ -32,9 +32,9 @@ object
 This example shows how to get the document info represented as an object and paste the application name into the last paragraph.
 
 ```javascript
-const oDocument = Api.GetDocument();
-const oDocInfo = oDocument.GetDocumentInfo();
-const oParagraph = Api.CreateParagraph();
-oParagraph.AddText('This document has been created with: ' + oDocInfo.Application)
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let docInfo = doc.GetDocumentInfo();
+let paragraph = Api.CreateParagraph();
+paragraph.AddText('This document has been created with: ' + docInfo.Application);
+doc.Push(paragraph);
 ```

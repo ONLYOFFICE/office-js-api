@@ -13,11 +13,11 @@ expression.GetPageFields(field);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| field | Required | number &#124; string &#124; undefined |  | The name or index of the field to be returned. |
+| field | Required | number | string | undefined |  | The name or index of the field to be returned. |
 
 ## Returns
 
-Array.\<[ApiPivotField](../../ApiPivotField/ApiPivotField.md)>
+[ApiPivotField[]](../../ApiPivotField/ApiPivotField.md)
 
 ## Example
 

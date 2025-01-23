@@ -21,8 +21,6 @@ string
 This example gets a document name and inserts it into the document.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var sName = Api.GetFullName();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("File name: " + sName);
+let paragraph = Api.GetDocument().GetElement(0);
+paragraph.AddText("File name: " + Api.GetFullName());
 ```

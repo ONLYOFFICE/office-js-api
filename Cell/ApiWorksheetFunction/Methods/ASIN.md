@@ -1,6 +1,6 @@
 # ASIN
 
-Returns the arcsine of a number in radians, in the range from <em>-Pi/2</em> to <em>Pi/2</em>.
+Returns the arcsine of a number in radians, in the range from &lt;em&gt;-Pi/2&lt;/em&gt; to &lt;em&gt;Pi/2&lt;/em&gt;.
 
 ## Syntax
 
@@ -12,7 +12,7 @@ expression.ASIN(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The angle sine. It must be from -1 to 1. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The angle sine. It must be from -1 to 1. |
 
 ## Returns
 

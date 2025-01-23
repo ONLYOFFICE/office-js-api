@@ -12,10 +12,10 @@ expression.SUBSTITUTE(arg1, arg2, arg3, arg4);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; string |  | The text or the reference to a cell containing text in which the characters will be substituted. |
-| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; string |  | The existing text to replace. If the case of the original text does not match the case of text, the function will not replace the text. |
-| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; string |  | The text to replace the original text with. |
-| arg4 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; string |  | Specifies which occurrence of the original text to replace. If omitted, every instance of the original text will be replaced. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | string |  | The text or the reference to a cell containing text in which the characters will be substituted. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | string |  | The existing text to replace. If the case of the original text does not match the case of text, the function will not replace the text. |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | string |  | The text to replace the original text with. |
+| arg4 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | string |  | Specifies which occurrence of the original text to replace. If omitted, every instance of the original text will be replaced. |
 
 ## Returns
 

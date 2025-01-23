@@ -26,9 +26,9 @@ expression.SetShd(sType, r, g, b);
 This example specifies the shading applied to the contents of the current text run.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oTextPr = oDocument.GetDefaultTextPr();
-oTextPr.SetShd("clear", 255, 111, 61);
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("A sample text with the shading set to orange.");
+let doc = Api.GetDocument();
+let textPr = doc.GetDefaultTextPr();
+textPr.SetShd("clear", 255, 111, 61);
+let paragraph = doc.GetElement(0);
+paragraph.AddText("A sample text with the shading set to orange.");
 ```

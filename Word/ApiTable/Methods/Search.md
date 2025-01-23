@@ -17,23 +17,23 @@ expression.Search(sText, isMatchCase);
 
 ## Returns
 
-Array.\<[ApiRange](../../ApiRange/ApiRange.md)>
+[ApiRange[]](../../ApiRange/ApiRange.md)
 
 ## Example
 
 This example shows how to make search in table.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-var oTable = Api.CreateTable(3, 3);
-oTable.SetWidth("percent", 100);
-oTable.SetStyle(oTableStyle);
-oTable.GetCell(0, 0).GetContent().GetElement(0).AddText("Cell 1");
-oTable.GetCell(0, 1).GetContent().GetElement(0).AddText("Cell 2");
-oTable.GetCell(0, 2).GetContent().GetElement(0).AddText("Cell 3");
-oDocument.Push(oTable);
-var aSearch = oTable.Search("Cell");
-aSearch[0].SetBold(true);
+let doc = Api.GetDocument();
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
+let table = Api.CreateTable(3, 3);
+table.SetWidth("percent", 100);
+table.SetStyle(tableStyle);
+table.GetCell(0, 0).GetContent().GetElement(0).AddText("Cell 1");
+table.GetCell(0, 1).GetContent().GetElement(0).AddText("Cell 2");
+table.GetCell(0, 2).GetContent().GetElement(0).AddText("Cell 3");
+doc.Push(table);
+let searchResults = table.Search("Cell");
+searchResults[0].SetBold(true);
 ```

@@ -1,7 +1,7 @@
 # GetTextPr
 
 Specifies the text properties which will be applied to the text in the current numbering level itself, not to the text in the subsequent paragraph.
-💡 To change the text style of the paragraph, a style must be applied to it using the {@link ApiRun#SetStyle} method.
+💡 To change the text style of the paragraph, a style must be applied to it using the &#123;@link ApiRun#SetStyle&#125; method.
 
 ## Syntax
 
@@ -22,18 +22,18 @@ This method doesn't have any parameters.
 This example shows how to get the text properties which will be applied to the text in the numbering level itself, not to the text in the subsequent paragraph.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oNumbering = oDocument.CreateNumbering("numbered");
-var oNumLvl = oNumbering.GetLevel(0);
-var oTextPr = oNumLvl.GetTextPr();
-oTextPr.SetBold(true);
-oTextPr.SetFontFamily("Calibri");
-oTextPr.SetFontSize(28);
-var oParagraph = oDocument.GetElement(0);
-oParagraph.SetNumbering(oNumLvl);
-oParagraph.AddText("This is the first element of a numbered list which starts with '1'");
-oParagraph = Api.CreateParagraph();
-oParagraph.SetNumbering(oNumLvl);
-oParagraph.AddText("This is the second element of a numbered list which starts with '2'");
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let numbering = doc.CreateNumbering("numbered");
+let numLvl = numbering.GetLevel(0);
+let textPr = numLvl.GetTextPr();
+textPr.SetBold(true);
+textPr.SetFontFamily("Calibri");
+textPr.SetFontSize(28);
+let paragraph = doc.GetElement(0);
+paragraph.SetNumbering(numLvl);
+paragraph.AddText("This is the first element of a numbered list which starts with '1'");
+paragraph = Api.CreateParagraph();
+paragraph.SetNumbering(numLvl);
+paragraph.AddText("This is the second element of a numbered list which starts with '2'");
+doc.Push(paragraph);
 ```

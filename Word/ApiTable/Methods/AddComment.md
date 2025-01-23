@@ -26,16 +26,16 @@ expression.AddComment(sText, sAuthor, sUserId);
 This example adds a comment to all contents of the table.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-var oTable = Api.CreateTable(3, 3);
-oTable.SetWidth("percent", 100);
-oTable.SetStyle(oTableStyle);
-oDocument.Push(oTable);
-var oParagraph = Api.CreateParagraph();
-oParagraph.AddText("This is just a sample text in the first cell.");
-var oCell = oTable.GetCell(0,0);
-oTable.AddElement(oCell, 0, oParagraph);
-oTable.AddComment("comment", "John Smith");
+let doc = Api.GetDocument();
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
+let table = Api.CreateTable(3, 3);
+table.SetWidth("percent", 100);
+table.SetStyle(tableStyle);
+doc.Push(table);
+let paragraph = Api.CreateParagraph();
+paragraph.AddText("This is just a sample text in the first cell.");
+let cell = table.GetCell(0, 0);
+table.AddElement(cell, 0, paragraph);
+table.AddComment("comment", "John Smith");
 ```

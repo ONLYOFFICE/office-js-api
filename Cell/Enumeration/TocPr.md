@@ -18,12 +18,11 @@ Object
 | TocStyle | [TocStyle](../../Enumeration/TocStyle.md) | The table of contents style type. |
 
 
-
 ## Example
 
 This example adds a table of contents with the specified properties to the document.
 
 ```javascript
-var oTocPr = {"ShowPageNums": true, "RightAlgn": true, "LeaderType": "dot", "FormatAsLinks": true, "BuildFrom": {"OutlineLvls": 9}, "TocStyle": "standard"};
-oDocument.AddTableOfContents(oTocPr);
+let tocPr = {"ShowPageNums": true, "RightAlgn": true, "LeaderType": "dot", "FormatAsLinks": true, "BuildFrom": {"OutlineLvls": 9}, "TocStyle": "standard"};
+doc.AddTableOfContents(tocPr);
 ```

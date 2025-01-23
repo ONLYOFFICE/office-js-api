@@ -4,7 +4,7 @@ Adds a text to the current content control.
 
 ## Syntax
 
-expression.AddText(sText);
+expression.AddText(text);
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 
@@ -12,7 +12,7 @@ expression.AddText(sText);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sText | Required | String |  | The text which will be added to the content control. |
+| text | Required | String |  | The text which will be added to the content control. |
 
 ## Returns
 
@@ -23,8 +23,8 @@ boolean
 This example adds a text to the content control.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oBlockLvlSdt = Api.CreateBlockLvlSdt();
-oBlockLvlSdt.GetContent().GetElement(0).AddText("This is a block text content control.");
-oDocument.AddElement(0, oBlockLvlSdt);
+let doc = Api.GetDocument();
+let blockLvlSdt = Api.CreateBlockLvlSdt();
+blockLvlSdt.GetContent().GetElement(0).AddText("This is a block text content control.");
+doc.AddElement(0, blockLvlSdt);
 ```

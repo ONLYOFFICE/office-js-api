@@ -12,7 +12,7 @@ expression.COTH(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; [ApiName](../../ApiName/ApiName.md) &#124; number |  | The angle in radians for which the hyperbolic cotangent will be calculated. Its absolute value must be less than <em>2^27</em>. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The angle in radians for which the hyperbolic cotangent will be calculated. Its absolute value must be less than &lt;em&gt;2^27&lt;/em&gt;. |
 
 ## Returns
 

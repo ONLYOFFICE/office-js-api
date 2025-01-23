@@ -12,11 +12,11 @@ expression.GetData(items);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| items | Required | Array.&lt;string&gt; |  | Describes a single cell in the pivot table report. For example, "'Estimated Costs' Tables May", which shows the estimated costs for tables in May (Data field = Costs, Product = Tables, Month = May). |
+| items | Required | string[] |  | Describes a single cell in the pivot table report. For example, "'Estimated Costs' Tables May", which shows the estimated costs for tables in May (Data field = Costs, Product = Tables, Month = May). |
 
 ## Returns
 
-number, null
+number | null
 
 ## Example
 

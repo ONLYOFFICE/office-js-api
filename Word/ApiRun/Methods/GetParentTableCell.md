@@ -14,26 +14,26 @@ This method doesn't have any parameters.
 
 ## Returns
 
-ApiTableCell, null
+[ApiTableCell](../../ApiTableCell/ApiTableCell.md) | null
 
 ## Example
 
 This example shows how to get a table cell that contains the run.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-var oTable = Api.CreateTable(3, 3);
-oTable.SetWidth("percent", 100);
-oTable.SetStyle(oTableStyle);
-oDocument.Push(oTable);
-var oParagraph = Api.CreateParagraph();
-var oRun = Api.CreateRun();
-oRun.AddText("This is just a sample text.");
-oParagraph.AddElement(oRun);
-var oCell = oTable.GetCell(0,0);
-oTable.AddElement(oCell, 0, oParagraph);
-var oParentTableCell = oRun.GetParentTableCell();
-oParentTableCell.SetShd("clear", 255, 111, 61, false);
+let doc = Api.GetDocument();
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
+let table = Api.CreateTable(3, 3);
+table.SetWidth("percent", 100);
+table.SetStyle(tableStyle);
+doc.Push(table);
+let paragraph = Api.CreateParagraph();
+let run = Api.CreateRun();
+run.AddText("This is just a sample text.");
+paragraph.AddElement(run);
+let cell = table.GetCell(0, 0);
+table.AddElement(cell, 0, paragraph);
+let parentTableCell = run.GetParentTableCell();
+parentTableCell.SetShd("clear", 255, 111, 61, false);
 ```

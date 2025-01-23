@@ -21,20 +21,20 @@ This method doesn't have any parameters.
 This example inserts a number of the current document page into the paragraph.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("First page");
-oParagraph.AddPageBreak();
-oParagraph.AddText("Second page");
-oParagraph.AddPageBreak();
-oParagraph.AddText("Third page");
-var oSection = oDocument.GetFinalSection();
-var oHeader = oSection.GetHeader("default", true);
-oParagraph = oHeader.GetElement(0);
-oParagraph.AddText("Page #");
-oParagraph.AddPageNumber();
-oFooter = oSection.GetFooter("default", true);
-oParagraph = oFooter.GetElement(0);
-oParagraph.AddText("Page #");
-oParagraph.AddPageNumber();
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("First page");
+paragraph.AddPageBreak();
+paragraph.AddText("Second page");
+paragraph.AddPageBreak();
+paragraph.AddText("Third page");
+let section = doc.GetFinalSection();
+let header = section.GetHeader("default", true);
+paragraph = header.GetElement(0);
+paragraph.AddText("Page #");
+paragraph.AddPageNumber();
+let footer = section.GetFooter("default", true);
+paragraph = footer.GetElement(0);
+paragraph.AddText("Page #");
+paragraph.AddPageNumber();
 ```

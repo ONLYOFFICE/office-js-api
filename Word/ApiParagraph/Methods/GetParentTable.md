@@ -14,25 +14,25 @@ This method doesn't have any parameters.
 
 ## Returns
 
-ApiTable, null
+[ApiTable](../../ApiTable/ApiTable.md) | null
 
 ## Example
 
 This example shows how to get a table that contains the paragraph.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-var oTable = Api.CreateTable(3, 3);
-oTable.SetWidth("percent", 100);
-oTable.SetStyle(oTableStyle);
-oDocument.Push(oTable);
-var oParagraph = Api.CreateParagraph();
-oParagraph.AddText("This is just a sample text.");
-var oCell = oTable.GetCell(0,0);
-oTable.AddElement(oCell, 0, oParagraph);
-var oParentTable = oParagraph.GetParentTable();
-oCell = oParentTable.GetRow(2).GetCell(0);
-oParentTable.RemoveRow(oCell);
+let doc = Api.GetDocument();
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
+let table = Api.CreateTable(3, 3);
+table.SetWidth("percent", 100);
+table.SetStyle(tableStyle);
+doc.Push(table);
+let paragraph = Api.CreateParagraph();
+paragraph.AddText("This is just a sample text.");
+let cell = table.GetCell(0, 0);
+table.AddElement(cell, 0, paragraph);
+let parentTable = paragraph.GetParentTable();
+cell = parentTable.GetRow(2).GetCell(0);
+parentTable.RemoveRow(cell);
 ```

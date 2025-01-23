@@ -12,7 +12,7 @@ expression.SetSeriaValues(aValues, nSeria);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| aValues | Required | Array.&lt;number&gt; |  | The array of the data which will be set to the specified chart series. |
+| aValues | Required | number[] |  | The array of the data which will be set to the specified chart series. |
 | nSeria | Required | number |  | The index of the chart series. |
 
 ## Returns

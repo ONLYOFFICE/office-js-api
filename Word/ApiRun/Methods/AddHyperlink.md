@@ -17,17 +17,17 @@ expression.AddHyperlink(sLink, sScreenTipText);
 
 ## Returns
 
-ApiHyperlink, null
+[ApiHyperlink](../../ApiHyperlink/ApiHyperlink.md) | null
 
 ## Example
 
 This example adds a hyperlink to the run.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oRun = Api.CreateRun();
-oRun.AddText("ONLYOFFICE Document Builder");
-oParagraph.AddElement(oRun);
-oRun.AddHyperlink("https://www.onlyoffice.com", "main page");
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let run = Api.CreateRun();
+run.AddText("ONLYOFFICE Document Builder");
+paragraph.AddElement(run);
+run.AddHyperlink("https://www.onlyoffice.com", "main page");
 ```

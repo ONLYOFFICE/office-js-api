@@ -23,19 +23,19 @@ This method doesn't return any data.
 This example specifies the chart legend font size.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oChart = Api.CreateChart("bar3D", [
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let chart = Api.CreateChart("bar3D", [
 	[200, 240, 280],
 	[250, 260, 280]
 ], ["Projected Revenue", "Estimated Costs"], [2014, 2015, 2016], 4051300, 2347595, 24);
-var oFill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
-oChart.SetSeriesFill(oFill, 0, false);
-oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-oChart.SetSeriesFill(oFill, 1, false);
-oChart.SetVerAxisTitle("USD In Hundred Thousands", 10);
-oChart.SetHorAxisTitle("Year", 11);
-oChart.SetLegendFontSize(12);
-oChart.SetTitle("Financial Overview", 13);
-oParagraph.AddDrawing(oChart);
+let fill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
+chart.SetSeriesFill(fill, 0, false);
+fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+chart.SetSeriesFill(fill, 1, false);
+chart.SetVerAxisTitle("USD In Hundred Thousands", 10);
+chart.SetHorAxisTitle("Year", 11);
+chart.SetLegendFontSize(12);
+chart.SetTitle("Financial Overview", 13);
+paragraph.AddDrawing(chart);
 ```

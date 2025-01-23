@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-"auto", "atLeast", "exact", undefined
+"auto" | "atLeast" | "exact" | undefined
 
 ## Example
 

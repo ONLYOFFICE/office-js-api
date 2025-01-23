@@ -16,16 +16,16 @@ expression.SetDoubleStrikeout(isDoubleStrikeout);
 
 ## Returns
 
-ApiRange, null
+[ApiRange](../../ApiRange/ApiRange.md) | null
 
 ## Example
 
 This example specifies that the contents of the current Range are displayed with two horizontal lines through each character displayed on the line.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("ONLYOFFICE Document Server Builder");
-var oRange = oDocument.GetRange(18, 23);
-oRange.SetDoubleStrikeout(true);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("ONLYOFFICE Document Server Builder");
+let range = doc.GetRange(18, 23);
+range.SetDoubleStrikeout(true);
 ```

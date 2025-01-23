@@ -23,24 +23,24 @@ This method doesn't return any data.
 This example specifies a number of columns which will comprise each table column band for this table style.
 
 ```javascript
-var oDocument = Api.GetDocument();
-oDocument.RemoveAllElements();
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-var oTable = Api.CreateTable(4, 2);
-oTable.SetWidth("percent", 100);
-oTable.SetStyle(oTableStyle);
-var oTablePr = oTableStyle.GetTablePr();
-oTable.SetTableLook(true, true, true, true, true, true);
-oTablePr.SetStyleColBandSize(2);
-oTableStyle.GetConditionalTableStyle("bandedColumn").GetTextPr().SetBold(true);
-oTable.GetRow(0).GetCell(0).GetContent().GetElement(0).AddText("Bold");
-oTable.GetRow(0).GetCell(1).GetContent().GetElement(0).AddText("Bold");
-oTable.GetRow(0).GetCell(2).GetContent().GetElement(0).AddText("Normal");
-oTable.GetRow(0).GetCell(3).GetContent().GetElement(0).AddText("Normal");
-oTable.GetRow(1).GetCell(0).GetContent().GetElement(0).AddText("Bold");
-oTable.GetRow(1).GetCell(1).GetContent().GetElement(0).AddText("Bold");
-oTable.GetRow(1).GetCell(2).GetContent().GetElement(0).AddText("Normal");
-oTable.GetRow(1).GetCell(3).GetContent().GetElement(0).AddText("Normal");
-oDocument.Push(oTable);
+let doc = Api.GetDocument();
+doc.RemoveAllElements();
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
+let table = Api.CreateTable(4, 2);
+table.SetWidth("percent", 100);
+table.SetStyle(tableStyle);
+let tablePr = tableStyle.GetTablePr();
+table.SetTableLook(true, true, true, true, true, true);
+tablePr.SetStyleColBandSize(2);
+tableStyle.GetConditionalTableStyle("bandedColumn").GetTextPr().SetBold(true);
+table.GetRow(0).GetCell(0).GetContent().GetElement(0).AddText("Bold");
+table.GetRow(0).GetCell(1).GetContent().GetElement(0).AddText("Bold");
+table.GetRow(0).GetCell(2).GetContent().GetElement(0).AddText("Normal");
+table.GetRow(0).GetCell(3).GetContent().GetElement(0).AddText("Normal");
+table.GetRow(1).GetCell(0).GetContent().GetElement(0).AddText("Bold");
+table.GetRow(1).GetCell(1).GetContent().GetElement(0).AddText("Bold");
+table.GetRow(1).GetCell(2).GetContent().GetElement(0).AddText("Normal");
+table.GetRow(1).GetCell(3).GetContent().GetElement(0).AddText("Normal");
+doc.Push(table);
 ```

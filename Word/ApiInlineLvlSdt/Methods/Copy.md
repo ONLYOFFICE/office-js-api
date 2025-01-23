@@ -21,12 +21,12 @@ This method doesn't have any parameters.
 This example creates a copy of an inline content control.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oInlineLvlSdt = Api.CreateInlineLvlSdt();
-oInlineLvlSdt.AddText("This is an inline text content control.");
-oParagraph.AddInlineLvlSdt(oInlineLvlSdt);
-var oCopyInlineLvlSdt = oInlineLvlSdt .Copy();
-oParagraph.AddLineBreak();
-oParagraph.AddInlineLvlSdt(oCopyInlineLvlSdt);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let inlineLvlSdt = Api.CreateInlineLvlSdt();
+inlineLvlSdt.AddText("This is an inline text content control.");
+paragraph.AddInlineLvlSdt(inlineLvlSdt);
+let copyInlineLvlSdt = inlineLvlSdt.Copy();
+paragraph.AddLineBreak();
+paragraph.AddInlineLvlSdt(copyInlineLvlSdt);
 ```

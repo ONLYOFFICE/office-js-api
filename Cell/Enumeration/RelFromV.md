@@ -21,5 +21,5 @@ Enumeration
 This example set vertical aligment for a drawing object.
 
 ```javascript
-oDrawing.SetVerAlign("page", "center");
+drawing.SetVerAlign("page", "center");
 ```

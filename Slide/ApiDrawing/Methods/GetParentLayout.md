@@ -14,7 +14,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-ApiLayout, null
+[ApiLayout](../../ApiLayout/ApiLayout.md) | null
 
 ## Example
 

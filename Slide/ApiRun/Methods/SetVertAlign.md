@@ -15,7 +15,7 @@ expression.SetVertAlign(sType);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sType | Required | "baseline" &#124; "subscript" &#124; "superscript" |  | The vertical alignment type applied to the text contents. |
+| sType | Required | "baseline" | "subscript" | "superscript" |  | The vertical alignment type applied to the text contents. |
 
 ## Returns
 

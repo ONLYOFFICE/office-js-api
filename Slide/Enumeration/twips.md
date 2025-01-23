@@ -13,5 +13,5 @@ number
 This example set the distance between columns equal to 36 points.
 
 ```javascript
-oParagraph.SetEqualColumns(2, 720);
+paragraph.SetEqualColumns(2, 720);
 ```

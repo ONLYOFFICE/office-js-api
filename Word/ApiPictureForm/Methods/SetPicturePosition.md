@@ -27,20 +27,20 @@ boolean
 This example sets the picture position inside the form.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oPictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false});
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddElement(oPictureForm);
-oPictureForm.SetImage("https://api.onlyoffice.com/content/img/docbuilder/examples/user-profile.png");
-oPictureForm.SetPicturePosition(70, 70);
-var aPosition = oPictureForm.GetPicturePosition();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Picture position: ");
-oParagraph.AddLineBreak();
-for (let i = 0; i < aPosition.length; i++ ){
-	var nShift = aPosition[i];
-	oParagraph.AddText("" + nShift);
-	oParagraph.AddLineBreak();
+let doc = Api.GetDocument();
+let pictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false});
+let paragraph = doc.GetElement(0);
+paragraph.AddElement(pictureForm);
+pictureForm.SetImage("https://api.onlyoffice.com/content/img/docbuilder/examples/user-profile.png");
+pictureForm.SetPicturePosition(70, 70);
+let position = pictureForm.GetPicturePosition();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Picture position: ");
+paragraph.AddLineBreak();
+for (let i = 0; i < position.length; i++ ){
+	let shift = position[i];
+	paragraph.AddText("" + shift);
+	paragraph.AddLineBreak();
 }
-oDocument.Push(oParagraph);
+doc.Push(paragraph);
 ```

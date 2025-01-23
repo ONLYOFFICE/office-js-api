@@ -21,13 +21,13 @@ string
 This example shows how to get the comment text.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("This is just a sample text");
-Api.AddComment(oParagraph, "comment", "John Smith");
-var aComments = oDocument.GetAllComments();
-var sText = aComments[0].GetText();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Comment text: " + sText);
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("This is just a sample text");
+Api.AddComment(paragraph, "comment", "John Smith");
+let comments = doc.GetAllComments();
+let text = comments[0].GetText();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Comment text: " + text);
+doc.Push(paragraph);
 ```

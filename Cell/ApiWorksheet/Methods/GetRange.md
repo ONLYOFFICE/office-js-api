@@ -13,12 +13,12 @@ expression.GetRange(Range1, Range2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Range1 | Required | string &#124; [ApiRange](../../ApiRange/ApiRange.md) |  | The range of cells from the current sheet. |
-| Range2 | Required | string &#124; [ApiRange](../../ApiRange/ApiRange.md) |  | The range of cells from the current sheet. |
+| Range1 | Required | string | [ApiRange](../../ApiRange/ApiRange.md) |  | The range of cells from the current sheet. |
+| Range2 | Required | string | [ApiRange](../../ApiRange/ApiRange.md) |  | The range of cells from the current sheet. |
 
 ## Returns
 
-ApiRange, null
+[ApiRange](../../ApiRange/ApiRange.md) | null
 
 ## Example
 

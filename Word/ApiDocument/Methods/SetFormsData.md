@@ -12,7 +12,7 @@ expression.SetFormsData(arrData);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arrData | Required | Array.\<[FormData](../../Enumeration/FormData.md)> |  | An array of form data to set to the specified forms. |
+| arrData | Required | [FormData[]](../../Enumeration/FormData.md) |  | An array of form data to set to the specified forms. |
 
 ## Returns
 
@@ -20,17 +20,17 @@ This method doesn't return any data.
 
 ## Example
 
-This example showh how to set data to forms.
+This example shows how to set data to forms.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph1 = oDocument.GetElement(0);
-var oCheckBox = Api.CreateCheckBoxForm({key: "BestCompany"});
-oParagraph1.Push(oCheckBox);
-var oTextForm = Api.CreateTextForm({key: "CompanyName"});
-oParagraph1.Push(oTextForm);
+let doc = Api.GetDocument();
+let paragraph1 = doc.GetElement(0);
+let checkBox = Api.CreateCheckBoxForm({key: "BestCompany"});
+paragraph1.Push(checkBox);
+let textForm = Api.CreateTextForm({key: "CompanyName"});
+paragraph1.Push(textForm);
 
-oDocument.SetFormsData([
+doc.SetFormsData([
     {key: "BestCompany", value: true},
     {key: "CompanyName", value: "OnlyOffice"}
 ]);

@@ -4,7 +4,7 @@ Creates a pattern fill to apply to the object using the selected pattern as the 
 
 ## Syntax
 
-expression.CreatePatternFill(sPatternType, BgColor, FgColor);
+expression.CreatePatternFill(patternType, bgColor, fgColor);
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -12,9 +12,9 @@ expression.CreatePatternFill(sPatternType, BgColor, FgColor);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sPatternType | Required | [PatternType](../../Enumeration/PatternType.md) |  | The pattern type used for the fill selected from one of the available pattern types. |
-| BgColor | Required | [ApiUniColor](../../ApiUniColor/ApiUniColor.md) |  | The background color used for the pattern creation. |
-| FgColor | Required | [ApiUniColor](../../ApiUniColor/ApiUniColor.md) |  | The foreground color used for the pattern creation. |
+| patternType | Required | [PatternType](../../Enumeration/PatternType.md) |  | The pattern type used for the fill selected from one of the available pattern types. |
+| bgColor | Required | [ApiUniColor](../../ApiUniColor/ApiUniColor.md) |  | The background color used for the pattern creation. |
+| fgColor | Required | [ApiUniColor](../../ApiUniColor/ApiUniColor.md) |  | The foreground color used for the pattern creation. |
 
 ## Returns
 

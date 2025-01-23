@@ -16,7 +16,7 @@ expression.GetPivotByName(name);
 
 ## Returns
 
-ApiPivotTable, null
+[ApiPivotTable](../../ApiPivotTable/ApiPivotTable.md) | null
 
 ## Example
 

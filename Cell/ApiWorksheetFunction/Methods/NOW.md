@@ -1,6 +1,6 @@
 # NOW
 
-Returns the current date and time in the <em>MM/dd/yy hh:mm</em> format.
+Returns the current date and time in the &lt;em&gt;MM/dd/yy hh:mm&lt;/em&gt; format.
 
 ## Syntax
 

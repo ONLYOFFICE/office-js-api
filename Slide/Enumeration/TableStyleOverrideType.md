@@ -7,7 +7,7 @@ This simple type specifies possible values for the table sections to which the c
 **"bottomRightCell"** - specifies that the table formatting is applied to the bottom right cell.
 **"firstRow"** - specifies that the table formatting is applied to the first row.
 **"lastRow"** - specifies that the table formatting is applied to the last row.
-**"firstColumn"** - specifies that the table formatting is applied to the first column. Any subsequent row which is in *table header* ({@link ApiTableRowPr#SetTableHeader}) will also use this conditional format.
+**"firstColumn"** - specifies that the table formatting is applied to the first column. Any subsequent row which is in *table header* (&#123;@link ApiTableRowPr#SetTableHeader&#125;) will also use this conditional format.
 **"lastColumn"** - specifies that the table formatting is applied to the last column.
 **"bandedColumn"** - specifies that the table formatting is applied to odd numbered groupings of rows.
 **"bandedColumnEven"** - specifies that the table formatting is applied to even numbered groupings of rows.
@@ -41,5 +41,5 @@ Enumeration
 This example applys the created style (set shadow) to the top left cell of the table.
 
 ```javascript
-oTableStyle.GetConditionalTableStyle("topLeftCell").GetTableCellPr().SetShd("clear", 255, 0, 0);
+tableStyle.GetConditionalTableStyle("topLeftCell").GetTableCellPr().SetShd("clear", 255, 0, 0);
 ```

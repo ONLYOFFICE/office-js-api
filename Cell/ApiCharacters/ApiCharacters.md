@@ -11,7 +11,6 @@ Represents the ApiCharacters class.
 | Caption | string | The text of the specified range of characters. |
 | Text | string | The string value representing the text of the specified range of characters. |
 | Font | [ApiFont](../ApiFont/ApiFont.md) | The font of the specified characters. |
-
 ## Methods
 
 - [GetCount](./Methods/GetCount.md)

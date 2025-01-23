@@ -23,22 +23,22 @@ This method doesn't return any data.
 This example updates all fields in the current document.
 
 ```javascript
-let oDocument = Api.GetDocument();
-let oNewDocumentStyle = oDocument.GetStyle("Heading 1");
-let oParagraph = oDocument.GetElement(0);
-oParagraph.SetStyle(oNewDocumentStyle);
-oParagraph.AddText("Heading 1");
-oNewDocumentStyle = oDocument.GetStyle("Heading 2");
-oParagraph = Api.CreateParagraph();
-oParagraph.SetStyle(oNewDocumentStyle);
-oParagraph.AddText("Heading 2");
-oDocument.Push(oParagraph);
-let oTocPr = {"ShowPageNums": true, "RightAlgn": true, "LeaderType": "dot", "FormatAsLinks": true, "BuildFrom": {"OutlineLvls": 9}, "TocStyle": "standard"};
-oDocument.AddTableOfContents(oTocPr);
-oNewDocumentStyle = oDocument.GetStyle("Heading 2");
-oParagraph = Api.CreateParagraph();
-oParagraph.SetStyle(oNewDocumentStyle);
-oParagraph.AddText("Heading 3");
-oDocument.AddElement(3, oParagraph);
-oDocument.UpdateAllFields();
+let doc = Api.GetDocument();
+let newDocumentStyle = doc.GetStyle("Heading 1");
+let paragraph = doc.GetElement(0);
+paragraph.SetStyle(newDocumentStyle);
+paragraph.AddText("Heading 1");
+newDocumentStyle = doc.GetStyle("Heading 2");
+paragraph = Api.CreateParagraph();
+paragraph.SetStyle(newDocumentStyle);
+paragraph.AddText("Heading 2");
+doc.Push(paragraph);
+let tocPr = {"ShowPageNums": true, "RightAlgn": true, "LeaderType": "dot", "FormatAsLinks": true, "BuildFrom": {"OutlineLvls": 9}, "TocStyle": "standard"};
+doc.AddTableOfContents(tocPr);
+newDocumentStyle = doc.GetStyle("Heading 2");
+paragraph = Api.CreateParagraph();
+paragraph.SetStyle(newDocumentStyle);
+paragraph.AddText("Heading 3");
+doc.AddElement(3, paragraph);
+doc.UpdateAllFields();
 ```

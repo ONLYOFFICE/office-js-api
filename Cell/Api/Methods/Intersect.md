@@ -17,7 +17,7 @@ expression.Intersect(Range1, Range2);
 
 ## Returns
 
-ApiRange, null
+[ApiRange](../../ApiRange/ApiRange.md) | null
 
 ## Example
 

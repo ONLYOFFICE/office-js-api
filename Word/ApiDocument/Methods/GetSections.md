@@ -14,25 +14,25 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Array.\<[ApiSection](../../ApiSection/ApiSection.md)>
+[ApiSection[]](../../ApiSection/ApiSection.md)
 
 ## Example
 
 This example shows how to get a collection of section objects in the document.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("This is a new paragraph.");
-oParagraph.AddLineBreak();
-oParagraph.AddText("Scroll down to see the new section.");
-var oSection1 = oDocument.CreateSection(oParagraph);
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("This is a paragraph in a new section");
-oDocument.Push(oParagraph);
-var aSections = oDocument.GetSections();
-oParagraph = Api.CreateParagraph();
-var sClassType = aSections[1].GetClassType();
-oParagraph.AddText("Class type: " + sClassType);
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("This is a new paragraph.");
+paragraph.AddLineBreak();
+paragraph.AddText("Scroll down to see the new section.");
+let section1 = doc.CreateSection(paragraph);
+paragraph = Api.CreateParagraph();
+paragraph.AddText("This is a paragraph in a new section");
+doc.Push(paragraph);
+let sections = doc.GetSections();
+paragraph = Api.CreateParagraph();
+let classType = sections[1].GetClassType();
+paragraph.AddText("Class type: " + classType);
+doc.Push(paragraph);
 ```

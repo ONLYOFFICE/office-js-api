@@ -21,11 +21,11 @@ This method doesn't have any parameters.
 This example gets a watermark type and pastes it into the document.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oWatermarkSettings = oDocument.GetWatermarkSettings();
-var sClassType = oWatermarkSettings.GetType();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Watermark Type = " + sClassType);
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let watermarkSettings = doc.GetWatermarkSettings();
+let classType = watermarkSettings.GetType();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Watermark Type = " + classType);
+doc.Push(paragraph);
 ```

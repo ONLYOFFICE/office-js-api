@@ -16,7 +16,7 @@ expression.GetRows(nRow);
 
 ## Returns
 
-ApiRange, null
+[ApiRange](../../ApiRange/ApiRange.md) | null
 
 ## Example
 

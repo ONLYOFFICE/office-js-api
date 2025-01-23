@@ -7,16 +7,15 @@ Represents the ApiFont class.
 | Name | Type | Description |
 | ---- | ---- | ----------- |
 | Parent | [ApiCharacters](../ApiCharacters/ApiCharacters.md) | The parent object of the specified font object. |
-| Bold | boolean &#124; null | The font bold property. |
-| Italic | boolean &#124; null | The font italic property. |
-| Size | number &#124; null | The font size property. |
-| Strikethrough | boolean &#124; null | The font strikethrough property. |
-| Underline | string &#124; null | The font type of underline. |
-| Subscript | boolean &#124; null | The font subscript property. |
-| Superscript | boolean &#124; null | The font superscript property. |
-| Name | string &#124; null | The font name. |
-| Color | [ApiColor](../ApiColor/ApiColor.md) &#124; null | The font color property. |
-
+| Bold | boolean | null | The font bold property. |
+| Italic | boolean | null | The font italic property. |
+| Size | number | null | The font size property. |
+| Strikethrough | boolean | null | The font strikethrough property. |
+| Underline | string | null | The font type of underline. |
+| Subscript | boolean | null | The font subscript property. |
+| Superscript | boolean | null | The font superscript property. |
+| Name | string | null | The font name. |
+| Color | [ApiColor](../ApiColor/ApiColor.md) | null | The font color property. |
 ## Methods
 
 - [GetParent](./Methods/GetParent.md)

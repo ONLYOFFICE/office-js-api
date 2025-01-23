@@ -19,5 +19,5 @@ Enumeration
 This example sets the scaling condition when the current picture form is scaled if it is too big.
 
 ```javascript
-oPictureForm.SetScaleFlag("tooBig");
+pictureForm.SetScaleFlag("tooBig");
 ```
