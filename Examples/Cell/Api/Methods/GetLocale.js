@@ -1,5 +1,5 @@
 // This example shows how to get the current locale ID.
-var oWorksheet = Api.GetActiveSheet();
+let worksheet = Api.GetActiveSheet();
 Api.SetLocale("en-CA");
-var nLocale = Api.GetLocale();
-oWorksheet.GetRange("A1").SetValue("Locale: " + nLocale);
+let locale = Api.GetLocale();
+worksheet.GetRange("A1").SetValue("Locale: " + locale);
