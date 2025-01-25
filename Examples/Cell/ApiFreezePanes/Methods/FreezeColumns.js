@@ -1,4 +1,4 @@
 // This example freezes the the first column.
-var oWorksheet = Api.GetActiveSheet();
-var oFreezePanes = oWorksheet.GetFreezePanes();
-oFreezePanes.FreezeColumns(1);
+let worksheet = Api.GetActiveSheet();
+let freezePanes = worksheet.GetFreezePanes();
+freezePanes.FreezeColumns(1);
