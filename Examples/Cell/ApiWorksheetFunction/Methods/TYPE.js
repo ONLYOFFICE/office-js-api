@@ -1,5 +1,5 @@
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue(oFunction.TYPE(255));
-oWorksheet.GetRange("A2").SetValue(oFunction.TYPE(true));
-oWorksheet.GetRange("A3").SetValue(oFunction.TYPE("Online Office"));
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue(func.TYPE(255));
+worksheet.GetRange("A2").SetValue(func.TYPE(true));
+worksheet.GetRange("A3").SetValue(func.TYPE("Online Office"));

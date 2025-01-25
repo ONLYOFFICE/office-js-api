@@ -1,7 +1,7 @@
 
-const oWorksheet = Api.GetActiveSheet();
+const worksheet = Api.GetActiveSheet();
 
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.YEARFRAC("12/7/1981", "11/5/2018");
+let func = Api.GetWorksheetFunction();
+let ans = func.YEARFRAC("12/7/1981", "11/5/2018");
 
-oWorksheet.GetRange("C1").SetValue(ans);
+worksheet.GetRange("C1").SetValue(ans);

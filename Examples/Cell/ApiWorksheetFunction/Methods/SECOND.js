@@ -1,7 +1,7 @@
 
-const oWorksheet = Api.GetActiveSheet();
+const worksheet = Api.GetActiveSheet();
 
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.SECOND("16:39:35"); 
+let func = Api.GetWorksheetFunction();
+let ans = func.SECOND("16:39:35"); 
 
-oWorksheet.GetRange("C1").SetValue(ans);
+worksheet.GetRange("C1").SetValue(ans);

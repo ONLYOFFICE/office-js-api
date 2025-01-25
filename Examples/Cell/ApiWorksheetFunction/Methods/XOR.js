@@ -1,7 +1,7 @@
 
-const oWorksheet = Api.GetActiveSheet();
+const worksheet = Api.GetActiveSheet();
 
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.TRUE(); //returns TRUE, doesnt require arguments
+let func = Api.GetWorksheetFunction();
+let ans = func.TRUE(); //returns TRUE, doesnt require arguments
 
-oWorksheet.GetRange("A1").SetValue(ans);
+worksheet.GetRange("A1").SetValue(ans);
