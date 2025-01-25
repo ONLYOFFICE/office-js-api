@@ -1,5 +1,5 @@
 // This example sets the left margin of the sheet.
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.SetLeftMargin(20.8);
-var nLeftMargin = oWorksheet.GetLeftMargin();
-oWorksheet.GetRange("A1").SetValue("Left margin: " + nLeftMargin + " mm");
+let worksheet = Api.GetActiveSheet();
+worksheet.SetLeftMargin(20.8);
+let leftMargin = worksheet.GetLeftMargin();
+worksheet.GetRange("A1").SetValue("Left margin: " + leftMargin + " mm");
