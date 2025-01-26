@@ -1,5 +1,5 @@
 // This example sets the right margin of the sheet.
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.SetRightMargin(20.8);
-var nRightMargin = oWorksheet.GetRightMargin();
-oWorksheet.GetRange("A1").SetValue("Right margin: " + nRightMargin + " mm");
+let worksheet = Api.GetActiveSheet();
+worksheet.SetRightMargin(20.8);
+let rightMargin = worksheet.GetRightMargin();
+worksheet.GetRange("A1").SetValue("Right margin: " + rightMargin + " mm");

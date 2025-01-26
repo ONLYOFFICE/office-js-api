@@ -1,7 +1,7 @@
 // This example shows how to get a comment from the current document by its ID.
-var oComment = Api.AddComment("Comment", "Bob");
-var sId = oComment.GetId();
-oComment = Api.GetCommentById(sId);
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.GetRange("A1").SetValue("Commet Text: ", oComment.GetText());
-oWorksheet.GetRange("B1").SetValue("Commet Author: ", oComment.GetAuthorName());
+let comment = Api.AddComment("Comment", "Bob");
+let id = comment.GetId();
+comment = Api.GetCommentById(id);
+let worksheet = Api.GetActiveSheet();
+worksheet.GetRange("A1").SetValue("Comment Text: ", comment.GetText());
+worksheet.GetRange("B1").SetValue("Comment Author: ", comment.GetAuthorName());

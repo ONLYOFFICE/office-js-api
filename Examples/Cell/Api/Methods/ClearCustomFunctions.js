@@ -1,4 +1,4 @@
-// This example clear all added custom functions.
+// This example clears all added custom functions.
 Api.AddCustomFunctionLibrary("LibraryName", function(){
     /**
      * Function that returns the argument
@@ -11,7 +11,7 @@ Api.AddCustomFunctionLibrary("LibraryName", function(){
     });
 });
 
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.GetRange("A1").SetValue("=ADD(1, 2)");
+let worksheet = Api.GetActiveSheet();
+worksheet.GetRange("A1").SetValue("=ADD(1, 2)");
 Api.ClearCustomFunctions();
-oWorksheet.GetRange("A3").SetValue("All the custom functions were removed.");
+worksheet.GetRange("A3").SetValue("All the custom functions were removed.");

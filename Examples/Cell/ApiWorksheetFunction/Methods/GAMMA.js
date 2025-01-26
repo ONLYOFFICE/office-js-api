@@ -1,6 +1,6 @@
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.GAMMA(2.7);
-oWorksheet.GetRange("B2").SetValue(ans);
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+let ans = func.GAMMA(2.7);
+worksheet.GetRange("B2").SetValue(ans);
 

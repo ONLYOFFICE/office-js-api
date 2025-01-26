@@ -1,4 +1,4 @@
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.BETA_INV(0.2, 4, 5);
-oWorksheet.GetRange("B2").SetValue(ans);
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+let ans = func.BETA_INV(0.2, 4, 5);
+worksheet.GetRange("B2").SetValue(ans);

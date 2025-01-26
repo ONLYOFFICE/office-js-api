@@ -1,9 +1,9 @@
 
 
-var oWorksheet = Api.GetActiveSheet();
+let worksheet = Api.GetActiveSheet();
 
 // Data array
-var data = [
+let data = [
     [1, 0, 0, false],
     ["text", 1, 0, 0],
     [2, 3, true, 7],
@@ -11,15 +11,15 @@ var data = [
 ];
 
 // Place the data in cells A1:D4
-for (var i = 0; i < data.length; i++) {
-    for (var j = 0; j < data[i].length; j++) {
-        oWorksheet.GetRangeByNumber(i, j).SetValue(data[i][j]);
+for (let i = 0; i < data.length; i++) {
+    for (let j = 0; j < data[i].length; j++) {
+        worksheet.GetRangeByNumber(i, j).SetValue(data[i][j]);
     }
 }
 
-// Calculate the VARPA of the range A1:D4 and place the result in cell D5
-var oFunction = Api.GetWorksheetFunction();
-var varpaResult = oFunction.VARPA(oWorksheet.GetRange("A1:D4"));
-oWorksheet.GetRange("D5").SetValue(varpaResult);
+// Calculate the letPA of the range A1:D4 and place the result in cell D5
+let func = Api.GetWorksheetFunction();
+let letpaResult = func.VARPA(worksheet.GetRange("A1:D4"));
+worksheet.GetRange("D5").SetValue(letpaResult);
 
 

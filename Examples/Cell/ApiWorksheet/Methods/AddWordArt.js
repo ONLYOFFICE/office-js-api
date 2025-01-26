@@ -1,11 +1,11 @@
 // This example adds a Text Art object to the sheet with the parameters specified.
-var oWorksheet = Api.GetActiveSheet();
-var oTextPr = Api.CreateTextPr();
-oTextPr.SetFontSize(72);
-oTextPr.SetBold(true);
-oTextPr.SetCaps(true);
-oTextPr.SetColor(51, 51, 51, false);
-oTextPr.SetFontFamily("Comic Sans MS");
-var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-var oStroke = Api.CreateStroke(1 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51)));
-oWorksheet.AddWordArt(oTextPr, "onlyoffice", "textArchUp", oFill, oStroke, 0, 100 * 36000, 20 * 36000, 0, 2, 2 * 36000, 3 * 36000);
+let worksheet = Api.GetActiveSheet();
+let textProps = Api.CreateTextPr();
+textProps.SetFontSize(72);
+textProps.SetBold(true);
+textProps.SetCaps(true);
+textProps.SetColor(51, 51, 51, false);
+textProps.SetFontFamily("Comic Sans MS");
+let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+let stroke = Api.CreateStroke(1 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51)));
+worksheet.AddWordArt(textProps, "onlyoffice", "textArchUp", fill, stroke, 0, 100 * 36000, 20 * 36000, 0, 2, 2 * 36000, 3 * 36000);

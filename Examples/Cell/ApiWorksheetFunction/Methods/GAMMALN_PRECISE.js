@@ -1,6 +1,6 @@
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.GAMMALN_PRECISE(0.5);
-oWorksheet.GetRange("B2").SetValue(ans);
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+let ans = func.GAMMALN_PRECISE(0.5);
+worksheet.GetRange("B2").SetValue(ans);
 
