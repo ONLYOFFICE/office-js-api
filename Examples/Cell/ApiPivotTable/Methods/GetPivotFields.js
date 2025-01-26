@@ -28,8 +28,6 @@ pivotTable.AddFields({
 });
 pivotTable.AddDataField('Price');
 
-let pivotFields = pivotTable.GetPivotFields();
-
 let pivotWorksheet = Api.GetActiveSheet();
 pivotWorksheet.GetRange('A9').SetValue('Pivot Fields');
 
