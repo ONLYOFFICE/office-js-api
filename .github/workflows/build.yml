@@ -67,6 +67,7 @@ jobs:
           cd build_tools/scripts/sdkjs_common/jsdoc
           npm install
           python generate_docs_md.py
+          python generate_docs_plugins_md.py
           cd ../../../../office-js-api
 
           if ! git diff --exit-code; then
