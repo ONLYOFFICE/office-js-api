@@ -20,6 +20,7 @@ Represents the Api class.
 - [ReplaceTextSmart](./Methods/ReplaceTextSmart.md)
 - [CreateTextPr](./Methods/CreateTextPr.md)
 - [GetFullName](./Methods/GetFullName.md)
+- [GetPresentation](./Methods/GetPresentation.md)
 - [CreateMaster](./Methods/CreateMaster.md)
 - [CreateLayout](./Methods/CreateLayout.md)
 - [CreatePlaceholder](./Methods/CreatePlaceholder.md)
