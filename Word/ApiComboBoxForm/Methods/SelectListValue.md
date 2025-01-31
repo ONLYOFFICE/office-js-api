@@ -4,7 +4,9 @@ Selects the specified value from the combo box list values.
 
 ## Syntax
 
+```javascript
 expression.SelectListValue(sValue);
+```
 
 `expression` - A variable that represents a [ApiComboBoxForm](../ApiComboBoxForm.md) class.
 

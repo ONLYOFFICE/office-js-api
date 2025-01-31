@@ -4,7 +4,9 @@ Returns a row by its index.
 
 ## Syntax
 
+```javascript
 expression.GetRow(nIndex);
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 

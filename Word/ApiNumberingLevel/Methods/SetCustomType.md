@@ -4,7 +4,9 @@ Sets your own customized numbering type.
 
 ## Syntax
 
+```javascript
 expression.SetCustomType(sType, sTextFormatString, sAlign);
+```
 
 `expression` - A variable that represents a [ApiNumberingLevel](../ApiNumberingLevel.md) class.
 

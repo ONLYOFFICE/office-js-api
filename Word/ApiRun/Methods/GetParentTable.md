@@ -4,7 +4,9 @@ Returns a table that contains the current run.
 
 ## Syntax
 
+```javascript
 expression.GetParentTable();
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 

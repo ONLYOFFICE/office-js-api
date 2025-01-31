@@ -4,7 +4,9 @@ Sets the absolute measurement for the vertical positioning of the floating objec
 
 ## Syntax
 
+```javascript
 expression.SetVerPosition(sRelativeFrom, nDistance);
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 

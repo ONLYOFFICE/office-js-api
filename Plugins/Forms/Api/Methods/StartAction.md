@@ -4,7 +4,9 @@ Specifies the start action for long operations.
 
 ## Syntax
 
+```javascript
 expression.StartAction(type, description);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

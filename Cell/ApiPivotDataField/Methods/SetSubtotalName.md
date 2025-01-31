@@ -4,7 +4,9 @@ Sets the text label displayed in the subtotal column or row heading in the speci
 
 ## Syntax
 
+```javascript
 expression.SetSubtotalName(caption);
+```
 
 `expression` - A variable that represents a [ApiPivotDataField](../ApiPivotDataField.md) class.
 

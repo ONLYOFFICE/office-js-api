@@ -4,7 +4,9 @@ Returns the arctangent of the specified x and y coordinates, in radians between 
 
 ## Syntax
 
+```javascript
 expression.ATAN2(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

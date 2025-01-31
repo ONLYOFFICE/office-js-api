@@ -4,7 +4,9 @@ Returns the price per $100 face value for a Treasury bill.
 
 ## Syntax
 
+```javascript
 expression.TBILLPRICE(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

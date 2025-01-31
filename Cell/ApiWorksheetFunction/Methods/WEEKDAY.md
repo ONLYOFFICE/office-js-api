@@ -4,7 +4,9 @@ Returns a number from 1 to 7 identifying the day of the week of the specified da
 
 ## Syntax
 
+```javascript
 expression.WEEKDAY(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

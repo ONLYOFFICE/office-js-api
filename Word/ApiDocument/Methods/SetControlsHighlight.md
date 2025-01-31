@@ -4,7 +4,9 @@ Sets the highlight to the content controls from the current document.
 
 ## Syntax
 
+```javascript
 expression.SetControlsHighlight(r, g, b, bNone);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

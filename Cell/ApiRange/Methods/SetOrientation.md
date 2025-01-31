@@ -4,7 +4,9 @@ Sets an angle to the current cell range.
 
 ## Syntax
 
+```javascript
 expression.SetOrientation(angle);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

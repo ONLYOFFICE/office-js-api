@@ -4,7 +4,9 @@ Creates a copy of the current slide object.
 
 ## Syntax
 
+```javascript
 expression.Copy();
+```
 
 `expression` - A variable that represents a [ApiSlide](../ApiSlide.md) class.
 

@@ -4,7 +4,9 @@ Removes an element using the position specified from the current inline text con
 
 ## Syntax
 
+```javascript
 expression.RemoveElement(nPos);
+```
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 

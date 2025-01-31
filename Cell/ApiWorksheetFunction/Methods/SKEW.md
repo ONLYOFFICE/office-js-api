@@ -4,7 +4,9 @@ Returns the skewness of a distribution: a characterization of the degree of asym
 
 ## Syntax
 
+```javascript
 expression.SKEW(args);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

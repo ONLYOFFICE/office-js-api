@@ -4,7 +4,9 @@ Selects the current word if it is possible.
 
 ## Syntax
 
+```javascript
 expression.SelectCurrentWord();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

@@ -4,7 +4,9 @@ Specifies font size for labels of the horizontal axis.
 
 ## Syntax
 
+```javascript
 expression.SetHorAxisLablesFontSize(nFontSize);
+```
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 

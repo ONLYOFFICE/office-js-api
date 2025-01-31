@@ -4,7 +4,9 @@ Sets the radio group key to the current radio button.
 
 ## Syntax
 
+```javascript
 expression.SetRadioGroup(sKey);
+```
 
 `expression` - A variable that represents a [ApiCheckBoxForm](../ApiCheckBoxForm.md) class.
 

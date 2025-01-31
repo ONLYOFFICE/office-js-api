@@ -4,7 +4,9 @@ Returns the hyperbolic cotangent of a number.
 
 ## Syntax
 
+```javascript
 expression.COTH(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

@@ -4,7 +4,9 @@ Adds a string tag to the current inline text content control.
 
 ## Syntax
 
+```javascript
 expression.SetTag(sTag);
+```
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 

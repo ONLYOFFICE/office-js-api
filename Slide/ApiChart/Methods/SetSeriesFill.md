@@ -4,7 +4,9 @@ Sets the fill to the specified chart series.
 
 ## Syntax
 
+```javascript
 expression.SetSeriesFill(oFill, nSeries, bAll);
+```
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 

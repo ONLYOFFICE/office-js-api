@@ -4,7 +4,9 @@ Returns a collection of image objects from the document content.
 
 ## Syntax
 
+```javascript
 expression.GetAllImages();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

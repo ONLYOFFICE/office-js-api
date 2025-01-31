@@ -4,7 +4,9 @@ Returns a cell by its position.
 
 ## Syntax
 
+```javascript
 expression.GetCell(nRow, nCell);
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 

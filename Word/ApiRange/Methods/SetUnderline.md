@@ -5,7 +5,9 @@ Specifies that the contents of the current Range are displayed along with a line
 
 ## Syntax
 
+```javascript
 expression.SetUnderline(isUnderline);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

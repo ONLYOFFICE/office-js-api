@@ -4,7 +4,9 @@ Returns the factorial of a number, which is equal to &lt;em&gt;1*2*3*...*&lt;/em
 
 ## Syntax
 
+```javascript
 expression.FACT(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

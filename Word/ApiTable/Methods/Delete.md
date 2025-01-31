@@ -4,7 +4,9 @@ Deletes the current table.
 
 ## Syntax
 
+```javascript
 expression.Delete();
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 

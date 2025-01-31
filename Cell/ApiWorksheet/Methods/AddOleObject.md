@@ -4,7 +4,9 @@ Adds an OLE object to the current sheet with the parameters specified.
 
 ## Syntax
 
+```javascript
 expression.AddOleObject(sImageSrc, nWidth, nHeight, sData, sAppId, nFromCol, nColOffset, nFromRow, nRowOffset);
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

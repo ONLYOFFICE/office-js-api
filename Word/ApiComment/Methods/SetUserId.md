@@ -4,7 +4,9 @@ Sets the user ID to the comment author.
 
 ## Syntax
 
+```javascript
 expression.SetUserId(sUserId);
+```
 
 `expression` - A variable that represents a [ApiComment](../ApiComment.md) class.
 

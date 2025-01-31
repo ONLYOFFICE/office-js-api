@@ -4,7 +4,9 @@ Returns an array with all the shape objects from the slide master.
 
 ## Syntax
 
+```javascript
 expression.GetAllShapes();
+```
 
 `expression` - A variable that represents a [ApiMaster](../ApiMaster.md) class.
 

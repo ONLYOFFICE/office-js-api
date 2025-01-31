@@ -4,7 +4,9 @@ Returns all styles of the current document.
 
 ## Syntax
 
+```javascript
 expression.GetAllStyles();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

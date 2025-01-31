@@ -4,7 +4,9 @@ Creates a new theme font scheme.
 
 ## Syntax
 
+```javascript
 expression.CreateThemeFontScheme(mjLatin, mjEa, mjCs, mnLatin, mnEa, mnCs, sName);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

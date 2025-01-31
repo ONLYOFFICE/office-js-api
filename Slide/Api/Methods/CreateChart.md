@@ -4,7 +4,9 @@ Creates a chart with the parameters specified.
 
 ## Syntax
 
+```javascript
 expression.CreateChart(sType, aSeries, aSeriesNames, aCatNames, nWidth, nHeight, nStyleIndex, aNumFormats);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

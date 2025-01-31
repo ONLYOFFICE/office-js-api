@@ -4,7 +4,9 @@ Returns the shape inner contents where a paragraph or text runs can be inserted 
 
 ## Syntax
 
+```javascript
 expression.GetContent();
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 

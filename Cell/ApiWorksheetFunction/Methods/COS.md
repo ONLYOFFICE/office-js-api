@@ -4,7 +4,9 @@ Returns the cosine of an angle.
 
 ## Syntax
 
+```javascript
 expression.COS(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

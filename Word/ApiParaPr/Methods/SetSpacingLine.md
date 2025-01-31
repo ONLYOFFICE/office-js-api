@@ -7,7 +7,9 @@ nLine parameter will be interpreted as 240ths of a line.
 
 ## Syntax
 
+```javascript
 expression.SetSpacingLine(nLine, sLineRule);
+```
 
 `expression` - A variable that represents a [ApiParaPr](../ApiParaPr.md) class.
 

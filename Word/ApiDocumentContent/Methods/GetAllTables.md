@@ -4,7 +4,9 @@ Returns an array of all tables from the current document content.
 
 ## Syntax
 
+```javascript
 expression.GetAllTables();
+```
 
 `expression` - A variable that represents a [ApiDocumentContent](../ApiDocumentContent.md) class.
 

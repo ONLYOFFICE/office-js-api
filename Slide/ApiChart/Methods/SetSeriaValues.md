@@ -4,7 +4,9 @@ Sets values to the specified chart series.
 
 ## Syntax
 
+```javascript
 expression.SetSeriaValues(aValues, nSeria);
+```
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 

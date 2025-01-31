@@ -4,7 +4,9 @@ Returns the image data from the first of the selected drawings. If there are no 
 
 ## Syntax
 
+```javascript
 expression.GetImageDataFromSelection();
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

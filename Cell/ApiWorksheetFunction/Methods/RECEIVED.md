@@ -4,7 +4,9 @@ Returns the amount received at maturity for a fully invested security.
 
 ## Syntax
 
+```javascript
 expression.RECEIVED(arg1, arg2, arg3, arg4, arg6);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

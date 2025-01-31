@@ -4,7 +4,9 @@ Returns the quartile of a data set.
 
 ## Syntax
 
+```javascript
 expression.QUARTILE(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

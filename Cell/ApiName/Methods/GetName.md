@@ -4,7 +4,9 @@ Returns a type of the ApiName class.
 
 ## Syntax
 
+```javascript
 expression.GetName();
+```
 
 `expression` - A variable that represents a [ApiName](../ApiName.md) class.
 

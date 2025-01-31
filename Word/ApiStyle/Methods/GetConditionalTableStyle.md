@@ -5,7 +5,9 @@ requirement specified in the sType parameter.
 
 ## Syntax
 
+```javascript
 expression.GetConditionalTableStyle(sType);
+```
 
 `expression` - A variable that represents a [ApiStyle](../ApiStyle.md) class.
 

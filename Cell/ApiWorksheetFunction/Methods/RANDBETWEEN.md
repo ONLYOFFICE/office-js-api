@@ -4,7 +4,9 @@ Returns a random number between the numbers specified.
 
 ## Syntax
 
+```javascript
 expression.RANDBETWEEN(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

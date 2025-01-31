@@ -4,7 +4,9 @@ Specifies the distance from the top edge of the page to the top edge of the head
 
 ## Syntax
 
+```javascript
 expression.SetHeaderDistance(nDistance);
+```
 
 `expression` - A variable that represents a [ApiSection](../ApiSection.md) class.
 

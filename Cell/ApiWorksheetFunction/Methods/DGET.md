@@ -4,7 +4,9 @@ Extracts from a database a single record that matches the conditions you specify
 
 ## Syntax
 
+```javascript
 expression.DGET(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

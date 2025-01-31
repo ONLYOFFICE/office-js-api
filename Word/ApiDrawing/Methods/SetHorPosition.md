@@ -4,7 +4,9 @@ Sets the absolute measurement for the horizontal positioning of the floating obj
 
 ## Syntax
 
+```javascript
 expression.SetHorPosition(sRelativeFrom, nDistance);
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 

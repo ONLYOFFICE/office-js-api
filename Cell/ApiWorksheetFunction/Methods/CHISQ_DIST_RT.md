@@ -4,7 +4,9 @@ Returns the right-tailed probability of the chi-squared distribution.
 
 ## Syntax
 
+```javascript
 expression.CHISQ_DIST_RT(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

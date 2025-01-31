@@ -4,7 +4,9 @@ Estimates standard deviation based on a sample, including logical values and tex
 
 ## Syntax
 
+```javascript
 expression.STDEVA(args);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

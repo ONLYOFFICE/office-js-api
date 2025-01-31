@@ -4,7 +4,9 @@ Finds specific information in the current range.
 
 ## Syntax
 
+```javascript
 expression.Find(What, After, LookIn, LookAt, SearchOrder, SearchDirection, MatchCase);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

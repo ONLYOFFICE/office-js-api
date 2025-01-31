@@ -4,7 +4,9 @@ Splits the selected merged cell range into the single cells.
 
 ## Syntax
 
+```javascript
 expression.UnMerge();
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

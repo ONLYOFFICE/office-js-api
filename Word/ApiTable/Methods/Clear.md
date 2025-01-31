@@ -4,7 +4,9 @@ Clears the content from the table.
 
 ## Syntax
 
+```javascript
 expression.Clear();
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 

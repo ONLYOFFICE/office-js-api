@@ -4,7 +4,9 @@ Converts a text representation of a number in a given base into a decimal number
 
 ## Syntax
 
+```javascript
 expression.DECIMAL(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

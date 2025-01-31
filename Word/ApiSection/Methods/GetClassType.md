@@ -4,7 +4,9 @@ Returns a type of the ApiSection class.
 
 ## Syntax
 
+```javascript
 expression.GetClassType();
+```
 
 `expression` - A variable that represents a [ApiSection](../ApiSection.md) class.
 

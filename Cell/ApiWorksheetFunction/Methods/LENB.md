@@ -4,7 +4,9 @@ Analyses the specified string and returns the number of characters it contains a
 
 ## Syntax
 
+```javascript
 expression.LENB(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

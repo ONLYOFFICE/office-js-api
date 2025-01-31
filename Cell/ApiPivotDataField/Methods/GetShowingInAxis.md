@@ -4,7 +4,9 @@ Returns the setting which specifies whether the pivot table field is currently v
 
 ## Syntax
 
+```javascript
 expression.GetShowingInAxis();
+```
 
 `expression` - A variable that represents a [ApiPivotDataField](../ApiPivotDataField.md) class.
 

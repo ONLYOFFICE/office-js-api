@@ -4,7 +4,9 @@ Converts the ApiTableStylePr object into the JSON object.
 
 ## Syntax
 
+```javascript
 expression.ToJSON();
+```
 
 `expression` - A variable that represents a [ApiTableStylePr](../ApiTableStylePr.md) class.
 

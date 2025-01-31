@@ -4,7 +4,9 @@ Scales the height of the figure using the specified coefficient.
 
 ## Syntax
 
+```javascript
 expression.ScaleHeight(coefficient);
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 

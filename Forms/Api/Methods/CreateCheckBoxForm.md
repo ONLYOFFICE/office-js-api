@@ -4,7 +4,9 @@ Creates a checkbox / radio button with the specified checkbox / radio button pro
 
 ## Syntax
 
+```javascript
 expression.CreateCheckBoxForm(oFormPr);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

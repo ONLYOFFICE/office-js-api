@@ -5,7 +5,9 @@ Adds a comment to the current inline content control.
 
 ## Syntax
 
+```javascript
 expression.AddComment(sText, sAuthor, sUserId);
+```
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 

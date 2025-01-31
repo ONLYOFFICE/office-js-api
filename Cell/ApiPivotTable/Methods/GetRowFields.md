@@ -4,7 +4,9 @@ Returns a collection that is currently displayed as row fields in the pivot tabl
 
 ## Syntax
 
+```javascript
 expression.GetRowFields(field);
+```
 
 `expression` - A variable that represents a [ApiPivotTable](../ApiPivotTable.md) class.
 

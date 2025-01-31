@@ -4,7 +4,9 @@ Gets the vertical alignment type from the current text properties.
 
 ## Syntax
 
+```javascript
 expression.GetVertAlign();
+```
 
 `expression` - A variable that represents a [ApiTextPr](../ApiTextPr.md) class.
 

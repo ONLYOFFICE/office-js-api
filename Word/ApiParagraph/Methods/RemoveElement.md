@@ -7,7 +7,9 @@ content to this run, use the &#123;@link ApiParagraph#GetElement&#125; method.
 
 ## Syntax
 
+```javascript
 expression.RemoveElement(nPos);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

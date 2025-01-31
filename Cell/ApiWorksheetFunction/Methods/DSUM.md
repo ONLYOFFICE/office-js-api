@@ -4,7 +4,9 @@ Adds the numbers in the field (column) of records in the database that match the
 
 ## Syntax
 
+```javascript
 expression.DSUM(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

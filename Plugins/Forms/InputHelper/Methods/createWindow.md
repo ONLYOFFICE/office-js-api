@@ -4,7 +4,9 @@ Creates an input helper window.
 
 ## Syntax
 
+```javascript
 expression.createWindow();
+```
 
 `expression` - A variable that represents a [InputHelper](../InputHelper.md) class.
 

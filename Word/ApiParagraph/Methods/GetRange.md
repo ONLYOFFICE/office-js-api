@@ -4,7 +4,9 @@ Returns a Range object that represents the part of the document contained in the
 
 ## Syntax
 
+```javascript
 expression.GetRange(Start, End);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

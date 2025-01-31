@@ -6,7 +6,9 @@ content to this paragraph, use the &#123;@link ApiDocumentContent#GetElement&#12
 
 ## Syntax
 
+```javascript
 expression.RemoveAllElements();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

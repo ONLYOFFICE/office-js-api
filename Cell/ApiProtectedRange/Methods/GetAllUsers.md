@@ -4,7 +4,9 @@ Returns all users from the current protected range.
 
 ## Syntax
 
+```javascript
 expression.GetAllUsers();
+```
 
 `expression` - A variable that represents a [ApiProtectedRange](../ApiProtectedRange.md) class.
 

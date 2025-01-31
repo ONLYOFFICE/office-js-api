@@ -4,7 +4,9 @@ Sets the page orientation.
 
 ## Syntax
 
+```javascript
 expression.SetPageOrientation(sPageOrientation);
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

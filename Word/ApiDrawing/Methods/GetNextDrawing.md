@@ -4,7 +4,9 @@ Returns the next inline drawing object if exists.
 
 ## Syntax
 
+```javascript
 expression.GetNextDrawing();
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 

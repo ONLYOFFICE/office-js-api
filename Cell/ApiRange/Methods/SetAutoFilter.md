@@ -4,7 +4,9 @@ Adds an AutoFilter to the current range.
 
 ## Syntax
 
+```javascript
 expression.SetAutoFilter(Field, Criteria1, Operator, Criteria2, VisibleDropDown);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

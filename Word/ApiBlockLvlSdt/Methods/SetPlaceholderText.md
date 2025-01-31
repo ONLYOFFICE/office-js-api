@@ -4,7 +4,9 @@ Sets the placeholder text to the current content control.
 
 ## Syntax
 
+```javascript
 expression.SetPlaceholderText(text);
+```
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 

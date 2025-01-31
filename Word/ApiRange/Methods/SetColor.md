@@ -4,7 +4,9 @@ Sets the text color to the current text Range in the RGB format.
 
 ## Syntax
 
+```javascript
 expression.SetColor(r, g, b, isAuto);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

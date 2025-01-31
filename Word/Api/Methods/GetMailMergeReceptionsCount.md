@@ -4,7 +4,9 @@ Returns the mail merge receptions count.
 
 ## Syntax
 
+```javascript
 expression.GetMailMergeReceptionsCount();
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

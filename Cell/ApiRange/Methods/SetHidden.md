@@ -4,7 +4,9 @@ Sets the value hiding property. The specified range must span an entire column o
 
 ## Syntax
 
+```javascript
 expression.SetHidden(isHidden);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

@@ -4,7 +4,9 @@ Returns the arctangent of a number in radians, in the range from &lt;em&gt;-Pi/2
 
 ## Syntax
 
+```javascript
 expression.ATAN(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

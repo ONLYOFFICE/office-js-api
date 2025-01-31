@@ -4,7 +4,9 @@ Returns the yield of a security with an odd last period.
 
 ## Syntax
 
+```javascript
 expression.ODDLYIELD(arg1, arg2, arg3, arg5, arg6, arg6, arg8, arg9);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

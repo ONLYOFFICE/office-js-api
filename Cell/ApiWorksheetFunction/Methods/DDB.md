@@ -4,7 +4,9 @@ Returns the depreciation of an asset for a specified period using the double-dec
 
 ## Syntax
 
+```javascript
 expression.DDB(arg1, arg2, arg3, arg4, arg5);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

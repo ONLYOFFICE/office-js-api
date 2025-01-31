@@ -5,7 +5,9 @@ section - page size, footer, header, columns, etc.
 
 ## Syntax
 
+```javascript
 expression.CreateSection(oParagraph);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

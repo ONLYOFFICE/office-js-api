@@ -4,7 +4,9 @@ Returns the level index.
 
 ## Syntax
 
+```javascript
 expression.GetLevelIndex();
+```
 
 `expression` - A variable that represents a [ApiNumberingLevel](../ApiNumberingLevel.md) class.
 

@@ -4,7 +4,9 @@ Creates a stroke adding shadows to the element.
 
 ## Syntax
 
+```javascript
 expression.CreateStroke(width, fill);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

@@ -4,7 +4,9 @@ Sets the border which will be displayed on the left of the current table.
 
 ## Syntax
 
+```javascript
 expression.SetTableBorderLeft(sType, nSize, nSpace, r, g, b);
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 

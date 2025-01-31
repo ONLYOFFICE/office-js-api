@@ -4,7 +4,9 @@ Returns the base-10 logarithm of a complex number.
 
 ## Syntax
 
+```javascript
 expression.IMLOG10(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

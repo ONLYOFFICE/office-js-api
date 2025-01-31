@@ -4,7 +4,9 @@ Checks if the current text field is multiline.
 
 ## Syntax
 
+```javascript
 expression.IsMultiline();
+```
 
 `expression` - A variable that represents a [ApiTextForm](../ApiTextForm.md) class.
 

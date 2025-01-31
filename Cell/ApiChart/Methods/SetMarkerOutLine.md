@@ -4,7 +4,9 @@ Sets the outline to the marker in the specified chart series.
 
 ## Syntax
 
+```javascript
 expression.SetMarkerOutLine(oStroke, nSeries, nMarker, bAllMarkers);
+```
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 

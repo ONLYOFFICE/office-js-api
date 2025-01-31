@@ -4,7 +4,9 @@ Returns the content for the specified footer type.
 
 ## Syntax
 
+```javascript
 expression.GetFooter(sType, isCreate);
+```
 
 `expression` - A variable that represents a [ApiSection](../ApiSection.md) class.
 

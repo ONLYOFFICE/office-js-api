@@ -4,7 +4,9 @@ Returns an object that represents a user from the current protected range.
 
 ## Syntax
 
+```javascript
 expression.GetUser(sId);
+```
 
 `expression` - A variable that represents a [ApiProtectedRange](../ApiProtectedRange.md) class.
 

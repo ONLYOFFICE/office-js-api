@@ -4,7 +4,9 @@ Returns a type of the ApiDocumentContent class.
 
 ## Syntax
 
+```javascript
 expression.GetClassType();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

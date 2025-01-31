@@ -4,7 +4,9 @@ Returns a collection of chart objects in the paragraph.
 
 ## Syntax
 
+```javascript
 expression.GetAllCharts();
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

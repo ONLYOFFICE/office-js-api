@@ -4,7 +4,9 @@ Returns a list of all tags that are used for all content controls in the documen
 
 ## Syntax
 
+```javascript
 expression.GetTagsOfAllContentControls();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

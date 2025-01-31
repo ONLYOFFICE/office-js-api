@@ -4,7 +4,9 @@ Checks whether a value is a number, and returns **true** or **false**.
 
 ## Syntax
 
+```javascript
 expression.ISNUMBER(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

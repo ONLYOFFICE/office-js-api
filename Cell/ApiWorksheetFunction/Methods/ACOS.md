@@ -4,7 +4,9 @@ Returns the arccosine of a number, in radians in the range from 0 to Pi. The arc
 
 ## Syntax
 
+```javascript
 expression.ACOS(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

@@ -4,7 +4,9 @@ Returns the rank of a number in a list of numbers: its size relative to other va
 
 ## Syntax
 
+```javascript
 expression.RANK_EQ(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

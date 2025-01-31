@@ -5,7 +5,9 @@ If you do not specify the start and end positions, the range will be taken from 
 
 ## Syntax
 
+```javascript
 expression.CreateRange(element, start, end);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

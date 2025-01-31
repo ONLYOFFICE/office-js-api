@@ -4,7 +4,9 @@ Changes a color in the theme color scheme.
 
 ## Syntax
 
+```javascript
 expression.ChangeColor(nPos, oColor);
+```
 
 `expression` - A variable that represents a [ApiThemeColorScheme](../ApiThemeColorScheme.md) class.
 

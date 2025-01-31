@@ -4,7 +4,9 @@ Returns the ApiName object by the range name.
 
 ## Syntax
 
+```javascript
 expression.GetDefName(defName);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

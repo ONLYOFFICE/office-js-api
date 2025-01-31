@@ -4,7 +4,9 @@ Returns all caption paragraphs of the specified type from the current document.
 
 ## Syntax
 
+```javascript
 expression.GetAllCaptionParagraphs(sCaption);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

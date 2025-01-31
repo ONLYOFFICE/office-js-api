@@ -4,7 +4,9 @@ Returns the largest number in the field (column) of records in the database that
 
 ## Syntax
 
+```javascript
 expression.DMAX(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

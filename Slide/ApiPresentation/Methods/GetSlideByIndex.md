@@ -4,7 +4,9 @@ Returns a slide by its position in the presentation.
 
 ## Syntax
 
+```javascript
 expression.GetSlideByIndex(nIndex);
+```
 
 `expression` - A variable that represents a [ApiPresentation](../ApiPresentation.md) class.
 

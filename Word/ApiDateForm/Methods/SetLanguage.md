@@ -4,7 +4,9 @@ Sets the date language to the current form.
 
 ## Syntax
 
+```javascript
 expression.SetLanguage(sLangId);
+```
 
 `expression` - A variable that represents a [ApiDateForm](../ApiDateForm.md) class.
 

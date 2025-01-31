@@ -4,7 +4,9 @@ Replaces the main document content with another document content.
 
 ## Syntax
 
+```javascript
 expression.ReplaceDocumentContent(documentContent);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

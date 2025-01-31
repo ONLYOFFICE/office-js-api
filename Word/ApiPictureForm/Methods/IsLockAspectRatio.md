@@ -4,7 +4,9 @@ Checks if the aspect ratio of the current picture form is locked or not.
 
 ## Syntax
 
+```javascript
 expression.IsLockAspectRatio();
+```
 
 `expression` - A variable that represents a [ApiPictureForm](../ApiPictureForm.md) class.
 

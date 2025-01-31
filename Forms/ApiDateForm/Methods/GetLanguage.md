@@ -4,7 +4,9 @@ Gets the used date language of the current form.
 
 ## Syntax
 
+```javascript
 expression.GetLanguage();
+```
 
 `expression` - A variable that represents a [ApiDateForm](../ApiDateForm.md) class.
 

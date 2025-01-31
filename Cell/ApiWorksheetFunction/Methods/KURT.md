@@ -4,7 +4,9 @@ Returns the kurtosis of a data set.
 
 ## Syntax
 
+```javascript
 expression.KURT(args);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

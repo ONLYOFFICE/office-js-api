@@ -4,7 +4,9 @@ Calculates the probability that a member of a standard normal population will fa
 
 ## Syntax
 
+```javascript
 expression.GAUSS(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

@@ -4,7 +4,9 @@ Replaces the current content control with a new element.
 
 ## Syntax
 
+```javascript
 expression.ReplaceByElement(oElement);
+```
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 

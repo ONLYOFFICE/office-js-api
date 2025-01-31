@@ -4,7 +4,9 @@ Sets a style to the current run.
 
 ## Syntax
 
+```javascript
 expression.SetStyle(oStyle);
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 

@@ -4,7 +4,9 @@ Adds an element to the end of inline text content control.
 
 ## Syntax
 
+```javascript
 expression.Push(oElement);
+```
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 

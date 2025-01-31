@@ -4,7 +4,9 @@ Sets the setting which specifies whether the specified field can be dragged to t
 
 ## Syntax
 
+```javascript
 expression.SetDragToData(flag);
+```
 
 `expression` - A variable that represents a [ApiPivotDataField](../ApiPivotDataField.md) class.
 

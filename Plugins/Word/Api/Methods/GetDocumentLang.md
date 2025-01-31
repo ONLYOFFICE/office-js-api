@@ -4,7 +4,9 @@ Returns the document language.
 
 ## Syntax
 
+```javascript
 expression.GetDocumentLang();
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

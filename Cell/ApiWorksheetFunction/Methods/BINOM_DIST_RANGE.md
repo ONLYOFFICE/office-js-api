@@ -4,7 +4,9 @@ Returns the probability of a trial result using a binomial distribution.
 
 ## Syntax
 
+```javascript
 expression.BINOM_DIST_RANGE(arg1, arg2, arg3, arg4);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

@@ -4,7 +4,9 @@ Sets the change tracking mode.
 
 ## Syntax
 
+```javascript
 expression.SetTrackRevisions(isTrack);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

@@ -4,7 +4,9 @@ Returns the setting which specifies whether the column headers of the pivot tabl
 
 ## Syntax
 
+```javascript
 expression.GetTableStyleColumnHeaders();
+```
 
 `expression` - A variable that represents a [ApiPivotTable](../ApiPivotTable.md) class.
 

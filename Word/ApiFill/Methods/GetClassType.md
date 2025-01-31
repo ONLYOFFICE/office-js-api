@@ -4,7 +4,9 @@ Returns a type of the ApiFill class.
 
 ## Syntax
 
+```javascript
 expression.GetClassType();
+```
 
 `expression` - A variable that represents a [ApiFill](../ApiFill.md) class.
 

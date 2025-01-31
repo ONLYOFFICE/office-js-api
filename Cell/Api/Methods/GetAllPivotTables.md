@@ -4,7 +4,9 @@ Returns all pivot tables.
 
 ## Syntax
 
+```javascript
 expression.GetAllPivotTables();
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

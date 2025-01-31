@@ -4,7 +4,9 @@ Returns the natural logarithm of a complex number.
 
 ## Syntax
 
+```javascript
 expression.IMLN(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

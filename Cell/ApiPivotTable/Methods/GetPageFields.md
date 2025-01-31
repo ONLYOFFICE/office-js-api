@@ -5,7 +5,9 @@ or a collection of all visible page fields.
 
 ## Syntax
 
+```javascript
 expression.GetPageFields(field);
+```
 
 `expression` - A variable that represents a [ApiPivotTable](../ApiPivotTable.md) class.
 

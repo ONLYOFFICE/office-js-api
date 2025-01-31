@@ -4,7 +4,9 @@ Updates all tables of contents in the current document.
 
 ## Syntax
 
+```javascript
 expression.UpdateAllTOC(bOnlyPageNumbers);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

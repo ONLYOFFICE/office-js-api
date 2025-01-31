@@ -5,7 +5,9 @@ The layout must be in slide master.
 
 ## Syntax
 
+```javascript
 expression.ApplyLayout(oLayout);
+```
 
 `expression` - A variable that represents a [ApiSlide](../ApiSlide.md) class.
 

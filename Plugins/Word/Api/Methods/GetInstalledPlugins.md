@@ -4,7 +4,9 @@ Returns all the installed plugins.
 
 ## Syntax
 
+```javascript
 expression.GetInstalledPlugins();
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

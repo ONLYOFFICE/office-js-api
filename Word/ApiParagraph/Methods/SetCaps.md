@@ -4,7 +4,9 @@ Specifies that any lowercase characters in this paragraph are formatted for disp
 
 ## Syntax
 
+```javascript
 expression.SetCaps(isCaps);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

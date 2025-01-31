@@ -4,7 +4,9 @@ Returns a pivot table by its name from the current worksheet, or null if it does
 
 ## Syntax
 
+```javascript
 expression.GetPivotByName(name);
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

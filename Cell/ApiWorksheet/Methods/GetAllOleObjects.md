@@ -4,7 +4,9 @@ Returns all OLE objects from the current sheet.
 
 ## Syntax
 
+```javascript
 expression.GetAllOleObjects();
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

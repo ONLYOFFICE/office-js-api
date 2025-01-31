@@ -4,7 +4,9 @@ Returns a value representing the object name.
 
 ## Syntax
 
+```javascript
 expression.GetName();
+```
 
 `expression` - A variable that represents a [ApiPivotField](../ApiPivotField.md) class.
 

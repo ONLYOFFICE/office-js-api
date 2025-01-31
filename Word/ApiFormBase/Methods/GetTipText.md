@@ -4,7 +4,9 @@ Returns the tip text of the current form.
 
 ## Syntax
 
+```javascript
 expression.GetTipText();
+```
 
 `expression` - A variable that represents a [ApiFormBase](../ApiFormBase.md) class.
 

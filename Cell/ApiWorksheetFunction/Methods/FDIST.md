@@ -4,7 +4,9 @@ Returns the (right-tailed) F probability distribution (degree of diversity) for 
 
 ## Syntax
 
+```javascript
 expression.FDIST(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

@@ -4,7 +4,9 @@ Returns a report about every change which was made to the document in the review
 
 ## Syntax
 
+```javascript
 expression.GetReviewReport();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

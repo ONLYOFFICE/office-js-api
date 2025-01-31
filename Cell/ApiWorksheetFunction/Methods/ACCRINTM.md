@@ -4,7 +4,9 @@ Returns the accrued interest for a security that pays interest at maturity.
 
 ## Syntax
 
+```javascript
 expression.ACCRINTM(arg1, arg2, arg3, arg4, arg5);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

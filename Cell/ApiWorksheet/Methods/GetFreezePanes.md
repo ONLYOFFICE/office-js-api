@@ -4,7 +4,9 @@ Returns the freeze panes from the current worksheet.
 
 ## Syntax
 
+```javascript
 expression.GetFreezePanes();
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

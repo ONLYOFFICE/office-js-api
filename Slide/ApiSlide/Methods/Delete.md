@@ -4,7 +4,9 @@ Deletes the current slide from the presentation.
 
 ## Syntax
 
+```javascript
 expression.Delete();
+```
 
 `expression` - A variable that represents a [ApiSlide](../ApiSlide.md) class.
 

@@ -4,7 +4,9 @@ Returns the right margin of the sheet.
 
 ## Syntax
 
+```javascript
 expression.GetRightMargin();
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

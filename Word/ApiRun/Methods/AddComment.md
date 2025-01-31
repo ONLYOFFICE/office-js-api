@@ -5,7 +5,9 @@ Adds a comment to the current run.
 
 ## Syntax
 
+```javascript
 expression.AddComment(sText, sAuthor, sUserId);
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 

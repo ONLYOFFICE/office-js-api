@@ -4,7 +4,9 @@ Returns a column number for the selected cell.
 
 ## Syntax
 
+```javascript
 expression.GetCol();
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

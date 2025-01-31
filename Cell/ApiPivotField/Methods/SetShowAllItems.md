@@ -4,7 +4,9 @@ Sets the setting which specifies whether to show items with no data.
 
 ## Syntax
 
+```javascript
 expression.SetShowAllItems(show);
+```
 
 `expression` - A variable that represents a [ApiPivotField](../ApiPivotField.md) class.
 

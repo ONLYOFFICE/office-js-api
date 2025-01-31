@@ -4,7 +4,9 @@ Returns the list values from the current combo box.
 
 ## Syntax
 
+```javascript
 expression.GetListValues();
+```
 
 `expression` - A variable that represents a [ApiComboBoxForm](../ApiComboBoxForm.md) class.
 

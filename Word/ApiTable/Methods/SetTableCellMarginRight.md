@@ -5,7 +5,9 @@ border of all table cells within the parent table (or table row).
 
 ## Syntax
 
+```javascript
 expression.SetTableCellMarginRight(nValue);
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 

@@ -4,7 +4,9 @@ Specifies minor vertical gridline visual properties.
 
 ## Syntax
 
+```javascript
 expression.SetMinorVerticalGridlines(oStroke);
+```
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 

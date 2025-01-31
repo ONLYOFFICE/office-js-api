@@ -4,7 +4,9 @@ Retuns the placeholder index.
 
 ## Syntax
 
+```javascript
 expression.GetIndex();
+```
 
 `expression` - A variable that represents a [ApiPlaceholder](../ApiPlaceholder.md) class.
 

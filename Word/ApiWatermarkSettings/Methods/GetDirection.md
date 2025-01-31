@@ -4,7 +4,9 @@ Returns the direction of the watermark in the document.
 
 ## Syntax
 
+```javascript
 expression.GetDirection();
+```
 
 `expression` - A variable that represents a [ApiWatermarkSettings](../ApiWatermarkSettings.md) class.
 

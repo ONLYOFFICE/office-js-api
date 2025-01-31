@@ -4,7 +4,9 @@ Returns a layout of the specified slide master by its position.
 
 ## Syntax
 
+```javascript
 expression.GetLayout(nPos);
+```
 
 `expression` - A variable that represents a [ApiMaster](../ApiMaster.md) class.
 

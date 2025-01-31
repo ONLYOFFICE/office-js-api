@@ -4,7 +4,9 @@ Returns a value representing the name of the specified field in the pivot table 
 
 ## Syntax
 
+```javascript
 expression.GetValue();
+```
 
 `expression` - A variable that represents a [ApiPivotDataField](../ApiPivotDataField.md) class.
 

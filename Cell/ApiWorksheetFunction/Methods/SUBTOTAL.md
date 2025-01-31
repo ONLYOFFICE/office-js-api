@@ -4,7 +4,9 @@ Returns a subtotal in a list or database.
 
 ## Syntax
 
+```javascript
 expression.SUBTOTAL(arg1, args);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

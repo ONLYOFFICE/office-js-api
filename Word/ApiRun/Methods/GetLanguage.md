@@ -4,7 +4,9 @@ Gets the language from the current text properties.
 
 ## Syntax
 
+```javascript
 expression.GetLanguage();
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 

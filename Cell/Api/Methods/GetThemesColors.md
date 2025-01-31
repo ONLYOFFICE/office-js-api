@@ -4,7 +4,9 @@ Returns a list of all the available theme colors for the spreadsheet.
 
 ## Syntax
 
+```javascript
 expression.GetThemesColors();
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

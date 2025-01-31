@@ -4,7 +4,9 @@ Shows the plugin modal window.
 
 ## Syntax
 
+```javascript
 expression.ShowWindow(frameId, variation);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

@@ -4,7 +4,9 @@ Returns a collection of paragraphs that represents all the paragraphs in the spe
 
 ## Syntax
 
+```javascript
 expression.GetAllParagraphs();
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

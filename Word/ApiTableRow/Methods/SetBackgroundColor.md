@@ -4,7 +4,9 @@ Sets the background color to all cells in the current table row.
 
 ## Syntax
 
+```javascript
 expression.SetBackgroundColor(r, g, b, bNone);
+```
 
 `expression` - A variable that represents a [ApiTableRow](../ApiTableRow.md) class.
 

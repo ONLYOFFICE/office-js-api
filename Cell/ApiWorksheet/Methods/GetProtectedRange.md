@@ -4,7 +4,9 @@ Returns a protected range object by its title.
 
 ## Syntax
 
+```javascript
 expression.GetProtectedRange(sTitle);
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

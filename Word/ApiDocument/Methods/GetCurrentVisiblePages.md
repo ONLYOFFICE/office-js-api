@@ -4,7 +4,9 @@ Returns the indexes of the currently visible pages.
 
 ## Syntax
 
+```javascript
 expression.GetCurrentVisiblePages();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

@@ -4,7 +4,9 @@ Returns the string data from the current OLE object.
 
 ## Syntax
 
+```javascript
 expression.GetData();
+```
 
 `expression` - A variable that represents a [ApiOleObject](../ApiOleObject.md) class.
 

@@ -4,7 +4,9 @@ Links the specified paragraph style with the current numbering level.
 
 ## Syntax
 
+```javascript
 expression.LinkWithStyle(oStyle);
+```
 
 `expression` - A variable that represents a [ApiNumberingLevel](../ApiNumberingLevel.md) class.
 

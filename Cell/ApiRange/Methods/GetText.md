@@ -4,7 +4,9 @@ Returns the text of the specified range.
 
 ## Syntax
 
+```javascript
 expression.GetText();
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

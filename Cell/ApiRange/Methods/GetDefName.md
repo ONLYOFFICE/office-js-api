@@ -4,7 +4,9 @@ Returns the ApiName object of the current range.
 
 ## Syntax
 
+```javascript
 expression.GetDefName();
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

@@ -4,7 +4,9 @@ Returns numbers in a linear trend matching known data points, using the least sq
 
 ## Syntax
 
+```javascript
 expression.TREND(arg1, arg2, arg3, arg4);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

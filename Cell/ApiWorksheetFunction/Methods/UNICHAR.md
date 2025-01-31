@@ -4,7 +4,9 @@ Returns the Unicode character referenced by the given numeric value.
 
 ## Syntax
 
+```javascript
 expression.UNICHAR(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

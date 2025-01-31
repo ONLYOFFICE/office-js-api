@@ -4,7 +4,9 @@ Adds a comment to the specifed document element or array of Runs.
 
 ## Syntax
 
+```javascript
 expression.AddComment(element, text, author, userId);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

@@ -4,7 +4,9 @@ Removes a plugin with the specified GUID.
 
 ## Syntax
 
+```javascript
 expression.RemovePlugin(guid, backup);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

@@ -4,7 +4,9 @@ Moves the current slide to a specific location within the same collection.
 
 ## Syntax
 
+```javascript
 expression.MoveTo(nPos);
+```
 
 `expression` - A variable that represents a [ApiSlide](../ApiSlide.md) class.
 

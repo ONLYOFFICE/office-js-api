@@ -4,7 +4,9 @@ Estimates variance based on a sample (ignores logical values and text in the sam
 
 ## Syntax
 
+```javascript
 expression.VAR_S(args);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

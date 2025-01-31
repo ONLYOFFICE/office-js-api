@@ -4,7 +4,9 @@ Adds a reply to a comment.
 
 ## Syntax
 
+```javascript
 expression.AddReply(sText, sAuthorName, sUserId, nPos);
+```
 
 `expression` - A variable that represents a [ApiComment](../ApiComment.md) class.
 

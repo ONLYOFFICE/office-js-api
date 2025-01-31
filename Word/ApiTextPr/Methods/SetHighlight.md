@@ -4,7 +4,9 @@ Specifies a highlighting color which is added to the text properties and applied
 
 ## Syntax
 
+```javascript
 expression.SetHighlight(sColor);
+```
 
 `expression` - A variable that represents a [ApiTextPr](../ApiTextPr.md) class.
 

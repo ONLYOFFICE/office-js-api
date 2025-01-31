@@ -4,7 +4,9 @@ Returns the fonts list.
 
 ## Syntax
 
+```javascript
 expression.GetFontList();
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

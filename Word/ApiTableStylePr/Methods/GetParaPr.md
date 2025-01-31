@@ -4,7 +4,9 @@ Returns a set of the paragraph properties which will be applied to all the parag
 
 ## Syntax
 
+```javascript
 expression.GetParaPr();
+```
 
 `expression` - A variable that represents a [ApiTableStylePr](../ApiTableStylePr.md) class.
 

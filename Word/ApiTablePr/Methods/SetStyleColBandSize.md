@@ -4,7 +4,9 @@ Specifies a number of columns which will comprise each table column band for thi
 
 ## Syntax
 
+```javascript
 expression.SetStyleColBandSize(nCount);
+```
 
 `expression` - A variable that represents a [ApiTablePr](../ApiTablePr.md) class.
 

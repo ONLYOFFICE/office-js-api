@@ -4,7 +4,9 @@ Sets the type of the watermark in the document.
 
 ## Syntax
 
+```javascript
 expression.SetType(sType);
+```
 
 `expression` - A variable that represents a [ApiWatermarkSettings](../ApiWatermarkSettings.md) class.
 

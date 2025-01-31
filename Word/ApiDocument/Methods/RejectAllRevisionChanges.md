@@ -4,7 +4,9 @@ Rejects all changes made in review mode.
 
 ## Syntax
 
+```javascript
 expression.RejectAllRevisionChanges();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

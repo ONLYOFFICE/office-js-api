@@ -5,7 +5,9 @@ the previous section, or if this is the first section in the document, no header
 
 ## Syntax
 
+```javascript
 expression.RemoveHeader(sType);
+```
 
 `expression` - A variable that represents a [ApiSection](../ApiSection.md) class.
 

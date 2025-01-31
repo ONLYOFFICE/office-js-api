@@ -4,7 +4,9 @@ Sets the data to the specified forms.
 
 ## Syntax
 
+```javascript
 expression.SetFormsData(arrData);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

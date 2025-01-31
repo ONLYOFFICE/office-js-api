@@ -4,7 +4,9 @@ Removes a custom function.
 
 ## Syntax
 
+```javascript
 expression.RemoveCustomFunction(sName);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

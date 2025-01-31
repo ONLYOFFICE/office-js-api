@@ -4,7 +4,9 @@ Returns the pivot table description.
 
 ## Syntax
 
+```javascript
 expression.GetDescription();
+```
 
 `expression` - A variable that represents a [ApiPivotTable](../ApiPivotTable.md) class.
 

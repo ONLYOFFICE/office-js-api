@@ -4,7 +4,9 @@ Specifies that when rendering the document using a page view, all lines of the c
 
 ## Syntax
 
+```javascript
 expression.SetKeepLines(isKeepLines);
+```
 
 `expression` - A variable that represents a [ApiParaPr](../ApiParaPr.md) class.
 

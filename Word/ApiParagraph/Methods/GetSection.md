@@ -4,7 +4,9 @@ Returns the paragraph section.
 
 ## Syntax
 
+```javascript
 expression.GetSection();
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

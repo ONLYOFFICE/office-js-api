@@ -4,7 +4,9 @@ Converts a vertical range of cells to a horizontal range, or vice versa.
 
 ## Syntax
 
+```javascript
 expression.TRANSPOSE(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

@@ -4,7 +4,9 @@ Returns an element by its position in the document.
 
 ## Syntax
 
+```javascript
 expression.GetElement(nPos);
+```
 
 `expression` - A variable that represents a [ApiDocumentContent](../ApiDocumentContent.md) class.
 

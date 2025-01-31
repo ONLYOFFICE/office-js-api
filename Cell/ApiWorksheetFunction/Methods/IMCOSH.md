@@ -4,7 +4,9 @@ Returns the hyperbolic cosine of a complex number.
 
 ## Syntax
 
+```javascript
 expression.IMCOSH(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

@@ -4,7 +4,9 @@ Sets the date format to the current form.
 
 ## Syntax
 
+```javascript
 expression.SetFormat(sFormat);
+```
 
 `expression` - A variable that represents a [ApiDateForm](../ApiDateForm.md) class.
 

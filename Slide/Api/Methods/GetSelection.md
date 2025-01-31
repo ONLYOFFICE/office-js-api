@@ -4,7 +4,9 @@ Returns the selection from the current presentation.
 
 ## Syntax
 
+```javascript
 expression.GetSelection();
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

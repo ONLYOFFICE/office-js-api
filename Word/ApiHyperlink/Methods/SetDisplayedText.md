@@ -4,7 +4,9 @@ Sets the hyperlink display text.
 
 ## Syntax
 
+```javascript
 expression.SetDisplayedText(sDisplay);
+```
 
 `expression` - A variable that represents a [ApiHyperlink](../ApiHyperlink.md) class.
 

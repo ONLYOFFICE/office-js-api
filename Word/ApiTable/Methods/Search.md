@@ -4,7 +4,9 @@ Searches for a scope of a table object. The search results are a collection of A
 
 ## Syntax
 
+```javascript
 expression.Search(sText, isMatchCase);
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 

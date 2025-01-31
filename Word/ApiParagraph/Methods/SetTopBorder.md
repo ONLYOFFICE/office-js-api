@@ -5,7 +5,9 @@ Specifies the border which will be displayed above a set of paragraphs which hav
 
 ## Syntax
 
+```javascript
 expression.SetTopBorder(sType, nSize, nSpace, r, g, b);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

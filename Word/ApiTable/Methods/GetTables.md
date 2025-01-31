@@ -4,7 +4,9 @@ Returns an array of tables that represents all the tables nested within the spec
 
 ## Syntax
 
+```javascript
 expression.GetTables();
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 

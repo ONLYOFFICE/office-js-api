@@ -4,7 +4,9 @@ Returns the secant of an angle.
 
 ## Syntax
 
+```javascript
 expression.SEC(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

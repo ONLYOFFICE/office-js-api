@@ -4,7 +4,9 @@ Selects the current table.
 
 ## Syntax
 
+```javascript
 expression.Select();
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 

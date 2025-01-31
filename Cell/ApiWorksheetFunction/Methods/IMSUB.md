@@ -4,7 +4,9 @@ Returns the difference of two complex numbers expressed in the &lt;em&gt;x + yi&
 
 ## Syntax
 
+```javascript
 expression.IMSUB(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

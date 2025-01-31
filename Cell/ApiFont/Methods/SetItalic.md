@@ -5,7 +5,9 @@ Sets the italic property to the specified font.
 
 ## Syntax
 
+```javascript
 expression.SetItalic(isItalic);
+```
 
 `expression` - A variable that represents a [ApiFont](../ApiFont.md) class.
 

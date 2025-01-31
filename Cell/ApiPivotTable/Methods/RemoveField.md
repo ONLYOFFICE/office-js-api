@@ -4,7 +4,9 @@ Removes the specified field from all the pivot table categories.
 
 ## Syntax
 
+```javascript
 expression.RemoveField(identifier);
+```
 
 `expression` - A variable that represents a [ApiPivotTable](../ApiPivotTable.md) class.
 

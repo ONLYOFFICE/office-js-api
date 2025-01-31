@@ -5,7 +5,9 @@ letter character equivalents which are two points smaller than the actual font s
 
 ## Syntax
 
+```javascript
 expression.SetSmallCaps(isSmallCaps);
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 

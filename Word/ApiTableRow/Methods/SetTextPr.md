@@ -4,7 +4,9 @@ Sets the text properties to the current row.
 
 ## Syntax
 
+```javascript
 expression.SetTextPr(oTextPr);
+```
 
 `expression` - A variable that represents a [ApiTableRow](../ApiTableRow.md) class.
 

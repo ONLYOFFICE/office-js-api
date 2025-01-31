@@ -12,7 +12,9 @@ If one of the following styles is selected, the object can be moved independentl
 
 ## Syntax
 
+```javascript
 expression.SetWrappingStyle(sType);
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 

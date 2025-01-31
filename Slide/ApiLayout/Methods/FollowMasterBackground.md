@@ -4,7 +4,9 @@ Sets the master background as the background of the layout.
 
 ## Syntax
 
+```javascript
 expression.FollowMasterBackground();
+```
 
 `expression` - A variable that represents a [ApiLayout](../ApiLayout.md) class.
 

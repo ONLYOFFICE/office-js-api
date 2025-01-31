@@ -4,7 +4,9 @@ Creates a shape with the parameters specified.
 
 ## Syntax
 
+```javascript
 expression.CreateShape(shapeType, width, height, fill, stroke);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

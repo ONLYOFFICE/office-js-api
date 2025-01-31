@@ -4,7 +4,9 @@ Checks if the text field is a comb of characters with the same cell width.
 
 ## Syntax
 
+```javascript
 expression.IsComb();
+```
 
 `expression` - A variable that represents a [ApiTextForm](../ApiTextForm.md) class.
 

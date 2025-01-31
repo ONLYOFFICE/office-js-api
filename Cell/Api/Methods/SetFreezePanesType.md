@@ -4,7 +4,9 @@ Sets a type to the freeze panes.
 
 ## Syntax
 
+```javascript
 expression.SetFreezePanesType(FreezePaneType);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

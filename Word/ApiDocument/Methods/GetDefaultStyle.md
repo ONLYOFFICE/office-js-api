@@ -4,7 +4,9 @@ Returns the default style parameters for the specified document element.
 
 ## Syntax
 
+```javascript
 expression.GetDefaultStyle(sStyleType);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

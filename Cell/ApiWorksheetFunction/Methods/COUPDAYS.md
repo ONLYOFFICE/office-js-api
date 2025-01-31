@@ -4,7 +4,9 @@ Returns the number of days in the coupon period that contains the settlement dat
 
 ## Syntax
 
+```javascript
 expression.COUPDAYS(arg1, arg2, arg3, arg4);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

@@ -4,7 +4,9 @@ Installs a plugin using the specified plugin config.
 
 ## Syntax
 
+```javascript
 expression.InstallPlugin(config);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

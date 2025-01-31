@@ -4,7 +4,9 @@ Sets the timestamp to the current form.
 
 ## Syntax
 
+```javascript
 expression.SetTime(nTimeStamp);
+```
 
 `expression` - A variable that represents a [ApiDateForm](../ApiDateForm.md) class.
 

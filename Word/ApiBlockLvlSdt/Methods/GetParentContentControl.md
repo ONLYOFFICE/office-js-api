@@ -4,7 +4,9 @@ Returns a content control that contains the current content control.
 
 ## Syntax
 
+```javascript
 expression.GetParentContentControl();
+```
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 

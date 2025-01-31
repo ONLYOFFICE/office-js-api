@@ -4,7 +4,9 @@ Returns the inverse of the gamma cumulative distribution: if p = GAMMADIST(x,...
 
 ## Syntax
 
+```javascript
 expression.GAMMAINV(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

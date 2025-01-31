@@ -4,7 +4,9 @@ Returns a type of the current table conditional style.
 
 ## Syntax
 
+```javascript
 expression.GetType();
+```
 
 `expression` - A variable that represents a [ApiTableStylePr](../ApiTableStylePr.md) class.
 

@@ -4,7 +4,9 @@ Adds a column break to the current run position and starts the next element from
 
 ## Syntax
 
+```javascript
 expression.AddColumnBreak();
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 

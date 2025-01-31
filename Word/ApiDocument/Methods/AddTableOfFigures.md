@@ -4,7 +4,9 @@ Adds a table of figures to the current document.
 
 ## Syntax
 
+```javascript
 expression.AddTableOfFigures(oTofPr, bReplace);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

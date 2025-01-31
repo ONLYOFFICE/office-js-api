@@ -4,7 +4,9 @@ Returns the current range angle.
 
 ## Syntax
 
+```javascript
 expression.GetOrientation();
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

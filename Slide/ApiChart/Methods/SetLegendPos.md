@@ -4,7 +4,9 @@ Specifies the chart legend position.
 
 ## Syntax
 
+```javascript
 expression.SetLegendPos(sLegendPos);
+```
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 

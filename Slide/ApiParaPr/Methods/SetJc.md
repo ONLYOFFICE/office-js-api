@@ -4,7 +4,9 @@ Sets the paragraph contents justification.
 
 ## Syntax
 
+```javascript
 expression.SetJc(sJc);
+```
 
 `expression` - A variable that represents a [ApiParaPr](../ApiParaPr.md) class.
 

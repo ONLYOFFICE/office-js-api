@@ -4,7 +4,9 @@ Returns the double factorial of a number.
 
 ## Syntax
 
+```javascript
 expression.FACTDOUBLE(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

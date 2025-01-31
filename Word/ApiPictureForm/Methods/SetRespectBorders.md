@@ -4,7 +4,9 @@ Respects the form border width when scaling the image.
 
 ## Syntax
 
+```javascript
 expression.SetRespectBorders(isRespect);
+```
 
 `expression` - A variable that represents a [ApiPictureForm](../ApiPictureForm.md) class.
 

@@ -4,7 +4,9 @@ Returns the setting which specifies whether a pivot table field is compacted.
 
 ## Syntax
 
+```javascript
 expression.GetLayoutCompactRow();
+```
 
 `expression` - A variable that represents a [ApiPivotDataField](../ApiPivotDataField.md) class.
 

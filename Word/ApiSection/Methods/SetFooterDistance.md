@@ -4,7 +4,9 @@ Specifies the distance from the bottom edge of the page to the bottom edge of th
 
 ## Syntax
 
+```javascript
 expression.SetFooterDistance(nDistance);
+```
 
 `expression` - A variable that represents a [ApiSection](../ApiSection.md) class.
 

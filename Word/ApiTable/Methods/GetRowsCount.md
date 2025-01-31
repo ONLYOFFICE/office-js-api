@@ -4,7 +4,9 @@ Returns a number of rows in the current table.
 
 ## Syntax
 
+```javascript
 expression.GetRowsCount();
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 

@@ -4,7 +4,9 @@ Replaces the current table with a new element.
 
 ## Syntax
 
+```javascript
 expression.ReplaceByElement(oElement);
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 

@@ -5,7 +5,9 @@ Returns the value as a string if possible for the given form type*
 
 ## Syntax
 
+```javascript
 expression.GetText();
+```
 
 `expression` - A variable that represents a [ApiDateForm](../ApiDateForm.md) class.
 

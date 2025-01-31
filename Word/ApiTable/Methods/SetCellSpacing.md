@@ -4,7 +4,9 @@ Specifies the default table cell spacing (the spacing between adjacent cells and
 
 ## Syntax
 
+```javascript
 expression.SetCellSpacing(nValue);
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 

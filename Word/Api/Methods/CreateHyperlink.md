@@ -4,7 +4,9 @@ Creates a new hyperlink text block to be inserted to the current paragraph or ta
 
 ## Syntax
 
+```javascript
 expression.CreateHyperlink(link, display, screenTipText);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

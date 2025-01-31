@@ -4,7 +4,9 @@ Returns the parent table of the current row.
 
 ## Syntax
 
+```javascript
 expression.GetParentTable();
+```
 
 `expression` - A variable that represents a [ApiTableRow](../ApiTableRow.md) class.
 

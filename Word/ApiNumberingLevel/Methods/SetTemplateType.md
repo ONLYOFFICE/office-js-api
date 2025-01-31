@@ -4,7 +4,9 @@ Sets one of the existing predefined numbering templates.
 
 ## Syntax
 
+```javascript
 expression.SetTemplateType(sType, sSymbol);
+```
 
 `expression` - A variable that represents a [ApiNumberingLevel](../ApiNumberingLevel.md) class.
 

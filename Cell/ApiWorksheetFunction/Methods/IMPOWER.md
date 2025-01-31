@@ -4,7 +4,9 @@ Returns a complex number raised to an integer power.
 
 ## Syntax
 
+```javascript
 expression.IMPOWER(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

@@ -4,7 +4,9 @@ Specifies the starting value for the numbering used by the parent numbering leve
 
 ## Syntax
 
+```javascript
 expression.SetStart(nStart);
+```
 
 `expression` - A variable that represents a [ApiNumberingLevel](../ApiNumberingLevel.md) class.
 

@@ -4,7 +4,9 @@ Returns the previous section if exists.
 
 ## Syntax
 
+```javascript
 expression.GetPrevious();
+```
 
 `expression` - A variable that represents a [ApiSection](../ApiSection.md) class.
 

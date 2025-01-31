@@ -4,7 +4,9 @@ Returns the depreciation of an asset for any specified period, including partial
 
 ## Syntax
 
+```javascript
 expression.VDB(arg1, arg2, arg3, arg4, arg5, arg6, arg7);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

@@ -4,7 +4,9 @@ Returns a type of the ApiWatermarkSettings class.
 
 ## Syntax
 
+```javascript
 expression.GetClassType();
+```
 
 `expression` - A variable that represents a [ApiWatermarkSettings](../ApiWatermarkSettings.md) class.
 

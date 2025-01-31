@@ -4,7 +4,9 @@ Returns all heading paragraphs from the current document.
 
 ## Syntax
 
+```javascript
 expression.GetAllHeadingParagraphs();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

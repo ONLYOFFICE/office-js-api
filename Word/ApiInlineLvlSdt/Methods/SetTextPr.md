@@ -4,7 +4,9 @@ Applies text settings to the content of the content control.
 
 ## Syntax
 
+```javascript
 expression.SetTextPr(oTextPr);
+```
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 

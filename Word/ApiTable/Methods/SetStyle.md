@@ -4,7 +4,9 @@ Sets a style to the current table.
 
 ## Syntax
 
+```javascript
 expression.SetStyle(oStyle);
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 

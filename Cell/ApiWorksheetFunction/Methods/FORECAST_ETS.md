@@ -4,7 +4,9 @@
 
 ## Syntax
 
+```javascript
 expression.FORECAST_ETS(arg1, arg2, arg3, arg4, arg5, arg6);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

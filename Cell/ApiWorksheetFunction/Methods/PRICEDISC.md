@@ -4,7 +4,9 @@ Returns the price per $100 face value for a discounted security.
 
 ## Syntax
 
+```javascript
 expression.PRICEDISC(arg1, arg2, arg3, arg4, arg5);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

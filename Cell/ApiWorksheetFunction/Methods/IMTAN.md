@@ -4,7 +4,9 @@ Returns the tangent of a complex number.
 
 ## Syntax
 
+```javascript
 expression.IMTAN(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

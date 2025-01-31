@@ -4,7 +4,9 @@ Adds a new value to the combo box / dropdown list content control.
 
 ## Syntax
 
+```javascript
 expression.Add(sText, sValue, nIndex);
+```
 
 `expression` - A variable that represents a [ApiContentControlList](../ApiContentControlList.md) class.
 

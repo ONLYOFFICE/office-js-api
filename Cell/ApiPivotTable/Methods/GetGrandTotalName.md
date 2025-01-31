@@ -4,7 +4,9 @@ Returns the text string label that is displayed in the grand total column or row
 
 ## Syntax
 
+```javascript
 expression.GetGrandTotalName();
+```
 
 `expression` - A variable that represents a [ApiPivotTable](../ApiPivotTable.md) class.
 

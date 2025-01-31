@@ -4,7 +4,9 @@ Removes the current pivot field from the pivot table.
 
 ## Syntax
 
+```javascript
 expression.Remove();
+```
 
 `expression` - A variable that represents a [ApiPivotField](../ApiPivotField.md) class.
 

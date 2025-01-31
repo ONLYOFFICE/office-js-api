@@ -4,7 +4,9 @@ Updates all tables of figures in the current document.
 
 ## Syntax
 
+```javascript
 expression.UpdateAllTOF(bOnlyPageNumbers);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

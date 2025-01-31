@@ -4,7 +4,9 @@ Sets the specified numeric format to the axis values.
 
 ## Syntax
 
+```javascript
 expression.SetAxieNumFormat(sFormat, sAxiePos);
+```
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 

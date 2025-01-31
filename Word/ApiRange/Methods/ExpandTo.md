@@ -4,7 +4,9 @@ Returns a new range that goes beyond the specified range in any direction and sp
 
 ## Syntax
 
+```javascript
 expression.ExpandTo(oRange);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

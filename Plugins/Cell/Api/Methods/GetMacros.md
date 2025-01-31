@@ -4,7 +4,9 @@ Returns the document macros.
 
 ## Syntax
 
+```javascript
 expression.GetMacros();
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

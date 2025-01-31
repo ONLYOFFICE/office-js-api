@@ -4,7 +4,9 @@ Deletes all manual filters from the pivot filters collection.
 
 ## Syntax
 
+```javascript
 expression.ClearManualFilters();
+```
 
 `expression` - A variable that represents a [ApiPivotDataField](../ApiPivotDataField.md) class.
 

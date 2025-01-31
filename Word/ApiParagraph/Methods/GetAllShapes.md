@@ -4,7 +4,9 @@ Returns a collection of shape objects in the paragraph.
 
 ## Syntax
 
+```javascript
 expression.GetAllShapes();
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

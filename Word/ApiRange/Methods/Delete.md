@@ -4,7 +4,9 @@ Deletes all the contents from the current range.
 
 ## Syntax
 
+```javascript
 expression.Delete();
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

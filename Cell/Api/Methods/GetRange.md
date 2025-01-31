@@ -4,7 +4,9 @@ Returns the ApiRange object by the range reference.
 
 ## Syntax
 
+```javascript
 expression.GetRange(sRange);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

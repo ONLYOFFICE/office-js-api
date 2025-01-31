@@ -4,7 +4,9 @@ Sets the size (width and height) of the watermark image in the document.
 
 ## Syntax
 
+```javascript
 expression.SetImageSize(nWidth, nHeight);
+```
 
 `expression` - A variable that represents a [ApiWatermarkSettings](../ApiWatermarkSettings.md) class.
 

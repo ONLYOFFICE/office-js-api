@@ -4,7 +4,9 @@ Sets the outline properties to the specified graphic object.
 
 ## Syntax
 
+```javascript
 expression.SetOutLine(oStroke);
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 

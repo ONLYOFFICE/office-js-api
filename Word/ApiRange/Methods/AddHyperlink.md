@@ -4,7 +4,9 @@ Adds a hyperlink to the specified range.
 
 ## Syntax
 
+```javascript
 expression.AddHyperlink(sLink, sScreenTipText);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

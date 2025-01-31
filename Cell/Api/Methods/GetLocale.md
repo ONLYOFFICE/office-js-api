@@ -4,7 +4,9 @@ Returns the current locale ID.
 
 ## Syntax
 
+```javascript
 expression.GetLocale();
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

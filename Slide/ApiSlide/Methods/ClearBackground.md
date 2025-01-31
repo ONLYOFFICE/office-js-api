@@ -4,7 +4,9 @@ Clears the slide background.
 
 ## Syntax
 
+```javascript
 expression.ClearBackground();
+```
 
 `expression` - A variable that represents a [ApiSlide](../ApiSlide.md) class.
 

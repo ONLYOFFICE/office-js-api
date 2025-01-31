@@ -4,7 +4,9 @@ Returns the watermark settings in the current document.
 
 ## Syntax
 
+```javascript
 expression.GetWatermarkSettings();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

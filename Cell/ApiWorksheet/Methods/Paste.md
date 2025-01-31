@@ -4,7 +4,9 @@ Pastes the contents of the clipboard to the current sheet.
 
 ## Syntax
 
+```javascript
 expression.Paste(destination);
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

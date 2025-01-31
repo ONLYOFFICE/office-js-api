@@ -4,7 +4,9 @@ Returns a collection of image objects in the paragraph.
 
 ## Syntax
 
+```javascript
 expression.GetAllImages();
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

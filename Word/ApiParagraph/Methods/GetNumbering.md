@@ -4,7 +4,9 @@ Returns the numbering definition and numbering level for the numbered list.
 
 ## Syntax
 
+```javascript
 expression.GetNumbering();
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

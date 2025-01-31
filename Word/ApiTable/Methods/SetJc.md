@@ -4,7 +4,9 @@ Specifies the alignment of the current table with respect to the text margins in
 
 ## Syntax
 
+```javascript
 expression.SetJc(sJcType);
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 

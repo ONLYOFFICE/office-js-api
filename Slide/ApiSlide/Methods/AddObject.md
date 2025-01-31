@@ -4,7 +4,9 @@ Adds an object (image, shape or chart) to the current presentation slide.
 
 ## Syntax
 
+```javascript
 expression.AddObject(oDrawing);
+```
 
 `expression` - A variable that represents a [ApiSlide](../ApiSlide.md) class.
 

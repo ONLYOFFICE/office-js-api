@@ -4,7 +4,9 @@ Gets the text position from the current text properties measured in half-points 
 
 ## Syntax
 
+```javascript
 expression.GetPosition();
+```
 
 `expression` - A variable that represents a [ApiTextPr](../ApiTextPr.md) class.
 

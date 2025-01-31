@@ -4,7 +4,9 @@ Sets the text properties to the current run.
 
 ## Syntax
 
+```javascript
 expression.SetTextPr(oTextPr);
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 

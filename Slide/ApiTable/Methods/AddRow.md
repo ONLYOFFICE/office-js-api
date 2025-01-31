@@ -4,7 +4,9 @@ Adds a new row to the current table.
 
 ## Syntax
 
+```javascript
 expression.AddRow(oCell, isBefore);
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 

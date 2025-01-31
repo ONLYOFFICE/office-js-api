@@ -4,7 +4,9 @@ Returns the current sentence or part of the current sentence.
 
 ## Syntax
 
+```javascript
 expression.GetCurrentSentence(sPart);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

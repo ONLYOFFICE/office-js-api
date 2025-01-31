@@ -4,7 +4,9 @@ Adds a string label to the current inline text content control.
 
 ## Syntax
 
+```javascript
 expression.SetLabel(sLabel);
+```
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 

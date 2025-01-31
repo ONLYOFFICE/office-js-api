@@ -4,7 +4,9 @@ Returns the setting which specifies whether to display field headers for rows an
 
 ## Syntax
 
+```javascript
 expression.SetDisplayFieldCaptions(show);
+```
 
 `expression` - A variable that represents a [ApiPivotTable](../ApiPivotTable.md) class.
 

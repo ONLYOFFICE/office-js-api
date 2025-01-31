@@ -4,7 +4,9 @@ Updates all fields in the document.
 
 ## Syntax
 
+```javascript
 expression.UpdateAllFields(bBySelection);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

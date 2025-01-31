@@ -4,7 +4,9 @@ Returns the sizes of the input helper scrolled window. Returns an object with wi
 
 ## Syntax
 
+```javascript
 expression.getScrollSizes();
+```
 
 `expression` - A variable that represents a [InputHelper](../InputHelper.md) class.
 

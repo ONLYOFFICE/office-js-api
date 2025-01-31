@@ -4,7 +4,9 @@ Creates a new theme color scheme.
 
 ## Syntax
 
+```javascript
 expression.CreateThemeColorScheme(arrColors, sName);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

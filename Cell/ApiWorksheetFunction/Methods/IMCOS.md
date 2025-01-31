@@ -4,7 +4,9 @@ Returns the cosine of a complex number.
 
 ## Syntax
 
+```javascript
 expression.IMCOS(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

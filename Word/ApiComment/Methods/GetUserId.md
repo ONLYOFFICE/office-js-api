@@ -4,7 +4,9 @@ Returns the user ID of the comment author.
 
 ## Syntax
 
+```javascript
 expression.GetUserId();
+```
 
 `expression` - A variable that represents a [ApiComment](../ApiComment.md) class.
 

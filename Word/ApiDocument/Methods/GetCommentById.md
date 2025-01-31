@@ -4,7 +4,9 @@ Returns a comment from the current document by its ID.
 
 ## Syntax
 
+```javascript
 expression.GetCommentById(sId);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

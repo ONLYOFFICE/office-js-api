@@ -4,7 +4,9 @@ Returns a slide master by its position in the presentation.
 
 ## Syntax
 
+```javascript
 expression.GetMaster(nPos);
+```
 
 `expression` - A variable that represents a [ApiPresentation](../ApiPresentation.md) class.
 

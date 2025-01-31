@@ -4,7 +4,9 @@ Returns the serial number of the date which comes the indicated number of months
 
 ## Syntax
 
+```javascript
 expression.EDATE(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

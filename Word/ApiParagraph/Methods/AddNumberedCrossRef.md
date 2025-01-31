@@ -5,7 +5,9 @@ Adds a numbered cross-reference to the current paragraph.
 
 ## Syntax
 
+```javascript
 expression.AddNumberedCrossRef(sRefType, oParaTo, bLink, bAboveBelow, sSepWith);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

@@ -4,7 +4,9 @@ Deletes the current graphic object.
 
 ## Syntax
 
+```javascript
 expression.Delete();
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 

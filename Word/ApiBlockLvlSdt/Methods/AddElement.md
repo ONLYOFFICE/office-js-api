@@ -4,7 +4,9 @@ Adds a paragraph or a table or a block content control to the current container.
 
 ## Syntax
 
+```javascript
 expression.AddElement(element, pos);
+```
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 

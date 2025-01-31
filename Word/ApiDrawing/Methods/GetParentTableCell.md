@@ -4,7 +4,9 @@ Returns a parent table cell that contains the graphic object.
 
 ## Syntax
 
+```javascript
 expression.GetParentTableCell();
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 

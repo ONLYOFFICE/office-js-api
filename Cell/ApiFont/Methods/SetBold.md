@@ -5,7 +5,9 @@ Sets the bold property to the specified font.
 
 ## Syntax
 
+```javascript
 expression.SetBold(isBold);
+```
 
 `expression` - A variable that represents a [ApiFont](../ApiFont.md) class.
 

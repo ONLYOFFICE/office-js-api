@@ -4,7 +4,9 @@ Sets the table title (caption).
 
 ## Syntax
 
+```javascript
 expression.SetTableTitle(sTitle);
+```
 
 `expression` - A variable that represents a [ApiTablePr](../ApiTablePr.md) class.
 

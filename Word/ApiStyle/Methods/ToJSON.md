@@ -4,7 +4,9 @@ Converts the ApiStyle object into the JSON object.
 
 ## Syntax
 
+```javascript
 expression.ToJSON(bWriteNumberings);
+```
 
 `expression` - A variable that represents a [ApiStyle](../ApiStyle.md) class.
 

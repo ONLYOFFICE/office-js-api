@@ -4,7 +4,9 @@ Returns the inverse of the right-tailed probability of the chi-squared distribut
 
 ## Syntax
 
+```javascript
 expression.CHIINV(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

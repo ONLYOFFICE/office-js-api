@@ -4,7 +4,9 @@ Specifies whether a number in the cell should be treated like number, currency, 
 
 ## Syntax
 
+```javascript
 expression.SetNumberFormat(sFormat);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

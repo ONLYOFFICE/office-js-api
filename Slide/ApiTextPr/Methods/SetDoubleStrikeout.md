@@ -4,7 +4,9 @@ Specifies that the contents of the run are displayed with two horizontal lines t
 
 ## Syntax
 
+```javascript
 expression.SetDoubleStrikeout(isDoubleStrikeout);
+```
 
 `expression` - A variable that represents a [ApiTextPr](../ApiTextPr.md) class.
 

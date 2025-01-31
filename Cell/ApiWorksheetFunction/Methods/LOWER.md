@@ -4,7 +4,9 @@ Converts all letters in a text string to lowercase.
 
 ## Syntax
 
+```javascript
 expression.LOWER(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

@@ -4,7 +4,9 @@ Returns the week number in the year.
 
 ## Syntax
 
+```javascript
 expression.WEEKNUM(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

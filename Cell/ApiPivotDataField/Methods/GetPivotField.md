@@ -4,7 +4,9 @@ Returns the pivot field from which the data field was created.
 
 ## Syntax
 
+```javascript
 expression.GetPivotField();
+```
 
 `expression` - A variable that represents a [ApiPivotDataField](../ApiPivotDataField.md) class.
 

@@ -4,7 +4,9 @@ Returns the hyperbolic sine of a number.
 
 ## Syntax
 
+```javascript
 expression.SINH(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

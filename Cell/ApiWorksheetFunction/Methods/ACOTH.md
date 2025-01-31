@@ -4,7 +4,9 @@ Returns the inverse hyperbolic cotangent of a number.
 
 ## Syntax
 
+```javascript
 expression.ACOTH(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

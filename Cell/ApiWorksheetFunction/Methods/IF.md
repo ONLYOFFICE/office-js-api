@@ -4,7 +4,9 @@ Checks whether a condition is met, and returns one value if **true**, and anothe
 
 ## Syntax
 
+```javascript
 expression.IF(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

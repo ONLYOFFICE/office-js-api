@@ -4,7 +4,9 @@ Returns the content for the specified header type.
 
 ## Syntax
 
+```javascript
 expression.GetHeader(sType, isCreate);
+```
 
 `expression` - A variable that represents a [ApiSection](../ApiSection.md) class.
 

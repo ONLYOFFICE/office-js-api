@@ -5,7 +5,9 @@ or a collection of all the visible and hidden items (an array of the ApiPivotIte
 
 ## Syntax
 
+```javascript
 expression.GetPivotItems(index);
+```
 
 `expression` - A variable that represents a [ApiPivotDataField](../ApiPivotDataField.md) class.
 

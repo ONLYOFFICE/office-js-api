@@ -4,7 +4,9 @@ Specifies how the floating object will be horizontally aligned.
 
 ## Syntax
 
+```javascript
 expression.SetHorAlign(sRelativeFrom, sAlign);
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 

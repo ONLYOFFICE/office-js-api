@@ -4,7 +4,9 @@ Returns the opacity of the watermark in the document.
 
 ## Syntax
 
+```javascript
 expression.GetOpacity();
+```
 
 `expression` - A variable that represents a [ApiWatermarkSettings](../ApiWatermarkSettings.md) class.
 

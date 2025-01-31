@@ -4,7 +4,9 @@ Converts the current form to a fixed size form.
 
 ## Syntax
 
+```javascript
 expression.ToFixed(width, height, keepPosition);
+```
 
 `expression` - A variable that represents a [ApiDateForm](../ApiDateForm.md) class.
 

@@ -4,7 +4,9 @@ Sets the text properties to the current Range.
 
 ## Syntax
 
+```javascript
 expression.SetTextPr(oTextPr);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

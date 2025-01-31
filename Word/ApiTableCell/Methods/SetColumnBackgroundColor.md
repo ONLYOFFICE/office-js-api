@@ -4,7 +4,9 @@ Sets the background color to all cells in the column containing the current cell
 
 ## Syntax
 
+```javascript
 expression.SetColumnBackgroundColor(r, g, b, bNone);
+```
 
 `expression` - A variable that represents a [ApiTableCell](../ApiTableCell.md) class.
 

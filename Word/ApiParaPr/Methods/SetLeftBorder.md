@@ -4,7 +4,9 @@ Specifies the border which will be displayed at the left side of the page around
 
 ## Syntax
 
+```javascript
 expression.SetLeftBorder(sType, nSize, nSpace, r, g, b);
+```
 
 `expression` - A variable that represents a [ApiParaPr](../ApiParaPr.md) class.
 

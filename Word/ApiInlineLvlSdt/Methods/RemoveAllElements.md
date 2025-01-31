@@ -4,7 +4,9 @@ Removes all the elements from the current inline text content control.
 
 ## Syntax
 
+```javascript
 expression.RemoveAllElements();
+```
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 

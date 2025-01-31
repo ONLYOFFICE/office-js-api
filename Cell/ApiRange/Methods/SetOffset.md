@@ -4,7 +4,9 @@ Sets the cell offset.
 
 ## Syntax
 
+```javascript
 expression.SetOffset(nRow, nCol);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

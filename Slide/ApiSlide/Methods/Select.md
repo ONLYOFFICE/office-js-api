@@ -4,7 +4,9 @@ Selects the current slide.
 
 ## Syntax
 
+```javascript
 expression.Select();
+```
 
 `expression` - A variable that represents a [ApiSlide](../ApiSlide.md) class.
 

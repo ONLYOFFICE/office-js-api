@@ -4,7 +4,9 @@ Returns the ApiPivotTable object which represents the pivot table for the curren
 
 ## Syntax
 
+```javascript
 expression.GetTable();
+```
 
 `expression` - A variable that represents a [ApiPivotDataField](../ApiPivotDataField.md) class.
 

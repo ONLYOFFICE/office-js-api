@@ -4,7 +4,9 @@ Returns the font size property of the specified font.
 
 ## Syntax
 
+```javascript
 expression.GetSize();
+```
 
 `expression` - A variable that represents a [ApiFont](../ApiFont.md) class.
 

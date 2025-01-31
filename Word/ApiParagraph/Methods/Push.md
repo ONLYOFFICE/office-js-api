@@ -4,7 +4,9 @@ Adds an element to the current paragraph.
 
 ## Syntax
 
+```javascript
 expression.Push(oElement);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

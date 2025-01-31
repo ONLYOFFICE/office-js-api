@@ -4,7 +4,9 @@ Specifies that the contents of this paragraph are displayed with two horizontal 
 
 ## Syntax
 
+```javascript
 expression.SetDoubleStrikeout(isDoubleStrikeout);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

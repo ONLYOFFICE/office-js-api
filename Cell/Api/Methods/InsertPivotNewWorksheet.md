@@ -4,7 +4,9 @@ Inserts the specified pivot table into a new worksheet.
 
 ## Syntax
 
+```javascript
 expression.InsertPivotNewWorksheet(dataRef, newSheetName);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

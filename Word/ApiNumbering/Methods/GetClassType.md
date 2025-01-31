@@ -4,7 +4,9 @@ Returns a type of the ApiNumbering class.
 
 ## Syntax
 
+```javascript
 expression.GetClassType();
+```
 
 `expression` - A variable that represents a [ApiNumbering](../ApiNumbering.md) class.
 

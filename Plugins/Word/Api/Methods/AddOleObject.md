@@ -4,7 +4,9 @@ Adds an OLE object to the current document position.
 
 ## Syntax
 
+```javascript
 expression.AddOleObject(data);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

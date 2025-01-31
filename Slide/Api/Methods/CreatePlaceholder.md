@@ -4,7 +4,9 @@ Creates a new placeholder.
 
 ## Syntax
 
+```javascript
 expression.CreatePlaceholder(sType);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

@@ -4,7 +4,9 @@ Sets the application ID to the current OLE object.
 
 ## Syntax
 
+```javascript
 expression.SetApplicationId(sAppId);
+```
 
 `expression` - A variable that represents a [ApiOleObject](../ApiOleObject.md) class.
 

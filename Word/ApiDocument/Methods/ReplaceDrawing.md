@@ -4,7 +4,9 @@ Replaces a drawing with a new drawing.
 
 ## Syntax
 
+```javascript
 expression.ReplaceDrawing(oOldDrawing, oNewDrawing, bSaveOldDrawingPr);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

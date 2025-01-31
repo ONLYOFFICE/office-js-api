@@ -4,7 +4,9 @@ Sets a value that represents the format code for the object.
 
 ## Syntax
 
+```javascript
 expression.SetNumberFormat(format);
+```
 
 `expression` - A variable that represents a [ApiPivotDataField](../ApiPivotDataField.md) class.
 

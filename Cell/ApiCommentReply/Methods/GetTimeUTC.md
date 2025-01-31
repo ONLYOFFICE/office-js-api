@@ -4,7 +4,9 @@ Returns the timestamp of the comment reply creation in UTC format.
 
 ## Syntax
 
+```javascript
 expression.GetTimeUTC();
+```
 
 `expression` - A variable that represents a [ApiCommentReply](../ApiCommentReply.md) class.
 

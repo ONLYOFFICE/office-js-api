@@ -4,7 +4,9 @@ Sorts the cells in the given range by the parameters specified in the request.
 
 ## Syntax
 
+```javascript
 expression.SetSort(key1, sSortOrder1, key2, sSortOrder2, key3, sSortOrder3, sHeader, sOrientation);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

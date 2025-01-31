@@ -4,7 +4,9 @@ Removes a watermark from the current document.
 
 ## Syntax
 
+```javascript
 expression.RemoveWatermark();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

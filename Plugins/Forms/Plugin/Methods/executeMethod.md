@@ -6,7 +6,9 @@ The callback is the result that the method returns. It is an optional parameter.
 
 ## Syntax
 
+```javascript
 expression.executeMethod(name, params, callback);
+```
 
 `expression` - A variable that represents a [Plugin](../Plugin.md) class.
 

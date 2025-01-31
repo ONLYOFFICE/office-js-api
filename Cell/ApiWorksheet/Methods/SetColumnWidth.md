@@ -6,7 +6,9 @@ For proportional fonts, the width of the character 0 (zero) is used.
 
 ## Syntax
 
+```javascript
 expression.SetColumnWidth(nColumn, nWidth, bWithotPaddings);
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

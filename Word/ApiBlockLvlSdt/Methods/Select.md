@@ -4,7 +4,9 @@ Selects the current content control.
 
 ## Syntax
 
+```javascript
 expression.Select();
+```
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 

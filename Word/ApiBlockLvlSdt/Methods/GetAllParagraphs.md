@@ -4,7 +4,9 @@ Returns a collection of paragraph objects in the current content control.
 
 ## Syntax
 
+```javascript
 expression.GetAllParagraphs();
+```
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 

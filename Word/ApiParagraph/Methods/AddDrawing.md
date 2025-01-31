@@ -4,7 +4,9 @@ Adds a drawing object (image, shape or chart) to the current paragraph.
 
 ## Syntax
 
+```javascript
 expression.AddDrawing(oDrawing);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

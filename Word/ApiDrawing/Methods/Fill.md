@@ -4,7 +4,9 @@ Sets the fill formatting properties to the current graphic object.
 
 ## Syntax
 
+```javascript
 expression.Fill(oFill);
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 

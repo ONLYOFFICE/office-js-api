@@ -4,7 +4,9 @@ Sets the setting which specifies whether the row headers of the pivot table will
 
 ## Syntax
 
+```javascript
 expression.SetTableStyleRowHeaders(show);
+```
 
 `expression` - A variable that represents a [ApiPivotTable](../ApiPivotTable.md) class.
 

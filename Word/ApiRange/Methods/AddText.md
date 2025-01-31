@@ -4,7 +4,9 @@ Adds a text to the specified position.
 
 ## Syntax
 
+```javascript
 expression.AddText(sText, sPosition);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

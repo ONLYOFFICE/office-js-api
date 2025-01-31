@@ -4,7 +4,9 @@ Returns the previous inline shape if exists.
 
 ## Syntax
 
+```javascript
 expression.GetPrevShape();
+```
 
 `expression` - A variable that represents a [ApiShape](../ApiShape.md) class.
 

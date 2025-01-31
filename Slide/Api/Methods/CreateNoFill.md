@@ -4,7 +4,9 @@ Creates no fill and removes the fill from the element.
 
 ## Syntax
 
+```javascript
 expression.CreateNoFill();
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

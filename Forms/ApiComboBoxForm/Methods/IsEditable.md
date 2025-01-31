@@ -4,7 +4,9 @@ Checks if the combo box text can be edited. If it is not editable, then this for
 
 ## Syntax
 
+```javascript
 expression.IsEditable();
+```
 
 `expression` - A variable that represents a [ApiComboBoxForm](../ApiComboBoxForm.md) class.
 

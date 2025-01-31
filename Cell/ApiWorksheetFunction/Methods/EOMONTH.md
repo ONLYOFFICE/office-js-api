@@ -4,7 +4,9 @@ Returns the serial number of the last day of the month before or after the speci
 
 ## Syntax
 
+```javascript
 expression.EOMONTH(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

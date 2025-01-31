@@ -4,7 +4,9 @@ Returns the smallest value for which the cumulative binomial distribution is gre
 
 ## Syntax
 
+```javascript
 expression.BINOM_INV(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

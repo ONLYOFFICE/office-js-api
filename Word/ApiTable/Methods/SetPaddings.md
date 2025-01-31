@@ -5,7 +5,9 @@ If table is inline, then only left padding is applied.
 
 ## Syntax
 
+```javascript
 expression.SetPaddings(nLeft, nTop, nRight, nBottom);
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 

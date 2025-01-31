@@ -4,7 +4,9 @@ Sets a title to the current protected range.
 
 ## Syntax
 
+```javascript
 expression.SetTitle(sTitle);
+```
 
 `expression` - A variable that represents a [ApiProtectedRange](../ApiProtectedRange.md) class.
 

@@ -4,7 +4,9 @@ Returns the first paragraphs from all endnotes in the current document.
 
 ## Syntax
 
+```javascript
 expression.GetEndNotesFirstParagraphs();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

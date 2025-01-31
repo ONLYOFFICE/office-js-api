@@ -4,7 +4,9 @@ Returns the exponential distribution.
 
 ## Syntax
 
+```javascript
 expression.EXPON_DIST(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

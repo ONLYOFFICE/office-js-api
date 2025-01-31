@@ -4,7 +4,9 @@ Returns the current form key.
 
 ## Syntax
 
+```javascript
 expression.GetFormKey();
+```
 
 `expression` - A variable that represents a [ApiCheckBoxForm](../ApiCheckBoxForm.md) class.
 

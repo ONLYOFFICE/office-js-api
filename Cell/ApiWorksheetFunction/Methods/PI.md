@@ -4,7 +4,9 @@ Returns the mathematical constant **pi**, equal to **3.14159265358979**, accurat
 
 ## Syntax
 
+```javascript
 expression.PI();
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

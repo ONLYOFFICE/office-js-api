@@ -4,7 +4,9 @@ Returns the inverse of the (right-tailed) F probability distribution: if p = F.D
 
 ## Syntax
 
+```javascript
 expression.F_INV_RT(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

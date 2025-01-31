@@ -4,7 +4,9 @@ Specifies major vertical gridline visual properties.
 
 ## Syntax
 
+```javascript
 expression.SetMajorVerticalGridlines(oStroke);
+```
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 

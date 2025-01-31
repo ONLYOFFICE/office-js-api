@@ -4,7 +4,9 @@ Calculates variance based on the entire population of the selected database entr
 
 ## Syntax
 
+```javascript
 expression.DVARP(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

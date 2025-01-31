@@ -4,7 +4,9 @@ Sets the items to the input helper.
 
 ## Syntax
 
+```javascript
 expression.setItems(items);
+```
 
 `expression` - A variable that represents a [InputHelper](../InputHelper.md) class.
 

@@ -4,7 +4,9 @@ Checks if the specified logical value is **true** or **false**. The function ret
 
 ## Syntax
 
+```javascript
 expression.NOT(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

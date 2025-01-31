@@ -5,7 +5,9 @@ of a specific individual table cell within a table.
 
 ## Syntax
 
+```javascript
 expression.SetCellMarginBottom(nValue);
+```
 
 `expression` - A variable that represents a [ApiTableCell](../ApiTableCell.md) class.
 

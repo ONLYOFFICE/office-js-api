@@ -4,7 +4,9 @@ Returns the number (code point) corresponding to the first character of the text
 
 ## Syntax
 
+```javascript
 expression.UNICODE(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

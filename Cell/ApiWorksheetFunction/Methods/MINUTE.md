@@ -4,7 +4,9 @@ Returns the minute, a number from 0 to 59.
 
 ## Syntax
 
+```javascript
 expression.MINUTE(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

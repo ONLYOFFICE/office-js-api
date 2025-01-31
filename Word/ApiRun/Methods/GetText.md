@@ -4,7 +4,9 @@ Returns a text from the text run.
 
 ## Syntax
 
+```javascript
 expression.GetText(oPr, oPr.NewLineSeparator, oPr.TabSymbol);
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 

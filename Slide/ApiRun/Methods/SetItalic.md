@@ -4,7 +4,9 @@ Sets the italic property to the text character.
 
 ## Syntax
 
+```javascript
 expression.SetItalic(isItalic);
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 

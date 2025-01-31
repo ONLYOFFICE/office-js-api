@@ -4,7 +4,9 @@ Converts the ApiDocumentContent object into the JSON object.
 
 ## Syntax
 
+```javascript
 expression.ToJSON(isWriteNumberings, isWriteStyles);
+```
 
 `expression` - A variable that represents a [ApiDocumentContent](../ApiDocumentContent.md) class.
 

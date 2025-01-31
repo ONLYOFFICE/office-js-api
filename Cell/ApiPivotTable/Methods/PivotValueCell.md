@@ -4,7 +4,9 @@ Returns the value of a pivot table cell.
 
 ## Syntax
 
+```javascript
 expression.PivotValueCell(rowLine, colLine);
+```
 
 `expression` - A variable that represents a [ApiPivotTable](../ApiPivotTable.md) class.
 

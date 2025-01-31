@@ -4,7 +4,9 @@ Returns a number that is rounded down to the nearest integer or to the nearest m
 
 ## Syntax
 
+```javascript
 expression.FLOOR_PRECISE(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

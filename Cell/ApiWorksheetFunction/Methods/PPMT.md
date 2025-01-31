@@ -4,7 +4,9 @@ Returns the payment on the principal for a given investment based on periodic, c
 
 ## Syntax
 
+```javascript
 expression.PPMT(arg1, arg2, arg3, arg4, arg5, arg6);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

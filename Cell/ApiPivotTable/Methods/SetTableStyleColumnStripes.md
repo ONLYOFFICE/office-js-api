@@ -4,7 +4,9 @@ Sets the setting which specifies whether the background color alternation for od
 
 ## Syntax
 
+```javascript
 expression.SetTableStyleColumnStripes(show);
+```
 
 `expression` - A variable that represents a [ApiPivotTable](../ApiPivotTable.md) class.
 

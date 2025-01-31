@@ -4,7 +4,9 @@ Specifies if the current text field should be miltiline.
 
 ## Syntax
 
+```javascript
 expression.SetMultiline(bMultiline);
+```
 
 `expression` - A variable that represents a [ApiTextForm](../ApiTextForm.md) class.
 

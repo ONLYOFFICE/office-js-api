@@ -4,7 +4,9 @@ Changes the width of the columns or the height of the rows in the range to achie
 
 ## Syntax
 
+```javascript
 expression.AutoFit(bRows, bCols);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

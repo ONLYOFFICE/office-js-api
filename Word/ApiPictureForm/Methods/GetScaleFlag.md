@@ -4,7 +4,9 @@ Returns the current scaling condition of the picture form.
 
 ## Syntax
 
+```javascript
 expression.GetScaleFlag();
+```
 
 `expression` - A variable that represents a [ApiPictureForm](../ApiPictureForm.md) class.
 

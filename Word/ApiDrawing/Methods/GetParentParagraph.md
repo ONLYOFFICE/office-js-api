@@ -4,7 +4,9 @@ Returns a parent paragraph that contains the graphic object.
 
 ## Syntax
 
+```javascript
 expression.GetParentParagraph();
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 

@@ -4,7 +4,9 @@ Places a cursor before/after the current form.
 
 ## Syntax
 
+```javascript
 expression.MoveCursorOutside(isAfter);
+```
 
 `expression` - A variable that represents a [ApiCheckBoxForm](../ApiCheckBoxForm.md) class.
 

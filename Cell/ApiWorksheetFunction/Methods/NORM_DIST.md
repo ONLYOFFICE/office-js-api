@@ -4,7 +4,9 @@ Returns the normal distribution for the specified mean and standard deviation.
 
 ## Syntax
 
+```javascript
 expression.NORM_DIST(arg1, arg2, arg3, arg4);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

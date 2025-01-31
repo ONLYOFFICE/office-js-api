@@ -4,7 +4,9 @@ Finds the average (arithmetic mean) for the cells specified by a given condition
 
 ## Syntax
 
+```javascript
 expression.AVERAGEIF(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

@@ -4,7 +4,9 @@ Returns an array that represents all the hidden fields in the pivot table.
 
 ## Syntax
 
+```javascript
 expression.GetHiddenFields();
+```
 
 `expression` - A variable that represents a [ApiPivotTable](../ApiPivotTable.md) class.
 

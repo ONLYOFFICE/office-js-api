@@ -4,7 +4,9 @@ Sets a name to the current theme color scheme.
 
 ## Syntax
 
+```javascript
 expression.SetSchemeName(sName);
+```
 
 `expression` - A variable that represents a [ApiThemeColorScheme](../ApiThemeColorScheme.md) class.
 

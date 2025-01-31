@@ -4,7 +4,9 @@ Creates a copy of the current table.
 
 ## Syntax
 
+```javascript
 expression.Copy();
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 

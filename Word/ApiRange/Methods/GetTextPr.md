@@ -4,7 +4,9 @@ Returns the merged text properties of the entire range.
 
 ## Syntax
 
+```javascript
 expression.GetTextPr();
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

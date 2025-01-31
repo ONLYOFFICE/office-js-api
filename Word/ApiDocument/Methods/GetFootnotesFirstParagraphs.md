@@ -4,7 +4,9 @@ Returns the first paragraphs from all footnotes in the current document.
 
 ## Syntax
 
+```javascript
 expression.GetFootnotesFirstParagraphs();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

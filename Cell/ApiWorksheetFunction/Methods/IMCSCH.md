@@ -4,7 +4,9 @@ Returns the hyperbolic cosecant of a complex number.
 
 ## Syntax
 
+```javascript
 expression.IMCSCH(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

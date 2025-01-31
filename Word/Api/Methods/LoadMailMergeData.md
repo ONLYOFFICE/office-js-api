@@ -4,7 +4,9 @@ Loads data for the mail merge.
 
 ## Syntax
 
+```javascript
 expression.LoadMailMergeData(data);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

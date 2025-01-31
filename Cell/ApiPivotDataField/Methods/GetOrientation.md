@@ -5,7 +5,9 @@ of the field in the specified pivot table report.
 
 ## Syntax
 
+```javascript
 expression.GetOrientation();
+```
 
 `expression` - A variable that represents a [ApiPivotDataField](../ApiPivotDataField.md) class.
 

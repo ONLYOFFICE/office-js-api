@@ -4,7 +4,9 @@ Returns an object that represents all subtotals.
 
 ## Syntax
 
+```javascript
 expression.GetSubtotals();
+```
 
 `expression` - A variable that represents a [ApiPivotField](../ApiPivotField.md) class.
 

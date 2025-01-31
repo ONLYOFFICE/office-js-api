@@ -4,7 +4,9 @@ Converts a hexadecimal number to decimal.
 
 ## Syntax
 
+```javascript
 expression.HEX2DEC(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

@@ -4,7 +4,9 @@ Adds an item to the toolbar menu.
 
 ## Syntax
 
+```javascript
 expression.AddToolbarMenuItem(items);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

@@ -4,7 +4,9 @@ Creates a new paragraph.
 
 ## Syntax
 
+```javascript
 expression.CreateParagraph();
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

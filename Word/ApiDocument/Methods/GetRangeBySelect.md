@@ -4,7 +4,9 @@ Returns a range object by the current selection.
 
 ## Syntax
 
+```javascript
 expression.GetRangeBySelect();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

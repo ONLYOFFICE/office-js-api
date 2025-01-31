@@ -4,7 +4,9 @@ Returns a type of the ApiStroke class.
 
 ## Syntax
 
+```javascript
 expression.GetClassType();
+```
 
 `expression` - A variable that represents a [ApiStroke](../ApiStroke.md) class.
 

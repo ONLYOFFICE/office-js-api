@@ -4,7 +4,9 @@ Sets the border which will be displayed to the left of the current table cell.
 
 ## Syntax
 
+```javascript
 expression.SetCellBorderLeft(sType, nSize, nSpace, r, g, b);
+```
 
 `expression` - A variable that represents a [ApiTableCellPr](../ApiTableCellPr.md) class.
 

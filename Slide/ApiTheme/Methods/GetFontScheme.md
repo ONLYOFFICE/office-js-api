@@ -4,7 +4,9 @@ Returns the font scheme of the current theme.
 
 ## Syntax
 
+```javascript
 expression.GetFontScheme();
+```
 
 `expression` - A variable that represents a [ApiTheme](../ApiTheme.md) class.
 

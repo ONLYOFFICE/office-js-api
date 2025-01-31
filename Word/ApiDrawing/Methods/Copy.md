@@ -4,7 +4,9 @@ Copies the current graphic object.
 
 ## Syntax
 
+```javascript
 expression.Copy();
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 

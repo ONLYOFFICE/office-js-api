@@ -4,7 +4,9 @@ Inserts a watermark on each document page.
 
 ## Syntax
 
+```javascript
 expression.InsertWatermark(sText, bIsDiagonal);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

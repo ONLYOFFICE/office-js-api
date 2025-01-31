@@ -5,7 +5,9 @@ If a form was created and not assigned to any part of the document, it won't app
 
 ## Syntax
 
+```javascript
 expression.GetFormsData();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

@@ -4,7 +4,9 @@ Returns the previous inline image if exists.
 
 ## Syntax
 
+```javascript
 expression.GetPrevImage();
+```
 
 `expression` - A variable that represents a [ApiImage](../ApiImage.md) class.
 

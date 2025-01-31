@@ -4,7 +4,9 @@ Converts the ApiFill object into the JSON object.
 
 ## Syntax
 
+```javascript
 expression.ToJSON();
+```
 
 `expression` - A variable that represents a [ApiFill](../ApiFill.md) class.
 

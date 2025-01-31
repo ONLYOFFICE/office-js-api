@@ -4,7 +4,9 @@ Returns a caption of the pivot item.
 
 ## Syntax
 
+```javascript
 expression.GetCaption();
+```
 
 `expression` - A variable that represents a [ApiPivotItem](../ApiPivotItem.md) class.
 

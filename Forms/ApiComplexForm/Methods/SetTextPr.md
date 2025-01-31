@@ -5,7 +5,9 @@ Used if possible for this type of form*
 
 ## Syntax
 
+```javascript
 expression.SetTextPr(oTextPr);
+```
 
 `expression` - A variable that represents a [ApiComplexForm](../ApiComplexForm.md) class.
 

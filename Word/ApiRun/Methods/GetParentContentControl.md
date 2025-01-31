@@ -4,7 +4,9 @@ Returns a content control that contains the current run.
 
 ## Syntax
 
+```javascript
 expression.GetParentContentControl();
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 

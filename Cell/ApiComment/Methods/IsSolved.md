@@ -4,7 +4,9 @@ Checks if a comment is solved or not.
 
 ## Syntax
 
+```javascript
 expression.IsSolved();
+```
 
 `expression` - A variable that represents a [ApiComment](../ApiComment.md) class.
 

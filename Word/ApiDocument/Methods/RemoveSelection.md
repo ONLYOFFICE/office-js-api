@@ -4,7 +4,9 @@ Removes the current selection.
 
 ## Syntax
 
+```javascript
 expression.RemoveSelection();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

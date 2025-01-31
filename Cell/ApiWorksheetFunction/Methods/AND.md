@@ -4,7 +4,9 @@ Checks whether all conditions in a test are **true**.
 
 ## Syntax
 
+```javascript
 expression.AND(args);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

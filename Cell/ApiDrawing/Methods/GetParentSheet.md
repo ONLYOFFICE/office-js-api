@@ -4,7 +4,9 @@ Returns the parent sheet of the current drawing.
 
 ## Syntax
 
+```javascript
 expression.GetParentSheet();
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 

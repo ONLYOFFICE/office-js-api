@@ -4,7 +4,9 @@ Returns the top margin of the sheet.
 
 ## Syntax
 
+```javascript
 expression.GetTopMargin();
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

@@ -7,7 +7,9 @@ Parameters can be required or optional. A user can also set a default value.
 
 ## Syntax
 
+```javascript
 expression.AddCustomFunction(fCustom);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

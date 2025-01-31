@@ -4,7 +4,9 @@ Returns the pivot table title.
 
 ## Syntax
 
+```javascript
 expression.GetTitle();
+```
 
 `expression` - A variable that represents a [ApiPivotTable](../ApiPivotTable.md) class.
 

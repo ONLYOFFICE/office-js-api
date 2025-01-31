@@ -4,7 +4,9 @@ Finds the specified substring within another string and is intended for language
 
 ## Syntax
 
+```javascript
 expression.FINDB(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

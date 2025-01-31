@@ -4,7 +4,9 @@ Tests whether two numbers are equal. The function returns 1 if the numbers are e
 
 ## Syntax
 
+```javascript
 expression.DELTA(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

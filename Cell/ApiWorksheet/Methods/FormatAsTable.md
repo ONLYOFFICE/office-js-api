@@ -5,7 +5,9 @@ Formats the selected range of cells from the current sheet as a table (with the 
 
 ## Syntax
 
+```javascript
 expression.FormatAsTable(sRange);
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

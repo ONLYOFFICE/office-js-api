@@ -4,7 +4,9 @@ Sets the **Grand Totals** setting to the pivot table columns.
 
 ## Syntax
 
+```javascript
 expression.SetColumnGrand(show);
+```
 
 `expression` - A variable that represents a [ApiPivotTable](../ApiPivotTable.md) class.
 

@@ -4,7 +4,9 @@ Returns an array of the &#123;@link global#InputHelperItem InputHelperItem&#125;
 
 ## Syntax
 
+```javascript
 expression.getItems();
+```
 
 `expression` - A variable that represents a [InputHelper](../InputHelper.md) class.
 

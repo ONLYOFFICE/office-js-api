@@ -5,7 +5,9 @@ odd pages (one header/footer for odd pages and another header/footer for even pa
 
 ## Syntax
 
+```javascript
 expression.SetEvenAndOddHdrFtr(isEvenAndOdd);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

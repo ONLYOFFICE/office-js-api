@@ -5,7 +5,9 @@ the contents of this text run.
 
 ## Syntax
 
+```javascript
 expression.SetLanguage(sLangId);
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 

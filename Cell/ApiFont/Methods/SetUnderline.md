@@ -5,7 +5,9 @@ Sets an underline of the type specified in the request to the current font.
 
 ## Syntax
 
+```javascript
 expression.SetUnderline(Underline);
+```
 
 `expression` - A variable that represents a [ApiFont](../ApiFont.md) class.
 

@@ -4,7 +4,9 @@ Returns the square root of a complex number.
 
 ## Syntax
 
+```javascript
 expression.IMSQRT(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

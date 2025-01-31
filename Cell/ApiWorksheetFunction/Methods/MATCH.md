@@ -4,7 +4,9 @@ Returns the relative position of an item in a range that matches the specified v
 
 ## Syntax
 
+```javascript
 expression.MATCH(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

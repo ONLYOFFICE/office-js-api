@@ -4,7 +4,9 @@ Sets the data to the current OLE object.
 
 ## Syntax
 
+```javascript
 expression.SetData(sData);
+```
 
 `expression` - A variable that represents a [ApiOleObject](../ApiOleObject.md) class.
 

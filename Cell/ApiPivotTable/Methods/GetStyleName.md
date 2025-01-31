@@ -4,7 +4,9 @@ Returns the pivot table style name.
 
 ## Syntax
 
+```javascript
 expression.GetStyleName();
+```
 
 `expression` - A variable that represents a [ApiPivotTable](../ApiPivotTable.md) class.
 

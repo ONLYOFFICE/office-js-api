@@ -6,7 +6,9 @@ element added this method will return the value of '1'.
 
 ## Syntax
 
+```javascript
 expression.GetElementsCount();
+```
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 

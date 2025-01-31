@@ -4,7 +4,9 @@ Sets a limit to the text field characters.
 
 ## Syntax
 
+```javascript
 expression.SetCharactersLimit(nChars);
+```
 
 `expression` - A variable that represents a [ApiTextForm](../ApiTextForm.md) class.
 

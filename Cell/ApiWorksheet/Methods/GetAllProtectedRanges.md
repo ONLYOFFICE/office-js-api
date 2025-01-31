@@ -4,7 +4,9 @@ Returns all protected ranges from the current worksheet.
 
 ## Syntax
 
+```javascript
 expression.GetAllProtectedRanges();
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

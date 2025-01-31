@@ -4,7 +4,9 @@ Returns the type of underline applied to the specified font.
 
 ## Syntax
 
+```javascript
 expression.GetUnderline();
+```
 
 `expression` - A variable that represents a [ApiFont](../ApiFont.md) class.
 

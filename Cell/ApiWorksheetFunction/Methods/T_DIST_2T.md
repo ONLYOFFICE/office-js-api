@@ -4,7 +4,9 @@ Returns the two-tailed Student's t-distribution.
 
 ## Syntax
 
+```javascript
 expression.T_DIST_2T(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

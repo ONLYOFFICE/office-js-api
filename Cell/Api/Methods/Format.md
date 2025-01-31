@@ -4,7 +4,9 @@ Returns a class formatted according to the instructions contained in the format 
 
 ## Syntax
 
+```javascript
 expression.Format(expression, format);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

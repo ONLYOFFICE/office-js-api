@@ -5,7 +5,9 @@ Used if possible for this type of form*
 
 ## Syntax
 
+```javascript
 expression.GetTextPr();
+```
 
 `expression` - A variable that represents a [ApiTextForm](../ApiTextForm.md) class.
 

@@ -4,7 +4,9 @@ Converts hours, minutes and seconds given as numbers to a serial number, formatt
 
 ## Syntax
 
+```javascript
 expression.TIME(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

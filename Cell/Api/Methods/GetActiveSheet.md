@@ -4,7 +4,9 @@ Returns an object that represents the active sheet.
 
 ## Syntax
 
+```javascript
 expression.GetActiveSheet();
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

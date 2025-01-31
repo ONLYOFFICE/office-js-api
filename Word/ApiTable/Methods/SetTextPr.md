@@ -4,7 +4,9 @@ Applies the text settings to the entire contents of the table.
 
 ## Syntax
 
+```javascript
 expression.SetTextPr(oTextPr);
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 

@@ -4,7 +4,9 @@ Sets the font size to the characters of the current text run.
 
 ## Syntax
 
+```javascript
 expression.SetFontSize(nSize);
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 

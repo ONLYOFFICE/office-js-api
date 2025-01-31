@@ -4,7 +4,9 @@ Returns the sum of the specified complex numbers.
 
 ## Syntax
 
+```javascript
 expression.IMSUM(args);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

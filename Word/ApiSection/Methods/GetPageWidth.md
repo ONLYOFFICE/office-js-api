@@ -4,7 +4,9 @@ Gets page width for current section.
 
 ## Syntax
 
+```javascript
 expression.GetPageWidth();
+```
 
 `expression` - A variable that represents a [ApiSection](../ApiSection.md) class.
 

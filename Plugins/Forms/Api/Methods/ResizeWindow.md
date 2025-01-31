@@ -4,7 +4,9 @@ Resizes the plugin modal window.
 
 ## Syntax
 
+```javascript
 expression.ResizeWindow(frameId, size, minSize, maxSize);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

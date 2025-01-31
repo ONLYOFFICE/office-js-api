@@ -4,7 +4,9 @@ Sets the border to the cell / cell range with the parameters specified.
 
 ## Syntax
 
+```javascript
 expression.SetBorders(bordersIndex, lineStyle, oColor);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

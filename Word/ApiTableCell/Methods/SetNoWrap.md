@@ -5,7 +5,9 @@ only affects the behavior of the cell when the &#123;@link ApiTablePr#SetTableLa
 
 ## Syntax
 
+```javascript
 expression.SetNoWrap(isNoWrap);
+```
 
 `expression` - A variable that represents a [ApiTableCell](../ApiTableCell.md) class.
 

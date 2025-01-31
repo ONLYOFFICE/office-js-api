@@ -5,7 +5,9 @@ Specifies the indentation which will be added before the leading edge of the cur
 
 ## Syntax
 
+```javascript
 expression.SetTableInd(nValue);
+```
 
 `expression` - A variable that represents a [ApiTablePr](../ApiTablePr.md) class.
 

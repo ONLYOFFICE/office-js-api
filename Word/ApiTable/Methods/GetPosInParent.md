@@ -4,7 +4,9 @@ Returns the table position within its parent element.
 
 ## Syntax
 
+```javascript
 expression.GetPosInParent();
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 

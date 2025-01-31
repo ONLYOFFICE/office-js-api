@@ -4,7 +4,9 @@ Returns the k-th percentile of values in a range, where k is in the range 0..1, 
 
 ## Syntax
 
+```javascript
 expression.PERCENTILE_EXC(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

@@ -4,7 +4,9 @@ Returns the type of the ApiTable object.
 
 ## Syntax
 
+```javascript
 expression.GetClassType();
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 

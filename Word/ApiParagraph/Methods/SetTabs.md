@@ -5,7 +5,9 @@ Specifies a sequence of custom tab stops which will be used for any tab characte
 
 ## Syntax
 
+```javascript
 expression.SetTabs(aPos, aVal);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

@@ -4,7 +4,9 @@ Returns the value for the data field in a pivot table.
 
 ## Syntax
 
+```javascript
 expression.GetData(items);
+```
 
 `expression` - A variable that represents a [ApiPivotTable](../ApiPivotTable.md) class.
 

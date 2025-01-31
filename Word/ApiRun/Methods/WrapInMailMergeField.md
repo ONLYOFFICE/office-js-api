@@ -4,7 +4,9 @@ Wraps a run in a mail merge field.
 
 ## Syntax
 
+```javascript
 expression.WrapInMailMergeField();
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 

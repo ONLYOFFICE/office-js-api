@@ -4,7 +4,9 @@ Returns the width of the watermark image in the document.
 
 ## Syntax
 
+```javascript
 expression.GetImageWidth();
+```
 
 `expression` - A variable that represents a [ApiWatermarkSettings](../ApiWatermarkSettings.md) class.
 

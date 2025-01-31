@@ -4,7 +4,9 @@ Gets the RGB color from the current text properties.
 
 ## Syntax
 
+```javascript
 expression.GetColor();
+```
 
 `expression` - A variable that represents a [ApiTextPr](../ApiTextPr.md) class.
 

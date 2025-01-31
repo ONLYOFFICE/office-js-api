@@ -4,7 +4,9 @@ Returns an array with all the image objects from the slide master.
 
 ## Syntax
 
+```javascript
 expression.GetAllImages();
+```
 
 `expression` - A variable that represents a [ApiMaster](../ApiMaster.md) class.
 

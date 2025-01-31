@@ -4,7 +4,9 @@ Returns the next inline shape if exists.
 
 ## Syntax
 
+```javascript
 expression.GetNextShape();
+```
 
 `expression` - A variable that represents a [ApiShape](../ApiShape.md) class.
 

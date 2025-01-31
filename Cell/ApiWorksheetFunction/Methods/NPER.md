@@ -4,7 +4,9 @@ Returns the number of periods for an investment based on periodic, constant paym
 
 ## Syntax
 
+```javascript
 expression.NPER(arg1, arg2, arg3, arg4, arg5);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

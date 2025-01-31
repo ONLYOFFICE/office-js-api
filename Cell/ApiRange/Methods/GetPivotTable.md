@@ -4,7 +4,9 @@ Returns the ApiPivotTable object that represents the pivot table report containi
 
 ## Syntax
 
+```javascript
 expression.GetPivotTable();
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

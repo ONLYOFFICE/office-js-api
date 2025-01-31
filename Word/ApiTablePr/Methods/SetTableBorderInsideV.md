@@ -5,7 +5,9 @@ of the parent table (all vertical borders which are not the leftmost or rightmos
 
 ## Syntax
 
+```javascript
 expression.SetTableBorderInsideV(sType, nSize, nSpace, r, g, b);
+```
 
 `expression` - A variable that represents a [ApiTablePr](../ApiTablePr.md) class.
 

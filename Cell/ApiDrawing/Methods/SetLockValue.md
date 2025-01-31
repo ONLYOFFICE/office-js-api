@@ -4,7 +4,9 @@ Sets the lock value to the specified lock type of the current drawing.
 
 ## Syntax
 
+```javascript
 expression.SetLockValue(sType, bValue);
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 

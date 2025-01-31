@@ -4,7 +4,9 @@ Checks whether a value is a reference, and returns **true** or **false**.
 
 ## Syntax
 
+```javascript
 expression.ISREF(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

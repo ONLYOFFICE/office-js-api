@@ -4,7 +4,9 @@ Returns a list of all forms in the document with the specified tag name.
 
 ## Syntax
 
+```javascript
 expression.GetFormsByTag(sTag);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

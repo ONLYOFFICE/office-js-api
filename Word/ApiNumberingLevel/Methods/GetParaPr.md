@@ -4,7 +4,9 @@ Returns the paragraph properties which are applied to any numbered paragraph tha
 
 ## Syntax
 
+```javascript
 expression.GetParaPr();
+```
 
 `expression` - A variable that represents a [ApiNumberingLevel](../ApiNumberingLevel.md) class.
 

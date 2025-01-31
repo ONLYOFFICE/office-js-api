@@ -4,7 +4,9 @@ Removes all spaces from a text string except for single spaces between words.
 
 ## Syntax
 
+```javascript
 expression.TRIM(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

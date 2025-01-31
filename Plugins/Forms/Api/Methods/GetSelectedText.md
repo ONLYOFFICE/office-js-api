@@ -4,7 +4,9 @@ Returns the selected text from the document.
 
 ## Syntax
 
+```javascript
 expression.GetSelectedText(prop, prop.NewLine, prop.NewLineParagraph, prop.Numbering, prop.Math, prop.TableCellSeparator, prop.TableRowSeparator, prop.ParaSeparator, prop.TabSymbol, prop.NewLineSeparator);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

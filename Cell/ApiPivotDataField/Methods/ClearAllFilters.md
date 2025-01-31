@@ -4,7 +4,9 @@ Deletes all filters currently applied to the pivot field.
 
 ## Syntax
 
+```javascript
 expression.ClearAllFilters();
+```
 
 `expression` - A variable that represents a [ApiPivotDataField](../ApiPivotDataField.md) class.
 

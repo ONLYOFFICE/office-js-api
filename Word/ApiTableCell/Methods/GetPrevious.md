@@ -4,7 +4,9 @@ Returns the previous cell if exists.
 
 ## Syntax
 
+```javascript
 expression.GetPrevious();
+```
 
 `expression` - A variable that represents a [ApiTableCell](../ApiTableCell.md) class.
 

@@ -4,7 +4,9 @@ Checks whether two text strings are exactly the same, and returns **true** or **
 
 ## Syntax
 
+```javascript
 expression.EXACT(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

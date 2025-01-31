@@ -4,7 +4,9 @@ Sets the alias attribute to the current container.
 
 ## Syntax
 
+```javascript
 expression.SetAlias(sAlias);
+```
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 

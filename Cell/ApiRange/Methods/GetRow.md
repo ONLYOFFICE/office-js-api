@@ -4,7 +4,9 @@ Returns a row number for the selected cell.
 
 ## Syntax
 
+```javascript
 expression.GetRow();
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

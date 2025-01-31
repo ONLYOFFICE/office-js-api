@@ -4,7 +4,9 @@ Returns the parent object for the current field.
 
 ## Syntax
 
+```javascript
 expression.GetParent();
+```
 
 `expression` - A variable that represents a [ApiPivotDataField](../ApiPivotDataField.md) class.
 

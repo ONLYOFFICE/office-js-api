@@ -4,7 +4,9 @@ Sends a message from the modal window to the plugin.
 
 ## Syntax
 
+```javascript
 expression.sendToPlugin(name, data);
+```
 
 `expression` - A variable that represents a [Plugin](../Plugin.md) class.
 

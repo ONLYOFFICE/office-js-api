@@ -4,7 +4,9 @@ Converts a value to text in a specific number format.
 
 ## Syntax
 
+```javascript
 expression.TEXT(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

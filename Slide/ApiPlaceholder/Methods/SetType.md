@@ -4,7 +4,9 @@ Sets the placeholder type.
 
 ## Syntax
 
+```javascript
 expression.SetType(sType);
+```
 
 `expression` - A variable that represents a [ApiPlaceholder](../ApiPlaceholder.md) class.
 

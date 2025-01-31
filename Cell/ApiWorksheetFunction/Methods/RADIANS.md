@@ -4,7 +4,9 @@ Converts degrees to radians.
 
 ## Syntax
 
+```javascript
 expression.RADIANS(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

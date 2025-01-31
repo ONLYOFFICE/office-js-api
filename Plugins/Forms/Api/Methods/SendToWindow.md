@@ -4,7 +4,9 @@ Sends a message to the plugin modal window.
 
 ## Syntax
 
+```javascript
 expression.SendToWindow(windowID, name, data);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

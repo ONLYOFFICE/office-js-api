@@ -4,7 +4,9 @@ Rounds a number to the specified number of decimals and returns the result as te
 
 ## Syntax
 
+```javascript
 expression.FIXED(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

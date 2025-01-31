@@ -4,7 +4,9 @@ Adds an inline container.
 
 ## Syntax
 
+```javascript
 expression.AddInlineLvlSdt(oSdt);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

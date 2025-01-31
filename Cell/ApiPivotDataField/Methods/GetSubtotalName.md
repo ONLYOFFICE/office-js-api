@@ -4,7 +4,9 @@ Returns the text label displayed in the subtotal column or row heading in the sp
 
 ## Syntax
 
+```javascript
 expression.GetSubtotalName();
+```
 
 `expression` - A variable that represents a [ApiPivotDataField](../ApiPivotDataField.md) class.
 

@@ -4,7 +4,9 @@ Sets the fill styles to the current theme format scheme.
 
 ## Syntax
 
+```javascript
 expression.ChangeFillStyles(arrFill);
+```
 
 `expression` - A variable that represents a [ApiThemeFormatScheme](../ApiThemeFormatScheme.md) class.
 

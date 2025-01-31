@@ -4,7 +4,9 @@ Returns the text properties of the current run.
 
 ## Syntax
 
+```javascript
 expression.GetTextPr();
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 

@@ -4,7 +4,9 @@ Returns a number of items of the combo box / dropdown list content control.
 
 ## Syntax
 
+```javascript
 expression.GetElementsCount();
+```
 
 `expression` - A variable that represents a [ApiContentControlList](../ApiContentControlList.md) class.
 

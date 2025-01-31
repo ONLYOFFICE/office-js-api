@@ -7,7 +7,9 @@ Specifies the alignment which will be applied to the contents of this paragraph 
 
 ## Syntax
 
+```javascript
 expression.SetVertAlign(sType);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

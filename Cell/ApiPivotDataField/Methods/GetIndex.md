@@ -4,7 +4,9 @@ Returns an index for the pivot table field.
 
 ## Syntax
 
+```javascript
 expression.GetIndex();
+```
 
 `expression` - A variable that represents a [ApiPivotDataField](../ApiPivotDataField.md) class.
 

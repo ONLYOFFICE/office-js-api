@@ -4,7 +4,9 @@ Returns the ApiName object by the worksheet name.
 
 ## Syntax
 
+```javascript
 expression.GetDefName(defName);
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

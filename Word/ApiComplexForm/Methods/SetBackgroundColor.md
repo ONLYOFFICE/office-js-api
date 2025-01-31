@@ -4,7 +4,9 @@ Sets the background color to the current form.
 
 ## Syntax
 
+```javascript
 expression.SetBackgroundColor(r, g, b, bNone);
+```
 
 `expression` - A variable that represents a [ApiComplexForm](../ApiComplexForm.md) class.
 

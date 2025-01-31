@@ -4,7 +4,9 @@ Creates a shortcut that jumps to another location in the current workbook, or op
 
 ## Syntax
 
+```javascript
 expression.HYPERLINK(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

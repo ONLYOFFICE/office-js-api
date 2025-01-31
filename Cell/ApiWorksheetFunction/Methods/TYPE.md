@@ -4,7 +4,9 @@ Returns an integer representing the data type of a value: number = 1; text = 2; 
 
 ## Syntax
 
+```javascript
 expression.TYPE(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

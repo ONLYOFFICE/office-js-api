@@ -4,7 +4,9 @@ Returns the pivot table name.
 
 ## Syntax
 
+```javascript
 expression.GetName();
+```
 
 `expression` - A variable that represents a [ApiPivotTable](../ApiPivotTable.md) class.
 

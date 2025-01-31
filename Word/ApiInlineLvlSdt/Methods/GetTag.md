@@ -4,7 +4,9 @@ Returns the tag attribute for the current container.
 
 ## Syntax
 
+```javascript
 expression.GetTag();
+```
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 

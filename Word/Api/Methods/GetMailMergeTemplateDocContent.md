@@ -4,7 +4,9 @@ Returns the mail merge template document.
 
 ## Syntax
 
+```javascript
 expression.GetMailMergeTemplateDocContent();
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

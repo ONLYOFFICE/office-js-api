@@ -4,7 +4,9 @@ Returns the section break type.
 
 ## Syntax
 
+```javascript
 expression.GetType();
+```
 
 `expression` - A variable that represents a [ApiSection](../ApiSection.md) class.
 

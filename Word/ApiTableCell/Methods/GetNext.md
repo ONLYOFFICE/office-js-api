@@ -4,7 +4,9 @@ Returns the next cell if exists.
 
 ## Syntax
 
+```javascript
 expression.GetNext();
+```
 
 `expression` - A variable that represents a [ApiTableCell](../ApiTableCell.md) class.
 

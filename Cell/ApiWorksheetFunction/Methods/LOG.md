@@ -4,7 +4,9 @@ Returns the logarithm of a number to the specified base.
 
 ## Syntax
 
+```javascript
 expression.LOG(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

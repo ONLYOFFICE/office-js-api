@@ -4,7 +4,9 @@ Shows details of the pivot table cell.
 
 ## Syntax
 
+```javascript
 expression.ShowDetails(rowLine, colLine);
+```
 
 `expression` - A variable that represents a [ApiPivotTable](../ApiPivotTable.md) class.
 

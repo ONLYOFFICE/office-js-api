@@ -4,7 +4,9 @@ Updates an item in the context menu with the specified items.
 
 ## Syntax
 
+```javascript
 expression.UpdateContextMenuItem(items);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

@@ -4,7 +4,9 @@ Sets a value to the current cell or cell range.
 
 ## Syntax
 
+```javascript
 expression.SetValue(data);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

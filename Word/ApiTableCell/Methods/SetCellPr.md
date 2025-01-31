@@ -4,7 +4,9 @@ Sets the cell properties to the current cell.
 
 ## Syntax
 
+```javascript
 expression.SetCellPr(oApiTableCellPr);
+```
 
 `expression` - A variable that represents a [ApiTableCell](../ApiTableCell.md) class.
 

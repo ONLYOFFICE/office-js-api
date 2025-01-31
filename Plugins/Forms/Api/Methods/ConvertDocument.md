@@ -4,7 +4,9 @@ Converts a document to Markdown or HTML text.
 
 ## Syntax
 
+```javascript
 expression.ConvertDocument(sConvertType, bHtmlHeadings, bBase64img, bDemoteHeadings, bRenderHTMLTags);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

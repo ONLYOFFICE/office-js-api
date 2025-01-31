@@ -4,7 +4,9 @@ Returns the inverse hyperbolic cosine of a number.
 
 ## Syntax
 
+```javascript
 expression.ACOSH(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

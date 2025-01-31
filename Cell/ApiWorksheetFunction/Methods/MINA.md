@@ -4,7 +4,9 @@ Returns the smallest value in a set of values. Does not ignore logical values an
 
 ## Syntax
 
+```javascript
 expression.MINA(args);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

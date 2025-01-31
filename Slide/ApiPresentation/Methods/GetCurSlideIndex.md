@@ -4,7 +4,9 @@ Returns the index for the current slide.
 
 ## Syntax
 
+```javascript
 expression.GetCurSlideIndex();
+```
 
 `expression` - A variable that represents a [ApiPresentation](../ApiPresentation.md) class.
 

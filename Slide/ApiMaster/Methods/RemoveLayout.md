@@ -4,7 +4,9 @@ Removes the layouts from the current slide master.
 
 ## Syntax
 
+```javascript
 expression.RemoveLayout(nPos, nCount);
+```
 
 `expression` - A variable that represents a [ApiMaster](../ApiMaster.md) class.
 

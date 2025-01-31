@@ -4,7 +4,9 @@ Creates a Text Art object with the parameters specified.
 
 ## Syntax
 
+```javascript
 expression.CreateWordArt(textPr, text, transform, fill, stroke, rotAngle, width, height);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

@@ -4,7 +4,9 @@ Returns an array of drawings by the specified placeholder type.
 
 ## Syntax
 
+```javascript
 expression.GetDrawingsByPlaceholderType(sType);
+```
 
 `expression` - A variable that represents a [ApiLayout](../ApiLayout.md) class.
 

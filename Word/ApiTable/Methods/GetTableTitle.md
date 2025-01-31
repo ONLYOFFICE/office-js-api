@@ -4,7 +4,9 @@ Returns the table title (caption).
 
 ## Syntax
 
+```javascript
 expression.GetTableTitle();
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 

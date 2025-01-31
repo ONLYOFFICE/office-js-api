@@ -4,7 +4,9 @@ Returns the placeholder text from the current inline content control.
 
 ## Syntax
 
+```javascript
 expression.GetPlaceholderText();
+```
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 

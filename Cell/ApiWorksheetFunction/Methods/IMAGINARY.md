@@ -4,7 +4,9 @@ Returns the imaginary coefficient of a complex number.
 
 ## Syntax
 
+```javascript
 expression.IMAGINARY(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

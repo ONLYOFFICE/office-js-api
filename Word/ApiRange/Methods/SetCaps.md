@@ -4,7 +4,9 @@ Specifies that any lowercase characters in the current text Range are formatted 
 
 ## Syntax
 
+```javascript
 expression.SetCaps(isCaps);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

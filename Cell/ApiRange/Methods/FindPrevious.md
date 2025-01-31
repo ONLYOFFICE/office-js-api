@@ -4,7 +4,9 @@ Continues a search that was begun with the &#123;@link ApiRange#Find&#125; metho
 
 ## Syntax
 
+```javascript
 expression.FindPrevious(Before);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

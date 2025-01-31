@@ -4,7 +4,9 @@ Returns the alias attribute for the current container.
 
 ## Syntax
 
+```javascript
 expression.GetAlias();
+```
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 

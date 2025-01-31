@@ -4,7 +4,9 @@ Returns the paragraph text.
 
 ## Syntax
 
+```javascript
 expression.GetText(oPr, oPr.Numbering, oPr.Math, oPr.NewLineSeparator, oPr.TabSymbol);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

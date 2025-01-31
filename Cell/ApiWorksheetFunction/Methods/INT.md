@@ -4,7 +4,9 @@ Rounds a number down to the nearest integer.
 
 ## Syntax
 
+```javascript
 expression.INT(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

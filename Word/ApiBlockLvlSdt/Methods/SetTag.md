@@ -4,7 +4,9 @@ Sets the tag attribute to the current container.
 
 ## Syntax
 
+```javascript
 expression.SetTag(tag);
+```
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 

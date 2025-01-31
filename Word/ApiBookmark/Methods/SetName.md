@@ -4,7 +4,9 @@ Changes the bookmark name.
 
 ## Syntax
 
+```javascript
 expression.SetName(sNewName);
+```
 
 `expression` - A variable that represents a [ApiBookmark](../ApiBookmark.md) class.
 

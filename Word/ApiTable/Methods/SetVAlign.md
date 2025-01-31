@@ -4,7 +4,9 @@ Sets the vertical alignment to the table.
 
 ## Syntax
 
+```javascript
 expression.SetVAlign(sType);
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 

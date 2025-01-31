@@ -4,7 +4,9 @@ Returns the sine of an angle.
 
 ## Syntax
 
+```javascript
 expression.SIN(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

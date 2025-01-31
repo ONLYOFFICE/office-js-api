@@ -4,7 +4,9 @@ Returns the skewness of a distribution based on a population: a characterization
 
 ## Syntax
 
+```javascript
 expression.SKEW_P(args);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

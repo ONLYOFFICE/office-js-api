@@ -4,7 +4,9 @@ Converts an octal number to hexadecimal.
 
 ## Syntax
 
+```javascript
 expression.OCT2HEX(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

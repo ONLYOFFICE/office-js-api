@@ -4,7 +4,9 @@ Moves the specified field from one category to another.
 
 ## Syntax
 
+```javascript
 expression.MoveField(identifier, type, index);
+```
 
 `expression` - A variable that represents a [ApiPivotTable](../ApiPivotTable.md) class.
 

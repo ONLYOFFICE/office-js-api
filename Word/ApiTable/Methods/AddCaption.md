@@ -6,7 +6,9 @@ And if the current table is placed in a shape, then a caption is added after (or
 
 ## Syntax
 
+```javascript
 expression.AddCaption(sAdditional, sLabel, bExludeLabel, sNumberingFormat, bBefore, nHeadingLvl, sCaptionSep);
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 

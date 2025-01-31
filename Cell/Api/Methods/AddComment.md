@@ -4,7 +4,9 @@ Returns an array of ApiComment objects.
 
 ## Syntax
 
+```javascript
 expression.AddComment(sText, sAuthor);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

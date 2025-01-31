@@ -4,7 +4,9 @@ Converts the ApiRGBColor object into the JSON object.
 
 ## Syntax
 
+```javascript
 expression.ToJSON();
+```
 
 `expression` - A variable that represents a [ApiRGBColor](../ApiRGBColor.md) class.
 

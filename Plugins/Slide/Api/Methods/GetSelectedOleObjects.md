@@ -4,7 +4,9 @@ Returns an array of the selected OLE objects.
 
 ## Syntax
 
+```javascript
 expression.GetSelectedOleObjects();
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

@@ -4,7 +4,9 @@ Returns the current cell index.
 
 ## Syntax
 
+```javascript
 expression.GetIndex();
+```
 
 `expression` - A variable that represents a [ApiTableCell](../ApiTableCell.md) class.
 

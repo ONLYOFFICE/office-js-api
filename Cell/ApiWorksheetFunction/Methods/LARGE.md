@@ -4,7 +4,9 @@ Returns the k-th largest value in a data set. For example, the fifth largest num
 
 ## Syntax
 
+```javascript
 expression.LARGE(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

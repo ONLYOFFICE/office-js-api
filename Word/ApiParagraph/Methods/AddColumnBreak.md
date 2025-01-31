@@ -4,7 +4,9 @@ Adds a column break to the current position and starts the next element from a n
 
 ## Syntax
 
+```javascript
 expression.AddColumnBreak();
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

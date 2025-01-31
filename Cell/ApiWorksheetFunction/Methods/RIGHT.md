@@ -4,7 +4,9 @@ Returns the specified number of characters from the end of a text string.
 
 ## Syntax
 
+```javascript
 expression.RIGHT(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

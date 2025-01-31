@@ -4,7 +4,9 @@ Applies the text settings to the entire contents of the current cell.
 
 ## Syntax
 
+```javascript
 expression.SetTextPr(oTextPr);
+```
 
 `expression` - A variable that represents a [ApiTableCell](../ApiTableCell.md) class.
 

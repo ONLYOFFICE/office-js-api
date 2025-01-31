@@ -4,7 +4,9 @@ Adds a hyperlink to the specified range.
 
 ## Syntax
 
+```javascript
 expression.SetHyperlink(sRange, sAddress, subAddress, sScreenTip, sTextToDisplay);
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

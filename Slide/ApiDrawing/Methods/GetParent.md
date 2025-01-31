@@ -4,7 +4,9 @@ Returns the drawing parent object.
 
 ## Syntax
 
+```javascript
 expression.GetParent();
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 

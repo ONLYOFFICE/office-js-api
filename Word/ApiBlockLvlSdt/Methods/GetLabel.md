@@ -4,7 +4,9 @@ Returns the label attribute for the current container.
 
 ## Syntax
 
+```javascript
 expression.GetLabel();
+```
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 

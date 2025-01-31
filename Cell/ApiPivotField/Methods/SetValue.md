@@ -4,7 +4,9 @@ Sets a value representing the name of the specified field in the pivot table rep
 
 ## Syntax
 
+```javascript
 expression.SetValue(name);
+```
 
 `expression` - A variable that represents a [ApiPivotField](../ApiPivotField.md) class.
 

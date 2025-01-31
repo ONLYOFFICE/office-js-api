@@ -4,7 +4,9 @@ Adds a page break and starts the next element from a new page.
 
 ## Syntax
 
+```javascript
 expression.AddPageBreak();
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 

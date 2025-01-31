@@ -4,7 +4,9 @@ Returns a normalised value from a distribution characterised by a mean and stand
 
 ## Syntax
 
+```javascript
 expression.STANDARDIZE(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

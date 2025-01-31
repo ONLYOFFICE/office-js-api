@@ -4,7 +4,9 @@ Returns the future value of an investment based on periodic, constant payments a
 
 ## Syntax
 
+```javascript
 expression.FV(arg1, arg2, arg3, arg4, arg5);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

@@ -4,7 +4,9 @@ Sets a name to the current active sheet.
 
 ## Syntax
 
+```javascript
 expression.SetName(sName);
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

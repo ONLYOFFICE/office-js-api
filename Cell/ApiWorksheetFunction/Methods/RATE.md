@@ -4,7 +4,9 @@ Returns the interest rate per period for a loan or an investment. For example, u
 
 ## Syntax
 
+```javascript
 expression.RATE(arg1, arg2, arg3, arg4, arg5, arg6);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

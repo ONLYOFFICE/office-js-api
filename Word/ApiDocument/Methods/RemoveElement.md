@@ -4,7 +4,9 @@ Removes an element using the position specified.
 
 ## Syntax
 
+```javascript
 expression.RemoveElement(nPos);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

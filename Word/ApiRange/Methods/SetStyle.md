@@ -4,7 +4,9 @@ Sets the style to the current Range.
 
 ## Syntax
 
+```javascript
 expression.SetStyle(oStyle);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

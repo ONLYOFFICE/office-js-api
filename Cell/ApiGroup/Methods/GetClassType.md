@@ -4,7 +4,9 @@ Returns a type of the ApiGroup class.
 
 ## Syntax
 
+```javascript
 expression.GetClassType();
+```
 
 `expression` - A variable that represents a [ApiGroup](../ApiGroup.md) class.
 

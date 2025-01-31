@@ -4,7 +4,9 @@ Returns an array with all the drawing objects from the slide layout.
 
 ## Syntax
 
+```javascript
 expression.GetAllDrawings();
+```
 
 `expression` - A variable that represents a [ApiLayout](../ApiLayout.md) class.
 

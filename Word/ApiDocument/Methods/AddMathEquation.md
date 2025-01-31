@@ -4,7 +4,9 @@ Adds a math equation to the current document.
 
 ## Syntax
 
+```javascript
 expression.AddMathEquation(sText, sFormat);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

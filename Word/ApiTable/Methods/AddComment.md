@@ -5,7 +5,9 @@ Adds a comment to all contents of the current table.
 
 ## Syntax
 
+```javascript
 expression.AddComment(sText, sAuthor, sUserId);
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 

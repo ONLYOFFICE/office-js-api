@@ -4,7 +4,9 @@ Closes the plugin modal window.
 
 ## Syntax
 
+```javascript
 expression.CloseWindow(frameId);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

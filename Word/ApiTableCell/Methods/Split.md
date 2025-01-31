@@ -4,7 +4,9 @@ Splits the cell into a given number of rows and columns.
 
 ## Syntax
 
+```javascript
 expression.Split(nRow, nCol);
+```
 
 `expression` - A variable that represents a [ApiTableCell](../ApiTableCell.md) class.
 

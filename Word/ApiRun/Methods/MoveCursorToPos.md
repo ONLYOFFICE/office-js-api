@@ -6,7 +6,9 @@ If there is any selection in the document, it will be removed.
 
 ## Syntax
 
+```javascript
 expression.MoveCursorToPos(nPos);
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 

@@ -4,7 +4,9 @@ Returns the sum of the squares of the arguments.
 
 ## Syntax
 
+```javascript
 expression.SUMSQ(args);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

@@ -4,7 +4,9 @@ Returns an array with all the shape objects from the slide.
 
 ## Syntax
 
+```javascript
 expression.GetAllShapes();
+```
 
 `expression` - A variable that represents a [ApiSlide](../ApiSlide.md) class.
 

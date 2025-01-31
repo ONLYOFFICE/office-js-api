@@ -4,7 +4,9 @@ Returns an index of the parent row.
 
 ## Syntax
 
+```javascript
 expression.GetRowIndex();
+```
 
 `expression` - A variable that represents a [ApiTableCell](../ApiTableCell.md) class.
 

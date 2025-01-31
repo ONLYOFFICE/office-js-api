@@ -4,7 +4,9 @@ Returns the year of a date, an integer in the range 1900-9999.
 
 ## Syntax
 
+```javascript
 expression.YEAR(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

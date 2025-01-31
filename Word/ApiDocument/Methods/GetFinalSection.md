@@ -4,7 +4,9 @@ Returns the document final section.
 
 ## Syntax
 
+```javascript
 expression.GetFinalSection();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

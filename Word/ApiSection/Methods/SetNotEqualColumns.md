@@ -5,7 +5,9 @@ to the length of the aWidth array. The length of the aSpaces array MUST BE equal
 
 ## Syntax
 
+```javascript
 expression.SetNotEqualColumns(aWidths, aSpaces);
+```
 
 `expression` - A variable that represents a [ApiSection](../ApiSection.md) class.
 

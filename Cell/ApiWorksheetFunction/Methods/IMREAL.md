@@ -4,7 +4,9 @@ Returns the real coefficient of a complex number.
 
 ## Syntax
 
+```javascript
 expression.IMREAL(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

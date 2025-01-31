@@ -4,7 +4,9 @@ Returns the pivot table display fields in the report filter area settings.
 
 ## Syntax
 
+```javascript
 expression.GetDisplayFieldsInReportFilterArea();
+```
 
 `expression` - A variable that represents a [ApiPivotTable](../ApiPivotTable.md) class.
 

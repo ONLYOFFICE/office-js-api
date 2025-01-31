@@ -4,7 +4,9 @@ Returns the number of days from the settlement date to the next coupon date.
 
 ## Syntax
 
+```javascript
 expression.COUPDAYSNC(arg1, arg2, arg3, arg4);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

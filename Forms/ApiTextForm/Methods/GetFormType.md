@@ -4,7 +4,9 @@ Returns a type of the current form.
 
 ## Syntax
 
+```javascript
 expression.GetFormType();
+```
 
 `expression` - A variable that represents a [ApiTextForm](../ApiTextForm.md) class.
 

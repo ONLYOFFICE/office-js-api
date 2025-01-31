@@ -4,7 +4,9 @@ Creates a combo box / dropdown list with the specified combo box / dropdown list
 
 ## Syntax
 
+```javascript
 expression.CreateComboBoxForm(oFormPr);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

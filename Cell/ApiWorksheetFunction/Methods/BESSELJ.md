@@ -4,7 +4,9 @@ Returns the Bessel function Jn(x).
 
 ## Syntax
 
+```javascript
 expression.BESSELJ(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

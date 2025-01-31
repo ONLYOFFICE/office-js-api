@@ -4,7 +4,9 @@ Returns the start page number of the current range.
 
 ## Syntax
 
+```javascript
 expression.GetStartPage();
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

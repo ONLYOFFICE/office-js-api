@@ -4,7 +4,9 @@ Returns the sum of squares of deviations of data points from their sample mean.
 
 ## Syntax
 
+```javascript
 expression.DEVSQ(args);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

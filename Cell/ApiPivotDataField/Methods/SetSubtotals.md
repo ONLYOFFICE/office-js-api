@@ -4,7 +4,9 @@ Sets an object that represents all subtotals.
 
 ## Syntax
 
+```javascript
 expression.SetSubtotals(subtotals);
+```
 
 `expression` - A variable that represents a [ApiPivotDataField](../ApiPivotDataField.md) class.
 

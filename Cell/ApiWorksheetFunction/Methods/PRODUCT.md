@@ -4,7 +4,9 @@ Multiplies all the numbers given as arguments.
 
 ## Syntax
 
+```javascript
 expression.PRODUCT(args);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

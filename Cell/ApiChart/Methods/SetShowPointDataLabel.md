@@ -4,7 +4,9 @@ Spicifies the show options for data labels.
 
 ## Syntax
 
+```javascript
 expression.SetShowPointDataLabel(nSeriesIndex, nPointIndex, bShowSerName, bShowCatName, bShowVal, bShowPercent);
+```
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 

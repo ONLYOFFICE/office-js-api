@@ -4,7 +4,9 @@ Returns an aggregate in a list or database.
 
 ## Syntax
 
+```javascript
 expression.AGGREGATE(arg1, arg2, arg3, args);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

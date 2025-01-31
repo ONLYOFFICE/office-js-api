@@ -4,7 +4,9 @@ Returns the second, a number from 0 to 59.
 
 ## Syntax
 
+```javascript
 expression.SECOND(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

@@ -4,7 +4,9 @@ Gets the double strikeout property from the current text properties.
 
 ## Syntax
 
+```javascript
 expression.GetDoubleStrikeout();
+```
 
 `expression` - A variable that represents a [ApiTextPr](../ApiTextPr.md) class.
 

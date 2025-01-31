@@ -4,7 +4,9 @@ Checks if the text field content is autofit, i.e. whether the font size adjusts 
 
 ## Syntax
 
+```javascript
 expression.IsAutoFit();
+```
 
 `expression` - A variable that represents a [ApiTextForm](../ApiTextForm.md) class.
 

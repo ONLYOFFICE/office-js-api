@@ -4,7 +4,9 @@ Returns a report about all the comments added to the document.
 
 ## Syntax
 
+```javascript
 expression.GetCommentsReport();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

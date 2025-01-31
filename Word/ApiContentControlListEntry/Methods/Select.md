@@ -4,7 +4,9 @@ Selects the list entry in the combo box / dropdown list content control and sets
 
 ## Syntax
 
+```javascript
 expression.Select();
+```
 
 `expression` - A variable that represents a [ApiContentControlListEntry](../ApiContentControlListEntry.md) class.
 

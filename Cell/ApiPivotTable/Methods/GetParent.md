@@ -4,7 +4,9 @@ Returns the parent object for the current pivot table.
 
 ## Syntax
 
+```javascript
 expression.GetParent();
+```
 
 `expression` - A variable that represents a [ApiPivotTable](../ApiPivotTable.md) class.
 

@@ -4,7 +4,9 @@ Returns the strikethrough property of the specified font.
 
 ## Syntax
 
+```javascript
 expression.GetStrikethrough();
+```
 
 `expression` - A variable that represents a [ApiFont](../ApiFont.md) class.
 

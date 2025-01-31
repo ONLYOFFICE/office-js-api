@@ -4,7 +4,9 @@ Returns the column width value.
 
 ## Syntax
 
+```javascript
 expression.GetColumnWidth();
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

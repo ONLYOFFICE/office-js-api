@@ -4,7 +4,9 @@ Returns the type property of the current user's information.
 
 ## Syntax
 
+```javascript
 expression.GetType();
+```
 
 `expression` - A variable that represents a [ApiProtectedRangeUserInfo](../ApiProtectedRangeUserInfo.md) class.
 

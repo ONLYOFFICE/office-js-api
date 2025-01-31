@@ -4,7 +4,9 @@ Returns a table cell that contains the current paragraph.
 
 ## Syntax
 
+```javascript
 expression.GetParentTableCell();
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

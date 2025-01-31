@@ -4,7 +4,9 @@ Returns a table that contains the current content control.
 
 ## Syntax
 
+```javascript
 expression.GetParentTable();
+```
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 

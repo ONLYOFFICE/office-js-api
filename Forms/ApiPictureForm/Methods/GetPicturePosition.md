@@ -4,7 +4,9 @@ Returns the picture position inside the current form.
 
 ## Syntax
 
+```javascript
 expression.GetPicturePosition();
+```
 
 `expression` - A variable that represents a [ApiPictureForm](../ApiPictureForm.md) class.
 

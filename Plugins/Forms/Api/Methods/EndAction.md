@@ -4,7 +4,9 @@ Specifies the end action for long operations.
 
 ## Syntax
 
+```javascript
 expression.EndAction(type, description, status);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

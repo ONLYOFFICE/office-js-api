@@ -4,7 +4,9 @@ Adds a data field to the pivot table report.
 
 ## Syntax
 
+```javascript
 expression.AddDataField(field);
+```
 
 `expression` - A variable that represents a [ApiPivotTable](../ApiPivotTable.md) class.
 

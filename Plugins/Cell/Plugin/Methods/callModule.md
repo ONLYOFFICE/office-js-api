@@ -4,7 +4,9 @@ Defines the method used to execute a remotely located script following a link.
 
 ## Syntax
 
+```javascript
 expression.callModule(url, callback, isClose);
+```
 
 `expression` - A variable that represents a [Plugin](../Plugin.md) class.
 

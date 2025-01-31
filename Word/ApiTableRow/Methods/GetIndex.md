@@ -4,7 +4,9 @@ Returns the current row index.
 
 ## Syntax
 
+```javascript
 expression.GetIndex();
+```
 
 `expression` - A variable that represents a [ApiTableRow](../ApiTableRow.md) class.
 

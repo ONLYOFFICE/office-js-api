@@ -4,7 +4,9 @@ Returns an array with names of all bookmarks in the current document.
 
 ## Syntax
 
+```javascript
 expression.GetAllBookmarksNames();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

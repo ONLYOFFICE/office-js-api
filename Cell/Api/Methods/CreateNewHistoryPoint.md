@@ -4,7 +4,9 @@ Creates a new history point.
 
 ## Syntax
 
+```javascript
 expression.CreateNewHistoryPoint();
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

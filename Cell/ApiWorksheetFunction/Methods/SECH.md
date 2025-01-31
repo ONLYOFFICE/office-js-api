@@ -4,7 +4,9 @@ Returns the hyperbolic secant of an angle.
 
 ## Syntax
 
+```javascript
 expression.SECH(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

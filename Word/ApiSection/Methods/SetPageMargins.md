@@ -4,7 +4,9 @@ Specifies the page margins for all the pages in this section.
 
 ## Syntax
 
+```javascript
 expression.SetPageMargins(nLeft, nTop, nRight, nBottom);
+```
 
 `expression` - A variable that represents a [ApiSection](../ApiSection.md) class.
 

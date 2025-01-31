@@ -4,7 +4,9 @@ Returns the selected slides.
 
 ## Syntax
 
+```javascript
 expression.GetSlides();
+```
 
 `expression` - A variable that represents a [ApiSelection](../ApiSelection.md) class.
 

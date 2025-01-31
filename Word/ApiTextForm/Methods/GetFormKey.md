@@ -4,7 +4,9 @@ Returns the current form key.
 
 ## Syntax
 
+```javascript
 expression.GetFormKey();
+```
 
 `expression` - A variable that represents a [ApiTextForm](../ApiTextForm.md) class.
 

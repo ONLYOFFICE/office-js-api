@@ -4,7 +4,9 @@ Shows the input helper.
 
 ## Syntax
 
+```javascript
 expression.ShowInputHelper(guid, w, h, isKeyboardTake);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

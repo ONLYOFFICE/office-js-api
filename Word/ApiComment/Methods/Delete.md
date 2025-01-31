@@ -4,7 +4,9 @@ Deletes the current comment from the document.
 
 ## Syntax
 
+```javascript
 expression.Delete();
+```
 
 `expression` - A variable that represents a [ApiComment](../ApiComment.md) class.
 

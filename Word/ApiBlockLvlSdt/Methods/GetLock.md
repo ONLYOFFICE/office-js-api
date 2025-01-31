@@ -4,7 +4,9 @@ Returns the lock type of the current container.
 
 ## Syntax
 
+```javascript
 expression.GetLock();
+```
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 

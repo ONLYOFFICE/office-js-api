@@ -4,7 +4,9 @@ Returns the layout subtotal location.
 
 ## Syntax
 
+```javascript
 expression.GetLayoutSubtotalLocation();
+```
 
 `expression` - A variable that represents a [ApiPivotField](../ApiPivotField.md) class.
 

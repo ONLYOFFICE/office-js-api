@@ -4,7 +4,9 @@ Sets the setting which specifies whether to repeat items labels at each row.
 
 ## Syntax
 
+```javascript
 expression.SetRepeatLabels(repeat);
+```
 
 `expression` - A variable that represents a [ApiPivotDataField](../ApiPivotDataField.md) class.
 

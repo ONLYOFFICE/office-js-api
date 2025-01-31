@@ -4,7 +4,9 @@ Replaces specific information to another one in a range.
 
 ## Syntax
 
+```javascript
 expression.Replace(What, Replacement, LookAt, SearchOrder, SearchDirection, MatchCase, ReplaceAll);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

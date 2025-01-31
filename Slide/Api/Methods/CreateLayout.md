@@ -4,7 +4,9 @@ Creates a new slide layout and adds it to the slide master if it is specified.
 
 ## Syntax
 
+```javascript
 expression.CreateLayout(oMaster);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

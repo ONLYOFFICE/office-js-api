@@ -4,7 +4,9 @@ Removes all frozen panes in the current worksheet.
 
 ## Syntax
 
+```javascript
 expression.Unfreeze();
+```
 
 `expression` - A variable that represents a [ApiFreezePanes](../ApiFreezePanes.md) class.
 

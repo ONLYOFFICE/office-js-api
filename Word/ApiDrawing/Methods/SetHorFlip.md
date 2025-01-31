@@ -4,7 +4,9 @@ Flips the current drawing horizontally.
 
 ## Syntax
 
+```javascript
 expression.SetHorFlip(bFlip);
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 

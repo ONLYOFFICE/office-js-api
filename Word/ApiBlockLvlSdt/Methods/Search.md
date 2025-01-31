@@ -4,7 +4,9 @@ Searches for a scope of a content control object. The search results are a colle
 
 ## Syntax
 
+```javascript
 expression.Search(text, isMatchCase);
+```
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 

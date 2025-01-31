@@ -4,7 +4,9 @@ Specifies the shading applied to the contents of the paragraph.
 
 ## Syntax
 
+```javascript
 expression.SetShd(sType, r, g, b, isAuto);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

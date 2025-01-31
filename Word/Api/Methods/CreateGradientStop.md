@@ -4,7 +4,9 @@ Creates a gradient stop used for different types of gradients.
 
 ## Syntax
 
+```javascript
 expression.CreateGradientStop(uniColor, pos);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

@@ -4,7 +4,9 @@ Checks if the current form is required.
 
 ## Syntax
 
+```javascript
 expression.IsRequired();
+```
 
 `expression` - A variable that represents a [ApiPictureForm](../ApiPictureForm.md) class.
 

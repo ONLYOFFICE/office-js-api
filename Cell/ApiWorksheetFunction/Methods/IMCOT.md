@@ -4,7 +4,9 @@ Returns the cotangent of a complex number.
 
 ## Syntax
 
+```javascript
 expression.IMCOT(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

@@ -4,7 +4,9 @@ Sets the frozen cells in the active worksheet view. The range provided correspon
 
 ## Syntax
 
+```javascript
 expression.FreezeAt(frozenRange);
+```
 
 `expression` - A variable that represents a [ApiFreezePanes](../ApiFreezePanes.md) class.
 

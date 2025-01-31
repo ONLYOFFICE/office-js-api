@@ -4,7 +4,9 @@ Returns the specified number of characters from the start of a text string.
 
 ## Syntax
 
+```javascript
 expression.LEFT(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

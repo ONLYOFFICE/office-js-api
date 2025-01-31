@@ -4,7 +4,9 @@ Sets the watermark settings in the current document.
 
 ## Syntax
 
+```javascript
 expression.SetWatermarkSettings(Settings);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

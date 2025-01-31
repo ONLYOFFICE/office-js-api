@@ -4,7 +4,9 @@ Updates a plugin using the specified plugin config.
 
 ## Syntax
 
+```javascript
 expression.UpdatePlugin(config);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

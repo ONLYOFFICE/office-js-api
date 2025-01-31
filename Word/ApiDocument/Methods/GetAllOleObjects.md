@@ -4,7 +4,9 @@ Returns a collection of OLE objects from the document content.
 
 ## Syntax
 
+```javascript
 expression.GetAllOleObjects();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

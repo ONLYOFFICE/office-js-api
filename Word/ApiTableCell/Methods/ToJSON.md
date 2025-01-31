@@ -4,7 +4,9 @@ Converts the ApiTableCellPr object into the JSON object.
 
 ## Syntax
 
+```javascript
 expression.ToJSON();
+```
 
 `expression` - A variable that represents a [ApiTableCell](../ApiTableCell.md) class.
 

@@ -4,7 +4,9 @@ Returns the next coupon date after the settlement date.
 
 ## Syntax
 
+```javascript
 expression.COUPNCD(arg1, arg2, arg3, arg4);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

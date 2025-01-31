@@ -4,7 +4,9 @@ Returns the median, or the number in the middle of the set of given numbers.
 
 ## Syntax
 
+```javascript
 expression.MEDIAN(args);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

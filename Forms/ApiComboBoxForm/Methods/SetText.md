@@ -5,7 +5,9 @@ Available only for editable combo box forms.*
 
 ## Syntax
 
+```javascript
 expression.SetText(sText);
+```
 
 `expression` - A variable that represents a [ApiComboBoxForm](../ApiComboBoxForm.md) class.
 

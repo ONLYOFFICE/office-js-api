@@ -4,7 +4,9 @@ Adds a hyperlink to the current run.
 
 ## Syntax
 
+```javascript
 expression.AddHyperlink(sLink, sScreenTipText);
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 

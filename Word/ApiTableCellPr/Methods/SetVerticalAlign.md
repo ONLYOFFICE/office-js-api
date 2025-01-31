@@ -4,7 +4,9 @@ Specifies the vertical alignment for the text contents within the current table 
 
 ## Syntax
 
+```javascript
 expression.SetVerticalAlign(sType);
+```
 
 `expression` - A variable that represents a [ApiTableCellPr](../ApiTableCellPr.md) class.
 

@@ -4,7 +4,9 @@ Returns an array with all the chart objects from the slide.
 
 ## Syntax
 
+```javascript
 expression.GetAllCharts();
+```
 
 `expression` - A variable that represents a [ApiSlide](../ApiSlide.md) class.
 

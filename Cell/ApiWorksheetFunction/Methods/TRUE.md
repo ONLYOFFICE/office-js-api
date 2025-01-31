@@ -4,7 +4,9 @@ Returns the **true** logical value.
 
 ## Syntax
 
+```javascript
 expression.TRUE();
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

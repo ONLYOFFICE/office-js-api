@@ -4,7 +4,9 @@ Checks the current checkbox.
 
 ## Syntax
 
+```javascript
 expression.SetChecked(isChecked);
+```
 
 `expression` - A variable that represents a [ApiCheckBoxForm](../ApiCheckBoxForm.md) class.
 

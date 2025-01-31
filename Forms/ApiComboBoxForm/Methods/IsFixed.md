@@ -4,7 +4,9 @@ Checks if the current form is fixed size.
 
 ## Syntax
 
+```javascript
 expression.IsFixed();
+```
 
 `expression` - A variable that represents a [ApiComboBoxForm](../ApiComboBoxForm.md) class.
 

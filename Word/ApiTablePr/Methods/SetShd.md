@@ -4,7 +4,9 @@ Specifies the shading which is applied to the extents of the current table.
 
 ## Syntax
 
+```javascript
 expression.SetShd(sType, r, g, b, isAuto);
+```
 
 `expression` - A variable that represents a [ApiTablePr](../ApiTablePr.md) class.
 

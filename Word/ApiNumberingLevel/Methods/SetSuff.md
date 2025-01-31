@@ -4,7 +4,9 @@ Specifies the content which will be added between the given numbering level text
 
 ## Syntax
 
+```javascript
 expression.SetSuff(sType);
+```
 
 `expression` - A variable that represents a [ApiNumberingLevel](../ApiNumberingLevel.md) class.
 

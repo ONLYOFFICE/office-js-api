@@ -4,7 +4,9 @@ Checks whether a value is an error other than &lt;em&gt;#N/A&lt;/em&gt;, and ret
 
 ## Syntax
 
+```javascript
 expression.ISERR(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

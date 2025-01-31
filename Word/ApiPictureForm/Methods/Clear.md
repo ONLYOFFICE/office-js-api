@@ -4,7 +4,9 @@ Clears the current form.
 
 ## Syntax
 
+```javascript
 expression.Clear();
+```
 
 `expression` - A variable that represents a [ApiPictureForm](../ApiPictureForm.md) class.
 

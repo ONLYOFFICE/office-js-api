@@ -4,7 +4,9 @@ Sets the text color to the current paragraph in the RGB format.
 
 ## Syntax
 
+```javascript
 expression.SetColor(r, g, b, isAuto);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

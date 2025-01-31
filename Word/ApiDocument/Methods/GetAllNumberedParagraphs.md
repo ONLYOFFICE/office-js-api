@@ -4,7 +4,9 @@ Returns all numbered paragraphs from the current document.
 
 ## Syntax
 
+```javascript
 expression.GetAllNumberedParagraphs();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

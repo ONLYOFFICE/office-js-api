@@ -5,7 +5,9 @@ The number is always rounded up regardless of its sing.
 
 ## Syntax
 
+```javascript
 expression.ISO_CEILING(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

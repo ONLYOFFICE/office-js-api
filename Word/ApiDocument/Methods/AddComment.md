@@ -4,7 +4,9 @@ Adds a comment to the current document selection, or to the current word if no t
 
 ## Syntax
 
+```javascript
 expression.AddComment(sText, sAuthor, sUserId);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

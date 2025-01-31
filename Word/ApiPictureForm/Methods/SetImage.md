@@ -4,7 +4,9 @@ Sets an image to the current picture form.
 
 ## Syntax
 
+```javascript
 expression.SetImage(sImageSrc, nWidth, nHeight);
+```
 
 `expression` - A variable that represents a [ApiPictureForm](../ApiPictureForm.md) class.
 

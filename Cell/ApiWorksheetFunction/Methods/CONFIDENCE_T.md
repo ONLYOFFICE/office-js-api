@@ -4,7 +4,9 @@ Returns the confidence interval for a population mean, using a Student's t distr
 
 ## Syntax
 
+```javascript
 expression.CONFIDENCE_T(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

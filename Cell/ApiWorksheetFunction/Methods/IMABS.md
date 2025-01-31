@@ -4,7 +4,9 @@ Returns the absolute value (modulus) of a complex number.
 
 ## Syntax
 
+```javascript
 expression.IMABS(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

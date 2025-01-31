@@ -4,7 +4,9 @@ Returns the inverse of the lognormal cumulative distribution function of x, wher
 
 ## Syntax
 
+```javascript
 expression.LOGINV(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

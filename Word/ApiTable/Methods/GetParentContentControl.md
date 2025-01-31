@@ -4,7 +4,9 @@ Returns a content control that contains the current table.
 
 ## Syntax
 
+```javascript
 expression.GetParentContentControl();
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 

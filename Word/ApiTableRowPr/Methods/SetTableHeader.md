@@ -7,7 +7,9 @@ table structure in order to generate multi-row table headers.
 
 ## Syntax
 
+```javascript
 expression.SetTableHeader(isHeader);
+```
 
 `expression` - A variable that represents a [ApiTableRowPr](../ApiTableRowPr.md) class.
 

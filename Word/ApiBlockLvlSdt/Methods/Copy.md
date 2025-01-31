@@ -4,7 +4,9 @@ Creates a copy of an block content control. Ignores comments, footnote reference
 
 ## Syntax
 
+```javascript
 expression.Copy();
+```
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 

@@ -4,7 +4,9 @@ Converts a binary number to decimal.
 
 ## Syntax
 
+```javascript
 expression.BIN2DEC(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

@@ -4,7 +4,9 @@ Scales the width of the figure using the specified coefficient.
 
 ## Syntax
 
+```javascript
 expression.ScaleWidth(coefficient);
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 

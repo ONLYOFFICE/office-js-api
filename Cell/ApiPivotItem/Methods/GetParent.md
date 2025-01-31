@@ -4,7 +4,9 @@ Returns a parent of the pivot item.
 
 ## Syntax
 
+```javascript
 expression.GetParent();
+```
 
 `expression` - A variable that represents a [ApiPivotItem](../ApiPivotItem.md) class.
 

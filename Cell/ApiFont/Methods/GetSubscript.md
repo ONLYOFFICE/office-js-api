@@ -4,7 +4,9 @@ Returns the subscript property of the specified font.
 
 ## Syntax
 
+```javascript
 expression.GetSubscript();
+```
 
 `expression` - A variable that represents a [ApiFont](../ApiFont.md) class.
 

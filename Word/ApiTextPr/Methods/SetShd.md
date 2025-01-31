@@ -4,7 +4,9 @@ Specifies the shading applied to the contents of the current text run.
 
 ## Syntax
 
+```javascript
 expression.SetShd(sType, r, g, b);
+```
 
 `expression` - A variable that represents a [ApiTextPr](../ApiTextPr.md) class.
 

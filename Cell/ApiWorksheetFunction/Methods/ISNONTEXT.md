@@ -4,7 +4,9 @@ Checks whether a value is not text (blank cells are not text), and returns **tru
 
 ## Syntax
 
+```javascript
 expression.ISNONTEXT(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

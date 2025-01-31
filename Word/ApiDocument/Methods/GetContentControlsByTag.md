@@ -4,7 +4,9 @@ Returns a list of all content controls in the document with the specified tag na
 
 ## Syntax
 
+```javascript
 expression.GetContentControlsByTag(sTag);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

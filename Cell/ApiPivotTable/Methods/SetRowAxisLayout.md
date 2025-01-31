@@ -4,7 +4,9 @@ Sets the way the specified pivot table items appear — in table format or in ou
 
 ## Syntax
 
+```javascript
 expression.SetRowAxisLayout(type, compact);
+```
 
 `expression` - A variable that represents a [ApiPivotTable](../ApiPivotTable.md) class.
 

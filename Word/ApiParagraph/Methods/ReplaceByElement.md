@@ -4,7 +4,9 @@ Replaces the current paragraph with a new element.
 
 ## Syntax
 
+```javascript
 expression.ReplaceByElement(oElement);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

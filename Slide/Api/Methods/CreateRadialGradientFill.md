@@ -4,7 +4,9 @@ Creates a radial gradient fill to apply to the object using the selected radial 
 
 ## Syntax
 
+```javascript
 expression.CreateRadialGradientFill(gradientStops);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

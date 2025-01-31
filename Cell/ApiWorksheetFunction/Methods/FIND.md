@@ -4,7 +4,9 @@ Returns the starting position of one text string within another text string. Thi
 
 ## Syntax
 
+```javascript
 expression.FIND(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

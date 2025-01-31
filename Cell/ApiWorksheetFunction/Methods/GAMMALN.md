@@ -4,7 +4,9 @@ Returns the natural logarithm of the gamma function.
 
 ## Syntax
 
+```javascript
 expression.GAMMALN(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

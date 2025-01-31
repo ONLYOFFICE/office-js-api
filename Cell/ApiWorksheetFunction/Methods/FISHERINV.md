@@ -4,7 +4,9 @@ Returns the inverse of the Fisher transformation: if y = FISHER(x), then FISHERI
 
 ## Syntax
 
+```javascript
 expression.FISHERINV(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

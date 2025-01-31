@@ -4,7 +4,9 @@ Inserts the specified pivot table into an existing worksheet.
 
 ## Syntax
 
+```javascript
 expression.InsertPivotExistingWorksheet(dataRef, pivotRef, confirmation);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

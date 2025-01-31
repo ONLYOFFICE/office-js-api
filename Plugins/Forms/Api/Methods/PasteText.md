@@ -4,7 +4,9 @@ Pastes text into the document.
 
 ## Syntax
 
+```javascript
 expression.PasteText(text);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

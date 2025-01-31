@@ -4,7 +4,9 @@ Returns a set of the text run properties which will be applied to all the text r
 
 ## Syntax
 
+```javascript
 expression.GetTextPr();
+```
 
 `expression` - A variable that represents a [ApiTableStylePr](../ApiTableStylePr.md) class.
 

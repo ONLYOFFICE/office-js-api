@@ -4,7 +4,9 @@ Returns a type of the ApiContentControlList class.
 
 ## Syntax
 
+```javascript
 expression.GetClassType();
+```
 
 `expression` - A variable that represents a [ApiContentControlList](../ApiContentControlList.md) class.
 

@@ -4,7 +4,9 @@ Returns all comments from the current presentation.
 
 ## Syntax
 
+```javascript
 expression.GetAllComments();
+```
 
 `expression` - A variable that represents a [ApiPresentation](../ApiPresentation.md) class.
 

@@ -5,7 +5,9 @@ or a collection of all visible data fields.
 
 ## Syntax
 
+```javascript
 expression.GetDataFields(field);
+```
 
 `expression` - A variable that represents a [ApiPivotTable](../ApiPivotTable.md) class.
 

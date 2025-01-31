@@ -4,7 +4,9 @@ Returns the price per $100 face value for a security that pays interest at matur
 
 ## Syntax
 
+```javascript
 expression.PRICEMAT(arg1, arg2, arg3, arg4, arg5, arg6);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

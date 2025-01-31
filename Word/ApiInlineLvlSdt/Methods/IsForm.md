@@ -4,7 +4,9 @@ Checks if the content control is a form.
 
 ## Syntax
 
+```javascript
 expression.IsForm();
+```
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 

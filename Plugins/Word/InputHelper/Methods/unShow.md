@@ -4,7 +4,9 @@ Hides an input helper.
 
 ## Syntax
 
+```javascript
 expression.unShow();
+```
 
 `expression` - A variable that represents a [InputHelper](../InputHelper.md) class.
 

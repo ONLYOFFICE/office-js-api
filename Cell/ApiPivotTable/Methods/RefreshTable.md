@@ -4,7 +4,9 @@ Refreshes the pivot table report from the source data.
 
 ## Syntax
 
+```javascript
 expression.RefreshTable();
+```
 
 `expression` - A variable that represents a [ApiPivotTable](../ApiPivotTable.md) class.
 

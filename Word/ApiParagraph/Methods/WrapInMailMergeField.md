@@ -4,7 +4,9 @@ Wraps the paragraph content in a mail merge field.
 
 ## Syntax
 
+```javascript
 expression.WrapInMailMergeField();
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

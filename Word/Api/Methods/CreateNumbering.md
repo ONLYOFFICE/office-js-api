@@ -4,7 +4,9 @@ Creates a bullet for a paragraph with the numbering character or symbol specifie
 
 ## Syntax
 
+```javascript
 expression.CreateNumbering(numType, startAt);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

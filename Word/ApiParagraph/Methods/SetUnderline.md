@@ -5,7 +5,9 @@ Specifies that the contents of this paragraph are displayed along with a line ap
 
 ## Syntax
 
+```javascript
 expression.SetUnderline(isUnderline);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

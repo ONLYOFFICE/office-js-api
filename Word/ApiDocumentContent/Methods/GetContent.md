@@ -4,7 +4,9 @@ Returns an array of document elements from the current ApiDocumentContent object
 
 ## Syntax
 
+```javascript
 expression.GetContent(bGetCopies);
+```
 
 `expression` - A variable that represents a [ApiDocumentContent](../ApiDocumentContent.md) class.
 

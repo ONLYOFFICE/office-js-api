@@ -4,7 +4,9 @@ Shows or hides buttons in the header.
 
 ## Syntax
 
+```javascript
 expression.ShowButton(id, bShow, align);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

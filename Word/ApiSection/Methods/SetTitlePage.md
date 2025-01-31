@@ -4,7 +4,9 @@ Specifies whether the current section in this document has the different header 
 
 ## Syntax
 
+```javascript
 expression.SetTitlePage(isTitlePage);
+```
 
 `expression` - A variable that represents a [ApiSection](../ApiSection.md) class.
 

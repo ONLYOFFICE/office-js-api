@@ -4,7 +4,9 @@ Returns the height of the watermark image in the document.
 
 ## Syntax
 
+```javascript
 expression.GetImageHeight();
+```
 
 `expression` - A variable that represents a [ApiWatermarkSettings](../ApiWatermarkSettings.md) class.
 

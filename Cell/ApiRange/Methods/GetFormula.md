@@ -4,7 +4,9 @@ Returns a formula of the specified range.
 
 ## Syntax
 
+```javascript
 expression.GetFormula();
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

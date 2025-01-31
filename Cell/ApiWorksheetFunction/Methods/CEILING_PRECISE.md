@@ -4,7 +4,9 @@ Returns a number that is rounded up to the nearest integer or to the nearest mul
 
 ## Syntax
 
+```javascript
 expression.CEILING_PRECISE(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

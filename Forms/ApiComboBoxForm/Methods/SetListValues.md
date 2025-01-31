@@ -4,7 +4,9 @@ Sets the list values to the current combo box.
 
 ## Syntax
 
+```javascript
 expression.SetListValues(aListString);
+```
 
 `expression` - A variable that represents a [ApiComboBoxForm](../ApiComboBoxForm.md) class.
 

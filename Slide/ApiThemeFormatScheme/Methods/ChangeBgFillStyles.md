@@ -4,7 +4,9 @@ Sets the background fill styles to the current theme format scheme.
 
 ## Syntax
 
+```javascript
 expression.ChangeBgFillStyles(arrBgFill);
+```
 
 `expression` - A variable that represents a [ApiThemeFormatScheme](../ApiThemeFormatScheme.md) class.
 

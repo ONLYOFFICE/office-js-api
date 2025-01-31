@@ -4,7 +4,9 @@ Returns the source range for the pivot table.
 
 ## Syntax
 
+```javascript
 expression.GetSource();
+```
 
 `expression` - A variable that represents a [ApiPivotTable](../ApiPivotTable.md) class.
 

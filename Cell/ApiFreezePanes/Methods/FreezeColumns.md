@@ -4,7 +4,9 @@ Freezes the first column or columns of the current worksheet.
 
 ## Syntax
 
+```javascript
 expression.FreezeColumns(count);
+```
 
 `expression` - A variable that represents a [ApiFreezePanes](../ApiFreezePanes.md) class.
 

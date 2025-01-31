@@ -4,7 +4,9 @@ Sets the setting which specifies whether to insert blank rows after each item.
 
 ## Syntax
 
+```javascript
 expression.SetLayoutBlankLine(insert);
+```
 
 `expression` - A variable that represents a [ApiPivotTable](../ApiPivotTable.md) class.
 

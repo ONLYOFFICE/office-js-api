@@ -4,7 +4,9 @@ Sets the specified section to the current paragraph.
 
 ## Syntax
 
+```javascript
 expression.SetSection(oSection);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

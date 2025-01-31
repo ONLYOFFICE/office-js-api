@@ -4,7 +4,9 @@ Checks if the form border width is respected or not.
 
 ## Syntax
 
+```javascript
 expression.IsRespectBorders();
+```
 
 `expression` - A variable that represents a [ApiPictureForm](../ApiPictureForm.md) class.
 

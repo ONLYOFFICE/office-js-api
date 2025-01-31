@@ -4,7 +4,9 @@ Specifies which chart data labels are shown for the chart.
 
 ## Syntax
 
+```javascript
 expression.SetShowDataLabels(bShowSerName, bShowCatName, bShowVal, bShowPercent);
+```
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 

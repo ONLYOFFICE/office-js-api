@@ -5,7 +5,9 @@ Specifies that the contents of the run are displayed along with a line appearing
 
 ## Syntax
 
+```javascript
 expression.SetUnderline(isUnderline);
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 

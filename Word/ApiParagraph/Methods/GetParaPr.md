@@ -4,7 +4,9 @@ Returns the paragraph properties.
 
 ## Syntax
 
+```javascript
 expression.GetParaPr();
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

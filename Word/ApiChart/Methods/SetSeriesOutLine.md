@@ -4,7 +4,9 @@ Sets the outline to the specified chart series.
 
 ## Syntax
 
+```javascript
 expression.SetSeriesOutLine(oStroke, nSeries, bAll);
+```
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 

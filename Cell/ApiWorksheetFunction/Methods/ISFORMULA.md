@@ -4,7 +4,9 @@ Checks whether a reference to a cell contains a formula, and returns **true** or
 
 ## Syntax
 
+```javascript
 expression.ISFORMULA(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

@@ -7,7 +7,9 @@ Specifies the alignment which will be applied to the Range contents in relation 
 
 ## Syntax
 
+```javascript
 expression.SetVertAlign(sType);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

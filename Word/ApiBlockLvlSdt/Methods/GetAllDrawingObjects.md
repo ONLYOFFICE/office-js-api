@@ -4,7 +4,9 @@ Returns a collection of drawing objects in the current content control.
 
 ## Syntax
 
+```javascript
 expression.GetAllDrawingObjects();
+```
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 

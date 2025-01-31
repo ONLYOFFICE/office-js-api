@@ -4,7 +4,9 @@ Chooses a value or action to perform from a list of values, based on an index nu
 
 ## Syntax
 
+```javascript
 expression.CHOOSE(arg1, args);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

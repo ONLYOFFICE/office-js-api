@@ -4,7 +4,9 @@ Returns the hyperlink element using the position specified.
 
 ## Syntax
 
+```javascript
 expression.GetElement(nPos);
+```
 
 `expression` - A variable that represents a [ApiHyperlink](../ApiHyperlink.md) class.
 

@@ -4,7 +4,9 @@ Creates a new inline container.
 
 ## Syntax
 
+```javascript
 expression.CreateInlineLvlSdt();
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

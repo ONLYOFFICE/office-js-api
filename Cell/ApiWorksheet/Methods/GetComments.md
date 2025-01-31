@@ -4,7 +4,9 @@ Returns all comments from the current worksheet.
 
 ## Syntax
 
+```javascript
 expression.GetComments();
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

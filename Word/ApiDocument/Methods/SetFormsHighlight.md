@@ -4,7 +4,9 @@ Sets the highlight to the forms in the document.
 
 ## Syntax
 
+```javascript
 expression.SetFormsHighlight(r, g, b, bNone);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

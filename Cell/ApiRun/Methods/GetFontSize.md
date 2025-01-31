@@ -4,7 +4,9 @@ Gets the font size from the current text properties.
 
 ## Syntax
 
+```javascript
 expression.GetFontSize();
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 

@@ -4,7 +4,9 @@ Converts a number from one measurement system to another.
 
 ## Syntax
 
+```javascript
 expression.CONVERT(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

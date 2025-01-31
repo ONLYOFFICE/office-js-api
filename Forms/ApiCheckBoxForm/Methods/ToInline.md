@@ -5,7 +5,9 @@ Picture form can't be converted to an inline form, it's always a fixed size obje
 
 ## Syntax
 
+```javascript
 expression.ToInline();
+```
 
 `expression` - A variable that represents a [ApiCheckBoxForm](../ApiCheckBoxForm.md) class.
 

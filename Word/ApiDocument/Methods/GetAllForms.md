@@ -4,7 +4,9 @@ Returns all existing forms in the document.
 
 ## Syntax
 
+```javascript
 expression.GetAllForms();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

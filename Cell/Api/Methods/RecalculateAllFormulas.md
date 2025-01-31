@@ -4,7 +4,9 @@ Recalculates all formulas in the active workbook.
 
 ## Syntax
 
+```javascript
 expression.RecalculateAllFormulas(fLogger);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

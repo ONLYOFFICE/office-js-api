@@ -4,7 +4,9 @@ Inserts a cell or a range of cells into the worksheet or macro sheet and shifts 
 
 ## Syntax
 
+```javascript
 expression.Insert(shift);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

@@ -7,7 +7,9 @@ Sets the lock to the current inline text content control:
 
 ## Syntax
 
+```javascript
 expression.SetLock(sLockType);
+```
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 

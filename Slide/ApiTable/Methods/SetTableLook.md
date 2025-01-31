@@ -10,7 +10,9 @@ column, or last column formatting.
 
 ## Syntax
 
+```javascript
 expression.SetTableLook(isFirstColumn, isFirstRow, isLastColumn, isLastRow, isHorBand, isVerBand);
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 

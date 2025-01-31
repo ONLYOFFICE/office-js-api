@@ -4,7 +4,9 @@ Returns all comments from the current document.
 
 ## Syntax
 
+```javascript
 expression.GetAllComments();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

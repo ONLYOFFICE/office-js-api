@@ -4,7 +4,9 @@ Creates a linear gradient fill to apply to the object using the selected linear 
 
 ## Syntax
 
+```javascript
 expression.CreateLinearGradientFill(gradientStops, angle);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

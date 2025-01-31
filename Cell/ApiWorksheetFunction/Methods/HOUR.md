@@ -4,7 +4,9 @@ Returns the hour as a number from 0 (12:00 A.M.) to 23 (11:00 P.M.).
 
 ## Syntax
 
+```javascript
 expression.HOUR(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

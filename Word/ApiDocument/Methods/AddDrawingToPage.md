@@ -6,7 +6,9 @@ process to arrange tables on the specified page.
 
 ## Syntax
 
+```javascript
 expression.AddDrawingToPage(oDrawing, nPage, x, y);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

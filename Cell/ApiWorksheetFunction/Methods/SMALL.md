@@ -4,7 +4,9 @@ Returns the k-th smallest value in a data set. For example, the fifth smallest n
 
 ## Syntax
 
+```javascript
 expression.SMALL(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

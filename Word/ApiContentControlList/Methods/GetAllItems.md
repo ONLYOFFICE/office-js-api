@@ -4,7 +4,9 @@ Returns a collection of items (the ApiContentControlListEntry objects) of the co
 
 ## Syntax
 
+```javascript
 expression.GetAllItems();
+```
 
 `expression` - A variable that represents a [ApiContentControlList](../ApiContentControlList.md) class.
 

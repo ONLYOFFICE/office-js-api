@@ -4,7 +4,9 @@ Returns the type of the ApiThemeFontScheme class.
 
 ## Syntax
 
+```javascript
 expression.GetClassType();
+```
 
 `expression` - A variable that represents a [ApiThemeFontScheme](../ApiThemeFontScheme.md) class.
 

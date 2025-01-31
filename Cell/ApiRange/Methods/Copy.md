@@ -4,7 +4,9 @@ Copies the range to the specified range or to the clipboard.
 
 ## Syntax
 
+```javascript
 expression.Copy(destination);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

@@ -4,7 +4,9 @@ Returns a collection of shape objects from the document content.
 
 ## Syntax
 
+```javascript
 expression.GetAllShapes();
+```
 
 `expression` - A variable that represents a [ApiDocumentContent](../ApiDocumentContent.md) class.
 

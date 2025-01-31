@@ -4,7 +4,9 @@ Creates a new slide.
 
 ## Syntax
 
+```javascript
 expression.CreateSlide();
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

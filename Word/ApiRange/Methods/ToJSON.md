@@ -4,7 +4,9 @@ Converts the ApiRange object into the JSON object.
 
 ## Syntax
 
+```javascript
 expression.ToJSON(bWriteNumberings, bWriteStyles);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

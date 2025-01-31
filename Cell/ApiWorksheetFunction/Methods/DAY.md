@@ -4,7 +4,9 @@ Returns the day of the date given in the numerical format, a number from 1 to 31
 
 ## Syntax
 
+```javascript
 expression.DAY(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

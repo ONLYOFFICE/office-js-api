@@ -4,7 +4,9 @@ Returns the number of permutations for a given number of objects that can be sel
 
 ## Syntax
 
+```javascript
 expression.PERMUT(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

@@ -4,7 +4,9 @@ Sets the border color to the current form.
 
 ## Syntax
 
+```javascript
 expression.SetBorderColor(r, g, b, bNone);
+```
 
 `expression` - A variable that represents a [ApiFormBase](../ApiFormBase.md) class.
 

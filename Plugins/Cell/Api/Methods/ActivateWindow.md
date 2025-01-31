@@ -4,7 +4,9 @@ Activates (moves forward) the plugin window/panel.
 
 ## Syntax
 
+```javascript
 expression.ActivateWindow(frameId);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

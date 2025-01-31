@@ -4,7 +4,9 @@ Replaces the current image with a new one.
 
 ## Syntax
 
+```javascript
 expression.ReplaceCurrentImage(sImageUrl, nWidth, nHeight);
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

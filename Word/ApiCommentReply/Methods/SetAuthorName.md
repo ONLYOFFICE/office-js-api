@@ -4,7 +4,9 @@ Sets the comment reply author's name.
 
 ## Syntax
 
+```javascript
 expression.SetAuthorName(sAuthorName);
+```
 
 `expression` - A variable that represents a [ApiCommentReply](../ApiCommentReply.md) class.
 

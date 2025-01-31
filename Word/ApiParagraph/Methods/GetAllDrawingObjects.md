@@ -4,7 +4,9 @@ Returns a collection of drawing objects in the paragraph.
 
 ## Syntax
 
+```javascript
 expression.GetAllDrawingObjects();
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

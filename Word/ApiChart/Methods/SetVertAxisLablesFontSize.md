@@ -4,7 +4,9 @@ Specifies font size for labels of the vertical axis.
 
 ## Syntax
 
+```javascript
 expression.SetVertAxisLablesFontSize(nFontSize);
+```
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 

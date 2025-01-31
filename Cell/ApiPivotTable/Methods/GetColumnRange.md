@@ -4,7 +4,9 @@ Returns a Range object that represents the column area in the pivot table report
 
 ## Syntax
 
+```javascript
 expression.GetColumnRange();
+```
 
 `expression` - A variable that represents a [ApiPivotTable](../ApiPivotTable.md) class.
 

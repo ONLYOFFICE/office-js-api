@@ -4,7 +4,9 @@ Returns an array with all the chart objects from the slide master.
 
 ## Syntax
 
+```javascript
 expression.GetAllCharts();
+```
 
 `expression` - A variable that represents a [ApiMaster](../ApiMaster.md) class.
 

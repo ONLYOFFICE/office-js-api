@@ -4,7 +4,9 @@ Sends an event to the plugin when the mouse button is moved inside the plugin if
 
 ## Syntax
 
+```javascript
 expression.MouseMoveWindow(frameId, x, y);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

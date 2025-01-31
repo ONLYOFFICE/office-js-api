@@ -4,7 +4,9 @@ Converts the ApiNumbering object into the JSON object.
 
 ## Syntax
 
+```javascript
 expression.ToJSON();
+```
 
 `expression` - A variable that represents a [ApiNumbering](../ApiNumbering.md) class.
 

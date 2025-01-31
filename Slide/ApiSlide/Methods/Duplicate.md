@@ -4,7 +4,9 @@ Creates a duplicate of the specified slide object, adds the new slide to the sli
 
 ## Syntax
 
+```javascript
 expression.Duplicate(nPos);
+```
 
 `expression` - A variable that represents a [ApiSlide](../ApiSlide.md) class.
 

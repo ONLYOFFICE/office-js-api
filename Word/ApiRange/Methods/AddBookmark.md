@@ -4,7 +4,9 @@ Adds a bookmark to the specified range.
 
 ## Syntax
 
+```javascript
 expression.AddBookmark(sName);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

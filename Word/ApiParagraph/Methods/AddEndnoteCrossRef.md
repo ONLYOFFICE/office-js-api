@@ -5,7 +5,9 @@ Adds an endnote cross-reference to the current paragraph.
 
 ## Syntax
 
+```javascript
 expression.AddEndnoteCrossRef(sRefType, oParaTo, bLink, bAboveBelow);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

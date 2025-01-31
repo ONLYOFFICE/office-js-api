@@ -4,7 +4,9 @@ Sets the default hyperlink style.
 
 ## Syntax
 
+```javascript
 expression.SetDefaultStyle();
+```
 
 `expression` - A variable that represents a [ApiHyperlink](../ApiHyperlink.md) class.
 

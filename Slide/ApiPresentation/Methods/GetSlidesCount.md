@@ -4,7 +4,9 @@ Returns a number of slides.
 
 ## Syntax
 
+```javascript
 expression.GetSlidesCount();
+```
 
 `expression` - A variable that represents a [ApiPresentation](../ApiPresentation.md) class.
 

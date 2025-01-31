@@ -4,7 +4,9 @@ Pushes a paragraph or a table or a block content control to actually add it to t
 
 ## Syntax
 
+```javascript
 expression.Push(element);
+```
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 

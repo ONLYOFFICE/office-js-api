@@ -4,7 +4,9 @@ Inserts a number of pages in the current document into the paragraph.
 
 ## Syntax
 
+```javascript
 expression.AddPagesCount();
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

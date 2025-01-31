@@ -4,7 +4,9 @@ Sets the setting which specifies whether to show subtotals.
 
 ## Syntax
 
+```javascript
 expression.SetLayoutSubtotals(show);
+```
 
 `expression` - A variable that represents a [ApiPivotTable](../ApiPivotTable.md) class.
 

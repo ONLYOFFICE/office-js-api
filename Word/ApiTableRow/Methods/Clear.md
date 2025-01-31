@@ -4,7 +4,9 @@ Clears the content from the current row.
 
 ## Syntax
 
+```javascript
 expression.Clear();
+```
 
 `expression` - A variable that represents a [ApiTableRow](../ApiTableRow.md) class.
 

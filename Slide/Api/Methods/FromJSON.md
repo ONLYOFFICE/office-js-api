@@ -4,7 +4,9 @@ Converts the specified JSON object into the Document Builder object of the corre
 
 ## Syntax
 
+```javascript
 expression.FromJSON(sMessage);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

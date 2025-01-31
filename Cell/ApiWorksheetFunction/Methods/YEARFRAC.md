@@ -4,7 +4,9 @@ Returns the year fraction representing the number of whole days between the star
 
 ## Syntax
 
+```javascript
 expression.YEARFRAC(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

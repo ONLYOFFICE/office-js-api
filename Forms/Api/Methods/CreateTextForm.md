@@ -4,7 +4,9 @@ Creates a text field with the specified text field properties.
 
 ## Syntax
 
+```javascript
 expression.CreateTextForm(oFormPr);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

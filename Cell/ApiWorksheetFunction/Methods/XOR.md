@@ -4,7 +4,9 @@ Returns the logical **Exclusive Or** value of all arguments. The function return
 
 ## Syntax
 
+```javascript
 expression.XOR(args);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

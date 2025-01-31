@@ -4,7 +4,9 @@ Sets the position of the drawing on the slide.
 
 ## Syntax
 
+```javascript
 expression.SetPosition(nPosX, nPosY);
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 

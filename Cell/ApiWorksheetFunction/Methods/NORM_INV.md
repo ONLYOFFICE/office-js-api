@@ -4,7 +4,9 @@ Returns the inverse of the normal cumulative distribution for the specified mean
 
 ## Syntax
 
+```javascript
 expression.NORM_INV(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

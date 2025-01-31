@@ -5,7 +5,9 @@ Sets the font size property to the specified font.
 
 ## Syntax
 
+```javascript
 expression.SetSize(Size);
+```
 
 `expression` - A variable that represents a [ApiFont](../ApiFont.md) class.
 

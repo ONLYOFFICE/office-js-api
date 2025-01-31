@@ -4,7 +4,9 @@ Counts a number of cells within a range that meet the given condition.
 
 ## Syntax
 
+```javascript
 expression.COUNTIF(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

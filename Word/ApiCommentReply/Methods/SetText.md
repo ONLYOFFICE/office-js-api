@@ -4,7 +4,9 @@ Sets the comment reply text.
 
 ## Syntax
 
+```javascript
 expression.SetText(sText);
+```
 
 `expression` - A variable that represents a [ApiCommentReply](../ApiCommentReply.md) class.
 

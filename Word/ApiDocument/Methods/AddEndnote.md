@@ -4,7 +4,9 @@ Adds an endnote for the selected text (or the current position if the selection 
 
 ## Syntax
 
+```javascript
 expression.AddEndnote();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

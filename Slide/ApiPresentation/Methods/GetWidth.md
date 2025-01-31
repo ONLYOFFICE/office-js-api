@@ -4,7 +4,9 @@ Returns the presentation width in English measure units.
 
 ## Syntax
 
+```javascript
 expression.GetWidth();
+```
 
 `expression` - A variable that represents a [ApiPresentation](../ApiPresentation.md) class.
 

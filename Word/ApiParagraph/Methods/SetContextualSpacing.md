@@ -6,7 +6,9 @@ following paragraphs are of the same paragraph style, affecting the top and bott
 
 ## Syntax
 
+```javascript
 expression.SetContextualSpacing(isContextualSpacing);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

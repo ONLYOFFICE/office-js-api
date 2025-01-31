@@ -4,7 +4,9 @@ Specifies the horizontal axis orientation.
 
 ## Syntax
 
+```javascript
 expression.SetHorAxisOrientation(bIsMinMax);
+```
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 

@@ -4,7 +4,9 @@ Checks whether any of the arguments are **true**. Returns **false** only if all 
 
 ## Syntax
 
+```javascript
 expression.OR(args);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

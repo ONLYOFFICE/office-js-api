@@ -4,7 +4,9 @@ Converts a dollar price, expressed as a fraction, into a dollar price, expressed
 
 ## Syntax
 
+```javascript
 expression.DOLLARDE(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

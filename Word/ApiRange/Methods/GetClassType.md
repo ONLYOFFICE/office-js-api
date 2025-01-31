@@ -4,7 +4,9 @@ Returns a type of the ApiRange class.
 
 ## Syntax
 
+```javascript
 expression.GetClassType();
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

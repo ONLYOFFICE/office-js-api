@@ -4,7 +4,9 @@ Wraps the paragraph object with a rich text content control.
 
 ## Syntax
 
+```javascript
 expression.InsertInContentControl(nType);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

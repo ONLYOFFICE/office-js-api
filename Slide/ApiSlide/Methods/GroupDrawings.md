@@ -4,7 +4,9 @@ Groups an array of drawings in the current slide.
 
 ## Syntax
 
+```javascript
 expression.GroupDrawings(aDrawings);
+```
 
 `expression` - A variable that represents a [ApiSlide](../ApiSlide.md) class.
 

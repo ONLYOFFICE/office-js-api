@@ -4,7 +4,9 @@ Clears a list of values of the combo box / dropdown list content control.
 
 ## Syntax
 
+```javascript
 expression.Clear();
+```
 
 `expression` - A variable that represents a [ApiContentControlList](../ApiContentControlList.md) class.
 

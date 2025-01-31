@@ -4,7 +4,9 @@ Returns the one-tailed P-value of a z-test.
 
 ## Syntax
 
+```javascript
 expression.Z_TEST(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

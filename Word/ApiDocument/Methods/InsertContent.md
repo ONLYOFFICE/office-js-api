@@ -4,7 +4,9 @@ Inserts an array of elements into the current position of the document.
 
 ## Syntax
 
+```javascript
 expression.InsertContent(arrContent, isInline, oPr);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

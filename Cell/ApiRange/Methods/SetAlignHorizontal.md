@@ -4,7 +4,9 @@ Sets the horizontal alignment of the text in the current cell range.
 
 ## Syntax
 
+```javascript
 expression.SetAlignHorizontal(sAlignment);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

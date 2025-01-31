@@ -4,7 +4,9 @@ Creates a new block level container.
 
 ## Syntax
 
+```javascript
 expression.CreateBlockLvlSdt();
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

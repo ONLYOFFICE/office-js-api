@@ -4,7 +4,9 @@ Specifies minor tick mark for the horizontal axis.
 
 ## Syntax
 
+```javascript
 expression.SetHorAxisMinorTickMark(sTickMark);
+```
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 

@@ -4,7 +4,9 @@ Removes a bookmark from the document, if one exists.
 
 ## Syntax
 
+```javascript
 expression.DeleteBookmark(sName);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

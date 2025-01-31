@@ -4,7 +4,9 @@ Returns the error function integrated between 0 and the specified lower limit.
 
 ## Syntax
 
+```javascript
 expression.ERF_PRECISE(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

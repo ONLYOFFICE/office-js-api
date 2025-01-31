@@ -4,7 +4,9 @@ Returns the table properties of the current style.
 
 ## Syntax
 
+```javascript
 expression.GetTablePr();
+```
 
 `expression` - A variable that represents a [ApiStyle](../ApiStyle.md) class.
 

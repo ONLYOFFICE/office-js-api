@@ -4,7 +4,9 @@ Rounds the number up to the nearest multiple of significance. Negative numbers a
 
 ## Syntax
 
+```javascript
 expression.ECMA_CEILING(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

@@ -4,7 +4,9 @@ Converts a text string to all uppercase letters.
 
 ## Syntax
 
+```javascript
 expression.UPPER(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

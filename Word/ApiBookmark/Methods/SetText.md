@@ -4,7 +4,9 @@ Sets the bookmark text.
 
 ## Syntax
 
+```javascript
 expression.SetText(sText);
+```
 
 `expression` - A variable that represents a [ApiBookmark](../ApiBookmark.md) class.
 

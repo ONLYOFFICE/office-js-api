@@ -4,7 +4,9 @@ Specifies that the current paragraph references a numbering definition instance 
 
 ## Syntax
 
+```javascript
 expression.SetNumPr(oNumPr, nLvl);
+```
 
 `expression` - A variable that represents a [ApiParaPr](../ApiParaPr.md) class.
 

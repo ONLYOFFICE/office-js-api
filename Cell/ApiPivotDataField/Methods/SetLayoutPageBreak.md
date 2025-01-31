@@ -4,7 +4,9 @@ Sets the setting which specifies whether to insert a page break after each field
 
 ## Syntax
 
+```javascript
 expression.SetLayoutPageBreak(insert);
+```
 
 `expression` - A variable that represents a [ApiPivotDataField](../ApiPivotDataField.md) class.
 

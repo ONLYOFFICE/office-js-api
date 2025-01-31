@@ -4,7 +4,9 @@ Specifies a number of rows which will comprise each table row band for this tabl
 
 ## Syntax
 
+```javascript
 expression.SetStyleRowBandSize(nCount);
+```
 
 `expression` - A variable that represents a [ApiTablePr](../ApiTablePr.md) class.
 

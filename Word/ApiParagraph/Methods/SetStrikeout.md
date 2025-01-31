@@ -4,7 +4,9 @@ Specifies that the contents of this paragraph are displayed with a single horizo
 
 ## Syntax
 
+```javascript
 expression.SetStrikeout(isStrikeout);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

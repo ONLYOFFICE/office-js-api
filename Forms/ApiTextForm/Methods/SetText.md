@@ -4,7 +4,9 @@ Sets the text to the current text field.
 
 ## Syntax
 
+```javascript
 expression.SetText(sText);
+```
 
 `expression` - A variable that represents a [ApiTextForm](../ApiTextForm.md) class.
 

@@ -4,7 +4,9 @@ Creates a color selecting it from one of the available color presets.
 
 ## Syntax
 
+```javascript
 expression.CreatePresetColor(presetColor);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

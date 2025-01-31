@@ -4,7 +4,9 @@ Returns a number shifted left by the specified number of bits.
 
 ## Syntax
 
+```javascript
 expression.BITLSHIFT(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

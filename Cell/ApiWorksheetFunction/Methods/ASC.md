@@ -4,7 +4,9 @@ For double-byte character set (DBCS) languages, the function changes full-width 
 
 ## Syntax
 
+```javascript
 expression.ASC(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

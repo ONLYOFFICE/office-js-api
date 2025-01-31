@@ -4,7 +4,9 @@ Returns the parent slide master of the current layout.
 
 ## Syntax
 
+```javascript
 expression.GetMaster();
+```
 
 `expression` - A variable that represents a [ApiLayout](../ApiLayout.md) class.
 

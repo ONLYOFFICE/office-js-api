@@ -4,7 +4,9 @@ Specifies whether a single line of the current paragraph will be displayed on a 
 
 ## Syntax
 
+```javascript
 expression.SetWidowControl(isWidowControl);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

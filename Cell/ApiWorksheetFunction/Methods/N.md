@@ -4,7 +4,9 @@ Converts a value to a number, dates to serial numbers, **true** to 1, error to &
 
 ## Syntax
 
+```javascript
 expression.N(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

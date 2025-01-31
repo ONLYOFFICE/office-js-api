@@ -4,7 +4,9 @@ Checks whether a value is a logical value (**true** or **false**), and returns *
 
 ## Syntax
 
+```javascript
 expression.ISLOGICAL(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

@@ -4,7 +4,9 @@ Returns a paragraph that contains the current content control.
 
 ## Syntax
 
+```javascript
 expression.GetParentParagraph();
+```
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 

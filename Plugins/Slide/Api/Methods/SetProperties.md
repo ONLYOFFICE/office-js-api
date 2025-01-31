@@ -4,7 +4,9 @@ Sets the properties to the document.
 
 ## Syntax
 
+```javascript
 expression.SetProperties(obj, obj.copyoutenabled, obj.hideContentControlTrack, obj.watermark_on_draw, obj.disableAutostartMacros, obj.fillForms);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

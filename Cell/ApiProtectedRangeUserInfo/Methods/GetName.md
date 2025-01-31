@@ -4,7 +4,9 @@ Returns the name property of the current user's information.
 
 ## Syntax
 
+```javascript
 expression.GetName();
+```
 
 `expression` - A variable that represents a [ApiProtectedRangeUserInfo](../ApiProtectedRangeUserInfo.md) class.
 

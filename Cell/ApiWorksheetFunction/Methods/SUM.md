@@ -4,7 +4,9 @@ Adds all the numbers in a range of cells.
 
 ## Syntax
 
+```javascript
 expression.SUM(args);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

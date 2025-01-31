@@ -4,7 +4,9 @@ Combines multiple text strings into one text string.
 
 ## Syntax
 
+```javascript
 expression.CONCATENATE(arg_n);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

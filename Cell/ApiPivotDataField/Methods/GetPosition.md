@@ -5,7 +5,9 @@ among all the fields in its orientation (Rows, Columns, Pages, Data).
 
 ## Syntax
 
+```javascript
 expression.GetPosition();
+```
 
 `expression` - A variable that represents a [ApiPivotDataField](../ApiPivotDataField.md) class.
 

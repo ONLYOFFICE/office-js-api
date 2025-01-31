@@ -4,7 +4,9 @@ Copies the current form (copies with the shape if it exists).
 
 ## Syntax
 
+```javascript
 expression.Copy();
+```
 
 `expression` - A variable that represents a [ApiComboBoxForm](../ApiComboBoxForm.md) class.
 

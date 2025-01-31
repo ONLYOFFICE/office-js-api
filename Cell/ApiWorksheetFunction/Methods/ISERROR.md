@@ -4,7 +4,9 @@ Checks whether a value is an error, and returns **true** or **false**.
 
 ## Syntax
 
+```javascript
 expression.ISERROR(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

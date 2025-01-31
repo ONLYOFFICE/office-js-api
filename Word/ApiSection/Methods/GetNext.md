@@ -4,7 +4,9 @@ Returns the next section if exists.
 
 ## Syntax
 
+```javascript
 expression.GetNext();
+```
 
 `expression` - A variable that represents a [ApiSection](../ApiSection.md) class.
 

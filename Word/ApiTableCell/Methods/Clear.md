@@ -4,7 +4,9 @@ Clears the content from the current cell.
 
 ## Syntax
 
+```javascript
 expression.Clear();
+```
 
 `expression` - A variable that represents a [ApiTableCell](../ApiTableCell.md) class.
 

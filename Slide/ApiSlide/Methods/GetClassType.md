@@ -4,7 +4,9 @@ Returns the type of the ApiSlide class.
 
 ## Syntax
 
+```javascript
 expression.GetClassType();
+```
 
 `expression` - A variable that represents a [ApiSlide](../ApiSlide.md) class.
 

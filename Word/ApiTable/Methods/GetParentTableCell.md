@@ -4,7 +4,9 @@ Returns a table cell that contains the current table.
 
 ## Syntax
 
+```javascript
 expression.GetParentTableCell();
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 

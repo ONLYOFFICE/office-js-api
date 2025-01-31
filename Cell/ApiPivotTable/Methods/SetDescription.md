@@ -4,7 +4,9 @@ Sets the pivot table description.
 
 ## Syntax
 
+```javascript
 expression.SetDescription(description);
+```
 
 `expression` - A variable that represents a [ApiPivotTable](../ApiPivotTable.md) class.
 

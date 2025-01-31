@@ -4,7 +4,9 @@ Returns the remainder after a number is divided by a divisor.
 
 ## Syntax
 
+```javascript
 expression.MOD(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

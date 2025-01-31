@@ -4,7 +4,9 @@ Returns a new range as the intersection of the current range with another range.
 
 ## Syntax
 
+```javascript
 expression.IntersectWith(oRange);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

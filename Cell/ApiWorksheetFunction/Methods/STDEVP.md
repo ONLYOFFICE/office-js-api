@@ -4,7 +4,9 @@ Calculates standard deviation based on the entire population given as arguments 
 
 ## Syntax
 
+```javascript
 expression.STDEVP(args);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

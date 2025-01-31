@@ -4,7 +4,9 @@ Returns the content control position within its parent element.
 
 ## Syntax
 
+```javascript
 expression.GetPosInParent();
+```
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 

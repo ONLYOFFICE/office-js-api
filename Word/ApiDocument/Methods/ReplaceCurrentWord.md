@@ -4,7 +4,9 @@ Replaces the current word or part of the current word with the specified text.
 
 ## Syntax
 
+```javascript
 expression.ReplaceCurrentWord(sReplace, sPart);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

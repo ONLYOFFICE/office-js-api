@@ -5,7 +5,9 @@ A point is 1/72 inch.
 
 ## Syntax
 
+```javascript
 expression.SetRowHeight(nRow, nHeight);
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

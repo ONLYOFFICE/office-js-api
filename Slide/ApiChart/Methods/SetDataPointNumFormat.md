@@ -4,7 +4,9 @@ Sets the specified numeric format to the chart data point.
 
 ## Syntax
 
+```javascript
 expression.SetDataPointNumFormat(sFormat, nSeria, nDataPoint, bAllSeries);
+```
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 

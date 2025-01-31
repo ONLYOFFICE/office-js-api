@@ -4,7 +4,9 @@ Sets the layout subtotal location in the pivot table.
 
 ## Syntax
 
+```javascript
 expression.SetSubtotalLocation(type);
+```
 
 `expression` - A variable that represents a [ApiPivotTable](../ApiPivotTable.md) class.
 

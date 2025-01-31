@@ -4,7 +4,9 @@ Sets the outline to the chart title.
 
 ## Syntax
 
+```javascript
 expression.SetTitleOutLine(oStroke);
+```
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 

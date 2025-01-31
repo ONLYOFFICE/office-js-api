@@ -4,7 +4,9 @@ Rounds a number up, to the nearest multiple of significance.
 
 ## Syntax
 
+```javascript
 expression.CEILING(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

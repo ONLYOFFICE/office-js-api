@@ -4,7 +4,9 @@ Returns the **e** constant raised to the power of a given number. The **e** cons
 
 ## Syntax
 
+```javascript
 expression.EXP(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

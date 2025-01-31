@@ -4,7 +4,9 @@ Specifies if the current form should be required.
 
 ## Syntax
 
+```javascript
 expression.SetRequired(bRequired);
+```
 
 `expression` - A variable that represents a [ApiDateForm](../ApiDateForm.md) class.
 

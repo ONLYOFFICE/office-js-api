@@ -4,7 +4,9 @@ Sets the label attribute to the current container.
 
 ## Syntax
 
+```javascript
 expression.SetLabel(sLabel);
+```
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 

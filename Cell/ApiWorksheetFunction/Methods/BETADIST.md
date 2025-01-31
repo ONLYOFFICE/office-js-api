@@ -4,7 +4,9 @@ Returns the cumulative beta probability density function.
 
 ## Syntax
 
+```javascript
 expression.BETADIST(arg1, arg2, arg3, arg4, arg5);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

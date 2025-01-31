@@ -4,7 +4,9 @@ Inserts a paragraph at the specified position.
 
 ## Syntax
 
+```javascript
 expression.InsertParagraph(paragraph, sPosition, beRNewPara);
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 

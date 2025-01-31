@@ -4,7 +4,9 @@ Returns the slide height in English measure units.
 
 ## Syntax
 
+```javascript
 expression.GetHeight();
+```
 
 `expression` - A variable that represents a [ApiSlide](../ApiSlide.md) class.
 

@@ -4,7 +4,9 @@ Pastes the Range object to the specified range using the special paste options.
 
 ## Syntax
 
+```javascript
 expression.PasteSpecial(sPasteType, sPasteSpecialOperation, bSkipBlanks, bTranspose);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

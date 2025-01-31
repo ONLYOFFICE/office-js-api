@@ -4,7 +4,9 @@ Saves changes to the specified document.
 
 ## Syntax
 
+```javascript
 expression.Save();
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

@@ -4,7 +4,9 @@ Returns an array of all slide masters from the current presentation.
 
 ## Syntax
 
+```javascript
 expression.GetAllSlideMasters();
+```
 
 `expression` - A variable that represents a [ApiPresentation](../ApiPresentation.md) class.
 

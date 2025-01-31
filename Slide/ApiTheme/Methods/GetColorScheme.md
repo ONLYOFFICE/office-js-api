@@ -4,7 +4,9 @@ Returns the color scheme of the current theme.
 
 ## Syntax
 
+```javascript
 expression.GetColorScheme();
+```
 
 `expression` - A variable that represents a [ApiTheme](../ApiTheme.md) class.
 

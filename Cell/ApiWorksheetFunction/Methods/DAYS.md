@@ -4,7 +4,9 @@ Returns the number of days between the two dates.
 
 ## Syntax
 
+```javascript
 expression.DAYS(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

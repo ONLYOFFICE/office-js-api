@@ -4,7 +4,9 @@ Returns the character specified by the code number from your computer's characte
 
 ## Syntax
 
+```javascript
 expression.CHAR(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

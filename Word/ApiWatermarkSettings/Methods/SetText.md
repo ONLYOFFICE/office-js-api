@@ -4,7 +4,9 @@ Sets the text of the watermark in the document.
 
 ## Syntax
 
+```javascript
 expression.SetText(sText);
+```
 
 `expression` - A variable that represents a [ApiWatermarkSettings](../ApiWatermarkSettings.md) class.
 

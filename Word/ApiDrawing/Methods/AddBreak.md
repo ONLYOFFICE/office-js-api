@@ -4,7 +4,9 @@ Inserts a break at the specified location in the main document.
 
 ## Syntax
 
+```javascript
 expression.AddBreak(breakType, position);
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 

@@ -4,7 +4,9 @@ Sets the source range for the pivot table.
 
 ## Syntax
 
+```javascript
 expression.SetSource(source);
+```
 
 `expression` - A variable that represents a [ApiPivotTable](../ApiPivotTable.md) class.
 

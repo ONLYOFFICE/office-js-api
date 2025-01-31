@@ -4,7 +4,9 @@ Returns the text properties of the watermark in the document.
 
 ## Syntax
 
+```javascript
 expression.GetTextPr();
+```
 
 `expression` - A variable that represents a [ApiWatermarkSettings](../ApiWatermarkSettings.md) class.
 

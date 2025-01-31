@@ -4,7 +4,9 @@ Returns the numbering definition.
 
 ## Syntax
 
+```javascript
 expression.GetNumbering();
+```
 
 `expression` - A variable that represents a [ApiNumberingLevel](../ApiNumberingLevel.md) class.
 

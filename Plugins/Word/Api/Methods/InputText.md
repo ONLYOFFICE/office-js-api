@@ -4,7 +4,9 @@ Inserts text into the document.
 
 ## Syntax
 
+```javascript
 expression.InputText(text, textReplace);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

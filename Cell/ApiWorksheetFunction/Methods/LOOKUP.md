@@ -4,7 +4,9 @@ Looks up a value either from a one-row or one-column range. Provided for backwar
 
 ## Syntax
 
+```javascript
 expression.LOOKUP(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

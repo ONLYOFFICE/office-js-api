@@ -4,7 +4,9 @@ Clears the pivot table.
 
 ## Syntax
 
+```javascript
 expression.ClearTable();
+```
 
 `expression` - A variable that represents a [ApiPivotTable](../ApiPivotTable.md) class.
 

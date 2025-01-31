@@ -4,7 +4,9 @@ Returns the number of rows in a range.
 
 ## Syntax
 
+```javascript
 expression.ROWS(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

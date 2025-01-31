@@ -4,7 +4,9 @@ Converts the ApiDrawing object into the JSON object.
 
 ## Syntax
 
+```javascript
 expression.ToJSON(bWriteNumberings, bWriteStyles);
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 

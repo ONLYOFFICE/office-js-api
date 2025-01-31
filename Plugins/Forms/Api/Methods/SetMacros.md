@@ -4,7 +4,9 @@ Sets macros to the document.
 
 ## Syntax
 
+```javascript
 expression.SetMacros(data);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

@@ -4,7 +4,9 @@ Extracts the substring from the specified string starting from the left characte
 
 ## Syntax
 
+```javascript
 expression.LEFTB(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

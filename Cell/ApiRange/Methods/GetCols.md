@@ -4,7 +4,9 @@ Returns a Range object that represents the columns in the specified range.
 
 ## Syntax
 
+```javascript
 expression.GetCols(nCol);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

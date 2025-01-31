@@ -4,7 +4,9 @@ Returns the largest value in a set of values. Ignores logical values and text.
 
 ## Syntax
 
+```javascript
 expression.MAX(args);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

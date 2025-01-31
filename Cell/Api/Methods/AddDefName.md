@@ -4,7 +4,9 @@ Adds a new name to a range of cells.
 
 ## Syntax
 
+```javascript
 expression.AddDefName(sName, sRef, isHidden);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

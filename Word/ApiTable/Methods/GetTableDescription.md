@@ -4,7 +4,9 @@ Returns the table description.
 
 ## Syntax
 
+```javascript
 expression.GetTableDescription();
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 

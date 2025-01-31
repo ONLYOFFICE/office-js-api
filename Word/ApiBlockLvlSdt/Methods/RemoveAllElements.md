@@ -4,7 +4,9 @@ Clears the contents from the current content control.
 
 ## Syntax
 
+```javascript
 expression.RemoveAllElements();
+```
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 

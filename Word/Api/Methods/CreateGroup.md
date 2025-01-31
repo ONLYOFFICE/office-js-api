@@ -4,7 +4,9 @@ Groups an array of drawings.
 
 ## Syntax
 
+```javascript
 expression.CreateGroup(drawings);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

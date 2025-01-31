@@ -4,7 +4,9 @@ Returns a list of values of the combo box / dropdown list content control.
 
 ## Syntax
 
+```javascript
 expression.GetDropdownList();
+```
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 

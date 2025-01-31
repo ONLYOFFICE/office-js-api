@@ -4,7 +4,9 @@ Returns the prorated linear depreciation of an asset for each accounting period.
 
 ## Syntax
 
+```javascript
 expression.AMORLINC(arg1, arg2, arg3, arg4, arg5, arg6, arg7);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

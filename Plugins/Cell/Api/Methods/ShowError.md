@@ -4,7 +4,9 @@ Shows an error/warning message.
 
 ## Syntax
 
+```javascript
 expression.ShowError(error, level);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

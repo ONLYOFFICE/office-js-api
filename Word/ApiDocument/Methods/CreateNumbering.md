@@ -4,7 +4,9 @@ Creates an abstract multilevel numbering with a specified type.
 
 ## Syntax
 
+```javascript
 expression.CreateNumbering(sType);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

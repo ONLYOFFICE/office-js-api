@@ -6,7 +6,9 @@ to the whole block rather than to every paragraph in this block.
 
 ## Syntax
 
+```javascript
 expression.SetBottomBorder(sType, nSize, nSpace, r, g, b);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

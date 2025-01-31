@@ -4,7 +4,9 @@ Returns the placeholder type.
 
 ## Syntax
 
+```javascript
 expression.GetType();
+```
 
 `expression` - A variable that represents a [ApiPlaceholder](../ApiPlaceholder.md) class.
 

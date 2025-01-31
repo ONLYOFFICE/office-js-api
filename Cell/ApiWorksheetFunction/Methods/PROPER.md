@@ -4,7 +4,9 @@ Converts a text string to proper case: the first letter in each word to uppercas
 
 ## Syntax
 
+```javascript
 expression.PROPER(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

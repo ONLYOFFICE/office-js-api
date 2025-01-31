@@ -4,7 +4,9 @@ Clears all custom functions.
 
 ## Syntax
 
+```javascript
 expression.ClearCustomFunctions();
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

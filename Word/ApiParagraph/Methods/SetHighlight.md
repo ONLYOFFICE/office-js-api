@@ -4,7 +4,9 @@ Specifies a highlighting color which is applied as a background to the contents 
 
 ## Syntax
 
+```javascript
 expression.SetHighlight(sColor);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

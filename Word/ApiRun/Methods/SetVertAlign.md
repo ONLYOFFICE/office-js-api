@@ -7,7 +7,9 @@ Specifies the alignment which will be applied to the contents of the run in rela
 
 ## Syntax
 
+```javascript
 expression.SetVertAlign(sType);
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 

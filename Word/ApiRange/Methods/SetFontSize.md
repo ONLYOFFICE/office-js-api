@@ -4,7 +4,9 @@ Sets the font size to the characters of the current text Range.
 
 ## Syntax
 
+```javascript
 expression.SetFontSize(FontSize);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

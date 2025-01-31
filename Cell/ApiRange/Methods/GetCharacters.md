@@ -4,7 +4,9 @@ Returns the ApiCharacters object that represents a range of characters within th
 
 ## Syntax
 
+```javascript
 expression.GetCharacters(Start, Length);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

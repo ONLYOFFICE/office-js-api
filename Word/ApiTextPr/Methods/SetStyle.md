@@ -6,7 +6,9 @@ the selected or created style to the text.
 
 ## Syntax
 
+```javascript
 expression.SetStyle(oStyle);
+```
 
 `expression` - A variable that represents a [ApiTextPr](../ApiTextPr.md) class.
 

@@ -4,7 +4,9 @@ Edits an OLE object in the document.
 
 ## Syntax
 
+```javascript
 expression.EditOleObject(data);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

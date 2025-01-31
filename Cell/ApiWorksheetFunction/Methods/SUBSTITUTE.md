@@ -4,7 +4,9 @@ Replaces existing text with new text in a text string.
 
 ## Syntax
 
+```javascript
 expression.SUBSTITUTE(arg1, arg2, arg3, arg4);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

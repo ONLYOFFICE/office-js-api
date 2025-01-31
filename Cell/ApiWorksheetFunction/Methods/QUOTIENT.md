@@ -4,7 +4,9 @@ Returns the integer portion of a division.
 
 ## Syntax
 
+```javascript
 expression.QUOTIENT(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

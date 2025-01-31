@@ -4,7 +4,9 @@ Estimates the standard deviation based on a sample from the selected database en
 
 ## Syntax
 
+```javascript
 expression.DSTDEV(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

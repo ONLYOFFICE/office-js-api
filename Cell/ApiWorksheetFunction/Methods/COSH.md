@@ -4,7 +4,9 @@ Returns the hyperbolic cosine of a number.
 
 ## Syntax
 
+```javascript
 expression.COSH(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

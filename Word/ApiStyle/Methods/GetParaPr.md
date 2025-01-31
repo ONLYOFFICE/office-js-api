@@ -4,7 +4,9 @@ Returns the paragraph properties of the current style.
 
 ## Syntax
 
+```javascript
 expression.GetParaPr();
+```
 
 `expression` - A variable that represents a [ApiStyle](../ApiStyle.md) class.
 

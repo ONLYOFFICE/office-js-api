@@ -4,7 +4,9 @@ Returns a paragraph from all the paragraphs that are in the range.
 
 ## Syntax
 
+```javascript
 expression.GetParagraph(nPos);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

@@ -4,7 +4,9 @@ Returns the internal rate of return for a series of cash flows.
 
 ## Syntax
 
+```javascript
 expression.IRR(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

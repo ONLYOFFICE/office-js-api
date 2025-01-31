@@ -4,7 +4,9 @@ Returns an array with all the OLE objects from the slide.
 
 ## Syntax
 
+```javascript
 expression.GetAllOleObjects();
+```
 
 `expression` - A variable that represents a [ApiSlide](../ApiSlide.md) class.
 

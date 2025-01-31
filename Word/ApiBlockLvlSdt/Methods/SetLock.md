@@ -7,7 +7,9 @@ Sets the lock to the current block text content control:
 
 ## Syntax
 
+```javascript
 expression.SetLock(lockType);
+```
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 

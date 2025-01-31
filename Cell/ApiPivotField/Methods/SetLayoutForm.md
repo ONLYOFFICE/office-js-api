@@ -4,7 +4,9 @@ Sets the way the specified pivot table items appear — in table format or in ou
 
 ## Syntax
 
+```javascript
 expression.SetLayoutForm(type);
+```
 
 `expression` - A variable that represents a [ApiPivotField](../ApiPivotField.md) class.
 

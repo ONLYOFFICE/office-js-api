@@ -4,7 +4,9 @@ Creates a solid fill to apply to the object using a selected solid color as the 
 
 ## Syntax
 
+```javascript
 expression.CreateSolidFill(uniColor);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

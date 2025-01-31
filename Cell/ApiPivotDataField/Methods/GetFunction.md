@@ -4,7 +4,9 @@ Returns a function performed in the data field.
 
 ## Syntax
 
+```javascript
 expression.GetFunction();
+```
 
 `expression` - A variable that represents a [ApiPivotDataField](../ApiPivotDataField.md) class.
 

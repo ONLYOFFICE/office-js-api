@@ -4,7 +4,9 @@ Creates a duplicate of the specified slide layout object, adds the new slide lay
 
 ## Syntax
 
+```javascript
 expression.Duplicate(nPos);
+```
 
 `expression` - A variable that represents a [ApiLayout](../ApiLayout.md) class.
 

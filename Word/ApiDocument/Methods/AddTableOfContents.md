@@ -5,7 +5,9 @@ Adds a table of content to the current document.
 
 ## Syntax
 
+```javascript
 expression.AddTableOfContents(oTocPr);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

@@ -5,7 +5,9 @@ Text and the **false** logical value have the value 0; the **true** logical valu
 
 ## Syntax
 
+```javascript
 expression.STDEVPA(args);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

@@ -4,7 +4,9 @@ Merges the selected cell range into a single cell or a cell row.
 
 ## Syntax
 
+```javascript
 expression.Merge(isAcross);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

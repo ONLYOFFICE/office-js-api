@@ -4,7 +4,9 @@ Returns all drawings from the current sheet.
 
 ## Syntax
 
+```javascript
 expression.GetAllDrawings();
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

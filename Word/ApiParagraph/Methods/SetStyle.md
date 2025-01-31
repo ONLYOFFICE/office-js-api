@@ -5,7 +5,9 @@ The paragraph style base method.
 
 ## Syntax
 
+```javascript
 expression.SetStyle(oStyle);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

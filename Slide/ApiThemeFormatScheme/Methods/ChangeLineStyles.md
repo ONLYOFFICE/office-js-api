@@ -4,7 +4,9 @@ Sets the line styles to the current theme format scheme.
 
 ## Syntax
 
+```javascript
 expression.ChangeLineStyles(arrLine);
+```
 
 `expression` - A variable that represents a [ApiThemeFormatScheme](../ApiThemeFormatScheme.md) class.
 

@@ -4,7 +4,9 @@ Creates a picture form with the specified picture form properties.
 
 ## Syntax
 
+```javascript
 expression.CreatePictureForm(oFormPr);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

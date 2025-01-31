@@ -4,7 +4,9 @@ Returns a number of elements in the current hyperlink.
 
 ## Syntax
 
+```javascript
 expression.GetElementsCount();
+```
 
 `expression` - A variable that represents a [ApiHyperlink](../ApiHyperlink.md) class.
 

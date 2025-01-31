@@ -4,7 +4,9 @@ Returns the number of whole workdays between two dates with custom weekend param
 
 ## Syntax
 
+```javascript
 expression.NETWORKDAYS_INTL(arg1, arg2, arg3, arg4);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

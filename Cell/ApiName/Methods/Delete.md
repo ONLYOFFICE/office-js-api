@@ -4,7 +4,9 @@ Deletes the DefName object.
 
 ## Syntax
 
+```javascript
 expression.Delete();
+```
 
 `expression` - A variable that represents a [ApiName](../ApiName.md) class.
 

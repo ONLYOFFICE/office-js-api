@@ -4,7 +4,9 @@ Specifies an amount of space which will be left between the right extent of the 
 
 ## Syntax
 
+```javascript
 expression.SetCellMarginRight(nValue);
+```
 
 `expression` - A variable that represents a [ApiTableCellPr](../ApiTableCellPr.md) class.
 

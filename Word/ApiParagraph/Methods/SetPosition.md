@@ -5,7 +5,9 @@ baseline of the surrounding non-positioned text.
 
 ## Syntax
 
+```javascript
 expression.SetPosition(nPosition);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

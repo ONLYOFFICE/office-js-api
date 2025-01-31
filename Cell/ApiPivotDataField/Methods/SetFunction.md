@@ -4,7 +4,9 @@ Sets a function to the current data field.
 
 ## Syntax
 
+```javascript
 expression.SetFunction(func);
+```
 
 `expression` - A variable that represents a [ApiPivotDataField](../ApiPivotDataField.md) class.
 

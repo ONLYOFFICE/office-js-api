@@ -4,7 +4,9 @@ Returns the sum of a power series based on the formula.
 
 ## Syntax
 
+```javascript
 expression.SERIESSUM(arg1, arg2, arg3, arg4);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

@@ -4,7 +4,9 @@ Returns the future value of an initial principal after applying a series of comp
 
 ## Syntax
 
+```javascript
 expression.FVSCHEDULE(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

@@ -4,7 +4,9 @@ Adds the row, column, and page fields to the pivot table report.
 
 ## Syntax
 
+```javascript
 expression.AddFields(options);
+```
 
 `expression` - A variable that represents a [ApiPivotTable](../ApiPivotTable.md) class.
 

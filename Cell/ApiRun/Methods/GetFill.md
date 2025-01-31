@@ -4,7 +4,9 @@ Gets the text color from the current text properties.
 
 ## Syntax
 
+```javascript
 expression.GetFill();
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 

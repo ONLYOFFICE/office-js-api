@@ -4,7 +4,9 @@ Creates a date form with the specified date form properties.
 
 ## Syntax
 
+```javascript
 expression.CreateDateForm(oFormPr);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

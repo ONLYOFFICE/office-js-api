@@ -4,7 +4,9 @@ Returns the ISO week number in the year for a given date.
 
 ## Syntax
 
+```javascript
 expression.ISOWEEKNUM(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

@@ -4,7 +4,9 @@ Returns the last document element.
 
 ## Syntax
 
+```javascript
 expression.Last();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

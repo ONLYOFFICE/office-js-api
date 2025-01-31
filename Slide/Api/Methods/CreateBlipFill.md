@@ -4,7 +4,9 @@ Creates a blip fill to apply to the object using the selected image as the objec
 
 ## Syntax
 
+```javascript
 expression.CreateBlipFill(imageUrl, blipFillType);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

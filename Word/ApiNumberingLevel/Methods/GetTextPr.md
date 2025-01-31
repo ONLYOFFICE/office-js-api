@@ -5,7 +5,9 @@ Specifies the text properties which will be applied to the text in the current n
 
 ## Syntax
 
+```javascript
 expression.GetTextPr();
+```
 
 `expression` - A variable that represents a [ApiNumberingLevel](../ApiNumberingLevel.md) class.
 

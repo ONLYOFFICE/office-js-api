@@ -4,7 +4,9 @@ Returns the ApiRange object that represents all the cells on the rows range.
 
 ## Syntax
 
+```javascript
 expression.GetRows(value);
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

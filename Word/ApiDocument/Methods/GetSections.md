@@ -4,7 +4,9 @@ Returns a collection of section objects in the document.
 
 ## Syntax
 
+```javascript
 expression.GetSections();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

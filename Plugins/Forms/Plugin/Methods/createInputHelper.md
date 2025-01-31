@@ -4,7 +4,9 @@ Defines the method used to create an &#123;@link inputhelper input helper&#125; 
 
 ## Syntax
 
+```javascript
 expression.createInputHelper();
+```
 
 `expression` - A variable that represents a [Plugin](../Plugin.md) class.
 

@@ -4,7 +4,9 @@ Adds the new columns to the current table.
 
 ## Syntax
 
+```javascript
 expression.AddColumns(nCount, isBefore);
+```
 
 `expression` - A variable that represents a [ApiTableCell](../ApiTableCell.md) class.
 

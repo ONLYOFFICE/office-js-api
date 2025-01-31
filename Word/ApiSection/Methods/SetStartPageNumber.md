@@ -4,7 +4,9 @@ Sets the start page number for the specified section.
 
 ## Syntax
 
+```javascript
 expression.SetStartPageNumber(nStartNumber);
+```
 
 `expression` - A variable that represents a [ApiSection](../ApiSection.md) class.
 

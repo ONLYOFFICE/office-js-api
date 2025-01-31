@@ -4,7 +4,9 @@ Returns the sum-of-years' digits depreciation of an asset for a specified period
 
 ## Syntax
 
+```javascript
 expression.SYD(arg1, arg2, arg3, arg4);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

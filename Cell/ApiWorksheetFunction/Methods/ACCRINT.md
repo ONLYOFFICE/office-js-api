@@ -4,7 +4,9 @@ Returns the accrued interest for a security that pays periodic interest.
 
 ## Syntax
 
+```javascript
 expression.ACCRINT(arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

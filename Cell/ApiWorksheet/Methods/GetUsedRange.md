@@ -4,7 +4,9 @@ Returns the ApiRange object that represents the used range on the specified work
 
 ## Syntax
 
+```javascript
 expression.GetUsedRange();
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

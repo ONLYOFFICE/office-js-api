@@ -4,7 +4,9 @@ Returns a collection of chart objects from the document content.
 
 ## Syntax
 
+```javascript
 expression.GetAllCharts();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

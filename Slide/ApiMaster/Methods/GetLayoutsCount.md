@@ -4,7 +4,9 @@ Returns a number of layout objects.
 
 ## Syntax
 
+```javascript
 expression.GetLayoutsCount();
+```
 
 `expression` - A variable that represents a [ApiMaster](../ApiMaster.md) class.
 

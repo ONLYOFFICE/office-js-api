@@ -4,7 +4,9 @@ Returns the main document.
 
 ## Syntax
 
+```javascript
 expression.GetDocument();
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

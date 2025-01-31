@@ -4,7 +4,9 @@ Tests whether a number is greater than a threshold value. The function returns 1
 
 ## Syntax
 
+```javascript
 expression.GESTEP(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

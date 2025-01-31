@@ -4,7 +4,9 @@ Sets the image URL of the watermark in the document.
 
 ## Syntax
 
+```javascript
 expression.SetImageURL(sURL);
+```
 
 `expression` - A variable that represents a [ApiWatermarkSettings](../ApiWatermarkSettings.md) class.
 

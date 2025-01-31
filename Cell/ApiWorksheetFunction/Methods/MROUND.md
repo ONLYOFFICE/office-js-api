@@ -4,7 +4,9 @@ Returns a number rounded to the desired multiple.
 
 ## Syntax
 
+```javascript
 expression.MROUND(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

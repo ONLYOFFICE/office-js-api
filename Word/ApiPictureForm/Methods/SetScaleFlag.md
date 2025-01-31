@@ -4,7 +4,9 @@ Sets the scaling condition to the current picture form.
 
 ## Syntax
 
+```javascript
 expression.SetScaleFlag(sScaleFlag);
+```
 
 `expression` - A variable that represents a [ApiPictureForm](../ApiPictureForm.md) class.
 

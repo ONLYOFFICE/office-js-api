@@ -4,7 +4,9 @@ Clears all forms in the document.
 
 ## Syntax
 
+```javascript
 expression.ClearAllFields();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

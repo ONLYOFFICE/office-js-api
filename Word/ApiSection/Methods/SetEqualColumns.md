@@ -4,7 +4,9 @@ Specifies that all the text columns in the current section are of equal width.
 
 ## Syntax
 
+```javascript
 expression.SetEqualColumns(nCount, nSpace);
+```
 
 `expression` - A variable that represents a [ApiSection](../ApiSection.md) class.
 

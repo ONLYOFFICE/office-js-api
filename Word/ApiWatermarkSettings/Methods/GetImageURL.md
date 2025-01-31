@@ -4,7 +4,9 @@ Returns the image URL of the watermark in the document.
 
 ## Syntax
 
+```javascript
 expression.GetImageURL();
+```
 
 `expression` - A variable that represents a [ApiWatermarkSettings](../ApiWatermarkSettings.md) class.
 

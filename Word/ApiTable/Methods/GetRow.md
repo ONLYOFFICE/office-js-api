@@ -4,7 +4,9 @@ Returns a table row by its position in the table.
 
 ## Syntax
 
+```javascript
 expression.GetRow(nPos);
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 

@@ -4,7 +4,9 @@ Returns a bookmark range.
 
 ## Syntax
 
+```javascript
 expression.GetBookmarkRange(sName);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

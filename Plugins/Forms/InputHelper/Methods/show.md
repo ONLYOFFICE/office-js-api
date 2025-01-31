@@ -4,7 +4,9 @@ Shows an input helper.
 
 ## Syntax
 
+```javascript
 expression.show(width, height, isCaptureKeyboard);
+```
 
 `expression` - A variable that represents a [InputHelper](../InputHelper.md) class.
 

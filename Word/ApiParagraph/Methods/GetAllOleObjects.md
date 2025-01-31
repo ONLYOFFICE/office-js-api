@@ -4,7 +4,9 @@ Returns a collection of OLE objects in the paragraph.
 
 ## Syntax
 
+```javascript
 expression.GetAllOleObjects();
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

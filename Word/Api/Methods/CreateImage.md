@@ -4,7 +4,9 @@ Creates an image with the parameters specified.
 
 ## Syntax
 
+```javascript
 expression.CreateImage(imageSrc, width, height);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

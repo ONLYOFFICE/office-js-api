@@ -5,7 +5,9 @@ partly rendered on the same page as the following paragraph whenever possible.
 
 ## Syntax
 
+```javascript
 expression.SetKeepNext(isKeepNext);
+```
 
 `expression` - A variable that represents a [ApiParaPr](../ApiParaPr.md) class.
 

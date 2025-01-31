@@ -5,7 +5,9 @@ Can't be set to checkbox or radio button.*
 
 ## Syntax
 
+```javascript
 expression.SetPlaceholderText(sText);
+```
 
 `expression` - A variable that represents a [ApiDateForm](../ApiDateForm.md) class.
 

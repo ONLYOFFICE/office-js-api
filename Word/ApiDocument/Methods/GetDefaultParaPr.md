@@ -4,7 +4,9 @@ Returns a set of default paragraph properties in the current document.
 
 ## Syntax
 
+```javascript
 expression.GetDefaultParaPr();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

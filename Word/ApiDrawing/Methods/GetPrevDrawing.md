@@ -4,7 +4,9 @@ Returns the previous inline drawing object if exists.
 
 ## Syntax
 
+```javascript
 expression.GetPrevDrawing();
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 

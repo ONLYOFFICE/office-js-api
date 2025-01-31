@@ -4,7 +4,9 @@ Counts a number of cells in a range that are not empty.
 
 ## Syntax
 
+```javascript
 expression.COUNTA(args);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

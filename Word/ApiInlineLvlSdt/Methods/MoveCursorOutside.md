@@ -4,7 +4,9 @@ Places a cursor before/after the current content control.
 
 ## Syntax
 
+```javascript
 expression.MoveCursorOutside(isAfter);
+```
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 

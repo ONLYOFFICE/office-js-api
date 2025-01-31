@@ -4,7 +4,9 @@ Sets the bullet or numbering to the current paragraph.
 
 ## Syntax
 
+```javascript
 expression.SetBullet(oBullet);
+```
 
 `expression` - A variable that represents a [ApiParaPr](../ApiParaPr.md) class.
 

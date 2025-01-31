@@ -4,7 +4,9 @@ Converts the ApiUniColor object into the JSON object.
 
 ## Syntax
 
+```javascript
 expression.ToJSON();
+```
 
 `expression` - A variable that represents a [ApiUniColor](../ApiUniColor.md) class.
 

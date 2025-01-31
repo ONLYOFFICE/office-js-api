@@ -4,7 +4,9 @@ Returns the comment text.
 
 ## Syntax
 
+```javascript
 expression.GetText();
+```
 
 `expression` - A variable that represents a [ApiComment](../ApiComment.md) class.
 

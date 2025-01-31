@@ -4,7 +4,9 @@ Returns an item of the combo box / dropdown list content control by the position
 
 ## Syntax
 
+```javascript
 expression.GetItem(nIndex);
+```
 
 `expression` - A variable that represents a [ApiContentControlList](../ApiContentControlList.md) class.
 

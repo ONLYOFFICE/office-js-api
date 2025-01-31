@@ -4,7 +4,9 @@ Sets the border which will be displayed to the right of the current table cell.
 
 ## Syntax
 
+```javascript
 expression.SetCellBorderRight(sType, nSize, nSpace, r, g, b);
+```
 
 `expression` - A variable that represents a [ApiTableCell](../ApiTableCell.md) class.
 

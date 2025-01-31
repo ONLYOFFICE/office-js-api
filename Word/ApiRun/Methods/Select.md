@@ -4,7 +4,9 @@ Selects the current run.
 
 ## Syntax
 
+```javascript
 expression.Select();
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 

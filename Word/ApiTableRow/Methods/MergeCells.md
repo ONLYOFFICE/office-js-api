@@ -4,7 +4,9 @@ Merges the cells in the current row.
 
 ## Syntax
 
+```javascript
 expression.MergeCells();
+```
 
 `expression` - A variable that represents a [ApiTableRow](../ApiTableRow.md) class.
 

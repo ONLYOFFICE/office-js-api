@@ -4,7 +4,9 @@ Sets the text color to the current text run.
 
 ## Syntax
 
+```javascript
 expression.SetFill(oApiFill);
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 

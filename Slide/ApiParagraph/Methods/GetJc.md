@@ -4,7 +4,9 @@ Returns the paragraph contents justification.
 
 ## Syntax
 
+```javascript
 expression.GetJc();
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

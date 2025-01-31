@@ -4,7 +4,9 @@ Returns the next inline image if exists.
 
 ## Syntax
 
+```javascript
 expression.GetNextImage();
+```
 
 `expression` - A variable that represents a [ApiImage](../ApiImage.md) class.
 

@@ -4,7 +4,9 @@ Converts a number to text, using a currency format $#.##.
 
 ## Syntax
 
+```javascript
 expression.DOLLAR(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

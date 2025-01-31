@@ -4,7 +4,9 @@ Specifies whether the current sheet row/column headers must be printed or not.
 
 ## Syntax
 
+```javascript
 expression.SetPrintHeadings(bPrint);
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

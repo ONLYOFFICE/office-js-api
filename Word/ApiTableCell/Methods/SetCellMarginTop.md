@@ -5,7 +5,9 @@ and the border of a specific table cell within a table.
 
 ## Syntax
 
+```javascript
 expression.SetCellMarginTop(nValue);
+```
 
 `expression` - A variable that represents a [ApiTableCell](../ApiTableCell.md) class.
 

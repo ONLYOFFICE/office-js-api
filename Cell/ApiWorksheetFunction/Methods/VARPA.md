@@ -4,7 +4,9 @@ Calculates variance based on the entire population, including logical values and
 
 ## Syntax
 
+```javascript
 expression.VARPA(args);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

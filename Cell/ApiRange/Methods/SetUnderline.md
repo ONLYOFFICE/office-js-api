@@ -4,7 +4,9 @@ Specifies that the contents of the current cell / cell range are displayed along
 
 ## Syntax
 
+```javascript
 expression.SetUnderline(undelineType);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

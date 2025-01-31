@@ -5,7 +5,9 @@ of the parent table (all horizontal borders which are not the topmost or bottomm
 
 ## Syntax
 
+```javascript
 expression.SetTableBorderInsideH(sType, nSize, nSpace, r, g, b);
+```
 
 `expression` - A variable that represents a [ApiTablePr](../ApiTablePr.md) class.
 

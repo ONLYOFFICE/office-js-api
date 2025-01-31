@@ -4,7 +4,9 @@ Sets a key to the current form.
 
 ## Syntax
 
+```javascript
 expression.SetFormKey(sKey);
+```
 
 `expression` - A variable that represents a [ApiTextForm](../ApiTextForm.md) class.
 

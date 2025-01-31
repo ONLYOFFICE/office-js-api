@@ -5,7 +5,9 @@ Sets the font color property to the specified font.
 
 ## Syntax
 
+```javascript
 expression.SetColor(Color);
+```
 
 `expression` - A variable that represents a [ApiFont](../ApiFont.md) class.
 

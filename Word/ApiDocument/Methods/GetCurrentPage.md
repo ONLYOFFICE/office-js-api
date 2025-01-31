@@ -4,7 +4,9 @@ Returns the index of the current page.
 
 ## Syntax
 
+```javascript
 expression.GetCurrentPage();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

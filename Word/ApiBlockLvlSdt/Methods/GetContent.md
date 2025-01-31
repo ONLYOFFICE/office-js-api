@@ -4,7 +4,9 @@ Returns the content of the current container.
 
 ## Syntax
 
+```javascript
 expression.GetContent();
+```
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 

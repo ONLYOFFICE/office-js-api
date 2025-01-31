@@ -4,7 +4,9 @@ Unshows the input helper.
 
 ## Syntax
 
+```javascript
 expression.UnShowInputHelper(guid, isclear);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

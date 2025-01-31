@@ -4,7 +4,9 @@ Converts a date in the form of text to a number that represents the date in the 
 
 ## Syntax
 
+```javascript
 expression.DATEVALUE(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

@@ -4,7 +4,9 @@ Returns the range address.
 
 ## Syntax
 
+```javascript
 expression.GetAddress(RowAbs, ColAbs, RefStyle, External, RelativeTo);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

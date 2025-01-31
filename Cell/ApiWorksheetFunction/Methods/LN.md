@@ -4,7 +4,9 @@ Returns the natural logarithm of a number.
 
 ## Syntax
 
+```javascript
 expression.LN(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

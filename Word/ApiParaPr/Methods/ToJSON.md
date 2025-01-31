@@ -4,7 +4,9 @@ Converts the ApiParaPr object into the JSON object.
 
 ## Syntax
 
+```javascript
 expression.ToJSON(bWriteStyles);
+```
 
 `expression` - A variable that represents a [ApiParaPr](../ApiParaPr.md) class.
 

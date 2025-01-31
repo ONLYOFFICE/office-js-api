@@ -4,7 +4,9 @@ Wraps the graphic object with a rich text content control.
 
 ## Syntax
 
+```javascript
 expression.InsertInContentControl(nType);
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 

@@ -4,7 +4,9 @@ Returns the text properties of the current style.
 
 ## Syntax
 
+```javascript
 expression.GetTextPr();
+```
 
 `expression` - A variable that represents a [ApiStyle](../ApiStyle.md) class.
 

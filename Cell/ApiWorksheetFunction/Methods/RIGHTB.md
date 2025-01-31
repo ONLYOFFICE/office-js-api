@@ -4,7 +4,9 @@ Extracts a substring from a string starting from the right-most character, based
 
 ## Syntax
 
+```javascript
 expression.RIGHTB(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

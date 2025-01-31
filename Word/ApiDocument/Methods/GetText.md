@@ -4,7 +4,9 @@ Returns the inner text of the current document content object.
 
 ## Syntax
 
+```javascript
 expression.GetText(oProps, oProps.NewLine, oProps.NewLineParagraph, oProps.Numbering, oProps.Math, oProps.TableCellSeparator, oProps.TableRowSeparator, oProps.ParaSeparator, oProps.TabSymbol, oProps.NewLineSeparator);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

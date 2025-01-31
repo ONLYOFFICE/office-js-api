@@ -4,7 +4,9 @@ Gets the bold property from the current text properties.
 
 ## Syntax
 
+```javascript
 expression.GetBold();
+```
 
 `expression` - A variable that represents a [ApiTextPr](../ApiTextPr.md) class.
 

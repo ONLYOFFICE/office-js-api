@@ -4,7 +4,9 @@ Ungroups the current group of drawings.
 
 ## Syntax
 
+```javascript
 expression.Ungroup();
+```
 
 `expression` - A variable that represents a [ApiGroup](../ApiGroup.md) class.
 

@@ -4,7 +4,9 @@ Specifies the chart horizontal axis title.
 
 ## Syntax
 
+```javascript
 expression.SetHorAxisTitle(sTitle, nFontSize, bIsBold);
+```
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 

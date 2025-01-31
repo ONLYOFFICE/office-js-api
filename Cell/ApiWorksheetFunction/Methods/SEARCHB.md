@@ -4,7 +4,9 @@ Returns the location of the specified substring in a string and is intended for 
 
 ## Syntax
 
+```javascript
 expression.SEARCHB(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

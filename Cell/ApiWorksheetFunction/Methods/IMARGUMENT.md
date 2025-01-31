@@ -4,7 +4,9 @@ Returns the argument Theta, an angle expressed in radians.
 
 ## Syntax
 
+```javascript
 expression.IMARGUMENT(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

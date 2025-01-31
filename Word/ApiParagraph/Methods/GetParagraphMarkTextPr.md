@@ -5,7 +5,9 @@ common text properties like bold, italic, underline, etc.
 
 ## Syntax
 
+```javascript
 expression.GetParagraphMarkTextPr();
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

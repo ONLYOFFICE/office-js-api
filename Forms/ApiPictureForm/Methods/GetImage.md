@@ -4,7 +4,9 @@ Returns an image in the base64 format from the current picture form.
 
 ## Syntax
 
+```javascript
 expression.GetImage();
+```
 
 `expression` - A variable that represents a [ApiPictureForm](../ApiPictureForm.md) class.
 

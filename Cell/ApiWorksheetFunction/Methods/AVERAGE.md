@@ -4,7 +4,9 @@ Returns the average (arithmetic mean) of the specified arguments.
 
 ## Syntax
 
+```javascript
 expression.AVERAGE(args);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

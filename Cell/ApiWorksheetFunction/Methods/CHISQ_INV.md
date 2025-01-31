@@ -4,7 +4,9 @@ Returns the inverse of the left-tailed probability of the chi-squared distributi
 
 ## Syntax
 
+```javascript
 expression.CHISQ_INV(arg1, arg2-);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

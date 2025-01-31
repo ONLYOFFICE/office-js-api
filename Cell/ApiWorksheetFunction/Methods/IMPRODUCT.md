@@ -4,7 +4,9 @@ Returns the product of the specified complex numbers.
 
 ## Syntax
 
+```javascript
 expression.IMPRODUCT(args);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

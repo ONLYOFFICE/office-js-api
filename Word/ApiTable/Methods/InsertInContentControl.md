@@ -4,7 +4,9 @@ Wraps the current table object with a content control.
 
 ## Syntax
 
+```javascript
 expression.InsertInContentControl(nType);
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 

@@ -5,7 +5,9 @@ If there are no drawings selected, the method inserts the image at the current p
 
 ## Syntax
 
+```javascript
 expression.PutImageDataToSelection(oImageData);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

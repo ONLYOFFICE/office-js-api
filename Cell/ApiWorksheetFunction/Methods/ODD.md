@@ -4,7 +4,9 @@ Rounds a positive number up and negative number down to the nearest odd integer.
 
 ## Syntax
 
+```javascript
 expression.ODD(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

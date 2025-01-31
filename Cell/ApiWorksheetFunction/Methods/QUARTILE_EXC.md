@@ -4,7 +4,9 @@ Returns the quartile of a data set, based on percentile values from 0..1, exclus
 
 ## Syntax
 
+```javascript
 expression.QUARTILE_EXC(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

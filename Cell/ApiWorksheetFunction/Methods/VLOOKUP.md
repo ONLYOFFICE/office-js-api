@@ -4,7 +4,9 @@ Looks for a value in the leftmost column of a table and then returns a value in 
 
 ## Syntax
 
+```javascript
 expression.VLOOKUP(arg1, arg2, arg3, arg4);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

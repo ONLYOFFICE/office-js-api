@@ -4,7 +4,9 @@ Returns the **false** logical value.
 
 ## Syntax
 
+```javascript
 expression.FALSE();
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

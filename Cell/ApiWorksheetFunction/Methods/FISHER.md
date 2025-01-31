@@ -4,7 +4,9 @@ Returns the Fisher transformation.
 
 ## Syntax
 
+```javascript
 expression.FISHER(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

@@ -4,7 +4,9 @@ Returns the individual term binomial distribution probability.
 
 ## Syntax
 
+```javascript
 expression.BINOM_DIST(arg1, arg2, arg3, arg4);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

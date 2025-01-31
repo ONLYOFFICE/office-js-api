@@ -4,7 +4,9 @@ Checks if the current checkbox is a radio button.
 
 ## Syntax
 
+```javascript
 expression.IsRadioButton();
+```
 
 `expression` - A variable that represents a [ApiCheckBoxForm](../ApiCheckBoxForm.md) class.
 

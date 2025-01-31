@@ -4,7 +4,9 @@ Returns the gamma function value.
 
 ## Syntax
 
+```javascript
 expression.GAMMA(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

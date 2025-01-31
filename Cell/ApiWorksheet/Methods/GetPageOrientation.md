@@ -4,7 +4,9 @@ Returns the page orientation.
 
 ## Syntax
 
+```javascript
 expression.GetPageOrientation();
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

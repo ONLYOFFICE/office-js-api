@@ -4,7 +4,9 @@ Returns the net present value of an investment based on a discount rate and a se
 
 ## Syntax
 
+```javascript
 expression.NPV(arg1, args);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

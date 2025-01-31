@@ -4,7 +4,9 @@ Returns the arcsine of a number in radians, in the range from &lt;em&gt;-Pi/2&lt
 
 ## Syntax
 
+```javascript
 expression.ASIN(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

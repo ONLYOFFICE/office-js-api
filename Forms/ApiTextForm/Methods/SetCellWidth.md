@@ -4,7 +4,9 @@ Sets the cell width to the applied comb of characters.
 
 ## Syntax
 
+```javascript
 expression.SetCellWidth(nCellWidth);
+```
 
 `expression` - A variable that represents a [ApiTextForm](../ApiTextForm.md) class.
 

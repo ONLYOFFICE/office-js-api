@@ -4,7 +4,9 @@ Returns the height of the current drawing.
 
 ## Syntax
 
+```javascript
 expression.GetHeight();
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 

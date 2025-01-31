@@ -4,7 +4,9 @@ Returns an object that represents the selected range of the current sheet using 
 
 ## Syntax
 
+```javascript
 expression.GetRangeByNumber(nRow, nCol);
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

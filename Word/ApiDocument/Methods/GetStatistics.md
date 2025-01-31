@@ -9,7 +9,9 @@ Returns the document statistics represented as an object with the following para
 
 ## Syntax
 
+```javascript
 expression.GetStatistics();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

@@ -4,7 +4,9 @@ Returns the number of sheets in a reference.
 
 ## Syntax
 
+```javascript
 expression.SHEETS(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

@@ -4,7 +4,9 @@ Sets the height to the current table row within the current table.
 
 ## Syntax
 
+```javascript
 expression.SetHeight(sHRule, nValue);
+```
 
 `expression` - A variable that represents a [ApiTableRowPr](../ApiTableRowPr.md) class.
 

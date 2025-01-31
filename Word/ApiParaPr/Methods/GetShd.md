@@ -4,7 +4,9 @@ Returns the shading applied to the contents of the paragraph.
 
 ## Syntax
 
+```javascript
 expression.GetShd();
+```
 
 `expression` - A variable that represents a [ApiParaPr](../ApiParaPr.md) class.
 

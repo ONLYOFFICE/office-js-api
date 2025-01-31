@@ -4,7 +4,9 @@ Specifies the vertical axis orientation.
 
 ## Syntax
 
+```javascript
 expression.SetVerAxisOrientation(bIsMinMax);
+```
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 

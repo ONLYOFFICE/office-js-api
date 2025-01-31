@@ -4,7 +4,9 @@ Returns a number of cells in the current row.
 
 ## Syntax
 
+```javascript
 expression.GetCellsCount();
+```
 
 `expression` - A variable that represents a [ApiTableRow](../ApiTableRow.md) class.
 

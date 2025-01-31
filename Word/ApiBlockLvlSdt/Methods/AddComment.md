@@ -5,7 +5,9 @@ Adds a comment to the current block content control.
 
 ## Syntax
 
+```javascript
 expression.AddComment(text, author, userId);
+```
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 

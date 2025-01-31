@@ -4,7 +4,9 @@ Creates a pattern fill to apply to the object using the selected pattern as the 
 
 ## Syntax
 
+```javascript
 expression.CreatePatternFill(patternType, bgColor, fgColor);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

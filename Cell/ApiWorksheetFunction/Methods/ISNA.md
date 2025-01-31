@@ -4,7 +4,9 @@ Checks whether a value is &lt;em&gt;#N/A&lt;/em&gt;, and returns **true** or **f
 
 ## Syntax
 
+```javascript
 expression.ISNA(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

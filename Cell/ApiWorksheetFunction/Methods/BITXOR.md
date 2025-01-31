@@ -4,7 +4,9 @@ Returns a bitwise "XOR" (Exclusive Or) of two numbers.
 
 ## Syntax
 
+```javascript
 expression.BITXOR(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

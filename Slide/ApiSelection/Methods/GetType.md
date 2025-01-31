@@ -4,7 +4,9 @@ Returns the type of the current selection.
 
 ## Syntax
 
+```javascript
 expression.GetType();
+```
 
 `expression` - A variable that represents a [ApiSelection](../ApiSelection.md) class.
 

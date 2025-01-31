@@ -4,7 +4,9 @@ Sets the tip text to the current form.
 
 ## Syntax
 
+```javascript
 expression.SetTipText(sText);
+```
 
 `expression` - A variable that represents a [ApiCheckBoxForm](../ApiCheckBoxForm.md) class.
 

@@ -4,7 +4,9 @@ Calculates the payment for a loan based on constant payments and a constant inte
 
 ## Syntax
 
+```javascript
 expression.PMT(arg1, arg2, arg3, arg4, arg5);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

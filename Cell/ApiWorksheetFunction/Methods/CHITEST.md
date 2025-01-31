@@ -4,7 +4,9 @@ Returns the test for independence: the value from the chi-squared distribution f
 
 ## Syntax
 
+```javascript
 expression.CHITEST(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

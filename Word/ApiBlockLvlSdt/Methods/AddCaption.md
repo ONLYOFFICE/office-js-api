@@ -6,7 +6,9 @@ And if the current content control is placed in a shape, then a caption is added
 
 ## Syntax
 
+```javascript
 expression.AddCaption(additionalText, label, excludeLabel, numFormat, isBefore, headingLvl, captionSep);
+```
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 

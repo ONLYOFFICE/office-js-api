@@ -5,7 +5,9 @@ Deletes all the slides from the presentation if no parameters are specified.
 
 ## Syntax
 
+```javascript
 expression.RemoveSlides(nStart, nCount);
+```
 
 `expression` - A variable that represents a [ApiPresentation](../ApiPresentation.md) class.
 

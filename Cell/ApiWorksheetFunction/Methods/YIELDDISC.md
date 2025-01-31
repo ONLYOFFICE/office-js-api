@@ -4,7 +4,9 @@ Returns the annual yield for a discounted security. For example, a Treasury bill
 
 ## Syntax
 
+```javascript
 expression.YIELDDISC(arg1, arg2, arg3, arg4, arg5);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

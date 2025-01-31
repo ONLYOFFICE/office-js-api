@@ -4,7 +4,9 @@ Removes a content control and its content. If keepContent is true, the content i
 
 ## Syntax
 
+```javascript
 expression.Delete(keepContent);
+```
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 

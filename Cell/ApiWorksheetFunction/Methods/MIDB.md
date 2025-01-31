@@ -4,7 +4,9 @@ Extracts the characters from the specified string starting from any position and
 
 ## Syntax
 
+```javascript
 expression.MIDB(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

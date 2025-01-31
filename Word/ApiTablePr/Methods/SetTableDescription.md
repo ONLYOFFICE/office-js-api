@@ -4,7 +4,9 @@ Sets the table description.
 
 ## Syntax
 
+```javascript
 expression.SetTableDescription(sDescr);
+```
 
 `expression` - A variable that represents a [ApiTablePr](../ApiTablePr.md) class.
 

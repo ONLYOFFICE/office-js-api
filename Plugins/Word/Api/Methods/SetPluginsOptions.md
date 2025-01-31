@@ -5,7 +5,9 @@ For example, this method can be used to pass an authorization token to the plugi
 
 ## Syntax
 
+```javascript
 expression.SetPluginsOptions(options);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

@@ -4,7 +4,9 @@ Sends a message to the co-authoring chat.
 
 ## Syntax
 
+```javascript
 expression.CoAuthoringChatSendMessage(sText);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

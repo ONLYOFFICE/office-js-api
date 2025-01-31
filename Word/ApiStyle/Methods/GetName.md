@@ -4,7 +4,9 @@ Returns a name of the current style.
 
 ## Syntax
 
+```javascript
 expression.GetName();
+```
 
 `expression` - A variable that represents a [ApiStyle](../ApiStyle.md) class.
 

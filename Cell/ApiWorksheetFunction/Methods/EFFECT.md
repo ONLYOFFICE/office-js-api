@@ -4,7 +4,9 @@ Returns the effective annual interest rate.
 
 ## Syntax
 
+```javascript
 expression.EFFECT(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

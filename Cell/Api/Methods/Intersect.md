@@ -4,7 +4,9 @@ Returns the ApiRange object that represents the rectangular intersection of two 
 
 ## Syntax
 
+```javascript
 expression.Intersect(Range1, Range2);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

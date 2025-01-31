@@ -5,7 +5,9 @@ The null value will be returned for the inline forms.
 
 ## Syntax
 
+```javascript
 expression.GetWrapperShape();
+```
 
 `expression` - A variable that represents a [ApiDateForm](../ApiDateForm.md) class.
 

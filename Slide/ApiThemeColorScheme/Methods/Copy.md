@@ -4,7 +4,9 @@ Creates a copy of the current theme color scheme.
 
 ## Syntax
 
+```javascript
 expression.Copy();
+```
 
 `expression` - A variable that represents a [ApiThemeColorScheme](../ApiThemeColorScheme.md) class.
 

@@ -4,7 +4,9 @@ Returns a parent content control that contains the graphic object.
 
 ## Syntax
 
+```javascript
 expression.GetParentContentControl();
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 

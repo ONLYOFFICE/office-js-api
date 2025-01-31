@@ -4,7 +4,9 @@ Returns a name of the pivot item.
 
 ## Syntax
 
+```javascript
 expression.GetName();
+```
 
 `expression` - A variable that represents a [ApiPivotItem](../ApiPivotItem.md) class.
 

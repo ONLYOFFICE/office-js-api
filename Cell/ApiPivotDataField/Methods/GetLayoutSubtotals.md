@@ -4,7 +4,9 @@ Returns the setting which specifies whether to show subtotals.
 
 ## Syntax
 
+```javascript
 expression.GetLayoutSubtotals();
+```
 
 `expression` - A variable that represents a [ApiPivotDataField](../ApiPivotDataField.md) class.
 

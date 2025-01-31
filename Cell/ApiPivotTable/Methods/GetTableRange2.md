@@ -4,7 +4,9 @@ Returns a Range object that represents the entire pivot table report, including 
 
 ## Syntax
 
+```javascript
 expression.GetTableRange2();
+```
 
 `expression` - A variable that represents a [ApiPivotTable](../ApiPivotTable.md) class.
 

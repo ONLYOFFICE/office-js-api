@@ -4,7 +4,9 @@ Returns the specified level of the current numbering.
 
 ## Syntax
 
+```javascript
 expression.GetLevel(nLevel);
+```
 
 `expression` - A variable that represents a [ApiNumbering](../ApiNumbering.md) class.
 

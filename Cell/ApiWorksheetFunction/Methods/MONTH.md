@@ -4,7 +4,9 @@ Returns the month, a number from 1 (January) to 12 (December).
 
 ## Syntax
 
+```javascript
 expression.MONTH(arg1-);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

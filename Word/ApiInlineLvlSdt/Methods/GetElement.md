@@ -4,7 +4,9 @@ Returns an element of the current inline text content control using the position
 
 ## Syntax
 
+```javascript
 expression.GetElement(nPos);
+```
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 

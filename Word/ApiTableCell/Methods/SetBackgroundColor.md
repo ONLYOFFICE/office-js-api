@@ -4,7 +4,9 @@ Sets the background color to the current table cell.
 
 ## Syntax
 
+```javascript
 expression.SetBackgroundColor(r, g, b, bNone);
+```
 
 `expression` - A variable that represents a [ApiTableCell](../ApiTableCell.md) class.
 

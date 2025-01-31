@@ -4,7 +4,9 @@ Converts an octal number to decimal.
 
 ## Syntax
 
+```javascript
 expression.OCT2DEC(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

@@ -4,7 +4,9 @@ Gets the text shading from the current text properties.
 
 ## Syntax
 
+```javascript
 expression.GetShd();
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 

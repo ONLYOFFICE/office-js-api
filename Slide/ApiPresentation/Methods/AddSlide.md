@@ -4,7 +4,9 @@ Appends a new slide to the end of the presentation.
 
 ## Syntax
 
+```javascript
 expression.AddSlide(oSlide);
+```
 
 `expression` - A variable that represents a [ApiPresentation](../ApiPresentation.md) class.
 

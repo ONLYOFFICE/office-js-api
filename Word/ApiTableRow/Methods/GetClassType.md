@@ -4,7 +4,9 @@ Returns a type of the ApiTableRowPr class.
 
 ## Syntax
 
+```javascript
 expression.GetClassType();
+```
 
 `expression` - A variable that represents a [ApiTableRow](../ApiTableRow.md) class.
 

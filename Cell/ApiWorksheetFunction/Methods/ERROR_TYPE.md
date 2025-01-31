@@ -4,7 +4,9 @@ Returns a number matching an error value.
 
 ## Syntax
 
+```javascript
 expression.ERROR_TYPE(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

@@ -4,7 +4,9 @@ Counts nonblank cells in the field (column) of records in the database that matc
 
 ## Syntax
 
+```javascript
 expression.DCOUNTA(arg1-, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

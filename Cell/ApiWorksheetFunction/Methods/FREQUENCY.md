@@ -4,7 +4,9 @@ Calculates how often values occur within a range of values and then returns the 
 
 ## Syntax
 
+```javascript
 expression.FREQUENCY(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

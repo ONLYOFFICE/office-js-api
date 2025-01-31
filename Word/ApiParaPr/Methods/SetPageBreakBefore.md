@@ -5,7 +5,9 @@ the beginning of a new page in the document.
 
 ## Syntax
 
+```javascript
 expression.SetPageBreakBefore(isPageBreakBefore);
+```
 
 `expression` - A variable that represents a [ApiParaPr](../ApiParaPr.md) class.
 

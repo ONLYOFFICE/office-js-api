@@ -4,7 +4,9 @@ Returns the cumulative interest paid between two periods.
 
 ## Syntax
 
+```javascript
 expression.CUMIPMT(arg1, arg2, arg3, arg4, arg5, arg6);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

@@ -4,7 +4,9 @@ Returns the tangent of an angle.
 
 ## Syntax
 
+```javascript
 expression.TAN(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

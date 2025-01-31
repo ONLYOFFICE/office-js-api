@@ -4,7 +4,9 @@ Removes a table column with the specified cell.
 
 ## Syntax
 
+```javascript
 expression.RemoveColumn(oCell);
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 

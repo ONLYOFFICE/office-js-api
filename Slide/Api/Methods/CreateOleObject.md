@@ -4,7 +4,9 @@ Creates an OLE object with the parameters specified.
 
 ## Syntax
 
+```javascript
 expression.CreateOleObject(sImageSrc, nWidth, nHeight, sData, sAppId);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

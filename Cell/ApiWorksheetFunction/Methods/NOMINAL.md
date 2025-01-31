@@ -4,7 +4,9 @@ Returns the annual nominal interest rate.
 
 ## Syntax
 
+```javascript
 expression.NOMINAL(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

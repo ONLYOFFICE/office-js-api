@@ -4,7 +4,9 @@ Returns the rank of a value in a data set as a percentage of the data set.
 
 ## Syntax
 
+```javascript
 expression.PERCENTRANK(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

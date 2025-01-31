@@ -6,7 +6,9 @@ process to arrange tables on the specified page.
 
 ## Syntax
 
+```javascript
 expression.GetAllTablesOnPage(nPage);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

@@ -4,7 +4,9 @@ Converts a text time to a serial number for a time, a number from 0 (12:00:00 AM
 
 ## Syntax
 
+```javascript
 expression.TIMEVALUE(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

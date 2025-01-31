@@ -4,7 +4,9 @@ Returns the application ID from the current OLE object.
 
 ## Syntax
 
+```javascript
 expression.GetApplicationId();
+```
 
 `expression` - A variable that represents a [ApiOleObject](../ApiOleObject.md) class.
 

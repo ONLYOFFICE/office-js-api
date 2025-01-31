@@ -4,7 +4,9 @@ Returns a bookmark by its name from the current document.
 
 ## Syntax
 
+```javascript
 expression.GetBookmark(sBookmarkName);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

@@ -4,7 +4,9 @@ Converts a document to HTML.
 
 ## Syntax
 
+```javascript
 expression.ToHtml(bHtmlHeadings, bBase64img, bDemoteHeadings, bRenderHTMLTags);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

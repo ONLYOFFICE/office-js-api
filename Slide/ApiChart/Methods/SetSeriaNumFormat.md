@@ -4,7 +4,9 @@ Sets the specified numeric format to the chart series.
 
 ## Syntax
 
+```javascript
 expression.SetSeriaNumFormat(sFormat, nSeria);
+```
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 

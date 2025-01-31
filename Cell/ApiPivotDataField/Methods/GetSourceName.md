@@ -4,7 +4,9 @@ Returns a source name for the pivot table field.
 
 ## Syntax
 
+```javascript
 expression.GetSourceName();
+```
 
 `expression` - A variable that represents a [ApiPivotDataField](../ApiPivotDataField.md) class.
 

@@ -4,7 +4,9 @@ Sets the table wrapping style.
 
 ## Syntax
 
+```javascript
 expression.SetWrappingStyle(isFlow);
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 

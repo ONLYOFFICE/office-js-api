@@ -4,7 +4,9 @@ Rounds a number down, to the nearest integer or to the nearest multiple of signi
 
 ## Syntax
 
+```javascript
 expression.FLOOR_MATH(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

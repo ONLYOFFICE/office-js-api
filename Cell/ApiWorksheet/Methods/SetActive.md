@@ -4,7 +4,9 @@ Makes the current sheet active.
 
 ## Syntax
 
+```javascript
 expression.SetActive();
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

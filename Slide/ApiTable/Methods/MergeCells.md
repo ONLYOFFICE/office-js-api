@@ -5,7 +5,9 @@ Merges an array of cells. If merge is successful, it will return merged cell, ot
 
 ## Syntax
 
+```javascript
 expression.MergeCells(aCells);
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 

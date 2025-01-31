@@ -4,7 +4,9 @@ Rounds a number up, away from zero.
 
 ## Syntax
 
+```javascript
 expression.ROUNDUP(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

@@ -4,7 +4,9 @@ Returns the number of days between two dates based on a 360-day year (twelve 30-
 
 ## Syntax
 
+```javascript
 expression.DAYS360(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

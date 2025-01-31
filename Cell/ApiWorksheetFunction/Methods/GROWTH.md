@@ -4,7 +4,9 @@ Calculates predicted exponential growth by using existing data.
 
 ## Syntax
 
+```javascript
 expression.GROWTH(arg1, arg2, arg3, arg4);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

@@ -4,7 +4,9 @@ Returns a list of all the content controls from the document.
 
 ## Syntax
 
+```javascript
 expression.GetAllContentControls();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

@@ -4,7 +4,9 @@ Returns the cumulative lognormal distribution of x, where ln(x) is normally dist
 
 ## Syntax
 
+```javascript
 expression.LOGNORMDIST(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

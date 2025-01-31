@@ -4,7 +4,9 @@ Flips the current drawing vertically.
 
 ## Syntax
 
+```javascript
 expression.SetVertFlip(bFlip);
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 

@@ -4,7 +4,9 @@ Searches for a scope of a document object. The search results are a collection o
 
 ## Syntax
 
+```javascript
 expression.Search(sText, isMatchCase);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

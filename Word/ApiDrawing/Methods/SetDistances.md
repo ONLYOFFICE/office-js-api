@@ -5,7 +5,9 @@ subsequent text.
 
 ## Syntax
 
+```javascript
 expression.SetDistances(nLeft, nTop, nRight, nBottom);
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 

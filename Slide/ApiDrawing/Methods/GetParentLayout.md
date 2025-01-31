@@ -4,7 +4,9 @@ Returns the drawing parent slide layout.
 
 ## Syntax
 
+```javascript
 expression.GetParentLayout();
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 

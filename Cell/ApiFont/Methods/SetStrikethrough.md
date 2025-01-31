@@ -5,7 +5,9 @@ Sets the strikethrough property to the specified font.
 
 ## Syntax
 
+```javascript
 expression.SetStrikethrough(isStrikethrough);
+```
 
 `expression` - A variable that represents a [ApiFont](../ApiFont.md) class.
 

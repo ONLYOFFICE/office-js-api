@@ -4,7 +4,9 @@ Returns a layout of the current slide.
 
 ## Syntax
 
+```javascript
 expression.GetLayout();
+```
 
 `expression` - A variable that represents a [ApiSlide](../ApiSlide.md) class.
 

@@ -4,7 +4,9 @@ Sets the background to the current slide layout.
 
 ## Syntax
 
+```javascript
 expression.SetBackground(oApiFill);
+```
 
 `expression` - A variable that represents a [ApiLayout](../ApiLayout.md) class.
 

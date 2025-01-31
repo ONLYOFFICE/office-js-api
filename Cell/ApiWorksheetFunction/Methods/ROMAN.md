@@ -4,7 +4,9 @@ Converts an arabic numeral to a roman numeral in the string format.
 
 ## Syntax
 
+```javascript
 expression.ROMAN(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

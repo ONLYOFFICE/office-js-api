@@ -6,7 +6,9 @@ process before the full recalculation.
 
 ## Syntax
 
+```javascript
 expression.GetPageCount();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

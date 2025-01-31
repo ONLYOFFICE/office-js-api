@@ -4,7 +4,9 @@ Moves the current pivot field inside the category.
 
 ## Syntax
 
+```javascript
 expression.Move(type, index);
+```
 
 `expression` - A variable that represents a [ApiPivotField](../ApiPivotField.md) class.
 

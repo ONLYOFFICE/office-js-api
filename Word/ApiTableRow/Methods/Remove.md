@@ -4,7 +4,9 @@ Removes the current table row.
 
 ## Syntax
 
+```javascript
 expression.Remove();
+```
 
 `expression` - A variable that represents a [ApiTableRow](../ApiTableRow.md) class.
 

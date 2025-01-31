@@ -4,7 +4,9 @@ Sets the outline level for the specified properties.
 
 ## Syntax
 
+```javascript
 expression.SetOutlineLvl(nLvl);
+```
 
 `expression` - A variable that represents a [ApiParaPr](../ApiParaPr.md) class.
 

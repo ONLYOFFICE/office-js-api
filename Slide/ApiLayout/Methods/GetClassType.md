@@ -4,7 +4,9 @@ Returns the type of the ApiLayout class.
 
 ## Syntax
 
+```javascript
 expression.GetClassType();
+```
 
 `expression` - A variable that represents a [ApiLayout](../ApiLayout.md) class.
 

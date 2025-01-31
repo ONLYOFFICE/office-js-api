@@ -4,7 +4,9 @@ Sets a string value representing the object name.
 
 ## Syntax
 
+```javascript
 expression.SetName(sName);
+```
 
 `expression` - A variable that represents a [ApiName](../ApiName.md) class.
 

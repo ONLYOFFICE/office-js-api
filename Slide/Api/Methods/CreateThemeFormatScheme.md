@@ -4,7 +4,9 @@ Creates a new theme format scheme.
 
 ## Syntax
 
+```javascript
 expression.CreateThemeFormatScheme(arrFill, arrBgFill, arrLine, sName);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

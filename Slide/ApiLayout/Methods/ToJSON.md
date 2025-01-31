@@ -4,7 +4,9 @@ Converts the ApiLayout object into the JSON object.
 
 ## Syntax
 
+```javascript
 expression.ToJSON(bWriteMaster, bWriteTableStyles);
+```
 
 `expression` - A variable that represents a [ApiLayout](../ApiLayout.md) class.
 

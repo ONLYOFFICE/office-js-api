@@ -4,7 +4,9 @@ Returns a collection of the ranges.
 
 ## Syntax
 
+```javascript
 expression.GetAreas();
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

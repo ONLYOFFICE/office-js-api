@@ -4,7 +4,9 @@ Returns the specified comment reply.
 
 ## Syntax
 
+```javascript
 expression.GetReply(nIndex);
+```
 
 `expression` - A variable that represents a [ApiComment](../ApiComment.md) class.
 

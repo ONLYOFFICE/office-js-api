@@ -4,7 +4,9 @@ Creates an RGB color setting the appropriate values for the red, green and blue 
 
 ## Syntax
 
+```javascript
 expression.CreateColorFromRGB(r, g, b);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

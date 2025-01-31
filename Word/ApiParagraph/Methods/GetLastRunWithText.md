@@ -4,7 +4,9 @@ Returns the last Run with text in the current paragraph.
 
 ## Syntax
 
+```javascript
 expression.GetLastRunWithText();
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

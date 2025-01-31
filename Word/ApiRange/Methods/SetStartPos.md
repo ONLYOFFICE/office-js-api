@@ -4,7 +4,9 @@ Sets the start position of the current range object.
 
 ## Syntax
 
+```javascript
 expression.SetStartPos(nPos);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

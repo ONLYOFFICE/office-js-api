@@ -4,7 +4,9 @@ Sets the border which will be displayed at the top of the current table cell.
 
 ## Syntax
 
+```javascript
 expression.SetCellBorderTop(sType, nSize, nSpace, r, g, b);
+```
 
 `expression` - A variable that represents a [ApiTableCellPr](../ApiTableCellPr.md) class.
 

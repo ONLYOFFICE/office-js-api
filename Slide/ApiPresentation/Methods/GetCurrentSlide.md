@@ -4,7 +4,9 @@ Returns the current slide.
 
 ## Syntax
 
+```javascript
 expression.GetCurrentSlide();
+```
 
 `expression` - A variable that represents a [ApiPresentation](../ApiPresentation.md) class.
 

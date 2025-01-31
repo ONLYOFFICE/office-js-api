@@ -4,7 +4,9 @@ Returns the base-2 logarithm of a complex number.
 
 ## Syntax
 
+```javascript
 expression.IMLOG2(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

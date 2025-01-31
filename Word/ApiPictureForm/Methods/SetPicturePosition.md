@@ -7,7 +7,9 @@ Sets the picture position inside the current form:
 
 ## Syntax
 
+```javascript
 expression.SetPicturePosition(nShiftX, nShiftY);
+```
 
 `expression` - A variable that represents a [ApiPictureForm](../ApiPictureForm.md) class.
 

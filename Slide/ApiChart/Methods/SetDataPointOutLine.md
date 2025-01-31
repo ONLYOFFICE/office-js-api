@@ -4,7 +4,9 @@ Sets the outline to the data point in the specified chart series.
 
 ## Syntax
 
+```javascript
 expression.SetDataPointOutLine(oStroke, nSeries, nDataPoint, bAllSeries);
+```
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 

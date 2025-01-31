@@ -4,7 +4,9 @@ Returns a Range object with information about a data item in the pivot table rep
 
 ## Syntax
 
+```javascript
 expression.GetPivotData(dataField, fieldItemsArray);
+```
 
 `expression` - A variable that represents a [ApiPivotTable](../ApiPivotTable.md) class.
 

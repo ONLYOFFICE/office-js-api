@@ -4,7 +4,9 @@ Sets a size of the object (image, shape, chart) bounding box.
 
 ## Syntax
 
+```javascript
 expression.SetSize(nWidth, nHeight);
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 

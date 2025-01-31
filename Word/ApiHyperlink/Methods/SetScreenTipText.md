@@ -4,7 +4,9 @@ Sets the screen tip text of the hyperlink.
 
 ## Syntax
 
+```javascript
 expression.SetScreenTipText(sScreenTipText);
+```
 
 `expression` - A variable that represents a [ApiHyperlink](../ApiHyperlink.md) class.
 

@@ -4,7 +4,9 @@ Returns the drawing parent slide.
 
 ## Syntax
 
+```javascript
 expression.GetParentSlide();
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 

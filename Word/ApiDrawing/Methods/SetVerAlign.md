@@ -4,7 +4,9 @@ Specifies how the floating object will be vertically aligned.
 
 ## Syntax
 
+```javascript
 expression.SetVerAlign(sRelativeFrom, sAlign);
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 

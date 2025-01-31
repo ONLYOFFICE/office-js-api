@@ -4,7 +4,9 @@ Returns the annual duration of a security with periodic interest payments.
 
 ## Syntax
 
+```javascript
 expression.DURATION(arg1, arg2, arg3, arg4, arg5, arg6);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

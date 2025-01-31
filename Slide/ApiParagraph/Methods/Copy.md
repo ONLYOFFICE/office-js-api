@@ -4,7 +4,9 @@ Creates a paragraph copy. Ingnore comments, footnote references, complex fields.
 
 ## Syntax
 
+```javascript
 expression.Copy();
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

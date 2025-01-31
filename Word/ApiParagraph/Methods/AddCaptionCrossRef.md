@@ -5,7 +5,9 @@ Adds a caption cross-reference to the current paragraph.
 
 ## Syntax
 
+```javascript
 expression.AddCaptionCrossRef(sCaption, sRefType, oParaTo, bLink, bAboveBelow);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

@@ -4,7 +4,9 @@ Returns the beta probability distribution function.
 
 ## Syntax
 
+```javascript
 expression.BETA_DIST(arg1, arg2, arg3, arg4, arg5, arg6);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

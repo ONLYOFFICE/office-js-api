@@ -4,7 +4,9 @@ Creates a new style with the specified type and name. If there is a style with t
 
 ## Syntax
 
+```javascript
 expression.CreateStyle(sStyleName, sType);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 

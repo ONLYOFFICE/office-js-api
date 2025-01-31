@@ -4,7 +4,9 @@ Returns a set of the table row properties which will be applied to all the rows 
 
 ## Syntax
 
+```javascript
 expression.GetTableRowPr();
+```
 
 `expression` - A variable that represents a [ApiTableStylePr](../ApiTableStylePr.md) class.
 

@@ -4,7 +4,9 @@ Adds a comment to the current range.
 
 ## Syntax
 
+```javascript
 expression.AddComment(sText, sAuthor);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

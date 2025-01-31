@@ -4,7 +4,9 @@ Repeats text a given number of times. Use this function to fill a cell with a nu
 
 ## Syntax
 
+```javascript
 expression.REPT(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

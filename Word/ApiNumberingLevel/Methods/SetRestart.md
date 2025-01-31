@@ -4,7 +4,9 @@ Specifies a one-based index which determines when a numbering level should resta
 
 ## Syntax
 
+```javascript
 expression.SetRestart(isRestart);
+```
 
 `expression` - A variable that represents a [ApiNumberingLevel](../ApiNumberingLevel.md) class.
 

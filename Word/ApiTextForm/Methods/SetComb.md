@@ -5,7 +5,9 @@ The maximum number of characters must be set to a positive value.
 
 ## Syntax
 
+```javascript
 expression.SetComb(bComb);
+```
 
 `expression` - A variable that represents a [ApiTextForm](../ApiTextForm.md) class.
 

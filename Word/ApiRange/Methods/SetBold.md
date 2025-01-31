@@ -4,7 +4,9 @@ Sets the bold property to the text character.
 
 ## Syntax
 
+```javascript
 expression.SetBold(isBold);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

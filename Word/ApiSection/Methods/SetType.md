@@ -5,7 +5,9 @@ section are placed relative to the previous section.
 
 ## Syntax
 
+```javascript
 expression.SetType(sType);
+```
 
 `expression` - A variable that represents a [ApiSection](../ApiSection.md) class.
 

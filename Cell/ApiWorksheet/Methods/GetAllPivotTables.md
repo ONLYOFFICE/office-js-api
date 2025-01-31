@@ -4,7 +4,9 @@ Returns all pivot tables from the current worksheet.
 
 ## Syntax
 
+```javascript
 expression.GetAllPivotTables();
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

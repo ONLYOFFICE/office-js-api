@@ -4,7 +4,9 @@ Applies text settings to the content of the content control.
 
 ## Syntax
 
+```javascript
 expression.SetTextPr(textPr);
+```
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 

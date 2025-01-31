@@ -4,7 +4,9 @@ Returns the next inline chart if exists.
 
 ## Syntax
 
+```javascript
 expression.GetNextChart();
+```
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 

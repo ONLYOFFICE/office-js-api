@@ -4,7 +4,9 @@ Converts the ApiTextPr object into the JSON object.
 
 ## Syntax
 
+```javascript
 expression.ToJSON(bWriteStyles);
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 

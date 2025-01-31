@@ -4,7 +4,9 @@ Locks the aspect ratio of the current picture form.
 
 ## Syntax
 
+```javascript
 expression.SetLockAspectRatio(isLock);
+```
 
 `expression` - A variable that represents a [ApiPictureForm](../ApiPictureForm.md) class.
 

@@ -4,7 +4,9 @@ Returns the serial number of the date before or after a specified number of work
 
 ## Syntax
 
+```javascript
 expression.WORKDAY(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

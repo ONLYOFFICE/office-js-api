@@ -6,7 +6,9 @@ will be interpreted as false.
 
 ## Syntax
 
+```javascript
 expression.SetSpacingAfter(nAfter, isAfterAuto);
+```
 
 `expression` - A variable that represents a [ApiParaPr](../ApiParaPr.md) class.
 

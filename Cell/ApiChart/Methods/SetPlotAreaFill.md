@@ -4,7 +4,9 @@ Sets the fill to the chart plot area.
 
 ## Syntax
 
+```javascript
 expression.SetPlotAreaFill(oFill);
+```
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 

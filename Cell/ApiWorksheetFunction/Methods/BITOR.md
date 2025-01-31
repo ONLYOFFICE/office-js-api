@@ -4,7 +4,9 @@ Returns a bitwise "OR" of two numbers.
 
 ## Syntax
 
+```javascript
 expression.BITOR(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

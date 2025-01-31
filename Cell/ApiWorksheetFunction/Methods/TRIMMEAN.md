@@ -4,7 +4,9 @@ Returns the mean of the interior portion of a set of data values.
 
 ## Syntax
 
+```javascript
 expression.TRIMMEAN(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

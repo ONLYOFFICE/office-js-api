@@ -4,7 +4,9 @@ Returns the last element of the paragraph which is not empty.
 
 ## Syntax
 
+```javascript
 expression.Last();
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

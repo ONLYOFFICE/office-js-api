@@ -4,7 +4,9 @@ Returns the yield for a Treasury bill.
 
 ## Syntax
 
+```javascript
 expression.TBILLYIELD(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 

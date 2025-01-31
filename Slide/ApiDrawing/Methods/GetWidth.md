@@ -4,7 +4,9 @@ Returns the width of the current drawing.
 
 ## Syntax
 
+```javascript
 expression.GetWidth();
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 

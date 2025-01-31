@@ -4,7 +4,9 @@ Specifies the languages which will be used to check spelling and grammar (if req
 
 ## Syntax
 
+```javascript
 expression.SetLanguage(sLangId);
+```
 
 `expression` - A variable that represents a [ApiPresentation](../ApiPresentation.md) class.
 

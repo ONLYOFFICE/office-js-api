@@ -4,7 +4,9 @@ Returns the cosecant of an angle.
 
 ## Syntax
 
+```javascript
 expression.CSC(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
