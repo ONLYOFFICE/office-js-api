@@ -1,4 +1,6 @@
 // This example creates a blip fill to apply to the object using the selected image as the object background.
+// How to set image background to the shape object.
+// Create a blip fill from the image to set object background.
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateBlipFill("https://api.onlyoffice.com/content/img/docbuilder/examples/icon_DocumentEditors.png", "tile");
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
