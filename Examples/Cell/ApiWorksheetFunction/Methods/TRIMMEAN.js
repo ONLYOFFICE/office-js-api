@@ -1,4 +1,6 @@
-
+// This example shows how to return the mean of the interior portion of a set of data values.
+// How to delete the mean of the data values interior portion.
+// Use a function to remove the mean from the interior portion of a set of data values.
 var oWorksheet = Api.GetActiveSheet();
 var argumentsArr = [1, 2, 3, 4];
 

@@ -1,4 +1,6 @@
 // This example gets a class type and pastes it into the presentation.
+// How to get a class type of ApiTextPr.
+// Get a class type of ApiTextPr and display it in the worksheet.
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

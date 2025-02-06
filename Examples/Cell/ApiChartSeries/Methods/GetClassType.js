@@ -1,4 +1,6 @@
 // This example gets a type of ApiChartSeries class and inserts it into the document.
+// How to get a chart series class type.
+// Get a class type of a seria.
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);

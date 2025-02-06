@@ -1,4 +1,6 @@
-
+// This example shows how to return the number of whole workdays between two dates.
+// How to get the number of whole workdays between two dates.
+// Use a function to get number of days between two dates.
 const oWorksheet = Api.GetActiveSheet();
 
 var oFunction = Api.GetWorksheetFunction();

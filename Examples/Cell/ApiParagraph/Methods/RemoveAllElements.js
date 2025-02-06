@@ -1,4 +1,6 @@
 // This example removes all the elements from the current paragraph.
+// How to clear content from the paragraph.
+// Create a paragraph add text to it then delete all elements from it.
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

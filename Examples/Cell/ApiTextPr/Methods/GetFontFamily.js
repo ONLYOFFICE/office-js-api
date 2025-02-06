@@ -1,3 +1,6 @@
+// This example gets a text font family.
+// How to find out a text font family.
+// Get a text font family name and display it in the worksheet.
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

@@ -1,3 +1,6 @@
+// This example shows how to get column fields of a pivot table.
+// How to get all column fields from a pivot table.
+// Create a pivot table, add data to it then get all its column fields.
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

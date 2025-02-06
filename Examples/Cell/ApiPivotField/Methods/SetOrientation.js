@@ -1,3 +1,6 @@
+// This example shows how to set an orientation of a pivot field.
+// How to change a pivot field orientation.
+// Create a pivot table, add data to it then change an orientation a specified pivot.
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

@@ -1,4 +1,6 @@
-
+// This example shows how to return the one-tailed P-value of a z-test.
+// How to return one-tailed P-value.
+// Use a function to get one-tailed P-value.
 
 var oWorksheet = Api.GetActiveSheet();
 var argumentsArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];

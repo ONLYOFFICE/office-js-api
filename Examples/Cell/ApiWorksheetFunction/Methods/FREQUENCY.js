@@ -1,4 +1,6 @@
-
+// This example shows how to calculate how often values occur within a range of values and then returns the first value of the returned vertical array of numbers.
+// How to get frequency of first value from a range.
+// Use a function to count how often values occur within a range.
 const oWorksheet = Api.GetActiveSheet();
 
 // Configure function parameters

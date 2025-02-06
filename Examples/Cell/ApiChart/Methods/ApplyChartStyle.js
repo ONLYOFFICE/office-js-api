@@ -1,4 +1,6 @@
 // This example sets a style to the chart by style ID.
+// How to update visualization of a chart setting a new style by using its ID.
+// Apply new style by its ID.
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);

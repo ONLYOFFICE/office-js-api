@@ -1,4 +1,6 @@
 // This example sets the outline to the specified chart series.
+// How to outline chart series.
+// Add colored stroke for a chart seria.
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);

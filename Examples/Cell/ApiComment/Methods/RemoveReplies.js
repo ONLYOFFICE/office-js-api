@@ -1,4 +1,6 @@
 // This example removes the specified comment replies.
+// How to remove replies from the comment.
+// Add a comment and replies to it, then remove specified reply and then show replies count.
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A1").SetValue("1");
 var oRange = oWorksheet.GetRange("A1");

@@ -1,4 +1,6 @@
 // This example sets a style to the run.
+// How to style a text.
+// Create a text run object, create a text style and apply it.
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

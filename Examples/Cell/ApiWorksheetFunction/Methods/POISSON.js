@@ -1,4 +1,6 @@
-
+// This example shows how to calculate the Poisson distribution.
+// How to return the Poisson distribution.
+// Use a function to calculate the Poisson distribution.
 const oWorksheet = Api.GetActiveSheet();
 
 //method params

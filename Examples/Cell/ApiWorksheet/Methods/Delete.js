@@ -1,4 +1,6 @@
 // This example deletes the worksheet.
+// How to delete sheets.
+// Remove a worksheet.
 Api.AddSheet("New sheet");
 var oSheet = Api.GetActiveSheet();
 oSheet.Delete();

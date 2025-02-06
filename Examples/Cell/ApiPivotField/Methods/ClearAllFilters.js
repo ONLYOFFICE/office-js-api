@@ -1,3 +1,6 @@
+// This example shows how to clear all filters from a pivot field.
+// How to remove previously applied pivot field filters.
+// Create a pivot table, add data to it then delete all filters from a custom field.
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

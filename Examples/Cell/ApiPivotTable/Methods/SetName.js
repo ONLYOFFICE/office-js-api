@@ -1,3 +1,6 @@
+// This example shows how to set name of a pivot table.
+// How to set name of a table.
+// Create a pivot table, add data to it then set its name.
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

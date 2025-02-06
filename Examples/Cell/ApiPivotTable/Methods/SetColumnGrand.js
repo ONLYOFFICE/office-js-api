@@ -1,3 +1,6 @@
+// This example shows how to get a column grand.
+// How to select a column grand of a table.
+// Create a pivot table, add data to it then get its column grand.
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

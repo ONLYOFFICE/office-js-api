@@ -1,3 +1,6 @@
+// This example shows how to count the cells containing numbers in the field (column) of records in the database that match the conditions you specify.
+// How to count the cells containing numbers in the field (column) of records in the database that match the conditions you specify.
+// Use function to count numbers from database records that met a condition specified.
 var oWorksheet = Api.GetActiveSheet();
 var oFunction = Api.GetWorksheetFunction();
 oWorksheet.GetRange("A1").SetValue("Name");

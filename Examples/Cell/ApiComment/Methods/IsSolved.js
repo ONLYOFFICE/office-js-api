@@ -1,4 +1,6 @@
 // This example checks if a comment is solved or not.
+// How to find out whether a comment is resolved.
+// Add a comment resolved status to a range of the worksheet.
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A1").SetValue("1");
 var oRange = oWorksheet.GetRange("A1");

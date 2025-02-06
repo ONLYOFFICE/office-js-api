@@ -1,4 +1,6 @@
 // This example adds a line break to the current position and starts the next element from a new line.
+// How to insert a text from a new line.
+// Get the paragraph from the shape and add two sentences separated by a linebreak.
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

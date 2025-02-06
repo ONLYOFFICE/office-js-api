@@ -1,3 +1,6 @@
+// This example shows how to get showing in axis of a pivot field.
+// How to get a pivot field's showing in axis.
+// Create a pivot table, add data to it then get showing in axis of a specified pivot field.
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

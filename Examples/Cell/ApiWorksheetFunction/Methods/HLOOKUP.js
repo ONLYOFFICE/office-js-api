@@ -1,3 +1,6 @@
+// This example shows how to look for a value in the top row of a table or array of values and returns the value in the same column from the specified row.
+// How to find a value from the row of a table.
+// Use a function to look up a value from a table or an array and return found value.
 var oWorksheet = Api.GetActiveSheet();
 var oFunction = Api.GetWorksheetFunction();
 var ids = ["ID", 1, 2, 3, 4, 5];

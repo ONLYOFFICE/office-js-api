@@ -1,4 +1,6 @@
 // This example sets the background color to the cell range with the previously created color object.
+// How to color a cell.
+// Get a range and set its background color with solid fill.
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.SetColumnWidth(0, 50);
 oWorksheet.GetRange("A2").SetFillColor(Api.CreateColorFromRGB(255, 213, 191));

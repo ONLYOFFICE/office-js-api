@@ -1,3 +1,6 @@
+// This example shows how to move a pivot field.
+// How to change a position of a field by columns.
+// Create a pivot table, add data to it then move a field using its name.
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

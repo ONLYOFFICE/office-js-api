@@ -1,4 +1,6 @@
-
+// This example shows how to estimate variance based on a sample, including logical values and text. Text and the false logical value have the value 0; the true logical value has the value 1.
+// How to estimate variance based on a sample considering logical and text data types.
+// Use a function to estimate variance not ignoring logical and text values.
 
 var oWorksheet = Api.GetActiveSheet();
 
