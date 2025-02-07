@@ -1,4 +1,6 @@
 // This example sets the outline to the marker in the specified chart series.
+// Set a stroke as a major vertical gridline.
+// How to add gridlines for the chart.
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);

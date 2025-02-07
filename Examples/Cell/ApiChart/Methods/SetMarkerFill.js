@@ -1,4 +1,5 @@
 // This example sets the fill to the marker in the specified chart series.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);

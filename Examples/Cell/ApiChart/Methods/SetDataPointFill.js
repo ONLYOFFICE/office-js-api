@@ -1,4 +1,6 @@
 // This example show how to set the fill to the data point.
+// Sets the fill to the data point in the specified chart series.
+// How to set data point fill filling it with a solid color.
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);

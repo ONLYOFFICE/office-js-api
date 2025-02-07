@@ -1,4 +1,6 @@
-// This eets the possible values for the position of the chart tick labels in relation to the main horizontal label or the chart data values.
+// This sets the possible values for the position of the chart tick labels in relation to the main horizontal label or the chart data values.
+// How to change position of the tick label of horizontal axis.
+// Set position of the tick label from horizontal axis.
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);

@@ -1,4 +1,6 @@
 // This example specifies the visual properties of the major horizontal gridline.
+// Set a stroke as a major horizontal gridline.
+// How to add gridlines for the chart.
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);
