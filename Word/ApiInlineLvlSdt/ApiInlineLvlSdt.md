@@ -5,6 +5,7 @@ Represents the ApiInlineLvlSdt class.
 ## Methods
 
 - [GetClassType](./Methods/GetClassType.md)
+- [GetInternalId](./Methods/GetInternalId.md)
 - [SetLock](./Methods/SetLock.md)
 - [GetLock](./Methods/GetLock.md)
 - [SetTag](./Methods/SetTag.md)
