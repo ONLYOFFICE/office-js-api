@@ -1,4 +1,6 @@
 // This example pushes 5 paragraphs to actually add its to the document content.
+// How to insert paragraphs into a document.
+// Add text to a newly created paragraph and add this paragraph into document.
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
