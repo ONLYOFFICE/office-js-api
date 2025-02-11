@@ -1,4 +1,6 @@
 // This example shows how to get the previous paragraph.
+// How to get previous paragraph from the current one.
+// Add two paragraphs into the shape content then get the first one using previous method.
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

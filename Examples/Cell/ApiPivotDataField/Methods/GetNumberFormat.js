@@ -1,3 +1,6 @@
+// This example shows how to get a number format of a data field.
+// How to get a table element format.
+// Create a pivot table, add data to it then display a custom data field's number format.
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

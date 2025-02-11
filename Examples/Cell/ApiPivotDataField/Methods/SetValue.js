@@ -1,3 +1,6 @@
+// This example shows how to set a value for data field.
+// How to change a value of a table element.
+// Create a pivot table, add data to it then set a custom data field's value.
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');
