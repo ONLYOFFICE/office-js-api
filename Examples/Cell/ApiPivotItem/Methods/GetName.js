@@ -1,3 +1,6 @@
+// This example shows how to get a name of a pivot item.
+// How to get a pivot item name.
+// Create a pivot table, add data to it then get a name of a specified pivot item.
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

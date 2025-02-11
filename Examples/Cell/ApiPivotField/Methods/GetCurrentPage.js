@@ -1,3 +1,6 @@
+// This example shows how to get a current page of a pivot field.
+// How to get a pivot field current page.
+// Create a pivot table, add data to it then get a current page of a specified pivot field.
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

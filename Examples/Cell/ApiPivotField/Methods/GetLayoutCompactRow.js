@@ -1,3 +1,6 @@
+// This example shows how to get a layout compact row of a pivot field.
+// How to get a compact row layout of a pivot field.
+// Create a pivot table, add data to it then get a layout compact row of a specified pivot field.
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');
