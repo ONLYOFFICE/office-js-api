@@ -1,4 +1,6 @@
 // This example creates a paragraph copy.
+// How to create an identical paragraph.
+// Get a paragraph from the content of the shape create its copy and add it to the shape.
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

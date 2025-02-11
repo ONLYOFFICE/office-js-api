@@ -1,4 +1,6 @@
 // This example shows how to get the paragraph first line indentation.
+// How to get first line indent of a paragraph.
+// Get paragraph lines using the indent order.
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
