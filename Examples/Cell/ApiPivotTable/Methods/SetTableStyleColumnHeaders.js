@@ -1,3 +1,6 @@
+// This example shows how to set table style column headers of a pivot table.
+// How to set table style column headers of a table.
+// Create a pivot table, add data to it then set its table style column headers.
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

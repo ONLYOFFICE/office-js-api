@@ -1,3 +1,6 @@
+// This example shows how to get a title pivot table.
+// How to get table title.
+// Create a pivot table, add data to it then get its title.
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

@@ -1,3 +1,6 @@
+// This example shows how to set row axis layout of a pivot table.
+// How to set row axis layout of a table.
+// Create a pivot table, add data to it then set its row axis layout.
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

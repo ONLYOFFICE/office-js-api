@@ -1,3 +1,6 @@
+// This example shows how to set grand total name of a table.
+// How to set a grand total name of a table.
+// Create a pivot table, add data to it then set a grand total name.
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

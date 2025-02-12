@@ -1,3 +1,6 @@
+// This example shows how to get page fields of a pivot table.
+// How to get table page fields as an array of fields.
+// Create a pivot table, add data to it then get its page fields.
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

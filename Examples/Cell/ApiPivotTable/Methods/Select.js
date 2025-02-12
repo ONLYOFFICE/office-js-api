@@ -1,3 +1,6 @@
+// This example shows how to select a pivot table.
+// How to select a table.
+// Create a pivot table, add data to it then select it.
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

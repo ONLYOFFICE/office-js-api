@@ -1,3 +1,6 @@
+// This example shows how to get table range of a pivot table.
+// How to get table range.
+// Create a pivot table, add data to it then get its range.
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');
