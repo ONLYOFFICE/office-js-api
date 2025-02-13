@@ -1,10 +1,12 @@
 # RefreshAllPivots
 
-Refresh all PivotTables on current worksheet.
+Refreshes all pivot tables on the current worksheet.
 
 ## Syntax
 
+```javascript
 expression.RefreshAllPivots();
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

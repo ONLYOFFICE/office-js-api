@@ -1,10 +1,12 @@
 # ACCRINT
 
-Returns the accrued interest for a security that pays periodic interest..
+Returns the accrued interest for a security that pays periodic interest.
 
 ## Syntax
 
+```javascript
 expression.ACCRINT(arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,18 +14,18 @@ expression.ACCRINT(arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is the security's issue date, expressed as a serial date number. |
-| arg2 | Required | any |  | Is the security's first interest date, expressed as a serial date number. |
-| arg3 | Required | any |  | Is the security's settlement date, expressed as a serial date number. |
-| arg4 | Required | any |  | Is the security's annual coupon rate. |
-| arg5 | Required | any |  | Is the security's par value. |
-| arg6 | Required | any |  | Is the number of coupon payments per year. |
-| arg7 | Required | any |  | Is the type of day count basis to use. |
-| arg8 | Required | any |  | Is a logical value: to accrued interest from issue date = TRUE or omitted; to calculate from last coupon payment date = FALSE. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The issue date of the security, expressed as a serial date number. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The date when the first interest is paid, expressed as a serial date number. |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The security settlement date, expressed as a serial date number. |
+| arg4 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The annual coupon rate of the security. |
+| arg5 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The par value of the security. |
+| arg6 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The number of interest payments per year. The possible values are: 1 for annual payments, 2 for semiannual payments, 4 for quarterly payments. |
+| arg7 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The day count basis to use: **0** or omitted - US (NASD) 30/360; **1** - Actual/actual; **2** - Actual/360; **3** - Actual/365; **4** - European 30/360. |
+| arg8 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | A logical value: **true** (1) or omitted returns the accrued interest from the issue date to the settlement date. **false** (0) returns the accrued interest from the first interest date to the settlement date. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

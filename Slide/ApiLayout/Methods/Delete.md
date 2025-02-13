@@ -4,7 +4,9 @@ Deletes the specified object from the parent slide master if it exists.
 
 ## Syntax
 
+```javascript
 expression.Delete();
+```
 
 `expression` - A variable that represents a [ApiLayout](../ApiLayout.md) class.
 

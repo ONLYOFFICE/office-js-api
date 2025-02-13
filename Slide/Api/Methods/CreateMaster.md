@@ -4,7 +4,9 @@ Creates a new slide master.
 
 ## Syntax
 
+```javascript
 expression.CreateMaster(oTheme);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

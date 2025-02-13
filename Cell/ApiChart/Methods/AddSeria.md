@@ -4,7 +4,9 @@ Adds a new series to the current chart.
 
 ## Syntax
 
+```javascript
 expression.AddSeria(sNameRange, sValuesRange, sXValuesRange);
+```
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 

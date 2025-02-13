@@ -4,7 +4,9 @@ Creates a radial gradient fill to apply to the object using the selected radial 
 
 ## Syntax
 
-expression.CreateRadialGradientFill(aGradientStop);
+```javascript
+expression.CreateRadialGradientFill(gradientStops);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -12,7 +14,7 @@ expression.CreateRadialGradientFill(aGradientStop);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| aGradientStop | Required | Array |  | The array of gradient color stops measured in 1000th of percent. |
+| gradientStops | Required | Array |  | The array of gradient color stops measured in 1000th of percent. |
 
 ## Returns
 
@@ -23,12 +25,12 @@ expression.CreateRadialGradientFill(aGradientStop);
 This example shows how to create a radial gradient fill.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);
-var oGs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);
-var oFill = Api.CreateRadialGradientFill([oGs1, oGs2]);
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oDrawing = Api.CreateShape("rect", 5930900, 395605, oFill, oStroke);
-oParagraph.AddDrawing(oDrawing);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let gs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);
+let gs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);
+let fill = Api.CreateRadialGradientFill([gs1, gs2]);
+let stroke = Api.CreateStroke(0, Api.CreateNoFill());
+let shape = Api.CreateShape("rect", 5930900, 395605, fill, stroke);
+paragraph.AddDrawing(shape);
 ```

@@ -1,10 +1,12 @@
 # NOT
 
-Changes FALSE to TRUE, or TRUE to FALSE.
+Checks if the specified logical value is **true** or **false**. The function returns **true** if the argument is **false** and **false** if the argument is **true**.
 
 ## Syntax
 
+```javascript
 expression.NOT(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,11 +14,11 @@ expression.NOT(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | boolean |  | Is a value or expression that can be evaluated to TRUE or FALSE. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number | string | boolean |  | A value or expression that can be evaluated to **true** or **false**. |
 
 ## Returns
 
-number, string, boolean
+boolean
 
 ## Example
 

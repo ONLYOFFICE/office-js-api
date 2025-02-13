@@ -4,7 +4,9 @@ Creates a gradient stop used for different types of gradients.
 
 ## Syntax
 
-expression.CreateGradientStop(oUniColor, nPos);
+```javascript
+expression.CreateGradientStop(uniColor, pos);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -12,8 +14,8 @@ expression.CreateGradientStop(oUniColor, nPos);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| oUniColor | Required | [ApiUniColor](../../ApiUniColor/ApiUniColor.md) |  | The color used for the gradient stop. |
-| nPos | Required | [PositivePercentage](../../Enumeration/PositivePercentage.md) |  | The position of the gradient stop measured in 1000th of percent. |
+| uniColor | Required | [ApiUniColor](../../ApiUniColor/ApiUniColor.md) |  | The color used for the gradient stop. |
+| pos | Required | [PositivePercentage](../../Enumeration/PositivePercentage.md) |  | The position of the gradient stop measured in 1000th of percent. |
 
 ## Returns
 

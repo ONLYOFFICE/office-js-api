@@ -4,7 +4,9 @@ Specifies a highlighting color which is applied as a background to the contents 
 
 ## Syntax
 
+```javascript
 expression.SetHighlight(sColor);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 
@@ -20,11 +22,11 @@ expression.SetHighlight(sColor);
 
 ## Example
 
-This example sets hiighlight color "lightGray" for the paragraph.
+This example sets highlight color "lightGray" for the paragraph.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("This is a paragraph with the text highlighted with light gray color.");
-oParagraph.SetHighlight("lightGray");
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("This is a paragraph with the text highlighted with light gray color.");
+paragraph.SetHighlight("lightGray");
 ```

@@ -4,7 +4,9 @@ Replaces each paragraph (or text in cell) in the select with the corresponding t
 
 ## Syntax
 
-expression.ReplaceTextSmart(arrString, sParaTab, sParaNewLine);
+```javascript
+expression.ReplaceTextSmart(textStrings, tab, newLine);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -12,9 +14,9 @@ expression.ReplaceTextSmart(arrString, sParaTab, sParaNewLine);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arrString | Required | Array |  | An array of replacement strings. |
-| sParaTab | Optional | string | " " | A character which is used to specify the tab in the source text. |
-| sParaNewLine | Optional | string | " " | A character which is used to specify the line break character in the source text. |
+| textStrings | Required | Array |  | An array of replacement strings. |
+| tab | Optional | string | "\t" | A character which is used to specify the tab in the source text. |
+| newLine | Optional | string | "\r\n" | A character which is used to specify the line break character in the source text. |
 
 ## Returns
 
@@ -22,21 +24,15 @@ This method doesn't return any data.
 
 ## Example
 
-This example replace text from two paragraphs to another text.
+This example replaces text while preserving formatting and other things.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oFParagraph = oDocument.GetElement(0);
-oFParagraph.AddText("This is the text for the first line. The line break is added after it.");
-oFParagraph.AddLineBreak();
-var oSParagraph = Api.CreateParagraph();
-oSParagraph.AddTabStop();
-oSParagraph.AddText("This is just a sample text with a tab stop before it.");
-oDocument.Push(oSParagraph);
-var oRange1 = oFParagraph.GetRange();
-var oRange2 = oSParagraph.GetRange();
-var oRange3 = oRange1.ExpandTo(oRange2);
-oRange3.Select();
-var arr = ["test_1", "test_2"];
-Api.ReplaceTextSmart(arr, "", "");
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("This is the normal text. ");
+paragraph.AddText("The is bold text. ").SetBold(true);
+paragraph.AddText("This is italic text.").SetItalic(true);
+
+paragraph.GetRange().Select();
+Api.ReplaceTextSmart(["This is the normal text. This bold text was smart replaced. This is italic text."]);
 ```

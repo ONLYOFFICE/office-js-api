@@ -4,7 +4,9 @@ Sets the border which will be displayed on the left of the current table.
 
 ## Syntax
 
+```javascript
 expression.SetTableBorderLeft(sType, nSize, nSpace, r, g, b);
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 
@@ -28,16 +30,16 @@ This method doesn't return any data.
 This example sets the border which will be displayed on the left of the table.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("We add the left 4 point black border:");
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-var oTablePr = oTableStyle.GetTablePr();
-var oTable = Api.CreateTable(3, 3);
-oTable.SetWidth("percent", 100);
-oTablePr.SetTableBorderLeft("single", 32, 0, 51, 51, 51);
-oTable.SetTableLook(true, true, true, true, false, false);
-oTable.SetStyle(oTableStyle);
-oDocument.Push(oTable);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("We add the left 4 point black border:");
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
+let tablePr = tableStyle.GetTablePr();
+let table = Api.CreateTable(3, 3);
+table.SetWidth("percent", 100);
+tablePr.SetTableBorderLeft("single", 32, 0, 51, 51, 51);
+table.SetTableLook(true, true, true, true, false, false);
+table.SetStyle(tableStyle);
+doc.Push(table);
 ```

@@ -4,7 +4,9 @@ Specifies the shading applied to the contents of the current text Range.
 
 ## Syntax
 
+```javascript
 expression.SetShd(sType, r, g, b);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
@@ -19,16 +21,16 @@ expression.SetShd(sType, r, g, b);
 
 ## Returns
 
-ApiRange, null
+[ApiRange](../../ApiRange/ApiRange.md) | null
 
 ## Example
 
 This example specifies the shading applied to the contents of the current text Range.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("ONLYOFFICE Document Builder");
-var oRange = oDocument.GetRange(0, 24);
-oRange.SetShd("clear", 255, 111, 61);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("ONLYOFFICE Document Builder");
+let range = doc.GetRange(0, 24);
+range.SetShd("clear", 255, 111, 61);
 ```

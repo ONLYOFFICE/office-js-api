@@ -6,7 +6,9 @@ process before the full recalculation.
 
 ## Syntax
 
+```javascript
 expression.GetPageCount();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
@@ -23,8 +25,8 @@ number
 This example shows how to get a number of pages in the current document.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var sPageCount = oDocument.GetPageCount();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("Number of pages: " + sPageCount);
+let doc = Api.GetDocument();
+let pageCount = doc.GetPageCount();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("Number of pages: " + pageCount);
 ```

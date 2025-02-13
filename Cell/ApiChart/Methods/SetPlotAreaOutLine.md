@@ -4,7 +4,9 @@ Sets the outline to the chart plot area.
 
 ## Syntax
 
+```javascript
 expression.SetPlotAreaOutLine(oStroke);
+```
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 

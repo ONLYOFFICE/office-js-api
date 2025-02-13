@@ -17,12 +17,11 @@ Object
 | autoFit | boolean | Specifies if the text field content should be autofit, i.e. whether the font size adjusts to the size of the fixed size form. |
 
 
-
 ## Example
 
 This example creates a text form with the specific text form properties.
 
 ```javascript
-var oTextFormPrBase = {"comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false};
-var oTextForm = Api.CreateTextForm(oTextFormPrBase);
+let textFormPrBase = {"comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false};
+let textForm = Api.CreateTextForm(textFormPrBase);
 ```

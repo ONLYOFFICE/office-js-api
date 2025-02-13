@@ -4,7 +4,9 @@ Sets a name to the current layout.
 
 ## Syntax
 
+```javascript
 expression.SetName(sName);
+```
 
 `expression` - A variable that represents a [ApiLayout](../ApiLayout.md) class.
 

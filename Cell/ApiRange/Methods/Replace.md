@@ -4,7 +4,9 @@ Replaces specific information to another one in a range.
 
 ## Syntax
 
+```javascript
 expression.Replace(What, Replacement, LookAt, SearchOrder, SearchDirection, MatchCase, ReplaceAll);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
@@ -12,7 +14,7 @@ expression.Replace(What, Replacement, LookAt, SearchOrder, SearchDirection, Matc
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| What | Required | string &#124; undefined |  | The data to search for. |
+| What | Required | string | undefined |  | The data to search for. |
 | Replacement | Required | string |  | The replacement string. |
 | LookAt | Required | [XlLookAt](../../Enumeration/XlLookAt.md) |  | Specifies whether the whole search text or any part of the search text is matched. |
 | SearchOrder | Required | [XlSearchOrder](../../Enumeration/XlSearchOrder.md) |  | Range search order - by rows or by columns. |

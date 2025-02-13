@@ -1,10 +1,12 @@
 # ISNA
 
-Checks whether a value is #N/A, and returns TRUE or FALSE.
+Checks whether a value is &lt;em&gt;#N/A&lt;/em&gt;, and returns **true** or **false**.
 
 ## Syntax
 
+```javascript
 expression.ISNA(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,11 +14,11 @@ expression.ISNA(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is the value you want to test. Value can refer to a cell, a formula, or a name that refers to a cell, formula, or value. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | string | number | boolean | [ApiName](../../ApiName/ApiName.md) |  | The value to test. The value can be an empty cell, error, logical value, text, number, range, or range name. |
 
 ## Returns
 
-number, string, boolean
+boolean
 
 ## Example
 

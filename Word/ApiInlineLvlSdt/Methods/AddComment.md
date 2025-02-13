@@ -5,7 +5,9 @@ Adds a comment to the current inline content control.
 
 ## Syntax
 
+```javascript
 expression.AddComment(sText, sAuthor, sUserId);
+```
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 
@@ -26,10 +28,10 @@ expression.AddComment(sText, sAuthor, sUserId);
 This example adds a comment to the inline content control.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oInlineLvlSdt = Api.CreateInlineLvlSdt();
-oInlineLvlSdt.AddText("This is an inline text content control.");
-oParagraph.AddInlineLvlSdt(oInlineLvlSdt);
-oInlineLvlSdt.AddComment("comment", "John Smith");
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let inlineLvlSdt = Api.CreateInlineLvlSdt();
+inlineLvlSdt.AddText("This is an inline text content control.");
+paragraph.AddInlineLvlSdt(inlineLvlSdt);
+inlineLvlSdt.AddComment("comment", "John Smith");
 ```

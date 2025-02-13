@@ -5,7 +5,9 @@ Specifies the indentation which will be added before the leading edge of the cur
 
 ## Syntax
 
+```javascript
 expression.SetTableInd(nValue);
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 
@@ -24,16 +26,16 @@ This method doesn't return any data.
 This example specifies the indentation which will be added before the leading edge of the table in the document.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("We set the indent of 1 inch for the table:");
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-var oTablePr = oTableStyle.GetTablePr();
-var oTable = Api.CreateTable(3, 3);
-oTable.SetWidth("percent", 100);
-oTablePr.SetTableInd(1440);
-oTable.SetTableLook(true, true, true, true, false, false);
-oTable.SetStyle(oTableStyle);
-oDocument.Push(oTable);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("We set the indent of 1 inch for the table:");
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
+let tablePr = tableStyle.GetTablePr();
+let table = Api.CreateTable(3, 3);
+table.SetWidth("percent", 100);
+tablePr.SetTableInd(1440);
+table.SetTableLook(true, true, true, true, false, false);
+table.SetStyle(tableStyle);
+doc.Push(table);
 ```

@@ -4,7 +4,9 @@ Returns the parent object for the specified collection.
 
 ## Syntax
 
+```javascript
 expression.GetParent();
+```
 
 `expression` - A variable that represents a [ApiAreas](../ApiAreas.md) class.
 

@@ -4,7 +4,9 @@ Specifies whether the current section in this document has the different header 
 
 ## Syntax
 
+```javascript
 expression.SetTitlePage(isTitlePage);
+```
 
 `expression` - A variable that represents a [ApiSection](../ApiSection.md) class.
 
@@ -23,18 +25,18 @@ This method doesn't return any data.
 This example specifies whether the current section in this document has the different header and footer for the section first page.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("This page does not have a footer, as it is a title page. ");
-oParagraph.AddText("Scroll down the page to see if the footer was removed.");
-var oSection = oDocument.CreateSection(oParagraph);
-oSection.SetTitlePage(true);
-var oFooter = oSection.GetFooter("default", true);
-oParagraph = oFooter.GetElement(0);
-oParagraph.AddText("This is page footer. ");
-oParagraph.AddText("You will only see it for page #2.");
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("This is page #2 and it has a footer. ");
-oParagraph.AddText("Scroll down the page to see it.");
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("This page does not have a footer, as it is a title page. ");
+paragraph.AddText("Scroll down the page to see if the footer was removed.");
+let section = doc.CreateSection(paragraph);
+section.SetTitlePage(true);
+let footer = section.GetFooter("default", true);
+paragraph = footer.GetElement(0);
+paragraph.AddText("This is page footer. ");
+paragraph.AddText("You will only see it for page #2.");
+paragraph = Api.CreateParagraph();
+paragraph.AddText("This is page #2 and it has a footer. ");
+paragraph.AddText("Scroll down the page to see it.");
+doc.Push(paragraph);
 ```

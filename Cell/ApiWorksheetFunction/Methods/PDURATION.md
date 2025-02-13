@@ -4,7 +4,9 @@ Returns the number of periods required by an investment to reach a specified val
 
 ## Syntax
 
+```javascript
 expression.PDURATION(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,13 +14,13 @@ expression.PDURATION(arg1, arg2, arg3);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is the interest rate per period.. |
-| arg2 | Required | number |  | Is the present value of the investment. |
-| arg3 | Required | number |  | Is the desired future value of the investment. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The interest rate per period. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The present value of the investment. |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The desired future value of the investment. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

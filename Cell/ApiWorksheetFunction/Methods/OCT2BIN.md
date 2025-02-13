@@ -4,7 +4,9 @@ Converts an octal number to binary.
 
 ## Syntax
 
+```javascript
 expression.OCT2BIN(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,12 +14,12 @@ expression.OCT2BIN(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is the octal number you want to convert. |
-| arg2 | Required | any |  | Is the number of characters to use. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The octal number to convert. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The number of characters to use. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

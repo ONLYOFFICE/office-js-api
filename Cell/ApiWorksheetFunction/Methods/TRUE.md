@@ -1,10 +1,12 @@
 # TRUE
 
-Returns the logical value TRUE.
+Returns the **true** logical value.
 
 ## Syntax
 
+```javascript
 expression.TRUE();
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -14,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-number, string, boolean
+boolean
 
 ## Example
 

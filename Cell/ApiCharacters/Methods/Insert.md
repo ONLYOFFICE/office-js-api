@@ -4,7 +4,9 @@ Inserts a string replacing the specified characters.
 
 ## Syntax
 
+```javascript
 expression.Insert(String);
+```
 
 `expression` - A variable that represents a [ApiCharacters](../ApiCharacters.md) class.
 

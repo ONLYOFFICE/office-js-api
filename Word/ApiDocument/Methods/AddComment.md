@@ -1,10 +1,12 @@
 # AddComment
 
-Adds a comment to the document.
+Adds a comment to the current document selection, or to the current word if no text is selected.
 
 ## Syntax
 
+```javascript
 expression.AddComment(sText, sAuthor, sUserId);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
@@ -25,10 +27,10 @@ expression.AddComment(sText, sAuthor, sUserId);
 This example adds a comment to the document.
 
 ```javascript
-var oDocument = Api.GetDocument(); 
-var oParagraph = oDocument.GetElement(0); 
-oParagraph.AddText("This is just a sample text.");
-oParagraph.AddLineBreak();
-oParagraph.AddText("The comment was added to this document.");
-oDocument.AddComment("This is a comment to the document.", "Jane");
+let doc = Api.GetDocument(); 
+let paragraph = doc.GetElement(0); 
+paragraph.AddText("This is just a sample text.");
+paragraph.AddLineBreak();
+paragraph.AddText("The comment was added to this document.");
+doc.AddComment("This is a comment to the document.", "Jane");
 ```

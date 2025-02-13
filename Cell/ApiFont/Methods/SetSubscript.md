@@ -5,7 +5,9 @@ Sets the subscript property to the specified font.
 
 ## Syntax
 
+```javascript
 expression.SetSubscript(isSubscript);
+```
 
 `expression` - A variable that represents a [ApiFont](../ApiFont.md) class.
 

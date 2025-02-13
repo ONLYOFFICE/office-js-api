@@ -4,7 +4,9 @@ Deletes the current table.
 
 ## Syntax
 
+```javascript
 expression.Delete();
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 
@@ -21,15 +23,15 @@ boolean
 This example deletes the table.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-var oTable = Api.CreateTable(3, 3);
-oTable.SetWidth("percent", 100);
-oTable.SetStyle(oTableStyle);
-oDocument.Push(oTable);
-oTable.Delete();
-var oParagraph = Api.CreateParagraph();
-oParagraph.AddText("The table was removed from the document.");
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
+let table = Api.CreateTable(3, 3);
+table.SetWidth("percent", 100);
+table.SetStyle(tableStyle);
+doc.Push(table);
+table.Delete();
+let paragraph = Api.CreateParagraph();
+paragraph.AddText("The table was removed from the document.");
+doc.Push(paragraph);
 ```

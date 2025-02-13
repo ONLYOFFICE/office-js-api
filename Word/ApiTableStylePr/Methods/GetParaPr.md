@@ -4,7 +4,9 @@ Returns a set of the paragraph properties which will be applied to all the parag
 
 ## Syntax
 
+```javascript
 expression.GetParaPr();
+```
 
 `expression` - A variable that represents a [ApiTableStylePr](../ApiTableStylePr.md) class.
 
@@ -21,19 +23,19 @@ This method doesn't have any parameters.
 This example shows how to get a set of the paragraph properties which will be applied to all the paragraphs within a table which match the conditional formatting type.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("We create a 3x3 table and set the text alignment to center for row #1:");
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-var oTable = Api.CreateTable(3, 3);
-oTable.SetWidth("percent", 100);
-var oTableStylePr = oTableStyle.GetConditionalTableStyle("firstRow");
-oTable.SetTableLook(true, true, true, true, true, true);
-var oParaPr = oTableStylePr.GetParaPr();
-oParaPr.SetJc("center");
-oParagraph = oTable.GetRow(0).GetCell(0).GetContent().GetElement(0);
-oParagraph.AddText("This is a paragraph with the text in it aligned by the center.");
-oTable.SetStyle(oTableStyle);
-oDocument.Push(oTable);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("We create a 3x3 table and set the text alignment to center for row #1:");
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
+let table = Api.CreateTable(3, 3);
+table.SetWidth("percent", 100);
+let tableStylePr = tableStyle.GetConditionalTableStyle("firstRow");
+table.SetTableLook(true, true, true, true, true, true);
+let paraPr = tableStylePr.GetParaPr();
+paraPr.SetJc("center");
+paragraph = table.GetRow(0).GetCell(0).GetContent().GetElement(0);
+paragraph.AddText("This is a paragraph with the text in it aligned by the center.");
+table.SetStyle(tableStyle);
+doc.Push(table);
 ```

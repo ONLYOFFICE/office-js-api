@@ -4,7 +4,9 @@ Returns a type of the chart object.
 
 ## Syntax
 
+```javascript
 expression.GetChartType();
+```
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 

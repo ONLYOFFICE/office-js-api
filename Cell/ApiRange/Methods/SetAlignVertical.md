@@ -4,7 +4,9 @@ Sets the vertical alignment of the text in the current cell range.
 
 ## Syntax
 
+```javascript
 expression.SetAlignVertical(sAligment);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
@@ -12,7 +14,7 @@ expression.SetAlignVertical(sAligment);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sAligment | Required | 'center' &#124; 'bottom' &#124; 'top' &#124; 'distributed' &#124; 'justify' |  | The vertical alignment that will be applied to the cell contents. |
+| sAligment | Required | 'center' | 'bottom' | 'top' | 'distributed' | 'justify' |  | The vertical alignment that will be applied to the cell contents. |
 
 ## Returns
 

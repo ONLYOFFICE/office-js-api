@@ -4,7 +4,9 @@ Creates a complex color scheme selecting from one of the available schemes.
 
 ## Syntax
 
-expression.CreateSchemeColor(sSchemeColorId);
+```javascript
+expression.CreateSchemeColor(schemeColorId);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -12,7 +14,7 @@ expression.CreateSchemeColor(sSchemeColorId);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sSchemeColorId | Required | [SchemeColorId](../../Enumeration/SchemeColorId.md) |  | The color scheme identifier. |
+| schemeColorId | Required | [SchemeColorId](../../Enumeration/SchemeColorId.md) |  | The color scheme identifier. |
 
 ## Returns
 

@@ -4,7 +4,9 @@ Sets a locale to the document.
 
 ## Syntax
 
+```javascript
 expression.SetLocale(LCID);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

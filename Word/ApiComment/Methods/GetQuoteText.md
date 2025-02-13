@@ -4,7 +4,9 @@ Returns the quote text of the current comment.
 
 ## Syntax
 
+```javascript
 expression.GetQuoteText();
+```
 
 `expression` - A variable that represents a [ApiComment](../ApiComment.md) class.
 
@@ -21,13 +23,13 @@ Number
 This example shows how to get the quote text of the comment.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("This is just a sample text");
-Api.AddComment(oParagraph, "comment", "John Smith");
-var aComments = oDocument.GetAllComments();
-var sQuoteText = aComments[0].GetQuoteText();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Comment quote text: " + sQuoteText);
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("This is just a sample text");
+Api.AddComment(paragraph, "comment", "John Smith");
+let comments = doc.GetAllComments();
+let quoteText = comments[0].GetQuoteText();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Comment quote text: " + quoteText);
+doc.Push(paragraph);
 ```

@@ -4,7 +4,9 @@ Sets the bold property to the text character.
 
 ## Syntax
 
+```javascript
 expression.SetBold(isBold);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
@@ -16,16 +18,16 @@ expression.SetBold(isBold);
 
 ## Returns
 
-ApiRange, null
+[ApiRange](../../ApiRange/ApiRange.md) | null
 
 ## Example
 
 This example sets the bold property to the text character.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("ONLYOFFICE Document Builder");
-var oRange = oDocument.GetRange(0, 24);
-oRange.SetBold(true);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("ONLYOFFICE Document Builder");
+let range = doc.GetRange(0, 24);
+range.SetBold(true);
 ```

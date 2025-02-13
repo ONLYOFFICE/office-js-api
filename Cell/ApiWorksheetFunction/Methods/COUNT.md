@@ -4,7 +4,9 @@ Counts a number of cells in a range that contains numbers ignoring empty cells o
 
 ## Syntax
 
+```javascript
 expression.COUNT(args);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,7 +14,7 @@ expression.COUNT(args);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| args | Required | string &#124; array &#124; [ApiRange](../../ApiRange/ApiRange.md) |  | Up to 255 items, cell references, or ranges to count numbers. The first argument is required, subsequent arguments are optional. |
+| args | Required | string | number | boolean | [ApiRange](../../ApiRange/ApiRange.md) | array | [ApiName](../../ApiName/ApiName.md) |  | Up to 255 items, or ranges to count numbers. The first argument is required, subsequent arguments are optional. Arguments can be numbers, logical values and text representations of numbers, ranges, names, or arrays. |
 
 ## Returns
 

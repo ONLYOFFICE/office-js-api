@@ -4,7 +4,9 @@ Removes all the objects from the current slide.
 
 ## Syntax
 
+```javascript
 expression.RemoveAllObjects();
+```
 
 `expression` - A variable that represents a [ApiSlide](../ApiSlide.md) class.
 

@@ -4,7 +4,9 @@ Returns the type of the ApiMaster class.
 
 ## Syntax
 
+```javascript
 expression.GetClassType();
+```
 
 `expression` - A variable that represents a [ApiMaster](../ApiMaster.md) class.
 

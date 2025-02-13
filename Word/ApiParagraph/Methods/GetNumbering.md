@@ -4,7 +4,9 @@ Returns the numbering definition and numbering level for the numbered list.
 
 ## Syntax
 
+```javascript
 expression.GetNumbering();
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 
@@ -21,18 +23,18 @@ This method doesn't have any parameters.
 This example shows how to get the numbering definition and numbering level for the numbered list.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oNumbering = oDocument.CreateNumbering("numbered");
-var oNumLvl = oNumbering.GetLevel(0);
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("This is the first element of a numbered list");
-oParagraph.SetNumbering(oNumLvl);
-oParagraph.SetContextualSpacing(true);
-var oNumbering1 = oParagraph.GetNumbering();
-oNumLvl = oNumbering.GetLevel(0);
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("This is the second element of a numbered list");
-oParagraph.SetNumbering(oNumLvl);
-oParagraph.SetContextualSpacing(true);
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let numbering = doc.CreateNumbering("numbered");
+let numLvl = numbering.GetLevel(0);
+let paragraph = doc.GetElement(0);
+paragraph.AddText("This is the first element of a numbered list");
+paragraph.SetNumbering(numLvl);
+paragraph.SetContextualSpacing(true);
+let numbering1 = paragraph.GetNumbering();
+numLvl = numbering.GetLevel(0);
+paragraph = Api.CreateParagraph();
+paragraph.AddText("This is the second element of a numbered list");
+paragraph.SetNumbering(numLvl);
+paragraph.SetContextualSpacing(true);
+doc.Push(paragraph);
 ```

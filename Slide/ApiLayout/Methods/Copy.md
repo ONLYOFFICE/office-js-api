@@ -5,7 +5,9 @@ Copies without master slide.
 
 ## Syntax
 
+```javascript
 expression.Copy();
+```
 
 `expression` - A variable that represents a [ApiLayout](../ApiLayout.md) class.
 
@@ -15,7 +17,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-ApiLayout, null
+[ApiLayout](../../ApiLayout/ApiLayout.md) | null
 
 ## Example
 

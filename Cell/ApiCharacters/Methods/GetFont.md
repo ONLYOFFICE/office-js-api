@@ -4,7 +4,9 @@ Returns the ApiFont object that represents the font of the specified characters.
 
 ## Syntax
 
+```javascript
 expression.GetFont();
+```
 
 `expression` - A variable that represents a [ApiCharacters](../ApiCharacters.md) class.
 

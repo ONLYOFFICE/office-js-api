@@ -4,7 +4,9 @@ Returns an integer representing the data type of a value: number = 1; text = 2; 
 
 ## Syntax
 
+```javascript
 expression.TYPE(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,11 +14,11 @@ expression.TYPE(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Can be any value. |
+| arg1 | Required | number | string | boolean | array | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) |  | A value to test. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

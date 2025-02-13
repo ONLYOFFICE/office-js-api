@@ -4,7 +4,9 @@ Returns the value of the density function for a standard normal distribution.
 
 ## Syntax
 
+```javascript
 expression.PHI(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,7 +14,7 @@ expression.PHI(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | The number for which the density of the standard normal distribution will be returned. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The number for which the density of the standard normal distribution will be returned. |
 
 ## Returns
 

@@ -1,10 +1,12 @@
 # TODAY
 
-Returns the current date formatted as a date..
+Returns the current date in the &lt;em&gt;MM/dd/yy&lt;/em&gt; format.
 
 ## Syntax
 
+```javascript
 expression.TODAY();
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -14,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

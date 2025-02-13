@@ -15,7 +15,9 @@ Returns the document information:
 
 ## Syntax
 
+```javascript
 expression.GetDocumentInfo();
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

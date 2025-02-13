@@ -4,7 +4,9 @@ Inserts a watermark on each document page.
 
 ## Syntax
 
+```javascript
 expression.InsertWatermark(sText, bIsDiagonal);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
@@ -24,8 +26,8 @@ expression.InsertWatermark(sText, bIsDiagonal);
 This example inserts a watermark on each document page.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("A watermark was inserted into this document.");
-oDocument.InsertWatermark("Watermark");
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("A watermark was inserted into this document.");
+doc.InsertWatermark("Watermark");
 ```

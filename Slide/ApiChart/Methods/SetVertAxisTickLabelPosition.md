@@ -4,7 +4,9 @@ Spicifies tick labels position for the vertical axis.
 
 ## Syntax
 
+```javascript
 expression.SetVertAxisTickLabelPosition(sTickLabelPosition);
+```
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 

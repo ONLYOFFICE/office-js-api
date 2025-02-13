@@ -4,7 +4,9 @@ Returns an array with all the image objects from the slide.
 
 ## Syntax
 
+```javascript
 expression.GetAllImages();
+```
 
 `expression` - A variable that represents a [ApiSlide](../ApiSlide.md) class.
 
@@ -14,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Array.<[ApiImage](../../ApiImage/ApiImage.md)>
+[ApiImage[]](../../ApiImage/ApiImage.md)
 
 ## Example
 

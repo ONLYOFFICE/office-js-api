@@ -4,7 +4,9 @@ Returns the previous section if exists.
 
 ## Syntax
 
+```javascript
 expression.GetPrevious();
+```
 
 `expression` - A variable that represents a [ApiSection](../ApiSection.md) class.
 
@@ -14,23 +16,23 @@ This method doesn't have any parameters.
 
 ## Returns
 
-ApiSection, null
+[ApiSection](../../ApiSection/ApiSection.md) | null
 
 ## Example
 
 This example shows how to get the previous section.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("This is a new paragraph.");
-oParagraph.AddLineBreak();
-oParagraph.AddText("Scroll down to see the new section.");
-var oSection1 = oDocument.CreateSection(oParagraph);
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("This is a paragraph in the first section");
-oDocument.Push(oParagraph);
-var oSection2 = oDocument.CreateSection(oParagraph);
-var oPreviousSection = oSection2.GetPrevious();
-oPreviousSection.SetPageMargins(7200, 2880, 1440, 5760);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("This is a new paragraph.");
+paragraph.AddLineBreak();
+paragraph.AddText("Scroll down to see the new section.");
+let section1 = doc.CreateSection(paragraph);
+paragraph = Api.CreateParagraph();
+paragraph.AddText("This is a paragraph in the first section");
+doc.Push(paragraph);
+let section2 = doc.CreateSection(paragraph);
+let previousSection = section2.GetPrevious();
+previousSection.SetPageMargins(7200, 2880, 1440, 5760);
 ```

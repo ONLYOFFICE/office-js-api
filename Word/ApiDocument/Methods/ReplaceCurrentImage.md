@@ -4,7 +4,9 @@ Replaces the current image with an image specified.
 
 ## Syntax
 
+```javascript
 expression.ReplaceCurrentImage(sImageUrl, Width, Height);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
@@ -25,10 +27,10 @@ This method doesn't return any data.
 This example replaces the current image with an image specified.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oDrawing = Api.CreateImage("https://api.onlyoffice.com/content/img/docbuilder/examples/coordinate_aspects.png", 60 * 36000, 35 * 36000);
-oParagraph.AddDrawing(oDrawing);
-oDrawing.Select();
-oDocument.ReplaceCurrentImage("https://helpcenter.onlyoffice.com/images/Help/GettingStarted/Documents/big/EditDocument.png", 60 * 36000, 35 * 36000);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let drawing = Api.CreateImage("https://static.onlyoffice.com/assets/docs/samples/img/onlyoffice_logo.png", 60 * 36000, 35 * 36000);
+paragraph.AddDrawing(drawing);
+drawing.Select();
+doc.ReplaceCurrentImage("https://helpcenter.onlyoffice.com/images/Help/GettingStarted/Documents/big/EditDocument.png", 60 * 36000, 35 * 36000);
 ```

@@ -5,7 +5,9 @@ Sets the font name property to the specified font.
 
 ## Syntax
 
+```javascript
 expression.SetName(FontName);
+```
 
 `expression` - A variable that represents a [ApiFont](../ApiFont.md) class.
 

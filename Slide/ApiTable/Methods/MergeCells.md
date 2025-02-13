@@ -5,7 +5,9 @@ Merges an array of cells. If merge is successful, it will return merged cell, ot
 
 ## Syntax
 
+```javascript
 expression.MergeCells(aCells);
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 
@@ -13,7 +15,7 @@ expression.MergeCells(aCells);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| aCells | Required | Array.<[ApiTableCell](../../ApiTableCell/ApiTableCell.md)> |  | The array of cells. |
+| aCells | Required | [ApiTableCell[]](../../ApiTableCell/ApiTableCell.md) |  | The array of cells. |
 
 ## Returns
 

@@ -4,7 +4,9 @@ Sets the paragraph contents justification.
 
 ## Syntax
 
+```javascript
 expression.SetJc(sJc);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 
@@ -12,7 +14,7 @@ expression.SetJc(sJc);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sJc | Required | "left" &#124; "right" &#124; "both" &#124; "center" |  | The justification type that will be applied to the paragraph contents. |
+| sJc | Required | "left" | "right" | "both" | "center" |  | The justification type that will be applied to the paragraph contents. |
 
 ## Returns
 
@@ -23,44 +25,44 @@ This method doesn't return any data.
 This example sets the paragraph contents justification.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oMyStyleLeft = oDocument.CreateStyle("My style with left text alignment");
-var oParaPr = oMyStyleLeft.GetParaPr();
-oParaPr.SetJc("left");
-var oMyStyleRight = oDocument.CreateStyle("My style with right text alignment");
-oParaPr = oMyStyleRight.GetParaPr();
-oParaPr.SetJc("right");
-var oMyStyleCenter = oDocument.CreateStyle("My style with center text alignment");
-oParaPr = oMyStyleCenter.GetParaPr();
-oParaPr.SetJc("center");
-var oMyStyleBoth = oDocument.CreateStyle("My style with justify text alignment");
-oParaPr = oMyStyleBoth.GetParaPr();
-oParaPr.SetJc("both");
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("This is a paragraph with the text in it aligned by the left side. ");
-oParagraph.AddText("The justification is specified in the paragraph style. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes.");
-oParagraph.SetStyle(oMyStyleLeft);
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("This is a paragraph with the text in it aligned by the right side. ");
-oParagraph.AddText("The justification is specified in the paragraph style. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes.");
-oParagraph.SetStyle(oMyStyleRight);
-oDocument.Push(oParagraph);
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("This is a paragraph with the text in it aligned by the center. ");
-oParagraph.AddText("The justification is specified in the paragraph style. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes.");
-oParagraph.SetStyle(oMyStyleCenter);
-oDocument.Push(oParagraph);
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("This is a paragraph with the text in it aligned by both sides (justified). ");
-oParagraph.AddText("The justification is specified in the paragraph style. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes.");
-oParagraph.SetStyle(oMyStyleBoth);
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let myStyleLeft = doc.CreateStyle("My style with left text alignment");
+let paraPr = myStyleLeft.GetParaPr();
+paraPr.SetJc("left");
+let myStyleRight = doc.CreateStyle("My style with right text alignment");
+paraPr = myStyleRight.GetParaPr();
+paraPr.SetJc("right");
+let myStyleCenter = doc.CreateStyle("My style with center text alignment");
+paraPr = myStyleCenter.GetParaPr();
+paraPr.SetJc("center");
+let myStyleBoth = doc.CreateStyle("My style with justify text alignment");
+paraPr = myStyleBoth.GetParaPr();
+paraPr.SetJc("both");
+let paragraph = doc.GetElement(0);
+paragraph.AddText("This is a paragraph with the text in it aligned by the left side. ");
+paragraph.AddText("The justification is specified in the paragraph style. ");
+paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
+paragraph.AddText("These sentences are used to add lines for demonstrative purposes.");
+paragraph.SetStyle(myStyleLeft);
+paragraph = Api.CreateParagraph();
+paragraph.AddText("This is a paragraph with the text in it aligned by the right side. ");
+paragraph.AddText("The justification is specified in the paragraph style. ");
+paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
+paragraph.AddText("These sentences are used to add lines for demonstrative purposes.");
+paragraph.SetStyle(myStyleRight);
+doc.Push(paragraph);
+paragraph = Api.CreateParagraph();
+paragraph.AddText("This is a paragraph with the text in it aligned by the center. ");
+paragraph.AddText("The justification is specified in the paragraph style. ");
+paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
+paragraph.AddText("These sentences are used to add lines for demonstrative purposes.");
+paragraph.SetStyle(myStyleCenter);
+doc.Push(paragraph);
+paragraph = Api.CreateParagraph();
+paragraph.AddText("This is a paragraph with the text in it aligned by both sides (justified). ");
+paragraph.AddText("The justification is specified in the paragraph style. ");
+paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
+paragraph.AddText("These sentences are used to add lines for demonstrative purposes.");
+paragraph.SetStyle(myStyleBoth);
+doc.Push(paragraph);
 ```

@@ -4,7 +4,9 @@ Applies the specified theme to the current slide.
 
 ## Syntax
 
+```javascript
 expression.ApplyTheme(oApiTheme);
+```
 
 `expression` - A variable that represents a [ApiSlide](../ApiSlide.md) class.
 

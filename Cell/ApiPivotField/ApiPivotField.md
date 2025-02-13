@@ -7,33 +7,33 @@ Represents the ApiPivotField class.
 | Name | Type | Description |
 | ---- | ---- | ----------- |
 | Position | number | Returns or sets a value that represents the position of the field (first, second, third, and so on) among all the fields in its orientation (Rows, Columns, Pages, Data). |
-| Orientation | number | A pivot field orientation value that represents the location of the field in the specified PivotTable report. |
+| Orientation | number | Returns or sets a pivot field orientation value that represents the location of the field in the specified pivot table report. |
 | Caption | string | Returns or sets a value that represents the label text for the pivot field. |
-| Name | string | Returns or sets a value representing the name of the object. |
-| Value | string | Returns or sets a value representing the name of the object. |
-| SourceName | string | Returns source name. |
-| Index | number | Returns index. |
-| Table | [ApiPivotTable](../ApiPivotTable/ApiPivotTable.md) | Returns ApiPivotField. |
-| Parent | [ApiPivotTable](../ApiPivotTable/ApiPivotTable.md) | Returns parent object to this field. |
-| LayoutCompactRow | boolean | Returns or sets whether or not a PivotField is compacted. |
-| LayoutForm | number | Returns or sets the way the specified PivotTable items appear—in table format or in outline format. |
-| LayoutPageBreak | boolean | Returns or set the flag that represents page break is inserted after each field. |
-| ShowingInAxis | boolean | Returns if the PivotField is currently visible in the PivotTable or not. |
-| RepeatLabels | boolean | setting repeat items labels at each row. |
-| LayoutBlankLine | boolean | Returns or sets setting insert blank rows after each item. |
-| ShowAllItems | boolean | Returns or sets setting show items with no data. |
-| LayoutSubtotals | boolean | Returns or sets setting show subtotals. |
-| LayoutSubtotalLocation | number | Returns or sets setting layout subtotal location. |
-| SubtotalName | string | Returns or sets text string label displayed in the subtotal column or row heading in the specified PivotTable report. |
-| Subtotals | object | Returns or sets subtotals. |
+| Name | string | Returns or sets a value representing the object name. |
+| Value | string | Returns or sets a value representing the name of the specified field in the pivot table report. |
+| SourceName | string | Returns a source name for the pivot table field. |
+| Index | number | Returns an index for the pivot table field. |
+| Table | [ApiPivotTable](../ApiPivotTable/ApiPivotTable.md) | Returns the ApiPivotTable object which represents the pivot table for the current field. |
+| Parent | [ApiPivotTable](../ApiPivotTable/ApiPivotTable.md) | Returns the parent object for the current field. |
+| LayoutCompactRow | boolean | Returns or sets the setting which specifies whether a pivot table field is compacted. |
+| LayoutForm | number | Returns or sets the way the specified pivot table items appear — in table format or in outline format. |
+| LayoutPageBreak | boolean | Returns or sets the setting which specifies whether to insert a page break after each field. |
+| ShowingInAxis | boolean | Returns the setting which specifies whether the pivot table field is currently visible in the pivot table. |
+| RepeatLabels | boolean | Returns or sets the setting which specifies whether to repeat items labels at each row. |
+| LayoutBlankLine | boolean | Returns and sets the setting which specifies whether to insert blank rows after each item. |
+| ShowAllItems | boolean | Returns or sets the setting which specifies whether to show items with no data. |
+| LayoutSubtotals | boolean | Returns or sets the setting which specifies whether to show subtotals. |
+| LayoutSubtotalLocation | number | Returns or sets the layout subtotal location. |
+| SubtotalName | string | Returns or sets the text label displayed in the subtotal column or row heading in the specified pivot table report. |
+| Subtotals | object | Returns or sets the subtotals. |
 | Formula | number | Returns or sets a value that represents the object's formula. |
-| DragToColumn | boolean | Returns or sets the specified field, can be dragged to the column position or not. |
-| DragToRow | boolean | Returns or sets the specified field, can be dragged to the row position or not. |
-| DragToData | boolean | Returns or sets the specified field, can be dragged to the data position or not. |
-| DragToPage | boolean | Returns or sets the specified field, can be dragged to the page position or not. |
-| NumberFormat | string &#124; null | Returns or sets a value that represents the format code for the object. |
-| CurrentPage | string &#124; number | Returns the current page showing for the page field (valid only for page fields). |
-
+| DragToColumn | boolean | Returns or sets the setting which specifies whether the specified field can be dragged to the column position. |
+| DragToRow | boolean | Returns or sets the setting which specifies whether the specified field can be dragged to the row position. |
+| DragToData | boolean | Returns or sets the setting which specifies whether the specified field can be dragged to the data position. |
+| DragToPage | boolean | Returns or sets the setting which specifies whether the specified field can be dragged to the page position. |
+| NumberFormat | string | null | Returns or sets a value that represents the format code for the object. |
+| CurrentPage | string | number | Returns the current page which is displayed for the page field (valid only for page fields). |
+| PivotItems | [ApiPivotItem](../ApiPivotItem/ApiPivotItem.md) | [ApiPivotItem[]](../ApiPivotItem/ApiPivotItem.md) | Returns an object that represents either a single pivot table item (the ApiPivotItem object) or a collection of all the visible and hidden items (an array of the ApiPivotItem objects) in the specified field. |
 ## Methods
 
 - [ClearAllFilters](./Methods/ClearAllFilters.md)

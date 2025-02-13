@@ -1,6 +1,6 @@
 # PivotFieldOrientationType
 
-No description provided.
+The pivot field orientation type.
 
 ## Type
 

@@ -5,7 +5,9 @@ Sets a copy of the theme object.
 
 ## Syntax
 
+```javascript
 expression.SetTheme(oTheme);
+```
 
 `expression` - A variable that represents a [ApiMaster](../ApiMaster.md) class.
 

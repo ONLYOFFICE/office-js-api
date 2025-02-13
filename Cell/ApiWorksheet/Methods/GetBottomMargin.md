@@ -4,7 +4,9 @@ Returns the bottom margin of the sheet.
 
 ## Syntax
 
+```javascript
 expression.GetBottomMargin();
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

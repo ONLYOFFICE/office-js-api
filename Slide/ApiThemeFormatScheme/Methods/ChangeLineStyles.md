@@ -4,7 +4,9 @@ Sets the line styles to the current theme format scheme.
 
 ## Syntax
 
+```javascript
 expression.ChangeLineStyles(arrLine);
+```
 
 `expression` - A variable that represents a [ApiThemeFormatScheme](../ApiThemeFormatScheme.md) class.
 
@@ -12,7 +14,7 @@ expression.ChangeLineStyles(arrLine);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arrLine | Required | Array.<[ApiStroke](../../ApiStroke/ApiStroke.md)> |  | The array of line styles must contain 3 elements - subtle, moderate and intense fills. If an array is empty or ApiStroke elements are with no fill, it will be filled with the Api.CreateStroke(0, Api.CreateNoFill()) elements. |
+| arrLine | Required | [ApiStroke[]](../../ApiStroke/ApiStroke.md) |  | The array of line styles must contain 3 elements - subtle, moderate and intense fills. If an array is empty or ApiStroke elements are with no fill, it will be filled with the Api.CreateStroke(0, Api.CreateNoFill()) elements. |
 
 ## Returns
 

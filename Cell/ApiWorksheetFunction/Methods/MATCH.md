@@ -1,10 +1,12 @@
 # MATCH
 
-Returns the relative position of an item in an array that matches a specified value in a specified order.
+Returns the relative position of an item in a range that matches the specified value in the specified order.
 
 ## Syntax
 
+```javascript
 expression.MATCH(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,13 +14,13 @@ expression.MATCH(arg1, arg2, arg3);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is the value you use to find the value you want in the array, a number, text, or logical value, or a reference to one of these. |
-| arg2 | Required | number |  | Is a contiguous range of cells containing possible lookup values, an array of values, or a reference to an array. |
-| arg3 | Required | number |  | Is a number 1, 0, or -1 indicating which value to return.. |
+| arg1 | Required | number | string | boolean | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) |  | The value to be matched in the range. It can be a number, text, or logical value, or a reference to one of these. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | array |  | A contiguous range of cells or an array containing possible lookup values. |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | A number 1, 0, or -1 indicating which value to return. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

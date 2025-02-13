@@ -4,7 +4,9 @@ Returns the comment author's name.
 
 ## Syntax
 
+```javascript
 expression.GetAuthorName();
+```
 
 `expression` - A variable that represents a [ApiComment](../ApiComment.md) class.
 
@@ -21,13 +23,13 @@ string
 This example shows how to get the comment author's name.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("This is just a sample text");
-Api.AddComment(oParagraph, "comment", "John Smith");
-var aComments = oDocument.GetAllComments();
-var AuthorName = aComments[0].GetAuthorName();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Author name: " + AuthorName);
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("This is just a sample text");
+Api.AddComment(paragraph, "comment", "John Smith");
+let comments = doc.GetAllComments();
+let authorName = comments[0].GetAuthorName();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Author name: " + authorName);
+doc.Push(paragraph);
 ```

@@ -4,7 +4,9 @@ Returns the mail merge template document.
 
 ## Syntax
 
+```javascript
 expression.GetMailMergeTemplateDocContent();
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -21,38 +23,38 @@ This method doesn't have any parameters.
 This example gets mail merge template and paste some data of it into the document.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var arrField = ["Greeting line", "First name", "Last name"];
-for (let i = 0; i < 3; i++) {
-	var oRun = Api.CreateRun();
-	oRun.AddText(arrField[i]);
-	oParagraph.AddElement(oRun);
-	oRun.WrapInMailMergeField();
-	oParagraph.AddText(" ");
-}
-oParagraph.AddText("!");
-Api.LoadMailMergeData([arrField, ["Dear", "John", "Smith"], ["Hello", "Lara", "Davis"]]);
-var oTemplateDocContent = Api.GetMailMergeTemplateDocContent();
-var nReceptionsCount     = Api.GetMailMergeReceptionsCount();
-
-var arrReceptions = [];
-for (let nReception = 0; nReception < nReceptionsCount; nReception++) 
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let fields = ["Greeting line", "First name", "Last name"];
+for (let i = 0; i < fields.length; ++i) 
 {
-	Api.MailMerge(nReception, nReception);
-	var oElement1 = oDocument.GetElement(0);
-	arrReceptions.push(oElement1);
-	Api.ReplaceDocumentContent(oTemplateDocContent);
+	let run = Api.CreateRun();
+	run.AddText(fields[i]);
+	paragraph.AddElement(run);
+	run.WrapInMailMergeField();
+	paragraph.AddText(" ");
 }
-oParagraph = Api.CreateParagraph();
-oParagraph.AddLineBreak();
-oParagraph.AddText("Receptions");
-oParagraph.SetBold(true);
-oDocument.Push(oParagraph);
-oDocument.Push(arrReceptions[0]);
-oDocument.Push(arrReceptions[1]);
-oParagraph = Api.CreateParagraph();
-oParagraph.AddLineBreak();
-oParagraph.AddText("The mail merge process was run twice for each mail merge reception. But the results were replaced with the mail merge template document content. This template allows you to save each mail merge reception to the separate file.");
-oDocument.Push(oParagraph);
+paragraph.AddText("!");
+Api.LoadMailMergeData([fields, ["Dear", "John", "Smith"], ["Hello", "Lara", "Davis"]]);
+
+let template = Api.GetMailMergeTemplateDocContent();
+let receptionsCount = Api.GetMailMergeReceptionsCount();
+let receptions = [];
+for (let i = 0; i < receptionsCount; ++i) 
+{
+	Api.MailMerge(i, i);
+	receptions.push(doc.GetElement(0));
+	Api.ReplaceDocumentContent(template);
+}
+paragraph = Api.CreateParagraph();
+paragraph.AddLineBreak();
+paragraph.AddText("Receptions");
+paragraph.SetBold(true);
+doc.Push(paragraph);
+doc.Push(receptions[0]);
+doc.Push(receptions[1]);
+paragraph = Api.CreateParagraph();
+paragraph.AddLineBreak();
+paragraph.AddText("The mail merge process was run twice for each mail merge reception. But the results were replaced with the mail merge template document content. This template allows you to save each mail merge reception to the separate file.");
+doc.Push(paragraph);
 ```

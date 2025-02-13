@@ -4,7 +4,9 @@ Returns a paragraph element using the position specified.
 
 ## Syntax
 
+```javascript
 expression.GetElement(nPos);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

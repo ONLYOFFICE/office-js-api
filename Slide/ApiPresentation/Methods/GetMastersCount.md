@@ -4,7 +4,9 @@ Returns a number of slide masters.
 
 ## Syntax
 
+```javascript
 expression.GetMastersCount();
+```
 
 `expression` - A variable that represents a [ApiPresentation](../ApiPresentation.md) class.
 

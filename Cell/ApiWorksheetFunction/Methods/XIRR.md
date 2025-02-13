@@ -4,7 +4,9 @@ Returns the internal rate of return for a schedule of cash flows.
 
 ## Syntax
 
+```javascript
 expression.XIRR(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,13 +14,13 @@ expression.XIRR(arg1, arg2, arg3);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is a series of cash flows that correspond to a schedule of payments in dates. |
-| arg2 | Required | any |  | Is a schedule of payment dates that corresponds to the cash flow payments. |
-| arg3 | Required | any |  | Is a number that you guess is close to the result of XIRR. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) |  | A range that contains the series of cash flows that corresponds to a schedule of payments in dates. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) |  | A range that contains the schedule of payment dates that corresponds to the cash flow payments. |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | An estimate at what the internal rate of return will be. If it is omitted, the function will assume guess to be 0.1 (10 percent). |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

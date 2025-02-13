@@ -4,7 +4,9 @@ Returns the quote text of the current comment.
 
 ## Syntax
 
+```javascript
 expression.GetQuoteText();
+```
 
 `expression` - A variable that represents a [ApiComment](../ApiComment.md) class.
 

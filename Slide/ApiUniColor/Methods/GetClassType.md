@@ -4,7 +4,9 @@ Returns a type of the ApiUniColor class.
 
 ## Syntax
 
+```javascript
 expression.GetClassType();
+```
 
 `expression` - A variable that represents a [ApiUniColor](../ApiUniColor.md) class.
 

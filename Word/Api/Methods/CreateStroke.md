@@ -4,7 +4,9 @@ Creates a stroke adding shadows to the element.
 
 ## Syntax
 
-expression.CreateStroke(nWidth, oFill);
+```javascript
+expression.CreateStroke(width, fill);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -12,8 +14,8 @@ expression.CreateStroke(nWidth, oFill);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| nWidth | Required | [EMU](../../Enumeration/EMU.md) |  | The width of the shadow measured in English measure units. |
-| oFill | Required | [ApiFill](../../ApiFill/ApiFill.md) |  | The fill type used to create the shadow. |
+| width | Required | [EMU](../../Enumeration/EMU.md) |  | The width of the shadow measured in English measure units. |
+| fill | Required | [ApiFill](../../ApiFill/ApiFill.md) |  | The fill type used to create the shadow. |
 
 ## Returns
 
@@ -24,11 +26,10 @@ expression.CreateStroke(nWidth, oFill);
 This example shows how to crate a stroke.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oRGBColor = Api.CreateRGBColor(51, 51, 51);
-var oFill = Api.CreateSolidFill(oRGBColor);
-var oStroke = Api.CreateStroke(5 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61)));
-var oDrawing = Api.CreateShape("roundRect", 5930900, 395605, oFill, oStroke);
-oParagraph.AddDrawing(oDrawing);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let fill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
+let stroke = Api.CreateStroke(5 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61)));
+let shape = Api.CreateShape("roundRect", 5930900, 395605, fill, stroke);
+paragraph.AddDrawing(shape);
 ```

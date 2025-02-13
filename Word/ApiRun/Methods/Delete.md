@@ -4,7 +4,9 @@ Deletes the current run.
 
 ## Syntax
 
+```javascript
 expression.Delete();
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 
@@ -21,15 +23,15 @@ This method doesn't return any data.
 This example deletes the run.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oRun1 = Api.CreateRun();
-oRun1.AddText("This is run №1.");
-oParagraph.AddElement(oRun1);
-var oRun2 = Api.CreateRun();
-oRun2.AddText("This is run №2.");
-oParagraph.AddElement(oRun2);
-oRun1.RemoveAllElements();
-oParagraph.AddLineBreak();
-oParagraph.AddText("The first run was removed from the document.");
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let run1 = Api.CreateRun();
+run1.AddText("This is run №1.");
+paragraph.AddElement(run1);
+let run2 = Api.CreateRun();
+run2.AddText("This is run №2.");
+paragraph.AddElement(run2);
+run1.RemoveAllElements();
+paragraph.AddLineBreak();
+paragraph.AddText("The first run was removed from the document.");
 ```

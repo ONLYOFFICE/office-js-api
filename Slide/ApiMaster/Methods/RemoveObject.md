@@ -4,7 +4,9 @@ Removes objects (image, shape or chart) from the current slide master.
 
 ## Syntax
 
+```javascript
 expression.RemoveObject(nPos, nCount);
+```
 
 `expression` - A variable that represents a [ApiMaster](../ApiMaster.md) class.
 

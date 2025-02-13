@@ -4,7 +4,9 @@ Returns the type of the ApiThemeColorScheme class.
 
 ## Syntax
 
+```javascript
 expression.GetClassType();
+```
 
 `expression` - A variable that represents a [ApiThemeColorScheme](../ApiThemeColorScheme.md) class.
 

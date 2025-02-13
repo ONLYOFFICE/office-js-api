@@ -1,10 +1,12 @@
 # HYPERLINK
 
-Creates a shortcut or jump that opens a document stored on your hard drive, a network server, or on the Internet.
+Creates a shortcut that jumps to another location in the current workbook, or opens a document stored on your hard drive, a network server, or on the Internet.
 
 ## Syntax
 
+```javascript
 expression.HYPERLINK(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,12 +14,12 @@ expression.HYPERLINK(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | string |  | Is the text giving the path and file name to the document to be opened, a hard drive location, UNC address, or URL path. |
-| arg2 | Required | any |  | Is text or a number that is displayed in the cell. If omitted, the cell displays the Link_location text. |
+| arg1 | Required | string | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) |  | The text giving the path and file name to the document to be opened, a hard drive location, UNC address, or URL path. |
+| arg2 | Required | string | [ApiRange](../../ApiRange/ApiRange.md) | number | [ApiName](../../ApiName/ApiName.md) |  | Text or a number that is displayed in the cell. If omitted, the cell displays the link location text. |
 
 ## Returns
 
-number, string, boolean
+string
 
 ## Example
 

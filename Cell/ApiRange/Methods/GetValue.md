@@ -4,7 +4,9 @@ Returns a value of the specified range.
 
 ## Syntax
 
+```javascript
 expression.GetValue();
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
@@ -14,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-string, Array.<Array.&lt;string&gt;>
+string | string[][]
 
 ## Example
 

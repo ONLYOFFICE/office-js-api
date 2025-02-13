@@ -4,7 +4,9 @@ Removes all the elements from the current run.
 
 ## Syntax
 
+```javascript
 expression.RemoveAllElements();
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 

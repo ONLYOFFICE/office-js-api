@@ -4,7 +4,9 @@ Returns the absolute value of a number, a number without its sign.
 
 ## Syntax
 
+```javascript
 expression.ABS(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,11 +14,11 @@ expression.ABS(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is the real number for which you want the absolute value. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The real number for which the absolute value will be returned. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

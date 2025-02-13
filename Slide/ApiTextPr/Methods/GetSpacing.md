@@ -4,7 +4,9 @@ Gets the text spacing from the current text properties measured in twentieths of
 
 ## Syntax
 
+```javascript
 expression.GetSpacing();
+```
 
 `expression` - A variable that represents a [ApiTextPr](../ApiTextPr.md) class.
 

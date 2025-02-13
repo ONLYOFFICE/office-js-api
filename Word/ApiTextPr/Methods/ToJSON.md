@@ -4,7 +4,9 @@ Converts the ApiTextPr object into the JSON object.
 
 ## Syntax
 
+```javascript
 expression.ToJSON(bWriteStyles);
+```
 
 `expression` - A variable that represents a [ApiTextPr](../ApiTextPr.md) class.
 
@@ -23,13 +25,13 @@ JSON
 This example converts the ApiTextPr object into the JSON object.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oTextPr = oDocument.GetDefaultTextPr();
-oTextPr.SetFontFamily("Comic Sans MS");
-var json = oTextPr.ToJSON(true);
-var oTextPrFromJSON = Api.FromJSON(json);
-oTextPrFromJSON.SetFontSize(30);
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("A sample text with the font size set to 15 points using the text properties.");
-oParagraph.SetTextPr(oTextPrFromJSON);
+let doc = Api.GetDocument();
+let textPr = doc.GetDefaultTextPr();
+textPr.SetFontFamily("Comic Sans MS");
+let json = textPr.ToJSON(true);
+let textPrFromJSON = Api.FromJSON(json);
+textPrFromJSON.SetFontSize(30);
+let paragraph = doc.GetElement(0);
+paragraph.AddText("A sample text with the font size set to 15 points using the text properties.");
+paragraph.SetTextPr(textPrFromJSON);
 ```

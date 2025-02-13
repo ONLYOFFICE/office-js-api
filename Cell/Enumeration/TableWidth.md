@@ -23,5 +23,5 @@ Enumeration
 This example sets the width of the table cell equal to 100 points (2000 twips).
 
 ```javascript
-oTableCell.SetWidth("twips", 2000);
+tableCell.SetWidth("twips", 2000);
 ```

@@ -4,7 +4,9 @@ Converts the ApiThemeColorScheme object into the JSON object.
 
 ## Syntax
 
+```javascript
 expression.ToJSON();
+```
 
 `expression` - A variable that represents a [ApiThemeColorScheme](../ApiThemeColorScheme.md) class.
 

@@ -4,7 +4,9 @@ Creates a new worksheet. The new worksheet becomes the active sheet.
 
 ## Syntax
 
+```javascript
 expression.AddSheet(sName);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

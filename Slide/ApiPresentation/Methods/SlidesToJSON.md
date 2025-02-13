@@ -4,7 +4,9 @@ Converts the slides from the current ApiPresentation object into the JSON object
 
 ## Syntax
 
+```javascript
 expression.SlidesToJSON(nStart, nStart, bWriteLayout, bWriteMaster, bWriteAllMasLayouts, bWriteTableStyles);
+```
 
 `expression` - A variable that represents a [ApiPresentation](../ApiPresentation.md) class.
 
@@ -21,7 +23,7 @@ expression.SlidesToJSON(nStart, nStart, bWriteLayout, bWriteMaster, bWriteAllMas
 
 ## Returns
 
-Array.&lt;JSON&gt;
+JSON[]
 
 ## Example
 

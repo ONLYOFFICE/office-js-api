@@ -4,7 +4,9 @@ Returns a Range object that represents all the cells in the specified range or a
 
 ## Syntax
 
+```javascript
 expression.GetCells(row, col);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

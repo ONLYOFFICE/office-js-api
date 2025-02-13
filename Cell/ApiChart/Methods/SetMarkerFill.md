@@ -4,7 +4,9 @@ Sets the fill to the marker in the specified chart series.
 
 ## Syntax
 
+```javascript
 expression.SetMarkerFill(oFill, nSeries, nMarker, bAllMarkers);
+```
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 

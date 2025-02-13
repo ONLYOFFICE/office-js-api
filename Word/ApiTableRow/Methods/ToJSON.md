@@ -4,7 +4,9 @@ Converts the ApiTableRowPr object into the JSON object.
 
 ## Syntax
 
+```javascript
 expression.ToJSON();
+```
 
 `expression` - A variable that represents a [ApiTableRow](../ApiTableRow.md) class.
 
@@ -21,18 +23,18 @@ JSON
 This example converts the ApiTableRowPr object into the JSON object.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-var oTable = Api.CreateTable(3, 3);
-oTable.SetWidth("percent", 100);
-var oTableRowPr = oTableStyle.GetTableRowPr();
-oTableRowPr.SetHeight("atLeast", 720);
-oTable.SetStyle(oTableStyle);
-oDocument.Push(oTable);
-var json = oTableRowPr.ToJSON();
-var oTableRowPrFromJSON = Api.FromJSON(json);
-var sType = oTableRowPrFromJSON.GetClassType();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("Class type = " + sType);
+let doc = Api.GetDocument();
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
+let table = Api.CreateTable(3, 3);
+table.SetWidth("percent", 100);
+let tableRowPr = tableStyle.GetTableRowPr();
+tableRowPr.SetHeight("atLeast", 720);
+table.SetStyle(tableStyle);
+doc.Push(table);
+let json = tableRowPr.ToJSON();
+let tableRowPrFromJSON = Api.FromJSON(json);
+let classType = tableRowPrFromJSON.GetClassType();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("Class type = " + classType);
 ```

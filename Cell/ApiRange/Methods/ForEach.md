@@ -4,7 +4,9 @@ Executes a provided function once for each cell.
 
 ## Syntax
 
+```javascript
 expression.ForEach(fCallback);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

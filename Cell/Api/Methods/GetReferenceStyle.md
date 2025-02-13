@@ -4,7 +4,9 @@ Returns the cell reference style.
 
 ## Syntax
 
+```javascript
 expression.GetReferenceStyle();
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

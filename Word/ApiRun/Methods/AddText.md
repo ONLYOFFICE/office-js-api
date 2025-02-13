@@ -4,7 +4,9 @@ Adds some text to the current run.
 
 ## Syntax
 
+```javascript
 expression.AddText(sText);
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 
@@ -23,9 +25,9 @@ This method doesn't return any data.
 This example adds some text to the run.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oRun = Api.CreateRun();
-oRun.AddText("This is just a sample text. Nothing special.");
-oParagraph.AddElement(oRun);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let run = Api.CreateRun();
+run.AddText("This is just a sample text. Nothing special.");
+paragraph.AddElement(run);
 ```

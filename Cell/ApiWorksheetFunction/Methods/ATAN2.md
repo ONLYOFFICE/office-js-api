@@ -4,7 +4,9 @@ Returns the arctangent of the specified x and y coordinates, in radians between 
 
 ## Syntax
 
+```javascript
 expression.ATAN2(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,12 +14,12 @@ expression.ATAN2(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is the x-coordinate of the point. |
-| arg2 | Required | number |  | Is the y-coordinate of the point. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The x coordinate of the point. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The y coordinate of the point. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

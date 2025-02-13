@@ -8,9 +8,9 @@ Enumeration
 
 ## Values
 
-- [FormPrBase](../../Enumeration/FormPrBase.md)
-- [TextFormPrBase](../../Enumeration/TextFormPrBase.md)
-- [FormInsertPr](../../Enumeration/FormInsertPr.md)
+- [FormPrBase](../Enumeration/FormPrBase.md)
+- [TextFormPrBase](../Enumeration/TextFormPrBase.md)
+- [FormInsertPr](../Enumeration/FormInsertPr.md)
 
 
 ## Example
@@ -18,6 +18,6 @@ Enumeration
 This example inserts a text box with the specified text box properties over the selected text.
 
 ```javascript
-var oTextFormInsertPr = {"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "Name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false, "placeholderFromSelection": true, "keepSelectedTextInForm": false};
-oDocument.InsertTextForm(oTextFormInsertPr);
+let textFormInsertPr = {"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "Name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false, "placeholderFromSelection": true, "keepSelectedTextInForm": false};
+doc.InsertTextForm(textFormInsertPr);
 ```

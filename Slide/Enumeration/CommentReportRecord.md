@@ -17,11 +17,10 @@ Object
 | QuoteText | string | The text to which this comment is related. |
 
 
-
 ## Example
 
 This example shows how to get a report on all comments.
 
 ```javascript
-var oCommentsReport = oDocument.GetCommentsReport();
+let commentsReport = oDocument.GetCommentsReport();
 ```

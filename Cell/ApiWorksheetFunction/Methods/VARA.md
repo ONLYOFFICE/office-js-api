@@ -4,7 +4,9 @@ Estimates variance based on a sample, including logical values and text. Text an
 
 ## Syntax
 
+```javascript
 expression.VARA(args);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,7 +14,7 @@ expression.VARA(args);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| args | Required | number &#124; string &#124; boolean &#124; [ApiRange](../../ApiRange/ApiRange.md) &#124; Array.&lt;number&gt; |  | Up to 255 values for which the variance will be calculated. The first argument is required, subsequent arguments are optional. |
+| args | Required | number | string | boolean | [ApiRange](../../ApiRange/ApiRange.md) | array | [ApiName](../../ApiName/ApiName.md) |  | Up to 255 values for which the variance will be calculated. The first argument is required, subsequent arguments are optional. Arguments can be numbers, logical values or text representations of numbers, names, ranges, or arrays. |
 
 ## Returns
 

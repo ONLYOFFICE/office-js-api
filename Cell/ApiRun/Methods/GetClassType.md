@@ -4,7 +4,9 @@ Returns a type of the ApiTextPr class.
 
 ## Syntax
 
+```javascript
 expression.GetClassType();
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 

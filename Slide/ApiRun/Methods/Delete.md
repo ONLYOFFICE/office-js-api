@@ -4,7 +4,9 @@ Deletes the current run.
 
 ## Syntax
 
+```javascript
 expression.Delete();
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 

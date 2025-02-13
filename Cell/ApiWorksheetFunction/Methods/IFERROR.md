@@ -1,10 +1,12 @@
 # IFERROR
 
-Returns value_if_error if expression is an error and the value of the expression itself otherwise.
+Checks if there is an error in the formula in the first argument. The function returns the result of the formula if there is no error, or the value specified in the second argument if there is one.
 
 ## Syntax
 
+```javascript
 expression.IFERROR(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,12 +14,12 @@ expression.IFERROR(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is any value or expression or reference. |
-| arg2 | Required | any |  | Is any value or expression or reference. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number | string | boolean |  | The value, expression, or reference that is checked for an error. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number | string | boolean |  | The value to be returned if the formula evaluates to an error. The following errors are evaluated: **#N/A**, **#VALUE!**, **#REF!**, **#DIV/0!**, **#NUM!**, **#NAME?**, **#NULL!**. |
 
 ## Returns
 
-number, string, boolean
+number | string | boolean
 
 ## Example
 

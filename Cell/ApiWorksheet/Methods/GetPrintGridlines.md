@@ -4,7 +4,9 @@ Returns the page PrintGridlines property which specifies whether the current she
 
 ## Syntax
 
+```javascript
 expression.GetPrintGridlines();
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

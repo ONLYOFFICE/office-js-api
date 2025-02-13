@@ -4,7 +4,9 @@ Deletes the ApiCharacters object.
 
 ## Syntax
 
+```javascript
 expression.Delete();
+```
 
 `expression` - A variable that represents a [ApiCharacters](../ApiCharacters.md) class.
 

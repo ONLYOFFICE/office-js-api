@@ -4,17 +4,22 @@ Returns the net present value of an investment based on a discount rate and a se
 
 ## Syntax
 
-expression.NPV();
+```javascript
+expression.NPV(arg1, args);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
 ## Parameters
 
-This method doesn't have any parameters.
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The discount rate. |
+| args | Required | number | [ApiRange](../../ApiRange/ApiRange.md) | number[] |  | Up to 255 arguments representing future payments (negative values) and income (positive values). The first argument is required, the subsequent values are optional. Arguments can be numbers, ranges, arrays of numbers. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

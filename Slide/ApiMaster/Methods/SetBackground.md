@@ -4,7 +4,9 @@ Sets the background to the current slide master.
 
 ## Syntax
 
+```javascript
 expression.SetBackground(oApiFill);
+```
 
 `expression` - A variable that represents a [ApiMaster](../ApiMaster.md) class.
 

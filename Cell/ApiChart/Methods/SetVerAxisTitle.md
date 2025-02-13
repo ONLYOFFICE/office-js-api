@@ -4,7 +4,9 @@ Specifies the chart vertical axis title.
 
 ## Syntax
 
+```javascript
 expression.SetVerAxisTitle(sTitle, nFontSize, bIsBold);
+```
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 

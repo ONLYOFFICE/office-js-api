@@ -4,7 +4,9 @@ Returns a theme of the slide master.
 
 ## Syntax
 
+```javascript
 expression.GetTheme();
+```
 
 `expression` - A variable that represents a [ApiMaster](../ApiMaster.md) class.
 
@@ -14,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-ApiTheme, null
+[ApiTheme](../../ApiTheme/ApiTheme.md) | null
 
 ## Example
 

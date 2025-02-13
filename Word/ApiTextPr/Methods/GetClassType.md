@@ -4,7 +4,9 @@ Returns a type of the ApiTextPr class.
 
 ## Syntax
 
+```javascript
 expression.GetClassType();
+```
 
 `expression` - A variable that represents a [ApiTextPr](../ApiTextPr.md) class.
 
@@ -21,16 +23,16 @@ This method doesn't have any parameters.
 This example gets a class type and pastes it into the presentation.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("This is a sample text with the font size set to 30 and the font weight set to bold.");
-var oTextPr = Api.CreateTextPr();
-oTextPr.SetFontSize(32);
-oTextPr.SetBold(true);
-oParagraph.SetTextPr(oTextPr);
-oTextPr = oParagraph.GetTextPr();
-var sClassType = oTextPr.GetClassType();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Class type: " + sClassType);
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("This is a sample text with the font size set to 30 and the font weight set to bold.");
+let textPr = Api.CreateTextPr();
+textPr.SetFontSize(32);
+textPr.SetBold(true);
+paragraph.SetTextPr(textPr);
+textPr = paragraph.GetTextPr();
+let classType = textPr.GetClassType();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Class type: " + classType);
+doc.Push(paragraph);
 ```

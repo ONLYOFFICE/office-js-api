@@ -1,10 +1,12 @@
 # IMSUB
 
-Returns the difference of two complex numbers.
+Returns the difference of two complex numbers expressed in the &lt;em&gt;x + yi&lt;/em&gt; or &lt;em&gt;x + yj&lt;/em&gt; form.
 
 ## Syntax
 
+```javascript
 expression.IMSUB(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,12 +14,12 @@ expression.IMSUB(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is the complex number from which to subtract inumber2. |
-| arg2 | Required | any |  | Is the complex number to subtract from inumber1. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The complex number from which to subtract the second number. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The complex number to subtract from the first number. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

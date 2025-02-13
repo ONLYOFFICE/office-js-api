@@ -4,7 +4,9 @@ Returns an object that represents the selected range.
 
 ## Syntax
 
+```javascript
 expression.GetSelection();
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

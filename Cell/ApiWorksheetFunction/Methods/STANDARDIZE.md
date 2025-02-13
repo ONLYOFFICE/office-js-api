@@ -4,7 +4,9 @@ Returns a normalised value from a distribution characterised by a mean and stand
 
 ## Syntax
 
+```javascript
 expression.STANDARDIZE(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,9 +14,9 @@ expression.STANDARDIZE(arg1, arg2, arg3);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | The value to normalize. |
-| arg2 | Required | number |  | The arithmetic mean of the distribution. |
-| arg3 | Required | number |  | The standard deviation of the distribution, a positive number. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The value to normalize. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The arithmetic mean of the distribution. |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The standard deviation of the distribution, a positive number. |
 
 ## Returns
 

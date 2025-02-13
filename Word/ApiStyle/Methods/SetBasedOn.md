@@ -4,7 +4,9 @@ Specifies the reference to the parent style which this style inherits from in th
 
 ## Syntax
 
+```javascript
 expression.SetBasedOn(oStyle);
+```
 
 `expression` - A variable that represents a [ApiStyle](../ApiStyle.md) class.
 
@@ -23,11 +25,11 @@ This method doesn't return any data.
 This example specifies the reference to the parent style which this style inherits from in the style hierarchy.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-var oTable = Api.CreateTable(2, 2);
-oTable.SetWidth("percent", 100);
-oTable.SetStyle(oTableStyle);
-oDocument.Push(oTable);
+let doc = Api.GetDocument();
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
+let table = Api.CreateTable(2, 2);
+table.SetWidth("percent", 100);
+table.SetStyle(tableStyle);
+doc.Push(table);
 ```

@@ -4,7 +4,9 @@ Returns all comments from the current document.
 
 ## Syntax
 
+```javascript
 expression.GetAllComments();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
@@ -14,20 +16,20 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Array.<[ApiComment](../../ApiComment/ApiComment.md)>
+[ApiComment[]](../../ApiComment/ApiComment.md)
 
 ## Example
 
 This example shows how to get all comments from the current document.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("This is just a sample text");
-Api.AddComment(oParagraph, "comment", "John Smith");
-var aComments = oDocument.GetAllComments();
-var sType = aComments[0].GetClassType();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Class type: " + sType);
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("This is just a sample text");
+Api.AddComment(paragraph, "comment", "John Smith");
+let comments = doc.GetAllComments();
+let type = comments[0].GetClassType();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Class type: " + type);
+doc.Push(paragraph);
 ```

@@ -6,16 +6,15 @@ Represents the ApiPivotDataField class.
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| Function | [DataConsolidateFunctionType](../Enumeration/DataConsolidateFunctionType.md) | Returns the function performed in the data field. |
-| Position | number | Returns a value that represents the position of the field in category. |
-| Orientation | [PivotFieldOrientationType](../Enumeration/PivotFieldOrientationType.md) | Returns a data field orientation value that represents the location. |
-| Name | string | Returns a value representing the name of the object. |
-| Value | string | Returns a value representing the value of the object. |
-| Caption | string | Returns a value that represents the label text for the data field. |
-| NumberFormat | string &#124; null | Returns a value that represents the format code for the object. |
-| Index | number | Returns index of the data field. |
-| PivotField | [ApiPivotField](../ApiPivotField/ApiPivotField.md) | Returns the pivotField from which the data field was created. |
-
+| Function | [DataConsolidateFunctionType](../Enumeration/DataConsolidateFunctionType.md) | Returns or sets a function for the data field. |
+| Position | number | Returns or sets a value that represents the data field position within a category. |
+| Orientation | [PivotFieldOrientationType](../Enumeration/PivotFieldOrientationType.md) | Returns a data field orientation value that represents the data field location in the specified pivot table report. |
+| Name | string | Returns or sets a value representing the object name. |
+| Value | string | Returns or sets a value representing the name of the specified data field in the pivot table report. |
+| Caption | string | Returns or sets a value that represents the label text for the data field. |
+| NumberFormat | string | null | Returns or sets a value that represents the format code for the object. |
+| Index | number | Returns an index of the data field. |
+| PivotField | [ApiPivotField](../ApiPivotField/ApiPivotField.md) | Returns the pivot field from which the data field was created. |
 ## Methods
 
 - [Remove](./Methods/Remove.md)

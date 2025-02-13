@@ -4,7 +4,9 @@ Returns the mail merge data.
 
 ## Syntax
 
+```javascript
 expression.GetMailMergeData(nSheet, bWithFormat);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -17,7 +19,7 @@ expression.GetMailMergeData(nSheet, bWithFormat);
 
 ## Returns
 
-Array.<Array.&lt;string&gt;>
+string[][]
 
 ## Example
 

@@ -4,7 +4,9 @@ Creates a linear gradient fill to apply to the object using the selected linear 
 
 ## Syntax
 
-expression.CreateLinearGradientFill(aGradientStop, Angle);
+```javascript
+expression.CreateLinearGradientFill(gradientStops, angle);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -12,8 +14,8 @@ expression.CreateLinearGradientFill(aGradientStop, Angle);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| aGradientStop | Required | Array |  | The array of gradient color stops measured in 1000th of percent. |
-| Angle | Required | [PositiveFixedAngle](../../Enumeration/PositiveFixedAngle.md) |  | The angle measured in 60000th of a degree that will define the gradient direction. |
+| gradientStops | Required | Array |  | The array of gradient color stops measured in 1000th of percent. |
+| angle | Required | [PositiveFixedAngle](../../Enumeration/PositiveFixedAngle.md) |  | The angle measured in 60000th of a degree that will define the gradient direction. |
 
 ## Returns
 

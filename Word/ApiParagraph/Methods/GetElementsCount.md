@@ -4,7 +4,9 @@ Returns a number of elements in the current paragraph.
 
 ## Syntax
 
+```javascript
 expression.GetElementsCount();
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 
@@ -21,16 +23,16 @@ number
 This example shows how to get a number of elements in the current paragraph.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.RemoveAllElements();
-var oRun = Api.CreateRun();
-oRun.AddText("Number of paragraph elements at this point: ");
-oRun.AddTabStop();
-oRun.AddText("" + oParagraph.GetElementsCount());
-oRun.AddLineBreak();
-oParagraph.AddElement(oRun);
-oRun.AddText("Number of paragraph elements after we added a text run: ");
-oRun.AddTabStop();
-oRun.AddText("" + oParagraph.GetElementsCount());
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.RemoveAllElements();
+let run = Api.CreateRun();
+run.AddText("Number of paragraph elements at this point: ");
+run.AddTabStop();
+run.AddText("" + paragraph.GetElementsCount());
+run.AddLineBreak();
+paragraph.AddElement(run);
+run.AddText("Number of paragraph elements after we added a text run: ");
+run.AddTabStop();
+run.AddText("" + paragraph.GetElementsCount());
 ```

@@ -4,7 +4,9 @@ Adds a new name to the current worksheet.
 
 ## Syntax
 
+```javascript
 expression.AddDefName(sName, sRef, isHidden);
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

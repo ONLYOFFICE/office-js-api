@@ -1,10 +1,12 @@
 # ROUNDDOWN
 
-Rounds a number down, towards zero.
+Rounds a number down, toward zero.
 
 ## Syntax
 
+```javascript
 expression.ROUNDDOWN(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,12 +14,12 @@ expression.ROUNDDOWN(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is any real number that you want rounded down. |
-| arg2 | Required | number |  | Is the number of digits to which you want to round. Negative rounds to the left of the decimal point; zero or omitted, to the nearest integer. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | Any real number that will be rounded down. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The number of digits to round to. If this argument is negative, the number will be rounded to the left of the decimal point. If it is equal to zero, the number will be rounded to the nearest integer. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

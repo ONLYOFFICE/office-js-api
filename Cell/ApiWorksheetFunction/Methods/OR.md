@@ -1,20 +1,24 @@
 # OR
 
-Checks whether any of the arguments are TRUE, and returns TRUE or FALSE. Returns FALSE only if all arguments are FALSE.
+Checks whether any of the arguments are **true**. Returns **false** only if all arguments are **false**.
 
 ## Syntax
 
-expression.OR();
+```javascript
+expression.OR(args);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
 ## Parameters
 
-This method doesn't have any parameters.
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| args | Required | number | string | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | boolean |  | A condition to check. |
 
 ## Returns
 
-number, string, boolean
+boolean
 
 ## Example
 

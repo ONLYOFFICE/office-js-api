@@ -4,7 +4,9 @@ Gets page height for current section.
 
 ## Syntax
 
+```javascript
 expression.GetPageHeight();
+```
 
 `expression` - A variable that represents a [ApiSection](../ApiSection.md) class.
 
@@ -21,9 +23,9 @@ This method doesn't have any parameters.
 
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oSection = oDocument.GetFinalSection();
-var nHeight = oSection.GetPageHeight();
-oParagraph.AddText("Page height = " + nHeight);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let section = doc.GetFinalSection();
+let height = section.GetPageHeight();
+paragraph.AddText("Page height = " + height);
 ```

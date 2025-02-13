@@ -4,7 +4,9 @@ Returns an array with all the chart objects from the slide layout.
 
 ## Syntax
 
+```javascript
 expression.GetAllCharts();
+```
 
 `expression` - A variable that represents a [ApiLayout](../ApiLayout.md) class.
 
@@ -14,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Array.<[ApiChart](../../ApiChart/ApiChart.md)>
+[ApiChart[]](../../ApiChart/ApiChart.md)
 
 ## Example
 

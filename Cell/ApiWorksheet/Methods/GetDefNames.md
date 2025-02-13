@@ -4,7 +4,9 @@ Returns an array of ApiName objects.
 
 ## Syntax
 
+```javascript
 expression.GetDefNames();
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 
@@ -14,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Array.<[ApiName](../../ApiName/ApiName.md)>
+[ApiName[]](../../ApiName/ApiName.md)
 
 ## Example
 

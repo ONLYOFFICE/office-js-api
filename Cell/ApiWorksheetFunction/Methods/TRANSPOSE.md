@@ -4,7 +4,9 @@ Converts a vertical range of cells to a horizontal range, or vice versa.
 
 ## Syntax
 
+```javascript
 expression.TRANSPOSE(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,11 +14,11 @@ expression.TRANSPOSE(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is a range of cells on a worksheet or an array of values that you want to transpose. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | array |  | A range of cells on a worksheet or an array that will be transposed. |
 
 ## Returns
 
-number, string, boolean
+[ApiRange](../../ApiRange/ApiRange.md)
 
 ## Example
 

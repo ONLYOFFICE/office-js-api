@@ -1,10 +1,12 @@
 # IFNA
 
-Returns the value you specify if the expression resolves to #N/A, otherwise returns the result of the expression.
+Checks if there is an error in the formula in the first argument. The function returns the specified value if the formula returns the &lt;em&gt;#N/A&lt;/em&gt; error value, otherwise returns the result of the formula.
 
 ## Syntax
 
+```javascript
 expression.IFNA(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,12 +14,12 @@ expression.IFNA(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is any value or expression or reference. |
-| arg2 | Required | any |  | Is any value or expression or reference. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number | string | boolean |  | The value, expression, or reference that is checked for an error. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number | string | boolean |  | The value to return if the formula evaluates to the &lt;em&gt;#N/A&lt;/em&gt; error value. |
 
 ## Returns
 
-number, string, boolean
+number | string | boolean
 
 ## Example
 

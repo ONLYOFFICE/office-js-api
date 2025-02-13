@@ -22,5 +22,5 @@ Enumeration
 This example returns data of all forms in the document.
 
 ```javascript
-var arrFormData = oDocument.GetFormsData();
+let formsData = doc.GetFormsData();
 ```

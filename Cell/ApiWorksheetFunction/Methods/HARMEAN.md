@@ -4,7 +4,9 @@ Returns the harmonic mean of a data set of positive numbers: the reciprocal of t
 
 ## Syntax
 
+```javascript
 expression.HARMEAN(args);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,7 +14,7 @@ expression.HARMEAN(args);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| args | Required | [ApiRange](../../ApiRange/ApiRange.md) &#124; Array.&lt;number&gt; |  | Up to 255 numeric values for which the harmonic mean will be calculated. |
+| args | Required | [ApiRange](../../ApiRange/ApiRange.md) | number[] | [ApiName](../../ApiName/ApiName.md) |  | Up to 255 numeric values for which the harmonic mean will be calculated. Arguments can be numbers, names, ranges, or arrays of numbers. |
 
 ## Returns
 

@@ -4,7 +4,9 @@ Adds an element to the current paragraph.
 
 ## Syntax
 
+```javascript
 expression.AddElement(oElement, nPos);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 
@@ -24,9 +26,9 @@ boolean
 This example adds a Run to the paragraph.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oRun = Api.CreateRun();
-oRun.AddText("This is just a text run. Nothing special.");
-oParagraph.AddElement(oRun);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let run = Api.CreateRun();
+run.AddText("This is just a text run. Nothing special.");
+paragraph.AddElement(run);
 ```

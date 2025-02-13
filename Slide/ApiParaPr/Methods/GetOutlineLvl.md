@@ -1,10 +1,12 @@
 # GetOutlineLvl
 
-Gets the outline level of the specified properties.
+Returns the outline level of the specified properties.
 
 ## Syntax
 
+```javascript
 expression.GetOutlineLvl();
+```
 
 `expression` - A variable that represents a [ApiParaPr](../ApiParaPr.md) class.
 

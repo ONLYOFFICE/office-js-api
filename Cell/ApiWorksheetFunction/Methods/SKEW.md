@@ -4,7 +4,9 @@ Returns the skewness of a distribution: a characterization of the degree of asym
 
 ## Syntax
 
+```javascript
 expression.SKEW(args);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,7 +14,7 @@ expression.SKEW(args);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| args | Required | number &#124; string &#124; Array.&lt;number&gt; &#124; [ApiRange](../../ApiRange/ApiRange.md) |  | Up to 255 numeric values for which the skewness of a distribution will be returned. The first argument is required, subsequent arguments are optional. |
+| args | Required | number | [ApiName](../../ApiName/ApiName.md) | number[] | [ApiRange](../../ApiRange/ApiRange.md) |  | Up to 255 numeric values for which the skewness of a distribution will be returned. The first argument is required, subsequent arguments are optional. Arguments can be numbers, names, ranges, or arrays of numbers. |
 
 ## Returns
 

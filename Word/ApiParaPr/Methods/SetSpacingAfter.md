@@ -6,7 +6,9 @@ will be interpreted as false.
 
 ## Syntax
 
+```javascript
 expression.SetSpacingAfter(nAfter, isAfterAuto);
+```
 
 `expression` - A variable that represents a [ApiParaPr](../ApiParaPr.md) class.
 
@@ -26,16 +28,16 @@ This method doesn't return any data.
 This example sets the spacing after the current paragraph.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oMyStyle = oDocument.CreateStyle("My document style");
-var oParaPr = oMyStyle.GetParaPr();
-oParaPr.SetSpacingAfter(1440);
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("This is an example of setting a space after a paragraph. ");
-oParagraph.AddText("The second paragraph will have an offset of one inch from the top. ");
-oParagraph.AddText("This is due to the fact that the first paragraph has this offset enabled.");
-oParagraph.SetStyle(oMyStyle);
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("This is the second paragraph and it is one inch away from the first paragraph.");
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let myStyle = doc.CreateStyle("My document style");
+let paraPr = myStyle.GetParaPr();
+paraPr.SetSpacingAfter(1440);
+let paragraph = doc.GetElement(0);
+paragraph.AddText("This is an example of setting a space after a paragraph. ");
+paragraph.AddText("The second paragraph will have an offset of one inch from the top. ");
+paragraph.AddText("This is due to the fact that the first paragraph has this offset enabled.");
+paragraph.SetStyle(myStyle);
+paragraph = Api.CreateParagraph();
+paragraph.AddText("This is the second paragraph and it is one inch away from the first paragraph.");
+doc.Push(paragraph);
 ```

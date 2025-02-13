@@ -1,10 +1,12 @@
 # AMORLINC
 
-Returns the prorated linear depreciation of an asset for each accounting period..
+Returns the prorated linear depreciation of an asset for each accounting period.
 
 ## Syntax
 
+```javascript
 expression.AMORLINC(arg1, arg2, arg3, arg4, arg5, arg6, arg7);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,17 +14,17 @@ expression.AMORLINC(arg1, arg2, arg3, arg4, arg5, arg6, arg7);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is the cost of the asset. |
-| arg2 | Required | any |  | Is the date the asset is purchased. |
-| arg3 | Required | any |  | Is the date of the end of the first period. |
-| arg4 | Required | any |  | Is the salvage value at the end of life of the asset.. |
-| arg5 | Required | any |  | Is the period. |
-| arg6 | Required | any |  | Is the rate of depreciation. |
-| arg7 | Required | any |  | Year_basis : 0 for year of 360 days, 1 for actual, 3 for year of 365 days.. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The cost of the asset. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The date when asset is purchased. |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The date when the first period ends. |
+| arg4 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The salvage value of the asset at the end of its lifetime. |
+| arg5 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The period for which the depreciation will be calculated. |
+| arg6 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The rate of depreciation. |
+| arg7 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The day count basis to use: **0** or omitted - US (NASD) 30/360; **1** - Actual/actual; **2** - Actual/360; **3** - Actual/365; **4** - European 30/360. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

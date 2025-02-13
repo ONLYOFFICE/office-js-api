@@ -4,7 +4,9 @@ Returns an object that represents a sheet.
 
 ## Syntax
 
+```javascript
 expression.GetSheet(nameOrIndex);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -12,11 +14,11 @@ expression.GetSheet(nameOrIndex);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| nameOrIndex | Required | string &#124; number |  | Sheet name or sheet index. |
+| nameOrIndex | Required | string | number |  | Sheet name or sheet index. |
 
 ## Returns
 
-ApiWorksheet, null
+[ApiWorksheet](../../ApiWorksheet/ApiWorksheet.md) | null
 
 ## Example
 

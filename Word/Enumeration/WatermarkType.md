@@ -18,5 +18,5 @@ Enumeration
 In this example sets the type of the watermark within the document.
 
 ```javascript
-oWatermarkSettings.SetType("text");
+watermarkSettings.SetType("text");
 ```

@@ -5,7 +5,9 @@ letter character equivalents which are two points smaller than the actual font s
 
 ## Syntax
 
+```javascript
 expression.SetSmallCaps(isSmallCaps);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 
@@ -24,8 +26,8 @@ expression.SetSmallCaps(isSmallCaps);
 This example specifies that all the small letter characters in this paragraph are formatted for display only as their capital letter character equivalents which are two points smaller than the actual font size specified for this text.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("This is a paragraph with the font set to small capitalized letters.");
-oParagraph.SetSmallCaps(true);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("This is a paragraph with the font set to small capitalized letters.");
+paragraph.SetSmallCaps(true);
 ```

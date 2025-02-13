@@ -1,10 +1,12 @@
 # FindNext
 
-Continues a search that was begun with the {@link ApiRange#Find} method. Finds the next cell that matches those same conditions and returns the ApiRange object that represents that cell. This does not affect the selection or the active cell.
+Continues a search that was begun with the &#123;@link ApiRange#Find&#125; method. Finds the next cell that matches those same conditions and returns the ApiRange object that represents that cell. This does not affect the selection or the active cell.
 
 ## Syntax
 
+```javascript
 expression.FindNext(After);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
@@ -16,7 +18,7 @@ expression.FindNext(After);
 
 ## Returns
 
-ApiRange, null
+[ApiRange](../../ApiRange/ApiRange.md) | null
 
 ## Example
 

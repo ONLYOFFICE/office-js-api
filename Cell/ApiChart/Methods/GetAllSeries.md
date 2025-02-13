@@ -4,7 +4,9 @@ Returns all series from the chart space.
 
 ## Syntax
 
+```javascript
 expression.GetAllSeries();
+```
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 
@@ -14,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Array.<[ApiChartSeries](../../ApiChartSeries/ApiChartSeries.md)>
+[ApiChartSeries[]](../../ApiChartSeries/ApiChartSeries.md)
 
 ## Example
 

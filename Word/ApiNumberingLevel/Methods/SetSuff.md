@@ -4,7 +4,9 @@ Specifies the content which will be added between the given numbering level text
 
 ## Syntax
 
+```javascript
 expression.SetSuff(sType);
+```
 
 `expression` - A variable that represents a [ApiNumberingLevel](../ApiNumberingLevel.md) class.
 
@@ -12,7 +14,7 @@ expression.SetSuff(sType);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sType | Required | "space" &#124; "tab" &#124; "none" |  | The content added between the numbering level text and the text in the numbered paragraph. |
+| sType | Required | "space" | "tab" | "none" |  | The content added between the numbering level text and the text in the numbered paragraph. |
 
 ## Returns
 
@@ -23,16 +25,16 @@ This method doesn't return any data.
 This example specifies the content which will be added between the given numbering level text and the text of every numbered paragraph which references that numbering level.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oNumbering = oDocument.CreateNumbering("numbered");
-var oNumLvl = oNumbering.GetLevel(0);
-oNumLvl.SetCustomType("decimalZero", "repeating text %1", "left");
-oNumLvl.SetSuff("space");
-var oParagraph = oDocument.GetElement(0);
-oParagraph.SetNumbering(oNumLvl);
-oParagraph.AddText("This is the first element of a numbered list using custom text with numbering");
-oParagraph = Api.CreateParagraph();
-oParagraph.SetNumbering(oNumLvl);
-oParagraph.AddText("This is the second element of a numbered list using custom text with numbering");
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let numbering = doc.CreateNumbering("numbered");
+let numLvl = numbering.GetLevel(0);
+numLvl.SetCustomType("decimalZero", "repeating text %1", "left");
+numLvl.SetSuff("space");
+let paragraph = doc.GetElement(0);
+paragraph.SetNumbering(numLvl);
+paragraph.AddText("This is the first element of a numbered list using custom text with numbering");
+paragraph = Api.CreateParagraph();
+paragraph.SetNumbering(numLvl);
+paragraph.AddText("This is the second element of a numbered list using custom text with numbering");
+doc.Push(paragraph);
 ```

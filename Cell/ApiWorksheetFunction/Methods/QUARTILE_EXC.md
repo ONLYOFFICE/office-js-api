@@ -4,7 +4,9 @@ Returns the quartile of a data set, based on percentile values from 0..1, exclus
 
 ## Syntax
 
+```javascript
 expression.QUARTILE_EXC(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,8 +14,8 @@ expression.QUARTILE_EXC(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | Array.&lt;number&gt; &#124; [ApiRange](../../ApiRange/ApiRange.md) |  | The array or cell range of numeric values for which the quartile value will be returned. |
-| arg2 | Required | number |  | The quartile value to return: 1st quartile = 1; median value = 2; 3rd quartile = 3. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number[] |  | The array or cell range of numeric values for which the quartile value will be returned. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The quartile value to return: 1st quartile = 1; median value = 2; 3rd quartile = 3. |
 
 ## Returns
 

@@ -1,10 +1,12 @@
 # DSTDEV
 
-Estimates the standard deviation based on a sample from selected database entries.
+Estimates the standard deviation based on a sample from the selected database entries.
 
 ## Syntax
 
+```javascript
 expression.DSTDEV(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,13 +14,13 @@ expression.DSTDEV(arg1, arg2, arg3);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) |  | Is the range of cells that makes up the list or database. A database is a list of related data. |
-| arg2 | Required | number |  | Is either the label of the column in double quotation marks or a number that represents the column's position in the list. |
-| arg3 | Required | string |  | Is the range of cells that contains the conditions you specify. The range includes a column label and one cell below the label for a condition. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) |  | The range of cells that makes up the list or database. A database is a list of related data. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number | string |  | The column which is used in the function. Either the label of the column in double quotation marks or a number that represents the column's position in the list. |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) |  | The range of cells that contains the conditions you specify. The range includes at least one column label and at least one cell below the column label for a condition. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

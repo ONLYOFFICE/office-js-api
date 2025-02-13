@@ -4,7 +4,9 @@ Returns the background color for the current cell range. Returns 'No Fill' when 
 
 ## Syntax
 
+```javascript
 expression.GetFillColor();
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
@@ -14,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-ApiColor, 'No Fill'
+[ApiColor](../../ApiColor/ApiColor.md) | 'No Fill'
 
 ## Example
 

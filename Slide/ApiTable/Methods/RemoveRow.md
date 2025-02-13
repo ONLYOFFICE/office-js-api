@@ -4,7 +4,9 @@ Removes a table row with the specified cell.
 
 ## Syntax
 
+```javascript
 expression.RemoveRow(oCell);
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 

@@ -4,7 +4,9 @@ Specifies whether the current sheet gridlines must be displayed or not.
 
 ## Syntax
 
+```javascript
 expression.SetDisplayGridlines(isDisplayed);
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

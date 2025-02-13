@@ -4,7 +4,9 @@ Deletes the specified object from the parent if it exists.
 
 ## Syntax
 
+```javascript
 expression.Delete();
+```
 
 `expression` - A variable that represents a [ApiMaster](../ApiMaster.md) class.
 

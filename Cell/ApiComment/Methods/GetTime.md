@@ -4,7 +4,9 @@ Returns the timestamp of the comment creation in the current time zone format.
 
 ## Syntax
 
+```javascript
 expression.GetTime();
+```
 
 `expression` - A variable that represents a [ApiComment](../ApiComment.md) class.
 

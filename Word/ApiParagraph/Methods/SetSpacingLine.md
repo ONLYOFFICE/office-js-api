@@ -7,7 +7,9 @@ nLine parameter will be interpreted as 240ths of a line.
 
 ## Syntax
 
+```javascript
 expression.SetSpacingLine(nLine, sLineRule);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 
@@ -15,8 +17,8 @@ expression.SetSpacingLine(nLine, sLineRule);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| nLine | Required | [twips](../../Enumeration/twips.md) &#124; [line240](../../Enumeration/line240.md) |  | The line spacing value measured either in twentieths of a point (1/1440 of an inch) or in 240ths of a line. |
-| sLineRule | Required | "auto" &#124; "atLeast" &#124; "exact" |  | The rule that determines the measuring units of the line spacing. |
+| nLine | Required | [twips](../../Enumeration/twips.md) | [line240](../../Enumeration/line240.md) |  | The line spacing value measured either in twentieths of a point (1/1440 of an inch) or in 240ths of a line. |
+| sLineRule | Required | "auto" | "atLeast" | "exact" |  | The rule that determines the measuring units of the line spacing. |
 
 ## Returns
 
@@ -27,40 +29,40 @@ This method doesn't return any data.
 This example sets the paragraph line spacing.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oMyStyle1 = oDocument.CreateStyle("My document style #1");
-var oParaPr = oMyStyle1.GetParaPr();
-oParaPr.SetSpacingLine(3 * 240, "auto");
-var oMyStyle2 = oDocument.CreateStyle("My document style #2");
-oParaPr = oMyStyle2.GetParaPr();
-oParaPr.SetSpacingLine(200, "exact");
-var oMyStyle3 = oDocument.CreateStyle("My document style #3");
-oParaPr = oMyStyle3.GetParaPr();
-oParaPr.SetSpacingLine(400, "atLeast");
-var oParagraph = oDocument.GetElement(0);
-oParagraph.SetStyle(oMyStyle1);
-oParagraph.AddText("Paragraph 1. Spacing: 3 times of a common paragraph line spacing.");
-oParagraph.AddLineBreak();
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes.");
-oParagraph = Api.CreateParagraph();
-oParagraph.SetStyle(oMyStyle2);
-oParagraph.AddText("Paragraph 2. Spacing: exact 10 points.");
-oParagraph.AddLineBreak();
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes.");
-oDocument.Push(oParagraph);
-oParagraph = Api.CreateParagraph();
-oParagraph.SetStyle(oMyStyle3);
-oParagraph.AddText("Paragraph 3. Spacing: atLeast 20 points.");
-oParagraph.AddLineBreak();
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes.");
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let myStyle1 = doc.CreateStyle("My document style #1");
+let paraPr = myStyle1.GetParaPr();
+paraPr.SetSpacingLine(3 * 240, "auto");
+let myStyle2 = doc.CreateStyle("My document style #2");
+paraPr = myStyle2.GetParaPr();
+paraPr.SetSpacingLine(200, "exact");
+let myStyle3 = doc.CreateStyle("My document style #3");
+paraPr = myStyle3.GetParaPr();
+paraPr.SetSpacingLine(400, "atLeast");
+let paragraph = doc.GetElement(0);
+paragraph.SetStyle(myStyle1);
+paragraph.AddText("Paragraph 1. Spacing: 3 times of a common paragraph line spacing.");
+paragraph.AddLineBreak();
+paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
+paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
+paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
+paragraph.AddText("These sentences are used to add lines for demonstrative purposes.");
+paragraph = Api.CreateParagraph();
+paragraph.SetStyle(myStyle2);
+paragraph.AddText("Paragraph 2. Spacing: exact 10 points.");
+paragraph.AddLineBreak();
+paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
+paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
+paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
+paragraph.AddText("These sentences are used to add lines for demonstrative purposes.");
+doc.Push(paragraph);
+paragraph = Api.CreateParagraph();
+paragraph.SetStyle(myStyle3);
+paragraph.AddText("Paragraph 3. Spacing: atLeast 20 points.");
+paragraph.AddLineBreak();
+paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
+paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
+paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
+paragraph.AddText("These sentences are used to add lines for demonstrative purposes.");
+doc.Push(paragraph);
 ```

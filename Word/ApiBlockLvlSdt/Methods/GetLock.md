@@ -4,7 +4,9 @@ Returns the lock type of the current container.
 
 ## Syntax
 
+```javascript
 expression.GetLock();
+```
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 
@@ -21,12 +23,10 @@ This method doesn't have any parameters.
 This example shows how to get the lock type of the container.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oBlockLvlSdt = Api.CreateBlockLvlSdt();
-oBlockLvlSdt.GetContent().GetElement(0).AddText("This is a block text content control with the content lock set to it.");
-oBlockLvlSdt.SetLock("sdtContentLocked");
-oDocument.AddElement(0, oBlockLvlSdt);
-var oLock = oBlockLvlSdt.GetLock();
-var oParagraph = oDocument.GetElement(1);
-oParagraph.AddText("Lock type: " + oLock);
+let doc = Api.GetDocument();
+let blockLvlSdt = Api.CreateBlockLvlSdt();
+blockLvlSdt.GetContent().GetElement(0).AddText("This is a block text content control with the content lock set to it.");
+blockLvlSdt.SetLock("sdtContentLocked");
+doc.AddElement(0, blockLvlSdt);
+doc.GetElement(1).AddText("Lock type: " + blockLvlSdt.GetLock());
 ```

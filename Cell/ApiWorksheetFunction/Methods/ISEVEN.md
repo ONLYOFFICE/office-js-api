@@ -1,10 +1,12 @@
 # ISEVEN
 
-Returns TRUE if the number is even.
+Returns **true** if a number is even.
 
 ## Syntax
 
+```javascript
 expression.ISEVEN(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,11 +14,11 @@ expression.ISEVEN(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is the value to test. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The value to test. |
 
 ## Returns
 
-number, string, boolean
+boolean
 
 ## Example
 

@@ -1,11 +1,13 @@
 # SetWidth
 
 Sets the preferred width to the current table.
-💡 Tables are created with the {@link ApiTable#SetWidth} method properties set by default, which always override the {@link ApiTablePr#SetWidth} method properties. That is why there is no use to try and apply {@link ApiTablePr#SetWidth}. We recommend you to use the  {@link ApiTablePr#SetWidth} method instead.
+💡 Tables are created with the &#123;@link ApiTable#SetWidth&#125; method properties set by default, which always override the &#123;@link ApiTablePr#SetWidth&#125; method properties. That is why there is no use to try and apply &#123;@link ApiTablePr#SetWidth&#125;. We recommend you to use the  &#123;@link ApiTablePr#SetWidth&#125; method instead.
 
 ## Syntax
 
+```javascript
 expression.SetWidth(sType, nValue);
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 
@@ -25,14 +27,14 @@ This method doesn't return any data.
 This example sets the preferred width to the table.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("We set the table cells to preserve their size:");
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-var oTablePr = oTableStyle.GetTablePr();
-var oTable = Api.CreateTable(3, 3);
-oTablePr.SetWidth("percent", 100);
-oTable.SetStyle(oTableStyle);
-oDocument.Push(oTable);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("We set the table cells to preserve their size:");
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
+let tablePr = tableStyle.GetTablePr();
+let table = Api.CreateTable(3, 3);
+tablePr.SetWidth("percent", 100);
+table.SetStyle(tableStyle);
+doc.Push(table);
 ```

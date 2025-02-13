@@ -4,7 +4,9 @@ Converts the ApiDocumentContent object into the JSON object.
 
 ## Syntax
 
-expression.ToJSON(bWriteNumberings, bWriteStyles);
+```javascript
+expression.ToJSON(isWriteNumberings, isWriteStyles);
+```
 
 `expression` - A variable that represents a [ApiDocumentContent](../ApiDocumentContent.md) class.
 
@@ -12,8 +14,8 @@ expression.ToJSON(bWriteNumberings, bWriteStyles);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| bWriteNumberings | Required | boolean |  | Specifies if the used numberings will be written to the JSON object or not. |
-| bWriteStyles | Required | boolean |  | Specifies if the used styles will be written to the JSON object or not. |
+| isWriteNumberings | Required | boolean |  | Specifies if the used numberings will be written to the JSON object or not. |
+| isWriteStyles | Required | boolean |  | Specifies if the used styles will be written to the JSON object or not. |
 
 ## Returns
 
@@ -24,21 +26,21 @@ JSON
 This example converts the ApiDocumentContent object into the JSON object.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oDrawing = Api.CreateShape("rect", 3212465, 963295, oFill, oStroke);
-oParagraph.AddDrawing(oDrawing);
-var oDocContent = oDrawing.GetDocContent();
-oDocContent.RemoveAllElements();
-oParagraph = oDocContent.GetElement(0);
-oParagraph.AddText("We removed all elements from the shape and added a new paragraph inside it.");
-var json = oDocContent.ToJSON(false, true);
-var oDocContentFromJSON = Api.FromJSON(json);
-var sType = oDocContentFromJSON.GetClassType();
-oDocContentFromJSON.RemoveAllElements();
-oParagraph = oDocContentFromJSON.GetElement(0);
-oParagraph.AddText("Class type = " + sType);
-Api.ReplaceDocumentContent(oDocContentFromJSON);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+let stroke = Api.CreateStroke(0, Api.CreateNoFill());
+let drawing = Api.CreateShape("rect", 3212465, 963295, fill, stroke);
+paragraph.AddDrawing(drawing);
+let docContent = drawing.GetDocContent();
+docContent.RemoveAllElements();
+paragraph = docContent.GetElement(0);
+paragraph.AddText("We removed all elements from the shape and added a new paragraph inside it.");
+let json = docContent.ToJSON(false, true);
+let docContentFromJSON = Api.FromJSON(json);
+let type = docContentFromJSON.GetClassType();
+docContentFromJSON.RemoveAllElements();
+paragraph = docContentFromJSON.GetElement(0);
+paragraph.AddText("Class type = " + type);
+Api.ReplaceDocumentContent(docContentFromJSON);
 ```

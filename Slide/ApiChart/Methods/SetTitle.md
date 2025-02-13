@@ -4,7 +4,9 @@ Specifies the chart title.
 
 ## Syntax
 
+```javascript
 expression.SetTitle(sTitle, nFontSize, bIsBold);
+```
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 

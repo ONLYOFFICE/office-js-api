@@ -4,7 +4,9 @@ Sets the text fill to the current text run.
 
 ## Syntax
 
+```javascript
 expression.SetTextFill(oApiFill);
+```
 
 `expression` - A variable that represents a [ApiTextPr](../ApiTextPr.md) class.
 

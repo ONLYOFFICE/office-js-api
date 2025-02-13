@@ -4,7 +4,9 @@ Returns a placeholder from the current drawing object.
 
 ## Syntax
 
+```javascript
 expression.GetPlaceholder();
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 
@@ -14,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-ApiPlaceholder, null
+[ApiPlaceholder](../../ApiPlaceholder/ApiPlaceholder.md) | null
 
 ## Example
 

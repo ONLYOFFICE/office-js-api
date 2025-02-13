@@ -4,7 +4,9 @@ Searches for a scope of a document object. The search results are a collection o
 
 ## Syntax
 
+```javascript
 expression.Search(sText, isMatchCase);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
@@ -17,19 +19,19 @@ expression.Search(sText, isMatchCase);
 
 ## Returns
 
-Array.<[ApiRange](../../ApiRange/ApiRange.md)>
+[ApiRange[]](../../ApiRange/ApiRange.md)
 
 ## Example
 
 This example shows how to make a search.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("This is paragraph №1.");
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("This is paragraph №2.");
-oDocument.Push(oParagraph);
-var aSearch = oDocument.Search("paragraph");
-aSearch[1].SetBold(true);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("This is paragraph №1.");
+paragraph = Api.CreateParagraph();
+paragraph.AddText("This is paragraph №2.");
+doc.Push(paragraph);
+let searchResults = doc.Search("paragraph");
+searchResults[1].SetBold(true);
 ```

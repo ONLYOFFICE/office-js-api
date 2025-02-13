@@ -4,7 +4,9 @@ Sets the row height value.
 
 ## Syntax
 
+```javascript
 expression.SetRowHeight(nHeight);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

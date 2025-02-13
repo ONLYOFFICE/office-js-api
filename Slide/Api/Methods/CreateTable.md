@@ -4,7 +4,9 @@ Creates a table.
 
 ## Syntax
 
+```javascript
 expression.CreateTable(nCols, nRows);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

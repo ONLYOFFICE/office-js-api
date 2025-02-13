@@ -4,7 +4,9 @@ Returns the negative binomial distribution, the probability that there will be t
 
 ## Syntax
 
+```javascript
 expression.NEGBINOMDIST(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,9 +14,9 @@ expression.NEGBINOMDIST(arg1, arg2, arg3);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | The number of failures. |
-| arg2 | Required | number |  | The threshold number of successes. |
-| arg3 | Required | number |  | The probability of a success; a number between 0 and 1. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The number of failures. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The threshold number of successes. |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The probability of a success; a number between 0 and 1. |
 
 ## Returns
 

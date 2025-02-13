@@ -4,7 +4,9 @@ Creates a new theme format scheme.
 
 ## Syntax
 
+```javascript
 expression.CreateThemeFormatScheme(arrFill, arrBgFill, arrLine, sName);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -12,9 +14,9 @@ expression.CreateThemeFormatScheme(arrFill, arrBgFill, arrLine, sName);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arrFill | Required | Array.<[ApiFill](../../ApiFill/ApiFill.md)> |  | This array contains the fill styles. It should be consist of subtle, moderate and intense fills. |
-| arrBgFill | Required | Array.<[ApiFill](../../ApiFill/ApiFill.md)> |  | This array contains the background fill styles. It should be consist of subtle, moderate and intense fills. |
-| arrLine | Required | Array.<[ApiStroke](../../ApiStroke/ApiStroke.md)> |  | This array contains the line styles. It should be consist of subtle, moderate and intense lines. |
+| arrFill | Required | [ApiFill[]](../../ApiFill/ApiFill.md) |  | This array contains the fill styles. It should be consist of subtle, moderate and intense fills. |
+| arrBgFill | Required | [ApiFill[]](../../ApiFill/ApiFill.md) |  | This array contains the background fill styles. It should be consist of subtle, moderate and intense fills. |
+| arrLine | Required | [ApiStroke[]](../../ApiStroke/ApiStroke.md) |  | This array contains the line styles. It should be consist of subtle, moderate and intense lines. |
 | sName | Required | string |  | Theme format scheme name. |
 
 ## Returns

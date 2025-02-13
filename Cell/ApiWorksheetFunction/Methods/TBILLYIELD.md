@@ -1,10 +1,12 @@
 # TBILLYIELD
 
-Returns the yield for a treasury bill.
+Returns the yield for a Treasury bill.
 
 ## Syntax
 
+```javascript
 expression.TBILLYIELD(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,13 +14,13 @@ expression.TBILLYIELD(arg1, arg2, arg3);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is the Treasury bill's settlement date, expressed as a serial date number. |
-| arg2 | Required | any |  | Is the Treasury bill's maturity date, expressed as a serial date number. |
-| arg3 | Required | any |  | Is the Treasury Bill's price per $100 face value. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The settlement date of the Treasury bill, expressed as a serial date number. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The maturity date of the Treasury bill, expressed as a serial date number. |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The purchase price of the Treasury bill, per $100 par value. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

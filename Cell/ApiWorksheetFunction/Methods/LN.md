@@ -4,7 +4,9 @@ Returns the natural logarithm of a number.
 
 ## Syntax
 
+```javascript
 expression.LN(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,11 +14,11 @@ expression.LN(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is the positive real number for which you want the natural logarithm. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The positive real number for which the natural logarithm will be returned. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

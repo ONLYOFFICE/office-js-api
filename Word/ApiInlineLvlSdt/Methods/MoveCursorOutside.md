@@ -4,7 +4,9 @@ Places a cursor before/after the current content control.
 
 ## Syntax
 
+```javascript
 expression.MoveCursorOutside(isAfter);
+```
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 
@@ -23,10 +25,10 @@ This method doesn't return any data.
 
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oInlineLvlSdt = Api.CreateInlineLvlSdt();
-oInlineLvlSdt.AddText("The cursor will be placed after the current content control.");
-oParagraph.AddInlineLvlSdt(oInlineLvlSdt);
-oInlineLvlSdt.MoveCursorOutside(true);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let inlineLvlSdt = Api.CreateInlineLvlSdt();
+inlineLvlSdt.AddText("The cursor will be placed after the current content control.");
+paragraph.AddInlineLvlSdt(inlineLvlSdt);
+inlineLvlSdt.MoveCursorOutside(true);
 ```

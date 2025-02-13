@@ -4,7 +4,9 @@ Returns the superscript property of the specified font.
 
 ## Syntax
 
+```javascript
 expression.GetSuperscript();
+```
 
 `expression` - A variable that represents a [ApiFont](../ApiFont.md) class.
 
@@ -14,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-boolean, null
+boolean | null
 
 ## Example
 

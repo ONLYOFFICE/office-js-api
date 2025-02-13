@@ -4,7 +4,9 @@ Converts degrees to radians.
 
 ## Syntax
 
+```javascript
 expression.RADIANS(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,11 +14,11 @@ expression.RADIANS(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is an angle in degrees that you want to convert. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | An angle in degrees to convert. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

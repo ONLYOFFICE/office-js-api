@@ -27,5 +27,5 @@ Enumeration
 This example adds a cross-reference to the page containing a bookmark.
 
 ```javascript
-oParagraph.AddBookmarkCrossRef("pageNum", sBookmark);
+paragraph.AddBookmarkCrossRef("pageNum", bookmark);
 ```

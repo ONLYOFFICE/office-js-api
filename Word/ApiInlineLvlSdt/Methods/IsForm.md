@@ -4,7 +4,9 @@ Checks if the content control is a form.
 
 ## Syntax
 
+```javascript
 expression.IsForm();
+```
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 
@@ -21,13 +23,13 @@ boolean
 This example checks if the content control is a form.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oInlineLvlSdt = Api.CreateInlineLvlSdt();
-oInlineLvlSdt.AddText("This is an inline text content control.");
-oParagraph.AddInlineLvlSdt(oInlineLvlSdt);
-var bForm = oInlineLvlSdt.IsForm();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("The first content control from this document is a form: " + bForm);
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let inlineLvlSdt = Api.CreateInlineLvlSdt();
+inlineLvlSdt.AddText("This is an inline text content control.");
+paragraph.AddInlineLvlSdt(inlineLvlSdt);
+let isForm = inlineLvlSdt.IsForm();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("The first content control from this document is a form: " + isForm);
+doc.Push(paragraph);
 ```

@@ -4,7 +4,9 @@ Sets the x-axis values to all chart series. It is used with the scatter charts o
 
 ## Syntax
 
+```javascript
 expression.SetXValues(aValues);
+```
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 
@@ -12,7 +14,7 @@ expression.SetXValues(aValues);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| aValues | Required | Array.&lt;string&gt; |  | The array of the data which will be set to the x-axis data points. |
+| aValues | Required | string[] |  | The array of the data which will be set to the x-axis data points. |
 
 ## Returns
 

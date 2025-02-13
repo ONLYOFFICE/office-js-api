@@ -4,7 +4,9 @@ Converts the ApiTable object into the JSON object.
 
 ## Syntax
 
+```javascript
 expression.ToJSON(bWriteTableStyles);
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 

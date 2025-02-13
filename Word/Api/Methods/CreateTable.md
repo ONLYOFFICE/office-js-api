@@ -4,7 +4,9 @@ Creates a new table with a specified number of rows and columns.
 
 ## Syntax
 
-expression.CreateTable(nCols, nRows);
+```javascript
+expression.CreateTable(cols, rows);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -12,8 +14,8 @@ expression.CreateTable(nCols, nRows);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| nCols | Required | number |  | Number of columns. |
-| nRows | Required | number |  | Number of rows. |
+| cols | Required | number |  | Number of columns. |
+| rows | Required | number |  | Number of rows. |
 
 ## Returns
 
@@ -24,8 +26,8 @@ expression.CreateTable(nCols, nRows);
 This example creates a 3x3 table and inserts it into the document.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oTable = Api.CreateTable(3, 3);
-oDocument.Push(oTable);
-oTable.SetWidth("percent", 100);
+let doc = Api.GetDocument();
+let table = Api.CreateTable(3, 3);
+doc.Push(table);
+table.SetWidth("percent", 100);
 ```

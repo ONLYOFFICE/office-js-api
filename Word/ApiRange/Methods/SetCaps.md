@@ -4,7 +4,9 @@ Specifies that any lowercase characters in the current text Range are formatted 
 
 ## Syntax
 
+```javascript
 expression.SetCaps(isCaps);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
@@ -16,16 +18,16 @@ expression.SetCaps(isCaps);
 
 ## Returns
 
-ApiRange, null
+[ApiRange](../../ApiRange/ApiRange.md) | null
 
 ## Example
 
 This example specifies that any lowercase characters in the current text Range are formatted for display only as their capital letter character equivalents.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("ONLYOFFICE Document Builder");
-var oRange = oDocument.GetRange(10, 17);
-oRange.SetCaps(true);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("ONLYOFFICE Document Builder");
+let range = doc.GetRange(10, 17);
+range.SetCaps(true);
 ```

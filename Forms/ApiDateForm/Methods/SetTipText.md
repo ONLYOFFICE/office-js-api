@@ -4,7 +4,9 @@ Sets the tip text to the current form.
 
 ## Syntax
 
+```javascript
 expression.SetTipText(sText);
+```
 
 `expression` - A variable that represents a [ApiDateForm](../ApiDateForm.md) class.
 
@@ -23,13 +25,13 @@ boolean
 This example sets the tip text to the form.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oTextForm = Api.CreateTextForm({"key": "Personal information", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddElement(oTextForm);
-oTextForm.SetTipText("Enter your first name");
-var sTipText = oTextForm.GetTipText();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Tip text: " + sTipText);
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let textForm = Api.CreateTextForm({"key": "Personal information", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});
+let paragraph = doc.GetElement(0);
+paragraph.AddElement(textForm);
+textForm.SetTipText("Enter your first name");
+let tipText = textForm.GetTipText();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Tip text: " + tipText);
+doc.Push(paragraph);
 ```

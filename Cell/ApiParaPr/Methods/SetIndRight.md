@@ -4,7 +4,9 @@ Sets the paragraph right side indentation.
 
 ## Syntax
 
+```javascript
 expression.SetIndRight(nValue);
+```
 
 `expression` - A variable that represents a [ApiParaPr](../ApiParaPr.md) class.
 

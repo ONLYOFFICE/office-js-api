@@ -4,7 +4,9 @@ Sets the highlight to the content controls from the current document.
 
 ## Syntax
 
+```javascript
 expression.SetControlsHighlight(r, g, b, bNone);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
@@ -26,9 +28,9 @@ This method doesn't return any data.
 This example sets the highlight to the content controls from the document.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oBlockLvlSdt = Api.CreateBlockLvlSdt();
-oBlockLvlSdt.GetContent().GetElement(0).AddText("This is a block text content control.");
-oDocument.AddElement(0, oBlockLvlSdt);
-oDocument.SetControlsHighlight(255, 111, 61);
+let doc = Api.GetDocument();
+let blockLvlSdt = Api.CreateBlockLvlSdt();
+blockLvlSdt.GetContent().GetElement(0).AddText("This is a block text content control.");
+doc.AddElement(0, blockLvlSdt);
+doc.SetControlsHighlight(255, 111, 61);
 ```

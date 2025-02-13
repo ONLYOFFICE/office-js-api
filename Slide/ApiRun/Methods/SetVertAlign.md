@@ -7,7 +7,9 @@ Specifies the alignment which will be applied to the contents of the run in rela
 
 ## Syntax
 
+```javascript
 expression.SetVertAlign(sType);
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 
@@ -15,7 +17,7 @@ expression.SetVertAlign(sType);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sType | Required | "baseline" &#124; "subscript" &#124; "superscript" |  | The vertical alignment type applied to the text contents. |
+| sType | Required | "baseline" | "subscript" | "superscript" |  | The vertical alignment type applied to the text contents. |
 
 ## Returns
 

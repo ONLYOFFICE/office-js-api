@@ -4,7 +4,9 @@ Returns the cotangent of an angle.
 
 ## Syntax
 
+```javascript
 expression.COT(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,11 +14,11 @@ expression.COT(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is the angle in radians for which you want the cotangent. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The angle in radians for which the cotangent will be returned. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

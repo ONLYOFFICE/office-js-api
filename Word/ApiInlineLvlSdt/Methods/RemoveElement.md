@@ -4,7 +4,9 @@ Removes an element using the position specified from the current inline text con
 
 ## Syntax
 
+```javascript
 expression.RemoveElement(nPos);
+```
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 
@@ -23,15 +25,15 @@ boolean
 This example removes an element using the position specified from the inline text content control.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oInlineLvlSdt = Api.CreateInlineLvlSdt();
-oParagraph.AddInlineLvlSdt(oInlineLvlSdt);
-var oRun1 = Api.CreateRun();
-oRun1.AddText("This is the first text run in the inline text content control.");
-oInlineLvlSdt.AddElement(oRun1, 0);
-var oRun2 = Api.CreateRun();
-oRun2.AddText("This is the second text run in the inline text content control. The first text run was removed.");
-oInlineLvlSdt.AddElement(oRun2, 1);
-oInlineLvlSdt.RemoveElement(0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let inlineLvlSdt = Api.CreateInlineLvlSdt();
+paragraph.AddInlineLvlSdt(inlineLvlSdt);
+let run1 = Api.CreateRun();
+run1.AddText("This is the first text run in the inline text content control.");
+inlineLvlSdt.AddElement(run1, 0);
+let run2 = Api.CreateRun();
+run2.AddText("This is the second text run in the inline text content control. The first text run was removed.");
+inlineLvlSdt.AddElement(run2, 1);
+inlineLvlSdt.RemoveElement(0);
 ```

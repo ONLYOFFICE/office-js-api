@@ -4,7 +4,9 @@ Returns the full name of the currently opened file.
 
 ## Syntax
 
+```javascript
 expression.GetFullName();
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

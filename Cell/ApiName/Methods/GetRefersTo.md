@@ -4,7 +4,9 @@ Returns a formula that the name is defined to refer to.
 
 ## Syntax
 
+```javascript
 expression.GetRefersTo();
+```
 
 `expression` - A variable that represents a [ApiName](../ApiName.md) class.
 

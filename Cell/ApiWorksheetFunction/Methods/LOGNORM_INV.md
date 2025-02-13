@@ -4,7 +4,9 @@ Returns the inverse of the lognormal cumulative distribution function of x, wher
 
 ## Syntax
 
+```javascript
 expression.LOGNORM_INV(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,9 +14,9 @@ expression.LOGNORM_INV(arg1, arg2, arg3);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | A probability associated with the lognormal distribution, a number between 0 and 1, inclusive. |
-| arg2 | Required | number |  | The mean of ln(x). |
-| arg3 | Required | number |  | The standard deviation of ln(x), a positive number. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | A probability associated with the lognormal distribution, a number between 0 and 1, inclusive. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The mean of ln(x). |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The standard deviation of ln(x), a positive number. |
 
 ## Returns
 

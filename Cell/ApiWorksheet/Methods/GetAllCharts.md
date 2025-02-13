@@ -4,7 +4,9 @@ Returns all charts from the current sheet.
 
 ## Syntax
 
+```javascript
 expression.GetAllCharts();
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 
@@ -14,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Array.<[ApiChart](../../ApiChart/ApiChart.md)>
+[ApiChart[]](../../ApiChart/ApiChart.md)
 
 ## Example
 

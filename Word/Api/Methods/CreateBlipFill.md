@@ -4,7 +4,9 @@ Creates a blip fill to apply to the object using the selected image as the objec
 
 ## Syntax
 
-expression.CreateBlipFill(sImageUrl, sBlipFillType);
+```javascript
+expression.CreateBlipFill(imageUrl, blipFillType);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -12,8 +14,8 @@ expression.CreateBlipFill(sImageUrl, sBlipFillType);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sImageUrl | Required | string |  | The path to the image used for the blip fill (currently only internet URL or Base64 encoded images are supported). |
-| sBlipFillType | Required | [BlipFillType](../../Enumeration/BlipFillType.md) |  | The type of the fill used for the blip fill (tile or stretch). |
+| imageUrl | Required | string |  | The path to the image used for the blip fill (currently only internet URL or Base64 encoded images are supported). |
+| blipFillType | Required | [BlipFillType](../../Enumeration/BlipFillType.md) |  | The type of the fill used for the blip fill (tile or stretch). |
 
 ## Returns
 
@@ -24,10 +26,10 @@ expression.CreateBlipFill(sImageUrl, sBlipFillType);
 This example shows hot to create a blip fill to apply to the object using the selected image as the object background.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oFill = Api.CreateBlipFill("https://api.onlyoffice.com/content/img/docbuilder/examples/icon_DocumentEditors.png", "tile");
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oDrawing = Api.CreateShape("star10", 5930900, 595605, oFill, oStroke);
-oParagraph.AddDrawing(oDrawing);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let fill = Api.CreateBlipFill("https://static.onlyoffice.com/assets/docs/samples/img/presentation_sky.png", "tile");
+let stroke = Api.CreateStroke(0, Api.CreateNoFill());
+let shape = Api.CreateShape("star10", 5930900, 595605, fill, stroke);
+paragraph.AddDrawing(shape);
 ```

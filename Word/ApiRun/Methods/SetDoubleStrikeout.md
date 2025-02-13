@@ -4,7 +4,9 @@ Specifies that the contents of the run are displayed with two horizontal lines t
 
 ## Syntax
 
+```javascript
 expression.SetDoubleStrikeout(isDoubleStrikeout);
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 
@@ -23,9 +25,9 @@ expression.SetDoubleStrikeout(isDoubleStrikeout);
 This example specifies that the contents of the run are displayed with two horizontal lines through each character displayed on the line.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oTextPr = oDocument.GetDefaultTextPr();
-oTextPr.SetDoubleStrikeout(true);
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("A sample text struck out with two lines using the text properties.");
+let doc = Api.GetDocument();
+let textPr = doc.GetDefaultTextPr();
+textPr.SetDoubleStrikeout(true);
+let paragraph = doc.GetElement(0);
+paragraph.AddText("A sample text struck out with two lines using the text properties.");
 ```

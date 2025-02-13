@@ -1,20 +1,24 @@
 # XOR
 
-Returns a logical 'Exclusive Or' of all arguments.
+Returns the logical **Exclusive Or** value of all arguments. The function returns **true** when the number of **true** inputs is odd and **false** when the number of **true** inputs is even.
 
 ## Syntax
 
-expression.XOR();
+```javascript
+expression.XOR(args);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
 ## Parameters
 
-This method doesn't have any parameters.
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| args | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | boolean | array |  | The conditions to check. |
 
 ## Returns
 
-number, string, boolean
+boolean
 
 ## Example
 

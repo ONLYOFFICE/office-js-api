@@ -1,10 +1,12 @@
 # WEEKDAY
 
-Returns a number from 1 to 7 identifying the day of the week of a date..
+Returns a number from 1 to 7 identifying the day of the week of the specified date.
 
 ## Syntax
 
+```javascript
 expression.WEEKDAY(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,12 +14,12 @@ expression.WEEKDAY(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is a number that represents a date. |
-| arg2 | Required | number |  | Is a number: for Sunday=1 through Saturday=7, use 1; for Monday=1 through Sunday=7, use 2; for Monday=0 through Sunday=6, use 3. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | A number that represents a date, or a result of other formulas or functions. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | A number that determines the type of return value: **1** - returns a number from 1 (Sunday) to 7 (Saturday); **2** - returns a number from 1 (Monday) to 7 (Sunday); **3** - returns a number from 0 (Monday) to 6 (Sunday). |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

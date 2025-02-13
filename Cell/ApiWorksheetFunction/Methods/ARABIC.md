@@ -4,7 +4,9 @@ Converts a Roman numeral to Arabic.
 
 ## Syntax
 
+```javascript
 expression.ARABIC(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,11 +14,11 @@ expression.ARABIC(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | string |  | Is the Roman numeral you want to convert. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | string |  | The Roman numeral to convert. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

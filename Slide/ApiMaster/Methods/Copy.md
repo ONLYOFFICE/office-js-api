@@ -4,7 +4,9 @@ Creates a copy of the specified slide master object.
 
 ## Syntax
 
+```javascript
 expression.Copy();
+```
 
 `expression` - A variable that represents a [ApiMaster](../ApiMaster.md) class.
 
@@ -14,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-ApiMaster, null
+[ApiMaster](../../ApiMaster/ApiMaster.md) | null
 
 ## Example
 

@@ -4,7 +4,9 @@ Sets the text outline to the current text run.
 
 ## Syntax
 
+```javascript
 expression.SetOutLine(oStroke);
+```
 
 `expression` - A variable that represents a [ApiTextPr](../ApiTextPr.md) class.
 

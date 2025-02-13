@@ -4,7 +4,9 @@ Specifies whether the text with the current text properties are displayed capita
 
 ## Syntax
 
+```javascript
 expression.GetSmallCaps();
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 

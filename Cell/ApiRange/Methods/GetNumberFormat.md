@@ -4,7 +4,9 @@ Returns a value that represents the format code for the current range.
 
 ## Syntax
 
+```javascript
 expression.GetNumberFormat();
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
@@ -14,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-string, null
+string | null
 
 ## Example
 

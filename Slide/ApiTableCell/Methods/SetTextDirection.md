@@ -4,7 +4,9 @@ Specifies the direction of the text flow for the current table cell.
 
 ## Syntax
 
+```javascript
 expression.SetTextDirection(sType);
+```
 
 `expression` - A variable that represents a [ApiTableCell](../ApiTableCell.md) class.
 
@@ -12,7 +14,7 @@ expression.SetTextDirection(sType);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sType | Required | "lrtb" &#124; "tbrl" &#124; "btlr" |  | The type of the text flow direction. |
+| sType | Required | "lrtb" | "tbrl" | "btlr" |  | The type of the text flow direction. |
 
 ## Returns
 

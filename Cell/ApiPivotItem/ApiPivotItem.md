@@ -6,12 +6,11 @@ Represents the ApiPivotItem class.
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| Name | string | Returns the name of Pivot Item. |
-| Caption | string | Returns the caption of Pivot Item. |
-| Value | string | Returns the value of Pivot Item. |
-| Parent | string | Returns the parent of Pivot Item. |
-| Field | string | Returns the field of Pivot Item. |
-
+| Name | string | Returns a name of the pivot item. |
+| Caption | string | Returns a caption of the pivot item. |
+| Value | string | Returns a name of the specified item in the pivot table field. |
+| Parent | string | Returns a parent of the pivot item. |
+| Field | string | Returns a field of the pivot item. |
 ## Methods
 
 - [GetName](./Methods/GetName.md)

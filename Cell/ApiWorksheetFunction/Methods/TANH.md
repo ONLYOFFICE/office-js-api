@@ -4,7 +4,9 @@ Returns the hyperbolic tangent of a number.
 
 ## Syntax
 
+```javascript
 expression.TANH(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,11 +14,11 @@ expression.TANH(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is any real number. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | Any real number for which the hyperbolic tangent will be returned. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

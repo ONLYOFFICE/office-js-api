@@ -4,7 +4,9 @@ Sets a string value that represents the text of the specified range of character
 
 ## Syntax
 
+```javascript
 expression.SetCaption(Caption);
+```
 
 `expression` - A variable that represents a [ApiCharacters](../ApiCharacters.md) class.
 

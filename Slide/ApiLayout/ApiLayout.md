@@ -6,6 +6,7 @@ Represents the ApiLayout class.
 
 - [GetClassType](./Methods/GetClassType.md)
 - [SetName](./Methods/SetName.md)
+- [GetName](./Methods/GetName.md)
 - [AddObject](./Methods/AddObject.md)
 - [RemoveObject](./Methods/RemoveObject.md)
 - [SetBackground](./Methods/SetBackground.md)
@@ -22,3 +23,5 @@ Represents the ApiLayout class.
 - [GetAllOleObjects](./Methods/GetAllOleObjects.md)
 - [GetMaster](./Methods/GetMaster.md)
 - [ToJSON](./Methods/ToJSON.md)
+- [GetDrawingsByPlaceholderType](./Methods/GetDrawingsByPlaceholderType.md)
+- [GroupDrawings](./Methods/GroupDrawings.md)

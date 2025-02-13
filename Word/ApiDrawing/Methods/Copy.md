@@ -4,7 +4,9 @@ Copies the current graphic object.
 
 ## Syntax
 
+```javascript
 expression.Copy();
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 
@@ -21,16 +23,16 @@ This method doesn't have any parameters.
 This example copies the current graphic object.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oFill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oDrawing = Api.CreateShape("cube", 3212465, 963295, oFill, oStroke);
-oParagraph.AddDrawing(oDrawing);
-var oCopyDrawing = oDrawing.Copy();
-var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);
-var oGs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);
-oFill = Api.CreateRadialGradientFill([oGs1, oGs2]);
-oCopyDrawing.Fill(oFill);
-oParagraph.AddDrawing(oCopyDrawing);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let fill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
+let stroke = Api.CreateStroke(0, Api.CreateNoFill());
+let drawing = Api.CreateShape("cube", 3212465, 963295, fill, stroke);
+paragraph.AddDrawing(drawing);
+let copyDrawing = drawing.Copy();
+let gs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);
+let gs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);
+fill = Api.CreateRadialGradientFill([gs1, gs2]);
+copyDrawing.Fill(fill);
+paragraph.AddDrawing(copyDrawing);
 ```

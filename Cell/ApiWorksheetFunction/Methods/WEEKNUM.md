@@ -4,7 +4,9 @@ Returns the week number in the year.
 
 ## Syntax
 
+```javascript
 expression.WEEKNUM(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,12 +14,12 @@ expression.WEEKNUM(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is the date-time code used by Microsoft Excel for date and time calculation. |
-| arg2 | Required | any |  | Is a number (1 or 2) that determines the type of the return value. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The date-time code used for date and time calculation. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | A number (1 or 2) that determines the type of the return value: Sunday (1) or Monday (2). |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

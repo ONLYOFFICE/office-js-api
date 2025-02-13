@@ -4,7 +4,9 @@ Returns a type of the current style.
 
 ## Syntax
 
+```javascript
 expression.GetType();
+```
 
 `expression` - A variable that represents a [ApiStyle](../ApiStyle.md) class.
 
@@ -21,14 +23,14 @@ This method doesn't have any parameters.
 This example shows how to get a type of the current style.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oTableStyle = oDocument.GetStyle("Bordered");
-oTableStyle.SetName("My Custom Style");
-var oTable = Api.CreateTable(2, 2);
-oTable.SetWidth("percent", 100);
-oTable.SetStyle(oTableStyle);
-oDocument.Push(oTable);
-var oTableStyleType = oTableStyle.GetType();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("Style type = " + oTableStyleType);
+let doc = Api.GetDocument();
+let tableStyle = doc.GetStyle("Bordered");
+tableStyle.SetName("My Custom Style");
+let table = Api.CreateTable(2, 2);
+table.SetWidth("percent", 100);
+table.SetStyle(tableStyle);
+doc.Push(table);
+let tableStyleType = tableStyle.GetType();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("Style type = " + tableStyleType);
 ```

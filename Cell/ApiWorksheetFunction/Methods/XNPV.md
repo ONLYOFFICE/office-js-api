@@ -4,7 +4,9 @@ Returns the net present value for a schedule of cash flows.
 
 ## Syntax
 
+```javascript
 expression.XNPV(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,13 +14,13 @@ expression.XNPV(arg1, arg2, arg3);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is the discount rate to apply to the cash flows. |
-| arg2 | Required | any |  | Is a series of cash flows that correspond to a schedule of payments in dates. |
-| arg3 | Required | any |  | Is a schedule of payment dates that corresponds to the cash flow payments. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The discount rate to apply to the cash flows. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) |  | A range that contains the series of cash flows that corresponds to a schedule of payments in dates. |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) |  | A range that contains the schedule of payment dates that corresponds to the cash flow payments. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

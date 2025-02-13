@@ -4,7 +4,9 @@ Gets the text fill from the current text properties.
 
 ## Syntax
 
+```javascript
 expression.GetTextFill();
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 

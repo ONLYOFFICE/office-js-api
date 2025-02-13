@@ -4,7 +4,9 @@ Specifies that any lowercase characters in the text run are formatted for displa
 
 ## Syntax
 
+```javascript
 expression.SetCaps(isCaps);
+```
 
 `expression` - A variable that represents a [ApiTextPr](../ApiTextPr.md) class.
 
@@ -23,9 +25,9 @@ expression.SetCaps(isCaps);
 This example specifies that any lowercase characters in the text run are formatted for display only as their capital letter character equivalents.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oTextPr = oDocument.GetDefaultTextPr();
-oTextPr.SetCaps(true);
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("A sample text set to capital letters using the text properties.");
+let doc = Api.GetDocument();
+let textPr = doc.GetDefaultTextPr();
+textPr.SetCaps(true);
+let paragraph = doc.GetElement(0);
+paragraph.AddText("A sample text set to capital letters using the text properties.");
 ```

@@ -4,7 +4,9 @@ Sets a name to the current theme format scheme.
 
 ## Syntax
 
+```javascript
 expression.SetSchemeName(sName);
+```
 
 `expression` - A variable that represents a [ApiThemeFormatScheme](../ApiThemeFormatScheme.md) class.
 

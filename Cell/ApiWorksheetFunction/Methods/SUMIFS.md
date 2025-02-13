@@ -4,17 +4,25 @@ Adds the cells specified by a given set of conditions or criteria.
 
 ## Syntax
 
-expression.SUMIFS();
+```javascript
+expression.SUMIFS(arg1, arg2, arg3, arg4, arg5);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
 ## Parameters
 
-This method doesn't have any parameters.
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) |  | The range of cells to be evaluated. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number | string |  | The first condition or criteria in the form of a number, expression, or text that defines which cells will be added. |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) |  | The first range to sum. If omitted, the cells in range are used. |
+| arg4 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number | string |  | Up to 127 additional conditions or criteria in the form of a number, expression, or text that defines which cells will be added. These arguments are optional. |
+| arg5 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) |  | Up to 127 actual ranges to be used to be added. If omitted, the cells in the range are used. These arguments are optional. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

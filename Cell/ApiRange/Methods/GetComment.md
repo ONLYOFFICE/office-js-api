@@ -4,7 +4,9 @@ Returns the ApiComment object of the current range.
 
 ## Syntax
 
+```javascript
 expression.GetComment();
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
@@ -14,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-ApiComment, null
+[ApiComment](../../ApiComment/ApiComment.md) | null
 
 ## Example
 

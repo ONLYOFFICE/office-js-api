@@ -4,7 +4,9 @@ Updates all tables of contents in the current document.
 
 ## Syntax
 
+```javascript
 expression.UpdateAllTOC(bOnlyPageNumbers);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
@@ -23,22 +25,22 @@ This method doesn't return any data.
 This example updates all tables of contents in the current document.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oNewDocumentStyle = oDocument.GetStyle("Heading 1");
-var oParagraph = oDocument.GetElement(0);
-oParagraph.SetStyle(oNewDocumentStyle);
-oParagraph.AddText("Heading 1");
-oNewDocumentStyle = oDocument.GetStyle("Heading 2");
-oParagraph = Api.CreateParagraph();
-oParagraph.SetStyle(oNewDocumentStyle);
-oParagraph.AddText("Heading 2");
-oDocument.Push(oParagraph);
-var oTocPr = {"ShowPageNums": true, "RightAlgn": true, "LeaderType": "dot", "FormatAsLinks": true, "BuildFrom": {"OutlineLvls": 9}, "TocStyle": "standard"};
-oDocument.AddTableOfContents(oTocPr);
-oNewDocumentStyle = oDocument.GetStyle("Heading 2");
-oParagraph = Api.CreateParagraph();
-oParagraph.SetStyle(oNewDocumentStyle);
-oParagraph.AddText("Heading 2");
-oDocument.AddElement(3, oParagraph);
-oDocument.UpdateAllTOC(false);
+let doc = Api.GetDocument();
+let newDocumentStyle = doc.GetStyle("Heading 1");
+let paragraph = doc.GetElement(0);
+paragraph.SetStyle(newDocumentStyle);
+paragraph.AddText("Heading 1");
+newDocumentStyle = doc.GetStyle("Heading 2");
+paragraph = Api.CreateParagraph();
+paragraph.SetStyle(newDocumentStyle);
+paragraph.AddText("Heading 2");
+doc.Push(paragraph);
+let tocPr = {"ShowPageNums": true, "RightAlgn": true, "LeaderType": "dot", "FormatAsLinks": true, "BuildFrom": {"OutlineLvls": 9}, "TocStyle": "standard"};
+doc.AddTableOfContents(tocPr);
+newDocumentStyle = doc.GetStyle("Heading 2");
+paragraph = Api.CreateParagraph();
+paragraph.SetStyle(newDocumentStyle);
+paragraph.AddText("Heading 2");
+doc.AddElement(3, paragraph);
+doc.UpdateAllTOC(false);
 ```

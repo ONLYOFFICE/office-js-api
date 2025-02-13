@@ -4,7 +4,9 @@ Sets the background color to all cells in the current table row.
 
 ## Syntax
 
+```javascript
 expression.SetBackgroundColor(r, g, b, bNone);
+```
 
 `expression` - A variable that represents a [ApiTableRow](../ApiTableRow.md) class.
 
@@ -26,13 +28,13 @@ boolean
 This example sets the background color to all cells in the table row.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-var oTable = Api.CreateTable(4, 2);
-oTable.SetWidth("percent", 100);
-oTable.SetStyle(oTableStyle);
-var oTableRow = oTable.GetRow(1);
-oTableRow.SetBackgroundColor(255, 111, 61, false);
-oDocument.Push(oTable);
+let doc = Api.GetDocument();
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
+let table = Api.CreateTable(4, 2);
+table.SetWidth("percent", 100);
+table.SetStyle(tableStyle);
+let tableRow = table.GetRow(1);
+tableRow.SetBackgroundColor(255, 111, 61, false);
+doc.Push(table);
 ```

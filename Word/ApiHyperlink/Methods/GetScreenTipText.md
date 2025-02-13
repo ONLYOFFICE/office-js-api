@@ -4,7 +4,9 @@ Returns the screen tip text of the hyperlink.
 
 ## Syntax
 
+```javascript
 expression.GetScreenTipText();
+```
 
 `expression` - A variable that represents a [ApiHyperlink](../ApiHyperlink.md) class.
 
@@ -21,15 +23,15 @@ string
 This example shows how to get the screen tip text of the hyperlink.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oRun = Api.CreateRun();
-oRun.AddText("ONLYOFFICE Document Builder");
-oParagraph.AddElement(oRun);
-var oHyperlink = oParagraph.AddHyperlink("https://api.onlyoffice.com/docbuilder/basic");
-oHyperlink.SetScreenTipText("ONLYOFFICE for developers");
-var sScreenTipText = oHyperlink.GetScreenTipText();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Screen tip text: " + sScreenTipText);
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let run = Api.CreateRun();
+run.AddText("ONLYOFFICE Document Builder");
+paragraph.AddElement(run);
+let hyperlink = paragraph.AddHyperlink("https://api.onlyoffice.com/docbuilder/basic");
+hyperlink.SetScreenTipText("ONLYOFFICE for developers");
+let screenTipText = hyperlink.GetScreenTipText();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Screen tip text: " + screenTipText);
+doc.Push(paragraph);
 ```

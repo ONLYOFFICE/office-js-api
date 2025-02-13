@@ -4,7 +4,9 @@ Sets the outline to the chart legend.
 
 ## Syntax
 
+```javascript
 expression.SetLegendOutLine(oStroke);
+```
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 

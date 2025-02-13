@@ -4,7 +4,9 @@ Creates a duplicate of the specified slide master object, adds the new slide mas
 
 ## Syntax
 
+```javascript
 expression.Duplicate(nPos);
+```
 
 `expression` - A variable that represents a [ApiMaster](../ApiMaster.md) class.
 
@@ -16,7 +18,7 @@ expression.Duplicate(nPos);
 
 ## Returns
 
-ApiMaster, null
+[ApiMaster](../../ApiMaster/ApiMaster.md) | null
 
 ## Example
 

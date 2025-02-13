@@ -4,7 +4,9 @@ Changes a color in the theme color scheme.
 
 ## Syntax
 
+```javascript
 expression.ChangeColor(nPos, oColor);
+```
 
 `expression` - A variable that represents a [ApiThemeColorScheme](../ApiThemeColorScheme.md) class.
 
@@ -13,7 +15,7 @@ expression.ChangeColor(nPos, oColor);
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | nPos | Required | number |  | Color position in the color scheme which will be changed. |
-| oColor | Required | [ApiUniColor](../../ApiUniColor/ApiUniColor.md) &#124; [ApiRGBColor](../../ApiRGBColor/ApiRGBColor.md) |  | New color of the theme color scheme. |
+| oColor | Required | [ApiUniColor](../../ApiUniColor/ApiUniColor.md) | [ApiRGBColor](../../ApiRGBColor/ApiRGBColor.md) |  | New color of the theme color scheme. |
 
 ## Returns
 

@@ -4,7 +4,9 @@ Specifies that the current paragraph references a numbering definition instance 
 
 ## Syntax
 
+```javascript
 expression.SetNumPr(oNumPr, nLvl);
+```
 
 `expression` - A variable that represents a [ApiParaPr](../ApiParaPr.md) class.
 
@@ -24,21 +26,21 @@ This method doesn't return any data.
 This example specifies that the current paragraph references a numbering definition instance in the current document.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oMyStyle = oDocument.CreateStyle("My document style");
-var oParaPr = oMyStyle.GetParaPr();
-var oNumbering = oDocument.CreateNumbering("bullet");
-oParaPr.SetNumPr(oNumbering);
-for (let nLvl = 0; nLvl < 8; ++nLvl) {
-	var oNumLvl = oNumbering.GetLevel(nLvl);
-	var oParagraph = Api.CreateParagraph();
-	oParagraph.AddText("Default bullet lvl " + (nLvl + 1));
-	oParagraph.SetNumbering(oNumLvl);
-	oParagraph.SetContextualSpacing(true);
-	oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let myStyle = doc.CreateStyle("My document style");
+let paraPr = myStyle.GetParaPr();
+let numbering = doc.CreateNumbering("bullet");
+paraPr.SetNumPr(numbering);
+for (let lvl = 0; lvl < 8; ++lvl) {
+	let numLvl = numbering.GetLevel(lvl);
+	let paragraph = Api.CreateParagraph();
+	paragraph.AddText("Default bullet lvl " + (lvl + 1));
+	paragraph.SetNumbering(numLvl);
+	paragraph.SetContextualSpacing(true);
+	doc.Push(paragraph);
 }
-oParagraph = Api.CreateParagraph();
-oParagraph.SetStyle(oMyStyle);
-oParagraph.AddText("This is a paragraph styled as a bulleted list.");
-oDocument.Push(oParagraph);
+let paragraph = Api.CreateParagraph();
+paragraph.SetStyle(myStyle);
+paragraph.AddText("This is a paragraph styled as a bulleted list.");
+doc.Push(paragraph);
 ```

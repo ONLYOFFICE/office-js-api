@@ -4,7 +4,9 @@ Returns the number of permutations for a given number of objects that can be sel
 
 ## Syntax
 
+```javascript
 expression.PERMUT(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,8 +14,8 @@ expression.PERMUT(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | The total number of objects. |
-| arg2 | Required | number |  | The number of objects in each permutation. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The total number of objects. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The number of objects in each permutation. |
 
 ## Returns
 

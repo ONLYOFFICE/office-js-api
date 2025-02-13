@@ -4,7 +4,9 @@ Rounds a positive number up and negative number down to the nearest even integer
 
 ## Syntax
 
+```javascript
 expression.EVEN(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,11 +14,11 @@ expression.EVEN(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is the value to round. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The value to round up. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

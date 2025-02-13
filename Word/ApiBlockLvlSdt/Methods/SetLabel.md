@@ -4,7 +4,9 @@ Sets the label attribute to the current container.
 
 ## Syntax
 
+```javascript
 expression.SetLabel(sLabel);
+```
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 
@@ -23,12 +25,12 @@ This method doesn't return any data.
 This example sets the label attribute to the container.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oBlockLvlSdt = Api.CreateBlockLvlSdt();
-oBlockLvlSdt.GetContent().GetElement(0).AddText("This is a block text content control with a label set to it.");
-oBlockLvlSdt.SetLabel("2147483647");
-oDocument.AddElement(0, oBlockLvlSdt);
-var oLabel = oBlockLvlSdt.GetLabel();
-var oParagraph = oDocument.GetElement(1);
-oParagraph.AddText("Label: " + oLabel);
+let doc = Api.GetDocument();
+let blockLvlSdt = Api.CreateBlockLvlSdt();
+blockLvlSdt.GetContent().GetElement(0).AddText("This is a block text content control with a label set to it.");
+blockLvlSdt.SetLabel("2147483647");
+doc.AddElement(0, blockLvlSdt);
+let label = blockLvlSdt.GetLabel();
+let paragraph = doc.GetElement(1);
+paragraph.AddText("Label: " + label);
 ```

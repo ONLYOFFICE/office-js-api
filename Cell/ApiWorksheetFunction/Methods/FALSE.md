@@ -1,10 +1,12 @@
 # FALSE
 
-Returns the logical value FALSE.
+Returns the **false** logical value.
 
 ## Syntax
 
+```javascript
 expression.FALSE();
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -14,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-number, string, boolean
+boolean
 
 ## Example
 

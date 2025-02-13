@@ -18,5 +18,5 @@ Enumeration
 This example sets the anyone type to the protected range.
 
 ```javascript
-oProtectedRange.SetAnyoneType("NotView");
+protectedRange.SetAnyoneType("NotView");
 ```

@@ -4,7 +4,9 @@ Specifies the distance from the top edge of the page to the top edge of the head
 
 ## Syntax
 
+```javascript
 expression.SetHeaderDistance(nDistance);
+```
 
 `expression` - A variable that represents a [ApiSection](../ApiSection.md) class.
 
@@ -23,14 +25,14 @@ This method doesn't return any data.
 This example specifies the distance from the top edge of the page to the top edge of the header.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("This is a page with a header. ");
-oParagraph.AddText("Scroll down the page to see it.");
-var oSection = oDocument.GetFinalSection();
-var oHeader = oSection.GetHeader("default", true);
-oSection.SetHeaderDistance(1440);
-oParagraph = oHeader.GetElement(0);
-oParagraph.AddText("This is a page header. ");
-oParagraph.AddText("The distance from the page top to the header is 1 inch (1440 twentieths of a point).");
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("This is a page with a header. ");
+paragraph.AddText("Scroll down the page to see it.");
+let section = doc.GetFinalSection();
+let header = section.GetHeader("default", true);
+section.SetHeaderDistance(1440);
+paragraph = header.GetElement(0);
+paragraph.AddText("This is a page header. ");
+paragraph.AddText("The distance from the page top to the header is 1 inch (1440 twentieths of a point).");
 ```

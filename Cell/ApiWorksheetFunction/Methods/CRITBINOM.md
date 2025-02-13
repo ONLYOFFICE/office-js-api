@@ -4,7 +4,9 @@ Returns the smallest value for which the cumulative binomial distribution is gre
 
 ## Syntax
 
+```javascript
 expression.CRITBINOM(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,9 +14,9 @@ expression.CRITBINOM(arg1, arg2, arg3);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | The number of Bernoulli trials. |
-| arg2 | Required | number |  | The probability of success on each trial, a number between 0 and 1 inclusive. |
-| arg3 | Required | number |  | The criterion value, a number between 0 and 1 inclusive. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The number of Bernoulli trials. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The probability of success on each trial, a number between 0 and 1 inclusive. |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The criterion value, a number between 0 and 1 inclusive. |
 
 ## Returns
 

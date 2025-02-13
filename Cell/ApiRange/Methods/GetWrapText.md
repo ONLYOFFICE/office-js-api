@@ -4,7 +4,9 @@ Returns the information about the wrapping cell style.
 
 ## Syntax
 
+```javascript
 expression.GetWrapText();
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

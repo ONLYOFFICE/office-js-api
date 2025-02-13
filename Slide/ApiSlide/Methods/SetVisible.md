@@ -4,7 +4,9 @@ Sets the visibility to the current presentation slide.
 
 ## Syntax
 
+```javascript
 expression.SetVisible(value);
+```
 
 `expression` - A variable that represents a [ApiSlide](../ApiSlide.md) class.
 

@@ -4,7 +4,9 @@ Converts a binary number to decimal.
 
 ## Syntax
 
+```javascript
 expression.BIN2DEC(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,11 +14,11 @@ expression.BIN2DEC(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is the binary number you want to convert. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The binary number which will be convertrd. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

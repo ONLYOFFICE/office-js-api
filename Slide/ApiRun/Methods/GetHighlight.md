@@ -4,7 +4,9 @@ Gets the highlight property from the current text properties.
 
 ## Syntax
 
+```javascript
 expression.GetHighlight();
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 

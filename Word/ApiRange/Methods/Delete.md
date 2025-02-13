@@ -4,7 +4,9 @@ Deletes all the contents from the current range.
 
 ## Syntax
 
+```javascript
 expression.Delete();
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
@@ -21,9 +23,9 @@ boolean
 This example deletes all the contents from the range.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("ONLYOFFICE delete text Document Builder");
-var oRange = oDocument.GetRange(10, 21);
-oRange.Delete();
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("ONLYOFFICE delete text Document Builder");
+let range = doc.GetRange(10, 21);
+range.Delete();
 ```

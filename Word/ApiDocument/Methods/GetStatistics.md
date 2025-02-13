@@ -9,7 +9,9 @@ Returns the document statistics represented as an object with the following para
 
 ## Syntax
 
+```javascript
 expression.GetStatistics();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
@@ -26,28 +28,28 @@ object
 This example shows how to get the document statistics represented as an object.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("This is just a sample paragraph.");
-var oStatistics = oDocument.GetStatistics();
-oParagraph.AddLineBreak();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Document statistics");
-oParagraph.SetBold(true);
-oDocument.Push(oParagraph);
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Pages: " + oStatistics.PageCount);
-oDocument.Push(oParagraph);
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Words: " + oStatistics.WordsCount);
-oDocument.Push(oParagraph);
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Paragraphs: " + oStatistics.ParagraphCount);
-oDocument.Push(oParagraph);
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Symbols: " + oStatistics.SymbolsCount);
-oDocument.Push(oParagraph);
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Symbols with spaces: " + oStatistics.SymbolsWSCount);
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("This is just a sample paragraph.");
+let statistics = doc.GetStatistics();
+paragraph.AddLineBreak();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Document statistics");
+paragraph.SetBold(true);
+doc.Push(paragraph);
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Pages: " + statistics.PageCount);
+doc.Push(paragraph);
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Words: " + statistics.WordsCount);
+doc.Push(paragraph);
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Paragraphs: " + statistics.ParagraphCount);
+doc.Push(paragraph);
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Symbols: " + statistics.SymbolsCount);
+doc.Push(paragraph);
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Symbols with spaces: " + statistics.SymbolsWSCount);
+doc.Push(paragraph);
 ```

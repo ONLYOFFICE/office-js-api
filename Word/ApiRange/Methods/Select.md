@@ -4,7 +4,9 @@ Sets the selection to the specified range.
 
 ## Syntax
 
+```javascript
 expression.Select();
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
@@ -21,12 +23,12 @@ This method doesn't return any data.
 This example sets the selection to the specified range.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("ONLYOFFICE Document Builder");
-var oRange = oParagraph.GetRange(0, 9);
-oRange.Select();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("The word 'ONLYOFFICE' was just selected.");
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("ONLYOFFICE Document Builder");
+let range = paragraph.GetRange(0, 9);
+range.Select();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("The word 'ONLYOFFICE' was just selected.");
+doc.Push(paragraph);
 ```

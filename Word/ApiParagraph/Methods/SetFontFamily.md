@@ -4,7 +4,9 @@ Sets all 4 font slots with the specified font family.
 
 ## Syntax
 
+```javascript
 expression.SetFontFamily(sFontFamily);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 
@@ -23,8 +25,8 @@ expression.SetFontFamily(sFontFamily);
 This example sets all 4 font slots with the specified font family.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("This is a paragraph with the font family set to 'Consolas'.");
-oParagraph.SetFontFamily("Consolas");
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("This is a paragraph with the font family set to 'Consolas'.");
+paragraph.SetFontFamily("Consolas");
 ```

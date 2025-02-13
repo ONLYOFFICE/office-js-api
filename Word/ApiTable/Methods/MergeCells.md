@@ -5,7 +5,9 @@ Merges an array of cells. If the merge is done successfully, it will return the 
 
 ## Syntax
 
+```javascript
 expression.MergeCells(aCells);
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 
@@ -13,7 +15,7 @@ expression.MergeCells(aCells);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| aCells | Required | Array.<[ApiTableCell](../../ApiTableCell/ApiTableCell.md)> |  | The array of cells to be merged. |
+| aCells | Required | [ApiTableCell[]](../../ApiTableCell/ApiTableCell.md) |  | The array of cells to be merged. |
 
 ## Returns
 
@@ -24,13 +26,13 @@ expression.MergeCells(aCells);
 This example merges an array of cells.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-var oTable = Api.CreateTable(5, 5);
-oTable.SetWidth("percent", 100);
-oTable.SetStyle(oTableStyle);
-var oCell = oTable.MergeCells([oTable.GetRow(1).GetCell(1), oTable.GetRow(1).GetCell(2), oTable.GetRow(2).GetCell(1), oTable.GetRow(2).GetCell(2)]);
-oCell.GetContent().GetElement(0).AddText("Merged cell");
-oDocument.Push(oTable);
+let doc = Api.GetDocument();
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
+let table = Api.CreateTable(5, 5);
+table.SetWidth("percent", 100);
+table.SetStyle(tableStyle);
+let cell = table.MergeCells([table.GetRow(1).GetCell(1), table.GetRow(1).GetCell(2), table.GetRow(2).GetCell(1), table.GetRow(2).GetCell(2)]);
+cell.GetContent().GetElement(0).AddText("Merged cell");
+doc.Push(table);
 ```

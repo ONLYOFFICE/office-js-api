@@ -4,7 +4,9 @@ Returns the paragraph right side indentation.
 
 ## Syntax
 
+```javascript
 expression.GetIndRight();
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 
@@ -14,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-twips, undefined
+[twips](../../Enumeration/twips.md) | undefined
 
 ## Example
 

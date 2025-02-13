@@ -1,10 +1,12 @@
 # RefreshAllPivots
 
-Refreshs all PivotTables.
+Refreshes all pivot tables.
 
 ## Syntax
 
+```javascript
 expression.RefreshAllPivots();
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

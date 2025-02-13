@@ -4,7 +4,9 @@ Sets the text properties to the current Range.
 
 ## Syntax
 
+```javascript
 expression.SetTextPr(oTextPr);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
@@ -16,18 +18,18 @@ expression.SetTextPr(oTextPr);
 
 ## Returns
 
-ApiRange, null
+[ApiRange](../../ApiRange/ApiRange.md) | null
 
 ## Example
 
 This example sets the text properties to the Range.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("ONLYOFFICE Document Builder");
-var oTextPr = oParagraph.GetTextPr();
-oTextPr.SetItalic(true);
-var oRange = oDocument.GetRange(0, 24);
-oRange.SetTextPr(oTextPr);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("ONLYOFFICE Document Builder");
+let textPr = paragraph.GetTextPr();
+textPr.SetItalic(true);
+let range = doc.GetRange(0, 24);
+range.SetTextPr(textPr);
 ```

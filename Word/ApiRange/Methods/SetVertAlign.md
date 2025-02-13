@@ -7,7 +7,9 @@ Specifies the alignment which will be applied to the Range contents in relation 
 
 ## Syntax
 
+```javascript
 expression.SetVertAlign(sType);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
@@ -15,20 +17,20 @@ expression.SetVertAlign(sType);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sType | Required | "baseline" &#124; "subscript" &#124; "superscript" |  | The vertical alignment type applied to the text contents. |
+| sType | Required | "baseline" | "subscript" | "superscript" |  | The vertical alignment type applied to the text contents. |
 
 ## Returns
 
-ApiRange, null
+[ApiRange](../../ApiRange/ApiRange.md) | null
 
 ## Example
 
 This example sets verlical aligment "superscript" for [ApiRange](../ApiRange.md).
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("ONLYOFFICE Copyright Document Builder");
-var oRange = oDocument.GetRange(10, 19);
-oRange.SetVertAlign("superscript");
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("ONLYOFFICE Copyright Document Builder");
+let range = doc.GetRange(10, 19);
+range.SetVertAlign("superscript");
 ```

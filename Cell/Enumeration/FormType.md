@@ -22,5 +22,5 @@ Enumeration
 This example returns a type of the current form.
 
 ```javascript
-var sFormType = oTextForm.GetFormType();
+let formType = textForm.GetFormType();
 ```

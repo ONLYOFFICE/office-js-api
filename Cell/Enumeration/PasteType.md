@@ -24,5 +24,5 @@ Enumeration
 This example paste data with paste all option.
 
 ```javascript
-oApiRange.PasteSpecial("xlPasteAll");
+range.PasteSpecial("xlPasteAll");
 ```

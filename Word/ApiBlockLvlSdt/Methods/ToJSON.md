@@ -4,7 +4,9 @@ Converts the ApiBlockLvlSdt object into the JSON object.
 
 ## Syntax
 
+```javascript
 expression.ToJSON(bWriteNumberings, bWriteStyles);
+```
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 
@@ -24,11 +26,11 @@ JSON
 This example converts the ApiBlockLvlSdt object into the JSON object.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oBlockLvlSdt = Api.CreateBlockLvlSdt();
-oBlockLvlSdt.SetAlias("№1");
-var json = oBlockLvlSdt.ToJSON(false, true);
-var oBlockLvlSdtFromJSON = Api.FromJSON(json);
-oBlockLvlSdtFromJSON.GetContent().GetElement(0).AddText("This is a block text content control.");
-oDocument.AddElement(0, oBlockLvlSdtFromJSON);
+let doc = Api.GetDocument();
+let blockLvlSdt = Api.CreateBlockLvlSdt();
+blockLvlSdt.SetAlias("№1");
+let json = blockLvlSdt.ToJSON(false, true);
+let blockLvlSdtFromJSON = Api.FromJSON(json);
+blockLvlSdtFromJSON.GetContent().GetElement(0).AddText("This is a block text content control.");
+doc.AddElement(0, blockLvlSdtFromJSON);
 ```

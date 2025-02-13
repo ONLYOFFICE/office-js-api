@@ -8,12 +8,12 @@ Enumeration
 
 ## Values
 
-- [ApiTextForm](../../ApiTextForm/ApiTextForm.md)
-- [ApiComboBoxForm](../../ApiComboBoxForm/ApiComboBoxForm.md)
-- [ApiCheckBoxForm](../../ApiCheckBoxForm/ApiCheckBoxForm.md)
-- [ApiPictureForm](../../ApiPictureForm/ApiPictureForm.md)
-- [ApiDateForm](../../ApiDateForm/ApiDateForm.md)
-- [ApiComplexForm](../../ApiComplexForm/ApiComplexForm.md)
+- [ApiTextForm](../ApiTextForm/ApiTextForm.md)
+- [ApiComboBoxForm](../ApiComboBoxForm/ApiComboBoxForm.md)
+- [ApiCheckBoxForm](../ApiCheckBoxForm/ApiCheckBoxForm.md)
+- [ApiPictureForm](../ApiPictureForm/ApiPictureForm.md)
+- [ApiDateForm](../ApiDateForm/ApiDateForm.md)
+- [ApiComplexForm](../ApiComplexForm/ApiComplexForm.md)
 
 
 ## Example
@@ -21,5 +21,5 @@ Enumeration
 This example copies a text form.
 
 ```javascript
-var oCopyTextForm = oTextForm.Copy();
+let copyTextForm = textForm.Copy();
 ```

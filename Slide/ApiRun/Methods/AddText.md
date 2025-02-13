@@ -4,7 +4,9 @@ Adds some text to the current run.
 
 ## Syntax
 
+```javascript
 expression.AddText(sText);
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 

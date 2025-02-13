@@ -6,7 +6,9 @@ the specified column and row cells only. If this value exceeds the cell width or
 
 ## Syntax
 
+```javascript
 expression.SetPosition(nFromCol, nColOffset, nFromRow, nRowOffset);
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 

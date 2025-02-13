@@ -4,7 +4,9 @@ Returns a sheet index.
 
 ## Syntax
 
+```javascript
 expression.GetIndex();
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

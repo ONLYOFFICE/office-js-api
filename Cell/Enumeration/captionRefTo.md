@@ -25,5 +25,5 @@ Enumeration
 This example adds a cross-reference to the page containing a table caption.
 
 ```javascript
-oParagraph.AddCaptionCrossRef("table", "pageNum", oCaptionParagraph);
+paragraph.AddCaptionCrossRef("table", "pageNum", caption);
 ```

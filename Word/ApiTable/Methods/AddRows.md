@@ -4,7 +4,9 @@ Adds the new rows to the current table.
 
 ## Syntax
 
+```javascript
 expression.AddRows(oCell, nCount, isBefore);
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 
@@ -25,13 +27,13 @@ expression.AddRows(oCell, nCount, isBefore);
 This example adds the new rows to the table.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-var oTable = Api.CreateTable(3, 3);
-oTable.SetWidth("percent", 100);
-oTable.SetStyle(oTableStyle);
-oDocument.Push(oTable);
-var oCell = oTable.GetCell(0, 0).GetContent().GetElement(0).AddText("Two new rows were added after this cell.");
-oTable.AddRows(oCell, 2, false);
+let doc = Api.GetDocument();
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
+let table = Api.CreateTable(3, 3);
+table.SetWidth("percent", 100);
+table.SetStyle(tableStyle);
+doc.Push(table);
+let cell = table.GetCell(0, 0).GetContent().GetElement(0).AddText("Two new rows were added after this cell.");
+table.AddRows(cell, 2, false);
 ```

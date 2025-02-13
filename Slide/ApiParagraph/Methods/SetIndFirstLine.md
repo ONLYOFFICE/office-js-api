@@ -4,7 +4,9 @@ Sets the paragraph first line indentation.
 
 ## Syntax
 
+```javascript
 expression.SetIndFirstLine(nValue);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

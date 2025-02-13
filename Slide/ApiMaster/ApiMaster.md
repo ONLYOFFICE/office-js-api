@@ -24,3 +24,5 @@ Represents the ApiMaster class.
 - [GetAllCharts](./Methods/GetAllCharts.md)
 - [GetAllOleObjects](./Methods/GetAllOleObjects.md)
 - [ToJSON](./Methods/ToJSON.md)
+- [GetDrawingsByPlaceholderType](./Methods/GetDrawingsByPlaceholderType.md)
+- [GroupDrawings](./Methods/GroupDrawings.md)

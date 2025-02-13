@@ -4,7 +4,9 @@ Returns the content for the specified header type.
 
 ## Syntax
 
+```javascript
 expression.GetHeader(sType, isCreate);
+```
 
 `expression` - A variable that represents a [ApiSection](../ApiSection.md) class.
 
@@ -24,12 +26,12 @@ expression.GetHeader(sType, isCreate);
 This example shows how to get the content for the specified header type.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("This is a page with a header. ");
-oParagraph.AddText("See it above.");
-var oSection = oDocument.GetFinalSection();
-var oHeader = oSection.GetHeader("default", true);
-oParagraph = oHeader.GetElement(0);
-oParagraph.AddText("This is a page header");
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("This is a page with a header. ");
+paragraph.AddText("See it above.");
+let section = doc.GetFinalSection();
+let header = section.GetHeader("default", true);
+paragraph = header.GetElement(0);
+paragraph.AddText("This is a page header");
 ```

@@ -4,7 +4,9 @@ Returns the visibility of the current presentation slide.
 
 ## Syntax
 
+```javascript
 expression.GetVisible();
+```
 
 `expression` - A variable that represents a [ApiSlide](../ApiSlide.md) class.
 

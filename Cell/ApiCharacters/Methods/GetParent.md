@@ -4,7 +4,9 @@ Returns the parent object of the specified characters.
 
 ## Syntax
 
+```javascript
 expression.GetParent();
+```
 
 `expression` - A variable that represents a [ApiCharacters](../ApiCharacters.md) class.
 

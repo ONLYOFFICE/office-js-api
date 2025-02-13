@@ -4,7 +4,9 @@ Replaces the current image with an image specified.
 
 ## Syntax
 
+```javascript
 expression.ReplaceCurrentImage(sImageUrl, Width, Height);
+```
 
 `expression` - A variable that represents a [ApiPresentation](../ApiPresentation.md) class.
 

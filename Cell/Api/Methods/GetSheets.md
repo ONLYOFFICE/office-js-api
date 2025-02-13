@@ -4,7 +4,9 @@ Returns a sheet collection that represents all the sheets in the active workbook
 
 ## Syntax
 
+```javascript
 expression.GetSheets();
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -14,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Array.<[ApiWorksheet](../../ApiWorksheet/ApiWorksheet.md)>
+[ApiWorksheet[]](../../ApiWorksheet/ApiWorksheet.md)
 
 ## Example
 

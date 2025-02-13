@@ -4,7 +4,9 @@ Converts a text time to a serial number for a time, a number from 0 (12:00:00 AM
 
 ## Syntax
 
+```javascript
 expression.TIMEVALUE(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,11 +14,11 @@ expression.TIMEVALUE(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is a text string that gives a time in any one of the Microsoft Excel time formats (date information in the string is ignored). |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | string |  | A text string that represents a time in one of the time formats (date information in the string is ignored). |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

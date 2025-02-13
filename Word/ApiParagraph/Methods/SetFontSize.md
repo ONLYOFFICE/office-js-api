@@ -4,7 +4,9 @@ Sets the font size to the characters of the current paragraph.
 
 ## Syntax
 
+```javascript
 expression.SetFontSize(nSize);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 
@@ -23,8 +25,8 @@ expression.SetFontSize(nSize);
 This example sets the font size to the characters of the paragraph.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("This is just a sample paragraph with the font size set to 24 points.");
-oParagraph.SetFontSize(48);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("This is just a sample paragraph with the font size set to 24 points.");
+paragraph.SetFontSize(48);
 ```

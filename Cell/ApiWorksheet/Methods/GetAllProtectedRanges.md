@@ -4,7 +4,9 @@ Returns all protected ranges from the current worksheet.
 
 ## Syntax
 
+```javascript
 expression.GetAllProtectedRanges();
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 
@@ -14,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Array.<[ApiProtectedRange](../../ApiProtectedRange/ApiProtectedRange.md)>, null
+[ApiProtectedRange[]](../../ApiProtectedRange/ApiProtectedRange.md) | null
 
 ## Example
 

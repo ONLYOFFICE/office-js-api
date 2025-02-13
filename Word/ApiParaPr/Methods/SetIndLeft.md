@@ -4,7 +4,9 @@ Sets the paragraph left side indentation.
 
 ## Syntax
 
+```javascript
 expression.SetIndLeft(nValue);
+```
 
 `expression` - A variable that represents a [ApiParaPr](../ApiParaPr.md) class.
 
@@ -23,23 +25,23 @@ This method doesn't return any data.
 This example sets the paragraph left side indentation.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oMyStyle = oDocument.CreateStyle("My document style");
-var oParaPr = oMyStyle.GetParaPr();
-oParaPr.SetIndLeft(2880);
-var oParagraph = oDocument.GetElement(0);
-oParagraph.SetStyle(oMyStyle);
-oParagraph.AddText("This is the first paragraph with the indent of 2 inches set to it. ");
-oParagraph.AddText("This indent is set by the paragraph style. No paragraph inline style is applied. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes.");
-oParagraph = Api.CreateParagraph();
-oParagraph.SetStyle(oMyStyle);
-oParagraph.AddText("This is the second paragraph with the indent of 2 inches set to it. ");
-oParagraph.AddText("This indent is set by the paragraph style. No paragraph inline style is applied. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes.");
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let myStyle = doc.CreateStyle("My document style");
+let paraPr = myStyle.GetParaPr();
+paraPr.SetIndLeft(2880);
+let paragraph = doc.GetElement(0);
+paragraph.SetStyle(myStyle);
+paragraph.AddText("This is the first paragraph with the indent of 2 inches set to it. ");
+paragraph.AddText("This indent is set by the paragraph style. No paragraph inline style is applied. ");
+paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
+paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
+paragraph.AddText("These sentences are used to add lines for demonstrative purposes.");
+paragraph = Api.CreateParagraph();
+paragraph.SetStyle(myStyle);
+paragraph.AddText("This is the second paragraph with the indent of 2 inches set to it. ");
+paragraph.AddText("This indent is set by the paragraph style. No paragraph inline style is applied. ");
+paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
+paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
+paragraph.AddText("These sentences are used to add lines for demonstrative purposes.");
+doc.Push(paragraph);
 ```

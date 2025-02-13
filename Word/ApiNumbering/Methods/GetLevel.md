@@ -4,7 +4,9 @@ Returns the specified level of the current numbering.
 
 ## Syntax
 
+```javascript
 expression.GetLevel(nLevel);
+```
 
 `expression` - A variable that represents a [ApiNumbering](../ApiNumbering.md) class.
 
@@ -23,14 +25,14 @@ expression.GetLevel(nLevel);
 This example shows how to get the specified level of the numbering.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oNumbering = oDocument.CreateNumbering("bullet");
+let doc = Api.GetDocument();
+let numbering = doc.CreateNumbering("bullet");
 for (let nLvl = 0; nLvl < 8; ++nLvl) {
-	var oNumLvl = oNumbering.GetLevel(nLvl);
-	var oParagraph = Api.CreateParagraph();
-	oParagraph.AddText("Default bullet lvl " + (nLvl + 1));
-	oParagraph.SetNumbering(oNumLvl);
-	oParagraph.SetContextualSpacing(true);
-	oDocument.Push(oParagraph);
+	let numLvl = numbering.GetLevel(nLvl);
+	let paragraph = Api.CreateParagraph();
+	paragraph.AddText("Default bullet lvl " + (nLvl + 1));
+	paragraph.SetNumbering(numLvl);
+	paragraph.SetContextualSpacing(true);
+	doc.Push(paragraph);
 }
 ```

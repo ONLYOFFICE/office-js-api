@@ -4,7 +4,9 @@ Creates a bullet for a paragraph with the character or symbol specified with the
 
 ## Syntax
 
+```javascript
 expression.CreateBullet(sSymbol);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

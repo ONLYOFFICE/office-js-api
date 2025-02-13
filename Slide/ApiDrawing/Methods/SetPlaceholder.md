@@ -4,7 +4,9 @@ Sets the specified placeholder to the current drawing object.
 
 ## Syntax
 
+```javascript
 expression.SetPlaceholder(oPlaceholder);
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 

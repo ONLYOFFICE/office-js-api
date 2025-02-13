@@ -4,7 +4,9 @@ Returns the ID property of the current user's information.
 
 ## Syntax
 
+```javascript
 expression.GetId();
+```
 
 `expression` - A variable that represents a [ApiProtectedRangeUserInfo](../ApiProtectedRangeUserInfo.md) class.
 
@@ -14,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-string, null
+string | null
 
 ## Example
 

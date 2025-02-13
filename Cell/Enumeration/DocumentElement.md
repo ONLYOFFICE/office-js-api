@@ -8,9 +8,7 @@ Enumeration
 
 ## Values
 
-- [ApiParagraph](../../ApiParagraph/ApiParagraph.md)
-- ApiTable
-- ApiBlockLvlSdt
+- [ApiParagraph](../ApiParagraph/ApiParagraph.md)
 
 
 ## Example
@@ -18,5 +16,5 @@ Enumeration
 This example adds a document element called "paragraph" to the document.
 
 ```javascript
-oDocument.AddElement(oParagraph);
+doc.AddElement(paragraph);
 ```

@@ -4,7 +4,9 @@ Adds the slide master to the presentation slide masters collection.
 
 ## Syntax
 
+```javascript
 expression.AddMaster(nPos, oApiMaster);
+```
 
 `expression` - A variable that represents a [ApiPresentation](../ApiPresentation.md) class.
 

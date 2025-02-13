@@ -4,7 +4,9 @@ Sets a style to the current chart by style ID.
 
 ## Syntax
 
+```javascript
 expression.ApplyChartStyle(nStyleId);
+```
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 

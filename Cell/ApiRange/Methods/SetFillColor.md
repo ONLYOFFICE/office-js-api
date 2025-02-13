@@ -5,7 +5,9 @@ Sets 'No Fill' when previously created color object is null.
 
 ## Syntax
 
+```javascript
 expression.SetFillColor(oColor);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

@@ -4,7 +4,9 @@ Clears the contents from the current content control.
 
 ## Syntax
 
+```javascript
 expression.RemoveAllElements();
+```
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 
@@ -21,11 +23,11 @@ boolean
 This example clears the contents from the content control.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oBlockLvlSdt = Api.CreateBlockLvlSdt();
-oBlockLvlSdt.GetContent().GetElement(0).AddText("This is a block text content control.");
-oDocument.AddElement(0, oBlockLvlSdt);
-oBlockLvlSdt.RemoveAllElements();
-var oParagraph = oDocument.GetElement(1);
-oParagraph.AddText("All elements were removed from the content control.");
+let doc = Api.GetDocument();
+let blockLvlSdt = Api.CreateBlockLvlSdt();
+blockLvlSdt.GetContent().GetElement(0).AddText("This is a block text content control.");
+doc.AddElement(0, blockLvlSdt);
+blockLvlSdt.RemoveAllElements();
+let paragraph = doc.GetElement(1);
+paragraph.AddText("All elements were removed from the content control.");
 ```

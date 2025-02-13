@@ -4,7 +4,9 @@ Returns the main document.
 
 ## Syntax
 
+```javascript
 expression.GetDocument();
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -21,8 +23,8 @@ This method doesn't have any parameters.
 This example shows how to get a document.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = Api.CreateParagraph();
-oParagraph.AddText("This is a new paragraph");
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let paragraph = Api.CreateParagraph();
+paragraph.AddText("This is a new paragraph");
+doc.Push(paragraph);
 ```

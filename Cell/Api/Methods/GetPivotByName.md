@@ -1,10 +1,12 @@
 # GetPivotByName
 
-Returns PivotTable by name or null.
+Returns a pivot table by its name, or null if it does not exist.
 
 ## Syntax
 
+```javascript
 expression.GetPivotByName(name);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -12,11 +14,11 @@ expression.GetPivotByName(name);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| name | Required | string |  | Name of PivotTable. |
+| name | Required | string |  | The pivot table name. |
 
 ## Returns
 
-ApiPivotTable, null
+[ApiPivotTable](../../ApiPivotTable/ApiPivotTable.md) | null
 
 ## Example
 

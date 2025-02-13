@@ -4,7 +4,9 @@ Pushes a paragraph or a table to actually add it to the document.
 
 ## Syntax
 
+```javascript
 expression.Push(oElement);
+```
 
 `expression` - A variable that represents a [ApiDocumentContent](../ApiDocumentContent.md) class.
 

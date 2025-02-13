@@ -4,7 +4,9 @@ Returns the page PrintHeadings property which specifies whether the current shee
 
 ## Syntax
 
+```javascript
 expression.GetPrintHeadings();
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

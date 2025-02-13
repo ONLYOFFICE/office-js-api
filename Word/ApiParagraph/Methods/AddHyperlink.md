@@ -4,7 +4,9 @@ Adds a hyperlink to a paragraph.
 
 ## Syntax
 
+```javascript
 expression.AddHyperlink(sLink, sScreenTipText);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 
@@ -17,17 +19,17 @@ expression.AddHyperlink(sLink, sScreenTipText);
 
 ## Returns
 
-ApiHyperlink, null
+[ApiHyperlink](../../ApiHyperlink/ApiHyperlink.md) | null
 
 ## Example
 
 This example adds a hyperlink to a paragraph.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oRun = Api.CreateRun();
-oRun.AddText("ONLYOFFICE Document Builder");
-oParagraph.AddElement(oRun);
-oParagraph.AddHyperlink("https://api.onlyoffice.com/docbuilder/basic", "docbuilder");
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let run = Api.CreateRun();
+run.AddText("ONLYOFFICE Document Builder");
+paragraph.AddElement(run);
+paragraph.AddHyperlink("https://api.onlyoffice.com/docbuilder/basic", "docbuilder");
 ```

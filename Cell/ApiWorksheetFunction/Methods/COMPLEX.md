@@ -4,7 +4,9 @@ Converts real and imaginary coefficients into a complex number.
 
 ## Syntax
 
+```javascript
 expression.COMPLEX(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,13 +14,13 @@ expression.COMPLEX(arg1, arg2, arg3);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is the real coefficient of the complex number. |
-| arg2 | Required | any |  | Is the imaginary coefficient of the complex number. |
-| arg3 | Required | any |  | Is the suffix for the imaginary component of the complex number. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The real coefficient of the complex number. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The imaginary coefficient of the complex number. |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | string |  | The suffix for the imaginary component of the complex number. It can be either "i" or "j" in lowercase. If it is omitted, the function will assume suffix to be "i". |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

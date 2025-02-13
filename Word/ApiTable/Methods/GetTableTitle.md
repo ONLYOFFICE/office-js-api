@@ -4,7 +4,9 @@ Returns the table title (caption).
 
 ## Syntax
 
+```javascript
 expression.GetTableTitle();
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 
@@ -21,15 +23,15 @@ string
 This example shows how to get the table title.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-var oTablePr = oTableStyle.GetTablePr();
-var oTable = Api.CreateTable(3, 3);
-oTable.SetWidth("percent", 100);
-oTablePr.SetTableTitle("Table 1");
-oTable.SetStyle(oTableStyle);
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("Table title: " + oTablePr.GetTableTitle());
-oDocument.Push(oTable);
+let doc = Api.GetDocument();
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
+let tablePr = tableStyle.GetTablePr();
+let table = Api.CreateTable(3, 3);
+table.SetWidth("percent", 100);
+tablePr.SetTableTitle("Table 1");
+table.SetStyle(tableStyle);
+let paragraph = doc.GetElement(0);
+paragraph.AddText("Table title: " + tablePr.GetTableTitle());
+doc.Push(table);
 ```

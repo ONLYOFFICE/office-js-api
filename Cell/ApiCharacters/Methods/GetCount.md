@@ -4,7 +4,9 @@ Returns a value that represents a number of objects in the collection.
 
 ## Syntax
 
+```javascript
 expression.GetCount();
+```
 
 `expression` - A variable that represents a [ApiCharacters](../ApiCharacters.md) class.
 

@@ -5,7 +5,9 @@ If table is inline, then only left padding is applied.
 
 ## Syntax
 
+```javascript
 expression.SetPaddings(nLeft, nTop, nRight, nBottom);
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 
@@ -27,12 +29,12 @@ boolean
 This example sets the table paddings.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-var oTable = Api.CreateTable(3, 3);
-oTable.SetStyle(oTableStyle);
-oDocument.Push(oTable);
-oTable.GetCell(0, 0).GetContent().GetElement(0).AddText("This is just a sample text.");
-oTable.SetPaddings(10, 10, 5, 5);
+let doc = Api.GetDocument();
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
+let table = Api.CreateTable(3, 3);
+table.SetStyle(tableStyle);
+doc.Push(table);
+table.GetCell(0, 0).GetContent().GetElement(0).AddText("This is just a sample text.");
+table.SetPaddings(10, 10, 5, 5);
 ```

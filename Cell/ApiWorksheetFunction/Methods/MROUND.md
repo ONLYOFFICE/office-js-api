@@ -4,7 +4,9 @@ Returns a number rounded to the desired multiple.
 
 ## Syntax
 
+```javascript
 expression.MROUND(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,12 +14,12 @@ expression.MROUND(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is the value to round. |
-| arg2 | Required | any |  | Is the multiple to which you want to round number. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The value to round. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The multiple to round the number to. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

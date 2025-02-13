@@ -4,7 +4,9 @@ Sets an index to the content control list item in the combo box / dropdown list 
 
 ## Syntax
 
+```javascript
 expression.SetIndex(nIndex);
+```
 
 `expression` - A variable that represents a [ApiContentControlListEntry](../ApiContentControlListEntry.md) class.
 

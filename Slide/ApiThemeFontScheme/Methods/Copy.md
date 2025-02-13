@@ -4,7 +4,9 @@ Creates a copy of the current theme font scheme.
 
 ## Syntax
 
+```javascript
 expression.Copy();
+```
 
 `expression` - A variable that represents a [ApiThemeFontScheme](../ApiThemeFontScheme.md) class.
 

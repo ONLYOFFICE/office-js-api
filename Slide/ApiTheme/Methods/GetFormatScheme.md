@@ -4,7 +4,9 @@ Returns the format scheme of the current theme.
 
 ## Syntax
 
+```javascript
 expression.GetFormatScheme();
+```
 
 `expression` - A variable that represents a [ApiTheme](../ApiTheme.md) class.
 

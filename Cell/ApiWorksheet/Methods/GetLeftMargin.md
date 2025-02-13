@@ -4,7 +4,9 @@ Returns the left margin of the sheet.
 
 ## Syntax
 
+```javascript
 expression.GetLeftMargin();
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

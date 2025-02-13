@@ -4,7 +4,9 @@ Specifies whether the current sheet gridlines must be printed or not.
 
 ## Syntax
 
+```javascript
 expression.SetPrintGridlines(bPrint);
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

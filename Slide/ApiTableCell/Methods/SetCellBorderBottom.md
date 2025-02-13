@@ -4,7 +4,9 @@ Sets the border which shall be displayed at the bottom of the current table cell
 
 ## Syntax
 
+```javascript
 expression.SetCellBorderBottom(fSize, oApiFill);
+```
 
 `expression` - A variable that represents a [ApiTableCell](../ApiTableCell.md) class.
 

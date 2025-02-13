@@ -4,7 +4,9 @@ Adds a paragraph or a table or a blockLvl content control using its position in 
 
 ## Syntax
 
+```javascript
 expression.AddElement(nPos, oElement);
+```
 
 `expression` - A variable that represents a [ApiTableCell](../ApiTableCell.md) class.
 
@@ -24,15 +26,15 @@ boolean
 This example adds a paragraph using its position in the cell.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-var oTable = Api.CreateTable(3, 3);
-oTable.SetWidth("percent", 100);
-oTable.SetStyle(oTableStyle);
-oDocument.Push(oTable);
-var oParagraph = Api.CreateParagraph();
-oParagraph.AddText("This is just a sample text in the first cell.");
-var oCell = oTable.GetCell(0, 0);
-oCell.AddElement(0, oParagraph);
+let doc = Api.GetDocument();
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
+let table = Api.CreateTable(3, 3);
+table.SetWidth("percent", 100);
+table.SetStyle(tableStyle);
+doc.Push(table);
+let paragraph = Api.CreateParagraph();
+paragraph.AddText("This is just a sample text in the first cell.");
+let cell = table.GetCell(0, 0);
+cell.AddElement(0, paragraph);
 ```

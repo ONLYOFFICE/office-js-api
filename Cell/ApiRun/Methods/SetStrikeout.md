@@ -4,7 +4,9 @@ Specifies that the contents of the run are displayed with a single horizontal li
 
 ## Syntax
 
+```javascript
 expression.SetStrikeout(isStrikeout);
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 

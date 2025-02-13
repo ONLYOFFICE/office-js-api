@@ -5,7 +5,9 @@ Adds a comment to the current block content control.
 
 ## Syntax
 
-expression.AddComment(sText, sAuthor, sUserId);
+```javascript
+expression.AddComment(text, author, userId);
+```
 
 `expression` - A variable that represents a [ApiBlockLvlSdt](../ApiBlockLvlSdt.md) class.
 
@@ -13,9 +15,9 @@ expression.AddComment(sText, sAuthor, sUserId);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sText | Required | string |  | The comment text (required). |
-| sAuthor | Required | string |  | The author's name (optional). |
-| sUserId | Required | string |  | The user ID of the comment author (optional). |
+| text | Required | string |  | The comment text (required). |
+| author | Required | string |  | The author's name (optional). |
+| userId | Required | string |  | The user ID of the comment author (optional). |
 
 ## Returns
 
@@ -26,9 +28,9 @@ expression.AddComment(sText, sAuthor, sUserId);
 This example adds comment to the block content control
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oBlockLvlSdt = Api.CreateBlockLvlSdt();
-oBlockLvlSdt.GetContent().GetElement(0).AddText("This is a block text content control.");
-oDocument.AddElement(0, oBlockLvlSdt);
-oBlockLvlSdt.AddComment("comment", "John Smith");
+let doc = Api.GetDocument();
+let blockLvlSdt = Api.CreateBlockLvlSdt();
+blockLvlSdt.GetContent().GetElement(0).AddText("This is a block text content control.");
+doc.AddElement(0, blockLvlSdt);
+blockLvlSdt.AddComment("comment", "John Smith");
 ```

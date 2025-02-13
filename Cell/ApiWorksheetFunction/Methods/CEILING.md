@@ -4,7 +4,9 @@ Rounds a number up, to the nearest multiple of significance.
 
 ## Syntax
 
+```javascript
 expression.CEILING(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,12 +14,12 @@ expression.CEILING(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is the value you want to round. |
-| arg2 | Required | number |  | Is the multiple to which you want to round. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The value to round up. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The multiple of significance to round up to. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

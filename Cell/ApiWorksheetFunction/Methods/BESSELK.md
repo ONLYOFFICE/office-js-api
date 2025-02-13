@@ -4,7 +4,9 @@ Returns the modified Bessel function Kn(x).
 
 ## Syntax
 
+```javascript
 expression.BESSELK(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,12 +14,12 @@ expression.BESSELK(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is the value at which to evaluate the function. |
-| arg2 | Required | any |  | Is the order of the function. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The value at which to evaluate the function. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The order of the function. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

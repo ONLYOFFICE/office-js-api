@@ -1,10 +1,12 @@
 # NA
 
-Returns the error value #N/A (value not available).
+Returns the &lt;em&gt;#N/A&lt;/em&gt; error value which means "no value is available".
 
 ## Syntax
 
+```javascript
 expression.NA();
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -14,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-number, string, boolean
+string
 
 ## Example
 

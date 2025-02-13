@@ -4,7 +4,9 @@ Selects the current paragraph.
 
 ## Syntax
 
+```javascript
 expression.Select();
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 
@@ -21,11 +23,11 @@ boolean
 This example selects the paragraph.
 
 ```javascript
-var oDocument = editor.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("ONLYOFFICE Document Builder");
-var bResult = oParagraph.Select();
-if (bResult === true) {
-	oParagraph.SetItalic(true);
+let doc = editor.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("ONLYOFFICE Document Builder");
+let result = paragraph.Select();
+if (result === true) {
+	paragraph.SetItalic(true);
 }
 ```

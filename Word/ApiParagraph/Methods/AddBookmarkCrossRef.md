@@ -5,7 +5,9 @@ Adds a bookmark cross-reference to the current paragraph.
 
 ## Syntax
 
+```javascript
 expression.AddBookmarkCrossRef(sRefTo, sBookmarkName, bLink, bAboveBelow, sSepWith);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 
@@ -28,14 +30,14 @@ boolean
 This example adds a bookmark cross-reference to the paragraph.
 
 ```javascript
-var oDocument = Api.GetDocument(); 
-var oParagraph = oDocument.GetElement(0); 
-oParagraph.AddText("ONLYOFFICE Document Builder"); 
-var oRange = oDocument.GetRange(0, 9); 
-oRange.AddBookmark("Bookmark");
-var aBookmarks = oDocument.GetAllBookmarksNames();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("A bookmark was added ");
-oDocument.Push(oParagraph);
-oParagraph.AddBookmarkCrossRef("aboveBelow", aBookmarks[0]);
+let doc = Api.GetDocument(); 
+let paragraph = doc.GetElement(0); 
+paragraph.AddText("ONLYOFFICE Document Builder"); 
+let range = doc.GetRange(0, 9); 
+range.AddBookmark("Bookmark");
+let bookmarks = doc.GetAllBookmarksNames();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("A bookmark was added ");
+doc.Push(paragraph);
+paragraph.AddBookmarkCrossRef("aboveBelow", bookmarks[0]);
 ```

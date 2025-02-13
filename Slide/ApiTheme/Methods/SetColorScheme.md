@@ -4,7 +4,9 @@ Sets the color scheme to the current presentation theme.
 
 ## Syntax
 
+```javascript
 expression.SetColorScheme(oApiColorScheme);
+```
 
 `expression` - A variable that represents a [ApiTheme](../ApiTheme.md) class.
 

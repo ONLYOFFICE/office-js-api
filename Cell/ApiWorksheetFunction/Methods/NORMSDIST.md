@@ -4,7 +4,9 @@ Returns the standard normal cumulative distribution (has a mean of zero and a st
 
 ## Syntax
 
+```javascript
 expression.NORMSDIST(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,7 +14,7 @@ expression.NORMSDIST(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | The value for which the distribution will be returned. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The value for which the distribution will be returned. |
 
 ## Returns
 

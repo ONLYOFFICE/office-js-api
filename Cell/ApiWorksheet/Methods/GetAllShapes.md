@@ -4,7 +4,9 @@ Returns all shapes from the current sheet.
 
 ## Syntax
 
+```javascript
 expression.GetAllShapes();
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 
@@ -14,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Array.<[ApiShape](../../ApiShape/ApiShape.md)>
+[ApiShape[]](../../ApiShape/ApiShape.md)
 
 ## Example
 

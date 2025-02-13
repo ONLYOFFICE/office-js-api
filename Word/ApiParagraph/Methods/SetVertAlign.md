@@ -7,7 +7,9 @@ Specifies the alignment which will be applied to the contents of this paragraph 
 
 ## Syntax
 
+```javascript
 expression.SetVertAlign(sType);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 
@@ -15,23 +17,23 @@ expression.SetVertAlign(sType);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sType | Required | "baseline" &#124; "subscript" &#124; "superscript" |  | The vertical alignment type applied to the text contents. |
+| sType | Required | "baseline" | "subscript" | "superscript" |  | The vertical alignment type applied to the text contents. |
 
 ## Returns
 
-ApiParagraph, null
+[ApiParagraph](../../ApiParagraph/ApiParagraph.md) | null
 
 ## Example
 
 This example creates two paragraphs. One with vertical aligment "subscript" and another one with vertical aligment "superscript".
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("This is a paragraph with the text aligned below the baseline vertically.");
-oParagraph.SetVertAlign("subscript");
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("This is a paragraph with the text aligned above the baseline vertically.");
-oParagraph.SetVertAlign("superscript");
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("This is a paragraph with the text aligned below the baseline vertically.");
+paragraph.SetVertAlign("subscript");
+paragraph = Api.CreateParagraph();
+paragraph.AddText("This is a paragraph with the text aligned above the baseline vertically.");
+paragraph.SetVertAlign("superscript");
+doc.Push(paragraph);
 ```

@@ -1,6 +1,6 @@
 # PivotLayoutType
 
-No description provided.
+The layout type of the pivot table report.
 
 ## Type
 

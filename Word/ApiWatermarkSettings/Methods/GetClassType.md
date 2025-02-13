@@ -4,7 +4,9 @@ Returns a type of the ApiWatermarkSettings class.
 
 ## Syntax
 
+```javascript
 expression.GetClassType();
+```
 
 `expression` - A variable that represents a [ApiWatermarkSettings](../ApiWatermarkSettings.md) class.
 
@@ -21,11 +23,11 @@ This method doesn't have any parameters.
 This example gets a class type and pastes it into the document.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oWatermarkSettings = oDocument.GetWatermarkSettings();
-var sClassType = oWatermarkSettings.GetClassType();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Class Type = " + sClassType);
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let watermarkSettings = doc.GetWatermarkSettings();
+let classType = watermarkSettings.GetClassType();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Class Type = " + classType);
+doc.Push(paragraph);
 ```

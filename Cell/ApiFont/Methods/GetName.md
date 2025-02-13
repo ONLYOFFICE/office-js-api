@@ -4,7 +4,9 @@ Returns the font name property of the specified font.
 
 ## Syntax
 
+```javascript
 expression.GetName();
+```
 
 `expression` - A variable that represents a [ApiFont](../ApiFont.md) class.
 
@@ -14,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-string, null
+string | null
 
 ## Example
 

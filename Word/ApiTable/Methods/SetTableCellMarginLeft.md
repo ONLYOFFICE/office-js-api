@@ -5,7 +5,9 @@ border of all table cells within the parent table (or table row).
 
 ## Syntax
 
+```javascript
 expression.SetTableCellMarginLeft(nValue);
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 
@@ -24,16 +26,16 @@ This method doesn't return any data.
 This example specifies an amount of space which will be left between the left extent of the cell contents and the left border of all table cells within the parent table.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-var oTablePr = oTableStyle.GetTablePr();
-var oTable = Api.CreateTable(3, 3);
-oTable.SetWidth("percent", 100);
-oTablePr.SetTableCellMarginLeft(720);
-oTable.SetTableLook(true, true, true, true, false, false);
-oTable.SetStyle(oTableStyle);
-var oCell = oTable.GetCell(0, 0).GetContent().GetElement(0).AddText("This is just a sample text to show that the left cell margin is 36 points.");
-oDocument.Push(oTable);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
+let tablePr = tableStyle.GetTablePr();
+let table = Api.CreateTable(3, 3);
+table.SetWidth("percent", 100);
+tablePr.SetTableCellMarginLeft(720);
+table.SetTableLook(true, true, true, true, false, false);
+table.SetStyle(tableStyle);
+let cell = table.GetCell(0, 0).GetContent().GetElement(0).AddText("This is just a sample text to show that the left cell margin is 36 points.");
+doc.Push(table);
 ```

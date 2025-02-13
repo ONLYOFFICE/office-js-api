@@ -4,7 +4,9 @@ Analyses the specified string and returns the number of characters it contains a
 
 ## Syntax
 
+```javascript
 expression.LENB(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,7 +14,7 @@ expression.LENB(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | string |  | The text whose length will be returned. Spaces are considered as characters. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | string |  | The text whose length will be returned. Spaces are considered as characters. |
 
 ## Returns
 

@@ -9,13 +9,12 @@ Represents the Api class.
 | Sheets | Array | Returns the Sheets collection that represents all the sheets in the active workbook. |
 | ActiveSheet | [ApiWorksheet](../ApiWorksheet/ApiWorksheet.md) | Returns an object that represents the active sheet. |
 | Selection | [ApiRange](../ApiRange/ApiRange.md) | Returns an object that represents the selected range. |
-| Comments | Array.<[ApiComment](../ApiComment/ApiComment.md)> | Returns all comments related to the whole workbook. |
+| Comments | [ApiComment[]](../ApiComment/ApiComment.md) | Returns all comments related to the whole workbook. |
 | FreezePanes | [FreezePaneType](../Enumeration/FreezePaneType.md) | Returns or sets the type of freeze panes. |
-| AllComments | Array.<[ApiComment](../ApiComment/ApiComment.md)> | Returns all comments from the current workbook including comments from all worksheets. |
+| AllComments | [ApiComment[]](../ApiComment/ApiComment.md) | Returns all comments from the current workbook including comments from all worksheets. |
 | ReferenceStyle | [ReferenceStyle](../Enumeration/ReferenceStyle.md) | Returns or sets the reference style. |
 | WorksheetFunction | [ApiWorksheetFunction](../ApiWorksheetFunction/ApiWorksheetFunction.md) | Returns an object that represents the function list. |
-| PivotTables | Array.<[ApiPivotTable](../ApiPivotTable/ApiPivotTable.md)> | Returns all PivotTables. |
-
+| PivotTables | [ApiPivotTable[]](../ApiPivotTable/ApiPivotTable.md) | Returns all pivot tables. |
 ## Methods
 
 - [CreateParagraph](./Methods/CreateParagraph.md)

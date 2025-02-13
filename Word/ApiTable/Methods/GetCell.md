@@ -4,7 +4,9 @@ Returns a cell by its position.
 
 ## Syntax
 
+```javascript
 expression.GetCell(nRow, nCell);
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 
@@ -17,20 +19,20 @@ expression.GetCell(nRow, nCell);
 
 ## Returns
 
-ApiTableCell, null
+[ApiTableCell](../../ApiTableCell/ApiTableCell.md) | null
 
 ## Example
 
 This example shows how to get a cell by its position.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-var oTable = Api.CreateTable(3, 3);
-oTable.SetWidth("percent", 100);
-oTable.SetStyle(oTableStyle);
-oDocument.Push(oTable);
-var oCell = oTable.GetCell(0, 0);
-oCell.GetContent().GetElement(0).AddText("Cell #1");
+let doc = Api.GetDocument();
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
+let table = Api.CreateTable(3, 3);
+table.SetWidth("percent", 100);
+table.SetStyle(tableStyle);
+doc.Push(table);
+let cell = table.GetCell(0, 0);
+cell.GetContent().GetElement(0).AddText("Cell #1");
 ```

@@ -4,7 +4,9 @@ Returns a type of the ApiHyperlink class.
 
 ## Syntax
 
+```javascript
 expression.GetClassType();
+```
 
 `expression` - A variable that represents a [ApiHyperlink](../ApiHyperlink.md) class.
 
@@ -21,14 +23,14 @@ This method doesn't have any parameters.
 This example gets a class type and inserts it into the document.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oRun = Api.CreateRun();
-oRun.AddText("ONLYOFFICE Document Builder");
-oParagraph.AddElement(oRun);
-var oHyperlink = oParagraph.AddHyperlink("https://api.onlyoffice.com/docbuilder/basic");
-var sClassType = oHyperlink.GetClassType();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Class type: " + sClassType);
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let run = Api.CreateRun();
+run.AddText("ONLYOFFICE Document Builder");
+paragraph.AddElement(run);
+let hyperlink = paragraph.AddHyperlink("https://api.onlyoffice.com/docbuilder/basic");
+let classType = hyperlink.GetClassType();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Class type: " + classType);
+doc.Push(paragraph);
 ```

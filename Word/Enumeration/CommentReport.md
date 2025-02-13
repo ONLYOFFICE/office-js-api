@@ -5,7 +5,7 @@ This is a dictionary where the keys are usernames.
 
 ## Type
 
-Object.<string, Array.<[CommentReportRecord](../../Enumeration/CommentReportRecord.md)>>
+Object.&lt;string, CommentReportRecord[]&gt;
 
 
 
@@ -14,5 +14,5 @@ Object.<string, Array.<[CommentReportRecord](../../Enumeration/CommentReportReco
 This example shows how to get a report on all comments.
 
 ```javascript
-var oCommentsReport = oDocument.GetCommentsReport();
+let commentsReport = oDocument.GetCommentsReport();
 ```

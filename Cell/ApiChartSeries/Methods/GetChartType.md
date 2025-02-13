@@ -1,10 +1,12 @@
 # GetChartType
 
-Returns a chart type of the series.
+Returns a chart type of the current series.
 
 ## Syntax
 
+```javascript
 expression.GetChartType();
+```
 
 `expression` - A variable that represents a [ApiChartSeries](../ApiChartSeries.md) class.
 

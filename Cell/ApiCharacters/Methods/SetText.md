@@ -4,7 +4,9 @@ Sets the text for the specified characters.
 
 ## Syntax
 
+```javascript
 expression.SetText(Text);
+```
 
 `expression` - A variable that represents a [ApiCharacters](../ApiCharacters.md) class.
 

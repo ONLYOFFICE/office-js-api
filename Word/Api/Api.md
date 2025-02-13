@@ -12,6 +12,7 @@ Represents the Api class.
 - [CreateHyperlink](./Methods/CreateHyperlink.md)
 - [CreateImage](./Methods/CreateImage.md)
 - [CreateShape](./Methods/CreateShape.md)
+- [CreateGroup](./Methods/CreateGroup.md)
 - [CreateChart](./Methods/CreateChart.md)
 - [CreateOleObject](./Methods/CreateOleObject.md)
 - [CreateRGBColor](./Methods/CreateRGBColor.md)

@@ -38,3 +38,7 @@ Represents the ApiRange class.
 - [GetRange](./Methods/GetRange.md)
 - [GetStartPage](./Methods/GetStartPage.md)
 - [GetEndPage](./Methods/GetEndPage.md)
+- [SetStartPos](./Methods/SetStartPos.md)
+- [SetEndPos](./Methods/SetEndPos.md)
+- [GetStartPos](./Methods/GetStartPos.md)
+- [GetEndPos](./Methods/GetEndPos.md)

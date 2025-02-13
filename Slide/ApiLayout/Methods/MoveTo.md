@@ -4,7 +4,9 @@ Moves the specified layout to a specific location within the same collection.
 
 ## Syntax
 
+```javascript
 expression.MoveTo(nPos);
+```
 
 `expression` - A variable that represents a [ApiLayout](../ApiLayout.md) class.
 

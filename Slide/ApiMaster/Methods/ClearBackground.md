@@ -4,7 +4,9 @@ Clears the slide master background.
 
 ## Syntax
 
+```javascript
 expression.ClearBackground();
+```
 
 `expression` - A variable that represents a [ApiMaster](../ApiMaster.md) class.
 

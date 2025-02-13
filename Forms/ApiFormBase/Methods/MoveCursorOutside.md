@@ -4,7 +4,9 @@ Places a cursor before/after the current form.
 
 ## Syntax
 
+```javascript
 expression.MoveCursorOutside(isAfter);
+```
 
 `expression` - A variable that represents a [ApiFormBase](../ApiFormBase.md) class.
 
@@ -23,10 +25,10 @@ This method doesn't return any data.
 
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oTextForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddElement(oTextForm);
-oTextForm.SetText("The cursor will be placed after the current form.");
-oTextForm.MoveCursorOutside(true);
+let doc = Api.GetDocument();
+let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});
+let paragraph = doc.GetElement(0);
+paragraph.AddElement(textForm);
+textForm.SetText("The cursor will be placed after the current form.");
+textForm.MoveCursorOutside(true);
 ```

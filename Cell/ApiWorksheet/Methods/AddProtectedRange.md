@@ -4,7 +4,9 @@ Creates a protected range of the specified type from the selected data range of 
 
 ## Syntax
 
+```javascript
 expression.AddProtectedRange(sTitle, sDataRange);
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 
@@ -17,7 +19,7 @@ expression.AddProtectedRange(sTitle, sDataRange);
 
 ## Returns
 
-ApiProtectedRange, null
+[ApiProtectedRange](../../ApiProtectedRange/ApiProtectedRange.md) | null
 
 ## Example
 

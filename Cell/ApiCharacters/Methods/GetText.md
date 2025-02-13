@@ -4,7 +4,9 @@ Returns the text of the specified range of characters.
 
 ## Syntax
 
+```javascript
 expression.GetText();
+```
 
 `expression` - A variable that represents a [ApiCharacters](../ApiCharacters.md) class.
 

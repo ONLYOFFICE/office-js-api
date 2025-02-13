@@ -39,5 +39,6 @@ Represents the Api class.
 - [Save](./Methods/Save.md)
 - [CreateWordArt](./Methods/CreateWordArt.md)
 - [FromJSON](./Methods/FromJSON.md)
+- [GetSelection](./Methods/GetSelection.md)
 - [attachEvent](./Methods/attachEvent.md)
 - [detachEvent](./Methods/detachEvent.md)

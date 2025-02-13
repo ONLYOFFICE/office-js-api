@@ -4,7 +4,9 @@ Returns a type of the ApiDrawing class.
 
 ## Syntax
 
+```javascript
 expression.GetClassType();
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 
@@ -21,14 +23,14 @@ This method doesn't have any parameters.
 This example gets a class type and inserts it into the document.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oDrawing = Api.CreateShape("rect", 3212465, 963295, oFill, oStroke);
-oParagraph.AddDrawing(oDrawing);
-var sClassType = oDrawing.GetClassType();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Class Type = " + sClassType);
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+let stroke = Api.CreateStroke(0, Api.CreateNoFill());
+let drawing = Api.CreateShape("rect", 3212465, 963295, fill, stroke);
+paragraph.AddDrawing(drawing);
+let classType = drawing.GetClassType();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Class Type = " + classType);
+doc.Push(paragraph);
 ```

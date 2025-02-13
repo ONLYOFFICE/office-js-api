@@ -4,7 +4,9 @@ Removes the specified comment replies.
 
 ## Syntax
 
+```javascript
 expression.RemoveReplies(nPos, nCount, bRemoveAll);
+```
 
 `expression` - A variable that represents a [ApiComment](../ApiComment.md) class.
 

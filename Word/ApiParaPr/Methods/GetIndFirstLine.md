@@ -4,7 +4,9 @@ Returns the paragraph first line indentation.
 
 ## Syntax
 
+```javascript
 expression.GetIndFirstLine();
+```
 
 `expression` - A variable that represents a [ApiParaPr](../ApiParaPr.md) class.
 
@@ -14,24 +16,24 @@ This method doesn't have any parameters.
 
 ## Returns
 
-twips, undefined
+[twips](../../Enumeration/twips.md) | undefined
 
 ## Example
 
 This example shows how to get the paragraph first line indentation.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oParaPr = oParagraph.GetParaPr();
-oParaPr.SetIndFirstLine(1440);
-oParagraph.AddText("This is the first paragraph with the indent of 1 inch set to the first line. ");
-oParagraph.AddText("This indent is set by the paragraph style. No paragraph inline style is applied. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes.");
-var nIndFirstLine = oParaPr.GetIndFirstLine();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("First line indent: " + nIndFirstLine);
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let paraPr = paragraph.GetParaPr();
+paraPr.SetIndFirstLine(1440);
+paragraph.AddText("This is the first paragraph with the indent of 1 inch set to the first line. ");
+paragraph.AddText("This indent is set by the paragraph style. No paragraph inline style is applied. ");
+paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
+paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
+paragraph.AddText("These sentences are used to add lines for demonstrative purposes.");
+let indFirstLine = paraPr.GetIndFirstLine();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("First line indent: " + indFirstLine);
+doc.Push(paragraph);
 ```

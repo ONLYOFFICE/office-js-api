@@ -4,7 +4,9 @@ Returns the ISO week number in the year for a given date.
 
 ## Syntax
 
+```javascript
 expression.ISOWEEKNUM(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,11 +14,11 @@ expression.ISOWEEKNUM(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is the date-time code used by Microsoft Excel for date and time calculation. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The date-time code used for date and time calculation. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

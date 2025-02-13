@@ -4,7 +4,9 @@ Returns a type of the ApiShape class.
 
 ## Syntax
 
+```javascript
 expression.GetClassType();
+```
 
 `expression` - A variable that represents a [ApiShape](../ApiShape.md) class.
 
@@ -21,15 +23,15 @@ This method doesn't have any parameters.
 This example gets a class type and inserts it into the document.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oDrawing = Api.CreateShape("rect", 3212465, 963295, oFill, oStroke);
-oParagraph.AddDrawing(oDrawing);
-var oDocContent = oDrawing.GetContent();
-var sClassType = oDrawing.GetClassType();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Class Type = " + sClassType);
-oDocContent.AddElement(0, oParagraph);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+let stroke = Api.CreateStroke(0, Api.CreateNoFill());
+let drawing = Api.CreateShape("rect", 3212465, 963295, fill, stroke);
+paragraph.AddDrawing(drawing);
+let docContent = drawing.GetContent();
+let classType = drawing.GetClassType();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Class Type = " + classType);
+docContent.AddElement(0, paragraph);
 ```

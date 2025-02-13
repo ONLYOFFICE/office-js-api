@@ -1,10 +1,12 @@
 # GetType
 
-Returns the section type.
+Returns the section break type.
 
 ## Syntax
 
+```javascript
 expression.GetType();
+```
 
 `expression` - A variable that represents a [ApiSection](../ApiSection.md) class.
 
@@ -14,4 +16,4 @@ This method doesn't have any parameters.
 
 ## Returns
 
-"nextPage", "oddPage", "evenPage", "continuous", "nextColumn"
+[SectionBreakType](../../Enumeration/SectionBreakType.md)

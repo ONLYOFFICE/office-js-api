@@ -4,7 +4,9 @@ Sets the fonts to the current theme font scheme.
 
 ## Syntax
 
+```javascript
 expression.SetFonts(mjLatin, mjEa, mjCs, mnLatin, mnEa, mnCs);
+```
 
 `expression` - A variable that represents a [ApiThemeFontScheme](../ApiThemeFontScheme.md) class.
 

@@ -4,7 +4,9 @@ Returns an object that represents an active cell.
 
 ## Syntax
 
+```javascript
 expression.GetActiveCell();
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

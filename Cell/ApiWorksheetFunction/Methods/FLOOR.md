@@ -4,7 +4,9 @@ Rounds a number down to the nearest multiple of significance.
 
 ## Syntax
 
+```javascript
 expression.FLOOR(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,12 +14,12 @@ expression.FLOOR(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is the numeric value you want to round. |
-| arg2 | Required | number |  | Is the multiple to which you want to round. Number and Significance must either both be positive or both be negative. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The numeric value to round down. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The multiple of significance to round down to. The number to round down and the multiple of significance must have the same sign. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

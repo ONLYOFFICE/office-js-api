@@ -4,7 +4,9 @@ Returns the unit matrix for the specified dimension.
 
 ## Syntax
 
+```javascript
 expression.MUNIT(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,11 +14,11 @@ expression.MUNIT(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is an integer specifying the dimension of the unit matrix that you want to return. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | An integer specifying the dimension of the unit matrix to be returned. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

@@ -4,7 +4,9 @@ Returns the inverse hyperbolic tangent of a number.
 
 ## Syntax
 
+```javascript
 expression.ATANH(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,11 +14,11 @@ expression.ATANH(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is any real number between -1 and 1 excluding -1 and 1. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | Any real number between -1 and 1 excluding -1 and 1. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

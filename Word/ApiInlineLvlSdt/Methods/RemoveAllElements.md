@@ -4,7 +4,9 @@ Removes all the elements from the current inline text content control.
 
 ## Syntax
 
+```javascript
 expression.RemoveAllElements();
+```
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 
@@ -21,11 +23,11 @@ boolean
 This example clears the contents from the content control.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oInlineLvlSdt = Api.CreateInlineLvlSdt();
-oParagraph.AddInlineLvlSdt(oInlineLvlSdt);
-oInlineLvlSdt.AddText("This is an inline text content control.");
-oInlineLvlSdt.RemoveAllElements();
-oInlineLvlSdt.AddText("We removed all the inline content control elements.");
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let inlineLvlSdt = Api.CreateInlineLvlSdt();
+paragraph.AddInlineLvlSdt(inlineLvlSdt);
+inlineLvlSdt.AddText("This is an inline text content control.");
+inlineLvlSdt.RemoveAllElements();
+inlineLvlSdt.AddText("We removed all the inline content control elements.");
 ```

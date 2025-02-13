@@ -4,7 +4,9 @@ Marks a comment as solved.
 
 ## Syntax
 
+```javascript
 expression.SetSolved(bSolved);
+```
 
 `expression` - A variable that represents a [ApiComment](../ApiComment.md) class.
 

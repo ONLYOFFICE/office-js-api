@@ -4,7 +4,9 @@ Returns the current cell content.
 
 ## Syntax
 
+```javascript
 expression.GetContent();
+```
 
 `expression` - A variable that represents a [ApiTableCell](../ApiTableCell.md) class.
 
@@ -21,13 +23,13 @@ This method doesn't have any parameters.
 This example shows how to get the current cell content.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-var oTable = Api.CreateTable(3, 3);
-oTable.SetWidth("percent", 100);
-var oCell = oTable.GetRow(0).GetCell(0);
-oCell.GetContent().GetElement(0).AddText("Cell #1");
-oTable.SetStyle(oTableStyle);
-oDocument.Push(oTable);
+let doc = Api.GetDocument();
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
+let table = Api.CreateTable(3, 3);
+table.SetWidth("percent", 100);
+let cell = table.GetRow(0).GetCell(0);
+cell.GetContent().GetElement(0).AddText("Cell #1");
+table.SetStyle(tableStyle);
+doc.Push(table);
 ```

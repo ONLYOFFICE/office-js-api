@@ -4,7 +4,9 @@ Creates a copy of the current run.
 
 ## Syntax
 
+```javascript
 expression.Copy();
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 
@@ -18,14 +20,14 @@ This method doesn't have any parameters.
 
 ## Example
 
-This example reates a copy of the run.
+This example creates a copy of the run.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oRun1 = Api.CreateRun();
-oRun1.AddText("This is just a sample text that was copied. ");
-oParagraph.AddElement(oRun1);
-var oRun2 = oRun1.Copy();
-oParagraph.AddElement(oRun2);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let run1 = Api.CreateRun();
+run1.AddText("This is just a sample text that was copied. ");
+paragraph.AddElement(run1);
+let run2 = run1.Copy();
+paragraph.AddElement(run2);
 ```

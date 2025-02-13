@@ -4,7 +4,9 @@ Sets the font size to the characters of the current text run.
 
 ## Syntax
 
+```javascript
 expression.SetFontSize(nSize);
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 
@@ -23,9 +25,9 @@ expression.SetFontSize(nSize);
 This example sets the font size to the characters of the current text run.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oTextPr = oDocument.GetDefaultTextPr();
-oTextPr.SetFontSize(30);
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("A sample text with the font size set to 15 points using the text properties.");
+let doc = Api.GetDocument();
+let textPr = doc.GetDefaultTextPr();
+textPr.SetFontSize(30);
+let paragraph = doc.GetElement(0);
+paragraph.AddText("A sample text with the font size set to 15 points using the text properties.");
 ```

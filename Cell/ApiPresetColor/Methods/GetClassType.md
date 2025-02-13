@@ -4,7 +4,9 @@ Returns a type of the ApiPresetColor class.
 
 ## Syntax
 
+```javascript
 expression.GetClassType();
+```
 
 `expression` - A variable that represents a [ApiPresetColor](../ApiPresetColor.md) class.
 

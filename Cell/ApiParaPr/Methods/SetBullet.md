@@ -4,7 +4,9 @@ Sets the bullet or numbering to the current paragraph.
 
 ## Syntax
 
+```javascript
 expression.SetBullet(oBullet);
+```
 
 `expression` - A variable that represents a [ApiParaPr](../ApiParaPr.md) class.
 
@@ -12,7 +14,7 @@ expression.SetBullet(oBullet);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| oBullet | Required | [ApiBullet](../../ApiBullet/ApiBullet.md) |  | The bullet object created with the {@link Api#CreateBullet} or {@link Api#CreateNumbering} method. |
+| oBullet | Required | [ApiBullet](../../ApiBullet/ApiBullet.md) |  | The bullet object created with the &#123;@link Api#CreateBullet&#125; or &#123;@link Api#CreateNumbering&#125; method. |
 
 ## Returns
 

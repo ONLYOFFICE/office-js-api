@@ -4,7 +4,9 @@ Sets the italic property to the text characters in the current cell or cell rang
 
 ## Syntax
 
+```javascript
 expression.SetItalic(isItalic);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

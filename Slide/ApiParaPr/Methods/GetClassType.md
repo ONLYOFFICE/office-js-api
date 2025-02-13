@@ -4,7 +4,9 @@ Returns a type of the ApiParaPr class.
 
 ## Syntax
 
+```javascript
 expression.GetClassType();
+```
 
 `expression` - A variable that represents a [ApiParaPr](../ApiParaPr.md) class.
 

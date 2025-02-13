@@ -4,7 +4,9 @@ Specifies that the contents of the run are displayed with a single horizontal li
 
 ## Syntax
 
+```javascript
 expression.SetStrikeout(isStrikeout);
+```
 
 `expression` - A variable that represents a [ApiTextPr](../ApiTextPr.md) class.
 
@@ -23,9 +25,9 @@ expression.SetStrikeout(isStrikeout);
 This example specifies that the contents of the current run are displayed with a single horizontal line through the center of the line.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oTextPr = oDocument.GetDefaultTextPr();
-oTextPr.SetStrikeout(true);
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("A sample text struck out with a single line.");
+let doc = Api.GetDocument();
+let textPr = doc.GetDefaultTextPr();
+textPr.SetStrikeout(true);
+let paragraph = doc.GetElement(0);
+paragraph.AddText("A sample text struck out with a single line.");
 ```

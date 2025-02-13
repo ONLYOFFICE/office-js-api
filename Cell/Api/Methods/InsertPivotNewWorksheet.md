@@ -1,10 +1,12 @@
 # InsertPivotNewWorksheet
 
-Inserts PivotTable on new worksheet.
+Inserts the specified pivot table into a new worksheet.
 
 ## Syntax
 
+```javascript
 expression.InsertPivotNewWorksheet(dataRef, newSheetName);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -12,8 +14,8 @@ expression.InsertPivotNewWorksheet(dataRef, newSheetName);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| dataRef | Required | [ApiRange](../../ApiRange/ApiRange.md) |  | Source data range. |
-| newSheetName | Optional | [ApiRange](../../ApiRange/ApiRange.md) |  | New worksheet name. |
+| dataRef | Required | [ApiRange](../../ApiRange/ApiRange.md) |  | The source data range. |
+| newSheetName | Optional | [ApiRange](../../ApiRange/ApiRange.md) |  | A new worksheet name. |
 
 ## Returns
 

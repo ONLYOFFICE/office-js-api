@@ -4,7 +4,9 @@ Removes a user from the current protected range.
 
 ## Syntax
 
+```javascript
 expression.DeleteUser(sId);
+```
 
 `expression` - A variable that represents a [ApiProtectedRange](../ApiProtectedRange.md) class.
 

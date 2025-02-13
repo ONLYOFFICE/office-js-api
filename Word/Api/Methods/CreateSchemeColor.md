@@ -4,7 +4,9 @@ Creates a complex color scheme selecting from one of the available schemes.
 
 ## Syntax
 
-expression.CreateSchemeColor(sSchemeColorId);
+```javascript
+expression.CreateSchemeColor(schemeColorId);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -12,7 +14,7 @@ expression.CreateSchemeColor(sSchemeColorId);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sSchemeColorId | Required | [SchemeColorId](../../Enumeration/SchemeColorId.md) |  | The color scheme identifier. |
+| schemeColorId | Required | [SchemeColorId](../../Enumeration/SchemeColorId.md) |  | The color scheme identifier. |
 
 ## Returns
 
@@ -23,11 +25,10 @@ expression.CreateSchemeColor(sSchemeColorId);
 This example shows how to create a scheme color with the 'dk1' identifier.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oSchemeColor = Api.CreateSchemeColor("dk1");
-var oFill = Api.CreateSolidFill(oSchemeColor);
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oDrawing = Api.CreateShape("curvedUpArrow", 5930900, 595605, oFill, oStroke);
-oParagraph.AddDrawing(oDrawing);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let fill = Api.CreateSolidFill(Api.CreateSchemeColor("dk1"));
+let stroke = Api.CreateStroke(0, Api.CreateNoFill());
+let shape = Api.CreateShape("curvedUpArrow", 5930900, 595605, fill, stroke);
+paragraph.AddDrawing(shape);
 ```

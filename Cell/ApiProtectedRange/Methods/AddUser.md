@@ -4,7 +4,9 @@ Sets a user to the current protected range.
 
 ## Syntax
 
+```javascript
 expression.AddUser(sId, sName, protectedRangeUserType);
+```
 
 `expression` - A variable that represents a [ApiProtectedRange](../ApiProtectedRange.md) class.
 
@@ -18,7 +20,7 @@ expression.AddUser(sId, sName, protectedRangeUserType);
 
 ## Returns
 
-ApiProtectedRangeUserInfo, null
+[ApiProtectedRangeUserInfo](../../ApiProtectedRangeUserInfo/ApiProtectedRangeUserInfo.md) | null
 
 ## Example
 

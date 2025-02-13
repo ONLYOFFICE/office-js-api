@@ -4,7 +4,9 @@ Returns all comments from the current workbook including comments from all works
 
 ## Syntax
 
+```javascript
 expression.GetAllComments();
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -14,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Array.<[ApiComment](../../ApiComment/ApiComment.md)>
+[ApiComment[]](../../ApiComment/ApiComment.md)
 
 ## Example
 

@@ -4,7 +4,9 @@ Returns the current comment ID.
 
 ## Syntax
 
+```javascript
 expression.GetId();
+```
 
 `expression` - A variable that represents a [ApiComment](../ApiComment.md) class.
 

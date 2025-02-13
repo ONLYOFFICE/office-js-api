@@ -4,7 +4,9 @@ Specifies major tick mark for the vertical axis.
 
 ## Syntax
 
+```javascript
 expression.SetVertAxisMajorTickMark(sTickMark);
+```
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 

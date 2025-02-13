@@ -4,7 +4,9 @@ Returns the comment author's name.
 
 ## Syntax
 
+```javascript
 expression.GetAuthorName();
+```
 
 `expression` - A variable that represents a [ApiComment](../ApiComment.md) class.
 

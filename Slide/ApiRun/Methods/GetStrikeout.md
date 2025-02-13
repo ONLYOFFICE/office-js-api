@@ -4,7 +4,9 @@ Gets the strikeout property from the current text properties.
 
 ## Syntax
 
+```javascript
 expression.GetStrikeout();
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 

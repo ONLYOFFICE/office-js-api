@@ -4,7 +4,9 @@ Sets the text color to the current text run in the RGB format.
 
 ## Syntax
 
+```javascript
 expression.SetColor(r, g, b, isAuto);
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 
@@ -26,9 +28,9 @@ expression.SetColor(r, g, b, isAuto);
 This example sets the text color for the current text run in the RGB format.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oTextPr = oDocument.GetDefaultTextPr();
-oTextPr.SetColor(255, 111, 61, false);
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("A sample text with the color set to orange using the text properties.");
+let doc = Api.GetDocument();
+let textPr = doc.GetDefaultTextPr();
+textPr.SetColor(255, 111, 61, false);
+let paragraph = doc.GetElement(0);
+paragraph.AddText("A sample text with the color set to orange using the text properties.");
 ```

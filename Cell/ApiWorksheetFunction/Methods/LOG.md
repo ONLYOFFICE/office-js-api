@@ -1,10 +1,12 @@
 # LOG
 
-Returns the logarithm of a number to the base you specify.
+Returns the logarithm of a number to the specified base.
 
 ## Syntax
 
+```javascript
 expression.LOG(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,12 +14,12 @@ expression.LOG(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is the positive real number for which you want the logarithm. |
-| arg2 | Required | number |  | Is the base of the logarithm; 10 if omitted. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The positive real number for which the logarithm will be returned. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The logarithm base. If omitted, it is equal to 10. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

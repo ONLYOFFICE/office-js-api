@@ -4,7 +4,9 @@ Sets the timestamp of the comment reply creation in UTC format.
 
 ## Syntax
 
+```javascript
 expression.SetTimeUTC(nTimeStamp);
+```
 
 `expression` - A variable that represents a [ApiCommentReply](../ApiCommentReply.md) class.
 
@@ -12,7 +14,7 @@ expression.SetTimeUTC(nTimeStamp);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| nTimeStamp | Required | Number &#124; String |  | The timestamp of the comment reply creation in UTC format. |
+| nTimeStamp | Required | Number | String |  | The timestamp of the comment reply creation in UTC format. |
 
 ## Returns
 

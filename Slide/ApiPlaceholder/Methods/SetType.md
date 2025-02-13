@@ -4,7 +4,9 @@ Sets the placeholder type.
 
 ## Syntax
 
+```javascript
 expression.SetType(sType);
+```
 
 `expression` - A variable that represents a [ApiPlaceholder](../ApiPlaceholder.md) class.
 
@@ -12,7 +14,7 @@ expression.SetType(sType);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sType | Required | string |  | Placeholder type ("body", "chart", "clipArt", "ctrTitle", "diagram", "date", "footer", "header", "media", "object", "picture", "sldImage", "sldNumber", "subTitle", "table", "title"). |
+| sType | Required | [PlaceholderType](../../Enumeration/PlaceholderType.md) |  | Placeholder type |
 
 ## Returns
 

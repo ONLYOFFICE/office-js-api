@@ -4,7 +4,9 @@ Adds a new column to the end of the current table.
 
 ## Syntax
 
+```javascript
 expression.AddColumn(oCell, isBefore);
+```
 
 `expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
 

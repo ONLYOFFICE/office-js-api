@@ -4,7 +4,9 @@ Moves the current item in the parent combo box / dropdown list content control u
 
 ## Syntax
 
+```javascript
 expression.MoveUp();
+```
 
 `expression` - A variable that represents a [ApiContentControlListEntry](../ApiContentControlListEntry.md) class.
 

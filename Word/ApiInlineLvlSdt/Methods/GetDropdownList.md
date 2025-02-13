@@ -4,7 +4,9 @@ Returns a list of values of the combo box / dropdown list content control.
 
 ## Syntax
 
+```javascript
 expression.GetDropdownList();
+```
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 
@@ -21,5 +23,5 @@ This method doesn't have any parameters.
 This example checks if the content control is a form.
 
 ```javascript
-// todo_example we don't have ability to create such class in bulder
+// todo_example we don't have ability to create such class in builder
 ```

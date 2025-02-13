@@ -4,7 +4,9 @@ Converts the ApiStyle object into the JSON object.
 
 ## Syntax
 
+```javascript
 expression.ToJSON(bWriteNumberings);
+```
 
 `expression` - A variable that represents a [ApiStyle](../ApiStyle.md) class.
 
@@ -23,13 +25,13 @@ JSON
 This example converts the ApiStyle object into the JSON object.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oTableStyle = oDocument.GetStyle("Bordered");
-var json = oTableStyle.ToJSON(false);
-var oStyleFromJSON = Api.FromJSON(json);
-oStyleFromJSON.SetName("My Custom Style");
-var oTable = Api.CreateTable(2, 2);
-oTable.SetWidth("percent", 100);
-oTable.SetStyle(oStyleFromJSON);
-oDocument.Push(oTable);
+let doc = Api.GetDocument();
+let tableStyle = doc.GetStyle("Bordered");
+let json = tableStyle.ToJSON(false);
+let styleFromJSON = Api.FromJSON(json);
+styleFromJSON.SetName("My Custom Style");
+let table = Api.CreateTable(2, 2);
+table.SetWidth("percent", 100);
+table.SetStyle(styleFromJSON);
+doc.Push(table);
 ```

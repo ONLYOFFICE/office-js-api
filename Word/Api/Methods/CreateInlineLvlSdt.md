@@ -4,7 +4,9 @@ Creates a new inline container.
 
 ## Syntax
 
+```javascript
 expression.CreateInlineLvlSdt();
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -21,11 +23,12 @@ This method doesn't have any parameters.
 This example adds inline container into the document.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oInlineLvlSdt = Api.CreateInlineLvlSdt();
-oParagraph.AddInlineLvlSdt(oInlineLvlSdt);
-var oRun = Api.CreateRun();
-oRun.AddText("This is an inline text content control.");
-oInlineLvlSdt.AddElement(oRun, 0);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let inlineLvlSdt = Api.CreateInlineLvlSdt();
+paragraph.AddInlineLvlSdt(inlineLvlSdt);
+let run = Api.CreateRun();
+run.AddText("This is an inline text content control.");
+inlineLvlSdt.AddElement(run, 0);
+paragraph.Push(inlineLvlSdt);
 ```

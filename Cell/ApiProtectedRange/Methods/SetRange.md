@@ -4,7 +4,9 @@ Sets a range to the current protected range.
 
 ## Syntax
 
+```javascript
 expression.SetRange(sRange);
+```
 
 `expression` - A variable that represents a [ApiProtectedRange](../ApiProtectedRange.md) class.
 

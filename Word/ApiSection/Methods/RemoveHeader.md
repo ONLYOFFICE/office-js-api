@@ -5,7 +5,9 @@ the previous section, or if this is the first section in the document, no header
 
 ## Syntax
 
+```javascript
 expression.RemoveHeader(sType);
+```
 
 `expression` - A variable that represents a [ApiSection](../ApiSection.md) class.
 
@@ -24,23 +26,23 @@ This method doesn't return any data.
 This example removes the header of the specified type from the section.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("This page first was with a header. ");
-oParagraph.AddText("The header has been removed, you cannot see it. ");
-oParagraph.AddText("Scroll down to the next page to see the header there.");
-var oSection = oDocument.CreateSection(oParagraph);
-var oHeader = oSection.GetHeader("default", true);
-oParagraph = oHeader.GetElement(0);
-oParagraph.AddText("This is page header #1. ");
-oParagraph.AddText("You will not see it, as it will be removed.");
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("This is a page with a header. ");
-oDocument.Push(oParagraph);
-var oSection1 = oDocument.GetFinalSection();
-oHeader = oSection1.GetHeader("default", true);
-oParagraph = oHeader.GetElement(0);
-oParagraph.AddText("This is page header #2. ");
-oParagraph.AddText("Only this header can be seen, as the first one has been removed.");
-oSection.RemoveHeader("default");
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("This page first was with a header. ");
+paragraph.AddText("The header has been removed, you cannot see it. ");
+paragraph.AddText("Scroll down to the next page to see the header there.");
+let section = doc.CreateSection(paragraph);
+let header = section.GetHeader("default", true);
+paragraph = header.GetElement(0);
+paragraph.AddText("This is page header #1. ");
+paragraph.AddText("You will not see it, as it will be removed.");
+paragraph = Api.CreateParagraph();
+paragraph.AddText("This is a page with a header. ");
+doc.Push(paragraph);
+let section1 = doc.GetFinalSection();
+header = section1.GetHeader("default", true);
+paragraph = header.GetElement(0);
+paragraph.AddText("This is page header #2. ");
+paragraph.AddText("Only this header can be seen, as the first one has been removed.");
+section.RemoveHeader("default");
 ```

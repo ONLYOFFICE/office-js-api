@@ -7,7 +7,9 @@ only. If this value exceeds the cell width or height, another vertical/horizonta
 
 ## Syntax
 
+```javascript
 expression.AddShape(sType, nWidth, nHeight, oFill, oStroke, nFromCol, nColOffset, nFromRow, nRowOffset);
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

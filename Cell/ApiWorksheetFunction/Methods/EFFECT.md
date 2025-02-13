@@ -4,7 +4,9 @@ Returns the effective annual interest rate.
 
 ## Syntax
 
+```javascript
 expression.EFFECT(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,12 +14,12 @@ expression.EFFECT(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is the nominal interest rate. |
-| arg2 | Required | any |  | Is the number of compounding periods per year. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The nominal interest rate. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The number of compounding periods per year. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

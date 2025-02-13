@@ -4,7 +4,9 @@ Sets the direction of the watermark in the document.
 
 ## Syntax
 
+```javascript
 expression.SetDirection(sDirection);
+```
 
 `expression` - A variable that represents a [ApiWatermarkSettings](../ApiWatermarkSettings.md) class.
 
@@ -23,20 +25,20 @@ This method doesn't return any data.
 This example sets the parameters of the watermark settings and apply them to the document.
 
 ```javascript
-const oDocument = Api.GetDocument();
-const oWatermarkSettings = oDocument.GetWatermarkSettings();
-oWatermarkSettings.SetType("text");
-oWatermarkSettings.SetText("Example");
-const oTextPr = oWatermarkSettings.GetTextPr();
-oTextPr.SetFontFamily("Calibri");
-oTextPr.SetFontSize(-1);
-oTextPr.SetDoubleStrikeout(true);
-oTextPr.SetItalic(true);
-oTextPr.SetBold(true);
-oTextPr.SetUnderline(true);
-oTextPr.SetColor(0, 255, 0);
-oWatermarkSettings.SetTextPr(oTextPr);
-oWatermarkSettings.SetOpacity(127);
-oWatermarkSettings.SetDirection("clockwise45");
-oDocument.SetWatermarkSettings(oWatermarkSettings);
+let doc = Api.GetDocument();
+let watermarkSettings = doc.GetWatermarkSettings();
+watermarkSettings.SetType("text");
+watermarkSettings.SetText("Example");
+let textPr = watermarkSettings.GetTextPr();
+textPr.SetFontFamily("Calibri");
+textPr.SetFontSize(-1);
+textPr.SetDoubleStrikeout(true);
+textPr.SetItalic(true);
+textPr.SetBold(true);
+textPr.SetUnderline(true);
+textPr.SetColor(0, 255, 0);
+watermarkSettings.SetTextPr(textPr);
+watermarkSettings.SetOpacity(127);
+watermarkSettings.SetDirection("clockwise45");
+doc.SetWatermarkSettings(watermarkSettings);
 ```

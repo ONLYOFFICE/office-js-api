@@ -6,7 +6,9 @@ row cells only. If this value exceeds the cell width or height, another vertical
 
 ## Syntax
 
+```javascript
 expression.AddChart(sDataRange, bInRows, sType, nStyleIndex, nExtX, nExtY, nFromCol, nColOffset, nFromRow, nRowOffset);
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

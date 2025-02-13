@@ -4,7 +4,9 @@ Sets the format scheme to the current presentation theme.
 
 ## Syntax
 
+```javascript
 expression.SetFormatScheme(oApiFormatScheme);
+```
 
 `expression` - A variable that represents a [ApiTheme](../ApiTheme.md) class.
 

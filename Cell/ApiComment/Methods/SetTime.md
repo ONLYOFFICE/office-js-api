@@ -4,7 +4,9 @@ Sets the timestamp of the comment creation in the current time zone format.
 
 ## Syntax
 
+```javascript
 expression.SetTime(nTimeStamp);
+```
 
 `expression` - A variable that represents a [ApiComment](../ApiComment.md) class.
 
@@ -12,7 +14,7 @@ expression.SetTime(nTimeStamp);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| nTimeStamp | Required | Number &#124; String |  | The timestamp of the comment creation in the current time zone format. |
+| nTimeStamp | Required | Number | String |  | The timestamp of the comment creation in the current time zone format. |
 
 ## Returns
 

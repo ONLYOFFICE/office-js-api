@@ -1,10 +1,12 @@
 # BITRSHIFT
 
-Returns a number shifted right by shift_amount bits.
+Returns a number shifted right by the specified number of bits.
 
 ## Syntax
 
+```javascript
 expression.BITRSHIFT(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,12 +14,12 @@ expression.BITRSHIFT(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | Is the decimal representation of the binary number you want to evaluate. |
-| arg2 | Required | number |  | Is the number of bits that you want to shift Number right by. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The decimal representation of the binary number to evaluate. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The number of bits by which the number will be shifted right. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

@@ -4,7 +4,9 @@ Creates a new smaller text block to be inserted to the current paragraph or tabl
 
 ## Syntax
 
+```javascript
 expression.CreateRun();
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

@@ -4,7 +4,9 @@ Sets the layout background as the background of the slide.
 
 ## Syntax
 
+```javascript
 expression.FollowLayoutBackground();
+```
 
 `expression` - A variable that represents a [ApiSlide](../ApiSlide.md) class.
 

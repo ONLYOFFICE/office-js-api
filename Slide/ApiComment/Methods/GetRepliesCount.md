@@ -4,7 +4,9 @@ Returns a number of the comment replies.
 
 ## Syntax
 
+```javascript
 expression.GetRepliesCount();
+```
 
 `expression` - A variable that represents a [ApiComment](../ApiComment.md) class.
 

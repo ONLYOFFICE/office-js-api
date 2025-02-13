@@ -4,7 +4,9 @@ Sets the text color to the current text Range in the RGB format.
 
 ## Syntax
 
+```javascript
 expression.SetColor(r, g, b, isAuto);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
@@ -19,16 +21,16 @@ expression.SetColor(r, g, b, isAuto);
 
 ## Returns
 
-ApiRange, null
+[ApiRange](../../ApiRange/ApiRange.md) | null
 
 ## Example
 
 This example sets the text color to the text Range in the RGB format.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("ONLYOFFICE Document Builder");
-var oRange = oDocument.GetRange(0, 24);
-oRange.SetColor(255, 111, 61);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("ONLYOFFICE Document Builder");
+let range = doc.GetRange(0, 24);
+range.SetColor(255, 111, 61);
 ```

@@ -4,7 +4,9 @@ Returns a single object from a collection by its ID.
 
 ## Syntax
 
+```javascript
 expression.GetItem(ind);
+```
 
 `expression` - A variable that represents a [ApiAreas](../ApiAreas.md) class.
 

@@ -4,7 +4,9 @@ Returns a Range object that represents the document part contained in the specif
 
 ## Syntax
 
+```javascript
 expression.GetRange(Start, End);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
@@ -12,8 +14,8 @@ expression.GetRange(Start, End);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Start | Optional | Number | false | Start character index in the current range. |
-| End | Optional | Number | -1 | End character index in the current range (if <= 0, then the range is taken to the end). |
+| Start | Optional | Number | false | Start position index in the current range. |
+| End | Optional | Number | -1 | End position index in the current range (if &lt;= 0, then the range is taken to the end). |
 
 ## Returns
 
@@ -24,11 +26,11 @@ expression.GetRange(Start, End);
 This example shows how to get a Range object that represents the document part contained in the specified range.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("ONLYOFFICE Document Builder");
-var oRange1 = oDocument.GetRange(0, 24);
-oRange1.SetBold(true);
-var oRange2 = oRange1.GetRange(0, 9);
-oRange2.SetItalic(true);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("ONLYOFFICE Document Builder");
+let range1 = doc.GetRange(0, 24);
+range1.SetBold(true);
+let range2 = range1.GetRange(0, 9);
+range2.SetItalic(true);
 ```

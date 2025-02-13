@@ -4,7 +4,9 @@ Applies text settings to the content of the content control.
 
 ## Syntax
 
+```javascript
 expression.SetTextPr(oTextPr);
+```
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 
@@ -23,13 +25,13 @@ expression.SetTextPr(oTextPr);
 This example applies text settings to the content of the content control.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oInlineLvlSdt = Api.CreateInlineLvlSdt();
-oInlineLvlSdt.AddText("This is an inline text content control with the font size set to 30 and the font weight set to bold.");
-oParagraph.AddInlineLvlSdt(oInlineLvlSdt);
-var oTextPr = Api.CreateTextPr();
-oTextPr.SetFontSize(30);
-oTextPr.SetBold(true);
-oInlineLvlSdt.SetTextPr(oTextPr);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let inlineLvlSdt = Api.CreateInlineLvlSdt();
+inlineLvlSdt.AddText("This is an inline text content control with the font size set to 30 and the font weight set to bold.");
+paragraph.AddInlineLvlSdt(inlineLvlSdt);
+let textPr = Api.CreateTextPr();
+textPr.SetFontSize(30);
+textPr.SetBold(true);
+inlineLvlSdt.SetTextPr(textPr);
 ```

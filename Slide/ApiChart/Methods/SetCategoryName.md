@@ -4,7 +4,9 @@ Sets a name to the specified chart category.
 
 ## Syntax
 
+```javascript
 expression.SetCategoryName(sName, nCategory);
+```
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 

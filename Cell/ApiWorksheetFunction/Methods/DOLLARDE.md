@@ -4,7 +4,9 @@ Converts a dollar price, expressed as a fraction, into a dollar price, expressed
 
 ## Syntax
 
+```javascript
 expression.DOLLARDE(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,12 +14,12 @@ expression.DOLLARDE(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is a number expressed as a fraction. |
-| arg2 | Required | any |  | Is the integer to use in the denominator of the fraction. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | A number expressed as a fraction. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The integer to use in the denominator of the fraction. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

@@ -4,7 +4,9 @@ Sets the type of the "Anyone" user to the current protected range.
 
 ## Syntax
 
+```javascript
 expression.SetAnyoneType(protectedRangeUserType);
+```
 
 `expression` - A variable that represents a [ApiProtectedRange](../ApiProtectedRange.md) class.
 

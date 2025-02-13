@@ -5,7 +5,9 @@ Adds a comment to the current paragraph.
 
 ## Syntax
 
+```javascript
 expression.AddComment(sText, sAuthor, sUserId);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 
@@ -26,10 +28,10 @@ expression.AddComment(sText, sAuthor, sUserId);
 This example adds a comment to the paragraph.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("This is just a sample paragraph.");
-oParagraph.AddLineBreak();
-oParagraph.AddText("The comment was added to this document.");
-oParagraph.AddComment("comment", "Jane");
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("This is just a sample paragraph.");
+paragraph.AddLineBreak();
+paragraph.AddText("The comment was added to this document.");
+paragraph.AddComment("comment", "Jane");
 ```

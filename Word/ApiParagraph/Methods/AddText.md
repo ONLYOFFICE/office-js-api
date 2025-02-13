@@ -4,7 +4,9 @@ Adds some text to the current paragraph.
 
 ## Syntax
 
+```javascript
 expression.AddText(sText);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 
@@ -23,7 +25,7 @@ expression.AddText(sText);
 This example adds some text to the paragraph.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("This is just a sample text. Nothing special.");
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("This is just a sample text. Nothing special.");
 ```

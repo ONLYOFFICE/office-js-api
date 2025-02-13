@@ -4,7 +4,9 @@ Returns the ApiWorksheetFunction object.
 
 ## Syntax
 
+```javascript
 expression.GetWorksheetFunction();
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

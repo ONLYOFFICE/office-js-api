@@ -4,7 +4,9 @@ Converts a number to text, using a currency format $#.##.
 
 ## Syntax
 
+```javascript
 expression.DOLLAR(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,8 +14,8 @@ expression.DOLLAR(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number &#124; string |  | A number, a reference to a cell containing a number, or a formula that returns a number. |
-| arg2 | Required | number |  | A number of digits to the right of the decimal point. The number is rounded as necessary. If it is omitted, the function will assume it to be 2. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number | string |  | A number, a reference to a cell containing a number, or a formula that returns a number. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | A number of digits to the right of the decimal point. The number is rounded as necessary. If it is omitted, the function will assume it to be 2. |
 
 ## Returns
 

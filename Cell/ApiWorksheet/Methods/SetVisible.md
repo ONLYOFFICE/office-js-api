@@ -4,7 +4,9 @@ Sets the state of sheet visibility.
 
 ## Syntax
 
+```javascript
 expression.SetVisible(isVisible);
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

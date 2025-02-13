@@ -4,7 +4,9 @@ Returns the main presentation.
 
 ## Syntax
 
+```javascript
 expression.GetPresentation();
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

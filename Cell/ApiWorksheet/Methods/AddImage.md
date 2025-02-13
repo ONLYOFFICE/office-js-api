@@ -4,7 +4,9 @@ Adds an image to the current sheet with the parameters specified.
 
 ## Syntax
 
+```javascript
 expression.AddImage(sImageSrc, nWidth, nHeight, nFromCol, nColOffset, nFromRow, nRowOffset);
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

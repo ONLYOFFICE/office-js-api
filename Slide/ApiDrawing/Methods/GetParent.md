@@ -4,7 +4,9 @@ Returns the drawing parent object.
 
 ## Syntax
 
+```javascript
 expression.GetParent();
+```
 
 `expression` - A variable that represents a [ApiDrawing](../ApiDrawing.md) class.
 
@@ -14,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-ApiSlide, ApiLayout, ApiMaster, null
+[ApiSlide](../../ApiSlide/ApiSlide.md) | [ApiLayout](../../ApiLayout/ApiLayout.md) | [ApiMaster](../../ApiMaster/ApiMaster.md) | null
 
 ## Example
 

@@ -4,7 +4,9 @@ Sets the text spacing measured in twentieths of a point.
 
 ## Syntax
 
+```javascript
 expression.SetSpacing(nSpacing);
+```
 
 `expression` - A variable that represents a [ApiTextPr](../ApiTextPr.md) class.
 

@@ -4,7 +4,9 @@ Returns a range that describes the frozen cells in the active worksheet view.
 
 ## Syntax
 
+```javascript
 expression.GetLocation();
+```
 
 `expression` - A variable that represents a [ApiFreezePanes](../ApiFreezePanes.md) class.
 
@@ -14,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-ApiRange, null
+[ApiRange](../../ApiRange/ApiRange.md) | null
 
 ## Example
 

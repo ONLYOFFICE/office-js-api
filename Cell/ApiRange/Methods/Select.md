@@ -4,7 +4,9 @@ Selects the current range.
 
 ## Syntax
 
+```javascript
 expression.Select();
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

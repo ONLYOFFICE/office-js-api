@@ -4,7 +4,9 @@ Returns the rows or columns count.
 
 ## Syntax
 
+```javascript
 expression.GetCount();
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

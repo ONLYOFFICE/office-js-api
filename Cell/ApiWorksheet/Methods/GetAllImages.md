@@ -4,7 +4,9 @@ Returns all images from the current sheet.
 
 ## Syntax
 
+```javascript
 expression.GetAllImages();
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 
@@ -14,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Array.<[ApiImage](../../ApiImage/ApiImage.md)>
+[ApiImage[]](../../ApiImage/ApiImage.md)
 
 ## Example
 

@@ -4,7 +4,9 @@ Gets the RGB color from the current text properties.
 
 ## Syntax
 
+```javascript
 expression.GetColor();
+```
 
 `expression` - A variable that represents a [ApiTextPr](../ApiTextPr.md) class.
 
@@ -21,26 +23,26 @@ This method doesn't have any parameters.
 
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oMyNewRunStyle = oDocument.CreateStyle("My New Run Style", "run");
-var oTextPr = oMyNewRunStyle.GetTextPr();
-oTextPr.SetCaps(true);
-oTextPr.SetFontFamily("Calibri Light");
-var oParagraph = oDocument.GetElement(0);
-var oRun = Api.CreateRun();
-oRun.AddText("This is just a sample text. ");
-oRun.AddText("The text properties are changed and the style is added to the paragraph. ");
-oParagraph.AddElement(oRun);
-oRun = Api.CreateRun();
-oRun.SetStyle(oMyNewRunStyle);
-oRun.AddText("This is a text run with its own style.");
-oTextPr = oRun.GetTextPr();
-oTextPr.SetColor(255, 111, 61, false);
-oParagraph.AddElement(oRun);
-oParagraph = Api.CreateParagraph();
-var oColor = oTextPr.GetColor();
-var sType = oColor.GetClassType();
-oParagraph.AddText("Color type: " + sType);
-oParagraph.SetColor(oColor);
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let myNewRunStyle = doc.CreateStyle("My New Run Style", "run");
+let textPr = myNewRunStyle.GetTextPr();
+textPr.SetCaps(true);
+textPr.SetFontFamily("Calibri Light");
+let paragraph = doc.GetElement(0);
+let run = Api.CreateRun();
+run.AddText("This is just a sample text. ");
+run.AddText("The text properties are changed and the style is added to the paragraph. ");
+paragraph.AddElement(run);
+run = Api.CreateRun();
+run.SetStyle(myNewRunStyle);
+run.AddText("This is a text run with its own style.");
+textPr = run.GetTextPr();
+textPr.SetColor(255, 111, 61, false);
+paragraph.AddElement(run);
+paragraph = Api.CreateParagraph();
+let color = textPr.GetColor();
+let type = color.GetClassType();
+paragraph.AddText("Color type: " + type);
+paragraph.SetColor(color);
+doc.Push(paragraph);
 ```

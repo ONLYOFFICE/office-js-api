@@ -1,10 +1,12 @@
 # ERF
 
-Returns the error function.
+Returns the error function integrated between the specified lower and upper limits.
 
 ## Syntax
 
+```javascript
 expression.ERF(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,12 +14,12 @@ expression.ERF(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is the lower bound for integrating ERF. |
-| arg2 | Required | any |  | Is the upper bound for integrating ERF. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The lower bound for integrating the error function. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The upper bound for integrating the error function. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

@@ -4,7 +4,9 @@ Spicifies tick labels position for the horizontal axis.
 
 ## Syntax
 
+```javascript
 expression.SetHorAxisTickLabelPosition(sTickLabelPosition);
+```
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 

@@ -8,11 +8,9 @@ Enumeration
 
 ## Values
 
-- ApiUnsupported
-- [ApiRun](../../ApiRun/ApiRun.md)
-- ApiInlineLvlSdt
-- ApiHyperlink
-- ApiFormBase
+- [ApiUnsupported](../ApiUnsupported/ApiUnsupported.md)
+- [ApiRun](../ApiRun/ApiRun.md)
+- [ApiHyperlink](../ApiHyperlink/ApiHyperlink.md)
 
 
 ## Example
@@ -20,5 +18,5 @@ Enumeration
 This example adds an element called 'text run' to the paragraph.
 
 ```javascript
-oParagraph.AddElement(oRun, 0);
+paragraph.AddElement(run, 0);
 ```

@@ -4,7 +4,9 @@ Specifies the shading which is applied to the extents of the current table.
 
 ## Syntax
 
+```javascript
 expression.SetShd(sType, r, g, b, isAuto);
+```
 
 `expression` - A variable that represents a [ApiTablePr](../ApiTablePr.md) class.
 
@@ -27,15 +29,15 @@ This method doesn't return any data.
 This example specifies the shading which shall be applied to the extents of the table.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("We added an orange shading to the table:");
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-var oTablePr = oTableStyle.GetTablePr();
-var oTable = Api.CreateTable(3, 3);
-oTablePr.SetShd("clear", 255, 111, 61, false);
-oTable.SetTableLook(true, true, true, true, false, false);
-oTable.SetStyle(oTableStyle);
-oDocument.Push(oTable);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("We added an orange shading to the table:");
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
+let tablePr = tableStyle.GetTablePr();
+let table = Api.CreateTable(3, 3);
+tablePr.SetShd("clear", 255, 111, 61, false);
+table.SetTableLook(true, true, true, true, false, false);
+table.SetStyle(tableStyle);
+doc.Push(table);
 ```

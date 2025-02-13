@@ -1,10 +1,12 @@
 # ECMA_CEILING
 
-Rounds the number up to the nearest multiple of significance.
+Rounds the number up to the nearest multiple of significance. Negative numbers are rounded towards zero.
 
 ## Syntax
 
-expression.ECMA_CEILING(arg1., arg2.);
+```javascript
+expression.ECMA_CEILING(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,12 +14,12 @@ expression.ECMA_CEILING(arg1., arg2.);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1. | Required | number |  | No description provided. |
-| arg2. | Required | number |  | No description provided. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The value to round up. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The multiple of significance to round up to. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

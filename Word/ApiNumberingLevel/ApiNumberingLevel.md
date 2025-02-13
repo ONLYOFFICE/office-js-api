@@ -14,3 +14,4 @@ Represents the ApiNumberingLevel class.
 - [SetRestart](./Methods/SetRestart.md)
 - [SetStart](./Methods/SetStart.md)
 - [SetSuff](./Methods/SetSuff.md)
+- [LinkWithStyle](./Methods/LinkWithStyle.md)

@@ -4,7 +4,9 @@ Sets the specified font family as the font name for the current cell range.
 
 ## Syntax
 
+```javascript
 expression.SetFontName(sName);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 

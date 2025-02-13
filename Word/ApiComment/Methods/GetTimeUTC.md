@@ -4,7 +4,9 @@ Returns the timestamp of the comment creation in UTC format.
 
 ## Syntax
 
+```javascript
 expression.GetTimeUTC();
+```
 
 `expression` - A variable that represents a [ApiComment](../ApiComment.md) class.
 
@@ -21,14 +23,14 @@ Number
 This example shows how to get the timestamp of the comment creation in UTC format.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("This is just a sample text");
-Api.AddComment(oParagraph, "comment", "John Smith");
-var aComments = oDocument.GetAllComments();
-aComments[0].SetTimeUTC("1672247153658");
-var sTimeUTC = aComments[0].GetTimeUTC();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("The timestamp of comment creation in UTC format: " + sTimeUTC);
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("This is just a sample text");
+Api.AddComment(paragraph, "comment", "John Smith");
+let comments = doc.GetAllComments();
+comments[0].SetTimeUTC("1672247153658");
+let timeUTC = comments[0].GetTimeUTC();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("The timestamp of comment creation in UTC format: " + timeUTC);
+doc.Push(paragraph);
 ```

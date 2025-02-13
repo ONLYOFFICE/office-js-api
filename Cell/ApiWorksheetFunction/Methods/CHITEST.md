@@ -4,7 +4,9 @@ Returns the test for independence: the value from the chi-squared distribution f
 
 ## Syntax
 
+```javascript
 expression.CHITEST(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,8 +14,8 @@ expression.CHITEST(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | The range of data that contains observations to test against expected values. |
-| arg2 | Required | any |  | The range of data that contains the ratio of the product of row totals and column totals to the grand total. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number | string | boolean |  | The range of data that contains observations to test against expected values. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number | string | boolean |  | The range of data that contains the ratio of the product of row totals and column totals to the grand total. |
 
 ## Returns
 

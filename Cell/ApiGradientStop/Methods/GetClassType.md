@@ -4,7 +4,9 @@ Returns a type of the ApiGradientStop class.
 
 ## Syntax
 
+```javascript
 expression.GetClassType();
+```
 
 `expression` - A variable that represents a [ApiGradientStop](../ApiGradientStop.md) class.
 

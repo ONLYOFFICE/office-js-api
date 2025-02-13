@@ -4,7 +4,9 @@ Returns the future value of an initial principal after applying a series of comp
 
 ## Syntax
 
+```javascript
 expression.FVSCHEDULE(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,12 +14,12 @@ expression.FVSCHEDULE(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is the present value. |
-| arg2 | Required | any |  | Is an array of interest rates to apply. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The present value of an investment. |
+| arg2 | Required | number[] | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) |  | An array of interest rates to apply. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

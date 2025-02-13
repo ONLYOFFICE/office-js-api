@@ -4,7 +4,9 @@ Returns a complex number raised to an integer power.
 
 ## Syntax
 
+```javascript
 expression.IMPOWER(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,12 +14,12 @@ expression.IMPOWER(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | any |  | Is a complex number you want to raise to a power. |
-| arg2 | Required | any |  | Is the power to which you want to raise the complex number. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | A complex number expressed in the &lt;em&gt;x + yi&lt;/em&gt; or &lt;em&gt;x + yj&lt;/em&gt; form. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The power to which the complex number will be raised. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

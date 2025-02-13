@@ -4,7 +4,9 @@ Creates a new style with the specified type and name. If there is a style with t
 
 ## Syntax
 
+```javascript
 expression.CreateStyle(sStyleName, sType);
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
@@ -24,20 +26,20 @@ expression.CreateStyle(sStyleName, sType);
 This example creates a new style with the "Heading 1" type and "paragraph" name.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oHeading1Style = oDocument.CreateStyle("Heading 1", "paragraph");
-var oParaPr = oHeading1Style.GetParaPr();
-oParaPr.SetKeepNext(true);
-oParaPr.SetKeepLines(true);
-oParaPr.SetSpacingAfter(240);
-var oTextPr = oHeading1Style.GetTextPr();
-oTextPr.SetColor(0xff, 0x68, 0x00, false);
-oTextPr.SetFontSize(40);
-oTextPr.SetFontFamily("Calibri Light");
-var oParagraph = oDocument.GetElement(0);
-oParagraph.SetStyle(oHeading1Style);
-oParagraph.AddText("This is a heading with a style created above");
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("This is just a text.");
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let heading1Style = doc.CreateStyle("Heading 1", "paragraph");
+let paraPr = heading1Style.GetParaPr();
+paraPr.SetKeepNext(true);
+paraPr.SetKeepLines(true);
+paraPr.SetSpacingAfter(240);
+let textPr = heading1Style.GetTextPr();
+textPr.SetColor(0xff, 0x68, 0x00, false);
+textPr.SetFontSize(40);
+textPr.SetFontFamily("Calibri Light");
+let paragraph = doc.GetElement(0);
+paragraph.SetStyle(heading1Style);
+paragraph.AddText("This is a heading with a style created above");
+paragraph = Api.CreateParagraph();
+paragraph.AddText("This is just a text.");
+doc.Push(paragraph);
 ```

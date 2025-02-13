@@ -4,7 +4,9 @@ Returns the hyperlink address.
 
 ## Syntax
 
+```javascript
 expression.GetLinkedText();
+```
 
 `expression` - A variable that represents a [ApiHyperlink](../ApiHyperlink.md) class.
 
@@ -21,15 +23,15 @@ string
 This example shows how to get the hyperlink address.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oRun = Api.CreateRun();
-oRun.AddText("ONLYOFFICE Document Builder");
-oParagraph.AddElement(oRun);
-var oHyperlink = oParagraph.AddHyperlink("https://api.onlyoffice.com/docbuilder/basic");
-oHyperlink.SetLink("https://api.onlyoffice.com/");
-var sLinkedText = oHyperlink.GetLinkedText();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Linked text: " + sLinkedText);
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let run = Api.CreateRun();
+run.AddText("ONLYOFFICE Document Builder");
+paragraph.AddElement(run);
+let hyperlink = paragraph.AddHyperlink("https://api.onlyoffice.com/docbuilder/basic");
+hyperlink.SetLink("https://api.onlyoffice.com/");
+let linkedText = hyperlink.GetLinkedText();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Linked text: " + linkedText);
+doc.Push(paragraph);
 ```

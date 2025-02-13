@@ -4,7 +4,9 @@ Returns the cumulative lognormal distribution of x, where ln(x) is normally dist
 
 ## Syntax
 
+```javascript
 expression.LOGNORMDIST(arg1, arg2, arg3);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,9 +14,9 @@ expression.LOGNORMDIST(arg1, arg2, arg3);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number |  | The value at which to evaluate the function, a positive number. |
-| arg2 | Required | number |  | The mean of ln(x). |
-| arg3 | Required | number |  | The standard deviation of ln(x), a positive number. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The value at which to evaluate the function, a positive number. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The mean of ln(x). |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The standard deviation of ln(x), a positive number. |
 
 ## Returns
 

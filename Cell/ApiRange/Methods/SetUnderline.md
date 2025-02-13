@@ -4,7 +4,9 @@ Specifies that the contents of the current cell / cell range are displayed along
 
 ## Syntax
 
+```javascript
 expression.SetUnderline(undelineType);
+```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
 
@@ -12,7 +14,7 @@ expression.SetUnderline(undelineType);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| undelineType | Required | 'none' &#124; 'single' &#124; 'singleAccounting' &#124; 'double' &#124; 'doubleAccounting' |  | Specifies the type of the line displayed under the characters. The following values are available: **"none"** - for no underlining; **"single"** - for a single line underlining the cell contents; **"singleAccounting"** - for a single line underlining the cell contents but not protruding beyond the cell borders; **"double"** - for a double line underlining the cell contents; **"doubleAccounting"** - for a double line underlining the cell contents but not protruding beyond the cell borders. |
+| undelineType | Required | 'none' | 'single' | 'singleAccounting' | 'double' | 'doubleAccounting' |  | Specifies the type of the line displayed under the characters. The following values are available: **"none"** - for no underlining; **"single"** - for a single line underlining the cell contents; **"singleAccounting"** - for a single line underlining the cell contents but not protruding beyond the cell borders; **"double"** - for a double line underlining the cell contents; **"doubleAccounting"** - for a double line underlining the cell contents but not protruding beyond the cell borders. |
 
 ## Returns
 

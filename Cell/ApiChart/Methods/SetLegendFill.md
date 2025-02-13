@@ -4,7 +4,9 @@ Sets the fill to the chart legend.
 
 ## Syntax
 
+```javascript
 expression.SetLegendFill(oFill);
+```
 
 `expression` - A variable that represents a [ApiChart](../ApiChart.md) class.
 

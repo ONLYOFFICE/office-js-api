@@ -4,7 +4,9 @@ Sets the top margin of the sheet.
 
 ## Syntax
 
+```javascript
 expression.SetTopMargin(nPoints);
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 

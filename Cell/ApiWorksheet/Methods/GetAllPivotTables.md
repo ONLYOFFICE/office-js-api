@@ -1,10 +1,12 @@
 # GetAllPivotTables
 
-Returns all PivotTables on worksheet.
+Returns all pivot tables from the current worksheet.
 
 ## Syntax
 
+```javascript
 expression.GetAllPivotTables();
+```
 
 `expression` - A variable that represents a [ApiWorksheet](../ApiWorksheet.md) class.
 
@@ -14,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Array.<[ApiPivotTable](../../ApiPivotTable/ApiPivotTable.md)>
+[ApiPivotTable[]](../../ApiPivotTable/ApiPivotTable.md)
 
 ## Example
 

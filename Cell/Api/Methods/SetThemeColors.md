@@ -4,7 +4,9 @@ Sets the theme colors to the current spreadsheet.
 
 ## Syntax
 
+```javascript
 expression.SetThemeColors(sTheme);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

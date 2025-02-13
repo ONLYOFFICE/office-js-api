@@ -5,7 +5,9 @@ Sets the superscript property to the specified font.
 
 ## Syntax
 
+```javascript
 expression.SetSuperscript(isSuperscript);
+```
 
 `expression` - A variable that represents a [ApiFont](../ApiFont.md) class.
 

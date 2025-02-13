@@ -4,7 +4,9 @@ Sets the font scheme to the current presentation theme.
 
 ## Syntax
 
+```javascript
 expression.SetFontScheme(oApiFontScheme);
+```
 
 `expression` - A variable that represents a [ApiTheme](../ApiTheme.md) class.
 

@@ -1,10 +1,12 @@
 # InsertPivotExistingWorksheet
 
-Inserts PivotTable on existing worksheet.
+Inserts the specified pivot table into an existing worksheet.
 
 ## Syntax
 
+```javascript
 expression.InsertPivotExistingWorksheet(dataRef, pivotRef, confirmation);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -12,9 +14,9 @@ expression.InsertPivotExistingWorksheet(dataRef, pivotRef, confirmation);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| dataRef | Required | [ApiRange](../../ApiRange/ApiRange.md) |  | Source data range. |
-| pivotRef | Required | [ApiRange](../../ApiRange/ApiRange.md) |  | Range in which the table will be located. |
-| confirmation | Required | bool |  | Replace the data in pivotRef (if it exists) or create a dialog box for this (if it exists). |
+| dataRef | Required | [ApiRange](../../ApiRange/ApiRange.md) |  | The source data range. |
+| pivotRef | Required | [ApiRange](../../ApiRange/ApiRange.md) |  | A range in which the pivot table will be located. |
+| confirmation | Required | bool |  | Specifies whether to replace the data in the specified pivot table range (if it exists) or create a dialog box for this (if it exists). |
 
 ## Returns
 

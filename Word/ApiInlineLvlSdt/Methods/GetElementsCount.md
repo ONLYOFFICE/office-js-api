@@ -6,7 +6,9 @@ element added this method will return the value of '1'.
 
 ## Syntax
 
+```javascript
 expression.GetElementsCount();
+```
 
 `expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
 
@@ -23,23 +25,23 @@ number
 This example shows how to get a number of elements in the inline text content control.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oInlineLvlSdt = Api.CreateInlineLvlSdt();
-oParagraph.AddInlineLvlSdt(oInlineLvlSdt);
-oParagraph.AddLineBreak();
-oInlineLvlSdtCount = oInlineLvlSdt.GetElementsCount();
-oParagraph.AddText("Number of elements in oInlineLvlSdt (before adding anything) = " + oInlineLvlSdtCount);
-var oRun = Api.CreateRun();
-oRun.AddText("This is an inline text content control. ");
-oInlineLvlSdt.AddElement(oRun, 0);
-oParagraph.AddLineBreak();
-var oInlineLvlSdtCount = oInlineLvlSdt.GetElementsCount();
-oParagraph.AddText("Number of elements in oInlineLvlSdt (after adding one element) = " + oInlineLvlSdtCount);
-var oRun1 = Api.CreateRun();
-oRun1.AddText("One more element of the inline text content control.");
-oInlineLvlSdt.AddElement(oRun1, 1);
-oInlineLvlSdtCount = oInlineLvlSdt.GetElementsCount();
-oParagraph.AddLineBreak();
-oParagraph.AddText("Number of elements in oInlineLvlSdt (after adding one more element) = " + oInlineLvlSdtCount);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let inlineLvlSdt = Api.CreateInlineLvlSdt();
+paragraph.AddInlineLvlSdt(inlineLvlSdt);
+paragraph.AddLineBreak();
+let inlineLvlSdtCount = inlineLvlSdt.GetElementsCount();
+paragraph.AddText("Number of elements in inlineLvlSdt (before adding anything) = " + inlineLvlSdtCount);
+let run = Api.CreateRun();
+run.AddText("This is an inline text content control. ");
+inlineLvlSdt.AddElement(run, 0);
+paragraph.AddLineBreak();
+inlineLvlSdtCount = inlineLvlSdt.GetElementsCount();
+paragraph.AddText("Number of elements in inlineLvlSdt (after adding one element) = " + inlineLvlSdtCount);
+let run1 = Api.CreateRun();
+run1.AddText("One more element of the inline text content control.");
+inlineLvlSdt.AddElement(run1, 1);
+inlineLvlSdtCount = inlineLvlSdt.GetElementsCount();
+paragraph.AddLineBreak();
+paragraph.AddText("Number of elements in inlineLvlSdt (after adding one more element) = " + inlineLvlSdtCount);
 ```

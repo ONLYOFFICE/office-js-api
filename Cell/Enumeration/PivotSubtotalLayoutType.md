@@ -1,6 +1,6 @@
 # PivotSubtotalLayoutType
 
-No description provided.
+The type of the pivot table subtotal layout.
 
 ## Type
 

@@ -4,7 +4,9 @@ Returns the document final section.
 
 ## Syntax
 
+```javascript
 expression.GetFinalSection();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
@@ -21,18 +23,18 @@ This method doesn't have any parameters.
 This example shows how to get the document final section.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oSection = oDocument.GetFinalSection();
-var oHeader = oSection.GetHeader("default", true);
-var oParagraph = oHeader.GetElement(0);
-oParagraph.AddText("This is the text in the default header");
-var oTextPr = oDocument.GetDefaultTextPr();
-oTextPr.SetFontSize(22);
-oTextPr.SetLanguage("en-US");
-oTextPr.SetFontFamily("Calibri");
-var oParaPr = oDocument.GetDefaultParaPr();
-oParaPr.SetSpacingLine(276, "auto");
-oParaPr.SetSpacingAfter(200);
-oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("This is a text in a paragraph.");
+let doc = Api.GetDocument();
+let section = doc.GetFinalSection();
+let header = section.GetHeader("default", true);
+let paragraph = header.GetElement(0);
+paragraph.AddText("This is the text in the default header");
+let textPr = doc.GetDefaultTextPr();
+textPr.SetFontSize(22);
+textPr.SetLanguage("en-US");
+textPr.SetFontFamily("Calibri");
+let paraPr = doc.GetDefaultParaPr();
+paraPr.SetSpacingLine(276, "auto");
+paraPr.SetSpacingAfter(200);
+paragraph = doc.GetElement(0);
+paragraph.AddText("This is a text in a paragraph.");
 ```

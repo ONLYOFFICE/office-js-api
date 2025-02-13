@@ -4,7 +4,9 @@ Sets an image to the current picture form.
 
 ## Syntax
 
+```javascript
 expression.SetImage(sImageSrc, nWidth, nHeight);
+```
 
 `expression` - A variable that represents a [ApiPictureForm](../ApiPictureForm.md) class.
 
@@ -25,9 +27,9 @@ boolean
 This example sets an image to the current picture form.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oPictureForm = Api.CreatePictureForm({"tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false, "shiftX": 50, "shiftY": 50});
-oPictureForm.SetImage("https://api.onlyoffice.com/content/img/docbuilder/examples/user-profile.png");
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddElement(oPictureForm);
+let doc = Api.GetDocument();
+let pictureForm = Api.CreatePictureForm({"tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false, "shiftX": 50, "shiftY": 50});
+pictureForm.SetImage("https://api.onlyoffice.com/content/img/docbuilder/examples/user-profile.png");
+let paragraph = doc.GetElement(0);
+paragraph.AddElement(pictureForm);
 ```

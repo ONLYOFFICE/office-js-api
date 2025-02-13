@@ -4,7 +4,9 @@ Specifies that the current paragraph references the numbering definition instanc
 
 ## Syntax
 
+```javascript
 expression.SetNumbering(oNumberingLevel);
+```
 
 `expression` - A variable that represents a [ApiParagraph](../ApiParagraph.md) class.
 

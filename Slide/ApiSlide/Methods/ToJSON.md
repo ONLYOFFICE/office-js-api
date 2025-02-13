@@ -4,7 +4,9 @@ Converts the ApiSlide object into the JSON object.
 
 ## Syntax
 
+```javascript
 expression.ToJSON(bWriteLayout, bWriteMaster, bWriteAllMasLayouts, bWriteTableStyles);
+```
 
 `expression` - A variable that represents a [ApiSlide](../ApiSlide.md) class.
 

@@ -4,7 +4,9 @@ Extracts a substring from a string starting from the right-most character, based
 
 ## Syntax
 
+```javascript
 expression.RIGHTB(arg1, arg2);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,8 +14,8 @@ expression.RIGHTB(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | string |  | The text string that contains the characters to extract. |
-| arg2 | Required | number |  | A number of the substring characters, based on bytes. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | string |  | The text string that contains the characters to extract. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | A number of the substring characters, based on bytes. |
 
 ## Returns
 

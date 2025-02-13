@@ -1,10 +1,12 @@
 # COLUMNS
 
-Returns the number of columns in an array or reference.
+Returns the number of columns in the cell range.
 
 ## Syntax
 
+```javascript
 expression.COLUMNS(arg1);
+```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
 
@@ -12,11 +14,11 @@ expression.COLUMNS(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) |  | Is an array or array formula, or a reference to a range of cells for which you want the number of columns. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number[] |  | A range or array of cells for which the number of columns will be returned. |
 
 ## Returns
 
-number, string, boolean
+number
 
 ## Example
 

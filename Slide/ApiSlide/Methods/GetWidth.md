@@ -4,7 +4,9 @@ Returns the slide width in English measure units.
 
 ## Syntax
 
+```javascript
 expression.GetWidth();
+```
 
 `expression` - A variable that represents a [ApiSlide](../ApiSlide.md) class.
 

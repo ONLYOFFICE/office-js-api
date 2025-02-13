@@ -4,7 +4,9 @@ Creates a pattern fill to apply to the object using the selected pattern as the 
 
 ## Syntax
 
-expression.CreatePatternFill(sPatternType, BgColor, FgColor);
+```javascript
+expression.CreatePatternFill(patternType, bgColor, fgColor);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 
@@ -12,9 +14,9 @@ expression.CreatePatternFill(sPatternType, BgColor, FgColor);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sPatternType | Required | [PatternType](../../Enumeration/PatternType.md) |  | The pattern type used for the fill selected from one of the available pattern types. |
-| BgColor | Required | [ApiUniColor](../../ApiUniColor/ApiUniColor.md) |  | The background color used for the pattern creation. |
-| FgColor | Required | [ApiUniColor](../../ApiUniColor/ApiUniColor.md) |  | The foreground color used for the pattern creation. |
+| patternType | Required | [PatternType](../../Enumeration/PatternType.md) |  | The pattern type used for the fill selected from one of the available pattern types. |
+| bgColor | Required | [ApiUniColor](../../ApiUniColor/ApiUniColor.md) |  | The background color used for the pattern creation. |
+| fgColor | Required | [ApiUniColor](../../ApiUniColor/ApiUniColor.md) |  | The foreground color used for the pattern creation. |
 
 ## Returns
 
@@ -25,10 +27,10 @@ expression.CreatePatternFill(sPatternType, BgColor, FgColor);
 This example creates a pattern fill and applys it to the object using the selected pattern as the object background.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oFill = Api.CreatePatternFill("dashDnDiag", Api.CreateRGBColor(255, 111, 61), Api.CreateRGBColor(51, 51, 51));
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oDrawing = Api.CreateShape("rect", 5930900, 395605, oFill, oStroke);
-oParagraph.AddDrawing(oDrawing);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let fill = Api.CreatePatternFill("dashDnDiag", Api.CreateRGBColor(255, 111, 61), Api.CreateRGBColor(51, 51, 51));
+let stroke = Api.CreateStroke(0, Api.CreateNoFill());
+let shape = Api.CreateShape("rect", 5930900, 395605, fill, stroke);
+paragraph.AddDrawing(shape);
 ```

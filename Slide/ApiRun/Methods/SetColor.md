@@ -4,7 +4,9 @@ Sets the text color for the current text run in the RGB format.
 
 ## Syntax
 
+```javascript
 expression.SetColor(r, g, b, isAuto);
+```
 
 `expression` - A variable that represents a [ApiRun](../ApiRun.md) class.
 

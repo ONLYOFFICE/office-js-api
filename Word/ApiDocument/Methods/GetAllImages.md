@@ -4,7 +4,9 @@ Returns a collection of image objects from the document content.
 
 ## Syntax
 
+```javascript
 expression.GetAllImages();
+```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.
 
@@ -14,27 +16,27 @@ This method doesn't have any parameters.
 
 ## Returns
 
-Array.<[ApiImage](../../ApiImage/ApiImage.md)>
+[ApiImage[]](../../ApiImage/ApiImage.md)
 
 ## Example
 
 This example shows how to get a collection of image objects from the document content.
 
 ```javascript
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oShape = Api.CreateShape("rect", 100 * 36000, 100 * 36000, oFill, oStroke);
-oParagraph.AddDrawing(oShape);
-oParagraph = Api.CreateParagraph();
-var oImage = Api.CreateImage("https://api.onlyoffice.com/content/img/docbuilder/examples/coordinate_aspects.png", 95 * 36000, 45 * 36000);
-oParagraph.AddDrawing(oImage);
-var oDocContent = oShape.GetDocContent();
-oDocContent.AddElement(0, oParagraph);
-var aImages = oDocContent.GetAllImages();
-var sClassType = aImages[0].GetClassType();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Class type: " + sClassType);
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+let stroke = Api.CreateStroke(0, Api.CreateNoFill());
+let shape = Api.CreateShape("rect", 100 * 36000, 100 * 36000, fill, stroke);
+paragraph.AddDrawing(shape);
+paragraph = Api.CreateParagraph();
+let image = Api.CreateImage("https://static.onlyoffice.com/assets/docs/samples/img/onlyoffice_logo.png", 95 * 36000, 45 * 36000);
+paragraph.AddDrawing(image);
+let docContent = shape.GetDocContent();
+docContent.AddElement(0, paragraph);
+let images = docContent.GetAllImages();
+let classType = images[0].GetClassType();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Class type: " + classType);
+doc.Push(paragraph);
 ```

@@ -4,7 +4,9 @@ Sets the cell reference style.
 
 ## Syntax
 
+```javascript
 expression.SetReferenceStyle(sReferenceStyle);
+```
 
 `expression` - A variable that represents a [Api](../Api.md) class.
 

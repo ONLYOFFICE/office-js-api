@@ -1,6 +1,6 @@
 # LayoutSubtotalLocationType
 
-No description provided.
+The layout subtotal location.
 
 ## Type
 
