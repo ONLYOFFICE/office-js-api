@@ -19,7 +19,7 @@ expression.AddProtectedRange(sTitle, sDataRange);
 
 ## Returns
 
-[ApiProtectedRange](../../ApiProtectedRange/ApiProtectedRange.md) | null
+[ApiProtectedRange](../../ApiProtectedRange/ApiProtectedRange.md) \| null
 
 ## Example
 

@@ -31,9 +31,9 @@ Represents the ApiPivotField class.
 | DragToRow | boolean | Returns or sets the setting which specifies whether the specified field can be dragged to the row position. |
 | DragToData | boolean | Returns or sets the setting which specifies whether the specified field can be dragged to the data position. |
 | DragToPage | boolean | Returns or sets the setting which specifies whether the specified field can be dragged to the page position. |
-| NumberFormat | string | null | Returns or sets a value that represents the format code for the object. |
-| CurrentPage | string | number | Returns the current page which is displayed for the page field (valid only for page fields). |
-| PivotItems | [ApiPivotItem](../ApiPivotItem/ApiPivotItem.md) | [ApiPivotItem[]](../ApiPivotItem/ApiPivotItem.md) | Returns an object that represents either a single pivot table item (the ApiPivotItem object) or a collection of all the visible and hidden items (an array of the ApiPivotItem objects) in the specified field. |
+| NumberFormat | string \| null | Returns or sets a value that represents the format code for the object. |
+| CurrentPage | string \| number | Returns the current page which is displayed for the page field (valid only for page fields). |
+| PivotItems | [ApiPivotItem](../ApiPivotItem/ApiPivotItem.md) \| [ApiPivotItem[]](../ApiPivotItem/ApiPivotItem.md) | Returns an object that represents either a single pivot table item (the ApiPivotItem object) or a collection of all the visible and hidden items (an array of the ApiPivotItem objects) in the specified field. |
 ## Methods
 
 - [ClearAllFilters](./Methods/ClearAllFilters.md)

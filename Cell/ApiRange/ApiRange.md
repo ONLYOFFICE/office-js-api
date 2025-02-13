@@ -25,23 +25,23 @@ Represents the ApiRange class.
 | Height | number | Returns a value that represents the range height measured in points. |
 | FontSize | number | Sets the font size to the characters of the current cell range. |
 | FontName | string | Sets the specified font family as the font name for the current cell range. |
-| AlignVertical | 'center' | 'bottom' | 'top' | 'distributed' | 'justify' | Sets the text vertical alignment to the current cell range. |
-| AlignHorizontal | 'left' | 'right' | 'center' | 'justify' | Sets the text horizontal alignment to the current cell range. |
+| AlignVertical | 'center' \| 'bottom' \| 'top' \| 'distributed' \| 'justify' | Sets the text vertical alignment to the current cell range. |
+| AlignHorizontal | 'left' \| 'right' \| 'center' \| 'justify' | Sets the text horizontal alignment to the current cell range. |
 | Bold | boolean | Sets the bold property to the text characters from the current cell or cell range. |
 | Italic | boolean | Sets the italic property to the text characters in the current cell or cell range. |
-| Underline | 'none' | 'single' | 'singleAccounting' | 'double' | 'doubleAccounting' | Sets the type of underline applied to the font. |
+| Underline | 'none' \| 'single' \| 'singleAccounting' \| 'double' \| 'doubleAccounting' | Sets the type of underline applied to the font. |
 | Strikeout | boolean | Sets a value that indicates whether the contents of the current cell or cell range are displayed struck through. |
 | WrapText | boolean | Returns the information about the wrapping cell style or specifies whether the words in the cell must be wrapped to fit the cell size or not. |
-| FillColor | [ApiColor](../ApiColor/ApiColor.md) | 'No Fill' | Returns or sets the background color of the current cell range. |
+| FillColor | [ApiColor](../ApiColor/ApiColor.md) \| 'No Fill' | Returns or sets the background color of the current cell range. |
 | NumberFormat | string | Sets a value that represents the format code for the object. |
 | MergeArea | [ApiRange](../ApiRange/ApiRange.md) | Returns the cell or cell range from the merge area. |
 | Worksheet | [ApiWorksheet](../ApiWorksheet/ApiWorksheet.md) | Returns the ApiWorksheet object that represents the worksheet containing the specified range. |
 | DefName | [ApiName](../ApiName/ApiName.md) | Returns the ApiName object. |
-| Comments | [ApiComment](../ApiComment/ApiComment.md) | null | Returns the ApiComment collection that represents all the comments from the specified worksheet. |
-| Orientation | 'xlDownward' | 'xlHorizontal' | 'xlUpward' | 'xlVertical' | Sets an angle to the current cell range. |
+| Comments | [ApiComment](../ApiComment/ApiComment.md) \| null | Returns the ApiComment collection that represents all the comments from the specified worksheet. |
+| Orientation | 'xlDownward' \| 'xlHorizontal' \| 'xlUpward' \| 'xlVertical' | Sets an angle to the current cell range. |
 | Areas | [ApiAreas](../ApiAreas/ApiAreas.md) | Returns a collection of the areas. |
 | Characters | [ApiCharacters](../ApiCharacters/ApiCharacters.md) | Returns the ApiCharacters object that represents a range of characters within the object text. Use the ApiCharacters object to format characters within a text string. |
-| PivotTable | [ApiPivotTable](../ApiPivotTable/ApiPivotTable.md) | null | Returns the ApiPivotTable object that represents the pivot table report containing the upper-left corner of the specified range. |
+| PivotTable | [ApiPivotTable](../ApiPivotTable/ApiPivotTable.md) \| null | Returns the ApiPivotTable object that represents the pivot table report containing the upper-left corner of the specified range. |
 ## Methods
 
 - [GetClassType](./Methods/GetClassType.md)

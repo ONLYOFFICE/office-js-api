@@ -19,7 +19,7 @@ expression.AddColumns(nCount, isBefore);
 
 ## Returns
 
-[ApiTable](../../ApiTable/ApiTable.md) | null
+[ApiTable](../../ApiTable/ApiTable.md) \| null
 
 ## Example
 

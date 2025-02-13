@@ -16,4 +16,4 @@ This method doesn't have any parameters.
 
 ## Returns
 
-number | undefined
+number \| undefined

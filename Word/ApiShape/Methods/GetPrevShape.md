@@ -16,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiShape](../../ApiShape/ApiShape.md) | null
+[ApiShape](../../ApiShape/ApiShape.md) \| null
 
 ## Example
 

@@ -17,7 +17,7 @@ expression.AddCaption(sAdditional, sLabel, bExludeLabel, sNumberingFormat, bBefo
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | sAdditional | Required | string |  | The additional text. |
-| sLabel | Optional | [CaptionLabel](../../Enumeration/CaptionLabel.md) | String | "Table" | The caption label. |
+| sLabel | Optional | [CaptionLabel](../../Enumeration/CaptionLabel.md) \| String | "Table" | The caption label. |
 | bExludeLabel | Optional | boolean | false | Specifies whether to exclude the label from the caption. |
 | sNumberingFormat | Optional | [CaptionNumberingFormat](../../Enumeration/CaptionNumberingFormat.md) | "Arabic" | The possible caption numbering format. |
 | bBefore | Optional | boolean | false | Specifies whether to insert the caption before the current table (true) or after (false) (after/before the shape if it is placed in the shape). |

@@ -16,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[twips](../../Enumeration/twips.md) | undefined
+[twips](../../Enumeration/twips.md) \| undefined
 
 ## Example
 

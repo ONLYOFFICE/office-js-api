@@ -14,7 +14,7 @@ expression.GetCurrentWord(sWordPart);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sWordPart | Required | undefined | "before" | "after" |  | The desired part of the current word to be returned. |
+| sWordPart | Required | undefined \| "before" \| "after" |  | The desired part of the current word to be returned. |
 
 ## Returns
 

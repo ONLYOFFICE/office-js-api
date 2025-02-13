@@ -14,11 +14,11 @@ expression.GetRows(value);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| value | Required | string | number |  | Specifies the rows range in the string or number format. |
+| value | Required | string \| number |  | Specifies the rows range in the string or number format. |
 
 ## Returns
 
-[ApiRange](../../ApiRange/ApiRange.md) | null
+[ApiRange](../../ApiRange/ApiRange.md) \| null
 
 ## Example
 

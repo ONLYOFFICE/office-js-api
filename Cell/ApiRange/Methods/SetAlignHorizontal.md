@@ -14,7 +14,7 @@ expression.SetAlignHorizontal(sAlignment);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sAlignment | Required | 'left' | 'right' | 'center' | 'justify' |  | The horizontal alignment that will be applied to the cell contents. |
+| sAlignment | Required | 'left' \| 'right' \| 'center' \| 'justify' |  | The horizontal alignment that will be applied to the cell contents. |
 
 ## Returns
 

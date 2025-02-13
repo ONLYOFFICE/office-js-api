@@ -18,7 +18,7 @@ expression.GetRow(nPos);
 
 ## Returns
 
-[ApiTableRow](../../ApiTableRow/ApiTableRow.md) | null
+[ApiTableRow](../../ApiTableRow/ApiTableRow.md) \| null
 
 ## Example
 

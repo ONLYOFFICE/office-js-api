@@ -19,7 +19,7 @@ expression.AddComment(sText, sAuthor);
 
 ## Returns
 
-[ApiComment](../../ApiComment/ApiComment.md) | null
+[ApiComment](../../ApiComment/ApiComment.md) \| null
 
 ## Example
 

@@ -15,7 +15,7 @@ expression.ReplaceCurrentSentence(sReplace, sPart);
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | sReplace | Required | string |  | The string to replace the current sentence with. |
-| sPart | Required | undefined | "before" | "after" |  | The desired part of the current sentence to be replaced. |
+| sPart | Required | undefined \| "before" \| "after" |  | The desired part of the current sentence to be replaced. |
 
 ## Returns
 

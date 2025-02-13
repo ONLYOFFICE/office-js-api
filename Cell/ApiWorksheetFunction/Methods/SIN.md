@@ -14,7 +14,7 @@ expression.SIN(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The angle in radians for which the sine will be returned. If your argument is in degrees, multiply it by &lt;em&gt;PI()/180&lt;/em&gt;. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | The angle in radians for which the sine will be returned. If your argument is in degrees, multiply it by &lt;em&gt;PI()/180&lt;/em&gt;. |
 
 ## Returns
 

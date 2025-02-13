@@ -16,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-bool | null
+bool \| null
 
 ## Example
 

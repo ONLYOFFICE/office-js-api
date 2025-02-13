@@ -14,7 +14,7 @@ expression.SetVerticalAlign(sType);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sType | Required | "top" | "center" | "bottom" |  | The type of the vertical alignment. |
+| sType | Required | "top" \| "center" \| "bottom" |  | The type of the vertical alignment. |
 
 ## Returns
 

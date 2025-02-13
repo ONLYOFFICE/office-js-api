@@ -15,7 +15,7 @@ expression.SetHorAlign(sRelativeFrom, sAlign);
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | sRelativeFrom | Optional | [RelFromH](../../Enumeration/RelFromH.md) | "page" | The document element which will be taken as a countdown point for the object horizontal alignment. |
-| sAlign | Optional | "left" | "right" | "center" | "left" | The alignment type which will be used for the object horizontal alignment. |
+| sAlign | Optional | "left" \| "right" \| "center" | "left" | The alignment type which will be used for the object horizontal alignment. |
 
 ## Returns
 

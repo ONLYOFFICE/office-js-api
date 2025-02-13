@@ -14,7 +14,7 @@ expression.GetCurrentSentence(sPart);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sPart | Required | undefined | "before" | "after" |  | The desired part of the current sentence to be returned. |
+| sPart | Required | undefined \| "before" \| "after" |  | The desired part of the current sentence to be returned. |
 
 ## Returns
 

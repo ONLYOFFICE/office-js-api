@@ -14,7 +14,7 @@ expression.GetAllCaptionParagraphs(sCaption);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sCaption | Required | [CaptionLabel](../../Enumeration/CaptionLabel.md) | string |  | The caption label ("Equation", "Figure", "Table", or another caption label). |
+| sCaption | Required | [CaptionLabel](../../Enumeration/CaptionLabel.md) \| string |  | The caption label ("Equation", "Figure", "Table", or another caption label). |
 
 ## Returns
 

@@ -15,7 +15,7 @@ expression.ReplaceCurrentWord(sReplace, sPart);
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | sReplace | Required | string |  | The string to replace the current word with. |
-| sPart | Required | undefined | "before" | "after" |  | The desired part of the current word to be replaced. |
+| sPart | Required | undefined \| "before" \| "after" |  | The desired part of the current word to be replaced. |
 
 ## Returns
 

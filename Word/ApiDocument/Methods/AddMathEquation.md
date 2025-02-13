@@ -15,7 +15,7 @@ expression.AddMathEquation(sText, sFormat);
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | sText | Required | string |  | An equation written as a linear text string. |
-| sFormat | Optional | "unicode" | "latex" | "unicode" | The format of the specified linear representation. |
+| sFormat | Optional | "unicode" \| "latex" | "unicode" | The format of the specified linear representation. |
 
 ## Returns
 

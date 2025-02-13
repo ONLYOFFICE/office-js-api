@@ -14,7 +14,7 @@ expression.SetVerticalTextAlign(sVerticalAlign);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sVerticalAlign | Required | "top" | "center" | "bottom" |  | The vertical alignment type for the shape inner contents. |
+| sVerticalAlign | Required | "top" \| "center" \| "bottom" |  | The vertical alignment type for the shape inner contents. |
 
 ## Returns
 

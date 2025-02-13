@@ -15,7 +15,7 @@ expression.GetPageFields(field);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| field | Required | number | string | undefined |  | The name or index of the field to be returned. |
+| field | Required | number \| string \| undefined |  | The name or index of the field to be returned. |
 
 ## Returns
 

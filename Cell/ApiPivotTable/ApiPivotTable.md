@@ -19,11 +19,11 @@ Represents the ApiPivotTable class.
 | ShowTableStyleRowStripes | boolean | Returns or sets the setting which specifies whether the background color alternation for odd and even rows will be enabled for the pivot table. |
 | ShowTableStyleColumnStripes | boolean | Returns or sets the setting which specifies whether the background color alternation for odd and even columns will be enabled for the pivot table. |
 | Source | [ApiRange](../ApiRange/ApiRange.md) | Returns or sets the source range for the pivot table. |
-| ColumnRange | [ApiRange](../ApiRange/ApiRange.md) | null | Returns a Range object that represents the column area in the pivot table report. |
-| RowRange | [ApiRange](../ApiRange/ApiRange.md) | null | Returns a Range object that represents the row area in the pivot table report. |
+| ColumnRange | [ApiRange](../ApiRange/ApiRange.md) \| null | Returns a Range object that represents the column area in the pivot table report. |
+| RowRange | [ApiRange](../ApiRange/ApiRange.md) \| null | Returns a Range object that represents the row area in the pivot table report. |
 | DataBodyRange | [ApiRange](../ApiRange/ApiRange.md) | Returns a Range object that represents the range of values in the pivot table. |
-| TableRange1 | [ApiRange](../ApiRange/ApiRange.md) | null | Returns a Range object that represents the entire pivot table report, but doesn't include page fields. |
-| TableRange2 | [ApiRange](../ApiRange/ApiRange.md) | null | Returns a Range object that represents the entire pivot table report, including page fields. |
+| TableRange1 | [ApiRange](../ApiRange/ApiRange.md) \| null | Returns a Range object that represents the entire pivot table report, but doesn't include page fields. |
+| TableRange2 | [ApiRange](../ApiRange/ApiRange.md) \| null | Returns a Range object that represents the entire pivot table report, including page fields. |
 | GrandTotalName | string | Returns or sets the text string label that is displayed in the grand total column or row heading in the specified pivot table report. |
 | RepeatAllLabels | boolean | Specifies whether to repeat item labels for all pivot fields in the specified pivot table. |
 | RowAxisLayout | object | Sets the way the specified pivot table items appear — in table format or in outline format. |

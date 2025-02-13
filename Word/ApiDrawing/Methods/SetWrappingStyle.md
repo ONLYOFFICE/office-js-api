@@ -22,7 +22,7 @@ expression.SetWrappingStyle(sType);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sType | Required | "inline" | "square" | "tight" | "through" | "topAndBottom" | "behind" | "inFront" |  | The wrapping style type available for the object. |
+| sType | Required | "inline" \| "square" \| "tight" \| "through" \| "topAndBottom" \| "behind" \| "inFront" |  | The wrapping style type available for the object. |
 
 ## Returns
 

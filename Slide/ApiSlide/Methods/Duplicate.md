@@ -18,7 +18,7 @@ expression.Duplicate(nPos);
 
 ## Returns
 
-[ApiSlide](../../ApiSlide/ApiSlide.md) | null
+[ApiSlide](../../ApiSlide/ApiSlide.md) \| null
 
 ## Example
 

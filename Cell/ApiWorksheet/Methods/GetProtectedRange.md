@@ -18,7 +18,7 @@ expression.GetProtectedRange(sTitle);
 
 ## Returns
 
-[ApiProtectedRange](../../ApiProtectedRange/ApiProtectedRange.md) | null
+[ApiProtectedRange](../../ApiProtectedRange/ApiProtectedRange.md) \| null
 
 ## Example
 

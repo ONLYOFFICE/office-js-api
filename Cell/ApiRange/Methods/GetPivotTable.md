@@ -16,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiPivotTable](../../ApiPivotTable/ApiPivotTable.md) | null
+[ApiPivotTable](../../ApiPivotTable/ApiPivotTable.md) \| null
 
 ## Example
 

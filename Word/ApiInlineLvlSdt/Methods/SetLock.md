@@ -17,7 +17,7 @@ expression.SetLock(sLockType);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sLockType | Required | "contentLocked" | "sdtContentLocked" | "sdtLocked" |  | The lock type applied to the inline text content control. |
+| sLockType | Required | "contentLocked" \| "sdtContentLocked" \| "sdtLocked" |  | The lock type applied to the inline text content control. |
 
 ## Returns
 

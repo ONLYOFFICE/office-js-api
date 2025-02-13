@@ -11,8 +11,8 @@ Represents the ApiComment class.
 | AuthorName | string | Returns or sets the comment author's name. |
 | UserId | string | Returns or sets the user ID of the comment author. |
 | Solved | boolean | Checks if a comment is solved or not or marks a comment as solved. |
-| TimeUTC | number | string | Returns or sets the timestamp of the comment creation in UTC format. |
-| Time | number | string | Returns or sets the timestamp of the comment creation in the current time zone format. |
+| TimeUTC | number \| string | Returns or sets the timestamp of the comment creation in UTC format. |
+| Time | number \| string | Returns or sets the timestamp of the comment creation in the current time zone format. |
 | QuoteText | string | Returns the quote text of the current comment. |
 | RepliesCount | Number | Returns a number of the comment replies. |
 ## Methods

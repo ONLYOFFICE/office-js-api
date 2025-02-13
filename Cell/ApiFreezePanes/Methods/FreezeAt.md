@@ -14,7 +14,7 @@ expression.FreezeAt(frozenRange);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| frozenRange | Required | [ApiRange](../../ApiRange/ApiRange.md) | String |  | A range that represents the cells to be frozen. |
+| frozenRange | Required | [ApiRange](../../ApiRange/ApiRange.md) \| String |  | A range that represents the cells to be frozen. |
 
 ## Returns
 

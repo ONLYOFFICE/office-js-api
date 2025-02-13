@@ -19,7 +19,7 @@ expression.PivotValueCell(rowLine, colLine);
 
 ## Returns
 
-number | string | null
+number \| string \| null
 
 ## Example
 

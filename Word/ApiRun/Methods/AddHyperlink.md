@@ -19,7 +19,7 @@ expression.AddHyperlink(sLink, sScreenTipText);
 
 ## Returns
 
-[ApiHyperlink](../../ApiHyperlink/ApiHyperlink.md) | null
+[ApiHyperlink](../../ApiHyperlink/ApiHyperlink.md) \| null
 
 ## Example
 

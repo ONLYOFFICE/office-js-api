@@ -17,7 +17,7 @@ expression.SetLock(lockType);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| lockType | Required | "contentLocked" | "sdtContentLocked" | "sdtLocked" |  | The type of the lock applied to the block text content control. |
+| lockType | Required | "contentLocked" \| "sdtContentLocked" \| "sdtLocked" |  | The type of the lock applied to the block text content control. |
 
 ## Returns
 

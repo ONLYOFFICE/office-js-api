@@ -14,11 +14,11 @@ expression.GetSheet(nameOrIndex);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| nameOrIndex | Required | string | number |  | Sheet name or sheet index. |
+| nameOrIndex | Required | string \| number |  | Sheet name or sheet index. |
 
 ## Returns
 
-[ApiWorksheet](../../ApiWorksheet/ApiWorksheet.md) | null
+[ApiWorksheet](../../ApiWorksheet/ApiWorksheet.md) \| null
 
 ## Example
 

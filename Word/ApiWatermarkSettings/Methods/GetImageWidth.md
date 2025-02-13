@@ -16,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[EMU](../../Enumeration/EMU.md) | null
+[EMU](../../Enumeration/EMU.md) \| null
 
 ## Example
 

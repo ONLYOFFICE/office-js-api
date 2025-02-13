@@ -18,7 +18,7 @@ expression.GetData(items);
 
 ## Returns
 
-number | null
+number \| null
 
 ## Example
 

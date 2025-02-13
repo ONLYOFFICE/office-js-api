@@ -14,7 +14,7 @@ expression.SetTextDirection(sType);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sType | Required | "lrtb" | "tbrl" | "btlr" |  | The type of the text flow direction. |
+| sType | Required | "lrtb" \| "tbrl" \| "btlr" |  | The type of the text flow direction. |
 
 ## Returns
 

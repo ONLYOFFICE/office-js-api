@@ -22,7 +22,7 @@ expression.GetAddress(RowAbs, ColAbs, RefStyle, External, RelativeTo);
 
 ## Returns
 
-string | null
+string \| null
 
 ## Example
 

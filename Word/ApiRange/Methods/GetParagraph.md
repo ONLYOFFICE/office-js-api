@@ -18,7 +18,7 @@ expression.GetParagraph(nPos);
 
 ## Returns
 
-[ApiParagraph](../../ApiParagraph/ApiParagraph.md) | null
+[ApiParagraph](../../ApiParagraph/ApiParagraph.md) \| null
 
 ## Example
 

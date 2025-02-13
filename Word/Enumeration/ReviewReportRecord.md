@@ -13,7 +13,7 @@ Object
 | Type | [ReviewReportRecordType](../Enumeration/ReviewReportRecordType.md) | Review record type. |
 | Value | string | Review change value that is set for the "TextAdd" and "TextRem" types only. |
 | Date | number | The time when this change was made. |
-| ReviewedElement | [ApiParagraph](../ApiParagraph/ApiParagraph.md) | [ApiTable](../ApiTable/ApiTable.md) | Element that has been reviewed. |
+| ReviewedElement | [ApiParagraph](../ApiParagraph/ApiParagraph.md) \| [ApiTable](../ApiTable/ApiTable.md) | Element that has been reviewed. |
 
 
 ## Example

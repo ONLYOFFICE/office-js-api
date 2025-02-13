@@ -14,7 +14,7 @@ expression.MULTINOMIAL(args);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| args | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | Up to 255 numeric values for which the multinomial will be returned. The first argument is required, subsequent arguments are optional. |
+| args | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | Up to 255 numeric values for which the multinomial will be returned. The first argument is required, subsequent arguments are optional. |
 
 ## Returns
 

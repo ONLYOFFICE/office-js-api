@@ -19,7 +19,7 @@ expression.GetCell(nRow, nCell);
 
 ## Returns
 
-[ApiTableCell](../../ApiTableCell/ApiTableCell.md) | null
+[ApiTableCell](../../ApiTableCell/ApiTableCell.md) \| null
 
 ## Example
 

@@ -16,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[XlUnderlineStyle](../../Enumeration/XlUnderlineStyle.md) | null
+[XlUnderlineStyle](../../Enumeration/XlUnderlineStyle.md) \| null
 
 ## Example
 

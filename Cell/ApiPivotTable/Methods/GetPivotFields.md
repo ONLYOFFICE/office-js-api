@@ -15,11 +15,11 @@ expression.GetPivotFields(field);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| field | Optional | string | number |  | The name or index of the field to be returned. |
+| field | Optional | string \| number |  | The name or index of the field to be returned. |
 
 ## Returns
 
-[ApiPivotField[]](../../ApiPivotField/ApiPivotField.md) | [ApiPivotField](../../ApiPivotField/ApiPivotField.md) | [ApiPivotDataField](../../ApiPivotDataField/ApiPivotDataField.md) | null
+[ApiPivotField[]](../../ApiPivotField/ApiPivotField.md) \| [ApiPivotField](../../ApiPivotField/ApiPivotField.md) \| [ApiPivotDataField](../../ApiPivotDataField/ApiPivotDataField.md) \| null
 
 ## Example
 

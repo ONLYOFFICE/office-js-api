@@ -21,7 +21,7 @@ expression.SetColor(r, g, b, isAuto);
 
 ## Returns
 
-[ApiRange](../../ApiRange/ApiRange.md) | null
+[ApiRange](../../ApiRange/ApiRange.md) \| null
 
 ## Example
 

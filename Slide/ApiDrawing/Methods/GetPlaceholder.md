@@ -16,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiPlaceholder](../../ApiPlaceholder/ApiPlaceholder.md) | null
+[ApiPlaceholder](../../ApiPlaceholder/ApiPlaceholder.md) \| null
 
 ## Example
 

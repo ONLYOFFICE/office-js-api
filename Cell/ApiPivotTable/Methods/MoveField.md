@@ -14,8 +14,8 @@ expression.MoveField(identifier, type, index);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| identifier | Required | number | string |  | The index number or name of the field. |
-| type | Required | [PivotMoveFieldType](../../Enumeration/PivotMoveFieldType.md) | [PivotFieldOrientationType](../../Enumeration/PivotFieldOrientationType.md) |  | The direction to move the pivot table field, or the pivot field orientation type. |
+| identifier | Required | number \| string |  | The index number or name of the field. |
+| type | Required | [PivotMoveFieldType](../../Enumeration/PivotMoveFieldType.md) \| [PivotFieldOrientationType](../../Enumeration/PivotFieldOrientationType.md) |  | The direction to move the pivot table field, or the pivot field orientation type. |
 | index | Optional | number |  | The field index in a new category. |
 
 ## Returns

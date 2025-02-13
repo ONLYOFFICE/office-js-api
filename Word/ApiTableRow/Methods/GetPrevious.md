@@ -16,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiTableRow](../../ApiTableRow/ApiTableRow.md) | null
+[ApiTableRow](../../ApiTableRow/ApiTableRow.md) \| null
 
 ## Example
 

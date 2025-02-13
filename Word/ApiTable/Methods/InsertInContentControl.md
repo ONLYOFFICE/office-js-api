@@ -18,7 +18,7 @@ expression.InsertInContentControl(nType);
 
 ## Returns
 
-[ApiTable](../../ApiTable/ApiTable.md) | [ApiBlockLvlSdt](../../ApiBlockLvlSdt/ApiBlockLvlSdt.md)
+[ApiTable](../../ApiTable/ApiTable.md) \| [ApiBlockLvlSdt](../../ApiBlockLvlSdt/ApiBlockLvlSdt.md)
 
 ## Example
 

@@ -14,7 +14,7 @@ expression.SetAlignVertical(sAligment);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sAligment | Required | 'center' | 'bottom' | 'top' | 'distributed' | 'justify' |  | The vertical alignment that will be applied to the cell contents. |
+| sAligment | Required | 'center' \| 'bottom' \| 'top' \| 'distributed' \| 'justify' |  | The vertical alignment that will be applied to the cell contents. |
 
 ## Returns
 

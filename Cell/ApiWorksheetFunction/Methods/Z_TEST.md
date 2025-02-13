@@ -14,9 +14,9 @@ expression.Z_TEST(arg1, arg2, arg3);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number[] | [ApiRange](../../ApiRange/ApiRange.md) |  | The array or range of data against which to test X. |
-| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The value to test. |
-| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The population (known) standard deviation. If omitted, the sample standard deviation is used. |
+| arg1 | Required | number[] \| [ApiRange](../../ApiRange/ApiRange.md) |  | The array or range of data against which to test X. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | The value to test. |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | The population (known) standard deviation. If omitted, the sample standard deviation is used. |
 
 ## Returns
 

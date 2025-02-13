@@ -18,7 +18,7 @@ expression.InsertInContentControl(nType);
 
 ## Returns
 
-[ApiDrawing](../../ApiDrawing/ApiDrawing.md) | [ApiBlockLvlSdt](../../ApiBlockLvlSdt/ApiBlockLvlSdt.md)
+[ApiDrawing](../../ApiDrawing/ApiDrawing.md) \| [ApiBlockLvlSdt](../../ApiBlockLvlSdt/ApiBlockLvlSdt.md)
 
 ## Example
 

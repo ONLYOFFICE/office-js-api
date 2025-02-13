@@ -16,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiDrawing](../../ApiDrawing/ApiDrawing.md) | null
+[ApiDrawing](../../ApiDrawing/ApiDrawing.md) \| null
 
 ## Example
 

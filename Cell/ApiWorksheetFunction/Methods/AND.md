@@ -14,7 +14,7 @@ expression.AND(args);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| args | Required | number | string | [ApiRange](../../ApiRange/ApiRange.md) | boolean | [ApiName](../../ApiName/ApiName.md) |  | A condition to check. |
+| args | Required | number \| string \| [ApiRange](../../ApiRange/ApiRange.md) \| boolean \| [ApiName](../../ApiName/ApiName.md) |  | A condition to check. |
 
 ## Returns
 

@@ -16,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiParagraph](../../ApiParagraph/ApiParagraph.md) | null
+[ApiParagraph](../../ApiParagraph/ApiParagraph.md) \| null
 
 ## Example
 

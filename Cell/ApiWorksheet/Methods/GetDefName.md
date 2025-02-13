@@ -18,7 +18,7 @@ expression.GetDefName(defName);
 
 ## Returns
 
-[ApiName](../../ApiName/ApiName.md) | null
+[ApiName](../../ApiName/ApiName.md) \| null
 
 ## Example
 
