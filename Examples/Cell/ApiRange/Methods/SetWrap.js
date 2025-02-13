@@ -1,4 +1,6 @@
 // This example specifies whether the words in the cell must be wrapped to fit the cell size or not.
+// How to wrapp a text in the cell.
+// Get a range and make its content wrapped.
 var oWorksheet = Api.GetActiveSheet();
 var oRange = oWorksheet.GetRange("A1");
 oRange.SetValue("This is the text wrapped to fit the cell size.");

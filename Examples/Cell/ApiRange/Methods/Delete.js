@@ -1,4 +1,6 @@
 // This example deletes the Range object.
+// How to remove a range from the worksheet.
+// Get a range from the worksheet and delete it specifing direction.
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B4").SetValue("1");
 oWorksheet.GetRange("C4").SetValue("2");

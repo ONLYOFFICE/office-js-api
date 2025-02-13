@@ -1,4 +1,6 @@
 // This example shows how to get the text of the specified range.
+// How to get a cell raw text value.
+// Get a range, get its text value and show it in the worksheet.
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A1").SetValue("text1");
 oWorksheet.GetRange("B1").SetValue("text2");
