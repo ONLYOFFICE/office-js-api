@@ -1,4 +1,6 @@
 // This example deletes the run.
+// How to delete a text run object.
+// Create an ApiRun add it into paragraph then remove it from it.
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

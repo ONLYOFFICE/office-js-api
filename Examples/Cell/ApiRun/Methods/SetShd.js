@@ -1,4 +1,6 @@
 // This example specifies the shading applied to the contents of the current text run.
+// How to set a shading for a text.
+// Create a text run object, specify its shading options.
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

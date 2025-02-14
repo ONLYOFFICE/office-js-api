@@ -1,4 +1,6 @@
 // This example gets a class type and inserts it into the document.
+// How to get a class type of ApiShape.
+// Get a class type of ApiShape and display it in the worksheet.
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

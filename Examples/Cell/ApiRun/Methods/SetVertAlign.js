@@ -1,4 +1,6 @@
 // This example specifies the alignment which will be applied to the contents of the current run in relation to the default appearance of the text run.
+// How to set vertical alignment of a text object.
+// Create a text run object, specify its vertical alignment as "baseline", "subscript" or "superscript".
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
