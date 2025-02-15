@@ -5,7 +5,7 @@ Returns the inner text of the current document content object.
 ## Syntax
 
 ```javascript
-expression.GetText(oProps, oProps.NewLine, oProps.NewLineParagraph, oProps.Numbering, oProps.Math, oProps.TableCellSeparator, oProps.TableRowSeparator, oProps.ParaSeparator, oProps.TabSymbol, oProps.NewLineSeparator);
+expression.GetText(oProps, oProps.Numbering, oProps.Math, oProps.TableCellSeparator, oProps.TableRowSeparator, oProps.ParaSeparator, oProps.TabSymbol, oProps.NewLineSeparator);
 ```
 
 `expression` - A variable that represents a [ApiDocumentContent](../ApiDocumentContent.md) class.
@@ -15,15 +15,13 @@ expression.GetText(oProps, oProps.NewLine, oProps.NewLineParagraph, oProps.Numbe
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | oProps | Required | object |  | The resulting string display properties. |
-| oProps.NewLine | Required | boolean |  | Defines if the resulting string will include line boundaries or not (they will be replaced with '\r'). |
-| oProps.NewLineParagraph | Required | boolean |  | Defines if the resulting string will include paragraph line boundaries or not. |
 | oProps.Numbering | Required | boolean |  | Defines if the resulting string will include numbering or not. |
 | oProps.Math | Required | boolean |  | Defines if the resulting string will include mathematical expressions or not. |
 | oProps.TableCellSeparator | Required | string |  | Defines how the table cell separator will be specified in the resulting string. |
 | oProps.TableRowSeparator | Required | string |  | Defines how the table row separator will be specified in the resulting string. |
 | oProps.ParaSeparator | Required | string |  | Defines how the paragraph separator will be specified in the resulting string. |
 | oProps.TabSymbol | Required | string |  | Defines how the tab will be specified in the resulting string. |
-| oProps.NewLineSeparator | Required | string |  | Defines how the line separator will be specified in the resulting string (this property has the priority over *NewLine*). |
+| oProps.NewLineSeparator | Required | string |  | Defines how the line separator will be specified in the resulting string. |
 
 ## Returns
 

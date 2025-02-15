@@ -16,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-string | null
+string \| null
 
 ## Example
 

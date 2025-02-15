@@ -5,7 +5,7 @@ Returns the bookmark text.
 ## Syntax
 
 ```javascript
-expression.GetText(oPr, oPr.NewLineParagraph, oPr.Numbering, oPr.Math, oPr.NewLineSeparator, oPr.TableCellSeparator, oPr.TableRowSeparator, oPr.ParaSeparator, oPr.TabSymbol);
+expression.GetText(oPr, oPr.Numbering, oPr.Math, oPr.NewLineSeparator, oPr.TableCellSeparator, oPr.TableRowSeparator, oPr.ParaSeparator, oPr.TabSymbol);
 ```
 
 `expression` - A variable that represents a [ApiBookmark](../ApiBookmark.md) class.
@@ -15,7 +15,6 @@ expression.GetText(oPr, oPr.NewLineParagraph, oPr.Numbering, oPr.Math, oPr.NewLi
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | oPr | Required | object |  | The resulting string display properties. |
-| oPr.NewLineParagraph | Optional | boolean | false | Defines if the resulting string will include paragraph line boundaries or not. |
 | oPr.Numbering | Optional | boolean | false | Defines if the resulting string will include numbering or not. |
 | oPr.Math | Optional | boolean | false | Defines if the resulting string will include mathematical expressions or not. |
 | oPr.NewLineSeparator | Optional | string | '\r' | Defines how the line separator will be specified in the resulting string. |
