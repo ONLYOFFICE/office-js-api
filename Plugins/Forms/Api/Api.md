@@ -26,6 +26,7 @@ Represents the Api class.
 - [GetSelectionType](./Methods/GetSelectionType.md)
 - [ConvertDocument](./Methods/ConvertDocument.md)
 - [GetSelectedText](./Methods/GetSelectedText.md)
+- [GetSelectedContent](./Methods/GetSelectedContent.md)
 - [ReplaceTextSmart](./Methods/ReplaceTextSmart.md)
 - [GetFileToDownload](./Methods/GetFileToDownload.md)
 - [GetImageDataFromSelection](./Methods/GetImageDataFromSelection.md)
