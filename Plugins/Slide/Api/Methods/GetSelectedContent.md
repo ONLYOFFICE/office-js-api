@@ -1,6 +1,6 @@
 # GetSelectedContent
 
-Returns selected content in specified format.
+Returns the selected content in the specified format.
 
 ## Syntax
 
@@ -14,9 +14,9 @@ expression.GetSelectedContent(prop, prop.type);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| prop | Required | object |  | No description provided. |
-| prop.type | Optional | "text" \| "html" | "text" | Defines the type of returned format. |
+| prop | Required | object |  | The returned content properties. |
+| prop.type | Optional | "text" \| "html" | "text" | The format type of the returned content (text or HTML). |
 
 ## Returns
 
-This method doesn't return any data.
+string

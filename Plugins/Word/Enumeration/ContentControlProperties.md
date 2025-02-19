@@ -13,11 +13,11 @@ The content control properties.
 | Alias | string | The alias attribute. |
 | PlaceHolderText | string | The content control placeholder text. |
 | Appearance | number | Defines if the content control is shown as the bounding box (**1**) or not (**2**). |
-| Color | [Color](../Enumeration/Color.md) | The color for the current content control in the RGB format. |
-| Shd | Object | Background shading properties |
-| Shd.Color | [Color](../Enumeration/Color.md) | Shading color in RGBA format |
-| Border | Object | Border properties |
-| Border.Color | [Color](../Enumeration/Color.md) | Border color in RGBA format |
+| Color | [Color](../Enumeration/Color.md) | The color for the current content control in RGBA format. |
+| Shd | Object | The background shading properties. |
+| Shd.Color | [Color](../Enumeration/Color.md) | The shading color in RGBA format. |
+| Border | Object | The border properties. |
+| Border.Color | [Color](../Enumeration/Color.md) | The border color in RGBA format. |
 ## Type
 
 Object

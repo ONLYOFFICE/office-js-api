@@ -17,11 +17,11 @@ expression.GetSelectedText(prop, prop.Numbering, prop.Math, prop.TableCellSepara
 | prop | Required | object |  | The resulting string display properties. |
 | prop.Numbering | Required | boolean |  | Defines if the resulting string will include numbering or not. |
 | prop.Math | Required | boolean |  | Defines if the resulting string will include mathematical expressions or not. |
-| prop.TableCellSeparator | Required | string |  | Defines how the table cell separator will be specified in the resulting string. |
-| prop.TableRowSeparator | Required | string |  | Defines how the table row separator will be specified in the resulting string. |
-| prop.ParaSeparator | Required | string |  | Defines how the paragraph separator will be specified in the resulting string. |
-| prop.TabSymbol | Required | string |  | Defines how the tab will be specified in the resulting string. |
-| prop.NewLineSeparator | Required | string |  | Defines how the line separator will be specified in the resulting string. |
+| prop.TableCellSeparator | Optional | string | '\t' | Defines how the table cell separator will be specified in the resulting string. Any symbol can be used. The default separator is "\t". |
+| prop.TableRowSeparator | Optional | string | '\r\n' | Defines how the table row separator will be specified in the resulting string. Any symbol can be used. The default separator is "\r\n". |
+| prop.ParaSeparator | Optional | string | '\r\n' | Defines how the paragraph separator will be specified in the resulting string. Any symbol can be used. The default separator is "\r\n". |
+| prop.TabSymbol | Optional | string | '\t' | Defines how the tab will be specified in the resulting string. Any symbol can be used. The default symbol is "\t". |
+| prop.NewLineSeparator | Optional | string | '\r' | Defines how the line separator will be specified in the resulting string. Any symbol can be used. The default separator is "\r". |
 
 ## Returns
 

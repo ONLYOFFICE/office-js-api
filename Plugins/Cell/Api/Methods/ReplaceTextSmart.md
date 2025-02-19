@@ -15,8 +15,8 @@ expression.ReplaceTextSmart(arrString, sParaTab, sParaNewLine);
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | arrString | Required | Array |  | An array of replacement strings. |
-| sParaTab | Optional | string | " " | A character which is used to specify the tab in the source text. |
-| sParaNewLine | Optional | string | " " | A character which is used to specify the line break character in the source text. |
+| sParaTab | Optional | string | "\t" | A character which is used to specify the tab in the source text. Any symbol can be used. The default separator is "\t". |
+| sParaNewLine | Optional | string | "\r\n" | A character which is used to specify the line break character in the source text. Any symbol can be used. The default separator is "\r\n". |
 
 ## Returns
 

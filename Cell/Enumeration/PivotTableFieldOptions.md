@@ -1,6 +1,6 @@
 # PivotTableFieldOptions
 
-No description provided.
+The settings for adding row, column, and page fields to the pivot table report.
 
 ## Type
 

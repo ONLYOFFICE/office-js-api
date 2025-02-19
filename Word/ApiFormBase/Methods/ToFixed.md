@@ -16,7 +16,7 @@ expression.ToFixed(width, height, keepPosition);
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | width | Required | [twips](../../Enumeration/twips.md) |  | The wrapper shape width measured in twentieths of a point (1/1440 of an inch). |
 | height | Required | [twips](../../Enumeration/twips.md) |  | The wrapper shape height measured in twentieths of a point (1/1440 of an inch). |
-| keepPosition | Required | boolean |  | Save position on the page (it can be a little bit slow, because it runs the document calculation) |
+| keepPosition | Required | boolean |  | Save position on the page (it can be a little bit slow, because it runs the document calculation). |
 
 ## Returns
 
