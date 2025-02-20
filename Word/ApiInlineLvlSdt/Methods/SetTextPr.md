@@ -24,7 +24,7 @@ expression.SetTextPr(oTextPr);
 
 This example applies text settings to the content of the content control.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let inlineLvlSdt = Api.CreateInlineLvlSdt();

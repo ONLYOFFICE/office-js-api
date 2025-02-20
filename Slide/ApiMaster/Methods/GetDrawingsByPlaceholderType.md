@@ -24,7 +24,7 @@ expression.GetDrawingsByPlaceholderType(sType);
 
 This example gets drawings by placeholder type and removes it from slide master
 
-```javascript
+```javascript editor-pptx
 let oPresentation = Api.GetPresentation();
 let oSlide = oPresentation.GetSlideByIndex(0);
 let oMaster = oPresentation.GetMaster(0);

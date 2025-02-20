@@ -21,6 +21,6 @@ Object
 
 This example shows how to get a report on all comments.
 
-```javascript
+```javascript editor-pdf
 let commentsReport = oDocument.GetCommentsReport();
 ```

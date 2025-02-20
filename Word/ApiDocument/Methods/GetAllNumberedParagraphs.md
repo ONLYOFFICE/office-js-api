@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example shows how to get all numbered paragraphs from the current document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("numbered");
 for (let lvl = 0; lvl < 8; ++lvl) {

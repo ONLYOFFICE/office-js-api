@@ -18,7 +18,7 @@ Object
 
 ## Example
 
-```javascript
+```javascript editor-pptx
 var config = {
     "variations": [
         {

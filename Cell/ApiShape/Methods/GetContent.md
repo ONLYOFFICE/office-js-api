@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example shows how to get the shape inner contents where a paragraph or text runs can be inserted.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

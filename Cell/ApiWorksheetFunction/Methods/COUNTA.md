@@ -24,7 +24,7 @@ number
 
 
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 var numbersArr = [45, 6, 8];
 var stringsArr = ["Apples", "Oranges", "Bananas"]

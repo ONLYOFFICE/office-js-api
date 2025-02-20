@@ -23,7 +23,7 @@ This method doesn't have any parameters.
 
 This example showh how to get the data for all forms added to the document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph1 = doc.GetElement(0);
 let checkBox = Api.CreateCheckBoxForm({key: "BestCompany"});

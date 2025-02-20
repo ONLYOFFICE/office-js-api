@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example shows how to get all heading paragraphs from the document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let newDocumentStyle = doc.GetStyle("Heading 1");
 let paragraph = doc.GetElement(0);

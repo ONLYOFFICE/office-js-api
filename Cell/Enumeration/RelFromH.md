@@ -20,6 +20,6 @@ Enumeration
 
 This example sets horizontal aligment for a drawing object
 
-```javascript
+```javascript editor-xlsx
 drawing.SetHorAlign("page", "center");
 ```

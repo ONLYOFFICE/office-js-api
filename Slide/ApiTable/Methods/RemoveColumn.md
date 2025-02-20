@@ -24,7 +24,7 @@ boolean
 
 This example removes a table column with the specified cell.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oTable = Api.CreateTable(2, 4);
 var oRow = oTable.GetRow(0);

@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example sets the left margin of the sheet.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.SetLeftMargin(20.8);
 var nLeftMargin = oWorksheet.GetLeftMargin();

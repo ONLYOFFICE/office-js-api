@@ -32,7 +32,7 @@ This method doesn't return any data.
 
 ## Example
 
-```javascript
+```javascript editor-docx
 window.Asc.plugin.init = function () {
     this.callCommand(function() {
         var oDocument = Api.GetDocument();

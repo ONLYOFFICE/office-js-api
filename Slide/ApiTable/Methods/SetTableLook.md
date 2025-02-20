@@ -35,7 +35,7 @@ This method doesn't return any data.
 
 This example shows how to set table lock.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oTable = Api.CreateTable(2, 4);
 oTable.SetTableLook(true, false, false, false, false, true);

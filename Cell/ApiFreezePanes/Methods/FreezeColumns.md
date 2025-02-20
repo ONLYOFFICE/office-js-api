@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example freezes the the first column.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 var oFreezePanes = oWorksheet.GetFreezePanes();
 oFreezePanes.FreezeColumns(1);

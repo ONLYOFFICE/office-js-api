@@ -25,7 +25,7 @@ JSON
 
 This example converts the ApiDrawing object into the JSON object.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let gs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 224, 204), 0);

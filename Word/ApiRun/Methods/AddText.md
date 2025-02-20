@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example adds some text to the run.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let run = Api.CreateRun();

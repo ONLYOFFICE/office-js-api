@@ -22,7 +22,7 @@ boolean
 
 This example checks if the current checkbox is a radio button.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});
 let paragraph = doc.GetElement(0);

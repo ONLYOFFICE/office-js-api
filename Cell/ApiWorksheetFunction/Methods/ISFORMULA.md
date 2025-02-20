@@ -24,7 +24,7 @@ boolean
 
 
 
-```javascript
+```javascript editor-xlsx
 const oWorksheet = Api.GetActiveSheet();
 
 // Set the formula in cell B3

@@ -21,6 +21,6 @@ Enumeration
 
 This example returns data of all forms in the document.
 
-```javascript
+```javascript editor-pdf
 let formsData = doc.GetFormsData();
 ```

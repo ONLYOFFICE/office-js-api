@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example gets the placeholder type.
 
-```javascript
+```javascript editor-pptx
 let oPresentation = Api.GetPresentation();
 let oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

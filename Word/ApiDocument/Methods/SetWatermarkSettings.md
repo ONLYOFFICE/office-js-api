@@ -24,7 +24,7 @@ expression.SetWatermarkSettings(Settings);
 
 This example sets the parameters of the watermark settings and apply them to the document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let watermarkSettings = doc.GetWatermarkSettings();
 watermarkSettings.SetType("text");

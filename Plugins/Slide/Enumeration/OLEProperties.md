@@ -21,7 +21,7 @@ Object
 
 ## Example
 
-```javascript
+```javascript editor-pptx
 let oleProperties = {
     "data": "{data}",
     "imgSrc": "https://link-to-the-image.jpg",

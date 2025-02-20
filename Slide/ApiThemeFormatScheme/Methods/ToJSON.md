@@ -22,7 +22,7 @@ JSON
 
 This example converts the ApiThemeFormatScheme object into the JSON object.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

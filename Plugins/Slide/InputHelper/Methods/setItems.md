@@ -22,7 +22,7 @@ This method doesn't return any data.
 
 ## Example
 
-```javascript
+```javascript editor-pptx
 {
     var items = [
         { text: "Name1.Family1", id : "0" },

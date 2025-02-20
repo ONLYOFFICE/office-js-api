@@ -24,7 +24,7 @@ number
 
 
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 
 // Data array

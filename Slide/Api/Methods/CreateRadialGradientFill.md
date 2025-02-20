@@ -24,7 +24,7 @@ expression.CreateRadialGradientFill(gradientStops);
 
 This example shows how to create a radial gradient fill.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

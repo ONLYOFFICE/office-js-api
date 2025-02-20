@@ -22,7 +22,7 @@ boolean
 
 This example deletes all the contents from the range.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("ONLYOFFICE delete text Document Builder");

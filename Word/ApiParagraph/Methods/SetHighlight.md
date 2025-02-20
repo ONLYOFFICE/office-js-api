@@ -24,7 +24,7 @@ expression.SetHighlight(sColor);
 
 This example sets highlight color "lightGray" for the paragraph.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is a paragraph with the text highlighted with light gray color.");

@@ -22,7 +22,7 @@ This method doesn't return any data.
 
 ## Example
 
-```javascript
+```javascript editor-docx
 var _param = {
     "data": "{data}",
     "imgSrc": "https://link-to-the-image.jpg",

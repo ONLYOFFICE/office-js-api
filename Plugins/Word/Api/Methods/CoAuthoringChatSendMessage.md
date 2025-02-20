@@ -22,7 +22,7 @@ This method doesn't return any data.
 
 ## Example
 
-```javascript
+```javascript editor-docx
 window.Asc.plugin.executeMethod ("CoAuthoringChatSendMessage", [Asc.scope.meeting_info], function (isTrue) {
     if (isTrue)
         alert ("Meeting was created");

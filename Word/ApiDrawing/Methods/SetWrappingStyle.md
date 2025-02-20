@@ -32,7 +32,7 @@ This method doesn't return any data.
 
 This example creates a shape with wrapping style "square".
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is a paragraph with a shape. ");

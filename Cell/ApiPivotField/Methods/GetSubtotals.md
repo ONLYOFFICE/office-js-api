@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

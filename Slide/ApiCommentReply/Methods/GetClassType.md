@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 Api.pluginMethod_AddComment({"UserName": "John Smith", "Text": "Comment 1"});
 var arrComments = oPresentation.GetAllComments();

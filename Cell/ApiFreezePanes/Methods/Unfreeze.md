@@ -22,7 +22,7 @@ This method doesn't return any data.
 
 This example freezes first column then unfreeze all panes in the worksheet.
 
-```javascript
+```javascript editor-xlsx
 Api.SetFreezePanesType('column');
 var oWorksheet = Api.GetActiveSheet();
 var oFreezePanes = oWorksheet.GetFreezePanes();

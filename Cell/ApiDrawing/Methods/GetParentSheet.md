@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example show get drawing parent sheet.
 
-```javascript
+```javascript editor-xlsx
 let oWorksheet = Api.GetActiveSheet();
 let oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let oStroke = Api.CreateStroke(0, Api.CreateNoFill());

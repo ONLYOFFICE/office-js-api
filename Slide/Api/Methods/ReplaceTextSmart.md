@@ -26,7 +26,7 @@ This method doesn't return any data.
 
 This example replace text from two paragraphs to another text.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

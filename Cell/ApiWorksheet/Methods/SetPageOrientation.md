@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example sets the page orientation.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.SetPageOrientation("xlPortrait");
 var sPageOrientation = oWorksheet.GetPageOrientation();

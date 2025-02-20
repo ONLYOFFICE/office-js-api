@@ -17,7 +17,7 @@ Object
 
 ## Example
 
-```javascript
+```javascript editor-xlsx
 let toolbarMenuTab = {
     "id": "ChatGPT",
     "text": "AI Assistant",

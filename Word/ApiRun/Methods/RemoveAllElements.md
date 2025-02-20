@@ -22,7 +22,7 @@ This method doesn't return any data.
 
 This example removes all the elements from the run.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let run1 = Api.CreateRun();

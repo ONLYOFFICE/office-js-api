@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example sets the state of sheet visibility.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.SetVisible(true);
 oWorksheet.GetRange("A1").SetValue("The current worksheet is visible.");

@@ -18,6 +18,6 @@ Enumeration
 
 This example creates a blip fill with an image which is tiled all over the created shape:
 
-```javascript
+```javascript editor-pptx
 let blipFill = Api.CreateBlipFill("https://example.com/myimage.png", "tile");
 ```

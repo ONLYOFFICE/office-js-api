@@ -25,7 +25,7 @@ expression.AddColumns(nCount, isBefore);
 
 This example adds the new columns to the table.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

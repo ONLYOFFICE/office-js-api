@@ -25,7 +25,7 @@ expression.Search(text, isMatchCase);
 
 This example shows how to make a search in content control object.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();
 let paragraph1 = Api.CreateParagraph();

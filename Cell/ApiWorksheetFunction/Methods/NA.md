@@ -22,7 +22,7 @@ string
 
 
 
-```javascript
+```javascript editor-xlsx
 const oWorksheet = Api.GetActiveSheet(); 
 var oFunction = Api.GetWorksheetFunction();
 var result = oFunction.NA();

@@ -20,7 +20,7 @@ This method doesn't have any parameters.
 
 ## Example
 
-```javascript
+```javascript editor-docx
 window.Asc.plugin.executeMethod ("GetInstalledPlugins", null, function (result) {
     postMessage (JSON.stringify ({type: 'InstalledPlugins', data: result }));
 });

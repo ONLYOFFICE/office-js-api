@@ -24,7 +24,7 @@ expression.CreateRadialGradientFill(gradientStops);
 
 This example shows how to create a radial gradient fill.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let gs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);

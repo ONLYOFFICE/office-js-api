@@ -25,7 +25,7 @@ number
 
 
 
-```javascript
+```javascript editor-xlsx
 const oWorksheet = Api.GetActiveSheet();
 
 // Configure function parameters

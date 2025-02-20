@@ -19,7 +19,7 @@ Object
 
 ## Example
 
-```javascript
+```javascript editor-pptx
 var initSettings = {
     "copyoutenabled" : false,
     "hideContentControlTrack" : false,

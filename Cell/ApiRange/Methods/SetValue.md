@@ -24,7 +24,7 @@ boolean
 
 This example sets a value to cells.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue("2");
 oWorksheet.GetRange("B2").SetValue("2");

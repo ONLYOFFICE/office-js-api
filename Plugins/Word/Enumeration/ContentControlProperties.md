@@ -26,7 +26,7 @@ Object
 
 ## Example
 
-```javascript
+```javascript editor-docx
 let contentControlPr = {
     "Id" : 7,
     "Tag" : "{tag}",

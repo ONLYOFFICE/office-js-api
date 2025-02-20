@@ -25,7 +25,7 @@ JSON
 
 This example converts the ApiBlockLvlSdt object into the JSON object.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();
 blockLvlSdt.SetAlias("№1");

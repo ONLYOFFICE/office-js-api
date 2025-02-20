@@ -25,7 +25,7 @@ expression.CreateLinearGradientFill(gradientStops, angle);
 
 This example creates a linear gradient fill to apply to the object using the selected linear gradient as the object background.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);
 var oGs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);

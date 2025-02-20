@@ -28,7 +28,7 @@ string
 
 This example shows how to gets your document as Markdown and paste the result into the document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("Heading 1");

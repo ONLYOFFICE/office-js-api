@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example creates a copy of the current theme format scheme.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oMaster = oPresentation.GetMaster(0);
 var oSlide1 = oPresentation.GetSlideByIndex(0);

@@ -20,7 +20,7 @@ number
 
 ## Example
 
-```javascript
+```javascript editor-xlsx
 function getInputHelperSize () {
     var _size = window.Asc.plugin.getInputHelper().getScrollSizes();
     var _width = 200;

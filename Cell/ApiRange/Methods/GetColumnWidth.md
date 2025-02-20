@@ -22,7 +22,7 @@ number
 
 This example shows how to get the column width value.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 var sWidth = oWorksheet.GetRange("A1").GetColumnWidth();
 oWorksheet.GetRange("A1").SetValue("Width: ");

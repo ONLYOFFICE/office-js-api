@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example shows how ot get the paragraph properties of the current style.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let normalStyle = doc.GetDefaultStyle("paragraph");
 let paraPr = normalStyle.GetParaPr();

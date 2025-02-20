@@ -22,7 +22,7 @@ string \| string[][]
 
 This example shows how to get the text of the specified range.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A1").SetValue("text1");
 oWorksheet.GetRange("B1").SetValue("text2");

@@ -25,7 +25,7 @@ boolean
 
 This example removes objects (image, shape or chart) from the current slide master.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

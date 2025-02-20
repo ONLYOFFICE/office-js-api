@@ -30,7 +30,7 @@ expression.Find(What, After, LookIn, LookAt, SearchOrder, SearchDirection, Match
 
 This example finds specific information in the range.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);

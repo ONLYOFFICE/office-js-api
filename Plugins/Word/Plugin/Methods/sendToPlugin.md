@@ -23,7 +23,7 @@ boolean
 
 ## Example
 
-```javascript
+```javascript editor-docx
 function makeConvetration() {
     if (window.Asc.plugin.windowID) {
         window.Asc.plugin.sendToPlugin("onWindowMessage", {config: oConfig});

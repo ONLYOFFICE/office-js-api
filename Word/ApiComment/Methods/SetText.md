@@ -24,7 +24,7 @@ expression.SetText(sText);
 
 This example sets the comment text.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is just a sample text");

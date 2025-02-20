@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example shows how to set the tag attribute for the container.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();
 blockLvlSdt.GetContent().GetElement(0).AddText("This is a block text content control with a tag set to it.");

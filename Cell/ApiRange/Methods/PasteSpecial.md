@@ -27,7 +27,7 @@ This method doesn't return any data.
 
 This example pastes data from clipboard(if it possible) with options.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 var oRange = oWorksheet.GetRange("A1");
 oRange.SetValue("test");

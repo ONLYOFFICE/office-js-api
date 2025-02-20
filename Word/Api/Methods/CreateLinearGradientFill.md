@@ -25,7 +25,7 @@ expression.CreateLinearGradientFill(gradientStops, angle);
 
 This example creates a linear gradient fill to apply to the object using the selected linear gradient as the object background.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let gs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);

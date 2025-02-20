@@ -22,7 +22,7 @@ boolean
 
 This example shows how to get the value hiding property.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 var oRange = oWorksheet.GetRows("1:3");
 oRange.SetHidden(true);

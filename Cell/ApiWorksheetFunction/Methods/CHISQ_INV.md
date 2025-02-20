@@ -25,7 +25,7 @@ number
 
 
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 var oFunction = Api.GetWorksheetFunction();
 var ans = oFunction.CHISQ_INV(0.4, 10);

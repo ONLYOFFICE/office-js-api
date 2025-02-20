@@ -25,7 +25,7 @@ This method doesn't return any data.
 
 This example sets the height to the current table row within the table.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("We create a 3x3 table and set the height of half an inch to all the rows:");

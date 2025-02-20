@@ -26,7 +26,7 @@ This method doesn't return any data.
 
 This example adds a paragraph using its position in the cell.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

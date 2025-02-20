@@ -27,7 +27,7 @@ number
 
 
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 var oFunction = Api.GetWorksheetFunction();
 var month = ["Month", 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];

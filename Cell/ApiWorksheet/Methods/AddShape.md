@@ -35,7 +35,7 @@ expression.AddShape(sType, nWidth, nHeight, oFill, oStroke, nFromCol, nColOffset
 
 This example adds a shape to the sheet with the parameters specified.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);
 var oGs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);

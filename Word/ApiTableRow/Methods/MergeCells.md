@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example merges the cells in the row.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

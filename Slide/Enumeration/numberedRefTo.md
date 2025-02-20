@@ -26,6 +26,6 @@ Enumeration
 
 This example adds a cross-reference to the page containing a numbered paragraph.
 
-```javascript
+```javascript editor-pptx
 paragraph.AddNumberedCrossRef("pageNum", numberedParagraph, true, true);
 ```

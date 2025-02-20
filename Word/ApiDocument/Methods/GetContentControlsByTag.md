@@ -24,7 +24,7 @@ expression.GetContentControlsByTag(sTag);
 
 This example shows how to get a list of all content controls in the document with the specified tag name.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let inlineLvlSdt = Api.CreateInlineLvlSdt();

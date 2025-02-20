@@ -35,7 +35,7 @@ expression.AddWordArt(oTextPr, sText, sTransform, oFill, oStroke, nRotAngle, nWi
 
 This example adds a Text Art object to the sheet with the parameters specified.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 var oTextPr = Api.CreateTextPr();
 oTextPr.SetFontSize(72);

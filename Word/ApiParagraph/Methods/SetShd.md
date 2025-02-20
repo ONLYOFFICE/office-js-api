@@ -28,7 +28,7 @@ This method doesn't return any data.
 
 This example specifies the shading applied to the contents of the paragraph.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");
 let paraPr = myStyle.GetParaPr();

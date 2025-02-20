@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example adds a column break to the current position and starts the next element from a new column.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let section = doc.GetFinalSection();

@@ -22,7 +22,7 @@ This method doesn't return any data.
 
 This example adds a line break to the run position and starts the next element from a new line.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

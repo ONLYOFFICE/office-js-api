@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example gets mail merge template and paste some data of it into the document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fields = ["Greeting line", "First name", "Last name"];

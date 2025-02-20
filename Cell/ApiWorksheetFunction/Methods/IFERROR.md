@@ -25,7 +25,7 @@ number \| string \| boolean
 
 
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 var oFunction = Api.GetWorksheetFunction();
 var stock = ["Stock", 0, 84];

@@ -25,7 +25,7 @@ expression.CreateStroke(width, fill);
 
 This example shows how to crate a stroke.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

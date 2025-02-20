@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example removes an element using the position specified.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));

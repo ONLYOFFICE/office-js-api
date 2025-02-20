@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example shows how to get a parent paragraph that contains the graphic object.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));

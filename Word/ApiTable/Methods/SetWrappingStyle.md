@@ -24,7 +24,7 @@ boolean
 
 This example sets the table wrapping style.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is just a sample text.");

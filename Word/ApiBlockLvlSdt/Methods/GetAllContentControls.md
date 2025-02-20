@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example shows how to get a collection of content control objects in the current content control.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();
 let innerSdt1 = Api.CreateBlockLvlSdt();

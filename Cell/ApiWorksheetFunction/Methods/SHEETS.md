@@ -24,7 +24,7 @@ number
 
 
 
-```javascript
+```javascript editor-xlsx
 // Add more sheets
 Api.AddSheet("Sheet2")
 Api.AddSheet("Sheet3")

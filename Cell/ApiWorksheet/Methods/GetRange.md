@@ -26,7 +26,7 @@ expression.GetRange(Range1, Range2);
 
 This example shows how to get an object that represents the selected range of the sheet.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A2").SetValue("2");
 var oRange = oWorksheet.GetRange("A1:D5");

@@ -24,7 +24,7 @@ expression.CreatePresetColor(presetColor);
 
 This example creates a color selecting it from one of the available color presets.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 var oPresetColor = Api.CreatePresetColor("peachPuff");
 var oGs1 = Api.CreateGradientStop(oPresetColor, 0);

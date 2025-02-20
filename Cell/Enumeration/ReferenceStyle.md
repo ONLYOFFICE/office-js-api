@@ -16,7 +16,7 @@ Enumeration
 
 This example gets reference style.
 
-```javascript
+```javascript editor-xlsx
 builder.CreateFile("xlsx");
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue(Api.GetReferenceStyle());

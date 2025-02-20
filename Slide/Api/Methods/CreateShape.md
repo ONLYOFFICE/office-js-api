@@ -28,7 +28,7 @@ expression.CreateShape(sType, nWidth, nHeight, oFill, oStroke);
 
 This example creates a shape using the 'flowChartMagneticTape' preset.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

@@ -22,7 +22,7 @@ This method doesn't return any data.
 
 ## Example
 
-```javascript
+```javascript editor-docx
 let toolbarMenuItem = {
     "id": "MeaningItem",
     "type": "button",

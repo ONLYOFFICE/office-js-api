@@ -26,7 +26,7 @@ boolean
 
 ## Example
 
-```javascript
+```javascript editor-xlsx
 var arrDocuments = [{
     "Props": {
         "Id": 100,

@@ -22,6 +22,6 @@ Enumeration
 
 This example adds a cross-reference to the page containing an endnote.
 
-```javascript
+```javascript editor-pptx
 paragraph.AddEndnoteCrossRef("pageNum", endnoteParagraph);
 ```

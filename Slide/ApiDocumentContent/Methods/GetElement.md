@@ -24,7 +24,7 @@ expression.GetElement(nPos);
 
 This example shows how to get element.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

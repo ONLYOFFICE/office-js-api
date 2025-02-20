@@ -25,7 +25,7 @@ string[][]
 
 This example shows how to get the mail merge data.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.SetColumnWidth(0, 20);
 oWorksheet.GetRange("A1").SetValue("Email address");

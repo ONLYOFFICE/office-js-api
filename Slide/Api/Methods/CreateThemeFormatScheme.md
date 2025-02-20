@@ -27,7 +27,7 @@ expression.CreateThemeFormatScheme(arrFill, arrBgFill, arrLine, sName);
 
 This example shows how to create a new theme format scheme.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

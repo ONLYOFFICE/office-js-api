@@ -24,7 +24,7 @@ boolean
 
 This example sets a placeholder for the shape.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

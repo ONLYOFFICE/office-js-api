@@ -24,7 +24,7 @@ expression.SetFill(oApiFill);
 
 This example sets the text color to the text run.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

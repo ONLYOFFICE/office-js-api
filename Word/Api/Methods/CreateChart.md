@@ -31,7 +31,7 @@ expression.CreateChart(chartType, series, seriesNames, catNames, width, height, 
 
 This example shows how to create a chart and paste it into the document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

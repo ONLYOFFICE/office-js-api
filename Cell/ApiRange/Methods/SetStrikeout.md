@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example specifies that the contents of the cell is displayed with a single horizontal line through the center of the contents.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A2").SetValue("Struckout text");
 oWorksheet.GetRange("A2").SetStrikeout(true);

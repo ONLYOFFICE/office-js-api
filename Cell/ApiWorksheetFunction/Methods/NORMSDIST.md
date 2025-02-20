@@ -24,7 +24,7 @@ number
 
 
 
-```javascript
+```javascript editor-xlsx
 const oWorksheet = Api.GetActiveSheet();
 var valueArr = [0.34, 7, 3];
 

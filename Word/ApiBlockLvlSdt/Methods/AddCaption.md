@@ -32,7 +32,7 @@ boolean
 
 This example adds a caption paragraph after (or before) the current content control.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();
 let paragraph = Api.CreateParagraph();

@@ -26,7 +26,7 @@ expression.CreateRGBColor(r, g, b);
 
 This example creates an RGB color setting the appropriate values for the red, green and blue color components.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);
 var oGs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);

@@ -22,7 +22,7 @@ number
 
 This example shows how to get a number of slides.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide1 = oPresentation.GetSlideByIndex(0);
 var oSlide2 = Api.CreateSlide();

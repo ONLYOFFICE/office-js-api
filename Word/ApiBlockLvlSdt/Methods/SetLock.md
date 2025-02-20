@@ -27,7 +27,7 @@ This method doesn't return any data.
 
 This example sets the lock to the block text content control.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();
 blockLvlSdt.GetContent().GetElement(0).AddText("This is a block text content control with the content lock set to it.");

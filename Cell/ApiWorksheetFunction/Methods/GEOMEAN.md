@@ -24,7 +24,7 @@ number
 
 
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 var oFunction = Api.GetWorksheetFunction();
 var ans = oFunction.GEOMEAN(28, 16, 878, 800, 1650, 2000);

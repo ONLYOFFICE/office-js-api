@@ -24,7 +24,7 @@ bool
 
 This example gets a lock value of a shape and inserts it into the presentation.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

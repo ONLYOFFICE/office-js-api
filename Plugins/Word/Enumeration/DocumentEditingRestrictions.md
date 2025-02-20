@@ -20,7 +20,7 @@ Enumeration
 
 ## Example
 
-```javascript
+```javascript editor-docx
 let documentEditingRestrictions = "readOnly";
 window.Asc.plugin.executeMethod("SetEditingRestrictions", [documentEditingRestrictions]);
 ```

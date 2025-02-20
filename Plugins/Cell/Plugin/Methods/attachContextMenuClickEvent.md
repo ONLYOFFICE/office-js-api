@@ -23,7 +23,7 @@ This method doesn't return any data.
 
 ## Example
 
-```javascript
+```javascript editor-xlsx
 window.Asc.plugin.attachContextMenuClickEvent("onClickItem1Sub1", function(){
     window.Asc.plugin.executeMethod("InputText", ["clicked: onClickItem1Sub1"]);
 });

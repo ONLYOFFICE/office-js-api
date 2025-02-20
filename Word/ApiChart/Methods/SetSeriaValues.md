@@ -25,7 +25,7 @@ boolean
 
 This example sets values to the specified chart series.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

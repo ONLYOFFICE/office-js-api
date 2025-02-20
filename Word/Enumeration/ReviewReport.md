@@ -13,7 +13,7 @@ Object.&lt;string, ReviewReportRecord[]&gt;
 
 Report on all review changes.
 
-```javascript
+```javascript editor-docx
 let reviewRecord = {
 	"John Smith" : [{Type: "TextRem", Value: "Hello, Mark!", Date: 1679941734161},
 					{Type: "TextAdd", Value: "Dear Mr. Pottato.", Date: 1679941736189}],

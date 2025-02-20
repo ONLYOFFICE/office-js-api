@@ -20,7 +20,7 @@ This method doesn't have any parameters.
 
 ## Example
 
-```javascript
+```javascript editor-docx
 function getInputHelperSize () {
     var _size = window.Asc.plugin.getInputHelper().getScrollSizes();
     var _width = 150;

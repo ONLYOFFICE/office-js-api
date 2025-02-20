@@ -26,7 +26,7 @@ boolean
 
 This example inserts an array of elements into the current position of the document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph = Api.CreateParagraph();

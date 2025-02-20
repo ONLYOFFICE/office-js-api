@@ -24,7 +24,7 @@ bool
 
 This example shows how to get the lock value for the specified lock type of the drawing.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let gs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);

@@ -31,7 +31,7 @@ String
 
 This example shows how to get a text from the specified range.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("\tONLYOFFICE Document Builder");

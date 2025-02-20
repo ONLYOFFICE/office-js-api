@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example freezes the specified range in top-and-left-most pane of the worksheet.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 var oFreezePanes = oWorksheet.GetFreezePanes();
 var oRange = Api.GetRange('H2:K4');

@@ -24,7 +24,7 @@ expression.GetRange(sRange);
 
 This example shows how to get the ApiRange object by the range reference.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 var oRange = Api.GetRange("A1:C1");
 oRange.SetFillColor(Api.CreateColorFromRGB(255, 213, 191));

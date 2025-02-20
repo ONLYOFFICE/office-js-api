@@ -25,7 +25,7 @@ This method doesn't return any data.
 
 This example sets the cell offset.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B3").SetValue("Old Range");
 var oRange = oWorksheet.GetRange("B3");

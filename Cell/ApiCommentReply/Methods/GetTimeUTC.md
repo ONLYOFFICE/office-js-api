@@ -22,7 +22,7 @@ Number
 
 This example shows how to get the timestamp of the comment reply creation in UTC format.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A1").SetValue("1");
 var oRange = oWorksheet.GetRange("A1");

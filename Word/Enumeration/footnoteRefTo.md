@@ -22,6 +22,6 @@ Enumeration
 
 This example adds a cross-reference to the page containing a footnote.
 
-```javascript
+```javascript editor-docx
 paragraph.AddFootnoteCrossRef("pageNum", footnoteParagraph);
 ```

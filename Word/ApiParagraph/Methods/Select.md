@@ -22,7 +22,7 @@ boolean
 
 This example selects the paragraph.
 
-```javascript
+```javascript editor-docx
 let doc = editor.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("ONLYOFFICE Document Builder");

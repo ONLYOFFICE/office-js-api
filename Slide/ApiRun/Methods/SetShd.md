@@ -27,7 +27,7 @@ expression.SetShd(sType, r, g, b);
 
 This example specifies the shading applied to the contents of the current text run.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

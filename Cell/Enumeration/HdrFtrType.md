@@ -20,6 +20,6 @@ Enumeration
 
 This example removes the header of the 'title' type from the final document section.
 
-```javascript
+```javascript editor-xlsx
 let docContent = finalSection.RemoveHeader("title");
 ```

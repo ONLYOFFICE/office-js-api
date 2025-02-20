@@ -21,6 +21,6 @@ Enumeration
 
 This example returns a type of the current form.
 
-```javascript
+```javascript editor-pptx
 let formType = textForm.GetFormType();
 ```

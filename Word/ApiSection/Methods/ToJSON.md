@@ -25,7 +25,7 @@ JSON
 
 This example converts the ApiSection object into the JSON object.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is a page with a page size set in the current document section.");

@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example specifies the direction of the text flow for this table cell.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

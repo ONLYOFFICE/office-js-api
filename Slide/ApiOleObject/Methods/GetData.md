@@ -22,7 +22,7 @@ string
 
 This example shows how to get the string data from the current OLE object.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

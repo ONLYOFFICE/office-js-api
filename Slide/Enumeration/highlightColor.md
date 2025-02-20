@@ -31,6 +31,6 @@ Enumeration
 
 This example sets a paragraph highlight in green.
 
-```javascript
+```javascript editor-pptx
 paragraph.SetHighlight("green");
 ```

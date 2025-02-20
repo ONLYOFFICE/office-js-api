@@ -28,7 +28,7 @@ This method doesn't return any data.
 
 This example sets the paragraph line spacing.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

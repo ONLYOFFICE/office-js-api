@@ -25,7 +25,7 @@ boolean
 
 This example sets the x-axis values from the specified range to the specified series. It is used with the scatter charts only.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);

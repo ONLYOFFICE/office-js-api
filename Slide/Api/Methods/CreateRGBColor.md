@@ -26,7 +26,7 @@ expression.CreateRGBColor(r, g, b);
 
 This example shows how to create a RGB color for  gradient stop.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

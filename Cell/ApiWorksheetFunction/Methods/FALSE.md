@@ -22,7 +22,7 @@ boolean
 
 
 
-```javascript
+```javascript editor-xlsx
 const oWorksheet = Api.GetActiveSheet();
 var oFunction = Api.GetWorksheetFunction();
 var ans = oFunction.FALSE(); //returns false, doesnt require arguments

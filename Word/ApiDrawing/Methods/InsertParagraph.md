@@ -26,7 +26,7 @@ expression.InsertParagraph(paragraph, sPosition, beRNewPara);
 
 This example inserts a paragraph at the specified position.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This graphic object with paragraph.");

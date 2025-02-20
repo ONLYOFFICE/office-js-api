@@ -25,7 +25,7 @@ expression.Search(sText, isMatchCase);
 
 This example shows how to make a search.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is paragraph №1.");

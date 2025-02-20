@@ -20,6 +20,6 @@ This method doesn't have any parameters.
 
 ## Example
 
-```javascript
+```javascript editor-pptx
 window.Asc.plugin.executeMethod ("GetSelectedOleObjects");
 ```

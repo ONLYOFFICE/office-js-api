@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example merges the selected cell range into a single cell or a cell row.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A3:E8").Merge(true);
 oWorksheet.GetRange("A9:E14").Merge(false);

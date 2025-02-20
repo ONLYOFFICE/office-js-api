@@ -22,7 +22,7 @@ string
 
 This example shows how to get the label attribute for the container.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let inlineLvlSdt = Api.CreateInlineLvlSdt();

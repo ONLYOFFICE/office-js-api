@@ -26,7 +26,7 @@ This method doesn't return any data.
 
 This example replaces each paragraph (or text in cell) in the select with the corresponding text from an array of strings.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A1").SetValue("1");
 oWorksheet.GetRange("A2").SetValue("2");

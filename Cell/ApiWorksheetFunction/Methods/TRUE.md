@@ -22,7 +22,7 @@ boolean
 
 
 
-```javascript
+```javascript editor-xlsx
 const oWorksheet = Api.GetActiveSheet();
 
 var logical1 = 1 > 0;

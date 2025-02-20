@@ -12,6 +12,6 @@ number
 
 This example sets The paragraph line spacing to 1 line.
 
-```javascript
+```javascript editor-pdf
 paraPr.SetSpacingLine(240, "auto");
 ```

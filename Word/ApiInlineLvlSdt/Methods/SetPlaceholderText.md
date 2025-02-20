@@ -25,7 +25,7 @@ boolean
 
 This example sets the placeholder text to the inline content control.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let inlineLvlSdt = Api.CreateInlineLvlSdt();

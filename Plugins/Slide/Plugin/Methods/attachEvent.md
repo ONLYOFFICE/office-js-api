@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 ## Example
 
-```javascript
+```javascript editor-pptx
 window.Asc.plugin.attachEvent("onContextMenuShow", function(options) {
     if (!options) return;
     if (options.type === "Selection" || options.type === "Target")

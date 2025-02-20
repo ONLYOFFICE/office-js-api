@@ -25,7 +25,7 @@ ApiBullet
 
 This example creates a bullet for a paragraph.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("bullet");
 for (let lvl = 0; lvl < 2; ++lvl) 

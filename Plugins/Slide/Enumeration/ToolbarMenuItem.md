@@ -25,7 +25,7 @@ Object
 
 ## Example
 
-```javascript
+```javascript editor-pptx
 let toolbarMenuItem = {
     "id": "MeaningItem",
     "type": "button",

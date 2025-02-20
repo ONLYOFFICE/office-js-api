@@ -28,7 +28,7 @@ number
 
 
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 var oFunction = Api.GetWorksheetFunction();
 var year = [2016, 2016, 2016, 2017, 2017, 2017];

@@ -25,7 +25,7 @@ expression.SetPosition(nPosition);
 
 This example specifies an amount by which text is raised or lowered for this run in relation to the default baseline of the surrounding non-positioned text.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let myNewRunStyle1 = doc.CreateStyle("My New Run Style 1", "run");
 let textPr1 = myNewRunStyle1.GetTextPr();

@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example specifies the algorithm which will be used to lay out the contents of the table within the document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("We set the table cells to preserve their size:");

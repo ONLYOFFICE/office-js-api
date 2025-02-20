@@ -25,7 +25,7 @@ number
 
 
 
-```javascript
+```javascript editor-xlsx
 const oWorksheet = Api.GetActiveSheet();
 
 let numbersArr = [4, 13, 27, 56, 46, 79, 22, 12];

@@ -10,7 +10,7 @@ string
 
 ## Example
 
-```javascript
+```javascript editor-docx
 var config = {
     "variations": [
         {

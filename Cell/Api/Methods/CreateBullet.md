@@ -24,7 +24,7 @@ expression.CreateBullet(sSymbol);
 
 This example creates a bullet for a paragraph.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

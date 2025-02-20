@@ -23,7 +23,7 @@ This method doesn't have any parameters.
 
 This example shows how to get the text properties which will be applied to the text in the numbering level itself, not to the text in the subsequent paragraph.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("numbered");
 let numLvl = numbering.GetLevel(0);

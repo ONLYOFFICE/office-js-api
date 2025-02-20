@@ -27,7 +27,7 @@ This method doesn't return any data.
 
 This example specifies the page margins for all the pages in this section.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is a page with margins set. ");

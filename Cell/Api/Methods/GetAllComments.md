@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 Api.AddComment("Comment 1", "John Smith");
 oWorksheet.GetRange("A4").AddComment("Comment 2", "Mark Potato" );

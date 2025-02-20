@@ -27,7 +27,7 @@ expression.AddComment(text, author, userId);
 
 This example adds comment to the block content control
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();
 blockLvlSdt.GetContent().GetElement(0).AddText("This is a block text content control.");

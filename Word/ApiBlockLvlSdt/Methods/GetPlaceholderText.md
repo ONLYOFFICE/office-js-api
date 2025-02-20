@@ -22,7 +22,7 @@ string
 
 This example shows how to get the placeholder text from the content control.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();
 doc.AddElement(0, blockLvlSdt);

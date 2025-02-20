@@ -18,7 +18,7 @@ Enumeration
 
 ## Example
 
-```javascript
+```javascript editor-docx
 window.Asc.plugin.executeMethod ("GetCurrentWord", ["entirely"], function (res) {
     console.log (res)
 });

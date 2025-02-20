@@ -24,7 +24,7 @@ expression.GetLayout(nPos);
 
 This example shows how to get a layout of the specified slide master by its position.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

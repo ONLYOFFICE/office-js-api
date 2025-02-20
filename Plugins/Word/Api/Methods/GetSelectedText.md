@@ -29,7 +29,7 @@ string
 
 ## Example
 
-```javascript
+```javascript editor-docx
 function CorrectText () {
     switch (window.Asc.plugin.info.editorType) {
         case 'word':

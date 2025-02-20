@@ -25,7 +25,7 @@ expression.GetConditionalTableStyle(sType);
 
 This example shows how to get a set of formatting properties which will be conditionally applied to the parts of a table that match the requirement specified in the sType parameter.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let table = Api.CreateTable(2, 2);
 table.SetWidth("percent", 100);

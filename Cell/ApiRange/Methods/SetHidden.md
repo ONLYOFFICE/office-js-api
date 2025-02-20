@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example sets the value hiding property.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 var oRange = oWorksheet.GetRows("1:3");
 oRange.SetHidden(true);

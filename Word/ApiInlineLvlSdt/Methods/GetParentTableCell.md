@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example showh how to get a table cell that contains the current content control.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

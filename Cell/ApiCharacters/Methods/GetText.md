@@ -22,7 +22,7 @@ string
 
 This example shows how to get the text of the specified range of characters.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 var oRange = oWorksheet.GetRange("B1");
 oRange.SetValue("This is just a sample text.");

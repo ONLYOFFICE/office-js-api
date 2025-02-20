@@ -12,6 +12,6 @@ number
 
 This example sets the text font size to 22 half-points.
 
-```javascript
+```javascript editor-pdf
 textPr.SetFontSize(22);
 ```

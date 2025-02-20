@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example sets the top margin of the sheet.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.SetTopMargin(25.1);
 var nTopMargin = oWorksheet.GetTopMargin();

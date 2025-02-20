@@ -25,7 +25,7 @@ expression.MergeCells(aCells);
 
 This example merges an array of cells.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oTable = Api.CreateTable(2, 4);
 var oRow = oTable.GetRow(0);

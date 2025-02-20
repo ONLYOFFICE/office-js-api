@@ -26,6 +26,6 @@ Enumeration
 
 This example adds a cross-reference to the page containing a bookmark.
 
-```javascript
+```javascript editor-docx
 paragraph.AddBookmarkCrossRef("pageNum", bookmark);
 ```

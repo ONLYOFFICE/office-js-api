@@ -22,7 +22,7 @@ This method doesn't return any data.
 
 This example saves changes to the specified document.
 
-```javascript
+```javascript editor-docx
 let paragraph = Api.GetDocument().GetElement(0);
 paragraph.AddText("This sample text is saved to the document.");
 Api.Save();

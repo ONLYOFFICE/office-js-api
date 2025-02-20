@@ -18,6 +18,6 @@ Enumeration
 
 This example specifies the "cross" major tick mark type for the vertical axis.
 
-```javascript
+```javascript editor-pdf
 chart.SetVertAxisMajorTickMark("cross");
 ```

@@ -25,7 +25,7 @@ This method doesn't return any data.
 
 This example specifies that the current paragraph references a numbering definition instance in the current document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");
 let paraPr = myStyle.GetParaPr();

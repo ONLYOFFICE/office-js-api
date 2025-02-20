@@ -29,7 +29,7 @@ This method doesn't return any data.
 
 This example spicifies the show options for the chart data labels.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

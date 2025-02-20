@@ -16,6 +16,6 @@ Enumeration
 
 This example sets the page orientation to portrait.
 
-```javascript
+```javascript editor-xlsx
 worksheet.SetPageOrientation("xlPortrait");
 ```

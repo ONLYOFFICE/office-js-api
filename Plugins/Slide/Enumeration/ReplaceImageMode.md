@@ -16,7 +16,7 @@ Enumeration
 
 ## Example
 
-```javascript
+```javascript editor-pptx
 window.saveImage = function () {
     let imageSrc = imageEditor.toDataURL();
     let editorDimension = imageEditor.getCanvasSize();

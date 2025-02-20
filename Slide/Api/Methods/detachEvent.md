@@ -24,6 +24,6 @@ This method doesn't return any data.
 
 This example shows how to unsubscribe on hyperlink click event.
 
-```javascript
+```javascript editor-pptx
 Api.detachEvent("asc_onHyperlinkClick");
 ```

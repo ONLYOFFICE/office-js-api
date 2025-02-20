@@ -28,7 +28,7 @@ This method doesn't return any data.
 
 This example sets the autoflter by cell range.
 
-```javascript
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("header");
 worksheet.GetRange("A2").SetValue("value2");

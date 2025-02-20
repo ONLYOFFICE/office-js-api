@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example adds footnote fot the document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0); 
 paragraph.AddText("This is just a sample text.");

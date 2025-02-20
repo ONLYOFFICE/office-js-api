@@ -29,7 +29,7 @@ This method doesn't return any data.
 
 This example sets the border which will be displayed at the bottom of the table.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("We add the bottom 4 point black border:");

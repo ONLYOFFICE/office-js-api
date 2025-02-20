@@ -24,7 +24,7 @@ boolean
 
 This example sets a style to the table.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("We create a table and apply one of the existing styles to it:");

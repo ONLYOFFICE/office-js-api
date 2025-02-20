@@ -23,7 +23,7 @@ Enumeration
 
 This example shows how to create a numbering.
 
-```javascript
+```javascript editor-pptx
 // The paragraph will be starting with the Arabic numeral which has parenthesis
 let bullet = Api.CreateNumbering("ArabicParenR");
 ```

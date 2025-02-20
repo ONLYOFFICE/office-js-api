@@ -24,7 +24,7 @@ number
 
 This example shows how to get a number of pages in the current document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let pageCount = doc.GetPageCount();
 let paragraph = doc.GetElement(0);

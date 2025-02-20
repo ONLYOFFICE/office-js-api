@@ -25,7 +25,7 @@ This method doesn't return any data.
 
 This example adds a table of content to the document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let newDocumentStyle = doc.GetStyle("Heading 1");
 let paragraph = doc.GetElement(0);

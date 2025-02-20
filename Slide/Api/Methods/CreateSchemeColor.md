@@ -24,7 +24,7 @@ expression.CreateSchemeColor(schemeColorId);
 
 This example shows how to create a scheme color with the 'dk1' identifier.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

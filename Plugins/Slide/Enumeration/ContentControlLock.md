@@ -20,7 +20,7 @@ Enumeration
 
 ## Example
 
-```javascript
+```javascript editor-pptx
 let documents = [{
     "Props": {
         "Id": 100,

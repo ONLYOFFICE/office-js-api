@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example inserts a cell or a range of cells into the worksheet or macro sheet and shifts other cells away to make space.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B4").SetValue("1");
 oWorksheet.GetRange("C4").SetValue("2");

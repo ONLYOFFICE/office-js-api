@@ -25,7 +25,7 @@ expression.GetPivotData(dataField, fieldItemsArray);
 
 
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

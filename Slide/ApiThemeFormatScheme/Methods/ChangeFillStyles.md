@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example sets the fill styles to the current theme format scheme.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

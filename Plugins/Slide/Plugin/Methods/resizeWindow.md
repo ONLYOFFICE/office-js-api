@@ -28,7 +28,7 @@ This method doesn't return any data.
 
 ## Example
 
-```javascript
+```javascript editor-pptx
 window.Asc.plugin.init = function() {
     this.resizeWindow(392, 147, 392, 147, 392, 147);
 };

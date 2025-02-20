@@ -33,7 +33,7 @@ object
 
 This example shows how to get the document info represented as an object and paste the application name into the last paragraph.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let docInfo = doc.GetDocumentInfo();
 let paragraph = Api.CreateParagraph();

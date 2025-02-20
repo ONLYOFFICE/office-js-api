@@ -26,7 +26,7 @@ Enumeration
 
 ## Example
 
-```javascript
+```javascript editor-xlsx
 var config = {
     "variations": [
         {

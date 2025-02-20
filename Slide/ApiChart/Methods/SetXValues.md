@@ -24,7 +24,7 @@ boolean
 
 This example sets the x-axis values to all chart series. It is used with the scatter charts only.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

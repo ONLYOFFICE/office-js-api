@@ -27,7 +27,7 @@ This method doesn't return any data.
 
 This example sets the spacing before the current paragraph.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

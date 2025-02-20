@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example specifies that the contents of the current cell is displayed along with a line appearing directly below the character.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A2").SetValue("The text underlined with a single line");
 oWorksheet.GetRange("A2").SetUnderline("single");

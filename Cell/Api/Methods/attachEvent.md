@@ -25,7 +25,7 @@ This method doesn't return any data.
 
 This example shows how to subscribe on "onWorksheetChange" event.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 var oRange = oWorksheet.GetRange("A1");
 oRange.SetValue("1");

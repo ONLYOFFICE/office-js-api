@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example transforms paragraph to JSON then restore it from JSON.
 
-```javascript
+```javascript editor-docx
 let paragraph = Api.CreateParagraph();
 paragraph.AddText("This is a new paragraph");
 let json = paragraph.ToJSON(false, true);

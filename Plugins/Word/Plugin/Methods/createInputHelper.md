@@ -20,7 +20,7 @@ This method doesn't return any data.
 
 ## Example
 
-```javascript
+```javascript editor-docx
 window.Asc.plugin.init = function(text) {
     if (!window.isInit) {
         window.isInit = true;

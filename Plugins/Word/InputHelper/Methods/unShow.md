@@ -20,7 +20,7 @@ This method doesn't return any data.
 
 ## Example
 
-```javascript
+```javascript editor-docx
 window.Asc.plugin.executeMethod ("SelectContentControl", [window.Asc.plugin.currentContentControl.InternalId], function() {
     window.Asc.plugin.executeMethod("InputText", [item.text]);
     window.Asc.plugin.getInputHelper().unShow();

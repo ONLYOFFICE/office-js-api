@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example sets a name to the active sheet.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.SetName("sheet 1");
 var sName = oWorksheet.GetName();

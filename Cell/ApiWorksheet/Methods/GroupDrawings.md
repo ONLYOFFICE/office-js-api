@@ -24,7 +24,7 @@ expression.GroupDrawings(aDrawings);
 
 This example show how to create a group.
 
-```javascript
+```javascript editor-xlsx
 let oWorksheet = Api.GetActiveSheet();
 let oFill1 = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let oFill2 = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));

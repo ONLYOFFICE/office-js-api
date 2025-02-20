@@ -16,7 +16,7 @@ Object
 
 ## Example
 
-```javascript
+```javascript editor-docx
 let macros = {
     "macrosArray": [
         {

@@ -26,7 +26,7 @@ boolean
 
 ## Example
 
-```javascript
+```javascript editor-pptx
 var arrDocuments = [{
     "Props": {
         "Id": 100,

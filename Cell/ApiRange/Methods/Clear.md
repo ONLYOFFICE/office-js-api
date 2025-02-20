@@ -22,7 +22,7 @@ This method doesn't return any data.
 
 This example clears the range.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 var oRange = oWorksheet.GetRange("A1:B1");
 oRange.SetValue("1");

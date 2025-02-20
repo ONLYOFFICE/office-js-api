@@ -23,7 +23,7 @@ This method doesn't return any data.
 
 ## Example
 
-```javascript
+```javascript editor-pptx
 window.Asc.plugin.loadModule("./vendor/highlight/styles/" + e.params.data.id , function(content) {
     var style_value = content;
     if (isDE || isFF) {

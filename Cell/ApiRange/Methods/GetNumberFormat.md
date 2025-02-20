@@ -22,7 +22,7 @@ string \| null
 
 This example shows how to get a value that represents the format code for the current range.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 var oRange = oWorksheet.GetRange("B2");
 oRange.SetValue(3);

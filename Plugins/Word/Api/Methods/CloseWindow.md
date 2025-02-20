@@ -22,7 +22,7 @@ This method doesn't return any data.
 
 ## Example
 
-```javascript
+```javascript editor-docx
 window.Asc.plugin.button = function(id, windowId) {
 	if (!modalWindow)
 		return;

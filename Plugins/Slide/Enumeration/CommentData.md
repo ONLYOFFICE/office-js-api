@@ -19,7 +19,7 @@ Object
 
 ## Example
 
-```javascript
+```javascript editor-pptx
 let commentData = {
     "UserName": "John Smith",
     "Text": "comment",

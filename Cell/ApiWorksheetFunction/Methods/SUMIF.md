@@ -26,7 +26,7 @@ number
 
 
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 var product = ["Product", "Apple", "Orange", "Banana"]
 var totalValue = ["Total Value", "$736.00", "$924.00", "$888.00"];

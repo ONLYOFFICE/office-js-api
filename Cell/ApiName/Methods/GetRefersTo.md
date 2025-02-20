@@ -22,7 +22,7 @@ string
 
 This example shows how to get a formula that the name is defined to refer to.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A1").SetValue("1");
 oWorksheet.GetRange("B1").SetValue("2");

@@ -24,7 +24,7 @@ boolean
 
 This example recalculates all formulas in the active workbook.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(1);
 oWorksheet.GetRange("C1").SetValue(2);

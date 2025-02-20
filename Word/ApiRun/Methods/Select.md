@@ -22,7 +22,7 @@ boolean
 
 This example selects the current run.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let run = Api.CreateRun();

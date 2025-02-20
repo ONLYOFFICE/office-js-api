@@ -33,7 +33,7 @@ object
 
 This example shows how to get the document info represented as an object and paste the application name into the document.
 
-```javascript
+```javascript editor-pptx
 const oPresentation = Api.GetPresentation();
 const oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

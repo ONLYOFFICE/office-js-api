@@ -23,7 +23,7 @@ This method doesn't return any data.
 
 ## Example
 
-```javascript
+```javascript editor-docx
 let variation = {
     url : location.href.replace(file, 'modal.html'),
     description : window.Asc.plugin.tr('Warning'),

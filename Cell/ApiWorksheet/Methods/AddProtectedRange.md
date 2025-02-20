@@ -25,7 +25,7 @@ expression.AddProtectedRange(sTitle, sDataRange);
 
 This example adds a new name to a range of cells.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A1").SetValue("1");
 oWorksheet.GetRange("B1").SetValue("2");

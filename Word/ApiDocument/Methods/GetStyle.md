@@ -24,7 +24,7 @@ expression.GetStyle(sStyleName);
 
 This example shows how to get a style by its name.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let noSpacingStyle = doc.GetStyle("Heading 6");
 let paragraph = doc.GetElement(0);

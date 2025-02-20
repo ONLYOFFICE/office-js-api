@@ -25,7 +25,7 @@ This method doesn't return any data.
 
 This example specifies an amount of space which will be left between the right extent of the cell contents and the right border of all table cells within the parent table.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

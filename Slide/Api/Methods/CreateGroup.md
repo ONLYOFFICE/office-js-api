@@ -24,7 +24,7 @@ expression.CreateGroup(aDrawings);
 
 This example show how to create a group.
 
-```javascript
+```javascript editor-pptx
 let oPresentation = Api.GetPresentation();
 let oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

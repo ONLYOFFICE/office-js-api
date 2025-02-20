@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example creates a new smaller text block to be inserted to the paragraph or table.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

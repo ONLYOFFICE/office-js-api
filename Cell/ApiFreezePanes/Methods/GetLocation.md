@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example freezes first column and get pastes a freezed range address into the table.
 
-```javascript
+```javascript editor-xlsx
 Api.SetFreezePanesType('column');
 var oWorksheet = Api.GetActiveSheet();
 var oFreezePanes = oWorksheet.GetFreezePanes();

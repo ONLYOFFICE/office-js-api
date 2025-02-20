@@ -24,7 +24,7 @@ expression.IntersectWith(oRange);
 
 This example returns a new range as the intersection of the current range with another range.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("Lorem ipsum dolor sit amet,");

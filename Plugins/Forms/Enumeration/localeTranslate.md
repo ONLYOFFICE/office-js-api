@@ -13,7 +13,7 @@ Object
 
 ## Example
 
-```javascript
+```javascript editor-pdf
 var config = {
     "variations": [
         {

@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example sets the vertical alignment to the shape content where a paragraph or text runs can be inserted.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 oPresentation.SetSizes(254 * 36000, 190 * 36000);
 var oSlide = oPresentation.GetCurrentSlide();

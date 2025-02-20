@@ -22,7 +22,7 @@ number
 
 This example shows how to get a number of slide masters.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var nMasters = oPresentation.GetMastersCount();

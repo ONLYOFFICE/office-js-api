@@ -31,7 +31,7 @@ expression.CreateWordArt(textPr, text, transform, fill, stroke, rotAngle, width,
 
 This example creates a Text Art object with the "textArchUp" text transform type.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let textPr = Api.CreateTextPr();
 textPr.SetFontSize(30);

@@ -25,7 +25,7 @@ boolean
 
 This example adds a text to the specified position.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("Document");

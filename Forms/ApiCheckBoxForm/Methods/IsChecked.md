@@ -22,7 +22,7 @@ boolean
 
 This example shows how to get the state of the checkbox.
 
-```javascript
+```javascript editor-pdf
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});
 let paragraph = doc.GetElement(0);

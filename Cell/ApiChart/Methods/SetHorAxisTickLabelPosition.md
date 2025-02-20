@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This eets the possible values for the position of the chart tick labels in relation to the main horizontal label or the chart data values.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);

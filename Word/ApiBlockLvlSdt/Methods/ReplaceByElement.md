@@ -24,7 +24,7 @@ boolean
 
 This example replaces the content control with a paragraph.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();
 doc.AddElement(0, blockLvlSdt);

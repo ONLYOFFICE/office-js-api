@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example show how to get the drawing parent slide.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));

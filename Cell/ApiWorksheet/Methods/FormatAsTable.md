@@ -25,7 +25,7 @@ This method doesn't return any data.
 
 This example formats the selected range of cells from the sheet as a table.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.FormatAsTable("A1:E10");
 ```

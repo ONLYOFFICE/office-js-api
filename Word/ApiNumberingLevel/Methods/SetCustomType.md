@@ -26,7 +26,7 @@ This method doesn't return any data.
 
 This example sets your own customized numbering type.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("numbered");
 for (let lvl = 0; lvl < 8; ++lvl) {

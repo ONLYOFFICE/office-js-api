@@ -25,7 +25,7 @@ This method doesn't return any data.
 
 This example specifies how the table cell is laid out when the parent table is displayed in a document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

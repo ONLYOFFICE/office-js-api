@@ -16,7 +16,7 @@ Object
 
 ## Example
 
-```javascript
+```javascript editor-docx
 let date = new window.Date();
 let controlDatePickerPr = {
     "DateFormat" : "DD\ MMMM\ YYYY",

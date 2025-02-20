@@ -26,7 +26,7 @@ This method doesn't return any data.
 
 This example sets the height of the specified row measured in points.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.SetRowHeight(0, 30);
 ```

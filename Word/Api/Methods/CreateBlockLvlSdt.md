@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example shows how to add a block level conteiner into the document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 var blockLvlSdt = Api.CreateBlockLvlSdt();
 blockLvlSdt.GetContent().GetElement(0).AddText("This is a block text content control.");

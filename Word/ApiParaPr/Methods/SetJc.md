@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example sets the paragraph contents justification.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let myStyleLeft = doc.CreateStyle("My style with left text alignment");
 let paraPr = myStyleLeft.GetParaPr();

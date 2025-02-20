@@ -22,7 +22,7 @@ string \| string[][]
 
 This example shows how to get a formula of the specified range.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(1);
 oWorksheet.GetRange("C1").SetValue(2);

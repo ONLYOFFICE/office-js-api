@@ -22,7 +22,7 @@ This method doesn't return any data.
 
 This example saves changes to the specified document.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A1").SetValue("This sample text is saved to the worksheet.");
 Api.Save();

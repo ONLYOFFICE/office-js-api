@@ -26,6 +26,6 @@ Enumeration
 
 This example adds a cross-reference to the page containing a heading.
 
-```javascript
+```javascript editor-docx
 paragraph.AddHeadingCrossRef("pageNum", headingParagraph);
 ```

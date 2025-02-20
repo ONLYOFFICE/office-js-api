@@ -24,7 +24,7 @@ boolean
 
 This example sets the screen tip text of the hyperlink.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let run = Api.CreateRun();

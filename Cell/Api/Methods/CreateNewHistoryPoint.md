@@ -22,7 +22,7 @@ This method doesn't return any data.
 
 This example creates a new history point.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A1").SetValue("This is just a sample text.");
 Api.CreateNewHistoryPoint();

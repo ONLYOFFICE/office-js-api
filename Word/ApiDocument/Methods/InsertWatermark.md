@@ -25,7 +25,7 @@ expression.InsertWatermark(sText, bIsDiagonal);
 
 This example inserts a watermark on each document page.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("A watermark was inserted into this document.");

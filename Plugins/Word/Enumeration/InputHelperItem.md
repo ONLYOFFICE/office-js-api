@@ -16,7 +16,7 @@ Object
 
 ## Example
 
-```javascript
+```javascript editor-docx
 var items = [
     { text: "Name1.Family1", id : "0" },
     { text: "Name2.Family2", id : "1" },

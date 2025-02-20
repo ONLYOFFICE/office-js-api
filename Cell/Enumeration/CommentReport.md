@@ -13,6 +13,6 @@ Object.&lt;string, CommentReportRecord[]&gt;
 
 This example shows how to get a report on all comments.
 
-```javascript
+```javascript editor-xlsx
 let commentsReport = oDocument.GetCommentsReport();
 ```

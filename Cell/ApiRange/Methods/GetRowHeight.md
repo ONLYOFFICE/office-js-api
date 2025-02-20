@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example shows how to get the row height value.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 var nHeight = oWorksheet.GetRange("A1").GetRowHeight();
 oWorksheet.GetRange("A1").SetValue("Height: ");

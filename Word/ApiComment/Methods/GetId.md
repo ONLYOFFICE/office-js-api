@@ -22,7 +22,7 @@ string
 
 This example shows how to get the comment ID.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is just a sample text");

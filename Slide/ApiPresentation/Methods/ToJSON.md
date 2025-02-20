@@ -24,7 +24,7 @@ JSON
 
 This example shows how to convert the ApiPresentation object into the JSON object.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var json = oPresentation.ToJSON(true);
 var oPresentationFromJSON = Api.FromJSON(json);

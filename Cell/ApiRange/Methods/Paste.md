@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example pastes the Range object to the specified range.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B4").SetValue("1");
 oWorksheet.GetRange("C4").SetValue("2");

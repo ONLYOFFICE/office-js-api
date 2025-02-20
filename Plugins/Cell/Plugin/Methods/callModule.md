@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 ## Example
 
-```javascript
+```javascript editor-xlsx
 window.Asc.plugin.callModule("./templates/" + _templates[_index][0] + "/script.txt", function(content) {
     _templates_code[_index] = content;
 });

@@ -22,7 +22,7 @@ This method doesn't return any data.
 
 ## Example
 
-```javascript
+```javascript editor-docx
 window.Asc.plugin.attachEvent('onContextMenuShow', function(options) {
 	if (!options) return;
 

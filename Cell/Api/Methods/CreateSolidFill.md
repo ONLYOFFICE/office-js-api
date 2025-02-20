@@ -24,7 +24,7 @@ expression.CreateSolidFill(uniColor);
 
 This example creates a solid fill to apply to the object using a selected solid color as the object background.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 var oRGBColor = Api.CreateRGBColor(255, 111, 61);
 var oFill = Api.CreateSolidFill(oRGBColor);

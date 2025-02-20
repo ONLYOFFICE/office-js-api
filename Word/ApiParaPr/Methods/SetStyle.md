@@ -25,7 +25,7 @@ This method doesn't return any data.
 
 This example sets a style for the paragraph.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let heading6Style = doc.GetStyle("Heading 6");
 let paraPr = heading6Style.GetParaPr();

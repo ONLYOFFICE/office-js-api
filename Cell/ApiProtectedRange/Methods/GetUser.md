@@ -24,7 +24,7 @@ expression.GetUser(sId);
 
 This example changes the user protected range.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.AddProtectedRange("protectedRange", "$A$1:$B$1").AddUser("userId", "name", "CanView");
 var protectedRange = oWorksheet.GetProtectedRange("protectedRange");

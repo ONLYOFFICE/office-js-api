@@ -26,7 +26,7 @@ expression.CreateColorFromRGB(r, g, b);
 
 This example creates an RGB color setting the appropriate values for the red, green and blue color components.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 var oColor = Api.CreateColorFromRGB(255, 111, 61);
 oWorksheet.GetRange("A2").SetValue("Text with color");

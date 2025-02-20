@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example shows how to get a report about all the comments added to the document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph1 = doc.GetElement(0);
 paragraph1.AddText("Commenting");

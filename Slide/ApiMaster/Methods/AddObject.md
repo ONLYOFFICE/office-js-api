@@ -24,7 +24,7 @@ boolean
 
 This example adds an object (image, shape or chart) to the current slide master.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

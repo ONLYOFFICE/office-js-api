@@ -25,7 +25,7 @@ This method doesn't return any data.
 
 This example removes the footer of the specified type from the section.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This page first was with a footer. ");

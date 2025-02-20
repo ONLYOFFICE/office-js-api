@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example shows how to get the nested tables of the specified table.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let table1 = Api.CreateTable(3, 3);
 let table2 = Api.CreateTable(3, 3);

@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example shows how to get an array of ApiName objects.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A1").SetValue("1");
 oWorksheet.GetRange("B1").SetValue("2");

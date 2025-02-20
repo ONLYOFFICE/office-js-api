@@ -24,7 +24,7 @@ boolean
 
 This example pushes a paragraph to actually add it to the container.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();
 let paragraph = Api.CreateParagraph();
