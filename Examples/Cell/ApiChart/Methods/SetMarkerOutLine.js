@@ -1,6 +1,7 @@
 // This example sets the outline to the marker in the specified chart series.
-// Set a stroke as a major vertical gridline.
-// How to add gridlines for the chart.
+// Create the "scatter" chart and set an outline of the specified width and color to its markers.
+// How to use the ApiStroke object as an outline of the chart markers.
+// How to outline the markers of the ApiChart object.
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);

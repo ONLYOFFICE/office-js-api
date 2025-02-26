@@ -1,6 +1,6 @@
-// This example shows how to get table range of a pivot table.
-// How to get table range.
-// Create a pivot table, add data to it then get its range.
+// Returns a Range object that represents the entire pivot table report, including page fields.
+// How to get a pivot table range with page fields.
+// Create the ApiPivotTable object, add data to it then get the ApiRange object for the entire pivot table report, including page fields.
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

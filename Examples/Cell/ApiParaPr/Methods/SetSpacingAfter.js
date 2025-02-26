@@ -1,6 +1,6 @@
 // This example sets the spacing after the current paragraph.
-// How to add spacing after paragraphs using points.
-// Get paragraph from shape's content then add text specifying spacing after a custom text.
+// How to add the spacing after the paragraphs using points.
+// Get a paragraph from the shape's content then add a text specifying the spacing after a custom text.
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

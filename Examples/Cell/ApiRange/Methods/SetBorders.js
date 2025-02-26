@@ -1,5 +1,5 @@
 // This example sets the border to the cell with the parameters specified.
-// How to set thick bottom border for a cell.
+// How to set the thick bottom border to a cell.
 // Get a range and set its border specifying its side, type and color.
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.SetColumnWidth(0, 50);

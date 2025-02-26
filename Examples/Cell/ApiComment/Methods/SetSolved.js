@@ -1,5 +1,5 @@
 // This example marks a comment as solved.
-// How resolve a comment.
+// How to resolve a comment.
 // Resolve a comment, then show its status in the worksheet.
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A1").SetValue("1");

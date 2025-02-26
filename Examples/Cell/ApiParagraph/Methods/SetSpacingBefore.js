@@ -1,6 +1,6 @@
 // This example sets the spacing before the paragraph.
-// How to add spacing before paragraphs using points.
-// Get paragraph from shape's content then add text specifying spacing before a custom text.
+// How to add the spacing before the paragraphs using points.
+// Get a paragraph from the shape's content then add a text specifying the spacing before a custom text.
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

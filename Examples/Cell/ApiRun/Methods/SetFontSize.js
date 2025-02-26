@@ -1,5 +1,5 @@
 // This example sets the font size to the characters of the current text run.
-// How to change font size of a text.
+// How to change the text font size.
 // Create a text run object, resize its font.
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));

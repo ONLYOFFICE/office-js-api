@@ -1,6 +1,6 @@
 // This example shows how to get the paragraph properties.
-// How to get properites of paragraph and set spacing.
-// Get paragraph properites change them, add text and add it to the shape content.
+// How to get properites of a paragraph and set the spacing.
+// Get the paragraph properites, change them, add a text and add the paragraph to the shape content.
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

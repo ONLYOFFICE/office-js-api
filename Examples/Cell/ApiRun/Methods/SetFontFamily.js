@@ -1,6 +1,6 @@
 // This example sets all 4 font slots with the specified font family.
-// How to change font family of a text.
-// Create a text run object, add background color to it.
+// How to change the text font family.
+// Create a text run object and set the "Comic Sans MS" font faminy to it.
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

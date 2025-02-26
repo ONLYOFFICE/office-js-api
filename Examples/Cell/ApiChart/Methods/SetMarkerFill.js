@@ -1,5 +1,7 @@
 // This example sets the fill to the marker in the specified chart series.
-
+// Create the "scatter" chart and apply an RGB color to its markers.
+// How to use the ApiFill object as a color of the chart markers.
+// How to fill the markers of the ApiChart object.
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);
