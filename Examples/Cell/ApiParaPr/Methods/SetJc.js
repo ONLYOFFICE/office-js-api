@@ -1,4 +1,9 @@
 // This example sets the paragraph contents justification.
+
+// How to center a paragraph text.
+
+// Get a paragraph from the shape's content then add a text specifying its justification type.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

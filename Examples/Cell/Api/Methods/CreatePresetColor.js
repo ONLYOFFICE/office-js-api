@@ -1,4 +1,9 @@
 // This example creates a color selecting it from one of the available color presets.
+
+// How to get a color from a preset.
+
+// Color a shape background using a color from a preset. 
+
 var oWorksheet = Api.GetActiveSheet();
 var oPresetColor = Api.CreatePresetColor("peachPuff");
 var oGs1 = Api.CreateGradientStop(oPresetColor, 0);

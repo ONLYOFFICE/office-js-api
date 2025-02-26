@@ -1,3 +1,9 @@
+// This example shows how to return the net present value for a schedule of cash flows.
+
+// How to return the net present value for a schedule of cash flows.
+
+// Use a function to return the net present value.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFunction = Api.GetWorksheetFunction();
 oWorksheet.GetRange("A1").SetValue("Rate");

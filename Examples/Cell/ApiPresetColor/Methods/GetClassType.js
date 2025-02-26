@@ -1,4 +1,9 @@
 // This example gets a class type and inserts it into the document.
+
+// How to get a class type of ApiPresetColor.
+
+// Get a class type of ApiPresetColor and display it in the worksheet.
+
 var oWorksheet = Api.GetActiveSheet();
 var oPresetColor = Api.CreatePresetColor("peachPuff");
 var oGs1 = Api.CreateGradientStop(oPresetColor, 0);

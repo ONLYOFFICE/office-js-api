@@ -1,4 +1,9 @@
 // This example adds a line break to the run position and starts the next element from a new line.
+
+// How to start a sentence on a new line.
+
+// Break two lines of a text run with a line. 
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

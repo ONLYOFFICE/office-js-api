@@ -1,3 +1,9 @@
+// This example shows how to calculate variance based on the entire population of the selected database entries.
+
+// How to estimate variance form the entire population.
+
+// Use function to calculate entire population variance.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFunction = Api.GetWorksheetFunction();
 oWorksheet.GetRange("A1").SetValue("Name");

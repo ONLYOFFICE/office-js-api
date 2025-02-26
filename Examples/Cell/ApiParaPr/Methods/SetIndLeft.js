@@ -1,4 +1,9 @@
 // This example sets the paragraph left side indentation.
+
+// How to change the sentence's left side indentation of the paragraph.
+
+// Get a paragraph from the shape's content then add a text specifying the left side indentation.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

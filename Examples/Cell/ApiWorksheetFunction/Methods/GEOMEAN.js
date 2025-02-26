@@ -1,3 +1,8 @@
+// This example shows how to calculate the geometric mean of positive numeric data.
+
+// How to find the geometric mean.
+
+// Use a function to calculate the geometric mean of positive numeric data.
 
 var oWorksheet = Api.GetActiveSheet();
 var oFunction = Api.GetWorksheetFunction();

@@ -1,4 +1,9 @@
-// This example spicifies the show options for the chart data labels.
+// This example specifies the show options for the chart data labels.
+
+// How to hide chart data labels using options.
+
+// Show only values as chart lables with series index equal to 1 from the array of the data used to build the chart from.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);

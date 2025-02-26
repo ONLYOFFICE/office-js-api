@@ -1,3 +1,9 @@
+// This example shows how to get table style column headers of a pivot table.
+
+// How to get table style column headers.
+
+// Create a pivot table, add data to it then get its table style column headers.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

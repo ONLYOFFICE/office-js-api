@@ -1,4 +1,9 @@
 // This example specifies the visual properties for the minor horizontal gridlines.
+
+// Set a stroke as a minor horizontal gridline.
+
+// How to add gridlines for the chart.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);

@@ -1,4 +1,9 @@
 // This example specifies the languages which will be used to check spelling and grammar (if requested) when processing the contents of this text run.
+
+// How to set a language to the text for grammar checking.
+
+// Create a text run object, change its language to English for grammar check.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

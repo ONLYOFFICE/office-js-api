@@ -1,3 +1,8 @@
+// This example shows how to return statistics that describe an exponential curve matching known data points.
+
+// How to get the statistics of exponential curve matching the data points.
+
+// Use a function to return the statistics of exponential curve matching the data points.
 
 const oWorksheet = Api.GetActiveSheet();
 

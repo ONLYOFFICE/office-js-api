@@ -1,4 +1,9 @@
 // This example sets the fill to the specified chart series.
+
+// How to color chart series.
+
+// Add background solid fill color for a chart seria.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);

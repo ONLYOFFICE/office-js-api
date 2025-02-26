@@ -1,3 +1,9 @@
+// This example shows how to set source of a pivot table.
+
+// How to set source of a table.
+
+// Create a pivot table, add data to it then set its source.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

@@ -1,4 +1,9 @@
 // This example sets the lock value to the specified lock type of the current drawing.
+
+// How to set a lock type of a drawing.
+
+// Create a drawing, set its lock value and display it in the worksheet.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

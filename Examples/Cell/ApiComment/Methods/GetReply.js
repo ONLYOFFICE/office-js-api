@@ -1,4 +1,9 @@
 // This example shows how to get the specified comment reply.
+
+// How to get a reply to the comment.
+
+// Add a cooment reply text to a range of the worksheet.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A1").SetValue("1");
 var oRange = oWorksheet.GetRange("A1");

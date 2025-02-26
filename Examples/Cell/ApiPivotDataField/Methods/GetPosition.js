@@ -1,3 +1,9 @@
+// This example shows how to get a position of a data field.
+
+// How to get a table element position.
+
+// Create a pivot table, add data to it then display a custom data field's position.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

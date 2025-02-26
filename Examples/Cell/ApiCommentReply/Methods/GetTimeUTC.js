@@ -1,4 +1,9 @@
 // This example shows how to get the timestamp of the comment reply creation in UTC format.
+
+// How to get a time in UTC when a reply was created.
+
+// Add a comment reply creation timestamp UTC to a range of the worksheet.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A1").SetValue("1");
 var oRange = oWorksheet.GetRange("A1");

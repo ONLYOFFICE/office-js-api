@@ -1,3 +1,9 @@
+// This example shows how to return the requested statistic for the forecast.
+
+// How to return the requested forecast statistic.
+
+// Use function to return the forecast.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFunction = Api.GetWorksheetFunction();
 var dates = ["10/1/2017", "11/1/2017", "12/1/2017", "1/1/2018", "2/1/2018"];

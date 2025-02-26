@@ -1,3 +1,9 @@
+// This example shows how to return the lognormal distribution of x, where ln(x) is normally distributed with the specified parameters.
+
+// How to get the lognormal distribution of x.
+
+// Use a function to return the lognormal distribution.
+
 const oWorksheet = Api.GetActiveSheet();
 
 //configure function parameters

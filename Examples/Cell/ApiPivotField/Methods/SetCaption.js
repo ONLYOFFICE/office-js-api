@@ -1,3 +1,9 @@
+// This example shows how to set a pivot field caption.
+
+// How to rename a pivot field caption.
+
+// Create a pivot table, add data to it then rename a specified pivot field's caption.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

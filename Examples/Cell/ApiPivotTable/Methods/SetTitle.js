@@ -1,3 +1,9 @@
+// This example shows how to set title of a pivot table.
+
+// How to set table title.
+
+// Create a pivot table, add data to it then set its table title.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

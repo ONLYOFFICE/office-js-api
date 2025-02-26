@@ -1,4 +1,9 @@
 // This example specifies the chart legend position.
+
+// Change the positions of the chart legend.
+
+// How to set right the chart legend.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);

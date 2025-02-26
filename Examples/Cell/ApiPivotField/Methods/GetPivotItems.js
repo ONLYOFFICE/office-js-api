@@ -1,3 +1,9 @@
+// This example shows how to get items of a pivot field.
+
+// How to get a pivot field items.
+
+// Create a pivot table, add data to it then get items of a specified pivot field as an array.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

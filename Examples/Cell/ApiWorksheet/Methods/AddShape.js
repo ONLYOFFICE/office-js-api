@@ -1,4 +1,9 @@
 // This example adds a shape to the sheet with the parameters specified.
+
+// How to add a shape to the worksheet.
+
+// Insert a flowchart shape to the worksheet.
+
 var oWorksheet = Api.GetActiveSheet();
 var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);
 var oGs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);

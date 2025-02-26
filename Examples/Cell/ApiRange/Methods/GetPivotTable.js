@@ -1,3 +1,9 @@
+// This example shows how to get a pivot table of the current range.
+
+// How to get a pivot table of a cell.
+
+// Get a range, get its pivot table and add some data fields to it.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

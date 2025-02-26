@@ -1,3 +1,9 @@
+// This example shows how to get a subtotal name of a pivot field.
+
+// How to get a pivot field's subtotal name.
+
+// Create a pivot table, add data to it then get subtotal name of a specified pivot field.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

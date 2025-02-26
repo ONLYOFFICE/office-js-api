@@ -1,4 +1,9 @@
 // This example sets the comment reply text.
+
+// How to change a reply text.
+
+// Replace a reply text with a new text.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A1").SetValue("1");
 var oRange = oWorksheet.GetRange("A1");

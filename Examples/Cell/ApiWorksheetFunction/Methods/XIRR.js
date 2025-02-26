@@ -1,3 +1,9 @@
+// This example shows how to return the internal rate of return for a schedule of cash flows.
+
+// How to return the internal rate of return.
+
+// Use a function to return the internal rate of return.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFunction = Api.GetWorksheetFunction();
 var values = ["Values", "-$40,000.00", "$10,000.00", "$15,000.00", "$20,000.00"];

@@ -1,3 +1,9 @@
+// This example shows how to set value of a pivot field.
+
+// How to change a pivot field value.
+
+// Create a pivot table, add data to it then set value of a specified pivot.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

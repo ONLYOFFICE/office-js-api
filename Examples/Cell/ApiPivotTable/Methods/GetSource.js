@@ -1,3 +1,9 @@
+// This example shows how to get source of a pivot table.
+
+// How to get table source and its address.
+
+// Create a pivot table, add data to it then get its source.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

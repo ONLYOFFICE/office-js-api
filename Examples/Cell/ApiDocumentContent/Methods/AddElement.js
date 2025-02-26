@@ -1,4 +1,9 @@
 // This example adds a paragraph in document content.
+
+// How to add text to the document using ApiParagraph.
+
+// Update the document content adding a paragraph to it.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

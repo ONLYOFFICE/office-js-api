@@ -1,4 +1,9 @@
 // This example adds a new name to a range of cells.
+
+// How to name a range of cells.
+
+// Name a range according its purpose.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A1").SetValue("1");
 oWorksheet.GetRange("B1").SetValue("2");

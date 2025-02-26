@@ -1,3 +1,9 @@
+// This example shows how to get an orientation of a data field.
+
+// How to get a table element orientation.
+
+// Create a pivot table, add data to it then display a custom data field's orientation.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

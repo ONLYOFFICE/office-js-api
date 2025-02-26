@@ -1,3 +1,9 @@
+// This example shows how to return a confidence interval for the forecast value at the specified target date.
+
+// How to calculate or predict a confidence interval for the forecast value.
+
+// Use a function to get a confidence interval for the forecast value at target date.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFunction = Api.GetWorksheetFunction();
 var dates = ["10/1/2017", "11/1/2017", "12/1/2017", "1/1/2018", "2/1/2018", "3/1/2018"];

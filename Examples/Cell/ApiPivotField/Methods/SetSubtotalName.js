@@ -1,3 +1,9 @@
+// This example shows how to set a subtotal name of a pivot field.
+
+// How to change a pivot field subtotal name.
+
+// Create a pivot table, add data to it then set subtotal name of a specified pivot.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

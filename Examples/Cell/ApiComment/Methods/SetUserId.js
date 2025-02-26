@@ -1,4 +1,9 @@
 // This example sets the user ID to the comment author.
+
+// How to change a comment author ID.
+
+// Replace a comment author ID to a new one.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A1").SetValue("1");
 var oRange = oWorksheet.GetRange("A1");

@@ -1,4 +1,9 @@
 // This example creates a solid fill to apply to the object using a selected solid color as the object background.
+
+// Create a solid fill to set a background color.
+
+// How to create a solid color to fill a shape.
+
 var oWorksheet = Api.GetActiveSheet();
 var oRGBColor = Api.CreateRGBColor(255, 111, 61);
 var oFill = Api.CreateSolidFill(oRGBColor);

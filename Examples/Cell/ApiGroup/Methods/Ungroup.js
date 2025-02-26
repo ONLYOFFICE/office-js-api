@@ -1,4 +1,9 @@
 // This example shows how to ugroup a group drawing element.
+
+// How to remove grouping from the elements.
+
+// Create two shapes group them and then ungroup.
+
 let oWorksheet = Api.GetActiveSheet();
 let oFill1 = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let oFill2 = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));

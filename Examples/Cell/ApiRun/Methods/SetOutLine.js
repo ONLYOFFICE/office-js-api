@@ -1,4 +1,9 @@
 // This example sets the text outline to the current text run
+
+// How to set an outline to the text.
+
+// Create a text run object, change its property by outlining it with a color.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

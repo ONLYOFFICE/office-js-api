@@ -1,3 +1,9 @@
+// This example shows how to get a value of a data field.
+
+// How to use a table element value.
+
+// Create a pivot table, add data to it then display a custom data field's value.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

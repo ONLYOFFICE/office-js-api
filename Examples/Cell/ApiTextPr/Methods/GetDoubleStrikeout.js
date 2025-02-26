@@ -1,3 +1,9 @@
+// This example gets a double strikeout property of a text.
+
+// How to find out whether a text is stroke out with double lines or not.
+
+// Get a text double cross out property.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

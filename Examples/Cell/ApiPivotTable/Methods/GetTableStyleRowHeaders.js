@@ -1,3 +1,9 @@
+// This example shows how to get table style raw headers of a pivot table.
+
+// How to get table style raw headers.
+
+// Create a pivot table, add data to it then get its table style raw headers.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

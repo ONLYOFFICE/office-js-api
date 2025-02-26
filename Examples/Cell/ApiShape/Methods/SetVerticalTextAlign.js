@@ -1,4 +1,9 @@
 // This example sets the vertical alignment to the shape content where a paragraph or text runs can be inserted.
+
+// How to specify a vertical alignment of a shape content.
+
+// Set text vertical alignment of a shape to bottom.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

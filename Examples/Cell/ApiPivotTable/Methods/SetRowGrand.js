@@ -1,3 +1,9 @@
+// This example shows how to set row grand of a pivot table.
+
+// How to set row grand of a table.
+
+// Create a pivot table, add data to it then set its row grand.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

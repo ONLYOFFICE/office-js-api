@@ -1,4 +1,9 @@
 // This example sets the bold property to the text character.
+
+// How to make text bold.
+
+// Create a text run object, update its style by making it bold.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

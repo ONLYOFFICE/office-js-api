@@ -1,3 +1,9 @@
+// This example shows how to set a display field captions of a table.
+
+// How to set a display field captions of a table.
+
+// Create a pivot table, add data to it then set a display field captions.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

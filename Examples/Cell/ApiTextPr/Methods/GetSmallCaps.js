@@ -1,3 +1,9 @@
+// This example gets a text capitalization using its property.
+
+// How to find out whether a text is uncapitalized or not.
+
+// Find whether a text characters are in small caps or not.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

@@ -1,4 +1,9 @@
 // This example sets a name to the active sheet.
+
+// How to set name of the sheet.
+
+// Rename the sheet.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.SetName("sheet 1");
 var sName = oWorksheet.GetName();

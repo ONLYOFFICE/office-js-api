@@ -1,4 +1,9 @@
 // This example shows how to get the comment reply author's name.
+
+// How to get the name of who wrote a reply.
+
+// Get reply author's name and display it in the worksheet. 
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A1").SetValue("1");
 var oRange = oWorksheet.GetRange("A1");

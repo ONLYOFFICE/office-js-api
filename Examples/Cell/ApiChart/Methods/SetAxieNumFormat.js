@@ -1,4 +1,9 @@
 // This example sets the specified numeric format to the axis values.
+
+// How to format numbers of the axis.
+
+// Apply number format for the chart axis using an expression.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);

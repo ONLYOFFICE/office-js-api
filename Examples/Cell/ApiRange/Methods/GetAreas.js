@@ -1,4 +1,9 @@
 // This example shows how to get a collection of the ranges.
+
+// How to get range areas.
+
+// Get range areas, count them and display the result in the worksheet.
+
 var oWorksheet = Api.GetActiveSheet();
 var oRange = oWorksheet.GetRange("B1:D1");
 oRange.SetValue("1");

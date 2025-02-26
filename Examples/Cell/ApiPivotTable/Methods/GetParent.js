@@ -1,3 +1,9 @@
+// This example shows how to get parent of a pivot table.
+
+// How to get table parent and show its name.
+
+// Create a pivot table, add data to it then get its parent.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

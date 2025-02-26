@@ -1,4 +1,9 @@
 // This example shows how to remove the specified series from the current chart.
+
+// How to delete series using indices. 
+
+// Remove seria from the chart using idex number.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);

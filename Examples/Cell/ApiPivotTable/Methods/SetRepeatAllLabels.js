@@ -1,3 +1,9 @@
+// This example shows how to set repeat all labels of a pivot table.
+
+// How to set repeat all labels of a table.
+
+// Create a pivot table, add data to it then set its repeat all labels.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

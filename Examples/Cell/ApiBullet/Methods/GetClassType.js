@@ -1,4 +1,9 @@
 // This example shows how to get a type of the ApiBullet class and insert it into the table.
+
+// How to get a class type of a bullet and show it in the sheet.
+
+// Get a class type of an object.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

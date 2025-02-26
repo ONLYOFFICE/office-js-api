@@ -1,4 +1,9 @@
 // This example shows how to get a number of elements in the current document content.
+
+// How to get a number of elements of a shape from a document content.
+
+// Get a shape than count number of elements and display it using paragraph.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

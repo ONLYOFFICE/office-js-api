@@ -1,3 +1,9 @@
+// This example shows how to get the sum of squares of deviations of data points from their sample mean.
+
+// How to get sum of squares of deviations.
+
+// Use function to get the sum of squares of deviations of data points from their sample mean.
+
 var oWorksheet = Api.GetActiveSheet();
 var argumentsArrA = [34, 244];
 var argumentsArrB = [769, 445];
@@ -6,6 +12,7 @@ var argumentsArrD = [89, 56];
 var argumentsArrE = [98, 13];
 
 // Place the numbers in cells
+
 for (var a = 0; a < argumentsArrA.length; a++) {
     oWorksheet.GetRange("A" + (a + 1)).SetValue(argumentsArrA[a]);
 }
@@ -23,6 +30,7 @@ for (var e = 0; e < argumentsArrE.length; e++) {
 }
 
 // Analyze the range of data 
+
 var oFunction = Api.GetWorksheetFunction();
 var ans = oFunction.DEVSQ(oWorksheet.GetRange("A1:E2"));
 oWorksheet.GetRange("E3").SetValue(ans);
