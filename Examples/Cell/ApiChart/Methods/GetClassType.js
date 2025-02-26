@@ -1,6 +1,9 @@
 // This example gets a class type and inserts it into the table.
+
 // How to show class type on the worksheet.
+
 // Get class type of the chart and insert it in the range.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);

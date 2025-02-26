@@ -1,6 +1,9 @@
 // This example shows how to set layout blank line of a table.
+
 // How to set layout blank line of a table.
+
 // Create a pivot table, add data to it then set layout blank line.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

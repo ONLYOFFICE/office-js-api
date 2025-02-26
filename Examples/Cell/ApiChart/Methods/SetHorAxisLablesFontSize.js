@@ -1,6 +1,9 @@
 // This example sets the font size to the horizontal axis labels.
+
 // How to update font size of the horizontal axis labels.
+
 // Change the size of the horizontal axis labels of the chart.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);

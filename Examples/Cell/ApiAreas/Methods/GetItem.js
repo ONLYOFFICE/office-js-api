@@ -1,6 +1,9 @@
 // This example shows how to get a single object from a collection by its ID.
+
 // How to find an object by its ID from the collection.
+
 // Get element from an array by its ID.
+
 var oWorksheet = Api.GetActiveSheet();
 var oRange = oWorksheet.GetRange("B1:D1");
 oRange.SetValue("1");

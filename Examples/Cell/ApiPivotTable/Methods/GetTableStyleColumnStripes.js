@@ -1,6 +1,9 @@
 // This example shows how to get table style column stripes of a pivot table.
+
 // How to get table style column stripes.
+
 // Create a pivot table, add data to it then get its table style column stripes.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

@@ -1,6 +1,9 @@
 // This example shows how to set a layout subtotals of a pivot field.
+
 // How to change a pivot field layout subtotals.
+
 // Create a pivot table, add data to it then set layout subtotals of a specified pivot.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

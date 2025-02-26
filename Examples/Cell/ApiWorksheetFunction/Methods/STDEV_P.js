@@ -1,6 +1,9 @@
 // This example shows how to calculate standard deviation based on the entire population given as arguments (ignores logical values and text).
+
 // How to calculate standard deviation based on the entire population.
+
 // Use a function to get the standard deviation.
+
 const oWorksheet = Api.GetActiveSheet();
 
 var valueArr = [
@@ -8,6 +11,7 @@ var valueArr = [
 ];
 
 // Place the numbers in cells
+
 for (var i = 0; i < valueArr.length; i++) {
   oWorksheet.GetRange("A" + (i + 1)).SetValue(valueArr[i]);
 }

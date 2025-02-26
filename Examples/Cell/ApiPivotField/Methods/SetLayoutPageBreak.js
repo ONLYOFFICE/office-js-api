@@ -1,6 +1,9 @@
 // This example shows how to set a layout page break of a pivot field.
+
 // How to change a pivot field layout page break.
+
 // Create a pivot table, add data to it then set layout page break of a specified pivot.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

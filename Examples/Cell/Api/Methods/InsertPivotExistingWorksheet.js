@@ -1,6 +1,9 @@
 // This example shows how to insert PivotTable on existing worksheet.
+
 // How to insert a pivot table into a range of an existing worksheet using references.
+
 // Get a pivot table and insert it to the range.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

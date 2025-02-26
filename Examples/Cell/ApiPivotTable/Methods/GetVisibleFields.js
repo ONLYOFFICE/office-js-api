@@ -1,6 +1,9 @@
 // This example shows how to get a visible fields of a pivot table.
+
 // How to get an unhidden fields of a table.
+
 // Create a pivot table, add data to it then get its visible fields.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

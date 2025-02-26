@@ -1,6 +1,9 @@
 // This example clear all added custom functions.
+
 // How to delete custom function library.
+
 // Remove unused custom function library.
+
 Api.AddCustomFunctionLibrary("LibraryName", function(){
     /**
      * Function that returns the argument

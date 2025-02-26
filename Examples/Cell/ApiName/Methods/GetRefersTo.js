@@ -1,6 +1,9 @@
 // This example shows how to get a formula that the name is defined to refer to.
+
 // How to add a defname that refers to the formula from the specified range.
+
 // Add a defname for the formula and then display it in the worksheet.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A1").SetValue("1");
 oWorksheet.GetRange("B1").SetValue("2");

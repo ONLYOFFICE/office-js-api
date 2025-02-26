@@ -1,6 +1,9 @@
 // This example shows how to get an index of a data field.
+
 // How to get a table element index.
+
 // Create a pivot table, add data to it then display a custom data field's index.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

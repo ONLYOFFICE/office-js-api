@@ -1,6 +1,9 @@
 // This example shows how to get a display field captions of a pivot table.
+
 // How to get pivot table display field captions.
+
 // Create a pivot table, add data to it then get its display field captions.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

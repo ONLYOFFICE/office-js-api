@@ -1,6 +1,9 @@
 // This example shows how to set layout subtotals of a table.
+
 // How to set subtotals of a table.
+
 // Create a pivot table, add data to it then set subtotals using a boolean value.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

@@ -1,6 +1,9 @@
 // This example shows how to get row grand of a pivot table.
+
 // How to get table row grand.
+
 // Create a pivot table, add data to it then get its row grand.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

@@ -1,6 +1,9 @@
 // This example shows how to set table style row headers of a pivot table.
+
 // How to set table style row headers of a table.
+
 // Create a pivot table, add data to it then set its table style row headers.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

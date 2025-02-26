@@ -1,6 +1,9 @@
 // This example shows how to set subtotal location of a pivot table.
+
 // How to set subtotal location of a table.
+
 // Create a pivot table, add data to it then set its subtotal location.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

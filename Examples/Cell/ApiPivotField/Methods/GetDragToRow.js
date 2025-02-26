@@ -1,6 +1,9 @@
 // This example shows how to get a drag to row of a pivot field.
+
 // How to get a pivot field drag to row.
+
 // Create a pivot table, add data to it then get a drag to row of a specified pivot field.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

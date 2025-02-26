@@ -1,6 +1,9 @@
 // This example shows how to refresh all pivot tables.
+
 // How to refresh field values of all pivot tables.
+
 // Refresh pivot tables from the worksheet.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

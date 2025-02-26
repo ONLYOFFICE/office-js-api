@@ -1,6 +1,9 @@
 // This example shows how to get style name of a pivot table.
+
 // How to get table style name.
+
 // Create a pivot table, add data to it then get its style name.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

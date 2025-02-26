@@ -1,6 +1,9 @@
 // This example shows how to check whether any of the arguments are true. Returns false only if all arguments are false.
+
 // How to use OR logical operator.
+
 // Use a function to apply OR operation.
+
 const oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange("A1").SetValue(12);

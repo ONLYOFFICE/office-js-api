@@ -1,6 +1,9 @@
 // This example shows how to get an array of ApiName objects.
+
 // How to get all def names.
+
 // Get all def names as an array.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A1").SetValue("1");
 oWorksheet.GetRange("B1").SetValue("2");

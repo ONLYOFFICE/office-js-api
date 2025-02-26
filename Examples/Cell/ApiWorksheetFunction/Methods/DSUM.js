@@ -1,6 +1,9 @@
 // This example shows how to add the numbers in the field (column) of records in the database that match the conditions you specify.
+
 // How to calculate the sum.
+
 // Use function to add values from a range.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFunction = Api.GetWorksheetFunction();
 oWorksheet.GetRange("A1").SetValue("Name");

@@ -1,6 +1,9 @@
 // This example specifies that the contents of the current run are displayed with two horizontal lines through each character displayed on the line.
+
 // How to strikethrough a text with two lines.
+
 // Create a text run object, double cross out it.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

@@ -1,6 +1,9 @@
 // This example gets a class type and inserts it into the document.
+
 // How to get a class type of ApiFill.
+
 // Get a class type of ApiFill and display it in the worksheet.
+
 var oWorksheet = Api.GetActiveSheet();
 var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);
 var oGs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);

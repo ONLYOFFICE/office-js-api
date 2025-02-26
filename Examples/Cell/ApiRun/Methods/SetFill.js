@@ -1,6 +1,9 @@
 // This example sets the text color to the current text run.
+
 // How to color a text object.
+
 // Create a text run object, add a color to it using RGB format.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

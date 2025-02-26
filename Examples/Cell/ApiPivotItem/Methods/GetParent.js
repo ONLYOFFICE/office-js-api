@@ -1,6 +1,9 @@
 // This example shows how to get a parent of a pivot item.
+
 // How to get a pivot item parent.
+
 // Create a pivot table, add data to it then get a parent of a specified pivot item.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

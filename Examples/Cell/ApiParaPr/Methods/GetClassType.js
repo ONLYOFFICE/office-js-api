@@ -1,6 +1,9 @@
 // This example gets a class type and inserts it into the document.
+
 // How to get a class type of ApiParaPr.
+
 // Get a class type of ApiParaPr and display it in the worksheet.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

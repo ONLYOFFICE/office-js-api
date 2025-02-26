@@ -1,6 +1,9 @@
 // This example shows how to set table style row stripes of a pivot table.
+
 // How to set table style row stripes of a table.
+
 // Create a pivot table, add data to it then set its table style row stripes.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

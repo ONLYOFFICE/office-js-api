@@ -1,6 +1,9 @@
 // This example creates a chart of the specified type from the selected data range of the sheet.
+
 // How to add chart to the worksheet.
+
 // Create a chart using data from a range from a worksheet.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);

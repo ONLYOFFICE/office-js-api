@@ -1,6 +1,9 @@
 // This example shows how to get position of a pivot field.
+
 // How to get a pivot field position.
+
 // Create a pivot table, add data to it then get the position of a specified pivot field.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

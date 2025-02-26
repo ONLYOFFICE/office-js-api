@@ -1,6 +1,9 @@
 // This example shows how to get the background color for the cell range.
+
 // How to find out a range background color.
+
 // Get a range get, set its background color using RGB value and show it in the worksheet.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.SetColumnWidth(0, 60);
 var oRange = oWorksheet.GetRange("A1");

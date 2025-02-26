@@ -1,6 +1,9 @@
 // This example sets the strikethrough property to the specified font.
+
 // How to make a text strikethrough.
+
 // Get a font object of characters and make it strikethrough.
+
 var oWorksheet = Api.GetActiveSheet();
 var oRange = oWorksheet.GetRange("B1");
 oRange.SetValue("This is just a sample text.");

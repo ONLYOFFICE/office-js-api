@@ -1,6 +1,9 @@
 // This example shows how to return numbers in a linear trend matching known data points, using the least squares method.
+
 // How to get numbers in a linear trend using the least squares method.
+
 // Use a function to find a linear trend using data points by the least squares method.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFunction = Api.GetWorksheetFunction();
 var month = ["Month", 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];

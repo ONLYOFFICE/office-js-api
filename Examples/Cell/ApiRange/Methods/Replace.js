@@ -1,6 +1,9 @@
 // This example replaces specific information to another one in a range.
+
 // How to replace one data value with another in a range.
+
 // Create a range and replace its data field value with a new one.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);

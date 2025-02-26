@@ -1,6 +1,9 @@
 // This example shows how to get column range of a pivot table.
+
 // How to get column range from a pivot table.
+
 // Create a pivot table, add data to it then get its column range and select them.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

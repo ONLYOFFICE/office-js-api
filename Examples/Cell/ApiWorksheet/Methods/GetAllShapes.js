@@ -1,6 +1,9 @@
 // This example shows how to get all shapes from the sheet.
+
 // How to get all shapes.
+
 // Get all shapes as an array.
+
 var oWorksheet = Api.GetActiveSheet();
 var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);
 var oGs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);

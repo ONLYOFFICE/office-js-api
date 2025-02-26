@@ -1,6 +1,9 @@
 // This example shows how to get the spacing before value of the current paragraph.
+
 // How to get spacing information which is before the paragraph.
+
 // Get two consecutive paragraphs add spacing between them then get the spacing before second one and display it in the worksheet. 
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

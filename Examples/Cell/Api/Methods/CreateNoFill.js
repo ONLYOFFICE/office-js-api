@@ -1,6 +1,9 @@
 // This example creates no fill and removes the fill from the element.
+
 // How to remove fill from the element.
+
 // Set no fill color for the element.
+
 var oWorksheet = Api.GetActiveSheet();
 var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);
 var oGs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);

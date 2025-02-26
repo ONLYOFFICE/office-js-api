@@ -1,6 +1,9 @@
 // This example shows how to set a name for data field.
+
 // How to rename a table element.
+
 // Create a pivot table, add data to it then set a custom data field's name.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

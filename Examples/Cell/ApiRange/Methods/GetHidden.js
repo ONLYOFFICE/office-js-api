@@ -1,6 +1,9 @@
 // This example shows how to get the value hiding property.
+
 // How to find out hidden property from a range.
+
 // Get a range, get its cell hiding property and show it in the worksheet.
+
 var oWorksheet = Api.GetActiveSheet();
 var oRange = oWorksheet.GetRows("1:3");
 oRange.SetHidden(true);

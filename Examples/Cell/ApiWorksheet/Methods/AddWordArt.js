@@ -1,6 +1,9 @@
 // This example adds a Text Art object to the sheet with the parameters specified.
+
 // How to add a word art to the worksheet specifying its properties, color, size, etc.
+
 // Insert a word art to the worksheet.
+
 var oWorksheet = Api.GetActiveSheet();
 var oTextPr = Api.CreateTextPr();
 oTextPr.SetFontSize(72);

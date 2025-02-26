@@ -1,6 +1,9 @@
 // This example recalculates all formulas in the active workbook.
+
 // How to recalculate all formulas in a worksheet.
+
 // Reset all values calculated by formulas.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(1);
 oWorksheet.GetRange("C1").SetValue(2);

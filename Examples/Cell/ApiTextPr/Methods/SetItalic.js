@@ -1,6 +1,9 @@
 // This example sets the italic property to the text character.
+
 // How to make text italic.
+
 // Set italic property of a text.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
