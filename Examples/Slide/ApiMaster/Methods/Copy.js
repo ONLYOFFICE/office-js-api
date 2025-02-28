@@ -1,4 +1,9 @@
 // This example shows how to creates a copy of the specified slide master object.
+
+// How to create a copy of a master.
+
+// Copy a master of a presentation master.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

@@ -1,4 +1,9 @@
-// This example shows how to group drawings on master slide
+// This example shows how to group drawings on master slide.
+
+// How to get a theme knowing a slide master and set its color scheme.
+
+// Get slide master theme.
+
 let oPresentation = Api.GetPresentation();
 let oSlide = oPresentation.GetSlideByIndex(0);
 let oLayout = oSlide.GetLayout();

@@ -1,3 +1,9 @@
+// This example shows how to count number of replies of a comment.
+
+// How to get how many replies a comment has.
+
+// Get all comments from the presentation and the first one's number of replies.
+
 var oPresentation = Api.GetPresentation();
 Api.pluginMethod_AddComment({"UserName": "John Smith", "Text": "Comment 1"});
 var arrComments = oPresentation.GetAllComments();

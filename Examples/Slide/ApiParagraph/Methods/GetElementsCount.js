@@ -1,4 +1,9 @@
 // This example shows how to get a number of elements in the current paragraph.
+
+// How to return the number of elements.
+
+// Find out how many elements a paragraph has.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

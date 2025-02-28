@@ -1,4 +1,9 @@
 // This example shows how to get a placeholder from the current drawing object.
+
+// How to get a placeholder of a slide shape.
+
+// Get a placeholder of a slide shape.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

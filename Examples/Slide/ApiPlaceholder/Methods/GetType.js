@@ -1,4 +1,9 @@
 // This example gets the placeholder type.
+
+// How to get a placeholder type (chart, table, etc.).
+
+// Create a shape and get its placeholder type.
+
 let oPresentation = Api.GetPresentation();
 let oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

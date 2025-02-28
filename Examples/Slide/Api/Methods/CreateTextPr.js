@@ -1,4 +1,9 @@
 // This example shows how to create a text properties and use it.
+
+// How to change text style, size and font.
+
+// Change text properties.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

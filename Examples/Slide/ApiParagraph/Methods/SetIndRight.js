@@ -1,4 +1,9 @@
 // This example sets the paragraph right side indentation.
+
+// How to set paragraph's right side indentation size.
+
+// Resize the right side indentation of a text from a paragraph.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

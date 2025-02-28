@@ -1,4 +1,9 @@
 // This example shows how to get the font scheme of the theme.
+
+// How to get a font scheme from a theme.
+
+// Get a font scheme and display its class type.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

@@ -1,4 +1,9 @@
 // This example sets the lock value to the specified lock type of the shape.
+
+// How to set a no select lock value for a shape.
+
+// Select a shape object from a slide and set its lock value.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

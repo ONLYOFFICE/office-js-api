@@ -1,4 +1,9 @@
 // This example shows how to remove the specified series from the current chart.
+
+// How to delete a chart seria indicating its index.
+
+// Create a chart then delete a seria from it.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

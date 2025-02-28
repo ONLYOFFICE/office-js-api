@@ -1,4 +1,9 @@
 // This example sets the fill to the chart title.
+
+// How to color a chart title.
+
+// Create a chart, set its properties and its title color.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

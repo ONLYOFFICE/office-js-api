@@ -1,4 +1,9 @@
 // This example sets the paragraph right side indentation.
+
+// How to set right side indentation using a paragraph properties.
+
+// Create the paragraph setting its right side indentation property.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

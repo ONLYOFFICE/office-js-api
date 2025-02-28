@@ -1,4 +1,9 @@
 // This example specifies that any lowercase characters in the current text run are formatted for display only as their capital letter character equivalents.
+
+// How to make a text capitalized.
+
+// Create a new text run and make each letters capitalized.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

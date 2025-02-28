@@ -1,3 +1,9 @@
+// This example shows how to set a reply text.
+
+// How to change a text of a reply.
+
+// Get all comments from the presentation and set its first one's reply text.
+
 var oPresentation = Api.GetPresentation();
 Api.pluginMethod_AddComment({"UserName": "John Smith", "Text": "Comment 1"});
 var arrComments = oPresentation.GetAllComments();

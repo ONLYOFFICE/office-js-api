@@ -1,4 +1,9 @@
 // This example shows how to move a layout.
+
+// How to move layout using a position index.
+
+// Move a layout of a slide.
+
 var oPresentation = Api.GetPresentation();
 var oSlide1 = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

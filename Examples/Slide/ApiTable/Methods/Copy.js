@@ -1,4 +1,9 @@
 // This example creates a copy of the table.
+
+// How to copy a table and add it to the slide.
+
+// Create a 2x4 table, its copy and add them to the presentation.
+
 var oPresentation = Api.GetPresentation();
 var oTable = Api.CreateTable(2, 4);
 oTable.AddRow(1, true);

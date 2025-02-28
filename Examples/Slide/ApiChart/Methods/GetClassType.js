@@ -1,4 +1,9 @@
 // This example gets a type of ApiChart class and inserts it into the presentation.
+
+// How get a class type of ApiChart.
+
+// Retrieve class type of ApiChart object and insert it to the slide.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

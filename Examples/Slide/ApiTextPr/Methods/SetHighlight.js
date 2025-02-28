@@ -1,4 +1,9 @@
 // This example specifies a highlighting color which is added to the text properties and applied as a background to the contents of the run.
+
+// How to highlight a text with color.
+
+// Get a text property of the run and highlight it.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

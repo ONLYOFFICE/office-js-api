@@ -1,4 +1,9 @@
 // This example shows how to get the next paragraph.
+
+// How to get the next paragraph from a current one.
+
+// Return the next paragraph from the slide and make its text bold.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

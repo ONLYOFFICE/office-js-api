@@ -1,3 +1,9 @@
+// This example creates a new history point.
+
+// How to add a new history point to the presentation.
+
+// Create a presentation history point.
+
 var oPresentation = Api.GetPresentation();
 Api.pluginMethod_AddComment({"UserName": "John Smith", "Text": "Comment 1"});
 var arrComments = oPresentation.GetAllComments();

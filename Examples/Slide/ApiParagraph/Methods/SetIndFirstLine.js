@@ -1,4 +1,9 @@
 // This example sets the paragraph first line indentation.
+
+// How to set paragraph's first line indentation size.
+
+// Resize th first line indentation of a text from a paragraph.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

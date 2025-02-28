@@ -1,4 +1,9 @@
 // This example specifies that the contents of the run are displayed with two horizontal lines through each character displayed on the line.
+
+// How to strike out a text with two lines.
+
+// Get a text property of the run and cross it out.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

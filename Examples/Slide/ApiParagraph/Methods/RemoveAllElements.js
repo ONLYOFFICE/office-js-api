@@ -1,4 +1,9 @@
 // This example removes all the elements from the paragraph.
+
+// How to delete all elements from the paragraph.
+
+// Clear all elements from the paragraph.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

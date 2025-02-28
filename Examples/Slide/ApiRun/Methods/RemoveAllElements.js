@@ -1,4 +1,9 @@
 // This example removes all the elements from the run.
+
+// How to remove all elements from the text run object.
+
+// Delete text from the slide.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

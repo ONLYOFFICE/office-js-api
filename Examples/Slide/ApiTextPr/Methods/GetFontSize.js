@@ -1,3 +1,9 @@
+// This example shows how to find out a text font size.
+
+// How to know font size of a text run.
+
+// Get a text property of the run and display its font size.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

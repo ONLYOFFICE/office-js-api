@@ -1,4 +1,9 @@
 // This example sets the specified numeric format to the chart series.
+
+// How to rename a chart seria.
+
+// Create a chart, set its properties and its series names.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

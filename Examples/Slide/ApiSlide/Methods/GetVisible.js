@@ -1,3 +1,9 @@
+// This example shows how to get visibility property of the slide.
+
+// How to find out whether a slide visible or not.
+
+// Get a slide, set its visibility and show it in the slide.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = Api.CreateSlide();
 var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);

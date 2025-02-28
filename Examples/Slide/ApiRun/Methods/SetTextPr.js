@@ -1,4 +1,9 @@
 // This example sets the text properties to the current run.
+
+// How to create a new property of a text and apply it to the text run.
+
+// Create a new text run and set its properties like font size, color, etc.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

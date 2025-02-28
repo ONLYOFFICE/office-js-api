@@ -1,4 +1,9 @@
 // This example sets the text spacing measured in twentieths of a point.
+
+// How to change a spacing size of a text.
+
+// Get a text property of the run and resize its spacing (20 * point).
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

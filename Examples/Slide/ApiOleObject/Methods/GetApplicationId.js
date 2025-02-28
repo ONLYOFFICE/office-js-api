@@ -1,4 +1,9 @@
 // This example gets the application ID from the current OLE object.
+
+// How to return an application ID of the current OLE object.
+
+// Get an application ID of a specified OLE object.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

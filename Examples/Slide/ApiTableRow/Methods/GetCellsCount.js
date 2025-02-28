@@ -1,4 +1,9 @@
 // This example gets a number of cells in the row.
+
+// How to return a number of cells from the row.
+
+// Create table, count its cells and display it the slide.
+
 var oPresentation = Api.GetPresentation();
 var oTable = Api.CreateTable(2, 4);
 var oRow = oTable.GetRow(0);

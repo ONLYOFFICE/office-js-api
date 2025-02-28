@@ -1,4 +1,9 @@
 // This example creates a copy of the current theme color scheme.
+
+// How to create a copy of a color scheme.
+
+// Get color scheme and create its copy.
+
 var oPresentation = Api.GetPresentation();
 var oSlide1 = oPresentation.GetSlideByIndex(0);
 oSlide1.RemoveAllObjects();

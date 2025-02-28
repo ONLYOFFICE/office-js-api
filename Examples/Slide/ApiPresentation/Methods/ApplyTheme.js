@@ -1,4 +1,9 @@
 // This example applies a theme to all the slides in the presentation.
+
+// How to apply a theme to the presentation.
+
+// Create a slide and add it to the end of presentation.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

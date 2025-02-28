@@ -1,4 +1,9 @@
 // This example sets the outline to the specified chart series.
+
+// How to outline a chart seria.
+
+// Create a chart, set its properties and its series outline.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

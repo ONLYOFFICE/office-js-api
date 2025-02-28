@@ -1,3 +1,9 @@
+// This example shows how to find out a color of a text.
+
+// How to know a color fill of a text.
+
+// Get a text property of the run and display its font color.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

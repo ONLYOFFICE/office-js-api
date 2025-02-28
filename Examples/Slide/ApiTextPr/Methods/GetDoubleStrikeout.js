@@ -1,3 +1,9 @@
+// This example shows how to find out whether a text is stroke out with two lines.
+
+// How to know whether a text is crossed with two horizontal lines.
+
+// Get a text property of the run and find whether it is stroke out or not.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

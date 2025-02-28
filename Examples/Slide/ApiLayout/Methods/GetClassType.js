@@ -1,4 +1,9 @@
 // This example gets a class type and pastes it into the presentation.
+
+// How get a class type of ApiLayout.
+
+// Retrieve class type of ApiLayout object and insert it to the slide.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

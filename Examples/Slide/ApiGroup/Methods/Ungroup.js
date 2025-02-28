@@ -1,4 +1,9 @@
 // This example shows how to ugroup a group drawing element.
+
+// How to ungroup a grouped drawings.
+
+// How to remove a grouping from objects.
+
 let oPresentation = Api.GetPresentation();
 oPresentation.SetSizes(254 * 36000, 190 * 36000);
 let oSlide = oPresentation.GetCurrentSlide();

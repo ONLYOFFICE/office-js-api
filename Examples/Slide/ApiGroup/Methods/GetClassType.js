@@ -1,4 +1,9 @@
 // This example gets a class type and pastes it into the presentation.
+
+// How get a class type of ApiGroup.
+
+// Retrieve class type of ApiGroup object and insert it to the slide.
+
 let oPresentation = Api.GetPresentation();
 oPresentation.SetSizes(254 * 36000, 190 * 36000);
 let oSlide = oPresentation.GetCurrentSlide();

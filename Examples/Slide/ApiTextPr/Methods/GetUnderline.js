@@ -1,3 +1,9 @@
+// This example shows how to find out whether a text is underlined.
+
+// How to know whether a text is underlined or not.
+
+// Get a text property of the run and find whether it is underlined or not.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

@@ -1,4 +1,9 @@
 // This example shows how to crate a stroke.
+
+// How to add a stroke to the shape.
+
+// Add solid fill and stroke to the shape properties.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

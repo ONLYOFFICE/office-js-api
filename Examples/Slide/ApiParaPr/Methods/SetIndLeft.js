@@ -1,4 +1,9 @@
 // This example sets the paragraph left side indentation.
+
+// How to set left side indentation using a paragraph properties.
+
+// Create the paragraph setting its left side indentation property.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

@@ -1,4 +1,9 @@
 // This example shows how to get the presentation width in English measure units.
+
+// How to get a width of the presentation.
+
+// Get a width of the presentation.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

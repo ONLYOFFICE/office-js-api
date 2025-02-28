@@ -1,4 +1,9 @@
 // This example sets the italic property to the text character.
+
+// How to make a text italic.
+
+// Get a text property of the run and set it italic.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

@@ -1,4 +1,9 @@
 // This example creates a color selecting for create gradient stop.
+
+// How to create a preset color.
+
+// Add a preset color as a gradient stop.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

@@ -1,4 +1,9 @@
 // This example sets pecifies the languages which will be used to check spelling and grammar.
+
+// How to replace an image to another one.
+
+// Replace a current image to another image to the slide.
+
 var oPresentation = Api.GetPresentation();
 oPresentation.SetLanguage("en-CA");
 var oSlide = oPresentation.GetSlideByIndex(0);

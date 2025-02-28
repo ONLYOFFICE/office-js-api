@@ -1,4 +1,9 @@
 // This example adds a run to the paragraph.
+
+// Insert a text to the paragraph.
+
+// How to add text to the slide.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

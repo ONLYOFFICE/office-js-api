@@ -1,4 +1,9 @@
 // This example shows how to create placeholder for shape.
+
+// How to change a placeholder type of an object.
+
+// Add a placeholder to the shape.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

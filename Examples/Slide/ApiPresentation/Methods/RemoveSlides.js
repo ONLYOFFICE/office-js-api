@@ -1,4 +1,9 @@
 // This example shows how to remove a range of slides from the presentation.
+
+// How to remove the slide from the presentation.
+
+// Delete a slide from the presentation.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = Api.CreateSlide();
 var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);

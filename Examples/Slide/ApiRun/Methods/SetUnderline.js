@@ -1,4 +1,9 @@
 // This example specifies that the contents of the current run are displayed along with a line appearing directly below the character (less than all the spacing above and below the characters on the line).
+
+// How to create a new text and underline it.
+
+// Create a new text run and underline it.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

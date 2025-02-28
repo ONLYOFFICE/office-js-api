@@ -1,4 +1,9 @@
 // This example adds an object (image, shape or chart) to the current presentation slide.
+
+// How to add an element to the slide.
+
+// Adjust vertical alignment of the text inside the shape.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

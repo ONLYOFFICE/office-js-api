@@ -1,4 +1,9 @@
 // This example specifies the vertical alignment for text within the current table cell.
+
+// How to set cell text vertical alignment.
+
+// Create table and set its text alignment of its cell from the row.
+
 var oPresentation = Api.GetPresentation();
 var oTable = Api.CreateTable(2, 4);
 var oRow = oTable.GetRow(1);

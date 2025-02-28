@@ -1,4 +1,9 @@
 // This example sets the border which shall be displayed at the left of the table cell.
+
+// How to set cell left border with its fill color.
+
+// Create table and set its cell left border.
+
 var oPresentation = Api.GetPresentation();
 var oTable = Api.CreateTable(2, 4);
 var oRow = oTable.GetRow(0);

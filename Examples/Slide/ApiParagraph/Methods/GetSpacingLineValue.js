@@ -1,4 +1,9 @@
 // This example shows how to get the paragraph line spacing value.
+
+// How to get the size of a spacing line from a paragraph.
+
+// Return a spacing line size property of a paragraph.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

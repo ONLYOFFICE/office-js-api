@@ -1,4 +1,9 @@
 // This example specifies the chart legend position.
+
+// How to outline a chart legend.
+
+// Create a chart, set its properties and its legend's outline.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

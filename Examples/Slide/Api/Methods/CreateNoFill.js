@@ -1,4 +1,9 @@
 // This example creates no fill and removes the fill from the element.
+
+// How to remove background fill from the object.
+
+// Create no fill and apply it to the element.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

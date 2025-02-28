@@ -1,4 +1,9 @@
-// This example creastes a copy of slide layout and apply it for other slide.
+// This example creates a copy of slide layout and apply it for other slide.
+
+// How to create a copy of a layout.
+
+// Copy a layout of a presentation master.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

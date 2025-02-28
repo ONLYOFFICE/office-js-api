@@ -1,4 +1,9 @@
 // This example sets the text color to the text run.
+
+// How to change a color of a text.
+
+// Get a text property of the run and color its font.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

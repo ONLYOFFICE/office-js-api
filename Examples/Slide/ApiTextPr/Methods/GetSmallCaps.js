@@ -1,3 +1,9 @@
+// This example shows how to find out whether a text is uncapitalized.
+
+// How to know whether text letters are lowercase or not.
+
+// Get a text property of the run and find whether it is uncapitalized or not.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

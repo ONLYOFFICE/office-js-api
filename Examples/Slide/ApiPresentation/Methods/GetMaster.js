@@ -1,4 +1,9 @@
 // This example shows how to get a slide master by its position in the presentation.
+
+// How to get a slide master from the presentation.
+
+// Get a slide master of the presentation using its index.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

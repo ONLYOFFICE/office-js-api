@@ -1,4 +1,9 @@
 // This example sets the spacing before the current paragraph.
+
+// How to set the size of a spacing before a text from a paragraph properties.
+
+// Change a spacing before size property of a paragraph properties.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

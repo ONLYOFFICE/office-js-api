@@ -1,4 +1,9 @@
 // This example creates a linear gradient fill to apply to the object using the selected linear gradient as the object background.
+
+// How to create a linear gradient fill to set it as a drawing background.
+
+// Change a drawing background using gradient fill.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

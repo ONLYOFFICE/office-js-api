@@ -1,4 +1,9 @@
 // This example show how to create a group.
+
+// How to create a group of drawings.
+
+// Group the specified list of shapes.
+
 let oPresentation = Api.GetPresentation();
 let oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

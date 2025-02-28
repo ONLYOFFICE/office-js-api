@@ -1,4 +1,9 @@
 // This example sets the data to the current OLE object.
+
+// Set data of an OLE object.
+
+// How to insert a url address to the OLE object.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

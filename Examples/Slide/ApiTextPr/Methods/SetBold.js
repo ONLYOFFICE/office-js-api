@@ -1,4 +1,9 @@
 // This example sets the bold property to the text character.
+
+// How to make a text bold.
+
+// Get a text property of the run and set it bold.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

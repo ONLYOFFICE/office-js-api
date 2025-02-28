@@ -1,4 +1,9 @@
 // This example sets the size to the current presentation.
+
+// How to replace an image to another one.
+
+// Replace a current image to another image to the slide.
+
 var oPresentation = Api.GetPresentation();
 oPresentation.SetSizes(254 * 36000, 190 * 36000);
 var oSlide = oPresentation.GetSlideByIndex(0);
