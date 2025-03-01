@@ -23,6 +23,10 @@ This method doesn't have any parameters.
 This example shows how to get an object that represents the active sheet.
 
 ```javascript editor-xlsx
+// How to get an active sheet object.
+
+// Get worksheet.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue("2");
 oWorksheet.GetRange("B2").SetValue("2");

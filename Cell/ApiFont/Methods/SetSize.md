@@ -26,6 +26,10 @@ This method doesn't return any data.
 This example sets the font size property to the specified font.
 
 ```javascript editor-xlsx
+// How to change the font size.
+
+// Get a font object of characters and resize it.
+
 var oWorksheet = Api.GetActiveSheet();
 var oRange = oWorksheet.GetRange("B1");
 oRange.SetValue("This is just a sample text.");

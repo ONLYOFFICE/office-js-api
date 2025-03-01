@@ -24,7 +24,7 @@ expression.SetTableBorderInsideV(sType, nSize, nSpace, r, g, b);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 

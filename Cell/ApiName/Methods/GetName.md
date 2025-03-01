@@ -23,6 +23,10 @@ string
 This example shows how to get a type of the ApiName class.
 
 ```javascript editor-xlsx
+// How to retrieve name of ApiName class object.
+
+// Get name of a specified object.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A1").SetValue("1");
 oWorksheet.GetRange("B1").SetValue("2");

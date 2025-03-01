@@ -22,9 +22,13 @@ This method doesn't return any data.
 
 ## Example
 
-
+This example shows how to set a repeate labels of a pivot field.
 
 ```javascript editor-xlsx
+// How to change a pivot field repeated labels.
+
+// Create a pivot table, add data to it then add repeat labels of a specified pivot.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

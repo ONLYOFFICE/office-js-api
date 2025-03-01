@@ -23,6 +23,10 @@ This method doesn't have any parameters.
 This example shows how to get the paragraph right side indentation.
 
 ```javascript editor-xlsx
+// How to get a right indent of a paragraph.
+
+// Get the right paragraph indent by the side.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

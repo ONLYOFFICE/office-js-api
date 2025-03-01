@@ -23,9 +23,13 @@ This method doesn't return any data.
 
 ## Example
 
-
+This example shows how to move a pivot field.
 
 ```javascript editor-xlsx
+// How to change the position a pivot field.
+
+// Create a pivot table, add data to it then move a specified pivot field by columns.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

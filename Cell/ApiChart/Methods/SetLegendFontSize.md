@@ -18,13 +18,17 @@ expression.SetLegendFontSize(nFontSize);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 
 This example specifies the legend font size.
 
 ```javascript editor-xlsx
+// How to change the font size of the chart legend.
+
+// Resize the font of the chart legend.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);

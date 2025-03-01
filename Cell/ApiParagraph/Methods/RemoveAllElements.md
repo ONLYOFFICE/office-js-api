@@ -18,13 +18,17 @@ This method doesn't have any parameters.
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 
 This example removes all the elements from the current paragraph.
 
 ```javascript editor-xlsx
+// How to clear a content from the paragraph.
+
+// Create a paragraph, add a text to it then delete all elements from it.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

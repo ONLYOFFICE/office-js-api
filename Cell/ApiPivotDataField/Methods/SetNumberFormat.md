@@ -22,9 +22,13 @@ This method doesn't return any data.
 
 ## Example
 
-
+This example shows how to set a number format for data field.
 
 ```javascript editor-xlsx
+// How to change a number format a table element.
+
+// Create a pivot table, add data to it then set a custom data field's number format.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

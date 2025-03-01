@@ -20,9 +20,13 @@ This method doesn't have any parameters.
 
 ## Example
 
-
+This example shows how to get a function of a data field.
 
 ```javascript editor-xlsx
+// How to get a table element function.
+
+// Create a pivot table, add data to it then display a custom data field's function.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

@@ -20,9 +20,13 @@ number
 
 ## Example
 
-
+This example shows how to return the current date and time in the MM/dd/yy hh:mm format.
 
 ```javascript editor-xlsx
+// How to get a current date in the specified format.
+
+// Use a function to get a current date and time in the specified format.
+
 const oWorksheet = Api.GetActiveSheet();
 
 var oFunction = Api.GetWorksheetFunction();

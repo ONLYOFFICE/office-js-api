@@ -22,9 +22,13 @@ This method doesn't return any data.
 
 ## Example
 
-
+This example shows how to set a display field captions of a table.
 
 ```javascript editor-xlsx
+// How to set a display field captions of a table.
+
+// Create a pivot table, add data to it then set a display field captions.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

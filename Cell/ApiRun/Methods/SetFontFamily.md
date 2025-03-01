@@ -25,6 +25,10 @@ expression.SetFontFamily(sFontFamily);
 This example sets all 4 font slots with the specified font family.
 
 ```javascript editor-xlsx
+// How to change a font family of a text.
+
+// Set text font family.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

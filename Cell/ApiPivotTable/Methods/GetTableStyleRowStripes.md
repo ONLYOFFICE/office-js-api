@@ -20,9 +20,13 @@ boolean
 
 ## Example
 
-
+This example shows how to get table style row stripes of a pivot table.
 
 ```javascript editor-xlsx
+// How to get table style row stripes.
+
+// Create a pivot table, add data to it then get its table style row stripes.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

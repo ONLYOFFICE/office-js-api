@@ -20,9 +20,13 @@ This method doesn't have any parameters.
 
 ## Example
 
-
+This example shows how to get a data body range.
 
 ```javascript editor-xlsx
+// How to get a field a data body range from a pivot table.
+
+// Create a pivot table, add data to it then get a data body range and select it.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

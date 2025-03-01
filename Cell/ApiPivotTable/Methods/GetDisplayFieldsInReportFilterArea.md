@@ -20,9 +20,13 @@ This method doesn't have any parameters.
 
 ## Example
 
-
+This example shows how to get a display fields in report filter area of a pivot table.
 
 ```javascript editor-xlsx
+// How to get a display fields in report filter area value.
+
+// Create a pivot table, add data to it then get its display the value of a display fields in report filter.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

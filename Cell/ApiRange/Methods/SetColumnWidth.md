@@ -27,6 +27,10 @@ This method doesn't return any data.
 This example sets the width of all the columns in the range.
 
 ```javascript editor-xlsx
+// How to make a cell column wider.
+
+// Get a range and set its column width.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A1").SetColumnWidth(20);
 ```

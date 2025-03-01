@@ -22,13 +22,17 @@ expression.SetSpacingLine(nLine, sLineRule);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 
 This example sets the paragraph line spacing.
 
 ```javascript editor-xlsx
+// How to add a spacing line between paragraphs.
+
+// Get a paragraph from the shape's content then add a text specifying spacing between text lines.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

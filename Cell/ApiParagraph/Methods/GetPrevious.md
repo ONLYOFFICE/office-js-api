@@ -23,6 +23,10 @@ This method doesn't have any parameters.
 This example shows how to get the previous paragraph.
 
 ```javascript editor-xlsx
+// How to get the previous paragraph from the current one.
+
+// Add two paragraphs into the shape content then get the first one using the GetPrevious method.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

@@ -18,7 +18,7 @@ expression.SetLegendFontSize(nFontSize);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 

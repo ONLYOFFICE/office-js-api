@@ -23,6 +23,10 @@ Number
 This example shows how to get a number of the comment replies.
 
 ```javascript editor-xlsx
+// How to get a number of replies to the comment.
+
+// Add a comment to the range and display its replies count in the worksheet.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A1").SetValue("1");
 var oRange = oWorksheet.GetRange("A1");

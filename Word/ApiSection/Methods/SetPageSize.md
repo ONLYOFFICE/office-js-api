@@ -20,7 +20,7 @@ expression.SetPageSize(nWidth, nHeight, isPortrait);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 

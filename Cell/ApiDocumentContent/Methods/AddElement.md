@@ -19,13 +19,17 @@ expression.AddElement(nPos, oElement);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 
 This example adds a paragraph in document content.
 
 ```javascript editor-xlsx
+// How to add text to the document using ApiParagraph.
+
+// Update the document content adding a paragraph to it.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

@@ -23,9 +23,13 @@ expression.InsertPivotNewWorksheet(dataRef, newSheetName);
 
 ## Example
 
-
+This example shows how to insert PivotTable on a new worksheet.
 
 ```javascript editor-xlsx
+// How to insert a pivot table into a range of a new worksheet using references.
+
+// Get an existing pivot table and insert it to the range of a new worksheet.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

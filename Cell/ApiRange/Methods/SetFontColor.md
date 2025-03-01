@@ -25,6 +25,10 @@ This method doesn't return any data.
 This example sets the text color to the cell range.
 
 ```javascript editor-xlsx
+// How to color a cell text.
+
+// Get a range and apply an RGB color to its text color.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A2").SetFontColor(Api.CreateColorFromRGB(255, 111, 61));
 oWorksheet.GetRange("A2").SetValue("This is the text with a color set to it");

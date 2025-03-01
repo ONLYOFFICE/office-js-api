@@ -22,7 +22,7 @@ expression.SetShd(sType, r, g, b, isAuto);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 

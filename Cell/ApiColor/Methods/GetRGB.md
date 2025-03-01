@@ -20,9 +20,13 @@ number
 
 ## Example
 
-
+This example gets an RGB format of a color and inserts it into the table.
 
 ```javascript editor-xlsx
+// How to get a RGB color format.
+
+// Convert a color to the RGB values.
+
 var oWorksheet = Api.GetActiveSheet();
 var oColor = Api.CreateColorFromRGB(255, 111, 61);
 oWorksheet.GetRange("A2").SetValue("Text with color");

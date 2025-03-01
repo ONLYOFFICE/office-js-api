@@ -26,9 +26,13 @@ number
 
 ## Example
 
-
+This example shows how to add the cells specified by a given set of conditions or criteria.
 
 ```javascript editor-xlsx
+// How to sum up all elements under conditions.
+
+// Use a function to estimate a sum from the cells by a given condition.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFunction = Api.GetWorksheetFunction();
 var year = [2016, 2016, 2016, 2017, 2017, 2017];

@@ -20,9 +20,13 @@ number
 
 ## Example
 
-
+This example shows how to get an index of a pivot field.
 
 ```javascript editor-xlsx
+// How to get a pivot field's index.
+
+// Create a pivot table, add data to it then get an index of a specified pivot field.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

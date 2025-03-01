@@ -25,6 +25,10 @@ This method doesn't return any data.
 This example sets a string value that represents the text of the specified range of characters.
 
 ```javascript editor-xlsx
+// How to add a label for the specified characters.
+
+// Set a caption for the characters collection.
+
 var oWorksheet = Api.GetActiveSheet();
 var oRange = oWorksheet.GetRange("B1");
 oRange.SetValue("This is just a sample text.");

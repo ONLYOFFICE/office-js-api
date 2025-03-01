@@ -15,6 +15,7 @@ Represents the ApiTablePr class.
 - [SetTableBorderRight](./Methods/SetTableBorderRight.md)
 - [SetTableBorderInsideH](./Methods/SetTableBorderInsideH.md)
 - [SetTableBorderInsideV](./Methods/SetTableBorderInsideV.md)
+- [SetTableBorderAll](./Methods/SetTableBorderAll.md)
 - [SetTableCellMarginBottom](./Methods/SetTableCellMarginBottom.md)
 - [SetTableCellMarginLeft](./Methods/SetTableCellMarginLeft.md)
 - [SetTableCellMarginRight](./Methods/SetTableCellMarginRight.md)

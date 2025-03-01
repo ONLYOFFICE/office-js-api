@@ -18,13 +18,17 @@ expression.RemoveElement(nPos);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 
 This example removes an element using the position specified.
 
 ```javascript editor-xlsx
+// How to remove an element from a document knowing its position in the document content.
+
+// Delete an element from a document and prove it by showing the difference.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

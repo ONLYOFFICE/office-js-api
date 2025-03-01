@@ -22,9 +22,13 @@ number
 
 ## Example
 
-
+This example shows how to convert a value to a number, dates to serial numbers, true to 1, error to &#123;@link global#ErrorValue ErrorValue&#125;, anything else to 0 (zero).
 
 ```javascript editor-xlsx
+// How to convert an object to a number.
+
+// Use a function to get a number from any data type.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFunction = Api.GetWorksheetFunction();
 oWorksheet.GetRange("A1").SetValue(oFunction.N(false));

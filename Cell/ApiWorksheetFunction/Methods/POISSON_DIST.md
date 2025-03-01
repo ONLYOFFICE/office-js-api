@@ -24,9 +24,13 @@ number
 
 ## Example
 
-
+This example shows how to calculate the Poisson distribution.
 
 ```javascript editor-xlsx
+// How to return the Poisson distribution.
+
+// Use a function to calculate the Poisson distribution.
+
 const oWorksheet = Api.GetActiveSheet();
 
 //method params

@@ -25,9 +25,13 @@ number \| string
 
 ## Example
 
-
+This example shows how to look for a value in the leftmost column of a table and then returns a value in the same row from the specified column. By default, the table must be sorted in an ascending order.
 
 ```javascript editor-xlsx
+// How to look for a value in the leftmost column of a table.
+
+// Use a find a value in the leftmost column of a table and display it in the row.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFunction = Api.GetWorksheetFunction();
 var ids = ["ID", 1, 2, 3, 4, 5];

@@ -25,6 +25,10 @@ This method doesn't return any data.
 This example specifies whether a number in the cell should be treated like number, currency, date, time, etc. or just like text.
 
 ```javascript editor-xlsx
+// How to set number format of cells.
+
+// Get a range and specify number format of its cells.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.SetColumnWidth(0, 30);
 oWorksheet.SetColumnWidth(1, 30);

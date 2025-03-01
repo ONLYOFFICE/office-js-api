@@ -18,13 +18,17 @@ expression.SetVerAxisOrientation(bIsMinMax);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 
 This example specifies the direction of the data displayed on the vertical axis.
 
 ```javascript editor-xlsx
+// How to indicate the direction of values of the chart vertical axis.
+
+// Specify the vertical axis orientation.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);

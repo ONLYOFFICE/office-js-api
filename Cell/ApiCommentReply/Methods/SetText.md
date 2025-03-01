@@ -25,6 +25,10 @@ This method doesn't return any data.
 This example sets the comment reply text.
 
 ```javascript editor-xlsx
+// How to change a reply text.
+
+// Replace a reply text with a new text.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A1").SetValue("1");
 var oRange = oWorksheet.GetRange("A1");

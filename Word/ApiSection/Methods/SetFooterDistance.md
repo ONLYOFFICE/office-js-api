@@ -18,7 +18,7 @@ expression.SetFooterDistance(nDistance);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 

@@ -23,9 +23,13 @@ number \| string \| boolean
 
 ## Example
 
-
+This example shows how to check if there is an error in the formula in the first argument. The function returns the specified value if the formula returns the N/A error value, otherwise returns the result of the formula.
 
 ```javascript editor-xlsx
+// How to check whether a formula result is N/A.
+
+// Use a function to get a result from a formula if an error occurs show specified error message.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFunction = Api.GetWorksheetFunction();
 var ids = ["ID", 1, 2, 3, 4, 5];

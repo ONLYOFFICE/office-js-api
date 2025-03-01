@@ -23,6 +23,10 @@ This method doesn't have any parameters.
 This example shows how to get the ApiComment object of the range.
 
 ```javascript editor-xlsx
+// How to get a range comment.
+
+// Get a range, get its comment and show its text in the worksheet.
+
 var oWorksheet = Api.GetActiveSheet();
 var oRange = oWorksheet.GetRange("A1");
 oRange.SetValue("1");

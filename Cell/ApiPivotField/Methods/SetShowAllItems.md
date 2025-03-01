@@ -22,9 +22,13 @@ This method doesn't return any data.
 
 ## Example
 
-
+This example shows how to set a show all items of a pivot field.
 
 ```javascript editor-xlsx
+// How to change a pivot field show all items value.
+
+// Create a pivot table, add data to it then set show all items of a specified pivot.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

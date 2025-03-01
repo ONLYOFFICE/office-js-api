@@ -22,9 +22,13 @@ This method doesn't return any data.
 
 ## Example
 
-
+This example shows how to set a function for data field.
 
 ```javascript editor-xlsx
+// How to change a function of a table element.
+
+// Create a pivot table, add data to it then set a custom data field's function.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

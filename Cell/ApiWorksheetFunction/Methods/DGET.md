@@ -24,9 +24,13 @@ number
 
 ## Example
 
-
+This example shows how to extract from a database a single record that matches the conditions you specify.
 
 ```javascript editor-xlsx
+// How to get a value from a database range that satisfies a condition.
+
+// Use function to get a record after applying condition.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFunction = Api.GetWorksheetFunction();
 oWorksheet.GetRange("A1").SetValue("Name");

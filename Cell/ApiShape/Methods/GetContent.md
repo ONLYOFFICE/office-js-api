@@ -23,6 +23,10 @@ This method doesn't have any parameters.
 This example shows how to get the shape inner contents where a paragraph or text runs can be inserted.
 
 ```javascript editor-xlsx
+// How to get content of ApiShape.
+
+// Get content of ApiShape, remove all its elements and add a new paragraph to it.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

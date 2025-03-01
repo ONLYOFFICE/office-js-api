@@ -26,6 +26,10 @@ expression.CreateGradientStop(uniColor, pos);
 This example creates a gradient stop used for different types of gradients.
 
 ```javascript editor-xlsx
+// How to create a gradient background using gradient stop.
+
+// Create a shape with a gradient background using gradient stop.
+
 var oWorksheet = Api.GetActiveSheet();
 var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);
 var oGs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);

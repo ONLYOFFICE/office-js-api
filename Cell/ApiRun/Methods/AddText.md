@@ -18,13 +18,17 @@ expression.AddText(sText);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 
 This example adds some text to the run.
 
 ```javascript editor-xlsx
+// How to add a text to the run.
+
+// Get a paragraph and add a text to it.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

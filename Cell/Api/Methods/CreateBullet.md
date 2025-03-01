@@ -25,6 +25,10 @@ expression.CreateBullet(sSymbol);
 This example creates a bullet for a paragraph.
 
 ```javascript editor-xlsx
+// Add paragraph with a custom bullet.
+
+// How to create a custom bullet for a paragraph.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

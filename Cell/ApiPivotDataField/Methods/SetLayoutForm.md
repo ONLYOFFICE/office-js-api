@@ -22,9 +22,13 @@ This method doesn't return any data.
 
 ## Example
 
-
+This example shows how to set a layout form of a pivot field.
 
 ```javascript editor-xlsx
+// How to change a pivot field layout form.
+
+// Create a pivot table, add data to it then set layout form of a specified pivot.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

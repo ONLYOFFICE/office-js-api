@@ -20,13 +20,17 @@ expression.SetVerAxisTitle(sTitle, nFontSize, bIsBold);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 
 This example specifies the chart vertical axis title.
 
 ```javascript editor-xlsx
+// How to add title for the chart vertical axis.
+
+// Specify the chart vertical axis title.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);

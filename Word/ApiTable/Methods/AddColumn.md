@@ -19,7 +19,7 @@ expression.AddColumn(oCell, isBefore);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 

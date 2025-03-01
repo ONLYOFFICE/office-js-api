@@ -20,7 +20,7 @@ expression.SetWidth(sType, nValue);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 

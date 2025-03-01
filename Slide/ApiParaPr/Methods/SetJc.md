@@ -18,7 +18,7 @@ expression.SetJc(sJc);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 

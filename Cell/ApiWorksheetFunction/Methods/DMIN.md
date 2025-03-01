@@ -24,9 +24,13 @@ number
 
 ## Example
 
-
+This example shows how to get the smallest number in the field (column) of records in the database that match the conditions you specify.
 
 ```javascript editor-xlsx
+// How to get the minimum number from the database column that match the conditions you specify.
+
+// Use function to get the minimum number from the database column that satisfies the conditions.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFunction = Api.GetWorksheetFunction();
 oWorksheet.GetRange("A1").SetValue("Name");

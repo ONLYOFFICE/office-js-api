@@ -23,6 +23,10 @@ This method doesn't have any parameters.
 This example creates the empty text properties.
 
 ```javascript editor-xlsx
+// How to set custom properties for an empty text.
+
+// Change a new text properties like font size, font style, etc.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

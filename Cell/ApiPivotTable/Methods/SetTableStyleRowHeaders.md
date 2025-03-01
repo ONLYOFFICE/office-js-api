@@ -22,9 +22,13 @@ This method doesn't return any data.
 
 ## Example
 
-
+This example shows how to set table style row headers of a pivot table.
 
 ```javascript editor-xlsx
+// How to set table style row headers of a table.
+
+// Create a pivot table, add data to it then set its table style row headers.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

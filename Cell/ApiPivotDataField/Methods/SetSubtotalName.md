@@ -22,9 +22,13 @@ This method doesn't return any data.
 
 ## Example
 
-
+This example shows how to set a subtotal name of a pivot field.
 
 ```javascript editor-xlsx
+// How to change a pivot field subtotal name.
+
+// Create a pivot table, add data to it then set subtotal name of a specified pivot.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

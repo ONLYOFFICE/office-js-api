@@ -23,9 +23,13 @@ expression.GetPivotFields(field);
 
 ## Example
 
-
+This example shows how to get pivot fields of a pivot table.
 
 ```javascript editor-xlsx
+// How to get table pivot fields as an array of fields.
+
+// Create a pivot table, add data to it then get its pivot fields.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

@@ -22,9 +22,13 @@ number
 
 ## Example
 
-
+This example shows how to return the minute, a number from 0 to 59.
 
 ```javascript editor-xlsx
+// How to get a minute from a time.
+
+// Use a function to get minutes from a time object.
+
 const oWorksheet = Api.GetActiveSheet();
 
 var oFunction = Api.GetWorksheetFunction();

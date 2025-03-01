@@ -22,3 +22,5 @@ Represents the ApiDocumentContent class.
 - [GetAllParagraphs](./Methods/GetAllParagraphs.md)
 - [GetAllTables](./Methods/GetAllTables.md)
 - [GetText](./Methods/GetText.md)
+- [GetCurrentParagraph](./Methods/GetCurrentParagraph.md)
+- [GetCurrentRun](./Methods/GetCurrentRun.md)

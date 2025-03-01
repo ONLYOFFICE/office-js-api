@@ -84,6 +84,7 @@ Represents the ApiDocument class.
 - [ReplaceCurrentSentence](./Methods/ReplaceCurrentSentence.md)
 - [AddMathEquation](./Methods/AddMathEquation.md)
 - [GroupDrawings](./Methods/GroupDrawings.md)
+- [MoveCursorToPos](./Methods/MoveCursorToPos.md)
 - [GetClassType](./Methods/GetClassType.md)
 - [GetElementsCount](./Methods/GetElementsCount.md)
 - [GetElement](./Methods/GetElement.md)
@@ -102,3 +103,5 @@ Represents the ApiDocument class.
 - [GetAllParagraphs](./Methods/GetAllParagraphs.md)
 - [GetAllTables](./Methods/GetAllTables.md)
 - [GetText](./Methods/GetText.md)
+- [GetCurrentParagraph](./Methods/GetCurrentParagraph.md)
+- [GetCurrentRun](./Methods/GetCurrentRun.md)

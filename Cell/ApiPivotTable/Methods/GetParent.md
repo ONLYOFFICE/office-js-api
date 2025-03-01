@@ -20,9 +20,13 @@ This method doesn't have any parameters.
 
 ## Example
 
-
+This example shows how to get parent of a pivot table.
 
 ```javascript editor-xlsx
+// How to get table parent and show its name.
+
+// Create a pivot table, add data to it then get its parent.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

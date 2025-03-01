@@ -26,6 +26,10 @@ This method doesn't return any data.
 This example sets the subscript property to the specified font.
 
 ```javascript editor-xlsx
+// How to change a regular text to a subscript.
+
+// Get a font object of characters and make it subscript.
+
 var oWorksheet = Api.GetActiveSheet();
 var oRange = oWorksheet.GetRange("B1");
 oRange.SetValue("This is just a sample text.");

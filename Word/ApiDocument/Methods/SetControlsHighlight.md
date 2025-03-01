@@ -21,7 +21,7 @@ expression.SetControlsHighlight(r, g, b, bNone);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 

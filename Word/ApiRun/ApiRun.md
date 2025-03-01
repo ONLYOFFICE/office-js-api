@@ -22,6 +22,7 @@ Represents the ApiRun class.
 - [GetParentContentControl](./Methods/GetParentContentControl.md)
 - [GetParentTable](./Methods/GetParentTable.md)
 - [GetParentTableCell](./Methods/GetParentTableCell.md)
+- [GetParentParagraph](./Methods/GetParentParagraph.md)
 - [SetTextPr](./Methods/SetTextPr.md)
 - [SetBold](./Methods/SetBold.md)
 - [SetCaps](./Methods/SetCaps.md)

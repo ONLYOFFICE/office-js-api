@@ -29,6 +29,12 @@ This method doesn't return any data.
 This example calculates custom function result.
 
 ```javascript editor-xlsx
+// How to add custom function library.
+
+// How to use custom function.
+
+// How to add cell values using custom function library.
+
 Api.AddCustomFunctionLibrary("LibraryName", function(){
     /**
      * Function that returns the argument

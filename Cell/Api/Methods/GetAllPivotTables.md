@@ -20,9 +20,13 @@ This method doesn't have any parameters.
 
 ## Example
 
-
+This example shows how to get pivot tables from the worksheet.
 
 ```javascript editor-xlsx
+// How to  get pivot tables.
+
+// How to work with pivot tables.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

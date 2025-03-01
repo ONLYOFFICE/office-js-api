@@ -25,6 +25,10 @@ This method doesn't return any data.
 This example executes a provided function once for each cell.
 
 ```javascript editor-xlsx
+// How to iterate through each cell from a range.
+
+// For Each cycle implementation for ApiRange.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A1").SetValue("1");
 oWorksheet.GetRange("B1").SetValue("2");

@@ -21,7 +21,7 @@ expression.SetPageMargins(nLeft, nTop, nRight, nBottom);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 

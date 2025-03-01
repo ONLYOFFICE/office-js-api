@@ -28,6 +28,10 @@ boolean
 This example show how to set the outline to the data point.
 
 ```javascript editor-xlsx
+// Sets the outline to the data point in the specified chart series.
+
+// How to set data point outline using a stroke.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);

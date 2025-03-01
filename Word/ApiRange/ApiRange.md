@@ -42,3 +42,5 @@ Represents the ApiRange class.
 - [SetEndPos](./Methods/SetEndPos.md)
 - [GetStartPos](./Methods/GetStartPos.md)
 - [GetEndPos](./Methods/GetEndPos.md)
+- [MoveCursorToPos](./Methods/MoveCursorToPos.md)
+- [AddField](./Methods/AddField.md)

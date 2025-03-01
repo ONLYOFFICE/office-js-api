@@ -18,13 +18,17 @@ expression.SetIndFirstLine(nValue);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 
 This example sets the paragraph first line indentation.
 
 ```javascript editor-xlsx
+// How to change the first sentence indentation of the paragraph.
+
+// Get a paragraph from the shape's content then add a text specifying the first line indentation.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

@@ -20,9 +20,13 @@ This method doesn't have any parameters.
 
 ## Example
 
-
+This example shows how to get a hidden fields of a pivot table.
 
 ```javascript editor-xlsx
+// How to get a hidden filds of a table.
+
+// Create a pivot table, add data to it then get its invisible fields.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

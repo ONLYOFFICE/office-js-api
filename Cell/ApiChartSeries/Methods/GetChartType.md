@@ -23,6 +23,10 @@ This method doesn't have any parameters.
 This example gets the first series of ApiChart class and inserts its type into the document.
 
 ```javascript editor-xlsx
+// How to find out a chart type.
+
+// Display a chart type inserting it in a range.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);

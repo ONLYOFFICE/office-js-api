@@ -26,6 +26,10 @@ This method doesn't return any data.
 This example sets the strikethrough property to the specified font.
 
 ```javascript editor-xlsx
+// How to make a text strikethrough.
+
+// Get a font object of characters and make it strikethrough.
+
 var oWorksheet = Api.GetActiveSheet();
 var oRange = oWorksheet.GetRange("B1");
 oRange.SetValue("This is just a sample text.");

@@ -21,7 +21,7 @@ expression.SetShowDataLabels(bShowSerName, bShowCatName, bShowVal, bShowPercent)
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 

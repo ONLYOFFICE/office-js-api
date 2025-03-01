@@ -23,6 +23,10 @@ This method doesn't have any parameters.
 This example adds a tab stop to the paragraph.
 
 ```javascript editor-xlsx
+// How to insert a text separated by a tab.
+
+// Get the paragraph from the shape and add two sentences separated by three tabs.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

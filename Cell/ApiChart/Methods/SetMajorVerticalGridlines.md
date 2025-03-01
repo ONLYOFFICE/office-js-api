@@ -18,13 +18,17 @@ expression.SetMajorVerticalGridlines(oStroke);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 
 This example specifies the visual properties of the major vertical gridline.
 
 ```javascript editor-xlsx
+// Set a stroke as a major vertical gridline.
+
+// How to add gridlines for the chart.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);

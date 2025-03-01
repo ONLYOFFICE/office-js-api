@@ -22,9 +22,13 @@ This method doesn't return any data.
 
 ## Example
 
-
+This example shows how to set grand total name of a table.
 
 ```javascript editor-xlsx
+// How to set a grand total name of a table.
+
+// Create a pivot table, add data to it then set a grand total name.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

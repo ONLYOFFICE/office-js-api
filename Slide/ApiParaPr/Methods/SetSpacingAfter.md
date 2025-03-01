@@ -21,7 +21,7 @@ expression.SetSpacingAfter(nAfter, isAfterAuto);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 

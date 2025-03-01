@@ -22,9 +22,13 @@ number
 
 ## Example
 
-
+This example shows how to return the month, a number from 1 (January) to 12 (December).
 
 ```javascript editor-xlsx
+// How to get the month from a date.
+
+// Use a function to get a month.
+
 const oWorksheet = Api.GetActiveSheet();
 
 var oFunction = Api.GetWorksheetFunction();

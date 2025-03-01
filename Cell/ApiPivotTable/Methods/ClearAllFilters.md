@@ -20,9 +20,13 @@ This method doesn't return any data.
 
 ## Example
 
-
+This example shows how to clear all filters from a pivot table.
 
 ```javascript editor-xlsx
+// How to remove previously applied pivot table filters.
+
+// Create a pivot table, add data to it then delete all filters from it.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

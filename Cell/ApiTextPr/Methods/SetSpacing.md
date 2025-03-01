@@ -25,6 +25,10 @@ expression.SetSpacing(nSpacing);
 This example sets the text spacing measured in twentieths of a point.
 
 ```javascript editor-xlsx
+// How to set space size of a text.
+
+// Change spacing size.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

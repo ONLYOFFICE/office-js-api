@@ -22,7 +22,7 @@ expression.SetSpacingLine(nLine, sLineRule);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 

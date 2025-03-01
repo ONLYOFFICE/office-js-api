@@ -25,6 +25,10 @@ boolean
 This example changes the type of the first series of ApiChart class and inserts the new type into the document.
 
 ```javascript editor-xlsx
+// How to change a chart type to an area one.
+
+// Change a chart type.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);

@@ -25,9 +25,13 @@ number
 
 ## Example
 
-
+This example shows how to return the length of the repetitive pattern an application detects for the specified time series.
 
 ```javascript editor-xlsx
+// How to return the length of the repetitive pattern.
+
+// Use function to return the length of the repetitive pattern for the specified time series.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFunction = Api.GetWorksheetFunction();
 var dates = ["10/1/2017", "11/1/2017", "12/1/2017", "1/1/2018", "2/1/2018"];

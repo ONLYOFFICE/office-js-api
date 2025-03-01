@@ -25,6 +25,10 @@ expression.SetOutLine(oStroke);
 This example sets the text outline to the current text run
 
 ```javascript editor-xlsx
+// How to outline a text with a stroke.
+
+// Add text ouline using colored stroke.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

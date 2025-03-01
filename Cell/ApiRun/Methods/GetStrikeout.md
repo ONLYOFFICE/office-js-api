@@ -20,9 +20,13 @@ boolean
 
 ## Example
 
-
+This example gets a text strikeout using its property.
 
 ```javascript editor-xlsx
+// How to find out whether a text is stroke out or not.
+
+// Get cross out property of a text.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

@@ -22,9 +22,13 @@ This method doesn't return any data.
 
 ## Example
 
-
+This example shows how to set a description of a table.
 
 ```javascript editor-xlsx
+// How to rename a description of a table.
+
+// Create a pivot table, add data to it then set its description.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

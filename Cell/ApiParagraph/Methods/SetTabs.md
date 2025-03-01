@@ -20,13 +20,17 @@ expression.SetTabs(aPos, aVal);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 
 This example sets a sequence of custom tab stops which will be used for any tab characters in the paragraph.
 
 ```javascript editor-xlsx
+// How to change sizes of tabs between paragraphs.
+
+// Customize all kind of tabs indicating sizes.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

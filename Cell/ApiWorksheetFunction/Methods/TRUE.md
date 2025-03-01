@@ -20,9 +20,13 @@ boolean
 
 ## Example
 
-
+This example shows how to return the true logical value.
 
 ```javascript editor-xlsx
+// How to get a true value.
+
+// Use a function to return true value.
+
 const oWorksheet = Api.GetActiveSheet();
 
 var logical1 = 1 > 0;

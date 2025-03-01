@@ -25,6 +25,10 @@ expression.AddText(sText);
 This example adds some text to the paragraph.
 
 ```javascript editor-xlsx
+// How to add raw text to the paragraph.
+
+// Change content of the shape by adding a text.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

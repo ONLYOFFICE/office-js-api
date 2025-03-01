@@ -23,6 +23,10 @@ This method doesn't have any parameters.
 This example creates a new smaller text block to be inserted to the paragraph or table.
 
 ```javascript editor-xlsx
+// Create a text to construct a paragraph.
+
+// Add a text in a paragraph.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

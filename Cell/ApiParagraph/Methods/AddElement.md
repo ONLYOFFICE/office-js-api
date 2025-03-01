@@ -26,6 +26,10 @@ boolean
 This example adds a Run to the paragraph.
 
 ```javascript editor-xlsx
+// How to add text to the paragraph.
+
+// Get the paragraph from the shape and change its text.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

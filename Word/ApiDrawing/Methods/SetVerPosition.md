@@ -19,7 +19,7 @@ expression.SetVerPosition(sRelativeFrom, nDistance);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 

@@ -22,9 +22,13 @@ expression.GetPivotByName(name);
 
 ## Example
 
-
+This example shows how to get a pivot table by its name.
 
 ```javascript editor-xlsx
+// How to find a pivot table.
+
+// Get a pivot table and by its name and update its fields.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

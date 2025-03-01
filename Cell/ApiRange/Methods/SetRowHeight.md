@@ -25,6 +25,10 @@ This method doesn't return any data.
 This example sets the row height value.
 
 ```javascript editor-xlsx
+// How to set a row height of cells.
+
+// Get a range and specify its row height.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A1").SetRowHeight(32);
 ```
