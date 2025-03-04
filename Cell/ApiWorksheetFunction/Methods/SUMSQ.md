@@ -5,7 +5,7 @@ Returns the sum of the squares of the arguments.
 ## Syntax
 
 ```javascript
-expression.SUMSQ();
+expression.SUMSQ(args);
 ```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
@@ -14,7 +14,7 @@ expression.SUMSQ();
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-|  | Required |  |  | No description provided. |
+| args | Required | number \| string \| boolean \| any[] \| [ApiName](../../ApiName/ApiName.md) \| [ApiRange](../../ApiRange/ApiRange.md) |  | Up to 255 numeric values for which the sum of the squares will be calculated. The first argument is required, subsequent arguments are optional. The arguments can be numbers, names, logical values or text representations of numbers, ranges of cells that contain numbers, or arrays. |
 
 ## Returns
 

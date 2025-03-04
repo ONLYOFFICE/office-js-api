@@ -5,7 +5,7 @@ Adds all the numbers in a range of cells.
 ## Syntax
 
 ```javascript
-expression.SUM();
+expression.SUM(args);
 ```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
@@ -14,7 +14,7 @@ expression.SUM();
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-|  | Required |  |  | No description provided. |
+| args | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| string \| number \| boolean \| any[] |  | Up to 255 numeric values to add. The first argument is required, subsequent arguments are optional. Arguments can be numbers, logical values, text representations of numbers, ranges, or arrays. |
 
 ## Returns
 

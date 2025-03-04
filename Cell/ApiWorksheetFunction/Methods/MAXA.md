@@ -5,7 +5,7 @@ Returns the largest value in a set of values. Does not ignore logical values and
 ## Syntax
 
 ```javascript
-expression.MAXA();
+expression.MAXA(args);
 ```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
@@ -14,7 +14,7 @@ expression.MAXA();
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-|  | Required |  |  | No description provided. |
+| args | Required | number \| string \| boolean \| any[] \| [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) |  | Up to 255 values (number, text, logical value) for which the largest value will be returned. The first argument is required, subsequent arguments are optional. Arguments can be numbers, logical values and text representations of numbers, names, ranges, or arrays. |
 
 ## Returns
 

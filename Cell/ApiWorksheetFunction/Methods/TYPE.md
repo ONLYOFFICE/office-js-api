@@ -14,7 +14,7 @@ expression.TYPE(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required |  |  | No description provided. |
+| arg1 | Required | number \| string \| boolean \| any[] \| [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) |  | A value to test. |
 
 ## Returns
 

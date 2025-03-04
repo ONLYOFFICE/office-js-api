@@ -5,7 +5,7 @@ Counts a number of cells in a range that are not empty.
 ## Syntax
 
 ```javascript
-expression.COUNTA();
+expression.COUNTA(args);
 ```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
@@ -14,7 +14,7 @@ expression.COUNTA();
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-|  | Required |  |  | No description provided. |
+| args | Required | string \| number \| boolean \| any[] \| [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) |  | Up to 255 items, or ranges to count values. The first argument is required, subsequent arguments are optional. Arguments can be numbers, logical values, text strings, ranges, names, or arrays. |
 
 ## Returns
 
