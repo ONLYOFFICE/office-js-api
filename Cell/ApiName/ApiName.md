@@ -2,13 +2,6 @@
 
 Represents the ApiName class.
 
-## Properties
-
-| Name | Type | Description |
-| ---- | ---- | ----------- |
-| Name | string | Sets a name to the active sheet. |
-| RefersTo | string | Returns or sets a formula that the name is defined to refer to. |
-| RefersToRange | [ApiRange](../ApiRange/ApiRange.md) | Returns the ApiRange object by reference. |
 
 ## Methods
 

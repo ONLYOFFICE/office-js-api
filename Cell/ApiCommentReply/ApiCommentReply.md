@@ -2,15 +2,6 @@
 
 Represents the ApiCommentReply class.
 
-## Properties
-
-| Name | Type | Description |
-| ---- | ---- | ----------- |
-| Text | string | Returns or sets the comment reply text. |
-| AuthorName | string | Returns or sets the comment reply author's name. |
-| UserId | string | Returns or sets the user ID of the comment reply author. |
-| TimeUTC | number \| string | Returns or sets the timestamp of the comment reply creation in UTC format. |
-| Time | number \| string | Returns or sets the timestamp of the comment reply creation in the current time zone format. |
 
 ## Methods
 
