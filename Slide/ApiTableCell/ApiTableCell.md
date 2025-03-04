@@ -8,7 +8,7 @@ Represents the ApiTableCell class.
 | Method | Returns | Description |
 | ------ | ------- | ----------- |
 | [GetClassType](./Methods/GetClassType.md) | "tableCell" | Returns the type of the ApiTableCell class. |
-| [GetContent](./Methods/GetContent.md) | [ApiDocumentContent](../../ApiDocumentContent/ApiDocumentContent.md) | Returns the current cell content. |
+| [GetContent](./Methods/GetContent.md) | [ApiDocumentContent](../ApiDocumentContent/ApiDocumentContent.md) | Returns the current cell content. |
 | [SetShd](./Methods/SetShd.md) | None | Specifies the shading which shall be applied to the extents of the current table cell. |
 | [SetCellMarginBottom](./Methods/SetCellMarginBottom.md) | None | Specifies an amount of space which shall be left between the bottom extent of the cell contents and the border of a specific individual table cell within a table. |
 | [SetCellMarginLeft](./Methods/SetCellMarginLeft.md) | None | Specifies an amount of space which shall be left between the left extent of the current cell contents and the left edge border of a specific individual table cell within a table. |

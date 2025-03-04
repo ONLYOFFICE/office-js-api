@@ -14,8 +14,8 @@ Represents the ApiHyperlink class.
 | [GetLinkedText](./Methods/GetLinkedText.md) | string | Returns the hyperlink address. |
 | [GetDisplayedText](./Methods/GetDisplayedText.md) | string | Returns the hyperlink display text. |
 | [GetScreenTipText](./Methods/GetScreenTipText.md) | string | Returns the screen tip text of the hyperlink. |
-| [GetElement](./Methods/GetElement.md) | [ParagraphContent](../../Enumeration/ParagraphContent.md) | Returns the hyperlink element using the position specified. |
+| [GetElement](./Methods/GetElement.md) | [ParagraphContent](../Enumeration/ParagraphContent.md) | Returns the hyperlink element using the position specified. |
 | [GetElementsCount](./Methods/GetElementsCount.md) | number | Returns a number of elements in the current hyperlink. |
 | [SetDefaultStyle](./Methods/SetDefaultStyle.md) | boolean | Sets the default hyperlink style. |
-| [GetRange](./Methods/GetRange.md) | [ApiRange](../../ApiRange/ApiRange.md) | Returns a Range object that represents the document part contained in the specified hyperlink. |
+| [GetRange](./Methods/GetRange.md) | [ApiRange](../ApiRange/ApiRange.md) | Returns a Range object that represents the document part contained in the specified hyperlink. |
 | [ToJSON](./Methods/ToJSON.md) | JSON | Converts the ApiHyperlink object into the JSON object. |

@@ -8,7 +8,7 @@ Represents the ApiChart class.
 | Method | Returns | Description |
 | ------ | ------- | ----------- |
 | [GetClassType](./Methods/GetClassType.md) | "chart" | Returns a type of the ApiChart class. |
-| [GetChartType](./Methods/GetChartType.md) | [ChartType](../../Enumeration/ChartType.md) | Returns a type of the chart object. |
+| [GetChartType](./Methods/GetChartType.md) | [ChartType](../Enumeration/ChartType.md) | Returns a type of the chart object. |
 | [SetTitle](./Methods/SetTitle.md) | boolean | Specifies the chart title. |
 | [SetHorAxisTitle](./Methods/SetHorAxisTitle.md) | boolean | Specifies the chart horizontal axis title. |
 | [SetVerAxisTitle](./Methods/SetVerAxisTitle.md) | boolean | Specifies the chart vertical axis title. |
@@ -43,8 +43,8 @@ Represents the ApiChart class.
 | [SetLegendFill](./Methods/SetLegendFill.md) | boolean | Sets the fill to the chart legend. |
 | [SetLegendOutLine](./Methods/SetLegendOutLine.md) | boolean | Sets the outline to the chart legend. |
 | [SetAxieNumFormat](./Methods/SetAxieNumFormat.md) | boolean | Sets the specified numeric format to the axis values. |
-| [GetAllSeries](./Methods/GetAllSeries.md) | [ApiChartSeries[]](../../ApiChartSeries/ApiChartSeries.md) | Returns all series from the chart space. |
-| [GetSeries](./Methods/GetSeries.md) | [ApiChartSeries](../../ApiChartSeries/ApiChartSeries.md) | Returns the series with a specific index. |
+| [GetAllSeries](./Methods/GetAllSeries.md) | [ApiChartSeries[]](../ApiChartSeries/ApiChartSeries.md) | Returns all series from the chart space. |
+| [GetSeries](./Methods/GetSeries.md) | [ApiChartSeries](../ApiChartSeries/ApiChartSeries.md) | Returns the series with a specific index. |
 | [SetSeriaValues](./Methods/SetSeriaValues.md) | boolean | Sets values from the specified range to the specified series. |
 | [SetSeriaXValues](./Methods/SetSeriaXValues.md) | boolean | Sets the x-axis values from the specified range to the specified series. It is used with the scatter charts only. |
 | [SetSeriaName](./Methods/SetSeriaName.md) | boolean | Sets a name to the specified series. |

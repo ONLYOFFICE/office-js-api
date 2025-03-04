@@ -7,18 +7,18 @@ Represents the ApiPictureForm class.
 
 | Method | Returns | Description |
 | ------ | ------- | ----------- |
-| [GetScaleFlag](./Methods/GetScaleFlag.md) | [ScaleFlag](../../Enumeration/ScaleFlag.md) | Returns the current scaling condition of the picture form. |
+| [GetScaleFlag](./Methods/GetScaleFlag.md) | [ScaleFlag](../Enumeration/ScaleFlag.md) | Returns the current scaling condition of the picture form. |
 | [SetScaleFlag](./Methods/SetScaleFlag.md) | boolean | Sets the scaling condition to the current picture form. |
 | [SetLockAspectRatio](./Methods/SetLockAspectRatio.md) | boolean | Locks the aspect ratio of the current picture form. |
 | [IsLockAspectRatio](./Methods/IsLockAspectRatio.md) | boolean | Checks if the aspect ratio of the current picture form is locked or not. |
 | [SetPicturePosition](./Methods/SetPicturePosition.md) | boolean | Sets the picture position inside the current form: **0** - the picture is placed on the left/top; **50** - the picture is placed in the center; **100** - the picture is placed on the right/bottom. |
-| [GetPicturePosition](./Methods/GetPicturePosition.md) | [percentage[]](../../Enumeration/percentage.md) | Returns the picture position inside the current form. |
+| [GetPicturePosition](./Methods/GetPicturePosition.md) | [percentage[]](../Enumeration/percentage.md) | Returns the picture position inside the current form. |
 | [SetRespectBorders](./Methods/SetRespectBorders.md) | boolean | Respects the form border width when scaling the image. |
 | [IsRespectBorders](./Methods/IsRespectBorders.md) | boolean | Checks if the form border width is respected or not. |
 | [GetImage](./Methods/GetImage.md) | base64img | Returns an image in the base64 format from the current picture form. |
 | [SetImage](./Methods/SetImage.md) | boolean | Sets an image to the current picture form. |
 | [GetClassType](./Methods/GetClassType.md) | "form" | Returns a type of the ApiFormBase class. |
-| [GetFormType](./Methods/GetFormType.md) | [FormType](../../Enumeration/FormType.md) | Returns a type of the current form. |
+| [GetFormType](./Methods/GetFormType.md) | [FormType](../Enumeration/FormType.md) | Returns a type of the current form. |
 | [GetFormKey](./Methods/GetFormKey.md) | string | Returns the current form key. |
 | [SetFormKey](./Methods/SetFormKey.md) | boolean | Sets a key to the current form. |
 | [GetTipText](./Methods/GetTipText.md) | string | Returns the tip text of the current form. |
@@ -37,4 +37,4 @@ Represents the ApiPictureForm class.
 | [SetTextPr](./Methods/SetTextPr.md) | boolean | Sets the text properties to the current form. Used if possible for this type of form* |
 | [GetTextPr](./Methods/GetTextPr.md) | ApiTextPr | Returns the text properties from the current form. Used if possible for this type of form* |
 | [MoveCursorOutside](./Methods/MoveCursorOutside.md) | boolean | Places a cursor before/after the current form. |
-| [Copy](./Methods/Copy.md) | [ApiForm](../../Enumeration/ApiForm.md) | Copies the current form (copies with the shape if it exists). |
+| [Copy](./Methods/Copy.md) | [ApiForm](../Enumeration/ApiForm.md) | Copies the current form (copies with the shape if it exists). |

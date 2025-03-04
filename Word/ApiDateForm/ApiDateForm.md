@@ -14,7 +14,7 @@ Represents the ApiDateForm class.
 | [GetTime](./Methods/GetTime.md) | number | Returns the timestamp of the current form. |
 | [SetTime](./Methods/SetTime.md) | boolean | Sets the timestamp to the current form. |
 | [GetClassType](./Methods/GetClassType.md) | "form" | Returns a type of the ApiFormBase class. |
-| [GetFormType](./Methods/GetFormType.md) | [FormType](../../Enumeration/FormType.md) | Returns a type of the current form. |
+| [GetFormType](./Methods/GetFormType.md) | [FormType](../Enumeration/FormType.md) | Returns a type of the current form. |
 | [GetFormKey](./Methods/GetFormKey.md) | string | Returns the current form key. |
 | [SetFormKey](./Methods/SetFormKey.md) | boolean | Sets a key to the current form. |
 | [GetTipText](./Methods/GetTipText.md) | string | Returns the tip text of the current form. |
@@ -28,9 +28,9 @@ Represents the ApiDateForm class.
 | [SetBackgroundColor](./Methods/SetBackgroundColor.md) | boolean | Sets the background color to the current form. |
 | [GetText](./Methods/GetText.md) | string | Returns the text from the current form. Returns the value as a string if possible for the given form type* |
 | [Clear](./Methods/Clear.md) | boolean | Clears the current form. |
-| [GetWrapperShape](./Methods/GetWrapperShape.md) | [ApiShape](../../ApiShape/ApiShape.md) | Returns a shape in which the form is placed to control the position and size of the fixed size form frame. The null value will be returned for the inline forms. |
+| [GetWrapperShape](./Methods/GetWrapperShape.md) | [ApiShape](../ApiShape/ApiShape.md) | Returns a shape in which the form is placed to control the position and size of the fixed size form frame. The null value will be returned for the inline forms. |
 | [SetPlaceholderText](./Methods/SetPlaceholderText.md) | boolean | Sets the placeholder text to the current form. Can't be set to checkbox or radio button.* |
 | [SetTextPr](./Methods/SetTextPr.md) | boolean | Sets the text properties to the current form. Used if possible for this type of form* |
-| [GetTextPr](./Methods/GetTextPr.md) | [ApiTextPr](../../ApiTextPr/ApiTextPr.md) | Returns the text properties from the current form. Used if possible for this type of form* |
+| [GetTextPr](./Methods/GetTextPr.md) | [ApiTextPr](../ApiTextPr/ApiTextPr.md) | Returns the text properties from the current form. Used if possible for this type of form* |
 | [MoveCursorOutside](./Methods/MoveCursorOutside.md) | boolean | Places a cursor before/after the current form. |
-| [Copy](./Methods/Copy.md) | [ApiForm](../../Enumeration/ApiForm.md) | Copies the current form (copies with the shape if it exists). |
+| [Copy](./Methods/Copy.md) | [ApiForm](../Enumeration/ApiForm.md) | Copies the current form (copies with the shape if it exists). |

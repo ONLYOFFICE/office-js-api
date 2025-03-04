@@ -13,7 +13,7 @@ Represents the ApiCheckBoxForm class.
 | [GetRadioGroup](./Methods/GetRadioGroup.md) | string | Returns the radio group key if the current checkbox is a radio button. |
 | [SetRadioGroup](./Methods/SetRadioGroup.md) | boolean | Sets the radio group key to the current radio button. |
 | [GetClassType](./Methods/GetClassType.md) | "form" | Returns a type of the ApiFormBase class. |
-| [GetFormType](./Methods/GetFormType.md) | [FormType](../../Enumeration/FormType.md) | Returns a type of the current form. |
+| [GetFormType](./Methods/GetFormType.md) | [FormType](../Enumeration/FormType.md) | Returns a type of the current form. |
 | [GetFormKey](./Methods/GetFormKey.md) | string | Returns the current form key. |
 | [SetFormKey](./Methods/SetFormKey.md) | boolean | Sets a key to the current form. |
 | [GetTipText](./Methods/GetTipText.md) | string | Returns the tip text of the current form. |
@@ -32,4 +32,4 @@ Represents the ApiCheckBoxForm class.
 | [SetTextPr](./Methods/SetTextPr.md) | boolean | Sets the text properties to the current form. Used if possible for this type of form* |
 | [GetTextPr](./Methods/GetTextPr.md) | ApiTextPr | Returns the text properties from the current form. Used if possible for this type of form* |
 | [MoveCursorOutside](./Methods/MoveCursorOutside.md) | boolean | Places a cursor before/after the current form. |
-| [Copy](./Methods/Copy.md) | [ApiForm](../../Enumeration/ApiForm.md) | Copies the current form (copies with the shape if it exists). |
+| [Copy](./Methods/Copy.md) | [ApiForm](../Enumeration/ApiForm.md) | Copies the current form (copies with the shape if it exists). |

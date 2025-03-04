@@ -34,7 +34,7 @@ Represents the ApiWorksheetFunction class.
 | [SEARCH](./Methods/SEARCH.md) | number | Returns the number of the character at which a specific character or text string is first found, reading left to right (not case-sensitive). |
 | [SEARCHB](./Methods/SEARCHB.md) | number | Returns the location of the specified substring in a string and is intended for languages that use the double-byte character set (DBCS) like Japanese, Chinese, Korean etc. |
 | [SUBSTITUTE](./Methods/SUBSTITUTE.md) | string | Replaces existing text with new text in a text string. |
-| [T](./Methods/T.md) | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| string | Checks whether a value is text, and returns the text if it is, or returns double quotes (empty text) if it is not. |
+| [T](./Methods/T.md) | [ApiRange](../ApiRange/ApiRange.md) \| [ApiName](../ApiName/ApiName.md) \| string | Checks whether a value is text, and returns the text if it is, or returns double quotes (empty text) if it is not. |
 | [TEXT](./Methods/TEXT.md) | string | Converts a value to text in a specific number format. |
 | [TRIM](./Methods/TRIM.md) | string | Removes all spaces from a text string except for single spaces between words. |
 | [UNICHAR](./Methods/UNICHAR.md) | string | Returns the Unicode character referenced by the given numeric value. |
@@ -394,7 +394,7 @@ Represents the ApiWorksheetFunction class.
 | [LOOKUP](./Methods/LOOKUP.md) | number \| string \| boolean | Looks up a value either from a one-row or one-column range. Provided for backwards compatibility. |
 | [MATCH](./Methods/MATCH.md) | number | Returns the relative position of an item in a range that matches the specified value in the specified order. |
 | [ROWS](./Methods/ROWS.md) | number | Returns the number of rows in a range. |
-| [TRANSPOSE](./Methods/TRANSPOSE.md) | [ApiRange](../../ApiRange/ApiRange.md) | Converts a vertical range of cells to a horizontal range, or vice versa. |
+| [TRANSPOSE](./Methods/TRANSPOSE.md) | [ApiRange](../ApiRange/ApiRange.md) | Converts a vertical range of cells to a horizontal range, or vice versa. |
 | [VLOOKUP](./Methods/VLOOKUP.md) | number \| string | Looks for a value in the leftmost column of a table and then returns a value in the same row from the specified column. By default, the table must be sorted in an ascending order. |
 | [ERROR_TYPE](./Methods/ERROR_TYPE.md) | number | Returns a number matching an error value. |
 | [ISERR](./Methods/ISERR.md) | boolean | Checks whether a value is an error other than &lt;em&gt;#N/A&lt;/em&gt;, and returns **true** or **false**. |

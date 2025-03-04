@@ -8,7 +8,7 @@ Represents the ApiChart class.
 | Method | Returns | Description |
 | ------ | ------- | ----------- |
 | [GetClassType](./Methods/GetClassType.md) | "chart" | Returns a type of the ApiChart class. |
-| [GetChartType](./Methods/GetChartType.md) | [ChartType](../../Enumeration/ChartType.md) | Returns a type of the chart object. |
+| [GetChartType](./Methods/GetChartType.md) | [ChartType](../Enumeration/ChartType.md) | Returns a type of the chart object. |
 | [SetTitle](./Methods/SetTitle.md) | boolean | Specifies the chart title. |
 | [SetHorAxisTitle](./Methods/SetHorAxisTitle.md) | boolean | Specifies the chart horizontal axis title. |
 | [SetVerAxisTitle](./Methods/SetVerAxisTitle.md) | boolean | Specifies the chart vertical axis title. |
@@ -30,8 +30,8 @@ Represents the ApiChart class.
 | [SetMinorHorizontalGridlines](./Methods/SetMinorHorizontalGridlines.md) | boolean | Specifies minor horizontal gridline visual properties. |
 | [SetHorAxisLablesFontSize](./Methods/SetHorAxisLablesFontSize.md) | boolean | Specifies font size for labels of the horizontal axis. |
 | [SetVertAxisLablesFontSize](./Methods/SetVertAxisLablesFontSize.md) | boolean | Specifies font size for labels of the vertical axis. |
-| [GetNextChart](./Methods/GetNextChart.md) | [ApiChart](../../ApiChart/ApiChart.md) \| null | Returns the next inline chart if exists. |
-| [GetPrevChart](./Methods/GetPrevChart.md) | [ApiChart](../../ApiChart/ApiChart.md) \| null | Returns the previous inline chart if exists. |
+| [GetNextChart](./Methods/GetNextChart.md) | [ApiChart](../ApiChart/ApiChart.md) \| null | Returns the next inline chart if exists. |
+| [GetPrevChart](./Methods/GetPrevChart.md) | [ApiChart](../ApiChart/ApiChart.md) \| null | Returns the previous inline chart if exists. |
 | [RemoveSeria](./Methods/RemoveSeria.md) | boolean | Removes the specified series from the current chart. |
 | [SetSeriaValues](./Methods/SetSeriaValues.md) | boolean | Sets values to the specified chart series. |
 | [SetXValues](./Methods/SetXValues.md) | boolean | Sets the x-axis values to all chart series. It is used with the scatter charts only. |
@@ -53,5 +53,5 @@ Represents the ApiChart class.
 | [SetAxieNumFormat](./Methods/SetAxieNumFormat.md) | boolean | Sets the specified numeric format to the axis values. |
 | [SetSeriaNumFormat](./Methods/SetSeriaNumFormat.md) | boolean | Sets the specified numeric format to the chart series. |
 | [SetDataPointNumFormat](./Methods/SetDataPointNumFormat.md) | boolean | Sets the specified numeric format to the chart data point. |
-| [GetAllSeries](./Methods/GetAllSeries.md) | [ApiChartSeries[]](../../ApiChartSeries/ApiChartSeries.md) | Returns all series from the chart space. |
-| [GetSeries](./Methods/GetSeries.md) | [ApiChartSeries](../../ApiChartSeries/ApiChartSeries.md) | Returns the series with a specific index. |
+| [GetAllSeries](./Methods/GetAllSeries.md) | [ApiChartSeries[]](../ApiChartSeries/ApiChartSeries.md) | Returns all series from the chart space. |
+| [GetSeries](./Methods/GetSeries.md) | [ApiChartSeries](../ApiChartSeries/ApiChartSeries.md) | Returns the series with a specific index. |

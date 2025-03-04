@@ -13,5 +13,5 @@ Represents the ApiBookmark class.
 | [GetName](./Methods/GetName.md) | string | Returns the bookmark name. |
 | [SetText](./Methods/SetText.md) | boolean | Sets the bookmark text. |
 | [GetText](./Methods/GetText.md) | string | Returns the bookmark text. |
-| [GetRange](./Methods/GetRange.md) | [ApiRange](../../ApiRange/ApiRange.md) | Returns the bookmark range. |
+| [GetRange](./Methods/GetRange.md) | [ApiRange](../ApiRange/ApiRange.md) | Returns the bookmark range. |
 | [Delete](./Methods/Delete.md) | boolean | Deletes the current bookmark from the document. |

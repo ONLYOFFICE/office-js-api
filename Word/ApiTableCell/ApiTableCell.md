@@ -8,19 +8,19 @@ Represents the ApiTableCell class.
 | Method | Returns | Description |
 | ------ | ------- | ----------- |
 | [GetClassType](./Methods/GetClassType.md) | "tableCell" | Returns a type of the ApiTableCell class. |
-| [GetContent](./Methods/GetContent.md) | [ApiDocumentContent](../../ApiDocumentContent/ApiDocumentContent.md) | Returns the current cell content. |
+| [GetContent](./Methods/GetContent.md) | [ApiDocumentContent](../ApiDocumentContent/ApiDocumentContent.md) | Returns the current cell content. |
 | [GetIndex](./Methods/GetIndex.md) | Number | Returns the current cell index. |
 | [GetRowIndex](./Methods/GetRowIndex.md) | number | Returns an index of the parent row. |
-| [GetParentRow](./Methods/GetParentRow.md) | [ApiTableRow](../../ApiTableRow/ApiTableRow.md) \| null | Returns a parent row of the current cell. |
-| [GetParentTable](./Methods/GetParentTable.md) | [ApiTable](../../ApiTable/ApiTable.md) \| null | Returns a parent table of the current cell. |
-| [AddRows](./Methods/AddRows.md) | [ApiTable](../../ApiTable/ApiTable.md) \| null | Adds the new rows to the current table. |
-| [AddColumns](./Methods/AddColumns.md) | [ApiTable](../../ApiTable/ApiTable.md) \| null | Adds the new columns to the current table. |
+| [GetParentRow](./Methods/GetParentRow.md) | [ApiTableRow](../ApiTableRow/ApiTableRow.md) \| null | Returns a parent row of the current cell. |
+| [GetParentTable](./Methods/GetParentTable.md) | [ApiTable](../ApiTable/ApiTable.md) \| null | Returns a parent table of the current cell. |
+| [AddRows](./Methods/AddRows.md) | [ApiTable](../ApiTable/ApiTable.md) \| null | Adds the new rows to the current table. |
+| [AddColumns](./Methods/AddColumns.md) | [ApiTable](../ApiTable/ApiTable.md) \| null | Adds the new columns to the current table. |
 | [RemoveColumn](./Methods/RemoveColumn.md) | bool \| null | Removes a column containing the current cell. |
 | [RemoveRow](./Methods/RemoveRow.md) | boolean | Removes a row containing the current cell. |
-| [Search](./Methods/Search.md) | [ApiRange[]](../../ApiRange/ApiRange.md) | Searches for a scope of a table cell object. The search results are a collection of ApiRange objects. |
-| [GetNext](./Methods/GetNext.md) | [ApiTableCell](../../ApiTableCell/ApiTableCell.md) \| null | Returns the next cell if exists. |
-| [GetPrevious](./Methods/GetPrevious.md) | [ApiTableCell](../../ApiTableCell/ApiTableCell.md) \| null | Returns the previous cell if exists. |
-| [Split](./Methods/Split.md) | [ApiTable](../../ApiTable/ApiTable.md) \| null | Splits the cell into a given number of rows and columns. |
+| [Search](./Methods/Search.md) | [ApiRange[]](../ApiRange/ApiRange.md) | Searches for a scope of a table cell object. The search results are a collection of ApiRange objects. |
+| [GetNext](./Methods/GetNext.md) | [ApiTableCell](../ApiTableCell/ApiTableCell.md) \| null | Returns the next cell if exists. |
+| [GetPrevious](./Methods/GetPrevious.md) | [ApiTableCell](../ApiTableCell/ApiTableCell.md) \| null | Returns the previous cell if exists. |
+| [Split](./Methods/Split.md) | [ApiTable](../ApiTable/ApiTable.md) \| null | Splits the cell into a given number of rows and columns. |
 | [SetCellPr](./Methods/SetCellPr.md) | boolean | Sets the cell properties to the current cell. |
 | [SetTextPr](./Methods/SetTextPr.md) | boolean | Applies the text settings to the entire contents of the current cell. |
 | [Clear](./Methods/Clear.md) | boolean | Clears the content from the current cell. |

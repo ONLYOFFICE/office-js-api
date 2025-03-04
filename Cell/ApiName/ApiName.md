@@ -19,4 +19,4 @@ Represents the ApiName class.
 | [Delete](./Methods/Delete.md) | None | Deletes the DefName object. |
 | [SetRefersTo](./Methods/SetRefersTo.md) | None | Sets a formula that the name is defined to refer to. |
 | [GetRefersTo](./Methods/GetRefersTo.md) | string | Returns a formula that the name is defined to refer to. |
-| [GetRefersToRange](./Methods/GetRefersToRange.md) | [ApiRange](../../ApiRange/ApiRange.md) | Returns the ApiRange object by its name. |
+| [GetRefersToRange](./Methods/GetRefersToRange.md) | [ApiRange](../ApiRange/ApiRange.md) | Returns the ApiRange object by its name. |

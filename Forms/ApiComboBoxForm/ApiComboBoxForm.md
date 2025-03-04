@@ -13,7 +13,7 @@ Represents the ApiComboBoxForm class.
 | [SetText](./Methods/SetText.md) | boolean | Sets the text to the current combo box. Available only for editable combo box forms.* |
 | [IsEditable](./Methods/IsEditable.md) | boolean | Checks if the combo box text can be edited. If it is not editable, then this form is a dropdown list. |
 | [GetClassType](./Methods/GetClassType.md) | "form" | Returns a type of the ApiFormBase class. |
-| [GetFormType](./Methods/GetFormType.md) | [FormType](../../Enumeration/FormType.md) | Returns a type of the current form. |
+| [GetFormType](./Methods/GetFormType.md) | [FormType](../Enumeration/FormType.md) | Returns a type of the current form. |
 | [GetFormKey](./Methods/GetFormKey.md) | string | Returns the current form key. |
 | [SetFormKey](./Methods/SetFormKey.md) | boolean | Sets a key to the current form. |
 | [GetTipText](./Methods/GetTipText.md) | string | Returns the tip text of the current form. |
@@ -32,4 +32,4 @@ Represents the ApiComboBoxForm class.
 | [SetTextPr](./Methods/SetTextPr.md) | boolean | Sets the text properties to the current form. Used if possible for this type of form* |
 | [GetTextPr](./Methods/GetTextPr.md) | ApiTextPr | Returns the text properties from the current form. Used if possible for this type of form* |
 | [MoveCursorOutside](./Methods/MoveCursorOutside.md) | boolean | Places a cursor before/after the current form. |
-| [Copy](./Methods/Copy.md) | [ApiForm](../../Enumeration/ApiForm.md) | Copies the current form (copies with the shape if it exists). |
+| [Copy](./Methods/Copy.md) | [ApiForm](../Enumeration/ApiForm.md) | Copies the current form (copies with the shape if it exists). |

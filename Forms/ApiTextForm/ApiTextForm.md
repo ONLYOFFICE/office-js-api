@@ -18,7 +18,7 @@ Represents the ApiTextForm class.
 | [SetCellWidth](./Methods/SetCellWidth.md) | boolean | Sets the cell width to the applied comb of characters. |
 | [SetText](./Methods/SetText.md) | boolean | Sets the text to the current text field. |
 | [GetClassType](./Methods/GetClassType.md) | "form" | Returns a type of the ApiFormBase class. |
-| [GetFormType](./Methods/GetFormType.md) | [FormType](../../Enumeration/FormType.md) | Returns a type of the current form. |
+| [GetFormType](./Methods/GetFormType.md) | [FormType](../Enumeration/FormType.md) | Returns a type of the current form. |
 | [GetFormKey](./Methods/GetFormKey.md) | string | Returns the current form key. |
 | [SetFormKey](./Methods/SetFormKey.md) | boolean | Sets a key to the current form. |
 | [GetTipText](./Methods/GetTipText.md) | string | Returns the tip text of the current form. |
@@ -37,4 +37,4 @@ Represents the ApiTextForm class.
 | [SetTextPr](./Methods/SetTextPr.md) | boolean | Sets the text properties to the current form. Used if possible for this type of form* |
 | [GetTextPr](./Methods/GetTextPr.md) | ApiTextPr | Returns the text properties from the current form. Used if possible for this type of form* |
 | [MoveCursorOutside](./Methods/MoveCursorOutside.md) | boolean | Places a cursor before/after the current form. |
-| [Copy](./Methods/Copy.md) | [ApiForm](../../Enumeration/ApiForm.md) | Copies the current form (copies with the shape if it exists). |
+| [Copy](./Methods/Copy.md) | [ApiForm](../Enumeration/ApiForm.md) | Copies the current form (copies with the shape if it exists). |

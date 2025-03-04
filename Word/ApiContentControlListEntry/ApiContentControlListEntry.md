@@ -8,7 +8,7 @@ Represents the ApiContentControlListEntry class.
 | Method | Returns | Description |
 | ------ | ------- | ----------- |
 | [GetClassType](./Methods/GetClassType.md) | "contentControlList" | Returns a type of the ApiContentControlListEntry class. |
-| [GetParent](./Methods/GetParent.md) | [ApiContentControlList](../../ApiContentControlList/ApiContentControlList.md) | Returns a parent of the content control list item in the combo box / dropdown list content control. |
+| [GetParent](./Methods/GetParent.md) | [ApiContentControlList](../ApiContentControlList/ApiContentControlList.md) | Returns a parent of the content control list item in the combo box / dropdown list content control. |
 | [Select](./Methods/Select.md) | boolean | Selects the list entry in the combo box / dropdown list content control and sets the text of the content control to the selected item value. |
 | [MoveUp](./Methods/MoveUp.md) | boolean | Moves the current item in the parent combo box / dropdown list content control up one element. |
 | [MoveDown](./Methods/MoveDown.md) | boolean | Moves the current item in the parent combo box / dropdown list content control down one element, so that it is after the item that originally followed it. |

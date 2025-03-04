@@ -36,7 +36,7 @@ Represents the ApiComment class.
 | [SetTime](./Methods/SetTime.md) | None | Sets the timestamp of the comment creation in the current time zone format. |
 | [GetQuoteText](./Methods/GetQuoteText.md) | String \| null | Returns the quote text of the current comment. |
 | [GetRepliesCount](./Methods/GetRepliesCount.md) | Number | Returns a number of the comment replies. |
-| [GetReply](./Methods/GetReply.md) | [ApiCommentReply](../../ApiCommentReply/ApiCommentReply.md) | Returns the specified comment reply. |
+| [GetReply](./Methods/GetReply.md) | [ApiCommentReply](../ApiCommentReply/ApiCommentReply.md) | Returns the specified comment reply. |
 | [AddReply](./Methods/AddReply.md) | None | Adds a reply to a comment. |
 | [RemoveReplies](./Methods/RemoveReplies.md) | None | Removes the specified comment replies. |
 | [Delete](./Methods/Delete.md) | None | Deletes the ApiComment object. |

@@ -8,10 +8,10 @@ Represents the ApiNumberingLevel class.
 | Method | Returns | Description |
 | ------ | ------- | ----------- |
 | [GetClassType](./Methods/GetClassType.md) | "numberingLevel" | Returns a type of the ApiNumberingLevel class. |
-| [GetNumbering](./Methods/GetNumbering.md) | [ApiNumbering](../../ApiNumbering/ApiNumbering.md) | Returns the numbering definition. |
+| [GetNumbering](./Methods/GetNumbering.md) | [ApiNumbering](../ApiNumbering/ApiNumbering.md) | Returns the numbering definition. |
 | [GetLevelIndex](./Methods/GetLevelIndex.md) | number | Returns the level index. |
-| [GetTextPr](./Methods/GetTextPr.md) | [ApiTextPr](../../ApiTextPr/ApiTextPr.md) | Specifies the text properties which will be applied to the text in the current numbering level itself, not to the text in the subsequent paragraph. 💡 To change the text style of the paragraph, a style must be applied to it using the &#123;@link ApiRun#SetStyle&#125; method. |
-| [GetParaPr](./Methods/GetParaPr.md) | [ApiParaPr](../../ApiParaPr/ApiParaPr.md) | Returns the paragraph properties which are applied to any numbered paragraph that references the given numbering definition and numbering level. |
+| [GetTextPr](./Methods/GetTextPr.md) | [ApiTextPr](../ApiTextPr/ApiTextPr.md) | Specifies the text properties which will be applied to the text in the current numbering level itself, not to the text in the subsequent paragraph. 💡 To change the text style of the paragraph, a style must be applied to it using the &#123;@link ApiRun#SetStyle&#125; method. |
+| [GetParaPr](./Methods/GetParaPr.md) | [ApiParaPr](../ApiParaPr/ApiParaPr.md) | Returns the paragraph properties which are applied to any numbered paragraph that references the given numbering definition and numbering level. |
 | [SetTemplateType](./Methods/SetTemplateType.md) | boolean | Sets one of the existing predefined numbering templates. |
 | [SetCustomType](./Methods/SetCustomType.md) | boolean | Sets your own customized numbering type. |
 | [SetRestart](./Methods/SetRestart.md) | boolean | Specifies a one-based index which determines when a numbering level should restart to its starting value. A numbering level restarts when an instance of the specified numbering level which is higher (earlier than this level) is used in the given document contents. By default this value is true. |

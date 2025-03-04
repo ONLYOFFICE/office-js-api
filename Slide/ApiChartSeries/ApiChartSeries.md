@@ -9,4 +9,4 @@ Represents the ApiChartSeries class.
 | ------ | ------- | ----------- |
 | [GetClassType](./Methods/GetClassType.md) | "chartSeries" | Returns a type of the ApiChartSeries class. |
 | [ChangeChartType](./Methods/ChangeChartType.md) | boolean | Tries to change the series type. Returns true if successful. |
-| [GetChartType](./Methods/GetChartType.md) | [ChartType](../../Enumeration/ChartType.md) | Returns a chart type of the current series. |
+| [GetChartType](./Methods/GetChartType.md) | [ChartType](../Enumeration/ChartType.md) | Returns a chart type of the current series. |
