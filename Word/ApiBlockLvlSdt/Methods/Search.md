@@ -19,7 +19,7 @@ expression.Search(text, isMatchCase);
 
 ## Returns
 
-[ApiRange[]](../../ApiRange/ApiRange.md)
+[ApiRange](../../ApiRange/ApiRange.md)[]
 
 ## Example
 

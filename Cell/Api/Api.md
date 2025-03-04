@@ -9,12 +9,12 @@ Represents the Api class.
 | Sheets | Array | Returns the Sheets collection that represents all the sheets in the active workbook. |
 | ActiveSheet | [ApiWorksheet](../ApiWorksheet/ApiWorksheet.md) | Returns an object that represents the active sheet. |
 | Selection | [ApiRange](../ApiRange/ApiRange.md) | Returns an object that represents the selected range. |
-| Comments | [ApiComment[]](../ApiComment/ApiComment.md) | Returns all comments related to the whole workbook. |
+| Comments | [ApiComment](../ApiComment/ApiComment.md)[] | Returns all comments related to the whole workbook. |
 | FreezePanes | [FreezePaneType](../Enumeration/FreezePaneType.md) | Returns or sets the type of freeze panes. |
-| AllComments | [ApiComment[]](../ApiComment/ApiComment.md) | Returns all comments from the current workbook including comments from all worksheets. |
+| AllComments | [ApiComment](../ApiComment/ApiComment.md)[] | Returns all comments from the current workbook including comments from all worksheets. |
 | ReferenceStyle | [ReferenceStyle](../Enumeration/ReferenceStyle.md) | Returns or sets the reference style. |
 | WorksheetFunction | [ApiWorksheetFunction](../ApiWorksheetFunction/ApiWorksheetFunction.md) | Returns an object that represents the function list. |
-| PivotTables | [ApiPivotTable[]](../ApiPivotTable/ApiPivotTable.md) | Returns all pivot tables. |
+| PivotTables | [ApiPivotTable](../ApiPivotTable/ApiPivotTable.md)[] | Returns all pivot tables. |
 
 ## Methods
 
@@ -44,7 +44,7 @@ Represents the Api class.
 | [RemoveCustomFunction](./Methods/RemoveCustomFunction.md) | boolean | Removes a custom function. |
 | [ClearCustomFunctions](./Methods/ClearCustomFunctions.md) | boolean | Clears all custom functions. |
 | [AddSheet](./Methods/AddSheet.md) | None | Creates a new worksheet. The new worksheet becomes the active sheet. |
-| [GetSheets](./Methods/GetSheets.md) | [ApiWorksheet[]](../ApiWorksheet/ApiWorksheet.md) | Returns a sheet collection that represents all the sheets in the active workbook. |
+| [GetSheets](./Methods/GetSheets.md) | [ApiWorksheet](../ApiWorksheet/ApiWorksheet.md)[] | Returns a sheet collection that represents all the sheets in the active workbook. |
 | [SetLocale](./Methods/SetLocale.md) | None | Sets a locale to the document. |
 | [GetLocale](./Methods/GetLocale.md) | number | Returns the current locale ID. |
 | [GetActiveSheet](./Methods/GetActiveSheet.md) | [ApiWorksheet](../ApiWorksheet/ApiWorksheet.md) | Returns an object that represents the active sheet. |
@@ -67,13 +67,13 @@ Represents the Api class.
 | [InsertPivotNewWorksheet](./Methods/InsertPivotNewWorksheet.md) | [ApiPivotTable](../ApiPivotTable/ApiPivotTable.md) | Inserts the specified pivot table into a new worksheet. |
 | [GetPivotByName](./Methods/GetPivotByName.md) | [ApiPivotTable](../ApiPivotTable/ApiPivotTable.md) \| null | Returns a pivot table by its name, or null if it does not exist. |
 | [RefreshAllPivots](./Methods/RefreshAllPivots.md) | None | Refreshes all pivot tables. |
-| [GetAllPivotTables](./Methods/GetAllPivotTables.md) | [ApiPivotTable[]](../ApiPivotTable/ApiPivotTable.md) | Returns all pivot tables. |
+| [GetAllPivotTables](./Methods/GetAllPivotTables.md) | [ApiPivotTable](../ApiPivotTable/ApiPivotTable.md)[] | Returns all pivot tables. |
 | [attachEvent](./Methods/attachEvent.md) | None | Subscribes to the specified event and calls the callback function when the event fires. |
 | [detachEvent](./Methods/detachEvent.md) | None | Unsubscribes from the specified event. |
 | [AddComment](./Methods/AddComment.md) | [ApiComment](../ApiComment/ApiComment.md) \| null | Returns an array of ApiComment objects. |
 | [GetCommentById](./Methods/GetCommentById.md) | [ApiComment](../ApiComment/ApiComment.md) | Returns a comment from the current document by its ID. |
-| [GetComments](./Methods/GetComments.md) | [ApiComment[]](../ApiComment/ApiComment.md) | Returns all comments related to the whole workbook. |
-| [GetAllComments](./Methods/GetAllComments.md) | [ApiComment[]](../ApiComment/ApiComment.md) | Returns all comments from the current workbook including comments from all worksheets. |
+| [GetComments](./Methods/GetComments.md) | [ApiComment](../ApiComment/ApiComment.md)[] | Returns all comments related to the whole workbook. |
+| [GetAllComments](./Methods/GetAllComments.md) | [ApiComment](../ApiComment/ApiComment.md)[] | Returns all comments from the current workbook including comments from all worksheets. |
 | [SetFreezePanesType](./Methods/SetFreezePanesType.md) | None | Sets a type to the freeze panes. |
 | [GetFreezePanesType](./Methods/GetFreezePanesType.md) | [FreezePaneType](../Enumeration/FreezePaneType.md) | Returns the freeze panes type. |
 | [GetReferenceStyle](./Methods/GetReferenceStyle.md) | [ReferenceStyle](../Enumeration/ReferenceStyle.md) | Returns the cell reference style. |

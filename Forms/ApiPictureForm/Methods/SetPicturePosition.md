@@ -19,7 +19,7 @@ expression.SetPicturePosition(nShiftX, nShiftY);
 
 ## Returns
 
-[boolean](../../../Word/boolean/boolean.md)
+boolean
 
 ## Example
 

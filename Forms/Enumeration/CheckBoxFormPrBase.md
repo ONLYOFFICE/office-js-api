@@ -10,7 +10,7 @@ Object
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| radio | [boolean](../../Word/boolean/boolean.md) | Specifies if the current checkbox is a radio button. In this case, the key parameter is considered as an identifier for the group of radio buttons. |
+| radio | boolean | Specifies if the current checkbox is a radio button. In this case, the key parameter is considered as an identifier for the group of radio buttons. |
 
 
 ## Example

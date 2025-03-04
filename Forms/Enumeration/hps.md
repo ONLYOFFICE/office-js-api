@@ -4,7 +4,7 @@ Half-points (2 half-points = 1 point).
 
 ## Type
 
-[number](../../../Word/number/number.md)
+number
 
 
 

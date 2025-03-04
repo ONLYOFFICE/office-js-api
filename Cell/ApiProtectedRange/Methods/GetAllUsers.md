@@ -16,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiProtectedRangeUserInfo[]](../../ApiProtectedRangeUserInfo/ApiProtectedRangeUserInfo.md) \| null
+[ApiProtectedRangeUserInfo](../../ApiProtectedRangeUserInfo/ApiProtectedRangeUserInfo.md)[] \| null
 
 ## Example
 

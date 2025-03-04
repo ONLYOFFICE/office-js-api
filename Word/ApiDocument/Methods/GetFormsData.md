@@ -16,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[FormData[]](../../Enumeration/FormData.md)
+[FormData](../../Enumeration/FormData.md)[]
 
 ## Example
 

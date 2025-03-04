@@ -10,9 +10,9 @@ Object
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| key | [string](../../Word/string/string.md) | The form key. If the current form is a radio button, then this field contains the group key. |
-| value | [string](../../Word/string/string.md) \| [boolean](../../Word/boolean/boolean.md) | The current field value. |
-| tag | [string](../../Word/string/string.md) | The form tag. |
+| key | string | The form key. If the current form is a radio button, then this field contains the group key. |
+| value | string \| boolean | The current field value. |
+| tag | string | The form tag. |
 | type | [FormSpecificType](../Enumeration/FormSpecificType.md) | The form type. |
 
 

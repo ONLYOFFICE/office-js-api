@@ -14,11 +14,11 @@ expression.SetTipText(sText);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sText | Required | [string](../../../Word/string/string.md) |  | Tip text. |
+| sText | Required | string |  | Tip text. |
 
 ## Returns
 
-[boolean](../../../Word/boolean/boolean.md)
+boolean
 
 ## Example
 

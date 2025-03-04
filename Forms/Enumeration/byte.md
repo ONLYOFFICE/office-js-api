@@ -4,7 +4,7 @@ A numeric value from 0 to 255.
 
 ## Type
 
-[number](../../../Word/number/number.md)
+number
 
 
 

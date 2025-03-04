@@ -14,11 +14,11 @@ expression.SetMultiline(bMultiline);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| bMultiline | Required | [boolean](../../../Word/boolean/boolean.md) |  | Defines if the current text field is multiline (true) or not (false). |
+| bMultiline | Required | boolean |  | Defines if the current text field is multiline (true) or not (false). |
 
 ## Returns
 
-[boolean](../../../Word/boolean/boolean.md)
+boolean
 
 ## Example
 

@@ -14,11 +14,11 @@ expression.SetRadioGroup(sKey);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sKey | Required | [string](../../../Word/string/string.md) |  | Radio group key. |
+| sKey | Required | string |  | Radio group key. |
 
 ## Returns
 
-[boolean](../../../Word/boolean/boolean.md)
+boolean
 
 ## Example
 

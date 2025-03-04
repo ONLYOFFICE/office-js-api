@@ -18,7 +18,7 @@ expression.GetPivotItems(index);
 
 ## Returns
 
-[ApiPivotItem[]](../../ApiPivotItem/ApiPivotItem.md) \| [ApiPivotItem](../../ApiPivotItem/ApiPivotItem.md) \| null
+[ApiPivotItem](../../ApiPivotItem/ApiPivotItem.md)[] \| [ApiPivotItem](../../ApiPivotItem/ApiPivotItem.md) \| null
 
 ## Example
 

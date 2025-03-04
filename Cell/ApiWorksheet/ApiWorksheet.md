@@ -26,8 +26,8 @@ Represents the ApiWorksheet class.
 | Defnames | Array | Returns an array of the ApiName objects. |
 | Comments | Array | Returns all comments from the current worksheet. |
 | FreezePanes | [ApiFreezePanes](../ApiFreezePanes/ApiFreezePanes.md) | Returns the freeze panes for the current worksheet. |
-| AllProtectedRanges | [ApiProtectedRange[]](../ApiProtectedRange/ApiProtectedRange.md) | Returns all protected ranges from the current worksheet. |
-| PivotTables | [ApiPivotTable[]](../ApiPivotTable/ApiPivotTable.md) | Returns all pivot tables from the current worksheet. |
+| AllProtectedRanges | [ApiProtectedRange](../ApiProtectedRange/ApiProtectedRange.md)[] | Returns all protected ranges from the current worksheet. |
+| PivotTables | [ApiPivotTable](../ApiPivotTable/ApiPivotTable.md)[] | Returns all pivot tables from the current worksheet. |
 
 ## Methods
 
@@ -66,10 +66,10 @@ Represents the ApiWorksheet class.
 | [SetPrintHeadings](./Methods/SetPrintHeadings.md) | None | Specifies whether the current sheet row/column headers must be printed or not. |
 | [GetPrintGridlines](./Methods/GetPrintGridlines.md) | boolean | Returns the page PrintGridlines property which specifies whether the current sheet gridlines must be printed or not. |
 | [SetPrintGridlines](./Methods/SetPrintGridlines.md) | None | Specifies whether the current sheet gridlines must be printed or not. |
-| [GetDefNames](./Methods/GetDefNames.md) | [ApiName[]](../ApiName/ApiName.md) | Returns an array of ApiName objects. |
+| [GetDefNames](./Methods/GetDefNames.md) | [ApiName](../ApiName/ApiName.md)[] | Returns an array of ApiName objects. |
 | [GetDefName](./Methods/GetDefName.md) | [ApiName](../ApiName/ApiName.md) \| null | Returns the ApiName object by the worksheet name. |
 | [AddDefName](./Methods/AddDefName.md) | boolean | Adds a new name to the current worksheet. |
-| [GetComments](./Methods/GetComments.md) | [ApiComment[]](../ApiComment/ApiComment.md) | Returns all comments from the current worksheet. |
+| [GetComments](./Methods/GetComments.md) | [ApiComment](../ApiComment/ApiComment.md)[] | Returns all comments from the current worksheet. |
 | [Delete](./Methods/Delete.md) | None | Deletes the current worksheet. |
 | [SetHyperlink](./Methods/SetHyperlink.md) | None | Adds a hyperlink to the specified range. |
 | [AddChart](./Methods/AddChart.md) | [ApiChart](../ApiChart/ApiChart.md) | Creates a chart of the specified type from the selected data range of the current sheet. 💡 Please note that the horizontal and vertical offsets are calculated within the limits of the specified column and row cells only. If this value exceeds the cell width or height, another vertical/horizontal position will be set. |
@@ -79,17 +79,17 @@ Represents the ApiWorksheet class.
 | [AddWordArt](./Methods/AddWordArt.md) | [ApiDrawing](../ApiDrawing/ApiDrawing.md) | Adds a Text Art object to the current sheet with the parameters specified. |
 | [AddOleObject](./Methods/AddOleObject.md) | [ApiOleObject](../ApiOleObject/ApiOleObject.md) | Adds an OLE object to the current sheet with the parameters specified. |
 | [ReplaceCurrentImage](./Methods/ReplaceCurrentImage.md) | None | Replaces the current image with a new one. |
-| [GetAllDrawings](./Methods/GetAllDrawings.md) | [Drawing[]](../Enumeration/Drawing.md) | Returns all drawings from the current sheet. |
-| [GetAllImages](./Methods/GetAllImages.md) | [ApiImage[]](../ApiImage/ApiImage.md) | Returns all images from the current sheet. |
-| [GetAllShapes](./Methods/GetAllShapes.md) | [ApiShape[]](../ApiShape/ApiShape.md) | Returns all shapes from the current sheet. |
-| [GetAllCharts](./Methods/GetAllCharts.md) | [ApiChart[]](../ApiChart/ApiChart.md) | Returns all charts from the current sheet. |
-| [GetAllOleObjects](./Methods/GetAllOleObjects.md) | [ApiOleObject[]](../ApiOleObject/ApiOleObject.md) | Returns all OLE objects from the current sheet. |
+| [GetAllDrawings](./Methods/GetAllDrawings.md) | [Drawing](../Enumeration/Drawing.md)[] | Returns all drawings from the current sheet. |
+| [GetAllImages](./Methods/GetAllImages.md) | [ApiImage](../ApiImage/ApiImage.md)[] | Returns all images from the current sheet. |
+| [GetAllShapes](./Methods/GetAllShapes.md) | [ApiShape](../ApiShape/ApiShape.md)[] | Returns all shapes from the current sheet. |
+| [GetAllCharts](./Methods/GetAllCharts.md) | [ApiChart](../ApiChart/ApiChart.md)[] | Returns all charts from the current sheet. |
+| [GetAllOleObjects](./Methods/GetAllOleObjects.md) | [ApiOleObject](../ApiOleObject/ApiOleObject.md)[] | Returns all OLE objects from the current sheet. |
 | [Move](./Methods/Move.md) | None | Moves the current sheet to another location in the workbook. |
 | [GetPivotByName](./Methods/GetPivotByName.md) | [ApiPivotTable](../ApiPivotTable/ApiPivotTable.md) \| null | Returns a pivot table by its name from the current worksheet, or null if it does not exist. |
-| [GetAllPivotTables](./Methods/GetAllPivotTables.md) | [ApiPivotTable[]](../ApiPivotTable/ApiPivotTable.md) | Returns all pivot tables from the current worksheet. |
+| [GetAllPivotTables](./Methods/GetAllPivotTables.md) | [ApiPivotTable](../ApiPivotTable/ApiPivotTable.md)[] | Returns all pivot tables from the current worksheet. |
 | [RefreshAllPivots](./Methods/RefreshAllPivots.md) | None | Refreshes all pivot tables on the current worksheet. |
 | [GetFreezePanes](./Methods/GetFreezePanes.md) | [ApiFreezePanes](../ApiFreezePanes/ApiFreezePanes.md) | Returns the freeze panes from the current worksheet. |
 | [AddProtectedRange](./Methods/AddProtectedRange.md) | [ApiProtectedRange](../ApiProtectedRange/ApiProtectedRange.md) \| null | Creates a protected range of the specified type from the selected data range of the current sheet. |
 | [GetProtectedRange](./Methods/GetProtectedRange.md) | [ApiProtectedRange](../ApiProtectedRange/ApiProtectedRange.md) \| null | Returns a protected range object by its title. |
-| [GetAllProtectedRanges](./Methods/GetAllProtectedRanges.md) | [ApiProtectedRange[]](../ApiProtectedRange/ApiProtectedRange.md) \| null | Returns all protected ranges from the current worksheet. |
+| [GetAllProtectedRanges](./Methods/GetAllProtectedRanges.md) | [ApiProtectedRange](../ApiProtectedRange/ApiProtectedRange.md)[] \| null | Returns all protected ranges from the current worksheet. |
 | [Paste](./Methods/Paste.md) | None | Pastes the contents of the clipboard to the current sheet. |

@@ -10,4 +10,4 @@ Object
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| comments | [CommentReportRecord[]](../Enumeration/CommentReportRecord.md) | List of comments. |
+| comments | [CommentReportRecord](../Enumeration/CommentReportRecord.md)[] | List of comments. |

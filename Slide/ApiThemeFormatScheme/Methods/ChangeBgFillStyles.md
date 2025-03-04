@@ -14,7 +14,7 @@ expression.ChangeBgFillStyles(arrBgFill);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arrBgFill | Required | [ApiFill[]](../../ApiFill/ApiFill.md) |  | The array of background fill styles must contains 3 elements - subtle, moderate and intense fills. If an array is empty or NoFill elements are in the array, it will be filled with the Api.CreateNoFill() elements. |
+| arrBgFill | Required | [ApiFill](../../ApiFill/ApiFill.md)[] |  | The array of background fill styles must contains 3 elements - subtle, moderate and intense fills. If an array is empty or NoFill elements are in the array, it will be filled with the Api.CreateNoFill() elements. |
 
 ## Returns
 

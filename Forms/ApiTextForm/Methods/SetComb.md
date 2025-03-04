@@ -14,11 +14,11 @@ expression.SetComb(bComb);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| bComb | Required | [boolean](../../../Word/boolean/boolean.md) |  | Defines if the text field is a comb of characters (true) or not (false). |
+| bComb | Required | boolean |  | Defines if the text field is a comb of characters (true) or not (false). |
 
 ## Returns
 
-[boolean](../../../Word/boolean/boolean.md)
+boolean
 
 ## Example
 

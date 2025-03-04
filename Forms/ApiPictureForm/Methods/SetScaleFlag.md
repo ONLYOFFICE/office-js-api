@@ -18,7 +18,7 @@ expression.SetScaleFlag(sScaleFlag);
 
 ## Returns
 
-[boolean](../../../Word/boolean/boolean.md)
+boolean
 
 ## Example
 

@@ -14,11 +14,11 @@ expression.SetLockAspectRatio(isLock);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| isLock | Optional | [boolean](../../../Word/boolean/boolean.md) | [true](../../../Word/true/true.md) | Specifies if the aspect ratio of the current picture form will be locked (true) or not (false). |
+| isLock | Optional | boolean | true | Specifies if the aspect ratio of the current picture form will be locked (true) or not (false). |
 
 ## Returns
 
-[boolean](../../../Word/boolean/boolean.md)
+boolean
 
 ## Example
 

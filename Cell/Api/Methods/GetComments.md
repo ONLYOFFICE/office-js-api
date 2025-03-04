@@ -16,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiComment[]](../../ApiComment/ApiComment.md)
+[ApiComment](../../ApiComment/ApiComment.md)[]
 
 ## Example
 

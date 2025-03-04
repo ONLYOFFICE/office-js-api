@@ -19,7 +19,7 @@ Represents the ApiTableRow class.
 | [Clear](./Methods/Clear.md) | boolean | Clears the content from the current row. |
 | [Remove](./Methods/Remove.md) | boolean | Removes the current table row. |
 | [SetTextPr](./Methods/SetTextPr.md) | boolean | Sets the text properties to the current row. |
-| [Search](./Methods/Search.md) | [ApiRange[]](../ApiRange/ApiRange.md) | Searches for a scope of a table row object. The search results are a collection of ApiRange objects. |
+| [Search](./Methods/Search.md) | [ApiRange](../ApiRange/ApiRange.md)[] | Searches for a scope of a table row object. The search results are a collection of ApiRange objects. |
 | [SetBackgroundColor](./Methods/SetBackgroundColor.md) | boolean | Sets the background color to all cells in the current table row. |
 | [GetClassType](./Methods/GetClassType.md) | "tableRowPr" | Returns a type of the ApiTableRowPr class. |
 | [SetHeight](./Methods/SetHeight.md) | boolean | Sets the height to the current table row within the current table. |

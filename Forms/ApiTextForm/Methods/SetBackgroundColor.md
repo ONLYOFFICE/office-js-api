@@ -17,11 +17,11 @@ expression.SetBackgroundColor(r, g, b, bNone);
 | r | Required | [byte](../../Enumeration/byte.md) |  | Red color component value. |
 | g | Required | [byte](../../Enumeration/byte.md) |  | Green color component value. |
 | b | Required | [byte](../../Enumeration/byte.md) |  | Blue color component value. |
-| bNone | Required | [boolean](../../../Word/boolean/boolean.md) |  | Defines that background color will not be set. |
+| bNone | Required | boolean |  | Defines that background color will not be set. |
 
 ## Returns
 
-[boolean](../../../Word/boolean/boolean.md)
+boolean
 
 ## Example
 

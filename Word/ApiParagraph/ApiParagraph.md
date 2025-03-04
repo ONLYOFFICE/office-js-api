@@ -51,12 +51,12 @@ Represents the ApiParagraph class.
 | [SetUnderline](./Methods/SetUnderline.md) | [ApiParagraph](../ApiParagraph/ApiParagraph.md) | Specifies that the contents of this paragraph are displayed along with a line appearing directly below the character (less than all the spacing above and below the characters on the line). |
 | [SetVertAlign](./Methods/SetVertAlign.md) | [ApiParagraph](../ApiParagraph/ApiParagraph.md) \| null | Specifies the alignment which will be applied to the contents of this paragraph in relation to the default appearance of the paragraph text: **"baseline"** - the characters in the current paragraph will be aligned by the default text baseline. **"subscript"** - the characters in the current paragraph will be aligned below the default text baseline. **"superscript"** - the characters in the current paragraph will be aligned above the default text baseline. |
 | [Last](./Methods/Last.md) | [ParagraphContent](../Enumeration/ParagraphContent.md) | Returns the last element of the paragraph which is not empty. |
-| [GetAllContentControls](./Methods/GetAllContentControls.md) | [ApiInlineLvlSdt[]](../ApiInlineLvlSdt/ApiInlineLvlSdt.md) | Returns a collection of content control objects in the paragraph. |
-| [GetAllDrawingObjects](./Methods/GetAllDrawingObjects.md) | [Drawing[]](../Enumeration/Drawing.md) | Returns a collection of drawing objects in the paragraph. |
-| [GetAllShapes](./Methods/GetAllShapes.md) | [ApiShape[]](../ApiShape/ApiShape.md) | Returns a collection of shape objects in the paragraph. |
-| [GetAllImages](./Methods/GetAllImages.md) | [ApiImage[]](../ApiImage/ApiImage.md) | Returns a collection of image objects in the paragraph. |
-| [GetAllCharts](./Methods/GetAllCharts.md) | [ApiChart[]](../ApiChart/ApiChart.md) | Returns a collection of chart objects in the paragraph. |
-| [GetAllOleObjects](./Methods/GetAllOleObjects.md) | [ApiOleObject[]](../ApiOleObject/ApiOleObject.md) | Returns a collection of OLE objects in the paragraph. |
+| [GetAllContentControls](./Methods/GetAllContentControls.md) | [ApiInlineLvlSdt](../ApiInlineLvlSdt/ApiInlineLvlSdt.md)[] | Returns a collection of content control objects in the paragraph. |
+| [GetAllDrawingObjects](./Methods/GetAllDrawingObjects.md) | [Drawing](../Enumeration/Drawing.md)[] | Returns a collection of drawing objects in the paragraph. |
+| [GetAllShapes](./Methods/GetAllShapes.md) | [ApiShape](../ApiShape/ApiShape.md)[] | Returns a collection of shape objects in the paragraph. |
+| [GetAllImages](./Methods/GetAllImages.md) | [ApiImage](../ApiImage/ApiImage.md)[] | Returns a collection of image objects in the paragraph. |
+| [GetAllCharts](./Methods/GetAllCharts.md) | [ApiChart](../ApiChart/ApiChart.md)[] | Returns a collection of chart objects in the paragraph. |
+| [GetAllOleObjects](./Methods/GetAllOleObjects.md) | [ApiOleObject](../ApiOleObject/ApiOleObject.md)[] | Returns a collection of OLE objects in the paragraph. |
 | [GetParentContentControl](./Methods/GetParentContentControl.md) | [ApiBlockLvlSdt](../ApiBlockLvlSdt/ApiBlockLvlSdt.md) \| null | Returns a content control that contains the current paragraph. |
 | [GetParentTable](./Methods/GetParentTable.md) | [ApiTable](../ApiTable/ApiTable.md) \| null | Returns a table that contains the current paragraph. |
 | [GetParentTableCell](./Methods/GetParentTableCell.md) | [ApiTableCell](../ApiTableCell/ApiTableCell.md) \| null | Returns a table cell that contains the current paragraph. |
@@ -66,7 +66,7 @@ Represents the ApiParagraph class.
 | [InsertInContentControl](./Methods/InsertInContentControl.md) | [ApiParagraph](../ApiParagraph/ApiParagraph.md) \| [ApiBlockLvlSdt](../ApiBlockLvlSdt/ApiBlockLvlSdt.md) | Wraps the paragraph object with a rich text content control. |
 | [InsertParagraph](./Methods/InsertParagraph.md) | [ApiParagraph](../ApiParagraph/ApiParagraph.md) \| null | Inserts a paragraph at the specified position. |
 | [Select](./Methods/Select.md) | boolean | Selects the current paragraph. |
-| [Search](./Methods/Search.md) | [ApiRange[]](../ApiRange/ApiRange.md) | Searches for a scope of a paragraph object. The search results are a collection of ApiRange objects. |
+| [Search](./Methods/Search.md) | [ApiRange](../ApiRange/ApiRange.md)[] | Searches for a scope of a paragraph object. The search results are a collection of ApiRange objects. |
 | [WrapInMailMergeField](./Methods/WrapInMailMergeField.md) | boolean | Wraps the paragraph content in a mail merge field. |
 | [AddNumberedCrossRef](./Methods/AddNumberedCrossRef.md) | boolean | Adds a numbered cross-reference to the current paragraph. 💡 Please note that this paragraph must be in the document. |
 | [AddHeadingCrossRef](./Methods/AddHeadingCrossRef.md) | boolean | Adds a heading cross-reference to the current paragraph. 💡 Please note that this paragraph must be in the document. |

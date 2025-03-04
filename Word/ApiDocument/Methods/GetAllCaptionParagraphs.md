@@ -18,7 +18,7 @@ expression.GetAllCaptionParagraphs(sCaption);
 
 ## Returns
 
-[ApiParagraph[]](../../ApiParagraph/ApiParagraph.md)
+[ApiParagraph](../../ApiParagraph/ApiParagraph.md)[]
 
 ## Example
 

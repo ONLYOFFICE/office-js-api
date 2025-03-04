@@ -18,7 +18,7 @@ expression.SetTextPr(oTextPr);
 
 ## Returns
 
-[boolean](../../../Word/boolean/boolean.md)
+boolean
 
 ## Example
 

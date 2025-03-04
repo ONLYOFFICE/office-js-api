@@ -16,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiPivotField[]](../../ApiPivotField/ApiPivotField.md)
+[ApiPivotField](../../ApiPivotField/ApiPivotField.md)[]
 
 ## Example
 

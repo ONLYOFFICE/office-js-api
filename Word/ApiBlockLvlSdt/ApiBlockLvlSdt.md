@@ -18,13 +18,13 @@ Represents the ApiBlockLvlSdt class.
 | [SetAlias](./Methods/SetAlias.md) | boolean | Sets the alias attribute to the current container. |
 | [GetAlias](./Methods/GetAlias.md) | string | Returns the alias attribute for the current container. |
 | [GetContent](./Methods/GetContent.md) | [ApiDocumentContent](../ApiDocumentContent/ApiDocumentContent.md) | Returns the content of the current container. |
-| [GetAllContentControls](./Methods/GetAllContentControls.md) | [ApiBlockLvlSdt[]](../ApiBlockLvlSdt/ApiBlockLvlSdt.md) \| [ApiInlineLvlSdt[]](../ApiInlineLvlSdt/ApiInlineLvlSdt.md) | Returns a collection of content control objects in the current content control. |
-| [GetAllParagraphs](./Methods/GetAllParagraphs.md) | [ApiParagraph[]](../ApiParagraph/ApiParagraph.md) | Returns a collection of paragraph objects in the current content control. |
-| [GetAllTablesOnPage](./Methods/GetAllTablesOnPage.md) | [ApiTable[]](../ApiTable/ApiTable.md) | Returns a collection of tables on a given absolute page. 💡 This method can be a little bit slow, because it runs the document calculation process to arrange tables on the specified page. |
+| [GetAllContentControls](./Methods/GetAllContentControls.md) | [ApiBlockLvlSdt](../ApiBlockLvlSdt/ApiBlockLvlSdt.md)[] \| [ApiInlineLvlSdt](../ApiInlineLvlSdt/ApiInlineLvlSdt.md)[] | Returns a collection of content control objects in the current content control. |
+| [GetAllParagraphs](./Methods/GetAllParagraphs.md) | [ApiParagraph](../ApiParagraph/ApiParagraph.md)[] | Returns a collection of paragraph objects in the current content control. |
+| [GetAllTablesOnPage](./Methods/GetAllTablesOnPage.md) | [ApiTable](../ApiTable/ApiTable.md)[] | Returns a collection of tables on a given absolute page. 💡 This method can be a little bit slow, because it runs the document calculation process to arrange tables on the specified page. |
 | [RemoveAllElements](./Methods/RemoveAllElements.md) | boolean | Clears the contents from the current content control. |
 | [Delete](./Methods/Delete.md) | boolean | Removes a content control and its content. If keepContent is true, the content is not deleted. |
 | [SetTextPr](./Methods/SetTextPr.md) | boolean | Applies text settings to the content of the content control. |
-| [GetAllDrawingObjects](./Methods/GetAllDrawingObjects.md) | [Drawing[]](../Enumeration/Drawing.md) | Returns a collection of drawing objects in the current content control. |
+| [GetAllDrawingObjects](./Methods/GetAllDrawingObjects.md) | [Drawing](../Enumeration/Drawing.md)[] | Returns a collection of drawing objects in the current content control. |
 | [GetParentContentControl](./Methods/GetParentContentControl.md) | [ApiBlockLvlSdt](../ApiBlockLvlSdt/ApiBlockLvlSdt.md) \| null | Returns a content control that contains the current content control. |
 | [GetParentTable](./Methods/GetParentTable.md) | [ApiTable](../ApiTable/ApiTable.md) \| null | Returns a table that contains the current content control. |
 | [GetParentTableCell](./Methods/GetParentTableCell.md) | [ApiTableCell](../ApiTableCell/ApiTableCell.md) \| null | Returns a table cell that contains the current content control. |
@@ -33,7 +33,7 @@ Represents the ApiBlockLvlSdt class.
 | [AddText](./Methods/AddText.md) | boolean | Adds a text to the current content control. |
 | [GetRange](./Methods/GetRange.md) | [ApiRange](../ApiRange/ApiRange.md) | Returns a Range object that represents the part of the document contained in the specified content control. |
 | [Copy](./Methods/Copy.md) | [ApiBlockLvlSdt](../ApiBlockLvlSdt/ApiBlockLvlSdt.md) | Creates a copy of an block content control. Ignores comments, footnote references, complex fields. |
-| [Search](./Methods/Search.md) | [ApiRange[]](../ApiRange/ApiRange.md) | Searches for a scope of a content control object. The search results are a collection of ApiRange objects. |
+| [Search](./Methods/Search.md) | [ApiRange](../ApiRange/ApiRange.md)[] | Searches for a scope of a content control object. The search results are a collection of ApiRange objects. |
 | [Select](./Methods/Select.md) | boolean | Selects the current content control. |
 | [GetPlaceholderText](./Methods/GetPlaceholderText.md) | string | Returns the placeholder text from the current content control. |
 | [SetPlaceholderText](./Methods/SetPlaceholderText.md) | boolean | Sets the placeholder text to the current content control. |

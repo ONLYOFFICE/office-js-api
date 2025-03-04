@@ -28,12 +28,12 @@ Represents the ApiSlide class.
 | [ApplyTheme](./Methods/ApplyTheme.md) | boolean | Applies the specified theme to the current slide. |
 | [GetLayout](./Methods/GetLayout.md) | [ApiLayout](../ApiLayout/ApiLayout.md) \| null | Returns a layout of the current slide. |
 | [GetTheme](./Methods/GetTheme.md) | [ApiTheme](../ApiTheme/ApiTheme.md) | Returns a theme of the current slide. |
-| [GetAllDrawings](./Methods/GetAllDrawings.md) | [Drawing[]](../Enumeration/Drawing.md) | Returns an array with all the drawing objects from the slide. |
-| [GetAllShapes](./Methods/GetAllShapes.md) | [ApiShape[]](../ApiShape/ApiShape.md) | Returns an array with all the shape objects from the slide. |
-| [GetAllImages](./Methods/GetAllImages.md) | [ApiImage[]](../ApiImage/ApiImage.md) | Returns an array with all the image objects from the slide. |
-| [GetAllCharts](./Methods/GetAllCharts.md) | [ApiChart[]](../ApiChart/ApiChart.md) | Returns an array with all the chart objects from the slide. |
-| [GetAllOleObjects](./Methods/GetAllOleObjects.md) | [ApiOleObject[]](../ApiOleObject/ApiOleObject.md) | Returns an array with all the OLE objects from the slide. |
+| [GetAllDrawings](./Methods/GetAllDrawings.md) | [Drawing](../Enumeration/Drawing.md)[] | Returns an array with all the drawing objects from the slide. |
+| [GetAllShapes](./Methods/GetAllShapes.md) | [ApiShape](../ApiShape/ApiShape.md)[] | Returns an array with all the shape objects from the slide. |
+| [GetAllImages](./Methods/GetAllImages.md) | [ApiImage](../ApiImage/ApiImage.md)[] | Returns an array with all the image objects from the slide. |
+| [GetAllCharts](./Methods/GetAllCharts.md) | [ApiChart](../ApiChart/ApiChart.md)[] | Returns an array with all the chart objects from the slide. |
+| [GetAllOleObjects](./Methods/GetAllOleObjects.md) | [ApiOleObject](../ApiOleObject/ApiOleObject.md)[] | Returns an array with all the OLE objects from the slide. |
 | [ToJSON](./Methods/ToJSON.md) | JSON | Converts the ApiSlide object into the JSON object. |
-| [GetDrawingsByPlaceholderType](./Methods/GetDrawingsByPlaceholderType.md) | [Drawing[]](../Enumeration/Drawing.md) | Returns an array of drawings by the specified placeholder type. |
+| [GetDrawingsByPlaceholderType](./Methods/GetDrawingsByPlaceholderType.md) | [Drawing](../Enumeration/Drawing.md)[] | Returns an array of drawings by the specified placeholder type. |
 | [Select](./Methods/Select.md) | None | Selects the current slide. |
 | [GroupDrawings](./Methods/GroupDrawings.md) | [ApiGroup](../ApiGroup/ApiGroup.md) | Groups an array of drawings in the current slide. |

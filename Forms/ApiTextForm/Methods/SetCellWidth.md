@@ -18,7 +18,7 @@ expression.SetCellWidth(nCellWidth);
 
 ## Returns
 
-[boolean](../../../Word/boolean/boolean.md)
+boolean
 
 ## Example
 

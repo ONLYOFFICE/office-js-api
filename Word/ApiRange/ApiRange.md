@@ -13,7 +13,7 @@ Represents the ApiRange class.
 | [AddBookmark](./Methods/AddBookmark.md) | boolean | Adds a bookmark to the specified range. |
 | [AddHyperlink](./Methods/AddHyperlink.md) | [ApiHyperlink](../ApiHyperlink/ApiHyperlink.md) \| null | Adds a hyperlink to the specified range. |
 | [GetText](./Methods/GetText.md) | String | Returns a text from the specified range. |
-| [GetAllParagraphs](./Methods/GetAllParagraphs.md) | [ApiParagraph[]](../ApiParagraph/ApiParagraph.md) | Returns a collection of paragraphs that represents all the paragraphs in the specified range. |
+| [GetAllParagraphs](./Methods/GetAllParagraphs.md) | [ApiParagraph](../ApiParagraph/ApiParagraph.md)[] | Returns a collection of paragraphs that represents all the paragraphs in the specified range. |
 | [Select](./Methods/Select.md) | boolean | Sets the selection to the specified range. |
 | [ExpandTo](./Methods/ExpandTo.md) | [ApiRange](../ApiRange/ApiRange.md) \| null | Returns a new range that goes beyond the specified range in any direction and spans a different range. The current range has not changed. |
 | [IntersectWith](./Methods/IntersectWith.md) | [ApiRange](../ApiRange/ApiRange.md) \| null | Returns a new range as the intersection of the current range with another range. The current range has not changed. |

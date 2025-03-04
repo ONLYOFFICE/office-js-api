@@ -14,7 +14,7 @@ expression.CreateThemeColorScheme(arrColors, sName);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arrColors | Required | [ApiUniColor[]](../../ApiUniColor/ApiUniColor.md) \| [ApiRGBColor[]](../../ApiRGBColor/ApiRGBColor.md) |  | Set of colors which are referred to as a color scheme. The color scheme is responsible for defining a list of twelve colors. The array should contain a sequence of colors: 2 dark, 2 light, 6 primary, a color for a hyperlink and a color for the followed hyperlink. |
+| arrColors | Required | [ApiUniColor](../../ApiUniColor/ApiUniColor.md)[] \| [ApiRGBColor](../../ApiRGBColor/ApiRGBColor.md)[] |  | Set of colors which are referred to as a color scheme. The color scheme is responsible for defining a list of twelve colors. The array should contain a sequence of colors: 2 dark, 2 light, 6 primary, a color for a hyperlink and a color for the followed hyperlink. |
 | sName | Required | string |  | Theme color scheme name. |
 
 ## Returns

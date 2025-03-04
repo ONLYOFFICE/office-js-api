@@ -18,7 +18,7 @@ expression.GetDrawingsByPlaceholderType(sType);
 
 ## Returns
 
-[Drawing[]](../../Enumeration/Drawing.md)
+[Drawing](../../Enumeration/Drawing.md)[]
 
 ## Example
 

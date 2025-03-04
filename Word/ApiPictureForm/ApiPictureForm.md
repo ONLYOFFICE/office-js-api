@@ -12,7 +12,7 @@ Represents the ApiPictureForm class.
 | [SetLockAspectRatio](./Methods/SetLockAspectRatio.md) | boolean | Locks the aspect ratio of the current picture form. |
 | [IsLockAspectRatio](./Methods/IsLockAspectRatio.md) | boolean | Checks if the aspect ratio of the current picture form is locked or not. |
 | [SetPicturePosition](./Methods/SetPicturePosition.md) | boolean | Sets the picture position inside the current form: **0** - the picture is placed on the left/top; **50** - the picture is placed in the center; **100** - the picture is placed on the right/bottom. |
-| [GetPicturePosition](./Methods/GetPicturePosition.md) | [percentage[]](../Enumeration/percentage.md) | Returns the picture position inside the current form. |
+| [GetPicturePosition](./Methods/GetPicturePosition.md) | [percentage](../Enumeration/percentage.md)[] | Returns the picture position inside the current form. |
 | [SetRespectBorders](./Methods/SetRespectBorders.md) | boolean | Respects the form border width when scaling the image. |
 | [IsRespectBorders](./Methods/IsRespectBorders.md) | boolean | Checks if the form border width is respected or not. |
 | [GetImage](./Methods/GetImage.md) | [Base64Img](../Enumeration/Base64Img.md) | Returns an image in the base64 format from the current picture form. |

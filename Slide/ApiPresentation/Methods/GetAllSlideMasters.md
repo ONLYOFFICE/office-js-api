@@ -16,4 +16,4 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiMaster[]](../../ApiMaster/ApiMaster.md)
+[ApiMaster](../../ApiMaster/ApiMaster.md)[]

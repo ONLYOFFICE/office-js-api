@@ -30,13 +30,13 @@ Represents the ApiPivotTable class.
 | LayoutBlankLine | boolean | Sets the setting which specifies whether to insert blank rows after each item in the pivot table. |
 | LayoutSubtotals | boolean | Sets the setting which specifies whether to show subtotals in the pivot table. |
 | SubtotalLocation | number | Sets the layout subtotal location. |
-| PivotFields | [ApiPivotField[]](../ApiPivotField/ApiPivotField.md) | Returns all pivot fields in the pivot table. |
-| ColumnFields | [ApiPivotField[]](../ApiPivotField/ApiPivotField.md) | Returns an array that is currently displayed as column fields in the pivot table. |
-| DataFields | [ApiPivotField[]](../ApiPivotField/ApiPivotField.md) | Returns an array that is currently displayed as data fields in the pivot table. |
-| HiddenFields | [ApiPivotField[]](../ApiPivotField/ApiPivotField.md) | Returns an array that represents all hidden fields in the pivot table. |
-| VisibleFields | [ApiPivotField[]](../ApiPivotField/ApiPivotField.md) | Returns an array that represents all visible fields in the pivot table. |
-| PageFields | [ApiPivotField[]](../ApiPivotField/ApiPivotField.md) | Returns an array that is currently displayed as page fields in the pivot table. |
-| RowFields | [ApiPivotField[]](../ApiPivotField/ApiPivotField.md) | Returns an array that is currently displayed as row fields in the pivot table. |
+| PivotFields | [ApiPivotField](../ApiPivotField/ApiPivotField.md)[] | Returns all pivot fields in the pivot table. |
+| ColumnFields | [ApiPivotField](../ApiPivotField/ApiPivotField.md)[] | Returns an array that is currently displayed as column fields in the pivot table. |
+| DataFields | [ApiPivotField](../ApiPivotField/ApiPivotField.md)[] | Returns an array that is currently displayed as data fields in the pivot table. |
+| HiddenFields | [ApiPivotField](../ApiPivotField/ApiPivotField.md)[] | Returns an array that represents all hidden fields in the pivot table. |
+| VisibleFields | [ApiPivotField](../ApiPivotField/ApiPivotField.md)[] | Returns an array that represents all visible fields in the pivot table. |
+| PageFields | [ApiPivotField](../ApiPivotField/ApiPivotField.md)[] | Returns an array that is currently displayed as page fields in the pivot table. |
+| RowFields | [ApiPivotField](../ApiPivotField/ApiPivotField.md)[] | Returns an array that is currently displayed as row fields in the pivot table. |
 
 ## Methods
 
@@ -48,7 +48,7 @@ Represents the ApiPivotTable class.
 | [ClearTable](./Methods/ClearTable.md) | None | Clears the pivot table. |
 | [GetData](./Methods/GetData.md) | number \| null | Returns the value for the data field in a pivot table. |
 | [GetPivotData](./Methods/GetPivotData.md) | [ApiRange](../ApiRange/ApiRange.md) | Returns a Range object with information about a data item in the pivot table report. |
-| [GetPivotFields](./Methods/GetPivotFields.md) | [ApiPivotField[]](../ApiPivotField/ApiPivotField.md) \| [ApiPivotField](../ApiPivotField/ApiPivotField.md) \| [ApiPivotDataField](../ApiPivotDataField/ApiPivotDataField.md) \| null | Returns a collection that represents either a single pivot table field or a collection of both the visible and hidden fields in the pivot table report. |
+| [GetPivotFields](./Methods/GetPivotFields.md) | [ApiPivotField](../ApiPivotField/ApiPivotField.md)[] \| [ApiPivotField](../ApiPivotField/ApiPivotField.md) \| [ApiPivotDataField](../ApiPivotDataField/ApiPivotDataField.md) \| null | Returns a collection that represents either a single pivot table field or a collection of both the visible and hidden fields in the pivot table report. |
 | [PivotValueCell](./Methods/PivotValueCell.md) | number \| string \| null | Returns the value of a pivot table cell. |
 | [ShowDetails](./Methods/ShowDetails.md) | boolean | Shows details of the pivot table cell. |
 | [RefreshTable](./Methods/RefreshTable.md) | None | Refreshes the pivot table report from the source data. |
@@ -59,12 +59,12 @@ Represents the ApiPivotTable class.
 | [RemoveField](./Methods/RemoveField.md) | None | Removes the specified field from all the pivot table categories. |
 | [MoveField](./Methods/MoveField.md) | None | Moves the specified field from one category to another. |
 | [Select](./Methods/Select.md) | None | Selects the current pivot table. |
-| [GetColumnFields](./Methods/GetColumnFields.md) | [ApiPivotField[]](../ApiPivotField/ApiPivotField.md) | Returns a collection that is currently displayed as column fields in the pivot table. |
-| [GetDataFields](./Methods/GetDataFields.md) | [ApiPivotDataField[]](../ApiPivotDataField/ApiPivotDataField.md) \| [ApiPivotDataField](../ApiPivotDataField/ApiPivotDataField.md) \| null | Returns a collection that represents either a single pivot table data field or a collection of all visible data fields. |
-| [GetHiddenFields](./Methods/GetHiddenFields.md) | [ApiPivotField[]](../ApiPivotField/ApiPivotField.md) | Returns an array that represents all the hidden fields in the pivot table. |
-| [GetVisibleFields](./Methods/GetVisibleFields.md) | [ApiPivotField[]](../ApiPivotField/ApiPivotField.md) | Returns an array that represents all the visible fields in the pivot table. |
-| [GetPageFields](./Methods/GetPageFields.md) | [ApiPivotField[]](../ApiPivotField/ApiPivotField.md) | Returns a collection that represents either a single pivot table page field or a collection of all visible page fields. |
-| [GetRowFields](./Methods/GetRowFields.md) | [ApiPivotField[]](../ApiPivotField/ApiPivotField.md) | Returns a collection that is currently displayed as row fields in the pivot table. |
+| [GetColumnFields](./Methods/GetColumnFields.md) | [ApiPivotField](../ApiPivotField/ApiPivotField.md)[] | Returns a collection that is currently displayed as column fields in the pivot table. |
+| [GetDataFields](./Methods/GetDataFields.md) | [ApiPivotDataField](../ApiPivotDataField/ApiPivotDataField.md)[] \| [ApiPivotDataField](../ApiPivotDataField/ApiPivotDataField.md) \| null | Returns a collection that represents either a single pivot table data field or a collection of all visible data fields. |
+| [GetHiddenFields](./Methods/GetHiddenFields.md) | [ApiPivotField](../ApiPivotField/ApiPivotField.md)[] | Returns an array that represents all the hidden fields in the pivot table. |
+| [GetVisibleFields](./Methods/GetVisibleFields.md) | [ApiPivotField](../ApiPivotField/ApiPivotField.md)[] | Returns an array that represents all the visible fields in the pivot table. |
+| [GetPageFields](./Methods/GetPageFields.md) | [ApiPivotField](../ApiPivotField/ApiPivotField.md)[] | Returns a collection that represents either a single pivot table page field or a collection of all visible page fields. |
+| [GetRowFields](./Methods/GetRowFields.md) | [ApiPivotField](../ApiPivotField/ApiPivotField.md)[] | Returns a collection that is currently displayed as row fields in the pivot table. |
 | [GetName](./Methods/GetName.md) | string | Returns the pivot table name. |
 | [SetName](./Methods/SetName.md) | None | Sets the pivot table name. |
 | [GetColumnGrand](./Methods/GetColumnGrand.md) | boolean | Returns the **Grand Totals** setting of the pivot table columns. |

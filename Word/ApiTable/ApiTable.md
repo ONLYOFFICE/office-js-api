@@ -32,11 +32,11 @@ Represents the ApiTable class.
 | [GetParentContentControl](./Methods/GetParentContentControl.md) | [ApiBlockLvlSdt](../ApiBlockLvlSdt/ApiBlockLvlSdt.md) \| null | Returns a content control that contains the current table. |
 | [InsertInContentControl](./Methods/InsertInContentControl.md) | [ApiTable](../ApiTable/ApiTable.md) \| [ApiBlockLvlSdt](../ApiBlockLvlSdt/ApiBlockLvlSdt.md) | Wraps the current table object with a content control. |
 | [GetParentTable](./Methods/GetParentTable.md) | [ApiTable](../ApiTable/ApiTable.md) \| null | Returns a table that contains the current table. |
-| [GetTables](./Methods/GetTables.md) | [ApiTable[]](../ApiTable/ApiTable.md) | Returns an array of tables that represents all the tables nested within the specified table. |
+| [GetTables](./Methods/GetTables.md) | [ApiTable](../ApiTable/ApiTable.md)[] | Returns an array of tables that represents all the tables nested within the specified table. |
 | [GetParentTableCell](./Methods/GetParentTableCell.md) | [ApiTableCell](../ApiTableCell/ApiTableCell.md) \| null | Returns a table cell that contains the current table. |
 | [Delete](./Methods/Delete.md) | boolean | Deletes the current table. |
 | [Clear](./Methods/Clear.md) | boolean | Clears the content from the table. |
-| [Search](./Methods/Search.md) | [ApiRange[]](../ApiRange/ApiRange.md) | Searches for a scope of a table object. The search results are a collection of ApiRange objects. |
+| [Search](./Methods/Search.md) | [ApiRange](../ApiRange/ApiRange.md)[] | Searches for a scope of a table object. The search results are a collection of ApiRange objects. |
 | [SetTextPr](./Methods/SetTextPr.md) | boolean | Applies the text settings to the entire contents of the table. |
 | [SetBackgroundColor](./Methods/SetBackgroundColor.md) | boolean | Sets the background color to all cells in the current table. |
 | [ToJSON](./Methods/ToJSON.md) | JSON | Converts the ApiTable object into the JSON object. |

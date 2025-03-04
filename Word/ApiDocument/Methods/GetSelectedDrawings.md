@@ -16,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiShape[]](../../ApiShape/ApiShape.md) \| [ApiImage[]](../../ApiImage/ApiImage.md) \| [ApiChart[]](../../ApiChart/ApiChart.md) \| [ApiDrawing[]](../../ApiDrawing/ApiDrawing.md)
+[ApiShape](../../ApiShape/ApiShape.md)[] \| [ApiImage](../../ApiImage/ApiImage.md)[] \| [ApiChart](../../ApiChart/ApiChart.md)[] \| [ApiDrawing](../../ApiDrawing/ApiDrawing.md)[]
 
 ## Example
 

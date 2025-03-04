@@ -17,7 +17,7 @@ Represents the ApiTableCell class.
 | [AddColumns](./Methods/AddColumns.md) | [ApiTable](../ApiTable/ApiTable.md) \| null | Adds the new columns to the current table. |
 | [RemoveColumn](./Methods/RemoveColumn.md) | boolean | Removes a column containing the current cell. |
 | [RemoveRow](./Methods/RemoveRow.md) | boolean | Removes a row containing the current cell. |
-| [Search](./Methods/Search.md) | [ApiRange[]](../ApiRange/ApiRange.md) | Searches for a scope of a table cell object. The search results are a collection of ApiRange objects. |
+| [Search](./Methods/Search.md) | [ApiRange](../ApiRange/ApiRange.md)[] | Searches for a scope of a table cell object. The search results are a collection of ApiRange objects. |
 | [GetNext](./Methods/GetNext.md) | [ApiTableCell](../ApiTableCell/ApiTableCell.md) \| null | Returns the next cell if exists. |
 | [GetPrevious](./Methods/GetPrevious.md) | [ApiTableCell](../ApiTableCell/ApiTableCell.md) \| null | Returns the previous cell if exists. |
 | [Split](./Methods/Split.md) | [ApiTable](../ApiTable/ApiTable.md) \| null | Splits the cell into a given number of rows and columns. |

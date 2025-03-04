@@ -21,11 +21,11 @@ Represents the ApiMaster class.
 | [Delete](./Methods/Delete.md) | boolean | Deletes the specified object from the parent if it exists. |
 | [GetTheme](./Methods/GetTheme.md) | [ApiTheme](../ApiTheme/ApiTheme.md) \| null | Returns a theme of the slide master. |
 | [SetTheme](./Methods/SetTheme.md) | boolean | Sets a theme to the slide master. Sets a copy of the theme object. |
-| [GetAllDrawings](./Methods/GetAllDrawings.md) | [Drawing[]](../Enumeration/Drawing.md) | Returns an array with all the drawing objects from the slide master. |
-| [GetAllShapes](./Methods/GetAllShapes.md) | [ApiShape[]](../ApiShape/ApiShape.md) | Returns an array with all the shape objects from the slide master. |
-| [GetAllImages](./Methods/GetAllImages.md) | [ApiImage[]](../ApiImage/ApiImage.md) | Returns an array with all the image objects from the slide master. |
-| [GetAllCharts](./Methods/GetAllCharts.md) | [ApiChart[]](../ApiChart/ApiChart.md) | Returns an array with all the chart objects from the slide master. |
-| [GetAllOleObjects](./Methods/GetAllOleObjects.md) | [ApiOleObject[]](../ApiOleObject/ApiOleObject.md) | Returns an array with all the OLE objects from the slide master. |
+| [GetAllDrawings](./Methods/GetAllDrawings.md) | [Drawing](../Enumeration/Drawing.md)[] | Returns an array with all the drawing objects from the slide master. |
+| [GetAllShapes](./Methods/GetAllShapes.md) | [ApiShape](../ApiShape/ApiShape.md)[] | Returns an array with all the shape objects from the slide master. |
+| [GetAllImages](./Methods/GetAllImages.md) | [ApiImage](../ApiImage/ApiImage.md)[] | Returns an array with all the image objects from the slide master. |
+| [GetAllCharts](./Methods/GetAllCharts.md) | [ApiChart](../ApiChart/ApiChart.md)[] | Returns an array with all the chart objects from the slide master. |
+| [GetAllOleObjects](./Methods/GetAllOleObjects.md) | [ApiOleObject](../ApiOleObject/ApiOleObject.md)[] | Returns an array with all the OLE objects from the slide master. |
 | [ToJSON](./Methods/ToJSON.md) | JSON | Converts the ApiMaster object into the JSON object. |
-| [GetDrawingsByPlaceholderType](./Methods/GetDrawingsByPlaceholderType.md) | [Drawing[]](../Enumeration/Drawing.md) | Returns an array of drawings by the specified placeholder type. |
+| [GetDrawingsByPlaceholderType](./Methods/GetDrawingsByPlaceholderType.md) | [Drawing](../Enumeration/Drawing.md)[] | Returns an array of drawings by the specified placeholder type. |
 | [GroupDrawings](./Methods/GroupDrawings.md) | [ApiGroup](../ApiGroup/ApiGroup.md) | Groups an array of drawings in the current slide master. |

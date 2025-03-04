@@ -16,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiPivotTable[]](../../ApiPivotTable/ApiPivotTable.md)
+[ApiPivotTable](../../ApiPivotTable/ApiPivotTable.md)[]
 
 ## Example
 

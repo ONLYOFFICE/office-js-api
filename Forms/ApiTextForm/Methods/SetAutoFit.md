@@ -14,11 +14,11 @@ expression.SetAutoFit(bAutoFit);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| bAutoFit | Required | [boolean](../../../Word/boolean/boolean.md) |  | Defines if the text field content is autofit (true) or not (false). |
+| bAutoFit | Required | boolean |  | Defines if the text field content is autofit (true) or not (false). |
 
 ## Returns
 
-[boolean](../../../Word/boolean/boolean.md)
+boolean
 
 ## Example
 

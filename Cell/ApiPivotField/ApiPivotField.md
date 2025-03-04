@@ -33,7 +33,7 @@ Represents the ApiPivotField class.
 | DragToPage | boolean | Returns or sets the setting which specifies whether the specified field can be dragged to the page position. |
 | NumberFormat | string \| null | Returns or sets a value that represents the format code for the object. |
 | CurrentPage | string \| number | Returns the current page which is displayed for the page field (valid only for page fields). |
-| PivotItems | [ApiPivotItem](../ApiPivotItem/ApiPivotItem.md) \| [ApiPivotItem[]](../ApiPivotItem/ApiPivotItem.md) | Returns an object that represents either a single pivot table item (the ApiPivotItem object) or a collection of all the visible and hidden items (an array of the ApiPivotItem objects) in the specified field. |
+| PivotItems | [ApiPivotItem](../ApiPivotItem/ApiPivotItem.md) \| [ApiPivotItem](../ApiPivotItem/ApiPivotItem.md)[] | Returns an object that represents either a single pivot table item (the ApiPivotItem object) or a collection of all the visible and hidden items (an array of the ApiPivotItem objects) in the specified field. |
 
 ## Methods
 
@@ -43,7 +43,7 @@ Represents the ApiPivotField class.
 | [ClearLabelFilters](./Methods/ClearLabelFilters.md) | None | Deletes all label filters or all date filters from the pivot filters collection. |
 | [ClearManualFilters](./Methods/ClearManualFilters.md) | None | Deletes all manual filters from the pivot filters collection. |
 | [ClearValueFilters](./Methods/ClearValueFilters.md) | None | Deletes all value filters from the pivot filters collection. |
-| [GetPivotItems](./Methods/GetPivotItems.md) | [ApiPivotItem[]](../ApiPivotItem/ApiPivotItem.md) \| [ApiPivotItem](../ApiPivotItem/ApiPivotItem.md) \| null | Returns an object that represents either a single pivot table item (the ApiPivotItem object) or a collection of all the visible and hidden items (an array of the ApiPivotItem objects) in the specified field. |
+| [GetPivotItems](./Methods/GetPivotItems.md) | [ApiPivotItem](../ApiPivotItem/ApiPivotItem.md)[] \| [ApiPivotItem](../ApiPivotItem/ApiPivotItem.md) \| null | Returns an object that represents either a single pivot table item (the ApiPivotItem object) or a collection of all the visible and hidden items (an array of the ApiPivotItem objects) in the specified field. |
 | [Move](./Methods/Move.md) | None | Moves the current pivot field inside the category. |
 | [Remove](./Methods/Remove.md) | None | Removes the current pivot field from the pivot table. |
 | [GetPosition](./Methods/GetPosition.md) | number | Returns a value that represents the position of the field (first, second, third, and so on) among all the fields in its orientation (Rows, Columns, Pages, Data). |

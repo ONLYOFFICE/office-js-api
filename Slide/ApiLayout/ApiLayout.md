@@ -19,12 +19,12 @@ Represents the ApiLayout class.
 | [Delete](./Methods/Delete.md) | boolean | Deletes the specified object from the parent slide master if it exists. |
 | [Duplicate](./Methods/Duplicate.md) | [ApiLayout](../ApiLayout/ApiLayout.md) \| null | Creates a duplicate of the specified slide layout object, adds the new slide layout to the slide layout collection. |
 | [MoveTo](./Methods/MoveTo.md) | boolean | Moves the specified layout to a specific location within the same collection. |
-| [GetAllDrawings](./Methods/GetAllDrawings.md) | [Drawing[]](../Enumeration/Drawing.md) | Returns an array with all the drawing objects from the slide layout. |
-| [GetAllShapes](./Methods/GetAllShapes.md) | [ApiShape[]](../ApiShape/ApiShape.md) | Returns an array with all the shape objects from the slide layout. |
-| [GetAllImages](./Methods/GetAllImages.md) | [ApiImage[]](../ApiImage/ApiImage.md) | Returns an array with all the image objects from the slide layout. |
-| [GetAllCharts](./Methods/GetAllCharts.md) | [ApiChart[]](../ApiChart/ApiChart.md) | Returns an array with all the chart objects from the slide layout. |
-| [GetAllOleObjects](./Methods/GetAllOleObjects.md) | [ApiOleObject[]](../ApiOleObject/ApiOleObject.md) | Returns an array with all the OLE objects from the slide layout. |
+| [GetAllDrawings](./Methods/GetAllDrawings.md) | [Drawing](../Enumeration/Drawing.md)[] | Returns an array with all the drawing objects from the slide layout. |
+| [GetAllShapes](./Methods/GetAllShapes.md) | [ApiShape](../ApiShape/ApiShape.md)[] | Returns an array with all the shape objects from the slide layout. |
+| [GetAllImages](./Methods/GetAllImages.md) | [ApiImage](../ApiImage/ApiImage.md)[] | Returns an array with all the image objects from the slide layout. |
+| [GetAllCharts](./Methods/GetAllCharts.md) | [ApiChart](../ApiChart/ApiChart.md)[] | Returns an array with all the chart objects from the slide layout. |
+| [GetAllOleObjects](./Methods/GetAllOleObjects.md) | [ApiOleObject](../ApiOleObject/ApiOleObject.md)[] | Returns an array with all the OLE objects from the slide layout. |
 | [GetMaster](./Methods/GetMaster.md) | [ApiMaster](../ApiMaster/ApiMaster.md) | Returns the parent slide master of the current layout. |
 | [ToJSON](./Methods/ToJSON.md) | JSON | Converts the ApiLayout object into the JSON object. |
-| [GetDrawingsByPlaceholderType](./Methods/GetDrawingsByPlaceholderType.md) | [Drawing[]](../Enumeration/Drawing.md) | Returns an array of drawings by the specified placeholder type. |
+| [GetDrawingsByPlaceholderType](./Methods/GetDrawingsByPlaceholderType.md) | [Drawing](../Enumeration/Drawing.md)[] | Returns an array of drawings by the specified placeholder type. |
 | [GroupDrawings](./Methods/GroupDrawings.md) | [ApiGroup](../ApiGroup/ApiGroup.md) | Groups an array of drawings in the current layout. |
