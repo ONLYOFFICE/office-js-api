@@ -14,7 +14,7 @@ expression.SetValue(data);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| data | Required |  |  | No description provided. |
+| data | Required | string \| boolean \| number \| (string|boolean|number|(string|boolean|number)[])[] |  | The general value for the cell or cell range. |
 
 ## Returns
 
