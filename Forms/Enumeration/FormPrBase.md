@@ -10,11 +10,11 @@ Object
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| key | string | Form key. |
-| tip | string | Form tip text. |
-| tag | string | Form tag. |
-| required | boolean | Specifies if the form is required or not. |
-| placeholder | string | Form placeholder text. |
+| key | [string](../../Word/string/string.md) | Form key. |
+| tip | [string](../../Word/string/string.md) | Form tip text. |
+| tag | [string](../../Word/string/string.md) | Form tag. |
+| required | [boolean](../../Word/boolean/boolean.md) | Specifies if the form is required or not. |
+| placeholder | [string](../../Word/string/string.md) | Form placeholder text. |
 
 
 ## Example

@@ -18,7 +18,7 @@ expression.GetLockValue(sType);
 
 ## Returns
 
-bool
+boolean
 
 ## Example
 

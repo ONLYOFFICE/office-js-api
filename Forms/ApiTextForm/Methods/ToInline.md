@@ -16,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-boolean
+[boolean](../../../Word/boolean/boolean.md)
 
 ## Example
 

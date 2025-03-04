@@ -14,11 +14,11 @@ expression.MoveCursorOutside(isAfter);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| isAfter | Optional | boolean | true | Specifies whether a cursor will be placed before (false) or after (true) the current form. |
+| isAfter | Optional | [boolean](../../../Word/boolean/boolean.md) | [true](../../../Word/true/true.md) | Specifies whether a cursor will be placed before (false) or after (true) the current form. |
 
 ## Returns
 
-boolean
+[boolean](../../../Word/boolean/boolean.md)
 
 ## Example
 

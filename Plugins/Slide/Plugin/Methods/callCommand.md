@@ -1,13 +1,6 @@
 # callCommand
 
-Defines the method used to send the data back to the editor.
-It allows the plugin to send structured data that can be inserted to the resulting document file (formatted paragraphs, tables, text parts, and separate words, etc.).
-
-The *callback* is the result that the command returns. It is an optional parameter. In case it is missing, the &#123;@link Plugin#onCommandCallback window.Asc.plugin.onCommandCallback&#125; function will be used to return the result of the command execution.
-💡 **ONLYOFFICE Document Builder** commands can be only used to create content and insert it to the document editor (using the *Api.GetDocument().InsertContent(...)*).
-This limitation exists due to the co-editing feature in the online editors. If it is necessary to create a plugin for desktop editors to work with local files, no such limitation is applied.
-
-This method is executed in its own context isolated from other JavaScript data. If some parameters or other data need to be passed to this method, use &#123;@link /plugin/scope Asc.scope&#125; object.
+Defines the method used to send the data back to the editor.It allows the plugin to send structured data that can be inserted to the resulting document file (formatted paragraphs, tables, text parts, and separate words, etc.).The *callback* is the result that the command returns. It is an optional parameter. In case it is missing, the &#123;@link Plugin#onCommandCallback window.Asc.plugin.onCommandCallback&#125; function will be used to return the result of the command execution.💡 **ONLYOFFICE Document Builder** commands can be only used to create content and insert it to the document editor (using the *Api.GetDocument().InsertContent(...)*).This limitation exists due to the co-editing feature in the online editors. If it is necessary to create a plugin for desktop editors to work with local files, no such limitation is applied.This method is executed in its own context isolated from other JavaScript data. If some parameters or other data need to be passed to this method, use &#123;@link /plugin/scope Asc.scope&#125; object.
 
 ## Syntax
 

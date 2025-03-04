@@ -14,11 +14,11 @@ expression.SetTime(nTimeStamp);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| nTimeStamp | Required | number |  | The timestamp that will be set to the current date form. |
+| nTimeStamp | Required | [number](../../../Word/number/number.md) |  | The timestamp that will be set to the current date form. |
 
 ## Returns
 
-boolean
+[boolean](../../../Word/boolean/boolean.md)
 
 ## Example
 

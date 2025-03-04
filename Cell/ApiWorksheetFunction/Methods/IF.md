@@ -16,7 +16,7 @@ expression.IF(arg1, arg2, arg3);
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | arg1 | Required | number \| string \| [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| boolean |  | Any value or expression that can be evaluated to **true** or **false**. |
 | arg2 | Required | number \| string \| [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| boolean |  | The value that is returned if the condition is **true**. If omitted, **true** is returned. You can nest up to seven IF functions. |
-| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number \| string \| boolean |  | The value that is returned if the condition is **false**. If omitted, **false** is returned. |
+| arg3 | Optional | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number \| string \| boolean |  | The value that is returned if the condition is **false**. If omitted, **false** is returned. |
 
 ## Returns
 

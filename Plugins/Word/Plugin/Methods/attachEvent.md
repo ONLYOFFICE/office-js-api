@@ -1,7 +1,6 @@
 # attachEvent
 
-Defines the method to add an event listener, a function that will be called whenever the specified event is delivered to the target.
-The list of all the available events can be found &#123;@link /plugin/events here&#125;.
+Defines the method to add an event listener, a function that will be called whenever the specified event is delivered to the target.The list of all the available events can be found &#123;@link /plugin/events here&#125;.
 
 ## Syntax
 

@@ -19,7 +19,7 @@ expression.CreateWordArt(oTextPr, sText, sTransform, oFill, oStroke, nRotAngle, 
 | sTransform | Optional | [TextTransform](../../Enumeration/TextTransform.md) | "textNoShape" | Text transform type. |
 | oFill | Optional | [ApiFill](../../ApiFill/ApiFill.md) | Api.CreateNoFill() | The color or pattern used to fill the Text Art object. |
 | oStroke | Optional | [ApiStroke](../../ApiStroke/ApiStroke.md) | Api.CreateStroke(0, Api.CreateNoFill()) | The stroke used to create the Text Art object shadow. |
-| nRotAngle | Optional | number | false | Rotation angle. |
+| nRotAngle | Optional | number | 0 | Rotation angle. |
 | nWidth | Optional | [EMU](../../Enumeration/EMU.md) | 1828800 | The Text Art width measured in English measure units. |
 | nHeight | Optional | [EMU](../../Enumeration/EMU.md) | 1828800 | The Text Art heigth measured in English measure units. |
 | nIndLeft | Optional | [EMU](../../Enumeration/EMU.md) | ApiPresentation.GetWidth() / 2 | The Text Art left side indentation value measured in English measure units. |

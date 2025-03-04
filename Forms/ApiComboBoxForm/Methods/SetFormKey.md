@@ -14,11 +14,11 @@ expression.SetFormKey(sKey);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sKey | Required | string |  | Form key. |
+| sKey | Required | [string](../../../Word/string/string.md) |  | Form key. |
 
 ## Returns
 
-boolean
+[boolean](../../../Word/boolean/boolean.md)
 
 ## Example
 

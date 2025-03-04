@@ -1,8 +1,6 @@
 # executeMethod
 
-Defines the method used to execute certain editor methods using the plugin.
-
-The callback is the result that the method returns. It is an optional parameter. In case it is missing, the &#123;@link Plugin#onMethodReturn window.Asc.plugin.onMethodReturn&#125; function will be used to return the result of the method execution.
+Defines the method used to execute certain editor methods using the plugin.The callback is the result that the method returns. It is an optional parameter. In case it is missing, the &#123;@link Plugin#onMethodReturn window.Asc.plugin.onMethodReturn&#125; function will be used to return the result of the method execution.
 
 ## Syntax
 

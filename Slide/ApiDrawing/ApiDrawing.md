@@ -21,7 +21,7 @@ Represents the ApiDrawing class.
 | [Delete](./Methods/Delete.md) | boolean | Deletes the specified drawing object from the parent. |
 | [SetPlaceholder](./Methods/SetPlaceholder.md) | boolean | Sets the specified placeholder to the current drawing object. |
 | [GetPlaceholder](./Methods/GetPlaceholder.md) | [ApiPlaceholder](../ApiPlaceholder/ApiPlaceholder.md) \| null | Returns a placeholder from the current drawing object. |
-| [GetLockValue](./Methods/GetLockValue.md) | bool | Returns the lock value for the specified lock type of the current drawing. |
-| [SetLockValue](./Methods/SetLockValue.md) | bool | Sets the lock value to the specified lock type of the current drawing. |
+| [GetLockValue](./Methods/GetLockValue.md) | boolean | Returns the lock value for the specified lock type of the current drawing. |
+| [SetLockValue](./Methods/SetLockValue.md) | boolean | Sets the lock value to the specified lock type of the current drawing. |
 | [ToJSON](./Methods/ToJSON.md) | JSON | Converts the ApiDrawing object into the JSON object. |
 | [Select](./Methods/Select.md) | None | Selects the current graphic object. |

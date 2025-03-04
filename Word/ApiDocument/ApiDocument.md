@@ -97,7 +97,7 @@ Represents the ApiDocument class.
 | [RemoveElement](./Methods/RemoveElement.md) | boolean | Removes an element using the position specified. |
 | [GetRange](./Methods/GetRange.md) | [ApiRange](../ApiRange/ApiRange.md) | Returns a Range object that represents the part of the document contained in the document content. |
 | [ToJSON](./Methods/ToJSON.md) | JSON | Converts the ApiDocumentContent object into the JSON object. |
-| [GetContent](./Methods/GetContent.md) | Array | Returns an array of document elements from the current ApiDocumentContent object. |
+| [GetContent](./Methods/GetContent.md) | [DocumentElement[]](../Enumeration/DocumentElement.md) | Returns an array of document elements from the current ApiDocumentContent object. |
 | [GetAllDrawingObjects](./Methods/GetAllDrawingObjects.md) | [Drawing[]](../Enumeration/Drawing.md) | Returns a collection of drawing objects from the document content. |
 | [GetAllShapes](./Methods/GetAllShapes.md) | [ApiShape[]](../ApiShape/ApiShape.md) | Returns a collection of shape objects from the document content. |
 | [GetAllImages](./Methods/GetAllImages.md) | [ApiImage[]](../ApiImage/ApiImage.md) | Returns a collection of image objects from the document content. |

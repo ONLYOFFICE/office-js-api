@@ -16,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-ApiShape
+[ApiShape](../../../Word/ApiShape/ApiShape.md)
 
 ## Example
 

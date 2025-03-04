@@ -15,7 +15,7 @@ Represents the ApiTableCell class.
 | [GetParentTable](./Methods/GetParentTable.md) | [ApiTable](../ApiTable/ApiTable.md) \| null | Returns a parent table of the current cell. |
 | [AddRows](./Methods/AddRows.md) | [ApiTable](../ApiTable/ApiTable.md) \| null | Adds the new rows to the current table. |
 | [AddColumns](./Methods/AddColumns.md) | [ApiTable](../ApiTable/ApiTable.md) \| null | Adds the new columns to the current table. |
-| [RemoveColumn](./Methods/RemoveColumn.md) | bool \| null | Removes a column containing the current cell. |
+| [RemoveColumn](./Methods/RemoveColumn.md) | boolean | Removes a column containing the current cell. |
 | [RemoveRow](./Methods/RemoveRow.md) | boolean | Removes a row containing the current cell. |
 | [Search](./Methods/Search.md) | [ApiRange[]](../ApiRange/ApiRange.md) | Searches for a scope of a table cell object. The search results are a collection of ApiRange objects. |
 | [GetNext](./Methods/GetNext.md) | [ApiTableCell](../ApiTableCell/ApiTableCell.md) \| null | Returns the next cell if exists. |

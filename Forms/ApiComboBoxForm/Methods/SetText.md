@@ -14,11 +14,11 @@ expression.SetText(sText);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sText | Required | string |  | The combo box text. |
+| sText | Required | [string](../../../Word/string/string.md) |  | The combo box text. |
 
 ## Returns
 
-boolean
+[boolean](../../../Word/boolean/boolean.md)
 
 ## Example
 

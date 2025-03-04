@@ -10,11 +10,11 @@ Object
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| comb | boolean | Specifies if the text field should be a comb of characters with the same cell width. The maximum number of characters must be set to a positive value. |
-| maxCharacters | number | The maximum number of characters in the text field. |
-| cellWidth | number | The cell width for each character measured in millimeters. If this parameter is not specified or equal to 0 or less, then the width will be set automatically. |
-| multiLine | boolean | Specifies if the current fixed size text field is multiline or not. |
-| autoFit | boolean | Specifies if the text field content should be autofit, i.e. whether the font size adjusts to the size of the fixed size form. |
+| comb | [boolean](../../Word/boolean/boolean.md) | Specifies if the text field should be a comb of characters with the same cell width. The maximum number of characters must be set to a positive value. |
+| maxCharacters | [number](../../Word/number/number.md) | The maximum number of characters in the text field. |
+| cellWidth | [number](../../Word/number/number.md) | The cell width for each character measured in millimeters. If this parameter is not specified or equal to 0 or less, then the width will be set automatically. |
+| multiLine | [boolean](../../Word/boolean/boolean.md) | Specifies if the current fixed size text field is multiline or not. |
+| autoFit | [boolean](../../Word/boolean/boolean.md) | Specifies if the text field content should be autofit, i.e. whether the font size adjusts to the size of the fixed size form. |
 
 
 ## Example

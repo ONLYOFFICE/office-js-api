@@ -14,11 +14,11 @@ expression.SetChecked(isChecked);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| isChecked | Required | boolean |  | Specifies if the current checkbox will be checked (true) or not (false). |
+| isChecked | Required | [boolean](../../../Word/boolean/boolean.md) |  | Specifies if the current checkbox will be checked (true) or not (false). |
 
 ## Returns
 
-boolean
+[boolean](../../../Word/boolean/boolean.md)
 
 ## Example
 

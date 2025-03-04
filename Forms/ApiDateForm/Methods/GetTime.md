@@ -16,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-number
+[number](../../../Word/number/number.md)
 
 ## Example
 

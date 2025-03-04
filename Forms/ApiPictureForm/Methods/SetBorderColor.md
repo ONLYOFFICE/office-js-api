@@ -17,11 +17,11 @@ expression.SetBorderColor(r, g, b, bNone);
 | r | Required | [byte](../../Enumeration/byte.md) |  | Red color component value. |
 | g | Required | [byte](../../Enumeration/byte.md) |  | Green color component value. |
 | b | Required | [byte](../../Enumeration/byte.md) |  | Blue color component value. |
-| bNone | Required | boolean |  | Defines that border color will not be set. |
+| bNone | Required | [boolean](../../../Word/boolean/boolean.md) |  | Defines that border color will not be set. |
 
 ## Returns
 
-boolean
+[boolean](../../../Word/boolean/boolean.md)
 
 ## Example
 

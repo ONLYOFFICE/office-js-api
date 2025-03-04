@@ -14,11 +14,11 @@ expression.SetRespectBorders(isRespect);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| isRespect | Optional | boolean | true | Specifies if the form border width will be respected (true) or not (false). |
+| isRespect | Optional | [boolean](../../../Word/boolean/boolean.md) | [true](../../../Word/true/true.md) | Specifies if the form border width will be respected (true) or not (false). |
 
 ## Returns
 
-boolean
+[boolean](../../../Word/boolean/boolean.md)
 
 ## Example
 

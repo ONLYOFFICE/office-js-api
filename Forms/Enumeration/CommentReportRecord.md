@@ -1,6 +1,6 @@
 # CommentReportRecord
 
-Record of one comment.
+Represents a single comment record.
 
 ## Type
 
@@ -10,17 +10,8 @@ Object
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| IsAnswer | boolean | Specifies whether this is an initial comment or a reply to another comment. |
-| CommentMessage | string | The text of the current comment. |
-| Date | number | The time when this change was made in local time. |
-| DateUTC | number | The time when this change was made in UTC. |
-| QuoteText | string | The text to which this comment is related. |
-
-
-## Example
-
-This example shows how to get a report on all comments.
-
-```javascript editor-pdf
-let commentsReport = oDocument.GetCommentsReport();
-```
+| IsAnswer | [boolean](../../Word/boolean/boolean.md) | Whether the comment is a response. |
+| CommentMessage | [string](../../Word/string/string.md) | The comment text. |
+| Date | [number](../../Word/number/number.md) | Local timestamp of the comment. |
+| DateUTC | [number](../../Word/number/number.md) | UTC timestamp of the comment. |
+| QuoteText | [string](../../Word/string/string.md) | The quoted text (if available). |

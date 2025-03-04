@@ -1,10 +1,6 @@
 # DocumentEditingRestrictions
 
-The document editing restrictions:
-**none** - no editing restrictions,
-**comments** - allows editing comments,
-**forms** - allows editing form fields,
-**readOnly** - does not allow editing.
+The document editing restrictions:**none** - no editing restrictions,**comments** - allows editing comments,**forms** - allows editing form fields,**readOnly** - does not allow editing.
 
 ## Type
 

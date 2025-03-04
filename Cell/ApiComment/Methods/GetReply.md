@@ -14,7 +14,7 @@ expression.GetReply(nIndex);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| nIndex | Optional | Number | false | The comment reply index. |
+| nIndex | Optional | Number | 0 | The comment reply index. |
 
 ## Returns
 

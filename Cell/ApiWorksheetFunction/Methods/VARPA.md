@@ -5,7 +5,7 @@ Calculates variance based on the entire population, including logical values and
 ## Syntax
 
 ```javascript
-expression.VARPA(args);
+expression.VARPA();
 ```
 
 `expression` - A variable that represents a [ApiWorksheetFunction](../ApiWorksheetFunction.md) class.
@@ -14,7 +14,7 @@ expression.VARPA(args);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| args | Required | number \| string \| boolean \| [ApiRange](../../ApiRange/ApiRange.md) \| array \| [ApiName](../../ApiName/ApiName.md) |  | Up to 255 values for which the variance will be calculated. The first argument is required, subsequent arguments are optional. Arguments can be numbers, logical values or text representations of numbers, names, ranges, or arrays. |
+|  | Required |  |  | No description provided. |
 
 ## Returns
 

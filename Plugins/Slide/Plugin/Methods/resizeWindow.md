@@ -1,7 +1,6 @@
 # resizeWindow
 
-Defines the method used to change the window size updating the minimum/maximum sizes.
-💡 This method is used for visual modal plugins only.
+Defines the method used to change the window size updating the minimum/maximum sizes.💡 This method is used for visual modal plugins only.
 
 ## Syntax
 

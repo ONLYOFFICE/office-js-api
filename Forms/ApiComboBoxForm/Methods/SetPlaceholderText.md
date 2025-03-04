@@ -14,11 +14,11 @@ expression.SetPlaceholderText(sText);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sText | Required | string |  | The text that will be set to the current form. |
+| sText | Required | [string](../../../Word/string/string.md) |  | The text that will be set to the current form. |
 
 ## Returns
 
-boolean
+[boolean](../../../Word/boolean/boolean.md)
 
 ## Example
 

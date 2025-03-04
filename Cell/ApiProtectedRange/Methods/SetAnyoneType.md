@@ -18,7 +18,7 @@ expression.SetAnyoneType(protectedRangeUserType);
 
 ## Returns
 
-bool
+boolean
 
 ## Example
 

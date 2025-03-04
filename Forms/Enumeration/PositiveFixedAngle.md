@@ -4,7 +4,7 @@
 
 ## Type
 
-number
+[number](../../../Word/number/number.md)
 
 
 

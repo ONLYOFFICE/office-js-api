@@ -14,11 +14,11 @@ expression.SetListValues(aListString);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| aListString | Required | string[] |  | The combo box list values. |
+| aListString | Required | [string[]](../../../Word/string/string.md) |  | The combo box list values. |
 
 ## Returns
 
-boolean
+[boolean](../../../Word/boolean/boolean.md)
 
 ## Example
 

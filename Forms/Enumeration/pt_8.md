@@ -4,7 +4,7 @@ Eighths of a point (24 eighths of a point = 3 points).
 
 ## Type
 
-number
+[number](../../../Word/number/number.md)
 
 
 

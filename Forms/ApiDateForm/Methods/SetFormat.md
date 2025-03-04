@@ -14,11 +14,11 @@ expression.SetFormat(sFormat);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sFormat | Required | string |  | The date format. For example, mm.dd.yyyy |
+| sFormat | Required | [string](../../../Word/string/string.md) |  | The date format. For example, mm.dd.yyyy |
 
 ## Returns
 
-boolean
+[boolean](../../../Word/boolean/boolean.md)
 
 ## Example
 

@@ -14,11 +14,11 @@ expression.SetRequired(bRequired);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| bRequired | Required | boolean |  | Defines if the current form is required (true) or not (false). |
+| bRequired | Required | [boolean](../../../Word/boolean/boolean.md) |  | Defines if the current form is required (true) or not (false). |
 
 ## Returns
 
-boolean
+[boolean](../../../Word/boolean/boolean.md)
 
 ## Example
 

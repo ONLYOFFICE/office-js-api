@@ -16,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-ApiTextPr
+[ApiTextPr](../../../Word/ApiTextPr/ApiTextPr.md)
 
 ## Example
 

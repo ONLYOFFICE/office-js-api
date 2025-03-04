@@ -16,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-string[]
+[string[]](../../../Word/string/string.md)
 
 ## Example
 

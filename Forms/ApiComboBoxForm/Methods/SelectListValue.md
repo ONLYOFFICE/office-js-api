@@ -14,11 +14,11 @@ expression.SelectListValue(sValue);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sValue | Required | string |  | The combo box list value that will be selected. |
+| sValue | Required | [string](../../../Word/string/string.md) |  | The combo box list value that will be selected. |
 
 ## Returns
 
-boolean
+[boolean](../../../Word/boolean/boolean.md)
 
 ## Example
 

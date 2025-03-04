@@ -15,9 +15,9 @@ expression.CreateChart(chartType, series, seriesNames, catNames, width, height, 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | chartType | Optional | [ChartType](../../Enumeration/ChartType.md) | "bar" | The chart type used for the chart display. |
-| series | Required | Array |  | The array of the data used to build the chart from. |
-| seriesNames | Required | Array |  | The array of the names (the source table column names) used for the data which the chart will be build from. |
-| catNames | Required | Array |  | The array of the names (the source table row names) used for the data which the chart will be build from. |
+| series | Required | number[][] |  | The array of the data used to build the chart from. |
+| seriesNames | Required |  |  | No description provided. |
+| catNames | Required |  |  | No description provided. |
 | width | Required | [EMU](../../Enumeration/EMU.md) |  | The chart width in English measure units. |
 | height | Required | [EMU](../../Enumeration/EMU.md) |  | The chart height in English measure units. |
 | styleIndex | Required | number |  | The chart color style index (can be 1 - 48, as described in OOXML specification). |

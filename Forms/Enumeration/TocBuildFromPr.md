@@ -10,7 +10,7 @@ Object
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| OutlineLvls | number | Maximum number of levels in the table of contents. |
+| OutlineLvls | [number](../../Word/number/number.md) | Maximum number of levels in the table of contents. |
 | StylesLvls | [TocStyleLvl[]](../Enumeration/TocStyleLvl.md) | Style levels (for example, [&#123;Name: "Heading 1", Lvl: 2&#125;, &#123;Name: "Heading 2", Lvl: 3&#125;]). 💡 If StylesLvls.length &gt; 0, then the OutlineLvls property will be ignored. |
 
 

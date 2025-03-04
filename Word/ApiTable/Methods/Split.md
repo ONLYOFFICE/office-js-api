@@ -15,8 +15,8 @@ expression.Split(oCell, nRow, nCol);
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | oCell | Optional | [ApiTableCell](../../ApiTableCell/ApiTableCell.md) |  | The cell which will be split. |
-| nRow | Optional | Number | true | Count of rows into which the cell will be split. |
-| nCol | Optional | Number | true | Count of columns into which the cell will be split. |
+| nRow | Optional | Number | 1 | Count of rows into which the cell will be split. |
+| nCol | Optional | Number | 1 | Count of columns into which the cell will be split. |
 
 ## Returns
 
