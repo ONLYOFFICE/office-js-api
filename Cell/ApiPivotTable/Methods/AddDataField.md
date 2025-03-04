@@ -22,9 +22,13 @@ expression.AddDataField(field);
 
 ## Example
 
-
+This example shows how to a data field to a pivot table.
 
 ```javascript editor-xlsx
+// How to add new field to the table.
+
+// Create a pivot table, add data to it then add new data field to it.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

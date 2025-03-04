@@ -22,9 +22,13 @@ boolean
 
 ## Example
 
-
+This example shows how to return true if a number is odd.
 
 ```javascript editor-xlsx
+// How to check if the number is odd.
+
+// Use a function to check whether a number is odd or not.
+
 const oWorksheet = Api.GetActiveSheet();
 
 var oFunction = Api.GetWorksheetFunction();

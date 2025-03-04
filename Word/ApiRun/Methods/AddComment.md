@@ -1,7 +1,6 @@
 # AddComment
 
-Adds a comment to the current run.
-💡 Please note that this run must be in the document.
+Adds a comment to the current run.💡 Please note that this run must be in the document.
 
 ## Syntax
 

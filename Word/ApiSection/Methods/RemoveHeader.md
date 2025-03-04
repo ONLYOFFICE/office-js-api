@@ -1,7 +1,6 @@
 # RemoveHeader
 
-Removes the header of the specified type from the current section. After removal, the header will be inherited from
-the previous section, or if this is the first section in the document, no header of the specified type will be presented.
+Removes the header of the specified type from the current section. After removal, the header will be inherited fromthe previous section, or if this is the first section in the document, no header of the specified type will be presented.
 
 ## Syntax
 
@@ -19,7 +18,7 @@ expression.RemoveHeader(sType);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 

@@ -1,7 +1,6 @@
 # SetWidth
 
-Sets the preferred width to the current table.
-💡 Tables are created with the &#123;@link ApiTable#SetWidth&#125; method properties set by default, which always override the &#123;@link ApiTablePr#SetWidth&#125; method properties. That is why there is no use to try and apply &#123;@link ApiTablePr#SetWidth&#125;. We recommend you to use the  &#123;@link ApiTablePr#SetWidth&#125; method instead.
+Sets the preferred width to the current table.💡 Tables are created with the &#123;@link ApiTable#SetWidth&#125; method properties set by default, which always override the &#123;@link ApiTablePr#SetWidth&#125; method properties. That is why there is no use to try and apply &#123;@link ApiTablePr#SetWidth&#125;. We recommend you to use the  &#123;@link ApiTablePr#SetWidth&#125; method instead.
 
 ## Syntax
 
@@ -20,7 +19,7 @@ expression.SetWidth(sType, nValue);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 

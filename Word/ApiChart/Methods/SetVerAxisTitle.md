@@ -20,7 +20,7 @@ expression.SetVerAxisTitle(sTitle, nFontSize, bIsBold);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 

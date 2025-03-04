@@ -1,7 +1,6 @@
 # FormatAsTable
 
-Formats the selected range of cells from the current sheet as a table (with the first row formatted as a header).
-💡 As the first row is always formatted as a table header, you need to select at least two rows for the table to be formed correctly.
+Formats the selected range of cells from the current sheet as a table (with the first row formatted as a header).💡 As the first row is always formatted as a table header, you need to select at least two rows for the table to be formed correctly.
 
 ## Syntax
 
@@ -26,6 +25,10 @@ This method doesn't return any data.
 This example formats the selected range of cells from the sheet as a table.
 
 ```javascript editor-xlsx
+// How to format a range as a table.
+
+// Select a range and format it as a table.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.FormatAsTable("A1:E10");
 ```

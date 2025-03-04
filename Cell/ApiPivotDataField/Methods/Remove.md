@@ -20,9 +20,13 @@ This method doesn't return any data.
 
 ## Example
 
-
+This example shows how to remove a pivot field.
 
 ```javascript editor-xlsx
+// How to delete a pivot field.
+
+// Create a pivot table, add data to it then remove a specified pivot field.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

@@ -1,7 +1,6 @@
 # SetPageBreakBefore
 
-Specifies that when rendering the document using a paginated view, the contents of the current paragraph are rendered at
-the beginning of a new page in the document.
+Specifies that when rendering the document using a paginated view, the contents of the current paragraph are rendered atthe beginning of a new page in the document.
 
 ## Syntax
 
@@ -19,7 +18,7 @@ expression.SetPageBreakBefore(isPageBreakBefore);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 

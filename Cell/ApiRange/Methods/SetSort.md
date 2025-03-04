@@ -32,6 +32,10 @@ This method doesn't return any data.
 This example sorts the cells in the given range by the parameters specified in the request.
 
 ```javascript editor-xlsx
+// How to sort values of cells specifying the order.
+
+// Get a range and sort its values.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A1").SetValue(2016);
 oWorksheet.GetRange("A2").SetValue(2015);

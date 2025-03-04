@@ -1,8 +1,6 @@
 # SetPosition
 
-Changes the position for the drawing object.
-💡 Please note that the horizontal and vertical offsets are calculated within the limits of
-the specified column and row cells only. If this value exceeds the cell width or height, another vertical/horizontal position will be set.
+Changes the position for the drawing object.💡 Please note that the horizontal and vertical offsets are calculated within the limits ofthe specified column and row cells only. If this value exceeds the cell width or height, another vertical/horizontal position will be set.
 
 ## Syntax
 
@@ -30,6 +28,10 @@ This method doesn't return any data.
 This example changes the position for the drawing object.
 
 ```javascript editor-xlsx
+// How to change the position of the drawing on the worksheet.
+
+// Move a drawing by setting the position.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

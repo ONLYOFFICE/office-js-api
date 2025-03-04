@@ -22,9 +22,13 @@ number
 
 ## Example
 
-
+This example shows how to return the sine of an angle.
 
 ```javascript editor-xlsx
+// How to calaculate the sine of a number.
+
+// Use a function to get a sine of a number.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFunction = Api.GetWorksheetFunction();
 oWorksheet.GetRange("A1").SetValue(oFunction.SIN(0.5));

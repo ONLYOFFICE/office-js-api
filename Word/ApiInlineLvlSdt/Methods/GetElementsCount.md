@@ -1,8 +1,6 @@
 # GetElementsCount
 
-Returns a number of elements in the current inline text content control. The text content 
-control is created with one text run present in it by default, so even without any 
-element added this method will return the value of '1'.
+Returns a number of elements in the current inline text content control. The text content control is created with one text run present in it by default, so even without any element added this method will return the value of '1'.
 
 ## Syntax
 

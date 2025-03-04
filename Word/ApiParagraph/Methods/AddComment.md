@@ -1,7 +1,6 @@
 # AddComment
 
-Adds a comment to the current paragraph.
-💡 Please note that this paragraph must be in the document.
+Adds a comment to the current paragraph.💡 Please note that this paragraph must be in the document.
 
 ## Syntax
 

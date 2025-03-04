@@ -1,7 +1,6 @@
 # SetLanguage
 
-Specifies the languages which will be used to check spelling and grammar (if requested) when processing
-the contents of the text run.
+Specifies the languages which will be used to check spelling and grammar (if requested) when processingthe contents of the text run.
 
 ## Syntax
 

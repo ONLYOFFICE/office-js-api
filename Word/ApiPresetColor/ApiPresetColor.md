@@ -2,7 +2,10 @@
 
 Represents the ApiPresetColor class.
 
+
 ## Methods
 
-- [GetClassType](./Methods/GetClassType.md)
-- [ToJSON](./Methods/ToJSON.md)
+| Method | Returns | Description |
+| ------ | ------- | ----------- |
+| [GetClassType](./Methods/GetClassType.md) | "presetColor" | Returns a type of the ApiPresetColor class. |
+| [ToJSON](./Methods/ToJSON.md) | JSON | Converts the ApiPresetColor object into the JSON object. |

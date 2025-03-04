@@ -1,7 +1,6 @@
 # SetTableInd
 
-Specifies the indentation which will be added before the leading edge of the current table in the document
-(the left edge in the left-to-right table, and the right edge in the right-to-left table).
+Specifies the indentation which will be added before the leading edge of the current table in the document(the left edge in the left-to-right table, and the right edge in the right-to-left table).
 
 ## Syntax
 
@@ -19,7 +18,7 @@ expression.SetTableInd(nValue);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 

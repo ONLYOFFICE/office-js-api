@@ -23,6 +23,10 @@ This method doesn't have any parameters.
 This example shows how to get the type of underline applied to the specified font.
 
 ```javascript editor-xlsx
+// How to determine whether a font is underlined or not.
+
+// Get a boolean value that represents whether a font has an underline property or not and show the value in the worksheet.
+
 var oWorksheet = Api.GetActiveSheet();
 var oRange = oWorksheet.GetRange("B1");
 oRange.SetValue("This is just a sample text.");

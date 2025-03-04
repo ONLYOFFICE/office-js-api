@@ -1,7 +1,6 @@
 # SetCellMarginLeft
 
-Specifies an amount of space which will be left between the left extent of the cell contents and 
-the border of a specific table cell within a table.
+Specifies an amount of space which will be left between the left extent of the cell contents and the border of a specific table cell within a table.
 
 ## Syntax
 
@@ -19,7 +18,7 @@ expression.SetCellMarginLeft(nValue);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 

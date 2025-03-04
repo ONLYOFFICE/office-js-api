@@ -1,7 +1,6 @@
 # SetUnderline
 
-Specifies that the contents of the run are displayed along with a line appearing directly below the character
-(less than all the spacing above and below the characters on the line).
+Specifies that the contents of the run are displayed along with a line appearing directly below the character(less than all the spacing above and below the characters on the line).
 
 ## Syntax
 
@@ -26,6 +25,10 @@ expression.SetUnderline(isUnderline);
 This example specifies that the contents of the current run are displayed along with a line appearing directly below the character (less than all the spacing above and below the characters on the line).
 
 ```javascript editor-xlsx
+// How to underline a text.
+
+// Add text underline.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

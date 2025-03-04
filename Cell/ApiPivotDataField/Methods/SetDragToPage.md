@@ -22,9 +22,13 @@ This method doesn't return any data.
 
 ## Example
 
-
+This example shows how to set a drag to page of a pivot field.
 
 ```javascript editor-xlsx
+// How to rename a pivot field drag to page.
+
+// Create a pivot table, add data to it then set drag to page of a specified pivot using boolean value.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

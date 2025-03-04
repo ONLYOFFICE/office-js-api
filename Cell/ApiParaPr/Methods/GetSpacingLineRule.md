@@ -23,6 +23,10 @@ This method doesn't have any parameters.
 This example shows how to get the paragraph line spacing rule.
 
 ```javascript editor-xlsx
+// How to get spacing information of paragraph lines.
+
+// Create a paragraph set spacing line between the sentences and show it. 
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

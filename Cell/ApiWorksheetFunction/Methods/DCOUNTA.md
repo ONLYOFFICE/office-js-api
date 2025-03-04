@@ -24,9 +24,13 @@ number
 
 ## Example
 
-
+This example shows how to count nonblank cells in the field (column) of records in the database that match the conditions you specify.
 
 ```javascript editor-xlsx
+// How to count the non-empty cells containing numbers in the field (column) of records in the database that match the conditions you specify.
+
+// Use function to count numbers from non-empty database records that met a condition specified.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFunction = Api.GetWorksheetFunction();
 oWorksheet.GetRange("A1").SetValue("Name");

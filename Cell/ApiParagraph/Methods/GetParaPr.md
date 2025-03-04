@@ -23,6 +23,10 @@ This method doesn't have any parameters.
 This example shows how to get the paragraph properties.
 
 ```javascript editor-xlsx
+// How to get properites of a paragraph and set the spacing.
+
+// Get the paragraph properites, change them, add a text and add the paragraph to the shape content.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

@@ -2,6 +2,9 @@
 
 Represents the ApiPresetColor class.
 
+
 ## Methods
 
-- [GetClassType](./Methods/GetClassType.md)
+| Method | Returns | Description |
+| ------ | ------- | ----------- |
+| [GetClassType](./Methods/GetClassType.md) | "presetColor" | Returns a type of the ApiPresetColor class. |

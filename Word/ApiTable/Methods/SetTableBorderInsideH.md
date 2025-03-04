@@ -1,7 +1,6 @@
 # SetTableBorderInsideH
 
-Specifies the border which will be displayed on all horizontal table cell borders which are not on the outmost edge
-of the parent table (all horizontal borders which are not the topmost or bottommost borders).
+Specifies the border which will be displayed on all horizontal table cell borders which are not on the outmost edgeof the parent table (all horizontal borders which are not the topmost or bottommost borders).
 
 ## Syntax
 
@@ -24,7 +23,7 @@ expression.SetTableBorderInsideH(sType, nSize, nSpace, r, g, b);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 

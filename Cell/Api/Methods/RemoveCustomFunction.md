@@ -25,6 +25,10 @@ boolean
 This example clear current custom function.
 
 ```javascript editor-xlsx
+// How to delete custom created function from the library.
+
+// Remove custom function library.
+
 Api.AddCustomFunctionLibrary("LibraryName", function(){
     /**
      * Function that returns the argument

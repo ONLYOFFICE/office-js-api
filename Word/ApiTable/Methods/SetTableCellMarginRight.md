@@ -1,7 +1,6 @@
 # SetTableCellMarginRight
 
-Specifies an amount of space which will be left between the right extent of the cell contents and the right
-border of all table cells within the parent table (or table row).
+Specifies an amount of space which will be left between the right extent of the cell contents and the rightborder of all table cells within the parent table (or table row).
 
 ## Syntax
 
@@ -19,7 +18,7 @@ expression.SetTableCellMarginRight(nValue);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 

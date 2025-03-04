@@ -1,8 +1,6 @@
 # AddCaption
 
-Adds a caption paragraph after (or before) the current table.
-💡 Please note that the current table must be in the document (not in the footer/header).
-And if the current table is placed in a shape, then a caption is added after (or before) the parent shape.
+Adds a caption paragraph after (or before) the current table.💡 Please note that the current table must be in the document (not in the footer/header).And if the current table is placed in a shape, then a caption is added after (or before) the parent shape.
 
 ## Syntax
 

@@ -27,9 +27,13 @@ number
 
 ## Example
 
-
+This example shows how to calculate or predict a future value based on existing (historical) values by using the AAA version of the Exponential Smoothing (ETS) algorithm.
 
 ```javascript editor-xlsx
+// How to calculate or predict a future value based on existing (historical) values.
+
+// Use an AAA version of the Exponential Smoothing (ETS) algorithm to calculate or predict a future value based on existing values.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFunction = Api.GetWorksheetFunction();
 var dates = ["10/1/2017", "11/1/2017", "12/1/2017", "1/1/2018", "2/1/2018", "3/1/2018"];

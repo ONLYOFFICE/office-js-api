@@ -20,9 +20,13 @@ This method doesn't have any parameters.
 
 ## Example
 
-
+Returns a Range object that represents the entire pivot table report, but doesn't include page fields.
 
 ```javascript editor-xlsx
+// How to get a pivot table range without page fields.
+
+// Create the ApiPivotTable object, add data to it then get the ApiRange object for the entire pivot table report but without page fields.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

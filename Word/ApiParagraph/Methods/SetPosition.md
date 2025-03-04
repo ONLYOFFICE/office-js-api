@@ -1,7 +1,6 @@
 # SetPosition
 
-Specifies an amount by which text is raised or lowered for this paragraph in relation to the default
-baseline of the surrounding non-positioned text.
+Specifies an amount by which text is raised or lowered for this paragraph in relation to the defaultbaseline of the surrounding non-positioned text.
 
 ## Syntax
 

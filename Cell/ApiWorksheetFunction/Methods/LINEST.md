@@ -25,9 +25,13 @@ number
 
 ## Example
 
-
+This example shows how to return statistics that describe a linear trend matching known data points, by fitting a straight line using the least squares method.
 
 ```javascript editor-xlsx
+// How to get statistics that describe a linear trend matching known data points.
+
+// Use a function to return statistics that describe a linear trend matching known data points using the least squares method.
+
 const oWorksheet = Api.GetActiveSheet();
 
 //configure function parameters

@@ -23,6 +23,10 @@ This method doesn't have any parameters.
 This example shows how to get an array of ApiComment objects.
 
 ```javascript editor-xlsx
+// How to get an array of comments.
+
+// Get all comments as an array.
+
 Api.AddComment("Comment 1", "Bob");
 Api.AddComment("Comment 2", "Bob" );
 var arrComments = Api.GetComments();

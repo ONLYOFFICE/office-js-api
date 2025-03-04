@@ -25,6 +25,10 @@ This method doesn't return any data.
 This example sets a range with the category values to the current chart.
 
 ```javascript editor-xlsx
+// How to apply range category formula for the chart. 
+
+// Set category formula for the chart by sheet number and range. 
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);

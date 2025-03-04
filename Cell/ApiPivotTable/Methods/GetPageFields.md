@@ -1,7 +1,6 @@
 # GetPageFields
 
-Returns a collection that represents either a single pivot table page field
-or a collection of all visible page fields.
+Returns a collection that represents either a single pivot table page fieldor a collection of all visible page fields.
 
 ## Syntax
 
@@ -23,9 +22,13 @@ expression.GetPageFields(field);
 
 ## Example
 
-
+This example shows how to get page fields of a pivot table.
 
 ```javascript editor-xlsx
+// How to get table page fields as an array of fields.
+
+// Create a pivot table, add data to it then get its page fields.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

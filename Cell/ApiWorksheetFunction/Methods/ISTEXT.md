@@ -22,9 +22,13 @@ boolean
 
 ## Example
 
-
+This example shows how to check whether a value is text, and returns true or false.
 
 ```javascript editor-xlsx
+// How to know whether a value is a text.
+
+// Use a function to find out whether a value is a text.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFunction = Api.GetWorksheetFunction();
 oWorksheet.GetRange("A1").SetValue(oFunction.ISTEXT(255));

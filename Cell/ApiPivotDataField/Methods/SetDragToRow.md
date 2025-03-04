@@ -22,9 +22,13 @@ This method doesn't return any data.
 
 ## Example
 
-
+This example shows how to set a drag to row of a pivot field.
 
 ```javascript editor-xlsx
+// How to rename a pivot field drag to row.
+
+// Create a pivot table, add data to it then set drag to row of a specified pivot.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

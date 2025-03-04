@@ -23,6 +23,10 @@ number
 This example shows how to get a sheet index.
 
 ```javascript editor-xlsx
+// How to get index of the sheet.
+
+// Get the worksheet index.
+
 var oWorksheet = Api.GetActiveSheet();
 var nIndex = oWorksheet.GetIndex();
 oWorksheet.GetRange("A1").SetValue("Index: ");

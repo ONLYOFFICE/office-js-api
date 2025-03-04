@@ -18,7 +18,7 @@ expression.SetImageURL(sURL);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 

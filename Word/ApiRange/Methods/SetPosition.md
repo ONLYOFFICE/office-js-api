@@ -1,7 +1,6 @@
 # SetPosition
 
-Specifies the amount by which text is raised or lowered for the current Range in relation to the default
-baseline of the surrounding non-positioned text.
+Specifies the amount by which text is raised or lowered for the current Range in relation to the defaultbaseline of the surrounding non-positioned text.
 
 ## Syntax
 

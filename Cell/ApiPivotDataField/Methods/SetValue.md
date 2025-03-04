@@ -22,9 +22,13 @@ This method doesn't return any data.
 
 ## Example
 
-
+This example shows how to set value of a pivot field.
 
 ```javascript editor-xlsx
+// How to change a pivot field value.
+
+// Create a pivot table, add data to it then set value of a specified pivot.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

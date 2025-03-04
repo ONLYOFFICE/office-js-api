@@ -20,9 +20,13 @@ This method doesn't return any data.
 
 ## Example
 
-
+This example shows how to clear a pivot table.
 
 ```javascript editor-xlsx
+// How to remove all elements from a pivot table.
+
+// Create a pivot table, add data to it then delete all its content.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

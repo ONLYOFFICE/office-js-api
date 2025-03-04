@@ -24,14 +24,19 @@ number
 
 ## Example
 
-
+This example shows how to return the rank of a number in a list of numbers: its size relative to other values in the list.
 
 ```javascript editor-xlsx
+// How to estimate the rank of a number in a list of numbers.
+
+// Use a function to estimate rank of the a number from the list.
+
 const oWorksheet = Api.GetActiveSheet();
 
 var valueArr = [7,6,5,5];
 
 // Place the numbers in cells
+
 for (var i = 0; i < valueArr.length; i++) {
   oWorksheet.GetRange("A" + (i + 1)).SetValue(valueArr[i]);
 }

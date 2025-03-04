@@ -18,13 +18,17 @@ expression.SetHorAxisMajorTickMark(sTickMark);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 
 This example specifies the major tick mark "cross" for the horizontal axis.
 
 ```javascript editor-xlsx
+// How to specify major tick mark for the horizontal axis.
+
+// Major mark the horizontal axis of the chart.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);

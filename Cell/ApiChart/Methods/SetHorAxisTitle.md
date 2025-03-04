@@ -20,13 +20,17 @@ expression.SetHorAxisTitle(sTitle, nFontSize, bIsBold);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 
 This example specifies the chart horizontal axis title.
 
 ```javascript editor-xlsx
+// How to set title for horizontal axis.
+
+// Add title for the axis.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);

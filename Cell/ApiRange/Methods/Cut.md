@@ -25,6 +25,10 @@ This method doesn't return any data.
 This example cuts a range to the clipboard.
 
 ```javascript editor-xlsx
+// How to cut a range.
+
+// Get a range, set some value for it and cut it to the clipboard.
+
 var oWorksheet = Api.GetActiveSheet();
 var oRange = oWorksheet.GetRange("A1");
 oRange.SetValue("This is a sample text which is move to the range A3.");

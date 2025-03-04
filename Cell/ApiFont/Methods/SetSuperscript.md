@@ -1,7 +1,6 @@
 # SetSuperscript
 
-Sets the superscript property to the specified font.
-💡 This method will work only with the text format of the cell.
+Sets the superscript property to the specified font.💡 This method will work only with the text format of the cell.
 
 ## Syntax
 
@@ -26,6 +25,10 @@ This method doesn't return any data.
 This example sets the superscript property to the specified font.
 
 ```javascript editor-xlsx
+// How to change a regular text to a superscript.
+
+// Get a font object of characters and make it superscript.
+
 var oWorksheet = Api.GetActiveSheet();
 var oRange = oWorksheet.GetRange("B1");
 oRange.SetValue("This is just a sample text.");

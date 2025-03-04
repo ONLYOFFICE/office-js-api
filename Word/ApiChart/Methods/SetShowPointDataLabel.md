@@ -23,7 +23,7 @@ expression.SetShowPointDataLabel(nSeriesIndex, nPointIndex, bShowSerName, bShowC
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 

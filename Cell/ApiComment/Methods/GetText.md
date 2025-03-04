@@ -23,6 +23,10 @@ string
 This example shows how to get the comment text.
 
 ```javascript editor-xlsx
+// How to get a comment raw text.
+
+// Add a comment text to a range of the worksheet.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A1").SetValue("1");
 var oRange = oWorksheet.GetRange("A1");

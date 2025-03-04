@@ -1,10 +1,6 @@
 # TableWidth
 
-The possible values for the units of the width property are defined by a specific table or table cell width property.
-**"auto"** - sets the table or table cell width to auto width.
-**"twips"** - sets the table or table cell width to be measured in twentieths of a point.
-**"nul"** - sets the table or table cell width to be of a zero value.
-**"percent"** - sets the table or table cell width to be measured in percent to the parent container.
+The possible values for the units of the width property are defined by a specific table or table cell width property.**"auto"** - sets the table or table cell width to auto width.**"twips"** - sets the table or table cell width to be measured in twentieths of a point.**"nul"** - sets the table or table cell width to be of a zero value.**"percent"** - sets the table or table cell width to be measured in percent to the parent container.
 
 ## Type
 

@@ -1,7 +1,6 @@
 # SetComb
 
-Specifies if the text field should be a comb of characters with the same cell width.
-The maximum number of characters must be set to a positive value.
+Specifies if the text field should be a comb of characters with the same cell width.The maximum number of characters must be set to a positive value.
 
 ## Syntax
 

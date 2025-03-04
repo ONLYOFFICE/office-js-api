@@ -22,9 +22,13 @@ This method doesn't return any data.
 
 ## Example
 
-
+This example shows how to add fields to a pivot table specifing rows and columns.
 
 ```javascript editor-xlsx
+// How to add new fields to the table.
+
+// Create a pivot table, add data to it then add new data fields.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

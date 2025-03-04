@@ -1,8 +1,6 @@
 # SetSpacingBefore
 
-Sets the spacing before the current paragraph. If the value of the isBeforeAuto parameter is true, then 
-any value of the nBefore is ignored. If isBeforeAuto parameter is not specified, then 
-it will be interpreted as false.
+Sets the spacing before the current paragraph. If the value of the isBeforeAuto parameter is true, then any value of the nBefore is ignored. If isBeforeAuto parameter is not specified, then it will be interpreted as false.
 
 ## Syntax
 
@@ -21,13 +19,17 @@ expression.SetSpacingBefore(nBefore, isBeforeAuto);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 
 This example sets the spacing before the current paragraph.
 
 ```javascript editor-xlsx
+// How to add the spacing before the paragraphs using points.
+
+// Get a paragraph from the shape's content then add a text specifying the spacing before a custom text.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

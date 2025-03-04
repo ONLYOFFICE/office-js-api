@@ -2,6 +2,9 @@
 
 Represents the ApiGradientStop class.
 
+
 ## Methods
 
-- [GetClassType](./Methods/GetClassType.md)
+| Method | Returns | Description |
+| ------ | ------- | ----------- |
+| [GetClassType](./Methods/GetClassType.md) | "gradientStop" | Returns a type of the ApiGradientStop class. |

@@ -20,9 +20,13 @@ This method doesn't have any parameters.
 
 ## Example
 
-
+This example gets a text spacing using its property.
 
 ```javascript editor-xlsx
+// How to find out space size of a text.
+
+// Get spacing size.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

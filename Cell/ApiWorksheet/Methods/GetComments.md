@@ -23,6 +23,10 @@ This method doesn't have any parameters.
 This example shows how to get an array of ApiComment objects.
 
 ```javascript editor-xlsx
+// How to get all comments.
+
+// Get all comments from the worksheet.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A1").SetValue("1");
 var oRange = oWorksheet.GetRange("A1");

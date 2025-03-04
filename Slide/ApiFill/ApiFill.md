@@ -2,6 +2,9 @@
 
 Represents the ApiFill class.
 
+
 ## Methods
 
-- [GetClassType](./Methods/GetClassType.md)
+| Method | Returns | Description |
+| ------ | ------- | ----------- |
+| [GetClassType](./Methods/GetClassType.md) | "fill" | Returns a type of the ApiFill class. |

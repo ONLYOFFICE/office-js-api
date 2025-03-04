@@ -21,13 +21,17 @@ expression.SetShowDataLabels(bShowSerName, bShowCatName, bShowVal, bShowPercent)
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 
 This example specifies which chart data labels are shown for the chart.
 
 ```javascript editor-xlsx
+// How to hide chart data labels.
+
+// Show only values as chart lables.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);

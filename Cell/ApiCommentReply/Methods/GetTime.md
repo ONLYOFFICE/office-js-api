@@ -23,6 +23,10 @@ Number
 This example shows how to get the timestamp of the comment reply creation in the current time zone format.
 
 ```javascript editor-xlsx
+// How to get a time when a reply was created.
+
+// Add a reply creation timestamp to a range of the worksheet.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A1").SetValue("1");
 var oRange = oWorksheet.GetRange("A1");

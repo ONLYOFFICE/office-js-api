@@ -1,7 +1,6 @@
 # GetPivotItems
 
-Returns an object that represents either a single pivot table item (the ApiPivotItem object)
-or a collection of all the visible and hidden items (an array of the ApiPivotItem objects) in the specified field.
+Returns an object that represents either a single pivot table item (the ApiPivotItem object)or a collection of all the visible and hidden items (an array of the ApiPivotItem objects) in the specified field.
 
 ## Syntax
 
@@ -23,9 +22,13 @@ expression.GetPivotItems(index);
 
 ## Example
 
-
+This example shows how to get items of a pivot field.
 
 ```javascript editor-xlsx
+// How to get a pivot field items.
+
+// Create a pivot table, add data to it then get items of a specified pivot field as an array.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

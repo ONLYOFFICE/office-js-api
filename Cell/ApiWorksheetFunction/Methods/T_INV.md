@@ -23,9 +23,13 @@ number
 
 ## Example
 
-
+This example shows how to return the left-tailed inverse of the Student's t-distribution.
 
 ```javascript editor-xlsx
+// How to calculate the left-tailed inverse of Student's t-distribution.
+
+// Use a function to estimate the Student's t-distribution left-tailed inverse.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFunction = Api.GetWorksheetFunction();
 var result = oFunction.T_INV(0.75, 2);

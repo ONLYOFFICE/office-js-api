@@ -1,7 +1,6 @@
 # ToInline
 
-Converts the current form to an inline form.
-Picture form can't be converted to an inline form, it's always a fixed size object.*
+Converts the current form to an inline form.Picture form can't be converted to an inline form, it's always a fixed size object.*
 
 ## Syntax
 

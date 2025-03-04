@@ -1,7 +1,6 @@
 # SetUnderline
 
-Specifies that the contents of this paragraph are displayed along with a line appearing directly below the character
-(less than all the spacing above and below the characters on the line).
+Specifies that the contents of this paragraph are displayed along with a line appearing directly below the character(less than all the spacing above and below the characters on the line).
 
 ## Syntax
 

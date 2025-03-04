@@ -25,6 +25,10 @@ expression.SetFill(oApiFill);
 This example sets the text color to the current text run.
 
 ```javascript editor-xlsx
+// How to color a text with a solid fill.
+
+// Set a text color using a solid fill.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

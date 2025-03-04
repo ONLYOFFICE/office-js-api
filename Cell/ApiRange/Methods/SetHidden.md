@@ -25,6 +25,10 @@ This method doesn't return any data.
 This example sets the value hiding property.
 
 ```javascript editor-xlsx
+// How to hide cells from a range.
+
+// Get a range and make specified cells invisible.
+
 var oWorksheet = Api.GetActiveSheet();
 var oRange = oWorksheet.GetRows("1:3");
 oRange.SetHidden(true);

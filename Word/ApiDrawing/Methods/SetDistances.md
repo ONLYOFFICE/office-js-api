@@ -1,7 +1,6 @@
 # SetDistances
 
-Specifies the minimum distance which will be maintained between the edges of the current drawing object and any
-subsequent text.
+Specifies the minimum distance which will be maintained between the edges of the current drawing object and anysubsequent text.
 
 ## Syntax
 
@@ -22,7 +21,7 @@ expression.SetDistances(nLeft, nTop, nRight, nBottom);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 

@@ -22,9 +22,13 @@ This method doesn't return any data.
 
 ## Example
 
-
+This example shows how to set name of a pivot field.
 
 ```javascript editor-xlsx
+// How to change a pivot field name.
+
+// Create a pivot table, add data to it then rename a specified pivot.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

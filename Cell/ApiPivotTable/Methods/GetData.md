@@ -22,9 +22,13 @@ number \| null
 
 ## Example
 
-
+This example shows how to get data from a pivot table using names.
 
 ```javascript editor-xlsx
+// How to get a field data from a pivot table.
+
+// Create a pivot table, add data to it then get some data from it.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

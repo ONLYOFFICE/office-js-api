@@ -20,7 +20,7 @@ expression.ReplaceCurrentImage(sImageUrl, Width, Height);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 

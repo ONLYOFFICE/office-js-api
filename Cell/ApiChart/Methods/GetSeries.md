@@ -25,6 +25,10 @@ expression.GetSeries(nIdx);
 This example gets the first series of ApiChart class and inserts its type into the table.
 
 ```javascript editor-xlsx
+// How to get series using indices.
+
+// Find series by its location index.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);

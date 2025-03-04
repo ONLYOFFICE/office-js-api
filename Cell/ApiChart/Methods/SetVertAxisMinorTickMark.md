@@ -18,13 +18,17 @@ expression.SetVertAxisMinorTickMark(sTickMark);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 
 This example specifies the minor tick mark for the vertical axis.
 
 ```javascript editor-xlsx
+// How to add a minor tick as a out for the vertical axis labels.
+
+// Specifies minor tick mark for the vertical axis.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);

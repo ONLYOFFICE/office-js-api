@@ -1,7 +1,6 @@
 # RemoveFooter
 
-Removes the footer of the specified type from the current section. After removal, the footer will be inherited from 
-the previous section, or if this is the first section in the document, no footer of the specified type will be presented.
+Removes the footer of the specified type from the current section. After removal, the footer will be inherited from the previous section, or if this is the first section in the document, no footer of the specified type will be presented.
 
 ## Syntax
 
@@ -19,7 +18,7 @@ expression.RemoveFooter(sType);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 

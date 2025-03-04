@@ -23,6 +23,10 @@ This method doesn't have any parameters.
 This example shows how to get a sheet collection that represents all the sheets in the active workbook.
 
 ```javascript editor-xlsx
+// Get all sheets as an array.
+
+// How to get array of sheets.
+
 Api.AddSheet("new_sheet_name");
 var sheets = Api.GetSheets();
 var sheet_name1 = sheets[0].GetName();

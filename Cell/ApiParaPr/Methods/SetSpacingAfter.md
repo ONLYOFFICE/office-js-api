@@ -1,8 +1,6 @@
 # SetSpacingAfter
 
-Sets the spacing after the current paragraph. If the value of the isAfterAuto parameter is true, then 
-any value of the nAfter is ignored. If isAfterAuto parameter is not specified, then it 
-will be interpreted as false.
+Sets the spacing after the current paragraph. If the value of the isAfterAuto parameter is true, then any value of the nAfter is ignored. If isAfterAuto parameter is not specified, then it will be interpreted as false.
 
 ## Syntax
 
@@ -21,13 +19,17 @@ expression.SetSpacingAfter(nAfter, isAfterAuto);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 
 This example sets the spacing after the current paragraph.
 
 ```javascript editor-xlsx
+// How to add the spacing after the paragraphs using points.
+
+// Get a paragraph from the shape's content then add a text specifying the spacing after a custom text.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

@@ -23,6 +23,10 @@ string
 This example shows how to get the comment reply text.
 
 ```javascript editor-xlsx
+// How to get a raw text of a reply.
+
+// Display a reply text to a range of the worksheet.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("A1").SetValue("1");
 var oRange = oWorksheet.GetRange("A1");

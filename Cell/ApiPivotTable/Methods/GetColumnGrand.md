@@ -20,9 +20,13 @@ boolean
 
 ## Example
 
-
+This example shows how to get column grand of a pivot table.
 
 ```javascript editor-xlsx
+// How to get column grand from a pivot table.
+
+// Create a pivot table, add data to it then get its column grand.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

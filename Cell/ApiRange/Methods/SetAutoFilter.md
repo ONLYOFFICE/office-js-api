@@ -26,9 +26,13 @@ This method doesn't return any data.
 
 ## Example
 
-This example sets the autoflter by cell range.
+This example sets the autofilter by cell range.
 
 ```javascript editor-xlsx
+// How to automatically filter the specified range values.
+
+// Automatically filter out a range values.
+
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("header");
 worksheet.GetRange("A2").SetValue("value2");

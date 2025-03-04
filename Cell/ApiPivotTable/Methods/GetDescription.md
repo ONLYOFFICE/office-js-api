@@ -20,9 +20,13 @@ string
 
 ## Example
 
-
+This example shows how to get description of a pivot table.
 
 ```javascript editor-xlsx
+// How to get pivot table description.
+
+// Create a pivot table, add data to it then get its description.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

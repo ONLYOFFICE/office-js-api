@@ -1,7 +1,6 @@
 # CommentReport
 
-Report on all comments.
-This is a dictionary where the keys are usernames.
+Report on all comments.This is a dictionary where the keys are usernames.
 
 ## Type
 

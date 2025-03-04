@@ -1,8 +1,6 @@
 # AddChart
 
-Creates a chart of the specified type from the selected data range of the current sheet.
-💡 Please note that the horizontal and vertical offsets are calculated within the limits of the specified column and
-row cells only. If this value exceeds the cell width or height, another vertical/horizontal position will be set.
+Creates a chart of the specified type from the selected data range of the current sheet.💡 Please note that the horizontal and vertical offsets are calculated within the limits of the specified column androw cells only. If this value exceeds the cell width or height, another vertical/horizontal position will be set.
 
 ## Syntax
 
@@ -36,6 +34,10 @@ expression.AddChart(sDataRange, bInRows, sType, nStyleIndex, nExtX, nExtY, nFrom
 This example creates a chart of the specified type from the selected data range of the sheet.
 
 ```javascript editor-xlsx
+// How to add chart to the worksheet.
+
+// Create a chart using data from a range from a worksheet.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);

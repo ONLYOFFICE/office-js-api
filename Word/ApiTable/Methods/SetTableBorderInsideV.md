@@ -1,7 +1,6 @@
 # SetTableBorderInsideV
 
-Specifies the border which will be displayed on all vertical table cell borders which are not on the outmost edge
-of the parent table (all vertical borders which are not the leftmost or rightmost borders).
+Specifies the border which will be displayed on all vertical table cell borders which are not on the outmost edgeof the parent table (all vertical borders which are not the leftmost or rightmost borders).
 
 ## Syntax
 
@@ -24,7 +23,7 @@ expression.SetTableBorderInsideV(sType, nSize, nSpace, r, g, b);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 

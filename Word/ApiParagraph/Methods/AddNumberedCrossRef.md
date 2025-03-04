@@ -1,7 +1,6 @@
 # AddNumberedCrossRef
 
-Adds a numbered cross-reference to the current paragraph.
-💡 Please note that this paragraph must be in the document.
+Adds a numbered cross-reference to the current paragraph.💡 Please note that this paragraph must be in the document.
 
 ## Syntax
 

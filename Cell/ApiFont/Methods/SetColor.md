@@ -1,7 +1,6 @@
 # SetColor
 
-Sets the font color property to the specified font.
-💡 This method will work only with the text format of the cell.
+Sets the font color property to the specified font.💡 This method will work only with the text format of the cell.
 
 ## Syntax
 
@@ -26,6 +25,10 @@ This method doesn't return any data.
 This example sets the font color property to the specified font.
 
 ```javascript editor-xlsx
+// How to change a text color.
+
+// Get a font object of characters and color it specifying a color in RGB format.
+
 var oWorksheet = Api.GetActiveSheet();
 var oRange = oWorksheet.GetRange("B1");
 oRange.SetValue("This is just a sample text.");

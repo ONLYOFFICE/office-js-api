@@ -1,9 +1,6 @@
 # SetSpacingLine
 
-Sets the paragraph line spacing. If the value of the sLineRule parameter is either 
-"atLeast" or "exact", then the value of nLine will be interpreted as twentieths of a point. If 
-the value of the sLineRule parameter is "auto", then the value of the 
-nLine parameter will be interpreted as 240ths of a line.
+Sets the paragraph line spacing. If the value of the sLineRule parameter is either "atLeast" or "exact", then the value of nLine will be interpreted as twentieths of a point. If the value of the sLineRule parameter is "auto", then the value of the nLine parameter will be interpreted as 240ths of a line.
 
 ## Syntax
 
@@ -22,7 +19,7 @@ expression.SetSpacingLine(nLine, sLineRule);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 

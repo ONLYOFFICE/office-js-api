@@ -20,9 +20,13 @@ This method doesn't have any parameters.
 
 ## Example
 
-
+This example shows how to get a parent of a pivot field.
 
 ```javascript editor-xlsx
+// How to get a pivot field parent.
+
+// Create a pivot table, add data to it then get a parent of a specified pivot field.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

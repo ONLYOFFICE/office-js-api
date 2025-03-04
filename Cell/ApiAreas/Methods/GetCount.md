@@ -23,6 +23,10 @@ number
 This example shows how to get a value that represents the number of objects in the collection.
 
 ```javascript editor-xlsx
+// How to get collection objects count.
+
+// How to get array length.
+
 var oWorksheet = Api.GetActiveSheet();
 var oRange = oWorksheet.GetRange("B1:D1");
 oRange.SetValue("1");

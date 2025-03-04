@@ -1,8 +1,6 @@
 # SetSpacingAfter
 
-Sets the spacing after the current paragraph. If the value of the isAfterAuto parameter is true, then 
-any value of the nAfter is ignored. If isAfterAuto parameter is not specified, then it 
-will be interpreted as false.
+Sets the spacing after the current paragraph. If the value of the isAfterAuto parameter is true, then any value of the nAfter is ignored. If isAfterAuto parameter is not specified, then it will be interpreted as false.
 
 ## Syntax
 
@@ -21,7 +19,7 @@ expression.SetSpacingAfter(nAfter, isAfterAuto);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 

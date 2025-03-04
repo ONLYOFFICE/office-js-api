@@ -1,7 +1,6 @@
 # SetCellMarginRight
 
-Specifies an amount of space which shall be left between the right extent of the current cell contents and the
-right edge border of a specific individual table cell within a table.
+Specifies an amount of space which shall be left between the right extent of the current cell contents and theright edge border of a specific individual table cell within a table.
 
 ## Syntax
 

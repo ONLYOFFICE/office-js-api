@@ -20,9 +20,13 @@ This method doesn't return any data.
 
 ## Example
 
-
+This example shows how to refresh a table.
 
 ```javascript editor-xlsx
+// How to refresh table values.
+
+// Create a pivot table, add data to it then refresh it.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');

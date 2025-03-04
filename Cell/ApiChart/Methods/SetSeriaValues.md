@@ -26,6 +26,10 @@ boolean
 This example sets values from the specified range to the specified series.
 
 ```javascript editor-xlsx
+// How to add values to series from the indicated range using addresses.
+
+// Fill series with values obtained from the worksheet cells.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.GetRange("B1").SetValue(2014);
 oWorksheet.GetRange("C1").SetValue(2015);

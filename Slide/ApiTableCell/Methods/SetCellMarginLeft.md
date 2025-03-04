@@ -1,7 +1,6 @@
 # SetCellMarginLeft
 
-Specifies an amount of space which shall be left between the left extent of the current cell contents and the
-left edge border of a specific individual table cell within a table.
+Specifies an amount of space which shall be left between the left extent of the current cell contents and theleft edge border of a specific individual table cell within a table.
 
 ## Syntax
 

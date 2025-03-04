@@ -1,8 +1,6 @@
 # BorderType
 
-A border type which will be added to the document element.
-**"none"** - no border will be added to the created element or the selected element side.
-**"single"** - a single border will be added to the created element or the selected element side.
+A border type which will be added to the document element.**"none"** - no border will be added to the created element or the selected element side.**"single"** - a single border will be added to the created element or the selected element side.
 
 ## Type
 

@@ -22,9 +22,13 @@ number
 
 ## Example
 
-
+This example shows how to return the number of rows in a range.
 
 ```javascript editor-xlsx
+// How to count number of rows.
+
+// Use a function to count number of rows.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFunction = Api.GetWorksheetFunction();
 var column1 = [13, 14, 15];

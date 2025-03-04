@@ -23,6 +23,10 @@ This method doesn't have any parameters.
 This example gets a class type and pastes it into the sheet.
 
 ```javascript editor-xlsx
+// How to get a class type of ApiGroup.
+
+// Get a class type of ApiGroup and display it in the worksheet.
+
 let oWorksheet = Api.GetActiveSheet();
 let oFill1 = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let oFill2 = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));

@@ -1,7 +1,6 @@
 # SetFillColor
 
-Sets the background color to the current cell range with the previously created color object.
-Sets 'No Fill' when previously created color object is null.
+Sets the background color to the current cell range with the previously created color object.Sets 'No Fill' when previously created color object is null.
 
 ## Syntax
 
@@ -26,6 +25,10 @@ This method doesn't return any data.
 This example sets the background color to the cell range with the previously created color object.
 
 ```javascript editor-xlsx
+// How to color a cell.
+
+// Get a range and apply a solid fill to its background color.
+
 var oWorksheet = Api.GetActiveSheet();
 oWorksheet.SetColumnWidth(0, 50);
 oWorksheet.GetRange("A2").SetFillColor(Api.CreateColorFromRGB(255, 213, 191));

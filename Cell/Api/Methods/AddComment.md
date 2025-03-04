@@ -26,6 +26,10 @@ expression.AddComment(sText, sAuthor);
 This example adds a comment to the document.
 
 ```javascript editor-xlsx
+// How to add comments in a worksheet.
+
+// Insert a comment into a cell.
+
 Api.AddComment("Comment 1", "Bob");
 Api.AddComment("Comment 2" );
 var arrComments = Api.GetComments();

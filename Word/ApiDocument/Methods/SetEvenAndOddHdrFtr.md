@@ -1,7 +1,6 @@
 # SetEvenAndOddHdrFtr
 
-Specifies whether sections in this document will have different headers and footers for even and
-odd pages (one header/footer for odd pages and another header/footer for even pages).
+Specifies whether sections in this document will have different headers and footers for even andodd pages (one header/footer for odd pages and another header/footer for even pages).
 
 ## Syntax
 
@@ -19,7 +18,7 @@ expression.SetEvenAndOddHdrFtr(isEvenAndOdd);
 
 ## Returns
 
-This method doesn't return any data.
+boolean
 
 ## Example
 

@@ -23,6 +23,10 @@ This method doesn't have any parameters.
 This example gets a class type and inserts it into the document.
 
 ```javascript editor-xlsx
+// How to get a class type of ApiSchemeColor.
+
+// Get a class type of ApiSchemeColor and display it in the worksheet.
+
 var oWorksheet = Api.GetActiveSheet();
 var oSchemeColor = Api.CreateSchemeColor("dk1");
 var oFill = Api.CreateSolidFill(oSchemeColor);

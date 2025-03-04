@@ -23,6 +23,10 @@ This method doesn't have any parameters.
 This example reates a copy of the run.
 
 ```javascript editor-xlsx
+// How to create a text run object and its copy.
+
+// Create an ApiRun and its copy and add it into paragraph.
+
 var oWorksheet = Api.GetActiveSheet();
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 var oStroke = Api.CreateStroke(0, Api.CreateNoFill());

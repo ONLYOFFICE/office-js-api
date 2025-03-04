@@ -1,7 +1,6 @@
 # CreateRange
 
-Creates an element range.
-If you do not specify the start and end positions, the range will be taken from the entire element.
+Creates an element range.If you do not specify the start and end positions, the range will be taken from the entire element.
 
 ## Syntax
 

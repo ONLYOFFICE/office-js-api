@@ -20,9 +20,13 @@ This method doesn't have any parameters.
 
 ## Example
 
-
+This example shows how to get row range of a pivot table.
 
 ```javascript editor-xlsx
+// How to get table row range.
+
+// Create a pivot table, add data to it then get its row range and select it.
+
 var oWorksheet = Api.GetActiveSheet();
 
 oWorksheet.GetRange('B1').SetValue('Region');
