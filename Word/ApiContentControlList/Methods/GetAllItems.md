@@ -16,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiContentControlListEntry[]](../../ApiContentControlListEntry/ApiContentControlListEntry.md)
+[ApiContentControlListEntry](../../ApiContentControlListEntry/ApiContentControlListEntry.md)[]
 
 ## Example
 

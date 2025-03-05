@@ -14,7 +14,7 @@ expression.ChangeFillStyles(arrFill);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arrFill | Required | [ApiFill[]](../../ApiFill/ApiFill.md) |  | The array of fill styles must contain 3 elements - subtle, moderate and intense fills. If an array is empty or NoFill elements are in the array, it will be filled with the Api.CreateNoFill() elements. |
+| arrFill | Required | [ApiFill](../../ApiFill/ApiFill.md)[] |  | The array of fill styles must contain 3 elements - subtle, moderate and intense fills. If an array is empty or NoFill elements are in the array, it will be filled with the Api.CreateNoFill() elements. |
 
 ## Returns
 

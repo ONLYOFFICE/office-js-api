@@ -15,7 +15,7 @@ expression.MergeCells(aCells);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| aCells | Required | [ApiTableCell[]](../../ApiTableCell/ApiTableCell.md) |  | The array of cells to be merged. |
+| aCells | Required | [ApiTableCell](../../ApiTableCell/ApiTableCell.md)[] |  | The array of cells to be merged. |
 
 ## Returns
 

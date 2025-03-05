@@ -19,7 +19,7 @@ expression.GetDataFields(field);
 
 ## Returns
 
-[ApiPivotDataField[]](../../ApiPivotDataField/ApiPivotDataField.md) \| [ApiPivotDataField](../../ApiPivotDataField/ApiPivotDataField.md) \| null
+[ApiPivotDataField](../../ApiPivotDataField/ApiPivotDataField.md)[] \| [ApiPivotDataField](../../ApiPivotDataField/ApiPivotDataField.md) \| null
 
 ## Example
 

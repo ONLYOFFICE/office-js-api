@@ -20,7 +20,7 @@ expression.GetAllTablesOnPage(page);
 
 ## Returns
 
-[ApiTable[]](../../ApiTable/ApiTable.md)
+[ApiTable](../../ApiTable/ApiTable.md)[]
 
 ## Example
 

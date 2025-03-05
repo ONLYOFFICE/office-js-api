@@ -14,7 +14,7 @@ expression.CreateRadialGradientFill(gradientStops);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| gradientStops | Required | Array |  | The array of gradient color stops measured in 1000th of percent. |
+| gradientStops | Required | number[] |  | The array of gradient color stops measured in 1000th of percent. |
 
 ## Returns
 

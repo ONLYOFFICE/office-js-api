@@ -14,7 +14,7 @@ expression.AddComment(element, text, author, userId);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| element | Required | [ApiRun[]](../../ApiRun/ApiRun.md) \| [DocumentElement](../../Enumeration/DocumentElement.md) |  | The element where the comment will be added. It may be applied to any element which has the *AddComment* method. |
+| element | Required | [ApiRun](../../ApiRun/ApiRun.md)[] \| [DocumentElement](../../Enumeration/DocumentElement.md) |  | The element where the comment will be added. It may be applied to any element which has the *AddComment* method. |
 | text | Required | string |  | The comment text (required). |
 | author | Required | string |  | The author's name (optional). |
 | userId | Required | string |  | The user ID of the comment author (optional). |

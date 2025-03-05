@@ -19,13 +19,13 @@ expression.AddWordArt(oTextPr, sText, sTransform, oFill, oStroke, nRotAngle, nWi
 | sTransform | Optional | [TextTransform](../../Enumeration/TextTransform.md) | "textNoShape" | Text transform type. |
 | oFill | Optional | [ApiFill](../../ApiFill/ApiFill.md) | Api.CreateNoFill() | The color or pattern used to fill the Text Art object. |
 | oStroke | Optional | [ApiStroke](../../ApiStroke/ApiStroke.md) | Api.CreateStroke(0, Api.CreateNoFill()) | The stroke used to create the Text Art object shadow. |
-| nRotAngle | Optional | number | false | Rotation angle. |
+| nRotAngle | Optional | number | 0 | Rotation angle. |
 | nWidth | Optional | [EMU](../../Enumeration/EMU.md) | 1828800 | The Text Art width measured in English measure units. |
 | nHeight | Optional | [EMU](../../Enumeration/EMU.md) | 1828800 | The Text Art heigth measured in English measure units. |
-| nFromCol | Optional | number | false | The column number where the beginning of the Text Art object will be placed. |
-| nFromRow | Optional | number | false | The row number where the beginning of the Text Art object will be placed. |
-| nColOffset | Optional | [EMU](../../Enumeration/EMU.md) | false | The offset from the nFromCol column to the left part of the Text Art object measured in English measure units. |
-| nRowOffset | Optional | [EMU](../../Enumeration/EMU.md) | false | The offset from the nFromRow row to the upper part of the Text Art object measured in English measure units. |
+| nFromCol | Optional | number | 0 | The column number where the beginning of the Text Art object will be placed. |
+| nFromRow | Optional | number | 0 | The row number where the beginning of the Text Art object will be placed. |
+| nColOffset | Optional | [EMU](../../Enumeration/EMU.md) | 0 | The offset from the nFromCol column to the left part of the Text Art object measured in English measure units. |
+| nRowOffset | Optional | [EMU](../../Enumeration/EMU.md) | 0 | The offset from the nFromRow row to the upper part of the Text Art object measured in English measure units. |
 
 ## Returns
 

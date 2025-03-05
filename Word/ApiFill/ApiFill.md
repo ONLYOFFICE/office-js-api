@@ -2,7 +2,10 @@
 
 Represents the ApiFill class.
 
+
 ## Methods
 
-- [GetClassType](./Methods/GetClassType.md)
-- [ToJSON](./Methods/ToJSON.md)
+| Method | Returns | Description |
+| ------ | ------- | ----------- |
+| [GetClassType](./Methods/GetClassType.md) | "fill" | Returns a type of the ApiFill class. |
+| [ToJSON](./Methods/ToJSON.md) | JSON | Converts the ApiFill object into the JSON object. |

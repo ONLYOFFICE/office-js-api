@@ -16,7 +16,7 @@ expression.MoveCursorToPos(nPos);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| nPos | Optional | number | false | Desired cursor position. |
+| nPos | Optional | number | 0 | Desired cursor position. |
 
 ## Returns
 

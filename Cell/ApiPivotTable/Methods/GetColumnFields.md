@@ -18,7 +18,7 @@ expression.GetColumnFields(field);
 
 ## Returns
 
-[ApiPivotField[]](../../ApiPivotField/ApiPivotField.md)
+[ApiPivotField](../../ApiPivotField/ApiPivotField.md)[]
 
 ## Example
 

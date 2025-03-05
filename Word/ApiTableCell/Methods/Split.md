@@ -14,8 +14,8 @@ expression.Split(nRow, nCol);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| nRow | Optional | Number | true | Count of rows into which the cell will be split. |
-| nCol | Optional | Number | true | Count of columns into which the cell will be split. |
+| nRow | Optional | Number | 1 | Count of rows into which the cell will be split. |
+| nCol | Optional | Number | 1 | Count of columns into which the cell will be split. |
 
 ## Returns
 

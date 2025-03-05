@@ -16,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiSection[]](../../ApiSection/ApiSection.md)
+[ApiSection](../../ApiSection/ApiSection.md)[]
 
 ## Example
 

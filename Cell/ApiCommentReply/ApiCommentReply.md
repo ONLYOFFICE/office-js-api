@@ -2,25 +2,19 @@
 
 Represents the ApiCommentReply class.
 
-## Properties
 
-| Name | Type | Description |
-| ---- | ---- | ----------- |
-| Text | string | Returns or sets the comment reply text. |
-| AuthorName | string | Returns or sets the comment reply author's name. |
-| UserId | string | Returns or sets the user ID of the comment reply author. |
-| TimeUTC | number \| string | Returns or sets the timestamp of the comment reply creation in UTC format. |
-| Time | number \| string | Returns or sets the timestamp of the comment reply creation in the current time zone format. |
 ## Methods
 
-- [GetClassType](./Methods/GetClassType.md)
-- [GetText](./Methods/GetText.md)
-- [SetText](./Methods/SetText.md)
-- [GetAuthorName](./Methods/GetAuthorName.md)
-- [SetAuthorName](./Methods/SetAuthorName.md)
-- [GetUserId](./Methods/GetUserId.md)
-- [SetUserId](./Methods/SetUserId.md)
-- [GetTimeUTC](./Methods/GetTimeUTC.md)
-- [SetTimeUTC](./Methods/SetTimeUTC.md)
-- [GetTime](./Methods/GetTime.md)
-- [SetTime](./Methods/SetTime.md)
+| Method | Returns | Description |
+| ------ | ------- | ----------- |
+| [GetClassType](./Methods/GetClassType.md) | "commentReply" | Returns a type of the ApiCommentReply class. |
+| [GetText](./Methods/GetText.md) | string | Returns the comment reply text. |
+| [SetText](./Methods/SetText.md) | None | Sets the comment reply text. |
+| [GetAuthorName](./Methods/GetAuthorName.md) | string | Returns the comment reply author's name. |
+| [SetAuthorName](./Methods/SetAuthorName.md) | None | Sets the comment reply author's name. |
+| [GetUserId](./Methods/GetUserId.md) | string | Returns the user ID of the comment reply author. |
+| [SetUserId](./Methods/SetUserId.md) | None | Sets the user ID to the comment reply author. |
+| [GetTimeUTC](./Methods/GetTimeUTC.md) | Number | Returns the timestamp of the comment reply creation in UTC format. |
+| [SetTimeUTC](./Methods/SetTimeUTC.md) | None | Sets the timestamp of the comment reply creation in UTC format. |
+| [GetTime](./Methods/GetTime.md) | Number | Returns the timestamp of the comment reply creation in the current time zone format. |
+| [SetTime](./Methods/SetTime.md) | None | Sets the timestamp of the comment reply creation in the current time zone format. |

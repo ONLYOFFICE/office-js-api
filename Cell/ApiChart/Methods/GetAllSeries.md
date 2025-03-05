@@ -16,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiChartSeries[]](../../ApiChartSeries/ApiChartSeries.md)
+[ApiChartSeries](../../ApiChartSeries/ApiChartSeries.md)[]
 
 ## Example
 

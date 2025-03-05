@@ -2,7 +2,10 @@
 
 Represents the ApiStroke class.
 
+
 ## Methods
 
-- [GetClassType](./Methods/GetClassType.md)
-- [ToJSON](./Methods/ToJSON.md)
+| Method | Returns | Description |
+| ------ | ------- | ----------- |
+| [GetClassType](./Methods/GetClassType.md) | "stroke" | Returns a type of the ApiStroke class. |
+| [ToJSON](./Methods/ToJSON.md) | JSON | Converts the ApiStroke object into the JSON object. |

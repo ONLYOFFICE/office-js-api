@@ -16,7 +16,7 @@ expression.InsertPivotExistingWorksheet(dataRef, pivotRef, confirmation);
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | dataRef | Required | [ApiRange](../../ApiRange/ApiRange.md) |  | The source data range. |
 | pivotRef | Required | [ApiRange](../../ApiRange/ApiRange.md) |  | A range in which the pivot table will be located. |
-| confirmation | Required | bool |  | Specifies whether to replace the data in the specified pivot table range (if it exists) or create a dialog box for this (if it exists). |
+| confirmation | Required | boolean |  | Specifies whether to replace the data in the specified pivot table range (if it exists) or create a dialog box for this (if it exists). |
 
 ## Returns
 

@@ -16,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[percentage[]](../../Enumeration/percentage.md)
+[percentage](../../Enumeration/percentage.md)[]
 
 ## Example
 

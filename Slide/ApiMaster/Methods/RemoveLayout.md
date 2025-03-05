@@ -15,7 +15,7 @@ expression.RemoveLayout(nPos, nCount);
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | nPos | Required | number |  | Position from which a layout will be deleted. |
-| nCount | Optional | number | true | Number of layouts to delete. |
+| nCount | Optional | number | 1 | Number of layouts to delete. |
 
 ## Returns
 

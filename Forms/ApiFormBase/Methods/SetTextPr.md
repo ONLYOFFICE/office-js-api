@@ -15,7 +15,7 @@ expression.SetTextPr(oTextPr);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| oTextPr | Required | ApiTextPr |  | The text properties that will be set to the current form. |
+| oTextPr | Required | [ApiTextPr](../../../Word/ApiTextPr/ApiTextPr.md) |  | The text properties that will be set to the current form. |
 
 ## Returns
 

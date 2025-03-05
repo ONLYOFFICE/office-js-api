@@ -18,7 +18,7 @@ expression.GetContent(bGetCopies);
 
 ## Returns
 
-Array
+[DocumentElement](../../Enumeration/DocumentElement.md)[]
 
 ## Example
 

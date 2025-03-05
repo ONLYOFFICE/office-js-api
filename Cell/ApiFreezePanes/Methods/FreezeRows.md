@@ -14,7 +14,7 @@ expression.FreezeRows(count);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| count | Optional | Number | false | Optional number of rows to freeze, or zero to unfreeze all rows. |
+| count | Optional | Number | 0 | Optional number of rows to freeze, or zero to unfreeze all rows. |
 
 ## Returns
 

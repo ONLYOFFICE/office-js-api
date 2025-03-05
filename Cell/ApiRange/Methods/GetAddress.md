@@ -18,7 +18,7 @@ expression.GetAddress(RowAbs, ColAbs, RefStyle, External, RelativeTo);
 | ColAbs | Required | boolean |  | Defines if the link to the column is absolute or not. |
 | RefStyle | Required | string |  | The reference style. |
 | External | Required | boolean |  | Defines if the range is in the current file or not. |
-| RelativeTo | Required | range |  | The range which the current range is relative to. |
+| RelativeTo | Required | [ApiRange](../../ApiRange/ApiRange.md) |  | The range which the current range is relative to. |
 
 ## Returns
 

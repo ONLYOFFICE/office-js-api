@@ -1,18 +1,13 @@
 # CommentReport
 
-Report on all comments.
-This is a dictionary where the keys are usernames.
+A dictionary of users and their comments.
 
 ## Type
 
-Object.&lt;string, CommentReportRecord[]&gt;
+Object
 
+## Properties
 
-
-## Example
-
-This example shows how to get a report on all comments.
-
-```javascript editor-pdf
-let commentsReport = oDocument.GetCommentsReport();
-```
+| Name | Type | Description |
+| ---- | ---- | ----------- |
+| username | [UserComments](../Enumeration/UserComments.md) | Comments grouped by username. |
