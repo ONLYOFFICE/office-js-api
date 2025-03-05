@@ -16,13 +16,13 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiBlockLvlSdt](../../ApiBlockLvlSdt/ApiBlockLvlSdt.md) | null
+[ApiBlockLvlSdt](../../ApiBlockLvlSdt/ApiBlockLvlSdt.md) \| null
 
 ## Example
 
 This example shows how to get a parent content control that contains the graphic object.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = Api.CreateParagraph();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

@@ -22,7 +22,7 @@ boolean
 
 This example deletes the specified object from the parent if it exists.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

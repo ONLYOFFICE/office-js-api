@@ -22,10 +22,10 @@ This method doesn't return any data.
 
 This example deletes the worksheet.
 
-```javascript
+```javascript editor-xlsx
 Api.AddSheet("New sheet");
-var oSheet = Api.GetActiveSheet();
-oSheet.Delete();
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.GetRange("A3").SetValue("This method just deleted the second sheet from this spreadsheet.");
+let sheet = Api.GetActiveSheet();
+sheet.Delete();
+let worksheet = Api.GetActiveSheet();
+worksheet.GetRange("A3").SetValue("This method just deleted the second sheet from this spreadsheet.");
 ```

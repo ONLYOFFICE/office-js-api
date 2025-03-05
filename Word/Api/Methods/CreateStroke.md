@@ -25,7 +25,7 @@ expression.CreateStroke(width, fill);
 
 This example shows how to crate a stroke.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));

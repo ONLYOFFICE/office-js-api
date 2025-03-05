@@ -24,7 +24,7 @@ boolean
 
 This example adds a oRun to the paragraph.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let run = Api.CreateRun();

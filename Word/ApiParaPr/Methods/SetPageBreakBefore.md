@@ -1,7 +1,6 @@
 # SetPageBreakBefore
 
-Specifies that when rendering the document using a paginated view, the contents of the current paragraph are rendered at
-the beginning of a new page in the document.
+Specifies that when rendering the document using a paginated view, the contents of the current paragraph are rendered atthe beginning of a new page in the document.
 
 ## Syntax
 
@@ -25,7 +24,7 @@ This method doesn't return any data.
 
 This example specifies that when rendering the document using a paginated view, the contents of the current paragraph are rendered at the beginning of a new page in the document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");
 let paraPr = myStyle.GetParaPr();

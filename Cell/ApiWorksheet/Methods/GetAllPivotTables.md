@@ -16,30 +16,30 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiPivotTable[]](../../ApiPivotTable/ApiPivotTable.md)
+[ApiPivotTable](../../ApiPivotTable/ApiPivotTable.md)[]
 
 ## Example
 
 
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
 
-oWorksheet.GetRange('B1').SetValue('Region');
-oWorksheet.GetRange('C1').SetValue('Price');
-oWorksheet.GetRange('B2').SetValue('East');
-oWorksheet.GetRange('B3').SetValue('West');
-oWorksheet.GetRange('C2').SetValue(42.5);
-oWorksheet.GetRange('C3').SetValue(35.2);
+worksheet.GetRange('B1').SetValue('Region');
+worksheet.GetRange('C1').SetValue('Price');
+worksheet.GetRange('B2').SetValue('East');
+worksheet.GetRange('B3').SetValue('West');
+worksheet.GetRange('C2').SetValue(42.5);
+worksheet.GetRange('C3').SetValue(35.2);
 
-var dataRef = Api.GetRange("'Sheet1'!$B$1:$C$3");
-var pivotRef = oWorksheet.GetRange('A7');
-Api.InsertPivotExistingWorksheet(dataRef, oWorksheet.GetRange('A7'));
-Api.InsertPivotExistingWorksheet(dataRef, oWorksheet.GetRange('D7'));
-Api.InsertPivotExistingWorksheet(dataRef, oWorksheet.GetRange('G7'));
+let dataRef = Api.GetRange("'Sheet1'!$B$1:$C$3");
+let pivotRef = worksheet.GetRange('A7');
+Api.InsertPivotExistingWorksheet(dataRef, worksheet.GetRange('A7'));
+Api.InsertPivotExistingWorksheet(dataRef, worksheet.GetRange('D7'));
+Api.InsertPivotExistingWorksheet(dataRef, worksheet.GetRange('G7'));
 
-oWorksheet.GetAllPivotTables().forEach(function (pivot) {
-	pivot.AddDataField('Price');
+worksheet.GetAllPivotTables().forEach(function (pivot) {
+    pivot.AddDataField('Price');
 });
 
 ```

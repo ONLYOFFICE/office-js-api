@@ -22,12 +22,12 @@ This method doesn't have any parameters.
 
 This example shows how to get the parent ApiCharacters object of the specified font.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var oRange = oWorksheet.GetRange("B1");
-oRange.SetValue("This is just a sample text.");
-var oCharacters = oRange.GetCharacters(23, 4);
-var oFont = oCharacters.GetFont();
-var oParent = oFont.GetParent();
-oParent.SetText("string");
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let range = worksheet.GetRange("B1");
+range.SetValue("This is just a sample text.");
+let characters = range.GetCharacters(23, 4);
+let font = characters.GetFont();
+let parent = font.GetParent();
+parent.SetText("string");
 ```

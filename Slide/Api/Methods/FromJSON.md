@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example transforms font scheme to JSON then restore it from JSON.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

@@ -24,7 +24,7 @@ boolean
 
 This example sets the specified section to the current paragraph.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is a new paragraph.");

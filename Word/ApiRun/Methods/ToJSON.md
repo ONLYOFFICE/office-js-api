@@ -24,7 +24,7 @@ JSON
 
 This example converts the ApiTextPr object into the JSON object.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let textPr = doc.GetDefaultTextPr();
 textPr.SetFontFamily("Comic Sans MS");

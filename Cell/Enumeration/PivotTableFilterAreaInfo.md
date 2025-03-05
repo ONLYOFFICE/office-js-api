@@ -1,6 +1,6 @@
 # PivotTableFilterAreaInfo
 
-No description provided.
+The report filter area settings.
 
 ## Type
 

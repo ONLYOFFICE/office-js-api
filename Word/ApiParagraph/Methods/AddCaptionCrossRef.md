@@ -1,7 +1,6 @@
 # AddCaptionCrossRef
 
-Adds a caption cross-reference to the current paragraph.
-💡 Please note that this paragraph must be in the document.
+Adds a caption cross-reference to the current paragraph.💡 Please note that this paragraph must be in the document.
 
 ## Syntax
 
@@ -15,7 +14,7 @@ expression.AddCaptionCrossRef(sCaption, sRefType, oParaTo, bLink, bAboveBelow);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sCaption | Required | [CaptionLabel](../../Enumeration/CaptionLabel.md) | string |  | The caption label ("Equation", "Figure", "Table", or another caption label). |
+| sCaption | Required | [CaptionLabel](../../Enumeration/CaptionLabel.md) \| string |  | The caption label ("Equation", "Figure", "Table", or another caption label). |
 | sRefType | Required | [captionRefTo](../../Enumeration/captionRefTo.md) |  | The text or numeric value of a caption reference you want to insert. |
 | oParaTo | Required | [ApiParagraph](../../ApiParagraph/ApiParagraph.md) |  | The caption paragraph to be referred to (must be in the document). |
 | bLink | Optional | boolean | true | Specifies if the reference will be inserted as a hyperlink. |
@@ -29,7 +28,7 @@ boolean
 
 This example adds a caption cross-reference to the paragraph.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let drawing = Api.CreateImage("https://static.onlyoffice.com/assets/docs/samples/img/onlyoffice_logo.png", 60 * 36000, 35 * 36000);

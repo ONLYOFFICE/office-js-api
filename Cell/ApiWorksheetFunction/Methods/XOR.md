@@ -14,7 +14,7 @@ expression.XOR(args);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| args | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | boolean | array |  | The conditions to check. |
+| args | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| boolean \| boolean[] |  | The conditions to check. |
 
 ## Returns
 
@@ -24,12 +24,12 @@ boolean
 
 
 
-```javascript
-const oWorksheet = Api.GetActiveSheet();
+```javascript editor-xlsx
+const worksheet = Api.GetActiveSheet();
 
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.TRUE(); //returns TRUE, doesnt require arguments
+let func = Api.GetWorksheetFunction();
+let ans = func.TRUE(); //returns TRUE, doesnt require arguments
 
-oWorksheet.GetRange("A1").SetValue(ans);
+worksheet.GetRange("A1").SetValue(ans);
 
 ```

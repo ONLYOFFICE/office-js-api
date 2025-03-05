@@ -22,7 +22,7 @@ boolean
 
 This example checks if the aspect ratio of the current picture form is locked or not.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let pictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "respectBorders": false, "shiftX": 50, "shiftY": 50});
 let paragraph = doc.GetElement(0);

@@ -1,12 +1,6 @@
 # SetTableLook
 
-Specifies the conditional formatting components of the referenced table style (if one exists) 
-which will be applied to the set of table rows with the current table-level property exceptions. A table style 
-can specify up to six different optional conditional formats, for example, different formatting for the first column, 
-which then can be applied or omitted from individual table rows in the parent table.
-
-The default setting is to apply the row and column band formatting, but not the first row, last row, first 
-column, or last column formatting.
+Specifies the conditional formatting components of the referenced table style (if one exists) which will be applied to the set of table rows with the current table-level property exceptions. A table style can specify up to six different optional conditional formats, for example, different formatting for the first column, which then can be applied or omitted from individual table rows in the parent table.The default setting is to apply the row and column band formatting, but not the first row, last row, first column, or last column formatting.
 
 ## Syntax
 
@@ -35,7 +29,7 @@ This method doesn't return any data.
 
 This example shows how to set table lock.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("We set the table look to override the current table style:");

@@ -22,7 +22,7 @@ String[]
 
 This example shows how to get a list of all tags that are used for all content controls in the document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let inlineLvlSdt = Api.CreateInlineLvlSdt();

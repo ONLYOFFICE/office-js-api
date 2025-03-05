@@ -15,7 +15,7 @@ expression.SetVerAlign(sRelativeFrom, sAlign);
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | sRelativeFrom | Optional | [RelFromV](../../Enumeration/RelFromV.md) | "page" | The document element which will be taken as a countdown point for the object vertical alignment. |
-| sAlign | Optional | "top" | "bottom" | "center" | "top" | The alingment type which will be used for the object vertical alignment. |
+| sAlign | Optional | "top" \| "bottom" \| "center" | "top" | The alingment type which will be used for the object vertical alignment. |
 
 ## Returns
 
@@ -25,7 +25,7 @@ This method doesn't return any data.
 
 This example specifies how the floating object will be vertically aligned.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is a paragraph with a shape. ");

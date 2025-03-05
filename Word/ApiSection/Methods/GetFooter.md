@@ -25,7 +25,7 @@ expression.GetFooter(sType, isCreate);
 
 This example shows how to get the content for the specified footer type.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is a page with a footer. ");

@@ -14,11 +14,11 @@ expression.SetSort(key1, sSortOrder1, key2, sSortOrder2, key3, sSortOrder3, sHea
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| key1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | String |  | First sort field. |
+| key1 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| String |  | First sort field. |
 | sSortOrder1 | Required | [SortOrder](../../Enumeration/SortOrder.md) |  | The sort order for the values specified in Key1. |
-| key2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | String |  | Second sort field. |
+| key2 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| String |  | Second sort field. |
 | sSortOrder2 | Required | [SortOrder](../../Enumeration/SortOrder.md) |  | The sort order for the values specified in Key2. |
-| key3 | Required | [ApiRange](../../ApiRange/ApiRange.md) | String |  | Third sort field. |
+| key3 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| String |  | Third sort field. |
 | sSortOrder3 | Required | [SortOrder](../../Enumeration/SortOrder.md) |  | The sort order for the values specified in Key3. |
 | sHeader | Required | [SortHeader](../../Enumeration/SortHeader.md) |  | Specifies whether the first row contains header information. |
 | sOrientation | Required | [SortOrientation](../../Enumeration/SortOrientation.md) |  | Specifies if the sort should be by row (default) or column. |
@@ -31,22 +31,22 @@ This method doesn't return any data.
 
 This example sorts the cells in the given range by the parameters specified in the request.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.GetRange("A1").SetValue(2016);
-oWorksheet.GetRange("A2").SetValue(2015);
-oWorksheet.GetRange("A3").SetValue(2018);
-oWorksheet.GetRange("A4").SetValue(2014);
-oWorksheet.GetRange("A5").SetValue(2010);
-oWorksheet.GetRange("B1").SetValue(150);
-oWorksheet.GetRange("B2").SetValue(200);
-oWorksheet.GetRange("B3").SetValue(260);
-oWorksheet.GetRange("B4").SetValue(120);
-oWorksheet.GetRange("B5").SetValue(100);
-oWorksheet.GetRange("C1").SetValue("C");
-oWorksheet.GetRange("C2").SetValue("B");
-oWorksheet.GetRange("C3").SetValue("A");
-oWorksheet.GetRange("C4").SetValue("G");
-oWorksheet.GetRange("C5").SetValue("E");
-oWorksheet.GetRange("A1:C5").SetSort("A1:A5", "xlAscending", "B1:B5", "xlDescending", "C1:C5", "xlAscending", "xlYes", "xlSortColumns");
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+worksheet.GetRange("A1").SetValue(2016);
+worksheet.GetRange("A2").SetValue(2015);
+worksheet.GetRange("A3").SetValue(2018);
+worksheet.GetRange("A4").SetValue(2014);
+worksheet.GetRange("A5").SetValue(2010);
+worksheet.GetRange("B1").SetValue(150);
+worksheet.GetRange("B2").SetValue(200);
+worksheet.GetRange("B3").SetValue(260);
+worksheet.GetRange("B4").SetValue(120);
+worksheet.GetRange("B5").SetValue(100);
+worksheet.GetRange("C1").SetValue("C");
+worksheet.GetRange("C2").SetValue("B");
+worksheet.GetRange("C3").SetValue("A");
+worksheet.GetRange("C4").SetValue("G");
+worksheet.GetRange("C5").SetValue("E");
+worksheet.GetRange("A1:C5").SetSort("A1:A5", "xlAscending", "B1:B5", "xlDescending", "C1:C5", "xlAscending", "xlYes", "xlSortColumns");
 ```

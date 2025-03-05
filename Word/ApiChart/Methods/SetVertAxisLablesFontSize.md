@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example specifies font size for the labels of the vertical axis.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

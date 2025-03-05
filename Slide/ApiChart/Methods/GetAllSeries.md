@@ -16,13 +16,13 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiChartSeries[]](../../ApiChartSeries/ApiChartSeries.md)
+[ApiChartSeries](../../ApiChartSeries/ApiChartSeries.md)[]
 
 ## Example
 
 This example gets all series of ApiChart class and inserts their types into the presentation.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

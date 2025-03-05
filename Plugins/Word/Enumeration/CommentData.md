@@ -10,7 +10,7 @@ The comment data.
 | Text | string | The comment text. |
 | Time | string | The time when the comment was posted (in milliseconds). |
 | Solved | boolean | Specifies if the comment is resolved (**true**) or not (**false**). |
-| Replies | [CommentData[]](../Enumeration/CommentData.md) | An array containing the comment replies represented as the *CommentData* object. |
+| Replies | [CommentData](../Enumeration/CommentData.md)[] | An array containing the comment replies represented as the *CommentData* object. |
 ## Type
 
 Object
@@ -19,7 +19,7 @@ Object
 
 ## Example
 
-```javascript
+```javascript editor-docx
 let commentData = {
     "UserName": "John Smith",
     "Text": "comment",

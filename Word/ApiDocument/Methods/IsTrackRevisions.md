@@ -22,7 +22,7 @@ boolean
 
 This example checks if change tracking mode is enabled or not.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 doc.SetTrackRevisions(true);

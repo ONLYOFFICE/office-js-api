@@ -20,6 +20,6 @@ Enumeration
 
 This example copies a text form.
 
-```javascript
+```javascript editor-docx
 let copyTextForm = textForm.Copy();
 ```

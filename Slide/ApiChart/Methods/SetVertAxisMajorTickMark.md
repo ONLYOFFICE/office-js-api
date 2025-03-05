@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example specifies the major tick mark for the vertical axis.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

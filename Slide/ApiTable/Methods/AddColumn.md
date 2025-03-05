@@ -25,7 +25,7 @@ This method doesn't return any data.
 
 This example adds a new column to the table.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 oPresentation.SetSizes(300 * 36000, 190 * 36000);
 var oTable = Api.CreateTable(2, 4);

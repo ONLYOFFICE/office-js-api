@@ -19,13 +19,13 @@ expression.AddHyperlink(sLink, sScreenTipText);
 
 ## Returns
 
-[ApiHyperlink](../../ApiHyperlink/ApiHyperlink.md) | null
+[ApiHyperlink](../../ApiHyperlink/ApiHyperlink.md) \| null
 
 ## Example
 
 This example adds a hyperlink to a paragraph.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let run = Api.CreateRun();

@@ -25,7 +25,7 @@ boolean
 
 This example sets values to the specified chart series.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

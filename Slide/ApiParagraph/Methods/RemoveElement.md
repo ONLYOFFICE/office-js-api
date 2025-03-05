@@ -1,9 +1,6 @@
 # RemoveElement
 
-Removes an element using the position specified.
-💡 If the element you remove is the last paragraph element (i.e. all the elements are removed from the paragraph),
-a new empty run is automatically created. If you want to add
-content to this run, use the &#123;@link ApiParagraph#GetElement&#125; method.
+Removes an element using the position specified.💡 If the element you remove is the last paragraph element (i.e. all the elements are removed from the paragraph),a new empty run is automatically created. If you want to addcontent to this run, use the &#123;@link ApiParagraph#GetElement&#125; method.
 
 ## Syntax
 
@@ -27,7 +24,7 @@ This method doesn't return any data.
 
 This example removes an element using the position specified.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

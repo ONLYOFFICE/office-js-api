@@ -14,7 +14,7 @@ expression.TYPE(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number | string | boolean | array | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) |  | A value to test. |
+| arg1 | Required | number \| string \| boolean \| (number \| string \| boolean)[] \| [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) |  | A value to test. |
 
 ## Returns
 
@@ -24,10 +24,10 @@ number
 
 
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue(oFunction.TYPE(255));
-oWorksheet.GetRange("A2").SetValue(oFunction.TYPE(true));
-oWorksheet.GetRange("A3").SetValue(oFunction.TYPE("Online Office"));
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue(func.TYPE(255));
+worksheet.GetRange("A2").SetValue(func.TYPE(true));
+worksheet.GetRange("A3").SetValue(func.TYPE("Online Office"));
 ```

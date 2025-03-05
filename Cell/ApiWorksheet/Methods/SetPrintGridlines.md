@@ -22,10 +22,10 @@ This method doesn't return any data.
 
 ## Example
 
-This example specifies whether the sheet gridlines must be printed or not.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.SetPrintGridlines(true);
-oWorksheet.GetRange("A1").SetValue("Gridlines of cells will be printed on this page: " + oWorksheet.GetPrintGridlines());
+
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+worksheet.SetPrintGridlines(true);
+worksheet.GetRange("A1").SetValue("Gridlines of cells will be printed on this page: " + worksheet.GetPrintGridlines());
 ```

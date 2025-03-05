@@ -14,7 +14,7 @@ expression.SetTime(nTimeStamp);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| nTimeStamp | Required | Number | String |  | The timestamp of the comment creation in the current time zone format. |
+| nTimeStamp | Required | Number \| String |  | The timestamp of the comment creation in the current time zone format. |
 
 ## Returns
 
@@ -24,7 +24,7 @@ expression.SetTime(nTimeStamp);
 
 This example sets the timestamp of the comment creation in the current time zone format.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is just a sample text");

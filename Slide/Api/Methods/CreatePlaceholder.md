@@ -24,7 +24,7 @@ expression.CreatePlaceholder(sType);
 
 This example shows how to create placeholder for shape.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

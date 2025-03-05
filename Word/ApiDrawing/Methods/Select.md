@@ -22,7 +22,7 @@ This method doesn't return any data.
 
 This example selects the current graphic object.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));

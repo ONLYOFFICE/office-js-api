@@ -14,7 +14,7 @@ expression.GroupDrawings(aDrawings);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| aDrawings | Required | [DrawingForGroup[]](../../Enumeration/DrawingForGroup.md) |  | An array of drawings to group. |
+| aDrawings | Required | [DrawingForGroup](../../Enumeration/DrawingForGroup.md)[] |  | An array of drawings to group. |
 
 ## Returns
 
@@ -24,7 +24,7 @@ expression.GroupDrawings(aDrawings);
 
 This example show how to create a group of drawings in document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let fill1 = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let fill2 = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));

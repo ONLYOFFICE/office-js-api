@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example gets a watermark text and pastes it into the document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let watermarkSettings = doc.GetWatermarkSettings();
 watermarkSettings.SetType("text");

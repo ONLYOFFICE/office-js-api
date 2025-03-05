@@ -15,6 +15,6 @@ Enumeration
 
 This example adds a document element called "paragraph" to the document.
 
-```javascript
+```javascript editor-pptx
 doc.AddElement(paragraph);
 ```

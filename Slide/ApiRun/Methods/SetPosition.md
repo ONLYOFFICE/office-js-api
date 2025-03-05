@@ -1,7 +1,6 @@
 # SetPosition
 
-Specifies an amount by which text is raised or lowered for this run in relation to the default
-baseline of the surrounding non-positioned text.
+Specifies an amount by which text is raised or lowered for this run in relation to the defaultbaseline of the surrounding non-positioned text.
 
 ## Syntax
 
@@ -25,7 +24,7 @@ expression.SetPosition(nPosition);
 
 This example specifies an amount by which text is raised or lowered for this run in relation to the default baseline of the surrounding non-positioned text.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

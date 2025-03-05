@@ -22,15 +22,15 @@ This method doesn't have any parameters.
 
 This example gets a class type and inserts it into the document.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var oSchemeColor = Api.CreateSchemeColor("dk1");
-var oFill = Api.CreateSolidFill(oSchemeColor);
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-oWorksheet.AddShape("curvedUpArrow", 60 * 36000, 35 * 36000, oFill, oStroke, 0, 2 * 36000, 1, 3 * 36000);
-var sClassType = oSchemeColor.GetClassType();
-oWorksheet.SetColumnWidth(0, 15);
-oWorksheet.SetColumnWidth(1, 10);
-oWorksheet.GetRange("A1").SetValue("Class Type = ");
-oWorksheet.GetRange("B1").SetValue(sClassType);
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let schemeColor = Api.CreateSchemeColor("dk1");
+let fill = Api.CreateSolidFill(schemeColor);
+let stroke = Api.CreateStroke(0, Api.CreateNoFill());
+worksheet.AddShape("curvedUpArrow", 60 * 36000, 35 * 36000, fill, stroke, 0, 2 * 36000, 1, 3 * 36000);
+let classType = schemeColor.GetClassType();
+worksheet.SetColumnWidth(0, 15);
+worksheet.SetColumnWidth(1, 10);
+worksheet.GetRange("A1").SetValue("Class Type = ");
+worksheet.GetRange("B1").SetValue(classType);
 ```

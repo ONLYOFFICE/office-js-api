@@ -25,7 +25,7 @@ boolean
 
 This example adds a table of figures to the current document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let drawing = Api.CreateChart("bar3D", [

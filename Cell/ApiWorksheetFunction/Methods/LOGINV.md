@@ -14,9 +14,9 @@ expression.LOGINV(arg1, arg2, arg3);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | A probability associated with the lognormal distribution, a number between 0 and 1, inclusive. |
-| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The mean of ln(x). |
-| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The standard deviation of ln(x), a positive number. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | A probability associated with the lognormal distribution, a number between 0 and 1, inclusive. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | The mean of ln(x). |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | The standard deviation of ln(x), a positive number. |
 
 ## Returns
 
@@ -26,27 +26,27 @@ number
 
 
 
-```javascript
-const oWorksheet = Api.GetActiveSheet();
+```javascript editor-xlsx
+const worksheet = Api.GetActiveSheet();
 
 //configure function parameters
-var numbersArr = [0.5, 4, 7];
+let numbersArr = [0.5, 4, 7];
 
 //set values in cells
-for (var i = 0; i < numbersArr.length; i++) {
-  oWorksheet.GetRange("A" + (i + 1)).SetValue(numbersArr[i]);
+for (let i = 0; i < numbersArr.length; i++) {
+  worksheet.GetRange("A" + (i + 1)).SetValue(numbersArr[i]);
 }
 
 //get parameters
-var probability = oWorksheet.GetRange("A1");
-var mean = oWorksheet.GetRange("A2");
-var standardDeviation = oWorksheet.GetRange("A3");
+let probability = worksheet.GetRange("A1");
+let mean = worksheet.GetRange("A2");
+let standardDeviation = worksheet.GetRange("A3");
 
 //invoke LOGINV method
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.LOGINV(probability, mean, standardDeviation);
+let func = Api.GetWorksheetFunction();
+let ans = func.LOGINV(probability, mean, standardDeviation);
 
 //print answer
-oWorksheet.GetRange("C1").SetValue(ans);
+worksheet.GetRange("C1").SetValue(ans);
 
 ```

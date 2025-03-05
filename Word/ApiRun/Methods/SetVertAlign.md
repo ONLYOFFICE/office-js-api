@@ -1,9 +1,6 @@
 # SetVertAlign
 
-Specifies the alignment which will be applied to the contents of the run in relation to the default appearance of the run text:
-**"baseline"** - the characters in the current text run will be aligned by the default text baseline.
-**"subscript"** - the characters in the current text run will be aligned below the default text baseline.
-**"superscript"** - the characters in the current text run will be aligned above the default text baseline.
+Specifies the alignment which will be applied to the contents of the run in relation to the default appearance of the run text:**"baseline"** - the characters in the current text run will be aligned by the default text baseline.**"subscript"** - the characters in the current text run will be aligned below the default text baseline.**"superscript"** - the characters in the current text run will be aligned above the default text baseline.
 
 ## Syntax
 
@@ -17,7 +14,7 @@ expression.SetVertAlign(sType);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sType | Required | "baseline" | "subscript" | "superscript" |  | The vertical alignment type applied to the text contents. |
+| sType | Required | "baseline" \| "subscript" \| "superscript" |  | The vertical alignment type applied to the text contents. |
 
 ## Returns
 
@@ -27,7 +24,7 @@ expression.SetVertAlign(sType);
 
 This example specifies the alignment which will be applied to the contents of the current run in relation to the default appearance of the text run.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let run = Api.CreateRun();

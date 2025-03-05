@@ -1,7 +1,6 @@
 # SetTableBorderInsideV
 
-Specifies the border which will be displayed on all vertical table cell borders which are not on the outmost edge
-of the parent table (all vertical borders which are not the leftmost or rightmost borders).
+Specifies the border which will be displayed on all vertical table cell borders which are not on the outmost edgeof the parent table (all vertical borders which are not the leftmost or rightmost borders).
 
 ## Syntax
 
@@ -30,7 +29,7 @@ This method doesn't return any data.
 
 This example specifies the border which will be displayed on all vertical table cell borders which are not on the outmost edge of the parent table.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("We add the inside vertical 4 point black border:");

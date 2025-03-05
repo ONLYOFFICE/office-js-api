@@ -1,7 +1,6 @@
 # SetLanguage
 
-Specifies the languages which will be used to check spelling and grammar (if requested) when processing
-the contents of this text run.
+Specifies the languages which will be used to check spelling and grammar (if requested) when processingthe contents of this text run.
 
 ## Syntax
 
@@ -25,7 +24,7 @@ expression.SetLanguage(sLangId);
 
 This example specifies the languages which will be used to check spelling and grammar (if requested) when processing the contents of this text run.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

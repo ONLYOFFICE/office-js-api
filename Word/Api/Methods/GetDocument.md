@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example shows how to get a document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = Api.CreateParagraph();
 paragraph.AddText("This is a new paragraph");

@@ -22,7 +22,7 @@ number
 
 This example shows how to get mail merge receptions count.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fields = ["Greeting line", "First name", "Last name"];

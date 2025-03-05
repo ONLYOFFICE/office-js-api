@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example gets a type of ApiBullet class and inserts it into the document.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

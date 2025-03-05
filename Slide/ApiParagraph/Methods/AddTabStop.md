@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example adds a tab stop to the paragraph.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

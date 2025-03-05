@@ -22,7 +22,7 @@ number
 
 This example gets a number of layout objects and insert it itno the presentation.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

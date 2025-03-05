@@ -25,7 +25,7 @@ expression.CreateBlipFill(imageUrl, blipFillType);
 
 This example shows hot to create a blip fill to apply to the object using the selected image as the object background.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

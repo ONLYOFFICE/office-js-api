@@ -18,13 +18,13 @@ expression.GetRow(nPos);
 
 ## Returns
 
-[ApiTableRow](../../ApiTableRow/ApiTableRow.md) | null
+[ApiTableRow](../../ApiTableRow/ApiTableRow.md) \| null
 
 ## Example
 
 This example shows how to get a row by its index.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("We create a 2x2 table and add a new row, so that it becomes 2x3:");

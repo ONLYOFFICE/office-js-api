@@ -19,6 +19,6 @@ Enumeration
 
 This example specifys that the single underlining is applied to the font.
 
-```javascript
+```javascript editor-xlsx
 font.SetUnderline("xlUnderlineStyleSingle");
 ```

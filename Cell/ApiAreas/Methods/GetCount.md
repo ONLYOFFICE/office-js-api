@@ -22,15 +22,15 @@ number
 
 This example shows how to get a value that represents the number of objects in the collection.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var oRange = oWorksheet.GetRange("B1:D1");
-oRange.SetValue("1");
-oRange.Select();
-var oAreas = oRange.GetAreas();
-var nCount = oAreas.GetCount();
-oRange = oWorksheet.GetRange('A5');
-oRange.SetValue("The number of ranges in the areas: ");
-oRange.AutoFit(false, true);
-oWorksheet.GetRange('B5').SetValue(nCount);
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let range = worksheet.GetRange("B1:D1");
+range.SetValue("1");
+range.Select();
+let areas = range.GetAreas();
+let count = areas.GetCount();
+range = worksheet.GetRange('A5');
+range.SetValue("The number of ranges in the areas: ");
+range.AutoFit(false, true);
+worksheet.GetRange('B5').SetValue(count);
 ```

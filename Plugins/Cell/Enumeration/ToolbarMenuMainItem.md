@@ -7,7 +7,7 @@ The main toolbar menu item.
 | Name | Type | Description |
 | ---- | ---- | ----------- |
 | guid | string | The plugin guid. |
-| tabs | [ToolbarMenuTab[]](../Enumeration/ToolbarMenuTab.md) | An array containing the toolbar menu tabs for the current item. |
+| tabs | [ToolbarMenuTab](../Enumeration/ToolbarMenuTab.md)[] | An array containing the toolbar menu tabs for the current item. |
 ## Type
 
 Object
@@ -16,7 +16,7 @@ Object
 
 ## Example
 
-```javascript
+```javascript editor-xlsx
 let toolbarMenuMainItem = {
     "guid": "asc.{9DC93CDB-B576-4F0C-B55E-FCC9C48DD007}",
     "tabs": [oToolbarMenuTab]

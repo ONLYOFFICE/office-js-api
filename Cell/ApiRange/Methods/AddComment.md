@@ -19,17 +19,17 @@ expression.AddComment(sText, sAuthor);
 
 ## Returns
 
-[ApiComment](../../ApiComment/ApiComment.md) | null
+[ApiComment](../../ApiComment/ApiComment.md) \| null
 
 ## Example
 
 This example adds a comment to the range.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var oRange = oWorksheet.GetRange("A1");
-oRange.SetValue("1");
-oRange.AddComment("This is just a number.");
-oWorksheet.GetRange("A3").SetValue("The comment was added to the cell A1.");
-oWorksheet.GetRange("A4").SetValue("Comment: " + oRange.GetComment().GetText());
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let range = worksheet.GetRange("A1");
+range.SetValue("1");
+range.AddComment("This is just a number.");
+worksheet.GetRange("A3").SetValue("The comment was added to the cell A1.");
+worksheet.GetRange("A4").SetValue("Comment: " + range.GetComment().GetText());
 ```

@@ -16,4 +16,4 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[PluginData[]](../../Enumeration/PluginData.md)
+[PluginData](../../Enumeration/PluginData.md)[]

@@ -16,7 +16,7 @@ expression.SetHorAxisTitle(sTitle, nFontSize, bIsBold);
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | sTitle | Required | string |  | The title which will be displayed for the horizontal axis of the current chart. |
 | nFontSize | Required | [pt](../../Enumeration/pt.md) |  | The text size value measured in points. |
-| bIsBold | Required | bool |  | Specifies if the horizontal axis title is written in bold font or not. |
+| bIsBold | Required | boolean |  | Specifies if the horizontal axis title is written in bold font or not. |
 
 ## Returns
 
@@ -26,7 +26,7 @@ This method doesn't return any data.
 
 This example specifies the chart horizontal axis title.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

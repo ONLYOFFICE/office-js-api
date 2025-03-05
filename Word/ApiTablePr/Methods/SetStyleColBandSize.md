@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example specifies a number of columns which will comprise each table column band for this table style.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 doc.RemoveAllElements();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

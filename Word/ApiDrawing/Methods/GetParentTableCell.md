@@ -16,13 +16,13 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiTableCell](../../ApiTableCell/ApiTableCell.md) | null
+[ApiTableCell](../../ApiTableCell/ApiTableCell.md) \| null
 
 ## Example
 
 This example showh how to get a parent table cell that contains the graphic object.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = Api.CreateParagraph();
 let table = Api.CreateTable(3, 3);

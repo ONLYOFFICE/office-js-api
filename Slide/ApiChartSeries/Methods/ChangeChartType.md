@@ -24,7 +24,7 @@ boolean
 
 This example changes the type of the first series of ApiChart class and inserts the new type into the presentation.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

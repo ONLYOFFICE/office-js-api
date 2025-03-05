@@ -16,18 +16,18 @@ This method doesn't have any parameters.
 
 ## Returns
 
-string | string[][]
+string \| string[][]
 
 ## Example
 
 This example shows how to get a formula of the specified range.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.GetRange("B1").SetValue(1);
-oWorksheet.GetRange("C1").SetValue(2);
-var oRange = oWorksheet.GetRange("A1");
-oRange.SetValue("=SUM(B1:C1)");
-var sFormula = oRange.GetFormula();
-oWorksheet.GetRange("A3").SetValue("Formula from cell A1: " + sFormula);
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+worksheet.GetRange("B1").SetValue(1);
+worksheet.GetRange("C1").SetValue(2);
+let range = worksheet.GetRange("A1");
+range.SetValue("=SUM(B1:C1)");
+let formula = range.GetFormula();
+worksheet.GetRange("A3").SetValue("Formula from cell A1: " + formula);
 ```

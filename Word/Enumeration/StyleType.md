@@ -18,6 +18,6 @@ Enumeration
 
 This example assigns the default document paragraph style to the 'oNormalStyle' variable.
 
-```javascript
+```javascript editor-docx
 let normalStyle = doc.GetDefaultStyle("paragraph");
 ```

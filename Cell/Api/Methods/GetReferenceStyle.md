@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example gets reference style.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.GetRange("A1").SetValue(Api.GetReferenceStyle());
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+worksheet.GetRange("A1").SetValue(Api.GetReferenceStyle());
 ```

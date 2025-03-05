@@ -22,6 +22,6 @@ number
 
 This example shows how to get the index of a content control list item in the collection of list items.
 
-```javascript
+```javascript editor-docx
 // todo_example
 ```

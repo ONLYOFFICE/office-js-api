@@ -1,7 +1,6 @@
 # MergeCells
 
-Merges an array of cells. If the merge is done successfully, it will return the resulting merged cell, otherwise the result will be "null".
-💡 The number of cells in any row and the number of rows in the current table may be changed.
+Merges an array of cells. If the merge is done successfully, it will return the resulting merged cell, otherwise the result will be "null".💡 The number of cells in any row and the number of rows in the current table may be changed.
 
 ## Syntax
 
@@ -15,7 +14,7 @@ expression.MergeCells(aCells);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| aCells | Required | [ApiTableCell[]](../../ApiTableCell/ApiTableCell.md) |  | The array of cells to be merged. |
+| aCells | Required | [ApiTableCell](../../ApiTableCell/ApiTableCell.md)[] |  | The array of cells to be merged. |
 
 ## Returns
 
@@ -25,7 +24,7 @@ expression.MergeCells(aCells);
 
 This example merges an array of cells.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

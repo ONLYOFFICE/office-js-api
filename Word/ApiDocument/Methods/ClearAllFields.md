@@ -22,7 +22,7 @@ This method doesn't return any data.
 
 This example clears all forms in the document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let inlineLvlSdt = Api.CreateInlineLvlSdt();

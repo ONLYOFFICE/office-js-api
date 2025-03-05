@@ -28,6 +28,6 @@ Enumeration
 
 This example creates a scheme color with the 'accent2' identifier.
 
-```javascript
+```javascript editor-docx
 let schemeColor = Api.CreateSchemeColor("accent2");
 ```

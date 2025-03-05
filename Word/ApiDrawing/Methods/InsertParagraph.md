@@ -14,19 +14,19 @@ expression.InsertParagraph(paragraph, sPosition, beRNewPara);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| paragraph | Required | string | [ApiParagraph](../../ApiParagraph/ApiParagraph.md) |  | Text or paragraph. |
+| paragraph | Required | string \| [ApiParagraph](../../ApiParagraph/ApiParagraph.md) |  | Text or paragraph. |
 | sPosition | Required | string |  | The position where the text or paragraph will be inserted ("before" or "after" the drawing specified). |
 | beRNewPara | Required | boolean |  | Defines if this method returns a new paragraph (true) or the current ApiDrawing (false). |
 
 ## Returns
 
-[ApiParagraph](../../ApiParagraph/ApiParagraph.md) | [ApiDrawing](../../ApiDrawing/ApiDrawing.md)
+[ApiParagraph](../../ApiParagraph/ApiParagraph.md) \| [ApiDrawing](../../ApiDrawing/ApiDrawing.md)
 
 ## Example
 
 This example inserts a paragraph at the specified position.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This graphic object with paragraph.");

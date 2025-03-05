@@ -18,15 +18,15 @@ expression.SetAnyoneType(protectedRangeUserType);
 
 ## Returns
 
-bool
+boolean
 
 ## Example
 
 This example changes the the user protected range.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.AddProtectedRange("protectedRange", "Sheet1!$A$1:$B$1");
-var protectedRange = oWorksheet.GetProtectedRange("protectedRange");
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+worksheet.AddProtectedRange("protectedRange", "Sheet1!$A$1:$B$1");
+let protectedRange = worksheet.GetProtectedRange("protectedRange");
 protectedRange.SetAnyoneType("CanView");
 ```

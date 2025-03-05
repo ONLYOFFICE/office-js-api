@@ -22,7 +22,7 @@ string
 
 This example shows how to get a name of the current style.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let tableStyle = doc.GetStyle("Bordered");
 tableStyle.SetName("My Custom Style");

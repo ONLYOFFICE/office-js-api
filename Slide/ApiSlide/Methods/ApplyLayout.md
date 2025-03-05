@@ -1,7 +1,6 @@
 # ApplyLayout
 
-Applies the specified layout to the current slide.
-The layout must be in slide master.
+Applies the specified layout to the current slide.The layout must be in slide master.
 
 ## Syntax
 
@@ -25,7 +24,7 @@ boolean
 
 This example applies the specified layout to the slide. The layout must be in slide master.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

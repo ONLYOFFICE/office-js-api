@@ -26,7 +26,7 @@ expression.AddRows(oCell, nCount, isBefore);
 
 This example adds the new rows to the table.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

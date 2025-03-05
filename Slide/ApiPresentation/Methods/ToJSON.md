@@ -14,7 +14,7 @@ expression.ToJSON(bWriteTableStyles);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| bWriteTableStyles | Optional | bool | false | Specifies whether to write used table styles to the JSON object (true) or not (false). |
+| bWriteTableStyles | Optional | boolean | false | Specifies whether to write used table styles to the JSON object (true) or not (false). |
 
 ## Returns
 
@@ -24,7 +24,7 @@ JSON
 
 This example shows how to convert the ApiPresentation object into the JSON object.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var json = oPresentation.ToJSON(true);
 var oPresentationFromJSON = Api.FromJSON(json);

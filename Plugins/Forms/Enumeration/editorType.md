@@ -1,10 +1,6 @@
 # editorType
 
-The editors which the plugin is available for:
-**word** - text document editor,
-**cell** - spreadsheet editor,
-**slide** - presentation editor,
-**pdf** - pdf editor.
+The editors which the plugin is available for:**word** - text document editor,**cell** - spreadsheet editor,**slide** - presentation editor,**pdf** - pdf editor.
 
 ## Type
 

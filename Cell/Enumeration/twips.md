@@ -12,6 +12,6 @@ number
 
 This example set the distance between columns equal to 36 points.
 
-```javascript
+```javascript editor-xlsx
 paragraph.SetEqualColumns(2, 720);
 ```

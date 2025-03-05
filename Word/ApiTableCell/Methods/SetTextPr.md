@@ -24,7 +24,7 @@ boolean
 
 This example applies the text settings to the entire contents of the cell.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

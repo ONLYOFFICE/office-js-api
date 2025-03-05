@@ -14,8 +14,8 @@ expression.HYPERLINK(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | string | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) |  | The text giving the path and file name to the document to be opened, a hard drive location, UNC address, or URL path. |
-| arg2 | Required | string | [ApiRange](../../ApiRange/ApiRange.md) | number | [ApiName](../../ApiName/ApiName.md) |  | Text or a number that is displayed in the cell. If omitted, the cell displays the link location text. |
+| arg1 | Required | string \| [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) |  | The text giving the path and file name to the document to be opened, a hard drive location, UNC address, or URL path. |
+| arg2 | Optional | string \| [ApiRange](../../ApiRange/ApiRange.md) \| number \| [ApiName](../../ApiName/ApiName.md) |  | Text or a number that is displayed in the cell. If omitted, the cell displays the link location text. |
 
 ## Returns
 
@@ -25,8 +25,8 @@ string
 
 
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue(oFunction.HYPERLINK("https://example.com/files/example.xlsx", "Click here"));
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue(func.HYPERLINK("https://example.com/files/example.xlsx", "Click here"));
 ```

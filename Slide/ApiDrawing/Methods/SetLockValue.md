@@ -15,17 +15,17 @@ expression.SetLockValue(sType, bValue);
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | sType | Required | [DrawingLockType](../../Enumeration/DrawingLockType.md) |  | Lock type in the string format. |
-| bValue | Required | bool |  | Specifies if the specified lock is applied to the current drawing. |
+| bValue | Required | boolean |  | Specifies if the specified lock is applied to the current drawing. |
 
 ## Returns
 
-bool
+boolean
 
 ## Example
 
 This example sets the lock value to the specified lock type of the shape.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

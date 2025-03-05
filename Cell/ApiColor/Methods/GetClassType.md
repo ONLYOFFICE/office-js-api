@@ -22,11 +22,11 @@ This method doesn't have any parameters.
 
 This example gets a class type and inserts it into the table.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var oColor = Api.CreateColorFromRGB(255, 111, 61);
-oWorksheet.GetRange("A2").SetValue("Text with color");
-oWorksheet.GetRange("A2").SetFontColor(oColor);
-var sColorClassType = oColor.GetClassType();
-oWorksheet.GetRange("A4").SetValue("Class type = " + sColorClassType);
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let color = Api.CreateColorFromRGB(255, 111, 61);
+worksheet.GetRange("A2").SetValue("Text with color");
+worksheet.GetRange("A2").SetFontColor(color);
+let colorClassType = color.GetClassType();
+worksheet.GetRange("A4").SetValue("Class type = " + colorClassType);
 ```

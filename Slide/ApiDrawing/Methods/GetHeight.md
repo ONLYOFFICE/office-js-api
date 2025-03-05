@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example gets a height of a shape and inserts it into the presentation.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

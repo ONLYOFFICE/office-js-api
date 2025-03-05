@@ -22,7 +22,7 @@ string[]
 
 This example shows how to get the list values from the combo box.
 
-```javascript
+```javascript editor-pdf
 let doc = Api.GetDocument();
 let comboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false});
 let paragraph = doc.GetElement(0);

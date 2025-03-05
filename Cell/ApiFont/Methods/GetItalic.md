@@ -16,19 +16,19 @@ This method doesn't have any parameters.
 
 ## Returns
 
-boolean | null
+boolean \| null
 
 ## Example
 
 This example shows how to get the italic property of the specified font.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var oRange = oWorksheet.GetRange("B1");
-oRange.SetValue("This is just a sample text.");
-var oCharacters = oRange.GetCharacters(9, 4);
-var oFont = oCharacters.GetFont();
-oFont.SetItalic(true);
-var bItalic = oFont.GetItalic();
-oWorksheet.GetRange("B3").SetValue("Italic property: " + bItalic);
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let range = worksheet.GetRange("B1");
+range.SetValue("This is just a sample text.");
+let characters = range.GetCharacters(9, 4);
+let font = characters.GetFont();
+font.SetItalic(true);
+let isItalic = font.GetItalic();
+worksheet.GetRange("B3").SetValue("Italic property: " + isItalic);
 ```

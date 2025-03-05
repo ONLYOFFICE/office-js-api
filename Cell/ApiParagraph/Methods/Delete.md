@@ -22,16 +22,16 @@ boolean
 
 This example deletes the paragraph.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oShape = oWorksheet.AddShape("flowChartOnlineStorage", 60 * 36000, 35 * 36000, oFill, oStroke, 0, 2 * 36000, 0, 3 * 36000);
-var oDocContent = oShape.GetContent();
-oDocContent.RemoveAllElements();
-var oParagraph = Api.CreateParagraph();
-oParagraph.AddText("This is just a sample text.");
-oDocContent.Push(oParagraph);
-oParagraph.Delete();
-oWorksheet.GetRange("A9").SetValue("The paragraph from the shape content was removed.");
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+let stroke = Api.CreateStroke(0, Api.CreateNoFill());
+let shape = worksheet.AddShape("flowChartOnlineStorage", 60 * 36000, 35 * 36000, fill, stroke, 0, 2 * 36000, 0, 3 * 36000);
+let content = shape.GetContent();
+content.RemoveAllElements();
+let paragraph = Api.CreateParagraph();
+paragraph.AddText("This is just a sample text.");
+content.Push(paragraph);
+paragraph.Delete();
+worksheet.GetRange("A9").SetValue("The paragraph from the shape content was removed.");
 ```

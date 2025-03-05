@@ -22,13 +22,13 @@ expression.CreateTheme(sName, oMaster, oClrScheme, oFormatScheme, oFontScheme);
 
 ## Returns
 
-[ApiTheme](../../ApiTheme/ApiTheme.md) | null
+[ApiTheme](../../ApiTheme/ApiTheme.md) \| null
 
 ## Example
 
 This example creates theme and applies it for presentation.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

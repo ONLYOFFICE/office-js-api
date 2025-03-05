@@ -1,7 +1,6 @@
 # AddComment
 
-Adds a comment to the current paragraph.
-💡 Please note that this paragraph must be in the document.
+Adds a comment to the current paragraph.💡 Please note that this paragraph must be in the document.
 
 ## Syntax
 
@@ -27,7 +26,7 @@ expression.AddComment(sText, sAuthor, sUserId);
 
 This example adds a comment to the paragraph.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is just a sample paragraph.");

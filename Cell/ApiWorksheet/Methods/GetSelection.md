@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example shows how to get an object that represents the selected range.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.GetSelection().SetValue("selected");
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+worksheet.GetSelection().SetValue("selected");
 ```

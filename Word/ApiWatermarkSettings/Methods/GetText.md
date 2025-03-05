@@ -16,13 +16,13 @@ This method doesn't have any parameters.
 
 ## Returns
 
-string | null
+string \| null
 
 ## Example
 
 This example gets a watermark text and pastes it into the document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let watermarkSettings = doc.GetWatermarkSettings();
 watermarkSettings.SetType("text");

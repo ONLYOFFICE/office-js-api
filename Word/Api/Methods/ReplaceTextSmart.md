@@ -14,7 +14,7 @@ expression.ReplaceTextSmart(textStrings, tab, newLine);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| textStrings | Required | Array |  | An array of replacement strings. |
+| textStrings | Required | string[] |  | An array of replacement strings. |
 | tab | Optional | string | "\t" | A character which is used to specify the tab in the source text. |
 | newLine | Optional | string | "\r\n" | A character which is used to specify the line break character in the source text. |
 
@@ -26,7 +26,7 @@ This method doesn't return any data.
 
 This example replaces text while preserving formatting and other things.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is the normal text. ");

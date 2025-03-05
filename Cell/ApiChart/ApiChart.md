@@ -2,48 +2,51 @@
 
 Represents the ApiChart class.
 
+
 ## Methods
 
-- [GetClassType](./Methods/GetClassType.md)
-- [GetChartType](./Methods/GetChartType.md)
-- [SetTitle](./Methods/SetTitle.md)
-- [SetHorAxisTitle](./Methods/SetHorAxisTitle.md)
-- [SetVerAxisTitle](./Methods/SetVerAxisTitle.md)
-- [SetVerAxisOrientation](./Methods/SetVerAxisOrientation.md)
-- [SetHorAxisOrientation](./Methods/SetHorAxisOrientation.md)
-- [SetLegendPos](./Methods/SetLegendPos.md)
-- [SetLegendFontSize](./Methods/SetLegendFontSize.md)
-- [SetShowDataLabels](./Methods/SetShowDataLabels.md)
-- [SetShowPointDataLabel](./Methods/SetShowPointDataLabel.md)
-- [SetVertAxisTickLabelPosition](./Methods/SetVertAxisTickLabelPosition.md)
-- [SetHorAxisTickLabelPosition](./Methods/SetHorAxisTickLabelPosition.md)
-- [SetHorAxisMajorTickMark](./Methods/SetHorAxisMajorTickMark.md)
-- [SetHorAxisMinorTickMark](./Methods/SetHorAxisMinorTickMark.md)
-- [SetVertAxisMajorTickMark](./Methods/SetVertAxisMajorTickMark.md)
-- [SetVertAxisMinorTickMark](./Methods/SetVertAxisMinorTickMark.md)
-- [SetMajorVerticalGridlines](./Methods/SetMajorVerticalGridlines.md)
-- [SetMinorVerticalGridlines](./Methods/SetMinorVerticalGridlines.md)
-- [SetMajorHorizontalGridlines](./Methods/SetMajorHorizontalGridlines.md)
-- [SetMinorHorizontalGridlines](./Methods/SetMinorHorizontalGridlines.md)
-- [RemoveSeria](./Methods/RemoveSeria.md)
-- [ApplyChartStyle](./Methods/ApplyChartStyle.md)
-- [SetPlotAreaFill](./Methods/SetPlotAreaFill.md)
-- [SetPlotAreaOutLine](./Methods/SetPlotAreaOutLine.md)
-- [SetSeriesFill](./Methods/SetSeriesFill.md)
-- [SetSeriesOutLine](./Methods/SetSeriesOutLine.md)
-- [SetDataPointFill](./Methods/SetDataPointFill.md)
-- [SetDataPointOutLine](./Methods/SetDataPointOutLine.md)
-- [SetMarkerFill](./Methods/SetMarkerFill.md)
-- [SetMarkerOutLine](./Methods/SetMarkerOutLine.md)
-- [SetTitleFill](./Methods/SetTitleFill.md)
-- [SetTitleOutLine](./Methods/SetTitleOutLine.md)
-- [SetLegendFill](./Methods/SetLegendFill.md)
-- [SetLegendOutLine](./Methods/SetLegendOutLine.md)
-- [SetAxieNumFormat](./Methods/SetAxieNumFormat.md)
-- [GetAllSeries](./Methods/GetAllSeries.md)
-- [GetSeries](./Methods/GetSeries.md)
-- [SetSeriaValues](./Methods/SetSeriaValues.md)
-- [SetSeriaXValues](./Methods/SetSeriaXValues.md)
-- [SetSeriaName](./Methods/SetSeriaName.md)
-- [SetCatFormula](./Methods/SetCatFormula.md)
-- [AddSeria](./Methods/AddSeria.md)
+| Method | Returns | Description |
+| ------ | ------- | ----------- |
+| [GetClassType](./Methods/GetClassType.md) | "chart" | Returns a type of the ApiChart class. |
+| [GetChartType](./Methods/GetChartType.md) | [ChartType](../Enumeration/ChartType.md) | Returns a type of the chart object. |
+| [SetTitle](./Methods/SetTitle.md) | None | Specifies the chart title. |
+| [SetHorAxisTitle](./Methods/SetHorAxisTitle.md) | None | Specifies the chart horizontal axis title. |
+| [SetVerAxisTitle](./Methods/SetVerAxisTitle.md) | None | Specifies the chart vertical axis title. |
+| [SetVerAxisOrientation](./Methods/SetVerAxisOrientation.md) | None | Specifies the vertical axis orientation. |
+| [SetHorAxisOrientation](./Methods/SetHorAxisOrientation.md) | None | Specifies the horizontal axis orientation. |
+| [SetLegendPos](./Methods/SetLegendPos.md) | None | Specifies the chart legend position. |
+| [SetLegendFontSize](./Methods/SetLegendFontSize.md) | None | Specifies the legend font size. |
+| [SetShowDataLabels](./Methods/SetShowDataLabels.md) | None | Specifies which chart data labels are shown for the chart. |
+| [SetShowPointDataLabel](./Methods/SetShowPointDataLabel.md) | None | Spicifies the show options for data labels. |
+| [SetVertAxisTickLabelPosition](./Methods/SetVertAxisTickLabelPosition.md) | None | Spicifies tick labels position for the vertical axis. |
+| [SetHorAxisTickLabelPosition](./Methods/SetHorAxisTickLabelPosition.md) | None | Spicifies tick labels position for the horizontal axis. |
+| [SetHorAxisMajorTickMark](./Methods/SetHorAxisMajorTickMark.md) | None | Specifies major tick mark for the horizontal axis. |
+| [SetHorAxisMinorTickMark](./Methods/SetHorAxisMinorTickMark.md) | None | Specifies minor tick mark for the horizontal axis. |
+| [SetVertAxisMajorTickMark](./Methods/SetVertAxisMajorTickMark.md) | None | Specifies major tick mark for the vertical axis. |
+| [SetVertAxisMinorTickMark](./Methods/SetVertAxisMinorTickMark.md) | None | Specifies minor tick mark for the vertical axis. |
+| [SetMajorVerticalGridlines](./Methods/SetMajorVerticalGridlines.md) | None | Specifies major vertical gridline visual properties. |
+| [SetMinorVerticalGridlines](./Methods/SetMinorVerticalGridlines.md) | None | Specifies minor vertical gridline visual properties. |
+| [SetMajorHorizontalGridlines](./Methods/SetMajorHorizontalGridlines.md) | None | Specifies major horizontal gridline visual properties. |
+| [SetMinorHorizontalGridlines](./Methods/SetMinorHorizontalGridlines.md) | None | Specifies minor horizontal gridline visual properties. |
+| [RemoveSeria](./Methods/RemoveSeria.md) | boolean | Removes the specified series from the current chart. |
+| [ApplyChartStyle](./Methods/ApplyChartStyle.md) | boolean | Sets a style to the current chart by style ID. |
+| [SetPlotAreaFill](./Methods/SetPlotAreaFill.md) | boolean | Sets the fill to the chart plot area. |
+| [SetPlotAreaOutLine](./Methods/SetPlotAreaOutLine.md) | boolean | Sets the outline to the chart plot area. |
+| [SetSeriesFill](./Methods/SetSeriesFill.md) | boolean | Sets the fill to the specified chart series. |
+| [SetSeriesOutLine](./Methods/SetSeriesOutLine.md) | boolean | Sets the outline to the specified chart series. |
+| [SetDataPointFill](./Methods/SetDataPointFill.md) | boolean | Sets the fill to the data point in the specified chart series. |
+| [SetDataPointOutLine](./Methods/SetDataPointOutLine.md) | boolean | Sets the outline to the data point in the specified chart series. |
+| [SetMarkerFill](./Methods/SetMarkerFill.md) | boolean | Sets the fill to the marker in the specified chart series. |
+| [SetMarkerOutLine](./Methods/SetMarkerOutLine.md) | boolean | Sets the outline to the marker in the specified chart series. |
+| [SetTitleFill](./Methods/SetTitleFill.md) | boolean | Sets the fill to the chart title. |
+| [SetTitleOutLine](./Methods/SetTitleOutLine.md) | boolean | Sets the outline to the chart title. |
+| [SetLegendFill](./Methods/SetLegendFill.md) | boolean | Sets the fill to the chart legend. |
+| [SetLegendOutLine](./Methods/SetLegendOutLine.md) | boolean | Sets the outline to the chart legend. |
+| [SetAxieNumFormat](./Methods/SetAxieNumFormat.md) | boolean | Sets the specified numeric format to the axis values. |
+| [GetAllSeries](./Methods/GetAllSeries.md) | [ApiChartSeries](../ApiChartSeries/ApiChartSeries.md)[] | Returns all series from the chart space. |
+| [GetSeries](./Methods/GetSeries.md) | [ApiChartSeries](../ApiChartSeries/ApiChartSeries.md) | Returns the series with a specific index. |
+| [SetSeriaValues](./Methods/SetSeriaValues.md) | boolean | Sets values from the specified range to the specified series. |
+| [SetSeriaXValues](./Methods/SetSeriaXValues.md) | boolean | Sets the x-axis values from the specified range to the specified series. It is used with the scatter charts only. |
+| [SetSeriaName](./Methods/SetSeriaName.md) | boolean | Sets a name to the specified series. |
+| [SetCatFormula](./Methods/SetCatFormula.md) | None | Sets a range with the category values to the current chart. |
+| [AddSeria](./Methods/AddSeria.md) | None | Adds a new series to the current chart. |

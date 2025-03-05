@@ -24,7 +24,7 @@ expression.SetOutLine(oStroke);
 
 In this example, the WordArt text has a text outline.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let textPr = Api.CreateTextPr();
 textPr.SetFontSize(30);

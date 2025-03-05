@@ -22,7 +22,7 @@ boolean
 
 This example shows how to ungroup a group drawing element.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill1 = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));

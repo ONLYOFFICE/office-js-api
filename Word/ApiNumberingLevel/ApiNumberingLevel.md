@@ -2,16 +2,19 @@
 
 Represents the ApiNumberingLevel class.
 
+
 ## Methods
 
-- [GetClassType](./Methods/GetClassType.md)
-- [GetNumbering](./Methods/GetNumbering.md)
-- [GetLevelIndex](./Methods/GetLevelIndex.md)
-- [GetTextPr](./Methods/GetTextPr.md)
-- [GetParaPr](./Methods/GetParaPr.md)
-- [SetTemplateType](./Methods/SetTemplateType.md)
-- [SetCustomType](./Methods/SetCustomType.md)
-- [SetRestart](./Methods/SetRestart.md)
-- [SetStart](./Methods/SetStart.md)
-- [SetSuff](./Methods/SetSuff.md)
-- [LinkWithStyle](./Methods/LinkWithStyle.md)
+| Method | Returns | Description |
+| ------ | ------- | ----------- |
+| [GetClassType](./Methods/GetClassType.md) | "numberingLevel" | Returns a type of the ApiNumberingLevel class. |
+| [GetNumbering](./Methods/GetNumbering.md) | [ApiNumbering](../ApiNumbering/ApiNumbering.md) | Returns the numbering definition. |
+| [GetLevelIndex](./Methods/GetLevelIndex.md) | number | Returns the level index. |
+| [GetTextPr](./Methods/GetTextPr.md) | [ApiTextPr](../ApiTextPr/ApiTextPr.md) | Specifies the text properties which will be applied to the text in the current numbering level itself, not to the text in the subsequent paragraph. 💡 To change the text style of the paragraph, a style must be applied to it using the &#123;@link ApiRun#SetStyle&#125; method. |
+| [GetParaPr](./Methods/GetParaPr.md) | [ApiParaPr](../ApiParaPr/ApiParaPr.md) | Returns the paragraph properties which are applied to any numbered paragraph that references the given numbering definition and numbering level. |
+| [SetTemplateType](./Methods/SetTemplateType.md) | None | Sets one of the existing predefined numbering templates. |
+| [SetCustomType](./Methods/SetCustomType.md) | None | Sets your own customized numbering type. |
+| [SetRestart](./Methods/SetRestart.md) | None | Specifies a one-based index which determines when a numbering level should restart to its starting value. A numbering level restarts when an instance of the specified numbering level which is higher (earlier than this level) is used in the given document contents. By default this value is true. |
+| [SetStart](./Methods/SetStart.md) | None | Specifies the starting value for the numbering used by the parent numbering level within a given numbering level definition. By default this value is 1. |
+| [SetSuff](./Methods/SetSuff.md) | None | Specifies the content which will be added between the given numbering level text and the text of every numbered paragraph which references that numbering level. By default this value is "tab". |
+| [LinkWithStyle](./Methods/LinkWithStyle.md) | None | Links the specified paragraph style with the current numbering level. |

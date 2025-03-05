@@ -22,23 +22,23 @@ This method doesn't have any parameters.
 
 This example gets a class type and pastes it into the sheet.
 
-```javascript
-let oWorksheet = Api.GetActiveSheet();
-let oFill1 = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-let oFill2 = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
-let oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-let oShape1 = oWorksheet.AddShape("flowChartOnlineStorage", 60 * 36000, 35 * 36000, oFill1, oStroke, 0, 2 * 36000, 0, 3 * 36000);
-let oShape2 = oWorksheet.AddShape("flowChartOnlineStorage", 60 * 36000, 35 * 36000, oFill2, oStroke, 0, 15 * 36000, 0, 30 * 36000);
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let fill1 = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+let fill2 = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
+let stroke = Api.CreateStroke(0, Api.CreateNoFill());
+let shape1 = worksheet.AddShape("flowChartOnlineStorage", 60 * 36000, 35 * 36000, fill1, stroke, 0, 2 * 36000, 0, 3 * 36000);
+let shape2 = worksheet.AddShape("flowChartOnlineStorage", 60 * 36000, 35 * 36000, fill2, stroke, 0, 15 * 36000, 0, 30 * 36000);
 
-let oGroup = oWorksheet.GroupDrawings([oShape1, oShape2]);
-let sClassType = oGroup.GetClassType();
+let group = worksheet.GroupDrawings([shape1, shape2]);
+let classType = group.GetClassType();
 
-let oDocContent1 = oShape1.GetDocContent();
-let oParagraph1 = oDocContent1.GetElement(0);
-oParagraph1.AddText("Class Type = " + sClassType);
+let content1 = shape1.GetDocContent();
+let paragraph1 = content1.GetElement(0);
+paragraph1.AddText("Class Type = " + classType);
 
-let oDocContent2 = oShape2.GetDocContent();
-let oParagraph2 = oDocContent2.GetElement(0);
-oParagraph2.AddText("Class Type = " + sClassType);
+let content2 = shape2.GetDocContent();
+let paragraph2 = content2.GetElement(0);
+paragraph2.AddText("Class Type = " + classType);
 
 ```

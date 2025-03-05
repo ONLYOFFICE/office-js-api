@@ -22,8 +22,8 @@ number
 
 This example shows how to get the bottom margin of the sheet.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var nBottomMargin = oWorksheet.GetBottomMargin();
-oWorksheet.GetRange("A1").SetValue("Bottom margin: " + nBottomMargin + " mm");
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let bottomMargin = worksheet.GetBottomMargin();
+worksheet.GetRange("A1").SetValue("Bottom margin: " + bottomMargin + " mm");
 ```

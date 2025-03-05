@@ -24,10 +24,10 @@ This method doesn't return any data.
 
 This example sets the page orientation.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.SetPageOrientation("xlPortrait");
-var sPageOrientation = oWorksheet.GetPageOrientation();
-oWorksheet.GetRange("A1").SetValue("Page orientation: ");
-oWorksheet.GetRange("C1").SetValue(sPageOrientation);
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+worksheet.SetPageOrientation("xlPortrait");
+let pageOrientation = worksheet.GetPageOrientation();
+worksheet.GetRange("A1").SetValue("Page orientation: ");
+worksheet.GetRange("C1").SetValue(pageOrientation);
 ```

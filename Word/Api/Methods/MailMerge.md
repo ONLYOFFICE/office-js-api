@@ -14,7 +14,7 @@ expression.MailMerge(startIndex, endIndex);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| startIndex | Optional | number | false | The start index of the document for mail merge process. |
+| startIndex | Optional | number | 0 | The start index of the document for mail merge process. |
 | endIndex | Optional | number | Api.GetMailMergeReceptionsCount() - 1 | The end index of the document for mail merge process. |
 
 ## Returns
@@ -25,7 +25,7 @@ boolean
 
 This example shows how to start the mail merge process.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fields = ["Greeting line", "First name", "Last name"];

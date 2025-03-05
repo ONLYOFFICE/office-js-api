@@ -18,13 +18,13 @@ expression.IntersectWith(oRange);
 
 ## Returns
 
-[ApiRange](../../ApiRange/ApiRange.md) | null
+[ApiRange](../../ApiRange/ApiRange.md) \| null
 
 ## Example
 
 This example returns a new range as the intersection of the current range with another range.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("Lorem ipsum dolor sit amet,");

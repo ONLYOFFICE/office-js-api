@@ -15,8 +15,8 @@ expression.GetText(oPr, oPr.NewLineSeparator, oPr.TabSymbol);
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | oPr | Required | object |  | The resulting string display properties. |
-| oPr.NewLineSeparator | Optional | string | '\r' | Defines how the line separator will be specified in the resulting string. |
-| oPr.TabSymbol | Optional | string | '\t' | Defines how the tab will be specified in the resulting string. |
+| oPr.NewLineSeparator | Optional | string | '\r' | Defines how the line separator will be specified in the resulting string. Any symbol can be used. The default separator is "\r". |
+| oPr.TabSymbol | Optional | string | '\t' | Defines how the tab will be specified in the resulting string. Any symbol can be used. The default symbol is "\t". |
 
 ## Returns
 
@@ -26,7 +26,7 @@ string
 
 This example returns a text from the text run.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let run = Api.CreateRun();

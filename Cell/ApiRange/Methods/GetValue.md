@@ -16,16 +16,16 @@ This method doesn't have any parameters.
 
 ## Returns
 
-string | string[][]
+string \| string[][]
 
 ## Example
 
 This example shows how to get a value of the specified range.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.GetRange("A1").SetValue("1");
-var sValue = oWorksheet.GetRange("A1").GetValue();
-oWorksheet.GetRange("A3").SetValue("Value of the cell A1: ");
-oWorksheet.GetRange("B3").SetValue(sValue);
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+worksheet.GetRange("A1").SetValue("1");
+let value = worksheet.GetRange("A1").GetValue();
+worksheet.GetRange("A3").SetValue("Value of the cell A1: ");
+worksheet.GetRange("B3").SetValue(value);
 ```

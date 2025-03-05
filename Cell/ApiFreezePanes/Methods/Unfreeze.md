@@ -22,12 +22,12 @@ This method doesn't return any data.
 
 This example freezes first column then unfreeze all panes in the worksheet.
 
-```javascript
+```javascript editor-xlsx
 Api.SetFreezePanesType('column');
-var oWorksheet = Api.GetActiveSheet();
-var oFreezePanes = oWorksheet.GetFreezePanes();
-oFreezePanes.Unfreeze();
-var oRange = oFreezePanes.GetLocation();
-oWorksheet.GetRange("A1").SetValue("Location: ");
-oWorksheet.GetRange("B1").SetValue(oRange + "");
+let worksheet = Api.GetActiveSheet();
+let freezePanes = worksheet.GetFreezePanes();
+freezePanes.Unfreeze();
+let range = freezePanes.GetLocation();
+worksheet.GetRange("A1").SetValue("Location: ");
+worksheet.GetRange("B1").SetValue(range + "");
 ```

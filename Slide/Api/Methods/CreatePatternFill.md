@@ -26,7 +26,7 @@ expression.CreatePatternFill(patternType, bgColor, fgColor);
 
 This example creates a pattern fill and applys it to the object using the selected pattern as the object background.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

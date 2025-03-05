@@ -24,7 +24,7 @@ boolean
 
 This example shows how to remove the specified series from the current chart.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

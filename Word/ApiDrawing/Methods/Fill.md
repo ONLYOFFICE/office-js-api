@@ -24,7 +24,7 @@ boolean
 
 This example sets the fill formatting properties to the current graphic object.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));

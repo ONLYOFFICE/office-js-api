@@ -12,6 +12,6 @@ number
 
 This example set the cell width measured in millimeters to the applied comb of characters.
 
-```javascript
+```javascript editor-pptx
 textForm.SetCellWidth(7);
 ```

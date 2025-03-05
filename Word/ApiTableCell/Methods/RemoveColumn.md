@@ -16,13 +16,13 @@ This method doesn't have any parameters.
 
 ## Returns
 
-bool | null
+boolean
 
 ## Example
 
 This example removes a column containing the cell.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

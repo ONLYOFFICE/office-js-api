@@ -1,6 +1,6 @@
 # GetContent
 
-Returns the shape inner contents where a paragraph or text runs can be inserted if it exists.
+Returns the drawing inner contents where a paragraph or text runs can be inserted if it exists.
 
 ## Syntax
 

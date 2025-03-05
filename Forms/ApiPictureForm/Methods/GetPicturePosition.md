@@ -16,13 +16,13 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[percentage[]](../../Enumeration/percentage.md)
+[percentage](../../Enumeration/percentage.md)[]
 
 ## Example
 
 This example shows how to get the picture position inside the current form.
 
-```javascript
+```javascript editor-pdf
 let doc = Api.GetDocument();
 let pictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false});
 let paragraph = doc.GetElement(0);

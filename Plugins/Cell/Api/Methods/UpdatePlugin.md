@@ -22,7 +22,7 @@ object
 
 ## Example
 
-```javascript
+```javascript editor-xlsx
 window.Asc.plugin.executeMethod ("UpdatePlugin", [config], function (result) {
     postMessage (JSON.stringify (result));
 });

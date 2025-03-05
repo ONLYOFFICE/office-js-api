@@ -24,7 +24,7 @@ expression.AddInlineLvlSdt(oSdt);
 
 This example adds an inline container to the paragraph.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let inlineLvlSdt = Api.CreateInlineLvlSdt();

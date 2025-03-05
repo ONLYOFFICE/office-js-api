@@ -14,7 +14,7 @@ expression.SetTemplateType(sType, sSymbol);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sType | Required | "none" | "bullet" | "1)" | "1." | "I." | "A." | "a)" | "a." | "i." |  | The predefined numbering template. |
+| sType | Required | "none" \| "bullet" \| "1)" \| "1." \| "I." \| "A." \| "a)" \| "a." \| "i." |  | The predefined numbering template. |
 | sSymbol | Optional | string | "" | The symbol used for the list numbering. This parameter has the meaning only if the predefined numbering template is "bullet". |
 
 ## Returns
@@ -25,7 +25,7 @@ This method doesn't return any data.
 
 This example sets one of the existing predefined numbering templates.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("numbered");
 let numLvl = numbering.GetLevel(0);

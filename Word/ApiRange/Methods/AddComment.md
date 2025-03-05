@@ -26,7 +26,7 @@ expression.AddComment(sText, sAuthor, sUserId);
 
 This example adds a comment to the range.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("Document");

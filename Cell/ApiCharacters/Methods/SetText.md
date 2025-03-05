@@ -24,10 +24,10 @@ This method doesn't return any data.
 
 This example sets the text for the specified characters.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var oRange = oWorksheet.GetRange("B1");
-oRange.SetValue("This is just a sample text.");
-var oCharacters = oRange.GetCharacters(23, 4);
-oCharacters.SetText("string");
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let range = worksheet.GetRange("B1");
+range.SetValue("This is just a sample text.");
+let characters = range.GetCharacters(23, 4);
+characters.SetText("string");
 ```

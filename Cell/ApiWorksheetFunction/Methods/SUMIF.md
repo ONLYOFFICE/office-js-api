@@ -14,9 +14,9 @@ expression.SUMIF(arg1, arg2, arg3);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) |  | The range of cells to be evaluated. |
-| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number | string |  | The condition or criteria in the form of a number, expression, or text that defines which cells will be added. |
-| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) |  | The range to sum. If omitted, the cells in range are used. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) |  | The range of cells to be evaluated. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number \| string |  | The condition or criteria in the form of a number, expression, or text that defines which cells will be added. |
+| arg3 | Optional | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) |  | The range to sum. If omitted, the cells in range are used. |
 
 ## Returns
 
@@ -26,19 +26,19 @@ number
 
 
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var product = ["Product", "Apple", "Orange", "Banana"]
-var totalValue = ["Total Value", "$736.00", "$924.00", "$888.00"];
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let product = ["Product", "Apple", "range", "Banana"]
+let totalValue = ["Total Value", "$736.00", "$924.00", "$888.00"];
 
-for (var i = 0; i < product.length; i++) {
-    oWorksheet.GetRange("A" + (i + 1)).SetValue(product[i]);
+for (let i = 0; i < product.length; i++) {
+    worksheet.GetRange("A" + (i + 1)).SetValue(product[i]);
 }
-for (var n = 0; n < totalValue.length; n++) {
-    oWorksheet.GetRange("B" + (n + 1)).SetValue(totalValue[n]);
+for (let n = 0; n < totalValue.length; n++) {
+    worksheet.GetRange("B" + (n + 1)).SetValue(totalValue[n]);
 }
 
-var oFunction = Api.GetWorksheetFunction();
-var oRange = oWorksheet.GetRange("B2:B4");
-oWorksheet.GetRange("C4").SetValue(oFunction.SUMIF(oRange, ">800"));
+let func = Api.GetWorksheetFunction();
+let range = worksheet.GetRange("B2:B4");
+worksheet.GetRange("C4").SetValue(func.SUMIF(range, ">800"));
 ```

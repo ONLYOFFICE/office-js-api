@@ -2,23 +2,17 @@
 
 Represents the ApiCharacters class.
 
-## Properties
 
-| Name | Type | Description |
-| ---- | ---- | ----------- |
-| Count | number | The number of characters in the collection. |
-| Parent | [ApiRange](../ApiRange/ApiRange.md) | The parent object of the specified characters. |
-| Caption | string | The text of the specified range of characters. |
-| Text | string | The string value representing the text of the specified range of characters. |
-| Font | [ApiFont](../ApiFont/ApiFont.md) | The font of the specified characters. |
 ## Methods
 
-- [GetCount](./Methods/GetCount.md)
-- [GetParent](./Methods/GetParent.md)
-- [Delete](./Methods/Delete.md)
-- [Insert](./Methods/Insert.md)
-- [SetCaption](./Methods/SetCaption.md)
-- [GetCaption](./Methods/GetCaption.md)
-- [SetText](./Methods/SetText.md)
-- [GetText](./Methods/GetText.md)
-- [GetFont](./Methods/GetFont.md)
+| Method | Returns | Description |
+| ------ | ------- | ----------- |
+| [GetCount](./Methods/GetCount.md) | number | Returns a value that represents a number of objects in the collection. |
+| [GetParent](./Methods/GetParent.md) | [ApiRange](../ApiRange/ApiRange.md) | Returns the parent object of the specified characters. |
+| [Delete](./Methods/Delete.md) | None | Deletes the ApiCharacters object. |
+| [Insert](./Methods/Insert.md) | None | Inserts a string replacing the specified characters. |
+| [SetCaption](./Methods/SetCaption.md) | None | Sets a string value that represents the text of the specified range of characters. |
+| [GetCaption](./Methods/GetCaption.md) | string | Returns a string value that represents the text of the specified range of characters. |
+| [SetText](./Methods/SetText.md) | None | Sets the text for the specified characters. |
+| [GetText](./Methods/GetText.md) | string | Returns the text of the specified range of characters. |
+| [GetFont](./Methods/GetFont.md) | [ApiFont](../ApiFont/ApiFont.md) | Returns the ApiFont object that represents the font of the specified characters. |

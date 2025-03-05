@@ -18,13 +18,13 @@ expression.InsertInContentControl(nType);
 
 ## Returns
 
-[ApiDrawing](../../ApiDrawing/ApiDrawing.md) | [ApiBlockLvlSdt](../../ApiBlockLvlSdt/ApiBlockLvlSdt.md)
+[ApiDrawing](../../ApiDrawing/ApiDrawing.md) \| [ApiBlockLvlSdt](../../ApiBlockLvlSdt/ApiBlockLvlSdt.md)
 
 ## Example
 
 This example wraps the graphic object with a rich text content control.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This graphic object was wrapped in content control");

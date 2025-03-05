@@ -26,7 +26,7 @@ expression.CreatePatternFill(patternType, bgColor, fgColor);
 
 This example creates a pattern fill and applys it to the object using the selected pattern as the object background.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreatePatternFill("dashDnDiag", Api.CreateRGBColor(255, 111, 61), Api.CreateRGBColor(51, 51, 51));

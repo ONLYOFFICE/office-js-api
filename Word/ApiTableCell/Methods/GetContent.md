@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example shows how to get the current cell content.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

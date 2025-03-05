@@ -14,7 +14,7 @@ expression.ISEVEN(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The value to test. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | The value to test. |
 
 ## Returns
 
@@ -24,10 +24,10 @@ boolean
 
 
 
-```javascript
-const oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-var result = oFunction.ISEVEN("66");
-oWorksheet.GetRange("C3").SetValue(result)
+```javascript editor-xlsx
+const worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+let result = func.ISEVEN("66");
+worksheet.GetRange("C3").SetValue(result)
 
 ```

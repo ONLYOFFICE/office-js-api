@@ -16,13 +16,13 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiChartSeries[]](../../ApiChartSeries/ApiChartSeries.md)
+[ApiChartSeries](../../ApiChartSeries/ApiChartSeries.md)[]
 
 ## Example
 
 This example gets all series of ApiChart class and inserts their types into the document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("comboBarLine", [

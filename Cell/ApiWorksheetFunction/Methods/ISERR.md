@@ -14,7 +14,7 @@ expression.ISERR(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | number | string | boolean | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) |  | The value to test. The value can be an empty cell, error, logical value, text, number, range, or range name. |
+| arg1 | Required | number \| string \| boolean \| [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) |  | The value to test. The value can be an empty cell, error, logical value, text, number, range, or range name. |
 
 ## Returns
 
@@ -24,11 +24,11 @@ boolean
 
 
 
-```javascript
-const oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("B3").SetValue("45")
-var result = oFunction.ISERROR("B3");
-oWorksheet.GetRange("C3").SetValue(result)
+```javascript editor-xlsx
+const worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("B3").SetValue("45")
+let result = func.ISERROR("B3");
+worksheet.GetRange("C3").SetValue(result)
 
 ```

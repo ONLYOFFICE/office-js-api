@@ -17,7 +17,7 @@ Object
 
 This example creates a checkbox form with the specific checkbox form properties.
 
-```javascript
+```javascript editor-pdf
 let checkBoxFormPrBase = {"radio": true};
 let checkBoxForm = Api.CreateCheckBoxForm(checkBoxFormPrBase)
 ```

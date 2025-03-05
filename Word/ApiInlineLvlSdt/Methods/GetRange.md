@@ -25,7 +25,7 @@ expression.GetRange(Start, End);
 
 This example shows how to get a Range object that represents the part of the document contained in the specified content control.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let inlineLvlSdt = Api.CreateInlineLvlSdt();

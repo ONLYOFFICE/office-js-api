@@ -14,11 +14,11 @@ expression.SUMIFS(arg1, arg2, arg3, arg4, arg5);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) |  | The range of cells to be evaluated. |
-| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number | string |  | The first condition or criteria in the form of a number, expression, or text that defines which cells will be added. |
-| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) |  | The first range to sum. If omitted, the cells in range are used. |
-| arg4 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number | string |  | Up to 127 additional conditions or criteria in the form of a number, expression, or text that defines which cells will be added. These arguments are optional. |
-| arg5 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) |  | Up to 127 actual ranges to be used to be added. If omitted, the cells in the range are used. These arguments are optional. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) |  | The range of cells to be evaluated. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number \| string |  | The first condition or criteria in the form of a number, expression, or text that defines which cells will be added. |
+| arg3 | Optional | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) |  | The first range to sum. If omitted, the cells in range are used. |
+| arg4 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number \| string |  | Up to 127 additional conditions or criteria in the form of a number, expression, or text that defines which cells will be added. These arguments are optional. |
+| arg5 | Optional | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) |  | Up to 127 actual ranges to be used to be added. If omitted, the cells in the range are used. These arguments are optional. |
 
 ## Returns
 
@@ -28,25 +28,25 @@ number
 
 
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-var year = [2016, 2016, 2016, 2017, 2017, 2017];
-var products = ["Apples", "Red apples", "Oranges", "Green apples", "Apples", "Bananas"];
-var income = ["$100.00", "$150.00", "$250.00", "$50.00", "$150.00", "$200.00"];
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+let year = [2016, 2016, 2016, 2017, 2017, 2017];
+let products = ["Apples", "Red apples", "ranges", "Green apples", "Apples", "Bananas"];
+let income = ["$100.00", "$150.00", "$250.00", "$50.00", "$150.00", "$200.00"];
 
-for (var i = 0; i < year.length; i++) {
-    oWorksheet.GetRange("A" + (i + 1)).SetValue(year[i]);
+for (let i = 0; i < year.length; i++) {
+    worksheet.GetRange("A" + (i + 1)).SetValue(year[i]);
 }
-for (var j = 0; j < products.length; j++) {
-    oWorksheet.GetRange("B" + (j + 1)).SetValue(products[j]);
+for (let j = 0; j < products.length; j++) {
+    worksheet.GetRange("B" + (j + 1)).SetValue(products[j]);
 }
-for (var n = 0; n < income.length; n++) {
-    oWorksheet.GetRange("C" + (n + 1)).SetValue(income[n]);
+for (let n = 0; n < income.length; n++) {
+    worksheet.GetRange("C" + (n + 1)).SetValue(income[n]);
 }
 
-var oRange1 = oWorksheet.GetRange("C1:C6");
-var oRange2 = oWorksheet.GetRange("B1:B6");
-var oRange3 = oWorksheet.GetRange("A1:A6");
-oWorksheet.GetRange("D6").SetValue(oFunction.SUMIFS(oRange1, oRange2, "*Apples", oRange3, 2016));
+let range1 = worksheet.GetRange("C1:C6");
+let range2 = worksheet.GetRange("B1:B6");
+let range3 = worksheet.GetRange("A1:A6");
+worksheet.GetRange("D6").SetValue(func.SUMIFS(range1, range2, "*Apples", range3, 2016));
 ```

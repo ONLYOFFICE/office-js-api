@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example adds a line break to the current position and starts the next element from a new line.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

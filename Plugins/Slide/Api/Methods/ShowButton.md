@@ -24,6 +24,6 @@ This method doesn't return any data.
 
 ## Example
 
-```javascript
+```javascript editor-pptx
 window.Asc.plugin.executeMethod ("ShowButton", ["back", false, "right"]);
 ```

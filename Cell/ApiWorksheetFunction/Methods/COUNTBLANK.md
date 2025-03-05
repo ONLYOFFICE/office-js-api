@@ -14,7 +14,7 @@ expression.COUNTBLANK(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) |  | The range to count the empty cells. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) |  | The range to count the empty cells. |
 
 ## Returns
 
@@ -24,22 +24,22 @@ number
 
 
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var numbersArr = [45, 6, 8];
-var stringsArr = ["Apples", "Oranges", "Bananas"]
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let numbersArr = [45, 6, 8];
+let stringsArr = ["Apples", "ranges", "Bananas"]
 
 // Place the numbers in cells
-for (var i = 0; i < numbersArr.length; i++) {
-    oWorksheet.GetRange("A" + (i + 1)).SetValue(numbersArr[i]);
+for (let i = 0; i < numbersArr.length; i++) {
+    worksheet.GetRange("A" + (i + 1)).SetValue(numbersArr[i]);
 }
 
 // Place the strings in cells
-for (var n = 0; n < stringsArr.length; n++) {
-    oWorksheet.GetRange("B" + (n + 1)).SetValue(stringsArr[n]);
+for (let n = 0; n < stringsArr.length; n++) {
+    worksheet.GetRange("B" + (n + 1)).SetValue(stringsArr[n]);
 }
 
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.COUNTBLANK(oWorksheet.GetRange("A1:C3"));
-oWorksheet.GetRange("D3").SetValue(ans);
+let func = Api.GetWorksheetFunction();
+let ans = func.COUNTBLANK(worksheet.GetRange("A1:C3"));
+worksheet.GetRange("D3").SetValue(ans);
 ```

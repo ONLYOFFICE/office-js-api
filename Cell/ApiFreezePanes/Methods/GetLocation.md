@@ -16,17 +16,17 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiRange](../../ApiRange/ApiRange.md) | null
+[ApiRange](../../ApiRange/ApiRange.md) \| null
 
 ## Example
 
 This example freezes first column and get pastes a freezed range address into the table.
 
-```javascript
+```javascript editor-xlsx
 Api.SetFreezePanesType('column');
-var oWorksheet = Api.GetActiveSheet();
-var oFreezePanes = oWorksheet.GetFreezePanes();
-var oRange = oFreezePanes.GetLocation();
-oWorksheet.GetRange("A1").SetValue("Location: ");
-oWorksheet.GetRange("B1").SetValue(oRange.GetAddress());
+let worksheet = Api.GetActiveSheet();
+let freezePanes = worksheet.GetFreezePanes();
+let range = freezePanes.GetLocation();
+worksheet.GetRange("A1").SetValue("Location: ");
+worksheet.GetRange("B1").SetValue(range.GetAddress());
 ```

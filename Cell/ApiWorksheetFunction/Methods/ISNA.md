@@ -14,7 +14,7 @@ expression.ISNA(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | string | number | boolean | [ApiName](../../ApiName/ApiName.md) |  | The value to test. The value can be an empty cell, error, logical value, text, number, range, or range name. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| string \| number \| boolean \| [ApiName](../../ApiName/ApiName.md) |  | The value to test. The value can be an empty cell, error, logical value, text, number, range, or range name. |
 
 ## Returns
 
@@ -24,10 +24,10 @@ boolean
 
 
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue(oFunction.ISNA("#N/A"));
-oWorksheet.GetRange("A2").SetValue(oFunction.ISNA(255));
-oWorksheet.GetRange("A3").SetValue(oFunction.ISNA("www.example.com"));
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue(func.ISNA("#N/A"));
+worksheet.GetRange("A2").SetValue(func.ISNA(255));
+worksheet.GetRange("A3").SetValue(func.ISNA("www.example.com"));
 ```

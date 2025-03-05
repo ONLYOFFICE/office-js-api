@@ -14,7 +14,7 @@ expression.ISFORMULA(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) |  | A cell range to test. This argument can be a range or a range name. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) |  | A cell range to test. This argument can be a range or a range name. |
 
 ## Returns
 
@@ -24,15 +24,15 @@ boolean
 
 
 
-```javascript
-const oWorksheet = Api.GetActiveSheet();
+```javascript editor-xlsx
+const worksheet = Api.GetActiveSheet();
 
 // Set the formula in cell B3
-oWorksheet.GetRange("B3").SetValue("=SUM(5, 6)");
+worksheet.GetRange("B3").SetValue("=SUM(5, 6)");
 
 // Check if there is a formula in C3
-var oFunction = Api.GetWorksheetFunction();
-var result = oFunction.ISFORMULA(oWorksheet.GetRange("B3"));
-oWorksheet.GetRange("C3").SetValue(result);
+let func = Api.GetWorksheetFunction();
+let result = func.ISFORMULA(worksheet.GetRange("B3"));
+worksheet.GetRange("C3").SetValue(result);
 
 ```

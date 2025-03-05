@@ -1,11 +1,6 @@
 # GetStatistics
 
-Returns the document statistics represented as an object with the following parameters:
-**PageCount** - number of pages;
-**WordsCount** - number of words;
-**ParagraphCount** - number of paragraphs;
-**SymbolsCount** - number of symbols;
-**SymbolsWSCount** - number of symbols with spaces.
+Returns the document statistics represented as an object with the following parameters:**PageCount** - number of pages;**WordsCount** - number of words;**ParagraphCount** - number of paragraphs;**SymbolsCount** - number of symbols;**SymbolsWSCount** - number of symbols with spaces.
 
 ## Syntax
 
@@ -27,7 +22,7 @@ object
 
 This example shows how to get the document statistics represented as an object.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is just a sample paragraph.");

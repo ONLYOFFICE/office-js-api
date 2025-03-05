@@ -24,7 +24,7 @@ boolean
 
 This example changes the type of the first series of ApiChart class and inserts the new type into the document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("comboBarLine", [

@@ -24,7 +24,7 @@ boolean
 
 This example scales the width of the figure using the specified coefficient.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 for (let i = 1; i < 4; i++ ){

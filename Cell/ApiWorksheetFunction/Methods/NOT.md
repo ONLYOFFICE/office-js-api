@@ -14,7 +14,7 @@ expression.NOT(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number | string | boolean |  | A value or expression that can be evaluated to **true** or **false**. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number \| string \| boolean |  | A value or expression that can be evaluated to **true** or **false**. |
 
 ## Returns
 
@@ -24,13 +24,13 @@ boolean
 
 
 
-```javascript
-const oWorksheet = Api.GetActiveSheet();
+```javascript editor-xlsx
+const worksheet = Api.GetActiveSheet();
 
-var condition = 12 < 100;
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.NOT(condition);
+let condition = 12 < 100;
+let func = Api.GetWorksheetFunction();
+let ans = func.NOT(condition);
 
-oWorksheet.GetRange("C1").SetValue(ans);
+worksheet.GetRange("C1").SetValue(ans);
 
 ```

@@ -16,13 +16,13 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiImage[]](../../ApiImage/ApiImage.md)
+[ApiImage](../../ApiImage/ApiImage.md)[]
 
 ## Example
 
 This example show how to get an array with all the image objects from the slide.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

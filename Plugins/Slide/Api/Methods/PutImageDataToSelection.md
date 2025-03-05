@@ -1,7 +1,6 @@
 # PutImageDataToSelection
 
-Replaces the first selected drawing with the image specified in the parameters.
-If there are no drawings selected, the method inserts the image at the current position.
+Replaces the first selected drawing with the image specified in the parameters.If there are no drawings selected, the method inserts the image at the current position.
 
 ## Syntax
 
@@ -23,7 +22,7 @@ This method doesn't return any data.
 
 ## Example
 
-```javascript
+```javascript editor-pptx
 window.saveImage = function () {
     let imageSrc = imageEditor.toDataURL ();
     let editorDimension = imageEditor.getCanvasSize ();

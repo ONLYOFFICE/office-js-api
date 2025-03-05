@@ -1,7 +1,6 @@
 # CreateSection
 
-Creates a new document section which ends at the specified paragraph. Allows to set local parameters to the current
-section - page size, footer, header, columns, etc.
+Creates a new document section which ends at the specified paragraph. Allows to set local parameters to the currentsection - page size, footer, header, columns, etc.
 
 ## Syntax
 
@@ -19,13 +18,13 @@ expression.CreateSection(oParagraph);
 
 ## Returns
 
-[ApiSection](../../ApiSection/ApiSection.md) | null
+[ApiSection](../../ApiSection/ApiSection.md) \| null
 
 ## Example
 
 This example creates a new document section which ends at the specified paragraph.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is a new paragraph.");

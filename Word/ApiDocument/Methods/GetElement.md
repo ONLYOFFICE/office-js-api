@@ -24,7 +24,7 @@ expression.GetElement(nPos);
 
 This example shows how to get an element by its position in the document content.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let section = doc.GetFinalSection();
 let docContent = section.GetHeader("default", true);

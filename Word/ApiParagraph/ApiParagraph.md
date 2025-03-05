@@ -2,113 +2,116 @@
 
 Represents the ApiParagraph class.
 
+
 ## Methods
 
-- [GetClassType](./Methods/GetClassType.md)
-- [AddText](./Methods/AddText.md)
-- [AddPageBreak](./Methods/AddPageBreak.md)
-- [AddLineBreak](./Methods/AddLineBreak.md)
-- [AddColumnBreak](./Methods/AddColumnBreak.md)
-- [AddPageNumber](./Methods/AddPageNumber.md)
-- [AddPagesCount](./Methods/AddPagesCount.md)
-- [GetParagraphMarkTextPr](./Methods/GetParagraphMarkTextPr.md)
-- [GetParaPr](./Methods/GetParaPr.md)
-- [GetNumbering](./Methods/GetNumbering.md)
-- [SetNumbering](./Methods/SetNumbering.md)
-- [GetElementsCount](./Methods/GetElementsCount.md)
-- [GetElement](./Methods/GetElement.md)
-- [RemoveElement](./Methods/RemoveElement.md)
-- [RemoveAllElements](./Methods/RemoveAllElements.md)
-- [Delete](./Methods/Delete.md)
-- [GetNext](./Methods/GetNext.md)
-- [GetPrevious](./Methods/GetPrevious.md)
-- [Copy](./Methods/Copy.md)
-- [AddElement](./Methods/AddElement.md)
-- [AddTabStop](./Methods/AddTabStop.md)
-- [AddDrawing](./Methods/AddDrawing.md)
-- [AddInlineLvlSdt](./Methods/AddInlineLvlSdt.md)
-- [AddComment](./Methods/AddComment.md)
-- [AddHyperlink](./Methods/AddHyperlink.md)
-- [GetRange](./Methods/GetRange.md)
-- [Push](./Methods/Push.md)
-- [GetLastRunWithText](./Methods/GetLastRunWithText.md)
-- [SetBold](./Methods/SetBold.md)
-- [SetCaps](./Methods/SetCaps.md)
-- [SetColor](./Methods/SetColor.md)
-- [SetDoubleStrikeout](./Methods/SetDoubleStrikeout.md)
-- [SetFontFamily](./Methods/SetFontFamily.md)
-- [GetFontNames](./Methods/GetFontNames.md)
-- [SetFontSize](./Methods/SetFontSize.md)
-- [SetHighlight](./Methods/SetHighlight.md)
-- [SetItalic](./Methods/SetItalic.md)
-- [SetPosition](./Methods/SetPosition.md)
-- [SetSmallCaps](./Methods/SetSmallCaps.md)
-- [SetSpacing](./Methods/SetSpacing.md)
-- [SetStrikeout](./Methods/SetStrikeout.md)
-- [SetUnderline](./Methods/SetUnderline.md)
-- [SetVertAlign](./Methods/SetVertAlign.md)
-- [Last](./Methods/Last.md)
-- [GetAllContentControls](./Methods/GetAllContentControls.md)
-- [GetAllDrawingObjects](./Methods/GetAllDrawingObjects.md)
-- [GetAllShapes](./Methods/GetAllShapes.md)
-- [GetAllImages](./Methods/GetAllImages.md)
-- [GetAllCharts](./Methods/GetAllCharts.md)
-- [GetAllOleObjects](./Methods/GetAllOleObjects.md)
-- [GetParentContentControl](./Methods/GetParentContentControl.md)
-- [GetParentTable](./Methods/GetParentTable.md)
-- [GetParentTableCell](./Methods/GetParentTableCell.md)
-- [GetText](./Methods/GetText.md)
-- [GetTextPr](./Methods/GetTextPr.md)
-- [SetTextPr](./Methods/SetTextPr.md)
-- [InsertInContentControl](./Methods/InsertInContentControl.md)
-- [InsertParagraph](./Methods/InsertParagraph.md)
-- [Select](./Methods/Select.md)
-- [Search](./Methods/Search.md)
-- [WrapInMailMergeField](./Methods/WrapInMailMergeField.md)
-- [AddNumberedCrossRef](./Methods/AddNumberedCrossRef.md)
-- [AddHeadingCrossRef](./Methods/AddHeadingCrossRef.md)
-- [AddBookmarkCrossRef](./Methods/AddBookmarkCrossRef.md)
-- [AddFootnoteCrossRef](./Methods/AddFootnoteCrossRef.md)
-- [AddEndnoteCrossRef](./Methods/AddEndnoteCrossRef.md)
-- [AddCaptionCrossRef](./Methods/AddCaptionCrossRef.md)
-- [ToJSON](./Methods/ToJSON.md)
-- [GetPosInParent](./Methods/GetPosInParent.md)
-- [ReplaceByElement](./Methods/ReplaceByElement.md)
-- [AddCaption](./Methods/AddCaption.md)
-- [GetSection](./Methods/GetSection.md)
-- [SetSection](./Methods/SetSection.md)
-- [GetClassType](./Methods/GetClassType.md)
-- [SetStyle](./Methods/SetStyle.md)
-- [GetStyle](./Methods/GetStyle.md)
-- [SetContextualSpacing](./Methods/SetContextualSpacing.md)
-- [SetIndLeft](./Methods/SetIndLeft.md)
-- [GetIndLeft](./Methods/GetIndLeft.md)
-- [SetIndRight](./Methods/SetIndRight.md)
-- [GetIndRight](./Methods/GetIndRight.md)
-- [SetIndFirstLine](./Methods/SetIndFirstLine.md)
-- [GetIndFirstLine](./Methods/GetIndFirstLine.md)
-- [SetJc](./Methods/SetJc.md)
-- [GetJc](./Methods/GetJc.md)
-- [SetKeepLines](./Methods/SetKeepLines.md)
-- [SetKeepNext](./Methods/SetKeepNext.md)
-- [SetPageBreakBefore](./Methods/SetPageBreakBefore.md)
-- [SetSpacingLine](./Methods/SetSpacingLine.md)
-- [GetSpacingLineValue](./Methods/GetSpacingLineValue.md)
-- [GetSpacingLineRule](./Methods/GetSpacingLineRule.md)
-- [SetSpacingBefore](./Methods/SetSpacingBefore.md)
-- [GetSpacingBefore](./Methods/GetSpacingBefore.md)
-- [SetSpacingAfter](./Methods/SetSpacingAfter.md)
-- [GetSpacingAfter](./Methods/GetSpacingAfter.md)
-- [SetShd](./Methods/SetShd.md)
-- [GetShd](./Methods/GetShd.md)
-- [SetBottomBorder](./Methods/SetBottomBorder.md)
-- [SetLeftBorder](./Methods/SetLeftBorder.md)
-- [SetRightBorder](./Methods/SetRightBorder.md)
-- [SetTopBorder](./Methods/SetTopBorder.md)
-- [SetBetweenBorder](./Methods/SetBetweenBorder.md)
-- [SetWidowControl](./Methods/SetWidowControl.md)
-- [SetTabs](./Methods/SetTabs.md)
-- [SetNumPr](./Methods/SetNumPr.md)
-- [SetOutlineLvl](./Methods/SetOutlineLvl.md)
-- [GetOutlineLvl](./Methods/GetOutlineLvl.md)
-- [ToJSON](./Methods/ToJSON.md)
+| Method | Returns | Description |
+| ------ | ------- | ----------- |
+| [GetClassType](./Methods/GetClassType.md) | "paragraph" | Returns a type of the ApiParagraph class. |
+| [AddText](./Methods/AddText.md) | [ApiRun](../ApiRun/ApiRun.md) | Adds some text to the current paragraph. |
+| [AddPageBreak](./Methods/AddPageBreak.md) | [ApiRun](../ApiRun/ApiRun.md) | Adds a page break and starts the next element from the next page. |
+| [AddLineBreak](./Methods/AddLineBreak.md) | [ApiRun](../ApiRun/ApiRun.md) | Adds a line break to the current position and starts the next element from a new line. |
+| [AddColumnBreak](./Methods/AddColumnBreak.md) | [ApiRun](../ApiRun/ApiRun.md) | Adds a column break to the current position and starts the next element from a new column. |
+| [AddPageNumber](./Methods/AddPageNumber.md) | [ApiRun](../ApiRun/ApiRun.md) | Inserts a number of the current document page into the paragraph. |
+| [AddPagesCount](./Methods/AddPagesCount.md) | [ApiRun](../ApiRun/ApiRun.md) | Inserts a number of pages in the current document into the paragraph. |
+| [GetParagraphMarkTextPr](./Methods/GetParagraphMarkTextPr.md) | [ApiTextPr](../ApiTextPr/ApiTextPr.md) | Returns the text properties of the paragraph mark which is used to mark the paragraph end. The mark can also acquire common text properties like bold, italic, underline, etc. |
+| [GetParaPr](./Methods/GetParaPr.md) | [ApiParaPr](../ApiParaPr/ApiParaPr.md) | Returns the paragraph properties. |
+| [GetNumbering](./Methods/GetNumbering.md) | [ApiNumberingLevel](../ApiNumberingLevel/ApiNumberingLevel.md) | Returns the numbering definition and numbering level for the numbered list. |
+| [SetNumbering](./Methods/SetNumbering.md) | None | Specifies that the current paragraph references the numbering definition instance in the current document. |
+| [GetElementsCount](./Methods/GetElementsCount.md) | number | Returns a number of elements in the current paragraph. |
+| [GetElement](./Methods/GetElement.md) | [ParagraphContent](../Enumeration/ParagraphContent.md) | Returns a paragraph element using the position specified. |
+| [RemoveElement](./Methods/RemoveElement.md) | None | Removes an element using the position specified. 💡 If the element you remove is the last paragraph element (i.e. all the elements are removed from the paragraph), a new empty run is automatically created. If you want to add content to this run, use the &#123;@link ApiParagraph#GetElement&#125; method. |
+| [RemoveAllElements](./Methods/RemoveAllElements.md) | None | Removes all the elements from the current paragraph. 💡 When all the elements are removed from the paragraph, a new empty run is automatically created. If you want to add content to this run, use the &#123;@link ApiParagraph#GetElement&#125; method. |
+| [Delete](./Methods/Delete.md) | boolean | Deletes the current paragraph. |
+| [GetNext](./Methods/GetNext.md) | [ApiParagraph](../ApiParagraph/ApiParagraph.md) \| null | Returns the next paragraph. |
+| [GetPrevious](./Methods/GetPrevious.md) | [ApiParagraph](../ApiParagraph/ApiParagraph.md) | Returns the previous paragraph. |
+| [Copy](./Methods/Copy.md) | [ApiParagraph](../ApiParagraph/ApiParagraph.md) | Creates a paragraph copy. Ingnore comments, footnote references, complex fields. |
+| [AddElement](./Methods/AddElement.md) | boolean | Adds an element to the current paragraph. |
+| [AddTabStop](./Methods/AddTabStop.md) | [ApiRun](../ApiRun/ApiRun.md) | Adds a tab stop to the current paragraph. |
+| [AddDrawing](./Methods/AddDrawing.md) | [ApiRun](../ApiRun/ApiRun.md) | Adds a drawing object (image, shape or chart) to the current paragraph. |
+| [AddInlineLvlSdt](./Methods/AddInlineLvlSdt.md) | [ApiInlineLvlSdt](../ApiInlineLvlSdt/ApiInlineLvlSdt.md) | Adds an inline container. |
+| [AddComment](./Methods/AddComment.md) | [ApiComment](../ApiComment/ApiComment.md) | Adds a comment to the current paragraph. 💡 Please note that this paragraph must be in the document. |
+| [AddHyperlink](./Methods/AddHyperlink.md) | [ApiHyperlink](../ApiHyperlink/ApiHyperlink.md) \| null | Adds a hyperlink to a paragraph. |
+| [GetRange](./Methods/GetRange.md) | [ApiRange](../ApiRange/ApiRange.md) | Returns a Range object that represents the part of the document contained in the specified paragraph. |
+| [Push](./Methods/Push.md) | boolean | Adds an element to the current paragraph. |
+| [GetLastRunWithText](./Methods/GetLastRunWithText.md) | [ApiRun](../ApiRun/ApiRun.md) | Returns the last Run with text in the current paragraph. |
+| [SetBold](./Methods/SetBold.md) | [ApiParagraph](../ApiParagraph/ApiParagraph.md) | Sets the bold property to the text character. |
+| [SetCaps](./Methods/SetCaps.md) | [ApiParagraph](../ApiParagraph/ApiParagraph.md) | Specifies that any lowercase characters in this paragraph are formatted for display only as their capital letter character equivalents. |
+| [SetColor](./Methods/SetColor.md) | [ApiParagraph](../ApiParagraph/ApiParagraph.md) | Sets the text color to the current paragraph in the RGB format. |
+| [SetDoubleStrikeout](./Methods/SetDoubleStrikeout.md) | [ApiParagraph](../ApiParagraph/ApiParagraph.md) | Specifies that the contents of this paragraph are displayed with two horizontal lines through each character displayed on the line. |
+| [SetFontFamily](./Methods/SetFontFamily.md) | [ApiParagraph](../ApiParagraph/ApiParagraph.md) | Sets all 4 font slots with the specified font family. |
+| [GetFontNames](./Methods/GetFontNames.md) | string[] | Returns all font names from all elements inside the current paragraph. |
+| [SetFontSize](./Methods/SetFontSize.md) | [ApiParagraph](../ApiParagraph/ApiParagraph.md) | Sets the font size to the characters of the current paragraph. |
+| [SetHighlight](./Methods/SetHighlight.md) | [ApiParagraph](../ApiParagraph/ApiParagraph.md) | Specifies a highlighting color which is applied as a background to the contents of the current paragraph. |
+| [SetItalic](./Methods/SetItalic.md) | [ApiParagraph](../ApiParagraph/ApiParagraph.md) | Sets the italic property to the text character. |
+| [SetPosition](./Methods/SetPosition.md) | [ApiParagraph](../ApiParagraph/ApiParagraph.md) | Specifies an amount by which text is raised or lowered for this paragraph in relation to the default baseline of the surrounding non-positioned text. |
+| [SetSmallCaps](./Methods/SetSmallCaps.md) | [ApiParagraph](../ApiParagraph/ApiParagraph.md) | Specifies that all the small letter characters in this paragraph are formatted for display only as their capital letter character equivalents which are two points smaller than the actual font size specified for this text. |
+| [SetSpacing](./Methods/SetSpacing.md) | [ApiParagraph](../ApiParagraph/ApiParagraph.md) | Sets the text spacing measured in twentieths of a point. |
+| [SetStrikeout](./Methods/SetStrikeout.md) | [ApiParagraph](../ApiParagraph/ApiParagraph.md) | Specifies that the contents of this paragraph are displayed with a single horizontal line through the center of the line. |
+| [SetUnderline](./Methods/SetUnderline.md) | [ApiParagraph](../ApiParagraph/ApiParagraph.md) | Specifies that the contents of this paragraph are displayed along with a line appearing directly below the character (less than all the spacing above and below the characters on the line). |
+| [SetVertAlign](./Methods/SetVertAlign.md) | [ApiParagraph](../ApiParagraph/ApiParagraph.md) \| null | Specifies the alignment which will be applied to the contents of this paragraph in relation to the default appearance of the paragraph text: **"baseline"** - the characters in the current paragraph will be aligned by the default text baseline. **"subscript"** - the characters in the current paragraph will be aligned below the default text baseline. **"superscript"** - the characters in the current paragraph will be aligned above the default text baseline. |
+| [Last](./Methods/Last.md) | [ParagraphContent](../Enumeration/ParagraphContent.md) | Returns the last element of the paragraph which is not empty. |
+| [GetAllContentControls](./Methods/GetAllContentControls.md) | [ApiInlineLvlSdt](../ApiInlineLvlSdt/ApiInlineLvlSdt.md)[] | Returns a collection of content control objects in the paragraph. |
+| [GetAllDrawingObjects](./Methods/GetAllDrawingObjects.md) | [Drawing](../Enumeration/Drawing.md)[] | Returns a collection of drawing objects in the paragraph. |
+| [GetAllShapes](./Methods/GetAllShapes.md) | [ApiShape](../ApiShape/ApiShape.md)[] | Returns a collection of shape objects in the paragraph. |
+| [GetAllImages](./Methods/GetAllImages.md) | [ApiImage](../ApiImage/ApiImage.md)[] | Returns a collection of image objects in the paragraph. |
+| [GetAllCharts](./Methods/GetAllCharts.md) | [ApiChart](../ApiChart/ApiChart.md)[] | Returns a collection of chart objects in the paragraph. |
+| [GetAllOleObjects](./Methods/GetAllOleObjects.md) | [ApiOleObject](../ApiOleObject/ApiOleObject.md)[] | Returns a collection of OLE objects in the paragraph. |
+| [GetParentContentControl](./Methods/GetParentContentControl.md) | [ApiBlockLvlSdt](../ApiBlockLvlSdt/ApiBlockLvlSdt.md) \| null | Returns a content control that contains the current paragraph. |
+| [GetParentTable](./Methods/GetParentTable.md) | [ApiTable](../ApiTable/ApiTable.md) \| null | Returns a table that contains the current paragraph. |
+| [GetParentTableCell](./Methods/GetParentTableCell.md) | [ApiTableCell](../ApiTableCell/ApiTableCell.md) \| null | Returns a table cell that contains the current paragraph. |
+| [GetText](./Methods/GetText.md) | string | Returns the paragraph text. |
+| [GetTextPr](./Methods/GetTextPr.md) | [ApiTextPr](../ApiTextPr/ApiTextPr.md) | Returns the paragraph text properties. |
+| [SetTextPr](./Methods/SetTextPr.md) | boolean | Sets the paragraph text properties. |
+| [InsertInContentControl](./Methods/InsertInContentControl.md) | [ApiParagraph](../ApiParagraph/ApiParagraph.md) \| [ApiBlockLvlSdt](../ApiBlockLvlSdt/ApiBlockLvlSdt.md) | Wraps the paragraph object with a rich text content control. |
+| [InsertParagraph](./Methods/InsertParagraph.md) | [ApiParagraph](../ApiParagraph/ApiParagraph.md) \| null | Inserts a paragraph at the specified position. |
+| [Select](./Methods/Select.md) | boolean | Selects the current paragraph. |
+| [Search](./Methods/Search.md) | [ApiRange](../ApiRange/ApiRange.md)[] | Searches for a scope of a paragraph object. The search results are a collection of ApiRange objects. |
+| [WrapInMailMergeField](./Methods/WrapInMailMergeField.md) | None | Wraps the paragraph content in a mail merge field. |
+| [AddNumberedCrossRef](./Methods/AddNumberedCrossRef.md) | boolean | Adds a numbered cross-reference to the current paragraph. 💡 Please note that this paragraph must be in the document. |
+| [AddHeadingCrossRef](./Methods/AddHeadingCrossRef.md) | boolean | Adds a heading cross-reference to the current paragraph. 💡 Please note that this paragraph must be in the document. |
+| [AddBookmarkCrossRef](./Methods/AddBookmarkCrossRef.md) | boolean | Adds a bookmark cross-reference to the current paragraph. 💡 Please note that this paragraph must be in the document. |
+| [AddFootnoteCrossRef](./Methods/AddFootnoteCrossRef.md) | boolean | Adds a footnote cross-reference to the current paragraph. 💡 Please note that this paragraph must be in the document. |
+| [AddEndnoteCrossRef](./Methods/AddEndnoteCrossRef.md) | boolean | Adds an endnote cross-reference to the current paragraph. 💡 Please note that this paragraph must be in the document. |
+| [AddCaptionCrossRef](./Methods/AddCaptionCrossRef.md) | boolean | Adds a caption cross-reference to the current paragraph. 💡 Please note that this paragraph must be in the document. |
+| [ToJSON](./Methods/ToJSON.md) | JSON | Converts the ApiParagraph object into the JSON object. |
+| [GetPosInParent](./Methods/GetPosInParent.md) | Number | Returns the paragraph position within its parent element. |
+| [ReplaceByElement](./Methods/ReplaceByElement.md) | boolean | Replaces the current paragraph with a new element. |
+| [AddCaption](./Methods/AddCaption.md) | boolean | Adds a caption paragraph after (or before) the current paragraph. 💡 Please note that the current paragraph must be in the document (not in the footer/header). And if the current paragraph is placed in a shape, then a caption is added after (or before) the parent shape. |
+| [GetSection](./Methods/GetSection.md) | [ApiSection](../ApiSection/ApiSection.md) | Returns the paragraph section. |
+| [SetSection](./Methods/SetSection.md) | boolean | Sets the specified section to the current paragraph. |
+| [GetClassType](./Methods/GetClassType.md) | "paraPr" | Returns a type of the ApiParaPr class. |
+| [SetStyle](./Methods/SetStyle.md) | None | The paragraph style base method. 💡 This method is not used by itself, as it only forms the basis for the &#123;@link ApiParagraph#SetStyle&#125; method which sets the selected or created style for the paragraph. |
+| [GetStyle](./Methods/GetStyle.md) | [ApiStyle](../ApiStyle/ApiStyle.md) | Returns the paragraph style method. |
+| [SetContextualSpacing](./Methods/SetContextualSpacing.md) | None | Specifies that any space before or after this paragraph set using the  &#123;@link ApiParaPr#SetSpacingBefore&#125; or &#123;@link ApiParaPr#SetSpacingAfter&#125; spacing element, should not be applied when the preceding and  following paragraphs are of the same paragraph style, affecting the top and bottom spacing respectively. |
+| [SetIndLeft](./Methods/SetIndLeft.md) | None | Sets the paragraph left side indentation. |
+| [GetIndLeft](./Methods/GetIndLeft.md) | [twips](../Enumeration/twips.md) \| undefined | Returns the paragraph left side indentation. |
+| [SetIndRight](./Methods/SetIndRight.md) | None | Sets the paragraph right side indentation. |
+| [GetIndRight](./Methods/GetIndRight.md) | [twips](../Enumeration/twips.md) \| undefined | Returns the paragraph right side indentation. |
+| [SetIndFirstLine](./Methods/SetIndFirstLine.md) | None | Sets the paragraph first line indentation. |
+| [GetIndFirstLine](./Methods/GetIndFirstLine.md) | [twips](../Enumeration/twips.md) \| undefined | Returns the paragraph first line indentation. |
+| [SetJc](./Methods/SetJc.md) | None | Sets the paragraph contents justification. |
+| [GetJc](./Methods/GetJc.md) | "left" \| "right" \| "both" \| "center" \| undefined | Returns the paragraph contents justification. |
+| [SetKeepLines](./Methods/SetKeepLines.md) | None | Specifies that when rendering the document using a page view, all lines of the current paragraph are maintained on a single page whenever possible. |
+| [SetKeepNext](./Methods/SetKeepNext.md) | None | Specifies that when rendering the document using a paginated view, the contents of the current paragraph are at least partly rendered on the same page as the following paragraph whenever possible. |
+| [SetPageBreakBefore](./Methods/SetPageBreakBefore.md) | None | Specifies that when rendering the document using a paginated view, the contents of the current paragraph are rendered at the beginning of a new page in the document. |
+| [SetSpacingLine](./Methods/SetSpacingLine.md) | None | Sets the paragraph line spacing. If the value of the sLineRule parameter is either  "atLeast" or "exact", then the value of nLine will be interpreted as twentieths of a point. If  the value of the sLineRule parameter is "auto", then the value of the  nLine parameter will be interpreted as 240ths of a line. |
+| [GetSpacingLineValue](./Methods/GetSpacingLineValue.md) | [twips](../Enumeration/twips.md) \| [line240](../Enumeration/line240.md) \| undefined | Returns the paragraph line spacing value. |
+| [GetSpacingLineRule](./Methods/GetSpacingLineRule.md) | "auto" \| "atLeast" \| "exact" \| undefined | Returns the paragraph line spacing rule. |
+| [SetSpacingBefore](./Methods/SetSpacingBefore.md) | None | Sets the spacing before the current paragraph. If the value of the isBeforeAuto parameter is true, then  any value of the nBefore is ignored. If isBeforeAuto parameter is not specified, then  it will be interpreted as false. |
+| [GetSpacingBefore](./Methods/GetSpacingBefore.md) | [twips](../Enumeration/twips.md) | Returns the spacing before value of the current paragraph. |
+| [SetSpacingAfter](./Methods/SetSpacingAfter.md) | None | Sets the spacing after the current paragraph. If the value of the isAfterAuto parameter is true, then  any value of the nAfter is ignored. If isAfterAuto parameter is not specified, then it  will be interpreted as false. |
+| [GetSpacingAfter](./Methods/GetSpacingAfter.md) | [twips](../Enumeration/twips.md) | Returns the spacing after value of the current paragraph. |
+| [SetShd](./Methods/SetShd.md) | None | Specifies the shading applied to the contents of the paragraph. |
+| [GetShd](./Methods/GetShd.md) | [ApiRGBColor](../ApiRGBColor/ApiRGBColor.md) | Returns the shading applied to the contents of the paragraph. |
+| [SetBottomBorder](./Methods/SetBottomBorder.md) | None | Specifies the border which will be displayed below a set of paragraphs which have the same paragraph border settings. 💡 The paragraphs of the same style going one by one are considered as a single block, so the border is added to the whole block rather than to every paragraph in this block. |
+| [SetLeftBorder](./Methods/SetLeftBorder.md) | None | Specifies the border which will be displayed at the left side of the page around the specified paragraph. |
+| [SetRightBorder](./Methods/SetRightBorder.md) | None | Specifies the border which will be displayed at the right side of the page around the specified paragraph. |
+| [SetTopBorder](./Methods/SetTopBorder.md) | None | Specifies the border which will be displayed above a set of paragraphs which have the same set of paragraph border settings. 💡 The paragraphs of the same style going one by one are considered as a single block, so the border is added to the whole block rather than to every paragraph in this block. |
+| [SetBetweenBorder](./Methods/SetBetweenBorder.md) | None | Specifies the border which will be displayed between each paragraph in a set of paragraphs which have the same set of paragraph border settings. |
+| [SetWidowControl](./Methods/SetWidowControl.md) | None | Specifies whether a single line of the current paragraph will be displayed on a separate page from the remaining content at display time by moving the line onto the following page. |
+| [SetTabs](./Methods/SetTabs.md) | None | Specifies a sequence of custom tab stops which will be used for any tab characters in the current paragraph. **Warning**: The lengths of aPos array and aVal array **MUST BE** equal to each other. |
+| [SetNumPr](./Methods/SetNumPr.md) | None | Specifies that the current paragraph references a numbering definition instance in the current document. |
+| [SetOutlineLvl](./Methods/SetOutlineLvl.md) | boolean | Sets the outline level for the specified properties. |
+| [GetOutlineLvl](./Methods/GetOutlineLvl.md) | Number | Returns the outline level of the specified properties. |
+| [ToJSON](./Methods/ToJSON.md) | JSON | Converts the ApiParaPr object into the JSON object. |

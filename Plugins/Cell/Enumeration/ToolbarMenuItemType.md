@@ -14,7 +14,7 @@ Enumeration
 
 ## Example
 
-```javascript
+```javascript editor-xlsx
 let toolbarMenuItemType = "button";
 let toolbarMenuItem = {
     "id": "MeaningItem",

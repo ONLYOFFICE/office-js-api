@@ -1,7 +1,6 @@
 # SetType
 
-Specifies a type of the current section. The section type defines how the contents of the current 
-section are placed relative to the previous section.
+Specifies a type of the current section. The section type defines how the contents of the current section are placed relative to the previous section.
 
 ## Syntax
 
@@ -25,7 +24,7 @@ This method doesn't return any data.
 
 This example sets section break type "continuous".
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let section = doc.CreateSection(paragraph);

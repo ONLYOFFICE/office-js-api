@@ -14,7 +14,7 @@ expression.GroupDrawings(aDrawings);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| aDrawings | Required | [DrawingForGroup[]](../../Enumeration/DrawingForGroup.md) |  | An array of drawings to group. |
+| aDrawings | Required | [DrawingForGroup](../../Enumeration/DrawingForGroup.md)[] |  | An array of drawings to group. |
 
 ## Returns
 
@@ -24,7 +24,7 @@ expression.GroupDrawings(aDrawings);
 
 This example shows how to group drawings on layout
 
-```javascript
+```javascript editor-pptx
 let oPresentation = Api.GetPresentation();
 let oSlide = oPresentation.GetSlideByIndex(0);
 let oLayout = oSlide.GetLayout();

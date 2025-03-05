@@ -22,7 +22,7 @@ This method doesn't return any data.
 
 This example removes the current selection.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("Api ONLYOFFICE");

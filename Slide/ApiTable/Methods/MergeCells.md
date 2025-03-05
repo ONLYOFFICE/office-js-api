@@ -1,7 +1,6 @@
 # MergeCells
 
-Merges an array of cells. If merge is successful, it will return merged cell, otherwise "null".
-**Warning**: The number of cells in any row and the number of rows in the current table may be changed.
+Merges an array of cells. If merge is successful, it will return merged cell, otherwise "null".**Warning**: The number of cells in any row and the number of rows in the current table may be changed.
 
 ## Syntax
 
@@ -15,7 +14,7 @@ expression.MergeCells(aCells);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| aCells | Required | [ApiTableCell[]](../../ApiTableCell/ApiTableCell.md) |  | The array of cells. |
+| aCells | Required | [ApiTableCell](../../ApiTableCell/ApiTableCell.md)[] |  | The array of cells. |
 
 ## Returns
 
@@ -25,7 +24,7 @@ expression.MergeCells(aCells);
 
 This example merges an array of cells.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oTable = Api.CreateTable(2, 4);
 var oRow = oTable.GetRow(0);

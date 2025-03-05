@@ -16,13 +16,13 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiParagraph[]](../../ApiParagraph/ApiParagraph.md)
+[ApiParagraph](../../ApiParagraph/ApiParagraph.md)[]
 
 ## Example
 
 This example showh how to get the first paragraphs from all footnotes in the document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0); 
 paragraph.AddText("This is just a sample text.");

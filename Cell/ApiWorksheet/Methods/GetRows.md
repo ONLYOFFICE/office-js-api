@@ -14,17 +14,17 @@ expression.GetRows(value);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| value | Required | string | number |  | Specifies the rows range in the string or number format. |
+| value | Required | string \| number |  | Specifies the rows range in the string or number format. |
 
 ## Returns
 
-[ApiRange](../../ApiRange/ApiRange.md) | null
+[ApiRange](../../ApiRange/ApiRange.md) \| null
 
 ## Example
 
 This example shows how to get the ApiRange object that represents all the cells on the rows range.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.GetRows("1:4").SetFillColor(Api.CreateColorFromRGB(255, 213, 191));
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+worksheet.GetRows("1:4").SetFillColor(Api.CreateColorFromRGB(255, 213, 191));
 ```

@@ -29,7 +29,7 @@ This method doesn't return any data.
 
 This example specifies the show options for the chart data labels.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

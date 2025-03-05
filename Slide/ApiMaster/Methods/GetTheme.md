@@ -16,13 +16,13 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiTheme](../../ApiTheme/ApiTheme.md) | null
+[ApiTheme](../../ApiTheme/ApiTheme.md) \| null
 
 ## Example
 
 This example shows how to get a theme of the slide master.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

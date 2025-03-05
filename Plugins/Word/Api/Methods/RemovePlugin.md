@@ -23,7 +23,7 @@ object
 
 ## Example
 
-```javascript
+```javascript editor-docx
 function removePlugin(backup) {
     if (removeGuid)
         window.Asc.plugin.executeMethod('RemovePlugin', [removeGuid, backup], function(result) {

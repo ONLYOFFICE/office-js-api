@@ -1,7 +1,6 @@
 # AddHeadingCrossRef
 
-Adds a heading cross-reference to the current paragraph.
-💡 Please note that this paragraph must be in the document.
+Adds a heading cross-reference to the current paragraph.💡 Please note that this paragraph must be in the document.
 
 ## Syntax
 
@@ -28,7 +27,7 @@ boolean
 
 This example adds a heading cross-reference to the paragraph.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let newDocumentStyle = doc.GetStyle("Heading 1");
 let paragraph = doc.GetElement(0);

@@ -1,7 +1,6 @@
 # SetUnderline
 
-Sets an underline of the type specified in the request to the current font.
-💡 This method will work only with the text format of the cell.
+Sets an underline of the type specified in the request to the current font.💡 This method will work only with the text format of the cell.
 
 ## Syntax
 
@@ -25,7 +24,7 @@ This method doesn't return any data.
 
 This example sets an underline of the type specified in the request to the font.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 var oRange = oWorksheet.GetRange("B1");
 oRange.SetValue("This is just a sample text.");

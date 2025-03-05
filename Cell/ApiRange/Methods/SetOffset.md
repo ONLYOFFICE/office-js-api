@@ -25,10 +25,10 @@ This method doesn't return any data.
 
 This example sets the cell offset.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.GetRange("B3").SetValue("Old Range");
-var oRange = oWorksheet.GetRange("B3");
-oRange.SetOffset(2, 2);
-oRange.SetValue("New Range");
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+worksheet.GetRange("B3").SetValue("Old Range");
+let range = worksheet.GetRange("B3");
+range.SetOffset(2, 2);
+range.SetValue("New Range");
 ```

@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example creates a copy of the table.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oTable = Api.CreateTable(2, 4);
 oTable.AddRow(1, true);

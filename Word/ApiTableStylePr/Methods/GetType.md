@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example shows how to get a type of the current table conditional style.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let tableStyle = doc.GetStyle("Bordered");
 tableStyle.SetName("My Custom Style");

@@ -24,8 +24,8 @@ This method doesn't return any data.
 
 This example specifies whether the sheet gridlines must be displayed or not.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.GetRange("A2").SetValue("The sheet settings make it display no gridlines");
-oWorksheet.SetDisplayGridlines(false);
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+worksheet.GetRange("A2").SetValue("The sheet settings make it display no gridlines");
+worksheet.SetDisplayGridlines(false);
 ```

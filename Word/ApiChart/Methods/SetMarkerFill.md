@@ -27,7 +27,7 @@ boolean
 
 This example sets the fill to the marker in the specified chart series.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("scatter", [

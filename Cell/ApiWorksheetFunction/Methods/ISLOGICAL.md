@@ -14,7 +14,7 @@ expression.ISLOGICAL(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | string | number | boolean | [ApiName](../../ApiName/ApiName.md) |  | The value to test. The value can be an empty cell, error, logical value, text, number, range, or range name. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| string \| number \| boolean \| [ApiName](../../ApiName/ApiName.md) |  | The value to test. The value can be an empty cell, error, logical value, text, number, range, or range name. |
 
 ## Returns
 
@@ -24,12 +24,12 @@ boolean
 
 
 
-```javascript
-const oWorksheet = Api.GetActiveSheet();
-oWorksheet.GetRange("B3").SetValue("66");
+```javascript editor-xlsx
+const worksheet = Api.GetActiveSheet();
+worksheet.GetRange("B3").SetValue("66");
 
-var oFunction = Api.GetWorksheetFunction();
-var result = oFunction.ISLOGICAL(oWorksheet.GetRange("B3"));
-oWorksheet.GetRange("C3").SetValue(result);
+let func = Api.GetWorksheetFunction();
+let result = func.ISLOGICAL(worksheet.GetRange("B3"));
+worksheet.GetRange("C3").SetValue(result);
 
 ```

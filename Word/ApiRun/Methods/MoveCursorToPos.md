@@ -1,8 +1,6 @@
 # MoveCursorToPos
 
-Moves a cursor to a specified position of the current text run.
-If the current run is not assigned to any document part, then **false** is returned. Otherwise, this method returns **true**.
-If there is any selection in the document, it will be removed.
+Moves a cursor to a specified position of the current text run.If the current run is not assigned to any document part, then **false** is returned. Otherwise, this method returns **true**.If there is any selection in the document, it will be removed.
 
 ## Syntax
 
@@ -16,7 +14,7 @@ expression.MoveCursorToPos(nPos);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| nPos | Optional | number | false | Desired cursor position. |
+| nPos | Optional | number | 0 | Desired cursor position. |
 
 ## Returns
 
@@ -26,7 +24,7 @@ boolean
 
 This example shows how to place cursor in the specifed position in the text.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let para = doc.GetElement(0);
 let run = para.AddText("The quick brown fox jumps over the lazy dog");

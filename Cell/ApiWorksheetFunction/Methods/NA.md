@@ -22,10 +22,10 @@ string
 
 
 
-```javascript
-const oWorksheet = Api.GetActiveSheet(); 
-var oFunction = Api.GetWorksheetFunction();
-var result = oFunction.NA();
-oWorksheet.GetRange("C3").SetValue(result);
+```javascript editor-xlsx
+const worksheet = Api.GetActiveSheet(); 
+let func = Api.GetWorksheetFunction();
+let result = func.NA();
+worksheet.GetRange("C3").SetValue(result);
 
 ```

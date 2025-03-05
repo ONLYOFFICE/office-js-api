@@ -22,7 +22,7 @@ number[]
 
 This example shows how to get current visible pages indexes
 
-```javascript
+```javascript editor-docx
 var oDocument = Api.GetDocument();
 var oParagraph = Api.CreateParagraph();
 oParagraph.AddText("The current visibles pages indexes is: " + oDocument.GetCurrentVisiblePages());

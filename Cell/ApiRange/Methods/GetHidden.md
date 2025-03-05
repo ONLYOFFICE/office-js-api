@@ -22,13 +22,13 @@ boolean
 
 This example shows how to get the value hiding property.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var oRange = oWorksheet.GetRows("1:3");
-oRange.SetHidden(true);
-oWorksheet.GetRange("A1").SetValue("1");
-oWorksheet.GetRange("B1").SetValue("2");
-oWorksheet.GetRange("C1").SetValue("3");
-var bHidden = oRange.GetHidden();
-oWorksheet.GetRange("A4").SetValue("The values from A1:C1 are hidden: " + bHidden);
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let range = worksheet.GetRows("1:3");
+range.SetHidden(true);
+worksheet.GetRange("A1").SetValue("1");
+worksheet.GetRange("B1").SetValue("2");
+worksheet.GetRange("C1").SetValue("3");
+let hidden = range.GetHidden();
+worksheet.GetRange("A4").SetValue("The values from A1:C1 are hidden: " + hidden);
 ```

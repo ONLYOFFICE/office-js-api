@@ -24,7 +24,7 @@ boolean
 
 This example replaces the current table with a paragraph.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let table = Api.CreateTable(3, 3);
 doc.AddElement(0, table);

@@ -24,6 +24,6 @@ This method doesn't return any data.
 
 ## Example
 
-```javascript
+```javascript editor-xlsx
 window.Asc.plugin.executeMethod ("EndAction", ["Block", "Save to local storage...", ""]);
 ```

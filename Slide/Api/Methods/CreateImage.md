@@ -26,7 +26,7 @@ expression.CreateImage(sImageSrc, nWidth, nHeight);
 
 This example creastes an image and pastes it into the document.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

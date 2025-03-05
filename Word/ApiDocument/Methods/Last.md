@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example shows how to get the last document element.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is a sample text №1.");

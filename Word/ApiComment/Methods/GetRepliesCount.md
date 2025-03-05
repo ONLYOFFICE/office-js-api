@@ -22,7 +22,7 @@ Number
 
 This example shows how to get a number of the comment replies.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is just a sample text");

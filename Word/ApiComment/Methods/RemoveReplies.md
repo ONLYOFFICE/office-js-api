@@ -14,8 +14,8 @@ expression.RemoveReplies(nPos, nCount, bRemoveAll);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| nPos | Optional | Number | false | The position of the first comment reply to remove. |
-| nCount | Optional | Number | true | A number of comment replies to remove. |
+| nPos | Optional | Number | 0 | The position of the first comment reply to remove. |
+| nCount | Optional | Number | 1 | A number of comment replies to remove. |
 | bRemoveAll | Optional | boolean | false | Specifies whether to remove all comment replies or not. |
 
 ## Returns
@@ -26,7 +26,7 @@ expression.RemoveReplies(nPos, nCount, bRemoveAll);
 
 This example removes the specified comment replies.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is just a sample text");

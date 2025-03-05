@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example shows how to get the paragraph style.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let heading6Style = doc.GetStyle("Heading 6");
 let paragraph = doc.GetElement(0);

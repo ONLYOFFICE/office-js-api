@@ -27,7 +27,7 @@ expression.AddReply(sText, sAuthorName, sUserId, nPos);
 
 This example adds a comment and makes a reply for it.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is just a sample text");

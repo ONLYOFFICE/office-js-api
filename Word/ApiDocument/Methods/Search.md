@@ -19,13 +19,13 @@ expression.Search(sText, isMatchCase);
 
 ## Returns
 
-[ApiRange[]](../../ApiRange/ApiRange.md)
+[ApiRange](../../ApiRange/ApiRange.md)[]
 
 ## Example
 
 This example shows how to make a search.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is paragraph №1.");

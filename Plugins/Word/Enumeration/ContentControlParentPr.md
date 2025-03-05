@@ -17,7 +17,7 @@ Object
 
 ## Example
 
-```javascript
+```javascript editor-docx
 let contentControlParentPr = {
     "Parent" : oParagraph,
     "Pos" : 0,

@@ -12,7 +12,7 @@ number
 
 This example creates two RGB colors.
 
-```javascript
+```javascript editor-xlsx
 // The resulting color is green, the bytes are measured in decimal numbers:
 let rgbColorGreen = Api.CreateRGBColor(0, 255, 0);
 // The resulting color is red, the bytes are measured in hexadecimal numbers:

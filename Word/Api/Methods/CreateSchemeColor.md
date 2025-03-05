@@ -24,7 +24,7 @@ expression.CreateSchemeColor(schemeColorId);
 
 This example shows how to create a scheme color with the 'dk1' identifier.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.CreateSchemeColor("dk1"));

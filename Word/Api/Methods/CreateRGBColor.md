@@ -26,7 +26,7 @@ expression.CreateRGBColor(r, g, b);
 
 This example shows how to create a RGB color for  gradient stop.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let gs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);

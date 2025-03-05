@@ -16,6 +16,6 @@ Enumeration
 
 This example adds a green shadow to the table.
 
-```javascript
+```javascript editor-docx
 tablePr.SetShd("clear", 0, 255, 0, false);
 ```

@@ -27,7 +27,7 @@ expression.SetColor(r, g, b, isAuto);
 
 This example sets the text color for the current text run in the RGB format.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

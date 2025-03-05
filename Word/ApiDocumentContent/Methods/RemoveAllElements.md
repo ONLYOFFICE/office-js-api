@@ -1,8 +1,6 @@
 # RemoveAllElements
 
-Removes all the elements from the current document or from the current document element.
-💡 When all elements are removed, a new empty paragraph is automatically created. If you want to add
-content to this paragraph, use the &#123;@link ApiDocumentContent#GetElement&#125; method.
+Removes all the elements from the current document or from the current document element.💡 When all elements are removed, a new empty paragraph is automatically created. If you want to addcontent to this paragraph, use the &#123;@link ApiDocumentContent#GetElement&#125; method.
 
 ## Syntax
 
@@ -24,7 +22,7 @@ This method doesn't return any data.
 
 This example removes all the elements from the current document or from the current document content.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));

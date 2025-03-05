@@ -24,7 +24,7 @@ boolean
 
 This example shows how to load data for the mail merge.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fields = ["Greeting line", "First name", "Last name"];

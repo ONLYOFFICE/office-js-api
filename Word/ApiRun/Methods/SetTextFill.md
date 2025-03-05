@@ -24,7 +24,7 @@ expression.SetTextFill(oApiFill);
 
 In this example, the WordArt text has a text fill.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let textPr = Api.CreateTextPr();
 textPr.SetFontSize(30);

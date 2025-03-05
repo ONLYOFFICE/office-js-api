@@ -16,13 +16,13 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiSection](../../ApiSection/ApiSection.md) | null
+[ApiSection](../../ApiSection/ApiSection.md) \| null
 
 ## Example
 
 This example shows how to get the previous section.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is a new paragraph.");

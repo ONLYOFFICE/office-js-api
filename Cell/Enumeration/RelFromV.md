@@ -20,6 +20,6 @@ Enumeration
 
 This example set vertical aligment for a drawing object.
 
-```javascript
+```javascript editor-xlsx
 drawing.SetVerAlign("page", "center");
 ```

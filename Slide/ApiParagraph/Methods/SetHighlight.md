@@ -24,7 +24,7 @@ expression.SetHighlight(sColor);
 
 This example sets hiighlight color "lightGray" for the paragraph.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

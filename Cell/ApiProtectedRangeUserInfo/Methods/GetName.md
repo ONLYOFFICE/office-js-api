@@ -16,17 +16,17 @@ This method doesn't have any parameters.
 
 ## Returns
 
-string | null
+string \| null
 
 ## Example
 
 This example changes the user protected range.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.AddProtectedRange("protectedRange", "$A$1:$B$1").AddUser("userId", "name", "CanView");
-var protectedRange = oWorksheet.GetProtectedRange("protectedRange");
-var userInfo = protectedRange.GetUser("userId");
-var userName = userInfo.GetName();
-oWorksheet.GetRange("A3").SetValue("Name: " + userName);
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+worksheet.AddProtectedRange("protectedRange", "$A$1:$B$1").AddUser("userId", "name", "CanView");
+let protectedRange = worksheet.GetProtectedRange("protectedRange");
+let userInfo = protectedRange.GetUser("userId");
+let userName = userInfo.GetName();
+worksheet.GetRange("A3").SetValue("Name: " + userName);
 ```

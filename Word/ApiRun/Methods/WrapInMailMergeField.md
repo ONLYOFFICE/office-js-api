@@ -22,7 +22,7 @@ This method doesn't return any data.
 
 This example wraps a run in a mail merge field.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let run = Api.CreateRun();

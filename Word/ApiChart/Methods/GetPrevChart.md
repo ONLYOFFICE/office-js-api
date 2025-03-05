@@ -16,13 +16,13 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiChart](../../ApiChart/ApiChart.md) | null
+[ApiChart](../../ApiChart/ApiChart.md) \| null
 
 ## Example
 
 This example show how to get the previous chart.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

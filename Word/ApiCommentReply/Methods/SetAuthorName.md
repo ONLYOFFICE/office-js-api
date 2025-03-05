@@ -24,7 +24,7 @@ expression.SetAuthorName(sAuthorName);
 
 This example sets the comment reply author's name.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is just a sample text");

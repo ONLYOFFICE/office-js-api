@@ -15,7 +15,7 @@ expression.RemoveObject(nPos, nCount);
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | nPos | Required | number |  | Position from which the object will be deleted. |
-| nCount | Optional | number | true | The number of elements to delete. |
+| nCount | Optional | number | 1 | The number of elements to delete. |
 
 ## Returns
 
@@ -25,7 +25,7 @@ boolean
 
 This example shows how to remove objects from a slide layout.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

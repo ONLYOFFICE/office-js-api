@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example creates a copy of an block level content control.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();
 let paragraph = blockLvlSdt.GetContent().GetElement(0);

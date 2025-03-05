@@ -16,13 +16,13 @@ This method doesn't have any parameters.
 
 ## Returns
 
-"left" | "right" | "both" | "center" | undefined
+"left" \| "right" \| "both" \| "center" \| undefined
 
 ## Example
 
 This example shows how to get the paragraph contents justification.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
