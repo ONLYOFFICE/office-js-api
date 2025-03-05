@@ -14,8 +14,8 @@ expression.TEXT(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number | string |  | A number, a formula that evaluates to a numeric value, or a reference to a cell containing a numeric value. |
-| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | string |  | A number format in the text form from the **Number format** combo box on the **Home** tab. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number \| string |  | A number, a formula that evaluates to a numeric value, or a reference to a cell containing a numeric value. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| string |  | A number format in the text form from the **Number format** combo box on the **Home** tab. |
 
 ## Returns
 
@@ -25,8 +25,8 @@ string
 
 
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue(oFunction.TEXT(45.5, "$0.00"));
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue(func.TEXT(45.5, "$0.00"));
 ```

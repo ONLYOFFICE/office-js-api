@@ -19,6 +19,6 @@ Enumeration
 
 This example adds an element called 'text run' to the paragraph.
 
-```javascript
+```javascript editor-docx
 paragraph.AddElement(run, 0);
 ```

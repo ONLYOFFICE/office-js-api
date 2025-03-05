@@ -24,7 +24,7 @@ expression.SetCaps(isCaps);
 
 This example specifies that any lowercase characters in the text run are formatted for display only as their capital letter character equivalents.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let textPr = doc.GetDefaultTextPr();
 textPr.SetCaps(true);

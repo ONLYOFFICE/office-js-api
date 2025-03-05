@@ -14,7 +14,7 @@ expression.SetAxieNumFormat(sFormat, sAxiePos);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sFormat | Required | [NumFormat](../../Enumeration/NumFormat.md) | String |  | Numeric format (can be custom format). |
+| sFormat | Required | [NumFormat](../../Enumeration/NumFormat.md) \| String |  | Numeric format (can be custom format). |
 | sAxiePos | Required | [AxisPos](../../Enumeration/AxisPos.md) |  | Axis position in the chart. |
 
 ## Returns
@@ -25,7 +25,7 @@ boolean
 
 This example sets the specified numeric format to the axis values.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

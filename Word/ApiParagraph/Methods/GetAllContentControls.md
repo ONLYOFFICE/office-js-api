@@ -16,13 +16,13 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiInlineLvlSdt[]](../../ApiInlineLvlSdt/ApiInlineLvlSdt.md)
+[ApiInlineLvlSdt](../../ApiInlineLvlSdt/ApiInlineLvlSdt.md)[]
 
 ## Example
 
 This example shows how to get a collection of content control objects in the paragraph.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let inlineLvlSdt = Api.CreateInlineLvlSdt();

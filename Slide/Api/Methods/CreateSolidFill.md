@@ -24,7 +24,7 @@ expression.CreateSolidFill(uniColor);
 
 This example shows how to create a solid fill.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

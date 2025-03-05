@@ -25,7 +25,7 @@ expression.CreateStyle(sStyleName, sType);
 
 This example creates a new style with the "Heading 1" type and "paragraph" name.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let heading1Style = doc.CreateStyle("Heading 1", "paragraph");
 let paraPr = heading1Style.GetParaPr();

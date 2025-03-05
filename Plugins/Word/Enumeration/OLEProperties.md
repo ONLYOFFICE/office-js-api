@@ -21,7 +21,7 @@ Object
 
 ## Example
 
-```javascript
+```javascript editor-docx
 let oleProperties = {
     "data": "{data}",
     "imgSrc": "https://link-to-the-image.jpg",

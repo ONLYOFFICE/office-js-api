@@ -24,7 +24,7 @@ boolean
 
 This example sets the fill to the chart plot area.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

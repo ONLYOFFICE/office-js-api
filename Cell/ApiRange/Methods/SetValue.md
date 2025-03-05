@@ -14,7 +14,7 @@ expression.SetValue(data);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| data | Required | string | bool | number | Array[] | Array[][] |  | The general value for the cell or cell range. |
+| data | Required | string \| boolean \| number \| (string \| boolean \| number)[] \| (string \| boolean \| number)[][] |  | The general value for the cell or cell range. |
 
 ## Returns
 
@@ -24,10 +24,10 @@ boolean
 
 This example sets a value to cells.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.GetRange("B1").SetValue("2");
-oWorksheet.GetRange("B2").SetValue("2");
-oWorksheet.GetRange("A3").SetValue("2x2=");
-oWorksheet.GetRange("B3").SetValue("=B1*B2");
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+worksheet.GetRange("B1").SetValue("2");
+worksheet.GetRange("B2").SetValue("2");
+worksheet.GetRange("A3").SetValue("2x2=");
+worksheet.GetRange("B3").SetValue("=B1*B2");
 ```

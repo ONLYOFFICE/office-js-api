@@ -1,8 +1,6 @@
 # RemoveAllElements
 
-Removes all the elements from the current document or from the current document element.
-💡 When all elements are removed, a new empty paragraph is automatically created. If you want to add
-content to this paragraph, use the &#123;@link ApiDocumentContent#GetElement&#125; method.
+Removes all the elements from the current document or from the current document element.💡 When all elements are removed, a new empty paragraph is automatically created. If you want to addcontent to this paragraph, use the &#123;@link ApiDocumentContent#GetElement&#125; method.
 
 ## Syntax
 
@@ -24,7 +22,7 @@ This method doesn't return any data.
 
 This example shows how to remove all elements from a shape.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

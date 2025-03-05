@@ -25,7 +25,7 @@ This method doesn't return any data.
 
 This example sets the size to the current presentation.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 oPresentation.SetSizes(254 * 36000, 190 * 36000);
 var oSlide = oPresentation.GetSlideByIndex(0);

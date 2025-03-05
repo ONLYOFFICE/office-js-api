@@ -15,7 +15,7 @@ expression.SetHorAlign(sRelativeFrom, sAlign);
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | sRelativeFrom | Optional | [RelFromH](../../Enumeration/RelFromH.md) | "page" | The document element which will be taken as a countdown point for the object horizontal alignment. |
-| sAlign | Optional | "left" | "right" | "center" | "left" | The alignment type which will be used for the object horizontal alignment. |
+| sAlign | Optional | "left" \| "right" \| "center" | "left" | The alignment type which will be used for the object horizontal alignment. |
 
 ## Returns
 
@@ -25,7 +25,7 @@ This method doesn't return any data.
 
 This example specifies how the floating object will be horizontally aligned.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is a paragraph with a shape. ");

@@ -24,7 +24,7 @@ expression.GetDefaultStyle(sStyleType);
 
 This example shows how to get the default style parameters for the specified document element.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let paraPr = doc.GetDefaultParaPr();

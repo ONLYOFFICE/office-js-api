@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example adds a page break and starts the next element from the next page.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is the text for the first page. After it a page break will be added. Scroll down to the second page to see the text there.");

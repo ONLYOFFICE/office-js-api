@@ -24,7 +24,7 @@ expression.GetBookmark(sBookmarkName);
 
 This example shows how to get bookmark in document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("ONLYOFFICE Document Builder");

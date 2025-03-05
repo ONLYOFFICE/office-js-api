@@ -14,8 +14,8 @@ expression.AutoFit(bRows, bCols);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| bRows | Required | bool |  | Specifies if the width of the columns will be autofit. |
-| bCols | Required | bool |  | Specifies if the height of the rows will be autofit. |
+| bRows | Optional | boolean |  | Specifies if the width of the columns will be autofit. |
+| bCols | Optional | boolean |  | Specifies if the height of the rows will be autofit. |
 
 ## Returns
 
@@ -25,9 +25,9 @@ This method doesn't return any data.
 
 This example changes the width of the columns or the height of the rows in the range to achieve the best fit.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var oRange = oWorksheet.GetRange("A1");
-oRange.SetValue("This is an example of the column width autofit.");
-oRange.AutoFit(false, true);
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let range = worksheet.GetRange("A1");
+range.SetValue("This is an example of the column width autofit.");
+range.AutoFit(false, true);
 ```

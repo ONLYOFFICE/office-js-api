@@ -22,7 +22,7 @@ This method doesn't return any data.
 
 This example removes all the objects from the current slide.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 oPresentation.SetSizes(254 * 36000, 190 * 36000);
 var oSlide = oPresentation.GetCurrentSlide();

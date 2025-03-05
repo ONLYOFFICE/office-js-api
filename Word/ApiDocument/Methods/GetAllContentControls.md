@@ -16,13 +16,13 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiBlockLvlSdt[]](../../ApiBlockLvlSdt/ApiBlockLvlSdt.md) | [ApiInlineLvlSdt[]](../../ApiInlineLvlSdt/ApiInlineLvlSdt.md)
+[ApiBlockLvlSdt](../../ApiBlockLvlSdt/ApiBlockLvlSdt.md)[] \| [ApiInlineLvlSdt](../../ApiInlineLvlSdt/ApiInlineLvlSdt.md)[]
 
 ## Example
 
 This example shows how to get a list of all the content controls from the document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let inlineLvlSdt = Api.CreateInlineLvlSdt();

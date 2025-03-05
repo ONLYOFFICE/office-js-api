@@ -16,13 +16,13 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiShape[]](../../ApiShape/ApiShape.md)
+[ApiShape](../../ApiShape/ApiShape.md)[]
 
 ## Example
 
 This example shows how to get a collection of shape objects in the paragraph.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let gs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);

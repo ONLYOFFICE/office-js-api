@@ -16,13 +16,13 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiShape[]](../../ApiShape/ApiShape.md) | [ApiImage[]](../../ApiImage/ApiImage.md) | [ApiChart[]](../../ApiChart/ApiChart.md) | [ApiDrawing[]](../../ApiDrawing/ApiDrawing.md)
+[ApiShape](../../ApiShape/ApiShape.md)[] \| [ApiImage](../../ApiImage/ApiImage.md)[] \| [ApiChart](../../ApiChart/ApiChart.md)[] \| [ApiDrawing](../../ApiDrawing/ApiDrawing.md)[]
 
 ## Example
 
 This example shows how to get all the selected drawings in the current document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));

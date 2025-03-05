@@ -14,10 +14,10 @@ expression.LOGNORM_DIST(arg1, arg2, arg3, arg4);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The value at which to evaluate the function, a positive number. |
-| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The mean of ln(x). |
-| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The standard deviation of ln(x), a positive number. |
-| arg4 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | boolean |  | A logical value (**true** or **false**) that determines the function form. If it is **true**, the function returns the cumulative distribution function. If it is **false**, the function returns the probability density function. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | The value at which to evaluate the function, a positive number. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | The mean of ln(x). |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | The standard deviation of ln(x), a positive number. |
+| arg4 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| boolean |  | A logical value (**true** or **false**) that determines the function form. If it is **true**, the function returns the cumulative distribution function. If it is **false**, the function returns the probability density function. |
 
 ## Returns
 
@@ -27,28 +27,28 @@ number
 
 
 
-```javascript
-const oWorksheet = Api.GetActiveSheet();
+```javascript editor-xlsx
+const worksheet = Api.GetActiveSheet();
 
 //configure function parameters
-var numbersArr = [4, 3.5, 1.2];
+let numbersArr = [4, 3.5, 1.2];
 
 //set values in cells
-for (var i = 0; i < numbersArr.length; i++) {
-  oWorksheet.GetRange("A" + (i + 1)).SetValue(numbersArr[i]);
+for (let i = 0; i < numbersArr.length; i++) {
+  worksheet.GetRange("A" + (i + 1)).SetValue(numbersArr[i]);
 }
 
 //get parameters
-var xValue = oWorksheet.GetRange("A1");
-var mean = oWorksheet.GetRange("A2");
-var standardDeviation = oWorksheet.GetRange("A3");
-var cummulative = true;
+let xValue = worksheet.GetRange("A1");
+let mean = worksheet.GetRange("A2");
+let standardDeviation = worksheet.GetRange("A3");
+let cummulative = true;
 
 //invoke LOGNORM.DIST method
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.LOGNORM_DIST(xValue, mean, standardDeviation, cummulative);
+let func = Api.GetWorksheetFunction();
+let ans = func.LOGNORM_DIST(xValue, mean, standardDeviation, cummulative);
 
 //print answer
-oWorksheet.GetRange("C1").SetValue(ans);
+worksheet.GetRange("C1").SetValue(ans);
 
 ```

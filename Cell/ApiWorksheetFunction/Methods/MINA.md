@@ -14,7 +14,7 @@ expression.MINA(args);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| args | Required | number | string | boolean | [ApiRange](../../ApiRange/ApiRange.md) | array | [ApiName](../../ApiName/ApiName.md) |  | Up to 255 values (number, text, logical value) for which the smallest value will be returned. The first argument is required, subsequent arguments are optional. Arguments can be numbers, logical values and text representations of numbers, names, ranges, or arrays. |
+| args | Required | number \| string \| boolean \| (number \| string \| boolean)[] \| [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) |  | Up to 255 values (number, text, logical value) for which the smallest value will be returned. The first argument is required, subsequent arguments are optional. Arguments can be numbers, logical values and text representations of numbers, names, ranges, or arrays. |
 
 ## Returns
 
@@ -24,10 +24,10 @@ number
 
 
 
-```javascript
-const oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-var minA = oFunction.MINA(23, 45, true, "text", 0.89);
-oWorksheet.GetRange("C1").SetValue(minA);
+```javascript editor-xlsx
+const worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+let minA = func.MINA(23, 45, true, "text", 0.89);
+worksheet.GetRange("C1").SetValue(minA);
 
 ```

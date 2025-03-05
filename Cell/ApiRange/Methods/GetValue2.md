@@ -16,17 +16,17 @@ This method doesn't have any parameters.
 
 ## Returns
 
-string | string[][]
+string \| string[][]
 
 ## Example
 
 This example shows how to get the value without format of the specified range.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var oFormat = Api.Format("123456", "$#,##0");
-var oRange = oWorksheet.GetRange("A1");
-oRange.SetValue(oFormat);
-var sValue2 = oRange.GetValue2();
-oWorksheet.GetRange("A3").SetValue("Value of the cell A1 without format: " + sValue2);
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let format = Api.Format("123456", "$#,##0");
+let range = worksheet.GetRange("A1");
+range.SetValue(format);
+let value2 = range.GetValue2();
+worksheet.GetRange("A3").SetValue("Value of the cell A1 without format: " + value2);
 ```

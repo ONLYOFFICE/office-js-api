@@ -16,13 +16,13 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[Drawing[]](../../Enumeration/Drawing.md)
+[Drawing](../../Enumeration/Drawing.md)[]
 
 ## Example
 
 This example shows how to get an array with all the drawing objects from the slide master.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

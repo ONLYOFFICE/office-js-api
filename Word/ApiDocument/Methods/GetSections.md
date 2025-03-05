@@ -16,13 +16,13 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiSection[]](../../ApiSection/ApiSection.md)
+[ApiSection](../../ApiSection/ApiSection.md)[]
 
 ## Example
 
 This example shows how to get a collection of section objects in the document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is a new paragraph.");

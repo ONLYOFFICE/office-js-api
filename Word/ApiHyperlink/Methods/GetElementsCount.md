@@ -22,7 +22,7 @@ number
 
 This example shows how to get a number of elements in the hyperlink.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let run1 = Api.CreateRun();

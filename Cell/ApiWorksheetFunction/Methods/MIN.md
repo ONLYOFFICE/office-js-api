@@ -14,7 +14,7 @@ expression.MIN(args);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| args | Required | number | [ApiRange](../../ApiRange/ApiRange.md) | array | [ApiName](../../ApiName/ApiName.md) |  | Up to 255 numeric values for which the smallest number will be returned. The first argument is required, subsequent arguments are optional. Arguments can be numbers, names, ranges, or arrays of numbers. |
+| args | Required | number \| number[] \| [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) |  | Up to 255 numeric values for which the smallest number will be returned. The first argument is required, subsequent arguments are optional. Arguments can be numbers, names, ranges, or arrays of numbers. |
 
 ## Returns
 
@@ -24,10 +24,10 @@ number
 
 
 
-```javascript
-const oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-var min = oFunction.MIN(123, 197, 46, 345, 67, 456);
-oWorksheet.GetRange("C1").SetValue(min);
+```javascript editor-xlsx
+const worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+let min = func.MIN(123, 197, 46, 345, 67, 456);
+worksheet.GetRange("C1").SetValue(min);
 
 ```

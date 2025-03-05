@@ -22,7 +22,7 @@ string[]
 
 This example shows how to get all font names from all elements inside the run.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

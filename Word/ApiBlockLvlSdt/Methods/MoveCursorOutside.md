@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example shows how to move the cursor outside the content control.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();
 blockLvlSdt.GetContent().GetElement(0).AddText("The cursor will be placed after the current content control.");

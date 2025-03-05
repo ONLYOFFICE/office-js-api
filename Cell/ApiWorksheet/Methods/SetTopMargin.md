@@ -22,11 +22,11 @@ This method doesn't return any data.
 
 ## Example
 
-This example sets the top margin of the sheet.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.SetTopMargin(25.1);
-var nTopMargin = oWorksheet.GetTopMargin();
-oWorksheet.GetRange("A1").SetValue("Top margin: " + nTopMargin + " mm");
+
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+worksheet.SetTopMargin(25.1);
+let topMargin = worksheet.GetTopMargin();
+worksheet.GetRange("A1").SetValue("Top margin: " + topMargin + " mm");
 ```

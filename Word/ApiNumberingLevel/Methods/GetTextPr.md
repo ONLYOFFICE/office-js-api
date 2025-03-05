@@ -1,7 +1,6 @@
 # GetTextPr
 
-Specifies the text properties which will be applied to the text in the current numbering level itself, not to the text in the subsequent paragraph.
-💡 To change the text style of the paragraph, a style must be applied to it using the &#123;@link ApiRun#SetStyle&#125; method.
+Specifies the text properties which will be applied to the text in the current numbering level itself, not to the text in the subsequent paragraph.💡 To change the text style of the paragraph, a style must be applied to it using the &#123;@link ApiRun#SetStyle&#125; method.
 
 ## Syntax
 
@@ -23,7 +22,7 @@ This method doesn't have any parameters.
 
 This example shows how to get the text properties which will be applied to the text in the numbering level itself, not to the text in the subsequent paragraph.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("numbered");
 let numLvl = numbering.GetLevel(0);

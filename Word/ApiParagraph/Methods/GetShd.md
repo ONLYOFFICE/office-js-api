@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example shows how to get the shading applied to the contents of the paragraph.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is an example of setting a shade to a paragraph. ");

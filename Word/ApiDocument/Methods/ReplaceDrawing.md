@@ -26,7 +26,7 @@ boolean
 
 This example replaces a drawing with a new drawing.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let oldDrawing = Api.CreateChart("bar3D", [

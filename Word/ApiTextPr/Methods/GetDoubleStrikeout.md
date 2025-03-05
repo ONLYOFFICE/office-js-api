@@ -22,7 +22,7 @@ boolean
 
 
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let myNewRunStyle = doc.CreateStyle("My New Run Style", "run");
 let textPr = myNewRunStyle.GetTextPr();

@@ -14,7 +14,7 @@ expression.ReplaceTextSmart(textStrings, tab, newLine);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| textStrings | Required | Array |  | An array of replacement strings. |
+| textStrings | Required | string[] |  | An array of replacement strings. |
 | tab | Optional | string | "\t" | A character which is used to specify the tab in the source text. |
 | newLine | Optional | string | "\r\n" | A character which is used to specify the line break character in the source text. |
 
@@ -26,7 +26,7 @@ This method doesn't return any data.
 
 This example replace text from two paragraphs to another text.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

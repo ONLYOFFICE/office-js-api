@@ -14,10 +14,10 @@ expression.ToJSON(bWriteLayout, bWriteMaster, bWriteAllMasLayouts, bWriteTableSt
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| bWriteLayout | Optional | bool | false | Specifies if the slide layout will be written to the JSON object or not. |
-| bWriteMaster | Optional | bool | false | Specifies if the slide master will be written to the JSON object or not (bWriteMaster is false if bWriteLayout === false). |
-| bWriteAllMasLayouts | Optional | bool | false | Specifies if all child layouts from the slide master will be written to the JSON object or not. |
-| bWriteTableStyles | Optional | bool | false | Specifies whether to write used table styles to the JSON object (true) or not (false). |
+| bWriteLayout | Optional | boolean | false | Specifies if the slide layout will be written to the JSON object or not. |
+| bWriteMaster | Optional | boolean | false | Specifies if the slide master will be written to the JSON object or not (bWriteMaster is false if bWriteLayout === false). |
+| bWriteAllMasLayouts | Optional | boolean | false | Specifies if all child layouts from the slide master will be written to the JSON object or not. |
+| bWriteTableStyles | Optional | boolean | false | Specifies whether to write used table styles to the JSON object (true) or not (false). |
 
 ## Returns
 
@@ -27,7 +27,7 @@ JSON
 
 This example converts the ApiSlide object into the JSON object.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

@@ -28,7 +28,7 @@ This method doesn't return any data.
 
 This example adds a hyperlink to the specified range.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.SetHyperlink("A1", "https://api.onlyoffice.com/docbuilder/basic", "Api ONLYOFFICE", "ONLYOFFICE for developers");
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+worksheet.SetHyperlink("A1", "https://api.onlyoffice.com/docbuilder/basic", "Api ONLYOFFICE", "ONLYOFFICE for developers");
 ```

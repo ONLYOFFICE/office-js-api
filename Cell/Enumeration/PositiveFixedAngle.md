@@ -12,6 +12,6 @@ number
 
 This example sets the resulting gradient direction angle in 90 degrees.
 
-```javascript
+```javascript editor-xlsx
 let fill = Api.CreateLinearGradientFill([gs1, gs2], 5400000);
 ```

@@ -18,13 +18,13 @@ expression.InsertInContentControl(nType);
 
 ## Returns
 
-[ApiTable](../../ApiTable/ApiTable.md) | [ApiBlockLvlSdt](../../ApiBlockLvlSdt/ApiBlockLvlSdt.md)
+[ApiTable](../../ApiTable/ApiTable.md) \| [ApiBlockLvlSdt](../../ApiBlockLvlSdt/ApiBlockLvlSdt.md)
 
 ## Example
 
 This example wraps the current table object with a content control.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

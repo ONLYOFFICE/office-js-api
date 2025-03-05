@@ -25,7 +25,7 @@ expression.CreateGradientStop(uniColor, pos);
 
 This example shows how to create a gradient stop used for different types of gradients.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

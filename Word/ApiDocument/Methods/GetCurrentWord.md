@@ -14,7 +14,7 @@ expression.GetCurrentWord(sWordPart);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sWordPart | Required | undefined | "before" | "after" |  | The desired part of the current word to be returned. |
+| sWordPart | Required | undefined \| "before" \| "after" |  | The desired part of the current word to be returned. |
 
 ## Returns
 
@@ -24,7 +24,7 @@ string
 
 This example shows how to get the current word.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let para1 = doc.GetElement(0);
 para1.AddText("The quick brown ");

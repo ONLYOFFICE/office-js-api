@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example shows how to get a set of the table cell properties which will be applied to all the cells within a table which match the conditional formatting type.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("We create a 3x3 table and set the gray shading for cell #1:");

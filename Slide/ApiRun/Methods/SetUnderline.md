@@ -1,7 +1,6 @@
 # SetUnderline
 
-Specifies that the contents of the run are displayed along with a line appearing directly below the character
-(less than all the spacing above and below the characters on the line).
+Specifies that the contents of the run are displayed along with a line appearing directly below the character(less than all the spacing above and below the characters on the line).
 
 ## Syntax
 
@@ -25,7 +24,7 @@ expression.SetUnderline(isUnderline);
 
 This example specifies that the contents of the run are displayed along with a line appearing directly below the character (less than all the spacing above and below the characters on the line).
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

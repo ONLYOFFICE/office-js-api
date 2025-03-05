@@ -14,7 +14,7 @@ expression.CreateLinearGradientFill(gradientStops, angle);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| gradientStops | Required | Array |  | The array of gradient color stops measured in 1000th of percent. |
+| gradientStops | Required | number[] |  | The array of gradient color stops measured in 1000th of percent. |
 | angle | Required | [PositiveFixedAngle](../../Enumeration/PositiveFixedAngle.md) |  | The angle measured in 60000th of a degree that will define the gradient direction. |
 
 ## Returns
@@ -25,7 +25,7 @@ expression.CreateLinearGradientFill(gradientStops, angle);
 
 This example creates a linear gradient fill to apply to the object using the selected linear gradient as the object background.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

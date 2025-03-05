@@ -22,6 +22,6 @@ This method doesn't have any parameters.
 
 This example shows how to get the parent of a content control list item in the collection of list items.
 
-```javascript
+```javascript editor-docx
 // todo_example
 ```

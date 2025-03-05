@@ -1,7 +1,6 @@
 # SetTableInd
 
-Specifies the indentation which will be added before the leading edge of the current table in the document
-(the left edge in the left-to-right table, and the right edge in the right-to-left table).
+Specifies the indentation which will be added before the leading edge of the current table in the document(the left edge in the left-to-right table, and the right edge in the right-to-left table).
 
 ## Syntax
 
@@ -25,7 +24,7 @@ This method doesn't return any data.
 
 This example specifies the indentation which will be added before the leading edge of the table in the document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("We set the indent of 1 inch for the table:");

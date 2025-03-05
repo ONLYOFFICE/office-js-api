@@ -26,9 +26,9 @@ expression.CreatePatternFill(patternType, bgColor, fgColor);
 
 This example creates a pattern fill to apply to the object using the selected pattern as the object background.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var oFill = Api.CreatePatternFill("dashDnDiag", Api.CreateRGBColor(255, 111, 61), Api.CreateRGBColor(51, 51, 51));
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-oWorksheet.AddShape("flowChartOnlineStorage", 60 * 36000, 35 * 36000, oFill, oStroke, 0, 2 * 36000, 1, 3 * 36000);
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let fill = Api.CreatePatternFill("dashDnDiag", Api.CreateRGBColor(255, 111, 61), Api.CreateRGBColor(51, 51, 51));
+let stroke = Api.CreateStroke(0, Api.CreateNoFill());
+worksheet.AddShape("flowChartOnlineStorage", 60 * 36000, 35 * 36000, fill, stroke, 0, 2 * 36000, 1, 3 * 36000);
 ```

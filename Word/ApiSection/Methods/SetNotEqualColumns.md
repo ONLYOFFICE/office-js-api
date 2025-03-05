@@ -1,7 +1,6 @@
 # SetNotEqualColumns
 
-Specifies that all the columns in the current section have the different widths. Number of columns is equal 
-to the length of the aWidth array. The length of the aSpaces array MUST BE equal to (aWidth.length - 1).
+Specifies that all the columns in the current section have the different widths. Number of columns is equal to the length of the aWidth array. The length of the aSpaces array MUST BE equal to (aWidth.length - 1).
 
 ## Syntax
 
@@ -15,8 +14,8 @@ expression.SetNotEqualColumns(aWidths, aSpaces);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| aWidths | Required | [twips[]](../../Enumeration/twips.md) |  | An array of column width values measured in twentieths of a point (1/1440 of an inch). |
-| aSpaces | Required | [twips[]](../../Enumeration/twips.md) |  | An array of distance values between the columns measured in twentieths of a point (1/1440 of an inch). |
+| aWidths | Required | [twips](../../Enumeration/twips.md)[] |  | An array of column width values measured in twentieths of a point (1/1440 of an inch). |
+| aSpaces | Required | [twips](../../Enumeration/twips.md)[] |  | An array of distance values between the columns measured in twentieths of a point (1/1440 of an inch). |
 
 ## Returns
 
@@ -26,7 +25,7 @@ This method doesn't return any data.
 
 This example specifies that all the columns in the current section have the different widths.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let section = doc.GetFinalSection();

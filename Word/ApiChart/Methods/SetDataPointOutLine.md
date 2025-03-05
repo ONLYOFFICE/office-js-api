@@ -27,7 +27,7 @@ boolean
 
 This example show how to set the outline to the data point.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

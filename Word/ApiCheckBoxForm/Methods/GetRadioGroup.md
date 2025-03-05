@@ -22,7 +22,7 @@ string
 
 This example shows how to get the radio group key if the checkbox is a radio button.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});
 checkBoxForm.SetRadioGroup("Marital status");

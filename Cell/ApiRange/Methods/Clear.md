@@ -22,10 +22,10 @@ This method doesn't return any data.
 
 This example clears the range.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var oRange = oWorksheet.GetRange("A1:B1");
-oRange.SetValue("1");
-oRange.Clear();
-oWorksheet.GetRange("A2").SetValue("The range A1:B1 was just cleared.");
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let range = worksheet.GetRange("A1:B1");
+range.SetValue("1");
+range.Clear();
+worksheet.GetRange("A2").SetValue("The range A1:B1 was just cleared.");
 ```

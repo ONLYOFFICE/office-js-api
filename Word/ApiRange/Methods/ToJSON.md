@@ -25,7 +25,7 @@ JSON
 
 This example converts the ApiRange object into the JSON object.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("ONLYOFFICE Document Builder");

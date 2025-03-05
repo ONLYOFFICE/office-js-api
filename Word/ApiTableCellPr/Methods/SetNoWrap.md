@@ -1,7 +1,6 @@
 # SetNoWrap
 
-Specifies how the current table cell is laid out when the parent table is displayed in a document. This setting
-only affects the behavior of the cell when the &#123;@link ApiTablePr#SetTableLayout&#125; table layout for this table is set to use the &lt;code&gt;"autofit"&lt;/code&gt; algorithm.
+Specifies how the current table cell is laid out when the parent table is displayed in a document. This settingonly affects the behavior of the cell when the &#123;@link ApiTablePr#SetTableLayout&#125; table layout for this table is set to use the &lt;code&gt;"autofit"&lt;/code&gt; algorithm.
 
 ## Syntax
 
@@ -25,7 +24,7 @@ This method doesn't return any data.
 
 This example specifies how the table cell is laid out when the parent table is displayed in a document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

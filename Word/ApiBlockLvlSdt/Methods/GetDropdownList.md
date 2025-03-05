@@ -22,6 +22,6 @@ This method doesn't have any parameters.
 
 This example shows how to get a list values of combobox/dropdown list content control.
 
-```javascript
+```javascript editor-docx
 // todo_example
 ```

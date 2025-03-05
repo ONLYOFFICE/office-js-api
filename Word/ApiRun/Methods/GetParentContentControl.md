@@ -16,13 +16,13 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiBlockLvlSdt](../../ApiBlockLvlSdt/ApiBlockLvlSdt.md) | [ApiInlineLvlSdt](../../ApiInlineLvlSdt/ApiInlineLvlSdt.md) | null
+[ApiBlockLvlSdt](../../ApiBlockLvlSdt/ApiBlockLvlSdt.md) \| [ApiInlineLvlSdt](../../ApiInlineLvlSdt/ApiInlineLvlSdt.md) \| null
 
 ## Example
 
 This example shows how to get a content control that contains the run.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();
 let paragraph = Api.CreateParagraph();

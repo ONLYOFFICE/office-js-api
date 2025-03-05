@@ -14,12 +14,12 @@ expression.SlidesToJSON(nStart, nStart, bWriteLayout, bWriteMaster, bWriteAllMas
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| nStart | Optional | bool | false | The index to the start slide. |
-| nStart | Optional | bool | ApiPresentation.GetSlidesCount() - 1 | The index to the end slide. |
-| bWriteLayout | Optional | bool | false | Specifies if the slide layout will be written to the JSON object or not. |
-| bWriteMaster | Optional | bool | false | Specifies if the slide master will be written to the JSON object or not (bWriteMaster is false if bWriteLayout === false). |
-| bWriteAllMasLayouts | Optional | bool | false | Specifies if all child layouts from the slide master will be written to the JSON object or not. |
-| bWriteTableStyles | Optional | bool | false | Specifies whether to write used table styles to the JSON object (true) or not (false). |
+| nStart | Optional | boolean | 0 | The index to the start slide. |
+| nStart | Optional | boolean | ApiPresentation.GetSlidesCount() - 1 | The index to the end slide. |
+| bWriteLayout | Optional | boolean | false | Specifies if the slide layout will be written to the JSON object or not. |
+| bWriteMaster | Optional | boolean | false | Specifies if the slide master will be written to the JSON object or not (bWriteMaster is false if bWriteLayout === false). |
+| bWriteAllMasLayouts | Optional | boolean | false | Specifies if all child layouts from the slide master will be written to the JSON object or not. |
+| bWriteTableStyles | Optional | boolean | false | Specifies whether to write used table styles to the JSON object (true) or not (false). |
 
 ## Returns
 
@@ -29,7 +29,7 @@ JSON[]
 
 This example shows how to convert the slides from the current ApiPresentation object into the JSON objects.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

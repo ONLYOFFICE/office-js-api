@@ -18,7 +18,7 @@ Object
 
 ## Example
 
-```javascript
+```javascript editor-xlsx
 window.saveImage = function () {
     let imageSrc = imageEditor.toDataURL();
     let editorDimension = imageEditor.getCanvasSize();

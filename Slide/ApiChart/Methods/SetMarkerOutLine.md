@@ -27,7 +27,7 @@ boolean
 
 This example sets the outline to the marker in the specified chart series.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

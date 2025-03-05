@@ -25,7 +25,7 @@ boolean
 
 This example adds the slide master to the presentation slide masters collection.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = Api.CreateMaster();

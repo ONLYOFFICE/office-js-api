@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example shows how to get the shape inner contents where a paragraph or text runs can be inserted.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));

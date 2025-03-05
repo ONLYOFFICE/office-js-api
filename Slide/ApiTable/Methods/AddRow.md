@@ -25,7 +25,7 @@ expression.AddRow(oCell, isBefore);
 
 This example adds a new row to the table.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oTable = Api.CreateTable(2, 4);
 oTable.AddRow(1, true);

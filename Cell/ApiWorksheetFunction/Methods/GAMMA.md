@@ -14,7 +14,7 @@ expression.GAMMA(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The value for which the gamma function will be calculated. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | The value for which the gamma function will be calculated. |
 
 ## Returns
 
@@ -24,11 +24,11 @@ number
 
 
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.GAMMA(2.7);
-oWorksheet.GetRange("B2").SetValue(ans);
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+let ans = func.GAMMA(2.7);
+worksheet.GetRange("B2").SetValue(ans);
 
 
 ```

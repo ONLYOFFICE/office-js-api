@@ -22,7 +22,7 @@ string
 
 This example shows how to get the hyperlink address.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let run = Api.CreateRun();

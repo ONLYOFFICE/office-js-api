@@ -16,13 +16,13 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[twips](../../Enumeration/twips.md) | undefined
+[twips](../../Enumeration/twips.md) \| undefined
 
 ## Example
 
 This example shows how to get the paragraph left side indentation.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

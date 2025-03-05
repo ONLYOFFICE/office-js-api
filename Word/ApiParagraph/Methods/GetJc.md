@@ -16,13 +16,13 @@ This method doesn't have any parameters.
 
 ## Returns
 
-"left" | "right" | "both" | "center" | undefined
+"left" \| "right" \| "both" \| "center" \| undefined
 
 ## Example
 
 This example shows how to get the paragraph contents justification.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let paraPr = paragraph.GetParaPr();

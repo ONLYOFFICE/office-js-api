@@ -24,7 +24,7 @@ boolean
 
 This example adds an object (image, shape or chart) to the current presentation slide.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

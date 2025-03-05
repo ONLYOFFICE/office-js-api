@@ -22,11 +22,11 @@ number
 
 This example shows how to get a value that represents a number of objects in the collection.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var oRange = oWorksheet.GetRange("B1");
-oRange.SetValue("This is just a sample text.");
-var oCharacters = oRange.GetCharacters(23, 4);
-var nCount = oCharacters.GetCount();
-oWorksheet.GetRange("B3").SetValue("Number of characters: " + nCount);
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let range = worksheet.GetRange("B1");
+range.SetValue("This is just a sample text.");
+let characters = range.GetCharacters(23, 4);
+let count = characters.GetCount();
+worksheet.GetRange("B3").SetValue("Number of characters: " + count);
 ```

@@ -18,13 +18,13 @@ expression.Duplicate(nPos);
 
 ## Returns
 
-[ApiMaster](../../ApiMaster/ApiMaster.md) | null
+[ApiMaster](../../ApiMaster/ApiMaster.md) \| null
 
 ## Example
 
 This example creates a duplicate of the specified slide master object, adds the new slide master to the slide masters collection.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

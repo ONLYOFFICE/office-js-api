@@ -14,7 +14,7 @@ expression.SetTimeUTC(nTimeStamp);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| nTimeStamp | Required | Number | String |  | The timestamp of the comment creation in UTC format. |
+| nTimeStamp | Required | Number \| String |  | The timestamp of the comment creation in UTC format. |
 
 ## Returns
 
@@ -24,7 +24,7 @@ expression.SetTimeUTC(nTimeStamp);
 
 This example sets the timestamp of the comment creation in UTC format.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is just a sample text");

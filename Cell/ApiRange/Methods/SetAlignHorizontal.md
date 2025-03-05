@@ -14,7 +14,7 @@ expression.SetAlignHorizontal(sAlignment);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sAlignment | Required | 'left' | 'right' | 'center' | 'justify' |  | The horizontal alignment that will be applied to the cell contents. |
+| sAlignment | Required | 'left' \| 'right' \| 'center' \| 'justify' |  | The horizontal alignment that will be applied to the cell contents. |
 
 ## Returns
 
@@ -24,9 +24,9 @@ boolean
 
 This example sets the horizontal alignment of the text in the cell range.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.GetRange("A2").SetValue("2");
-var oRange = oWorksheet.GetRange("A1:D5");
-oRange.SetAlignHorizontal("center");
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+worksheet.GetRange("A2").SetValue("2");
+let range = worksheet.GetRange("A1:D5");
+range.SetAlignHorizontal("center");
 ```

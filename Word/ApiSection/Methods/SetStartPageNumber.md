@@ -24,7 +24,7 @@ boolean
 
 This example sets a custom start page index for section
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This section starts with second page number");

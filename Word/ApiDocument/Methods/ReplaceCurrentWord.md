@@ -15,7 +15,7 @@ expression.ReplaceCurrentWord(sReplace, sPart);
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | sReplace | Required | string |  | The string to replace the current word with. |
-| sPart | Required | undefined | "before" | "after" |  | The desired part of the current word to be replaced. |
+| sPart | Required | undefined \| "before" \| "after" |  | The desired part of the current word to be replaced. |
 
 ## Returns
 
@@ -25,7 +25,7 @@ boolean
 
 This example shows how to replace the current word.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let para1 = doc.GetElement(0);
 para1.AddText("The quick brown ");

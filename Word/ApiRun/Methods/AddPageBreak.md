@@ -22,7 +22,7 @@ This method doesn't return any data.
 
 This example adds a page break and starts the next element from a new page.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let run = Api.CreateRun();

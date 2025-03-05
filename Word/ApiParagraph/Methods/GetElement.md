@@ -24,7 +24,7 @@ expression.GetElement(nPos);
 
 This example shows how to get a paragraph element using the position specified.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = Api.CreateParagraph();
 paragraph.RemoveAllElements();

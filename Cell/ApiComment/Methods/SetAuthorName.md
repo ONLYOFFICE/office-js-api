@@ -24,12 +24,12 @@ This method doesn't return any data.
 
 This example sets the comment author's name.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.GetRange("A1").SetValue("1");
-var oRange = oWorksheet.GetRange("A1");
-var oComment = oRange.AddComment("This is just a number.", "John Smith");
-oWorksheet.GetRange("A3").SetValue("Comment's author: ");
-oComment.SetAuthorName("Mark Potato");
-oWorksheet.GetRange("B3").SetValue(oComment.GetAuthorName());
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+worksheet.GetRange("A1").SetValue("1");
+let range = worksheet.GetRange("A1");
+let comment = range.AddComment("This is just a number.", "John Smith");
+worksheet.GetRange("A3").SetValue("Comment's author: ");
+comment.SetAuthorName("Mark Potato");
+worksheet.GetRange("B3").SetValue(comment.GetAuthorName());
 ```

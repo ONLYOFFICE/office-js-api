@@ -14,7 +14,7 @@ expression.ISODD(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The value to test. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | The value to test. |
 
 ## Returns
 
@@ -24,11 +24,11 @@ boolean
 
 
 
-```javascript
-const oWorksheet = Api.GetActiveSheet();
+```javascript editor-xlsx
+const worksheet = Api.GetActiveSheet();
 
-var oFunction = Api.GetWorksheetFunction();
-var result = oFunction.ISODD("94");
-oWorksheet.GetRange("C3").SetValue(result);
+let func = Api.GetWorksheetFunction();
+let result = func.ISODD("94");
+worksheet.GetRange("C3").SetValue(result);
 
 ```

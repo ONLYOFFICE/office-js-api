@@ -22,7 +22,7 @@ boolean
 
 This example removes the table row.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

@@ -24,7 +24,7 @@ expression.GetLevel(nLevel);
 
 This example shows how to get the specified level of the numbering.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("bullet");
 for (let nLvl = 0; nLvl < 8; ++nLvl) {

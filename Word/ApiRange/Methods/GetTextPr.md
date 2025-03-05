@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example get the text properties from the Range.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("Welcome to ONLYOFFICE Document Builder");

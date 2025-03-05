@@ -24,7 +24,7 @@ expression.GetElement(nPos);
 
 This example shows how to get the hyperlink element using the position specified.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let run1 = Api.CreateRun();

@@ -14,7 +14,7 @@ expression.SetDataPointNumFormat(sFormat, nSeria, nDataPoint, bAllSeries);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sFormat | Required | [NumFormat](../../Enumeration/NumFormat.md) | String |  | Numeric format (can be custom format). |
+| sFormat | Required | [NumFormat](../../Enumeration/NumFormat.md) \| String |  | Numeric format (can be custom format). |
 | nSeria | Required | Number |  | Series index. |
 | nDataPoint | Required | number |  | The index of the data point in the specified chart series. |
 | bAllSeries | Required | boolean |  | Specifies if the numeric format will be applied to the specified data point in all series. |
@@ -27,7 +27,7 @@ boolean
 
 This example sets "0.00" numeric format for chart.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

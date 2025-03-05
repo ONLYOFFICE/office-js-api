@@ -18,13 +18,13 @@ expression.InsertInContentControl(nType);
 
 ## Returns
 
-[ApiParagraph](../../ApiParagraph/ApiParagraph.md) | [ApiBlockLvlSdt](../../ApiBlockLvlSdt/ApiBlockLvlSdt.md)
+[ApiParagraph](../../ApiParagraph/ApiParagraph.md) \| [ApiBlockLvlSdt](../../ApiBlockLvlSdt/ApiBlockLvlSdt.md)
 
 ## Example
 
 This example wraps the paragraph object with a rich text content control.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = Api.CreateParagraph();
 paragraph.AddText("This is a paragraph inserted into the content control.");

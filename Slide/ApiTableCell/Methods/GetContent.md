@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example shows how to get the current cell content.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oTable = Api.CreateTable(2, 4);
 var oRow = oTable.GetRow(0);

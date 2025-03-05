@@ -22,7 +22,7 @@ JSON
 
 This example converts the ApiStroke object into the JSON object.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let rgbColor = Api.CreateRGBColor(255, 111, 61);

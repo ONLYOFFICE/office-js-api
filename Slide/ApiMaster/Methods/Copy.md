@@ -16,13 +16,13 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiMaster](../../ApiMaster/ApiMaster.md) | null
+[ApiMaster](../../ApiMaster/ApiMaster.md) \| null
 
 ## Example
 
 This example shows how to creates a copy of the specified slide master object.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

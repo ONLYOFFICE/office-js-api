@@ -22,28 +22,28 @@ string[]
 
 This example shows how to get all font names from all elements inside the run.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oShape = oWorksheet.AddShape("flowChartOnlineStorage", 120 * 36000, 70 * 36000, oFill, oStroke, 0, 2 * 36000, 0, 3 * 36000);
-var oDocContent = oShape.GetContent();
-var oParagraph = oDocContent.GetElement(0);
-var oRun = Api.CreateRun();
-oRun.AddText("This is just a sample text. ");
-oParagraph.AddElement(oRun);
-oRun = Api.CreateRun();
-oRun.SetFontFamily("Comic Sans MS");
-oRun.AddText("This is a text run with the font family set to 'Comic Sans MS'.");
-oParagraph.AddElement(oRun);
-oParagraph.AddLineBreak();
-var aFontNames = oRun.GetFontNames();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Run font names: ");
-oParagraph.AddLineBreak();
-for (let i = 0; i < aFontNames.length; i++ ){
-	oParagraph.AddText(aFontNames[i]);
-	oParagraph.AddLineBreak();
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+let stroke = Api.CreateStroke(0, Api.CreateNoFill());
+let shape = worksheet.AddShape("flowChartOnlineStorage", 120 * 36000, 70 * 36000, fill, stroke, 0, 2 * 36000, 0, 3 * 36000);
+let content = shape.GetContent();
+let paragraph = content.GetElement(0);
+let run = Api.CreateRun();
+run.AddText("This is just a sample text. ");
+paragraph.AddElement(run);
+run = Api.CreateRun();
+run.SetFontFamily("Comic Sans MS");
+run.AddText("This is a text run with the font family set to 'Comic Sans MS'.");
+paragraph.AddElement(run);
+paragraph.AddLineBreak();
+let fontNames = run.GetFontNames();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Run font names: ");
+paragraph.AddLineBreak();
+for (let i = 0; i < fontNames.length; i++) {
+    paragraph.AddText(fontNames[i]);
+    paragraph.AddLineBreak();
 }
-oDocContent.Push(oParagraph);
+content.Push(paragraph);
 ```

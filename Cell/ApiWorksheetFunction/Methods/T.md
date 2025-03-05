@@ -14,18 +14,18 @@ expression.T(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number | string | boolean |  | The value to test. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number \| string \| boolean |  | The value to test. |
 
 ## Returns
 
-[ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | string
+[ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| string
 
 ## Example
 
 
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue(oFunction.T("date and time"));
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue(func.T("date and time"));
 ```

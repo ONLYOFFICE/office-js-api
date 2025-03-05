@@ -24,7 +24,7 @@ boolean
 
 This example removes an element using the position specified from the inline text content control.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let inlineLvlSdt = Api.CreateInlineLvlSdt();

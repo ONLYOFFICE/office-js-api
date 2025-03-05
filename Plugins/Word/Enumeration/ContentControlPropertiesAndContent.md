@@ -17,7 +17,7 @@ Object
 
 ## Example
 
-```javascript
+```javascript editor-docx
 let documents = [{
     "Props": {
         "Id": 100,

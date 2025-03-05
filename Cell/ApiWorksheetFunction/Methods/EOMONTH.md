@@ -14,8 +14,8 @@ expression.EOMONTH(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | A serial date number that represents the start date. |
-| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The number of months before or after the start date. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | A serial date number that represents the start date. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | The number of months before or after the start date. |
 
 ## Returns
 
@@ -25,12 +25,12 @@ number
 
 
 
-```javascript
-const oWorksheet = Api.GetActiveSheet();
+```javascript editor-xlsx
+const worksheet = Api.GetActiveSheet();
 
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.EOMONTH("3/16/2018", 10); 
+let func = Api.GetWorksheetFunction();
+let ans = func.EOMONTH("3/16/2018", 10); 
 
-oWorksheet.GetRange("C1").SetValue(ans);
+worksheet.GetRange("C1").SetValue(ans);
 
 ```

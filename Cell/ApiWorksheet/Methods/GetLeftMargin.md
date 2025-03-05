@@ -20,10 +20,10 @@ number
 
 ## Example
 
-This example shows how to get the left margin of the sheet.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var nLeftMargin = oWorksheet.GetLeftMargin();
-oWorksheet.GetRange("A1").SetValue("Left margin: " + nLeftMargin + " mm");
+
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let leftMargin = worksheet.GetLeftMargin();
+worksheet.GetRange("A1").SetValue("Left margin: " + leftMargin + " mm");
 ```

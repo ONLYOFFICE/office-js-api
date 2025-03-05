@@ -24,7 +24,7 @@ boolean
 
 This example shows how to set the placeholder text for the content control.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();
 doc.AddElement(0, blockLvlSdt);

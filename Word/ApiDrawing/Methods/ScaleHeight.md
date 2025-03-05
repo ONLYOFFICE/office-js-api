@@ -24,7 +24,7 @@ boolean
 
 This example scales the height of the figure using the specified coefficient.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 for (let i = 3; i > 0; i--) {

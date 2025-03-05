@@ -1,12 +1,6 @@
 # SetTableLook
 
-Specifies the components of the conditional formatting of the referenced table style (if one exists)
-which shall be applied to the set of table rows with the current table-level property exceptions. A table style
-can specify up to six different optional conditional formats [Example: Different formatting for first column],
-which then can be applied or omitted from individual table rows in the parent table.
-
-The default setting is to apply the row and column banding formatting, but not the first row, last row, first
-column, or last column formatting.
+Specifies the components of the conditional formatting of the referenced table style (if one exists)which shall be applied to the set of table rows with the current table-level property exceptions. A table stylecan specify up to six different optional conditional formats [Example: Different formatting for first column],which then can be applied or omitted from individual table rows in the parent table.The default setting is to apply the row and column banding formatting, but not the first row, last row, firstcolumn, or last column formatting.
 
 ## Syntax
 
@@ -35,7 +29,7 @@ This method doesn't return any data.
 
 This example shows how to set table lock.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oTable = Api.CreateTable(2, 4);
 oTable.SetTableLook(true, false, false, false, false, true);

@@ -16,13 +16,13 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiImage[]](../../ApiImage/ApiImage.md)
+[ApiImage](../../ApiImage/ApiImage.md)[]
 
 ## Example
 
 This example shows how to get a collection of image objects from the document content.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));

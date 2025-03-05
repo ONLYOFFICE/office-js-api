@@ -24,7 +24,7 @@ JSON
 
 This example converts the ApiInlineLvlSdt object into the JSON object.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let inlineLvlSdt = Api.CreateInlineLvlSdt();

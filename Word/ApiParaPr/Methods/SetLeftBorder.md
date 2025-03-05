@@ -29,7 +29,7 @@ This method doesn't return any data.
 
 This example specifies the border which will be displayed at the left side of the page around the specified paragraph.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");
 let paraPr = myStyle.GetParaPr();

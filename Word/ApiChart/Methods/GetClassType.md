@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example gets a type of ApiChart class and inserts it into the document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

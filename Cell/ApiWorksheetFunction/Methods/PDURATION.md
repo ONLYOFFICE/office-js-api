@@ -14,9 +14,9 @@ expression.PDURATION(arg1, arg2, arg3);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The interest rate per period. |
-| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The present value of the investment. |
-| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The desired future value of the investment. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | The interest rate per period. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | The present value of the investment. |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | The desired future value of the investment. |
 
 ## Returns
 
@@ -26,8 +26,8 @@ number
 
 
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue(oFunction.PDURATION("2.50%", 2000, 2200));
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue(func.PDURATION("2.50%", 2000, 2200));
 ```

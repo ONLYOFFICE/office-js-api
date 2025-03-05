@@ -22,7 +22,7 @@ This method doesn't return any data.
 
 This example selects the content control.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();
 blockLvlSdt.GetContent().GetElement(0).AddText("The block text content control is selected.");

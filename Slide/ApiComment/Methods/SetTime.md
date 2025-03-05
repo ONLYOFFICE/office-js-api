@@ -14,7 +14,7 @@ expression.SetTime(nTimeStamp);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| nTimeStamp | Required | Number | String |  | The timestamp of the comment creation in the current time zone format. |
+| nTimeStamp | Required | Number \| String |  | The timestamp of the comment creation in the current time zone format. |
 
 ## Returns
 
@@ -24,7 +24,7 @@ expression.SetTime(nTimeStamp);
 
 
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 Api.pluginMethod_AddComment({"UserName": "John Smith", "Text": "Comment 1"});
 var arrComments = oPresentation.GetAllComments();

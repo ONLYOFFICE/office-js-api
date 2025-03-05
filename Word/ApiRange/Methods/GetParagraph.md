@@ -18,13 +18,13 @@ expression.GetParagraph(nPos);
 
 ## Returns
 
-[ApiParagraph](../../ApiParagraph/ApiParagraph.md) | null
+[ApiParagraph](../../ApiParagraph/ApiParagraph.md) \| null
 
 ## Example
 
 This example shows how to get a paragraph from all the paragraphs that are in the range.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let firstParagraph = doc.GetElement(0);
 firstParagraph.AddText("First paragraph");

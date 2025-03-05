@@ -27,7 +27,7 @@ This method doesn't return any data.
 
 This example specifies which chart data labels are shown for the chart.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

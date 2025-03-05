@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example inserts a number of pages in the current document into the paragraph.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("First page");

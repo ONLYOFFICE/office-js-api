@@ -19,13 +19,13 @@ expression.GetCell(nRow, nCell);
 
 ## Returns
 
-[ApiTableCell](../../ApiTableCell/ApiTableCell.md) | null
+[ApiTableCell](../../ApiTableCell/ApiTableCell.md) \| null
 
 ## Example
 
 This example shows how to get a cell by its position.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

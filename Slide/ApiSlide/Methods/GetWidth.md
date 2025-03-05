@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example shows how to get the slide width in English measure units.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 oPresentation.SetSizes(254 * 36000, 190 * 36000);
 var oSlide = oPresentation.GetCurrentSlide();

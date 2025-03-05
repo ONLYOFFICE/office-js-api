@@ -24,7 +24,7 @@ expression.SetTextPr(oTextPr);
 
 This example sets the text properties to the current run.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let run = Api.CreateRun();

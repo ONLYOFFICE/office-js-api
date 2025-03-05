@@ -2,10 +2,13 @@
 
 Represents the ApiThemeFontScheme class.
 
+
 ## Methods
 
-- [GetClassType](./Methods/GetClassType.md)
-- [SetSchemeName](./Methods/SetSchemeName.md)
-- [SetFonts](./Methods/SetFonts.md)
-- [Copy](./Methods/Copy.md)
-- [ToJSON](./Methods/ToJSON.md)
+| Method | Returns | Description |
+| ------ | ------- | ----------- |
+| [GetClassType](./Methods/GetClassType.md) | "themeFontScheme" | Returns the type of the ApiThemeFontScheme class. |
+| [SetSchemeName](./Methods/SetSchemeName.md) | boolean | Sets a name to the current theme font scheme. |
+| [SetFonts](./Methods/SetFonts.md) | None | Sets the fonts to the current theme font scheme. |
+| [Copy](./Methods/Copy.md) | [ApiThemeFontScheme](../ApiThemeFontScheme/ApiThemeFontScheme.md) | Creates a copy of the current theme font scheme. |
+| [ToJSON](./Methods/ToJSON.md) | JSON | Converts the ApiThemeFontScheme object into the JSON object. |

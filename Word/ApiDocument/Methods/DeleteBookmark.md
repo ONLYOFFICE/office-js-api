@@ -24,7 +24,7 @@ boolean
 
 This example removes a bookmark from the document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument(); 
 let paragraph = doc.GetElement(0); 
 paragraph.AddText("ONLYOFFICE Document Builder "); 

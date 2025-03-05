@@ -16,13 +16,13 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiChart[]](../../ApiChart/ApiChart.md)
+[ApiChart](../../ApiChart/ApiChart.md)[]
 
 ## Example
 
 This example shows how to get a collection of chart objects from the document content.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));

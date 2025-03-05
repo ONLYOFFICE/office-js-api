@@ -14,8 +14,8 @@ expression.T_INV_2T(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The probability associated with the two-tailed Student's t-distribution, a number between 0 and 1 inclusive. |
-| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | A positive integer indicating the number of degrees of freedom to characterize the distribution. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | The probability associated with the two-tailed Student's t-distribution, a number between 0 and 1 inclusive. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | A positive integer indicating the number of degrees of freedom to characterize the distribution. |
 
 ## Returns
 
@@ -25,8 +25,8 @@ number
 
 
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue(oFunction.T_INV_2T(0.5, 10));
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue(func.T_INV_2T(0.5, 10));
 ```

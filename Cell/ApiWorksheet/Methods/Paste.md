@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example shows how to paste date from clipboard.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.Paste();
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+worksheet.Paste();
 ```

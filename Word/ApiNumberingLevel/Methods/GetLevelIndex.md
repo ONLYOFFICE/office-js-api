@@ -22,7 +22,7 @@ number
 
 This example shows how to get the level index.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("numbered");
 let numLvl = numbering.GetLevel(0);

@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example creates a copy of the current theme color scheme.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide1 = oPresentation.GetSlideByIndex(0);
 oSlide1.RemoveAllObjects();

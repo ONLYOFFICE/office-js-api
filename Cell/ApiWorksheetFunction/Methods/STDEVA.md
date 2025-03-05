@@ -14,7 +14,7 @@ expression.STDEVA(args);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| args | Required | number[] | number | string | boolean | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) |  | Up to 255 values for which the standard deviation will be calculated. The first argument is required, subsequent arguments are optional. Arguments can be numbers, logical values, text strings, names, ranges, or arrays. |
+| args | Required | number[] \| number \| string \| boolean \| [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) |  | Up to 255 values for which the standard deviation will be calculated. The first argument is required, subsequent arguments are optional. Arguments can be numbers, logical values, text strings, names, ranges, or arrays. |
 
 ## Returns
 
@@ -24,18 +24,18 @@ number
 
 
 
-```javascript
-const oWorksheet = Api.GetActiveSheet();
+```javascript editor-xlsx
+const worksheet = Api.GetActiveSheet();
 
-var valueArr = [1, 0, 0, 0, "text", 1, 0, 0, 2, 3, true, false, 6, 8, 10, 12];
+let valueArr = [1, 0, 0, 0, "text", 1, 0, 0, 2, 3, true, false, 6, 8, 10, 12];
 
 // Place the numbers in cells
-for (var i = 0; i < valueArr.length; i++) {
-  oWorksheet.GetRange("A" + (i + 1)).SetValue(valueArr[i]);
+for (let i = 0; i < valueArr.length; i++) {
+  worksheet.GetRange("A" + (i + 1)).SetValue(valueArr[i]);
 }
 
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.STDEVA(
+let func = Api.GetWorksheetFunction();
+let ans = func.STDEVA(
   1,
   0,
   0,
@@ -54,6 +54,6 @@ var ans = oFunction.STDEVA(
   12
 ); //includes logical values
 
-oWorksheet.GetRange("C1").SetValue(ans);
+worksheet.GetRange("C1").SetValue(ans);
 
 ```

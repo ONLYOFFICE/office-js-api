@@ -6,13 +6,13 @@ An object containing the watermark properties.
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| transparent | float | The watermark transparency degree. |
+| transparent | number | The watermark transparency degree. |
 | type | string | The &#123;@link /docbuilder/global#ShapeType shape type&#125; which specifies the preset shape geometry for the current watermark. |
 | width | number | The watermark width measured in millimeters. |
 | height | number | The watermark height measured in millimeters. |
 | rotate | number | The watermark rotation angle measured in degrees. |
 | margins | number[] | The text margins measured in millimeters in the watermark shape. |
-| fill | number[] | string | The watermark fill color in the RGB format, or the URL to image (base64 support: data:image/png;...). The empty array [] means that the watermark has no fill. |
+| fill | number[] \| string | The watermark fill color in the RGB format, or the URL to image (base64 support: data:image/png;...). The empty array [] means that the watermark has no fill. |
 | stroke-width | number | The watermark stroke width measured in millimeters. |
 | stroke | number[] | The watermark stroke color in the RGB format. The empty array [] means that the watermark stroke has no fill. |
 | align | number | The vertical text align in the watermark shape: **0** - bottom, **1** - center, **4** - top. |

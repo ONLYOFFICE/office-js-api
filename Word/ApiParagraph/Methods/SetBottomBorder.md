@@ -1,8 +1,6 @@
 # SetBottomBorder
 
-Specifies the border which will be displayed below a set of paragraphs which have the same paragraph border settings.
-💡 The paragraphs of the same style going one by one are considered as a single block, so the border is added
-to the whole block rather than to every paragraph in this block.
+Specifies the border which will be displayed below a set of paragraphs which have the same paragraph border settings.💡 The paragraphs of the same style going one by one are considered as a single block, so the border is addedto the whole block rather than to every paragraph in this block.
 
 ## Syntax
 
@@ -31,7 +29,7 @@ This method doesn't return any data.
 
 This example specifies the border which will be displayed below a set of paragraphs which have the same paragraph border settings.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");
 let paraPr = myStyle.GetParaPr();

@@ -21,13 +21,13 @@ expression.SetShd(sType, r, g, b);
 
 ## Returns
 
-[ApiRange](../../ApiRange/ApiRange.md) | null
+[ApiRange](../../ApiRange/ApiRange.md) \| null
 
 ## Example
 
 This example specifies the shading applied to the contents of the current text Range.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("ONLYOFFICE Document Builder");

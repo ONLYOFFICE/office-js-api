@@ -24,7 +24,7 @@ JSON
 
 This example converts the ApiStyle object into the JSON object.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let tableStyle = doc.GetStyle("Bordered");
 let json = tableStyle.ToJSON(false);

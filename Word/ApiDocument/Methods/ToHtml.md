@@ -27,7 +27,7 @@ string
 
 This example converts a document to HTML.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph1 = doc.GetElement(0);
 paragraph1.AddText("Heading 1");

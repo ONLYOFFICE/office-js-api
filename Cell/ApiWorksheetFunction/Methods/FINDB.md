@@ -14,9 +14,9 @@ expression.FINDB(arg1, arg2, arg3);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | string |  | The text to find. Use double quotes (empty text) to match the first character in the search string. Wildcard characters are not allowed. |
-| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | string |  | The text containing the text to find. |
-| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | Specifies the character at which to start the search. The first character in the search string is character number 1. If omitted, this parameter is equal to 1. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| string |  | The text to find. Use double quotes (empty text) to match the first character in the search string. Wildcard characters are not allowed. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| string |  | The text containing the text to find. |
+| arg3 | Optional | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | Specifies the character at which to start the search. The first character in the search string is character number 1. If omitted, this parameter is equal to 1. |
 
 ## Returns
 
@@ -26,8 +26,8 @@ number
 
 
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue(oFunction.FINDB("line", "Online Office"));
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue(func.FINDB("line", "Online Office"));
 ```

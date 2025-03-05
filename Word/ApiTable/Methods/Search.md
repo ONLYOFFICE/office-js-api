@@ -19,13 +19,13 @@ expression.Search(sText, isMatchCase);
 
 ## Returns
 
-[ApiRange[]](../../ApiRange/ApiRange.md)
+[ApiRange](../../ApiRange/ApiRange.md)[]
 
 ## Example
 
 This example shows how to make search in table.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

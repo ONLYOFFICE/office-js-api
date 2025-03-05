@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let section = doc.GetFinalSection();

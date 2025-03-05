@@ -24,7 +24,7 @@ boolean
 
 This example sets the vertical alignment to the table.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("The table was added to the bottom of the page. Scroll down to see it."); 

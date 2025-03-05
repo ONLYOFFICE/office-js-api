@@ -22,9 +22,9 @@ number
 
 This example shows how to get the current locale ID.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
 Api.SetLocale("en-CA");
-var nLocale = Api.GetLocale();
-oWorksheet.GetRange("A1").SetValue("Locale: " + nLocale);
+let locale = Api.GetLocale();
+worksheet.GetRange("A1").SetValue("Locale: " + locale);
 ```

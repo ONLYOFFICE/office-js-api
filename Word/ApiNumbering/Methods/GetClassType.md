@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example gets a class type and inserts it into the document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("bullet");
 for (let nLvl = 0; nLvl < 8; ++nLvl) {

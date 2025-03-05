@@ -14,7 +14,7 @@ expression.OR(args);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| args | Required | number | string | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | boolean |  | A condition to check. |
+| args | Required | number \| string \| [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| boolean |  | A condition to check. |
 
 ## Returns
 
@@ -24,17 +24,17 @@ boolean
 
 
 
-```javascript
-const oWorksheet = Api.GetActiveSheet();
+```javascript editor-xlsx
+const worksheet = Api.GetActiveSheet();
 
-oWorksheet.GetRange("A1").SetValue(12);
+worksheet.GetRange("A1").SetValue(12);
 
-var logical1 = oWorksheet.GetRange("A1") < 10;
-var logical2 = 34 < 10;
-var logical3 = 50 < 10;
+let logical1 = worksheet.GetRange("A1") < 10;
+let logical2 = 34 < 10;
+let logical3 = 50 < 10;
 
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.OR(logical1, logical2, logical3);
-oWorksheet.GetRange("C1").SetValue(ans);
+let func = Api.GetWorksheetFunction();
+let ans = func.OR(logical1, logical2, logical3);
+worksheet.GetRange("C1").SetValue(ans);
 
 ```

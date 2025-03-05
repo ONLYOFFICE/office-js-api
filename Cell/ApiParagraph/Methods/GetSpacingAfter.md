@@ -22,22 +22,22 @@ This method doesn't have any parameters.
 
 This example shows how to get the spacing after value of the current paragraph.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oShape = oWorksheet.AddShape("flowChartOnlineStorage", 120 * 36000, 70 * 36000, oFill, oStroke, 0, 2 * 36000, 0, 3 * 36000);
-var oDocContent = oShape.GetContent();
-var oParagraph = oDocContent.GetElement(0);
-var oParaPr = oParagraph.GetParaPr();
-oParaPr.SetSpacingAfter(1440);
-oParagraph.AddText("This is an example of setting a space after a paragraph. ");
-oParagraph.AddText("The second paragraph will have an offset of one inch from the top. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes.");
-var nSpacingAfter = oParaPr.GetSpacingAfter();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Spacing after : " + nSpacingAfter);
-oDocContent.Push(oParagraph);
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+let stroke = Api.CreateStroke(0, Api.CreateNoFill());
+let shape = worksheet.AddShape("flowChartOnlineStorage", 120 * 36000, 70 * 36000, fill, stroke, 0, 2 * 36000, 0, 3 * 36000);
+let content = shape.GetContent();
+let paragraph = content.GetElement(0);
+let paraPr = paragraph.GetParaPr();
+paraPr.SetSpacingAfter(1440);
+paragraph.AddText("This is an example of setting a space after a paragraph. ");
+paragraph.AddText("The second paragraph will have an offset of one inch from the top. ");
+paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
+paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
+paragraph.AddText("These sentences are used to add lines for demonstrative purposes.");
+let spacingAfter = paraPr.GetSpacingAfter();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Spacing after : " + spacingAfter);
+content.Push(paragraph);
 ```

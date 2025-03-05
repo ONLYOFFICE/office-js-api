@@ -14,7 +14,7 @@ expression.SetVerticalAlign(sType);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sType | Required | "top" | "center" | "bottom" |  | The type of the vertical alignment. |
+| sType | Required | "top" \| "center" \| "bottom" |  | The type of the vertical alignment. |
 
 ## Returns
 
@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example specifies the vertical alignment for text within the current table cell.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oTable = Api.CreateTable(2, 4);
 var oRow = oTable.GetRow(1);

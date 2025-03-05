@@ -22,7 +22,7 @@ JSON
 
 This example converts the ApiNumbering object into the JSON object.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("bullet");
 let json = numbering.ToJSON();

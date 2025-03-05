@@ -16,11 +16,11 @@ This method doesn't have any parameters.
 
 ## Returns
 
-string | null
+string \| null
 
 ## Example
 
-```javascript
+```javascript editor-docx
 window.Asc.plugin.executeMethod ("GetVBAMacros", null, function (data) {
     if (data && typeof data === 'string' && data.includes ('<Module')) {
         var arr = data.split ('<Module ').filter (function (el) {return el.includes ('Type="Procedural"')});

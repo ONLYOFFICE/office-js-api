@@ -14,7 +14,7 @@ expression.PHI(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The number for which the density of the standard normal distribution will be returned. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | The number for which the density of the standard normal distribution will be returned. |
 
 ## Returns
 
@@ -24,17 +24,17 @@ number
 
 
 
-```javascript
-const oWorksheet = Api.GetActiveSheet();
+```javascript editor-xlsx
+const worksheet = Api.GetActiveSheet();
 
 //method params
-var number = 5;
+let number = 5;
 
-oWorksheet.GetRange("A1").SetValue(number);
+worksheet.GetRange("A1").SetValue(number);
 
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.PHI(number);
+let func = Api.GetWorksheetFunction();
+let ans = func.PHI(number);
 
-oWorksheet.GetRange("C1").SetValue(ans);
+worksheet.GetRange("C1").SetValue(ans);
 
 ```

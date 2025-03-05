@@ -24,7 +24,7 @@ boolean
 
 This example sets the visibility to the current presentation slide.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = Api.CreateSlide();
 oSlide.SetVisible(false);

@@ -16,19 +16,19 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiColor](../../ApiColor/ApiColor.md) | 'No Fill'
+[ApiColor](../../ApiColor/ApiColor.md) \| 'No Fill'
 
 ## Example
 
 This example shows how to get the background color for the cell range.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.SetColumnWidth(0, 60);
-var oRange = oWorksheet.GetRange("A1");
-oRange.SetFillColor(Api.CreateColorFromRGB(255, 213, 191));
-oRange.SetValue("This is the cell with a color set to its background.");
-var oFillColor = oRange.GetFillColor();
-oWorksheet.GetRange("A3").SetValue("This is another cell with the same color set to its background");
-oWorksheet.GetRange("A3").SetFillColor(oFillColor);
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+worksheet.SetColumnWidth(0, 60);
+let range = worksheet.GetRange("A1");
+range.SetFillColor(Api.CreateColorFromRGB(255, 213, 191));
+range.SetValue("This is the cell with a color set to its background.");
+let fillColor = range.GetFillColor();
+worksheet.GetRange("A3").SetValue("This is another cell with the same color set to its background");
+worksheet.GetRange("A3").SetFillColor(fillColor);
 ```

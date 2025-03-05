@@ -16,17 +16,17 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiComment[]](../../ApiComment/ApiComment.md)
+[ApiComment](../../ApiComment/ApiComment.md)[]
 
 ## Example
 
 
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
 Api.AddComment("Comment 1", "John Smith");
-oWorksheet.GetRange("A4").AddComment("Comment 2", "Mark Potato" );
-var arrComments = Api.GetAllComments();
-oWorksheet.GetRange("A1").SetValue("Comment text: " + arrComments[1].GetText());
-oWorksheet.GetRange("A2").SetValue("Comment author: " + arrComments[1].GetAuthorName());
+worksheet.GetRange("A4").AddComment("Comment 2", "Mark Potato");
+let arrComments = Api.GetAllComments();
+worksheet.GetRange("A1").SetValue("Comment text: " + arrComments[1].GetText());
+worksheet.GetRange("A2").SetValue("Comment author: " + arrComments[1].GetAuthorName());
 ```

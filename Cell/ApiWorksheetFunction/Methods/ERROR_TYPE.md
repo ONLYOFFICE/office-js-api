@@ -14,7 +14,7 @@ expression.ERROR_TYPE(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ErrorValue](../../Enumeration/ErrorValue.md) | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) |  | The error value for which the identifying number will be returned. It can be an actual error value or a reference to a cell containing an error value. |
+| arg1 | Required | [ErrorValue](../../Enumeration/ErrorValue.md) \| [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) |  | The error value for which the identifying number will be returned. It can be an actual error value or a reference to a cell containing an error value. |
 
 ## Returns
 
@@ -24,12 +24,12 @@ number
 
 
 
-```javascript
-const oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-var nonPositiveNum = 0;
-var logResult = oFunction.LOG(nonPositiveNum);
-oWorksheet.GetRange("B3").SetValue(logResult);
-oWorksheet.GetRange("C3").SetValue(oFunction.ERROR_TYPE(logResult));
+```javascript editor-xlsx
+const worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+let nonPositiveNum = 0;
+let logResult = func.LOG(nonPositiveNum);
+worksheet.GetRange("B3").SetValue(logResult);
+worksheet.GetRange("C3").SetValue(func.ERROR_TYPE(logResult));
 
 ```

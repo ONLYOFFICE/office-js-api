@@ -16,11 +16,11 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[FontInfo[]](../../Enumeration/FontInfo.md)
+[FontInfo](../../Enumeration/FontInfo.md)[]
 
 ## Example
 
-```javascript
+```javascript editor-pptx
 window.Asc.plugin.executeMethod ("GetFontList", null, function (res) {
     console.log (res)
 });

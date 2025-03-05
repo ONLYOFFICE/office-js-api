@@ -22,10 +22,10 @@ string[]
 
 This example shows how to get a list of all the available theme colors for the spreadsheet.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var themes = Api.GetThemesColors();
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let themes = Api.GetThemesColors();
 for (let i = 0; i < themes.length; ++i) {
-	oWorksheet.GetRange("A" + (i + 1)).SetValue(themes[i]);
+    worksheet.GetRange("A" + (i + 1)).SetValue(themes[i]);
 }
 ```

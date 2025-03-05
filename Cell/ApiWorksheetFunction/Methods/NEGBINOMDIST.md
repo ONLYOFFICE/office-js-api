@@ -14,9 +14,9 @@ expression.NEGBINOMDIST(arg1, arg2, arg3);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The number of failures. |
-| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The threshold number of successes. |
-| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The probability of a success; a number between 0 and 1. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | The number of failures. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | The threshold number of successes. |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | The probability of a success; a number between 0 and 1. |
 
 ## Returns
 
@@ -26,24 +26,24 @@ number
 
 
 
-```javascript
-const oWorksheet = Api.GetActiveSheet();
+```javascript editor-xlsx
+const worksheet = Api.GetActiveSheet();
 
-var valueArr = [6, 32, 0.7];
+let valueArr = [6, 32, 0.7];
 
 // Place the numbers in cells
-for (var i = 0; i < valueArr.length; i++) {
-  oWorksheet.GetRange("A" + (i + 1)).SetValue(valueArr[i]);
+for (let i = 0; i < valueArr.length; i++) {
+  worksheet.GetRange("A" + (i + 1)).SetValue(valueArr[i]);
 }
 
 //method params
-var numberF = oWorksheet.GetRange("A1").GetValue();
-var numberS = oWorksheet.GetRange("A2").GetValue();
-var probabilityS = oWorksheet.GetRange("A3").GetValue();
+let numberF = worksheet.GetRange("A1").GetValue();
+let numberS = worksheet.GetRange("A2").GetValue();
+let probabilityS = worksheet.GetRange("A3").GetValue();
 
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.NEGBINOMDIST(numberF, numberS, probabilityS);
+let func = Api.GetWorksheetFunction();
+let ans = func.NEGBINOMDIST(numberF, numberS, probabilityS);
 
-oWorksheet.GetRange("C1").SetValue(ans);
+worksheet.GetRange("C1").SetValue(ans);
 
 ```

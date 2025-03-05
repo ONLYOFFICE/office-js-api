@@ -18,7 +18,7 @@ Object
 
 ## Example
 
-```javascript
+```javascript editor-xlsx
 let contentControl = {
     "Tag": "Document",
     "Id": 0,

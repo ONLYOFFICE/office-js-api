@@ -19,13 +19,13 @@ expression.AddRows(nCount, isBefore);
 
 ## Returns
 
-[ApiTable](../../ApiTable/ApiTable.md) | null
+[ApiTable](../../ApiTable/ApiTable.md) \| null
 
 ## Example
 
 This example adds the new rows to the table.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

@@ -1,7 +1,6 @@
 # SetPlaceholderText
 
-Sets the placeholder text to the current form.
-Can't be set to checkbox or radio button.*
+Sets the placeholder text to the current form.Can't be set to checkbox or radio button.*
 
 ## Syntax
 
@@ -25,7 +24,7 @@ boolean
 
 This example sets the placeholder text to the form.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});
 let paragraph = doc.GetElement(0);

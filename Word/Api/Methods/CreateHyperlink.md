@@ -26,7 +26,7 @@ expression.CreateHyperlink(link, display, screenTipText);
 
 This example creates hyperlink and pastes it into the document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let hyperlink = Api.CreateHyperlink("https://api.onlyoffice.com/", "ONLYOFFICE Document Builder", "ONLYOFFICE for developers");

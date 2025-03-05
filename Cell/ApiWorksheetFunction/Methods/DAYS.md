@@ -14,8 +14,8 @@ expression.DAYS(arg1, arg2);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | Start date from which days will be counted. |
-| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | End date until which days will be counted. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | Start date from which days will be counted. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | End date until which days will be counted. |
 
 ## Returns
 
@@ -25,12 +25,12 @@ number
 
 
 
-```javascript
-const oWorksheet = Api.GetActiveSheet();
+```javascript editor-xlsx
+const worksheet = Api.GetActiveSheet();
 
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.DAYS("3/31/2018", "3/16/2018"); 
+let func = Api.GetWorksheetFunction();
+let ans = func.DAYS("3/31/2018", "3/16/2018"); 
 
-oWorksheet.GetRange("C1").SetValue(ans);
+worksheet.GetRange("C1").SetValue(ans);
 
 ```

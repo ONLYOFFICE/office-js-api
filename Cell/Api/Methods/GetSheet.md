@@ -14,17 +14,17 @@ expression.GetSheet(nameOrIndex);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| nameOrIndex | Required | string | number |  | Sheet name or sheet index. |
+| nameOrIndex | Required | string \| number |  | Sheet name or sheet index. |
 
 ## Returns
 
-[ApiWorksheet](../../ApiWorksheet/ApiWorksheet.md) | null
+[ApiWorksheet](../../ApiWorksheet/ApiWorksheet.md) \| null
 
 ## Example
 
 This example shows how to get an object that represents a sheet.
 
-```javascript
-var oWorksheet = Api.GetSheet("Sheet1");
-oWorksheet.GetRange("A1").SetValue("This is a sample text on 'Sheet1'.");
+```javascript editor-xlsx
+let worksheet = Api.GetSheet("Sheet1");
+worksheet.GetRange("A1").SetValue("This is a sample text on 'Sheet1'.");
 ```

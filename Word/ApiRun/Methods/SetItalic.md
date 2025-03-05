@@ -24,7 +24,7 @@ expression.SetItalic(isItalic);
 
 This example sets the italic property to the text character.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let textPr = doc.GetDefaultTextPr();
 textPr.SetItalic(true);

@@ -1,7 +1,6 @@
 # SetSmallCaps
 
-Specifies that all the lowercase letter characters in the current text Range are formatted for display only as their capital
-letter character equivalents which are two points smaller than the actual font size specified for this text.
+Specifies that all the lowercase letter characters in the current text Range are formatted for display only as their capitalletter character equivalents which are two points smaller than the actual font size specified for this text.
 
 ## Syntax
 
@@ -19,13 +18,13 @@ expression.SetSmallCaps(isSmallCaps);
 
 ## Returns
 
-[ApiRange](../../ApiRange/ApiRange.md) | null
+[ApiRange](../../ApiRange/ApiRange.md) \| null
 
 ## Example
 
 This example specifies that all the lowercase letter characters in the current text Range are formatted for display only as their capital letter character equivalents which are two points smaller than the actual font size specified for this text.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("ONLYOFFICE Document Builder");

@@ -16,13 +16,13 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[twips](../../Enumeration/twips.md) | undefined
+[twips](../../Enumeration/twips.md) \| undefined
 
 ## Example
 
 This example shows how to get the paragraph first line indentation.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let paraPr = paragraph.GetParaPr();

@@ -23,7 +23,7 @@ This method doesn't return any data.
 
 ## Example
 
-```javascript
+```javascript editor-xlsx
 window.Asc.plugin.executeMethod ("StartAction", ["Block", "Save to local storage..."], function () {
     setPasswordByFile ("sha256", "123456");
 

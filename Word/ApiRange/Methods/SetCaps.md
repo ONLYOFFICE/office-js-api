@@ -18,13 +18,13 @@ expression.SetCaps(isCaps);
 
 ## Returns
 
-[ApiRange](../../ApiRange/ApiRange.md) | null
+[ApiRange](../../ApiRange/ApiRange.md) \| null
 
 ## Example
 
 This example specifies that any lowercase characters in the current text Range are formatted for display only as their capital letter character equivalents.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("ONLYOFFICE Document Builder");

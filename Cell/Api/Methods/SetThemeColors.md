@@ -24,12 +24,12 @@ boolean
 
 This example sets the theme colors to the current spreadsheet.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var themes = Api.GetThemesColors();
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let themes = Api.GetThemesColors();
 for (let i = 0; i < themes.length; ++i) {
-	oWorksheet.GetRange("A" + (i + 1)).SetValue(themes[i]);
+    worksheet.GetRange("A" + (i + 1)).SetValue(themes[i]);
 }
 Api.SetThemeColors(themes[3]);
-oWorksheet.GetRange("C3").SetValue("The 'Apex' theme colors were set to the current spreadsheet.");
+worksheet.GetRange("C3").SetValue("The 'Apex' theme colors were set to the current spreadsheet.");
 ```

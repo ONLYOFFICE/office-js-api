@@ -14,7 +14,7 @@ expression.GAMMALN_PRECISE(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | number |  | The value for which the natural logarithm of the gamma function will be calculated, a positive number. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | The value for which the natural logarithm of the gamma function will be calculated, a positive number. |
 
 ## Returns
 
@@ -24,11 +24,11 @@ number
 
 
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.GAMMALN_PRECISE(0.5);
-oWorksheet.GetRange("B2").SetValue(ans);
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+let ans = func.GAMMALN_PRECISE(0.5);
+worksheet.GetRange("B2").SetValue(ans);
 
 
 ```

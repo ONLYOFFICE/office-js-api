@@ -18,13 +18,13 @@ expression.ExpandTo(oRange);
 
 ## Returns
 
-[ApiRange](../../ApiRange/ApiRange.md) | null
+[ApiRange](../../ApiRange/ApiRange.md) \| null
 
 ## Example
 
 This example returns a new range that goes beyond the specified range in any direction and spans a different range.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("Lorem ipsum dolor sit amet,");

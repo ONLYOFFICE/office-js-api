@@ -17,7 +17,7 @@ Object
 
 ## Example
 
-```javascript
+```javascript editor-docx
 let controlCheckBoxPr = {
     "Checked" : false,
     "CheckedSymbol" : 9756,

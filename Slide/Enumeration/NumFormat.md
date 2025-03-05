@@ -42,6 +42,6 @@ Enumeration
 
 This example shows how to specify that the range contents will be rotated upward.
 
-```javascript
+```javascript editor-pptx
 worksheet.GetRange("A1").SetOrientation("xlUpward");
 ```

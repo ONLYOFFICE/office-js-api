@@ -25,7 +25,7 @@ expression.CreateBlipFill(imageUrl, blipFillType);
 
 This example shows hot to create a blip fill to apply to the object using the selected image as the object background.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateBlipFill("https://static.onlyoffice.com/assets/docs/samples/img/presentation_sky.png", "tile");

@@ -14,19 +14,19 @@ expression.InsertParagraph(paragraph, sPosition, beRNewPara);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| paragraph | Required | string | [ApiParagraph](../../ApiParagraph/ApiParagraph.md) |  | Text or paragraph. |
+| paragraph | Required | string \| [ApiParagraph](../../ApiParagraph/ApiParagraph.md) |  | Text or paragraph. |
 | sPosition | Required | string |  | The position where the text or paragraph will be inserted ("before" or "after" the paragraph specified). |
 | beRNewPara | Required | boolean |  | Defines if this method returns a new paragraph (true) or the current paragraph (false). |
 
 ## Returns
 
-[ApiParagraph](../../ApiParagraph/ApiParagraph.md) | null
+[ApiParagraph](../../ApiParagraph/ApiParagraph.md) \| null
 
 ## Example
 
 This example inserts a paragraph at the specified position.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph1 = doc.GetElement(0);
 paragraph1.AddText("This is just a sample text.");

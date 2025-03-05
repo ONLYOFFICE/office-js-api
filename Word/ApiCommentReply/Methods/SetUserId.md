@@ -24,7 +24,7 @@ expression.SetUserId(sUserId);
 
 This example sets the user ID to the comment reply author.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is just a sample text");

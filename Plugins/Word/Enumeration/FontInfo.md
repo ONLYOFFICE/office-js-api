@@ -37,7 +37,7 @@ Object
 
 ## Example
 
-```javascript
+```javascript editor-docx
 let fontInfo = {
     "m_wsFontName": "Open Sans",
     "m_wsFontPath": "OpenSans-Bold.ttf",

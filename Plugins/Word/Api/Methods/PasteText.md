@@ -22,6 +22,6 @@ This method doesn't return any data.
 
 ## Example
 
-```javascript
+```javascript editor-docx
 window.Asc.plugin.executeMethod ("PasteText", ["ONLYOFFICE for developers"]);
 ```

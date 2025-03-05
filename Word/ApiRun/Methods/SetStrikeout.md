@@ -24,7 +24,7 @@ expression.SetStrikeout(isStrikeout);
 
 This example specifies that the contents of the current run are displayed with a single horizontal line through the center of the line.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let textPr = doc.GetDefaultTextPr();
 textPr.SetStrikeout(true);

@@ -16,13 +16,13 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[EMU](../../Enumeration/EMU.md) | null
+[EMU](../../Enumeration/EMU.md) \| null
 
 ## Example
 
 This example sets the parameters of the watermark settings and apply them to the document.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let watermarkSettings = doc.GetWatermarkSettings();
 watermarkSettings.SetType("image");

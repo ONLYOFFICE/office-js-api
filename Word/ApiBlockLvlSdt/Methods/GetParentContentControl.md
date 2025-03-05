@@ -16,13 +16,13 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiBlockLvlSdt](../../ApiBlockLvlSdt/ApiBlockLvlSdt.md) | null
+[ApiBlockLvlSdt](../../ApiBlockLvlSdt/ApiBlockLvlSdt.md) \| null
 
 ## Example
 
 This example shows how to get a content control that contains the content control.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();
 blockLvlSdt.GetContent().GetElement(0).AddText("This is a parent block text content control.");

@@ -14,7 +14,7 @@ expression.AddDataField(field);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| field | Required | number | string |  | The index number or name of the data field. |
+| field | Required | number \| string |  | The index number or name of the data field. |
 
 ## Returns
 
@@ -24,22 +24,22 @@ expression.AddDataField(field);
 
 
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
 
-oWorksheet.GetRange('B1').SetValue('Region');
-oWorksheet.GetRange('C1').SetValue('Price');
-oWorksheet.GetRange('B2').SetValue('East');
-oWorksheet.GetRange('B3').SetValue('West');
-oWorksheet.GetRange('C2').SetValue(42.5);
-oWorksheet.GetRange('C3').SetValue(35.2);
+worksheet.GetRange('B1').SetValue('Region');
+worksheet.GetRange('C1').SetValue('Price');
+worksheet.GetRange('B2').SetValue('East');
+worksheet.GetRange('B3').SetValue('West');
+worksheet.GetRange('C2').SetValue(42.5);
+worksheet.GetRange('C3').SetValue(35.2);
 
-var dataRef = Api.GetRange("'Sheet1'!$B$1:$C$3");
-var pivotTable = Api.InsertPivotNewWorksheet(dataRef);
+let dataRef = Api.GetRange("'Sheet1'!$B$1:$C$3");
+let pivotTable = Api.InsertPivotNewWorksheet(dataRef);
 
 pivotTable.MoveField('Region', 'Rows');
 
-var dataField = pivotTable.AddDataField('Price');
+let dataField = pivotTable.AddDataField('Price');
 dataField.SetName('Regional prices');
 
 ```

@@ -22,7 +22,7 @@ string
 
 ## Example
 
-```javascript
+```javascript editor-pptx
 window.Asc.plugin.executeMethod ("GetFileToDownload", ["pdf"], function (res) {
     console.log (res)
 });

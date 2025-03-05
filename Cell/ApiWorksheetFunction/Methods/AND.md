@@ -14,7 +14,7 @@ expression.AND(args);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| args | Required | number | string | [ApiRange](../../ApiRange/ApiRange.md) | boolean | [ApiName](../../ApiName/ApiName.md) |  | A condition to check. |
+| args | Required | number \| string \| [ApiRange](../../ApiRange/ApiRange.md) \| boolean \| [ApiName](../../ApiName/ApiName.md) |  | A condition to check. |
 
 ## Returns
 
@@ -24,12 +24,12 @@ boolean
 
 
 
-```javascript
-const oWorksheet = Api.GetActiveSheet();
+```javascript editor-xlsx
+const worksheet = Api.GetActiveSheet();
 
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.AND(12 < 100, 34 < 100, 50 < 100); //AND logical function
+let func = Api.GetWorksheetFunction();
+let ans = func.AND(12 < 100, 34 < 100, 50 < 100); //AND logical function
 
-oWorksheet.GetRange("C1").SetValue(ans);
+worksheet.GetRange("C1").SetValue(ans);
 
 ```

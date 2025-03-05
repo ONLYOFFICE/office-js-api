@@ -16,13 +16,13 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiInlineLvlSdt](../../ApiInlineLvlSdt/ApiInlineLvlSdt.md) | [ApiBlockLvlSdt](../../ApiBlockLvlSdt/ApiBlockLvlSdt.md)
+[ApiInlineLvlSdt](../../ApiInlineLvlSdt/ApiInlineLvlSdt.md) \| [ApiBlockLvlSdt](../../ApiBlockLvlSdt/ApiBlockLvlSdt.md)
 
 ## Example
 
 This example shows how to get a parent content control.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 Api.pluginMethod_AddContentControlList(1, [{Display: "Item1_D", Value: "Item1_V"}, {Display: "Item2_D", Value: "Item2_V"}], {"Id": 100, "Tag": "CC_Tag", "Lock": 3});
 let contentControls = doc.GetAllContentControls();

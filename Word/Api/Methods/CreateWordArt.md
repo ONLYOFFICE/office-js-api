@@ -19,7 +19,7 @@ expression.CreateWordArt(textPr, text, transform, fill, stroke, rotAngle, width,
 | transform | Optional | [TextTransform](../../Enumeration/TextTransform.md) | "textNoShape" | Text transform type. |
 | fill | Optional | [ApiFill](../../ApiFill/ApiFill.md) | Api.CreateNoFill() | The color or pattern used to fill the Text Art object. |
 | stroke | Optional | [ApiStroke](../../ApiStroke/ApiStroke.md) | Api.CreateStroke(0, Api.CreateNoFill()) | The stroke used to create the Text Art object shadow. |
-| rotAngle | Optional | number | false | Rotation angle. |
+| rotAngle | Optional | number | 0 | Rotation angle. |
 | width | Optional | [EMU](../../Enumeration/EMU.md) | 1828800 | The Text Art width measured in English measure units. |
 | height | Optional | [EMU](../../Enumeration/EMU.md) | 1828800 | The Text Art heigth measured in English measure units. |
 
@@ -31,7 +31,7 @@ expression.CreateWordArt(textPr, text, transform, fill, stroke, rotAngle, width,
 
 This example creates a Text Art object with the "textArchUp" text transform type.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let textPr = Api.CreateTextPr();
 textPr.SetFontSize(30);

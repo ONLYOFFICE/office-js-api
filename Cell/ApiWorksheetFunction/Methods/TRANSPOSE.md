@@ -14,7 +14,7 @@ expression.TRANSPOSE(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | array |  | A range of cells on a worksheet or an array that will be transposed. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| (number \| string \| boolean)[] |  | A range of cells on a worksheet or an array that will be transposed. |
 
 ## Returns
 
@@ -24,13 +24,13 @@ expression.TRANSPOSE(arg1);
 
 
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue("Ann");
-oWorksheet.GetRange("A2").SetValue("Bob");
-oWorksheet.GetRange("B1").SetValue("Apples");
-oWorksheet.GetRange("B2").SetValue("Oranges");
-var oRange = oWorksheet.GetRange("A1:B2");
-oWorksheet.GetRange("A4:B5").SetValue(oFunction.TRANSPOSE(oRange));
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue("Ann");
+worksheet.GetRange("A2").SetValue("Bob");
+worksheet.GetRange("B1").SetValue("Apples");
+worksheet.GetRange("B2").SetValue("ranges");
+let range = worksheet.GetRange("A1:B2");
+worksheet.GetRange("A4:B5").SetValue(func.TRANSPOSE(range));
 ```

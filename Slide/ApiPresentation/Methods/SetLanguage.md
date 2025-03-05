@@ -24,7 +24,7 @@ boolean
 
 This example sets pecifies the languages which will be used to check spelling and grammar.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 oPresentation.SetLanguage("en-CA");
 var oSlide = oPresentation.GetSlideByIndex(0);

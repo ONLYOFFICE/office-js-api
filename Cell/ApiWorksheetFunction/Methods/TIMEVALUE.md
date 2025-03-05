@@ -14,7 +14,7 @@ expression.TIMEVALUE(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) | [ApiName](../../ApiName/ApiName.md) | string |  | A text string that represents a time in one of the time formats (date information in the string is ignored). |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| string |  | A text string that represents a time in one of the time formats (date information in the string is ignored). |
 
 ## Returns
 
@@ -24,12 +24,12 @@ number
 
 
 
-```javascript
-const oWorksheet = Api.GetActiveSheet();
+```javascript editor-xlsx
+const worksheet = Api.GetActiveSheet();
 
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.TIMEVALUE("11/5/18 11:17:00 am"); 
+let func = Api.GetWorksheetFunction();
+let ans = func.TIMEVALUE("11/5/18 11:17:00 am"); 
 
-oWorksheet.GetRange("C1").SetValue(ans);
+worksheet.GetRange("C1").SetValue(ans);
 
 ```

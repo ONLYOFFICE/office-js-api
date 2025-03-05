@@ -1,8 +1,6 @@
 # SetSpacingBefore
 
-Sets the spacing before the current paragraph. If the value of the isBeforeAuto parameter is true, then 
-any value of the nBefore is ignored. If isBeforeAuto parameter is not specified, then 
-it will be interpreted as false.
+Sets the spacing before the current paragraph. If the value of the isBeforeAuto parameter is true, then any value of the nBefore is ignored. If isBeforeAuto parameter is not specified, then it will be interpreted as false.
 
 ## Syntax
 
@@ -27,7 +25,7 @@ This method doesn't return any data.
 
 This example sets the spacing before the current paragraph.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");
 let paraPr = myStyle.GetParaPr();

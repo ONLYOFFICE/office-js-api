@@ -17,6 +17,6 @@ Enumeration
 
 In this example sets the direction of the watermark within the document.
 
-```javascript
+```javascript editor-pptx
 watermarkSettings.SetDirection("clockwise45");
 ```

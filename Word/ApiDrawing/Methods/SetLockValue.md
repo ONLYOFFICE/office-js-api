@@ -15,17 +15,17 @@ expression.SetLockValue(sType, bValue);
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | sType | Required | [DrawingLockType](../../Enumeration/DrawingLockType.md) |  | Lock type in the string format. |
-| bValue | Required | bool |  | Specifies if the specified lock is applied to the current drawing. |
+| bValue | Required | boolean |  | Specifies if the specified lock is applied to the current drawing. |
 
 ## Returns
 
-bool
+boolean
 
 ## Example
 
 This example sets the lock value to the specified lock type of the current drawing.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let gs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);

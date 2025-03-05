@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example shows how to get the previous paragraph.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph1 = doc.GetElement(0);
 paragraph1.AddText("This is just a sample paragraph №1.");

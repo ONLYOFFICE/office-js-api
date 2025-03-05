@@ -27,7 +27,7 @@ boolean
 
 This example show how to set the fill to the data point.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

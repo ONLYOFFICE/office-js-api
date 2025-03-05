@@ -18,7 +18,7 @@ Object
 
 ## Example
 
-```javascript
+```javascript editor-docx
 let plugin = {
     "url": "https://example.com/plugin/config.json",
     "guid": "asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}",

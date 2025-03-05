@@ -22,7 +22,7 @@ Number
 
 This example shows how to get the content control position within its parent element.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = Api.CreateParagraph();
 let run = Api.CreateRun();

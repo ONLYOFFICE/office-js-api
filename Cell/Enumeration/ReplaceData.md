@@ -10,7 +10,7 @@ Object
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| What | string | undefined | The data to search for. |
+| What | string \| undefined | The data to search for. |
 | Replacement | string | The replacement string. |
 | LookAt | [XlLookAt](../Enumeration/XlLookAt.md) | Specifies whether the whole search text or any part of the search text is matched. |
 | SearchOrder | [XlSearchOrder](../Enumeration/XlSearchOrder.md) | Range search order - by rows or by columns. |

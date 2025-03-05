@@ -1,7 +1,6 @@
 # SetTextPr
 
-Sets the text properties to the current form.
-Used if possible for this type of form*
+Sets the text properties to the current form.Used if possible for this type of form*
 
 ## Syntax
 
@@ -25,7 +24,7 @@ boolean
 
 This example sets the text properties to the form.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});
 let paragraph = doc.GetElement(0);

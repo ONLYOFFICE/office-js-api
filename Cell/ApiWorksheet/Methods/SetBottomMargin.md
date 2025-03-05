@@ -24,9 +24,9 @@ This method doesn't return any data.
 
 This example sets the bottom margin of the sheet.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.SetBottomMargin(25.1);
-var nBottomMargin = oWorksheet.GetBottomMargin();
-oWorksheet.GetRange("A1").SetValue("Bottom margin: " + nBottomMargin  + " mm");
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+worksheet.SetBottomMargin(25.1);
+let bottomMargin = worksheet.GetBottomMargin();
+worksheet.GetRange("A1").SetValue("Bottom margin: " + bottomMargin + " mm");
 ```

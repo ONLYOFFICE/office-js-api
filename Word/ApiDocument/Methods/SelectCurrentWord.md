@@ -22,7 +22,7 @@ object
 
 This example shows how to select the current word.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let para1 = doc.GetElement(0);
 let run = para1.AddText("The quick brown fox jumps over the lazy dog");

@@ -1,7 +1,6 @@
 # SetSize
 
-Sets the font size property to the specified font.
-💡 This method will work only with the text format of the cell.
+Sets the font size property to the specified font.💡 This method will work only with the text format of the cell.
 
 ## Syntax
 
@@ -25,11 +24,11 @@ This method doesn't return any data.
 
 This example sets the font size property to the specified font.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var oRange = oWorksheet.GetRange("B1");
-oRange.SetValue("This is just a sample text.");
-var oCharacters = oRange.GetCharacters(9, 4);
-var oFont = oCharacters.GetFont();
-oFont.SetSize(18);
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let range = worksheet.GetRange("B1");
+range.SetValue("This is just a sample text.");
+let characters = range.GetCharacters(9, 4);
+let font = characters.GetFont();
+font.SetSize(18);
 ```

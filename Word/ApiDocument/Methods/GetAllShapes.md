@@ -16,13 +16,13 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiShape[]](../../ApiShape/ApiShape.md)
+[ApiShape](../../ApiShape/ApiShape.md)[]
 
 ## Example
 
 This example shows how to get a collection of shape objects from the document content.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));

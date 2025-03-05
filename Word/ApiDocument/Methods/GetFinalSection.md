@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example shows how to get the document final section.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let section = doc.GetFinalSection();
 let header = section.GetHeader("default", true);

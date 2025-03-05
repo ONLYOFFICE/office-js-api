@@ -24,7 +24,7 @@ boolean
 
 This example specifies if the text field content should be autofit.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "multiLine": false});
 let paragraph = doc.GetElement(0);

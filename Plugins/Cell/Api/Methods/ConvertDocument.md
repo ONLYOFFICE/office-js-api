@@ -14,7 +14,7 @@ expression.ConvertDocument(sConvertType, bHtmlHeadings, bBase64img, bDemoteHeadi
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sConvertType | Optional | "markdown" | "html" | "markdown" | Conversion type ("markdown" or "html"). |
+| sConvertType | Optional | "markdown" \| "html" | "markdown" | Conversion type ("markdown" or "html"). |
 | bHtmlHeadings | Optional | boolean | false | Defines if the HTML headings and IDs will be generated when the Markdown renderer of your target platform does not handle Markdown-style IDs. |
 | bBase64img | Optional | boolean | false | Defines if the images will be created in the base64 format. |
 | bDemoteHeadings | Optional | boolean | false | Defines if all heading levels in your document will be demoted to conform with the following standard: single H1 as title, H2 as top-level heading in the text body. |
@@ -26,7 +26,7 @@ string
 
 ## Example
 
-```javascript
+```javascript editor-xlsx
 let info = "";
 window.Asc.plugin.executeMethod ("ConvertDocument", ["markdown", false, false, true, false], function (output) {
     document.getElementById ("text-area").value = info + output;

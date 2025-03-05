@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example shows how to get the current scaling condition of the picture form.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let pictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false, "shiftX": 50, "shiftY": 50});
 let paragraph = doc.GetElement(0);

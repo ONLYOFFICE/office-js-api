@@ -1,7 +1,6 @@
 # SetKeepNext
 
-Specifies that when rendering the document using a paginated view, the contents of the current paragraph are at least
-partly rendered on the same page as the following paragraph whenever possible.
+Specifies that when rendering the document using a paginated view, the contents of the current paragraph are at leastpartly rendered on the same page as the following paragraph whenever possible.
 
 ## Syntax
 
@@ -25,7 +24,7 @@ This method doesn't return any data.
 
 This example specifies that when rendering the document using a paginated view, the contents of the paragraph are at least partly rendered on the same page as the following paragraph whenever possible.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");
 let paraPr = myStyle.GetParaPr();

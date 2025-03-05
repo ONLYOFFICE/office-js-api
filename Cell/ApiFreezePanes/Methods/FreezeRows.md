@@ -14,7 +14,7 @@ expression.FreezeRows(count);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| count | Optional | Number | false | Optional number of rows to freeze, or zero to unfreeze all rows. |
+| count | Optional | Number | 0 | Optional number of rows to freeze, or zero to unfreeze all rows. |
 
 ## Returns
 
@@ -24,8 +24,8 @@ This method doesn't return any data.
 
 This example freezes the the top row.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var oFreezePanes = oWorksheet.GetFreezePanes();
-oFreezePanes.FreezeRows(1);
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let freezePanes = worksheet.GetFreezePanes();
+freezePanes.FreezeRows(1);
 ```

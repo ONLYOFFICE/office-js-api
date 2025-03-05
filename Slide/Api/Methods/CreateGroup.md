@@ -14,7 +14,7 @@ expression.CreateGroup(aDrawings);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| aDrawings | Required | [DrawingForGroup[]](../../Enumeration/DrawingForGroup.md) |  | An array of drawings to group. |
+| aDrawings | Required | [DrawingForGroup](../../Enumeration/DrawingForGroup.md)[] |  | An array of drawings to group. |
 
 ## Returns
 
@@ -24,7 +24,7 @@ expression.CreateGroup(aDrawings);
 
 This example show how to create a group.
 
-```javascript
+```javascript editor-pptx
 let oPresentation = Api.GetPresentation();
 let oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

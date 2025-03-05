@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example specifies the major tick mark "cross" for the horizontal axis.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("scatter", [

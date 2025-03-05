@@ -16,13 +16,13 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[ApiSlide](../../ApiSlide/ApiSlide.md) | [ApiLayout](../../ApiLayout/ApiLayout.md) | [ApiMaster](../../ApiMaster/ApiMaster.md) | null
+[ApiSlide](../../ApiSlide/ApiSlide.md) \| [ApiLayout](../../ApiLayout/ApiLayout.md) \| [ApiMaster](../../ApiMaster/ApiMaster.md) \| null
 
 ## Example
 
 This example shows how to get parent.
 
-```javascript
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));

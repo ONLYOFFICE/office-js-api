@@ -20,6 +20,6 @@ Enumeration
 
 This example sets horizontal aligment for a drawing object
 
-```javascript
+```javascript editor-pptx
 drawing.SetHorAlign("page", "center");
 ```

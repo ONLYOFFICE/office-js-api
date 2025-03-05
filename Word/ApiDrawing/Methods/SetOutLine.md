@@ -24,7 +24,7 @@ boolean
 
 This example sets the outline properties to the specified graphic object.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));

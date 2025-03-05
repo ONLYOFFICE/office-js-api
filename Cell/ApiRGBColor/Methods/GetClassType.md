@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example gets a class type and inserts it into the document.
 
-```javascript
+```javascript editor-xlsx
 var oWorksheet = Api.GetActiveSheet();
 var oRGBColor = Api.CreateRGBColor(255, 213, 191);
 var oGs1 = Api.CreateGradientStop(oRGBColor, 0);

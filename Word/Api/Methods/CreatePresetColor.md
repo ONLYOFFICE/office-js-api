@@ -24,7 +24,7 @@ expression.CreatePresetColor(presetColor);
 
 This example creates a color selecting for create gradient stop.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let gs1 = Api.CreateGradientStop(Api.CreatePresetColor("peachPuff"), 0);

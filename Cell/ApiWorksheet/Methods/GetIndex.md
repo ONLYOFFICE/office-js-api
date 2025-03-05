@@ -22,9 +22,9 @@ number
 
 This example shows how to get a sheet index.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var nIndex = oWorksheet.GetIndex();
-oWorksheet.GetRange("A1").SetValue("Index: ");
-oWorksheet.GetRange("B1").SetValue(nIndex);
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let index = worksheet.GetIndex();
+worksheet.GetRange("A1").SetValue("Index: ");
+worksheet.GetRange("B1").SetValue(index);
 ```

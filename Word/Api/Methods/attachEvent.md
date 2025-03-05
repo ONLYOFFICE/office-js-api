@@ -25,7 +25,7 @@ This method doesn't return any data.
 
 This example shows how to subscribe on hyperlink click event.
 
-```javascript
+```javascript editor-docx
 Api.attachEvent("asc_onHyperlinkClick", function() {
 	console.log("HYPERLINK!!!");
 });

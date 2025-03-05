@@ -18,6 +18,6 @@ Enumeration
 
 This example specifys that the range contents will be rotated upward.
 
-```javascript
+```javascript editor-xlsx
 worksheet.GetRange("A1").SetOrientation("xlUpward");
 ```

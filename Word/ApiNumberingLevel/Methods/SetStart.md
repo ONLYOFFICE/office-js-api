@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example specifies the starting value for the numbering used by the parent numbering level within a given numbering level definition.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("numbered");
 let numLvl = numbering.GetLevel(0);

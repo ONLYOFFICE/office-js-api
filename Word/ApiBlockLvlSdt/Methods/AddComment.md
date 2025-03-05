@@ -1,7 +1,6 @@
 # AddComment
 
-Adds a comment to the current block content control.
-💡 Please note that the current block content control must be in the document.
+Adds a comment to the current block content control.💡 Please note that the current block content control must be in the document.
 
 ## Syntax
 
@@ -27,7 +26,7 @@ expression.AddComment(text, author, userId);
 
 This example adds comment to the block content control
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();
 blockLvlSdt.GetContent().GetElement(0).AddText("This is a block text content control.");

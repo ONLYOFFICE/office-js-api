@@ -24,7 +24,7 @@ expression.SetFontFamily(sFontFamily);
 
 This example sets all 4 font slots with the specified font family.
 
-```javascript
+```javascript editor-docx
 let doc = Api.GetDocument();
 let textPr = doc.GetDefaultTextPr();
 textPr.SetFontFamily("Comic Sans MS");

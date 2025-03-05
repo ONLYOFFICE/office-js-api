@@ -24,14 +24,14 @@ expression.CreateBullet(sSymbol);
 
 This example creates a bullet for a paragraph.
 
-```javascript
-var oWorksheet = Api.GetActiveSheet();
-var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oShape = oWorksheet.AddShape("flowChartOnlineStorage", 120 * 36000, 35 * 36000, oFill, oStroke, 0, 2 * 36000, 0, 3 * 36000);
-var oDocContent = oShape.GetContent();
-var oParagraph = oDocContent.GetElement(0);
-var oBullet = Api.CreateBullet("-");
-oParagraph.SetBullet(oBullet);
-oParagraph.AddText(" This is an example of the bulleted paragraph.");
+```javascript editor-xlsx
+let worksheet = Api.GetActiveSheet();
+let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+let stroke = Api.CreateStroke(0, Api.CreateNoFill());
+let shape = worksheet.AddShape("flowChartOnlineStorage", 120 * 36000, 35 * 36000, fill, stroke, 0, 2 * 36000, 0, 3 * 36000);
+let docContent = shape.GetContent();
+let paragraph = docContent.GetElement(0);
+let bullet = Api.CreateBullet("-");
+paragraph.SetBullet(bullet);
+paragraph.AddText(" This is an example of the bulleted paragraph.");
 ```

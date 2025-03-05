@@ -20,7 +20,7 @@ This method doesn't have any parameters.
 
 ## Example
 
-```javascript
+```javascript editor-pptx
 window.Asc.plugin.executeMethod ("GetImageDataFromSelection", [], function (result) {
     let image = document.createElement("img");
     image.src = result.src;

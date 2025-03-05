@@ -1,10 +1,6 @@
 # ContentControlLock
 
-A value that defines if it is possible to delete and/or edit the content control or not:
-**0** - only deleting,
-**1** - disable deleting or editing,
-**2** - only editing,
-**3** - full access.
+A value that defines if it is possible to delete and/or edit the content control or not:**0** - only deleting,**1** - disable deleting or editing,**2** - only editing,**3** - full access.
 
 ## Type
 
@@ -20,7 +16,7 @@ Enumeration
 
 ## Example
 
-```javascript
+```javascript editor-docx
 let documents = [{
     "Props": {
         "Id": 100,
