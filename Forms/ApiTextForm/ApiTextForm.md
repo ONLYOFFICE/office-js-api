@@ -17,7 +17,7 @@ Represents the ApiTextForm class.
 | [SetComb](./Methods/SetComb.md) | boolean | Specifies if the text field should be a comb of characters with the same cell width. The maximum number of characters must be set to a positive value. |
 | [SetCellWidth](./Methods/SetCellWidth.md) | boolean | Sets the cell width to the applied comb of characters. |
 | [SetText](./Methods/SetText.md) | boolean | Sets the text to the current text field. |
-| [GetClassType](./Methods/GetClassType.md) | ["form"](../../Word/"form"/"form".md) | Returns a type of the ApiFormBase class. |
+| [GetClassType](./Methods/GetClassType.md) | "form" | Returns a type of the ApiFormBase class. |
 | [GetFormType](./Methods/GetFormType.md) | [FormType](../Enumeration/FormType.md) | Returns a type of the current form. |
 | [GetFormKey](./Methods/GetFormKey.md) | string | Returns the current form key. |
 | [SetFormKey](./Methods/SetFormKey.md) | boolean | Sets a key to the current form. |

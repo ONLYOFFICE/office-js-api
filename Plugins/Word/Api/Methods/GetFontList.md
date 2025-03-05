@@ -16,7 +16,7 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[FontInfo[]](../../Enumeration/FontInfo.md)
+[FontInfo](../../Enumeration/FontInfo.md)[]
 
 ## Example
 

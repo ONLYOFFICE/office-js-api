@@ -6,7 +6,7 @@ An object containing the watermark properties.
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| transparent | float | The watermark transparency degree. |
+| transparent | number | The watermark transparency degree. |
 | type | string | The &#123;@link /docbuilder/global#ShapeType shape type&#125; which specifies the preset shape geometry for the current watermark. |
 | width | number | The watermark width measured in millimeters. |
 | height | number | The watermark height measured in millimeters. |

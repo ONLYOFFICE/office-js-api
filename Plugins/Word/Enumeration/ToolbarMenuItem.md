@@ -16,7 +16,7 @@ The toolbar menu item.
 | lockInViewMode | boolean | Specifies if the current item is locked in the view mode or not. |
 | separator | boolean | Specifies if a separator is used between the toolbar menu items or not. |
 | split | boolean | Specifies if the toolbar menu items are split or not. |
-| items | [ContextMenuItem[]](../Enumeration/ContextMenuItem.md) | An array containing the context menu items for the current item. |
+| items | [ContextMenuItem](../Enumeration/ContextMenuItem.md)[] | An array containing the context menu items for the current item. |
 ## Type
 
 Object

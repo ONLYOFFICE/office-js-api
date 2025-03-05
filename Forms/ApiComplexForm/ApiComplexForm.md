@@ -7,7 +7,7 @@ Represents the ApiComplexForm class.
 
 | Method | Returns | Description |
 | ------ | ------- | ----------- |
-| [GetClassType](./Methods/GetClassType.md) | ["form"](../../Word/"form"/"form".md) | Returns a type of the ApiFormBase class. |
+| [GetClassType](./Methods/GetClassType.md) | "form" | Returns a type of the ApiFormBase class. |
 | [GetFormType](./Methods/GetFormType.md) | [FormType](../Enumeration/FormType.md) | Returns a type of the current form. |
 | [GetFormKey](./Methods/GetFormKey.md) | string | Returns the current form key. |
 | [SetFormKey](./Methods/SetFormKey.md) | boolean | Sets a key to the current form. |

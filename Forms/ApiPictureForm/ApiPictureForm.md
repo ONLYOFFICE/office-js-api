@@ -17,7 +17,7 @@ Represents the ApiPictureForm class.
 | [IsRespectBorders](./Methods/IsRespectBorders.md) | boolean | Checks if the form border width is respected or not. |
 | [GetImage](./Methods/GetImage.md) | [Base64Img](../Enumeration/Base64Img.md) | Returns an image in the base64 format from the current picture form. |
 | [SetImage](./Methods/SetImage.md) | boolean | Sets an image to the current picture form. |
-| [GetClassType](./Methods/GetClassType.md) | ["form"](../../Word/"form"/"form".md) | Returns a type of the ApiFormBase class. |
+| [GetClassType](./Methods/GetClassType.md) | "form" | Returns a type of the ApiFormBase class. |
 | [GetFormType](./Methods/GetFormType.md) | [FormType](../Enumeration/FormType.md) | Returns a type of the current form. |
 | [GetFormKey](./Methods/GetFormKey.md) | string | Returns the current form key. |
 | [SetFormKey](./Methods/SetFormKey.md) | boolean | Sets a key to the current form. |

@@ -16,4 +16,4 @@ This method doesn't have any parameters.
 
 ## Returns
 
-[OLEProperties[]](../../Enumeration/OLEProperties.md)
+[OLEProperties](../../Enumeration/OLEProperties.md)[]

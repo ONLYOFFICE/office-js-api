@@ -12,7 +12,7 @@ Represents the ApiCheckBoxForm class.
 | [IsRadioButton](./Methods/IsRadioButton.md) | boolean | Checks if the current checkbox is a radio button. |
 | [GetRadioGroup](./Methods/GetRadioGroup.md) | string | Returns the radio group key if the current checkbox is a radio button. |
 | [SetRadioGroup](./Methods/SetRadioGroup.md) | boolean | Sets the radio group key to the current radio button. |
-| [GetClassType](./Methods/GetClassType.md) | ["form"](../../Word/"form"/"form".md) | Returns a type of the ApiFormBase class. |
+| [GetClassType](./Methods/GetClassType.md) | "form" | Returns a type of the ApiFormBase class. |
 | [GetFormType](./Methods/GetFormType.md) | [FormType](../Enumeration/FormType.md) | Returns a type of the current form. |
 | [GetFormKey](./Methods/GetFormKey.md) | string | Returns the current form key. |
 | [SetFormKey](./Methods/SetFormKey.md) | boolean | Sets a key to the current form. |

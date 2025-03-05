@@ -43,7 +43,7 @@ Represents the ApiDocument class.
 | [Search](./Methods/Search.md) | [ApiRange](../ApiRange/ApiRange.md)[] | Searches for a scope of a document object. The search results are a collection of ApiRange objects. |
 | [ToMarkdown](./Methods/ToMarkdown.md) | string | Converts a document to Markdown. |
 | [ToHtml](./Methods/ToHtml.md) | string | Converts a document to HTML. |
-| [InsertWatermark](./Methods/InsertWatermark.md) | [ApiDrawing](../ApiDrawing/ApiDrawing.md) | Inserts a watermark on each document page. |
+| [InsertWatermark](./Methods/InsertWatermark.md) | boolean | Inserts a watermark on each document page. |
 | [GetWatermarkSettings](./Methods/GetWatermarkSettings.md) | [ApiWatermarkSettings](../ApiWatermarkSettings/ApiWatermarkSettings.md) | Returns the watermark settings in the current document. |
 | [SetWatermarkSettings](./Methods/SetWatermarkSettings.md) | [ApiDrawing](../ApiDrawing/ApiDrawing.md) | Sets the watermark settings in the current document. |
 | [RemoveWatermark](./Methods/RemoveWatermark.md) | boolean | Removes a watermark from the current document. |

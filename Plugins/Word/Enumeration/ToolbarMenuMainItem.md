@@ -7,7 +7,7 @@ The main toolbar menu item.
 | Name | Type | Description |
 | ---- | ---- | ----------- |
 | guid | string | The plugin guid. |
-| tabs | [ToolbarMenuTab[]](../Enumeration/ToolbarMenuTab.md) | An array containing the toolbar menu tabs for the current item. |
+| tabs | [ToolbarMenuTab](../Enumeration/ToolbarMenuTab.md)[] | An array containing the toolbar menu tabs for the current item. |
 ## Type
 
 Object

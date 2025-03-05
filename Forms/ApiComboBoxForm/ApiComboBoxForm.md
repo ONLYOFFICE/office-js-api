@@ -12,7 +12,7 @@ Represents the ApiComboBoxForm class.
 | [SelectListValue](./Methods/SelectListValue.md) | boolean | Selects the specified value from the combo box list values. |
 | [SetText](./Methods/SetText.md) | boolean | Sets the text to the current combo box. Available only for editable combo box forms.* |
 | [IsEditable](./Methods/IsEditable.md) | boolean | Checks if the combo box text can be edited. If it is not editable, then this form is a dropdown list. |
-| [GetClassType](./Methods/GetClassType.md) | ["form"](../../Word/"form"/"form".md) | Returns a type of the ApiFormBase class. |
+| [GetClassType](./Methods/GetClassType.md) | "form" | Returns a type of the ApiFormBase class. |
 | [GetFormType](./Methods/GetFormType.md) | [FormType](../Enumeration/FormType.md) | Returns a type of the current form. |
 | [GetFormKey](./Methods/GetFormKey.md) | string | Returns the current form key. |
 | [SetFormKey](./Methods/SetFormKey.md) | boolean | Sets a key to the current form. |

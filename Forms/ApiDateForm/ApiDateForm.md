@@ -13,7 +13,7 @@ Represents the ApiDateForm class.
 | [SetLanguage](./Methods/SetLanguage.md) | boolean | Sets the date language to the current form. |
 | [GetTime](./Methods/GetTime.md) | number | Returns the timestamp of the current form. |
 | [SetTime](./Methods/SetTime.md) | boolean | Sets the timestamp to the current form. |
-| [GetClassType](./Methods/GetClassType.md) | ["form"](../../Word/"form"/"form".md) | Returns a type of the ApiFormBase class. |
+| [GetClassType](./Methods/GetClassType.md) | "form" | Returns a type of the ApiFormBase class. |
 | [GetFormType](./Methods/GetFormType.md) | [FormType](../Enumeration/FormType.md) | Returns a type of the current form. |
 | [GetFormKey](./Methods/GetFormKey.md) | string | Returns the current form key. |
 | [SetFormKey](./Methods/SetFormKey.md) | boolean | Sets a key to the current form. |
