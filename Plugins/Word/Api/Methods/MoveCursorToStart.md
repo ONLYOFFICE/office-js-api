@@ -1,6 +1,7 @@
 # MoveCursorToStart
 
-Moves a cursor to the beginning of the current editing area (document body, footer/header, footnote, or autoshape).\nThis method is similar to pressing the -**Ctrl + Home** keyboard shortcut.
+Moves a cursor to the beginning of the current editing area (document body, footer/header, footnote, or autoshape).\
+This method is similar to pressing the -**Ctrl + Home** keyboard shortcut.
 
 ## Syntax
 

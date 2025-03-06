@@ -1,6 +1,10 @@
 # TickLabelPosition
 
-Possible values for the position of chart tick labels (either horizontal or vertical).\n-**"none"** - not display the selected tick labels.\n-**"nextTo"** - sets the position of the selected tick labels next to the main label.\n-**"low"** - sets the position of the selected tick labels in the part of the chart with lower values.\n-**"high"** - sets the position of the selected tick labels in the part of the chart with higher values.
+Possible values for the position of chart tick labels (either horizontal or vertical).\
+-**"none"** - not display the selected tick labels.\
+-**"nextTo"** - sets the position of the selected tick labels next to the main label.\
+-**"low"** - sets the position of the selected tick labels in the part of the chart with lower values.\
+-**"high"** - sets the position of the selected tick labels in the part of the chart with higher values.
 
 ## Type
 

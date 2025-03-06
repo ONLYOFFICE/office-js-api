@@ -1,6 +1,7 @@
 # SetPosition
 
-Specifies an amount by which text is raised or lowered for this run in relation to the default\nbaseline of the surrounding non-positioned text.
+Specifies an amount by which text is raised or lowered for this run in relation to the default\
+baseline of the surrounding non-positioned text.
 
 ## Syntax
 
@@ -14,7 +15,7 @@ expression.SetPosition(nPosition);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| nPosition | Required | [hps](../../Enumeration/hps.md) |  | Specifies a positive (raised text) or negative (lowered text)\nmeasurement in half-points (1/144 of an inch). |
+| nPosition | Required | [hps](../../Enumeration/hps.md) |  | Specifies a positive (raised text) or negative (lowered text)\ measurement in half-points (1/144 of an inch). |
 
 ## Returns
 

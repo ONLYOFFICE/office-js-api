@@ -1,6 +1,11 @@
 # GetStatistics
 
-Returns the document statistics represented as an object with the following parameters:\n-**PageCount** - number of pages;\n-**WordsCount** - number of words;\n-**ParagraphCount** - number of paragraphs;\n-**SymbolsCount** - number of symbols;\n-**SymbolsWSCount** - number of symbols with spaces.
+Returns the document statistics represented as an object with the following parameters:\
+-**PageCount** - number of pages;\
+-**WordsCount** - number of words;\
+-**ParagraphCount** - number of paragraphs;\
+-**SymbolsCount** - number of symbols;\
+-**SymbolsWSCount** - number of symbols with spaces.
 
 ## Syntax
 

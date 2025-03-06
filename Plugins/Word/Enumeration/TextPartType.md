@@ -1,6 +1,9 @@
 # TextPartType
 
-Specifies if the whole text or only its part will be returned or replaced:\n-**entirely** - replaces/returns the whole text,\n-**beforeCursor** - replaces/returns only the part of the text before the cursor,\n-**afterCursor** - replaces/returns only the part of the text after the cursor.
+Specifies if the whole text or only its part will be returned or replaced:\
+-**entirely** - replaces/returns the whole text,\
+-**beforeCursor** - replaces/returns only the part of the text before the cursor,\
+-**afterCursor** - replaces/returns only the part of the text after the cursor.
 
 ## Type
 

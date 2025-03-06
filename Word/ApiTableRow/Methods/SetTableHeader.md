@@ -1,6 +1,9 @@
 # SetTableHeader
 
-Specifies that the current table row will be repeated at the top of each new page \nwherever this table is displayed. This gives this table row the behavior of a 'header' row on \neach of these pages. This element can be applied to any number of rows at the top of the \ntable structure in order to generate multi-row table headers.
+Specifies that the current table row will be repeated at the top of each new page \
+wherever this table is displayed. This gives this table row the behavior of a 'header' row on \
+each of these pages. This element can be applied to any number of rows at the top of the \
+table structure in order to generate multi-row table headers.
 
 ## Syntax
 

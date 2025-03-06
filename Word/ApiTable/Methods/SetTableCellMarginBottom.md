@@ -1,6 +1,7 @@
 # SetTableCellMarginBottom
 
-Specifies an amount of space which will be left between the bottom extent of the cell contents and the border\nof all table cells within the parent table (or table row).
+Specifies an amount of space which will be left between the bottom extent of the cell contents and the border\
+of all table cells within the parent table (or table row).
 
 ## Syntax
 
@@ -14,7 +15,7 @@ expression.SetTableCellMarginBottom(nValue);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| nValue | Required | [twips](../../Enumeration/twips.md) |  | The value for the amount of space below the bottom extent of the cell measured in\ntwentieths of a point (1/1440 of an inch). |
+| nValue | Required | [twips](../../Enumeration/twips.md) |  | The value for the amount of space below the bottom extent of the cell measured in\ twentieths of a point (1/1440 of an inch). |
 
 ## Returns
 

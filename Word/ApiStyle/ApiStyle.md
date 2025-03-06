@@ -8,7 +8,7 @@ Represents the ApiStyle class.
 | Method | Returns | Description |
 | ------ | ------- | ----------- |
 | [GetClassType](./Methods/GetClassType.md) | "style" | Returns a type of the ApiStyle class. |
-| [GetConditionalTableStyle](./Methods/GetConditionalTableStyle.md) | [ApiTableStylePr](../ApiTableStylePr/ApiTableStylePr.md) | Returns a set of formatting properties which will be conditionally applied to the parts of a table that match the \nrequirement specified in the sType parameter. |
+| [GetConditionalTableStyle](./Methods/GetConditionalTableStyle.md) | [ApiTableStylePr](../ApiTableStylePr/ApiTableStylePr.md) | Returns a set of formatting properties which will be conditionally applied to the parts of a table that match the \ requirement specified in the sType parameter. |
 | [GetName](./Methods/GetName.md) | string | Returns a name of the current style. |
 | [GetParaPr](./Methods/GetParaPr.md) | [ApiParaPr](../ApiParaPr/ApiParaPr.md) | Returns the paragraph properties of the current style. |
 | [GetTableCellPr](./Methods/GetTableCellPr.md) | [ApiTableCellPr](../ApiTableCellPr/ApiTableCellPr.md) | Returns the table cell properties of the current style. |

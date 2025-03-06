@@ -1,6 +1,7 @@
 # AddHeadingCrossRef
 
-Adds a heading cross-reference to the current paragraph.\n💡 Please note that this paragraph must be in the document.
+Adds a heading cross-reference to the current paragraph.\
+💡 Please note that this paragraph must be in the document.
 
 ## Syntax
 

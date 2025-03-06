@@ -1,6 +1,8 @@
 # SetBottomBorder
 
-Specifies the border which will be displayed below a set of paragraphs which have the same paragraph border settings.\n💡 The paragraphs of the same style going one by one are considered as a single block, so the border is added\nto the whole block rather than to every paragraph in this block.
+Specifies the border which will be displayed below a set of paragraphs which have the same paragraph border settings.\
+💡 The paragraphs of the same style going one by one are considered as a single block, so the border is added\
+to the whole block rather than to every paragraph in this block.
 
 ## Syntax
 

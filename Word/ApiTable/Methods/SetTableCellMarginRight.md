@@ -1,6 +1,7 @@
 # SetTableCellMarginRight
 
-Specifies an amount of space which will be left between the right extent of the cell contents and the right\nborder of all table cells within the parent table (or table row).
+Specifies an amount of space which will be left between the right extent of the cell contents and the right\
+border of all table cells within the parent table (or table row).
 
 ## Syntax
 

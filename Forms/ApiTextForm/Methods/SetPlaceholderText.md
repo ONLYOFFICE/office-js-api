@@ -1,6 +1,7 @@
 # SetPlaceholderText
 
-Sets the placeholder text to the current form.\nCan't be set to checkbox or radio button.*
+Sets the placeholder text to the current form.\
+Can't be set to checkbox or radio button.*
 
 ## Syntax
 

@@ -17,7 +17,7 @@ expression.VLOOKUP(arg1, arg2, arg3, arg4);
 | arg1 | Required | number \| string \| [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) |  | The value to be found in the first column of the table. It can be a value, a reference, or a text string. |
 | arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) |  | A table of text, numbers, or logical values, in which data is retrieved. It can be a range of cells. |
 | arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | The column number in the data table from which the matching value should be returned. The first column of values in the table is column 1. |
-| arg4 | Optional | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| boolean |  | A logical value that specifies whether to find the closest match in the first column (sorted in ascending order) (-**true** or omitted)\nor find an exact match (-**false**). |
+| arg4 | Optional | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| boolean |  | A logical value that specifies whether to find the closest match in the first column (sorted in ascending order) (-**true** or omitted)\ or find an exact match (-**false**). |
 
 ## Returns
 

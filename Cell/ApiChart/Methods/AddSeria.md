@@ -14,9 +14,9 @@ expression.AddSeria(sNameRange, sValuesRange, sXValuesRange);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sNameRange | Required | string |  | The series name. Can be a range of cells or usual text. For example:\n"'sheet 1'!$A$2:$A$5" - must be a single cell, row or column,\n"A1:A5" - must be a single cell, row or column,\n"Example series". |
-| sValuesRange | Required | string |  | A range of cells from the sheet with series values. For example:\n"'sheet 1'!$A$2:$A$5" - must be a single cell, row or column,\n"A1:A5" - must be a single cell, row or column. |
-| sXValuesRange | Optional | string |  | A range of cells from the sheet with series x-axis values. It is used with the scatter charts only. For example:\n"'sheet 1'!$A$2:$A$5" - must be a single cell, row or column,\n"A1:A5" - must be a single cell, row or column. |
+| sNameRange | Required | string |  | The series name. Can be a range of cells or usual text. For example:\ "'sheet 1'!$A$2:$A$5" - must be a single cell, row or column,\ "A1:A5" - must be a single cell, row or column,\ "Example series". |
+| sValuesRange | Required | string |  | A range of cells from the sheet with series values. For example:\ "'sheet 1'!$A$2:$A$5" - must be a single cell, row or column,\ "A1:A5" - must be a single cell, row or column. |
+| sXValuesRange | Optional | string |  | A range of cells from the sheet with series x-axis values. It is used with the scatter charts only. For example:\ "'sheet 1'!$A$2:$A$5" - must be a single cell, row or column,\ "A1:A5" - must be a single cell, row or column. |
 
 ## Returns
 

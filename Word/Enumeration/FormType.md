@@ -1,6 +1,7 @@
 # FormType
 
-Form type.\nThe available form types.
+Form type.\
+The available form types.
 
 ## Type
 

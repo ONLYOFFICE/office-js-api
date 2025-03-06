@@ -22,6 +22,6 @@ Represents the ApiTableRow class.
 | [Search](./Methods/Search.md) | [ApiRange](../ApiRange/ApiRange.md)[] | Searches for a scope of a table row object. The search results are a collection of ApiRange objects. |
 | [SetBackgroundColor](./Methods/SetBackgroundColor.md) | boolean | Sets the background color to all cells in the current table row. |
 | [SetHeight](./Methods/SetHeight.md) | None | Sets the height to the current table row within the current table. |
-| [SetTableHeader](./Methods/SetTableHeader.md) | None | Specifies that the current table row will be repeated at the top of each new page \nwherever this table is displayed. This gives this table row the behavior of a 'header' row on \neach of these pages. This element can be applied to any number of rows at the top of the \ntable structure in order to generate multi-row table headers. |
+| [SetTableHeader](./Methods/SetTableHeader.md) | None | Specifies that the current table row will be repeated at the top of each new page \ wherever this table is displayed. This gives this table row the behavior of a 'header' row on \ each of these pages. This element can be applied to any number of rows at the top of the \ table structure in order to generate multi-row table headers. |
 | [SetTextPr](./Methods/SetTextPr.md) | boolean | Sets the text properties to the current row. |
 | [ToJSON](./Methods/ToJSON.md) | JSON | Converts the ApiTableRowPr object into the JSON object. |

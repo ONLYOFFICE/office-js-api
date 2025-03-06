@@ -15,7 +15,7 @@ expression.SetNumPr(oNumPr, nLvl);
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | oNumPr | Required | [ApiNumbering](../../ApiNumbering/ApiNumbering.md) |  | Specifies a numbering definition. |
-| nLvl | Optional | number | 0 | Specifies a numbering level reference. If the current instance of the ApiParaPr class is direct\nformatting of a paragraph, then this parameter MUST BE specified. Otherwise, if the current instance of the ApiParaPr class\nis the part of ApiStyle properties, this parameter will be ignored. |
+| nLvl | Optional | number | 0 | Specifies a numbering level reference. If the current instance of the ApiParaPr class is direct\ formatting of a paragraph, then this parameter MUST BE specified. Otherwise, if the current instance of the ApiParaPr class\ is the part of ApiStyle properties, this parameter will be ignored. |
 
 ## Returns
 

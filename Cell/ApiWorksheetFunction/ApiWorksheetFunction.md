@@ -227,7 +227,7 @@ Represents the ApiWorksheetFunction class.
 | [ISNUMBER](./Methods/ISNUMBER.md) | boolean | Checks whether a value is a number, and returns -**true** or -**false**. |
 | [ISODD](./Methods/ISODD.md) | boolean | Returns -**true** if a number is odd. |
 | [ISOWEEKNUM](./Methods/ISOWEEKNUM.md) | number | Returns the ISO week number in the year for a given date. |
-| [ISO_CEILING](./Methods/ISO_CEILING.md) | number | Returns a number that is rounded up to the nearest integer or to the nearest multiple of significance regardless of the sign of the number.\nThe number is always rounded up regardless of its sing. |
+| [ISO_CEILING](./Methods/ISO_CEILING.md) | number | Returns a number that is rounded up to the nearest integer or to the nearest multiple of significance regardless of the sign of the number.\ The number is always rounded up regardless of its sing. |
 | [ISPMT](./Methods/ISPMT.md) | number | Returns the interest paid during a specific period of an investment. |
 | [ISREF](./Methods/ISREF.md) | boolean | Checks whether a value is a reference, and returns -**true** or -**false**. |
 | [ISTEXT](./Methods/ISTEXT.md) | boolean | Checks whether a value is text, and returns -**true** or -**false**. |
@@ -360,7 +360,7 @@ Represents the ApiWorksheetFunction class.
 | [STDEV](./Methods/STDEV.md) | number | Estimates standard deviation based on a sample (ignores logical values and text in the sample). |
 | [STDEVA](./Methods/STDEVA.md) | number | Estimates standard deviation based on a sample, including logical values and text. Text and the -**false** logical value have the value 0; the -**true** logical value has the value 1. |
 | [STDEVP](./Methods/STDEVP.md) | number | Calculates standard deviation based on the entire population given as arguments (ignores logical values and text). |
-| [STDEVPA](./Methods/STDEVPA.md) | number | Calculates standard deviation based on the entire population, including logical values and text.\nText and the -**false** logical value have the value 0; the -**true** logical value has the value 1. |
+| [STDEVPA](./Methods/STDEVPA.md) | number | Calculates standard deviation based on the entire population, including logical values and text.\ Text and the -**false** logical value have the value 0; the -**true** logical value has the value 1. |
 | [STDEV_P](./Methods/STDEV_P.md) | number | Calculates standard deviation based on the entire population given as arguments (ignores logical values and text). |
 | [STDEV_S](./Methods/STDEV_S.md) | number | Estimates standard deviation based on a sample (ignores logical values and text in the sample). |
 | [SUBSTITUTE](./Methods/SUBSTITUTE.md) | string | Replaces existing text with new text in a text string. |

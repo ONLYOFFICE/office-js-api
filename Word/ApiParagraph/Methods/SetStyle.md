@@ -1,6 +1,7 @@
 # SetStyle
 
-The paragraph style base method.\n💡 This method is not used by itself, as it only forms the basis for the [ApiParagraph#SetStyle](../../ApiParagraph/Methods/SetStyle.md) method which sets the selected or created style for the paragraph.
+The paragraph style base method.\
+💡 This method is not used by itself, as it only forms the basis for the [ApiParagraph#SetStyle](../../ApiParagraph/Methods/SetStyle.md) method which sets the selected or created style for the paragraph.
 
 ## Syntax
 

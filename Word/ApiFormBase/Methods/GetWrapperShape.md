@@ -1,6 +1,7 @@
 # GetWrapperShape
 
-Returns a shape in which the form is placed to control the position and size of the fixed size form frame.\nThe null value will be returned for the inline forms.
+Returns a shape in which the form is placed to control the position and size of the fixed size form frame.\
+The null value will be returned for the inline forms.
 
 ## Syntax
 

@@ -1,6 +1,9 @@
 # SetVertAlign
 
-Specifies the alignment which will be applied to the contents of the run in relation to the default appearance of the run text:\n-**"baseline"** - the characters in the current text run will be aligned by the default text baseline.\n-**"subscript"** - the characters in the current text run will be aligned below the default text baseline.\n-**"superscript"** - the characters in the current text run will be aligned above the default text baseline.
+Specifies the alignment which will be applied to the contents of the run in relation to the default appearance of the run text:\
+-**"baseline"** - the characters in the current text run will be aligned by the default text baseline.\
+-**"subscript"** - the characters in the current text run will be aligned below the default text baseline.\
+-**"superscript"** - the characters in the current text run will be aligned above the default text baseline.
 
 ## Syntax
 

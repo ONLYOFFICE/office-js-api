@@ -21,7 +21,7 @@ expression.CreateChart(sType, aSeries, aSeriesNames, aCatNames, nWidth, nHeight,
 | nWidth | Required | [EMU](../../Enumeration/EMU.md) |  | The chart width in English measure units. |
 | nHeight | Required | [EMU](../../Enumeration/EMU.md) |  | The chart height in English measure units. |
 | nStyleIndex | Required | number |  | The chart color style index (can be -**1 - 48**, as described in OOXML specification). |
-| aNumFormats | Required | [NumFormat](../../Enumeration/NumFormat.md)[] \| String[] |  | Numeric formats which will be applied to the series (can be custom formats).\nThe default numeric format is "General". |
+| aNumFormats | Required | [NumFormat](../../Enumeration/NumFormat.md)[] \| String[] |  | Numeric formats which will be applied to the series (can be custom formats).\ The default numeric format is "General". |
 
 ## Returns
 
