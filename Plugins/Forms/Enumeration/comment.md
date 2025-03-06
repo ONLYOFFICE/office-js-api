@@ -16,7 +16,7 @@ Object
 
 ## Example
 
-```javascript editor-pdf
+```javascript
 let comment = {
     "Id": "1_631",
     "Data": {

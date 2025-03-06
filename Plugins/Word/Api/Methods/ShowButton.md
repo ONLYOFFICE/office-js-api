@@ -24,6 +24,6 @@ This method doesn't return any data.
 
 ## Example
 
-```javascript editor-docx
+```javascript
 window.Asc.plugin.executeMethod ("ShowButton", ["back", false, "right"]);
 ```

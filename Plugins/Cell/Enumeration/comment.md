@@ -16,7 +16,7 @@ Object
 
 ## Example
 
-```javascript editor-xlsx
+```javascript
 var comment = {
     "Id": "1_631",
     "Data": {

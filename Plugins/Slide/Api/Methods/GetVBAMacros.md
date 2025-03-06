@@ -20,7 +20,7 @@ string \| null
 
 ## Example
 
-```javascript editor-pptx
+```javascript
 window.Asc.plugin.executeMethod ("GetVBAMacros", null, function (data) {
     if (data && typeof data === 'string' && data.includes ('<Module')) {
         var arr = data.split ('<Module ').filter (function (el) {return el.includes ('Type="Procedural"')});

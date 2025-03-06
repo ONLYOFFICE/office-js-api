@@ -27,7 +27,7 @@ This method doesn't return any data.
 
 ## Example
 
-```javascript editor-pptx
+```javascript
 var initSettings = {
     "copyoutenabled" : false,
     "hideContentControlTrack" : false,

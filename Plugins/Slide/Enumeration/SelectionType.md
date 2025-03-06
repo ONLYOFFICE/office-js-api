@@ -16,7 +16,7 @@ Enumeration
 
 ## Example
 
-```javascript editor-pptx
+```javascript
 window.Asc.plugin.executeMethod ("GetSelectionType", [], function(type) {
     switch (type) {
         case "none":

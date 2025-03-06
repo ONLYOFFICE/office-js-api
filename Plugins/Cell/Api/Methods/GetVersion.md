@@ -20,7 +20,7 @@ string
 
 ## Example
 
-```javascript editor-xlsx
+```javascript
 window.Asc.plugin.executeMethod ("GetVersion", [], function (version) {
     if (version === undefined) {
         window.Asc.plugin.executeMethod ("PasteText", [ifr.contentDocument.getElementById ("google_translate_element").outerText], function (result) {

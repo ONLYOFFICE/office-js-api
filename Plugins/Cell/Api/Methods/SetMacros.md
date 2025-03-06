@@ -22,7 +22,7 @@ This method doesn't return any data.
 
 ## Example
 
-```javascript editor-xlsx
+```javascript
 window.Asc.plugin.executeMethod ("SetMacros", [JSON.stringify (Content)], function () {
     window.Asc.plugin.executeCommand ("close", "");
 });

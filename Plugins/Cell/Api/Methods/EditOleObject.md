@@ -22,7 +22,7 @@ This method doesn't return any data.
 
 ## Example
 
-```javascript editor-xlsx
+```javascript
 var _param = {
     "data": "{data}",
     "imgSrc": "https://link-to-the-image.jpg",

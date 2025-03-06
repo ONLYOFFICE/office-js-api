@@ -19,7 +19,7 @@ Object
 
 ## Example
 
-```javascript editor-docx
+```javascript
 let commentData = {
     "UserName": "John Smith",
     "Text": "comment",

@@ -20,7 +20,7 @@ string
 
 ## Example
 
-```javascript editor-docx
+```javascript
 window.Asc.plugin.executeMethod("GetDocumentLang", [], function(lang) {
 	let documentLang = lang || defaultLang;
 

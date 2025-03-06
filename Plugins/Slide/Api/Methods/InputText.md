@@ -23,6 +23,6 @@ This method doesn't return any data.
 
 ## Example
 
-```javascript editor-pptx
+```javascript
 window.Asc.plugin.executeMethod ("InputText", ["ONLYOFFICE Plugins", "ONLYOFFICE for developers"]);
 ```

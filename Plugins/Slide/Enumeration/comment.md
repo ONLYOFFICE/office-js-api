@@ -16,7 +16,7 @@ Object
 
 ## Example
 
-```javascript editor-pptx
+```javascript
 var comment = {
     "Id": "1_631",
     "Data": {

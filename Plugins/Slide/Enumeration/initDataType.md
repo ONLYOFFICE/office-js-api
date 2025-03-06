@@ -19,7 +19,7 @@ Enumeration
 
 ## Example
 
-```javascript editor-pptx
+```javascript
 var config = {
     "variations": [
         {

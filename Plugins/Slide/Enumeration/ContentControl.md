@@ -18,7 +18,7 @@ Object
 
 ## Example
 
-```javascript editor-pptx
+```javascript
 let contentControl = {
     "Tag": "Document",
     "Id": 0,

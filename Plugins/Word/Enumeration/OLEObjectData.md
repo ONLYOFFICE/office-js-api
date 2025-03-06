@@ -23,7 +23,7 @@ Object
 
 ## Example
 
-```javascript editor-docx
+```javascript
 let oleObjectData = {
     "Data": "{data}",
     "ImageData": "data:image/png;base64,image-in-the-base64-format",

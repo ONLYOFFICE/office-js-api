@@ -19,7 +19,7 @@ Object
 
 ## Example
 
-```javascript editor-xlsx
+```javascript
 var initSettings = {
     "copyoutenabled" : false,
     "hideContentControlTrack" : false,

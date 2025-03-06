@@ -16,7 +16,7 @@ Enumeration
 
 ## Example
 
-```javascript editor-docx
+```javascript
 var config = {
     "variations": [
         {

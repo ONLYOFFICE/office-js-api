@@ -16,7 +16,7 @@ Enumeration
 
 ## Example
 
-```javascript editor-pdf
+```javascript
 let documents = [{
     "Props": {
         "Id": 100,
