@@ -25,7 +25,7 @@ Object
 
 ## Example
 
-```javascript editor-xlsx
+```javascript
 let toolbarMenuItem = {
     "id": "MeaningItem",
     "type": "button",

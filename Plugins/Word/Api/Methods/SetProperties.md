@@ -27,7 +27,7 @@ This method doesn't return any data.
 
 ## Example
 
-```javascript editor-docx
+```javascript
 var initSettings = {
     "copyoutenabled" : false,
     "hideContentControlTrack" : false,

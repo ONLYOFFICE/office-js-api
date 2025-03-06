@@ -14,7 +14,7 @@ Enumeration
 
 ## Example
 
-```javascript editor-docx
+```javascript
 let toolbarMenuItemType = "button";
 let toolbarMenuItem = {
     "id": "MeaningItem",

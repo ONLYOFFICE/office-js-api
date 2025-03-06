@@ -20,7 +20,7 @@ This method doesn't have any parameters.
 
 ## Example
 
-```javascript editor-xlsx
+```javascript
 window.Asc.plugin.executeMethod ("GetMacros", [JSON.stringify(Content)], function(data) {
 
     try

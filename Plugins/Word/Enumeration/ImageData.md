@@ -18,7 +18,7 @@ Object
 
 ## Example
 
-```javascript editor-docx
+```javascript
 window.saveImage = function () {
     let imageSrc = imageEditor.toDataURL();
     let editorDimension = imageEditor.getCanvasSize();

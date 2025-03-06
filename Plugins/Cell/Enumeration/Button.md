@@ -18,7 +18,7 @@ Object
 
 ## Example
 
-```javascript editor-xlsx
+```javascript
 var config = {
     "variations": [
         {

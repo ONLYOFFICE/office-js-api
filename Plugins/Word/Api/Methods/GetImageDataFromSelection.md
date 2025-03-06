@@ -20,7 +20,7 @@ This method doesn't have any parameters.
 
 ## Example
 
-```javascript editor-docx
+```javascript
 window.Asc.plugin.executeMethod ("GetImageDataFromSelection", [], function (result) {
     let image = document.createElement("img");
     image.src = result.src;

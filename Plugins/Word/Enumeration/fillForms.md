@@ -19,7 +19,7 @@ Object
 
 ## Example
 
-```javascript editor-docx
+```javascript
 var initSettings = {
     "copyoutenabled" : false,
     "hideContentControlTrack" : false,

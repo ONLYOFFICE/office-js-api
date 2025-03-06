@@ -18,7 +18,7 @@ Object
 
 ## Example
 
-```javascript editor-pdf
+```javascript
 let contentControl = {
     "Tag": "Document",
     "Id": 0,

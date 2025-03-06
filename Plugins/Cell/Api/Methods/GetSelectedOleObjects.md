@@ -20,6 +20,6 @@ This method doesn't have any parameters.
 
 ## Example
 
-```javascript editor-xlsx
+```javascript
 window.Asc.plugin.executeMethod ("GetSelectedOleObjects");
 ```

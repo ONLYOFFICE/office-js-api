@@ -16,7 +16,7 @@ Enumeration
 
 ## Example
 
-```javascript editor-xlsx
+```javascript
 window.saveImage = function () {
     let imageSrc = imageEditor.toDataURL();
     let editorDimension = imageEditor.getCanvasSize();

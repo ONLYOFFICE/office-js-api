@@ -20,7 +20,7 @@ Object
 
 ## Example
 
-```javascript editor-docx
+```javascript
 let contextMenuItems = function getContextMenuItems() {
 	let settings = {
 		guid: window.Asc.plugin.guid,

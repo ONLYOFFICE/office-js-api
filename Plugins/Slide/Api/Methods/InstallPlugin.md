@@ -22,7 +22,7 @@ object
 
 ## Example
 
-```javascript editor-pptx
+```javascript
 window.Asc.plugin.executeMethod ("InstallPlugin", [config], function (result) {
     postMessage (JSON.stringify (result));
 });

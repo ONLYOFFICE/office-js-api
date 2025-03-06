@@ -22,7 +22,7 @@ string
 
 ## Example
 
-```javascript editor-xlsx
+```javascript
 window.Asc.plugin.executeMethod ("GetFileToDownload", ["pdf"], function (res) {
     console.log (res)
 });

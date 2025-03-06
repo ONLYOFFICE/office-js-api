@@ -16,7 +16,7 @@ Enumeration
 
 ## Example
 
-```javascript editor-xlsx
+```javascript
 let documents = [{
     "Props": {
         "Id": 100,

@@ -22,7 +22,7 @@ This method doesn't return any data.
 
 ## Example
 
-```javascript editor-docx
+```javascript
 window.saveImage = function () {
     let imageSrc = imageEditor.toDataURL ();
     let editorDimension = imageEditor.getCanvasSize ();
