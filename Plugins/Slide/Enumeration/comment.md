@@ -6,8 +6,8 @@ Comment object.
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| Id | string | The comment ID. |
 | Data | [CommentData](../Enumeration/CommentData.md) | An object which contains the comment data. |
+| Id | string | The comment ID. |
 ## Type
 
 Object

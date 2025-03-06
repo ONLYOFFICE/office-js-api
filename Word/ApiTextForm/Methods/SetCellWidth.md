@@ -14,7 +14,7 @@ expression.SetCellWidth(nCellWidth);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| nCellWidth | Optional | [mm](../../Enumeration/mm.md) | 0 | The cell width measured in millimeters. If this parameter is not specified or equal to 0 or less, then the width will be set automatically. Must be &gt;= 1 and &lt;= 558.8. |
+| nCellWidth | Optional | [mm](../../Enumeration/mm.md) | 0 | The cell width measured in millimeters.\nIf this parameter is not specified or equal to 0 or less, then the width will be set automatically. Must be &gt;= 1 and &lt;= 558.8. |
 
 ## Returns
 

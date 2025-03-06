@@ -17,7 +17,7 @@ expression.GROWTH(arg1, arg2, arg3, arg4);
 | arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number[] |  | The set of y-values from the &lt;em&gt;y = b*m^x&lt;/em&gt; equation, an array or range of positive numbers. |
 | arg2 | Optional | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number[] |  | An optional set of x-values from the &lt;em&gt;y = b*m^x&lt;/em&gt; equation, an array or range of positive numbers that has the same size as the set of y-values. |
 | arg3 | Optional | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number[] |  | New x-values for which the function will return the corresponding y-values. |
-| arg4 | Optional | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| boolean |  | A logical value: the constant &lt;em&gt;b&lt;/em&gt; is calculated normally if this parameter is set to **true**, and &lt;em&gt;b&lt;/em&gt; is set equal to 1 if the parameter is **false** or omitted. |
+| arg4 | Optional | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| boolean |  | A logical value: the constant &lt;em&gt;b&lt;/em&gt; is calculated normally if this parameter is set to -**true**,\nand &lt;em&gt;b&lt;/em&gt; is set equal to 1 if the parameter is -**false** or omitted. |
 
 ## Returns
 

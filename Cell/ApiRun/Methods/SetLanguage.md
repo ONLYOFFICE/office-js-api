@@ -1,6 +1,6 @@
 # SetLanguage
 
-Specifies the languages which will be used to check spelling and grammar (if requested) when processingthe contents of this text run.
+Specifies the languages which will be used to check spelling and grammar (if requested) when processing\nthe contents of this text run.
 
 ## Syntax
 
@@ -14,7 +14,7 @@ expression.SetLanguage(sLangId);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sLangId | Required | string |  | The possible value for this parameter is a language identifier as defined by RFC 4646/BCP 47. Example: "en-CA". |
+| sLangId | Required | string |  | The possible value for this parameter is a language identifier as defined by\nRFC 4646/BCP 47. Example: "en-CA". |
 
 ## Returns
 

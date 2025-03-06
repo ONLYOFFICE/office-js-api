@@ -1,6 +1,6 @@
 # SetRowGrand
 
-Sets the **Grand Totals** setting to the pivot table rows.
+Sets the -**Grand Totals** setting to the pivot table rows.
 
 ## Syntax
 

@@ -1,6 +1,6 @@
 # AddShape
 
-Adds a shape to the current sheet with the parameters specified.💡 Please note that the horizontal and vertical offsets arecalculated within the limits of the specified column and row cellsonly. If this value exceeds the cell width or height, another vertical/horizontal position will be set.
+Adds a shape to the current sheet with the parameters specified.\n💡 Please note that the horizontal and vertical offsets are\ncalculated within the limits of the specified column and row cells\nonly. If this value exceeds the cell width or height, another vertical/horizontal position will be set.
 
 ## Syntax
 

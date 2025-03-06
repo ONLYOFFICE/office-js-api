@@ -1,6 +1,6 @@
 # SetRowHeight
 
-Sets the height of the specified row measured in points.A point is 1/72 inch.
+Sets the height of the specified row measured in points.\nA point is 1/72 inch.
 
 ## Syntax
 

@@ -1,6 +1,6 @@
 # SetColumnWidth
 
-Sets the width of the specified column.One unit of column width is equal to the width of one character in the Normal style.For proportional fonts, the width of the character 0 (zero) is used.
+Sets the width of the specified column.\nOne unit of column width is equal to the width of one character in the Normal style.\nFor proportional fonts, the width of the character 0 (zero) is used.
 
 ## Syntax
 

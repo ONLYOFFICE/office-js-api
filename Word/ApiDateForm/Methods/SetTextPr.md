@@ -1,6 +1,6 @@
 # SetTextPr
 
-Sets the text properties to the current form.Used if possible for this type of form*
+Sets the text properties to the current form.\nUsed if possible for this type of form*
 
 ## Syntax
 

@@ -1,6 +1,6 @@
 # TRUE
 
-Returns the **true** logical value.
+Returns the -**true** logical value.
 
 ## Syntax
 

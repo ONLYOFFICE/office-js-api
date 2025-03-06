@@ -15,7 +15,7 @@ expression.AddDefName(sName, sRef, isHidden);
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | sName | Required | string |  | The range name. |
-| sRef | Required | string |  | The reference to the specified range. It must contain the sheet name, followed by sign ! and a range of cells. Example: "Sheet1!$A$1:$B$2". |
+| sRef | Required | string |  | The reference to the specified range. It must contain the sheet name, followed by sign ! and a range of cells.\nExample: "Sheet1!$A$1:$B$2". |
 | isHidden | Required | boolean |  | Defines if the range name is hidden or not. |
 
 ## Returns

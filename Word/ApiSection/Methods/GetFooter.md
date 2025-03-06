@@ -15,7 +15,7 @@ expression.GetFooter(sType, isCreate);
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | sType | Required | [HdrFtrType](../../Enumeration/HdrFtrType.md) |  | Footer type to get the content from. |
-| isCreate | Optional | boolean | false | Specifies whether to create a new footer or not with the specified footer type in case no footer with such a type could be found in the current section. |
+| isCreate | Optional | boolean | false | Specifies whether to create a new footer or not with the specified footer type in case\nno footer with such a type could be found in the current section. |
 
 ## Returns
 

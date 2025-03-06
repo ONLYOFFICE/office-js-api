@@ -1,6 +1,6 @@
 # HdrFtrType
 
-Header and footer types which can be applied to the document sections.**"default"** - a header or footer which can be applied to any default page.**"title"** - a header or footer which is applied to the title page.**"even"** - a header or footer which can be applied to even pages to distinguish them from the odd ones (which will be considered default).
+Header and footer types which can be applied to the document sections.\n-**"default"** - a header or footer which can be applied to any default page.\n-**"title"** - a header or footer which is applied to the title page.\n-**"even"** - a header or footer which can be applied to even pages to distinguish them from the odd ones (which will be considered default).
 
 ## Type
 

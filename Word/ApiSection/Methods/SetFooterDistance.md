@@ -14,7 +14,7 @@ expression.SetFooterDistance(nDistance);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| nDistance | Required | [twips](../../Enumeration/twips.md) |  | The distance from the bottom edge of the page to the bottom edge of the footer measured in twentieths of a point (1/1440 of an inch). |
+| nDistance | Required | [twips](../../Enumeration/twips.md) |  | The distance from the bottom edge of the page to the bottom edge of the footer measured\nin twentieths of a point (1/1440 of an inch). |
 
 ## Returns
 

@@ -14,7 +14,7 @@ expression.LoadMailMergeData(data);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| data | Required | String[][] |  | Mail merge data. The first element of the array is the array with names of the merge fields. The rest of the array elements are arrays with values for the merge fields. |
+| data | Required | String[][] |  | Mail merge data. The first element of the array is the array with names of the merge fields.\nThe rest of the array elements are arrays with values for the merge fields. |
 
 ## Returns
 

@@ -1,6 +1,6 @@
 # AddComment
 
-Adds a comment to all contents of the current table.💡 Please note that this table must be in the document.
+Adds a comment to all contents of the current table.\n💡 Please note that this table must be in the document.
 
 ## Syntax
 

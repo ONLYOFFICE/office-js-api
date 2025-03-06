@@ -1,6 +1,6 @@
 # GetTextPr
 
-Specifies the text properties which will be applied to the text in the current numbering level itself, not to the text in the subsequent paragraph.💡 To change the text style of the paragraph, a style must be applied to it using the &#123;@link ApiRun#SetStyle&#125; method.
+Specifies the text properties which will be applied to the text in the current numbering level itself, not to the text in the subsequent paragraph.\n💡 To change the text style of the paragraph, a style must be applied to it using the [ApiRun#SetStyle](../../ApiRun/Methods/SetStyle.md) method.
 
 ## Syntax
 

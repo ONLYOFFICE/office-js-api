@@ -1,6 +1,6 @@
 # GetColumnGrand
 
-Returns the **Grand Totals** setting of the pivot table columns.
+Returns the -**Grand Totals** setting of the pivot table columns.
 
 ## Syntax
 

@@ -1,6 +1,6 @@
 # SetColumnGrand
 
-Sets the **Grand Totals** setting to the pivot table columns.
+Sets the -**Grand Totals** setting to the pivot table columns.
 
 ## Syntax
 

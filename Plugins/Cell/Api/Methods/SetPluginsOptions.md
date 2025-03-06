@@ -1,6 +1,6 @@
 # SetPluginsOptions
 
-Configures plugins from an external source. The settings can be set for all plugins or for a specific plugin.For example, this method can be used to pass an authorization token to the plugin. This method can be used only with the connector class.
+Configures plugins from an external source. The settings can be set for all plugins or for a specific plugin.\nFor example, this method can be used to pass an authorization token to the plugin. This method can be used only with the connector class.
 
 ## Syntax
 

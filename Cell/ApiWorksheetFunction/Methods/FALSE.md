@@ -1,6 +1,6 @@
 # FALSE
 
-Returns the **false** logical value.
+Returns the -**false** logical value.
 
 ## Syntax
 

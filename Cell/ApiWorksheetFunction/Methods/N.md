@@ -1,6 +1,6 @@
 # N
 
-Converts a value to a number, dates to serial numbers, **true** to 1, error to &#123;@link global#ErrorValue ErrorValue&#125;, anything else to 0 (zero).
+Converts a value to a number, dates to serial numbers, -**true** to 1, error to [ErrorValue](../../Enumeration/ErrorValue.md), anything else to 0 (zero).
 
 ## Syntax
 

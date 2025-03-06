@@ -1,6 +1,6 @@
 # GetRowGrand
 
-Returns the **Grand Totals** setting of the pivot table rows.
+Returns the -**Grand Totals** setting of the pivot table rows.
 
 ## Syntax
 

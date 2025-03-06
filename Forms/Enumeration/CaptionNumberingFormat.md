@@ -1,6 +1,6 @@
 # CaptionNumberingFormat
 
-Possible values for the caption numbering format.**"ALPHABETIC"** - upper letter.**"alphabetic"** - lower letter.**"Roman"** - upper Roman.**"roman"** - lower Roman.**"Arabic"** - arabic.
+Possible values for the caption numbering format.\n-**"ALPHABETIC"** - upper letter.\n-**"alphabetic"** - lower letter.\n-**"Roman"** - upper Roman.\n-**"roman"** - lower Roman.\n-**"Arabic"** - arabic.
 
 ## Type
 

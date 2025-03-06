@@ -1,6 +1,6 @@
 # SetTheme
 
-Sets a theme to the slide master.Sets a copy of the theme object.
+Sets a theme to the slide master.\nSets a copy of the theme object.
 
 ## Syntax
 

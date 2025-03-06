@@ -1,6 +1,6 @@
 # ISODD
 
-Returns **true** if a number is odd.
+Returns -**true** if a number is odd.
 
 ## Syntax
 

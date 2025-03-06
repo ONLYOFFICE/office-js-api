@@ -14,7 +14,7 @@ expression.Merge(isAcross);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| isAcross | Required | boolean |  | When set to **true**, the cells within the selected range will be merged along the rows, but remain split in the columns. When set to **false**, the whole selected range of cells will be merged into a single cell. |
+| isAcross | Required | boolean |  | When set to -**true**, the cells within the selected range will be merged along the rows,\nbut remain split in the columns. When set to -**false**, the whole selected range of cells will be merged into a single cell. |
 
 ## Returns
 

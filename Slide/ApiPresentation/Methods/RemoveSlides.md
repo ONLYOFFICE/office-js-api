@@ -1,6 +1,6 @@
 # RemoveSlides
 
-Removes a range of slides from the presentation.Deletes all the slides from the presentation if no parameters are specified.
+Removes a range of slides from the presentation.\nDeletes all the slides from the presentation if no parameters are specified.
 
 ## Syntax
 

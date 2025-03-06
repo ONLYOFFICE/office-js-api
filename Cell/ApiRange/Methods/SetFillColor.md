@@ -1,6 +1,6 @@
 # SetFillColor
 
-Sets the background color to the current cell range with the previously created color object.Sets 'No Fill' when previously created color object is null.
+Sets the background color to the current cell range with the previously created color object.\nSets 'No Fill' when previously created color object is null.
 
 ## Syntax
 

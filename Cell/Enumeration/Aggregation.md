@@ -1,6 +1,6 @@
 # Aggregation
 
-A numeric value that specifies which function should be used to aggregate identical time values in the timeline data range.**1** (or omitted) - AVERAGE.**2** - COUNT.**3** - COUNTA.**4** - MAX.**5** - MEDIAN.**6** - MIN.**7** - SUM.
+A numeric value that specifies which function should be used to aggregate identical time values in the timeline data range.\n-**1** (or omitted) - AVERAGE.\n-**2** - COUNT.\n-**3** - COUNTA.\n-**4** - MAX.\n-**5** - MEDIAN.\n-**6** - MIN.\n-**7** - SUM.
 
 ## Type
 

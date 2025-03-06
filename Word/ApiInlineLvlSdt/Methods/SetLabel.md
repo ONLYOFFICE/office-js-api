@@ -14,7 +14,7 @@ expression.SetLabel(sLabel);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sLabel | Required | string |  | The label which will be added to the current inline text content control. Can be a positive or negative integer from **-2147483647** to **2147483647**. |
+| sLabel | Required | string |  | The label which will be added to the current inline text content control. Can be a positive or negative integer from -**-2147483647** to -**2147483647**. |
 
 ## Returns
 

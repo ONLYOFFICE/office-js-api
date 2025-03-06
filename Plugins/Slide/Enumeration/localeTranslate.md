@@ -1,6 +1,6 @@
 # localeTranslate
 
-Translations for the text field. The object keys are the two letter language codes (ru, de, it, etc.) and the values are the button label translation for each language.Example: &#123; "en" : "name", "ru" : "имя" &#125;
+Translations for the text field. The object keys are the two letter language codes (ru, de, it, etc.) and the values are the button label translation for each language.\nExample: &#123; "en" : "name", "ru" : "имя" &#125;
 
 ## Type
 

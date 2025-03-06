@@ -1,6 +1,6 @@
 # GetFormsData
 
-Returns the data from all forms present in the current document.If a form was created and not assigned to any part of the document, it won't appear in this list.
+Returns the data from all forms present in the current document.\nIf a form was created and not assigned to any part of the document, it won't appear in this list.
 
 ## Syntax
 

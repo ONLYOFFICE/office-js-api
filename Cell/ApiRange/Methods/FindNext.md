@@ -1,6 +1,6 @@
 # FindNext
 
-Continues a search that was begun with the &#123;@link ApiRange#Find&#125; method. Finds the next cell that matches those same conditions and returns the ApiRange object that represents that cell. This does not affect the selection or the active cell.
+Continues a search that was begun with the [ApiRange#Find](../../ApiRange/Methods/Find.md) method. Finds the next cell that matches those same conditions and returns the ApiRange object that represents that cell. This does not affect the selection or the active cell.
 
 ## Syntax
 
