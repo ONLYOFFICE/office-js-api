@@ -14,7 +14,7 @@ expression.AddElement(oElement, nPos);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| oElement | Required | [ParagraphContent](../../Enumeration/ParagraphContent.md) |  | The document element which will be added at the position specified. Returns **false** if the type of *oElement* is not supported by an inline text content control. |
+| oElement | Required | [ParagraphContent](../../Enumeration/ParagraphContent.md) |  | The document element which will be added at the position specified. Returns -**false** if the type of *oElement* is not supported by an inline text content control. |
 | nPos | Optional | number |  | The position of the element where it will be added to the current inline text content control. If this value is not specified, then the element will be added to the end of the current inline text content control. |
 
 ## Returns

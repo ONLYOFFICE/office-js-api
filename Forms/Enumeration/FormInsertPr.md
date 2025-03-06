@@ -10,8 +10,8 @@ Object
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| placeholderFromSelection | boolean | Specifies if the currently selected text should be saved as a placeholder of the inserted form. |
 | keepSelectedTextInForm | boolean | Specifies if the currently selected text should be saved as the content of the inserted form. |
+| placeholderFromSelection | boolean | Specifies if the currently selected text should be saved as a placeholder of the inserted form. |
 
 
 ## Example

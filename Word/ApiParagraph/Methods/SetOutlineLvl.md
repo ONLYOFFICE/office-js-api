@@ -14,7 +14,7 @@ expression.SetOutlineLvl(nLvl);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| nLvl | Optional | Number |  | The outline level. Possible values: 0-8. The 0 value means the basic outline level. To set no outline level, use this method without a parameter. |
+| nLvl | Optional | Number |  | The outline level. Possible values: 0-8. The 0 value means the basic outline level.\nTo set no outline level, use this method without a parameter. |
 
 ## Returns
 

@@ -15,7 +15,7 @@ expression.GetHeader(sType, isCreate);
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | sType | Required | [HdrFtrType](../../Enumeration/HdrFtrType.md) |  | Header type to get the content from. |
-| isCreate | Optional | boolean | false | Specifies whether to create a new header or not with the specified header type in case no header with such a type could be found in the current section. |
+| isCreate | Optional | boolean | false | Specifies whether to create a new header or not with the specified header type in case\nno header with such a type could be found in the current section. |
 
 ## Returns
 

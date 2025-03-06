@@ -16,7 +16,7 @@ expression.POISSON(arg1, arg2, arg3);
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | The number of events. |
 | arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | The expected numeric value, a positive number. |
-| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| boolean |  | A logical value (**true** or **false**) that determines the function form. If it is **true**, the function returns the cumulative Poisson probability. If it is **false**, the function returns the Poisson probability mass function. |
+| arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| boolean |  | A logical value (-**true** or -**false**) that determines the function form.\nIf it is -**true**, the function returns the cumulative Poisson probability.\nIf it is -**false**, the function returns the Poisson probability mass function. |
 
 ## Returns
 

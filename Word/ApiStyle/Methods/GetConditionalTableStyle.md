@@ -1,6 +1,6 @@
 # GetConditionalTableStyle
 
-Returns a set of formatting properties which will be conditionally applied to the parts of a table that match the requirement specified in the sType parameter.
+Returns a set of formatting properties which will be conditionally applied to the parts of a table that match the \nrequirement specified in the sType parameter.
 
 ## Syntax
 

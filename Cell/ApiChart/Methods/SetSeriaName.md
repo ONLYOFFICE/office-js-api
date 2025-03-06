@@ -14,7 +14,7 @@ expression.SetSeriaName(sNameRange, nSeria);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sNameRange | Required | string |  | The series name. Can be a range of cells or usual text. For example: "'sheet 1'!$A$2:$A$5" - must be a single cell, row or column, "A1:A5" - must be a single cell, row or column, "Example series". |
+| sNameRange | Required | string |  | The series name. Can be a range of cells or usual text. For example:\n"'sheet 1'!$A$2:$A$5" - must be a single cell, row or column,\n"A1:A5" - must be a single cell, row or column,\n"Example series". |
 | nSeria | Required | number |  | The index of the chart series. |
 
 ## Returns

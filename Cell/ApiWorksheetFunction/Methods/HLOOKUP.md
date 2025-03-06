@@ -15,9 +15,9 @@ expression.HLOOKUP(arg1, arg2, arg3, arg4);
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | arg1 | Required | number \| string \| [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) |  | The value to be found in the first row of the table and can be a value, a reference, or a text string. |
-| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) |  | A table of text, numbers, or logical values in which data is looked up. The data is sorted in ascending order. This argument can be a range of cells or a range name. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) |  | A table of text, numbers, or logical values in which data is looked up. The data is sorted in ascending order.\nThis argument can be a range of cells or a range name. |
 | arg3 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | The row number in data table from which the matching value should be returned. The first row of values in the table is row 1. |
-| arg4 | Optional | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| boolean |  | A logical value which specifies whether to find the closest match in the top row (sorted in ascending order) (**true** or omitted) or find an exact match (**false**). |
+| arg4 | Optional | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| boolean |  | A logical value which specifies whether to find the closest match in the top row (sorted in ascending order) (-**true** or omitted)\nor find an exact match (-**false**). |
 
 ## Returns
 

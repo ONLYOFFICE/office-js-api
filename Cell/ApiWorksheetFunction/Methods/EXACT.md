@@ -1,6 +1,6 @@
 # EXACT
 
-Checks whether two text strings are exactly the same, and returns **true** or **false**. This function is case-sensitive.
+Checks whether two text strings are exactly the same, and returns -**true** or -**false**. This function is case-sensitive.
 
 ## Syntax
 

@@ -14,7 +14,7 @@ expression.SetDisplayHeadings(isDisplayed);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| isDisplayed | Required | boolean |  | Specifies whether the current sheet row/column headers must be displayed or not. The default value is **true**. |
+| isDisplayed | Required | boolean |  | Specifies whether the current sheet row/column headers must be displayed or not. The default value is -**true**. |
 
 ## Returns
 

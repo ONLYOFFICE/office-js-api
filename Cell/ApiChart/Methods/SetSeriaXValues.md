@@ -14,7 +14,7 @@ expression.SetSeriaXValues(sRange, nSeria);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sRange | Required | string |  | A range of cells from the sheet with series x-axis values. For example: "'sheet 1'!$A$2:$A$5" - must be a single cell, row or column, "A1:A5" - must be a single cell, row or column, "Example series". |
+| sRange | Required | string |  | A range of cells from the sheet with series x-axis values. For example:\n"'sheet 1'!$A$2:$A$5" - must be a single cell, row or column,\n"A1:A5" - must be a single cell, row or column,\n"Example series". |
 | nSeria | Required | number |  | The index of the chart series. |
 
 ## Returns

@@ -1,6 +1,6 @@
 # VARPA
 
-Calculates variance based on the entire population, including logical values and text. Text and the **false** logical value have the value 0; the **true** logical value has the value 1.
+Calculates variance based on the entire population, including logical values and text. Text and the -**false** logical value have the value 0; the -**true** logical value has the value 1.
 
 ## Syntax
 
@@ -14,7 +14,7 @@ expression.VARPA(args);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| args | Required | number \| string \| boolean \| (number \| string \| boolean)[] \| [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) |  | Up to 255 values for which the variance will be calculated. The first argument is required, subsequent arguments are optional. Arguments can be numbers, logical values or text representations of numbers, names, ranges, or arrays. |
+| args | Required | number \| string \| boolean \| (number \| string \| boolean)[] \| [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) |  | Up to 255 values for which the variance will be calculated.\nThe first argument is required, subsequent arguments are optional. Arguments can be numbers, logical values or text representations of numbers, names, ranges, or arrays. |
 
 ## Returns
 

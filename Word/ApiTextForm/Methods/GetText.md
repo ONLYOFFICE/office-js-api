@@ -1,6 +1,6 @@
 # GetText
 
-Returns the text from the current form.Returns the value as a string if possible for the given form type*
+Returns the text from the current form.\nReturns the value as a string if possible for the given form type*
 
 ## Syntax
 

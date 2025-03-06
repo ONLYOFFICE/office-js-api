@@ -20,8 +20,8 @@ expression.ACCRINT(arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8);
 | arg4 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | The annual coupon rate of the security. |
 | arg5 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | The par value of the security. |
 | arg6 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | The number of interest payments per year. The possible values are: 1 for annual payments, 2 for semiannual payments, 4 for quarterly payments. |
-| arg7 | Optional | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | The day count basis to use: **0** or omitted - US (NASD) 30/360; **1** - Actual/actual; **2** - Actual/360; **3** - Actual/365; **4** - European 30/360. |
-| arg8 | Optional | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | A logical value: **true** (1) or omitted returns the accrued interest from the issue date to the settlement date. **false** (0) returns the accrued interest from the first interest date to the settlement date. |
+| arg7 | Optional | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | The day count basis to use: -**0** or omitted - US (NASD) 30/360; -**1** - Actual/actual; -**2** - Actual/360; -**3** - Actual/365; -**4** - European 30/360. |
+| arg8 | Optional | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number |  | A logical value: -**true** (1) or omitted returns the accrued interest from the issue date to the settlement date.\n-**false** (0) returns the accrued interest from the first interest date to the settlement date. |
 
 ## Returns
 

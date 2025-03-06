@@ -14,7 +14,7 @@ expression.StartAction(type, description);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| type | Required | number |  | A value which defines an action type which can take **0** if this is an *Information* action or **1** if this is a *BlockInteraction* action. |
+| type | Required | number |  | A value which defines an action type which can take -**0** if this is an *Information* action or -**1** if this is a *BlockInteraction* action. |
 | description | Required | string |  | A string value that specifies the description text for the start action of the operation. |
 
 ## Returns

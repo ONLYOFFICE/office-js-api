@@ -15,7 +15,7 @@ expression.OnEncryption(obj, obj.type, obj.password, obj.data, obj.check, obj.do
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | obj | Required | object |  | The encryption properties. |
-| obj.type | Required | string |  | The type of encrypting operation: **generatePassword** - generates a password for the document, **getPasswordByFile** - sends the password when opening the document, **encryptData** - encrypts changes when co-editing, **decryptData** - decrypts changes when co-editing. |
+| obj.type | Required | string |  | The type of encrypting operation:\n-**generatePassword** - generates a password for the document,\n-**getPasswordByFile** - sends the password when opening the document,\n-**encryptData** - encrypts changes when co-editing,\n-**decryptData** - decrypts changes when co-editing. |
 | obj.password | Required | string |  | A string value specifying the password to access the document. |
 | obj.data | Required | string |  | Encrypted/decrypted changes. |
 | obj.check | Required | boolean |  | Checks if the encryption/decryption operation is successful or not (used only for *encryptData* or *decryptData* types). |

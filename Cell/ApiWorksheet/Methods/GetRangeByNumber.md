@@ -1,6 +1,6 @@
 # GetRangeByNumber
 
-Returns an object that represents the selected range of the current sheet using the **row/column** coordinates for the cell selection.
+Returns an object that represents the selected range of the current sheet using the -**row/column** coordinates for the cell selection.
 
 ## Syntax
 

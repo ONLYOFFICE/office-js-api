@@ -1,6 +1,6 @@
 # SetEvenAndOddHdrFtr
 
-Specifies whether sections in this document will have different headers and footers for even andodd pages (one header/footer for odd pages and another header/footer for even pages).
+Specifies whether sections in this document will have different headers and footers for even and\nodd pages (one header/footer for odd pages and another header/footer for even pages).
 
 ## Syntax
 

@@ -15,7 +15,7 @@ expression.TEXT(arg1, arg2);
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number \| string |  | A number, a formula that evaluates to a numeric value, or a reference to a cell containing a numeric value. |
-| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| string |  | A number format in the text form from the **Number format** combo box on the **Home** tab. |
+| arg2 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| string |  | A number format in the text form from the -**Number format** combo box on the -**Home** tab. |
 
 ## Returns
 

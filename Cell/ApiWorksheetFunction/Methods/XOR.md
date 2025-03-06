@@ -1,6 +1,6 @@
 # XOR
 
-Returns the logical **Exclusive Or** value of all arguments. The function returns **true** when the number of **true** inputs is odd and **false** when the number of **true** inputs is even.
+Returns the logical -**Exclusive Or** value of all arguments. The function returns -**true** when the number of -**true** inputs is odd and -**false** when the number of -**true** inputs is even.
 
 ## Syntax
 

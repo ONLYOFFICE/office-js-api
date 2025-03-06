@@ -6,9 +6,9 @@ The addin field data.
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
+| Content | string | Field text content. |
 | FieldId | string | Field identifier. |
 | Value | string | Field value. |
-| Content | string | Field text content. |
 ## Type
 
 Object

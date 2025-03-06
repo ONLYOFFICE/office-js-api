@@ -10,11 +10,11 @@ Object
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| ShowPageNums | boolean | Specifies whether to show page numbers in the table of contents. |
-| RightAlgn | boolean | Specifies whether to right-align page numbers in the table of contents. |
-| LeaderType | [TocLeader](../Enumeration/TocLeader.md) | The leader type in the table of contents. |
-| FormatAsLinks | boolean | Specifies whether to format the table of contents as links. |
 | BuildFrom | [TocBuildFromPr](../Enumeration/TocBuildFromPr.md) | Specifies whether to generate the table of contents from the outline levels or the specified styles. |
+| FormatAsLinks | boolean | Specifies whether to format the table of contents as links. |
+| LeaderType | [TocLeader](../Enumeration/TocLeader.md) | The leader type in the table of contents. |
+| RightAlgn | boolean | Specifies whether to right-align page numbers in the table of contents. |
+| ShowPageNums | boolean | Specifies whether to show page numbers in the table of contents. |
 | TocStyle | [TocStyle](../Enumeration/TocStyle.md) | The table of contents style type. |
 
 

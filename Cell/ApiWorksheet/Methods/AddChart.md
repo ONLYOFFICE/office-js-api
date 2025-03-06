@@ -1,6 +1,6 @@
 # AddChart
 
-Creates a chart of the specified type from the selected data range of the current sheet.💡 Please note that the horizontal and vertical offsets are calculated within the limits of the specified column androw cells only. If this value exceeds the cell width or height, another vertical/horizontal position will be set.
+Creates a chart of the specified type from the selected data range of the current sheet.\n💡 Please note that the horizontal and vertical offsets are calculated within the limits of the specified column and\nrow cells only. If this value exceeds the cell width or height, another vertical/horizontal position will be set.
 
 ## Syntax
 
@@ -17,7 +17,7 @@ expression.AddChart(sDataRange, bInRows, sType, nStyleIndex, nExtX, nExtY, nFrom
 | sDataRange | Required | string |  | The selected cell range which will be used to get the data for the chart, formed specifically and including the sheet name. |
 | bInRows | Required | boolean |  | Specifies whether to take the data from the rows or from the columns. If true, the data from the rows will be used. |
 | sType | Required | [ChartType](../../Enumeration/ChartType.md) |  | The chart type used for the chart display. |
-| nStyleIndex | Required | number |  | The chart color style index (can be **1 - 48**, as described in OOXML specification). |
+| nStyleIndex | Required | number |  | The chart color style index (can be -**1 - 48**, as described in OOXML specification). |
 | nExtX | Required | [EMU](../../Enumeration/EMU.md) |  | The chart width in English measure units |
 | nExtY | Required | [EMU](../../Enumeration/EMU.md) |  | The chart height in English measure units. |
 | nFromCol | Required | number |  | The number of the column where the beginning of the chart will be placed. |

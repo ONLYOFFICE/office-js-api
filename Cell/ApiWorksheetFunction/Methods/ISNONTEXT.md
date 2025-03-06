@@ -1,6 +1,6 @@
 # ISNONTEXT
 
-Checks whether a value is not text (blank cells are not text), and returns **true** or **false**.
+Checks whether a value is not text (blank cells are not text), and returns -**true** or -**false**.
 
 ## Syntax
 
@@ -14,7 +14,7 @@ expression.ISNONTEXT(arg1);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| string \| number \| boolean \| [ApiName](../../ApiName/ApiName.md) |  | The value to test. The value can be an empty cell, error, logical value, text, number, range, or range name. |
+| arg1 | Required | [ApiRange](../../ApiRange/ApiRange.md) \| string \| number \| boolean \| [ApiName](../../ApiName/ApiName.md) |  | The value to test.\nThe value can be an empty cell, error, logical value, text, number, range, or range name. |
 
 ## Returns
 

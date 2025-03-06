@@ -1,6 +1,6 @@
 # SetVertAlign
 
-Specifies the alignment which will be applied to the contents of this paragraph in relation to the default appearance of the paragraph text:**"baseline"** - the characters in the current paragraph will be aligned by the default text baseline.**"subscript"** - the characters in the current paragraph will be aligned below the default text baseline.**"superscript"** - the characters in the current paragraph will be aligned above the default text baseline.
+Specifies the alignment which will be applied to the contents of this paragraph in relation to the default appearance of the paragraph text:\n-**"baseline"** - the characters in the current paragraph will be aligned by the default text baseline.\n-**"subscript"** - the characters in the current paragraph will be aligned below the default text baseline.\n-**"superscript"** - the characters in the current paragraph will be aligned above the default text baseline.
 
 ## Syntax
 

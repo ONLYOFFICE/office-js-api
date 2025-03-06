@@ -14,7 +14,7 @@ expression.SetDisplayGridlines(isDisplayed);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| isDisplayed | Required | boolean |  | Specifies whether the current sheet gridlines must be displayed or not. The default value is **true**. |
+| isDisplayed | Required | boolean |  | Specifies whether the current sheet gridlines must be displayed or not. The default value is -**true**. |
 
 ## Returns
 

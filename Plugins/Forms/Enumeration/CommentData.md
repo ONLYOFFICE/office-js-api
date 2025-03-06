@@ -6,11 +6,11 @@ The comment data.
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| UserName | string | The comment author. |
+| Replies | [CommentData](../Enumeration/CommentData.md)[] | An array containing the comment replies represented as the *CommentData* object. |
+| Solved | boolean | Specifies if the comment is resolved (**true**) or not (**false**). |
 | Text | string | The comment text. |
 | Time | string | The time when the comment was posted (in milliseconds). |
-| Solved | boolean | Specifies if the comment is resolved (**true**) or not (**false**). |
-| Replies | [CommentData](../Enumeration/CommentData.md)[] | An array containing the comment replies represented as the *CommentData* object. |
+| UserName | string | The comment author. |
 ## Type
 
 Object

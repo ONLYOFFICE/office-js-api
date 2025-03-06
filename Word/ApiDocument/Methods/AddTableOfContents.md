@@ -1,6 +1,6 @@
 # AddTableOfContents
 
-Adds a table of content to the current document.💡 Please note that the new table of contents replaces the existing table of contents.
+Adds a table of content to the current document.\n💡 Please note that the new table of contents replaces the existing table of contents.
 
 ## Syntax
 

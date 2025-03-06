@@ -1,6 +1,6 @@
 # PutImageDataToSelection
 
-Replaces the first selected drawing with the image specified in the parameters.If there are no drawings selected, the method inserts the image at the current position.
+Replaces the first selected drawing with the image specified in the parameters.\nIf there are no drawings selected, the method inserts the image at the current position.
 
 ## Syntax
 

@@ -1,6 +1,6 @@
 # AddComment
 
-Adds a comment to the current inline content control.💡 Please note that this inline content control must be in the document.
+Adds a comment to the current inline content control.\n💡 Please note that this inline content control must be in the document.
 
 ## Syntax
 

@@ -1,6 +1,6 @@
 # ISEVEN
 
-Returns **true** if a number is even.
+Returns -**true** if a number is even.
 
 ## Syntax
 

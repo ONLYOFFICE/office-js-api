@@ -10,8 +10,8 @@ Object
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| Name | string | Style name (for example, "Heading 1"). |
 | Lvl | number | Level which will be applied to the specified style in the table of contents. |
+| Name | string | Style name (for example, "Heading 1"). |
 
 
 ## Example

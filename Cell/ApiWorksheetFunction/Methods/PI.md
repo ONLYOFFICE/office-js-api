@@ -1,6 +1,6 @@
 # PI
 
-Returns the mathematical constant **pi**, equal to **3.14159265358979**, accurate to 15 digits.
+Returns the mathematical constant -**pi**, equal to -**3.14159265358979**, accurate to 15 digits.
 
 ## Syntax
 

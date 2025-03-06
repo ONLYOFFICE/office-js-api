@@ -1,6 +1,6 @@
 # AND
 
-Checks whether all conditions in a test are **true**.
+Checks whether all conditions in a test are -**true**.
 
 ## Syntax
 

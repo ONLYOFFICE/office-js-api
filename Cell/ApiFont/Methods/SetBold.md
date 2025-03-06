@@ -1,6 +1,6 @@
 # SetBold
 
-Sets the bold property to the specified font.💡 This method will work only with the text format of the cell.
+Sets the bold property to the specified font.\n💡 This method will work only with the text format of the cell.
 
 ## Syntax
 

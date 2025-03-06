@@ -1,6 +1,6 @@
 # ContextMenuType
 
-The context menu type:**None** - not used,**Target** - nothing is selected,**Selection** - text is selected,**Image** - image is selected,**Shape** - shape is selected,**OleObject** - OLE object is selected.
+The context menu type:\n-**None** - not used,\n-**Target** - nothing is selected,\n-**Selection** - text is selected,\n-**Image** - image is selected,\n-**Shape** - shape is selected,\n-**OleObject** - OLE object is selected.
 
 ## Type
 
