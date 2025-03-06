@@ -1,6 +1,7 @@
 # MergeCells
 
-Merges an array of cells. If merge is successful, it will return merged cell, otherwise "null".\n-**Warning**: The number of cells in any row and the number of rows in the current table may be changed.
+Merges an array of cells. If merge is successful, it will return merged cell, otherwise "null".\
+-**Warning**: The number of cells in any row and the number of rows in the current table may be changed.
 
 ## Syntax
 

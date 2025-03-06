@@ -1,6 +1,7 @@
 # SetPosition
 
-Sets a value that represents the position of the field (first, second, third, and so on)\namong all the fields in its orientation (Rows, Columns, Pages, Data).
+Sets a value that represents the position of the field (first, second, third, and so on)\
+among all the fields in its orientation (Rows, Columns, Pages, Data).
 
 ## Syntax
 

@@ -22,6 +22,6 @@ Represents the ApiDocumentContent class.
 | [GetRange](./Methods/GetRange.md) | [ApiRange](../ApiRange/ApiRange.md) | Returns a Range object that represents the part of the document contained in the document content. |
 | [GetText](./Methods/GetText.md) | string | Returns the inner text of the current document content object. |
 | [Push](./Methods/Push.md) | boolean | Pushes a paragraph or a table to actually add it to the document. |
-| [RemoveAllElements](./Methods/RemoveAllElements.md) | None | Removes all the elements from the current document or from the current document element.\n💡 When all elements are removed, a new empty paragraph is automatically created. If you want to add\ncontent to this paragraph, use the [ApiDocumentContent#GetElement](../ApiDocumentContent/Methods/GetElement.md) method. |
+| [RemoveAllElements](./Methods/RemoveAllElements.md) | None | Removes all the elements from the current document or from the current document element.\ 💡 When all elements are removed, a new empty paragraph is automatically created. If you want to add\ content to this paragraph, use the [ApiDocumentContent#GetElement](../ApiDocumentContent/Methods/GetElement.md) method. |
 | [RemoveElement](./Methods/RemoveElement.md) | None | Removes an element using the position specified. |
 | [ToJSON](./Methods/ToJSON.md) | JSON | Converts the ApiDocumentContent object into the JSON object. |

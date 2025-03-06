@@ -1,6 +1,7 @@
 # SetDrawingPrFromDrawing
 
-Sets the properties from another drawing to the current drawing.\nThe following properties will be copied: horizontal and vertical alignment, distance between the edges of the current drawing object and any subsequent text, wrapping style, drawing name, title and description.
+Sets the properties from another drawing to the current drawing.\
+The following properties will be copied: horizontal and vertical alignment, distance between the edges of the current drawing object and any subsequent text, wrapping style, drawing name, title and description.
 
 ## Syntax
 

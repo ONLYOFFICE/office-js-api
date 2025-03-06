@@ -16,7 +16,7 @@ expression.AddColumns(oCell, nCount, isBefore);
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | oCell | Optional | [ApiTableCell](../../ApiTableCell/ApiTableCell.md) |  | The cell after which the new columns will be added. If not specified, the new columns will be added at the end of the table. |
 | nCount | Required | Number |  | Count of columns to be added. |
-| isBefore | Optional | boolean | false | Adds the new columns before (false) or after (true) the specified cell. If no cell is specified,\nthen this parameter will be ignored. |
+| isBefore | Optional | boolean | false | Adds the new columns before (false) or after (true) the specified cell. If no cell is specified,\ then this parameter will be ignored. |
 
 ## Returns
 

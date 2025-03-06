@@ -14,7 +14,7 @@ expression.GetData(items);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| items | Required | string[] |  | Describes a single cell in the pivot table report.\nFor example, "'Estimated Costs' Tables May", which shows the estimated costs for tables in May\n(Data field = Costs, Product = Tables, Month = May). |
+| items | Required | string[] |  | Describes a single cell in the pivot table report.\ For example, "'Estimated Costs' Tables May", which shows the estimated costs for tables in May\ (Data field = Costs, Product = Tables, Month = May). |
 
 ## Returns
 

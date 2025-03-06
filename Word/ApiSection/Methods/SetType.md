@@ -1,6 +1,7 @@
 # SetType
 
-Specifies a type of the current section. The section type defines how the contents of the current \nsection are placed relative to the previous section.
+Specifies a type of the current section. The section type defines how the contents of the current \
+section are placed relative to the previous section.
 
 ## Syntax
 

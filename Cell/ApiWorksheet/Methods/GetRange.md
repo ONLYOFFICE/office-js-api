@@ -1,6 +1,7 @@
 # GetRange
 
-Returns an object that represents the selected range of the current sheet. Can be a single cell - -**A1**, or cells\nfrom a single row - -**A1:E1**, or cells from a single column - -**A1:A10**, or cells from several rows and columns - -**A1:E10**.
+Returns an object that represents the selected range of the current sheet. Can be a single cell - -**A1**, or cells\
+from a single row - -**A1:E1**, or cells from a single column - -**A1:A10**, or cells from several rows and columns - -**A1:E10**.
 
 ## Syntax
 

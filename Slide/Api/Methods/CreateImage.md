@@ -14,7 +14,7 @@ expression.CreateImage(sImageSrc, nWidth, nHeight);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sImageSrc | Required | string |  | The image source where the image to be inserted should be taken from (currently,\nonly internet URL or Base64 encoded images are supported). |
+| sImageSrc | Required | string |  | The image source where the image to be inserted should be taken from (currently,\ only internet URL or Base64 encoded images are supported). |
 | nWidth | Required | [EMU](../../Enumeration/EMU.md) |  | The image width in English measure units. |
 | nHeight | Required | [EMU](../../Enumeration/EMU.md) |  | The image height in English measure units. |
 

@@ -1,6 +1,10 @@
 # ContentControlType
 
-A numeric value that specifies the content control type:\n-**1** - block content control\n-**2** - inline content control\n-**3** - row content control\n-**4** - cell content control
+A numeric value that specifies the content control type:\
+-**1** - block content control\
+-**2** - inline content control\
+-**3** - row content control\
+-**4** - cell content control
 
 ## Type
 

@@ -33,15 +33,15 @@ Represents the ApiWorksheet class.
 
 | Method | Returns | Description |
 | ------ | ------- | ----------- |
-| [AddChart](./Methods/AddChart.md) | [ApiChart](../ApiChart/ApiChart.md) | Creates a chart of the specified type from the selected data range of the current sheet.\n💡 Please note that the horizontal and vertical offsets are calculated within the limits of the specified column and\nrow cells only. If this value exceeds the cell width or height, another vertical/horizontal position will be set. |
+| [AddChart](./Methods/AddChart.md) | [ApiChart](../ApiChart/ApiChart.md) | Creates a chart of the specified type from the selected data range of the current sheet.\ 💡 Please note that the horizontal and vertical offsets are calculated within the limits of the specified column and\ row cells only. If this value exceeds the cell width or height, another vertical/horizontal position will be set. |
 | [AddDefName](./Methods/AddDefName.md) | boolean | Adds a new name to the current worksheet. |
 | [AddImage](./Methods/AddImage.md) | [ApiImage](../ApiImage/ApiImage.md) | Adds an image to the current sheet with the parameters specified. |
 | [AddOleObject](./Methods/AddOleObject.md) | [ApiOleObject](../ApiOleObject/ApiOleObject.md) | Adds an OLE object to the current sheet with the parameters specified. |
 | [AddProtectedRange](./Methods/AddProtectedRange.md) | [ApiProtectedRange](../ApiProtectedRange/ApiProtectedRange.md) \| null | Creates a protected range of the specified type from the selected data range of the current sheet. |
-| [AddShape](./Methods/AddShape.md) | [ApiShape](../ApiShape/ApiShape.md) | Adds a shape to the current sheet with the parameters specified.\n💡 Please note that the horizontal and vertical offsets are\ncalculated within the limits of the specified column and row cells\nonly. If this value exceeds the cell width or height, another vertical/horizontal position will be set. |
+| [AddShape](./Methods/AddShape.md) | [ApiShape](../ApiShape/ApiShape.md) | Adds a shape to the current sheet with the parameters specified.\ 💡 Please note that the horizontal and vertical offsets are\ calculated within the limits of the specified column and row cells\ only. If this value exceeds the cell width or height, another vertical/horizontal position will be set. |
 | [AddWordArt](./Methods/AddWordArt.md) | [ApiDrawing](../ApiDrawing/ApiDrawing.md) | Adds a Text Art object to the current sheet with the parameters specified. |
 | [Delete](./Methods/Delete.md) | None | Deletes the current worksheet. |
-| [FormatAsTable](./Methods/FormatAsTable.md) | None | Formats the selected range of cells from the current sheet as a table (with the first row formatted as a header).\n💡 As the first row is always formatted as a table header, you need to select at least two rows for the table to be formed correctly. |
+| [FormatAsTable](./Methods/FormatAsTable.md) | None | Formats the selected range of cells from the current sheet as a table (with the first row formatted as a header).\ 💡 As the first row is always formatted as a table header, you need to select at least two rows for the table to be formed correctly. |
 | [GetActiveCell](./Methods/GetActiveCell.md) | [ApiRange](../ApiRange/ApiRange.md) | Returns an object that represents an active cell. |
 | [GetAllCharts](./Methods/GetAllCharts.md) | [ApiChart](../ApiChart/ApiChart.md)[] | Returns all charts from the current sheet. |
 | [GetAllDrawings](./Methods/GetAllDrawings.md) | [Drawing](../Enumeration/Drawing.md)[] | Returns all drawings from the current sheet. |
@@ -65,7 +65,7 @@ Represents the ApiWorksheet class.
 | [GetPrintGridlines](./Methods/GetPrintGridlines.md) | boolean | Returns the page PrintGridlines property which specifies whether the current sheet gridlines must be printed or not. |
 | [GetPrintHeadings](./Methods/GetPrintHeadings.md) | boolean | Returns the page PrintHeadings property which specifies whether the current sheet row/column headings must be printed or not. |
 | [GetProtectedRange](./Methods/GetProtectedRange.md) | [ApiProtectedRange](../ApiProtectedRange/ApiProtectedRange.md) \| null | Returns a protected range object by its title. |
-| [GetRange](./Methods/GetRange.md) | [ApiRange](../ApiRange/ApiRange.md) \| null | Returns an object that represents the selected range of the current sheet. Can be a single cell - -**A1**, or cells\nfrom a single row - -**A1:E1**, or cells from a single column - -**A1:A10**, or cells from several rows and columns - -**A1:E10**. |
+| [GetRange](./Methods/GetRange.md) | [ApiRange](../ApiRange/ApiRange.md) \| null | Returns an object that represents the selected range of the current sheet. Can be a single cell - -**A1**, or cells\ from a single row - -**A1:E1**, or cells from a single column - -**A1:A10**, or cells from several rows and columns - -**A1:E10**. |
 | [GetRangeByNumber](./Methods/GetRangeByNumber.md) | [ApiRange](../ApiRange/ApiRange.md) | Returns an object that represents the selected range of the current sheet using the -**row/column** coordinates for the cell selection. |
 | [GetRightMargin](./Methods/GetRightMargin.md) | number | Returns the right margin of the sheet. |
 | [GetRows](./Methods/GetRows.md) | [ApiRange](../ApiRange/ApiRange.md) \| null | Returns the ApiRange object that represents all the cells on the rows range. |
@@ -80,7 +80,7 @@ Represents the ApiWorksheet class.
 | [ReplaceCurrentImage](./Methods/ReplaceCurrentImage.md) | None | Replaces the current image with a new one. |
 | [SetActive](./Methods/SetActive.md) | None | Makes the current sheet active. |
 | [SetBottomMargin](./Methods/SetBottomMargin.md) | None | Sets the bottom margin of the sheet. |
-| [SetColumnWidth](./Methods/SetColumnWidth.md) | None | Sets the width of the specified column.\nOne unit of column width is equal to the width of one character in the Normal style.\nFor proportional fonts, the width of the character 0 (zero) is used. |
+| [SetColumnWidth](./Methods/SetColumnWidth.md) | None | Sets the width of the specified column.\ One unit of column width is equal to the width of one character in the Normal style.\ For proportional fonts, the width of the character 0 (zero) is used. |
 | [SetDisplayGridlines](./Methods/SetDisplayGridlines.md) | None | Specifies whether the current sheet gridlines must be displayed or not. |
 | [SetDisplayHeadings](./Methods/SetDisplayHeadings.md) | None | Specifies whether the current sheet row/column headers must be displayed or not. |
 | [SetHyperlink](./Methods/SetHyperlink.md) | None | Adds a hyperlink to the specified range. |
@@ -90,6 +90,6 @@ Represents the ApiWorksheet class.
 | [SetPrintGridlines](./Methods/SetPrintGridlines.md) | None | Specifies whether the current sheet gridlines must be printed or not. |
 | [SetPrintHeadings](./Methods/SetPrintHeadings.md) | None | Specifies whether the current sheet row/column headers must be printed or not. |
 | [SetRightMargin](./Methods/SetRightMargin.md) | None | Sets the right margin of the sheet. |
-| [SetRowHeight](./Methods/SetRowHeight.md) | None | Sets the height of the specified row measured in points.\nA point is 1/72 inch. |
+| [SetRowHeight](./Methods/SetRowHeight.md) | None | Sets the height of the specified row measured in points.\ A point is 1/72 inch. |
 | [SetTopMargin](./Methods/SetTopMargin.md) | None | Sets the top margin of the sheet. |
 | [SetVisible](./Methods/SetVisible.md) | None | Sets the state of sheet visibility. |

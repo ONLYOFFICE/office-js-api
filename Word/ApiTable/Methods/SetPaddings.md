@@ -1,6 +1,7 @@
 # SetPaddings
 
-Sets the table paddings.\nIf table is inline, then only left padding is applied.
+Sets the table paddings.\
+If table is inline, then only left padding is applied.
 
 ## Syntax
 

@@ -1,6 +1,8 @@
 # MoveCursorToPos
 
-Moves a cursor to a specified position of the current text run.\nIf the current run is not assigned to any document part, then -**false** is returned. Otherwise, this method returns -**true**.\nIf there is any selection in the document, it will be removed.
+Moves a cursor to a specified position of the current text run.\
+If the current run is not assigned to any document part, then -**false** is returned. Otherwise, this method returns -**true**.\
+If there is any selection in the document, it will be removed.
 
 ## Syntax
 

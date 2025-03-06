@@ -51,17 +51,17 @@ Represents the ApiPivotTable class.
 | [GetColumnRange](./Methods/GetColumnRange.md) | [ApiRange](../ApiRange/ApiRange.md) \| null | Returns a Range object that represents the column area in the pivot table report. |
 | [GetData](./Methods/GetData.md) | number \| null | Returns the value for the data field in a pivot table. |
 | [GetDataBodyRange](./Methods/GetDataBodyRange.md) | [ApiRange](../ApiRange/ApiRange.md) | Returns a Range object that represents the range of values in the pivot table. |
-| [GetDataFields](./Methods/GetDataFields.md) | [ApiPivotDataField](../ApiPivotDataField/ApiPivotDataField.md)[] \| [ApiPivotDataField](../ApiPivotDataField/ApiPivotDataField.md) \| null | Returns a collection that represents either a single pivot table data field\nor a collection of all visible data fields. |
+| [GetDataFields](./Methods/GetDataFields.md) | [ApiPivotDataField](../ApiPivotDataField/ApiPivotDataField.md)[] \| [ApiPivotDataField](../ApiPivotDataField/ApiPivotDataField.md) \| null | Returns a collection that represents either a single pivot table data field\ or a collection of all visible data fields. |
 | [GetDescription](./Methods/GetDescription.md) | string | Returns the pivot table description. |
 | [GetDisplayFieldCaptions](./Methods/GetDisplayFieldCaptions.md) | boolean | Returns the setting which specifies whether to display field headers for rows and columns. |
 | [GetDisplayFieldsInReportFilterArea](./Methods/GetDisplayFieldsInReportFilterArea.md) | [PivotTableFilterAreaInfo](../Enumeration/PivotTableFilterAreaInfo.md) | Returns the pivot table display fields in the report filter area settings. |
 | [GetGrandTotalName](./Methods/GetGrandTotalName.md) | string | Returns the text string label that is displayed in the grand total column or row heading in the specified pivot table report. |
 | [GetHiddenFields](./Methods/GetHiddenFields.md) | [ApiPivotField](../ApiPivotField/ApiPivotField.md)[] | Returns an array that represents all the hidden fields in the pivot table. |
 | [GetName](./Methods/GetName.md) | string | Returns the pivot table name. |
-| [GetPageFields](./Methods/GetPageFields.md) | [ApiPivotField](../ApiPivotField/ApiPivotField.md)[] | Returns a collection that represents either a single pivot table page field\nor a collection of all visible page fields. |
+| [GetPageFields](./Methods/GetPageFields.md) | [ApiPivotField](../ApiPivotField/ApiPivotField.md)[] | Returns a collection that represents either a single pivot table page field\ or a collection of all visible page fields. |
 | [GetParent](./Methods/GetParent.md) | [ApiWorksheet](../ApiWorksheet/ApiWorksheet.md) | Returns the parent object for the current pivot table. |
 | [GetPivotData](./Methods/GetPivotData.md) | [ApiRange](../ApiRange/ApiRange.md) | Returns a Range object with information about a data item in the pivot table report. |
-| [GetPivotFields](./Methods/GetPivotFields.md) | [ApiPivotField](../ApiPivotField/ApiPivotField.md)[] \| [ApiPivotField](../ApiPivotField/ApiPivotField.md) \| [ApiPivotDataField](../ApiPivotDataField/ApiPivotDataField.md) \| null | Returns a collection that represents either a single pivot table field\nor a collection of both the visible and hidden fields in the pivot table report. |
+| [GetPivotFields](./Methods/GetPivotFields.md) | [ApiPivotField](../ApiPivotField/ApiPivotField.md)[] \| [ApiPivotField](../ApiPivotField/ApiPivotField.md) \| [ApiPivotDataField](../ApiPivotDataField/ApiPivotDataField.md) \| null | Returns a collection that represents either a single pivot table field\ or a collection of both the visible and hidden fields in the pivot table report. |
 | [GetRowFields](./Methods/GetRowFields.md) | [ApiPivotField](../ApiPivotField/ApiPivotField.md)[] | Returns a collection that is currently displayed as row fields in the pivot table. |
 | [GetRowGrand](./Methods/GetRowGrand.md) | boolean | Returns the -**Grand Totals** setting of the pivot table rows. |
 | [GetRowRange](./Methods/GetRowRange.md) | [ApiRange](../ApiRange/ApiRange.md) \| null | Returns a Range object that represents the row area in the pivot table report. |

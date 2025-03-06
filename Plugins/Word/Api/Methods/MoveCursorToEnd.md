@@ -1,6 +1,7 @@
 # MoveCursorToEnd
 
-Moves a cursor to the end of the current editing area (document body, footer/header, footnote, or autoshape).\nThis method is similar to pressing the -**Ctrl + End** keyboard shortcut.
+Moves a cursor to the end of the current editing area (document body, footer/header, footnote, or autoshape).\
+This method is similar to pressing the -**Ctrl + End** keyboard shortcut.
 
 ## Syntax
 

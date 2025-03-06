@@ -1,6 +1,8 @@
 # AddCaption
 
-Adds a caption paragraph after (or before) the current content control.\n💡 Please note that the current content control must be in the document (not in the footer/header).\nAnd if the current content control is placed in a shape, then a caption is added after (or before) the parent shape.
+Adds a caption paragraph after (or before) the current content control.\
+💡 Please note that the current content control must be in the document (not in the footer/header).\
+And if the current content control is placed in a shape, then a caption is added after (or before) the parent shape.
 
 ## Syntax
 
@@ -19,7 +21,7 @@ expression.AddCaption(additionalText, label, excludeLabel, numFormat, isBefore, 
 | excludeLabel | Optional | boolean | false | Specifies whether to exclude the label from the caption. |
 | numFormat | Optional | [CaptionNumberingFormat](../../Enumeration/CaptionNumberingFormat.md) | "Arabic" | The possible caption numbering format. |
 | isBefore | Optional | boolean | false | Specifies whether to insert the caption before the current content control (true) or after (false) (after/before the shape if it is placed in the shape). |
-| headingLvl | Optional | Number |  | The heading level (used if you want to specify the chapter number).\n💡 If you want to specify "Heading 1", then nHeadingLvl === 0 and etc. |
+| headingLvl | Optional | Number |  | The heading level (used if you want to specify the chapter number).\ 💡 If you want to specify "Heading 1", then nHeadingLvl === 0 and etc. |
 | captionSep | Optional | [CaptionSep](../../Enumeration/CaptionSep.md) | "hyphen" | The caption separator (used if you want to specify the chapter number). |
 
 ## Returns

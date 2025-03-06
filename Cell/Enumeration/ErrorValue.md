@@ -1,6 +1,15 @@
 # ErrorValue
 
-The error value.\n* -**"#NULL!"** - 1\n* -**"#DIV/0!"** - 2\n* -**"#VALUE!"** - 3\n* -**"#REF!"** - 4\n* -**"#NAME?"** - 5\n* -**"#NUM!"** - 6\n* -**"#N/A"** - 7\n* -**"#GETTING_DATA"** - 8\n* -**"Other"** - "#N/A"
+The error value.\
+* -**"#NULL!"** - 1\
+* -**"#DIV/0!"** - 2\
+* -**"#VALUE!"** - 3\
+* -**"#REF!"** - 4\
+* -**"#NAME?"** - 5\
+* -**"#NUM!"** - 6\
+* -**"#N/A"** - 7\
+* -**"#GETTING_DATA"** - 8\
+* -**"Other"** - "#N/A"
 
 ## Type
 

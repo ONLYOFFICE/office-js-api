@@ -1,6 +1,7 @@
 # SetDistances
 
-Specifies the minimum distance which will be maintained between the edges of the current drawing object and any\nsubsequent text.
+Specifies the minimum distance which will be maintained between the edges of the current drawing object and any\
+subsequent text.
 
 ## Syntax
 

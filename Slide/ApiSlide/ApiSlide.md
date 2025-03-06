@@ -8,7 +8,7 @@ Represents the ApiSlide class.
 | Method | Returns | Description |
 | ------ | ------- | ----------- |
 | [AddObject](./Methods/AddObject.md) | boolean | Adds an object (image, shape or chart) to the current presentation slide. |
-| [ApplyLayout](./Methods/ApplyLayout.md) | boolean | Applies the specified layout to the current slide.\nThe layout must be in slide master. |
+| [ApplyLayout](./Methods/ApplyLayout.md) | boolean | Applies the specified layout to the current slide.\ The layout must be in slide master. |
 | [ApplyTheme](./Methods/ApplyTheme.md) | boolean | Applies the specified theme to the current slide. |
 | [ClearBackground](./Methods/ClearBackground.md) | boolean | Clears the slide background. |
 | [Copy](./Methods/Copy.md) | [ApiSlide](../ApiSlide/ApiSlide.md) \| null | Creates a copy of the current slide object. |

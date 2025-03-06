@@ -14,7 +14,7 @@ expression.DEVSQ(args);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| args | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number \| number[] |  | Up to 255 numerical values for which to find the sum of squares of deviations.\nThe first argument is required, subsequent arguments are optional. Arguments can be numbers, names, or arrays of numbers. |
+| args | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| number \| number[] |  | Up to 255 numerical values for which to find the sum of squares of deviations.\ The first argument is required, subsequent arguments are optional. Arguments can be numbers, names, or arrays of numbers. |
 
 ## Returns
 

@@ -14,7 +14,7 @@ expression.SUM(args);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| args | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| string \| number \| boolean \| (string \| number \| boolean)[] |  | Up to 255 numeric values to add. The first argument is required, subsequent arguments are optional.\nArguments can be numbers, logical values, text representations of numbers, ranges, or arrays. |
+| args | Required | [ApiRange](../../ApiRange/ApiRange.md) \| [ApiName](../../ApiName/ApiName.md) \| string \| number \| boolean \| (string \| number \| boolean)[] |  | Up to 255 numeric values to add. The first argument is required, subsequent arguments are optional.\ Arguments can be numbers, logical values, text representations of numbers, ranges, or arrays. |
 
 ## Returns
 

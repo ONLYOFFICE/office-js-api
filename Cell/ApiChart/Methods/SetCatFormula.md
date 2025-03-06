@@ -14,7 +14,7 @@ expression.SetCatFormula(sRange);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| sRange | Required | string |  | A range of cells from the sheet with the category names. For example:\n"'sheet 1'!$A$2:$A$5" - must be a single cell, row or column,\n"A1:A5" - must be a single cell, row or column. |
+| sRange | Required | string |  | A range of cells from the sheet with the category names. For example:\ "'sheet 1'!$A$2:$A$5" - must be a single cell, row or column,\ "A1:A5" - must be a single cell, row or column. |
 
 ## Returns
 

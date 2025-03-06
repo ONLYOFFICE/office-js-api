@@ -1,6 +1,7 @@
 # SetNotEqualColumns
 
-Specifies that all the columns in the current section have the different widths. Number of columns is equal \nto the length of the aWidth array. The length of the aSpaces array MUST BE equal to (aWidth.length - 1).
+Specifies that all the columns in the current section have the different widths. Number of columns is equal \
+to the length of the aWidth array. The length of the aSpaces array MUST BE equal to (aWidth.length - 1).
 
 ## Syntax
 

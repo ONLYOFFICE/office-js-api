@@ -9,7 +9,7 @@ Represents the ApiLayout class.
 | ------ | ------- | ----------- |
 | [AddObject](./Methods/AddObject.md) | boolean | Adds an object (image, shape or chart) to the current slide layout. |
 | [ClearBackground](./Methods/ClearBackground.md) | boolean | Clears the slide layout background. |
-| [Copy](./Methods/Copy.md) | [ApiLayout](../ApiLayout/ApiLayout.md) \| null | Creates a copy of the specified slide layout object.\nCopies without master slide. |
+| [Copy](./Methods/Copy.md) | [ApiLayout](../ApiLayout/ApiLayout.md) \| null | Creates a copy of the specified slide layout object.\ Copies without master slide. |
 | [Delete](./Methods/Delete.md) | boolean | Deletes the specified object from the parent slide master if it exists. |
 | [Duplicate](./Methods/Duplicate.md) | [ApiLayout](../ApiLayout/ApiLayout.md) \| null | Creates a duplicate of the specified slide layout object, adds the new slide layout to the slide layout collection. |
 | [FollowMasterBackground](./Methods/FollowMasterBackground.md) | boolean | Sets the master background as the background of the layout. |

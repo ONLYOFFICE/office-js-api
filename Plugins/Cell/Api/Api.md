@@ -36,13 +36,13 @@ Represents the Api class.
 | [OnEncryption](./Methods/OnEncryption.md) | None | Encrypts the document. |
 | [PasteHtml](./Methods/PasteHtml.md) | None | Pastes text in the HTML format into the document. |
 | [PasteText](./Methods/PasteText.md) | None | Pastes text into the document. |
-| [PutImageDataToSelection](./Methods/PutImageDataToSelection.md) | None | Replaces the first selected drawing with the image specified in the parameters.\nIf there are no drawings selected, the method inserts the image at the current position. |
+| [PutImageDataToSelection](./Methods/PutImageDataToSelection.md) | None | Replaces the first selected drawing with the image specified in the parameters.\ If there are no drawings selected, the method inserts the image at the current position. |
 | [RemoveComments](./Methods/RemoveComments.md) | None | Removes the specified comments. |
 | [RemovePlugin](./Methods/RemovePlugin.md) | object | Removes a plugin with the specified GUID. |
 | [ReplaceTextSmart](./Methods/ReplaceTextSmart.md) | boolean | Replaces each paragraph (or text in cell) in the select with the corresponding text from an array of strings. |
 | [SetCustomFunctions](./Methods/SetCustomFunctions.md) | None | Updates a library of local custom functions. |
 | [SetMacros](./Methods/SetMacros.md) | None | Sets macros to the document. |
-| [SetPluginsOptions](./Methods/SetPluginsOptions.md) | None | Configures plugins from an external source. The settings can be set for all plugins or for a specific plugin.\nFor example, this method can be used to pass an authorization token to the plugin. This method can be used only with the connector class. |
+| [SetPluginsOptions](./Methods/SetPluginsOptions.md) | None | Configures plugins from an external source. The settings can be set for all plugins or for a specific plugin.\ For example, this method can be used to pass an authorization token to the plugin. This method can be used only with the connector class. |
 | [SetProperties](./Methods/SetProperties.md) | None | Sets the properties to the document. |
 | [ShowButton](./Methods/ShowButton.md) | None | Shows or hides buttons in the header. |
 | [ShowError](./Methods/ShowError.md) | None | Shows an error/warning message. |
