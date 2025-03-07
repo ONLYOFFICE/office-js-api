@@ -1,4 +1,9 @@
 // This example freezes first column and get pastes a freezed range address into the table.
+
+// How to get a freeze panes from the worksheet range.
+
+// Return a type from the freeze panes.
+
 builder.CreateFile("xlsx");
 Api.SetFreezePanesType('column');
 let worksheet = Api.GetActiveSheet();
