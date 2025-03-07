@@ -1,0 +1,26 @@
+# SetTableBorderAll
+
+Specifies the border which will be displayed on all table cell borders.
+
+## Syntax
+
+```javascript
+expression.SetTableBorderAll(sType, nSize, nSpace, r, g, b);
+```
+
+`expression` - A variable that represents a [ApiTable](../ApiTable.md) class.
+
+## Parameters
+
+| **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| sType | Required | [BorderType](../../Enumeration/BorderType.md) |  | The vertical table cell border style. |
+| nSize | Required | [pt_8](../../Enumeration/pt_8.md) |  | The width of the current border measured in eighths of a point. |
+| nSpace | Required | [pt](../../Enumeration/pt.md) |  | The spacing offset in the vertical table cells of the table measured in points used to place this border. |
+| r | Required | [byte](../../Enumeration/byte.md) |  | Red color component value. |
+| g | Required | [byte](../../Enumeration/byte.md) |  | Green color component value. |
+| b | Required | [byte](../../Enumeration/byte.md) |  | Blue color component value. |
+
+## Returns
+
+boolean
