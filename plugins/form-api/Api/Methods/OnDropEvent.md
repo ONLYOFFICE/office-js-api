@@ -5,7 +5,7 @@ Implements the external drag&drop emulation.
 ## Syntax
 
 ```javascript
-expression.OnDropEvent(obj, obj.type, obj.x, obj.y, obj.html, obj.text);
+expression.OnDropEvent(obj);
 ```
 
 `expression` - A variable that represents a [Api](../Api.md) class.

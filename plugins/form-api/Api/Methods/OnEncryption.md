@@ -5,7 +5,7 @@ Encrypts the document.
 ## Syntax
 
 ```javascript
-expression.OnEncryption(obj, obj.type, obj.password, obj.data, obj.check, obj.docinfo, obj.hash, obj.error);
+expression.OnEncryption(obj);
 ```
 
 `expression` - A variable that represents a [Api](../Api.md) class.

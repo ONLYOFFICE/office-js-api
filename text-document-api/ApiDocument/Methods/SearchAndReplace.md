@@ -5,7 +5,7 @@ Finds and replaces the text.
 ## Syntax
 
 ```javascript
-expression.SearchAndReplace(oProperties, oProperties.searchString, oProperties.replaceString, oProperties.matchCase);
+expression.SearchAndReplace(oProperties);
 ```
 
 `expression` - A variable that represents a [ApiDocument](../ApiDocument.md) class.

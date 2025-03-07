@@ -5,7 +5,7 @@ Finds and selects the next occurrence of the text starting at the current positi
 ## Syntax
 
 ```javascript
-expression.SearchNext(oProperties, oProperties.searchString, oProperties.matchCase, isForward);
+expression.SearchNext(oProperties, isForward);
 ```
 
 `expression` - A variable that represents a [Api](../Api.md) class.

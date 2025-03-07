@@ -59,7 +59,7 @@ Represents the ApiDocument class.
 | [GetEndNotesFirstParagraphs](./Methods/GetEndNotesFirstParagraphs.md) | [ApiParagraph](../ApiParagraph/ApiParagraph.md)[] | Returns the first paragraphs from all endnotes in the current document. |
 | [GetFinalSection](./Methods/GetFinalSection.md) | [ApiSection](../ApiSection/ApiSection.md) | Returns the document final section. |
 | [GetFootnotesFirstParagraphs](./Methods/GetFootnotesFirstParagraphs.md) | [ApiParagraph](../ApiParagraph/ApiParagraph.md)[] | Returns the first paragraphs from all footnotes in the current document. |
-| [GetFormsByTag](./Methods/GetFormsByTag.md) | [ApiBlockLvlSdt](../ApiBlockLvlSdt/ApiBlockLvlSdt.md)[] \| [ApiInlineLvlSdt](../ApiInlineLvlSdt/ApiInlineLvlSdt.md)[] | Returns a list of all forms in the document with the specified tag name. |
+| [GetFormsByTag](./Methods/GetFormsByTag.md) | [ApiForm](../Enumeration/ApiForm.md)[] | Returns a list of all forms in the document with the specified tag name. |
 | [GetFormsData](./Methods/GetFormsData.md) | [FormData](../Enumeration/FormData.md)[] | Returns the data from all forms present in the current document.\ If a form was created and not assigned to any part of the document, it won't appear in this list. |
 | [GetPageCount](./Methods/GetPageCount.md) | number | Returns a number of pages in the current document.\ 💡 This method can be slow for large documents because it runs the document calculation\ process before the full recalculation. |
 | [GetRange](./Methods/GetRange.md) | [ApiRange](../ApiRange/ApiRange.md) | Returns a Range object that represents the part of the document contained in the specified document. |
