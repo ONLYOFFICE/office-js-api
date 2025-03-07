@@ -87,7 +87,7 @@ Represents the ApiRange class.
 | [Merge](./Methods/Merge.md) | None | Merges the selected cell range into a single cell or a cell row. |
 | [Paste](./Methods/Paste.md) | None | Pastes the Range object to the specified range. |
 | [PasteSpecial](./Methods/PasteSpecial.md) | None | Pastes the Range object to the specified range using the special paste options. |
-| [Replace](./Methods/Replace.md) | None | Replaces specific information to another one in a range. |
+| [Replace](./Methods/Replace.md) | [ApiRange](../ApiRange/ApiRange.md) \| null | Replaces specific information to another one in a range. |
 | [Select](./Methods/Select.md) | None | Selects the current range. |
 | [SetAlignHorizontal](./Methods/SetAlignHorizontal.md) | boolean | Sets the horizontal alignment of the text in the current cell range. |
 | [SetAlignVertical](./Methods/SetAlignVertical.md) | boolean | Sets the vertical alignment of the text in the current cell range. |
