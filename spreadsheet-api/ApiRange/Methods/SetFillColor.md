@@ -25,7 +25,7 @@ This method doesn't return any data.
 
 This example sets the background color to the cell range with the previously created color object.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 worksheet.SetColumnWidth(0, 50);
 worksheet.GetRange("A2").SetFillColor(Api.CreateColorFromRGB(255, 213, 191));

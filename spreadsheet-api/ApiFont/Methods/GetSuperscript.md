@@ -22,7 +22,7 @@ boolean \| null
 
 This example shows how to get the superscript property of the specified font.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B1");
 range.SetValue("This is just a sample text.");

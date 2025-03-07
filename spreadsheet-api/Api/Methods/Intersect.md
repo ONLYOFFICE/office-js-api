@@ -25,7 +25,7 @@ expression.Intersect(Range1, Range2);
 
 This example shows how to get the ApiRange object that represents the rectangular intersection of two or more ranges.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 let range1 = worksheet.GetRange("A1:C5");
 let range2 = worksheet.GetRange("B2:B4");

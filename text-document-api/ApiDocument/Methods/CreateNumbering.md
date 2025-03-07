@@ -24,7 +24,7 @@ expression.CreateNumbering(sType);
 
 This example creates an abstract multilevel numbering with a "bullet" type.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("bullet");
 for (let lvl = 0; lvl < 8; ++lvl) {

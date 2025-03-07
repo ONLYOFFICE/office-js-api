@@ -18,13 +18,13 @@ expression.SetVertAxisTickLabelPosition(sTickLabelPosition);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example sets the possible values for the position of the chart tick labels in relation to the main vertical label or the chart data values.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);
 worksheet.GetRange("C1").SetValue(2015);

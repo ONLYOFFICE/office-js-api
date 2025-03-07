@@ -24,7 +24,7 @@ expression.GetSheet(nameOrIndex);
 
 This example shows how to get an object that represents a sheet.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetSheet("Sheet1");
 worksheet.GetRange("A1").SetValue("This is a sample text on 'Sheet1'.");
 ```

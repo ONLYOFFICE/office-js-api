@@ -18,13 +18,13 @@ expression.SetTitlePage(isTitlePage);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example specifies whether the current section in this document has the different header and footer for the section first page.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This page does not have a footer, as it is a title page. ");

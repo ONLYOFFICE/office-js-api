@@ -24,7 +24,7 @@ expression.SetFontSize(nSize);
 
 This example sets the font size to the characters of the current text run.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

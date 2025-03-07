@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example sets the bottom margin of the sheet.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 worksheet.SetBottomMargin(25.1);
 let bottomMargin = worksheet.GetBottomMargin();

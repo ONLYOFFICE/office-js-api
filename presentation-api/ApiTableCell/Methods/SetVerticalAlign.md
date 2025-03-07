@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example specifies the vertical alignment for text within the current table cell.
 
-```javascript editor-
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oTable = Api.CreateTable(2, 4);
 var oRow = oTable.GetRow(1);

@@ -21,6 +21,6 @@ Enumeration
 
 This example returns data of all forms in the document.
 
-```javascript editor-
+```javascript editor-docx
 let formsData = doc.GetFormsData();
 ```

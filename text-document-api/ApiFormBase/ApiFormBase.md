@@ -7,7 +7,7 @@ Represents the ApiFormBase class.
 
 | Method | Returns | Description |
 | ------ | ------- | ----------- |
-| [Clear](./Methods/Clear.md) | boolean | Clears the current form. |
+| [Clear](./Methods/Clear.md) | None | Clears the current form. |
 | [Copy](./Methods/Copy.md) | [ApiForm](../Enumeration/ApiForm.md) | Copies the current form (copies with the shape if it exists). |
 | [GetClassType](./Methods/GetClassType.md) | "form" | Returns a type of the ApiFormBase class. |
 | [GetFormKey](./Methods/GetFormKey.md) | string | Returns the current form key. |
@@ -18,7 +18,7 @@ Represents the ApiFormBase class.
 | [GetWrapperShape](./Methods/GetWrapperShape.md) | [ApiShape](../ApiShape/ApiShape.md) | Returns a shape in which the form is placed to control the position and size of the fixed size form frame.\ The null value will be returned for the inline forms. |
 | [IsFixed](./Methods/IsFixed.md) | boolean | Checks if the current form is fixed size. |
 | [IsRequired](./Methods/IsRequired.md) | boolean | Checks if the current form is required. |
-| [MoveCursorOutside](./Methods/MoveCursorOutside.md) | boolean | Places a cursor before/after the current form. |
+| [MoveCursorOutside](./Methods/MoveCursorOutside.md) | None | Places a cursor before/after the current form. |
 | [SetBackgroundColor](./Methods/SetBackgroundColor.md) | boolean | Sets the background color to the current form. |
 | [SetBorderColor](./Methods/SetBorderColor.md) | boolean | Sets the border color to the current form. |
 | [SetFormKey](./Methods/SetFormKey.md) | boolean | Sets a key to the current form. |

@@ -18,13 +18,13 @@ expression.SetFormsData(arrData);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example shows how to set data to forms.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph1 = doc.GetElement(0);
 let checkBox = Api.CreateCheckBoxForm({key: "BestCompany"});

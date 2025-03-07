@@ -24,7 +24,7 @@ expression.FindPrevious(Before);
 
 This example finds the previous cell that matches those same conditions.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);
 worksheet.GetRange("C1").SetValue(2015);

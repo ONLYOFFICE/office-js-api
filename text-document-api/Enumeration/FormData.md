@@ -20,6 +20,6 @@ Object
 
 Report on all review changes that contains two review records for every user.
 
-```javascript editor-
+```javascript editor-docx
 let formData = {key: "CompanyName", value: "OnlyOffice", type: "text"};
 ```

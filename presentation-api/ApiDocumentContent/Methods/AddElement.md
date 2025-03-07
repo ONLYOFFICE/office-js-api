@@ -19,13 +19,13 @@ expression.AddElement(nPos, oElement);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example adds a paragraph to presentation.
 
-```javascript editor-
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

@@ -24,7 +24,7 @@ expression.FindNext(After);
 
 This example finds the next cell that matches those same conditions.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);
 worksheet.GetRange("C1").SetValue(2015);

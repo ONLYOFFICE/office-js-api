@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example shows how to get the ApiComment object of the range.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");
 range.SetValue("1");

@@ -25,7 +25,7 @@ expression.AddComment(sText, sAuthor);
 
 This example adds a comment to the document.
 
-```javascript editor-
+```javascript editor-xlsx
 Api.AddComment("Comment 1", "Bob");
 Api.AddComment("Comment 2");
 let comments = Api.GetComments();

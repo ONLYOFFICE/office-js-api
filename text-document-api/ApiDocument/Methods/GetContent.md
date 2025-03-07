@@ -24,7 +24,7 @@ expression.GetContent(bGetCopies);
 
 This example shows how to get an array of document elements from the document content.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));

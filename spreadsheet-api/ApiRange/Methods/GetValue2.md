@@ -22,7 +22,7 @@ string \| string[][]
 
 This example shows how to get the value without format of the specified range.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 let format = Api.Format("123456", "$#,##0");
 let range = worksheet.GetRange("A1");

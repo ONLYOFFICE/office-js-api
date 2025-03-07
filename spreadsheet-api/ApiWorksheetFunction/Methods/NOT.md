@@ -24,7 +24,7 @@ boolean
 
 
 
-```javascript editor-
+```javascript editor-xlsx
 const worksheet = Api.GetActiveSheet();
 
 let condition = 12 < 100;

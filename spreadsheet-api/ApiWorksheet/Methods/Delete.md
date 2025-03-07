@@ -22,7 +22,7 @@ This method doesn't return any data.
 
 This example deletes the worksheet.
 
-```javascript editor-
+```javascript editor-xlsx
 Api.AddSheet("New sheet");
 let sheet = Api.GetActiveSheet();
 sheet.Delete();

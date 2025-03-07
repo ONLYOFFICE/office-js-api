@@ -31,16 +31,16 @@ Represents the ApiBlockLvlSdt class.
 | [GetPosInParent](./Methods/GetPosInParent.md) | Number | Returns the content control position within its parent element. |
 | [GetRange](./Methods/GetRange.md) | [ApiRange](../ApiRange/ApiRange.md) | Returns a Range object that represents the part of the document contained in the specified content control. |
 | [GetTag](./Methods/GetTag.md) | string | Returns the tag attribute for the current container. |
-| [MoveCursorOutside](./Methods/MoveCursorOutside.md) | boolean | Places a cursor before/after the current content control. |
+| [MoveCursorOutside](./Methods/MoveCursorOutside.md) | None | Places a cursor before/after the current content control. |
 | [Push](./Methods/Push.md) | boolean | Pushes a paragraph or a table or a block content control to actually add it to the current container. |
 | [RemoveAllElements](./Methods/RemoveAllElements.md) | boolean | Clears the contents from the current content control. |
 | [ReplaceByElement](./Methods/ReplaceByElement.md) | boolean | Replaces the current content control with a new element. |
 | [Search](./Methods/Search.md) | [ApiRange](../ApiRange/ApiRange.md)[] | Searches for a scope of a content control object. The search results are a collection of ApiRange objects. |
-| [Select](./Methods/Select.md) | boolean | Selects the current content control. |
-| [SetAlias](./Methods/SetAlias.md) | boolean | Sets the alias attribute to the current container. |
-| [SetLabel](./Methods/SetLabel.md) | boolean | Sets the label attribute to the current container. |
-| [SetLock](./Methods/SetLock.md) | boolean | Sets the lock to the current block text content control:\ -**"contentLocked"** - content cannot be edited.\ -**"sdtContentLocked"** - content cannot be edited and the container cannot be deleted.\ -**"sdtLocked"** - the container cannot be deleted. |
+| [Select](./Methods/Select.md) | None | Selects the current content control. |
+| [SetAlias](./Methods/SetAlias.md) | None | Sets the alias attribute to the current container. |
+| [SetLabel](./Methods/SetLabel.md) | None | Sets the label attribute to the current container. |
+| [SetLock](./Methods/SetLock.md) | None | Sets the lock to the current block text content control:\ -**"contentLocked"** - content cannot be edited.\ -**"sdtContentLocked"** - content cannot be edited and the container cannot be deleted.\ -**"sdtLocked"** - the container cannot be deleted. |
 | [SetPlaceholderText](./Methods/SetPlaceholderText.md) | boolean | Sets the placeholder text to the current content control. |
-| [SetTag](./Methods/SetTag.md) | boolean | Sets the tag attribute to the current container. |
-| [SetTextPr](./Methods/SetTextPr.md) | boolean | Applies text settings to the content of the content control. |
+| [SetTag](./Methods/SetTag.md) | None | Sets the tag attribute to the current container. |
+| [SetTextPr](./Methods/SetTextPr.md) | None | Applies text settings to the content of the content control. |
 | [ToJSON](./Methods/ToJSON.md) | JSON | Converts the ApiBlockLvlSdt object into the JSON object. |

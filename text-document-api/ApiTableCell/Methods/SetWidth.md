@@ -19,13 +19,13 @@ expression.SetWidth(sType, nValue);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example sets the preferred width to the current table cell.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("All cells are at least 2 inches wide:");

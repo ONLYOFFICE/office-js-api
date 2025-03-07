@@ -19,13 +19,13 @@ expression.SetEqualColumns(nCount, nSpace);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example specifies that all the text columns in the current section are of equal width.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let section = doc.GetFinalSection();

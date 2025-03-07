@@ -18,12 +18,12 @@ Represents the ApiParaPr class.
 | [GetSpacingLineRule](./Methods/GetSpacingLineRule.md) | "auto" \| "atLeast" \| "exact" \| undefined | Returns the paragraph line spacing rule. |
 | [GetSpacingLineValue](./Methods/GetSpacingLineValue.md) | [twips](../Enumeration/twips.md) \| [line240](../Enumeration/line240.md) \| undefined | Returns the paragraph line spacing value. |
 | [SetBullet](./Methods/SetBullet.md) | None | Sets the bullet or numbering to the current paragraph. |
-| [SetIndFirstLine](./Methods/SetIndFirstLine.md) | boolean | Sets the paragraph first line indentation. |
-| [SetIndLeft](./Methods/SetIndLeft.md) | boolean | Sets the paragraph left side indentation. |
-| [SetIndRight](./Methods/SetIndRight.md) | boolean | Sets the paragraph right side indentation. |
-| [SetJc](./Methods/SetJc.md) | boolean | Sets the paragraph contents justification. |
+| [SetIndFirstLine](./Methods/SetIndFirstLine.md) | None | Sets the paragraph first line indentation. |
+| [SetIndLeft](./Methods/SetIndLeft.md) | None | Sets the paragraph left side indentation. |
+| [SetIndRight](./Methods/SetIndRight.md) | None | Sets the paragraph right side indentation. |
+| [SetJc](./Methods/SetJc.md) | None | Sets the paragraph contents justification. |
 | [SetOutlineLvl](./Methods/SetOutlineLvl.md) | boolean | Sets the outline level for the specified properties. |
-| [SetSpacingAfter](./Methods/SetSpacingAfter.md) | boolean | Sets the spacing after the current paragraph. If the value of the isAfterAuto parameter is true, then \ any value of the nAfter is ignored. If isAfterAuto parameter is not specified, then it \ will be interpreted as false. |
-| [SetSpacingBefore](./Methods/SetSpacingBefore.md) | boolean | Sets the spacing before the current paragraph. If the value of the isBeforeAuto parameter is true, then \ any value of the nBefore is ignored. If isBeforeAuto parameter is not specified, then \ it will be interpreted as false. |
-| [SetSpacingLine](./Methods/SetSpacingLine.md) | boolean | Sets the paragraph line spacing. If the value of the sLineRule parameter is either \ "atLeast" or "exact", then the value of nLine will be interpreted as twentieths of a point. If \ the value of the sLineRule parameter is "auto", then the value of the \ nLine parameter will be interpreted as 240ths of a line. |
-| [SetTabs](./Methods/SetTabs.md) | boolean | Specifies a sequence of custom tab stops which will be used for any tab characters in the current paragraph.\ -**Warning**: The lengths of aPos array and aVal array -**MUST BE** equal to each other. |
+| [SetSpacingAfter](./Methods/SetSpacingAfter.md) | None | Sets the spacing after the current paragraph. If the value of the isAfterAuto parameter is true, then \ any value of the nAfter is ignored. If isAfterAuto parameter is not specified, then it \ will be interpreted as false. |
+| [SetSpacingBefore](./Methods/SetSpacingBefore.md) | None | Sets the spacing before the current paragraph. If the value of the isBeforeAuto parameter is true, then \ any value of the nBefore is ignored. If isBeforeAuto parameter is not specified, then \ it will be interpreted as false. |
+| [SetSpacingLine](./Methods/SetSpacingLine.md) | None | Sets the paragraph line spacing. If the value of the sLineRule parameter is either \ "atLeast" or "exact", then the value of nLine will be interpreted as twentieths of a point. If \ the value of the sLineRule parameter is "auto", then the value of the \ nLine parameter will be interpreted as 240ths of a line. |
+| [SetTabs](./Methods/SetTabs.md) | None | Specifies a sequence of custom tab stops which will be used for any tab characters in the current paragraph.\ -**Warning**: The lengths of aPos array and aVal array -**MUST BE** equal to each other. |

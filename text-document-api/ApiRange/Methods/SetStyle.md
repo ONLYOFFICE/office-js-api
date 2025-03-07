@@ -24,7 +24,7 @@ expression.SetStyle(oStyle);
 
 This example sets the style to the current Range.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("ONLYOFFICE Document Builder");

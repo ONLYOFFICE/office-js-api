@@ -26,7 +26,7 @@ This method doesn't return any data.
 
 This example adds a new series to the chart.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);
 worksheet.GetRange("C1").SetValue(2015);

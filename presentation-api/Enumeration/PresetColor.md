@@ -204,6 +204,6 @@ Enumeration
 
 This example creates a scheme color using the 'lightYellow' color preset.
 
-```javascript editor-
+```javascript editor-pptx
 let schemeColor = Api.CreatePresetColor("lightYellow");
 ```

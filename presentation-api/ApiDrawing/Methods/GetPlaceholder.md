@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example shows how to get a placeholder from the current drawing object.
 
-```javascript editor-
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

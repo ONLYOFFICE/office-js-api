@@ -24,6 +24,6 @@ This method doesn't return any data.
 
 This example creates a new worksheet.
 
-```javascript editor-
+```javascript editor-xlsx
 let sheet = Api.AddSheet("New sheet");
 ```

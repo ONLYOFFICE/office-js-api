@@ -16,10 +16,10 @@ Represents the ApiWatermarkSettings class.
 | [GetText](./Methods/GetText.md) | string \| null | Returns the text of the watermark in the document. |
 | [GetTextPr](./Methods/GetTextPr.md) | [ApiTextPr](../ApiTextPr/ApiTextPr.md) | Returns the text properties of the watermark in the document. |
 | [GetType](./Methods/GetType.md) | [WatermarkType](../Enumeration/WatermarkType.md) | Returns the type of the watermark in the document. |
-| [SetDirection](./Methods/SetDirection.md) | boolean | Sets the direction of the watermark in the document. |
-| [SetImageSize](./Methods/SetImageSize.md) | boolean | Sets the size (width and height) of the watermark image in the document. |
-| [SetImageURL](./Methods/SetImageURL.md) | boolean | Sets the image URL of the watermark in the document. |
-| [SetOpacity](./Methods/SetOpacity.md) | boolean | Sets the opacity of the watermark in the document. |
-| [SetText](./Methods/SetText.md) | boolean | Sets the text of the watermark in the document. |
-| [SetTextPr](./Methods/SetTextPr.md) | boolean | Sets the text properties of the watermark in the document. |
-| [SetType](./Methods/SetType.md) | boolean | Sets the type of the watermark in the document. |
+| [SetDirection](./Methods/SetDirection.md) | None | Sets the direction of the watermark in the document. |
+| [SetImageSize](./Methods/SetImageSize.md) | None | Sets the size (width and height) of the watermark image in the document. |
+| [SetImageURL](./Methods/SetImageURL.md) | None | Sets the image URL of the watermark in the document. |
+| [SetOpacity](./Methods/SetOpacity.md) | None | Sets the opacity of the watermark in the document. |
+| [SetText](./Methods/SetText.md) | None | Sets the text of the watermark in the document. |
+| [SetTextPr](./Methods/SetTextPr.md) | None | Sets the text properties of the watermark in the document. |
+| [SetType](./Methods/SetType.md) | None | Sets the type of the watermark in the document. |

@@ -24,7 +24,7 @@ number
 
 
 
-```javascript editor-
+```javascript editor-xlsx
 const worksheet = Api.GetActiveSheet();
 let func = Api.GetWorksheetFunction();
 let nonPositiveNum = 0;

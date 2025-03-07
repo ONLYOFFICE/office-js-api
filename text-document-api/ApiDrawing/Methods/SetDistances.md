@@ -22,13 +22,13 @@ expression.SetDistances(nLeft, nTop, nRight, nBottom);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example specifies the minimum distance which will be maintained between the edges of the drawing object and any subsequent text.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is a paragraph with a shape. ");

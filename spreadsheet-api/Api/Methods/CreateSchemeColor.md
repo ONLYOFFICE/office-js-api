@@ -24,7 +24,7 @@ expression.CreateSchemeColor(schemeColorId);
 
 This example creates a complex color scheme selecting from one of the available schemes.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 let schemeColor = Api.CreateSchemeColor("dk1");
 let fill = Api.CreateSolidFill(schemeColor);

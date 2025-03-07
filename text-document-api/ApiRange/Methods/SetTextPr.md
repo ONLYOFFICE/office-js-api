@@ -24,7 +24,7 @@ expression.SetTextPr(oTextPr);
 
 This example sets the text properties to the Range.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("ONLYOFFICE Document Builder");

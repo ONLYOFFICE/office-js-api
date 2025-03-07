@@ -27,7 +27,7 @@ expression.SetVertAlign(sType);
 
 This example creates two paragraphs. One with vertical aligment "subscript" and another one with vertical aligment "superscript".
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is a paragraph with the text aligned below the baseline vertically.");

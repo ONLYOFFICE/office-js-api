@@ -27,7 +27,7 @@ expression.SetVertAlign(sType);
 
 This example specifies the alignment which will be applied to the contents of the run in relation to the default appearance of the run text.
 
-```javascript editor-
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

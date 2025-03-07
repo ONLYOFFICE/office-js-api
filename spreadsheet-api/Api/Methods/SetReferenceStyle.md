@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example sets reference style.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 Api.SetReferenceStyle("xlR1C1");
 worksheet.GetRange("A1").SetValue(Api.GetReferenceStyle());

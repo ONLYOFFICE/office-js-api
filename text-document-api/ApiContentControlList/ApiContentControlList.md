@@ -8,7 +8,7 @@ Represents the ApiContentControlList class.
 | Method | Returns | Description |
 | ------ | ------- | ----------- |
 | [Add](./Methods/Add.md) | boolean | Adds a new value to the combo box / dropdown list content control. |
-| [Clear](./Methods/Clear.md) | boolean | Clears a list of values of the combo box / dropdown list content control. |
+| [Clear](./Methods/Clear.md) | None | Clears a list of values of the combo box / dropdown list content control. |
 | [GetAllItems](./Methods/GetAllItems.md) | [ApiContentControlListEntry](../ApiContentControlListEntry/ApiContentControlListEntry.md)[] | Returns a collection of items (the ApiContentControlListEntry objects) of the combo box / dropdown list content control. |
 | [GetClassType](./Methods/GetClassType.md) | "contentControlList" | Returns a type of the ApiContentControlList class. |
 | [GetElementsCount](./Methods/GetElementsCount.md) | number | Returns a number of items of the combo box / dropdown list content control. |

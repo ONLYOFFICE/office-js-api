@@ -26,7 +26,7 @@ number
 
 
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 let func = Api.GetWorksheetFunction();
 let values = ["Values", "-$40,000.00", "$10,000.00", "$15,000.00", "$20,000.00"];

@@ -16,13 +16,13 @@ This method doesn't have any parameters.
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example clears all forms in the document.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let inlineLvlSdt = Api.CreateInlineLvlSdt();

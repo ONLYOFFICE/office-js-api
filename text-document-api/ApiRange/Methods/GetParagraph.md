@@ -24,7 +24,7 @@ expression.GetParagraph(nPos);
 
 This example shows how to get a paragraph from all the paragraphs that are in the range.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let firstParagraph = doc.GetElement(0);
 firstParagraph.AddText("First paragraph");

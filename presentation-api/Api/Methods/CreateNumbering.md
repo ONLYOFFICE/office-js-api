@@ -25,7 +25,7 @@ expression.CreateNumbering(numType, startAt);
 
 This example creates a bullet for paragraphs.
 
-```javascript editor-
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example gets all series of ApiChart class and inserts their types into the table.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);
 worksheet.GetRange("C1").SetValue(2015);

@@ -27,7 +27,7 @@ expression.CreateRange(element, start, end);
 
 This example ctreates a range and sets bold for the first 9 characters.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("ONLYOFFICE Document Builder");

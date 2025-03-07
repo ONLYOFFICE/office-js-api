@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example sets the italic property to the text characters in the cell.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A2").SetValue("Italicized text");
 worksheet.GetRange("A2").SetItalic(true);

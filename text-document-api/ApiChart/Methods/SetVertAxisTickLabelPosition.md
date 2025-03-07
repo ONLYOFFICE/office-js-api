@@ -18,13 +18,13 @@ expression.SetVertAxisTickLabelPosition(sTickLabelPosition);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example spicifies tick label position for the vertical axis.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

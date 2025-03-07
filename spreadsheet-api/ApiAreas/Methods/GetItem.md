@@ -24,7 +24,7 @@ expression.GetItem(ind);
 
 This example shows how to get a single object from a collection by its ID.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B1:D1");
 range.SetValue("1");

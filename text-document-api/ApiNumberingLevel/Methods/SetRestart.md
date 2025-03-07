@@ -18,13 +18,13 @@ expression.SetRestart(isRestart);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example specifies a one-based index which determines when a numbering level should restart to its starting value.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("numbered");
 let numLvl = numbering.GetLevel(0);

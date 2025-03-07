@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example cuts a range to the clipboard.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");
 range.SetValue("This is a sample text which is move to the range A3.");

@@ -24,7 +24,7 @@ expression.SetTime(nTimeStamp);
 
 This example sets the timestamp of the comment creation in the current time zone format.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is just a sample text");

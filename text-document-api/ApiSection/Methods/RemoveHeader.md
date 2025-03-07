@@ -19,13 +19,13 @@ expression.RemoveHeader(sType);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example removes the header of the specified type from the section.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This page first was with a header. ");

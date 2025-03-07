@@ -24,7 +24,7 @@ expression.SetStrikeout(isStrikeout);
 
 This example specifies that the contents of the run are displayed with a single horizontal line through the center of the line.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

@@ -22,7 +22,7 @@ boolean
 
 This example checks if a comment is solved or not.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");
 let range = worksheet.GetRange("A1");

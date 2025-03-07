@@ -18,13 +18,13 @@ expression.AddText(sText);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example adds some text to the run.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let run = Api.CreateRun();

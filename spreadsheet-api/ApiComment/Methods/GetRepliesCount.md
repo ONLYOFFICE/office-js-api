@@ -22,7 +22,7 @@ Number
 
 This example shows how to get a number of the comment replies.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");
 let range = worksheet.GetRange("A1");

@@ -26,7 +26,7 @@ This method doesn't return any data.
 
 This example shows how to replace the current image with an image specified.
 
-```javascript editor-
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

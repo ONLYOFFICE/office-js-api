@@ -25,13 +25,13 @@ expression.SetBottomBorder(sType, nSize, nSpace, r, g, b);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example specifies the border which will be displayed below a set of paragraphs which have the same paragraph border settings.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");
 let paraPr = myStyle.GetParaPr();

@@ -21,4 +21,4 @@ expression.SetPaddings(nLeft, nTop, nRight, nBottom);
 
 ## Returns
 
-boolean
+This method doesn't return any data.

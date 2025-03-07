@@ -24,7 +24,7 @@ number
 
 
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 let argumentsArrA = [34, 244];
 let argumentsArrB = [769, 445];

@@ -27,7 +27,7 @@ expression.SetShd(sType, r, g, b);
 
 This example specifies the shading applied to the contents of the current text Range.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("ONLYOFFICE Document Builder");

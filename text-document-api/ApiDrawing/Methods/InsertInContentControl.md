@@ -24,7 +24,7 @@ expression.InsertInContentControl(nType);
 
 This example wraps the graphic object with a rich text content control.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This graphic object was wrapped in content control");

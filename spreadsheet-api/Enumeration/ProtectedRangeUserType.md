@@ -17,6 +17,6 @@ Enumeration
 
 This example sets the anyone type to the protected range.
 
-```javascript editor-
+```javascript editor-xlsx
 protectedRange.SetAnyoneType("NotView");
 ```

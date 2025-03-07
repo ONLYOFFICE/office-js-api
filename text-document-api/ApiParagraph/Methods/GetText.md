@@ -28,7 +28,7 @@ string
 
 This example shows how to get the paragraph text.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("\tThis is just a sample text.");

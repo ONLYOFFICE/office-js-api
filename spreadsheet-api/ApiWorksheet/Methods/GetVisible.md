@@ -22,7 +22,7 @@ boolean
 
 This example shows how to get the state of sheet visibility.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 worksheet.SetVisible(true);
 let isVisible = worksheet.GetVisible();

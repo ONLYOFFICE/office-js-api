@@ -15,7 +15,7 @@ expression.SetTextPr(oTextPr);
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| oTextPr | Required | ApiTextPr |  | The text properties that will be set to the current form. |
+| oTextPr | Required | [ApiTextPr](../../../text-document-api/ApiTextPr/ApiTextPr.md) |  | The text properties that will be set to the current form. |
 
 ## Returns
 
@@ -25,7 +25,7 @@ boolean
 
 This example sets the text properties to the form.
 
-```javascript editor-
+```javascript editor-pdf
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});
 let paragraph = doc.GetElement(0);

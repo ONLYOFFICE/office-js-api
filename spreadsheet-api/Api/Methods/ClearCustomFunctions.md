@@ -22,7 +22,7 @@ boolean
 
 This example clears all added custom functions.
 
-```javascript editor-
+```javascript editor-xlsx
 Api.AddCustomFunctionLibrary("LibraryName", function(){
     /**
      * Function that returns the argument

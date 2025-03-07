@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 let activeCell = worksheet.GetActiveCell();
 activeCell.SetValue("This sample text was placed in an active cell.");

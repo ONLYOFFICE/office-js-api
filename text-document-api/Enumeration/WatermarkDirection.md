@@ -17,6 +17,6 @@ Enumeration
 
 In this example sets the direction of the watermark within the document.
 
-```javascript editor-
+```javascript editor-docx
 watermarkSettings.SetDirection("clockwise45");
 ```

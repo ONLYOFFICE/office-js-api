@@ -20,13 +20,13 @@ expression.SetTabs(aPos, aVal);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example sets a sequence of custom tab stops which will be used for any tab characters in the paragraph.
 
-```javascript editor-
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

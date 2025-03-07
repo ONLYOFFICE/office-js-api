@@ -27,7 +27,7 @@ expression.SetVertAlign(sType);
 
 This example specifies the alignment which will be applied to the contents of the current run in relation to the default appearance of the text run.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let run = Api.CreateRun();

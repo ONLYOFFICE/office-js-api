@@ -27,7 +27,7 @@ number
 
 
 
-```javascript editor-
+```javascript editor-xlsx
 const worksheet = Api.GetActiveSheet();
 let valueArr = [36, 6, 7, false];
 

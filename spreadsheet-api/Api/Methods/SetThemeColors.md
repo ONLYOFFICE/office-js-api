@@ -24,7 +24,7 @@ boolean
 
 This example sets the theme colors to the current spreadsheet.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 let themes = Api.GetThemesColors();
 for (let i = 0; i < themes.length; ++i) {

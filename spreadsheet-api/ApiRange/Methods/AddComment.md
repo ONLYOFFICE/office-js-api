@@ -25,7 +25,7 @@ expression.AddComment(sText, sAuthor);
 
 This example adds a comment to the range.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");
 range.SetValue("1");

@@ -25,7 +25,7 @@ expression.GetCell(nRow, nCell);
 
 This example shows how to get a cell by its position.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

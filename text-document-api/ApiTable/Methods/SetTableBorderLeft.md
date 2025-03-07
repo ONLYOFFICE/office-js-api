@@ -23,13 +23,13 @@ expression.SetTableBorderLeft(sType, nSize, nSpace, r, g, b);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example sets the border which will be displayed on the left of the table.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("We add the left 4 point black border:");

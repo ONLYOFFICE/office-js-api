@@ -7,12 +7,12 @@ Represents the ApiRun class.
 
 | Method | Returns | Description |
 | ------ | ------- | ----------- |
-| [AddLineBreak](./Methods/AddLineBreak.md) | boolean | Adds a line break to the current run position and starts the next element from a new line. |
-| [AddTabStop](./Methods/AddTabStop.md) | boolean | Adds a tab stop to the current run. |
-| [AddText](./Methods/AddText.md) | boolean | Adds some text to the current run. |
-| [ClearContent](./Methods/ClearContent.md) | boolean | Clears the content from the current run. |
+| [AddLineBreak](./Methods/AddLineBreak.md) | None | Adds a line break to the current run position and starts the next element from a new line. |
+| [AddTabStop](./Methods/AddTabStop.md) | None | Adds a tab stop to the current run. |
+| [AddText](./Methods/AddText.md) | None | Adds some text to the current run. |
+| [ClearContent](./Methods/ClearContent.md) | None | Clears the content from the current run. |
 | [Copy](./Methods/Copy.md) | [ApiRun](../ApiRun/ApiRun.md) | Creates a copy of the current run. |
-| [Delete](./Methods/Delete.md) | boolean | Deletes the current run. |
+| [Delete](./Methods/Delete.md) | None | Deletes the current run. |
 | [GetBold](./Methods/GetBold.md) | boolean | Gets the bold property from the current text properties. |
 | [GetCaps](./Methods/GetCaps.md) | boolean | Specifies whether the text with the current text properties are capitalized. |
 | [GetClassType](./Methods/GetClassType.md) | "run" | Returns a type of the ApiRun class. |
@@ -30,7 +30,7 @@ Represents the ApiRun class.
 | [GetTextFill](./Methods/GetTextFill.md) | [ApiFill](../ApiFill/ApiFill.md) | Gets the text fill from the current text properties. |
 | [GetTextPr](./Methods/GetTextPr.md) | [ApiTextPr](../ApiTextPr/ApiTextPr.md) | Returns the text properties of the current run. |
 | [GetUnderline](./Methods/GetUnderline.md) | boolean | Gets the underline property from the current text properties. |
-| [RemoveAllElements](./Methods/RemoveAllElements.md) | boolean | Removes all the elements from the current run. |
+| [RemoveAllElements](./Methods/RemoveAllElements.md) | None | Removes all the elements from the current run. |
 | [SetBold](./Methods/SetBold.md) | [ApiTextPr](../ApiTextPr/ApiTextPr.md) | Sets the bold property to the text character. |
 | [SetBold](./Methods/SetBold.md) | [ApiTextPr](../ApiTextPr/ApiTextPr.md) | Sets the bold property to the text character. |
 | [SetCaps](./Methods/SetCaps.md) | [ApiTextPr](../ApiTextPr/ApiTextPr.md) | Specifies that any lowercase characters in the current text run are formatted for display only as their capital letter character equivalents. |

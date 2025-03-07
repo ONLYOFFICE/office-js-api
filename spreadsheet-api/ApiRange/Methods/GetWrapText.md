@@ -22,7 +22,7 @@ boolean
 
 This example shows how to get the information about the wrapping cell style.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");
 range.SetValue("This is the text wrapped to fit the cell size.");

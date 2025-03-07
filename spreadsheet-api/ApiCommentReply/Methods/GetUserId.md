@@ -22,7 +22,7 @@ string
 
 This example shows how to get the user ID of the comment reply author.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");
 let range = worksheet.GetRange("A1");

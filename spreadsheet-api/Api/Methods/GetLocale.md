@@ -22,7 +22,7 @@ number
 
 This example shows how to get the current locale ID.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 Api.SetLocale("en-CA");
 let locale = Api.GetLocale();

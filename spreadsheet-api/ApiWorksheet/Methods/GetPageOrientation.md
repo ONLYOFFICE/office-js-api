@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example shows how to get the page orientation.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 let pageOrientation = worksheet.GetPageOrientation();
 worksheet.GetRange("A1").SetValue("Page orientation: ");
