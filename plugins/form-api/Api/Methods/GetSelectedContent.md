@@ -5,7 +5,7 @@ Returns the selected content in the specified format.
 ## Syntax
 
 ```javascript
-expression.GetSelectedContent(prop, prop.type);
+expression.GetSelectedContent(prop);
 ```
 
 `expression` - A variable that represents a [Api](../Api.md) class.

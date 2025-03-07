@@ -5,7 +5,7 @@ Returns the bookmark text.
 ## Syntax
 
 ```javascript
-expression.GetText(oPr, oPr.Numbering, oPr.Math, oPr.NewLineSeparator, oPr.TableCellSeparator, oPr.TableRowSeparator, oPr.ParaSeparator, oPr.TabSymbol);
+expression.GetText(oPr);
 ```
 
 `expression` - A variable that represents a [ApiBookmark](../ApiBookmark.md) class.
