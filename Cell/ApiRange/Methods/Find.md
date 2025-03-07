@@ -5,7 +5,7 @@ Finds specific information in the current range.
 ## Syntax
 
 ```javascript
-expression.Find(What, After, LookIn, LookAt, SearchOrder, SearchDirection, MatchCase);
+expression.Find(oSearchData);
 ```
 
 `expression` - A variable that represents a [ApiRange](../ApiRange.md) class.
@@ -14,13 +14,7 @@ expression.Find(What, After, LookIn, LookAt, SearchOrder, SearchDirection, Match
 
 | **Name** | **Required/Optional** | **Data type** | **Default** | **Description** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| What | Required | string \| undefined |  | The data to search for. |
-| After | Required | [ApiRange](../../ApiRange/ApiRange.md) |  | The cell after which you want the search to begin. If this argument is not specified, the search starts after the cell in the upper-left corner of the range. |
-| LookIn | Required | [XlFindLookIn](../../Enumeration/XlFindLookIn.md) |  | Search data type (formulas or values). |
-| LookAt | Required | [XlLookAt](../../Enumeration/XlLookAt.md) |  | Specifies whether the whole search text or any part of the search text is matched. |
-| SearchOrder | Required | [XlSearchOrder](../../Enumeration/XlSearchOrder.md) |  | Range search order - by rows or by columns. |
-| SearchDirection | Required | [XlSearchDirection](../../Enumeration/XlSearchDirection.md) |  | Range search direction - next match or previous match. |
-| MatchCase | Required | boolean |  | Case sensitive or not. The default value is "false". |
+| oSearchData | Required | [SearchData](../../Enumeration/SearchData.md) |  | The search data used to make search. |
 
 ## Returns
 
