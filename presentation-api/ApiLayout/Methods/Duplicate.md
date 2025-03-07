@@ -24,7 +24,7 @@ expression.Duplicate(nPos);
 
 This example makes a duplicate of slide layout and applies it to another slide.
 
-```javascript editor-
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

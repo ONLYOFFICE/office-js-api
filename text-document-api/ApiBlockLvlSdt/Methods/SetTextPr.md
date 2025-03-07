@@ -18,13 +18,13 @@ expression.SetTextPr(textPr);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example applies text settings to the content of the content control.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();
 blockLvlSdt.GetContent().GetElement(0).AddText("This is a block text content control with the font size set to 30 and the font weight set to bold.");

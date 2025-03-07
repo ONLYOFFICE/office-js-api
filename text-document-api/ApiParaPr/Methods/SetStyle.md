@@ -19,13 +19,13 @@ expression.SetStyle(oStyle);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example sets a style for the paragraph.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let heading6Style = doc.GetStyle("Heading 6");
 let paraPr = heading6Style.GetParaPr();

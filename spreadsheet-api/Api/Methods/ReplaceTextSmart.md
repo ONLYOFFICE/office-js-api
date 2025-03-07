@@ -20,13 +20,13 @@ expression.ReplaceTextSmart(textStrings, tab, newLine);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example replaces each paragraph (or text in cell) in the select with the corresponding text from an array of strings.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");
 worksheet.GetRange("A2").SetValue("2");

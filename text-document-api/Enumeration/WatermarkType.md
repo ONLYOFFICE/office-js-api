@@ -17,6 +17,6 @@ Enumeration
 
 In this example sets the type of the watermark within the document.
 
-```javascript editor-
+```javascript editor-docx
 watermarkSettings.SetType("text");
 ```

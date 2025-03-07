@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example deletes the Range object.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B4").SetValue("1");
 worksheet.GetRange("C4").SetValue("2");

@@ -25,7 +25,7 @@ This method doesn't return any data.
 
 This example sets the strikethrough property to the specified font.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B1");
 range.SetValue("This is just a sample text.");

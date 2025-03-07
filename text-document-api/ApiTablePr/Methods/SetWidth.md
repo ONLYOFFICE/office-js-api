@@ -20,13 +20,13 @@ expression.SetWidth(sType, nValue);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example sets the preferred width to the table.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("We set the table cells to preserve their size:");

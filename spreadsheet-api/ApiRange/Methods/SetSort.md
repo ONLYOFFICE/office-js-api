@@ -31,7 +31,7 @@ This method doesn't return any data.
 
 This example sorts the cells in the given range by the parameters specified in the request.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue(2016);
 worksheet.GetRange("A2").SetValue(2015);

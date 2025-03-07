@@ -20,13 +20,13 @@ expression.SetCustomType(sType, sTextFormatString, sAlign);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example sets your own customized numbering type.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("numbered");
 for (let lvl = 0; lvl < 8; ++lvl) {

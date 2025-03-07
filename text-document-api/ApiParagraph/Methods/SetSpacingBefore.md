@@ -21,13 +21,13 @@ expression.SetSpacingBefore(nBefore, isBeforeAuto);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example sets the spacing before the current paragraph.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");
 let paraPr = myStyle.GetParaPr();

@@ -24,7 +24,7 @@ expression.SetHighlight(sColor);
 
 This example specifies a highlighting color which is applied as a background to the contents of the Range.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("ONLYOFFICE Document Builder");

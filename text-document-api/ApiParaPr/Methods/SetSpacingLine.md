@@ -22,13 +22,13 @@ expression.SetSpacingLine(nLine, sLineRule);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example sets the paragraph line spacing.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let myStyle1 = doc.CreateStyle("My document style #1");
 let paraPr = myStyle1.GetParaPr();

@@ -21,13 +21,13 @@ expression.SetPageMargins(nLeft, nTop, nRight, nBottom);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example specifies the page margins for all the pages in this section.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is a page with margins set. ");

@@ -23,13 +23,13 @@ expression.SetShowPointDataLabel(nSeriesIndex, nPointIndex, bShowSerName, bShowC
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example spicifies the show options for the chart data labels.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);
 worksheet.GetRange("C1").SetValue(2015);

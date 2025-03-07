@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example unsubscribes from the "onWorksheetChange" event.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");
 range.SetValue("1");

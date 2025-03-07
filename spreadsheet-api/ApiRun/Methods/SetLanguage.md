@@ -25,7 +25,7 @@ expression.SetLanguage(sLangId);
 
 This example specifies the languages which will be used to check spelling and grammar (if requested) when processing the contents of this text run.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

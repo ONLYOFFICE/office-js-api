@@ -25,7 +25,7 @@ expression.CreateNumbering(numType, startAt);
 
 This example creates a bullet for a paragraph with the numbering character or symbol specified with the sType parameter.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

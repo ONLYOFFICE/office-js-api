@@ -16,13 +16,13 @@ This method doesn't have any parameters.
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example rejects all changes made in review mode.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph1 = doc.GetElement(0);
 doc.SetTrackRevisions(true);

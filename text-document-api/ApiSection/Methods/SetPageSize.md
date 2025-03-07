@@ -20,13 +20,13 @@ expression.SetPageSize(nWidth, nHeight, isPortrait);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example specifies the properties (size and orientation) for all the pages in the section.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is a page with a page size set. ");

@@ -24,7 +24,7 @@ boolean
 
 This example changes the the user protected range title.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 worksheet.AddProtectedRange("protectedRange", "Sheet1!$A$1:$B$1");
 let protectedRange = worksheet.GetProtectedRange("protectedRange");

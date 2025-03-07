@@ -25,7 +25,7 @@ This method doesn't return any data.
 
 This example moves the sheet to another location in the workbook.
 
-```javascript editor-
+```javascript editor-xlsx
 let sheet1 = Api.GetActiveSheet();
 Api.AddSheet("Sheet2");
 let sheet2 = Api.GetActiveSheet();

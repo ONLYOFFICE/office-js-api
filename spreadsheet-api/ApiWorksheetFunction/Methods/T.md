@@ -24,7 +24,7 @@ expression.T(arg1);
 
 
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 let func = Api.GetWorksheetFunction();
 worksheet.GetRange("A1").SetValue(func.T("date and time"));

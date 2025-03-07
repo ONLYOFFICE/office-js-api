@@ -22,7 +22,7 @@ This method doesn't return any data.
 
 This example selects the current range.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1:C1");
 range.SetValue("1");

@@ -27,7 +27,7 @@ number \| string
 
 
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 let func = Api.GetWorksheetFunction();
 let ids = ["ID", 1, 2, 3, 4, 5];

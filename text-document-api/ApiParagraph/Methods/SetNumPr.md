@@ -19,13 +19,13 @@ expression.SetNumPr(oNumPr, nLvl);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example specifies that the current paragraph references a numbering definition instance in the current document.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");
 let paraPr = myStyle.GetParaPr();

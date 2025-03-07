@@ -26,7 +26,7 @@ number
 
 
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 let func = Api.GetWorksheetFunction();
 let ans = func.T_DIST(1.5, 10, false);

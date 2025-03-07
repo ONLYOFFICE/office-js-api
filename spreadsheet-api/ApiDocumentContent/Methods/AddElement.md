@@ -19,13 +19,13 @@ expression.AddElement(nPos, oElement);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example adds a paragraph in document content.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

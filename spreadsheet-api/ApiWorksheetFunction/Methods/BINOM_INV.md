@@ -26,7 +26,7 @@ number
 
 
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 let func = Api.GetWorksheetFunction();
 let ans = func.BINOM_INV(678, 0.1, 0.007);

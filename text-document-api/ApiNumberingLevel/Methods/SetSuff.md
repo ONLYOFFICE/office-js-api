@@ -18,13 +18,13 @@ expression.SetSuff(sType);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example specifies the content which will be added between the given numbering level text and the text of every numbered paragraph which references that numbering level.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("numbered");
 let numLvl = numbering.GetLevel(0);

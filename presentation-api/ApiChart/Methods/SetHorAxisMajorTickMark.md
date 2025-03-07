@@ -18,13 +18,13 @@ expression.SetHorAxisMajorTickMark(sTickMark);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example specifies the major tick mark "cross" for the horizontal axis.
 
-```javascript editor-
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

@@ -21,13 +21,13 @@ expression.SetLock(lockType);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example sets the lock to the block text content control.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();
 blockLvlSdt.GetContent().GetElement(0).AddText("This is a block text content control with the content lock set to it.");

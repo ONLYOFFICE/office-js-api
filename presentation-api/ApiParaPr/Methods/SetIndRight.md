@@ -18,13 +18,13 @@ expression.SetIndRight(nValue);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example sets the paragraph right side indentation.
 
-```javascript editor-
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

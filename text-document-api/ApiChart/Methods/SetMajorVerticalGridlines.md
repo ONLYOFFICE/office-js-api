@@ -18,13 +18,13 @@ expression.SetMajorVerticalGridlines(oStroke);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example specifies the visual properties for the major horizontal gridlines.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

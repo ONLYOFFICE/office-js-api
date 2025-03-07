@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example copies a range to the specified range.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");
 range.SetValue("This is a sample text which is copied to the range A3.");

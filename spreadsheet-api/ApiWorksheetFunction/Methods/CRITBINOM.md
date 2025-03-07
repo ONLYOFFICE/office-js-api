@@ -26,7 +26,7 @@ number
 
 
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 let func = Api.GetWorksheetFunction();
 let ans = func.CRITBINOM(678, 0.1, 0.007);

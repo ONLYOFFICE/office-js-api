@@ -22,7 +22,7 @@ This method doesn't return any data.
 
 This example makes the sheet active.
 
-```javascript editor-
+```javascript editor-xlsx
 Api.AddSheet("New_sheet");
 let sheet = Api.GetSheet("New_sheet");
 sheet.SetActive();

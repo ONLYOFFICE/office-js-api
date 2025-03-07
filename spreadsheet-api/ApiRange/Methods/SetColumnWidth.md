@@ -26,7 +26,7 @@ This method doesn't return any data.
 
 This example sets the width of all the columns in the range.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetColumnWidth(20);
 ```

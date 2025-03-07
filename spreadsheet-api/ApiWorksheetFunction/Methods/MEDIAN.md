@@ -24,7 +24,7 @@ number
 
 
 
-```javascript editor-
+```javascript editor-xlsx
 const worksheet = Api.GetActiveSheet();
 let func = Api.GetWorksheetFunction();
 let median = func.MEDIAN(4,45,12,34,3,54,2,2);

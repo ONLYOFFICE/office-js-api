@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example executes a provided function once for each cell.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");
 worksheet.GetRange("B1").SetValue("2");

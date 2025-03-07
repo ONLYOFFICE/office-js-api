@@ -18,13 +18,13 @@ expression.SetHorAxisLablesFontSize(nFontSize);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example sets font size for labels of the horizontal axis.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

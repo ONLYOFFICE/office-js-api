@@ -8,7 +8,7 @@ Represents the ApiTable class.
 | Method | Returns | Description |
 | ------ | ------- | ----------- |
 | [AddColumn](./Methods/AddColumn.md) | None | Adds a new column to the end of the current table. |
-| [AddElement](./Methods/AddElement.md) | boolean | Adds a paragraph or a table or a blockLvl content control using its position in the cell. |
+| [AddElement](./Methods/AddElement.md) | None | Adds a paragraph or a table or a blockLvl content control using its position in the cell. |
 | [AddRow](./Methods/AddRow.md) | [ApiTableRow](../ApiTableRow/ApiTableRow.md) | Adds a new row to the current table. |
 | [Copy](./Methods/Copy.md) | [ApiTable](../ApiTable/ApiTable.md) | Creates a copy of the current table. |
 | [GetClassType](./Methods/GetClassType.md) | "table" | Returns the type of the ApiTable object. |

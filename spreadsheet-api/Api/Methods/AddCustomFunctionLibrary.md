@@ -28,7 +28,7 @@ This method doesn't return any data.
 
 This example calculates custom function result.
 
-```javascript editor-
+```javascript editor-xlsx
 Api.AddCustomFunctionLibrary("LibraryName", function(){
     /**
      * Function that returns the argument

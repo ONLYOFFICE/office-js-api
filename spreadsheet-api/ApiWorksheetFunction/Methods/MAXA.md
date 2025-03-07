@@ -24,7 +24,7 @@ number
 
 
 
-```javascript editor-
+```javascript editor-xlsx
 const worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1:A5").GetValue();
 let func = Api.GetWorksheetFunction();

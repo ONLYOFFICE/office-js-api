@@ -24,7 +24,7 @@ expression.SetTextFill(oApiFill);
 
 This example sets the text fill to the current text run.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

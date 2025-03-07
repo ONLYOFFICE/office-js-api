@@ -19,6 +19,6 @@ Enumeration
 
 This example paste data with paste all option and add operation.
 
-```javascript editor-
+```javascript editor-xlsx
 range.PasteSpecial("xlPasteAll", "xlPasteSpecialOperationAdd");
 ```

@@ -18,13 +18,13 @@ expression.SetKeepLines(isKeepLines);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example specifies that when rendering the document using a page view, all lines of the paragraph are maintained on a single page whenever possible.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");
 let paraPr = myStyle.GetParaPr();

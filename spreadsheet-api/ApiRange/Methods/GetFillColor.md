@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example shows how to get the background color for the cell range.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 worksheet.SetColumnWidth(0, 60);
 let range = worksheet.GetRange("A1");

@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example shows how to get an array of ApiComment objects.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");
 let range = worksheet.GetRange("A1");

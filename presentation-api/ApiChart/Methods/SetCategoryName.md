@@ -25,7 +25,7 @@ boolean
 
 This example sets a category name for chart.
 
-```javascript editor-
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

@@ -21,13 +21,13 @@ expression.RemoveElement(nPos);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example removes an element using the position specified.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.RemoveAllElements();

@@ -17,6 +17,6 @@ Enumeration
 
 This example add a cross-reference to the page containing a table caption.
 
-```javascript editor-
+```javascript editor-docx
 paragraph.AddCaptionCrossRef("Table", "pageNum", caption);
 ```

@@ -16,13 +16,13 @@ This method doesn't have any parameters.
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example adds a column break to the run position and starts the next element from a new column.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let section = doc.GetFinalSection(paragraph);

@@ -9,7 +9,6 @@ Represents the ApiRange class.
 | ------ | ------- | ----------- |
 | [AddBookmark](./Methods/AddBookmark.md) | boolean | Adds a bookmark to the specified range. |
 | [AddComment](./Methods/AddComment.md) | [ApiComment](../ApiComment/ApiComment.md) | Adds a comment to the current range. |
-| [AddField](./Methods/AddField.md) | boolean | Adds the field by instruction line to current range.\ 💡  This method removes text within range.  |
 | [AddHyperlink](./Methods/AddHyperlink.md) | [ApiHyperlink](../ApiHyperlink/ApiHyperlink.md) \| null | Adds a hyperlink to the specified range. |
 | [AddText](./Methods/AddText.md) | boolean | Adds a text to the specified position. |
 | [Delete](./Methods/Delete.md) | boolean | Deletes all the contents from the current range. |
@@ -25,8 +24,7 @@ Represents the ApiRange class.
 | [GetText](./Methods/GetText.md) | String | Returns a text from the specified range. |
 | [GetTextPr](./Methods/GetTextPr.md) | [ApiTextPr](../ApiTextPr/ApiTextPr.md) | Returns the merged text properties of the entire range. |
 | [IntersectWith](./Methods/IntersectWith.md) | [ApiRange](../ApiRange/ApiRange.md) \| null | Returns a new range as the intersection of the current range with another range. The current range has not changed. |
-| [MoveCursorToPos](./Methods/MoveCursorToPos.md) | boolean | Moves a cursor to a specified position of the current range object.\ If there is any selection in the document, it will be removed. |
-| [Select](./Methods/Select.md) | boolean | Sets the selection to the specified range. |
+| [Select](./Methods/Select.md) | None | Sets the selection to the specified range. |
 | [SetBold](./Methods/SetBold.md) | [ApiRange](../ApiRange/ApiRange.md) \| null | Sets the bold property to the text character. |
 | [SetCaps](./Methods/SetCaps.md) | [ApiRange](../ApiRange/ApiRange.md) \| null | Specifies that any lowercase characters in the current text Range are formatted for display only as their capital letter character equivalents. |
 | [SetColor](./Methods/SetColor.md) | [ApiRange](../ApiRange/ApiRange.md) \| null | Sets the text color to the current text Range in the RGB format. |

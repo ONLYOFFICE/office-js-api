@@ -24,7 +24,7 @@ expression.GetCommentById(sId);
 
 This example shows how to get a comment from the current document by its ID.
 
-```javascript editor-
+```javascript editor-xlsx
 let comment = Api.AddComment("Comment", "Bob");
 let id = comment.GetId();
 comment = Api.GetCommentById(id);

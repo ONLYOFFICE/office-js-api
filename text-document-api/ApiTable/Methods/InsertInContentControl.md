@@ -24,7 +24,7 @@ expression.InsertInContentControl(nType);
 
 This example wraps the current table object with a content control.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

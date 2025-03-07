@@ -22,6 +22,6 @@ This method doesn't have any parameters.
 
 This example gets a class type and inserts it into the document.
 
-```javascript editor-
+```javascript editor-docx
 // todo_example
 ```

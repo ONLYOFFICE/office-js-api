@@ -19,13 +19,13 @@ expression.SetTableInd(nValue);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example specifies the indentation which will be added before the leading edge of the table in the document.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("We set the indent of 1 inch for the table:");

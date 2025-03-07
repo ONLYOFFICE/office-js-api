@@ -22,7 +22,7 @@ number
 
 This example shows how to get a value that represents a number of objects in the collection.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B1");
 range.SetValue("This is just a sample text.");

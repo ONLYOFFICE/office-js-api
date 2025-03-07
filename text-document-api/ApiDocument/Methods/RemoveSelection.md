@@ -16,13 +16,13 @@ This method doesn't have any parameters.
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example removes the current selection.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("Api ONLYOFFICE");

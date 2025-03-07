@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example freezes the the top row.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 let freezePanes = worksheet.GetFreezePanes();
 freezePanes.FreezeRows(1);

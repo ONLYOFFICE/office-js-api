@@ -27,7 +27,7 @@ JSON
 
 This example converts the ApiSlide object into the JSON object.
 
-```javascript editor-
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

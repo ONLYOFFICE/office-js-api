@@ -25,7 +25,7 @@ expression.GetCharacters(Start, Length);
 
 This example shows how to get the ApiCharacters object that represents a range of characters within the object text.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B1");
 range.SetValue("This is just a sample text.");

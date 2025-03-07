@@ -31,7 +31,7 @@ string
 
 This example gets a text from document content element.
 
-```javascript editor-
+```javascript editor-docx
 let oDocument = Api.GetDocument();
 let oBlockLvlSdt = Api.CreateBlockLvlSdt();
 oDocument.Push(oBlockLvlSdt);

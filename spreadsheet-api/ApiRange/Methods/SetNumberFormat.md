@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example specifies whether a number in the cell should be treated like number, currency, date, time, etc. or just like text.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 worksheet.SetColumnWidth(0, 30);
 worksheet.SetColumnWidth(1, 30);

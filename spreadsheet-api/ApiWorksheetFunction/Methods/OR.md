@@ -24,7 +24,7 @@ boolean
 
 
 
-```javascript editor-
+```javascript editor-xlsx
 const worksheet = Api.GetActiveSheet();
 
 worksheet.GetRange("A1").SetValue(12);

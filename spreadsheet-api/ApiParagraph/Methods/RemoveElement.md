@@ -21,13 +21,13 @@ expression.RemoveElement(nPos);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example removes an element using the position specified.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

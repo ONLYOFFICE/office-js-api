@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example sets a string value that represents the text of the specified range of characters.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B1");
 range.SetValue("This is just a sample text.");

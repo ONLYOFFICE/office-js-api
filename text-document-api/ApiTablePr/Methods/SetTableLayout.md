@@ -18,13 +18,13 @@ expression.SetTableLayout(sType);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example specifies the algorithm which will be used to lay out the contents of the table within the document.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("We set the table cells to preserve their size:");

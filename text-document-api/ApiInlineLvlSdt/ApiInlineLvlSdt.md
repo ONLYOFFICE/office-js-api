@@ -28,14 +28,14 @@ Represents the ApiInlineLvlSdt class.
 | [GetRange](./Methods/GetRange.md) | [ApiRange](../ApiRange/ApiRange.md) | Returns a Range object that represents the part of the document contained in the specified content control. |
 | [GetTag](./Methods/GetTag.md) | string | Returns the tag attribute for the current container. |
 | [IsForm](./Methods/IsForm.md) | boolean | Checks if the content control is a form. |
-| [MoveCursorOutside](./Methods/MoveCursorOutside.md) | boolean | Places a cursor before/after the current content control. |
+| [MoveCursorOutside](./Methods/MoveCursorOutside.md) | None | Places a cursor before/after the current content control. |
 | [Push](./Methods/Push.md) | boolean | Adds an element to the end of inline text content control. |
 | [RemoveAllElements](./Methods/RemoveAllElements.md) | boolean | Removes all the elements from the current inline text content control. |
 | [RemoveElement](./Methods/RemoveElement.md) | boolean | Removes an element using the position specified from the current inline text content control. |
-| [SetAlias](./Methods/SetAlias.md) | boolean | Sets the alias attribute to the current container. |
-| [SetLabel](./Methods/SetLabel.md) | boolean | Adds a string label to the current inline text content control. |
-| [SetLock](./Methods/SetLock.md) | boolean | Sets the lock to the current inline text content control:\ -**"contentLocked"** - content cannot be edited.\ -**"sdtContentLocked"** - content cannot be edited and the container cannot be deleted.\ -**"sdtLocked"** - the container cannot be deleted. |
+| [SetAlias](./Methods/SetAlias.md) | None | Sets the alias attribute to the current container. |
+| [SetLabel](./Methods/SetLabel.md) | None | Adds a string label to the current inline text content control. |
+| [SetLock](./Methods/SetLock.md) | None | Sets the lock to the current inline text content control:\ -**"contentLocked"** - content cannot be edited.\ -**"sdtContentLocked"** - content cannot be edited and the container cannot be deleted.\ -**"sdtLocked"** - the container cannot be deleted. |
 | [SetPlaceholderText](./Methods/SetPlaceholderText.md) | boolean | Sets the placeholder text to the current inline content control.\ Can't be set to checkbox or radio button* |
-| [SetTag](./Methods/SetTag.md) | boolean | Adds a string tag to the current inline text content control. |
+| [SetTag](./Methods/SetTag.md) | None | Adds a string tag to the current inline text content control. |
 | [SetTextPr](./Methods/SetTextPr.md) | [ApiInlineLvlSdt](../ApiInlineLvlSdt/ApiInlineLvlSdt.md) | Applies text settings to the content of the content control. |
 | [ToJSON](./Methods/ToJSON.md) | JSON | Converts the ApiInlineLvlSdt object into the JSON object. |

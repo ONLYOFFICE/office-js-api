@@ -27,7 +27,7 @@ This method doesn't return any data.
 
 This example specifies the shading which shall be applied to the extents of the table.
 
-```javascript editor-
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oTable = Api.CreateTable(2, 4);
 oTable.SetShd("clear", 255, 111, 61);

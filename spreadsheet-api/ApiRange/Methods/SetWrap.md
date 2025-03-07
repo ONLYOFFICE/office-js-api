@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example specifies whether the words in the cell must be wrapped to fit the cell size or not.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");
 range.SetValue("This is the text wrapped to fit the cell size.");

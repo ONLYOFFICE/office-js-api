@@ -18,13 +18,13 @@ expression.SetBasedOn(oStyle);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example specifies the reference to the parent style which this style inherits from in the style hierarchy.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example marks a comment as solved.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");
 let range = worksheet.GetRange("A1");

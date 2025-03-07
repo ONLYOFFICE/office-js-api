@@ -24,6 +24,6 @@ Enumeration
 
 This example add a caption with a hyphen as a numbering separator to the paragraph.
 
-```javascript editor-
+```javascript editor-docx
 paragraph.AddCaption("", "Figure", false, "Arabic", false, undefined, "hyphen");
 ```

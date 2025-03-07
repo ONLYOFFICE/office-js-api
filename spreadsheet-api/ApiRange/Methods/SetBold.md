@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example sets the bold property to the text characters in the current cell or cell range.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A2").SetValue("Bold text");
 worksheet.GetRange("A2").SetBold(true);

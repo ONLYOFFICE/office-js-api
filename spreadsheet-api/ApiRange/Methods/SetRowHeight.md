@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example sets the row height value.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetRowHeight(32);
 ```

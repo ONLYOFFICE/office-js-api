@@ -16,6 +16,6 @@ Represents the ApiStyle class.
 | [GetTableRowPr](./Methods/GetTableRowPr.md) | [ApiTableRowPr](../ApiTableRowPr/ApiTableRowPr.md) | Returns the table row properties of the current style. |
 | [GetTextPr](./Methods/GetTextPr.md) | [ApiTextPr](../ApiTextPr/ApiTextPr.md) | Returns the text properties of the current style. |
 | [GetType](./Methods/GetType.md) | [StyleType](../Enumeration/StyleType.md) | Returns a type of the current style. |
-| [SetBasedOn](./Methods/SetBasedOn.md) | boolean | Specifies the reference to the parent style which this style inherits from in the style hierarchy. |
-| [SetName](./Methods/SetName.md) | boolean | Sets a name of the current style. |
+| [SetBasedOn](./Methods/SetBasedOn.md) | None | Specifies the reference to the parent style which this style inherits from in the style hierarchy. |
+| [SetName](./Methods/SetName.md) | None | Sets a name of the current style. |
 | [ToJSON](./Methods/ToJSON.md) | JSON | Converts the ApiStyle object into the JSON object. |

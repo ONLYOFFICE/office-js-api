@@ -24,7 +24,7 @@ This method doesn't return any data.
 
 This example sets a formula that the name is defined to refer to.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");
 worksheet.GetRange("B1").SetValue("2");

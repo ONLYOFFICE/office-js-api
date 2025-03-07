@@ -26,13 +26,13 @@ expression.SetWrappingStyle(sType);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example creates a shape with wrapping style "square".
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is a paragraph with a shape. ");

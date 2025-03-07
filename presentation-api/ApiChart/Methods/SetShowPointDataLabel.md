@@ -23,13 +23,13 @@ expression.SetShowPointDataLabel(nSeriesIndex, nPointIndex, bShowSerName, bShowC
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example spicifies the show options for the chart data labels.
 
-```javascript editor-
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

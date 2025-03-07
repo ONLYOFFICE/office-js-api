@@ -22,7 +22,7 @@ This method doesn't have any parameters.
 
 This example shows how to get an object that represents all protected ranges.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 worksheet.AddProtectedRange("protectedRange1", "Sheet1!$A$1:$B$1");
 worksheet.AddProtectedRange("protectedRange2", "Sheet1!$A$2:$B$2");

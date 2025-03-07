@@ -24,7 +24,7 @@ expression.CreateRadialGradientFill(gradientStops);
 
 This example creates a radial gradient fill to apply to the object using the selected radial gradient as the object background.
 
-```javascript editor-
+```javascript editor-xlsx
 let worksheet = Api.GetActiveSheet();
 let gs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);
 let gs2 = Api.CreateGradientStop(Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000));

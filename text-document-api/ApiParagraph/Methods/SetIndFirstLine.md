@@ -18,13 +18,13 @@ expression.SetIndFirstLine(nValue);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example sets the paragraph first line indentation.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");
 let paraPr = myStyle.GetParaPr();

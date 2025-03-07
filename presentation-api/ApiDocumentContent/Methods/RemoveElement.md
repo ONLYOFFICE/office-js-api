@@ -18,13 +18,13 @@ expression.RemoveElement(nPos);
 
 ## Returns
 
-boolean
+This method doesn't return any data.
 
 ## Example
 
 This example shows how to remove an element.
 
-```javascript editor-
+```javascript editor-pptx
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

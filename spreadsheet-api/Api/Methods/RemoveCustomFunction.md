@@ -24,7 +24,7 @@ boolean
 
 This example clear current custom function.
 
-```javascript editor-
+```javascript editor-xlsx
 Api.AddCustomFunctionLibrary("LibraryName", function(){
     /**
      * Function that returns the argument

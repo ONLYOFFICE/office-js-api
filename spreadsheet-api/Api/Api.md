@@ -71,7 +71,7 @@ Represents the Api class.
 | [RecalculateAllFormulas](./Methods/RecalculateAllFormulas.md) | boolean | Recalculates all formulas in the active workbook. |
 | [RefreshAllPivots](./Methods/RefreshAllPivots.md) | None | Refreshes all pivot tables. |
 | [RemoveCustomFunction](./Methods/RemoveCustomFunction.md) | boolean | Removes a custom function. |
-| [ReplaceTextSmart](./Methods/ReplaceTextSmart.md) | boolean | Replaces each paragraph (or text in cell) in the select with the corresponding text from an array of strings. |
+| [ReplaceTextSmart](./Methods/ReplaceTextSmart.md) | None | Replaces each paragraph (or text in cell) in the select with the corresponding text from an array of strings. |
 | [Save](./Methods/Save.md) | None | Saves changes to the specified document. |
 | [SetFreezePanesType](./Methods/SetFreezePanesType.md) | None | Sets a type to the freeze panes. |
 | [SetLocale](./Methods/SetLocale.md) | None | Sets a locale to the document. |

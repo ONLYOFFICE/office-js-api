@@ -25,7 +25,7 @@ boolean
 
 This example shows how to replace the current word.
 
-```javascript editor-
+```javascript editor-docx
 let doc = Api.GetDocument();
 let para1 = doc.GetElement(0);
 para1.AddText("The quick brown ");

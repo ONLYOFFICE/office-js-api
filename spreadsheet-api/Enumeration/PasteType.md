@@ -23,6 +23,6 @@ Enumeration
 
 This example paste data with paste all option.
 
-```javascript editor-
+```javascript editor-xlsx
 range.PasteSpecial("xlPasteAll");
 ```
