@@ -1,6 +1,6 @@
 // This example shows how to get an array with all the drawing objects from the slide master.
 
-// How to get all drawings from the layout of presentation.
+// How to get all drawings from the master of presentation.
 
 // Get all drawings from the presentation as an array.
 

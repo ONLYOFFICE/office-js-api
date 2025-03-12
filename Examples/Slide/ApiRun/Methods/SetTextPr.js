@@ -1,6 +1,6 @@
 // This example sets the text properties to the current run.
 
-// How to create a new property of a text and apply it to the text run.
+// How to create the new text properties and apply it to the text run.
 
 // Create a new text run and set its properties like font size, color, etc.
 

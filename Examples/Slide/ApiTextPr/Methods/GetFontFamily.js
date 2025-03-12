@@ -2,7 +2,7 @@
 
 // How to know font name of a text run.
 
-// Get a text property of the run and display its font family.
+// Get the text properties of the run and display its font family.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

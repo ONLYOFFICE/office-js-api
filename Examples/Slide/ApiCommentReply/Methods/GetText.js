@@ -1,8 +1,8 @@
 // This example shows how to get text of a comment reply.
 
-// How to get a raw text a comment has.
+// How to get a raw text of a comment reply.
 
-// Get all comments from the presentation and the first one's text.
+// Get all comments from the presentation, get the first one's reply and return its text.
 
 var oPresentation = Api.GetPresentation();
 Api.pluginMethod_AddComment({"UserName": "John Smith", "Text": "Comment 1"});

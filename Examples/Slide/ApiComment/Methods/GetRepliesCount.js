@@ -1,6 +1,6 @@
 // This example shows how to count number of replies of a comment.
 
-// How to get how many replies a comment has.
+// How to get a number of replies a comment has.
 
 // Get all comments from the presentation and the first one's number of replies.
 

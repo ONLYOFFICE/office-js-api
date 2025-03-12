@@ -1,8 +1,8 @@
 // This example shows how to get a paragraph element using the position specified.
 
-// How return an element from the slide.
+// How to return an element from the ApiPargaraph object.
 
-// Get an object form the slide.
+// Get an object from the paragraph.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

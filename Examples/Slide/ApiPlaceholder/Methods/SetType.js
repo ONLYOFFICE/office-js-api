@@ -1,6 +1,6 @@
 // This example sets the placeholder type.
 
-// How to get a placeholder type (chart, table, etc.).
+// How to set a placeholder type (chart, table, etc.).
 
 // Create a shape and set its placeholder type to "chart".
 

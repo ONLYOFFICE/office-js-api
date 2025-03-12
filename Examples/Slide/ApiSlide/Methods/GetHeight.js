@@ -2,7 +2,7 @@
 
 // How to find a slide's height and display it on the slide.
 
-// Get a slide height and show it in the slide.
+// Get a height ofthe  ApiSlide object and show it in the slide.
 
 var oPresentation = Api.GetPresentation();
 oPresentation.SetSizes(254 * 36000, 190 * 36000);

@@ -1,8 +1,8 @@
 // This example shows how to get the next paragraph.
 
-// How to get the next paragraph from a current one.
+// How to get the next paragraph of the current one.
 
-// Return the next paragraph from the slide and make its text bold.
+// Return the next paragraph on the slide and make its text bold.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

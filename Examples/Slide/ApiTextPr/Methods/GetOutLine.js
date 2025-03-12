@@ -1,8 +1,8 @@
 // This example shows how to find out whether a text is outlined.
 
-// How to know whether an outline is set for the text.
+// How to know whether an outline is set to the text.
 
-// Get a text property of the run and find whether it is outlined or not.
+// Get the text properties of the run and find whether it is outlined or not.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

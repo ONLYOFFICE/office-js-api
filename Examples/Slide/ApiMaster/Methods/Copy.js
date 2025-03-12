@@ -2,7 +2,7 @@
 
 // How to create a copy of a master.
 
-// Copy a master of a presentation master.
+// Copy the ApiMaster object.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

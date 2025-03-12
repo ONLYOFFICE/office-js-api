@@ -1,6 +1,6 @@
 // This example gets a class type and pastes it into the presentation.
 
-// How get a class type of ApiMaster.
+// How to get a class type of ApiMaster.
 
 // Retrieve class type of ApiMaster object and insert it to the slide.
 

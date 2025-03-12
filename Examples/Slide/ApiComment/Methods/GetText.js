@@ -1,6 +1,6 @@
 // This example shows how to get text of a comment.
 
-// How to get a raw text a comment has.
+// How to get a raw text of a comment.
 
 // Get all comments from the presentation and the first one's text.
 

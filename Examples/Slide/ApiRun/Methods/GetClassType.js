@@ -1,6 +1,6 @@
 // This example gets a class type and pastes it into the presentation.
 
-// How get a class type of ApiRun.
+// How to get a class type of ApiRun.
 
 // Retrieve class type of ApiRun object and insert it to the slide.
 

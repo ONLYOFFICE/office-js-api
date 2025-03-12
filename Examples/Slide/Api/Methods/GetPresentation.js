@@ -1,8 +1,8 @@
 // This example show how to get a presentation.
 
-// How to get a presentation name.
+// How to get the ApiPresentation object.
 
-// Retrieve name of presentation.
+// Retrieve the current presentation object and work with its slides.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

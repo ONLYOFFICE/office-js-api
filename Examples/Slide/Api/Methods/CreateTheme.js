@@ -2,7 +2,7 @@
 
 // How to change theme of the presentation.
 
-// Create new theme with indicating all its properties.
+// Create new theme indicating all its properties.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

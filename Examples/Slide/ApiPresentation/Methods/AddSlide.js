@@ -1,6 +1,6 @@
 // This example appends a new slide to the end of the presentation.
 
-// How to add a a new slide to the presentation.
+// How to add a new slide to the presentation.
 
 // Create a slide and add it to the end of presentation.
 

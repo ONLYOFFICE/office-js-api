@@ -2,7 +2,7 @@
 
 // How to make a text italic.
 
-// Get a text property of the run and set it italic.
+// Get the text properties of the run and set it to italic.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

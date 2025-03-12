@@ -2,7 +2,7 @@
 
 // How to set the size of a spacing before a text from a paragraph properties.
 
-// Change a spacing before size property of a paragraph properties.
+// Change the size property of a spacing before a paragraph.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

@@ -2,7 +2,7 @@
 
 // How to change a font color.
 
-// Get a text property of the run and color its font.
+// Get the text properties of the run and color its font.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

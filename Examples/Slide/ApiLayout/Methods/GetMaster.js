@@ -1,8 +1,8 @@
 // This example shows how to get the parent slide master of the current layout.
 
-// How to get a master of a parent.
+// How to get a master of a layout.
 
-// Get parent slide master.
+// Get layout slide master.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

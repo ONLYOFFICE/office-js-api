@@ -2,7 +2,7 @@
 
 // How to set a bullet type to the paragraph properties.
 
-// Create the bulleted paragraph setting its bullet type.
+// Create a bulleted paragraph setting its bullet type.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

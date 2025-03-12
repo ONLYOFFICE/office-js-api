@@ -2,7 +2,7 @@
 
 // Title the chart's horizontal axis.
 
-// Create a chart, set its properties and name its horizontal axis title.
+// Create a chart, set its properties and name its horizontal axis.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

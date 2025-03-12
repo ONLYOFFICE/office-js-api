@@ -1,6 +1,6 @@
 // This example sets the data to the current OLE object.
 
-// Set data of an OLE object.
+// Set data to an OLE object.
 
 // How to insert a url address to the OLE object.
 

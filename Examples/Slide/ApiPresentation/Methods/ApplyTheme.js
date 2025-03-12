@@ -2,7 +2,7 @@
 
 // How to apply a theme to the presentation.
 
-// Create a slide and add it to the end of presentation.
+// Create the ApiTheme object and apply it to the presentation.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

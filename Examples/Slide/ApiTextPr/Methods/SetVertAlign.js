@@ -2,7 +2,7 @@
 
 // How to set a vertical alignment of the text.
 
-// Get a text property of the run and make it superscript, subscript, etc.
+// Get the text properties of the run and make it superscript, subscript, etc.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

@@ -2,7 +2,7 @@
 
 // How to make a text bold.
 
-// Get a text property of the run and set it bold.
+// Get the text properties of the run and set it to bold.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

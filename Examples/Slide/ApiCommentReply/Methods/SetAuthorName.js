@@ -1,8 +1,8 @@
-// This example shows how to set an author of a comment reply.
+// This example shows how to set an author to a comment reply.
 
 // How to change a comment's reply author name.
 
-// Get all comments from the presentation and set an author for the first one's reply.
+// Get all comments from the presentation and set an author to the first one's reply.
 
 var oPresentation = Api.GetPresentation();
 Api.pluginMethod_AddComment({"UserName": "John Smith", "Text": "Comment 1"});

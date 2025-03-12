@@ -2,7 +2,7 @@
 
 // How to get a width of the presentation.
 
-// Get a width of the presentation.
+// Get a width of the ApiPresentation object.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

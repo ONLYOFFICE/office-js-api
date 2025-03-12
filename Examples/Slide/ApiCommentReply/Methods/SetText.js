@@ -1,6 +1,6 @@
-// This example shows how to set a reply text.
+// This example shows how to set a comment reply text.
 
-// How to change a text of a reply.
+// How to change a text of a comment reply.
 
 // Get all comments from the presentation and set its first one's reply text.
 

@@ -1,6 +1,6 @@
 // This example shows how to get the text properties of the run.
 
-// How to get text property and change its font size.
+// How to get the text properties of the current ApiRun object and change its font size.
 
 // Resize a font of a text run.
 

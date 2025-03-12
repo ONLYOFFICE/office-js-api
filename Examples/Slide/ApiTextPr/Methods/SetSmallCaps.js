@@ -2,7 +2,7 @@
 
 // How to make a text uncapitalized.
 
-// Get a text property of the run and make its letters lowercase.
+// Get the text properties of the run and make its letters lowercase.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
 // This example specifies the minor tick mark for the horizontal axis.
 
-// How to set a minor tickmark using predefined symbols.
+// How to set a minor tick mark using predefined symbols.
 
-// Create a chart, set its properties and minor tickmark for horizontal axis.
+// Create a chart, set its properties and minor tick mark for horizontal axis.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

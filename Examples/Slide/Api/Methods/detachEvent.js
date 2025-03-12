@@ -2,6 +2,6 @@
 
 // How to detach an event on hyperlink click.
 
-// Unsubscribe on hyperlink click event.
+// Unsubscribe from the hyperlink click event.
 
 Api.detachEvent("asc_onHyperlinkClick");

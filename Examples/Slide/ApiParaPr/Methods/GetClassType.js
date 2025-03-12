@@ -1,6 +1,6 @@
 // This example gets a class type and pastes it into the presentation.
 
-// How get a class type of ApiParaPr.
+// How to get a class type of ApiParaPr.
 
 // Retrieve class type of ApiParaPr object and insert it to the slide.
 

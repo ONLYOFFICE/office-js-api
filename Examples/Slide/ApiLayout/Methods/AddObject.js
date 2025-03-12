@@ -2,7 +2,7 @@
 
 // How to add a shape object to the master layout.
 
-// Add a drawing to the slide.
+// Add a drawing to the ApiLayout object.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

@@ -1,6 +1,6 @@
 // This example gets a class type and pastes it into the presentation.
 
-// How get a class type of ApiFill.
+// How to get a class type of ApiFill.
 
 // Retrieve class type of ApiFill object and insert it to the slide.
 

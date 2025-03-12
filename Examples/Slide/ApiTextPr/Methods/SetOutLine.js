@@ -2,7 +2,7 @@
 
 // How to make a text outlined.
 
-// Get a text property of the run and outline it with a stroke.
+// Get the text properties of the run and outline it with a stroke.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

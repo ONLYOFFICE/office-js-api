@@ -1,8 +1,8 @@
-// This example shows how to set table lock.
+// This example shows how to set a table look.
 
-// How to set a table lock with options.
+// How to set a table look with options.
 
-// Create a table and set its lock type.
+// Create the ApiTable object and set its look.
 
 var oPresentation = Api.GetPresentation();
 var oTable = Api.CreateTable(2, 4);

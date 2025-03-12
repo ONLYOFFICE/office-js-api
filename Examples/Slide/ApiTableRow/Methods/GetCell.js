@@ -1,8 +1,8 @@
 // This example shows how to get a cell by its position in the row.
 
-// How to return a cell using its rwo index.
+// How to return a cell using its row index.
 
-// Create table, get its row and get the cell from this row.
+// Create a table, get its row and get a cell from this row.
 
 var oPresentation = Api.GetPresentation();
 var oTable = Api.CreateTable(2, 4);

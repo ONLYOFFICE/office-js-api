@@ -2,7 +2,7 @@
 
 // How to make a text capitalized.
 
-// Get a text property of the run and set its letters uppercase.
+// Get the text properties of the run and set its letters uppercase.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

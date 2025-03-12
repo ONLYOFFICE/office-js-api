@@ -2,7 +2,7 @@
 
 // How to delete a layout.
 
-// Remove a layout of a presentation master.
+// Remove a layout from a presentation master.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

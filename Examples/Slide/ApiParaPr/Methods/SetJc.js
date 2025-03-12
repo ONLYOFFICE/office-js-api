@@ -2,7 +2,7 @@
 
 // How to set justification using a paragraph properties.
 
-// Create the paragraph setting its justification property.
+// Create a paragraph setting its justification property.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

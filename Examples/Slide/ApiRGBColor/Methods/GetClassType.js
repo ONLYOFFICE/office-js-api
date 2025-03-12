@@ -1,6 +1,6 @@
 // This example gets a class type and pastes it into the presentation.
 
-// How get a class type of ApiRGBColor.
+// How to get a class type of ApiRGBColor.
 
 // Retrieve class type of ApiRGBColor object and insert it to the slide.
 

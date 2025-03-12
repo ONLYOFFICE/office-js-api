@@ -2,7 +2,7 @@
 
 // How to show specific chart data labels with options.
 
-// Create a chart, set its properties and its data labels visibility.
+// Create a chart, set its properties and the visibility of its data labels options.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

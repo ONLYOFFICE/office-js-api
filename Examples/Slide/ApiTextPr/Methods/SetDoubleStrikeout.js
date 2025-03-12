@@ -2,7 +2,7 @@
 
 // How to strike out a text with two lines.
 
-// Get a text property of the run and cross it out.
+// Get the text propertiesof the run and cross it out with two lines.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

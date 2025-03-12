@@ -1,8 +1,8 @@
 // This example shows how to get a number of slides.
 
-// How to count the number of slides of the presentation.
+// How to count the slides of the presentation.
 
-// Get presentation slides count.
+// Get a number of the presentation slides.
 
 var oPresentation = Api.GetPresentation();
 var oSlide1 = oPresentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
 // This example specifies the major tick mark "cross" for the horizontal axis.
 
-// How to set a major tickmark using predefined symbols.
+// How to set a major tick mark using predefined symbols.
 
-// Create a chart, set its properties and major tickmark for horizontal axis.
+// Create a chart, set its properties and major tick mark for horizontal axis.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

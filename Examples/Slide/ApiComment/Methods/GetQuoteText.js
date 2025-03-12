@@ -1,6 +1,6 @@
 // This example gets a quote text of a comment.
 
-// How retrieve a quote text from a comment.
+// How to retrieve a quote text from a comment.
 
 // Get all comments from the presentation and the first one's quote text.
 

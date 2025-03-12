@@ -2,7 +2,7 @@
 
 // How to underline a text.
 
-// Get a text property of the run and underline its text.
+// Get the text properties of the run and underline its text.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

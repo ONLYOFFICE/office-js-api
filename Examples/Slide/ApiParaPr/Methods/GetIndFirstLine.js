@@ -1,8 +1,8 @@
 // This example shows how to get the paragraph first line indentation.
 
-// How to return a first line identation of a paragraph property.
+// How to return the first line identation of a paragraph property.
 
-// Return a first line indentation of a text property from the slide.
+// Return the first line indentation of a text property from the slide.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

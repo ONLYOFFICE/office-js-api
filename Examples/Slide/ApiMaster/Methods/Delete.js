@@ -2,7 +2,7 @@
 
 // How to delete a master.
 
-// Remove a master of a presentation.
+// Remove a master from a presentation.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

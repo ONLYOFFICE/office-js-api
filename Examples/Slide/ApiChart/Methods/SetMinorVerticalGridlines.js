@@ -1,6 +1,6 @@
 // This example specifies the visual properties for the minor vertical gridlines.
 
-// How to set minor horizontal gridlines of the chart.
+// How to set minor vertical gridlines of the chart.
 
 // Create a chart, set its properties and its minor gridlines.
 

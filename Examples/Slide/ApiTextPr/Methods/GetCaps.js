@@ -1,8 +1,8 @@
 // This example shows how to find out whether a text is capitalized.
 
-// How to know whether text letters are uppercase or not.
+// How to know whether the text letters are uppercase or not.
 
-// Get a text property of the run and find whether it is capitalized or not.
+// Get the text properties of the run and find whether it is capitalized or not.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

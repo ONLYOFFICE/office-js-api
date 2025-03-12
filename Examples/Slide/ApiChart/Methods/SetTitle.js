@@ -1,6 +1,6 @@
 // This example specifies the chart title.
 
-// How to rename a chart title.
+// How to rename a chart.
 
 // Create a chart, set its properties and its title.
 

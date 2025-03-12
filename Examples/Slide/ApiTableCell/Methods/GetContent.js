@@ -1,8 +1,8 @@
 // This example shows how to get the current cell content.
 
-// How to get a class type of ApiTableCell.
+// How to get a content of the ApiTableCell object.
 
-// Retrieve class type of ApiTableCell object and insert it to the slide.
+// Return the ApiDocumentContent object from the table cell.
 
 var oPresentation = Api.GetPresentation();
 var oTable = Api.CreateTable(2, 4);

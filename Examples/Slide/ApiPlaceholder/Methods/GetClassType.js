@@ -1,6 +1,6 @@
 // This example gets a class type and pastes it into the presentation.
 
-// How get a class type of ApiPlaceholder.
+// How to get a class type of ApiPlaceholder.
 
 // Retrieve class type of ApiPlaceholder object and insert it to the slide.
 

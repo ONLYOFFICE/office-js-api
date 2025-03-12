@@ -1,6 +1,6 @@
 // This example show how to get an array with all the chart objects from the slide master.
 
-// How to get all charts from the layout of presentation.
+// How to get all charts from the master of presentation.
 
 // Get all charts from the presentation as an array.
 

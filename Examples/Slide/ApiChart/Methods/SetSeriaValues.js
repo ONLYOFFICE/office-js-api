@@ -1,8 +1,8 @@
 // This example sets values to the specified chart series.
 
-// How to rename a chart seria.
+// How to set values to the specified ApiChart object.
 
-// Create a chart, set its properties and its series names.
+// Create a chart, set its properties and its series values.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

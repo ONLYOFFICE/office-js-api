@@ -1,8 +1,8 @@
-// This example shows how to specifies an amount of space which shall be left between the bottom extent of the cell contents and the border of a specific individual table cell within a table.
+// This example shows how to specify an amount of space which shall be left between the bottom extent of the cell contents and the border of a specific individual table cell within a table.
 
-// How to set cell bottom margin with its fill color.
+// How to set the cell bottom margin for the current table cell.
 
-// Create table and set its cell bottom margin.
+// Specify the bottom margin value for the ApiTableCell object.
 
 var oPresentation = Api.GetPresentation();
 var oTable = Api.CreateTable(2, 4);

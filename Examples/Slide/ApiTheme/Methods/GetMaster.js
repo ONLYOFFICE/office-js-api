@@ -2,7 +2,7 @@
 
 // How to get a master from a theme.
 
-// Get a master and display its class type.
+// Get a theme master and display its class type.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

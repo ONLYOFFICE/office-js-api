@@ -2,7 +2,7 @@
 
 // How to create an element, add it to a shape and insert the shape to the slide.
 
-// Create a shape insert a paragraph to it and then add the shape to the slide.
+// Create a shape, insert a paragraph to it and then add the shape to the slide.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

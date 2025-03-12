@@ -1,6 +1,6 @@
 // This example gets a class type and pastes it into the presentation.
 
-// How get a class type of ApiImage.
+// How to get a class type of ApiImage.
 
 // Retrieve class type of ApiImage object and insert it to the slide.
 

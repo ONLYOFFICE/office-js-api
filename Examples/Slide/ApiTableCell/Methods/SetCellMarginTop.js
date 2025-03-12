@@ -1,8 +1,8 @@
 // This example specifies an amount of space which shall be left between the top extent of the current cell contents and the top edge border of a specific individual table cell within a table.
 
-// How to set cell top margin with its fill color.
+// How to set the cell top margin for the current table cell.
 
-// Create table and set its cell top margin.
+// Specify the top margin value for the ApiTableCell object.
 
 var oPresentation = Api.GetPresentation();
 var oTable = Api.CreateTable(2, 4);

@@ -1,8 +1,8 @@
-// This example shows how to find out whether a text is stroke out with one line.
+// This example shows how to find out whether a text is strikethrough with one line.
 
 // How to know whether a text is crossed with one horizontal line.
 
-// Get a text property of the run and find whether it is stroke out or not.
+// Get the text properties of the run and find whether it is strikethrough or not.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

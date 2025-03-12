@@ -1,6 +1,6 @@
 // This example gets a type of ApiCommentReply class and inserts it into the presentation.
 
-// How get a class type of ApiCommentReply.
+// How to get a class type of ApiCommentReply.
 
 // Retrieve class type of ApiCommentReply object and insert it to the slide.
 

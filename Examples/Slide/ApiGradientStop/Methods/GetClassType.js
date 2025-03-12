@@ -1,6 +1,6 @@
 // This example gets a class type and pastes it into the presentation.
 
-// How get a class type of ApiGradientStop.
+// How to get a class type of ApiGradientStop.
 
 // Retrieve class type of ApiGradientStop object and insert it to the slide.
 

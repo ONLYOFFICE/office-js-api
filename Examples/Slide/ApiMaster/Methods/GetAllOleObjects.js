@@ -1,6 +1,6 @@
 // This example show how to get an array with all the OLE objects from the slide master.
 
-// How to get all OLE objects from the layout of presentation from a master.
+// How to get all OLE objects from the master of presentation.
 
 // Get all OLE objects from the presentation slide master as an array.
 

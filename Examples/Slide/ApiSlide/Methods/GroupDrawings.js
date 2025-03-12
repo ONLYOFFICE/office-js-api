@@ -2,7 +2,7 @@
 
 // How to group two shapes.
 
-// Create new two shapes and group them.
+// Create two ApiShape objects and group them.
 
 let oPresentation = Api.GetPresentation();
 let oSlide = oPresentation.GetSlideByIndex(0);

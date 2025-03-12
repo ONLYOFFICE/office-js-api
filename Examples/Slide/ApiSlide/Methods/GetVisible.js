@@ -1,6 +1,6 @@
 // This example shows how to get visibility property of the slide.
 
-// How to find out whether a slide visible or not.
+// How to find out whether a slide is visible or not.
 
 // Get a slide, set its visibility and show it in the slide.
 

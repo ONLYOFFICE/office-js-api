@@ -1,8 +1,8 @@
-// This example replace text from two paragraphs to another text.
+// This example replaces text from two paragraphs with another text.
 
-// How to replace a substring to another one.
+// How to replace a substring with another one.
 
-// Replace text from an array to another one.
+// Replace text from an array with another one.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

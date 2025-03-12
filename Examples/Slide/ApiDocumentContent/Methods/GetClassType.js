@@ -1,6 +1,6 @@
 // This example gets a class type and pastes it into the presentation.
 
-// How get a class type of ApiDocumentContent.
+// How to get a class type of ApiDocumentContent.
 
 // Retrieve class type of ApiDocumentContent object and insert it to the slide.
 

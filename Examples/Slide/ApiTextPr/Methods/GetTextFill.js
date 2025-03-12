@@ -2,7 +2,7 @@
 
 // How to know a color fill of a text.
 
-// Get a text property of the run and display its font color.
+// Get the text properties of the run and display its font color.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

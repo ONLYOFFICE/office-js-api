@@ -2,7 +2,7 @@
 
 // How to change a text font size.
 
-// Get a text property of the run and set its font size.
+// Get the text properties of the run and set its font size.
 
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);

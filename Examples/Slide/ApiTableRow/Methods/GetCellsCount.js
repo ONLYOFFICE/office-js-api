@@ -2,7 +2,7 @@
 
 // How to return a number of cells from the row.
 
-// Create table, count its cells and display it the slide.
+// Create a table, count its cells and display the number in the slide.
 
 var oPresentation = Api.GetPresentation();
 var oTable = Api.CreateTable(2, 4);

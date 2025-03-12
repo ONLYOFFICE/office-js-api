@@ -1,6 +1,6 @@
 // This example sets the fonts to the current theme font scheme.
 
-// How to set fonts for a theme.
+// How to set fonts to a theme.
 
 // Retrieve theme and set its font theme by adding fonts.
 

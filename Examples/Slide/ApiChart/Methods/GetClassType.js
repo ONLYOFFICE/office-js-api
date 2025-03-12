@@ -1,6 +1,6 @@
 // This example gets a type of ApiChart class and inserts it into the presentation.
 
-// How get a class type of ApiChart.
+// How to get a class type of ApiChart.
 
 // Retrieve class type of ApiChart object and insert it to the slide.
 
