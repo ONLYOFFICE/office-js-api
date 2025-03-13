@@ -1,4 +1,9 @@
 // This example shows how to get element.
+
+// How to get an element from the content of a slide shape.
+
+// Find an element from the shape using its index.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

@@ -1,4 +1,9 @@
 // This example show how to get an array with all the image objects from the slide.
+
+// How to get all images from the slide.
+
+// Get all images from the slide as an array.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

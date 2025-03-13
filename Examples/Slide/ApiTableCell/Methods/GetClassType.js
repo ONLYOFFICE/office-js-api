@@ -1,4 +1,9 @@
 // This example gets a class type and pastes it into the presentation.
+
+// How to get a class type of ApiTableCell.
+
+// Retrieve class type of ApiTableCell object and insert it to the slide.
+
 var oPresentation = Api.GetPresentation();
 var oTable = Api.CreateTable(2, 4);
 var oRow = oTable.GetRow(0);

@@ -1,4 +1,9 @@
 // This example specifies the minor tick mark for the vertical axis.
+
+// How to set a minor tick mark using predefined symbols.
+
+// Create a chart, set its properties and minor tick mark for vertical axis.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

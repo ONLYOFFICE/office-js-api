@@ -1,3 +1,9 @@
+// This example shows how to get a time of a comment creation in UTC.
+
+// How to know when a comment was added.
+
+// Get all comments from the presentation and the first one's time of creation in UTC format.
+
 var oPresentation = Api.GetPresentation();
 Api.pluginMethod_AddComment({"UserName": "John Smith", "Text": "Comment 1"});
 var arrComments = oPresentation.GetAllComments();

@@ -1,4 +1,9 @@
 // This example spicifies tick label position for the horizontal axis.
+
+// How to change a position of tick label.
+
+// Create a chart, set its properties and its horizontal axis tick label position.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

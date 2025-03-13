@@ -1,4 +1,9 @@
-// This example show how to set the fill to the data point.
+// This example shows how to set the fill to the data point.
+
+// How to color a data point.
+
+// Create a chart then color its data points.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

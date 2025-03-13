@@ -1,4 +1,9 @@
 // This example specifies the horizontal axis orientation.
+
+// How to set an orientation of horizontal axis.
+
+// Create a chart, set its properties and its horizontal axis orientation.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

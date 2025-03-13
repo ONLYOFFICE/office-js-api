@@ -1,4 +1,9 @@
 // This example shows how to get an array with all the OLE objects from the slide layout.
+
+// How to get all OLE objects from the layout of presentation.
+
+// Get all OLE objects from the presentation as an array.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

@@ -1,3 +1,9 @@
+// This example shows how to find out whether a text is bold.
+
+// How to know whether a text is set to bold or not.
+
+// Get the text properties of the run and find whether it is bold or not.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

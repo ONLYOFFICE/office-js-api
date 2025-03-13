@@ -1,4 +1,9 @@
 // This example sets the size to the current presentation.
+
+// How to specify the sizes of the current presentation.
+
+// Set the width and height of the ApiPesentation object.
+
 var oPresentation = Api.GetPresentation();
 oPresentation.SetSizes(254 * 36000, 190 * 36000);
 var oSlide = oPresentation.GetSlideByIndex(0);

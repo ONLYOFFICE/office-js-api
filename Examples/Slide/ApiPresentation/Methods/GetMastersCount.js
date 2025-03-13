@@ -1,4 +1,9 @@
 // This example shows how to get a number of slide masters.
+
+// How to get a master count from the presentation.
+
+// Count masters of the presentation.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var nMasters = oPresentation.GetMastersCount();

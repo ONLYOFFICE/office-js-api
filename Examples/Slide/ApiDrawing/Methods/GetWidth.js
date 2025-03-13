@@ -1,4 +1,9 @@
 // This example gets width of shape and inserts it into the presentation.
+
+// How to find a shape's width and display it on the slide.
+
+// Get a slide shape's width.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

@@ -1,4 +1,9 @@
 // This example moves the current slide to a specific location within the same collection.
+
+// How to move a slide to the position index.
+
+// Create a slide and change its position.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = Api.CreateSlide();
 var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);

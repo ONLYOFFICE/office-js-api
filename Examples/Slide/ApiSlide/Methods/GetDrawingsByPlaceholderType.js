@@ -1,4 +1,9 @@
-// This example gets drawings by placeholder type and removes it from slide
+// This example gets drawings by placeholder type and removes it from slide.
+
+// How to get all drawings knowing its placeholder as an array.
+
+// Retrieve drawings with the specified placeholder and delete them.
+
 let oPresentation = Api.GetPresentation();
 let oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

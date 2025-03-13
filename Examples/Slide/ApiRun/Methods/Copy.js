@@ -1,4 +1,9 @@
-// This example reates a copy of the run.
+// This example creates a copy of the run.
+
+// How to copy a text run object and insert it to the paragraph.
+
+// Create a duplicate of a text.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

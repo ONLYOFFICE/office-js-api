@@ -1,3 +1,9 @@
+// This example gets a type of ApiCommentReply class and inserts it into the presentation.
+
+// How to get a class type of ApiCommentReply.
+
+// Retrieve class type of ApiCommentReply object and insert it to the slide.
+
 var oPresentation = Api.GetPresentation();
 Api.pluginMethod_AddComment({"UserName": "John Smith", "Text": "Comment 1"});
 var arrComments = oPresentation.GetAllComments();

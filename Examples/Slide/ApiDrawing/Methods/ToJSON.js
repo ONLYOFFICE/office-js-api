@@ -1,4 +1,9 @@
 // This example converts the shape into JSON.
+
+// How to convert a drawing object to a JSON object.
+
+// Get a shape object from a slide and convert to JSON.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

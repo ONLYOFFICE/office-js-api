@@ -1,3 +1,9 @@
+// This example shows how to get a time of a comment creation.
+
+// How to know when a comment was added.
+
+// Get all comments from the presentation and the first one's time of creation.
+
 var oPresentation = Api.GetPresentation();
 Api.pluginMethod_AddComment({"UserName": "John Smith", "Text": "Comment 1"});
 var arrComments = oPresentation.GetAllComments();

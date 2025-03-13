@@ -1,4 +1,9 @@
 // This example sets the spacing after the paragraph.
+
+// How to set the size of a spacing after a text from a paragraph.
+
+// Change the size property of a spacing after a paragraph.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

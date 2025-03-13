@@ -1,4 +1,9 @@
 // This example shows how to get an array with all the shape objects from the slide layout.
+
+// How to get all shapes from the layout of presentation.
+
+// Get all shapes from the presentation as an array.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

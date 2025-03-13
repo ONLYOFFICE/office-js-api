@@ -1,4 +1,9 @@
 // This example specifies that the contents of the current run are displayed with a single horizontal line through the center of the line.
+
+// How to strike out a text run.
+
+// Create a new text run and set cross it out.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

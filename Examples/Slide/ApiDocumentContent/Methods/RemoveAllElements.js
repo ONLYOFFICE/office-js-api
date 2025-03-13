@@ -1,4 +1,9 @@
 // This example shows how to remove all elements from a shape.
+
+// How to remove all elements from the slide shape.
+
+// Get a slide shape's content and remove all elements from it.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

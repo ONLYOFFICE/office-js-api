@@ -1,4 +1,9 @@
 // This example shows how to get the paragraph properties.
+
+// How to get a paragraph properties and set its spacing size.
+
+// Change paragraph properties.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

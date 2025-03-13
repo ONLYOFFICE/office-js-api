@@ -1,4 +1,9 @@
 // This example sets the border which shall be displayed at the right of the table cell.
+
+// How to set cell right border with its fill color.
+
+// Create table and set its cell right border.
+
 var oPresentation = Api.GetPresentation();
 var oTable = Api.CreateTable(2, 4);
 var oRow = oTable.GetRow(0);

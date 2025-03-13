@@ -1,4 +1,9 @@
 // This example shows how to create a radial gradient fill.
+
+// How to create a radial gradient fill.
+
+// Add a radial gradient fill.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

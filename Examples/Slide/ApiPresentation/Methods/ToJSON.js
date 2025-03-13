@@ -1,4 +1,9 @@
 // This example shows how to convert the ApiPresentation object into the JSON object.
+
+// How to convert the presentation object to JSON objects.
+
+// Get JSON representations of each slide from the presentation.
+
 var oPresentation = Api.GetPresentation();
 var json = oPresentation.ToJSON(true);
 var oPresentationFromJSON = Api.FromJSON(json);

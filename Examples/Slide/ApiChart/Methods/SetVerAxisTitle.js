@@ -1,4 +1,9 @@
 // This example specifies the chart vertical axis title.
+
+// Title the chart's vertical axis.
+
+// Create a chart, set its properties and name its vertical axis title.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

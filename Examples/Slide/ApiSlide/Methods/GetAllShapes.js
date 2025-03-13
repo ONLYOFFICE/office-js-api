@@ -1,4 +1,9 @@
 // This example shows how to get an array with all the shape objects from the slide.
+
+// How to get all shapes from the slide.
+
+// Get all shapes from the slide as an array.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

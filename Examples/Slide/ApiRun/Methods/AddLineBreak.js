@@ -1,4 +1,9 @@
 // This example adds a line break to the run position and starts the next element from a new line.
+
+// How to add a line break after a sentence in a text run.
+
+// How to split a text with a line break.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

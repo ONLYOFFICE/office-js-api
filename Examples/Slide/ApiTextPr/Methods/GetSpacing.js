@@ -1,3 +1,9 @@
+// This example shows how to find out a text is spacing size.
+
+// How to know a text spacing.
+
+// Get the text properties of the run and display its spacing size.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

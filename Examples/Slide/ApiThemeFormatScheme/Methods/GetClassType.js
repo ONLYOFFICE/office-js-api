@@ -1,4 +1,9 @@
 // This example gets a class type and pastes it into the presentation.
+
+// How to get a class type of ApiThemeFormatScheme.
+
+// Retrieve class type of ApiThemeFormatScheme object and insert it to the slide.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

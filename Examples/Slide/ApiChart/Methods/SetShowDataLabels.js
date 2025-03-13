@@ -1,4 +1,9 @@
 // This example specifies which chart data labels are shown for the chart.
+
+// How to show specific chart data labels.
+
+// Create a chart, set its properties and its specific data labels visibility.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

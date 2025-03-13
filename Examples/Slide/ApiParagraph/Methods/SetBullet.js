@@ -1,4 +1,9 @@
 // This example sets the bullet or numbering to the paragraph.
+
+// How to create a bulleted paragraph.
+
+// Create a numbered paragraph.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
