@@ -2,6 +2,6 @@
 
 // How to set a numbering stuff type.
 
-// Set stuff to "space" type to numbering.
+// Set the numbering stuff to "space" type.
 
 numLvl.SetSuff("space");

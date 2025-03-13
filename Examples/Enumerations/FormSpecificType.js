@@ -1,7 +1,9 @@
-// This example returns data of all forms in the document.
+// Set the "text" form type to the first form of the current document.
 
-// How to get all forms data from the document.
+// How to specify the form type.
 
-// Return all data from forms.
+// Create the form data with the "text" form type and set it to the first form in the document.
 
-let formsData = doc.GetFormsData();
+var sFormSpecificType = "text";
+var oFormData = {"key": "CompanyName", "value": "ONLYOFFICE", "type": sFormSpecificType};
+oDocument.SetFormsData([oFormData]);

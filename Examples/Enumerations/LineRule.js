@@ -1,7 +1,7 @@
-// This example sets the paragraph line spacing.
+// This example sets the paragraph line rule.
 
-// How to change a spacing line rule.
+// How to change a line rule of the ApiParagraph object.
 
-// Set paragraph spacing line to exact using defined line rules.
+// Set the paragraph line rule to "exact".
 
 paragraph.SetSpacingLine(200, "exact");

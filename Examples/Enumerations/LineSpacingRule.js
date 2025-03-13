@@ -1,7 +1,7 @@
-// This example gets the paragraph line spacing rule.
+// This example gets the paragraph spacing line rule.
 
-// How to return a spacing line rule.
+// How to get a spacing line rule that determines the measuring units of the line spacing.
 
-// Get paragraph spacing line rule.
+// Return the paragraph spacing line rule of the ApiParagraph object.
 
 let spacingLineRule = paragraph.GetSpacingLineRule();

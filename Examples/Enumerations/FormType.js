@@ -2,6 +2,6 @@
 
 // How to get a form type.
 
-// Return a type from the form.
+// Return a type from the ApiTextForm object.
 
 let formType = textForm.GetFormType();

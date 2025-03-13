@@ -1,4 +1,4 @@
-// Report on all review changes that contains two review records for every user.
+// Specify the form data that can be used to create the form.
 
 // How to create a form data indicating its key and value.
 

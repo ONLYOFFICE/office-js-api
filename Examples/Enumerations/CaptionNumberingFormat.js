@@ -2,6 +2,6 @@
 
 // How to add a caption to the paragraph specifying numbering format.
 
-// Add text captions with parameters and indicating its type.
+// Add a text caption with parameters to the ApiParagraph object and indicate its numbering format.
 
 paragraph.AddCaption("", "Figure", false, "Arabic", false, undefined, "hyphen");

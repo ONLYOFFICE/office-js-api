@@ -2,7 +2,7 @@
 
 // How to create a review report record.
 
-// Create review report records and add them to review record.
+// Create review report records and add them to review report.
 
 let reviewReportRecord1 = {Type: "TextRem", Value: "Hello, Mark!", Date: 1679941734161};
 let reviewReportRecord2 = {Type: "TextAdd", Value: "Dear Mr. Pottato.", Date: 1679941736189};

@@ -1,7 +1,7 @@
-// This example gets a lock value of a shape.
+// This example gets the lock value for the specified lock type of the current drawing.
 
-// How to set a lock value using predefined types.
+// How to get a lock value of the ApiShape object.
 
-// Set a lock value to noSelect.
+// Return a lock value for the "noSelect" lock type.
 
 let lockValue = shape.GetLockValue("noSelect");

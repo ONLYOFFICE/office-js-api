@@ -1,8 +1,8 @@
-// This example creates a combo box form with the specific combo box form properties.
+// Create a picture form with the specific picture form properties.
 
-// How to set a base properties of a picture form.
+// How to create a picture form with its base properties.
 
-// Specify picture form base properties like placeholder, tip text, position, key, etc.
+// Create the base properties and apply them to the ApiPictureForm object.
 
-let comboBoxFormPr = {"editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]};
-let comboBoxForm = Api.CreateComboBoxForm(comboBoxFormPr);
+var oPictureFormPrBase = {"scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false, "shiftX": 50, "shiftY": 50};
+var oPictureForm = Api.CreatePictureForm(oPictureFormPrBase);

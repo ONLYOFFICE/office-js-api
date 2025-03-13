@@ -2,7 +2,7 @@
 
 // How to create a checkbox form with its base properties.
 
-// Create a base property and apply it to the checkbox form.
+// Create the base properties and apply them to the ApiCheckBoxForm object.
 
 let checkBoxFormPrBase = {"radio": true};
 let checkBoxForm = Api.CreateCheckBoxForm(checkBoxFormPrBase)

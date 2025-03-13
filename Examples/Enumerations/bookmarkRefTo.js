@@ -2,6 +2,6 @@
 
 // How to add reference to the bookmarked page.
 
-// Use bookmark reference object to create a cross-reference.
+// Use a bookmark reference object to create a cross-reference.
 
 paragraph.AddBookmarkCrossRef("pageNum", bookmark);

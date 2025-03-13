@@ -2,6 +2,6 @@
 
 // How to return all comment reports.
 
-// Get all reports from all comments.
+// Get a report reports on all ApiComment objects.
 
 let commentsReport = oDocument.GetCommentsReport();

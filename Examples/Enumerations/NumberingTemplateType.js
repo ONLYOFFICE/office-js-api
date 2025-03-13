@@ -2,6 +2,6 @@
 
 // How to set a numbering template type.
 
-// Set template to "A." type to numbering.
+// Set the numbering template of the ApiNumberingLevel object to "A." type.
 
 numLvl.SetTemplateType("A.");

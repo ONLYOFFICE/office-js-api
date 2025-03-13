@@ -1,7 +1,7 @@
-// This example shows how to specify that the range contents will be rotated upward.
+// Set the "0.00" numeric format to the chart data point.
 
-// How to set an orientation of a range.
+// How to use the specified numeric format for the ApiChart object.
 
-// Set a range orientation to "xlUpward" (rotate it).
+// Set the chart data point to the "0.00" numeric format.
 
-worksheet.GetRange("A1").SetOrientation("xlUpward");
+oChart.SetDataPointNumFormat("0.00", 0, 1, true);

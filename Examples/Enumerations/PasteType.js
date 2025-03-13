@@ -1,7 +1,9 @@
-// This example paste data with paste all option.
+// This example paste data with paste all options.
 
 // How to indicate a paste type.
 
-// Paste elements with "xlPasteAll" type.
+// Specifies the part of the range to be pasted.
+
+// Specifies that all the range will be pasted.
 
 range.PasteSpecial("xlPasteAll");
