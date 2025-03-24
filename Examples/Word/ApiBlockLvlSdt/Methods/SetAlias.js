@@ -1,4 +1,9 @@
-// This example sets the alias attribute to the container.
+// This example sets an alias attribute to the container.
+
+// Creates a block content control and sets an alias to it.
+
+// How to set an alias to the ApiBlockLvlSdt object.
+
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();
 blockLvlSdt.GetContent().GetElement(0).AddText("This is a block text content control with alias '№1'.");

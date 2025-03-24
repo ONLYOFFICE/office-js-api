@@ -1,4 +1,11 @@
 // This example creates a Text Art object with the "textArchUp" text transform type.
+
+// Creates a Text Art object using the specified text properties.
+
+// How to create the ApiWordArt object and add it to the first paragraph of the document.
+
+// Creates the empty text properties object and sets the bold property, font size, capitalized letters, color, and font family to it.
+
 let doc = Api.GetDocument();
 let textPr = Api.CreateTextPr();
 textPr.SetFontSize(30);

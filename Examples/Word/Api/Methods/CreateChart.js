@@ -1,4 +1,9 @@
 // This example shows how to create a chart and paste it into the document.
+
+// Creates a "bar3D" chart, adds it to the ApiParagraph class, and fills its series with the created solid fills.
+
+// How to create the ApiChart object and add it to the first paragraph of the document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [
