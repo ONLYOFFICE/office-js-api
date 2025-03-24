@@ -1,4 +1,9 @@
 // This example sets the text properties to the current run.
+
+// How to create the new text properties and apply it to the text run.
+
+// Create a new text run and set its properties like font size, color, etc.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let run = Api.CreateRun();

@@ -1,4 +1,9 @@
 // This example shows how to get the user ID of the comment reply author.
+
+// How to get ID of the user who left the first reply to the first comment.
+
+// Get the comment reply author ID.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is just a sample text");

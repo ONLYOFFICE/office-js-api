@@ -1,4 +1,9 @@
 // This example gets all series of ApiChart class and inserts their types into the document.
+
+// How to get all series from the chart and show each one's type in the document.
+
+// Display each chart series type in the document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("comboBarLine", [

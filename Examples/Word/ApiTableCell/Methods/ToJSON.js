@@ -1,4 +1,9 @@
 // This example converts the ApiTableCellPr object into the JSON object.
+
+// How to get a JSON from the table cell object.
+
+// Convert the cell to json and add it to the document.
+
 let doc = Api.GetDocument();
 let table = Api.CreateTable(3, 3);
 doc.Push(table);

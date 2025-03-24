@@ -1,4 +1,9 @@
 // This example sets the outline to the chart plot area.
+
+// How to set an outline color for the plot area.
+
+// Create a chart, set its properties and its plot area outline.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

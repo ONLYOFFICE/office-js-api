@@ -1,4 +1,9 @@
 // This example specifies the minor tick mark for the horizontal axis.
+
+// How to change a tickmark of a minor horizontal axis.
+
+// Create a chart and set its minor horizontal axis tickmark as a out symbol.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("scatter", [

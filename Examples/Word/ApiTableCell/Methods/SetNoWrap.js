@@ -1,4 +1,9 @@
 // This example specifies how the table cell is laid out when the parent table is displayed in a document.
+
+// Create a table cell where text is not wrapped when we try to change table width.
+
+// Set no wrap property to the table cell.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

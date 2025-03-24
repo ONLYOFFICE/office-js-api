@@ -1,4 +1,9 @@
 // This example adds a caption cross-reference to the paragraph.
+
+// How to create a caption reference to the paragraph.
+
+// Add a cross-reference to the caption of the paragraph.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let drawing = Api.CreateImage("https://static.onlyoffice.com/assets/docs/samples/img/onlyoffice_logo.png", 60 * 36000, 35 * 36000);

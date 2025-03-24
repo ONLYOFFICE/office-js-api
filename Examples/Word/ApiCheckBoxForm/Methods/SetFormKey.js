@@ -1,4 +1,9 @@
 // This example sets a key to the current form.
+
+// How to set a form key.
+
+// Set a key to the form.
+
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": false});
 checkBoxForm.SetFormKey("Marital status 1");

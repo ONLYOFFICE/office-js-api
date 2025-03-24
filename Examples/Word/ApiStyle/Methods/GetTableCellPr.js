@@ -1,4 +1,9 @@
 // This example shows how to get the table cell properties of the style.
+
+// How to get table cell properties and add shading to it.
+
+// Update the table cell background.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 let table = Api.CreateTable(2, 3);

@@ -1,4 +1,9 @@
 // This example specifies a one-based index which determines when a numbering level should restart to its starting value.
+
+// How to restart the numbering.
+
+// Reset the numbering of the bulleted text.
+
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("numbered");
 let numLvl = numbering.GetLevel(0);

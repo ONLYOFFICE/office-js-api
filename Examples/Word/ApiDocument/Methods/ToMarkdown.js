@@ -1,4 +1,9 @@
 // This example converts a document to Markdown.
+
+// How to get a markdown object from the document content.
+
+// Convert the document to markdown.
+
 let doc = Api.GetDocument();
 let paragraph1 = doc.GetElement(0);
 paragraph1.AddText("Heading 1");

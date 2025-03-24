@@ -1,4 +1,9 @@
 // This example specifies the shading applied to the contents of the paragraph.
+
+// How to add shading to the paragraph.
+
+// Apply the clear shading to the paragraph.
+
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");
 let paraPr = myStyle.GetParaPr();

@@ -1,4 +1,9 @@
 // This example converts the ApiDocument object into the JSON object.
+
+// How to get a JSON object from the document content.
+
+// Convert the document to json file.
+
 let doc = Api.GetDocument();
 let json = doc.ToJSON(true, true, true, true, true, true);
 let docFromJSON = Api.FromJSON(json);

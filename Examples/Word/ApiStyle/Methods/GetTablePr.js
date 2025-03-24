@@ -1,4 +1,9 @@
 // This example shows how to get the table properties of the style.
+
+// How to get table properties and set its cells margins.
+
+// Update the table cell margin sizes.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 let table = Api.CreateTable(2, 2);

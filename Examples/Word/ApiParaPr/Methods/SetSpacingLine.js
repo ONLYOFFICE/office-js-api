@@ -1,4 +1,9 @@
 // This example sets the paragraph line spacing.
+
+// How to set the size of a spacing line from a paragraph properties.
+
+// Change a spacing line size property of a paragraph properties.
+
 let doc = Api.GetDocument();
 let myStyle1 = doc.CreateStyle("My document style #1");
 let paraPr = myStyle1.GetParaPr();

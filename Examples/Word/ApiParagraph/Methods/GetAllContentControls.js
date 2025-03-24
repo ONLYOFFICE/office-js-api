@@ -1,4 +1,9 @@
 // This example shows how to get a collection of content control objects in the paragraph.
+
+// How to retrieve all content controls from the document.
+
+// Get all content controls and show the class type of the first one.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let inlineLvlSdt = Api.CreateInlineLvlSdt();

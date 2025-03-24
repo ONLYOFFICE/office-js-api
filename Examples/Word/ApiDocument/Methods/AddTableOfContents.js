@@ -1,4 +1,9 @@
 // This example adds a table of content to the document.
+
+// How to add headings to the document and generate a table of contents.
+
+// Insert a table of contents specifying its properties.
+
 let doc = Api.GetDocument();
 let newDocumentStyle = doc.GetStyle("Heading 1");
 let paragraph = doc.GetElement(0);

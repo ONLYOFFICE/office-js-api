@@ -1,4 +1,9 @@
 // This example sets a style to the run.
+
+// How to update the style of the text run.
+
+// Create a new style and apply it to the run.
+
 let doc = Api.GetDocument();
 let myNewRunStyle = doc.CreateStyle("My New Run Style", "run");
 let textPr = myNewRunStyle.GetTextPr();

@@ -1,4 +1,9 @@
 // This example specifies the minimum distance which will be maintained between the edges of the drawing object and any subsequent text.
+
+// How to create drawings and set the distance between them.
+
+// Create a rectangle, square and set the minimum distance between them.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is a paragraph with a shape. ");

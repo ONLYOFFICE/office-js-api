@@ -1,4 +1,9 @@
 // This example returns a new range that goes beyond the specified range in any direction and spans a different range.
+
+// How to expand the first range to the second one.
+
+// Create a range and make it cover a different area.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("Lorem ipsum dolor sit amet,");

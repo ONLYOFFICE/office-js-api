@@ -1,4 +1,9 @@
 // This example converts the table object into the JSON object.
+
+// How to get a JSON from the table object.
+
+// Convert the table to json and add it to the document.
+
 let doc = Api.GetDocument();
 let table = Api.CreateTable(3, 3);
 let json = table.ToJSON(false, true);

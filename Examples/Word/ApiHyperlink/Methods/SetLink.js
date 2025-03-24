@@ -1,4 +1,9 @@
 // This example sets the hyperlink address.
+
+// How to change the link address of the hyperlink object.
+
+// Set link of the hyperlink.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let run = Api.CreateRun();

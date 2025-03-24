@@ -1,4 +1,9 @@
 // This example replaces a drawing with a new drawing.
+
+// How to change the image to another one.
+
+// Add the new drawing instead of another one.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let oldDrawing = Api.CreateChart("bar3D", [

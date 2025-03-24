@@ -1,4 +1,9 @@
 // This example specifies the chart horizontal axis title.
+
+// How to change a position of a horizontal axis title.
+
+// Create a chart and move its horizontal axis title.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

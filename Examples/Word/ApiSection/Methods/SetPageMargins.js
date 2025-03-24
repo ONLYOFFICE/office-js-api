@@ -1,4 +1,9 @@
 // This example specifies the page margins for all the pages in this section.
+
+// How to set page margins.
+
+// Update the margins of the page.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is a page with margins set. ");

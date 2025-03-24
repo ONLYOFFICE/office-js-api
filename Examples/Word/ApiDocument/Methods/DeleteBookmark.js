@@ -1,4 +1,9 @@
 // This example removes a bookmark from the document.
+
+// How to delete a bookmark knowing its name.
+
+// Remove the bookmark from the range.
+
 let doc = Api.GetDocument(); 
 let paragraph = doc.GetElement(0); 
 paragraph.AddText("ONLYOFFICE Document Builder "); 

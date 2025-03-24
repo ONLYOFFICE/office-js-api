@@ -1,4 +1,9 @@
 // This example shows how to get the comment reply text.
+
+// How to get a raw text of a comment reply.
+
+// Get all comments from the presentation, get the first one's reply and return its text.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is just a sample text");

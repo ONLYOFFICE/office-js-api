@@ -1,4 +1,9 @@
 // This example shows how to get a table that contains the run.
+
+// Get a parent table of the text.
+
+// How to remove the row of the table that contains a text run.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

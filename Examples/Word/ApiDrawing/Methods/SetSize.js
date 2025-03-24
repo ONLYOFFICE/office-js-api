@@ -1,4 +1,9 @@
 // This example sets the size of the shape bounding box.
+
+// How to resize the drawing.
+
+// Set the height and the width of the shape. 
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is a paragraph with a shape. ");

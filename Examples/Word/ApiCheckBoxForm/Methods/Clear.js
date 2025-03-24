@@ -1,4 +1,9 @@
 // This example clears the form.
+
+// How to remove check from the checkbox form.
+
+// Clear answer from the checkbox form.
+
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});
 let paragraph = doc.GetElement(0);

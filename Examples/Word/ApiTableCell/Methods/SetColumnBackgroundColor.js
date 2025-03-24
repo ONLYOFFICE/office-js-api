@@ -1,4 +1,9 @@
 // This example sets the background color to all cells in the column containing the cell.
+
+// How to color the cell column background.
+
+// Set the rose color as a background color of the cell column.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

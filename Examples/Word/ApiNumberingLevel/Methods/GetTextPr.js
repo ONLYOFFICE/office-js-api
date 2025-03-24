@@ -1,4 +1,9 @@
 // This example shows how to get the text properties which will be applied to the text in the numbering level itself, not to the text in the subsequent paragraph.
+
+// How to retrieve the text properties of the numbering.
+
+// Update text properties of the numbering.
+
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("numbered");
 let numLvl = numbering.GetLevel(0);

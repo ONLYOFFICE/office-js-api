@@ -1,4 +1,9 @@
 // This example adds a table of figures to the current document.
+
+// How to add drawings to the document and generate a table of figures.
+
+// Insert a table of figures specifying its properties.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let drawing = Api.CreateChart("bar3D", [

@@ -1,4 +1,9 @@
 // This example sets the absolute measurement for the horizontal positioning of the floating object.
+
+// How to set the horizontal position property of the shape.
+
+// Create a drawing, add text to it and set its horizontal position.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is a paragraph with a shape. ");

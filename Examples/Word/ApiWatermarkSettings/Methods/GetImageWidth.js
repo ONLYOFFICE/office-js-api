@@ -1,4 +1,9 @@
 // This example sets the parameters of the watermark settings and apply them to the document.
+
+// How to get the width of the image. 
+
+// Get the watermark image width.
+
 let doc = Api.GetDocument();
 let watermarkSettings = doc.GetWatermarkSettings();
 watermarkSettings.SetType("image");

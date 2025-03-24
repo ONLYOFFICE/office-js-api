@@ -1,4 +1,9 @@
 // This example removes all the elements from the current paragraph.
+
+// How to delete the paragraph.
+
+// Delete all ellements from the paragraph.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let run = Api.CreateRun();

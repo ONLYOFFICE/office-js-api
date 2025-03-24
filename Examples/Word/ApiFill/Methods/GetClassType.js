@@ -1,4 +1,9 @@
 // This example gets a class type and inserts it into the document.
+
+// How get a class type of ApiFill.
+
+// Retrieve class type of a created radial gradient fill and display it.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let gs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);

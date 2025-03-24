@@ -1,4 +1,9 @@
 // This example shows how to make search in table.
+
+// How to search throughout the table.
+
+// Get a table, search information using value, position, order, etc.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

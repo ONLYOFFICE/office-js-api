@@ -1,4 +1,9 @@
 // This example shows how to get all the selected drawings in the current document.
+
+// How to get the drawing selected on the document.
+
+// Select a drawing and make it bigger.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));

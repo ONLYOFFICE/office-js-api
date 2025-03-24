@@ -1,4 +1,9 @@
 // This example specifies the chart legend position.
+
+// How to set legend position of the chart.
+
+// Create a chart and move its legend to the bottom.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

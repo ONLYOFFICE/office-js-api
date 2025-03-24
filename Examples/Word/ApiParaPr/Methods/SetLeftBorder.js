@@ -1,4 +1,9 @@
 // This example specifies the border which will be displayed at the left side of the page around the specified paragraph.
+
+// How to add border to the left side of the paragraph.
+
+// Add left single border.
+
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");
 let paraPr = myStyle.GetParaPr();

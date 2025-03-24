@@ -1,4 +1,9 @@
 // This example specifies if the form should be required.
+
+// How to make the form required.
+
+// Require a form in the document.
+
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "placeholder": "Marital status", "radio": true});
 let paragraph = doc.GetElement(0);

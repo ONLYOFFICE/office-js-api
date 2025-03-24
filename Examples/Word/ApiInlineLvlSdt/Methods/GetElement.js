@@ -1,4 +1,9 @@
 // This example shows how to get an element of the inline text content control using the position specified.
+
+// Get the element of the inline text control, make it bold.
+
+// How to get the n^th element of the inline control.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let inlineLvlSdt = Api.CreateInlineLvlSdt();

@@ -1,4 +1,9 @@
 // This example removes all contents of the shape and adds a new paragraph inside it.
+
+// Insert an element to the document.
+
+// Push the paragraph to the content of the document. 
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));

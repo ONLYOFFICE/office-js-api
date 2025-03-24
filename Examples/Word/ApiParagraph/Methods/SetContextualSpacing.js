@@ -1,4 +1,9 @@
 // This example specifies that any space before or after the paragraph.
+
+// Set the contextual spacing for paragraph.
+
+// Get the first paragraph and set the spacing for its two ends.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is a paragraph with contextual spacing set to 'false'.");

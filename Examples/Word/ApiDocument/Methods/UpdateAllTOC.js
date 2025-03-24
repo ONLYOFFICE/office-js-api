@@ -1,4 +1,9 @@
 // This example updates all tables of contents in the current document.
+
+// How to update all table of contents.
+
+// Edit document content and update the table of contents.
+
 let doc = Api.GetDocument();
 let newDocumentStyle = doc.GetStyle("Heading 1");
 let paragraph = doc.GetElement(0);

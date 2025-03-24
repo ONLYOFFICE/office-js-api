@@ -1,4 +1,9 @@
 // This example removes an element using the position specified.
+
+// How to delete the paragraph from the document.
+
+// Remove the second element of the document.
+
 let doc = Api.GetDocument();
 let paragraph0 = doc.GetElement(0);
 paragraph0.AddText("This is paragraph #1.");

@@ -1,4 +1,9 @@
 // This example inserts a paragraph at the specified position.
+
+// How to insert the paragraph object into the another element.
+
+// Add paragraph to the content control.
+
 let doc = Api.GetDocument();
 let paragraph1 = doc.GetElement(0);
 paragraph1.AddText("This is just a sample text.");

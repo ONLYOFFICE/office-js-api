@@ -1,4 +1,9 @@
 // This example shows how to get the next inline shape.
+
+// How to get next shape from the current one.
+
+// Color the next shape with a solid fill.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let gs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);

@@ -1,4 +1,9 @@
 // This example gets a class type and pastes it into the presentation.
+
+// How to get a class type of ApiUniColor.
+
+// Retrieve class type of ApiUniColor object and insert it to the document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let presetColor = Api.CreatePresetColor("peachPuff");

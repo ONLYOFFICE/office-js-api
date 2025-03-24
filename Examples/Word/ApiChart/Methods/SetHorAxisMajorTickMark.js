@@ -1,4 +1,9 @@
 // This example specifies the major tick mark "cross" for the horizontal axis.
+
+// How to change a tickmark of a major horizontal axis.
+
+// Create a chart and set its major horizontal axis tickmark as a cross symbol.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("scatter", [

@@ -1,4 +1,9 @@
 // This example sets the vertical alignment to the table.
+
+// How to indicate the vertical alignment of the table cell.
+
+// Align the content of the table as bottom.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("The table was added to the bottom of the page. Scroll down to see it."); 

@@ -1,4 +1,9 @@
 // This example shows how to get a comment from the document by its ID.
+
+// Search the comment by its ID.
+
+// Get comment author knowing its ID.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is just a sample text");

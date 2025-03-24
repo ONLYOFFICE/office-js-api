@@ -1,4 +1,9 @@
 // This example sets the outline to the specified chart series.
+
+// How to outline a chart seria.
+
+// Create a chart, set its properties and its series outline.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

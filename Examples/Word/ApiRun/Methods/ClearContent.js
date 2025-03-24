@@ -1,4 +1,9 @@
 // This example clears the content from the run.
+
+// How to delete a text from the run object.
+
+// Remove the text from the run. 
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let run = Api.CreateRun();

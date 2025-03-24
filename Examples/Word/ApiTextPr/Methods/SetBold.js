@@ -1,4 +1,9 @@
 // This example sets the bold property to the text character.
+
+// How to make a text bold.
+
+// Get a font object of characters and make it bold.
+
 let doc = Api.GetDocument();
 let textPr = doc.GetDefaultTextPr();
 textPr.SetBold(true);

@@ -1,4 +1,9 @@
 // This example specifies the chart vertical axis title.
+
+// Title the chart's vertical axis.
+
+// Create a chart, set its properties and name its vertical axis title.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

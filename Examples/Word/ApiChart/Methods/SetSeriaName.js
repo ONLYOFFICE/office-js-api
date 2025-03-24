@@ -1,3 +1,9 @@
+// This example sets a name for a seria of a chart.
+
+// How to rename a chart seria.
+
+// Create a chart, set its properties and its series names.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

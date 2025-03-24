@@ -1,4 +1,9 @@
 // This example specifies the distance from the top edge of the page to the top edge of the header.
+
+// How to set header distance of the section.
+
+// Specify the distance between the page end and the header.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is a page with a header. ");

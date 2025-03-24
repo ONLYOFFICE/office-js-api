@@ -1,4 +1,9 @@
-// This example shows how to get mail merge receptions count.
+// This example shows how to get the mail merge receptions count.
+
+// Wraps the text runs in the mail merge fields, loads the mail merge data into the document and counts the mail merge receptions.
+
+// Returns a number of the mail merge receptions.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fields = ["Greeting line", "First name", "Last name"];

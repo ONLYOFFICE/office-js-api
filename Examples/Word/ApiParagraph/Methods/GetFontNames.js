@@ -1,4 +1,9 @@
 // This example shows how to get all font names from all elements inside the paragraph.
+
+// How to get the font names of the paragraph.
+
+// Print all font names separated by a colon.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let run = Api.CreateRun();

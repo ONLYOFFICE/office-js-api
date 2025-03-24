@@ -1,4 +1,9 @@
 // This example applies the text settings to the entire contents of the cell.
+
+// Set text properties to the table cell.
+
+// Make the table cell bold and with bigger font.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

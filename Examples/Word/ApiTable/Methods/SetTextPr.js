@@ -1,4 +1,9 @@
 // This example applies the text settings to the entire contents of the table.
+
+// How to create a text properties and apply it to the table.
+
+// Create a table and make its text bold and bigger.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
