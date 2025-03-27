@@ -1,5 +1,5 @@
-var oToolbarMenuTab = {
+let toolbarMenuTab = {
     "id": "ChatGPT",
     "text": "AI Assistant",
-    "items": [oToolbarMenuItem]
+    "items": [toolbarMenuItem]
 };

@@ -1,6 +1,6 @@
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.GAUSS(2);
-oWorksheet.GetRange("B2").SetValue(ans);
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+let ans = func.GAUSS(2);
+worksheet.GetRange("B2").SetValue(ans);
 

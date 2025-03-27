@@ -1,11 +1,11 @@
 // This example gets a class type and inserts it into the document.
-var oDocument = Api.GetDocument();
-var oTableStyle = oDocument.GetStyle("Bordered");
-oTableStyle.SetName("My Custom Style");
-var oTable = Api.CreateTable(2, 2);
-oTable.SetWidth("percent", 100);
-oTable.SetStyle(oTableStyle);
-oDocument.Push(oTable);
-var sClassType = oTableStyle.GetClassType();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("Class Type = " + sClassType);
+let doc = Api.GetDocument();
+let tableStyle = doc.GetStyle("Bordered");
+tableStyle.SetName("My Custom Style");
+let table = Api.CreateTable(2, 2);
+table.SetWidth("percent", 100);
+table.SetStyle(tableStyle);
+doc.Push(table);
+let classType = tableStyle.GetClassType();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("Class Type = " + classType);

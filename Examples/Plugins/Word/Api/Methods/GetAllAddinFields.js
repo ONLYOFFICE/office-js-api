@@ -1,6 +1,6 @@
-window.Asc.plugin.executeMethod("GetAllAddinFields", null, function(arrFields) {
+window.Asc.plugin.executeMethod("GetAllAddinFields", null, function(fields) {
 	let count = 0;
-	arrFields.forEach(function(field) {
+	fields.forEach(function(field) {
 		if (field.Value.includes(bibPrefix) || field.Value.includes(citPrefix)) {
 			count++;
 			window.Asc.plugin.executeMethod("RemoveFieldWrapper", [field.FieldId], function() {
@@ -11,6 +11,6 @@ window.Asc.plugin.executeMethod("GetAllAddinFields", null, function(arrFields) {
 		}
 	});
 
-	if (!arrFields.length)
+	if (!fields.length)
 		window.Asc.plugin.executeCommand("close", "");
 });

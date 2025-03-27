@@ -1,9 +1,9 @@
 // This example sets a style to the table.
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("We create a table and apply one of the existing styles to it:");
-var oTableStyle = oDocument.GetStyle("Bordered");
-var oTable = Api.CreateTable(2, 2);
-oTable.SetWidth("percent", 100);
-oTable.SetStyle(oTableStyle);
-oDocument.Push(oTable);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("We create a table and apply one of the existing styles to it:");
+let tableStyle = doc.GetStyle("Bordered");
+let table = Api.CreateTable(2, 2);
+table.SetWidth("percent", 100);
+table.SetStyle(tableStyle);
+doc.Push(table);

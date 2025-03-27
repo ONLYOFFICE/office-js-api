@@ -1,4 +1,4 @@
-var comment = {
+let comment = {
     "Id": "1_631",
     "Data": {
         "UserName": "John Smith",

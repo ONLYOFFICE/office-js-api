@@ -1,6 +1,6 @@
 // This example specifies a highlighting color which is added to the text properties and applied as a background to the contents of the current run/range/paragraph.
-var oDocument = Api.GetDocument();
-var oTextPr = oDocument.GetDefaultTextPr();
-oTextPr.SetHighlight("lightGray");
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("A sample text highlighted with light gray color using the text properties.");
+let doc = Api.GetDocument();
+let textPr = doc.GetDefaultTextPr();
+textPr.SetHighlight("lightGray");
+let paragraph = doc.GetElement(0);
+paragraph.AddText("A sample text highlighted with light gray color using the text properties.");

@@ -1,6 +1,6 @@
 // This example specifies that the contents of the current Range are displayed with a single horizontal line through the range center.
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("ONLYOFFICE Document Server Builder");
-var oRange = oDocument.GetRange(18, 23);
-oRange.SetStrikeout(true);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("ONLYOFFICE Document Server Builder");
+let range = doc.GetRange(18, 23);
+range.SetStrikeout(true);

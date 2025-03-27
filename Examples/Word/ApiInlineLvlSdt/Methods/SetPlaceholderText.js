@@ -1,6 +1,6 @@
 // This example sets the placeholder text to the inline content control.
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oInlineLvlSdt = Api.CreateInlineLvlSdt();
-oParagraph.AddInlineLvlSdt(oInlineLvlSdt);
-oInlineLvlSdt.SetPlaceholderText("Custom placeholder");
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let inlineLvlSdt = Api.CreateInlineLvlSdt();
+paragraph.AddInlineLvlSdt(inlineLvlSdt);
+inlineLvlSdt.SetPlaceholderText("Custom placeholder");

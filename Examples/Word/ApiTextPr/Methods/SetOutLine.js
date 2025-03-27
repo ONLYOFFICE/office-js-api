@@ -1,13 +1,12 @@
-// This example sets the text outline to the current text run
-var oDocument = Api.GetDocument();
-var oStroke = Api.CreateStroke(0.2 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51)));
-var oTextPr = oDocument.GetDefaultTextPr();
-oTextPr.SetOutLine(oStroke);
-var oParagraph = oDocument.GetElement(0);
-var oRun = Api.CreateRun();
-oRun.AddText("This is just a sample text. ");
-oParagraph.AddElement(oRun);
-oRun = Api.CreateRun();
-oRun.AddText("This is a text run with the black text outline.");
-oRun.SetTextPr(oTextPr);
-oParagraph.AddElement(oRun);
+// In this example, the WordArt text has a text outline.
+let doc = Api.GetDocument();
+let textPr = Api.CreateTextPr();
+textPr.SetFontSize(30);
+textPr.SetBold(true);
+textPr.SetCaps(true);
+textPr.SetOutLine(Api.CreateStroke(0.2 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51))));
+textPr.SetTextFill(Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61)));
+textPr.SetFontFamily("Comic Sans MS");
+let textArt = Api.CreateWordArt(textPr, "onlyoffice", "textArchUp", null, null, 0, 150 * 36000, 50 * 36000);
+let paragraph = doc.GetElement(0);
+paragraph.AddDrawing(textArt);

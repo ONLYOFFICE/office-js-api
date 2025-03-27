@@ -1,13 +1,13 @@
 // This example clears the content from the cell.
-var oDocument = Api.GetDocument();
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-var oTable = Api.CreateTable(3, 3);
-oTable.SetWidth("percent", 100);
-oTable.SetStyle(oTableStyle);
-oTable.GetCell(0, 0).GetContent().GetElement(0).AddText("This is just a sample text.");
-oDocument.Push(oTable);
-oTable.GetCell(0, 0).Clear();
-var oParagraph = Api.CreateParagraph();
-oParagraph.AddText("The content of the table cell was cleared.");
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
+let table = Api.CreateTable(3, 3);
+table.SetWidth("percent", 100);
+table.SetStyle(tableStyle);
+table.GetCell(0, 0).GetContent().GetElement(0).AddText("This is just a sample text.");
+doc.Push(table);
+table.GetCell(0, 0).Clear();
+let paragraph = Api.CreateParagraph();
+paragraph.AddText("The content of the table cell was cleared.");
+doc.Push(paragraph);

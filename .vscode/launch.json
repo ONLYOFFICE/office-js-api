@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run single test",
+            "type": "debugpy",
+            "request": "launch",
+            "cwd": "${cwd}/../Dep.Tests/docbuilder-docs/scripts",
+            "program": "check.py",
+            "args": ["--test_file", "${file}"]
+        },
+        {
+            "name": "Run all tests",
+            "type": "debugpy",
+            "request": "launch",
+            "cwd": "${cwd}/../Dep.Tests/docbuilder-docs/scripts",
+            "program": "check.py"
+        }
+    ]
+}

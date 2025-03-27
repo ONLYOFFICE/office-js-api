@@ -1,10 +1,10 @@
 // This example returns a text from the text run.
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oRun = Api.CreateRun();
-oRun.AddText("\tThis is a text run");
-oParagraph.AddElement(oRun);
-var sText = oRun.GetText({"NewLineSeparator": "\r", "TabSymbol": "\t"});
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("The text of the specified run: " + sText);
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let run = Api.CreateRun();
+run.AddText("\tThis is a text run");
+paragraph.AddElement(run);
+let text = run.GetText({"NewLineSeparator": "\r", "TabSymbol": "\t"});
+paragraph = Api.CreateParagraph();
+paragraph.AddText("The text of the specified run: " + text);
+doc.Push(paragraph);

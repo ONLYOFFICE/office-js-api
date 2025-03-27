@@ -1,29 +1,29 @@
 window.Asc.plugin.executeMethod("GetDocumentLang", [], function(lang) {
 	let documentLang = lang || defaultLang;
 
-	let aOptions = Array.from($('#custom_menu option'));
-	let oDefaultOption = aOptions.find(function(item) {
+	let options = Array.from($('#custom_menu option'));
+	let defaultOption = options.find(function(item) {
 		if (item.value == defaultLang)
 			return item;
 	});
 
-	let oMatchOption = undefined;
-	oMatchOption = aOptions.find(function(item) {
+	let matchOption = undefined;
+	matchOption = options.find(function(item) {
 		if (item.value == documentLang)
 			return true;
 	});
-	if (!oMatchOption) {
-		oMatchOption = aOptions.find(function(item) {
+	if (!matchOption) {
+		matchOption = options.find(function(item) {
 			if (item.value.search(documentLang.split('-')[0]) != -1)
 				return true;
 		});
 	}
 
-	if (!oMatchOption)
-		oMatchOption = oDefaultOption;
+	if (!matchOption)
+		matchOption = defaultOption;
 
-	if (oMatchOption) {
-		$('#custom_menu').val(oMatchOption.value);
+	if (matchOption) {
+		$('#custom_menu').val(matchOption.value);
 		$('#custom_menu').trigger('change');
 	}
 });

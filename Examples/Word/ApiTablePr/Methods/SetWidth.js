@@ -1,11 +1,11 @@
 // This example sets the preferred width to the table.
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("We set the table cells to preserve their size:");
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-var oTablePr = oTableStyle.GetTablePr();
-var oTable = Api.CreateTable(3, 3);
-oTablePr.SetWidth("percent", 100);
-oTable.SetStyle(oTableStyle);
-oDocument.Push(oTable);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("We set the table cells to preserve their size:");
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
+let tablePr = tableStyle.GetTablePr();
+let table = Api.CreateTable(3, 3);
+tablePr.SetWidth("percent", 100);
+table.SetStyle(tableStyle);
+doc.Push(table);

@@ -1,4 +1,4 @@
-var oFontInfo = {
+let fontInfo = {
     "m_wsFontName": "Open Sans",
     "m_wsFontPath": "OpenSans-Bold.ttf",
     "m_lIndex": 0,

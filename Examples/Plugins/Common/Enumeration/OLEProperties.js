@@ -1,4 +1,4 @@
-var oOLEProperties = {
+let oleProperties = {
     "data": "{data}",
     "imgSrc": "https://link-to-the-image.jpg",
     "guid": "asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}",

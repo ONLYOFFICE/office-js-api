@@ -1,13 +1,13 @@
 // This example showh how to get the alias attribute for the container.
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oInlineLvlSdt = Api.CreateInlineLvlSdt();
-var oRun = Api.CreateRun();
-oRun.AddText("This is an inline text content control with alias '№1'.");
-oInlineLvlSdt.AddElement(oRun, 0);
-oInlineLvlSdt.SetAlias("№1");
-oParagraph.AddInlineLvlSdt(oInlineLvlSdt);
-var oAlias = oInlineLvlSdt.GetAlias();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Alias: " + oAlias);
-oDocument.Push(oParagraph);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let inlineLvlSdt = Api.CreateInlineLvlSdt();
+let run = Api.CreateRun();
+run.AddText("This is an inline text content control with alias '№1'.");
+inlineLvlSdt.AddElement(run, 0);
+inlineLvlSdt.SetAlias("№1");
+paragraph.AddInlineLvlSdt(inlineLvlSdt);
+let alias = inlineLvlSdt.GetAlias();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Alias: " + alias);
+doc.Push(paragraph);

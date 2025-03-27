@@ -1,2 +1,2 @@
 // This example sets vertical align "subscript" for paragraph.
-oParagraph.SetVertAlign("subscript");
+paragraph.SetVertAlign("subscript");

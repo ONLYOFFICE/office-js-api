@@ -1,2 +1,2 @@
 // This example returns a type of the current form.
-var sFormType = oTextForm.GetFormType();
+let formType = textForm.GetFormType();

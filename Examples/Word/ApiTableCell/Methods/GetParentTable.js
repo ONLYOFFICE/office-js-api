@@ -1,11 +1,11 @@
 // This example shows how to get a parent table of the cell.
-var oDocument = Api.GetDocument();
-var oTableStyle = oDocument.CreateStyle("CustomTableStyle", "table");
-oTableStyle.SetBasedOn(oDocument.GetStyle("Bordered"));
-var oTable = Api.CreateTable(3, 3);
-oTable.SetWidth("percent", 100);
-oTable.SetStyle(oTableStyle);
-oDocument.Push(oTable);
-oTable.GetCell(0, 0).GetContent().GetElement(0).AddText("Cell 1");
-var oParentTable = oTable.GetCell(0, 0).GetParentTable();
-oParentTable.SetTableBorderTop("single", 32, 0, 51, 51, 51);
+let doc = Api.GetDocument();
+let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
+tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
+let table = Api.CreateTable(3, 3);
+table.SetWidth("percent", 100);
+table.SetStyle(tableStyle);
+doc.Push(table);
+table.GetCell(0, 0).GetContent().GetElement(0).AddText("Cell 1");
+let parentTable = table.GetCell(0, 0).GetParentTable();
+parentTable.SetTableBorderTop("single", 32, 0, 51, 51, 51);

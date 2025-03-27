@@ -1,4 +1,4 @@
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue(oFunction.ISREF("A3"));
-oWorksheet.GetRange("A2").SetValue(oFunction.ISREF(oWorksheet.GetRange("A3")));
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue(func.ISREF("A3"));
+worksheet.GetRange("A2").SetValue(func.ISREF(worksheet.GetRange("A3")));

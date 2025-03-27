@@ -1,14 +1,14 @@
 // This example shows how to get a collection of shape objects from the document.
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);
-var oGs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);
-var oFill = Api.CreateLinearGradientFill([oGs1, oGs2], 5400000);
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oDrawing1 = Api.CreateShape("rect", 3212465, 963295, oFill, oStroke);
-oParagraph.AddDrawing(oDrawing1);
-var oDrawing2 = Api.CreateShape("wave", 3212465, 963295, oFill, oStroke);
-oParagraph.AddDrawing(oDrawing2);
-var aDrawings = oDocument.GetAllShapes();
-oFill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
-aDrawings[1].Fill(oFill);
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let gs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);
+let gs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);
+let fill = Api.CreateLinearGradientFill([gs1, gs2], 5400000);
+let stroke = Api.CreateStroke(0, Api.CreateNoFill());
+let drawing1 = Api.CreateShape("rect", 3212465, 963295, fill, stroke);
+paragraph.AddDrawing(drawing1);
+let drawing2 = Api.CreateShape("wave", 3212465, 963295, fill, stroke);
+paragraph.AddDrawing(drawing2);
+let drawings = doc.GetAllShapes();
+fill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
+drawings[1].Fill(fill);

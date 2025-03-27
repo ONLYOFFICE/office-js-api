@@ -12,5 +12,5 @@ Api.AddCustomFunctionLibrary("LibraryName", function(){
     });
 });
 
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.GetRange('A1').SetValue('=ADD(1,2)');
+let worksheet = Api.GetActiveSheet();
+worksheet.GetRange('A1').SetValue('=ADD(1,2)');

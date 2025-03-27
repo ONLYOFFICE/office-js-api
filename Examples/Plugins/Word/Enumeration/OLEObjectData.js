@@ -1,4 +1,4 @@
-var oOLEObjectData = {
+let oleObjectData = {
     "Data": "{data}",
     "ImageData": "data:image/png;base64,image-in-the-base64-format",
     "ApplicationId": "asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}",
@@ -7,4 +7,4 @@ var oOLEObjectData = {
     "WidthPix": 60 * 36000,
     "HeightPix": 60 * 36000
 };
-window.Asc.plugin.executeMethod("InsertOleObject", [oOLEObjectData, true]);
+window.Asc.plugin.executeMethod("InsertOleObject", [oleObjectData, true]);

@@ -1,30 +1,29 @@
 
 
-const oWorksheet = Api.GetActiveSheet();
+const worksheet = Api.GetActiveSheet();
 
 //configure function parameters
-var yValues = [1.5, 2, 3];
-var xValues = [2, 3.1, 3.5];
-var constant = true;
-var stats = true;
+let yValues = [1.5, 2, 3];
+let xValues = [2, 3.1, 3.5];
+let constant = true;
+let stats = true;
 
 //set values in cells
-for (var i = 0; i < yValues.length; i++) {
-  oWorksheet.GetRange("A" + (i + 1)).SetValue(yValues[i]);
+for (let i = 0; i < yValues.length; i++) {
+  worksheet.GetRange("A" + (i + 1)).SetValue(yValues[i]);
 }
-for (var n = 0; n < xValues.length; n++) {
-  oWorksheet.GetRange("B" + (n + 1)).SetValue(xValues[n]);
+for (let n = 0; n < xValues.length; n++) {
+  worksheet.GetRange("B" + (n + 1)).SetValue(xValues[n]);
 }
 
 //get x and y ranges
-var yRange = oWorksheet.GetRange("A1:A3");
-var xRange = oWorksheet.GetRange("B1:B3");
-var oFunction = Api.GetWorksheetFunction();
+let yRange = worksheet.GetRange("A1:A3");
+let xRange = worksheet.GetRange("B1:B3");
+let func = Api.GetWorksheetFunction();
 
 //invoke LINEST method
-var ans = oFunction.LINEST(yRange, xRange, constant, stats);
-console.log(ans)
+let ans = func.LINEST(yRange, xRange, constant, stats);
 
 //print answer 
- oWorksheet.GetRange("D1").SetValue(ans);
+ worksheet.GetRange("D1").SetValue(ans);
 

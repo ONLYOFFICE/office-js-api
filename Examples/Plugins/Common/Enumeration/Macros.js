@@ -1,4 +1,4 @@
-var oMacros = {
+let macros = {
     "macrosArray": [
         {
             "name": "Macros 1",
@@ -11,4 +11,4 @@ var oMacros = {
     ],
     "current": 1
 };
-window.Asc.plugin.executeMethod("SetMacros", [oMacros]);
+window.Asc.plugin.executeMethod("SetMacros", [macros]);

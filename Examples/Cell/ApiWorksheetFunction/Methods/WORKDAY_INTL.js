@@ -1,7 +1,7 @@
 
-const oWorksheet = Api.GetActiveSheet();
+const worksheet = Api.GetActiveSheet();
 
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.WORKDAY_INTL("9/8/2017", "-20", "0000011", "8/15/2017");
+let func = Api.GetWorksheetFunction();
+let ans = func.WORKDAY_INTL("9/8/2017", "-20", "0000011", "8/15/2017");
 
-oWorksheet.GetRange("C1").SetValue(ans);
+worksheet.GetRange("C1").SetValue(ans);

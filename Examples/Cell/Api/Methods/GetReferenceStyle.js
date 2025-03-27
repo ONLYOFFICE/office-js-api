@@ -1,3 +1,3 @@
 // This example gets reference style.
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.GetRange("A1").SetValue(Api.GetReferenceStyle());
+let worksheet = Api.GetActiveSheet();
+worksheet.GetRange("A1").SetValue(Api.GetReferenceStyle());

@@ -1,6 +1,6 @@
 // This example deletes all the contents from the range.
-var oDocument = Api.GetDocument();
-var oParagraph = oDocument.GetElement(0);
-oParagraph.AddText("ONLYOFFICE delete text Document Builder");
-var oRange = oDocument.GetRange(10, 21);
-oRange.Delete();
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+paragraph.AddText("ONLYOFFICE delete text Document Builder");
+let range = doc.GetRange(10, 21);
+range.Delete();

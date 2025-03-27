@@ -1,4 +1,4 @@
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-var avg = oFunction.CHIDIST(12, 10);
-oWorksheet.GetRange("B2").SetValue(avg);
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+let avg = func.CHIDIST(12, 10);
+worksheet.GetRange("B2").SetValue(avg);

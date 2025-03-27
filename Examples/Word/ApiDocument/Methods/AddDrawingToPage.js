@@ -1,7 +1,7 @@
 // This example shows how to get a collection of tables on a given absolute page.
-var oDocument = Api.GetDocument();
-var oDrawing = Api.CreateImage("https://api.onlyoffice.com/content/img/docbuilder/examples/coordinate_aspects.png", 60 * 36000, 35 * 36000);
-var oParagraph = Api.CreateParagraph();
-oParagraph.AddPageBreak();
-oDocument.Push(oParagraph);
-oDocument.AddDrawingToPage(oDrawing, 1, 50 * 36000, 50 * 36000);
+let doc = Api.GetDocument();
+let drawing = Api.CreateImage("https://static.onlyoffice.com/assets/docs/samples/img/onlyoffice_logo.png", 60 * 36000, 35 * 36000);
+let paragraph = Api.CreateParagraph();
+paragraph.AddPageBreak();
+doc.Push(paragraph);
+doc.AddDrawingToPage(drawing, 1, 50 * 36000, 50 * 36000);
