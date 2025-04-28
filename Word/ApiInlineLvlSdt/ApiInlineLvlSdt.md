@@ -39,3 +39,20 @@ Represents the ApiInlineLvlSdt class.
 | [AddComment](./Methods/AddComment.md) | [ApiComment](../ApiComment/ApiComment.md) | Adds a comment to the current inline content control. 💡 Please note that this inline content control must be in the document. |
 | [MoveCursorOutside](./Methods/MoveCursorOutside.md) | boolean | Places a cursor before/after the current content control. |
 | [GetDropdownList](./Methods/GetDropdownList.md) | [ApiContentControlList](../ApiContentControlList/ApiContentControlList.md) | Returns a list of values of the combo box / dropdown list content control. |
+| [Select](./Methods/Select.md) | boolean | Selects the current content control. |
+| [SetDataBinding](./Methods/SetDataBinding.md) | boolean | Sets the data binding for the content control. |
+| [LoadFromDataBinding](./Methods/LoadFromDataBinding.md) | boolean | Loads the value from the data binding of the content control. |
+| [GetDataBinding](./Methods/GetDataBinding.md) | [ApiDataBinding](../ApiDataBinding/ApiDataBinding.md) \| null | Retrieves the data binding of the content control. |
+| [IsCheckBox](./Methods/IsCheckBox.md) | boolean | Checks if the content control is a checkbox. |
+| [SetCheckBoxChecked](./Methods/SetCheckBoxChecked.md) | boolean | Sets the checkbox value of the content control. |
+| [IsPicture](./Methods/IsPicture.md) | boolean | Checks whether the content control is a picture type. |
+| [SetPictureSize](./Methods/SetPictureSize.md) | boolean | Sets the size of the picture in a content control. |
+| [SetPicture](./Methods/SetPicture.md) | boolean | Sets the content (image) of a content control picture. |
+| [IsDropDownList](./Methods/IsDropDownList.md) | boolean | Checks if the content control is a dropdown list. |
+| [IsComboBox](./Methods/IsComboBox.md) | boolean | Checks if the content control is a combobox list. |
+| [SelectListItem](./Methods/SelectListItem.md) | boolean | Sets the selected item in a combobox list or dropdown list. |
+| [AddListItem](./Methods/AddListItem.md) | boolean | Adds an item to a combobox list or dropdown list. |
+| [RemoveListItem](./Methods/RemoveListItem.md) | boolean | Removes an item from a combobox list or dropdown list. |
+| [IsDatePicker](./Methods/IsDatePicker.md) | boolean | Checks if the content control is a datepicker. |
+| [SetDate](./Methods/SetDate.md) | boolean | Sets the value of a datepicker content control. |
+| [SetDateFormat](./Methods/SetDateFormat.md) | boolean | Sets the date format for the datepicker content control. |

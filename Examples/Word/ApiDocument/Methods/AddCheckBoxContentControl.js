@@ -1,5 +1,3 @@
-// This example shows how to add a checkbox content control.
+// This example shows how to add a checkbox content control to a document:
 let doc = Api.GetDocument();
-let paragraph = doc.GetElement(0);
 doc.AddCheckBoxContentControl();
-paragraph.AddText("Checkbox content control");

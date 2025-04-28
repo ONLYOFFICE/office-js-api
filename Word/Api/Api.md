@@ -46,3 +46,4 @@ Represents the Api class.
 | [CreateTextPr](./Methods/CreateTextPr.md) | [ApiTextPr](../ApiTextPr/ApiTextPr.md) | Creates the empty text properties. |
 | [CreateWordArt](./Methods/CreateWordArt.md) | [ApiDrawing](../ApiDrawing/ApiDrawing.md) | Creates a Text Art object with the parameters specified. |
 | [GetFullName](./Methods/GetFullName.md) | string | Returns the full name of the currently opened file. |
+| [CreateDataBinding](./Methods/CreateDataBinding.md) | [ApiDataBinding](../ApiDataBinding/ApiDataBinding.md) | Creates a new data binding. |

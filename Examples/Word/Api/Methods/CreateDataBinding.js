@@ -1,13 +1,13 @@
-// This example demonstrates how to create a data binding.
+// This example demonstrates how to create a data binding for a block-level content control.
 let doc = Api.GetDocument();
-let xmlManager = doc.GetCustomXmlParts();
-let xmlText = `
-<?xml version="1.0" encoding="UTF-8"?>
-<pic:documentData xmlns:pic="http://example.com/picture">
-  <pic:text>123</pic:text>
-</pic:documentData>`;
-let id = xmlManager.Add(xmlText).id;
-let blockLvl = Api.CreateBlockLvlSdt();
-doc.InsertContent([blockLvl]);
-let dataBinding = Api.CreateDataBinding('xmlns:pic="http://example.com/picture"', id, '/pic:documentData/pic:text');
-blockLvl.SetDataBinding(dataBinding);
+let xmlParts = doc.GetCustomXmlParts();
+let xml = xmlParts.Add('<root xmlns="http://example.com"><data>Value</data></root>');
+let dataBinding = Api.CreateDataBinding(
+    'xmlns:ns="http://example.com"',
+    xml.GetId(),
+    "/ns:root/ns:data"
+);
+let paragraph = Api.CreateParagraph();
+let sdt = Api.CreateBlockLvlSdt(paragraph);
+sdt.SetDataBinding(dataBinding);
+doc.AddElement(0, sdt);

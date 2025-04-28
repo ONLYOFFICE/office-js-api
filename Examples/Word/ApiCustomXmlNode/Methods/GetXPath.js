@@ -1,20 +1,15 @@
-// This example demonstrates how to retrieve the XPath of a node.
+// This example shows how to get the XPath of a custom XML node.
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
 let xmlText = `
 <?xml version="1.0" encoding="UTF-8"?>
-<documentData xmlns="http://example.com/picture">
-    <text>
-        <one/>
-        <two/>
-    </text>
-</documentData>`;
+<zoo xmlns="zoo-namespace">
+    <animal>
+        <name>Leo</name>
+    </animal>
+</zoo>`;
 let xml = xmlManager.Add(xmlText);
-let node = xml.GetNodes('/documentData/text')[0];
-let nodes = node.GetNodes('/*')
+let node = xml.GetNodes('/zoo/animal/name')[0];
 let paragraph = Api.CreateParagraph();
-paragraph.AddText("List of xPath inside <text></text> node:\r\n");
-nodes.forEach((node, index) => {
-    paragraph.AddText(`№${index}: "${node.GetXPath()}"\r\n`);
-});
-doc.AddElement(0, paragraph);
+paragraph.AddText("xPath: " + node.GetXPath());
+doc.Push(paragraph);

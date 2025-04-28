@@ -1,15 +1,7 @@
-// This example shows how to get the prefix from data binding.
+// This example gets the prefix of a data binding and inserts it into the document.
 let doc = Api.GetDocument();
-let xmlManager = doc.GetCustomXmlParts();
-let xmlText = `
-<?xml version="1.0" encoding="UTF-8"?>
-<pic:documentData xmlns:pic="http://example.com/picture">
-  <pic:text>123</pic:text>
-</pic:documentData>`;
-let id = xmlManager.Add(xmlText).id;
-let blockLvl = Api.CreateBlockLvlSdt();
-doc.InsertContent([blockLvl]);
-let dataBinding = Api.CreateDataBinding('xmlns:pic="http://example.com/picture"', id, '/pic:documentData/pic:text');
-blockLvl.SetDataBinding(dataBinding);
-let paragraph = doc.GetElement(1);
-paragraph.AddText(dataBinding.GetPrefix());
+let dataBinding = Api.CreateDataBinding("prefix", "{1672F99A-FD52-48B8-68E0-377D78AE6888}", "/content/text");
+let prefix = dataBinding.GetPrefix();
+let infoParagraph = Api.CreateParagraph();
+infoParagraph.AddText("Prefix of data binding: " + prefix);
+doc.Push(infoParagraph);

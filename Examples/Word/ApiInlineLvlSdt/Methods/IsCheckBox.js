@@ -1,10 +1,7 @@
-// This example shows how to check if a content control is a checkbox.
+// This example shows how to check if an inline content control is a checkbox.
 let doc = Api.GetDocument();
-let paragraph = doc.GetElement(0);
-let contentControl = doc.AddCheckBoxContentControl();
-let paragraph1 = Api.CreateParagraph();
-paragraph1.AddText(contentControl.IsCheckBox()
-    ? "content control is checkbox"
-    : "content control isn't checkbox"
-);
-doc.AddElement(1, paragraph1);
+let inlineControl = doc.AddCheckBoxContentControl();
+let isCheckBox = inlineControl.IsCheckBox();
+let paragraph = Api.CreateParagraph();
+paragraph.AddText("Is the content control a checkbox? " + isCheckBox);
+doc.Push(paragraph);

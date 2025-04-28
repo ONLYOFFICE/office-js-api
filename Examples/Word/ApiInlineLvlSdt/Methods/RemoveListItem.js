@@ -1,4 +1,4 @@
-// This example shows how to remove a list item from a ComboBox content control.
+// This example shows how to remove an item from a combobox or dropdown list content control.
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let contentControl = doc.AddComboBoxContentControl();

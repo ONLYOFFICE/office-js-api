@@ -1,4 +1,4 @@
-// This example demonstrates how to delete an attribute from a custom XML node.
+// This example shows how to delete an attribute from the current XML node.
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
 let xmlText = `
@@ -13,11 +13,12 @@ let xmlText = `
 </bookstore>`;
 let xml = xmlManager.Add(xmlText);
 let node = xml.GetNodes('/bookstore/book')[0];
-node.DeleteAttribute('category', 'ancient');
+node.DeleteAttribute('category');
 let attributes = node.GetAttributes();
+console.log(attributes)
 let paragraph = Api.CreateParagraph();
 paragraph.AddText("Attributes of book node:\r\n");
 attributes.forEach((attribute, index) => {
     paragraph.AddText(`Attribute #${index} "${attribute.name}" with value: ${attribute.value}\r\n`);
-});
-doc.AddElement(0, paragraph);
+})
+doc.Push(paragraph);

@@ -1,5 +1,3 @@
-// This example shows how to add a combobox content control.
+// This example shows how to add a combo box content control to a document:
 let doc = Api.GetDocument();
-let paragraph = doc.GetElement(0);
 doc.AddComboBoxContentControl();
-paragraph.AddText("ComboBox content control");

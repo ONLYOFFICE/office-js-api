@@ -1,15 +1,7 @@
-// This example shows how to retrieve the prefix from data binding.
+// This example gets the XPath expression of a data binding and inserts it into the document.
 let doc = Api.GetDocument();
-let xmlManager = doc.GetCustomXmlParts();
-let xmlText = `
-<?xml version="1.0" encoding="UTF-8"?>
-<pic:documentData xmlns:pic="http://example.com/picture">
-  <pic:text>123</pic:text>
-</pic:documentData>`;
-let id = xmlManager.Add(xmlText).id;
-let blockLvl = Api.CreateBlockLvlSdt();
-doc.InsertContent([blockLvl]);
-let dataBinding = Api.CreateDataBinding('xmlns:pic="http://example.com/picture"', id, '/pic:documentData/pic:text');
-blockLvl.SetDataBinding(dataBinding);
-let paragraph = doc.GetElement(1);
-paragraph.AddText(dataBinding.GetXPath());
+let dataBinding = Api.CreateDataBinding("prefix", "{1672F99A-FD52-48B8-68E0-377D78AE6889}", "/content/text");
+let xpath = dataBinding.GetXPath();
+let infoParagraph = Api.CreateParagraph();
+infoParagraph.AddText("XPath of data binding: " + xpath);
+doc.Push(infoParagraph);

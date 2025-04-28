@@ -1,5 +1,4 @@
-// This example shows how to change size of picture content control.
+// This example shows how to set the size of an image in a content control.
 let doc = Api.GetDocument();
-let paragraph = doc.GetElement(0);
-let contentControl = doc.AddPictureContentControl();
-contentControl.SetPictureSize(10, 10);
+let inlineControl = doc.AddPictureContentControl();
+inlineControl.SetPictureSize(50 * 36000, 70 * 36000);

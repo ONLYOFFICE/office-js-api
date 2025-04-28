@@ -108,3 +108,10 @@ Represents the ApiDocument class.
 | [GetText](./Methods/GetText.md) | string | Returns the inner text of the current document content object. |
 | [GetCurrentParagraph](./Methods/GetCurrentParagraph.md) | [ApiParagraph](../ApiParagraph/ApiParagraph.md) | Returns the current paragraph where the cursor is located. |
 | [GetCurrentRun](./Methods/GetCurrentRun.md) | [ApiRun](../ApiRun/ApiRun.md) | Returns the current run where the cursor is located. |
+| [GetContentControl](./Methods/GetContentControl.md) | [ApiBlockLvlSdt](../ApiBlockLvlSdt/ApiBlockLvlSdt.md) \| [ApiInlineLvlSdt](../ApiInlineLvlSdt/ApiInlineLvlSdt.md) \| null | Returns the currently selected content control, or, if an ID is provided, returns the content control with the specified ID. |
+| [AddCheckBoxContentControl](./Methods/AddCheckBoxContentControl.md) | [ApiInlineLvlSdt](../ApiInlineLvlSdt/ApiInlineLvlSdt.md) | Adds a new checkbox content control to the document. |
+| [AddPictureContentControl](./Methods/AddPictureContentControl.md) | [ApiInlineLvlSdt](../ApiInlineLvlSdt/ApiInlineLvlSdt.md) || Adds a new picture content control to the document. |
+| [AddComboBoxContentControl](./Methods/AddComboBoxContentControl.md) | [ApiInlineLvlSdt](../ApiInlineLvlSdt/ApiInlineLvlSdt.md) | Adds a new combo box content control to the document. |
+| [AddDropDownListContentControl](./Methods/AddDropDownListContentControl.md) | [ApiInlineLvlSdt](../ApiInlineLvlSdt/ApiInlineLvlSdt.md) | Adds a new dropdown list content control to the document. |
+| [AddDatePickerContentControl](./Methods/AddDatePickerContentControl.md) | [ApiInlineLvlSdt](../ApiInlineLvlSdt/ApiInlineLvlSdt.md) | Adds a new date picker content control to the document. |
+| [GetCustomXmlParts](./Methods/GetCustomXmlParts.md) | [ApiCustomXmlParts](../ApiCustomXmlParts/ApiCustomXmlParts.md) \| null | Retrieves the custom XML manager associated with the document. This manager allows manipulation and access to custom XML parts within the document. |

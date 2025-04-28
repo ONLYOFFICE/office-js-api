@@ -1,13 +1,8 @@
-// This example shows how to delete an attribute in a custom XML node.
+// This example demonstrates how to delete attribute from custom XML part.
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
-let xmlText = `
-<?xml version="1.0" encoding="UTF-8"?>
-<documentData xmlns="http://example.com/example">
-    <text attribute1="attribute1 value" attribute2="attribute2 value">node text</text>
-</documentData>`;
-let xml = xmlManager.Add(xmlText);
-xml.DeleteAttribute("/documentData/text", "attribute2");
-let paragraph = Api.CreateParagraph();
-paragraph.AddText(xml.GetXml());
-doc.AddElement(0, paragraph);
+let xml = xmlManager.Add('<content xmlms="http://example" version="1.0"></content>');
+let deletionSuccess = xml.DeleteAttribute('/content', 'version');
+let infoParagraph = Api.CreateParagraph();
+infoParagraph.AddText("Xml string representation: " + xml.GetXml());
+doc.Push(infoParagraph);

@@ -1,19 +1,18 @@
-// This example demonstrates how to retrieve the XML text of a node from a custom XML node.
+// This example shows how to get the XML content of a custom XML node.
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
 let xmlText = `
 <?xml version="1.0" encoding="UTF-8"?>
-<bookstore>
-    <book category="ancient">
-        <title lang="en">The Odyssey</title>
-        <author>Homer</author>
-        <year>-740</year>
-        <price>30.00</price>
-    </book>
-</bookstore>`;
+<zoo>
+    <animal species="Lion" id="101">
+        <name>Leo</name>
+        <age>5</age>
+        <habitat>Savanna</habitat>
+        <diet>Carnivore</diet>
+    </animal>
+</zoo>`;
 let xml = xmlManager.Add(xmlText);
-let node = xml.GetNodes('/bookstore/book')[0];
+let node = xml.GetNodes('/zoo')[0];
 let paragraph = Api.CreateParagraph();
-paragraph.AddText("Content of book node:\r\n");
-paragraph.AddText(node.GetXml());
-doc.AddElement(0, paragraph);
+paragraph.AddText("XML Content: " + node.GetXml());
+doc.Push(paragraph);

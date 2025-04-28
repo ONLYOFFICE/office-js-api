@@ -1,8 +1,7 @@
-// This example shows how to update an attribute of a custom XML node.
+// This example shows how to update the value of an existing attribute in a custom XML node.
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
-let xmlText = `
-<?xml version="1.0" encoding="UTF-8"?>
+let xmlText = `<?xml version="1.0" encoding="UTF-8"?>
 <bookstore>
     <book category="house">
         <title lang="en">The Odyssey</title>

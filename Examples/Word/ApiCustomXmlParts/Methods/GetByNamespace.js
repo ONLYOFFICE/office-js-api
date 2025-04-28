@@ -1,15 +1,12 @@
-// This example shows how to retrieve a custom XML part by its namespace.
+// This example shows how to retrieve custom XML parts by their namespace.
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
-let xmlText = `
-<?xml version="1.0" encoding="UTF-8"?>
-<pic:documentData xmlns:pic="http://example.com/picture">
-    <pic:text>123</pic:text>
-</pic:documentData>`;
-let id = xmlManager.Add(xmlText).id;
-let xmls = xmlManager.GetByNamespace('http://example.com/picture');
-let xml = xmls[0];
-let node = xml.GetNodes('/pic:documentData/pic:text')[0];
-let paragraph = Api.CreateParagraph();
-paragraph.AddText(node.GetText());
-doc.AddElement(0, paragraph);
+let xmlText = '<content xmlns="http://example.com"><text>Example XML</text></content>';
+let xml = xmlManager.Add(xmlText);
+let namespace = "http://example.com";
+let xmlParts = xmlManager.GetByNamespace(namespace);
+let infoParagraph = Api.CreateParagraph();
+xmlParts.forEach(part => {
+    infoParagraph.AddText("XML part: " + part.GetXml());
+});
+doc.Push(infoParagraph);
