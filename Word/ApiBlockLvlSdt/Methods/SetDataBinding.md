@@ -8,7 +8,7 @@ Sets the data binding for the inline content control.
 expression.SetDataBinding(oApiDataBinding);
 ```
 
-`expression` - A variable that represents a [ApiInlineLvlSdt](../ApiInlineLvlSdt.md) class.
+`expression` - A variable that represents a [ApiInlineLvlSdt](../ApiBlockLvlSdt.md) class.
 
 ## Parameters
 
@@ -33,9 +33,8 @@ let xmlText = `
   <pic:text>123</pic:text>
 </pic:documentData>`;
 let id = xmlManager.Add(xmlText).id;
-let paragraph = doc.GetElement(0);
-let inlineLvlSdt = Api.CreateInlineLvlSdt();
-paragraph.AddInlineLvlSdt(inlineLvlSdt);
+let blockLvl = Api.CreateBlockLvlSdt();
+doc.InsertContent([blockLvl]);
 let dataBinding = Api.CreateDataBinding('xmlns:pic="http://example.com/picture"', id, '/pic:documentData/pic:text');
-inlineLvlSdt.SetDataBinding(dataBinding);
+blockLvl.SetDataBinding(dataBinding);
 ```
