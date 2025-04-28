@@ -44,3 +44,4 @@ Represents the ApiBlockLvlSdt class.
 | [GetDropdownList](./Methods/GetDropdownList.md) | [ApiContentControlList](../ApiContentControlList/ApiContentControlList.md) | Returns a list of values of the combo box / dropdown list content control. |
 | [MoveCursorOutside](./Methods/MoveCursorOutside.md) | boolean | Places a cursor before/after the current content control. |
 | [ToJSON](./Methods/ToJSON.md) | JSON | Converts the ApiBlockLvlSdt object into the JSON object. |
+| [SetDataBinding](./Methods/SetDataBinding.md) | boolean | Sets the data binding for the content control. |
