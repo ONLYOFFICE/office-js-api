@@ -1,22 +1,22 @@
-// This example demonstrates how to retrieve all attributes from a custom XML node.
+// This example shows how to retrieve and display the list of attributes of the current XML node.
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
 let xmlText = `
 <?xml version="1.0" encoding="UTF-8"?>
-<bookstore>
-    <book category="ancient" id="12345">
-        <title lang="en">The Odyssey</title>
-        <author>Homer</author>
-        <year>-740</year>
-        <price>30.00</price>
-    </book>
-</bookstore>`;
+<zoo>
+    <animal species="Lion" id="101">
+        <name>Leo</name>
+        <age>5</age>
+        <habitat>Savanna</habitat>
+        <diet>Carnivore</diet>
+    </animal>
+</zoo>`;
 let xml = xmlManager.Add(xmlText);
-let node = xml.GetNodes('/bookstore/book')[0];
+let node = xml.GetNodes('/zoo/animal')[0];
 let attributes = node.GetAttributes();
 let paragraph = Api.CreateParagraph();
-paragraph.AddText("Attributes of book node:\r\n");
-attributes.forEach((attribute, index) => {
-    paragraph.AddText(`Attribute #${index} "${attribute.name}" with value: ${attribute.value}\r\n`);
+paragraph.AddText("Attributes of the animal node:\r\n");
+attributes.forEach(function(attribute, index) {
+    paragraph.AddText("name:" + attribute.name + ", value: " + attribute.value + "\r\n");
 });
-doc.AddElement(0, paragraph);
+doc.Push(paragraph);

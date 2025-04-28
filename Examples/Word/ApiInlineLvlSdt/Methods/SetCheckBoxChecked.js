@@ -1,6 +1,4 @@
-// This example shows how to check if a content control is a checkbox.
+// This example shows how to set the checkbox value of an inline content control.
 let doc = Api.GetDocument();
-let paragraph = doc.GetElement(0);
-let contentControl = doc.AddCheckBoxContentControl();
-let paragraph1 = Api.CreateParagraph();
-contentControl.SetCheckBoxChecked(true);
+let inlineControl = doc.AddCheckBoxContentControl();
+inlineControl.SetCheckBoxChecked(true);

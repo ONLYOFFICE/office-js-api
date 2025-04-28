@@ -1,6 +1,7 @@
-// This example gets a class type and inserts it into the document.
-let dataBinding = Api.CreateDataBinding('xmlns:pic="http://example.com/picture"', id, '/pic:documentData/pic:text');
-let classType = dataBinding.GetClassType();
-let paragraph = Api.CreateParagraph();
-paragraph.AddText("Class Type = " + classType);
-doc.Push(paragraph);
+// This example gets the ID of a data binding and inserts it into the document.
+let doc = Api.GetDocument();
+let dataBinding = Api.CreateDataBinding("prefix", "{1672F99A-FD52-48B8-68E0-377D78AE6886}", "/content/text");
+let id = dataBinding.GetItemId();
+let infoParagraph = Api.CreateParagraph();
+infoParagraph.AddText("Id of data binding: " + id);
+doc.Push(infoParagraph);

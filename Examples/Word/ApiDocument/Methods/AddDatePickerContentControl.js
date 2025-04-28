@@ -1,5 +1,3 @@
-// This example shows how to add a datepicker content control.
+// This example shows how to add a date picker content control to a document:
 let doc = Api.GetDocument();
-let paragraph = doc.GetElement(0);
 doc.AddDatePickerContentControl();
-paragraph.AddText("Datapicker content control");

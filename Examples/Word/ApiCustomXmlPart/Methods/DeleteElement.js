@@ -1,14 +1,8 @@
-// This example shows how to delete an element in a custom XML node.
+// This example demonstrates how to delete an XML element from a custom XML part.
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
-let xmlText = `
-<?xml version="1.0" encoding="UTF-8"?>
-<documentData xmlns="http://example.com/example">
-    <label>Header</label>
-    <text>lorem ipsum</text>
-</documentData>`;
-let xml = xmlManager.Add(xmlText);
-xml.DeleteElement("/documentData/label");
-let paragraph = Api.CreateParagraph();
-paragraph.AddText(xml.GetXml());
-doc.AddElement(0, paragraph);
+let xml = xmlManager.Add('<content xmlms="http://example"><text>example_text</text><firstNode>text inside first node</firstNode></content>');
+xml.DeleteElement('/content/firstNode');
+let infoParagraph = Api.CreateParagraph();
+infoParagraph.AddText("Xml string representation after deletion: " + xml.GetXml());
+doc.Push(infoParagraph);

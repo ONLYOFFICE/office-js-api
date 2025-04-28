@@ -1,5 +1,3 @@
-// This example shows how to add a picture content control.
+// This example shows how to add a picture content control to a document:
 let doc = Api.GetDocument();
-let paragraph = doc.GetElement(0);
 doc.AddPictureContentControl();
-paragraph.AddText("Picture content control");

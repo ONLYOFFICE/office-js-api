@@ -1,7 +1,7 @@
-// This example shows how to check if a content control is a dropdown list.
+// This example shows how to check if the content control is a dropdown list.
 let doc = Api.GetDocument();
-let paragraph = doc.GetElement(0);
-let contentControl = doc.AddDropDownListContentControl();
-let paragraph1 = Api.CreateParagraph();
-paragraph1.AddText(contentControl.IsDropDownList() ? "true" : "false");
-doc.AddElement(1, paragraph1);
+let inlineControl = doc.AddDropDownListContentControl();
+let isDropDown = inlineControl.IsDropDownList();
+let paragraph = Api.CreateParagraph();
+paragraph.AddText("Is this content control a dropdown list? " + isDropDown);
+doc.Push(paragraph);

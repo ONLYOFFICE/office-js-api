@@ -1,17 +1,9 @@
-// This example shows how to update an attribute in a custom XML node.
+// This example shows how to update the value of an attribute in a custom XML node.
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
-let xmlText = `
-<?xml version="1.0" encoding="UTF-8"?>
-<documentData xmlns="http://example.com/example">
-    <label>Header</label>
-</documentData>`;
-let xml = xmlManager.Add(xmlText);
-xml.InsertAttribute("/documentData/label", "style", "bold");
-let paragraph = Api.CreateParagraph();
-paragraph.AddText(xml.GetXml());
-doc.AddElement(0, paragraph);
-xml.UpdateAttribute("/documentData/label", "style", "italic");
-paragraph = Api.CreateParagraph();
-paragraph.AddText(xml.GetXml());
-doc.AddElement(1, paragraph);
+let xml = xmlManager.Add('<content xmlms="http://example" version="1.0"></content>');
+xml.UpdateAttribute('/content', 'version', '2.0');
+let version = xml.GetAttribute('/content', 'version');
+let infoParagraph = Api.CreateParagraph();
+infoParagraph.AddText("The version attribute is: " + version);
+doc.Push(infoParagraph);

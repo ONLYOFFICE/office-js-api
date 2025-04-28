@@ -1,20 +1,21 @@
-// This example demonstrates how to retrieve child nodes from a custom XML node.
+// This example shows how to get nodes based on a specific XPath and display their values.
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
 let xmlText = `
 <?xml version="1.0" encoding="UTF-8"?>
-<documentData xmlns="http://example.com/picture">
-    <text>
-        <one/>
-        <two/>
-    </text>
-</documentData>`;
+<zoo>
+    <animal species="Lion" id="101">
+        <name>Leo</name>
+        <age>5</age>
+        <habitat>Savanna</habitat>
+        <diet>Carnivore</diet>
+    </animal>
+</zoo>`;
 let xml = xmlManager.Add(xmlText);
-let node = xml.GetNodes('/documentData/text')[0];
-let nodes = node.GetNodes('/*');
+let animalNode = xml.GetNodes('/zoo/animal')[0];
+let nodes = animalNode.GetNodes("/*");
 let paragraph = Api.CreateParagraph();
-paragraph.AddText("List of nodes inside <text></text>:\r\n");
-nodes.forEach((node, index) => {
-    paragraph.AddText(`№${index} node: ${node.baseName}\r\n`);
+nodes.forEach(function(node, index) {
+    paragraph.AddText(`Node #${index} value: ${node.GetNodeValue()}\r\n`);
 });
-doc.AddElement(0, paragraph);
+doc.Push(paragraph);

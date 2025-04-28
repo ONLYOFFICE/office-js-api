@@ -1,10 +1,10 @@
-// This example demonstrates how to set attributes for a custom XML node.
+// This example shows how to get the XPath of a custom XML node.
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
 let xmlText = `
 <?xml version="1.0" encoding="UTF-8"?>
 <bookstore>
-    <book category="ancient">
+    <book>
         <title lang="en">The Odyssey</title>
         <author>Homer</author>
         <year>-740</year>
@@ -13,7 +13,7 @@ let xmlText = `
 </bookstore>`;
 let xml = xmlManager.Add(xmlText);
 let node = xml.GetNodes('/bookstore/book')[0];
-node.SetAttribute('id', '12345');
+node.SetAttribute('category', 'ancient');
 let attributes = node.GetAttributes();
 let paragraph = Api.CreateParagraph();
 paragraph.AddText("Attributes of book node:\r\n");

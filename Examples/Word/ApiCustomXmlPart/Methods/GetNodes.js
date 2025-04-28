@@ -1,13 +1,18 @@
-// This example shows how to get nodes from a custom XML.
+// This example shows how to update the value of an attribute in a custom XML node.
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
 let xmlText = `
 <?xml version="1.0" encoding="UTF-8"?>
-<pic:documentData xmlns:pic="http://example.com/picture">
-    <pic:text>123</pic:text>
-</pic:documentData>`;
+<documentData xmlns="http://example.com/example">
+    <text attribute1="attribute1 value">node text</text>
+    <label attribute2="attribute2 value">label text</label>
+</documentData>`;
 let xml = xmlManager.Add(xmlText);
-let node = xml.GetNodes('/pic:documentData/pic:text')[0];
+let nodes = xml.GetNodes("/documentData/*");
+let label = xml.GetNodes("/documentData/label")[0];
 let paragraph = Api.CreateParagraph();
-paragraph.AddText(node.GetText());
-doc.AddElement(0, paragraph);
+nodes.forEach(node => {
+    paragraph.AddText("Node text: " + node.GetText() + "\r\n");
+});
+paragraph.AddText("Label attribute: " + label.GetAttribute("attribute2"));
+doc.Push(paragraph);

@@ -1,22 +1,10 @@
-// This example shows how to get the manager of custom XML parts.
+// This example shows how to get the custom XML manager, add a new XML part, and retrieve it by its ID.
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
-let xmlText = `
-<bookstore>
-    <book category="ancient">
-        <title lang="en">The Odyssey</title>
-        <author>Homer</author>
-        <year>-740</year>
-        <price>30.00</price>
-    </book>
-    <book category="">
-        <title lang="en">Alice's Adventures in Wonderland</title>
-        <author>Lewis Carroll</author>
-        <year>1865</year>
-        <price>30.00</price>
-    </book>
-</bookstore>`;
+let xmlText = '<content><text>Example XML</text></content>';
 let xml = xmlManager.Add(xmlText);
-let paragraph = Api.CreateParagraph();
-paragraph.AddText(xml.GetXml());
-doc.AddElement(0, paragraph);
+let xmlId = xml.id;
+let retrievedXml = xmlManager.GetById(xmlId);
+let infoParagraph = Api.CreateParagraph();
+infoParagraph.AddText("Retrieved XML: " + retrievedXml.GetXml());
+doc.Push(infoParagraph);
