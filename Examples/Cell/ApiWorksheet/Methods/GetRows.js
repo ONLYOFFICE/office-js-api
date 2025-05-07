@@ -4,5 +4,5 @@
 
 // Get all row cells from the worksheet.
 
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.GetRows("1:4").SetFillColor(Api.CreateColorFromRGB(255, 213, 191));
+let worksheet = Api.GetActiveSheet();
+worksheet.GetRows("1:4").SetFillColor(Api.CreateColorFromRGB(255, 213, 191));

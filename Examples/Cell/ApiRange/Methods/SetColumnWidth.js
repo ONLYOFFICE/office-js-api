@@ -4,5 +4,5 @@
 
 // Get a range and set its column width.
 
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.GetRange("A1").SetColumnWidth(20);
+let worksheet = Api.GetActiveSheet();
+worksheet.GetRange("A1").SetColumnWidth(20);

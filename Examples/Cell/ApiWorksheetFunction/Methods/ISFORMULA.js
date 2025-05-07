@@ -4,14 +4,12 @@
 
 // Use a function to check whether a range data is a formula or not.
 
-const oWorksheet = Api.GetActiveSheet();
+const worksheet = Api.GetActiveSheet();
 
 // Set the formula in cell B3
-
-oWorksheet.GetRange("B3").SetValue("=SUM(5, 6)");
+worksheet.GetRange("B3").SetValue("=SUM(5, 6)");
 
 // Check if there is a formula in C3
-
-var oFunction = Api.GetWorksheetFunction();
-var result = oFunction.ISFORMULA(oWorksheet.GetRange("B3"));
-oWorksheet.GetRange("C3").SetValue(result);
+let func = Api.GetWorksheetFunction();
+let result = func.ISFORMULA(worksheet.GetRange("B3"));
+worksheet.GetRange("C3").SetValue(result);

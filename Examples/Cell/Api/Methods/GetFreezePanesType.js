@@ -5,6 +5,6 @@
 // Freeze worksheet column and show its name in a cell.
 
 Api.SetFreezePanesType('column');
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.GetRange("A1").SetValue("Type: ");
-oWorksheet.GetRange("B1").SetValue(Api.GetFreezePanesType());
+let worksheet = Api.GetActiveSheet();
+worksheet.GetRange("A1").SetValue("Type: ");
+worksheet.GetRange("B1").SetValue(Api.GetFreezePanesType());

@@ -4,5 +4,5 @@
 
 // Find and get a sheet object by its name.
 
-var oWorksheet = Api.GetSheet("Sheet1");
-oWorksheet.GetRange("A1").SetValue("This is a sample text on 'Sheet1'.");
+let worksheet = Api.GetSheet("Sheet1");
+worksheet.GetRange("A1").SetValue("This is a sample text on 'Sheet1'.");

@@ -4,6 +4,6 @@
 
 // Set a boolean value representing whether to print row/column headings or not.
 
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.SetPrintHeadings(true);
-oWorksheet.GetRange("A1").SetValue("Row and column headings will be printed with this page: " + oWorksheet.GetPrintHeadings());
+let worksheet = Api.GetActiveSheet();
+worksheet.SetPrintHeadings(true);
+worksheet.GetRange("A1").SetValue("Row and column headings will be printed with this page: " + worksheet.GetPrintHeadings());

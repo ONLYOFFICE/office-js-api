@@ -4,7 +4,6 @@
 
 // Get region ID and insert information into the cell.
 
-var oWorksheet = Api.GetActiveSheet();
-Api.SetLocale("en-CA");
-var nLocale = Api.GetLocale();
-oWorksheet.GetRange("A1").SetValue("Locale: " + nLocale);
+let worksheet = Api.GetActiveSheet();Api.SetLocale("en-CA");
+let locale = Api.GetLocale();
+worksheet.GetRange("A1").SetValue("Locale: " + locale);

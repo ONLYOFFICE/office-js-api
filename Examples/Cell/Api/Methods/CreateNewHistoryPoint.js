@@ -4,7 +4,7 @@
 
 // How to make a history point.
 
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.GetRange("A1").SetValue("This is just a sample text.");
+var worksheet = Api.GetActiveSheet();
+worksheet.GetRange("A1").SetValue("This is just a sample text.");
 Api.CreateNewHistoryPoint();
-oWorksheet.GetRange("A3").SetValue("New history point was just created.");
+worksheet.GetRange("A3").SetValue("New history point was just created.");

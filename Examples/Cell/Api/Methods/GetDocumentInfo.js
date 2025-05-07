@@ -4,6 +4,6 @@
 
 // Get application name using document info.
 
-const oDocInfo = Api.GetDocumentInfo();
-const oRange = Api.GetActiveSheet().GetRange('A1');
-oRange.SetValue('This document has been created with: ' + oDocInfo.Application)
+let docInfo = Api.GetDocumentInfo();
+let range = Api.GetActiveSheet().GetRange('A1');
+range.SetValue('This document has been created with: ' + docInfo.Application);

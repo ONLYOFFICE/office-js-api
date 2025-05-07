@@ -4,6 +4,6 @@
 
 // Use a function to count characters starting from the index at which the search text appears.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue(oFunction.SEARCHB("line", "Online Office"));
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue(func.SEARCHB("line", "Online Office"));

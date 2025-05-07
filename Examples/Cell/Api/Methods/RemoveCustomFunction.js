@@ -15,7 +15,7 @@ Api.AddCustomFunctionLibrary("LibraryName", function(){
         return first + second;
     });
 });
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.GetRange("A1").SetValue("=ADD(1, 2)");
+let worksheet = Api.GetActiveSheet();
+worksheet.GetRange("A1").SetValue("=ADD(1, 2)");
 Api.RemoveCustomFunction("add");
-oWorksheet.GetRange("A3").SetValue("The ADD custom function was removed.");
+worksheet.GetRange("A3").SetValue("The ADD custom function was removed.");

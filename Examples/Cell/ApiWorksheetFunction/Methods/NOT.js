@@ -4,10 +4,10 @@
 
 // Use a function to get the opposite of the boolean value.
 
-const oWorksheet = Api.GetActiveSheet();
+const worksheet = Api.GetActiveSheet();
 
-var condition = 12 < 100;
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.NOT(condition);
+let condition = 12 < 100;
+let func = Api.GetWorksheetFunction();
+let ans = func.NOT(condition);
 
-oWorksheet.GetRange("C1").SetValue(ans);
+worksheet.GetRange("C1").SetValue(ans);

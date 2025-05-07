@@ -4,24 +4,24 @@
 
 // Use a function to return the lognormal cumulative distribution function.
 
-const oWorksheet = Api.GetActiveSheet();
+const worksheet = Api.GetActiveSheet();
 
 //configure function parameters
-var numbersArr = [0.5, 4, 7];
+let numbersArr = [0.5, 4, 7];
 
 //set values in cells
-for (var i = 0; i < numbersArr.length; i++) {
-  oWorksheet.GetRange("A" + (i + 1)).SetValue(numbersArr[i]);
+for (let i = 0; i < numbersArr.length; i++) {
+  worksheet.GetRange("A" + (i + 1)).SetValue(numbersArr[i]);
 }
 
 //get parameters
-var probability = oWorksheet.GetRange("A1");
-var mean = oWorksheet.GetRange("A2");
-var standardDeviation = oWorksheet.GetRange("A3");
+let probability = worksheet.GetRange("A1");
+let mean = worksheet.GetRange("A2");
+let standardDeviation = worksheet.GetRange("A3");
 
 //invoke LOGINV method
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.LOGINV(probability, mean, standardDeviation);
+let func = Api.GetWorksheetFunction();
+let ans = func.LOGINV(probability, mean, standardDeviation);
 
 //print answer
-oWorksheet.GetRange("C1").SetValue(ans);
+worksheet.GetRange("C1").SetValue(ans);

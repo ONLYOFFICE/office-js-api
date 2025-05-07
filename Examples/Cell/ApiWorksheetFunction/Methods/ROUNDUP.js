@@ -4,6 +4,6 @@
 
 // Use a function to round a number away from zero.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue(oFunction.ROUNDUP(3.456, 0));
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue(func.ROUNDUP(3.456, 0));

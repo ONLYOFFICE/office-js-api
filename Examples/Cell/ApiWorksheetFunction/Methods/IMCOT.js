@@ -4,6 +4,6 @@
 
 // Use a function to get the cotangent of a complex number.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue(oFunction.IMCOT("-2+2.5i"));
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue(func.IMCOT("-2+2.5i"));

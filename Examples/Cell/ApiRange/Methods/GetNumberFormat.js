@@ -4,8 +4,8 @@
 
 // Get a range, get its cell number format and show it in the worksheet.
 
-var oWorksheet = Api.GetActiveSheet();
-var oRange = oWorksheet.GetRange("B2");
-oRange.SetValue(3);
-var sFormat = oRange.GetNumberFormat();
-oWorksheet.GetRange("B3").SetValue("Number format: " + sFormat);
+let worksheet = Api.GetActiveSheet();
+let range = worksheet.GetRange("B2");
+range.SetValue(3);
+let format = range.GetNumberFormat();
+worksheet.GetRange("B3").SetValue("Number format: " + format);

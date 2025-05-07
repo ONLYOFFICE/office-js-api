@@ -4,7 +4,7 @@
 
 // Use function to get the find an average (arithmetic mean).
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.AVERAGEA(78, 98, 46, 123, 45, true, false);
-oWorksheet.GetRange("B2").SetValue(ans);
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+let ans = func.AVERAGEA(78, 98, 46, 123, 45, true, false);
+worksheet.GetRange("B2").SetValue(ans);

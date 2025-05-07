@@ -4,25 +4,25 @@
 
 // Use a function to return the lognormal distribution.
 
-const oWorksheet = Api.GetActiveSheet();
+const worksheet = Api.GetActiveSheet();
 
 //configure function parameters
-var numbersArr = [4, 3.5, 1.2];
+let numbersArr = [4, 3.5, 1.2];
 
 //set values in cells
-for (var i = 0; i < numbersArr.length; i++) {
-  oWorksheet.GetRange("A" + (i + 1)).SetValue(numbersArr[i]);
+for (let i = 0; i < numbersArr.length; i++) {
+  worksheet.GetRange("A" + (i + 1)).SetValue(numbersArr[i]);
 }
 
 //get parameters
-var xValue = oWorksheet.GetRange("A1");
-var mean = oWorksheet.GetRange("A2");
-var standardDeviation = oWorksheet.GetRange("A3");
-var cummulative = true;
+let xValue = worksheet.GetRange("A1");
+let mean = worksheet.GetRange("A2");
+let standardDeviation = worksheet.GetRange("A3");
+let cummulative = true;
 
 //invoke LOGNORM.DIST method
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.LOGNORM_DIST(xValue, mean, standardDeviation, cummulative);
+let func = Api.GetWorksheetFunction();
+let ans = func.LOGNORM_DIST(xValue, mean, standardDeviation, cummulative);
 
 //print answer
-oWorksheet.GetRange("C1").SetValue(ans);
+worksheet.GetRange("C1").SetValue(ans);

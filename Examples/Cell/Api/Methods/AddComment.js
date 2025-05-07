@@ -5,8 +5,8 @@
 // Insert a comment into a cell.
 
 Api.AddComment("Comment 1", "Bob");
-Api.AddComment("Comment 2" );
-var arrComments = Api.GetComments();
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.GetRange("A1").SetValue("Commet Text: ", arrComments[0].GetText());
-oWorksheet.GetRange("B1").SetValue("Commet Author: ", arrComments[0].GetAuthorName());
+Api.AddComment("Comment 2");
+let comments = Api.GetComments();
+let worksheet = Api.GetActiveSheet();
+worksheet.GetRange("A1").SetValue("Comment Text: " + comments[0].GetText());
+worksheet.GetRange("B1").SetValue("Comment Author: " + comments[0].GetAuthorName());

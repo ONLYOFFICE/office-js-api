@@ -4,6 +4,6 @@
 
 // Get a specified direction end of a range.
 
-var oWorksheet = Api.GetActiveSheet();
-var oRange = oWorksheet.GetRange("C4:D5");
-oRange.End("xlToLeft").SetFillColor(Api.CreateColorFromRGB(255, 213, 191));
+let worksheet = Api.GetActiveSheet();
+let range = worksheet.GetRange("C4:D5");
+range.End("xlToLeft").SetFillColor(Api.CreateColorFromRGB(255, 213, 191));

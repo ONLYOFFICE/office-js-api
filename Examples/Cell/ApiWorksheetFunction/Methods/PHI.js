@@ -4,14 +4,14 @@
 
 // Use a function to claculate the value of the density function.
 
-const oWorksheet = Api.GetActiveSheet();
+const worksheet = Api.GetActiveSheet();
 
 //method params
-var number = 5;
+let number = 5;
 
-oWorksheet.GetRange("A1").SetValue(number);
+worksheet.GetRange("A1").SetValue(number);
 
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.PHI(number);
+let func = Api.GetWorksheetFunction();
+let ans = func.PHI(number);
 
-oWorksheet.GetRange("C1").SetValue(ans);
+worksheet.GetRange("C1").SetValue(ans);

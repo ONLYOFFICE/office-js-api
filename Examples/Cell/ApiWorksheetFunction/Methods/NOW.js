@@ -4,9 +4,9 @@
 
 // Use a function to get a current date and time in the specified format.
 
-const oWorksheet = Api.GetActiveSheet();
+const worksheet = Api.GetActiveSheet();
 
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.NOW(); 
+let func = Api.GetWorksheetFunction();
+let ans = func.NOW(); 
 
-oWorksheet.GetRange("C1").SetValue(ans);
+worksheet.GetRange("C1").SetValue(ans);

@@ -1,10 +1,9 @@
-// This example shows how to get a sheet index.
+// This example shows how to get the left margin of the sheet.
 
-// How to get index of the sheet.
+// How to get margin of the sheet's left side.
 
-// Get the worksheet index.
+// Get the size of the left margin of the sheet.
 
-var oWorksheet = Api.GetActiveSheet();
-var nIndex = oWorksheet.GetIndex();
-oWorksheet.GetRange("A1").SetValue("Index: ");
-oWorksheet.GetRange("B1").SetValue(nIndex);
+let worksheet = Api.GetActiveSheet();
+let leftMargin = worksheet.GetLeftMargin();
+worksheet.GetRange("A1").SetValue("Left margin: " + leftMargin + " mm");

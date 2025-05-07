@@ -4,5 +4,5 @@
 
 // Update the value of the selected range.
 
-var oWorksheet = Api.GetActiveSheet();
+let worksheet = Api.GetActiveSheet();
 Api.GetSelection().SetValue("selected");

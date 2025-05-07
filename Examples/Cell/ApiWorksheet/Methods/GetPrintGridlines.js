@@ -4,6 +4,6 @@
 
 // Get a boolean value representing whether to print gridlines or not.
 
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.SetPrintGridlines(true);
-oWorksheet.GetRange("A1").SetValue("Gridlines of cells will be printed on this page: " + oWorksheet.GetPrintGridlines());
+let worksheet = Api.GetActiveSheet();
+worksheet.SetPrintGridlines(true);
+worksheet.GetRange("A1").SetValue("Gridlines of cells will be printed on this page: " + worksheet.GetPrintGridlines());

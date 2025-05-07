@@ -4,9 +4,9 @@
 
 // Use a function to convert date, hours, minutes and seconds to serial numbers.
 
-const oWorksheet = Api.GetActiveSheet();
+const worksheet = Api.GetActiveSheet();
 
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.TIMEVALUE("11/5/18 11:17:00 am"); 
+let func = Api.GetWorksheetFunction();
+let ans = func.TIMEVALUE("11/5/18 11:17:00 am"); 
 
-oWorksheet.GetRange("C1").SetValue(ans);
+worksheet.GetRange("C1").SetValue(ans);

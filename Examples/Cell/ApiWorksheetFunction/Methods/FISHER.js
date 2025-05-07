@@ -4,9 +4,9 @@
 
 // Use function to find out a Fisher transformation.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.FISHER(0.56);
-oWorksheet.GetRange("B2").SetValue(ans);
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+let ans = func.FISHER(0.56);
+worksheet.GetRange("B2").SetValue(ans);
 
 

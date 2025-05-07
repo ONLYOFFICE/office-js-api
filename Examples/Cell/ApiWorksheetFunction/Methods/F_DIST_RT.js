@@ -4,7 +4,7 @@
 
 // Use function to calculate a right-tailed F probability distribution.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.F_DIST_RT(10, 6, 4);
-oWorksheet.GetRange("B2").SetValue(ans);
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+let ans = func.F_DIST_RT(10, 6, 4);
+worksheet.GetRange("B2").SetValue(ans);

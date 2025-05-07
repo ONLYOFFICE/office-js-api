@@ -4,4 +4,4 @@
 
 // Create a worksheet.
 
-var oSheet = Api.AddSheet("New sheet");
+let sheet = Api.AddSheet("New sheet");

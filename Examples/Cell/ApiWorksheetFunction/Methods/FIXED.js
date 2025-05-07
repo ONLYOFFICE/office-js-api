@@ -4,6 +4,6 @@
 
 // Use function to round a number with specified decimal points.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue(oFunction.FIXED(1234.9, 1, false));
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue(func.FIXED(1234.9, 1, false));

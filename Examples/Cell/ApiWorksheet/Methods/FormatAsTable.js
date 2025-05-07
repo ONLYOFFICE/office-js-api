@@ -4,5 +4,5 @@
 
 // Select a range and format it as a table.
 
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.FormatAsTable("A1:E10");
+let worksheet = Api.GetActiveSheet();
+worksheet.FormatAsTable("A1:E10");

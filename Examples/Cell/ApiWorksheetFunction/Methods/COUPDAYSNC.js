@@ -4,6 +4,6 @@
 
 // Use function to get the number of days from the settlement date to the next coupon date.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue(oFunction.COUPDAYSNC("1/10/2018", "6/15/2019", 4, 1));
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue(func.COUPDAYSNC("1/10/2018", "6/15/2019", 4, 1));

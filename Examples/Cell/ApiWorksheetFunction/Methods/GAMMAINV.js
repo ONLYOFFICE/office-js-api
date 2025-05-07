@@ -4,7 +4,7 @@
 
 // Use a function to get the inverse of the gamma cumulative distribution.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.GAMMAINV(0.4, 9, 2);
-oWorksheet.GetRange("B2").SetValue(ans);
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+let ans = func.GAMMAINV(0.4, 9, 2);
+worksheet.GetRange("B2").SetValue(ans);

@@ -4,6 +4,6 @@
 
 // Get freeze panes and freeze a row using its index.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFreezePanes = oWorksheet.GetFreezePanes();
-oFreezePanes.FreezeRows(1);
+let worksheet = Api.GetActiveSheet();
+let freezePanes = worksheet.GetFreezePanes();
+freezePanes.FreezeRows(1);

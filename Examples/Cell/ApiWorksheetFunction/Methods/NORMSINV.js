@@ -4,14 +4,14 @@
 
 // Use a function to get the inverse of the standard normal cumulative distribution.
 
-const oWorksheet = Api.GetActiveSheet();
+const worksheet = Api.GetActiveSheet();
 
-oWorksheet.GetRange("A1").SetValue(0.25);
+worksheet.GetRange("A1").SetValue(0.25);
 
 //method params
-var value = oWorksheet.GetRange("A1").GetValue();
+let value = worksheet.GetRange("A1").GetValue();
 
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.NORMSINV(value);
+let func = Api.GetWorksheetFunction();
+let ans = func.NORMSINV(value);
 
-oWorksheet.GetRange("C1").SetValue(ans);
+worksheet.GetRange("C1").SetValue(ans);

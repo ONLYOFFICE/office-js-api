@@ -4,7 +4,7 @@
 
 // Get a range and add strikeout to its text.
 
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.GetRange("A2").SetValue("Strickout text");
-oWorksheet.GetRange("A2").SetStrikeout(true);
-oWorksheet.GetRange("A3").SetValue("Normal text");
+let worksheet = Api.GetActiveSheet();
+worksheet.GetRange("A2").SetValue("Struckout text");
+worksheet.GetRange("A2").SetStrikeout(true);
+worksheet.GetRange("A3").SetValue("Normal text");

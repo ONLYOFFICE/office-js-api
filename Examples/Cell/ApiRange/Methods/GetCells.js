@@ -4,6 +4,6 @@
 
 // Get range cells, fill them with a color and display the result in the worksheet.
 
-var oWorksheet = Api.GetActiveSheet();
-var oRange = oWorksheet.GetRange("A1:C3");
-oRange.GetCells(2, 1).SetFillColor(Api.CreateColorFromRGB(255, 213, 191));
+let worksheet = Api.GetActiveSheet();
+let range = worksheet.GetRange("A1:C3");
+range.GetCells(2, 1).SetFillColor(Api.CreateColorFromRGB(255, 213, 191));

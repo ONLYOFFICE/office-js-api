@@ -4,8 +4,8 @@
 
 // Get a worksheet from its range and show its name.
 
-var oWorksheet = Api.GetActiveSheet();
-var oRange = oWorksheet.GetRange("A1:C1");
-oRange.SetValue("1");
-var oSheet = oRange.GetWorksheet();
-oWorksheet.GetRange("A3").SetValue("Worksheet name: " + oSheet.GetName());
+let worksheet = Api.GetActiveSheet();
+let range = worksheet.GetRange("A1:C1");
+range.SetValue("1");
+let oSheet = range.GetWorksheet();
+worksheet.GetRange("A3").SetValue("Worksheet name: " + oSheet.GetName());

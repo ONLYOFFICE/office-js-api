@@ -4,7 +4,7 @@
 
 // Use function to calculate an exponential distribution.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.F_DIST(10, 6, 4, false);
-oWorksheet.GetRange("B2").SetValue(ans);
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+let ans = func.F_DIST(10, 6, 4, false);
+worksheet.GetRange("B2").SetValue(ans);

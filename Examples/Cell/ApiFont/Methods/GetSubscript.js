@@ -4,11 +4,11 @@
 
 // Get a boolean value that represents whether a font has a subscript property or not and show the value in the worksheet.
 
-var oWorksheet = Api.GetActiveSheet();
-var oRange = oWorksheet.GetRange("B1");
-oRange.SetValue("This is just a sample text.");
-var oCharacters = oRange.GetCharacters(9, 4);
-var oFont = oCharacters.GetFont();
-oFont.SetSubscript(true);
-var bSubscript = oFont.GetSubscript();
-oWorksheet.GetRange("B3").SetValue("Subscript property: " + bSubscript);
+let worksheet = Api.GetActiveSheet();
+let range = worksheet.GetRange("B1");
+range.SetValue("This is just a sample text.");
+let characters = range.GetCharacters(9, 4);
+let font = characters.GetFont();
+font.SetSubscript(true);
+let isSubscript = font.GetSubscript();
+worksheet.GetRange("B3").SetValue("Subscript property: " + isSubscript);

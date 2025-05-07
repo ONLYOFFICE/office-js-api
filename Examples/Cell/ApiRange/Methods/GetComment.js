@@ -4,8 +4,8 @@
 
 // Get a range, get its comment and show its text in the worksheet.
 
-var oWorksheet = Api.GetActiveSheet();
-var oRange = oWorksheet.GetRange("A1");
-oRange.SetValue("1");
-oRange.AddComment("This is just a number.");
-oWorksheet.GetRange("A3").SetValue("Comment: " + oRange.GetComment().GetText());
+let worksheet = Api.GetActiveSheet();
+let range = worksheet.GetRange("A1");
+range.SetValue("1");
+range.AddComment("This is just a number.");
+worksheet.GetRange("A3").SetValue("Comment: " + range.GetComment().GetText());

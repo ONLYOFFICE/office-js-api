@@ -4,9 +4,9 @@
 
 // Use a function to get minutes from a time object.
 
-const oWorksheet = Api.GetActiveSheet();
+const worksheet = Api.GetActiveSheet();
 
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.MINUTE("4:25 pm"); 
+let func = Api.GetWorksheetFunction();
+let ans = func.MINUTE("4:25 pm"); 
 
-oWorksheet.GetRange("C1").SetValue(ans);
+worksheet.GetRange("C1").SetValue(ans);

@@ -4,6 +4,6 @@
 
 // Use function to convert a text value to decimal using base.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue(oFunction.DECIMAL(101, 2));
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue(func.DECIMAL(101, 2));

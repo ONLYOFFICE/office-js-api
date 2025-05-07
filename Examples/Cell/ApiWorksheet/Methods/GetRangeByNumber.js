@@ -4,5 +4,5 @@
 
 // Get range by number and set its value.
 
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.GetRangeByNumber(1, 2).SetValue("42");
+let worksheet = Api.GetActiveSheet();
+worksheet.GetRangeByNumber(1, 2).SetValue("42");

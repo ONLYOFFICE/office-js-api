@@ -4,9 +4,9 @@
 
 // Use a function to get an hour from a time.
 
-const oWorksheet = Api.GetActiveSheet();
+const worksheet = Api.GetActiveSheet();
 
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.HOUR("4:17 pm"); 
+let func = Api.GetWorksheetFunction();
+let ans = func.HOUR("4:17 pm"); 
 
-oWorksheet.GetRange("C1").SetValue(ans);
+worksheet.GetRange("C1").SetValue(ans);

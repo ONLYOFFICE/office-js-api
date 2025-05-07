@@ -4,7 +4,7 @@
 
 // Get a sheet name.
 
-var oWorksheet = Api.GetActiveSheet();
-var sName = oWorksheet.GetName();
-oWorksheet.GetRange("A1").SetValue("Name: ");
-oWorksheet.GetRange("B1").SetValue(sName);
+let worksheet = Api.GetActiveSheet();
+let name = worksheet.GetName();
+worksheet.GetRange("A1").SetValue("Name: ");
+worksheet.GetRange("B1").SetValue(name);

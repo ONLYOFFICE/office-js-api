@@ -4,5 +4,5 @@
 
 // Set a row height.
 
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.SetRowHeight(0, 30);
+let worksheet = Api.GetActiveSheet();
+worksheet.SetRowHeight(0, 30);

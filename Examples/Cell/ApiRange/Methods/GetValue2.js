@@ -4,9 +4,9 @@
 
 // Get a range, get its raw value without format and show it in the worksheet.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFormat = Api.Format("123456", "$#,##0");
-var oRange = oWorksheet.GetRange("A1");
-oRange.SetValue(oFormat);
-var sValue2 = oRange.GetValue2();
-oWorksheet.GetRange("A3").SetValue("Value of the cell A1 without format: " + sValue2);
+let worksheet = Api.GetActiveSheet();
+let format = Api.Format("123456", "$#,##0");
+let range = worksheet.GetRange("A1");
+range.SetValue(format);
+let value2 = range.GetValue2();
+worksheet.GetRange("A3").SetValue("Value of the cell A1 without format: " + value2);

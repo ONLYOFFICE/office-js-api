@@ -4,6 +4,6 @@
 
 // Use function to calculate an inverse of the F probability distribution.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue(oFunction.F_INV_RT(0.01, 6, 4));
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue(func.F_INV_RT(0.01, 6, 4));

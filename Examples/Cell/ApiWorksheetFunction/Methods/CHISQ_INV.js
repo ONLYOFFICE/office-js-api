@@ -4,7 +4,7 @@
 
 // Use function to return the inverse of the left-tailed probability of the chi-squared distribution.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.CHISQ_INV(0.4, 10);
-oWorksheet.GetRange("B2").SetValue(ans);
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+let ans = func.CHISQ_INV(0.4, 10);
+worksheet.GetRange("B2").SetValue(ans);

@@ -4,8 +4,8 @@
 
 // Use a function to check whether a number is odd or not.
 
-const oWorksheet = Api.GetActiveSheet();
+const worksheet = Api.GetActiveSheet();
 
-var oFunction = Api.GetWorksheetFunction();
-var result = oFunction.ISODD("94");
-oWorksheet.GetRange("C3").SetValue(result);
+let func = Api.GetWorksheetFunction();
+let result = func.ISODD("94");
+worksheet.GetRange("C3").SetValue(result);

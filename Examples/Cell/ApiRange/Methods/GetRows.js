@@ -4,9 +4,9 @@
 
 // Get a range and change each cell's row value by getting all row objects.
 
-var oWorksheet = Api.GetActiveSheet();
-var oRange = oWorksheet.GetRange("1:3");
-for (var i=1; i <= 3; i++) {
-	var oRows = oRange.GetRows(i);    
-	oRows.SetValue(i);
+let worksheet = Api.GetActiveSheet();
+let range = worksheet.GetRange("1:3");
+for (let i=1; i <= 3; i++) {
+	let rows = range.GetRows(i);    
+	rows.SetValue(i);
 }

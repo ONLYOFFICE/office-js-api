@@ -4,9 +4,9 @@
 
 // Use function to get days count between two dates.
 
-const oWorksheet = Api.GetActiveSheet();
+const worksheet = Api.GetActiveSheet();
 
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.DAYS("3/31/2018", "3/16/2018"); 
+let func = Api.GetWorksheetFunction();
+let ans = func.DAYS("3/31/2018", "3/16/2018"); 
 
-oWorksheet.GetRange("C1").SetValue(ans);
+worksheet.GetRange("C1").SetValue(ans);

@@ -4,6 +4,6 @@
 
 // Get an active cell and insert data to it.
 
-var oWorksheet = Api.GetActiveSheet();
-var oActiveCell = oWorksheet.GetActiveCell();
-oActiveCell.SetValue("This sample text was placed in an active cell.");
+let worksheet = Api.GetActiveSheet();
+let activeCell = worksheet.GetActiveCell();
+activeCell.SetValue("This sample text was placed in an active cell.");

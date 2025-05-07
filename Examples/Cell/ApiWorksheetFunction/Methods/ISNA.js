@@ -4,8 +4,8 @@
 
 // Use a function to check whether a range data is an N/A value.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue(oFunction.ISNA("#N/A"));
-oWorksheet.GetRange("A2").SetValue(oFunction.ISNA(255));
-oWorksheet.GetRange("A3").SetValue(oFunction.ISNA("www.example.com"));
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue(func.ISNA("#N/A"));
+worksheet.GetRange("A2").SetValue(func.ISNA(255));
+worksheet.GetRange("A3").SetValue(func.ISNA("www.example.com"));

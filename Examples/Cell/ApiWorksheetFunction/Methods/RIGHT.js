@@ -4,6 +4,6 @@
 
 // Use a function to return n characters from the right part of a text.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue(oFunction.RIGHT("Online Office", 2));
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue(func.RIGHT("Online Office", 2));

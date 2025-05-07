@@ -5,9 +5,9 @@
 // Add freezed panes then unfreeze the first column and show all freezed ones' location to prove it.
 
 Api.SetFreezePanesType('column');
-var oWorksheet = Api.GetActiveSheet();
-var oFreezePanes = oWorksheet.GetFreezePanes();
-oFreezePanes.Unfreeze();
-var oRange = oFreezePanes.GetLocation();
-oWorksheet.GetRange("A1").SetValue("Location: ");
-oWorksheet.GetRange("B1").SetValue(oRange + "");
+let worksheet = Api.GetActiveSheet();
+let freezePanes = worksheet.GetFreezePanes();
+freezePanes.Unfreeze();
+let range = freezePanes.GetLocation();
+worksheet.GetRange("A1").SetValue("Location: ");
+worksheet.GetRange("B1").SetValue(range + "");

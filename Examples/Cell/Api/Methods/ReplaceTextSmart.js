@@ -4,9 +4,9 @@
 
 // Replace cell string values with a new ones.
 
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.GetRange("A1").SetValue("1");
-oWorksheet.GetRange("A2").SetValue("2");
-var oRange = oWorksheet.GetRange("A1:A2");
-oRange.Select();
+let worksheet = Api.GetActiveSheet();
+worksheet.GetRange("A1").SetValue("1");
+worksheet.GetRange("A2").SetValue("2");
+let range = worksheet.GetRange("A1:A2");
+range.Select();
 Api.ReplaceTextSmart(["Cell 1", "Cell 2"]);

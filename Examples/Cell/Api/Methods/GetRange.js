@@ -4,7 +4,7 @@
 
 // Update a rabge knowing its cell address.
 
-var oWorksheet = Api.GetActiveSheet();
-var oRange = Api.GetRange("A1:C1");
-oRange.SetFillColor(Api.CreateColorFromRGB(255, 213, 191));
-oWorksheet.GetRange("A3").SetValue("The color was set to the background of cells A1:C1.");
+let worksheet = Api.GetActiveSheet();
+let range = Api.GetRange("A1:C1");
+range.SetFillColor(Api.CreateColorFromRGB(255, 213, 191));
+worksheet.GetRange("A3").SetValue("The color was set to the background of cells A1:C1.");

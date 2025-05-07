@@ -4,8 +4,8 @@
 
 // Get a range and specify its orientation.
 
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.GetRange("A1").SetValue("1");
-oWorksheet.GetRange("B1").SetValue("2");
-var oRange = oWorksheet.GetRange("A1:B1");
-oRange.SetOrientation("xlUpward");
+let worksheet = Api.GetActiveSheet();
+worksheet.GetRange("A1").SetValue("1");
+worksheet.GetRange("B1").SetValue("2");
+let range = worksheet.GetRange("A1:B1");
+range.SetOrientation("xlUpward");

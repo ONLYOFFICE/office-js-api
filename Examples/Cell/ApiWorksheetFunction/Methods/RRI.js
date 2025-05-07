@@ -4,6 +4,6 @@
 
 // Use a function to an equivalent interest rate for the increase of an investment.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue(oFunction.RRI(12, 10000, 20000));
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue(func.RRI(12, 10000, 20000));

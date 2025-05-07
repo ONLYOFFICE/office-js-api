@@ -4,6 +4,6 @@
 
 // Use function to create one text string from multiple ones.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue(oFunction.CONCATENATE("John", " ", "Adams"));
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue(func.CONCATENATE("John", " ", "Adams"));

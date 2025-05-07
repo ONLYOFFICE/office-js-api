@@ -4,8 +4,8 @@
 
 // Use a function to estimate the Student's t-distribution left-tailed inverse.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-var result = oFunction.T_INV(0.75, 2);
-oWorksheet.GetRange("B2").SetValue(result);
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+let result = func.T_INV(0.75, 2);
+worksheet.GetRange("B2").SetValue(result);
 

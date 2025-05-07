@@ -4,6 +4,6 @@
 
 // Use a function to return the inverse of the lognormal cumulative distribution function.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue(oFunction.LOGNORM_INV(0.3, 2, 0.2));
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue(func.LOGNORM_INV(0.3, 2, 0.2));

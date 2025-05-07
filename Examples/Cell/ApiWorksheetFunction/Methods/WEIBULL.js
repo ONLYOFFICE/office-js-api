@@ -5,8 +5,8 @@
 // Use a function to calculate the Weibull distribution.
 
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-var result = oFunction.WEIBULL(12, 2, 5, true);
-oWorksheet.GetRange("B2").SetValue(result);
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+let result = func.WEIBULL(12, 2, 5, true);
+worksheet.GetRange("B2").SetValue(result);
 

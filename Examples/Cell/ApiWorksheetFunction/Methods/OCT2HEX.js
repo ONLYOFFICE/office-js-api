@@ -4,6 +4,6 @@
 
 // Use a function to convert an octal number to hexadecimal.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue(oFunction.OCT2HEX(7777777634, 4));
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue(func.OCT2HEX(7777777634, 4));

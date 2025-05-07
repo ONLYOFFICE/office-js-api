@@ -4,6 +4,6 @@
 
 // Use a function to get an array of characters from the middle of a string.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue(oFunction.MID("Online Office", 3, 4));
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue(func.MID("Online Office", 3, 4));

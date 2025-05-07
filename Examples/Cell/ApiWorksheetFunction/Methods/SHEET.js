@@ -4,7 +4,7 @@
 
 // Use a function to get a sheet index.
 
-const oWorksheet = Api.GetActiveSheet(); 
-var oFunction = Api.GetWorksheetFunction();
-var result = oFunction.SHEET("Sheet1");
-oWorksheet.GetRange("C3").SetValue(result);
+const worksheet = Api.GetActiveSheet(); 
+let func = Api.GetWorksheetFunction();
+let result = func.SHEET("Sheet1");
+worksheet.GetRange("C3").SetValue(result);

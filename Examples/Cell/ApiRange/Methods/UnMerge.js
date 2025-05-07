@@ -4,6 +4,6 @@
 
 // Get a range and split its merged cells.
 
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.GetRange("A3:E8").Merge(true);
-oWorksheet.GetRange("A5:E5").UnMerge();
+let worksheet = Api.GetActiveSheet();
+worksheet.GetRange("A3:E8").Merge(true);
+worksheet.GetRange("A5:E5").UnMerge();

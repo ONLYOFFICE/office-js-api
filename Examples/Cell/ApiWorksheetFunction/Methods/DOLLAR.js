@@ -4,6 +4,6 @@
 
 // Use function to get text from a number using dollar format.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue(oFunction.DOLLAR(98.9997, 3));
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue(func.DOLLAR(98.9997, 3));

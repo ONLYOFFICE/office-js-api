@@ -4,23 +4,21 @@
 
 // Use a function to get the normalised value from a distribution by different parameters.
 
-const oWorksheet = Api.GetActiveSheet();
+const worksheet = Api.GetActiveSheet();
 
-var valueArr = [5, -2, 10];
+let valueArr = [5, -2, 10];
 
 // Place the numbers in cells
-
-for (var i = 0; i < valueArr.length; i++) {
-  oWorksheet.GetRange("A" + (i + 1)).SetValue(valueArr[i]);
+for (let i = 0; i < valueArr.length; i++) {
+  worksheet.GetRange("A" + (i + 1)).SetValue(valueArr[i]);
 }
 
 // method params
+let x = worksheet.GetRange("A1");
+let mean = worksheet.GetRange("A2");
+let stdDev = worksheet.GetRange("A3");
 
-var x = oWorksheet.GetRange("A1");
-var mean = oWorksheet.GetRange("A2");
-var stdDev = oWorksheet.GetRange("A3");
+let func = Api.GetWorksheetFunction();
+let ans = func.STANDARDIZE(x, mean, stdDev);
 
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.STANDARDIZE(x, mean, stdDev);
-
-oWorksheet.GetRange("C1").SetValue(ans);
+worksheet.GetRange("C1").SetValue(ans);

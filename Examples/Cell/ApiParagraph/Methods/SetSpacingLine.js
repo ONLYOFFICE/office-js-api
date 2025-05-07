@@ -4,22 +4,22 @@
 
 // Get a paragraph from the shape's content then add a text specifying the spacing between text lines.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oShape = oWorksheet.AddShape("flowChartOnlineStorage", 120 * 36000, 70 * 36000, oFill, oStroke, 0, 2 * 36000, 0, 3 * 36000);
-var oDocContent = oShape.GetContent();
-var oParagraph = oDocContent.GetElement(0);
-oParagraph.SetSpacingLine(2 * 240, "auto");
-oParagraph.AddText("Paragraph 1. Spacing: 2 times of a common paragraph line spacing.");
-oParagraph.AddLineBreak();
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-oParagraph = Api.CreateParagraph();
-oParagraph.SetSpacingLine(200, "exact");
-oParagraph.AddText("Paragraph 2. Spacing: exact 10 points.");
-oParagraph.AddLineBreak();
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-oParagraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-oDocContent.Push(oParagraph);
+let worksheet = Api.GetActiveSheet();
+let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+let stroke = Api.CreateStroke(0, Api.CreateNoFill());
+let shape = worksheet.AddShape("flowChartOnlineStorage", 120 * 36000, 70 * 36000, fill, stroke, 0, 2 * 36000, 0, 3 * 36000);
+let content = shape.GetContent();
+let paragraph = content.GetElement(0);
+paragraph.SetSpacingLine(2 * 240, "auto");
+paragraph.AddText("Paragraph 1. Spacing: 2 times of a common paragraph line spacing.");
+paragraph.AddLineBreak();
+paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
+paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
+paragraph = Api.CreateParagraph();
+paragraph.SetSpacingLine(200, "exact");
+paragraph.AddText("Paragraph 2. Spacing: exact 10 points.");
+paragraph.AddLineBreak();
+paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
+paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
+paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
+content.Push(paragraph);

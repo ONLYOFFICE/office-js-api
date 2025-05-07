@@ -4,6 +4,6 @@
 
 // Use a function to convert a value to text.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue(oFunction.TEXT(45.5, "$0.00"));
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue(func.TEXT(45.5, "$0.00"));

@@ -4,6 +4,6 @@
 
 // Use function to count possible combinations with duplicates for a given number of items.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue(oFunction.COMBINA(7, 2));
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue(func.COMBINA(7, 2));

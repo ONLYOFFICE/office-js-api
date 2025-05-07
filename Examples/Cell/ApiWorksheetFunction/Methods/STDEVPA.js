@@ -4,17 +4,16 @@
 
 // Use a function to get the standard deviation.
 
-const oWorksheet = Api.GetActiveSheet();
+const worksheet = Api.GetActiveSheet();
 
-var valueArr = [1, 0, 0, false, 5, 1, 0, 0, 2, true, 6, 7, 6, 8, 10, 12];
+let valueArr = [1, 0, 0, false, 5, 1, 0, 0, 2, true, 6, 7, 6, 8, 10, 12];
 
 // Place the numbers in cells
-
-for (var i = 0; i < valueArr.length; i++) {
-  oWorksheet.GetRange("A" + (i + 1)).SetValue(valueArr[i]);
+for (let i = 0; i < valueArr.length; i++) {
+  worksheet.GetRange("A" + (i + 1)).SetValue(valueArr[i]);
 }
 
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.STDEVPA(1, 0, 0, false, 5, 1, 0, 0, 2, true, 6, 7, 6, 8, 10, 12); //includes logical values
+let func = Api.GetWorksheetFunction();
+let ans = func.STDEVPA(1, 0, 0, false, 5, 1, 0, 0, 2, true, 6, 7, 6, 8, 10, 12); //includes logical values
 
-oWorksheet.GetRange("C1").SetValue(ans);
+worksheet.GetRange("C1").SetValue(ans);

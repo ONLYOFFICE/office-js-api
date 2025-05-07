@@ -4,9 +4,9 @@
 
 // Get all protected ranges as an array.
 
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.AddProtectedRange("protectedRange1", "Sheet1!$A$1:$B$1");
-oWorksheet.AddProtectedRange("protectedRange2", "Sheet1!$A$2:$B$2");
-var protectedRanges = oWorksheet.GetAllProtectedRanges();
+let worksheet = Api.GetActiveSheet();
+worksheet.AddProtectedRange("protectedRange1", "Sheet1!$A$1:$B$1");
+worksheet.AddProtectedRange("protectedRange2", "Sheet1!$A$2:$B$2");
+let protectedRanges = worksheet.GetAllProtectedRanges();
 protectedRanges[0].SetTitle("protectedRangeNew1");
 protectedRanges[1].SetTitle("protectedRangeNew2");

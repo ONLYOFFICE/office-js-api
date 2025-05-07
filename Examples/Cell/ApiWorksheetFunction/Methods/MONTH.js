@@ -4,9 +4,9 @@
 
 // Use a function to get a month.
 
-const oWorksheet = Api.GetActiveSheet();
+const worksheet = Api.GetActiveSheet();
 
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.MONTH("3/16/2018"); 
+let func = Api.GetWorksheetFunction();
+let ans = func.MONTH("3/16/2018"); 
 
-oWorksheet.GetRange("C1").SetValue(ans);
+worksheet.GetRange("C1").SetValue(ans);

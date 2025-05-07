@@ -4,6 +4,6 @@
 
 // Use a function to get a length of a text starting from the index.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue(oFunction.LEFT("Online Office", 6));
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue(func.LEFT("Online Office", 6));

@@ -4,6 +4,6 @@
 
 // Use function to get days count from the beginning of the coupon period to the settlement date.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue(oFunction.COUPDAYBS("1/10/2018", "6/15/2019", 4, 1));
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue(func.COUPDAYBS("1/10/2018", "6/15/2019", 4, 1));

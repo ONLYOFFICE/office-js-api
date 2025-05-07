@@ -4,5 +4,5 @@
 
 // Paste to the worksheet.
 
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.Paste();
+let worksheet = Api.GetActiveSheet();
+worksheet.Paste();

@@ -4,6 +4,6 @@
 
 // Use function to convert a binary to hexadecimal.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue(oFunction.BIN2HEX(1110011100, 4));
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue(func.BIN2HEX(1110011100, 4));

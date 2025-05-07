@@ -4,6 +4,6 @@
 
 // Use function to compare two numbers if it returns 1 they are equal else 0.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue(oFunction.DELTA(23, 24));
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue(func.DELTA(23, 24));

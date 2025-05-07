@@ -4,6 +4,6 @@
 
 // Set a boolean value representing whether to display row/column headings or not.
 
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.GetRange("A2").SetValue("The sheet settings make it display no row/column headers");
-oWorksheet.SetDisplayHeadings(false);
+let worksheet = Api.GetActiveSheet();
+worksheet.GetRange("A2").SetValue("The sheet settings make it display no row/column headers");
+worksheet.SetDisplayHeadings(false);

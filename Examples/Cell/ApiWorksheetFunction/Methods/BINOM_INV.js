@@ -4,7 +4,7 @@
 
 // Use function to get a minimum value so that the cumulative binomial distribution >= criterion value.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.BINOM_INV(678, 0.1, 0.007);
-oWorksheet.GetRange("B2").SetValue(ans);
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+let ans = func.BINOM_INV(678, 0.1, 0.007);
+worksheet.GetRange("B2").SetValue(ans);

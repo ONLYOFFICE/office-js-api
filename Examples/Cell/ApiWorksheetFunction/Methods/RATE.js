@@ -4,6 +4,6 @@
 
 // Use a function to get the loan/investment interest rate per period.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue(oFunction.RATE(2*12, -500, 10000, 0));
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue(func.RATE(2*12, -500, 10000, 0));

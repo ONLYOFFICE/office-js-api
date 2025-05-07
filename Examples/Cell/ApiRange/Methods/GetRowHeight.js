@@ -4,7 +4,7 @@
 
 // Get a range and display its row height in the worksheet.
 
-var oWorksheet = Api.GetActiveSheet();
-var nHeight = oWorksheet.GetRange("A1").GetRowHeight();
-oWorksheet.GetRange("A1").SetValue("Height: ");
-oWorksheet.GetRange("B1").SetValue(nHeight);
+let worksheet = Api.GetActiveSheet();
+let height = worksheet.GetRange("A1").GetRowHeight();
+worksheet.GetRange("A1").SetValue("Height: ");
+worksheet.GetRange("B1").SetValue(height);

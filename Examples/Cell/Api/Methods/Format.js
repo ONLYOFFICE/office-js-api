@@ -4,6 +4,6 @@
 
 // Change a format of a range using an expression.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFormat = Api.Format("123456", "$#,##0");
-oWorksheet.GetRange("A1").SetValue(oFormat);
+let worksheet = Api.GetActiveSheet();
+let format = Api.Format("123456", "$#,##0");
+worksheet.GetRange("A1").SetValue(format);

@@ -4,6 +4,6 @@
 
 // Get used ranges and fill it with color.
 
-var oWorksheet = Api.GetActiveSheet();
-var oUsedRange = oWorksheet.GetUsedRange();
-oUsedRange.SetFillColor(Api.CreateColorFromRGB(255, 213, 191));
+let worksheet = Api.GetActiveSheet();
+let usedRange = worksheet.GetUsedRange();
+usedRange.SetFillColor(Api.CreateColorFromRGB(255, 213, 191));

@@ -4,7 +4,7 @@
 
 // Get a range and apply autofit property.
 
-var oWorksheet = Api.GetActiveSheet();
-var oRange = oWorksheet.GetRange("A1");
-oRange.SetValue("This is an example of the column width autofit.");
-oRange.AutoFit(false, true);
+let worksheet = Api.GetActiveSheet();
+let range = worksheet.GetRange("A1");
+range.SetValue("This is an example of the column width autofit.");
+range.AutoFit(false, true);

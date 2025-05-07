@@ -4,10 +4,10 @@
 
 // Get a range, get its cell formula and show it in the worksheet.
 
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.GetRange("B1").SetValue(1);
-oWorksheet.GetRange("C1").SetValue(2);
-var oRange = oWorksheet.GetRange("A1");
-oRange.SetValue("=SUM(B1:C1)");
-var sFormula = oRange.GetFormula();
-oWorksheet.GetRange("A3").SetValue("Formula from cell A1: " + sFormula);
+let worksheet = Api.GetActiveSheet();
+worksheet.GetRange("B1").SetValue(1);
+worksheet.GetRange("C1").SetValue(2);
+let range = worksheet.GetRange("A1");
+range.SetValue("=SUM(B1:C1)");
+let formula = range.GetFormula();
+worksheet.GetRange("A3").SetValue("Formula from cell A1: " + formula);

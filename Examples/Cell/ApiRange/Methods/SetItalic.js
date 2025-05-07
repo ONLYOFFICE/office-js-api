@@ -4,7 +4,7 @@
 
 // Get a range and make specified cells font style italic.
 
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.GetRange("A2").SetValue("Italicized text");
-oWorksheet.GetRange("A2").SetItalic(true);
-oWorksheet.GetRange("A3").SetValue("Normal text");
+let worksheet = Api.GetActiveSheet();
+worksheet.GetRange("A2").SetValue("Italicized text");
+worksheet.GetRange("A2").SetItalic(true);
+worksheet.GetRange("A3").SetValue("Normal text");

@@ -4,9 +4,9 @@
 
 // Get a font object of characters and make it italic.
 
-var oWorksheet = Api.GetActiveSheet();
-var oRange = oWorksheet.GetRange("B1");
-oRange.SetValue("This is just a sample text.");
-var oCharacters = oRange.GetCharacters(9, 4);
-var oFont = oCharacters.GetFont();
-oFont.SetItalic(true);
+let worksheet = Api.GetActiveSheet();
+let range = worksheet.GetRange("B1");
+range.SetValue("This is just a sample text.");
+let characters = range.GetCharacters(9, 4);
+let font = characters.GetFont();
+font.SetItalic(true);

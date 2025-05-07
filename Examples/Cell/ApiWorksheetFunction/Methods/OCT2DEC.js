@@ -4,6 +4,6 @@
 
 // Use a function to convert an octal to a decimal number.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue(oFunction.OCT2DEC(7777777634));
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue(func.OCT2DEC(7777777634));

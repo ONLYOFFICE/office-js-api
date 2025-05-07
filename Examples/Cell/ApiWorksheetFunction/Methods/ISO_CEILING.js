@@ -4,6 +4,6 @@
 
 // Use a function to round up a number to the nearest integer.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue(oFunction.ISO_CEILING(-6.7, 2));
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue(func.ISO_CEILING(-6.7, 2));

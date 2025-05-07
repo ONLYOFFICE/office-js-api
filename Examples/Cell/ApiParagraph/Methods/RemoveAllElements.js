@@ -4,17 +4,17 @@
 
 // Create a paragraph, add a text to it then delete all elements from it.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oShape = oWorksheet.AddShape("flowChartOnlineStorage", 120 * 36000, 70 * 36000, oFill, oStroke, 0, 2 * 36000, 0, 3 * 36000);
-var oDocContent = oShape.GetContent();
-var oParagraph = oDocContent.GetElement(0);
-var oRun = Api.CreateRun();
-oRun.AddText("This is the first text run in the current paragraph.");
-oParagraph.AddElement(oRun);
-oParagraph.RemoveAllElements();
-oRun = Api.CreateRun();
-oRun.AddText("We removed all the paragraph elements and added a new text run inside it.");
-oParagraph.AddElement(oRun);
-oDocContent.Push(oParagraph);
+let worksheet = Api.GetActiveSheet();
+let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+let stroke = Api.CreateStroke(0, Api.CreateNoFill());
+let shape = worksheet.AddShape("flowChartOnlineStorage", 120 * 36000, 70 * 36000, fill, stroke, 0, 2 * 36000, 0, 3 * 36000);
+let content = shape.GetContent();
+let paragraph = content.GetElement(0);
+let run = Api.CreateRun();
+run.AddText("This is the first text run in the current paragraph.");
+paragraph.AddElement(run);
+paragraph.RemoveAllElements();
+run = Api.CreateRun();
+run.AddText("We removed all the paragraph elements and added a new text run inside it.");
+paragraph.AddElement(run);
+content.Push(paragraph);

@@ -4,20 +4,19 @@
 
 // Use a function to get the normal distribution knowing the mean and standard deviation.
 
-const oWorksheet = Api.GetActiveSheet();
-var valueArr = [36, 6, 7, false];
+const worksheet = Api.GetActiveSheet();
+let valueArr = [36, 6, 7, false];
 
 // Place the numbers in cells
-
-for (var i = 0; i < valueArr.length; i++) {
-  oWorksheet.GetRange("A" + (i + 1)).SetValue(valueArr[i]);
+for (let i = 0; i < valueArr.length; i++) {
+  worksheet.GetRange("A" + (i + 1)).SetValue(valueArr[i]);
 }
 
 //method params
-var x = oWorksheet.GetRange("A1").GetValue();
-var mean = oWorksheet.GetRange("A2").GetValue();
-var standardDeviation = oWorksheet.GetRange("A3").GetValue();
-var cumulative = oWorksheet.GetRange("A4").GetValue();
-var oFunction = Api.GetWorksheetFunction();
-var normalDist = oFunction.NORM_DIST(x, mean, standardDeviation, cumulative);
-oWorksheet.GetRange("C1").SetValue(normalDist);
+let x = worksheet.GetRange("A1").GetValue();
+let mean = worksheet.GetRange("A2").GetValue();
+let standardDeviation = worksheet.GetRange("A3").GetValue();
+let cumulative = worksheet.GetRange("A4").GetValue();
+let func = Api.GetWorksheetFunction();
+let normalDist = func.NORM_DIST(x, mean, standardDeviation, cumulative);
+worksheet.GetRange("C1").SetValue(normalDist);

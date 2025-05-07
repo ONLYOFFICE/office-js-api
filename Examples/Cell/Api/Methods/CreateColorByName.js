@@ -4,7 +4,7 @@
 
 // Find a color by name and use it to change font color
 
-var oWorksheet = Api.GetActiveSheet();
-var oColor = Api.CreateColorByName("peachPuff");
-oWorksheet.GetRange("A2").SetValue("Text with color");
-oWorksheet.GetRange("A2").SetFontColor(oColor);
+let worksheet = Api.GetActiveSheet();
+let color = Api.CreateColorByName("peachPuff");
+worksheet.GetRange("A2").SetValue("Text with color");
+worksheet.GetRange("A2").SetFontColor(color);

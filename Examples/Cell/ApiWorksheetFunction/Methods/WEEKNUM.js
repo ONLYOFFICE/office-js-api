@@ -4,9 +4,9 @@
 
 // Use a function to get a weekday using numbers.
 
-const oWorksheet = Api.GetActiveSheet();
+const worksheet = Api.GetActiveSheet();
 
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.WEEKNUM("11/5/2018", 2); 
+let func = Api.GetWorksheetFunction();
+let ans = func.WEEKNUM("11/5/2018", 2); 
 
-oWorksheet.GetRange("C1").SetValue(ans);
+worksheet.GetRange("C1").SetValue(ans);

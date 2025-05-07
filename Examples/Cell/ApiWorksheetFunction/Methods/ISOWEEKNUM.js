@@ -4,9 +4,9 @@
 
 // Use a function to get an ISO week number in the year.
 
-const oWorksheet = Api.GetActiveSheet();
+const worksheet = Api.GetActiveSheet();
 
-var oFunction = Api.GetWorksheetFunction();
-var ans = oFunction.ISOWEEKNUM("9/1/2017"); 
+let func = Api.GetWorksheetFunction();
+let ans = func.ISOWEEKNUM("9/1/2017"); 
 
-oWorksheet.GetRange("C1").SetValue(ans);
+worksheet.GetRange("C1").SetValue(ans);

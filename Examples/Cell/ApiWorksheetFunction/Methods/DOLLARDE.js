@@ -4,6 +4,6 @@
 
 // Use function to get decimal from fraction price.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue(oFunction.DOLLARDE(1.03, 16));
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue(func.DOLLARDE(1.03, 16));

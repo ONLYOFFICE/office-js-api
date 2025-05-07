@@ -4,6 +4,6 @@
 
 // Use a function to make proper casing for all text strings.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue(oFunction.PROPER("dAVID CONNOR"));
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue(func.PROPER("dAVID CONNOR"));

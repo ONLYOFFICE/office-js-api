@@ -4,6 +4,6 @@
 
 // Use function to get an error function set between 0 and lower limits.
 
-var oWorksheet = Api.GetActiveSheet();
-var oFunction = Api.GetWorksheetFunction();
-oWorksheet.GetRange("A1").SetValue(oFunction.ERFC_PRECISE(0.745));
+let worksheet = Api.GetActiveSheet();
+let func = Api.GetWorksheetFunction();
+worksheet.GetRange("A1").SetValue(func.ERFC_PRECISE(0.745));

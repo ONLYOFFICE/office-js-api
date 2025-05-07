@@ -4,5 +4,5 @@
 
 // Get selection from the worksheet and set its value.
 
-var oWorksheet = Api.GetActiveSheet();
-oWorksheet.GetSelection().SetValue("selected");
+let worksheet = Api.GetActiveSheet();
+worksheet.GetSelection().SetValue("selected");
