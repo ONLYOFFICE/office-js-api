@@ -16,5 +16,5 @@ let animalNode = xml.GetNodes('/zoo/animal')[0];
 let rootNode = animalNode.GetParent();
 let nullNode = rootNode.GetParent();
 let paragraph = Api.CreateParagraph();
-paragraph.AddText(`Root node name: ${rootNode.baseName}; parent of root node: ${nullNode}`);
+paragraph.AddText(`Root node name: ${rootNode.GetNodeName()}; parent of root node: ${nullNode}`);
 doc.Push(paragraph);

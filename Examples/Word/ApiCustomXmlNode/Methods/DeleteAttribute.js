@@ -15,10 +15,6 @@ let xml = xmlManager.Add(xmlText);
 let node = xml.GetNodes('/bookstore/book')[0];
 node.DeleteAttribute('category');
 let attributes = node.GetAttributes();
-console.log(attributes)
-let paragraph = Api.CreateParagraph();
-paragraph.AddText("Attributes of book node:\r\n");
-attributes.forEach((attribute, index) => {
-    paragraph.AddText(`Attribute #${index} "${attribute.name}" with value: ${attribute.value}\r\n`);
-})
-doc.Push(paragraph);
+let infoParagraph = Api.CreateParagraph();
+infoParagraph.AddText("Xml after deletion: " + xml.GetXml());
+doc.Push(infoParagraph);
