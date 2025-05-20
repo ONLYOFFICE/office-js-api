@@ -4,8 +4,8 @@ let xmlManager = doc.GetCustomXmlParts();
 let xmlText = `
 <?xml version="1.0" encoding="UTF-8"?>
 <documentData xmlns="http://example.com/example">
-    <text attribute1="attribute1 value">node text</text>
-    <label attribute2="attribute2 value">label text</label>
+    <text val="123">node text</text>
+    <label name="Title">label text</label>
 </documentData>`;
 let xml = xmlManager.Add(xmlText);
 let nodes = xml.GetNodes("/documentData/*");
@@ -14,5 +14,5 @@ let paragraph = Api.CreateParagraph();
 nodes.forEach(node => {
     paragraph.AddText("Node text: " + node.GetText() + "\r\n");
 });
-paragraph.AddText("Label attribute: " + label.GetAttribute("attribute2"));
+paragraph.AddText("Label attribute: " + label.GetAttribute("name"));
 doc.Push(paragraph);

@@ -6,7 +6,7 @@ let xmlText = `
 <pic:documentData xmlns:pic="http://example.com/picture">
   <pic:text>123</pic:text>
 </pic:documentData>`;
-let partId = xmlManager.Add(xmlText).id;
+let partId = xmlManager.Add(xmlText).GetId();
 let contentControl = Api.CreateBlockLvlSdt();
 doc.Push(contentControl);
 contentControl.SetDataBinding({
