@@ -6,13 +6,17 @@ let xmlText = `
 <pic:documentData xmlns:pic="http://example.com/picture">
   <pic:text>123</pic:text>
 </pic:documentData>`;
-let id = xmlManager.Add(xmlText).id;
-let blockLvl = Api.CreateBlockLvlSdt();
-doc.InsertContent([blockLvl]);
-let dataBinding = Api.CreateDataBinding('xmlns:pic="http://example.com/picture"', id, '/pic:documentData/pic:text');
-blockLvl.SetDataBinding(dataBinding);
-dataBinding = null;
-dataBinding = blockLvl.GetDataBinding();
-let paragraph1 = Api.CreateParagraph();
-paragraph1.AddText(dataBinding.GetItemId());
-doc.Push(paragraph1);
+let partId = xmlManager.Add(xmlText).id;
+let contentControl = Api.CreateInlineLvlSdt();
+contentControl.SetDataBinding({
+  prefixMapping : "xmlns:pic='http://example.com/picture'",
+  storeItemID : partId,
+  xpath : "/pic:documentData/pic:text"
+});
+let paragraph = doc.GetElement(0);
+paragraph.Push(contentControl);
+
+let dataBinding = contentControl.GetDataBinding();
+paragraph = Api.CreateParagraph();
+paragraph.AddText(dataBinding.storeItemID);
+doc.Push(paragraph);
