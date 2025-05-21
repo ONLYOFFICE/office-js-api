@@ -5,16 +5,16 @@
             "name": "Run single test",
             "type": "debugpy",
             "request": "launch",
-            "cwd": "${cwd}/../Dep.Tests/docbuilder-docs/scripts",
-            "program": "check.py",
+            "cwd": "${cwd}/../Dep.Tests/docbuilder",
+            "program": "check-docs.py",
             "args": ["--test_file", "${file}"]
         },
         {
             "name": "Run all tests",
             "type": "debugpy",
             "request": "launch",
-            "cwd": "${cwd}/../Dep.Tests/docbuilder-docs/scripts",
-            "program": "check.py"
+            "cwd": "${cwd}/../Dep.Tests/docbuilder",
+            "program": "check-docs.py"
         }
     ]
 }
