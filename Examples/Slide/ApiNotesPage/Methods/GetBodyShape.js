@@ -1,27 +1,27 @@
 // This example shows how to get the body shape from a notes page.
 
-const oPresentation = Api.GetPresentation();
-const oSlide = oPresentation.GetSlideByIndex(0);
-const oNotesPage = oSlide.GetNotesPage();
+const presentation = Api.GetPresentation();
+const slide = presentation.GetSlideByIndex(0);
+const notesPage = slide.GetNotesPage();
 
-let sMessage = 'No notes page available.';
+let message = 'No notes page available.';
 
-if (oNotesPage) {
-	const oBodyShape = oNotesPage.GetBodyShape();
-	if (oBodyShape) {
-		sMessage = 'Body shape exists.';
+if (notesPage) {
+	const bodyShape = notesPage.GetBodyShape();
+	if (bodyShape) {
+		message = 'Body shape exists.';
 	} else {
-		sMessage = 'No body shape available.';
+		message = 'No body shape available.';
 	}
 }
 
-const oFill = Api.CreateSolidFill(Api.CreateRGBColor(100, 150, 200));
-const oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-const oShape = Api.CreateShape('rect', 300 * 36000, 150 * 36000, oFill, oStroke);
-oShape.SetPosition(0, 3 * 36000);
-const oDocContent = oShape.GetDocContent();
-const oParagraph = oDocContent.GetElement(0);
-oParagraph.AddText(sMessage);
+const fill = Api.CreateSolidFill(Api.CreateRGBColor(100, 150, 200));
+const stroke = Api.CreateStroke(0, Api.CreateNoFill());
+const shape = Api.CreateShape('rect', 300 * 36000, 150 * 36000, fill, stroke);
+shape.SetPosition(0, 3 * 36000);
+const docContent = shape.GetDocContent();
+const paragraph = docContent.GetElement(0);
+paragraph.AddText(message);
 
-oSlide.RemoveAllObjects();
-oSlide.AddObject(oShape);
+slide.RemoveAllObjects();
+slide.AddObject(shape);

@@ -1,34 +1,31 @@
 // This example shows how to get the selected shapes from current selection.
 
-const oPresentation = Api.GetPresentation();
-const oSlide = oPresentation.GetSlideByIndex(0);
-oSlide.RemoveAllObjects();
+const presentation = Api.GetPresentation();
+const slide = presentation.GetSlideByIndex(0);
+slide.RemoveAllObjects();
 
-// Create two shapes
-const oFill1 = Api.CreateSolidFill(Api.CreateRGBColor(0, 100, 200));
-const oStroke1 = Api.CreateStroke(0, Api.CreateNoFill());
-const oShape1 = Api.CreateShape('rect', 80 * 36000, 20 * 36000, oFill1, oStroke1);
-oShape1.SetPosition(0, 0);
-oSlide.AddObject(oShape1);
+const fill1 = Api.CreateSolidFill(Api.CreateRGBColor(0, 100, 200));
+const stroke1 = Api.CreateStroke(0, Api.CreateNoFill());
+const shape1 = Api.CreateShape('rect', 80 * 36000, 20 * 36000, fill1, stroke1);
+shape1.SetPosition(0, 0);
+slide.AddObject(shape1);
 
-const oFill2 = Api.CreateSolidFill(Api.CreateRGBColor(0, 200, 100));
-const oStroke2 = Api.CreateStroke(0, Api.CreateNoFill());
-const oShape2 = Api.CreateShape('ellipse', 60 * 36000, 20 * 36000, oFill2, oStroke2);
-oShape2.SetPosition(100 * 36000, 0);
-oSlide.AddObject(oShape2);
+const fill2 = Api.CreateSolidFill(Api.CreateRGBColor(0, 200, 100));
+const stroke2 = Api.CreateStroke(0, Api.CreateNoFill());
+const shape2 = Api.CreateShape('ellipse', 60 * 36000, 20 * 36000, fill2, stroke2);
+shape2.SetPosition(100 * 36000, 0);
+slide.AddObject(shape2);
 
-// Select only the first shape
-oShape1.Select();
-const oSelection = Api.GetSelection();
-const aShapes = oSelection.GetShapes();
-const sResult = 'Selected shapes count: ' + aShapes.length;
+shape1.Select();
+const selection = Api.GetSelection();
+const shapes = selection.GetShapes();
+const result = 'Selected shapes count: ' + shapes.length;
 
-// Show result in a new shape
-const oOutShapeFill = Api.CreateSolidFill(Api.CreateRGBColor(50, 70, 180));
-const oOutShapeStroke = Api.CreateStroke(0, Api.CreateNoFill());
-const oOutShape = Api.CreateShape('rect', 160 * 36000, 30 * 36000, oOutShapeFill, oOutShapeStroke);
-oOutShape.SetPosition(0, 30 * 36000);
-const oOutDoc = oOutShape.GetDocContent();
-const oOutParagraph = oOutDoc.GetElement(0);
-oOutParagraph.AddText(sResult);
-oSlide.AddObject(oOutShape);
+const outShapeFill = Api.CreateSolidFill(Api.CreateRGBColor(50, 70, 180));
+const outShapeStroke = Api.CreateStroke(0, Api.CreateNoFill());
+const outShape = Api.CreateShape('rect', 160 * 36000, 30 * 36000, outShapeFill, outShapeStroke);
+outShape.SetPosition(0, 30 * 36000);
+const outDoc = outShape.GetDocContent();
+const outParagraph = outDoc.GetElement(0);
+outParagraph.AddText(result);
+slide.AddObject(outShape);

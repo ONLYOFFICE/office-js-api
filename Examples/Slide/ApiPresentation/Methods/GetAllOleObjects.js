@@ -1,32 +1,29 @@
 // This example shows how to get all the OLE objects from the current presentation.
 
-const oPresentation = Api.GetPresentation();
-const oSlide = oPresentation.GetSlideByIndex(0);
-oSlide.RemoveAllObjects();
-const oSlideMaster = oPresentation.GetMaster(0);
-oSlideMaster.RemoveObject(0, oSlideMaster.GetAllDrawings().length);
+const presentation = Api.GetPresentation();
+const slide = presentation.GetSlideByIndex(0);
+slide.RemoveAllObjects();
+const slideMaster = presentation.GetMaster(0);
+slideMaster.RemoveObject(0, slideMaster.GetAllDrawings().length);
 
-// Create OLE objects with an image and URL and add them to the slide and slide master
-const oOleObject1 = Api.CreateOleObject(
+const oleObject1 = Api.CreateOleObject(
 	'https://api.onlyoffice.com/img/logo.svg',
 	174 * 36000, 38 * 36000,
 	'https://youtu.be/SKGz4pmnpgY',
 	'asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}'
 );
-oSlide.AddObject(oOleObject1);
-const oOleObject2 = oOleObject1.Copy();
-oOleObject2.SetPosition(0, 48 * 36000);
-oSlideMaster.AddObject(oOleObject2);
+slide.AddObject(oleObject1);
+const oleObject2 = oleObject1.Copy();
+oleObject2.SetPosition(0, 48 * 36000);
+slideMaster.AddObject(oleObject2);
 
-// Create a label to show the number of OLE objects
-const oLabelFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 230, 150));
-const oLabelStroke = Api.CreateStroke(0, Api.CreateNoFill());
-const oLabel = Api.CreateShape('rect', 60 * 36000, 20 * 36000, oLabelFill, oLabelStroke);
-oLabel.SetPosition(0, 96 * 36000);
-oSlide.AddObject(oLabel);
+const labelFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 230, 150));
+const labelStroke = Api.CreateStroke(0, Api.CreateNoFill());
+const label = Api.CreateShape('rect', 60 * 36000, 20 * 36000, labelFill, labelStroke);
+label.SetPosition(0, 96 * 36000);
+slide.AddObject(label);
 
-// Add number of OLE objects in the presentation as text inside the label
-const aOleObjects = oPresentation.GetAllOleObjects();
-const oDocContent = oLabel.GetDocContent();
-const oParagraph = oDocContent.GetElement(0);
-oParagraph.AddText('OLE Objects: ' + aOleObjects.length);
+const oleObjects = presentation.GetAllOleObjects();
+const docContent = label.GetDocContent();
+const paragraph = docContent.GetElement(0);
+paragraph.AddText('OLE Objects: ' + oleObjects.length);
