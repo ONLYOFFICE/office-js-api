@@ -2,7 +2,7 @@
 
 const document = Api.GetDocument();
 const core = document.GetCore();
-core.SetCreator("Eduard B.");
+core.SetCreator("John Smith");
 
 const creator = core.GetCreator();
 const paragraph = document.GetElement(0);

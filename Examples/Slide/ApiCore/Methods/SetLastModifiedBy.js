@@ -2,7 +2,7 @@
 
 const presentation = Api.GetPresentation();
 const core = presentation.GetCore();
-core.SetLastModifiedBy("Sergey L.");
+core.SetLastModifiedBy("Mark Pottato");
 
 const fill = Api.CreateSolidFill(Api.CreateRGBColor(100, 150, 200));
 const stroke = Api.CreateStroke(0, Api.CreateNoFill());
