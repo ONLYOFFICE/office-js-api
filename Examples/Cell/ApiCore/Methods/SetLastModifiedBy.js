@@ -3,7 +3,7 @@
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();
 
-core.SetLastModifiedBy("Sergey L.");
+core.SetLastModifiedBy("Mark Pottato");
 const lastModifiedBy = core.GetLastModifiedBy();
 
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(100, 50, 200));

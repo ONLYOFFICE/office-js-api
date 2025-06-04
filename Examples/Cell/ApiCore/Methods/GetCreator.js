@@ -3,7 +3,7 @@
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();
 
-core.SetCreator("Eduard B.");
+core.SetCreator("John Smith");
 const creator = core.GetCreator();
 
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(100, 50, 200));

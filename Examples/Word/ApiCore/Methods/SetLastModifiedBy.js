@@ -2,7 +2,7 @@
 
 const document = Api.GetDocument();
 const core = document.GetCore();
-core.SetLastModifiedBy("Sergey L.");
+core.SetLastModifiedBy("Mark Pottato");
 
 const lastModifiedBy = core.GetLastModifiedBy();
 let paragraph = document.GetElement(0);
