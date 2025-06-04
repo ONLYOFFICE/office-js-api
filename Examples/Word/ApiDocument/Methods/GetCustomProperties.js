@@ -16,5 +16,5 @@ const boolValue = customProps.GetPropertyValueByName("MyBoolProperty");
 let paragraph = document.GetElement(0);
 paragraph.AddText("Custom String Property: " + stringValue);
 paragraph.AddText("\nCustom Number Property: " + numberValue);
-paragraph.AddText("\nCustom Date Property: " + new Date(dateValue).toDateString());
+paragraph.AddText("\nCustom Date Property: " + dateValue.toDateString());
 paragraph.AddText("\nCustom Boolean Property: " + boolValue);
