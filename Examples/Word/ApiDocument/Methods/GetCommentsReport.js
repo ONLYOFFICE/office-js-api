@@ -1,4 +1,9 @@
 // This example shows how to get a report about all the comments added to the document.
+
+// Retrieve each comment reports and display their contents one by one.
+
+// Create a table and insert the comment reports to its cells.
+
 let doc = Api.GetDocument();
 let paragraph1 = doc.GetElement(0);
 paragraph1.AddText("Commenting");

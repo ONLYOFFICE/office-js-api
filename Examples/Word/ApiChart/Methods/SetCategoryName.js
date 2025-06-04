@@ -1,4 +1,9 @@
 // This example sets a category name for chart.
+
+// How to rename category of the chart.
+
+// Create a chart and set a name for its first category.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

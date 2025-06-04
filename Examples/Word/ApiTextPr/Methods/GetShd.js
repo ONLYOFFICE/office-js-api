@@ -1,3 +1,9 @@
+// This example shows how to find out the shading type of the text.
+
+// Get the shading of the text and display it in the document.
+
+// How to know the text shading type.
+
 let doc = Api.GetDocument();
 let myNewRunStyle = doc.CreateStyle("My New Run Style", "run");
 let textPr = myNewRunStyle.GetTextPr();

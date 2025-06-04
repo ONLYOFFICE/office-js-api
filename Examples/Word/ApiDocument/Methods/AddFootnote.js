@@ -1,4 +1,9 @@
 // This example adds footnote fot the document.
+
+// How to add footnote to the document.
+
+// Get all footnotes first paragraphs and make the first one bold.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0); 
 paragraph.AddText("This is just a sample text.");

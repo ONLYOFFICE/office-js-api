@@ -1,4 +1,9 @@
 // This example shows how to get an array of document elements from the document content.
+
+// Retrieve each document element.
+
+// Update properties of document elements knowing their order position.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));

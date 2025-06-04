@@ -1,4 +1,9 @@
 // This example shows how to get the spacing after value of the current paragraph.
+
+// How to get the spacing after of the paragraph and display it.
+
+// Get the paragraph spacing value.
+
 let doc = Api.GetDocument();
 let paragraph1 = doc.GetElement(0);
 let paraPr = paragraph1.GetParaPr();

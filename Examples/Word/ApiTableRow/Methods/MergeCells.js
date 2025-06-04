@@ -1,4 +1,9 @@
 // This example merges the cells in the row.
+
+// Merge cells of the entire row.
+
+// Combine the entire row cells.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

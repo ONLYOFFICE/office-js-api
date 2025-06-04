@@ -1,4 +1,9 @@
 // In this example, the WordArt text has a text fill.
+
+// How to color a text object.
+
+// Create a text run object, add color to it using solid fill.
+
 let doc = Api.GetDocument();
 let textPr = Api.CreateTextPr();
 textPr.SetFontSize(30);

@@ -1,4 +1,9 @@
 // This example shows how to get a cell by its position.
+
+// How to get cell from the table.
+
+// Get the first table cell and add text to it.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

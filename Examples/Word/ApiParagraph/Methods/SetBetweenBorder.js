@@ -1,4 +1,9 @@
 // This example specifies the border which will be displayed between each paragraph in a set of paragraphs which have the same set of paragraph border settings.
+
+// How to set the border between paragraphs.
+
+// Create a paragraph, add text to it and the single border between the text.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is the first paragraph. We will add a thick orange border between it and the next paragraph. ");

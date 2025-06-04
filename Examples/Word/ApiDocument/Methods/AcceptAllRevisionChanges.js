@@ -1,4 +1,9 @@
 // This example accepts all changes made in review mode.
+
+// How to apply all changes and fixes after review.
+
+// Change the status of the document to the review mode and apply all changes.
+
 let doc = Api.GetDocument();
 let paragraph1 = doc.GetElement(0);
 doc.SetTrackRevisions(true);

@@ -1,4 +1,9 @@
 // This example specifies if the form should be required.
+
+// How to make a combobox required.
+
+// Make sure that there is an answer to the combobox.
+
 let doc = Api.GetDocument();
 let comboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});
 let paragraph = doc.GetElement(0);

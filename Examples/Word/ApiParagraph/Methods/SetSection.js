@@ -1,4 +1,9 @@
 // This example sets the specified section to the current paragraph.
+
+// How to set section to the paragraph.
+
+// Add the section to the text.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is a new paragraph.");

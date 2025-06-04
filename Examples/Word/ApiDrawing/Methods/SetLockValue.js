@@ -1,4 +1,9 @@
 // This example sets the lock value to the specified lock type of the current drawing.
+
+// How to set the lock value to "noSelect" of the drawing.
+
+// Create a drawing and lock it.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let gs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);

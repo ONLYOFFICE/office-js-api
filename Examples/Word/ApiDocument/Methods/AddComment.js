@@ -1,4 +1,9 @@
 // This example adds a comment to the document.
+
+// How to comment the document.
+
+// Add comment to the document indicating the author.
+
 let doc = Api.GetDocument(); 
 let paragraph = doc.GetElement(0); 
 paragraph.AddText("This is just a sample text.");

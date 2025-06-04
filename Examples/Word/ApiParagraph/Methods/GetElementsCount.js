@@ -1,4 +1,9 @@
 // This example shows how to get a number of elements in the current paragraph.
+
+// How to get the number of elements of the paragraph.
+
+// Count words of the paragraph and print it in the document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.RemoveAllElements();

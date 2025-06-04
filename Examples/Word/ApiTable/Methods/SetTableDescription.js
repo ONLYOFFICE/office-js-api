@@ -1,4 +1,9 @@
 // This example sets the table description.
+
+// How to set the description of the table.
+
+// Add description to the table.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

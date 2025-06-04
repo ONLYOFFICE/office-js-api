@@ -1,4 +1,9 @@
 // This example shows how to get a shape in which the form is placed to control the position and size of the fixed size form frame.
+
+// Get wrapper shape of the checkbox form.
+
+// Set outline to the shape which contains the current form.
+
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});
 let paragraph = doc.GetElement(0);

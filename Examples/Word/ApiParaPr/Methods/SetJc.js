@@ -1,4 +1,9 @@
 // This example sets the paragraph contents justification.
+
+// How to set justification of the paragraph content.
+
+// Change the justification of the paragraph.
+
 let doc = Api.GetDocument();
 let myStyleLeft = doc.CreateStyle("My style with left text alignment");
 let paraPr = myStyleLeft.GetParaPr();

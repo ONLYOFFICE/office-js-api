@@ -1,4 +1,9 @@
 // This example sets the spacing before the paragraph.
+
+// How to set the size of a spacing before a text from a paragraph properties.
+
+// Change the size property of a spacing before a paragraph.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is an example of setting a space before a paragraph. ");

@@ -1,4 +1,9 @@
 // This example shows how to get a content control that contains the run.
+
+// How to get an element that is a parent of the text.
+
+// Get the parent content control of the text.
+
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();
 let paragraph = Api.CreateParagraph();

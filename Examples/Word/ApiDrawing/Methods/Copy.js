@@ -1,4 +1,9 @@
 // This example copies the current graphic object.
+
+// How to create a duplicate of a drawing.
+
+// Add two similar shapes into the document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));

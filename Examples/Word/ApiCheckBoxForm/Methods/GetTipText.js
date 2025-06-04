@@ -1,4 +1,9 @@
 // This example shows how to get the tip text of the current form.
+
+// Get a checkbox tip text and show it in the document.
+
+// Show a tip text of the form.
+
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});
 let paragraph = doc.GetElement(0);

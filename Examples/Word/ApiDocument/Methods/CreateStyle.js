@@ -1,4 +1,9 @@
 // This example creates a new style with the "Heading 1" type and "paragraph" name.
+
+// How to create a paragraph and set its style as a heading.
+
+// Set style of the paragraph.
+
 let doc = Api.GetDocument();
 let heading1Style = doc.CreateStyle("Heading 1", "paragraph");
 let paraPr = heading1Style.GetParaPr();

@@ -1,4 +1,9 @@
 // This example clears the content from the table.
+
+// How to clear a content of a table.
+
+// Get a table and remove everything from it.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

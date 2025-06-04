@@ -1,4 +1,9 @@
 // This example specifies the vertical axis orientation.
+
+// How to set an orientation of vertical axis.
+
+// Create a chart, set its properties and its vertical axis orientation.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

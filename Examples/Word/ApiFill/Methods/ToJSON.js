@@ -1,4 +1,9 @@
 // This example converts the ApiFill object into the JSON object.
+
+// How to get a JSON object from the fill object.
+
+// Convert the radial gradient fill to json and add it to the paragraph.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let gs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);

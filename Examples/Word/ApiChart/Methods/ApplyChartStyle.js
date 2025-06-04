@@ -1,4 +1,9 @@
 // This example shows how to apply a style for chart.
+
+// How to change the style of the chart by indicating a number that specifies a style type.
+
+// Create a bar chart and set its style.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

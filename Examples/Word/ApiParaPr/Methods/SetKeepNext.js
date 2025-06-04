@@ -1,4 +1,9 @@
 // This example specifies that when rendering the document using a paginated view, the contents of the paragraph are at least partly rendered on the same page as the following paragraph whenever possible.
+
+// How to partly keep lines of the paragraph content.
+
+// How to try to keep all lines of the paragraph on the same page.
+
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");
 let paraPr = myStyle.GetParaPr();

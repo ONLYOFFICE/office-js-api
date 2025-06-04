@@ -1,4 +1,9 @@
 // This example converts the ApiParaPr object into the JSON object.
+
+// How to get a JSON from the paragraph properties.
+
+// Convert the paragraph properties to json and add it to the paragraph.
+
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");
 let paraPr = myStyle.GetParaPr();

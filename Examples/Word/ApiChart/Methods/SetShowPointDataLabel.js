@@ -1,4 +1,9 @@
 // This example specifies the show options for the chart data labels.
+
+// How to show specific chart data labels with options.
+
+// Create a chart, set its properties and the visibility of its data labels options.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

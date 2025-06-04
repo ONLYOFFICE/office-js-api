@@ -1,4 +1,9 @@
 // This example sets the outline to the chart legend.
+
+// How to ouline a chart legend.
+
+// Create a chart and set ouline of its legend with a stroke.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

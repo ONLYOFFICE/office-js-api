@@ -1,4 +1,9 @@
 // This example specifies the alignment of the table with respect to the text margins in the current section.
+
+// How to set justification of the paragraph content.
+
+// Change the justification of the paragraph.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("The table is aligned at the center of the page horizontally:");

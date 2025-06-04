@@ -1,4 +1,9 @@
 // This example shows how to get a set of formatting properties which will be conditionally applied to the parts of a table that match the requirement specified in the sType parameter.
+
+// How to find out a style that will be applied to the table elements whish satisfy the condition.
+
+// Retrieve a conditional table style.
+
 let doc = Api.GetDocument();
 let table = Api.CreateTable(2, 2);
 table.SetWidth("percent", 100);

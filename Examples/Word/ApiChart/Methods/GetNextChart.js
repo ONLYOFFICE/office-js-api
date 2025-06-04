@@ -1,4 +1,9 @@
 // This example show how to get the next chart.
+
+// How to update minor horizontal gridlines of the next chart.
+
+// Get the next chart and set its horizontal lines as a stroke. 
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

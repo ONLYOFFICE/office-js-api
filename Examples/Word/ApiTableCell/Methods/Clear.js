@@ -1,4 +1,9 @@
 // This example clears the content from the cell.
+
+// Remove the content of the table cell.
+
+// Get the table cell and clear its value.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

@@ -1,4 +1,9 @@
 // This example sets the spacing after the paragraph.
+
+// How to set the size of a spacing after a text from a paragraph properties.
+
+// Change the size property of a spacing after a paragraph.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is an example of setting a space after a paragraph. ");

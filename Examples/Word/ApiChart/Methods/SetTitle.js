@@ -1,4 +1,9 @@
 // This example specifies the chart title.
+
+// How to rename a chart.
+
+// Create a chart, set its properties and its title.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

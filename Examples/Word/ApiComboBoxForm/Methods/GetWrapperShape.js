@@ -1,4 +1,9 @@
 // This example shows how to get a shape in which the form is placed to control the position and size of the fixed size form frame.
+
+// How to get combobox form wrapper shape.
+
+// Outline the shape containing a combobox.
+
 let doc = Api.GetDocument();
 let comboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});
 let paragraph = doc.GetElement(0);

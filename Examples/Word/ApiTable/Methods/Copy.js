@@ -1,4 +1,9 @@
 // This example creates a copy of the table.
+
+// How to create identical table.
+
+// Get a table object and create a copy of it.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

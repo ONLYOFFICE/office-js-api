@@ -1,4 +1,9 @@
 // This example shows how to get the previous cell.
+
+// How to get previous cell.
+
+// Retrieve the cell from the table and get the previous one.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

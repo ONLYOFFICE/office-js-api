@@ -1,4 +1,9 @@
 // This example shows how to get all caption paragraphs of the specified type from the current document.
+
+// Get all caption paragraphs with the name "Figure" and make the first one capitalized.
+
+// Make the caption text letters uppercase.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let drawing = Api.CreateImage("https://api.onlyoffice.com/content/img/docbuilder/examples/coordinate_aspects.png", 60 * 36000, 35 * 36000);

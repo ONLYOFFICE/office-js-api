@@ -1,4 +1,9 @@
 // This example gets the first series of ApiChart class and inserts its type into the document.
+
+// How to get first series from the chart and show its type in the document.
+
+// Display first chart series type in the document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("comboBarLine", [

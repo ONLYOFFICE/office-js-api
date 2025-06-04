@@ -1,4 +1,9 @@
 // This example get the text properties from the Range.
+
+// How to make italic the text of the range.
+
+// Get a range and update its text style.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("Welcome to ONLYOFFICE Document Builder");

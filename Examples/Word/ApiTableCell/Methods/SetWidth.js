@@ -1,4 +1,9 @@
 // This example sets the preferred width to the current table cell.
+
+// Resize the width of the cell.
+
+// Change the width of the cell.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

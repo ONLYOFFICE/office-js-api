@@ -1,4 +1,9 @@
 // This example sets the paragraph contents justification.
+
+// How to set justification of the paragraph content.
+
+// Change the justification of the paragraph.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is a paragraph with the text in it aligned by the left side. ");

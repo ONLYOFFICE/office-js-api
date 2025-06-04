@@ -1,4 +1,9 @@
 // This example shows how to get the previous paragraph.
+
+// How to get the previous paragraph.
+
+// Get the paragraph, its previous one and make it bold.
+
 let doc = Api.GetDocument();
 let paragraph1 = doc.GetElement(0);
 paragraph1.AddText("This is just a sample paragraph №1.");

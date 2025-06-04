@@ -1,4 +1,9 @@
 // This example adds the new columns to the table.
+
+// How to insert columns to the table.
+
+// Get a table cell and insert two new columns after it.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

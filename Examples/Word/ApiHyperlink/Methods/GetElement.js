@@ -1,4 +1,9 @@
 // This example shows how to get the hyperlink element using the position specified.
+
+// How to get the element of the hyperlink knowing its index.
+
+// Add a hyperlink to the paragraph and get its element.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let run1 = Api.CreateRun();

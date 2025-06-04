@@ -1,4 +1,9 @@
 // This example sets the table title.
+
+// How to rename the table title.
+
+// Create a table and indicate its title.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

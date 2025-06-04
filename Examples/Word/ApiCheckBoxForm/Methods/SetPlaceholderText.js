@@ -1,4 +1,9 @@
 // This example sets the placeholder text to the current form.
+
+// How to add a text as a placeholder to the form.
+
+// Set a placeholder text to the form.
+
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": false});
 checkBoxForm.SetFormKey("Marital status 1");

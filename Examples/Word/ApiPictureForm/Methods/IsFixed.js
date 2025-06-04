@@ -1,4 +1,9 @@
 // This example checks if the current form is fixed size.
+
+// How to find out whether a picture form is fixed or not.
+
+//Find out whether a picture form's size is fixed.
+
 let doc = Api.GetDocument();
 let pictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false, "shiftX": 50, "shiftY": 50});
 let paragraph = doc.GetElement(0);

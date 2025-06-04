@@ -1,4 +1,9 @@
 // This example shows how to get an array of all paragraphs from the document content.
+
+// Get all paragraphs added to the document.
+
+// How to retrieve all paragraphs and make the first one bold.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));

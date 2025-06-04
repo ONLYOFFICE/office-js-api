@@ -1,4 +1,9 @@
 // This example shows how to get the cell index.
+
+// How to get position index of the cell.
+
+// Retrieve the index of the table cell and display it in the document.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

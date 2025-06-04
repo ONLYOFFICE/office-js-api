@@ -1,4 +1,9 @@
 // This example shows how to get a collection of drawing objects from the document.
+
+// Get all drawing objects added to the document.
+
+// How to retrieve all drawing objects and fill with color its first one.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let gs1 = Api.CreateGradientStop(Api.CreateRGBColor(51, 51, 51), 0);

@@ -1,4 +1,9 @@
 // This example adds a paragraph using its position in the cell.
+
+// How to add text to the cell.
+
+// Insert a paragraph object to the table cell.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

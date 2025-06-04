@@ -1,4 +1,9 @@
 // This example sets the paragraph right side indentation.
+
+// How to set the indentation for the paragraph right side.
+
+// Create a new paragraph and set its right side indentation.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is a paragraph with the right offset of 2 inches set to it. ");

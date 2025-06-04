@@ -1,4 +1,9 @@
-// This example specifies the visual properties for the major horizontal gridlines.
+// This example specifies the visual properties for the major vertical gridlines.
+
+// How to set a stroke as major vertical gridlines.
+
+// Create a chart, set its properties and its vertical gridlines properties.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

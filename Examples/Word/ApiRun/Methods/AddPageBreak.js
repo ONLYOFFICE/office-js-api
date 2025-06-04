@@ -1,4 +1,9 @@
 // This example adds a page break and starts the next element from a new page.
+
+// How to start a sentence from the new page.
+
+// Break two lines of a text run with a page break. 
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let run = Api.CreateRun();

@@ -1,4 +1,9 @@
 // This example specifies the horizontal axis orientation.
+
+// How to change an axis orientation.
+
+// Create a chart and set its horizontal axis orientation.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

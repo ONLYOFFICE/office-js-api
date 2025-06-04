@@ -1,4 +1,9 @@
 // This example shows how to get an array of document elements from the document.
+
+// Retrieve each document element.
+
+// Update properties of document elements knowing their order position.
+
 let doc = Api.GetDocument();
 let paragraph = Api.CreateParagraph();
 paragraph.AddText("This paragraph is the first document element.");

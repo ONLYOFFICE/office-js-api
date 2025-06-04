@@ -1,4 +1,9 @@
 // This example shows how to get the tag attribute for the container.
+
+// How to get tag of the inline text control.
+
+// Display the tag of the inline content control.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let inlineLvlSdt = Api.CreateInlineLvlSdt();

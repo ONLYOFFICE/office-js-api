@@ -1,4 +1,9 @@
 // This example shows how to get the nested tables of the specified table.
+
+// How to get all tables from the table object.
+
+// Get array of tables and update their width.
+
 let doc = Api.GetDocument();
 let table1 = Api.CreateTable(3, 3);
 let table2 = Api.CreateTable(3, 3);

@@ -1,4 +1,9 @@
 // This example shows how to get the document statistics represented as an object.
+
+// How to get the document statistics showing pages count, words count, etc.
+
+// Display words, pages, symbols, paragraphs count of the document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is just a sample paragraph.");
