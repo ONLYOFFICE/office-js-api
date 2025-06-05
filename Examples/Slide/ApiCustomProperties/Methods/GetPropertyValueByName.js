@@ -3,7 +3,7 @@
 const presentation = Api.GetPresentation();
 const customProps = presentation.GetCustomProperties();
 
-customProps.AddStringProperty("ExistingProp", "#123456");
+customProps.AddProperty("ExistingProp", "#123456");
 
 const existingProp = customProps.GetPropertyValueByName("ExistingProp");
 const nonExistentProp = customProps.GetPropertyValueByName("NonExistentProp");

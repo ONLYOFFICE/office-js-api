@@ -3,10 +3,10 @@
 const worksheet = Api.GetActiveSheet();
 
 const customProps = Api.GetCustomProperties();
-customProps.AddStringProperty("MyStringProperty", "Hello, Spreadsheet!");
-customProps.AddNumberProperty("MyNumberProperty", 123.450);
-customProps.AddDateProperty("MyDateProperty", new Date("23 November 2023"));
-customProps.AddBoolProperty("MyBoolProperty", true);
+customProps.AddProperty("MyStringProperty", "Hello, Spreadsheet!");
+customProps.AddProperty("MyNumberProperty", 123.450);
+customProps.AddProperty("MyDateProperty", new Date("23 November 2023"));
+customProps.AddProperty("MyBoolProperty", true);
 
 let stringValue = customProps.GetPropertyValueByName("MyStringProperty");
 let numberValue = customProps.GetPropertyValueByName("MyNumberProperty");

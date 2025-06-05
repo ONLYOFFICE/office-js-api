@@ -5,10 +5,10 @@ const slide = presentation.GetSlideByIndex(0);
 slide.RemoveAllObjects();
 
 const customProps = presentation.GetCustomProperties();
-customProps.AddStringProperty("MyStringProperty", "Hello, World!");
-customProps.AddNumberProperty("MyNumberProperty", 42);
-customProps.AddDateProperty("MyDateProperty", new Date("2023-11-23"));
-customProps.AddBoolProperty("MyBoolProperty", true);
+customProps.AddProperty("MyStringProperty", "Hello, World!");
+customProps.AddProperty("MyNumberProperty", 42);
+customProps.AddProperty("MyDateProperty", new Date("2023-11-23"));
+customProps.AddProperty("MyBoolProperty", true);
 
 let stringValue = customProps.GetPropertyValueByName("MyStringProperty");
 let numberValue = customProps.GetPropertyValueByName("MyNumberProperty");

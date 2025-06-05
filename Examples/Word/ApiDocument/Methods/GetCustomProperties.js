@@ -3,10 +3,10 @@
 const document = Api.GetDocument();
 const customProps = document.GetCustomProperties();
 
-customProps.AddStringProperty("MyStringProperty", "Hello, World!");
-customProps.AddNumberProperty("MyNumberProperty", 42);
-customProps.AddDateProperty("MyDateProperty", new Date("23 November 2023"));
-customProps.AddBoolProperty("MyBoolProperty", true);
+customProps.AddProperty("MyStringProperty", "Hello, World!");
+customProps.AddProperty("MyNumberProperty", 42);
+customProps.AddProperty("MyDateProperty", new Date("23 November 2023"));
+customProps.AddProperty("MyBoolProperty", true);
 
 const stringValue = customProps.GetPropertyValueByName("MyStringProperty");
 const numberValue = customProps.GetPropertyValueByName("MyNumberProperty");
