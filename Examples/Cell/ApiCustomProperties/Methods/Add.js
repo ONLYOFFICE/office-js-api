@@ -4,18 +4,18 @@ const worksheet = Api.GetActiveSheet();
 const customProps = Api.GetCustomProperties();
 
 customProps.Add("CompanyName", "ONLYOFFICE");
-const companyName = customProps.GetPropertyValueByName("CompanyName");
+const companyName = customProps.Get("CompanyName");
 
 customProps.Add("TrueBool", true);
-const trueBool = customProps.GetPropertyValueByName("TrueBool");
+const trueBool = customProps.Get("TrueBool");
 
 customProps.Add("NumberInt", 3.0);
 customProps.Add("NumberReal", 3.14);
-const numberInt = customProps.GetPropertyValueByName("NumberInt")
-const numberReal = customProps.GetPropertyValueByName("NumberReal")
+const numberInt = customProps.Get("NumberInt")
+const numberReal = customProps.Get("NumberReal")
 
 customProps.Add("BirthDate", new Date("20 January 2000"));
-const birthDate = customProps.GetPropertyValueByName("BirthDate");
+const birthDate = customProps.Get("BirthDate");
 const isOfLegalAge = (new Date().getFullYear() - birthDate.getFullYear()) >= 18;
 
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(0, 100, 200));

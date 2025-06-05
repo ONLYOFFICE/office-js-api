@@ -4,18 +4,18 @@ const presentation = Api.GetPresentation();
 const customProps = presentation.GetCustomProperties();
 
 customProps.Add("CompanyName", "ONLYOFFICE");
-const companyName = customProps.GetPropertyValueByName("CompanyName");
+const companyName = customProps.Get("CompanyName");
 
 customProps.Add("trueBool", true);
-const trueBool = customProps.GetPropertyValueByName("trueBool");
+const trueBool = customProps.Get("trueBool");
 
 customProps.Add("NumberInt", 3.0);
 customProps.Add("NumberReal", 3.14);
-const numberInt = customProps.GetPropertyValueByName("NumberInt");
-const numberReal = customProps.GetPropertyValueByName("NumberReal");
+const numberInt = customProps.Get("NumberInt");
+const numberReal = customProps.Get("NumberReal");
 
 customProps.Add("BirthDate", new Date("20 January 2000"));
-const birthDate = new Date(customProps.GetPropertyValueByName("BirthDate"));
+const birthDate = new Date(customProps.Get("BirthDate"));
 const isOfLegalAge = (new Date().getFullYear() - birthDate.getFullYear()) >= 18;
 
 const fill = Api.CreateSolidFill(Api.CreateRGBColor(150, 200, 150));
