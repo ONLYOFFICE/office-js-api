@@ -3,10 +3,10 @@
 const presentation = Api.GetPresentation();
 const customProps = presentation.GetCustomProperties();
 
-customProps.AddProperty("ExistingProp", "#123456");
+customProps.Add("ExistingProp", "#123456");
 
-const existingProp = customProps.GetPropertyValueByName("ExistingProp");
-const nonExistentProp = customProps.GetPropertyValueByName("NonExistentProp");
+const existingProp = customProps.Get("ExistingProp");
+const nonExistentProp = customProps.Get("NonExistentProp");
 
 const fill = Api.CreateSolidFill(Api.CreateRGBColor(150, 200, 150));
 const stroke = Api.CreateStroke(0, Api.CreateNoFill());

@@ -3,15 +3,15 @@
 const worksheet = Api.GetActiveSheet();
 
 const customProps = Api.GetCustomProperties();
-customProps.AddProperty("MyStringProperty", "Hello, Spreadsheet!");
-customProps.AddProperty("MyNumberProperty", 123.450);
-customProps.AddProperty("MyDateProperty", new Date("23 November 2023"));
-customProps.AddProperty("MyBoolProperty", true);
+customProps.Add("MyStringProperty", "Hello, Spreadsheet!");
+customProps.Add("MyNumberProperty", 123.450);
+customProps.Add("MyDateProperty", new Date("23 November 2023"));
+customProps.Add("MyBoolProperty", true);
 
-let stringValue = customProps.GetPropertyValueByName("MyStringProperty");
-let numberValue = customProps.GetPropertyValueByName("MyNumberProperty");
-let dateValue = customProps.GetPropertyValueByName("MyDateProperty");
-let boolValue = customProps.GetPropertyValueByName("MyBoolProperty");
+let stringValue = customProps.Get("MyStringProperty");
+let numberValue = customProps.Get("MyNumberProperty");
+let dateValue = customProps.Get("MyDateProperty");
+let boolValue = customProps.Get("MyBoolProperty");
 
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(0, 100, 200));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

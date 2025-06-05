@@ -3,10 +3,10 @@
 const document = Api.GetDocument();
 const customProps = document.GetCustomProperties();
 
-customProps.AddProperty("ExistingProp", "#123456");
+customProps.Add("ExistingProp", "#123456");
 
-const existingProp = customProps.GetPropertyValueByName("ExistingProp");
-const nonExistentProp = customProps.GetPropertyValueByName("NonExistentProp");
+const existingProp = customProps.Get("ExistingProp");
+const nonExistentProp = customProps.Get("NonExistentProp");
 
 const paragraph = document.GetElement(0);
 paragraph.AddText("Existing Property Value: " + existingProp);

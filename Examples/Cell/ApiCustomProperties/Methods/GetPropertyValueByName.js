@@ -3,10 +3,10 @@
 const worksheet = Api.GetActiveSheet();
 const customProps = Api.GetCustomProperties();
 
-customProps.AddProperty("ExistingProp", "#123456");
+customProps.Add("ExistingProp", "#123456");
 
-const existingProp = customProps.GetPropertyValueByName("ExistingProp");
-const nonExistentProp = customProps.GetPropertyValueByName("NonExistentProp");
+const existingProp = customProps.Get("ExistingProp");
+const nonExistentProp = customProps.Get("NonExistentProp");
 
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(0, 100, 200));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

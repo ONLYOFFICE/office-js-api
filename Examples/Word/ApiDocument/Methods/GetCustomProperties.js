@@ -3,15 +3,15 @@
 const document = Api.GetDocument();
 const customProps = document.GetCustomProperties();
 
-customProps.AddProperty("MyStringProperty", "Hello, World!");
-customProps.AddProperty("MyNumberProperty", 42);
-customProps.AddProperty("MyDateProperty", new Date("23 November 2023"));
-customProps.AddProperty("MyBoolProperty", true);
+customProps.Add("MyStringProperty", "Hello, World!");
+customProps.Add("MyNumberProperty", 42);
+customProps.Add("MyDateProperty", new Date("23 November 2023"));
+customProps.Add("MyBoolProperty", true);
 
-const stringValue = customProps.GetPropertyValueByName("MyStringProperty");
-const numberValue = customProps.GetPropertyValueByName("MyNumberProperty");
-const dateValue = customProps.GetPropertyValueByName("MyDateProperty");
-const boolValue = customProps.GetPropertyValueByName("MyBoolProperty");
+const stringValue = customProps.Get("MyStringProperty");
+const numberValue = customProps.Get("MyNumberProperty");
+const dateValue = customProps.Get("MyDateProperty");
+const boolValue = customProps.Get("MyBoolProperty");
 
 let paragraph = document.GetElement(0);
 paragraph.AddText("Custom String Property: " + stringValue);

@@ -5,15 +5,15 @@ const slide = presentation.GetSlideByIndex(0);
 slide.RemoveAllObjects();
 
 const customProps = presentation.GetCustomProperties();
-customProps.AddProperty("MyStringProperty", "Hello, World!");
-customProps.AddProperty("MyNumberProperty", 42);
-customProps.AddProperty("MyDateProperty", new Date("2023-11-23"));
-customProps.AddProperty("MyBoolProperty", true);
+customProps.Add("MyStringProperty", "Hello, World!");
+customProps.Add("MyNumberProperty", 42);
+customProps.Add("MyDateProperty", new Date("2023-11-23"));
+customProps.Add("MyBoolProperty", true);
 
-let stringValue = customProps.GetPropertyValueByName("MyStringProperty");
-let numberValue = customProps.GetPropertyValueByName("MyNumberProperty");
-let dateValue = customProps.GetPropertyValueByName("MyDateProperty");
-let boolValue = customProps.GetPropertyValueByName("MyBoolProperty");
+let stringValue = customProps.Get("MyStringProperty");
+let numberValue = customProps.Get("MyNumberProperty");
+let dateValue = customProps.Get("MyDateProperty");
+let boolValue = customProps.Get("MyBoolProperty");
 
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(0, 100, 200));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

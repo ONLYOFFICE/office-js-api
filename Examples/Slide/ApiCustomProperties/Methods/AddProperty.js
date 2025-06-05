@@ -3,18 +3,18 @@
 const presentation = Api.GetPresentation();
 const customProps = presentation.GetCustomProperties();
 
-customProps.AddProperty("CompanyName", "ONLYOFFICE");
+customProps.Add("CompanyName", "ONLYOFFICE");
 const companyName = customProps.GetPropertyValueByName("CompanyName");
 
-customProps.AddProperty("trueBool", true);
+customProps.Add("trueBool", true);
 const trueBool = customProps.GetPropertyValueByName("trueBool");
 
-customProps.AddProperty("NumberInt", 3.0);
-customProps.AddProperty("NumberReal", 3.14);
+customProps.Add("NumberInt", 3.0);
+customProps.Add("NumberReal", 3.14);
 const numberInt = customProps.GetPropertyValueByName("NumberInt");
 const numberReal = customProps.GetPropertyValueByName("NumberReal");
 
-customProps.AddProperty("BirthDate", new Date("20 January 2000"));
+customProps.Add("BirthDate", new Date("20 January 2000"));
 const birthDate = new Date(customProps.GetPropertyValueByName("BirthDate"));
 const isOfLegalAge = (new Date().getFullYear() - birthDate.getFullYear()) >= 18;
 
