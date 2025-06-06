@@ -1,2 +1,10 @@
-// This example
-// todo_exampele
+// This example shows how to get the form role.
+let doc = Api.GetDocument();
+let paragraph = doc.GetElement(0);
+let complexForm = Api.CreateComplexForm({"key": "Complex", "tip": "Insert here other forms", "required": true, "placeholder": "Complex form"});
+complexForm.AddText("Second");
+paragraph.AddElement(complexForm);
+let role = complexForm.GetRole();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Form role: " + role);
+doc.Push(paragraph);
