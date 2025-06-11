@@ -1,7 +1,7 @@
 // This example converts the form to an inline form.
 let doc = Api.GetDocument();
-let complexForm = Api.CreateComplexForm({"key": "Complex", "tip": "Insert here other forms", "required": true, "placeholder": "Complex form"});
-complexForm.AddText('Complex text');
+let complexForm = Api.CreateComplexForm({"key": "Complex1"});
+complexForm.Add('Complex form');
 let paragraph = doc.GetElement(0);
 paragraph.AddElement(complexForm);
 complexForm.ToFixed(7 * 240, 2 * 240);

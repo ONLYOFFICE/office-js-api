@@ -5,6 +5,6 @@ let paragraph = doc.GetElement(0);
 paragraph.AddElement(complexForm);
 let checkBox = Api.CreateCheckBoxForm()
 checkBox.SetChecked(true);
-complexForm.InsertForm(checkBox);
+complexForm.Add(checkBox);
 complexForm.Clear();
 doc.Push(paragraph);
