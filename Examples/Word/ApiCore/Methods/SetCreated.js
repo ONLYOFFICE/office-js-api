@@ -1,9 +1,9 @@
 // This example demonstrates how to set the creation date of the current document.
 
-const document = Api.GetDocument();
-const core = document.GetCore();
+const doc = Api.GetDocument();
+const core = doc.GetCore();
 core.SetCreated(new Date('20 January 2000'));
 
 const createdDate = core.GetCreated().toDateString();
-let paragraph = document.GetElement(0);
+let paragraph = doc.GetElement(0);
 paragraph.AddText("Created: " + createdDate);

@@ -1,8 +1,8 @@
 // This example gets a class type and pastes it into the document.
 
-const document = Api.GetDocument();
-const core = document.GetCore();
+const doc = Api.GetDocument();
+const core = doc.GetCore();
 const classType = core.GetClassType();
 
-let paragraph = document.GetElement(0);
+let paragraph = doc.GetElement(0);
 paragraph.AddText("Class type: " + classType);

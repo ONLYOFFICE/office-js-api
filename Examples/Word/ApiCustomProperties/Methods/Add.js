@@ -1,7 +1,7 @@
 // This example demonstrates how to add string custom properties to a document.
 
-const document = Api.GetDocument();
-const customProps = document.GetCustomProperties();
+const doc = Api.GetDocument();
+const customProps = doc.GetCustomProperties();
 
 customProps.Add("CompanyName", "ONLYOFFICE");
 const companyName = customProps.Get("CompanyName");
@@ -18,7 +18,7 @@ customProps.Add("BirthDate", new Date("20 January 2000"));
 const birthDate = new Date(customProps.Get("BirthDate"));
 const isOfLegalAge = (new Date().getFullYear() - birthDate.getFullYear()) >= 18;
 
-const paragraph = document.GetElement(0);
+const paragraph = doc.GetElement(0);
 paragraph.AddText("CompanyName: " + companyName);
 paragraph.AddLineBreak();
 

@@ -1,7 +1,7 @@
 // This example demonstrates how to use ApiCustomProperties to configure custom properties in a document.
 
-const document = Api.GetDocument();
-const customProps = document.GetCustomProperties();
+const doc = Api.GetDocument();
+const customProps = doc.GetCustomProperties();
 
 customProps.Add("MyStringProperty", "Hello, World!");
 customProps.Add("MyNumberProperty", 42);
@@ -13,7 +13,7 @@ const numberValue = customProps.Get("MyNumberProperty");
 const dateValue = customProps.Get("MyDateProperty");
 const boolValue = customProps.Get("MyBoolProperty");
 
-let paragraph = document.GetElement(0);
+let paragraph = doc.GetElement(0);
 paragraph.AddText("Custom String Property: " + stringValue);
 paragraph.AddText("\nCustom Number Property: " + numberValue);
 paragraph.AddText("\nCustom Date Property: " + dateValue.toDateString());

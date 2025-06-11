@@ -1,7 +1,7 @@
 // This example demonstrates how get ApiCore instance and use its methods to manage document metadata.
 
-const document = Api.GetDocument();
-const core = document.GetCore();
+const doc = Api.GetDocument();
+const core = doc.GetCore();
 
 core.SetCategory("Examples");
 core.SetContentStatus("Final");
@@ -35,7 +35,7 @@ const subject = core.GetSubject();
 const title = core.GetTitle();
 const version = core.GetVersion();
 
-let paragraph = document.GetElement(0);
+let paragraph = doc.GetElement(0);
 paragraph.AddText("Category: " + category + "\n");
 paragraph.AddText("Content Status: " + contentStatus + "\n");
 paragraph.AddText("Created: " + createdDate + "\n");
