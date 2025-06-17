@@ -4,30 +4,34 @@
 
 // Retrieve ApiRun font names and display them in the slide.
 
-var oPresentation = Api.GetPresentation();
-var oSlide = oPresentation.GetSlideByIndex(0);
-oSlide.RemoveAllObjects();
-var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oShape = Api.CreateShape("flowChartMagneticTape", 300 * 36000, 130 * 36000, oFill, oStroke);
-oShape.SetPosition(608400, 1267200);
-var oDocContent = oShape.GetDocContent();
-var oParagraph = oDocContent.GetElement(0);
-var oRun = Api.CreateRun();
-oRun.AddText("This is just a sample text. ");
-oParagraph.AddElement(oRun);
-oRun = Api.CreateRun();
-oRun.SetFontFamily("Comic Sans MS");
-oRun.AddText("This is a text run with the font family set to 'Comic Sans MS'.");
-oParagraph.AddElement(oRun);
-oParagraph.AddLineBreak();
-var aFontNames = oRun.GetFontNames();
-oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Run font names: ");
-oParagraph.AddLineBreak();
-for (let i = 0; i < aFontNames.length; i++ ){
-	oParagraph.AddText(aFontNames[i]);
-	oParagraph.AddLineBreak();
+const presentation = Api.GetPresentation();
+const slide = presentation.GetSlideByIndex(0);
+slide.RemoveAllObjects();
+
+const fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+const stroke = Api.CreateStroke(0, Api.CreateNoFill());
+const shape = Api.CreateShape("flowChartMagneticTape", 300 * 36000, 130 * 36000, fill, stroke);
+shape.SetPosition(608400, 1267200);
+
+const docContent = shape.GetDocContent();
+let paragraph = docContent.GetElement(0);
+let run = Api.CreateRun();
+run.AddText("This is just a sample text. ");
+paragraph.AddElement(run);
+
+run = Api.CreateRun();
+run.SetFontFamily("Comic Sans MS");
+run.AddText("This is a text run with the font family set to 'Comic Sans MS'.");
+paragraph.AddElement(run);
+paragraph.AddLineBreak();
+
+const fontNames = run.GetFontNames();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Run font names: ");
+paragraph.AddLineBreak();
+for (let i = 0; i < fontNames.length; i++) {
+	paragraph.AddText(fontNames[i]);
+	paragraph.AddLineBreak();
 }
-oDocContent.Push(oParagraph);
-oSlide.AddObject(oShape);
+docContent.Push(paragraph);
+slide.AddObject(shape);

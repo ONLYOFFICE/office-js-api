@@ -4,11 +4,12 @@
 
 // Use blip fill to fill a background with an image.
 
-var oPresentation = Api.GetPresentation();
-var oSlide = oPresentation.GetSlideByIndex(0);
-oSlide.RemoveAllObjects();
-var oFill = Api.CreateBlipFill("https://api.onlyoffice.com/content/img/docbuilder/examples/icon_DocumentEditors.png", "tile");
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oDrawing = Api.CreateShape("star10", 300 * 36000, 130 * 36000, oFill, oStroke);
-oDrawing.SetPosition(608400, 1267200);
-oSlide.AddObject(oDrawing);
+const presentation = Api.GetPresentation();
+const slide = presentation.GetSlideByIndex(0);
+slide.RemoveAllObjects();
+
+const fill = Api.CreateBlipFill("https://api.onlyoffice.com/content/img/docbuilder/examples/icon_DocumentEditors.png", "tile");
+const stroke = Api.CreateStroke(0, Api.CreateNoFill());
+const drawing = Api.CreateShape("star10", 300 * 36000, 130 * 36000, fill, stroke);
+drawing.SetPosition(608400, 1267200);
+slide.AddObject(drawing);

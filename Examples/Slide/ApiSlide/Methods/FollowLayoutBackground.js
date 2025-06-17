@@ -4,10 +4,11 @@
 
 // Get a slide by its index and set its background as its layout.
 
-var oPresentation = Api.GetPresentation();
-var oSlide = oPresentation.GetSlideByIndex(0);
-var oMaster = oPresentation.GetMaster(0);
-var oLayout = oMaster.GetLayout(0);
-var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-oLayout.SetBackground(oFill);
-oSlide.FollowLayoutBackground();
+const presentation = Api.GetPresentation();
+const slide = presentation.GetSlideByIndex(0);
+
+const master = presentation.GetMaster(0);
+const layout = master.GetLayout(0);
+const fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+layout.SetBackground(fill);
+slide.FollowLayoutBackground();

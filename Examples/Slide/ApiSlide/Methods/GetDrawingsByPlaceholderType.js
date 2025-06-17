@@ -4,18 +4,20 @@
 
 // Retrieve drawings with the specified placeholder and delete them.
 
-let oPresentation = Api.GetPresentation();
-let oSlide = oPresentation.GetSlideByIndex(0);
-oSlide.RemoveAllObjects();
-let oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-let oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-let oShape = Api.CreateShape("flowChartMagneticTape", 300 * 36000, 130 * 36000, oFill, oStroke);
-oShape.SetPosition(608400, 1267200);
-oShape.SetSize(300 * 36000, 130 * 36000);
-let oPlaceholder = Api.CreatePlaceholder("chart");
-oShape.SetPlaceholder(oPlaceholder);
-oSlide.AddObject(oShape);
-let aDrawingsWithPh = oSlide.GetDrawingsByPlaceholderType("chart");
-for (let i = 0; i < aDrawingsWithPh.length; i++) {
-    aDrawingsWithPh[i].Delete();
+const presentation = Api.GetPresentation();
+const slide = presentation.GetSlideByIndex(0);
+slide.RemoveAllObjects();
+
+const fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+const stroke = Api.CreateStroke(0, Api.CreateNoFill());
+const shape = Api.CreateShape("flowChartMagneticTape", 300 * 36000, 130 * 36000, fill, stroke);
+shape.SetPosition(608400, 1267200);
+shape.SetSize(300 * 36000, 130 * 36000);
+
+const placeholder = Api.CreatePlaceholder("chart");
+shape.SetPlaceholder(placeholder);
+slide.AddObject(shape);
+const drawingsWithPh = slide.GetDrawingsByPlaceholderType("chart");
+for (let i = 0; i < drawingsWithPh.length; i++) {
+	drawingsWithPh[i].Delete();
 }

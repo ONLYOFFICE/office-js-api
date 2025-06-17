@@ -4,19 +4,22 @@
 
 // Change a slide layout.
 
-var oPresentation = Api.GetPresentation();
-var oSlide1 = oPresentation.GetSlideByIndex(0);
-var oMaster = oPresentation.GetMaster(0);
-var oLayout = Api.CreateLayout(oMaster);
-var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oShape = Api.CreateShape("flowChartMagneticTape", 300 * 36000, 130 * 36000, oFill, oStroke);
-oShape.SetPosition(608400, 1267200);
-oShape.SetSize(300 * 36000, 130 * 36000);
-var oPlaceholder = Api.CreatePlaceholder("picture");
-oShape.SetPlaceholder(oPlaceholder);
-oLayout.AddObject(oShape);
-oSlide1.ApplyLayout(oLayout);
-var oSlide2 = Api.CreateSlide();
-oPresentation.AddSlide(oSlide2);
-oSlide2.ApplyLayout(oLayout);
+const presentation = Api.GetPresentation();
+const slide1 = presentation.GetSlideByIndex(0);
+const master = presentation.GetMaster(0);
+const layout = Api.CreateLayout(master);
+
+const fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+const stroke = Api.CreateStroke(0, Api.CreateNoFill());
+const shape = Api.CreateShape("flowChartMagneticTape", 300 * 36000, 130 * 36000, fill, stroke);
+shape.SetPosition(608400, 1267200);
+shape.SetSize(300 * 36000, 130 * 36000);
+const placeholder = Api.CreatePlaceholder("picture");
+shape.SetPlaceholder(placeholder);
+
+layout.AddObject(shape);
+slide1.ApplyLayout(layout);
+
+const slide2 = Api.CreateSlide();
+presentation.AddSlide(slide2);
+slide2.ApplyLayout(layout);

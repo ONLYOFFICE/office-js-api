@@ -4,8 +4,8 @@
 
 // Get a layout from the presentation master using its index and apply it to the slide.
 
-var oPresentation = Api.GetPresentation();
-var oSlide = oPresentation.GetSlideByIndex(0);
-var oMaster = oPresentation.GetMaster(0);
-var oLayout = oMaster.GetLayout(4);
-oSlide.ApplyLayout(oLayout);
+const presentation = Api.GetPresentation();
+const slide = presentation.GetSlideByIndex(0);
+const master = presentation.GetMaster(0);
+const layout = master.GetLayout(4);
+slide.ApplyLayout(layout);

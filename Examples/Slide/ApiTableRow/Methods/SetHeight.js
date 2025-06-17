@@ -4,10 +4,12 @@
 
 // Create a table and change its rows height.
 
-var oPresentation = Api.GetPresentation();
-var oTable = Api.CreateTable(2, 4);
-var oRow = oTable.GetRow(0);
-oRow.SetHeight(30 * 36000);
-var oSlide = oPresentation.GetSlideByIndex(0);
-oSlide.RemoveAllObjects();
-oSlide.AddObject(oTable);
+const presentation = Api.GetPresentation();
+const slide = presentation.GetSlideByIndex(0);
+
+const table = Api.CreateTable(2, 4);
+const row = table.GetRow(0);
+row.SetHeight(30 * 36000);
+
+slide.RemoveAllObjects();
+slide.AddObject(table);

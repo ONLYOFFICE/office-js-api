@@ -4,16 +4,18 @@
 
 // Retrieve class type of ApiShape object and insert it to the slide.
 
-var oPresentation = Api.GetPresentation();
-oPresentation.SetSizes(254 * 36000, 190 * 36000);
-var oSlide = oPresentation.GetCurrentSlide();
-oSlide.RemoveAllObjects();
-var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oShape = Api.CreateShape("flowChartOnlineStorage", 200 * 36000, 130 * 36000, oFill, oStroke);
-oShape.SetPosition(608400, 1267200);
-var oDocContent = oShape.GetDocContent();
-var oParagraph = oDocContent.GetElement(0);
-var sClassType = oShape.GetClassType();
-oParagraph.AddText("Class Type = " + sClassType);
-oSlide.AddObject(oShape);
+const presentation = Api.GetPresentation();
+presentation.SetSizes(254 * 36000, 190 * 36000);
+const slide = presentation.GetCurrentSlide();
+slide.RemoveAllObjects();
+
+const fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+const stroke = Api.CreateStroke(0, Api.CreateNoFill());
+const shape = Api.CreateShape("flowChartOnlineStorage", 200 * 36000, 130 * 36000, fill, stroke);
+shape.SetPosition(608400, 1267200);
+
+const docContent = shape.GetDocContent();
+const paragraph = docContent.GetElement(0);
+const classType = shape.GetClassType();
+paragraph.AddText("Class Type = " + classType);
+slide.AddObject(shape);
