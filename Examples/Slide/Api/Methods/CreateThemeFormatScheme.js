@@ -1,4 +1,9 @@
 // This example shows how to create a new theme format scheme.
+
+// How to change theme format of the theme.
+
+// Add theme format to the theme.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

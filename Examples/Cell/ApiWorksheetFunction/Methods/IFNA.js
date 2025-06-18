@@ -1,3 +1,9 @@
+// This example shows how to check if there is an error in the formula in the first argument. The function returns the specified value if the formula returns the N/A error value, otherwise returns the result of the formula.
+
+// How to check whether a formula result is N/A.
+
+// Use a function to get a result from a formula if an error occurs show specified error message.
+
 let worksheet = Api.GetActiveSheet();
 let func = Api.GetWorksheetFunction();
 let ids = ["ID", 1, 2, 3, 4, 5];

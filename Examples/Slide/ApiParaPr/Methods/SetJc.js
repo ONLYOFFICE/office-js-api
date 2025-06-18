@@ -1,4 +1,9 @@
 // This example sets the paragraph contents justification.
+
+// How to set justification using a paragraph properties.
+
+// Create a paragraph setting its justification property.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

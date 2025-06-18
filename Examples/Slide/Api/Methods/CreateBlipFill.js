@@ -1,4 +1,9 @@
-// This example shows hot to create a blip fill to apply to the object using the selected image as the object background.
+// This example shows how to create a blip fill to apply to the object using the selected image as the object background.
+
+// How to set an image as a background.
+
+// Use blip fill to fill a background with an image.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

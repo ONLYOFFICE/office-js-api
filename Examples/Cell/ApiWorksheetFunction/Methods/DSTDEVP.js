@@ -1,3 +1,9 @@
+// This example shows how to calculate the standard deviation based on the entire population of the selected database entries.
+
+// How to estimate the standard deviation based on an entire population.
+
+// Use function to estimate the standard deviation based on the entire population from a range.
+
 let worksheet = Api.GetActiveSheet();
 let func = Api.GetWorksheetFunction();
 worksheet.GetRange("A1").SetValue("Name");

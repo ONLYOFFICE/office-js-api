@@ -1,4 +1,9 @@
 // This example adds a Run to the paragraph.
+
+// How to add text to the paragraph.
+
+// Get the paragraph from the shape and change its text.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

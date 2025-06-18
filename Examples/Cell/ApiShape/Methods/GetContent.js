@@ -1,4 +1,9 @@
 // This example shows how to get the shape inner contents where a paragraph or text runs can be inserted.
+
+// How to get content of ApiShape.
+
+// Get content of ApiShape, remove all its elements and add a new paragraph to it.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

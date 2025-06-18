@@ -1,4 +1,9 @@
 // This example gets a class type and inserts it into the document.
+
+// How to get a class type of ApiSchemeColor.
+
+// Get a class type of ApiSchemeColor and display it in the worksheet.
+
 let worksheet = Api.GetActiveSheet();
 let schemeColor = Api.CreateSchemeColor("dk1");
 let fill = Api.CreateSolidFill(schemeColor);

@@ -1,3 +1,9 @@
+// This example shows how to multiply the values in the field (column) of records in the database that match the conditions you specify.
+
+// How to multiply the values under condition.
+
+// Use function to multiply the values from columns if they satisfy a condition.
+
 let worksheet = Api.GetActiveSheet();
 let func = Api.GetWorksheetFunction();
 worksheet.GetRange("A1").SetValue("Product");

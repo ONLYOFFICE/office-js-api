@@ -1,4 +1,9 @@
 // This example clears the content from the row.
+
+// How to delete the content of the first row.
+
+// Remove the text from the table row.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

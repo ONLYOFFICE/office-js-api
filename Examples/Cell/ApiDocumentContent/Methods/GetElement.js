@@ -1,4 +1,9 @@
 // This example shows how to get an element by its position in the document content.
+
+// How to get an element of the document content knowing its index position.
+
+// Get a document element then change its position and content.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

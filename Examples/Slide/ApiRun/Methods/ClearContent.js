@@ -1,4 +1,9 @@
 // This example clears the content from the run.
+
+// How to delete content from the text run.
+
+// Remove text from the slide.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

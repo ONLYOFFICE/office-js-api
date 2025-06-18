@@ -1,4 +1,9 @@
 // This example shows how to get a collection of chart objects in the paragraph.
+
+// How to retrieve all charts from the document.
+
+// Get all charts and set minor horizontal gridlines.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart1 = Api.CreateChart("bar3D", [

@@ -1,4 +1,9 @@
 // This example sets the text outline to the current text run
+
+// How to change outline of the text.
+
+// Create a new text run and outline it with the stroke object.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

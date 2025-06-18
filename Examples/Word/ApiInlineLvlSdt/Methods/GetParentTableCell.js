@@ -1,4 +1,9 @@
 // This example showh how to get a table cell that contains the current content control.
+
+// How to display the parent table of the inline text control.
+
+// Update the parent table of inline content control.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

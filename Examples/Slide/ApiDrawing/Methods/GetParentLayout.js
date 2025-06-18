@@ -1,4 +1,9 @@
 // This example shows hot to get the drawing parent slide layout.
+
+// How to get a parent layout of a slide shape.
+
+// Get a slide shape's parent layout.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

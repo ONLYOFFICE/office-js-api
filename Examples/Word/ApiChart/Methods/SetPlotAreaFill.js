@@ -1,4 +1,9 @@
 // This example sets the fill to the chart plot area.
+
+// How to set a background color for the plot area.
+
+// Create a chart, set its properties and its plot area color.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

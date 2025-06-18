@@ -1,4 +1,9 @@
-// This example shows how to get the tag attribute for the container.
+// This example shows how to get a tag attribute for the container.
+
+// Creates a block content control, sets a tag to it, and returns this tag to insert it into the second paragraph of the document.
+
+// How to get a tag from the ApiBlockLvlSdt object.
+
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();
 blockLvlSdt.GetContent().GetElement(0).AddText("This is a block text content control with a tag set to it.");

@@ -1,4 +1,9 @@
 // This example deletes the DefName object.
+
+// How to remove custom DefName from a worksheet.
+
+// Delete previously added DefName. 
+
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");
 worksheet.GetRange("B1").SetValue("2");

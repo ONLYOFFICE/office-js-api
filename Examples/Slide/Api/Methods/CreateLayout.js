@@ -1,4 +1,9 @@
 // This example shows how to create layout.
+
+// How to create and apply a layout for a slide.
+
+// Change a slide layout.
+
 var oPresentation = Api.GetPresentation();
 var oSlide1 = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

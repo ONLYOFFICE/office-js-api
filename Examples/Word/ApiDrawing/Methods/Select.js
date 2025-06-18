@@ -1,4 +1,9 @@
 // This example selects the current graphic object.
+
+// How to select the drawing with the cursor.
+
+// Create a shape add the text to it and select it.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));

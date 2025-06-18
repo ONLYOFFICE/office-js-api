@@ -1,3 +1,8 @@
+// This example shows how to return the skewness of a distribution based on a population: a characterization of the degree of asymmetry of a distribution around its mean.
+
+// How to calaculate the skewness of a distribution based on a population.
+
+// Use a function to get a characterization of the degree of asymmetry of a distribution around its mean.
 
 const worksheet = Api.GetActiveSheet();
 

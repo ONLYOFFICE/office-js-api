@@ -1,4 +1,9 @@
 // This example shows how to get the width of the drawing.
+
+// How to know a width of a drawing.
+
+// Get a drawing's width and display it in the worksheet.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

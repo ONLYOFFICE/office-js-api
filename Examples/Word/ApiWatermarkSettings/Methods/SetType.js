@@ -1,4 +1,9 @@
 // This example sets the parameters of the watermark settings and apply them to the document.
+
+// How to set the type of the watermark.
+
+// Change the watermark type to "text" using its settings.
+
 let doc = Api.GetDocument();
 let watermarkSettings = doc.GetWatermarkSettings();
 watermarkSettings.SetType("text");

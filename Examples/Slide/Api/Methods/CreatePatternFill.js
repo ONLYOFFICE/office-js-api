@@ -1,4 +1,9 @@
-// This example creates a pattern fill and applys it to the object using the selected pattern as the object background.
+// This example creates a pattern fill and applies it to the object using the selected pattern as the object background.
+
+// How to apply pattern to the background of a drawing.
+
+// Change color of an element using a pattern fill.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

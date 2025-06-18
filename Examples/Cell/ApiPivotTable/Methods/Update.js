@@ -1,3 +1,8 @@
+// This example shows how to update a pivot table.
+
+// How to update a table.
+
+// Create a pivot table, add data to it then update it. 
  
 let worksheet = Api.GetActiveSheet();
 

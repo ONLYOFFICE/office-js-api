@@ -1,4 +1,9 @@
 // This example sets the page orientation.
+
+// How to change a page orientation.
+
+// Set a page orientation and display it in the sheet.
+
 let worksheet = Api.GetActiveSheet();
 worksheet.SetPageOrientation("xlPortrait");
 let pageOrientation = worksheet.GetPageOrientation();

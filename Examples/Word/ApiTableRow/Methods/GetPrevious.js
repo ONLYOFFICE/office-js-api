@@ -1,4 +1,9 @@
 // This example shows how to get the previous row.
+
+// Get the previous row from the current row.
+
+// Display the second and the first row.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

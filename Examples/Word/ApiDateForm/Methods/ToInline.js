@@ -1,4 +1,9 @@
 // This example converts the current form to an inline form.
+
+// How to make the date form inline.
+
+// Create a date form and make its position inline.
+
 let doc = Api.GetDocument();
 let dateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});
 let paragraph = doc.GetElement(0);

@@ -1,4 +1,9 @@
 // This example sets "0.00" numeric format for chart.
+
+// How to change a number format of a data point.
+
+// Create a chart then apply specified numeric format to its data points.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

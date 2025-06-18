@@ -1,3 +1,8 @@
+// This example shows how to return the true logical value.
+
+// How to get a true value.
+
+// Use a function to return true value.
 
 const worksheet = Api.GetActiveSheet();
 

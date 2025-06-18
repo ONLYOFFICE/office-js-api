@@ -1,4 +1,9 @@
 // This example shows how to get the paragraph contents justification.
+
+// How to get a justification type of a text.
+
+// Return a justification of a paragraph from the slide.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

@@ -1,4 +1,9 @@
 // This example shows how to get the presentation height in English measure units.
+
+// How to get a height of the presentation.
+
+// Get a height of the ApiPresentation object.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

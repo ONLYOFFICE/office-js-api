@@ -1,4 +1,9 @@
-// This example shows how to group drawings on slide
+// This example shows how to group drawings on slide.
+
+// How to group two shapes.
+
+// Create two ApiShape objects and group them.
+
 let oPresentation = Api.GetPresentation();
 let oSlide = oPresentation.GetSlideByIndex(0);
 let oFill1 = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));

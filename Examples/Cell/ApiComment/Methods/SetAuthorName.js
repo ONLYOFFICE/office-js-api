@@ -1,4 +1,9 @@
 // This example sets the comment author's name.
+
+// How to add author's name to the comment.
+
+// Add a comment and author name to it, then show author name in the worksheet.
+
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");
 let range = worksheet.GetRange("A1");

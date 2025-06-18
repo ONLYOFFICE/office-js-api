@@ -1,4 +1,9 @@
 // This example shows how to get the paragraph line spacing rule.
+
+// How to get the spacing information of the paragraph lines.
+
+// Create a paragraph, set the spacing line between the sentences and show it. 
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

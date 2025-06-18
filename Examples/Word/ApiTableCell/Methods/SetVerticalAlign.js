@@ -1,4 +1,9 @@
 // This example specifies the vertical alignment for the text contents within the table cell.
+
+// Set text vertical alignment to the cell.
+
+// Align the text to bottom of the cell.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

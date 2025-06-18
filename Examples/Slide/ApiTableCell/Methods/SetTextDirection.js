@@ -1,4 +1,9 @@
 // This example specifies the direction of the text flow for the current table cell.
+
+// How to set text direction of the table cell.
+
+// Create a table and set the text direction for the ApiTableCell object.
+
 var oPresentation = Api.GetPresentation();
 var oTable = Api.CreateTable(2, 4);
 var oRow = oTable.GetRow(0);

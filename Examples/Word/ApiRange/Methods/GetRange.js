@@ -1,4 +1,9 @@
 // This example shows how to get a Range object that represents the document part contained in the specified range.
+
+// Get the range from the range indicating its start and end positions.
+
+// Retrieve a range and make them italic.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("ONLYOFFICE Document Builder");

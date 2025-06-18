@@ -1,4 +1,9 @@
 // This example creates a copy of the theme font scheme.
+
+// How to create a copy of a font scheme.
+
+// Get font scheme and create its copy.
+
 var oPresentation = Api.GetPresentation();
 var oSlide1 = oPresentation.GetSlideByIndex(0);
 oSlide1.RemoveAllObjects();

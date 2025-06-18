@@ -1,4 +1,9 @@
 // This example specifies which chart data labels are shown for the chart.
+
+// How to hide chart data labels.
+
+// Show only values as chart lables.
+
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);
 worksheet.GetRange("C1").SetValue(2015);

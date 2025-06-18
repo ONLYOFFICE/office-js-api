@@ -1,4 +1,9 @@
 // This example specifies the visual properties for the minor horizontal gridlines.
+
+// How to set minor horizontal gridlines of the chart.
+
+// Create a chart, set its properties and its minor gridlines.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

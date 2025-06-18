@@ -1,3 +1,9 @@
+// This example shows how to find out whether a text has a double strikethrough.
+
+// How to know whether a text is crossed with two horizontal lines.
+
+// Get the text properties of the run and find whether it has a double strikethrough.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

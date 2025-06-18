@@ -1,4 +1,9 @@
 // This example shows how to get the previous inline drawing object if exists.
+
+// How to set vertical flip for the previous drawing.
+
+// Get the previous drawing and update its properties.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));

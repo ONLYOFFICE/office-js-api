@@ -1,4 +1,9 @@
 // This example converts the current form to a fixed size form.
+
+// Create a text form and make its size fixed.
+
+// Fix the width and the height of the text form.
+
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});
 let paragraph = doc.GetElement(0);

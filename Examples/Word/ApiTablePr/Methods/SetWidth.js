@@ -1,4 +1,9 @@
 // This example sets the preferred width to the table.
+
+// How to change the width of the table.
+
+// Set the table width in percentage.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("We set the table cells to preserve their size:");

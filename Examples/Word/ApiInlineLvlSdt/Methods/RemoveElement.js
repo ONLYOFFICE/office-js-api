@@ -1,4 +1,9 @@
 // This example removes an element using the position specified from the inline text content control.
+
+// How to remove an element from the inline text control.
+
+// Delete the element using its position index from the inline text control.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let inlineLvlSdt = Api.CreateInlineLvlSdt();

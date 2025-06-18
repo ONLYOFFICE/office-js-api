@@ -1,4 +1,9 @@
 // This example updates all tables of figures in the current document.
+
+// How to update all table of figures.
+
+// Edit document content, add drawings and update the table of figures.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

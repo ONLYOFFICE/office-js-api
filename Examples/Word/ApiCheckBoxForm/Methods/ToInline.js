@@ -1,4 +1,9 @@
 // This example converts the current form to an inline form.
+
+// How to make the form inline.
+
+// Set form as inline.
+
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});
 let paragraph = doc.GetElement(0);

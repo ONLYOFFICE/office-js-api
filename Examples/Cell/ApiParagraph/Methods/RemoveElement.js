@@ -1,4 +1,9 @@
 // This example removes an element using the position specified.
+
+// How to delete a paragraph element knowing its index.
+
+// Change the content of a shape by removing elements.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

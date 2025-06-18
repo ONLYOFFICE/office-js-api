@@ -1,4 +1,9 @@
 // This example changes the type of the first series of ApiChart class and inserts the new type into the document.
+
+// How to change a chart type.
+
+// Change a chart type to the "area" type.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("comboBarLine", [

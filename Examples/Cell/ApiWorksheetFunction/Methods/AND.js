@@ -1,3 +1,9 @@
+// This example shows how to check whether all conditions in a test are true.
+
+// How to apply logical AND operation for a list of conditions.
+
+// Use logical AND to evaluate an expression.
+
 const worksheet = Api.GetActiveSheet();
 
 let func = Api.GetWorksheetFunction();

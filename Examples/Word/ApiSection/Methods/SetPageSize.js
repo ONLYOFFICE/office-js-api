@@ -1,4 +1,9 @@
 // This example specifies the properties (size and orientation) for all the pages in the section.
+
+// How to set page size.
+
+// Get the final section and resize its page.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is a page with a page size set. ");

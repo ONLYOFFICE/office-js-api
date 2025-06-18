@@ -1,4 +1,9 @@
-// This example gets a start page index of section
+// This example gets a start page index of section.
+
+// How to get the start page number for the current section.
+
+// Get a section from the paragraph and its first page number.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let section = paragraph.GetSection();

@@ -1,4 +1,9 @@
 // This example sets the selection to the specified range.
+
+// How to select a range with a cursor.
+
+// Get range of the paragraph and select it.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("ONLYOFFICE Document Builder");

@@ -1,4 +1,9 @@
 // This example returns the text properties from the current form.
+
+// How to get the text properties of the current ApiCheckBoxForm object and change its font size.
+
+// Make a checkbox form text italic.
+
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": false});
 checkBoxForm.SetFormKey("Marital status 1");

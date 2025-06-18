@@ -1,4 +1,9 @@
 // This example sets the fill to the specified chart series.
+
+// How to color a chart seria.
+
+// Create a chart, set its properties and its series background.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

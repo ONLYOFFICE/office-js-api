@@ -1,4 +1,9 @@
 // This example specifies an amount of space which shall be left between the left extent of the current cell contents and the left edge border of a specific individual table cell within a table.
+
+// How to set the cell left margin for the current table cell.
+
+// Specify the left margin value for the ApiTableCell object.
+
 var oPresentation = Api.GetPresentation();
 var oTable = Api.CreateTable(2, 4);
 var oRow = oTable.GetRow(0);

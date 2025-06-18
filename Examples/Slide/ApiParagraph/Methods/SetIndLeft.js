@@ -1,4 +1,9 @@
 // This example sets the paragraph left side indentation.
+
+// How to set paragraph's left side indentation size.
+
+// Resize the left side indentation of a text from a paragraph.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

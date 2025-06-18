@@ -1,4 +1,9 @@
 // This example sets the text properties to the current form.
+
+// How to set text properties of the form.
+
+// Make text of the checkbox bold.
+
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});
 let paragraph = doc.GetElement(0);

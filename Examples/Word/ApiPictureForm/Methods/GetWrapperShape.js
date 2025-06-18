@@ -1,4 +1,9 @@
 // This example shows how to get a shape in which the form is placed to control the position and size of the fixed size form frame.
+
+// How to get the wrapper shape.
+
+// Get a shape that contains a form.
+
 let doc = Api.GetDocument();
 let pictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false, "shiftX": 50, "shiftY": 50});
 let paragraph = doc.GetElement(0);

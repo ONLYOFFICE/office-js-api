@@ -1,4 +1,9 @@
 // This example shows how to get the screen tip text of the hyperlink.
+
+// How to show the screen tip text of the hyperlink.
+
+// Set and display the hyperlink tip text appearing on the screen.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let run = Api.CreateRun();

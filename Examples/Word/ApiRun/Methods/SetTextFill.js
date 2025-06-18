@@ -1,4 +1,9 @@
 // In this example, add the text with a text fill to the WordArt.
+
+// How to fill a text run.
+
+// Create a new text run and set its font color.
+
 let doc = Api.GetDocument();
 let textPr = Api.CreateTextPr();
 textPr.SetFontSize(30);

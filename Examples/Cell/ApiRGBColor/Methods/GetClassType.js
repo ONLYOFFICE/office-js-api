@@ -1,4 +1,9 @@
 // This example gets a class type and inserts it into the document.
+
+// How to get a class type of ApiRGBColor.
+
+// Get a class type of ApiRGBColor and display it in the worksheet.
+
 var oWorksheet = Api.GetActiveSheet();
 var oRGBColor = Api.CreateRGBColor(255, 213, 191);
 var oGs1 = Api.CreateGradientStop(oRGBColor, 0);

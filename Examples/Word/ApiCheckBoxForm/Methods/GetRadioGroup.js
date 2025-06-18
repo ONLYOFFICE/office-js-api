@@ -1,4 +1,9 @@
 // This example shows how to get the radio group key if the checkbox is a radio button.
+
+// How to get checkbox form radio group.
+
+// Retrieve type of a created checkbox object and display it.
+
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});
 checkBoxForm.SetRadioGroup("Marital status");

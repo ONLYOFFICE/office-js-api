@@ -1,3 +1,9 @@
+// This example gets a text color property.
+
+// How to find out a text color type.
+
+// Get a text solid color fill.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

@@ -1,3 +1,9 @@
+// This example gets a class type and inserts it into the table.
+
+// How to get a comment class type.
+
+// Get an comment class type to show it in the worksheet.
+
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");
 let range = worksheet.GetRange("A1");

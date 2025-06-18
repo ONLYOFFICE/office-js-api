@@ -1,3 +1,9 @@
+// This example shows how to return the number of rows in a range.
+
+// How to count number of rows.
+
+// Use a function to count number of rows.
+
 let worksheet = Api.GetActiveSheet();
 let func = Api.GetWorksheetFunction();
 let column1 = [13, 14, 15];

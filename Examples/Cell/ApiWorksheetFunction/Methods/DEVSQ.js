@@ -1,3 +1,9 @@
+// This example shows how to get the sum of squares of deviations of data points from their sample mean.
+
+// How to get sum of squares of deviations.
+
+// Use function to get the sum of squares of deviations of data points from their sample mean.
+
 let worksheet = Api.GetActiveSheet();
 let argumentsArrA = [34, 244];
 let argumentsArrB = [769, 445];

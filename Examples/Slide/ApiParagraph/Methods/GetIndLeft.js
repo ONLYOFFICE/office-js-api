@@ -1,4 +1,9 @@
 // This example shows how to get the paragraph left side indentation.
+
+// How to return a left side identation of a paragraph.
+
+// Return a left side indentation of a text from the slide.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

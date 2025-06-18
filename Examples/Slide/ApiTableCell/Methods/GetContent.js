@@ -1,4 +1,9 @@
 // This example shows how to get the current cell content.
+
+// How to get a content of the ApiTableCell object.
+
+// Return the ApiDocumentContent object from the table cell.
+
 var oPresentation = Api.GetPresentation();
 var oTable = Api.CreateTable(2, 4);
 var oRow = oTable.GetRow(0);

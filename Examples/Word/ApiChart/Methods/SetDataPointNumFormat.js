@@ -1,4 +1,9 @@
 // This example sets "0.00" numeric format for chart.
+
+// How to set a numeric format of the data points.
+
+// Create a chart and set its data points number format to two decimal places.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

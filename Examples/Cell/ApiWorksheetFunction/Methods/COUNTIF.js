@@ -1,3 +1,9 @@
+// This example shows how to count a number of cells within a range that meet the given condition.
+
+// How to find a number of cells that satisfies some condition.
+
+// Use function to get cells if a condition is met.
+
 let worksheet = Api.GetActiveSheet();
 let func = Api.GetWorksheetFunction();
 let fruits = ["Apples", "ranges", "Bananas"];

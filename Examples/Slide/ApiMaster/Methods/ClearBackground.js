@@ -1,4 +1,9 @@
 // This example clears the slide master background.
+
+// How to remove a background from a master.
+
+// Clear background from a master object.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

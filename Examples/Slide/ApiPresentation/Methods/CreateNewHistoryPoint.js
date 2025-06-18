@@ -1,4 +1,9 @@
 // This example creates a new history point.
+
+// How to add a new history point to the presentation.
+
+// Create a presentation history point.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

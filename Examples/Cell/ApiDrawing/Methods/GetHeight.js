@@ -1,4 +1,9 @@
 // This example shows how to get the height of the drawing.
+
+// How to know a height of a drawing.
+
+// Get a drawing's height and display it in the worksheet.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

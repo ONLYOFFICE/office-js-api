@@ -1,4 +1,9 @@
 // This example sets the background fill styles to the current theme format scheme.
+
+// How to change background fill styles of a format scheme.
+
+// Get format scheme and update its background fill styles, adding pattern, solid and radial fills.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

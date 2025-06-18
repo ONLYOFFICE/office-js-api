@@ -1,4 +1,9 @@
 // This example specifies the visual properties for the minor vertical gridlines.
+
+// How to set minor vertical gridlines of the chart.
+
+// Create a chart, set its properties and its minor gridlines as a stroke.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

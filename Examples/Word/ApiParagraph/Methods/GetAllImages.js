@@ -1,4 +1,9 @@
 // This example shows how to get a collection of image objects in the paragraph.
+
+// How to retrieve all images from the document.
+
+// Get all images and get the class type of the first one.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let image1 = Api.CreateImage("https://static.onlyoffice.com/assets/docs/samples/img/onlyoffice_logo.png", 60 * 36000, 35 * 36000);

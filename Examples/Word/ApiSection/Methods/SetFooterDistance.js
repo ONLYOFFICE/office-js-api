@@ -1,4 +1,9 @@
 // This example specifies the distance from the bottom edge of the page to the bottom edge of the footer.
+
+// How to set footer distance of the section.
+
+// Specify the distance between the page end and the footer.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is a page with a footer. ");

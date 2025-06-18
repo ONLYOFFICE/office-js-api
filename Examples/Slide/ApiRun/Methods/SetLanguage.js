@@ -1,4 +1,9 @@
 // This example specifies the languages which will be used to check spelling and grammar (if requested) when processing the contents of this text run.
+
+// How to change language of the text for grammar check.
+
+// Create a new text run and change its language.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

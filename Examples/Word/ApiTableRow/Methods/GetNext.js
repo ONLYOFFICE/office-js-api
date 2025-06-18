@@ -1,4 +1,9 @@
 // This example shows how to get the next row.
+
+// Get the next row of the current row.
+
+// Display the first and the second row.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

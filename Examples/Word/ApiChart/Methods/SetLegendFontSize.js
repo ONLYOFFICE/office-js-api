@@ -1,4 +1,9 @@
 // This example specifies the chart legend font size.
+
+// How to resize a legend font size.
+
+// Create a chart and set a font size of its legend.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

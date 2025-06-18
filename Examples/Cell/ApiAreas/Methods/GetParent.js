@@ -1,4 +1,9 @@
 // This example shows how to get the parent object for the specified collection.
+
+// How to get a parent of the collection.
+
+// Find a collection parent of the selected range.
+
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B1:D1");
 range.SetValue("1");

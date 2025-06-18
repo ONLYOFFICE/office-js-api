@@ -1,4 +1,9 @@
 // This example finds the next cell that matches those same conditions.
+
+// How to get the next cell from a range that meets search requirements.
+
+// Get a range, find the next cell that satisfies search conditions and fill it with color.
+
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);
 worksheet.GetRange("C1").SetValue(2015);

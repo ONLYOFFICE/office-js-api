@@ -1,3 +1,9 @@
+// This example shows how to set an author of a comment.
+
+// How to change a comment's author name.
+
+// Get all comments from the presentation and set an author for the first one.
+
 var oPresentation = Api.GetPresentation();
 Api.pluginMethod_AddComment({"UserName": "John Smith", "Text": "Comment 1"});
 var arrComments = oPresentation.GetAllComments();

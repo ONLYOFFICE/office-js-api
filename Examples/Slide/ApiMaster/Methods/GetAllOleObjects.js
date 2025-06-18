@@ -1,4 +1,9 @@
 // This example show how to get an array with all the OLE objects from the slide master.
+
+// How to get all OLE objects from the master of presentation.
+
+// Get all OLE objects from the presentation slide master as an array.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

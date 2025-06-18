@@ -1,3 +1,9 @@
+// This example shows how to average the values in a field (column) of records in a list or database that match conditions you specify.
+
+// How to find an average from the column values.
+
+// Use function to get the average of the values that match conditions specified.
+
 let worksheet = Api.GetActiveSheet();
 let func = Api.GetWorksheetFunction();
 worksheet.GetRange("A1").SetValue("Name");

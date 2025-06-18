@@ -1,4 +1,9 @@
 // This example shows how to get the index for the current slide.
+
+// How to find out a position index of a current slide.
+
+// Get current working slide index.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

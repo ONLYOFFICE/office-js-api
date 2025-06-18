@@ -1,4 +1,9 @@
 // This example shows how to get a theme of the slide master.
+
+// How to get a theme knowing a slide master and set its color scheme.
+
+// Get slide master theme.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

@@ -1,5 +1,11 @@
+// This example shows how to return the number of sheets in a reference.
+
+// How to count sheets.
+
+// Use a function to get how many sheets are present in the worksheet.
 
 // Add more sheets
+
 Api.AddSheet("Sheet2")
 Api.AddSheet("Sheet3")
 

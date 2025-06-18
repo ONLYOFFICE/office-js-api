@@ -1,4 +1,9 @@
 // This example sets the font size to the characters of the current text run.
+
+// How to set font size to the text run.
+
+// Create a new text run and change resize its font.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

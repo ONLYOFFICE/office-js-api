@@ -1,4 +1,9 @@
 // This example sets the table paddings.
+
+// How to set paddings of the table.
+
+// Create a table and specify its paddings.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

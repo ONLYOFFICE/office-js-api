@@ -1,4 +1,9 @@
 // This example shows how to get the paragraph right side indentation.
+
+// How to return a right side identation of a paragraph property.
+
+// Return a right side indentation of a text property from the slide.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

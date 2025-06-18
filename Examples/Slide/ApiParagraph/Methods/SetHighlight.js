@@ -1,4 +1,9 @@
-// This example sets hiighlight color "lightGray" for the paragraph.
+// This example sets highlight color "lightGray" for the paragraph.
+
+// How to create a paragraph and highlight it with color.
+
+// Set a light gray highlight color to a paragraph and insert it to the slide shape.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

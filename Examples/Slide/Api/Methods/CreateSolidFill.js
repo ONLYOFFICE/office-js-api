@@ -1,4 +1,9 @@
 // This example shows how to create a solid fill.
+
+// How to color a background.
+
+// Add solid fill color as a shape background.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

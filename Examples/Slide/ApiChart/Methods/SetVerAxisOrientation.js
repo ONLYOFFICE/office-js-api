@@ -1,4 +1,9 @@
 // This example specifies the vertical axis orientation.
+
+// How to set an orientation of vertical axis.
+
+// Create a chart, set its properties and its vertical axis orientation.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

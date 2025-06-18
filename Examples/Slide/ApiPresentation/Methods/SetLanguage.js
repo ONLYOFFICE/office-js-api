@@ -1,4 +1,9 @@
-// This example sets pecifies the languages which will be used to check spelling and grammar.
+// This example sets a language which will be used to check spelling and grammar.
+
+// How to specify a language of the current presentation.
+
+// Set the 'en-CA' language to the ApiPresentation object.
+
 var oPresentation = Api.GetPresentation();
 oPresentation.SetLanguage("en-CA");
 var oSlide = oPresentation.GetSlideByIndex(0);

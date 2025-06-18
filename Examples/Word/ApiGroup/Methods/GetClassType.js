@@ -1,4 +1,9 @@
 // This example gets a class type and inserts it into the document.
+
+// How to get a class type of ApiGroup.
+
+// Retrieve class type of ApiGroup object and insert it to the document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill1 = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));

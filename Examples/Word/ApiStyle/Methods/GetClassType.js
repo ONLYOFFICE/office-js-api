@@ -1,4 +1,9 @@
 // This example gets a class type and inserts it into the document.
+
+// How to get a class type of ApiStyle.
+
+// Retrieve class type of ApiStyle object and insert it to the document.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.GetStyle("Bordered");
 tableStyle.SetName("My Custom Style");

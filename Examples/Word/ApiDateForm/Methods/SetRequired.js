@@ -1,4 +1,9 @@
 // This example specifies if the form should be required.
+
+// How to make a date form required.
+
+// Make sure that there is an answer to the date form.
+
 let doc = Api.GetDocument();
 let dateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": false, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});
 let paragraph = doc.GetElement(0);

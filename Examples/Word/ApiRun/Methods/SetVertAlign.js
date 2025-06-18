@@ -1,4 +1,9 @@
 // This example specifies the alignment which will be applied to the contents of the current run in relation to the default appearance of the text run.
+
+// How to change a vertical alignment of a text run.
+
+// Create a new text run and make it subscript, baseline or superscript.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let run = Api.CreateRun();

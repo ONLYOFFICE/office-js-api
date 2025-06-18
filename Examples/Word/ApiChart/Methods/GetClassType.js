@@ -1,4 +1,9 @@
 // This example gets a type of ApiChart class and inserts it into the document.
+
+// How to get a ApiChart class type name.
+
+// Create a chart and then display its class type.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

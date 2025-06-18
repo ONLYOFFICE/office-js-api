@@ -1,4 +1,9 @@
 // This example sets the x-axis values to all chart series. It is used with the scatter charts only.
+
+// How to add values to horizontal axis for all series of scatter charts.
+
+// Fill all x-axis values of scattered charts series.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("scatter", [

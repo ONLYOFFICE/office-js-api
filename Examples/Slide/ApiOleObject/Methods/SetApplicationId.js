@@ -1,4 +1,9 @@
 // This example sets the application ID to the current OLE object.
+
+// Set an application ID for an OLE object.
+
+// Create an OLE object and set its application ID.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

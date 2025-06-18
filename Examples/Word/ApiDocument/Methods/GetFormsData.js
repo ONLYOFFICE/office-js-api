@@ -1,4 +1,9 @@
 // This example showh how to get the data for all forms added to the document.
+
+// How to get form information as a string.
+
+// Display the form data in the document.
+
 let doc = Api.GetDocument();
 let paragraph1 = doc.GetElement(0);
 let checkBox = Api.CreateCheckBoxForm({key: "BestCompany"});

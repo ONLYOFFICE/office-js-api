@@ -1,4 +1,9 @@
 // This example changes the position for the drawing object.
+
+// How to change the position of the drawing on the worksheet.
+
+// Move a drawing by setting the position.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

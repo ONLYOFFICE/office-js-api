@@ -1,3 +1,9 @@
+// This example shows how to counts a number of empty cells in a specified range of cells.
+
+// How to find a number of empty cells.
+
+// Use function to get empty cells count.
+
 let worksheet = Api.GetActiveSheet();
 let numbersArr = [45, 6, 8];
 let stringsArr = ["Apples", "ranges", "Bananas"]

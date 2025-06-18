@@ -1,4 +1,9 @@
 // This example specifies a highlighting color which is applied as a background to the contents of the run.
+
+// How to set highlight to the text run.
+
+// Create a new text run and highlight it.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

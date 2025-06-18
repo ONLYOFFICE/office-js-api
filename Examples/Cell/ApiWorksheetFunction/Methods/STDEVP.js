@@ -1,3 +1,8 @@
+// This example shows how to calculate standard deviation based on the entire population given as arguments (ignores logical values and text).
+
+// How to calculate standard deviation based on the entire population.
+
+// Use a function to get the standard deviation.
 
 const worksheet = Api.GetActiveSheet();
 

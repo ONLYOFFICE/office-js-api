@@ -1,4 +1,9 @@
 // This example sets the comment reply author's name.
+
+// How to change a comment's reply author name.
+
+// Get all comments from the presentation and set an author to the first one's reply.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is just a sample text");

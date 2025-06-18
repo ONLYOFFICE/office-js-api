@@ -1,3 +1,9 @@
+// This example shows how to extract from a database a single record that matches the conditions you specify.
+
+// How to get a value from a database range that satisfies a condition.
+
+// Use function to get a record after applying condition.
+
 let worksheet = Api.GetActiveSheet();
 let func = Api.GetWorksheetFunction();
 worksheet.GetRange("A1").SetValue("Name");

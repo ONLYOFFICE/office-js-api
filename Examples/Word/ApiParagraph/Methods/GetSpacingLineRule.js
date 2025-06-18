@@ -1,4 +1,9 @@
 // This example shows how to get the paragraph line spacing rule.
+
+// How to get the spacing line rule of the paragraph and display it.
+
+// Get the paragraph spacing line rule.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.SetSpacingLine(3 * 240, "auto");

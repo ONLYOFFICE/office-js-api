@@ -1,4 +1,9 @@
 // This example gets a presentation name and inserts it into the presentation.
+
+// How to get a presentation name.
+
+// Retrieve name of presentation.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

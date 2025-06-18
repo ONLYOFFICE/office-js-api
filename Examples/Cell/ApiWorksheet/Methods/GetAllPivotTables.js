@@ -1,3 +1,9 @@
+// This example shows how to get all pivot tables from the sheet.
+
+// How to get all pivot tables.
+
+// Get all pivot tables as an array.
+
 let worksheet = Api.GetActiveSheet();
 
 worksheet.GetRange('B1').SetValue('Region');

@@ -1,4 +1,9 @@
 // This example sets the absolute measurement for the vertical positioning of the floating object.
+
+// How to set the vertical position at page in points.
+
+// Move the shape vertically on the page.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is a paragraph with a shape. ");

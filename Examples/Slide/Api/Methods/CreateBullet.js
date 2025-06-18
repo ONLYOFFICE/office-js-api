@@ -1,4 +1,9 @@
 // This example show how to create a bullet.
+
+// How to add a bullet to the paragraph.
+
+// Add bulleted paragraph.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

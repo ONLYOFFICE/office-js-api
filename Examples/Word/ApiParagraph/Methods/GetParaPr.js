@@ -1,4 +1,9 @@
 // This example shows how to get the paragraph properties.
+
+// How to set the spacing line, justification and other properties of the text.
+
+// Create a paragraph, add its text and properties.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let paraStyle = doc.GetDefaultStyle("paragraph");

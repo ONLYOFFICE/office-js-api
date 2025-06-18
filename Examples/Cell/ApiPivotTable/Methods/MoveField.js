@@ -1,3 +1,9 @@
+// This example shows how to move a pivot field.
+
+// How to change a position of a field by columns.
+
+// Create a pivot table, add data to it then move a field using its name.
+
 let worksheet = Api.GetActiveSheet();
 
 worksheet.GetRange('B1').SetValue('Region');
@@ -23,7 +29,7 @@ let dataRef = Api.GetRange("'Sheet1'!$B$1:$D$5");
 let pivotTable = Api.InsertPivotNewWorksheet(dataRef);
 
 pivotTable.AddFields({
-	rows: ['Region', 'Style'],
+    rows: ['Region', 'Style'],
 });
 
 pivotTable.AddDataField('Price');
@@ -31,5 +37,5 @@ pivotTable.AddDataField('Price');
 Api.GetActiveSheet().GetRange('F4').SetValue('Style field will be moved in columns soon');
 
 setTimeout(function () {
-	pivotTable.MoveField('Style', 'Columns');
+    pivotTable.MoveField('Style', 'Columns');
 }, 5000);

@@ -1,4 +1,9 @@
 // This example shows how to get a layout of the specified slide master by its position.
+
+// How to get a master layout knowing its index.
+
+// Get a layout object from the master.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

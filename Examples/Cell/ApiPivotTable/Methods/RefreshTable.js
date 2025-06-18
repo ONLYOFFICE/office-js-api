@@ -1,4 +1,9 @@
- 
+// This example shows how to refresh a table.
+
+// How to refresh table values.
+
+// Create a pivot table, add data to it then refresh it.
+
 let worksheet = Api.GetActiveSheet();
 
 worksheet.GetRange('B1').SetValue('Region');

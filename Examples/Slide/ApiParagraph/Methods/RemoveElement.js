@@ -1,4 +1,9 @@
 // This example removes an element using the position specified.
+
+// How to remove an element from the paragraph using its position index.
+
+// Delete an element from the paragraph.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

@@ -1,4 +1,9 @@
 // This example shows how to get a paragraph element using the position specified.
+
+// How to get the second element of the paragraph.
+
+// Get the word from paragraph using its index and make it bold.
+
 let doc = Api.GetDocument();
 let paragraph = Api.CreateParagraph();
 paragraph.RemoveAllElements();

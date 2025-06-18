@@ -1,4 +1,9 @@
 // This example shows how to create a chart and paste it into the document.
+
+// How to add charts to slides.
+
+// Create a 3D bar chart, set its size, position, color and other properties.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

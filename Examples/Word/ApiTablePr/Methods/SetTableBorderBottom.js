@@ -1,4 +1,9 @@
 // This example sets the border which will be displayed at the bottom of the table.
+
+// How to find out a style that will be applied to the table elements whish satisfy the condition.
+
+// Retrieve a conditional table style.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("We add the bottom 4 point black border:");

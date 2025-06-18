@@ -1,3 +1,8 @@
+// This example shows how to calculate predicted exponential growth by using existing data.
+
+// How to calculate predicted exponential growth by using existing data.
+
+// Use a function to calculate predicted exponential growth.
 
 const worksheet = Api.GetActiveSheet();
 

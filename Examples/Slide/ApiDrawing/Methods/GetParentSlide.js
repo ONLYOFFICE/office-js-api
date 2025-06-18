@@ -1,4 +1,9 @@
 // This example show how to get the drawing parent slide.
+
+// How to get a parent slide of a slide shape.
+
+// Get a parent slide knowing a shape.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));

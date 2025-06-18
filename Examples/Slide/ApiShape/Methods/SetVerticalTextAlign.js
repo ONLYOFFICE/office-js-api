@@ -1,4 +1,9 @@
 // This example sets the vertical alignment to the shape content where a paragraph or text runs can be inserted.
+
+// How to set vertical alignment of the shape content.
+
+// Adjust vertical alignment of the text inside the shape.
+
 var oPresentation = Api.GetPresentation();
 oPresentation.SetSizes(254 * 36000, 190 * 36000);
 var oSlide = oPresentation.GetCurrentSlide();

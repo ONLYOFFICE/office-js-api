@@ -1,4 +1,9 @@
 // This example sets the outline to the chart title.
+
+// How to outline a chart title.
+
+// Create a chart, set its properties and its title outline.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

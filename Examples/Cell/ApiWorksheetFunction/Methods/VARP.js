@@ -1,4 +1,8 @@
+// This example shows how to calculate variance based on the entire population (ignores logical values and text in the population).
 
+// How to estimate variance based on population.
+
+// Use a function to estimate variance based on population.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.GetWorksheetFunction();

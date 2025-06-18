@@ -1,4 +1,9 @@
 // This example shows how to get the document info represented as an object and paste the application name into the document.
+
+// How to get a document info from the presentation.
+
+// Get current document info.
+
 const oPresentation = Api.GetPresentation();
 const oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

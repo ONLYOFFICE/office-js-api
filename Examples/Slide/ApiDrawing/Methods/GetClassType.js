@@ -1,4 +1,9 @@
 // This example gets a class type and pastes it into the presentation.
+
+// How to get a class type of ApiDrawing.
+
+// Retrieve class type of ApiDrawing object and insert it to the slide.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

@@ -1,4 +1,9 @@
 // This example specifies if the current form should be required.
+
+// How to make a text form required.
+
+// Make sure that there is an answer to the text form.
+
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});
 let paragraph = doc.GetElement(0);

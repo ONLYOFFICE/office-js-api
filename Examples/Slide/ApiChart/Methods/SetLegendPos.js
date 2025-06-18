@@ -1,4 +1,9 @@
 // This example specifies the chart legend position.
+
+// How to place a chart legend.
+
+// Create a chart, set its properties and its legend's position.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

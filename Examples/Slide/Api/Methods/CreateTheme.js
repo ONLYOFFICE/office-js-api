@@ -1,4 +1,9 @@
 // This example creates theme and applies it for presentation.
+
+// How to change theme of the presentation.
+
+// Create new theme indicating all its properties.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

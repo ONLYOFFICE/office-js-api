@@ -1,4 +1,9 @@
 // This example shows how to get a content control that contains the content control.
+
+// How to display the parent control of the inline text control.
+
+// Set the alias to the parent inline content control.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let inlineLvlSdt1 = Api.CreateInlineLvlSdt();

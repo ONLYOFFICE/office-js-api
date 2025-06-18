@@ -1,4 +1,9 @@
 // This example adds an object (image, shape or chart) to the current slide master.
+
+// Create a shape and add it to the presentation master.
+
+// Add an element like paragraph, image or chart and etc. to the slide master.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

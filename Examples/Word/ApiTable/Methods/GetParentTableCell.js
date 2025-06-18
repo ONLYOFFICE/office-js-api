@@ -1,4 +1,9 @@
 // This example shows how to get a table cell that contains the table.
+
+// How to get the parent table cell.
+
+// Retrieve the parent table cell, apply the shading to it.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

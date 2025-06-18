@@ -1,4 +1,9 @@
 // This example sets the outline to the marker in the specified chart series.
+
+// How to set an outline to the marker.
+
+// Create a chart, set its properties and its marker outline.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("scatter", [

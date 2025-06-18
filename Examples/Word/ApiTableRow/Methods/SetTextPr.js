@@ -1,4 +1,9 @@
 // This example sets the text properties to the current row.
+
+// Make the row text bold.
+
+// How to apply new text properties to the table row.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

@@ -1,4 +1,9 @@
 // This example inserts a paragraph at the specified position.
+
+// How to insert the paragraph into the drawing.
+
+// Create a rectangle and then add a paragraph to it.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This graphic object with paragraph.");

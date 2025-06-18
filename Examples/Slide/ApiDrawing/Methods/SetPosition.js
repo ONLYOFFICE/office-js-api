@@ -1,4 +1,9 @@
 // This example sets position to the shape.
+
+// How to change a position of a drawing.
+
+// Get a shape object from a slide and move it.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

@@ -1,4 +1,9 @@
 // This example sets the fill to the chart plot area.
+
+// How to color chart plot area.
+
+// Fill plot area with a solid fill.
+
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);
 worksheet.GetRange("C1").SetValue(2015);

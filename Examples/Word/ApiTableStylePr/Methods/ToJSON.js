@@ -1,4 +1,9 @@
 // This example converts the ApiTableStylePr object into the JSON object.
+
+// How to get a JSON from the table style properties.
+
+// Convert the table style properties to json and add it to the document.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

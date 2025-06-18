@@ -1,4 +1,9 @@
 // This example sets the text properties to the current run.
+
+// How to create text property for a text object.
+
+// Create a text run object, add properties like font size, style, color, etc.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

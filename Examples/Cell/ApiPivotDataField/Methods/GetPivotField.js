@@ -1,3 +1,9 @@
+// This example shows how to get an index of pivot field of a data field.
+
+// How to use a table element pivot field.
+
+// Create a pivot table, add data to it then display a custom data field's pivot index.
+
 let worksheet = Api.GetActiveSheet();
 
 worksheet.GetRange('B1').SetValue('Region');

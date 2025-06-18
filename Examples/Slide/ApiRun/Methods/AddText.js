@@ -1,4 +1,9 @@
 // This example adds some text to the run.
+
+// How to add a text to a text run object.
+
+// How to add a text to the slide.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

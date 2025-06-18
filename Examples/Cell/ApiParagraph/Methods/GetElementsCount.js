@@ -1,4 +1,9 @@
 // This example shows how to get a number of elements in the current paragraph.
+
+// Get paragraph elements count.
+
+// How to get number of elements of the paragraph and show it in the worksheet.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

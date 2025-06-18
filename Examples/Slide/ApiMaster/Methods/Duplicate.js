@@ -1,4 +1,9 @@
 // This example creates a duplicate of the specified slide master object, adds the new slide master to the slide masters collection.
+
+// How to create a duplicate of a slide master.
+
+// Add a duplicate master.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

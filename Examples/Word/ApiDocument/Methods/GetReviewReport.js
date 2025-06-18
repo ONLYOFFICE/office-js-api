@@ -1,4 +1,9 @@
 // This example shows how to get a report about every change which was made to the document in the review mode.
+
+// How to get the report after the document review.
+
+// Get all information about review changes like author, formatted text, etc.
+
 let doc = Api.GetDocument();
 let paragraph1 = doc.GetElement(0);
 doc.SetTrackRevisions(true);

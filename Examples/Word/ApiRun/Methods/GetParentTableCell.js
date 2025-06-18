@@ -1,4 +1,9 @@
 // This example shows how to get a table cell that contains the run.
+
+// Get a parent table cell of the text.
+
+// How to set shading of the table cell that contains a text run.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

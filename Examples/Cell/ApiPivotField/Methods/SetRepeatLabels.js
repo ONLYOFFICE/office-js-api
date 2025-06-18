@@ -1,3 +1,9 @@
+// This example shows how to set a repeate labels of a pivot field.
+
+// How to change a pivot field repeated labels.
+
+// Create a pivot table, add data to it then add repeat labels of a specified pivot.
+
 let worksheet = Api.GetActiveSheet();
 
 worksheet.GetRange('B1').SetValue('Region');

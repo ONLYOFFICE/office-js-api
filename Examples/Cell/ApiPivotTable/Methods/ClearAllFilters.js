@@ -1,3 +1,9 @@
+// This example shows how to clear all filters from a pivot table.
+
+// How to remove previously applied pivot table filters.
+
+// Create a pivot table, add data to it then delete all filters from it.
+
 let worksheet = Api.GetActiveSheet();
 
 worksheet.GetRange('B1').SetValue('Region');

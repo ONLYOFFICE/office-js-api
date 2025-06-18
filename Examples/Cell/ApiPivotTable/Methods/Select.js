@@ -1,3 +1,9 @@
+// This example shows how to select a pivot table.
+
+// How to select a table.
+
+// Create a pivot table, add data to it then select it.
+
 let worksheet = Api.GetActiveSheet();
 
 worksheet.GetRange('B1').SetValue('Region');
@@ -23,8 +29,8 @@ let dataRef = Api.GetRange("'Sheet1'!$B$1:$D$5");
 let pivotTable = Api.InsertPivotNewWorksheet(dataRef);
 
 pivotTable.AddFields({
-	columns: 'Region',
-	rows: 'Style',
+    columns: 'Region',
+    rows: 'Style',
 });
 
 pivotTable.AddDataField('Price');

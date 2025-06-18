@@ -1,4 +1,9 @@
 // This example sets the fonts to the current theme font scheme.
+
+// How to set fonts to a theme.
+
+// Retrieve theme and set its font theme by adding fonts.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

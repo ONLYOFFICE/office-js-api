@@ -1,4 +1,9 @@
 // This example shows how to replace the current image with an image specified.
+
+// How to replace an image with another one.
+
+// Replace the current ApiImage with another image on the slide.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

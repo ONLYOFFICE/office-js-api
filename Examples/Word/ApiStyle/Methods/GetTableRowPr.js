@@ -1,4 +1,9 @@
 // This example shows how to get the table row properties of the current style.
+
+// How to get table row and set its height.
+
+// Resize the row of the table.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 let table = Api.CreateTable(2, 2);

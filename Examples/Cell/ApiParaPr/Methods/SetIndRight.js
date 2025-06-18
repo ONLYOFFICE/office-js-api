@@ -1,4 +1,9 @@
 // This example sets the paragraph right side indentation.
+
+// How to change the sentence's right side indentation of the paragraph.
+
+// Get a paragraph from the shape's content then add a text specifying the right side indentation.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

@@ -1,4 +1,9 @@
 // This example specifies whether the current section in this document has the different header and footer for the section first page.
+
+// How to make a page a title one.
+
+// Create a section and make its set its page as a title one.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This page does not have a footer, as it is a title page. ");

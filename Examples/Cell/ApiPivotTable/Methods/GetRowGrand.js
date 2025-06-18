@@ -1,3 +1,9 @@
+// This example shows how to get row grand of a pivot table.
+
+// How to get table row grand.
+
+// Create a pivot table, add data to it then get its row grand.
+
 let worksheet = Api.GetActiveSheet();
 
 worksheet.GetRange('B1').SetValue('Region');
@@ -25,8 +31,8 @@ let pivotTable = Api.InsertPivotNewWorksheet(dataRef);
 pivotTable.AddDataField('Price');
 
 pivotTable.AddFields({
-	columns: 'Region',
-	rows: 'Style',
+    columns: 'Region',
+    rows: 'Style',
 });
 
 let pivotWorksheet = Api.GetActiveSheet();

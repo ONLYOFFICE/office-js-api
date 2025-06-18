@@ -1,4 +1,9 @@
 // This shows how to link numbering level with the specified heading style.
+
+// How to link the numbering with the style of another element.
+
+// Apply the style of the element to the numbering.
+
 var oDocument = Api.GetDocument();
 let aHeadings = [];
 for (var nLvl = 0; nLvl < 3; ++nLvl) {

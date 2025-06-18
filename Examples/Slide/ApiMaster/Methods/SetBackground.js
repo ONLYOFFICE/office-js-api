@@ -1,4 +1,9 @@
 // This example sets the background to the current slide master.
+
+// How to set a background of a slide master.
+
+// Create a solid fill and apply it as a background for a slide master.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

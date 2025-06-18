@@ -1,4 +1,9 @@
 // This example sets the fill to the chart title.
+
+// How to color a chart title.
+
+// Add a solid color for a chart title.
+
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);
 worksheet.GetRange("C1").SetValue(2015);

@@ -1,4 +1,9 @@
 // This example sets the outline to the chart title.
+
+// How to outline a chart title.
+
+// Add a stroke for the chart title outline.
+
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);
 worksheet.GetRange("C1").SetValue(2015);

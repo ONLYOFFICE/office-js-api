@@ -1,3 +1,9 @@
+// This example shows how to get an author of a comment reply.
+
+// How to find out a comment's reply author.
+
+// Get all comments from the presentation and display the first one's reply author name.
+
 var oPresentation = Api.GetPresentation();
 Api.pluginMethod_AddComment({"UserName": "John Smith", "Text": "Comment 1"});
 var arrComments = oPresentation.GetAllComments();

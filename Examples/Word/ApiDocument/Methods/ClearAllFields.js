@@ -1,4 +1,9 @@
 // This example clears all forms in the document.
+
+// How to remove all answers from all forms.
+
+// Reset answers from document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let inlineLvlSdt = Api.CreateInlineLvlSdt();

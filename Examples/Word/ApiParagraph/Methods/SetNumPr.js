@@ -1,4 +1,9 @@
 // This example specifies that the current paragraph references a numbering definition instance in the current document.
+
+// How to add numbering to the paragraph.
+
+// Make the paragraph bulleted.
+
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");
 let paraPr = myStyle.GetParaPr();

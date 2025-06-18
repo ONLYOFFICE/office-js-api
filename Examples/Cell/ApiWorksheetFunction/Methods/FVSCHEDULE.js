@@ -1,3 +1,9 @@
+// This example shows how to return the future value of an initial principal after applying a series of compound interest rates.
+
+// How to get the future value of an initial principal.
+
+// Use a function to get future value of an initial principal based on different parameters.
+
 let worksheet = Api.GetActiveSheet();
 let func = Api.GetWorksheetFunction();
 worksheet.GetRange("A1").SetValue("Principal");

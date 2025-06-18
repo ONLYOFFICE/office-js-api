@@ -1,4 +1,9 @@
 // This example specifies if the text field content should be autofit.
+
+// How to make the first text form from this document autofit.
+
+// Set the text of the text form autofit.
+
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "multiLine": false});
 let paragraph = doc.GetElement(0);
