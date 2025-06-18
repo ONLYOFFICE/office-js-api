@@ -1,4 +1,9 @@
 // This example shows how to get a set of the paragraph properties which will be applied to all the paragraphs within a table which match the conditional formatting type.
+
+// How to get the paragraph properties.
+
+// Get the table properties of the first row and obtain its paragraph properties.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("We create a 3x3 table and set the text alignment to center for row #1:");

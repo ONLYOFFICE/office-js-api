@@ -1,4 +1,9 @@
 // This example shows how to get a collection of paragraphs that represents all the paragraphs in the specified range.
+
+// How to get all paragraphs.
+
+// Retrieve all paragraphs from the document and make the first one bold.
+
 let doc = editor.GetDocument();
 let firstParagraph = doc.GetElement(0);
 firstParagraph.AddText("First paragraph");

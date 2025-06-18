@@ -1,3 +1,9 @@
+// This example gets a text bold using its property.
+
+// How to find out whether a text is bold or not.
+
+// Get a text bold property.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

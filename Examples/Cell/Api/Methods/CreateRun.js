@@ -1,4 +1,9 @@
 // This example creates a new smaller text block to be inserted to the paragraph or table.
+
+// Create a text to construct a paragraph.
+
+// Add a text in a paragraph.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

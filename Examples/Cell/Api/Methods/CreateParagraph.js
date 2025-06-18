@@ -1,4 +1,9 @@
 // This example creates a new paragraph.
+
+// How to add a text in a shape.
+
+// Create a text paragraph for a shape.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

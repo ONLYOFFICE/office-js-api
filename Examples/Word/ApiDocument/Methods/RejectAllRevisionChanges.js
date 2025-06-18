@@ -1,4 +1,9 @@
 // This example rejects all changes made in review mode.
+
+// How to reset all changes after review.
+
+// Do not apply edited text in the review mode.
+
 let doc = Api.GetDocument();
 let paragraph1 = doc.GetElement(0);
 doc.SetTrackRevisions(true);

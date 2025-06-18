@@ -1,4 +1,9 @@
 // This example flips the drawing horizontally.
+
+// How to set the horizontal flip property of the shape.
+
+// Create a drawing, add text to it and flip it horizontally.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));

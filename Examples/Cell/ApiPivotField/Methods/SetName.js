@@ -1,3 +1,9 @@
+// This example shows how to set name of a pivot field.
+
+// How to change a pivot field name.
+
+// Create a pivot table, add data to it then rename a specified pivot.
+
 let worksheet = Api.GetActiveSheet();
 
 worksheet.GetRange('B1').SetValue('Region');
@@ -23,7 +29,7 @@ let dataRef = Api.GetRange("'Sheet1'!$B$1:$D$5");
 let pivotTable = Api.InsertPivotNewWorksheet(dataRef);
 
 pivotTable.AddFields({
-	rows: ['Region', 'Style'],
+    rows: ['Region', 'Style'],
 });
 pivotTable.SetRowAxisLayout("Tabular", false);
 

@@ -1,4 +1,9 @@
 // This example selects the current table.
+
+// How to select a table with a cursor.
+
+// Add text to the table cell and select it.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

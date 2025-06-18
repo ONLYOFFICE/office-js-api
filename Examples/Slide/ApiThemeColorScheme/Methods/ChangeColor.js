@@ -1,4 +1,9 @@
 // This example changes a color in the theme color scheme.
+
+// How to get a color scheme of a theme and change its color.
+
+// Get color scheme and update its colors.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

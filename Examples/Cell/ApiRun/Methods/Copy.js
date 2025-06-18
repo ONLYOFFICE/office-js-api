@@ -1,4 +1,9 @@
 // This example reates a copy of the run.
+
+// How to create a text run object and its copy.
+
+// Create an ApiRun and its copy and add it into paragraph.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

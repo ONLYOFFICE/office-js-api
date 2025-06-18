@@ -1,4 +1,9 @@
 // This example adds a tab stop to the run.
+
+// How to add a tab to a sentence.
+
+// Break two lines of a text run with a tab. 
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

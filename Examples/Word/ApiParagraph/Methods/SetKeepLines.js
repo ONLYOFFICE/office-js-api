@@ -1,4 +1,9 @@
 // This example specifies that when rendering the document using a page view, all lines of the current paragraph are maintained on a single page whenever possible.
+
+// How to set keep lines property of the paragraph content.
+
+// Keep all lines of the paragraph on the same page.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is an example of how the paragraph tries to keep lines together. ");

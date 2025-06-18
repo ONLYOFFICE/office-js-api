@@ -1,4 +1,9 @@
 // This example sets the bullet or numbering to the current paragraph.
+
+// How to add a dash bullet to the paragraph.
+
+// Numbering and adding custom bullet points to the text.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

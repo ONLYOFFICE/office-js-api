@@ -1,4 +1,9 @@
 // This example sets the color scheme to the current presentation theme.
+
+// How to get a theme and set a new color scheme.
+
+// Create a new color scheme and apply it to the slide theme.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

@@ -1,4 +1,9 @@
 // This example removes an element using the position specified.
+
+// How to remove the element at the index from the paragraph.
+
+// Delete a third element from the paragraph.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.RemoveAllElements();

@@ -1,5 +1,10 @@
-let worksheet = Api.GetActiveSheet();
-Api.AddComment("Comment 1", "John Smith");
+// This example shows how to get all comments from the worksheet.
+
+// How to get all comments from the worksheet.
+
+// Get all cell comments.
+
+let worksheet = Api.GetActiveSheet();Api.AddComment("Comment 1", "John Smith");
 worksheet.GetRange("A4").AddComment("Comment 2", "Mark Potato");
 let arrComments = Api.GetAllComments();
 worksheet.GetRange("A1").SetValue("Comment text: " + arrComments[1].GetText());

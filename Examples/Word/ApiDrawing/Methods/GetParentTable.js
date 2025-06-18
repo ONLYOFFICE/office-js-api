@@ -1,4 +1,9 @@
 // This example shows how to get a parent table that contains the graphic object.
+
+// Get an element's parent table.
+
+// How to show the shape's wrapper table.
+
 let doc = Api.GetDocument();
 let paragraph = Api.CreateParagraph();
 let table = Api.CreateTable(3, 3);

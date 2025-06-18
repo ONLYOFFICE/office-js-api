@@ -1,3 +1,9 @@
+// This example shows how to add fields to a pivot table specifing rows and columns.
+
+// How to add new fields to the table.
+
+// Create a pivot table, add data to it then add new data fields.
+
 let worksheet = Api.GetActiveSheet();
 
 worksheet.GetRange('B1').SetValue('Region');

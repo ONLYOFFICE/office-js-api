@@ -1,4 +1,9 @@
 // This example converts the ApiTextPr object into the JSON object.
+
+// How to get a JSON from the text properties.
+
+// Convert the text properties to json and add it to the document.
+
 let doc = Api.GetDocument();
 let textPr = doc.GetDefaultTextPr();
 textPr.SetFontFamily("Comic Sans MS");

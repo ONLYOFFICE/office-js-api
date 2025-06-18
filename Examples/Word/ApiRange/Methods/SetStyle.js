@@ -1,4 +1,9 @@
 // This example sets the style to the current Range.
+
+// How to style a text of the range.
+
+// Get a range, apply "Heading 2" style to it.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("ONLYOFFICE Document Builder");

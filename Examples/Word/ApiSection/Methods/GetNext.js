@@ -1,4 +1,9 @@
 // This example shows how to get the next section.
+
+// How to get the next section after the current one.
+
+// Update the margins of the next section.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is a new paragraph.");

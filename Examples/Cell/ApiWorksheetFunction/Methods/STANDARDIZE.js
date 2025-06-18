@@ -1,3 +1,8 @@
+// This example shows how to return a normalised value from a distribution characterised by a mean and standard deviation.
+
+// How to calculate the normalised value from a distribution.
+
+// Use a function to get the normalised value from a distribution by different parameters.
 
 const worksheet = Api.GetActiveSheet();
 

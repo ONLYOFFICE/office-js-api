@@ -1,4 +1,9 @@
 // This example removes an element using the position specified.
+
+// How to remove an element from a document knowing its position in the document content.
+
+// Delete an element from a document and prove it by showing the difference.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

@@ -1,3 +1,8 @@
+// This example shows how to return the quartile of a data set, based on percentile values from 0..1, inclusive.
+
+// How to get the inclusive quartile of a data set.
+
+// Use a function to calculate an inclusive fourth part of a data set.
 
 const worksheet = Api.GetActiveSheet();
 

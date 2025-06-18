@@ -1,4 +1,9 @@
 // This example clears the content from the run.
+
+// How to create a text run object, add a text to it and clear its value.
+
+// Clear content of an ApiRun object.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

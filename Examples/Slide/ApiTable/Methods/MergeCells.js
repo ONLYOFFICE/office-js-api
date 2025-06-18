@@ -1,4 +1,9 @@
 // This example merges an array of cells.
+
+// How to get two cells by their position index and merge them into one.
+
+// Create a table, create cells and merge them into one.
+
 var oPresentation = Api.GetPresentation();
 var oTable = Api.CreateTable(2, 4);
 var oRow = oTable.GetRow(0);

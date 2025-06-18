@@ -1,4 +1,9 @@
 // This example shows how to get the timestamp of the comment reply creation in the current time zone format.
+
+// How to get a time when a reply was created.
+
+// Add a reply creation timestamp to a range of the worksheet.
+
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");
 let range = worksheet.GetRange("A1");

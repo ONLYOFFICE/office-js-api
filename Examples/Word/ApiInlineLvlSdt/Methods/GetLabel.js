@@ -1,4 +1,9 @@
 // This example shows how to get the label attribute for the container.
+
+// How to display the label of the inline text control in the document.
+
+// Set the label of the inline text element and print it.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let inlineLvlSdt = Api.CreateInlineLvlSdt();

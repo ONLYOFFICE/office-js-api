@@ -1,3 +1,9 @@
+// This example shows how to set display fields in report filter area value of a table.
+
+// How to set a display fields in report filter area of a table.
+
+// Create a pivot table, add data to it then set a display fields in report filter area.
+
 let worksheet = Api.GetActiveSheet();
 
 worksheet.GetRange('B1').SetValue('Region');
@@ -25,7 +31,7 @@ let pivotTable = Api.InsertPivotNewWorksheet(dataRef);
 pivotTable.AddDataField('Price');
 
 pivotTable.AddFields({
-	pages: ['Region','Style', 'Price'],
+    pages: ['Region','Style', 'Price'],
 });
 
 pivotTable.SetDisplayFieldsInReportFilterArea('OverThenDown', 3);

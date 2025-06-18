@@ -1,4 +1,9 @@
 // This example specifies font size for the labels of the vertical axis.
+
+// How to resize a font size of the vertical axis labels.
+
+// Create a chart then change a font size of axis labels.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

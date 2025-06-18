@@ -1,4 +1,9 @@
 // This example shows how to get the picture position inside the current form.
+
+// How to get a picture position.
+
+// Get the image position in the picture form and display it in the document.
+
 let doc = Api.GetDocument();
 let pictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false});
 let paragraph = doc.GetElement(0);

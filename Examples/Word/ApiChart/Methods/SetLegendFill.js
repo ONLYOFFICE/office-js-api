@@ -1,4 +1,9 @@
 // This example sets the fill to the chart legend.
+
+// How to color a chart legend.
+
+// Create a chart and set a solid fill to its legend.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

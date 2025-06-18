@@ -1,4 +1,9 @@
 // This example specifies the border which will be displayed on all horizontal table cell borders which are not on the outmost edge of the parent table.
+
+// How to set inside horizontal border to the table.
+
+// How to create a 3x3 table and add the inside horizontal 4 point orange borders.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("We create a 3x3 table and add the inside horizontal 4 point orange borders:");

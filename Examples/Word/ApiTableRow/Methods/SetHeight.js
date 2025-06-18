@@ -1,4 +1,9 @@
 // This example sets the height to the current table row within the table.
+
+// Resize the height of the row.
+
+// How to set a minimum row height of the table.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("We create a 3x3 table and set the height of half an inch to row #1:");

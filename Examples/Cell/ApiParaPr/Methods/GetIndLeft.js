@@ -1,4 +1,9 @@
 // This example shows how to get the paragraph left side indentation.
+
+// How to get a left indent of a paragraph.
+
+// Get the left paragraph indent by the side.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

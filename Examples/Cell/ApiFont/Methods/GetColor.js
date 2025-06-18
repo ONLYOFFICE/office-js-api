@@ -1,4 +1,9 @@
 // This example shows how to get the font color property of the specified font.
+
+// How to know a font color of the characters.
+
+// Get a color value represented in RGB format and show it in the worksheet.
+
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B1");
 range.SetValue("This is just a sample text.");

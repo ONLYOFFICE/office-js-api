@@ -1,4 +1,9 @@
 // This example shows how to get an array with all the image objects from the slide master.
+
+// How to get all images from the master of presentation.
+
+// Get all images from the presentation slide master as an array.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

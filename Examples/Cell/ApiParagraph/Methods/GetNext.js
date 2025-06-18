@@ -1,4 +1,9 @@
 // This example shows how to get the next paragraph.
+
+// How to get the next paragraph from the current one.
+
+// Add two paragraphs into the shape content then get the second one using the GetNext method.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

@@ -1,3 +1,9 @@
+// This example shows how to get the font family of the text.
+
+// How to know the font name of the form.
+
+// Retrieve text properties of the form to find out its font family.
+
 let doc = Api.GetDocument();
 let myNewRunStyle = doc.CreateStyle("My New Run Style", "run");
 let textPr = myNewRunStyle.GetTextPr();

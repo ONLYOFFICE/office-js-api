@@ -1,4 +1,9 @@
 // This example shows how to get the mail merge data.
+
+// Get mail merge data from the worksheet.
+
+// How to get mail merge information using index.
+
 let worksheet = Api.GetActiveSheet();
 worksheet.SetColumnWidth(0, 20);
 worksheet.GetRange("A1").SetValue("Email address");

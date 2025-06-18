@@ -1,4 +1,9 @@
 // This example converts the ApiRange object into the JSON object.
+
+// How to get a JSON from the range.
+
+// Convert the range content to json and add it to the document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("ONLYOFFICE Document Builder");

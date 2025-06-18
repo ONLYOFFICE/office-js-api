@@ -1,4 +1,9 @@
 // This example shows how to get a parent content control that contains the graphic object.
+
+// Get an element's parent control.
+
+// How to show the shape's wrapper control.
+
 let doc = Api.GetDocument();
 let paragraph = Api.CreateParagraph();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

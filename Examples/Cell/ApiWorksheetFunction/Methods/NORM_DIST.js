@@ -1,3 +1,8 @@
+// This example shows how to return the normal distribution for the specified mean and standard deviation.
+
+// How to calculate the normal distribution.
+
+// Use a function to get the normal distribution knowing the mean and standard deviation.
 
 const worksheet = Api.GetActiveSheet();
 let valueArr = [36, 6, 7, false];

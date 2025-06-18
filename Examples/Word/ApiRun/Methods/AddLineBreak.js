@@ -1,4 +1,9 @@
 // This example adds a line break to the run position and starts the next element from a new line.
+
+// How to start a sentence on a new line.
+
+// Break two lines of a text run with a line. 
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let run = Api.CreateRun();

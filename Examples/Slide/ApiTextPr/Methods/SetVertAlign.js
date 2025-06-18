@@ -1,4 +1,9 @@
 // This example specifies the alignment which will be applied to the contents of the run in relation to the default appearance of the run text.
+
+// How to set a vertical alignment of the text.
+
+// Get the text properties of the run and make it superscript, subscript, etc.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

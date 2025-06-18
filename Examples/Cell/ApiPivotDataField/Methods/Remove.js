@@ -1,3 +1,9 @@
+// This example shows how to delete a data field.
+
+// How to remove a table element.
+
+// Create a pivot table, add data to it then delete a custom data field.
+
 let worksheet = Api.GetActiveSheet();
 
 worksheet.GetRange('B1').SetValue('Region');

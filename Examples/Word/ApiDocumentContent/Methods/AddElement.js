@@ -1,4 +1,9 @@
 // This example adds a paragraph in document content.
+
+// How to add elements to the document content.
+
+// Clear the entire document and add a new paragraph to it.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));

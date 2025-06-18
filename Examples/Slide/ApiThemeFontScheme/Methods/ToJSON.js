@@ -1,4 +1,9 @@
 // This example converts the ApiThemeFontScheme object into the JSON object.
+
+// How to convert a ApiThemeFontScheme object to a JSON object.
+
+// Create a ApiThemeFontScheme, convert it to JSON and create a new object from it.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

@@ -1,4 +1,9 @@
 // This example sets size to the shape.
+
+// How to resize a drawing.
+
+// Get a shape object from a slide and set its size.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

@@ -1,4 +1,9 @@
 // This example converts the table object into the JSON object.
+
+// How to get JSON object from the table.
+
+// Get a slide by its index, convert its table to JSON and create another one from the JSON.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

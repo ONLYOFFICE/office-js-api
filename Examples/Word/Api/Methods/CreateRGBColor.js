@@ -1,4 +1,9 @@
-// This example shows how to create a RGB color for  gradient stop.
+// This example shows how to create an RGB color for the gradient stop.
+
+// Creates an RGB color setting the appropriate values for the red, green and blue color components.
+
+// How to create the ApiRGBColor object and use it to create a gradient stop.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let gs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);

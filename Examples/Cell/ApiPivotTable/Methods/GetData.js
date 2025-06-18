@@ -1,3 +1,9 @@
+// This example shows how to get data from a pivot table using names.
+
+// How to get a field data from a pivot table.
+
+// Create a pivot table, add data to it then get some data from it.
+
 let worksheet = Api.GetActiveSheet();
 
 worksheet.GetRange('B1').SetValue('Region');
@@ -24,8 +30,8 @@ let pivotTable = Api.InsertPivotNewWorksheet(dataRef);
 let dataField = pivotTable.AddDataField('Price');
 dataField.SetName('Regional prices');
 pivotTable.AddFields({
-	rows: 'Region',
-	columns: 'Style',
+    rows: 'Region',
+    columns: 'Style',
 });
 
 let pivotWorksheet = Api.GetActiveSheet();

@@ -1,4 +1,9 @@
 // This example deletes the current graphic object.
+
+// How to delete a shape from the document.
+
+// Remove the drawing object.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));

@@ -1,3 +1,9 @@
+// This example gets a text italic property.
+
+// How to find out whether a text is italic or not.
+
+// Get a text italic property as a boolean value.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

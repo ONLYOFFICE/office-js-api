@@ -1,4 +1,9 @@
 // This example gets all series of ApiChart class and inserts their types into the presentation.
+
+// How to get types of all series of a chart.
+
+// Get all series from a chart.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

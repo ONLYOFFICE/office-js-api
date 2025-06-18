@@ -1,4 +1,9 @@
 // This example shows how to get the slide height in English measure units.
+
+// How to find a slide's height and display it on the slide.
+
+// Get a height ofthe  ApiSlide object and show it in the slide.
+
 var oPresentation = Api.GetPresentation();
 oPresentation.SetSizes(254 * 36000, 190 * 36000);
 var oSlide = oPresentation.GetCurrentSlide();

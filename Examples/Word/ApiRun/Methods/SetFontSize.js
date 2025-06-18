@@ -1,4 +1,9 @@
 // This example sets the font size to the characters of the current text run.
+
+// How to set font size to the text run.
+
+// Create a new text run and change resize its font.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let run = Api.CreateRun();

@@ -1,3 +1,8 @@
+// This example shows how to return the one-tailed P-value of a z-test.
+
+// How to return one-tailed P-value.
+
+// Use a function to get one-tailed P-value.
 
 
 let worksheet = Api.GetActiveSheet();
@@ -15,4 +20,3 @@ let data = worksheet.GetRange("A1:A16");
 let func = Api.GetWorksheetFunction();
 let result = func.Z_TEST(data, 4);
 worksheet.GetRange("B1").SetValue(result);
-

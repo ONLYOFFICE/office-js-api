@@ -1,3 +1,9 @@
+// This example shows how to get a drag to data of a pivot field.
+
+// How to get a pivot field drag to data.
+
+// Create a pivot table, add data to it then get a drag to data of a specified pivot field.
+
 let worksheet = Api.GetActiveSheet();
 
 worksheet.GetRange('B1').SetValue('Region');

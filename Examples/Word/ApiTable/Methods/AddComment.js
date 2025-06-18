@@ -1,4 +1,9 @@
 // This example adds a comment to all contents of the table.
+
+// How to add comment to the table indicating its author name.
+
+// Insert a comment into a table.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

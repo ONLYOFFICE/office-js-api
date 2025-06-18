@@ -1,4 +1,9 @@
 // This example adds a tab stop to the run.
+
+// How to start a sentence after a tab stop.
+
+// Break two lines of a text with a tab. 
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let run = Api.CreateRun();

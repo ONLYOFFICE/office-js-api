@@ -1,4 +1,9 @@
 // This example gets a class type and inserts it into the document.
+
+// How get a class type of ApiDocumentContent.
+
+// Retrieve class type of a created document content and display it.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));

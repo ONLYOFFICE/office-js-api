@@ -1,4 +1,9 @@
 // This example changes the type of the first series of ApiChart class and inserts the new type into the presentation.
+
+// How to change a chart type.
+
+// Change a chart type to the "area" type.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

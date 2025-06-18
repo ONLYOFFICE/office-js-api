@@ -1,3 +1,9 @@
+// This example shows how to get source of a pivot table.
+
+// How to get table source and its address.
+
+// Create a pivot table, add data to it then get its source.
+
 let worksheet = Api.GetActiveSheet();
 
 worksheet.GetRange('B1').SetValue('Region');
@@ -23,7 +29,7 @@ let dataRef = Api.GetRange("'Sheet1'!$B$1:$D$5");
 let pivotTable = Api.InsertPivotNewWorksheet(dataRef);
 
 pivotTable.AddFields({
-	columns: ['Region', 'Style'],
+    columns: ['Region', 'Style'],
 });
 
 pivotTable.AddDataField('Price');

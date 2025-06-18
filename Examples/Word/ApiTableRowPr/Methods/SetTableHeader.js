@@ -1,4 +1,9 @@
 // This example specifies that the current table row will be repeated at the top of each new page wherever this table is displayed.
+
+// Rename the header of the table.
+
+// How to set table row as a header.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("We create a 3x3 table and set all table rows as the table headers:");

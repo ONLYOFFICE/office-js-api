@@ -1,4 +1,9 @@
 // This example specifies the shading which shall be applied to the extents of the table.
+
+// How to add shading to the paragraph.
+
+// Apply the clear shading to the paragraph.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("We added an orange shading to the table:");

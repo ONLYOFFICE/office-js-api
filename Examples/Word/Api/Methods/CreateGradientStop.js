@@ -1,4 +1,9 @@
 // This example shows how to create a gradient stop used for different types of gradients.
+
+// Creates two gradient stops of the specified RGB colors, creates a linear gradient fill with them, and uses it to create a shape in the current document.
+
+// How to create the ApiGradientStop objects for the linear gradient fill.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let gs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);

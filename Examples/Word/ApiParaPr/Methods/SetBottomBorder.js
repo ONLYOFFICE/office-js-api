@@ -1,4 +1,9 @@
 // This example specifies the border which will be displayed below a set of paragraphs which have the same paragraph border settings.
+
+// Add the bottom border to the paragraph.
+
+// Get the first paragraph and set its border.
+
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");
 let paraPr = myStyle.GetParaPr();

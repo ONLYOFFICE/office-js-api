@@ -1,3 +1,8 @@
+// This example shows how to return the rank of a number in a list of numbers: its size relative to other values in the list.
+
+// How to estimate the rank of a number in a list of numbers.
+
+// Use a function to estimate rank of the a number from the list.
 
 const worksheet = Api.GetActiveSheet();
 

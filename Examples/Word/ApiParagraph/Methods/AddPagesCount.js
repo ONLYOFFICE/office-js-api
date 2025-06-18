@@ -1,4 +1,9 @@
 // This example inserts a number of pages in the current document into the paragraph.
+
+// How to add the number of pages to the text.
+
+// Insert a pages count to the pxaragraph.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("First page");

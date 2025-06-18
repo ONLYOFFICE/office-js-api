@@ -1,4 +1,9 @@
 // This example sets the value hiding property.
+
+// How to hide cells from a range.
+
+// Get a range and make specified cells invisible.
+
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRows("1:3");
 range.SetHidden(true);

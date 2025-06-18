@@ -1,3 +1,9 @@
+// This example shows how to get the highlight property of the text.
+
+// How to know the highlight type of the form.
+
+// Retrieve text properties of the form to find out its highlight type.
+
 let doc = Api.GetDocument();
 let myNewRunStyle = doc.CreateStyle("My New Run Style", "run");
 let textPr = myNewRunStyle.GetTextPr();

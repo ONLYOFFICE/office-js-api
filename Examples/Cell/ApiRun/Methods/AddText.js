@@ -1,4 +1,9 @@
 // This example adds some text to the run.
+
+// How to add a text to the run.
+
+// Get a paragraph and add a text to it.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

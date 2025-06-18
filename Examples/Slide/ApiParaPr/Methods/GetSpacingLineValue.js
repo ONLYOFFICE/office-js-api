@@ -1,4 +1,9 @@
 // This example shows how to get the paragraph line spacing value.
+
+/// How to get the spacing line value between sentences of a paragraph.
+
+// Create a paragraph, set the spacing line between the sentences and retrieve the value.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

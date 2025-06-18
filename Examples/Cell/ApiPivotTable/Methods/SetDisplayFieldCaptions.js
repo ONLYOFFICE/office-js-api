@@ -1,3 +1,9 @@
+// This example shows how to set a display field captions of a table.
+
+// How to set a display field captions of a table.
+
+// Create a pivot table, add data to it then set a display field captions.
+
 let worksheet = Api.GetActiveSheet();
 
 worksheet.GetRange('B1').SetValue('Region');
@@ -25,8 +31,8 @@ let pivotTable = Api.InsertPivotNewWorksheet(dataRef);
 pivotTable.AddDataField('Price');
 
 pivotTable.AddFields({
-	rows: 'Region',
-	columns: 'Style',
+    rows: 'Region',
+    columns: 'Style',
 });
 
 pivotTable.SetDisplayFieldCaptions(false);

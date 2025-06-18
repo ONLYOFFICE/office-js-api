@@ -1,3 +1,9 @@
+// This example shows how to find out the position of the text.
+
+// Get the location index of the text properties.
+
+// How to know the text position.
+
 let doc = Api.GetDocument();
 let myNewRunStyle = doc.CreateStyle("My New Run Style", "run");
 let textPr = myNewRunStyle.GetTextPr();

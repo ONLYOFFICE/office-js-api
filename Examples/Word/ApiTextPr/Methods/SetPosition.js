@@ -1,4 +1,9 @@
 // This example specifies an amount by which text is raised or lowered for this run in relation to the default baseline of the surrounding non-positioned text.
+
+// How to set an inline position of a text.
+
+// Create a text run object, specify its position to move down or up.
+
 let doc = Api.GetDocument();
 let myNewRunStyle1 = doc.CreateStyle("My New Run Style 1", "run");
 let textPr1 = myNewRunStyle1.GetTextPr();

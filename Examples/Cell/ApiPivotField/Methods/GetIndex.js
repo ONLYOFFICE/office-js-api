@@ -1,3 +1,9 @@
+// This example shows how to get an index of a pivot field.
+
+// How to get a pivot field's index.
+
+// Create a pivot table, add data to it then get an index of a specified pivot field.
+
 let worksheet = Api.GetActiveSheet();
 
 worksheet.GetRange('B1').SetValue('Region');

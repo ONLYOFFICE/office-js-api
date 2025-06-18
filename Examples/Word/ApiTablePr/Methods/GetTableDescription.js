@@ -1,4 +1,9 @@
 // This example shows how to get the table description.
+
+// How to get the table description and display it in the document.
+
+// Add text showing the description of the table.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

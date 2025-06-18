@@ -1,4 +1,9 @@
 // This example specifies the major tick mark "cross" for the horizontal axis.
+
+// How to specify major tick mark for the horizontal axis.
+
+// Major mark the horizontal axis of the chart.
+
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);
 worksheet.GetRange("C1").SetValue(2015);

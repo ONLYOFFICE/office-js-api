@@ -1,4 +1,9 @@
 // This example shows how to get the format scheme of the theme.
+
+// How to get a format scheme from a theme.
+
+// Get a format scheme and display its class type.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

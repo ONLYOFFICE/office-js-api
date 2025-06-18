@@ -1,3 +1,9 @@
+// This example shows how to set a caption for data field.
+
+// How to rename a caption of a table element.
+
+// Create a pivot table, add data to it then set a custom data field's caption.
+
 let worksheet = Api.GetActiveSheet();
 
 worksheet.GetRange('B1').SetValue('Region');

@@ -1,4 +1,9 @@
 // This example converts the ApiNumbering object into the JSON object.
+
+// How to get a JSON from the numbering object.
+
+// Convert the bullet numbering to json and add it to the paragraph.
+
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("bullet");
 let json = numbering.ToJSON();

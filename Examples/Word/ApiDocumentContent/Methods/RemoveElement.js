@@ -1,4 +1,9 @@
 // This example removes an element using the position specified.
+
+// Remove the element using its index.
+
+// Delete document item.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));

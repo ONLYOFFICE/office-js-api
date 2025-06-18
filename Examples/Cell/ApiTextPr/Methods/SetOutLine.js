@@ -1,4 +1,9 @@
 // This example sets the text outline to the current text run
+
+// How to outline a text with a stroke.
+
+// Add text ouline using colored stroke.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

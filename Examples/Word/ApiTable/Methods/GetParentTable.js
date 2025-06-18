@@ -1,4 +1,9 @@
 // This example shows how to get a table that contains the table.
+
+// How to get the parent table and delete its row.
+
+// Retrieve the parent table, get its cell and remove the row of it.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

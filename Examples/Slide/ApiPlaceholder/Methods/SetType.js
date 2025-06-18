@@ -1,4 +1,9 @@
 // This example sets the placeholder type.
+
+// How to set a placeholder type (chart, table, etc.).
+
+// Create a shape and set its placeholder type to "chart".
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

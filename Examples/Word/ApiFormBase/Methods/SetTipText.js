@@ -1,4 +1,9 @@
 // This example sets the tip text to the form.
+
+// Add text as a tip of the form.
+
+// Create a text form and set its tip text (text that appears on hold).
+
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});
 let paragraph = doc.GetElement(0);

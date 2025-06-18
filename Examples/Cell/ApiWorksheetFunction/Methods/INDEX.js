@@ -1,3 +1,9 @@
+// This example shows how to return an index of a complex numbers.
+
+// How to get an index of a complex numbers.
+
+// Use a function to get the index.
+
 let worksheet = Api.GetActiveSheet();
 let func = Api.GetWorksheetFunction();
 let ids = ["ID", 1, 2, 3, 4, 5];

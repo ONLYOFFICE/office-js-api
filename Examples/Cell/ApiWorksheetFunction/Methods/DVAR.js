@@ -1,3 +1,9 @@
+// This example shows how to estimate variance based on a sample from the selected database entries.
+
+// How to estimate variance.
+
+// Use function to calculate a variance from a range sample.
+
 let worksheet = Api.GetActiveSheet();
 let func = Api.GetWorksheetFunction();
 worksheet.GetRange("A1").SetValue("Name");

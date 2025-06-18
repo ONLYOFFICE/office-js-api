@@ -1,4 +1,9 @@
 // This example adds a tab stop to the paragraph.
+
+// How to insert a text separated by a tab.
+
+// Get the paragraph from the shape and add two sentences separated by three tabs.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

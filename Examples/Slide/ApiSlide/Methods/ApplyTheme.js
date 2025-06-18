@@ -1,4 +1,9 @@
 // This example applies the specified theme to the current slide.
+
+// How to create a theme with different properties and apply it to the slide.
+
+// Create a theme, specify its color schemes, formats and patterns, then apply it to the slide.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 var oMaster = oPresentation.GetMaster(0);

@@ -1,4 +1,9 @@
 // This example gets elements count and inserts this value into the presentation.
+
+// How to get a number of elements a slide shape contains.
+
+// Get a slide shape's content and display its elements count.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

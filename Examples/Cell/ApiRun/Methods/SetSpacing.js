@@ -1,4 +1,9 @@
 // This example sets the text spacing measured in twentieths of a point.
+
+// How to set the text spacing size.
+
+// Create a text run object, update its spacing.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

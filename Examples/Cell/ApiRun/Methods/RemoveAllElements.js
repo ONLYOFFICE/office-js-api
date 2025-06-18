@@ -1,4 +1,9 @@
 // This example removes all the elements from the run.
+
+// How to remove all text elements.
+
+// Create a text run object, add a text to it and clear its content.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

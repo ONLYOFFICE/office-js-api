@@ -1,3 +1,8 @@
+// This example shows how to return the quartile of a data set.
+
+// How to get the quartile of a data set.
+
+// Use a function to calculate a part divided by four of a data set.
 
 const worksheet = Api.GetActiveSheet();
 

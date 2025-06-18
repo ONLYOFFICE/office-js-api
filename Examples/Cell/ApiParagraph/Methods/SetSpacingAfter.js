@@ -1,4 +1,9 @@
 // This example sets the spacing after the paragraph.
+
+// How to add the spacing after the paragraphs using points.
+
+// Get a paragraph from the shape's content then add a text specifying the spacing after a custom text.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

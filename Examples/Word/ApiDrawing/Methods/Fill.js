@@ -1,4 +1,9 @@
 // This example sets the fill formatting properties to the current graphic object.
+
+// How to color a drawing with a radiant fill.
+
+// Change the background color of the shape.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));

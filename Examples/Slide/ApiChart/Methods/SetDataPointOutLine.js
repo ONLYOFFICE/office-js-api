@@ -1,4 +1,9 @@
 // This example show how to set the outline to the data point.
+
+// How to outline data points.
+
+// Create a chart then apply outline to its data points.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

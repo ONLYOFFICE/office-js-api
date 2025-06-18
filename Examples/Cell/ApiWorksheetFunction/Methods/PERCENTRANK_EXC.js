@@ -1,3 +1,9 @@
+// This example shows how to return the rank of a value in a data set as a percentage (0..1, exclusive) of the data set.
+
+// How to return the rank of a value in a data set as a percentage.
+
+// Use a function to get a rank of a value in a data set.
+
 let worksheet = Api.GetActiveSheet();
 let func = Api.GetWorksheetFunction();
 let column1 = [1, 0, 7, 10];

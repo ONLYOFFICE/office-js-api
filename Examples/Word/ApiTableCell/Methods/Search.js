@@ -1,4 +1,9 @@
 // This example shows how to make search in table cell.
+
+// Search the word from the cell.
+
+// Get the first cell from the table and search a word from it.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

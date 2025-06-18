@@ -1,4 +1,9 @@
 // This example shows how to get the text properties of the run.
+
+// How to change the text properties.
+
+// Create a text object, set its font size, justification, etc.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

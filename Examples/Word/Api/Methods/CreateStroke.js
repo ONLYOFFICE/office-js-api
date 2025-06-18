@@ -1,4 +1,11 @@
-// This example shows how to crate a stroke.
+// This example shows how to create a stroke.
+
+// Create a stroke using the specified width and fill and apply it to the shape from the first paragraph.
+
+// How to create the ApiStroke object and use it to create the ApiShape object.
+
+// Specifies the parameters of the shape stroke.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));

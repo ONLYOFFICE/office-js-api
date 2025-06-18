@@ -1,4 +1,9 @@
 // This example checks if the current form is required.
+
+// How to know whether the checkbox form is required or not.
+
+// Get a boolean value representing whether a current form is required.
+
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "placeholder": "Marital status", "radio": true});
 let paragraph = doc.GetElement(0);

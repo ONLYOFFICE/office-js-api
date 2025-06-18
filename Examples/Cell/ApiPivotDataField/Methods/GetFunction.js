@@ -1,3 +1,9 @@
+// This example shows how to get a function of a data field.
+
+// How to get a table element function.
+
+// Create a pivot table, add data to it then display a custom data field's function.
+
 let worksheet = Api.GetActiveSheet();
 
 worksheet.GetRange('B1').SetValue('Region');

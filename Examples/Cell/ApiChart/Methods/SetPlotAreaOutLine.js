@@ -1,4 +1,9 @@
 // This example sets the outline to the chart plot area.
+
+// How to color chart plot area outline.
+
+// Add a stroke for plot area outline.
+
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);
 worksheet.GetRange("C1").SetValue(2015);

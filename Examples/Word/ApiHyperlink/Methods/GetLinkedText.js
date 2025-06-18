@@ -1,4 +1,9 @@
 // This example shows how to get the hyperlink address.
+
+// How to get the raw link of the hyperlink.
+
+// Add a hyperlink to the paragraph and show its address as a text.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let run = Api.CreateRun();

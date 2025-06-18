@@ -1,4 +1,9 @@
 // This example specifies the chart legend font size.
+
+// How to resize a font of a chart legend.
+
+// Create a chart, set its properties and its legend's font size.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

@@ -1,4 +1,9 @@
 // This example sets a sequence of custom tab stops which will be used for any tab characters in the paragraph.
+
+// How to set sequence of custom tabs of a text from a paragraph.
+
+// Change a sequence of custom tabs of a paragraph.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

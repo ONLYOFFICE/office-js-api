@@ -1,3 +1,9 @@
+// This example shows how to get all items of a pivot field.
+
+// How to get a pivot field's all items.
+
+// Create a pivot table, add data to it then get all items of a specified pivot field.
+
 let worksheet = Api.GetActiveSheet();
 
 worksheet.GetRange('B1').SetValue('Region');

@@ -1,4 +1,9 @@
 // This example shows how to get a parent paragraph that contains the graphic object.
+
+// Get an element's parent paragraph.
+
+// How to show the shape's wrapper paragraph.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));

@@ -1,4 +1,9 @@
 // This example shows how to get the current slide.
+
+// How to get a current slide as an object.
+
+// Get current working slide and update its content.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetCurrentSlide();
 oSlide.RemoveAllObjects();

@@ -1,4 +1,9 @@
 // This example specifies the direction of the data displayed on the vertical axis.
+
+// How to indicate the direction of values of the chart vertical axis.
+
+// Specify the vertical axis orientation.
+
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);
 worksheet.GetRange("C1").SetValue(2015);

@@ -1,4 +1,9 @@
 // This example specifies the alignment which will be applied to the contents of the current run in relation to the default appearance of the text run.
+
+// How to change vertical alignment of a text.
+
+// Make text superscript.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

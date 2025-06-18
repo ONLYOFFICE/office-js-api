@@ -1,4 +1,9 @@
 // This example gets a class type and pastes it into the presentation.
+
+// How to get a class type of ApiTablePr.
+
+// Retrieve class type of ApiTablePr object and insert it to the document.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

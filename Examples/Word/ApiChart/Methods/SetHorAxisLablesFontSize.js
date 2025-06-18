@@ -1,4 +1,9 @@
 // This example sets font size for labels of the horizontal axis.
+
+// How to resize a horizontal axis labels font.
+
+// Create a chart and set its horizontal axis labels font to 8.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("bar3D", [

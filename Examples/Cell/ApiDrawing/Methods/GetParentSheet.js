@@ -1,4 +1,9 @@
 // This example show get drawing parent sheet.
+
+// How to know a parent sheet of a shape.
+
+// Get a shape's parent sheet and display it in the worksheet.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

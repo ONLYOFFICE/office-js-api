@@ -1,4 +1,9 @@
 // This example creates a run and inserts it into the document.
+
+// How to add text.
+
+// Add an ApiRun object that represents a text.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

@@ -1,4 +1,9 @@
 // This example transforms font scheme to JSON then restore it from JSON.
+
+// How to get a font scheme from JSON file.
+
+// Parse JSON file to get an object like font scheme.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

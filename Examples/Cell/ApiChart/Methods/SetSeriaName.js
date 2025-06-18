@@ -1,4 +1,9 @@
 // This example sets a name to the specified series.
+
+// How to name chart series.
+
+// Set seria name for a chart.
+
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);
 worksheet.GetRange("C1").SetValue(2015);

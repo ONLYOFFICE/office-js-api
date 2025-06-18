@@ -1,4 +1,9 @@
 // This example specifies how the floating object will be vertically aligned.
+
+// How to set the vertical alignment of the drawing.
+
+// Move the shape to the top of the page.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is a paragraph with a shape. ");

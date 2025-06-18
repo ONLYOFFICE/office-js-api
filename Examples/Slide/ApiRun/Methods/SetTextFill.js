@@ -1,4 +1,9 @@
 // This example sets the text fill to the current text run.
+
+// How to fill a text run.
+
+// Create a new text run and set its font color.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

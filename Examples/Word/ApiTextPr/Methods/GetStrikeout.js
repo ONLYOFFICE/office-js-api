@@ -1,3 +1,9 @@
+// This example finds out whether a text has the strikeout property set.
+
+// How to know whether a text is crossed by one horizontal line.
+
+// Retrieve text properties of the form to find out whether it is stroke out.
+
 let doc = Api.GetDocument();
 let myNewRunStyle = doc.CreateStyle("My New Run Style", "run");
 let textPr = myNewRunStyle.GetTextPr();

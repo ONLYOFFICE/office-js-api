@@ -1,4 +1,9 @@
 // This example adds a reply to a comment.
+
+// How to reply to a comment.
+
+// Add a commnet reply indicating an author and id.
+
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");
 let range = worksheet.GetRange("A1");

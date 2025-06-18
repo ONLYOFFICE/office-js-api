@@ -1,4 +1,9 @@
 // This example deletes the paragraph.
+
+// How to remove a paragraph.
+
+// Delete the paragraph from the shape content.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

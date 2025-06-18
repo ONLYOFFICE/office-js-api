@@ -1,5 +1,10 @@
-let worksheet = Api.GetActiveSheet();
+// This example shows how to remove a field from a table using a name.
 
+// How to delete specified fields from a table.
+
+// Create a pivot table, add data to it then remove a field from it.
+
+let worksheet = Api.GetActiveSheet();
 worksheet.GetRange('B1').SetValue('Region');
 worksheet.GetRange('C1').SetValue('Style');
 worksheet.GetRange('D1').SetValue('Price');

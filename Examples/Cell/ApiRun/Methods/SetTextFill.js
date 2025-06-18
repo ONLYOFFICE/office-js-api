@@ -1,4 +1,9 @@
 // This example sets the text fill to the current text run.
+
+// How to color a text object.
+
+// Create a text run object, add color to it using solid fill.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

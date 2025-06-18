@@ -1,4 +1,9 @@
 // This example shows how to get a type of the ApiName class.
+
+// How to retrieve name of ApiName class object.
+
+// Get name of a specified object.
+
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");
 worksheet.GetRange("B1").SetValue("2");

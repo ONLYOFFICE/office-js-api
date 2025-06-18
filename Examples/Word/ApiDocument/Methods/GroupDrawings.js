@@ -1,4 +1,9 @@
 // This example show how to create a group of drawings in document.
+
+// How to group the shapes.
+
+// Create two shapes, update their properties and group them.
+
 let doc = Api.GetDocument();
 let fill1 = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let fill2 = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));

@@ -1,4 +1,9 @@
 // This example specifies whether a number in the cell should be treated like number, currency, date, time, etc. or just like text.
+
+// How to set number format of cells.
+
+// Get a range and specify number format of its cells.
+
 let worksheet = Api.GetActiveSheet();
 worksheet.SetColumnWidth(0, 30);
 worksheet.SetColumnWidth(1, 30);

@@ -1,3 +1,9 @@
+// This example shows how to get text of a comment.
+
+// How to get a raw text of a comment.
+
+// Get all comments from the presentation and the first one's text.
+
 var oPresentation = Api.GetPresentation();
 Api.pluginMethod_AddComment({"UserName": "John Smith", "Text": "Comment 1"});
 var arrComments = oPresentation.GetAllComments();

@@ -1,4 +1,8 @@
+// This example shows how to return the median, or the number in the middle of the set of given numbers.
 
+// How to get a median from the list.
+
+// Use a function to get a value that located in the middle of the list.
 
 const worksheet = Api.GetActiveSheet();
 let func = Api.GetWorksheetFunction();

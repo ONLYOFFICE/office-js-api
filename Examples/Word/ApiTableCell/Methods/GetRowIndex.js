@@ -1,4 +1,9 @@
-// This example shows how to get an index of the parent row.
+// This example shows how to get an index of the row.
+
+// How to get row index of the table cell.
+
+// Retrieve the cell from the table and add a text showing its row index.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

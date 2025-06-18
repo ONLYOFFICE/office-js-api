@@ -1,3 +1,9 @@
+// This example shows how to get row fields of a pivot table.
+
+// How to get table row fields as an array of fields.
+
+// Create a pivot table, add data to it then get its row fields.
+
 let worksheet = Api.GetActiveSheet();
 
 worksheet.GetRange('B1').SetValue('Region');
@@ -23,8 +29,8 @@ let dataRef = Api.GetRange("'Sheet1'!$B$1:$D$5");
 let pivotTable = Api.InsertPivotNewWorksheet(dataRef);
 
 pivotTable.AddFields({
-	rows: 'Region',
-	columns: 'Style',
+    rows: 'Region',
+    columns: 'Style',
 });
 
 pivotTable.AddDataField('Price');
@@ -34,6 +40,6 @@ pivotWorksheet.GetRange('A9').SetValue('Row Fields');
 
 let rowFields = pivotTable.GetRowFields();
 for (let i = 0; i < rowFields.length; i += 1) {
-	let cell = pivotWorksheet.GetRangeByNumber(8 + i, 1);
-	cell.SetValue(rowFields[i].GetName());
+    let cell = pivotWorksheet.GetRangeByNumber(8 + i, 1);
+    cell.SetValue(rowFields[i].GetName());
 }

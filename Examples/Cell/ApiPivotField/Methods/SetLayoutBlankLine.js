@@ -1,3 +1,9 @@
+// This example shows how to set a layout blank line of a pivot field.
+
+// How to change a pivot field layout blank line.
+
+// Create a pivot table, add data to it then set layout blank line of a specified pivot.
+
 let worksheet = Api.GetActiveSheet();
 
 worksheet.GetRange('B1').SetValue('Region');

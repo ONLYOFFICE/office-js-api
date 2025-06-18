@@ -1,3 +1,9 @@
+// This example shows how to get the largest number in the field (column) of records in the database that match the conditions you specify.
+
+// How to get the maximum number from the database column that match the conditions you specify.
+
+// Use function to get the maximum number from the database column that satisfies the conditions.
+
 let worksheet = Api.GetActiveSheet();
 let func = Api.GetWorksheetFunction();
 worksheet.GetRange("A1").SetValue("Name");

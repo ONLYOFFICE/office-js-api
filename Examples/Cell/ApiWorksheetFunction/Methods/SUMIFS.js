@@ -1,3 +1,9 @@
+// This example shows how to add the cells specified by a given set of conditions or criteria.
+
+// How to sum up all elements under conditions.
+
+// Use a function to estimate a sum from the cells by a given condition.
+
 let worksheet = Api.GetActiveSheet();
 let func = Api.GetWorksheetFunction();
 let year = [2016, 2016, 2016, 2017, 2017, 2017];

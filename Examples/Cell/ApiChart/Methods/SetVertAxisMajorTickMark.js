@@ -1,4 +1,9 @@
 // This example specifies the major tick mark for the vertical axis.
+
+// How to add a major tick as a cross for the vertical axis labels.
+
+// Specifies major tick mark for the vertical axis.
+
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);
 worksheet.GetRange("C1").SetValue(2015);

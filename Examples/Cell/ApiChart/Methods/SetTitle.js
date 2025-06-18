@@ -1,4 +1,9 @@
 // This example specifies the chart title with the specified parameters.
+
+// How to add chart title indicating its font size.
+
+// Add title for a chart with its font size and style.
+
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);
 worksheet.GetRange("C1").SetValue(2015);

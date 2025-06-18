@@ -1,4 +1,9 @@
 // This example adds a tab stop to the run.
+
+// How to add a tab after a string in a text run.
+
+// How to split a text with a tab.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

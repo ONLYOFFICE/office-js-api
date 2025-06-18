@@ -1,4 +1,9 @@
-// This example shows how to get the paragraph line spacing rule.
+// This example shows how to get the paragraph line spacing value.
+
+// How to get spacing line value between sentences of a paragraph.
+
+// Create a paragraph set spacing line between the sentences and retrieve the value.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -10,7 +15,7 @@ paraPr.SetSpacingLine(3 * 240, "auto");
 paragraph.AddText("Paragraph 1. Spacing: 3 times of a common paragraph line spacing.");
 paragraph.AddLineBreak();
 paragraph.AddText("These sentences are used to add lines for demonstrative purposes.");
-let spacingRule = paraPr.GetSpacingLineRule();
+let spacingLineValue = paraPr.GetSpacingLineValue();
 paragraph = Api.CreateParagraph();
-paragraph.AddText("Spacing line rule : " + spacingRule);
+paragraph.AddText("Spacing line value : " + spacingLineValue);
 content.Push(paragraph);

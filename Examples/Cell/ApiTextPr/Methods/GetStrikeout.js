@@ -1,3 +1,9 @@
+// This example gets a text strikeout using its property.
+
+// How to find out whether a text is stroke out or not.
+
+// Get cross out property of a text.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

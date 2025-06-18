@@ -1,3 +1,9 @@
+// This example gets a text underline using its property.
+
+// How to find out whether a text is underlined or not.
+
+// Get underlined property of a text run object.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

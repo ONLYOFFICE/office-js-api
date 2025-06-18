@@ -1,4 +1,9 @@
 // This example gets a type of ApiChartSeries class and inserts it into the document.
+
+// How get a class type of ApiChartSeries.
+
+// Retrieve class type of ApiChartSeries object and insert it to the slide.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let chart = Api.CreateChart("comboBarLine", [

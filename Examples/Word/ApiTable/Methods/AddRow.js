@@ -1,4 +1,9 @@
 // This example adds a new row to the table.
+
+// How to add row to the table.
+
+// Get row cell and add it as row. 
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("We create a 2x2 table and add a new row, so that it becomes 2x3:");

@@ -1,4 +1,9 @@
 // This example sets values from the specified range to the specified series.
+
+// How to add values to series from the indicated range using addresses.
+
+// Fill series with values obtained from the worksheet cells.
+
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);
 worksheet.GetRange("C1").SetValue(2015);

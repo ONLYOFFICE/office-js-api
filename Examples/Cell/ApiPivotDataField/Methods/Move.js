@@ -1,3 +1,9 @@
+// This example shows how to move a data field.
+
+// How to change a table element position by moving it by rows.
+
+// Create a pivot table, add data to it then move data field's by rows.
+
 let worksheet = Api.GetActiveSheet();
 
 worksheet.GetRange('B1').SetValue('Region');

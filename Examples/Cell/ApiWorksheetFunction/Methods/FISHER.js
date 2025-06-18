@@ -1,3 +1,8 @@
+// This example shows how to get a Fisher transformation.
+
+// How to get a Fisher transformation.
+
+// Use function to find out a Fisher transformation.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.GetWorksheetFunction();

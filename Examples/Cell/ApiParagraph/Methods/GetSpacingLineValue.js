@@ -1,4 +1,9 @@
 // This example shows how to get the paragraph line spacing value.
+
+// How to get the spacing line value between sentences of a paragraph.
+
+// Create a paragraph, set the spacing line between the sentences and retrieve the value.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

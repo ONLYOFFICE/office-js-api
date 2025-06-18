@@ -1,4 +1,9 @@
 // This example sets the theme colors to the current spreadsheet.
+
+// How to get all theme colors and apply one of them.
+
+// Apply one of the theme colors from the array of available ones.
+
 let worksheet = Api.GetActiveSheet();
 let themes = Api.GetThemesColors();
 for (let i = 0; i < themes.length; ++i) {

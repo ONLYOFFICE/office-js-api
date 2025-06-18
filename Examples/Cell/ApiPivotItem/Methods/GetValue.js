@@ -1,3 +1,9 @@
+// This example shows how to get a value of a pivot item.
+
+// How to get a pivot item value.
+
+// Create a pivot table, add data to it then get a value of a specified pivot item.
+
 let worksheet = Api.GetActiveSheet();
 
 worksheet.GetRange('B1').SetValue('Region');

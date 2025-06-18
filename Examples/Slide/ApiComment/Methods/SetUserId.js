@@ -1,3 +1,9 @@
+// This example shows how to set a user ID.
+
+// How to change an author's user ID of a comment.
+
+// Get all comments from the presentation and change its first one's user ID.
+
 var oPresentation = Api.GetPresentation();
 Api.pluginMethod_AddComment({"UserName": "John Smith", "Text": "Comment 1"});
 var arrComments = oPresentation.GetAllComments();

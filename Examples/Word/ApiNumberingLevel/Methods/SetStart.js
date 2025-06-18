@@ -1,4 +1,9 @@
 // This example specifies the starting value for the numbering used by the parent numbering level within a given numbering level definition.
+
+// How to set the bullet numbering to the paragraph.
+
+// Reset the numbering of the bulleted text.
+
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("numbered");
 let numLvl = numbering.GetLevel(0);

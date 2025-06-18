@@ -1,4 +1,9 @@
 // This example specifies the direction of the data displayed on the horizontal axis.
+
+// Set the orientation of the values on the horizontal axis.
+
+// How to change the direction of the values on the horizontal axis.
+
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);
 worksheet.GetRange("C1").SetValue(2015);

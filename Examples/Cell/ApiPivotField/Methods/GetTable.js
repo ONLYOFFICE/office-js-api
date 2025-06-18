@@ -1,3 +1,9 @@
+// This example shows how to get table object of a pivot field.
+
+// How to get a pivot field's table.
+
+// Create a pivot table, add data to it then get a table object of a specified pivot field and add data to it.
+
 let worksheet = Api.GetActiveSheet();
 
 worksheet.GetRange('B1').SetValue('Region');
@@ -23,7 +29,7 @@ let dataRef = Api.GetRange("'Sheet1'!$B$1:$D$5");
 let pivotTable = Api.InsertPivotNewWorksheet(dataRef);
 
 pivotTable.AddFields({
-	rows: ['Region', 'Style'],
+    rows: ['Region', 'Style'],
 });
 
 pivotTable.AddDataField('Price');

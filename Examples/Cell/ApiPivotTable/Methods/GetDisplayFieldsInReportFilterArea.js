@@ -1,3 +1,9 @@
+// This example shows how to get a display fields in report filter area of a pivot table.
+
+// How to get a display fields in report filter area value.
+
+// Create a pivot table, add data to it then get its display the value of a display fields in report filter.
+
 let worksheet = Api.GetActiveSheet();
 
 worksheet.GetRange('B1').SetValue('Region');
@@ -25,7 +31,7 @@ let pivotTable = Api.InsertPivotNewWorksheet(dataRef);
 pivotTable.AddDataField('Price');
 
 pivotTable.AddFields({
-	pages: ['Style', 'Region']
+    pages: ['Style', 'Region']
 });
 
 const info = pivotTable.GetDisplayFieldsInReportFilterArea();

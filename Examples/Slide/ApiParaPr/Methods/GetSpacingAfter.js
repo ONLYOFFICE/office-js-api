@@ -1,4 +1,9 @@
 // This example shows how to get the spacing after value of the current paragraph.
+
+// How to get the size of a spacing after a text from a paragraph.
+
+// Return a property of the spacing size after a paragraph.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

@@ -1,4 +1,9 @@
 // This example shows how to get the parent table of the row.
+
+// Get the parent table of the table row.
+
+// Display the first and the second row.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

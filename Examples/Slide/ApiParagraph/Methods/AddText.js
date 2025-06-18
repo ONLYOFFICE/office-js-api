@@ -1,4 +1,9 @@
 // This example adds some text to the paragraph.
+
+// How to add a text to the ApiParagraph object.
+
+// How to add a text to the shape.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

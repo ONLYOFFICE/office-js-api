@@ -1,4 +1,9 @@
 // This example adds a paragraph to the presentation.
+
+// How to insert an element into a slide shape.
+
+// Get a slide shape's content and add a text to it.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

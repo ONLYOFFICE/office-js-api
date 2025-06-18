@@ -1,4 +1,9 @@
 // This example shows how to get a row by its index.
+
+// How to get a row object from the table.
+
+// Create a table, add rows and columns, then get its row by index.
+
 var oPresentation = Api.GetPresentation();
 var oTable = Api.CreateTable(2, 4);
 oTable.AddRow(1, true);

@@ -1,3 +1,9 @@
+// This example shows how to find out a text font family.
+
+// How to know font name of a text run.
+
+// Get the text properties of the run and display its font family.
+
 var oPresentation = Api.GetPresentation();
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();

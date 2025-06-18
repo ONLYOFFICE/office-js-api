@@ -1,4 +1,9 @@
 // This example shows how to get the next inline image if exists.
+
+// How to add the next drawing to the paragraph.
+
+// Get the next drawing and add it separated with a line break.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let image1 = Api.CreateImage("https://static.onlyoffice.com/assets/docs/samples/img/onlyoffice_logo.png", 60 * 36000, 35 * 36000);

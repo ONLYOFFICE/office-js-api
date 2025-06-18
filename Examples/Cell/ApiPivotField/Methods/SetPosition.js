@@ -1,3 +1,9 @@
+// This example shows how to set a position of a pivot field.
+
+// How to change a pivot field position.
+
+// Create a pivot table, add data to it then change a position a specified pivot.
+
 let worksheet = Api.GetActiveSheet();
 
 worksheet.GetRange('B1').SetValue('Region');
@@ -23,7 +29,7 @@ let dataRef = Api.GetRange("'Sheet1'!$B$1:$D$5");
 let pivotTable = Api.InsertPivotNewWorksheet(dataRef);
 
 pivotTable.AddFields({
-	rows: ['Region', 'Style'],
+    rows: ['Region', 'Style'],
 });
 
 pivotTable.AddDataField('Price');
@@ -34,5 +40,5 @@ pivotWorksheet.GetRange('A12').SetValue('The Style field position will change so
 let pivotField = pivotTable.GetPivotFields('Style');
 
 setTimeout(function () {
-	pivotField.SetPosition(1);
+    pivotField.SetPosition(1);
 }, 5000);

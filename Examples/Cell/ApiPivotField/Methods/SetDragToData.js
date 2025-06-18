@@ -1,3 +1,9 @@
+// This example shows how to set a drag to data of a pivot field.
+
+// How to rename a pivot field drag to data.
+
+// Create a pivot table, add data to it then set drag to data of a specified pivot using boolean value.
+
 let worksheet = Api.GetActiveSheet();
 
 worksheet.GetRange('B1').SetValue('Region');

@@ -1,4 +1,9 @@
 // This example shows how to make search in table cell.
+
+// Search the word from the row.
+
+// How to find a word from the row and make it bold.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

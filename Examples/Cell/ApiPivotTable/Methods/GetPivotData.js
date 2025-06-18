@@ -1,3 +1,9 @@
+// This example shows how to get a pivot data of a pivot table.
+
+// How to get table pivot data.
+
+// Create a pivot table, add data to it then get its pivot data.
+
 let worksheet = Api.GetActiveSheet();
 
 worksheet.GetRange('B1').SetValue('Region');
@@ -24,8 +30,8 @@ let pivotTable = Api.InsertPivotNewWorksheet(dataRef);
 let dataField = pivotTable.AddDataField('Price');
 dataField.SetName('Regional prices');
 pivotTable.AddFields({
-	rows: 'Region',
-	columns: 'Style',
+    rows: 'Region',
+    columns: 'Style',
 });
 
 let pivotWorksheet = Api.GetActiveSheet();

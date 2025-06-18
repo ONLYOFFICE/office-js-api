@@ -1,4 +1,9 @@
 // This example checks if the text field content is autofit.
+
+// How to know whether the first text form from this document is autofit.
+
+// Get the boolean that represents the autofit property of the text form.
+
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});
 let paragraph = doc.GetElement(0);
