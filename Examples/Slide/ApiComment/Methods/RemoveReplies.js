@@ -5,23 +5,27 @@
 // Get all comments from the presentation and remove a reply from the first one's.
 
 const presentation = Api.GetPresentation();
+const slide = presentation.GetSlideByIndex(0);
+slide.RemoveAllObjects();
 
-Api.pluginMethod_AddComment({"UserName": "John Smith", "Text": "Comment 1"});
-const arrComments = presentation.GetAllComments();
-arrComments[0].AddReply("Reply 1", "John Smith", "uid-1");
-arrComments[0].AddReply("Reply 2", "John Smith", "uid-1");
-arrComments[0].RemoveReplies(0, 1, false);
-const reply = arrComments[0].GetReply(0);
+const posX = 15 * 36000;
+const posY = 35 * 36000;
 
-const slide1 = presentation.GetSlideByIndex(0);
-slide1.RemoveAllObjects();
 const fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 const stroke = Api.CreateStroke(0, Api.CreateNoFill());
-const shape = Api.CreateShape("flowChartMagneticTape", 300 * 36000, 130 * 36000, fill, stroke);
-shape.SetPosition(608400, 1267200);
-shape.SetSize(300 * 36000, 130 * 36000);
+const shape = Api.CreateShape("rect", 300 * 36000, 130 * 36000, fill, stroke);
+shape.SetPosition(posX, posY);
+slide.AddObject(shape);
+
+slide.AddComment(posX, posY, "Comment 1", "John Smith");
+const arrComments = presentation.GetAllComments();
+arrComments[0].AddReply("Reply 1 (own reply)", "John Smith", "uid-1");
+arrComments[0].AddReply("Reply 2", "Mark Pottato", "uid-2");
+arrComments[0].AddReply("Reply 3", "Hamish Mitchell", "uid-3");
+arrComments[0].RemoveReplies(0, 1, false);
+
 const docContent = shape.GetDocContent();
 const paragraph = docContent.GetElement(0);
-paragraph.SetJc("left");
 paragraph.AddText("Comment replies count: " + arrComments[0].GetRepliesCount());
-slide1.AddObject(shape);
+paragraph.AddLineBreak();
+paragraph.AddText("Own reply was removed, but other two replies are still here.");
