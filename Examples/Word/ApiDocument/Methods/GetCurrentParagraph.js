@@ -1,5 +1,6 @@
 // This example shows how to get a current paragraph for further manipulation.
-let oDoc = Api.GetDocument();
-let oParagraph = oDoc.GetCurrentParagraph();
-oParagraph.AddText('This is current paragraph');
-oParagraph.SetBold(true);
+
+const doc = Api.GetDocument();
+const paragraph = doc.GetCurrentParagraph();
+paragraph.AddText('This is current paragraph');
+paragraph.SetBold(true);

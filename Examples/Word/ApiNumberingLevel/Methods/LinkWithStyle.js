@@ -4,29 +4,31 @@
 
 // Apply the style of the element to the numbering.
 
-var oDocument = Api.GetDocument();
-let aHeadings = [];
-for (var nLvl = 0; nLvl < 3; ++nLvl) {
-    var oHeadingLvlStyle = oDocument.CreateStyle("Heading " + (nLvl + 1));
-    var oTextPr = oHeadingLvlStyle.GetTextPr();
-    oTextPr.SetBold(true);
-    oTextPr.SetColor(nLvl*125, 0, 0, false);
-    aHeadings.push(oHeadingLvlStyle);
+const doc = Api.GetDocument();
+const headings = [];
+
+for (let nLvl = 0; nLvl < 3; ++nLvl) {
+    const headingLvlStyle = doc.CreateStyle("Heading " + (nLvl + 1));
+    const textPr = headingLvlStyle.GetTextPr();
+    textPr.SetBold(true);
+    textPr.SetColor(nLvl*125, 0, 0, false);
+    headings.push(headingLvlStyle);
 }
-var oNumbering = oDocument.CreateNumbering("numbered");
-var oNumLvl, sFormatString;
-for (var nLvl = 0; nLvl < 3; ++nLvl) {
-    oNumLvl = oNumbering.GetLevel(nLvl);
-    sFormatString = "";
-    for (var nFSLvl = 1; nFSLvl <= (nLvl + 1); ++nFSLvl) {
-        sFormatString += "%" + nFSLvl + ".";
+
+let numLvl, formatString;
+const numbering = doc.CreateNumbering("numbered");
+for (let nLvl = 0; nLvl < 3; ++nLvl) {
+    numLvl = numbering.GetLevel(nLvl);
+    formatString = "";
+    for (let nFSLvl = 1; nFSLvl <= (nLvl + 1); ++nFSLvl) {
+        formatString += "%" + nFSLvl + ".";
     }
         
-    oNumLvl.SetCustomType("decimal", sFormatString, "left");
-    oNumLvl.LinkWithStyle(aHeadings[nLvl]);
+    numLvl.SetCustomType("decimal", formatString, "left");
+    numLvl.LinkWithStyle(headings[nLvl]);
 
-    let oPara = Api.CreateParagraph();
-    oPara.SetStyle(aHeadings[nLvl]);
-    oPara.AddText("This paragraph with style: " + aHeadings[nLvl].GetName());
-    oDocument.Push(oPara);
+    const para = Api.CreateParagraph();
+    para.SetStyle(headings[nLvl]);
+    para.AddText("This paragraph with style: " + headings[nLvl].GetName());
+    doc.Push(para);
 }

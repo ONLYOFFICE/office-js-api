@@ -2,7 +2,7 @@
 
 // Specify the freeze pane type.
 
-// How to freeze columns in the curremt worksheet.
+// How to freeze columns in the current worksheet.
 
-var sFreezePaneType = "column";
-Api.SetFreezePanesType(sFreezePaneType);
+const freezePaneType = "column";
+Api.SetFreezePanesType(freezePaneType);

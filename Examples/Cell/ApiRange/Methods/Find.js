@@ -30,5 +30,5 @@ let searchData = {
     SearchDirection: "xlNext",
     MatchCase: true
 };
-let oSearchRange = range.Find(searchData);
-oSearchRange.SetFillColor(Api.CreateColorFromRGB(255, 213, 191));
+let searchRange = range.Find(searchData);
+searchRange.SetFillColor(Api.CreateColorFromRGB(255, 213, 191));
