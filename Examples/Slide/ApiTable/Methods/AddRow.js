@@ -4,15 +4,17 @@
 
 // Create a 2x4 table, set its position and then insert a row to it.
 
-var oPresentation = Api.GetPresentation();
-var oTable = Api.CreateTable(2, 4);
-oTable.AddRow(1, true);
-var oRow = oTable.GetRow(1);
-var oCell = oRow.GetCell(0);
-var oContent = oCell.GetContent();
-var oParagraph = Api.CreateParagraph();
-oParagraph.AddText("New row was added here.");
-oContent.Push(oParagraph);
-var oSlide = oPresentation.GetSlideByIndex(0);
-oSlide.RemoveAllObjects();
-oSlide.AddObject(oTable);
+const presentation = Api.GetPresentation();
+
+const table = Api.CreateTable(2, 4);
+table.AddRow(1, true);
+const row = table.GetRow(1);
+const cell = row.GetCell(0);
+const content = cell.GetContent();
+const paragraph = Api.CreateParagraph();
+paragraph.AddText("New row was added here.");
+content.Push(paragraph);
+
+const slide = presentation.GetSlideByIndex(0);
+slide.RemoveAllObjects();
+slide.AddObject(table);

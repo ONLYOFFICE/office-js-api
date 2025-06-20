@@ -4,29 +4,30 @@
 
 // How to remove a grouping from objects.
 
-let oPresentation = Api.GetPresentation();
-oPresentation.SetSizes(254 * 36000, 190 * 36000);
-let oSlide = oPresentation.GetCurrentSlide();
-oSlide.RemoveAllObjects();
-let oFill1 = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-let oFill2 = Api.CreateSolidFill(Api.CreateRGBColor(111, 255, 61));
-let oStroke = Api.CreateStroke(0, Api.CreateNoFill());
+const presentation = Api.GetPresentation();
+presentation.SetSizes(254 * 36000, 190 * 36000);
+const slide = presentation.GetCurrentSlide();
+slide.RemoveAllObjects();
 
-let oShape1 = Api.CreateShape("flowChartOnlineStorage", 200 * 36000, 130 * 36000, oFill1, oStroke);
-oShape1.SetPosition(608400, 1267200);
-oSlide.AddObject(oShape1);
+const fill1 = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+const fill2 = Api.CreateSolidFill(Api.CreateRGBColor(111, 255, 61));
+const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 
-let oShape2 = Api.CreateShape("flowChartOnlineStorage", 100 * 36000, 65 * 36000, oFill2, oStroke);
-oShape2.SetPosition(304200, 633600);
-oSlide.AddObject(oShape2);
+const shape1 = Api.CreateShape("flowChartOnlineStorage", 200 * 36000, 130 * 36000, fill1, stroke);
+shape1.SetPosition(608400, 1267200);
+slide.AddObject(shape1);
 
-let oGroup = oSlide.GroupDrawings([oShape1, oShape2]);
-oGroup.Ungroup();
+const shape2 = Api.CreateShape("flowChartOnlineStorage", 100 * 36000, 65 * 36000, fill2, stroke);
+shape2.SetPosition(304200, 633600);
+slide.AddObject(shape2);
 
-let oDocContent1 = oShape1.GetDocContent();
-let oParagraph1 = oDocContent1.GetElement(0);
-oParagraph1.AddText("Shapes are ungrouped");
+const group = slide.GroupDrawings([shape1, shape2]);
+group.Ungroup();
 
-let oDocContent2 = oShape2.GetDocContent();
-let oParagraph2 = oDocContent2.GetElement(0);
-oParagraph2.AddText("Shapes are ungrouped");
+const docContent1 = shape1.GetDocContent();
+const paragraph1 = docContent1.GetElement(0);
+paragraph1.AddText("Shapes are ungrouped");
+
+const docContent2 = shape2.GetDocContent();
+const paragraph2 = docContent2.GetElement(0);
+paragraph2.AddText("Shapes are ungrouped");

@@ -4,11 +4,12 @@
 
 // Change background of the presentation layout to the background of a master.
 
-var oPresentation = Api.GetPresentation();
-var oSlide = oPresentation.GetSlideByIndex(0);
-var oMaster = oPresentation.GetMaster(0);
-var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-oMaster.SetBackground(oFill);
-var oLayout = oMaster.GetLayout(0);
-oLayout.FollowMasterBackground();
-oSlide.FollowLayoutBackground();
+const presentation = Api.GetPresentation();
+const slide = presentation.GetSlideByIndex(0);
+const master = presentation.GetMaster(0);
+
+const fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+master.SetBackground(fill);
+const layout = master.GetLayout(0);
+layout.FollowMasterBackground();
+slide.FollowLayoutBackground();

@@ -4,10 +4,10 @@
 
 // Get drawings by their placeholder type knowing a slide master.
 
-let oPresentation = Api.GetPresentation();
-let oSlide = oPresentation.GetSlideByIndex(0);
-let oMaster = oPresentation.GetMaster(0);
-let aDrawingsWithPh = oMaster.GetDrawingsByPlaceholderType("title");
+const presentation = Api.GetPresentation();
+const slide = presentation.GetSlideByIndex(0);
+const master = presentation.GetMaster(0);
+const aDrawingsWithPh = master.GetDrawingsByPlaceholderType("title");
 for (let i = 0; i < aDrawingsWithPh.length; i++) {
-    aDrawingsWithPh[i].Delete();
+	aDrawingsWithPh[i].Delete();
 }

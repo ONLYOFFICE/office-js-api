@@ -4,7 +4,7 @@
 
 // Get current page number.
 
-var oDocument = Api.GetDocument();
-var oParagraph = Api.CreateParagraph();
-oParagraph.AddText("The current page index is: " + oDocument.GetCurrentPage());
-oDocument.Push(oParagraph);
+const doc = Api.GetDocument();
+const paragraph = Api.CreateParagraph();
+paragraph.AddText("The current page index is: " + doc.GetCurrentPage());
+doc.Push(paragraph);

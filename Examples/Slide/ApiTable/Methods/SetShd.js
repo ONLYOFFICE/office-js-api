@@ -4,9 +4,9 @@
 
 // Create a table, set its shading color and add it to the slide.
 
-var oPresentation = Api.GetPresentation();
-var oTable = Api.CreateTable(2, 4);
-oTable.SetShd("clear", 255, 111, 61);
-var oSlide = oPresentation.GetSlideByIndex(0);
-oSlide.RemoveAllObjects();
-oSlide.AddObject(oTable);
+const presentation = Api.GetPresentation();
+const slide = presentation.GetSlideByIndex(0);
+const table = Api.CreateTable(2, 4);
+table.SetShd("clear", 255, 111, 61);
+slide.RemoveAllObjects();
+slide.AddObject(table);

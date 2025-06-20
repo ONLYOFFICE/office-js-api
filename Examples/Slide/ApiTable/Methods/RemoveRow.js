@@ -4,17 +4,19 @@
 
 // Create a table, create cells and remove the whole row by its cell.
 
-var oPresentation = Api.GetPresentation();
-var oTable = Api.CreateTable(2, 4);
-var oRow = oTable.GetRow(0);
-var oCell = oRow.GetCell(0);
-oTable.RemoveRow(oCell);
-oRow = oTable.GetRow(0);
-oCell = oRow.GetCell(0);
-var oContent = oCell.GetContent();
-var oParagraph = Api.CreateParagraph();
-oParagraph.AddText("The first row was removed.");
-oContent.Push(oParagraph);
-var oSlide = oPresentation.GetSlideByIndex(0);
-oSlide.RemoveAllObjects();
-oSlide.AddObject(oTable);
+const presentation = Api.GetPresentation();
+const slide = presentation.GetSlideByIndex(0);
+
+const table = Api.CreateTable(2, 4);
+let row = table.GetRow(0);
+let cell = row.GetCell(0);
+table.RemoveRow(cell);
+row = table.GetRow(0);
+cell = row.GetCell(0);
+const content = cell.GetContent();
+const paragraph = Api.CreateParagraph();
+paragraph.AddText("The first row was removed.");
+content.Push(paragraph);
+
+slide.RemoveAllObjects();
+slide.AddObject(table);

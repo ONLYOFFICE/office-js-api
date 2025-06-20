@@ -4,7 +4,7 @@
 
 // How to display numbers of all visible pages.
 
-var oDocument = Api.GetDocument();
-var oParagraph = Api.CreateParagraph();
-oParagraph.AddText("The current visibles pages indexes is: " + oDocument.GetCurrentVisiblePages());
-oDocument.Push(oParagraph);
+const doc = Api.GetDocument();
+const paragraph = Api.CreateParagraph();
+paragraph.AddText("The current visibles pages indexes is: " + doc.GetCurrentVisiblePages());
+doc.Push(paragraph);

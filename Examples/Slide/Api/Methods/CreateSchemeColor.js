@@ -4,12 +4,13 @@
 
 // Add a scheme color to create a solid fill.
 
-var oPresentation = Api.GetPresentation();
-var oSlide = oPresentation.GetSlideByIndex(0);
-oSlide.RemoveAllObjects();
-var oSchemeColor = Api.CreateSchemeColor("dk1");
-var oFill = Api.CreateSolidFill(oSchemeColor);
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oDrawing = Api.CreateShape("curvedUpArrow", 300 * 36000, 130 * 36000, oFill, oStroke);
-oSlide.AddObject(oDrawing);
-oDrawing.SetPosition(608400, 1267200);
+const presentation = Api.GetPresentation();
+const slide = presentation.GetSlideByIndex(0);
+slide.RemoveAllObjects();
+
+const schemeColor = Api.CreateSchemeColor("dk1");
+const fill = Api.CreateSolidFill(schemeColor);
+const stroke = Api.CreateStroke(0, Api.CreateNoFill());
+const drawing = Api.CreateShape("curvedUpArrow", 300 * 36000, 130 * 36000, fill, stroke);
+drawing.SetPosition(608400, 1267200);
+slide.AddObject(drawing);

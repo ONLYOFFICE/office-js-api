@@ -4,17 +4,19 @@
 
 // Get a slide by its index, convert its table to JSON and create another one from the JSON.
 
-var oPresentation = Api.GetPresentation();
-var oSlide = oPresentation.GetSlideByIndex(0);
-oSlide.RemoveAllObjects();
-var oTable = Api.CreateTable(2, 4);
-var json = oTable.ToJSON(true);
-var oTableFromJSON = Api.FromJSON(json);
-var sType = oTableFromJSON.GetClassType();
-var oRow = oTableFromJSON.GetRow(0);
-var oCell = oRow.GetCell(0);
-var oContent = oCell.GetContent();
-var oParagraph = Api.CreateParagraph();
-oParagraph.AddText("Class type = " + sType);
-oContent.Push(oParagraph);
-oSlide.AddObject(oTableFromJSON);
+const presentation = Api.GetPresentation();
+const slide = presentation.GetSlideByIndex(0);
+slide.RemoveAllObjects();
+
+const table = Api.CreateTable(2, 4);
+const json = table.ToJSON(true);
+const tableFromJSON = Api.FromJSON(json);
+
+const type = tableFromJSON.GetClassType();
+const row = tableFromJSON.GetRow(0);
+const cell = row.GetCell(0);
+const content = cell.GetContent();
+const paragraph = Api.CreateParagraph();
+paragraph.AddText("Class type = " + type);
+content.Push(paragraph);
+slide.AddObject(tableFromJSON);

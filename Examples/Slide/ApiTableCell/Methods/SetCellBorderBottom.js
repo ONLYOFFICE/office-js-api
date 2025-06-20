@@ -4,12 +4,14 @@
 
 // Create table and set its cell bottom border.
 
-var oPresentation = Api.GetPresentation();
-var oTable = Api.CreateTable(2, 4);
-var oRow = oTable.GetRow(0);
-var oCell = oRow.GetCell(0);
-var oFill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
-oCell.SetCellBorderBottom(2, oFill);
-var oSlide = oPresentation.GetSlideByIndex(0);
-oSlide.RemoveAllObjects();
-oSlide.AddObject(oTable);
+const presentation = Api.GetPresentation();
+const slide = presentation.GetSlideByIndex(0);
+
+const table = Api.CreateTable(2, 4);
+const row = table.GetRow(0);
+const cell = row.GetCell(0);
+const fill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
+cell.SetCellBorderBottom(2, fill);
+
+slide.RemoveAllObjects();
+slide.AddObject(table);

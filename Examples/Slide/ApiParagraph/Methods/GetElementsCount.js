@@ -6,25 +6,27 @@
 
 // Return a number of element from the ApiParagraph object.
 
-var oPresentation = Api.GetPresentation();
-var oSlide = oPresentation.GetSlideByIndex(0);
-oSlide.RemoveAllObjects();
-var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);
-var oGs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);
-var oFill = Api.CreateRadialGradientFill([oGs1, oGs2]);
-var oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-var oShape = Api.CreateShape("flowChartMagneticTape", 300 * 36000, 130 * 36000, oFill, oStroke);
-oShape.SetPosition(608400, 1267200);
-var oDocContent = oShape.GetDocContent();
-var oParagraph = oDocContent.GetElement(0);
-oParagraph.RemoveAllElements();
-var oRun = Api.CreateRun();
-oRun.AddText("Number of paragraph elements at this point: ");
-oRun.AddTabStop();
-oRun.AddText("" + oParagraph.GetElementsCount());
-oRun.AddLineBreak();
-oParagraph.AddElement(oRun);
-oRun.AddText("Number of paragraph elements after we added a text run: ");
-oRun.AddTabStop();
-oRun.AddText("" + oParagraph.GetElementsCount());
-oSlide.AddObject(oShape);
+const presentation = Api.GetPresentation();
+const slide = presentation.GetSlideByIndex(0);
+slide.RemoveAllObjects();
+
+const gs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);
+const gs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);
+const fill = Api.CreateRadialGradientFill([gs1, gs2]);
+const stroke = Api.CreateStroke(0, Api.CreateNoFill());
+const shape = Api.CreateShape("flowChartMagneticTape", 300 * 36000, 130 * 36000, fill, stroke);
+shape.SetPosition(608400, 1267200);
+const docContent = shape.GetDocContent();
+const paragraph = docContent.GetElement(0);
+paragraph.RemoveAllElements();
+
+let run = Api.CreateRun();
+run.AddText("Number of paragraph elements at this point: ");
+run.AddTabStop();
+run.AddText("" + paragraph.GetElementsCount());
+run.AddLineBreak();
+paragraph.AddElement(run);
+run.AddText("Number of paragraph elements after we added a text run: ");
+run.AddTabStop();
+run.AddText("" + paragraph.GetElementsCount());
+slide.AddObject(shape);
