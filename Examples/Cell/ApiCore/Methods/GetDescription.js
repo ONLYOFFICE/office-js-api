@@ -3,7 +3,7 @@
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();
 
-core.SetDescription("This is a sample presentation made to help fellow users understand how to use the ApiCore methods.");
+core.SetDescription("This is a sample workbook made to help fellow users understand how to use the ApiCore methods.");
 const description = core.GetDescription();
 
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(100, 50, 200));
