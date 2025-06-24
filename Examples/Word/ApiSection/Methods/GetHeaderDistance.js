@@ -1,8 +1,8 @@
-// This example specifies the distance from the top edge of the page to the top edge of the header.
+// This example sets the header distance and then reads it back.
 
-// How to set header distance of the section.
+// How to get header distance of the section.
 
-// Specify the distance between the page end and the header.
+// Retrieve the current distance between the top of the page and the header.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
@@ -13,4 +13,4 @@ let header = section.GetHeader("default", true);
 section.SetHeaderDistance(1440);
 paragraph = header.GetElement(0);
 paragraph.AddText("This is a page header. ");
-paragraph.AddText("The distance from the page top to the header is 1 inch (1440 twentieths of a point).");
+paragraph.AddText("The distance from the page top to the header is 1 inch (" + section.GetHeaderDistance() + " twentieths of a point).");
