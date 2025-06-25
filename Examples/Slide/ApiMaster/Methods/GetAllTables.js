@@ -1,12 +1,13 @@
-// This example show how to get an array with all tables from the slide layout.
+// This example show how to get an array with all tables from the slide master.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);
 slide.RemoveAllObjects();
 
 const master = presentation.GetMaster(0);
+master.RemoveObject(0, master.GetAllDrawings().length);
+
 const layout = master.GetLayout(0);
-layout.RemoveObject(0, layout.GetAllDrawings().length);
 
 const table = editor.CreateTable(3, 2);
 table.GetRow(0).GetCell(0).GetContent().GetCurrentParagraph().AddText('US');
@@ -15,7 +16,7 @@ table.GetRow(0).GetCell(2).GetContent().GetCurrentParagraph().AddText('Others');
 table.GetRow(1).GetCell(0).GetContent().GetCurrentParagraph().AddText('11.59');
 table.GetRow(1).GetCell(1).GetContent().GetCurrentParagraph().AddText('8.27');
 table.GetRow(1).GetCell(2).GetContent().GetCurrentParagraph().AddText('80.14');
-layout.AddObject(table);
+master.AddObject(table);
 
 const fillColor = Api.CreateRGBColor(100, 100, 200);
 const fill = Api.CreateSolidFill(fillColor);
