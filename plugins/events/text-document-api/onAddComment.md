@@ -1,8 +1,8 @@
 # onAddComment
 
-The function called when a comment is added to the document with the &#123;@link /plugin/executeMethod/text/addcomment AddComment&#125; method.
+The function called when a comment is added to the document with the {@link /plugin/executeMethod/text/addcomment AddComment} method.
 
 | **Name** | **Data type** | **Description** |
 | --------- | ------------- | ----------- |
-| comment | [comment](../../Enumeration/comment.md) | Defines the comment object containing the comment data. |
+| comment | [comment](Enumeration/comment.md) | Defines the comment object containing the comment data. |
 
