@@ -2,6 +2,8 @@
 
 The function called when the target position in the editor is changed.
 
+## Parameters
+
 This event has no parameters.
 
 ```javascript

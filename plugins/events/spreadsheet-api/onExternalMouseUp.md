@@ -2,6 +2,8 @@
 
 The function called when the mouse button is released outside the plugin iframe.
 
+## Parameters
+
 This event has no parameters.
 
 ```javascript
