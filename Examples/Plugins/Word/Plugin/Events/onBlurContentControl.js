@@ -1,5 +1,4 @@
-window.Asc.plugin.onBlurContentControl = function(oPr)
-{
+window.Asc.plugin.attachEditorEvent("onBlurContentControl", (oPr) => {
     if (oPr && "BankBIC" === oPr["Tag"])
     {
         window.Asc.plugin.executeMethod("GetFormValue", [oPr["InternalId"]], function(value)
@@ -33,4 +32,4 @@ window.Asc.plugin.onBlurContentControl = function(oPr)
         });
     }
     console.log("event: onBlurContentControl");
-}
+});
