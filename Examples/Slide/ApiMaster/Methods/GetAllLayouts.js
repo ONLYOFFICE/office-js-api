@@ -1,4 +1,4 @@
-// This example shows how to get all layouts of the specified slide master
+// This example shows how to get all layouts of the specified slide master.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);
