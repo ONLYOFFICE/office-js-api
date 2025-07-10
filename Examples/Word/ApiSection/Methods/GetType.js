@@ -1,4 +1,4 @@
-//
+// This example shows how to set and get the type of a section in a document.
 
 const doc = Api.GetDocument();
 

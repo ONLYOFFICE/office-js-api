@@ -1,4 +1,4 @@
-// 
+// This example shows how to set the tag of a form element.
 
 const doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

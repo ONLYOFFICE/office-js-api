@@ -1,4 +1,4 @@
-//
+// This example shows how to get the text fill of the text properties.
 
 const doc = Api.GetDocument();
 

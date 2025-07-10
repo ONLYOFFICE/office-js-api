@@ -1,4 +1,4 @@
-//
+// This example shows how to get content of a drawing.
 
 const doc = Api.GetDocument();
 let firstParagraph = doc.GetElement(0);

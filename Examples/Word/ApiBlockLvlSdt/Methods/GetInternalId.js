@@ -1,4 +1,4 @@
-//
+// This example demonstrates how to get the internal ID of a block-level container
 
 const doc = Api.GetDocument();
 const blockLvlSdt = Api.CreateBlockLvlSdt();

@@ -1,4 +1,4 @@
-//
+// This example shows how to get the text fill of the existing run.
 
 const doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

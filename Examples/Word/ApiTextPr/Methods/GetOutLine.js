@@ -1,4 +1,4 @@
-//
+// This example shows how to get the outline of the existing text properties.
 
 const doc = Api.GetDocument();
 

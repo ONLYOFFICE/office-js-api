@@ -1,4 +1,4 @@
-//
+// This example shows how get outline of the existing run.
 
 const doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

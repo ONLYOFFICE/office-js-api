@@ -1,4 +1,4 @@
-//
+// This example shows how to get the RGB values of a ApiUniColor (ApiPresetColor is inherited from ApiUniColor).
 
 const doc = Api.GetDocument();
 const firstParagraph = doc.GetElement(0);

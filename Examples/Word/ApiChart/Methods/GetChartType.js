@@ -1,4 +1,4 @@
-//
+// This example demonstrates how to get the chart type of a chart.
 
 const doc = Api.GetDocument();
 const firstParagraph = doc.GetElement(0);
