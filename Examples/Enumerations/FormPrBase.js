@@ -4,5 +4,10 @@
 
 // Create the base properties and apply them to the ApiTextForm object.
 
-let formPrBase = {"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name"};
+let formPrBase = {
+	"key": "Personal information",
+	"tip": "Enter your first name",
+	"required": true,
+	"placeholder": "First name"
+};
 let textForm = Api.CreateTextForm(formPrBase);

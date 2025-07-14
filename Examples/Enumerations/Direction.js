@@ -4,4 +4,5 @@
 
 // Get a range and set its direction, color fill, etc.
 
-worksheet.GetRange("C4:D5").End("xlToLeft").SetFillColor(Api.CreateColorFromRGB(255, 224, 204));
+const color = Api.CreateColorFromRGB(255, 224, 204);
+worksheet.GetRange("C4:D5").End("xlToLeft").SetFillColor(color);

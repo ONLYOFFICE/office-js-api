@@ -4,4 +4,8 @@
 
 // Create a data to add it to the form.
 
-let formData = {key: "CompanyName", value: "OnlyOffice", type: "text"};
+let formData = {
+	key: "CompanyName",
+	value: "OnlyOffice",
+	type: "text"
+};
