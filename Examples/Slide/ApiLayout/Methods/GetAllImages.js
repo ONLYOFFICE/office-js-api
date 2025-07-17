@@ -10,7 +10,7 @@ const layout = master.GetLayout(0);
 const slide = presentation.GetSlideByIndex(0);
 slide.RemoveAllObjects();
 
-const image = Api.CreateImage("https://api.onlyoffice.com/content/img/docbuilder/examples/coordinate_aspects.png", 60 * 36000, 35 * 36000);
+const image = Api.CreateImage("https://static.onlyoffice.com/assets/docs/samples/img/onlyoffice_logo.png", 60 * 36000, 35 * 36000);
 layout.AddObject(image);
 
 const allImages = layout.GetAllImages();
