@@ -8,7 +8,7 @@ const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);
 slide.RemoveAllObjects();
 
-const image = Api.CreateImage("https://api.onlyoffice.com/content/img/docbuilder/examples/step2_1.png", 100 * 36000, 50 * 36000);
+const image = Api.CreateImage("https://static.onlyoffice.com/assets/docs/samples/img/onlyoffice_logo.png", 100 * 36000, 50 * 36000);
 slide.AddObject(image);
 
 const gs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);

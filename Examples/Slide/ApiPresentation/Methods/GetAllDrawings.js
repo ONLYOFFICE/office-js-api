@@ -7,7 +7,7 @@ slide.RemoveAllObjects();
 slideMaster.RemoveLayout(0, slideMaster.GetAllLayouts().length);
 slideMaster.RemoveObject(0, slideMaster.GetAllDrawings().length);
 
-const image = Api.CreateImage('https://api.onlyoffice.com/img/logo.svg', 174 * 36000, 38 * 36000);
+const image = Api.CreateImage('https://static.onlyoffice.com/assets/docs/samples/img/presentation_sky.png', 174 * 36000, 38 * 36000);
 image.SetPosition(0, 0);
 
 const fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 153, 204));
@@ -21,7 +21,7 @@ const categoryNames = [2014, 2015, 2016];
 const chart = Api.CreateChart('bar3D', series, seriesNames, categoryNames, 100 * 36000, 75 * 36000, 24, ["0", "0.00"]);
 chart.SetPosition(232 * 36000, 0);
 
-const oleObject = Api.CreateOleObject('https://api.onlyoffice.com/img/logo.svg', 174 * 36000, 38 * 36000, 'https://youtu.be/SKGz4pmnpgY', 'asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}');
+const oleObject = Api.CreateOleObject('https://static.onlyoffice.com/assets/docs/samples/img/onlyoffice_logo.png', 174 * 36000, 38 * 36000, 'https://youtu.be/SKGz4pmnpgY', 'asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}');
 oleObject.SetPosition(0, 96 * 36000);
 
 slide.AddObject(image);
