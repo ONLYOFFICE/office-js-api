@@ -16,12 +16,17 @@ const shape = Api.CreateShape('heart', 38 * 36000, 38 * 36000, fill, stroke);
 shape.SetPosition(184 * 36000, 0);
 
 const series = [[200, 240, 280], [250, 260, 280]];
-const seriesNames = ["Projected Revenue", "Estimated Costs"];
+const seriesNames = ['Projected Revenue', 'Estimated Costs'];
 const categoryNames = [2014, 2015, 2016];
-const chart = Api.CreateChart('bar3D', series, seriesNames, categoryNames, 100 * 36000, 75 * 36000, 24, ["0", "0.00"]);
+const chart = Api.CreateChart('bar3D', series, seriesNames, categoryNames, 100 * 36000, 75 * 36000, 24, ['0', '0.00']);
 chart.SetPosition(232 * 36000, 0);
 
-const oleObject = Api.CreateOleObject('https://static.onlyoffice.com/assets/docs/samples/img/onlyoffice_logo.png', 174 * 36000, 38 * 36000, 'https://youtu.be/SKGz4pmnpgY', 'asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}');
+const oleObject = Api.CreateOleObject(
+	'https://static.onlyoffice.com/assets/docs/samples/img/onlyoffice_logo.png',
+	150 * 36000, 150 * 36000,
+	'https://youtu.be/SKGz4pmnpgY',
+	'asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}'
+);
 oleObject.SetPosition(0, 96 * 36000);
 
 slide.AddObject(image);

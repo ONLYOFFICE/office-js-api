@@ -4,4 +4,5 @@
 
 // Create a tiled blip fill from the image.
 
-let blipFill = Api.CreateBlipFill("https://example.com/myimage.png", "tile");
+const imageUrl = 'https://static.onlyoffice.com/assets/docs/samples/img/presentation_sky.png';
+let blipFill = Api.CreateBlipFill(imageUrl, 'tile');

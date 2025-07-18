@@ -5,4 +5,5 @@
 // Add a hyperlink to the cell.
 
 let worksheet = Api.GetActiveSheet();
-worksheet.SetHyperlink("A1", "https://static.onlyoffice.com/assets/docs/samples/img/onlyoffice_logo.png", "Api ONLYOFFICE", "ONLYOFFICE for developers");
+const logoUrl = 'https://static.onlyoffice.com/assets/docs/samples/img/onlyoffice_logo.png';
+worksheet.SetHyperlink('A1', logoUrl, 'Api ONLYOFFICE', 'ONLYOFFICE for developers');

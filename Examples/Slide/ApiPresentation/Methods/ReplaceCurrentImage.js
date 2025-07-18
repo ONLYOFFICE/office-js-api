@@ -8,7 +8,10 @@ const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);
 slide.RemoveAllObjects();
 
-const drawing = Api.CreateImage("https://static.onlyoffice.com/assets/docs/samples/img/presentation_sky.png", 300 * 36000, 150 * 36000);
+const url1 = 'https://static.onlyoffice.com/assets/docs/samples/img/presentation_sky.png';
+const url2 = 'https://static.onlyoffice.com/assets/docs/samples/img/onlyoffice_logo.png';
+
+const drawing = Api.CreateImage(url1, 300 * 36000, 150 * 36000);
 slide.AddObject(drawing);
 drawing.Select();
-presentation.ReplaceCurrentImage("https://static.onlyoffice.com/assets/docs/samples/img/onlyoffice_logo.png", 60 * 36000, 35 * 36000);
+presentation.ReplaceCurrentImage(url2, 60 * 36000, 60 * 36000);
