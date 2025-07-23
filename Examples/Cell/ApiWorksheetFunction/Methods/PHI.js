@@ -11,7 +11,7 @@ let number = 5;
 
 worksheet.GetRange("A1").SetValue(number);
 
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 let ans = func.PHI(number);
 
 worksheet.GetRange("C1").SetValue(ans);

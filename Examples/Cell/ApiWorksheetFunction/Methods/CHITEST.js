@@ -5,7 +5,7 @@
 // Use function to return the value from the chi-squared distribution for the statistic and the appropriate degrees of freedom.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 let actual1 = ["Actual", 58, 11, 10];
 let actual2 = ["Actual", 35, 25, 23];
 let expected1 = ["Expected", 45.35, 17.56, 16.09];

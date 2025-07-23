@@ -5,5 +5,5 @@
 // Use function to get an arcsine of a number and display it in the worksheet.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue(func.ASIN(0.25));

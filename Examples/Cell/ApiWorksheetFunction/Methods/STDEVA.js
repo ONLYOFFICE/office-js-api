@@ -13,7 +13,7 @@ for (let i = 0; i < valueArr.length; i++) {
   worksheet.GetRange("A" + (i + 1)).SetValue(valueArr[i]);
 }
 
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 let ans = func.STDEVA(
   1,
   0,

@@ -23,7 +23,7 @@ for (let n = 0; n < xValues.length; n++) {
 //get x and y ranges
 let yRange = worksheet.GetRange("A1:A3");
 let xRange = worksheet.GetRange("B1:B3");
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 
 //invoke LINEST method
 let ans = func.LINEST(yRange, xRange, constant, stats);

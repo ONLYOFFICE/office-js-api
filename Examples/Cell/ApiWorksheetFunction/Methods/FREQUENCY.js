@@ -21,7 +21,7 @@ let data_arrayRange = worksheet.GetRange("A1:A5");
 let bins_arrayRange = worksheet.GetRange("B1:B5");
 
 // Get the worksheet function object
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 
 // Ensure the ranges are properly passed to the function
 let forecast = func.FREQUENCY(data_arrayRange, bins_arrayRange);

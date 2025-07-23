@@ -5,5 +5,5 @@
 // Use a function to get the base 10 logarithm.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue(func.IMLOG10("-2+2.5i"));

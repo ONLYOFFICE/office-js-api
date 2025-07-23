@@ -5,5 +5,5 @@
 // Use a function to get an array of characters from the string.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue(func.MIDB("Online Office", 3, 4));

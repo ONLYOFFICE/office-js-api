@@ -5,5 +5,5 @@
 // Use function to compare two texts (case-sensitive).
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue(func.EXACT("MyPassword", "mypassword"));

@@ -5,5 +5,5 @@
 // Use a function to analyse a string, get length of a string and its intended language.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue(func.LENB("Online Office"));

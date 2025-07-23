@@ -5,6 +5,6 @@
 // Use a function to get a sheet index.
 
 const worksheet = Api.GetActiveSheet(); 
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 let result = func.SHEET("Sheet1");
 worksheet.GetRange("C3").SetValue(result);

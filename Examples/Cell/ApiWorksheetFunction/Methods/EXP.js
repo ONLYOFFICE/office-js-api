@@ -5,5 +5,5 @@
 // Use function to raise the e constant to a specified power.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue(func.EXP(5));

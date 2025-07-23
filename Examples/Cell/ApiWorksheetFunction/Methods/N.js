@@ -5,5 +5,5 @@
 // Use a function to get a number from any data type.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue(func.N(false));

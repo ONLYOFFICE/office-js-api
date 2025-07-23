@@ -5,5 +5,5 @@
 // Use function to get the Bessel function Yn(x).
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue(func.BESSELY(2.5, 1));

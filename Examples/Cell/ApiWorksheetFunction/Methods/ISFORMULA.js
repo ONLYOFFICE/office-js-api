@@ -10,6 +10,6 @@ const worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B3").SetValue("=SUM(5, 6)");
 
 // Check if there is a formula in C3
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 let result = func.ISFORMULA(worksheet.GetRange("B3"));
 worksheet.GetRange("C3").SetValue(result);

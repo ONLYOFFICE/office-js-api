@@ -5,5 +5,5 @@
 // Use a function to get a modulus of the complex number. 
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue(func.IMABS("-2+2.5i"));

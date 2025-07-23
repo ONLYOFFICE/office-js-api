@@ -18,7 +18,7 @@ let numberF = worksheet.GetRange("A1").GetValue();
 let numberS = worksheet.GetRange("A2").GetValue();
 let probabilityS = worksheet.GetRange("A3").GetValue();
 
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 let ans = func.NEGBINOMDIST(numberF, numberS, probabilityS);
 
 worksheet.GetRange("C1").SetValue(ans);

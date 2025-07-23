@@ -5,5 +5,5 @@
 // Use a function to get the result of hypergeometric distribution.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue(func.HYPGEOMDIST(2, 3, 3, 12));

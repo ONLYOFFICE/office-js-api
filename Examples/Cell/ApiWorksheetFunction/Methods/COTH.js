@@ -5,5 +5,5 @@
 // Use function to get the hyperbolic cotangent of an angle.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue(func.COTH(0.785398));

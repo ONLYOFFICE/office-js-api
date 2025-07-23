@@ -5,7 +5,7 @@
 // Use function to multiply the values from columns if they satisfy a condition.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue("Product");
 worksheet.GetRange("B1").SetValue("Identifier");
 worksheet.GetRange("C1").SetValue("Value");

@@ -5,7 +5,7 @@
 // Use function to get cells if a condition is met.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 let fruits = ["Apples", "ranges", "Bananas"];
 let numbers = [45, 6, 8];
 

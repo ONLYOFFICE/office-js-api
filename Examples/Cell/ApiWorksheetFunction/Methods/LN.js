@@ -5,5 +5,5 @@
 // Use a function to return a natural logarithm.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue(func.LN(23));

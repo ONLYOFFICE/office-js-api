@@ -5,5 +5,5 @@
 // Use a function to get the result from the power.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue(func.IMPOWER("-2+2.5i", -3));

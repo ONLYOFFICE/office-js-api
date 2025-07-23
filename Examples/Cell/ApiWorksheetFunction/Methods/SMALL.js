@@ -17,7 +17,7 @@ for (let i = 0; i < valueArr.length; i++) {
 let range = worksheet.GetRange("A1:A16");
 let position = 8;
 
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 let ans = func.SMALL(range, position);
 
 worksheet.GetRange("C1").SetValue(ans);

@@ -5,7 +5,7 @@
 // Use a function to get the net present value of an investment based on different parameters.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue("Rate");
 worksheet.GetRange("A2").SetValue(0.05);
 let values = ["Payment", -10000, 3000, 4500, 6000];

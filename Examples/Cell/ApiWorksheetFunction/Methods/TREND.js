@@ -5,7 +5,7 @@
 // Use a function to find a linear trend using data points by the least squares method.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 let month = ["Month", 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let sales = ["Sales", "$1,500.00", "$1,230.00", "$1,700.00", "$1,000.00", "$980.00", "$1,470.00", "$1,560.00", "$1,640.00", "$1,420.00", "$1,100.00"];
 

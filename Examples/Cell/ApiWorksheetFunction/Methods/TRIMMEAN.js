@@ -16,6 +16,6 @@ for (let i = 0; i < argumentsArr.length; i++) {
 let data = worksheet.GetRange("A1:A4");
 
 // Calculate the TRIMMEAN of the range A1:A6
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 let result = func.TRIMMEAN(data, 0.6);
 worksheet.GetRange("B1").SetValue(result);

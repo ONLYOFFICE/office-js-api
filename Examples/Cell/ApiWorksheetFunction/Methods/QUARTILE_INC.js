@@ -17,7 +17,7 @@ for (let i = 0; i < valueArr1.length; i++) {
 //method params
 let array = worksheet.GetRange("A1:A12");
 
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 let ans = func.QUARTILE_INC(array, quart); //0...1 inclusive
 
 worksheet.GetRange("C1").SetValue(ans);

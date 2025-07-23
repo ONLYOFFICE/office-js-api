@@ -5,5 +5,5 @@
 // Use a function to get the standard normal distribution with a mean = 0 and standard deviation = 1.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue(func.NORM_S_DIST(1.33, true));

@@ -15,6 +15,6 @@ for (let n = 0; n < totalValue.length; n++) {
     worksheet.GetRange("B" + (n + 1)).SetValue(totalValue[n]);
 }
 
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 let range = worksheet.GetRange("B2:B4");
 worksheet.GetRange("C4").SetValue(func.SUMIF(range, ">800"));

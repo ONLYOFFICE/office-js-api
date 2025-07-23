@@ -5,7 +5,7 @@
 // Use function to get an average (arithmetic mean) of the cells if the set of requirements is satisfied.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 let year = [2016, 2016, 2016, 2017, 2017, 2017];
 let products = ["Apples", "Red apples", "ranges", "Green apples", "Apples", "Bananas"];
 let income = ["$100.00", "$150.00", "$250.00", "$50.00", "$150.00", "$200.00"];

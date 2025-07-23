@@ -17,6 +17,6 @@ let probability = worksheet.GetRange("A1").GetValue();
 let mean = worksheet.GetRange("A2").GetValue();
 let standardDeviation = worksheet.GetRange("A3").GetValue();
 
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 let inv = func.NORM_INV(probability, mean, standardDeviation);
 worksheet.GetRange("C1").SetValue(inv);

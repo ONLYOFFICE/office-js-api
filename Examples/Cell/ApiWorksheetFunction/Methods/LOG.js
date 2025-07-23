@@ -5,5 +5,5 @@
 // Use a function to return the logarithm.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue(func.LOG(56, 5));

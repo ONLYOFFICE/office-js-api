@@ -23,6 +23,6 @@ for (let i = 0; i < data.length; i++) {
 }
 
 // Calculate the letA of the range A1:D4 and place the result in cell E6
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 let letaResult = func.VARA(worksheet.GetRange("A1:D4"));
 worksheet.GetRange("E6").SetValue(letaResult);

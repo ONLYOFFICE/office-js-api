@@ -5,5 +5,5 @@
 // Use a function to get the hyperbolic cosine of a complex number.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue(func.IMCOSH("-2+2.5i"));

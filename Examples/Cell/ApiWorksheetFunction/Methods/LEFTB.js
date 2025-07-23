@@ -5,5 +5,5 @@
 // Use a function to get the substring from the left.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue(func.LEFTB("Online Office", 6));

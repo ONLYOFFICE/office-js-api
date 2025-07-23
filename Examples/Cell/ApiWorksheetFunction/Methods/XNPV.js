@@ -5,7 +5,7 @@
 // Use a function to return the net present value.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue("Rate");
 worksheet.GetRange("A2").SetValue(0.05);
 

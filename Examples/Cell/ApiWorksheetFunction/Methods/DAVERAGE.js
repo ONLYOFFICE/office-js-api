@@ -5,7 +5,7 @@
 // Use function to get the average of the values that match conditions specified.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue("Name");
 worksheet.GetRange("B1").SetValue("Age");
 worksheet.GetRange("C1").SetValue("Sales");
