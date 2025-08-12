@@ -230,9 +230,9 @@ pivotTable18.AddFields({ rows: 'Date' });
 pivotTable18.AddDataField('Quantity');
 
 let dateField18 = pivotTable18.GetPivotFields('Date');
-dateField18.PivotFilters.Add("xlDateBetween", null, new Date("1 March 2024"), new Date("31 May 2024")); // March 1 - May 31, 2024
+dateField18.PivotFilters.Add("xlAfter", null, new Date("1 Jun 2024")); // Jun 1, 2024
 
-worksheet.GetRange('Q31').SetValue('Test 18: Date Greater Than Jun 1, 2024');
+worksheet.GetRange('Q31').SetValue('Test 18: Date After Jun 1, 2024');
 
 // === PIVOT TABLE 19: Date Filter - Date Between Whole Day===
 let pivotTable19 = Api.InsertPivotExistingWorksheet(dataRange, worksheet.GetRange('U32'));
