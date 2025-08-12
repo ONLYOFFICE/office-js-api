@@ -4,27 +4,27 @@
 
 // Get all XML parts.
 
-let oPresentation = Api.GetPresentation();
-let xmlManager = oPresentation.GetCustomXmlParts();
+let presentation = Api.GetPresentation();
+let xmlManager = presentation.GetCustomXmlParts();
 xmlManager.Add("<employees><employee>John</employee></employees>");
 xmlManager.Add("<departments><department>IT</department></departments>");
 xmlManager.Add("<projects><project>Website</project></projects>");
 let allParts = xmlManager.GetAll();
-let oSlide = oPresentation.GetSlideByIndex(0);
-oSlide.RemoveAllObjects();
-let oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-let oStroke = Api.CreateStroke(0, Api.CreateNoFill());
-let oShape = Api.CreateShape("rect", 300 * 36000, 130 * 36000, oFill, oStroke);
-oShape.SetPosition(608400, 1267200);
-let oDocContent = oShape.GetDocContent();
-let oParagraph = oDocContent.GetElement(0);
-let oRun = Api.CreateRun();
-oRun.SetFontSize(60);
-oRun.AddText("Total XML parts: " + allParts.length);
-oParagraph.AddElement(oRun);
+let slide = presentation.GetSlideByIndex(0);
+slide.RemoveAllObjects();
+let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+let stroke = Api.CreateStroke(0, Api.CreateNoFill());
+let shape = Api.CreateShape("rect", 300 * 36000, 130 * 36000, fill, stroke);
+shape.SetPosition(608400, 1267200);
+let docContent = shape.GetDocContent();
+let paragraph = docContent.GetElement(0);
+let run = Api.CreateRun();
+run.SetFontSize(60);
+run.AddText("Total XML parts: " + allParts.length);
+paragraph.AddElement(run);
 for (let i = 0; i < allParts.length; i++) {
-    let oRun2 = Api.CreateRun();
-    oRun2.AddText("\nPart " + (i + 1) + ": " + allParts[i].GetXml());
-    oParagraph.AddElement(oRun2);
+    let run2 = Api.CreateRun();
+    run2.AddText("\nPart " + (i + 1) + ": " + allParts[i].GetXml());
+    paragraph.AddElement(run2);
 }
-oSlide.AddObject(oShape);
+slide.AddObject(shape);
