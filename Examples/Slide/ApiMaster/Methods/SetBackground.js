@@ -10,5 +10,5 @@ slide.RemoveAllObjects();
 
 const master = presentation.GetMaster(0);
 master.ClearBackground();
-const fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+const fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 master.SetBackground(fill);

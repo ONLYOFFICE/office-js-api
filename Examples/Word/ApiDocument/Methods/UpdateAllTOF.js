@@ -20,7 +20,7 @@ paragraph.AddCaption(" - Financial Overview", "Figure", false, "Arabic", false, 
 let tofPr = {"ShowPageNums": true, "RightAlgn": true, "LeaderType": "dot", "FormatAsLinks": true, "BuildFrom": "Figure", "LabelNumber": true, "TofStyle": "distinctive"};
 doc.AddTableOfFigures(tofPr);
 paragraph = Api.CreateParagraph();
-let fill = Api.CreateSolidFill(Api.CreateRGBColor(104, 155, 104));
+let fill = Api.CreateSolidFill(Api.RGB(104, 155, 104));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());
 let drawing = Api.CreateShape("rect", 3212465, 963295, fill, stroke);
 paragraph.AddDrawing(drawing);

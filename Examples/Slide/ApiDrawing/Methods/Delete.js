@@ -24,9 +24,9 @@ drawing2.SetLegendPos("bottom");
 drawing2.SetShowDataLabels(false, false, true, false);
 drawing2.SetTitle("Financial Overview", 13);
 
-fill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
+fill = Api.CreateSolidFill(Api.RGB(51, 51, 51));
 drawing2.SetSeriesFill(fill, 0, false);
-fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 drawing2.SetSeriesFill(fill, 1, false);
 slide.AddObject(drawing2);
 

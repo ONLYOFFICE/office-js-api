@@ -15,8 +15,8 @@ let cmd = path.GetCommand(1); // cubic bezier command
 paragraph.AddText("Control points: (" + cmd.GetX0() + ", " + cmd.GetY0() + "), ");
 paragraph.AddText("(" + cmd.GetX1() + ", " + cmd.GetY1() + "), ");
 paragraph.AddText("(" + cmd.GetX2() + ", " + cmd.GetY2() + ")");
-let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 200, 100));
-let stroke = Api.CreateStroke(36000, Api.CreateSolidFill(Api.CreateRGBColor(200, 100, 0)));
+let fill = Api.CreateSolidFill(Api.RGB(255, 200, 100));
+let stroke = Api.CreateStroke(36000, Api.CreateSolidFill(Api.RGB(200, 100, 0)));
 let shape = Api.CreateShape("rect", 80 * 36000, 80 * 36000, fill, stroke);
 shape.SetGeometry(customGeometry);
 paragraph.AddDrawing(shape);

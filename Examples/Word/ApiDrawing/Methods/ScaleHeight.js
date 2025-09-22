@@ -7,7 +7,7 @@
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 for (let i = 3; i > 0; i--) {
-    let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+    let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
     let stroke = Api.CreateStroke(0, Api.CreateNoFill());
     let drawing = Api.CreateShape("cube", 3212465, 963295, fill, stroke);
     paragraph.AddDrawing(drawing);

@@ -16,9 +16,9 @@ let drawing2 = Api.CreateChart("bar3D", [
 	[200, 240, 280],
 	[250, 260, 280]
 ], ["Projected Revenue", "Estimated Costs"], [2014, 2015, 2016], 4051300, 2347595, 24);
-fill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
+fill = Api.CreateSolidFill(Api.RGB(51, 51, 51));
 drawing2.SetSeriesFill(fill, 0, false);
-fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 drawing2.SetSeriesFill(fill, 1, false);
 drawing2.SetVerAxisTitle("USD In Hundred Thousands", 10);
 drawing2.SetHorAxisTitle("Year", 11);
@@ -27,5 +27,5 @@ drawing2.SetShowDataLabels(false, false, true, false);
 drawing2.SetTitle("Financial Overview", 13);
 paragraph.AddDrawing(drawing2);
 let drawings = doc.GetAllDrawingObjects();
-fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 drawings[0].Fill(fill);

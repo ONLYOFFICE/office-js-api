@@ -11,5 +11,5 @@ paragraph.AddElement(pictureForm);
 pictureForm.SetImage("https://api.onlyoffice.com/content/img/docbuilder/examples/user-profile.png");
 pictureForm.ToFixed(10 * 240, 10 * 240);
 let shape = pictureForm.GetWrapperShape();
-let stroke = Api.CreateStroke(36000, Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61)));
+let stroke = Api.CreateStroke(36000, Api.CreateSolidFill(Api.RGB(255, 111, 61)));
 shape.SetOutLine(stroke);

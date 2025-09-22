@@ -16,7 +16,7 @@ slide.SetBackground(bgFill);
 presentation.AddSlide(slide);
 presentation.RemoveSlides(0, 1);
 
-const fill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
+const fill = Api.CreateSolidFill(Api.RGB(51, 51, 51));
 const oStroke = Api.CreateStroke(0, Api.CreateNoFill());
 const oShape = Api.CreateShape("flowChartMagneticTape", 300 * 36000, 130 * 36000, fill, oStroke);
 oShape.SetPosition(608400, 1267200);

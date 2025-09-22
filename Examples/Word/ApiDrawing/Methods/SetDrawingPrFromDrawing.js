@@ -24,7 +24,7 @@ doc.Push(paragraph);
 paragraph = Api.CreateParagraph();
 paragraph.AddText("The shape is aligned at the center of the page horizontally.");
 doc.Push(paragraph);
-fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 stroke = Api.CreateStroke(0, Api.CreateNoFill());
 let drawing2 = Api.CreateShape("roundRect", 50 * 36000, 30 * 36000, fill, stroke);
 drawing2.SetDrawingPrFromDrawing(drawing1);

@@ -15,5 +15,5 @@ paragraph.AddDrawing(drawing1);
 let drawing2 = Api.CreateShape("wave", 3212465, 963295, fill, stroke);
 paragraph.AddDrawing(drawing2);
 let drawings = paragraph.GetAllShapes();
-fill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
+fill = Api.CreateSolidFill(Api.RGB(51, 51, 51));
 drawings[1].Fill(fill);

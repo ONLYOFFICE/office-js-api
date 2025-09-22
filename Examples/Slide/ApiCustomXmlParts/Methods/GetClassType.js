@@ -9,7 +9,7 @@ let xmlManager = presentation.GetCustomXmlParts();
 let classType = xmlManager.GetClassType();
 let slide = presentation.GetSlideByIndex(0);
 slide.RemoveAllObjects();
-let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());
 let shape = Api.CreateShape("rect", 300 * 36000, 130 * 36000, fill, stroke);
 shape.SetPosition(608400, 1267200);
