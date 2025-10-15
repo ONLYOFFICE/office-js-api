@@ -21,7 +21,7 @@ let standardDeviation = worksheet.GetRange("A3");
 let cummulative = true;
 
 //invoke LOGNORM.DIST method
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 let ans = func.LOGNORM_DIST(xValue, mean, standardDeviation, cummulative);
 
 //print answer

@@ -5,5 +5,5 @@
 // Use a function to convert hours, minutes and seconds to serial numbers.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue(func.TIME(23, 4, 39));

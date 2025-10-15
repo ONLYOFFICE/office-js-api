@@ -5,5 +5,5 @@
 // Use function to get an error function set between 0 and lower limits.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue(func.ERF_PRECISE(0.745));

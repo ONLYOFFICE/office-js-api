@@ -5,5 +5,5 @@
 // Use function to get a text from a number.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue(func.BASE(5, 2, 5));

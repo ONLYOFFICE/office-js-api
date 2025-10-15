@@ -5,5 +5,5 @@
 // Use a function to convert a text to a number.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue(func.NUMBERVALUE("2.500,27", ",", "."));

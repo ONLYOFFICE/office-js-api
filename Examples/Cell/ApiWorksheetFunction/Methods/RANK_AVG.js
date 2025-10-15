@@ -18,7 +18,7 @@ let number = worksheet.GetRange("A3");
 let range = worksheet.GetRange("A1:A4");
 let order = 0;
 
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 let ans = func.RANK_AVG(number, range, order);
 
 worksheet.GetRange("C1").SetValue(ans);

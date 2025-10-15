@@ -5,5 +5,5 @@
 // Use a function to get an imaginary coefficient of the complex number. 
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue(func.IMAGINARY("-2+2.5i"));

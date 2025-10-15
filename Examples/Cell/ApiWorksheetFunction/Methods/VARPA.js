@@ -23,6 +23,6 @@ for (let i = 0; i < data.length; i++) {
 }
 
 // Calculate the letPA of the range A1:D4 and place the result in cell D5
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 let letpaResult = func.VARPA(worksheet.GetRange("A1:D4"));
 worksheet.GetRange("D5").SetValue(letpaResult);

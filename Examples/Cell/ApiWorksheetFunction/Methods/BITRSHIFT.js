@@ -5,5 +5,5 @@
 // Use function to calculate bitwise right shift operation.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue(func.BITRSHIFT(13, 2));

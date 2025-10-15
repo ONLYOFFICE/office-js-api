@@ -5,5 +5,5 @@
 // Use a function to get the square root of a number.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue(func.SQRT(100));

@@ -5,5 +5,5 @@
 // Use a function to get the standard normal cumulative distribution.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue(func.NORMDIST(36, 6, 7, false));

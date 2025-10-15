@@ -5,5 +5,5 @@
 // Use a function to repeat a text n times.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue(func.REPT("Text", 3));

@@ -5,5 +5,5 @@
 // Use a function to calculate angle's hyperbolic tangent.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue(func.TANH(6));

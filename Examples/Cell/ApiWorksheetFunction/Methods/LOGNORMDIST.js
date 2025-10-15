@@ -20,7 +20,7 @@ let mean = worksheet.GetRange("A2");
 let standardDeviation = worksheet.GetRange("A3");
 
 //invoke LOGNORMDIST method
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 let ans = func.LOGNORMDIST(xValue, mean, standardDeviation);
 
 //print answer

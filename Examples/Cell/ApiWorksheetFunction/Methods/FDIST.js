@@ -5,6 +5,6 @@
 // Use function to get F probability distribution (degree of diversity).
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 let ans = func.FDIST(10, 6, 4);
 worksheet.GetRange("B2").SetValue(ans);

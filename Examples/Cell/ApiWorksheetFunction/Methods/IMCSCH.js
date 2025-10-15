@@ -5,5 +5,5 @@
 // Use a function to get the hyperbolic cosecant of a complex number.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue(func.IMCSCH("-2+2.5i"));

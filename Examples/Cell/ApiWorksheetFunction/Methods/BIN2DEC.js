@@ -5,5 +5,5 @@
 // Use function to convert a binary to decimal.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue(func.BIN2DEC(1110011100));

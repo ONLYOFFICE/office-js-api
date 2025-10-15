@@ -5,5 +5,5 @@
 // Use function to convert a decimal number to octal.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue(func.DEC2OCT(-100));

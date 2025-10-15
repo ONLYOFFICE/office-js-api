@@ -5,5 +5,5 @@
 // Use function to get the Bessel function Kn(x).
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue(func.BESSELK(1.5, 1));

@@ -3,7 +3,7 @@
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();
 
-core.SetKeywords("Example; ApiCore; Presentation");
+core.SetKeywords("Example; ApiCore; Workbook");
 const keywords = core.GetKeywords();
 
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(100, 50, 200));

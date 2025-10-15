@@ -5,5 +5,5 @@
 // Use function to make characters half-width.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue(func.ASC("text"));

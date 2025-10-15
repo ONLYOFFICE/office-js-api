@@ -5,7 +5,7 @@
 // Use a function to estimate a sum from the cells by a given condition.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 let year = [2016, 2016, 2016, 2017, 2017, 2017];
 let products = ["Apples", "Red apples", "ranges", "Green apples", "Apples", "Bananas"];
 let income = ["$100.00", "$150.00", "$250.00", "$50.00", "$150.00", "$200.00"];

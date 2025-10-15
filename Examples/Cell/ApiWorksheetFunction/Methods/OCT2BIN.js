@@ -5,5 +5,5 @@
 // Use a function to convert an octal number to binary.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue(func.OCT2BIN(7777777634));

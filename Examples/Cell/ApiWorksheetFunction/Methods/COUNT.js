@@ -18,6 +18,6 @@ for (let n = 0; n < stringsArr.length; n++) {
     worksheet.GetRange("B" + (n + 1)).SetValue(stringsArr[n]);
 }
 
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 let ans = func.COUNT(worksheet.GetRange("A1:C3"));
 worksheet.GetRange("D3").SetValue(ans);

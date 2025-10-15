@@ -5,5 +5,5 @@
 // Use function to calculate bitwise "OR" operation.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue(func.BITOR(23, 10));

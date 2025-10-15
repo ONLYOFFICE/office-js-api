@@ -24,7 +24,7 @@ for (let i = 0; i < xValues.length; i++) {
 let yRange = worksheet.GetRange("A1:A10");
 let xRange = worksheet.GetRange("B1:B10");
 
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 //invoke LOGEST method
 let ans = func.LOGEST(yRange, xRange, constant, stats);
 

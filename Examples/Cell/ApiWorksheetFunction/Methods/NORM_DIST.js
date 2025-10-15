@@ -17,6 +17,6 @@ let x = worksheet.GetRange("A1").GetValue();
 let mean = worksheet.GetRange("A2").GetValue();
 let standardDeviation = worksheet.GetRange("A3").GetValue();
 let cumulative = worksheet.GetRange("A4").GetValue();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 let normalDist = func.NORM_DIST(x, mean, standardDeviation, cumulative);
 worksheet.GetRange("C1").SetValue(normalDist);

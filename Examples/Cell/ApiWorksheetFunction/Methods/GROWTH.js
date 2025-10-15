@@ -24,7 +24,7 @@ let data_arrayRange = worksheet.GetRange("A1:A5");
 let months_arrayRange = worksheet.GetRange("B1:B5");
 
 // Get the worksheet function object
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 
 // Ensure the ranges are properly passed to the function
 let growth = func.GROWTH(data_arrayRange, months_arrayRange);

@@ -18,7 +18,7 @@ let x = worksheet.GetRange("A1");
 let mean = worksheet.GetRange("A2");
 let stdDev = worksheet.GetRange("A3");
 
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 let ans = func.STANDARDIZE(x, mean, stdDev);
 
 worksheet.GetRange("C1").SetValue(ans);

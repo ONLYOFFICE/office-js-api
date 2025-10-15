@@ -5,5 +5,5 @@
 // Use function to get the cosine of an angle.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue(func.COS(1.5));

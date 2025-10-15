@@ -5,5 +5,5 @@
 // Use a function to estimate a sum from the cells.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 worksheet.GetRange("A1").SetValue(func.SUM(145, 37, 236, 69, 567, 92));

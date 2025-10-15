@@ -5,7 +5,7 @@
 // Use a function to return the internal rate of return.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 let values = ["Values", "-$40,000.00", "$10,000.00", "$15,000.00", "$20,000.00"];
 let dates = ["Dates", "1/1/2018", "4/1/2018", "8/1/2018", "12/1/2018"];
 

@@ -5,7 +5,7 @@
 // Use a function to get a result from a formula if an error occurs show specified error message.
 
 let worksheet = Api.GetActiveSheet();
-let func = Api.GetWorksheetFunction();
+let func = Api.WorksheetFunction;
 let stock = ["Stock", 0, 84];
 let values = ["Total value", "$5.43", "$297.36"];
 worksheet.GetRange("C1").SetValue("Unit Price");
