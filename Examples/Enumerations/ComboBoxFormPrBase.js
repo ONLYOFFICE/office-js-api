@@ -4,5 +4,9 @@
 
 // Create the base properties and apply them to the ApiComboBoxForm object.
 
-let comboBoxFormPrBase = {"editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]};
+let comboBoxFormPrBase = {
+	"editable": false,
+	"autoFit": false,
+	"items": ["Latvia", "USA", "UK"]
+};
 let comboBoxForm = Api.CreateComboBoxForm(comboBoxFormPrBase);

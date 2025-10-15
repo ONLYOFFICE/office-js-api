@@ -5,5 +5,14 @@
 // Add a table of contents with dot leader type.
 
 let tocLeader = "dot";
-let tocPr = {"ShowPageNums": true, "RightAlgn": true, "LeaderType": tocLeader, "FormatAsLinks": true, "BuildFrom": {"OutlineLvls": 9}, "TocStyle": "standard"};
+let tocPr = {
+	"ShowPageNums": true,
+	"RightAlgn": true,
+	"LeaderType": tocLeader,
+	"FormatAsLinks": true,
+	"BuildFrom": {
+		"OutlineLvls": 9
+	},
+	"TocStyle": "standard"
+};
 doc.AddTableOfContents(tocPr);

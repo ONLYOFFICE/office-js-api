@@ -6,9 +6,11 @@ const slide = presentation.GetSlideByIndex(0);
 const commentText = "Note: check method to add comments to slides.";
 const commentAuthor = "Mark Pottato";
 const commentUserId = "user-42";
+const posX = 20 * 36000;
+const posY = 20 * 36000;
 
-slide.AddComment(commentText, commentAuthor, commentUserId);
-slide.AddComment('Author for this comment was not specified');
+slide.AddComment(posX, posY, commentText, commentAuthor, commentUserId);
+slide.AddComment(posX, posY, 'Author for this comment was not specified');
 
 const fill = Api.CreateSolidFill(Api.CreateRGBColor(50, 100, 150));
 const stroke = Api.CreateStroke(0, Api.CreateNoFill());
@@ -26,5 +28,5 @@ for (let i = 0; i < comments.length; i++) {
 }
 
 slide.RemoveAllObjects();
-shape.SetPosition(20 * 36000, 20 * 36000);
+shape.SetPosition(posX, posY);
 slide.AddObject(shape);

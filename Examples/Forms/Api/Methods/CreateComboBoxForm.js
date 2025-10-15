@@ -5,6 +5,14 @@
 // Add a combo box with the state options to the ApiDocument object.
 
 let doc = Api.GetDocument();
-let comboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});
+let comboBoxForm = Api.CreateComboBoxForm({
+	"key": "Personal information",
+	"tip": "Choose your country",
+	"required": true,
+	"placeholder": "Country",
+	"editable": false,
+	"autoFit": false,
+	"items": ["Latvia", "USA", "UK"]
+});
 let paragraph = doc.GetElement(0);
 paragraph.AddElement(comboBoxForm);

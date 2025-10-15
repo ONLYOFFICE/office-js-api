@@ -4,4 +4,12 @@
 
 // Find a text from a range and replace it with another one.
 
-range.Replace( { What: "200", Replacement: "0", LookAt: "xlWhole", SearchOrder: "xlByColumns", SearchDirection: "xlNext", MatchCase: true, ReplaceAll: true } );
+range.Replace({
+	What: "200",
+	Replacement: "0",
+	LookAt: "xlWhole",
+	SearchOrder: "xlByColumns",
+	SearchDirection: "xlNext",
+	MatchCase: true,
+	ReplaceAll: true
+});

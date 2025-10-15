@@ -4,6 +4,18 @@
 
 // Add a table of contents with styles for different elements (Heading 1, 2, etc.).
 
-let tocStyleLvl = [{Name: "Heading 1", Lvl: 2}, {Name: "Heading 2", Lvl: 3}];
-let tocPr = {"ShowPageNums": true, "RightAlgn": true, "LeaderType": "dot", "FormatAsLinks": true, "BuildFrom": {"StylesLvls": tocStyleLvl}, "TocStyle": "standard"};
+let tocStyleLvl = [
+	{ Name: "Heading 1", Lvl: 2 },
+	{ Name: "Heading 2", Lvl: 3 }
+];
+let tocPr = {
+	"ShowPageNums": true,
+	"RightAlgn": true,
+	"LeaderType": "dot",
+	"FormatAsLinks": true,
+	"BuildFrom": {
+		"StylesLvls": tocStyleLvl
+	},
+	"TocStyle": "standard"
+};
 doc.AddTableOfContents(tocPr);

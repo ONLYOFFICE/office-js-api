@@ -4,4 +4,12 @@
 
 // Find a text from a range specifying data.
 
-let searchRange = range.Find( { What: "200", After: oWorksheet.GetRange("B1"), LookIn: "xlValues", LookAt: "xlWhole",	SearchOrder: "xlByColumns", SearchDirection: "xlNext", MatchCase: true } );
+let searchRange = range.Find({
+	What: "200",
+	After: oWorksheet.GetRange("B1"),
+	LookIn: "xlValues",
+	LookAt: "xlWhole",
+	SearchOrder: "xlByColumns",
+	SearchDirection: "xlNext",
+	MatchCase: true
+});
