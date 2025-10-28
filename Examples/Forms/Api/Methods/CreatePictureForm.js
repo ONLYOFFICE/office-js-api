@@ -18,4 +18,4 @@ let pictureForm = Api.CreatePictureForm({
 });
 let paragraph = doc.GetElement(0);
 paragraph.AddElement(pictureForm);
-pictureForm.SetImage("https://static.onlyoffice.com/assets/docs/samples/img/onlyoffice_logo.png");
+pictureForm.SetImage("https://static.onlyoffice.com/assets/docs/samples/img/onlyoffice_logo.png", Api.MillimetersToEmus(70), Api.MillimetersToEmus(80));
