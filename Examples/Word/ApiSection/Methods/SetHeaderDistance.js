@@ -7,7 +7,7 @@
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is a page with a header. ");
-paragraph.AddText("Scroll down the page to see it.");
+paragraph.AddText("Scroll up the page to see it.");
 let section = doc.GetFinalSection();
 let header = section.GetHeader("default", true);
 section.SetHeaderDistance(1440);

@@ -5,5 +5,9 @@
 // Create the form data with the "text" form type and set it to the first form in the document.
 
 const formSpecificType = "text";
-const formData = {"key": "CompanyName", "value": "ONLYOFFICE", "type": formSpecificType};
+const formData = {
+	"key": "CompanyName",
+	"value": "ONLYOFFICE",
+	"type": formSpecificType
+};
 doc.SetFormsData([formData]);

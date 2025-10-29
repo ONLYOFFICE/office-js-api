@@ -7,8 +7,8 @@ const slideMaster = presentation.GetMaster(0);
 slideMaster.RemoveObject(0, slideMaster.GetAllDrawings().length);
 
 const oleObject1 = Api.CreateOleObject(
-	'https://api.onlyoffice.com/img/logo.svg',
-	174 * 36000, 38 * 36000,
+	'https://static.onlyoffice.com/assets/docs/samples/img/onlyoffice_logo.png',
+	150 * 36000, 150 * 36000,
 	'https://youtu.be/SKGz4pmnpgY',
 	'asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}'
 );

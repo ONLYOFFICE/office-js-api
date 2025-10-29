@@ -6,5 +6,8 @@
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
-let image = Api.CreateImage("https://static.onlyoffice.com/assets/docs/samples/img/onlyoffice_logo.png", 215 * 36000, 200 * 36000);
+let image = Api.CreateImage(
+	'https://static.onlyoffice.com/assets/docs/samples/img/onlyoffice_logo.png',
+	215 * 36000, 200 * 36000
+);
 paragraph.AddDrawing(image);

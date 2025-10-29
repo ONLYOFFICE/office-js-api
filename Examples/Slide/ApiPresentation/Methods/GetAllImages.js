@@ -6,7 +6,7 @@ slide.RemoveAllObjects();
 
 const copiesCount = 3;
 for (let i = 0; i < copiesCount; i++) {
-	const imageSource = 'https://api.onlyoffice.com/img/logo.svg';
+	const imageSource = 'https://static.onlyoffice.com/assets/docs/samples/img/onlyoffice_logo.png';
 	const drawing = Api.CreateImage(imageSource, 174 * 36000, 38 * 36000);
 	drawing.SetPosition(0, i * 38 * 36000);
 	slide.AddObject(drawing);

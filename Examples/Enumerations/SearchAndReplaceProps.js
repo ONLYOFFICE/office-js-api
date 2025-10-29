@@ -4,4 +4,7 @@
 
 // Search a text and replace it with another text.
 
-doc.SearchAndReplace({"searchString": "first", "replaceString": "second"});
+doc.SearchAndReplace({
+	"searchString": "first",
+	"replaceString": "second"
+});

@@ -4,5 +4,13 @@
 
 // Create the base properties and apply them to the ApiComboBoxForm object.
 
-let comboBoxFormPr = {"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]};
+let comboBoxFormPr = {
+	"key": "Personal information",
+	"tip": "Choose your country",
+	"required": true,
+	"placeholder": "Country",
+	"editable": false,
+	"autoFit": false,
+	"items": ["Latvia", "USA", "UK"]
+};
 let comboBoxForm = Api.CreateComboBoxForm(comboBoxFormPr);
