@@ -4,7 +4,7 @@ let pictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "
 pictureForm.SetTag("Personal");
 let paragraph = doc.GetElement(0);
 paragraph.AddElement(pictureForm);
-pictureForm.SetImage("https://static.onlyoffice.com/assets/docs/samples/img/onlyoffice_logo.png");
+pictureForm.SetImage("https://static.onlyoffice.com/assets/docs/samples/img/onlyoffice_logo.png", 70 * 36000, 80 * 36000);
 let tag = pictureForm.GetTag();
 paragraph = Api.CreateParagraph();
 paragraph.AddText("Form tag: " + tag);
