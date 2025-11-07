@@ -2,7 +2,7 @@
 
 // How to find out whether the borders of the image are respected.
 
-// Find out whether the borders of the first picture form in this document are respected when scaling the image.
+// Find out whether the borders of the picture form in this document are respected when scaling the image.
 
 let doc = Api.GetDocument();
 let pictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "shiftX": 50, "shiftY": 50});
@@ -12,5 +12,5 @@ pictureForm.SetImage("https://static.onlyoffice.com/assets/docs/samples/img/only
 pictureForm.SetRespectBorders(true);
 let respectBorders = pictureForm.IsRespectBorders();
 paragraph = Api.CreateParagraph();
-paragraph.AddText("The borders of the first picture form in this document are respected when scaling the image: " + respectBorders);
+paragraph.AddText("The borders of the picture form in this document are respected when scaling the image: " + respectBorders);
 doc.Push(paragraph);

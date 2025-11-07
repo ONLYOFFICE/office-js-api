@@ -1,6 +1,6 @@
 // This example locks the aspect ratio of the picture form.
 
-// How to lock an aspect ratio of the first picture form in this document.
+// How to lock an aspect ratio of the picture form in this document.
 
 // Lock the aspect ratio of the picture form.
 
@@ -12,5 +12,5 @@ pictureForm.SetImage("https://static.onlyoffice.com/assets/docs/samples/img/only
 pictureForm.SetLockAspectRatio(true);
 let lock = pictureForm.IsLockAspectRatio();
 paragraph = Api.CreateParagraph();
-paragraph.AddText("The aspect ratio of the first picture form in this document is locked: " + lock);
+paragraph.AddText("The aspect ratio of the picture form in this document is locked: " + lock);
 doc.Push(paragraph);

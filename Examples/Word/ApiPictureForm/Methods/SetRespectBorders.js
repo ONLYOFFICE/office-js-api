@@ -12,5 +12,5 @@ pictureForm.SetImage("https://static.onlyoffice.com/assets/docs/samples/img/only
 pictureForm.SetRespectBorders(true);
 let respectBorders = pictureForm.IsRespectBorders();
 paragraph = Api.CreateParagraph();
-paragraph.AddText("The borders of the first picture form in this document are respected when scaling the image: " + respectBorders);
+paragraph.AddText("The borders of the picture form in this document are respected when scaling the image: " + respectBorders);
 doc.Push(paragraph);
