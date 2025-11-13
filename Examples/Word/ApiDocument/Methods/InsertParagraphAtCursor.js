@@ -7,5 +7,5 @@ let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is the first paragraph.");
 doc.MoveCursorRight(6, false, true);
-doc.EnterParagraph();
+doc.InsertParagraphAtCursor();
 doc.EnterText("This is the second paragraph.");
