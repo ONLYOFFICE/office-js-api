@@ -10,7 +10,7 @@ let inlineLvlSdt = Api.CreateInlineLvlSdt();
 paragraph.AddInlineLvlSdt(inlineLvlSdt);
 let run = Api.CreateRun();
 run.AddText("This is an inline text content control with a label set to it.");
-inlineLvlSdt.SetLabel("2147483647");
+inlineLvlSdt.SetLabel(2147483647);
 inlineLvlSdt.AddElement(run, 0);
 let label = inlineLvlSdt.GetLabel();
 paragraph = Api.CreateParagraph();
