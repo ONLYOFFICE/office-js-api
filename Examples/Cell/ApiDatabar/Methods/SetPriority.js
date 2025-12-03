@@ -16,7 +16,7 @@ let formatConditions = dataRange.GetFormatConditions();
 let dataBar1 = formatConditions.AddDatabar();
 let dataBar2 = formatConditions.AddDatabar();
 
-dataBar2.SetPriority(1);
+dataBar2.SetPriority(3);
 
 let priority = dataBar2.GetPriority();
 

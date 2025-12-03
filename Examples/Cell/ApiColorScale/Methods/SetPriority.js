@@ -23,7 +23,7 @@ let colorScale2 = formatConditions.AddColorScale();
 worksheet.GetRange("C1").SetValue("Priority before:");
 worksheet.GetRange("C2").SetValue(colorScale1.GetPriority());
 
-colorScale1.SetPriority(2);
+colorScale1.SetPriority(3);
 
 worksheet.GetRange("D1").SetValue("Priority after:");
 worksheet.GetRange("D2").SetValue(colorScale1.GetPriority());
