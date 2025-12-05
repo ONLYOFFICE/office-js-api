@@ -6,5 +6,8 @@
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is the text in your document.");
-doc.MoveCursorRight(6, true, true);
-doc.MoveCursorLeft(2, false, false);
+doc.MoveCursorRight(12);
+
+paragraph = Api.CreateParagraph();
+paragraph.AddText(doc.GetCurrentWord());
+doc.Push(paragraph);
