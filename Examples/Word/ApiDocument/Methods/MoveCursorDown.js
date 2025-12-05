@@ -2,15 +2,18 @@
 
 // How to move the cursor down by a specified number of lines.
 
-// Create multiple paragraphs and move cursor down with selection.
+// Create multiple paragraphs and move cursor.
 let doc = Api.GetDocument();
 const paragraphCount = 5;
-for (let i = 1; i < paragraphCount; i++) {
+for (let i = 0; i < paragraphCount; i++) {
     const newParagraph = Api.CreateParagraph();
     newParagraph.AddText("This is " + (i + 1) + " paragraph.");
     doc.Push(newParagraph);
 }
 
-doc.ForceRecalculate();
-doc.MoveCursorDown(3, false, false);
-doc.MoveCursorUp(1, true, true);
+doc.MoveCursorDown(3);
+
+let paragraph = Api.CreateParagraph();
+paragraph.AddText("Current line is: ");
+paragraph.AddText(doc.GetCurrentSentence());
+doc.Push(paragraph);
