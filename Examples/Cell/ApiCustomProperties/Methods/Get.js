@@ -8,7 +8,7 @@ customProps.Add("ExistingProp", "#123456");
 const existingProp = customProps.Get("ExistingProp");
 const nonExistentProp = customProps.Get("NonExistentProp");
 
-let fill = Api.CreateSolidFill(Api.CreateRGBColor(0, 100, 200));
+let fill = Api.CreateSolidFill(Api.RGB(0, 100, 200));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = worksheet.AddShape(
 	"rect",

@@ -15,14 +15,14 @@ const colorScheme = Api.CreateThemeColorScheme([
 	Api.CreateRGBColor(65, 105, 225), Api.CreateRGBColor(255, 255, 255), Api.CreateRGBColor(255, 213, 191)
 ], "New color scheme");
 
-const gs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);
-const gs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);
+const gs1 = Api.CreateGradientStop(Api.RGB(255, 213, 191), 0);
+const gs2 = Api.CreateGradientStop(Api.RGB(255, 111, 61), 100000);
 const fill1 = Api.CreateRadialGradientFill([gs1, gs2]);
-const fill2 = Api.CreatePatternFill("dashDnDiag", Api.CreateRGBColor(255, 111, 61), Api.CreateRGBColor(51, 51, 51));
-const fill3 = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+const fill2 = Api.CreatePatternFill("dashDnDiag", Api.RGB(255, 111, 61), Api.RGB(51, 51, 51));
+const fill3 = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 const bgFill1 = Api.CreateRadialGradientFill([gs1, gs2]);
-const bgFill2 = Api.CreatePatternFill("dashDnDiag", Api.CreateRGBColor(255, 111, 61), Api.CreateRGBColor(51, 51, 51));
-const bgFill3 = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+const bgFill2 = Api.CreatePatternFill("dashDnDiag", Api.RGB(255, 111, 61), Api.RGB(51, 51, 51));
+const bgFill3 = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 const stroke1 = Api.CreateStroke(0, fill2);
 const stroke2 = Api.CreateStroke(0, Api.CreateRGBColor(51, 51, 51));
 const stroke3 = Api.CreateStroke(0, fill1);
@@ -44,9 +44,9 @@ chart.SetTitle("Financial Overview", 20);
 chart.SetSize(300 * 36000, 130 * 36000);
 chart.SetPosition(608400, 1267200);
 
-let fill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
+let fill = Api.CreateSolidFill(Api.RGB(51, 51, 51));
 chart.SetSeriesFill(fill, 0, false);
-fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 chart.SetSeriesFill(fill, 1, false);
 
 slide.RemoveAllObjects();

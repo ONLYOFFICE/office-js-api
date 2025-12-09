@@ -8,7 +8,7 @@ const selection = Api.GetSelection();
 let type = selection.GetType();
 let text = 'Type: ' + type + ' (no selection scenario)\n';
 
-const fill = Api.CreateSolidFill(Api.CreateRGBColor(0, 0, 0));
+const fill = Api.CreateSolidFill(Api.RGB(0, 0, 0));
 const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = Api.CreateShape('rect', 200 * 36000, 10 * 36000, fill, stroke);
 slide.AddObject(shape);
@@ -29,7 +29,7 @@ text += 'Type: ' + type + ' (text selected scenario)\n';
 
 */
 
-const outShapeFill = Api.CreateSolidFill(Api.CreateRGBColor(50, 70, 180));
+const outShapeFill = Api.CreateSolidFill(Api.RGB(50, 70, 180));
 const outShapeStroke = Api.CreateStroke(0, Api.CreateNoFill());
 const outShape = Api.CreateShape('rect', 200 * 36000, 30 * 36000, outShapeFill, outShapeStroke);
 outShape.SetPosition(0, 20 * 36000);

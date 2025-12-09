@@ -6,7 +6,7 @@
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
-let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 let textPr = doc.GetDefaultTextPr();
 textPr.SetFill(fill);
 paragraph.AddText("This is a text run with the font color set to orange.");

@@ -18,7 +18,7 @@ customProps.Add("BirthDate", new Date("20 January 2000"));
 const birthDate = new Date(customProps.Get("BirthDate"));
 const isOfLegalAge = (new Date().getFullYear() - birthDate.getFullYear()) >= 18;
 
-const fill = Api.CreateSolidFill(Api.CreateRGBColor(150, 200, 150));
+const fill = Api.CreateSolidFill(Api.RGB(150, 200, 150));
 const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = Api.CreateShape('rect', 300 * 36000, 150 * 36000, fill, stroke);
 const slide = presentation.GetSlideByIndex(0);

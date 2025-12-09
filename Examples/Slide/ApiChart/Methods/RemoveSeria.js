@@ -16,6 +16,6 @@ chart.SetSize(300 * 36000, 130 * 36000);
 chart.SetPosition(608400, 1267200);
 chart.RemoveSeria(1);
 chart.SetTitle("The Estimated Costs series was removed from the current chart.");
-const fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+const fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 chart.SetSeriesFill(fill, 0, false);
 slide.AddObject(chart);

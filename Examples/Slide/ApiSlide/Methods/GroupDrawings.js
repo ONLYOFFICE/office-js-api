@@ -7,8 +7,8 @@
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);
 
-const fill1 = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-const fill2 = Api.CreateSolidFill(Api.CreateRGBColor(111, 255, 61));
+const fill1 = Api.CreateSolidFill(Api.RGB(255, 111, 61));
+const fill2 = Api.CreateSolidFill(Api.RGB(111, 255, 61));
 const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape1 = Api.CreateShape("flowChartMagneticTape", 150 * 36000, 60 * 36000, fill1, stroke);
 const shape2 = Api.CreateShape("flowChartMagneticTape", 150 * 36000, 60 * 36000, fill2, stroke);
