@@ -21,10 +21,10 @@ let criteria = colorScale.GetColorScaleCriteria();
 
 if (criteria && criteria.length > 0) {
     worksheet.GetRange("C1").SetValue("Before:");
-    worksheet.GetRange("C2").SetValue(criteria[0].GetType());
+    worksheet.GetRange("C2").SetValue(criteria[1].GetType());
     
-    criteria[0].SetType("xlConditionValuePercent");
+    criteria[1].SetType("xlConditionValuePercent");
     
     worksheet.GetRange("C3").SetValue("After:");
-    worksheet.GetRange("C4").SetValue(criteria[0].GetType());
+    worksheet.GetRange("C4").SetValue(criteria[1].GetType());
 }
