@@ -4,8 +4,7 @@ const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);
 
 const transition = Api.CreateSlideShowTransition();
-transition.SetType('push');
-transition.SetOption('right');
+transition.SetEntryEffect('effectRandom');
 transition.SetSpeed('fast');
 transition.SetAdvanceOnClick(true);
 slide.SetSlideShowTransition(transition);
@@ -18,5 +17,5 @@ const shape = Api.CreateShape(
 );
 const content = shape.GetDocContent();
 const paragraph = content.GetElement(0);
-paragraph.AddText('Transition parameters: push right, fast speed, advance on click');
+paragraph.AddText('Transition parameters: random effect, fast speed, advance on click');
 slide.AddObject(shape);

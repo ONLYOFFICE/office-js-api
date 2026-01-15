@@ -4,8 +4,7 @@ const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);
 
 const transition = Api.CreateSlideShowTransition();
-transition.SetType('wipe');
-transition.SetOption('right');
+transition.SetEntryEffect('effectWipeRight');
 transition.SetSpeed('medium');
 transition.SetAdvanceOnTime(true);
 transition.SetAdvanceTime(3000);

@@ -1,14 +1,11 @@
-// This example enables advancing to the next slide on mouse click.
+// This example sets the entry effect for a slide show transition.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);
 
 const transition = Api.CreateSlideShowTransition();
-transition.SetEntryEffect('effectCoverLeft');
+transition.SetEntryEffect('effectCoverLeftDown');
 transition.SetSpeed('medium');
-transition.SetAdvanceOnClick(false);
-transition.SetAdvanceOnTime(true);
-transition.SetAdvanceTime(5000);
 
 slide.SetSlideShowTransition(transition);
 
@@ -20,5 +17,5 @@ const shape = Api.CreateShape(
 );
 const content = shape.GetContent();
 const paragraph = content.GetElement(0);
-paragraph.AddText('Advance On Click set to false. Slide will advance automatically after 5 seconds.');
+paragraph.AddText('Entry Effect: effectCoverLeftDown');
 slide.AddObject(shape);

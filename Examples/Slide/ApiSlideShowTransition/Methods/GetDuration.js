@@ -4,8 +4,7 @@ const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);
 
 const transition = Api.CreateSlideShowTransition();
-transition.SetType('push');
-transition.SetOption('right');
+transition.SetEntryEffect('effectPushRight');
 transition.SetDuration(3300);
 slide.SetSlideShowTransition(transition);
 

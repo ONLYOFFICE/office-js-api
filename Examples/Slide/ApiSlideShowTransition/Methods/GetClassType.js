@@ -1,24 +1,22 @@
-// This example gets the advance on click setting and displays it.
+// This example gets a class type and pastes it into the presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);
+slide.RemoveAllObjects();
 
 const transition = Api.CreateSlideShowTransition();
 transition.SetEntryEffect('effectFade');
 transition.SetSpeed('medium');
-transition.SetAdvanceOnClick(true);
 slide.SetSlideShowTransition(transition);
 
 const retrievedTransition = slide.GetSlideShowTransition();
-const advanceOnClick = retrievedTransition.GetAdvanceOnClick();
+const classType = retrievedTransition.GetClassType();
 
-const shape = Api.CreateShape(
-	'rect',
-	250 * 36000, 50 * 36000,
-	Api.CreateSolidFill(Api.HexColor('#61cbd1')),
-	Api.CreateStroke(0, Api.CreateNoFill())
-);
+const fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
+const stroke = Api.CreateStroke(0, Api.CreateNoFill());
+const shape = Api.CreateShape('rect', 300 * 36000, 130 * 36000, fill, stroke);
+
 const content = shape.GetContent();
 const paragraph = content.GetElement(0);
-paragraph.AddText('Advance On Click: ' + advanceOnClick);
+paragraph.AddText("Class Type = " + classType);
 slide.AddObject(shape);

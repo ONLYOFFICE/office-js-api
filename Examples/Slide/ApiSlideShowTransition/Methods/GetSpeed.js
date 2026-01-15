@@ -4,8 +4,7 @@ const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);
 
 const transition = Api.CreateSlideShowTransition();
-transition.SetType('clock');
-transition.SetOption('clockClockwise');
+transition.SetEntryEffect('effectWheelReverse1Spoke');
 transition.SetDuration(5000);
 slide.SetSlideShowTransition(transition);
 
@@ -20,5 +19,5 @@ const shape = Api.CreateShape(
 );
 const content = shape.GetContent();
 const paragraph = content.GetElement(0);
-paragraph.AddText('Transition Speed is ' + transitionSpeed + ' (>5000ms)');
+paragraph.AddText('Transition Speed is ' + transitionSpeed);
 slide.AddObject(shape);

@@ -8,8 +8,7 @@ const fill = Api.CreateSolidFill(Api.RGB(250, 180, 100));
 slide.SetBackground(fill);
 
 const transition = Api.CreateSlideShowTransition();
-transition.SetType('fade');
-transition.SetOption('fadeSmoothly');
+transition.SetEntryEffect('effectSplitVerticalIn');
 transition.SetSpeed('medium');
 transition.SetAdvanceOnTime(true);
 transition.SetAdvanceTime(3000);

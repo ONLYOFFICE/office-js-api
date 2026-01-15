@@ -4,14 +4,12 @@ const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);
 
 const transition = Api.CreateSlideShowTransition();
-transition.SetType('wipe');
-transition.SetOption('left');
+transition.SetEntryEffect('effectUncoverRight');
 transition.SetSpeed('medium');
 slide.SetSlideShowTransition(transition);
 
 const retrievedTransition = slide.GetSlideShowTransition();
-const transitionType = retrievedTransition.GetType();
-const transitionOption = retrievedTransition.GetOption();
+const transitionEffect = retrievedTransition.GetEntryEffect();
 const transitionSpeed = retrievedTransition.GetSpeed();
 
 const shape = Api.CreateShape(
@@ -22,9 +20,6 @@ const shape = Api.CreateShape(
 );
 const content = shape.GetDocContent();
 const paragraph = content.GetElement(0);
-paragraph.AddText('Transition Type: ' + transitionType);
-paragraph.AddLineBreak();
-paragraph.AddText('Option: ' + transitionOption);
-paragraph.AddLineBreak();
+paragraph.AddText('Effect: ' + transitionEffect + '\n');
 paragraph.AddText('Speed: ' + transitionSpeed);
 slide.AddObject(shape);

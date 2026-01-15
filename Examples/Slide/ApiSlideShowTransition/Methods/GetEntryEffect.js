@@ -1,24 +1,23 @@
-// This example gets the transition type and displays it.
+// This example gets the entry effect from a slide show transition.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);
 
 const transition = Api.CreateSlideShowTransition();
-transition.SetType('split');
-transition.SetOption('splitVerticalIn');
+transition.SetEntryEffect('effectUncoverRight');
 transition.SetSpeed('medium');
 slide.SetSlideShowTransition(transition);
 
 const retrievedTransition = slide.GetSlideShowTransition();
-const transitionType = retrievedTransition.GetType();
+const entryEffect = retrievedTransition.GetEntryEffect();
 
 const shape = Api.CreateShape(
 	'rect',
-	200 * 36000, 50 * 36000,
-	Api.CreateSolidFill(Api.HexColor('#61cbd1')),
+	300 * 36000, 50 * 36000,
+	Api.CreateSolidFill(Api.HexColor('#ff9447')),
 	Api.CreateStroke(0, Api.CreateNoFill())
 );
 const content = shape.GetContent();
 const paragraph = content.GetElement(0);
-paragraph.AddText('Transition Type: ' + transitionType);
+paragraph.AddText('Entry Effect: ' + entryEffect);
 slide.AddObject(shape);

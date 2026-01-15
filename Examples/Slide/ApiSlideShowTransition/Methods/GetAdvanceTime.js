@@ -4,8 +4,7 @@ const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);
 
 const transition = Api.CreateSlideShowTransition();
-transition.SetType('push');
-transition.SetOption('left');
+transition.SetEntryEffect('effectPushLeft');
 transition.SetSpeed('fast');
 transition.SetAdvanceOnTime(true);
 transition.SetAdvanceTime(2500);
