@@ -1,3 +1,8 @@
+// This example demonstrates relative height shape sizing to page dimensions.
+
+// How to set shape width and height as percentages of the page.
+
+// Create a responsive rectangle that scales with page size.
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(91, 155, 213));
