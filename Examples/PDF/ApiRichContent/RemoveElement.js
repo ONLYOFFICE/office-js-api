@@ -1,0 +1,16 @@
+// This example removes an element from rich content.
+let doc = Api.GetDocument();
+let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
+let page = doc.GetPage(0);
+page.AddAnnot(freeTextAnnot);
+freeTextAnnot.SetIntent("freeTextCallout");
+freeTextAnnot.SetCallout([{x: 161, y: 51}, {x: 249, y: 125}, {x: 261, y: 125}]);
+freeTextAnnot.SetRectDiff([100, 64, 0.5, 0.5]);
+
+let richContent = freeTextAnnot.GetContent();
+let para = Api.CreateRichParagraph();
+para.AddText("Example text");
+richContent.Push(para);
+richContent.RemoveElement(0);
+
+console.log(`We removed first paragraph from content`);

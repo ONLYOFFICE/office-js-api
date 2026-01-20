@@ -3,5 +3,5 @@ let doc = Api.GetDocument();
 let squareAnnot = Api.CreateSquareAnnot([10, 10, 160, 32]);
 let page = doc.GetPage(0);
 page.AddAnnot(squareAnnot);
-squareAnnot.SetFillColor(Api.CreateRGBColor(255, 0, 0));
+squareAnnot.SetFillColor(Api.RGB(255, 0, 0));
 squareAnnot.SetOpacity(50);

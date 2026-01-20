@@ -4,7 +4,7 @@ let textField = doc.AddTextField(0, [10, 10, 160, 30]);
 textField.SetValue('Example text');
 textField.AddWidget(0, [10, 40, 160, 60]);
 let widgets = textField.GetAllWidgets();
-let rgbColor = Api.CreateRGBColor(255, 100, 0);
+let rgbColor = Api.RGB(255, 100, 0);
 widgets.forEach(function(widget) {
     widget.SetTextColor(rgbColor);
     widget.SetTextSize(15);
