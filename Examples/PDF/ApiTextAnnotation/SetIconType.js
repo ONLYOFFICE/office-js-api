@@ -7,5 +7,5 @@ textAnnot.SetIconType("star");
 let newIcon = textAnnot.GetIconType();
 
 let page = doc.GetPage(0);
-page.AddAnnot(textAnnot);
+page.AddObject(textAnnot);
 console.log(`Changed icon from: ${oldIcon} to ${newIcon}`);

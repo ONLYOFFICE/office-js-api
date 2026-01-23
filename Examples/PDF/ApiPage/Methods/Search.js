@@ -3,5 +3,5 @@ let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 let quads = page.Search({text: "Lorem", matchCase: false, wholeWords: false});
 let annot = Api.CreateHighlightAnnot(quads);
-page.AddAnnot(annot);
+page.AddObject(annot);
 console.log('We added a highlight annotations searched word');

@@ -2,4 +2,4 @@
 let doc = Api.GetDocument();
 let stampAnnot = Api.CreateStampAnnot([40, 40, 100, 100], 'SB_Approved');
 let page = doc.GetPage(0);
-page.AddAnnot(stampAnnot);
+page.AddObject(stampAnnot);

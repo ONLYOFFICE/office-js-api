@@ -6,5 +6,5 @@ polylineAnnot.SetBorderColor(Api.RGB(255, 0, 0));
 let newVertices = [{x: 100, y: 10}, {x: 150, y: 50}, {x: 50, y: 50}];
 polylineAnnot.SetVertices(newVertices)
 let page = doc.GetPage(0);
-page.AddAnnot(polylineAnnot);
+page.AddObject(polylineAnnot);
 console.log(`We set vertices to polyline annotation`);

@@ -5,5 +5,5 @@ let polylineAnnot = Api.CreatePolyLineAnnot([40, 5, 160, 110], vertices);
 polylineAnnot.SetBorderColor(Api.RGB(255, 0, 0));
 polylineAnnot.SetStartStyle("circle");
 let page = doc.GetPage(0);
-page.AddAnnot(polylineAnnot);
+page.AddObject(polylineAnnot);
 console.log(`We set line start style to: ${polylineAnnot.GetStartStyle()}`);

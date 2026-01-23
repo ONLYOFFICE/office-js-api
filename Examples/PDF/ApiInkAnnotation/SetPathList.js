@@ -5,5 +5,5 @@ let inkAnnot = Api.CreateInkAnnot([10, 10, 160, 32], inkPaths);
 inkAnnot.SetBorderColor(Api.RGB(255, 0, 0));
 inkAnnot.SetPathList([[{x: 10, y: 10}, {x: 50, y: 50}]]);
 let page = doc.GetPage(0);
-page.AddAnnot(inkAnnot);
+page.AddObject(inkAnnot);
 console.log("We set path list to ink annot");

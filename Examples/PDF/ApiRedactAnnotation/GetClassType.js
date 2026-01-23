@@ -2,5 +2,5 @@
 let doc = Api.GetDocument();
 let redactAnnot = Api.CreateRedactAnnot([84, 60, 231, 70]);
 let page = doc.GetPage(0);
-page.AddAnnot(redactAnnot);
+page.AddObject(redactAnnot);
 console.log(`Annot class type is: ${redactAnnot.GetClassType()}`);

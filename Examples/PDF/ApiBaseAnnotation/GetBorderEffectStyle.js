@@ -5,5 +5,5 @@ squareAnnot.SetBorderEffectStyle("cloud");
 squareAnnot.SetBorderEffectIntensity(1);
 
 let page = doc.GetPage(0);
-page.AddAnnot(squareAnnot);
+page.AddObject(squareAnnot);
 console.log(`Annotation border effect style is: ${squareAnnot.GetBorderEffectStyle()}`);

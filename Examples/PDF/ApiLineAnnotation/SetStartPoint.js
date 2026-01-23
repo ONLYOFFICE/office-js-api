@@ -4,5 +4,5 @@ let lineAnnot = Api.CreateLineAnnot([10, 10, 160, 32], {x: 12, y: 12}, {x: 155, 
 lineAnnot.SetEndStyle("openArrow");
 lineAnnot.SetStartPoint({x: 20, y: 20});
 let page = doc.GetPage(0);
-page.AddAnnot(lineAnnot);
+page.AddObject(lineAnnot);
 console.log(`Start point set to: ${lineAnnot.GetEndPoint()}`);

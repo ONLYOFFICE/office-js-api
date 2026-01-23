@@ -4,5 +4,5 @@ let textAnnot = Api.CreateTextAnnot([10, 10, 20, 20]);
 textAnnot.SetContents("Annot contents");
 
 let page = doc.GetPage(0);
-page.AddAnnot(textAnnot);
+page.AddObject(textAnnot);
 console.log(`Text annot icon type is: ${textAnnot.GetIconType()}`);

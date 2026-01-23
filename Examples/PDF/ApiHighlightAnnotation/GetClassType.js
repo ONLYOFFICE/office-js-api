@@ -2,5 +2,5 @@
 let doc = Api.GetDocument();
 let highlightAnnot = Api.CreateHighlightAnnot([84, 55, 231, 72]);
 let page = doc.GetPage(0);
-page.AddAnnot(highlightAnnot);
+page.AddObject(highlightAnnot);
 console.log(`Annot class type is: ${highlightAnnot.GetClassType()}`);

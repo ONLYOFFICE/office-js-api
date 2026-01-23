@@ -3,5 +3,5 @@ let doc = Api.GetDocument();
 let squareAnnot = Api.CreateSquareAnnot([10, 10, 160, 32]);
 squareAnnot.SetSubject("Annot subject");
 let page = doc.GetPage(0);
-page.AddAnnot(squareAnnot);
+page.AddObject(squareAnnot);
 console.log(`Annotation subject is: ${squareAnnot.GetSubject()}`);
