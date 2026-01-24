@@ -1,6 +1,6 @@
 # Office JavaScript APIs
 
-**Office JavaScript APIs: Tools for building [macros](https://api.onlyoffice.com/plugin/macros), [plugins](https://api.onlyoffice.com/plugin/developing), and interacting with [ONLYOFFICE document content](https://api.onlyoffice.com/docbuilder/basic), [Automation API](https://api.onlyoffice.com/editors/connector) and web services.**
+**Office JavaScript APIs: Tools for building [macros](https://api.onlyoffice.com/docs/plugin-and-macros/macros/getting-started/), [plugins](https://api.onlyoffice.com/docs/plugin-and-macros/tutorials/developing/for-web-editors/), and interacting with [ONLYOFFICE document content](https://api.onlyoffice.com/docs/document-builder/get-started/overview/), [Automation API](https://api.onlyoffice.com/docs/docs-api/usage-api/automation-api/) and web services.**
 
 The Office JavaScript APIs provide a robust set of objects and methods designed to enhance the functionality of ONLYOFFICE editors. These APIs enable developers to create powerful macros, build custom plugins, and integrate with web services, extending the capabilities of the ONLYOFFICE suite.
 
