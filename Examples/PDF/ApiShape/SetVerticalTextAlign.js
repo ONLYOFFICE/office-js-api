@@ -1,0 +1,20 @@
+// How to set vertical alignment of the shape content.
+
+// Adjust vertical alignment of the text inside the shape.
+
+const doc = Api.GetDocument();
+const page = doc.GetPage(0);
+
+const fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+const stroke = Api.CreateStroke(0, Api.CreateNoFill());
+const shape = Api.CreateShape("flowChartOnlineStorage", 425, 184, fill, stroke);
+shape.SetPosition(48, 100);
+
+const docContent = shape.GetContent();
+shape.SetVerticalTextAlign("bottom");
+const paragraph = Api.CreateParagraph();
+paragraph.SetJc("left");
+paragraph.AddText("We removed all elements from the shape and added a new paragraph inside it ");
+paragraph.AddText("aligning it vertically by the bottom.");
+docContent.Push(paragraph);
+page.AddObject(shape);
