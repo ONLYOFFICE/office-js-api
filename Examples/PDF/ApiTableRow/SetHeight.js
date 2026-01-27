@@ -7,6 +7,6 @@ const page = doc.GetPage(0);
 
 const table = Api.CreateTable(2, 4);
 const row = table.GetRow(0);
-row.SetHeight(85);
+row.SetHeight(30 * 36000);
 
 page.AddObject(table);
