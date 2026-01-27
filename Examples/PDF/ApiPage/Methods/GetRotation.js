@@ -3,4 +3,4 @@ let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 let textField = doc.AddTextField([10, 10, 160, 32]);
 page.AddObject(textField);
-textField.SetValue('Page rotate is: ' + page.GetRotate());
+textField.SetValue('Page rotate is: ' + page.GetRotation());

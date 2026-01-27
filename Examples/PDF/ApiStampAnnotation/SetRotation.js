@@ -5,4 +5,4 @@ stampAnnot.SetScale(0.5);
 stampAnnot.SetRotation(180);
 let page = doc.GetPage(0);
 page.AddObject(stampAnnot);
-console.log(`We set rotate angle to: ${stampAnnot.GetRotate()} for stamp annotation`);
+console.log(`We set rotate angle to: ${stampAnnot.GetRotation()} for stamp annotation`);
