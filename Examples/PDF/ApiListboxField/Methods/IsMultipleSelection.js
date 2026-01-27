@@ -1,6 +1,9 @@
 // This example gets multiple selection property from listbox field.
 let doc = Api.GetDocument();
-let listboxField = doc.AddListboxField(0, [10, 10, 160, 100]);
+let page = doc.GetPage(0);
+let listboxField = doc.AddListboxField([10, 10, 160, 100]);
+page.AddObject(listboxField);
+
 listboxField.AddOption('Option 1');
 listboxField.AddOption('Option 2');
 listboxField.AddOption('Option 3');

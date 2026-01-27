@@ -1,5 +1,8 @@
 // This example sets placeholder for text widget.
 let doc = Api.GetDocument();
-let comboboxField = doc.AddComboboxField(0, [10, 10, 160, 30]);
+let page = doc.GetPage(0);
+let comboboxField = Api.CreateComboboxField([10, 10, 160, 30]);
+page.AddObject(comboboxField);
+
 let widgets = comboboxField.GetAllWidgets();
 widgets[0].SetPlaceholder('Your text here');
