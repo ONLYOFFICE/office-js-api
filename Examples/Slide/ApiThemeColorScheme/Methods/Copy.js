@@ -37,16 +37,16 @@ const slide2 = Api.CreateSlide();
 slide2.RemoveAllObjects();
 presentation.AddSlide(slide2);
 
-const gs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);
-const gs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);
+const gs1 = Api.CreateGradientStop(Api.RGB(255, 213, 191), 0);
+const gs2 = Api.CreateGradientStop(Api.RGB(255, 111, 61), 100000);
 const fill1 = Api.CreateRadialGradientFill([gs1, gs2]);
 const bgFill1 = Api.CreateRadialGradientFill([gs1, gs2]);
 const stroke1 = Api.CreateStroke(1 * 36000, fill1);
-const fill2 = Api.CreatePatternFill("dashDnDiag", Api.CreateRGBColor(255, 111, 61), Api.CreateRGBColor(51, 51, 51));
-const bgFill2 = Api.CreatePatternFill("dashDnDiag", Api.CreateRGBColor(255, 111, 61), Api.CreateRGBColor(51, 51, 51));
+const fill2 = Api.CreatePatternFill("dashDnDiag", Api.RGB(255, 111, 61), Api.RGB(51, 51, 51));
+const bgFill2 = Api.CreatePatternFill("dashDnDiag", Api.RGB(255, 111, 61), Api.RGB(51, 51, 51));
 const stroke2 = Api.CreateStroke(1 * 36000, fill2);
-const fill3 = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-const bgFill3 = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+const fill3 = Api.CreateSolidFill(Api.RGB(255, 111, 61));
+const bgFill3 = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 const stroke3 = Api.CreateStroke(1 * 36000, fill3);
 
 const formatScheme = Api.CreateThemeFormatScheme([fill1, fill2, fill3], [bgFill1, bgFill2, bgFill3], [stroke1, stroke2, stroke3], "New format scheme");

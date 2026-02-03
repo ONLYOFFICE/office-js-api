@@ -18,7 +18,7 @@ table.GetRow(1).GetCell(1).GetContent().GetCurrentParagraph().AddText('8.27');
 table.GetRow(1).GetCell(2).GetContent().GetCurrentParagraph().AddText('80.14');
 master.AddObject(table);
 
-const fillColor = Api.CreateRGBColor(100, 100, 200);
+const fillColor = Api.RGB(100, 100, 200);
 const fill = Api.CreateSolidFill(fillColor);
 const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = Api.CreateShape("rect", 250 * 36000, 50 * 36000, fill, stroke);

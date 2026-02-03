@@ -15,7 +15,7 @@ let numberValue = customProps.Get("MyNumberProperty");
 let dateValue = customProps.Get("MyDateProperty");
 let boolValue = customProps.Get("MyBoolProperty");
 
-let fill = Api.CreateSolidFill(Api.CreateRGBColor(0, 100, 200));
+let fill = Api.CreateSolidFill(Api.RGB(0, 100, 200));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = Api.CreateShape("rect", 200 * 36000, 100 * 36000, fill, stroke);
 let docContent = shape.GetDocContent();

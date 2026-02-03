@@ -7,7 +7,7 @@
 let doc = Api.GetDocument();
 let paragraph = Api.CreateParagraph();
 let blockLvlSdt = Api.CreateBlockLvlSdt();
-let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());
 let drawing = Api.CreateShape("rect", 3212465, 963295, fill, stroke);
 paragraph.AddDrawing(drawing);

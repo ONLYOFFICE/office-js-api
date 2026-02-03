@@ -4,9 +4,12 @@
 
 // How to create a pattern fill for the ApiShape object background.
 
-let doc = Api.GetDocument();
-let paragraph = doc.GetElement(0);
-let fill = Api.CreatePatternFill("dashDnDiag", Api.CreateRGBColor(255, 111, 61), Api.CreateRGBColor(51, 51, 51));
-let stroke = Api.CreateStroke(0, Api.CreateNoFill());
-let shape = Api.CreateShape("rect", 5930900, 395605, fill, stroke);
+const bgColor = Api.HexColor('#abcdef');
+const fgColor = Api.ThemeColor('accent3');
+const fill = Api.CreatePatternFill('dashDnDiag', bgColor, fgColor);
+const stroke = Api.CreateStroke(0, Api.CreateNoFill());
+const shape = Api.CreateShape("rect", 5930900, 395605, fill, stroke);
+
+const doc = Api.GetDocument();
+const paragraph = doc.GetElement(0);
 paragraph.AddDrawing(shape);

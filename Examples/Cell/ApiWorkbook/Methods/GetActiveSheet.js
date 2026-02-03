@@ -6,8 +6,8 @@ const worksheet = workbook.GetActiveSheet();
 worksheet.SetName('not-an-easter-egg');
 const worksheetName = worksheet.GetName();
 
-const lightGreen = Api.CreateRGBColor(16, 121, 63);
-const darkGreen = Api.CreateRGBColor(24, 92, 55);
+const lightGreen = Api.RGB(16, 121, 63);
+const darkGreen = Api.RGB(24, 92, 55);
 const fill = Api.CreateSolidFill(lightGreen);
 const stroke = Api.CreateStroke(2, Api.CreateSolidFill(darkGreen));
 let shape = worksheet.AddShape(
