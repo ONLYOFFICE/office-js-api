@@ -1,8 +1,8 @@
-// This example sets the font size to the horizontal axis labels.
+// This example specifies the font size to the vertical axis labels.
 
-// How to update font size of the horizontal axis labels.
+// How to change a font size of the vertical axis labels.
 
-// Change the size of the horizontal axis labels of the chart.
+// Resize a font size of the vertical axis labels.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);
@@ -18,7 +18,7 @@ worksheet.GetRange("D2").SetValue(280);
 worksheet.GetRange("D3").SetValue(280);
 let chart = worksheet.AddChart("'Sheet1'!$A$1:$D$3", true, "bar3D", 2, 100 * 36000, 70 * 36000, 0, 2 * 36000, 5, 3 * 36000);
 chart.SetTitle("Financial Overview", 13);
-chart.SetHorAxisLablesFontSize(10);
+chart.SetVertAxisLabelsFontSize(10);
 let fill = Api.CreateSolidFill(Api.RGB(51, 51, 51));
 chart.SetSeriesFill(fill, 0, false);
 fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
