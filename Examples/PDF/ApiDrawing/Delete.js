@@ -33,4 +33,4 @@ drawing2.Delete();
 const docContent = drawing1.GetContent();
 const paragraph = docContent.GetElement(0);
 paragraph.SetJc("left");
-paragraph.AddText("The chart was deleted from this slide.");
+paragraph.AddText("The chart was deleted from this page.");
