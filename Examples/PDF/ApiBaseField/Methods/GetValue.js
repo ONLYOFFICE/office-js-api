@@ -2,8 +2,8 @@
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 
-let textField1 = doc.AddTextField([10, 10, 160, 30]);
-let textField2 = doc.AddTextField([10, 40, 160, 60]);
+let textField1 = Api.CreateTextField([10, 10, 160, 30]);
+let textField2 = Api.CreateTextField([10, 40, 160, 60]);
 
 page.AddObject(textField1);
 page.AddObject(textField2);
