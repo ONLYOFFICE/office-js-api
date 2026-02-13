@@ -14,7 +14,7 @@ slide.AddObject(shape);
 
 const timeLine = slide.GetTimeLine();
 const mainSequence = timeLine.GetMainSequence();
-const effect = mainSequence.AddEffect(shape, 'fly-in', 'onclick');
+const effect = mainSequence.AddEffect(shape, 'entranceFlyIn', 'onclick');
 
 const effectType = effect.GetEffectType();
 

@@ -14,7 +14,7 @@ slide.AddObject(shape);
 
 const timeLine = slide.GetTimeLine();
 const mainSequence = timeLine.GetMainSequence();
-const effect = mainSequence.AddEffect(shape, 'pulse', 'onclick');
+const effect = mainSequence.AddEffect(shape, 'emphasisPulse', 'onclick');
 
 // Make it repeat 3 times
 effect.SetRepeatCount(3);

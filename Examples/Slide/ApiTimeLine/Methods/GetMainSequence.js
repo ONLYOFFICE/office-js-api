@@ -16,7 +16,7 @@ const timeLine = slide.GetTimeLine();
 const mainSequence = timeLine.GetMainSequence();
 
 // Add a fade effect
-mainSequence.AddEffect(shape, 'fade', 'onclick');
+mainSequence.AddEffect(shape, 'entranceFade', 'onclick');
 
 const infoShape = Api.CreateShape(
 	'rect',

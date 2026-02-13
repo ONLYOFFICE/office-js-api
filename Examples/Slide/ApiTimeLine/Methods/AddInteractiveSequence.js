@@ -29,7 +29,7 @@ slide.AddObject(animatedShape);
 // Create interactive sequence
 const timeLine = slide.GetTimeLine();
 const interactiveSeq = timeLine.AddInteractiveSequence(button);
-interactiveSeq.AddEffect(animatedShape, 'spin', 'onclick');
+interactiveSeq.AddEffect(animatedShape, 'emphasisSpin', 'onclick');
 
 const infoShape = Api.CreateShape(
 	'rect',

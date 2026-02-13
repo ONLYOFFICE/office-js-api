@@ -25,8 +25,8 @@ slide.AddObject(shape2);
 // Add animations
 const timeLine = slide.GetTimeLine();
 const mainSequence = timeLine.GetMainSequence();
-mainSequence.AddEffect(shape1, 'fade', 'onclick');
-mainSequence.AddEffect(shape2, 'bounce', 'afterprevious');
+mainSequence.AddEffect(shape1, 'entranceFade', 'onclick');
+mainSequence.AddEffect(shape2, 'entranceBounce', 'afterprevious');
 
 const count = mainSequence.GetCount();
 

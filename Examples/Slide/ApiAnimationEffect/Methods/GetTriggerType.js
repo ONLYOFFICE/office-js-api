@@ -14,7 +14,7 @@ slide.AddObject(shape);
 
 const timeLine = slide.GetTimeLine();
 const mainSequence = timeLine.GetMainSequence();
-const effect = mainSequence.AddEffect(shape, 'fade', 'afterprevious');
+const effect = mainSequence.AddEffect(shape, 'entranceFade', 'afterprevious');
 
 const triggerType = effect.GetTriggerType();
 

@@ -27,7 +27,7 @@ const timeLine = slide.GetTimeLine();
 
 // Create interactive sequence triggered by clicking the red circle
 const interactiveSeq = timeLine.AddInteractiveSequence(triggerShape);
-interactiveSeq.AddEffect(animatedShape, 'fly-in', 'onclick');
+interactiveSeq.AddEffect(animatedShape, 'entranceFlyIn', 'onclick');
 
 const sequences = timeLine.GetInteractiveSequences();
 

@@ -25,8 +25,8 @@ slide.AddObject(shape2);
 // Add animations
 const timeLine = slide.GetTimeLine();
 const mainSequence = timeLine.GetMainSequence();
-mainSequence.AddEffect(shape1, 'fade', 'onclick');
-mainSequence.AddEffect(shape2, 'fly-in', 'afterprevious');
+mainSequence.AddEffect(shape1, 'entranceFade', 'onclick');
+mainSequence.AddEffect(shape2, 'entranceFlyIn', 'afterprevious');
 
 // Get all effects
 const allEffects = timeLine.GetAllEffects();

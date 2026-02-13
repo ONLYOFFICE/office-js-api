@@ -16,7 +16,7 @@ slide.AddObject(shape);
 // Add fade animation effect
 const timeLine = slide.GetTimeLine();
 const mainSequence = timeLine.GetMainSequence();
-const effect = mainSequence.AddEffect(shape, 'fade', 'onclick');
+const effect = mainSequence.AddEffect(shape, 'entranceFade', 'onclick');
 
 // Configure effect timing
 effect.SetDuration(1500);  // 1.5 seconds
