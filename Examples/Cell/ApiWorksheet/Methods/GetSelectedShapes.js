@@ -17,11 +17,13 @@ stroke = Api.CreateStroke(0, Api.CreateNoFill());
 let shape = worksheet.AddShape("flowChartOnlineStorage", 120 * 36000, 70 * 36000, fill, stroke, 0, 2 * 36000, 0, 3 * 36000);
 shape.Select();
 let shapes = worksheet.GetSelectedShapes();
-let content = shapes[0].GetContent();
-content.RemoveAllElements();
-shapes[0].SetVerticalTextAlign("bottom");
-let paragraph = Api.CreateParagraph();
-paragraph.SetJc("left");
-paragraph.AddText("We removed all elements from the shape and added a new paragraph inside it ");
-paragraph.AddText("aligning it vertically by the bottom.");
-content.Push(paragraph);
+if (shapes[0]) {
+	let content = shapes[0].GetContent();
+	content.RemoveAllElements();
+	shapes[0].SetVerticalTextAlign("bottom");
+	let paragraph = Api.CreateParagraph();
+	paragraph.SetJc("left");
+	paragraph.AddText("We removed all elements from the shape and added a new paragraph inside it ");
+	paragraph.AddText("aligning it vertically by the bottom.");
+	content.Push(paragraph);
+}
