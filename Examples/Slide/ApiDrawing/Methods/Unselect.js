@@ -1,10 +1,9 @@
-// This example selects the current graphic object.
+// This example unselects the current graphic object.
 
-// How to select drawing objects of the slide.
+// How to unselect drawing objects of the slide.
 
-// Create three shapes, select the first one,
-// then select the second shape with isReplace=true (replacing the selection),
-// and finally select the third shape without isReplace parameter (adding to selection).
+// Create three shapes, select all of them,
+// then unselect the second shape.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);
@@ -24,5 +23,6 @@ const drawing3 = Api.CreateShape("rect", 3212465, 963295, fill3, stroke3);
 slide.AddObject(drawing3);
 drawing3.SetPosition(8000000, 0);
 drawing1.Select(true);
-drawing2.Select(true);
+drawing2.Select();
 drawing3.Select();
+drawing2.Unselect();

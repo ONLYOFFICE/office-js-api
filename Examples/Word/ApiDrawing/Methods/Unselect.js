@@ -1,10 +1,9 @@
-// This example selects the current graphic object.
+// This example unselects the current graphic object.
 
-// How to select drawing objects with the cursor.
+// How to unselect drawing objects with the cursor.
 
-// Create three shapes, select the first one,
-// then select the second shape with isReplace=true (replacing the selection),
-// and finally select the third shape without isReplace parameter (adding to selection).
+// Create three shapes, select all of them,
+// then unselect the second shape.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
@@ -30,5 +29,7 @@ drawing3.SetWrappingStyle("inFront");
 drawing3.SetHorPosition("page", 0);
 drawing3.SetVerPosition("page", 4500000);
 drawing1.Select(true);
-drawing2.Select(true);
+drawing2.Select();
 drawing3.Select();
+drawing2.Unselect();
+
