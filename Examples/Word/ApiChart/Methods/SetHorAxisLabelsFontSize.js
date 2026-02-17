@@ -1,8 +1,8 @@
-// This example specifies font size for the labels of the vertical axis.
+// This example sets font size for labels of the horizontal axis.
 
-// How to resize a font size of the vertical axis labels.
+// How to resize a horizontal axis labels font.
 
-// Create a chart then change a font size of axis labels.
+// Create a chart and set its horizontal axis labels font to 8.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
@@ -16,6 +16,6 @@ fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 chart.SetSeriesFill(fill, 1, false);
 chart.SetVerAxisTitle("USD In Hundred Thousands", 10);
 chart.SetHorAxisTitle("Year", 11);
-chart.SetVertAxisLablesFontSize(8);
+chart.SetHorAxisLabelsFontSize(8);
 chart.SetTitle("Financial Overview", 13);
 paragraph.AddDrawing(chart);

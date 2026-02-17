@@ -9,10 +9,7 @@ worksheet.GetRange("A1").SetValue("Data Validation for decimals to be more than 
 const range = worksheet.GetRange("A2:A3");
 range.SetValue("10");
 const validation = range.GetValidation();
-validation.SetFormula1("12");
-const formula1 = validation.GetFormula1();
-validation.Add('xlValidateDecimal', 'xlValidAlertWarning', 'xlGreater', formula1 );
-
+validation.Add("xlValidateDecimal", "xlValidAlertWarning", "xlGreater", "12");
 const targetedRange = worksheet.GetRange("A2");
 targetedRange.GetValidation().Delete();
 worksheet.GetRange("A4").SetValue("Data Validation is now removed for A2");

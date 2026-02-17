@@ -1,5 +1,5 @@
 // This example shows how to get the color of role.
-let doc = editor.GetDocument();
+let doc = Api.GetDocument();
 let roles = doc.GetFormRoles();
 roles.Add("Customer");
 let color = roles.GetRoleColor("Customer");

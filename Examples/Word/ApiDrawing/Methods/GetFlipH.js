@@ -13,4 +13,4 @@ paragraph.AddDrawing(drawing);
 let flip = drawing.GetFlipH();
 paragraph = Api.CreateParagraph();
 paragraph.AddText("Drawing is flipped horizontally: " + flip);
-docContent.AddElement(0, paragraph);
+doc.AddElement(0, paragraph);
