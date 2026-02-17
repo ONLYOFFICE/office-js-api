@@ -9,7 +9,7 @@ master.RemoveObject(0, master.GetAllDrawings().length);
 
 const layout = master.GetLayout(0);
 
-const table = editor.CreateTable(3, 2);
+const table = Api.CreateTable(3, 2);
 table.GetRow(0).GetCell(0).GetContent().GetCurrentParagraph().AddText('US');
 table.GetRow(0).GetCell(1).GetContent().GetCurrentParagraph().AddText('CH');
 table.GetRow(0).GetCell(2).GetContent().GetCurrentParagraph().AddText('Others');
