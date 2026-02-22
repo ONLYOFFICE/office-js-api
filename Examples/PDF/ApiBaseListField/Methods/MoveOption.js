@@ -7,4 +7,4 @@ page.AddObject(comboboxField);
 comboboxField.AddOption('Option 1');
 comboboxField.AddOption('Option 2');
 comboboxField.AddOption('Option 3');
-comboboxField.MoveOptionTo(2, 0);
+comboboxField.MoveOption(2, 0);
