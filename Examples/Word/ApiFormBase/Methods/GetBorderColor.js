@@ -1,4 +1,4 @@
-// This example shows how to get the border color of the current form.
+// This example shows how to get the border color of a form.
 
 // How to get the border color of a text form.
 
