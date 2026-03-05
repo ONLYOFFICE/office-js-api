@@ -9,7 +9,7 @@ const paragraph = doc.GetElement(0);
 
 const firstRun = Api.CreateRun();
 firstRun.AddText('This is a text run with the font color set to orange.');
-firstRun.SetColor(255, 111, 61);
+firstRun.SetColor(Api.HexColor('#FF6F3D'));
 paragraph.AddElement(firstRun);
 
 const secondRun = Api.CreateRun();

@@ -9,7 +9,7 @@ const firstParagraph = doc.GetElement(0);
 firstParagraph.AddText('ONLYOFFICE Document Builder');
 
 const companyRange = doc.GetRange(1, 11);
-companyRange.SetColor(255, 111, 61);
+companyRange.SetColor(Api.HexColor('#FF6F3D'));
 
 const productRange = doc.GetRange(12, 30);
 const themeColor = Api.ThemeColor('accent1');

@@ -22,5 +22,5 @@ docContent = shapes[0].GetDocContent();
 let classType = shapes[0].GetClassType();
 paragraph = docContent.GetElement(0);
 paragraph.AddText("Class Type = " + classType);
-paragraph.SetColor(51, 51, 51);
+paragraph.SetColor(Api.HexColor('#333333'));
 shapes[0].SetVerticalTextAlign("bottom");

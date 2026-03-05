@@ -7,7 +7,7 @@
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 let tableCellPr = Api.CreateTableCellPr();
-tableCellPr.SetShd("clear", 255, 111, 61);
+tableCellPr.SetShd("clear", Api.HexColor('#FF6F3D'));
 tableStyle.SetTableCellPr(tableCellPr);
 
 let table = Api.CreateTable(2, 3);

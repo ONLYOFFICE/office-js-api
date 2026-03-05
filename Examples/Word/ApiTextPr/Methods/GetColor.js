@@ -18,7 +18,7 @@ run = Api.CreateRun();
 run.SetStyle(myNewRunStyle);
 run.AddText("This is a text run with its own style.");
 textPr = run.GetTextPr();
-textPr.SetColor(255, 111, 61, false);
+textPr.SetColor(Api.HexColor('#FF6F3D'));
 paragraph.AddElement(run);
 paragraph = Api.CreateParagraph();
 let color = textPr.GetColor();

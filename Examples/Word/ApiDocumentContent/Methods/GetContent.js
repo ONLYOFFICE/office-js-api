@@ -29,5 +29,5 @@ blockLvlSdt.GetContent().GetElement(0).AddText("This block text content control 
 docContent.AddElement(2, blockLvlSdt);
 let docElements = docContent.GetContent(false);
 docElements[0].SetBold(true);
-docElements[1].SetBackgroundColor(235, 235, 235, false);
+docElements[1].SetBackgroundColor(Api.HexColor('#EBEBEB'));
 docElements[2].Search("block text content control")[0].SetBold(true);
