@@ -11,5 +11,5 @@ let table = Api.CreateTable(4, 2);
 table.SetWidth("percent", 100);
 table.SetStyle(tableStyle);
 let cell = table.GetRow(0).GetCell(0);
-cell.SetColumnBackgroundColor(255, 111, 61, false);
+cell.SetColumnBackgroundColor(Api.HexColor('#FF6F3D'));
 doc.Push(table);

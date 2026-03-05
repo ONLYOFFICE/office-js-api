@@ -7,10 +7,15 @@
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());
-let shape = worksheet.AddShape("flowChartOnlineStorage", 120 * 36000, 70 * 36000, fill, stroke, 0, 2 * 36000, 0, 3 * 36000);
+let shape = worksheet.AddShape(
+	'flowChartOnlineStorage',
+	Api.MillimetersToEmus(120), Api.MillimetersToEmus(70),
+	fill, stroke,
+	0, Api.MillimetersToEmus(2), 0, Api.MillimetersToEmus(3)
+);
 let content = shape.GetContent();
 let paragraph = content.GetElement(0);
 let run = Api.CreateRun();
-run.AddText("This is a text run with the font color set to gray.");
+run.AddText('This is a text run with the font color set to gray.');
 paragraph.AddElement(run);
-run.SetColor(128, 128, 128);
+run.SetColor(Api.HexColor('#808080'));
