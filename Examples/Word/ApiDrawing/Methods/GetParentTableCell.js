@@ -10,7 +10,7 @@ let table = Api.CreateTable(3, 3);
 let tableStyle = doc.GetStyle("Bordered");
 table.SetStyle(tableStyle);
 table.SetWidth("percent", 100);
-let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());
 let drawing = Api.CreateShape("rect", 3212465, 963295, fill, stroke);
 let cell = table.GetCell(1, 1);

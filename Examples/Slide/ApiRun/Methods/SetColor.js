@@ -8,15 +8,19 @@ const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);
 slide.RemoveAllObjects();
 
-const fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+const fill = Api.CreateSolidFill(Api.HexColor('#5B9BD5'));
 const stroke = Api.CreateStroke(0, Api.CreateNoFill());
-const shape = Api.CreateShape("flowChartMagneticTape", 300 * 36000, 130 * 36000, fill, stroke);
-shape.SetPosition(608400, 1267200);
+const shape = Api.CreateShape(
+	'rect',
+	Api.MillimetersToEmus(120), Api.MillimetersToEmus(40),
+	fill, stroke
+);
+shape.SetPosition(Api.MillimetersToEmus(10), Api.MillimetersToEmus(20));
 
-const docContent = shape.GetDocContent();
-const paragraph = docContent.GetElement(0);
+const content = shape.GetContent();
+const paragraph = content.GetElement(0);
 const run = Api.CreateRun();
-run.AddText("This is a text run with the font color set to black.");
+run.AddText('This is a text run with the font color set to light blue.');
 paragraph.AddElement(run);
-run.SetColor(51, 51, 51);
+run.SetColor(Api.HexColor('#aad3ff'));
 slide.AddObject(shape);

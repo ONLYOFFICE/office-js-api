@@ -12,7 +12,7 @@ for (let i = 0; i < copiesCount; i++) {
 	slide.AddObject(drawing);
 }
 
-const fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 153, 204));
+const fill = Api.CreateSolidFill(Api.RGB(255, 153, 204));
 const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = Api.CreateShape('heart', 38 * 36000, 38 * 36000, fill, stroke);
 shape.SetPosition(184 * 36000, 0 * 36000);

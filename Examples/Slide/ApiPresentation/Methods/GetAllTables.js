@@ -5,17 +5,17 @@ const slide = presentation.GetSlideByIndex(0);
 const master = presentation.GetMaster(0);
 const layout = master.GetLayout(0);
 
-const slideTable = editor.CreateTable(2, 2);
+const slideTable = Api.CreateTable(2, 2);
 slide.RemoveAllObjects();
 slide.AddObject(slideTable);
 
-const masterTable = editor.CreateTable(2, 2);
+const masterTable = Api.CreateTable(2, 2);
 master.AddObject(masterTable);
 
-const layoutTable = editor.CreateTable(2, 2);
+const layoutTable = Api.CreateTable(2, 2);
 layout.AddObject(layoutTable);
 
-const fillColor = Api.CreateRGBColor(100, 100, 200);
+const fillColor = Api.RGB(100, 100, 200);
 const fill = Api.CreateSolidFill(fillColor);
 const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = Api.CreateShape("rect", 250 * 36000, 50 * 36000, fill, stroke);

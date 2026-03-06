@@ -10,5 +10,5 @@ tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
 let table = Api.CreateTable(4, 2);
 table.SetWidth("percent", 100);
 table.SetStyle(tableStyle);
-table.SetBackgroundColor(255, 111, 61, false);
+table.SetBackgroundColor(Api.HexColor('#FF6F3D'));
 doc.Push(table);

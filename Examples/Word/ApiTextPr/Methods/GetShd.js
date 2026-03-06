@@ -4,24 +4,29 @@
 
 // How to know the text shading type.
 
-let doc = Api.GetDocument();
-let myNewRunStyle = doc.CreateStyle("My New Run Style", "run");
-let textPr = myNewRunStyle.GetTextPr();
-textPr.SetCaps(true);
-textPr.SetFontFamily("Calibri Light");
-let paragraph = doc.GetElement(0);
-let run = Api.CreateRun();
-run.AddText("This is just a sample text. ");
-run.AddText("The text properties are changed and the style is added to the paragraph. ");
-paragraph.AddElement(run);
-run = Api.CreateRun();
-run.SetStyle(myNewRunStyle);
-run.AddText("This is a text run with its own style.");
-textPr = run.GetTextPr();
-textPr.SetShd("clear", 255, 111, 61);
-paragraph.AddElement(run);
-paragraph = Api.CreateParagraph();
-let color = textPr.GetShd();
-let type = color.GetClassType();
-paragraph.AddText("Shading type: " + type);
-doc.Push(paragraph);
+const doc = Api.GetDocument();
+const firstParagraph = doc.GetElement(0);
+
+const myNewRunStyle = doc.CreateStyle('My New Run Style', 'run');
+const styleTextPr = myNewRunStyle.GetTextPr();
+styleTextPr.SetCaps(true);
+styleTextPr.SetFontFamily('Calibri Light');
+
+const firstRun = Api.CreateRun();
+firstRun.AddText('This is just a sample text. ');
+firstRun.AddText('The text properties are changed and the style is added to the paragraph. ');
+firstParagraph.AddElement(firstRun);
+
+const secondRun = Api.CreateRun();
+secondRun.SetStyle(myNewRunStyle);
+secondRun.AddText('This is a text run with its own style.');
+
+const secondRunTextPr = secondRun.GetTextPr();
+secondRunTextPr.SetShd('clear', Api.RGBA(255, 111, 61));
+firstParagraph.AddElement(secondRun);
+
+const secondParagraph = Api.CreateParagraph();
+const color = secondRunTextPr.GetShd();
+const type = color.GetClassType();
+secondParagraph.AddText('Shading type: ' + type);
+doc.Push(secondParagraph);

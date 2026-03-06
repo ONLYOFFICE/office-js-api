@@ -17,7 +17,7 @@ const oleObject2 = oleObject1.Copy();
 oleObject2.SetPosition(0, 48 * 36000);
 slideMaster.AddObject(oleObject2);
 
-const labelFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 230, 150));
+const labelFill = Api.CreateSolidFill(Api.RGB(255, 230, 150));
 const labelStroke = Api.CreateStroke(0, Api.CreateNoFill());
 const label = Api.CreateShape('rect', 60 * 36000, 20 * 36000, labelFill, labelStroke);
 label.SetPosition(0, 96 * 36000);

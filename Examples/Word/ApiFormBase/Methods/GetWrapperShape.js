@@ -10,5 +10,5 @@ let paragraph = doc.GetElement(0);
 paragraph.AddElement(textForm);
 textForm.ToFixed(10 * 240, 2 * 240);
 let shape = textForm.GetWrapperShape();
-let stroke = Api.CreateStroke(36000, Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61)));
+let stroke = Api.CreateStroke(36000, Api.CreateSolidFill(Api.RGB(255, 111, 61)));
 shape.SetOutLine(stroke);

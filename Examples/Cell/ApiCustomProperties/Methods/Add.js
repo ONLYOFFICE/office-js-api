@@ -18,7 +18,7 @@ customProps.Add("BirthDate", new Date("20 January 2000"));
 const birthDate = customProps.Get("BirthDate");
 const isOfLegalAge = (new Date().getFullYear() - birthDate.getFullYear()) >= 18;
 
-let fill = Api.CreateSolidFill(Api.CreateRGBColor(0, 100, 200));
+let fill = Api.CreateSolidFill(Api.RGB(0, 100, 200));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = worksheet.AddShape(
 	"rect",

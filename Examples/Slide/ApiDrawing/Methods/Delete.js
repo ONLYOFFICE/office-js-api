@@ -7,8 +7,8 @@
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);
 
-const gs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);
-const gs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);
+const gs1 = Api.CreateGradientStop(Api.RGB(255, 213, 191), 0);
+const gs2 = Api.CreateGradientStop(Api.RGB(255, 111, 61), 100000);
 let fill = Api.CreateLinearGradientFill([gs1, gs2], 5400000);
 const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const drawing1 = Api.CreateShape("rect", 3212465, 963295, fill, stroke);
@@ -24,9 +24,9 @@ drawing2.SetLegendPos("bottom");
 drawing2.SetShowDataLabels(false, false, true, false);
 drawing2.SetTitle("Financial Overview", 13);
 
-fill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
+fill = Api.CreateSolidFill(Api.RGB(51, 51, 51));
 drawing2.SetSeriesFill(fill, 0, false);
-fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 drawing2.SetSeriesFill(fill, 1, false);
 slide.AddObject(drawing2);
 

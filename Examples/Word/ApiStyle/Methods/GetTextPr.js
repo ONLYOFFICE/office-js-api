@@ -7,7 +7,7 @@
 let doc = Api.GetDocument();
 let normalStyle = doc.GetDefaultStyle("paragraph");
 let textPr = normalStyle.GetTextPr();
-textPr.SetColor(0x26, 0x26, 0x26, false);
+textPr.SetColor(Api.HexColor('#262626'));
 textPr.SetFontFamily("Calibri Light");
 textPr.SetFontSize(32);
 let paragraph = doc.GetElement(0);

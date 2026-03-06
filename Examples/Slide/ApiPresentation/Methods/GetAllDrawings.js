@@ -10,7 +10,7 @@ slideMaster.RemoveObject(0, slideMaster.GetAllDrawings().length);
 const image = Api.CreateImage('https://static.onlyoffice.com/assets/docs/samples/img/presentation_sky.png', 174 * 36000, 38 * 36000);
 image.SetPosition(0, 0);
 
-const fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 153, 204));
+const fill = Api.CreateSolidFill(Api.RGB(255, 153, 204));
 const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = Api.CreateShape('heart', 38 * 36000, 38 * 36000, fill, stroke);
 shape.SetPosition(184 * 36000, 0);
@@ -42,7 +42,7 @@ const masterShape = shape.Copy();
 masterShape.SetPosition(184 * 36000, 48 * 36000);
 slideMaster.AddObject(masterShape);
 
-const labelFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 230, 150));
+const labelFill = Api.CreateSolidFill(Api.RGB(255, 230, 150));
 const labelStroke = Api.CreateStroke(0, Api.CreateNoFill());
 const label = Api.CreateShape('rect', 60 * 36000, 20 * 36000, labelFill, labelStroke);
 const drawings = presentation.GetAllDrawings();

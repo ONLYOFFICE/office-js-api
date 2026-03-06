@@ -6,7 +6,7 @@
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
-let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());
 let shape = Api.CreateShape("rect", 100 * 36000, 100 * 36000, fill, stroke);
 paragraph.AddDrawing(shape);
@@ -29,5 +29,5 @@ blockLvlSdt.GetContent().GetElement(0).AddText("This block text content control 
 docContent.AddElement(2, blockLvlSdt);
 let docElements = docContent.GetContent(false);
 docElements[0].SetBold(true);
-docElements[1].SetBackgroundColor(235, 235, 235, false);
+docElements[1].SetBackgroundColor(Api.HexColor('#EBEBEB'));
 docElements[2].Search("block text content control")[0].SetBold(true);

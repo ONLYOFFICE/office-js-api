@@ -12,6 +12,6 @@ tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
 let table = Api.CreateTable(3, 3);
 table.SetWidth("percent", 100);
 let cell = table.GetRow(0).GetCell(0);
-cell.SetShd("clear", 255, 111, 61, false);
+cell.SetShd("clear", Api.HexColor('#FF6F3D'));
 table.SetStyle(tableStyle);
 doc.Push(table);

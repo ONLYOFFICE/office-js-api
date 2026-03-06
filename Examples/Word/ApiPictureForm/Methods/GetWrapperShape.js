@@ -11,5 +11,5 @@ paragraph.AddElement(pictureForm);
 pictureForm.SetImage("https://static.onlyoffice.com/assets/docs/samples/img/onlyoffice_logo.png", Api.MillimetersToEmus(70), Api.MillimetersToEmus(80));
 pictureForm.ToFixed(10 * 240, 10 * 240);
 let shape = pictureForm.GetWrapperShape();
-let stroke = Api.CreateStroke(36000, Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61)));
+let stroke = Api.CreateStroke(36000, Api.CreateSolidFill(Api.RGB(255, 111, 61)));
 shape.SetOutLine(stroke);

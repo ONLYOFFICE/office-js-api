@@ -120,8 +120,8 @@ path.CubicBezTo(
 );
 
 path.Close();
-let fill = Api.CreateSolidFill(Api.CreateRGBColor(100, 150, 255));
-let stroke = Api.CreateStroke(36000, Api.CreateSolidFill(Api.CreateRGBColor(0, 50, 200)));
+let fill = Api.CreateSolidFill(Api.RGB(100, 150, 255));
+let stroke = Api.CreateStroke(36000, Api.CreateSolidFill(Api.RGB(0, 50, 200)));
 let shape = Api.CreateShape("rect", 80 * 36000, 80 * 36000, fill, stroke);
 shape.SetGeometry(customGeometry);
 

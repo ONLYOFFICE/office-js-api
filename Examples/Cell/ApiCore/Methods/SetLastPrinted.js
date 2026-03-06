@@ -6,7 +6,7 @@ const core = Api.GetCore();
 core.SetLastPrinted(new Date());
 const lastPrintedDate = core.GetLastPrinted().toDateString();
 
-let fill = Api.CreateSolidFill(Api.CreateRGBColor(100, 50, 200));
+let fill = Api.CreateSolidFill(Api.RGB(100, 50, 200));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = worksheet.AddShape(
 	"rect",
