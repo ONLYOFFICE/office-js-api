@@ -11,7 +11,7 @@ paraPr.SetKeepNext(true);
 paraPr.SetKeepLines(true);
 paraPr.SetSpacingAfter(240);
 let textPr = heading1Style.GetTextPr();
-textPr.SetColor(0xff, 0x68, 0x00, false);
+textPr.SetColor(Api.HexColor('#FF6800'));
 textPr.SetFontSize(40);
 textPr.SetFontFamily("Calibri Light");
 let paragraph = doc.GetElement(0);

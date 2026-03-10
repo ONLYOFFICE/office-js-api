@@ -11,4 +11,4 @@ paragraph.AddText("These sentences are used to add lines for demonstrative purpo
 paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
 paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
 paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-paragraph.SetShd("clear", 255, 111, 61, false);
+paragraph.SetShd("clear", Api.HexColor('#FF6F3D'));

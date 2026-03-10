@@ -13,7 +13,7 @@ const textPr = run.GetTextPr();
 textPr.SetFontSize(72);
 textPr.SetBold(true);
 textPr.SetCaps(true);
-textPr.SetColor(51, 51, 51, false);
+textPr.SetColor(Api.HexColor('#333333'));
 textPr.SetFontFamily("Comic Sans MS");
 const fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 const stroke = Api.CreateStroke(1 * 36000, Api.CreateSolidFill(Api.RGB(51, 51, 51)));
