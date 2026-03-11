@@ -8168,5 +8168,12 @@
     "This example sets rich text properties to rich run object.": "此示例为富文本运行对象设置富文本属性。",
     "This example gets rich text properties from rich run object and set some properties to it.": "此示例从富文本运行对象获取富文本属性并为其设置一些属性。",
     "This example copies rich run object and adds it to parent rich paragraph.": "此示例复制富文本运行对象并将其添加到父富文本段落。",
-    "This example gets parent rich paragraph of rich run object and set justification property to it.": "此示例获取富文本运行对象的父富文本段落并为其设置对齐属性。"
+    "This example gets parent rich paragraph of rich run object and set justification property to it.": "此示例获取富文本运行对象的父富文本段落并为其设置对齐属性。",
+    "The text color.": "文本颜色。",
+    "The shading color.": "底纹颜色。",
+    "The highlight color for the forms.": "表单的高亮颜色。",
+    "The highlight color for the content controls.": "内容控件的高亮颜色。",
+    "The border color.": "边框颜色。",
+    "The background color.": "背景颜色。",
+    "This example shows how to set the background color for the block-level container.": "此示例演示如何为块级容器设置背景颜色。"
 }
