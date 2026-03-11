@@ -2,8 +2,8 @@ import json
 from pathlib import Path
 
 script_dir = Path(__file__).parent
-missed_keys_path = script_dir / 'missed_translations.json'
-target_path = script_dir / 'zh-CN.json'
+missed_keys_path = script_dir / 'Office' / 'missed_translations.json'
+target_path = script_dir / 'Office' / 'zh-CN.json'
 
 with open(missed_keys_path, 'r', encoding='utf-8') as f:
     missed_keys = json.load(f)
