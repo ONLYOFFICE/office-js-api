@@ -21,35 +21,58 @@ jobs:
         with:
           path: office-js-api
 
-      - name: Check if branch exists and set checkout branch for sdk
-        run: |
-          BRANCH_EXISTS=$(git ls-remote --heads https://github.com/ONLYOFFICE/build_tools ${{ github.ref_name }} | wc -l)
-          BRANCH_SDK=$([ "$BRANCH_EXISTS" == "1" ] && echo "${{ github.ref_name }}" || echo "")
-          echo "BRANCH_SDK=$BRANCH_SDK" >> $GITHUB_ENV
-          echo "Using branch: ${BRANCH_SDK:-default branch}"
-
-      - name: Checkout build_tools repository
+      - name: Checkout build_tools repository (branch)
+        id: checkout_build_tools
+        continue-on-error: true
         uses: actions/checkout@v4
         with:
           repository: ONLYOFFICE/build_tools
           token: ${{ secrets.READ_PAT }}
-          ref: ${{ env.BRANCH_SDK }}
+          ref: ${{ github.ref_name }}
           path: build_tools
 
-      - name: Checkout sdkjs repository
+      - name: Checkout build_tools repository (default)
+        if: steps.checkout_build_tools.outcome == 'failure'
+        uses: actions/checkout@v4
+        with:
+          repository: ONLYOFFICE/build_tools
+          token: ${{ secrets.READ_PAT }}
+          path: build_tools
+
+      - name: Checkout sdkjs repository (branch)
+        id: checkout_sdkjs
+        continue-on-error: true
         uses: actions/checkout@v4
         with:
           repository: ONLYOFFICE/sdkjs
           token: ${{ secrets.READ_PAT }}
-          ref: ${{ env.BRANCH_SDK }}
+          ref: ${{ github.ref_name }}
           path: sdkjs
 
-      - name: Checkout sdkjs-forms repository
+      - name: Checkout sdkjs repository (default)
+        if: steps.checkout_sdkjs.outcome == 'failure'
+        uses: actions/checkout@v4
+        with:
+          repository: ONLYOFFICE/sdkjs
+          token: ${{ secrets.READ_PAT }}
+          path: sdkjs
+
+      - name: Checkout sdkjs-forms repository (branch)
+        id: checkout_sdkjs_forms
+        continue-on-error: true
         uses: actions/checkout@v4
         with:
           repository: ONLYOFFICE/sdkjs-forms
           token: ${{ secrets.READ_PAT }}
-          ref: ${{ env.BRANCH_SDK }}
+          ref: ${{ github.ref_name }}
+          path: sdkjs-forms
+
+      - name: Checkout sdkjs-forms repository (default)
+        if: steps.checkout_sdkjs_forms.outcome == 'failure'
+        uses: actions/checkout@v4
+        with:
+          repository: ONLYOFFICE/sdkjs-forms
+          token: ${{ secrets.READ_PAT }}
           path: sdkjs-forms
 
       - name: Set up Git
