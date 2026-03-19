@@ -1,0 +1,76 @@
+name: Update Translations
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update-translations:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+
+      - name: Checkout office-js-api repository
+        uses: actions/checkout@v4
+        with:
+          path: office-js-api
+
+      - name: Check if branch exists and set checkout branch for sdk
+        run: |
+          BRANCH_EXISTS=$(git ls-remote --heads https://github.com/ONLYOFFICE/build_tools ${{ github.ref_name }} | wc -l)
+          BRANCH_SDK=$([ "$BRANCH_EXISTS" == "1" ] && echo "${{ github.ref_name }}" || echo "")
+          echo "BRANCH_SDK=$BRANCH_SDK" >> $GITHUB_ENV
+          echo "Using branch: ${BRANCH_SDK:-default branch}"
+
+      - name: Checkout build_tools repository
+        uses: actions/checkout@v4
+        with:
+          repository: ONLYOFFICE/build_tools
+          token: ${{ secrets.READ_PAT }}
+          ref: ${{ env.BRANCH_SDK }}
+          path: build_tools
+
+      - name: Checkout sdkjs repository
+        uses: actions/checkout@v4
+        with:
+          repository: ONLYOFFICE/sdkjs
+          token: ${{ secrets.READ_PAT }}
+          ref: ${{ env.BRANCH_SDK }}
+          path: sdkjs
+
+      - name: Checkout sdkjs-forms repository
+        uses: actions/checkout@v4
+        with:
+          repository: ONLYOFFICE/sdkjs-forms
+          token: ${{ secrets.READ_PAT }}
+          ref: ${{ env.BRANCH_SDK }}
+          path: sdkjs-forms
+
+      - name: Set up Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Build office-js-api
+        run: |
+          WORKSPACE_ROOT=$(pwd)
+          cd build_tools/scripts/sdkjs_common/jsdoc
+          npm install
+          python office-api/generate_docs_md.py --translations "$WORKSPACE_ROOT/office-js-api/Translations/Office/zh-CN.json"
+          python plugins/generate_docs_methods_md.py --translations "$WORKSPACE_ROOT/office-js-api/Translations/Plugins/Methods/zh-CN.json"
+          python plugins/generate_docs_events_md.py --translations "$WORKSPACE_ROOT/office-js-api/Translations/Plugins/Events/zh-CN.json"
+          cd ../../../../office-js-api
+
+          if ! git diff --exit-code; then
+              git add .
+              git commit -m "Update office-js-api translations from GitHub Actions"
+              git push origin ${{ github.ref_name }}
+            else
+              echo "Nothing to commit"
+            fi
