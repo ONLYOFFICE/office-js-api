@@ -1,3 +1,9 @@
 window.Asc.plugin.attachEditorEvent("onChangeCommentData", (comment) => {
-    changeComment(comment);
+    console.log("event: onChangeCommentData");
+    console.log("Id: " + comment.Id);
+    console.log("UserName: " + comment.Data.UserName);
+    console.log("Text: " + comment.Data.Text);
+    console.log("Time: " + comment.Data.Time);
+    console.log("Solved: " + comment.Data.Solved);
+    console.log("QuoteText: " + comment.Data.QuoteText);
 });
