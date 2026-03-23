@@ -11,7 +11,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.12'
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -80,14 +80,22 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
+      - name: Create output directories
+        run: |
+          mkdir -p api.onlyoffice.com/text-document-api
+          mkdir -p api.onlyoffice.com/spreadsheet-api
+          mkdir -p api.onlyoffice.com/presentation-api
+          mkdir -p api.onlyoffice.com/form-api
+          mkdir -p api.onlyoffice.com/pdf-api
+
       - name: Build office-js-api
         run: |
           WORKSPACE_ROOT=$(pwd)
           cd build_tools/scripts/sdkjs_common/jsdoc
           npm install
-          python office-api/generate_docs_md.py --translations "$WORKSPACE_ROOT/office-js-api/Translations/Office/zh-CN.json"
-          python plugins/generate_docs_methods_md.py --translations "$WORKSPACE_ROOT/office-js-api/Translations/Plugins/Methods/zh-CN.json"
-          python plugins/generate_docs_events_md.py --translations "$WORKSPACE_ROOT/office-js-api/Translations/Plugins/Events/zh-CN.json"
+          python office-api/generate_docs_md.py "$WORKSPACE_ROOT/api.onlyoffice.com/" --translations "$WORKSPACE_ROOT/office-js-api/Translations/Office/zh-CN.json"
+          python plugins/generate_docs_methods_md.py "$WORKSPACE_ROOT/api.onlyoffice.com/" --translations "$WORKSPACE_ROOT/office-js-api/Translations/Plugins/Methods/zh-CN.json"
+          python plugins/generate_docs_events_md.py "$WORKSPACE_ROOT/api.onlyoffice.com/" --translations "$WORKSPACE_ROOT/office-js-api/Translations/Plugins/Events/zh-CN.json"
           cd ../../../../office-js-api
 
           if ! git diff --exit-code; then
