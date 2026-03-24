@@ -53,7 +53,6 @@
     "Returns all VBA macros from the document.": "返回文档中的所有 VBA 宏。",
     "Returns the editor version.": "返回编辑器版本。",
     "Inserts text into the document.": "向文档中插入文本。",
-    "Inserts the content control containing data. The data is specified by the JS code for [Document](https://api.onlyoffice.com/docs/office-api/usage-api/text-document-api/), or by a link to the shared document.": "插入包含数据的内容控件。数据由 [Document](https://api.onlyoffice.com/docs/office-api/usage-api/text-document-api/) 的 JS 代码指定，或通过共享文档的链接指定。",
     "Inserts the OLE object at the current document position.": "在当前文档位置插入 OLE 对象。",
     "Installs a plugin using the specified plugin config.": "使用指定的插件配置安装插件。",
     "Checks if the document is in the editing OForm mode.": "检查文档是否处于 OForm 编辑模式。",
@@ -236,7 +235,6 @@
     "The information about the base64 encoded *png* image.": "关于 base64 编码 *png* 图像的信息。",
     "The plugin identifier. It must be of the *asc.{UUID}* type.": "插件标识符。必须是 *asc.{UUID}* 类型。",
     "The plugin backup. This parameter is used when working with the desktop editors.": "插件备份。此参数在使用桌面编辑器时使用。",
-    "The plugin [config](https://api.onlyoffice.com/docs/plugin-and-macros/structure/configuration/).": "插件[配置](https://api.onlyoffice.com/docs/plugin-and-macros/structure/configuration/)。",
     "The button ID.": "按钮 ID。",
     "The flag specifies whether the button is shown (**true**) or hidden (**false**).": "该标志指定按钮是显示（**true**）还是隐藏（**false**）。",
     "The parameter indicates whether the button will be displayed on the right side of the window or on the left. The default value is \"left\".": "该参数指示按钮是显示在窗口的右侧还是左侧。默认值为 \"left\"。",
@@ -368,7 +366,6 @@
     "The watermark stroke color in the RGB format. The empty array [] means that the watermark stroke has no fill.": "RGB 格式的水印描边颜色。空数组 [] 表示水印描边没有填充。",
     "The watermark stroke width measured in millimeters.": "水印描边的宽度，以毫米为单位。",
     "The watermark transparency degree.": "水印的透明度。",
-    "The [shape](../../../../../docs/office-api/usage-api/text-document-api/Enumeration/ShapeType.md) which specifies the preset shape geometry for the current watermark.": "指定当前水印的预设形状几何图形的[形状](../../../../../docs/office-api/usage-api/text-document-api/Enumeration/ShapeType.md)。",
     "The watermark width measured in millimeters.": "水印的宽度，以毫米为单位。",
     "An object containing the form properties.": "包含表单属性的对象。",
     "The form tags which specify the content for each form type with such a tag.": "指定具有此类标签的每种表单类型内容的表单标签。",
@@ -387,7 +384,6 @@
     "The image width in pixels.": "图像的宽度，以像素为单位。",
     "The plugin object.": "插件对象。",
     "Specifies if the plugin can be removed (**true**) or not (**false**).": "指定是否可以删除插件（**true**）或不可以（**false**）。",
-    "The [config](https://api.onlyoffice.com/docs/plugin-and-macros/structure/configuration/) of the installed plugin. The version is taken from the config and compared with the current one to check for updates.": "已安装插件的[配置](https://api.onlyoffice.com/docs/plugin-and-macros/structure/configuration/)。版本从配置中获取并与当前版本进行比较以检查更新。",
     "The URL to plugin config.": "插件配置的 URL。",
     "A value that defines if it is possible to delete and/or edit the content control or not:\n-**0** - only deleting\n-**1** - disable deleting or editing\n-**2** - only editing\n-**3** - full access": "定义是否可以删除和/或编辑内容控件的值：\n-**0** - 仅删除\n-**1** - 禁止删除或编辑\n-**2** - 仅编辑\n-**3** - 完全访问",
     "Alpha color component value.": "Alpha 颜色分量值。",
@@ -428,5 +424,10 @@
     "The HTML content to replace.": "要替换的 HTML 内容。",
     "Specifies whether each paragraph will be created in a separate shape.": "指定是否在单独的形状中创建每个段落。",
     "Options to replace the XML page content.": "替换 XML 页面内容的选项。",
-    "An array with XML shapes to be replaced.": "要替换的 XML 形状数组。"
+    "An array with XML shapes to be replaced.": "要替换的 XML 形状数组。",
+    "Inserts the content control containing data. The data is specified by the JS code for [Document](../../../../../docs/office-api/usage-api/text-document-api/text-document-api.md), or by a link to the shared document.": "插入包含数据的内容控件。数据由 [Document](../../../../../docs/office-api/usage-api/text-document-api/text-document-api.md) 的 JS 代码指定，或通过共享文档的链接指定。",
+    "The plugin [config](../../../../../docs/plugin-and-macros/structure/configuration/configuration.md).": "插件 [config](../../../../../docs/plugin-and-macros/structure/configuration/configuration.md)。",
+    "The type which specifies the preset shape geometry for the current watermark.": "指定当前水印预设形状几何的类型。",
+    "The [config](../../../../../docs/plugin-and-macros/structure/configuration/configuration.md) of the installed plugin. The version is taken from the config and compared with the current one to check for updates.": "已安装插件的 [config](../../../../../docs/plugin-and-macros/structure/configuration/configuration.md)。从配置中获取版本并与当前版本进行比较以检查更新。",
+    "This type specifies the preset shape geometry that will be used for a shape.": "此类型指定将用于形状的预设形状几何。"
 }

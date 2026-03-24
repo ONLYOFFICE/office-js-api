@@ -1,14 +1,11 @@
 {
-    "The function called when a comment is added to the document with the [AddComment](../../text-document-api/Methods/AddComment.md) method.": "使用 [AddComment](../../text-document-api/Methods/AddComment.md) 方法向文档添加批注时调用的函数。",
     "Parameters": "参数",
     "Name": "名称",
     "Data type": "数据类型",
     "Description": "描述",
     "Defines the comment object containing the comment data.": "定义包含批注数据的批注对象。",
-    "The function called when the specified comment is changed with the [ChangeComment](../../text-document-api/Methods/ChangeComment.md) method.": "使用 [ChangeComment](../../text-document-api/Methods/ChangeComment.md) 方法更改指定批注时调用的函数。",
     "The function called when the current page has changed.": "当前页面发生更改时调用的函数。",
     "The index of the newly activated page.": "新激活页面的索引。",
-    "The function called when the specified comment is removed with the [RemoveComments](../../text-document-api/Methods/RemoveComments.md) method.": "使用 [RemoveComments](../../text-document-api/Methods/RemoveComments.md) 方法删除指定批注时调用的函数。",
     "The function called when the user clicks the \"Complete & Submit\" button.": "用户点击\"完成并提交\"按钮时调用的函数。",
     "This event has no parameters.": "此事件没有参数。",
     "The function called to show which content control has been focused.": "用于显示哪个内容控件已获得焦点的函数。",
@@ -68,10 +65,12 @@
     "The index of the newly activated slide.": "新激活幻灯片的索引。",
     "The function called when a slide show presentation starts.": "幻灯片放映演示开始时调用的函数。",
     "The function called when a slide show presentation ends.": "幻灯片放映演示结束时调用的函数。",
-    "The function called after a slide has been changed and displayed during a slide show presentation.\nFires before the slide content is actually displayed.": "幻灯片放映演示期间幻灯片更改并显示后调用的函数。\n在幻灯片内容实际显示之前触发。",
     "The function called when slide changes during a slide show presentation. Provides information about both the current and previous slide.": "幻灯片放映演示期间幻灯片更改时调用的函数。提供当前幻灯片和上一张幻灯片的信息。",
     "The object containing slide information.": "包含幻灯片信息的对象。",
     "The index of the new slide.": "新幻灯片的索引。",
     "The index of the previous slide (-1 if it's the first slide).": "上一张幻灯片的索引（如果是第一张幻灯片则为 -1）。",
-    "The function called after a slide has been changed and displayed during a slide show presentation. Fires before the slide content is actually displayed.": "幻灯片放映演示期间幻灯片更改并显示后调用的函数。在幻灯片内容实际显示之前触发。"
+    "The function called after a slide has been changed and displayed during a slide show presentation. Fires before the slide content is actually displayed.": "幻灯片放映演示期间幻灯片更改并显示后调用的函数。在幻灯片内容实际显示之前触发。",
+    "The function called when a comment is added to the document with the [AddComment](../../../../../docs/plugin-and-macros/interacting-with-editors/text-document-api/Methods/AddComment.md) method.": "使用 [AddComment](../../../../../docs/plugin-and-macros/interacting-with-editors/text-document-api/Methods/AddComment.md) 方法向文档添加评论时调用的函数。",
+    "The function called when the specified comment is changed with the [ChangeComment](../../../../../docs/plugin-and-macros/interacting-with-editors/text-document-api/Methods/ChangeComment.md) method.": "使用 [ChangeComment](../../../../../docs/plugin-and-macros/interacting-with-editors/text-document-api/Methods/ChangeComment.md) 方法更改指定评论时调用的函数。",
+    "The function called when the specified comment is removed with the [RemoveComments](../../../../../docs/plugin-and-macros/interacting-with-editors/text-document-api/Methods/RemoveComments.md) method.": "使用 [RemoveComments](../../../../../docs/plugin-and-macros/interacting-with-editors/text-document-api/Methods/RemoveComments.md) 方法删除指定评论时调用的函数。"
 }
