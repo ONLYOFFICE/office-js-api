@@ -5,7 +5,7 @@
 // Retrieve class type of ApiSignatureForm object and insert it to the document.
 
 let doc = Api.GetDocument();
-let signatureForm = Api.CreateSignatureForm({"key": "Signature", "tip": "Please sign here", "required": true, "placeholder": "Signature"});
+let signatureForm = Api.CreateSignatureForm({"key": "Signature", "tip": "Please sign here", "placeholder": "Signature"});
 let paragraph = doc.GetElement(0);
 paragraph.AddElement(signatureForm);
 let classType = signatureForm.GetClassType();
