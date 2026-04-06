@@ -11,7 +11,7 @@ let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
 let tablePr = tableStyle.GetTablePr();
 let table = Api.CreateTable(3, 3);
-tablePr.SetShd("clear", 255, 111, 61, false);
+tablePr.SetShd("clear", Api.HexColor('#FF6F3D'));
 table.SetTableLook(true, true, true, true, false, false);
 table.SetStyle(tableStyle);
 doc.Push(table);

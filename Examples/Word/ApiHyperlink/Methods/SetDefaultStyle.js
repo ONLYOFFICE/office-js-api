@@ -7,7 +7,7 @@
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("Api Document Builder");
-paragraph.SetColor(255, 111, 61);
+paragraph.SetColor(Api.HexColor('#FF6F3D'));
 let copyParagraph = paragraph.Copy();
 doc.Push(copyParagraph);
 let hyperlink = paragraph.AddHyperlink("http://api.teamlab.info/docbuilder/basic");

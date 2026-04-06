@@ -15,7 +15,7 @@ textPr.SetDoubleStrikeout(true);
 textPr.SetItalic(true);
 textPr.SetBold(true);
 textPr.SetUnderline(true);
-textPr.SetColor(0, 255, 0);
+textPr.SetColor(Api.RGB(0, 255, 0));
 textPr.SetHighlight("blue");
 watermarkSettings.SetTextPr(textPr);
 doc.SetWatermarkSettings(watermarkSettings);

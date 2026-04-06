@@ -10,6 +10,6 @@ let run = Api.CreateRun();
 run.AddText("This is just a sample text. ");
 paragraph.AddElement(run);
 run = Api.CreateRun();
-run.SetShd("clear", 255, 111, 61);
+run.SetShd("clear", Api.HexColor('#FF6F3D'));
 run.AddText("This is a text run with the text shading set to orange.");
 paragraph.AddElement(run);

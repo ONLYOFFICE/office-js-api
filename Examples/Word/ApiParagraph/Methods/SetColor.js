@@ -7,7 +7,7 @@
 const doc = Api.GetDocument();
 const firstParagraph = doc.GetElement(0);
 firstParagraph.AddText('This is a paragraph with the font color set to orange.');
-firstParagraph.SetColor(255, 111, 61);
+firstParagraph.SetColor(Api.HexColor('#FF6F3D'));
 
 const color = Api.HexColor('ff6f3d');
 const secondParagraph = Api.CreateParagraph();

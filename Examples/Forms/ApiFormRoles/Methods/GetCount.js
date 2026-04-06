@@ -1,5 +1,5 @@
 // This example shows how to get the number of roles.
-let doc = editor.GetDocument();
+let doc = Api.GetDocument();
 let roles = doc.GetFormRoles();
 roles.Add("Customer");
 roles.Add("Seller");

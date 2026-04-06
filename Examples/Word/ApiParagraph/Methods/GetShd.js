@@ -7,7 +7,7 @@
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is an example of setting a shade to a paragraph. ");
-paragraph.SetShd("clear", 255, 111, 61, false);
+paragraph.SetShd("clear", Api.HexColor('#FF6F3D'));
 let shade = paragraph.GetShd();
 paragraph = Api.CreateParagraph();
 let fill = Api.CreateSolidFill(shade);

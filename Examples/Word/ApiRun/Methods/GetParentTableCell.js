@@ -18,4 +18,4 @@ paragraph.AddElement(run);
 let cell = table.GetCell(0, 0);
 table.AddElement(cell, 0, paragraph);
 let parentTableCell = run.GetParentTableCell();
-parentTableCell.SetShd("clear", 255, 111, 61, false);
+parentTableCell.SetShd("clear", Api.HexColor('#FF6F3D'));

@@ -9,9 +9,9 @@ let checkBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Spec
 let paragraph = doc.GetElement(0);
 paragraph.AddElement(checkBoxForm);
 paragraph.AddText(" Married");
-checkBoxForm.SetBackgroundColor(255, 111, 61);
+checkBoxForm.SetBackgroundColor(Api.HexColor('#FF6F3D'));
 paragraph.AddLineBreak();
 checkBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});
 paragraph.AddElement(checkBoxForm);
 paragraph.AddText(" Single");
-checkBoxForm.SetBackgroundColor(255, 111, 61);
+checkBoxForm.SetBackgroundColor(Api.HexColor('#FF6F3D'));

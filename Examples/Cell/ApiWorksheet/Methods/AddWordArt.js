@@ -9,7 +9,7 @@ let textProps = Api.CreateTextPr();
 textProps.SetFontSize(72);
 textProps.SetBold(true);
 textProps.SetCaps(true);
-textProps.SetColor(51, 51, 51, false);
+textProps.SetColor(Api.HexColor('#333333'));
 textProps.SetFontFamily("Comic Sans MS");
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 let stroke = Api.CreateStroke(1 * 36000, Api.CreateSolidFill(Api.RGB(51, 51, 51)));

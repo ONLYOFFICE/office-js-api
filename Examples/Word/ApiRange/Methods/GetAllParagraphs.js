@@ -4,10 +4,10 @@
 
 // Retrieve all paragraphs from the document and make the first one bold.
 
-let doc = editor.GetDocument();
+let doc = Api.GetDocument();
 let firstParagraph = doc.GetElement(0);
 firstParagraph.AddText("First paragraph");
-let secondParagraph = editor.CreateParagraph();
+let secondParagraph = Api.CreateParagraph();
 secondParagraph.AddText("Second Paragraph");
 doc.Push(secondParagraph);
 let range = doc.GetRange(0, 28);

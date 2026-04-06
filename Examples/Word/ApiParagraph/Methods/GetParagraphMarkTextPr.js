@@ -10,5 +10,5 @@ paragraph.AddText("We set the font size, font color and spacing for the paragrap
 paragraph.AddText("You can see it if you download the document, open it and enable the invisible symbols display.");
 let paragraphMarkTextPr = paragraph.GetParagraphMarkTextPr();
 paragraphMarkTextPr.SetFontSize(52);
-paragraphMarkTextPr.SetColor(255, 255, 0, false);
+paragraphMarkTextPr.SetColor(Api.HexColor('#FFFF00'));
 paragraphMarkTextPr.SetSpacing(5);

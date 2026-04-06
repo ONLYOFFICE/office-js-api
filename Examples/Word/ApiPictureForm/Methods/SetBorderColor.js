@@ -9,4 +9,4 @@ let pictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "
 pictureForm.SetImage("https://static.onlyoffice.com/assets/docs/samples/img/onlyoffice_logo.png", Api.MillimetersToEmus(70), Api.MillimetersToEmus(80));
 let paragraph = doc.GetElement(0);
 paragraph.AddElement(pictureForm);
-pictureForm.SetBorderColor(255, 111, 61);
+pictureForm.SetBorderColor(Api.HexColor('#FF6F3D'));

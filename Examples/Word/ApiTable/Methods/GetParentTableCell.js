@@ -17,4 +17,4 @@ table2.SetStyle(tableStyle);
 let cell = table1.GetCell(0, 0);
 table1.AddElement(cell, 0, table2);
 let parentTableCell = table2.GetParentTableCell();
-parentTableCell.SetShd("clear", 255, 111, 61, false);
+parentTableCell.SetShd("clear", Api.HexColor('#FF6F3D'));

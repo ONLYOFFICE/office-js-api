@@ -1,23 +1,15 @@
-// This example shows how to set and get the border color of the current form.
+// This example shows how to get the border color of the current form.
 
-const doc = Api.GetDocument();
+// How to get the border color of a text form.
 
-const textForm = Api.CreateTextForm({
-	'key': 'Personal information',
-	'tip': 'Enter your first name',
-	'required': true,
-	'placeholder': 'First name',
-	'comb': true,
-	'maxCharacters': 10,
-	'cellWidth': 3,
-	'multiLine': false,
-	'autoFit': false
-});
+// Retrieve the border color of a created text form and display it.
 
-const rgbColor = Api.RGB(171, 205, 239);
-textForm.SetBorderColor(rgbColor);
-const borderColor = textForm.GetBorderColor();
-
-const paragraph = doc.GetElement(0);
-paragraph.AddText('Border color of the form below - ' + borderColor.GetHex() + '\n');
+let doc = Api.GetDocument();
+let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});
+let paragraph = doc.GetElement(0);
 paragraph.AddElement(textForm);
+textForm.SetBorderColor(Api.RGB(255, 111, 61));
+let borderColor = textForm.GetBorderColor();
+paragraph = Api.CreateParagraph();
+paragraph.AddText("Border color (RGB): (" + borderColor.r + ", " + borderColor.g + ", " + borderColor.b + ")");
+doc.Push(paragraph);

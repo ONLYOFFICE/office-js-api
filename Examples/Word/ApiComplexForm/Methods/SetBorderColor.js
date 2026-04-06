@@ -3,4 +3,4 @@ let doc = Api.GetDocument();
 let complexForm = Api.CreateComplexForm({"key": "Complex1"});
 let paragraph = doc.GetElement(0);
 paragraph.AddElement(complexForm);
-complexForm.SetBorderColor(255, 111, 61);
+complexForm.SetBorderColor(Api.HexColor('#FF6F3D'));

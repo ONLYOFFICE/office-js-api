@@ -18,5 +18,5 @@ const paragraph = docContent.GetElement(0);
 const run = Api.CreateRun();
 run.AddText("This is a text run with the text shading set to black.");
 paragraph.AddElement(run);
-run.SetShd("clear", 51, 51, 51);
+run.SetShd("clear", Api.HexColor('#333333'));
 slide.AddObject(shape);
