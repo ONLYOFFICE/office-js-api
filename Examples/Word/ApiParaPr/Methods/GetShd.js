@@ -2,21 +2,19 @@
 
 // How to get the shading type of the paragraph.
 
-// Get the paragraph shading and fill the drawing with it.
+// Get the paragraph shading and apply it to another paragraph.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
-paragraph.AddText('This is an example of setting a shade to a paragraph. ');
+paragraph.AddText('This is the first paragraph with a custom shading applied.');
 
 let paraPr = paragraph.GetParaPr();
 paraPr.SetShd('clear', Api.HexColor('#ff6f3d'));
 
-let shade = paraPr.GetShd();
-let fill = Api.CreateSolidFill(shade);
-let stroke = Api.CreateStroke(0, Api.CreateNoFill());
-let drawing = Api.CreateShape('rect', 10 * 36000, 3 * 36000, fill, stroke);
+let shd = paraPr.GetShd();
 
-paragraph = Api.CreateParagraph();
-paragraph.AddText('Shade: ');
-paragraph.AddDrawing(drawing);
-doc.Push(paragraph);
+let paragraph2 = Api.CreateParagraph();
+paragraph2.AddText('This is the second paragraph. The shading from the first paragraph is applied here.');
+let paraPr2 = paragraph2.GetParaPr();
+paraPr2.SetShd(shd.Type, shd.Color);
+doc.Push(paragraph2);
