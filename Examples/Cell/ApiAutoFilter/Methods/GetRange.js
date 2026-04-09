@@ -2,7 +2,7 @@
 
 // How to find the AutoFilter range and work with it as a normal ApiRange.
 
-// Use ApiAutoFilter.GetRange() to get the filtered area.
+// The range covers the header row and all data rows that the AutoFilter was applied to.
 
 let worksheet = Api.GetActiveSheet();
 

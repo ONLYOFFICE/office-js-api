@@ -2,7 +2,7 @@
 
 // How to detect if filtering is active on a sheet.
 
-// Use ApiAutoFilter.GetFilterMode() to test filter state.
+// FilterMode returns true when at least one filter is applied and some rows are hidden.
 
 let worksheet = Api.GetActiveSheet();
 

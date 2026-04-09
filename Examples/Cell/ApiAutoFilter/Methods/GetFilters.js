@@ -2,7 +2,7 @@
 
 // How to inspect the criteria of existing filters.
 
-// Read ApiFilter objects using ApiAutoFilter.GetFilters().
+// Each ApiFilter object describes the criteria applied to one column of the AutoFilter range.
 
 let worksheet = Api.GetActiveSheet();
 

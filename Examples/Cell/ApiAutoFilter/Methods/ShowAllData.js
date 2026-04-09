@@ -2,7 +2,7 @@
 
 // How to temporarily show all data while keeping the filter drop-downs.
 
-// Remove filter criteria using ApiAutoFilter.ShowAllData().
+// ShowAllData clears active filter criteria but keeps the AutoFilter drop-down arrows on the header.
 
 let worksheet = Api.GetActiveSheet();
 

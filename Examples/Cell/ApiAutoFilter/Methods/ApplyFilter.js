@@ -2,7 +2,7 @@
 
 // How to reuse filter criteria without redefining them.
 
-// Reapply an AutoFilter using ApiAutoFilter.ApplyFilter().
+// Reapplying the filter recalculates which rows are visible based on existing criteria.
 
 let worksheet = Api.GetActiveSheet();
 

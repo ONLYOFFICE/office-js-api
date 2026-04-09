@@ -2,7 +2,7 @@
 
 // How to navigate back from ApiAutoFilter to ApiWorksheet.
 
-// Use ApiAutoFilter.GetParent() to get the parent sheet.
+// Navigating to the parent worksheet lets you access other ranges and objects on the same sheet.
 
 let worksheet = Api.GetActiveSheet();
 
