@@ -14,7 +14,7 @@ shape.SetPosition(608400, 1267200);
 
 const oBullet = Api.CreateNumbering("ArabicParenR", 1);
 
-const docContent = shape.GetDocContent();
+const docContent = shape.GetContent();
 let oParagraph = docContent.GetElement(0);
 oParagraph.SetBullet(oBullet);
 oParagraph.AddText(" This is an example of the numbered paragraph.");

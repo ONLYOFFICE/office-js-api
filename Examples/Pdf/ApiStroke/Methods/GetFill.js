@@ -8,7 +8,7 @@ let stroke = Api.CreateStroke(2 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(
 let shape = Api.CreateShape("rect", 100 * 36000, 50 * 36000, fill, stroke);
 shape.SetPosition(2000000, 1000000);
 page.AddObject(shape);
-let content = shape.GetDocContent();
+let content = shape.GetContent();
 let paragraph = content.GetElement(0);
 let strokeObj = shape.GetLine();
 if (strokeObj) {

@@ -10,7 +10,7 @@ const shape = Api.CreateShape('rect', 200 * 36000, 50 * 36000, fill, stroke);
 shape.SetPosition(10 * 36000, 10 * 36000);
 page.AddObject(shape);
 
-const content = shape.GetDocContent();
+const content = shape.GetContent();
 const paragraph = content.GetElement(0);
 
 const levelBefore = paragraph.GetOutlineLvl();

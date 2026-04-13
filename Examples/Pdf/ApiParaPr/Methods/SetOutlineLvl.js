@@ -12,7 +12,7 @@ page.AddObject(shape);
 
 const outlineLvlIndex = 8;
 
-const content = shape.GetDocContent();
+const content = shape.GetContent();
 const paragraph = content.GetElement(0);
 const paraPr = paragraph.GetParaPr();
 paraPr.SetOutlineLvl(outlineLvlIndex);

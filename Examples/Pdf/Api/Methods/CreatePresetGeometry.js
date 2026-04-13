@@ -9,7 +9,7 @@ let stroke = Api.CreateStroke(36000, Api.CreateSolidFill(Api.RGB(200, 150, 0)));
 let shape = Api.CreateShape("rect", 80 * 36000, 80 * 36000, fill, stroke);
 shape.SetGeometry(presetGeometry);
 shape.SetPosition(1000000, 1000000);
-let docContent = shape.GetDocContent();
+let docContent = shape.GetContent();
 if (docContent)
 {
     let paragraph = docContent.GetElement(0);
