@@ -10,7 +10,7 @@ let stroke1 = Api.CreateStroke(1 * 12700, Api.CreateSolidFill(Api.CreateRGBColor
 let shape1 = Api.CreateShape("rect", 50 * 36000, 30 * 36000, fill, stroke1);
 shape1.SetPosition(2000000, 1000000);
 page.AddObject(shape1);
-let content1 = shape1.GetDocContent();
+let content1 = shape1.GetContent();
 let para1 = content1.GetElement(0);
 let width1 = shape1.GetLine().GetWidth();
 para1.AddText("1pt: " + width1 + " EMU");
@@ -20,7 +20,7 @@ let stroke2 = Api.CreateStroke(2.5 * 12700, Api.CreateSolidFill(Api.CreateRGBCol
 let shape2 = Api.CreateShape("rect", 50 * 36000, 30 * 36000, fill, stroke2);
 shape2.SetPosition(2000000, 2000000);
 page.AddObject(shape2);
-let content2 = shape2.GetDocContent();
+let content2 = shape2.GetContent();
 let para2 = content2.GetElement(0);
 let width2 = shape2.GetLine().GetWidth();
 para2.AddText("2.5pt: " + width2 + " EMU");
@@ -30,7 +30,7 @@ let stroke3 = Api.CreateStroke(5 * 12700, Api.CreateSolidFill(Api.CreateRGBColor
 let shape3 = Api.CreateShape("rect", 50 * 36000, 30 * 36000, fill, stroke3);
 shape3.SetPosition(2000000, 3000000);
 page.AddObject(shape3);
-let content3 = shape3.GetDocContent();
+let content3 = shape3.GetContent();
 let para3 = content3.GetElement(0);
 let width3 = shape3.GetLine().GetWidth();
 para3.AddText("5pt: " + width3 + " EMU");
