@@ -40,8 +40,4 @@ let pivotWorksheet = Api.GetActiveSheet();
 pivotWorksheet.GetRange('A12').SetValue('Source Range');
 pivotWorksheet.GetRange('B12').SetValue(pivotTable.GetSource().GetAddress(true, true));
 
-Api.GetActiveSheet().GetRange('D12').SetValue('Source range will be changed soon');
-
-setTimeout(function () {
-    pivotTable.SetSource(worksheet.GetRange('C1:D5'));
-}, 5000);
+pivotTable.SetSource(worksheet.GetRange('C1:D5'));

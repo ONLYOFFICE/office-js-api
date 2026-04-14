@@ -35,9 +35,4 @@ pivotTable.AddFields({
 
 pivotTable.AddDataField('Price');
 
-let pivotWorksheet = Api.GetActiveSheet();
-pivotWorksheet.GetRange('B9').SetValue('Pivot Table Style will change soon');
-
-setTimeout(function () {
-    pivotTable.SetStyleName('PivotStyleLight14');
-}, 5000);
+pivotTable.SetStyleName('PivotStyleLight14');

@@ -34,11 +34,5 @@ pivotTable.AddFields({
 
 pivotTable.AddDataField('Price');
 
-let pivotWorksheet = Api.GetActiveSheet();
-pivotWorksheet.GetRange('A12').SetValue('The Style field orientation will change soon');
-
 let pivotField = pivotTable.GetPivotFields('Style');
-
-setTimeout(function () {
-    pivotField.SetOrientation("Columns");
-}, 5000);
+pivotField.SetOrientation("Columns");

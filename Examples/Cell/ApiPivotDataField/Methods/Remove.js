@@ -34,11 +34,5 @@ pivotTable.AddFields({
 
 pivotTable.AddDataField('Price');
 
-let pivotWorksheet = Api.GetActiveSheet();
 let dataField = pivotTable.GetDataFields('Sum of Price');
-
-pivotWorksheet.GetRange('A12').SetValue('Sum of Price will be deleted soon');
-
-setTimeout(function() {
-    dataField.Remove();
-}, 5000);
+dataField.Remove();

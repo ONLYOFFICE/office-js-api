@@ -36,8 +36,4 @@ pivotTable.AddFields({
     columns: 'Style',
 });
 
-Api.GetActiveSheet().GetRange('F4').SetValue('This pivot table will be cleared soon');
-
-setTimeout(function () {
-    pivotTable.ClearTable();
-}, 5000);
+pivotTable.ClearTable();

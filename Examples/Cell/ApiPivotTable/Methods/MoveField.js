@@ -34,8 +34,4 @@ pivotTable.AddFields({
 
 pivotTable.AddDataField('Price');
 
-Api.GetActiveSheet().GetRange('F4').SetValue('Style field will be moved in columns soon');
-
-setTimeout(function () {
-    pivotTable.MoveField('Style', 'Columns');
-}, 5000);
+pivotTable.MoveField('Style', 'Columns');

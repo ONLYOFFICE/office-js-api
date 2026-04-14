@@ -35,11 +35,5 @@ pivotTable.AddFields({
 pivotTable.AddDataField('Price');
 pivotTable.AddDataField('Price');
 
-let pivotWorksheet = Api.GetActiveSheet();
 let dataField = pivotTable.GetDataFields('Sum of Price');
-
-pivotWorksheet.GetRange('A16').SetValue('Sum of Price will be moved soon');
-
-setTimeout(function() {
-    dataField.Move("Rows");
-}, 5000);
+dataField.Move("Rows");

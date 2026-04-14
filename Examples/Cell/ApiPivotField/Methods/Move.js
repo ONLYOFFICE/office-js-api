@@ -33,11 +33,6 @@ pivotTable.AddFields({
     columns: 'Style',
 });
 
-let pivotWorksheet = Api.GetActiveSheet();
 pivotTable.AddDataField('Price');
 let pivotField = pivotTable.GetPivotFields('Region');
-pivotWorksheet.GetRange('A10').SetValue('The Region field will be moved soon');
-
-setTimeout(function () {
-    pivotField.Move('Columns');
-}, 5000);
+pivotField.Move('Columns');
