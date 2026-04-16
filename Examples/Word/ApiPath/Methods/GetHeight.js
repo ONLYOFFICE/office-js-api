@@ -1,5 +1,9 @@
-// Analyzes path properties of a cloud shape.
-// Retrieves and displays path dimensions, stroke and fill information.
+// Analyzes path properties of a cloud shape. Retrieves and display path dimensions, stroke and fill information.
+
+// How to get the height for a geometry path in a document?
+
+// Get the height and display the result in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.RGB(255, 200, 100));

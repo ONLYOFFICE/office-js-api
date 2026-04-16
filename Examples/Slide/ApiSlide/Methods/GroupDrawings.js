@@ -1,8 +1,8 @@
-// This example shows how to group drawings on slide.
+// Group drawings on slide in a presentation.
 
-// How to group two shapes.
+// How to group two shapes in a presentation.
 
-// Create two ApiShape objects and group them.
+// Create two shape objects and group them in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

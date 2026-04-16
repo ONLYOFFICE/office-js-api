@@ -1,4 +1,8 @@
-// This example shows how to get the last non-empty element of a paragraph inside a shape.
+// Get the last non-empty element of a paragraph inside a shape in a spreadsheet.
+
+// How can I last using a paragraph in a spreadsheet?
+
+// Last for a paragraph in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const fill = Api.CreateSolidFill(Api.RGB(140, 100, 120));

@@ -1,4 +1,4 @@
-// This example gets the type of a conditional formatting rule.
+// Get the type of a conditional formatting rule.
 
 // How to retrieve the type of existing conditional formatting rules.
 

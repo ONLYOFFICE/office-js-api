@@ -1,8 +1,8 @@
-// This example adds a caption paragraph after the paragraph.
+// Add a caption paragraph after the paragraph in a document.
 
-// How to add caption to the paragraph.
+// How to add caption to the paragraph in a document.
 
-// Add a caption to the text specifying its properties.
+// Add a caption to the text specifying its properties in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

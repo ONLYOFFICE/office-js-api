@@ -1,4 +1,8 @@
-// This example shows how to get the URL of a hyperlink inside a shape.
+// Get the URL of a hyperlink inside a shape in a spreadsheet.
+
+// How to get the linked text for a hyperlink in a spreadsheet?
+
+// Get the linked text and display the result in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

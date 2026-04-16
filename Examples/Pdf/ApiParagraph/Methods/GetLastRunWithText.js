@@ -1,4 +1,8 @@
-// This example shows how to get the last Run with text in the paragraph.
+// Get the last Run with text in the paragraph in a PDF document.
+
+// How to get last run with text for a paragraph in a PDF document?
+
+// Get last run with text and display the result in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

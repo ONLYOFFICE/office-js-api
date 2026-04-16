@@ -1,4 +1,8 @@
-// This example shows how to delete an attribute from a custom XML node.
+// Delete an attribute from a custom XML node in a spreadsheet.
+
+// How to delete the attribute for a custom XML node in a spreadsheet?
+
+// Delete the attribute and display the result in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const xmlManager = worksheet.GetCustomXmlParts();

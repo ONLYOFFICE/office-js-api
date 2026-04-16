@@ -1,8 +1,8 @@
-// This example adds a run to the paragraph.
+// Add a run to the paragraph in a PDF document.
 
-// Insert a text run to the ApiParagraph object.
+// Insert a text run to the paragraph object in a PDF document.
 
-// How to add the ApiRun object to the page.
+// How to add the text run object to the page.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

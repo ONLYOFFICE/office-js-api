@@ -1,4 +1,4 @@
-// This example shows how to get a formula that the name is defined to refer to.
+// Get a formula that the name is defined to refer to in a spreadsheet.
 
 // How to add a defname that refers to the formula from the specified range.
 

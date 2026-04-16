@@ -1,8 +1,8 @@
-// This example shows how to return the cumulative beta probability density function.
+// Return the cumulative beta probability density function in a spreadsheet.
 
-// How to get a result from cumulative beta probability density function.
+// How to get a result from cumulative beta probability density function in a spreadsheet.
 
-// Use function to get the cumulative beta probability density function.
+// Use function to get the cumulative beta probability density function in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

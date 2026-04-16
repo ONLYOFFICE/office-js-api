@@ -1,8 +1,8 @@
-// This example shows how to get the current region around a range.
+// Get the current region around a range in a spreadsheet.
 
-// How to get the contiguous data region.
+// How to get the contiguous data region in a spreadsheet.
 
-// Get a range, find its current region and highlight it.
+// Get a range, find its current region and highlight it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B2").SetValue("Data");

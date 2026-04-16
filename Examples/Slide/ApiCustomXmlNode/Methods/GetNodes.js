@@ -1,4 +1,8 @@
-// This example shows how to get nodes from a custom XML node based on an XPath.
+// Get nodes from a custom XML node based on an XPath in a presentation.
+
+// How can I get the nodes using a custom XML node in a presentation?
+
+// Get the nodes for a custom XML node in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

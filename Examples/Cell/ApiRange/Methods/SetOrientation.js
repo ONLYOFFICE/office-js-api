@@ -1,8 +1,8 @@
-// This example sets an angle to the cell range.
+// Set an angle to the cell range.
 
 // How to set an orientation of cells.
 
-// Get a range and specify its orientation.
+// Get a range and specify its orientation in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

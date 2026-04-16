@@ -1,4 +1,8 @@
-// This example shows how to set a border for the entire table.
+// Set a border for the entire table in a document.
+
+// How can I set table border all using a table properties in a document?
+
+// Set table border all for a table properties in a document.
 
 const doc = Api.GetDocument();
 const paragraph = doc.GetElement(0);

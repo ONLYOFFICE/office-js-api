@@ -1,4 +1,4 @@
-// This example shows how to return the current date and time in the MM/dd/yy hh:mm format.
+// Return the current date and time in the MM/dd/yy hh:mm format in a spreadsheet.
 
 // How to get a current date in the specified format.
 

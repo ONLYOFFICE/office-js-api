@@ -1,4 +1,8 @@
-// This example returns the current paragraph from the document content.
+// Return the current paragraph from the document content.
+
+// How to get current paragraph for a document content?
+
+// Get current paragraph and display the result in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

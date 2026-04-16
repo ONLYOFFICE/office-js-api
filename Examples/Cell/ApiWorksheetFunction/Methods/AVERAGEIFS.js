@@ -1,6 +1,6 @@
-// This example shows how to find the average (arithmetic mean) for the cells specified by a given set of conditions or criteria.
+// Find the average (arithmetic mean) for the cells specified by a given set of conditions or criteria in a spreadsheet.
 
-// How to find an average if list of conditions are met.
+// How to find an average if list of conditions are met in a spreadsheet.
 
 // Use function to get an average (arithmetic mean) of the cells if the set of requirements is satisfied.
 

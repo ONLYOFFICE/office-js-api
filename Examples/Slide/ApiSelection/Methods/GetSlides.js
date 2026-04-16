@@ -1,4 +1,8 @@
-// This example shows how to get the selected slides from current selection.
+// Get the selected slides from current selection in a presentation.
+
+// How do I get the slides in a presentation?
+
+// Get the slides using a selection object.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

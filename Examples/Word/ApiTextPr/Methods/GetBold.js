@@ -1,8 +1,8 @@
-// This example converts the current form to an inline form.
+// Convert the current form to an inline form.
 
-// How to find out whether a text is bold or not.
+// How to find out whether a text is bold or not in a document.
 
-// Get the bold property of the text.
+// Get the bold property of the text in a document.
 
 let doc = Api.GetDocument();
 let myNewRunStyle = doc.CreateStyle("My New Run Style", "run");

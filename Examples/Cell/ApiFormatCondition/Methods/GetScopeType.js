@@ -1,4 +1,4 @@
-// This example gets the scope type of a conditional formatting rule.
+// Get the scope type of a conditional formatting rule.
 
 // How to retrieve the scope type from conditional formatting rules.
 

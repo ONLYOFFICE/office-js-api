@@ -1,8 +1,8 @@
-// This example sets the text color to the text run.
+// Set the text color to the text run in a PDF document.
 
-// How to change a color of a text.
+// How to change a color of a text in a PDF document.
 
-// Get the text properties of the run and color its font.
+// Get the text properties of the run and color its font in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

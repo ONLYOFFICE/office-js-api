@@ -1,4 +1,9 @@
-// This example gets current paragraph from rich content.
+// Get current paragraph from rich content in a PDF document.
+
+// How to get current paragraph for a rich content in a PDF document?
+
+// Get current paragraph and display the result in a PDF document.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

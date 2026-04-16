@@ -1,8 +1,8 @@
-// This example shows how to change the icon of a criterion.
+// Change the icon of a criterion in a spreadsheet.
 
-// How to modify the icon assigned to an icon set criterion.
+// How to modify the icon assigned to an icon set criterion in a spreadsheet.
 
-// Set a custom icon for this criterion threshold.
+// Set a custom icon for this criterion threshold in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

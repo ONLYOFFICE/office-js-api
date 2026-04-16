@@ -1,4 +1,8 @@
-// This example shows how to set and get the outline level of the specified paragraph via paragraph properties.
+// Set and get the outline level of the specified paragraph via paragraph properties in a spreadsheet.
+
+// How to get the outline lvl for a paragraph properties in a spreadsheet?
+
+// Get the outline lvl and display the result in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

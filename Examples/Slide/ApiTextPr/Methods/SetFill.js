@@ -1,8 +1,8 @@
-// This example sets the text color to the text run.
+// Set the text color to the text run in a presentation.
 
-// How to change a color of a text.
+// How to change a color of a text in a presentation.
 
-// Get the text properties of the run and color its font.
+// Get the text properties of the run and color its font in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

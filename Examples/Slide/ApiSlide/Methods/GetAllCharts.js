@@ -1,4 +1,4 @@
-// This example shows how to get an array with all the chart objects from the slide.
+// Get an array with all the chart objects from the slide in a presentation.
 
 // How to get all charts from the slide.
 

@@ -1,4 +1,8 @@
-// This example shows how to get the internal ID of a document content.
+// Get the internal ID of a document content in a document.
+
+// How to get the internal id for a document content?
+
+// Get the internal id and display the result in a document.
 
 const doc = Api.GetDocument();
 const paragraph = doc.GetElement(0);

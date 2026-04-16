@@ -1,8 +1,8 @@
-// This example sets a sequence of custom tab stops which will be used for any tab characters in the paragraph.
+// Set a sequence of custom tab stops which will be used for any tab characters in the paragraph in a PDF document.
 
-// How to set the size of a spacing tabs from a paragraph properties.
+// How to set the size of a spacing tabs from a paragraph properties in a PDF document.
 
-// Change a tabs size property of a paragraph properties.
+// Change a tabs size property of a paragraph properties in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

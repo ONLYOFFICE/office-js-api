@@ -1,8 +1,8 @@
-// This example shows how to return the ISO week number in the year for a given date. 
+// Return the ISO week number in the year for a given date in a spreadsheet.
 
-// How to get the ISO week number.
+// How to get the ISO week number in a spreadsheet.
 
-// Use a function to get an ISO week number in the year.
+// Use a function to get an ISO week number in the year in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

@@ -1,4 +1,8 @@
-// This example shows how to update the value of an attribute in a custom XML node.
+// Update the value of an attribute in a custom XML node in a presentation.
+
+// How can I update attribute using a custom XML part in a presentation?
+
+// Update attribute for a custom XML part in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

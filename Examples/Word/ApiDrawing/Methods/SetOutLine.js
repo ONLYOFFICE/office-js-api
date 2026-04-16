@@ -1,8 +1,8 @@
-// This example sets the outline properties to the specified graphic object.
+// Set the outline properties to the specified graphic object in a document.
 
-// How to outline the drawing with the stroke.
+// How to outline the drawing with the stroke in a document.
 
-// Set the borders of the shape.
+// Set the borders of the shape in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

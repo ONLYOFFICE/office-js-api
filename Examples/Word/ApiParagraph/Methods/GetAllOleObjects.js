@@ -1,8 +1,8 @@
-// This example shows how to get a collection of OLE objects in the paragraph.
+// Get a collection of OLE objects in the paragraph in a document.
 
 // How to retrieve all OLE objects from the document.
 
-// Get all OLE objects and get the application ID of the first one.
+// Get all OLE objects and get the application ID of the first one in a document.
 
 let doc = Api.GetDocument();
 let oleObject = Api.CreateOleObject(

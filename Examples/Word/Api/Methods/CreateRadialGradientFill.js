@@ -1,10 +1,10 @@
-// This example shows how to create a radial gradient fill.
+// Create a radial gradient fill in a document.
 
-// Creates the ApiFill object which represents a radial gradient fill and applies it to the created shape.
+// Create the fill object which represents a radial gradient fill and apply it to the created shape in a document.
 
-// How to create a radial gradient fill and apply it to the object using the selected radial gradient as the object background.
+// How to create a radial gradient fill and apply it to the object using the selected radial gradient as the object background in a document.
 
-// Creates a radial gradient fill from an array of the gradient color stops and uses it as a background for the ApiShape class.
+// Create a radial gradient fill from an array of the gradient color stops and use it as a background for the shape class in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

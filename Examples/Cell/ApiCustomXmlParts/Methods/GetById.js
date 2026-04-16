@@ -1,8 +1,8 @@
-// This example shows how to get a custom XML part by its ID.
+// Get a custom XML part by its ID in a spreadsheet.
 
-// How to retrieve a custom XML part using its ID.
+// How to retrieve a custom XML part using its ID in a spreadsheet.
 
-// Get an XML part by its ID.
+// Get an XML part by its ID in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let xmlManager = worksheet.GetCustomXmlParts();

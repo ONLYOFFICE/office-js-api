@@ -1,8 +1,8 @@
-// This example shows how to add a block level container to the document.
+// Add a block level container to the document.
 
 // How to create a block text content control, add a text to it, and add this container to the document.
 
-// Creates a block level container and adds it to the ApiDocument class.
+// Create a block level container and add it to the document class.
 
 let doc = Api.GetDocument();
 var blockLvlSdt = Api.CreateBlockLvlSdt();

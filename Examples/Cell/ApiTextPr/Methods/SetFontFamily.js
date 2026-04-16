@@ -1,8 +1,8 @@
-// This example sets all 4 font slots with the specified font family.
+// Set all 4 font slots with the specified font family in a spreadsheet.
 
-// How to change a font family of a text.
+// How to change a font family of a text in a spreadsheet.
 
-// Set text font family.
+// Set font family and display the result in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

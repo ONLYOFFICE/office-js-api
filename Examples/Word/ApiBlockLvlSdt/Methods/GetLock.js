@@ -1,8 +1,8 @@
-// This example shows how to get the lock type of the container.
+// Get the lock type of the container in a document.
 
-// Creates a block content control, sets its lock to "sdtContentLocked", and returns the lock type to insert it into the second paragraph of the document.
+// Create a block content control, set its lock to "sdtContentLocked", and return the lock type to insert it into the second paragraph of the document.
 
-// How to get the lock type of the ApiBlockLvlSdt object.
+// How to get the lock type of the block-level content control object in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

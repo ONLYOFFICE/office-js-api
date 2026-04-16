@@ -1,4 +1,8 @@
-// This example demonstrates how to get the date when the current workbook was modified last time.
+// Get the date when the current workbook was modified last time in a spreadsheet.
+
+// How to get the modified for a core properties in a spreadsheet?
+
+// Get the modified and display the result in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

@@ -1,4 +1,8 @@
-// This example shows how to get the validation object for a range.
+// Get the validation object for a range in a spreadsheet.
+
+// How do I get the validation in a spreadsheet?
+
+// Get the validation using a cell range object.
 
 const worksheet = Api.GetActiveSheet();
 

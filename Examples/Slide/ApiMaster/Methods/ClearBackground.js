@@ -1,8 +1,8 @@
-// This example clears the slide master background.
+// Clear the slide master background.
 
-// How to remove a background from a master.
+// How to remove a background from a master in a presentation.
 
-// Clear background from a master object.
+// Clear background from a master object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

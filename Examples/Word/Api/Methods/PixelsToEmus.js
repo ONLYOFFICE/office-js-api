@@ -1,4 +1,8 @@
-// This example shows how to convert pixels to english metric units.
+// Convert pixels to english metric units in a document.
+
+// How can I convert pixels to emus in a document?
+
+// Convert pixels to emus in a document.
 
 const doc = Api.GetDocument();
 const paragraph = Api.CreateParagraph();

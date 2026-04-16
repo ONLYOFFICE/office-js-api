@@ -1,4 +1,4 @@
-// This example adds an object (image, shape or chart) to the current slide master.
+// Add an object (image, shape or chart) to the current slide master.
 
 // Create a shape and add it to the presentation master.
 

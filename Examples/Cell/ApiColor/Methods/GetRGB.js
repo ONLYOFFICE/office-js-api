@@ -1,8 +1,8 @@
-// This example gets an RGB format of a color and inserts it into the table.
+// Get an RGB format of a color and insert it into the table.
 
 // How to get a RGB color format.
 
-// Convert a color to the RGB values.
+// Convert a color to the RGB values in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let color = Api.CreateColorFromRGB(255, 111, 61);

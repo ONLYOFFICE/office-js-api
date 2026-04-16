@@ -1,8 +1,8 @@
-// This example gets whether the input message is displayed.
+// Get whether the input message is displayed in a spreadsheet.
 
-// How to check if validation shows an input message.
+// How to check if validation shows an input message in a spreadsheet.
 
-// Get the ShowInput setting.
+// Get the ShowInput setting in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");

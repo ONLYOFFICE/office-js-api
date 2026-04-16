@@ -1,4 +1,9 @@
-// This example shows how to add new roles.
+// Add new roles in a form document.
+
+// How to have role for a form roles?
+
+// Have role and display the result in a form document.
+
 let doc = Api.GetDocument();
 let roles = doc.GetFormRoles();
 roles.Add("Customer");

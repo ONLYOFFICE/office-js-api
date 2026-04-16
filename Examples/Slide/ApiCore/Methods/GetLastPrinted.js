@@ -1,4 +1,8 @@
-// This example demonstrates how to set and get the date when the current presentation was printed last time.
+// Set and get the date when the current presentation was printed last time in a presentation.
+
+// How can I get last printed using a core properties in a presentation?
+
+// Get last printed for a core properties in a presentation.
 
 const presentation = Api.GetPresentation();
 const core = presentation.GetCore();

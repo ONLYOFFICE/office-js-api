@@ -1,8 +1,8 @@
-// This example removes the table row.
+// Remove the table row in a document.
 
-// Delete the row from the table.
+// Delete the row from the table in a document.
 
-// How to remove the first row.
+// How to remove the first row in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

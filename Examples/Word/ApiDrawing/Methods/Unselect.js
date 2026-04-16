@@ -1,9 +1,8 @@
-// This example unselects the current graphic object.
+// Unselects the current graphic object in a document.
 
-// How to unselect drawing objects with the cursor.
+// How to unselect drawing objects with the cursor in a document.
 
-// Create three shapes, select all of them,
-// then unselect the second shape.
+// Create three shapes, select all of them, then unselect the second shape in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
@@ -32,4 +31,3 @@ drawing1.Select(true);
 drawing2.Select();
 drawing3.Select();
 drawing2.Unselect();
-

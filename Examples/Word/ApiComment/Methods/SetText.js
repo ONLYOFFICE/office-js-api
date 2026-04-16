@@ -1,6 +1,6 @@
-// This example sets the comment text.
+// Set the comment text in a document.
 
-// How to change a text of a comment.
+// How to change a text of a comment in a document.
 
 // Get all comments from the presentation and set its first one's text.
 

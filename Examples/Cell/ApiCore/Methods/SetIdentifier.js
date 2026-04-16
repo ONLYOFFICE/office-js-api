@@ -1,4 +1,8 @@
-// This example demonstrates how to set the identifier of the workbook using the ApiCore.
+// Set the identifier of the workbook using the core properties in a spreadsheet.
+
+// How to set identifier for a core properties in a spreadsheet?
+
+// Set identifier and display the result in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

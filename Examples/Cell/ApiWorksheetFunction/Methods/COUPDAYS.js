@@ -1,8 +1,8 @@
-// This example shows how to return the number of days in the coupon period that contains the settlement date.
+// Return the number of days in the coupon period that contains the settlement date in a spreadsheet.
 
-// How to find the the number of days in the coupon period that contains the settlement date.
+// How to find the the number of days in the coupon period that contains the settlement date in a spreadsheet.
 
-// Use function to get the number of days in the coupon period that contains the settlement date.
+// Use function to get the number of days in the coupon period that contains the settlement date in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

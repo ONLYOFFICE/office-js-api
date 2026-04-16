@@ -1,8 +1,8 @@
-// Returns a Range object that represents the entire pivot table report, including page fields.
+// Return a Range object that represents the entire pivot table report, including page fields.
 
 // How to get a pivot table range with page fields.
 
-// Create the ApiPivotTable object, add data to it then get the ApiRange object for the entire pivot table report, including page fields.
+// Create the pivot table object, add data to it then get the cell range object for the entire pivot table report, including page fields.
 
 let worksheet = Api.GetActiveSheet();
 

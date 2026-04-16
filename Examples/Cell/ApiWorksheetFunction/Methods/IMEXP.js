@@ -1,8 +1,8 @@
-// This example shows how to return the exponential of a complex number.
+// Return the exponential of a complex number in a spreadsheet.
 
-// How to get the exponential of a comlex numbers.
+// How to get the exponential of a comlex numbers in a spreadsheet.
 
-// Use a function to get the exponential.
+// Use a function to get the exponential in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

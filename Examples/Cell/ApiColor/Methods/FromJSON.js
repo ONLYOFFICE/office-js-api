@@ -1,4 +1,8 @@
-// This example shows how to restore a shape fill color from JSON.
+// Restore a shape fill color from JSON in a spreadsheet.
+
+// How to from j s o n for a color in a spreadsheet?
+
+// From j s o n and display the result in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const original = Api.RGB(93, 192, 232);

@@ -1,8 +1,8 @@
-// This example creates a gradient stop used for different types of gradients.
+// Create a gradient stop used for different types of gradients in a spreadsheet.
 
-// How to create a gradient background using gradient stop.
+// How to create a gradient background using gradient stop in a spreadsheet.
 
-// Create a shape with a gradient background using gradient stop.
+// Create a shape with a gradient background using gradient stop in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let gs1 = Api.CreateGradientStop(Api.RGB(255, 213, 191), 0);

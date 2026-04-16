@@ -1,4 +1,8 @@
-// This example moves an animation effect to a different position.
+// Move an animation effect to a different position in a presentation.
+
+// How do I move to in a presentation?
+
+// Move to using an animation effect object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

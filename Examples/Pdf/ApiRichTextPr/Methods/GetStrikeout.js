@@ -1,4 +1,9 @@
-// This example gets strikeout property from rich text properties object.
+// Get strikeout property from rich text properties object in a PDF document.
+
+// How do I get the strikeout in a PDF document?
+
+// Get the strikeout using a rich text properties object in a PDF document.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

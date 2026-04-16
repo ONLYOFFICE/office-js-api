@@ -1,8 +1,8 @@
-// This example shows how to create a chart and paste it into the document.
+// Create a chart and paste it into the document.
 
 // How to add charts to slides.
 
-// Create a 3D bar chart, set its size, position, color and other properties.
+// Create a 3D bar chart, set its size, position, color and other properties in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// This example shows how to get an index of pivot field of a data field.
+// Get an index of pivot field of a data field in a spreadsheet.
 
-// How to use a table element pivot field.
+// How to use a table element pivot field in a spreadsheet.
 
-// Create a pivot table, add data to it then display a custom data field's pivot index.
+// Create a pivot table, add data to it then display a custom data field's pivot index in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

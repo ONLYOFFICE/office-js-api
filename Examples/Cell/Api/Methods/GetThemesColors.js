@@ -1,8 +1,8 @@
-// This example shows how to get a list of all the available theme colors for the spreadsheet.
+// Get a list of all the available theme colors for the spreadsheet in a spreadsheet.
 
 // Get all theme colors from the worksheet.
 
-// List all available theme colors.
+// List all available theme colors in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let themes = Api.GetThemesColors();

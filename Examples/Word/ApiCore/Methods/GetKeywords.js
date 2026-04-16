@@ -1,4 +1,8 @@
-// This example demonstrates how to get the keywords of the current document using the ApiCore.
+// Get the keywords of the current document using the core properties in a document.
+
+// How do I get the keywords in a document?
+
+// Get the keywords using a core properties object in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

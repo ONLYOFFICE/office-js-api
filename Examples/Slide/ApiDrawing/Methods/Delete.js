@@ -1,4 +1,4 @@
-// This example shows how to delete a drawing object.
+// Delete a drawing object in a presentation.
 
 // How to delete a slide drawing.
 

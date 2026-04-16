@@ -1,8 +1,8 @@
-// This example sets the text spacing measured in twentieths of a point.
+// Set the text spacing measured in twentieths of a point in a presentation.
 
-// How to change a spacing size of a text.
+// How to change a spacing size of a text in a presentation.
 
-// Get the text properties of the run and resize its spacing (20 * point).
+// Get the text properties of the run and resize its spacing (20 * point) in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

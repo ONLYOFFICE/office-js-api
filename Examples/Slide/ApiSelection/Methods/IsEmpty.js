@@ -1,4 +1,8 @@
-// This example shows how to check if the selection is empty.
+// Check if the selection is empty in a presentation.
+
+// How can I is empty using a selection in a presentation?
+
+// Is empty for a selection in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

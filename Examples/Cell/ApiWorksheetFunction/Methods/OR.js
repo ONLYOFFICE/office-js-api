@@ -1,8 +1,8 @@
-// This example shows how to check whether any of the arguments are true. Returns false only if all arguments are false.
+// Check whether any of the arguments are true. Returns false only if all arguments are false in a spreadsheet.
 
-// How to use OR logical operator.
+// How to use OR logical operator in a spreadsheet.
 
-// Use a function to apply OR operation.
+// Use a function to apply OR operation in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

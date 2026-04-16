@@ -1,8 +1,8 @@
-// In this example, the WordArt text has a text outline.
+// In this example, the WordArt text has a text outline in a document.
 
-// How to set an outline to the text.
+// How to set an outline to the text in a document.
 
-// Create a text run object, change its property by outlining it with a color.
+// Create a text run object, change its property by outlining it with a color in a document.
 
 let doc = Api.GetDocument();
 let textPr = Api.CreateTextPr();

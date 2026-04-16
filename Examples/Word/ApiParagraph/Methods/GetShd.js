@@ -1,6 +1,6 @@
-// This example shows how to get the shading applied to the contents of the paragraph.
+// Get the shading applied to the contents of the paragraph in a document.
 
-// How to get the shading type of the paragraph.
+// How to get the shading type of the paragraph in a document.
 
 // Get the paragraph shading and apply it to another paragraph.
 

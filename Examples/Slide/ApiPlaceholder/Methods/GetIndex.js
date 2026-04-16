@@ -1,4 +1,8 @@
-// This example shows how to get the placeholder index.
+// Get the placeholder index in a presentation.
+
+// How to get the index for a placeholder in a presentation?
+
+// Get the index and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

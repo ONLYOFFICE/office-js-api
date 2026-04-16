@@ -1,6 +1,6 @@
-// This example clears the content from the run.
+// Clear the content from the run in a presentation.
 
-// How to delete content from the text run.
+// How to delete content from the text run in a presentation.
 
 // Remove text from the slide.
 

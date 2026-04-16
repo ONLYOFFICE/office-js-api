@@ -1,4 +1,4 @@
-// This example adds a data validation rule to a range of cells.
+// Add a data validation rule to a range of cells.
 
 // How to apply data validation to a range of cells.
 

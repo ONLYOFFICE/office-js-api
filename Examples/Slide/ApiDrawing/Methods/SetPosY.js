@@ -1,4 +1,8 @@
-// This example sets the y position of the drawing on the slide.
+// Set the y position of the drawing on the slide.
+
+// How can I set pos y using a drawing object in a presentation?
+
+// Set pos y for a drawing object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

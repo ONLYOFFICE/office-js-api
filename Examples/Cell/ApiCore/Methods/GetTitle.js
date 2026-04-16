@@ -1,4 +1,8 @@
-// This example demonstrates how to get the title of the current workbook.
+// Get the title of the current workbook in a spreadsheet.
+
+// How do I get the title in a spreadsheet?
+
+// Get the title using a core properties object in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

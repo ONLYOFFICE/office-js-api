@@ -1,4 +1,8 @@
-// This example sets the text spacing measured in twentieths of a point.
+// Set the text spacing measured in twentieths of a point in a PDF document.
+
+// How can I set spacing using a paragraph in a PDF document?
+
+// Set spacing for a paragraph in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

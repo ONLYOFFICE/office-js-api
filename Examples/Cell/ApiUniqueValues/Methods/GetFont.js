@@ -1,8 +1,8 @@
-// This example demonstrates getting the font formatting from a unique values conditional formatting rule.
+// Get the font formatting from an unique values conditional formatting rule.
 
 // How to retrieve font settings from unique values conditional formatting.
 
-// Get the font object from the unique values rule.
+// Get the font object from the unique values rule in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

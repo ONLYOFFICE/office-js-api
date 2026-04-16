@@ -1,8 +1,8 @@
-// This example shows how to create layout.
+// Create layout in a presentation.
 
 // How to create and apply a layout for a slide.
 
-// Change a slide layout.
+// Create the layout and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide1 = presentation.GetSlideByIndex(0);

@@ -1,10 +1,10 @@
-// This example shows how to get a number of elements in the current paragraph.
+// Get a number of elements in the current paragraph in a presentation.
 
-// How to return a number of paragraph elements.
+// How to return a number of paragraph elements in a presentation.
 
-// Find out how many elements a paragraph has.
+// Find out how many elements a paragraph has in a presentation.
 
-// Return a number of element from the ApiParagraph object.
+// Return a number of element from the paragraph object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

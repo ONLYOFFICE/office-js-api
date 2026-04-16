@@ -1,8 +1,8 @@
-// This example sets the italic property to the text character.
+// Set the italic property to the text character in a spreadsheet.
 
-// How to make a text italic.
+// How to make a text italic in a spreadsheet.
 
-// Create a text run object, change its properties by making it italic.
+// Create a text run object, change its properties by making it italic in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

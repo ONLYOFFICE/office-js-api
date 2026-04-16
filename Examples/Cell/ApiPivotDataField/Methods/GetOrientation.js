@@ -1,8 +1,8 @@
-// This example shows how to get an orientation of a data field.
+// Get an orientation of a data field in a spreadsheet.
 
-// How to get a table element orientation.
+// How to get a table element orientation in a spreadsheet.
 
-// Create a pivot table, add data to it then display a custom data field's orientation.
+// Create a pivot table, add data to it then display a custom data field's orientation in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

@@ -1,4 +1,4 @@
-// This example makes a duplicate of slide layout and applies it to another slide.
+// Make a duplicate of slide layout and apply it to another slide.
 
 // How to create a duplicate of a slide layout.
 

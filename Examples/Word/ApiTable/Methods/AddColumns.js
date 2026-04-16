@@ -1,6 +1,6 @@
-// This example adds the new columns to the table.
+// Add the new columns to the table in a document.
 
-// How to insert columns to the table.
+// How to insert columns to the table in a document.
 
 // Get a table cell and insert two new columns after it.
 

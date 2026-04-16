@@ -1,4 +1,9 @@
-// Displays preset type and custom status in a text shape.
+// Display preset type and custom status in a text shape in a PDF document.
+
+// How do I get the geometry in a PDF document?
+
+// Get the geometry using a shape object in a PDF document.
+
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 

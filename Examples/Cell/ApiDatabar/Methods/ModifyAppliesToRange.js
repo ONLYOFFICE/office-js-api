@@ -1,4 +1,4 @@
-// This example demonstrates modifying the range to which a data bar formatting rule applies.
+// Modifye the range to which a data bar formatting rule applies.
 
 // How to change the range that a data bar conditional formatting affects.
 

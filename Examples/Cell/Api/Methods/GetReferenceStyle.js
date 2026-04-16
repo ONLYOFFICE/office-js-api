@@ -1,6 +1,6 @@
-// This example gets reference style.
+// Get reference style in a spreadsheet.
 
-// Get style of a reference.
+// Get style of a reference in a spreadsheet.
 
 // Insert a reference style into the cell.
 

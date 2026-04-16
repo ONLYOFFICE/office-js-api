@@ -1,8 +1,8 @@
-// This example specifies the shading applied to the contents of the current text run.
+// Specify the shading applied to the contents of the current text run in a presentation.
 
-// How to add shading to the text.
+// How to add shading to the text in a presentation.
 
-// Create a new text run and apply shading to it.
+// Create a new text run and apply shading to it in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

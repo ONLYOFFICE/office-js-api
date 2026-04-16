@@ -1,4 +1,4 @@
-// This example gets a presentation name and inserts it into the presentation.
+// Get a presentation name and insert it into the presentation.
 
 // How to get a presentation name.
 

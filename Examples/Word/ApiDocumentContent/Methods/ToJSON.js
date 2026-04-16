@@ -1,4 +1,4 @@
-// This example converts the ApiDocumentContent object into the JSON object.
+// Convert the document content object into the JSON object.
 
 // How to get a JSON object from the document content.
 

@@ -1,8 +1,8 @@
-// This example shows how to get a subrange from an existing range.
+// Get a subrange from an existing range in a spreadsheet.
 
-// How to get a range within a range.
+// How to get a range within a range in a spreadsheet.
 
-// Get a range, access subranges and fill them with different colors.
+// Get a range, access subranges and fill them with different colors in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let parentRange = worksheet.GetRange("B2:F6");

@@ -1,6 +1,8 @@
-// This example shows how to create and use the table properties.
+// Create and use the table properties in a document.
 
-// How to create table properties and set it to table style.
+// How to create table properties and set it to table style in a document.
+
+// Create the table pr in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

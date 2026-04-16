@@ -1,8 +1,8 @@
-// This example sets the paragraph contents justification.
+// Set the paragraph contents justification in a PDF document.
 
-// How to set justification using a paragraph properties.
+// How to set justification using a paragraph properties in a PDF document.
 
-// Create a paragraph setting its justification property.
+// Create a paragraph setting its justification property in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

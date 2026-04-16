@@ -1,8 +1,8 @@
-// This example shows how to set row grand of a pivot table.
+// Set row grand of a pivot table in a spreadsheet.
 
-// How to set row grand of a table.
+// How to set row grand of a table in a spreadsheet.
 
-// Create a pivot table, add data to it then set its row grand.
+// Create a pivot table, add data to it then set its row grand in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

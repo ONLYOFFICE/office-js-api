@@ -1,4 +1,8 @@
-// This example sets the duration of an animation effect.
+// Set the duration of an animation effect in a presentation.
+
+// How do I set duration in a presentation?
+
+// Set duration using an animation effect object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

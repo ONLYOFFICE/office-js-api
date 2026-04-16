@@ -1,6 +1,6 @@
-// This example demonstrates getting the minimum percentage length from a data bar conditional formatting rule.
+// Get the minimum percentage length from a data bar conditional formatting rule.
 
-// How to check the minimum length setting of a data bar.
+// How to check the minimum length setting of a data bar in a spreadsheet.
 
 // Get the minimum percentage length of a data bar conditional formatting rule.
 

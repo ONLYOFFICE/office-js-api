@@ -1,8 +1,8 @@
-// This example specifies font size for the labels of the vertical axis.
+// Specify font size for the labels of the vertical axis in a presentation.
 
-// How to resize a font size of the vertical axis labels.
+// How to resize a font size of the vertical axis labels in a presentation.
 
-// Create a chart then change a font size of axis labels.
+// Create a chart then change a font size of axis labels in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

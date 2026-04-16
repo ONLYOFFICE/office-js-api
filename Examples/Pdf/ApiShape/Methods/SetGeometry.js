@@ -1,4 +1,9 @@
-// Applies custom geometry with specific fill and stroke properties.
+// Apply custom geometry with specific fill and stroke properties in a PDF document.
+
+// How to set geometry for a shape in a PDF document?
+
+// Set geometry and display the result in a PDF document.
+
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 

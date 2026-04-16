@@ -1,4 +1,8 @@
-// This example applies underline formatting to paragraph text.
+// Apply underline formatting to paragraph text.
+
+// How do I set underline in a presentation?
+
+// Set underline using a paragraph object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

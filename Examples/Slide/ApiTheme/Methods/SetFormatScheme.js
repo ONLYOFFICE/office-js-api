@@ -1,4 +1,4 @@
-// This example sets the format scheme to the current presentation theme.
+// Set the format scheme to the current presentation theme.
 
 // How to get a theme and set a new format scheme.
 

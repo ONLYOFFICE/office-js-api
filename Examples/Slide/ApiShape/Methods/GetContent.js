@@ -1,6 +1,6 @@
-// This example shows how to get the shape inner contents where a paragraph or text runs can be inserted.
+// Get the shape inner contents where a paragraph or text runs can be inserted in a presentation.
 
-// How to get a content of a shape.
+// How to get a content of a shape in a presentation.
 
 // Retrieve a slide content and insert a paragraph to it.
 

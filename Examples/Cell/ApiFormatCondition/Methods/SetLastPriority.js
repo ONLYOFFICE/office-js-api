@@ -1,4 +1,4 @@
-// This example sets a conditional formatting rule as last priority.
+// Set a conditional formatting rule as last priority.
 
 // How to change the priority order of conditional formatting rules.
 

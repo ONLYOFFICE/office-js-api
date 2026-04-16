@@ -1,4 +1,4 @@
-// This example gets the number format for the top 10 conditional formatting rule.
+// Get the number format for the top 10 conditional formatting rule.
 
 // How to retrieve number format of conditional formatting rules.
 

@@ -1,6 +1,6 @@
-// This example shows how to move a layout.
+// Move a layout in a presentation.
 
-// How to move layout using a position index.
+// How to move layout using a position index in a presentation.
 
 // Move a layout of a slide.
 

@@ -1,8 +1,8 @@
-// This example shows how to get the paragraph style method.
+// Get the paragraph style method in a document.
 
-// How to get the style of the paragraph.
+// How to get the style of the paragraph in a document.
 
-// Get the paragraph style and display its name.
+// Get the paragraph style and display its name in a document.
 
 let doc = Api.GetDocument();
 let newDocumentStyle = doc.GetStyle("Heading 6");

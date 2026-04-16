@@ -1,8 +1,8 @@
-// This example applies paragraph settings to the specified style.
+// Apply paragraph settings to the specified style in a document.
 
-// Creates a paragraph, adds a text to it, and sets the line spacing and justify.
+// Create a paragraph, add a text to it, and set the line spacing and justify in a document.
 
-// Specifies the ApiTextPr object and applies its settings to the ApiStyle object.
+// Specify the text properties object and apply its settings to the style object in a document.
 
 let doc = Api.GetDocument();
 let normalStyle = doc.GetDefaultStyle("paragraph");

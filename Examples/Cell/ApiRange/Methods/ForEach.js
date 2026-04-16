@@ -1,8 +1,8 @@
-// This example executes a provided function once for each cell.
+// Execute a provided function once for each cell.
 
 // How to iterate through each cell from a range.
 
-// For Each cycle implementation for ApiRange.
+// For Each cycle implementation for cell range in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

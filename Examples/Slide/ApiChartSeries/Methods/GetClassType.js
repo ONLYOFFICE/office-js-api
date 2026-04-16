@@ -1,8 +1,8 @@
-// This example gets a type of ApiChartSeries class and inserts it into the presentation.
+// Find out the class type of a chart series object in a presentation.
 
-// How get a class type of ApiChartSeries.
+// How can I get the class type of a chart series in a presentation?
 
-// Retrieve class type of ApiChartSeries object and insert it to the slide.
+// Get the class type of a chart series and display it in the presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

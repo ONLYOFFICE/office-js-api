@@ -1,4 +1,8 @@
-// This example shows how to get a user ID.
+// Get an user ID in a presentation.
+
+// How do I get the user id in a presentation?
+
+// Get the user id using a comment object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

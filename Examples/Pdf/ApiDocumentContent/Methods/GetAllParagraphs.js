@@ -1,4 +1,8 @@
-// This example returns an array of all paragraphs from the document content.
+// Return an array of all paragraphs from the document content.
+
+// How can I get all paragraphs using a document content in a PDF document?
+
+// Get all paragraphs for a document content in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

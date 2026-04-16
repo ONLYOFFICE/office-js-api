@@ -1,8 +1,8 @@
-// This example shows how to return the value of the density function for a standard normal distribution.
+// Return the value of the density function for a standard normal distribution in a spreadsheet.
 
-// How to return the value of the density function.
+// How to return the value of the density function in a spreadsheet.
 
-// Use a function to claculate the value of the density function.
+// Use a function to claculate the value of the density function in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

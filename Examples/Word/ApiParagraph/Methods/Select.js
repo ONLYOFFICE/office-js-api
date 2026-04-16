@@ -1,8 +1,8 @@
-// This example selects the paragraph.
+// Select the paragraph in a document.
 
-// How to select the paragraph.
+// How to select the paragraph in a document.
 
-// Select a paragraph with a cursor.
+// Select a paragraph with a cursor in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

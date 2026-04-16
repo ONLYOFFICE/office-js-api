@@ -1,6 +1,6 @@
-// This example checks whether a worksheet currently has an AutoFilter.
+// Check whether a worksheet currently has an AutoFilter.
 
-// How to detect if filtering is active on a sheet.
+// How to detect if filtering is active on a sheet in a spreadsheet.
 
 // FilterMode returns true when at least one filter is applied and some rows are hidden.
 

@@ -1,4 +1,4 @@
-// This example shows how to get a layout form of a pivot field.
+// Get a layout form of a pivot field in a spreadsheet.
 
 // How to get a layout form of a pivot field.
 

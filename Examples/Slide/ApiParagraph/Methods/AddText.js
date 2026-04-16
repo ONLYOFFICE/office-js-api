@@ -1,8 +1,8 @@
-// This example adds some text to the paragraph.
+// Add some text to the paragraph in a presentation.
 
-// How to add a text to the ApiParagraph object.
+// How to add a text to the paragraph object in a presentation.
 
-// How to add a text to the shape.
+// How to add a text to the shape in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

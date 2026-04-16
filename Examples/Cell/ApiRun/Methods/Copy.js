@@ -1,8 +1,8 @@
-// This example reates a copy of the run.
+// Reates a copy of the run in a spreadsheet.
 
-// How to create a text run object and its copy.
+// How to create a text run object and its copy in a spreadsheet.
 
-// Create an ApiRun and its copy and add it into paragraph.
+// Create an text run and its copy and add it into paragraph in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

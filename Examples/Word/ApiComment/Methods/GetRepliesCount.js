@@ -1,6 +1,6 @@
-// This example shows how to get a number of the comment replies.
+// Get a number of the comment replies in a document.
 
-// How to get a number of replies a comment has.
+// How to get a number of replies a comment has in a document.
 
 // Get all comments from the presentation and the first one's number of replies.
 

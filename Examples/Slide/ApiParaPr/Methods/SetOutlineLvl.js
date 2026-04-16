@@ -1,4 +1,8 @@
-// This example sets the outline level for the specified paragraph via paragraph properties.
+// Set the outline level for the specified paragraph via paragraph properties in a presentation.
+
+// How can I set outline lvl using a paragraph properties in a presentation?
+
+// Set outline lvl for a paragraph properties in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

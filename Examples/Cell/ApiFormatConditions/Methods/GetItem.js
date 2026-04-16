@@ -1,4 +1,4 @@
-// This example gets a specific conditional formatting rule by index.
+// Get a specific conditional formatting rule by index.
 
 // How to get individual conditional formatting rules from a collection.
 

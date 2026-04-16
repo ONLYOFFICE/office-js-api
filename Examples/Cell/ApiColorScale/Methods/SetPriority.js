@@ -1,8 +1,8 @@
-// This example sets the priority value of color scale formatting rule.
+// Set the priority value of color scale formatting rule.
 
 // How to change the evaluation priority of color scale conditional formatting.
 
-// Set color scale priority.
+// Set color scale priority in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

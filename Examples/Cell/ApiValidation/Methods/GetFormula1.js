@@ -1,8 +1,8 @@
-// This example gets the first formula in data validation.
+// Get the first formula in data validation.
 
 // How to retrieve the validation formula.
 
-// Get the first formula.
+// Get the formula1 for a validation in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");

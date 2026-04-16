@@ -1,6 +1,6 @@
-// This example retrieves the worksheet that owns the AutoFilter.
+// Retrieve the worksheet that owns the AutoFilter.
 
-// How to navigate back from ApiAutoFilter to ApiWorksheet.
+// How to navigate back from auto filter to worksheet.
 
 // Navigating to the parent worksheet lets you access other ranges and objects on the same sheet.
 

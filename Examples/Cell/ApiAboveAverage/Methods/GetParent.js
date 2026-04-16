@@ -1,8 +1,8 @@
-// This example shows how to get parent range from above average rule.
+// Get parent range from above average rule in a spreadsheet.
 
 // How to retrieve the parent object of above average conditional formatting.
 
-// Get the parent object that contains the above average rule.
+// Get the parent object that contains the above average rule in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

@@ -1,4 +1,8 @@
-// This example shows how to find out if the comment is solved or not.
+// Find out if the comment is solved or not in a presentation.
+
+// How can I is solved using a comment in a presentation?
+
+// Is solved for a comment in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

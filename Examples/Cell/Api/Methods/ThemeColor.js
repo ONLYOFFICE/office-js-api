@@ -1,4 +1,8 @@
-// This example shows how to create a theme color and use it as a shape fill.
+// Create a theme color and use it as a shape fill in a spreadsheet.
+
+// How do I theme color in a spreadsheet?
+
+// Theme color and display the result in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const color = Api.ThemeColor('accent6');

@@ -1,4 +1,4 @@
-// This example shows how to get the text properties from the form.
+// Get the text properties from the form in a document.
 
 // How to get a text properties of a text form.
 

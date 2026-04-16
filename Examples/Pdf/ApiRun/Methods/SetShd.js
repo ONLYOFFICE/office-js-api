@@ -1,8 +1,8 @@
-// This example specifies the shading applied to the contents of the current text run.
+// Specify the shading applied to the contents of the current text run in a PDF document.
 
-// How to add shading to the text.
+// How to add shading to the text in a PDF document.
 
-// Create a new text run and apply shading to it.
+// Create a new text run and apply shading to it in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

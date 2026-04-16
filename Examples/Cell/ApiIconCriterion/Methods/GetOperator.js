@@ -1,4 +1,8 @@
-// This example shows how to get the comparison operator of an icon criterion.
+// Get the comparison operator of an icon criterion in a spreadsheet.
+
+// How do I get the operator in a spreadsheet?
+
+// Get the operator using an icon criterion object in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 worksheet.GetRange('A1').SetValue('Scores');

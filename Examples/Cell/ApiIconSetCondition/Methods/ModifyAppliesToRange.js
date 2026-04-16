@@ -1,4 +1,4 @@
-// This example demonstrates modifying the range to which an icon set formatting rule applies.
+// Modifye the range to which an icon set formatting rule applies.
 
 // How to change the range where icon set conditional formatting is applied.
 

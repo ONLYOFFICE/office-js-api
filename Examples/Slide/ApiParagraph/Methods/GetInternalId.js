@@ -1,4 +1,8 @@
-// This example shows how to get the internal ID of a paragraph.
+// Get the internal ID of a paragraph in a presentation.
+
+// How do I get the internal id in a presentation?
+
+// Get the internal id using a paragraph object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

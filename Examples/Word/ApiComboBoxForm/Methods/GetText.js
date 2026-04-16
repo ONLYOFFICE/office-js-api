@@ -1,8 +1,8 @@
-// This example shows how to get the text from the form.
+// Get the text from the form in a document.
 
 // How to get text of a combobox form.
 
-// Display text of the combobox.
+// Display text of the combobox in a document.
 
 let doc = Api.GetDocument();
 let comboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});

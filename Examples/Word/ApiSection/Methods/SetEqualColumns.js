@@ -1,8 +1,8 @@
-// This example specifies that all the text columns in the current section are of equal width.
+// Specify that all the text columns in the current section are of equal width in a document.
 
-// How to split the text into 3 equal columns.
+// How to split the text into 3 equal columns in a document.
 
-// Get the final section and set its columns.
+// Get the final section and set its columns in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

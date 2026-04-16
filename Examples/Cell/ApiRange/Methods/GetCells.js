@@ -1,4 +1,4 @@
-// This example shows how to get a Range object that represents all the cells in the specified range or a specified cell.
+// Get a Range object that represents all the cells in the specified range or a specified cell in a spreadsheet.
 
 // How to get range cells.
 

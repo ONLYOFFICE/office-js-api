@@ -1,4 +1,8 @@
-// This example shows how to delete an attribute from the current XML node.
+// Delete an attribute from the current XML node in a presentation.
+
+// How do I delete the attribute in a presentation?
+
+// Delete the attribute using a custom XML node object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

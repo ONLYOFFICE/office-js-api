@@ -1,8 +1,8 @@
-// This example creates no fill and removes the fill from the element.
+// Create no fill and remove the fill from the element in a PDF document.
 
-// How to remove background fill from the object.
+// How to remove background fill from the object in a PDF document.
 
-// Create no fill and apply it to the element.
+// Create no fill and apply it to the element in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

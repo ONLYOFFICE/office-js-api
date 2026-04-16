@@ -1,8 +1,8 @@
-// This example creates an RGB color setting the appropriate values for the red, green and blue color components.
+// Create an RGB color setting the appropriate values for the red, green and blue color components in a spreadsheet.
 
-// How to create an RGB color.
+// How to create an RGB color in a spreadsheet.
 
-// Use RGB (R-red, G-green, B-blue) values to create colors.
+// Use RGB (R-red, G-green, B-blue) values to create colors in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let gs1 = Api.CreateGradientStop(Api.RGB(255, 213, 191), 0);

@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the presentation.
+// Check the class type returned by a placeholder in a presentation.
 
-// How to get a class type of ApiPlaceholder.
+// How do I check what type a placeholder object is in a presentation?
 
-// Retrieve class type of ApiPlaceholder object and insert it to the slide.
+// Retrieve and output the class type string for a placeholder in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

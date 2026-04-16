@@ -1,8 +1,8 @@
-// This example sets a style to run.
+// Set a style to run in a document.
 
-// How to style a text.
+// How to style a text in a document.
 
-// Create a text run object, create a text style and apply it.
+// Create a text run object, create a text style and apply it in a document.
 
 let doc = Api.GetDocument();
 let myNewRunStyle = doc.CreateStyle("My New Run Style", "run");

@@ -1,6 +1,6 @@
-// This example show get drawing parent sheet.
+// Show get drawing parent sheet in a spreadsheet.
 
-// How to know a parent sheet of a shape.
+// How to know a parent sheet of a shape in a spreadsheet.
 
 // Get a shape's parent sheet and display it in the worksheet.
 

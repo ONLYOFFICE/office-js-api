@@ -1,8 +1,8 @@
-// This example shows how to crate a stroke.
+// Crate a stroke in a presentation.
 
-// How to add a stroke to the shape.
+// How to add a stroke to the shape in a presentation.
 
-// Add solid fill and stroke to the shape properties.
+// Add solid fill and stroke to the shape properties in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

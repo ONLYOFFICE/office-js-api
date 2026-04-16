@@ -1,8 +1,8 @@
-// This example specifies the minor tick mark for the horizontal axis.
+// Specify the minor tick mark for the horizontal axis in a document.
 
-// How to change a tickmark of a minor horizontal axis.
+// How to change a tickmark of a minor horizontal axis in a document.
 
-// Create a chart and set its minor horizontal axis tickmark as a out symbol.
+// Create a chart and set its minor horizontal axis tickmark as an out symbol in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

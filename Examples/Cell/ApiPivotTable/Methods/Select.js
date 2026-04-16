@@ -1,8 +1,8 @@
-// This example shows how to select a pivot table.
+// Select a pivot table in a spreadsheet.
 
-// How to select a table.
+// How to select a table in a spreadsheet.
 
-// Create a pivot table, add data to it then select it.
+// Create a pivot table, add data to it then select it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

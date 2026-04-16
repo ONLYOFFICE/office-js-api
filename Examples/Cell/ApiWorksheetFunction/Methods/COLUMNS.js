@@ -1,8 +1,8 @@
-// This example shows how to return the number of columns in the cell range.
+// Return the number of columns in the cell range in a spreadsheet.
 
-// How to find a number of columns from a range.
+// How to find a number of columns from a range in a spreadsheet.
 
-// Use function to count range column.
+// Use function to count range column in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

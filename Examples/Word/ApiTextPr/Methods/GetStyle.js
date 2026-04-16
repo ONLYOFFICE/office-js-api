@@ -1,6 +1,6 @@
-// This example finds out whether a text has the properties set.
+// Find out whether a text has the properties set in a document.
 
-// How to know whether a text's style is changed or not.
+// How to know whether a text's style is changed or not in a document.
 
 // Retrieve text properties of the form and display its style name.
 

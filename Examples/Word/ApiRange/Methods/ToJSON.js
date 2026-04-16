@@ -1,6 +1,6 @@
-// This example converts the ApiRange object into the JSON object.
+// Convert the cell range object into the JSON object.
 
-// How to get a JSON from the range.
+// How to get a JSON from the range in a document.
 
 // Convert the range content to json and add it to the document.
 

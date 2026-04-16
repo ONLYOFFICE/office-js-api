@@ -1,8 +1,8 @@
-// This example sets the screen tip text of the hyperlink.
+// Set the screen tip text of the hyperlink in a PDF document.
 
-// How to specify the hyperlink screen tip text.
+// How to specify the hyperlink screen tip text in a PDF document.
 
-// Set the screen tip text of the link.
+// Set the screen tip text of the link in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Retrieve the class type of a drawing object in a spreadsheet.
 
-// How to get a class type of ApiDrawing.
+// How to identify the class type of a drawing object in a spreadsheet?
 
-// Get a class type of ApiDrawing and display it in the worksheet.
+// Obtain the class type identifier of a drawing object object in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

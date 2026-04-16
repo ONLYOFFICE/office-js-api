@@ -1,6 +1,6 @@
-// This example sets highlight color "lightGray" for the paragraph.
+// Set highlight color "lightGray" for the paragraph in a PDF document.
 
-// How to create a paragraph and highlight it with color.
+// How to create a paragraph and highlight it with color in a PDF document.
 
 // Set a light gray highlight color to a paragraph and insert it to the page shape.
 

@@ -1,4 +1,8 @@
-// This example shows how to get the border color of the block-level container.
+// Get the border color of the block-level container in a document.
+
+// How do I get the border color in a document?
+
+// Get the border color using a block-level content control object in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

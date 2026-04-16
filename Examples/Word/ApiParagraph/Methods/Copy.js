@@ -1,8 +1,8 @@
-// This example creates a paragraph copy.
+// Create a paragraph copy in a document.
 
-// How to add a duplicate paragraph.
+// How to add a duplicate paragraph in a document.
 
-// Copy a paragraph.
+// Copy a paragraph using the paragraph API in a document.
 
 let doc = Api.GetDocument();
 let paragraph1 = doc.GetElement(0);

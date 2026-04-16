@@ -1,4 +1,8 @@
-// This example sets the trigger type for an animation effect.
+// Set the trigger type for an animation effect in a presentation.
+
+// How to set trigger type for an animation effect in a presentation?
+
+// Set trigger type and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

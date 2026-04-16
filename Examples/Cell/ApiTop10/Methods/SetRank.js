@@ -1,8 +1,8 @@
-// This example shows how to change the rank value for top 10 condition.
+// Change the rank value for top 10 condition in a spreadsheet.
 
-// How to set the number of top or bottom values to highlight in the condition.
+// How to set the number of top or bottom values to highlight in the condition in a spreadsheet.
 
-// Change the rank value for the top 10 rule.
+// Change the rank value for the top 10 rule in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// This example shows how to get data fields.
+// Get data fields in a spreadsheet.
 
-// How to get data fields from a pivot table.
+// How to get data fields from a pivot table in a spreadsheet.
 
-// Create a pivot table, add data to it then get data fields from it.
+// Create a pivot table, add data to it then get data fields from it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

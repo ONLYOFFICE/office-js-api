@@ -1,8 +1,8 @@
-// This example specifies the alignment which will be applied to the contents of the current run in relation to the default appearance of the text run.
+// Specify the alignment which will be applied to the contents of the current run in relation to the default appearance of the text run in a spreadsheet.
 
-// How to change vertical alignment of a text.
+// How to change vertical alignment of a text in a spreadsheet.
 
-// Make text superscript.
+// Make text superscript using the text properties API in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

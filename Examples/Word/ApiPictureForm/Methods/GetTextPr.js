@@ -1,4 +1,4 @@
-// This example returns the text properties from the current form.
+// Return the text properties from the current form.
 
 // How to get text properties the picture form.
 

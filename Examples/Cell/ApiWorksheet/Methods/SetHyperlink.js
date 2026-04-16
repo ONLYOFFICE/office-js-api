@@ -1,6 +1,6 @@
-// This example adds a hyperlink to the specified range.
+// Add a hyperlink to the specified range in a spreadsheet.
 
-// How to add hyperlinks to the range.
+// How to add hyperlinks to the range in a spreadsheet.
 
 // Add a hyperlink to the cell.
 

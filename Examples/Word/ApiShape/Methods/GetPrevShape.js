@@ -1,8 +1,8 @@
-// This example shows how to get the previous inline shape.
+// Get the previous inline shape in a document.
 
-// How to get previous shape from the current one.
+// How to get previous shape from the current one in a document.
 
-// Color the previous shape with a solid fill.
+// Color the previous shape with a solid fill in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

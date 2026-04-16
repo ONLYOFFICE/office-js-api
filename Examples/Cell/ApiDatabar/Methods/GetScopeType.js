@@ -1,4 +1,4 @@
-// This example demonstrates getting the scope type of a data bar formatting rule.
+// Get the scope type of a data bar formatting rule.
 
 // How to retrieve the scope type of a data bar conditional formatting.
 

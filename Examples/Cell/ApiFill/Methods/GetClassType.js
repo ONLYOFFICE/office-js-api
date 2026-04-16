@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Retrieve the class type of a fill in a spreadsheet.
 
-// How to get a class type of ApiFill.
+// How to identify the class type of a fill in a spreadsheet?
 
-// Get a class type of ApiFill and display it in the worksheet.
+// Obtain the class type identifier of a fill object in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let gradientStop1 = Api.CreateGradientStop(Api.RGB(255, 213, 191), 0);

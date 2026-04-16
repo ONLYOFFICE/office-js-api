@@ -1,8 +1,8 @@
-// This example gets the pivot table condition status for the top 10 conditional formatting rule.
+// Get the pivot table condition status for the top 10 conditional formatting rule.
 
 // How to check if conditional formatting rule is related to pivot tables.
 
-// Get top 10 rule pivot table condition.
+// Get top 10 rule pivot table condition in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

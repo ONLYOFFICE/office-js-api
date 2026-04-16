@@ -1,8 +1,8 @@
-// This example shows how to return the unit matrix for the specified dimension.
+// Return the unit matrix for the specified dimension in a spreadsheet.
 
-// How to get a unit matrix.
+// How to get an unit matrix in a spreadsheet.
 
-// Use a function to get a unit matrix specifying dimension.
+// Use a function to get an unit matrix specifying dimension in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

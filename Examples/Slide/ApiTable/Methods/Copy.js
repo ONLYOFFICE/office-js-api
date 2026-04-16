@@ -1,4 +1,4 @@
-// This example creates a copy of the table.
+// Create a copy of the table in a presentation.
 
 // How to copy a table and add it to the slide.
 

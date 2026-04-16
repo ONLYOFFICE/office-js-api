@@ -1,5 +1,9 @@
-// Gets the width of a stroke in EMU.
-// Creates shapes with different border widths and displays their widths.
+// Get the width of a stroke in EMU. Creates shapes with different border widths and display their widths in a PDF document.
+
+// How can I get the width using a stroke in a PDF document?
+
+// Get the width for a stroke in a PDF document.
+
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 

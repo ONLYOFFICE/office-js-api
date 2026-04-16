@@ -1,4 +1,8 @@
-// This example demonstrates how to add string custom properties to a document.
+// Add string custom properties to a document in a document.
+
+// How do I add in a document?
+
+// Add using a custom properties object in a document.
 
 const doc = Api.GetDocument();
 const customProps = doc.GetCustomProperties();

@@ -1,8 +1,8 @@
-// This example converts the ApiPresetColor object into the JSON object.
+// Convert the preset color object into the JSON object in a document.
 
-// How to get a JSON from the preset color object.
+// How to get a JSON from the preset color object in a document.
 
-// Convert the preset color element to json and add it to the paragraph.
+// Convert the preset color element to json and add it to the paragraph in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

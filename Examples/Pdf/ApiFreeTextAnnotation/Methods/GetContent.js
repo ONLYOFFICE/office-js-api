@@ -1,4 +1,9 @@
-// This example gets rich content of freeText annotation.
+// Get rich content of freeText annotation in a PDF document.
+
+// How do I get the content in a PDF document?
+
+// Get the content using a free text annotation object in a PDF document.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

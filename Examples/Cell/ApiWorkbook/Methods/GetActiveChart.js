@@ -1,4 +1,4 @@
-// This example shows how to get currently active chart from the workbook
+// Get currently active chart from the workbook in a spreadsheet.
 
 const workbook = Api.GetActiveWorkbook();
 const worksheet = workbook.GetActiveSheet();

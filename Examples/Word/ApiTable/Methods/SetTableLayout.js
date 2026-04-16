@@ -1,8 +1,8 @@
-// This example specifies the algorithm which will be used to lay out the contents of the table within the document.
+// Specify the algorithm which will be used to lay out the contents of the table within the document.
 
-// How to set the table layout.
+// How to set the table layout in a document.
 
-// Create a table and make its layout fixed.
+// Create a table and make its layout fixed in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example demonstrates getting the parent object of an icon set rule.
+// Get the parent object of an icon set rule in a spreadsheet.
 
 // How to retrieve the parent object that contains icon set conditional formatting.
 
-// Get the parent object of the icon set rule.
+// Get the parent object of the icon set rule in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

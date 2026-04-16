@@ -1,4 +1,4 @@
-// This example modifies a data validation rule for a range of cells.
+// Modify a data validation rule for a range of cells.
 
 // How to change data validation for a range of cells.
 

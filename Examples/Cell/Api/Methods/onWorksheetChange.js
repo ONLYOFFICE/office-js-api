@@ -1,4 +1,4 @@
-// This example shows how to handle onWorksheetChange named event.
+// Handle onWorksheetChange named event in a spreadsheet.
 
 // How to attach events, for example, onWorksheetChange one.
 

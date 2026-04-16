@@ -1,6 +1,6 @@
-// This example demonstrates getting the minimum point type from a data bar conditional formatting rule.
+// Get the minimum point type from a data bar conditional formatting rule.
 
-// How to check the type of the minimum condition value.
+// How to check the type of the minimum condition value in a spreadsheet.
 
 // Get the minimum point type of a data bar conditional formatting rule.
 

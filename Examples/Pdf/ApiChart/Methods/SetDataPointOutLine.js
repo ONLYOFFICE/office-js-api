@@ -1,6 +1,8 @@
-// How to outline data points.
+// How to outline data points in a PDF document.
 
-// Create a chart then apply outline to its data points.
+// Create a chart then apply outline to its data points in a PDF document.
+
+// Use chart to set data point out line in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

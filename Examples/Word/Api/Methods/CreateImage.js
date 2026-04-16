@@ -1,8 +1,8 @@
-// This example creates an image and pastes it into the document.
+// Create an image and paste it into the document.
 
-// Creates the ApiImage object and adds it to the ApiParagraph class.
+// Create the image object and add it to the paragraph class in a document.
 
-// How to create the ApiImage object using the URL to the image, its width and height.
+// How to create the image object using the URL to the image, its width and height in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

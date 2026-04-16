@@ -1,8 +1,8 @@
-// This example shows how to set the text content of a custom XML node.
+// Set the text content of a custom XML node in a presentation.
 
-// How to set text content on an XML node.
+// How to set text content on an XML node in a presentation.
 
-// Set XML node text.
+// Set XML node text using the custom XML node API in a presentation.
 
 let presentation = Api.GetPresentation();
 let xmlManager = presentation.GetCustomXmlParts();

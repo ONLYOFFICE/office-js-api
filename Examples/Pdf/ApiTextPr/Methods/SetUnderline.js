@@ -1,8 +1,8 @@
-// This example specifies that the contents of the run are displayed along with a line appearing directly below the character (less than all the spacing above and below the characters on the line).
+// Specify that the contents of the run are displayed along with a line appearing directly below the character (less than all the spacing above and below the characters on the line) in a PDF document.
 
-// How to underline a text.
+// How to underline a text in a PDF document.
 
-// Get the text properties of the run and underline its text.
+// Get the text properties of the run and underline its text in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

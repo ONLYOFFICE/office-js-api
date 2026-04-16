@@ -1,4 +1,4 @@
-// This example shows how to set data to forms.
+// Set data to forms in a document.
 
 // How to set forms data in the document.
 

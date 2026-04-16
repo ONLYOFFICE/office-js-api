@@ -1,8 +1,8 @@
-// This example shows how to return the effective annual interest rate.
+// Return the effective annual interest rate in a spreadsheet.
 
-// How to get an effective annual interest rate.
+// How to get an effective annual interest rate in a spreadsheet.
 
-// Use function to get effective annual interest rate.
+// Use function to get effective annual interest rate in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

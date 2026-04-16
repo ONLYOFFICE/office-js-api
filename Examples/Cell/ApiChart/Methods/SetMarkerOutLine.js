@@ -1,10 +1,10 @@
-// This example sets the outline to the marker in the specified chart series.
+// Set the outline to the marker in the specified chart series in a spreadsheet.
 
-// Create the "scatter" chart and set an outline of the specified width and color to its markers.
+// Create the "scatter" chart and set an outline of the specified width and color to its markers in a spreadsheet.
 
-// How to use the ApiStroke object as an outline of the chart markers.
+// How to use the stroke object as an outline of the chart markers in a spreadsheet.
 
-// How to outline the markers of the ApiChart object.
+// How to outline the markers of the chart object in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

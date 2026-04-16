@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the pdf document.
+// Retrieve the class type of a RGB color in a PDF document.
 
-// How to get a class type of ApiRGBColor.
+// How to identify the class type of a RGB color in a PDF document?
 
-// Retrieve class type of ApiRGBColor object and insert it to the page.
+// Obtain the class type identifier of a RGB color object in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// This example shows how to delete a data field.
+// Delete a data field in a spreadsheet.
 
-// How to remove a table element.
+// How to remove a table element in a spreadsheet.
 
-// Create a pivot table, add data to it then delete a custom data field.
+// Create a pivot table, add data to it then delete a custom data field in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

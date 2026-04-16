@@ -1,4 +1,4 @@
-// This example adds a comment to the document.
+// Add a comment to the document.
 
 // How to comment the document.
 

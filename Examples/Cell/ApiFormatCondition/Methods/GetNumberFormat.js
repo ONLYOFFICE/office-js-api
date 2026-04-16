@@ -1,4 +1,4 @@
-// This example gets the number format of a conditional formatting rule.
+// Get the number format of a conditional formatting rule.
 
 // How to retrieve number formatting from conditional formatting rules.
 

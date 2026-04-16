@@ -1,4 +1,9 @@
-// This example shows how to set the rotation angle to the drawing.
+// Set the rotation angle to the drawing in a spreadsheet.
+
+// How do I set rotation in a spreadsheet?
+
+// Set rotation using a drawing object object in a spreadsheet.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

@@ -1,4 +1,8 @@
-// This example shows how to add text to the body shape of the notes page.
+// Add text to the body shape of the notes page in a presentation.
+
+// How do I add the body shape text in a presentation?
+
+// Add the body shape text using a notes page object.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,4 +1,8 @@
-// This example shows how to get the type of the selection in different scenarios.
+// Get the type of the selection in different scenarios in a presentation.
+
+// How can I get the type using a selection in a presentation?
+
+// Get the type for a selection in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

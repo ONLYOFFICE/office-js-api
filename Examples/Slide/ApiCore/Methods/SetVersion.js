@@ -1,4 +1,8 @@
-// This example demonstrates how to set and get the version of the current presentation.
+// Set and get the version of the current presentation in a presentation.
+
+// How to set version for a core properties in a presentation?
+
+// Set version and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const core = presentation.GetCore();

@@ -1,8 +1,8 @@
-// This example sets the absolute measurement for the horizontal positioning of the floating object.
+// Set the absolute measurement for the horizontal positioning of the floating object in a document.
 
-// How to set the horizontal position property of the shape.
+// How to set the horizontal position property of the shape in a document.
 
-// Create a drawing, add text to it and set its horizontal position.
+// Create a drawing, add text to it and set its horizontal position in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

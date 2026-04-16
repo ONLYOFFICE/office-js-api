@@ -1,4 +1,9 @@
-// This example clears content from rich run object.
+// Clear content from rich run object in a PDF document.
+
+// How do I clear content in a PDF document?
+
+// Clear content using a rich text run object in a PDF document.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

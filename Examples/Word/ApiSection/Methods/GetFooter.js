@@ -1,8 +1,8 @@
-// This example shows how to get the content for the specified footer type.
+// Get the content for the specified footer type in a document.
 
 // How to get the footer of the page.
 
-// Get the default footer from the final section. 
+// Get the default footer from the final section in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

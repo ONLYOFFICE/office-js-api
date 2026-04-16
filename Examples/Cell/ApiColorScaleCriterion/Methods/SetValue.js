@@ -1,8 +1,8 @@
-// This example demonstrates setting the value of color scale criterion.
+// Set the value of color scale criterion in a spreadsheet.
 
-// How to change the value of a color scale criterion.
+// How to change the value of a color scale criterion in a spreadsheet.
 
-// Set the value of a color scale criterion.
+// Set the value of a color scale criterion in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

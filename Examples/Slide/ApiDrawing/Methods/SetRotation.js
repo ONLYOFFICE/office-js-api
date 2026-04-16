@@ -1,4 +1,8 @@
-// This example shows how to set the rotation angle to the drawing.
+// Set the rotation angle to the drawing in a presentation.
+
+// How to set rotation for a drawing object in a presentation?
+
+// Set rotation and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

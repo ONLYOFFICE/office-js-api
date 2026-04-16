@@ -1,6 +1,6 @@
-// This example sets the master background as the background of the layout.
+// Set the master background as the background of the layout in a presentation.
 
-// How to apply master background to the layout.
+// How to apply master background to the layout in a presentation.
 
 // Change background of the presentation layout to the background of a master.
 

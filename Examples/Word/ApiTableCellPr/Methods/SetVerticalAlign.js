@@ -1,4 +1,4 @@
-// This example specifies the vertical alignment for the text contents within the table cell.
+// Specify the vertical alignment for the text contents within the table cell.
 
 // Set text vertical alignment to the cell.
 

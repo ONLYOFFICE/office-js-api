@@ -1,4 +1,4 @@
-// This example sets the layout background as the background of the slide.
+// Set the layout background as the background of the slide.
 
 // How to set a slide's background same as the layout's.
 

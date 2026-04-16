@@ -1,8 +1,8 @@
-// This example sets the vertical alignment of the text in the cell range.
+// Set the vertical alignment of the text in the cell range.
 
 // How to change the vertical alignment of the cell content.
 
-// Change the vertical alignment of the ApiRange content to distributed.
+// Change the vertical alignment of the cell range content to distributed.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1:D5");

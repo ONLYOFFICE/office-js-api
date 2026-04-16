@@ -1,8 +1,8 @@
-// This example specifies the major tick mark for the vertical axis.
+// Specify the major tick mark for the vertical axis in a presentation.
 
-// How to set a major tick mark using predefined symbols.
+// How to set a major tick mark using predefined symbols in a presentation.
 
-// Create a chart, set its properties and major tick mark for vertical axis.
+// Create a chart, set its properties and major tick mark for vertical axis in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// This example creates a linear gradient fill to apply to the object using the selected linear gradient as the object background.
+// Create a linear gradient fill to apply to the object using the selected linear gradient as the object background in a PDF document.
 
-// How to create a linear gradient fill to set it as a drawing background.
+// How to create a linear gradient fill to set it as a drawing background in a PDF document.
 
-// Change a drawing background using gradient fill.
+// Change a drawing background using gradient fill in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

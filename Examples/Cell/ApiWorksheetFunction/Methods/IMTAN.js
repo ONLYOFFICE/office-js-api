@@ -1,8 +1,8 @@
-// This example shows how to return the tangent of a complex numbers.
+// Return the tangent of a complex numbers in a spreadsheet.
 
-// How to get a tangent of a complex numbers.
+// How to get a tangent of a complex numbers in a spreadsheet.
 
-// Use a function to get the tangent.
+// Use a function to get the tangent in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

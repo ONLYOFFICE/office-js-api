@@ -1,4 +1,8 @@
-// This example shows how to get content of the drawing.
+// Get content of the drawing in a spreadsheet.
+
+// How do I get the content in a spreadsheet?
+
+// Get the content using a drawing object object in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

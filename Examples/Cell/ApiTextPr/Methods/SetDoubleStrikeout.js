@@ -1,8 +1,8 @@
-// This example specifies that the contents of the run are displayed with two horizontal lines through each character displayed on the line.
+// Specify that the contents of the run are displayed with two horizontal lines through each character displayed on the line in a spreadsheet.
 
-// How to strike out a text with two lines.
+// How to strike out a text with two lines in a spreadsheet.
 
-// Cross out a text with two lines.
+// Cross out a text with two lines in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

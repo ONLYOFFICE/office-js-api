@@ -1,8 +1,8 @@
-// This example gets the pivot table condition of color scale formatting.
+// Get the pivot table condition of color scale formatting.
 
 // How to retrieve pivot table condition object for color scale conditional formatting.
 
-// Get color scale pivot table condition.
+// Get color scale pivot table condition in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

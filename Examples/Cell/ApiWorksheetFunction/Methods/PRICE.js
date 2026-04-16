@@ -1,8 +1,8 @@
-// This example shows how to return the price per $100 face value for a security that pays periodic interest.
+// Return the price per $100 face value for a security that pays periodic interest in a spreadsheet.
 
-// How to return the price per $100 face value.
+// How to return the price per $100 face value in a spreadsheet.
 
-// Use a function to return the price per $100 face value for a security.
+// Use a function to return the price per $100 face value for a security in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

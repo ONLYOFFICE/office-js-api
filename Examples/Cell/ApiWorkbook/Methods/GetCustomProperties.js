@@ -1,4 +1,8 @@
-// This example demonstrates how to get ApiCustomProperties object of the workbook
+// Get custom properties object of the workbook in a spreadsheet.
+
+// How can I get custom properties using a workbook in a spreadsheet?
+
+// Get custom properties for a workbook in a spreadsheet.
 
 const workbook = Api.GetActiveWorkbook();
 const customProps = workbook.GetCustomProperties();

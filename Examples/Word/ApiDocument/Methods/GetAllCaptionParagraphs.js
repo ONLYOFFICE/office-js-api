@@ -1,8 +1,8 @@
-// This example shows how to get all caption paragraphs of the specified type from the current document.
+// Get all caption paragraphs of the specified type from the current document in a document.
 
-// Get all caption paragraphs with the name 'Figure' and make the first one capitalized.
+// Get all caption paragraphs with the name 'Figure' and make the first one capitalized in a document.
 
-// Make the caption text letters uppercase.
+// Make the caption text letters uppercase in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

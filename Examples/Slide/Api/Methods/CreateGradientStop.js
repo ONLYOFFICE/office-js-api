@@ -1,8 +1,8 @@
-// This example shows how to create a gradient stop used for different types of gradients.
+// Create a gradient stop used for different types of gradients in a presentation.
 
-// How to add a gradient stop for gradient.
+// How to add a gradient stop for gradient in a presentation.
 
-// Create a stop for a gradient.
+// Create a stop for a gradient in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

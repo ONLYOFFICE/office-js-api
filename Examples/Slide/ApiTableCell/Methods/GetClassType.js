@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the presentation.
+// Retrieve the class type of a table cell in a presentation.
 
-// How to get a class type of ApiTableCell.
+// How to identify the class type of a table cell?
 
-// Retrieve class type of ApiTableCell object and insert it to the slide.
+// Obtain the class type identifier of a table cell object.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

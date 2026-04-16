@@ -1,4 +1,4 @@
-// This example shows how to get a report about every change which was made to the document in the review mode.
+// Get a report about every change which was made to the document in the review mode.
 
 // How to get the report after the document review.
 

@@ -1,6 +1,6 @@
-// This example demonstrates setting the minimum percentage length of a data bar conditional formatting rule.
+// Set the minimum percentage length of a data bar conditional formatting rule.
 
-// How to change the minimum length setting of a data bar.
+// How to change the minimum length setting of a data bar in a spreadsheet.
 
 // Set the minimum percentage length of a data bar conditional formatting rule.
 

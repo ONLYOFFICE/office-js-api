@@ -1,4 +1,4 @@
-// This example shows how to get the table cell properties of the style.
+// Get the table cell properties of the style in a document.
 
 // How to get table cell properties and add shading to it.
 

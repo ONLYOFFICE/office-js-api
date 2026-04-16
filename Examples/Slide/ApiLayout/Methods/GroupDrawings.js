@@ -1,8 +1,8 @@
-// This example shows how to group drawings on layout.
+// Group drawings on layout in a presentation.
 
-// How to group drawings.
+// How to group drawings in a presentation.
 
-// Create two shapes and group them.
+// Create two shapes and group them in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

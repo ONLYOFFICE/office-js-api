@@ -1,6 +1,8 @@
-// This example shows how to create a form with three radio buttons and specify choice names for each radio button.
-// The radio buttons are grouped together by setting the same radio group key for each radio button.
-// The radio group key is displayed at the end of the document.
+// Create a form with three radio buttons and specify choice names for each radio button. The radio buttons are grouped together by setting the same radio group key for each radio button. The radio group key is displayed at the end of the document in a document.
+
+// How can I set choice name using a checkbox form in a document?
+
+// Set choice name for a checkbox form in a document.
 
 let doc = Api.GetDocument();
 

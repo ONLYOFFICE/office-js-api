@@ -1,9 +1,8 @@
-// This example shows how to calculate variance based on the entire population, including logical values and text. Text and the false logical value have the value 0; the true logical value has the value 1.
+// Calculate variance based on the entire population, including logical values and text. Text and the false logical value have the value 0; the true logical value has the value 1 in a spreadsheet.
 
-// How to estimate variance based on the entire population considering logical values and text.
+// How to estimate variance based on the entire population considering logical values and text in a spreadsheet.
 
-// Use a function to estimate variance based on population not ignoring logical values and text.
-
+// Use a function to estimate variance based on population not ignoring logical values and text in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

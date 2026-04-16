@@ -1,8 +1,8 @@
-// This example adds an object (image, shape or chart) to the current pdf page.
+// Add an object (image, shape or chart) to the current pdf page.
 
 // How to add an element to the page.
 
-// Create a chart and add it to the ApiPage object.
+// Create a chart and add it to the page object.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

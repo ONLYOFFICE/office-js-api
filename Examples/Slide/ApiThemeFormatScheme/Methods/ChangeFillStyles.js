@@ -1,4 +1,4 @@
-// This example sets the fill styles to the current theme format scheme.
+// Set the fill styles to the current theme format scheme.
 
 // How to change fill styles of a format scheme.
 

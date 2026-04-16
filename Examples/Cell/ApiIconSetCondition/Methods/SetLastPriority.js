@@ -1,8 +1,8 @@
-// This example demonstrates setting an icon set rule to last priority.
+// Set an icon set rule to last priority in a spreadsheet.
 
 // How to move icon set conditional formatting to last evaluation priority.
 
-// Set the icon set rule to be evaluated last.
+// Set the icon set rule to be evaluated last in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

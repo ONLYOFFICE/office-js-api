@@ -1,8 +1,8 @@
-// This example deletes a color scale conditional formatting rule.
+// Delete a color scale conditional formatting rule.
 
 // How to remove color scale formatting from a range.
 
-// Delete color scale rule.
+// Delete and display the result in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

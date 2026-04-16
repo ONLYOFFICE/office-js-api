@@ -1,10 +1,10 @@
-// This example pushes a paragraph to actually add it to the container.
+// Pushes a paragraph to actually add it to the container in a document.
 
-// Creates a block content control and pushes a paragraph to it.
+// Create a block content control and pushes a paragraph to it in a document.
 
-// How to add a document element (paragraph, table, or block content control) to the ApiBlockLvlSdt object.
+// How to add a document element (paragraph, table, or block content control) to the block-level content control object.
 
-// Creates the ApiParagraph object, adds a text to it, and pushes it to the block container.
+// Create the paragraph object, add a text to it, and pushes it to the block container in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

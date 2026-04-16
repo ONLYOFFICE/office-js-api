@@ -1,8 +1,8 @@
-// This example creates a stroke adding shadows to the element.
+// Create a stroke adding shadows to the element in a spreadsheet.
 
-// How to create a stroke with a gradient fill.
+// How to create a stroke with a gradient fill in a spreadsheet.
 
-// Set a gradient stroke for a shape.
+// Set a gradient stroke for a shape in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let gs1 = Api.CreateGradientStop(Api.RGB(255, 213, 191), 0);

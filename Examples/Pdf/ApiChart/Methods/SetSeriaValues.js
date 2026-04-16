@@ -1,6 +1,8 @@
-// How to set values to the specified ApiChart object.
+// How to set values to the specified chart object in a PDF document.
 
-// Create a chart, set its properties and its series values.
+// Create a chart, set its properties and its series values in a PDF document.
+
+// Set seria values using a chart object in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

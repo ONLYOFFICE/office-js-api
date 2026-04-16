@@ -1,4 +1,8 @@
-// This example shows how to serialize a paragraph to JSON format.
+// Serialize a paragraph to JSON format in a spreadsheet.
+
+// How to to j s o n for a paragraph in a spreadsheet?
+
+// To j s o n and display the result in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

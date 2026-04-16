@@ -1,4 +1,4 @@
-// This example demonstrates setting the priority value of a data bar formatting rule.
+// Set the priority value of a data bar formatting rule.
 
 // How to change the evaluation priority of a data bar conditional formatting.
 

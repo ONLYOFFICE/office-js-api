@@ -1,6 +1,8 @@
-// How to add values to horizontal axis for all series of scatter charts.
+// How to add values to horizontal axis for all series of scatter charts in a PDF document.
 
-// Fill all x-axis values of scattered charts series.
+// Fill all x-axis values of scattered charts series in a PDF document.
+
+// Use chart to set x values in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

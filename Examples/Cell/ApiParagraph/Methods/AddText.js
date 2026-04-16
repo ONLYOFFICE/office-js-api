@@ -1,8 +1,8 @@
-// This example adds some text to the paragraph.
+// Add some text to the paragraph in a spreadsheet.
 
-// How to add raw text to the paragraph.
+// How to add raw text to the paragraph in a spreadsheet.
 
-// Change content of the shape by adding a text.
+// Change content of the shape by adding a text in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

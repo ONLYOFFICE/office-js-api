@@ -1,8 +1,8 @@
-// This example shows how to set a name for data field.
+// Set a name for data field in a spreadsheet.
 
-// How to rename a table element.
+// How to rename a table element in a spreadsheet.
 
-// Create a pivot table, add data to it then set a custom data field's name.
+// Create a pivot table, add data to it then set a custom data field's name in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

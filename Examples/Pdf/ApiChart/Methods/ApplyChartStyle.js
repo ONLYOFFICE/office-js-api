@@ -1,6 +1,8 @@
-// How to change a style of a chart.
+// How to change a style of a chart in a PDF document.
 
-// Update chart style.
+// Update chart style in a PDF document.
+
+// Apply chart style for a chart in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

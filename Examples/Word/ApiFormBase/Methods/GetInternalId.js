@@ -1,4 +1,4 @@
-// This example shows how to get the internal id of a form.
+// Get the internal id of a form in a document.
 
 // How to get an internal id of a text form.
 

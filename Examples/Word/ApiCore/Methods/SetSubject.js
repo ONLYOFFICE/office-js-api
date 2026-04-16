@@ -1,4 +1,8 @@
-// This example demonstrates how to set the subject of the current document.
+// Set the subject of the current document in a document.
+
+// How can I set subject using a core properties in a document?
+
+// Set subject for a core properties in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

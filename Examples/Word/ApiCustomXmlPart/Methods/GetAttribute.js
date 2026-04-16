@@ -1,4 +1,9 @@
-//This example retrieves the value of the version attribute from the custom XML part.
+// Retrieve the value of the version attribute from the custom XML part in a document.
+
+// How do I get the attribute in a document?
+
+// Get the attribute using a custom XML part object in a document.
+
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
 let xml = xmlManager.Add("<content xmlns='http://example' version='1.0'></content>");

@@ -1,8 +1,8 @@
-// This example sets the text spacing measured in twentieths of a point.
+// Set the text spacing measured in twentieths of a point in a document.
 
-// How to resize spacing between words in a text run.
+// How to resize spacing between words in a text run in a document.
 
-// Create a new text run and set its spacing size (point * 20).
+// Create a new text run and set its spacing size (point * 20) in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

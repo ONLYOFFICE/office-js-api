@@ -1,8 +1,8 @@
-// This example specifies that all the small letter characters in the text run are formatted for display only as their capital letter character equivalents which are two points smaller than the actual font size specified for this text.
+// Specify that all the small letter characters in the text run are formatted for display only as their capital letter character equivalents which are two points smaller than the actual font size specified for this text.
 
-// How to make text uncapitalized.
+// How to make text uncapitalized in a spreadsheet.
 
-// Make all characters of a text as a small letter.
+// Make all characters of a text as a small letter in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

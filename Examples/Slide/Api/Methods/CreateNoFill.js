@@ -1,8 +1,8 @@
-// This example creates no fill and removes the fill from the element.
+// Create no fill and remove the fill from the element in a presentation.
 
-// How to remove background fill from the object.
+// How to remove background fill from the object in a presentation.
 
-// Create no fill and apply it to the element.
+// Create no fill and apply it to the element in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,6 +1,6 @@
-// This example shows how to get the superscript property of the specified font.
+// Get the superscript property of the specified font in a spreadsheet.
 
-// How to determine a font superscript property.
+// How to determine a font superscript property in a spreadsheet.
 
 // Get a boolean value that represents whether a font has a superscript property or not and show the value in the worksheet.
 

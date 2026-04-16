@@ -1,4 +1,8 @@
-// This example shows how to convert points to inches.
+// Convert points to inches in a presentation.
+
+// How to convert points to inches in a presentation?
+
+// Convert points to inches using the presentation API.
 
 const points = 1000;
 const inches = Api.PointsToInches(points);

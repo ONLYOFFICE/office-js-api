@@ -1,4 +1,4 @@
-// This example inserts a number of pages in the current document into the paragraph.
+// Insert a number of pages in the current document into the paragraph.
 
 // How to add the number of pages to the text.
 

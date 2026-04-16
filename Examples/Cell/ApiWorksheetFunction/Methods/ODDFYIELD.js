@@ -1,8 +1,8 @@
-// This example shows how to return the yield of a security with an odd first period.
+// Return the yield of a security with an odd first period in a spreadsheet.
 
-// How to get the yield of a security.
+// How to get the yield of a security in a spreadsheet.
 
-// Use a function to return a security yield.
+// Use a function to return a security yield in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

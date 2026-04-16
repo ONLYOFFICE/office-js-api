@@ -1,10 +1,10 @@
-// This example creates a copy of a block level content control.
+// Create a copy of a block level content control in a document.
 
-// Creates a block content control in the current document, copies it, and adds a copy to the same document.
+// Create a block content control in the current document, copy it, and add a copy to the same document.
 
-// How to create a copy of the ApiBlockLvlSdt object.
+// How to create a copy of the block-level content control object in a document.
 
-// Creates a block level container in the ApiDocument class, adds a text to it, and copies it into the same document.
+// Create a block level container in the document class, add a text to it, and copy it into the same document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

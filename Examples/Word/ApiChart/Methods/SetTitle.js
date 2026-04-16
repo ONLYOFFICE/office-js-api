@@ -1,8 +1,8 @@
-// This example specifies the chart title.
+// Specify the chart title in a document.
 
-// How to rename a chart.
+// How to rename a chart in a document.
 
-// Create a chart, set its properties and its title.
+// Create a chart, set its properties and its title in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

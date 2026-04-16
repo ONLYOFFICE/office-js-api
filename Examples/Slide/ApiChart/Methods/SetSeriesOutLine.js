@@ -1,8 +1,8 @@
-// This example sets the outline to the specified chart series.
+// Set the outline to the specified chart series in a presentation.
 
-// How to outline a chart seria.
+// How to outline a chart seria in a presentation.
 
-// Create a chart, set its properties and its series outline.
+// Create a chart, set its properties and its series outline in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

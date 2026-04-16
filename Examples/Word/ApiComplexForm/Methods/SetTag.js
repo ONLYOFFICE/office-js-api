@@ -1,4 +1,9 @@
-// This example shows how to set the form tag.
+// Set the form tag in a document.
+
+// How do I set tag in a document?
+
+// Set tag using a complex form object.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let complexForm = Api.CreateComplexForm({"key": "Complex1"});

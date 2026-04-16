@@ -1,8 +1,8 @@
-// This example shows how to get a style by its name.
+// Get a style by its name in a document.
 
-// How to get the style of the heading.
+// How to get the style of the heading in a document.
 
-// Display the style name of the "Heading 6".
+// Display the style name of the "Heading 6" in a document.
 
 let doc = Api.GetDocument();
 let noSpacingStyle = doc.GetStyle("Heading 6");

@@ -1,8 +1,8 @@
-// This example shows how to get the first paragraphs from all endnotes in the document.
+// Get the first paragraphs from all endnotes in the document.
 
-// How to get the first endnote paragraph, add text to it and make it bold.
+// How to get the first endnote paragraph, add text to it and make it bold in a document.
 
-// Retrieve all endnote first paragraph for further manipulation.
+// Retrieve all endnote first paragraph for further manipulation in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0); 

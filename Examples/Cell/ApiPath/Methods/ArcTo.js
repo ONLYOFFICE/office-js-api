@@ -1,5 +1,9 @@
-// Creates a complex curve shape using different bezier and arc commands.
-// Combines multiple curve types in a single path.
+// Create a complex curve shape using different bezier and arc commands. Combines multiple curve types in a single path in a spreadsheet.
+
+// How can I arc to using a geometry path in a spreadsheet?
+
+// Arc to for a geometry path in a spreadsheet.
+
 let worksheet = Api.GetActiveSheet();
 let customGeometry = Api.CreateCustomGeometry();
 let path = customGeometry.AddPath();

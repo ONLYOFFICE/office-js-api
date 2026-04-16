@@ -1,8 +1,8 @@
-// This example gets the validation alert style.
+// Get the validation alert style in a spreadsheet.
 
-// How to retrieve the validation alert style.
+// How to retrieve the validation alert style in a spreadsheet.
 
-// Get the validation alert style.
+// Get the validation alert style in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");

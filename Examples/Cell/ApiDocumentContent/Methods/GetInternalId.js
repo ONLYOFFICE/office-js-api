@@ -1,4 +1,8 @@
-// This example shows how to get the internal identifier of a document content element inside a shape.
+// Get the internal identifier of a document content element inside a shape in a spreadsheet.
+
+// How can I get the internal id using a document content in a spreadsheet?
+
+// Get the internal id for a document content in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const fill = Api.CreateSolidFill(Api.RGB(89, 130, 190));

@@ -1,8 +1,8 @@
-// This example shows how to get a value of a pivot item.
+// Get a value of a pivot item in a spreadsheet.
 
-// How to get a pivot item value.
+// How to get a pivot item value in a spreadsheet.
 
-// Create a pivot table, add data to it then get a value of a specified pivot item.
+// Create a pivot table, add data to it then get a value of a specified pivot item in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

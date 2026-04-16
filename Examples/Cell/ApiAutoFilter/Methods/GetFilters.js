@@ -1,6 +1,6 @@
-// This example reads filter information from the worksheet AutoFilter.
+// Read filter information from the worksheet AutoFilter.
 
-// How to inspect the criteria of existing filters.
+// How to inspect the criteria of existing filters in a spreadsheet.
 
 // Each ApiFilter object describes the criteria applied to one column of the AutoFilter range.
 

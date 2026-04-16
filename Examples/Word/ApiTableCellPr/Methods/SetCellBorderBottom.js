@@ -1,4 +1,4 @@
-// This example sets the border which will be displayed at the bottom of the table cell.
+// Set the border which will be displayed at the bottom of the table cell.
 
 // How to add border to the bottom of the cell.
 

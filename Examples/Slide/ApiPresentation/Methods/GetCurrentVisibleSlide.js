@@ -1,4 +1,8 @@
-// This example shows how to get an object for a Slide that is currently visible.
+// Get an object for a Slide that is currently visible in a presentation.
+
+// How can I get current visible slide using a presentation in a presentation?
+
+// Get current visible slide for a presentation in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetCurrentVisibleSlide();

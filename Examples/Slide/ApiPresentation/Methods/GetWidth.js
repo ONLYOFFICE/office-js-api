@@ -1,8 +1,8 @@
-// This example shows how to get the presentation width in English measure units.
+// Get the presentation width in English measure units in a presentation.
 
 // How to get a width of the presentation.
 
-// Get a width of the ApiPresentation object.
+// Get a width of the presentation object.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,6 +1,8 @@
-// How to get a class type of ApiTableCell.
+// Find out the class type of a table cell object.
 
-// Retrieve class type of ApiTableCell object and insert it to the page.
+// How can I get the class type of a table cell?
+
+// Get the class type of a table cell and display it in the PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// This example applies text settings to the specified style.
+// Apply text settings to the specified style in a document.
 
-// Creates a paragraph, adds a text to it, and sets the font size and bold property to this text.
+// Create a paragraph, add a text to it, and set the font size and bold property to this text in a document.
 
-// Specifies the ApiTextPr object and applies its settings to the ApiStyle object.
+// Specify the text properties object and apply its settings to the style object in a document.
 
 let doc = Api.GetDocument();
 let normalStyle = doc.GetDefaultStyle("paragraph");

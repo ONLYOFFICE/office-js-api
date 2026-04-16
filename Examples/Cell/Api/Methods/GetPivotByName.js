@@ -1,8 +1,8 @@
-// This example shows how to get pivot by its name.
+// Get pivot by its name in a spreadsheet.
 
-// How to get pivot knowing its pivot table name.
+// How to get pivot knowing its pivot table name in a spreadsheet.
 
-// Update pivot getting it by its name.
+// Update pivot getting it by its name in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange('B1').SetValue('Region');

@@ -1,4 +1,4 @@
-// This example specifies the default table cell spacing.
+// Specify the default table cell spacing.
 
 // How to set the size of the cell spacing.
 

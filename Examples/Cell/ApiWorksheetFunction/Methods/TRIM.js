@@ -1,8 +1,8 @@
-// This example shows how to remove all spaces from a text string except for single spaces between words.
+// Remove all spaces from a text string except for single spaces between words in a spreadsheet.
 
-// How to delete unneccessary spaces from the text.
+// How to delete unneccessary spaces from the text in a spreadsheet.
 
-// Use a function to clear spaces from a string.
+// Use a function to clear spaces from a string in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

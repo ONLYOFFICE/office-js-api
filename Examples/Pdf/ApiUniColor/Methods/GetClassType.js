@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the pdf document.
+// Find out the class type of a uni color object in a PDF document.
 
-// How to get a class type of ApiUniColor.
+// How can I get the class type of a uni color in a PDF document?
 
-// Retrieve class type of ApiUniColor object and insert it to the page.
+// Get the class type of a uni color and display it in the PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

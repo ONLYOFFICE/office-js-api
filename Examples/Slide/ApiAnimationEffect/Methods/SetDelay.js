@@ -1,4 +1,8 @@
-// This example sets the delay of an animation effect.
+// Set the delay of an animation effect in a presentation.
+
+// How do I set delay in a presentation?
+
+// Set delay using an animation effect object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

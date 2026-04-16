@@ -1,4 +1,8 @@
-// This example shows how to create an auto-color and use it as a font color.
+// Create an auto-color and use it as a font color in a document.
+
+// How to auto color in a document?
+
+// Auto color using the document API.
 
 const doc = Api.GetDocument();
 const color = Api.AutoColor();

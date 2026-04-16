@@ -1,4 +1,4 @@
-// This example adds data bar conditional formatting to a range.
+// Add data bar conditional formatting to a range.
 
 // How to add data bar conditional formatting rules to visualize cell values with bars.
 

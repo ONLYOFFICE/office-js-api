@@ -1,4 +1,9 @@
-// This example gets checkbox widget checked by default property.
+// Get checkbox widget checked by default property in a PDF document.
+
+// How to is checked by default for a checkbox widget in a PDF document?
+
+// Is checked by default and display the result in a PDF document.
+
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 let radiobuttonField = Api.CreateRadiobuttonField([10, 10, 25, 25]);

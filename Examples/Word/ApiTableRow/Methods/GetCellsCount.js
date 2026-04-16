@@ -1,4 +1,4 @@
-// This example shows how to get a number of cells in the row.
+// Get a number of cells in the row in a document.
 
 // How to count the cells of the row.
 

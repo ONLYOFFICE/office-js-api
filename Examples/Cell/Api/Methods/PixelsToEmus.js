@@ -1,4 +1,8 @@
-// This example shows how to convert pixels to english metric units.
+// Convert pixels to english metric units in a spreadsheet.
+
+// How to convert pixels to emus in a spreadsheet?
+
+// Convert pixels to emus using the spreadsheet API.
 
 const pixels = 1080;
 const emus = Api.PixelsToEmus(pixels);

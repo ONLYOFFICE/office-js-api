@@ -1,6 +1,6 @@
-// This example sets whether a dropdown list is displayed.
+// Set whether a dropdown list is displayed in a spreadsheet.
 
-// How to show or hide the validation dropdown list.
+// How to show or hide the validation dropdown list in a spreadsheet.
 
 // Set the InCellDropdown setting.
 

@@ -1,8 +1,8 @@
-// This example adds some text to the paragraph.
+// Add some text to the paragraph in a document.
 
-// How to insert the text to the paragraph.
+// How to insert the text to the paragraph in a document.
 
-// Add paragraph text.
+// Add the text and display the result in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

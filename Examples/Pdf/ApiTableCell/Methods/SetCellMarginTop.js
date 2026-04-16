@@ -1,6 +1,8 @@
 // How to set the cell top margin for the current table cell.
 
-// Specify the top margin value for the ApiTableCell object.
+// Specify the top margin value for the table cell object.
+
+// Set cell margin top using a table cell object.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

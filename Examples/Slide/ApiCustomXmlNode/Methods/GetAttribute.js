@@ -1,8 +1,8 @@
-// This example shows how to get an attribute value from a custom XML node.
+// Get an attribute value from a custom XML node in a presentation.
 
-// How to get an attribute from an XML node.
+// How to get an attribute from an XML node in a presentation.
 
-// Get an XML node attribute.
+// Get an XML node attribute in a presentation.
 
 let presentation = Api.GetPresentation();
 let xmlManager = presentation.GetCustomXmlParts();

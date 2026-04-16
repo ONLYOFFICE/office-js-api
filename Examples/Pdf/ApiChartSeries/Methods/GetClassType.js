@@ -1,8 +1,8 @@
-// This example gets a type of ApiChartSeries class and inserts it into the pdf document.
+// Retrieve the class type of a chart series in a PDF document.
 
-// How get a class type of ApiChartSeries.
+// How to identify the class type of a chart series in a PDF document?
 
-// Retrieve class type of ApiChartSeries object and insert it to the page.
+// Obtain the class type identifier of a chart series object in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

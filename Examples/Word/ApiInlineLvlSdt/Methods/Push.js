@@ -1,8 +1,8 @@
-// This example pushes a run to actually add it to the container.
+// Pushes a run to actually add it to the container in a document.
 
-// How to insert the text into the inline content control.
+// How to insert the text into the inline content control in a document.
 
-// Add the text run to the inline text element.
+// Add the text run to the inline text element in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,4 +1,8 @@
-// This example show how to get an array with all tables from the slide master.
+// Show how to get an array with all tables from the slide master.
+
+// How can I get all tables using a slide master in a presentation?
+
+// Get all tables for a slide master in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

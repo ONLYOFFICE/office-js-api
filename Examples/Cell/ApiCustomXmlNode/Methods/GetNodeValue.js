@@ -1,4 +1,8 @@
-// This example shows how to get the value of a custom XML node.
+// Get the value of a custom XML node in a spreadsheet.
+
+// How to get the node value for a custom XML node in a spreadsheet?
+
+// Get the node value and display the result in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const xmlManager = worksheet.GetCustomXmlParts();

@@ -1,4 +1,8 @@
-// This example shows how to convert points to emus.
+// Convert points to emus in a document.
+
+// How to convert points to emus in a document?
+
+// Convert points to emus using the document API.
 
 const doc = Api.GetDocument();
 const paragraph = Api.CreateParagraph();

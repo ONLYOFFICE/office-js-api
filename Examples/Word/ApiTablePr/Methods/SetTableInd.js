@@ -1,8 +1,8 @@
-// This example specifies the indentation which will be added before the leading edge of the table in the document.
+// Specify the indentation which will be added before the leading edge of the table in the document.
 
 // How to display the table description in the document.
 
-// Get the table description from the table properties.
+// Get the table description from the table properties in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

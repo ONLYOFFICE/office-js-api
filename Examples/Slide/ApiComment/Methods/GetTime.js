@@ -1,6 +1,6 @@
-// This example shows how to get a time of a comment creation.
+// Get a time of a comment creation in a presentation.
 
-// How to know when a comment was added.
+// How to know when a comment was added in a presentation.
 
 // Get all comments from the presentation and the first one's time of creation.
 

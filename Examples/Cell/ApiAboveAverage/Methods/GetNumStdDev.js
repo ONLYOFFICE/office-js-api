@@ -1,6 +1,6 @@
-// This example demonstrates getting the number of standard deviations from the average.
+// Get the number of standard deviations from the average in a spreadsheet.
 
-// How to check the standard deviation setting for above average conditions.
+// How to check the standard deviation setting for above average conditions in a spreadsheet.
 
 // Get the number of standard deviations used in the conditional formatting rule.
 

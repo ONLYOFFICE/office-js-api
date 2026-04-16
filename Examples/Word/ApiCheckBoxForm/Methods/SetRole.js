@@ -1,4 +1,9 @@
-// This example shows how to set the form role.
+// Set the form role in a document.
+
+// How do I set role in a document?
+
+// Set role using a checkbox form object.
+
 let doc = Api.GetDocument();
 let roles = doc.GetFormRoles();
 roles.Add("Visitor");

@@ -2,6 +2,8 @@
 
 // Get drawing on a page and select it.
 
+// Get all drawings using a page object.
+
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 

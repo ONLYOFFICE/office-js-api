@@ -1,4 +1,8 @@
-// This example returns an internal ID of the current document content.
+// Return an internal ID of the current document content.
+
+// How do I get the internal id in a PDF document?
+
+// Get the internal id using a document content object.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

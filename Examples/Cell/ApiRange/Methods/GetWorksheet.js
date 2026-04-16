@@ -1,4 +1,4 @@
-// This example shows how to get the Worksheet object that represents the worksheet containing the specified range.
+// Get the Worksheet object that represents the worksheet containing the specified range in a spreadsheet.
 
 // How to get a worksheet where a range is contained in.
 

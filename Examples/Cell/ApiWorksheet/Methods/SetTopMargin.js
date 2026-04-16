@@ -1,8 +1,8 @@
-// This example sets the top margin of the sheet.
+// Set the top margin of the sheet in a spreadsheet.
 
-// How to set margin of the top side.
+// How to set margin of the top side in a spreadsheet.
 
-// Resize the top margin of the sheet.
+// Resize the top margin of the sheet in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.SetTopMargin(25.1);

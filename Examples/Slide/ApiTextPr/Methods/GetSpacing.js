@@ -1,8 +1,8 @@
-// This example shows how to find out a text is spacing size.
+// Find out a text is spacing size in a presentation.
 
-// How to know a text spacing.
+// How to know a text spacing in a presentation.
 
-// Get the text properties of the run and display its spacing size.
+// Get the text properties of the run and display its spacing size in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

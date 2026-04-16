@@ -1,8 +1,8 @@
-// This example shows how to find out whether a text is highlighted.
+// Find out whether a text is highlighted in a PDF document.
 
-// How to know whether a highlight set to the text.
+// How to know whether a highlight set to the text in a PDF document.
 
-// Get the run and find whether it is highlighted or not.
+// Get the run and find whether it is highlighted or not in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

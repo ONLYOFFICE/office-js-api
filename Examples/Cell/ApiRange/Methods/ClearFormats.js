@@ -1,4 +1,4 @@
-// This example clears all the formatting in the range.
+// Clear all the formatting in the range.
 
 // How to clear formatting for a range.
 

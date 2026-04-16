@@ -1,6 +1,6 @@
-// This example demonstrates getting the show value setting from a data bar conditional formatting rule.
+// Get the show value setting from a data bar conditional formatting rule.
 
-// How to check if the data bar shows the value.
+// How to check if the data bar shows the value in a spreadsheet.
 
 // Get the show value setting of a data bar conditional formatting rule.
 

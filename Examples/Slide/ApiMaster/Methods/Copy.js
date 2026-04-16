@@ -1,8 +1,8 @@
-// This example shows how to creates a copy of the specified slide master object.
+// Create a copy of the specified slide master object in a presentation.
 
-// How to create a copy of a master.
+// How to create a copy of a master in a presentation.
 
-// Copy the ApiMaster object.
+// Copy the slide master object.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

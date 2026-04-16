@@ -1,6 +1,6 @@
-// This example demonstrates setting the maximum percentage length of a data bar conditional formatting rule.
+// Set the maximum percentage length of a data bar conditional formatting rule.
 
-// How to change the maximum length setting of a data bar.
+// How to change the maximum length setting of a data bar in a spreadsheet.
 
 // Set the maximum percentage length of a data bar conditional formatting rule.
 

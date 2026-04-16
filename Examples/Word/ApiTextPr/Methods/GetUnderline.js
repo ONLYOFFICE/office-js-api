@@ -1,8 +1,8 @@
-// This example shows how to find out whether a text is underlined.
+// Find out whether a text is underlined in a document.
 
-// How to know whether a text is underlined or not.
+// How to know whether a text is underlined or not in a document.
 
-// Get the text properties of the run and find whether it is underlined or not.
+// Get the text properties of the run and find whether it is underlined or not in a document.
 
 let doc = Api.GetDocument();
 let myNewRunStyle = doc.CreateStyle("My New Run Style", "run");

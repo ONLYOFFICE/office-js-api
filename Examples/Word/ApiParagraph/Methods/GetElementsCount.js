@@ -1,6 +1,6 @@
-// This example shows how to get a number of elements in the current paragraph.
+// Get a number of elements in the current paragraph in a document.
 
-// How to get the number of elements of the paragraph.
+// How to get the number of elements of the paragraph in a document.
 
 // Count words of the paragraph and print it in the document.
 

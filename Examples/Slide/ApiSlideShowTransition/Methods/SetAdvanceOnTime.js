@@ -1,4 +1,8 @@
-// This example enables automatic slide advance after time.
+// Enable automatic slide advance after time.
+
+// How can I set advance on time using a slide show transition in a presentation?
+
+// Set advance on time for a slide show transition in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

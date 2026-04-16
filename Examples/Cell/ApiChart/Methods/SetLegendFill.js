@@ -1,8 +1,8 @@
-// This example sets the fill to the chart legend.
+// Set the fill to the chart legend in a spreadsheet.
 
-// How to fill the chart legend with the solid fill.
+// How to fill the chart legend with the solid fill in a spreadsheet.
 
-// Color the legend of the chart.
+// Color the legend of the chart in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

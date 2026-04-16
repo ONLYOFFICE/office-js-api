@@ -1,4 +1,4 @@
-// This example sets borders for a conditional formatting rule.
+// Set borders for a conditional formatting rule.
 
 // How to apply border formatting to conditional formatting rules.
 

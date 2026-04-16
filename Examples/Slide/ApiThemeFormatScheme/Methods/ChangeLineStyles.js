@@ -1,4 +1,4 @@
-// This example sets the line styles to the current theme format scheme.
+// Set the line styles to the current theme format scheme.
 
 // How to change line styles of a format scheme.
 

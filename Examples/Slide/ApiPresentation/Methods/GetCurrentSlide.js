@@ -1,4 +1,4 @@
-// This example shows how to get the current slide.
+// Get the current slide in a presentation.
 
 // How to get a current slide as an object.
 

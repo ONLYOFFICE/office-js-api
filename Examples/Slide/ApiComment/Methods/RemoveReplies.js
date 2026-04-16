@@ -1,6 +1,6 @@
-// This example shows how to remove replies from a comment.
+// Remove replies from a comment in a presentation.
 
-// How to delete specified comment reply.
+// How to delete specified comment reply in a presentation.
 
 // Get all comments from the presentation and remove a reply from the first one's.
 

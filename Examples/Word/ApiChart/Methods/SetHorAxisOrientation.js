@@ -1,8 +1,8 @@
-// This example specifies the horizontal axis orientation.
+// Specify the horizontal axis orientation in a document.
 
-// How to change an axis orientation.
+// How to change an axis orientation in a document.
 
-// Create a chart and set its horizontal axis orientation.
+// Create a chart and set its horizontal axis orientation in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,6 +1,6 @@
-// This example converts the ApiUniColor object into the JSON object.
+// Convert the uni color object into the JSON object in a document.
 
-// How to get a JSON from the uni color object.
+// How to get a JSON from the uni color object in a document.
 
 // Convert the uni color to json and add it to the document.
 

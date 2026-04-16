@@ -1,8 +1,8 @@
-// This example shows how to return the k-th smallest value in a data set. For example, the fifth smallest number.
+// Return the k-th smallest value in a data set. For example, the fifth smallest number in a spreadsheet.
 
-// How to return the k-th smallest value from data set.
+// How to return the k-th smallest value from data set in a spreadsheet.
 
-// Use a function to get the smallest value from data set indicated.
+// Use a function to get the smallest value from data set indicated in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

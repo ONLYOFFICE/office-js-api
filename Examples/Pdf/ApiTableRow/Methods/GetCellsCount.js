@@ -2,6 +2,8 @@
 
 // Create a table, count its cells and display the number in the page.
 
+// Get the cells count using a table row object.
+
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 

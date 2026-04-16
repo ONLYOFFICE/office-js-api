@@ -1,8 +1,8 @@
-// This example gets a type of ApiCommentReply class and inserts it into the presentation.
+// Check the class type returned by a comment reply in a presentation.
 
-// How to get a class type of ApiCommentReply.
+// How do I check what type a comment reply object is in a presentation?
 
-// Retrieve class type of ApiCommentReply object and insert it to the slide.
+// Retrieve and output the class type string for a comment reply in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

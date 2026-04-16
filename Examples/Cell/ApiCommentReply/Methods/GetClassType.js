@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the table.
+// Retrieve the class type of a comment reply in a spreadsheet.
 
-// How to get a class type of ApiCommentReply.
+// How to identify the class type of a comment reply in a spreadsheet?
 
-// Get a class type of ApiCommentReply and display it in the worksheet.
+// Obtain the class type identifier of a comment reply object in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

@@ -1,8 +1,8 @@
-// This example shows how to get the percentage mode for top 10 condition.
+// Get the percentage mode for top 10 condition in a spreadsheet.
 
-// How to check if the condition uses percentage values instead of count values.
+// How to check if the condition uses percentage values instead of count values in a spreadsheet.
 
-// Get the percentage mode setting for the top 10 rule.
+// Get the percentage mode setting for the top 10 rule in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

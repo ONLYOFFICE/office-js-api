@@ -1,6 +1,6 @@
-// This example shows how to return the number of sheets in a reference.
+// Return the number of sheets in a reference in a spreadsheet.
 
-// How to count sheets.
+// How to count sheets in a spreadsheet.
 
 // Use a function to get how many sheets are present in the worksheet.
 

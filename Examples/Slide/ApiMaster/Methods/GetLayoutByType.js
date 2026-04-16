@@ -1,4 +1,8 @@
-// This example returns the layout by its type from the slide master.
+// Return the layout by its type from the slide master.
+
+// How to get the layout by type for a slide master?
+
+// Get the layout by type and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,4 +1,8 @@
-// This example sets the position of the comment in the presentation.
+// Set the position of the comment in the presentation.
+
+// How do I set position in a presentation?
+
+// Set position using a comment object in a presentation.
 
 const presentation = Api.GetPresentation();
 presentation.GetAllComments().forEach(comment => {

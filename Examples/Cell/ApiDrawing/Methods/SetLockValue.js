@@ -1,6 +1,6 @@
-// This example sets the lock value to the specified lock type of the current drawing.
+// Set the lock value to the specified lock type of the current drawing in a spreadsheet.
 
-// How to set a lock type of a drawing.
+// How to set a lock type of a drawing in a spreadsheet.
 
 // Create a drawing, set its lock value and display it in the worksheet.
 

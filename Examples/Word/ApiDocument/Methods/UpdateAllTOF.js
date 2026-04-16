@@ -1,6 +1,6 @@
-// This example updates all tables of figures in the current document.
+// Update all tables of figures in the current document.
 
-// How to update all table of figures.
+// How to update all table of figures in a document.
 
 // Edit document content, add drawings and update the table of figures.
 

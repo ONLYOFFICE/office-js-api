@@ -2,6 +2,8 @@
 
 // Create a table and set the text alignment of its cell from the row.
 
+// Use table cell to set vertical align.
+
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 

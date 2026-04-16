@@ -1,8 +1,8 @@
-// This example shows how to return the beta probability distribution function.
+// Return the beta probability distribution function in a spreadsheet.
 
-// How to get a result from beta probability distribution function.
+// How to get a result from beta probability distribution function in a spreadsheet.
 
-// Use function to get the beta probability distribution function.
+// Use function to get the beta probability distribution function in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

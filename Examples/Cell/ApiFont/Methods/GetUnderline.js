@@ -1,6 +1,6 @@
-// This example shows how to get the type of underline applied to the specified font.
+// Get the type of underline applied to the specified font in a spreadsheet.
 
-// How to determine whether a font is underlined or not.
+// How to determine whether a font is underlined or not in a spreadsheet.
 
 // Get a boolean value that represents whether a font has an underline property or not and show the value in the worksheet.
 

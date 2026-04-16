@@ -1,4 +1,8 @@
-// This example shows how to get the selected shapes from current selection.
+// Get the selected shapes from current selection in a presentation.
+
+// How can I get the shapes using a selection in a presentation?
+
+// Get the shapes for a selection in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

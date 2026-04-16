@@ -1,8 +1,8 @@
-// This example demonstrates setting the scope type of an icon set rule.
+// Set the scope type of an icon set rule in a spreadsheet.
 
 // How to configure the scope type setting for icon set conditional formatting.
 
-// Set the scope type of the icon set rule.
+// Set the scope type of the icon set rule in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

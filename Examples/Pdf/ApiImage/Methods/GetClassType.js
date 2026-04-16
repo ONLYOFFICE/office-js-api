@@ -1,6 +1,8 @@
-// How to get a class type of ApiImage.
+// Retrieve the class type of an image in a PDF document.
 
-// Retrieve class type of ApiImage object and insert it to the page.
+// How to identify the class type of an image in a PDF document?
+
+// Obtain the class type identifier of an image object in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

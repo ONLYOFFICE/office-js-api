@@ -1,8 +1,8 @@
-// This example applies text settings to the content of the content control.
+// Apply text settings to the content of the content control in a document.
 
-// Creates a block content control, adds a text to it, and sets the font size and bold property to this text.
+// Create a block content control, add a text to it, and set the font size and bold property to this text in a document.
 
-// Specifies the ApiTextPr object and applies its settings to the ApiBlockLvlSdt object.
+// Specify the text properties object and apply its settings to the block-level content control object in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

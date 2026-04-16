@@ -1,8 +1,8 @@
-// This example shows how to get the XML content of a custom XML part.
+// Get the XML content of a custom XML part in a spreadsheet.
 
-// How to get the XML content of an XML part.
+// How to get the XML content of an XML part in a spreadsheet.
 
-// Get XML content.
+// Get XML content using the custom XML part API in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let xmlManager = worksheet.GetCustomXmlParts();

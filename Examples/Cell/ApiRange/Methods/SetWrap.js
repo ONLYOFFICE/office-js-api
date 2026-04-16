@@ -1,8 +1,8 @@
-// This example specifies whether the words in the cell must be wrapped to fit the cell size or not.
+// Specify whether the words in the cell must be wrapped to fit the cell size or not.
 
 // How to wrapp a text in the cell.
 
-// Get a range and make its content wrapped.
+// Get a range and make its content wrapped in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");

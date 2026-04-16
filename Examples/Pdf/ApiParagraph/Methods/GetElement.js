@@ -1,8 +1,8 @@
-// This example shows how to get a paragraph element using the position specified.
+// Get a paragraph element using the position specified in a PDF document.
 
-// How to return an element from the ApiPargaraph object.
+// How to return an element from the ApiPargaraph object in a PDF document.
 
-// Get an object from the paragraph.
+// Get an object from the paragraph in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

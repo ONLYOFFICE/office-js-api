@@ -1,4 +1,4 @@
-// This example gets the operator of a conditional formatting rule.
+// Get the operator of a conditional formatting rule.
 
 // How to retrieve the operator from conditional formatting rules.
 

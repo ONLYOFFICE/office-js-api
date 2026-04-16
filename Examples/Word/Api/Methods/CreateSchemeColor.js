@@ -1,8 +1,8 @@
-// This example shows how to create a scheme color with the 'dk1' identifier.
+// Create a scheme color with the 'dk1' identifier in a document.
 
-// Creates a complex color scheme using the 'dk1' scheme identifier.
+// Create a complex color scheme using the 'dk1' scheme identifier in a document.
 
-// How to create the ApiSchemeColor object and use it as a background for the ApiShape object.
+// How to create the scheme color object and use it as a background for the shape object in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

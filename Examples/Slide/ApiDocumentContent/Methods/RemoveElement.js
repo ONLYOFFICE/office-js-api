@@ -1,4 +1,4 @@
-// This example shows how to remove an element.
+// Remove an element in a presentation.
 
 // How to remove an elements from the slide shape.
 

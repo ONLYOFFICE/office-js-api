@@ -1,8 +1,8 @@
-// This example sets the text spacing measured in twentieths of a point.
+// Set the text spacing measured in twentieths of a point in a PDF document.
 
-// How to resize spacing between words in a text run.
+// How to resize spacing between words in a text run in a PDF document.
 
-// Create a new text run and set its spacing size (point * 20).
+// Create a new text run and set its spacing size (point * 20) in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

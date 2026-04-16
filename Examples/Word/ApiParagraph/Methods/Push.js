@@ -1,8 +1,8 @@
-// This example adds a oRun to the paragraph.
+// Add an oRun to the paragraph in a document.
 
-// How to insert text to the paragraph.
+// How to insert text to the paragraph in a document.
 
-// Get the last paragraph and make it bold.
+// Get the last paragraph and make it bold in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

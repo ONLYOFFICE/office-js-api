@@ -1,4 +1,8 @@
-// This example shows how to convert points to inches.
+// Convert points to inches in a document.
+
+// How to convert points to inches in a document?
+
+// Convert points to inches using the document API.
 
 const doc = Api.GetDocument();
 const paragraph = Api.CreateParagraph();

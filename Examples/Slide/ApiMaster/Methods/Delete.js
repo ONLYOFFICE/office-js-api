@@ -1,6 +1,6 @@
-// This example deletes the specified object from the parent if it exists.
+// Delete the specified object from the parent if it exists in a presentation.
 
-// How to delete a master.
+// How to delete a master in a presentation.
 
 // Remove a master from a presentation.
 

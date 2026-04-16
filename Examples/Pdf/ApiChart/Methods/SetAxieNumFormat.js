@@ -2,6 +2,8 @@
 
 // Create a chart then set its axis number format.
 
+// Set axie num format using a chart object.
+
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 

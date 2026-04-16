@@ -1,4 +1,4 @@
-// This example shows how to get the icon set type from conditional formatting.
+// Get the icon set type from conditional formatting in a spreadsheet.
 
 // How to retrieve the current icon set type used in conditional formatting.
 

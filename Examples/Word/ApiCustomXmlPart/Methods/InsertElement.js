@@ -1,4 +1,9 @@
-// This example shows how to insert a new XML element into the custom XML part.
+// Insert a new XML element into the custom XML part in a document.
+
+// How can I insert the element using a custom XML part in a document?
+
+// Insert the element for a custom XML part in a document.
+
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
 let xml = xmlManager.Add("<content xmlns='http://example'></content>");

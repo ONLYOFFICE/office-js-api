@@ -1,8 +1,8 @@
-// This example sets the font size to the characters of the text run.
+// Set the font size to the characters of the text run in a PDF document.
 
-// How to change a text font size.
+// How to change a text font size in a PDF document.
 
-// Get the text properties of the run and set its font size.
+// Get the text properties of the run and set its font size in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,4 +1,4 @@
-// This example modifies a conditional formatting rule.
+// Modify a conditional formatting rule.
 
 // How to change the conditions of existing conditional formatting rules.
 

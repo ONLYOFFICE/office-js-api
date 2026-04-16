@@ -1,4 +1,8 @@
-// This example demonstrates how to get the category of the presentation using the ApiCore.
+// Get the category of the presentation using the core properties in a presentation.
+
+// How can I get the category using a core properties in a presentation?
+
+// Get the category for a core properties in a presentation.
 
 const presentation = Api.GetPresentation();
 const core = presentation.GetCore();

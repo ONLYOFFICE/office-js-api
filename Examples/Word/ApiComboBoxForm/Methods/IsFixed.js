@@ -1,8 +1,8 @@
-// This example checks if the current form is fixed size.
+// Check if the current form is fixed size.
 
 // How to know whether a combobox form is fixed or not.
 
-// Display a boolean representing whether a combobox is fixed.
+// Display a boolean representing whether a combobox is fixed in a document.
 
 let doc = Api.GetDocument();
 let comboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});

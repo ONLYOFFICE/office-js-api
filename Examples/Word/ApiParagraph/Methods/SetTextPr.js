@@ -1,8 +1,8 @@
-// This example sets the paragraph text properties.
+// Set the paragraph text properties in a document.
 
-// Add text properties to the paragraph.
+// Add text properties to the paragraph in a document.
 
-// Make paragraph text bold and bigger.
+// Make paragraph text bold and bigger in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

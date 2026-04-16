@@ -1,4 +1,9 @@
-// This example demonstrates creating a custom geometry.
+// Create a custom geometry in a spreadsheet.
+
+// How can I create custom geometry in a spreadsheet?
+
+// Create custom geometry in a spreadsheet.
+
 let worksheet = Api.GetActiveSheet();
 // Airplane shape in EMU units
 let customGeometry = Api.CreateCustomGeometry();

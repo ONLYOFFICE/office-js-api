@@ -1,8 +1,8 @@
-// This example shows how to look up a value either from a one-row or one-column range. Provided for backwards compatibility.
+// Look up a value either from an one-row or one-column range. Provided for backwards compatibility in a spreadsheet.
 
-// How to look up a value from a one-row or one-column range.
+// How to look up a value from an one-row or one-column range in a spreadsheet.
 
-// Use a function to find a value from a row or a column range.
+// Use a function to find a value from a row or a column range in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

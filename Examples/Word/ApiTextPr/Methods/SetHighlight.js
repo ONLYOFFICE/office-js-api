@@ -1,8 +1,8 @@
-// This example specifies a highlighting color which is added to the text properties and applied as a background to the contents of the current run/range/paragraph.
+// Specify a highlighting color which is added to the text properties and applied as a background to the contents of the current run/range/paragraph in a document.
 
-// How to color a text object background.
+// How to color a text object background in a document.
 
-// Create a text run object, add color to its background.
+// Create a text run object, add color to its background in a document.
 
 let doc = Api.GetDocument();
 let textPr = doc.GetDefaultTextPr();

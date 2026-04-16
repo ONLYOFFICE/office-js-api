@@ -1,4 +1,4 @@
-// This example adds unique values conditional formatting to a range.
+// Add unique values conditional formatting to a range.
 
 // How to add unique values conditional formatting rules to highlight unique or duplicate values.
 

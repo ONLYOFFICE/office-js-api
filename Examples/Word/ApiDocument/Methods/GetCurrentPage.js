@@ -1,8 +1,8 @@
-// This example shows how to get current page index.
+// Get current page index in a document.
 
 // How to know the order index of the current page.
 
-// Get current page number.
+// Get current page number using the document API in a document.
 
 const doc = Api.GetDocument();
 const paragraph = Api.CreateParagraph();

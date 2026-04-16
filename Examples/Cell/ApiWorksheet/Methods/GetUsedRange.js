@@ -1,8 +1,8 @@
-// This example shows how to get the ApiRange object that represents the used range on the specified worksheet.
+// Get the cell range object that represents the used range on the specified worksheet in a spreadsheet.
 
 // How to get used ranges from the worksheet.
 
-// Get used ranges and fill it with color.
+// Get used ranges and fill it with color in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let usedRange = worksheet.GetUsedRange();

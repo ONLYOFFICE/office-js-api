@@ -1,8 +1,8 @@
-// This example removes all contents of the shape and adds a new paragraph inside it.
+// Remove all contents of the shape and add a new paragraph inside it in a document.
 
 // Insert an element to the document.
 
-// Push the paragraph to the content of the document. 
+// Push the paragraph to the content of the document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

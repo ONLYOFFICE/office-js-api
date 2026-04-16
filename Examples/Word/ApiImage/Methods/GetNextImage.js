@@ -1,8 +1,8 @@
-// This example shows how to get the next inline image if exists.
+// Get the next inline image if exists in a document.
 
-// How to add the next drawing to the paragraph.
+// How to add the next drawing to the paragraph in a document.
 
-// Get the next drawing and add it separated with a line break.
+// Get the next drawing and add it separated with a line break in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

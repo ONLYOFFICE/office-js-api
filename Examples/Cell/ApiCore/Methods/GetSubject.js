@@ -1,4 +1,8 @@
-// This example demonstrates how to get the subject of the current workbook.
+// Get the subject of the current workbook in a spreadsheet.
+
+// How can I get the subject using a core properties in a spreadsheet?
+
+// Get the subject for a core properties in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

@@ -1,8 +1,8 @@
-// This example shows how to get a set of the paragraph properties which will be applied to all the paragraphs within a table which match the conditional formatting type.
+// Get a set of the paragraph properties which will be applied to all the paragraphs within a table which match the conditional formatting type.
 
-// How to get the paragraph properties.
+// How to get the paragraph properties in a document.
 
-// Get the table properties of the first row and obtain its paragraph properties.
+// Get the table properties of the first row and obtain its paragraph properties in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

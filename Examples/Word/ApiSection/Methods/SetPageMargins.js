@@ -1,4 +1,4 @@
-// This example specifies the page margins for all the pages in this section.
+// Specify the page margins for all the pages in this section.
 
 // How to set page margins.
 

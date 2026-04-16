@@ -1,4 +1,4 @@
-// This example deletes a data validation rule from a range of cells.
+// Delete a data validation rule from a range of cells.
 
 // How to remove data validation from a range of cells.
 

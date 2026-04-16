@@ -1,4 +1,4 @@
-// This example gets the priority of a conditional formatting rule.
+// Get the priority of a conditional formatting rule.
 
 // How to retrieve the priority value from conditional formatting rules.
 

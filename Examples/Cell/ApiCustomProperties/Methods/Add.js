@@ -1,4 +1,8 @@
-// This example demonstrates how to add a boolean custom property.
+// Add a boolean custom property in a spreadsheet.
+
+// How do I add in a spreadsheet?
+
+// Add using a custom properties object in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const customProps = Api.GetCustomProperties();

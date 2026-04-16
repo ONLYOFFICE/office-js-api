@@ -1,4 +1,8 @@
-// This example shows how to update an XML element in a custom XML part.
+// Update an XML element in a custom XML part in a presentation.
+
+// How can I update element using a custom XML part in a presentation?
+
+// Update element for a custom XML part in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

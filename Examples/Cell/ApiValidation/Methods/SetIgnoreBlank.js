@@ -1,8 +1,8 @@
-// This example sets whether blank values are permitted.
+// Set whether blank values are permitted in a spreadsheet.
 
-// How to allow or disallow blank values in validation.
+// How to allow or disallow blank values in validation in a spreadsheet.
 
-// Set the IgnoreBlank setting.
+// Set the IgnoreBlank setting in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");

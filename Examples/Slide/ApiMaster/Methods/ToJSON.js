@@ -1,4 +1,4 @@
-// This example converts the ApiMaster object into the JSON object.
+// Convert the slide master object into the JSON object.
 
 // How to convert a slide master object to a JSON object.
 

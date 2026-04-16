@@ -1,4 +1,9 @@
-// This example shows how to get a shape in which the form is placed to control the position and size of the fixed size form frame.
+// Get a shape in which the form is placed to control the position and size of the fixed size form frame in a document.
+
+// How can I get the wrapper shape using a complex form in a document?
+
+// Get the wrapper shape for a complex form in a document.
+
 let doc = Api.GetDocument();
 let complexForm = Api.CreateComplexForm({"key": "Complex1"});
 let paragraph = doc.GetElement(0);

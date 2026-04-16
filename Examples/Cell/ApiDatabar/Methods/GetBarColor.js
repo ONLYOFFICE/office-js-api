@@ -1,6 +1,6 @@
-// This example demonstrates getting the bar color from a data bar conditional formatting rule.
+// Get the bar color from a data bar conditional formatting rule.
 
-// How to retrieve the bar color of a data bar.
+// How to retrieve the bar color of a data bar in a spreadsheet.
 
 // Get the bar color of a data bar conditional formatting rule.
 

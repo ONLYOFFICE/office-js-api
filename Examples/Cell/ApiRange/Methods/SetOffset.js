@@ -1,4 +1,4 @@
-// This example sets the cell offset.
+// Set the cell offset.
 
 // How to set an offset of cells.
 

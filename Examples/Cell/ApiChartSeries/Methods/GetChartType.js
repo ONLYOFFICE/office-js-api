@@ -1,8 +1,8 @@
-// This example gets the first series of ApiChart class and inserts its type into the document.
+// Get the first series of chart class and insert its type into the document.
 
-// How to find out a chart type.
+// How to find out a chart type in a spreadsheet.
 
-// Display a chart type inserting it in a range.
+// Display a chart type inserting it in a range in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

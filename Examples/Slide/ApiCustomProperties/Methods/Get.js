@@ -1,4 +1,8 @@
-// This example demonstrates how to get the value of a custom property by its name.
+// Get the value of a custom property by its name in a presentation.
+
+// How do I get in a presentation?
+
+// Get using a custom properties object in a presentation.
 
 const presentation = Api.GetPresentation();
 const customProps = presentation.GetCustomProperties();

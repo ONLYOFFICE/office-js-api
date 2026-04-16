@@ -1,4 +1,8 @@
-// This example shows how to create an RGBA color and use it as a shape fill.
+// Create an RGBA color and use it as a shape fill in a spreadsheet.
+
+// How to r g b an in a spreadsheet?
+
+// R g b an using the spreadsheet API.
 
 const worksheet = Api.GetActiveSheet();
 const color = Api.RGBA(110, 160, 180, 127);

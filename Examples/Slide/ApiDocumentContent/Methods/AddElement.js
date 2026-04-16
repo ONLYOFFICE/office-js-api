@@ -1,4 +1,4 @@
-// This example adds a paragraph to presentation.
+// Add a paragraph to presentation.
 
 // How to create an element, add it to a shape and insert the shape to the slide.
 

@@ -1,10 +1,10 @@
-// This example shows how to get a number of elements in the current paragraph.
+// Get a number of elements in the current paragraph in a PDF document.
 
-// How to return a number of paragraph elements.
+// How to return a number of paragraph elements in a PDF document.
 
-// Find out how many elements a paragraph has.
+// Find out how many elements a paragraph has in a PDF document.
 
-// Return a number of element from the ApiParagraph object.
+// Return a number of element from the paragraph object in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

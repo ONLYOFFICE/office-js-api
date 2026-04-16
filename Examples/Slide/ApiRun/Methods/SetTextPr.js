@@ -1,8 +1,8 @@
-// This example sets the text properties to the current run.
+// Set the text properties to the current run in a presentation.
 
-// How to create the new text properties and apply it to the text run.
+// How to create the new text properties and apply it to the text run in a presentation.
 
-// Create a new text run and set its properties like font size, color, etc.
+// Create a new text run and set its properties like font size, color, etc in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

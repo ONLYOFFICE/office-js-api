@@ -1,8 +1,8 @@
-// This example specifies an amount by which text is raised or lowered for this run in relation to the default baseline of the surrounding non-positioned text.
+// Specify an amount by which text is raised or lowered for this run in relation to the default baseline of the surrounding non-positioned text in a PDF document.
 
-// How to change inline position of the text.
+// How to change inline position of the text in a PDF document.
 
-// Create a new text run and make its position lower or higher.
+// Create a new text run and make its position lower or higher in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

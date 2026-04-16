@@ -1,4 +1,4 @@
-// This example appends a new slide to the end of the presentation.
+// Appends a new slide to the end of the presentation.
 
 // How to add a new slide to the presentation.
 

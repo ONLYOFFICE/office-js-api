@@ -1,8 +1,8 @@
-// This example specifies the visual properties for the minor horizontal gridlines.
+// Specify the visual properties for the minor horizontal gridlines in a presentation.
 
-// How to set minor horizontal gridlines of the chart.
+// How to set minor horizontal gridlines of the chart in a presentation.
 
-// Create a chart, set its properties and its minor gridlines.
+// Create a chart, set its properties and its minor gridlines in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

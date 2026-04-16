@@ -1,4 +1,4 @@
-// This example shows how to get the font family of the text.
+// Get the font family of the text in a document.
 
 // How to know the font name of the form.
 

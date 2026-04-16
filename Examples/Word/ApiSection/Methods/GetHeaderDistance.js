@@ -1,6 +1,6 @@
-// This example sets the header distance and then reads it back.
+// Set the header distance and then reads it back in a document.
 
-// How to get header distance of the section.
+// How to get header distance of the section in a document.
 
 // Retrieve the current distance between the top of the page and the header.
 

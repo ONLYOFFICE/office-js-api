@@ -1,6 +1,8 @@
-// This example check is the ApiDocumentContent is a endnote.
+// Check is the document content is an endnote.
 
 // How to add endnote to the document.
+
+// Use document content to is endnote.
 
 let doc = Api.GetDocument();
 let endnote = doc.AddEndnote();

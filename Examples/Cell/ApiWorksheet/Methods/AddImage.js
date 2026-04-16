@@ -1,4 +1,4 @@
-// This example adds an image to the sheet with the parameters specified.
+// Add an image to the sheet with the parameters specified in a spreadsheet.
 
 // How to add an image to the worksheet specifying its url and size.
 

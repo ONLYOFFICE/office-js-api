@@ -1,4 +1,4 @@
-// This example gets width of shape and inserts it into the presentation.
+// Get width of shape and insert it into the presentation.
 
 // How to find a shape's width and display it on the slide.
 

@@ -1,4 +1,4 @@
-// This example shows how to convert the ApiPresentation object into the JSON object.
+// Convert the presentation object into the JSON object in a presentation.
 
 // How to convert the presentation object to JSON objects.
 

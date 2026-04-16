@@ -1,8 +1,8 @@
-// This example sets the border which will be displayed on the left of the table.
+// Set the border which will be displayed on the left of the table in a document.
 
-// How to create a 3x3 table and add the left 4 point black border.
+// How to create a 3x3 table and add the left 4 point black border in a document.
 
-// Add left border to the table.
+// Add left border to the table in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

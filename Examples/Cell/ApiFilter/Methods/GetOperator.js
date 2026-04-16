@@ -1,8 +1,8 @@
-// This example reads the operator used by a filter.
+// Read the operator used by a filter in a spreadsheet.
 
-// How to detect the type of filter (values, custom AND/OR, dynamic, top10, etc.).
+// How to detect the type of filter (values, custom AND/OR, dynamic, top10, etc.) in a spreadsheet.
 
-// Use ApiFilter.GetOperator() to identify the filter operator.
+// Use ApiFilter.GetOperator() to identify the filter operator in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the presentation.
+// Find out the class type of a theme color scheme object in a presentation.
 
-// How to get a class type of ApiThemeColorScheme.
+// How can I get the class type of a theme color scheme in a presentation?
 
-// Retrieve class type of ApiThemeColorScheme object and insert it to the slide.
+// Get the class type of a theme color scheme and display it in the presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

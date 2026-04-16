@@ -1,4 +1,8 @@
-// This example shows how to create RGBA color and use it as content control background color
+// Create RGBA color and use it as content control background color in a document.
+
+// How to r g b an in a document?
+
+// R g b an using the document API.
 
 const doc = Api.GetDocument();
 

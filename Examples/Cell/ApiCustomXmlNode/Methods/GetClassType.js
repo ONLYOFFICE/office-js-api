@@ -1,8 +1,8 @@
-// This example shows how to get the class type of a custom XML node and display it.
+// Retrieve the class type of a custom XML node in a spreadsheet.
 
-// How to get the class type of an XML node.
+// How to identify the class type of a custom XML node in a spreadsheet?
 
-// Get the class type.
+// Obtain the class type identifier of a custom XML node object in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let xmlManager = worksheet.GetCustomXmlParts();

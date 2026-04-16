@@ -1,8 +1,8 @@
-// This example shows how to check whether all conditions in a test are true.
+// Check whether all conditions in a test are true in a spreadsheet.
 
-// How to apply logical AND operation for a list of conditions.
+// How to apply logical AND operation for a list of conditions in a spreadsheet.
 
-// Use logical AND to evaluate an expression.
+// Use logical AND to evaluate an expression in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

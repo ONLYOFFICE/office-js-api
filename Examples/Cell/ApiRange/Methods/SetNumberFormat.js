@@ -1,4 +1,4 @@
-// This example specifies whether a number in the cell should be treated like number, currency, date, time, etc. or just like text.
+// Specify whether a number in the cell should be treated like number, currency, date, time, etc. or just like text.
 
 // How to set number format of cells.
 

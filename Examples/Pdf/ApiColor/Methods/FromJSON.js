@@ -1,4 +1,8 @@
-// This example shows how to restore a shape fill color from JSON.
+// Restore a shape fill color from JSON in a PDF document.
+
+// How can I from j s o n using a color in a PDF document?
+
+// From j s o n for a color in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,4 +1,4 @@
-// This example shows how to get the border color of a form.
+// Get the border color of a form in a document.
 
 // How to get the border color of a text form.
 

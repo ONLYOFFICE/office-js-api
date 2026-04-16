@@ -1,6 +1,6 @@
-// This example shows how to get a shape in which the form is placed to control the position and size of the fixed size form frame.
+// Get a shape in which the form is placed to control the position and size of the fixed size form frame in a document.
 
-// How to get the wrapper shape.
+// How to get the wrapper shape in a document.
 
 // Get a shape that contains a form.
 

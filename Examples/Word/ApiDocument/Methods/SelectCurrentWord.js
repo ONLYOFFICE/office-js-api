@@ -1,8 +1,8 @@
-// This example shows how to select the current word.
+// Select the current word in a document.
 
-// How to select the word at the specific cursor position.
+// How to select the word at the specific cursor position in a document.
 
-// Move the cursor to the position 16 and select the word.
+// Move the cursor to the position 16 and select the word in a document.
 
 let doc = Api.GetDocument();
 let para1 = doc.GetElement(0);

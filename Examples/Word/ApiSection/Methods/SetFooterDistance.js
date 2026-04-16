@@ -1,6 +1,6 @@
-// This example specifies the distance from the bottom edge of the page to the bottom edge of the footer.
+// Specify the distance from the bottom edge of the page to the bottom edge of the footer.
 
-// How to set footer distance of the section.
+// How to set footer distance of the section in a document.
 
 // Specify the distance between the page end and the footer.
 

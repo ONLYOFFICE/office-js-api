@@ -1,8 +1,8 @@
-// This example shows how to set a value for data field.
+// Set a value for data field in a spreadsheet.
 
-// How to change a value of a table element.
+// How to change a value of a table element in a spreadsheet.
 
-// Create a pivot table, add data to it then set a custom data field's value.
+// Create a pivot table, add data to it then set a custom data field's value in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

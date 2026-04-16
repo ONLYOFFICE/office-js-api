@@ -1,4 +1,9 @@
-// This example shows how to get the XPath of a custom XML node.
+// Get the XPath of a custom XML node in a document.
+
+// How do I get the x path in a document?
+
+// Get the x path using a custom XML node object in a document.
+
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
 let xmlText = `

@@ -1,8 +1,8 @@
-// This example gets the autofilter object for a worksheet.
+// Get the autofilter object for a worksheet.
 
 // How to get the AutoFilter object of a worksheet.
 
-// Get the AutoFilter object.
+// Get the AutoFilter object in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

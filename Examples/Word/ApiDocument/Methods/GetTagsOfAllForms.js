@@ -1,8 +1,8 @@
-// This example shows how to get a list of all tags that are used for all forms in the document.
+// Get a list of all tags that are used for all forms in the document.
 
 // How to get tags of all forms and print their names in the document.
 
-// Display the style name of the "Heading 6".
+// Display the style name of the "Heading 6" in a document.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "tag": "form_1", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});

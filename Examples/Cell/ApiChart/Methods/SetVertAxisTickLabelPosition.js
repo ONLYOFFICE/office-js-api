@@ -1,8 +1,8 @@
-// This example sets the possible values for the position of the chart tick labels in relation to the main vertical label or the chart data values.
+// Set the possible values for the position of the chart tick labels in relation to the main vertical label or the chart data values in a spreadsheet.
 
-// How to set a tick position to the high of the vertical axis labels.
+// How to set a tick position to the high of the vertical axis labels in a spreadsheet.
 
-// Specifies tick mark position for the vertical axis.
+// Specify tick mark position for the vertical axis in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

@@ -1,4 +1,9 @@
-// This example gets the selection quads on the page and highlights it.
+// Get the selection quads on the page and highlight it.
+
+// How do I get the selection quads in a PDF document?
+
+// Get the selection quads using a page object.
+
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 page.SetSelection({x: 10, y: 10}, {x: 100, y: 100});

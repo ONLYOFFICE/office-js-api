@@ -1,4 +1,8 @@
-// This example adds an animation effect to a sequence.
+// Add an animation effect to a sequence in a presentation.
+
+// How to add the effect for an animation sequence in a presentation?
+
+// Add the effect and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

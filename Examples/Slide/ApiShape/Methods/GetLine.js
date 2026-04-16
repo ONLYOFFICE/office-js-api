@@ -1,5 +1,9 @@
-// Gets the outline properties from a shape and displays detailed information.
-// Creates a shape with a stroke, retrieves it and shows stroke details.
+// Get the outline properties from a shape and display detailed information. Creates a shape with a stroke, retrieve it and show stroke details.
+
+// How to get the line for a shape in a presentation?
+
+// Get the line and display the result in a presentation.
+
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 200, 100));

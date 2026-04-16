@@ -1,8 +1,8 @@
-// This example demonstrates setting the priority of an icon set rule.
+// Set the priority of an icon set rule in a spreadsheet.
 
 // How to change the evaluation priority of icon set conditional formatting.
 
-// Set the priority value of the icon set rule.
+// Set the priority value of the icon set rule in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

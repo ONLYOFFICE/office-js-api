@@ -1,4 +1,4 @@
-// This example sets the date operator for a time period conditional formatting rule.
+// Set the date operator for a time period conditional formatting rule.
 
 // How to change date operators in time period conditional formatting rules.
 

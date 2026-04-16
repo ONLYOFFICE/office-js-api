@@ -1,8 +1,8 @@
-// This example sets the paragraph line spacing.
+// Set the paragraph line spacing in a spreadsheet.
 
-// How to add a spacing line between paragraphs.
+// How to add a spacing line between paragraphs in a spreadsheet.
 
-// Get a paragraph from the shape's content then add a text specifying spacing between text lines.
+// Get a paragraph from the shape's content then add a text specifying spacing between text lines in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

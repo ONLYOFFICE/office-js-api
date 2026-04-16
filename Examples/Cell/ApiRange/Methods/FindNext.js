@@ -1,4 +1,4 @@
-// This example finds the next cell that matches those same conditions.
+// Find the next cell that matches those same conditions.
 
 // How to get the next cell from a range that meets search requirements.
 

@@ -1,4 +1,8 @@
-// This example sets all characters in the paragraph to display as capitals.
+// Set all characters in the paragraph to display as capitals in a PDF document.
+
+// How to set caps for a paragraph in a PDF document?
+
+// Set caps and display the result in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

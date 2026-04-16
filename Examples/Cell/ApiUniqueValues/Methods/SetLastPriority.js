@@ -1,8 +1,8 @@
-// This example sets the unique values conditional formatting rule to have the lowest priority.
+// Set the unique values conditional formatting rule to have the lowest priority.
 
 // How to set conditional formatting rule priority to last position.
 
-// Set unique values rule as last priority.
+// Set unique values rule as last priority in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

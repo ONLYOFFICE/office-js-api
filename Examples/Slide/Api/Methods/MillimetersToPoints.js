@@ -1,4 +1,8 @@
-// This example shows how to convert millimeters to points.
+// Convert millimeters to points in a presentation.
+
+// How can I convert millimeters to points in a presentation?
+
+// Convert millimeters to points in a presentation.
 
 const millimeters = 100;
 const points = Api.MillimetersToPoints(millimeters);

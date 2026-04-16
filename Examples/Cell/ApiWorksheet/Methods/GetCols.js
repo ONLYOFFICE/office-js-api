@@ -1,4 +1,4 @@
-// This example shows how to get the ApiRange object that represents all the cells on the columns range.
+// Get the cell range object that represents all the cells on the columns range in a spreadsheet.
 
 // How to get all column cells.
 

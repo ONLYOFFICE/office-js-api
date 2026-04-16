@@ -5,21 +5,21 @@ window.Asc.plugin.attachEditorEvent("onBlurContentControl", (oPr) => {
                 return;
             }
 
-            window.Asc.plugin.executeMethod.executeMethod("GetFormsByTag", ["BankAccount"], function(forms) {
+            window.Asc.plugin.executeMethod("GetFormsByTag", ["BankAccount"], function(forms) {
                 for (let i = 0; i < forms.length; ++i) {
-                    connector.executeMethod("SetFormValue", [forms[i]["InternalId"], "10101110100000000123"], null);
+                    window.Asc.plugin.executeMethod("SetFormValue", [forms[i]["InternalId"], "10101110100000000123"], null);
                 }
             });
 
-            window.Asc.plugin.executeMethod.executeMethod("GetFormsByTag", ["BankName"], function(forms) {
+            window.Asc.plugin.executeMethod("GetFormsByTag", ["BankName"], function(forms) {
                 for (let i = 0; i < forms.length; ++i) {
-                    connector.executeMethod("SetFormValue", [forms[i]["InternalId"], "OnlyOffice BANK"], null);
+                    window.Asc.plugin.executeMethod("SetFormValue", [forms[i]["InternalId"], "OnlyOffice BANK"], null);
                 }
             });
 
-            window.Asc.plugin.executeMethod.executeMethod("GetFormsByTag", ["BankPlace"], function(forms) {
+            window.Asc.plugin.executeMethod("GetFormsByTag", ["BankPlace"], function(forms) {
                 for (let i = 0; i < forms.length; ++i) {
-                    connector.executeMethod("SetFormValue", [forms[i]["InternalId"], "Himalayas"], null);
+                    window.Asc.plugin.executeMethod("SetFormValue", [forms[i]["InternalId"], "Himalayas"], null);
                 }
             });
         });

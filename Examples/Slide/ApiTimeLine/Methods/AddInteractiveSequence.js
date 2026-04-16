@@ -1,4 +1,8 @@
-// This example creates an interactive animation sequence.
+// Create an interactive animation sequence in a presentation.
+
+// How can I add the interactive sequence using a timeline in a presentation?
+
+// Add the interactive sequence for a timeline in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

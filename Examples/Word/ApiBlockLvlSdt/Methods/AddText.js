@@ -1,8 +1,8 @@
-// This example adds a text to the content control.
+// Add a text to the content control in a document.
 
-// Creates a block content control in the current document and adds a text to it.
+// Create a block content control in the current document and add a text to it.
 
-// How to add a text to the ApiBlockLvlSdt object.
+// How to add a text to the block-level content control object in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

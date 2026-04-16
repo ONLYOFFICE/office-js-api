@@ -1,8 +1,8 @@
-// This example shows how to find out whether a text is bold.
+// Find out whether a text is bold in a presentation.
 
-// How to know whether a text is set to bold or not.
+// How to know whether a text is set to bold or not in a presentation.
 
-// Get the text properties of the run and find whether it is bold or not.
+// Get the text properties of the run and find whether it is bold or not in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,4 +1,4 @@
-// This example splits the selected merged cell range into the single cells.
+// Splits the selected merged cell range into the single cells.
 
 // How to unmerge a range of cells.
 

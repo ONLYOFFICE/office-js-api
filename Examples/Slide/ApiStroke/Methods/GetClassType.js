@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the presentation.
+// Find out the class type of a stroke object in a presentation.
 
-// How to get a class type of ApiStroke.
+// How can I get the class type of a stroke in a presentation?
 
-// Retrieve class type of ApiStroke object and insert it to the slide.
+// Get the class type of a stroke and display it in the presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,6 +1,6 @@
-// This example sets the text color for the current text run in the RGB format.
+// Set the text color for the current text run in the RGB format.
 
-// How to change text color.
+// How to change text color in a spreadsheet.
 
 // Create a text run object, update its font color using RGB format values.
 

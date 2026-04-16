@@ -1,8 +1,8 @@
-// This example gets a type of ApiBullet class and inserts it into the document.
+// Check the class type returned by a bullet in a presentation.
 
-// How get a class type of ApiBullet.
+// How do I check what type a bullet object is in a presentation?
 
-// Retrieve class type of ApiBullet object and insert it to the slide.
+// Retrieve and output the class type string for a bullet in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

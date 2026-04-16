@@ -1,8 +1,8 @@
-// This example sets the comment text.
+// Set the comment text in a spreadsheet.
 
-// How to change a comment text.
+// How to change a comment text in a spreadsheet.
 
-// Replace a comment text with a new text.
+// Replace a comment text with a new text in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

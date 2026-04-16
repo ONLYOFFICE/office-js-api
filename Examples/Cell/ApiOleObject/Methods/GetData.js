@@ -1,8 +1,8 @@
-// This example shows how to get the string data from the OLE object.
+// Get the string data from the OLE object in a spreadsheet.
 
-// How to get ApiOleObject content as a string.
+// How to get OLE object content as a string in a spreadsheet.
 
-// Get ApiOleObject data and display it in the worksheet.
+// Get OLE object data and display it in the worksheet.
 
 let worksheet = Api.GetActiveSheet();
 let oleObject = worksheet.AddOleObject(

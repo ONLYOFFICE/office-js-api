@@ -1,4 +1,9 @@
-// This example shows how to add a list item to a combobox.
+// Add a list item to a combobox in a document.
+
+// How to add the list item for an inline content control in a document?
+
+// Add the list item and display the result in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let contentControl = doc.AddComboBoxContentControl();

@@ -1,8 +1,8 @@
-// This example shows how to find out whether a text is underlined.
+// Find out whether a text is underlined in a presentation.
 
-// How to know whether a text is underlined or not.
+// How to know whether a text is underlined or not in a presentation.
 
-// Get the text properties of the run and find whether it is underlined or not.
+// Get the text properties of the run and find whether it is underlined or not in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

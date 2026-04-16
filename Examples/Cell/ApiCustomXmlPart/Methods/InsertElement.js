@@ -1,4 +1,8 @@
-// This example shows how to insert a new XML element into a custom XML part.
+// Insert a new XML element into a custom XML part in a spreadsheet.
+
+// How can I insert the element using a custom XML part in a spreadsheet?
+
+// Insert the element for a custom XML part in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const xmlManager = worksheet.GetCustomXmlParts();

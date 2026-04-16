@@ -1,8 +1,8 @@
-// This example specifies that any lowercase characters in the current text Range are formatted for display only as their capital letter character equivalents.
+// Specify that any lowercase characters in the current text Range are formatted for display only as their capital letter character equivalents.
 
-// How to make range text uppercase.
+// How to make range text uppercase in a document.
 
-// Update text letters of the range by converting them to capital letters.
+// Update text letters of the range by converting them to capital letters in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

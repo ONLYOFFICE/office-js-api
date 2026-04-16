@@ -1,8 +1,8 @@
-// This example adds a comment to the run.
+// Add a comment to the run in a document.
 
-// How to comment a specific text.
+// How to comment a specific text in a document.
 
-// Insert a comment into the run and add an author to it.
+// Insert a comment into the run and add an author to it in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example gets the parent range of the validation.
+// Get the parent range of the validation in a spreadsheet.
 
-// How to retrieve the validation parent range.
+// How to retrieve the validation parent range in a spreadsheet.
 
-// Get the parent range.
+// Get the parent for a validation in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1:A5");

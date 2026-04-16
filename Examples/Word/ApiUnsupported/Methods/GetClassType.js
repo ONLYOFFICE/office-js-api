@@ -1,2 +1,6 @@
-// This example gets a class type and pastes it into the presentation.
-// todo_example
+// Check the class type returned by an unsupported annotation in a document.
+
+// How do I check what type an unsupported annotation object is in a document?
+
+// Retrieve and output the class type string for an unsupported annotation in a document.
+

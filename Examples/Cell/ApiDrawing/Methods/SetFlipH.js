@@ -1,8 +1,8 @@
-// This example shows how to flip the drawing horizontally.
+// Flip the drawing horizontally in a spreadsheet.
 
-// How to set the horizontal flip property of the shape.
+// How to set the horizontal flip property of the shape in a spreadsheet.
 
-// Create a drawing and flip it horizontally.
+// Create a drawing and flip it horizontally in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

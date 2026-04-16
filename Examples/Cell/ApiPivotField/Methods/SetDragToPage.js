@@ -1,4 +1,4 @@
-// This example shows how to set a drag to page of a pivot field.
+// Set a drag to page of a pivot field in a spreadsheet.
 
 // How to rename a pivot field drag to page.
 

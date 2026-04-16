@@ -1,8 +1,8 @@
-// This example pastes the Range object to the specified range.
+// Paste the Range object to the specified range in a spreadsheet.
 
-// How to get a range and paste it into another one.
+// How to get a range and paste it into another one in a spreadsheet.
 
-// Create a range and add it to another one.
+// Create a range and add it to another one in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B4").SetValue("1");

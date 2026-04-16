@@ -1,8 +1,8 @@
-// This example sets all 4 font slots with the specified font family.
+// Set all 4 font slots with the specified font family in a document.
 
-// How to set font family to the text.
+// How to set font family to the text in a document.
 
-// Create a paragraph and change its font family.
+// Create a paragraph and change its font family in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

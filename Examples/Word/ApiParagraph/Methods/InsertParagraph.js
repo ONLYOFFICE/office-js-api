@@ -1,8 +1,8 @@
-// This example inserts a paragraph at the specified position.
+// Insert a paragraph at the specified position in a document.
 
-// How to insert the paragraph object into the another element.
+// How to insert the paragraph object into the another element in a document.
 
-// Add paragraph to the content control.
+// Add paragraph to the content control in a document.
 
 let doc = Api.GetDocument();
 let paragraph1 = doc.GetElement(0);

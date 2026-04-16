@@ -1,4 +1,9 @@
-// This example gets button widget labels and displays it.
+// Get button widget labels and display it in a PDF document.
+
+// How do I get the label in a PDF document?
+
+// Get the label using a button widget object in a PDF document.
+
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 let buttonField = Api.CreateImageField([10, 10, 120, 100]);

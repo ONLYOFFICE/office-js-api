@@ -1,8 +1,8 @@
-// This example shows how to flip the drawing vertically.
+// Flip the drawing vertically in a presentation.
 
-// How to set the vertical flip property of the shape.
+// How to set the vertical flip property of the shape in a presentation.
 
-// Create a drawing and flip it vertically.
+// Create a drawing and flip it vertically in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,4 +1,4 @@
-// This example gets the text operator from a text-based conditional formatting rule.
+// Get the text operator from a text-based conditional formatting rule.
 
 // How to retrieve text operators from text-based conditional formatting rules.
 

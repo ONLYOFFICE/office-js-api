@@ -1,8 +1,8 @@
-// This example shows how to add fields to a pivot table specifing rows and columns.
+// Add fields to a pivot table specifing rows and columns in a spreadsheet.
 
-// How to add new fields to the table.
+// How to add new fields to the table in a spreadsheet.
 
-// Create a pivot table, add data to it then add new data fields.
+// Create a pivot table, add data to it then add new data fields in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// This example shows how to return the number of days between the two dates.
+// Return the number of days between the two dates in a spreadsheet.
 
-// How to get difference between two dates in days.
+// How to get difference between two dates in days in a spreadsheet.
 
-// Use function to get days count between two dates.
+// Use function to get days count between two dates in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

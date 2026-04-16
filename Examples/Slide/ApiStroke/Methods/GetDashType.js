@@ -1,7 +1,9 @@
-// Gets the dash type of a stroke.
-// Creates a shape with a solid border and displays its dash type.
-// Returns string value: "dash", "dashDot", "dot", "lgDash", "lgDashDot",
-// "lgDashDotDot", "solid", "sysDash", "sysDashDot", "sysDashDotDot", "sysDot"
+// Get the dash type of a stroke. Creates a shape with a solid border and display its dash type. Returns string value: "dash", "dashDot", "dot", "lgDash", "lgDashDot", "lgDashDotDot", "solid", "sysDash", "sysDashDot", "sysDashDotDot", "sysDot" in a presentation.
+
+// How do I get the dash type in a presentation?
+
+// Get the dash type using a stroke object in a presentation.
+
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 200, 100));

@@ -1,4 +1,9 @@
-// This example shows how to update an XML element in a custom XML part.
+// Update an XML element in a custom XML part in a document.
+
+// How to update element for a custom XML part in a document?
+
+// Update element and display the result in a document.
+
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
 let xml = xmlManager.Add("<content xmlns='http://example'><text>Example</text></content>");

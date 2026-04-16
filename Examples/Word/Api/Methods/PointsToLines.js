@@ -1,4 +1,8 @@
-// This example shows how to convert points to lines.
+// Convert points to lines in a document.
+
+// How can I convert points to lines in a document?
+
+// Convert points to lines in a document.
 
 const doc = Api.GetDocument();
 const paragraph = Api.CreateParagraph();

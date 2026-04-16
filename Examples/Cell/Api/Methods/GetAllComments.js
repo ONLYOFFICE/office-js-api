@@ -1,8 +1,8 @@
-// This example shows how to get all comments from the worksheet.
+// Get all comments from the worksheet in a spreadsheet.
 
 // How to get all comments from the worksheet.
 
-// Get all cell comments.
+// Get all cell comments using the editor API in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();Api.AddComment("Comment 1", "John Smith");
 worksheet.GetRange("A4").AddComment("Comment 2", "Mark Potato");

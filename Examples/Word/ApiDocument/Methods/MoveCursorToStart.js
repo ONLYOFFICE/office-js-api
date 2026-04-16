@@ -1,4 +1,8 @@
-// This example shows how to move the cursor to the start of the document.
+// Move the cursor to the start of the document in a document.
+
+// How can I move cursor to start using a document in a document?
+
+// Move cursor to start for a document in a document.
 
 const doc = Api.GetDocument();
 const paragraph = doc.GetElement(0);

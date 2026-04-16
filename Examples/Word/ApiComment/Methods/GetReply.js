@@ -1,6 +1,6 @@
-// This example shows how to get the specified comment reply.
+// Get the specified comment reply in a document.
 
-// Get a comment reply by knowing its index.
+// Get a comment reply by knowing its index in a document.
 
 // How to get the first comment reply text and display it in the document.
 

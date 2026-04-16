@@ -1,4 +1,8 @@
-// This example demonstrates how to use ApiCustomProperties to configure custom properties in a spreadsheet.
+// Use custom properties to configure custom properties in a spreadsheet.
+
+// How can I get custom properties in a spreadsheet?
+
+// Get custom properties in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

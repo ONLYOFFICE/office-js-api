@@ -1,4 +1,4 @@
-// This example shows how to set a layout page break of a pivot field.
+// Set a layout page break of a pivot field in a spreadsheet.
 
 // How to change a pivot field layout page break.
 

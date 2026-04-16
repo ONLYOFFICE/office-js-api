@@ -1,8 +1,8 @@
-// This example creates a text form with the common and specific text form properties.
+// Create a text form with the common and specific text form properties.
 
 // How to create a text form and add it to the paragraph.
 
-// Add a text form to the ApiDocument object, set its properties like characters limit, etc.
+// Add a text form to the document object, set its properties like characters limit, etc.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({

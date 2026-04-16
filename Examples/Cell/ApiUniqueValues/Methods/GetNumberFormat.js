@@ -1,4 +1,4 @@
-// This example demonstrates getting the number format from a unique values conditional formatting rule.
+// Get the number format from an unique values conditional formatting rule.
 
 // How to retrieve number formatting from unique values conditional formatting.
 

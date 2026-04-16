@@ -1,4 +1,4 @@
-// This example demonstrates getting the color scale criteria collection.
+// Get the color scale criteria collection in a spreadsheet.
 
 // How to access and display color scale criteria information.
 

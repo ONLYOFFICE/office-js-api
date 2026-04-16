@@ -1,4 +1,9 @@
-// This example shows how to get a parent paragraph of run for further manipulation.
+// Get a parent paragraph of run for further manipulation in a document.
+
+// How to get the parent paragraph for a text run in a document?
+
+// Get the parent paragraph and display the result in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is paragraph with example run: ");

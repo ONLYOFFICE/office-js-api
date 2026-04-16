@@ -1,4 +1,9 @@
-// This example sets button widget fit bounds property.
+// Set button widget fit bounds property in a PDF document.
+
+// How to set fit bounds for a button widget in a PDF document?
+
+// Set fit bounds and display the result in a PDF document.
+
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 let buttonField = Api.CreateImageField([10, 10, 120, 100]);

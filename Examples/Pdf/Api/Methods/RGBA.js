@@ -1,4 +1,8 @@
-// This example shows how to create an RGBA color and use it as a shape fill.
+// Create an RGBA color and use it as a shape fill in a PDF document.
+
+// How can I r g b an in a PDF document?
+
+// R g b an in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

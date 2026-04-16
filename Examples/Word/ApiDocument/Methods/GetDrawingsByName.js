@@ -1,8 +1,8 @@
-// This example shows how to get all drawings with the specified names from the document.
+// Get all drawings with the specified names from the document in a document.
 
-// Get drawings by their names.
+// Get drawings by their names in a document.
 
-// How to retrieve drawings by their names and rotate them.
+// How to retrieve drawings by their names and rotate them in a document.
 
 const doc = Api.GetDocument();
 const paragraph = doc.GetElement(0);

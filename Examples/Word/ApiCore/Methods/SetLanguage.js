@@ -1,4 +1,8 @@
-// This example demonstrates how to set the language of the current document using the ApiCore.
+// Set the language of the current document using the core properties in a document.
+
+// How can I set language using a core properties in a document?
+
+// Set language for a core properties in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

@@ -1,8 +1,8 @@
-// This example shows how to return the inverse hyperbolic cotangent of a number.
+// Return the inverse hyperbolic cotangent of a number in a spreadsheet.
 
 // How to get an inverse hyperbolic cotangent of a number and display it in the worksheet.
 
-// Get a function that gets inverse hyperbolic cotangent of a number.
+// Get a function that gets inverse hyperbolic cotangent of a number in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

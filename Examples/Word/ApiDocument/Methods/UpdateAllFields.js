@@ -1,4 +1,4 @@
-// This example updates all fields in the current document.
+// Update all fields in the current document.
 
 // How to update all forms in the document.
 

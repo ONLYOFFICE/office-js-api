@@ -1,8 +1,8 @@
-// This example shows how to get the ApiFont object that represents the font of the specified characters.
+// Get the font object that represents the font of the specified characters in a spreadsheet.
 
-// How to get font style of the array of characters.
+// How to get font style of the array of characters in a spreadsheet.
 
-// Use font of the specified characters to set their style.
+// Use font of the specified characters to set their style in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B1");

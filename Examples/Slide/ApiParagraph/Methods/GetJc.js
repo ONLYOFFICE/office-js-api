@@ -1,6 +1,6 @@
-// This example shows how to get the paragraph contents justification.
+// Get the paragraph contents justification in a presentation.
 
-// How to get a justification type of a text.
+// How to get a justification type of a text in a presentation.
 
 // Return a justification of a paragraph from the slide.
 

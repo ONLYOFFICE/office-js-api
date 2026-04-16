@@ -1,8 +1,8 @@
-// This example clears the content from the row.
+// Clear the content from the row in a document.
 
-// How to delete the content of the first row.
+// How to delete the content of the first row in a document.
 
-// Remove the text from the table row.
+// Remove the text from the table row in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

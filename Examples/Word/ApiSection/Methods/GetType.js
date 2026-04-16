@@ -1,4 +1,8 @@
-// This example shows how to set and get the type of a section in a document.
+// Set and get the type of a section in a document.
+
+// How to get the type for a section in a document?
+
+// Get the type and display the result in a document.
 
 const doc = Api.GetDocument();
 

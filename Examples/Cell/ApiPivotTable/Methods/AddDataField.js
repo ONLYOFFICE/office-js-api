@@ -1,8 +1,8 @@
-// This example shows how to a data field to a pivot table.
+// A data field to a pivot table in a spreadsheet.
 
-// How to add new field to the table.
+// How to add new field to the table in a spreadsheet.
 
-// Create a pivot table, add data to it then add new data field to it.
+// Create a pivot table, add data to it then add new data field to it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

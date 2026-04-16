@@ -1,8 +1,8 @@
-// This example converts the ApiHyperlink object into the JSON object.
+// Convert the hyperlink object into the JSON object in a document.
 
-// How to get a JSON from the hyperlink.
+// How to get a JSON from the hyperlink in a document.
 
-// Convert the hyperlink to json and add it to the paragraph.
+// Convert the hyperlink to json and add it to the paragraph in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

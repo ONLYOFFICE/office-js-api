@@ -1,4 +1,4 @@
-// This example sets the page orientation.
+// Set the page orientation.
 
 // How to change a page orientation.
 

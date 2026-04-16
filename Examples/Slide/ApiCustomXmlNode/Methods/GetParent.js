@@ -1,4 +1,8 @@
-// This example shows how to get the parent of a custom XML node.
+// Get the parent of a custom XML node in a presentation.
+
+// How to get the parent for a custom XML node in a presentation?
+
+// Get the parent and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

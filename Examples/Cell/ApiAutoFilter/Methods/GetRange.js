@@ -1,6 +1,6 @@
-// This example obtains the range to which an AutoFilter is applied.
+// Obtain the range to which an AutoFilter is applied in a spreadsheet.
 
-// How to find the AutoFilter range and work with it as a normal ApiRange.
+// How to find the AutoFilter range and work with it as a normal cell range in a spreadsheet.
 
 // The range covers the header row and all data rows that the AutoFilter was applied to.
 

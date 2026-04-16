@@ -1,4 +1,8 @@
-// This example shows how to retrieve and display the attributes of the current XML node.
+// Retrieve and display the attributes of the current XML node in a presentation.
+
+// How can I get the attributes using a custom XML node in a presentation?
+
+// Get the attributes for a custom XML node in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

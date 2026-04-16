@@ -1,4 +1,4 @@
-// This example clears the slide background.
+// Clear the slide background.
 
 // How to remove the background from the slide.
 

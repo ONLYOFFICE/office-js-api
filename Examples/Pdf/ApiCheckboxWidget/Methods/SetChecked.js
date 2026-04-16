@@ -1,4 +1,9 @@
-// This example sets checkbox widget checked in group of checkbox widgets.
+// Set checkbox widget checked in group of checkbox widgets in a PDF document.
+
+// How can I set checked using a checkbox widget in a PDF document?
+
+// Set checked for a checkbox widget in a PDF document.
+
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 let radiobuttonField = Api.CreateRadiobuttonField([10, 10, 25, 25]);

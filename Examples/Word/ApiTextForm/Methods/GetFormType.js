@@ -1,4 +1,4 @@
-// This example shows how to get a type of the form.
+// Get a type of the form in a document.
 
 // How to get a type of a text form.
 

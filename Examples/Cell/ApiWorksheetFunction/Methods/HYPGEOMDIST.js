@@ -1,8 +1,8 @@
-// This example shows how to get the hypergeometric distribution.
+// Get the hypergeometric distribution in a spreadsheet.
 
-// How to get a result from a hypergeometric distribution.
+// How to get a result from a hypergeometric distribution in a spreadsheet.
 
-// Use a function to get the result of hypergeometric distribution.
+// Use a function to get the result of hypergeometric distribution in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

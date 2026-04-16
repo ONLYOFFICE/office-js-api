@@ -1,4 +1,4 @@
-// This example gets the count of conditional formatting rules in a range.
+// Get the count of conditional formatting rules in a range.
 
 // How to get the number of conditional formatting rules applied to cells.
 

@@ -1,8 +1,8 @@
-// This example shows how to get the content for the specified header type.
+// Get the content for the specified header type in a document.
 
 // How to get the header of the page.
 
-// Get the default header from the final section.
+// Get the default header from the final section in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example shows how to get a name of a pivot item.
+// Get a name of a pivot item in a spreadsheet.
 
-// How to get a pivot item name.
+// How to get a pivot item name in a spreadsheet.
 
-// Create a pivot table, add data to it then get a name of a specified pivot item.
+// Create a pivot table, add data to it then get a name of a specified pivot item in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

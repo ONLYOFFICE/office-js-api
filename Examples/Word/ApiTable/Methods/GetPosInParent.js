@@ -1,8 +1,8 @@
-// This example shows how to get the table position within its parent element.
+// Get the table position within its parent element in a document.
 
-// How to find out the location of the table in its parent one.
+// How to find out the location of the table in its parent one in a document.
 
-// Get the position index of the table.
+// Get the position index of the table in a document.
 
 let doc = Api.GetDocument();
 let paragraph = Api.CreateParagraph();

@@ -1,8 +1,8 @@
-// This example shows how to get pivot fields of a pivot table.
+// Get pivot fields of a pivot table in a spreadsheet.
 
-// How to get table pivot fields as an array of fields.
+// How to get table pivot fields as an array of fields in a spreadsheet.
 
-// Create a pivot table, add data to it then get its pivot fields.
+// Create a pivot table, add data to it then get its pivot fields in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// This example specifies that the contents of the run are displayed with two horizontal lines through each character displayed on the line.
+// Specify that the contents of the run are displayed with two horizontal lines through each character displayed on the line in a document.
 
-// How to strikethrough a text with two lines.
+// How to strikethrough a text with two lines in a document.
 
-// Create a text run object, double cross out it.
+// Create a text run object, double cross out it in a document.
 
 let doc = Api.GetDocument();
 let textPr = doc.GetDefaultTextPr();

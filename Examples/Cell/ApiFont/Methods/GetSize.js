@@ -1,6 +1,6 @@
-// This example shows how to get the font size property of the specified font.
+// Get the font size property of the specified font in a spreadsheet.
 
-// How to determine a font size of characters.
+// How to determine a font size of characters in a spreadsheet.
 
 // Get the size of a font and display it in the worksheet.
 

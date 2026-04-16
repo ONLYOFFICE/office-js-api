@@ -1,8 +1,8 @@
-// This example shows how to set subtotal location of a pivot table.
+// Set subtotal location of a pivot table in a spreadsheet.
 
-// How to set subtotal location of a table.
+// How to set subtotal location of a table in a spreadsheet.
 
-// Create a pivot table, add data to it then set its subtotal location.
+// Create a pivot table, add data to it then set its subtotal location in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

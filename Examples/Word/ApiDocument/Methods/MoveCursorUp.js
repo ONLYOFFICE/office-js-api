@@ -1,8 +1,9 @@
-// This example shows how to move the cursor up through the document.
+// Move the cursor up through the document in a document.
 
-// How to move the cursor up by a specified number of paragraphs.
+// How to move the cursor up by a specified number of paragraphs in a document.
 
-// Create multiple paragraphs, move cursor down, then move it up with selection.
+// Create multiple paragraphs, move cursor down, then move it up with selection in a document.
+
 let doc = Api.GetDocument();
 const paragraphCount = 5;
 for (let i = 0; i < paragraphCount; i++) {

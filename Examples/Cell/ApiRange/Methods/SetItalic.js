@@ -1,4 +1,4 @@
-// This example sets the italic property to the text characters in the cell.
+// Set the italic property to the text characters in the cell.
 
 // How to make a text value of cells italic.
 

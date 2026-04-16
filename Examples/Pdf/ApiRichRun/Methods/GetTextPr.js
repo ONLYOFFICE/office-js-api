@@ -1,4 +1,9 @@
-// This example gets rich text properties from rich run object and set some properties to it.
+// Get rich text properties from rich run object and set some properties to it in a PDF document.
+
+// How can I get the text pr using a rich text run in a PDF document?
+
+// Get the text pr for a rich text run in a PDF document.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

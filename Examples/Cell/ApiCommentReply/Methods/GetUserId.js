@@ -1,6 +1,6 @@
-// This example shows how to get the user ID of the comment reply author.
+// Get the user ID of the comment reply author in a spreadsheet.
 
-// How to get a reply author's user ID.
+// How to get a reply author's user ID in a spreadsheet.
 
 // Add a reply author's ID to a range of the worksheet.
 

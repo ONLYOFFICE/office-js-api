@@ -1,8 +1,8 @@
-// This example shows how to find out the shading type of the text.
+// Find out the shading type of the text in a document.
 
 // Get the shading of the text and apply it to another run.
 
-// How to know the text shading type.
+// How to know the text shading type in a document.
 
 let doc = Api.GetDocument();
 let firstParagraph = doc.GetElement(0);

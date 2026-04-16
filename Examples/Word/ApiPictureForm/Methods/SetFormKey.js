@@ -1,4 +1,4 @@
-// This example sets a key to the current form.
+// Set a key to the current form.
 
 // How to set key of the picture form.
 

@@ -1,8 +1,8 @@
-// This example shows how to return modified Macauley duration of a security with an assumed par value of $100.
+// Return modified Macauley duration of a security with an assumed par value of $100 in a spreadsheet.
 
-// How to get a modified Macauley duration of a security.
+// How to get a modified Macauley duration of a security in a spreadsheet.
 
-// Use a function to get a result from modified Macauley duration.
+// Use a function to get a result from modified Macauley duration in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

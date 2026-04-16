@@ -1,4 +1,4 @@
-// This example modifies the range where a conditional formatting rule applies.
+// Modify the range where a conditional formatting rule applies.
 
 // How to change the cell range for existing conditional formatting rules.
 

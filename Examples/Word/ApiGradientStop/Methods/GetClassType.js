@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Check the class type returned by a gradient stop in a document.
 
-// How to get a class type of ApiGradientStop.
+// How do I check what type a gradient stop object is in a document?
 
-// Retrieve class type of ApiGradientStop object and insert it to the slide.
+// Retrieve and output the class type string for a gradient stop in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,4 +1,4 @@
-// This example specifies an amount of space which will be left between the right extent of the cell contents and the right border of all table cells within the parent table.
+// Specify an amount of space which will be left between the right extent of the cell contents and the right border of all table cells within the parent table.
 
 // How to add margin to the right of the cell.
 

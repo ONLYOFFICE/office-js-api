@@ -1,6 +1,6 @@
-// This example shows how to get the quote text of the comment.
+// Get the quote text of the comment in a document.
 
-// How to retrieve a quote text from a comment.
+// How to retrieve a quote text from a comment in a document.
 
 // Get all comments from the presentation and the first one's quote text.
 

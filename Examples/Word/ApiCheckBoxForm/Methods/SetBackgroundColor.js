@@ -1,8 +1,8 @@
-// This example sets the background color to the current form.
+// Set the background color to the current form.
 
 // How to color a background of the form.
 
-// Set background color to the checkbox.
+// Set background color to the checkbox in a document.
 
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});

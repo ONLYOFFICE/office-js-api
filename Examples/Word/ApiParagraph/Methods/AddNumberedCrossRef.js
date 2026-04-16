@@ -1,8 +1,8 @@
-// This example adds a numbered cross-reference to the paragraph.
+// Add a numbered cross-reference to the paragraph in a document.
 
-// How to create a numbered reference to the paragraph.
+// How to create a numbered reference to the paragraph in a document.
 
-// Add a cross-reference to the numbered paragraph.
+// Add a cross-reference to the numbered paragraph in a document.
 
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("numbered");

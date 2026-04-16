@@ -1,4 +1,4 @@
-// This example converts the current form to a fixed size form.
+// Convert the current form to a fixed size form.
 
 // Create a text form and make its size fixed.
 

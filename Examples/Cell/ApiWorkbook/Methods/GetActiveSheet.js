@@ -1,4 +1,8 @@
-// This example shows how to get the name of the current workbook (filename)
+// Get the name of the current workbook (filename) in a spreadsheet.
+
+// How can I get active sheet using a workbook in a spreadsheet?
+
+// Get active sheet for a workbook in a spreadsheet.
 
 const workbook = Api.GetActiveWorkbook();
 const worksheet = workbook.GetActiveSheet();

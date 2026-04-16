@@ -1,8 +1,8 @@
-// This example shows how to remove a pivot field.
+// Remove a pivot field in a spreadsheet.
 
-// How to delete a pivot field.
+// How to delete a pivot field in a spreadsheet.
 
-// Create a pivot table, add data to it then remove a specified pivot field.
+// Create a pivot table, add data to it then remove a specified pivot field in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// This example creates a date form with the common and specific date form properties.
+// Create a date form with the common and specific date form properties.
 
 // How to create a date form and add it to the paragraph.
 
-// Add a date form specifying its format and language to the ApiDocument object.
+// Add a date form specifying its format and language to the document object.
 
 let doc = Api.GetDocument();
 let dateForm = Api.CreateDateForm({

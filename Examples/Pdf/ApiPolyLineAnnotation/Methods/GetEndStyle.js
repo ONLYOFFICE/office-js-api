@@ -1,8 +1,13 @@
-// This example gets class type of polyline annotation.
+// Get line end style of polyline annotation in a PDF document.
+
+// How to get the end style for a polyline annotation in a PDF document?
+
+// Get the end style and display the result in a PDF document.
+
 let doc = Api.GetDocument();
 let vertices = [{x: 100, y: 10}, {x: 150, y: 100}, {x: 50, y: 100}];
 let polylineAnnot = Api.CreatePolyLineAnnot([40, 5, 160, 110], vertices);
 polylineAnnot.SetBorderColor(Api.RGB(255, 0, 0));
 let page = doc.GetPage(0);
 page.AddObject(polylineAnnot);
-console.log(`Annot class type is: ${polylineAnnot.GetClassType()}`);
+console.log(`Default line end style is: ${polylineAnnot.GetEndStyle()}`);

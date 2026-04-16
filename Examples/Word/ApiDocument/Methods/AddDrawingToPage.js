@@ -1,4 +1,4 @@
-// This example shows how to get a collection of tables on a given absolute page.
+// Get a collection of tables on a given absolute page in a document.
 
 // How to add the drawing to the document.
 

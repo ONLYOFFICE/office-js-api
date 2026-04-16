@@ -1,4 +1,8 @@
-// This example demonstrates how to set the description of the current document using the ApiCore.
+// Set the description of the current document using the core properties in a document.
+
+// How do I set description in a document?
+
+// Set description using a core properties object in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

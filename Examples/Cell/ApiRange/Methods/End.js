@@ -1,8 +1,8 @@
-// This example shows how to get a Range object that represents the end in the specified direction in the specified range.
+// Get a Range object that represents the end in the specified direction in the specified range in a spreadsheet.
 
-// Get a left end part of a range and fill it with color.
+// Get a left end part of a range and fill it with color in a spreadsheet.
 
-// Get a specified direction end of a range.
+// Get a specified direction end of a range in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("C4:D5");

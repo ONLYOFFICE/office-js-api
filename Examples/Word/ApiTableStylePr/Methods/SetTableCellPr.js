@@ -1,4 +1,4 @@
-// This example shows how to create and set the table cell properties which will be applied to all the cells within a table which match the conditional formatting type.
+// Create and set the table cell properties which will be applied to all the cells within a table which match the conditional formatting type.
 
 // How to set the table cell properties to table style.
 

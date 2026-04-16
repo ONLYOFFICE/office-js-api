@@ -1,4 +1,4 @@
-// This example demonstrates how to get the background color of an above average conditional formatting rule.
+// Get the background color of an above average conditional formatting rule in a spreadsheet.
 
 // How to retrieve the fill color applied when cells are above average.
 

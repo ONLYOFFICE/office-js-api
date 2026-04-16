@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the pdf document.
+// Find out the class type of a document content object.
 
-// How to get a class type of ApiDocumentContent.
+// How can I get the class type of a document content?
 
-// Retrieve class type of ApiDocumentContent object and insert it to the page.
+// Get the class type of a document content and display it in the PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

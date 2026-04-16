@@ -1,8 +1,8 @@
-// This example shows how to get a Range object that represents the columns in the specified range.
+// Get a Range object that represents the columns in the specified range in a spreadsheet.
 
-// How to get columns from a range.
+// How to get columns from a range in a spreadsheet.
 
-// Get a range, get its first two columns and fill them with a color.
+// Get a range, get its first two columns and fill them with a color in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1:C3");

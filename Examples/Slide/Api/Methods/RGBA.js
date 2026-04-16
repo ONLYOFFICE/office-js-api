@@ -1,4 +1,8 @@
-// This example shows how to create an RGBA color and use it as a shape fill.
+// Create an RGBA color and use it as a shape fill in a presentation.
+
+// How do I r g b an in a presentation?
+
+// R g b an and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

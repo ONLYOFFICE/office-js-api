@@ -1,6 +1,8 @@
-// How to get rotate from a drawing object.
+// How to get rotate from a drawing object in a PDF document.
 
-// Get drawing rotate
+// Get drawing rotate in a PDF document.
+
+// Get the rotation for a drawing object in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

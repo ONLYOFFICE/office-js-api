@@ -1,8 +1,8 @@
-// This example adds a new name to a range of cells.
+// Add a new name to a range of cells.
 
 // How to name a range of cells.
 
-// Name a range according its purpose.
+// Name a range according its purpose in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

@@ -1,8 +1,8 @@
-// This example adds a new row to the table.
+// Add a new row to the table in a document.
 
-// How to add row to the table.
+// How to add row to the table in a document.
 
-// Get row cell and add it as row. 
+// Get row cell and add it as row.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example specifies that all the columns in the current section have the different widths.
+// Specify that all the columns in the current section have the different widths in a document.
 
-// How to split the text into 3 columns with different sizes.
+// How to split the text into 3 columns with different sizes in a document.
 
-// Get the final section and divide it to columns.
+// Get the final section and divide it to columns in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

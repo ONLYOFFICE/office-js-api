@@ -2,6 +2,8 @@
 
 // Rotate an object from a page.
 
+// Use drawing object to set rotation in a PDF document.
+
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 

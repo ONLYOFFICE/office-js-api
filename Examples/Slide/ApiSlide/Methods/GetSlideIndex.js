@@ -1,4 +1,4 @@
-// This example shows how to get a position of the current slide in the presentation.
+// Get a position of the current slide in the presentation.
 
 // How to return a slide index.
 

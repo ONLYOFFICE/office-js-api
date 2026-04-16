@@ -1,8 +1,8 @@
-// This example wraps the graphic object with a rich text content control.
+// Wrap the graphic object with a rich text content control in a document.
 
-// How to add the drawing to the paragraph.
+// How to add the drawing to the paragraph in a document.
 
-// Create a rectangle and then insert it to the another content control.
+// Create a rectangle and then insert it to the another content control in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

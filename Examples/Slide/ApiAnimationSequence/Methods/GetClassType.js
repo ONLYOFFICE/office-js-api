@@ -1,4 +1,8 @@
-// This example gets the class type of the ApiAnimationSequence object.
+// Find out the class type of an animation sequence object in a presentation.
+
+// How can I get the class type of an animation sequence in a presentation?
+
+// Get the class type of an animation sequence and display it in the presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

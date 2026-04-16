@@ -1,8 +1,8 @@
-// This example shows how to get the text properties of the run.
+// Get the text properties of the run in a spreadsheet.
 
-// How to change the text properties.
+// How to change the text properties in a spreadsheet.
 
-// Create a text object, set its font size, justification, etc.
+// Create a text object, set its font size, justification, etc in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

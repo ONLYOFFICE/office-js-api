@@ -1,8 +1,8 @@
-// This example creates a new smaller text block to be inserted to the paragraph or table.
+// Create a new smaller text block to be inserted to the paragraph or table in a spreadsheet.
 
-// Create a text to construct a paragraph.
+// Create a text to construct a paragraph in a spreadsheet.
 
-// Add a text in a paragraph.
+// Add a text in a paragraph in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

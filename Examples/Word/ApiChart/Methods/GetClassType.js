@@ -1,8 +1,8 @@
-// This example gets a type of ApiChart class and inserts it into the document.
+// Check the class type returned by a chart in a document.
 
-// How to get a ApiChart class type name.
+// How do I check what type a chart object is in a document?
 
-// Create a chart and then display its class type.
+// Retrieve and output the class type string for a chart in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

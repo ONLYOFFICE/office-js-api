@@ -1,8 +1,8 @@
-// This example sets the size to the current presentation.
+// Set the size to the current presentation.
 
 // How to specify the sizes of the current presentation.
 
-// Set the width and height of the ApiPesentation object.
+// Set the width and height of the ApiPesentation object in a presentation.
 
 const presentation = Api.GetPresentation();
 presentation.SetSizes(254 * 36000, 190 * 36000);

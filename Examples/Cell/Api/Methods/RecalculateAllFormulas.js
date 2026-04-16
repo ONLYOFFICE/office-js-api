@@ -1,4 +1,4 @@
-// This example recalculates all formulas in the active workbook.
+// Recalculates all formulas in the active workbook.
 
 // How to recalculate all formulas in a worksheet.
 

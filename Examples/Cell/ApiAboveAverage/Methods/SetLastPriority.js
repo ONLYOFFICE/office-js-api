@@ -1,8 +1,8 @@
-// This example shows how to set above average rule as last priority.
+// Set above average rule as last priority in a spreadsheet.
 
 // How to move above average conditional formatting to last priority.
 
-// Set the above average rule to be evaluated last.
+// Set the above average rule to be evaluated last in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

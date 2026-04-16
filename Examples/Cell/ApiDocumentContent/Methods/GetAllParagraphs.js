@@ -1,4 +1,8 @@
-// This example shows how to get all paragraphs from the document content of a shape.
+// Get all paragraphs from the document content of a shape in a spreadsheet.
+
+// How to get all paragraphs for a document content?
+
+// Get all paragraphs and display the result in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

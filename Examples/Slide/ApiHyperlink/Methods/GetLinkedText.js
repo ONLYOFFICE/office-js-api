@@ -1,4 +1,8 @@
-// This example returns the hyperlink address.
+// Return the hyperlink address in a presentation.
+
+// How do I get the linked text in a presentation?
+
+// Get the linked text using a hyperlink object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,4 +1,8 @@
-// This example demonstrates how to set and get the string of keywords of the current presentation using the ApiCore.
+// Set and get the string of keywords of the current presentation using the core properties in a presentation.
+
+// How do I set keywords in a presentation?
+
+// Set keywords using a core properties object in a presentation.
 
 const presentation = Api.GetPresentation();
 const core = presentation.GetCore();

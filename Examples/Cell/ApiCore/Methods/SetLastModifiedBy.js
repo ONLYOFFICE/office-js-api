@@ -1,4 +1,8 @@
-// This example demonstrates how to set the name of the last user who modified the current workbook.
+// Set the name of the last user who modified the current workbook in a spreadsheet.
+
+// How can I set last modified by using a core properties in a spreadsheet?
+
+// Set last modified by for a core properties in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

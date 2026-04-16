@@ -1,4 +1,8 @@
-// This example shows how to set the comparison operator for an icon criterion.
+// Set the comparison operator for an icon criterion in a spreadsheet.
+
+// How do I set operator in a spreadsheet?
+
+// Set operator using an icon criterion object in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 worksheet.GetRange('A1').SetValue('Results');

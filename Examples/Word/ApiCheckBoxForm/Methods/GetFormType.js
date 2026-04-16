@@ -1,8 +1,8 @@
-// This example shows how to get a type of the form.
+// Get a type of the form in a document.
 
 // How to get a type of a checkbox form.
 
-// Retrieve type of a created checkbox object and display it.
+// Retrieve type of a created checkbox object and display it in a document.
 
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});

@@ -1,4 +1,8 @@
-// This example shows how to get the current paragraph from the document content of a shape.
+// Get the current paragraph from the document content of a shape in a spreadsheet.
+
+// How to get current paragraph for a document content?
+
+// Get current paragraph and display the result in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

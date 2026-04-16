@@ -1,8 +1,8 @@
-// This example shows how to return the bond-equivalent yield for a treasury bill.
+// Return the bond-equivalent yield for a treasury bill in a spreadsheet.
 
-// How to return the bond-equivalent yield for a treasury bill.
+// How to return the bond-equivalent yield for a treasury bill in a spreadsheet.
 
-// Use a function to calculate the bond-equivalent yield.
+// Use a function to calculate the bond-equivalent yield in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

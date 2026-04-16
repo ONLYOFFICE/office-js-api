@@ -1,8 +1,8 @@
-// This example shows how to get a table that contains the content control.
+// Get a table that contains the content control in a document.
 
-// How to display the parent table of the inline text control.
+// How to display the parent table of the inline text control in a document.
 
-// Update the parent table of inline content control.
+// Update the parent table of inline content control in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

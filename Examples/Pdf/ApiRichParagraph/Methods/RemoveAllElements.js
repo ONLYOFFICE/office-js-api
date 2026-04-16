@@ -1,4 +1,9 @@
-// This example removes all elements from rich paragraph.
+// Remove all elements from rich paragraph in a PDF document.
+
+// How to remove all elements for a rich paragraph in a PDF document?
+
+// Remove all elements and display the result in a PDF document.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

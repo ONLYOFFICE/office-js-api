@@ -1,10 +1,10 @@
-// This example replaces the content control with a paragraph.
+// Replace the content control with a paragraph in a document.
 
 // How to replace the block content control with another document element (paragraph, table, or block content control).
 
-// Creates the ApiBlockLvlSdt object and replaces it with the ApiParagraph object.
+// Create the block-level content control object and replace it with the paragraph object in a document.
 
-// Replaces the block level content control with a text.
+// Replace the block level content control with a text in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

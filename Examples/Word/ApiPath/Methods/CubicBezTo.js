@@ -1,5 +1,9 @@
-// Creates a complex curve using cubic bezier, quadratic bezier and arc commands.
-// Demonstrates different types of curve drawing methods.
+// Create a complex curve using cubic bezier, quadratic bezier and arc commands. Demonstrates different types of curve drawing methods in a document.
+
+// How to cubic bez to for a geometry path in a document?
+
+// Cubic bez to and display the result in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let customGeometry = Api.CreateCustomGeometry();

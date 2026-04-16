@@ -1,4 +1,8 @@
-// This example demonstrates how to set the revision of the workbook.
+// Set the revision of the workbook in a spreadsheet.
+
+// How to set revision for a core properties in a spreadsheet?
+
+// Set revision and display the result in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

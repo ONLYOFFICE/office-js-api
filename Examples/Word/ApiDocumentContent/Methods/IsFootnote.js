@@ -1,6 +1,8 @@
-// This example check is the ApiDocumentContent is a footnote.
+// Check is the document content is a footnote.
 
 // How to add footnote to the document.
+
+// Is footnote using a document content object.
 
 let doc = Api.GetDocument();
 let footnote = doc.AddFootnote();

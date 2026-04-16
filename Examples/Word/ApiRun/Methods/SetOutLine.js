@@ -1,8 +1,8 @@
-// In this example, add the text with a text outline to the WordArt.
+// In this example, add the text with a text outline to the WordArt in a document.
 
-// How to change outline of the text.
+// How to change outline of the text in a document.
 
-// Create a new text run and outline it with the stroke object.
+// Create a new text run and outline it with the stroke object in a document.
 
 let doc = Api.GetDocument();
 let textPr = Api.CreateTextPr();

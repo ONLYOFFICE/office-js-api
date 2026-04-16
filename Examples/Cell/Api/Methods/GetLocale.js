@@ -1,6 +1,6 @@
-// This example shows how to get the current locale ID.
+// Get the current locale ID in a spreadsheet.
 
-// How to set and get current locale ID.
+// How to set and get current locale ID in a spreadsheet.
 
 // Get region ID and insert information into the cell.
 

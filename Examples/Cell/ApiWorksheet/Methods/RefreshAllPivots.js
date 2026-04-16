@@ -1,6 +1,6 @@
-// This example shows how to refresh all pivot tables.
+// Refresh all pivot tables in a spreadsheet.
 
-// How to refresh field values of all pivot tables.
+// How to refresh field values of all pivot tables in a spreadsheet.
 
 // Refresh pivot tables from the worksheet.
 

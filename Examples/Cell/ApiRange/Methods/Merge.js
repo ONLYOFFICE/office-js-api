@@ -1,4 +1,4 @@
-// This example merges the selected cell range into a single cell or a cell row.
+// Merge the selected cell range into a single cell or a cell row.
 
 // How to get a range using cell addresses and merge them into one.
 

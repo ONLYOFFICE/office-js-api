@@ -1,9 +1,8 @@
-// This example unselects the current graphic object.
+// Unselects the current graphic object in a spreadsheet.
 
 // How to unselect drawing objects on the worksheet.
 
-// Create three shapes, select all of them,
-// then unselect the second shape.
+// Create three shapes, select all of them, then unselect the second shape in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill1 = Api.CreateSolidFill(Api.RGB(255, 111, 61));

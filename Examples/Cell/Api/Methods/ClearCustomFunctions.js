@@ -1,8 +1,8 @@
-// This example clears all added custom functions.
+// Clear all added custom functions in a spreadsheet.
 
-// How to delete custom function library.
+// How to delete custom function library in a spreadsheet.
 
-// Remove unused custom function library.
+// Remove unused custom function library in a spreadsheet.
 
 Api.AddCustomFunctionLibrary("LibraryName", function(){
     /**

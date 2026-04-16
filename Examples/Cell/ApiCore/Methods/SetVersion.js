@@ -1,4 +1,8 @@
-// This example demonstrates how to sets the version of the workbook.
+// Set the version of the workbook in a spreadsheet.
+
+// How to set version for a core properties in a spreadsheet?
+
+// Set version and display the result in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

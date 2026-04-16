@@ -1,6 +1,6 @@
-// This example shows how to get the paragraph right side indentation.
+// Get the paragraph right side indentation in a presentation.
 
-// How to return a right side identation of a paragraph.
+// How to return a right side identation of a paragraph in a presentation.
 
 // Return a right side indentation of a text from the slide.
 

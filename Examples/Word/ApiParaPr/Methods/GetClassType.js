@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Check the class type returned by a paragraph properties in a document.
 
-// How to get a class type of ApiParaPr.
+// How do I check what type a paragraph properties object is in a document?
 
-// Retrieve class type of ApiParaPr object and insert it to the document.
+// Retrieve and output the class type string for a paragraph properties in a document.
 
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");

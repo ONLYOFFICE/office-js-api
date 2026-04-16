@@ -1,6 +1,8 @@
-// How to show specific chart data labels.
+// How to show specific chart data labels in a PDF document.
 
-// Create a chart, set its properties and its specific data labels visibility.
+// Create a chart, set its properties and its specific data labels visibility in a PDF document.
+
+// Use chart to set show data labels in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

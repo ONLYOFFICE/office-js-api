@@ -1,4 +1,8 @@
-// This example shows how to get all worksheets from the workbook.
+// Get all worksheets from the workbook in a spreadsheet.
+
+// How can I get the sheets using a workbook in a spreadsheet?
+
+// Get the sheets for a workbook in a spreadsheet.
 
 Api.AddSheet('new_sheet_name');
 

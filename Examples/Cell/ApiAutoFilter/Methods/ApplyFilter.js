@@ -1,6 +1,6 @@
-// This example reapplies an existing AutoFilter after the data changes.
+// Reapply an existing AutoFilter after the data changes in a spreadsheet.
 
-// How to reuse filter criteria without redefining them.
+// How to reuse filter criteria without redefining them in a spreadsheet.
 
 // Reapplying the filter recalculates which rows are visible based on existing criteria.
 

@@ -1,8 +1,8 @@
-// This example demonstrates getting the pivot table condition of an icon set rule.
+// Get the pivot table condition of an icon set rule in a spreadsheet.
 
 // How to retrieve pivot table condition settings from icon set conditional formatting.
 
-// Get the pivot table condition object from the icon set rule.
+// Get the pivot table condition object from the icon set rule in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

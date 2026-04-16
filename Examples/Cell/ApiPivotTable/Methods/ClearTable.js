@@ -1,8 +1,8 @@
-// This example shows how to clear a pivot table.
+// Clear a pivot table in a spreadsheet.
 
-// How to remove all elements from a pivot table.
+// How to remove all elements from a pivot table in a spreadsheet.
 
-// Create a pivot table, add data to it then delete all its content.
+// Create a pivot table, add data to it then delete all its content in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

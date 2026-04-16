@@ -1,4 +1,4 @@
-// This example sets the background color to the table cell.
+// Set the background color to the table cell.
 
 // How to color the cell.
 

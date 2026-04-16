@@ -1,5 +1,9 @@
-// Extracts control points from a cubic bezier curve in a pdf document.
-// Displays all control point coordinates in a text shape.
+// Extracts control points from a cubic bezier curve in a pdf document. Displays all control point coordinates in a text shape.
+
+// How can I get the y2 using a path command in a PDF document?
+
+// Get the y2 for a path command in a PDF document.
+
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 

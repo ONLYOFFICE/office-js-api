@@ -1,4 +1,4 @@
-// This example removes all the elements from the current document or from the current document content.
+// Remove all the elements from the current document or from the current document content.
 
 // Clear entire document.
 

@@ -1,6 +1,6 @@
-// This example demonstrates getting the axis position from a data bar conditional formatting rule.
+// Get the axis position from a data bar conditional formatting rule.
 
-// How to check the axis position setting of a data bar.
+// How to check the axis position setting of a data bar in a spreadsheet.
 
 // Get the axis position of a data bar conditional formatting rule.
 

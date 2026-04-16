@@ -1,8 +1,8 @@
-// This example shows how to get the spacing after value of the paragraph.
+// Get the spacing after value of the paragraph in a spreadsheet.
 
 // How to get the spacing information which is after the paragraph.
 
-// Get two consecutive paragraphs, add the spacing between them then get the spacing after the first one and display it in the worksheet. 
+// Get two consecutive paragraphs, add the spacing between them then get the spacing after the first one and display it in the worksheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

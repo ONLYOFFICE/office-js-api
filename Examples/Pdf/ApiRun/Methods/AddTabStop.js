@@ -1,8 +1,8 @@
-// This example adds a tab stop to the run.
+// Add a tab stop to the run in a PDF document.
 
-// How to add a tab after a string in a text run.
+// How to add a tab after a string in a text run in a PDF document.
 
-// How to split a text with a tab.
+// How to split a text with a tab in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

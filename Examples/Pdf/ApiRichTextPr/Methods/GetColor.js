@@ -1,4 +1,9 @@
-// This example gets color property from rich text properties object.
+// Get color property from rich text properties object in a PDF document.
+
+// How to get the color for a rich text properties in a PDF document?
+
+// Get the color and display the result in a PDF document.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

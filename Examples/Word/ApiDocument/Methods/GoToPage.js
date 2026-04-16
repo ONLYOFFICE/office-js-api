@@ -1,4 +1,4 @@
-// This example moves the cursor to the start of the specified page in the document.
+// Move the cursor to the start of the specified page in the document.
 
 // How to navigate to a specific page in the document.
 

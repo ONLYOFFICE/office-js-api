@@ -1,4 +1,8 @@
-// This example shows how to get the chart title text.
+// Get the chart title text in a spreadsheet.
+
+// How do I get the title in a spreadsheet?
+
+// Get the title using a chart object in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 worksheet.GetRange('B1').SetValue(2014);

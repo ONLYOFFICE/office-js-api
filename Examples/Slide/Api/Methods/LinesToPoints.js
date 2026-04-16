@@ -1,4 +1,8 @@
-// This example shows how to convert lines to points.
+// Convert lines to points in a presentation.
+
+// How can I convert lines to points in a presentation?
+
+// Convert lines to points in a presentation.
 
 const lines = 100;
 const points = Api.LinesToPoints(lines);

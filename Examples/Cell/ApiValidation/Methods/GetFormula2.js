@@ -1,8 +1,8 @@
-// This example gets the second formula in data validation.
+// Get the second formula in data validation.
 
 // How to retrieve the second validation formula.
 
-// Get the second formula.
+// Get the second formula using the validation API in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");

@@ -1,4 +1,4 @@
-// This example shows how to get page fields of a pivot table.
+// Get page fields of a pivot table in a spreadsheet.
 
 // How to get table page fields as an array of fields.
 

@@ -1,8 +1,8 @@
-// This example removes the footer of the specified type from the section.
+// Remove the footer of the specified type from the section in a document.
 
-// How to remove the footer of the current section.
+// How to remove the footer of the current section in a document.
 
-// Create section from the paragraph and remove its footer.
+// Create section from the paragraph and remove its footer in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

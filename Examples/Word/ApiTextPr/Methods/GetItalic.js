@@ -1,4 +1,4 @@
-// This example shows how to find out whether the text italic or not.
+// Find out whether the text italic or not in a document.
 
 // How to know if the text of the form is italic.
 

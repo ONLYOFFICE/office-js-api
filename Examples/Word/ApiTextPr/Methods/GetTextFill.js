@@ -1,4 +1,8 @@
-// This example shows how to get the text fill of the text properties.
+// Get the text fill of the text properties in a document.
+
+// How do I get the text fill in a document?
+
+// Get the text fill using a text properties object in a document.
 
 const doc = Api.GetDocument();
 

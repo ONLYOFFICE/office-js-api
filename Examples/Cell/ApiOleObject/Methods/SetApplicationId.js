@@ -1,6 +1,6 @@
-// This example sets the application ID to the current OLE object.
+// Set the application ID to the current OLE object in a spreadsheet.
 
-// How to set application id of OLE object.
+// How to set application id of OLE object in a spreadsheet.
 
 // Add Ole object, set its application id and display it in the worksheet.
 

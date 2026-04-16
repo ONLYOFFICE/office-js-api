@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the presentation.
+// Check the class type returned by a text form.
 
-// How to get a class type of ApiTextForm.
+// How do I check what type a text form object is?
 
-// Retrieve class type of ApiTextForm object and insert it to the document.
+// Retrieve and output the class type string for a text form.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});

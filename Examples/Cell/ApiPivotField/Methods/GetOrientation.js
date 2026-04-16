@@ -1,8 +1,8 @@
-// This example shows how to get an orientation of a pivot field.
+// Get an orientation of a pivot field in a spreadsheet.
 
-// How to get a pivot field orientation.
+// How to get a pivot field orientation in a spreadsheet.
 
-// Create a pivot table, add data to it then get an orientation of a specified pivot field.
+// Create a pivot table, add data to it then get an orientation of a specified pivot field in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

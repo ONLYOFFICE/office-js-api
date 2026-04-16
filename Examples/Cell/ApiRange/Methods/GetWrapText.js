@@ -1,4 +1,4 @@
-// This example shows how to get the information about the wrapping cell style.
+// Get the information about the wrapping cell style in a spreadsheet.
 
 // How to get a cell value wrapping type.
 

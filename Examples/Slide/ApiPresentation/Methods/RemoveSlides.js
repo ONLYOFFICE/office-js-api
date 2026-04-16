@@ -1,8 +1,8 @@
-// This example shows how to remove a range of slides from the presentation.
+// Remove a range of slides from the presentation in a presentation.
 
 // How to remove the slides from the presentation.
 
-// Delete a range of the ApiSlide objects from the presentation.
+// Delete a range of the slide objects from the presentation.
 
 const presentation = Api.GetPresentation();
 const slide = Api.CreateSlide();

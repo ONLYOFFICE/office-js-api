@@ -1,8 +1,8 @@
-// This example shows how to return the inverse of the gamma cumulative distribution: if p = GAMMADIST(x,...), then GAMMAINV(p,...) = x.
+// Return the inverse of the gamma cumulative distribution: if p = GAMMADIST(x,...), then GAMMAINV(p,...) = x in a spreadsheet.
 
-// How to calculate the inverse of the gamma cumulative distribution.
+// How to calculate the inverse of the gamma cumulative distribution in a spreadsheet.
 
-// Use a function to get the inverse of the gamma cumulative distribution.
+// Use a function to get the inverse of the gamma cumulative distribution in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

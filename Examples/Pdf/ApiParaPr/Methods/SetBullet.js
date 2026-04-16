@@ -1,8 +1,8 @@
-// This example sets the bullet or numbering to the current paragraph.
+// Set the bullet or numbering to the current paragraph in a PDF document.
 
-// How to set a bullet type to the paragraph properties.
+// How to set a bullet type to the paragraph properties in a PDF document.
 
-// Create a bulleted paragraph setting its bullet type.
+// Create a bulleted paragraph setting its bullet type in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

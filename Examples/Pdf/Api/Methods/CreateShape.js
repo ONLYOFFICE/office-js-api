@@ -1,6 +1,8 @@
-// How to add a new flowchart shape.
+// How to add a new flowchart shape in a PDF document.
 
-// Add a new shape indicating its properties.
+// Add a new shape indicating its properties in a PDF document.
+
+// Create the shape in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// This example specifies the visual properties for the minor vertical gridlines.
+// Specify the visual properties for the minor vertical gridlines in a document.
 
-// How to set minor vertical gridlines of the chart.
+// How to set minor vertical gridlines of the chart in a document.
 
-// Create a chart, set its properties and its minor gridlines as a stroke.
+// Create a chart, set its properties and its minor gridlines as a stroke in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

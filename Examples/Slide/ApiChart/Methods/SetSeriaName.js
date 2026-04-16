@@ -1,8 +1,8 @@
-// This example sets a name to the specified chart series.
+// Set a name to the specified chart series in a presentation.
 
-// How to rename a chart seria.
+// How to rename a chart seria in a presentation.
 
-// Create a chart, set its properties and its series names.
+// Create a chart, set its properties and its series names in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

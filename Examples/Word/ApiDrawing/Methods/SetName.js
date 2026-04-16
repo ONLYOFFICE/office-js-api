@@ -1,4 +1,8 @@
-// This example shows how to set the name of a drawing.
+// Set the name of a drawing in a document.
+
+// How to set name for a drawing object in a document?
+
+// Set name and display the result in a document.
 
 const doc = Api.GetDocument();
 const paragraph = doc.GetElement(0);

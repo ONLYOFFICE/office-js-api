@@ -1,4 +1,9 @@
-// This example demonstrates how to get all subforms of a complex form.
+// Get all subforms of a complex form in a document.
+
+// How can I get the sub forms using a complex form in a document?
+
+// Get the sub forms for a complex form in a document.
+
 let doc = Api.GetDocument();
 let complexForm = Api.CreateComplexForm({"key": "Email", "tip": "Email", "placeholder": "Start to fill complex form"});
 complexForm.Add(Api.CreateTextForm({"placeholder" : "username"}));

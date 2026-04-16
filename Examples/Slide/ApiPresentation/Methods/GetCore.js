@@ -1,4 +1,8 @@
-// This example demonstrates how get ApiCore instance and use its methods to manage presentation metadata.
+// How get core properties instance and use its methods to manage presentation metadata.
+
+// How to get the core for a presentation?
+
+// Get the core and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

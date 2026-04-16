@@ -1,8 +1,8 @@
-// This example shows how to get font from above average formatting rule.
+// Get font from above average formatting rule in a spreadsheet.
 
 // How to retrieve font formatting from above average conditional formatting.
 
-// Get the font object from the above average rule.
+// Get the font object from the above average rule in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

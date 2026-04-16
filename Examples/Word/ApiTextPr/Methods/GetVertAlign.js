@@ -1,8 +1,8 @@
-// This example shows how to find out how a text is aligned vertically.
+// Find out how a text is aligned vertically in a document.
 
-// How to know whether a text is subscript, superscript or baseline.
+// How to know whether a text is subscript, superscript or baseline in a document.
 
-// Get the text properties of the run and find its vertical alignment.
+// Get the text properties of the run and find its vertical alignment in a document.
 
 let doc = Api.GetDocument();
 let myNewRunStyle = doc.CreateStyle("My New Run Style", "run");

@@ -1,4 +1,4 @@
-// This example shows how to get the page height.
+// Get the page height in a document.
 
 // How to get the page height.
 

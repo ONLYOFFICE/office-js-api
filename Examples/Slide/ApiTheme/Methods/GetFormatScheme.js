@@ -1,4 +1,4 @@
-// This example shows how to get the format scheme of the theme.
+// Get the format scheme of the theme in a presentation.
 
 // How to get a format scheme from a theme.
 

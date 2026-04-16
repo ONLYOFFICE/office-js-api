@@ -1,6 +1,8 @@
-// How to create new table with two rows and four columns.
+// How to create new table with two rows and four columns in a PDF document.
 
 // Add a table to the pdf document.
+
+// Create the table using the PDF document API.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,4 +1,8 @@
-// This example shows how to get the RGBA components of a shape fill color.
+// Get the RGBA components of a shape fill color in a spreadsheet.
+
+// How to get the r g b a for a color in a spreadsheet?
+
+// Get the r g b an and display the result in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const color = Api.RGBA(110, 160, 180, 127);

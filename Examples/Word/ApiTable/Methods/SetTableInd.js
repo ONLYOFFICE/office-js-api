@@ -1,8 +1,8 @@
-// This example specifies the indentation which will be added before the leading edge of the table in the document.
+// Specify the indentation which will be added before the leading edge of the table in the document.
 
-// How to set the indentation of the table.
+// How to set the indentation of the table in a document.
 
-// Create a table and resize its indent.
+// Create a table and resize its indent in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

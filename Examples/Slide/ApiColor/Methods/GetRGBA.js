@@ -1,4 +1,8 @@
-// This example shows how to get the RGBA components of a shape fill color.
+// Get the RGBA components of a shape fill color in a presentation.
+
+// How do I get the r g b an in a presentation?
+
+// Get the r g b an using a color object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// This example deletes the paragraph.
+// Delete the paragraph in a PDF document.
 
 // How to remove a paragraph from the page.
 
-// Delete a text.
+// Delete and display the result in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
