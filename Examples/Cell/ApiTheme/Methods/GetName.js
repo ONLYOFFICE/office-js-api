@@ -1,4 +1,8 @@
-// This example shows how to get the name of the current workbook theme.
+// Get the name of the current workbook theme in a spreadsheet.
+
+// How to get the name for a theme in a spreadsheet?
+
+// Get the name and display the result in a spreadsheet.
 
 const workbook = Api.GetActiveWorkbook();
 const theme = workbook.GetTheme();

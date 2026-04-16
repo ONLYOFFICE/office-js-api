@@ -1,4 +1,4 @@
-// This example shows how to get visibility property of the slide.
+// Get visibility property of the slide in a presentation.
 
 // How to find out whether a slide is visible or not.
 

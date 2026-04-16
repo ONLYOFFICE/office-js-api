@@ -1,4 +1,4 @@
-// This example adds a paragraph in document content.
+// Add a paragraph in document content.
 
 // How to add elements to the document content.
 

@@ -1,6 +1,8 @@
-// How to get a class type of ApiTableRow.
+// Check the class type returned by a table row in a PDF document.
 
-// Retrieve class type of ApiTableRow object and insert it to the page.
+// How do I check what type a table row object is in a PDF document?
+
+// Retrieve and output the class type string for a table row in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,6 +1,6 @@
-// This example shows how to replace the document content with the mail merge data.
+// Replace the document content with the mail merge data in a document.
 
-// Starts the mail merge process and replaces the resulting document content with the mail merge template document.
+// Start the mail merge process and replace the resulting document content with the mail merge template document.
 
 // How to replace the main document content with another document content.
 

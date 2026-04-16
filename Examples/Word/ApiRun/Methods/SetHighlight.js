@@ -1,8 +1,8 @@
-// This example specifies a highlighting color which is applied as a background to the contents of the run.
+// Specify a highlighting color which is applied as a background to the contents of the run in a document.
 
-// How to set highlight to the text run.
+// How to set highlight to the text run in a document.
 
-// Create a new text run and highlight it.
+// Create a new text run and highlight it in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

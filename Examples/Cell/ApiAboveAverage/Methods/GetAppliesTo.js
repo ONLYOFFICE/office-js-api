@@ -1,8 +1,8 @@
-// This example shows how to get the range where above average rule applies.
+// Get the range where above average rule applies in a spreadsheet.
 
 // How to retrieve the range where above average conditional formatting is applied.
 
-// Get the range to which the above average rule applies.
+// Get the range to which the above average rule applies in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

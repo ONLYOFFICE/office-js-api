@@ -1,8 +1,8 @@
-// This example sets the lock to the inline text content control.
+// Set the lock to the inline text content control in a document.
 
-// How to set lock type for the inline content control.
+// How to set lock type for the inline content control in a document.
 
-// Display the lock type set for inline text element.
+// Display the lock type set for inline text element in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

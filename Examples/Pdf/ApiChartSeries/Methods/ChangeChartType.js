@@ -1,8 +1,8 @@
-// This example changes the type of the first series of ApiChart class and inserts the new type into the pdf document.
+// Change the type of the first series of chart class and insert the new type into the pdf document.
 
-// How to change a chart type.
+// How to change a chart type in a PDF document.
 
-// Change a chart type to the "area" type.
+// Change a chart type to the "area" type in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

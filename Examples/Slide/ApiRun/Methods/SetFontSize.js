@@ -1,8 +1,8 @@
-// This example sets the font size to the characters of the current text run.
+// Set the font size to the characters of the current text run in a presentation.
 
-// How to set font size to the text run.
+// How to set font size to the text run in a presentation.
 
-// Create a new text run and change resize its font.
+// Create a new text run and change resize its font in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,4 +1,4 @@
-// This example shows how to get a set of the table cell properties which will be applied to all the cells within a table which match the conditional formatting type.
+// Get a set of the table cell properties which will be applied to all the cells within a table which match the conditional formatting type.
 
 // How to get the table cell properties.
 

@@ -1,6 +1,6 @@
-// This example converts the ApiSchemeColor object into the JSON object.
+// Convert the scheme color object into the JSON object in a document.
 
-// How to get a JSON from the color object.
+// How to get a JSON from the color object in a document.
 
 // Convert the RGB color object to json and add it to the document.
 

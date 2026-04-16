@@ -1,4 +1,8 @@
-// This example shows how to convert millimeters to pixels.
+// Convert millimeters to pixels in a document.
+
+// How can I convert millimeters to pixels in a document?
+
+// Convert millimeters to pixels in a document.
 
 const doc = Api.GetDocument();
 const paragraph = Api.CreateParagraph();

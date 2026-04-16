@@ -1,8 +1,8 @@
-// This example changes a color in the theme color scheme.
+// Change a color in the theme color scheme in a presentation.
 
-// How to get a color scheme of a theme and change its color.
+// How to get a color scheme of a theme and change its color in a presentation.
 
-// Get color scheme and update its colors.
+// Get color scheme and update its colors in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

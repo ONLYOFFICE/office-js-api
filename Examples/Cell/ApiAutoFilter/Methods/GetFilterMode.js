@@ -1,8 +1,8 @@
-// This example checks whether a worksheet currently has an AutoFilter.
+// Check whether a worksheet currently has an AutoFilter.
 
-// How to detect if filtering is active on a sheet.
+// How to detect if filtering is active on a sheet in a spreadsheet.
 
-// Use ApiAutoFilter.GetFilterMode() to test filter state.
+// Use ApiAutoFilter.GetFilterMode() to test filter state in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// This example sets the application ID to the current OLE object.
+// Set the application ID to the current OLE object in a presentation.
 
-// Set an application ID for an OLE object.
+// Set an application ID for an OLE object in a presentation.
 
-// Create an OLE object and set its application ID.
+// Create an OLE object and set its application ID in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,4 +1,8 @@
-// This example applies double strikeout formatting to paragraph text.
+// Apply double strikeout formatting to paragraph text.
+
+// How can I set double strikeout using a paragraph in a presentation?
+
+// Set double strikeout for a paragraph in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

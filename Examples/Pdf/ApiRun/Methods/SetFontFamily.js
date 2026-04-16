@@ -1,8 +1,8 @@
-// This example sets all 4 font slots with the specified font family.
+// Set all 4 font slots with the specified font family in a PDF document.
 
-// How to set font family to the text run.
+// How to set font family to the text run in a PDF document.
 
-// Create a new text run and change its font family.
+// Create a new text run and change its font family in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

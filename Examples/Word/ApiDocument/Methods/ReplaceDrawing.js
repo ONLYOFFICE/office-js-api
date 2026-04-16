@@ -1,8 +1,8 @@
-// This example replaces a drawing with a new drawing.
+// Replace a drawing with a new drawing in a document.
 
-// How to change the image to another one.
+// How to change the image to another one in a document.
 
-// Add the new drawing instead of another one.
+// Add the new drawing instead of another one in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example specifies that any lowercase characters in the current text run are formatted for display only as their capital letter character equivalents.
+// Specify that any lowercase characters in the current text run are formatted for display only as their capital letter character equivalents.
 
-// How to make a text capitalized.
+// How to make a text capitalized in a PDF document.
 
-// Create a new text run and make each letters capitalized.
+// Create a new text run and make each letters capitalized in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

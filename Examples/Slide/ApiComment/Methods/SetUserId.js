@@ -1,6 +1,6 @@
-// This example shows how to set a user ID.
+// Set an user ID in a presentation.
 
-// How to change an author's user ID of a comment.
+// How to change an author's user ID of a comment in a presentation.
 
 // Get all comments from the presentation and change its first one's user ID.
 

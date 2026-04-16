@@ -1,4 +1,8 @@
-// This example demonstrates how to set the category of the document using the ApiCore.
+// Set the category of the document using the core properties in a document.
+
+// How can I set category using a core properties in a document?
+
+// Set category for a core properties in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

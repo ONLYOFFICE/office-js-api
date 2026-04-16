@@ -1,8 +1,8 @@
-// This example shows how to return the price per $100 face value for a Treasury bill.
+// Return the price per $100 face value for a Treasury bill in a spreadsheet.
 
-// How to return the price per $100 face value for a Treasury bill.
+// How to return the price per $100 face value for a Treasury bill in a spreadsheet.
 
-// Use a function to calculate the price per $100 face value.
+// Use a function to calculate the price per $100 face value in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

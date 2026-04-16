@@ -1,4 +1,8 @@
-// This example demonstrates how to set and get the creation date of a presentation using the ApiCore.
+// Set and get the creation date of a presentation using the core properties in a presentation.
+
+// How can I set created using a core properties in a presentation?
+
+// Set created for a core properties in a presentation.
 
 const presentation = Api.GetPresentation();
 const core = presentation.GetCore();

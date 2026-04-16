@@ -1,10 +1,10 @@
-// This example shows how to get the current document.
+// Get the current document in a document.
 
-// Returns the current document object and adds a paragraph to it.
+// Return the current document object and add a paragraph to it.
 
 // How to add a paragraph to the current document.
 
-// Creates the ApiParagraph object, adds a text to it, and inserts this object into the ApiDocument object.
+// Create the paragraph object, add a text to it, and insert this object into the document object.
 
 // How to get the current document to work with it.
 

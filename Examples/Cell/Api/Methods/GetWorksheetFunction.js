@@ -1,4 +1,4 @@
-// This example shows how to use built-in functions using worksheet function objects.
+// Use built-in functions using worksheet function objects in a spreadsheet.
 
 // How to use system functions in a spreadsheets.
 

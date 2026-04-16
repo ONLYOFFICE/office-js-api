@@ -1,8 +1,8 @@
-// This example shows how to create a scheme color with the 'dk1' identifier.
+// Create a scheme color with the 'dk1' identifier in a PDF document.
 
-// How to create a new scheme color.
+// How to create a new scheme color in a PDF document.
 
-// Add a scheme color to create a solid fill.
+// Add a scheme color to create a solid fill in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

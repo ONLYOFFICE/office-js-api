@@ -1,8 +1,8 @@
-// This example creates a linear gradient fill to apply to the object using the selected linear gradient as the object background.
+// Create a linear gradient fill to apply to the object using the selected linear gradient as the object background in a spreadsheet.
 
-// How to create a gradient background using gradient fill.
+// How to create a gradient background using gradient fill in a spreadsheet.
 
-// Create a shape with a gradient background using gradient fill.
+// Create a shape with a gradient background using gradient fill in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let gs1 = Api.CreateGradientStop(Api.RGB(255, 213, 191), 0);

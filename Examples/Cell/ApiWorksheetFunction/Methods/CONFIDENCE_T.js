@@ -1,8 +1,8 @@
-// This example shows how to return the confidence interval for a population mean, using a Student's t distribution.
+// Return the confidence interval for a population mean, using a Student's t distribution in a spreadsheet.
 
-// How to return the confidence interval for a population mean, using a Student's t distribution.
+// How to return the confidence interval for a population mean, using a Student's t distribution in a spreadsheet.
 
-// Use function to get the confidence interval for a population mean.
+// Use function to get the confidence interval for a population mean in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

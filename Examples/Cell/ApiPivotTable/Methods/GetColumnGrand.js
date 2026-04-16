@@ -1,8 +1,8 @@
-// This example shows how to get column grand of a pivot table.
+// Get column grand of a pivot table in a spreadsheet.
 
-// How to get column grand from a pivot table.
+// How to get column grand from a pivot table in a spreadsheet.
 
-// Create a pivot table, add data to it then get its column grand.
+// Create a pivot table, add data to it then get its column grand in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

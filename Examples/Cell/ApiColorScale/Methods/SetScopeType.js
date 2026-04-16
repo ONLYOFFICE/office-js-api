@@ -1,8 +1,8 @@
-// This example sets the scope type of color scale formatting rule.
+// Set the scope type of color scale formatting rule.
 
 // How to change the scope type of color scale conditional formatting.
 
-// Set color scale scope type.
+// Set color scale scope type in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

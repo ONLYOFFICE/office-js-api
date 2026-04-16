@@ -1,8 +1,8 @@
-// This example shows how to return the straight-line depreciation of an asset for one period.
+// Return the straight-line depreciation of an asset for one period in a spreadsheet.
 
-// How to return the straight-line depreciation of an asset.
+// How to return the straight-line depreciation of an asset in a spreadsheet.
 
-// Use a function to get the straight-line depreciation of an asset.
+// Use a function to get the straight-line depreciation of an asset in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

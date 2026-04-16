@@ -1,8 +1,8 @@
-// This example clears the content from the run.
+// Clear the content from the run in a document.
 
-// How to delete a text from the run object.
+// How to delete a text from the run object in a document.
 
-// Remove the text from the run. 
+// Remove the text from the run in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

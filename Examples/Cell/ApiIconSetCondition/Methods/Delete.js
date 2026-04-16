@@ -1,4 +1,4 @@
-// This example demonstrates deleting an icon set conditional formatting rule.
+// Delete an icon set conditional formatting rule.
 
 // How to remove icon set conditional formatting from a range.
 

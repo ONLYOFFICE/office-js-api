@@ -1,6 +1,6 @@
-// This example shows how to get the paragraph contents justification.
+// Get the paragraph contents justification in a PDF document.
 
-// How to set a justification of a paragraph property.
+// How to set a justification of a paragraph property in a PDF document.
 
 // Change a justification type of a text property from the page.
 

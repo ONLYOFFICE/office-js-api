@@ -1,8 +1,8 @@
-// This example creates a new document section which ends at the specified paragraph.
+// Create a new document section which ends at the specified paragraph.
 
-// How to create a section indicating its size, margins, etc.
+// How to create a section indicating its size, margins, etc in a document.
 
-// Create a paragraph under the section.
+// Create a paragraph under the section in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,4 +1,8 @@
-// This example shows how to get the tag of a form element.
+// Get the tag of a form element in a document.
+
+// How to get the tag for a form base?
+
+// Get the tag and display the result in a document.
 
 const doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

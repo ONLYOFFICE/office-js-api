@@ -1,8 +1,8 @@
-// This example shows how to return a number matching an error value.
+// Return a number matching an error value in a spreadsheet.
 
-// How to get the error type code from the value.
+// How to get the error type code from the value in a spreadsheet.
 
-// Use function to get a error type.
+// Use function to get an error type in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

@@ -1,4 +1,4 @@
-// This example adds a paragraph to pdf document.
+// Add a paragraph to pdf document.
 
 // How to create an element, add it to a shape and insert the shape to the page.
 

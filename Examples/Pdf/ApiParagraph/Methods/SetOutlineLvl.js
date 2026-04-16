@@ -1,4 +1,8 @@
-// This example sets the outline level for the specified paragraph.
+// Set the outline level for the specified paragraph in a PDF document.
+
+// How to set outline lvl for a paragraph in a PDF document?
+
+// Set outline lvl and display the result in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

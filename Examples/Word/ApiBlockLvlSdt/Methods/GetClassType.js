@@ -1,4 +1,9 @@
-// This example gets a class type and inserts it into the document.
+// Check the class type returned by a block-level content control in a document.
+
+// How do I check what type a block-level content control object is in a document?
+
+// Retrieve and output the class type string for a block-level content control in a document.
+
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();
 let paragraph = Api.CreateParagraph();

@@ -1,4 +1,4 @@
-// This example shows how to get icon criteria collection.
+// Get icon criteria collection in a spreadsheet.
 
 // How to retrieve icon criteria for conditional formatting.
 

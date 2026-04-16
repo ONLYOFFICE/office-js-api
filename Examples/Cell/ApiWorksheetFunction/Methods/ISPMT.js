@@ -1,8 +1,8 @@
-// This example shows how to return the interest paid during a specific period of an investment.
+// Return the interest paid during a specific period of an investment in a spreadsheet.
 
-// How to get the investment interest paid during a specific period.
+// How to get the investment interest paid during a specific period in a spreadsheet.
 
-// Use a function to get an interest paid during a specific period.
+// Use a function to get an interest paid during a specific period in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

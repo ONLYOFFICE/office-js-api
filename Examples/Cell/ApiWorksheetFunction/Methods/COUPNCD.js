@@ -1,8 +1,8 @@
-// This example shows how to return the next coupon date after the settlement date.
+// Return the next coupon date after the settlement date in a spreadsheet.
 
-// How to find the next coupon date.
+// How to find the next coupon date in a spreadsheet.
 
-// Use function to get the next coupon date after the settlement date.
+// Use function to get the next coupon date after the settlement date in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

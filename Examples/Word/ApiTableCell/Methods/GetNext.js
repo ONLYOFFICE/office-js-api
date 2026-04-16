@@ -1,4 +1,4 @@
-// This example shows how to get the next cell.
+// Get the next cell in a document.
 
 // How to get next cell.
 

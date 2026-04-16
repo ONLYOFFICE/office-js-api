@@ -1,8 +1,8 @@
-// This example specifies the border which will be displayed between each paragraph in a set of paragraphs which have the same set of paragraph border settings.
+// Specify the border which will be displayed between each paragraph in a set of paragraphs which have the same set of paragraph border settings in a document.
 
-// How to set the border between paragraphs.
+// How to set the border between paragraphs in a document.
 
-// Create a paragraph, add text to it and the single border between the text.
+// Create a paragraph, add text to it and the single border between the text in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

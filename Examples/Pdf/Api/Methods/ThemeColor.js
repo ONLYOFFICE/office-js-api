@@ -1,4 +1,8 @@
-// This example shows how to create a theme color and use it as a shape fill.
+// Create a theme color and use it as a shape fill in a PDF document.
+
+// How do I theme color in a PDF document?
+
+// Theme color and display the result in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

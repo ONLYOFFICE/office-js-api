@@ -1,4 +1,8 @@
-// This example removes all effects from an animation sequence.
+// Remove all effects from an animation sequence in a presentation.
+
+// How to remove all effects for an animation sequence in a presentation?
+
+// Remove all effects and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

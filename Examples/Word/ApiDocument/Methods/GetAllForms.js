@@ -1,4 +1,4 @@
-// This example shows how to get all existing forms in the document.
+// Get all existing forms in the document.
 
 // Get all forms added to the document.
 

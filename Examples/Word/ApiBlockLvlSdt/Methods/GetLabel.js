@@ -1,8 +1,8 @@
-// This example shows how to get a label attribute for the container.
+// Get a label attribute for the container in a document.
 
-// Creates a block content control, sets a label to it, and returns this label to insert it into the second paragraph of the document.
+// Create a block content control, set a label to it, and return this label to insert it into the second paragraph of the document.
 
-// How to get a label from the ApiBlockLvlSdt object.
+// How to get a label from the block-level content control object in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

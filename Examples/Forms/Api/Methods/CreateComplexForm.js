@@ -1,8 +1,8 @@
-// This example creates a complex form with the common complex form properties.
+// Create a complex form with the common complex form properties.
 
 // How to create a complex form and add it to the paragraph.
 
-// Add a complex form with the state options to the ApiDocument object.
+// Add a complex form with the state options to the document object.
 
 let doc = Api.GetDocument();
 let complexForm = Api.CreateComplexForm({

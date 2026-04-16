@@ -1,6 +1,6 @@
-// This example adds a new protected range.
+// Add a new protected range in a spreadsheet.
 
-// How to add the protected ApiRange object.
+// How to add the protected cell range object.
 
 // Insert a protected range to the worksheet.
 

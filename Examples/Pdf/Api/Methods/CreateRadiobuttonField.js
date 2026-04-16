@@ -1,4 +1,9 @@
 // How to create and add a radiobutton field to document.
+
+// How do I create the radiobutton field in a PDF document?
+
+// Create the radiobutton field and display the result in a PDF document.
+
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 

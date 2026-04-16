@@ -1,4 +1,9 @@
-// This example sets justification for rich paragraph properties.
+// Set justification for rich paragraph properties in a PDF document.
+
+// How do I set jc in a PDF document?
+
+// Set jc using a rich paragraph properties object in a PDF document.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

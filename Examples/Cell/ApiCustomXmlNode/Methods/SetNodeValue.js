@@ -1,4 +1,8 @@
-// This example shows how to set the value of a custom XML node.
+// Set the value of a custom XML node in a spreadsheet.
+
+// How to set node value for a custom XML node in a spreadsheet?
+
+// Set node value and display the result in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const xmlManager = worksheet.GetCustomXmlParts();

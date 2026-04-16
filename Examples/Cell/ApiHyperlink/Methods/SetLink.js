@@ -1,4 +1,8 @@
-// This example shows how to set a new URL for a hyperlink inside a shape.
+// Set a new URL for a hyperlink inside a shape in a spreadsheet.
+
+// How can I set link using a hyperlink in a spreadsheet?
+
+// Set link for a hyperlink in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// This example sets the style to the current Range.
+// Set the style to the current Range in a document.
 
-// How to style a text of the range.
+// How to style a text of the range in a document.
 
-// Get a range, apply "Heading 2" style to it.
+// Get a range, apply "Heading 2" style to it in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

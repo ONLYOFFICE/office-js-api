@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the presentation.
+// Check the class type returned by a table cell.
 
-// How to get a class type of ApiTableCell.
+// How do I check what type a table cell object is?
 
-// Retrieve class type of ApiTableCell object and insert it to the document.
+// Retrieve and output the class type string for a table cell.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

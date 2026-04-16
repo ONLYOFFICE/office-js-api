@@ -1,8 +1,8 @@
-// This example shows how to get the text properties of the current style.
+// Get the text properties of the current style in a document.
 
-// How to update text properties.
+// How to update text properties in a document.
 
-// Get the default style text properties of the paragraph.
+// Get the default style text properties of the paragraph in a document.
 
 let doc = Api.GetDocument();
 let normalStyle = doc.GetDefaultStyle("paragraph");

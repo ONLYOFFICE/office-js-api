@@ -1,4 +1,8 @@
-// This example sets the italic property to the text character.
+// Set the italic property to the text character in a PDF document.
+
+// How can I set italic using a paragraph in a PDF document?
+
+// Set italic for a paragraph in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

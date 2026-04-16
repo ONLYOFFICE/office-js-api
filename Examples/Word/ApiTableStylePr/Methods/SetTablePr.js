@@ -1,8 +1,8 @@
-// This example shows how to create and set the table properties which will be applied to all the regions within a table which match the conditional formatting type.
+// Create and set the table properties which will be applied to all the regions within a table which match the conditional formatting type.
 
-// How to set table properties to table style and set its bottom border.
+// How to set table properties to table style and set its bottom border in a document.
 
-// Update the table style table properties.
+// Update the table style table properties in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,6 +1,6 @@
-// This example specifies how the floating object will be vertically aligned.
+// Specify how the floating object will be vertically aligned in a document.
 
-// How to set the vertical alignment of the drawing.
+// How to set the vertical alignment of the drawing in a document.
 
 // Move the shape to the top of the page.
 

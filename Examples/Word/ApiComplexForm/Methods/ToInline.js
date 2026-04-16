@@ -1,4 +1,9 @@
-// This example converts the form to an inline form.
+// Convert the form to an inline form.
+
+// How do I to inline in a document?
+
+// To inline using a complex form object.
+
 let doc = Api.GetDocument();
 let complexForm = Api.CreateComplexForm({"key": "Complex1"});
 complexForm.Add('Complex form');

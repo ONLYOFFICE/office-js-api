@@ -1,4 +1,8 @@
-// This example demonstrates how to get the value of a custom property by its name.
+// Get the value of a custom property by its name in a spreadsheet.
+
+// How can I get using a custom properties in a spreadsheet?
+
+// Get for a custom properties in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const customProps = Api.GetCustomProperties();

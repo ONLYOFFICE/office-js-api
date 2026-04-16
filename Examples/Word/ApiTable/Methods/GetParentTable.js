@@ -1,6 +1,6 @@
-// This example shows how to get a table that contains the table.
+// Get a table that contains the table in a document.
 
-// How to get the parent table and delete its row.
+// How to get the parent table and delete its row in a document.
 
 // Retrieve the parent table, get its cell and remove the row of it.
 

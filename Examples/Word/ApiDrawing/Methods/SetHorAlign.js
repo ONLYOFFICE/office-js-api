@@ -1,8 +1,8 @@
-// This example specifies how the floating object will be horizontally aligned.
+// Specify how the floating object will be horizontally aligned in a document.
 
 // How to set the drawing to the center of the page.
 
-// Create a drawing and align it horizontaly to the center.
+// Create a drawing and align it horizontaly to the center in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

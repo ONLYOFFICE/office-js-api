@@ -1,8 +1,8 @@
-// This example clears all the hyperlinks in the range.
+// Clear all the hyperlinks in the range in a spreadsheet.
 
-// How to clear hyperlinks for a range.
+// How to clear hyperlinks for a range in a spreadsheet.
 
-// Get a range, clear hyperlinks and show the result.
+// Get a range, clear hyperlinks and show the result in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1:B1").SetValue("http://example.com");

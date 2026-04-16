@@ -1,4 +1,8 @@
-// This example shows how to get the hex representation of the color.
+// Get the hex representation of the color in a document.
+
+// How to get the hex for a color in a document?
+
+// Get the hex and display the result in a document.
 
 const doc = Api.GetDocument();
 

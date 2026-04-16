@@ -1,4 +1,4 @@
-// This example specifies if the text field should be a comb of characters with the same cell width.
+// Specify if the text field should be a comb of characters with the same cell width.
 
 // How to specify the comb property of the text form.
 

@@ -1,6 +1,8 @@
-// This example specifies the page margins for all the pages in this section and returns it back.
+// Specify the page margins for all the pages in this section and return it back.
 
 // How to get bottom page margin.
+
+// Get the page margin bottom using a section object.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example shows how to find out whether a text is uncapitalized.
+// Find out whether a text is uncapitalized in a PDF document.
 
-// How to know whether the text letters are lowercase or not.
+// How to know whether the text letters are lowercase or not in a PDF document.
 
-// Get the run and find whether it is uncapitalized or not.
+// Get the run and find whether it is uncapitalized or not in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

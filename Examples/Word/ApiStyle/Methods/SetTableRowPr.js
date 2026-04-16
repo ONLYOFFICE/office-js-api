@@ -1,8 +1,8 @@
-// This example shows how to set the table row properties to the current style.
+// Set the table row properties to the current style in a document.
 
-// How to create table row properties for style and set its height.
+// How to create table row properties for style and set its height in a document.
 
-// Update table row properties in the style.
+// Update table row properties in the style in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

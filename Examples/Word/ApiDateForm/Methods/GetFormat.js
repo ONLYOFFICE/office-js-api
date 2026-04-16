@@ -1,4 +1,4 @@
-// This example shows how to get the date format from a date form.
+// Get the date format from a date form in a document.
 
 // How to get a date form format.
 

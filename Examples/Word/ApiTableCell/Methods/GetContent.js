@@ -1,4 +1,4 @@
-// This example shows how to get the current cell content.
+// Get the current cell content in a document.
 
 // How to get the value from the cell.
 

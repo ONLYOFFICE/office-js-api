@@ -1,4 +1,9 @@
 // How to create and add a combobox field to document.
+
+// How do I create the combobox field in a PDF document?
+
+// Create the combobox field and display the result in a PDF document.
+
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 

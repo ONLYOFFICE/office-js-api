@@ -1,8 +1,8 @@
-// This example shows how to get the text from the form.
+// Get the text from the form in a document.
 
 // How to get a raw text of a date form.
 
-// Display the date entered as a raw text.
+// Display the date entered as a raw text in a document.
 
 let doc = Api.GetDocument();
 let dateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});

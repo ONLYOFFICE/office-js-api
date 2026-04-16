@@ -1,8 +1,8 @@
-// This example shows how to get custom XML parts by their namespace.
+// Get custom XML parts by their namespace in a spreadsheet.
 
-// How to retrieve custom XML parts using their namespace.
+// How to retrieve custom XML parts using their namespace in a spreadsheet.
 
-// Get XML parts by namespace.
+// Get XML parts by namespace in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let xmlManager = worksheet.GetCustomXmlParts();

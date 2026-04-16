@@ -1,6 +1,6 @@
-// This example shows how to get the next paragraph.
+// Get the next paragraph in a presentation.
 
-// How to get the next paragraph of the current one.
+// How to get the next paragraph of the current one in a presentation.
 
 // Return the next paragraph on the slide and make its text bold.
 

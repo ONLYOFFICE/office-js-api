@@ -1,4 +1,8 @@
-// This example shows how to get the border color for the container.
+// Get the border color for the container in a document.
+
+// How can I get the background color using an inline content control in a document?
+
+// Get the background color for an inline content control in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

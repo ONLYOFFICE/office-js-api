@@ -1,8 +1,8 @@
-// This example shows how to set the text content of a custom XML node.
+// Set the text content of a custom XML node in a spreadsheet.
 
-// How to update text content in custom XML node elements.
+// How to update text content in custom XML node elements in a spreadsheet.
 
-// Set text for message node.
+// Set text for message node in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let xmlManager = worksheet.GetCustomXmlParts();

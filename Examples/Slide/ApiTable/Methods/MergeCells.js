@@ -1,4 +1,4 @@
-// This example merges an array of cells.
+// Merge an array of cells.
 
 // How to get two cells by their position index and merge them into one.
 

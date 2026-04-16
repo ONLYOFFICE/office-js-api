@@ -1,4 +1,4 @@
-// This example copies the form.
+// Copy the form.
 
 // How to remove selected item from the combobox form.
 

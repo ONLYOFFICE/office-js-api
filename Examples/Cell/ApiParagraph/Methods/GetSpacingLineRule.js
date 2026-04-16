@@ -1,8 +1,8 @@
-// This example shows how to get the paragraph line spacing rule.
+// Get the paragraph line spacing rule in a spreadsheet.
 
 // How to get the spacing information of the paragraph lines.
 
-// Create a paragraph, set the spacing line between the sentences and show it. 
+// Create a paragraph, set the spacing line between the sentences and show it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

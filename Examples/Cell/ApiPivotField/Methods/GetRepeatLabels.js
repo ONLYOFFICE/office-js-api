@@ -1,8 +1,8 @@
-// This example shows how to get repeate labels value of a pivot field.
+// Get repeate labels value of a pivot field in a spreadsheet.
 
-// How to get a pivot field's repeate labels boolean value.
+// How to get a pivot field's repeate labels boolean value in a spreadsheet.
 
-// Create a pivot table, add data to it then get repeate labels of a specified pivot field.
+// Create a pivot table, add data to it then get repeate labels of a specified pivot field in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

@@ -1,4 +1,8 @@
-// This example shows how to use a document visitor to collect text from all paragraphs.
+// Use a document visitor to collect text from all paragraphs in a document.
+
+// How to get the document visitor for a document?
+
+// Get the document visitor and display the result in a document.
 
 const doc = Api.GetDocument();
 

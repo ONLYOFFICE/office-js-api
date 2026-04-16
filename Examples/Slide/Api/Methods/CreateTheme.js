@@ -1,8 +1,8 @@
-// This example creates theme and applies it for presentation.
+// Create theme and apply it for presentation.
 
 // How to change theme of the presentation.
 
-// Create new theme indicating all its properties.
+// Create new theme indicating all its properties in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

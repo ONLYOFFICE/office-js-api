@@ -1,4 +1,4 @@
-// This example shows how to get a slide by its position in the presentation.
+// Get a slide by its position in the presentation.
 
 // How to find a slide from the presentation using its index.
 

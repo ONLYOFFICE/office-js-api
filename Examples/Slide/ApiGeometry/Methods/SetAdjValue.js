@@ -1,5 +1,9 @@
-// Creates adjustable geometry with guides and connection points for a presentation.
-// Displays adjustment value and applies custom geometry to shape.
+// Create adjustable geometry with guides and connection points for a presentation. Displays adjustment value and apply custom geometry to shape.
+
+// How to set adj value for a geometry in a presentation?
+
+// Set adj value and display the result in a presentation.
+
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);
 let customGeometry = Api.CreateCustomGeometry();

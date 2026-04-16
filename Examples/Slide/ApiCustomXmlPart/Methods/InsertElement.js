@@ -1,4 +1,8 @@
-// This example shows how to insert a new XML element into the custom XML part.
+// Insert a new XML element into the custom XML part in a presentation.
+
+// How to insert the element for a custom XML part in a presentation?
+
+// Insert the element and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

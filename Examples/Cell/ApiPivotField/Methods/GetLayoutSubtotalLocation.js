@@ -1,8 +1,8 @@
-// This example shows how to get a layout subtotal location of a pivot field.
+// Get a layout subtotal location of a pivot field in a spreadsheet.
 
-// How to get a layout subtotal location of a pivot field.
+// How to get a layout subtotal location of a pivot field in a spreadsheet.
 
-// Create a pivot table, add data to it then get a layout subtotal location of a specified pivot field.
+// Create a pivot table, add data to it then get a layout subtotal location of a specified pivot field in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

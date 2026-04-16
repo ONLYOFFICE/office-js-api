@@ -1,6 +1,8 @@
-// How to rename a chart.
+// How to rename a chart in a PDF document.
 
-// Create a chart, set its properties and its title.
+// Create a chart, set its properties and its title in a PDF document.
+
+// Use chart to set title using the chart API in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

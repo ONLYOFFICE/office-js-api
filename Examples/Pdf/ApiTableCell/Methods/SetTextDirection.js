@@ -1,6 +1,8 @@
 // How to set text direction of the table cell.
 
-// Create a table and set the text direction for the ApiTableCell object.
+// Create a table and set the text direction for the table cell object.
+
+// Set text direction using a table cell object.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

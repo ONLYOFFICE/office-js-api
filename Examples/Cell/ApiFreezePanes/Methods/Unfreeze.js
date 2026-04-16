@@ -1,8 +1,8 @@
-// This example freezes first column then unfreeze all panes in the worksheet.
+// Freeze first column then unfreeze all panes in the worksheet.
 
-// How to unfreeze columns from freezed panes.
+// How to unfreeze columns from freezed panes in a spreadsheet.
 
-// Add freezed panes then unfreeze the first column and show all freezed ones' location to prove it.
+// Add freezed panes then unfreeze the first column and show all freezed ones' location to prove it in a spreadsheet.
 
 Api.SetFreezePanesType('column');
 let worksheet = Api.GetActiveSheet();

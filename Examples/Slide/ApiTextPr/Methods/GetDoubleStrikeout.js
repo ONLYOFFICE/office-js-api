@@ -1,8 +1,8 @@
-// This example shows how to find out whether a text has a double strikethrough.
+// Find out whether a text has a double strikethrough in a presentation.
 
-// How to know whether a text is crossed with two horizontal lines.
+// How to know whether a text is crossed with two horizontal lines in a presentation.
 
-// Get the text properties of the run and find whether it has a double strikethrough.
+// Get the text properties of the run and find whether it has a double strikethrough in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

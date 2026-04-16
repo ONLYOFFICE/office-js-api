@@ -1,4 +1,4 @@
-// This example shows how to get a slide master by its position in the presentation.
+// Get a slide master by its position in the presentation.
 
 // How to get a slide master from the presentation.
 

@@ -1,6 +1,8 @@
-// How to change a X position of a drawing.
+// How to change a X position of a drawing in a PDF document.
 
 // Get a shape object from a page and move by X axis.
+
+// Set pos x using a drawing object object in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

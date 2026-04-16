@@ -1,4 +1,8 @@
-// This example sets the presentation to loop continuously until manually stopped.
+// Set the presentation to loop continuously until manually stopped.
+
+// How do I set loop until stopped in a presentation?
+
+// Set loop until stopped using a presentation object.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

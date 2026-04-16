@@ -1,4 +1,4 @@
-// This example shows how to get a limit of the text field characters.
+// Get a limit of the text field characters in a document.
 
 // How to display the characters limit of the text form.
 

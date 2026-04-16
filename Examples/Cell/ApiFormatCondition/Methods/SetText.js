@@ -1,4 +1,4 @@
-// This example sets the text value for a text-based conditional formatting rule.
+// Set the text value for a text-based conditional formatting rule.
 
 // How to change text values in text-based conditional formatting rules.
 

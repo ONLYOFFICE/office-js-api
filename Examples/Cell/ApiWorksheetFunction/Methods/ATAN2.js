@@ -1,8 +1,8 @@
-// This example shows how to return the arctangent of the specified x and y coordinates, in radians between -Pi and Pi, excluding -Pi.
+// Return the arctangent of the specified x and y coordinates, in radians between -Pi and Pi, excluding -Pi in a spreadsheet.
 
-// How to get an arctangent of the specified x and y coordinates.
+// How to get an arctangent of the specified x and y coordinates in a spreadsheet.
 
-// Use function to get an arctangent of the specified x and y coordinates in radians.
+// Use function to get an arctangent of the specified x and y coordinates in radians in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

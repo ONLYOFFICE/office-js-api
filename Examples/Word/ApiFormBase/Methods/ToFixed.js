@@ -1,4 +1,4 @@
-// This example converts the form to a fixed size form.
+// Convert the form to a fixed size form.
 
 // How to fix the size of the text form.
 

@@ -1,4 +1,8 @@
-// This example demonstrates how to set the string of keywords of the workbook using the ApiCore.
+// Set the string of keywords of the workbook using the core properties in a spreadsheet.
+
+// How can I set keywords using a core properties in a spreadsheet?
+
+// Set keywords for a core properties in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

@@ -1,8 +1,8 @@
-// This example shows how to get a value that represents a number of objects in the collection.
+// Get a value that represents a number of objects in the collection in a spreadsheet.
 
-// How to get collection objects count.
+// How to get collection objects count in a spreadsheet.
 
-// How to get array length.
+// How to get array length using the characters API in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B1");

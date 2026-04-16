@@ -1,8 +1,8 @@
-// This example shows how to return the yield on a security that pays periodic interest.
+// Return the yield on a security that pays periodic interest in a spreadsheet.
 
-// How to return the yield on a security.
+// How to return the yield on a security in a spreadsheet.
 
-// Use a function to calculate the yield on a security that pays periodic interest.
+// Use a function to calculate the yield on a security that pays periodic interest in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

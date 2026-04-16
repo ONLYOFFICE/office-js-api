@@ -1,8 +1,8 @@
-// This example demonstrates getting the duplicate/unique value setting from a unique values conditional formatting rule.
+// Get the duplicate/unique value setting from an unique values conditional formatting rule.
 
-// How to check whether rule highlights unique or duplicate values.
+// How to check whether rule highlights unique or duplicate values in a spreadsheet.
 
-// Get the duplicate/unique setting from unique values rule.
+// Get the duplicate/unique setting from unique values rule in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

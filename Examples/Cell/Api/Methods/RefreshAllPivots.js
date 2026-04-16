@@ -1,8 +1,8 @@
-// This example how to refresh all pivot tables in the active workbook.
+// How to refresh all pivot tables in the active workbook in a spreadsheet.
 
 // How to refresh all pivot tables in a worksheet.
 
-// Refresh all values from the pivot table using a method.
+// Refresh all values from the pivot table using a method in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

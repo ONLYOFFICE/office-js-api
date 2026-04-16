@@ -1,8 +1,8 @@
-// This example deletes the run.
+// Delete the run.
 
-// How to delete a text run object.
+// How to delete a text run object in a spreadsheet.
 
-// Create the ApiRun object, add it into the paragraph and remove it from it.
+// Create the text run object, add it into the paragraph and remove it from it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

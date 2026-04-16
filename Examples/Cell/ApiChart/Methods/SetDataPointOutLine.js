@@ -1,8 +1,8 @@
-// This example show how to set the outline to the data point.
+// Show how to set the outline to the data point in a spreadsheet.
 
-// Sets the outline to the data point in the specified chart series.
+// Set the outline to the data point in the specified chart series in a spreadsheet.
 
-// How to set data point outline using a stroke.
+// How to set data point outline using a stroke in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

@@ -1,8 +1,8 @@
-// This example converts the form to an inline form.
+// Convert the form to an inline form.
 
-// How to make the combobox inline.
+// How to make the combobox inline in a document.
 
-// Create a combobox and make its position inline.
+// Create a combobox and make its position inline in a document.
 
 let doc = Api.GetDocument();
 let comboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});

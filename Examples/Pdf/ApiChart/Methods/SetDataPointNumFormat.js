@@ -2,6 +2,8 @@
 
 // Create a chart then apply specified numeric format to its data points.
 
+// Set data point num format using a chart object.
+
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 

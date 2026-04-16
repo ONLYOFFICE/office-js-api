@@ -1,8 +1,8 @@
-// This example demonstrates getting the type of color scale criterion.
+// Get the type of color scale criterion in a spreadsheet.
 
-// How to check the type of a color scale criterion.
+// How to check the type of a color scale criterion in a spreadsheet.
 
-// Get the type of a color scale criterion.
+// Get the type of a color scale criterion in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

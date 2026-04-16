@@ -1,4 +1,4 @@
-// This example demonstrates how to set the background color for an above average conditional formatting rule.
+// Set the background color for an above average conditional formatting rule in a spreadsheet.
 
 // How to apply a fill color to cells that are above average.
 

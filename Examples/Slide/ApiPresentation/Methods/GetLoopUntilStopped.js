@@ -1,4 +1,8 @@
-// This example shows how to get the loop-until-stopped setting of the presentation.
+// Get the loop-until-stopped setting of the presentation in a presentation.
+
+// How can I get the loop until stopped using a presentation in a presentation?
+
+// Get the loop until stopped for a presentation in a presentation.
 
 const presentation = Api.GetPresentation();
 presentation.SetLoopUntilStopped(true);

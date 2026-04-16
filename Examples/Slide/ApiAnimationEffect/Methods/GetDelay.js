@@ -1,4 +1,8 @@
-// This example gets the delay of an animation effect.
+// Get the delay of an animation effect in a presentation.
+
+// How do I get the delay in a presentation?
+
+// Get the delay using an animation effect object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

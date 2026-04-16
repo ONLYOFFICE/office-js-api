@@ -1,8 +1,8 @@
-// This example demonstrates getting the scope type of a unique values conditional formatting rule.
+// Get the scope type of an unique values conditional formatting rule.
 
 // How to retrieve the scope type setting from unique values conditional formatting.
 
-// Get the scope type of the unique values rule.
+// Get the scope type of the unique values rule in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

@@ -1,4 +1,8 @@
-// This example shows how to get all images from the current presentation.
+// Get all images from the current presentation in a presentation.
+
+// How to get all images for a presentation?
+
+// Get all images and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

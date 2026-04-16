@@ -1,4 +1,9 @@
-// This example searches a some word in page and adds a highlight to it.
+// Search a some word in page and add a highlight to it.
+
+// How do I search in a PDF document?
+
+// Search using a page object.
+
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 let quads = page.Search({text: "Lorem", matchCase: false, wholeWords: false});

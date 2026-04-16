@@ -1,6 +1,8 @@
-// How to rename a chart category.
+// How to rename a chart category in a PDF document.
 
-// Create a chart then name its category.
+// Create a chart then name its category in a PDF document.
+
+// Set category name for a chart in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

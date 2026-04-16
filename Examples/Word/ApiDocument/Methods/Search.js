@@ -1,8 +1,8 @@
-// This example shows how to make a search.
+// Make a search in a document.
 
-// How to search all paragraph objects.
+// How to search all paragraph objects in a document.
 
-// Search paragraphs and make the second one bold.
+// Search paragraphs and make the second one bold in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

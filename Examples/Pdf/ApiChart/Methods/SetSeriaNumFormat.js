@@ -2,6 +2,8 @@
 
 // Create a chart, set its properties and its series numeric format.
 
+// Use chart to set seria num format.
+
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 

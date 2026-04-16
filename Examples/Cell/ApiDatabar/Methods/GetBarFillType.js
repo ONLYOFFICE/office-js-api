@@ -1,6 +1,6 @@
-// This example demonstrates getting the bar fill type from a data bar conditional formatting rule.
+// Get the bar fill type from a data bar conditional formatting rule.
 
-// How to check the fill type setting of a data bar.
+// How to check the fill type setting of a data bar in a spreadsheet.
 
 // Get the bar fill type of a data bar conditional formatting rule.
 

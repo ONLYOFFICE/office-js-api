@@ -1,4 +1,4 @@
-// This example sets the border color to the current form.
+// Set the border color to the current form.
 
 // How to set the border color of the picture form.
 

@@ -1,4 +1,4 @@
-// This example shows how to get a table cell that contains the current paragraph.
+// Get a table cell that contains the current paragraph in a document.
 
 // How to get the parent table cell of the paragraph.
 

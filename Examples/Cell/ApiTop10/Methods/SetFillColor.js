@@ -1,8 +1,8 @@
-// This example sets the fill color for the top 10 conditional formatting rule.
+// Set the fill color for the top 10 conditional formatting rule.
 
 // How to apply fill color to conditional formatting rules.
 
-// Set top 10 rule fill color.
+// Set top 10 rule fill color in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

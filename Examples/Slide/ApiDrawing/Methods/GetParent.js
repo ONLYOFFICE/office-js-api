@@ -1,4 +1,4 @@
-// This example shows how to get parent.
+// Get parent in a presentation.
 
 // How to get a parent of a slide shape.
 

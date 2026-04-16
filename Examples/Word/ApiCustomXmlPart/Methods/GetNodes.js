@@ -1,4 +1,9 @@
-// This example shows how to update the value of an attribute in a custom XML node.
+// Update the value of an attribute in a custom XML node in a document.
+
+// How can I get the nodes using a custom XML part in a document?
+
+// Get the nodes for a custom XML part in a document.
+
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
 let xmlText = `

@@ -1,4 +1,4 @@
-// This example gets the pivot table condition from a conditional formatting rule.
+// Get the pivot table condition from a conditional formatting rule.
 
 // How to retrieve pivot table conditions from conditional formatting rules.
 

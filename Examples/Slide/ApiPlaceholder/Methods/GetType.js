@@ -1,8 +1,8 @@
-// This example gets the placeholder type.
+// Get the placeholder type in a presentation.
 
-// How to get a placeholder type (chart, table, etc.).
+// How to get a placeholder type (chart, table, etc.) in a presentation.
 
-// Create a shape and get its placeholder type.
+// Create a shape and get its placeholder type in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

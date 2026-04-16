@@ -1,8 +1,8 @@
-// This example shows how to get the smallest number in the field (column) of records in the database that match the conditions you specify.
+// Get the smallest number in the field (column) of records in the database that match the conditions you specify in a spreadsheet.
 
-// How to get the minimum number from the database column that match the conditions you specify.
+// How to get the minimum number from the database column that match the conditions you specify in a spreadsheet.
 
-// Use function to get the minimum number from the database column that satisfies the conditions.
+// Use function to get the minimum number from the database column that satisfies the conditions in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

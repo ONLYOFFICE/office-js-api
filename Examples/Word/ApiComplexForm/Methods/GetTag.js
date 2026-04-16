@@ -1,4 +1,9 @@
-// This example shows how to get the form tag.
+// Get the form tag in a document.
+
+// How do I get the tag in a document?
+
+// Get the tag using a complex form object.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let complexForm = Api.CreateComplexForm({"key": "Complex1", "tag": "Custom tag"});

@@ -1,8 +1,8 @@
-// This example sets the table description.
+// Set the table description in a document.
 
-// How to set the description of the table.
+// How to set the description of the table in a document.
 
-// Add description to the table.
+// Add description to the table in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

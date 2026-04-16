@@ -1,5 +1,9 @@
-// Creates adjustable geometry with guides and connection points for a pdf document.
-// Displays adjustment value and applies custom geometry to shape.
+// Create adjustable geometry with guides and connection points for a pdf document. Displays adjustment value and apply custom geometry to shape.
+
+// How can I add the guide using a geometry in a PDF document?
+
+// Add the guide for a geometry in a PDF document.
+
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 

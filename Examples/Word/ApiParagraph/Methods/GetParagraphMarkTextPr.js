@@ -1,8 +1,8 @@
-// This example shows how to get the text properties of the paragraph mark which is used to mark the paragraph end.
+// Get the text properties of the paragraph mark which is used to mark the paragraph end in a document.
 
-// Get the mark text properties of the paragraph.
+// Get the mark text properties of the paragraph in a document.
 
-// How to update the text properties of the paragraph mark.
+// How to update the text properties of the paragraph mark in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

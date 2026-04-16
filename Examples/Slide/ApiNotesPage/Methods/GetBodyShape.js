@@ -1,4 +1,8 @@
-// This example shows how to get the body shape from a notes page.
+// Get the body shape from a notes page in a presentation.
+
+// How to get the body shape for a notes page?
+
+// Get the body shape and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

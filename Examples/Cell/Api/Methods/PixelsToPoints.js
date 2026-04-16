@@ -1,4 +1,8 @@
-// This example shows how to convert pixels to points.
+// Convert pixels to points in a spreadsheet.
+
+// How can I convert pixels to points in a spreadsheet?
+
+// Convert pixels to points in a spreadsheet.
 
 const pixels = 100;
 const points = Api.PixelsToPoints(pixels);

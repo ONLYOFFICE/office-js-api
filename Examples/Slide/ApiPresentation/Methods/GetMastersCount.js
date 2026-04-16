@@ -1,4 +1,4 @@
-// This example shows how to get a number of slide masters.
+// Get a number of slide masters in a presentation.
 
 // How to get a master count from the presentation.
 

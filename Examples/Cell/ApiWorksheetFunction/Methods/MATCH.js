@@ -1,8 +1,8 @@
-// This example shows how to return the relative position of an item in a range that matches the specified value in the specified order.
+// Return the relative position of an item in a range that matches the specified value in the specified order in a spreadsheet.
 
-// How to get an index of an element that matches a condition.
+// How to get an index of an element that matches a condition in a spreadsheet.
 
-// Use a function to find an item in a range.
+// Use a function to find an item in a range in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

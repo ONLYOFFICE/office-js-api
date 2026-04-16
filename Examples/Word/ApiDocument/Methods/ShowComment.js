@@ -1,4 +1,8 @@
-// This example shows how to display a comment by its ID.
+// Display a comment by its ID in a document.
+
+// How can I show comment using a document in a document?
+
+// Show comment for a document in a document.
 
 const doc = Api.GetDocument();
 const paragraph = doc.GetElement(0);

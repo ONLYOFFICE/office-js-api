@@ -1,5 +1,9 @@
-// Analyzes arc command parameters including radius and angles.
-// Retrieves width radius, height radius, start and sweep angles of an arc.
+// Analyzes arc command parameters including radius and angles. Retrieves width radius, height radius, start and sweep angles of an arc in a document.
+
+// How can I get the sweep angle using a path command in a document?
+
+// Get the sweep angle for a path command in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let customGeometry = Api.CreateCustomGeometry();

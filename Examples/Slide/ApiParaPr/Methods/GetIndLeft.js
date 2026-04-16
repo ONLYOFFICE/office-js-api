@@ -1,6 +1,6 @@
-// This example shows how to get the paragraph left side indentation.
+// Get the paragraph left side indentation in a presentation.
 
-// How to return a left side identation of a paragraph property.
+// How to return a left side identation of a paragraph property in a presentation.
 
 // Return a left side indentation of a text property from the slide.
 

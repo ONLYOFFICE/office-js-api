@@ -1,4 +1,4 @@
-// This example gets the background color from a conditional formatting rule.
+// Get the background color from a conditional formatting rule.
 
 // How to retrieve background colors from conditional formatting rules.
 

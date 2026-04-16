@@ -1,8 +1,8 @@
-// This example adds a caption cross-reference to the paragraph.
+// Add a caption cross-reference to the paragraph in a document.
 
-// How to create a caption reference to the paragraph.
+// How to create a caption reference to the paragraph in a document.
 
-// Add a cross-reference to the caption of the paragraph.
+// Add a cross-reference to the caption of the paragraph in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

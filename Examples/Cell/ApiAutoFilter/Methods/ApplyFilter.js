@@ -1,8 +1,8 @@
-// This example reapplies an existing AutoFilter after the data changes.
+// Reapply an existing AutoFilter after the data changes in a spreadsheet.
 
-// How to reuse filter criteria without redefining them.
+// How to reuse filter criteria without redefining them in a spreadsheet.
 
-// Reapply an AutoFilter using ApiAutoFilter.ApplyFilter().
+// Reapply an AutoFilter using ApiAutoFilter.ApplyFilter() in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

@@ -1,5 +1,9 @@
-// Gets the fill properties from a shape and displays detailed information.
-// Creates a shape with gradient fill, retrieves it and shows fill details.
+// Get the fill properties from a shape and display detailed information. Creates a shape with gradient fill, retrieve it and show fill details.
+
+// How can I get the fill using a shape in a PDF document?
+
+// Get the fill for a shape in a PDF document.
+
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 let gs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);

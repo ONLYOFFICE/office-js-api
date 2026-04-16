@@ -1,8 +1,8 @@
-// This example shows how to get the paragraph text.
+// Get the paragraph text in a document.
 
-// How to get text of the paragraph object.
+// How to get text of the paragraph object in a document.
 
-// Get the paragraph text and display it.
+// Get the paragraph text and display it in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

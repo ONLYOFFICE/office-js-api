@@ -1,4 +1,4 @@
-// This example deletes a conditional formatting rule.
+// Delete a conditional formatting rule.
 
 // How to remove specific conditional formatting rules from a range.
 

@@ -1,4 +1,4 @@
-// This example shows how to remove an element.
+// Remove an element in a PDF document.
 
 // How to remove an elements from the page shape.
 

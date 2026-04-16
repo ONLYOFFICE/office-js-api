@@ -1,6 +1,8 @@
-// How to outline a chart title.
+// How to outline a chart title in a PDF document.
 
-// Create a chart, set its properties and its title outline.
+// Create a chart, set its properties and its title outline in a PDF document.
+
+// Set title out line for a chart in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

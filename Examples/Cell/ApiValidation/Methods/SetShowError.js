@@ -1,8 +1,8 @@
-// This example sets whether the error message is displayed.
+// Set whether the error message is displayed in a spreadsheet.
 
-// How to show or hide the validation error message.
+// How to show or hide the validation error message in a spreadsheet.
 
-// Set the ShowError setting.
+// Set the ShowError setting in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");

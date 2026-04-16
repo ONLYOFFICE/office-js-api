@@ -1,8 +1,8 @@
-// This example creates a shape with wrapping style "square".
+// Create a shape with wrapping style "square" in a document.
 
-// How to wrap the shape with squared style.
+// How to wrap the shape with squared style in a document.
 
-// Create a drawing, add its properties and set its wrapping style.
+// Create a drawing, add its properties and set its wrapping style in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

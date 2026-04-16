@@ -1,4 +1,8 @@
-// This example shows how to get the value of a custom XML node.
+// Get the value of a custom XML node in a presentation.
+
+// How can I get the node value using a custom XML node in a presentation?
+
+// Get the node value for a custom XML node in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

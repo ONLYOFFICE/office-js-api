@@ -1,8 +1,8 @@
-// This example creates a paragraph copy.
+// Create a paragraph copy in a PDF document.
 
-// How to add a duplicate paragraph.
+// How to add a duplicate paragraph in a PDF document.
 
-// Copy a paragraph and add it to the shape.
+// Copy a paragraph and add it to the shape in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

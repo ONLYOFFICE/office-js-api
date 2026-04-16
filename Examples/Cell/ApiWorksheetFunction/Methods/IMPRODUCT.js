@@ -1,8 +1,8 @@
-// This example shows how to return the product of the specified complex numbers.
+// Return the product of the specified complex numbers in a spreadsheet.
 
-// How to get the result from multiplication of a complex number.
+// How to get the result from multiplication of a complex number in a spreadsheet.
 
-// Use a function to get the result from the product.
+// Use a function to get the result from the product in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

@@ -1,4 +1,8 @@
-// This example shows how to get the RGBA components of a shape fill color.
+// Get the RGBA components of a shape fill color in a PDF document.
+
+// How to get the r g b a for a color in a PDF document?
+
+// Get the r g b an and display the result in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

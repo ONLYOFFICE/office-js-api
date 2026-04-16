@@ -1,4 +1,4 @@
-// This example shows how to set the date to a date form.
+// Set the date to a date form in a document.
 
 // How to add a time to the date form.
 

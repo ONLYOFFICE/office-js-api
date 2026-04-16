@@ -1,6 +1,6 @@
-// This example demonstrates getting the minimum point value from a data bar conditional formatting rule.
+// Get the minimum point value from a data bar conditional formatting rule.
 
-// How to retrieve the value of the minimum condition.
+// How to retrieve the value of the minimum condition in a spreadsheet.
 
 // Get the minimum point value of a data bar conditional formatting rule.
 

@@ -1,4 +1,8 @@
-// This example shows how to get a class type of the color used in a shape fill.
+// Find out the class type of a color object in a presentation.
+
+// How can I get the class type of a color in a presentation?
+
+// Get the class type of a color and display it in the presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

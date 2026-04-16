@@ -1,8 +1,8 @@
-// This example shows how to check whether a value is a logical value (true or false), and returns true or false. 
+// Check whether a value is a logical value (true or false), and return true or false in a spreadsheet.
 
 // How to check if the cell contains a logical value.
 
-// Use a function to check whether a range data is a logical value.
+// Use a function to check whether a range data is a logical value in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B3").SetValue("66");

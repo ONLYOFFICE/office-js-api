@@ -1,8 +1,8 @@
-// This example shows how to get the document final section.
+// Get the document final section in a document.
 
 // How to get the last section of the document.
 
-// Update the header of the final section.
+// Update the header of the final section in a document.
 
 let doc = Api.GetDocument();
 let section = doc.GetFinalSection();

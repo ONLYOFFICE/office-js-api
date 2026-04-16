@@ -1,4 +1,8 @@
-// This example show how to get a name of the current layout.
+// Show how to get a name of the current layout in a presentation.
+
+// How do I get the name in a presentation?
+
+// Get the name using a layout object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

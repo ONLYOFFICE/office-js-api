@@ -1,8 +1,8 @@
-// This example show how to set the outline to the data point.
+// Show how to set the outline to the data point in a presentation.
 
-// How to outline data points.
+// How to outline data points in a presentation.
 
-// Create a chart then apply outline to its data points.
+// Create a chart then apply outline to its data points in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,6 +1,6 @@
-// This example shows how to get the paragraph first line indentation.
+// Get the paragraph first line indentation in a presentation.
 
-// How to return the first line identation of a paragraph.
+// How to return the first line identation of a paragraph in a presentation.
 
 // Return the first line indentation of a text from the slide.
 

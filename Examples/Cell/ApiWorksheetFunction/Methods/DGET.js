@@ -1,8 +1,8 @@
-// This example shows how to extract from a database a single record that matches the conditions you specify.
+// Extract from a database a single record that matches the conditions you specify in a spreadsheet.
 
-// How to get a value from a database range that satisfies a condition.
+// How to get a value from a database range that satisfies a condition in a spreadsheet.
 
-// Use function to get a record after applying condition.
+// Use function to get a record after applying condition in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

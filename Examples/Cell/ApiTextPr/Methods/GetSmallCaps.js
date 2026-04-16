@@ -1,8 +1,8 @@
-// This example gets a text capitalization using its property.
+// Get a text capitalization using its property in a spreadsheet.
 
-// How to find out whether a text is uncapitalized or not.
+// How to find out whether a text is uncapitalized or not in a spreadsheet.
 
-// Find whether a text characters are in small caps or not.
+// Find whether a text characters are in small caps or not in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

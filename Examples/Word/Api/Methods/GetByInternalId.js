@@ -1,4 +1,8 @@
-// This example shows how to get an object by its internal ID.
+// Get an object by its internal ID in a document.
+
+// How to get the by internal id in a document?
+
+// Get the by internal id using the document API.
 
 const doc = Api.GetDocument();
 

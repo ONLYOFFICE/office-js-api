@@ -1,4 +1,4 @@
-// This example specifies the shading which shall be applied to the extents of the current table cell.
+// Specify the shading which shall be applied to the extents of the current table cell.
 
 // How to set shading fill to the cell.
 

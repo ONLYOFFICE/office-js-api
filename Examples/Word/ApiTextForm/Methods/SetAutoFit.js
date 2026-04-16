@@ -1,4 +1,4 @@
-// This example specifies if the text field content should be autofit.
+// Specify if the text field content should be autofit in a document.
 
 // How to make the first text form from this document autofit.
 

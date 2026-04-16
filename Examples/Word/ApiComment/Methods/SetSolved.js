@@ -1,6 +1,6 @@
-// This example marks a comment as solved.
+// Marks a comment as solved in a document.
 
-// How to make a comment solved.
+// How to make a comment solved in a document.
 
 // Get all comments from the presentation and set it solved.
 

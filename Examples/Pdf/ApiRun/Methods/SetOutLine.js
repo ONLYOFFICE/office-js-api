@@ -1,8 +1,8 @@
-// This example sets the text outline to the current text run
+// Set the text outline to the current text run in a PDF document.
 
-// How to change outline of the text.
+// How to change outline of the text in a PDF document.
 
-// Create a new text run and outline it with the stroke object.
+// Create a new text run and outline it with the stroke object in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

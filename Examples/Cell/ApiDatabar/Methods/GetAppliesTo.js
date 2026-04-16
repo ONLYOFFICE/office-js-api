@@ -1,4 +1,4 @@
-// This example demonstrates getting the range to which a data bar formatting rule applies.
+// Get the range to which a data bar formatting rule applies.
 
 // How to retrieve the range that a data bar conditional formatting affects.
 

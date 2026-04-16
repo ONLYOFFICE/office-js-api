@@ -1,8 +1,8 @@
-// This example creates a Text Art object with the "textArchUp" text transform type.
+// Create a Text Art object with the "textArchUp" text transform type.
 
-// How to create word art indicating its text properties.
+// How to create word art indicating its text properties in a presentation.
 
-// Add arch up text word art.
+// Add arch up text word art in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

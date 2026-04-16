@@ -1,4 +1,4 @@
-// This example shows how to get the previous cell.
+// Get the previous cell in a document.
 
 // How to get previous cell.
 

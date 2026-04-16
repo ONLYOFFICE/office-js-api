@@ -1,8 +1,8 @@
-// This example deletes the current graphic object.
+// Delete the current graphic object in a document.
 
 // How to delete a shape from the document.
 
-// Remove the drawing object.
+// Remove the drawing object in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

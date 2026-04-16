@@ -1,4 +1,8 @@
-// This example deletes the form.
+// Delete the form.
+
+// How to delete for a combo box form?
+
+// Delete and display the result in a document.
 
 const doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

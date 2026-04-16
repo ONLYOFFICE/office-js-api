@@ -1,4 +1,8 @@
-// This example shows how to get the currently selected content control from a document.
+// Get the currently selected content control from a document in a document.
+
+// How do I get current content control in a document?
+
+// Get current content control using a document object.
 
 const doc = Api.GetDocument();
 

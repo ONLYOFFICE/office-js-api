@@ -1,4 +1,8 @@
-// This example demonstrates how to set the subject of the workbook.
+// Set the subject of the workbook in a spreadsheet.
+
+// How can I set subject using a core properties in a spreadsheet?
+
+// Set subject for a core properties in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

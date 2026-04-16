@@ -1,8 +1,8 @@
-// This example sets the text color for the current text run in the RGB format.
+// Set the text color for the current text run in the RGB format.
 
-// How to change text color.
+// How to change text color in a PDF document.
 
-// Create a new text run and change its font color.
+// Create a new text run and change its font color in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

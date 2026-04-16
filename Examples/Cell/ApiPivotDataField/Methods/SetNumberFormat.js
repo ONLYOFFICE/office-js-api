@@ -1,4 +1,4 @@
-// This example shows how to set a number format for data field.
+// Set a number format for data field in a spreadsheet.
 
 // How to change a number format a table element.
 

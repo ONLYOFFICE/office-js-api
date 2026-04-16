@@ -1,4 +1,4 @@
-// This example merges the cells in the row.
+// Merge the cells in the row.
 
 // Merge cells of the entire row.
 

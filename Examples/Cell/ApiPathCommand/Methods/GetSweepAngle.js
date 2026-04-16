@@ -1,5 +1,9 @@
-// Retrieves arc parameters including radii and angles.
-// Displays arc width radius, height radius, start and sweep angles in cells.
+// Retrieve arc parameters including radii and angles. Displays arc width radius, height radius, start and sweep angles in cells.
+
+// How can I get the sweep angle using a path command in a spreadsheet?
+
+// Get the sweep angle for a path command in a spreadsheet.
+
 let worksheet = Api.GetActiveSheet();
 let customGeometry = Api.CreateCustomGeometry();
 let path = customGeometry.AddPath();

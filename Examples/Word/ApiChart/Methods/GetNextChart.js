@@ -1,8 +1,8 @@
-// This example show how to get the next chart.
+// Show how to get the next chart in a document.
 
-// How to update minor horizontal gridlines of the next chart.
+// How to update minor horizontal gridlines of the next chart in a document.
 
-// Get the next chart and set its horizontal lines as a stroke. 
+// Get the next chart and set its horizontal lines as a stroke in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

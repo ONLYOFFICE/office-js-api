@@ -1,4 +1,4 @@
-// This example sets the border which will be displayed to the right of the table cell.
+// Set the border which will be displayed to the right of the table cell.
 
 // How to add border to the right of the cell.
 

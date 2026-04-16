@@ -1,8 +1,8 @@
-// This example sets the paragraph right side indentation.
+// Set the paragraph right side indentation in a PDF document.
 
-// How to set paragraph's right side indentation size.
+// How to set paragraph's right side indentation size in a PDF document.
 
-// Resize the right side indentation of a text from a paragraph.
+// Resize the right side indentation of a text from a paragraph in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

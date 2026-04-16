@@ -1,4 +1,8 @@
-// This example demonstrates how to use ApiCustomProperties to configure custom properties in a document.
+// Use custom properties to configure custom properties in a document.
+
+// How can I get custom properties using a document in a document?
+
+// Get custom properties for a document in a document.
 
 const doc = Api.GetDocument();
 const customProps = doc.GetCustomProperties();

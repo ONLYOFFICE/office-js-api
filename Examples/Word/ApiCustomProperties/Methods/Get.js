@@ -1,4 +1,8 @@
-// This example demonstrates how to get the value of a custom property by its name.
+// Get the value of a custom property by its name in a document.
+
+// How can I get using a custom properties in a document?
+
+// Get for a custom properties in a document.
 
 const doc = Api.GetDocument();
 const customProps = doc.GetCustomProperties();

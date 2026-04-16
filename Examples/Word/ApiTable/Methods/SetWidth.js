@@ -1,8 +1,8 @@
-// This example sets the preferred width to the table.
+// Set the preferred width to the table in a document.
 
-// How to set the width of the table.
+// How to set the width of the table in a document.
 
-// Resize table by making its the width 100 percent.
+// Resize table by making its the width 100 percent in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

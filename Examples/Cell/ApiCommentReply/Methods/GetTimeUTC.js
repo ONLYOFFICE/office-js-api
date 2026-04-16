@@ -1,6 +1,6 @@
-// This example shows how to get the timestamp of the comment reply creation in UTC format.
+// Get the timestamp of the comment reply creation in UTC format in a spreadsheet.
 
-// How to get a time in UTC when a reply was created.
+// How to get a time in UTC when a reply was created in a spreadsheet.
 
 // Add a comment reply creation timestamp UTC to a range of the worksheet.
 

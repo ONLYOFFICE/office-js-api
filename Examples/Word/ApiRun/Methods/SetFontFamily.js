@@ -1,8 +1,8 @@
-// This example sets all 4 font slots with the specified font family.
+// Set all 4 font slots with the specified font family in a document.
 
-// How to set font family to the text run.
+// How to set font family to the text run in a document.
 
-// Create a new text run and change its font family.
+// Create a new text run and change its font family in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

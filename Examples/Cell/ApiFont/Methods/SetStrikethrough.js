@@ -1,8 +1,8 @@
-// This example sets the strikethrough property to the specified font.
+// Set the strikethrough property to the specified font in a spreadsheet.
 
-// How to make a text strikethrough.
+// How to make a text strikethrough in a spreadsheet.
 
-// Get a font object of characters and make it strikethrough.
+// Get a font object of characters and make it strikethrough in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B1");

@@ -1,8 +1,8 @@
-// This example specifies that the contents of the current run are displayed with a single horizontal line through the center of the line.
+// Specify that the contents of the current run are displayed with a single horizontal line through the center of the line in a PDF document.
 
-// How to strike out a text run.
+// How to strike out a text run in a PDF document.
 
-// Create a new text run and set cross it out.
+// Create a new text run and set cross it out in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

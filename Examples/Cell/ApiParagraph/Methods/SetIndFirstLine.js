@@ -1,8 +1,8 @@
-// This example sets the paragraph first line indentation.
+// Set the paragraph first line indentation in a spreadsheet.
 
-// How to change first sentence indentation of the paragraph.
+// How to change first sentence indentation of the paragraph in a spreadsheet.
 
-// Get a paragraph from the shape's content then add a text specifying the first line indentation.
+// Get a paragraph from the shape's content then add a text specifying the first line indentation in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

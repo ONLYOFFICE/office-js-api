@@ -1,4 +1,4 @@
-// This example gets the font formatting for the top 10 conditional formatting rule.
+// Get the font formatting for the top 10 conditional formatting rule.
 
 // How to access font properties of conditional formatting rules.
 

@@ -2,6 +2,8 @@
 
 // Get a page shape's height.
 
+// Get the height for a drawing object in a PDF document.
+
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 

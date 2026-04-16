@@ -1,8 +1,8 @@
-// This example shows how to set layout blank line of a table.
+// Set layout blank line of a table in a spreadsheet.
 
-// How to set layout blank line of a table.
+// How to set layout blank line of a table in a spreadsheet.
 
-// Create a pivot table, add data to it then set layout blank line.
+// Create a pivot table, add data to it then set layout blank line in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// This example sets the text color for the current text run.
+// Set the text color for the current text run in a document.
 
-// How to change text color.
+// How to change text color in a document.
 
-// Create a new text run and change its font color.
+// Create a new text run and change its font color in a document.
 
 const doc = Api.GetDocument();
 const paragraph = doc.GetElement(0);

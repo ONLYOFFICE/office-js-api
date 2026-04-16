@@ -1,4 +1,8 @@
-// This example demonstrates how to use ApiCustomProperties to configure custom properties in a presentation.
+// Use custom properties to configure custom properties in a presentation.
+
+// How do I get custom properties in a presentation?
+
+// Get custom properties using a presentation object.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

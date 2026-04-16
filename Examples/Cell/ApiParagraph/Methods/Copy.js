@@ -1,8 +1,8 @@
-// This example creates a paragraph copy.
+// Create a paragraph copy in a spreadsheet.
 
-// How to create an identical paragraph.
+// How to create an identical paragraph in a spreadsheet.
 
-// Get a paragraph from the content of the shape create its copy and add it to the shape.
+// Get a paragraph from the content of the shape create its copy and add it to the shape in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

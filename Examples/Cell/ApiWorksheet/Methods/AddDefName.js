@@ -1,4 +1,4 @@
-// This example adds a new name to the worksheet.
+// Add a new name to the worksheet.
 
 // How to change a name of the worksheet range.
 

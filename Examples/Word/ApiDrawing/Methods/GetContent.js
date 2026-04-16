@@ -1,4 +1,8 @@
-// This example shows how to get content of a drawing.
+// Get content of a drawing in a document.
+
+// How do I get the content in a document?
+
+// Get the content using a drawing object object in a document.
 
 const doc = Api.GetDocument();
 let firstParagraph = doc.GetElement(0);

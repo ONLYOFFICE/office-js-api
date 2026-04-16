@@ -1,4 +1,8 @@
-// This example shows how to get the screen tip text of a hyperlink inside a shape.
+// Get the screen tip text of a hyperlink inside a shape in a spreadsheet.
+
+// How do I get the screen tip text in a spreadsheet?
+
+// Get the screen tip text using a hyperlink object in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

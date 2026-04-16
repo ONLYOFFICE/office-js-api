@@ -1,6 +1,6 @@
-// This example shows how to get the table title.
+// Get the table title in a document.
 
-// How to get the table title.
+// How to get the table title in a document.
 
 // Display the title of the table in the document.
 

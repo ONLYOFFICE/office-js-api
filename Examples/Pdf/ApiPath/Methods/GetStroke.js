@@ -1,5 +1,9 @@
-// Analyzes cloud shape path properties on a page.
-// Displays comprehensive path information in a text shape.
+// Analyzes cloud shape path properties on a page. Displays comprehensive path information in a text shape.
+
+// How can I get the stroke using a geometry path in a PDF document?
+
+// Get the stroke for a geometry path in a PDF document.
+
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 

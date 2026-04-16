@@ -1,4 +1,9 @@
-// This example gets previous rich paragraph and adds some text to it.
+// Get previous rich paragraph and add some text to it in a PDF document.
+
+// How do I get previous in a PDF document?
+
+// Get previous using a rich paragraph object in a PDF document.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

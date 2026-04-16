@@ -1,4 +1,4 @@
-// This example adds above average conditional formatting to a range.
+// Add above average conditional formatting to a range.
 
 // How to add above average conditional formatting rules to highlight cells.
 

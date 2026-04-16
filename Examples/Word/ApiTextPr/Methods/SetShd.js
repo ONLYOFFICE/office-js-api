@@ -1,8 +1,8 @@
-// This example specifies the shading applied to the contents of the current text run.
+// Specify the shading applied to the contents of the current text run in a document.
 
-// How to set a shading for a text.
+// How to set a shading for a text in a document.
 
-// Create a text run object, specify its shading options.
+// Create a text run object, specify its shading options in a document.
 
 let doc = Api.GetDocument();
 let textPr = doc.GetDefaultTextPr();

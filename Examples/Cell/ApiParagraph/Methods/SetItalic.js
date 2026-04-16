@@ -1,4 +1,8 @@
-// This example shows how to set italic formatting for all text in a paragraph inside a shape.
+// Set italic formatting for all text in a paragraph inside a shape in a spreadsheet.
+
+// How can I set italic using a paragraph in a spreadsheet?
+
+// Set italic for a paragraph in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const fill = Api.CreateSolidFill(Api.RGB(170, 110, 130));

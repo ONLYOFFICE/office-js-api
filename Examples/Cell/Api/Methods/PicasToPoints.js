@@ -1,4 +1,8 @@
-// This example shows how to convert picas to points.
+// Convert picas to points in a spreadsheet.
+
+// How to convert picas to points in a spreadsheet?
+
+// Convert picas to points using the spreadsheet API.
 
 const picas = 100;
 const points = Api.PicasToPoints(picas);

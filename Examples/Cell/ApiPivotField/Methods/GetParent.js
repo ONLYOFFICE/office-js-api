@@ -1,8 +1,8 @@
-// This example shows how to get a parent of a pivot field.
+// Get a parent of a pivot field in a spreadsheet.
 
-// How to get a pivot field parent.
+// How to get a pivot field parent in a spreadsheet.
 
-// Create a pivot table, add data to it then get a parent of a specified pivot field.
+// Create a pivot table, add data to it then get a parent of a specified pivot field in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

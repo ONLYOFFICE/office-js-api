@@ -1,4 +1,8 @@
-// This example shows how to convert points to millimeters.
+// Convert points to millimeters in a document.
+
+// How to convert points to millimeters in a document?
+
+// Convert points to millimeters using the document API.
 
 const doc = Api.GetDocument();
 const paragraph = Api.CreateParagraph();

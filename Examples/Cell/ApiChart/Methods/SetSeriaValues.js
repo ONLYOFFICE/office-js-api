@@ -1,6 +1,6 @@
-// This example sets values from the specified range to the specified series.
+// Set values from the specified range to the specified series in a spreadsheet.
 
-// How to add values to series from the indicated range using addresses.
+// How to add values to series from the indicated range using addresses in a spreadsheet.
 
 // Fill series with values obtained from the worksheet cells.
 

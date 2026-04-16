@@ -1,6 +1,6 @@
-// This example creates a new paragraph and inserts it into the document.
+// Create a new paragraph and insert it into the document.
 
-// Creates the ApiParagraph object, adds a text to it, and inserts it into the ApiDocument class.
+// Create the paragraph object, add a text to it, and insert it into the document class.
 
 // How to create a paragraph with the specified text and add it to the current document.
 

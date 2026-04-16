@@ -1,4 +1,8 @@
-// This example sets all 4 font slots with the specified font family.
+// Set all 4 font slots with the specified font family in a PDF document.
+
+// How do I set font family in a PDF document?
+
+// Set font family using a paragraph object in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// This example adds a hyperlink to the specified range.
+// Add a hyperlink to the specified range in a document.
 
-// Insert a link to the range.
+// Insert a link to the range in a document.
 
-// Get range and add a hyperlink to it. 
+// Get range and add a hyperlink to it in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

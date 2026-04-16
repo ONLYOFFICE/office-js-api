@@ -1,4 +1,4 @@
-// This example creates slide and inserts it into the presentation.
+// Create slide and insert it into the presentation.
 
 // How to add a new slide.
 

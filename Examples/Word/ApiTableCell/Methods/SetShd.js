@@ -1,4 +1,4 @@
-// This example specifies the shading applied to the contents of the table cell.
+// Specify the shading applied to the contents of the table cell.
 
 // Create a 3x3 table and add an orange shading to cell #1.
 

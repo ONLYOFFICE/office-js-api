@@ -1,4 +1,8 @@
-// This example demonstrates how to get the version of the current workbook.
+// Get the version of the current workbook in a spreadsheet.
+
+// How can I get the version using a core properties in a spreadsheet?
+
+// Get the version for a core properties in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

@@ -1,4 +1,8 @@
-// This example returns the current paragraph from the document content.
+// Return the current paragraph from the document content.
+
+// How can I get current paragraph using a document content in a presentation?
+
+// Get current paragraph for a document content in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

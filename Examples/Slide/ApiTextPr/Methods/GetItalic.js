@@ -1,8 +1,8 @@
-// This example shows how to find out whether a text is italic.
+// Find out whether a text is italic in a presentation.
 
-// How to know whether a text is set to italic or not.
+// How to know whether a text is set to italic or not in a presentation.
 
-// Get the text properties of the run and find whether it is italic or not.
+// Get the text properties of the run and find whether it is italic or not in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

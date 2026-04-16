@@ -1,4 +1,8 @@
-// This example shows how to create a color in RGB format and use it as a shape fill.
+// Create a color in RGB format and use it as a shape fill in a PDF document.
+
+// How to r g b in a PDF document?
+
+// R g b using the PDF document API.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

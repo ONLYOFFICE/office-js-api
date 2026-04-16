@@ -1,8 +1,8 @@
-// This example shows how to flip the drawing vertically.
+// Flip the drawing vertically in a spreadsheet.
 
-// How to set the vertical flip property of the shape.
+// How to set the vertical flip property of the shape in a spreadsheet.
 
-// Create a drawing and flip it vertically.
+// Create a drawing and flip it vertically in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

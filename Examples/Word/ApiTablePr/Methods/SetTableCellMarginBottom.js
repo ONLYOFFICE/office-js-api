@@ -1,4 +1,4 @@
-// This example specifies an amount of space which will be left between the bottom extent of the cell contents and the border of all table cells within the parent.
+// Specify an amount of space which will be left between the bottom extent of the cell contents and the border of all table cells within the parent.
 
 // How to add margin to the bottom of the cell.
 

@@ -1,4 +1,8 @@
-// This example shows how to get chart type of the chart.
+// Get chart type of the chart in a spreadsheet.
+
+// How to get the chart type for a chart in a spreadsheet?
+
+// Get the chart type and display the result in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// This example deletes the paragraph.
+// Delete the paragraph in a spreadsheet.
 
-// How to remove a paragraph.
+// How to remove a paragraph in a spreadsheet.
 
-// Delete the paragraph from the shape content.
+// Delete the paragraph from the shape content in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

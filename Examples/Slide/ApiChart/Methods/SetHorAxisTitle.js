@@ -1,8 +1,8 @@
-// This example specifies the chart horizontal axis title.
+// Specify the chart horizontal axis title in a presentation.
 
-// Title the chart's horizontal axis.
+// Title the chart's horizontal axis in a presentation.
 
-// Create a chart, set its properties and name its horizontal axis.
+// Create a chart, set its properties and name its horizontal axis in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

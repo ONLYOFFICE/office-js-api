@@ -1,8 +1,8 @@
-// This example sets vertical aligment "superscript" for [ApiRange](../ApiRange.md).
+// Set vertical aligment "superscript" for [cell range](../cell range.md).
 
-// How to set vertical alignment of a text.
+// How to set vertical alignment of a text in a document.
 
-// Get a range, specify its vertical alignment as "baseline", "subscript" or "superscript".
+// Get a range, specify its vertical alignment as "baseline", "subscript" or "superscript" in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

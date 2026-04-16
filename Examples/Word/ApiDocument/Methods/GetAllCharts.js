@@ -1,8 +1,8 @@
-// This example shows how to get a collection of chart objects from the document.
+// Get a collection of chart objects from the document in a document.
 
 // Get all charts from the document.
 
-// How to retrieve all charts and set horizontal gridlines to the first one.
+// How to retrieve all charts and set horizontal gridlines to the first one in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

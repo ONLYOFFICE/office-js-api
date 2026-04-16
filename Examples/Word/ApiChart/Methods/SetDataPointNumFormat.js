@@ -1,4 +1,4 @@
-// This example sets "0.00" numeric format for chart.
+// Set "0.00" numeric format for chart.
 
 // How to set a numeric format of the data points.
 

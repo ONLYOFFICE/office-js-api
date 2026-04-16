@@ -1,4 +1,4 @@
-// This example gets the parent range of conditional formatting rules.
+// Get the parent range of conditional formatting rules.
 
 // How to get the range that contains conditional formatting rules.
 

@@ -1,4 +1,4 @@
-// This example adds top 10 conditional formatting to a range.
+// Add top 10 conditional formatting to a range.
 
 // How to add top 10 conditional formatting rules to highlight highest values.
 

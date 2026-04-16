@@ -1,4 +1,8 @@
-// This example returns an internal ID of the current drawing object.
+// Return an internal ID of the current drawing object in a presentation.
+
+// How do I get the internal id in a presentation?
+
+// Get the internal id using a drawing object object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

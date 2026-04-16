@@ -1,8 +1,8 @@
-// This example shows how to return the double factorial of a number.
+// Return the double factorial of a number in a spreadsheet.
 
-// How to calculate a double factorial.
+// How to calculate a double factorial in a spreadsheet.
 
-// Use function to calculate the double factorial of a number.
+// Use function to calculate the double factorial of a number in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

@@ -1,8 +1,8 @@
-// This example retrieves the worksheet that owns the AutoFilter.
+// Retrieve the worksheet that owns the AutoFilter.
 
-// How to navigate back from ApiAutoFilter to ApiWorksheet.
+// How to navigate back from auto filter to worksheet.
 
-// Use ApiAutoFilter.GetParent() to get the parent sheet.
+// Use ApiAutoFilter.GetParent() to get the parent sheet in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

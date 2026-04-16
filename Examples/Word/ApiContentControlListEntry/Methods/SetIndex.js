@@ -1,4 +1,9 @@
-// This example sets the index of a content control list item in the collection of list items.
+// Set the index of a content control list item in the collection of list items in a document.
+
+// How to set index for a content control list entry in a document?
+
+// Set index and display the result in a document.
+
 let doc = Api.GetDocument();
 let cc = Api.CreateComboBoxContentControl([{display: "Mercury", value: "planet1"}, {display: "Venus", value: "planet2"}, {display: "Earth", value: "planet3"}, {display: "Mars", value: "planet4"}], 2);
 let paragraph = doc.GetElement(0);

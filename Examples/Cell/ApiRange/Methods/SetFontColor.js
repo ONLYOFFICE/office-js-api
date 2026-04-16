@@ -1,8 +1,8 @@
-// This example sets the text color to the cell range.
+// Set the text color to the cell range.
 
 // How to color a cell text.
 
-// Get a range and apply an RGB color to its text color.
+// Get a range and apply an RGB color to its text color in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A2").SetFontColor(Api.CreateColorFromRGB(255, 111, 61));

@@ -1,8 +1,8 @@
-// This example specifies the languages which will be used to check spelling and grammar (if requested) when processing the contents of the text run.
+// Specify the languages which will be used to check spelling and grammar (if requested) when processing the contents of the text run in a document.
 
-// How to set a language to the text for grammar checking.
+// How to set a language to the text for grammar checking in a document.
 
-// Create a text run object, change its language to English for grammar check.
+// Create a text run object, change its language to English for grammar check in a document.
 
 let doc = Api.GetDocument();
 let textPr = doc.GetDefaultTextPr();

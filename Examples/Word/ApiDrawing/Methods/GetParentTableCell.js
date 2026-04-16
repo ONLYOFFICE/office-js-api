@@ -1,4 +1,4 @@
-// This example showh how to get a parent table cell that contains the graphic object.
+// Showh how to get a parent table cell that contains the graphic object.
 
 // Get an element's parent table cell.
 

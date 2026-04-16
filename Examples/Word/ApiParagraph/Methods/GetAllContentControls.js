@@ -1,8 +1,8 @@
-// This example shows how to get a collection of content control objects in the paragraph.
+// Get a collection of content control objects in the paragraph in a document.
 
 // How to retrieve all content controls from the document.
 
-// Get all content controls and show the class type of the first one.
+// Get all content controls and show the class type of the first one in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

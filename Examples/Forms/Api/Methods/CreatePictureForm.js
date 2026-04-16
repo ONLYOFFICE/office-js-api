@@ -1,8 +1,8 @@
-// This example creates a picture form with the common and specific picture form properties.
+// Create a picture form with the common and specific picture form properties.
 
 // How to create a picture form and add it to the paragraph.
 
-// Add the ApiPictureForm object to the document to upload a photo and set its image by a URL.
+// Add the picture form object to the document to upload a photo and set its image by an URL.
 
 let doc = Api.GetDocument();
 let pictureForm = Api.CreatePictureForm({

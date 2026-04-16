@@ -1,8 +1,8 @@
-// This example shows how to set title of a pivot table.
+// Set title of a pivot table in a spreadsheet.
 
-// How to set table title.
+// How to set table title in a spreadsheet.
 
-// Create a pivot table, add data to it then set its table title.
+// Create a pivot table, add data to it then set its table title in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

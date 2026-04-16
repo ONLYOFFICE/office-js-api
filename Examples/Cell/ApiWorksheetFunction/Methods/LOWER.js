@@ -1,8 +1,8 @@
-// This example shows how to convert all letters in a text string to lowercase.
+// Convert all letters in a text string to lowercase in a spreadsheet.
 
-// How to make all characters uncapitalized.
+// How to make all characters uncapitalized in a spreadsheet.
 
-// Use a function to make a text string to lowercase.
+// Use a function to make a text string to lowercase in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

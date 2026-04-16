@@ -1,8 +1,8 @@
-// This example spicifies tick label position for the horizontal axis.
+// Spicifies tick label position for the horizontal axis in a presentation.
 
-// How to change a position of tick label.
+// How to change a position of tick label in a presentation.
 
-// Create a chart, set its properties and its horizontal axis tick label position.
+// Create a chart, set its properties and its horizontal axis tick label position in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

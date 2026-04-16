@@ -1,8 +1,8 @@
-// This example deletes the table.
+// Delete the table in a document.
 
 // How to remove a table from the document.
 
-// Get a table and delete it.
+// Get a table and delete it in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

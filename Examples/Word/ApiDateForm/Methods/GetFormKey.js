@@ -1,4 +1,4 @@
-// This example shows how to get the form key.
+// Get the form key in a document.
 
 // How get a key of a date form.
 

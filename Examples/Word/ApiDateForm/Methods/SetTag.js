@@ -1,4 +1,9 @@
-// This example shows how to set the form tag.
+// Set the form tag in a document.
+
+// How can I set tag using a date form in a document?
+
+// Set tag for a date form in a document.
+
 let doc = Api.GetDocument();
 let dateForm = Api.CreateDateForm({"tag" : "Hello", "key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});
 let paragraph = doc.GetElement(0);

@@ -1,6 +1,6 @@
-// This example sets the background color to the current form.
+// Set the background color to the current form.
 
-// Applies an RGB background color to the date form element.
+// Apply an RGB background color to the date form element.
 
 // How to change background color of the date form.
 

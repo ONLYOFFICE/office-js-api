@@ -1,8 +1,8 @@
-// This example shows how to get the shape inner contents where a paragraph or text runs can be inserted.
+// Get the shape inner contents where a paragraph or text runs can be inserted in a document.
 
-// How to get the doc content of the drawing.
+// How to get the doc content of the drawing in a document.
 
-// Retrieve the content of the shape add the paragraph to it.
+// Retrieve the content of the shape add the paragraph to it in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

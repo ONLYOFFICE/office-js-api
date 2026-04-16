@@ -1,8 +1,8 @@
-// This example sets a category name for chart.
+// Set a category name for chart in a presentation.
 
-// How to rename a chart category.
+// How to rename a chart category in a presentation.
 
-// Create a chart then name its category.
+// Create a chart then name its category in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

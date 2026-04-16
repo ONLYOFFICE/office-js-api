@@ -1,6 +1,6 @@
-// This example deletes the run.
+// Delete the run.
 
-// How to delete a text run object.
+// How to delete a text run object in a PDF document.
 
 // Remove text from the page.
 

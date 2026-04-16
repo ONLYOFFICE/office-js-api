@@ -1,8 +1,8 @@
-// This example specifies the alignment which will be applied to the contents of the run in relation to the default appearance of the run text.
+// Specify the alignment which will be applied to the contents of the run in relation to the default appearance of the run text in a PDF document.
 
-// How to set a vertical alignment of the text.
+// How to set a vertical alignment of the text in a PDF document.
 
-// Get the text properties of the run and make it superscript, subscript, etc.
+// Get the text properties of the run and make it superscript, subscript, etc in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

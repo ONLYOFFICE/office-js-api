@@ -1,8 +1,8 @@
-// This example shows how to get the parent ApiCharacters object of the specified font.
+// Get the parent characters object of the specified font in a spreadsheet.
 
-// How to determine a font object's parent.
+// How to determine a font object's parent in a spreadsheet.
 
-// Get a parent of a font and add text to it.
+// Get a parent of a font and add text to it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B1");

@@ -1,8 +1,8 @@
-// This example removes all the elements from the paragraph.
+// Remove all the elements from the paragraph in a presentation.
 
-// How to delete all elements from the paragraph.
+// How to delete all elements from the paragraph in a presentation.
 
-// Clear all elements from the paragraph.
+// Clear all elements from the paragraph in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

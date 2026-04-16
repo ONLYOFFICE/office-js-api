@@ -1,6 +1,6 @@
-// This example converts the ApiTableRowPr object into the JSON object.
+// Convert the table row properties object into the JSON object in a document.
 
-// How to get a JSON from the table row properties.
+// How to get a JSON from the table row properties in a document.
 
 // Convert the table row properties to json and add it to the document.
 

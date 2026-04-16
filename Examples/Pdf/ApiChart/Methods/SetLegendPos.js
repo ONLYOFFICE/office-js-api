@@ -1,6 +1,8 @@
-// How to place a chart legend.
+// How to place a chart legend in a PDF document.
 
-// Create a chart, set its properties and its legend's position.
+// Create a chart, set its properties and its legend's position in a PDF document.
+
+// Set legend pos for a chart in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

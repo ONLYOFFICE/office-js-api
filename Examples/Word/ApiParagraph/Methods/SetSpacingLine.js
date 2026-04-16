@@ -1,8 +1,8 @@
-// This example sets the paragraph line spacing.
+// Set the paragraph line spacing in a document.
 
-// How to set the size of a spacing line from a paragraph properties.
+// How to set the size of a spacing line from a paragraph properties in a document.
 
-// Change a spacing line size property of a paragraph properties.
+// Change a spacing line size property of a paragraph properties in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

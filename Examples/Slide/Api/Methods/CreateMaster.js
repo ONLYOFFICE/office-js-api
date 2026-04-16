@@ -1,4 +1,4 @@
-// This example shows how to create a slide master.
+// Create a slide master in a presentation.
 
 // How to add master to the slide.
 

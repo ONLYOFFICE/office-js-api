@@ -1,4 +1,8 @@
-// This example gets the main animation sequence from a timeline.
+// Get the main animation sequence from a timeline in a presentation.
+
+// How can I get the main sequence using a timeline in a presentation?
+
+// Get the main sequence for a timeline in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

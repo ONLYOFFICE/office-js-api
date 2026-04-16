@@ -1,8 +1,8 @@
-// This example sets a string tag to the inline text content control.
+// Set a string tag to the inline text content control in a document.
 
-// How to set tag for the inline content control.
+// How to set tag for the inline content control in a document.
 
-// Display the tag set for inline text element.
+// Display the tag set for inline text element in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

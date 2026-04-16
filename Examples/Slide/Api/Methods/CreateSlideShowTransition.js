@@ -1,5 +1,8 @@
-// This example creates a slide show transition
-// with fade effect that starts after 3 seconds.
+// Create a slide show transition with fade effect that starts after 3 seconds.
+
+// How do I create the slide show transition in a presentation?
+
+// Create the slide show transition and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

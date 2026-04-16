@@ -1,4 +1,8 @@
-// This example shows how to get the parent of a custom XML node.
+// Get the parent of a custom XML node in a spreadsheet.
+
+// How to get the parent for a custom XML node in a spreadsheet?
+
+// Get the parent and display the result in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const xmlManager = worksheet.GetCustomXmlParts();

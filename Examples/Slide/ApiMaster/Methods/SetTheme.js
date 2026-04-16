@@ -1,4 +1,4 @@
-// This example sets a theme to the slide master. Sets a copy of the theme object.
+// Set a theme to the slide master. Sets a copy of the theme object.
 
 // How to set a theme of a slide master.
 

@@ -1,4 +1,4 @@
-// This example demonstrates getting the type of data bar conditional formatting rule.
+// Get the type of data bar conditional formatting rule.
 
 // How to identify the type of conditional formatting rule.
 

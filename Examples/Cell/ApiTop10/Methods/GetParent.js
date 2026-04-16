@@ -1,8 +1,8 @@
-// This example gets the parent object of the top 10 conditional formatting rule.
+// Get the parent object of the top 10 conditional formatting rule.
 
 // How to retrieve the parent worksheet of conditional formatting rules.
 
-// Get top 10 rule parent object.
+// Get top 10 rule parent object in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

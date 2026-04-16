@@ -1,5 +1,9 @@
-// Creates a shape with adjustable parameters and guides.
-// Sets up text rectangle and connection points for the custom geometry.
+// Create a shape with adjustable parameters and guides. Sets up text rectangle and connection points for the custom geometry in a document.
+
+// How can I get the adj value using a geometry in a document?
+
+// Get the adj value for a geometry in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let customGeometry = Api.CreateCustomGeometry();

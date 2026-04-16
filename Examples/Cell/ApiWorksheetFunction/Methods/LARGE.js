@@ -1,8 +1,8 @@
-// This example shows how to return the k-th largest value in a data set. For example, the fifth largest number.
+// Return the k-th largest value in a data set. For example, the fifth largest number in a spreadsheet.
 
-// How to find the k-th largest value in a data set.
+// How to find the k-th largest value in a data set in a spreadsheet.
 
-// Use a function to find out the largest value in a data set specifying its order number.
+// Use a function to find out the largest value in a data set specifying its order number in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

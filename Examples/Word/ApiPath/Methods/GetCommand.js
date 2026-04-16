@@ -1,5 +1,9 @@
-// Analyzes path commands of a star shape.
-// Retrieves information about the first command including type and coordinates.
+// Analyzes path commands of a star shape. Retrieves information about the first command including type and coordinates.
+
+// How do I get the command in a document?
+
+// Get the command using a geometry path object in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.RGB(255, 200, 100));

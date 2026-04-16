@@ -1,8 +1,8 @@
-// This example sets a sequence of custom tab stops which will be used for any tab characters in the paragraph.
+// Set a sequence of custom tab stops which will be used for any tab characters in the paragraph in a PDF document.
 
-// How to set sequence of custom tabs of a text from a paragraph.
+// How to set sequence of custom tabs of a text from a paragraph in a PDF document.
 
-// Change a sequence of custom tabs of a paragraph.
+// Change a sequence of custom tabs of a paragraph in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

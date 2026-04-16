@@ -1,4 +1,4 @@
-// This example sets the cell properties to the current cell.
+// Set the cell properties to the current cell.
 
 // How to add properties to the cell.
 

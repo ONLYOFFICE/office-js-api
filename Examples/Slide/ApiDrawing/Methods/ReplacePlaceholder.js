@@ -1,4 +1,8 @@
-// This example replaces the placeholder by a drawing on the slide.
+// Replace the placeholder by a drawing on the slide.
+
+// How can I replace placeholder using a drawing object in a presentation?
+
+// Replace placeholder for a drawing object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

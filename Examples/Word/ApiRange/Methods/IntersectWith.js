@@ -1,8 +1,8 @@
-// This example returns a new range as the intersection of the current range with another range.
+// Return a new range as the intersection of the current range with another range in a document.
 
-// How to intersect two ranges into the new one.
+// How to intersect two ranges into the new one in a document.
 
-// Create a range by intersection of two and make its text bold.
+// Create a range by intersection of two and make its text bold in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

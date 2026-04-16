@@ -1,4 +1,8 @@
-// This example shows how to get text from the body shape of the notes page.
+// Get text from the body shape of the notes page in a presentation.
+
+// How do I get the body shape text in a presentation?
+
+// Get the body shape text using a notes page object.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// This example creates the empty text properties.
+// Create the empty text properties in a spreadsheet.
 
-// How to set custom properties for an empty text.
+// How to set custom properties for an empty text in a spreadsheet.
 
-// Change a new text properties like font size, font style, etc.
+// Change a new text properties like font size, font style, etc in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

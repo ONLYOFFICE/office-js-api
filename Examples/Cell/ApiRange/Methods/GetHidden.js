@@ -1,6 +1,6 @@
-// This example shows how to get the value hiding property.
+// Get the value hiding property in a spreadsheet.
 
-// How to find out hidden property from a range.
+// How to find out hidden property from a range in a spreadsheet.
 
 // Get a range, get its cell hiding property and show it in the worksheet.
 

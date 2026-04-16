@@ -1,4 +1,9 @@
-// This example gets field widget and displays it's border color.
+// Get field widget and display it's border color in a PDF document.
+
+// How to get the border color for a widget in a PDF document?
+
+// Get the border color and display the result in a PDF document.
+
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 let textField = Api.CreateTextField([10, 10, 160, 30]);
@@ -12,4 +17,3 @@ widgets.forEach(function(widget) {
 });
 let borderColor = widgets[0].GetBorderColor();
 textField.SetValue('Widgets border color is: ' + borderColor.R + ',' + borderColor.G + ',' + borderColor.B);
-

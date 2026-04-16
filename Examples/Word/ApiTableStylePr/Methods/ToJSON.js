@@ -1,6 +1,6 @@
-// This example converts the ApiTableStylePr object into the JSON object.
+// Convert the table style properties object into the JSON object in a document.
 
-// How to get a JSON from the table style properties.
+// How to get a JSON from the table style properties in a document.
 
 // Convert the table style properties to json and add it to the document.
 

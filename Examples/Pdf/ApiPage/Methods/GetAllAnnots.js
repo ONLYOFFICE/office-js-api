@@ -1,4 +1,9 @@
-// This example gets all annots from page.
+// Get all annots from page.
+
+// How do I get all annots in a PDF document?
+
+// Get all annots using a page object.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([10, 10, 160, 32]);
 let page = doc.GetPage(0);

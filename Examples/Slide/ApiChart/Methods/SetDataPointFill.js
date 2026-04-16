@@ -1,8 +1,8 @@
-// This example shows how to set the fill to the data point.
+// Set the fill to the data point in a presentation.
 
-// How to color a data point.
+// How to color a data point in a presentation.
 
-// Create a chart then color its data points.
+// Create a chart then color its data points in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

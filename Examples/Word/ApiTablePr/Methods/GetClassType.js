@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the presentation.
+// Check the class type returned by a table properties in a document.
 
-// How to get a class type of ApiTablePr.
+// How do I check what type a table properties object is in a document?
 
-// Retrieve class type of ApiTablePr object and insert it to the document.
+// Retrieve and output the class type string for a table properties in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

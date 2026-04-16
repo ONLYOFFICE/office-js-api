@@ -1,6 +1,6 @@
-// This example gets whether a dropdown list is displayed.
+// Get whether a dropdown list is displayed in a spreadsheet.
 
-// How to check if validation displays a dropdown list.
+// How to check if validation displays a dropdown list in a spreadsheet.
 
 // Get the InCellDropdown setting.
 

@@ -1,8 +1,8 @@
-// This example shows how to get the string data from the current OLE object.
+// Get the string data from the current OLE object in a presentation.
 
-// How to get data from an OLE object.
+// How to get data from an OLE object in a presentation.
 
-// Retrieve a content of an OLE object as a string.
+// Retrieve a content of an OLE object as a string in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

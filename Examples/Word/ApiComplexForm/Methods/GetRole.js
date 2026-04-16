@@ -1,4 +1,9 @@
-// This example shows how to get the form role.
+// Get the form role in a document.
+
+// How to get the role for a complex form?
+
+// Get the role and display the result in a document.
+
 let doc = Api.GetDocument();
 let roles = doc.GetFormRoles();
 roles.Add("Customer");

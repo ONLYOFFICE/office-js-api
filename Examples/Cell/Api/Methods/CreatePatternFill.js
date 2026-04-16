@@ -1,8 +1,8 @@
-// This example creates a pattern fill to apply to the object using the selected pattern as the object background.
+// Create a pattern fill to apply to the object using the selected pattern as the object background in a spreadsheet.
 
-// Create customized pattern to fill background of a shape.
+// Create customized pattern to fill background of a shape in a spreadsheet.
 
-// Set a shape background using a pattern fill.
+// Set a shape background using a pattern fill in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreatePatternFill("dashDnDiag", Api.RGB(255, 111, 61), Api.RGB(51, 51, 51));

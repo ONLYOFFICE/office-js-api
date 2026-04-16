@@ -1,4 +1,8 @@
-// This example shows how to get the last run with text from a paragraph inside a shape.
+// Get the last run with text from a paragraph inside a shape in a spreadsheet.
+
+// How can I get last run with text using a paragraph in a spreadsheet?
+
+// Get last run with text for a paragraph in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const fill = Api.CreateSolidFill(Api.RGB(100, 140, 120));

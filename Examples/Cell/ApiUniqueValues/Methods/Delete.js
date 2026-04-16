@@ -1,4 +1,4 @@
-// This example demonstrates deleting a unique values conditional formatting rule.
+// Delete an unique values conditional formatting rule.
 
 // How to remove unique values conditional formatting from a range.
 

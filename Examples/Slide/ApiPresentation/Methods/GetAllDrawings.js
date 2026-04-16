@@ -1,4 +1,8 @@
-// This example shows how to get all the drawing objects from the current presentation
+// Get all the drawing objects from the current presentation in a presentation.
+
+// How to get all drawings for a presentation?
+
+// Get all drawings and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

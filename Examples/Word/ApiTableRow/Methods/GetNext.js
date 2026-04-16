@@ -1,8 +1,8 @@
-// This example shows how to get the next row.
+// Get the next row in a document.
 
-// Get the next row of the current row.
+// Get the next row of the current row in a document.
 
-// Display the first and the second row.
+// Display the first and the second row in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

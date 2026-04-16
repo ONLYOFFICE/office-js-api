@@ -1,8 +1,8 @@
-// This example adds a tab stop to the paragraph.
+// Add a tab stop to the paragraph in a PDF document.
 
-// How to add a tab after a sentence in a paragraph.
+// How to add a tab after a sentence in a paragraph in a PDF document.
 
-// How to split a text string with a tab.
+// How to split a text string with a tab in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

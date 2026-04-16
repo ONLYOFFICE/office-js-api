@@ -1,5 +1,9 @@
-// Gets the width of a stroke in EMU.
-// Creates shapes with different border widths and displays their widths.
+// Get the width of a stroke in EMU. Creates shapes with different border widths and display their widths in a document.
+
+// How do I get the width in a document?
+
+// Get the width using a stroke object in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 

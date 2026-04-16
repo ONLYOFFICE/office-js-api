@@ -1,8 +1,8 @@
-// This example shows how to find out a text font family.
+// Find out a text font family in a PDF document.
 
-// How to know font name of a text run.
+// How to know font name of a text run in a PDF document.
 
-// Get the run and display its font family.
+// Get the run and display its font family in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

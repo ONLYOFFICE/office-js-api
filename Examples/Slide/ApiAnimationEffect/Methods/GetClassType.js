@@ -1,4 +1,8 @@
-// This example gets the class type of the ApiAnimationEffect object.
+// Check the class type returned by an animation effect in a presentation.
+
+// How do I check what type an animation effect object is in a presentation?
+
+// Retrieve and output the class type string for an animation effect in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

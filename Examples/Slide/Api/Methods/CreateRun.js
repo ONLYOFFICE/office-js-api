@@ -1,8 +1,8 @@
-// This example creates a run and inserts it into the document.
+// Create a run and insert it into the document.
 
-// How to add text.
+// How to add text in a presentation.
 
-// Add an ApiRun object that represents a text.
+// Add an text run object that represents a text in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

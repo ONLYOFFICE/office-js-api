@@ -1,8 +1,8 @@
-// This example shows how to get the XML content of a custom XML part.
+// Get the XML content of a custom XML part in a presentation.
 
-// How to get the XML content of an XML part.
+// How to get the XML content of an XML part in a presentation.
 
-// Get XML content.
+// Get XML content using the custom XML part API in a presentation.
 
 let presentation = Api.GetPresentation();
 let xmlManager = presentation.GetCustomXmlParts();

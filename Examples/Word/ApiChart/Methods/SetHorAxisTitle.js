@@ -1,8 +1,8 @@
-// This example specifies the chart horizontal axis title.
+// Specify the chart horizontal axis title in a document.
 
-// How to change a position of a horizontal axis title.
+// How to change a position of a horizontal axis title in a document.
 
-// Create a chart and move its horizontal axis title.
+// Create a chart and move its horizontal axis title in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

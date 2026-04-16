@@ -1,4 +1,4 @@
-// This example shows how to group drawings on master slide.
+// Group drawings on master slide in a presentation.
 
 // How to group drawings on master slide.
 

@@ -1,4 +1,8 @@
-// This example shows how to set the condition value type for an icon criterion.
+// Set the condition value type for an icon criterion in a spreadsheet.
+
+// How to set type for an icon criterion in a spreadsheet?
+
+// Set type and display the result in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 worksheet.GetRange('A1').SetValue('Metrics');

@@ -1,8 +1,8 @@
-// This example selects the current run.
+// Select the current run in a document.
 
-// How to select a text with a cursor.
+// How to select a text with a cursor in a document.
 
-// Select a run.
+// Select and display the result in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,4 +1,8 @@
-// This example shows how to get all slide masters from current presentation.
+// Get all slide masters from current presentation in a presentation.
+
+// How do I get all slide masters in a presentation?
+
+// Get all slide masters using a presentation object.
 
 const presentation = Api.GetPresentation();
 const firstSlide = presentation.GetSlideByIndex(0);

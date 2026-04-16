@@ -1,5 +1,9 @@
-// Analyzes cloud shape path properties on a slide.
-// Displays comprehensive path information in a text shape.
+// Analyzes cloud shape path properties on a slide. Displays comprehensive path information in a text shape.
+
+// How to get the fill for a geometry path in a presentation?
+
+// Get the fill and display the result in a presentation.
+
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);
 let fill = Api.CreateSolidFill(Api.RGB(100, 150, 200));

@@ -1,4 +1,4 @@
-// This example shows how to remove all elements from a shape.
+// Remove all elements from a shape in a PDF document.
 
 // How to remove all elements from the page shape.
 

@@ -1,4 +1,8 @@
-// This example demonstrates how to set the title of the workbook.
+// Set the title of the workbook in a spreadsheet.
+
+// How do I set title in a spreadsheet?
+
+// Set title using a core properties object in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

@@ -1,4 +1,4 @@
-// This example sets the placeholder text to the current form.
+// Set the placeholder text to the current form.
 
 // Add text as a placeholder of the form.
 

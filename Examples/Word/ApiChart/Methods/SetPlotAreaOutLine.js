@@ -1,8 +1,8 @@
-// This example sets the outline to the chart plot area.
+// Set the outline to the chart plot area in a document.
 
-// How to set an outline color for the plot area.
+// How to set an outline color for the plot area in a document.
 
-// Create a chart, set its properties and its plot area outline.
+// Create a chart, set its properties and its plot area outline in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example shows how to get a pivot table of the current range.
+// Get a pivot table of the current range in a spreadsheet.
 
 // How to get a pivot table of a cell.
 
-// Get a range, get its pivot table and add some data fields to it.
+// Get a range, get its pivot table and add some data fields to it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

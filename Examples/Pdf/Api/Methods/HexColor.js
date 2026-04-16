@@ -1,4 +1,8 @@
-// This example shows how to create a hex color and use it as a shape fill.
+// Create a hex color and use it as a shape fill in a PDF document.
+
+// How to hex color in a PDF document?
+
+// Hex color using the PDF document API.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

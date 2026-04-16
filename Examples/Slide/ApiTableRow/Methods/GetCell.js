@@ -1,4 +1,4 @@
-// This example shows how to get a cell by its position in the row.
+// Get a cell by its position in the row in a presentation.
 
 // How to return a cell using its row index.
 

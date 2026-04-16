@@ -1,6 +1,6 @@
-// This example demonstrates setting the number of standard deviations from the average.
+// Set the number of standard deviations from the average in a spreadsheet.
 
-// How to modify the standard deviation setting for above average conditions.
+// How to modify the standard deviation setting for above average conditions in a spreadsheet.
 
 // Change the number of standard deviations for conditional formatting.
 

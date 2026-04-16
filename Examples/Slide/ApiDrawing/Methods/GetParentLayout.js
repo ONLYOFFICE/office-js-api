@@ -1,4 +1,4 @@
-// This example shows hot to get the drawing parent slide layout.
+// Show hot to get the drawing parent slide layout.
 
 // How to get a parent layout of a slide shape.
 

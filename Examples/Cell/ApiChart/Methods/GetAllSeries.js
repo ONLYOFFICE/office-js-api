@@ -1,8 +1,8 @@
-// This example gets all series of ApiChart class and inserts their types into the table.
+// Get all series of chart class and insert their types into the table in a spreadsheet.
 
 // How to get all series of the chart and diplay their type on the worksheet.
 
-// Get all series from the chart and display their types. 
+// Get all series from the chart and display their types in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

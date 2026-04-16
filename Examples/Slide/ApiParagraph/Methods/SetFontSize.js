@@ -1,4 +1,8 @@
-// This example sets the font size to the characters of the paragraph.
+// Set the font size to the characters of the paragraph in a presentation.
+
+// How can I set font size using a paragraph in a presentation?
+
+// Set font size for a paragraph in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

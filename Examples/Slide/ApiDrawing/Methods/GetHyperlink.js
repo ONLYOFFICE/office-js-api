@@ -1,4 +1,8 @@
-// This example returns the hyperlink from the current drawing object.
+// Return the hyperlink from the current drawing object in a presentation.
+
+// How to get the hyperlink for a drawing object in a presentation?
+
+// Get the hyperlink and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

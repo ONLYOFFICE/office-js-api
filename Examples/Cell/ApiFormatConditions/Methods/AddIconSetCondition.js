@@ -1,4 +1,4 @@
-// This example adds icon set conditional formatting to a range.
+// Add icon set conditional formatting to a range.
 
 // How to add icon set conditional formatting rules to display icons based on values.
 

@@ -1,4 +1,4 @@
-// This example specifies whether sections in this document will have different headers and footers for even and odd pages.
+// Specify whether sections in this document will have different headers and footers for even and odd pages.
 
 // How to make headers and footers different for even and odd pages.
 

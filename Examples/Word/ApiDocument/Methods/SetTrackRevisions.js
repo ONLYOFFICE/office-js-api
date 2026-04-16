@@ -1,4 +1,4 @@
-// This example sets the change tracking mode.
+// Set the change tracking mode in a document.
 
 // How to track revisions of the document.
 

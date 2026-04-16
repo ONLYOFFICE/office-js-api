@@ -1,4 +1,4 @@
-// This example shows how to get the value without format of the specified range.
+// Get the value without format of the specified range in a spreadsheet.
 
 // How to get a cell raw value.
 

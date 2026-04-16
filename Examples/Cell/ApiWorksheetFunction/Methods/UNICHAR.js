@@ -1,8 +1,8 @@
-// This example shows how to return the Unicode character referenced by the given numeric value.
+// Return the Unicode character referenced by the given numeric value in a spreadsheet.
 
-// How to get a Unicode character.
+// How to get an Unicode character in a spreadsheet.
 
-// Use a function to return the Unicode character knowing its reference number.
+// Use a function to return the Unicode character knowing its reference number in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

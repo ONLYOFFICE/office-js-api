@@ -1,4 +1,8 @@
-// This example demonstrates how to use ApiCore to manage spreadsheet metadata.
+// Use core properties to manage spreadsheet metadata in a spreadsheet.
+
+// How to get the core in a spreadsheet?
+
+// Get the core using the spreadsheet API.
 
 const worksheet = Api.GetActiveSheet();
 

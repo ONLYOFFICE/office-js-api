@@ -1,8 +1,8 @@
-// This example converts the current form to an inline form.
+// Convert the current form to an inline form.
 
 // How to make the form inline.
 
-// Set form as inline one.
+// To inline for a text form in a document.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});

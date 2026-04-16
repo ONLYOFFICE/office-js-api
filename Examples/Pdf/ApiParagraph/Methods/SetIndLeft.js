@@ -1,8 +1,8 @@
-// This example sets the paragraph left side indentation.
+// Set the paragraph left side indentation in a PDF document.
 
-// How to set paragraph's left side indentation size.
+// How to set paragraph's left side indentation size in a PDF document.
 
-// Resize the left side indentation of a text from a paragraph.
+// Resize the left side indentation of a text from a paragraph in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

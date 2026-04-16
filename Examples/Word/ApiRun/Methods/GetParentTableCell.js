@@ -1,4 +1,4 @@
-// This example shows how to get a table cell that contains the run.
+// Get a table cell that contains the run in a document.
 
 // Get a parent table cell of the text.
 

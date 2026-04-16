@@ -1,8 +1,8 @@
-// This example shows how to return the ratio of the factorial of a sum of numbers to the product of factorials.
+// Return the ratio of the factorial of a sum of numbers to the product of factorials in a spreadsheet.
 
-// How to get a result from the ratio of the factorial of a sum of numbers to the product of factorials.
+// How to get a result from the ratio of the factorial of a sum of numbers to the product of factorials in a spreadsheet.
 
-// Use a function to find the ratio of the factorial of a sum of numbers to the product of factorials.
+// Use a function to find the ratio of the factorial of a sum of numbers to the product of factorials in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

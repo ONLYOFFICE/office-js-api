@@ -1,4 +1,8 @@
-// This example demonstrates how to get the creator of the current workbook using the ApiCore.
+// Get the creator of the current workbook using the core properties in a spreadsheet.
+
+// How to get the creator for a core properties in a spreadsheet?
+
+// Get the creator and display the result in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

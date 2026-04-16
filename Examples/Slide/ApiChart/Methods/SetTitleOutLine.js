@@ -1,8 +1,8 @@
-// This example sets the outline to the chart title.
+// Set the outline to the chart title in a presentation.
 
-// How to outline a chart title.
+// How to outline a chart title in a presentation.
 
-// Create a chart, set its properties and its title outline.
+// Create a chart, set its properties and its title outline in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

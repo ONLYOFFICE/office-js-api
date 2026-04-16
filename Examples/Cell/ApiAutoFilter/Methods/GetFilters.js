@@ -1,8 +1,8 @@
-// This example reads filter information from the worksheet AutoFilter.
+// Read filter information from the worksheet AutoFilter.
 
-// How to inspect the criteria of existing filters.
+// How to inspect the criteria of existing filters in a spreadsheet.
 
-// Read ApiFilter objects using ApiAutoFilter.GetFilters().
+// Read filter objects using ApiAutoFilter.GetFilters() in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

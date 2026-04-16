@@ -1,8 +1,8 @@
-// This example specifies the chart title.
+// Specify the chart title in a presentation.
 
-// How to rename a chart.
+// How to rename a chart in a presentation.
 
-// Create a chart, set its properties and its title.
+// Create a chart, set its properties and its title in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// This example shows how to return a number rounded to the desired multiple.
+// Return a number rounded to the desired multiple in a spreadsheet.
 
-// How to round the number.
+// How to round the number in a spreadsheet.
 
-// Use a function to round the number.
+// Use a function to round the number in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

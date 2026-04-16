@@ -1,8 +1,8 @@
-// This example shows how to get an array of ApiName objects.
+// Get an array of named range objects in a spreadsheet.
 
-// How to get all def names.
+// How to get all def names in a spreadsheet.
 
-// Get all def names as an array.
+// Get all def names as an array in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

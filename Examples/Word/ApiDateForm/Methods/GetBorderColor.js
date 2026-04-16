@@ -1,4 +1,4 @@
-// This example shows how to get the border color of the current form.
+// Get the border color of the current form in a document.
 
 // How to get the border color of a date form.
 

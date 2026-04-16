@@ -1,8 +1,8 @@
-// This example shows how to create a solid fill.
+// Create a solid fill in a PDF document.
 
-// How to color a background.
+// How to color a background in a PDF document.
 
-// Add solid fill color as a shape background.
+// Add solid fill color as a shape background in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,4 +1,4 @@
-// This example shows how to get number format from above average rule.
+// Get number format from above average rule in a spreadsheet.
 
 // How to retrieve number formatting from above average conditional formatting.
 

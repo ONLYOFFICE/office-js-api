@@ -1,4 +1,4 @@
-// This example deletes the Range object.
+// Delete the Range object in a spreadsheet.
 
 // How to remove a range from the worksheet.
 

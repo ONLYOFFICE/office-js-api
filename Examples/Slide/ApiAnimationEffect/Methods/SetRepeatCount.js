@@ -1,4 +1,8 @@
-// This example sets the repeat count for an animation effect.
+// Set the repeat count for an animation effect in a presentation.
+
+// How do I set repeat count in a presentation?
+
+// Set repeat count using an animation effect object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

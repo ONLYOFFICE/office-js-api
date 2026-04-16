@@ -1,6 +1,6 @@
-// This example shows how to get the width of the drawing.
+// Get the width of the drawing in a spreadsheet.
 
-// How to know a width of a drawing.
+// How to know a width of a drawing in a spreadsheet.
 
 // Get a drawing's width and display it in the worksheet.
 

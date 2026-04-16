@@ -1,8 +1,8 @@
-// This example shows how to look for a value in the leftmost column of a table and then returns a value in the same row from the specified column. By default, the table must be sorted in an ascending order.
+// Look for a value in the leftmost column of a table and then returns a value in the same row from the specified column. By default, the table must be sorted in an ascending order in a spreadsheet.
 
-// How to look for a value in the leftmost column of a table.
+// How to look for a value in the leftmost column of a table in a spreadsheet.
 
-// Use a find a value in the leftmost column of a table and display it in the row.
+// Use a find a value in the leftmost column of a table and display it in the row in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

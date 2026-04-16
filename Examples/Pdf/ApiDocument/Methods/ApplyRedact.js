@@ -1,4 +1,9 @@
-// This example adds a redact annot to first page and applies redact.
+// Add a redact annot to first page and apply redact.
+
+// How do I apply redact in a PDF document?
+
+// Apply redact using a document object.
+
 let doc = Api.GetDocument();
 let redactAnnot = Api.CreateRedactAnnot([84, 60, 231, 70]);
 let page = doc.GetPage(0);

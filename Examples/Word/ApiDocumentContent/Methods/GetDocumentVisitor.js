@@ -1,4 +1,8 @@
-// This example shows how to use a document visitor to traverse document elements.
+// Use a document visitor to traverse document elements in a document.
+
+// How can I get the document visitor using a document content in a document?
+
+// Get the document visitor for a document content in a document.
 
 const doc = Api.GetDocument();
 

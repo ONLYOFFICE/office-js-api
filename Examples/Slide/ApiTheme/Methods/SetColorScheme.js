@@ -1,6 +1,6 @@
-// This example sets the color scheme to the current presentation theme.
+// Set the color scheme to the current presentation theme.
 
-// How to get a theme and set a new color scheme.
+// How to get a theme and set a new color scheme in a presentation.
 
 // Create a new color scheme and apply it to the slide theme.
 

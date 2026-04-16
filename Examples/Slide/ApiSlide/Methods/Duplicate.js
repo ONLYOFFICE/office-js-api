@@ -1,4 +1,4 @@
-// This example creates a duplicate of the specified slide object, adds the new slide to the slides collection.
+// Create a duplicate of the specified slide object, add the new slide to the slides collection.
 
 // How to create a duplicate slide.
 

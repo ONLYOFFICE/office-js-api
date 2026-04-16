@@ -1,4 +1,4 @@
-// This example gets a watermark text and pastes it into the document.
+// Get a watermark text and paste it into the document.
 
 // How to retrieve the text from the watermark and display it in the document.
 

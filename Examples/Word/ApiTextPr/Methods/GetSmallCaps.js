@@ -1,8 +1,8 @@
-// This example finds out whether the current form is uncapitalized or not.
+// Find out whether the current form is uncapitalized or not.
 
-// How to find out whether a text is ucapitalized or not.
+// How to find out whether a text is ucapitalized or not in a document.
 
-// Get the property of the text that shows whether a text is in lowercase.
+// Get the property of the text that shows whether a text is in lowercase in a document.
 
 let doc = Api.GetDocument();
 let myNewRunStyle = doc.CreateStyle("My New Run Style", "run");

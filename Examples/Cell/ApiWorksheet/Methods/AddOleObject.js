@@ -1,4 +1,4 @@
-// This example adds an OLE object to the sheet with the parameters specified.
+// Add an OLE object to the sheet with the parameters specified in a spreadsheet.
 
 // How to add an OLE object to the worksheet specifying its url, size, etc.
 

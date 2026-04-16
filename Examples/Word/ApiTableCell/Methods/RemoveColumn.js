@@ -1,8 +1,8 @@
-// This example removes a column containing the cell.
+// Remove a column containing the cell.
 
 // How to delete the column with Cell 1.
 
-// Get the first cell and remove its column. 
+// Get the first cell and remove its column.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

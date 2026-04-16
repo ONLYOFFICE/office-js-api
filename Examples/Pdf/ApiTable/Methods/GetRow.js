@@ -1,6 +1,8 @@
-// How to get a row object from the table.
+// How to get a row object from the table in a PDF document.
 
-// Create a table, add rows and columns, then get its row by index.
+// Create a table, add rows and columns, then get its row by index in a PDF document.
+
+// Get the row for a table in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

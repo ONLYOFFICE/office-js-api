@@ -1,8 +1,8 @@
-// This example sets a sequence of custom tab stops which will be used for any tab characters in the paragraph.
+// Set a sequence of custom tab stops which will be used for any tab characters in the paragraph in a spreadsheet.
 
-// How to change sizes of tabs between paragraphs.
+// How to change sizes of tabs between paragraphs in a spreadsheet.
 
-// Customize all kind of tabs indicating sizes.
+// Customize all kind of tabs indicating sizes in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

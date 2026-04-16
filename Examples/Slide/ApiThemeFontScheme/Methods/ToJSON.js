@@ -1,8 +1,8 @@
-// This example converts the ApiThemeFontScheme object into the JSON object.
+// Convert the theme font scheme object into the JSON object in a presentation.
 
-// How to convert a ApiThemeFontScheme object to a JSON object.
+// How to convert a theme font scheme object to a JSON object in a presentation.
 
-// Create a ApiThemeFontScheme, convert it to JSON and create a new object from it.
+// Create a theme font scheme, convert it to JSON and create a new object from it in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

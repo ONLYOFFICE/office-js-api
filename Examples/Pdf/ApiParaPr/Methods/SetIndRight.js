@@ -1,8 +1,8 @@
-// This example sets the paragraph right side indentation.
+// Set the paragraph right side indentation in a PDF document.
 
-// How to set a right side indentation using a paragraph properties.
+// How to set a right side indentation using a paragraph properties in a PDF document.
 
-// Create a paragraph setting its right side indentation property.
+// Create a paragraph setting its right side indentation property in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,4 +1,8 @@
-// This example shows how to convert lines to points.
+// Convert lines to points in a spreadsheet.
+
+// How to convert lines to points in a spreadsheet?
+
+// Convert lines to points using the spreadsheet API.
 
 const lines = 100;
 const points = Api.LinesToPoints(lines);

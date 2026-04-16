@@ -1,8 +1,8 @@
-// This shows how to link numbering level with the specified heading style.
+// This shows how to link numbering level with the specified heading style in a document.
 
-// How to link the numbering with the style of another element.
+// How to link the numbering with the style of another element in a document.
 
-// Apply the style of the element to the numbering.
+// Apply the style of the element to the numbering in a document.
 
 const doc = Api.GetDocument();
 const headings = [];

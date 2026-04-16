@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the pdf document.
+// Retrieve the class type of a stroke in a PDF document.
 
-// How to get a class type of ApiStroke.
+// How to identify the class type of a stroke in a PDF document?
 
-// Retrieve class type of ApiStroke object and insert it to the page.
+// Obtain the class type identifier of a stroke object in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

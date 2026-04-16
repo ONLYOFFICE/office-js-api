@@ -1,4 +1,9 @@
-// This example shows how to get nodes based on a specific XPath and display their values.
+// Get nodes based on a specific XPath and display their values in a document.
+
+// How to get the nodes for a custom XML node in a document?
+
+// Get the nodes and display the result in a document.
+
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
 let xmlText = `

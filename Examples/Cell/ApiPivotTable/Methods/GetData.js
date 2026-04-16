@@ -1,8 +1,8 @@
-// This example shows how to get data from a pivot table using names.
+// Get data from a pivot table using names in a spreadsheet.
 
-// How to get a field data from a pivot table.
+// How to get a field data from a pivot table in a spreadsheet.
 
-// Create a pivot table, add data to it then get some data from it.
+// Create a pivot table, add data to it then get some data from it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// This example shows how to return the two-tailed inverse of the Student's t-distribution.
+// Return the two-tailed inverse of the Student's t-distribution in a spreadsheet.
 
-// How to calculate the two-tailed inverse of Student's t-distribution.
+// How to calculate the two-tailed inverse of Student's t-distribution in a spreadsheet.
 
-// Use a function to estimate the Student's t-distribution two-tailed inverse.
+// Use a function to estimate the Student's t-distribution two-tailed inverse in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

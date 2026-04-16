@@ -1,4 +1,8 @@
-// This example shows how to get the outline of the existing text properties.
+// Get the outline of the existing text properties in a document.
+
+// How can I get the out line using a text properties in a document?
+
+// Get the out line for a text properties in a document.
 
 const doc = Api.GetDocument();
 

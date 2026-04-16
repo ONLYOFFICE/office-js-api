@@ -1,8 +1,8 @@
-// This example specifies an amount by which text is raised or lowered for this paragraph in relation to the default baseline of the surrounding non-positioned text.
+// Specify an amount by which text is raised or lowered for this paragraph in relation to the default baseline of the surrounding non-positioned text in a document.
 
-// How to set the line position of the text.
+// How to set the line position of the text in a document.
 
-// Lower the paragraph by 15 points.
+// Lower the paragraph by 15 points in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

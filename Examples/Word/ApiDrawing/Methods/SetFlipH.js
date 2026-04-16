@@ -1,4 +1,8 @@
-// This example shows how to set the horizontal flip for a drawing.
+// Set the horizontal flip for a drawing in a document.
+
+// How to set flip h for a drawing object in a document?
+
+// Set flip h and display the result in a document.
 
 const doc = Api.GetDocument();
 const paragraph = doc.GetElement(0);

@@ -1,4 +1,9 @@
-// This example sets rotate for stamp annotation.
+// Set rotate for stamp annotation in a PDF document.
+
+// How to set rotation for a stamp annotation in a PDF document?
+
+// Set rotation and display the result in a PDF document.
+
 let doc = Api.GetDocument();
 let stampAnnot = Api.CreateStampAnnot([10, 10, 0, 0], 'D_Reviewed', 'Joe Doe');
 stampAnnot.SetScale(0.5);

@@ -1,8 +1,8 @@
-// This example shows how to get the current cell content.
+// Get the current cell content in a presentation.
 
-// How to get a content of the ApiTableCell object.
+// How to get a content of the table cell object.
 
-// Return the ApiDocumentContent object from the table cell.
+// Return the document content object from the table cell.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

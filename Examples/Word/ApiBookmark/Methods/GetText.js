@@ -1,6 +1,6 @@
-// This example shows how to get bookmark text.
+// Get bookmark text in a document.
 
-// How to add a bookmark and then display its content's text.
+// How to add a bookmark and then display its content's text in a document.
 
 // Show a bookmark text in the document.
 

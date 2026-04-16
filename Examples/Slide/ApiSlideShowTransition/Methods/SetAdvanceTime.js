@@ -1,4 +1,8 @@
-// This example sets the automatic advance time to 4.3 seconds (4300 milliseconds).
+// Set the automatic advance time to 4.3 seconds (4300 milliseconds) in a presentation.
+
+// How do I set advance time in a presentation?
+
+// Set advance time using a slide show transition object.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

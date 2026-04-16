@@ -1,4 +1,9 @@
-// This example sets font size property to rich text properties object.
+// Set font size property to rich text properties object in a PDF document.
+
+// How to set font size for a rich text properties in a PDF document?
+
+// Set font size and display the result in a PDF document.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

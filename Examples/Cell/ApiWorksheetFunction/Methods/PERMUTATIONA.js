@@ -1,8 +1,8 @@
-// This example shows how to return the number of permutations for a given number of objects (with repetitions) that can be selected from the total objects.
+// Return the number of permutations for a given number of objects (with repetitions) that can be selected from the total objects in a spreadsheet.
 
-// How to return the number of permutations for a given number of objects with duplicates.
+// How to return the number of permutations for a given number of objects with duplicates in a spreadsheet.
 
-// Use a function to claculate the number of permutations including duplicates.
+// Use a function to claculate the number of permutations including duplicates in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

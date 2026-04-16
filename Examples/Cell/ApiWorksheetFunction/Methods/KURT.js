@@ -1,8 +1,8 @@
-// This example shows how to return the kurtosis of a data set.
+// Return the kurtosis of a data set in a spreadsheet.
 
-// How to know a data set kurtosis.
+// How to know a data set kurtosis in a spreadsheet.
 
-// Use a function to find out kurtosis of a data set.
+// Use a function to find out kurtosis of a data set in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

@@ -1,6 +1,8 @@
-// How to get a seria from a chart using its index.
+// How to get a seria from a chart using its index in a PDF document.
 
-// Find a chart seria.
+// Find a chart seria in a PDF document.
+
+// Use chart to get the series in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

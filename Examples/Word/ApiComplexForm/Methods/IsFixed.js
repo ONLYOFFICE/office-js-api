@@ -1,4 +1,9 @@
-// This example checks if the current form is fixed size.
+// Check if the current form is fixed size.
+
+// How do I is fixed in a document?
+
+// Is fixed using a complex form object.
+
 let doc = Api.GetDocument();
 let complexForm = Api.CreateComplexForm({"key": "Complex1"});
 let paragraph = doc.GetElement(0);

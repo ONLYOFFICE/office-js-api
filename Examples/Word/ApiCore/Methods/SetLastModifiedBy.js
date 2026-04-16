@@ -1,4 +1,8 @@
-// This example demonstrates how to set the name of the last user who modified the current document.
+// Set the name of the last user who modified the current document in a document.
+
+// How can I set last modified by using a core properties in a document?
+
+// Set last modified by for a core properties in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

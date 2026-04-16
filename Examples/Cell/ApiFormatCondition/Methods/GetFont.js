@@ -1,4 +1,4 @@
-// This example gets the font applied by a conditional formatting rule.
+// Get the font applied by a conditional formatting rule.
 
 // How to retrieve font settings from conditional formatting rules.
 

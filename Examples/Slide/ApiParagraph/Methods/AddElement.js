@@ -1,8 +1,8 @@
-// This example adds a run to the paragraph.
+// Add a run to the paragraph in a presentation.
 
-// Insert a text run to the ApiParagraph object.
+// Insert a text run to the paragraph object in a presentation.
 
-// How to add the ApiRun object to the slide.
+// How to add the text run object to the slide.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

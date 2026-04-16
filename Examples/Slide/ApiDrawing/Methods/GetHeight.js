@@ -1,4 +1,4 @@
-// This example gets a height of a shape and inserts it into the presentation.
+// Get a height of a shape and insert it into the presentation.
 
 // How to find a shape's height and display it on the slide.
 

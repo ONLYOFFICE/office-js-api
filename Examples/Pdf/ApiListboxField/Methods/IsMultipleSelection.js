@@ -1,4 +1,9 @@
-// This example gets multiple selection property from listbox field.
+// Get multiple selection property from listbox field in a PDF document.
+
+// How to is multiple selection for a listbox field in a PDF document?
+
+// Is multiple selection and display the result in a PDF document.
+
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 let listboxField = Api.CreateListboxField([10, 10, 160, 100]);

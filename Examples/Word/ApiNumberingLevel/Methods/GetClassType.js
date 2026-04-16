@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Retrieve the class type of a numbering level in a document.
 
-// How to get a class type of ApiNumberingLevel.
+// How to identify the class type of a numbering level in a document?
 
-// Retrieve class type of ApiNumberingLevel object and insert it to the document.
+// Obtain the class type identifier of a numbering level object in a document.
 
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("bullet");

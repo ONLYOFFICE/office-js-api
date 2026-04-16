@@ -1,6 +1,8 @@
-// How to outline a chart legend.
+// How to outline a chart legend in a PDF document.
 
-// Create a chart, set its properties and its legend's outline.
+// Create a chart, set its properties and its legend's outline in a PDF document.
+
+// Set legend out line using a chart object in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

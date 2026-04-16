@@ -1,4 +1,4 @@
-// This example removes an element using the position specified.
+// Remove an element using the position specified in a document.
 
 // How to delete the paragraph from the document.
 

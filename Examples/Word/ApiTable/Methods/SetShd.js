@@ -1,8 +1,8 @@
-// This example specifies the shading which shall be applied to the extents of the table.
+// Specify the shading which shall be applied to the extents of the table in a document.
 
-// How to set shading of the table.
+// How to set shading of the table in a document.
 
-// Create a table and specify its shading as "clear".
+// Create a table and specify its shading as "clear" in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

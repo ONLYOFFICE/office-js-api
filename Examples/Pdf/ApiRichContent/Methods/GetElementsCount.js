@@ -1,4 +1,9 @@
-// This example gets elements count of rich content.
+// Get elements count of rich content in a PDF document.
+
+// How do I get the elements count in a PDF document?
+
+// Get the elements count using a rich content object in a PDF document.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

@@ -1,4 +1,9 @@
-// This example gets rect diff of freeText annotation.
+// Get rect diff of freeText annotation in a PDF document.
+
+// How do I get the rect diff in a PDF document?
+
+// Get the rect diff using a free text annotation object in a PDF document.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

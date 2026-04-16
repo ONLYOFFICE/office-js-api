@@ -1,4 +1,4 @@
-// This example shows how to get a number format of a data field.
+// Get a number format of a data field in a spreadsheet.
 
 // How to get a table element format.
 

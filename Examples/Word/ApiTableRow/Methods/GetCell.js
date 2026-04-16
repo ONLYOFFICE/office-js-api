@@ -1,4 +1,4 @@
-// This example shows how to get a cell by its position.
+// Get a cell by its position in a document.
 
 // How to get cell from the table.
 

@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Check the class type returned by a stroke in a document.
 
-// How to get a class type of ApiStroke.
+// How do I check what type a stroke object is in a document?
 
-// Retrieve class type of ApiStroke object and insert it to the document.
+// Retrieve and output the class type string for a stroke in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,4 +1,8 @@
-// This example shows how to set a role for a form element.
+// Set a role for a form element in a document.
+
+// How can I set role using a form base in a document?
+
+// Set role for a form base in a document.
 
 const doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

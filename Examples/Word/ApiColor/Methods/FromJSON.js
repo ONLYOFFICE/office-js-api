@@ -1,4 +1,8 @@
-// This example shows how to restore ApiColor objects of different types from JSON.
+// Restore color objects of different types from JSON in a document.
+
+// How do I from j s o n in a document?
+
+// From j s o n using a color object in a document.
 
 const doc = Api.GetDocument();
 const paragraph = doc.GetElement(0);

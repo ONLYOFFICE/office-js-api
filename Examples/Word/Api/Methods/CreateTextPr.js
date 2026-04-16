@@ -1,10 +1,10 @@
-// This example shows how to create a text properties and use them.
+// Create a text properties and use them in a document.
 
-// Creates the empty text properties object and sets the bold property, font size, capitalized letters, color, and font family to it.
+// Create the empty text properties object and set the bold property, font size, capitalized letters, color, and font family to it in a document.
 
-// How to create the ApiTextPr object and apply it to the Text Art object.
+// How to create the text properties object and apply it to the Text Art object in a document.
 
-// Creates a Text Art object using the specified text properties.
+// Create a Text Art object using the specified text properties in a document.
 
 let doc = Api.GetDocument();
 let textPr = Api.CreateTextPr();

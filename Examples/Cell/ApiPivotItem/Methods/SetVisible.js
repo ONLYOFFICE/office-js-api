@@ -1,8 +1,8 @@
-// This example shows how to set the visibility of a pivot item.
+// Set the visibility of a pivot item in a spreadsheet.
 
-// How to show/hide pivot items using SetVisible method and Visible property.
+// How to show/hide pivot items using SetVisible method and Visible property in a spreadsheet.
 
-// Create a pivot table, add data to it then demonstrate setting visibility of pivot items.
+// Create a pivot table, add data to it then demonstrate setting visibility of pivot items in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

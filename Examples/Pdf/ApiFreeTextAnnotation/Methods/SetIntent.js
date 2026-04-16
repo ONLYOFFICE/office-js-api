@@ -1,4 +1,9 @@
-// This example sets intent for freeText annotation.
+// Set intent for freeText annotation in a PDF document.
+
+// How to set intent for a free text annotation in a PDF document?
+
+// Set intent and display the result in a PDF document.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

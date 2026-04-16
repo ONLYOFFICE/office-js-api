@@ -1,8 +1,8 @@
-// This example shows how to set table style row headers of a pivot table.
+// Set table style row headers of a pivot table in a spreadsheet.
 
-// How to set table style row headers of a table.
+// How to set table style row headers of a table in a spreadsheet.
 
-// Create a pivot table, add data to it then set its table style row headers.
+// Create a pivot table, add data to it then set its table style row headers in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

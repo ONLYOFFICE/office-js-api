@@ -1,8 +1,8 @@
-// This example shows how to get the tag attribute for the container.
+// Get the tag attribute for the container in a document.
 
-// How to get tag of the inline text control.
+// How to get tag of the inline text control in a document.
 
-// Display the tag of the inline content control.
+// Display the tag of the inline content control in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example demonstrates getting the priority of an icon set rule.
+// Get the priority of an icon set rule in a spreadsheet.
 
 // How to retrieve the evaluation priority of icon set conditional formatting.
 
-// Get the priority value of the icon set rule.
+// Get the priority value of the icon set rule in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

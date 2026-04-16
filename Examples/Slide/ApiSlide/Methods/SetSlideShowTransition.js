@@ -1,4 +1,8 @@
-// This example sets a slide show transition to a slide.
+// Set a slide show transition to a slide.
+
+// How do I set slide show transition in a presentation?
+
+// Set slide show transition using a slide object.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

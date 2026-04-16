@@ -1,8 +1,8 @@
-// This example shows how to convert a dollar price, expressed as a decimal number, into a dollar price, expressed as a fraction.
+// Convert a dollar price, expressed as a decimal number, into a dollar price, expressed as a fraction in a spreadsheet.
 
-// How to convert a dollar price from decimal to fraction.
+// How to convert a dollar price from decimal to fraction in a spreadsheet.
 
-// Use function to get fraction from decimal price.
+// Use function to get fraction from decimal price in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

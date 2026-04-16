@@ -1,4 +1,4 @@
-// This example shows how to check whether a reference to a cell contains a formula, and returns true or false. 
+// Check whether a reference to a cell contains a formula, and return true or false in a spreadsheet.
 
 // How to check if the cell contains formula or not.
 

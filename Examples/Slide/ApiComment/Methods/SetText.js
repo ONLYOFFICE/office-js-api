@@ -1,6 +1,6 @@
-// This example shows how to set a comment text.
+// Set a comment text in a presentation.
 
-// How to change a text of a comment.
+// How to change a text of a comment in a presentation.
 
 // Get all comments from the presentation and set its first one's text.
 

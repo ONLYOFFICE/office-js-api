@@ -1,4 +1,8 @@
-// This example demonstrates how to get the version of the current document.
+// Get the version of the current document in a document.
+
+// How to get the version for a core properties in a document?
+
+// Get the version and display the result in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

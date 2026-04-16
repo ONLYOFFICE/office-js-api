@@ -1,8 +1,8 @@
-// This example shows how to get element.
+// Get element in a PDF document.
 
 // How to get an element from the content of a page shape.
 
-// Find an element from the shape using its index.
+// Find an element from the shape using its index in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

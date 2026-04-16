@@ -1,8 +1,8 @@
-// This example applies a theme to all the slides in the presentation.
+// Apply a theme to all the slides in the presentation.
 
 // How to apply a theme to the presentation.
 
-// Create the ApiTheme object and apply it to the presentation.
+// Create the theme object and apply it to the presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

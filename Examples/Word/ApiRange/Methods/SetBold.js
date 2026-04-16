@@ -1,8 +1,8 @@
-// This example sets the bold property to the text character.
+// Set the bold property to the text character in a document.
 
-// How to make a range text bold.
+// How to make a range text bold in a document.
 
-// Update text properties of the range.
+// Update text properties of the range in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

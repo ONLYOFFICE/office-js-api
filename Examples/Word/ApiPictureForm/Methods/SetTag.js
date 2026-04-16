@@ -1,4 +1,9 @@
-// This example shows how to get the form tag.
+// Get the form tag in a document.
+
+// How do I set tag in a document?
+
+// Set tag using a picture form object.
+
 let doc = Api.GetDocument();
 let pictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false, "shiftX": 50, "shiftY": 50});
 pictureForm.SetTag("Personal");

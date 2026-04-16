@@ -1,6 +1,6 @@
-// This example demonstrates setting the negative bar border color of a data bar conditional formatting rule.
+// Set the negative bar border color of a data bar conditional formatting rule.
 
-// How to change the border color of negative value bars.
+// How to change the border color of negative value bars in a spreadsheet.
 
 // Set the negative bar border color of a data bar conditional formatting rule.
 

@@ -1,8 +1,8 @@
-// This example removes an element using the position specified.
+// Remove an element using the position specified in a document.
 
-// How to remove the element at the index from the paragraph.
+// How to remove the element at the index from the paragraph in a document.
 
-// Delete a third element from the paragraph.
+// Delete a third element from the paragraph in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

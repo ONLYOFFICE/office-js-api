@@ -1,8 +1,8 @@
-// This example demonstrates how to delete a custom XML part.
+// Delete a custom XML part in a spreadsheet.
 
-// How to delete a custom XML part from the workbook.
+// How to delete a custom XML part from the workbook in a spreadsheet.
 
-// Delete an XML part.
+// Delete an XML part using the custom XML part API in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let xmlManager = worksheet.GetCustomXmlParts();

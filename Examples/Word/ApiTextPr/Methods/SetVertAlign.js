@@ -1,8 +1,8 @@
-// This example specifies the alignment which will be applied to the contents of the current run in relation to the default appearance of the text run.
+// Specify the alignment which will be applied to the contents of the current run in relation to the default appearance of the text run in a document.
 
-// How to set vertical alignment of a text object.
+// How to set vertical alignment of a text object in a document.
 
-// Create a text run object, specify its vertical alignment as "baseline", "subscript" or "superscript".
+// Create a text run object, specify its vertical alignment as "baseline", "subscript" or "superscript" in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

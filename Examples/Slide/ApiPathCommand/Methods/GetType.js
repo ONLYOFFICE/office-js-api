@@ -1,5 +1,9 @@
-// Analyzes path commands of a star shape on a presentation slide.
-// Shows command count and first command details in a text shape.
+// Analyzes path commands of a star shape on a presentation slide. Shows command count and first command details in a text shape.
+
+// How to get the type for a path command in a presentation?
+
+// Get the type and display the result in a presentation.
+
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);
 let fill = Api.CreateSolidFill(Api.RGB(100, 150, 200));

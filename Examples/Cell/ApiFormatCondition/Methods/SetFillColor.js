@@ -1,4 +1,4 @@
-// This example sets the background color for a conditional formatting rule.
+// Set the background color for a conditional formatting rule.
 
 // How to apply background colors to conditional formatting rules.
 

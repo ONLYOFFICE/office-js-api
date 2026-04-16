@@ -1,4 +1,4 @@
-// This example gets the range where a conditional formatting rule applies.
+// Get the range where a conditional formatting rule applies.
 
 // How to retrieve the cell range of existing conditional formatting rules.
 

@@ -1,6 +1,6 @@
-// This example returns the text properties from the current form.
+// Return the text properties from the current form.
 
-// How to get the text properties of the current ApiCheckBoxForm object and change its font size.
+// How to get the text properties of the current checkbox form object and change its font size.
 
 // Make a checkbox form text italic.
 

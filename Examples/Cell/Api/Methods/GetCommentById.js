@@ -1,8 +1,8 @@
-// This example shows how to get a comment from the current document by its ID.
+// Get a comment from the current document by its ID in a spreadsheet.
 
-// How to get specific comment by its ID.
+// How to get specific comment by its ID in a spreadsheet.
 
-// Find a comment by its ID.
+// Find a comment by its ID in a spreadsheet.
 
 let comment = Api.AddComment("Comment", "Bob");
 let id = comment.GetId();

@@ -1,8 +1,8 @@
-// This example shows how to get a caption of a pivot item.
+// Get a caption of a pivot item in a spreadsheet.
 
-// How to get a pivot item's caption.
+// How to get a pivot item's caption in a spreadsheet.
 
-// Create a pivot table, add data to it then get a caption of a specified pivot item.
+// Create a pivot table, add data to it then get a caption of a specified pivot item in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

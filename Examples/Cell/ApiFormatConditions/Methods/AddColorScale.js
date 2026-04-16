@@ -1,4 +1,4 @@
-// This example adds color scale conditional formatting to a range.
+// Add color scale conditional formatting to a range.
 
 // How to add color scale conditional formatting rules to highlight cells with gradient colors.
 

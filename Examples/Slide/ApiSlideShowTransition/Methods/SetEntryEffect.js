@@ -1,4 +1,8 @@
-// This example sets the entry effect for a slide show transition.
+// Set the entry effect for a slide show transition.
+
+// How to set entry effect for a slide show transition?
+
+// Set entry effect and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

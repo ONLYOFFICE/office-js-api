@@ -1,8 +1,8 @@
-// This example shows how to return the yield of a security with an odd last period.
+// Return the yield of a security with an odd last period in a spreadsheet.
 
-// How to get the yield of a security with specified odd last period.
+// How to get the yield of a security with specified odd last period in a spreadsheet.
 
-// Use a function to return the yield of a security.
+// Use a function to return the yield of a security in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

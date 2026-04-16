@@ -1,4 +1,4 @@
-// This example sets background color of the slide.
+// Set background color of the slide.
 
 // How to change a background color of the slide.
 

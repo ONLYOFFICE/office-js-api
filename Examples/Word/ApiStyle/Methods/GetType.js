@@ -1,8 +1,8 @@
-// This example shows how to get a type of the current style.
+// Get a type of the current style in a document.
 
-// How to get type of the table style.
+// How to get type of the table style in a document.
 
-// Display the name of the table style.
+// Display the name of the table style in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.GetStyle("Bordered");

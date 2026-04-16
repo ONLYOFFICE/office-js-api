@@ -1,4 +1,9 @@
-// This example shows how to get the rotation angle of the drawing.
+// Get the rotation angle of the drawing in a spreadsheet.
+
+// How can I get the rotation using a drawing object in a spreadsheet?
+
+// Get the rotation for a drawing object in a spreadsheet.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

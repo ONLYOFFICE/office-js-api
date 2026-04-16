@@ -1,8 +1,8 @@
-// This example sets the paragraph left side indentation.
+// Set the paragraph left side indentation in a document.
 
-// How to set the indentation for the paragraph left side.
+// How to set the indentation for the paragraph left side in a document.
 
-// Create a new paragraph and set its left side indentation.
+// Create a new paragraph and set its left side indentation in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

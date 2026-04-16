@@ -1,4 +1,9 @@
-// This example checks if the current form is required.
+// Check if the current form is required.
+
+// How do I is required in a document?
+
+// Is required using a complex form object.
+
 let doc = Api.GetDocument();
 let complexForm = Api.CreateComplexForm({"key": "Complex1", "required": true});
 let paragraph = doc.GetElement(0);

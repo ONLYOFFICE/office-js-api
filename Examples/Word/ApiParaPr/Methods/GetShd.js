@@ -1,8 +1,8 @@
-// This example shows how to get the shading applied to the contents of the paragraph.
+// Get the shading applied to the contents of the paragraph in a document.
 
-// How to get the shading type of the paragraph.
+// How to get the shading type of the paragraph in a document.
 
-// Get the paragraph shading and fill the drawing with it.
+// Get the paragraph shading and fill the drawing with it in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

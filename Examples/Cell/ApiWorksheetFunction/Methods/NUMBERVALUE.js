@@ -1,8 +1,8 @@
-// This example shows how to convert text to a number, in a locale-independent way.
+// Convert text to a number, in a locale-independent way in a spreadsheet.
 
-// How to get a number from text.
+// How to get a number from text in a spreadsheet.
 
-// Use a function to convert a text to a number.
+// Use a function to convert a text to a number in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

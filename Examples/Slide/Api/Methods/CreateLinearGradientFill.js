@@ -1,8 +1,8 @@
-// This example creates a linear gradient fill to apply to the object using the selected linear gradient as the object background.
+// Create a linear gradient fill to apply to the object using the selected linear gradient as the object background in a presentation.
 
-// How to create a linear gradient fill to set it as a drawing background.
+// How to create a linear gradient fill to set it as a drawing background in a presentation.
 
-// Change a drawing background using gradient fill.
+// Change a drawing background using gradient fill in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

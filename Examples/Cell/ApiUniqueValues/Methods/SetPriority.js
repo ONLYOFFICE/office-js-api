@@ -1,8 +1,8 @@
-// This example demonstrates setting the priority of a unique values conditional formatting rule.
+// Set the priority of an unique values conditional formatting rule.
 
 // How to change the evaluation priority of unique values conditional formatting.
 
-// Set the priority value of the unique values rule.
+// Set the priority value of the unique values rule in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

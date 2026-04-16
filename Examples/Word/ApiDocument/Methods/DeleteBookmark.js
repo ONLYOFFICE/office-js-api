@@ -1,8 +1,8 @@
-// This example removes a bookmark from the document.
+// Remove a bookmark from the document.
 
-// How to delete a bookmark knowing its name.
+// How to delete a bookmark knowing its name in a document.
 
-// Remove the bookmark from the range.
+// Remove the bookmark from the range in a document.
 
 let doc = Api.GetDocument(); 
 let paragraph = doc.GetElement(0); 

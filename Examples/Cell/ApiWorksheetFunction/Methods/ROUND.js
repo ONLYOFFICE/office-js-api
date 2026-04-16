@@ -1,8 +1,8 @@
-// This example shows how to round a number to a specified number of digits.
+// Round a number to a specified number of digits in a spreadsheet.
 
-// How to round a number.
+// How to round a number in a spreadsheet.
 
-// Use a function to round a number to indicated number of digits.
+// Use a function to round a number to indicated number of digits in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

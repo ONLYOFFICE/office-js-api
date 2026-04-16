@@ -1,8 +1,8 @@
-// This example shows how to get the slide width in English measure units.
+// Get the slide width in English measure units in a presentation.
 
 // How to find a slide's width and display it on the slide.
 
-// Get a width of the ApiSlide object and show it in the slide.
+// Get a width of the slide object and show it in the slide.
 
 const presentation = Api.GetPresentation();
 presentation.SetSizes(254 * 36000, 190 * 36000);

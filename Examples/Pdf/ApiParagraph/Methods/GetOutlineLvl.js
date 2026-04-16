@@ -1,4 +1,8 @@
-// This example shows how to get the outline level of the specified paragraph.
+// Get the outline level of the specified paragraph in a PDF document.
+
+// How can I get the outline lvl using a paragraph in a PDF document?
+
+// Get the outline lvl for a paragraph in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

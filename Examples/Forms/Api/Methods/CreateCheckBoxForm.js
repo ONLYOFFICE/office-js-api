@@ -1,8 +1,8 @@
-// This example creates two radiobuttons and the checkbox.
+// Create two radiobuttons and the checkbox in a form document.
 
 // How to create a radiobutton or a checkbox form and add it to the paragraph.
 
-// Add two radiobuttons and the checkbox to the ApiDocument object.
+// Add two radiobuttons and the checkbox to the document object.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

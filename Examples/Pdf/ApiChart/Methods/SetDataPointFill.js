@@ -1,6 +1,8 @@
-// How to color a data point.
+// How to color a data point in a PDF document.
 
-// Create a chart then color its data points.
+// Create a chart then color its data points in a PDF document.
+
+// Set data point fill using a chart object in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

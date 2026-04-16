@@ -1,4 +1,8 @@
-// This example gets the entry effect from a slide show transition.
+// Get the entry effect from a slide show transition.
+
+// How do I get the entry effect in a presentation?
+
+// Get the entry effect using a slide show transition object.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

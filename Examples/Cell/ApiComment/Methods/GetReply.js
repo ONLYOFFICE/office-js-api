@@ -1,6 +1,6 @@
-// This example shows how to get the specified comment reply.
+// Get the specified comment reply in a spreadsheet.
 
-// How to get a reply to the comment.
+// How to get a reply to the comment in a spreadsheet.
 
 // Add a cooment reply text to a range of the worksheet.
 

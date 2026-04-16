@@ -1,8 +1,8 @@
-// This example shows how to get an array of ApiComment objects.
+// Get an array of comment objects in a spreadsheet.
 
-// How to get an array of comments.
+// How to get an array of comments in a spreadsheet.
 
-// Get all comments as an array.
+// Get all comments as an array in a spreadsheet.
 
 Api.AddComment("Comment 1", "Bob");
 Api.AddComment("Comment 2", "Bob");

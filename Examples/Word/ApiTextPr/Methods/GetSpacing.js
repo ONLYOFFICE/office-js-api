@@ -1,8 +1,8 @@
-// This example finds out the current form spacing value.
+// Find out the current form spacing value.
 
-// How to find out th text spacing.
+// How to find out th text spacing in a document.
 
-// Get the property of the text that shows the size of spacing.
+// Get the property of the text that shows the size of spacing in a document.
 
 let doc = Api.GetDocument();
 let myNewRunStyle = doc.CreateStyle("My New Run Style", "run");

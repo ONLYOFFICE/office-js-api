@@ -1,8 +1,8 @@
-// This example adds a column break to the run position and starts the next element from a new column.
+// Add a column break to the run position and start the next element from a new column in a document.
 
-// How to add a column break between the text.
+// How to add a column break between the text in a document.
 
-// Add text to the text run and separate it with a column break.
+// Add text to the text run and separate it with a column break in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

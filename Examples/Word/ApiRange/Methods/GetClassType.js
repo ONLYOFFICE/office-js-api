@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Check the class type returned by a cell range.
 
-// How to get a class type of ApiRange.
+// How do I check what type a cell range object is?
 
-// Retrieve class type of ApiRange object and insert it to the document.
+// Retrieve and output the class type string for a cell range.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

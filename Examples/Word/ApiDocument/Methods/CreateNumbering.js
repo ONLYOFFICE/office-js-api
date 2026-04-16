@@ -1,8 +1,8 @@
-// This example creates an abstract multilevel numbering with a "bullet" type.
+// Create an abstract multilevel numbering with a "bullet" type in a document.
 
-// How to add a paragraph with numbering.
+// How to add a paragraph with numbering in a document.
 
-// Add a text to the paragraph, make it bulleted.
+// Add a text to the paragraph, make it bulleted in a document.
 
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("bullet");

@@ -1,4 +1,8 @@
-// This example shows how to create a theme color and use it as a shape fill.
+// Create a theme color and use it as a shape fill in a presentation.
+
+// How to theme color in a presentation?
+
+// Theme color using the presentation API.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

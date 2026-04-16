@@ -1,4 +1,4 @@
-// This example shows how to convert the slides from the current ApiPresentation object into the JSON objects.
+// Convert the slides from the current presentation object into the JSON objects in a presentation.
 
 // How to convert slides to JSON objects.
 

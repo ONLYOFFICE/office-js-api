@@ -1,8 +1,8 @@
-// This example adds a tab stop to the paragraph.
+// Add a tab stop to the paragraph in a spreadsheet.
 
-// How to insert a text separated by a tab.
+// How to insert a text separated by a tab in a spreadsheet.
 
-// Get the paragraph from the shape and add two sentences separated by three tabs.
+// Get the paragraph from the shape and add two sentences separated by three tabs in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

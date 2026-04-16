@@ -1,9 +1,8 @@
-// This example unselects the current graphic object.
+// Unselects the current graphic object in a presentation.
 
 // How to unselect drawing objects of the slide.
 
-// Create three shapes, select all of them,
-// then unselect the second shape.
+// Create three shapes, select all of them, then unselect the second shape in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

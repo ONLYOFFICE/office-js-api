@@ -1,8 +1,8 @@
-// This example sets the bold property to the text character.
+// Set the bold property to the text character in a PDF document.
 
-// How to make a text bold.
+// How to make a text bold in a PDF document.
 
-// Create a new text run and set it bold.
+// Create a new text run and set it bold in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

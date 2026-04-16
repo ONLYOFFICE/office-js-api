@@ -1,4 +1,8 @@
-// This example shows how to get current selection
+// Get current selection in a presentation.
+
+// How can I get the selection in a presentation?
+
+// Get the selection in a presentation.
 
 const presentation = Api.GetPresentation();
 

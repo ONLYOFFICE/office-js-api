@@ -1,4 +1,8 @@
-// This example shows how to delete the checkbox form.
+// Delete the checkbox form in a document.
+
+// How can I delete using a checkbox form in a document?
+
+// Delete for a checkbox form in a document.
 
 const doc = Api.GetDocument();
 const checkBoxForm = Api.CreateCheckBoxForm({

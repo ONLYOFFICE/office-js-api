@@ -1,4 +1,8 @@
-// This example shows how to get all slides from current presentation.
+// Get all slides from current presentation in a presentation.
+
+// How to get all slides for a presentation?
+
+// Get all slides and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const firstSlide = presentation.GetSlideByIndex(0);

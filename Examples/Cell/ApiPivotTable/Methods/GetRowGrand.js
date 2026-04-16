@@ -1,8 +1,8 @@
-// This example shows how to get row grand of a pivot table.
+// Get row grand of a pivot table in a spreadsheet.
 
-// How to get table row grand.
+// How to get table row grand in a spreadsheet.
 
-// Create a pivot table, add data to it then get its row grand.
+// Create a pivot table, add data to it then get its row grand in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

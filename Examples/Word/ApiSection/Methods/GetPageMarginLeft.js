@@ -1,6 +1,8 @@
-// This example specifies the page margins for all the pages in this section and returns it back.
+// Specify the page margins for all the pages in this section and return it back.
 
 // How to get left page margin.
+
+// Use section to get the page margin left.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,4 +1,4 @@
-// This example checks if the current form is fixed size.
+// Check if the current form is fixed size.
 
 // How to know whether the checkbox form is fixed.
 

@@ -1,8 +1,8 @@
-// This example sets the text spacing measured in twentieths of a point.
+// Set the text spacing measured in twentieths of a point in a spreadsheet.
 
-// How to set the text spacing size.
+// How to set the text spacing size in a spreadsheet.
 
-// Create a text run object, update its spacing.
+// Create a text run object, update its spacing in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

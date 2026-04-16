@@ -1,4 +1,4 @@
-// This example shows how to set a comment time in UTC.
+// Set a comment time in UTC in a presentation.
 
 // How to change a creation time of a comment in UTC format.
 

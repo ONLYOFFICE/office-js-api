@@ -1,4 +1,4 @@
-// This example sets the number format for the top 10 conditional formatting rule.
+// Set the number format for the top 10 conditional formatting rule.
 
 // How to apply number format to conditional formatting rules.
 

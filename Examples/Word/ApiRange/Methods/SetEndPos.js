@@ -1,8 +1,8 @@
-// This example sets the end position of a given range object.
+// Set the end position of a given range object in a document.
 
-// Get the end index of the range and display it.
+// Get the end index of the range and display it in a document.
 
-// Retrieve a range of the paragraph and show its last position.
+// Retrieve a range of the paragraph and show its last position in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

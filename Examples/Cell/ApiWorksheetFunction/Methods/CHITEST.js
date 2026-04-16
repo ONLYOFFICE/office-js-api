@@ -1,8 +1,8 @@
-// This example shows how to return the test for independence: the value from the chi-squared distribution for the statistic and the appropriate degrees of freedom.
+// Return the test for independence: the value from the chi-squared distribution for the statistic and the appropriate degrees of freedom in a spreadsheet.
 
-// How to return the value from the chi-squared distribution for the statistic and the appropriate degrees of freedom.
+// How to return the value from the chi-squared distribution for the statistic and the appropriate degrees of freedom in a spreadsheet.
 
-// Use function to return the value from the chi-squared distribution for the statistic and the appropriate degrees of freedom.
+// Use function to return the value from the chi-squared distribution for the statistic and the appropriate degrees of freedom in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

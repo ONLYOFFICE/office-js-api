@@ -1,8 +1,8 @@
-// This example shows how to return the least common multiple.
+// Return the least common multiple in a spreadsheet.
 
-// How to find the least common multiple from the list of numbers.
+// How to find the least common multiple from the list of numbers in a spreadsheet.
 
-// Use a function to find out the least common multiple.
+// Use a function to find out the least common multiple in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

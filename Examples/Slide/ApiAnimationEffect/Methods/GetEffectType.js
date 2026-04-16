@@ -1,4 +1,8 @@
-// This example gets the effect type of an animation effect.
+// Get the effect type of an animation effect in a presentation.
+
+// How to get the effect type for an animation effect in a presentation?
+
+// Get the effect type and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

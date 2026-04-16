@@ -1,6 +1,6 @@
-// This example converts the table object into the JSON object.
+// Convert the table object into the JSON object in a presentation.
 
-// How to get JSON object from the table.
+// How to get JSON object from the table in a presentation.
 
 // Get a slide by its index, convert its table to JSON and create another one from the JSON.
 

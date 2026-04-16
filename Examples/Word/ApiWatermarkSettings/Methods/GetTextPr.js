@@ -1,8 +1,8 @@
-// This example sets the parameters of the watermark settings and apply them to the document.
+// Set the parameters of the watermark settings and apply them to the document.
 
 // How to retrieve the text properties from the watermark and display it in the document.
 
-// Get the text properties from the watermark settings.
+// Get the text properties from the watermark settings in a document.
 
 let doc = Api.GetDocument();
 let watermarkSettings = doc.GetWatermarkSettings();

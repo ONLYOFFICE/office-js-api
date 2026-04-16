@@ -1,8 +1,8 @@
-// This example gets an outline property of a text.
+// Get an outline property of a text in a spreadsheet.
 
-// How to find out whether a text is outlined or not.
+// How to find out whether a text is outlined or not in a spreadsheet.
 
-// Get a text outline property type, for example as a stroke.
+// Get a text outline property type, for example as a stroke in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

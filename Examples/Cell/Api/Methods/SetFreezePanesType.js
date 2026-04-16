@@ -1,8 +1,8 @@
-// This example freezes first column and get pastes a freezed range address into the table.
+// Freeze first column and get pastes a freezed range address into the table in a spreadsheet.
 
-// How to freeze a column and get its address.
+// How to freeze a column and get its address in a spreadsheet.
 
-// Insert address of freezed columns into a range.
+// Insert address of freezed columns into a range in a spreadsheet.
 
 Api.SetFreezePanesType('column');
 let worksheet = Api.GetActiveSheet();

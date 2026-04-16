@@ -1,6 +1,6 @@
-// This example shows how to get the timestamp of the comment creation in the current time zone format.
+// Get the timestamp of the comment creation in the current time zone format in a document.
 
-// How to know when a comment was added.
+// How to know when a comment was added in a document.
 
 // Get all comments from the presentation and the first one's time of creation.
 

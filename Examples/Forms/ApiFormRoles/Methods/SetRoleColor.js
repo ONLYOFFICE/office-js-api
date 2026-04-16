@@ -1,4 +1,9 @@
-// This example shows how to change the color of role.
+// Change the color of role in a form document.
+
+// How to set role color for a form roles?
+
+// Set role color and display the result in a form document.
+
 let doc = Api.GetDocument();
 let roles = doc.GetFormRoles();
 roles.Add("Customer");

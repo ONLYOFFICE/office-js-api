@@ -1,4 +1,8 @@
-// This example demonstrates how to set the content status of the current workbook using the ApiCore.
+// Set the content status of the current workbook using the core properties in a spreadsheet.
+
+// How to set content status for a core properties in a spreadsheet?
+
+// Set content status and display the result in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

@@ -1,4 +1,8 @@
-// This example selects the current slide.
+// Select the current slide.
+
+// How to select for a slide?
+
+// Select and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide1 = presentation.GetSlideByIndex(0);

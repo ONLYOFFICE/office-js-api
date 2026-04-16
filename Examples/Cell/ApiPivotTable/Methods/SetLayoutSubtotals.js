@@ -1,8 +1,8 @@
-// This example shows how to set layout subtotals of a table.
+// Set layout subtotals of a table in a spreadsheet.
 
-// How to set subtotals of a table.
+// How to set subtotals of a table in a spreadsheet.
 
-// Create a pivot table, add data to it then set subtotals using a boolean value.
+// Create a pivot table, add data to it then set subtotals using a boolean value in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

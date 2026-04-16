@@ -1,8 +1,8 @@
-// This example shows how to get a set of the text run properties which will be applied to all the text runs within the table which match the conditional formatting type.
+// Get a set of the text run properties which will be applied to all the text runs within the table which match the conditional formatting type.
 
-// How to get text properties of the table style and make it bold.
+// How to get text properties of the table style and make it bold in a document.
 
-// Make the table text bold.
+// Make the table text bold in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

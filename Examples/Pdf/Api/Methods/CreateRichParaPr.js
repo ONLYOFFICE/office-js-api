@@ -1,4 +1,9 @@
-// How to create a paragraph properties and set it for rich paragraph.
+// How to create a paragraph properties and set it for rich paragraph in a PDF document.
+
+// How to create the rich para pr in a PDF document?
+
+// Create the rich para pr using the PDF document API.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

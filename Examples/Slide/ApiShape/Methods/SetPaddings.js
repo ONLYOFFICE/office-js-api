@@ -1,8 +1,8 @@
-// This example sets the text paddings to the current shape.
+// Set the text paddings to the current shape in a presentation.
 
-// How to update paddings of the drawing.
+// How to update paddings of the drawing in a presentation.
 
-// Create a shape and set its paddings.
+// Create a shape and set its paddings in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

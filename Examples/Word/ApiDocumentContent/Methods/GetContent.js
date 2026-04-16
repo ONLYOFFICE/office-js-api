@@ -1,4 +1,4 @@
-// This example shows how to get an array of document elements from the document content.
+// Get an array of document elements from the document content in a document.
 
 // Retrieve each document element.
 

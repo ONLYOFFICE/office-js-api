@@ -1,8 +1,8 @@
-// This example checks whether the drawing is flipped horizontally.
+// Check whether the drawing is flipped horizontally in a spreadsheet.
 
-// How to get the horizontal flip property of the shape.
+// How to get the horizontal flip property of the shape in a spreadsheet.
 
-// Create a drawing and read its horizontal flip value.
+// Create a drawing and read its horizontal flip value in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

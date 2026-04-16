@@ -1,8 +1,8 @@
-// This example shows how to get a content control that contains the table.
+// Get a content control that contains the table in a document.
 
-// How to get the parent element of the table and set its alias.
+// How to get the parent element of the table and set its alias in a document.
 
-// Retrieve the parent content control of the table.
+// Retrieve the parent content control of the table in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

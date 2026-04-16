@@ -1,8 +1,8 @@
-// This example shows how to return the inverse of the lognormal cumulative distribution function of x, where ln(x) is normally distributed with the specified parameters.
+// Return the inverse of the lognormal cumulative distribution function of x, where ln(x) is normally distributed with the specified parameters in a spreadsheet.
 
-// How to get the lognormal cumulative distribution function of x.
+// How to get the lognormal cumulative distribution function of x in a spreadsheet.
 
-// Use a function to return the lognormal cumulative distribution function.
+// Use a function to return the lognormal cumulative distribution function in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

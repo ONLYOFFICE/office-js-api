@@ -1,6 +1,6 @@
-// This example removes the layouts from the current slide master.
+// Remove the layouts from the current slide master.
 
-// How to delete layout from a master.
+// How to delete layout from a master in a presentation.
 
 // Delete a slide master layout.
 

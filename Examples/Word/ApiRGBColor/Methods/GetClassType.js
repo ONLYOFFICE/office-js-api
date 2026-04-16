@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Find out the class type of a RGB color object in a document.
 
-// How to get a class type of ApiRGBColor.
+// How can I get the class type of a RGB color in a document?
 
-// Retrieve class type of ApiRGBColor object and insert it to the document.
+// Get the class type of a RGB color and display it in the document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

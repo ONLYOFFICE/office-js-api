@@ -1,8 +1,8 @@
-// This example sets the fill to the specified chart series.
+// Set the fill to the specified chart series in a spreadsheet.
 
-// How to color chart series.
+// How to color chart series in a spreadsheet.
 
-// Add background solid fill color for a chart seria.
+// Add background solid fill color for a chart seria in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

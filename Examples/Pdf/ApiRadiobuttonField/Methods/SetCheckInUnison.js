@@ -1,4 +1,9 @@
-// This example sets radiobutton field check in unison property.
+// Set radiobutton field check in unison property in a PDF document.
+
+// How to set check in unison for a radio button field in a PDF document?
+
+// Set check in unison and display the result in a PDF document.
+
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 let radiobuttonField = Api.CreateRadiobuttonField([10, 10, 25, 25]);

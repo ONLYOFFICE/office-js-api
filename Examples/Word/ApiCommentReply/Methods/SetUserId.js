@@ -1,6 +1,6 @@
-// This example sets the user ID to the comment reply author.
+// Set the user ID to the comment reply author in a document.
 
-// How to change a user ID of a comment reply.
+// How to change an user ID of a comment reply in a document.
 
 // Get all comments from the presentation and change its first one's reply user ID.
 

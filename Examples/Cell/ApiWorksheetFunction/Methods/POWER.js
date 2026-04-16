@@ -1,8 +1,8 @@
-// This example shows how to return the result of a number raised to a power.
+// Return the result of a number raised to a power in a spreadsheet.
 
-// How to raise a number to a power.
+// How to raise a number to a power in a spreadsheet.
 
-// Use a function to calculate the result after raising a number to the power.
+// Use a function to calculate the result after raising a number to the power in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

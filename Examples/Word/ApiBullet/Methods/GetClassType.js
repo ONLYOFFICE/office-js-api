@@ -1,8 +1,8 @@
-// This example gets a type of ApiBullet class and inserts it into the document.
+// Find out the class type of a bullet object in a document.
 
-// How to get a ApiBullet class type name.
+// How can I get the class type of a bullet in a document?
 
-// Create a bullet and then display its class type.
+// Get the class type of a bullet and display it in the document.
 
 let doc = Api.GetDocument();
 let bullet = Api.CreateBullet("- ");

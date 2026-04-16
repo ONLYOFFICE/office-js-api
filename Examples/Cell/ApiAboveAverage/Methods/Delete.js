@@ -1,4 +1,4 @@
-// This example shows how to delete an above average conditional formatting rule.
+// Delete an above average conditional formatting rule in a spreadsheet.
 
 // How to remove above average conditional formatting from a range.
 

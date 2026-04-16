@@ -1,8 +1,8 @@
-// This example sets the paragraph first line indentation.
+// Set the paragraph first line indentation in a PDF document.
 
-// How to set a size of the first line indentation using a paragraph properties.
+// How to set a size of the first line indentation using a paragraph properties in a PDF document.
 
-// Create a paragraph setting its first line indentation.
+// Create a paragraph setting its first line indentation in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

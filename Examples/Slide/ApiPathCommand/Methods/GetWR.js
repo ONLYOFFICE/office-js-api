@@ -1,5 +1,9 @@
-// Analyzes arc command parameters in a presentation shape.
-// Retrieves and displays arc radii and angle information.
+// Analyzes arc command parameters in a presentation shape. Retrieves and display arc radii and angle information.
+
+// How can I get the w r using a path command in a presentation?
+
+// Get the w r for a path command in a presentation.
+
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);
 let customGeometry = Api.CreateCustomGeometry();

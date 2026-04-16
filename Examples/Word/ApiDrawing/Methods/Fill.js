@@ -1,8 +1,8 @@
-// This example sets the fill formatting properties to the current graphic object.
+// Set the fill formatting properties to the current graphic object.
 
-// How to color a drawing with a radiant fill.
+// How to color a drawing with a radiant fill in a document.
 
-// Change the background color of the shape.
+// Change the background color of the shape in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example creates a copy of the table.
+// Create a copy of the table in a document.
 
-// How to create identical table.
+// How to create identical table in a document.
 
-// Get a table object and create a copy of it.
+// Get a table object and create a copy of it in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

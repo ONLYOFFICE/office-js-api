@@ -1,8 +1,8 @@
-// This example shows how to get the rank value for top 10 condition.
+// Get the rank value for top 10 condition in a spreadsheet.
 
-// How to retrieve the number of top or bottom values to highlight in the condition.
+// How to retrieve the number of top or bottom values to highlight in the condition in a spreadsheet.
 
-// Get the rank value for the top 10 rule.
+// Get the rank value for the top 10 rule in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// This example sets the fill to the chart legend.
+// Set the fill to the chart legend in a presentation.
 
-// How to color a chart legend.
+// How to color a chart legend in a presentation.
 
-// Create a chart, set its properties and background color of a legend.
+// Create a chart, set its properties and background color of a legend in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

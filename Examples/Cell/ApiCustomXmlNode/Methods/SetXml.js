@@ -1,4 +1,8 @@
-// This example shows how to replace the XML content of a custom XML node.
+// Replace the XML content of a custom XML node in a spreadsheet.
+
+// How can I set xml using a custom XML node in a spreadsheet?
+
+// Set xml for a custom XML node in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const xmlManager = worksheet.GetCustomXmlParts();

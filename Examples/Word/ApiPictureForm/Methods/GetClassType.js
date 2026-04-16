@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Check the class type returned by a picture form.
 
-// How to get a class type of ApiPictureForm.
+// How do I check what type a picture form object is?
 
-// Retrieve class type of ApiPictureForm object and insert it to the document.
+// Retrieve and output the class type string for a picture form.
 
 let doc = Api.GetDocument();
 let pictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false, "shiftX": 50, "shiftY": 50});

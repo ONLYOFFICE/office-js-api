@@ -1,4 +1,9 @@
-// This example gets font family property from rich text properties object.
+// Get font family property from rich text properties object in a PDF document.
+
+// How do I get the font family in a PDF document?
+
+// Get the font family using a rich text properties object in a PDF document.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

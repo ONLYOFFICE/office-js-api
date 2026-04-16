@@ -1,4 +1,4 @@
-// This example checks if the current form is locked.
+// Check if the current form is locked.
 
 // How to know whether a form is locked or not.
 

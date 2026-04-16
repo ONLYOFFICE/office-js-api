@@ -1,4 +1,4 @@
-// This example shows how to get the highlight property of the text.
+// Get the highlight property of the text in a document.
 
 // How to know the highlight type of the form.
 

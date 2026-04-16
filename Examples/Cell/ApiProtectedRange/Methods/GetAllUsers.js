@@ -1,8 +1,8 @@
-// This example gets all users of a protected range.
+// Get all users of a protected range in a spreadsheet.
 
-// How to get an array of users of a protected range.
+// How to get an array of users of a protected range in a spreadsheet.
 
-// Get an active sheet, add protected range to it and diplay its first user. 
+// Get an active sheet, add protected range to it and diplay its first user in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

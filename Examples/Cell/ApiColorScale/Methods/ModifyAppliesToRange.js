@@ -1,8 +1,8 @@
-// This example modifies the range to which color scale formatting applies.
+// Modify the range to which color scale formatting applies.
 
 // How to change the target range for color scale conditional formatting.
 
-// Modify color scale range.
+// Modify color scale range in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

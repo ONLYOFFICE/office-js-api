@@ -1,8 +1,8 @@
-// This example shows how to return the sine of a complex number.
+// Return the sine of a complex number in a spreadsheet.
 
-// How to get the sine.
+// How to get the sine in a spreadsheet.
 
-// Use a function to get the sine of a complex number.
+// Use a function to get the sine of a complex number in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

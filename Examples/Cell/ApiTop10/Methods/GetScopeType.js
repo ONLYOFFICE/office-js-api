@@ -1,8 +1,8 @@
-// This example gets the scope type of the top 10 conditional formatting rule.
+// Get the scope type of the top 10 conditional formatting rule.
 
 // How to retrieve the scope of conditional formatting rules.
 
-// Get top 10 rule scope type.
+// Get top 10 rule scope type in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

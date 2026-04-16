@@ -1,8 +1,8 @@
-// This example show how to create a group.
+// Show how to create a group in a presentation.
 
-// How to create a group of drawings.
+// How to create a group of drawings in a presentation.
 
-// Group the specified list of shapes.
+// Group the specified list of shapes in a presentation.
 
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// This example clears the active filter and shows all rows in the AutoFilter range.
+// Clear the active filter and show all rows in the AutoFilter range in a spreadsheet.
 
-// How to temporarily show all data while keeping the filter drop-downs.
+// How to temporarily show all data while keeping the filter drop-downs in a spreadsheet.
 
-// Remove filter criteria using ApiAutoFilter.ShowAllData().
+// Remove filter criteria using ApiAutoFilter.ShowAllData() in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

@@ -1,6 +1,8 @@
-// How to color a chart seria.
+// How to color a chart seria in a PDF document.
 
-// Create a chart, set its properties and its series background.
+// Create a chart, set its properties and its series background in a PDF document.
+
+// Set series fill using a chart object in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

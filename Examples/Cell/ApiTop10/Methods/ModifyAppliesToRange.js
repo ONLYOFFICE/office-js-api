@@ -1,8 +1,8 @@
-// This example modifies the range where a top 10 conditional formatting rule applies.
+// Modify the range where a top 10 conditional formatting rule applies.
 
 // How to change the cell range for existing conditional formatting rules.
 
-// Modify top 10 rule application range.
+// Modify top 10 rule application range in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

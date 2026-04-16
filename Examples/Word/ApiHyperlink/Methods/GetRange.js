@@ -1,8 +1,8 @@
-// This example shows how to get a Range object that represents the document part contained in the specified hyperlink.
+// Get a Range object that represents the document part contained in the specified hyperlink in a document.
 
-// Get the range where the hyperlink is located.
+// Get the range where the hyperlink is located in a document.
 
-// Make the hyperlink range bold.
+// Make the hyperlink range bold in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

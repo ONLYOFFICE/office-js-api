@@ -1,5 +1,9 @@
-// Creates adjustable geometry with guides and connection points for a presentation.
-// Displays adjustment value and applies custom geometry to shape.
+// Create adjustable geometry with guides and connection points for a presentation. Displays adjustment value and apply custom geometry to shape.
+
+// How do I add the connection point in a presentation?
+
+// Add the connection point using a geometry object in a presentation.
+
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);
 let customGeometry = Api.CreateCustomGeometry();

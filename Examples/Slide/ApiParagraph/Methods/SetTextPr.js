@@ -1,4 +1,8 @@
-// This example sets the paragraph text properties.
+// Set the paragraph text properties in a presentation.
+
+// How to set text pr for a paragraph in a presentation?
+
+// Set text pr and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

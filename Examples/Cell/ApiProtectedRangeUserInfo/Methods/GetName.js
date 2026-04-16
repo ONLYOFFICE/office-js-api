@@ -1,8 +1,8 @@
-// This example gets name of a protected range user.
+// Get name of a protected range user in a spreadsheet.
 
-// How to get a user info of a protected range and show its name.
+// How to get an user info of a protected range and show its name in a spreadsheet.
 
-// Get a user name of a protected range and add it to the worksheet.
+// Get an user name of a protected range and add it to the worksheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.AddProtectedRange("protectedRange", "$A$1:$B$1").AddUser("userId", "name", "CanView");

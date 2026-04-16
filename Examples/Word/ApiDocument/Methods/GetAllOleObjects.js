@@ -1,8 +1,8 @@
-// This example showh how to get a collection of OLE objects from the document.
+// Showh how to get a collection of OLE objects from the document.
 
 // Get all OLE objects added to the document.
 
-// How to retrieve all OLE objects and display the application ID of the first one.
+// How to retrieve all OLE objects and display the application ID of the first one in a document.
 
 let doc = Api.GetDocument();
 let oleObject = Api.CreateOleObject(

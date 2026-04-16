@@ -1,8 +1,8 @@
-// This example specifies the horizontal axis orientation.
+// Specify the horizontal axis orientation in a presentation.
 
-// How to set an orientation of horizontal axis.
+// How to set an orientation of horizontal axis in a presentation.
 
-// Create a chart, set its properties and its horizontal axis orientation.
+// Create a chart, set its properties and its horizontal axis orientation in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

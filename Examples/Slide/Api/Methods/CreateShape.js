@@ -1,8 +1,8 @@
-// This example creates a shape using the 'flowChartMagneticTape' preset.
+// Create a shape using the 'flowChartMagneticTape' preset in a presentation.
 
-// How to add a new flowchart shape.
+// How to add a new flowchart shape in a presentation.
 
-// Add a new shape indicating its properties.
+// Add a new shape indicating its properties in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

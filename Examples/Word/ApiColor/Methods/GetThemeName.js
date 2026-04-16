@@ -1,4 +1,8 @@
-// This example shows how to get the theme color name of an ApiColor object.
+// Get the theme color name of an color object in a document.
+
+// How do I get the theme name in a document?
+
+// Get the theme name using a color object in a document.
 
 const doc = Api.GetDocument();
 const paragraph = doc.GetElement(0);

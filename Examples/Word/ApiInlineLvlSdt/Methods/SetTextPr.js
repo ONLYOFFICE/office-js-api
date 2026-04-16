@@ -1,8 +1,8 @@
-// This example applies text settings to the content of the content control.
+// Apply text settings to the content of the content control in a document.
 
-// How to set text properties for the inline content control.
+// How to set text properties for the inline content control in a document.
 
-// Display the text properties set for inline text element.
+// Display the text properties set for inline text element in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

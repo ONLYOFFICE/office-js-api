@@ -1,4 +1,8 @@
-// This example shows how to create a theme-color and use it as a font color.
+// Create a theme-color and use it as a font color in a document.
+
+// How can I theme color in a document?
+
+// Theme color in a document.
 
 const doc = Api.GetDocument();
 const color = Api.ThemeColor('accent6');

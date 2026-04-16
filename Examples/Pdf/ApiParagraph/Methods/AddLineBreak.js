@@ -1,8 +1,8 @@
-// This example adds a line break to the current position and starts the next element from a new line.
+// Add a line break to the current position and start the next element from a new line in a PDF document.
 
-// How to add a line break after a sentence in a paragraph.
+// How to add a line break after a sentence in a paragraph in a PDF document.
 
-// How to split a text with a line break.
+// How to split a text with a line break in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

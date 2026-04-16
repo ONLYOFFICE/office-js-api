@@ -1,8 +1,8 @@
-// This example converts the ApiGradientStop object into the JSON object.
+// Convert the gradient stop object into the JSON object in a document.
 
-// How to get a JSON object from the gradient stop object.
+// How to get a JSON object from the gradient stop object in a document.
 
-// Convert the radial gradient stop object to json and add it to the paragraph.
+// Convert the radial gradient stop object to json and add it to the paragraph in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

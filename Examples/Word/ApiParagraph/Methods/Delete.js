@@ -1,8 +1,8 @@
-// This example deletes the paragraph.
+// Delete the paragraph in a document.
 
-// How to remove the paragraph.
+// How to remove the paragraph in a document.
 
-// Create two paragraphs and delete the second one.
+// Create two paragraphs and delete the second one in a document.
 
 let doc = Api.GetDocument();
 let paragraph1 = doc.GetElement(0);

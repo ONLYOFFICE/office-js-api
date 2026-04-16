@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Find out the class type of a comment object in a document.
 
-// How to get a class type of ApiComment.
+// How can I get the class type of a comment in a document?
 
-// Retrieve class type of ApiComment object and insert it to the slide.
+// Get the class type of a comment and display it in the document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

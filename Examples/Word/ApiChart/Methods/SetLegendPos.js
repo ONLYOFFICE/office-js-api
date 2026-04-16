@@ -1,8 +1,8 @@
-// This example specifies the chart legend position.
+// Specify the chart legend position in a document.
 
-// How to set legend position of the chart.
+// How to set legend position of the chart in a document.
 
-// Create a chart and move its legend to the bottom.
+// Create a chart and move its legend to the bottom in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

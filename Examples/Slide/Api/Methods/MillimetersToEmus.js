@@ -1,4 +1,8 @@
-// This example shows how to convert millimeters to emus.
+// Convert millimeters to emus in a presentation.
+
+// How to convert millimeters to emus in a presentation?
+
+// Convert millimeters to emus using the presentation API.
 
 const millimeters = 0.2001;
 const emus = Api.MillimetersToEmus(millimeters);

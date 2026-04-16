@@ -1,8 +1,8 @@
-// This example shows how to get the default style parameters for the specified document element.
+// Get the default style parameters for the specified document element in a document.
 
 // How to get default style of a document element indicating its name.
 
-// Update the default style of the paragraph element.
+// Update the default style of the paragraph element in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

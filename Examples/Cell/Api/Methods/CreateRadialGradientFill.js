@@ -1,8 +1,8 @@
-// This example creates a radial gradient fill to apply to the object using the selected radial gradient as the object background.
+// Create a radial gradient fill to apply to the object using the selected radial gradient as the object background in a spreadsheet.
 
-// How to set a radial gradient background for a shape.
+// How to set a radial gradient background for a shape in a spreadsheet.
 
-// Add a shape with a radial gradient color.
+// Add a shape with a radial gradient color in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let gs1 = Api.CreateGradientStop(Api.RGB(255, 213, 191), 0);

@@ -1,4 +1,8 @@
-// This example shows how to create a color in RGB format and use it as a shape fill.
+// Create a color in RGB format and use it as a shape fill in a spreadsheet.
+
+// How can I r g b in a spreadsheet?
+
+// R g b and display the result in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const color = Api.RGB(186, 218, 85);

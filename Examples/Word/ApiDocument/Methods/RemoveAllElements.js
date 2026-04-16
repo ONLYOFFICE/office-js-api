@@ -1,8 +1,8 @@
-// This example removes all the elements from the current document or from the current document element.
+// Remove all the elements from the current document or from the current document element.
 
 // How to clear all elements from the document.
 
-// Make the document empty.
+// Remove all elements for a document in a document.
 
 let doc = Api.GetDocument();
 doc.RemoveAllElements();

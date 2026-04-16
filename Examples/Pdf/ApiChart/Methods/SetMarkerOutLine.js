@@ -1,6 +1,8 @@
-// How to set an outline to the marker.
+// How to set an outline to the marker in a PDF document.
 
-// Create a chart, set its properties and its marker outline.
+// Create a chart, set its properties and its marker outline in a PDF document.
+
+// Set marker out line for a chart in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

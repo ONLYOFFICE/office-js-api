@@ -1,4 +1,8 @@
-// This example demonstrates how to set and get the name of the last user who modified the current presentation.
+// Set and get the name of the last user who modified the current presentation in a presentation.
+
+// How can I get last modified by using a core properties in a presentation?
+
+// Get last modified by for a core properties in a presentation.
 
 const presentation = Api.GetPresentation();
 const core = presentation.GetCore();

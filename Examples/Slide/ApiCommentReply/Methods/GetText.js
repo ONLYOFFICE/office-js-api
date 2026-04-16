@@ -1,6 +1,6 @@
-// This example shows how to get text of a comment reply.
+// Get text of a comment reply in a presentation.
 
-// How to get a raw text of a comment reply.
+// How to get a raw text of a comment reply in a presentation.
 
 // Get all comments from the presentation, get the first one's reply and return its text.
 

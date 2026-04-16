@@ -1,8 +1,8 @@
-// This example specifies which chart data labels are shown for the chart.
+// Specify which chart data labels are shown for the chart in a presentation.
 
-// How to show specific chart data labels.
+// How to show specific chart data labels in a presentation.
 
-// Create a chart, set its properties and its specific data labels visibility.
+// Create a chart, set its properties and its specific data labels visibility in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

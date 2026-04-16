@@ -1,8 +1,8 @@
-// This example shows how to convert a binary number to hexadecimal.
+// Convert a binary number to hexadecimal in a spreadsheet.
 
 // How to get a hexadecimal representation of a binary number.
 
-// Use function to convert a binary to hexadecimal.
+// Use function to convert a binary to hexadecimal in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

@@ -1,8 +1,8 @@
-// This example creates a color selecting for create gradient stop.
+// Create a color selecting for create gradient stop in a PDF document.
 
-// How to create a preset color.
+// How to create a preset color in a PDF document.
 
-// Add a preset color as a gradient stop.
+// Add a preset color as a gradient stop in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

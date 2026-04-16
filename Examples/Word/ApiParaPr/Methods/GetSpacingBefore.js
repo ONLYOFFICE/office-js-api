@@ -1,8 +1,8 @@
-// This example shows how to get the spacing before value of the current paragraph.
+// Get the spacing before value of the current paragraph in a document.
 
-// How to get the spacing before of the paragraph and display it.
+// How to get the spacing before of the paragraph and display it in a document.
 
-// Get the paragraph spacing value.
+// Get the paragraph spacing value in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

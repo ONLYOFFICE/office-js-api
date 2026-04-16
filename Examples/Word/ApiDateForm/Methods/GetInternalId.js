@@ -1,4 +1,4 @@
-// This example shows how to get the internal id of the current form.
+// Get the internal id of the current form in a document.
 
 // How to get an internal id of a date form.
 

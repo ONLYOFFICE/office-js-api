@@ -1,4 +1,9 @@
-// This example sets field widgets border style.
+// Set field widgets border style in a PDF document.
+
+// How can I set border style using a widget in a PDF document?
+
+// Set border style for a widget in a PDF document.
+
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 let textField = Api.CreateTextField([10, 10, 160, 30]);

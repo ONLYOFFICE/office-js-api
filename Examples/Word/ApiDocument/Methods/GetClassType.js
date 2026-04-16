@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Find out the class type of a document object.
 
-// How get a class type of ApiDocument.
+// How can I get the class type of a document?
 
-// Retrieve class type of a created document object and display it.
+// Get the class type of a document and display it in the document.
 
 let doc = Api.GetDocument();
 let paragraph = Api.CreateParagraph();

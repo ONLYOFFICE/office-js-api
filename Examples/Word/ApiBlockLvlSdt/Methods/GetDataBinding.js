@@ -1,4 +1,9 @@
-// This example demonstrates how to retrieve a data binding from a content control.
+// Retrieve a data binding from a content control in a document.
+
+// How can I get the data binding using a block-level content control in a document?
+
+// Get the data binding for a block-level content control in a document.
+
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
 let xmlText = `

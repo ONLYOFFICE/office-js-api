@@ -1,8 +1,8 @@
-// This example shows how to remove a field from a table using a name.
+// Remove a field from a table using a name in a spreadsheet.
 
-// How to delete specified fields from a table.
+// How to delete specified fields from a table in a spreadsheet.
 
-// Create a pivot table, add data to it then remove a field from it.
+// Create a pivot table, add data to it then remove a field from it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange('B1').SetValue('Region');

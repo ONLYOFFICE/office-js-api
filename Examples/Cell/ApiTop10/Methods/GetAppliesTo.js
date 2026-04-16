@@ -1,8 +1,8 @@
-// This example gets the range where a top 10 conditional formatting rule applies.
+// Get the range where a top 10 conditional formatting rule applies.
 
 // How to retrieve the cell range of existing conditional formatting rules.
 
-// Get top 10 rule range.
+// Get applies to and display the result in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

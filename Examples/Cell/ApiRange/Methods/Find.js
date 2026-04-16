@@ -1,6 +1,6 @@
-// This example finds specific information in the range.
+// Find specific information in the range.
 
-// How to search throughout the range.
+// How to search throughout the range in a spreadsheet.
 
 // Get a range, search information using value, position, order, etc.
 

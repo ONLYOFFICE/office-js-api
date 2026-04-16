@@ -1,8 +1,8 @@
-// This example shows how to get nodes from a custom XML part using XPath.
+// Get nodes from a custom XML part using XPath in a spreadsheet.
 
-// How to get nodes from an XML part using XPath.
+// How to get nodes from an XML part using XPath in a spreadsheet.
 
-// Get XML nodes.
+// Get the nodes for a custom XML part in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let xmlManager = worksheet.GetCustomXmlParts();

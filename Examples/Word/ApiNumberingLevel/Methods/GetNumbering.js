@@ -1,8 +1,8 @@
-// This example shows how to get the numbering definition.
+// Get the numbering definition in a document.
 
-// How to retrieve the numbering.
+// How to retrieve the numbering in a document.
 
-// Get the numbering of the level.
+// Get the numbering of the level in a document.
 
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("numbered");

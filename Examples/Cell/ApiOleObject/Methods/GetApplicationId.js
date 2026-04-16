@@ -1,6 +1,6 @@
-// This example shows how to get the application ID from the OLE object.
+// Get the application ID from the OLE object in a spreadsheet.
 
-// How to retrieve application id of OLE object.
+// How to retrieve application id of OLE object in a spreadsheet.
 
 // Add Ole object and display its application id in the worksheet.
 

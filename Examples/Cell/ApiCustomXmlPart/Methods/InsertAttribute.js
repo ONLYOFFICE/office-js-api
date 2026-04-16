@@ -1,4 +1,8 @@
-// This example shows how to insert an attribute into a custom XML part element.
+// Insert an attribute into a custom XML part element in a spreadsheet.
+
+// How do I insert the attribute in a spreadsheet?
+
+// Insert the attribute using a custom XML part object in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const xmlManager = worksheet.GetCustomXmlParts();

@@ -1,6 +1,8 @@
-// How to resize a drawing.
+// How to resize a drawing in a PDF document.
 
 // Get a shape object from a page and set its size.
+
+// Set size using a drawing object object in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

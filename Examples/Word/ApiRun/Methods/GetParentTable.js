@@ -1,8 +1,8 @@
-// This example shows how to get a table that contains the run.
+// Get a table that contains the run in a document.
 
-// Get a parent table of the text.
+// Get a parent table of the text in a document.
 
-// How to remove the row of the table that contains a text run.
+// How to remove the row of the table that contains a text run in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

@@ -1,8 +1,8 @@
-// This example gets the first series of ApiChart class and inserts its type into the table.
+// Get the first series of chart class and insert its type into the table in a spreadsheet.
 
-// How to get series using indices.
+// How to get series using indices in a spreadsheet.
 
-// Find series by its location index.
+// Find series by its location index in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

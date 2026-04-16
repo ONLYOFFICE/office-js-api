@@ -1,4 +1,8 @@
-// This example shows how to create a color in RGB format and use it as a shape fill.
+// Create a color in RGB format and use it as a shape fill in a presentation.
+
+// How can I r g b in a presentation?
+
+// R g b and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

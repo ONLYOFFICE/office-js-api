@@ -1,4 +1,8 @@
-// This example demonstrates how to set and get the description of the current presentation using the ApiCore.
+// Set and get the description of the current presentation using the core properties in a presentation.
+
+// How do I set description in a presentation?
+
+// Set description using a core properties object in a presentation.
 
 const presentation = Api.GetPresentation();
 const core = presentation.GetCore();

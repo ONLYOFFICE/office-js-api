@@ -1,4 +1,8 @@
-// This example sets the transition speed to 'slow'.
+// Set the transition speed to 'slow' in a presentation.
+
+// How to set speed for a slide show transition?
+
+// Set speed and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

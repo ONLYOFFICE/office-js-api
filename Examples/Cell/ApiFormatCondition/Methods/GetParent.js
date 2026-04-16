@@ -1,4 +1,8 @@
-// This example shows how to get the parent range of a conditional formatting rule.
+// Get the parent range of a conditional formatting rule in a spreadsheet.
+
+// How to get the parent for a format condition?
+
+// Get the parent and display the result in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

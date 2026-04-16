@@ -1,8 +1,8 @@
-// This example sets the screen tip text of the hyperlink.
+// Set the screen tip text of the hyperlink in a document.
 
-// How to specify the hyperlink screen tip text.
+// How to specify the hyperlink screen tip text in a document.
 
-// Set the screen tip text of the link.
+// Set the screen tip text of the link in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

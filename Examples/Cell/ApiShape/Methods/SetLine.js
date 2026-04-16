@@ -1,5 +1,9 @@
-// Sets the outline properties to a shape.
-// Creates a rectangle and changes its outline to a thick blue line.
+// Set the outline properties to a shape. Creates a rectangle and change its outline to a thick blue line in a spreadsheet.
+
+// How to set line for a shape in a spreadsheet?
+
+// Set line and display the result in a spreadsheet.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 200, 100));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

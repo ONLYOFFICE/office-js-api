@@ -1,8 +1,8 @@
-// This example checks if a comment is solved or not.
+// Check if a comment is solved or not in a document.
 
-// How to know whether a comment is resolved or not.
+// How to know whether a comment is resolved or not in a document.
 
-// Get a boolean value that indicates that a comment is solved.
+// Get a boolean value that indicates that a comment is solved in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

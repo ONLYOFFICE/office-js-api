@@ -1,4 +1,4 @@
-// This example specifies the direction of the text flow for this table cell.
+// Specify the direction of the text flow for this table cell.
 
 // Set the direction of the cell text.
 

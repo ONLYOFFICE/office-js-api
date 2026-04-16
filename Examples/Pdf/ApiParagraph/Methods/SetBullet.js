@@ -1,8 +1,8 @@
-// This example sets the bullet or numbering to the paragraph.
+// Set the bullet or numbering to the paragraph in a PDF document.
 
-// How to create a bulleted paragraph.
+// How to create a bulleted paragraph in a PDF document.
 
-// Create a numbered paragraph.
+// Create a numbered paragraph in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,4 +1,4 @@
-// This example shows how to create a new theme format scheme.
+// Create a new theme format scheme in a presentation.
 
 // How to change theme format of the theme.
 

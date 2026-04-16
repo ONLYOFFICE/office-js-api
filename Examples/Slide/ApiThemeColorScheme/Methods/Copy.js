@@ -1,8 +1,8 @@
-// This example creates a copy of the current theme color scheme.
+// Create a copy of the current theme color scheme in a presentation.
 
-// How to create a copy of a color scheme.
+// How to create a copy of a color scheme in a presentation.
 
-// Get color scheme and create its copy.
+// Get color scheme and create its copy in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide1 = presentation.GetSlideByIndex(0);

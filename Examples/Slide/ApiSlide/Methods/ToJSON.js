@@ -1,4 +1,4 @@
-// This example converts the ApiSlide object into the JSON object.
+// Convert the slide object into the JSON object.
 
 // How to convert a slide object to a JSON object.
 

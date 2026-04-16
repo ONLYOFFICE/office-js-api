@@ -1,8 +1,8 @@
-// This example shows how to round a number up, to the nearest multiple of significance.
+// Round a number up, to the nearest multiple of significance in a spreadsheet.
 
-// How to round a number up.
+// How to round a number up in a spreadsheet.
 
-// Use function to round a number up the nearest integer or to the nearest multiple of significance.
+// Use function to round a number up the nearest integer or to the nearest multiple of significance in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

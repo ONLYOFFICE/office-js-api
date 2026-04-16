@@ -1,8 +1,8 @@
-// This example adds an object (image, shape or chart) to the current presentation slide.
+// Add an object (image, shape or chart) to the current presentation slide.
 
 // How to add an element to the slide.
 
-// Create a chart and add it to the ApiSlide object.
+// Create a chart and add it to the slide object.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

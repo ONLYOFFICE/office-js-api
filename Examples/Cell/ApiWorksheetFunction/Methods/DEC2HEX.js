@@ -1,8 +1,8 @@
-// This example shows how to convert a decimal number to hexadecimal. 
+// Convert a decimal number to hexadecimal in a spreadsheet.
 
-// How to get decimal number from hexadecimal.
+// How to get decimal number from hexadecimal in a spreadsheet.
 
-// Use function to convert a decimal number to hexadecimal.
+// Use function to convert a decimal number to hexadecimal in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

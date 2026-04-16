@@ -1,8 +1,8 @@
-// This example shows how to return the natural logarithm of a complex number.
+// Return the natural logarithm of a complex number in a spreadsheet.
 
-// How to get the natural logarithm of a comlex numbers.
+// How to get the natural logarithm of a comlex numbers in a spreadsheet.
 
-// Use a function to get the natural logarithm.
+// Use a function to get the natural logarithm in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

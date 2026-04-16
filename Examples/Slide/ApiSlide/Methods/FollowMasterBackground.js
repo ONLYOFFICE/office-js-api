@@ -1,4 +1,4 @@
-// This example sets the master background as the background of the slide.
+// Set the master background as the background of the slide.
 
 // How to set a slide's background same as the master's.
 

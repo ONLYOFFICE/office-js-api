@@ -1,4 +1,4 @@
-// This example shows how to get a list of all forms in the document with the specified tag name.
+// Get a list of all forms in the document with the specified tag name.
 
 // How to get all forms with a specific tag.
 

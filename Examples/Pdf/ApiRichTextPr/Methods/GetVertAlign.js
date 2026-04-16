@@ -1,4 +1,9 @@
-// This example gets vert align property from rich text properties object.
+// Get vert align property from rich text properties object in a PDF document.
+
+// How to get the vert align for a rich text properties in a PDF document?
+
+// Get the vert align and display the result in a PDF document.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

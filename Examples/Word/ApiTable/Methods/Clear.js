@@ -1,8 +1,8 @@
-// This example clears the content from the table.
+// Clear the content from the table in a document.
 
-// How to clear a content of a table.
+// How to clear a content of a table in a document.
 
-// Get a table and remove everything from it.
+// Get a table and remove everything from it in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

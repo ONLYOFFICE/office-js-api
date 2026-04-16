@@ -1,8 +1,8 @@
-// This example adds a chart to the run.
+// Add a chart to the run in a document.
 
-// How to add a drawing into the text.
+// How to add a drawing into the text in a document.
 
-// Insert a drawing to the text run.
+// Insert a drawing to the text run in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

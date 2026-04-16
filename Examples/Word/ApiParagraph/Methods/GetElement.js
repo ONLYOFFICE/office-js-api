@@ -1,8 +1,8 @@
-// This example shows how to get a paragraph element using the position specified.
+// Get a paragraph element using the position specified in a document.
 
-// How to get the second element of the paragraph.
+// How to get the second element of the paragraph in a document.
 
-// Get the word from paragraph using its index and make it bold.
+// Get the word from paragraph using its index and make it bold in a document.
 
 let doc = Api.GetDocument();
 let paragraph = Api.CreateParagraph();

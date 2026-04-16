@@ -1,4 +1,9 @@
-// This example shows how to set the role for a form.
+// Set the role for a form in a document.
+
+// How can I set role using a date form in a document?
+
+// Set role for a date form in a document.
+
 let doc = Api.GetDocument();
 let roles = doc.GetFormRoles();
 let dateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});

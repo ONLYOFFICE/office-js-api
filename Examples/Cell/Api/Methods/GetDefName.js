@@ -1,8 +1,8 @@
-// This example shows how to get the ApiName object by the range name.
+// Get the named range object by the range name in a spreadsheet.
 
 // How to work with named ranges in a spreadsheet using the API.
 
-// Get name of an object using a range name. 
+// Get name of an object using a range name in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

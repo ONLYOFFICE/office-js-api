@@ -1,8 +1,8 @@
-// This example shows how to return the hyperbolic cosecant of a complex number.
+// Return the hyperbolic cosecant of a complex number in a spreadsheet.
 
-// How to get the hyperbolic cosecant.
+// How to get the hyperbolic cosecant in a spreadsheet.
 
-// Use a function to get the hyperbolic cosecant of a complex number.
+// Use a function to get the hyperbolic cosecant of a complex number in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

@@ -1,8 +1,8 @@
-// This example specifies the content which will be added between the given numbering level text and the text of every numbered paragraph which references that numbering level.
+// Specify the content which will be added between the given numbering level text and the text of every numbered paragraph which references that numbering level in a document.
 
-// How to set separating symbol between numbering and numbered text.
+// How to set separating symbol between numbering and numbered text in a document.
 
-// Set space between numbering level text and the text itself.
+// Set space between numbering level text and the text itself in a document.
 
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("numbered");

@@ -1,8 +1,8 @@
-// This example gets the current footnote in the document.
+// Get the current footnote in the document.
 
 // How to add footnote to the document.
 
-// Get text from the current footnote.
+// Get text from the current footnote in a document.
 
 let doc = Api.GetDocument();
 let footnote = doc.AddFootnote();

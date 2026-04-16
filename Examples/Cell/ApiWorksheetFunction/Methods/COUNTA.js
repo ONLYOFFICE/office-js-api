@@ -1,4 +1,4 @@
-// This example shows how to count a number of cells in a range that are not empty.
+// Count a number of cells in a range that are not empty in a spreadsheet.
 
 // How to find a number of non-empty cells.
 

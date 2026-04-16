@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the table.
+// Find out the class type of a chart object in a spreadsheet.
 
-// How to show class type on the worksheet.
+// How can I get the class type of a chart in a spreadsheet?
 
-// Get class type of the chart and insert it in the range.
+// Get the class type of a chart and display it in the spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

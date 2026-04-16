@@ -1,8 +1,8 @@
-// This example sets the paragraph right side indentation.
+// Set the paragraph right side indentation in a document.
 
-// How to set the indentation for the paragraph right side.
+// How to set the indentation for the paragraph right side in a document.
 
-// Create a new paragraph and set its right side indentation.
+// Create a new paragraph and set its right side indentation in a document.
 
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");

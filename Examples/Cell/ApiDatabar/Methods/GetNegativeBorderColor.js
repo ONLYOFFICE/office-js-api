@@ -1,6 +1,6 @@
-// This example demonstrates getting the negative bar border color from a data bar conditional formatting rule.
+// Get the negative bar border color from a data bar conditional formatting rule.
 
-// How to retrieve the border color of negative value bars.
+// How to retrieve the border color of negative value bars in a spreadsheet.
 
 // Get the negative bar border color of a data bar conditional formatting rule.
 

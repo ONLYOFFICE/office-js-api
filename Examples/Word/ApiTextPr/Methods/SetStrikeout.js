@@ -1,8 +1,8 @@
-// This example specifies that the contents of the current run are displayed with a single horizontal line through the center of the line.
+// Specify that the contents of the current run are displayed with a single horizontal line through the center of the line in a document.
 
-// How to strike out a text with one line.
+// How to strike out a text with one line in a document.
 
-// Create a text run object, cross out it.
+// Create a text run object, cross out it in a document.
 
 let doc = Api.GetDocument();
 let textPr = doc.GetDefaultTextPr();

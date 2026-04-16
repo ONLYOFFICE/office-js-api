@@ -1,4 +1,8 @@
-// This example shows how to convert a shape fill color to JSON.
+// Convert a shape fill color to JSON in a spreadsheet.
+
+// How to to j s o n for a color in a spreadsheet?
+
+// To j s o n and display the result in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const color = Api.RGB(64, 128, 192);

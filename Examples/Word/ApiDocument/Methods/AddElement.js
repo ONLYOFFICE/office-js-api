@@ -1,4 +1,4 @@
-// This example adds a paragraph to the document.
+// Add a paragraph to the document.
 
 // How to add the element to the document.
 

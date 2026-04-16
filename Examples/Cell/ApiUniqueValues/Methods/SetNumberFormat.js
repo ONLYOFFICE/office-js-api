@@ -1,4 +1,4 @@
-// This example demonstrates setting the number format for a unique values conditional formatting rule.
+// Set the number format for an unique values conditional formatting rule.
 
 // How to apply number formatting to unique values conditional formatting.
 

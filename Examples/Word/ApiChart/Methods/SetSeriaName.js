@@ -1,8 +1,8 @@
-// This example sets a name for a seria of a chart.
+// Set a name for a seria of a chart in a document.
 
-// How to rename a chart seria.
+// How to rename a chart seria in a document.
 
-// Create a chart, set its properties and its series names.
+// Create a chart, set its properties and its series names in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
