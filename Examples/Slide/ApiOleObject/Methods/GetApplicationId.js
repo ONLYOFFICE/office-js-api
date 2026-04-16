@@ -1,8 +1,8 @@
-// This example gets the application ID from the current OLE object.
+// Get the application ID from the current OLE object in a presentation.
 
-// How to return an application ID of the current OLE object.
+// How to return an application ID of the current OLE object in a presentation.
 
-// Get an application ID of a specified OLE object.
+// Get an application ID of a specified OLE object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

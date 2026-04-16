@@ -1,8 +1,8 @@
-// This example creates a combo box form with the common and specific combo box form properties.
+// Create a combo box form with the common and specific combo box form properties.
 
 // How to create a combo box form and add it to the paragraph.
 
-// Add a combo box with the state options to the ApiDocument object.
+// Add a combo box with the state options to the document object.
 
 let doc = Api.GetDocument();
 let comboBoxForm = Api.CreateComboBoxForm({

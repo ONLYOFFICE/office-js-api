@@ -1,4 +1,8 @@
-// This example demonstrates how to set and get the revision of the current presentation.
+// Set and get the revision of the current presentation in a presentation.
+
+// How to set revision for a core properties in a presentation?
+
+// Set revision and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const core = presentation.GetCore();

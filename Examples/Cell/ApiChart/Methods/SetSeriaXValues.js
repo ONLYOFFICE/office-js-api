@@ -1,6 +1,6 @@
-// This example sets the x-axis values from the specified range to the specified series. It is used with the scatter charts only.
+// Set the x-axis values from the specified range to the specified series. It is used with the scatter charts only in a spreadsheet.
 
-// How to add values to the horizontal axis of series for scatter charts from the indicated range using addresses.
+// How to add values to the horizontal axis of series for scatter charts from the indicated range using addresses in a spreadsheet.
 
 // Fill seria's x-axis of scatter charts with values from the worksheet cells.
 

@@ -1,4 +1,4 @@
-// This example gets a start page index of section.
+// Get a start page index of section.
 
 // How to get the start page number for the current section.
 

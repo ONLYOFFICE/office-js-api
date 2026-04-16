@@ -1,8 +1,8 @@
-// This example sets the lock to the block text content control.
+// Set the lock to the block text content control in a document.
 
-// Creates a block content control and sets its lock to "sdtContentLocked", which means that the content cannot be edited and the container cannot be deleted.
+// Create a block content control and set its lock to "sdtContentLocked", which means that the content cannot be edited and the container cannot be deleted in a document.
 
-// How to set the lock to the ApiBlockLvlSdt object.
+// How to set the lock to the block-level content control object in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

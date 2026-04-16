@@ -1,8 +1,8 @@
-// This example converts the ApiParagraph object into the JSON object.
+// Convert the paragraph object into the JSON object in a document.
 
-// How to get a JSON from the inline text control.
+// How to get a JSON from the inline text control in a document.
 
-// Convert the inline text control to json and add it to the paragraph.
+// Convert the inline text control to json and add it to the paragraph in a document.
 
 let doc = Api.GetDocument();
 let paragraph = Api.CreateParagraph();

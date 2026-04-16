@@ -1,4 +1,4 @@
-// This example shows how to get the page width.
+// Get the page width in a document.
 
 // How to get the page width.
 

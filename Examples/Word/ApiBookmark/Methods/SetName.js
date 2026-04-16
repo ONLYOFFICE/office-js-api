@@ -1,6 +1,6 @@
-// This example shows how to set bookmark name.
+// Set bookmark name in a document.
 
-// How to rename a bookmark.
+// How to rename a bookmark in a document.
 
 // Get a bookmark from the document by its name then set a new name to it.
 

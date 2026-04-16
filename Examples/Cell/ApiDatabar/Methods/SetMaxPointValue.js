@@ -1,6 +1,6 @@
-// This example demonstrates setting the maximum point value of a data bar conditional formatting rule.
+// Set the maximum point value of a data bar conditional formatting rule.
 
-// How to change the value of the maximum condition.
+// How to change the value of the maximum condition in a spreadsheet.
 
 // Set the maximum point value of a data bar conditional formatting rule.
 

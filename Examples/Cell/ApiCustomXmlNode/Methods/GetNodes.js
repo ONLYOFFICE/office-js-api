@@ -1,8 +1,8 @@
-// This example shows how to get child nodes of a custom XML node using XPath.
+// Get child nodes of a custom XML node using XPath in a spreadsheet.
 
-// How to retrieve child nodes from custom XML node elements using XPath.
+// How to retrieve child nodes from custom XML node elements using XPath in a spreadsheet.
 
-// Get book nodes from library.
+// Get book nodes from library in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let xmlManager = worksheet.GetCustomXmlParts();

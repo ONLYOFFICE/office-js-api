@@ -1,8 +1,8 @@
-// This example shows how to estimate standard deviation based on a sample (ignores logical values and text in the sample).
+// Estimate standard deviation based on a sample (ignores logical values and text in the sample) in a spreadsheet.
 
-// How to calculate the standard deviation based on a sample.
+// How to calculate the standard deviation based on a sample in a spreadsheet.
 
-// Use a function to get the standard deviation.
+// Use a function to get the standard deviation in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

@@ -1,4 +1,9 @@
-// This example shows how to get the text from the form.
+// Get the text from the form in a document.
+
+// How do I get the text in a document?
+
+// Get the text using a complex form object.
+
 let doc = Api.GetDocument();
 let complexForm = Api.CreateComplexForm({"key": "Complex1"});
 complexForm.Add(Api.CreateTextForm({"placeholder" : "username"}));

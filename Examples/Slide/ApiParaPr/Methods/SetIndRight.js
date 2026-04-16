@@ -1,8 +1,8 @@
-// This example sets the paragraph right side indentation.
+// Set the paragraph right side indentation in a presentation.
 
-// How to set a right side indentation using a paragraph properties.
+// How to set a right side indentation using a paragraph properties in a presentation.
 
-// Create a paragraph setting its right side indentation property.
+// Create a paragraph setting its right side indentation property in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

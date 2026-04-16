@@ -1,4 +1,4 @@
-// This example sets the highlight to the forms in the document.
+// Set the highlight to the forms in the document.
 
 // How to set color for forms background.
 

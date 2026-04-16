@@ -1,4 +1,9 @@
-// This example demonstrates how to delete a custom XML part.
+// Delete a custom XML part in a document.
+
+// How to delete for a custom XML part in a document?
+
+// Delete and display the result in a document.
+
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
 let xml1 = xmlManager.Add("<user xmlns='http://example'>John</user>");

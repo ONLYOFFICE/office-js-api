@@ -1,4 +1,4 @@
-// This example clears the form.
+// Clear the form.
 
 // How to remove selected item from the combobox form.
 

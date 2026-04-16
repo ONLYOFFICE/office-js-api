@@ -1,8 +1,8 @@
-// This example sets the text fill to the current text run.
+// Set the text fill to the current text run in a spreadsheet.
 
-// How to color a text object.
+// How to color a text object in a spreadsheet.
 
-// Create a text run object, add color to it using solid fill.
+// Create a text run object, add color to it using solid fill in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

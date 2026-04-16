@@ -1,8 +1,8 @@
-// This example specifies that any lowercase characters in the current text run are formatted for display only as their capital letter character equivalents.
+// Specify that any lowercase characters in the current text run are formatted for display only as their capital letter character equivalents.
 
-// How to make text characters capitalized.
+// How to make text characters capitalized in a spreadsheet.
 
-// Create a text run object, update its style by making its letters capitalized.
+// Create a text run object, update its style by making its letters capitalized in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

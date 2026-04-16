@@ -1,4 +1,8 @@
-// This example adds an element to the paragraph.
+// Add an element to the paragraph in a presentation.
+
+// How do I push in a presentation?
+
+// Push using a paragraph object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

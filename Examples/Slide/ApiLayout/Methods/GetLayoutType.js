@@ -1,4 +1,8 @@
-// This example returns a type of the layout.
+// Return a type of the layout in a presentation.
+
+// How to get the layout type for a layout in a presentation?
+
+// Get the layout type and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

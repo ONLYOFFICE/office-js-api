@@ -1,8 +1,8 @@
-// This example shows how to get the color scheme of the theme.
+// Get the color scheme of the theme in a presentation.
 
 // How to get a color scheme of presentation master's theme.
 
-// Get a theme color scheme and change its colors.
+// Get a theme color scheme and change its colors in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

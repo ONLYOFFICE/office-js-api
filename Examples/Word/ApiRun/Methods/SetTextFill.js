@@ -1,8 +1,8 @@
-// In this example, add the text with a text fill to the WordArt.
+// In this example, add the text with a text fill to the WordArt in a document.
 
-// How to fill a text run.
+// How to fill a text run in a document.
 
-// Create a new text run and set its font color.
+// Create a new text run and set its font color in a document.
 
 let doc = Api.GetDocument();
 let textPr = Api.CreateTextPr();

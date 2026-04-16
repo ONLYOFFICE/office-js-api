@@ -1,4 +1,4 @@
-// This example converts a document to HTML.
+// Convert a document to HTML.
 
 // How to get an HTML from the document content.
 

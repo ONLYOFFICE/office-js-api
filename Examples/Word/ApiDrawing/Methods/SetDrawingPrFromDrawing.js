@@ -1,8 +1,8 @@
-// This example sets the properties from another drawing to the drawing.
+// Set the properties from another drawing to the drawing in a document.
 
-// How to apply the properties of one shape to another.
+// How to apply the properties of one shape to another in a document.
 
-// Create the second drawing with the same style.
+// Create the second drawing with the same style in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

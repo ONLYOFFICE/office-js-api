@@ -1,8 +1,8 @@
-// This example sets the paragraph contents justification.
+// Set the paragraph contents justification in a presentation.
 
-// How to set justification using a paragraph properties.
+// How to set justification using a paragraph properties in a presentation.
 
-// Create a paragraph setting its justification property.
+// Create a paragraph setting its justification property in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

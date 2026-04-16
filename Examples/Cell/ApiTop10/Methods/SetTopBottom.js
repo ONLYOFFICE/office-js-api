@@ -1,8 +1,8 @@
-// This example shows how to set the top/bottom direction for top 10 condition.
+// Set the top/bottom direction for top 10 condition in a spreadsheet.
 
-// How to configure whether the condition evaluates top or bottom values.
+// How to configure whether the condition evaluates top or bottom values in a spreadsheet.
 
-// Set the top/bottom direction for the top 10 rule.
+// Set the top/bottom direction for the top 10 rule in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

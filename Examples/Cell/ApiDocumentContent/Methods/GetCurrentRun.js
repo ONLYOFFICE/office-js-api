@@ -1,4 +1,8 @@
-// This example shows how to get the current run from the document content of a shape.
+// Get the current run from the document content of a shape in a spreadsheet.
+
+// How to get current run for a document content?
+
+// Get current run and display the result in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

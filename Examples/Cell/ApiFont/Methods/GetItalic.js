@@ -1,6 +1,6 @@
-// This example shows how to get the italic property of the specified font.
+// Get the italic property of the specified font in a spreadsheet.
 
-// How to know whether a font style of characters is italic.
+// How to know whether a font style of characters is italic in a spreadsheet.
 
 // Get a boolean value that represents whether a font is italic or not and show the value in the worksheet.
 

@@ -1,8 +1,8 @@
-// This example shows how to set grand total name of a table.
+// Set grand total name of a table in a spreadsheet.
 
-// How to set a grand total name of a table.
+// How to set a grand total name of a table in a spreadsheet.
 
-// Create a pivot table, add data to it then set a grand total name.
+// Create a pivot table, add data to it then set a grand total name in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

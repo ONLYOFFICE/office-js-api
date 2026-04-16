@@ -1,8 +1,8 @@
-// This example shows how to get the level index.
+// Get the level index in a document.
 
-// How to retrieve the index of the numbering level.
+// How to retrieve the index of the numbering level in a document.
 
-// Get the number of the level.
+// Get the number of the level in a document.
 
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("numbered");

@@ -1,8 +1,8 @@
-// This example shows how to get your document in Markdown format and paste the result into the document.
+// Get your document in Markdown format and paste the result into the document.
 
-// This example shows how to convert a document to Markdown format and insert the result into the document.
+// Convert a document to Markdown format and insert the result into the document.
 
-// Adds a text with different heading levels to the document, converts it to Markdown, and pastes it back into the document.
+// Add a text with different heading levels to the document, convert it to Markdown, and paste it back into the document.
 
 // How to convert a document with different heading levels and bold text to Markdown.
 

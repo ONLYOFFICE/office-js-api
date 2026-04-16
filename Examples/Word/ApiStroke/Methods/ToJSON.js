@@ -1,6 +1,6 @@
-// This example converts the ApiStroke object into the JSON object.
+// Convert the stroke object into the JSON object in a document.
 
-// How to get a JSON from the stroke object.
+// How to get a JSON from the stroke object in a document.
 
 // Convert the stroke to json and add it to the document.
 

@@ -1,8 +1,8 @@
-// This example demonstrates getting the range to which a unique values conditional formatting rule applies.
+// Get the range to which an unique values conditional formatting rule applies.
 
 // How to retrieve the range where unique values conditional formatting is applied.
 
-// Get the range to which the unique values rule applies.
+// Get the range to which the unique values rule applies in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

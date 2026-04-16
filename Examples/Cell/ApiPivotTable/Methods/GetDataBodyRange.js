@@ -1,8 +1,8 @@
-// This example shows how to get a data body range.
+// Get a data body range in a spreadsheet.
 
-// How to get a field a data body range from a pivot table.
+// How to get a field a data body range from a pivot table in a spreadsheet.
 
-// Create a pivot table, add data to it then get a data body range and select it.
+// Create a pivot table, add data to it then get a data body range and select it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

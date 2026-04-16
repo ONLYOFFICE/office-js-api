@@ -1,4 +1,8 @@
-// This example gets the animation timeline from a slide and adds an animation effect.
+// Get the animation timeline from a slide and add an animation effect.
+
+// How do I get the time line in a presentation?
+
+// Get the time line using a slide object.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

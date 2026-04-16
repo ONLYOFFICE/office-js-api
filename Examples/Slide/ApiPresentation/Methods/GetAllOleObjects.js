@@ -1,4 +1,8 @@
-// This example shows how to get all the OLE objects from the current presentation.
+// Get all the OLE objects from the current presentation in a presentation.
+
+// How can I get all ole objects using a presentation in a presentation?
+
+// Get all ole objects for a presentation in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

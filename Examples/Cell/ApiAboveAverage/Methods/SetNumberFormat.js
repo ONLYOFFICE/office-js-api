@@ -1,4 +1,4 @@
-// This example shows how to set number format for above average rule.
+// Set number format for above average rule in a spreadsheet.
 
 // How to apply number formatting to above average conditional formatting.
 

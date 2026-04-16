@@ -1,6 +1,6 @@
-// This example shows how to get the paragraph right side indentation.
+// Get the paragraph right side indentation in a PDF document.
 
-// How to return a right side identation of a paragraph.
+// How to return a right side identation of a paragraph in a PDF document.
 
 // Return a right side indentation of a text from the page.
 

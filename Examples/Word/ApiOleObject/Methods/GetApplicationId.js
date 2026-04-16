@@ -1,8 +1,8 @@
-// This example shows how to get the application ID from the OLE object.
+// Get the application ID from the OLE object in a document.
 
-// How to get an application ID of the OLE object.
+// How to get an application ID of the OLE object in a document.
 
-// Display the application ID of the OLE object.
+// Display the application ID of the OLE object in a document.
 
 let doc = Api.GetDocument();
 let oleObject = Api.CreateOleObject(

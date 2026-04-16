@@ -1,4 +1,8 @@
-// This example shows how to get the internal ID of a table row.
+// Get the internal ID of a table row in a document.
+
+// How can I get the internal id using a table row in a document?
+
+// Get the internal id for a table row in a document.
 
 const doc = Api.GetDocument();
 const table = Api.CreateTable(3, 3);

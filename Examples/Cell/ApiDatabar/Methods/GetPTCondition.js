@@ -1,4 +1,4 @@
-// This example demonstrates getting the pivot table condition object from a data bar formatting rule.
+// Get the pivot table condition object from a data bar formatting rule.
 
 // How to retrieve the pivot table condition object of a data bar conditional formatting.
 

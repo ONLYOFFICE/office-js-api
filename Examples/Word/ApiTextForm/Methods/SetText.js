@@ -1,4 +1,4 @@
-// This example sets the text to the current text field.
+// Set the text to the current text field in a document.
 
 // How to add the text to the text form.
 

@@ -1,4 +1,8 @@
-// This example shows how to get the position of the comment in the presentation.
+// Get the position of the comment in the presentation.
+
+// How to get the position for a comment in a presentation?
+
+// Get the position and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 presentation.GetAllComments().forEach(comment => {

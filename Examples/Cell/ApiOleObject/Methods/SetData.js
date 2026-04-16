@@ -1,6 +1,6 @@
-// This example sets the data to the current OLE object.
+// Set the data to the current OLE object in a spreadsheet.
 
-// How to change content of OLE object.
+// How to change content of OLE object in a spreadsheet.
 
 // Add Ole object, set its data and display it in the worksheet.
 

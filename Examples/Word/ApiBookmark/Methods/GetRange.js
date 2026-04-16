@@ -1,8 +1,8 @@
-// This example shows how to get bookmark range.
+// Get bookmark range in a document.
 
-// How to add a bookmark and then make its range bold.
+// How to add a bookmark and then make its range bold in a document.
 
-// Highlight the range of a bookmark.
+// Highlight the range of a bookmark in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

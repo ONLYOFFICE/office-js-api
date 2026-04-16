@@ -1,4 +1,9 @@
-// This example shows how to get the form role.
+// Get the form role in a document.
+
+// How do I get the role in a document?
+
+// Get the role using a picture form object.
+
 let doc = Api.GetDocument();
 let pictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false, "shiftX": 50, "shiftY": 50});
 let paragraph = doc.GetElement(0);

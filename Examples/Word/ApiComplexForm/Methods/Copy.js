@@ -1,4 +1,9 @@
-// This example copies the form.
+// Copy the form.
+
+// How can I copy using a complex form in a document?
+
+// Copy for a complex form in a document.
+
 let doc = Api.GetDocument();
 let complexForm = Api.CreateComplexForm({"key": "Complex1"});
 complexForm.Add('Text');

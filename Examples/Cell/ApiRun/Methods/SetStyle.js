@@ -1,8 +1,8 @@
-// This example sets a style to the run.
+// Set a style to the run in a spreadsheet.
 
-// How to style a text.
+// How to style a text in a spreadsheet.
 
-// Create a text run object, create a text style and apply it.
+// Create a text run object, create a text style and apply it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

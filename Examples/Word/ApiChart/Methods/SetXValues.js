@@ -1,8 +1,8 @@
-// This example sets the x-axis values to all chart series. It is used with the scatter charts only.
+// Set the x-axis values to all chart series. It is used with the scatter charts only in a document.
 
-// How to add values to horizontal axis for all series of scatter charts.
+// How to add values to horizontal axis for all series of scatter charts in a document.
 
-// Fill all x-axis values of scattered charts series.
+// Fill all x-axis values of scattered charts series in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

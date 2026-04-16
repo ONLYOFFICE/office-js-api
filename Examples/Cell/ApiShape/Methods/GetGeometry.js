@@ -1,5 +1,9 @@
-// Retrieves geometry information from a star shape in a spreadsheet.
-// Displays preset type and custom status in cells.
+// Retrieve geometry information from a star shape in a spreadsheet. Displays preset type and custom status in cells.
+
+// How to get the geometry for a shape in a spreadsheet?
+
+// Get the geometry and display the result in a spreadsheet.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 200, 100));
 let stroke = Api.CreateStroke(36000, Api.CreateSolidFill(Api.RGB(200, 100, 0)));

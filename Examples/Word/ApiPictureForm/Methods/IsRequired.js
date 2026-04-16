@@ -1,4 +1,4 @@
-// This example checks if the current form is required.
+// Check if the current form is required.
 
 // How to find out whether a picture form is required or not.
 

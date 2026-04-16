@@ -1,4 +1,8 @@
-// This example demonstrates how to get the name of the last user who modified the current workbook.
+// Get the name of the last user who modified the current workbook in a spreadsheet.
+
+// How to get last modified by for a core properties in a spreadsheet?
+
+// Get last modified by and display the result in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

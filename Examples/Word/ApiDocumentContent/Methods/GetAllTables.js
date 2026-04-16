@@ -1,4 +1,4 @@
-// This example showh how to get an array of all tables from the document content.
+// Showh how to get an array of all tables from the document content.
 
 // Get all tables added to the document.
 

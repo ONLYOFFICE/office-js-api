@@ -1,8 +1,8 @@
-// This example sets the outline properties to the specified graphic object.
+// Set the outline properties to the specified graphic object in a spreadsheet.
 
-// How to outline the drawing with the stroke.
+// How to outline the drawing with the stroke in a spreadsheet.
 
-// Set the borders of the shape.
+// Set the borders of the shape in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));

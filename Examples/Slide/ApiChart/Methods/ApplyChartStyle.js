@@ -1,8 +1,8 @@
-// This example shows how to apply a style for chart.
+// Apply a style for chart in a presentation.
 
-// How to change a style of a chart.
+// How to change a style of a chart in a presentation.
 
-// Update chart style.
+// Apply chart style and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

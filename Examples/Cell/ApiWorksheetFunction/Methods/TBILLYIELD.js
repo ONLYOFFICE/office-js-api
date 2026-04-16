@@ -1,8 +1,8 @@
-// This example shows how to return the yield for a Treasury bill.
+// Return the yield for a Treasury bill in a spreadsheet.
 
-// How to return the yield for a Treasury bill.
+// How to return the yield for a Treasury bill in a spreadsheet.
 
-// Use a function to calculate a Treasury bill yield.
+// Use a function to calculate a Treasury bill yield in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

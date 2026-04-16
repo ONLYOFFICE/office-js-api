@@ -1,4 +1,4 @@
-// This example specifies if the current form should be locked.
+// Specify if the current form should be locked.
 
 // How to lock a form.
 

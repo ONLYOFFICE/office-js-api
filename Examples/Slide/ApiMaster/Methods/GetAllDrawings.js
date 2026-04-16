@@ -1,4 +1,4 @@
-// This example shows how to get an array with all the drawing objects from the slide master.
+// Get an array with all the drawing objects from the slide master in a presentation.
 
 // How to get all drawings from the master of presentation.
 

@@ -1,4 +1,4 @@
-// This example shows how to get the date language from a date form.
+// Get the date language from a date form in a document.
 
 // How to know which language is used for a date form.
 

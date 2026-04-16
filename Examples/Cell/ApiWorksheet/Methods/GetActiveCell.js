@@ -1,4 +1,4 @@
-// This example shows how to get an object that represents an active cell.
+// Get an object that represents an active cell in a spreadsheet.
 
 // How to get selected active cell.
 

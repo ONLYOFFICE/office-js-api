@@ -1,8 +1,8 @@
-// This example shows how to get a list of all the content controls from the document.
+// Get a list of all the content controls from the document in a document.
 
 // Get all content controls added to the document.
 
-// How to retrieve all content controls and display the class type of the first one.
+// How to retrieve all content controls and display the class type of the first one in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

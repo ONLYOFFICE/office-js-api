@@ -1,4 +1,4 @@
-// This example gets the date operator from a time period conditional formatting rule.
+// Get the date operator from a time period conditional formatting rule.
 
 // How to retrieve date operators from time period conditional formatting rules.
 

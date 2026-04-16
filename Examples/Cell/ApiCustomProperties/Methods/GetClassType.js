@@ -1,4 +1,8 @@
-// This example demonstrates how to get the class type of ApiCustomProperties.
+// Check the class type returned by a custom properties in a spreadsheet.
+
+// How do I check what type a custom properties object is in a spreadsheet?
+
+// Retrieve and output the class type string for a custom properties in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const customProps = Api.GetCustomProperties();

@@ -1,8 +1,8 @@
-// This example get the text properties from the Range.
+// Get the text properties from the Range in a document.
 
-// How to make italic the text of the range.
+// How to make italic the text of the range in a document.
 
-// Get a range and update its text style.
+// Get a range and update its text style in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

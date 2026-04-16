@@ -1,4 +1,9 @@
-// This example shows how to get the form tag.
+// Get the form tag in a document.
+
+// How to get the tag for a checkbox form?
+
+// Get the tag and display the result in a document.
+
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"tag" : "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": false});
 checkBoxForm.SetFormKey("Marital status 1");

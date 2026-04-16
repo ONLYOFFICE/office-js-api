@@ -1,4 +1,4 @@
-// This example show how to get the drawing parent slide master.
+// Show how to get the drawing parent slide master.
 
 // How to get a parent master of a slide shape.
 

@@ -1,8 +1,8 @@
-// This example sets the scope type of the top 10 conditional formatting rule.
+// Set the scope type of the top 10 conditional formatting rule.
 
 // How to set the scope of conditional formatting rules.
 
-// Set top 10 rule scope type.
+// Set top 10 rule scope type in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

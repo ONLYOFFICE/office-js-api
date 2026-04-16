@@ -1,4 +1,4 @@
-// This example demonstrates getting the range to which an icon set rule applies.
+// Get the range to which an icon set rule applies in a spreadsheet.
 
 // How to retrieve the applied range of icon set conditional formatting.
 

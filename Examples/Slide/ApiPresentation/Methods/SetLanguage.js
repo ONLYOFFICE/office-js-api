@@ -1,8 +1,8 @@
-// This example sets a language which will be used to check spelling and grammar.
+// Set a language which will be used to check spelling and grammar in a presentation.
 
 // How to specify a language of the current presentation.
 
-// Set the 'en-CA' language to the ApiPresentation object.
+// Set the 'en-CA' language to the presentation object.
 
 const presentation = Api.GetPresentation();
 presentation.SetLanguage("en-CA");

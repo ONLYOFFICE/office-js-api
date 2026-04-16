@@ -1,8 +1,8 @@
-// This example shows how to go to bookmark and select it.
+// Go to bookmark and select it in a document.
 
-// Select a bookmark.
+// Select a bookmark in a document.
 
-// Select a bookmark from the documnet by getting it by its name.
+// Select a bookmark from the documnet by getting it by its name in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

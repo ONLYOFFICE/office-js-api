@@ -1,8 +1,8 @@
-// This example shows how to get a paragraph from all the paragraphs that are in the range.
+// Get a paragraph from all the paragraphs that are in the range in a document.
 
-// Get a paragraph using its index position.
+// Get a paragraph using its index position in a document.
 
-// Make bold the second paragraph of the range.
+// Make bold the second paragraph of the range in a document.
 
 let doc = Api.GetDocument();
 let firstParagraph = doc.GetElement(0);

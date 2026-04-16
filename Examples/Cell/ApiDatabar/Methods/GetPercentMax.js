@@ -1,6 +1,6 @@
-// This example demonstrates getting the maximum percentage length from a data bar conditional formatting rule.
+// Get the maximum percentage length from a data bar conditional formatting rule.
 
-// How to check the maximum length setting of a data bar.
+// How to check the maximum length setting of a data bar in a spreadsheet.
 
 // Get the maximum percentage length of a data bar conditional formatting rule.
 

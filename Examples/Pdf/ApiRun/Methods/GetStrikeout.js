@@ -1,8 +1,8 @@
-// This example shows how to find out whether a text is strikethrough with one line.
+// Find out whether a text is strikethrough with one line in a PDF document.
 
-// How to know whether a text is crossed with one horizontal line.
+// How to know whether a text is crossed with one horizontal line in a PDF document.
 
-// Get the run and find whether it is strikethrough or not.
+// Get the run and find whether it is strikethrough or not in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

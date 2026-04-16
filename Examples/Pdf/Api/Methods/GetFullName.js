@@ -1,4 +1,4 @@
-// This example gets a pdf document name and inserts it into the pdf document.
+// Get a pdf document name and insert it into the pdf document.
 
 // How to get a pdf document name.
 

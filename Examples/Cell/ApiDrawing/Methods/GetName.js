@@ -1,4 +1,8 @@
-// This example shows how to get the name of a drawing object.
+// Get the name of a drawing object in a spreadsheet.
+
+// How can I get the name using a drawing object in a spreadsheet?
+
+// Get the name for a drawing object in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// This example sets the vertical alignment to the shape content where a paragraph or text runs can be inserted.
+// Set the vertical alignment to the shape content where a paragraph or text runs can be inserted in a presentation.
 
-// How to set vertical alignment of the shape content.
+// How to set vertical alignment of the shape content in a presentation.
 
-// Adjust vertical alignment of the text inside the shape.
+// Adjust vertical alignment of the text inside the shape in a presentation.
 
 const presentation = Api.GetPresentation();
 presentation.SetSizes(254 * 36000, 190 * 36000);

@@ -1,4 +1,4 @@
-// This example demonstrates setting the fill color for a unique values conditional formatting rule.
+// Set the fill color for an unique values conditional formatting rule.
 
 // How to apply fill color to unique values conditional formatting.
 

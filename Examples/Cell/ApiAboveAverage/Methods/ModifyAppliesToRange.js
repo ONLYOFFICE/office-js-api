@@ -1,8 +1,8 @@
-// This example shows how to modify the range where an above average rule applies.
+// Modify the range where an above average rule applies in a spreadsheet.
 
 // How to change the range for existing above average conditional formatting.
 
-// Modify the range where the above average rule is applied.
+// Modify the range where the above average rule is applied in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

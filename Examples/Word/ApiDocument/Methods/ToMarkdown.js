@@ -1,4 +1,4 @@
-// This example converts a document to Markdown.
+// Convert a document to Markdown.
 
 // How to get a markdown object from the document content.
 

@@ -1,5 +1,9 @@
-// Gets the width of a stroke in EMU.
-// Creates shapes with different border widths and displays their widths.
+// Get the width of a stroke in EMU. Creates shapes with different border widths and display their widths in a presentation.
+
+// How do I get the width in a presentation?
+
+// Get the width using a stroke object in a presentation.
+
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 200, 100));

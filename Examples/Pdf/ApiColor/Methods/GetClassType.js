@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the pdf document.
+// Check the class type returned by a color in a PDF document.
 
-// How to get a class type of ApiColor.
+// How do I check what type a color object is in a PDF document?
 
-// Retrieve class type of ApiColor object and insert it to the page.
+// Retrieve and output the class type string for a color in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

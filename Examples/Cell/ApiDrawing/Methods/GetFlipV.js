@@ -1,8 +1,8 @@
-// This example checks whether the drawing is flipped vertically.
+// Check whether the drawing is flipped vertically in a spreadsheet.
 
-// How to get the vertical flip property of the shape.
+// How to get the vertical flip property of the shape in a spreadsheet.
 
-// Create a drawing, flip it vertically, and read its vertical flip value.
+// Create a drawing, flip it vertically, and read its vertical flip value in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

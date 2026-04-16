@@ -1,8 +1,8 @@
-// This example shows how to get the last Run with text in the paragraph.
+// Get the last Run with text in the paragraph in a document.
 
 // Get the final text run of the paragraph and show it in the document.
 
-// How to get the paragraph last text element.
+// How to get the paragraph last text element in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

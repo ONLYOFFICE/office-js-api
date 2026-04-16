@@ -1,4 +1,9 @@
-// This example sets line start style to polyline annotation.
+// Set line start style to polyline annotation in a PDF document.
+
+// How do I set start style in a PDF document?
+
+// Set start style using a polyline annotation object in a PDF document.
+
 let doc = Api.GetDocument();
 let vertices = [{x: 100, y: 10}, {x: 150, y: 100}, {x: 50, y: 100}];
 let polylineAnnot = Api.CreatePolyLineAnnot([40, 5, 160, 110], vertices);

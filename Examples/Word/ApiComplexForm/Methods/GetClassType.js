@@ -1,4 +1,9 @@
-// This example gets a class type and inserts it into the document.
+// Find out the class type of a complex form object.
+
+// How can I get the class type of a complex form?
+
+// Get the class type of a complex form and display it in the document.
+
 let doc = Api.GetDocument();
 let complexForm = Api.CreateComplexForm();
 let paragraph = doc.GetElement(0);

@@ -1,6 +1,6 @@
-// This example shows how to get the lock value for the specified lock type of the drawing.
+// Get the lock value for the specified lock type of the drawing in a spreadsheet.
 
-// How to know a lock type of a drawing.
+// How to know a lock type of a drawing in a spreadsheet.
 
 // Set a drawing's lock type and display it in the worksheet.
 

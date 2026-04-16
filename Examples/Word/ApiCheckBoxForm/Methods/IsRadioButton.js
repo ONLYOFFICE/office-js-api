@@ -1,4 +1,4 @@
-// This example checks if the current checkbox is a radio button.
+// Check if the current checkbox is a radio button in a document.
 
 // How to know whether the checkbox form is radio button.
 

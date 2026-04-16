@@ -1,6 +1,6 @@
-// This example shows how to add all the numbers in a range of cells.
+// Add all the numbers in a range of cells in a spreadsheet.
 
-// How to sum up all values from the list.
+// How to sum up all values from the list in a spreadsheet.
 
 // Use a function to estimate a sum from the cells.
 

@@ -1,8 +1,8 @@
-// This example specifies the legend font size.
+// Specify the legend font size in a spreadsheet.
 
-// How to change the font size of the chart legend.
+// How to change the font size of the chart legend in a spreadsheet.
 
-// Resize the font of the chart legend.
+// Resize the font of the chart legend in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

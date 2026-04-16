@@ -1,4 +1,9 @@
-// This example shows how to get a list of all form keys attached to the specified role.
+// Get a list of all form keys attached to the specified role in a document.
+
+// How to get the form keys by role for a document?
+
+// Get the form keys by role and display the result in a document.
+
 let doc = Api.GetDocument();
 let roles = doc.GetFormRoles();
 roles.Add("Employee");

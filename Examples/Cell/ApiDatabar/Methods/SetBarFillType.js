@@ -1,6 +1,6 @@
-// This example demonstrates setting the bar fill type of a data bar conditional formatting rule.
+// Set the bar fill type of a data bar conditional formatting rule.
 
-// How to change the fill type setting of a data bar.
+// How to change the fill type setting of a data bar in a spreadsheet.
 
 // Set the bar fill type of a data bar conditional formatting rule.
 

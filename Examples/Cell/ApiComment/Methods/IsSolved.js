@@ -1,6 +1,6 @@
-// This example checks if a comment is solved or not.
+// Check if a comment is solved or not in a spreadsheet.
 
-// How to find out whether a comment is resolved.
+// How to find out whether a comment is resolved in a spreadsheet.
 
 // Add a comment resolved status to a range of the worksheet.
 

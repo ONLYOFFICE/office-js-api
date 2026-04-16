@@ -1,4 +1,4 @@
-// This example shows how to get a placeholder from the current drawing object.
+// Get a placeholder from the current drawing object in a presentation.
 
 // How to get a placeholder of a slide shape.
 

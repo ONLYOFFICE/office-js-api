@@ -1,8 +1,8 @@
-// This example sets a style to the run.
+// Set a style to the run in a document.
 
-// How to update the style of the text run.
+// How to update the style of the text run in a document.
 
-// Create a new style and apply it to the run.
+// Create a new style and apply it to the run in a document.
 
 let doc = Api.GetDocument();
 let myNewRunStyle = doc.CreateStyle("My New Run Style", "run");

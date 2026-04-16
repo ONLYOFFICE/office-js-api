@@ -1,8 +1,8 @@
-// This example deletes the worksheet.
+// Delete the worksheet.
 
-// How to delete sheets.
+// How to delete sheets in a spreadsheet.
 
-// Remove a worksheet.
+// Delete and display the result in a spreadsheet.
 
 Api.AddSheet("New sheet");
 let sheet = Api.GetActiveSheet();

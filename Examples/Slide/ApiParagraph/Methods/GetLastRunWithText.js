@@ -1,4 +1,8 @@
-// This example shows how to get the last Run with text in the paragraph.
+// Get the last Run with text in the paragraph in a presentation.
+
+// How do I get last run with text in a presentation?
+
+// Get last run with text using a paragraph object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// This example sets the fill to the chart plot area.
+// Set the fill to the chart plot area in a document.
 
-// How to set a background color for the plot area.
+// How to set a background color for the plot area in a document.
 
-// Create a chart, set its properties and its plot area color.
+// Create a chart, set its properties and its plot area color in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

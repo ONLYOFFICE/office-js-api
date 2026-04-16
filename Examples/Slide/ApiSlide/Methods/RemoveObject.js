@@ -1,4 +1,4 @@
-// This example removes objects (image, shape or chart) from the current slide.
+// Remove objects (image, shape or chart) from the current slide.
 
 // How to remove a specific object from the slide.
 

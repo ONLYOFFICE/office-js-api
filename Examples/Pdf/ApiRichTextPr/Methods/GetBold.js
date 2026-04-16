@@ -1,4 +1,9 @@
-// This example gets bold property from rich text properties object.
+// Get bold property from rich text properties object in a PDF document.
+
+// How do I get bold in a PDF document?
+
+// Get bold using a rich text properties object in a PDF document.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

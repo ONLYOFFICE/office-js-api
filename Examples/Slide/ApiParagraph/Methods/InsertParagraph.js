@@ -1,4 +1,8 @@
-// This example inserts a paragraph at the specified position.
+// Insert a paragraph at the specified position in a presentation.
+
+// How can I insert the paragraph using a paragraph in a presentation?
+
+// Insert the paragraph for a paragraph in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

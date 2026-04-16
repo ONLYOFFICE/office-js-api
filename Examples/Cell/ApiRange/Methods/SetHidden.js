@@ -1,4 +1,4 @@
-// This example sets the value hiding property.
+// Set the value hiding property in a spreadsheet.
 
 // How to hide cells from a range.
 

@@ -1,4 +1,8 @@
-// This example shows how to check if the color is a theme color.
+// Check if the color is a theme color in a document.
+
+// How can I is theme color using a color in a document?
+
+// Is theme color for a color in a document.
 
 const doc = Api.GetDocument();
 const hexColor = Api.HexColor('#FF0000');

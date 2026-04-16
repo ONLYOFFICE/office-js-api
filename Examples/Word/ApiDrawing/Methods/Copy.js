@@ -1,6 +1,6 @@
-// This example copies the current graphic object.
+// Copy the current graphic object in a document.
 
-// How to create a duplicate of a drawing.
+// How to create a duplicate of a drawing in a document.
 
 // Add two similar shapes into the document.
 

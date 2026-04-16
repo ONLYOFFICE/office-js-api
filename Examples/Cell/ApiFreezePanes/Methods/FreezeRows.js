@@ -1,8 +1,8 @@
-// This example freezes the the top row.
+// Freeze the the top row in a spreadsheet.
 
-// How to freeze rows using their indices.
+// How to freeze rows using their indices in a spreadsheet.
 
-// Get freeze panes and freeze a row using its index.
+// Get freeze panes and freeze a row using its index in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let freezePanes = worksheet.GetFreezePanes();

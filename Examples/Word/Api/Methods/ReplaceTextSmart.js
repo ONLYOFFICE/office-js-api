@@ -1,10 +1,10 @@
-// This example replaces text while preserving formatting and other things.
+// Replace text while preserving formatting and other things.
 
-// Adds a text to the first paragraph of the document, sets the bold and italic properties to it, and replaces it with a new text preserving the text style.
+// Add a text to the first paragraph of the document, set the bold and italic properties to it, and replace it with a new text preserving the text style.
 
-// Replaces each paragraph (or text in cell) in the select with the corresponding text from an array of strings.
+// Replace each paragraph (or text in cell) in the select with the corresponding text from an array of strings.
 
-// How to replace the selected ApiRange object with a new text.
+// How to replace the selected cell range object with a new text.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

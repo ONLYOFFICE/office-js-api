@@ -1,4 +1,8 @@
-// This example shows how to set the name for a drawing object.
+// Set the name for a drawing object in a spreadsheet.
+
+// How to set name for a drawing object in a spreadsheet?
+
+// Set name and display the result in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

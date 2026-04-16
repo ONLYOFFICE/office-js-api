@@ -1,8 +1,8 @@
-// This example shows how to get row range of a pivot table.
+// Get row range of a pivot table in a spreadsheet.
 
-// How to get table row range.
+// How to get table row range in a spreadsheet.
 
-// Create a pivot table, add data to it then get its row range and select it.
+// Create a pivot table, add data to it then get its row range and select it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

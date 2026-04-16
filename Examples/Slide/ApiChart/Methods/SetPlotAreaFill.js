@@ -1,8 +1,8 @@
-// This example sets the fill to the chart plot area.
+// Set the fill to the chart plot area in a presentation.
 
-// How to set a background color for the plot area.
+// How to set a background color for the plot area in a presentation.
 
-// Create a chart, set its properties and its plot area color.
+// Create a chart, set its properties and its plot area color in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

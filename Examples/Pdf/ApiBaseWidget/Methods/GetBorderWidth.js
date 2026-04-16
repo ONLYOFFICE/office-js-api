@@ -1,4 +1,9 @@
-// This example gets field widgets border width and displays it.
+// Get field widgets border width and display it in a PDF document.
+
+// How to get the border width for a widget in a PDF document?
+
+// Get the border width and display the result in a PDF document.
+
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 let textField = Api.CreateTextField([10, 10, 160, 30]);

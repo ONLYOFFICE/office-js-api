@@ -1,4 +1,4 @@
-// This example demonstrates getting the fill color from a unique values conditional formatting rule.
+// Get the fill color from an unique values conditional formatting rule.
 
 // How to retrieve the fill color setting from conditional formatting.
 

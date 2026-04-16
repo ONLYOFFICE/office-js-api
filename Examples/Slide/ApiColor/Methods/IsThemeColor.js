@@ -1,4 +1,8 @@
-// This example shows how to check if the color used in a shape fill is a theme color.
+// Check if the color used in a shape fill is a theme color in a presentation.
+
+// How can I is theme color using a color in a presentation?
+
+// Is theme color for a color in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

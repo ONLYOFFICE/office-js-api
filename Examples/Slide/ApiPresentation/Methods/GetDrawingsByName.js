@@ -1,8 +1,8 @@
-// This example shows how to get all drawings with the specified names from the current presentation.
+// Get all drawings with the specified names from the current presentation in a presentation.
 
-// Get drawings by their names.
+// Get drawings by their names in a presentation.
 
-// How to retrieve drawings by their names and rotate them.
+// How to retrieve drawings by their names and rotate them in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

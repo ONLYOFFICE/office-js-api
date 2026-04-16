@@ -1,4 +1,4 @@
-// This example shows how to get the text from the form.
+// Get the text from the form in a document.
 
 // How to get content text of the checkbox form.
 

@@ -1,6 +1,6 @@
-// This example removes all the elements from the run.
+// Remove all the elements from the run in a presentation.
 
-// How to remove all elements from the text run object.
+// How to remove all elements from the text run object in a presentation.
 
 // Delete text from the slide.
 

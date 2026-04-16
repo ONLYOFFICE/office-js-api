@@ -1,4 +1,8 @@
-// This example shows how to get pivot tables from the workbook.
+// Get pivot tables from the workbook in a spreadsheet.
+
+// How to get all pivot tables for a workbook in a spreadsheet?
+
+// Get all pivot tables and display the result in a spreadsheet.
 
 const workbook = Api.GetActiveWorkbook();
 const worksheet = workbook.GetActiveSheet();

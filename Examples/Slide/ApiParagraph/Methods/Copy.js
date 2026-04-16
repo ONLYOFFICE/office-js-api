@@ -1,8 +1,8 @@
-// This example creates a paragraph copy.
+// Create a paragraph copy in a presentation.
 
-// How to add a duplicate paragraph.
+// How to add a duplicate paragraph in a presentation.
 
-// Copy a paragraph and add it to the shape.
+// Copy a paragraph and add it to the shape in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// This example sets the font size to the characters of the text run.
+// Set the font size to the characters of the text run in a presentation.
 
-// How to change a text font size.
+// How to change a text font size in a presentation.
 
-// Get the text properties of the run and set its font size.
+// Get the text properties of the run and set its font size in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,6 +1,6 @@
-// This example demonstrates setting the minimum point value of a data bar conditional formatting rule.
+// Set the minimum point value of a data bar conditional formatting rule.
 
-// How to change the value of the minimum condition.
+// How to change the value of the minimum condition in a spreadsheet.
 
 // Set the minimum point value of a data bar conditional formatting rule.
 

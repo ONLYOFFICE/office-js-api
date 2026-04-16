@@ -1,4 +1,4 @@
-// This example merges an array of cells.
+// Merge an array of cells.
 
 // How to merge cells of the table into one.
 

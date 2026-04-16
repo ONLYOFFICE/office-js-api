@@ -1,6 +1,8 @@
 // How to set the cell left margin for the current table cell.
 
-// Specify the left margin value for the ApiTableCell object.
+// Specify the left margin value for the table cell object.
+
+// Set cell margin left using a table cell object.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

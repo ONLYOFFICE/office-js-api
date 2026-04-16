@@ -1,6 +1,8 @@
-// How to set a table look with options.
+// How to set a table look with options in a PDF document.
 
-// Create the ApiTable object and set its look.
+// Create the table object and set its look in a PDF document.
+
+// Use table to set table look in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

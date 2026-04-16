@@ -1,8 +1,8 @@
-// This example adds a new series to the chart.
+// Add a new series to the chart in a spreadsheet.
 
-// How to add a new series to create a chart.
+// How to add a new series to create a chart in a spreadsheet.
 
-// Add a new series to update a chart.
+// Add a new series to update a chart in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

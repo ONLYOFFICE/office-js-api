@@ -1,4 +1,4 @@
-// This example adds a paragraph using its position in the cell.
+// Add a paragraph using its position in the cell.
 
 // How to add text to the cell.
 

@@ -1,4 +1,4 @@
-// This example shows how to get the document statistics represented as an object.
+// Get the document statistics represented as an object in a document.
 
 // How to get the document statistics showing pages count, words count, etc.
 

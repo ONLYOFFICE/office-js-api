@@ -1,4 +1,9 @@
-// This example shows how to get the parent of a custom XML node and display its value.
+// Get the parent of a custom XML node and display its value in a document.
+
+// How do I get the parent in a document?
+
+// Get the parent using a custom XML node object in a document.
+
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
 let xmlText = `

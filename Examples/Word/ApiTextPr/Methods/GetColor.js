@@ -1,8 +1,8 @@
-// This example gets a color property of the text.
+// Get a color property of the text in a document.
 
-// How to get a text color and apply it to the paragraph.
+// How to get a text color and apply it to the paragraph in a document.
 
-// Retrieve color properties of the text.
+// Retrieve color properties of the text in a document.
 
 let doc = Api.GetDocument();
 let myNewRunStyle = doc.CreateStyle("My New Run Style", "run");

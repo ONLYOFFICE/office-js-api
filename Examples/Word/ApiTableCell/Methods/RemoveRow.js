@@ -1,8 +1,8 @@
-// This example removes a row containing the cell.
+// Remove a row containing the cell.
 
 // How to delete the row with Cell 1.
 
-// Get the first cell and remove its rowd. 
+// Get the first cell and remove its rowd.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

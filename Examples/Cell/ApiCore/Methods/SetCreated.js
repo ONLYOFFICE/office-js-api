@@ -1,4 +1,8 @@
-// This example demonstrates how to set the creation date of the workbook using the ApiCore.
+// Set the creation date of the workbook using the core properties in a spreadsheet.
+
+// How to set created for a core properties in a spreadsheet?
+
+// Set created and display the result in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

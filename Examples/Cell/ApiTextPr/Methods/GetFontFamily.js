@@ -1,6 +1,6 @@
-// This example gets a text font family.
+// Get a text font family in a spreadsheet.
 
-// How to find out a text font family.
+// How to find out a text font family in a spreadsheet.
 
 // Get a text font family name and display it in the worksheet.
 

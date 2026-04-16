@@ -1,4 +1,4 @@
-// This example adds the new columns to the table.
+// Add the new columns to the table in a document.
 
 // Insert new columns after the current cell.
 

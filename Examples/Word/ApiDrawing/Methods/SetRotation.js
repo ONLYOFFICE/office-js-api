@@ -1,4 +1,9 @@
-// This example shows how to set the rotation angle to the drawing.
+// Set the rotation angle to the drawing in a document.
+
+// How to set rotation for a drawing object in a document?
+
+// Set rotation and display the result in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let gs1 = Api.CreateGradientStop(Api.RGB(255, 213, 191), 0);

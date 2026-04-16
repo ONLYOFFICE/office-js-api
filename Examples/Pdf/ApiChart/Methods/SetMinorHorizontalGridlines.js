@@ -1,6 +1,8 @@
-// How to set minor horizontal gridlines of the chart.
+// How to set minor horizontal gridlines of the chart in a PDF document.
 
-// Create a chart, set its properties and its minor gridlines.
+// Create a chart, set its properties and its minor gridlines in a PDF document.
+
+// Set minor horizontal gridlines using a chart object in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

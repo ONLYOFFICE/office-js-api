@@ -1,6 +1,6 @@
-// This example demonstrates getting the maximum point type from a data bar conditional formatting rule.
+// Get the maximum point type from a data bar conditional formatting rule.
 
-// How to check the type of the maximum condition value.
+// How to check the type of the maximum condition value in a spreadsheet.
 
 // Get the maximum point type of a data bar conditional formatting rule.
 

@@ -1,4 +1,4 @@
-// This example creates a copy of the current theme format scheme.
+// Create a copy of the current theme format scheme.
 
 // How to create a copy of a format scheme.
 

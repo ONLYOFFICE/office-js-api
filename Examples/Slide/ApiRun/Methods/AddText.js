@@ -1,6 +1,6 @@
-// This example adds some text to the run.
+// Add some text to the run in a presentation.
 
-// How to add a text to a text run object.
+// How to add a text to a text run object in a presentation.
 
 // How to add a text to the slide.
 

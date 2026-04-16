@@ -1,6 +1,6 @@
-// This example shows how to get the ApiRange object that represents the rectangular intersection of two or more ranges.
+// Get the cell range object that represents the rectangular intersection of two or more ranges in a spreadsheet.
 
-// How to find intersection of two ranges and highlight it.
+// How to find intersection of two ranges and highlight it in a spreadsheet.
 
 // Find common cells of two ranges and fill them with a color.
 

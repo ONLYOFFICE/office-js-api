@@ -1,5 +1,9 @@
-// Creates a custom triangle geometry and applies it to a shape.
-// Uses basic path drawing commands: MoveTo, LineTo and Close.
+// Create a custom triangle geometry and apply it to a shape. Uses basic path drawing commands: MoveTo, LineTo and Close in a document.
+
+// How do I line to in a document?
+
+// Line to using a geometry path object in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let customGeometry = Api.CreateCustomGeometry();

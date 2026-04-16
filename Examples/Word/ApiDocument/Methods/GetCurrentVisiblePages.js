@@ -1,4 +1,4 @@
-// This example shows how to get current visible pages indexes.
+// Get current visible pages indexes in a document.
 
 // How to get all indexes of non-hidden pages.
 

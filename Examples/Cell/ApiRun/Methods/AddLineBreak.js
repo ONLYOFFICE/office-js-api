@@ -1,8 +1,8 @@
-// This example adds a line break to the run position and starts the next element from a new line.
+// Add a line break to the run position and start the next element from a new line in a spreadsheet.
 
-// How to start a sentence on a new line.
+// How to start a sentence on a new line in a spreadsheet.
 
-// Break two lines of a text run with a line. 
+// Break two lines of a text run with a line in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

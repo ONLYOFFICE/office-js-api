@@ -1,8 +1,8 @@
-// This example gets the input message title.
+// Get the input message title in a spreadsheet.
 
-// How to retrieve the validation input title.
+// How to retrieve the validation input title in a spreadsheet.
 
-// Get the input title.
+// Get the input title using the validation API in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");

@@ -1,8 +1,8 @@
-// This example shows how to get all font names from all elements inside the run.
+// Get all font names from all elements inside the run in a PDF document.
 
-// How to get all font names used in the text.
+// How to get all font names used in the text in a PDF document.
 
-// Retrieve ApiRun font names and display them in the page.
+// Retrieve text run font names and display them in the page.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

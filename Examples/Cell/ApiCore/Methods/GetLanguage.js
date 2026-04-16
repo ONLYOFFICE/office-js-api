@@ -1,4 +1,8 @@
-// This example demonstrates how to get the language of the current workbook using the ApiCore.
+// Get the language of the current workbook using the core properties in a spreadsheet.
+
+// How do I get the language in a spreadsheet?
+
+// Get the language using a core properties object in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

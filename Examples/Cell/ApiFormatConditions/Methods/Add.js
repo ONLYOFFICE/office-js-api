@@ -1,4 +1,4 @@
-// This example adds conditional formatting to a range.
+// Add conditional formatting to a range.
 
 // How to add conditional formatting rules to highlight cells based on values.
 

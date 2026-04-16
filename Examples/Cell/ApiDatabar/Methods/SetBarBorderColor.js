@@ -1,6 +1,6 @@
-// This example demonstrates setting the bar border color of a data bar conditional formatting rule.
+// Set the bar border color of a data bar conditional formatting rule.
 
-// How to change the border color of a data bar.
+// How to change the border color of a data bar in a spreadsheet.
 
 // Set the bar border color of a data bar conditional formatting rule.
 

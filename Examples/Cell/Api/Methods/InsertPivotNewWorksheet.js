@@ -1,4 +1,4 @@
-// This example shows how to insert PivotTable on a new worksheet.
+// Insert PivotTable on a new worksheet in a spreadsheet.
 
 // How to insert a pivot table into a range of a new worksheet using references.
 

@@ -1,8 +1,8 @@
-// This example sets the user ID to the comment author.
+// Set the user ID to the comment author in a spreadsheet.
 
-// How to change a comment author ID.
+// How to change a comment author ID in a spreadsheet.
 
-// Replace a comment author ID to a new one.
+// Replace a comment author ID to a new one in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

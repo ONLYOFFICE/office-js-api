@@ -1,6 +1,8 @@
-// How to outline a chart seria.
+// How to outline a chart seria in a PDF document.
 
-// Create a chart, set its properties and its series outline.
+// Create a chart, set its properties and its series outline in a PDF document.
+
+// Set series out line using a chart object in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

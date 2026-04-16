@@ -1,8 +1,8 @@
-// This example shows how to set the value of an icon criterion.
+// Set the value of an icon criterion in a spreadsheet.
 
-// How to modify the threshold value for an icon set criterion.
+// How to modify the threshold value for an icon set criterion in a spreadsheet.
 
-// Set the value used for criterion threshold comparison.
+// Set the value used for criterion threshold comparison in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

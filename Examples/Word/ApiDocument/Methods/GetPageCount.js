@@ -1,4 +1,4 @@
-// This example shows how to get a number of pages in the current document.
+// Get a number of pages in the current document in a document.
 
 // How to count the number of pages in the document.
 

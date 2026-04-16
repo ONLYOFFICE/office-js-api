@@ -1,8 +1,8 @@
-// This example shows how to set a drag to column of a pivot field.
+// Set a drag to column of a pivot field in a spreadsheet.
 
-// How to rename a pivot field drag to column.
+// How to rename a pivot field drag to column in a spreadsheet.
 
-// Create a pivot table, add data to it then set drag to column of a specified pivot using boolean value.
+// Create a pivot table, add data to it then set drag to column of a specified pivot using boolean value in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

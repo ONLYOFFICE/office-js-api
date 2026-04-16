@@ -1,8 +1,8 @@
-// This example converts the ApiBlockLvlSdt object into the JSON object.
+// Convert the block-level content control object into the JSON object in a document.
 
-// Creates a block content control and converts it into the JSON object.
+// Create a block content control and convert it into the JSON object in a document.
 
-// How to create the JSON object from the ApiBlockLvlSdt object.
+// How to create the JSON object from the block-level content control object in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

@@ -1,4 +1,4 @@
-// This example shows how to get the font size of the text.
+// Get the font size of the text in a document.
 
 // How to know the font size of the form.
 

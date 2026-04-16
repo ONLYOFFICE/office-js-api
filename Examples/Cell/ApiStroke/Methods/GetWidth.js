@@ -1,5 +1,9 @@
-// Gets the width of a stroke in EMU.
-// Creates shapes with different border widths and displays their widths.
+// Get the width of a stroke in EMU. Creates shapes with different border widths and display their widths in a spreadsheet.
+
+// How to get the width for a stroke in a spreadsheet?
+
+// Get the width and display the result in a spreadsheet.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 200, 100));
 

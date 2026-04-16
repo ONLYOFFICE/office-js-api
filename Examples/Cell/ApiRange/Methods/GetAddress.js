@@ -1,8 +1,8 @@
-// This example shows how to get the range address.
+// Get the range address in a spreadsheet.
 
-// How to get an address of a range.
+// How to get an address of a range in a spreadsheet.
 
-// Get an address of one range and set it for another one.
+// Get an address of one range and set it for another one in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

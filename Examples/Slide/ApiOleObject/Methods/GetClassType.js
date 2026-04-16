@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the presentation.
+// Check the class type returned by an OLE object in a presentation.
 
-// How to get a class type of ApiOleObject.
+// How do I check what type an OLE object object is in a presentation?
 
-// Retrieve class type of ApiOleObject object and insert it to the slide.
+// Retrieve and output the class type string for an OLE object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

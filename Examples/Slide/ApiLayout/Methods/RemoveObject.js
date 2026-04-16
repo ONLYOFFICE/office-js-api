@@ -1,6 +1,6 @@
-// This example shows how to remove objects from a slide layout.
+// Remove objects from a slide layout in a presentation.
 
-// How to remove objects from a layout using their index position.
+// How to remove objects from a layout using their index position in a presentation.
 
 // Delete an element from the slide.
 

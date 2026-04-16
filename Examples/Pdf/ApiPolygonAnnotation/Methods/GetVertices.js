@@ -1,4 +1,9 @@
-// This example gets vertices from polygon annotation.
+// Get vertices from polygon annotation in a PDF document.
+
+// How can I get the vertices using a polygon annotation in a PDF document?
+
+// Get the vertices for a polygon annotation in a PDF document.
+
 let doc = Api.GetDocument();
 let vertices = [{x: 100, y: 10}, {x: 150, y: 100}, {x: 50, y: 100}];
 let polygonAnnot = Api.CreatePolygonAnnot([40, 5, 160, 110], vertices);

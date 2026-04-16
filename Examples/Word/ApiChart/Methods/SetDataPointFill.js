@@ -1,8 +1,8 @@
-// This example shows how to set the fill to the data point.
+// Set the fill to the data point in a document.
 
-// How to color chart data point with a solid fill.
+// How to color chart data point with a solid fill in a document.
 
-// Create a chart and set a color for its data points.
+// Create a chart and set a color for its data points in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

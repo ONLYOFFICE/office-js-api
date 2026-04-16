@@ -1,8 +1,8 @@
-// This example specifies the shading applied to the contents of the current text run.
+// Specify the shading applied to the contents of the current text run in a document.
 
-// How to add shading to the text.
+// How to add shading to the text in a document.
 
-// Create a new text run and apply shading to it.
+// Create a new text run and apply shading to it in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

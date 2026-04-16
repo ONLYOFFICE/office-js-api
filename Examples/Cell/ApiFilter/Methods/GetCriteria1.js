@@ -1,8 +1,8 @@
-// This example reads the first criteria of a filter.
+// Read the first criteria of a filter in a spreadsheet.
 
-// How to inspect the main condition of an AutoFilter column.
+// How to inspect the main condition of an AutoFilter column in a spreadsheet.
 
-// Use ApiFilter.GetCriteria1() to get the first filter criterion.
+// Use ApiFilter.GetCriteria1() to get the first filter criterion in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

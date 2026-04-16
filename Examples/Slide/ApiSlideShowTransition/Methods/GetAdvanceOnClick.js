@@ -1,4 +1,8 @@
-// This example gets the advance on click setting and displays it.
+// Get the advance on click setting and display it in a presentation.
+
+// How do I get the advance on click in a presentation?
+
+// Get the advance on click using a slide show transition object.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

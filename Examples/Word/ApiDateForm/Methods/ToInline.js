@@ -1,4 +1,4 @@
-// This example converts the current form to an inline form.
+// Convert the current form to an inline form.
 
 // How to make the date form inline.
 

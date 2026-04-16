@@ -1,8 +1,8 @@
-// This example specifies that the contents of the current run are displayed along with a line appearing directly below the character (less than all the spacing above and below the characters on the line).
+// Specify that the contents of the current run are displayed along with a line appearing directly below the character (less than all the spacing above and below the characters on the line) in a document.
 
-// How to create a new text and underline it.
+// How to create a new text and underline it in a document.
 
-// Create a new text run and underline it.
+// Create a new text run and underline it in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

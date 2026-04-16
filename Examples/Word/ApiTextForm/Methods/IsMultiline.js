@@ -1,4 +1,4 @@
-// This example checks if the text field is multiline.
+// Check if the text field is multiline in a document.
 
 // How to know whether the first text form from this document is multiline.
 

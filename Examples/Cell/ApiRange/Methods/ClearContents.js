@@ -1,8 +1,8 @@
-// This example clears all the contents in the range.
+// Clear all the contents in the range in a spreadsheet.
 
-// How to clear contents for a range.
+// How to clear contents for a range in a spreadsheet.
 
-// Get a range, clear contents and show the result.
+// Get a range, clear contents and show the result in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1:B1").SetValue("Example text");

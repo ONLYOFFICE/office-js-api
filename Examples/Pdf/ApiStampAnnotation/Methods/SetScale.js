@@ -1,4 +1,9 @@
-// This example sets scale for stamp annotation.
+// Set scale for stamp annotation in a PDF document.
+
+// How can I set scale using a stamp annotation in a PDF document?
+
+// Set scale for a stamp annotation in a PDF document.
+
 let doc = Api.GetDocument();
 let stampAnnot = Api.CreateStampAnnot([10, 10, 0, 0], 'D_Reviewed', 'Joe Doe');
 stampAnnot.SetScale(0.5);

@@ -1,8 +1,8 @@
-// This example sets a style for the paragraph.
+// Set a style for the paragraph in a document.
 
-// Set the style of the paragraph to "Heading 6".
+// Set the style of the paragraph to "Heading 6" in a document.
 
-// Create a text in a paragraph styled with the 'Heading 6' style.
+// Create a text in a paragraph styled with the 'Heading 6' style in a document.
 
 let doc = Api.GetDocument();
 let heading6Style = doc.GetStyle("Heading 6");

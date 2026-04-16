@@ -1,4 +1,4 @@
-// This example sets the tip text to the current form.
+// Set the tip text to the current form.
 
 // How to add a text as a tip to the form.
 

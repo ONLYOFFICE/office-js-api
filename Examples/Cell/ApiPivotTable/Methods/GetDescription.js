@@ -1,8 +1,8 @@
-// This example shows how to get description of a pivot table.
+// Get description of a pivot table in a spreadsheet.
 
-// How to get pivot table description.
+// How to get pivot table description in a spreadsheet.
 
-// Create a pivot table, add data to it then get its description.
+// Create a pivot table, add data to it then get its description in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

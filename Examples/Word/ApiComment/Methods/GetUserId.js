@@ -1,8 +1,8 @@
-// This example shows how to get the user ID of the comment author.
+// Get the user ID of the comment author in a document.
 
-// How to get ID of the user who left the first comment.
+// How to get ID of the user who left the first comment in a document.
 
-// Get the comment author ID.
+// Get the comment author ID in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

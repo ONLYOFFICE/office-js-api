@@ -1,8 +1,8 @@
-// This example shows how to get the width of the drawing.
+// Get the width of the drawing in a document.
 
-// How to print the width of the drawing.
+// How to print the width of the drawing in a document.
 
-// Create a rectangle and then show its width in mm.
+// Create a rectangle and then show its width in mm in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

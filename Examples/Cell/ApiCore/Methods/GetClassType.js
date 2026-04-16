@@ -1,4 +1,8 @@
-// This example gets a class type and pastes it into the worksheet.
+// Check the class type returned by a core properties in a spreadsheet.
+
+// How do I check what type a core properties object is in a spreadsheet?
+
+// Retrieve and output the class type string for a core properties in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

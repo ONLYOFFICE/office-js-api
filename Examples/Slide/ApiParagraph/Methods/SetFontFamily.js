@@ -1,4 +1,8 @@
-// This example sets all 4 font slots with the specified font family.
+// Set all 4 font slots with the specified font family in a presentation.
+
+// How to set font family for a paragraph in a presentation?
+
+// Set font family and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

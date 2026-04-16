@@ -1,4 +1,4 @@
-// This example formats the selected range of cells from the sheet as a table.
+// Format the selected range of cells from the sheet as a table.
 
 // How to format a range as a table.
 

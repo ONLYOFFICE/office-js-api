@@ -1,6 +1,6 @@
-// This example sets the highlight to the content controls from the document.
+// Set the highlight to the content controls from the document.
 
-// How to highlight thw controls with rose color.
+// How to highlight thw controls with rose color in a document.
 
 // Add elements to the document and color their background.
 

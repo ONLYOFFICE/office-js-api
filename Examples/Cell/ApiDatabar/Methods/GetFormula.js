@@ -1,4 +1,4 @@
-// This example demonstrates getting the formula from a data bar conditional formatting rule.
+// Get the formula from a data bar conditional formatting rule.
 
 // How to retrieve the formula string from a data bar.
 

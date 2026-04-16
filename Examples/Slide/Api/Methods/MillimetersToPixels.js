@@ -1,4 +1,8 @@
-// This example shows how to convert millimeters to pixels.
+// Convert millimeters to pixels in a presentation.
+
+// How can I convert millimeters to pixels in a presentation?
+
+// Convert millimeters to pixels in a presentation.
 
 const millimeters = 100;
 const pixels = Api.MillimetersToPixels(millimeters);

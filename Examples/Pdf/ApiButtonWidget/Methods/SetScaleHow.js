@@ -1,4 +1,9 @@
-// This example sets button widget scale how type.
+// Set button widget scale how type in a PDF document.
+
+// How do I set scale how in a PDF document?
+
+// Set scale how using a button widget object in a PDF document.
+
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 let buttonField = Api.CreateImageField([10, 10, 120, 100]);

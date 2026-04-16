@@ -1,6 +1,6 @@
-// This example gets drawings by placeholder type and removes it from slide master.
+// Get drawings by placeholder type and remove it from slide master.
 
-// How to get all drawings as an array by indicating placeholder type from a master.
+// How to get all drawings as an array by indicating placeholder type from a master in a presentation.
 
 // Get drawings by their placeholder type knowing a slide master.
 

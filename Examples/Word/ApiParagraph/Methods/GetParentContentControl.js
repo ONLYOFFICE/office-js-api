@@ -1,8 +1,8 @@
-// This example shows how to get a content control that contains the paragraph.
+// Get a content control that contains the paragraph in a document.
 
-// How to get the parent control of the paragraph.
+// How to get the parent control of the paragraph in a document.
 
-// Make bold the parent element.
+// Make bold the parent element in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

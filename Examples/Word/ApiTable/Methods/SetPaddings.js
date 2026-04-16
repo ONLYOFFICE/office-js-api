@@ -1,8 +1,8 @@
-// This example sets the table paddings.
+// Set the table paddings in a document.
 
-// How to set paddings of the table.
+// How to set paddings of the table in a document.
 
-// Create a table and specify its paddings.
+// Create a table and specify its paddings in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

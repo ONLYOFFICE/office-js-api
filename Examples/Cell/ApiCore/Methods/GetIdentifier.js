@@ -1,4 +1,8 @@
-// This example demonstrates how to get the identifier of the current workbook using the ApiCore.
+// Get the identifier of the current workbook using the core properties in a spreadsheet.
+
+// How do I get the identifier in a spreadsheet?
+
+// Get the identifier using a core properties object in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

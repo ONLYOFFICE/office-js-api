@@ -1,4 +1,8 @@
-// This example demonstrates how to get the category of the document using the ApiCore.
+// Get the category of the document using the core properties in a document.
+
+// How do I get the category in a document?
+
+// Get the category using a core properties object in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

@@ -1,4 +1,9 @@
-// This example shows how to set the form role.
+// Set the form role in a document.
+
+// How to set role for a picture form?
+
+// Set role and display the result in a document.
+
 let doc = Api.GetDocument();
 let roles = doc.GetFormRoles();
 roles.Add("Employee");

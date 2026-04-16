@@ -1,8 +1,8 @@
-// This example shows how to get a collection of content control objects in the current content control.
+// Get a collection of content control objects in the current content control in a document.
 
-// Creates three block content controls, nests two of them inside one, and returns all the inner containers in an array.
+// Create three block content controls, nests two of them inside one, and return all the inner containers in an array in a document.
 
-// How to return an array of the ApiBlockLvlSdt objects from the specified block content control.
+// How to return an array of the block-level content control objects from the specified block content control in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

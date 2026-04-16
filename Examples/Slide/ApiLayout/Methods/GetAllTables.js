@@ -1,4 +1,8 @@
-// This example show how to get an array with all tables from the slide layout.
+// Show how to get an array with all tables from the slide layout.
+
+// How to get all tables for a layout in a presentation?
+
+// Get all tables and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

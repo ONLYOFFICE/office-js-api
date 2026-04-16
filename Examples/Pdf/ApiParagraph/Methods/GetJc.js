@@ -1,6 +1,6 @@
-// This example shows how to get the paragraph contents justification.
+// Get the paragraph contents justification in a PDF document.
 
-// How to get a justification type of a text.
+// How to get a justification type of a text in a PDF document.
 
 // Return a justification of a paragraph from the page.
 

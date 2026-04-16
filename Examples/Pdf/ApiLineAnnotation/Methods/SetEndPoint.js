@@ -1,4 +1,9 @@
-// This example sets end point to line annotation.
+// Set end point to line annotation in a PDF document.
+
+// How to set end point for a line annotation in a PDF document?
+
+// Set end point and display the result in a PDF document.
+
 let doc = Api.GetDocument();
 let lineAnnot = Api.CreateLineAnnot([10, 10, 160, 32], {x: 12, y: 12}, {x: 155, y: 30});
 lineAnnot.SetEndStyle("openArrow");

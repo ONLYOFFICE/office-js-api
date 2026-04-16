@@ -1,4 +1,8 @@
-// This example gets the trigger type of an animation effect.
+// Get the trigger type of an animation effect in a presentation.
+
+// How can I get the trigger type using an animation effect in a presentation?
+
+// Get the trigger type for an animation effect in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

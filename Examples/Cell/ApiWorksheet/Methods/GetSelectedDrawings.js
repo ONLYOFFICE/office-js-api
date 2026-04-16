@@ -1,8 +1,8 @@
-// This example shows how to get selected drawings from the sheet.
+// Get selected drawings from the sheet in a spreadsheet.
 
-// How to get seletectd drawings.
+// How to get seletectd drawings in a spreadsheet.
 
-// Get selected drawings as an array.
+// Get selected drawings as an array in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let gradientStop1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);

@@ -1,4 +1,8 @@
-// This example shows how to get an element from a hyperlink inside a shape.
+// Get an element from a hyperlink inside a shape in a spreadsheet.
+
+// How do I get the element in a spreadsheet?
+
+// Get the element using a hyperlink object in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

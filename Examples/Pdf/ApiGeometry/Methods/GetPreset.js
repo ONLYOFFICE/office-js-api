@@ -1,5 +1,9 @@
-// Gets geometry information from a star shape on a presentation page.
-// Displays preset type and custom status in a text shape.
+// Get geometry information from a star shape on a presentation page. Displays preset type and custom status in a text shape.
+
+// How can I get the preset using a geometry in a PDF document?
+
+// Get the preset for a geometry in a PDF document.
+
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 

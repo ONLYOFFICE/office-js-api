@@ -1,6 +1,6 @@
-// This example shows how to get the bold property of the specified font.
+// Get the bold property of the specified font in a spreadsheet.
 
-// How to know whether a font style of characters is bold.
+// How to know whether a font style of characters is bold in a spreadsheet.
 
 // Get a boolean value that represents whether a font is bold or not and show the value in the worksheet.
 

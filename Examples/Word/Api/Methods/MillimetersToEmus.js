@@ -1,4 +1,8 @@
-// This example shows how to convert millimeters to emus.
+// Convert millimeters to emus in a document.
+
+// How do I convert millimeters to emus in a document?
+
+// Convert millimeters to emus and display the result in a document.
 
 const doc = Api.GetDocument();
 const paragraph = Api.CreateParagraph();

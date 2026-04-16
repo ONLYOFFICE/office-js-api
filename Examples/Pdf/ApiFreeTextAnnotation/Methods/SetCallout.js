@@ -1,4 +1,9 @@
-// This example sets callout for freeText annotation.
+// Set callout for freeText annotation in a PDF document.
+
+// How can I set callout using a free text annotation in a PDF document?
+
+// Set callout for a free text annotation in a PDF document.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

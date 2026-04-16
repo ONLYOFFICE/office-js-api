@@ -1,4 +1,8 @@
-// This example shows how to get the format conditions collection for a range.
+// Get the format conditions collection for a range in a spreadsheet.
+
+// How to get the format conditions for a cell range?
+
+// Get the format conditions and display the result in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 worksheet.GetRange('A1').SetValue('Score');

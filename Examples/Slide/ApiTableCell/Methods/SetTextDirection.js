@@ -1,8 +1,8 @@
-// This example specifies the direction of the text flow for the current table cell.
+// Specify the direction of the text flow for the current table cell.
 
 // How to set text direction of the table cell.
 
-// Create a table and set the text direction for the ApiTableCell object.
+// Create a table and set the text direction for the table cell object.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

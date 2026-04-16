@@ -1,8 +1,8 @@
-// This example inserts a paragraph at the specified position.
+// Insert a paragraph at the specified position in a document.
 
-// How to insert the paragraph into the drawing.
+// How to insert the paragraph into the drawing in a document.
 
-// Create a rectangle and then add a paragraph to it.
+// Create a rectangle and then add a paragraph to it in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example shows hpw to get the lock type of the container.
+// Show hpw to get the lock type of the container in a document.
 
 // How to display the lock of the inline text control in the document.
 
-// Set the lock type of the inline text element and print it.
+// Set the lock type of the inline text element and print it in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

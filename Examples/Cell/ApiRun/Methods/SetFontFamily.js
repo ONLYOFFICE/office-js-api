@@ -1,8 +1,8 @@
-// This example sets all 4 font slots with the specified font family.
+// Set all 4 font slots with the specified font family in a spreadsheet.
 
-// How to change the text font family.
+// How to change the text font family in a spreadsheet.
 
-// Create a text run object and set the "Comic Sans MS" font faminy to it.
+// Create a text run object and set the "Comic Sans MS" font faminy to it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

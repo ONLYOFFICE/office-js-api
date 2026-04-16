@@ -1,5 +1,9 @@
-// Analyzes path commands of a star shape.
-// Retrieves information about the first command including type and coordinates.
+// Analyzes path commands of a star shape. Retrieves information about the first command including type and coordinates.
+
+// How can I get the x using a path command in a document?
+
+// Get the x for a path command in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.RGB(255, 200, 100));

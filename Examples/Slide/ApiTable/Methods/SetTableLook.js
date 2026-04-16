@@ -1,8 +1,8 @@
-// This example shows how to set a table look.
+// Set a table look in a presentation.
 
-// How to set a table look with options.
+// How to set a table look with options in a presentation.
 
-// Create the ApiTable object and set its look.
+// Create the table object and set its look in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

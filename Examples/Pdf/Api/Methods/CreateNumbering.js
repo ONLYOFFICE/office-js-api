@@ -1,6 +1,6 @@
-// This example creates a bullet for paragraphs.
+// Create a bullet for paragraphs in a PDF document.
 
-// How to create a numbered paragraph specifying its numerical.
+// How to create a numbered paragraph specifying its numerical in a PDF document.
 
 // Add numbered paragraph to the page.
 

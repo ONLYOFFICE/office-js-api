@@ -1,6 +1,6 @@
-// This example sets the user ID to the comment author.
+// Set the user ID to the comment author in a document.
 
-// How to change an author's user ID of a comment.
+// How to change an author's user ID of a comment in a document.
 
 // Get all comments from the presentation and change its first one's user ID.
 

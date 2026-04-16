@@ -1,8 +1,8 @@
-// This example sets the bold property to the text character.
+// Set the bold property to the text character in a presentation.
 
-// How to make a text bold.
+// How to make a text bold in a presentation.
 
-// Get the text properties of the run and set it to bold.
+// Get the text properties of the run and set it to bold in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

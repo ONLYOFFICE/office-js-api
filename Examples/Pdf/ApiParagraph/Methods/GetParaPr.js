@@ -1,8 +1,8 @@
-// This example shows how to get the paragraph properties.
+// Get the paragraph properties in a PDF document.
 
-// How to get a paragraph properties and set its spacing size.
+// How to get a paragraph properties and set its spacing size in a PDF document.
 
-// Change paragraph properties.
+// Change paragraph properties in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

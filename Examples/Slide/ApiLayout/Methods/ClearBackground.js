@@ -1,8 +1,8 @@
-// This example clears backgound for a slide.
+// Clear backgound for a slide.
 
-// How to remove a background from a layout.
+// How to remove a background from a layout in a presentation.
 
-// Clear background from a layout object.
+// Clear background from a layout object in a presentation.
 
 const presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);

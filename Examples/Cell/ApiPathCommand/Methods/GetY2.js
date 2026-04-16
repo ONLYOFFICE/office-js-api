@@ -1,5 +1,9 @@
-// Extracts control points from a cubic bezier curve command.
-// Displays all bezier control points coordinates in spreadsheet cells.
+// Extracts control points from a cubic bezier curve command. Displays all bezier control points coordinates in spreadsheet cells.
+
+// How to get the y2 for a path command in a spreadsheet?
+
+// Get the y2 and display the result in a spreadsheet.
+
 let worksheet = Api.GetActiveSheet();
 let customGeometry = Api.CreateCustomGeometry();
 let path = customGeometry.AddPath();

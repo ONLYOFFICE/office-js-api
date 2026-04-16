@@ -1,8 +1,8 @@
-// This example shows how to get a set of default paragraph properties in the current document.
+// Get a set of default paragraph properties in the current document in a document.
 
-// How to update the default paragraph properties such as spacing, justification, etc.
+// How to update the default paragraph properties such as spacing, justification, etc in a document.
 
-// Display the paragraph text after changing its default properties.
+// Display the paragraph text after changing its default properties in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

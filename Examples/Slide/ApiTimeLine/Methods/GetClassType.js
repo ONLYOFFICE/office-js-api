@@ -1,4 +1,8 @@
-// This example gets the class type of the ApiTimeLine object.
+// Check the class type returned by a timeline in a presentation.
+
+// How do I check what type a timeline object is in a presentation?
+
+// Retrieve and output the class type string for a timeline in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

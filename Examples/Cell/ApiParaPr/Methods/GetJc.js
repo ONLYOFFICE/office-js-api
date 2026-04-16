@@ -1,6 +1,6 @@
-// This example shows how to get the paragraph contents justification.
+// Get the paragraph contents justification in a spreadsheet.
 
-// How to know the justification type of a paragraph.
+// How to know the justification type of a paragraph in a spreadsheet.
 
 // Create a paragraph set justification type, get it and display in the worksheet.
 

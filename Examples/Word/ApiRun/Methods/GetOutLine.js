@@ -1,4 +1,8 @@
-// This example shows how get outline of the existing run.
+// Show how get outline of the existing run in a document.
+
+// How can I get the out line using a text run in a document?
+
+// Get the out line for a text run in a document.
 
 const doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

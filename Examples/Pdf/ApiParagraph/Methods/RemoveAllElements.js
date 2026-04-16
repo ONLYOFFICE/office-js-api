@@ -1,8 +1,8 @@
-// This example removes all the elements from the paragraph.
+// Remove all the elements from the paragraph in a PDF document.
 
-// How to delete all elements from the paragraph.
+// How to delete all elements from the paragraph in a PDF document.
 
-// Clear all elements from the paragraph.
+// Clear all elements from the paragraph in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

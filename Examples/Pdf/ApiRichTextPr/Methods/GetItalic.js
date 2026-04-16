@@ -1,4 +1,9 @@
-// This example gets italic property from rich text properties object.
+// Get italic property from rich text properties object in a PDF document.
+
+// How do I get italic in a PDF document?
+
+// Get italic using a rich text properties object in a PDF document.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

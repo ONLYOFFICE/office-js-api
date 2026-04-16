@@ -1,4 +1,8 @@
-// This example shows how to check if the color is a theme color.
+// Check if the color is a theme color in a PDF document.
+
+// How to is theme color for a color in a PDF document?
+
+// Is theme color and display the result in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// This example sets the error message title.
+// Set the error message title in a spreadsheet.
 
-// How to set the validation error title.
+// How to set the validation error title in a spreadsheet.
 
-// Set the error title.
+// Set error title for a validation in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");

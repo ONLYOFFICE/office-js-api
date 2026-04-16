@@ -1,4 +1,4 @@
-// This example freezes first column and get pastes a freezed type into the table.
+// Freeze first column and get pastes a freezed type into the table in a spreadsheet.
 
 // How to freeze a column in a worksheet.
 

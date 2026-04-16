@@ -1,4 +1,4 @@
-// This example adds the new rows to the table.
+// Add the new rows to the table in a document.
 
 // Insert new rows after the current cell.
 

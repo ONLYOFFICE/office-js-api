@@ -1,4 +1,4 @@
-// This example applies the specified layout to the slide. The layout must be in slide master.
+// Apply the specified layout to the slide. The layout must be in slide master.
 
 // How to apply a layout to the slide.
 

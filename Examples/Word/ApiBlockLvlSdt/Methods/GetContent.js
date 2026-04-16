@@ -1,4 +1,9 @@
-// This example shows how to get the content of the container.
+// Get the content of the container in a document.
+
+// How to get the content for a block-level content control in a document?
+
+// Get the content and display the result in a document.
+
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();
 let paragraph = Api.CreateParagraph();

@@ -1,4 +1,4 @@
-// This example sets the number format for a conditional formatting rule.
+// Set the number format for a conditional formatting rule.
 
 // How to apply number formatting to conditional formatting rules.
 

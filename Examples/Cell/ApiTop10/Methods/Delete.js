@@ -1,4 +1,4 @@
-// This example demonstrates how to delete a top 10 conditional formatting rule.
+// Delete a top 10 conditional formatting rule in a spreadsheet.
 
 // How to remove conditional formatting rules from a range.
 

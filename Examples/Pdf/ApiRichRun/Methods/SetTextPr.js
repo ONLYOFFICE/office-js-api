@@ -1,4 +1,9 @@
-// This example sets rich text properties to rich run object.
+// Set rich text properties to rich run object in a PDF document.
+
+// How can I set text pr using a rich text run in a PDF document?
+
+// Set text pr for a rich text run in a PDF document.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// This example shows how to return the prorated linear depreciation of an asset for each accounting period.
+// Return the prorated linear depreciation of an asset for each accounting period in a spreadsheet.
 
 // How to get a prorated linear depreciation of an asset for each accounting period and display it in the worksheet.
 
-// Get a function that gets prorated linear depreciation of an asset for each accounting period.
+// Get a function that gets prorated linear depreciation of an asset for each accounting period in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

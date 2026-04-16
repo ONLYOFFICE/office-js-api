@@ -1,7 +1,9 @@
-// Gets the dash type of a stroke.
-// Creates a shape with a solid border and displays its dash type.
-// Returns string value: "dash", "dashDot", "dot", "lgDash", "lgDashDot",
-// "lgDashDotDot", "solid", "sysDash", "sysDashDot", "sysDashDotDot", "sysDot"
+// Get the dash type of a stroke. Creates a shape with a solid border and display its dash type. Returns string value: "dash", "dashDot", "dot", "lgDash", "lgDashDot", "lgDashDotDot", "solid", "sysDash", "sysDashDot", "sysDashDotDot", "sysDot" in a spreadsheet.
+
+// How can I get the dash type using a stroke in a spreadsheet?
+
+// Get the dash type for a stroke in a spreadsheet.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 200, 100));
 let stroke = Api.CreateStroke(36000, Api.CreateSolidFill(Api.CreateRGBColor(0, 0, 255)));

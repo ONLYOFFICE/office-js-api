@@ -1,4 +1,4 @@
-// This example shows how to get a layout page break of a pivot field.
+// Get a layout page break of a pivot field in a spreadsheet.
 
 // How to get a layout page break of a pivot field.
 

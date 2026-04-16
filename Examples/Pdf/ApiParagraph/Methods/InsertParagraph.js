@@ -1,4 +1,8 @@
-// This example inserts a paragraph at the specified position.
+// Insert a paragraph at the specified position in a PDF document.
+
+// How can I insert the paragraph using a paragraph in a PDF document?
+
+// Insert the paragraph for a paragraph in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

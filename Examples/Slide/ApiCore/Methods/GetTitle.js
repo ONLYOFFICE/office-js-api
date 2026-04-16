@@ -1,4 +1,8 @@
-// This example demonstrates how to set and get the title of the current presentation.
+// Set and get the title of the current presentation in a presentation.
+
+// How can I get the title using a core properties in a presentation?
+
+// Get the title for a core properties in a presentation.
 
 const presentation = Api.GetPresentation();
 const core = presentation.GetCore();

@@ -1,8 +1,8 @@
-// This example shows how to get the comment ID.
+// Get the comment ID in a document.
 
-// Display comment author name by finding a comment by its ID.
+// Display comment author name by finding a comment by its ID in a document.
 
-// How to get a comment knowing its ID.
+// How to get a comment knowing its ID in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

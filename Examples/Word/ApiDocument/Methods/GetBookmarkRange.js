@@ -1,8 +1,8 @@
-// This example showh how to get a bookmark range.
+// Showh how to get a bookmark range in a document.
 
-// Get a range with a bookmark with specific name.
+// Get a range with a bookmark with specific name in a document.
 
-// How to retrieve a range bookmarked and set it bold.
+// How to retrieve a range bookmarked and set it bold in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

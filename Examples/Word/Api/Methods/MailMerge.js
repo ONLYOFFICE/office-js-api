@@ -1,8 +1,8 @@
-// This example shows how to start the mail merge process.
+// Start the mail merge process in a document.
 
-// Wraps the text runs in the mail merge fields, loads the mail merge data into the document, and starts the mail merge process.
+// Wrap the text runs in the mail merge fields, loads the mail merge data into the document, and start the mail merge process.
 
-// How to use the mail merge feature starting from the first mail merge record.
+// How to use the mail merge feature starting from the first mail merge record in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

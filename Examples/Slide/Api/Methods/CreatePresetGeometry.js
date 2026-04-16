@@ -1,4 +1,9 @@
-// This example demonstrates creating a preset geometry in presentations.
+// Create a preset geometry in presentations.
+
+// How can I create the preset geometry in a presentation?
+
+// Create the preset geometry in a presentation.
+
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);
 

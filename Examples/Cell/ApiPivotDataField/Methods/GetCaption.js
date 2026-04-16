@@ -1,8 +1,8 @@
-// This example shows how to get a caption of a data field.
+// Get a caption of a data field in a spreadsheet.
 
-// How to get a table element caption.
+// How to get a table element caption in a spreadsheet.
 
-// Create a pivot table, add data to it then display a custom data field's caption text.
+// Create a pivot table, add data to it then display a custom data field's caption text in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

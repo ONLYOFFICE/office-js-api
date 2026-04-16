@@ -1,6 +1,6 @@
-// This example demonstrates setting the direction of a data bar conditional formatting rule.
+// Set the direction of a data bar conditional formatting rule.
 
-// How to change the reading order direction of a data bar.
+// How to change the reading order direction of a data bar in a spreadsheet.
 
 // Set the direction of a data bar conditional formatting rule.
 

@@ -1,4 +1,8 @@
-// This example gets the shape associated with an animation effect.
+// Get the shape associated with an animation effect in a presentation.
+
+// How do I get the shape in a presentation?
+
+// Get the shape using an animation effect object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

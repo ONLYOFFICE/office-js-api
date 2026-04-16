@@ -1,8 +1,8 @@
-// This example shows how to return the standard normal cumulative distribution (has a mean of zero and a standard deviation of one).
+// Return the standard normal cumulative distribution (has a mean of zero and a standard deviation of one) in a spreadsheet.
 
-// How to calculate the standard normal cumulative distribution.
+// How to calculate the standard normal cumulative distribution in a spreadsheet.
 
-// Use a function to get the standard normal cumulative distribution.
+// Use a function to get the standard normal cumulative distribution in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 let valueArr = [0.34, 7, 3];

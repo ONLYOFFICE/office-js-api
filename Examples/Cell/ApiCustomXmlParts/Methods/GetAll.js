@@ -1,8 +1,8 @@
-// This example shows how to get all custom XML parts.
+// Get all custom XML parts in a spreadsheet.
 
-// How to retrieve all custom XML parts from the workbook.
+// How to retrieve all custom XML parts from the workbook in a spreadsheet.
 
-// Get all XML parts.
+// Get all for a custom XML parts in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let xmlManager = worksheet.GetCustomXmlParts();

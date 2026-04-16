@@ -1,4 +1,8 @@
-// This example gets all interactive animation sequences from a timeline.
+// Get all interactive animation sequences from a timeline in a presentation.
+
+// How do I get the interactive sequences in a presentation?
+
+// Get the interactive sequences using a timeline object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

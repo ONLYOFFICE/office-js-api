@@ -1,6 +1,6 @@
-// This example sets a placeholder for the shape.
+// Set a placeholder for the shape in a presentation.
 
-// How to set a placeholder for a shape.
+// How to set a placeholder for a shape in a presentation.
 
 // Select a shape object from a slide and change its placeholder.
 

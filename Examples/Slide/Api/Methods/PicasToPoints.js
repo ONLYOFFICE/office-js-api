@@ -1,4 +1,8 @@
-// This example shows how to convert picas to points.
+// Convert picas to points in a presentation.
+
+// How do I convert picas to points in a presentation?
+
+// Convert picas to points and display the result in a presentation.
 
 const picas = 100;
 const points = Api.PicasToPoints(picas);

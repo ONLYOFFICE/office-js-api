@@ -1,8 +1,8 @@
-// This example specifies the alignment of the table with respect to the text margins in the current section.
+// Specify the alignment of the table with respect to the text margins in the current section in a document.
 
-// How to set justification of the table.
+// How to set justification of the table in a document.
 
-// Create a table setting its justification property.
+// Create a table setting its justification property in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

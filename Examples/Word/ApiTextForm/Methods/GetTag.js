@@ -1,4 +1,9 @@
-// This example shows how to get the form tag.
+// Get the form tag in a document.
+
+// How do I get the tag in a document?
+
+// Get the tag using a text form object.
+
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"tag" : "Info", "key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});
 let paragraph = doc.GetElement(0);

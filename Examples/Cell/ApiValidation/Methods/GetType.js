@@ -1,8 +1,8 @@
-// This example gets the validation type.
+// Get the validation type in a spreadsheet.
 
-// How to retrieve the validation type.
+// How to retrieve the validation type in a spreadsheet.
 
-// Get the validation type.
+// Get the validation type using the validation API in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");

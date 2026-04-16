@@ -1,4 +1,4 @@
-// This example demonstrates modifying the range to which a unique values conditional formatting rule applies.
+// Modifye the range to which an unique values conditional formatting rule applies.
 
 // How to change the range for existing conditional formatting rule.
 

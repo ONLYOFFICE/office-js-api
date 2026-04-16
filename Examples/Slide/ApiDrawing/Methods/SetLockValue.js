@@ -1,6 +1,6 @@
-// This example sets the lock value to the specified lock type of the shape.
+// Set the lock value to the specified lock type of the shape in a presentation.
 
-// How to set a lock value to a shape which means that the shape cannot be selected.
+// How to set a lock value to a shape which means that the shape cannot be selected in a presentation.
 
 // Select a shape object from a slide and set its lock value.
 

@@ -1,4 +1,8 @@
-// This example shows how to get all font names from all elements inside the paragraph.
+// Get all font names from all elements inside the paragraph in a presentation.
+
+// How do I get the font names in a presentation?
+
+// Get the font names using a paragraph object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

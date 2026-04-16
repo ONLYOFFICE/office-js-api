@@ -1,4 +1,8 @@
-// This example shows how to set small caps formatting for all text in a paragraph inside a shape.
+// Set small caps formatting for all text in a paragraph inside a shape in a spreadsheet.
+
+// How can I set small caps using a paragraph in a spreadsheet?
+
+// Set small caps for a paragraph in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const fill = Api.CreateSolidFill(Api.RGB(110, 120, 160));

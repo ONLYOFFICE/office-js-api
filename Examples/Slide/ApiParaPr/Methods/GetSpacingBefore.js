@@ -1,8 +1,8 @@
-// This example shows how to get the spacing before value of the current paragraph.
+// Get the spacing before value of the current paragraph in a presentation.
 
-// How to get the size of a spacing before a text from a paragraph.
+// How to get the size of a spacing before a text from a paragraph in a presentation.
 
-// Return a property of the spacing size before a paragraph.
+// Return a property of the spacing size before a paragraph in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

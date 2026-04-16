@@ -1,8 +1,8 @@
-// This example demonstrates getting the pivot table condition object from a unique values conditional formatting rule.
+// Get the pivot table condition object from an unique values conditional formatting rule.
 
 // How to retrieve pivot table condition settings from unique values conditional formatting.
 
-// Get the pivot table condition object from the unique values rule.
+// Get the pivot table condition object from the unique values rule in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

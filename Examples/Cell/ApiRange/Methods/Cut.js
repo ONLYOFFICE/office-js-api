@@ -1,8 +1,8 @@
-// This example cuts a range to the clipboard.
+// Cuts a range to the clipboard in a spreadsheet.
 
-// How to cut a range.
+// How to cut a range in a spreadsheet.
 
-// Get a range, set some value for it and cut it to the clipboard.
+// Get a range, set some value for it and cut it to the clipboard in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");

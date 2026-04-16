@@ -1,8 +1,8 @@
-// This example shows how to resize a range to a different number of rows and columns.
+// Resize a range to a different number of rows and columns in a spreadsheet.
 
-// How to resize a range.
+// How to resize a range in a spreadsheet.
 
-// Get a range, resize it and fill the resized range with color.
+// Get a range, resize it and fill the resized range with color in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let originalRange = worksheet.GetRange("B2:C3");

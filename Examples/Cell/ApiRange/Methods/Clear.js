@@ -1,8 +1,8 @@
-// This example clears the range.
+// Clear the range in a spreadsheet.
 
-// How to clear a content of a range.
+// How to clear a content of a range in a spreadsheet.
 
-// Get a range and remove everything from it.
+// Get a range and remove everything from it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1:B1");

@@ -1,8 +1,8 @@
-// This example shows how to return the accrued interest for a security that pays periodic interest.
+// Return the accrued interest for a security that pays periodic interest in a spreadsheet.
 
-// How to get an accrued interest for a security that pays periodic interest.
+// How to get an accrued interest for a security that pays periodic interest in a spreadsheet.
 
-// Get a function that gets accrued interest for a security.
+// Get a function that gets accrued interest for a security in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

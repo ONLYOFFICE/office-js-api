@@ -1,8 +1,8 @@
-// This example adds a page break and starts the next element from the next page.
+// Add a page break and start the next element from the next page.
 
 // How to add a page break to the text.
 
-// Add a break between the text of a paragraph. 
+// Add a break between the text of a paragraph in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

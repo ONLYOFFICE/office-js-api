@@ -1,5 +1,9 @@
-// Gets the fill type and displays it.
-// Creates shapes with different fill types and shows their types.
+// Get the fill type and display it. Creates shapes with different fill types and show their types in a PDF document.
+
+// How to get the type for a fill in a PDF document?
+
+// Get the type and display the result in a PDF document.
+
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 

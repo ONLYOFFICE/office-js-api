@@ -1,8 +1,8 @@
-// This example shows how to get the previous paragraph.
+// Get the previous paragraph in a document.
 
-// How to get the previous paragraph.
+// How to get the previous paragraph in a document.
 
-// Get the paragraph, its previous one and make it bold.
+// Get the paragraph, its previous one and make it bold in a document.
 
 let doc = Api.GetDocument();
 let paragraph1 = doc.GetElement(0);

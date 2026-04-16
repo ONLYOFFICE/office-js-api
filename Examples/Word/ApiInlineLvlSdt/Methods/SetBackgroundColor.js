@@ -1,4 +1,8 @@
-// This example shows how to set the background color for the container.
+// Set the background color for the container in a document.
+
+// How can I set background color using an inline content control in a document?
+
+// Set background color for an inline content control in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

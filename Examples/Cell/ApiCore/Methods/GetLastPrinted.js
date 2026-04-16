@@ -1,4 +1,8 @@
-// This example demonstrates how to get the date when the current workbook was printed last time.
+// Get the date when the current workbook was printed last time in a spreadsheet.
+
+// How to get last printed for a core properties in a spreadsheet?
+
+// Get last printed and display the result in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

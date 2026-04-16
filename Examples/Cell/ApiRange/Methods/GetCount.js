@@ -1,4 +1,4 @@
-// This example shows how to get the cells count in the range.
+// Get the cells count in the range in a spreadsheet.
 
 // How to find out how many cells a range has.
 

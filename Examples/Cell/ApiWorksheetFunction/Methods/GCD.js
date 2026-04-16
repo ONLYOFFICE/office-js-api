@@ -1,8 +1,8 @@
-// This example shows how to calculate the greatest common divisor.
+// Calculate the greatest common divisor in a spreadsheet.
 
-// How to find the greatest common divisor.
+// How to find the greatest common divisor in a spreadsheet.
 
-// Use a function to calculate the greatest common divisor.
+// Use a function to calculate the greatest common divisor in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

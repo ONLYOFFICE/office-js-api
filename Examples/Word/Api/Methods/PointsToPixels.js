@@ -1,4 +1,8 @@
-// This example shows how to convert points to pixels.
+// Convert points to pixels in a document.
+
+// How to convert points to pixels in a document?
+
+// Convert points to pixels using the document API.
 
 const doc = Api.GetDocument();
 const paragraph = Api.CreateParagraph();

@@ -1,8 +1,8 @@
-// This example shows how to check if only icons are displayed.
+// Check if only icons are displayed in a spreadsheet.
 
 // How to determine if icon set displays only icons without cell values.
 
-// Check if the icon set rule shows only icons.
+// Check if the icon set rule shows only icons in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

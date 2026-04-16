@@ -1,6 +1,6 @@
-// This example demonstrates getting the maximum point value from a data bar conditional formatting rule.
+// Get the maximum point value from a data bar conditional formatting rule.
 
-// How to retrieve the value of the maximum condition.
+// How to retrieve the value of the maximum condition in a spreadsheet.
 
 // Get the maximum point value of a data bar conditional formatting rule.
 

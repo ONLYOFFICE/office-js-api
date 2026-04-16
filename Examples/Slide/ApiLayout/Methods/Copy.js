@@ -1,6 +1,6 @@
-// This example creates a copy of slide layout and apply it for other slide.
+// Create a copy of slide layout and apply it for other slide.
 
-// How to create a copy of a layout.
+// How to create a copy of a layout in a presentation.
 
 // Copy a layout of a presentation master.
 

@@ -1,8 +1,8 @@
-// This example shows how to get a display field captions of a pivot table.
+// Get a display field captions of a pivot table in a spreadsheet.
 
-// How to get pivot table display field captions.
+// How to get pivot table display field captions in a spreadsheet.
 
-// Create a pivot table, add data to it then get its display field captions.
+// Create a pivot table, add data to it then get its display field captions in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

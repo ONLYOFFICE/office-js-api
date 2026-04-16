@@ -1,8 +1,8 @@
-// This example shows how to refresh a table.
+// Refresh a table in a spreadsheet.
 
-// How to refresh table values.
+// How to refresh table values in a spreadsheet.
 
-// Create a pivot table, add data to it then refresh it.
+// Create a pivot table, add data to it then refresh it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

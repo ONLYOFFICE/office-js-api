@@ -1,8 +1,8 @@
-// This example sets your own customized numbering type.
+// Set your own customized numbering type in a document.
 
-// How to set the custom type of the numbering.
+// How to set the custom type of the numbering in a document.
 
-// Apply the lower roman style to the numbering level.
+// Apply the lower roman style to the numbering level in a document.
 
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("numbered");

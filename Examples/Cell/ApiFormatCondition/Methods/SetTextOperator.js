@@ -1,4 +1,4 @@
-// This example sets the text operator for a text-based conditional formatting rule.
+// Set the text operator for a text-based conditional formatting rule.
 
 // How to change text operators in text-based conditional formatting rules.
 

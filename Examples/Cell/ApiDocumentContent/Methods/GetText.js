@@ -1,4 +1,8 @@
-// This example shows how to get all text from the document content of a shape.
+// Get all text from the document content of a shape in a spreadsheet.
+
+// How to get the text for a document content?
+
+// Get the text and display the result in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

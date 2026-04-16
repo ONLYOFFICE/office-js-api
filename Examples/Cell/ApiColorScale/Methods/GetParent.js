@@ -1,8 +1,8 @@
-// This example gets the parent range object of color scale formatting.
+// Get the parent range object of color scale formatting.
 
 // How to retrieve the parent range that contains color scale conditional formatting.
 
-// Get color scale parent range.
+// Get color scale parent range in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

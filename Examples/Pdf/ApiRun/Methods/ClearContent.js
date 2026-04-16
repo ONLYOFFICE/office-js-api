@@ -1,6 +1,6 @@
-// This example clears the content from the run.
+// Clear the content from the run in a PDF document.
 
-// How to delete content from the text run.
+// How to delete content from the text run in a PDF document.
 
 // Remove text from the page.
 

@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the presentation.
+// Retrieve the class type of a drawing object in a presentation.
 
-// How to get a class type of ApiDrawing.
+// How to identify the class type of a drawing object in a presentation?
 
-// Retrieve class type of ApiDrawing object and insert it to the slide.
+// Obtain the class type identifier of a drawing object object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

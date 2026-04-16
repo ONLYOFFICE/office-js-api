@@ -1,8 +1,8 @@
-// This example checks if the current form is fixed size.
+// Check if the current form is fixed size.
 
 // How to know whether a combobox form is fixed or not.
 
-// Display a boolean representing whether a combobox is fixed.
+// Display a boolean representing whether a combobox is fixed in a document.
 
 let doc = Api.GetDocument();
 let dateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});

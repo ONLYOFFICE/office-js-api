@@ -1,6 +1,6 @@
-// This example demonstrates setting whether the rule looks for above or below average values.
+// Set whether the rule looks for above or below average values in a spreadsheet.
 
-// How to switch between above average and below average conditions.
+// How to switch between above average and below average conditions in a spreadsheet.
 
 // Toggle between above and below average conditional formatting.
 

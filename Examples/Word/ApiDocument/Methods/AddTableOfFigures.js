@@ -1,8 +1,8 @@
-// This example adds a table of figures to the current document.
+// Add a table of figures to the current document.
 
 // How to add drawings to the document and generate a table of figures.
 
-// Insert a table of figures specifying its properties.
+// Insert a table of figures specifying its properties in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

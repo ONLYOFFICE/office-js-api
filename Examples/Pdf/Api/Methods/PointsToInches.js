@@ -1,4 +1,8 @@
-// This example shows how to convert points to inches.
+// Convert points to inches in a PDF document.
+
+// How can I convert points to inches in a PDF document?
+
+// Convert points to inches in a PDF document.
 
 const points = 1000;
 const inches = Api.PointsToInches(points);

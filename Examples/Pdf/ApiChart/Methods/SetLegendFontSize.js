@@ -1,6 +1,8 @@
-// How to resize a font of a chart legend.
+// How to resize a font of a chart legend in a PDF document.
 
-// Create a chart, set its properties and its legend's font size.
+// Create a chart, set its properties and its legend's font size in a PDF document.
+
+// Use chart to set legend font size in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

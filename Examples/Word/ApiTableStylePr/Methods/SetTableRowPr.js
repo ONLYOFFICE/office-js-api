@@ -1,8 +1,8 @@
-// This example shows how to create and set the table row properties which will be applied to all the rows within a table which match the conditional formatting type.
+// Create and set the table row properties which will be applied to all the rows within a table which match the conditional formatting type.
 
-// How to set table row properties to table style and set its height.
+// How to set table row properties to table style and set its height in a document.
 
-// Update the table style table row properties.
+// Update the table style table row properties in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,4 +1,8 @@
-// This example shows how to create a hex color and use it as a shape fill.
+// Create a hex color and use it as a shape fill in a presentation.
+
+// How to hex color in a presentation?
+
+// Hex color using the presentation API.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

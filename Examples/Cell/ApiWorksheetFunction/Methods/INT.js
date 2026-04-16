@@ -1,8 +1,8 @@
-// This example shows how to round a number down to the nearest integer.
+// Round a number down to the nearest integer in a spreadsheet.
 
-// How to round a number down to the nearest integer.
+// How to round a number down to the nearest integer in a spreadsheet.
 
-// Use a function to round down a number.
+// Use a function to round down a number in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

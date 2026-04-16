@@ -1,4 +1,8 @@
-// This example shows how to apply double strikeout formatting to a paragraph inside a shape.
+// Apply double strikeout formatting to a paragraph inside a shape in a spreadsheet.
+
+// How do I set double strikeout in a spreadsheet?
+
+// Set double strikeout using a paragraph object in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const fill = Api.CreateSolidFill(Api.RGB(150, 110, 90));

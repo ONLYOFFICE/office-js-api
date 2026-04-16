@@ -1,4 +1,8 @@
-// This example deletes an animation effect.
+// Delete an animation effect in a presentation.
+
+// How to delete for an animation effect in a presentation?
+
+// Delete and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

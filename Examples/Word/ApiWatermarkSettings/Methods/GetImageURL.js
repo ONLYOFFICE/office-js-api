@@ -1,8 +1,8 @@
-// This example sets the parameters of the watermark settings and apply them to the document.
+// Set the parameters of the watermark settings and apply them to the document.
 
-// How to get the URL of the image.
+// How to get the URL of the image in a document.
 
-// Get the watermark image link address.
+// Get the watermark image link address in a document.
 
 let doc = Api.GetDocument();
 let watermarkSettings = doc.GetWatermarkSettings();

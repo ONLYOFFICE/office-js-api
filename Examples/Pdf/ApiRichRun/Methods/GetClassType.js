@@ -1,4 +1,9 @@
-// This example gets class type of rich run object.
+// Find out the class type of a rich text run object in a PDF document.
+
+// How can I get the class type of a rich text run in a PDF document?
+
+// Get the class type of a rich text run and display it in the PDF.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

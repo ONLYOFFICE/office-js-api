@@ -1,8 +1,8 @@
-// This example specifies the amount by which text is raised or lowered for the Range in relation to the default baseline of the surrounding non-positioned text.
+// Specify the amount by which text is raised or lowered for the Range in relation to the default baseline of the surrounding non-positioned text in a document.
 
-// How to set an inline position of a range text.
+// How to set an inline position of a range text in a document.
 
-// Get a range text, specify its position to move down or up.
+// Get a range text, specify its position to move down or up in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

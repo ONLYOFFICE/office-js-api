@@ -1,8 +1,8 @@
-// This example sets the bullet or numbering to the paragraph.
+// Set the bullet or numbering to the paragraph in a presentation.
 
-// How to create a bulleted paragraph.
+// How to create a bulleted paragraph in a presentation.
 
-// Create a numbered paragraph.
+// Create a numbered paragraph in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

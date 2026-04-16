@@ -1,6 +1,8 @@
-// How to get a class type of ApiTable.
+// Retrieve the class type of a table in a PDF document.
 
-// Retrieve class type of ApiTable object and insert it to the page.
+// How to identify the class type of a table in a PDF document?
+
+// Obtain the class type identifier of a table object in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

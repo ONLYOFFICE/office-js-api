@@ -1,8 +1,8 @@
-// This example shows how to get the discount rate for a security.
+// Get the discount rate for a security in a spreadsheet.
 
-// How to get a security discount rate.
+// How to get a security discount rate in a spreadsheet.
 
-// Use function to find security discount rate.
+// Use function to find security discount rate in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

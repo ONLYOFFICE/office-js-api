@@ -1,4 +1,8 @@
-// This example shows how to update an XML element in a custom XML part.
+// Update an XML element in a custom XML part in a spreadsheet.
+
+// How do I update element in a spreadsheet?
+
+// Update element using a custom XML part object in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const xmlManager = worksheet.GetCustomXmlParts();

@@ -1,6 +1,6 @@
-// This example delets the comment from the document.
+// Delets the comment from the document.
 
-// How to remove a comment.
+// How to remove a comment in a document.
 
 // Get all comments from the presentation and remove the first one.
 

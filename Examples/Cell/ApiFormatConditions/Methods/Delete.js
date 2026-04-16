@@ -1,4 +1,4 @@
-// This example deletes all conditional formatting from a range.
+// Delete all conditional formatting from a range.
 
 // How to delete conditional formatting rules from cells.
 

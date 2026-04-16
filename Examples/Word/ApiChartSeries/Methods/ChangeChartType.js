@@ -1,8 +1,8 @@
-// This example changes the type of the first series of ApiChart class and inserts the new type into the document.
+// Change the type of the first series of chart class and insert the new type into the document.
 
-// How to change a chart type.
+// How to change a chart type in a document.
 
-// Change a chart type to the "area" type.
+// Change a chart type to the "area" type in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

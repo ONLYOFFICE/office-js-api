@@ -1,8 +1,8 @@
-// This example sets the x-axis values to all chart series. It is used with the scatter charts only.
+// Set the x-axis values to all chart series. It is used with the scatter charts only in a presentation.
 
-// How to add values to horizontal axis for all series of scatter charts.
+// How to add values to horizontal axis for all series of scatter charts in a presentation.
 
-// Fill all x-axis values of scattered charts series.
+// Fill all x-axis values of scattered charts series in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

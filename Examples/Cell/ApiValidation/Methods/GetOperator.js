@@ -1,8 +1,8 @@
-// This example gets the data validation operator.
+// Get the data validation operator in a spreadsheet.
 
-// How to retrieve the validation operator.
+// How to retrieve the validation operator in a spreadsheet.
 
-// Get the operator.
+// Get the operator using the validation API in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");

@@ -1,8 +1,8 @@
-// This example demonstrates getting the above/below setting from an above average conditional formatting rule.
+// Get the above/below setting from an above average conditional formatting rule.
 
-// How to check if the rule is looking for above or below average values.
+// How to check if the rule is looking for above or below average values in a spreadsheet.
 
-// Get whether the rule is checking for above or below average values.
+// Get whether the rule is checking for above or below average values in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

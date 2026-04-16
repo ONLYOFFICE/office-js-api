@@ -1,4 +1,8 @@
-// This example shows how to get the class type of an ApiTheme object.
+// Retrieve the class type of a theme in a spreadsheet.
+
+// How to identify the class type of a theme in a spreadsheet?
+
+// Obtain the class type identifier of a theme object in a spreadsheet.
 
 const workbook = Api.GetActiveWorkbook();
 const theme = workbook.GetTheme();

@@ -1,4 +1,8 @@
-// This example gets a class type and pastes it into the presentation.
+// Retrieve the class type of a core properties in a presentation.
+
+// How to identify the class type of a core properties in a presentation?
+
+// Obtain the class type identifier of a core properties object in a presentation.
 
 const presentation = Api.GetPresentation();
 const core = presentation.GetCore();

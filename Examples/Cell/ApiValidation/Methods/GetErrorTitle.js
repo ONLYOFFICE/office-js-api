@@ -1,8 +1,8 @@
-// This example gets the error message title.
+// Get the error message title in a spreadsheet.
 
-// How to retrieve the validation error title.
+// How to retrieve the validation error title in a spreadsheet.
 
-// Get the error title.
+// Get the error title and display the result in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");

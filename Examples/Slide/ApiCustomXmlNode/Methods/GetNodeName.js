@@ -1,4 +1,8 @@
-// This example demonstrates how to retrieve the name of the current XML node.
+// Retrieve the name of the current XML node in a presentation.
+
+// How do I get the node name in a presentation?
+
+// Get the node name using a custom XML node object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

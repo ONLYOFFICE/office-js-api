@@ -1,4 +1,4 @@
-// This example finds the previous cell that matches those same conditions.
+// Find the previous cell that matches those same conditions.
 
 // How to get the previous cell from a range that meets search requirements.
 

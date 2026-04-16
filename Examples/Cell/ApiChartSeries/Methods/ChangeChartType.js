@@ -1,8 +1,8 @@
-// This example changes the type of the first series of ApiChart class and inserts the new type into the document.
+// Change the type of the first series of chart class and insert the new type into the document.
 
-// How to change a chart type to an area one.
+// How to change a chart type to an area one in a spreadsheet.
 
-// Change a chart type.
+// Change chart type and display the result in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

@@ -1,8 +1,8 @@
-// This example specifies that the contents of the current run are displayed with a single horizontal line through the center of the line.
+// Specify that the contents of the current run are displayed with a single horizontal line through the center of the line in a spreadsheet.
 
-// How to strike out a text with one line.
+// How to strike out a text with one line in a spreadsheet.
 
-// Create a text run object, cross out it.
+// Create a text run object, cross out it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

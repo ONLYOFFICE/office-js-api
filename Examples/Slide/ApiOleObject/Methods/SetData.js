@@ -1,8 +1,8 @@
-// This example sets the data to the current OLE object.
+// Set the data to the current OLE object in a presentation.
 
-// Set data to an OLE object.
+// Set data to an OLE object in a presentation.
 
-// How to insert a url address to the OLE object.
+// How to insert an url address to the OLE object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

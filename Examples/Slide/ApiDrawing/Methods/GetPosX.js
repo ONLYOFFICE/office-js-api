@@ -1,4 +1,8 @@
-// This example gets the x position of the drawing on the slide.
+// Get the x position of the drawing on the slide.
+
+// How can I get the pos x using a drawing object in a presentation?
+
+// Get the pos x for a drawing object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

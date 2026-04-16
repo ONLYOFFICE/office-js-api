@@ -2,6 +2,8 @@
 
 // Create table and set its cell left border.
 
+// Use table cell to set cell border left.
+
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 

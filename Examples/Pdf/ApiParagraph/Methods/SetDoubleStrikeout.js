@@ -1,4 +1,8 @@
-// This example applies double strikeout formatting to paragraph text.
+// Apply double strikeout formatting to paragraph text.
+
+// How to set double strikeout for a paragraph in a PDF document?
+
+// Set double strikeout and display the result in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

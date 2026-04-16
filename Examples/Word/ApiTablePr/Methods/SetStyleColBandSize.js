@@ -1,8 +1,8 @@
-// This example specifies a number of columns which will comprise each table column band for this table style.
+// Specify a number of columns which will comprise each table column band for this table style in a document.
 
-// How to set column band size.
+// How to set column band size in a document.
 
-// How to style a column band size.
+// How to style a column band size in a document.
 
 let doc = Api.GetDocument();
 doc.RemoveAllElements();

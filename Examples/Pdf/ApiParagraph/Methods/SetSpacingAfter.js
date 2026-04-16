@@ -1,8 +1,8 @@
-// This example sets the spacing after the paragraph.
+// Set the spacing after the paragraph in a PDF document.
 
-// How to set the size of a spacing after a text from a paragraph.
+// How to set the size of a spacing after a text from a paragraph in a PDF document.
 
-// Change the size property of a spacing after a paragraph.
+// Change the size property of a spacing after a paragraph in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

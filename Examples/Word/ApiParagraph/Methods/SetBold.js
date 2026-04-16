@@ -1,8 +1,8 @@
-// This example sets the bold property to the text character.
+// Set the bold property to the text character in a document.
 
-// How to make the paragraph text bold.
+// How to make the paragraph text bold in a document.
 
-// Get the first paragraph and set it bold.
+// Get the first paragraph and set it bold in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

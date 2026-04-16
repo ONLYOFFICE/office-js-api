@@ -1,4 +1,4 @@
-// This example shows how to get a class formatted according to the instructions contained in the format expression.
+// Get a class formatted according to the instructions contained in the format expression.
 
 // How to set a format for a cell or a range using a format expression.
 

@@ -1,8 +1,8 @@
-// This example specifies that the contents of the current run are displayed with two horizontal lines through each character displayed on the line.
+// Specify that the contents of the current run are displayed with two horizontal lines through each character displayed on the line in a PDF document.
 
-// How to strike out a text with two lines.
+// How to strike out a text with two lines in a PDF document.
 
-// Create a new text run and set double strikeout to it.
+// Create a new text run and set double strikeout to it in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

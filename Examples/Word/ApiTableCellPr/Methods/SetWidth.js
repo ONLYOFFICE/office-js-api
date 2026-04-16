@@ -1,4 +1,4 @@
-// This example sets the preferred width to the current table cell.
+// Set the preferred width to the current table cell.
 
 // Resize the width of the cell.
 

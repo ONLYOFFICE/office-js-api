@@ -1,6 +1,6 @@
-// This example shows how to get the background color for the cell range.
+// Get the background color for the cell range in a spreadsheet.
 
-// How to find out a range background color.
+// How to find out a range background color in a spreadsheet.
 
 // Get a range get, set its background color using RGB value and show it in the worksheet.
 

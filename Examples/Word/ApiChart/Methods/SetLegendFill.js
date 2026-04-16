@@ -1,8 +1,8 @@
-// This example sets the fill to the chart legend.
+// Set the fill to the chart legend in a document.
 
-// How to color a chart legend.
+// How to color a chart legend in a document.
 
-// Create a chart and set a solid fill to its legend.
+// Create a chart and set a solid fill to its legend in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

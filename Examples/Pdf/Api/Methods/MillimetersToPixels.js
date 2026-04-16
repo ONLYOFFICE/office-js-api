@@ -1,4 +1,8 @@
-// This example shows how to convert millimeters to pixels.
+// Convert millimeters to pixels in a PDF document.
+
+// How to convert millimeters to pixels in a PDF document?
+
+// Convert millimeters to pixels using the PDF document API.
 
 const millimeters = 100;
 const pixels = Api.MillimetersToPixels(millimeters);

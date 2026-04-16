@@ -1,4 +1,8 @@
-// This example shows how to get all shapes from the current presentation.
+// Get all shapes from the current presentation in a presentation.
+
+// How to get all shapes for a presentation?
+
+// Get all shapes and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

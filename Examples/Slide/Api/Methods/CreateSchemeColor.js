@@ -1,8 +1,8 @@
-// This example shows how to create a scheme color with the 'dk1' identifier.
+// Create a scheme color with the 'dk1' identifier in a presentation.
 
-// How to create a new scheme color.
+// How to create a new scheme color in a presentation.
 
-// Add a scheme color to create a solid fill.
+// Add a scheme color to create a solid fill in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

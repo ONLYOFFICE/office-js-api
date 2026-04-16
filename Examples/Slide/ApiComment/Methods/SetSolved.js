@@ -1,6 +1,6 @@
-// This example shows how to resolve a comment.
+// Resolve a comment in a presentation.
 
-// How to make a comment solved.
+// How to make a comment solved in a presentation.
 
 // Get all comments from the presentation and set it solved.
 

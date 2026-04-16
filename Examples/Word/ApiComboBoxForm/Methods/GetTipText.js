@@ -1,8 +1,8 @@
-// This example shows how to get the tip text of the current form.
+// Get the tip text of the current form in a document.
 
 // How to get text properties of a combobox form.
 
-// Make combobox text italic.
+// Make combobox text italic in a document.
 
 let doc = Api.GetDocument();
 let comboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});

@@ -1,8 +1,8 @@
-// This example specifies the shading applied to the contents of the current text Range.
+// Specify the shading applied to the contents of the current text Range in a document.
 
-// How to set a shading for a range text.
+// How to set a shading for a range text in a document.
 
-// Get a range text, specify its shading options.
+// Get a range text, specify its shading options in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

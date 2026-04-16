@@ -1,8 +1,8 @@
-// This example gets all series of ApiChart class and inserts their types into the presentation.
+// Get all series of chart class and insert their types into the presentation.
 
-// How to get types of all series of a chart.
+// How to get types of all series of a chart in a presentation.
 
-// Get all series from a chart.
+// Get all series from a chart in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,4 +1,8 @@
-// This example demonstrates how to get the creation date of the current document.
+// Get the creation date of the current document in a document.
+
+// How can I get the created using a core properties in a document?
+
+// Get the created for a core properties in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

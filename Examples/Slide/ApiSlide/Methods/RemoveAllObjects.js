@@ -1,4 +1,4 @@
-// This example removes all the objects from the current slide.
+// Remove all the objects from the current slide.
 
 // How to remove all elements from the slide.
 

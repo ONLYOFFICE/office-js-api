@@ -1,4 +1,8 @@
-// This example demonstrates how to add string custom properties to a document.
+// Add string custom properties to a document in a presentation.
+
+// How can I add using a custom properties in a presentation?
+
+// Add for a custom properties in a presentation.
 
 const presentation = Api.GetPresentation();
 const customProps = presentation.GetCustomProperties();

@@ -1,4 +1,4 @@
-// This example shows how to make a copy of the form.
+// Make a copy of the form in a document.
 
 // How to create the same text form.
 

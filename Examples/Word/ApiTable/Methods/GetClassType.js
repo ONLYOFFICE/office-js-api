@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Retrieve the class type of a table in a document.
 
-// How to get a class type of ApiTable.
+// How to identify the class type of a table in a document?
 
-// Retrieve class type of ApiTable object and insert it to the document.
+// Obtain the class type identifier of a table object in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

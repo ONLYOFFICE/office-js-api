@@ -1,8 +1,8 @@
-// This example sets the spacing after the paragraph.
+// Set the spacing after the paragraph in a presentation.
 
-// How to set the size of a spacing after a text from a paragraph.
+// How to set the size of a spacing after a text from a paragraph in a presentation.
 
-// Change the size property of a spacing after a paragraph.
+// Change the size property of a spacing after a paragraph in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,4 +1,8 @@
-// This example shows how to convert a shape fill color to JSON.
+// Convert a shape fill color to JSON in a presentation.
+
+// How do I to j s o n in a presentation?
+
+// To j s o n using a color object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

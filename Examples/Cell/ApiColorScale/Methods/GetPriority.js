@@ -1,8 +1,8 @@
-// This example gets the priority value of color scale formatting rule.
+// Get the priority value of color scale formatting rule.
 
 // How to retrieve the evaluation priority of color scale conditional formatting.
 
-// Get color scale priority.
+// Get color scale priority in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

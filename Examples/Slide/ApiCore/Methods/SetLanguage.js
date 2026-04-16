@@ -1,4 +1,8 @@
-// This example demonstrates how to set and get the language of the current presentation using the ApiCore.
+// Set and get the language of the current presentation using the core properties in a presentation.
+
+// How can I set language using a core properties in a presentation?
+
+// Set language for a core properties in a presentation.
 
 const presentation = Api.GetPresentation();
 const core = presentation.GetCore();

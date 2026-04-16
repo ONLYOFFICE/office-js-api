@@ -1,8 +1,8 @@
-// This example shows how to get a collection of section objects in the document.
+// Get a collection of section objects in the document.
 
 // How to get all sections from the document.
 
-// Get all sections and display the class type of the first one.
+// Get all sections and display the class type of the first one in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

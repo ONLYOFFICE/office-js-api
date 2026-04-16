@@ -1,4 +1,4 @@
-// This example creates a new history point.
+// Create a new history point in a presentation.
 
 // How to add a new history point to the presentation.
 

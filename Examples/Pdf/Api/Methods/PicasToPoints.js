@@ -1,4 +1,8 @@
-// This example shows how to convert picas to points.
+// Convert picas to points in a PDF document.
+
+// How can I convert picas to points in a PDF document?
+
+// Convert picas to points in a PDF document.
 
 const picas = 100;
 const points = Api.PicasToPoints(picas);

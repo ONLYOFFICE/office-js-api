@@ -1,8 +1,8 @@
-// This example shows how to get all numbered paragraphs from the current document.
+// Get all numbered paragraphs from the current document in a document.
 
 // Get all paragraphs with numbering added to the document.
 
-// How to retrieve all paragraphs with numbering and make the first one bold.
+// How to retrieve all paragraphs with numbering and make the first one bold in a document.
 
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("numbered");

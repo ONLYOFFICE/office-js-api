@@ -1,4 +1,4 @@
-// This example sets the scope type of a conditional formatting rule.
+// Set the scope type of a conditional formatting rule.
 
 // How to change the scope type of conditional formatting rules.
 

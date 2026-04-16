@@ -1,8 +1,8 @@
-// This example sets the alias attribute to the container.
+// Set the alias attribute to the container in a document.
 
-// How to set a "№1" alias to the inline content control.
+// How to set a "№1" alias to the inline content control in a document.
 
-// Display the alias set for inline text element.
+// Display the alias set for inline text element in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

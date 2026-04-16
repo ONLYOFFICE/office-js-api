@@ -1,4 +1,4 @@
-// This example showh how to get the data for all forms added to the document.
+// Showh how to get the data for all forms added to the document.
 
 // How to get form information as a string.
 

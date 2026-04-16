@@ -1,8 +1,8 @@
-// This example removes the current selection.
+// Remove the current selection in a document.
 
 // How to remove the selected part of the document.
 
-// Select the range and delete it.
+// Select the range and delete it in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

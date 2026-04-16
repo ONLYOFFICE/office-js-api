@@ -1,8 +1,8 @@
-// This example shows how to find out whether a text is underlined.
+// Find out whether a text is underlined in a PDF document.
 
-// How to know whether a text is underlined or not.
+// How to know whether a text is underlined or not in a PDF document.
 
-// Get the run and find whether it is underlined or not.
+// Get the run and find whether it is underlined or not in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

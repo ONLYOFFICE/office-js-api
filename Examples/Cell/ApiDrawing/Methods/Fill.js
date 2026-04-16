@@ -1,8 +1,8 @@
-// This example sets the fill formatting properties to the current graphic object.
+// Set the fill formatting properties to the current graphic object.
 
-// How to color a drawing with a radiant fill.
+// How to color a drawing with a radiant fill in a spreadsheet.
 
-// Change the background color of the shape.
+// Change the background color of the shape in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));

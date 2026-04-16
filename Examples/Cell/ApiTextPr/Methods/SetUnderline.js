@@ -1,8 +1,8 @@
-// This example specifies that the contents of the current run are displayed along with a line appearing directly below the character (less than all the spacing above and below the characters on the line).
+// Specify that the contents of the current run are displayed along with a line appearing directly below the character (less than all the spacing above and below the characters on the line) in a spreadsheet.
 
-// How to underline a text.
+// How to underline a text in a spreadsheet.
 
-// Add text underline.
+// Set underline and display the result in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

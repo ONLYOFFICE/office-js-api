@@ -1,8 +1,8 @@
-// This example specifies the languages which will be used to check spelling and grammar (if requested) when processing the contents of this text run.
+// Specify the languages which will be used to check spelling and grammar (if requested) when processing the contents of this text run in a presentation.
 
-// How to change language of the text for grammar check.
+// How to change language of the text for grammar check in a presentation.
 
-// Create a new text run and change its language.
+// Create a new text run and change its language in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

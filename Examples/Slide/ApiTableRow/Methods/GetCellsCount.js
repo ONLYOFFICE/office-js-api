@@ -1,4 +1,4 @@
-// This example gets a number of cells in the row.
+// Get a number of cells in the row.
 
 // How to return a number of cells from the row.
 

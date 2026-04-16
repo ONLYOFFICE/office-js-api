@@ -1,8 +1,8 @@
-// This example demonstrates getting the value of color scale criterion.
+// Get the value of color scale criterion in a spreadsheet.
 
-// How to retrieve the value of a color scale criterion.
+// How to retrieve the value of a color scale criterion in a spreadsheet.
 
-// Get the value of a color scale criterion.
+// Get the value of a color scale criterion in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

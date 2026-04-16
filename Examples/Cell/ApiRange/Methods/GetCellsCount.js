@@ -1,4 +1,4 @@
-// This example shows how to get a count of cells in the specified range.
+// Get a count of cells in the specified range in a spreadsheet.
 
 // How to get a count of cells in the range.
 

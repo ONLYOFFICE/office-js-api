@@ -1,4 +1,4 @@
-// This example shows how to get the placeholder text of a form.
+// Get the placeholder text of a form in a document.
 
 // How to get the placeholder text of a text form.
 

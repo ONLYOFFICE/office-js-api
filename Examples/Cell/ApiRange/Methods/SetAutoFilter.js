@@ -1,8 +1,8 @@
-// This example sets the autofilter by cell range.
+// Set the autofilter by cell range.
 
-// How to automatically filter the specified range values.
+// How to automatically filter the specified range values in a spreadsheet.
 
-// Automatically filter out a range values.
+// Automatically filter out a range values in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("header");

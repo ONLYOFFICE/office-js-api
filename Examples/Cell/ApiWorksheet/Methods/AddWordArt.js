@@ -1,4 +1,4 @@
-// This example adds a Text Art object to the sheet with the parameters specified.
+// Add a Text Art object to the sheet with the parameters specified in a spreadsheet.
 
 // How to add a word art to the worksheet specifying its properties, color, size, etc.
 

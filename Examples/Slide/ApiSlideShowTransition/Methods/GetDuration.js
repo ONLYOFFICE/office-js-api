@@ -1,4 +1,8 @@
-// This example gets the transition duration and displays it.
+// Get the transition duration and display it in a presentation.
+
+// How to get the duration for a slide show transition?
+
+// Get the duration and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

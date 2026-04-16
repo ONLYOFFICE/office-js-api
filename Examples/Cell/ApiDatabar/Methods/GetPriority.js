@@ -1,4 +1,4 @@
-// This example demonstrates getting the priority value of a data bar formatting rule.
+// Get the priority value of a data bar formatting rule.
 
 // How to retrieve the evaluation priority of a data bar conditional formatting.
 

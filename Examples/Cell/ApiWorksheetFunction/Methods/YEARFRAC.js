@@ -1,8 +1,8 @@
-// This example shows how to return the year fraction representing the number of whole days between the start date and end date.
+// Return the year fraction representing the number of whole days between the start date and end date in a spreadsheet.
 
-// How to return the year fraction.
+// How to return the year fraction in a spreadsheet.
 
-// Use a function to calculate a year fraction.
+// Use a function to calculate a year fraction in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

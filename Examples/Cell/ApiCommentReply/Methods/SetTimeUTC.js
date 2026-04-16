@@ -1,6 +1,6 @@
-// This example sets the timestamp of the comment reply creation in UTC format.
+// Set the timestamp of the comment reply creation in UTC format.
 
-// How to change a timestamp in UTC when a reply was created.
+// How to change a timestamp in UTC when a reply was created in a spreadsheet.
 
 // Add a reply then update its creation time in UTC format and show it in the worksheet.
 

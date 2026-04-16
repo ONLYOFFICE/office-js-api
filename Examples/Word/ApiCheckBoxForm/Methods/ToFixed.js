@@ -1,8 +1,8 @@
-// This example converts the current form to a fixed size form.
+// Convert the current form to a fixed size form.
 
 // How to make the form fixed.
 
-// Set form as fixed.
+// Set form as fixed using the checkbox form API in a document.
 
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});

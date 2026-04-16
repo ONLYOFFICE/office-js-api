@@ -1,4 +1,4 @@
-// This example sets the priority of a conditional formatting rule.
+// Set the priority of a conditional formatting rule.
 
 // How to change the priority value of conditional formatting rules.
 

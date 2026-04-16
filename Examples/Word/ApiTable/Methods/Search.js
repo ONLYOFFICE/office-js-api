@@ -1,6 +1,6 @@
-// This example shows how to make search in table.
+// Make search in table in a document.
 
-// How to search throughout the table.
+// How to search throughout the table in a document.
 
 // Get a table, search information using value, position, order, etc.
 

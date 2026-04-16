@@ -1,8 +1,8 @@
-// This example shows how to set a drag to row of a pivot field.
+// Set a drag to row of a pivot field in a spreadsheet.
 
-// How to rename a pivot field drag to row.
+// How to rename a pivot field drag to row in a spreadsheet.
 
-// Create a pivot table, add data to it then set drag to row of a specified pivot.
+// Create a pivot table, add data to it then set drag to row of a specified pivot in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

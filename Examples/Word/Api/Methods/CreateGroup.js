@@ -1,8 +1,8 @@
-// This example shows how to create a group of drawings.
+// Create a group of drawings in a document.
 
-// Creates two "rect" shapes in the current document and groups them.
+// Create two "rect" shapes in the current document and group them.
 
-// How to create the ApiGroup object from an array of drawings.
+// How to create the group object from an array of drawings in a document.
 
 let doc = Api.GetDocument();
 let fill1 = Api.CreateSolidFill(Api.RGB(255, 111, 61));

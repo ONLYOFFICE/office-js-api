@@ -1,4 +1,9 @@
-// This example gets class type of rich paragraph.
+// Check the class type returned by a rich paragraph in a PDF document.
+
+// How do I check what type a rich paragraph object is in a PDF document?
+
+// Retrieve and output the class type string for a rich paragraph in a PDF document.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

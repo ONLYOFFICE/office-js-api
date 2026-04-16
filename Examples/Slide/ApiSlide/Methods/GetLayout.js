@@ -1,4 +1,4 @@
-// This example shows how to get a layout of the current slide.
+// Get a layout of the current slide in a presentation.
 
 // How to return a slide layout.
 

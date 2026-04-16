@@ -1,8 +1,8 @@
-// This example shows how to return the k-th percentile of values in a range, where k is in the range 0..1, exclusive.
+// Return the k-th percentile of values in a range, where k is in the range 0..1, exclusive in a spreadsheet.
 
-// How to get the k-th percentile of values in a range (exclusive).
+// How to get the k-th percentile of values in a range (exclusive) in a spreadsheet.
 
-// Use a function to get the k-th percentile of values.
+// Use a function to get the k-th percentile of values in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

@@ -1,6 +1,6 @@
-// This example removes a table row with the specified cell.
+// Remove a table row with the specified cell.
 
-// How to delete a row from the table.
+// How to delete a row from the table in a presentation.
 
 // Create a table, create cells and remove the whole row by its cell.
 

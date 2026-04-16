@@ -1,4 +1,4 @@
-// This example clears the form.
+// Clear the form.
 
 // How to delete an answer from the text form.
 

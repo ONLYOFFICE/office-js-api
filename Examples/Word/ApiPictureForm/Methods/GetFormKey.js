@@ -1,4 +1,4 @@
-// This example shows how to get the form key.
+// Get the form key in a document.
 
 // How to get a form key of the picture form.
 

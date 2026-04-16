@@ -1,8 +1,8 @@
-// This example sets the spacing before the current paragraph.
+// Set the spacing before the current paragraph in a PDF document.
 
-// How to set the size of a spacing before a text from a paragraph properties.
+// How to set the size of a spacing before a text from a paragraph properties in a PDF document.
 
-// Change the size property of a spacing before a paragraph.
+// Change the size property of a spacing before a paragraph in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

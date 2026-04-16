@@ -1,4 +1,8 @@
-// This example shows how to convert points to emus.
+// Convert points to emus in a presentation.
+
+// How to convert points to emus in a presentation?
+
+// Convert points to emus using the presentation API.
 
 const points = 1000;
 const emus = Api.PointsToEmus(points);

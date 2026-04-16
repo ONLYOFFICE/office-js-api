@@ -1,8 +1,8 @@
-// This example converts the ApiThemeFormatScheme object into the JSON object.
+// Convert the theme format scheme object into the JSON object.
 
-// How to convert a ApiThemeFormatScheme object to a JSON object.
+// How to convert a theme format scheme object to a JSON object.
 
-// Create a ApiThemeFormatScheme, convert it to JSON and create a new object from it.
+// Create a theme format scheme, convert it to JSON and create a new object from it.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// This example shows how to get the paragraph line spacing rule.
+// Get the paragraph line spacing rule in a PDF document.
 
-// How to get the size of a spacing line rule of a text from a paragraph.
+// How to get the size of a spacing line rule of a text from a paragraph in a PDF document.
 
-// Return a spacing line rule property of a paragraph.
+// Return a spacing line rule property of a paragraph in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

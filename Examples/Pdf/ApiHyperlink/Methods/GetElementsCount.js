@@ -1,8 +1,8 @@
-// This example shows how to get a number of elements in the hyperlink.
+// Get a number of elements in the hyperlink in a PDF document.
 
-// How to get the number of elements of the hyperlink.
+// How to get the number of elements of the hyperlink in a PDF document.
 
-// Add a hyperlink to the paragraph and show its elements count.
+// Add a hyperlink to the paragraph and show its elements count in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

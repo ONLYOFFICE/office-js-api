@@ -1,4 +1,8 @@
-// This example shows how to get the HEX string of a shape fill color.
+// Get the HEX string of a shape fill color in a presentation.
+
+// How can I get the hex using a color in a presentation?
+
+// Get the hex for a color in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

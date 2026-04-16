@@ -1,8 +1,8 @@
-// This example returns all comments from the current presentation.
+// Return all comments from the current presentation.
 
-// How to return an array of all comments from the ApiPresentation object and add a text of the first comment to the created shape.
+// How to return an array of all comments from the presentation object and add a text of the first comment to the created shape.
 
-// Get the ApiComment objects from the current presentation.
+// Get the comment objects from the current presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,6 +1,6 @@
-// This example sets a string value representing the object name.
+// Set a string value representing the object name in a spreadsheet.
 
-// How to rename an object.
+// How to rename an object in a spreadsheet.
 
 // Set a new name for an object and display it in the worksheet.
 

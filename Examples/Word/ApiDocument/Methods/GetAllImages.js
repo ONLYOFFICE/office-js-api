@@ -1,8 +1,8 @@
-// This example shows how to get a collection of image objects from the document.
+// Get a collection of image objects from the document in a document.
 
 // Get all images added to the document.
 
-// How to retrieve all images and display the class type of the first one.
+// How to retrieve all images and display the class type of the first one in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

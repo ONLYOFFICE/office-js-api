@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the presentation.
+// Check the class type returned by a theme format scheme.
 
-// How to get a class type of ApiThemeFormatScheme.
+// How do I check what type a theme format scheme object is?
 
-// Retrieve class type of ApiThemeFormatScheme object and insert it to the slide.
+// Retrieve and output the class type string for a theme format scheme.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

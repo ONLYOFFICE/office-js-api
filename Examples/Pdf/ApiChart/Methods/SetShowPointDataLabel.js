@@ -1,6 +1,8 @@
-// How to show specific chart data labels with options.
+// How to show specific chart data labels with options in a PDF document.
 
-// Create a chart, set its properties and the visibility of its data labels options.
+// Create a chart, set its properties and the visibility of its data labels options in a PDF document.
+
+// Set show point data label for a chart in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

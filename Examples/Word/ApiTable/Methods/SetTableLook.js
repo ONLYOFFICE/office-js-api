@@ -1,8 +1,8 @@
-// This example shows how to set table lock.
+// Set table lock in a document.
 
-// How to set the table look.
+// How to set the table look in a document.
 
-// Create a table and indicate its look properties.
+// Create a table and indicate its look properties in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

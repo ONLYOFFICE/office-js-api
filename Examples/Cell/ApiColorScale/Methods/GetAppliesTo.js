@@ -1,8 +1,8 @@
-// This example gets the range to which color scale formatting applies.
+// Get the range to which color scale formatting applies.
 
 // How to retrieve the target range of color scale conditional formatting.
 
-// Get color scale applied range.
+// Get color scale applied range in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// This example specifies the font size to the vertical axis labels.
+// Specify the font size to the vertical axis labels in a spreadsheet.
 
-// How to change a font size of the vertical axis labels.
+// How to change a font size of the vertical axis labels in a spreadsheet.
 
-// Resize a font size of the vertical axis labels.
+// Resize a font size of the vertical axis labels in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

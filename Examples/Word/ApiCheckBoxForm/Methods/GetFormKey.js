@@ -1,8 +1,8 @@
-// This example shows how to get the form key.
+// Get the form key in a document.
 
 // How get a key of a checkbox form.
 
-// Retrieve key of a created checkbox object and display it.
+// Retrieve key of a created checkbox object and display it in a document.
 
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": false});

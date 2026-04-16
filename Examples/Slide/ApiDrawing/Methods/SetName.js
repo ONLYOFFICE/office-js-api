@@ -1,4 +1,8 @@
-// This example sets the name of the current drawing.
+// Set the name of the current drawing in a presentation.
+
+// How to set name for a drawing object in a presentation?
+
+// Set name and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

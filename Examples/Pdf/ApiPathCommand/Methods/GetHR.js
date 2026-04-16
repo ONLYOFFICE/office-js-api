@@ -1,5 +1,9 @@
-// Analyzes arc command parameters in a page shape.
-// Retrieves and displays arc radii and angle information.
+// Analyzes arc command parameters in a page shape. Retrieves and display arc radii and angle information.
+
+// How do I get the h r in a PDF document?
+
+// Get the h r using a path command object in a PDF document.
+
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 

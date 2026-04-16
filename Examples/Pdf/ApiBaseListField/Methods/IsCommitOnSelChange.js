@@ -1,4 +1,9 @@
-// This example gets commit on selection change prop from field with list of options.
+// Get commit on selection change prop from field with list of options in a PDF document.
+
+// How can I is commit on sel change using a list field in a PDF document?
+
+// Is commit on sel change for a list field in a PDF document.
+
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 let comboboxField = Api.CreateComboboxField([10, 10, 160, 30]);

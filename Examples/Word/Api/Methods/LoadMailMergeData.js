@@ -1,6 +1,6 @@
-// This example shows how to load data for the mail merge.
+// Load data for the mail merge in a document.
 
-// Wraps the text runs in the mail merge fields, loads the mail merge data into the document, and starts the mail merge process.
+// Wrap the text runs in the mail merge fields, loads the mail merge data into the document, and start the mail merge process.
 
 // How to load the data source for mail merge into the document.
 

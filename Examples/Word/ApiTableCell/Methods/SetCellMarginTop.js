@@ -1,4 +1,4 @@
-// This example specifies an amount of space which will be left between the upper extent of the cell contents and the border of a specific table cell within a table.
+// Specify an amount of space which will be left between the upper extent of the cell contents and the border of a specific table cell within a table.
 
 // How to add margin to the top of the cell.
 

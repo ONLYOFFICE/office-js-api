@@ -1,4 +1,4 @@
-// This example sets the border which shall be displayed at the left of the table cell.
+// Set the border which shall be displayed at the left of the table cell.
 
 // How to set cell left border with its fill color.
 

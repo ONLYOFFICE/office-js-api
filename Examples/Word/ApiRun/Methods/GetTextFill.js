@@ -1,4 +1,8 @@
-// This example shows how to get the text fill of the existing run.
+// Get the text fill of the existing run in a document.
+
+// How to get the text fill for a text run in a document?
+
+// Get the text fill and display the result in a document.
 
 const doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

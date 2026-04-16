@@ -1,6 +1,6 @@
-// This example shows how to delete the specified object from the parent slide master if it exists.
+// Delete the specified object from the parent slide master if it exists in a presentation.
 
-// How to delete a layout.
+// How to delete a layout in a presentation.
 
 // Remove a layout from a presentation master.
 

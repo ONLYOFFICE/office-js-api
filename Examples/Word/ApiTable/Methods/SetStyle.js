@@ -1,8 +1,8 @@
-// This example sets a style to the table.
+// Set a style to the table in a document.
 
-// How to set style of the table.
+// How to set style of the table in a document.
 
-// Create a bordered table.
+// Set style and display the result in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

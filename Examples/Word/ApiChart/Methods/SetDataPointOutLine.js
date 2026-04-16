@@ -1,4 +1,4 @@
-// This example show how to set the outline to the data point.
+// Show how to set the outline to the data point in a document.
 
 // How to set a numeric format of the data points.
 

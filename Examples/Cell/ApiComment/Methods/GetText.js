@@ -1,6 +1,6 @@
-// This example shows how to get the comment text.
+// Get the comment text in a spreadsheet.
 
-// How to get a comment raw text.
+// How to get a comment raw text in a spreadsheet.
 
 // Add a comment text to a range of the worksheet.
 

@@ -1,8 +1,8 @@
-// This example sets the background color to all cells in the table.
+// Set the background color to all cells in the table.
 
-// How to color a background of the table.
+// How to color a background of the table in a document.
 
-// Color background to the middle washed rose color.
+// Color background to the middle washed rose color in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

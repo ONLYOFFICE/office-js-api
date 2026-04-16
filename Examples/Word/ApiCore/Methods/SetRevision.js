@@ -1,4 +1,8 @@
-// This example demonstrates how to set the revision of the current document.
+// Set the revision of the current document in a document.
+
+// How do I set revision in a document?
+
+// Set revision using a core properties object in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

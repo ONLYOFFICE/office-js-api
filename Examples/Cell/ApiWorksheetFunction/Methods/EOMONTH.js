@@ -1,8 +1,8 @@
-// This example shows how to return the serial number of the last day of the month before or after the specified number of months.
+// Return the serial number of the last day of the month before or after the specified number of months in a spreadsheet.
 
-// How to get a date of the last day of the month before or after specified months.
+// How to get a date of the last day of the month before or after specified months in a spreadsheet.
 
-// Use function to get the serial number of the last day of the month before or after the specified number of months.
+// Use function to get the serial number of the last day of the month before or after the specified number of months in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

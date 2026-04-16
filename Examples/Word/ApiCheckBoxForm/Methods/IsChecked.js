@@ -1,4 +1,4 @@
-// This example shows how to get the state of the checkbox.
+// Get the state of the checkbox in a document.
 
 // How to know whether the checkbox form is checked.
 

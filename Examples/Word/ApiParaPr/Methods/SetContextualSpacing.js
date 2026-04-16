@@ -1,8 +1,8 @@
-// This example specifies that any space before or after this paragraph set using the [ApiParaPr#SetSpacingBefore](./SetSpacingBefore.md) or [ApiParaPr#SetSpacingAfter](./SetSpacingAfter.md) spacing element, should not be applied when the preceding and following paragraphs are of the same paragraph style, affecting the top and bottom spacing respectively.
+// Specify that any space before or after this paragraph set using the [paragraph properties#SetSpacingBefore](./SetSpacingBefore.md) or [paragraph properties#SetSpacingAfter](./SetSpacingAfter.md) spacing element, should not be applied when the preceding and following paragraphs are of the same paragraph style, affecting the top and bottom spacing respectively in a document.
 
-// Set the contextual spacing for paragraph.
+// Set the contextual spacing for paragraph in a document.
 
-// Get the first paragraph and set the spacing for its two ends.
+// Get the first paragraph and set the spacing for its two ends in a document.
 
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");

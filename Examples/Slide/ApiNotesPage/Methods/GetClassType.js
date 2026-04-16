@@ -1,4 +1,8 @@
-// This example shows how to get the class type of ApiNotesPage.
+// Retrieve the class type of a notes page in a presentation.
+
+// How to identify the class type of a notes page?
+
+// Obtain the class type identifier of a notes page object.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

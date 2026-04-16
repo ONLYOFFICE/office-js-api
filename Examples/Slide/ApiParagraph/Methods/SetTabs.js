@@ -1,8 +1,8 @@
-// This example sets a sequence of custom tab stops which will be used for any tab characters in the paragraph.
+// Set a sequence of custom tab stops which will be used for any tab characters in the paragraph in a presentation.
 
-// How to set sequence of custom tabs of a text from a paragraph.
+// How to set sequence of custom tabs of a text from a paragraph in a presentation.
 
-// Change a sequence of custom tabs of a paragraph.
+// Change a sequence of custom tabs of a paragraph in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

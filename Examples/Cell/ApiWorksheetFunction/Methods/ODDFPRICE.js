@@ -1,8 +1,8 @@
-// This example shows how to return the price per $100 face value of a security with an odd first period.
+// Return the price per $100 face value of a security with an odd first period in a spreadsheet.
 
-// How to get the price per $100 face value of a security with an odd first period.
+// How to get the price per $100 face value of a security with an odd first period in a spreadsheet.
 
-// Use a function to return the price per $100 face value of a security.
+// Use a function to return the price per $100 face value of a security in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

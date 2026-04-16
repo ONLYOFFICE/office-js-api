@@ -1,8 +1,8 @@
-// This example sets the parameters of the watermark settings and apply them to the document.
+// Set the parameters of the watermark settings and apply them to the document.
 
-// How to get the opacity of the watermark. 
+// How to get the opacity of the watermark in a document.
 
-// Get the percent of the watermark opacity from its settings.
+// Get the percent of the watermark opacity from its settings in a document.
 
 let doc = Api.GetDocument();
 let watermarkSettings = doc.GetWatermarkSettings();

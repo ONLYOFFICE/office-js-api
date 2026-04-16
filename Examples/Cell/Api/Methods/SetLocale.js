@@ -1,4 +1,4 @@
-// This example sets a locale to the document.
+// Set a locale to the document.
 
 // How to set a region to the document.
 

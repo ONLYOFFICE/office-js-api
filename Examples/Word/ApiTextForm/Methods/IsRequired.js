@@ -1,4 +1,4 @@
-// This example checks if the current form is required.
+// Check if the current form is required.
 
 // How to know whether the first text form from this document is required.
 

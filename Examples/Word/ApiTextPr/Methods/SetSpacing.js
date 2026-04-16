@@ -1,8 +1,8 @@
-// This example sets the text spacing measured in twentieths of a point.
+// Set the text spacing measured in twentieths of a point in a document.
 
-// How to set the text spacing size.
+// How to set the text spacing size in a document.
 
-// Create a text run object, update its spacing.
+// Create a text run object, update its spacing in a document.
 
 let doc = Api.GetDocument();
 let textPr = doc.GetDefaultTextPr();

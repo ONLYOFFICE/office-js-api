@@ -1,8 +1,8 @@
-// This example shows how to get the current sentence.
+// Get the current sentence in a document.
 
 // How to get current sentence of the document.
 
-// Find the current position sentence and add it to the paragraph.
+// Find the current position sentence and add it to the paragraph in a document.
 
 let doc = Api.GetDocument();
 let para1 = doc.GetElement(0);

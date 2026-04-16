@@ -1,4 +1,8 @@
-// This example shows how to convert points to twips.
+// Convert points to twips in a PDF document.
+
+// How to convert points to twips in a PDF document?
+
+// Convert points to twips using the PDF document API.
 
 const points = 1000;
 const twips = Api.PointsToTwips(points);

@@ -1,8 +1,8 @@
-// This example deletes the ApiCharacters object.
+// Delete the characters object in a spreadsheet.
 
-// How to delete characters from an array.
+// How to delete characters from an array in a spreadsheet.
 
-// Remove all characters.
+// Delete and display the result in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B1");

@@ -1,4 +1,8 @@
-// This example shows how to create a color in RGB format and use it as a font color.
+// Create a color in RGB format and use it as a font color in a document.
+
+// How can I r g b in a document?
+
+// R g b in a document using the editor API in a document.
 
 const doc = Api.GetDocument();
 const color = Api.RGB(186, 218, 85);

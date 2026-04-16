@@ -1,4 +1,4 @@
-// This example shows how to get the array formula of a range.
+// Get the array formula of a range in a spreadsheet.
 
 // How to get an array formula value.
 

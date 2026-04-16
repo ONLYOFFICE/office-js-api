@@ -1,4 +1,8 @@
-// This example shows how to get the current region of a range.
+// Get the current region of a range in a spreadsheet.
+
+// How can I get current region using a cell range in a spreadsheet?
+
+// Get current region for a cell range in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 worksheet.GetRange('B2').SetValue('Name');

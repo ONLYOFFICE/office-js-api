@@ -1,6 +1,6 @@
-// This example replaces each paragraph (or text in cell) in the select with the corresponding text from an array of strings.
+// Replace each paragraph (or text in cell) in the select with the corresponding text from an array of strings.
 
-// Replace string values of the selected range with a new values.
+// Replace string values of the selected range with a new values in a spreadsheet.
 
 // Replace cell string values with a new ones.
 

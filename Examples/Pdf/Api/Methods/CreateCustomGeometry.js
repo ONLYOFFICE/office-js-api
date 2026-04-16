@@ -1,4 +1,9 @@
-// This example demonstrates creating a preset geometry.
+// Create a preset geometry in a PDF document.
+
+// How to create custom geometry in a PDF document?
+
+// Create custom geometry using the PDF document API.
+
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 

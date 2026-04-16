@@ -1,6 +1,6 @@
-// This example shows how to get the column width value.
+// Get the column width value in a spreadsheet.
 
-// How to get width of a range column.
+// How to get width of a range column in a spreadsheet.
 
 // Get a range, get its column width and show it in the worksheet.
 

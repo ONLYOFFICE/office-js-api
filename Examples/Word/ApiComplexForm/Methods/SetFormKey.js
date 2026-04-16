@@ -1,4 +1,9 @@
-// This example sets a key to the current form.
+// Set a key to the current form.
+
+// How can I set form key using a complex form in a document?
+
+// Set form key for a complex form in a document.
+
 let doc = Api.GetDocument();
 let complexForm = Api.CreateComplexForm({"key": "Complex1"});
 let paragraph = doc.GetElement(0);

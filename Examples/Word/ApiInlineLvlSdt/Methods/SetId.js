@@ -1,4 +1,9 @@
-// This example shows how to set the ID for the container.
+// Set the ID for the container in a document.
+
+// How do I set id in a document?
+
+// Set id using an inline content control object in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let inlineLvlSdt = Api.CreateInlineLvlSdt();

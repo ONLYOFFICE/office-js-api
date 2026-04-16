@@ -1,4 +1,4 @@
-// This example gets the second formula of a conditional formatting rule.
+// Get the second formula of a conditional formatting rule.
 
 // How to retrieve the second formula from conditional formatting rules.
 

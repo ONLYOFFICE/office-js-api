@@ -1,8 +1,8 @@
-// This example creates a range and sets bold for the first 10 characters.
+// Create a range and set bold for the first 10 characters in a document.
 
-// Creates the ApiRange object from the ApiParagraph class and sets the range to bold.
+// Create the cell range object from the paragraph class and set the range to bold.
 
-// How to create a range from the paragraph and set a bold property to it.
+// How to create a range from the paragraph and set a bold property to it in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

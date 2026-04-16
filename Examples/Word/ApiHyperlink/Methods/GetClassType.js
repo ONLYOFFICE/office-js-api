@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Find out the class type of a hyperlink object in a document.
 
-// How to get a class type of ApiHyperlink.
+// How can I get the class type of a hyperlink in a document?
 
-// Retrieve class type of ApiHyperlink object and insert it to the document.
+// Get the class type of a hyperlink and display it in the document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

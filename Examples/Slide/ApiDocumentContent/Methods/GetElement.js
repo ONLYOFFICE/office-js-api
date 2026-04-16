@@ -1,8 +1,8 @@
-// This example shows how to get element.
+// Get element in a presentation.
 
 // How to get an element from the content of a slide shape.
 
-// Find an element from the shape using its index.
+// Find an element from the shape using its index in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

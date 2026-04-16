@@ -1,4 +1,9 @@
-// This example gets text field and sets validate range for it.
+// Get text field and set validate range for it in a PDF document.
+
+// How to set validate range for a combobox field in a PDF document?
+
+// Set validate range and display the result in a PDF document.
+
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 let comboboxField = Api.CreateComboboxField([10, 10, 160, 30]);

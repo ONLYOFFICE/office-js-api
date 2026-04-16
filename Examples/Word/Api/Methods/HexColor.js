@@ -1,4 +1,8 @@
-// This example shows how to create a hex color and use it as a font color.
+// Create a hex color and use it as a font color in a document.
+
+// How do I hex color in a document?
+
+// Hex color and display the result in a document.
 
 const doc = Api.GetDocument();
 const color = Api.HexColor('#DECADE');

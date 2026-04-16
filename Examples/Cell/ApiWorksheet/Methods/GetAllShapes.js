@@ -1,8 +1,8 @@
-// This example shows how to get all shapes from the sheet.
+// Get all shapes from the sheet in a spreadsheet.
 
-// How to get all shapes.
+// How to get all shapes in a spreadsheet.
 
-// Get all shapes as an array.
+// Get all shapes as an array in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let gradientStop1 = Api.CreateGradientStop(Api.RGB(255, 213, 191), 0);

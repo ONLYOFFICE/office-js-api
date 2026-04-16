@@ -1,8 +1,8 @@
-// This example shows how to get an array with names of all bookmarks in the document.
+// Get an array with names of all bookmarks in the document.
 
 // Get the list with all bookmark names and print them in the document.
 
-// Add bookmarks to the ranges and display their names.
+// Add bookmarks to the ranges and display their names in a document.
 
 let doc = Api.GetDocument(); 
 let paragraph = doc.GetElement(0); 

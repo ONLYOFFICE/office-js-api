@@ -1,8 +1,8 @@
-// This example sets the paragraph contents justification.
+// Set the paragraph contents justification in a PDF document.
 
-// How to set justification of the paragraph content.
+// How to set justification of the paragraph content in a PDF document.
 
-// Change the justification of the paragraph.
+// Change the justification of the paragraph in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

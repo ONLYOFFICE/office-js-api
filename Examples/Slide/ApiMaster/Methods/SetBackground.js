@@ -1,4 +1,4 @@
-// This example sets the background to the current slide master.
+// Set the background to the current slide master.
 
 // How to set a background of a slide master.
 

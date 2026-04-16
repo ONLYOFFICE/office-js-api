@@ -1,8 +1,8 @@
-// This example shows how to get the text properties of the run.
+// Get the text properties of the run in a PDF document.
 
-// How to get the text properties of the current ApiRun object and change its font size.
+// How to get the text properties of the current text run object and change its font size in a PDF document.
 
-// Resize a font of a text run.
+// Resize a font of a text run in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

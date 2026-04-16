@@ -1,4 +1,4 @@
-// This example creates a copy of the current slide object.
+// Create a copy of the current slide object.
 
 // How to create a copy of the slide.
 

@@ -1,4 +1,8 @@
-// This example gets all animation effects from a timeline.
+// Get all animation effects from a timeline in a presentation.
+
+// How do I get all effects in a presentation?
+
+// Get all effects using a timeline object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

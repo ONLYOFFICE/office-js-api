@@ -1,8 +1,8 @@
-// This example sets the text outline to the current text run
+// Set the text outline to the current text run in a presentation.
 
-// How to change outline of the text.
+// How to change outline of the text in a presentation.
 
-// Create a new text run and outline it with the stroke object.
+// Create a new text run and outline it with the stroke object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

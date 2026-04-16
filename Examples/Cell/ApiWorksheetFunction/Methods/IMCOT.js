@@ -1,8 +1,8 @@
-// This example shows how to return the cotangent of a complex number.
+// Return the cotangent of a complex number in a spreadsheet.
 
-// How to get the cotangent.
+// How to get the cotangent in a spreadsheet.
 
-// Use a function to get the cotangent of a complex number.
+// Use a function to get the cotangent of a complex number in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

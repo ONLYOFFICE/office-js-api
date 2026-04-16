@@ -1,4 +1,4 @@
-// This example gets elements count and inserts this value into the pdf document.
+// Get elements count and insert this value into the pdf document.
 
 // How to get a number of elements a page shape contains.
 

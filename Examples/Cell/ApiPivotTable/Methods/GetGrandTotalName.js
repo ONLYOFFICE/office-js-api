@@ -1,8 +1,8 @@
-// This example shows how to get a grand total name of a pivot table.
+// Get a grand total name of a pivot table in a spreadsheet.
 
-// How to get a grand total name of a table.
+// How to get a grand total name of a table in a spreadsheet.
 
-// Create a pivot table, add data to it then get its grand total name.
+// Create a pivot table, add data to it then get its grand total name in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

@@ -1,4 +1,8 @@
-// This example shows how to set the border color for the container.
+// Set the border color for the container in a document.
+
+// How to set border color for an inline content control in a document?
+
+// Set border color and display the result in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

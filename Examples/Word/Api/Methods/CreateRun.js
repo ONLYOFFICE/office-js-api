@@ -1,12 +1,12 @@
-// This example creates a run and inserts it into the document.
+// Create a run and insert it into the document.
 
-// Creates a run, adds a text to it, and inserts it into the first paragraph of the document.
+// Create a run, add a text to it, and insert it into the first paragraph of the document.
 
-// How to create the ApiRun object and adds it to the ApiParagraph class.
+// How to create the text run object and adds it to the paragraph class in a document.
 
-// How to add a text to the paragraph.
+// How to add a text to the paragraph in a document.
 
-// How to add a text to the ApiRun object.
+// How to add a text to the text run object in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

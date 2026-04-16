@@ -1,6 +1,6 @@
-// This example creates a new paragraph and inserts it into the shape.
+// Create a new paragraph and insert it into the shape in a presentation.
 
-// How to add a text.
+// How to add a text in a presentation.
 
 // Insert text to the paragraph and add it to the slide.
 

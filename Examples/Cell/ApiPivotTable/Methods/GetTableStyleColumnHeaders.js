@@ -1,8 +1,8 @@
-// This example shows how to get table style column headers of a pivot table.
+// Get table style column headers of a pivot table in a spreadsheet.
 
-// How to get table style column headers.
+// How to get table style column headers in a spreadsheet.
 
-// Create a pivot table, add data to it then get its table style column headers.
+// Create a pivot table, add data to it then get its table style column headers in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

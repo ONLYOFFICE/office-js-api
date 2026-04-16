@@ -1,8 +1,8 @@
-// This example shows how to get absolute value of a number.
+// Get absolute value of a number in a spreadsheet.
 
 // How to add absolute value to the worksheet.
 
-// Get a function that gets absolute value.
+// Get a function that gets absolute value in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

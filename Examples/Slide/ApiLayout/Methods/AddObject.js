@@ -1,8 +1,8 @@
-// This example adds a shape to slide.
+// Add a shape to slide.
 
-// How to add a shape object to the master layout.
+// How to add a shape object to the master layout in a presentation.
 
-// Add a drawing to the ApiLayout object.
+// Add a drawing to the layout object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,4 +1,9 @@
-// This example demonstrates creating a preset geometry in spreadsheets.
+// Create a preset geometry in spreadsheets.
+
+// How do I create the preset geometry in a spreadsheet?
+
+// Create the preset geometry and display the result in a spreadsheet.
+
 let worksheet = Api.GetActiveSheet();
 
 // Create shape with preset geometry

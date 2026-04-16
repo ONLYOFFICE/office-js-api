@@ -1,4 +1,4 @@
-// This example demonstrates deleting a data bar conditional formatting rule.
+// Delete a data bar conditional formatting rule.
 
 // How to remove a data bar conditional formatting from a range.
 

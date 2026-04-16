@@ -1,8 +1,8 @@
-// This example shows how ot get the paragraph properties of the current style.
+// Show how ot get the paragraph properties of the current style in a document.
 
-// How to get properties of the paragraph.
+// How to get properties of the paragraph in a document.
 
-// Display the table properties from the default paragraph style.
+// Display the table properties from the default paragraph style in a document.
 
 let doc = Api.GetDocument();
 let normalStyle = doc.GetDefaultStyle("paragraph");

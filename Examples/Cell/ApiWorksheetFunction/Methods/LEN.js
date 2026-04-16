@@ -1,8 +1,8 @@
-// This example shows how to return the number of characters in a text string.
+// Return the number of characters in a text string in a spreadsheet.
 
-// How to get a length of a text.
+// How to get a length of a text in a spreadsheet.
 
-// Use a function to get length of a string.
+// Use a function to get length of a string in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

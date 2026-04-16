@@ -1,8 +1,8 @@
-// This example sets color scale rule to highest priority.
+// Set color scale rule to highest priority in a spreadsheet.
 
 // How to make color scale formatting evaluate first among multiple rules.
 
-// Set color scale to first priority.
+// Set color scale to first priority in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

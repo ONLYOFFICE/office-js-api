@@ -1,8 +1,8 @@
-// This example demonstrates getting the priority of a unique values conditional formatting rule.
+// Get the priority of an unique values conditional formatting rule.
 
 // How to retrieve the evaluation priority of unique values conditional formatting.
 
-// Get the priority value of the unique values rule.
+// Get the priority value of the unique values rule in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

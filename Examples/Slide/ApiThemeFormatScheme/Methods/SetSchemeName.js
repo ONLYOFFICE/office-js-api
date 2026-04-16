@@ -1,4 +1,4 @@
-// This example sets a name to the current theme format scheme.
+// Set a name to the current theme format scheme.
 
 // How to set a format scheme name.
 

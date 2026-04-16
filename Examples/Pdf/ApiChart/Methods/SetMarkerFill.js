@@ -1,6 +1,8 @@
-// How to set a fill to the marker.
+// How to set a fill to the marker in a PDF document.
 
-// Create a chart, set its properties and its marker color.
+// Create a chart, set its properties and its marker color in a PDF document.
+
+// Set marker fill using a chart object in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

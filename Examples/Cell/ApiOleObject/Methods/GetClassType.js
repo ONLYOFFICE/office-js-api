@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Retrieve the class type of an OLE object in a spreadsheet.
 
-// How to get a class type of ApiOleObject.
+// How to identify the class type of an OLE object in a spreadsheet?
 
-// Get a class type of ApiOleObject and display it in the worksheet.
+// Obtain the class type identifier of an OLE object object in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let oleObject = worksheet.AddOleObject(

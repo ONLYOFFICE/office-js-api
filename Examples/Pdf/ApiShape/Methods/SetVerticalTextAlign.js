@@ -1,6 +1,8 @@
-// How to set vertical alignment of the shape content.
+// How to set vertical alignment of the shape content in a PDF document.
 
-// Adjust vertical alignment of the text inside the shape.
+// Adjust vertical alignment of the text inside the shape in a PDF document.
+
+// Use shape to set vertical text align in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

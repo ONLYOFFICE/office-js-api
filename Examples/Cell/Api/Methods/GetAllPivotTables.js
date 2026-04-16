@@ -1,8 +1,8 @@
-// This example shows how to get pivot tables from the worksheet.
+// Get pivot tables from the worksheet in a spreadsheet.
 
-// How to  get pivot tables.
+// How to get pivot tables in a spreadsheet.
 
-// How to work with pivot tables.
+// How to work with pivot tables in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange('B1').SetValue('Region');

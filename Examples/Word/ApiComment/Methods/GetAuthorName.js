@@ -1,6 +1,6 @@
-// This example shows how to get the comment author's name.
+// Get the comment author's name in a document.
 
-// How to find out a comment's author.
+// How to find out a comment's author in a document.
 
 // Get all comments from the presentation and display the first one's author name.
 

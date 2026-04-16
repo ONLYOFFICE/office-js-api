@@ -1,8 +1,8 @@
-// This example removes all the elements from the current paragraph.
+// Remove all the elements from the current paragraph in a spreadsheet.
 
-// How to clear a content from the paragraph.
+// How to clear a content from the paragraph in a spreadsheet.
 
-// Create a paragraph, add a text to it then delete all elements from it.
+// Create a paragraph, add a text to it then delete all elements from it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

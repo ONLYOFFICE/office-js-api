@@ -1,8 +1,8 @@
-// This example gets the label text from the checkbox form.
+// Get the label text from the checkbox form.
 
 // How to retrieve a label from the checkbox form.
 
-// Get the label text from the checkbox.
+// Get the label text from the checkbox in a document.
 
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"tip": "Select if you agree to terms", "required": true, "key" : "Terms agreement"});

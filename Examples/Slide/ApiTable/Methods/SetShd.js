@@ -1,6 +1,6 @@
-// This example specifies the shading which shall be applied to the extents of the table.
+// Specify the shading which shall be applied to the extents of the table in a presentation.
 
-// How to add a shading to the table background.
+// How to add a shading to the table background in a presentation.
 
 // Create a table, set its shading color and add it to the slide.
 

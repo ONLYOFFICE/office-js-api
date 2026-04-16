@@ -1,8 +1,8 @@
-// This example sets the font size to the characters of the current text run.
+// Set the font size to the characters of the current text run in a spreadsheet.
 
-// How to change a font size of a text.
+// How to change a font size of a text in a spreadsheet.
 
-// Set text font size.
+// Set text font size using the text properties API in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

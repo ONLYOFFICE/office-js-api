@@ -1,4 +1,8 @@
-// This example shows how to convert emus to millimeters.
+// Convert emus to millimeters in a PDF document.
+
+// How do I convert emus to millimeters in a PDF document?
+
+// Convert emus to millimeters and display the result in a PDF document.
 
 const emus = 780000;
 const millimeters = Api.EmusToMillimeters(emus);

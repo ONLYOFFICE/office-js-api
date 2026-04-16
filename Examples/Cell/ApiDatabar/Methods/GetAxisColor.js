@@ -1,6 +1,6 @@
-// This example demonstrates getting the axis color from a data bar conditional formatting rule.
+// Get the axis color from a data bar conditional formatting rule.
 
-// How to retrieve the axis color of a data bar.
+// How to retrieve the axis color of a data bar in a spreadsheet.
 
 // Get the axis color of a data bar conditional formatting rule.
 

@@ -1,4 +1,8 @@
-// This example demonstrates how to set and get the creator of the current presentation using the ApiCore.
+// Set and get the creator of the current presentation using the core properties in a presentation.
+
+// How do I get the creator in a presentation?
+
+// Get the creator using a core properties object in a presentation.
 
 const presentation = Api.GetPresentation();
 const core = presentation.GetCore();

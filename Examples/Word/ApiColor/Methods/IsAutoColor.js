@@ -1,4 +1,8 @@
-// This example shows how to check if the color is an auto color.
+// Check if the color is an auto color in a document.
+
+// How to is auto color for a color in a document?
+
+// Is auto color and display the result in a document.
 
 const doc = Api.GetDocument();
 const themeColor = Api.ThemeColor('accent1');

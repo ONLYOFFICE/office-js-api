@@ -1,8 +1,8 @@
-// This example shows how to get a content control that contains the content control.
+// Get a content control that contains the content control in a document.
 
-// How to display the parent control of the inline text control.
+// How to display the parent control of the inline text control in a document.
 
-// Set the alias to the parent inline content control.
+// Set the alias to the parent inline content control in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

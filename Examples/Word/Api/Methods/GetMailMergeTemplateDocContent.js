@@ -1,8 +1,8 @@
-// This example gets the mail merge template and pastes its data into the document.
+// Get the mail merge template and paste its data into the document.
 
-// Wraps the text runs in the mail merge fields and returns the mail merge template document.
+// Wrap the text runs in the mail merge fields and return the mail merge template document.
 
-// Returns the ApiDocumentContent object whith represents the mail merge template document.
+// Return the document content object whith represents the mail merge template document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

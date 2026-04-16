@@ -1,4 +1,8 @@
-// This example demonstrates how to get the revision of the current workbook.
+// Get the revision of the current workbook in a spreadsheet.
+
+// How to get the revision for a core properties in a spreadsheet?
+
+// Get the revision and display the result in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

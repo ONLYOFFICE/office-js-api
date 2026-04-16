@@ -1,6 +1,6 @@
-// This example sets the text color for the current text run.
+// Set the text color for the current text run in a document.
 
-// How to change a text color.
+// How to change a text color in a document.
 
 // Get a font object of characters and color it specifying a color in RGB format.
 

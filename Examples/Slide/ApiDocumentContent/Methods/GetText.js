@@ -1,4 +1,8 @@
-// This example returns the text from the document content.
+// Return the text from the document content.
+
+// How can I get the text using a document content in a presentation?
+
+// Get the text for a document content in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

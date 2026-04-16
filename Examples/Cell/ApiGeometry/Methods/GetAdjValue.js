@@ -1,5 +1,9 @@
-// Creates adjustable custom geometry with guides and connection points.
-// Displays adjustment value in a cell and applies geometry to shape.
+// Create adjustable custom geometry with guides and connection points. Displays adjustment value in a cell and apply geometry to shape.
+
+// How can I get the adj value using a geometry in a spreadsheet?
+
+// Get the adj value for a geometry in a spreadsheet.
+
 let worksheet = Api.GetActiveSheet();
 let customGeometry = Api.CreateCustomGeometry();
 customGeometry.AddAdj("adj1", 25000);

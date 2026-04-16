@@ -1,4 +1,4 @@
-// This example checks if the aspect ratio of the current picture form is locked or not.
+// Check if the aspect ratio of the current picture form is locked or not.
 
 // How to find out whether a picture form is fixed or not.
 

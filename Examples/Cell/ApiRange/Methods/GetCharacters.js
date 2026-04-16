@@ -1,8 +1,8 @@
-// This example shows how to get the ApiCharacters object that represents a range of characters within the object text.
+// Get the characters object that represents a range of characters within the object text in a spreadsheet.
 
-// How to get range characters.
+// How to get range characters in a spreadsheet.
 
-// Get the range characters, get their font object and set it to bold.
+// Get the range characters, get their font object and set it to bold in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B1");

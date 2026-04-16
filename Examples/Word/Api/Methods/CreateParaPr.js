@@ -1,6 +1,8 @@
-// This example shows how to create and use the paragraph properties.
+// Create and use the paragraph properties in a document.
 
-// How to set paragraph properties to the table style.
+// How to set paragraph properties to the table style in a document.
+
+// Create the para pr in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

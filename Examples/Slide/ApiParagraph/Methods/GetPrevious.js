@@ -1,6 +1,6 @@
-// This example shows how to get the previous paragraph.
+// Get the previous paragraph in a presentation.
 
-// How to get the previous paragraph of the current one.
+// How to get the previous paragraph of the current one in a presentation.
 
 // Return the previous paragraph on the slide and make its text bold.
 

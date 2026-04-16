@@ -1,8 +1,8 @@
-// This example shows how to get all comments from the current document.
+// Get all comments from the current document in a document.
 
 // Get all comments added to the document.
 
-// How to retrieve all comments and display the class type of the first one.
+// How to retrieve all comments and display the class type of the first one in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

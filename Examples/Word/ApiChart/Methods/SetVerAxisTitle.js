@@ -1,8 +1,8 @@
-// This example specifies the chart vertical axis title.
+// Specify the chart vertical axis title in a document.
 
-// Title the chart's vertical axis.
+// Title the chart's vertical axis in a document.
 
-// Create a chart, set its properties and name its vertical axis title.
+// Create a chart, set its properties and name its vertical axis title in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,4 +1,4 @@
-// This example shows how to get a parent table of the cell.
+// Get a parent table of the cell in a document.
 
 // How to get parent table of the cell.
 

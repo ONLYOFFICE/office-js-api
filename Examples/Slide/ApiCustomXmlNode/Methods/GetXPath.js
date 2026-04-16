@@ -1,4 +1,8 @@
-// This example returns the absolute XPath of the current XML node.
+// Return the absolute XPath of the current XML node in a presentation.
+
+// How to get the x path for a custom XML node in a presentation?
+
+// Get the x path and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

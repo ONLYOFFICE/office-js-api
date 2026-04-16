@@ -1,4 +1,8 @@
-// This example demonstrates how to get the chart type of a chart.
+// Get the chart type of a chart in a document.
+
+// How to get the chart type for a chart in a document?
+
+// Get the chart type and display the result in a document.
 
 const doc = Api.GetDocument();
 const firstParagraph = doc.GetElement(0);

@@ -1,4 +1,8 @@
-// This example pushes 5 paragraphs to actually add its to the document.
+// Pushes 5 paragraphs to actually add its to the document.
+
+// How do I push in a document?
+
+// Push using a document object.
 
 const doc = Api.GetDocument();
 

@@ -1,4 +1,4 @@
-// This example clears all forms in the document.
+// Clear all forms in the document.
 
 // How to remove all answers from all forms.
 

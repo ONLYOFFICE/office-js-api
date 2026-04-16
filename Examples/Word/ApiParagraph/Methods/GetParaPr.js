@@ -1,8 +1,8 @@
-// This example shows how to get the paragraph properties.
+// Get the paragraph properties in a document.
 
-// How to set the spacing line, justification and other properties of the text.
+// How to set the spacing line, justification and other properties of the text in a document.
 
-// Create a paragraph, add its text and properties.
+// Create a paragraph, add its text and properties in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

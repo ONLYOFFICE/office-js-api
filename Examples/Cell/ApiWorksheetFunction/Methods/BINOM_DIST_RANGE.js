@@ -1,8 +1,8 @@
-// This example shows how to return the probability of a trial result using a binomial distribution.
+// Return the probability of a trial result using a binomial distribution in a spreadsheet.
 
-// How to get a probability of a trial result.
+// How to get a probability of a trial result in a spreadsheet.
 
-// Use function to get a probability of a trial result using binomial distribution.
+// Use function to get a probability of a trial result using binomial distribution in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

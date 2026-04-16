@@ -1,8 +1,8 @@
-// This example shows how to find out whether a text is italic.
+// Find out whether a text is italic in a PDF document.
 
-// How to know whether a text is set to italic or not.
+// How to know whether a text is set to italic or not in a PDF document.
 
-// Get the run and find whether it is italic or not.
+// Get the run and find whether it is italic or not in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

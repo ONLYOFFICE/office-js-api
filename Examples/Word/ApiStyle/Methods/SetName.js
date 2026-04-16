@@ -1,8 +1,8 @@
-// This example sets a name of the current style.
+// Set a name of the current style in a document.
 
-// Rename the table style.
+// Rename the table style in a document.
 
-// How to change the name of the created table style.
+// How to change the name of the created table style in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.GetStyle("Bordered");

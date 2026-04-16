@@ -1,8 +1,8 @@
-// This example sets a range with the category values to the current chart.
+// Set a range with the category values to the current chart in a spreadsheet.
 
-// How to apply range category formula for the chart. 
+// How to apply range category formula for the chart.
 
-// Set category formula for the chart by sheet number and range. 
+// Set category formula for the chart by sheet number and range.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

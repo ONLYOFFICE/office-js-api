@@ -1,4 +1,4 @@
-// This example adds a shape to the sheet with the parameters specified.
+// Add a shape to the sheet with the parameters specified in a spreadsheet.
 
 // How to add a shape to the worksheet.
 

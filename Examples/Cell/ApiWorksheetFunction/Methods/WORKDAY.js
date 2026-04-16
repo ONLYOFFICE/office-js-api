@@ -1,8 +1,8 @@
-// This example shows how to return the serial number of the date before or after a specified number of workdays.
+// Return the serial number of the date before or after a specified number of workdays in a spreadsheet.
 
-// How to return the serial number of the date adding some workdays.
+// How to return the serial number of the date adding some workdays in a spreadsheet.
 
-// Use a function to calculate the serial number of the date.
+// Use a function to calculate the serial number of the date in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

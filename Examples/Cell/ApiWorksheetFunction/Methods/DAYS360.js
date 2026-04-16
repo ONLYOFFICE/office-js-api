@@ -1,8 +1,8 @@
-// This example shows how to return the number of days between two dates based on a 360-day year (twelve 30-day months).
+// Return the number of days between two dates based on a 360-day year (twelve 30-day months) in a spreadsheet.
 
-// How to get number of days between two dates using 360-day year.
+// How to get number of days between two dates using 360-day year in a spreadsheet.
 
-// Use function to get days count between two dates on a 360-day year.
+// Use function to get days count between two dates on a 360-day year in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

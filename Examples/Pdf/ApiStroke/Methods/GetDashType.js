@@ -1,7 +1,9 @@
-// Gets the dash type of a stroke.
-// Creates a shape with a solid border and displays its dash type.
-// Returns string value: "dash", "dashDot", "dot", "lgDash", "lgDashDot",
-// "lgDashDotDot", "solid", "sysDash", "sysDashDot", "sysDashDotDot", "sysDot"
+// Get the dash type of a stroke. Creates a shape with a solid border and display its dash type. Returns string value: "dash", "dashDot", "dot", "lgDash", "lgDashDot", "lgDashDotDot", "solid", "sysDash", "sysDashDot", "sysDashDotDot", "sysDot" in a PDF document.
+
+// How to get the dash type for a stroke in a PDF document?
+
+// Get the dash type and display the result in a PDF document.
+
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 

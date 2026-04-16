@@ -1,8 +1,8 @@
-// This example sets the text properties to the current row.
+// Set the text properties to the current row in a document.
 
-// Make the row text bold.
+// Make the row text bold in a document.
 
-// How to apply new text properties to the table row.
+// How to apply new text properties to the table row in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

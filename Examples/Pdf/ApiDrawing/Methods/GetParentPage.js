@@ -2,6 +2,8 @@
 
 // Get a parent page knowing a shape.
 
+// Use drawing object to get the parent page.
+
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 

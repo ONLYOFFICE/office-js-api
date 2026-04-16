@@ -1,8 +1,8 @@
-// This example deletes the paragraph.
+// Delete the paragraph in a presentation.
 
 // How to remove a paragraph from the slide.
 
-// Delete a text.
+// Delete and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

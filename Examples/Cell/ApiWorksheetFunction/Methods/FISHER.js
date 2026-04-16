@@ -1,4 +1,4 @@
-// This example shows how to get a Fisher transformation.
+// Get a Fisher transformation in a spreadsheet.
 
 // How to get a Fisher transformation.
 
@@ -8,5 +8,4 @@ let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;
 let ans = func.FISHER(0.56);
 worksheet.GetRange("B2").SetValue(ans);
-
 

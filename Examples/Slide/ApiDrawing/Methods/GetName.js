@@ -1,4 +1,8 @@
-// This example returns the name of the current drawing.
+// Return the name of the current drawing in a presentation.
+
+// How do I get the name in a presentation?
+
+// Get the name using a drawing object object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

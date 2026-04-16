@@ -1,4 +1,8 @@
-// This example sets the outline level for the specified paragraph via paragraph properties.
+// Set the outline level for the specified paragraph via paragraph properties in a PDF document.
+
+// How can I set outline lvl using a paragraph properties in a PDF document?
+
+// Set outline lvl for a paragraph properties in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,4 +1,8 @@
-// This example shows how to set the size of a table.
+// Set the size of a table in a presentation.
+
+// How do I set size in a presentation?
+
+// Set size using a table object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// This example gets a number of layout objects and insert it itno the presentation.
+// Get a number of layout objects and insert it itno the presentation.
 
-// How to get a master layout count knowing its index.
+// How to get a master layout count knowing its index in a presentation.
 
-// Count each layout from the master.
+// Count each layout from the master in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

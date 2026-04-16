@@ -1,8 +1,8 @@
-// This example shows how to return the inverse hyperbolic sine of a number.
+// Return the inverse hyperbolic sine of a number in a spreadsheet.
 
-// How to get an inverse hyperbolic sine.
+// How to get an inverse hyperbolic sine in a spreadsheet.
 
-// Use function to get an inverse hyperbolic sine of a number.
+// Use function to get an inverse hyperbolic sine of a number in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

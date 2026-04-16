@@ -1,8 +1,8 @@
-// This example returns the text properties from the current form.
+// Return the text properties from the current form.
 
 // How to get text propertiest of a combobox form.
 
-// Make combobox text italic.
+// Make combobox text italic in a document.
 
 let doc = Api.GetDocument();
 let comboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});

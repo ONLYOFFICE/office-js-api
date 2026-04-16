@@ -1,6 +1,6 @@
-// This example shows how to delete a comment.
+// Delete a comment in a presentation.
 
-// How to remove a comment.
+// How to remove a comment in a presentation.
 
 // Get all comments from the presentation and remove the first one.
 

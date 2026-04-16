@@ -1,4 +1,4 @@
-// This example gets elements count and inserts this value into the presentation.
+// Get elements count and insert this value into the presentation.
 
 // How to get a number of elements a slide shape contains.
 

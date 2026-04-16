@@ -1,4 +1,4 @@
-// This example shows how to get the mail merge data.
+// Get the mail merge data in a spreadsheet.
 
 // Get mail merge data from the worksheet.
 

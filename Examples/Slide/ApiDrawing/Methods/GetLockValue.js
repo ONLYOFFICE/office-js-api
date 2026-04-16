@@ -1,4 +1,4 @@
-// This example gets a lock value of a shape and inserts it into the presentation.
+// Get a lock value of a shape and insert it into the presentation.
 
 // How to get a slide shape's lock value and display it in the slide.
 

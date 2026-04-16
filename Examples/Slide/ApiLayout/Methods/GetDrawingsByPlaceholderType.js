@@ -1,8 +1,8 @@
-// This example gets drawings by placeholder type and removes it from layout.
+// Get drawings by placeholder type and remove it from layout in a presentation.
 
-// How to get all drawings as an array by indicating placeholder type.
+// How to get all drawings as an array by indicating placeholder type in a presentation.
 
-// Get drawings by their placeholder type.
+// Get drawings by their placeholder type in a presentation.
 
 const presentation = Api.GetPresentation();
 const master = presentation.GetMaster(0);

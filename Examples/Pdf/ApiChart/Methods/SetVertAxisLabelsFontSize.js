@@ -1,8 +1,8 @@
-// This example specifies font size for the labels of the vertical axis.
+// Specify font size for the labels of the vertical axis in a PDF document.
 
-// How to resize a font size of the vertical axis labels.
+// How to resize a font size of the vertical axis labels in a PDF document.
 
-// Create a chart then change a font size of axis labels.
+// Create a chart then change a font size of axis labels in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

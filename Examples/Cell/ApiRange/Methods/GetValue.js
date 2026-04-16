@@ -1,4 +1,4 @@
-// This example shows how to get a value of the specified range.
+// Get a value of the specified range in a spreadsheet.
 
 // How to get a cell value.
 

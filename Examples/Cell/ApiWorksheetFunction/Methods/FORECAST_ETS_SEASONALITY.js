@@ -1,8 +1,8 @@
-// This example shows how to return the length of the repetitive pattern an application detects for the specified time series.
+// Return the length of the repetitive pattern an application detects for the specified time series in a spreadsheet.
 
-// How to return the length of the repetitive pattern.
+// How to return the length of the repetitive pattern in a spreadsheet.
 
-// Use function to return the length of the repetitive pattern for the specified time series.
+// Use function to return the length of the repetitive pattern for the specified time series in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

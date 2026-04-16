@@ -1,4 +1,8 @@
-// This example demonstrates how to get the date when the current document was last modified.
+// Get the date when the current document was last modified in a document.
+
+// How to get the modified for a core properties in a document?
+
+// Get the modified and display the result in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

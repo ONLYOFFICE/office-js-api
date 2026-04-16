@@ -1,6 +1,6 @@
-// This example specifies that when rendering the document using a page view, all lines of the paragraph are maintained on a single page whenever possible.
+// Specify that when rendering the document using a page view, all lines of the paragraph are maintained on a single page whenever possible.
 
-// How to set keep lines property of the paragraph content.
+// How to set keep lines property of the paragraph content in a document.
 
 // Keep all lines of the paragraph on the same page.
 

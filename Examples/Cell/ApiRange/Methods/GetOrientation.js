@@ -1,4 +1,4 @@
-// This example shows how to get the range angle.
+// Get the range angle in a spreadsheet.
 
 // How to find out cell orientation of a range.
 

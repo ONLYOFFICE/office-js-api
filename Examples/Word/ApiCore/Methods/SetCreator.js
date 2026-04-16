@@ -1,4 +1,8 @@
-// This example demonstrates how to set the creator of the current document using the ApiCore.
+// Set the creator of the current document using the core properties in a document.
+
+// How to set creator for a core properties in a document?
+
+// Set creator and display the result in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

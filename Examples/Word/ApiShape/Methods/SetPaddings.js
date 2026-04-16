@@ -1,8 +1,8 @@
-// This example sets the text paddings to the current shape.
+// Set the text paddings to the current shape in a document.
 
-// How to update paddings of the drawing.
+// How to update paddings of the drawing in a document.
 
-// Create a shape and set its paddings.
+// Create a shape and set its paddings in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example specifies that the contents of the run are displayed with a single horizontal line through the center of the line.
+// Specify that the contents of the run are displayed with a single horizontal line through the center of the line in a presentation.
 
-// How to strike out a text with one line.
+// How to strike out a text with one line in a presentation.
 
-// Get the text properties of the run and cross it out.
+// Get the text properties of the run and cross it out in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

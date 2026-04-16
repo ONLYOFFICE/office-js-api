@@ -1,8 +1,8 @@
-// This example shows how to set a layout subtotal location of a pivot field.
+// Set a layout subtotal location of a pivot field in a spreadsheet.
 
-// How to change a pivot field layout subtotal location.
+// How to change a pivot field layout subtotal location in a spreadsheet.
 
-// Create a pivot table, add data to it then set layout subtotal location of a specified pivot.
+// Create a pivot table, add data to it then set layout subtotal location of a specified pivot in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

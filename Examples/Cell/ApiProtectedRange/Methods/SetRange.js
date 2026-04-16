@@ -1,8 +1,8 @@
-// This example changes ranges for a protected range.
+// Change ranges for a protected range in a spreadsheet.
 
-// How to set a protected range.
+// How to set a protected range in a spreadsheet.
 
-// Update a range of a protected range.
+// Update a range of a protected range in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.AddProtectedRange("protectedRange", "Sheet1!$A$1:$B$1");

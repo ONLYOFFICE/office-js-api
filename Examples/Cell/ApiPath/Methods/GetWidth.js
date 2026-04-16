@@ -1,5 +1,9 @@
-// Analyzes cloud shape path properties and displays them in cells.
-// Shows path count, dimensions, stroke and fill information.
+// Analyzes cloud shape path properties and display them in cells. Shows path count, dimensions, stroke and fill information.
+
+// How do I get the width in a spreadsheet?
+
+// Get the width using a geometry path object in a spreadsheet.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(100, 150, 200));
 let stroke = Api.CreateStroke(18000, Api.CreateSolidFill(Api.RGB(50, 75, 100)));

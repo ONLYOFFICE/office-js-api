@@ -1,8 +1,8 @@
-// This example sets a sequence of custom tab stops which will be used for any tab characters in the paragraph.
+// Set a sequence of custom tab stops which will be used for any tab characters in the paragraph in a document.
 
-// Add tabs to the paragraph.
+// Add tabs to the paragraph in a document.
 
-// Create a text in a paragraph and add tab stops to it.
+// Create a text in a paragraph and add tab stops to it in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

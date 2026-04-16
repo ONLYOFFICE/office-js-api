@@ -1,4 +1,4 @@
-// This example deletes the current slide from the presentation.
+// Delete the current slide from the presentation.
 
 // How to delete a slide.
 

@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the pdf document.
+// Check the class type returned by a paragraph properties in a PDF document.
 
-// How to get a class type of ApiParaPr.
+// How do I check what type a paragraph properties object is in a PDF document?
 
-// Retrieve class type of ApiParaPr object and insert it to the page.
+// Retrieve and output the class type string for a paragraph properties in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

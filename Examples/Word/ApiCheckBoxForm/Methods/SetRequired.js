@@ -1,4 +1,4 @@
-// This example specifies if the form should be required.
+// Specify if the form should be required.
 
 // How to make the form required.
 

@@ -1,4 +1,9 @@
-// This example create a new field and gets position of its widget.
+// Create a new field and get position of its widget in a PDF document.
+
+// How can I get the position using a widget in a PDF document?
+
+// Get the position for a widget in a PDF document.
+
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 let textField = Api.CreateTextField([10, 10, 160, 30]);

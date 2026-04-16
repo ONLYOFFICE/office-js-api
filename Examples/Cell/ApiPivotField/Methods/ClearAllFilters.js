@@ -1,8 +1,8 @@
-// This example shows how to clear all filters from a pivot field.
+// Clear all filters from a pivot field in a spreadsheet.
 
-// How to remove previously applied pivot field filters.
+// How to remove previously applied pivot field filters in a spreadsheet.
 
-// Create a pivot table, add data to it then delete all filters from a custom field.
+// Create a pivot table, add data to it then delete all filters from a custom field in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

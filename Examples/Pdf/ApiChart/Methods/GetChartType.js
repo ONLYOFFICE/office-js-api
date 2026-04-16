@@ -1,4 +1,8 @@
-// How to get a chart type of a chart.
+// How to get a chart type of a chart in a PDF document.
+
+// How to get the chart type for a chart in a PDF document?
+
+// Get the chart type and display the result in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

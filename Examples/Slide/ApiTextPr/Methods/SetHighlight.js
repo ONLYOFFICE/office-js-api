@@ -1,8 +1,8 @@
-// This example specifies a highlighting color which is added to the text properties and applied as a background to the contents of the run.
+// Specify a highlighting color which is added to the text properties and applied as a background to the contents of the run in a presentation.
 
-// How to highlight a text with a color.
+// How to highlight a text with a color in a presentation.
 
-// Get the text properties of the run and highlight it.
+// Get the text properties of the run and highlight it in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

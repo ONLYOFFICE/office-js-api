@@ -1,8 +1,8 @@
-// This example sets the hyperlink address.
+// Set the hyperlink address in a PDF document.
 
-// How to change the link address of the hyperlink object.
+// How to change the link address of the hyperlink object in a PDF document.
 
-// Set link of the hyperlink.
+// Set link of the hyperlink in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

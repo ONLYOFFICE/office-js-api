@@ -1,8 +1,8 @@
-// This example sets the right margin of the sheet.
+// Set the right margin of the sheet in a spreadsheet.
 
-// How to set margin of the right side.
+// How to set margin of the right side in a spreadsheet.
 
-// Resize the right margin of the sheet.
+// Resize the right margin of the sheet in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.SetRightMargin(20.8);

@@ -1,8 +1,8 @@
-// This example sets the fill to the marker in the specified chart series.
+// Set the fill to the marker in the specified chart series in a presentation.
 
-// How to set a fill to the marker.
+// How to set a fill to the marker in a presentation.
 
-// Create a chart, set its properties and its marker color.
+// Create a chart, set its properties and its marker color in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,4 +1,8 @@
-// This example shows how to set character spacing for all text in a paragraph inside a shape.
+// Set character spacing for all text in a paragraph inside a shape in a spreadsheet.
+
+// How do I set spacing in a spreadsheet?
+
+// Set spacing using a paragraph object in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const fill = Api.CreateSolidFill(Api.RGB(150, 130, 100));

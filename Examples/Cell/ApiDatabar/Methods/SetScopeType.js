@@ -1,4 +1,4 @@
-// This example demonstrates setting the scope type of a data bar formatting rule.
+// Set the scope type of a data bar formatting rule.
 
 // How to change the scope type of a data bar conditional formatting.
 

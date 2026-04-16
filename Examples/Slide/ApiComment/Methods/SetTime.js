@@ -1,6 +1,6 @@
-// This example shows how to set a comment time.
+// Set a comment time in a presentation.
 
-// How to change a creation time of a comment.
+// How to change a creation time of a comment in a presentation.
 
 // Get all comments from the presentation and change its first one's creation time.
 

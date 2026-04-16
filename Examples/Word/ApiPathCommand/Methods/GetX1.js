@@ -1,5 +1,9 @@
-// Retrieves control points and end point from a cubic bezier curve command.
-// Displays all control points coordinates of the bezier curve.
+// Retrieve control points and end point from a cubic bezier curve command. Displays all control points coordinates of the bezier curve in a document.
+
+// How can I get the x1 using a path command in a document?
+
+// Get the x1 for a path command in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let customGeometry = Api.CreateCustomGeometry();

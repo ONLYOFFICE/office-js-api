@@ -1,4 +1,9 @@
-// This example sets font family property to rich text properties object.
+// Set font family property to rich text properties object in a PDF document.
+
+// How do I set font family in a PDF document?
+
+// Set font family using a rich text properties object in a PDF document.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

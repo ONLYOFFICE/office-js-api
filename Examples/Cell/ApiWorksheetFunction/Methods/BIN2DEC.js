@@ -1,8 +1,8 @@
-// This example shows how to convert a binary number to decimal.
+// Convert a binary number to decimal in a spreadsheet.
 
 // How to get a decimal representation of a binary number.
 
-// Use function to convert a binary to decimal.
+// Use function to convert a binary to decimal in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

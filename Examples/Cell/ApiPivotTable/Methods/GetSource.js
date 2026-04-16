@@ -1,8 +1,8 @@
-// This example shows how to get source of a pivot table.
+// Get source of a pivot table in a spreadsheet.
 
-// How to get table source and its address.
+// How to get table source and its address in a spreadsheet.
 
-// Create a pivot table, add data to it then get its source.
+// Create a pivot table, add data to it then get its source in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

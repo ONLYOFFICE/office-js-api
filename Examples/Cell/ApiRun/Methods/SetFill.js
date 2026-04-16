@@ -1,6 +1,6 @@
-// This example sets the text color to the current text run.
+// Set the text color to the current text run in a spreadsheet.
 
-// How to color a text object.
+// How to color a text object in a spreadsheet.
 
 // Create a text run object, add a color to it using RGB format.
 

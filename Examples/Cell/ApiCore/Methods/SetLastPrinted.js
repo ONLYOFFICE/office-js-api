@@ -1,4 +1,8 @@
-// This example demonstrates how to set the date when the workbook was printed last time.
+// Set the date when the workbook was printed last time in a spreadsheet.
+
+// How do I set last printed in a spreadsheet?
+
+// Set last printed using a core properties object in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

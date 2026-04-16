@@ -1,6 +1,6 @@
-// This example shows how to set an author of a comment.
+// Set an author of a comment in a presentation.
 
-// How to change a comment's author name.
+// How to change a comment's author name in a presentation.
 
 // Get all comments from the presentation and set an author for the first one.
 

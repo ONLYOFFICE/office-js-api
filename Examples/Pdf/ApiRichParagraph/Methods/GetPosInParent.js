@@ -1,4 +1,9 @@
-// This example gets rich paragraph index in parent rich content.
+// Get rich paragraph index in parent rich content in a PDF document.
+
+// How can I get the pos in parent using a rich paragraph in a PDF document?
+
+// Get the pos in parent for a rich paragraph in a PDF document.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

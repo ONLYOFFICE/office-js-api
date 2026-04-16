@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the presentation.
+// Check the class type returned by a uni color in a spreadsheet.
 
-// How to get a class type of ApiUniColor.
+// How do I check what type a uni color object is in a spreadsheet?
 
-// Get a class type of ApiUniColor and display it in the worksheet.
+// Retrieve and output the class type string for a uni color in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const presetColor = Api.CreatePresetColor("peachPuff");

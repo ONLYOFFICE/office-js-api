@@ -1,6 +1,6 @@
-// This example shows how to get a number of elements in the current document.
+// Get a number of elements in the current document in a document.
 
-// How to get elements count and push it to the paragraph.
+// How to get elements count and push it to the paragraph in a document.
 
 // Count the number of elements in the document.
 

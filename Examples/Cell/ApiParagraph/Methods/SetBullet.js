@@ -1,8 +1,8 @@
-// This example sets the bullet or numbering to the paragraph.
+// Set the bullet or numbering to the paragraph in a spreadsheet.
 
-// How to add a dash bullet to the paragraph.
+// How to add a dash bullet to the paragraph in a spreadsheet.
 
-// Numbering and adding custom bullet points to the text.
+// Numbering and adding custom bullet points to the text in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

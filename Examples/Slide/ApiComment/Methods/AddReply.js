@@ -1,6 +1,6 @@
-// This example shows how to add a reply to the comment.
+// Add a reply to the comment in a presentation.
 
-// How to reply to the comment.
+// How to reply to the comment in a presentation.
 
 // Get all comments from the presentation and reply to the first one.
 

@@ -1,6 +1,6 @@
-// This example demonstrates setting the show value setting of a data bar conditional formatting rule.
+// Set the show value setting of a data bar conditional formatting rule.
 
-// How to control whether the data bar shows the value.
+// How to control whether the data bar shows the value in a spreadsheet.
 
 // Set the show value setting of a data bar conditional formatting rule.
 

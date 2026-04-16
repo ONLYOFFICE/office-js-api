@@ -1,8 +1,8 @@
-// This example gets the input message text.
+// Get the input message text in a spreadsheet.
 
-// How to retrieve the validation input message.
+// How to retrieve the validation input message in a spreadsheet.
 
-// Get the input message.
+// Get the input message using the validation API in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");

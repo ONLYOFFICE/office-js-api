@@ -1,8 +1,8 @@
-// This example shows how to get the hyperlink display text.
+// Get the hyperlink display text in a document.
 
 // How to show the display text of the hyperlink in the document.
 
-// Add a hyperlink to the paragraph and get its visible text.
+// Add a hyperlink to the paragraph and get its visible text in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

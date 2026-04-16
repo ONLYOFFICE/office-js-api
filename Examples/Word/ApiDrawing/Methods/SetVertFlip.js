@@ -1,8 +1,8 @@
-// This example flips the drawing vertically.
+// Flips the drawing vertically in a document.
 
-// How to set the vertical flip property of the shape.
+// How to set the vertical flip property of the shape in a document.
 
-// Create a drawing, add text to it and flip it vertically.
+// Create a drawing, add text to it and flip it vertically in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

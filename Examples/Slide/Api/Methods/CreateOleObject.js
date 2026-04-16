@@ -1,9 +1,9 @@
-// This example creates an Ole object and inserts it into the slide.
+// Create an Ole object and insert it into the slide.
 
-// How to create an Ole object.
+// How to create an Ole object in a presentation.
 
 // Add an Ole object to the slide.
- 
+
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);
 slide.RemoveAllObjects();

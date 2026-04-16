@@ -1,4 +1,8 @@
-// This example shows how to get the RGBA components of the color.
+// Get the RGBA components of the color in a document.
+
+// How to get the r g b a for a color in a document?
+
+// Get the r g b an and display the result in a document.
 
 const doc = Api.GetDocument();
 

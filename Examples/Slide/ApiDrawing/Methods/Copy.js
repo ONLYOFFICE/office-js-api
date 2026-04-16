@@ -1,4 +1,4 @@
-// This example creates a copy of a shape and inserts it into the presentation.
+// Create a copy of a shape and insert it into the presentation.
 
 // How to create the same slide shape.
 

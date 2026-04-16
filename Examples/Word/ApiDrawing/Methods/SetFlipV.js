@@ -1,4 +1,8 @@
-// This example shows how to set the vertical flip for a drawing.
+// Set the vertical flip for a drawing in a document.
+
+// How to set flip v for a drawing object in a document?
+
+// Set flip v and display the result in a document.
 
 const doc = Api.GetDocument();
 const paragraph = doc.GetElement(0);

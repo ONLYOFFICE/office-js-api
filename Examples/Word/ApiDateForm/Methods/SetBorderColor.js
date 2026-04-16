@@ -1,6 +1,6 @@
-// This example sets the border color to the current form.
+// Set the border color to the current form.
 
-// Applies an orange border (RGB: 255, 111, 61) to highlight the date form form visually.
+// Apply an orange border (RGB: 255, 111, 61) to highlight the date form form visually.
 
 // Define the border color of the date form.
 

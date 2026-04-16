@@ -1,5 +1,9 @@
-// Gets the outline properties from a shape and displays detailed information.
-// Creates a shape with a stroke, retrieves it and shows stroke details.
+// Get the outline properties from a shape and display detailed information. Creates a shape with a stroke, retrieve it and show stroke details.
+
+// How to get the line for a shape in a spreadsheet?
+
+// Get the line and display the result in a spreadsheet.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 200, 100));
 let stroke = Api.CreateStroke(2.5 * 12700, Api.CreateSolidFill(Api.CreateRGBColor(200, 100, 0)));

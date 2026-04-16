@@ -1,4 +1,4 @@
-// This example adds a layout to the specified slide master.
+// Add a layout to the specified slide master.
 
 // Create a layout and add it to the slide master.
 

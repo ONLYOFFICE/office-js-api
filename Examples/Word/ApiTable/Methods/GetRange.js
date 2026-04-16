@@ -1,6 +1,6 @@
-// This example shows how to get a Range object that represents the part of the document contained in the specified table.
+// Get a Range object that represents the part of the document contained in the specified table in a document.
 
-// How to get a range object using an address.
+// How to get a range object using an address in a document.
 
 // Update a rabge knowing its cell address.
 

@@ -1,8 +1,8 @@
-// This example shows how to return the annual duration of a security with periodic interest payments.
+// Return the annual duration of a security with periodic interest payments in a spreadsheet.
 
-// How to get an annual duration of a security with periodic interest payments.
+// How to get an annual duration of a security with periodic interest payments in a spreadsheet.
 
-// Use function to find an annual duration of a security.
+// Use function to find an annual duration of a security in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

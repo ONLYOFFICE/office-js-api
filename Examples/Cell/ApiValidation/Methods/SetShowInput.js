@@ -1,8 +1,8 @@
-// This example sets whether the input message is displayed.
+// Set whether the input message is displayed in a spreadsheet.
 
-// How to show or hide the validation input message.
+// How to show or hide the validation input message in a spreadsheet.
 
-// Set the ShowInput setting.
+// Set the ShowInput setting in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");

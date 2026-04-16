@@ -1,6 +1,6 @@
-// This example shows how to get a table that contains the paragraph.
+// Get a table that contains the paragraph in a document.
 
-// How to get the parent table of the paragraph.
+// How to get the parent table of the paragraph in a document.
 
 // Remove the cell from the parent element.
 

@@ -1,4 +1,4 @@
-// This example shows how to get a formula of the specified range.
+// Get a formula of the specified range in a spreadsheet.
 
 // How to find out a range formula.
 

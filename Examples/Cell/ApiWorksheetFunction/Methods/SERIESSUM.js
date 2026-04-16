@@ -1,6 +1,6 @@
-// This example shows how to return the sum of a power series based on the formula.
+// Return the sum of a power series based on the formula in a spreadsheet.
 
-// How to calculate the sum of a power series.
+// How to calculate the sum of a power series in a spreadsheet.
 
 // Use a function to sum up a power series using a formula.
 

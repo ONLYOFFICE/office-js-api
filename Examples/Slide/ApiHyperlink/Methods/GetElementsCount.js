@@ -1,4 +1,8 @@
-// This example returns a number of elements in the current hyperlink.
+// Return a number of elements in the current hyperlink in a presentation.
+
+// How do I get the elements count in a presentation?
+
+// Get the elements count using a hyperlink object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

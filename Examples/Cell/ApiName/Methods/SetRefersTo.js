@@ -1,4 +1,4 @@
-// This example sets a formula that the name is defined to refer to.
+// Set a formula that the name is defined to refer to.
 
 // How to add a name and refer it to the formula.
 

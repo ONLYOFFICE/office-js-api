@@ -1,4 +1,4 @@
-// This example clears the content from the cell.
+// Clear the content from the cell.
 
 // Remove the content of the table cell.
 

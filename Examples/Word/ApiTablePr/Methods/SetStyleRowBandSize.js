@@ -1,8 +1,8 @@
-// This example specifies a number of rows which will comprise each table row band for this table style.
+// Specify a number of rows which will comprise each table row band for this table style in a document.
 
-// How to set row band size.
+// How to set row band size in a document.
 
-// How to style a row band size.
+// How to style a row band size in a document.
 
 let doc = Api.GetDocument();
 doc.RemoveAllElements();

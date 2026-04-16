@@ -1,8 +1,8 @@
-// This example shows how to find out a text is spacing size.
+// Find out a text is spacing size in a PDF document.
 
-// How to know a text spacing.
+// How to know a text spacing in a PDF document.
 
-// Get the text properties of the run and display its spacing size.
+// Get the text properties of the run and display its spacing size in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,6 +1,8 @@
-// How to set an orientation of vertical axis.
+// How to set an orientation of vertical axis in a PDF document.
 
-// Create a chart, set its properties and its vertical axis orientation.
+// Create a chart, set its properties and its vertical axis orientation in a PDF document.
+
+// Set ver axis orientation using a chart object in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,4 +1,8 @@
-// This example shows how to get the internal ID of a paragraph.
+// Get the internal ID of a paragraph in a PDF document.
+
+// How to get the internal id for a paragraph in a PDF document?
+
+// Get the internal id and display the result in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

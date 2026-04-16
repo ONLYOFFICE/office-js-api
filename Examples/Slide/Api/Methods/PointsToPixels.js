@@ -1,4 +1,8 @@
-// This example shows how to convert points to pixels.
+// Convert points to pixels in a presentation.
+
+// How do I convert points to pixels in a presentation?
+
+// Convert points to pixels and display the result in a presentation.
 
 const points = 1000;
 const pixels = Api.PointsToPixels(points);

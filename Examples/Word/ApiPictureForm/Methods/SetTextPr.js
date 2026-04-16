@@ -1,4 +1,4 @@
-// This example sets the text properties to the form.
+// Set the text properties to the form.
 
 // How to make the text of the picture form bold and bigger.
 

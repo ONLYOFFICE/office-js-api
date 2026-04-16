@@ -1,4 +1,8 @@
-// This example shows how to set a tooltip for a hyperlink inside a shape.
+// Set a tooltip for a hyperlink inside a shape in a spreadsheet.
+
+// How do I set screen tip text in a spreadsheet?
+
+// Set screen tip text using a hyperlink object in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// This example calculates custom function result.
+// Calculate custom function result in a spreadsheet.
 
-// How to add custom function.
+// How to add custom function in a spreadsheet.
 
-// How to use custom function.
+// How to use custom function in a spreadsheet.
 
 // How to add cell values using custom function.
 

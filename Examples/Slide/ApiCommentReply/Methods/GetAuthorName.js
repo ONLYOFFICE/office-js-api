@@ -1,6 +1,6 @@
-// This example shows how to get an author of a comment reply.
+// Get an author of a comment reply in a presentation.
 
-// How to find out a comment's reply author.
+// How to find out a comment's reply author in a presentation.
 
 // Get all comments from the presentation and display the first one's reply author name.
 

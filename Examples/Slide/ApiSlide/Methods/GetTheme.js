@@ -1,4 +1,4 @@
-// This example shows how to get a theme of the current slide.
+// Get a theme of the current slide in a presentation.
 
 // How to return a theme of the slide.
 

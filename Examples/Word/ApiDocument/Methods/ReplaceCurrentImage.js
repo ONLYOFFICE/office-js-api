@@ -1,8 +1,8 @@
-// This example replaces the current image with an image specified.
+// Replace the current image with an image specified in a document.
 
-// How to change the image to another one.
+// How to change the image to another one in a document.
 
-// Add the new image instead of another using the URL.
+// Add the new image instead of another using the URL in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

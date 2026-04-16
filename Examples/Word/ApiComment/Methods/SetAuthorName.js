@@ -1,6 +1,6 @@
-// This example sets the comment author's name.
+// Set the comment author's name in a document.
 
-// How to change a comment's author name.
+// How to change a comment's author name in a document.
 
 // Get all comments from the presentation and set an author for the first one.
 

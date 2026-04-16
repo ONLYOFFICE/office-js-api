@@ -1,4 +1,9 @@
-// This example adds a content control and changes its appearance.
+// Add a content control and change its appearance in a document.
+
+// How do I set appearance in a document?
+
+// Set appearance using a block-level content control object in a document.
+
 let doc = Api.GetDocument();
 let contentControl = Api.CreateBlockLvlSdt();
 contentControl.SetAppearance("hidden");

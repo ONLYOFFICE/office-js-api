@@ -1,4 +1,4 @@
-// This example sets the text properties to the current form.
+// Set the text properties to the current form.
 
 // Add text properties to the text form.
 

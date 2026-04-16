@@ -1,4 +1,9 @@
-// This example gets justification from rich paragraph properties.
+// Get justification from rich paragraph properties in a PDF document.
+
+// How can I get the jc using a rich paragraph properties in a PDF document?
+
+// Get the jc for a rich paragraph properties in a PDF document.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

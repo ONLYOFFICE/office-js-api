@@ -1,6 +1,6 @@
-// This example show how to get a presentation.
+// Show how to get a presentation.
 
-// How to get the ApiPresentation object.
+// How to get the presentation object.
 
 // Retrieve the current presentation object and work with its slides.
 

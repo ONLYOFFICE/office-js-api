@@ -1,4 +1,8 @@
-// This example shows how to set and get the background color of the current table cell.
+// Set and get the background color of the current table cell in a document.
+
+// How can I get the background color using a table cell in a document?
+
+// Get the background color for a table cell in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

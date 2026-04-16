@@ -1,8 +1,8 @@
-// This example specifies that the current paragraph references the numbering definition instance in the current document.
+// Specify that the current paragraph references the numbering definition instance in the current document.
 
-// How to add numbering to the paragraph.
+// How to add numbering to the paragraph in a document.
 
-// Make paragraph bulleted.
+// Set numbering and display the result in a document.
 
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("bullet");

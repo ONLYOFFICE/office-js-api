@@ -1,4 +1,4 @@
-// This example sets the timestamp of the comment creation in UTC format.
+// Set the timestamp of the comment creation in UTC format.
 
 // How to change a creation time of a comment in UTC format.
 

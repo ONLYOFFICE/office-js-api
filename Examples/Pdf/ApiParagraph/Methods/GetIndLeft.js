@@ -1,6 +1,6 @@
-// This example shows how to get the paragraph left side indentation.
+// Get the paragraph left side indentation in a PDF document.
 
-// How to return a left side identation of a paragraph.
+// How to return a left side identation of a paragraph in a PDF document.
 
 // Return a left side indentation of a text from the page.
 

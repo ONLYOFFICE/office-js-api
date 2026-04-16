@@ -1,8 +1,8 @@
-// This example sets the lock value to the specified lock type of the current drawing.
+// Set the lock value to the specified lock type of the current drawing in a document.
 
-// How to set the lock value to "noSelect" of the drawing.
+// How to set the lock value to "noSelect" of the drawing in a document.
 
-// Create a drawing and lock it.
+// Create a drawing and lock it in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

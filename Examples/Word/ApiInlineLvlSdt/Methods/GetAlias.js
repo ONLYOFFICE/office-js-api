@@ -1,6 +1,6 @@
-// This example showh how to get the alias attribute for the container.
+// Showh how to get the alias attribute for the container in a document.
 
-// How to get an alias of the inline text element.
+// How to get an alias of the inline text element in a document.
 
 // Retrieve the alias of the text element and display it in the document.
 

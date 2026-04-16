@@ -1,4 +1,8 @@
-// This example selects the current paragraph.
+// Select the current paragraph in a PDF document.
+
+// How do I select in a PDF document?
+
+// Select using a paragraph object in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

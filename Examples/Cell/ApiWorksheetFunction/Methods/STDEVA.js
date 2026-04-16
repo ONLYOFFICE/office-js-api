@@ -1,8 +1,8 @@
-// This example shows how to estimate standard deviation based on a sample, including logical values and text. Text and the false logical value have the value 0; the true logical value has the value 1.
+// Estimate standard deviation based on a sample, including logical values and text. Text and the false logical value have the value 0; the true logical value has the value 1 in a spreadsheet.
 
-// How to estimate standard deviation based on a sample considering logical and text data types.
+// How to estimate standard deviation based on a sample considering logical and text data types in a spreadsheet.
 
-// Use a function to get the standard deviation.
+// Use a function to get the standard deviation in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

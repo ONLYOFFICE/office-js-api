@@ -1,5 +1,9 @@
-// Creates a complex curved shape using various bezier and arc commands.
-// Demonstrates different curve types in a single path on a page.
+// Create a complex curved shape using various bezier and arc commands. Demonstrates different curve types in a single path on a page.
+
+// How to quad bez to for a geometry path in a PDF document?
+
+// Quad bez to and display the result in a PDF document.
+
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 

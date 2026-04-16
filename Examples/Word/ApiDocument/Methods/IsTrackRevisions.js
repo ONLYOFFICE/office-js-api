@@ -1,8 +1,8 @@
-// This example checks if change tracking mode is enabled or not.
+// Check if change tracking mode is enabled or not in a document.
 
 // How to track revisions of the document.
 
-// Get a boolean value that shows whether revision tracking is enabled or not.
+// Get a boolean value that shows whether revision tracking is enabled or not in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

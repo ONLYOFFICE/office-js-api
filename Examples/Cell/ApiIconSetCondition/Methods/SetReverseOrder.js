@@ -1,8 +1,8 @@
-// This example shows how to reverse the icon order display.
+// Reverse the icon order display in a spreadsheet.
 
 // How to change the display order of icons in icon set formatting.
 
-// Reverse the order in which icons are displayed.
+// Reverse the order in which icons are displayed in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

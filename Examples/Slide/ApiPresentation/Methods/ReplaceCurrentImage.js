@@ -1,8 +1,8 @@
-// This example shows how to replace the current image with an image specified.
+// Replace the current image with an image specified in a presentation.
 
-// How to replace an image with another one.
+// How to replace an image with another one in a presentation.
 
-// Replace the current ApiImage with another image on the slide.
+// Replace the current image with another image on the slide.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

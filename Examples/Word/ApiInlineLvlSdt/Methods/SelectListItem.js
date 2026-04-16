@@ -1,4 +1,9 @@
-//  This example shows how to select a list item from a ComboBox content control.
+// Select a list item from a ComboBox content control in a document.
+
+// How to select list item for an inline content control in a document?
+
+// Select list item and display the result in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let contentControl = doc.AddComboBoxContentControl();

@@ -1,4 +1,9 @@
-// This example shows how to get the XML string representation of a custom XML part.
+// Get the XML string representation of a custom XML part in a document.
+
+// How to get the xml for a custom XML part in a document?
+
+// Get the xml and display the result in a document.
+
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
 let xmlText = `

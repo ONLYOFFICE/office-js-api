@@ -1,8 +1,8 @@
-// This example shows how to get the XPath of a custom XML node.
+// Get the XPath of a custom XML node in a spreadsheet.
 
-// How to retrieve XPath location from custom XML node elements.
+// How to retrieve XPath location from custom XML node elements in a spreadsheet.
 
-// Get XPath from employee node.
+// Get XPath from employee node in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let xmlManager = worksheet.GetCustomXmlParts();

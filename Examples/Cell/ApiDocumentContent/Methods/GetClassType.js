@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Check the class type returned by a document content.
 
-// How to get a class type of ApiDocumentContent.
+// How do I check what type a document content object is?
 
-// Get a class type of ApiDocumentContent and display it in the worksheet.
+// Retrieve and output the class type string for a document content.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

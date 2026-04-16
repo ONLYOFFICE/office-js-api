@@ -1,6 +1,6 @@
-// This example sets the specified numeric format to the axis values.
+// Set the specified numeric format to the axis values.
 
-// How to set number format style to the axis. 
+// How to set number format style to the axis.
 
 // Create a chart and format its axis numbering.
 

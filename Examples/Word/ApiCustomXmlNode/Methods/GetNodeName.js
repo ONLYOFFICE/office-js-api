@@ -1,4 +1,9 @@
-// This example demonstrates how to retrieve the name of the current XML node.
+// Retrieve the name of the current XML node in a document.
+
+// How to get the node name for a custom XML node in a document?
+
+// Get the node name and display the result in a document.
+
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
 let xmlText = `

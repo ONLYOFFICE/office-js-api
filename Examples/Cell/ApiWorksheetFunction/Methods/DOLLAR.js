@@ -1,6 +1,6 @@
-// This example shows how to convert a number to text, using a currency format $#.##.
+// Convert a number to text, using a currency format $#.## in a spreadsheet.
 
-// How to convert a number to text.
+// How to convert a number to text in a spreadsheet.
 
 // Use function to get text from a number using dollar format.
 

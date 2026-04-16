@@ -1,4 +1,9 @@
-// This example gets first element of rich content.
+// Get first element of rich content in a PDF document.
+
+// How can I get the element using a rich content in a PDF document?
+
+// Get the element for a rich content in a PDF document.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);
