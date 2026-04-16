@@ -1,4 +1,4 @@
-// Сheck if the specified logical value is true or false. The function returns true if the argument is false and false if the argument is true in a spreadsheet.
+// Check if the specified logical value is true or false. The function returns true if the argument is false and false if the argument is true in a spreadsheet.
 
 // How to negate a boolean value in a spreadsheet.
 
