@@ -1,4 +1,4 @@
-// This example shows how to get the tip text of the current form.
+// Get the tip text of the current form in a document.
 
 // Get a signature form tip text and show it in the document.
 

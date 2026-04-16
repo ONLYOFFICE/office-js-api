@@ -1,8 +1,8 @@
-// This example gets the AutoFilter object of a formatted table.
+// Get the AutoFilter object of a formatted table.
 
-// How to retrieve the ApiAutoFilter object associated with a table.
+// How to retrieve the auto filter object associated with a table in a spreadsheet.
 
-// Returns null if the table currently has no AutoFilter; use SetShowAutoFilter(true) to add one.
+// Return null if the table currently has no AutoFilter; use SetShowAutoFilter(true) to add one in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

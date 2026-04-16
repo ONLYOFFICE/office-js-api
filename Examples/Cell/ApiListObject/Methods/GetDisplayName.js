@@ -1,8 +1,8 @@
-// This example gets the display name of a formatted table.
+// Get the display name of a formatted table.
 
-// How to read the display name of a table.
+// How to read the display name of a table in a spreadsheet.
 
-// The display name is the label shown in the Name Box and table properties panel.
+// The display name is the label shown in the Name Box and table properties panel in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

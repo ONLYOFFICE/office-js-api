@@ -1,4 +1,4 @@
-// This example enables the first column highlight for a formatted table.
+// Enable the first column highlight for a formatted table.
 
 // How to apply special formatting to the first column of a table.
 

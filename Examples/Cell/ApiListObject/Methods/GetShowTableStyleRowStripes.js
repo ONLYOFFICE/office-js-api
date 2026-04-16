@@ -1,8 +1,8 @@
-// This example checks whether row stripes are enabled for a formatted table.
+// Check whether row stripes are enabled for a formatted table.
 
-// How to determine if alternating row colors are applied to a table.
+// How to determine if alternating row colors are applied to a table in a spreadsheet.
 
-// Row stripes apply alternating background colors to adjacent rows as defined in the table style.
+// Row stripes apply alternating background colors to adjacent rows as defined in the table style in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

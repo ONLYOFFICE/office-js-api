@@ -1,8 +1,8 @@
-// This example gets the data body range of a table column, excluding the header and totals rows.
+// Get the data body range of a table column, excluding the header and totals rows in a spreadsheet.
 
 // How to retrieve only the data cells of a specific column.
 
-// Get the data body range of a column, excluding the header and totals rows.
+// Get the data body range of a column, excluding the header and totals rows in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

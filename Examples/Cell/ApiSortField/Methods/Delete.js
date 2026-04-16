@@ -1,8 +1,8 @@
-// This example removes a sort field from the sort fields collection.
+// Remove a sort field from the sort fields collection in a spreadsheet.
 
-// How to delete an individual sort field from a table's sort configuration.
+// How to delete an individual sort field from a table's sort configuration in a spreadsheet.
 
-// Remove a sort field from the collection.
+// Remove a sort field from the collection in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

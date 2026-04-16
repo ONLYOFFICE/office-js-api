@@ -1,4 +1,4 @@
-// This example checks whether a formatted table is currently active (selected).
+// Check whether a formatted table is currently active (selected).
 
 // How to determine if a table cell is selected.
 

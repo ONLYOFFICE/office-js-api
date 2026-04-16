@@ -1,6 +1,6 @@
-// This example gets the name of a formatted table.
+// Get the name of a formatted table.
 
-// How to read the internal name of a table.
+// How to read the internal name of a table in a spreadsheet.
 
 // The table name is used in structured references like =TableName[Column] in formulas.
 

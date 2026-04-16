@@ -1,4 +1,4 @@
-// This example enables the last column highlight for a formatted table.
+// Enable the last column highlight for a formatted table.
 
 // How to apply special formatting to the last column of a table.
 

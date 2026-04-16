@@ -1,8 +1,8 @@
-// This example checks whether the AutoFilter is shown for a formatted table.
+// Check whether the AutoFilter is shown for a formatted table.
 
-// How to determine if the AutoFilter is enabled on a table.
+// How to determine if the AutoFilter is enabled on a table in a spreadsheet.
 
-// When false, the AutoFilter and all drop-down arrows are removed from the table header row.
+// When false, the AutoFilter and all drop-down arrows are removed from the table header row in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

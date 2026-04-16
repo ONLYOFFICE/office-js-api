@@ -1,8 +1,8 @@
-// Find out the class type of a comment object in a spreadsheet.
+// Check the class type returned by a comment in a spreadsheet.
 
-// How can I get the class type of a comment in a spreadsheet?
+// How do I check what type a comment object is in a spreadsheet?
 
-// Get the class type of a comment and display it in the spreadsheet.
+// Retrieve and output the class type string for a comment in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

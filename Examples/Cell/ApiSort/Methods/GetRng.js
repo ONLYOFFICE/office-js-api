@@ -1,8 +1,8 @@
-// This example gets the data body range that a table sort applies to.
+// Get the data body range that a table sort applies to in a spreadsheet.
 
-// How to retrieve the range being sorted by the sort object.
+// How to retrieve the range being sorted by the sort object in a spreadsheet.
 
-// Get the data range being sorted.
+// Get the data range being sorted in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

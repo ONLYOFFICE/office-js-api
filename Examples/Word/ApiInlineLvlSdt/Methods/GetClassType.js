@@ -1,8 +1,8 @@
-// Find out the class type of an inline content control object in a document.
+// Retrieve the class type of an inline content control in a document.
 
-// How can I get the class type of an inline content control in a document?
+// How to identify the class type of an inline content control in a document?
 
-// Get the class type of an inline content control and display it in the document.
+// Obtain the class type identifier of an inline content control object in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

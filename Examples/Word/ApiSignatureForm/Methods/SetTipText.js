@@ -1,4 +1,4 @@
-// This example sets the tip text to the current form.
+// Set the tip text to the current form.
 
 // Add text as a tip to the signature form.
 

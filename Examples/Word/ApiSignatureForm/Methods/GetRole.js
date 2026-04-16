@@ -1,4 +1,4 @@
-// This example shows how to get the form role.
+// Get the form role in a document.
 
 // How to get the role of a signature form.
 

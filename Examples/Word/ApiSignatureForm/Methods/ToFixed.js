@@ -1,4 +1,4 @@
-// This example calls the ToFixed method on a signature form. Note that the signature form is always fixed and cannot be inline, so this method does not change the form size.
+// Calls the ToFixed method on a signature form. Note that the signature form is always fixed and cannot be inline, so this method does not change the form size.
 
 // How to use the ToFixed method on a signature form.
 

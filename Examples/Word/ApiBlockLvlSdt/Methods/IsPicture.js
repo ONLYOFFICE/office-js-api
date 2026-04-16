@@ -1,4 +1,8 @@
-// This example checks whether a block-level content control is a picture control.
+// Check whether a block-level content control is a picture control in a document.
+
+// How do I is picture in a document?
+
+// Is picture using a block-level content control object in a document.
 
 const doc = Api.GetDocument();
 

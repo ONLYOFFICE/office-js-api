@@ -1,8 +1,8 @@
-// This example gets the full range of a formatted table.
+// Get the full range of a formatted table.
 
-// How to retrieve the complete range covered by a table.
+// How to retrieve the complete range covered by a table in a spreadsheet.
 
-// The full range includes the header row, all data rows, and the totals row if it is visible.
+// The full range includes the header row, all data rows, and the totals row if it is visible in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

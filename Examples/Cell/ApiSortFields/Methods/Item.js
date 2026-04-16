@@ -1,8 +1,8 @@
-// This example gets a sort field by its 1-based index from a sort fields collection.
+// Get a sort field by its 1-based index from a sort fields collection in a spreadsheet.
 
 // How to access a specific sort field in a formatted table.
 
-// Get a sort field by its 1-based index.
+// Get a sort field by its 1-based index in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

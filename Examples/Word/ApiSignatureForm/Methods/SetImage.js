@@ -1,4 +1,4 @@
-// This example sets an image to the current signature form.
+// Set an image to the current signature form.
 
 // How to set the image of the signature form.
 

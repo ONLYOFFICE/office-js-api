@@ -1,4 +1,4 @@
-// This example shows how to get a number of slides.
+// Get a number of slides in a presentation.
 
 // How to count the slides of the presentation using the GetSlideCount method.
 

@@ -1,4 +1,4 @@
-// This example calls the ToInline method on a signature form. Note that the signature form is always fixed and cannot be inline, so this method has no effect.
+// Calls the ToInline method on a signature form. Note that the signature form is always fixed and cannot be inline, so this method has no effect.
 
 // How to use the ToInline method on a signature form.
 

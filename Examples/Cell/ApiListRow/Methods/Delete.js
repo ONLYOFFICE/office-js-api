@@ -1,8 +1,8 @@
-// This example deletes a data row from a formatted table.
+// Delete a data row from a formatted table.
 
-// How to remove a row from an existing table.
+// How to remove a row from an existing table in a spreadsheet.
 
-// Delete a row from the table.
+// Delete a row from the table in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

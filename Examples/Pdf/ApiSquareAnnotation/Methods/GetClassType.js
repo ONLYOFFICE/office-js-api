@@ -1,8 +1,8 @@
-// Check the class type returned by a square annotation in a PDF document.
+// Retrieve the class type of a square annotation in a PDF document.
 
-// How do I check what type a square annotation object is in a PDF document?
+// How to identify the class type of a square annotation in a PDF document?
 
-// Retrieve and output the class type string for a square annotation in a PDF document.
+// Obtain the class type identifier of a square annotation object in a PDF document.
 
 let doc = Api.GetDocument();
 let squareAnnot = Api.CreateSquareAnnot([10, 10, 160, 32]);

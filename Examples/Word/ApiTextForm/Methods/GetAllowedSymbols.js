@@ -1,8 +1,8 @@
-// This example shows how to get the allowed symbols of a text field.
+// Get the allowed symbols of a text field in a document.
 
 // Create a text form, set allowed symbols, then retrieve and display them in the document.
 
-// How to get the allowed symbols of the ApiTextForm object.
+// How to get the allowed symbols of the text form object.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({ key: "Letters", placeholder: "Letters only" });

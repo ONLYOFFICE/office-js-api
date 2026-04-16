@@ -1,8 +1,8 @@
-// Find out the class type of a style object in a document.
+// Check the class type returned by a style in a document.
 
-// How can I get the class type of a style in a document?
+// How do I check what type a style object is in a document?
 
-// Get the class type of a style and display it in the document.
+// Retrieve and output the class type string for a style in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.GetStyle("Bordered");

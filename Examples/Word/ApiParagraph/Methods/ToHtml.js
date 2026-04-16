@@ -1,8 +1,8 @@
-// This example shows how to convert a paragraph to HTML.
+// Convert a paragraph to HTML in a document.
 
 // Create a paragraph with text, convert it to HTML, and display the result in the document.
 
-// How to convert the ApiParagraph object to HTML.
+// How to convert the paragraph object to HTML in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

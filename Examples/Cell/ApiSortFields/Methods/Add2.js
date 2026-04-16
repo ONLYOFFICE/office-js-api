@@ -1,8 +1,8 @@
-// This example adds a sort field with subfield support to a sort fields collection.
+// Add a sort field with subfield support to a sort fields collection in a spreadsheet.
 
-// How to add a sort field with an optional subfield for linked data types.
+// How to add a sort field with an optional subfield for linked data types in a spreadsheet.
 
-// Add a sort field with an optional subfield — the sort is applied immediately.
+// Add a sort field with an optional subfield — the sort is applied immediately in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

@@ -1,8 +1,8 @@
-// This example gets the full range of a table column, including the header and totals rows.
+// Get the full range of a table column, including the header and totals rows in a spreadsheet.
 
 // How to get the entire column range including header and totals cells.
 
-// Get the full range of a column including the header and totals rows.
+// Get the full range of a column including the header and totals rows in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

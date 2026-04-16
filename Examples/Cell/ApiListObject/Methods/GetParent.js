@@ -1,4 +1,4 @@
-// This example gets the parent worksheet of a formatted table.
+// Get the parent worksheet of a formatted table.
 
 // How to retrieve the worksheet that contains a table.
 

@@ -1,6 +1,6 @@
-// This example renames a formatted table.
+// Renames a formatted table.
 
-// How to change the name of a table.
+// How to change the name of a table in a spreadsheet.
 
 // The name must be unique in the workbook and is used in structured references in formulas.
 

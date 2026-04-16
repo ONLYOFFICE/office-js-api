@@ -1,4 +1,8 @@
-// This example shows how to get the height of a specific table row.
+// Get the height of a specific table row in a presentation.
+
+// How do I get the height in a presentation?
+
+// Get the height using a table row object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

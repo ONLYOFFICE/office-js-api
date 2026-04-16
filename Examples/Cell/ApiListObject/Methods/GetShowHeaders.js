@@ -1,6 +1,6 @@
-// This example checks whether the header row is shown for a formatted table.
+// Check whether the header row is shown for a formatted table.
 
-// How to determine if the header row is visible in a table.
+// How to determine if the header row is visible in a table in a spreadsheet.
 
 // When false, column label cells are hidden and the first data row moves up to the header position.
 

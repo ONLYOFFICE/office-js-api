@@ -1,8 +1,8 @@
-// This example changes the sort key column of an existing sort field.
+// Change the sort key column of an existing sort field in a spreadsheet.
 
-// How to reassign the sort key range of a sort field.
+// How to reassign the sort key range of a sort field in a spreadsheet.
 
-// Change the sort key column of an existing sort field and apply the sort.
+// Change the sort key column of an existing sort field and apply the sort in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

@@ -1,8 +1,8 @@
-// This example gets the tag color of the container.
+// Get the tag color of the container in a document.
 
-// Creates an inline content control, sets the color to it, and returns its color.
+// Create an inline content control, set the color to it, and return its color in a document.
 
-// How to return the color of the ApiInlineLvlSdt object.
+// How to return the color of the inline content control object in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Check the class type returned by a signature form.
 
-// How to get a class type of ApiSignatureForm.
+// How do I check what type a signature form object is?
 
-// Retrieve class type of ApiSignatureForm object and insert it to the document.
+// Retrieve and output the class type string for a signature form.
 
 let doc = Api.GetDocument();
 let signatureForm = Api.CreateSignatureForm({"key": "Signature", "tip": "Please sign here", "placeholder": "Signature"});

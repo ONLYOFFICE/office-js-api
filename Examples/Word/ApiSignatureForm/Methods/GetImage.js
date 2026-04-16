@@ -1,4 +1,4 @@
-// This example shows how to get an image in the base64 format from the signature form.
+// Get an image in the base64 format from the signature form in a document.
 
 // How to get an image from the signature form.
 

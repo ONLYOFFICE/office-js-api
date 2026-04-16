@@ -1,8 +1,8 @@
-// Retrieve the class type of a checkbox form in a document.
+// Check the class type returned by a checkbox form.
 
-// How to identify the class type of a checkbox form?
+// How do I check what type a checkbox form object is?
 
-// Obtain the class type identifier of a checkbox form object.
+// Retrieve and output the class type string for a checkbox form.
 
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});

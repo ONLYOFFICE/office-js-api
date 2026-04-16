@@ -1,4 +1,4 @@
-// This example moves the cursor outside of the signature form.
+// Move the cursor outside of the signature form.
 
 // How to move the cursor to the position after the form.
 

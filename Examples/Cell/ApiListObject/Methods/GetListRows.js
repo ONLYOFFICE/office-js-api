@@ -1,8 +1,8 @@
-// This example gets all data rows of a formatted table.
+// Get all data rows of a formatted table.
 
-// How to retrieve the list of ApiListRow objects from a table.
+// How to retrieve the list of list row objects from a table in a spreadsheet.
 
-// The returned array contains only data rows; the header row and totals row are not included.
+// The returned array contains only data rows; the header row and totals row are not included in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

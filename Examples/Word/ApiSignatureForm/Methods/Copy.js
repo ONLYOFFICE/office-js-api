@@ -1,4 +1,4 @@
-// This example copies the signature form.
+// Copy the signature form.
 
 // How to create a duplicate of the signature form.
 

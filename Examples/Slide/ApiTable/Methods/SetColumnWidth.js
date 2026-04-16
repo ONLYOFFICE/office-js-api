@@ -1,4 +1,8 @@
-// This example shows how to set the width of a specific table column.
+// Set the width of a specific table column in a presentation.
+
+// How can I set column width using a table in a presentation?
+
+// Set column width for a table in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

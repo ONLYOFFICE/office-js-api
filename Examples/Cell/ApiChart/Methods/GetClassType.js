@@ -1,8 +1,8 @@
-// Find out the class type of a chart object in a spreadsheet.
+// Retrieve the class type of a chart in a spreadsheet.
 
-// How can I get the class type of a chart in a spreadsheet?
+// How to identify the class type of a chart in a spreadsheet?
 
-// Get the class type of a chart and display it in the spreadsheet.
+// Obtain the class type identifier of a chart object in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

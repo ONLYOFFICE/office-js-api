@@ -1,8 +1,8 @@
-// This example sorts a formatted table by the first column in ascending order.
+// Sort a formatted table by the first column in ascending order.
 
 // How to apply sort settings to a formatted table.
 
-// Apply the configured sort settings to the table.
+// Apply the configured sort settings to the table in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

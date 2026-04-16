@@ -1,8 +1,8 @@
-// This example sets the sort method of a table sort object.
+// Set the sort method of a table sort object in a spreadsheet.
 
-// How to specify whether Chinese characters are sorted by PinYin or stroke order.
+// How to specify whether Chinese characters are sorted by PinYin or stroke order in a spreadsheet.
 
-// Set the sort method for Chinese characters.
+// Set the sort method for Chinese characters in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

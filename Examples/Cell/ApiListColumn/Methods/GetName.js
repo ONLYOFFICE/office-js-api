@@ -1,8 +1,8 @@
-// This example gets the name of a table column.
+// Get the name of a table column in a spreadsheet.
 
 // How to read the header text of a specific column in a formatted table.
 
-// Get the name of a table column.
+// Get the name of a table column in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

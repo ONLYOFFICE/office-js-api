@@ -1,6 +1,6 @@
-// This example toggles the header row visibility of a formatted table.
+// Toggle the header row visibility of a formatted table.
 
-// How to show or hide the header row in a table.
+// How to show or hide the header row in a table in a spreadsheet.
 
 // When set to false, column label cells are hidden and the first data row moves to the header position.
 

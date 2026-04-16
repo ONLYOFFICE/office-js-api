@@ -1,8 +1,8 @@
-// Check the class type returned by an image in a document.
+// Retrieve the class type of an image in a document.
 
-// How do I check what type an image object is in a document?
+// How to identify the class type of an image in a document?
 
-// Retrieve and output the class type string for an image in a document.
+// Obtain the class type identifier of an image object in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

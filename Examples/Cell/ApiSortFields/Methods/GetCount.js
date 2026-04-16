@@ -1,8 +1,8 @@
-// This example gets the number of sort fields in a sort fields collection.
+// Get the number of sort fields in a sort fields collection in a spreadsheet.
 
 // How to count the sort fields configured for a formatted table.
 
-// Get the number of sort fields in the collection.
+// Get the number of sort fields in the collection in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

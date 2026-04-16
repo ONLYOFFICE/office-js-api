@@ -1,8 +1,8 @@
-// Find out the class type of an image object in a presentation.
+// Retrieve the class type of an image in a presentation.
 
-// How can I get the class type of an image in a presentation?
+// How to identify the class type of an image in a presentation?
 
-// Get the class type of an image and display it in the presentation.
+// Obtain the class type identifier of an image object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

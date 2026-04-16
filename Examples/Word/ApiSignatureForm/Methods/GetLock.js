@@ -1,4 +1,4 @@
-// This example shows how to get the lock state of the signature form.
+// Get the lock state of the signature form in a document.
 
 // How to check if the signature form is locked.
 

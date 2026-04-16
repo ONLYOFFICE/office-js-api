@@ -1,8 +1,8 @@
-// This example resizes a formatted table to a new range.
+// Resize a formatted table to a new range.
 
-// How to expand or shrink the range of an existing table.
+// How to expand or shrink the range of an existing table in a spreadsheet.
 
-// Resizing to a larger range automatically includes new blank rows or columns in the table structure.
+// Resizing to a larger range automatically includes new blank rows or columns in the table structure in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

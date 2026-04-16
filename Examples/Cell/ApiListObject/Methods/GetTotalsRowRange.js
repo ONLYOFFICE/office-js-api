@@ -1,8 +1,8 @@
-// This example gets the totals row range of a formatted table.
+// Get the totals row range of a formatted table.
 
-// How to retrieve the range of the table totals row.
+// How to retrieve the range of the table totals row in a spreadsheet.
 
-// Returns null when ShowTotals is false; the totals row must be visible to have a range.
+// Return null when ShowTotals is false; the totals row must be visible to have a range in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

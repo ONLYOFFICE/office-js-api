@@ -1,4 +1,4 @@
-// This example shows how to set the form tag.
+// Set the form tag in a document.
 
 // How to set the tag of a signature form.
 

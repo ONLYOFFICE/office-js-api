@@ -1,8 +1,8 @@
-// This example gets the style name applied to a formatted table.
+// Get the style name applied to a formatted table.
 
-// How to read the current style of a table.
+// How to read the current style of a table in a spreadsheet.
 
-// Style names follow the pattern "TableStyleLight1", "TableStyleMedium2", "TableStyleDark1", and so on.
+// Style names follow the pattern "TableStyleLight1", "TableStyleMedium2", "TableStyleDark1", and so on in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

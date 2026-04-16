@@ -1,4 +1,4 @@
-// This example checks whether the date form is filled.
+// Check whether the date form is filled.
 
 // How to check if the date form has a date set.
 

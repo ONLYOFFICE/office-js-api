@@ -1,4 +1,4 @@
-// This example checks whether the picture form is filled.
+// Check whether the picture form is filled.
 
 // How to check if the picture form has an image set.
 

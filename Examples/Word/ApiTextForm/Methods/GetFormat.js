@@ -1,8 +1,8 @@
-// This example shows how to get the format of a text field.
+// Get the format of a text field in a document.
 
 // Create a text form, set a mask format, then retrieve and display the format type.
 
-// How to get the format of the ApiTextForm object.
+// How to get the format of the text form object.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({ key: "Code", placeholder: "Enter code" });

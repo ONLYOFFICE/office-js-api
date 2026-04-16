@@ -1,4 +1,4 @@
-// This example checks whether the form is filled.
+// Check whether the form is filled.
 
 // How to check if the text form has any text set.
 

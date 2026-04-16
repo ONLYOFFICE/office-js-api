@@ -1,8 +1,8 @@
-// This example sets the sort orientation of a table sort object.
+// Set the sort orientation of a table sort object in a spreadsheet.
 
-// How to configure whether sorting applies top-to-bottom or left-to-right.
+// How to configure whether sorting applies top-to-bottom or left-to-right in a spreadsheet.
 
-// Set the sort direction.
+// Set the sort direction using the sort API in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

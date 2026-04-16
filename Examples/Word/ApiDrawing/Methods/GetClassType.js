@@ -1,8 +1,8 @@
-// Check the class type returned by a drawing object in a document.
+// Retrieve the class type of a drawing object in a document.
 
-// How do I check what type a drawing object object is in a document?
+// How to identify the class type of a drawing object in a document?
 
-// Retrieve and output the class type string for a drawing object in a document.
+// Obtain the class type identifier of a drawing object object in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

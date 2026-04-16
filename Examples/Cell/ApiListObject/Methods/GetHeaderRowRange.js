@@ -1,8 +1,8 @@
-// This example gets the header row range of a formatted table.
+// Get the header row range of a formatted table.
 
-// How to retrieve the range of the table header row.
+// How to retrieve the range of the table header row in a spreadsheet.
 
-// Returns null when ShowHeaders is false, because the header row is not visible in that case.
+// Return null when ShowHeaders is false, because the header row is not visible in that case in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

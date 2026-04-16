@@ -1,8 +1,8 @@
-// This example gets the alternative text of a formatted table.
+// Get the alternative text of a formatted table.
 
-// How to read the accessibility description of a table.
+// How to read the accessibility description of a table in a spreadsheet.
 
-// Alternative text helps screen readers identify the table's purpose for accessibility.
+// Alternative text helps screen readers identify the table's purpose for accessibility in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// This example sets the tag color for the container.
+// Set the tag color for the container in a document.
 
-// Creates an inline content control and sets the color to it.
+// Create an inline content control and set the color to it in a document.
 
-// How to set the color to the ApiInlineLvlSdt object.
+// How to set the color to the inline content control object in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

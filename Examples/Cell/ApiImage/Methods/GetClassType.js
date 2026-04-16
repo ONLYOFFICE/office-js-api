@@ -1,8 +1,8 @@
-// Retrieve the class type of an image in a spreadsheet.
+// Find out the class type of an image object in a spreadsheet.
 
-// How to identify the class type of an image in a spreadsheet?
+// How can I get the class type of an image in a spreadsheet?
 
-// Obtain the class type identifier of an image object in a spreadsheet.
+// Get the class type of an image and display it in the spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let image = worksheet.AddImage(

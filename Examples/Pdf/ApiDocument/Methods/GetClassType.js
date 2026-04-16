@@ -1,8 +1,8 @@
-// Find out the class type of a document object.
+// Check the class type returned by a document.
 
-// How can I get the class type of a document?
+// How do I check what type a document object is?
 
-// Get the class type of a document and display it in the PDF.
+// Retrieve and output the class type string for a document.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

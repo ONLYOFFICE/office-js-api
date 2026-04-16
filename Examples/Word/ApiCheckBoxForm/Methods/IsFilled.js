@@ -1,4 +1,4 @@
-// This example checks whether the checkbox form is filled.
+// Check whether the checkbox form is filled.
 
 // How to check if the checkbox form is checked.
 

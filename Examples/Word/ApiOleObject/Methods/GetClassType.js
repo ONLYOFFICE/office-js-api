@@ -1,8 +1,8 @@
-// Check the class type returned by an OLE object in a document.
+// Retrieve the class type of an OLE object in a document.
 
-// How do I check what type an OLE object object is in a document?
+// How to identify the class type of an OLE object in a document?
 
-// Retrieve and output the class type string for an OLE object in a document.
+// Obtain the class type identifier of an OLE object object in a document.
 
 let doc = Api.GetDocument();
 let oleObject = Api.CreateOleObject(

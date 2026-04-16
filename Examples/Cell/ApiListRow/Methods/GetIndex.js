@@ -1,8 +1,8 @@
-// This example gets the 1-based index of a data row in a formatted table.
+// Get the 1-based index of a data row in a formatted table.
 
-// How to find the position of a row within the data body of a table.
+// How to find the position of a row within the data body of a table in a spreadsheet.
 
-// Get the 1-based index of a row within the table.
+// Get the 1-based index of a row within the table in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

@@ -1,8 +1,8 @@
-// This example sets the AutoFilter visibility for a formatted table.
+// Set the AutoFilter visibility for a formatted table.
 
-// How to show or hide the AutoFilter on a table.
+// How to show or hide the AutoFilter on a table in a spreadsheet.
 
-// Setting to false removes the AutoFilter and all drop-down arrows from the table header row.
+// Setting to false removes the AutoFilter and all drop-down arrows from the table header row in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

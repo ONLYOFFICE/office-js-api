@@ -1,8 +1,8 @@
-// This example gets the sort key range of a sort field.
+// Get the sort key range of a sort field in a spreadsheet.
 
-// How to retrieve the column range that a sort field is applied to.
+// How to retrieve the column range that a sort field is applied to in a spreadsheet.
 
-// Get the column range used as the sort key.
+// Get the column range used as the sort key in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

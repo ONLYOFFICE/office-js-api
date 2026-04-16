@@ -1,8 +1,8 @@
-// Find out the class type of a text run object in a spreadsheet.
+// Retrieve the class type of a text run in a spreadsheet.
 
-// How can I get the class type of a text run in a spreadsheet?
+// How to identify the class type of a text run in a spreadsheet?
 
-// Get the class type of a text run and display it in the spreadsheet.
+// Obtain the class type identifier of a text run object in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

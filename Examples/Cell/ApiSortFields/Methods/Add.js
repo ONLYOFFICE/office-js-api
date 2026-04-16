@@ -1,8 +1,8 @@
-// This example adds a sort field to a table sort fields collection.
+// Add a sort field to a table sort fields collection in a spreadsheet.
 
 // How to configure a sort column for a formatted table.
 
-// Add a sort field to the collection — the sort is applied immediately.
+// Add a sort field to the collection — the sort is applied immediately in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

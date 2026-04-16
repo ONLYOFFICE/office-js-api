@@ -1,4 +1,4 @@
-// This example shows how to get a shape in which the form is placed to control the position and size of the fixed size form frame.
+// Get a shape in which the form is placed to control the position and size of the fixed size form frame in a document.
 
 // Get wrapper shape of the signature form.
 

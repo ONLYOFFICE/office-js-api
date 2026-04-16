@@ -1,6 +1,6 @@
-// This example sets the comment (summary) of a formatted table.
+// Set the comment (summary) of a formatted table.
 
-// How to assign a descriptive comment to a table.
+// How to assign a descriptive comment to a table in a spreadsheet.
 
 // The comment is a descriptive note on the table object, separate from any cell comments.
 

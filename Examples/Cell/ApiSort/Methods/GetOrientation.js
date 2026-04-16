@@ -1,8 +1,8 @@
-// This example gets the sort orientation of a table sort object.
+// Get the sort orientation of a table sort object in a spreadsheet.
 
-// How to check whether the table is sorted by rows or by columns.
+// How to check whether the table is sorted by rows or by columns in a spreadsheet.
 
-// Get the sort direction of the sort object.
+// Get the sort direction of the sort object in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

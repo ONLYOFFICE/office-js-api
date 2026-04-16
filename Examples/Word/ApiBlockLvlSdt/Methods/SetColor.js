@@ -1,8 +1,8 @@
-// This example sets the tag color for the container.
+// Set the tag color for the container in a document.
 
-// Creates a block content control and sets the color to it.
+// Create a block content control and set the color to it in a document.
 
-// How to set the color to the ApiBlockLvlSdt object.
+// How to set the color to the block-level content control object in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

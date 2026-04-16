@@ -1,8 +1,8 @@
-// This example checks whether AutoFilter dropdown buttons are visible in a formatted table.
+// Check whether AutoFilter dropdown buttons are visible in a formatted table.
 
-// How to determine if the AutoFilter dropdown arrows are displayed.
+// How to determine if the AutoFilter dropdown arrows are displayed in a spreadsheet.
 
-// Hiding drop-down arrows prevents interactive filter changes while keeping filter criteria active.
+// Hiding drop-down arrows prevents interactive filter changes while keeping filter criteria active in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

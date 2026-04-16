@@ -1,8 +1,8 @@
-// This example gets the totals row function type for a table column.
+// Get the totals row function type for a table column in a spreadsheet.
 
-// How to check what aggregate function is used in the totals row of a column.
+// How to check what aggregate function is used in the totals row of a column in a spreadsheet.
 
-// Get the aggregate function used in the totals row of a column.
+// Get the aggregate function used in the totals row of a column in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

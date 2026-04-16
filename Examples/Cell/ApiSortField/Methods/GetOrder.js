@@ -1,8 +1,8 @@
-// This example gets the sort order of a sort field.
+// Get the sort order of a sort field in a spreadsheet.
 
-// How to check whether a sort field sorts ascending or descending.
+// How to check whether a sort field sorts ascending or descending in a spreadsheet.
 
-// Check the sort direction of a sort field.
+// Check the sort direction of a sort field in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

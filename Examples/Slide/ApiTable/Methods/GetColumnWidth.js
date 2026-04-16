@@ -1,4 +1,8 @@
-// This example shows how to get the width of a specific table column.
+// Get the width of a specific table column in a presentation.
+
+// How to get the column width for a table in a presentation?
+
+// Get the column width and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

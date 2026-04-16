@@ -2,7 +2,7 @@
 
 // How to inspect the criteria of existing filters in a spreadsheet.
 
-// Each ApiFilter object describes the criteria applied to one column of the AutoFilter range.
+// Each filter object describes the criteria applied to one column of the AutoFilter range in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

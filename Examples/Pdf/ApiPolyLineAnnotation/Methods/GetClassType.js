@@ -1,8 +1,8 @@
-// Retrieve the class type of a polyline annotation in a PDF document.
+// Check the class type returned by a polyline annotation in a PDF document.
 
-// How to identify the class type of a polyline annotation in a PDF document?
+// How do I check what type a polyline annotation object is in a PDF document?
 
-// Obtain the class type identifier of a polyline annotation object in a PDF document.
+// Retrieve and output the class type string for a polyline annotation in a PDF document.
 
 let doc = Api.GetDocument();
 let vertices = [{x: 100, y: 10}, {x: 150, y: 100}, {x: 50, y: 100}];

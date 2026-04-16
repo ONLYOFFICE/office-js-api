@@ -1,8 +1,8 @@
-// This example adds a new column to a formatted table.
+// Add a new column to a formatted table.
 
-// How to insert a column into an existing table.
+// How to insert a column into an existing table in a spreadsheet.
 
-// The new column is appended after the last existing column and automatically inherits the table style.
+// The new column is appended after the last existing column and automatically inherits the table style in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

@@ -1,8 +1,8 @@
-// This example shows the totals row for a formatted table.
+// Show the totals row for a formatted table.
 
-// How to display the totals row in a table.
+// How to display the totals row in a table in a spreadsheet.
 
-// The totals row appears at the bottom of the table and can display aggregation functions per column.
+// The totals row appears at the bottom of the table and can display aggregation functions per column in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

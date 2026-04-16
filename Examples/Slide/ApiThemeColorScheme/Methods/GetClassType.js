@@ -1,8 +1,8 @@
-// Find out the class type of a theme color scheme object in a presentation.
+// Check the class type returned by a theme color scheme in a presentation.
 
-// How can I get the class type of a theme color scheme in a presentation?
+// How do I check what type a theme color scheme object is in a presentation?
 
-// Get the class type of a theme color scheme and display it in the presentation.
+// Retrieve and output the class type string for a theme color scheme in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

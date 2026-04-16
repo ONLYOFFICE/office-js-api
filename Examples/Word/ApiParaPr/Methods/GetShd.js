@@ -2,7 +2,7 @@
 
 // How to get the shading type of the paragraph in a document.
 
-// Get the paragraph shading and apply it to another paragraph.
+// Get the paragraph shading and apply it to another paragraph in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

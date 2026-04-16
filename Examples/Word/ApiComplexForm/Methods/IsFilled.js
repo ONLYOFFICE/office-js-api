@@ -1,4 +1,4 @@
-// This example checks whether the complex form is filled.
+// Check whether the complex form is filled.
 
 // How to check if all sub-forms inside a complex form are filled.
 

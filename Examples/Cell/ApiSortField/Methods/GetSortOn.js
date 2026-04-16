@@ -1,8 +1,8 @@
-// This example gets the sort-on type of a sort field.
+// Get the sort-on type of a sort field in a spreadsheet.
 
-// How to check whether a sort field sorts by values, color, or icon.
+// How to check whether a sort field sorts by values, color, or icon in a spreadsheet.
 
-// Check whether the field sorts by values, color, or icon.
+// Check whether the field sorts by values, color, or icon in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

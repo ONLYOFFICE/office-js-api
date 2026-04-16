@@ -1,4 +1,4 @@
-// This example converts a formatted table back to a regular range.
+// Convert a formatted table back to a regular range.
 
 // How to remove table formatting while keeping the data intact.
 

@@ -1,4 +1,4 @@
-// This example shows how to set the form role.
+// Set the form role in a document.
 
 // How to set the role of a signature form.
 

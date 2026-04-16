@@ -1,6 +1,6 @@
-// This example fills the selected range upward from the values in the bottom row.
+// Fill the selected range upward from the values in the bottom row in a spreadsheet.
 
-// How to copy values from the bottom row of a range to all rows above.
+// How to copy values from the bottom row of a range to all rows above in a spreadsheet.
 
 // Set text, number and formula source values, then fill up to show growing numbers.
 

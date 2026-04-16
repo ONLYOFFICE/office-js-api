@@ -1,8 +1,8 @@
-// This example changes the priority of a sort field.
+// Change the priority of a sort field in a spreadsheet.
 
-// How to reorder sort fields by changing a field's priority.
+// How to reorder sort fields by changing a field's priority in a spreadsheet.
 
-// Change the priority of a sort field and apply the sort.
+// Change the priority of a sort field and apply the sort in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

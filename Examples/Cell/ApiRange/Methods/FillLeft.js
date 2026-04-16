@@ -1,6 +1,6 @@
-// This example fills the selected range to the left from the values in the rightmost column.
+// Fill the selected range to the left from the values in the rightmost column in a spreadsheet.
 
-// How to copy values from the right column of a range to all columns to the left.
+// How to copy values from the right column of a range to all columns to the left in a spreadsheet.
 
 // Set text, number and formula source values, then fill left to show growing numbers.
 

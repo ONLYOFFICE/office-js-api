@@ -1,8 +1,8 @@
-// Find out the class type of a hyperlink object in a presentation.
+// Check the class type returned by a hyperlink in a presentation.
 
-// How can I get the class type of a hyperlink in a presentation?
+// How do I check what type a hyperlink object is in a presentation?
 
-// Get the class type of a hyperlink and display it in the presentation.
+// Retrieve and output the class type string for a hyperlink in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

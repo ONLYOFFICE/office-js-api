@@ -1,6 +1,6 @@
-// This example deletes a formatted table and clears its formatting.
+// Delete a formatted table and clear its formatting.
 
-// How to remove a table and convert it back to a plain range.
+// How to remove a table and convert it back to a plain range in a spreadsheet.
 
 // Unlike Unlist(), Delete() also clears the cell formatting that was applied by the table style.
 

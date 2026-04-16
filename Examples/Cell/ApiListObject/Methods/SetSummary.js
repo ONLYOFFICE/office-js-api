@@ -1,8 +1,8 @@
-// This example sets the summary text of a formatted table.
+// Set the summary text of a formatted table.
 
-// How to assign a summary description to a table.
+// How to assign a summary description to a table in a spreadsheet.
 
-// Use ApiListObject.SetSummary() to set the table summary text.
+// Use ApiListObject.SetSummary() to set the table summary text in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

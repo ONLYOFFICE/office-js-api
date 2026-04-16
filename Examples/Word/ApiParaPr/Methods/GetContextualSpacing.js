@@ -1,8 +1,8 @@
-// This example shows how to get the contextual spacing value of the current paragraph.
+// Get the contextual spacing value of the current paragraph in a document.
 
 // Get the contextual spacing of the paragraph and display it in the document.
 
-// How to get the contextual spacing of the ApiParaPr object.
+// How to get the contextual spacing of the paragraph properties object in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

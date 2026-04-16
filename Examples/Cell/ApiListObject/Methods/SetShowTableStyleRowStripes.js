@@ -1,8 +1,8 @@
-// This example sets row stripes for a formatted table.
+// Set row stripes for a formatted table.
 
-// How to apply alternating row colors to a table style.
+// How to apply alternating row colors to a table style in a spreadsheet.
 
-// Row stripes apply alternating background colors to adjacent rows as defined in the table style.
+// Row stripes apply alternating background colors to adjacent rows as defined in the table style in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

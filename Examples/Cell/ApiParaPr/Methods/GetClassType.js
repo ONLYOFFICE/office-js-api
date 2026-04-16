@@ -1,8 +1,8 @@
-// Check the class type returned by a paragraph properties in a spreadsheet.
+// Find out the class type of a paragraph properties object in a spreadsheet.
 
-// How do I check what type a paragraph properties object is in a spreadsheet?
+// How can I get the class type of a paragraph properties in a spreadsheet?
 
-// Retrieve and output the class type string for a paragraph properties in a spreadsheet.
+// Get the class type of a paragraph properties and display it in the spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

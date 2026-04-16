@@ -1,4 +1,4 @@
-// This example shows how to get the form tag.
+// Get the form tag in a document.
 
 // How to get the tag of a signature form.
 

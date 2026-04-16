@@ -1,8 +1,8 @@
-// This example gets the range of a data row in a formatted table.
+// Get the range of a data row in a formatted table.
 
-// How to retrieve the full row range spanning all table columns.
+// How to retrieve the full row range spanning all table columns in a spreadsheet.
 
-// Get the range of a row spanning all table columns.
+// Get the range of a row spanning all table columns in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

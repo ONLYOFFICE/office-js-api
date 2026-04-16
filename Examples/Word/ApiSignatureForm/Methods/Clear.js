@@ -1,4 +1,4 @@
-// This example clears the signature form.
+// Clear the signature form.
 
 // How to clear the contents of a signature form.
 

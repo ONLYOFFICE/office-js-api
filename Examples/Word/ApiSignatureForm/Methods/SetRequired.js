@@ -1,4 +1,4 @@
-// This example sets the required property for the signature form. Note that the signature form is always required.
+// Set the required property for the signature form. Note that the signature form is always required.
 
 // How to set the required property for the signature form.
 

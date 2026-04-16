@@ -1,4 +1,8 @@
-// This example shows how to get the start page number of a range.
+// Get the start page number of a range in a document.
+
+// How can I get the start page using a cell range in a document?
+
+// Get the start page for a cell range in a document.
 
 const doc = Api.GetDocument();
 

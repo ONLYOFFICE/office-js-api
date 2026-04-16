@@ -1,6 +1,6 @@
-// This example gets the comment (summary) of a formatted table.
+// Get the comment (summary) of a formatted table.
 
-// How to read the comment text assigned to a table.
+// How to read the comment text assigned to a table in a spreadsheet.
 
 // The comment is a descriptive note on the table object, separate from any cell comments.
 

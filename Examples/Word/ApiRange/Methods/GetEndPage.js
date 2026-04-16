@@ -1,4 +1,8 @@
-// This example shows how to get the end page number of a range.
+// Get the end page number of a range in a document.
+
+// How to get the end page for a cell range?
+
+// Get the end page and display the result in a document.
 
 const doc = Api.GetDocument();
 

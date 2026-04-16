@@ -1,8 +1,8 @@
-// This example shows how to get the between border properties of the current paragraph.
+// Get the between border properties of the current paragraph in a document.
 
 // Get the between border of the paragraph and display its type in the document.
 
-// How to get the between border of the ApiParaPr object.
+// How to get the between border of the paragraph properties object in a document.
 
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");

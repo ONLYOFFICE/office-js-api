@@ -1,8 +1,8 @@
-// Check the class type returned by a hyperlink in a spreadsheet.
+// Retrieve the class type of a hyperlink in a spreadsheet.
 
-// How do I check what type a hyperlink object is in a spreadsheet?
+// How to identify the class type of a hyperlink in a spreadsheet?
 
-// Retrieve and output the class type string for a hyperlink in a spreadsheet.
+// Obtain the class type identifier of a hyperlink object in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

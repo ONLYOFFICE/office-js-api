@@ -1,8 +1,8 @@
-// Retrieve the class type of a presentation in a presentation.
+// Check the class type returned by a presentation.
 
-// How to identify the class type of a presentation?
+// How do I check what type a presentation object is?
 
-// Obtain the class type identifier of a presentation object.
+// Retrieve and output the class type string for a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

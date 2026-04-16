@@ -1,4 +1,4 @@
-// This example gets the parent list object of a sort object.
+// Get the parent list object of a sort object in a spreadsheet.
 
 // How to navigate from a sort object back to its parent formatted table.
 

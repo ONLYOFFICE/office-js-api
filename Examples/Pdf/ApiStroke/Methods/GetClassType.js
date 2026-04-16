@@ -1,8 +1,8 @@
-// Retrieve the class type of a stroke in a PDF document.
+// Check the class type returned by a stroke in a PDF document.
 
-// How to identify the class type of a stroke in a PDF document?
+// How do I check what type a stroke object is in a PDF document?
 
-// Obtain the class type identifier of a stroke object in a PDF document.
+// Retrieve and output the class type string for a stroke in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

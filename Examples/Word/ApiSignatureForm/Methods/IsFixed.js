@@ -1,4 +1,4 @@
-// This example checks if the current form is fixed size.
+// Check if the current form is fixed size.
 
 // How to know whether the first signature form from this document is fixed.
 

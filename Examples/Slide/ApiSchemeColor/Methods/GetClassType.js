@@ -1,8 +1,8 @@
-// Check the class type returned by a scheme color in a presentation.
+// Retrieve the class type of a scheme color in a presentation.
 
-// How do I check what type a scheme color object is in a presentation?
+// How to identify the class type of a scheme color in a presentation?
 
-// Retrieve and output the class type string for a scheme color in a presentation.
+// Obtain the class type identifier of a scheme color object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

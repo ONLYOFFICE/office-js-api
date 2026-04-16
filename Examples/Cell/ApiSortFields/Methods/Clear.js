@@ -1,8 +1,8 @@
-// This example removes all sort fields from a sort fields collection.
+// Remove all sort fields from a sort fields collection in a spreadsheet.
 
 // How to reset all sort fields of a formatted table.
 
-// Remove all sort fields from the collection.
+// Remove all sort fields from the collection in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

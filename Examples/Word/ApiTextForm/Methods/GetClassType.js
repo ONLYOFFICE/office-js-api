@@ -1,8 +1,8 @@
-// Check the class type returned by a text form.
+// Retrieve the class type of a text form in a document.
 
-// How do I check what type a text form object is?
+// How to identify the class type of a text form?
 
-// Retrieve and output the class type string for a text form.
+// Obtain the class type identifier of a text form object.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});

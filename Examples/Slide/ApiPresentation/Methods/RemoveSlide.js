@@ -1,4 +1,4 @@
-// This example shows how to remove a single slide from the presentation.
+// Remove a single slide from the presentation in a presentation.
 
 // How to remove a slide at a specific position from the presentation.
 

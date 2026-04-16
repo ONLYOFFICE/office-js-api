@@ -1,8 +1,8 @@
-// Check the class type returned by a stamp annotation in a PDF document.
+// Find out the class type of a stamp annotation object in a PDF document.
 
-// How do I check what type a stamp annotation object is in a PDF document?
+// How can I get the class type of a stamp annotation in a PDF document?
 
-// Retrieve and output the class type string for a stamp annotation in a PDF document.
+// Get the class type of a stamp annotation and display it in the PDF.
 
 let doc = Api.GetDocument();
 let stampAnnot = Api.CreateStampAnnot([10, 10, 0, 0], 'SB_Approved');

@@ -1,8 +1,8 @@
-// This example sets the alternative text of a formatted table.
+// Set the alternative text of a formatted table.
 
-// How to add an accessibility description to a table.
+// How to add an accessibility description to a table in a spreadsheet.
 
-// Alternative text helps screen readers identify the table's purpose for accessibility.
+// Alternative text helps screen readers identify the table's purpose for accessibility in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

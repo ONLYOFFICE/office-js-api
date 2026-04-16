@@ -2,7 +2,7 @@
 
 // How to reuse filter criteria without redefining them in a spreadsheet.
 
-// Reapplying the filter recalculates which rows are visible based on existing criteria.
+// Reapplying the filter recalculates which rows are visible based on existing criteria in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

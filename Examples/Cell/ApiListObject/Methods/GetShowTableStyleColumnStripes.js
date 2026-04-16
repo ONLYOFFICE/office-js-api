@@ -1,8 +1,8 @@
-// This example checks whether column stripes are enabled for a formatted table.
+// Check whether column stripes are enabled for a formatted table.
 
-// How to determine if alternating column colors are applied to a table.
+// How to determine if alternating column colors are applied to a table in a spreadsheet.
 
-// Column stripes apply alternating background colors to adjacent columns as defined in the table style.
+// Column stripes apply alternating background colors to adjacent columns as defined in the table style in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

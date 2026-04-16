@@ -1,4 +1,8 @@
-// This example deletes the specified drawing object from the worksheet.
+// Delete the specified drawing object from the worksheet.
+
+// How do I delete in a spreadsheet?
+
+// Delete using a drawing object object in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

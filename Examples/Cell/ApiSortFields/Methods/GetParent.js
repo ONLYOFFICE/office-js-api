@@ -1,8 +1,8 @@
-// This example gets the parent sort object from a sort fields collection.
+// Get the parent sort object from a sort fields collection in a spreadsheet.
 
-// How to navigate from a sort fields collection back to the ApiSort object.
+// How to navigate from a sort fields collection back to the sort object in a spreadsheet.
 
-// Navigating back to the sort object lets you call Apply() or check settings such as MatchCase.
+// Navigating back to the sort object lets you call Apply() or check settings such as MatchCase in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

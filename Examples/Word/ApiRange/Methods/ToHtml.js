@@ -1,8 +1,8 @@
-// This example shows how to convert a range to HTML.
+// Convert a range to HTML in a document.
 
-// Get a range from the first paragraph and convert it to HTML, then display the result.
+// Get a range from the first paragraph and convert it to HTML, then display the result in a document.
 
-// How to convert the ApiRange object to HTML.
+// How to convert the cell range object to HTML.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

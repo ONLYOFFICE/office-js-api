@@ -1,4 +1,4 @@
-// This example gets the totals row cell range for a table column.
+// Get the totals row cell range for a table column.
 
 // How to access the totals cell for a specific column in a formatted table.
 

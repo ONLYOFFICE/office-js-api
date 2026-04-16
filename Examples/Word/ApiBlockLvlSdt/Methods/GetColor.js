@@ -1,8 +1,8 @@
-// This example gets the tag color of the container.
+// Get the tag color of the container in a document.
 
-// Creates a block content control, sets the color to it, and returns its color.
+// Create a block content control, set the color to it, and return its color in a document.
 
-// How to return the color of the ApiBlockLvlSdt object.
+// How to return the color of the block-level content control object in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

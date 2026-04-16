@@ -1,8 +1,8 @@
-// This example sorts a formatted table by cell background color with multiple color priorities.
+// Sort a formatted table by cell background color with multiple color priorities.
 
-// How to sort table rows by fill color: red on top, yellow second, uncolored last.
+// How to sort table rows by fill color: red on top, yellow second, uncolored last in a spreadsheet.
 
-// Color rows, add one sort field per color, then apply the sort.
+// Color rows, add one sort field per color, then apply the sort in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

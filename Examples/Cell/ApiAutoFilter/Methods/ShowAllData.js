@@ -2,7 +2,7 @@
 
 // How to temporarily show all data while keeping the filter drop-downs in a spreadsheet.
 
-// ShowAllData clears active filter criteria but keeps the AutoFilter drop-down arrows on the header.
+// ShowAllData clears active filter criteria but keeps the AutoFilter drop-down arrows on the header in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// This example gets all columns of a formatted table.
+// Get all columns of a formatted table.
 
-// How to retrieve the list of ApiListColumn objects from a table.
+// How to retrieve the list of list column objects from a table in a spreadsheet.
 
-// Each ApiListColumn in the returned array corresponds to one column, ordered left to right.
+// Each list column in the returned array corresponds to one column, ordered left to right in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

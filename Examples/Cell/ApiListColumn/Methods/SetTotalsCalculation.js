@@ -1,8 +1,8 @@
-// This example sets the totals row function for a table column.
+// Set the totals row function for a table column in a spreadsheet.
 
-// How to assign an aggregate function to the totals row of a column.
+// How to assign an aggregate function to the totals row of a column in a spreadsheet.
 
-// Set the aggregate function for the totals row of a column.
+// Set the aggregate function for the totals row of a column in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

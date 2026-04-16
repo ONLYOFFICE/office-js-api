@@ -1,4 +1,4 @@
-// This example returns the highlight color of the forms in the document.
+// Return the highlight color of the forms in the document.
 
 // How to get the current highlight color of forms.
 

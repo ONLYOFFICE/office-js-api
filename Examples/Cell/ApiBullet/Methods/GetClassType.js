@@ -1,8 +1,8 @@
-// Check the class type returned by a bullet in a spreadsheet.
+// Retrieve the class type of a bullet in a spreadsheet.
 
-// How do I check what type a bullet object is in a spreadsheet?
+// How to identify the class type of a bullet in a spreadsheet?
 
-// Retrieve and output the class type string for a bullet in a spreadsheet.
+// Obtain the class type identifier of a bullet object in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

@@ -1,8 +1,8 @@
-// This example checks whether a table sort is case-sensitive.
+// Check whether a table sort is case-sensitive in a spreadsheet.
 
-// How to determine if case sensitivity is enabled for a table sort.
+// How to determine if case sensitivity is enabled for a table sort in a spreadsheet.
 
-// Check whether case-sensitive sorting is enabled.
+// Check whether case-sensitive sorting is enabled in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

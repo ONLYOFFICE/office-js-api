@@ -1,8 +1,8 @@
-// Retrieve the class type of a document content in a presentation.
+// Find out the class type of a document content object.
 
-// How to identify the class type of a document content?
+// How can I get the class type of a document content?
 
-// Obtain the class type identifier of a document content object.
+// Get the class type of a document content and display it in the presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

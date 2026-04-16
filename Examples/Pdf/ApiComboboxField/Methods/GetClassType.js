@@ -1,8 +1,8 @@
-// Check the class type returned by a combobox field in a PDF document.
+// Find out the class type of a combobox field object in a PDF document.
 
-// How do I check what type a combobox field object is in a PDF document?
+// How can I get the class type of a combobox field in a PDF document?
 
-// Retrieve and output the class type string for a combobox field in a PDF document.
+// Get the class type of a combobox field and display it in the PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

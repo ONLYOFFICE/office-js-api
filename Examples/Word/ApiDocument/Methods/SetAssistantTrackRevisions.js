@@ -1,4 +1,8 @@
-// This example shows how to enable AI-assisted change tracking in a document.
+// Enable AI-assisted change tracking in a document.
+
+// How can I set assistant track revisions using a document in a document?
+
+// Set assistant track revisions for a document in a document.
 
 const doc = Api.GetDocument();
 

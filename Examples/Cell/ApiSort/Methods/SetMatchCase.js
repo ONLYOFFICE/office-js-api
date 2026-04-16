@@ -1,8 +1,8 @@
-// This example enables case-sensitive sorting for a formatted table.
+// Enable case-sensitive sorting for a formatted table.
 
-// How to make a table sort case-sensitive.
+// How to make a table sort case-sensitive in a spreadsheet.
 
-// Enable case-sensitive sorting — adding a sort field applies the sort immediately.
+// Enable case-sensitive sorting — adding a sort field applies the sort immediately in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

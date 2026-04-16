@@ -1,8 +1,8 @@
-// This example gets the data body range of a formatted table.
+// Get the data body range of a formatted table.
 
-// How to retrieve the data area of a table excluding the header and totals rows.
+// How to retrieve the data area of a table excluding the header and totals rows in a spreadsheet.
 
-// The data body range covers only data rows, excluding the header row and totals row.
+// The data body range covers only data rows, excluding the header row and totals row in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

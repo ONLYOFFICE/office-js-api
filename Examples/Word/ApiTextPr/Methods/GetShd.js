@@ -1,6 +1,6 @@
 // Find out the shading type of the text in a document.
 
-// Get the shading of the text and apply it to another run.
+// Get the shading of the text and apply it to another run in a document.
 
 // How to know the text shading type in a document.
 

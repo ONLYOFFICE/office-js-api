@@ -1,4 +1,4 @@
-// This example checks whether the combobox form is filled.
+// Check whether the combobox form is filled.
 
 // How to check if the combobox form has any text set.
 

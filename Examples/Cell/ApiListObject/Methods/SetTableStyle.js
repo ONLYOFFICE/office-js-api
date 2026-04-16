@@ -1,8 +1,8 @@
-// This example sets the style of a formatted table.
+// Set the style of a formatted table.
 
-// How to apply a built-in style to a table.
+// How to apply a built-in style to a table in a spreadsheet.
 
-// Style names follow the pattern "TableStyleLight1", "TableStyleMedium2", "TableStyleDark1", and so on.
+// Style names follow the pattern "TableStyleLight1", "TableStyleMedium2", "TableStyleDark1", and so on in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

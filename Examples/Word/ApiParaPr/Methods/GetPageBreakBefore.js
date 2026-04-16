@@ -1,8 +1,8 @@
-// This example shows how to get the page break before value of the current paragraph.
+// Get the page break before value of the current paragraph in a document.
 
 // Get the page break before value of the paragraph and display it in the document.
 
-// How to get the page break before value of the ApiParaPr object.
+// How to get the page break before value of the paragraph properties object.
 
 let doc = Api.GetDocument();
 doc.Push(Api.CreateParagraph());

@@ -1,4 +1,4 @@
-// This example checks whether the first column highlight is enabled for a formatted table.
+// Check whether the first column highlight is enabled for a formatted table.
 
 // How to determine if special formatting is applied to the first column of a table.
 

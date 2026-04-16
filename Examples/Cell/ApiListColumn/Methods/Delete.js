@@ -1,8 +1,8 @@
-// This example deletes a column from a formatted table.
+// Delete a column from a formatted table.
 
-// How to remove a column from an existing table.
+// How to remove a column from an existing table in a spreadsheet.
 
-// Delete a column from the table.
+// Delete a column from the table in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

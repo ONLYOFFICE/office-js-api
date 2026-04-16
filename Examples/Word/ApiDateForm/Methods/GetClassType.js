@@ -1,8 +1,8 @@
-// Find out the class type of a date form object.
+// Check the class type returned by a date form.
 
-// How can I get the class type of a date form?
+// How do I check what type a date form object is?
 
-// Get the class type of a date form and display it in the document.
+// Retrieve and output the class type string for a date form.
 
 let doc = Api.GetDocument();
 let dateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});

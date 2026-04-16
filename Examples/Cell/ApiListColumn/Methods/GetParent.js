@@ -1,4 +1,4 @@
-// This example gets the parent list object of a table column.
+// Get the parent list object of a table column in a spreadsheet.
 
 // How to navigate from a column back to its parent formatted table.
 

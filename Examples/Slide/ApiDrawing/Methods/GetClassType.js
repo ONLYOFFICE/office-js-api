@@ -1,8 +1,8 @@
-// Retrieve the class type of a drawing object in a presentation.
+// Check the class type returned by a drawing object in a presentation.
 
-// How to identify the class type of a drawing object in a presentation?
+// How do I check what type a drawing object object is in a presentation?
 
-// Obtain the class type identifier of a drawing object object in a presentation.
+// Retrieve and output the class type string for a drawing object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

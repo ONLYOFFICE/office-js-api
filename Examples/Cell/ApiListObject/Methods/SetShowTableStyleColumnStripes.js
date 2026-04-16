@@ -1,8 +1,8 @@
-// This example enables column stripes for a formatted table.
+// Enable column stripes for a formatted table.
 
-// How to apply alternating column colors to a table style.
+// How to apply alternating column colors to a table style in a spreadsheet.
 
-// Column stripes apply alternating background colors to adjacent columns as defined in the table style.
+// Column stripes apply alternating background colors to adjacent columns as defined in the table style in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

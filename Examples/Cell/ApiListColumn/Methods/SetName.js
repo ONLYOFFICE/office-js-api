@@ -1,8 +1,8 @@
-// This example renames a table column.
+// Renames a table column in a spreadsheet.
 
 // How to change the header text of a column in a formatted table.
 
-// Rename a column in the table.
+// Rename a column in the table in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

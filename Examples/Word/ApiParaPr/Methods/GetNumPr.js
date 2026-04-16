@@ -1,8 +1,8 @@
-// This example shows how to get the numbering level of the current paragraph.
+// Get the numbering level of the current paragraph in a document.
 
 // Get the numbering level of the paragraph and display its class type in the document.
 
-// How to get the numbering level of the ApiParaPr object.
+// How to get the numbering level of the paragraph properties object in a document.
 
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("bullet");

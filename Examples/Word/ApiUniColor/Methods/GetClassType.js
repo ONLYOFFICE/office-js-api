@@ -1,8 +1,8 @@
-// Check the class type returned by a uni color in a document.
+// Find out the class type of a uni color object in a document.
 
-// How do I check what type a uni color object is in a document?
+// How can I get the class type of a uni color in a document?
 
-// Retrieve and output the class type string for a uni color in a document.
+// Get the class type of a uni color and display it in the document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

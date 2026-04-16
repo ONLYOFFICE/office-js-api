@@ -1,4 +1,4 @@
-// This example sets the background color to the current form.
+// Set the background color to the current form.
 
 // How to color the signature form background.
 

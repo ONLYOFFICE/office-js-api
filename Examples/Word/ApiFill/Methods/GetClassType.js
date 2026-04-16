@@ -1,8 +1,8 @@
-// Check the class type returned by a fill in a document.
+// Retrieve the class type of a fill in a document.
 
-// How do I check what type a fill object is in a document?
+// How to identify the class type of a fill in a document?
 
-// Retrieve and output the class type string for a fill in a document.
+// Obtain the class type identifier of a fill object in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example adds a new data row to a formatted table.
+// Add a new data row to a formatted table.
 
-// How to insert a row into an existing table.
+// How to insert a row into an existing table in a spreadsheet.
 
-// The new row is inserted at the bottom of the data body, shifting the totals row down if present.
+// The new row is inserted at the bottom of the data body, shifting the totals row down if present in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

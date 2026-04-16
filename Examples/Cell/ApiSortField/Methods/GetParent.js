@@ -1,8 +1,8 @@
-// This example gets the parent sort fields collection from a sort field.
+// Get the parent sort fields collection from a sort field in a spreadsheet.
 
-// How to navigate from a sort field back to its parent ApiSortFields collection.
+// How to navigate from a sort field back to its parent sort fields collection collection in a spreadsheet.
 
-// Navigating back to the collection lets you check the total field count or iterate over all fields.
+// Navigating back to the collection lets you check the total field count or iterate over all fields in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

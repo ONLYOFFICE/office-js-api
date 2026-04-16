@@ -1,4 +1,4 @@
-// This example shows how to get the first slide of the presentation.
+// Get the first slide of the presentation in a presentation.
 
 // How to get the first slide using the Api global object.
 

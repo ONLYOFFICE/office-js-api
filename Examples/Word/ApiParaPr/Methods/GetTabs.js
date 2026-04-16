@@ -1,8 +1,8 @@
-// This example shows how to get the custom tab stops of the current paragraph.
+// Get the custom tab stops of the current paragraph in a document.
 
 // Get the tab stops of the paragraph and display their positions in the document.
 
-// How to get the tab stops of the ApiParaPr object.
+// How to get the tab stops of the paragraph properties object in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

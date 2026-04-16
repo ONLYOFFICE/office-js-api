@@ -1,8 +1,8 @@
-// Retrieve the class type of a chart series in a PDF document.
+// Find out the class type of a chart series object in a PDF document.
 
-// How to identify the class type of a chart series in a PDF document?
+// How can I get the class type of a chart series in a PDF document?
 
-// Obtain the class type identifier of a chart series object in a PDF document.
+// Get the class type of a chart series and display it in the PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

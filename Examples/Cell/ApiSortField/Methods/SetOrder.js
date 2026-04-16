@@ -1,8 +1,8 @@
-// This example changes the sort order of a sort field.
+// Change the sort order of a sort field in a spreadsheet.
 
-// How to change the sort direction of a sort field to descending.
+// How to change the sort direction of a sort field to descending in a spreadsheet.
 
-// Change the sort direction of a sort field and apply the sort.
+// Change the sort direction of a sort field and apply the sort in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

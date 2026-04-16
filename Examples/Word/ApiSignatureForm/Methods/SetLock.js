@@ -1,4 +1,4 @@
-// This example sets the lock state of the signature form.
+// Set the lock state of the signature form.
 
 // How to lock or unlock the signature form.
 

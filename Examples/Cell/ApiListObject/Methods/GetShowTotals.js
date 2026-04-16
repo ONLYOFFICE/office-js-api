@@ -1,8 +1,8 @@
-// This example checks whether the totals row is shown for a formatted table.
+// Check whether the totals row is shown for a formatted table.
 
-// How to determine if the totals row is visible in a table.
+// How to determine if the totals row is visible in a table in a spreadsheet.
 
-// The totals row appears at the bottom of the table and can display aggregation functions per column.
+// The totals row appears at the bottom of the table and can display aggregation functions per column in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

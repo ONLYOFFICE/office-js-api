@@ -1,8 +1,8 @@
-// Retrieve the class type of a slide master in a presentation.
+// Check the class type returned by a slide master.
 
-// How to identify the class type of a slide master?
+// How do I check what type a slide master object is?
 
-// Obtain the class type identifier of a slide master object.
+// Retrieve and output the class type string for a slide master.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

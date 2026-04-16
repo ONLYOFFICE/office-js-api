@@ -1,8 +1,8 @@
-// This example gets the sort-on value (color) of a sort field.
+// Get the sort-on value (color) of a sort field in a spreadsheet.
 
-// How to retrieve the color value set for color-based sorting.
+// How to retrieve the color value set for color-based sorting in a spreadsheet.
 
-// Set a sort color, then read it back via GetSortOnValue.
+// Set a sort color, then read it back via GetSortOnValue in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

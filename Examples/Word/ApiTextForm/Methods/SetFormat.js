@@ -1,8 +1,8 @@
-// This example shows how to set the format for a text field.
+// Set the format for a text field in a document.
 
 // Create a text form, set its format to accept digits only, and add it to the document.
 
-// How to set the format of the ApiTextForm object.
+// How to set the format of the text form object.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({ key: "Phone", placeholder: "Enter digits" });

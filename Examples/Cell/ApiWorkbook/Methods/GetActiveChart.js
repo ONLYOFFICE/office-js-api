@@ -1,5 +1,9 @@
 // Get currently active chart from the workbook in a spreadsheet.
 
+// How can I get active chart using a workbook in a spreadsheet?
+
+// Get active chart for a workbook in a spreadsheet.
+
 const workbook = Api.GetActiveWorkbook();
 const worksheet = workbook.GetActiveSheet();
 worksheet.GetRange('A1').SetValue('John Smith');

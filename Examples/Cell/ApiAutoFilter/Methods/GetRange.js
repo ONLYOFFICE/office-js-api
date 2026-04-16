@@ -2,7 +2,7 @@
 
 // How to find the AutoFilter range and work with it as a normal cell range in a spreadsheet.
 
-// The range covers the header row and all data rows that the AutoFilter was applied to.
+// The range covers the header row and all data rows that the AutoFilter was applied to in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

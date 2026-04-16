@@ -1,8 +1,8 @@
-// This example gets the sort fields collection from a table's sort object.
+// Get the sort fields collection from a table's sort object in a spreadsheet.
 
-// How to access the ApiSortFields collection of a formatted table.
+// How to access the sort fields collection collection of a formatted table.
 
-// The SortFields collection holds all sort criteria that will be applied when Sort.Apply() is called.
+// The SortFields collection holds all sort criteria that will be applied when Sort.Apply() is called in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

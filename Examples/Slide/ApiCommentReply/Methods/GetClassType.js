@@ -1,8 +1,8 @@
-// Check the class type returned by a comment reply in a presentation.
+// Find out the class type of a comment reply object in a presentation.
 
-// How do I check what type a comment reply object is in a presentation?
+// How can I get the class type of a comment reply in a presentation?
 
-// Retrieve and output the class type string for a comment reply in a presentation.
+// Get the class type of a comment reply and display it in the presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

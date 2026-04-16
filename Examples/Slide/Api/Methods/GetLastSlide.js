@@ -1,4 +1,4 @@
-// This example shows how to get the last slide of the presentation.
+// Get the last slide of the presentation in a presentation.
 
 // How to get the last slide using the Api global object.
 
