@@ -6468,7 +6468,7 @@
     "Get the RGB components of the color in a document.": "获取文档中颜色的 RGB 分量。",
     "Get the RGBA components of the color in a document.": "获取文档中颜色的 RGBA 分量。",
     "Get the hex representation of the color in a document.": "获取文档中颜色的十六进制表示。",
-    "Get the theme color name of an color object in a document.": "获取文档中颜色对象的主题颜色名称。",
+    "Get the theme color name of a color object in a document.": "获取文档中颜色对象的主题颜色名称。",
     "Convert color objects of different types to JSON strings in a document.": "将文档中不同类型的颜色对象转换为 JSON 字符串。",
     "Restore color objects of different types from JSON in a document.": "从 JSON 还原文档中不同类型的颜色对象。",
     "Check the class type returned by a fill in a document.": "检查文档中填充返回的类类型。",

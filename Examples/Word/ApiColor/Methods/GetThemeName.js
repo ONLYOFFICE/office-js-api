@@ -1,6 +1,6 @@
-// Get the theme color name of an color object in a document.
+// Get the theme color name of a color object in a document.
 
-// How do I get the theme name in a document?
+// The color object can be created from a hex value or a theme color.
 
 // Get the theme name using a color object in a document.
 
