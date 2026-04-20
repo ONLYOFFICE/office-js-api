@@ -1,4 +1,4 @@
-// This example shows the available line dash types that can be used for stroke lines.
+// Show the available line dash types that can be used for stroke lines.
 
 // How line dash types work:
 // - "dash": Dashed line

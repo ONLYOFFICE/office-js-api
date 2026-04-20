@@ -1,4 +1,4 @@
-// This example adds a table of contents of the standard style to the document.
+// Add a table of contents of the standard style to the document.
 
 // How to create a table of contents properties indicating its style.
 

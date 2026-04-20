@@ -1,4 +1,4 @@
-// This example gets the paragraph text using the specified paragraph text properties.
+// Get the paragraph text using the specified paragraph text properties.
 
 // How to return a text of the ApiParagraph object formatted with the specified parameters.
 

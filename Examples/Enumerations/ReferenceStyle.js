@@ -1,4 +1,4 @@
-// This example gets reference style.
+// Get the reference style.
 
 // How to retrieve a reference style and display it in the worksheet.
 

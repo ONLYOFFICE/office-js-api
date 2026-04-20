@@ -1,4 +1,4 @@
-// This example sets the paragraph line rule.
+// Set the paragraph line rule.
 
 // How to change a line rule of the ApiParagraph object.
 

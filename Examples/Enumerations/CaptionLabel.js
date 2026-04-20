@@ -1,4 +1,4 @@
-// This example add a cross-reference to the page containing a table caption.
+// Add a cross-reference to the page containing a table caption.
 
 // How to add reference to the page with caption.
 

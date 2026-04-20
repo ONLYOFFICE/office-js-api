@@ -1,4 +1,4 @@
-// This example paste data with paste all options.
+// Paste data with paste all options.
 
 // How to indicate a paste type.
 

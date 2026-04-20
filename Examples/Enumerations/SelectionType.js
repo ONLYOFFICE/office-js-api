@@ -1,3 +1,3 @@
-// This example gets type of a current selection.
+// Get the type of a current selection.
 
 const selectionType = Api.GetSelection().GetType();

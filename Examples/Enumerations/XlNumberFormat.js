@@ -1,4 +1,4 @@
-// This example sets "General" number format for the range.
+// Set "General" number format for the range.
 
 // How to indicate number format of the cells.
 

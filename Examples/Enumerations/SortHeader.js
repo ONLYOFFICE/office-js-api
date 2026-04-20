@@ -1,4 +1,4 @@
-// This example specify that the first row contains header information.
+// Specify that the first row contains header information.
 
 // How to specify a sorting header for a range.
 

@@ -1,4 +1,4 @@
-// This example paste data with paste options.
+// Paste data with paste options.
 
 // How to paste indicating special parameters.
 

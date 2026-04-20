@@ -1,4 +1,4 @@
-// This example sets vertical align "subscript" for paragraph.
+// Set vertical align "subscript" for paragraph.
 
 // How to set a vertical alignment of a paragraph.
 

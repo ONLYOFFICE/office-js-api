@@ -1,4 +1,4 @@
-// This example inserts a text box with the specified text box properties over the selected text.
+// Insert a text box with the specified text box properties over the selected text.
 
 // How to insert a text form with adding properties like tip text, placeholder, etc. to it.
 

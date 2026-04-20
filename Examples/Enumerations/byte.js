@@ -1,4 +1,4 @@
-// This example creates two RGB colors.
+// Create two RGB colors.
 
 // How to use bytes to create a color.
 

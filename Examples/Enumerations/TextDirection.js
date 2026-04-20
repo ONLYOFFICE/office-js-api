@@ -1,4 +1,4 @@
-// This example sets flow direction "tbrl" for a cell.
+// Set flow direction "tbrl" for a cell.
 
 // How to change a text direction.
 

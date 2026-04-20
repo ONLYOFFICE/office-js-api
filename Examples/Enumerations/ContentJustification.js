@@ -1,4 +1,4 @@
-// This example gets the paragraph contents justification.
+// Get the paragraph contents justification.
 
 // How to return a content justification.
 

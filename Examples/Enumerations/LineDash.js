@@ -1,4 +1,4 @@
-// This example creates a dashed stroke with color and width settings.
+// Create a dashed stroke with color and width settings.
 
 // How to create a custom stroke line with dash pattern.
 

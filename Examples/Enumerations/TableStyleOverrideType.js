@@ -1,4 +1,4 @@
-// This example applys the created style (set shadow) to the top left cell of the table.
+// Apply the created style (set shadow) to the top left cell of the table.
 
 // How to change a style of the specific part of the table.
 

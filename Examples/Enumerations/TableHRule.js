@@ -1,4 +1,4 @@
-// This example sets the table height rule.
+// Set the table height rule.
 
 // How to set height table rule.
 

@@ -1,4 +1,4 @@
-// This example shows how to create the "bar3D" chart.
+// Create the "bar3D" chart.
 
 // Specify the "ChartType" property of the ApiChart object used in text documents.
 

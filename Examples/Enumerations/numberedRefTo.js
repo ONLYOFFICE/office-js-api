@@ -1,4 +1,4 @@
-// This example adds a cross-reference to the page containing a numbered paragraph.
+// Add a cross-reference to the page containing a numbered paragraph.
 
 // How to create a reference to the paragraph with a numbered paragraph.
 

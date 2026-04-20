@@ -1,4 +1,4 @@
-// This example assigns the default document paragraph style to the 'oNormalStyle' variable.
+// Assign the default document paragraph style to the 'oNormalStyle' variable.
 
 // How to get a default style of the paragraph from the document.
 

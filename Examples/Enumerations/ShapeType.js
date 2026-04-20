@@ -1,4 +1,4 @@
-// This example creates a shape using the 'diamond' preset.
+// Create a shape using the 'diamond' preset.
 
 // How to change a shape type of a drawing.
 

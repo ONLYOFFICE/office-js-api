@@ -1,4 +1,4 @@
-// This example adds a green shadow to the table.
+// Add a green shadow to the table.
 
 // How to change a table shadow type.
 

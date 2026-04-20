@@ -1,4 +1,4 @@
-// This example set the distance between columns equal to 36 points.
+// Set the distance between columns equal to 36 points.
 
 // How to set a column distance in twips.
 
