@@ -1,6 +1,6 @@
 // Create a range and set bold for the first 10 characters in a document.
 
-// Create the cell range object from the paragraph class and set the range to bold.
+// Create the range object from the paragraph class and set the range to bold.
 
 // How to create a range from the paragraph and set a bold property to it in a document.
 

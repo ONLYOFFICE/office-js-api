@@ -2,7 +2,7 @@
 
 // How do I add the field in a document?
 
-// Add the field using a cell range object.
+// Add the field using a range object.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

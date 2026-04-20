@@ -1,8 +1,8 @@
-// Check the class type returned by a cell range.
+// Check the class type returned by a range.
 
-// How do I check what type a cell range object is?
+// How do I check what type a range object is?
 
-// Retrieve and output the class type string for a cell range.
+// Retrieve and output the class type string for a range.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
