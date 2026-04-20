@@ -1,4 +1,4 @@
-// Show how to get a name of the current layout in a presentation.
+// Get a name of the current layout in a presentation.
 
 // How do I get the name in a presentation?
 

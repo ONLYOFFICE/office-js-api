@@ -1,4 +1,4 @@
-// Show how to get an array with all tables from the slide.
+// Get an array with all tables from the slide.
 
 // How can I get all tables using a slide in a presentation?
 

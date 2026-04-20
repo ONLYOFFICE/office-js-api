@@ -1,4 +1,4 @@
-// Show how to get a presentation.
+// Get a presentation.
 
 // How to get the presentation object.
 

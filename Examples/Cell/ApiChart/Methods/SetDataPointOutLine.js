@@ -1,4 +1,4 @@
-// Show how to set the outline to the data point in a spreadsheet.
+// Set the outline to the data point in a spreadsheet.
 
 // Set the outline to the data point in the specified chart series in a spreadsheet.
 

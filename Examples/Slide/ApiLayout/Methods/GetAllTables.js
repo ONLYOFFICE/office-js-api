@@ -1,4 +1,4 @@
-// Show how to get an array with all tables from the slide layout.
+// Get an array with all tables from the slide layout.
 
 // How to get all tables for a layout in a presentation?
 

@@ -1,4 +1,4 @@
-// Show how to create a bullet in a presentation.
+// Create a bullet in a presentation.
 
 // How to add a bullet to the paragraph in a presentation.
 

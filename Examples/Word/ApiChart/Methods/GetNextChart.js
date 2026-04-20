@@ -1,4 +1,4 @@
-// Show how to get the next chart in a document.
+// Get the next chart in a document.
 
 // How to update minor horizontal gridlines of the next chart in a document.
 

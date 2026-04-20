@@ -1,4 +1,4 @@
-// Show how to get an array with all tables from the slide master.
+// Get an array with all tables from the slide master.
 
 // How can I get all tables using a slide master in a presentation?
 

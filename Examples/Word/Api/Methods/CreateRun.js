@@ -2,7 +2,7 @@
 
 // Create a run, add a text to it, and insert it into the first paragraph of the document.
 
-// How to create the text run object and adds it to the paragraph class in a document.
+// How to create the text run object and add it to the paragraph class in a document.
 
 // How to add a text to the paragraph in a document.
 

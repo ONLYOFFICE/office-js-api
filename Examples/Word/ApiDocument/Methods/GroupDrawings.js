@@ -1,4 +1,4 @@
-// Show how to create a group of drawings in document.
+// Create a group of drawings in a document.
 
 // How to group the shapes in a document.
 

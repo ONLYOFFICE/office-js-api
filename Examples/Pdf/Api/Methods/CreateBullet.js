@@ -1,4 +1,4 @@
-// Show how to create a bullet in a PDF document.
+// Create a bullet in a PDF document.
 
 // How to add a bullet to the paragraph in a PDF document.
 
