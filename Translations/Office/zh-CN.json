@@ -2555,7 +2555,6 @@
     "Returns a sheet collection that represents all the sheets in the workbook.": "返回表示工作簿中所有工作表的工作表集合。",
     "Returns the theme of the workbook.": "返回工作簿的主题。",
     "A variable that represents a [ApiWorkbook](../ApiWorkbook.md) class.": "表示 [ApiWorkbook](../ApiWorkbook.md) 类的变量。",
-    "": "",
     "An array of drawing names.": "绘图名称数组。",
     "Represents the ApiWorksheet class.": "表示 ApiWorksheet 类。",
     "Makes the current sheet active.": "激活当前工作表。",
@@ -9265,6 +9264,5 @@
     "Set rich text properties to rich run object in a PDF document.": "在 PDF 文档中为富文本 run 对象设置富文本属性。",
     "Get rich text properties from rich run object and set some properties to it in a PDF document.": "从 PDF 文档中的富文本 run 对象获取富文本属性并为其设置一些属性。",
     "Copy rich run object and add it to parent rich paragraph in a PDF document.": "在 PDF 文档中复制富文本 run 对象并将其添加到父富文本段落。",
-    "Get parent rich paragraph of rich run object and set justification property to it in a PDF document.": "获取 PDF 文档中富文本 run 对象的父富文本段落并为其设置对齐方式属性。",
-    "array": "数组"
+    "Get parent rich paragraph of rich run object and set justification property to it in a PDF document.": "获取 PDF 文档中富文本 run 对象的父富文本段落并为其设置对齐方式属性。"
 }
