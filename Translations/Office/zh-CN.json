@@ -6101,7 +6101,7 @@
     "Find out the class type of a combo box form object.": "获取组合框表单对象的类类型。",
     "Get the list values from the combo box in a document.": "获取文档中组合框的列表值。",
     "Set the list values to the current combo box in a document.": "设置文档中当前组合框的列表值。",
-    "Elects the specified value from the combo box list values in a document.": "从文档中组合框列表值中选择指定的值。",
+    "Selects the specified value from the combo box list values in a document.": "从文档中组合框列表值中选择指定的值。",
     "Set the text to the current combo box in a document.": "设置文档中当前组合框的文本。",
     "Check if the combo box text can be edited in a document.": "检查文档中组合框文本是否可以编辑。",
     "ApiCheckBoxForm is a subclass of [ApiFormBase](../ApiFormBase/ApiFormBase.md).": "ApiCheckBoxForm 是 [ApiFormBase](../ApiFormBase/ApiFormBase.md) 的子类。",
