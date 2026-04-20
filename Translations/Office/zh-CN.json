@@ -184,7 +184,7 @@
     "Rotation angle.": "旋转角度。",
     "The Text Art width measured in English measure units.": "以英制度量单位度量的艺术字宽度。",
     "The Text Art heigth measured in English measure units.": "以英制度量单位度量的艺术字高度。",
-    "Create a Text Art object with the \"textArchUp\" text transform type.": "使用 \"textArchUp\" 文本变换类型创建艺术字对象。",
+    "Create a Text Art object with the \"textArchUp\" text transform type.": "创建文本变换类型为 \"textArchUp\" 的艺术字对象。",
     "The number of pixels to convert to EMUs.": "要转换为 EMU 的像素数。",
     "The number of millimeters to convert to pixels.": "要转换为像素的毫米数。",
     "The number of points to convert to centimeters.": "要转换为厘米的磅数。",
@@ -5453,7 +5453,6 @@
     "Create and use the table row properties in a document.": "在文档中创建并使用表格行属性。",
     "Create and use the table cell properties in a document.": "在文档中创建并使用表格单元格属性。",
     "Create and use the conditional table style properties in a document.": "在文档中创建并使用条件表格样式属性。",
-    "Create a Text Art object with the \"textArchUp\" text transform type.": "创建文本变换类型为 \"textArchUp\" 的艺术字对象。",
     "Get a document name and insert it into the document.": "获取文档名称并将其插入文档。",
     "Convert millimeters to pixels in a document.": "在文档中将毫米转换为像素。",
     "Convert points to centimeters in a document.": "在文档中将磅转换为厘米。",
@@ -5628,7 +5627,6 @@
     "Get the current sentence in a document.": "获取文档中的当前句子。",
     "Replace the current sentence in a document.": "替换文档中的当前句子。",
     "Add math equations to the document in three different formats: LaTeX, Unicode, and MathML.": "以三种不同格式向文档添加数学公式：LaTeX、Unicode 和 MathML。",
-    "Create a group of drawings in a document.": "在文档中创建一组绘图对象。",
     "Add a checkbox content control to a document: in a document.": "在文档中添加复选框内容控件。",
     "Add a picture content control to a document: in a document.": "在文档中添加图片内容控件。",
     "Add a combo box content control to a document: in a document.": "在文档中添加组合框内容控件。",
@@ -8637,9 +8635,6 @@
     "Check if the selection is empty in a presentation.": "检查演示文稿中的选区是否为空。",
     "Create a text form and add it to the document paragraph.": "创建文本表单并将其添加到文档段落中。",
     "Create two radiobuttons and the checkbox in a form document.": "在表单文档中创建两个单选按钮和复选框。",
-    "Create a combo box form with the common and specific combo box form properties.": "使用通用和特定的组合框表单属性创建组合框表单。",
-    "Create a picture form with the common and specific picture form properties.": "使用通用和特定的图片表单属性创建图片表单。",
-    "Create a date form with the common and specific date form properties.": "使用通用和特定的日期表单属性创建日期表单。",
     "Create a complex form with the common complex form properties.": "使用通用复合表单属性创建复合表单。",
     "ApiDocument is a subclass of [ApiDocumentContent](../../text-document-api/ApiDocumentContent/ApiDocumentContent.md).": "ApiDocument 是 [ApiDocumentContent](../../text-document-api/ApiDocumentContent/ApiDocumentContent.md) 的子类。",
     "Insert a text box with the specified text box properties over the selected text in a form document.": "在表单文档中在选定文本上方插入具有指定文本框属性的文本框。",
@@ -9263,5 +9258,6 @@
     "Set rich text properties to rich run object in a PDF document.": "在 PDF 文档中为富文本 run 对象设置富文本属性。",
     "Get rich text properties from rich run object and set some properties to it in a PDF document.": "从 PDF 文档中的富文本 run 对象获取富文本属性并为其设置一些属性。",
     "Copy rich run object and add it to parent rich paragraph in a PDF document.": "在 PDF 文档中复制富文本 run 对象并将其添加到父富文本段落。",
-    "Get parent rich paragraph of rich run object and set justification property to it in a PDF document.": "获取 PDF 文档中富文本 run 对象的父富文本段落并为其设置对齐方式属性。"
+    "Get parent rich paragraph of rich run object and set justification property to it in a PDF document.": "获取 PDF 文档中富文本 run 对象的父富文本段落并为其设置对齐方式属性。",
+    "Appends a new slide to the end of the presentation.": "在演示文稿末尾追加新幻灯片。"
 }
