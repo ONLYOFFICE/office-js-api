@@ -1,4 +1,4 @@
-// Showh how to get the alias attribute for the container in a document.
+// Get the alias attribute for the container in a document.
 
 // How to get an alias of the inline text element in a document.
 

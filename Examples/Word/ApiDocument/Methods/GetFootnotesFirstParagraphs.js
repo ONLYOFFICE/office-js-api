@@ -1,4 +1,4 @@
-// Showh how to get the first paragraphs from all footnotes in the document.
+// Get the first paragraphs from all footnotes in the document.
 
 // How to get the first footnote paragraph, add text to it and make it bold in a document.
 
