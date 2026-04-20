@@ -1,8 +1,8 @@
 // Restore a shape fill color from JSON in a PDF document.
 
-// How can I from j s o n using a color in a PDF document?
+// The JSON string contains the color type and value properties.
 
-// From j s o n for a color in a PDF document.
+// Restore the color object from JSON and display the theme name.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

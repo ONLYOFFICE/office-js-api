@@ -1,8 +1,8 @@
 // Restore a shape fill color from JSON in a presentation.
 
-// How do I from j s o n in a presentation?
+// The JSON string contains the color type and value properties.
 
-// From j s o n using a color object in a presentation.
+// Restore the color object from JSON and apply it to a shape fill.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);
