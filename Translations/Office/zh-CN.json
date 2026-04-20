@@ -4474,7 +4474,7 @@
     "Represents the ApiPresentation class.": "表示 ApiPresentation 类。",
     "Adds the slide master to the presentation slide masters collection.": "将幻灯片母版添加到演示文稿的幻灯片母版集合。",
     "Adds a math equation to the current presentation.": "向当前演示文稿添加数学公式。",
-    "Appends a new slide to the end of the presentation.": "在演示文稿末尾追加新幻灯片。",
+    "Append a new slide to the end of the presentation.": "在演示文稿末尾追加新幻灯片。",
     "Applies a theme to all the slides in the presentation.": "将主题应用于演示文稿中的所有幻灯片。",
     "Returns an array with all the chart objects from the current presentation.": "返回包含当前演示文稿中所有图表对象的数组。",
     "Returns all comments from the current presentation.": "返回当前演示文稿中的所有批注。",
