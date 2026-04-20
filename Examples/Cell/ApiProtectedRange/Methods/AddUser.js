@@ -1,4 +1,4 @@
-// Add the the user for protected range in a spreadsheet.
+// Add the user for protected range in a spreadsheet.
 
 // How to open an access for the protected range to user specifing user id, name and access type in a spreadsheet.
 

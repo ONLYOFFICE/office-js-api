@@ -1,4 +1,4 @@
-// Change the the user protected range title in a spreadsheet.
+// Change the user protected range title in a spreadsheet.
 
 // How to set a title for a protected range in a spreadsheet.
 

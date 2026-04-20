@@ -2,7 +2,7 @@
 
 // How to know whether a text is set to bold or not in a PDF document.
 
-// Get the the run and find whether it is bold or not in a PDF document.
+// Get the run and find whether it is bold or not in a PDF document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
 // Restore color objects of different types from JSON in a document.
 
-// How do I from j s o n in a document?
+// The JSON string contains the color type and value properties.
 
-// From j s o n using a color object in a document.
+// Restore each color object from JSON and display the theme name.
 
 const doc = Api.GetDocument();
 const paragraph = doc.GetElement(0);
