@@ -1,4 +1,4 @@
-// Show how to set the outline to the data point in a presentation.
+// Set the outline to the data point in a presentation.
 
 // How to outline data points in a presentation.
 

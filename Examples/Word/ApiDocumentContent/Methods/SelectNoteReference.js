@@ -1,4 +1,4 @@
-// Show how to select footnote/endnote reference in the document.
+// Select footnote/endnote reference in the document.
 
 // How to add footnote to the document.
 

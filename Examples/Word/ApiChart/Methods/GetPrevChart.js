@@ -1,4 +1,4 @@
-// Show how to get the previous chart in a document.
+// Get the previous chart in a document.
 
 // How to update minor horizontal gridlines of the previous chart in a document.
 

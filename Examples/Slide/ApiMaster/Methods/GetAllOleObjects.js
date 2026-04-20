@@ -1,4 +1,4 @@
-// Show how to get an array with all the OLE objects from the slide master.
+// Get an array with all the OLE objects from the slide master.
 
 // How to get all OLE objects from the master of presentation.
 

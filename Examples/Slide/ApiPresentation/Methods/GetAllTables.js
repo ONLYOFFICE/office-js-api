@@ -1,4 +1,4 @@
-// Show how to get an array with all tables from the presentation.
+// Get an array with all tables from the presentation.
 
 // How can I get all tables using a presentation in a presentation?
 

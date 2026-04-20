@@ -1,4 +1,4 @@
-// Show how to get the drawing parent slide.
+// Get the drawing parent slide.
 
 // How to get a parent slide of a slide shape.
 

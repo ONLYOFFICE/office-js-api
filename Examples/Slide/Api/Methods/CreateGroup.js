@@ -1,4 +1,4 @@
-// Show how to create a group in a presentation.
+// Create a group in a presentation.
 
 // How to create a group of drawings in a presentation.
 

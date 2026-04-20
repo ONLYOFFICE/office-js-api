@@ -1,4 +1,4 @@
-// Show how to get an array with all the image objects from the slide.
+// Get an array with all the image objects from the slide.
 
 // How to get all images from the slide.
 

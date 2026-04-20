@@ -1,4 +1,4 @@
-// Show how to get the role of a form element.
+// Get the role of a form element.
 
 // How can I get the role using a form base in a document?
 
