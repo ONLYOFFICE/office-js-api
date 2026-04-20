@@ -1,6 +1,6 @@
-// Add a cross-reference to the page containing a table caption.
+// Add a cross-reference using the "Table" caption label.
 
-// How to add reference to the page with caption.
+// Add a reference to the page with a caption.
 
 // Use caption to create a cross-reference.
 

@@ -1,6 +1,6 @@
-// Set vertical aligment "superscript" for [cell range](../cell range.md).
+// Set vertical alignment "superscript" for a text range.
 
-// How to set vertical alignment of a text in a document.
+// Set the vertical alignment of a text in a document.
 
 // Get a range, specify its vertical alignment as "baseline", "subscript" or "superscript" in a document.
 
