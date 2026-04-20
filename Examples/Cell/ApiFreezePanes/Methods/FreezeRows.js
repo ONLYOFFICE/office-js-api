@@ -1,4 +1,4 @@
-// Freeze the the top row in a spreadsheet.
+// Freeze the top row in a spreadsheet.
 
 // How to freeze rows using their indices in a spreadsheet.
 

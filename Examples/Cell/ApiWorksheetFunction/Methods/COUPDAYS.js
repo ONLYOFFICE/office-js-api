@@ -1,6 +1,6 @@
 // Return the number of days in the coupon period that contains the settlement date in a spreadsheet.
 
-// How to find the the number of days in the coupon period that contains the settlement date in a spreadsheet.
+// Find the number of days in the coupon period that contains the settlement date in a spreadsheet.
 
 // Use function to get the number of days in the coupon period that contains the settlement date in a spreadsheet.
 
