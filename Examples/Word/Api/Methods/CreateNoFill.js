@@ -1,10 +1,8 @@
 // Create no fill and remove the fill from the element in a document.
 
-// How to create the ApiNoFill object and applies it to the shape stroke in a document.
+// The no-fill object removes any existing fill from the shape stroke.
 
 // Create a stroke with no fill in a document.
-
-// How to create the stroke object with no fill and apply it to the shape in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

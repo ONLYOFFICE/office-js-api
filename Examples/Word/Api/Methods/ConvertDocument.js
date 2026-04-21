@@ -4,8 +4,6 @@
 
 // Add a text with different heading levels to the document, convert it to Markdown, and paste it back into the document.
 
-// How to convert a document with different heading levels and bold text to Markdown.
-
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("Heading 1");

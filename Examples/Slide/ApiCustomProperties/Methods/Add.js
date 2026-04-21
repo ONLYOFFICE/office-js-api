@@ -1,6 +1,6 @@
 // Add string custom properties to a document in a presentation.
 
-// How can I add using a custom properties in a presentation?
+// Custom properties support string, boolean, number, and date value types.
 
 // Add for a custom properties in a presentation.
 

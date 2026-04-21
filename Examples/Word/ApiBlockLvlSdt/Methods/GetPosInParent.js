@@ -2,8 +2,6 @@
 
 // Create a block content control, add it to the current document, and return its position in the document.
 
-// How to get the position of the block-level content control object within the document class.
-
 // Specify the position of the block container within the parent document.
 
 let doc = Api.GetDocument();

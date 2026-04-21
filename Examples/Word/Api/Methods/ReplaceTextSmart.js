@@ -4,8 +4,6 @@
 
 // Replace each paragraph (or text in cell) in the select with the corresponding text from an array of strings.
 
-// How to replace the selected range object with a new text.
-
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is the normal text. ");

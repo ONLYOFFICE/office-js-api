@@ -1,10 +1,8 @@
 // Add text and comment to the first paragraph in a document.
 
-// How to add a comment to the paragraph class in a document.
+// The comment is attached to the paragraph with the specified author name.
 
-// How to comment on text using the editor API in a document.
-
-// Add a paragraph to the document and comments on it.
+// Add a paragraph to the document and comment on it.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

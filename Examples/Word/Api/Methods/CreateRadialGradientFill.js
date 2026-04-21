@@ -2,8 +2,6 @@
 
 // Create the fill object which represents a radial gradient fill and apply it to the created shape in a document.
 
-// How to create a radial gradient fill and apply it to the object using the selected radial gradient as the object background in a document.
-
 // Create a radial gradient fill from an array of the gradient color stops and use it as a background for the shape class in a document.
 
 let doc = Api.GetDocument();

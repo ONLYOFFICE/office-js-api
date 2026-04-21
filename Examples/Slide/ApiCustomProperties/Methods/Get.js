@@ -1,6 +1,6 @@
 // Get the value of a custom property by its name in a presentation.
 
-// How do I get in a presentation?
+// Return null for properties that do not exist.
 
 // Get using a custom properties object in a presentation.
 

@@ -2,8 +2,6 @@
 
 // Create a block content control in the table cell, return this cell as a parent of the container, and set a black top border to this cell.
 
-// How to return a parent table cell of the block-level content control object.
-
 // Create a block level container, add it to the table in the current document, and return the parent table cell object.
 
 let doc = Api.GetDocument();

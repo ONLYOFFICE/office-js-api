@@ -1,6 +1,6 @@
 // Create complex form with multiple elements, including a text input form and static text.
 
-// How do I add in a document?
+// A complex form combines multiple elements such as text inputs and static text.
 
 // Add using a complex form object.
 
