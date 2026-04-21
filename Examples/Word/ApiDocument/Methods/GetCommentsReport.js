@@ -35,7 +35,7 @@ for (let userName in commentsReport) {
 	rows += commentsReport[userName].length;
 }
 let cols = 6;
-let table = Api.CreateTable(cols, rows);
+let table = Api.CreateTable(rows, cols);
 doc.Push(table);
 
 function addTextToCell(cell, text) {

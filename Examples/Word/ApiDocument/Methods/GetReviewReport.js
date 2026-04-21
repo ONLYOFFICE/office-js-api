@@ -26,7 +26,7 @@ for (let userName in reviewReport) {
     rows += reviewReport[userName].length;
 }
 let cols = 4;
-let table = Api.CreateTable(cols, rows);
+let table = Api.CreateTable(rows, cols);
 doc.Push(table);
 
 function privateFillCell(curRow, curCol, text) {
