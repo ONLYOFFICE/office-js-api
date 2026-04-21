@@ -1,4 +1,4 @@
-// This example shows how to get a Range object that represents the left end of the specified range.
+// Get a Range object that represents the left end of the specified range.
 
 // How to set a direction of the range.
 

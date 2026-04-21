@@ -1,4 +1,4 @@
-// This example adds a cross-reference to the page containing an endnote.
+// Add a cross-reference to the page containing an endnote.
 
 // How to create a reference to the paragraph with an endnote.
 

@@ -2,8 +2,6 @@
 
 // Create a stroke using the specified width and fill and apply it to the shape from the first paragraph in a document.
 
-// How to create the stroke object and use it to create the shape object in a document.
-
 // Specify the parameters of the shape stroke in a document.
 
 let doc = Api.GetDocument();

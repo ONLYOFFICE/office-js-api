@@ -1,4 +1,4 @@
-// This example creates a date form with the common and specific date form properties.
+// Create a date form with the common and specific date form properties.
 
 // How to create a date form with its properties.
 

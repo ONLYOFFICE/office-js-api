@@ -1,4 +1,4 @@
-// In this example, the WordArt text has a text fill in a document.
+// Set a text fill for the WordArt text in a document.
 
 // How to color a text object in a document.
 

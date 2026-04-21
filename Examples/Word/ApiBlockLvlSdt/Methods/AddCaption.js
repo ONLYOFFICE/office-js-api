@@ -2,8 +2,6 @@
 
 // Add a figure caption after the block content control and set the Arabic caption numbering format.
 
-// How to add a caption for the block-level content control object in a document.
-
 // Create a block content control, add a paragraph with an image to it, and add a figure caption for the current content control in a document.
 
 let doc = Api.GetDocument();

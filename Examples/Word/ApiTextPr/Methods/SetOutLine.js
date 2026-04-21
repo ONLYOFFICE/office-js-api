@@ -1,4 +1,4 @@
-// In this example, the WordArt text has a text outline in a document.
+// Set a text outline for the WordArt text in a document.
 
 // How to set an outline to the text in a document.
 

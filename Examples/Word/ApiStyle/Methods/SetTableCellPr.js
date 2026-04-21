@@ -1,4 +1,4 @@
-// Show how set get the table cell properties to the style.
+// Set the table cell properties for the style.
 
 // How to create table cell properties for style and add shading to it.
 

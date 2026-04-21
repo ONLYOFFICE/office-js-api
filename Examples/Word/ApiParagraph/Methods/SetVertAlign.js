@@ -1,4 +1,4 @@
-// Create two paragraphs. One with vertical aligment "subscript" and another one with vertical aligment "superscript" in a document.
+// Create two paragraphs. One with vertical alignment "subscript" and another one with vertical alignment "superscript" in a document.
 
 // How to change a vertical alignment of a text run in a document.
 

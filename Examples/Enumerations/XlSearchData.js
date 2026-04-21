@@ -1,4 +1,4 @@
-// This example specify that the whole text match will be searched in the range.
+// Specify that the whole text match will be searched in the range.
 
 // How to search a text using search data.
 

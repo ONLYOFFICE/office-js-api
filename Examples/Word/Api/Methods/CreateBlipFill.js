@@ -1,8 +1,8 @@
 // Create a blip fill to apply to the object using the selected image as the object background in a document.
 
-// How to create a shape with the "star10" type and a tiled blip fill and add it to the first paragraph of the document.
+// A shape with the "star10" type uses a tiled blip fill as its background.
 
-// Create a blip fill with the specified image ur and the "tile" fill type and use it to fill the created shape in the document.
+// Create a blip fill with the specified image url and the "tile" fill type and use it to fill the created shape in the document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

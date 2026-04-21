@@ -1,4 +1,4 @@
-// Showh how to get a collection of OLE objects from the document.
+// Get a collection of OLE objects from the document.
 
 // Get all OLE objects added to the document.
 

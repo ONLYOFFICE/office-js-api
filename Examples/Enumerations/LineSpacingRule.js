@@ -1,4 +1,4 @@
-// This example gets the paragraph spacing line rule.
+// Get the paragraph spacing line rule.
 
 // How to get a spacing line rule that determines the measuring units of the line spacing.
 

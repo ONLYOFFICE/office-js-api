@@ -2,11 +2,7 @@
 
 // Create a block content control, add two paragraphs to it, and search for the specified word among the text in this container in a document.
 
-// How to search for the specified string in the block-level content control object in a document.
-
-// Search for the specified word in the block level content control and return it as the cell range object.
-
-// Search for the specified word in the block-level content control object and set the bold property to the second occurrence of this word in the container in a document.
+// Search for the specified word in the block level content control and return it as the range object.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

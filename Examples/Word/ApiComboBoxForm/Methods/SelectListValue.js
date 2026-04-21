@@ -1,4 +1,4 @@
-// Elects the specified value from the combo box list values in a document.
+// Selects the specified value from the combo box list values in a document.
 
 // How to know whether a combobox form is required or not.
 

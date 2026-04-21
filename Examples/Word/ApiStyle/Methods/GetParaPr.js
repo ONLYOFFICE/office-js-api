@@ -1,4 +1,4 @@
-// Show how ot get the paragraph properties of the current style in a document.
+// Get the paragraph properties of the current style in a document.
 
 // How to get properties of the paragraph in a document.
 

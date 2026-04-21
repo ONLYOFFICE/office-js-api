@@ -1,9 +1,7 @@
-// This example shows how to create a numbering.
+// Create a numbering.
 
 // The paragraph will be starting with the Arabic numeral which has parenthesis.
 
-// How to create a bullet indicating its type.
-
-// Create a numbered paragraph in arabic numeral.
+// Create a numbered paragraph in Arabic numeral format.
 
 let bullet = Api.CreateNumbering("ArabicParenR");

@@ -1,4 +1,4 @@
-// This example creates a combo box form with the common and specific combo box form properties.
+// Create a combo box form with the common and specific combo box form properties.
 
 // How to create a combo box form with its properties.
 

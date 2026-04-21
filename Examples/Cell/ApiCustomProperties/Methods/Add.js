@@ -1,6 +1,6 @@
 // Add a boolean custom property in a spreadsheet.
 
-// How do I add in a spreadsheet?
+// Custom properties support string, boolean, number, and date value types.
 
 // Add using a custom properties object in a spreadsheet.
 

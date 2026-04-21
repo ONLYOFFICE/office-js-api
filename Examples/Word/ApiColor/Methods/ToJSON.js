@@ -1,8 +1,8 @@
 // Convert color objects of different types to JSON strings in a document.
 
-// How can I to j s o n using a color in a document?
+// The color object can be created from a hex value or a theme color.
 
-// To j s o n for a color in a document.
+// Convert each color type to a JSON string and display the result.
 
 const doc = Api.GetDocument();
 const paragraph = doc.GetElement(0);

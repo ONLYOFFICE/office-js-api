@@ -1,8 +1,8 @@
-// Retrieve the class type of a cell range in a document.
-
-// How to identify the class type of a cell range?
-
-// Obtain the class type identifier of a cell range object.
+// Retrieve the class type string for a range object.
+ 
+// Use GetClassType to identify the type of a range instance.
+ 
+// Output the class type to confirm the returned value.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

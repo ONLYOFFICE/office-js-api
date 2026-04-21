@@ -1,6 +1,6 @@
 // Add string custom properties to a document in a document.
 
-// How do I add in a document?
+// Custom properties support string, boolean, number, and date value types.
 
 // Add using a custom properties object in a document.
 

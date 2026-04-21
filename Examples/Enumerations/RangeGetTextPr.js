@@ -1,4 +1,4 @@
-// This example returns a text from the specified range.
+// Return a text from the specified range.
 
 // How to retrieve a text from a range with the specified properties.
 

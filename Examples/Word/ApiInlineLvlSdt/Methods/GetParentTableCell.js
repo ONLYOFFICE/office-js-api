@@ -1,4 +1,4 @@
-// Showh how to get a table cell that contains the current content control.
+// Get the table cell that contains the current content control.
 
 // How to display the parent table of the inline text control in a document.
 

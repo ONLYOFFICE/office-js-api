@@ -1,4 +1,4 @@
-// This example shows a record of one comment from the comment report.
+// Show a record of one comment from the comment report.
 
 // Report on all comments that contains two comments from each user.
 

@@ -1,4 +1,4 @@
-// This example sets the horizontal alignment of the text in the cell range.
+// Set the horizontal alignment of the text in the cell range.
 
 // How to align a text to center.
 

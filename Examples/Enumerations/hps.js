@@ -1,4 +1,4 @@
-// This example sets the text font size to 22 half-points.
+// Set the text font size to 22 half-points.
 
 // How to resize a text using half-points.
 

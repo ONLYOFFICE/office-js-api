@@ -1,6 +1,6 @@
 // Get the value of a custom property by its name in a document.
 
-// How can I get using a custom properties in a document?
+// Return null for properties that do not exist.
 
 // Get for a custom properties in a document.
 

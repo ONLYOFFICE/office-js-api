@@ -2,11 +2,7 @@
 
 // Create a run, add a text to it, and insert it into the first paragraph of the document.
 
-// How to create the text run object and add it to the paragraph class in a document.
-
-// How to add a text to the paragraph in a document.
-
-// How to add a text to the text run object in a document.
+// A text run represents a contiguous block of text with the same formatting.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,4 +1,4 @@
-// This example creates a picture form with the common and specific picture form properties.
+// Create a picture form with the common and specific picture form properties.
 
 // How to set the properties to the ApiPictureForm object.
 

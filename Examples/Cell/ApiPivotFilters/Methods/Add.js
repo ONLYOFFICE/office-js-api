@@ -1,6 +1,6 @@
 // Comprehensive testing of ApiPivotFilters.Add method Creates one comprehensive dataset and 15 pivot tables with different filter types Tests all major filter categories: label, value, top/bottom, and date filters in a spreadsheet.
 
-// How do I add in a spreadsheet?
+// Pivot filters support label, value, top/bottom, and date filter types.
 
 // Add using a pivot filters object in a spreadsheet.
 

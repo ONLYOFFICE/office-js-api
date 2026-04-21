@@ -2,8 +2,6 @@
 
 // Create a Text Art object using the specified text properties in a document.
 
-// How to create the ApiWordArt object and add it to the first paragraph of the document.
-
 // Create the empty text properties object and set the bold property, font size, capitalized letters, color, and font family to it in a document.
 
 let doc = Api.GetDocument();

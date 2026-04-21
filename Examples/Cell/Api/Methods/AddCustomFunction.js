@@ -1,10 +1,8 @@
 // Calculate custom function result in a spreadsheet.
 
-// How to add custom function in a spreadsheet.
+// A custom function can perform calculations not available in standard functions.
 
-// How to use custom function in a spreadsheet.
-
-// How to add cell values using custom function.
+// Add cell values using a custom function.
 
 /**
  * Function that returns the argument

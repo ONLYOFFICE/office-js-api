@@ -1,4 +1,4 @@
-// Showh how to get a bookmark range in a document.
+// Get a bookmark range in a document.
 
 // Get a range with a bookmark with specific name in a document.
 

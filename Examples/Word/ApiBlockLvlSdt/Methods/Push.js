@@ -2,9 +2,7 @@
 
 // Create a block content control and pushes a paragraph to it in a document.
 
-// How to add a document element (paragraph, table, or block content control) to the block-level content control object.
-
-// Create the paragraph object, add a text to it, and pushes it to the block container in a document.
+// Create the paragraph object, add a text to it, and push it to the block container in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

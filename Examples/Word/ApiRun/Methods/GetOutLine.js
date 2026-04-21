@@ -1,4 +1,4 @@
-// Show how get outline of the existing run in a document.
+// Get the outline of the existing run in a document.
 
 // How can I get the out line using a text run in a document?
 

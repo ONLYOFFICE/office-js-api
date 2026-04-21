@@ -1,10 +1,8 @@
 // Calculate custom function result in a spreadsheet.
 
-// How to add custom function library in a spreadsheet.
+// A custom function library groups related functions under a single namespace.
 
-// How to use custom function in a spreadsheet.
-
-// How to add cell values using custom function library.
+// Add cell values using a custom function library.
 
 Api.AddCustomFunctionLibrary("LibraryName", function(){
 	/**

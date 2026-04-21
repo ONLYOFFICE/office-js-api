@@ -1,4 +1,4 @@
-// Showh how to get an array of all tables from the document content.
+// Get an array of all tables from the document content.
 
 // Get all tables added to the document.
 

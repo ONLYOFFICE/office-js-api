@@ -1,4 +1,4 @@
-// Convert the cell range object into the JSON object.
+// Convert the range object into the JSON object.
 
 // How to get a JSON from the range in a document.
 

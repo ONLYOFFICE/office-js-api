@@ -1,4 +1,4 @@
-// In this example, add the text with a text fill to the WordArt in a document.
+// Add the text with a text fill to the WordArt in a document.
 
 // How to fill a text run in a document.
 

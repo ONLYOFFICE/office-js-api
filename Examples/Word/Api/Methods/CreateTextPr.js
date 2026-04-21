@@ -2,8 +2,6 @@
 
 // Create the empty text properties object and set the bold property, font size, capitalized letters, color, and font family to it in a document.
 
-// How to create the text properties object and apply it to the Text Art object in a document.
-
 // Create a Text Art object using the specified text properties in a document.
 
 let doc = Api.GetDocument();

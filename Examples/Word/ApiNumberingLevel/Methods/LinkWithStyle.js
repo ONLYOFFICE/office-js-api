@@ -1,4 +1,4 @@
-// This shows how to link numbering level with the specified heading style in a document.
+// Link numbering level with the specified heading style in a document.
 
 // How to link the numbering with the style of another element in a document.
 

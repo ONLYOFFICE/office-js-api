@@ -1,4 +1,4 @@
-// Delete the the user protected range in a spreadsheet.
+// Delete the user protected range in a spreadsheet.
 
 // How to close an access for the protected range to user specifing user id, name and access type in a spreadsheet.
 

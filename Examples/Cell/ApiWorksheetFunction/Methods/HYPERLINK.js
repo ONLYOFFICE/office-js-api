@@ -1,4 +1,4 @@
-// Show how create a shortcut that jumps to another location in the current workbook, or opens a document stored on your hard drive, a network server, or on the Internet.
+// Create a shortcut that jumps to another location in the current workbook, or opens a document stored on your hard drive, a network server, or on the Internet.
 
 // How to create a hyperlink in a spreadsheet.
 

@@ -2,9 +2,7 @@
 
 // Create the "scatter" chart and set an outline of the specified width and color to its markers in a spreadsheet.
 
-// How to use the stroke object as an outline of the chart markers in a spreadsheet.
-
-// How to outline the markers of the chart object in a spreadsheet.
+// Apply a stroke outline to the chart markers using a stroke object.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

@@ -1,4 +1,4 @@
-// This example creates a "bullet" numbering.
+// Create a "bullet" numbering.
 
 // How to create a numbering specifying the symbol.
 

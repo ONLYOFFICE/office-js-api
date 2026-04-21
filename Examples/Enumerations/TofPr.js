@@ -1,4 +1,4 @@
-// This example adds a table of figures with the specified properties to the document.
+// Add a table of figures with the specified properties to the document.
 
 // How to create a table of figures properties.
 

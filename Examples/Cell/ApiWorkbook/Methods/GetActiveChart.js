@@ -22,5 +22,9 @@ chart.SetTitle('Full Names Length', 15);
 chart.Select();
 
 const activeChart = workbook.GetActiveChart();
-const chartTitle = activeChart.GetTitle();
-worksheet.GetRange('D1').SetValue('Active Chart Title: ' + chartTitle);
+if (activeChart) {
+	const chartTitle = activeChart.GetTitle();
+	worksheet.GetRange('D1').SetValue('Active Chart Title: ' + chartTitle);
+} else {
+	worksheet.GetRange('D1').SetValue('No active chart found');
+}

@@ -4,8 +4,6 @@
 
 // Remove all elements from the block level content control in a document.
 
-// How to clear the contents of the block-level content control object in a document.
-
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();
 blockLvlSdt.GetContent().GetElement(0).AddText("This is a block text content control.");

@@ -1,4 +1,4 @@
-// Showh how to get the value of the specified form using a key.
+// Get the value of the specified form using a key.
 
 // How do I get the form value by key in a document?
 

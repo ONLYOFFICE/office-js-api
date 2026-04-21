@@ -1,6 +1,6 @@
-// Create a text form with the common and specific text form properties.
+// Create a text form and add it to the document paragraph.
 
-// How to create a text form and add it to the paragraph.
+// Set text form properties and add the form to the document.
 
 // Add a text form to the document object, set its properties like characters limit, etc.
 

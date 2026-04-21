@@ -1,4 +1,4 @@
-// Freeze the the first column in a spreadsheet.
+// Freeze the first column in a spreadsheet.
 
 // How to freeze columns using their indices in a spreadsheet.
 

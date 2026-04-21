@@ -1,4 +1,4 @@
-// This example returns a text from the text run.
+// Return a text from the text run.
 
 // How to get a text in specified format.
 
