@@ -9259,5 +9259,8 @@
     "Get rich text properties from rich run object and set some properties to it in a PDF document.": "从 PDF 文档中的富文本 run 对象获取富文本属性并为其设置一些属性。",
     "Copy rich run object and add it to parent rich paragraph in a PDF document.": "在 PDF 文档中复制富文本 run 对象并将其添加到父富文本段落。",
     "Get parent rich paragraph of rich run object and set justification property to it in a PDF document.": "获取 PDF 文档中富文本 run 对象的父富文本段落并为其设置对齐方式属性。",
-    "Appends a new slide to the end of the presentation.": "在演示文稿末尾追加新幻灯片。"
+    "Appends a new slide to the end of the presentation.": "在演示文稿末尾追加新幻灯片。",
+    "Get all rows of a table in a document.": "获取文档中表格的所有行。",
+    "Get all cells of a table as a two-dimensional array in a document.": "将文档中表格的所有单元格作为二维数组获取。",
+    "Get all cells of a table row as an array in a document.": "将文档中表格行的所有单元格作为数组获取。"
 }
