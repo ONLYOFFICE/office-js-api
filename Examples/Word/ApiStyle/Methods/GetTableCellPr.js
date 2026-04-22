@@ -6,7 +6,7 @@
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
-let table = Api.CreateTable(2, 3);
+let table = Api.CreateTable(3, 3);
 table.SetWidth("percent", 100);
 doc.Push(table);
 table.SetStyle(tableStyle);

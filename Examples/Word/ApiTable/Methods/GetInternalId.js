@@ -5,7 +5,7 @@
 // Get the internal id using a table object in a document.
 
 const doc = Api.GetDocument();
-const table = Api.CreateTable(2, 1);
+const table = Api.CreateTable(2, 2);
 table.SetWidth('percent', 100);
 doc.Push(table);
 
