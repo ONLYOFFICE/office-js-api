@@ -1,8 +1,8 @@
-// Set the page orientation.
+// Switch between portrait and landscape page layouts in a spreadsheet.
 
-// How to change a page orientation.
+// How do I rotate the page orientation from vertical to horizontal in a spreadsheet?
 
-// Set a page orientation and display it in the sheet.
+// Choose whether your printed pages display in tall or wide format in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.SetPageOrientation("xlPortrait");

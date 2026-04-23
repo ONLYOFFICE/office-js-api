@@ -1,8 +1,8 @@
-// Get the parent of a custom XML node in a presentation.
+// Access the parent element of an XML node in a presentation.
 
-// How to get the parent for a custom XML node in a presentation?
+// How do I find the parent of an XML element in a presentation?
 
-// Get the parent and display the result in a presentation.
+// Retrieve the containing XML element of a node in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

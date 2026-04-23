@@ -1,8 +1,8 @@
-// How to create the same page shape.
+// Create a duplicate of a shape on a different page in a PDF.
 
-// Get a page shape, add it to the page and create its copy.
+// How do I copy a shape to another location in a PDF?
 
-// Copy using a drawing object object in a PDF document.
+// Make an identical copy of a drawing object in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

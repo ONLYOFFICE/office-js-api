@@ -1,8 +1,8 @@
-// Get text field and set time format for it.
+// Display time with hour, minute, and second in a PDF.
 
-// How do I set time format in a PDF document?
+// Can I control the time display format in a PDF?
 
-// Set time format using a combobox field object.
+// Show times using a 12-hour or 24-hour format in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

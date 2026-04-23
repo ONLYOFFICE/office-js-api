@@ -1,8 +1,8 @@
-// Set the specified numeric format to the axis values.
+// Format the numbers shown on a chart's axis in a presentation.
 
-// How to change a numeric format of left axis lables.
+// How do I change the number format for the axis labels in a presentation?
 
-// Create a chart then set its axis number format.
+// Create a chart and apply a decimal format to its axis values in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

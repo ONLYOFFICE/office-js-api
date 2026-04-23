@@ -1,8 +1,8 @@
-// Delete a data validation rule from a range of cells.
+// Remove a data validation rule from a cell range in a spreadsheet.
 
-// How to remove data validation from a range of cells.
+// How do I clear an existing input restriction from a cell range in a spreadsheet?
 
-// Get a range from the worksheet and delete its data validation.
+// Lift a validation constraint so cells accept any value again in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Data Validation for decimals to be more than 10 for A2 and A3");

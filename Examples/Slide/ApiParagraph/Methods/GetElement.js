@@ -1,8 +1,8 @@
-// Get a paragraph element using the position specified in a presentation.
+// Access a specific element within a paragraph in a presentation.
 
-// How to return an element from the ApiPargaraph object in a presentation.
+// How do I retrieve an element from a paragraph in a presentation?
 
-// Get an object from the paragraph in a presentation.
+// Read text content from a paragraph element by position in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

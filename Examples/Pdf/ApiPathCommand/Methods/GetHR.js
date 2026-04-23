@@ -1,8 +1,8 @@
-// Analyzes arc command parameters in a page shape. Retrieves and display arc radii and angle information.
+// Read the vertical radius of an arc in a PDF.
 
-// How do I get the h r in a PDF document?
+// How do I find the height measurement of an arc in a PDF?
 
-// Get the h r using a path command object in a PDF document.
+// Retrieve the vertical span of a curved arc segment in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

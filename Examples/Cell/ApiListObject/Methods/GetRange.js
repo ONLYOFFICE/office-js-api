@@ -1,8 +1,8 @@
-// Get the full range of a formatted table.
+// Obtain the complete cell range occupied by a table in a spreadsheet.
 
-// How to retrieve the complete range covered by a table in a spreadsheet.
+// How do I get the full address of every cell a table covers in a spreadsheet?
 
-// The full range includes the header row, all data rows, and the totals row if it is visible in a spreadsheet.
+// Capture the entire span of a table, including its header and data rows, for use in other operations in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

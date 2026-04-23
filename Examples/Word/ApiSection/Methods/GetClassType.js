@@ -1,8 +1,8 @@
-// Check the class type returned by a section in a document.
+// Read the type label assigned to a section in a document.
 
-// How do I check what type a section object is in a document?
+// How do I find out what kind of object a section is in a document?
 
-// Retrieve and output the class type string for a section in a document.
+// Confirm the category of a section by checking its type identifier in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

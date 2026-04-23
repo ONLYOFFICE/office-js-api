@@ -1,8 +1,8 @@
-// Add a tab stop to the run in a presentation.
+// Add tab spacing to text in a presentation.
 
-// How to add a tab after a string in a text run in a presentation.
+// How do I insert tabs in text in a presentation?
 
-// How to split a text with a tab in a presentation.
+// Space out text by adding multiple tab stops in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// Get the custom tab stops of the current paragraph in a document.
+// Retrieve the tab stops set on a paragraph in a document.
 
-// Get the tab stops of the paragraph and display their positions in the document.
+// How do I read the tab stop positions and alignment types of a paragraph in a document?
 
-// How to get the tab stops of the paragraph properties object in a document.
+// Inspect tab configuration to verify or display custom stop positions after applying them.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

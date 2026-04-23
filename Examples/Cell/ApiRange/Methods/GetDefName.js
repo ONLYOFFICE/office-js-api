@@ -1,8 +1,8 @@
-// Get the named range object of the range in a spreadsheet.
+// Look up the defined name assigned to a cell range in a spreadsheet.
 
-// How to find out a range name in a spreadsheet.
+// How do I find out what name has been given to a range in a spreadsheet?
 
-// Get a range, get its name and show it in the worksheet.
+// Print the assigned name of a range into another cell in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

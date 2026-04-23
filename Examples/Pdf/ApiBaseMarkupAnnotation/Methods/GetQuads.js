@@ -1,8 +1,8 @@
-// Get quads of markup annotation in a PDF document.
+// Get the highlight area from a markup annotation in a PDF.
 
-// How do I get the quads in a PDF document?
+// How do I read the highlight coordinates in a PDF?
 
-// Get the quads using a markup annotation object in a PDF document.
+// Extract the quad coordinates that define the marked region in a PDF.
 
 let doc = Api.GetDocument();
 let markupAnnot = Api.CreateHighlightAnnot([84, 55, 231, 72]);

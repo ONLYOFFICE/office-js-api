@@ -1,8 +1,8 @@
-// Get text field and set mask for entered text for it in a PDF document.
+// Apply an input pattern to a field in a PDF.
 
-// How can I set mask using a combobox field in a PDF document?
+// What format should user input follow in a PDF?
 
-// Set mask for a combobox field in a PDF document.
+// Enforce a specific input structure in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

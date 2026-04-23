@@ -1,8 +1,8 @@
-// Get the theme of the current workbook in a spreadsheet.
+// Read the active color theme of the workbook and show its name on the sheet in a spreadsheet.
 
-// How can I get the theme using a workbook in a spreadsheet?
+// How do I find out which visual theme is applied to my workbook in a spreadsheet?
 
-// Get the theme for a workbook in a spreadsheet.
+// Display the theme name inside a shape that is filled with one of the theme's accent colors in a spreadsheet.
 
 const workbook = Api.GetActiveWorkbook();
 const worksheet = workbook.GetActiveSheet();

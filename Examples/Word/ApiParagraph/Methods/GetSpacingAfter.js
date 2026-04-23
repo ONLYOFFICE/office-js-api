@@ -1,8 +1,8 @@
-// Get the spacing after value of the paragraph in a document.
+// Read the spacing-after value of a paragraph in a document.
 
-// How to get the spacing after of the paragraph and display it in a document.
+// How do I retrieve the space added after a paragraph in a document?
 
-// Get the paragraph spacing value in a document.
+// Verify the exact gap set below a paragraph before displaying it as text in a document.
 
 let doc = Api.GetDocument();
 let paragraph1 = doc.GetElement(0);

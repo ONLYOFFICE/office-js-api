@@ -1,8 +1,8 @@
-// Get the 1-based index of a data row in a formatted table.
+// Find the position number of a row within a table in a spreadsheet.
 
-// How to find the position of a row within the data body of a table in a spreadsheet.
+// How do I check which row number a particular row occupies inside a table in a spreadsheet?
 
-// Get the 1-based index of a row within the table in a spreadsheet.
+// Read the row's index to know its place in the data body, counted from the first data row in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

@@ -1,8 +1,8 @@
-// Get all font names from all elements inside the paragraph in a PDF document.
+// List all fonts used in a paragraph in a PDF.
 
-// How can I get the font names using a paragraph in a PDF document?
+// How do I find which fonts are used in a paragraph in a PDF?
 
-// Get the font names for a paragraph in a PDF document.
+// Retrieve the names of fonts applied to text in a paragraph in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

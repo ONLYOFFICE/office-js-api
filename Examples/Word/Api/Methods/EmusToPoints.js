@@ -1,8 +1,8 @@
-// Convert EMUs (english metric units) to points in a document.
+// Convert a measurement from EMUs to points in a document.
 
-// How can I convert emus to points in a document?
+// How do I convert EMUs to points in a document?
 
-// Convert emus to points in a document.
+// Display the equivalent point value for a given number of EMUs in a document.
 
 const doc = Api.GetDocument();
 const paragraph = Api.CreateParagraph();

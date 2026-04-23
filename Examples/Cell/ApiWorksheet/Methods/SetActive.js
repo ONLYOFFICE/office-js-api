@@ -1,8 +1,8 @@
-// Make the sheet active in a spreadsheet.
+// Switch focus to a specific sheet in a spreadsheet.
 
-// How to set an active sheet in a spreadsheet.
+// How do I make a particular sheet the active one in a spreadsheet?
 
-// Set a current sheet active in a spreadsheet.
+// Bring a named sheet to the foreground so it becomes the working sheet in a spreadsheet.
 
 Api.AddSheet("New_sheet");
 let sheet = Api.GetSheet("New_sheet");

@@ -1,8 +1,8 @@
-// Check the class type returned by a preset color in a spreadsheet.
+// Read the object type identifier of a preset color in a spreadsheet.
 
-// How do I check what type a preset color object is in a spreadsheet?
+// How do I find out what kind of color object a preset color is in a spreadsheet?
 
-// Retrieve and output the class type string for a preset color in a spreadsheet.
+// Confirm the category of a preset color by reading its type label in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let presetColor = Api.CreatePresetColor("peachPuff");

@@ -1,8 +1,8 @@
-// Get a report about all the comments added to the document.
+// Build a full report of all comments grouped by author in a document.
 
-// Retrieve each comment reports and display their contents one by one in a document.
+// How do I collect and display every comment made by each user in a document?
 
-// Create a table and insert the comment reports to its cells.
+// Summarize review activity by listing comment details in a formatted table in a document.
 
 let doc = Api.GetDocument();
 let paragraph1 = doc.GetElement(0);

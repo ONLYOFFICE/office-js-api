@@ -1,8 +1,8 @@
-// Return the rank of a number in a list of numbers: its size relative to other values in the list in a spreadsheet.
+// Determine the position of a value within a sorted list of numbers in a spreadsheet.
 
-// How to estimate the rank of a number in a list of numbers in a spreadsheet.
+// How do I find where a number ranks compared to others in a spreadsheet?
 
-// Use a function to estimate rank of the a number from the list in a spreadsheet.
+// Calculate the numeric standing of an item among a set of values in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

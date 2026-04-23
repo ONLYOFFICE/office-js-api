@@ -1,8 +1,8 @@
-// Set the italic property to the text character in a presentation.
+// Apply italic formatting to paragraph text in a presentation.
 
-// How to set italic for a paragraph in a presentation?
+// How do I make text italic in a presentation?
 
-// Set italic and display the result in a presentation.
+// Format a paragraph with italic style for emphasis in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

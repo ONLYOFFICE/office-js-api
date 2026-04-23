@@ -1,8 +1,8 @@
-// Get the name of a formatted table.
+// Read the internal name of a table in a spreadsheet.
 
-// How to read the internal name of a table in a spreadsheet.
+// How do I find the name assigned to a table in a spreadsheet?
 
-// The table name is used in structured references like =TableName[Column] in formulas.
+// Look up a table's name so you can reference it in formulas or other operations in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

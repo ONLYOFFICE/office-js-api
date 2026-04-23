@@ -1,8 +1,8 @@
-// Serialize a paragraph to JSON format in a spreadsheet.
+// Convert a paragraph from a shape into a JSON string in a spreadsheet.
 
-// The paragraph is obtained from a shape on the worksheet.
+// How do I save a paragraph's structure as a JSON string in a spreadsheet?
 
-// Serialize the paragraph to a JSON string and display the result.
+// Export paragraph data to a portable text format for storage or transfer in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

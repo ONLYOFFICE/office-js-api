@@ -1,8 +1,8 @@
-// Set the border color for the container in a document.
+// Apply a border color to an inline content control in a document.
 
-// How to set border color for an inline content control in a document?
+// How do I change the border color of an inline content control in a document?
 
-// Set border color and display the result in a document.
+// Distinguish a content control from surrounding text by giving its border a distinct color in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

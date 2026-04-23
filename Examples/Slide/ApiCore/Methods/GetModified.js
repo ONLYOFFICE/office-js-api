@@ -1,8 +1,8 @@
-// Set and get the date when the current presentation was modified last time in a presentation.
+// Set and view the last modification date of a presentation in a presentation.
 
-// How can I get the modified using a core properties in a presentation?
+// How do I find when a presentation was last changed?
 
-// Get the modified for a core properties in a presentation.
+// Retrieve the timestamp of the most recent edit in a presentation.
 
 const presentation = Api.GetPresentation();
 const core = presentation.GetCore();

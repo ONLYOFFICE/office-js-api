@@ -1,8 +1,8 @@
-// Set the scope type of a data bar formatting rule.
+// Define which cells a data bar formatting rule applies to within a range in a spreadsheet.
 
-// How to change the scope type of a data bar conditional formatting.
+// How do I control whether a data bar rule covers the entire table or only the selected cells in a spreadsheet?
 
-// Set the scope type of the data bar formatting rule.
+// Narrow or broaden the reach of a data bar rule by choosing its application scope in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

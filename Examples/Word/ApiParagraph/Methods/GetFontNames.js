@@ -1,8 +1,8 @@
-// Get all font names from all elements inside the paragraph in a document.
+// Retrieve all font names used across the elements of a paragraph in a document.
 
-// How to get the font names of the paragraph in a document.
+// How do I list every font used inside a paragraph in a document?
 
-// Print all font names separated by a colon in a document.
+// Display the collected font names as a comma-separated string in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

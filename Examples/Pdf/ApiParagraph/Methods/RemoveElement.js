@@ -1,8 +1,8 @@
-// Remove an element using the position specified in a PDF document.
+// Delete a specific element from a paragraph in a PDF.
 
-// How to remove an element from the paragraph using its position index in a PDF document.
+// How do I remove an element by its position in a paragraph in a PDF?
 
-// Delete an element from the paragraph in a PDF document.
+// Eliminate an element at a given index from a paragraph in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

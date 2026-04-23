@@ -1,8 +1,8 @@
-// Create a square annotation and set new position in a PDF document.
+// Move an annotation to a new location on the page in a PDF.
 
-// How to set position for an annotation in a PDF document?
+// Reposition an annotation by changing its coordinates in a PDF.
 
-// Set position and display the result in a PDF document.
+// Update where an annotation appears in a PDF.
 
 let doc = Api.GetDocument();
 let squareAnnot = Api.CreateSquareAnnot([10, 10, 160, 32]);

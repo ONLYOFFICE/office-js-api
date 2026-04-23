@@ -1,8 +1,8 @@
-// Create a custom shape and add it to a page. Applies custom geometry with specific fill and stroke properties.
+// Draw the outline of a custom shape in a PDF.
 
-// How do I add the path in a PDF document?
+// How do I create the boundary of a unique shape in a PDF?
 
-// Add the path using a geometry object in a PDF document.
+// Define the shape's outline using lines and curves in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

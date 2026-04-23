@@ -1,8 +1,8 @@
-// Get button widget labels and display it in a PDF document.
+// Retrieve button labels in different states in a PDF.
 
-// How do I get the label in a PDF document?
+// How do I access the text displayed on a button in a PDF?
 
-// Get the label using a button widget object in a PDF document.
+// Get the label for each button state (normal, hover, down) in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// Create a RGB color for gradient stop in a PDF document.
+// Use an RGB color in a gradient fill in a PDF.
 
-// How to create a RGB color for a gradient stop in a PDF document.
+// How do I define a custom color using red, green, and blue values in a PDF?
 
-// Add an RGB color as a stop for a gradient in a PDF document.
+// Create a gradient stop with an RGB color in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// Get field by name in document.
+// Find a specific form field by its name in a PDF.
 
-// How can I get the field by name using a document in a PDF document?
+// How do I search for a field using its assigned name in a PDF?
 
-// Get the field by name for a document in a PDF document.
+// Retrieve a field and set its value by name in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// Set the paragraph line spacing in a spreadsheet.
+// Control the vertical distance between lines of text in a paragraph in a spreadsheet.
 
-// How to add a spacing line between paragraphs in a spreadsheet.
+// How do I make a paragraph double-spaced or set an exact line height in a spreadsheet?
 
-// Get a paragraph from the shape's content then add a text specifying the spacing between text lines in a spreadsheet.
+// Adjust how tightly or loosely lines are stacked within a paragraph inside a shape in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

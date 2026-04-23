@@ -1,8 +1,8 @@
-// Find out whether a text is bold in a PDF document.
+// Check if text is bold in a PDF.
 
-// How to know whether a text is set to bold or not in a PDF document.
+// How do I determine whether text has bold formatting in a PDF?
 
-// Get the run and find whether it is bold or not in a PDF document.
+// Verify the bold setting of text in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// Set the font family for all text in a paragraph inside a shape in a spreadsheet.
+// Change the typeface of all text in a paragraph inside a shape in a spreadsheet.
 
-// How can I set font family using a paragraph in a spreadsheet?
+// How do I choose a specific font for an entire paragraph in a spreadsheet?
 
-// Set font family for a paragraph in a spreadsheet.
+// Give a paragraph a consistent look by assigning it a named font family in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const fill = Api.CreateSolidFill(Api.RGB(100, 150, 150));

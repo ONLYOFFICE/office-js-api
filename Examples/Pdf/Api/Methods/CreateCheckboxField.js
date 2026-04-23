@@ -1,8 +1,8 @@
-// How to create and add a checkbox field to document.
+// Create a checkbox form field in a PDF.
 
-// How to create the checkbox field in a PDF document?
+// How do I add a checkbox to a form in a PDF?
 
-// Create the checkbox field using the PDF document API.
+// Set the initial value of a checkbox in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

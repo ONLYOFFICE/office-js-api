@@ -1,8 +1,8 @@
-// Delete a data field in a spreadsheet.
+// Remove a value field from a pivot table in a spreadsheet.
 
-// How to remove a table element in a spreadsheet.
+// How do I delete a data column from a pivot table in a spreadsheet?
 
-// Create a pivot table, add data to it then delete a custom data field in a spreadsheet.
+// Drop an unwanted summary field to clean up pivot table results in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

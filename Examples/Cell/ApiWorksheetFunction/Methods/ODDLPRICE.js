@@ -1,8 +1,8 @@
-// Return the price per $100 face value of a security with an odd last period in a spreadsheet.
+// Calculate the price of a security with an irregular final payment period in a spreadsheet.
 
-// How to get the price per $100 face value of a security in a spreadsheet.
+// How do I find the price of a bond with an odd last period in a spreadsheet?
 
-// Use a function to return the price per $100 face value of a security in a spreadsheet.
+// Determine the per-$100 value of a security when the final coupon period is irregular in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

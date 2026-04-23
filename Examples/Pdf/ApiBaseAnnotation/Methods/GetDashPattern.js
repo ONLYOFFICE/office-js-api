@@ -1,8 +1,8 @@
-// Create a square annotation and get its dash pattern in a PDF document.
+// Retrieve the dash pattern of a dashed border on an annotation in a PDF.
 
-// How to get the dash pattern for an annotation in a PDF document?
+// What dash pattern is used for an annotation's border in a PDF?
 
-// Get the dash pattern and display the result in a PDF document.
+// Check the spacing and length of dashes on an annotation's border in a PDF.
 
 let doc = Api.GetDocument();
 let squareAnnot = Api.CreateSquareAnnot([10, 10, 160, 32]);

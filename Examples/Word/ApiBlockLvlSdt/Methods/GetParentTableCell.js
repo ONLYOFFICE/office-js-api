@@ -1,8 +1,8 @@
-// Get a table cell that contains the current content control in a document.
+// Find the table cell that contains a content control in a document.
 
-// Create a block content control in the table cell, return this cell as a parent of the container, and set a black top border to this cell.
+// How do I access the table cell that holds a content control in a document?
 
-// Create a block level container, add it to the table in the current document, and return the parent table cell object.
+// Place a content control inside a table cell and then apply a border to that cell in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

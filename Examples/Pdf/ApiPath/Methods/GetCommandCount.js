@@ -1,8 +1,8 @@
-// Analyzes path commands of a star shape on a pdf document page. Shows command count and first command details in a text shape.
+// Count the number of drawing steps that make up a shape's outline in a PDF.
 
-// How to get the command count for a geometry path in a PDF document?
+// How many drawing steps does a shape have in a PDF?
 
-// Get the command count and display the result in a PDF document.
+// Find out how many commands are used to create a shape in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

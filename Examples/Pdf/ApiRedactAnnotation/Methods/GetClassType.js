@@ -1,8 +1,8 @@
-// Find out the class type of a redact annotation object in a PDF document.
+// Identify the category of a redaction mark in a PDF.
 
-// How can I get the class type of a redact annotation in a PDF document?
+// How do I determine what kind of annotation a redaction is in a PDF?
 
-// Get the class type of a redact annotation and display it in the PDF.
+// Check the object type of a redaction element in a PDF.
 
 let doc = Api.GetDocument();
 let redactAnnot = Api.CreateRedactAnnot([84, 60, 231, 70]);

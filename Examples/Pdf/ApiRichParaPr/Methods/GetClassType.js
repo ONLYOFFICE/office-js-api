@@ -1,8 +1,8 @@
-// Find out the class type of a rich paragraph properties object in a PDF document.
+// Identify the data type of a paragraph properties object in a PDF.
 
-// How can I get the class type of a rich paragraph properties in a PDF document?
+// How do I determine what type an object is in a PDF?
 
-// Get the class type of a rich paragraph properties and display it in the PDF.
+// Find the classification of a paragraph formatting object in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);

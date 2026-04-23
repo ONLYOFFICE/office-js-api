@@ -1,8 +1,8 @@
-// Set the sort orientation of a table sort object in a spreadsheet.
+// Control whether table data sorts by rows or by columns in a spreadsheet.
 
-// How to configure whether sorting applies top-to-bottom or left-to-right in a spreadsheet.
+// How do I choose a top-to-bottom or left-to-right sort direction in a spreadsheet?
 
-// Set the sort direction using the sort API in a spreadsheet.
+// Pick the axis along which the table values are reordered in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

@@ -1,6 +1,6 @@
 // Create a line annotation and add it to the page.
 
-// How do I create the line annot in a PDF document?
+// Create the line annot in a PDF document.
 
 // Create the line annot and display the result in a PDF document.
 

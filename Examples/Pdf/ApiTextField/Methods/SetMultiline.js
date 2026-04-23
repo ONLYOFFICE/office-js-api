@@ -1,8 +1,8 @@
-// Add text field and set multiline for it in a PDF document.
+// Allow text input to wrap across multiple lines in a PDF text field.
 
-// How do I set multiline in a PDF document?
+// How do I let users type multiple paragraphs in a single text field in a PDF?
 
-// Set multiline using a text field object in a PDF document.
+// Enable multiple lines of text input for a text field in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

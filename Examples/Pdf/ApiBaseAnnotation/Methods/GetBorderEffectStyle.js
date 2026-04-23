@@ -1,8 +1,8 @@
-// Create a square annotation and get its border effect style in a PDF document.
+// Retrieve the style of a border effect applied to an annotation in a PDF.
 
-// How do I get the border effect style in a PDF document?
+// What type of border effect is applied to an annotation in a PDF?
 
-// Get the border effect style using an annotation object in a PDF document.
+// Find out whether an annotation has a cloud, solid, or other border effect style in a PDF.
 
 let doc = Api.GetDocument();
 let squareAnnot = Api.CreateSquareAnnot([10, 10, 160, 32]);

@@ -1,8 +1,8 @@
-// Add some text to the paragraph in a spreadsheet.
+// Write text directly into a paragraph inside a shape in a spreadsheet.
 
-// How to add raw text to the paragraph in a spreadsheet.
+// How do I put words into a paragraph that sits inside a shape in a spreadsheet?
 
-// Change content of the shape by adding a text in a spreadsheet.
+// Fill a shape with left-aligned text split across two lines using a line break in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

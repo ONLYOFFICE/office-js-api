@@ -1,8 +1,8 @@
-// Set the language of the current document using the core properties in a document.
+// Set the language for the current document in a document.
 
-// How can I set language using a core properties in a document?
+// How do I assign a language tag to a document?
 
-// Set language for a core properties in a document.
+// Specify a locale code to control language settings for spell-check and proofing tools in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

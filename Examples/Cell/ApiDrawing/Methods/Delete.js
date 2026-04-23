@@ -1,8 +1,8 @@
-// Delete the specified drawing object from the worksheet.
+// Remove a shape from the sheet and confirm the removal in a spreadsheet.
 
-// How do I delete in a spreadsheet?
+// How do I permanently delete a shape that was placed on a sheet in a spreadsheet?
 
-// Delete using a drawing object object in a spreadsheet.
+// Verify that a shape is gone by reporting the outcome inside another shape in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

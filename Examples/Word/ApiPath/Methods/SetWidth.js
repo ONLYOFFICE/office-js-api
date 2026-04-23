@@ -1,8 +1,8 @@
-// Create a custom triangle geometry and apply it to a shape. Uses basic path drawing commands: MoveTo, LineTo and Close in a document.
+// Set the width of a custom shape's drawing area in a document.
 
-// How do I set width in a document?
+// How do I control the horizontal size of a shape's drawing area in a document?
 
-// Set width using a geometry path object in a document.
+// Define how wide the drawable region of a custom shape is in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

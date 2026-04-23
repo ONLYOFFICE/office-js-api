@@ -1,8 +1,8 @@
-// Set and get the creator of the current presentation using the core properties in a presentation.
+// Set and retrieve the creator of a presentation in a presentation.
 
-// How do I set creator in a presentation?
+// How do I set the creator of a presentation in a presentation?
 
-// Set creator using a core properties object in a presentation.
+// Retrieve and display the creator as text in a presentation.
 
 const presentation = Api.GetPresentation();
 const core = presentation.GetCore();

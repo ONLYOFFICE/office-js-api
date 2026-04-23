@@ -1,8 +1,8 @@
-// Delete a formatted table and clear its formatting.
+// Remove a formatted table and erase its styling in a spreadsheet.
 
-// How to remove a table and convert it back to a plain range in a spreadsheet.
+// How do I completely delete a table, including its formatting, in a spreadsheet?
 
-// Unlike Unlist(), Delete() also clears the cell formatting that was applied by the table style.
+// Wipe out a table and leave behind clean, unstyled cells when the table structure is no longer needed in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

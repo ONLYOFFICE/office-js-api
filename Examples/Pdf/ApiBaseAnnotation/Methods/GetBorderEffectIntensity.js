@@ -1,8 +1,8 @@
-// Create a square annotation and get its border effect intensity in a PDF document.
+// Retrieve the intensity level of a border effect on an annotation in a PDF.
 
-// How do I get the border effect intensity in a PDF document?
+// What is the border effect intensity value for an annotation in a PDF?
 
-// Get the border effect intensity using an annotation object in a PDF document.
+// Check the strength of a cloud or other border effect applied to an annotation in a PDF.
 
 let doc = Api.GetDocument();
 let squareAnnot = Api.CreateSquareAnnot([10, 10, 160, 32]);

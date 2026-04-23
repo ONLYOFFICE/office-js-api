@@ -1,8 +1,8 @@
-// Get the paragraph contents justification in a spreadsheet.
+// Read the text alignment setting of a paragraph inside a shape in a spreadsheet.
 
-// How to know the justification type of a paragraph in a spreadsheet.
+// How do I find out how text is aligned within a paragraph in a spreadsheet?
 
-// Create a paragraph, set justification type, get it and display in the worksheet.
+// Verify the justification applied to a paragraph after setting it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

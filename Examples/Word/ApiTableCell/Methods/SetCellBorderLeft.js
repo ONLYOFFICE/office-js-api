@@ -1,8 +1,8 @@
-// Set the border which will be displayed to the left of the table cell.
+// Add a border along the left edge of a table cell in a document.
 
-// How to add border to the left of the cell.
+// How do I draw a line on the left side of a table cell in a document?
 
-// Create a 3x3 table and add the left 4 point black border to cell #1.
+// Give a cell a visible left border to separate it from the column beside it in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

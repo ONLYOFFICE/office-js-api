@@ -1,8 +1,8 @@
-// Specify the border which will be displayed between each paragraph in a set of paragraphs which have the same set of paragraph border settings in a document.
+// Add a visible border between adjacent paragraphs that share the same border settings in a document.
 
-// How to set the border between paragraphs in a document.
+// How do I draw a dividing line between consecutive paragraphs in a document?
 
-// Create a paragraph, add text to it and the single border between the text in a document.
+// Separate groups of related paragraphs with a styled border line for clearer visual structure in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// Create an abstract multilevel numbering with a "bullet" type in a document.
+// Add a multilevel bulleted list across eight indent levels in a document.
 
-// How to add a paragraph with numbering in a document.
+// How do I create a numbered or bulleted list with multiple levels in a document?
 
-// Add a text to the paragraph, make it bulleted in a document.
+// Apply a consistent bullet style to every level so readers can follow nested structure at a glance in a document.
 
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("bullet");

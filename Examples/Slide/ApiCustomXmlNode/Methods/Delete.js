@@ -1,8 +1,8 @@
-// Delete a custom XML node in a presentation.
+// Remove an XML element from a presentation's custom structure in a presentation.
 
-// How to delete a custom XML node in a presentation.
+// How do I delete a specific XML node?
 
-// Delete and display the result in a presentation.
+// Remove selected XML nodes and verify the remaining content in a presentation.
 
 let presentation = Api.GetPresentation();
 let xmlManager = presentation.GetCustomXmlParts();

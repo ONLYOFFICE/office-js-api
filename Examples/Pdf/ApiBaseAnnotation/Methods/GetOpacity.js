@@ -1,8 +1,8 @@
-// Create a square annotation and get its opacity in a PDF document.
+// Retrieve the transparency level of an annotation in a PDF.
 
-// How to get the opacity for an annotation in a PDF document?
+// How transparent is an annotation in a PDF?
 
-// Get the opacity and display the result in a PDF document.
+// Check the opacity value that controls how see-through an annotation appears in a PDF.
 
 let doc = Api.GetDocument();
 let squareAnnot = Api.CreateSquareAnnot([10, 10, 160, 32]);

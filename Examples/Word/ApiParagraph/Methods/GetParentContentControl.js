@@ -1,8 +1,8 @@
-// Get a content control that contains the paragraph in a document.
+// Retrieve the content control that wraps a given paragraph in a document.
 
-// How to get the parent control of the paragraph in a document.
+// How do I find the content control that contains a paragraph in a document?
 
-// Make bold the parent element in a document.
+// Bold the first words inside a content control by navigating from its child paragraph in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

@@ -1,8 +1,8 @@
-// Remove an item from a combobox or dropdown list content control in a document.
+// Delete a list item from a combo box content control in a document.
 
-// How can I remove the list item using an inline content control in a document?
+// How do I remove an entry from a dropdown or combo box control in a document?
 
-// Remove the list item for an inline content control in a document.
+// Trim the available choices in a combo box by removing an item that is no longer needed in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

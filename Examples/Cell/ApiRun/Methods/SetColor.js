@@ -1,8 +1,8 @@
-// Set the text color for the current text run in the RGB format.
+// Change the font color of a text run using a hex value in a spreadsheet.
 
-// How to change text color in a spreadsheet.
+// How do I set a specific color for text inside a shape in a spreadsheet?
 
-// Create a text run object, update its font color using RGB format values.
+// Apply a custom hex color to a run to visually distinguish it from surrounding text in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

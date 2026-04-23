@@ -1,8 +1,8 @@
-// Retrieve the class type of a text form in a document.
+// Identify what kind of object a text field is in a document.
 
-// How to identify the class type of a text form?
+// How do I find out what type of element a text entry area represents in a document?
 
-// Obtain the class type identifier of a text form object.
+// Confirm the category of a text field to distinguish it from other elements in a document.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});

@@ -1,8 +1,8 @@
-// Set the bold property to the text character in a PDF document.
+// Make text appear in bold weight in a PDF.
 
-// How to make a text bold in a PDF document.
+// How do I apply bold formatting to text in a PDF?
 
-// Get the text properties of the run and set it to bold in a PDF document.
+// Enable bold styling for characters displayed in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

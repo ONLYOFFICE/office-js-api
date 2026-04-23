@@ -1,8 +1,8 @@
-// Get the font color property of the specified font in a spreadsheet.
+// Read the text color applied to a range of characters in a spreadsheet.
 
-// How to know a font color of the characters in a spreadsheet.
+// How do I retrieve the exact color used to display certain characters in a cell in a spreadsheet?
 
-// Get a color value represented in RGB format and show it in the worksheet.
+// Copy the color from one group of characters and apply it to another group of characters in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B1");

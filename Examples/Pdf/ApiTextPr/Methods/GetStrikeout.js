@@ -1,8 +1,8 @@
-// Find out whether a text is strikethrough with one line in a PDF document.
+// Check if text has a line drawn through it in a PDF.
 
-// How to know whether a text is crossed with one horizontal line in a PDF document.
+// How do I see if strikethrough formatting is applied to text in a PDF?
 
-// Get the text properties of the run and find whether it is strikethrough or not in a PDF document.
+// Verify the strikethrough setting on text content in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

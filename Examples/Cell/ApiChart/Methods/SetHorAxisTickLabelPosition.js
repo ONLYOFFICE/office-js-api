@@ -1,8 +1,8 @@
-// This sets the possible values for the position of the chart tick labels in relation to the main horizontal label or the chart data values in a spreadsheet.
+// Move the category labels to a different position relative to the horizontal axis of a chart in a spreadsheet.
 
-// How to change position of the tick label of horizontal axis in a spreadsheet.
+// How do I control where the tick labels sit along the horizontal axis of a chart in a spreadsheet?
 
-// Set position of the tick label from horizontal axis in a spreadsheet.
+// Reposition the axis labels above, below, or beside the horizontal axis of a chart in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

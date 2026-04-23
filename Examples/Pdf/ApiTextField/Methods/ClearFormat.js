@@ -1,8 +1,8 @@
-// Get text field and set number format for it and then clear format.
+// Remove all formatting from a text input field in a PDF.
 
-// How can I clear format using a text field in a PDF document?
+// How do I clear formatting that was applied to a text field in a PDF?
 
-// Clear format for a text field in a PDF document.
+// Reset a text field to its default appearance without any special formatting in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

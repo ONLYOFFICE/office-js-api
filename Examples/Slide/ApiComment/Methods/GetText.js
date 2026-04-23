@@ -1,8 +1,8 @@
 // Get text of a comment in a presentation.
 
-// How to get a raw text of a comment in a presentation.
+// Extract the raw text content from a specific comment.
 
-// Get all comments from the presentation and the first one's text.
+// Add all comments to the presentation, then display the first comment's text.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

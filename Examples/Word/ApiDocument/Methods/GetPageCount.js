@@ -1,8 +1,8 @@
-// Get a number of pages in the current document in a document.
+// Count the total number of pages in a document.
 
-// How to count the number of pages in the document.
+// How do I find out how many pages a document has in a document?
 
-// Display the number of pages of the document.
+// Insert the page count as readable text so readers see it at a glance in a document.
 
 let doc = Api.GetDocument();
 let pageCount = doc.GetPageCount();

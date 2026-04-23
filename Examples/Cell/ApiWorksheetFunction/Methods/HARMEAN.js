@@ -1,8 +1,8 @@
-// Return the harmonic mean of a data set of positive numbers: the reciprocal of the arithmetic mean of reciprocals in a spreadsheet.
+// Calculate the harmonic mean of a set of positive numbers in a spreadsheet.
 
-// How to calculate the harmonic mean of a data set of positive numbers in a spreadsheet.
+// How do I find the harmonic average for my data in a spreadsheet?
 
-// Use a function to calculate harmonic mean in a spreadsheet.
+// Get the reciprocal of the average of reciprocals in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

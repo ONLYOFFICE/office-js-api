@@ -1,8 +1,8 @@
-// Get the list values from the combo box in a document.
+// Retrieve all dropdown options from a combo box form in a document.
 
-// How to get list values of a combobox form.
+// How do I read the list of selectable items from a combo box form in a document?
 
-// Display each combobox item in the document.
+// Print every available option to confirm the dropdown choices are set correctly.
 
 let doc = Api.GetDocument();
 let comboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false});

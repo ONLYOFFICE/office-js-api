@@ -1,8 +1,8 @@
-// How to get a content of the table cell object.
+// Retrieve the inner content from a table cell in a PDF.
 
-// Return the document content object from the table cell.
+// How do I access what is stored inside a table cell in a PDF?
 
-// Get the content using a table cell object.
+// Extract the document elements contained within a cell in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

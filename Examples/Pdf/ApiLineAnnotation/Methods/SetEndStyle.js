@@ -1,8 +1,8 @@
-// Set end line style to line annotation in a PDF document.
+// Customize the end appearance of a line annotation in a PDF.
 
-// How to set end style for a line annotation in a PDF document?
+// How do I change the end style in a PDF?
 
-// Set end style and display the result in a PDF document.
+// Apply a specific line ending to the annotation in a PDF.
 
 let doc = Api.GetDocument();
 let lineAnnot = Api.CreateLineAnnot([10, 10, 160, 32], {x: 15, y: 15}, {x: 155, y: 30});

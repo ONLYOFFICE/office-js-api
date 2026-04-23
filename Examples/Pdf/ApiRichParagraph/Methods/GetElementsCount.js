@@ -1,8 +1,8 @@
-// Get elements count from from rich paragraph in a PDF document.
+// Count the elements in a paragraph in a PDF.
 
-// How can I get the elements count using a rich paragraph in a PDF document?
+// How do I find out how many items are in a paragraph in a PDF?
 
-// Get the elements count for a rich paragraph in a PDF document.
+// Determine the total number of elements within a paragraph in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);

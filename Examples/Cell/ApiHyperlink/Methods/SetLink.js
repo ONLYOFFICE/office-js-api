@@ -1,8 +1,8 @@
-// Set a new URL for a hyperlink inside a shape in a spreadsheet.
+// Change the destination URL of an existing hyperlink in a spreadsheet.
 
-// How can I set link using a hyperlink in a spreadsheet?
+// How do I update the address a hyperlink points to in a spreadsheet?
 
-// Set link for a hyperlink in a spreadsheet.
+// Replace the web address on a hyperlink so it navigates to a new location in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

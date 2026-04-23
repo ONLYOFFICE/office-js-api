@@ -1,8 +1,8 @@
-// Retrieve the class type of a circle annotation in a PDF document.
+// Get the class type of a circle annotation in a PDF.
 
-// How to identify the class type of a circle annotation in a PDF document?
+// How do I find out what class type a circle annotation is in a PDF?
 
-// Obtain the class type identifier of a circle annotation object in a PDF document.
+// Identify a circle annotation object by its class type identifier in a PDF.
 
 let doc = Api.GetDocument();
 let circleAnnot = Api.CreateCircleAnnot([10, 10, 160, 32]);

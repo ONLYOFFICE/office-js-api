@@ -1,8 +1,8 @@
-// Get the text content of a custom XML node in a presentation.
+// Extract text from an XML element in a presentation.
 
-// How to get text content from an XML node in a presentation.
+// How do I read the text inside an XML node in a presentation?
 
-// Get the text for a custom XML node in a presentation.
+// Retrieve the string content of an XML element in a presentation.
 
 let presentation = Api.GetPresentation();
 let xmlManager = presentation.GetCustomXmlParts();

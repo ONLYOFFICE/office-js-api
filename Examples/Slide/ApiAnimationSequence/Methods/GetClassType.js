@@ -1,8 +1,8 @@
-// Find out the class type of an animation sequence object in a presentation.
+// Get the class type of an animation sequence in a presentation.
 
-// How can I get the class type of an animation sequence in a presentation?
+// How do I identify the type of an animation sequence in a presentation?
 
-// Get the class type of an animation sequence and display it in the presentation.
+// Read the class information of an animation sequence object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

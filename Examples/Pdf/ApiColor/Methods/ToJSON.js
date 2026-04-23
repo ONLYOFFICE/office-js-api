@@ -1,8 +1,8 @@
-// Convert a shape fill color to JSON in a PDF document.
+// Convert a color to JSON format in a PDF.
 
-// The color is obtained from the first shape fill in the document.
+// How do I serialize a color object into JSON in a PDF?
 
-// Convert the color to a JSON string and display the result.
+// Transform the color into a JSON string and display it in the document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

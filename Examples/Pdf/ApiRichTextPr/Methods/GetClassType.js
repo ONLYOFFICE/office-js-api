@@ -1,8 +1,8 @@
-// Check the class type returned by a rich text properties in a PDF document.
+// Identify the object type of text properties in a PDF.
 
-// How do I check what type a rich text properties object is in a PDF document?
+// How do I determine what kind of object handles text formatting in a PDF?
 
-// Retrieve and output the class type string for a rich text properties in a PDF document.
+// Verify the class type of a text properties object in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);

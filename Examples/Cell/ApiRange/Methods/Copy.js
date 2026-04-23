@@ -1,8 +1,8 @@
-// Copy a range to the specified range in a spreadsheet.
+// Copy a range of cells to another location in a spreadsheet.
 
-// How to create identical range in a spreadsheet.
+// How do I duplicate a group of cells without retyping the content in a spreadsheet?
 
-// Get a range and create a copy of it in a spreadsheet.
+// Replicate cell content from one place to another without removing the original in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");

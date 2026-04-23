@@ -1,8 +1,8 @@
-// Get a quote text of a comment in a presentation.
+// Read the highlighted text that a comment references in a presentation.
 
-// How to retrieve a quote text from a comment in a presentation.
+// How do I access the quoted text from a comment in a presentation?
 
-// Get all comments from the presentation and the first one's quote text.
+// Retrieve the passage of text that triggered a comment in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

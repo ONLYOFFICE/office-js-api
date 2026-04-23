@@ -1,8 +1,8 @@
-// Get the totals row range of a formatted table.
+// Retrieve the cell range occupied by a table's totals row in a spreadsheet.
 
-// How to retrieve the range of the table totals row in a spreadsheet.
+// How do I find where the totals row sits inside a table in a spreadsheet?
 
-// Return null when ShowTotals is false; the totals row must be visible to have a range in a spreadsheet.
+// Confirm whether a totals row is visible before reading its position in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

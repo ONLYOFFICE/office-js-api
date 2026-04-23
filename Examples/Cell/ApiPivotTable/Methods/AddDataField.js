@@ -1,8 +1,8 @@
-// A data field to a pivot table in a spreadsheet.
+// Add a value field to a pivot table in a spreadsheet.
 
-// How to add new field to the table in a spreadsheet.
+// How do I include a numeric column as a calculated value in a pivot table in a spreadsheet?
 
-// Create a pivot table, add data to it then add new data field to it in a spreadsheet.
+// Assign a custom label to the data field after inserting it into the pivot table in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

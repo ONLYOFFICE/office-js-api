@@ -1,8 +1,8 @@
-// Get repeate labels value of a pivot field in a spreadsheet.
+// Check whether a pivot field repeats its labels in every row of the table in a spreadsheet.
 
-// How to get a pivot field's repeate labels boolean value in a spreadsheet.
+// How do I find out if a pivot field is set to repeat labels down each row in a spreadsheet?
 
-// Create a pivot table, add data to it then get repeate labels of a specified pivot field in a spreadsheet.
+// Verify the repeat-labels setting of a pivot field to see if group names are shown in every cell or only once.
 
 let worksheet = Api.GetActiveSheet();
 

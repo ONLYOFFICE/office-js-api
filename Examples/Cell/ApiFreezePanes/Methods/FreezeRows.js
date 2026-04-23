@@ -1,8 +1,8 @@
-// Freeze the top row in a spreadsheet.
+// Lock one or more top rows so they stay visible while scrolling down in a spreadsheet.
 
-// How to freeze rows using their indices in a spreadsheet.
+// How do I keep header rows from disappearing when scrolling through data in a spreadsheet?
 
-// Get freeze panes and freeze a row using its index in a spreadsheet.
+// Pin the uppermost rows in place so column labels are always on screen in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let freezePanes = worksheet.GetFreezePanes();

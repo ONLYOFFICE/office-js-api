@@ -1,8 +1,8 @@
-// Set a name to the active sheet in a spreadsheet.
+// Rename the active sheet in a spreadsheet.
 
-// How to set name of the sheet in a spreadsheet.
+// How do I give a worksheet a custom name in a spreadsheet?
 
-// Set name for a worksheet in a spreadsheet.
+// Change the tab label of the current sheet to something meaningful in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.SetName("sheet 1");

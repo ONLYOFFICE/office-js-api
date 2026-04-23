@@ -1,8 +1,8 @@
-// Get the pivot table condition object from a data bar formatting rule.
+// Check whether a data bar rule is linked to a pivot table condition in a spreadsheet.
 
-// How to retrieve the pivot table condition object of a data bar conditional formatting.
+// How do I find out if a data bar formatting rule is connected to a pivot table in a spreadsheet?
 
-// Get the pivot table condition object of the data bar formatting rule.
+// Determine whether a conditional data bar targets a pivot table range in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

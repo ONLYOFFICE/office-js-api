@@ -1,8 +1,8 @@
-// Add a line break to the run position and start the next element from a new line in a PDF document.
+// Create a new line in the middle of text in a PDF.
 
-// How to add a line break after a sentence in a text run in a PDF document.
+// How do I move text to the next line in a PDF?
 
-// How to split a text with a line break in a PDF document.
+// Insert a line break in text within a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

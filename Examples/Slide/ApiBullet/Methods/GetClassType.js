@@ -1,8 +1,8 @@
-// Retrieve the class type of a bullet in a presentation.
+// Get the class type of a bullet in a presentation.
 
-// How to identify the class type of a bullet in a presentation?
+// How do I identify the class type of a bullet in a presentation?
 
-// Obtain the class type identifier of a bullet object in a presentation.
+// Retrieve the type identifier for a bullet in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// Get text field and set number format for it and then clear format.
+// Remove number formatting from a combobox field in a PDF.
 
-// How do I clear format in a PDF document?
+// How do I clear the formatting applied to a combobox field in a PDF?
 
-// Clear format using a combobox field object.
+// Set a number format on a field, then remove the formatting completely.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

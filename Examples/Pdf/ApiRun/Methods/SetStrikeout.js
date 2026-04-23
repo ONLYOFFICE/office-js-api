@@ -1,8 +1,8 @@
-// Specify that the contents of the current run are displayed with a single horizontal line through the center of the line in a PDF document.
+// Draw a line through text in a PDF.
 
-// How to strike out a text run in a PDF document.
+// What method adds a strikethrough effect to text in a PDF?
 
-// Create a new text run and set cross it out in a PDF document.
+// Mark text with a horizontal line passing through it in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

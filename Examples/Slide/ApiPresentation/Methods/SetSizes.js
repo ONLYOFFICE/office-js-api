@@ -1,8 +1,8 @@
-// Set the size to the current presentation.
+// Change the dimensions of a presentation.
 
-// How to specify the sizes of the current presentation.
+// How do I adjust the width and height of a presentation?
 
-// Set the width and height of the ApiPesentation object in a presentation.
+// Set custom width and height values and display the new size.
 
 const presentation = Api.GetPresentation();
 presentation.SetSizes(254 * 36000, 190 * 36000);

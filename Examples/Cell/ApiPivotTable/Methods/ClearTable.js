@@ -1,8 +1,8 @@
-// Clear a pivot table in a spreadsheet.
+// Wipe all fields and data from a pivot table in a spreadsheet.
 
-// How to remove all elements from a pivot table in a spreadsheet.
+// How do I empty a pivot table without deleting it from the sheet in a spreadsheet?
 
-// Create a pivot table, add data to it then delete all its content in a spreadsheet.
+// Reset a pivot table to a blank state so it can be rebuilt from scratch in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

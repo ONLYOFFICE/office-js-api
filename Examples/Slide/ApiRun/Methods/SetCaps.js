@@ -1,8 +1,8 @@
-// Specify that any lowercase characters in the current text run are formatted for display only as their capital letter character equivalents.
+// Format text to display all letters as capitals in a presentation.
 
-// How to make a text capitalized in a presentation.
+// What is the caps formatting option in a presentation?
 
-// Create a new text run and make each letters capitalized in a presentation.
+// Apply capital letter formatting to text runs in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

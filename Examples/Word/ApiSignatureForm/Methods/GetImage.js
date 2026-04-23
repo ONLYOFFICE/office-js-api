@@ -1,8 +1,8 @@
-// Get an image in the base64 format from the signature form in a document.
+// Extract the image stored inside a signature form in a document.
 
-// How to get an image from the signature form.
+// How do I retrieve the picture placed in a signature form in a document?
 
-// Get the image of the signature form and display it in the document.
+// Pull the embedded image out of a signature form to reuse it in a document.
 
 let doc = Api.GetDocument();
 let signatureForm = Api.CreateSignatureForm({"key": "Signature", "tip": "Please sign here", "placeholder": "Signature"});

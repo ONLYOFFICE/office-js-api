@@ -1,8 +1,8 @@
-// Get editable property for combobox field and display it in a PDF document.
+// Check if a combobox field allows user editing in a PDF.
 
-// How to is editable for a combobox field in a PDF document?
+// How do I enable or check if a combobox field is editable in a PDF?
 
-// Is editable and display the result in a PDF document.
+// Set a field to editable and display its editable state in the PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

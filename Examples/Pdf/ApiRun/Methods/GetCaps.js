@@ -1,8 +1,8 @@
-// Find out whether a text is capitalized in a PDF document.
+// Check if text is in all caps in a PDF.
 
-// How to know whether the text letters are uppercase or not in a PDF document.
+// How do I know if text has uppercase formatting in a PDF?
 
-// Get the run and find whether it is capitalized or not in a PDF document.
+// Verify the capitalization setting of text in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

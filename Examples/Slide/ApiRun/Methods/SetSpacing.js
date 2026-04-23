@@ -1,8 +1,8 @@
-// Set the text spacing measured in twentieths of a point in a presentation.
+// Adjust character spacing in a text run in a presentation.
 
-// How to resize spacing between words in a text run in a presentation.
+// Increase or decrease spacing between characters for readability or design effect.
 
-// Create a new text run and set its spacing size (point * 20) in a presentation.
+// Create a text run and set spacing measured in twentieths of a point.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// Get the contextual spacing value of the current paragraph in a document.
+// Read the contextual spacing setting from a paragraph's formatting in a document.
 
-// Get the contextual spacing of the paragraph and display it in the document.
+// How do I check whether contextual spacing is enabled for a paragraph in a document?
 
-// How to get the contextual spacing of the paragraph properties object in a document.
+// Confirm the spacing behavior between same-styled paragraphs before adjusting layout.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// Get the numbering level of the current paragraph in a document.
+// Retrieve the numbering properties of a bulleted paragraph in a document.
 
-// Get the numbering level of the paragraph and display its class type in the document.
+// How do I read the numbering settings assigned to a paragraph in a document?
 
-// How to get the numbering level of the paragraph properties object in a document.
+// Confirm which list level is active by checking the class type of the numbering properties in a document.
 
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("bullet");

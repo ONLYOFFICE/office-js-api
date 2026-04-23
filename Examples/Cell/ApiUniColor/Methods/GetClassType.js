@@ -1,8 +1,8 @@
-// Find out the class type of a uni color object in a spreadsheet.
+// Read the class type of a color object used in a shape in a spreadsheet.
 
-// How can I get the class type of a uni color in a spreadsheet?
+// How do I identify what type of color object is applied to a shape in a spreadsheet?
 
-// Get the class type of a uni color and display it in the spreadsheet.
+// Confirm the color category by checking its type label in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const presetColor = Api.CreatePresetColor("peachPuff");

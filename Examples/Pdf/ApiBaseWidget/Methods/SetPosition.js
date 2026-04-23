@@ -1,8 +1,8 @@
-// Create a new field and set new position to its widget in a PDF document.
+// Move a widget to a new position in a PDF.
 
-// How can I set position using a widget in a PDF document?
+// How do I change the position of a widget in a PDF?
 
-// Set position for a widget in a PDF document.
+// Reposition a field widget using coordinate values in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

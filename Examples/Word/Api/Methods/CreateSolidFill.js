@@ -1,8 +1,8 @@
-// Create a solid fill in a document.
+// Fill a shape with a solid color in a document.
 
-// Create a solid fill to apply to the shape using the selected solid color as the shape background in a document.
+// How do I apply a solid color background to a shape in a document?
 
-// How to create the fill object which represents a solid fill and apply it to the shape class in a document.
+// Set a flat single-color fill on a rounded rectangle shape in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// Get a data body range in a spreadsheet.
+// Select the data body area of a pivot table in a spreadsheet.
 
-// How to get a field a data body range from a pivot table in a spreadsheet.
+// How do I highlight only the value cells inside a pivot table, excluding headers in a spreadsheet?
 
-// Create a pivot table, add data to it then get a data body range and select it in a spreadsheet.
+// Identify the inner data range of a pivot table and bring it into focus by selecting it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

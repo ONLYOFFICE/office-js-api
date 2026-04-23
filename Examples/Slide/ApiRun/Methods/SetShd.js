@@ -1,8 +1,8 @@
-// Specify the shading applied to the contents of the current text run in a presentation.
+// Apply background shading to text in a presentation.
 
-// How to add shading to the text in a presentation.
+// Add color shading to text for highlighting or visual emphasis.
 
-// Create a new text run and apply shading to it in a presentation.
+// Create a text run and apply shading with a specified color.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

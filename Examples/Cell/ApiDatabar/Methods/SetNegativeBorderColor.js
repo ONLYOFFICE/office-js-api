@@ -1,8 +1,8 @@
-// Set the negative bar border color of a data bar conditional formatting rule.
+// Assign a custom border color to the bars that represent negative values in a spreadsheet.
 
-// How to change the border color of negative value bars in a spreadsheet.
+// How do I change the outline color of negative-value bars on a data bar rule in a spreadsheet?
 
-// Set the negative bar border color of a data bar conditional formatting rule.
+// Distinguish negative bars visually by giving their borders a specific color in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

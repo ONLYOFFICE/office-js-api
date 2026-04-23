@@ -1,8 +1,8 @@
-// Set a solid fill color to a shape. Creates a rectangle and apply a red fill to it in a spreadsheet.
+// Apply a solid red fill to a rectangle shape after it is added to the sheet in a spreadsheet.
 
-// How can I set fill using a shape in a spreadsheet?
+// How do I change the background color of a shape in a spreadsheet?
 
-// Set fill for a shape in a spreadsheet.
+// Paint the interior of a shape with a chosen color to update its appearance in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

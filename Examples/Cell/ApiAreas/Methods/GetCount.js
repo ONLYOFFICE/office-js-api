@@ -1,8 +1,8 @@
-// Get a value that represents the number of objects in the collection in a spreadsheet.
+// Count how many separate ranges make up a multi-area selection in a spreadsheet.
 
-// How to get collection objects count in a spreadsheet.
+// How do I find the total number of distinct ranges within a multi-area selection in a spreadsheet?
 
-// Get the count for a range areas collection in a spreadsheet.
+// Determine the size of an areas collection to loop over each range individually in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B1:D1");

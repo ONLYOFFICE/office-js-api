@@ -1,8 +1,8 @@
-// Set a sequence of custom tab stops which will be used for any tab characters in the paragraph in a PDF document.
+// Define custom tab positions for aligning text in a PDF.
 
-// How to set the size of a spacing tabs from a paragraph properties in a PDF document.
+// How do I set where tabs align text in a PDF?
 
-// Change a tabs size property of a paragraph properties in a PDF document.
+// Configure tab stop locations and alignment styles in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

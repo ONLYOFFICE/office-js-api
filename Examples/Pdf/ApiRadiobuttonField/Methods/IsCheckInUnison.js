@@ -1,8 +1,8 @@
-// Get radiobutton field check in unison property in a PDF document.
+// Find out whether radio button options are linked in a PDF.
 
-// How do I is check in unison in a PDF document?
+// How do I check if radio button choices work together in a PDF?
 
-// Is check in unison using a radio button field object in a PDF document.
+// Verify the unified selection setting for radio buttons in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

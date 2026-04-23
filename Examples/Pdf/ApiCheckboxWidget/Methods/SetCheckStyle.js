@@ -1,8 +1,8 @@
-// Set checkbox widget check style in a PDF document.
+// Change the check symbol appearance of a checkbox widget in a PDF.
 
-// How can I set check style using a checkbox widget in a PDF document?
+// How do I customize what symbol appears inside a checked checkbox in a PDF?
 
-// Set check style for a checkbox widget in a PDF document.
+// Apply a visual style to a checkbox widget in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

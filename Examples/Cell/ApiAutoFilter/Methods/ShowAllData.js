@@ -1,8 +1,8 @@
-// Clear the active filter and show all rows in the AutoFilter range in a spreadsheet.
+// Remove the current filter conditions so that every row becomes visible in a spreadsheet.
 
-// How to temporarily show all data while keeping the filter drop-downs in a spreadsheet.
+// How do I unhide all filtered-out rows without removing the filter drop-downs in a spreadsheet?
 
-// ShowAllData clears active filter criteria but keeps the AutoFilter drop-down arrows on the header in a spreadsheet.
+// Reveal all hidden rows while leaving the filter controls on the header intact in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

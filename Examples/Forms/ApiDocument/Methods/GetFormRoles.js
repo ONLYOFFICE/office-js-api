@@ -1,8 +1,8 @@
-// Get roles manager in a form document.
+// Retrieve the list of user roles assigned to form fields in a document.
 
-// How can I get the form roles using a document in a form document?
+// How do I see what roles have access to form fields in a document?
 
-// Get the form roles for a document in a form document.
+// Access the role management system to view form permissions in a document.
 
 let doc = Api.GetDocument();
 let roles = doc.GetFormRoles();

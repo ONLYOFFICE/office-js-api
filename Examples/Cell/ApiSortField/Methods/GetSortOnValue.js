@@ -1,8 +1,8 @@
-// Get the sort-on value (color) of a sort field in a spreadsheet.
+// Retrieve the specific color assigned to a color-based sort criterion in a spreadsheet.
 
-// How to retrieve the color value set for color-based sorting in a spreadsheet.
+// How do I read back the fill color that a sort field uses to order rows in a spreadsheet?
 
-// Set a sort color, then read it back via GetSortOnValue in a spreadsheet.
+// Assign a sort color, then confirm its RGB value is stored correctly in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

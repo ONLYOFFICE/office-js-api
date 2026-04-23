@@ -1,8 +1,8 @@
-// Set the category of the presentation using the core properties in a presentation.
+// Assign a category to a presentation in a presentation.
 
-// How to set category for a core properties in a presentation?
+// How do I set a category for a presentation in a presentation?
 
-// Set category and display the result in a presentation.
+// Set a category and display it as text in a presentation.
 
 const presentation = Api.GetPresentation();
 const core = presentation.GetCore();

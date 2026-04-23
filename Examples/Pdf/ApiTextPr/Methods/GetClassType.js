@@ -1,8 +1,8 @@
-// Find out the class type of a text properties object in a PDF document.
+// Identify the object type of text formatting settings in a PDF.
 
-// How can I get the class type of a text properties in a PDF document?
+// How do I determine what kind of formatting object I'm working with in a PDF?
 
-// Get the class type of a text properties and display it in the PDF.
+// Retrieve the classification information for text properties in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

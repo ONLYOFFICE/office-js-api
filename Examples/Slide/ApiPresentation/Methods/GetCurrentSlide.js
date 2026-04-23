@@ -1,8 +1,8 @@
-// Get the current slide in a presentation.
+// Obtain the slide object currently being edited.
 
-// How to get a current slide as an object.
+// Access the active slide as an ApiSlide object.
 
-// Get current working slide and update its content.
+// Add content to the current slide.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetCurrentSlide();

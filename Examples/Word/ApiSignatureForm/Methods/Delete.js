@@ -1,8 +1,8 @@
-// Delete the signature form.
+// Remove a signature field from a document.
 
-// How do I delete in a document?
+// How do I permanently delete a signature field in a document?
 
-// Delete using a signature form object.
+// Eliminate an unwanted signature field while keeping surrounding content intact in a document.
 
 const doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// Get the mail merge template and paste its data into the document.
+// Save the mail merge template so it can be reused for each recipient in a document.
 
-// Wrap the text runs in the mail merge fields and return the mail merge template document.
+// How do I keep the original mail merge template after running a merge in a document?
 
-// Return the document content object whith represents the mail merge template document.
+// Restore the template layout between each merge run to produce separate recipient results in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

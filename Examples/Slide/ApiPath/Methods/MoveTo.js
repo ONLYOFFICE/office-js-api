@@ -1,8 +1,8 @@
-// Create a custom shape and add it to a slide. Applies custom geometry with specific fill and stroke properties.
+// Set the starting position for drawing a custom shape's outline in a presentation.
 
-// How can I move to using a geometry path in a presentation?
+// Where do I begin drawing a custom shape path in a presentation?
 
-// Move to for a geometry path in a presentation.
+// Position the drawing cursor at a specific point in a geometry path in a presentation.
 
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);

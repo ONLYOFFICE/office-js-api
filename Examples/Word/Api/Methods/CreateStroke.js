@@ -1,8 +1,8 @@
-// Create a stroke in a document.
+// Add a colored border to a shape in a document.
 
-// Create a stroke using the specified width and fill and apply it to the shape from the first paragraph in a document.
+// How do I set the border color and thickness of a shape in a document?
 
-// Specify the parameters of the shape stroke in a document.
+// Give a shape a visible outline with a custom width and color in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

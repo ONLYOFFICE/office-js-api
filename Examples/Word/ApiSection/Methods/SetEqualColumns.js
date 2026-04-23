@@ -1,8 +1,8 @@
-// Specify that all the text columns in the current section are of equal width in a document.
+// Divide a section into multiple columns of the same width in a document.
 
-// How to split the text into 3 equal columns in a document.
+// How do I arrange text into evenly sized side-by-side columns in a document?
 
-// Get the final section and set its columns in a document.
+// Lay out a section so all columns share an equal width throughout a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

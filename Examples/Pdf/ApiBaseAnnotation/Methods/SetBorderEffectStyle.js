@@ -1,8 +1,8 @@
-// Create a square annotation and set border effect style in a PDF document.
+// Apply a visual effect style to an annotation's border in a PDF.
 
-// How do I set border effect style in a PDF document?
+// What visual effect should appear on an annotation's border in a PDF?
 
-// Set border effect style using an annotation object in a PDF document.
+// Configure a border effect style on an annotation object in a PDF.
 
 let doc = Api.GetDocument();
 let squareAnnot = Api.CreateSquareAnnot([10, 10, 160, 32]);

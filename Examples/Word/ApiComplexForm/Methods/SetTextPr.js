@@ -1,8 +1,8 @@
-// Set the text properties to the current form.
+// Apply text formatting properties to a complex form in a document.
 
-// How can I set text pr using a complex form in a document?
+// How do I set the font style and size of text inside a form in a document?
 
-// Set text pr for a complex form in a document.
+// Control the visual appearance of form text by specifying bold, size, and other character styles.
 
 let doc = Api.GetDocument();
 let complexForm = Api.CreateComplexForm({"key": "Complex1"});

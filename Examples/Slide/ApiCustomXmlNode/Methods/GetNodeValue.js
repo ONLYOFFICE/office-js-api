@@ -1,8 +1,8 @@
-// Get the value of a custom XML node in a presentation.
+// Read the text content of an XML element in a presentation.
 
-// How can I get the node value using a custom XML node in a presentation?
+// How do I extract the value of an XML node in a presentation?
 
-// Get the node value for a custom XML node in a presentation.
+// Access the inner text of an XML element in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

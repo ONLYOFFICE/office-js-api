@@ -1,8 +1,8 @@
-// Title the chart's vertical axis in a PDF document.
+// Add a label to the vertical axis of a chart in a PDF.
 
-// Create a chart, set its properties and name its vertical axis title in a PDF document.
+// How do I name the vertical axis of a chart in a PDF?
 
-// Set ver axis title using a chart object in a PDF document.
+// Set the title and font size for the vertical axis in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// Set the lock value to the specified lock type of the current drawing in a document.
+// Prevent a drawing from being selected in a document.
 
-// How to set the lock value to "noSelect" of the drawing in a document.
+// How do I lock a shape so users cannot click or select it in a document?
 
-// Create a drawing and lock it in a document.
+// Apply a selection lock to a shape and confirm the restriction is active in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

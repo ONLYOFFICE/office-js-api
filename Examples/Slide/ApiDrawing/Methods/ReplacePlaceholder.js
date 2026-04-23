@@ -1,8 +1,8 @@
-// Replace the placeholder by a drawing on the slide.
+// Replace a placeholder with an image in a presentation.
 
-// How can I replace placeholder using a drawing object in a presentation?
+// How do I swap a placeholder for an actual image in a presentation?
 
-// Replace placeholder for a drawing object in a presentation.
+// Insert an image into a shape that has a placeholder in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

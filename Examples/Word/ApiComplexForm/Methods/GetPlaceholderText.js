@@ -1,8 +1,8 @@
-// Get the placeholder text of the current form in a document.
+// Read the placeholder text set on a complex form in a document.
 
-// How to get the placeholder text of a complex form.
+// How do I get the placeholder text displayed inside a form in a document?
 
-// Retrieve the placeholder text of a created complex form and display it.
+// Verify that the correct hint text appears in a form before distributing the document.
 
 let doc = Api.GetDocument();
 let complexForm = Api.CreateComplexForm();

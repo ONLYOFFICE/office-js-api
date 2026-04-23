@@ -1,8 +1,8 @@
-// Toggle the header row visibility of a formatted table.
+// Show or hide the column header row of a table in a spreadsheet.
 
-// How to show or hide the header row in a table in a spreadsheet.
+// How do I control whether a table displays its header row in a spreadsheet?
 
-// When set to false, column label cells are hidden and the first data row moves to the header position.
+// Remove the header row from view to produce a compact table layout in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

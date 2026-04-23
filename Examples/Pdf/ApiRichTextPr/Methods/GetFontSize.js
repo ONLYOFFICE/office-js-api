@@ -1,8 +1,8 @@
-// Get font size property from rich text properties object in a PDF document.
+// Check the text size in a PDF.
 
-// How to get the font size for a rich text properties in a PDF document?
+// How do I see what size the text has been set to in a PDF?
 
-// Get the font size and display the result in a PDF document.
+// Retrieve the font point size from formatted text in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);

@@ -1,8 +1,8 @@
-// Set the height to the current table row within the table in a document.
+// Set the height of a table row in a document.
 
-// Resize the height of the row in a document.
+// How do I control how tall a row appears within a table in a document?
 
-// How to set a minimum row height of the table in a document.
+// Fix a minimum or exact height for a row to ensure consistent spacing in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

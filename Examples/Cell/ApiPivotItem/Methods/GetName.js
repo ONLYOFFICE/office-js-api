@@ -1,8 +1,8 @@
-// Get a name of a pivot item in a spreadsheet.
+// Retrieve the internal name of each item in a pivot table field in a spreadsheet.
 
-// How to get a pivot item name in a spreadsheet.
+// How do I get the name assigned to a pivot field item in a spreadsheet?
 
-// Create a pivot table, add data to it then get a name of a specified pivot item in a spreadsheet.
+// Loop through pivot field items and record their names for further processing in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

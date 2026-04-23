@@ -1,8 +1,8 @@
-// Set the date when the current document was last printed in a document.
+// Store the date when a document was last printed in a document.
 
-// How can I set last printed using a core properties in a document?
+// How do I record the last print date for a document?
 
-// Set last printed for a core properties in a document.
+// Keep an audit trail of printing activity by saving the most recent print timestamp in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

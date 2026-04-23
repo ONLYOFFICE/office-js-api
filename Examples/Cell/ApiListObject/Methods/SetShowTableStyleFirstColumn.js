@@ -1,8 +1,8 @@
-// Enable the first column highlight for a formatted table.
+// Apply special formatting to the first column of a table in a spreadsheet.
 
-// How to apply special formatting to the first column of a table.
+// How do I make the first column of a table stand out visually in a spreadsheet?
 
-// When enabled, the first column receives the distinct formatting defined by the current table style.
+// Turn on the first-column highlight to give the leftmost column a distinct look based on the table style in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

@@ -1,8 +1,8 @@
-// Get the outline level of the specified paragraph via paragraph properties in a document.
+// Assign an outline level to a paragraph to control its position in the document structure in a document.
 
-// How to set outline lvl for a paragraph properties in a document?
+// How do I set the outline level of a paragraph in a document?
 
-// Set outline lvl and display the result in a document.
+// Change a paragraph's heading depth so it appears correctly in the navigation panel.
 
 const doc = Api.GetDocument();
 

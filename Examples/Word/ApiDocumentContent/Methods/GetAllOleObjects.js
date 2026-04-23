@@ -1,8 +1,8 @@
-// Get a collection of OLE objects from the document content.
+// Retrieve all OLE objects embedded in document content in a document.
 
-// Get all OLE objects added to the document.
+// How do I access every OLE object inside a content container in a document?
 
-// How to retrieve all OLE objects and display the application ID of the first one in a document.
+// Read the application ID of the first OLE object and print it as a paragraph in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

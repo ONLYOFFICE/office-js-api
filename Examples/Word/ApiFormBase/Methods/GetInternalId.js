@@ -1,8 +1,8 @@
-// Get the internal id of a form in a document.
+// Retrieve the internal identifier of a form field in a document.
 
-// How to get an internal id of a text form.
+// How do I get the internal ID of a form field in a document?
 
-// Retrieve the internal id of a created text form and display it.
+// Uniquely track a form by reading its auto-assigned internal identifier.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});

@@ -1,8 +1,8 @@
-// How to set a minor tick mark using predefined symbols in a PDF document.
+// Set minor tick marks on a vertical axis in a PDF.
 
-// Create a chart, set its properties and minor tick mark for vertical axis in a PDF document.
+// How do I display tick marks on a chart's vertical axis in a PDF?
 
-// Set vert axis minor tick mark using a chart object in a PDF document.
+// Configure the style and appearance of tick marks for the vertical axis of a chart in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

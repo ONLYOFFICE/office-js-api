@@ -1,8 +1,8 @@
-// Set the paragraph text properties in a PDF document.
+// Apply text formatting properties to a paragraph in a PDF.
 
-// How to set text pr for a paragraph in a PDF document?
+// How do I style paragraph text with font settings in a PDF?
 
-// Set text pr and display the result in a PDF document.
+// Modify appearance of text through property settings in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

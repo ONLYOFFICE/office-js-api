@@ -1,8 +1,8 @@
-// Add a hyperlink to the run in a document.
+// Turn a text run into a clickable link pointing to a web address in a document.
 
-// How to add a link to the text in a document.
+// How do I make a piece of text open a website when clicked in a document?
 
-// Insert a hyperlink to the run indicating its link and title in a document.
+// Attach a URL and a tooltip title to a run of text so readers can follow it in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

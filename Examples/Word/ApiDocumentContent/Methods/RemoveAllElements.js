@@ -1,8 +1,8 @@
-// Remove all the elements from the current document or from the current document content.
+// Clear all elements from a shape's content area in a document.
 
-// Clear entire document.
+// How do I delete every element inside a shape's content block in a document?
 
-// Remove each document element.
+// Reset a shape's interior to an empty state before inserting new content.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

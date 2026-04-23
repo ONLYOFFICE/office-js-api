@@ -1,8 +1,8 @@
-// Create a stamp annotation and add it to the page.
+// Add an approval stamp annotation to a PDF page.
 
-// How can I create the stamp annot in a PDF document?
+// How do I mark a document with a stamp in a PDF?
 
-// Create the stamp annot in a PDF document.
+// Place a preset stamp at specified coordinates in a PDF.
 
 let doc = Api.GetDocument();
 let stampAnnot = Api.CreateStampAnnot([40, 40, 100, 100], 'SB_Approved');

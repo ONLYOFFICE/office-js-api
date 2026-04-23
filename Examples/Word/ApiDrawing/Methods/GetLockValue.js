@@ -1,8 +1,8 @@
-// Get the lock value for the specified lock type of the drawing in a document.
+// Read the lock value of a drawing to check whether selection is restricted in a document.
 
-// How to set lock value of the shape in a document.
+// How do I find out if a drawing is locked against selection in a document?
 
-// Get a boolean that shows that drawing can be selected or not in a document.
+// Apply a no-select lock to a shape and confirm the setting is active in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

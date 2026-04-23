@@ -1,8 +1,8 @@
-// Set the font size to the characters of the paragraph in a PDF document.
+// Adjust the text size of a paragraph in a PDF.
 
-// How to set font size for a paragraph in a PDF document?
+// How do I change the font size in a paragraph in a PDF?
 
-// Set font size and display the result in a PDF document.
+// Enlarge or shrink text in a paragraph in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

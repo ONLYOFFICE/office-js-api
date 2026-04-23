@@ -1,8 +1,8 @@
-// Create two paragraphs. One with vertical alignment "subscript" and another one with vertical alignment "superscript" in a document.
+// Position paragraph text above or below the normal line of writing in a document.
 
-// How to change a vertical alignment of a text run in a document.
+// How do I raise or lower the text of a paragraph relative to the baseline in a document?
 
-// Create a new text run and make it subscript, baseline or superscript in a document.
+// Distinguish scientific notation or footnote markers by shifting paragraph text vertically in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

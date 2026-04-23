@@ -1,8 +1,8 @@
-// Change the width of the columns or the height of the rows in the range to achieve the best fit in a spreadsheet.
+// Resize columns or rows in a range so that all content fits without being cut off in a spreadsheet.
 
-// How to set an autofit for width or height for a range in a spreadsheet.
+// How do I automatically adjust column width or row height to fit the text in a spreadsheet?
 
-// Get a range and apply autofit property in a spreadsheet.
+// Prevent truncated text by letting the spreadsheet size each column and row to match its content in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");

@@ -1,8 +1,8 @@
-// Get a number of cells in the row in a document.
+// Count how many cells a table row contains in a document.
 
-// How to count the cells of the row.
+// How do I find out the total number of cells in a given row in a document?
 
-// Display the number of row cells.
+// Read the cell count of a row to understand the column structure of a table in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

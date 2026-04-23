@@ -1,8 +1,8 @@
-// Remove all the elements from the current document or from the current document content.
+// Clear every paragraph from a shape's text area in a spreadsheet.
 
-// How to clear a document.
+// How do I wipe all text content out of a shape at once in a spreadsheet?
 
-// Delete all elements from a document.
+// Reset a shape to empty before writing fresh content into it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

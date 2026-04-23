@@ -1,8 +1,8 @@
-// Set the vertical alignment to the shape content where a paragraph or text runs can be inserted in a presentation.
+// Align text vertically within a shape to the bottom.
 
-// How to set vertical alignment of the shape content in a presentation.
+// Clear all default objects and create a custom shape with specific geometry.
 
-// Adjust vertical alignment of the text inside the shape in a presentation.
+// Add text to the shape with bottom vertical alignment to position content at the lower edge.
 
 const presentation = Api.GetPresentation();
 presentation.SetSizes(254 * 36000, 190 * 36000);

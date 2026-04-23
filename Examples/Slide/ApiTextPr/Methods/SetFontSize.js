@@ -1,8 +1,8 @@
-// Set the font size to the characters of the text run in a presentation.
+// Adjust the size of text characters in a presentation.
 
-// How to change a text font size in a presentation.
+// What text sizes are available in a presentation?
 
-// Get the text properties of the run and set its font size in a presentation.
+// Specify the font size in points for the text run in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// Move the cursor to the start of the specified page in the document.
+// Move the cursor to a specific page in a document.
 
-// How to navigate to a specific page in the document.
+// How do I navigate to a particular page number in a document?
 
-// Move the cursor to the second page of the document.
+// Jump the editing position to a target page so that typed text lands on that page.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

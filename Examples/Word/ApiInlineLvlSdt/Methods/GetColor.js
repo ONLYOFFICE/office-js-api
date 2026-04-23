@@ -1,8 +1,8 @@
-// Get the tag color of the container in a document.
+// Read the tag color of an inline content control in a document.
 
-// Create an inline content control, set the color to it, and return its color in a document.
+// How do I get the color assigned to an inline content control in a document?
 
-// How to return the color of the inline content control object in a document.
+// Compare the tag colors of multiple content controls to audit their visual coding in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

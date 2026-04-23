@@ -1,8 +1,8 @@
-// Set data to forms in a document.
+// Populate form fields with data values using their keys in a document.
 
-// How to set forms data in the document.
+// How do I fill in form fields programmatically in a document?
 
-// Set forms answers using their keys.
+// Pre-fill checkboxes and text fields by matching each field's key to a corresponding value.
 
 let doc = Api.GetDocument();
 let paragraph1 = doc.GetElement(0);

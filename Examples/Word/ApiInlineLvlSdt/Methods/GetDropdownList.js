@@ -1,8 +1,8 @@
-// Retrieve the drop-down list from a content control in a document.
+// Retrieve the dropdown list object from an inline content control in a document.
 
-// How do I get the dropdown list in a document?
+// How do I access the dropdown list attached to a content control in a document?
 
-// Get the dropdown list using an inline content control object in a document.
+// Inspect the type of a dropdown list tied to an inline content control in a document.
 
 let doc = Api.GetDocument();
 let cc = Api.CreateDropDownListContentControl([{display: 'one', value: '1'}, {display: 'two', value: '2'}], 1);

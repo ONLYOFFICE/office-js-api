@@ -1,8 +1,8 @@
-// Get the internal id of the current form in a document.
+// Obtain the unique internal identifier of a checkbox form in a document.
 
-// How to get an internal id of a checkbox form.
+// How do I get the internal identifier of a checkbox form in a document?
 
-// Retrieve the internal id of a created checkbox form and display it.
+// Track a specific checkbox across operations by reading its system-assigned identifier in a document.
 
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});

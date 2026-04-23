@@ -1,8 +1,8 @@
-// Get the internal ID of a table cell in a document.
+// Read the unique identifier assigned to each table cell in a document.
 
-// How do I get the internal id in a document?
+// How do I find the unique identifier of a table cell in a document?
 
-// Get the internal id using a table cell object.
+// Distinguish individual table cells by their identifiers in a document.
 
 const doc = Api.GetDocument();
 const table = Api.CreateTable(3, 3);

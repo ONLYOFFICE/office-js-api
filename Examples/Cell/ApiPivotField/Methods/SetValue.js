@@ -1,8 +1,8 @@
-// Set value of a pivot field in a spreadsheet.
+// Assign a custom value to a pivot table field in a spreadsheet.
 
-// How to change a pivot field value in a spreadsheet.
+// How do I update the value stored in a pivot field to a different setting in a spreadsheet?
 
-// Create a pivot table, add data to it then set value of a specified pivot in a spreadsheet.
+// Override the default field value to tailor how data is represented in the pivot table in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

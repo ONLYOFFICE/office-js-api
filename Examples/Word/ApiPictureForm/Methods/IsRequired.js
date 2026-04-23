@@ -1,8 +1,8 @@
-// Check if the current form is required.
+// Determine whether filling a picture form is mandatory in a document.
 
-// How to find out whether a picture form is required or not.
+// How do I check if a picture form must be completed before the document is submitted in a document?
 
-// Find out whether a picture form is required.
+// Confirm that a picture form is marked as obligatory so it cannot be left empty in a document.
 
 let doc = Api.GetDocument();
 let pictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false, "shiftX": 50, "shiftY": 50});

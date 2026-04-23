@@ -1,8 +1,8 @@
-// Set a sequence of custom tab stops which will be used for any tab characters in the paragraph in a document.
+// Define custom tab stop positions for a paragraph in a document.
 
-// Add tabs to the paragraph in a document.
+// How do I set specific horizontal positions where tab characters jump to in a paragraph in a document?
 
-// Create a text in a paragraph and add tab stops to it in a document.
+// Align text at precise column positions by placing tab stops in a paragraph in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

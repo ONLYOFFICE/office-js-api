@@ -1,8 +1,8 @@
-// Get the format of a text field in a document.
+// Read the input format applied to a text field in a document.
 
-// Create a text form, set a mask format, then retrieve and display the format type.
+// How do I check what format rule is set on a text entry area in a document?
 
-// How to get the format of the text form object.
+// Confirm the mask or pattern controlling user input in a text field in a document.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({ key: "Code", placeholder: "Enter code" });

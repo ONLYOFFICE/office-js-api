@@ -1,8 +1,8 @@
-// Return a number from 1 to 7 identifying the day of the week of the specified date in a spreadsheet.
+// Get the week number of a date within the year in a spreadsheet.
 
-// How to return a weekday in a spreadsheet.
+// How do I find which week of the year a specific date belongs to in a spreadsheet?
 
-// Use a function to get a weekday using numbers in a spreadsheet.
+// Calculate the numeric week position for any date in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

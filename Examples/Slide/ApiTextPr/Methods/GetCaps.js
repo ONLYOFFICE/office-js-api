@@ -1,8 +1,8 @@
-// Find out whether a text is capitalized in a presentation.
+// Retrieve the capitalization property from text run properties.
 
-// How to know whether the text letters are uppercase or not in a presentation.
+// Create a shape with a text run and apply capitalization formatting.
 
-// Get the text properties of the run and find whether it is capitalized or not in a presentation.
+// Get and display whether the text is capitalized.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

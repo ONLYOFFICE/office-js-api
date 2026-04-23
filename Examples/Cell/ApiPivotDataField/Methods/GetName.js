@@ -1,8 +1,8 @@
-// Get a name of a data field in a spreadsheet.
+// Read the name assigned to a pivot table data field in a spreadsheet.
 
-// How to get a table element name in a spreadsheet.
+// How do I retrieve the name of a data field from a pivot table in a spreadsheet?
 
-// Create a pivot table, add data to it then display a custom data field's name in a spreadsheet.
+// Look up what a data field is called so it can be referenced or displayed in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

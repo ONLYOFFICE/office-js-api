@@ -1,8 +1,8 @@
-// Get the visibility status of pivot items in a spreadsheet.
+// Check whether each pivot field item is currently visible or hidden in a spreadsheet.
 
-// How to check which pivot items are currently visible or hidden in a spreadsheet.
+// How do I find out which items in a pivot field are shown and which are hidden in a spreadsheet?
 
-// Create a pivot table, add data to it then get the visibility of specified pivot items in a spreadsheet.
+// Audit the visible state of every pivot item and report its status alongside its name in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

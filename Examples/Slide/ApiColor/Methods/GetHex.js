@@ -1,8 +1,8 @@
-// Get the HEX string of a shape fill color in a presentation.
+// Extract the hexadecimal color value from a color object.
 
-// How can I get the hex using a color in a presentation?
+// Convert color representation to hex string format for display.
 
-// Get the hex for a color in a presentation.
+// Get the hex value of a color and display it within a shape text element.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

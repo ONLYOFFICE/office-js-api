@@ -1,8 +1,8 @@
-// Find out the class type of a RGB color object in a spreadsheet.
+// Determine what kind of color object an RGB color is in a spreadsheet.
 
-// How can I get the class type of a RGB color in a spreadsheet?
+// How do I check the category of an RGB color object in a spreadsheet?
 
-// Get the class type of a RGB color and display it in the spreadsheet.
+// Distinguish an RGB color from other color types by reading its object category in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const rgbColor = Api.CreateRGBColor(255, 213, 191);

@@ -1,8 +1,8 @@
-// Return the square root of (number * pi) in a spreadsheet.
+// Calculate the square root of (number * pi).
 
-// How to calculate the square root of a number multiplied by aa constant Pi in a spreadsheet.
+// The SQRTPI function returns the square root of the product of a number and pi (3.14159...).
 
-// Use a function to get the square root of (number * pi) in a spreadsheet.
+// Get the square root of (5 * pi) and place it in cell A1.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

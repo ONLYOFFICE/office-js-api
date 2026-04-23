@@ -1,8 +1,8 @@
-// Change the color of role in a form document.
+// Assign a color to a role in a document.
 
-// How to set role color for a form roles?
+// How do I apply a specific color to identify a role in a document?
 
-// Set role color and display the result in a form document.
+// Change the color value for a role to customize its appearance in a document.
 
 let doc = Api.GetDocument();
 let roles = doc.GetFormRoles();

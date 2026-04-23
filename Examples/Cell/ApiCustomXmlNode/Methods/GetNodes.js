@@ -1,8 +1,8 @@
-// Get child nodes of a custom XML node using XPath in a spreadsheet.
+// Find and collect matching child nodes within an XML structure in a spreadsheet.
 
-// How to retrieve child nodes from custom XML node elements using XPath in a spreadsheet.
+// How do I search for specific nodes inside an XML tree in a spreadsheet?
 
-// Get book nodes from library in a spreadsheet.
+// Gather a set of related XML nodes by their shared path in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let xmlManager = worksheet.GetCustomXmlParts();

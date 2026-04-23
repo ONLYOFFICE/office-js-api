@@ -1,8 +1,8 @@
-// How to get a parent page of a page shape.
+// Find the page that contains a shape in a PDF.
 
-// Get a parent page knowing a shape.
+// How do I get the page number of a shape I'm viewing in a PDF?
 
-// Use drawing object to get the parent page.
+// Locate which page an object belongs to in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// Get all cells of a table as a two-dimensional array in a document.
+// Retrieve every cell from a table as a grid in a document.
 
-// Creates a 3×3 table and retrieves all cells via the Cells property indexed by [row][cell].
+// How do I access all cells of a table by row and column in a document?
 
-// Each cell is accessed using row and column indices to add text content.
+// Iterate over every row and column to read or fill each cell in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

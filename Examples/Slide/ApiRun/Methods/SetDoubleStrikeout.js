@@ -1,8 +1,8 @@
-// Specify that the contents of the current run are displayed with two horizontal lines through each character displayed on the line in a presentation.
+// Strike through text with two horizontal lines in a presentation.
 
-// How to strike out a text with two lines in a presentation.
+// What is double strikeout formatting in a presentation?
 
-// Create a new text run and set double strikeout to it in a presentation.
+// Apply double strikeout formatting to text in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// Get an array with all the OLE objects from the slide master.
+// Retrieve all OLE objects from a slide master in a presentation.
 
-// How to get all OLE objects from the master of presentation.
+// How do I find all OLE objects on a slide master in a presentation?
 
-// Get all OLE objects from the presentation slide master as an array.
+// List every embedded object in a slide master in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

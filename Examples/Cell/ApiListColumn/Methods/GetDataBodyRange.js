@@ -1,8 +1,8 @@
-// Get the data body range of a table column, excluding the header and totals rows in a spreadsheet.
+// Retrieve the data cells of a table column, excluding the header and totals rows in a spreadsheet.
 
-// How to retrieve only the data cells of a specific column.
+// How do I access only the data portion of a table column without the header in a spreadsheet?
 
-// Get the data body range of a column, excluding the header and totals rows in a spreadsheet.
+// Isolate the value-bearing rows of a column to read or process them independently from the header.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

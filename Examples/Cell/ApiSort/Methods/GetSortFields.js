@@ -1,8 +1,8 @@
-// Get the sort fields collection from a table's sort object in a spreadsheet.
+// Retrieve the list of sort criteria defined for a formatted table in a spreadsheet.
 
-// How to access the sort fields collection collection of a formatted table.
+// How do I access all the columns and rules that control how a table is sorted in a spreadsheet?
 
-// The SortFields collection holds all sort criteria that will be applied when Sort.Apply() is called in a spreadsheet.
+// Read the full set of sort fields to inspect or modify ordering rules before sorting in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

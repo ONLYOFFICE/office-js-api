@@ -1,8 +1,8 @@
-// Specify the alignment which will be applied to the contents of the run in relation to the default appearance of the run text in a PDF document.
+// Position text above or below the baseline in a PDF.
 
-// How to set a vertical alignment of the text in a PDF document.
+// How do I create superscript or subscript text in a PDF?
 
-// Get the text properties of the run and make it superscript, subscript, etc in a PDF document.
+// Shift characters vertically relative to the text line in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

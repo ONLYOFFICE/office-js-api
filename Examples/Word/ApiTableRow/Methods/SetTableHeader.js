@@ -1,8 +1,8 @@
-// Mark the first row of a table as a repeating header displayed at the top of every page.
+// Mark a table row to repeat at the top of every page when a table spans multiple pages in a document.
 
-// Create a 90-row styled table and designate the first row as the header.
+// How do I designate a row as a repeating header so it appears on every page in a document?
 
-// Apply the header designation to the first row and fill its three cells with content.
+// Pin a row as the table header so readers always see column labels regardless of page breaks in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

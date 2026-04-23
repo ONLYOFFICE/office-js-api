@@ -1,8 +1,8 @@
-// Get currently active chart from the workbook in a spreadsheet.
+// Read the title of whichever chart is currently selected in a spreadsheet.
 
-// How can I get active chart using a workbook in a spreadsheet?
+// How do I find out which chart is active right now in a spreadsheet?
 
-// Get active chart for a workbook in a spreadsheet.
+// Confirm the selected chart by retrieving its title and writing it to a cell in a spreadsheet.
 
 const workbook = Api.GetActiveWorkbook();
 const worksheet = workbook.GetActiveSheet();

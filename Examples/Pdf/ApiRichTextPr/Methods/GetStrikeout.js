@@ -1,8 +1,8 @@
-// Get strikeout property from rich text properties object in a PDF document.
+// Check if text has a strikethrough in a PDF.
 
-// How do I get the strikeout in a PDF document?
+// How do I find out if text has a line through it in a PDF?
 
-// Get the strikeout using a rich text properties object in a PDF document.
+// Retrieve the strikeout state of formatted text in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);

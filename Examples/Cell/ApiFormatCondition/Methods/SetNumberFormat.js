@@ -1,8 +1,8 @@
-// Set the number format for a conditional formatting rule.
+// Control how numbers are displayed when a formatting rule is triggered in a spreadsheet.
 
-// How to apply number formatting to conditional formatting rules.
+// How do I apply a custom number display pattern to a conditional formatting rule in a spreadsheet?
 
-// Set conditional formatting rule number format.
+// Ensure highlighted cells show values with a specific currency or decimal style in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

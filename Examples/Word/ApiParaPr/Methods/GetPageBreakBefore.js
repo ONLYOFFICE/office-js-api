@@ -1,8 +1,8 @@
-// Get the page break before value of the current paragraph in a document.
+// Read whether a paragraph is set to start on a new page in a document.
 
-// Get the page break before value of the paragraph and display it in the document.
+// How do I check if a page break is applied before a paragraph in a document?
 
-// How to get the page break before value of the paragraph properties object.
+// Confirm that a paragraph's page break setting is active by reading its value and displaying it in a document.
 
 let doc = Api.GetDocument();
 doc.Push(Api.CreateParagraph());

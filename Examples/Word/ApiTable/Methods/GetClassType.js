@@ -1,8 +1,8 @@
-// Find out the class type of a table object in a document.
+// Identify the object type of a table in a document.
 
-// How can I get the class type of a table in a document?
+// How do I check what kind of object a table is in a document?
 
-// Get the class type of a table and display it in the document.
+// Confirm the category of a table element and display the result in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

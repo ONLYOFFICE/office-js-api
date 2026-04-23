@@ -1,8 +1,8 @@
-// Get table object of a pivot field in a spreadsheet.
+// Access the parent pivot table from one of its fields in a spreadsheet.
 
-// How to get a pivot field's table in a spreadsheet.
+// How do I get back to the whole pivot table when I only have a pivot field in a spreadsheet?
 
-// Create a pivot table, add data to it then get a table object of a specified pivot field and add data to it in a spreadsheet.
+// Use a pivot field as an entry point to modify the pivot table it belongs to in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

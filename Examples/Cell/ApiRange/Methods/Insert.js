@@ -1,8 +1,8 @@
-// Insert a cell or a range of cells into the worksheet or macro sheet and shifts other cells away to make space.
+// Add a new cell or range and push existing cells aside to make room in a spreadsheet.
 
-// How to insert a range or a cell into a worksheet.
+// How do I insert a blank cell into a filled area and shift the surrounding data in a spreadsheet?
 
-// Insert a range or a cell into a worksheet specifying its shift direction.
+// Make space for new data by inserting a cell and choosing which direction the neighbors move in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B4").SetValue("1");

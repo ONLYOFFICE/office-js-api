@@ -1,8 +1,8 @@
-// Set the text spacing measured in twentieths of a point in a document.
+// Set the amount of space between characters in a document.
 
-// How to set the text spacing size in a document.
+// How do I increase or decrease the gap between letters in a document?
 
-// Create a text run object, update its spacing in a document.
+// Control how tightly or loosely characters are spaced along a line in a document.
 
 let doc = Api.GetDocument();
 let textPr = doc.GetDefaultTextPr();

@@ -1,8 +1,8 @@
-// Specify that any lowercase characters in the current text run are formatted for display only as their capital letter character equivalents.
+// Display all letters in a text run as capitals without changing the underlying text in a document.
 
-// How to make a text capitalized in a document.
+// How do I make a run appear in all capital letters in a document?
 
-// Get the text properties of the run and set its letters uppercase in a document.
+// Render lowercase characters as uppercase for visual effect in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

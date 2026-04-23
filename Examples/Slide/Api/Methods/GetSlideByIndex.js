@@ -1,6 +1,6 @@
 // Get a slide by its position using the Api global object in a presentation.
 
-// How to find a slide from the presentation using its index via the Api object.
+// Find a slide from the presentation using its index via the Api object.
 
 // Get a slide by its index directly from the Api object.
 

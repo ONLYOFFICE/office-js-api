@@ -1,8 +1,8 @@
-// Get the placeholder text of the current form in a document.
+// Read the placeholder text shown inside a picture form in a document.
 
-// How to get the placeholder text of a picture form.
+// How do I find out what placeholder text a picture form displays in a document?
 
-// Retrieve the placeholder text of a created picture form and display it.
+// Confirm the hint label set on a picture form in a document.
 
 let doc = Api.GetDocument();
 let pictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false});

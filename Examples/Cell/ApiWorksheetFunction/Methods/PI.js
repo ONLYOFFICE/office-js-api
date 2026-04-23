@@ -1,8 +1,8 @@
-// Return the mathematical constant pi, equal to 3.14159265358979, accurate to 15 digits in a spreadsheet.
+// Insert the mathematical constant pi into a cell in a spreadsheet.
 
-// How to return the mathematical constant pi in a spreadsheet.
+// How do I get the value of pi for mathematical calculations in a spreadsheet?
 
-// Use a function to return a constant pi in a spreadsheet.
+// Use pi to calculate circles, circumference, and other geometric formulas in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

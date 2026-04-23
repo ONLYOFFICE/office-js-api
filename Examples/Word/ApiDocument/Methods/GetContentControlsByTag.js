@@ -1,8 +1,8 @@
-// Get a list of all content controls in the document with the specified tag name.
+// Find all content controls that share a given tag in a document.
 
-// Retrieve each content control with the specified tag in a document.
+// How do I select content controls by their tag name in a document?
 
-// Get the first content control with the tag and set its alias in a document.
+// Target a specific group of controls using a shared tag to update their properties in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

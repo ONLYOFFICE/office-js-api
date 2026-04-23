@@ -1,8 +1,8 @@
-// Set the placeholder text to the current form.
+// Set placeholder text on a checkbox form in a document.
 
-// How to add a text as a placeholder to the form.
+// How do I add hint text that appears inside a form field in a document?
 
-// Set a placeholder text to the form.
+// Give each form field a descriptive placeholder so users understand what to fill in a document.
 
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": false});

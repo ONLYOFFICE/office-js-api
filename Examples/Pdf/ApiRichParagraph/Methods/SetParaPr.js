@@ -1,8 +1,8 @@
-// Set rich paragraph properties to rich paragraph in a PDF document.
+// Apply formatting settings to a paragraph in a PDF.
 
-// How do I set para pr in a PDF document?
+// How do I configure paragraph appearance in a PDF?
 
-// Set para pr using a rich paragraph object in a PDF document.
+// Assign custom formatting rules to a paragraph in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);

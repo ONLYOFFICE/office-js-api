@@ -1,8 +1,8 @@
-// Get the form tag in a document.
+// Read the tag attached to a signature form in a document.
 
-// How to get the tag of a signature form.
+// How do I find out what tag is assigned to a signature form in a document?
 
-// Retrieve the tag of a created signature form and display it.
+// Confirm the custom label stored on a signature form in a document.
 
 let doc = Api.GetDocument();
 let signatureForm = Api.CreateSignatureForm({"tag": "SignatureField", "key": "Signature", "tip": "Please sign here", "placeholder": "Signature"});

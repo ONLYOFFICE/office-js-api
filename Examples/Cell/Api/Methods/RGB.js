@@ -1,8 +1,8 @@
-// Create a color in RGB format and use it as a shape fill in a spreadsheet.
+// Create a color from red, green, and blue values and apply it as a shape fill in a spreadsheet.
 
-// How can I r g b in a spreadsheet?
+// How do I define a custom color using RGB components in a spreadsheet?
 
-// R g b and display the result in a spreadsheet.
+// Fill a shape with a color built from specific red, green, and blue intensities in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const color = Api.RGB(186, 218, 85);

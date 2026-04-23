@@ -1,8 +1,8 @@
-// Get all the drawing objects from the current presentation in a presentation.
+// Collect all images, shapes, charts, and embedded objects in a presentation.
 
-// How to get all drawings for a presentation?
+// How do I find every drawing element across the entire presentation in a presentation?
 
-// Get all drawings and display the result in a presentation.
+// Count and display all drawings from slides and masters in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

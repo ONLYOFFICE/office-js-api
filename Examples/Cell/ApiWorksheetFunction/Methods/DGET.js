@@ -1,8 +1,8 @@
-// Extract from a database a single record that matches the conditions you specify in a spreadsheet.
+// Extract a single record from a database that matches specified conditions.
 
-// How to get a value from a database range that satisfies a condition in a spreadsheet.
+// Retrieve values based on criteria applied to database columns.
 
-// Use function to get a record after applying condition in a spreadsheet.
+// Use the DGET function to fetch records meeting multiple conditions from a range.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

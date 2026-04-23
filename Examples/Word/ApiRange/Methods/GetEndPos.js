@@ -1,8 +1,8 @@
-// Get the end position of a given range object in a document.
+// Determine where a selected region of text finishes within the content in a document.
 
-// How to get the last index of the range position in a document.
+// How do I find the last character position of a text selection in a document?
 
-// Get a range of the paragraph and display its the end position in a document.
+// Pinpoint the final boundary of a highlighted span to measure its extent in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// Get the AutoFilter object of a formatted table.
+// Access the auto filter attached to a table in a spreadsheet.
 
-// How to retrieve the auto filter object associated with a table in a spreadsheet.
+// How do I check whether a table has an auto filter in a spreadsheet?
 
-// Return null if the table currently has no AutoFilter; use SetShowAutoFilter(true) to add one in a spreadsheet.
+// Confirm that a table's filter control is present before applying filter settings in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

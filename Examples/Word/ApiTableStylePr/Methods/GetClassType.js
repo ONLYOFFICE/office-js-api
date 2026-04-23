@@ -1,8 +1,8 @@
-// Check the class type returned by a table style properties in a document.
+// Read the class type of a table style properties object in a document.
 
-// How do I check what type a table style properties object is in a document?
+// How do I find out what kind of object represents conditional table style settings in a document?
 
-// Retrieve and output the class type string for a table style properties in a document.
+// Identify the type label of a table style properties object in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

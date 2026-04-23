@@ -1,8 +1,8 @@
-// Find out whether a text has a double strikethrough in a PDF document.
+// Check if text has double strikethrough in a PDF.
 
-// How to know whether a text is crossed with two horizontal lines in a PDF document.
+// How do I determine if text is crossed out with two lines in a PDF?
 
-// Get the run and find whether it has a double strikethrough in a PDF document.
+// Verify the double strikethrough setting of text in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

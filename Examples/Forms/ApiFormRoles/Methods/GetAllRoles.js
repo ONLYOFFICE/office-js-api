@@ -1,8 +1,8 @@
-// Get a list of all roles in the filling order in a form document.
+// View all user roles defined for your form in a document.
 
-// How can I get all roles using a form roles in a form document?
+// How do I see every role that can access form fields in a document?
 
-// Get all roles for a form roles in a form document.
+// List all the role names available for controlling form permissions in a document.
 
 let doc = Api.GetDocument();
 let roles = doc.GetFormRoles();

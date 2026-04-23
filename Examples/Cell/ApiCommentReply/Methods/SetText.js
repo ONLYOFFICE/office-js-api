@@ -1,8 +1,8 @@
-// Set the comment reply text in a spreadsheet.
+// Update the written message of a comment reply in a spreadsheet.
 
-// How to change a reply text in a spreadsheet.
+// How do I edit the text of an existing reply to a comment in a spreadsheet?
 
-// Replace a reply text with a new text in a spreadsheet.
+// Overwrite the current reply content with new wording in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

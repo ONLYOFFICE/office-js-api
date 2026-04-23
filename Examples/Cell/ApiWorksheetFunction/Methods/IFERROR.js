@@ -1,8 +1,8 @@
-// Check if there is an error in the formula in the first argument. The function returns the result of the formula if there is no error, or the value specified in the second argument if there is one.
+// Display a custom value when a formula produces an error in a spreadsheet.
 
-// How to check a formula.
+// How do I handle errors in calculations and show a default value in a spreadsheet?
 
-// Use a function to get a result from a formula if an error occurs show specified error message.
+// Catch formula errors and replace them with a specified message or value in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

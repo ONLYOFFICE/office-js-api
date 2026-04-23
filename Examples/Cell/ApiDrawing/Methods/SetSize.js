@@ -1,8 +1,8 @@
-// Set the size of the shape bounding box in a spreadsheet.
+// Resize a drawing to exact dimensions by specifying its width and height in a spreadsheet.
 
-// How to change the size of the drawing in a spreadsheet.
+// How do I make a drawing larger or smaller in a spreadsheet?
 
-// Resize a drawing by setting its width and height in a spreadsheet.
+// Scale a shape to fit a particular area by defining its bounding box dimensions in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

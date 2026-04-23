@@ -1,8 +1,8 @@
-// Get the keep next value of the current paragraph in a document.
+// Read whether a paragraph is set to stay on the same page as the following paragraph in a document.
 
-// Get the keep next value of the paragraph and display it in the document.
+// How do I check if a paragraph is configured to stay with the next paragraph in a document?
 
-// How to get the keep next value of the paragraph properties object in a document.
+// Verify the keep-with-next setting before adjusting page break behavior around headings or captions.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

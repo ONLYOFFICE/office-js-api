@@ -1,8 +1,8 @@
-// Get the right margin of the sheet in a spreadsheet.
+// Check the right margin size of your page layout in a spreadsheet.
 
-// How to get margin of the sheet's right side in a spreadsheet.
+// Measure the empty space on the right edge of a printed page in a spreadsheet?
 
-// Get the size of the right margin of the sheet in a spreadsheet.
+// Show margin values in cells to understand your document boundaries in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let rightMargin = worksheet.GetRightMargin();

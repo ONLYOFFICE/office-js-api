@@ -1,8 +1,8 @@
-// Get the direction setting from a data bar conditional formatting rule.
+// Read the growth direction of data bars in a spreadsheet.
 
-// How to check the reading order direction of a data bar in a spreadsheet.
+// How do I find out which direction data bars grow toward in a spreadsheet?
 
-// Get the direction setting of a data bar conditional formatting rule.
+// Confirm whether data bars expand left-to-right or right-to-left in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

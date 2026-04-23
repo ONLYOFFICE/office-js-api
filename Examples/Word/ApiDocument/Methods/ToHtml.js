@@ -1,8 +1,8 @@
-// Convert a document to HTML.
+// Convert the document content to an HTML string in a document.
 
-// How to get an HTML from the document content.
+// How do I export a document with headings and text as HTML in a document?
 
-// Convert the document indicating "html" parameter.
+// Produce an HTML representation of the document so the markup can be embedded in a web page or stored externally.
 
 let doc = Api.GetDocument();
 let paragraph1 = doc.GetElement(0);

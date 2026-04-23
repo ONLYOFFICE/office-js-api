@@ -1,8 +1,8 @@
-// Set the bold property to the text characters in the current cell or cell range.
+// Make text bold in a cell or cell range in a spreadsheet.
 
-// How to change the font style properties of a range making it bold in a spreadsheet.
+// How do I apply bold formatting to a group of cells in a spreadsheet?
 
-// Make characters of the cell range object bold.
+// Emphasize cell content by switching its weight to bold in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A2").SetValue("Bold text");

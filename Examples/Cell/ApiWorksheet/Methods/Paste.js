@@ -1,8 +1,8 @@
-// Paste date from clipboard in a spreadsheet.
+// Paste clipboard contents onto the active sheet in a spreadsheet.
 
-// How to paste a copied or cut data from the clipboard in a spreadsheet.
+// How do I paste copied or cut data from the clipboard in a spreadsheet?
 
-// Paste to the worksheet using the worksheet API in a spreadsheet.
+// Insert clipboard data into the current worksheet in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.Paste();

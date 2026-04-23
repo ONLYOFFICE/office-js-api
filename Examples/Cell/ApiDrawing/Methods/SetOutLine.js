@@ -1,8 +1,8 @@
-// Set the outline properties to the specified graphic object in a spreadsheet.
+// Apply a visible border around a drawing to define its edges in a spreadsheet.
 
-// How to outline the drawing with the stroke in a spreadsheet.
+// How do I add a colored outline to a shape in a spreadsheet?
 
-// Set the borders of the shape in a spreadsheet.
+// Style a drawing by giving it a solid border with a chosen color and thickness in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));

@@ -1,8 +1,8 @@
-// Set color scale rule to lowest priority in a spreadsheet.
+// Move a color gradient rule to the bottom of the evaluation order in a spreadsheet.
 
-// How to make color scale formatting evaluate last among multiple rules.
+// How do I make a color scale rule yield to all other formatting rules in a spreadsheet?
 
-// Set color scale to last priority in a spreadsheet.
+// Demote a color gradient condition so it is always evaluated after every other competing rule in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

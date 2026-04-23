@@ -1,8 +1,8 @@
-// Get an array with all the shape objects from the slide layout in a presentation.
+// Get all shape objects from a slide layout as an array.
 
-// How to get all shapes from the layout of presentation.
+// Shapes in layouts can be retrieved and their content modified.
 
-// Get all shapes from the presentation as an array.
+// Add text content to the first shape in the layout.
 
 const presentation = Api.GetPresentation();
 const master = presentation.GetMaster(0);

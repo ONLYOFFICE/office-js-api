@@ -1,8 +1,8 @@
-// Specify that the contents of the run are displayed with a single horizontal line through the center of the line in a spreadsheet.
+// Draw a horizontal line through the middle of text in a shape in a spreadsheet.
 
-// How to strike out a text with one line in a spreadsheet.
+// How do I mark text as deleted or crossed out in a spreadsheet?
 
-// Cross out a text with one line in a spreadsheet.
+// Visually cancel text by running a line through it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

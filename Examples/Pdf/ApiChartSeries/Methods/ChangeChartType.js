@@ -1,8 +1,8 @@
-// Change the type of the first series of chart class and insert the new type into the pdf document.
+// Switch a data series to a different chart type in a PDF.
 
-// How to change a chart type in a PDF document.
+// How do I change how one series in a chart displays in a PDF?
 
-// Change a chart type to the "area" type in a PDF document.
+// Display chart data as a different type, such as converting a line series to an area chart in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

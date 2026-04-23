@@ -1,8 +1,8 @@
-// Get the paragraph section in a document.
+// Retrieve the section that contains a given paragraph in a document.
 
-// How to get the section where the paragraph is located in a document.
+// How do I find the section a paragraph belongs to in a document?
 
-// Get the paragraph section and set its page size.
+// Resize the page by accessing the section through one of its paragraphs in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

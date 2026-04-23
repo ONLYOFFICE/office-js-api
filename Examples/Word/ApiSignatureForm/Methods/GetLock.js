@@ -1,8 +1,8 @@
-// Get the lock state of the signature form in a document.
+// Check whether a signature form is locked in a document.
 
-// How to check if the signature form is locked.
+// How do I find out if a signature form is currently locked in a document?
 
-// Get the lock state of the form.
+// Verify the editing restriction applied to a signature form in a document.
 
 let doc = Api.GetDocument();
 let signatureForm = Api.CreateSignatureForm({"key": "Signature", "tip": "Please sign here", "placeholder": "Signature"});

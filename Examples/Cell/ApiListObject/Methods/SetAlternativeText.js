@@ -1,8 +1,8 @@
-// Set the alternative text of a formatted table.
+// Attach an accessibility description to a table in a spreadsheet.
 
-// How to add an accessibility description to a table in a spreadsheet.
+// How do I add alternative text to a table in a spreadsheet?
 
-// Alternative text helps screen readers identify the table's purpose for accessibility in a spreadsheet.
+// Make a table readable by screen readers by giving it a plain-language label in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

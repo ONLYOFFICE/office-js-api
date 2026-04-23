@@ -1,8 +1,8 @@
-// Get the previous inline drawing object if exists in a document.
+// Access the drawing that appears immediately before another drawing in a document.
 
-// How to set vertical flip for the previous drawing in a document.
+// How do I get the preceding drawing object in a document?
 
-// Get the previous drawing and update its properties in a document.
+// Apply a horizontal flip to the earlier shape in a sequence of drawings in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

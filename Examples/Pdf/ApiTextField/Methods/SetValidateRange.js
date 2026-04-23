@@ -1,8 +1,8 @@
-// Get text field and set validate range for it in a PDF document.
+// Set value limits for a text field in a PDF.
 
-// How to set validate range for a text field in a PDF document?
+// How do I restrict what numbers can be entered in a text field in a PDF?
 
-// Set validate range and display the result in a PDF document.
+// Define the minimum and maximum allowed values for a text field in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

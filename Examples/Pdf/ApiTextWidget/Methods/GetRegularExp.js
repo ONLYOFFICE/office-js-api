@@ -1,8 +1,8 @@
-// Get regular expression from text widget and display it in a PDF document.
+// Retrieve the validation pattern from a text field in a PDF.
 
-// How can I get the regular exp using a text widget in a PDF document?
+// How do I access the validation pattern from a text field in a PDF?
 
-// Get the regular exp for a text widget in a PDF document.
+// Display what text pattern is required for a text field in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

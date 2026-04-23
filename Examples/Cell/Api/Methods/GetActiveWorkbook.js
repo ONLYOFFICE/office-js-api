@@ -1,8 +1,8 @@
-// Get an object that represents the active workbook in a spreadsheet.
+// Access the open workbook to read its properties in a spreadsheet.
 
-// How do I get active workbook in a spreadsheet?
+// How do I retrieve information about the current workbook in a spreadsheet?
 
-// Get active workbook and display the result in a spreadsheet.
+// Identify the workbook by name and display that name in a spreadsheet.
 
 const workbook = Api.GetActiveWorkbook();
 const worksheet = workbook.GetActiveSheet();

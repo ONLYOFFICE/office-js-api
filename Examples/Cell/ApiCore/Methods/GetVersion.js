@@ -1,8 +1,8 @@
-// Get the version of the current workbook in a spreadsheet.
+// Read the version number saved in the workbook document properties in a spreadsheet.
 
-// How can I get the version using a core properties in a spreadsheet?
+// How do I find out which version is recorded for a workbook in a spreadsheet?
 
-// Get the version for a core properties in a spreadsheet.
+// Display the version string stored in the metadata of the file in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

@@ -1,8 +1,8 @@
-// Get the 1-based index of a table column in a spreadsheet.
+// Find the position number of a column within a formatted table in a spreadsheet.
 
-// How to find the position of a column within a formatted table.
+// How do I get the index of a specific table column in a spreadsheet?
 
-// Get the 1-based index of a column within the table in a spreadsheet.
+// Determine where a column sits inside a table by reading its one-based position number.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

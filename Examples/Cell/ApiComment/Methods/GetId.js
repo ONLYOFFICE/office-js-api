@@ -1,8 +1,8 @@
-// Get the comment ID in a spreadsheet.
+// Retrieve the unique identifier assigned to a cell comment in a spreadsheet.
 
-// How to get a comment ID in a spreadsheet.
+// How do I get the ID that uniquely identifies a comment on a cell in a spreadsheet?
 
-// Find a comment by its ID and display its ID in a spreadsheet.
+// Look up a comment's own identifier so it can be referenced or tracked programmatically in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

@@ -1,8 +1,8 @@
-// Return the Bessel function Jn(x) in a spreadsheet.
+// Compute the Bessel function of the first kind for a given value and order in a spreadsheet.
 
-// How to get a result from Bessel function Jn(x) in a spreadsheet.
+// Evaluate the Bessel function J at a specific order in a spreadsheet.
 
-// Use function to get the Bessel function Jn(x) in a spreadsheet.
+// Calculate an oscillatory Bessel value commonly used in signal and vibration analysis in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

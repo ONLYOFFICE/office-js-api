@@ -1,8 +1,8 @@
-// Save changes to the specified document.
+// Save all changes to the presentation after modifying it.
 
-// How to save all changes in a presentation.
+// Use Api.Save to persist modifications to the document.
 
-// Add new elements like paragraphs, shapes and etc. to the slide and save all changes.
+// Add elements to a shape and save them to the presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

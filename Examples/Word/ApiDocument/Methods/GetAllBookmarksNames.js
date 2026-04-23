@@ -1,8 +1,8 @@
-// Get an array with names of all bookmarks in the document.
+// Retrieve the names of every bookmark present in a document.
 
-// Get the list with all bookmark names and print them in the document.
+// How do I get a list of all bookmark names to display or process them in a document?
 
-// Add bookmarks to the ranges and display their names in a document.
+// Collect bookmark names programmatically so they can be shown inline as reference labels in a document.
 
 let doc = Api.GetDocument(); 
 let paragraph = doc.GetElement(0); 

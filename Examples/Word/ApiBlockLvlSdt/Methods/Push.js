@@ -1,8 +1,8 @@
-// Pushes a paragraph to actually add it to the container in a document.
+// Add a paragraph to a content control in a document.
 
-// Create a block content control and pushes a paragraph to it in a document.
+// How do I add a paragraph to a content control in a document?
 
-// Create the paragraph object, add a text to it, and push it to the block container in a document.
+// Insert new text into a content control by appending a paragraph to it in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

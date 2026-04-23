@@ -1,8 +1,8 @@
-// Remove the layouts from the current slide master.
+// Remove layouts from a slide master by index.
 
-// How to delete layout from a master in a presentation.
+// Use RemoveLayout to delete one or more layouts from the master.
 
-// Delete a slide master layout.
+// Compare the layout count before and after deletion to verify the removal.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

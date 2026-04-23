@@ -1,8 +1,8 @@
-// Set the repeat count for an animation effect in a presentation.
+// Set how many times an animation effect will repeat in a presentation.
 
-// How do I set repeat count in a presentation?
+// How do I make an animation play multiple times in a presentation?
 
-// Set repeat count using an animation effect object in a presentation.
+// Configure an animation to loop a specified number of times in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

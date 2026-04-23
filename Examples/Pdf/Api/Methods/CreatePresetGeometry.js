@@ -1,8 +1,8 @@
-// Create a preset geometry in a PDF document.
+// Apply a built-in shape geometry to an object in a PDF.
 
-// How do I create the preset geometry in a PDF document?
+// How do I use a predefined shape like a star or arrow in a PDF?
 
-// Create the preset geometry and display the result in a PDF document.
+// Assign a preset shape form to a drawing and display its properties in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

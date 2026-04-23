@@ -1,8 +1,8 @@
-// Remove the specified comment replies in a document.
+// Remove all replies from a comment in a document.
 
-// How to delete specified comment reply in a document.
+// How do I delete all replies attached to a comment in a document?
 
-// Get all comments from the presentation and remove a reply from the first one's.
+// Clear every reply from a comment to reset the discussion thread to a clean state.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

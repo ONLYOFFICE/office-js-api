@@ -1,8 +1,8 @@
-// Get the text properties of the run in a PDF document.
+// Access all formatting settings for text in a PDF.
 
-// How to get the text properties of the current text run object and change its font size in a PDF document.
+// How do I get the text formatting properties in a PDF?
 
-// Resize a font of a text run in a PDF document.
+// Modify the font size using text properties in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

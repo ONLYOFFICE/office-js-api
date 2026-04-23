@@ -1,8 +1,8 @@
-// Get the form role in a document.
+// Read the role assigned to a checkbox form in a document.
 
-// How do I get the role in a document?
+// How do I find out the role of a checkbox form in a document?
 
-// Get the role using a checkbox form object.
+// Determine the purpose or permission level of a checkbox form field before processing it in a document.
 
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": false});

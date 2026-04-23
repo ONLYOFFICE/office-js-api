@@ -1,8 +1,8 @@
-// Get a set of the paragraph properties which will be applied to all the paragraphs within a table which match the conditional formatting type.
+// Access the paragraph formatting tied to a conditional table style in a document.
 
-// How to get the paragraph properties in a document.
+// How do I read and adjust paragraph settings inside a conditional table style in a document?
 
-// Get the table properties of the first row and obtain its paragraph properties in a document.
+// Modify text alignment for paragraphs matched by a table style condition in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

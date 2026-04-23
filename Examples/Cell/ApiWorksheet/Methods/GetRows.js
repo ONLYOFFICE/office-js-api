@@ -1,8 +1,8 @@
-// Get the cell range object that represents all the cells on the rows range in a spreadsheet.
+// Select several rows together to style them all at once in a spreadsheet.
 
-// How to get all row cells.
+// Work with a group of rows when you want to apply one change everywhere in a spreadsheet?
 
-// Get all row cells from the worksheet.
+// Color a row range uniformly by treating it as a single collection in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRows("1:4").SetFillColor(Api.CreateColorFromRGB(255, 213, 191));

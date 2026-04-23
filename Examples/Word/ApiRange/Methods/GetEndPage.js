@@ -1,8 +1,8 @@
-// Get the end page number of a range in a document.
+// Find the last page where a selected region of text ends in a document.
 
-// How to get the end page for a cell range?
+// How do I determine which page a text selection finishes on in a document?
 
-// Get the end page and display the result in a document.
+// Locate the closing page of a highlighted span to understand its layout position in a document.
 
 const doc = Api.GetDocument();
 

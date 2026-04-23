@@ -1,8 +1,8 @@
-// Retrieve the class type of a text properties in a presentation.
+// Retrieve the class type of a text properties object.
 
-// How to identify the class type of a text properties in a presentation?
+// Create a shape with a text run and get its text properties.
 
-// Obtain the class type identifier of a text properties object in a presentation.
+// Display the class type identifier in the slide.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

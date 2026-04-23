@@ -1,6 +1,6 @@
 // Convert the shape into JSON in a presentation.
 
-// How to convert a drawing object to a JSON object in a presentation.
+// JSON conversion allows serializing drawing objects for storage or transfer.
 
 // Get a shape object from a slide and convert to JSON.
 

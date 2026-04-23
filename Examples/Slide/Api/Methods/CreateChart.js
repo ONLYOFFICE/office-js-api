@@ -1,8 +1,8 @@
-// Create a chart and paste it into the document.
+// Create a 3D bar chart in a presentation.
 
-// How to add charts to slides.
+// How do I insert a chart and customize its appearance in a presentation?
 
-// Create a 3D bar chart, set its size, position, color and other properties in a presentation.
+// Build a chart with multiple data series and apply formatting to each series in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

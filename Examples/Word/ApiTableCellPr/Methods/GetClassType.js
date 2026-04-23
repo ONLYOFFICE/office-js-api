@@ -1,8 +1,8 @@
-// Find out the class type of a table cell properties object.
+// Retrieve the class type of a table cell properties object in a document.
 
-// How can I get the class type of a table cell properties?
+// How do I identify what type of object holds the table cell properties in a document?
 
-// Get the class type of a table cell properties and display it in the document.
+// Read and display the category label assigned to a table cell properties object in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

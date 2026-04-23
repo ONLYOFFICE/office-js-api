@@ -1,8 +1,8 @@
-// Set the text spacing measured in twentieths of a point in a spreadsheet.
+// Control the amount of space between characters in a text run in a spreadsheet.
 
-// How to set the text spacing size in a spreadsheet.
+// How do I widen or tighten the gaps between letters in a spreadsheet?
 
-// Create a text run object, update its spacing in a spreadsheet.
+// Stretch or compress letter spacing to fine-tune the appearance of a word or phrase in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

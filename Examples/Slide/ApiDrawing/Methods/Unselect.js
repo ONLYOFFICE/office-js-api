@@ -1,8 +1,8 @@
-// Unselects the current graphic object in a presentation.
+// Unselect the current graphic object in a presentation.
 
-// How to unselect drawing objects of the slide.
+// Unselecting removes focus from a shape without deleting it.
 
-// Create three shapes, select all of them, then unselect the second shape in a presentation.
+// Create three shapes, select all of them, then unselect the second shape.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

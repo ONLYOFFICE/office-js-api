@@ -1,8 +1,8 @@
-// Get the first slide of the presentation in a presentation.
+// Access the first slide of a presentation in a presentation.
 
-// How to get the first slide using the Api global object.
+// How can I retrieve the opening slide in a presentation in a presentation?
 
-// Get the first slide and add a shape to it.
+// Select the first slide and add a shape to it in a presentation.
 
 const slide = Api.GetFirstSlide();
 slide.RemoveAllObjects();

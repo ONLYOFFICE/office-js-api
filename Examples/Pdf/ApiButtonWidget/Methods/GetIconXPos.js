@@ -1,8 +1,8 @@
-// Get icon x position from field with image in a PDF document.
+// Find the horizontal position of an icon in a button widget in a PDF.
 
-// How to get the icon x pos for a button widget in a PDF document?
+// How do I get the X coordinate of an icon in a PDF button?
 
-// Get the icon x pos and display the result in a PDF document.
+// Retrieve the icon's left position in a button widget in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

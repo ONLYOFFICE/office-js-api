@@ -1,8 +1,8 @@
-// Get the first series of chart class and insert its type into the document.
+// Read the chart type assigned to a specific data series in a spreadsheet.
 
-// How to find out a chart type in a spreadsheet.
+// How do I find out what chart style a particular series is using in a spreadsheet?
 
-// Display a chart type inserting it in a range in a spreadsheet.
+// Retrieve a series chart type and write the result to a cell in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

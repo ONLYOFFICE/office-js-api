@@ -1,8 +1,8 @@
-// Get an index of a pivot field in a spreadsheet.
+// Read the numeric position of a pivot field within the pivot table in a spreadsheet.
 
-// How to get a pivot field's index in a spreadsheet.
+// How do I find the index number assigned to a pivot field in a spreadsheet?
 
-// Create a pivot table, add data to it then get an index of a specified pivot field in a spreadsheet.
+// Identify where a pivot field sits in the ordered list of all pivot table fields in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

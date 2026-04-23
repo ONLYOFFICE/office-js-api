@@ -1,8 +1,8 @@
-// Create adjustable geometry with guides and connection points for a pdf document. Displays adjustment value and apply custom geometry to shape.
+// Define text boundaries within a shape's geometry in a PDF.
 
-// How to set text rect for a geometry in a PDF document?
+// How can I set where text appears inside a shape in a PDF?
 
-// Set text rect and display the result in a PDF document.
+// Establish custom text placement boundaries in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

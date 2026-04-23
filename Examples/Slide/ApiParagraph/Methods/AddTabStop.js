@@ -1,8 +1,8 @@
-// Add a tab stop to the paragraph in a presentation.
+// Insert a tab character into a paragraph in a presentation.
 
-// How to add a tab after a sentence in a paragraph in a presentation.
+// How do I add spacing between text elements using tabs in a presentation?
 
-// How to split a text string with a tab in a presentation.
+// Place a tab stop at the current cursor position in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

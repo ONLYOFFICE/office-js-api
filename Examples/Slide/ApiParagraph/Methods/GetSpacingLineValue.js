@@ -1,8 +1,8 @@
 // Get the paragraph line spacing value in a presentation.
 
-// How to get the spacing line value between sentences of a paragraph in a presentation.
+// How do I read the line spacing amount for a paragraph in a presentation?
 
-// Create a paragraph, set the spacing line between the sentences and retrieve the value in a presentation.
+// Set line spacing and retrieve its numerical value in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

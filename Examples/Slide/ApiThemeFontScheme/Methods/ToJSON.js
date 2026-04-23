@@ -1,8 +1,8 @@
-// Convert the theme font scheme object into the JSON object in a presentation.
+// Convert a font scheme to JSON format in a presentation.
 
-// How to convert a theme font scheme object to a JSON object in a presentation.
+// How can I export a font scheme as JSON data in a presentation?
 
-// Create a theme font scheme, convert it to JSON and create a new object from it in a presentation.
+// Create a font scheme, export it to JSON, and recreate it from the JSON in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

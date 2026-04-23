@@ -1,8 +1,8 @@
 // Set the position of the comment in the presentation.
 
-// How do I set position in a presentation?
+// Reposition a comment to a different location on the slide.
 
-// Set position using a comment object in a presentation.
+// Move a comment to a new position and display the updated coordinates.
 
 const presentation = Api.GetPresentation();
 presentation.GetAllComments().forEach(comment => {

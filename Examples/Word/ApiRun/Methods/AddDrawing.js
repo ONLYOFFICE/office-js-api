@@ -1,8 +1,8 @@
-// Add a chart to the run in a document.
+// Embed a chart inside a line of text in a document.
 
-// How to add a drawing into the text in a document.
+// How do I place a visual chart directly within a paragraph in a document?
 
-// Insert a drawing to the text run in a document.
+// Attach graphical content to a text run so it flows with the surrounding words in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

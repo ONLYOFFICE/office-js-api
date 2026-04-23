@@ -1,8 +1,8 @@
-// Get the header row range of a formatted table.
+// Locate the cells that make up the header row of a table in a spreadsheet.
 
-// How to retrieve the range of the table header row in a spreadsheet.
+// How do I get the range occupied by a table's column headings in a spreadsheet?
 
-// Return null when ShowHeaders is false, because the header row is not visible in that case in a spreadsheet.
+// Identify which cells hold the column labels so you can read or style them separately in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

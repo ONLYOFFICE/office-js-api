@@ -1,8 +1,8 @@
-// Change the sort order of a sort field in a spreadsheet.
+// Reverse the sort direction of an existing sort criterion and re-sort the table in a spreadsheet.
 
-// How to change the sort direction of a sort field to descending in a spreadsheet.
+// How do I switch a sort field from ascending to descending order in a spreadsheet?
 
-// Change the sort direction of a sort field and apply the sort in a spreadsheet.
+// Update the ordering direction for a sort rule, then apply it to see the new row arrangement in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

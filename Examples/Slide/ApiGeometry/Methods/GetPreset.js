@@ -1,8 +1,8 @@
-// Get geometry information from a star shape on a presentation slide. Displays preset type and custom status in a text shape.
+// Identify the preset shape type used for geometry in a presentation.
 
-// How do I get the preset in a presentation?
+// How do I determine if a shape is a preset type in a presentation?
 
-// Get the preset using a geometry object in a presentation.
+// Check what built-in shape preset defines a geometry in a presentation.
 
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);

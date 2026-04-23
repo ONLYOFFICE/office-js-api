@@ -1,8 +1,8 @@
-// Get the paragraph line spacing rule in a spreadsheet.
+// Read the rule that controls line spacing within a paragraph in a spreadsheet.
 
-// How to get the spacing information of the paragraph lines.
+// How do I find out which line spacing mode is applied to a paragraph in a spreadsheet?
 
-// Create a paragraph, set the spacing line between the sentences and show it in a spreadsheet.
+// Confirm the line spacing rule of a paragraph after setting it to a custom value in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

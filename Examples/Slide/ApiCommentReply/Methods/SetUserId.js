@@ -1,8 +1,8 @@
-// Set an user ID to a comment reply in a presentation.
+// Assign a user ID to a comment reply in a presentation.
 
-// How to change an user ID of a comment reply in a presentation.
+// How do I set the author ID for a reply to a comment in a presentation?
 
-// Get all comments from the presentation and change its first one's reply user ID.
+// Update the user ID of a comment reply to track who the responder is in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

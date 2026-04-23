@@ -1,8 +1,8 @@
-// Get a lock value of a shape and insert it into the presentation.
+// Get a lock setting for a shape in a presentation.
 
-// How to get a slide shape's lock value and display it in the slide.
+// How do I find the lock status of an object in a presentation?
 
-// Get a slide shape's lock value.
+// Retrieve and display the lock value of a shape in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

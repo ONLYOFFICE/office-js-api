@@ -1,8 +1,8 @@
-// Set the comment reply author's name in a document.
+// Set the author name on a comment reply in a document.
 
-// How to change a comment's reply author name in a document.
+// How do I change the author name of a comment reply in a document?
 
-// Get all comments from the presentation and set an author to the first one's reply.
+// Update who is shown as the reply author to reflect the correct contributor.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

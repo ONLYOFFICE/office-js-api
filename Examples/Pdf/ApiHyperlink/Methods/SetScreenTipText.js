@@ -1,8 +1,8 @@
-// Set the screen tip text of the hyperlink in a PDF document.
+// Define the text that appears when you hover over a hyperlink in a PDF.
 
-// How to specify the hyperlink screen tip text in a PDF document.
+// How do I set the message displayed for a link in a PDF?
 
-// Set the screen tip text of the link in a PDF document.
+// Specify a tooltip for a hyperlink in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

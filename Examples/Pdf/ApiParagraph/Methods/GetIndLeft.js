@@ -1,8 +1,8 @@
-// Get the paragraph left side indentation in a PDF document.
+// Check the left margin indent of a paragraph in a PDF.
 
-// How to return a left side identation of a paragraph in a PDF document.
+// How do I find the left indentation of a paragraph in a PDF?
 
-// Return a left side indentation of a text from the page.
+// Retrieve the left margin spacing for a paragraph in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

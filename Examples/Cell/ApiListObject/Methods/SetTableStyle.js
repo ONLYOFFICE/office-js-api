@@ -1,8 +1,8 @@
-// Set the style of a formatted table.
+// Apply a built-in visual style to a table in a spreadsheet.
 
-// How to apply a built-in style to a table in a spreadsheet.
+// How do I change the color scheme or look of a table in a spreadsheet?
 
-// Style names follow the pattern "TableStyleLight1", "TableStyleMedium2", "TableStyleDark1", and so on in a spreadsheet.
+// Pick one of the preset table styles by name to instantly restyle the colors and borders of a table in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

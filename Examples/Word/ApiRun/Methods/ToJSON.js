@@ -1,8 +1,8 @@
-// Convert the text run object into the JSON object in a document.
+// Serialize a text run into a transferable data format in a document.
 
-// How to convert a slide object to a JSON object.
+// How do I save a text run's content and formatting as structured data in a document?
 
-// Get a slide by its index and convert it to JSON.
+// Capture a text run as a portable object that can be restored later in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

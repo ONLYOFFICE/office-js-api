@@ -1,8 +1,8 @@
-// Get a text underline using its property in a spreadsheet.
+// Check whether underline formatting is turned on for a text run in a spreadsheet.
 
-// How to find out whether a text is underlined or not in a spreadsheet.
+// How do I find out if text has an underline applied in a spreadsheet?
 
-// Get underlined property of a text run object in a spreadsheet.
+// Confirm the underline state of a text run by reading its formatting property in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

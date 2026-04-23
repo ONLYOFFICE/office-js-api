@@ -1,8 +1,8 @@
-// Set style name of a pivot table in a spreadsheet.
+// Apply a named visual style to a pivot table in a spreadsheet.
 
-// How to set style name of a table in a spreadsheet.
+// How do I change the color scheme or style of a pivot table in a spreadsheet?
 
-// Create a pivot table, add data to it then set its style name in a spreadsheet.
+// Pick a built-in table style to make the pivot table easier to read in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

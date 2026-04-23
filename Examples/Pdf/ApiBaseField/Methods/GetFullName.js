@@ -1,8 +1,8 @@
-// Get field full name and display it in a PDF document.
+// Read the complete name identifier of a form field in a PDF.
 
-// How can I get the full name using a base field in a PDF document?
+// How do I retrieve the full name assigned to a form field in a PDF?
 
-// Get the full name for a base field in a PDF document.
+// Display the unique full name property of a form field in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// How to change a Y position of a drawing in a PDF document.
+// Reposition a drawing object vertically in a PDF.
 
-// Get a shape object from a page and move by Y axis.
+// How do I move a shape to a different vertical location in a PDF?
 
-// Set pos y for a drawing object in a PDF document.
+// Adjust the Y coordinate of a drawing element in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

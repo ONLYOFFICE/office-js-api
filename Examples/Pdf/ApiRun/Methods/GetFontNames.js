@@ -1,8 +1,8 @@
-// Get all font names from all elements inside the run in a PDF document.
+// List all fonts used in text in a PDF.
 
-// How to get all font names used in the text in a PDF document.
+// How do I see all the font names used in a text element in a PDF?
 
-// Retrieve text run font names and display them in the page.
+// Display the fonts applied to text in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

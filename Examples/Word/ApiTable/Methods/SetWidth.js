@@ -1,8 +1,8 @@
-// Set the preferred width to the table in a document.
+// Stretch a table to fill the full width of the page in a document.
 
-// How to set the width of the table in a document.
+// How do I make a table span the entire width of the page in a document?
 
-// Resize table by making its the width 100 percent in a document.
+// Expand a table so it takes up all available horizontal space in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

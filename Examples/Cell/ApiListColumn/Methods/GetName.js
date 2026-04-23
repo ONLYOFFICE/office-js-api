@@ -1,8 +1,8 @@
-// Get the name of a table column in a spreadsheet.
+// Read the header label of a table column in a spreadsheet.
 
-// How to read the header text of a specific column in a formatted table.
+// How do I find out what a column in a table is called in a spreadsheet?
 
-// Get the name of a table column in a spreadsheet.
+// Retrieve the column name to display or compare it with other table headers in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

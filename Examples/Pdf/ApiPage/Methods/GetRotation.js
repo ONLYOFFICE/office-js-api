@@ -1,8 +1,8 @@
-// Get page rotate of the first page in document and display it in the text field.
+// Check the current rotation angle applied to a page in a PDF.
 
-// How to get the rotation for a page?
+// How do I determine if a page is rotated in a PDF?
 
-// Get the rotation and display the result in a PDF document.
+// Read the page's rotation setting to display its current orientation in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

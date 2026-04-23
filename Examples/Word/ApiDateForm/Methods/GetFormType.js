@@ -1,8 +1,8 @@
-// Get a type of the form in a document.
+// Retrieve the type of a date form field in a document.
 
-// How to know the type of a form.
+// How do I get the form type of a date form in a document?
 
-// Create a date form and diplay its type in the document.
+// Distinguish a date form from other field types by reading its form type in a document.
 
 let doc = Api.GetDocument();
 let dateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});

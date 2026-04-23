@@ -1,8 +1,8 @@
-// Check whether the form is filled.
+// Check whether a form field contains a value entered by the user in a document.
 
-// How to check if the text form has any text set.
+// How do I tell if a form field has been filled out in a document?
 
-// Create two text forms, fill the second one with text, and check if each form is filled.
+// Verify the fill status of multiple form fields to determine which ones still need input in a document.
 
 let doc = Api.GetDocument();
 let textForm1 = Api.CreateTextForm({"key": "Name1", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": false, "multiLine": false, "autoFit": false});

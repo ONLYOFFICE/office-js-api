@@ -1,8 +1,8 @@
-// Select the paragraph in a document.
+// Select an entire paragraph programmatically in a document.
 
-// How to select the paragraph in a document.
+// How do I select a paragraph to apply formatting to it in a document?
 
-// Select a paragraph with a cursor in a document.
+// Activate a paragraph selection and then italicize its text in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

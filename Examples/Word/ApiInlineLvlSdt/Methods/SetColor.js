@@ -1,8 +1,8 @@
-// Set the tag color for the container in a document.
+// Set the highlight color of an inline content control in a document.
 
-// Create an inline content control and set the color to it in a document.
+// How do I change the color of an inline content control in a document?
 
-// How to set the color to the inline content control object in a document.
+// Apply a specific RGB color to visually distinguish a content control in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

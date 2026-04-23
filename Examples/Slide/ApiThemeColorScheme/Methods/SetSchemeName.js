@@ -1,8 +1,8 @@
-// Set a name to the current theme color scheme in a presentation.
+// Set a name for a theme color scheme in a presentation.
 
-// How to set a scheme name in a presentation.
+// How do I assign a custom name to a color scheme in a presentation?
 
-// Create new color scheme and set its name in a presentation.
+// Create a color scheme and give it a new name in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

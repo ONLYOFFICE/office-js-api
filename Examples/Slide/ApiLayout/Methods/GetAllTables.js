@@ -1,8 +1,8 @@
-// Get an array with all tables from the slide layout.
+// Get all tables from a slide layout as an array.
 
-// How to get all tables for a layout in a presentation?
+// Tables can be added to layouts and counted across slide, layout, and master objects.
 
-// Get all tables and display the result in a presentation.
+// Display the count of tables on the slide, layout, and master.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// Create a square annotation and set dash pattern for border in a PDF document.
+// Apply a dashed border style to an annotation in a PDF.
 
-// How to set dash pattern for an annotation in a PDF document?
+// Create a dotted line effect on an annotation's border in a PDF.
 
-// Set dash pattern and display the result in a PDF document.
+// Define the dash pattern for an annotation's outline in a PDF.
 
 let doc = Api.GetDocument();
 let squareAnnot = Api.CreateSquareAnnot([10, 10, 160, 32]);

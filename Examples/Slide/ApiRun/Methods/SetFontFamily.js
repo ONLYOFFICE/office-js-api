@@ -1,8 +1,8 @@
-// Set all 4 font slots with the specified font family in a presentation.
+// Change the font family of text in a presentation.
 
-// How to set font family to the text run in a presentation.
+// What font families can be applied to text in a presentation?
 
-// Create a new text run and change its font family in a presentation.
+// Set a custom font family for text runs in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

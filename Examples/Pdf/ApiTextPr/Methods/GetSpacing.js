@@ -1,8 +1,8 @@
-// Find out a text is spacing size in a PDF document.
+// Get the amount of space between letters in text in a PDF.
 
-// How to know a text spacing in a PDF document.
+// How do I find the character spacing setting in a PDF?
 
-// Get the text properties of the run and display its spacing size in a PDF document.
+// Read and display the letter spacing value applied to text in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

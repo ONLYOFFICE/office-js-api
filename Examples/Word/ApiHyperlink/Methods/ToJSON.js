@@ -1,8 +1,8 @@
-// Convert the hyperlink object into the JSON object in a document.
+// Convert a hyperlink to a JSON object and insert it into a paragraph in a document.
 
-// How to get a JSON from the hyperlink in a document.
+// How do I serialize a hyperlink to JSON and restore it in a document?
 
-// Convert the hyperlink to json and add it to the paragraph in a document.
+// Duplicate a hyperlink by exporting it to JSON and re-importing it in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

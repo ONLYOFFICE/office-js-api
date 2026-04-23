@@ -1,8 +1,8 @@
-// Get the bar color from a data bar conditional formatting rule.
+// Read the fill color used for data bars in a spreadsheet.
 
-// How to retrieve the bar color of a data bar in a spreadsheet.
+// How do I find out what color is applied to data bars in a spreadsheet?
 
-// Get the bar color of a data bar conditional formatting rule.
+// Check the color of data bars to confirm their appearance in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

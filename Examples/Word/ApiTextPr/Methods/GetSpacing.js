@@ -1,8 +1,8 @@
-// Find out the current form spacing value.
+// Read the character spacing applied to a text run in a document.
 
-// How to find out th text spacing in a document.
+// How do I check how much space is added between characters in a document?
 
-// Get the property of the text that shows the size of spacing in a document.
+// Inspect the spacing value set on a text run to verify its letter-spacing in a document.
 
 let doc = Api.GetDocument();
 let myNewRunStyle = doc.CreateStyle("My New Run Style", "run");

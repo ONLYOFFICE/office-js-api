@@ -1,8 +1,8 @@
-// Get the spacing after value of the paragraph in a spreadsheet.
+// Read the amount of space added below a paragraph inside a shape in a spreadsheet.
 
-// How to get the spacing information which is after the paragraph.
+// How do I check how much gap follows a paragraph in a spreadsheet?
 
-// Get two consecutive paragraphs, add the spacing between them then get the spacing after the first one and display it in the worksheet.
+// Measure the bottom spacing of a paragraph after setting it and display the value in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

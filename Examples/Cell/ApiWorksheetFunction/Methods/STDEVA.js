@@ -1,8 +1,8 @@
-// Estimate standard deviation based on a sample, including logical values and text. Text and the false logical value have the value 0; the true logical value has the value 1 in a spreadsheet.
+// Estimate the standard deviation of a sample including logical values and text.
 
-// How to estimate standard deviation based on a sample considering logical and text data types in a spreadsheet.
+// The STDEVA function treats text as 0 and logical values as 0 (false) or 1 (true) in calculations.
 
-// Use a function to get the standard deviation in a spreadsheet.
+// Get the standard deviation including logical and text values, and place it in cell C1.
 
 const worksheet = Api.GetActiveSheet();
 

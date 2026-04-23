@@ -1,8 +1,8 @@
-// Get a sort field by its 1-based index from a sort fields collection in a spreadsheet.
+// Pick a specific sort column from a table's sort list by its position in a spreadsheet.
 
-// How to access a specific sort field in a formatted table.
+// How do I access one particular sort column by its position in a spreadsheet?
 
-// Get a sort field by its 1-based index in a spreadsheet.
+// Look up a sort column at a given index to inspect or change its order setting in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

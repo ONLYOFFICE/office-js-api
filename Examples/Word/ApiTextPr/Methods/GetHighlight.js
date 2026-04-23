@@ -1,8 +1,8 @@
-// Get the highlight property of the text in a document.
+// Read the highlight color applied to a run of text in a document.
 
-// How to know the highlight type of the form.
+// How do I find out what highlight color is set on a piece of text in a document?
 
-// Retrieve text properties of the form to find out its highlight type.
+// Inspect a text run to confirm which background highlight is active in a document.
 
 let doc = Api.GetDocument();
 let myNewRunStyle = doc.CreateStyle("My New Run Style", "run");

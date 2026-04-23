@@ -1,8 +1,8 @@
-// Merge the cells in the row.
+// Combine all cells in a table row into a single cell in a document.
 
-// Merge cells of the entire row.
+// How do I join every cell across a row so they become one in a document?
 
-// Combine the entire row cells.
+// Collapse a row's individual cells into one unified cell to span the full width in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

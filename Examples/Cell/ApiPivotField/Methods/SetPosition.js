@@ -1,8 +1,8 @@
-// Set a position of a pivot field in a spreadsheet.
+// Change the order of a pivot field within its area in a spreadsheet.
 
-// How to change a pivot field position in a spreadsheet.
+// How do I reorder pivot fields within the rows or columns section in a spreadsheet?
 
-// Create a pivot table, add data to it then change a position a specified pivot in a spreadsheet.
+// Shift a pivot field to a specific index to control how data groups are arranged in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

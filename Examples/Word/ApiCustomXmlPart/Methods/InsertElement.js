@@ -1,8 +1,8 @@
-// Insert a new XML element into the custom XML part in a document.
+// Add a new child element to a custom XML part in a document.
 
-// How can I insert the element using a custom XML part in a document?
+// How do I insert an XML element at a specific position within a custom XML part in a document?
 
-// Insert the element for a custom XML part in a document.
+// Build up an XML structure incrementally by appending or prepending elements in a document.
 
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();

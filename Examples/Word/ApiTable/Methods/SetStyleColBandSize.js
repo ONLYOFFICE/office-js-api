@@ -1,8 +1,8 @@
-// Specify a number of columns which will comprise each table column band for this table style in a document.
+// Set how many columns form a repeating band pattern in a table style in a document.
 
-// How to set column band size in a document.
+// How do I control the width of alternating column groups in a table in a document?
 
-// How to style a column band size in a document.
+// Group multiple columns together so they share the same banded formatting in a document.
 
 let doc = Api.GetDocument();
 doc.RemoveAllElements();

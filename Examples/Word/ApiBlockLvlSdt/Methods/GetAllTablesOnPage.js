@@ -1,8 +1,8 @@
-// Get a collection of tables on a given absolute page in a document.
+// Retrieve all tables on a page inside a content control in a document.
 
-// How can I get all tables on page using a block-level content control in a document?
+// How do I get all tables on a specific page inside a content control in a document?
 
-// Get all tables on page for a block-level content control in a document.
+// Collect every table from a content control on a given page to edit them in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

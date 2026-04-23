@@ -1,8 +1,8 @@
-// Get the RGB values of an uni color (preset color is inherited from uni color) in a document.
+// Read the red, green, and blue values of a preset color in a document.
 
-// How to get the r g b for an uni color in a document?
+// How do I extract the numeric color components from a named color in a document?
 
-// Get the r g b and display the result in a document.
+// Inspect exact color channel values of a shape's fill color in a document.
 
 const doc = Api.GetDocument();
 const firstParagraph = doc.GetElement(0);

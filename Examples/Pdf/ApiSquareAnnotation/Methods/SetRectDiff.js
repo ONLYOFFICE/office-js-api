@@ -1,8 +1,8 @@
-// Set rect diff to square annotation in a PDF document.
+// Adjust the spacing around a square annotation in a PDF.
 
-// How can I set rect diff using a square annotation in a PDF document?
+// How do I change the padding of a square annotation in a PDF?
 
-// Set rect diff for a square annotation in a PDF document.
+// Modify the margin between an annotation and its border in a PDF.
 
 let doc = Api.GetDocument();
 let squareAnnot = Api.CreateSquareAnnot([10, 10, 160, 32]);

@@ -1,8 +1,8 @@
-// Get a type of the form in a document.
+// Read the type of a combo box form in a document.
 
-// How get a key of a combobox form.
+// How do I find out what type a combo box form is in a document?
 
-// Retrieve key of a created combobox object and display it in a document.
+// Distinguish a combo box from other form types by checking the type string it returns.
 
 let doc = Api.GetDocument();
 let comboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});

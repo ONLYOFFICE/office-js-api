@@ -1,8 +1,8 @@
-// How to set a height of the row in a PDF document.
+// Set the height of a table row in a PDF.
 
-// Create a table and change its rows height in a PDF document.
+// How do I make a row taller or shorter in a PDF?
 
-// Set height using a table row object in a PDF document.
+// Change the row dimensions to a specific measurement in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// Create a custom triangle shape and add it to the worksheet. Applies custom geometry to a shape with specific fill and stroke.
+// Define the horizontal size of a custom shape path before adding it to a spreadsheet.
 
-// How can I set width using a geometry path in a spreadsheet?
+// How do I control how wide a custom shape path is in a spreadsheet?
 
-// Set width for a geometry path in a spreadsheet.
+// Assign a specific width to a drawn path so it scales correctly within the sheet in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let customGeometry = Api.CreateCustomGeometry();

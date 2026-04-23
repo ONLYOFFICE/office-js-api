@@ -1,8 +1,8 @@
-// Change the rank value for top 10 condition in a spreadsheet.
+// Adjust how many top or bottom values a conditional formatting rule highlights in a spreadsheet.
 
-// How to set the number of top or bottom values to highlight in the condition in a spreadsheet.
+// How do I choose the exact number of leading values to mark with a formatting rule in a spreadsheet?
 
-// Change the rank value for the top 10 rule in a spreadsheet.
+// Narrow the spotlight to only the top 2 scores by updating the rank threshold in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

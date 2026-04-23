@@ -1,8 +1,8 @@
-// Find out a color of a text in a PDF document.
+// Get the color or fill effect applied to text in a PDF.
 
-// How to know a color fill of a text in a PDF document.
+// How do I check what color the text uses in a PDF?
 
-// Get the text properties of the run and display its font color in a PDF document.
+// Retrieve the fill properties assigned to text content in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

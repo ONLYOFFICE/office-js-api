@@ -1,8 +1,8 @@
-// Set rect diff to freeText annotation in a PDF document.
+// Adjust the border spacing around a text annotation in a PDF.
 
-// How to set rect diff for a free text annotation in a PDF document?
+// How do I control the distance between the text and the annotation border in a PDF?
 
-// Set rect diff and display the result in a PDF document.
+// Modify the boundary offset and confirm the change in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);

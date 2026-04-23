@@ -1,8 +1,8 @@
-// Check whether the AutoFilter is shown for a formatted table.
+// Read whether the auto-filter is currently turned on for a table in a spreadsheet.
 
-// How to determine if the AutoFilter is enabled on a table in a spreadsheet.
+// How do I check if the auto-filter is active on a table in a spreadsheet?
 
-// When false, the AutoFilter and all drop-down arrows are removed from the table header row in a spreadsheet.
+// Confirm the filter bar is present before relying on any filter controls the table provides in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

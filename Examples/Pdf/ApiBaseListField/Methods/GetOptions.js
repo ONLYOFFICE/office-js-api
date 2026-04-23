@@ -1,8 +1,8 @@
-// Get options from field with list of options in a PDF document.
+// Retrieve all choices available in a dropdown field in a PDF.
 
-// How can I get the options using a list field in a PDF document?
+// How do I get all options from a list field in a PDF?
 
-// Get the options for a list field in a PDF document.
+// List all items in a dropdown or list field in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

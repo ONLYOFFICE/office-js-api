@@ -1,8 +1,8 @@
-// Get the paragraph text properties in a document.
+// Read the text formatting properties of a paragraph in a document.
 
-// How to get text properties of the paragraph object in a document.
+// How do I retrieve the text properties object from a paragraph in a document?
 
-// Get the paragraph text properties and display it in a document.
+// Fetch existing paragraph text properties and extend them with italic formatting in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

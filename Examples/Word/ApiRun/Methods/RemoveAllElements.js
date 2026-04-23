@@ -1,8 +1,8 @@
-// Remove all the elements from the run in a document.
+// Clear all content from a text run in a document.
 
-// How to clear the text run in a document.
+// How do I delete everything inside a text run in a document?
 
-// Delete all elements from the run in a document.
+// Wipe out the contents of a run to start fresh in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

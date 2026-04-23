@@ -1,8 +1,8 @@
-// Find out the class type of a page object.
+// Identify the object type of a page in a PDF.
 
-// How can I get the class type of a page?
+// How do I determine what kind of object this is in a PDF?
 
-// Get the class type of a page and display it in the PDF.
+// Retrieve the classification name for this element in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// Specify the visual properties for the major horizontal gridlines in a presentation.
+// Format the major horizontal gridlines in a chart in a presentation.
 
-// How to set major horizontal gridlines of the chart in a presentation.
+// How do I change the appearance of the main horizontal lines in a chart in a presentation?
 
-// Create a chart, set its properties and its major gridlines in a presentation.
+// Apply a custom color and thickness to the major horizontal gridlines in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

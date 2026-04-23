@@ -1,8 +1,8 @@
-// Set the fill to the chart title in a document.
+// Apply a background fill color to the chart title area in a document.
 
-// How to color a chart title in a document.
+// How do I change the background color behind a chart title in a document?
 
-// Create a chart, set its properties and its title color in a document.
+// Highlight a chart title with a solid color to make it stand out visually in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// Add a tab stop to the run in a document.
+// Insert one or more tab stops into a text run to align content horizontally in a document.
 
-// How to start a sentence after a tab stop in a document.
+// How do I add spacing between words using tab stops inside a text run in a document?
 
-// Break two lines of a text with a tab in a document.
+// Shift part of a text run to a new horizontal position with tab characters in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

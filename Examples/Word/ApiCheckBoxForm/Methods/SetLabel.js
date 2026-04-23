@@ -1,8 +1,8 @@
-// Set the label text to the checkbox form.
+// Assign a visible label to a checkbox form in a document.
 
-// How to add a label to the checkbox form.
+// How do I add descriptive text next to a checkbox in a document?
 
-// Set a label text to the checkbox in a document.
+// Label each checkbox option so readers know what they are selecting in a document.
 
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"tip": "Specify your marital status", "required": true, "radio": true, "key" : "Marital status"});

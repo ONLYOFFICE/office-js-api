@@ -1,8 +1,8 @@
 // Get the paragraph line spacing rule in a presentation.
 
-// How to get the spacing information of the paragraph lines.
+// How do I find the line spacing setting applied to a paragraph in a presentation?
 
-// Create a paragraph, set the spacing line between the sentences and show it in a presentation.
+// Apply line spacing and retrieve its rule type in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

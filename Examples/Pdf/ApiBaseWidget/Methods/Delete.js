@@ -1,8 +1,8 @@
-// Remove the widget from parent field in a PDF document.
+// Remove a form field widget from a PDF.
 
-// How can I delete using a widget in a PDF document?
+// How do I delete a widget from a form field in a PDF?
 
-// Delete for a widget in a PDF document.
+// Unlink a widget instance from its parent form field in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

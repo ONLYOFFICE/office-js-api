@@ -1,8 +1,8 @@
-// Get the sum of squares of deviations of data points from their sample mean in a spreadsheet.
+// Get the sum of squares of deviations of data points from their sample mean.
 
-// How to get sum of squares of deviations in a spreadsheet.
+// Calculate deviations by comparing each data point to the sample mean.
 
-// Use function to get the sum of squares of deviations of data points from their sample mean in a spreadsheet.
+// Use the DEVSQ function to find the sum of squared deviations across the dataset.
 
 let worksheet = Api.GetActiveSheet();
 let argumentsArrA = [34, 244];

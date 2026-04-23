@@ -1,8 +1,8 @@
-// Specify if the form should be required.
+// Mark a complex form as required in a document.
 
-// How do I set required in a document?
+// How do I make a form field mandatory in a document?
 
-// Set required using a complex form object.
+// Enforce that a form must be completed before the document can be submitted.
 
 let doc = Api.GetDocument();
 let complexForm = Api.CreateComplexForm({"key": "Complex1"});

@@ -1,8 +1,8 @@
-// Move the cursor left in the document.
+// Move the cursor left by a specified number of characters in a document.
 
-// How to move the cursor left by a specified number of characters in a document.
+// How do I step the cursor backward through text in a document?
 
-// Add text, move cursor right, then move it left in a document.
+// Back up the cursor after reaching the end so it lands on a target word in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

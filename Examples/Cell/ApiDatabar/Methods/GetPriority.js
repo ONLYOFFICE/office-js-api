@@ -1,8 +1,8 @@
-// Get the priority value of a data bar formatting rule.
+// Read the evaluation order of a data bar rule among other formatting rules in a spreadsheet.
 
-// How to retrieve the evaluation priority of a data bar conditional formatting.
+// How do I check which priority a data bar rule has when multiple formatting rules overlap in a spreadsheet?
 
-// Get the priority value of the data bar formatting rule.
+// Confirm the position at which a data bar rule is evaluated relative to other rules in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// Move the cursor outside of the signature form.
+// Place the text cursor immediately after a signature field in a document.
 
-// How to move the cursor to the position after the form.
+// How do I move focus past a signature field so I can continue typing in a document?
 
-// Move the cursor to after the signature form.
+// Step the cursor out of a signature field to resume editing surrounding content in a document.
 
 let doc = Api.GetDocument();
 let signatureForm = Api.CreateSignatureForm({"key": "Signature", "tip": "Please sign here", "placeholder": "Signature"});

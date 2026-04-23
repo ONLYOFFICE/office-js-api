@@ -1,8 +1,8 @@
-// Get button widget fit bounds property and display it in a PDF document.
+// Check if a button widget fits within its bounds in a PDF document.
 
-// How to is fit bounds for a button widget in a PDF document?
+// Retrieve the fit bounds property from a button widget.
 
-// Is fit bounds and display the result in a PDF document.
+// Display the fit bounds status using the widget label.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

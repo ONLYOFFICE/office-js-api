@@ -1,8 +1,8 @@
-// Check the class type returned by a preset color in a presentation.
+// Identify the type of a preset color in a presentation.
 
-// How do I check what type a preset color object is in a presentation?
+// How do I determine what type a preset color is in a presentation?
 
-// Retrieve and output the class type string for a preset color in a presentation.
+// Display the color type name on the slide in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

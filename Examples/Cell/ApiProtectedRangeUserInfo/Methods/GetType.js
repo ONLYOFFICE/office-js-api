@@ -1,8 +1,8 @@
-// Get type of a protected range user in a spreadsheet.
+// Read the permission type assigned to a user on a protected range in a spreadsheet.
 
-// How to get an user info of a protected range and show its type in a spreadsheet.
+// How do I check what access level a user has on a protected range in a spreadsheet?
 
-// Get an user type of a protected range and add it to the worksheet.
+// Verify whether a collaborator can view or edit a locked area in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.AddProtectedRange("protectedRange", "$A$1:$B$1").AddUser("userId", "name", "CanView");

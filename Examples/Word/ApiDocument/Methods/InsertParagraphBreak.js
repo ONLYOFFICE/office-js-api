@@ -1,8 +1,8 @@
-// Enter a paragraph at the current cursor position in a document.
+// Split the current paragraph into two at the cursor position in a document.
 
-// How to add a paragraph at the cursor position in a document.
+// How do I insert a paragraph break at a chosen location in a document?
 
-// Add text and create a new paragraph in a document.
+// Divide existing text into separate paragraphs without manually retyping any content.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

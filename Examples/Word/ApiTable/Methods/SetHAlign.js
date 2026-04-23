@@ -1,8 +1,8 @@
-// Set the horizontal alignment to the table in a document.
+// Position a table horizontally on the page in a document.
 
-// How to set alignment of the text to the center in a document.
+// How do I align a table to the left, center, or right in a document?
 
-// Create a table and set its horizontal alignment in a document.
+// Control where a table sits across the width of the page in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

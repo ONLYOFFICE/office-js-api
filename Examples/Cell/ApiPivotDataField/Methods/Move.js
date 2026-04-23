@@ -1,8 +1,8 @@
-// Move a data field in a spreadsheet.
+// Reorder a pivot table data field by shifting it up or down in a spreadsheet.
 
-// How to change a table element position by moving it by rows in a spreadsheet.
+// How do I change the position of a value field within a pivot table in a spreadsheet?
 
-// Create a pivot table, add data to it then move data field's by rows in a spreadsheet.
+// Rearrange which summarized column appears first by moving a data field to a new spot in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

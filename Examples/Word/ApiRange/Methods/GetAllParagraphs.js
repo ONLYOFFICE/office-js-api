@@ -1,8 +1,8 @@
-// Get a collection of paragraphs that represents all the paragraphs in the specified range in a document.
+// Collect all paragraphs contained within a selected range in a document.
 
-// How to get all paragraphs in a document.
+// How do I get every paragraph that falls inside a text selection in a document?
 
-// Retrieve all paragraphs from the document and make the first one bold.
+// Pull together each paragraph from a bounded region to process them as a group in a document.
 
 let doc = Api.GetDocument();
 let firstParagraph = doc.GetElement(0);

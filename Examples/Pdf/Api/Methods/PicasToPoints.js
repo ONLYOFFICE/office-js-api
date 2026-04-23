@@ -1,8 +1,8 @@
 // Convert picas to points in a PDF document.
 
-// How can I convert picas to points in a PDF document?
+// The API method performs measurement unit conversion.
 
-// Convert picas to points in a PDF document.
+// The result is displayed in a shape text element.
 
 const picas = 100;
 const points = Api.PicasToPoints(picas);

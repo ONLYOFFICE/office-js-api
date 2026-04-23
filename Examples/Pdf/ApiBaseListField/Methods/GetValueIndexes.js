@@ -1,8 +1,8 @@
-// Get selected value indexes from field with list of options in a PDF document.
+// Retrieve the index positions of selected items in a dropdown in a PDF.
 
-// How do I get the value indexes in a PDF document?
+// How do I find which items are selected in a dropdown field in a PDF?
 
-// Get the value indexes using a list field object in a PDF document.
+// Get the numeric positions of chosen options in a list field in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

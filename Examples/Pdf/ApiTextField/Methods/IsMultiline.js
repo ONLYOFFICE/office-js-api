@@ -1,8 +1,8 @@
-// Get text field and display multiline property in a PDF document.
+// Check whether a text field allows multiple lines of text in a PDF.
 
-// How to is multiline for a text field in a PDF document?
+// How do I determine if a text field accepts multiple lines in a PDF?
 
-// Is multiline and display the result in a PDF document.
+// Verify if text wrapping is enabled for a text input field in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

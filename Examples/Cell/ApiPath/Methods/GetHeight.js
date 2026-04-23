@@ -1,8 +1,8 @@
-// Analyzes cloud shape path properties and display them in cells. Shows path count, dimensions, stroke and fill information.
+// Read the height of a custom shape path and display it in a spreadsheet.
 
-// How can I get the height using a geometry path in a spreadsheet?
+// How do I check how tall a shape path is in a spreadsheet?
 
-// Get the height for a geometry path in a spreadsheet.
+// Inspect the vertical size of a drawn path to verify its dimensions in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(100, 150, 200));

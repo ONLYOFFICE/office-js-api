@@ -1,8 +1,8 @@
-// Get all series of chart class and insert their types into the table in a spreadsheet.
+// Collect every data series from a chart and list their types on the sheet in a spreadsheet.
 
-// How to get all series of the chart and diplay their type on the worksheet.
+// How do I loop through all the data series in a chart and display each one's type in a spreadsheet?
 
-// Get all series from the chart and display their types in a spreadsheet.
+// Audit a chart by reading each series and writing its category into cells in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

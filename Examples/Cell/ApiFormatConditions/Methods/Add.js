@@ -1,8 +1,8 @@
-// Add conditional formatting to a range.
+// Highlight cells automatically when their values meet a condition in a spreadsheet.
 
-// How to add conditional formatting rules to highlight cells based on values.
+// How do I create a rule that colors cells based on whether they are above or below a threshold in a spreadsheet?
 
-// Add different types of conditional formatting to cells.
+// Set up automatic cell formatting that reacts to the data entered in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

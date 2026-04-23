@@ -1,8 +1,8 @@
-// Get the custom XML manager, add a new XML part, and retrieve it by its ID in a document.
+// Embed a custom XML part and retrieve it by its generated ID in a document.
 
-// How can I get custom xml parts using a document in a document?
+// How do I add and look up custom XML data stored inside a document?
 
-// Get custom xml parts for a document in a document.
+// Store structured XML payloads within a document and confirm they can be fetched back by identifier in a document.
 
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();

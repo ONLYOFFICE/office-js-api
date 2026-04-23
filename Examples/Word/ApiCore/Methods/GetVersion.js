@@ -1,8 +1,8 @@
-// Get the version of the current document in a document.
+// Extract the version string from the document's core properties in a document.
 
-// How to get the version for a core properties in a document?
+// How do I retrieve the version recorded in a document's metadata in a document?
 
-// Get the version and display the result in a document.
+// Confirm the stored version value is accessible by writing it into the document body in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

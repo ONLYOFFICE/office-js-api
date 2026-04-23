@@ -1,8 +1,8 @@
-// Get the mail merge receptions count in a document.
+// Count how many recipients are in a mail merge and generate personalized paragraphs in a document.
 
-// Wrap the text runs in the mail merge fields, loads the mail merge data into the document and counts the mail merge receptions.
+// How do I find out the number of mail merge recipients in a document?
 
-// Return a number of the mail merge receptions in a document.
+// Run a mail merge for each recipient and collect the resulting paragraphs in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

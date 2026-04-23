@@ -1,8 +1,8 @@
-// How to rename a chart in a PDF document.
+// Add a title to a chart in a PDF.
 
-// Create a chart, set its properties and its title in a PDF document.
+// How do I add a heading to a chart in a PDF?
 
-// Use chart to set title using the chart API in a PDF document.
+// Set the text and font size of a chart title in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

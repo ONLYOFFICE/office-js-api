@@ -1,8 +1,8 @@
-// Set the paragraph line spacing in a spreadsheet.
+// Widen the space between lines of text in a paragraph inside a shape in a spreadsheet.
 
-// How to add a spacing line between paragraphs in a spreadsheet.
+// How do I make a paragraph easier to read by spreading out its lines in a spreadsheet?
 
-// Get a paragraph from the shape's content then add a text specifying spacing between text lines in a spreadsheet.
+// Apply a triple line-height multiplier to loosen the vertical rhythm of paragraph text in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

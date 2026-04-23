@@ -1,8 +1,8 @@
-// Get a paragraph that contains the content control in a document.
+// Retrieve the paragraph that holds an inline content control in a document.
 
-// How to display the parent paragraph of the inline text control in a document.
+// How do I get the paragraph that contains an inline content control in a document?
 
-// Make bold the parent paragraph of inline content control in a document.
+// Apply bold formatting to the entire paragraph that wraps an inline content control in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

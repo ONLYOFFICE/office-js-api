@@ -1,8 +1,8 @@
-// Get the shading applied to the contents of the paragraph in a document.
+// Read the shading settings of a paragraph and copy them to another paragraph in a document.
 
-// How to get the shading type of the paragraph in a document.
+// How do I get the shading type and color of a paragraph in a document?
 
-// Get the paragraph shading and apply it to another paragraph in a document.
+// Reuse a paragraph's background shading by applying the retrieved values to a second paragraph in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

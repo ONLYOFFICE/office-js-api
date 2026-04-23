@@ -1,8 +1,8 @@
-// Retrieve the class type of a text run in a presentation.
+// Identify the type of a text run in a presentation.
 
-// How to identify the class type of a text run in a presentation?
+// How do I determine the type of a text run in a presentation?
 
-// Obtain the class type identifier of a text run object in a presentation.
+// Display the text run type name on the slide in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

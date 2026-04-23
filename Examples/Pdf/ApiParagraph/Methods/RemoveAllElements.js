@@ -1,8 +1,8 @@
-// Remove all the elements from the paragraph in a PDF document.
+// Remove all content from a paragraph in a PDF.
 
-// How to delete all elements from the paragraph in a PDF document.
+// How do I clear a paragraph completely in a PDF?
 
-// Clear all elements from the paragraph in a PDF document.
+// Delete every element in a paragraph in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

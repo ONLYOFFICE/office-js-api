@@ -1,8 +1,8 @@
-// Get field partial name and display it in a PDF document.
+// Read the local name of a form field in a PDF.
 
-// How to get the partial name for a base field in a PDF document?
+// How can I find the partial name of a form field in a PDF?
 
-// Get the partial name and display the result in a PDF document.
+// Access the short name identifier assigned to a form field in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

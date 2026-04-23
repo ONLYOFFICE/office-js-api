@@ -1,8 +1,8 @@
-// Convert millimeters to points in a document.
+// Convert a millimeter measurement to typographic points and display the result in a document.
 
-// How do I convert millimeters to points in a document?
+// How do I translate a length from millimeters into points in a document?
 
-// Convert millimeters to points and display the result in a document.
+// Display the point equivalent of a millimeter value as a paragraph of text in a document.
 
 const doc = Api.GetDocument();
 const paragraph = Api.CreateParagraph();

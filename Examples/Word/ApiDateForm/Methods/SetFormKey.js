@@ -1,8 +1,8 @@
-// Set a key to the current form.
+// Assign an identifying key to a date form in a document.
 
-// Change the key of the date form.
+// How do I set or update the key of a date form in a document?
 
-// How to specify the date form key.
+// Rename a date form's key and confirm the new value is stored correctly in a document.
 
 let doc = Api.GetDocument();
 let dateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});

@@ -1,8 +1,8 @@
-// Specify the alignment of the table with respect to the text margins in the current section in a document.
+// Position a table horizontally within the page margins in a document.
 
-// How to set justification of the paragraph content in a document.
+// How do I align a table to the center or sides of the page in a document?
 
-// Change the justification of the paragraph in a document.
+// Place a table at a specific horizontal position relative to the surrounding text in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

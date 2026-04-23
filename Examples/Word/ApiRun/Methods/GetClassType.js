@@ -1,8 +1,8 @@
-// Check the class type returned by a text run in a document.
+// Identify the object type of a text run in a document.
 
-// How do I check what type a text run object is in a document?
+// How do I find out what kind of object a text run is in a document?
 
-// Retrieve and output the class type string for a text run in a document.
+// Confirm the category a text run belongs to in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

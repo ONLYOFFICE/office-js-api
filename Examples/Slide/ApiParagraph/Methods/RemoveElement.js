@@ -1,8 +1,8 @@
-// Remove an element using the position specified in a presentation.
+// Remove an element from a paragraph using its position in a presentation.
 
-// How to remove an element from the paragraph using its position index in a presentation.
+// How do I delete a specific element from a paragraph in a presentation?
 
-// Delete an element from the paragraph in a presentation.
+// Remove one text element at a given index from the paragraph in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

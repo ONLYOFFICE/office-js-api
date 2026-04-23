@@ -1,8 +1,8 @@
-// Get the text from the form in a document.
+// Read the text content of a signature form in a document.
 
-// How to get the raw text from the signature form.
+// How do I get the plain text held inside a signature form in a document?
 
-// Display the text content of the signature form.
+// Extract what is written inside a signature form to display it in a document.
 
 let doc = Api.GetDocument();
 let signatureForm = Api.CreateSignatureForm({"key": "Signature", "tip": "Please sign here", "placeholder": "Signature"});

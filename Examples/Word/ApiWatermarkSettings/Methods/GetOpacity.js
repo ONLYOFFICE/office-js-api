@@ -1,8 +1,8 @@
-// Set the parameters of the watermark settings and apply them to the document.
+// Read the transparency level of a watermark in a document.
 
-// How to get the opacity of the watermark in a document.
+// How do I find out how transparent the watermark is in a document?
 
-// Get the percent of the watermark opacity from its settings in a document.
+// Check how visible or faded the watermark appears in a document.
 
 let doc = Api.GetDocument();
 let watermarkSettings = doc.GetWatermarkSettings();

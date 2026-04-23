@@ -1,8 +1,8 @@
-// How to find a shape's height and display it on the page.
+// Find the vertical size of a shape in a PDF.
 
-// Get a page shape's height.
+// How do I get the height of a drawn object in a PDF?
 
-// Get the height for a drawing object in a PDF document.
+// Measure the tall-to-short dimension of a shape in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

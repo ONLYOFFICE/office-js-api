@@ -1,8 +1,8 @@
-// Specify the page margins for all the pages in this section and return it back.
+// Read the top margin of the pages in a section in a document.
 
-// How to get top page margin.
+// How do I find out the size of the top page margin for a section in a document?
 
-// Get the page margin top using a section object.
+// Retrieve the top spacing value to verify the page layout is correct in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// Get the parent object of the top 10 conditional formatting rule.
+// Read the worksheet that owns a top 10 conditional formatting rule in a spreadsheet.
 
-// How to retrieve the parent worksheet of conditional formatting rules.
+// How do I find the parent range of a top 10 conditional formatting rule in a spreadsheet?
 
-// Get top 10 rule parent object in a spreadsheet.
+// Identify which range object a top 10 highlight rule belongs to in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

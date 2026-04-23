@@ -1,8 +1,8 @@
-// Set the bullet or numbering to the paragraph in a document.
+// Turn a plain paragraph into a bulleted list item in a document.
 
-// Create a bullet and add it to the paragraph in a document.
+// How do I add a bullet marker to a paragraph in a document?
 
-// Make the paragraph bulleted in a document.
+// Format a paragraph with a custom bullet character to create a list entry in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

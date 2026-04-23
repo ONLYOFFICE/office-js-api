@@ -1,8 +1,8 @@
-// Get a sheet name in a spreadsheet.
+// Retrieve the name of the active sheet in a spreadsheet.
 
-// How to get name of the sheet in a spreadsheet.
+// How do I read the tab name of the current sheet in a spreadsheet?
 
-// Get a sheet name using the worksheet API in a spreadsheet.
+// Capture the sheet name and write it to a cell in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let name = worksheet.GetName();

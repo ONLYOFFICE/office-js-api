@@ -1,8 +1,8 @@
-// Get the border color of the current form in a document.
+// Read the border color of a complex form in a document.
 
-// How to get the border color of a complex form.
+// How do I retrieve the border color of a complex form in a document?
 
-// Retrieve the border color of a created complex form and display it.
+// Inspect the RGB values of a form's border to verify or display its current styling.
 
 let doc = Api.GetDocument();
 let complexForm = Api.CreateComplexForm({"key": "Complex", "tip": "Insert here other forms"});

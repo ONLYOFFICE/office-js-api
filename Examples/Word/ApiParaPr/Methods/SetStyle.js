@@ -1,8 +1,8 @@
-// Set a style for the paragraph in a document.
+// Apply a named style to a paragraph to control its appearance in a document.
 
-// Set the style of the paragraph to "Heading 6" in a document.
+// How do I assign a built-in style such as a heading to a paragraph in a document?
 
-// Create a text in a paragraph styled with the 'Heading 6' style in a document.
+// Reuse a predefined heading style on a paragraph instead of applying formatting manually.
 
 let doc = Api.GetDocument();
 let heading6Style = doc.GetStyle("Heading 6");

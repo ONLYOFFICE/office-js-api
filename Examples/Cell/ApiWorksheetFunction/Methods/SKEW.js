@@ -1,8 +1,8 @@
 // Return the skewness of a distribution: a characterization of the degree of asymmetry of a distribution around its mean in a spreadsheet.
 
-// How to calaculate the skewness of a distribution in a spreadsheet.
+// Calculate the skewness of a distribution using the SKEW function.
 
-// Use a function to get a characterization of the degree of asymmetry of a distribution around its mean in a spreadsheet.
+// Place values in cells and apply the function to display the asymmetry result.
 
 const worksheet = Api.GetActiveSheet();
 

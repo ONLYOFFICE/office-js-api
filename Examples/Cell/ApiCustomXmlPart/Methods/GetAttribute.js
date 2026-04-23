@@ -1,8 +1,8 @@
-// Get an attribute from the root element of a custom XML part in a spreadsheet.
+// Read the value of a named property from an XML element in a spreadsheet.
 
-// How to get an attribute from an XML part element in a spreadsheet.
+// How do I look up what a specific attribute on an XML node is set to in a spreadsheet?
 
-// Get an XML attribute using the custom XML part API in a spreadsheet.
+// Extract configuration data stored as an XML attribute for use in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let xmlManager = worksheet.GetCustomXmlParts();

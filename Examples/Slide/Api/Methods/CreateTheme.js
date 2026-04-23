@@ -1,8 +1,8 @@
-// Create theme and apply it for presentation.
+// Define a theme with a custom color scheme for a presentation.
 
-// How to change theme of the presentation.
+// How do I apply a new color scheme to a presentation's theme in a presentation?
 
-// Create new theme indicating all its properties in a presentation.
+// Set a new theme color scheme on the master slide in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

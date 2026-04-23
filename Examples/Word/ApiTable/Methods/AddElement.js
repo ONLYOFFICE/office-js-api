@@ -1,8 +1,8 @@
-// Add a paragraph using its position in the cell.
+// Place a paragraph into a specific cell of a table in a document.
 
-// How to add text to the cell.
+// How do I insert content into a particular cell of a table in a document?
 
-// Insert a paragraph object to the table cell.
+// Populate a table cell with a text block at a given position in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

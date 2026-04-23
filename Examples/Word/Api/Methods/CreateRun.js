@@ -1,8 +1,8 @@
-// Create a run and insert it into the document.
+// Add a formatted text segment to the first paragraph in a document.
 
-// Create a run, add a text to it, and insert it into the first paragraph of the document.
+// How do I create a standalone piece of text and append it to an existing paragraph in a document?
 
-// A text run represents a contiguous block of text with the same formatting.
+// Insert new text into a paragraph as a separate block that can carry its own formatting in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

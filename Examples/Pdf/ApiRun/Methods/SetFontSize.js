@@ -1,8 +1,8 @@
-// Set the font size to the characters of the current text run in a PDF document.
+// Adjust the text size in a PDF.
 
-// How to set font size to the text run in a PDF document.
+// How do I make text bigger or smaller in a PDF?
 
-// Create a new text run and change resize its font in a PDF document.
+// Resize the characters displayed in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// Get a content control that contains the table in a document.
+// Access the content control that wraps a table in a document.
 
-// How to get the parent element of the table and set its alias in a document.
+// How do I find the structured container holding a table in a document?
 
-// Retrieve the parent content control of the table in a document.
+// Reach the enclosing content control so its properties can be updated in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

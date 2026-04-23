@@ -1,8 +1,8 @@
-// Set the border which will be displayed at the top of the table in a document.
+// Apply a top border to a table in a document.
 
-// How to create a 3x3 table and add the top 4 point black border in a document.
+// How do I add a border along the top edge of a table in a document?
 
-// Add top border to the table in a document.
+// Style the upper edge of a table with a visible border line in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

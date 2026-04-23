@@ -1,8 +1,8 @@
-// Set above average rule as last priority in a spreadsheet.
+// Demote an above-average highlight rule so it is evaluated after all other rules in a spreadsheet.
 
-// How to move above average conditional formatting to last priority.
+// How do I give an above-average formatting rule the lowest priority among all conditions in a spreadsheet?
 
-// Set the above average rule to be evaluated last in a spreadsheet.
+// Push a highlight rule to the back of the evaluation order so other rules override it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

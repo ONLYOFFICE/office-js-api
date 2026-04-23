@@ -1,8 +1,8 @@
-// Return the code number from your computer's character set for the first character in the specified text string in a spreadsheet.
+// Get the numeric code value for the first character in a text string in a spreadsheet.
 
-// How to return the code number from your computer's character set in a spreadsheet.
+// Retrieve the character set number that identifies the first letter of a word in a spreadsheet.
 
-// Use function to get a code number from your computer's character set in a spreadsheet.
+// Convert the first character of your text into its underlying numeric representation in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

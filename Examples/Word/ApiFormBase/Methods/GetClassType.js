@@ -1,8 +1,8 @@
-// Find out the class type of a form base object.
+// Identify the class type of a form object in a document.
 
-// How can I get the class type of a form base?
+// How do I get the class type of a form object in a document?
 
-// Get the class type of a form base and display it in the document.
+// Confirm what kind of object a form belongs to by printing its class type label.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});

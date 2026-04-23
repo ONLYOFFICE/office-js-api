@@ -1,8 +1,8 @@
-// Return the number of permutations for a given number of objects (with repetitions) that can be selected from the total objects in a spreadsheet.
+// Calculate the number of ways to arrange items when repetition is allowed in a spreadsheet.
 
-// How to return the number of permutations for a given number of objects with duplicates in a spreadsheet.
+// How do I find the count of arrangements when objects can be reused in a spreadsheet?
 
-// Use a function to claculate the number of permutations including duplicates in a spreadsheet.
+// Determine permutations where items can appear more than once in the selection in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

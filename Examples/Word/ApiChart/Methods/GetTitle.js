@@ -1,8 +1,8 @@
-// Get the chart title text in a document.
+// Read the title text of a chart in a document.
 
-// How do I get the title in a document?
+// How do I retrieve the current title of a chart in a document?
 
-// Get the title using a chart object in a document.
+// Capture a chart's heading to reuse or display it elsewhere in a document.
 
 const doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

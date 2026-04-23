@@ -1,8 +1,8 @@
-// Create a hex color and use it as a shape fill in a spreadsheet.
+// Define a color from a hex code and apply it as a shape fill in a spreadsheet.
 
-// How do I hex color in a spreadsheet?
+// How do I use a hex color code to fill a shape in a spreadsheet?
 
-// Hex color and display the result in a spreadsheet.
+// Paint a shape with a custom hex color in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const color = Api.HexColor('#DECADE');

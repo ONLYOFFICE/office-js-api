@@ -1,8 +1,8 @@
-// Specify that the contents of the current Range are displayed with two horizontal lines through each character displayed on the line in a document.
+// Draw two horizontal lines through a range of text to mark it as crossed out in a document.
 
-// How to strikethrough a text with two lines in a document.
+// How do I put a double strikethrough on a section of text in a document?
 
-// Create a text run object, double cross out it in a document.
+// Visually cancel out words by overlaying them with two crossing lines in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

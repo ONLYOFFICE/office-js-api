@@ -1,8 +1,8 @@
-// Add a reply to a comment in a spreadsheet.
+// Post a reply under an existing cell comment in a spreadsheet.
 
-// The comment is added to cell A1 containing a numeric value.
+// How do I attach a follow-up response to a comment already placed on a cell in a spreadsheet?
 
-// Retrieve the reply text with the specified author name and user id and display it in cell B3.
+// Extend a conversation on a cell by adding a reply with an author name to the original comment in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

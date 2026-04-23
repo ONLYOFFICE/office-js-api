@@ -1,8 +1,8 @@
-// Get the paragraph left side indentation in a spreadsheet.
+// Read the left indent value applied to a paragraph in a spreadsheet.
 
-// How to get a left indent of a paragraph in a spreadsheet.
+// How do I check how much space is added to the left side of a paragraph in a spreadsheet?
 
-// Get the left paragraph indent by the side in a spreadsheet.
+// Set a left indent on a paragraph and then retrieve the stored measurement in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

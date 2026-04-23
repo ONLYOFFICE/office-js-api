@@ -1,8 +1,8 @@
-// Get the data body range that a table sort applies to in a spreadsheet.
+// Retrieve the cell range that a table sort will reorder in a spreadsheet.
 
-// How to retrieve the range being sorted by the sort object in a spreadsheet.
+// How do I find out which cells are included in the sort operation in a spreadsheet?
 
-// Get the data range being sorted in a spreadsheet.
+// Identify the exact data area affected by a sort in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

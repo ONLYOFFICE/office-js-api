@@ -1,8 +1,8 @@
-// Get the subject of the current document in a document.
+// Read the subject field from the document's core properties in a document.
 
-// How to get the subject for a core properties in a document?
+// How do I retrieve the subject stored in a document's metadata in a document?
 
-// Get the subject and display the result in a document.
+// Verify that a subject was recorded correctly by printing its value into the document body in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

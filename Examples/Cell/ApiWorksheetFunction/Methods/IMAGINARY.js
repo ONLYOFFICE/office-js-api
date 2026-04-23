@@ -1,8 +1,8 @@
-// Return the imaginary coefficient of a complex number in a spreadsheet.
+// Extract the imaginary part of a complex number in a spreadsheet.
 
-// How to get the imaginary part of the complex number in a spreadsheet.
+// How do I read the imaginary coefficient in a spreadsheet?
 
-// Use a function to get an imaginary coefficient of the complex number in a spreadsheet.
+// Find the imaginary component of a complex number in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

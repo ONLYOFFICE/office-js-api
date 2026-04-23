@@ -1,8 +1,8 @@
-// Return the number of rows in a range in a spreadsheet.
+// Count the rows in a selected range in a spreadsheet.
 
-// How to count number of rows in a spreadsheet.
+// How do I find out how many rows are in a cell range in a spreadsheet?
 
-// Use a function to count number of rows in a spreadsheet.
+// Get the total number of rows within a specific area in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

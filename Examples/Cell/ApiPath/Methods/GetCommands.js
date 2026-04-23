@@ -1,8 +1,8 @@
-// Analyzes path commands of a star shape and display command details. Shows total command count and first command information in cells.
+// Retrieve all drawing commands from a custom shape path in a spreadsheet.
 
-// How can I get the commands using a geometry path in a spreadsheet?
+// How do I access every step in a shape's drawing sequence at once in a spreadsheet?
 
-// Get the commands for a geometry path in a spreadsheet.
+// Collect the full list of path instructions to inspect or process a shape's outline in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(100, 150, 200));

@@ -1,8 +1,8 @@
-// Get the form role in a document.
+// Read the role assigned to a signature form in a document.
 
-// How to get the role of a signature form.
+// How do I find out what role is set on a signature form in a document?
 
-// Retrieve the role of a created signature form and display it.
+// Confirm which signer role a signature form is associated with in a document.
 
 let doc = Api.GetDocument();
 let signatureForm = Api.CreateSignatureForm({"key": "Signature", "tip": "Please sign here", "placeholder": "Signature"});

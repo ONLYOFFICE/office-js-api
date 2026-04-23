@@ -1,8 +1,8 @@
-// Get the main animation sequence from a timeline in a presentation.
+// Access the primary animation sequence on a slide in a presentation.
 
-// How can I get the main sequence using a timeline in a presentation?
+// How do I get the default animation list for a slide in a presentation?
 
-// Get the main sequence for a timeline in a presentation.
+// Retrieve the main timeline sequence where automatic animations are placed in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

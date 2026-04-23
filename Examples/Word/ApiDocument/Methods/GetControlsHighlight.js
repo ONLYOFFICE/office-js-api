@@ -1,8 +1,8 @@
-// Return the highlight color of the content controls in the document.
+// Read the highlight color applied to all content controls in a document.
 
-// How to get the current highlight color of content controls in a document.
+// How do I get the current highlight color set on content controls in a document?
 
-// Set a highlight color on the content controls and retrieve it in a document.
+// Verify that a highlight was applied correctly by reading it back after setting it in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

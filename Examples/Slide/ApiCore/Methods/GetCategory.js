@@ -1,8 +1,8 @@
-// Get the category of the presentation using the core properties in a presentation.
+// Read the category from the presentation's metadata in a presentation.
 
-// How can I get the category using a core properties in a presentation?
+// How do I check what category a presentation is labeled as in a presentation?
 
-// Get the category for a core properties in a presentation.
+// Retrieve the category value stored in the presentation's core properties in a presentation.
 
 const presentation = Api.GetPresentation();
 const core = presentation.GetCore();

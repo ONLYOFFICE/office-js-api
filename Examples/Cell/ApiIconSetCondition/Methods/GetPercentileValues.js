@@ -1,8 +1,8 @@
-// Check if icon set uses percentile values in a spreadsheet.
+// Find out whether an icon set rule uses percentile-based thresholds in a spreadsheet.
 
-// How to determine if percentile values are used for icon set thresholds in a spreadsheet.
+// How do I check if an icon set rule measures thresholds as percentiles in a spreadsheet?
 
-// Check if the icon set rule uses percentile values for criteria in a spreadsheet.
+// Verify that the icon set rule distributes icons according to percentile values in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

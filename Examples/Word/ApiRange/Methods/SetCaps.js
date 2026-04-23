@@ -1,8 +1,8 @@
-// Specify that any lowercase characters in the current text Range are formatted for display only as their capital letter character equivalents.
+// Display a range of text in capital letters without changing the underlying content in a document.
 
-// How to make range text uppercase in a document.
+// How do I make lowercase letters appear as capitals across a text range in a document?
 
-// Update text letters of the range by converting them to capital letters in a document.
+// Force a section of text to render in uppercase for visual emphasis in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// Extracts control points from a cubic bezier curve in a presentation. Displays all control point coordinates in a text shape.
+// Get the first control point x coordinate of a curve in a presentation.
 
-// How to get the x0 for a path command in a presentation?
+// How do I find the starting control point position of a curve in a presentation?
 
-// Get the x0 and display the result in a presentation.
+// Read curve control points to verify bezier path geometry in a presentation.
 
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);

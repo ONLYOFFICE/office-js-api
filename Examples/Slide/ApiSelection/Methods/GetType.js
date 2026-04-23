@@ -1,8 +1,8 @@
-// Get the type of the selection in different scenarios in a presentation.
+// Identify the type of selection in different scenarios in a presentation.
 
-// How can I get the type using a selection in a presentation?
+// How do I determine what is selected in a presentation?
 
-// Get the type for a selection in a presentation.
+// Check the selection type before and after adding a shape in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

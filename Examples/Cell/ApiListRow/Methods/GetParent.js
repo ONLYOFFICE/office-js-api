@@ -1,8 +1,8 @@
-// Get the parent list object of a table row in a spreadsheet.
+// Retrieve the table that a given row belongs to in a spreadsheet.
 
-// How to navigate from a row back to its parent formatted table.
+// How do I navigate from a table row back to its parent table in a spreadsheet?
 
-// Get the parent formatted table from a row.
+// Access the owning table from a row reference so you can read or change table-level properties in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

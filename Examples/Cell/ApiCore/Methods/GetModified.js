@@ -1,8 +1,8 @@
-// Get the date when the current workbook was modified last time in a spreadsheet.
+// Read the date the workbook was last saved after changes were made in a spreadsheet.
 
-// How to get the modified for a core properties in a spreadsheet?
+// How do I find out when a workbook was most recently modified in a spreadsheet?
 
-// Get the modified and display the result in a spreadsheet.
+// Inspect the last-modified timestamp recorded in the document properties in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

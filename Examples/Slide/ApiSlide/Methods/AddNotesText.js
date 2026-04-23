@@ -1,8 +1,8 @@
-// Add text to the notes page of a slide in a presentation.
+// Add text to the notes section of a slide for speaker reference.
 
-// How can I add the notes text using a slide in a presentation?
+// Access the notes functionality and attempt to add a note message.
 
-// Add the notes text for a slide in a presentation.
+// Verify the result and display a confirmation message in a shape on the slide.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

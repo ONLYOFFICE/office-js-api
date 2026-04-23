@@ -1,8 +1,8 @@
-// Set and get the identifier of the current presentation using the core properties in a presentation.
+// Set and retrieve the identifier of a presentation in a presentation.
 
-// How to set identifier for a core properties in a presentation?
+// How do I set the identifier of a presentation in a presentation?
 
-// Set identifier and display the result in a presentation.
+// Retrieve and display the identifier as text in a presentation.
 
 const presentation = Api.GetPresentation();
 const core = presentation.GetCore();

@@ -1,8 +1,8 @@
-// Convert millimeters to pixels in a spreadsheet.
+// Turn a millimeter measurement into pixels in a spreadsheet.
 
-// How do I convert millimeters to pixels in a spreadsheet?
+// How do I convert millimeters to pixel units in a spreadsheet?
 
-// Convert millimeters to pixels and display the result in a spreadsheet.
+// Show the pixel equivalent of a given millimeter value in a spreadsheet.
 
 const millimeters = 100;
 const pixels = Api.MillimetersToPixels(millimeters);

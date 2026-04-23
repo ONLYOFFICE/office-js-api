@@ -1,8 +1,8 @@
-// Check the class type returned by a paragraph properties in a PDF document.
+// Identify the object type of paragraph properties in a PDF.
 
-// How do I check what type a paragraph properties object is in a PDF document?
+// How do I determine what type of object paragraph properties are in a PDF?
 
-// Retrieve and output the class type string for a paragraph properties in a PDF document.
+// Find the class name for paragraph property objects in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

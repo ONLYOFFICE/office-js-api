@@ -1,8 +1,8 @@
-// Retrieve the data binding of an inline content control in a document.
+// Read the data binding settings of an inline content control in a document.
 
-// How do I get the data binding in a document?
+// How do I get the data binding of an inline content control in a document?
 
-// Get the data binding using an inline content control object in a document.
+// Inspect the XML store reference linked to a content control to confirm its data source in a document.
 
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();

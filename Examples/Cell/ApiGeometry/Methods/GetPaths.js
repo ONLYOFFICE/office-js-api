@@ -1,8 +1,8 @@
-// Analyzes cloud shape path properties and display them in cells. Shows path count, dimensions, stroke and fill information.
+// Collect all drawing paths that define a shape's outline in a spreadsheet.
 
-// How do I get the paths in a spreadsheet?
+// How do I retrieve every outline segment belonging to a shape at once in a spreadsheet?
 
-// Get the paths using a geometry object in a spreadsheet.
+// Gather the full list of paths from a shape so each one can be inspected in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(100, 150, 200));

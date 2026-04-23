@@ -1,8 +1,8 @@
-// Retrieve the class type of an underline annotation in a PDF document.
+// Check what type of markup is applied to text in a PDF.
 
-// How to identify the class type of an underline annotation in a PDF document?
+// How do I find out what type of annotation mark has been used in a PDF?
 
-// Obtain the class type identifier of an underline annotation object in a PDF document.
+// Determine the kind of highlight or underline effect on text in a PDF.
 
 let doc = Api.GetDocument();
 let strikeoutAnnot = Api.CreateStrikeoutAnnot([84, 60, 231, 70]);

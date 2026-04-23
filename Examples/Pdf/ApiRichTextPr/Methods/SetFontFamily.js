@@ -1,8 +1,8 @@
-// Set font family property to rich text properties object in a PDF document.
+// Change the font typeface for text in a PDF.
 
-// How do I set font family in a PDF document?
+// How do I choose a different font for text in a PDF?
 
-// Set font family using a rich text properties object in a PDF document.
+// Select a font family for text in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);

@@ -1,8 +1,8 @@
-// Clear the signature form.
+// Remove all content from a signature field in a document.
 
-// How to clear the contents of a signature form.
+// How do I erase everything entered into a signature field in a document?
 
-// Clear the image from the signature form.
+// Reset a signature field to its empty state in a document.
 
 let doc = Api.GetDocument();
 let signatureForm = Api.CreateSignatureForm({"key": "Signature", "tip": "Please sign here", "placeholder": "Signature"});

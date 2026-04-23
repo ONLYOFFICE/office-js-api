@@ -1,8 +1,8 @@
-// Get nodes based on a specific XPath and display their values in a document.
+// Select child nodes from a custom XML node using a path query in a document.
 
-// How to get the nodes for a custom XML node in a document?
+// How do I retrieve matching child nodes from a custom XML node in a document?
 
-// Get the nodes and display the result in a document.
+// Traverse embedded XML data by querying for a set of elements under a given node in a document.
 
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();

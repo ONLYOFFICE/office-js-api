@@ -1,8 +1,8 @@
-// Check whether the complex form is filled.
+// Determine whether all sub-forms inside a complex form are filled in a document.
 
-// How to check if all sub-forms inside a complex form are filled.
+// How do I check if a complex form has been completely filled out in a document?
 
-// Create a complex form with a text sub-form and an uneditable "@mail" part, fill the text sub-form, and verify the complex form is filled.
+// Validate that a user has entered data in every required part of a form before submitting the document.
 
 let doc = Api.GetDocument();
 let complexForm = Api.CreateComplexForm({"key": "Email", "tip": "Enter your email", "placeholder": "Email"});

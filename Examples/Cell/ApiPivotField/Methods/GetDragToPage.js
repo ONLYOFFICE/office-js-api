@@ -1,8 +1,8 @@
-// Get a drag to page of a pivot field in a spreadsheet.
+// Check whether a pivot field can be moved to the page filter area in a spreadsheet.
 
-// How to get a pivot field drag to page.
+// How do I find out if a pivot field is allowed to be dragged to the page zone in a spreadsheet?
 
-// Create a pivot table, add data to it then get a drag to page of a specified pivot field.
+// Confirm that a pivot field supports use as a top-level filter above the pivot table in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

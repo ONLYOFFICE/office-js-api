@@ -1,8 +1,8 @@
-// Get element in a presentation.
+// Access a specific paragraph by its position in a shape in a presentation.
 
-// How to get an element from the content of a slide shape.
+// How do I retrieve a paragraph from a shape using its index number in a presentation?
 
-// Find an element from the shape using its index in a presentation.
+// Get the first paragraph from a shape and format it with numbering in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

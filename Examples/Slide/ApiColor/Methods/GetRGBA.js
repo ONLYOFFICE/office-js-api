@@ -1,8 +1,8 @@
-// Get the RGBA components of a shape fill color in a presentation.
+// Read the color channels (red, green, blue, and opacity) of a shape fill in a presentation.
 
-// How do I get the r g b an in a presentation?
+// How do I access the individual color values from a fill in a presentation?
 
-// Get the r g b an using a color object in a presentation.
+// Extract color channel values from an applied color in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

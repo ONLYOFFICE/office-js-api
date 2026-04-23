@@ -1,8 +1,8 @@
-// Return the gamma distribution in a spreadsheet.
+// Return the gamma distribution.
 
-// How to calculate the gamma distribution in a spreadsheet.
+// Calculate the probability distribution for gamma-distributed values.
 
-// Use a function to get the result from a gamma distribution in a spreadsheet.
+// Determine gamma distribution using GAMMADIST with shape and scale parameters.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

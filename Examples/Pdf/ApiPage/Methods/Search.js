@@ -1,8 +1,8 @@
-// Search a some word in page and add a highlight to it.
+// Find and locate all instances of a word on a page in a PDF.
 
-// How do I search in a PDF document?
+// How do I search for text on a page in a PDF?
 
-// Search using a page object.
+// Look up a specific word and identify all matching locations in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

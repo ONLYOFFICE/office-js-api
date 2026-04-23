@@ -1,8 +1,8 @@
-// Set values to the specified chart series in a document.
+// Update the data values of a chart series in a document.
 
-// How to set values to the specified chart object in a document.
+// How do I replace the numbers in a chart series in a document?
 
-// Create a chart, set its properties and its series values in a document.
+// Refresh a chart with revised figures without rebuilding the entire chart from scratch in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

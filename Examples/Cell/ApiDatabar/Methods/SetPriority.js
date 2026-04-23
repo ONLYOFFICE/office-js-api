@@ -1,8 +1,8 @@
-// Set the priority value of a data bar formatting rule.
+// Control the order in which a data bar formatting rule is evaluated relative to others in a spreadsheet.
 
-// How to change the evaluation priority of a data bar conditional formatting.
+// How do I decide which conditional formatting rule takes precedence when multiple rules overlap in a spreadsheet?
 
-// Set the priority value of the data bar formatting rule.
+// Resolve conflicts between overlapping formatting rules by assigning a specific priority number in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

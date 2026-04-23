@@ -1,8 +1,8 @@
-// Set the background color to the current form.
+// Apply a fill color to the background of a signature field in a document.
 
-// How to color the signature form background.
+// How do I change the background color of a signature field in a document?
 
-// Set the rose color as a background color to the signature form.
+// Highlight a signature field by giving it a distinct background color in a document.
 
 let doc = Api.GetDocument();
 let signatureForm = Api.CreateSignatureForm({"key": "Signature", "tip": "Please sign here", "placeholder": "Signature"});

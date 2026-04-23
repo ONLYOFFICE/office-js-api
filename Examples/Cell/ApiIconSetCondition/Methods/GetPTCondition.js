@@ -1,8 +1,8 @@
-// Get the pivot table condition of an icon set rule in a spreadsheet.
+// Check whether an icon set rule is linked to a pivot table condition in a spreadsheet.
 
-// How to retrieve pivot table condition settings from icon set conditional formatting.
+// How do I find out if an icon set formatting rule is tied to a pivot table in a spreadsheet?
 
-// Get the pivot table condition object from the icon set rule in a spreadsheet.
+// Confirm whether a pivot table condition is associated with an icon set formatting rule in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

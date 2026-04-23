@@ -1,8 +1,8 @@
-// Check the class type returned by an OLE object in a presentation.
+// Determine the type of an embedded object in a presentation.
 
-// How do I check what type an OLE object object is in a presentation?
+// How do I find the class type of an embedded object in a presentation?
 
-// Retrieve and output the class type string for an OLE object in a presentation.
+// Get the class type of a linked or embedded object and display it in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

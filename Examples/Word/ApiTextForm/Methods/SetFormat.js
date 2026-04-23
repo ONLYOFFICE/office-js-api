@@ -1,8 +1,8 @@
-// Set the format for a text field in a document.
+// Assign an input format to a text field in a document.
 
-// Create a text form, set its format to accept digits only, and add it to the document.
+// How do I restrict a text field to accept only a certain type of input in a document?
 
-// How to set the format of the text form object.
+// Enforce a structured input pattern on a text field to guide user entries in a document.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({ key: "Phone", placeholder: "Enter digits" });

@@ -1,8 +1,8 @@
-// Return the number of days from the beginning of the coupon period to the settlement date in a spreadsheet.
+// Calculate days elapsed since the coupon period began in a spreadsheet.
 
-// How to find the number of days from the beginning of the coupon period to the settlement date in a spreadsheet.
+// What is the interval from the start of coupon to settlement in a spreadsheet?
 
-// Use function to get days count from the beginning of the coupon period to the settlement date in a spreadsheet.
+// Determine the duration between coupon inception and transaction date in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

@@ -1,8 +1,8 @@
-// Remove a content control and its content in a document.
+// Remove an inline content control from a document.
 
-// How to delete inline text element in a document.
+// How do I delete an inline content control in a document?
 
-// Add inline content control and then clear its content in a document.
+// Replace a content control with plain text to clean up unwanted input fields in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

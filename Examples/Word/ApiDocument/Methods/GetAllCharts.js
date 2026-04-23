@@ -1,8 +1,8 @@
-// Get a collection of chart objects from the document in a document.
+// Retrieve all charts from a document and add gridlines to one of them in a document.
 
-// Get all charts from the document.
+// How do I access every chart in a document so I can modify a specific one in a document?
 
-// How to retrieve all charts and set horizontal gridlines to the first one in a document.
+// Style a particular chart after gathering the full list of chart objects already placed in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// Get the bold property of the specified font in a spreadsheet.
+// Read whether a specific range of characters is formatted as bold in a spreadsheet.
 
-// How to know whether a font style of characters is bold in a spreadsheet.
+// How do I check if certain characters in a cell are currently displayed in bold in a spreadsheet?
 
-// Get a boolean value that represents whether a font is bold or not and show the value in the worksheet.
+// Inspect the bold setting of a character range and display the result in a cell in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B1");

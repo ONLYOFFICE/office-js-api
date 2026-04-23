@@ -1,8 +1,8 @@
-// Sort a formatted table by the first column in ascending order.
+// Run a sort on a formatted table using pre-configured sort fields in a spreadsheet.
 
-// How to apply sort settings to a formatted table.
+// How do I trigger the sort after defining which columns to sort by in a spreadsheet?
 
-// Apply the configured sort settings to the table in a spreadsheet.
+// Execute the pending sort rules to reorder the table's rows in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

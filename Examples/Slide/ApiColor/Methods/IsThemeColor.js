@@ -1,8 +1,8 @@
-// Check if the color used in a shape fill is a theme color in a presentation.
+// Determine whether a fill color comes from the design theme or is a custom color in a presentation.
 
-// How can I is theme color using a color in a presentation?
+// How do I check if a color is a theme color or a standalone color in a presentation?
 
-// Is theme color for a color in a presentation.
+// Verify if a fill uses a theme-based color in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

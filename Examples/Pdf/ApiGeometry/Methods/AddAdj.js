@@ -1,8 +1,8 @@
-// Create adjustable geometry with guides and connection points for a pdf document. Displays adjustment value and apply custom geometry to shape.
+// Create a parameter that controls the shape's appearance in a PDF.
 
-// How can I add the adj using a geometry in a PDF document?
+// How do I add a value that changes how a shape is drawn in a PDF?
 
-// Add the adj for a geometry in a PDF document.
+// Define an adjustment control and apply it to a shape in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

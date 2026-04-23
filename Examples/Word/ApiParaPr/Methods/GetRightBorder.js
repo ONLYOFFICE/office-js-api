@@ -1,8 +1,8 @@
-// Get the right border properties of the current paragraph in a document.
+// Retrieve the right border style and size applied to a paragraph in a document.
 
-// Get the right border of the paragraph and display its type in the document.
+// How do I read the right border settings of a paragraph in a document?
 
-// How to get the right border of the paragraph properties object in a document.
+// Inspect a paragraph's right border to display its type and size values in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

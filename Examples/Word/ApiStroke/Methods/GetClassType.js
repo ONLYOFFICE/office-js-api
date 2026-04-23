@@ -1,8 +1,8 @@
-// Find out the class type of a stroke object in a document.
+// Read the class type of a border style object in a document.
 
-// How can I get the class type of a stroke in a document?
+// How do I find out what kind of object a border style is in a document?
 
-// Get the class type of a stroke and display it in the document.
+// Identify the category of a border style and display the result in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// Get first page and set rotate.
+// Access a single page from a PDF.
 
-// How to get the page for a document?
+// How do I work with a specific page in a PDF?
 
-// Get the page and display the result in a PDF document.
+// Retrieve a page and rotate it in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

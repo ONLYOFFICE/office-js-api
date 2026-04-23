@@ -1,8 +1,8 @@
-// Get a column grand in a spreadsheet.
+// Control whether a pivot table shows a grand total row for columns in a spreadsheet.
 
-// How to select a column grand of a table in a spreadsheet.
+// How do I turn the column grand total on or off in a pivot table in a spreadsheet?
 
-// Create a pivot table, add data to it then get its column grand in a spreadsheet.
+// Hide or reveal the column totals summary at the bottom of a pivot table in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

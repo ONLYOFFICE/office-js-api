@@ -1,8 +1,8 @@
-// Unsubscribes from the "onWorksheetChange" event.
+// Stop listening for cell change notifications after they are no longer needed in a spreadsheet.
 
-// Detach from an event in a spreadsheet.
+// How do I unregister a previously attached change listener in a spreadsheet?
 
-// How to stop event handling in a spreadsheet.
+// Prevent a handler from firing on future edits by removing it from the event queue in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");

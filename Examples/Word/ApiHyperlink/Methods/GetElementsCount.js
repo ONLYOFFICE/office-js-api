@@ -1,8 +1,8 @@
-// Get a number of elements in the hyperlink in a document.
+// Count the elements contained inside a hyperlink in a document.
 
-// How to get the number of elements of the hyperlink in a document.
+// How do I find out how many elements a hyperlink holds in a document?
 
-// Add a hyperlink to the paragraph and show its elements count in a document.
+// Check the total number of runs and text pieces within a hyperlink in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// Set the description of the current workbook using the core properties in a spreadsheet.
+// Write a short summary of a workbook's purpose into its document properties in a spreadsheet.
 
-// How do I set description in a spreadsheet?
+// How do I add a description to a workbook's metadata in a spreadsheet?
 
-// Set description using a core properties object in a spreadsheet.
+// Attach a plain-text explanation to the workbook so others know what it contains in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

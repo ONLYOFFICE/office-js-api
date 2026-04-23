@@ -1,8 +1,8 @@
-// Get the 1-based priority of a sort field in a spreadsheet.
+// Find the rank of a sort criterion among all active sorting rules in a spreadsheet.
 
-// How to check the position of a sort field within the sort order in a spreadsheet.
+// How do I check which position a particular sort field occupies in the sorting order in a spreadsheet?
 
-// Get the 1-based priority of a sort field in a spreadsheet.
+// Determine whether a sort field is applied first, second, or later when ordering table rows in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

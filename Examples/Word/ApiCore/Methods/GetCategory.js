@@ -1,8 +1,8 @@
-// Get the category of the document using the core properties in a document.
+// Read the category field from a document's built-in core properties in a document.
 
-// How do I get the category in a document?
+// How do I retrieve the category metadata stored in a document?
 
-// Get the category using a core properties object in a document.
+// Inspect the category to verify or display how a document is classified within a collection in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

@@ -1,8 +1,8 @@
-// Set the revision of the current document in a document.
+// Assign a revision label to a document in a document.
 
-// How do I set revision in a document?
+// How do I mark a document with a specific revision identifier?
 
-// Set revision using a core properties object in a document.
+// Version-control a document by embedding a revision string in its core metadata in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

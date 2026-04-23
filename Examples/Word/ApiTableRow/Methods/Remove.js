@@ -1,8 +1,8 @@
-// Remove the table row in a document.
+// Delete a row from a table in a document.
 
-// Delete the row from the table in a document.
+// How do I permanently remove an unwanted row from a table in a document?
 
-// How to remove the first row in a document.
+// Eliminate a specific row to shorten or clean up a table in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

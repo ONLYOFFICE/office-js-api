@@ -1,8 +1,8 @@
-// Return the quartile of a data set, based on percentile values from 0..1, inclusive in a spreadsheet.
+// Find the quartile using inclusive percentile calculation in a spreadsheet.
 
-// How to get the inclusive quartile of a data set in a spreadsheet.
+// What is the quartile boundary including all data values in a spreadsheet?
 
-// Use a function to calculate an inclusive fourth part of a data set in a spreadsheet.
+// Calculate quartile position based on percentiles from 0 to 1 inclusive in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

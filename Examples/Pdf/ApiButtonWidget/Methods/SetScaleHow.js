@@ -1,8 +1,8 @@
 // Set button widget scale how type in a PDF document.
 
-// How do I set scale how in a PDF document?
+// Apply scale how type such as 'proportional' to a button widget.
 
-// Set scale how using a button widget object in a PDF document.
+// Display the set scale how value using the widget label.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

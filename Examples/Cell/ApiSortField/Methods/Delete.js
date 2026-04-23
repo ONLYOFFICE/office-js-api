@@ -1,8 +1,8 @@
-// Remove a sort field from the sort fields collection in a spreadsheet.
+// Remove one of the sort criteria from a table's sorting rules in a spreadsheet.
 
-// How to delete an individual sort field from a table's sort configuration in a spreadsheet.
+// How do I drop a specific sort criterion so the table ignores that column in a spreadsheet?
 
-// Remove a sort field from the collection in a spreadsheet.
+// Trim the active sort rules down by deleting an unwanted field in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

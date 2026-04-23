@@ -1,8 +1,8 @@
-// Check the class type returned by a text properties in a spreadsheet.
+// Identify the object type of a text properties block in a spreadsheet.
 
-// How do I check what type a text properties object is in a spreadsheet?
+// How do I find out what kind of object holds text formatting settings in a spreadsheet?
 
-// Retrieve and output the class type string for a text properties in a spreadsheet.
+// Display the type label of a text properties object inside a shape in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

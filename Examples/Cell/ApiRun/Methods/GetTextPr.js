@@ -1,8 +1,8 @@
-// Get the text properties of the run in a spreadsheet.
+// Read the text formatting properties of a run in a spreadsheet.
 
-// How to change the text properties in a spreadsheet.
+// How do I check what font size and style a text run is using in a spreadsheet?
 
-// Create a text object, set its font size, justification, etc in a spreadsheet.
+// Inspect the current formatting of a run before applying new styles in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

@@ -1,8 +1,8 @@
-// Set the form role in a document.
+// Assign a role to a signature field in a document.
 
-// How to set the role of a signature form.
+// How do I specify who is responsible for signing a particular signature field in a document?
 
-// Add a role to the document, assign it to a signature form, and display the result.
+// Label a signature field with a named role to indicate the intended signer in a document.
 
 let doc = Api.GetDocument();
 let roles = doc.GetFormRoles();

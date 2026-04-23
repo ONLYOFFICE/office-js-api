@@ -1,8 +1,8 @@
-// Set the style to the current Range in a document.
+// Apply a named style to a selected portion of text in a document.
 
-// How to style a text of the range in a document.
+// How do I give a range of words a predefined look such as a heading style in a document?
 
-// Get a range, apply "Heading 2" style to it in a document.
+// Reformat highlighted text by assigning it one of the built-in styles available in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

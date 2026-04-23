@@ -1,8 +1,8 @@
-// Get the form key in a document.
+// Read the unique key assigned to a signature form in a document.
 
-// How to get a key of a signature form.
+// How do I find out what key is set on a signature form in a document?
 
-// Retrieve key of a created signature form object and display it.
+// Confirm which identifier label a signature form carries in a document.
 
 let doc = Api.GetDocument();
 let signatureForm = Api.CreateSignatureForm({"key": "Signature", "tip": "Please sign here", "placeholder": "Signature"});

@@ -1,8 +1,8 @@
-// Get a shape in which the form is placed to control the position and size of the fixed size form frame in a document.
+// Retrieve the shape wrapping a fixed-size checkbox form to control its position and size in a document.
 
-// Get wrapper shape of the checkbox form.
+// How do I access the container shape of a fixed-size form in a document?
 
-// Set outline to the shape which contains the current form.
+// Apply a custom outline to the shape frame surrounding each checkbox form in a document.
 
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});

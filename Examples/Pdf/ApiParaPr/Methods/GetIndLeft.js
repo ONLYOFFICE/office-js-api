@@ -1,8 +1,8 @@
-// Get the paragraph left side indentation in a PDF document.
+// Retrieve the left margin indentation value from a paragraph in a PDF.
 
-// How to return a left side identation of a paragraph property in a PDF document.
+// How do I get the left side indent measurement in a PDF?
 
-// Return a left side indentation of a text property from the page.
+// Obtain the left edge offset amount in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

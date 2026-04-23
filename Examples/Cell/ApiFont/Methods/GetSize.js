@@ -1,8 +1,8 @@
-// Get the font size property of the specified font in a spreadsheet.
+// Read the font size applied to a range of characters in a spreadsheet.
 
-// How to determine a font size of characters in a spreadsheet.
+// How do I find out the point size of the text used for specific characters in a cell in a spreadsheet?
 
-// Get the size of a font and display it in the worksheet.
+// Set a font size on a group of characters, then retrieve and display that size in a cell in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B1");

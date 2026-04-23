@@ -1,8 +1,8 @@
-// Get the selection quads from document and highlight it.
+// Highlight selected text regions in a PDF.
 
-// How to get the selection quads for a document?
+// How do I mark the areas where text is selected in a PDF?
 
-// Get the selection quads and display the result in a PDF document.
+// Get the boundaries of selected text and apply highlighting in a PDF.
 
 let doc = Api.GetDocument();
 doc.SetSelection(0, {x: 10, y: 10}, 0, {x: 100, y: 100});

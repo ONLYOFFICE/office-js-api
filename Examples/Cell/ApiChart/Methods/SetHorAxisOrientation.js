@@ -1,8 +1,8 @@
-// Specify the direction of the data displayed on the horizontal axis in a spreadsheet.
+// Reverse the direction in which categories are plotted along the horizontal axis of a chart in a spreadsheet.
 
-// Set the orientation of the values on the horizontal axis in a spreadsheet.
+// How do I flip the left-to-right order of values on the horizontal axis of a chart in a spreadsheet?
 
-// How to change the direction of the values on the horizontal axis in a spreadsheet.
+// Mirror the horizontal axis so that chart categories run from right to left in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

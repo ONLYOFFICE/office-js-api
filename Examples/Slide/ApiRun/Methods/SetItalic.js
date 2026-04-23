@@ -1,8 +1,8 @@
-// Set the italic property to the text character in a presentation.
+// Set text to italic style in a presentation.
 
-// How to make text run italic in a presentation.
+// Apply italic formatting to emphasize text within a presentation.
 
-// Create a new text run and make its style italic in a presentation.
+// Create a text run with italic formatting applied.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// Get the pivot table condition object from an unique values conditional formatting rule.
+// Check whether a unique-values conditional formatting rule has a pivot table scope condition in a spreadsheet.
 
-// How to retrieve pivot table condition settings from unique values conditional formatting.
+// How do I find out if a unique-values rule is linked to a pivot table scope in a spreadsheet?
 
-// Get the pivot table condition object from the unique values rule in a spreadsheet.
+// Detect the pivot table association of a unique-values formatting rule in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

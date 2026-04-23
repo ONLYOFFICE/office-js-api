@@ -1,8 +1,8 @@
-// Get the paragraph first line indentation in a presentation.
+// Check the first line indentation of a paragraph in a presentation.
 
-// How to return the first line identation of a paragraph property in a presentation.
+// How do I read the first line indentation value from a paragraph in a presentation?
 
-// Return the first line indentation of a text property from the slide.
+// Retrieve the indentation distance set for the first line of text in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

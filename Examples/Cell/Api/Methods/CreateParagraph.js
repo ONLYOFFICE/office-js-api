@@ -1,8 +1,8 @@
-// Create a new paragraph in a spreadsheet.
+// Insert a new text paragraph into a shape placed on a sheet in a spreadsheet.
 
-// How to add a text in a shape in a spreadsheet.
+// How do I add a separate block of text as its own paragraph inside a shape in a spreadsheet?
 
-// Create a text paragraph for a shape in a spreadsheet.
+// Build and place a standalone text block within a shape's content area in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

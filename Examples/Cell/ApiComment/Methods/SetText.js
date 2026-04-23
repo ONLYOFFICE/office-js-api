@@ -1,8 +1,8 @@
-// Set the comment text in a spreadsheet.
+// Update the written message of an existing comment in a spreadsheet.
 
-// How to change a comment text in a spreadsheet.
+// How do I replace the text inside a comment with new content in a spreadsheet?
 
-// Replace a comment text with a new text in a spreadsheet.
+// Overwrite an outdated comment message with a revised note in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

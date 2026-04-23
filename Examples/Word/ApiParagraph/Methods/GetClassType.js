@@ -1,8 +1,8 @@
-// Check the class type returned by a paragraph in a document.
+// Identify the class type of a paragraph object in a document.
 
-// How do I check what type a paragraph object is in a document?
+// How do I determine what type of object a paragraph is in a document?
 
-// Retrieve and output the class type string for a paragraph in a document.
+// Confirm an object is a paragraph before applying paragraph-specific operations in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

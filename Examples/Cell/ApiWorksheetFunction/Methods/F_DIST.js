@@ -1,8 +1,8 @@
-// Return the (left-tailed) F probability distribution (degree of diversity) for two data sets in a spreadsheet.
+// Return the (left-tailed) F probability distribution for two data sets.
 
-// How to get the F probability distribution (degree of diversity) in a spreadsheet.
+// Calculate the left-tailed probability of F-distributed values.
 
-// Use function to calculate a left-tailed F probability distribution in a spreadsheet.
+// Determine F distribution using F_DIST with specified degrees of freedom.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

@@ -1,8 +1,8 @@
-// Get current paragraph from rich content in a PDF document.
+// Access the active paragraph you are currently editing in a PDF.
 
-// How to get current paragraph for a rich content in a PDF document?
+// How do I get the paragraph I am working on in rich content in a PDF?
 
-// Get current paragraph and display the result in a PDF document.
+// Retrieve the paragraph being modified in formatted text in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);

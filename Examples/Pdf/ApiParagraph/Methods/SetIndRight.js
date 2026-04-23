@@ -1,8 +1,8 @@
-// Set the paragraph right side indentation in a PDF document.
+// Add right margin spacing to a paragraph in a PDF.
 
-// How to set paragraph's right side indentation size in a PDF document.
+// How do I indent text from the right edge in a PDF?
 
-// Resize the right side indentation of a text from a paragraph in a PDF document.
+// Push paragraph content away from the right side in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// Return the arctangent of a number in a spreadsheet.
+// Calculate the arctangent of a number in a spreadsheet.
 
-// How to get an arctangent of a number in a spreadsheet.
+// Find an angle in radians from a decimal value in a spreadsheet.
 
-// Use function to get an arctangent of a number in a spreadsheet.
+// Determine what angle produces a specific tangent ratio in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

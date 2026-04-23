@@ -1,8 +1,8 @@
-// Get the current paragraph from the document content in a document.
+// Retrieve the paragraph at the current cursor position from a document content in a document.
 
-// How do I get current paragraph in a document?
+// How do I get the active paragraph inside a document content container in a document?
 
-// Get current paragraph using a document content object.
+// Append text to whichever paragraph is focused without referencing it by index.
 
 const doc = Api.GetDocument();
 const paragraph = doc.GetElement(0);

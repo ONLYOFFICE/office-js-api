@@ -1,8 +1,8 @@
-// Check the class type returned by a scheme color in a PDF document.
+// Identify the type of a color scheme object in a PDF.
 
-// How do I check what type a scheme color object is in a PDF document?
+// What kind of object is a scheme color in a PDF?
 
-// Retrieve and output the class type string for a scheme color in a PDF document.
+// Determine the class name of a color scheme in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// Set color property to rich text properties object in a PDF document.
+// Change the color of text in a PDF.
 
-// How can I set color using a rich text properties in a PDF document?
+// How do I change text color in a PDF?
 
-// Set color for a rich text properties in a PDF document.
+// Apply a color to text formatting in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);

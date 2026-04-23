@@ -1,8 +1,8 @@
-// Create a square annotation and get its mod date in a PDF document.
+// Retrieve the last modification date of an annotation in a PDF.
 
-// How can I get the mod date using an annotation in a PDF document?
+// When was an annotation last modified in a PDF?
 
-// Get the mod date for an annotation in a PDF document.
+// Check the last update timestamp of an annotation in a PDF.
 
 let doc = Api.GetDocument();
 let squareAnnot = Api.CreateSquareAnnot([10, 10, 160, 32]);

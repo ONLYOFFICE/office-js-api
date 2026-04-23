@@ -1,8 +1,8 @@
-// Remove a single slide from the presentation in a presentation.
+// Delete a single slide from a presentation.
 
-// How to remove a slide at a specific position from the presentation.
+// How do I remove a slide at a specific position in a presentation?
 
-// Delete a slide at the specified index from the presentation.
+// Remove the second slide and display a confirmation message.
 
 const presentation = Api.GetPresentation();
 const slide1 = presentation.GetSlideByIndex(0);

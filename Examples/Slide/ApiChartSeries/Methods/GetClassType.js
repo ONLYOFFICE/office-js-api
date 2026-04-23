@@ -1,8 +1,8 @@
-// Retrieve the class type of a chart series in a presentation.
+// Retrieve the class type identifier string for a chart series object.
 
-// How to identify the class type of a chart series in a presentation?
+// Extract and display the object type metadata of a chart series.
 
-// Obtain the class type identifier of a chart series object in a presentation.
+// Get the class type of a series and output it as the slide title text.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

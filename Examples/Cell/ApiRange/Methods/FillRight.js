@@ -1,8 +1,8 @@
-// Fill the selected range to the right from the values in the leftmost column in a spreadsheet.
+// Repeat the content of the leftmost column across all columns to the right in a spreadsheet.
 
-// How to copy values from the left column of a range to all columns to the right in a spreadsheet.
+// How do I propagate values and formulas rightward through a row range in a spreadsheet?
 
-// Set text, number and formula source values, then fill right to show growing numbers.
+// Extend data from the first column into every empty column after it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B2").SetValue("Alice");

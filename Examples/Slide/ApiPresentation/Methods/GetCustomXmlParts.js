@@ -1,8 +1,8 @@
-// Get the custom XML manager, add a new XML part, and retrieve it by its ID in a presentation.
+// Access and manage custom XML parts in the presentation.
 
-// How to get custom XML parts from the presentation.
+// Add custom XML content and retrieve it by ID.
 
-// Get the custom XML parts manager in a presentation.
+// Display the retrieved XML text in a shape.
 
 let presentation = Api.GetPresentation();
 let xmlManager = presentation.GetCustomXmlParts();

@@ -1,8 +1,8 @@
-// Specify that the contents of the run are displayed along with a line appearing directly below the character (less than all the spacing above and below the characters on the line) in a PDF document.
+// Add an underline to text in a PDF.
 
-// How to underline a text in a PDF document.
+// How do I underline text in a PDF?
 
-// Get the text properties of the run and underline its text in a PDF document.
+// Display a line beneath characters in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

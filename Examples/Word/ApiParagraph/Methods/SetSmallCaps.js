@@ -1,8 +1,8 @@
-// Specify that all the small letter characters in this paragraph are formatted for display only as their capital letter character equivalents which are two points smaller than the actual font size specified for this text.
+// Format paragraph text to appear as small capital letters in a document.
 
-// How to create a paragraph with the font set to small capitalized letters in a document.
+// How do I display lowercase letters as smaller uppercase letters in a paragraph in a document?
 
-// Make the paragraph text letters lowercase in a document.
+// Render all paragraph characters in a reduced capital letter style in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

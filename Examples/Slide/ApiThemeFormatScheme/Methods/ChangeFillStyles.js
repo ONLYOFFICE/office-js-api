@@ -1,8 +1,8 @@
-// Set the fill styles to the current theme format scheme.
+// Change the fill styles in a theme format scheme in a presentation.
 
-// How to change fill styles of a format scheme.
+// How do I update the fill styles of a format scheme in a presentation?
 
-// Get format scheme and update its fill styles, adding pattern, solid and radial fills.
+// Get a format scheme and replace its fill styles in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

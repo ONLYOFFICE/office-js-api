@@ -1,6 +1,6 @@
 // Set size to the shape in a presentation.
 
-// How to resize a drawing in a presentation.
+// Size controls the dimensions of a shape on the slide.
 
 // Get a shape object from a slide and set its size.
 

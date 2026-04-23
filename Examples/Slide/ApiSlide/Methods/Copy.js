@@ -1,8 +1,8 @@
-// Create a copy of the current slide object.
+// Create a copy of a slide in a presentation.
 
-// How to create a copy of the slide.
+// How do I copy a slide in a presentation?
 
-// Create a duplicate slide and add it to the presentation.
+// Add the copied slide to the presentation in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

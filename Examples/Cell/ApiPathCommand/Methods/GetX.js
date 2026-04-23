@@ -1,8 +1,8 @@
-// Analyzes path commands of a star shape and display command details. Shows total command count and first command information in cells.
+// Read the horizontal position of a path command's endpoint and display it in a spreadsheet.
 
-// How can I get the x using a path command in a spreadsheet?
+// How do I find the X coordinate of a drawing command on a shape in a spreadsheet?
 
-// Get the x for a path command in a spreadsheet.
+// Confirm where a path step lands horizontally within a shape's drawing area in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(100, 150, 200));

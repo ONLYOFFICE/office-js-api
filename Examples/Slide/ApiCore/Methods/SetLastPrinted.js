@@ -1,8 +1,8 @@
-// Set and get the date when the current presentation was printed last time in a presentation.
+// Record when a presentation was last printed in a presentation.
 
-// How to set last printed for a core properties in a presentation?
+// How do I track the last print date of a presentation?
 
-// Set last printed and display the result in a presentation.
+// Store and retrieve the last printed timestamp for a presentation.
 
 const presentation = Api.GetPresentation();
 const core = presentation.GetCore();

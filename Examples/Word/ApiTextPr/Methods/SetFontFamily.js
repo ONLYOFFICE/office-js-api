@@ -1,8 +1,8 @@
-// Set all 4 font slots with the specified font family in a document.
+// Change the font family applied to text in a document.
 
-// How to change the text font family in a document.
+// How do I apply a different typeface to text in a document?
 
-// Create a text run object and set the "Comic Sans MS" font faminy to it in a document.
+// Switch all text to a specific font by updating the default text properties in a document.
 
 let doc = Api.GetDocument();
 let textPr = doc.GetDefaultTextPr();

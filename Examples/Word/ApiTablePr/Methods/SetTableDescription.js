@@ -1,8 +1,8 @@
-// Set the table description in a document.
+// Assign a descriptive text label to a table in a document.
 
-// How to display the table description in the document.
+// How do I attach a written description to a table in a document?
 
-// Get the table description from the table properties in a document.
+// Give a table a readable summary that can be retrieved later in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

@@ -1,8 +1,8 @@
-// Return the rank of a number in a list of numbers: its size relative to other values in the list. If more than one value has the same rank, the top rank of that set of values is returned in a spreadsheet.
+// Find the rank of a value in a list, giving the highest rank to ties in a spreadsheet.
 
-// How to estimate a rank of a number from the list, return top if there are multiple in a spreadsheet.
+// How do I rank a number when tied with other equal values in a spreadsheet?
 
-// Use a function to estimate rank of the a number from the list in a spreadsheet.
+// Calculate a value's position where duplicate items share the top rank in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

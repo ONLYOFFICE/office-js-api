@@ -1,8 +1,8 @@
-// Get the parent object for the specified collection in a spreadsheet.
+// Trace back from an areas collection to the original range it belongs to in a spreadsheet.
 
-// How to get a parent of the collection in a spreadsheet.
+// How do I find the range that owns an areas collection in a spreadsheet?
 
-// Find a collection parent of the selected range in a spreadsheet.
+// Navigate up from a group of areas to the single range that contains them all in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B1:D1");

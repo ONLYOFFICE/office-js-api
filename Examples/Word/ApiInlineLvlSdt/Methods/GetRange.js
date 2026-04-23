@@ -1,8 +1,8 @@
-// Get a Range object that represents the part of the document contained in the specified content control in a document.
+// Extract a text range from within an inline content control in a document.
 
-// How to get range of the inline text control in a document.
+// How do I select a specific portion of text inside an inline content control in a document?
 
-// Get the range where the inline content control is located in a document.
+// Apply bold formatting to a substring inside a content control by targeting its range in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// How to set an outline to the marker in a PDF document.
+// Change the border style of the data point symbols in a chart in a PDF.
 
-// Create a chart, set its properties and its marker outline in a PDF document.
+// How do I add a border to markers in a chart in a PDF?
 
-// Set marker out line for a chart in a PDF document.
+// Apply a stroke to the symbols that represent data in a chart in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

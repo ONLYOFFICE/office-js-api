@@ -1,8 +1,8 @@
-// Create a square annotation and get its border color in a PDF document.
+// Check the border color of an annotation in a PDF.
 
-// How to get the border color for an annotation in a PDF document?
+// How can I find the color of an annotation's outline in a PDF?
 
-// Get the border color and display the result in a PDF document.
+// Read the border color value from an annotation in a PDF.
 
 let doc = Api.GetDocument();
 let squareAnnot = Api.CreateSquareAnnot([10, 10, 160, 32]);

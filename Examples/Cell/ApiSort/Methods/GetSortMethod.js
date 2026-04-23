@@ -1,8 +1,8 @@
-// Get the sort method of a table sort object in a spreadsheet.
+// Read the sorting method used for Chinese characters in a table in a spreadsheet.
 
-// How to check whether sorting uses PinYin or stroke order for Chinese characters in a spreadsheet.
+// How do I find out whether the sort orders Chinese text by pronunciation or stroke count in a spreadsheet?
 
-// Get the sort method used for Chinese characters in a spreadsheet.
+// Determine which algorithm governs the ordering of Chinese-language cell values in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

@@ -1,8 +1,8 @@
-// Return the next coupon date after the settlement date in a spreadsheet.
+// Find the date of the next coupon payment in a spreadsheet.
 
-// How to find the next coupon date in a spreadsheet.
+// What is the upcoming coupon maturity after settlement in a spreadsheet?
 
-// Use function to get the next coupon date after the settlement date in a spreadsheet.
+// Identify when your next coupon interest becomes payable in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

@@ -1,8 +1,8 @@
-// Get a content control that contains the content control in a document.
+// Find the outer content control that wraps a nested content control in a document.
 
-// How to get the parent content control for a block-level content control in a document?
+// How do I access the parent content control of a nested content control in a document?
 
-// Get the parent content control and display the result in a document.
+// Nest one content control inside another and then name the outer one in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

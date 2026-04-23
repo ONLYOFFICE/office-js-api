@@ -1,8 +1,8 @@
-// Get the source type of a formatted table.
+// Retrieve the data source type of a table in a spreadsheet.
 
-// How to determine the data source type of a table in a spreadsheet.
+// How do I find out where a table gets its data from in a spreadsheet?
 
-// For a range-based table the source type is always "xlSrcRange"; other types require an external data connection in a spreadsheet.
+// Identify whether a table draws from a local range or an external connection in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

@@ -1,8 +1,8 @@
-// Get the advance on click setting and display it in a presentation.
+// Retrieve the advance on click setting from a transition.
 
-// How do I get the advance on click in a presentation?
+// Create a slide show transition with specific properties.
 
-// Get the advance on click using a slide show transition object.
+// Get the advance on click value and display it on the slide.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

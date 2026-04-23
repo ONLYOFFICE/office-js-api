@@ -1,8 +1,8 @@
-// Get the header setting of a table sort object in a spreadsheet.
+// Read whether a table sort treats the first row as a header in a spreadsheet.
 
-// How to check whether the sort treats the first row as a header in a spreadsheet.
+// How do I find out if the sort will skip the header row or include it in a spreadsheet?
 
-// Check the header setting of the sort object in a spreadsheet.
+// Determine whether the top row is excluded from sorting as a title row in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

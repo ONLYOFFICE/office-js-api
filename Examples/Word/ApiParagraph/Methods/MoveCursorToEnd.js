@@ -1,8 +1,8 @@
-// Move the cursor to the end of a paragraph.
+// Move the cursor to the end of a paragraph in a document.
 
-// Add text to the first paragraph in the document.
+// How do I position the cursor after the last character of a paragraph in a document?
 
-// Call MoveCursorToEnd to position the cursor after the last character.
+// Ensure further typed input appears at the tail of a paragraph by repositioning the cursor in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// Extracts control points from a cubic bezier curve in a pdf document. Displays all control point coordinates in a text shape.
+// Retrieve the endpoint y coordinate from a cubic curve in a PDF.
 
-// How can I get the y2 using a path command in a PDF document?
+// What is the endpoint's vertical position in a PDF?
 
-// Get the y2 for a path command in a PDF document.
+// Extract the endpoint's y value from a path in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

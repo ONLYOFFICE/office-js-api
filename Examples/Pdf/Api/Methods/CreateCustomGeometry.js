@@ -1,8 +1,8 @@
-// Create a preset geometry in a PDF document.
+// Create a custom shape using geometric paths in a PDF.
 
-// How to create custom geometry in a PDF document?
+// How do I draw a custom shape in a PDF?
 
-// Create custom geometry using the PDF document API.
+// Build a complex shape with curves and lines in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

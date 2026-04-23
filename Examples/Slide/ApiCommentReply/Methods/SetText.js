@@ -1,8 +1,8 @@
-// Set a comment reply text in a presentation.
+// Change the text of a reply to a comment in a presentation.
 
-// How to change a text of a comment reply in a presentation.
+// How do I edit the message in a comment reply in a presentation?
 
-// Get all comments from the presentation and set its first one's reply text.
+// Update the reply text of a comment to a new message in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

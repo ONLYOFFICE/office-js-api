@@ -1,8 +1,8 @@
-// Specify the shading which shall be applied to the extents of the table in a document.
+// Apply a background color to the entire table in a document.
 
-// How to set shading of the table in a document.
+// How do I fill the table background with a specific color in a document?
 
-// Create a table and specify its shading as "clear" in a document.
+// Highlight a table by giving it a colored background shading in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

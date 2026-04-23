@@ -1,8 +1,8 @@
-// Get all font names from all elements inside the run in a spreadsheet.
+// Collect every font name used across the elements of a text run in a spreadsheet.
 
-// How to get all font names from the text run object elements in a spreadsheet.
+// How do I list all fonts applied to a run of text in a spreadsheet?
 
-// Get all font names from a text run as an array and display it in the worksheet.
+// Extract the font families from a run and print each one on its own line in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

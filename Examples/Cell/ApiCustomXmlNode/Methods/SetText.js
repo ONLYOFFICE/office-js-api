@@ -1,8 +1,8 @@
-// Set the text content of a custom XML node in a spreadsheet.
+// Write readable text into an XML element to update its content in a spreadsheet.
 
-// How to update text content in custom XML node elements in a spreadsheet.
+// How do I change the text inside an XML node in a spreadsheet?
 
-// Set text for message node in a spreadsheet.
+// Store a new text value inside an existing XML entry in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let xmlManager = worksheet.GetCustomXmlParts();

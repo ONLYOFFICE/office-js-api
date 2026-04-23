@@ -1,8 +1,8 @@
-// Clear the contents of the content control in a document.
+// Clear all content from a content control in a document.
 
-// Create a block content control, add a text to it, and clear its contents in a document.
+// How do I remove all content from a content control in a document?
 
-// Remove all elements from the block level content control in a document.
+// Empty a content control to start fresh with no paragraphs or text inside it in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

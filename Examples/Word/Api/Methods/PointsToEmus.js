@@ -1,8 +1,8 @@
-// Convert points to emus in a document.
+// Convert a typographic point value to English metric units and display the result in a document.
 
-// How to convert points to emus in a document?
+// How do I translate a point measurement into English metric units in a document?
 
-// Convert points to emus using the document API.
+// Show the English metric unit equivalent of a given number of points as text in a document.
 
 const doc = Api.GetDocument();
 const paragraph = Api.CreateParagraph();

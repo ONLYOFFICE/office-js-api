@@ -1,8 +1,8 @@
-// Set the tip text to the current form.
+// Set a tooltip hint on a signature field in a document.
 
-// Add text as a tip to the signature form.
+// How do I add a helpful hint that appears when a user hovers over a signature field in a document?
 
-// How to create a signature form and specify its tip text.
+// Provide guidance to signers by attaching a short tooltip message to a signature field in a document.
 
 let doc = Api.GetDocument();
 let signatureForm = Api.CreateSignatureForm({"key": "Signature", "placeholder": "Signature"});

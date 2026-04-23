@@ -1,8 +1,8 @@
-// Insert a paragraph at the specified position in a document.
+// Insert a paragraph into the content area of a drawing in a document.
 
-// How to insert the paragraph into the drawing in a document.
+// How do I add text inside a shape in a document?
 
-// Create a rectangle and then add a paragraph to it in a document.
+// Place a labeled paragraph inside a rectangle to annotate the shape in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

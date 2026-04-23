@@ -1,8 +1,8 @@
-// Set and get the outline level of the specified paragraph in a spreadsheet.
+// Assign an outline level to each paragraph inside a shape in a spreadsheet.
 
-// How to set outline lvl for a paragraph in a spreadsheet?
+// How do I mark paragraphs at different heading depths in a spreadsheet?
 
-// Set outline lvl and display the result in a spreadsheet.
+// Structure text by giving each paragraph a numbered depth in the outline hierarchy in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

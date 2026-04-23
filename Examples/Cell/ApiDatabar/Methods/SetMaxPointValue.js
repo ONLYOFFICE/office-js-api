@@ -1,8 +1,8 @@
-// Set the maximum point value of a data bar conditional formatting rule.
+// Specify the upper threshold at which a data bar reaches its full length in a spreadsheet.
 
-// How to change the value of the maximum condition in a spreadsheet.
+// How do I set the exact number that represents the maximum bar length in a spreadsheet?
 
-// Set the maximum point value of a data bar conditional formatting rule.
+// Cap the data bar scale at a specific value so bars do not grow beyond a known limit in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

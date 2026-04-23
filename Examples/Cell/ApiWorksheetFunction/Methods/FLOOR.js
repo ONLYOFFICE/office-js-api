@@ -1,8 +1,8 @@
-// Round a number down to the nearest multiple of significance in a spreadsheet.
+// Round a number down to the nearest multiple of a specified value in a spreadsheet.
 
-// How to round a number down to the nearest multiple of significance in a spreadsheet.
+// How do I round a number down to a specific increment in a spreadsheet?
 
-// Use function to round down in a spreadsheet.
+// Decrease a number to the nearest multiple of a given significance in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

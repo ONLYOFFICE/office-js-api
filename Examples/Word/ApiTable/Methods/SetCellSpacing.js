@@ -1,8 +1,8 @@
-// Specify the default table cell spacing.
+// Set the spacing between cells of a table in a document.
 
-// How to set the size of the cell spacing.
+// How do I control the gap between table cells in a document?
 
-// Create a table and indicate its cell spacing.
+// Add breathing room between cells to improve table readability in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

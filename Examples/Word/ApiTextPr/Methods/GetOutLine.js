@@ -1,8 +1,8 @@
-// Get the outline of the existing text properties in a document.
+// Read the outline stroke applied to decorative text in a document.
 
-// How can I get the out line using a text properties in a document?
+// How do I find out what outline border is set on styled text in a document?
 
-// Get the out line for a text properties in a document.
+// Reuse the border style from one text element and apply it to a shape in a document.
 
 const doc = Api.GetDocument();
 

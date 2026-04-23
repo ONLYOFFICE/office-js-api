@@ -1,8 +1,8 @@
-// Enable the last column highlight for a formatted table.
+// Apply special formatting to the last column of a table in a spreadsheet.
 
-// How to apply special formatting to the last column of a table.
+// How do I make the last column of a table stand out visually in a spreadsheet?
 
-// When enabled, the last column receives the distinct formatting defined by the current table style.
+// Turn on the last-column highlight to give the rightmost column a distinct look based on the table style in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

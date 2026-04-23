@@ -1,8 +1,8 @@
-// Get the fill type and display it. Creates shapes with different fill types and show their types in a document.
+// Read the fill type from shapes with solid, gradient, and no-fill styles in a document.
 
-// How can I get the type using a fill in a document?
+// How do I get the fill type of a shape in a document?
 
-// Get the type for a fill in a document.
+// Inspect the fill type of each shape to branch logic based on whether the fill is solid, gradient, or empty in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

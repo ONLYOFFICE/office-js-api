@@ -1,8 +1,8 @@
-// Set the date format on a date form in a document.
+// Apply a date display format to a date form in a document.
 
-// Specify the format of the date for the form.
+// How do I change the way dates are formatted in a date form in a document?
 
-// How to change the date format of the form to "dddd, dd MMMM yyyy".
+// Switch a date form to a long-form date pattern and verify the updated format in a document.
 
 let doc = Api.GetDocument();
 let dateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});

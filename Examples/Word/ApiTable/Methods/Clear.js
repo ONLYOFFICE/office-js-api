@@ -1,8 +1,8 @@
-// Clear the content from the table in a document.
+// Erase all content from a table in a document.
 
-// How to clear a content of a table in a document.
+// How do I wipe all the text and data out of a table in a document?
 
-// Get a table and remove everything from it in a document.
+// Reset a table to empty by removing everything it contains in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

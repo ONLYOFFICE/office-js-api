@@ -1,8 +1,8 @@
-// Get the fill color from an unique values conditional formatting rule.
+// Read the background color set by a unique-values conditional formatting rule in a spreadsheet.
 
-// How to retrieve the fill color setting from conditional formatting.
+// How do I find out what fill color a unique-values rule applies to matching cells in a spreadsheet?
 
-// Get the fill color of unique values formatting rule.
+// Inspect the highlight color of a unique-values rule to confirm its appearance in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

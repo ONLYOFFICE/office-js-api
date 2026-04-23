@@ -1,8 +1,8 @@
-// Get the comment (summary) of a formatted table.
+// Read the descriptive note stored on a table in a spreadsheet.
 
-// How to read the comment text assigned to a table in a spreadsheet.
+// How do I retrieve the summary text attached to a table in a spreadsheet?
 
-// The comment is a descriptive note on the table object, separate from any cell comments.
+// Verify what note a table carries to understand its documented purpose in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

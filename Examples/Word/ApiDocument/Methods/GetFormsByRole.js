@@ -1,8 +1,8 @@
-// Get a list of all forms in the document with the specified role.
+// Retrieve all forms assigned to a specific role in a document.
 
-// How can I get the forms by role using a document in a document?
+// How do I filter forms by their assigned role in a document?
 
-// Get the forms by role for a document in a document.
+// Separate employee and manager fields by querying each role independently in a document.
 
 let doc = Api.GetDocument();
 let roles = doc.GetFormRoles();

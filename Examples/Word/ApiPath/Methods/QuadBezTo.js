@@ -1,8 +1,8 @@
-// Create a complex curve using cubic bezier, quadratic bezier and arc commands. Demonstrates different types of curve drawing methods in a document.
+// Add a smooth quadratic curve segment to a custom shape's path in a document.
 
-// How can I quad bez to using a geometry path in a document?
+// How do I draw a gently curved edge on a custom shape in a document?
 
-// Quad bez to for a geometry path in a document.
+// Create a flowing curve between two points using a single control point in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

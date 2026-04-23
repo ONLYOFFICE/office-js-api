@@ -1,8 +1,8 @@
-// How to get types of all series of a chart in a PDF document.
+// Read all data series from a chart in a PDF.
 
-// Get all series from a chart in a PDF document.
+// How do I access the individual data series in a chart in a PDF?
 
-// Get all series for a chart in a PDF document.
+// Iterate through each series to get its type in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

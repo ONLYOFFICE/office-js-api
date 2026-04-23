@@ -1,8 +1,8 @@
-// Delete the DefName object in a spreadsheet.
+// Remove a named range from a spreadsheet.
 
-// How to remove custom DefName from a worksheet.
+// How do I delete a named range I no longer need in a spreadsheet?
 
-// Delete previously added DefName in a spreadsheet.
+// Erase a saved range name to clean up the workbook in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

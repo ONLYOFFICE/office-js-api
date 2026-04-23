@@ -1,8 +1,8 @@
-// Find out the position of the text in a document.
+// Read the vertical offset applied to a run of text in a document.
 
-// Get the location index of the text properties in a document.
+// How do I find out by how much a piece of text is raised or lowered in a document?
 
-// How to know the text position in a document.
+// Inspect a text run to confirm its vertical shift relative to the baseline in a document.
 
 let doc = Api.GetDocument();
 let myNewRunStyle = doc.CreateStyle("My New Run Style", "run");

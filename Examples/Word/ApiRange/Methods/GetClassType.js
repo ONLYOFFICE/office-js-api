@@ -1,8 +1,8 @@
-// Retrieve the class type string for a range object.
- 
-// Use GetClassType to identify the type of a range instance.
- 
-// Output the class type to confirm the returned value.
+// Identify the type of a selected region of text in a document.
+
+// How do I check what kind of object a text selection is in a document?
+
+// Confirm the category of a highlighted portion before applying further changes in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

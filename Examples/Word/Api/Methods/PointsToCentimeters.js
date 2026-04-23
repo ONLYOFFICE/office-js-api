@@ -1,8 +1,8 @@
-// Convert points to centimeters in a document.
+// Convert a typographic point value to centimeters and display the result in a document.
 
-// How do I convert points to centimeters in a document?
+// How do I find the centimeter equivalent of a measurement given in points in a document?
 
-// Convert points to centimeters and display the result in a document.
+// Write out how many centimeters correspond to a specific number of points in a document.
 
 const doc = Api.GetDocument();
 const paragraph = Api.CreateParagraph();

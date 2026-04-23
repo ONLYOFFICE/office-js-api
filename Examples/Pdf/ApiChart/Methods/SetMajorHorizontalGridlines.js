@@ -1,8 +1,8 @@
-// How to set major horizontal gridlines of the chart in a PDF document.
+// Change the style of the horizontal grid lines in a chart in a PDF.
 
-// Create a chart, set its properties and its major gridlines in a PDF document.
+// How do I format the horizontal grid lines in a chart in a PDF?
 
-// Use chart to set major horizontal gridlines in a PDF document.
+// Add a custom border to the horizontal reference lines in a chart in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

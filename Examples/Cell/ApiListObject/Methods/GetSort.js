@@ -1,8 +1,8 @@
-// Get the sort object associated with a formatted table.
+// Retrieve the sort settings attached to a table in a spreadsheet.
 
-// How to retrieve the sort settings of a table in a spreadsheet.
+// How do I access the sorting configuration of a table in a spreadsheet?
 
-// The returned sort object lets you define sort fields and apply them with Sort.Apply() in a spreadsheet.
+// Inspect the current sort order of a table before applying or overriding it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

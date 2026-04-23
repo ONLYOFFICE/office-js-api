@@ -1,8 +1,8 @@
-// Renames a table column in a spreadsheet.
+// Rename a column header in a formatted table in a spreadsheet.
 
-// How to change the header text of a column in a formatted table.
+// How do I change the label of a table column in a spreadsheet?
 
-// Rename a column in the table in a spreadsheet.
+// Update a column name to better reflect its contents after restructuring your data in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

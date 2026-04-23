@@ -1,8 +1,8 @@
 // Get the paragraph contents justification in a presentation.
 
-// How to get a justification type of a text in a presentation.
+// How do I find the alignment setting of text in a presentation?
 
-// Return a justification of a paragraph from the slide.
+// Retrieve and display the text alignment type in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

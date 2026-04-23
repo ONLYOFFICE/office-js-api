@@ -1,8 +1,8 @@
-// Create a custom triangle shape and add it to the worksheet. Applies custom geometry to a shape with specific fill and stroke.
+// Draw a custom polygon outline on an existing shape by providing hand-crafted path data in a spreadsheet.
 
-// How do I set geometry in a spreadsheet?
+// How do I replace a shape's outline with a custom drawn path in a spreadsheet?
 
-// Set geometry using a shape object in a spreadsheet.
+// Override the default form of a shape with a manually defined geometric path in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let customGeometry = Api.CreateCustomGeometry();

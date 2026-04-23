@@ -1,8 +1,8 @@
-// Get a range offset from the current range in a spreadsheet.
+// Shift a range by a number of rows and columns to reach a new position in a spreadsheet.
 
-// How to offset a range by rows and columns in a spreadsheet.
+// How do I move a selection to a different area by stepping over rows and columns in a spreadsheet?
 
-// Get a range, offset it and fill the offset range with color in a spreadsheet.
+// Highlight the displaced range with a background color to make its new position visible in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let originalRange = worksheet.GetRange("C3:D4");

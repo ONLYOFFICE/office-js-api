@@ -1,8 +1,8 @@
-// Specify the visual properties for the minor horizontal gridlines in a spreadsheet.
+// Style the minor horizontal gridlines of a chart in a spreadsheet.
 
-// Set a stroke as a minor horizontal gridline in a spreadsheet.
+// How do I change the appearance of the secondary horizontal gridlines on a chart in a spreadsheet?
 
-// How to add gridlines for the chart in a spreadsheet.
+// Add finer horizontal guide lines with a custom color to improve precision reading of the chart in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

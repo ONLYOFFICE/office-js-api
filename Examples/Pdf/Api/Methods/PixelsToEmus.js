@@ -1,8 +1,8 @@
 // Convert pixels to english metric units in a PDF document.
 
-// How to convert pixels to emus in a PDF document?
+// The API method performs measurement unit conversion.
 
-// Convert pixels to emus using the PDF document API.
+// The result is displayed in a shape text element.
 
 const pixels = 1080;
 const emus = Api.PixelsToEmus(pixels);

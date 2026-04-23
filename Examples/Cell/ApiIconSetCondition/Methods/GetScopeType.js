@@ -1,8 +1,8 @@
-// Get the scope type of an icon set rule in a spreadsheet.
+// Read the scope setting that controls how an icon set rule is applied in a spreadsheet.
 
-// How to retrieve the scope type setting from icon set conditional formatting.
+// How do I find out the scope type of an icon set formatting rule in a spreadsheet?
 
-// Get the scope type of the icon set rule in a spreadsheet.
+// Determine the range of cells an icon set rule is scoped to cover in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// Return the hyperlink from the current drawing object in a presentation.
+// Retrieve the link attached to a shape in a presentation.
 
-// How to get the hyperlink for a drawing object in a presentation?
+// How do I get the web address from a shape that has a hyperlink in a presentation?
 
-// Get the hyperlink and display the result in a presentation.
+// Read and display the hyperlink information from a shape in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

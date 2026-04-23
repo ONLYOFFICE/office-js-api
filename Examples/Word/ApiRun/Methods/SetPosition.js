@@ -1,8 +1,8 @@
-// Specify an amount by which text is raised or lowered for this run in relation to the default baseline of the surrounding non-positioned text in a document.
+// Raise or lower a text run relative to the surrounding baseline in a document.
 
-// How to change inline position of the text in a document.
+// How do I shift a word up or down from the normal line of text in a document?
 
-// Create a new text run and make its position lower or higher in a document.
+// Adjust the vertical offset of characters to create superscript or subscript effects in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

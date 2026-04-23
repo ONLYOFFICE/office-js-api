@@ -1,8 +1,8 @@
-// Find out a text font family in a PDF document.
+// Access the font name used for text in a PDF.
 
-// How to know font name of a text run in a PDF document.
+// How do I find out which font is applied to text in a PDF?
 
-// Get the text properties of the run and display its font family in a PDF document.
+// Look up the font family name from text formatting properties in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// Set the background to the current slide layout.
+// Apply a fill color to the background of a layout in a presentation.
 
-// How to set a background of a layout in a presentation.
+// How do I change the background appearance of a layout in a presentation?
 
-// Create a gradient fill and apply it as a background in a presentation.
+// Create a gradient fill and assign it as the layout background in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

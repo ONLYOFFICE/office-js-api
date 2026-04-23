@@ -1,8 +1,8 @@
-// Convert the range object into the JSON object.
+// Save a text range as a reusable data snapshot in a document.
 
-// How to get a JSON from the range in a document.
+// How do I preserve a formatted text range for later reuse in a document?
 
-// Convert the range content to json and add it to the document.
+// Capture a portion of text so it can be restored or duplicated elsewhere in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

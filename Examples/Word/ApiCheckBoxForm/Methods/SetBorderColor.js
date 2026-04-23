@@ -1,8 +1,8 @@
-// Set the border color to the current form.
+// Apply a border color to checkbox forms in a document.
 
-// How to color a border of the form.
+// How do I change the border color of a checkbox form in a document?
 
-// Set border color to the checkbox in a document.
+// Visually distinguish checkboxes by combining a colored border with a contrasting background fill in a document.
 
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});

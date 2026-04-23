@@ -1,8 +1,8 @@
-// Check if the current form is fixed size.
+// Confirm whether a signature field has a locked, unchangeable size in a document.
 
-// How to know whether the first signature form from this document is fixed.
+// How do I find out if a signature field is set to a fixed size in a document?
 
-// Get the boolean that represents the fixed property of the signature form.
+// Distinguish between resizable and size-locked signature fields in a document.
 
 let doc = Api.GetDocument();
 let signatureForm = Api.CreateSignatureForm({"key": "Signature", "tip": "Please sign here", "placeholder": "Signature"});

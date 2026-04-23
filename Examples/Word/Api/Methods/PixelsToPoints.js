@@ -1,8 +1,8 @@
-// Convert pixels to points in a document.
+// Convert a pixel measurement to typographic points and display the result in a document.
 
-// How to convert pixels to points in a document?
+// How do I translate a pixel value into points in a document?
 
-// Convert pixels to points using the document API.
+// Write out the point equivalent of a given pixel count as readable text in a document.
 
 const doc = Api.GetDocument();
 const paragraph = Api.CreateParagraph();

@@ -1,8 +1,8 @@
-// Set the paragraph line spacing in a PDF document.
+// Adjust the spacing between lines of text in a PDF.
 
-// How to set the size of a spacing line from a paragraph properties in a PDF document.
+// How do I change the line spacing in a PDF?
 
-// Change a spacing line size property of a paragraph properties in a PDF document.
+// Modify the distance between text lines in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

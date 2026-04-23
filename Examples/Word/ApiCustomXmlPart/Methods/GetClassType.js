@@ -1,8 +1,8 @@
-// Check the class type returned by a custom XML part in a document.
+// Get the class type of a custom XML part in a document.
 
-// How do I check what type a custom XML part object is in a document?
+// How do I identify what kind of object a custom XML part is in a document?
 
-// Retrieve and output the class type string for a custom XML part in a document.
+// Verify the object type before performing type-specific operations in a document.
 
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();

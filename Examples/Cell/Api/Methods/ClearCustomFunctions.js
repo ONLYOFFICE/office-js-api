@@ -1,8 +1,8 @@
-// Clear all added custom functions in a spreadsheet.
+// Remove all registered custom functions at once in a spreadsheet.
 
-// How to delete custom function library in a spreadsheet.
+// How do I unregister every custom function that was added in a spreadsheet?
 
-// Remove unused custom function library in a spreadsheet.
+// Clean up previously defined calculation functions to reset the formula environment in a spreadsheet.
 
 Api.AddCustomFunctionLibrary("LibraryName", function(){
     /**

@@ -1,8 +1,8 @@
-// Add a numbered cross-reference to the paragraph in a document.
+// Insert a cross-reference to a numbered list item into a paragraph in a document.
 
-// How to create a numbered reference to the paragraph in a document.
+// How do I cite a specific numbered paragraph from elsewhere in the text in a document?
 
-// Add a cross-reference to the numbered paragraph in a document.
+// Embed the list number of another paragraph so readers can identify the exact item being referenced in a document.
 
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("numbered");

@@ -1,8 +1,8 @@
-// Return the accrued interest for a security that pays interest at maturity in a spreadsheet.
+// Determine accrued interest on maturity bonds at settlement in a spreadsheet.
 
-// How to get an accrued interest for a security that pays periodic interest at maturity in a spreadsheet.
+// How do I calculate accumulated interest on a bond paid at final maturity date in a spreadsheet?
 
-// Get a function that gets accrued interest for a security at maturity in a spreadsheet.
+// Figure out the total interest earned on a bond from issuance through settlement day in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

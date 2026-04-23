@@ -1,8 +1,8 @@
-// Check the class type returned by a paragraph properties in a document.
+// Identify the class type of a paragraph properties object in a document.
 
-// How do I check what type a paragraph properties object is in a document?
+// How do I confirm what kind of object holds paragraph formatting in a document?
 
-// Retrieve and output the class type string for a paragraph properties in a document.
+// Verify the object type when working with style-level formatting to avoid errors at runtime.
 
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");

@@ -1,8 +1,8 @@
-// Add a new column to the table in a document.
+// Insert an extra column into an existing table to expand its structure in a document.
 
-// How to insert a column to the table in a document.
+// How do I add a column next to an existing one to widen a table in a document?
 
-// Get a table cell from the row and add it as a column.
+// Grow a table horizontally by placing a new column at a chosen position in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

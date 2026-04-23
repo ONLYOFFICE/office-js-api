@@ -1,8 +1,8 @@
-// Return the hyperlink element using the position specified in a presentation.
+// Get the hyperlink element at a specified position in a presentation.
 
-// How can I get the element using a hyperlink in a presentation?
+// How do I access a child element within a hyperlink in a presentation?
 
-// Get the element for a hyperlink in a presentation.
+// Retrieve the element for a hyperlink at a specific position in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// Get the description of the current document using the core properties in a document.
+// Read the description stored in the core properties of a document.
 
-// How can I get the description using a core properties in a document?
+// How do I retrieve the description text from the core properties in a document?
 
-// Get the description for a core properties in a document.
+// Display a document's summary text to give readers context about its contents in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

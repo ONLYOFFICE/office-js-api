@@ -1,8 +1,8 @@
-// Check whether any of the arguments are true. Returns false only if all arguments are false in a spreadsheet.
+// Test whether at least one condition is true in a spreadsheet.
 
-// How to use OR logical operator in a spreadsheet.
+// How do I check if any value meets a condition in a spreadsheet?
 
-// Use a function to apply OR operation in a spreadsheet.
+// Return false only when all conditions are false in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

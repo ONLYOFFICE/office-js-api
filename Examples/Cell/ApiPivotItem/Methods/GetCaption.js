@@ -1,8 +1,8 @@
-// Get a caption of a pivot item in a spreadsheet.
+// Read the display text of each item in a pivot table field in a spreadsheet.
 
-// How to get a pivot item's caption in a spreadsheet.
+// How do I retrieve the visible label shown for a pivot item in a spreadsheet?
 
-// Create a pivot table, add data to it then get a caption of a specified pivot item in a spreadsheet.
+// Collect the caption of every field item to inspect or reuse the displayed text in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

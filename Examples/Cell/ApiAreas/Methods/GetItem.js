@@ -1,8 +1,8 @@
-// Get a single object from a collection by its ID in a spreadsheet.
+// Retrieve a specific range from a multi-area selection by its position in a spreadsheet.
 
-// How to find an object by its ID from the collection in a spreadsheet.
+// How do I access one particular range out of a multi-area selection in a spreadsheet?
 
-// Get element from an array by its ID in a spreadsheet.
+// Pull out an individual area by index to work with it separately in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B1:D1");

@@ -1,8 +1,8 @@
-// Find out a text color in a PDF document.
+// Get the color of text in a PDF.
 
-// How to know with which color a text is filled in a PDF document.
+// How do I find out what color text is in a PDF?
 
-// Get the run and get its font color in a PDF document.
+// Read the text color setting in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

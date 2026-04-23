@@ -1,8 +1,8 @@
-// Remove a table column with the specified cell.
+// Remove a table column using a cell reference.
 
-// How to delete a column from the table in a presentation.
+// Delete a column from the table by specifying a cell within it.
 
-// Create a table, create cells and remove the whole column by its cell.
+// Create a table and remove a column using a cell from that column.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

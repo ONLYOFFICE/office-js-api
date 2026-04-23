@@ -1,8 +1,8 @@
-// Add a line break to the run position and start the next element from a new line in a spreadsheet.
+// Insert a line break inside a text run so the following text starts on a new line in a spreadsheet.
 
-// How to start a sentence on a new line in a spreadsheet.
+// How do I split text across two lines inside a shape in a spreadsheet?
 
-// Break two lines of a text run with a line in a spreadsheet.
+// Force a paragraph of text to continue on a fresh line without creating a new paragraph in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

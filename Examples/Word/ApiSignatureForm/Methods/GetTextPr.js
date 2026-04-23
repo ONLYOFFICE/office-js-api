@@ -1,8 +1,8 @@
-// Return the text properties from the current form.
+// Read the text formatting settings of a signature form in a document.
 
-// How to get the properties of the text of the form.
+// How do I retrieve the text styling applied to a signature form in a document?
 
-// Get the text properties of one form and apply it to another.
+// Copy the text appearance from one signature form to reuse it in a document.
 
 let doc = Api.GetDocument();
 let signatureForm = Api.CreateSignatureForm({"key": "Signature", "tip": "Please sign here", "placeholder": "Signature"});

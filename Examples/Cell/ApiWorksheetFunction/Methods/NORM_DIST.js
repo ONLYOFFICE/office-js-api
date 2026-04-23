@@ -1,8 +1,8 @@
-// Return the normal distribution for the specified mean and standard deviation in a spreadsheet.
+// Calculate the normal distribution for a value given its mean and standard deviation in a spreadsheet.
 
-// How to calculate the normal distribution in a spreadsheet.
+// How do I compute the normal distribution in a spreadsheet?
 
-// Use a function to get the normal distribution knowing the mean and standard deviation in a spreadsheet.
+// Find the probability of a value in a normal distribution with specific mean and standard deviation in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 let valueArr = [36, 6, 7, false];

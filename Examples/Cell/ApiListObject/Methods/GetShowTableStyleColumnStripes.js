@@ -1,8 +1,8 @@
-// Check whether column stripes are enabled for a formatted table.
+// Read whether alternating column shading is turned on for a table in a spreadsheet.
 
-// How to determine if alternating column colors are applied to a table in a spreadsheet.
+// How do I find out if a table has column stripe formatting applied in a spreadsheet?
 
-// Column stripes apply alternating background colors to adjacent columns as defined in the table style in a spreadsheet.
+// Detect the column stripe setting before adjusting the visual style of the table in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

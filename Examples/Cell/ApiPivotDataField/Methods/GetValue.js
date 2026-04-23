@@ -1,8 +1,8 @@
-// Get a value of a data field in a spreadsheet.
+// Read the source field name that a pivot table data field summarizes in a spreadsheet.
 
-// How to use a table element value in a spreadsheet.
+// How do I find the original data column that a pivot value field is built from in a spreadsheet?
 
-// Create a pivot table, add data to it then display a custom data field's value in a spreadsheet.
+// Retrieve what a data field represents — the raw column name behind a summarized result in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

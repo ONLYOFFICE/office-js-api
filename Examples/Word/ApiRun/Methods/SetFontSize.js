@@ -1,8 +1,8 @@
-// Set the font size to the characters of the current text run in a document.
+// Change the font size of a text run in a document.
 
-// How to set font size to the text run in a document.
+// How do I make the text in a run larger or smaller in a document?
 
-// Create a new text run and change resize its font in a document.
+// Adjust the character size of a run to control its visual weight in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

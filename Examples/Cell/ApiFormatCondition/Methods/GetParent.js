@@ -1,8 +1,8 @@
-// Get the parent range of a conditional formatting rule in a spreadsheet.
+// Retrieve the collection that owns a conditional formatting rule in a spreadsheet.
 
-// How to get the parent for a format condition?
+// How do I access the parent formatting collection that a specific rule belongs to in a spreadsheet?
 
-// Get the parent and display the result in a spreadsheet.
+// Trace back from a formatting rule to its owning collection to manage all related conditions in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// Add a sort field to a table sort fields collection in a spreadsheet.
+// Register a column as a sort criterion for a formatted table in a spreadsheet.
 
-// How to configure a sort column for a formatted table.
+// How do I tell a table which column to sort by in a spreadsheet?
 
-// Add a sort field to the collection — the sort is applied immediately in a spreadsheet.
+// Define the sort direction for a column so the table rows reorder automatically in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

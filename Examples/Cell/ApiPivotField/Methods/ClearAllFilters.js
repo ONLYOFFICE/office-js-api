@@ -1,8 +1,8 @@
-// Clear all filters from a pivot field in a spreadsheet.
+// Remove every filter applied to a pivot table field in a spreadsheet.
 
-// How to remove previously applied pivot field filters in a spreadsheet.
+// How do I reset all filters on a pivot field to show its full data in a spreadsheet?
 
-// Create a pivot table, add data to it then delete all filters from a custom field in a spreadsheet.
+// Wipe out label, value, and manual filters at once to restore the unfiltered pivot view in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

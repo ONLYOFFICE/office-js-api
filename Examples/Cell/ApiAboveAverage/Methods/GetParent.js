@@ -1,8 +1,8 @@
-// Get parent range from above average rule in a spreadsheet.
+// Retrieve the formatting collection that owns an above-average rule in a spreadsheet.
 
-// How to retrieve the parent object of above average conditional formatting.
+// How do I access the parent container of an above-average conditional formatting rule in a spreadsheet?
 
-// Get the parent object that contains the above average rule in a spreadsheet.
+// Navigate from an individual rule back up to the collection it belongs to in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

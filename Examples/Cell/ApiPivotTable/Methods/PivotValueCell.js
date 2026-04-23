@@ -1,8 +1,8 @@
-// Get a pivot value cell using its position in a spreadsheet.
+// Read a specific data cell from a pivot table by its row and column position in a spreadsheet.
 
-// How to get a pivot value cell.
+// How do I look up a single numeric result inside a pivot table in a spreadsheet?
 
-// Create a pivot table, add data to it then get its value cell.
+// Extract a particular summary value from a pivot table to use elsewhere in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

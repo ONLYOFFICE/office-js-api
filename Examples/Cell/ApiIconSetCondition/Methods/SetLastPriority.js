@@ -1,8 +1,8 @@
-// Set an icon set rule to last priority in a spreadsheet.
+// Move an icon set formatting rule to the lowest priority in a spreadsheet.
 
-// How to move icon set conditional formatting to last evaluation priority.
+// How do I make an icon set rule evaluate last among all formatting rules in a spreadsheet?
 
-// Set the icon set rule to be evaluated last in a spreadsheet.
+// Push an icon set rule to the bottom of the priority order so other rules take precedence.
 
 let worksheet = Api.GetActiveSheet();
 

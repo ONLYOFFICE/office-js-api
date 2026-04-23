@@ -1,8 +1,8 @@
-// Get the y position of the drawing on the slide.
+// Get the vertical position of a shape in a presentation.
 
-// How to get the pos y for a drawing object in a presentation?
+// How do I find the top edge coordinate of an object in a presentation?
 
-// Get the pos y and display the result in a presentation.
+// Read and display the Y position of a shape in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

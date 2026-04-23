@@ -1,8 +1,8 @@
-// Set the font size to the characters of the paragraph in a presentation.
+// Change the font size for paragraph text in a presentation.
 
-// How can I set font size using a paragraph in a presentation?
+// How do I adjust the size of text in a paragraph in a presentation?
 
-// Set font size for a paragraph in a presentation.
+// Set the font size to a specific point value in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// Set vert align property property to rich text properties object in a PDF document.
+// Position text vertically as superscript or subscript in a PDF.
 
-// How do I set vert align in a PDF document?
+// How do I raise or lower text vertically in a PDF?
 
-// Set vert align using a rich text properties object in a PDF document.
+// Apply vertical alignment to text in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);

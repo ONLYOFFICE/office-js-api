@@ -1,8 +1,8 @@
-// Use core properties to manage spreadsheet metadata in a spreadsheet.
+// Read and write built-in document properties such as author and title in a spreadsheet.
 
-// How to get the core in a spreadsheet?
+// How do I set or retrieve metadata like creator, subject, and keywords in a spreadsheet?
 
-// Get the core using the spreadsheet API.
+// Store descriptive information about the document itself in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// Get the fill type and display it. Creates shapes with different fill types and show their types in a spreadsheet.
+// Read the fill style of a shape to find out whether it uses a solid color, gradient, or no fill in a spreadsheet.
 
-// How do I get the type in a spreadsheet?
+// How do I determine what kind of fill is applied to a shape in a spreadsheet?
 
-// Get the type using a fill object in a spreadsheet.
+// Inspect shapes with different fill styles and display each fill style name as a label in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

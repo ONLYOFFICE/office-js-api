@@ -1,8 +1,8 @@
-// How to set text direction of the table cell.
+// Set the direction that text flows inside a table cell in a PDF.
 
-// Create a table and set the text direction for the table cell object.
+// How do I rotate text direction in a table cell in a PDF?
 
-// Set text direction using a table cell object.
+// Change the text orientation inside your table cell in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

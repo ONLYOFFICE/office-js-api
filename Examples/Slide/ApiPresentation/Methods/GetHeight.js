@@ -1,8 +1,8 @@
-// Get the presentation height in English measure units in a presentation.
+// Retrieve the presentation slide height.
 
-// How to get a height of the presentation.
+// Get the slide height in English measure units.
 
-// Get a height of the presentation object.
+// Display the height value on the current slide.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

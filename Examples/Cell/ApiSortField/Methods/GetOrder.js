@@ -1,8 +1,8 @@
-// Get the sort order of a sort field in a spreadsheet.
+// Read whether a sort criterion arranges values from smallest to largest or the reverse in a spreadsheet.
 
-// How to check whether a sort field sorts ascending or descending in a spreadsheet.
+// How do I tell if a sort field is set to ascending or descending in a spreadsheet?
 
-// Check the sort direction of a sort field in a spreadsheet.
+// Verify the direction in which a column's values will be ordered after sorting in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

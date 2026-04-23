@@ -1,8 +1,8 @@
-// Check the class type returned by a table row in a document.
+// Identify the object type of a table row in a document.
 
-// How do I check what type a table row object is in a document?
+// How do I confirm that an object represents a table row rather than another element in a document?
 
-// Retrieve and output the class type string for a table row in a document.
+// Read the type label of a table row to distinguish it from other document objects in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

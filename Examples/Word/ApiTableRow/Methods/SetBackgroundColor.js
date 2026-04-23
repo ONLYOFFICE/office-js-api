@@ -1,8 +1,8 @@
-// Set the background color to all cells in the table row.
+// Apply a background color to every cell in a table row in a document.
 
-// Color the row background in a document.
+// How do I fill a table row with a specific background color in a document?
 
-// How to set the rose color as a row background in a document.
+// Highlight an entire row by painting its cells with a chosen color in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

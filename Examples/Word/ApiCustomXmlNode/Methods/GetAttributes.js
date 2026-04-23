@@ -1,8 +1,8 @@
-// Retrieve and display the list of attributes of the current XML node in a document.
+// Retrieve all attributes of a custom XML node in a document.
 
-// How can I get the attributes using a custom XML node in a document?
+// How do I list every attribute on a custom XML node in a document?
 
-// Get the attributes for a custom XML node in a document.
+// Inspect the full set of metadata attached to an XML element by reading all its attributes in a document.
 
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();

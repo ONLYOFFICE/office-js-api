@@ -1,8 +1,8 @@
-// Set the text paddings to the current shape in a document.
+// Add spacing between the inner text and the edges of a shape in a document.
 
-// How to update paddings of the drawing in a document.
+// How do I control the gap between text and the boundary of a shape in a document?
 
-// Create a shape and set its paddings in a document.
+// Push text away from the walls of a shape by adjusting its interior margins in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

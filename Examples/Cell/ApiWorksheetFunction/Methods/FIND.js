@@ -1,8 +1,8 @@
-// Return the starting position of one text string within another text string. This function is case-sensitive in a spreadsheet.
+// Find the position of a substring within text in a spreadsheet.
 
-// How to get an index of a substring from a string in a spreadsheet.
+// How do I search for specific text inside a larger text string in a spreadsheet?
 
-// Use function to find out a starting position of a substring containing in another text in a spreadsheet.
+// Locate where one piece of text begins within another in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

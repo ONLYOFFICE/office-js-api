@@ -1,8 +1,8 @@
-// Convert the numbering object into the JSON object in a document.
+// Serialize a numbering definition to JSON and restore it in a document.
 
-// How to get a JSON from the numbering object in a document.
+// How do I convert a numbering object to JSON format in a document?
 
-// Convert the bullet numbering to json and add it to the paragraph in a document.
+// Duplicate a bullet list style by exporting it to JSON and rebuilding it from scratch in a document.
 
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("bullet");

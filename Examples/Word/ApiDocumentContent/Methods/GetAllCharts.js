@@ -1,8 +1,8 @@
-// Get a collection of chart objects from the document content in a document.
+// Retrieve all charts embedded in document content in a document.
 
-// Get all charts from the document.
+// How do I access every chart inside a content container in a document?
 
-// How to retrieve all charts and set horizontal gridlines to the first one in a document.
+// Apply custom gridline styling to the first chart found inside a shape in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

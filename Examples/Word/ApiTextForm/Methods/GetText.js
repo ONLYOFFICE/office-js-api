@@ -1,8 +1,8 @@
-// Get the text from the form in a document.
+// Read the entered text from a text field in a document.
 
-// How to get the raw text from the text form answer.
+// How do I get the text a user typed into a form field in a document?
 
-// Display the text answer inserted to the form.
+// Extract the current value stored inside a text field in a document.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});

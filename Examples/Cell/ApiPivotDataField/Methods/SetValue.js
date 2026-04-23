@@ -1,8 +1,8 @@
-// Set a value for data field in a spreadsheet.
+// Update the source field reference for a pivot table data field in a spreadsheet.
 
-// How to change a value of a table element in a spreadsheet.
+// How do I change which column a pivot table data field draws its values from in a spreadsheet?
 
-// Create a pivot table, add data to it then set a custom data field's value in a spreadsheet.
+// Point a value field at a different source column to recalculate pivot totals in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

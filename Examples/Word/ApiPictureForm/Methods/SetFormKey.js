@@ -1,8 +1,8 @@
-// Set a key to the current form.
+// Assign an identifier to a picture form so it can be referenced by name in a document.
 
-// How to set key of the picture form.
+// How do I label a picture form with a unique key in a document?
 
-// Set the form key of the picture form.
+// Tag a picture form with a meaningful name to make it easier to locate and manage in a document.
 
 let doc = Api.GetDocument();
 let pictureForm = Api.CreatePictureForm({"tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false, "shiftX": 50, "shiftY": 50});

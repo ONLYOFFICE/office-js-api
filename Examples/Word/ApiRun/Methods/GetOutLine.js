@@ -1,8 +1,8 @@
-// Get the outline of the existing run in a document.
+// Read the border stroke applied to a text run in a document.
 
-// How can I get the out line using a text run in a document?
+// How do I copy the outline style from one text run to another in a document?
 
-// Get the out line for a text run in a document.
+// Transfer the stroke setting between two text runs in a document.
 
 const doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

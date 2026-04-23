@@ -1,8 +1,8 @@
-// Get the totals row function type for a table column in a spreadsheet.
+// Read the summary function assigned to the totals row of a table column in a spreadsheet.
 
-// How to check what aggregate function is used in the totals row of a column in a spreadsheet.
+// How do I check whether a column is set to sum, average, or count in its totals row in a spreadsheet?
 
-// Get the aggregate function used in the totals row of a column in a spreadsheet.
+// Verify the calculation type before changing it to ensure consistency across table columns in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

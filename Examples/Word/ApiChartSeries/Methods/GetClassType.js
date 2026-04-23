@@ -1,8 +1,8 @@
-// Find out the class type of a chart series object in a document.
+// Retrieve the class type identifier of a chart series object in a document.
 
-// How can I get the class type of a chart series in a document?
+// How do I determine the object type of a chart series at runtime in a document?
 
-// Get the class type of a chart series and display it in the document.
+// Confirm the kind of object you are working with before applying series-specific operations in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

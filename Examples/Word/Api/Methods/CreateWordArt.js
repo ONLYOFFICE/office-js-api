@@ -1,8 +1,8 @@
-// Create a Text Art object with the "textArchUp" text transform type.
+// Insert decorative arched text into a paragraph in a document.
 
-// Create a Text Art object using the specified text properties in a document.
+// How do I add stylized curved text to a document?
 
-// Create the empty text properties object and set the bold property, font size, capitalized letters, color, and font family to it in a document.
+// Place bold capitalized text shaped into an upward arch with a colored fill and outline in a document.
 
 let doc = Api.GetDocument();
 let textPr = Api.CreateTextPr();

@@ -1,8 +1,8 @@
-// Set the date to a date form in a document.
+// Assign a specific date to a date form in a document.
 
-// How to set date for a date form?
+// How do I populate a date form with a chosen date in a document?
 
-// Set date and display the result in a document.
+// Pre-fill a date form with today's date and read back the stored value in a document.
 
 let doc = Api.GetDocument();
 let dateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});

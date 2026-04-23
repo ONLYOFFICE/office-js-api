@@ -1,8 +1,8 @@
-// Convert the table row properties object into the JSON object in a document.
+// Export a table row to a portable JSON representation in a document.
 
-// How to get a JSON from the table row in a document.
+// How do I serialize a table row into a storable format in a document?
 
-// Convert the table row to json and add it to the document.
+// Capture the full structure of a table row as a JSON string in a document.
 
 let doc = Api.GetDocument();
 let table = Api.CreateTable(3, 3);

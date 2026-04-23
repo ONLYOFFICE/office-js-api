@@ -1,8 +1,8 @@
-// Extracts control points from a cubic bezier curve command. Displays all bezier control points coordinates in spreadsheet cells.
+// Read the vertical position of the second control point of a bezier curve and write it to a cell in a spreadsheet.
 
-// How to get the y1 for a path command in a spreadsheet?
+// How do I find the Y coordinate of the second bezier handle on a curve path command in a spreadsheet?
 
-// Get the y1 and display the result in a spreadsheet.
+// Verify the mid-section vertical anchor that guides the shape of a cubic curve in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let customGeometry = Api.CreateCustomGeometry();

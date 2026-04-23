@@ -1,8 +1,8 @@
-// Set table style column headers of a pivot table in a spreadsheet.
+// Turn column header formatting on or off for a pivot table style in a spreadsheet.
 
-// How to set table style column headers of a table in a spreadsheet.
+// How do I control whether column headers use special style formatting in a pivot table in a spreadsheet?
 
-// Create a pivot table, add data to it then set its table style column headers in a spreadsheet.
+// Remove or restore the distinct header appearance for pivot table columns in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// Resize a formatted table to a new range.
+// Expand or shrink a table to cover a different range of cells in a spreadsheet.
 
-// How to expand or shrink the range of an existing table in a spreadsheet.
+// How do I change which cells a table covers in a spreadsheet?
 
-// Resizing to a larger range automatically includes new blank rows or columns in the table structure in a spreadsheet.
+// Stretch an existing table to include newly added rows or columns in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

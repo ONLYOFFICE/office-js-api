@@ -1,8 +1,8 @@
-// Set quads for markup annotation in a PDF document.
+// Specify the highlight area for a markup annotation in a PDF.
 
-// How do I set quads in a PDF document?
+// How do I define the highlighted region in a PDF?
 
-// Set quads using a markup annotation object in a PDF document.
+// Assign new coordinates to the marked area of an annotation in a PDF.
 
 let doc = Api.GetDocument();
 let markupAnnot = Api.CreateHighlightAnnot([84, 55, 231, 72]);

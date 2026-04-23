@@ -1,8 +1,8 @@
-// Get a number of the comment replies in a spreadsheet.
+// Count how many replies exist on a comment in a spreadsheet.
 
-// How to get a number of replies to the comment in a spreadsheet.
+// How do I find out the total number of replies attached to a comment in a spreadsheet?
 
-// Add a comment to the range and display its replies count in the worksheet.
+// Retrieve the reply count for a comment to track discussion activity in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

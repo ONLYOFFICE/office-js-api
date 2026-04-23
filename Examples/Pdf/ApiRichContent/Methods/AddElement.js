@@ -1,8 +1,8 @@
-// Add a new element to rich content in a PDF document.
+// Insert a paragraph into formatted text content in a PDF.
 
-// How to add the element for a rich content in a PDF document?
+// How do I add text blocks to rich content in a PDF?
 
-// Add the element and display the result in a PDF document.
+// Place new elements within text formatting containers in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);

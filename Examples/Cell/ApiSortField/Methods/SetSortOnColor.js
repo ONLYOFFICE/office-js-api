@@ -1,8 +1,8 @@
-// Sort a formatted table by cell background color with multiple color priorities.
+// Arrange table rows so specific background colors appear in a defined order in a spreadsheet.
 
-// How to sort table rows by fill color: red on top, yellow second, uncolored last in a spreadsheet.
+// How do I sort rows by fill color so red comes first and yellow comes second in a spreadsheet?
 
-// Color rows, add one sort field per color, then apply the sort in a spreadsheet.
+// Assign a target color to each sort column so the table groups rows by their background shade in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

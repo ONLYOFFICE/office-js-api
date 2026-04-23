@@ -1,8 +1,8 @@
-// Set whether the input message is displayed in a spreadsheet.
+// Control whether a validation input message appears when a cell is selected in a spreadsheet.
 
-// How to show or hide the validation input message in a spreadsheet.
+// How do I show or hide the hint message that guides users when they click a validated cell in a spreadsheet?
 
-// Set the ShowInput setting in a spreadsheet.
+// Toggle the input prompt on so users see instructions before entering a value in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");

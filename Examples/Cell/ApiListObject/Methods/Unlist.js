@@ -1,8 +1,8 @@
-// Convert a formatted table back to a regular range.
+// Convert a formatted table back to a plain data range in a spreadsheet.
 
-// How to remove table formatting while keeping the data intact.
+// How do I remove table formatting while keeping the data intact in a spreadsheet?
 
-// Unlist keeps the data and cell formatting but removes the table structure and structured references.
+// Strip the table structure from a range so the data remains but the table features and named references are gone in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

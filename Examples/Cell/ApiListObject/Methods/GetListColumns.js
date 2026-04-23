@@ -1,8 +1,8 @@
-// Get all columns of a formatted table.
+// Retrieve all columns belonging to a table in a spreadsheet.
 
-// How to retrieve the list of list column objects from a table in a spreadsheet.
+// How do I get each column of a table as a separate object in a spreadsheet?
 
-// Each list column in the returned array corresponds to one column, ordered left to right in a spreadsheet.
+// Count or iterate the columns of a table to inspect their names and settings in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

@@ -1,8 +1,8 @@
-// Add a comment to a specific slide in a presentation.
+// Add comments to a slide with author and user ID information.
 
-// How to add the comment for a slide?
+// Create multiple comments with different properties and retrieve all comments from the presentation.
 
-// Add the comment and display the result in a presentation.
+// Display the comment details including text, author name, and user ID in a shape.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

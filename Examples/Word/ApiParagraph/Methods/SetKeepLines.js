@@ -1,8 +1,8 @@
-// Specify that when rendering the document using a page view, all lines of the current paragraph are maintained on a single page whenever possible.
+// Prevent a paragraph from being split across two pages in a document.
 
-// How to set keep lines property of the paragraph content in a document.
+// How do I keep all lines of a paragraph together on the same page in a document?
 
-// Keep all lines of the paragraph on the same page.
+// Force a paragraph to stay on one page instead of breaking across pages in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

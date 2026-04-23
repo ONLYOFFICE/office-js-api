@@ -1,8 +1,8 @@
 // Insert a paragraph at the specified position in a presentation.
 
-// How can I insert the paragraph using a paragraph in a presentation?
+// How do I add a new paragraph before or after an existing one in a presentation?
 
-// Insert the paragraph for a paragraph in a presentation.
+// Add a paragraph at a specific location in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

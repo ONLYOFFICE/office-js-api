@@ -1,8 +1,8 @@
-// Set the outline level for the specified paragraph in a presentation.
+// Set the outline level for paragraph text in a presentation.
 
-// How to set outline lvl for a paragraph in a presentation?
+// How do I assign an outline level to a paragraph in a presentation?
 
-// Set outline lvl and display the result in a presentation.
+// Configure paragraph hierarchy using outline levels in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

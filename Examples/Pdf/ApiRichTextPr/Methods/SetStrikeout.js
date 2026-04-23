@@ -1,8 +1,8 @@
-// Set strikeout property to rich text properties object in a PDF document.
+// Draw a line through text in a PDF.
 
-// How to set strikeout for a rich text properties in a PDF document?
+// How do I add strikethrough formatting to text in a PDF?
 
-// Set strikeout and display the result in a PDF document.
+// Apply strikeout to text in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);

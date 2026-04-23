@@ -1,8 +1,8 @@
-// Find out the class type of a table row properties object in a document.
+// Read the class type of a table row properties object in a document.
 
-// How can I get the class type of a table row properties in a document?
+// How do I find out what kind of object holds the row formatting settings in a document?
 
-// Get the class type of a table row properties and display it in the document.
+// Identify the type label assigned to a table row properties object in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

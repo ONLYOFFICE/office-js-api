@@ -1,8 +1,8 @@
-// Get geometry information from a star shape on a presentation page. Displays preset type and custom status in a text shape.
+// Identify which built-in shape template was used for a shape in a PDF.
 
-// How can I get the preset using a geometry in a PDF document?
+// How do I find out what preset shape type is being used in a PDF?
 
-// Get the preset for a geometry in a PDF document.
+// Check whether a shape is using a preset or a custom design in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

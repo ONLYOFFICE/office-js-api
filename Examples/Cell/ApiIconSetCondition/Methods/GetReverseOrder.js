@@ -1,8 +1,8 @@
-// Check if icon order is reversed in a spreadsheet.
+// Find out whether an icon set rule displays icons in reverse order in a spreadsheet.
 
-// How to determine if icon set displays icons in reverse order in a spreadsheet.
+// How do I check if the icons in a formatting rule are shown in reverse order in a spreadsheet?
 
-// Check if the icon set rule reverses the icon display order in a spreadsheet.
+// Confirm that an icon set rule is currently set to flip its icon sequence in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

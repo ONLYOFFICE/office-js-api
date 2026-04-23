@@ -1,8 +1,8 @@
-// Insert a string replacing the specified characters in a spreadsheet.
+// Replace a selected portion of cell text with a new string in a spreadsheet.
 
-// How to replace characters with a different string value in a spreadsheet.
+// How do I substitute part of a cell's text with different content in a spreadsheet?
 
-// Change the characters to another string value in a spreadsheet.
+// Overwrite a specific slice of characters to correct or update cell content in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B1");

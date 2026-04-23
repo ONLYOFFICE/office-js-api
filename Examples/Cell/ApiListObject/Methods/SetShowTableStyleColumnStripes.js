@@ -1,8 +1,8 @@
-// Enable column stripes for a formatted table.
+// Turn alternating column shading on or off for a table in a spreadsheet.
 
-// How to apply alternating column colors to a table style in a spreadsheet.
+// How do I apply column stripes to a table style in a spreadsheet?
 
-// Column stripes apply alternating background colors to adjacent columns as defined in the table style in a spreadsheet.
+// Improve column readability by letting the table style alternate background colors across columns in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

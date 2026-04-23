@@ -1,8 +1,8 @@
-// Find out the class type of a listbox field object in a PDF document.
+// Identify the object type of a list selection field in a PDF.
 
-// How can I get the class type of a listbox field in a PDF document?
+// How do I determine what kind of field this is in a PDF?
 
-// Get the class type of a listbox field and display it in the PDF.
+// Retrieve the classification name for this field in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// Convert the current form to a fixed size form.
+// Convert a combo box form to a fixed size in a document.
 
-// How to fix the size of the combobox in a document.
+// How do I give a combo box form a fixed size in a document?
 
-// Create a combobox and make the size of it fixed in a document.
+// Lock the dimensions of a combo box so it does not resize when content changes in a document.
 
 let doc = Api.GetDocument();
 let comboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});

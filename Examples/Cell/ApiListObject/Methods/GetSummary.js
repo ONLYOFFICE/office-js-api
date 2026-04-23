@@ -1,8 +1,8 @@
-// Get the summary text of a formatted table.
+// Retrieve the summary description stored with a table in a spreadsheet.
 
-// How to read the summary description of a table in a spreadsheet.
+// How do I read the summary text that has been set on a table in a spreadsheet?
 
-// Use ApiListObject.GetSummary() to retrieve the table summary text in a spreadsheet.
+// Pull the table's description text to display or log it alongside other table details in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

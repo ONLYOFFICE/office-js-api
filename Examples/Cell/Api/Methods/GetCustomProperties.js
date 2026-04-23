@@ -1,8 +1,8 @@
-// Use custom properties to configure custom properties in a spreadsheet.
+// Add and read user-defined properties attached to a spreadsheet.
 
-// How can I get custom properties in a spreadsheet?
+// How do I store custom key-value data inside a spreadsheet?
 
-// Get custom properties in a spreadsheet.
+// Attach extra information of any type to the document itself in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

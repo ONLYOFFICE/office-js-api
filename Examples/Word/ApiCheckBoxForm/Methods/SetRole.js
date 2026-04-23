@@ -1,8 +1,8 @@
-// Set the form role in a document.
+// Assign a named role to checkbox forms in a document.
 
-// How do I set role in a document?
+// How do I restrict a form field to a specific group of users in a document?
 
-// Set role using a checkbox form object.
+// Control who is responsible for filling each checkbox by attaching a role to it in a document.
 
 let doc = Api.GetDocument();
 let roles = doc.GetFormRoles();

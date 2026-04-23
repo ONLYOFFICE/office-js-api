@@ -1,8 +1,8 @@
-// Get all caption paragraphs of the specified type from the current document in a document.
+// Collect all figure caption paragraphs and apply uppercase formatting to the first one in a document.
 
-// Get all caption paragraphs with the name 'Figure' and make the first one capitalized in a document.
+// How do I find every caption of a given type and modify its text style in a document?
 
-// Make the caption text letters uppercase in a document.
+// Emphasize a specific caption by converting its letters to uppercase after inserting an image in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

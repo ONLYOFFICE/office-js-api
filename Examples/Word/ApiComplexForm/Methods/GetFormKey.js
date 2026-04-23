@@ -1,8 +1,8 @@
-// Get the form key in a document.
+// Retrieve the key assigned to a complex form in a document.
 
-// How do I get the form key in a document?
+// How do I get the key of a complex form in a document?
 
-// Get the form key using a complex form object.
+// Read a form's identifier to reference or validate it by its assigned key value.
 
 let doc = Api.GetDocument();
 let complexForm = Api.CreateComplexForm({"key": "Complex1"});

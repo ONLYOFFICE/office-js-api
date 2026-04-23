@@ -1,8 +1,8 @@
-// Get all charts from the sheet in a spreadsheet.
+// Collect every chart on the sheet into a list in a spreadsheet.
 
-// How to get all charts in a spreadsheet.
+// How do I retrieve all charts at once to modify them together in a spreadsheet?
 
-// Get all charts as an array in a spreadsheet.
+// Loop through all existing charts and apply a uniform style change to each one.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

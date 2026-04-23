@@ -1,8 +1,8 @@
-// Set the vertical alignment to the shape content where a paragraph or text runs can be inserted in a document.
+// Position text vertically within a shape in a document.
 
-// How to align the text of the shape to top in a document.
+// How do I align text to the top, middle, or bottom inside a shape in a document?
 
-// Set vertical text align to top in a document.
+// Control where text sits vertically inside a shape container in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

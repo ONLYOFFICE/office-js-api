@@ -1,8 +1,8 @@
-// Create a bullet in a presentation.
+// Add a bullet to a paragraph in a presentation.
 
-// How to add a bullet to the paragraph in a presentation.
+// How do I create a bulleted list in a presentation?
 
-// Create the bullet for an editor in a presentation.
+// Format paragraph text with a custom bullet character in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

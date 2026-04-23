@@ -1,8 +1,8 @@
-// Check the class type returned by a button widget in a PDF document.
+// Identify the class type of a button widget in a PDF.
 
-// How do I check what type a button widget object is in a PDF document?
+// How do I determine what type a button widget object is in a PDF?
 
-// Retrieve and output the class type string for a button widget in a PDF document.
+// Get the object type information for a button widget in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

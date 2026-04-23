@@ -1,8 +1,8 @@
-// Get the internal id of the current form in a document.
+// Read the internal identifier of a signature form in a document.
 
-// How to get an internal id of a signature form.
+// How do I find the unique internal identifier of a signature form in a document?
 
-// Retrieve the internal id of a created signature form and display it.
+// Capture the system-assigned identifier of a signature form in a document.
 
 let doc = Api.GetDocument();
 let signatureForm = Api.CreateSignatureForm({"key": "Signature", "tip": "Please sign here", "placeholder": "Signature"});

@@ -1,8 +1,8 @@
 // Set button widget fit bounds property in a PDF document.
 
-// How to set fit bounds for a button widget in a PDF document?
+// Enable or disable the fit bounds behavior for a button widget.
 
-// Set fit bounds and display the result in a PDF document.
+// Display the fit bounds status using the widget label.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// Group drawings on master slide in a presentation.
+// Group multiple drawing objects on a slide master.
 
-// How to group drawings on master slide.
+// Create two shapes with different colors and add them to the master.
 
-// Create two shapes and group them. on master slide
+// Group the shapes together using the GroupDrawings method on the master.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

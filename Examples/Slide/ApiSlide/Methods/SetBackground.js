@@ -1,8 +1,8 @@
-// Set background color of the slide.
+// Set a background fill for a slide.
 
-// How to change a background color of the slide.
+// Apply a radial gradient fill to the slide background.
 
-// Get a slide by its index, set its background and add it to the presentation.
+// Add the slide to the presentation with the new background.
 
 const presentation = Api.GetPresentation();
 const slide = Api.CreateSlide();

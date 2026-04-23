@@ -1,8 +1,8 @@
-// Specify that the contents of this paragraph are displayed with two horizontal lines through each character displayed on the line in a document.
+// Draw two horizontal lines through every character in a paragraph in a document.
 
-// How to strike out a text with two lines in a document.
+// How do I cross out paragraph text with a double strikethrough line in a document?
 
-// Create a new paragraph and set double strikeout to it in a document.
+// Mark paragraph content as deleted or irrelevant using a double strikeout in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

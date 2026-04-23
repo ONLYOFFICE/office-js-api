@@ -1,8 +1,8 @@
 // Get custom XML parts by their namespace in a presentation.
 
-// How to retrieve custom XML parts using their namespace in a presentation.
+// How do I find all XML parts that use a specific namespace in a presentation?
 
-// Get XML parts by namespace in a presentation.
+// Display the matching XML parts in a presentation.
 
 let presentation = Api.GetPresentation();
 let xmlManager = presentation.GetCustomXmlParts();

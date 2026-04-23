@@ -1,8 +1,8 @@
-// Return the inverse of the standard normal cumulative distribution (has a mean of zero and a standard deviation of one) in a spreadsheet.
+// Calculate the inverse of the standard normal distribution in a spreadsheet.
 
-// How to calculate the inverse of the standard normal cumulative distribution in a spreadsheet.
+// How do I find the inverse of a standard normal distribution in a spreadsheet?
 
-// Use a function to get the inverse of the standard normal cumulative distribution in a spreadsheet.
+// Get the quantile value for a given probability in a standard normal distribution in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

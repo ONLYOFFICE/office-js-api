@@ -1,8 +1,8 @@
 // Get the entry effect from a slide show transition.
 
-// How do I get the entry effect in a presentation?
+// Retrieve the entry effect identifier from a slide show transition object.
 
-// Get the entry effect using a slide show transition object.
+// Display the entry effect value in a shape on the slide.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

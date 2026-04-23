@@ -1,8 +1,8 @@
-// Create a custom shape and add it to a page. Applies custom geometry with specific fill and stroke properties.
+// Draw a straight line within a shape path in a PDF.
 
-// How can I line to using a geometry path in a PDF document?
+// How do I connect points with lines in a PDF?
 
-// Line to for a geometry path in a PDF document.
+// Add line segments to create custom shapes in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

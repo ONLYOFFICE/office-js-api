@@ -1,8 +1,8 @@
-// How to set a fill to the marker in a PDF document.
+// Change the color of the data point symbols in a chart in a PDF.
 
-// Create a chart, set its properties and its marker color in a PDF document.
+// How do I change the color of markers in a chart in a PDF?
 
-// Set marker fill using a chart object in a PDF document.
+// Apply a solid color to the symbols that represent data in a chart in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

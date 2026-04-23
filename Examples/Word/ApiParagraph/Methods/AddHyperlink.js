@@ -1,8 +1,8 @@
-// Add a hyperlink to a paragraph in a document.
+// Insert a clickable hyperlink into a paragraph in a document.
 
-// How to create a hyperlink and add it to the paragraph in a document.
+// How do I attach an external URL to text inside a paragraph in a document?
 
-// Add a paragraph hyperlink in a document.
+// Make a word or phrase navigate to a web page by embedding a link directly in paragraph content in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

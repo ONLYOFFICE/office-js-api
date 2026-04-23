@@ -1,8 +1,8 @@
-// Get the between border properties of the current paragraph in a document.
+// Retrieve the between border settings applied to a paragraph style in a document.
 
-// Get the between border of the paragraph and display its type in the document.
+// How do I read the between border from a paragraph's formatting in a document?
 
-// How to get the between border of the paragraph properties object in a document.
+// Useful when you need to inspect border details such as type and size set between paragraphs.
 
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");
