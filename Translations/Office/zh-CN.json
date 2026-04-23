@@ -9263,5 +9263,20 @@
     "Appends a new slide to the end of the presentation.": "在演示文稿末尾追加新幻灯片。",
     "Get all rows of a table in a document.": "获取文档中表格的所有行。",
     "Get all cells of a table as a two-dimensional array in a document.": "将文档中表格的所有单元格作为二维数组获取。",
-    "Get all cells of a table row as an array in a document.": "将文档中表格行的所有单元格作为数组获取。"
+    "Get all cells of a table row as an array in a document.": "将文档中表格行的所有单元格作为数组获取。",
+    "Get the current value of a form using the unified value interface.": "",
+    "Set the value of a form field using the unified SetValue interface.": "",
+    "Get the text value from a text form in a document.": "",
+    "Set the text value of a text form in a document.": "",
+    "Get the selected value from a combo box form in a document.": "",
+    "Set the value of a combo box form by selecting a matching list item.": "",
+    "Get the checked state of a checkbox form as a boolean value.": "",
+    "Set the checked state of a checkbox form in a document.": "",
+    "Get the date value from a date form as a Date object.": "",
+    "Set the date value of a date form using a Date object.": "",
+    "Get the combined text content of a complex form in a document.": "",
+    "Get the image from a picture form as a base64 encoded string.": "",
+    "Set the image of a picture form using a URL or base64 encoded string.": "",
+    "Get the image from a signature form as a base64 encoded string.": "",
+    "Set the image of a signature form using a URL or base64 encoded string.": ""
 }
