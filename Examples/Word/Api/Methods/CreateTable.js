@@ -1,4 +1,4 @@
-// Insert a 3×3 table spanning the full page width in a document.
+// Insert a 3x3 table spanning the full page width in a document.
 
 // How do I add a table to a document?
 
