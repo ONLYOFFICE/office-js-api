@@ -1,8 +1,8 @@
-// Set the tag color for the container in a document.
+// Set the tag color of a content control in a document.
 
-// Create a block content control and set the color to it in a document.
+// How do I change the tag color of a content control in a document?
 
-// How to set the color to the block-level content control object in a document.
+// Color-code a content control tag to categorize or identify it visually in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

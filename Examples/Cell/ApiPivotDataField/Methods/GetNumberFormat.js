@@ -1,8 +1,8 @@
-// Get a number format of a data field in a spreadsheet.
+// Read the number format applied to a pivot table data field in a spreadsheet.
 
-// How to get a table element format.
+// How do I check the number format used by a data field in a pivot table in a spreadsheet?
 
-// Create a pivot table, add data to it then display a custom data field's number format.
+// Inspect how values are displayed — such as currency or percentage — for a summarized field in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

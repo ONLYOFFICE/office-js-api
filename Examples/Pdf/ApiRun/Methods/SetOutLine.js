@@ -1,8 +1,8 @@
-// Set the text outline to the current text run in a PDF document.
+// Add an outline border to text in a PDF.
 
-// How to change outline of the text in a PDF document.
+// How do I add a stroke effect to text in a PDF?
 
-// Create a new text run and outline it with the stroke object in a PDF document.
+// Apply a border around text characters in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

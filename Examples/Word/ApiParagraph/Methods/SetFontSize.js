@@ -1,8 +1,8 @@
-// Set the font size to the characters of the paragraph in a document.
+// Set the text size for all characters in a paragraph in a document.
 
-// How to set font size to the text in a document.
+// How do I make the text in a paragraph larger or smaller in a document?
 
-// Create a new paragraph and resize its font in a document.
+// Resize paragraph text to stand out or fit a specific layout requirement in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

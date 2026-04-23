@@ -1,8 +1,8 @@
-// Set a string value representing the object name in a spreadsheet.
+// Rename a named range to a different label in a spreadsheet.
 
-// How to rename an object in a spreadsheet.
+// How do I change the name of an existing named range in a spreadsheet?
 
-// Set a new name for an object and display it in the worksheet.
+// Update a range label so formulas and references use the new name in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

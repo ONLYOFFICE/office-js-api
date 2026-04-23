@@ -1,8 +1,8 @@
-// Get geometry information from a star shape on a presentation slide. Displays preset type and custom status in a text shape.
+// Check if a shape uses custom geometry in a presentation.
 
-// How do I is custom in a presentation?
+// How do I determine if a shape has custom geometry in a presentation?
 
-// Is custom using a geometry object in a presentation.
+// Verify whether a shape's outline is custom-defined or preset in a presentation.
 
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);

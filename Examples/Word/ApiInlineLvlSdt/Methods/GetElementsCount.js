@@ -1,8 +1,8 @@
-// Get a number of elements in the inline text content control in a document.
+// Count the elements inside an inline text content control in a document.
 
-// How to get the number of elements of the inline control in a document.
+// How do I check how many elements an inline content control contains in a document?
 
-// Create an inline text content control and show its elements count in a document.
+// Track the element count of an inline content control as runs are added to it in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,6 +1,6 @@
 // Retrieve the class type of a fill in a presentation.
 
-// How to identify the class type of a fill in a presentation?
+// Class type identifies what kind of fill is applied to a shape.
 
 // Obtain the class type identifier of a fill object in a presentation.
 

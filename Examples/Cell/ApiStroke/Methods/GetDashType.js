@@ -1,8 +1,8 @@
-// Get the dash type of a stroke. Creates a shape with a solid border and display its dash type. Returns string value: "dash", "dashDot", "dot", "lgDash", "lgDashDot", "lgDashDotDot", "solid", "sysDash", "sysDashDot", "sysDashDotDot", "sysDot" in a spreadsheet.
+// Read the line style of a shape's border to find out whether it is solid, dashed, or dotted in a spreadsheet.
 
-// How can I get the dash type using a stroke in a spreadsheet?
+// How do I check what dash pattern a shape's border uses in a spreadsheet?
 
-// Get the dash type for a stroke in a spreadsheet.
+// Inspect the border line style of a shape so you can verify or display the pattern name in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 200, 100));

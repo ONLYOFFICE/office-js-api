@@ -1,8 +1,8 @@
-// Check if the current form is fixed size.
+// Check whether a date form has a fixed size in a document.
 
-// How to know whether a combobox form is fixed or not.
+// How do I find out if a date form is set to a fixed size in a document?
 
-// Display a boolean representing whether a combobox is fixed in a document.
+// Confirm that locking a date form to specific dimensions marks it as fixed in a document.
 
 let doc = Api.GetDocument();
 let dateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});

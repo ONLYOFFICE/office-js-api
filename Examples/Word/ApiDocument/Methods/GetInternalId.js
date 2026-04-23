@@ -1,8 +1,8 @@
-// Get the internal ID of the document in a document.
+// Retrieve the unique internal identifier of a document.
 
-// How do I get the internal id in a document?
+// How do I read the internal ID assigned to a document?
 
-// Get the internal id using a document object.
+// Display the document ID as text to confirm it is accessible in a document.
 
 const doc = Api.GetDocument();
 const paragraph = doc.GetElement(0);

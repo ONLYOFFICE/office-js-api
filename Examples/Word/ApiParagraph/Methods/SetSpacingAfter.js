@@ -1,8 +1,8 @@
-// Set the spacing after the paragraph in a document.
+// Set the amount of space that appears after a paragraph in a document.
 
-// How to set the size of a spacing after a text from a paragraph properties in a document.
+// How do I add extra space below a paragraph to separate it from the next one in a document?
 
-// Change the size property of a spacing after a paragraph in a document.
+// Control the gap that follows a paragraph to improve vertical rhythm in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

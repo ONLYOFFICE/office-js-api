@@ -1,8 +1,8 @@
-// Get pivot tables from the workbook in a spreadsheet.
+// Collect every pivot table across all sheets of a workbook in a spreadsheet.
 
-// How to get all pivot tables for a workbook in a spreadsheet?
+// How do I loop through all pivot tables at once in a spreadsheet?
 
-// Get all pivot tables and display the result in a spreadsheet.
+// Populate each pivot table with a data field by iterating the full list in a spreadsheet.
 
 const workbook = Api.GetActiveWorkbook();
 const worksheet = workbook.GetActiveSheet();

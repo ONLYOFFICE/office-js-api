@@ -1,8 +1,8 @@
-// Create a text properties and use it in a presentation.
+// Format text with custom style properties in a presentation.
 
-// How to change text style, size and font in a presentation.
+// How do I make text bold and change its size in a presentation?
 
-// Create the text pr and display the result in a presentation.
+// Apply bold formatting and set a custom font size for text in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

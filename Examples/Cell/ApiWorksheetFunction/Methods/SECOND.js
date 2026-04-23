@@ -1,8 +1,8 @@
 // Return the second, a number from 0 to 59 in a spreadsheet.
 
-// How to get seconds from time in a spreadsheet.
+// Extract the seconds component from a time value using the SECOND function.
 
-// Use a function to return seconds from time object in a spreadsheet.
+// Apply the function to retrieve and display the seconds in a cell.
 
 const worksheet = Api.GetActiveSheet();
 

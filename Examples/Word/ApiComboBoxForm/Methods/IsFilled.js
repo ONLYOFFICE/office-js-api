@@ -1,8 +1,8 @@
-// Check whether the combobox form is filled.
+// Detect whether a combo box form has a value selected or entered in a document.
 
-// How to check if the combobox form has any text set.
+// How do I tell if a combo box form field has been filled in a document?
 
-// Create two combobox forms, fill the second one, and check if each form is filled.
+// Compare an empty combo box against a populated one to verify their fill status in a document.
 
 let doc = Api.GetDocument();
 let comboBoxForm1 = Api.CreateComboBoxForm({"key": "Country1", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": true, "autoFit": false, "items": ["Latvia", "USA", "UK"]});

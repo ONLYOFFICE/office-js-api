@@ -1,8 +1,8 @@
-// Move the cursor to the start of a paragraph.
+// Move the cursor to the beginning of a paragraph in a document.
 
-// Add text to the first paragraph in the document.
+// How do I place the cursor at the start of a paragraph in a document?
 
-// Call MoveCursorToStart to position the cursor before the first character.
+// Position the insertion point before all text to begin editing from the top in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

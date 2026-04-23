@@ -1,8 +1,8 @@
-// Get a table that contains the paragraph in a document.
+// Retrieve the table that contains a given paragraph in a document.
 
-// How to get the parent table of the paragraph in a document.
+// How do I get the table that a paragraph belongs to in a document?
 
-// Remove the cell from the parent element.
+// Remove a row from the parent table by navigating up from a paragraph inside one of its cells in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

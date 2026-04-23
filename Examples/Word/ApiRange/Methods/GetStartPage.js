@@ -1,8 +1,8 @@
-// Get the start page number of a range in a document.
+// Find the first page where a selected region of text begins in a document.
 
-// How can I get the start page using a cell range in a document?
+// How do I determine which page a text selection starts on in a document?
 
-// Get the start page for a cell range in a document.
+// Locate the opening page of a highlighted span to understand its layout position in a document.
 
 const doc = Api.GetDocument();
 

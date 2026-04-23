@@ -1,8 +1,8 @@
-// Get a collection of drawing objects in the paragraph in a document.
+// Retrieve all drawing objects embedded in a paragraph in a document.
 
-// How to retrieve all drawing objects from the document.
+// How do I get every drawing from a paragraph in a document?
 
-// Get all drawings and add color to the first one in a document.
+// Apply bulk visual changes to shapes, images, and charts by collecting all drawings in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

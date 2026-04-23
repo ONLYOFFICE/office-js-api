@@ -1,8 +1,8 @@
-// Get text field and set special format for it.
+// Apply predefined formats like phone numbers to text fields in a PDF.
 
-// How do I set special format in a PDF document?
+// How do I automatically format phone numbers and social security numbers in a PDF?
 
-// Set special format using a text field object.
+// Use built-in formats to style user input in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

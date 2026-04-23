@@ -1,8 +1,8 @@
-// Get the parent sort object from a sort fields collection in a spreadsheet.
+// Retrieve the overall sort settings object that owns a collection of sort columns in a spreadsheet.
 
-// How to navigate from a sort fields collection back to the sort object in a spreadsheet.
+// How do I access the main sort settings from a list of sort columns in a spreadsheet?
 
-// Navigating back to the sort object lets you call Apply() or check settings such as MatchCase in a spreadsheet.
+// Trace back from the sort columns to the parent sort object to inspect its orientation or other properties in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

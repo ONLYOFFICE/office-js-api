@@ -1,8 +1,8 @@
-// Check whether a formatted table is currently active (selected).
+// Check whether a formatted table is currently selected in a spreadsheet.
 
-// How to determine if a table cell is selected.
+// How do I tell if the user's cursor is inside a particular table in a spreadsheet?
 
-// The active cell being inside the table range means any table operation will target that table.
+// Confirm a table is active before running table-specific operations to avoid acting on the wrong range in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

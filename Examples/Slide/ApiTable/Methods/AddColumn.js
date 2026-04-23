@@ -1,8 +1,8 @@
-// Add a new column to the table in a presentation.
+// Insert a new column into a table in a presentation.
 
-// How to insert a column to the table in a presentation.
+// How do I add a new column to a table in a presentation?
 
-// Create a 2x4 table, set its position and then insert a column to it in a presentation.
+// Create a table and add an extra column with content in a presentation.
 
 const presentation = Api.GetPresentation();
 presentation.SetSizes(300 * 36000, 190 * 36000);

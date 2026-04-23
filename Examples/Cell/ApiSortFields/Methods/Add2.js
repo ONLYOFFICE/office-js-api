@@ -1,8 +1,8 @@
-// Add a sort field with subfield support to a sort fields collection in a spreadsheet.
+// Register a sort column that can also target a sub-property of a linked data type in a spreadsheet.
 
-// How to add a sort field with an optional subfield for linked data types in a spreadsheet.
+// How do I add a sort column with an optional sub-property for linked data in a spreadsheet?
 
-// Add a sort field with an optional subfield — the sort is applied immediately in a spreadsheet.
+// Supply a subfield alongside the column to refine what value the sort reads from each cell in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

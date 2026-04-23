@@ -1,8 +1,8 @@
-// Check whether the drawing is flipped vertically in a presentation.
+// Determine if a shape is flipped upside down in a presentation.
 
-// How to get the vertical flip property of the shape in a presentation.
+// How do I check if a shape has been flipped vertically in a presentation?
 
-// Create a drawing, flip it vertically, and read its vertical flip value in a presentation.
+// Flip a shape and verify its vertical flip status in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

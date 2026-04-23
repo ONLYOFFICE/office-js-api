@@ -1,8 +1,8 @@
-// Get the rotation angle of the drawing in a presentation.
+// Get the rotation angle of a shape in a presentation.
 
-// How do I get the rotation in a presentation?
+// How do I find how much a shape is rotated in a presentation?
 
-// Get the rotation using a drawing object object in a presentation.
+// Read and display the rotation value of a shape in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

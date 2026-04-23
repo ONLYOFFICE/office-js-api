@@ -1,8 +1,8 @@
-// Set the text color to the current text run in a presentation.
+// Apply a fill color to text in a presentation.
 
-// How to set solid fill to the text in a presentation.
+// What fill colors can be set for text in a presentation?
 
-// Create a new text run and set its font color in a presentation.
+// Change the fill color of text runs in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

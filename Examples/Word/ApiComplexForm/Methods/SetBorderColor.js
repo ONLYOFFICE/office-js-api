@@ -1,8 +1,8 @@
-// Set the border color to the current form.
+// Set the border color of a complex form in a document.
 
-// How to set border color for a complex form?
+// How do I change the border color of a form in a document?
 
-// Set border color and display the result in a document.
+// Apply a custom border color to a form to highlight it within the document.
 
 let doc = Api.GetDocument();
 let complexForm = Api.CreateComplexForm({"key": "Complex1"});

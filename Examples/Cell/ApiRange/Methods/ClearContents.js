@@ -1,8 +1,8 @@
-// Clear all the contents in the range in a spreadsheet.
+// Delete the values from a cell range while keeping its formatting intact in a spreadsheet.
 
-// How to clear contents for a range in a spreadsheet.
+// How do I remove cell data without touching the styling in a spreadsheet?
 
-// Get a range, clear contents and show the result in a spreadsheet.
+// Wipe only the text and numbers from selected cells so their appearance stays unchanged in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1:B1").SetValue("Example text");

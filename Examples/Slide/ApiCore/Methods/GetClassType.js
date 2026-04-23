@@ -1,8 +1,8 @@
-// Check the class type returned by a core properties in a presentation.
+// Identify the class type of the core properties object in a presentation.
 
-// How do I check what type a core properties object is in a presentation?
+// How do I find out what type the core properties object is in a presentation?
 
-// Retrieve and output the class type string for a core properties in a presentation.
+// Display the class type returned by the presentation's core properties in a presentation.
 
 const presentation = Api.GetPresentation();
 const core = presentation.GetCore();

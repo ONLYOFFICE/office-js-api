@@ -1,8 +1,8 @@
-// Create a radial gradient fill in a PDF document.
+// Apply a radial gradient fill to a shape in a PDF.
 
-// How to create a radial gradient fill in a PDF document.
+// How do I create a gradient that radiates from a center point in a PDF?
 
-// Add a radial gradient fill in a PDF document.
+// Fill a shape with a gradient that transitions outward from the center in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

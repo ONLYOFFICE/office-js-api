@@ -1,8 +1,8 @@
-// Return the smallest value in a set of values. Does not ignore logical values and text in a spreadsheet.
+// Find the smallest value in a list that includes text and logical values in a spreadsheet.
 
-// How to get a minimum from a list including text and logical values in a spreadsheet.
+// What is the minimum value across mixed data types in a spreadsheet?
 
-// Use a function to find a minimum from a list of objects in a spreadsheet.
+// Compare different value types to find the lowest one in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

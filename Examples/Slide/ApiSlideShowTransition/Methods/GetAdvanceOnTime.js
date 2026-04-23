@@ -1,8 +1,8 @@
 // Get the advance on time setting and display it in a presentation.
 
-// How can I get the advance on time using a slide show transition in a presentation?
+// Retrieve the advance on time property from a slide show transition object.
 
-// Get the advance on time for a slide show transition in a presentation.
+// Apply the retrieved value to a shape and display in the slide.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

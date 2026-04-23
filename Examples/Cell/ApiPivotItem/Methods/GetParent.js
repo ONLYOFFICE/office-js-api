@@ -1,8 +1,8 @@
-// Get a parent of a pivot item in a spreadsheet.
+// Find the field that owns a particular pivot item in a spreadsheet.
 
-// How to get a pivot item parent in a spreadsheet.
+// How do I look up which pivot field a given item belongs to in a spreadsheet?
 
-// Create a pivot table, add data to it then get a parent of a specified pivot item in a spreadsheet.
+// Trace an item back to its parent field to understand the pivot table structure in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

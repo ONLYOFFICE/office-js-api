@@ -1,8 +1,8 @@
-// Create a copy of the table in a presentation.
+// Duplicate a table and place the copy on another slide in a presentation.
 
-// How to copy a table and add it to the slide.
+// How do I make a copy of a table to reuse in a presentation?
 
-// Create a 2x4 table, its copy and add them to the presentation.
+// Clone a table and add the duplicate to a new slide in a presentation.
 
 const presentation = Api.GetPresentation();
 

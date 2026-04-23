@@ -1,8 +1,8 @@
-// Create a copy of an inline content control in a document.
+// Duplicate an inline content control in a document.
 
-// How to create a duplicate of the inline text element in a document.
+// How do I copy an inline content control in a document?
 
-// Add inline content control and its copy to the paragraph separated by a line break in a document.
+// Place the original and its copy side by side in a paragraph to reuse formatted input fields in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

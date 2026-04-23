@@ -1,8 +1,8 @@
-// Get field widget and display it's border color in a PDF document.
+// Read the border color of a form field widget in a PDF.
 
-// How to get the border color for a widget in a PDF document?
+// How do I get the border color of a widget in a PDF?
 
-// Get the border color and display the result in a PDF document.
+// Retrieve and display the outline color of a form field in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

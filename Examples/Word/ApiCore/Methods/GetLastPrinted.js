@@ -1,8 +1,8 @@
-// Get the date when the current document was last printed in a document.
+// Read the date when the document was last printed from its core properties in a document.
 
-// How can I get last printed using a core properties in a document?
+// How do I get the last printed date from the core properties in a document?
 
-// Get last printed for a core properties in a document.
+// Check the print history of a document to decide whether a fresh copy needs to be produced in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

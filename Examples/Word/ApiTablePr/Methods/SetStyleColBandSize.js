@@ -1,8 +1,8 @@
-// Specify a number of columns which will comprise each table column band for this table style in a document.
+// Group multiple adjacent columns together into a single alternating band in a document.
 
-// How to set column band size in a document.
+// How do I make the striped column pattern span more than one column in a document?
 
-// How to style a column band size in a document.
+// Widen the repeating column highlight bands applied by a table style in a document.
 
 let doc = Api.GetDocument();
 doc.RemoveAllElements();

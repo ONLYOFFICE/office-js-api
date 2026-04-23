@@ -1,8 +1,8 @@
-// Analyzes path commands of a star shape on a pdf document page. Shows command count and first command details in a text shape.
+// Retrieve the type of a path command in a PDF.
 
-// How can I get the type using a path command in a PDF document?
+// How do I find out the command type in a PDF?
 
-// Get the type for a path command in a PDF document.
+// Identify the type value from a path command in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

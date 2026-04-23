@@ -1,8 +1,8 @@
-// Get a pdf document name and insert it into the pdf document.
+// Retrieve the document file name and display it in a PDF.
 
-// How to get a pdf document name.
+// How do I get the file name of a PDF?
 
-// Retrieve name of pdf document.
+// Fetch the document name and insert it as text in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

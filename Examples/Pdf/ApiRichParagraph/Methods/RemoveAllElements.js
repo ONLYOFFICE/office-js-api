@@ -1,8 +1,8 @@
-// Remove all elements from rich paragraph in a PDF document.
+// Clear all content from a paragraph in a PDF.
 
-// How to remove all elements for a rich paragraph in a PDF document?
+// How do I delete every element in a paragraph in a PDF?
 
-// Remove all elements and display the result in a PDF document.
+// Empty the contents of a paragraph in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);

@@ -1,8 +1,8 @@
-// Retrieve the class type of a table cell in a presentation.
+// Get the class type identifier of a table cell.
 
-// How to identify the class type of a table cell?
+// Retrieve the class type to identify the cell object's type.
 
-// Obtain the class type identifier of a table cell object.
+// Create a table cell and obtain its class type identifier.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

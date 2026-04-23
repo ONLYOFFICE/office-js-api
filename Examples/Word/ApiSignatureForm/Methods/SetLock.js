@@ -1,8 +1,8 @@
-// Set the lock state of the signature form.
+// Restrict or allow editing of a signature field in a document.
 
-// How to lock or unlock the signature form.
+// How do I prevent users from modifying a signature field in a document?
 
-// Lock the signature form to prevent editing.
+// Protect a completed signature field from being changed or deleted in a document.
 
 let doc = Api.GetDocument();
 let signatureForm = Api.CreateSignatureForm({"key": "Signature", "tip": "Please sign here", "required": true, "placeholder": "Signature"});

@@ -1,8 +1,8 @@
-// Create a new history point in a document.
+// Create a new history point to mark an undo boundary in a document.
 
-// How to add a history point after adding the text in a document.
+// How do I create a history point between two edits in a document?
 
-// Add a text to the paragraph, create a history point and change its text in a document.
+// Separate text changes into distinct undo steps so each can be reversed independently in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

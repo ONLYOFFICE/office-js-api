@@ -1,8 +1,8 @@
-// Set the reading order of the text in the specified paragraph in a document.
+// Set the reading direction of a paragraph to left-to-right or right-to-left in a document.
 
-// How do I set reading order in a document?
+// How do I make a paragraph display text in a right-to-left reading order in a document?
 
-// Set reading order using a paragraph object in a document.
+// Switch a paragraph's text flow to match a language that reads from right to left in a document.
 
 const doc = Api.GetDocument();
 const paragraph = Api.CreateParagraph();

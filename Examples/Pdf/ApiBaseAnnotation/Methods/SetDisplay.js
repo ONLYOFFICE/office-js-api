@@ -1,8 +1,8 @@
-// Create a square annotation and set display to it in a PDF document.
+// Control the visibility of an annotation in a PDF.
 
-// How to set display for an annotation in a PDF document?
+// Toggle whether an annotation appears or stays hidden in a PDF.
 
-// Set display and display the result in a PDF document.
+// Set the display mode to show or conceal an annotation in a PDF.
 
 let doc = Api.GetDocument();
 let squareAnnot = Api.CreateSquareAnnot([10, 10, 160, 32]);

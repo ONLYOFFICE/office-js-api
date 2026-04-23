@@ -1,8 +1,8 @@
-// Analyzes cloud shape path properties and display them in cells. Shows path count, dimensions, stroke and fill information.
+// Read the fill setting of a custom shape path and display shape properties in a spreadsheet.
 
-// How to get the fill for a geometry path in a spreadsheet?
+// How do I check whether a path inside a custom shape is filled in a spreadsheet?
 
-// Get the fill and display the result in a spreadsheet.
+// Inspect path dimensions, stroke, and fill values to understand how a shape is drawn in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(100, 150, 200));

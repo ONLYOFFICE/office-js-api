@@ -1,8 +1,8 @@
-// Get an element by its position in the document content.
+// Retrieve a specific paragraph from a shape by its position in a spreadsheet.
 
-// How to get an element of the document content knowing its index position.
+// How do I access a particular paragraph inside a shape by its index in a spreadsheet?
 
-// Get a document element then change its position and content.
+// Read and modify a paragraph at a known position within a shape in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

@@ -1,8 +1,8 @@
-// Apply strikeout formatting to all text in a paragraph inside a shape in a spreadsheet.
+// Draw a horizontal line through all text in a paragraph inside a shape in a spreadsheet.
 
-// How to set strikeout for a paragraph in a spreadsheet?
+// How do I mark paragraph text as crossed out in a spreadsheet?
 
-// Set strikeout and display the result in a spreadsheet.
+// Strike through the text of a paragraph to indicate removed or deprecated content in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const fill = Api.CreateSolidFill(Api.RGB(130, 110, 150));

@@ -1,8 +1,8 @@
-// Get the number format from an unique values conditional formatting rule.
+// Read the number format pattern assigned to a unique-values conditional formatting rule in a spreadsheet.
 
-// How to retrieve number formatting from unique values conditional formatting.
+// How do I check what number format a unique-values rule applies to matching cells in a spreadsheet?
 
-// Get the number format pattern from the unique values rule.
+// Confirm the numeric display pattern a unique-values rule enforces on highlighted cells in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

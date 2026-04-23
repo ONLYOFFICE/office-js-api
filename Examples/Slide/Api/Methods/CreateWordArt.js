@@ -1,8 +1,8 @@
-// Create a Text Art object with the "textArchUp" text transform type.
+// Create stylized text with an arch-shaped curve in a presentation.
 
-// How to create word art indicating its text properties in a presentation.
+// How do I add decorative curved text to a presentation in a presentation?
 
-// Add arch up text word art in a presentation.
+// Insert text art with custom formatting and text effects in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

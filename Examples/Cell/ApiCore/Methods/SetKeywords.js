@@ -1,8 +1,8 @@
-// Set the string of keywords of the workbook using the core properties in a spreadsheet.
+// Add searchable keywords to a workbook's document properties in a spreadsheet.
 
-// How can I set keywords using a core properties in a spreadsheet?
+// How do I attach search tags to a workbook's metadata in a spreadsheet?
 
-// Set keywords for a core properties in a spreadsheet.
+// Tag the workbook with descriptive terms that make it easier to find in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

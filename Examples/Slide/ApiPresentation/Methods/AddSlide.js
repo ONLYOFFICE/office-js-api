@@ -1,8 +1,8 @@
-// Append a new slide to the end of the presentation.
+// Add a new slide with a gradient background to a presentation.
 
-// The new slide is created with a radial gradient background.
+// How do I create and add a new slide to the end of a presentation?
 
-// Create a slide and add it to the end of presentation.
+// Create a slide with a radial gradient fill and add it to a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = Api.CreateSlide();

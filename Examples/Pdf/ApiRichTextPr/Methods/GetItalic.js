@@ -1,8 +1,8 @@
-// Get italic property from rich text properties object in a PDF document.
+// Check if text is italicized in a PDF.
 
-// How do I get italic in a PDF document?
+// How do I determine whether text is slanted in a PDF?
 
-// Get italic using a rich text properties object in a PDF document.
+// Retrieve the italic state of formatted text in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);

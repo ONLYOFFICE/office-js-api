@@ -1,8 +1,8 @@
-// Set the text operator for a text-based conditional formatting rule.
+// Change how a text formatting rule matches cell content, such as begins with or ends with, in a spreadsheet.
 
-// How to change text operators in text-based conditional formatting rules.
+// How do I switch a text highlight rule from checking if a cell contains a word to checking how it starts in a spreadsheet?
 
-// Set conditional formatting rule text operator.
+// Adjust the matching strategy of a text-based highlight rule to target different patterns in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// Get the count of custom XML parts in the XML manager in a spreadsheet.
+// Count how many XML blocks are stored in a workbook in a spreadsheet.
 
-// How to get the count of custom XML parts in a spreadsheet.
+// How do I find out how many embedded XML entries exist in a spreadsheet?
 
-// Get the count of XML parts in a spreadsheet.
+// Check the total number of saved XML blocks before iterating over them in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let xmlManager = worksheet.GetCustomXmlParts();

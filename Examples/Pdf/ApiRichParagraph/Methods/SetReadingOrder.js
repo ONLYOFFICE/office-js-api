@@ -1,8 +1,8 @@
-// Set rtl to rich paragraph in a PDF document.
+// Specify text reading direction for a paragraph in a PDF.
 
-// How do I set reading order in a PDF document?
+// How do I set the reading direction for a paragraph in a PDF?
 
-// Set reading order using a rich paragraph object in a PDF document.
+// Configure how text flows through a paragraph in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);

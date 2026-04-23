@@ -1,8 +1,8 @@
-// Return the number of combinations with repetitions for a given number of items in a spreadsheet.
+// Count combinations when items can be repeated in a spreadsheet.
 
-// How to find a number of combinations with repetitions in a spreadsheet.
+// How many selections can you make if you can reuse items in a spreadsheet?
 
-// Use function to count possible combinations with duplicates for a given number of items in a spreadsheet.
+// Find all possible selections including repeated items in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

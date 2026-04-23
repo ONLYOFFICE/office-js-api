@@ -1,8 +1,8 @@
-// Get the paragraph line spacing rule in a document.
+// Read the line spacing rule applied to a paragraph and display it in a document.
 
-// How to get the spacing line rule of the paragraph and display it in a document.
+// How do I get the line spacing rule of a paragraph in a document?
 
-// Get the paragraph spacing line rule in a document.
+// Confirm the spacing mode in use by printing the line spacing rule after setting triple-line spacing in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

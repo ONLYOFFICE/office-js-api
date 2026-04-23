@@ -1,8 +1,8 @@
-// Set the paragraph contents justification in a presentation.
+// Align paragraph text in different directions in a presentation.
 
-// How to set justification of the paragraph content in a presentation.
+// How do I change text alignment in a paragraph in a presentation?
 
-// Change the justification of the paragraph in a presentation.
+// Apply left, center, or right alignment to paragraph content in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

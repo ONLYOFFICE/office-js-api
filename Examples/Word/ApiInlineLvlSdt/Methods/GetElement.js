@@ -1,8 +1,8 @@
-// Get an element of the inline text content control using the position specified in a document.
+// Retrieve a specific element from an inline text content control by position in a document.
 
-// Get the element of the inline text control, make it bold in a document.
+// How do I get a single element from an inline content control in a document?
 
-// How to get the n^th element of the inline control in a document.
+// Bold a chosen run inside an inline content control to distinguish it from the rest in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

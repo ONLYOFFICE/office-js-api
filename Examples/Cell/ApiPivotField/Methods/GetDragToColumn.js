@@ -1,8 +1,8 @@
-// Get a drag to column of a pivot field in a spreadsheet.
+// Check whether a pivot field can be moved to the column area in a spreadsheet.
 
-// How to get a pivot field drag to column in a spreadsheet.
+// How do I find out if a pivot field is allowed to be dragged to the column zone in a spreadsheet?
 
-// Create a pivot table, add data to it then get a drag to column of a specified pivot field in a spreadsheet.
+// Verify that a pivot field supports placement as a column header in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

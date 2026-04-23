@@ -1,8 +1,8 @@
-// Get icon criteria collection in a spreadsheet.
+// Retrieve all icon criteria from an icon set conditional formatting rule in a spreadsheet.
 
-// How to retrieve icon criteria for conditional formatting.
+// How do I access each individual threshold and icon setting within an icon set rule in a spreadsheet?
 
-// Get the collection of icon criteria from the formatting rule.
+// List the full set of criteria that control which icon each cell receives under a formatting rule in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

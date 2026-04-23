@@ -1,8 +1,8 @@
-// Set and get the revision of the current presentation in a presentation.
+// Assign a revision number to a presentation in a presentation.
 
-// How to set revision for a core properties in a presentation?
+// How do I add a revision identifier to a presentation?
 
-// Set revision and display the result in a presentation.
+// Set and read the revision information for a presentation.
 
 const presentation = Api.GetPresentation();
 const core = presentation.GetCore();

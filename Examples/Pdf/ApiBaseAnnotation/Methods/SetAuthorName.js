@@ -1,8 +1,8 @@
-// Create a square annotation and set author name to it in a PDF document.
+// Assign an author name to an annotation in a PDF.
 
-// How to set author name for an annotation in a PDF document?
+// Who created or should be credited for an annotation in a PDF?
 
-// Set author name and display the result in a PDF document.
+// Set the author name property of an annotation object in a PDF.
 
 let doc = Api.GetDocument();
 let squareAnnot = Api.CreateSquareAnnot([10, 10, 160, 32]);

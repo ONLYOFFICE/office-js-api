@@ -1,8 +1,8 @@
-// Get the category of the workbook using the core properties in a spreadsheet.
+// Read the category assigned to a workbook in a spreadsheet.
 
-// How to get the category for a core properties in a spreadsheet?
+// How do I find out what category a workbook belongs to in a spreadsheet?
 
-// Get the category and display the result in a spreadsheet.
+// Display the workbook category stored in the document properties in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

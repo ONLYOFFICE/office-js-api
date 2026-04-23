@@ -1,8 +1,8 @@
-// Get the content status of the workbook using the core properties in a spreadsheet.
+// Read the content status stored in the workbook properties in a spreadsheet.
 
-// How to get the content status for a core properties in a spreadsheet?
+// How do I check the current content status of a workbook in a spreadsheet?
 
-// Get the content status and display the result in a spreadsheet.
+// Retrieve and display the publication or review status of a workbook in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

@@ -1,8 +1,8 @@
-// Set commit on selection change prop to field with list of options in a PDF document.
+// Enable auto-submission when a dropdown selection changes in a PDF.
 
-// How can I set commit on sel change using a list field in a PDF document?
+// How do I make a field auto-submit when the selection changes in a PDF?
 
-// Set commit on sel change for a list field in a PDF document.
+// Configure a dropdown to trigger form submission on selection in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

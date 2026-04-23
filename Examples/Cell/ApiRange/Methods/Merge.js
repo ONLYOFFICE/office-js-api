@@ -1,8 +1,8 @@
-// Merge the selected cell range into a single cell or a cell row.
+// Combine a group of cells into one single cell in a spreadsheet.
 
-// How to get a range using cell addresses and merge them into one.
+// How do I merge multiple cells together into one in a spreadsheet?
 
-// Get a range, merge its cells into one cell.
+// Join adjacent cells across rows or columns into a unified block in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A3:E8").Merge(true);

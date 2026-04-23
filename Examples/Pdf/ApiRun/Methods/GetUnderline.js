@@ -1,8 +1,8 @@
-// Find out whether a text is underlined in a PDF document.
+// Check if text has an underline decoration in a PDF.
 
-// How to know whether a text is underlined or not in a PDF document.
+// How do I determine if text is underlined in a PDF?
 
-// Get the run and find whether it is underlined or not in a PDF document.
+// Verify the underline status of text in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

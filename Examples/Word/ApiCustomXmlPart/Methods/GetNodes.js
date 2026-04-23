@@ -1,8 +1,8 @@
-// Update the value of an attribute in a custom XML node in a document.
+// Select XML nodes from a custom XML part using an XPath query in a document.
 
-// How can I get the nodes using a custom XML part in a document?
+// How do I retrieve specific nodes from a custom XML part in a document?
 
-// Get the nodes for a custom XML part in a document.
+// Extract node text and attributes to read structured data stored in a document.
 
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();

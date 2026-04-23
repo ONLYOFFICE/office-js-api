@@ -1,8 +1,8 @@
-// Set the bullet or numbering to the paragraph in a presentation.
+// Add a bullet point to a paragraph in a presentation.
 
-// How to create a bulleted paragraph in a presentation.
+// How do I create a bulleted list in a presentation?
 
-// Create a numbered paragraph in a presentation.
+// Format a paragraph with a bullet character in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

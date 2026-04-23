@@ -1,8 +1,8 @@
-// Set the paragraph text properties in a presentation.
+// Apply text formatting properties like font size and weight in a presentation.
 
-// How to set text pr for a paragraph in a presentation?
+// How do I change the appearance of text in a paragraph in a presentation?
 
-// Set text pr and display the result in a presentation.
+// Configure font properties for text in a shape in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

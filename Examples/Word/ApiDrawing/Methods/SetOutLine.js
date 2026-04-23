@@ -1,8 +1,8 @@
-// Set the outline properties to the specified graphic object in a document.
+// Add a visible border outline to a drawing in a document.
 
-// How to outline the drawing with the stroke in a document.
+// How do I apply a stroke to the edge of a shape in a document?
 
-// Set the borders of the shape in a document.
+// Copy a shape and give the duplicate a dark solid outline to contrast with the original in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// Set callout for freeText annotation in a PDF document.
+// Set the callout shape style for a text annotation in a PDF.
 
-// How can I set callout using a free text annotation in a PDF document?
+// How do I change what the comment box looks like in a PDF?
 
-// Set callout for a free text annotation in a PDF document.
+// Assign a callout appearance to an annotation element in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);

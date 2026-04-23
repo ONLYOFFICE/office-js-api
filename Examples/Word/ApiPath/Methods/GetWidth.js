@@ -1,8 +1,8 @@
-// Analyzes path properties of a cloud shape. Retrieves and display path dimensions, stroke and fill information.
+// Read the width value set for a shape's drawing path in a document.
 
-// How can I get the width using a geometry path in a document?
+// How do I find out the width of a shape's path area in a document?
 
-// Get the width for a geometry path in a document.
+// Confirm the horizontal size of a path before adjusting the layout of a shape in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

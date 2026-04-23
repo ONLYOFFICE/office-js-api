@@ -1,8 +1,8 @@
-// Set vertical alignment "superscript" for a text range.
+// Position selected text above or below the normal line as superscript or subscript in a document.
 
-// Set the vertical alignment of a text in a document.
+// How do I align a range of characters vertically as raised or lowered text in a document?
 
-// Get a range, specify its vertical alignment as "baseline", "subscript" or "superscript" in a document.
+// Mark a word or symbol to sit above or below the baseline of surrounding text in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

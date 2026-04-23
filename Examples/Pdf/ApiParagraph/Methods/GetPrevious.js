@@ -1,8 +1,8 @@
-// Get the previous paragraph in a PDF document.
+// Navigate to the paragraph that precedes the current one in a PDF.
 
-// How to get the previous paragraph of the current one in a PDF document.
+// How do I access the preceding paragraph before the current one in a PDF?
 
-// Return the previous paragraph on the page and make its text bold.
+// Move backward to the previous paragraph and apply formatting in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// Specify the chart legend position in a presentation.
+// Set the position of a chart legend in a presentation.
 
-// How to place a chart legend in a presentation.
+// How do I move a chart legend to a different location in a presentation?
 
-// Create a chart, set its properties and its legend's position in a presentation.
+// Place the legend at the bottom, top, left, right, or inside the chart area in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// Set the value of color scale criterion in a spreadsheet.
+// Assign a new boundary number to a color scale rule point in a spreadsheet.
 
-// How to change the value of a color scale criterion in a spreadsheet.
+// How do I update the numeric threshold for a color scale rule point in a spreadsheet?
 
-// Set the value of a color scale criterion in a spreadsheet.
+// Adjust where a color scale gradient changes by overwriting the boundary number at one of its rule points in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

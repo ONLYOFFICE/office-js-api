@@ -1,8 +1,8 @@
-// Clear content of complex form.
+// Erase the content of a complex form in a document.
 
-// How can I clear content using a complex form in a document?
+// How do I clear the content inside a complex form in a document?
 
-// Clear content for a complex form in a document.
+// Wipe user-entered values from a complex form without removing the form structure itself.
 
 let doc = Api.GetDocument()
 let complexForm = Api.CreateComplexForm({"key": "Complex1"});

@@ -1,8 +1,8 @@
-// Check whether the last column highlight is enabled for a formatted table.
+// Read whether the last column of a table has special highlight formatting in a spreadsheet.
 
-// How to determine if special formatting is applied to the last column of a table.
+// How do I check if the last column stands out with distinct styling in a spreadsheet?
 
-// When enabled, the last column receives the distinct formatting defined by the current table style.
+// Determine if the table draws attention to its rightmost column before modifying the layout in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

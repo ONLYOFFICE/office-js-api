@@ -1,8 +1,8 @@
-// Get the comment text in a spreadsheet.
+// Read the text content of a comment in a spreadsheet.
 
-// How to get a comment raw text in a spreadsheet.
+// How do I retrieve the written message stored inside a comment in a spreadsheet?
 
-// Add a comment text to a range of the worksheet.
+// Extract what a comment says so it can be displayed or compared in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

@@ -1,8 +1,8 @@
-// Specify that any lowercase characters in the text run are formatted for display only as their capital letter character equivalents.
+// Display all text characters as capital letters without changing the underlying content in a spreadsheet.
 
-// How to make text capitalized in a spreadsheet.
+// How do I make every letter in a text run appear as an uppercase character in a spreadsheet?
 
-// Make all characters of a text as a capital letter in a spreadsheet.
+// Force a text run to render in all-caps style for a consistent visual look in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

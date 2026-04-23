@@ -1,8 +1,8 @@
-// Get a paragraph element using the position specified in a PDF document.
+// Retrieve a text element from a paragraph by position in a PDF.
 
-// How to return an element from the ApiPargaraph object in a PDF document.
+// How do I access a specific text element in a paragraph in a PDF?
 
-// Get an object from the paragraph in a PDF document.
+// Extract an element at a given position from a paragraph in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

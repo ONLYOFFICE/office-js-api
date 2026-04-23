@@ -1,8 +1,8 @@
-// Change the sort key column of an existing sort field in a spreadsheet.
+// Point an existing sort criterion at a different column and re-sort the table in a spreadsheet.
 
-// How to reassign the sort key range of a sort field in a spreadsheet.
+// How do I reassign which column a sort field targets without creating a new sort rule in a spreadsheet?
 
-// Change the sort key column of an existing sort field and apply the sort in a spreadsheet.
+// Swap the data column driving a sort criterion, then apply the updated order in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

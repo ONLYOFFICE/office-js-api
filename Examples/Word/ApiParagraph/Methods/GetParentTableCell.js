@@ -1,8 +1,8 @@
-// Get a table cell that contains the current paragraph in a document.
+// Retrieve the table cell that contains a given paragraph in a document.
 
-// How to get the parent table cell of the paragraph.
+// How do I find the table cell that holds a paragraph in a document?
 
-// Set shading to the cell of the parent table.
+// Apply a background color to a cell by accessing it from a paragraph nested inside it in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

@@ -1,8 +1,8 @@
-// Get the spacing after value of the current paragraph in a PDF document.
+// Get the space amount that appears after a paragraph in a PDF.
 
-// How to get the size of a spacing after a text from a paragraph in a PDF document.
+// How do I find the bottom margin spacing for text in a PDF?
 
-// Return a property of the spacing size after a paragraph in a PDF document.
+// Retrieve the gap size following paragraph content in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

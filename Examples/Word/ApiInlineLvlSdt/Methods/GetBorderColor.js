@@ -1,8 +1,8 @@
-// Get the border color for the container in a document.
+// Read the border color of an inline content control in a document.
 
-// How do I get the border color in a document?
+// How do I get the border color of an inline content control in a document?
 
-// Get the border color using an inline content control object in a document.
+// Compare the outline color of multiple content controls to audit their visual styling in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

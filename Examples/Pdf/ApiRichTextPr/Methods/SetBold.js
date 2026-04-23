@@ -1,8 +1,8 @@
-// Set bold property to rich text properties object in a PDF document.
+// Make text bold in a PDF.
 
-// How can I set bold using a rich text properties in a PDF document?
+// How do I add bold formatting to text in a PDF?
 
-// Set bold for a rich text properties in a PDF document.
+// Apply bold styling to formatted text in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);

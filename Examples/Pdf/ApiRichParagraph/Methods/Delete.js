@@ -1,8 +1,8 @@
-// Delete rich paragraph in a PDF document.
+// Remove a paragraph from content in a PDF.
 
-// How to delete for a rich paragraph in a PDF document?
+// How can I delete a paragraph in a PDF?
 
-// Delete and display the result in a PDF document.
+// Eliminate a paragraph from the document layout in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);

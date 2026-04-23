@@ -1,8 +1,8 @@
-// Return the gamma distribution in a spreadsheet.
+// Calculate the probability of a value in a gamma distribution in a spreadsheet.
 
-// How to calculate the gamma distribution in a spreadsheet.
+// How do I evaluate a gamma distribution at a specific point in a spreadsheet?
 
-// Use a function to get the result from a gamma distribution in a spreadsheet.
+// Get the cumulative or probability density of a gamma distribution in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

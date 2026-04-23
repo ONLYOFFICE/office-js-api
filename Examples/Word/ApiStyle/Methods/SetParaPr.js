@@ -1,8 +1,8 @@
-// Apply paragraph settings to the specified style in a document.
+// Apply paragraph formatting rules to a named style so all matching paragraphs share those settings in a document.
 
-// Create a paragraph, add a text to it, and set the line spacing and justify in a document.
+// How do I change the line spacing and alignment for all paragraphs that use a particular style in a document?
 
-// Specify the text properties object and apply its settings to the style object in a document.
+// Control indentation and spacing across multiple paragraphs at once by updating their shared style in a document.
 
 let doc = Api.GetDocument();
 let normalStyle = doc.GetDefaultStyle("paragraph");

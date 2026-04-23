@@ -1,8 +1,8 @@
-// Get the tag color of the container in a document.
+// Read the highlight color of a content control in a document.
 
-// Create a block content control, set the color to it, and return its color in a document.
+// How do I get the color assigned to a content control in a document?
 
-// How to return the color of the block-level content control object in a document.
+// Check what color a content control has and display its hex value in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

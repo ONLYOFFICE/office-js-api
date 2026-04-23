@@ -1,8 +1,8 @@
-// Get text from rich paragraph in a PDF document.
+// Extract all text from a paragraph in a PDF.
 
-// How to get the text for a rich paragraph in a PDF document?
+// How do I read the text content from a paragraph in a PDF?
 
-// Get the text and display the result in a PDF document.
+// Retrieve the complete text string from a paragraph in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);

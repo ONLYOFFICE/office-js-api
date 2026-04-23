@@ -1,8 +1,8 @@
-// Find out whether the current form is uncapitalized or not.
+// Determine whether a run of text is formatted with small capitals in a document.
 
-// How to find out whether a text is ucapitalized or not in a document.
+// How do I check if a piece of text uses small caps formatting in a document?
 
-// Get the property of the text that shows whether a text is in lowercase in a document.
+// Verify whether lowercase letters are displayed as reduced capitals in a text run in a document.
 
 let doc = Api.GetDocument();
 let myNewRunStyle = doc.CreateStyle("My New Run Style", "run");

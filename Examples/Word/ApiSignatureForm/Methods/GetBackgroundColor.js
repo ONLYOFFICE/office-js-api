@@ -1,8 +1,8 @@
-// Set and get the background color of the current form in a document.
+// Read the background color applied to a signature field in a document.
 
-// How to get the background color for a signature form?
+// How do I find out what background color a signature field has in a document?
 
-// Get the background color and display the result in a document.
+// Inspect the fill color behind a signature field to use or display the value in a document.
 
 let doc = Api.GetDocument();
 

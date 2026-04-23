@@ -1,8 +1,8 @@
-// Freeze first column then unfreeze all panes in the worksheet.
+// Release all locked rows and columns so the sheet scrolls freely in a spreadsheet.
 
-// How to unfreeze columns from freezed panes in a spreadsheet.
+// How do I remove frozen panes and allow the entire sheet to scroll without restrictions in a spreadsheet?
 
-// Add freezed panes then unfreeze the first column and show all freezed ones' location to prove it in a spreadsheet.
+// Unpin any fixed areas to restore normal scrolling behavior across the whole sheet in a spreadsheet.
 
 Api.SetFreezePanesType('column');
 let worksheet = Api.GetActiveSheet();

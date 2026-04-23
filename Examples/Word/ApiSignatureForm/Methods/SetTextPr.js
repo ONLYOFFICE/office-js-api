@@ -1,8 +1,8 @@
-// Set the text properties to the current form.
+// Apply text formatting to a signature field in a document.
 
-// Add text properties to the signature form.
+// How do I change the font size and style of text inside a signature field in a document?
 
-// How to create a signature form and make its text bold and bigger.
+// Make the text in a signature field bold and larger to improve its visual prominence in a document.
 
 let doc = Api.GetDocument();
 let signatureForm = Api.CreateSignatureForm({"key": "Signature", "tip": "Please sign here", "placeholder": "Signature"});

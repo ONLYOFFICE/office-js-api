@@ -1,8 +1,8 @@
-// Get the parent worksheet of a formatted table.
+// Identify the worksheet that contains a given table in a spreadsheet.
 
-// How to retrieve the worksheet that contains a table.
+// How do I find out which sheet a table belongs to in a spreadsheet?
 
-// Navigating to the parent worksheet lets you access other ranges and objects on the same sheet.
+// Navigate from a table back to its parent sheet to work with other cells on the same sheet in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

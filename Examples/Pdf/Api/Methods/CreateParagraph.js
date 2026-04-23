@@ -1,6 +1,6 @@
 // Create a new paragraph and insert it into the shape in a PDF document.
 
-// How to add a text in a PDF document.
+// Add text in a PDF document.
 
 // Insert text to the paragraph and add it to the page.
 

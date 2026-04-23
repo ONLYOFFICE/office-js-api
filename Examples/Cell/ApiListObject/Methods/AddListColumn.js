@@ -1,8 +1,8 @@
-// Add a new column to a formatted table.
+// Expand a formatted table by adding a new column in a spreadsheet.
 
-// How to insert a column into an existing table in a spreadsheet.
+// How do I add an extra column to an existing table in a spreadsheet?
 
-// The new column is appended after the last existing column and automatically inherits the table style in a spreadsheet.
+// Grow your table structure to capture additional data fields without rebuilding it from scratch in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

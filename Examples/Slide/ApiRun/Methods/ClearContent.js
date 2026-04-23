@@ -1,8 +1,8 @@
-// Clear the content from the run in a presentation.
+// Delete all text from a text run in a presentation.
 
-// How to delete content from the text run in a presentation.
+// How do I remove text content from a text run in a presentation?
 
-// Remove text from the slide.
+// Clear text from a slide in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

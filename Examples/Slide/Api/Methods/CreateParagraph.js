@@ -1,8 +1,8 @@
-// Create a new paragraph and insert it into the shape in a presentation.
+// Add text content inside a shape in a presentation.
 
-// How to add a text in a presentation.
+// How do I create multiple text lines inside a shape in a presentation?
 
-// Insert text to the paragraph and add it to the slide.
+// Create paragraphs with text alignment inside a shape in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

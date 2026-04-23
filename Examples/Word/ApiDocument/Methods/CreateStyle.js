@@ -1,8 +1,8 @@
-// Create a new style with the "Heading 1" type and "paragraph" name in a document.
+// Define a custom paragraph style with a specific font, color, and spacing in a document.
 
-// How to create a paragraph and set its style as a heading in a document.
+// How do I create a reusable heading style and apply it to a paragraph in a document?
 
-// Set style of the paragraph in a document.
+// Give a heading a unique color and size so it stands out visually from body text in a document.
 
 let doc = Api.GetDocument();
 let heading1Style = doc.CreateStyle("Heading 1", "paragraph");

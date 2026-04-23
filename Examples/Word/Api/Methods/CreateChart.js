@@ -1,8 +1,8 @@
-// Create a chart and paste it into the document.
+// Insert a 3D bar chart with colored data series into a document.
 
-// Create a "bar3D" chart, add it to the paragraph class, and fill its series with the created solid fills in a document.
+// How do I add a bar chart with custom series colors to a document?
 
-// How to create the chart object and add it to the first paragraph of the document.
+// Visualize revenue and cost data for multiple years as a colored 3D bar chart in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// Get the text from the form in a document.
+// Extract the combined text content of a complex form in a document.
 
-// How do I get the text in a document?
+// How do I read the text entered across all parts of a form in a document?
 
-// Get the text using a complex form object.
+// Capture the assembled text from a multi-part form to display or validate it in a document.
 
 let doc = Api.GetDocument();
 let complexForm = Api.CreateComplexForm({"key": "Complex1"});

@@ -1,8 +1,8 @@
-// Get a type of the form in a document.
+// Read the form type of a signature field in a document.
 
-// How to get a type of a signature form.
+// How do I find out what type a signature form is set to in a document?
 
-// Retrieve type of a created signature form object and display it.
+// Confirm the category label assigned to a signature form in a document.
 
 let doc = Api.GetDocument();
 let signatureForm = Api.CreateSignatureForm({"key": "Signature", "tip": "Please sign here", "placeholder": "Signature"});

@@ -1,8 +1,8 @@
-// Set and get the background color of the current table cell in a document.
+// Read the background color from a table cell and reuse it elsewhere in a document.
 
-// How can I get the background color using a table cell in a document?
+// How do I retrieve the fill color of a table cell and apply it to a paragraph in a document?
 
-// Get the background color for a table cell in a document.
+// Match a paragraph's color to a cell's background by reading the color value in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

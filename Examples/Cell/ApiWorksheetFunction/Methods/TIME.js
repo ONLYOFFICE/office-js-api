@@ -1,8 +1,8 @@
 // Convert hours, minutes and seconds given as numbers to a serial number, formatted with the time format in a spreadsheet.
 
-// How to create a serial number indicating hours, minutes and seconds in a spreadsheet.
+// Create a serial number from time components for use in spreadsheet calculations.
 
-// Use a function to convert hours, minutes and seconds to serial numbers in a spreadsheet.
+// Apply the TIME function with hour, minute, and second parameters.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

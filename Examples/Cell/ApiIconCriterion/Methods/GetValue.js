@@ -1,8 +1,8 @@
-// Get the value of an icon criterion in a spreadsheet.
+// Read the threshold value from an icon criterion in a spreadsheet.
 
-// How to retrieve the threshold value from an icon set criterion in a spreadsheet.
+// How do I find out what number or formula an icon criterion uses as its cutoff in a spreadsheet?
 
-// Get the value used for criterion threshold comparison in a spreadsheet.
+// Retrieve the exact boundary value that determines which icon a cell receives in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

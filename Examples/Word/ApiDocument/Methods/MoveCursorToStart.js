@@ -1,8 +1,8 @@
-// Move the cursor to the start of the document in a document.
+// Move the cursor to the very beginning of a document.
 
-// How can I move cursor to start using a document in a document?
+// How do I place the cursor at the first position in a document?
 
-// Move cursor to start for a document in a document.
+// Prepend text before all existing content by jumping the cursor to the start in a document.
 
 const doc = Api.GetDocument();
 const paragraph = doc.GetElement(0);

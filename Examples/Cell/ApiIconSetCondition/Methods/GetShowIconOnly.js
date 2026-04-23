@@ -1,8 +1,8 @@
-// Check if only icons are displayed in a spreadsheet.
+// Find out whether an icon set rule hides cell values and shows only icons in a spreadsheet.
 
-// How to determine if icon set displays only icons without cell values.
+// How do I check if a formatting rule is set to display icons without the underlying cell values in a spreadsheet?
 
-// Check if the icon set rule shows only icons in a spreadsheet.
+// Confirm that the icon-only display mode is active for an icon set formatting rule in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

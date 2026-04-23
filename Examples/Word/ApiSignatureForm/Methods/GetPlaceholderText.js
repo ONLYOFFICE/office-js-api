@@ -1,8 +1,8 @@
-// Get the placeholder text of the current form in a document.
+// Read the placeholder text of a signature form in a document.
 
-// How to get the placeholder text of a signature form.
+// How do I find out what placeholder text a signature form displays in a document?
 
-// Retrieve the placeholder text of a created signature form and display it.
+// Confirm the hint label shown inside an empty signature form in a document.
 
 let doc = Api.GetDocument();
 let signatureForm = Api.CreateSignatureForm({"key": "Signature", "tip": "Please sign here"});

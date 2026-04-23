@@ -1,8 +1,8 @@
 // Return the sheet number of the reference sheet in a spreadsheet.
 
-// How to get a sheet number in a spreadsheet.
+// Retrieve the sheet number for a given sheet reference using the SHEET function.
 
-// Use a function to get a sheet index in a spreadsheet.
+// Apply the function to display the sheet index in a cell.
 
 const worksheet = Api.GetActiveSheet(); 
 let func = Api.WorksheetFunction;

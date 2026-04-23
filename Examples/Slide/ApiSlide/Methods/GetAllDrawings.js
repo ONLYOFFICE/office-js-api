@@ -1,8 +1,8 @@
-// Get an array with all the drawing objects from the slide.
+// Find all drawings on a slide in a presentation.
 
-// How to get all drawings from the slide.
+// How do I access all the drawings in a slide in a presentation?
 
-// Get all drawings from the slide as an array.
+// Retrieve the drawing objects and configure their properties in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

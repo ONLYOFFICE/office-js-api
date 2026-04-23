@@ -1,8 +1,8 @@
-// Check state of a checkbox content control in a document.
+// Read the checked state of a checkbox content control in a document.
 
-// How can I is check box checked using an inline content control in a document?
+// How do I find out whether a checkbox content control is checked in a document?
 
-// Is check box checked for an inline content control in a document.
+// Conditionally display text based on whether a checkbox is ticked or unticked in a document.
 
 let doc = Api.GetDocument();
 let checkBox = doc.AddCheckBoxContentControl();

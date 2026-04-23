@@ -1,8 +1,8 @@
-// Set the size of a table in a presentation.
+// Set the width and height of a table in a presentation.
 
-// How do I set size in a presentation?
+// Specify custom dimensions for the table object.
 
-// Set size using a table object in a presentation.
+// Create a table and set its width and height values.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

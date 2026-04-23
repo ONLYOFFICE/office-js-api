@@ -1,8 +1,8 @@
-// Specify that the contents of the current run are displayed with a single horizontal line through the center of the line in a presentation.
+// Display text with a horizontal line through the center in a presentation.
 
-// How to strike out a text run in a presentation.
+// Apply strikeout formatting to indicate deleted or revised content.
 
-// Create a new text run and set cross it out in a presentation.
+// Create a text run and apply strikeout formatting.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

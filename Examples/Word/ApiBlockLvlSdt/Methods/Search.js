@@ -1,8 +1,8 @@
-// Make a search in the content control object in a document.
+// Search for a word inside a content control in a document.
 
-// Create a block content control, add two paragraphs to it, and search for the specified word among the text in this container in a document.
+// How do I find and highlight a word inside a content control in a document?
 
-// Search for the specified word in the block level content control and return it as the range object.
+// Locate specific text within a content control and apply formatting to it in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

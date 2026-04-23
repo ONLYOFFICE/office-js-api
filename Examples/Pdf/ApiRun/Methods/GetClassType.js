@@ -1,8 +1,8 @@
-// Check the class type returned by a text run in a PDF document.
+// Identify the type of a text element in a PDF.
 
-// How do I check what type a text run object is in a PDF document?
+// How do I learn what kind of text object I'm working with in a PDF?
 
-// Retrieve and output the class type string for a text run in a PDF document.
+// Display the classification of a text element in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// Get a subrange from an existing range in a spreadsheet.
+// Select a smaller range of cells from within a larger range in a spreadsheet.
 
-// How to get a range within a range in a spreadsheet.
+// How do I pick out a subset of cells from an existing range in a spreadsheet?
 
-// Get a range, access subranges and fill them with different colors in a spreadsheet.
+// Highlight distinct sections of a range by filling each sub-selection with a different color in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let parentRange = worksheet.GetRange("B2:F6");

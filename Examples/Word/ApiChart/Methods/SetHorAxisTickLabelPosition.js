@@ -1,8 +1,8 @@
-// Spicifies tick label position for the horizontal axis in a document.
+// Move the horizontal axis tick labels to the top of a chart in a document.
 
-// How to change a position of a horizontal axis tick label in a document.
+// How do I reposition tick labels to display above the chart area in a document?
 
-// Create a chart and move its horizontal axis tick label in a document.
+// Place category labels at the high end of the axis to free up space at the bottom in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

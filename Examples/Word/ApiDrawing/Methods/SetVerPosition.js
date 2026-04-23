@@ -1,8 +1,8 @@
-// Set the absolute measurement for the vertical positioning of the floating object in a document.
+// Place a floating shape at an exact vertical position on the page in a document.
 
-// How to set the vertical position at page in points.
+// How do I set the vertical position of a drawing in a document?
 
-// Move the shape vertically on the page.
+// Offset a shape by a precise distance from the top of the page, or position it by percentage in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

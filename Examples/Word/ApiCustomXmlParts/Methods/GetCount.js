@@ -1,8 +1,8 @@
-// Get the count of custom XML parts in the XML manager in a document.
+// Count how many custom XML parts are stored in a document.
 
-// How do I get the count in a document?
+// How do I find the total number of custom XML parts in a document?
 
-// Get the count using a custom XML parts object in a document.
+// Verify that all expected XML data blocks were added by checking the part count in a document.
 
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();

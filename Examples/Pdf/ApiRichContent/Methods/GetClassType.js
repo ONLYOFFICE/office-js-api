@@ -1,8 +1,8 @@
-// Retrieve the class type of a rich content in a PDF document.
+// Find out what type of formatted text object you are working with in a PDF.
 
-// How to identify the class type of a rich content in a PDF document?
+// How do I check the category of a rich content container in a PDF?
 
-// Obtain the class type identifier of a rich content object in a PDF document.
+// Determine the classification of formatted text content in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);

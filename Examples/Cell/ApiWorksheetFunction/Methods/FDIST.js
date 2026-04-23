@@ -1,8 +1,8 @@
 // Return the (right-tailed) F probability distribution (degree of diversity) for two data sets in a spreadsheet.
 
-// How to get an F probability distribution of two datasets in a spreadsheet.
+// Get an F probability distribution of two datasets.
 
-// Use function to get F probability distribution (degree of diversity) in a spreadsheet.
+// Calculate F probability distribution (degree of diversity) using FDIST function in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

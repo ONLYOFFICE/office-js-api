@@ -1,8 +1,8 @@
-// Retrieve the class type of a checkbox field in a PDF document.
+// Identify the type of a checkbox field in a PDF.
 
-// How to identify the class type of a checkbox field in a PDF document?
+// How do I find out what kind of object a checkbox field is in a PDF?
 
-// Obtain the class type identifier of a checkbox field object in a PDF document.
+// Display the classification name of a checkbox field in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

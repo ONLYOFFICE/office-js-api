@@ -1,8 +1,8 @@
-// Get text field and set percentage format for it.
+// Convert and display numbers as percentages in a PDF text field.
 
-// How to set percentage format for a text field?
+// How do I show decimal values as percentages in a PDF?
 
-// Set percentage format and display the result in a PDF document.
+// Apply percentage formatting to text input in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

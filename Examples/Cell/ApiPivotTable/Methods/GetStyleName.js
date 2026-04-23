@@ -1,8 +1,8 @@
-// Get style name of a pivot table in a spreadsheet.
+// Read the visual style applied to a pivot table in a spreadsheet.
 
-// How to get table style name in a spreadsheet.
+// How do I find out which style a pivot table is using in a spreadsheet?
 
-// Create a pivot table, add data to it then get its style name in a spreadsheet.
+// Check the named theme of a pivot table to identify its current look in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

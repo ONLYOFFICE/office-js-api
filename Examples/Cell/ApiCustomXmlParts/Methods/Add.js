@@ -1,8 +1,8 @@
-// Add a new custom XML part and then access it in a spreadsheet.
+// Attach a new block of XML data to a workbook in a spreadsheet.
 
-// How to add a custom XML part to the workbook in a spreadsheet.
+// How do I store custom XML content inside a workbook in a spreadsheet?
 
-// Add and display the result in a spreadsheet.
+// Embed structured XML so it travels with the file when saved in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let xmlManager = worksheet.GetCustomXmlParts();

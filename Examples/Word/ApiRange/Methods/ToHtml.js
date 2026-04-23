@@ -1,8 +1,8 @@
-// Convert a range to HTML in a document.
+// Export a selected portion of text as an HTML string in a document.
 
-// Get a range from the first paragraph and convert it to HTML, then display the result in a document.
+// How do I turn a range of words into HTML markup so it can be used outside the document?
 
-// How to convert the cell range object to HTML.
+// Capture the content of a text range in HTML format for embedding or further processing in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

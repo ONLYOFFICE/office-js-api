@@ -1,8 +1,8 @@
-// Check the class type returned by a signature form.
+// Read the object category of a signature form in a document.
 
-// How do I check what type a signature form object is?
+// How do I find out what category a form object belongs to in a document?
 
-// Retrieve and output the class type string for a signature form.
+// Identify the kind of element a signature form represents in a document.
 
 let doc = Api.GetDocument();
 let signatureForm = Api.CreateSignatureForm({"key": "Signature", "tip": "Please sign here", "placeholder": "Signature"});

@@ -1,8 +1,8 @@
-// Set the master background as the background of the slide.
+// Apply a master slide's background to a slide in a presentation.
 
-// How to set a slide's background same as the master's.
+// How do I use a master slide's background for a slide in a presentation?
 
-// Get a slide by its index and set its background as its master.
+// Set the slide's background to match its master slide in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

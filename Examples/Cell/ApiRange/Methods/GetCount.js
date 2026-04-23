@@ -1,8 +1,8 @@
-// Get the cells count in the range in a spreadsheet.
+// Count the total number of cells in a range in a spreadsheet.
 
-// How to find out how many cells a range has.
+// How do I find out how many cells are in a range in a spreadsheet?
 
-// Get a range, get its cells count and show it in the worksheet.
+// Write the cell count of a range into a separate cell in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

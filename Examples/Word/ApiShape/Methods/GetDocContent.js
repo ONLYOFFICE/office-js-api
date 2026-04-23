@@ -1,8 +1,8 @@
-// Get the shape inner contents where a paragraph or text runs can be inserted in a document.
+// Retrieve the inner writing area of a shape as a content container in a document.
 
-// How to get the doc content of the drawing in a document.
+// How do I obtain the document-level content block held inside a shape in a document?
 
-// Retrieve the content of the shape add the paragraph to it in a document.
+// Write into a shape by gaining access to its document content region in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

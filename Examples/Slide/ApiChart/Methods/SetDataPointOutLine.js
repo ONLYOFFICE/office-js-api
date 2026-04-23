@@ -1,8 +1,8 @@
-// Set the outline to the data point in a presentation.
+// Add an outline to data points in a chart in a presentation.
 
-// How to outline data points in a presentation.
+// How do I add a border to data points in a chart in a presentation?
 
-// Create a chart then apply outline to its data points in a presentation.
+// Create a chart and apply a stroke outline to individual data points in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

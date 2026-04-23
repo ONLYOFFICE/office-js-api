@@ -1,8 +1,8 @@
-// Hide or shows the AutoFilter dropdown buttons in a formatted table.
+// Hide the filter drop-down arrows on a table without removing the filter in a spreadsheet.
 
-// How to toggle the AutoFilter dropdown arrows on a table in a spreadsheet.
+// How do I show or hide the drop-down arrows in a table header in a spreadsheet?
 
-// Hiding drop-down arrows prevents interactive filter changes while keeping filter criteria active in a spreadsheet.
+// Prevent users from changing filter settings while keeping existing criteria intact in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

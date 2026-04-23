@@ -1,8 +1,8 @@
-// Set the table row properties to the current style in a document.
+// Save row-level formatting such as height into a table style so all rows share those dimensions in a document.
 
-// How to create table row properties for style and set its height in a document.
+// How do I set a minimum row height for every table row by defining it in the table style in a document?
 
-// Update table row properties in the style in a document.
+// Enforce uniform row sizing across a table by embedding the row settings in a reusable style in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

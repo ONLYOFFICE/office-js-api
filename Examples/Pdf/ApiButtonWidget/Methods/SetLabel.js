@@ -1,8 +1,8 @@
 // Set button widget labels in a PDF document.
 
-// How to set label for a button widget in a PDF document?
+// Configure labels for different button states: normal, down, and hover.
 
-// Set label and display the result in a PDF document.
+// Apply multiple labels to a button widget with 'push' behavior.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

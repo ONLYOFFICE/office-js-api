@@ -1,8 +1,8 @@
-// Create a square annotation and get its subject in a PDF document.
+// Read the subject line of an annotation in a PDF.
 
-// How to get the subject for an annotation in a PDF document?
+// What is the subject text assigned to an annotation in a PDF?
 
-// Get the subject and display the result in a PDF document.
+// Extract the subject property from an annotation object in a PDF.
 
 let doc = Api.GetDocument();
 let squareAnnot = Api.CreateSquareAnnot([10, 10, 160, 32]);

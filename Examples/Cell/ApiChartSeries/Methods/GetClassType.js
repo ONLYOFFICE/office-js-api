@@ -1,8 +1,8 @@
-// Find out the class type of a chart series object in a spreadsheet.
+// Identify the object category of a chart series in a spreadsheet.
 
-// How can I get the class type of a chart series in a spreadsheet?
+// How do I check what kind of object a chart series belongs to in a spreadsheet?
 
-// Get the class type of a chart series and display it in the spreadsheet.
+// Confirm the internal type of a chart series by reading its category in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

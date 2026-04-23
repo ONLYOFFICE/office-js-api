@@ -1,8 +1,8 @@
-// Find out the class type of a caret annotation object in a PDF document.
+// Get the class type of a caret annotation in a PDF document.
 
-// How can I get the class type of a caret annotation in a PDF document?
+// Retrieve the class type from an annotation object.
 
-// Get the class type of a caret annotation and display it in the PDF.
+// Display the annotation class type in the console.
 
 let doc = Api.GetDocument();
 let strikeoutAnnot = Api.CreateStrikeoutAnnot([84, 60, 231, 70]);

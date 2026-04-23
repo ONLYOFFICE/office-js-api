@@ -1,8 +1,8 @@
-// Get the input message title in a spreadsheet.
+// Read the heading of the guidance tooltip shown when selecting a validated cell in a spreadsheet.
 
-// How to retrieve the validation input title in a spreadsheet.
+// How do I find out what title appears on the input prompt for a cell with a validation rule in a spreadsheet?
 
-// Get the input title using the validation API in a spreadsheet.
+// Confirm the label used at the top of the input message box assigned to a restricted cell in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");

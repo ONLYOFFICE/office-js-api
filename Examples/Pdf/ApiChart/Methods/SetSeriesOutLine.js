@@ -1,8 +1,8 @@
-// How to outline a chart seria in a PDF document.
+// Add a border to the bars or columns of a chart in a PDF.
 
-// Create a chart, set its properties and its series outline in a PDF document.
+// How do I add an outline to each data series in a PDF?
 
-// Set series out line using a chart object in a PDF document.
+// Apply a stroke outline to chart series in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

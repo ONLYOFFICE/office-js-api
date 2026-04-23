@@ -1,8 +1,8 @@
-// Set the data to the current OLE object in a presentation.
+// Store data or a URL in an embedded object in a presentation.
 
-// Set data to an OLE object in a presentation.
+// How do I change the data in an embedded object in a presentation?
 
-// How to insert an url address to the OLE object in a presentation.
+// Update the content of a linked object with a new URL in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

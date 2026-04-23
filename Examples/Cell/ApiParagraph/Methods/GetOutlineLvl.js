@@ -1,8 +1,8 @@
-// Set and get the outline level of the specified paragraph in a spreadsheet.
+// Read the outline level assigned to each paragraph inside a shape in a spreadsheet.
 
-// How to get the outline lvl for a paragraph in a spreadsheet?
+// How do I check the heading depth of a paragraph in a spreadsheet?
 
-// Get the outline lvl and display the result in a spreadsheet.
+// Display each paragraph alongside its outline level to inspect the document structure in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

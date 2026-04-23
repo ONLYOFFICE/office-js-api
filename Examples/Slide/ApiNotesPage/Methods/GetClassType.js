@@ -1,8 +1,8 @@
-// Find out the class type of a notes page object.
+// Identify the type of the notes page object in a presentation.
 
-// How can I get the class type of a notes page?
+// How do I determine the class type of the notes page in a presentation?
 
-// Get the class type of a notes page and display it in the presentation.
+// Retrieve and display the class type of the slide notes in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

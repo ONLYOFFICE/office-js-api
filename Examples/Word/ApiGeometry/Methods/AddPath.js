@@ -1,8 +1,8 @@
-// Create a custom triangle geometry and apply it to a shape. Uses basic path drawing commands: MoveTo, LineTo and Close in a document.
+// Add a drawing path to a custom geometry shape in a document.
 
-// How to add the path for a geometry in a document?
+// How do I add a path to a custom shape's geometry in a document?
 
-// Add the path and display the result in a document.
+// Draw a filled polygon outline by connecting a series of points in a custom shape in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

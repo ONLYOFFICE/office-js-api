@@ -1,8 +1,8 @@
-// Convert a binary number to decimal in a spreadsheet.
+// Transform binary notation into standard decimal numbers in a spreadsheet.
 
-// How to get a decimal representation of a binary number.
+// How do I change a binary code into the regular number system in a spreadsheet?
 
-// Use function to convert a binary to decimal in a spreadsheet.
+// Translate base-2 values to base-10 format for everyday calculations in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

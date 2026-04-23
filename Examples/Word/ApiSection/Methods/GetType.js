@@ -1,8 +1,8 @@
-// Set and get the type of a section in a document.
+// Retrieve the layout type assigned to a section in a document.
 
-// How to get the type for a section in a document?
+// How do I find out what kind of section break is used in a document?
 
-// Get the type and display the result in a document.
+// Inspect the break style applied to a section to understand its flow in a document.
 
 const doc = Api.GetDocument();
 

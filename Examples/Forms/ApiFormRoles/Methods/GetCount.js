@@ -1,8 +1,8 @@
-// Get the number of roles in a form document.
+// Count how many user roles are set up for your form in a document.
 
-// How do I get the count in a form document?
+// How do I find out how many roles exist in a document?
 
-// Get the count using a form roles object.
+// Check the total number of roles that have been created in a document.
 
 let doc = Api.GetDocument();
 let roles = doc.GetFormRoles();

@@ -1,8 +1,8 @@
-// Specify the chart title with the specified parameters in a spreadsheet.
+// Add a title to a chart with a chosen font size in a spreadsheet.
 
-// How to add chart title indicating its font size in a spreadsheet.
+// How do I set the heading text and font size for a chart in a spreadsheet?
 
-// Add title for a chart with its font size and style in a spreadsheet.
+// Label a chart clearly by giving it a descriptive title at a readable font size in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

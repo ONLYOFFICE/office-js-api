@@ -1,8 +1,8 @@
-// Extract the substring from the specified string starting from the left character and is intended for languages that use the double-byte character set (DBCS) like Japanese, Chinese, Korean etc in a spreadsheet.
+// Extract text from the left of a string using byte count for multi-byte characters in a spreadsheet.
 
-// How to extract the substring from the left character in a spreadsheet.
+// How do I get a substring from text in languages like Chinese or Japanese in a spreadsheet?
 
-// Use a function to get the substring from the left in a spreadsheet.
+// Work with left-aligned text extraction that counts bytes instead of characters in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

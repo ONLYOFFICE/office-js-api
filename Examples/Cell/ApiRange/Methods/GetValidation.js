@@ -1,8 +1,8 @@
-// Get the validation object for a range in a spreadsheet.
+// Retrieve the data validation rule set on a cell range in a spreadsheet.
 
-// How do I get the validation in a spreadsheet?
+// How do I access the validation settings applied to a range in a spreadsheet?
 
-// Get the validation using a cell range object.
+// Inspect and configure input restrictions on a range by reading its validation object in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

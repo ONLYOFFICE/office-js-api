@@ -1,8 +1,8 @@
-// Get a layout page break of a pivot field in a spreadsheet.
+// Read whether a pivot table field inserts a page break after each group in a spreadsheet.
 
-// How to get a layout page break of a pivot field.
+// How do I check if a pivot field adds a page break between groups in a spreadsheet?
 
-// Create a pivot table, add data to it then get a layout page break of a specified pivot field.
+// Verify the page break setting for a pivot field to understand how groups are separated on print.
 
 let worksheet = Api.GetActiveSheet();
 

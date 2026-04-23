@@ -1,8 +1,8 @@
-// Set the unique values conditional formatting rule to have the lowest priority.
+// Move a unique values formatting rule to the bottom of the priority order in a spreadsheet.
 
-// How to set conditional formatting rule priority to last position.
+// How do I make a unique values formatting rule evaluate after all others in a spreadsheet?
 
-// Set unique values rule as last priority in a spreadsheet.
+// Push a unique values rule so it yields to every other formatting rule in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

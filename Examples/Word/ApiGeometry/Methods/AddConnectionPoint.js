@@ -1,8 +1,8 @@
-// Create a shape with adjustable parameters and guides. Sets up text rectangle and connection points for the custom geometry in a document.
+// Add a connection point to a custom shape geometry in a document.
 
-// How do I add the connection point in a document?
+// How do I define where connectors attach to a custom shape in a document?
 
-// Add the connection point using a geometry object in a document.
+// Specify fixed anchor positions on a shape so lines snap to exact spots.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

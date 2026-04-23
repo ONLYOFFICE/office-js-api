@@ -1,8 +1,8 @@
-// Create a bullet for a paragraph with the specified numbering character or symbol in a document.
+// Add bulleted paragraphs at multiple indent levels to a document.
 
-// How to create the numbered bullet and apply it to the paragraph in a document.
+// How do I create a bulleted list with nested indent levels in a document?
 
-// Create the numbering object and apply it to the paragraph class in a document.
+// Format several paragraphs as a structured bullet list with increasing indentation in a document.
 
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("bullet");

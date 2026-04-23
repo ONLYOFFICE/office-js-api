@@ -1,8 +1,8 @@
-// Get a drag to row of a pivot field in a spreadsheet.
+// Check whether a pivot field can be moved to the row area in a spreadsheet.
 
-// How to get a pivot field drag to row in a spreadsheet.
+// How do I find out if a pivot field is allowed to be dragged to the row zone in a spreadsheet?
 
-// Create a pivot table, add data to it then get a drag to row of a specified pivot field in a spreadsheet.
+// Verify that a pivot field supports placement as a row label in the pivot table in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

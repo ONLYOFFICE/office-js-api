@@ -1,8 +1,8 @@
-// Renames a formatted table.
+// Rename a table so formulas and references use the new name in a spreadsheet.
 
-// How to change the name of a table in a spreadsheet.
+// How do I change the internal name of a table in a spreadsheet?
 
-// The name must be unique in the workbook and is used in structured references in formulas.
+// Update a table's identifier to keep structured formula references accurate in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

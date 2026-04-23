@@ -1,8 +1,8 @@
-// Set field widgets border width in a PDF document.
+// Set the border thickness for field widgets in a PDF.
 
-// How do I set border width in a PDF document?
+// How do I change the border width for widgets in a PDF?
 
-// Set border width using a widget object in a PDF document.
+// Apply different border thicknesses to widget outlines in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// Set the specified section to the current paragraph in a document.
+// Assign a section to a paragraph in a document.
 
-// How to set section to the paragraph in a document.
+// How do I attach a page section to a specific paragraph in a document?
 
-// Add the section to the text in a document.
+// Group paragraphs under a named section with custom page settings in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

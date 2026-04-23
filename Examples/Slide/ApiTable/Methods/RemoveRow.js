@@ -1,8 +1,8 @@
-// Remove a table row with the specified cell.
+// Remove a table row using a cell reference.
 
-// How to delete a row from the table in a presentation.
+// Delete a row from the table by specifying a cell within it.
 
-// Create a table, create cells and remove the whole row by its cell.
+// Create a table and remove a row using a cell from that row.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

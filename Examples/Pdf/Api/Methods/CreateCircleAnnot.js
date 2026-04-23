@@ -1,8 +1,8 @@
-// Create a circle annotation and add it to the page.
+// Add a circle annotation to highlight an area in a PDF.
 
-// How to create the circle annot in a PDF document?
+// How do I draw a circle annotation in a PDF?
 
-// Create the circle annot using the PDF document API.
+// Mark a region with a circular outline in a PDF.
 
 let doc = Api.GetDocument();
 let circleAnnot = Api.CreateCircleAnnot([10, 10, 160, 32]);

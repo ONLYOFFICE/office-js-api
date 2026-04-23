@@ -1,8 +1,8 @@
-// Get the named range object by the range name in a spreadsheet.
+// Look up a named range by its label and read its name in a spreadsheet.
 
-// How to work with named ranges in a spreadsheet using the API.
+// How do I find a named range using its label in a spreadsheet?
 
-// Get name of an object using a range name in a spreadsheet.
+// Resolve a range label to its definition and display the result in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

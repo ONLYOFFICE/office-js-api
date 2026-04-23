@@ -1,8 +1,8 @@
-// Check the class type returned by a shape in a PDF document.
+// Identify the type of a shape object in a PDF.
 
-// How do I check what type a shape object is in a PDF document?
+// What kind of object is a shape in a PDF?
 
-// Retrieve and output the class type string for a shape in a PDF document.
+// Determine the class name of a shape in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

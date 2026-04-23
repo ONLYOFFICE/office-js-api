@@ -1,8 +1,8 @@
-// Set field partial name and display it in a PDF document.
+// Assign a local name to a form field in a PDF.
 
-// How can I set partial name using a base field in a PDF document?
+// How do I set the local name for a form field in a PDF?
 
-// Set partial name for a base field in a PDF document.
+// Define the partial name property of a form field in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

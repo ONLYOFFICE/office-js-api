@@ -1,8 +1,8 @@
-// Get field widget and display it's text autofit property in a PDF document.
+// Check if automatic text fitting is enabled for a widget in a PDF.
 
-// How to is auto fit for a widget in a PDF document?
+// How do I determine if a widget has autofit enabled in a PDF?
 
-// Is auto fit and display the result in a PDF document.
+// Retrieve and display the autofit status for a widget in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// Paste data from theclipboard (if it is possible) with the specified options in a spreadsheet.
+// Paste clipboard data into a cell using controlled options in a spreadsheet.
 
-// How to paste the copied or cut data from the clipboard using the special paste options in a spreadsheet.
+// How do I paste only specific parts of copied data, such as values or formats, in a spreadsheet?
 
-// Create a range, copy its value and paste it into another one with the specified properties in a spreadsheet.
+// Reuse copied cell content in a new location while choosing exactly what gets transferred in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");

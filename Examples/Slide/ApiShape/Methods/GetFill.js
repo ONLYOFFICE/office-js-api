@@ -1,8 +1,8 @@
-// Get the fill properties from a shape and display detailed information. Creates a shape with gradient fill, retrieve it and show fill details.
+// Retrieve the fill properties of a shape in a presentation.
 
-// How do I get the fill in a presentation?
+// How do I find out what color or pattern fills a shape in a presentation?
 
-// Get the fill using a shape object in a presentation.
+// Check the fill type of a shape with a gradient in a presentation.
 
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);

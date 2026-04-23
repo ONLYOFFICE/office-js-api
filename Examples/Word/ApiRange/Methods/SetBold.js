@@ -1,8 +1,8 @@
-// Set the bold property to the text character in a document.
+// Apply bold formatting to a range of text in a document.
 
-// How to make a range text bold in a document.
+// How do I make a portion of text appear bold in a document?
 
-// Update text properties of the range in a document.
+// Strengthen the visual weight of selected words by turning them bold in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// Get a value that represents the format code for the current range in a spreadsheet.
+// Read the number format code applied to a cell range in a spreadsheet.
 
-// How to find out a number format of a range.
+// How do I find out what number format is set on a range in a spreadsheet?
 
-// Get a range, get its cell number format and show it in the worksheet.
+// Inspect the formatting pattern a range uses to display its values in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B2");

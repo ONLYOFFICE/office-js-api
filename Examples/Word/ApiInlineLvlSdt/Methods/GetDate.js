@@ -1,8 +1,8 @@
-// Retrieve the date from a datepicker content control in a document.
+// Read the selected date from a date picker content control in a document.
 
-// How can I get the date using an inline content control in a document?
+// How do I get the date value stored in a date picker content control in a document?
 
-// Get the date for an inline content control in a document.
+// Display the formatted date from a date picker to confirm the value set on it in a document.
 
 let doc = Api.GetDocument();
 let contentControl = doc.AddDatePickerContentControl();

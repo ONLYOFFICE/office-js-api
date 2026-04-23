@@ -1,8 +1,8 @@
-// Specify an amount of space which will be left between the top extent of the cell contents and the top border of all table cells within the parent table.
+// Set the spacing between cell content and the top edge of every cell in a table in a document.
 
-// How to set the top margin of the table cell.
+// How do I add breathing room above the text inside every table cell in a document?
 
-// Resize the top margin of the cell.
+// Push cell content away from the top border of each cell in a table in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

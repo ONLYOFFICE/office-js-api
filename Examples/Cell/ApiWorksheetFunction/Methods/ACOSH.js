@@ -1,8 +1,8 @@
-// Return the inverse hyperbolic cosine of a number in a spreadsheet.
+// Find the inverse hyperbolic cosine of a number in a spreadsheet.
 
-// How to get an inverse hyperbolic cosine of a number and display it in the worksheet.
+// Apply the ACOSH function to get the inverse hyperbolic cosine in a spreadsheet.
 
-// Get a function that gets inverse hyperbolic cosine of a number in a spreadsheet.
+// Store the calculated inverse hyperbolic cosine value in a cell in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

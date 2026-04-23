@@ -1,8 +1,8 @@
-// Set an underline of the type specified in the request to the font in a spreadsheet.
+// Apply an underline style to selected text characters in a spreadsheet.
 
-// How to change a regular text to an underlined one in a spreadsheet.
+// How do I add underlining to part of the text in a spreadsheet?
 
-// Get a font object of characters and make it underlined in a spreadsheet.
+// Decorate a run of characters with a chosen underline style in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const range = worksheet.GetRange("B1");

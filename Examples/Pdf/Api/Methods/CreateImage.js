@@ -1,4 +1,4 @@
-// How to create an image object using an url and specifying its width and height in a PDF document.
+// Create an image object using an url and specifying its width and height in a PDF document.
 
 // Create an image and insert it to the page.
 

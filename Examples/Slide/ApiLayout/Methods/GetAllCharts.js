@@ -1,8 +1,8 @@
-// Get an array with all the chart objects from the slide layout in a presentation.
+// Get all chart objects from a slide layout as an array.
 
-// How to get all charts from the layout of presentation.
+// Charts added to layouts can be retrieved and modified.
 
-// Get all charts from the presentation as an array.
+// Apply formatting to the first chart in the layout.
 
 const presentation = Api.GetPresentation();
 const master = presentation.GetMaster(0);

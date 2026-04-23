@@ -1,8 +1,8 @@
-// Specify that any space before or after the paragraph in a document.
+// Control whether extra spacing is added between paragraphs of the same style in a document.
 
-// Set the contextual spacing for paragraph in a document.
+// How do I remove or keep extra space between adjacent paragraphs of the same style in a document?
 
-// Get the first paragraph and set the spacing for its two ends in a document.
+// Adjust spacing behavior so that matching paragraphs sit closer together or farther apart in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// Set a solid fill color to a shape. Creates a rectangle and apply a red fill to it in a presentation.
+// Change the fill color of a shape from no fill to solid red.
 
-// How do I set fill in a presentation?
+// Create a rectangle with no fill and display the initial state.
 
-// Set fill using a shape object in a presentation.
+// Apply a solid red fill and show the updated appearance.
 
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);

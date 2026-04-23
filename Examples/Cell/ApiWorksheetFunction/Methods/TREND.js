@@ -1,8 +1,8 @@
 // Return numbers in a linear trend matching known data points, using the least squares method in a spreadsheet.
 
-// How to get numbers in a linear trend using the least squares method in a spreadsheet.
+// Calculate trend values for monthly sales data using least squares regression.
 
-// Use a function to find a linear trend using data points by the least squares method in a spreadsheet.
+// Apply the TREND function with known y-values and x-values to predict the trend.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

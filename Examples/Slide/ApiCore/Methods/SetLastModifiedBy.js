@@ -1,8 +1,8 @@
-// Set and get the name of the last user who modified the current presentation in a presentation.
+// Set and retrieve the last modifier of a presentation in a presentation.
 
-// How can I set last modified by using a core properties in a presentation?
+// How do I set the last modifier of a presentation in a presentation?
 
-// Set last modified by for a core properties in a presentation.
+// Retrieve and display the last modifier as text in a presentation.
 
 const presentation = Api.GetPresentation();
 const core = presentation.GetCore();

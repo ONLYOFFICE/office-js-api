@@ -1,8 +1,8 @@
-// Set the text outline to the current text run in a presentation.
+// Apply an outline stroke to text in a presentation.
 
-// How to change outline of the text in a presentation.
+// Add a decorative border or stroke around text characters.
 
-// Create a new text run and outline it with the stroke object in a presentation.
+// Create a text run and set its outline using a stroke object.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

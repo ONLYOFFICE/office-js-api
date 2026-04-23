@@ -1,8 +1,8 @@
-// How to change a style of a chart in a PDF document.
+// Apply a preset style to a chart in a PDF.
 
-// Update chart style in a PDF document.
+// How do I change the visual appearance of a chart in a PDF?
 
-// Apply chart style for a chart in a PDF document.
+// Use a style preset to update a chart's formatting in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

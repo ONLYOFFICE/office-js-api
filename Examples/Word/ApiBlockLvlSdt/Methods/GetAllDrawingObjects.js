@@ -1,8 +1,8 @@
-// Get a collection of drawing objects in the content control in a document.
+// Retrieve all shapes and images inside a content control in a document.
 
-// How can I get all drawing objects using a block-level content control in a document?
+// How do I get a list of every drawing placed inside a content control in a document?
 
-// Get all drawing objects for a block-level content control in a document.
+// Access the drawings within a content control to inspect or modify them in a document.
 
 let doc = Api.GetDocument();
 let paragraph = Api.CreateParagraph();

@@ -1,8 +1,8 @@
-// Get an author of a comment reply in a presentation.
+// Find the author name of a comment reply in a presentation.
 
-// How to find out a comment's reply author in a presentation.
+// How do I see who wrote a reply to a comment in a presentation?
 
-// Get all comments from the presentation and display the first one's reply author name.
+// Retrieve and display the name of the person who replied to a comment in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

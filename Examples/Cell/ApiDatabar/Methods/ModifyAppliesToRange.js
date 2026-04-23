@@ -1,8 +1,8 @@
-// Modifye the range to which a data bar formatting rule applies.
+// Expand or change the cells covered by a data bar formatting rule in a spreadsheet.
 
-// How to change the range that a data bar conditional formatting affects.
+// How do I move a data bar rule to a different or larger group of cells in a spreadsheet?
 
-// Modify the range to which the data bar formatting rule applies.
+// Reassign an existing data bar rule so it targets a new range of cells in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

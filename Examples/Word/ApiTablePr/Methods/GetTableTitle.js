@@ -1,8 +1,8 @@
-// Get the table title in a document.
+// Read the title label assigned to a table in a document.
 
-// How to get the table title in a document.
+// How do I retrieve the title stored with a table in a document?
 
-// Display the title of the table in the document.
+// Output the named heading attached to a table in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

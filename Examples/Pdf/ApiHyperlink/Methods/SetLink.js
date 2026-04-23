@@ -1,8 +1,8 @@
-// Set the hyperlink address in a PDF document.
+// Change the URL address of a hyperlink in a PDF.
 
-// How to change the link address of the hyperlink object in a PDF document.
+// How do I update where a hyperlink points to in a PDF?
 
-// Set link of the hyperlink in a PDF document.
+// Assign a new web address to a hyperlink in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// Return the prorated linear depreciation of an asset for each accounting period in a spreadsheet.
+// Calculate asset depreciation using the degressive method for accounting periods in a spreadsheet.
 
-// How to get a prorated linear depreciation of an asset for each accounting period and display it in the worksheet.
+// Determine asset value loss with the AMORDEGRC function in a spreadsheet.
 
-// Get a function that gets prorated linear depreciation of an asset for each accounting period in a spreadsheet.
+// Record the depreciation amount in a cell for financial tracking in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

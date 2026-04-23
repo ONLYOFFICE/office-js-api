@@ -1,8 +1,8 @@
-// Set source of a pivot table in a spreadsheet.
+// Change the data range that a pivot table reads from in a spreadsheet.
 
-// How to set source of a table in a spreadsheet.
+// How do I point a pivot table to a different range of data in a spreadsheet?
 
-// Create a pivot table, add data to it then set its source in a spreadsheet.
+// Update the source cells so the pivot table reflects a new or expanded dataset in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

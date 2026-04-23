@@ -1,8 +1,8 @@
-// Freeze first column and get pastes a freezed type into the table in a spreadsheet.
+// Lock the first column and show the active freeze type in a cell in a spreadsheet.
 
-// How to freeze a column in a worksheet.
+// How do I find out which rows or columns are currently frozen in a spreadsheet?
 
-// Freeze worksheet column and show its name in a cell.
+// Check what kind of pane freeze is applied and record it in a cell in a spreadsheet.
 
 Api.SetFreezePanesType('column');
 let worksheet = Api.GetActiveSheet();

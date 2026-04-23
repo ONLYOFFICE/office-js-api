@@ -1,8 +1,8 @@
-// Check the class type returned by a RGB color in a presentation.
+// Identify the type of an RGB color in a presentation.
 
-// How do I check what type a RGB color object is in a presentation?
+// How do I determine what type an RGB color is in a presentation?
 
-// Retrieve and output the class type string for a RGB color in a presentation.
+// Display the color type name on the slide in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

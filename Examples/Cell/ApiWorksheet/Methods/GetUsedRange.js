@@ -1,8 +1,8 @@
-// Get the cell range object that represents the used range on the specified worksheet in a spreadsheet.
+// Find which cells actually contain data on a sheet in a spreadsheet.
 
-// How to get used ranges from the worksheet.
+// Detect the exact boundaries of content without empty rows or columns in a spreadsheet?
 
-// Get used ranges and fill it with color in a spreadsheet.
+// Shade all populated cells with a background color to visualize data extent in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let usedRange = worksheet.GetUsedRange();

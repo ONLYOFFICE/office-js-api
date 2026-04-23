@@ -1,8 +1,8 @@
-// Get a shape in which the form is placed to control the position and size of the fixed size form frame in a document.
+// Access the container shape that controls the position and size of a signature field in a document.
 
-// Get wrapper shape of the signature form.
+// How do I reposition or resize the frame holding a signature field in a document?
 
-// Change position of the wrapper shape from inline to anchored, centered horizontally on the page and aligned to the top of the margin.
+// Anchor a signature field to a specific location on the page by adjusting its surrounding shape in a document.
 
 let doc = Api.GetDocument();
 let signatureForm = Api.CreateSignatureForm({"key": "Signature", "tip": "Please sign here", "placeholder": "Signature"});

@@ -1,8 +1,8 @@
-// Set the fill color for an unique values conditional formatting rule.
+// Apply a background color to cells matched by a unique values formatting rule in a spreadsheet.
 
-// How to apply fill color to unique values conditional formatting.
+// How do I color the background of unique values highlighted by a formatting rule in a spreadsheet?
 
-// Set the fill color of unique values formatting rule.
+// Visually mark unique entries by giving their cells a colored fill in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

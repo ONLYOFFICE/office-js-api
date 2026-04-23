@@ -1,8 +1,8 @@
-// Check whether the header row is shown for a formatted table.
+// Read whether the header row is visible at the top of a table in a spreadsheet.
 
-// How to determine if the header row is visible in a table in a spreadsheet.
+// How do I check if a table is displaying its column headers in a spreadsheet?
 
-// When false, column label cells are hidden and the first data row moves up to the header position.
+// Confirm column labels are present before referencing them to label output or build a report in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

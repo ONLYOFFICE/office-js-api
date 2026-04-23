@@ -1,8 +1,8 @@
-// Transforms font scheme to JSON then restore it from JSON.
+// Convert a font scheme to JSON format and recreate it in a presentation.
 
-// How to get a font scheme from JSON file in a presentation.
+// How do I restore a font scheme from JSON data in a presentation?
 
-// Parse JSON file to get an object like font scheme in a presentation.
+// Load and apply a font scheme that was previously exported as JSON in a presentation.
 
 const presentation = Api.GetPresentation();
 

@@ -1,8 +1,8 @@
-// Set section break type "continuous" in a document.
+// Control where a new section begins on the page in a document.
 
-// How to update a section type in a document.
+// How do I make a section start without forcing a page break in a document?
 
-// Create a section from a paragraph and make it continuous in a document.
+// Keep two sections flowing on the same page instead of splitting them across pages in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

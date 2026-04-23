@@ -1,8 +1,8 @@
-// Create a preset geometry in spreadsheets.
+// Apply a built-in shape outline to an existing shape in a spreadsheet.
 
-// How do I create the preset geometry in a spreadsheet?
+// How do I assign a predefined outline style to a shape in a spreadsheet?
 
-// Create the preset geometry and display the result in a spreadsheet.
+// Change a shape's contour to one of the standard outline types available in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

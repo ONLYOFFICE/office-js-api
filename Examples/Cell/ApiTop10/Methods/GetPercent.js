@@ -1,8 +1,8 @@
-// Get the percentage mode for top 10 condition in a spreadsheet.
+// Read whether a top 10 rule highlights a percentage of values or a fixed count in a spreadsheet.
 
-// How to check if the condition uses percentage values instead of count values in a spreadsheet.
+// How do I check if a top 10 conditional formatting rule works by percentage in a spreadsheet?
 
-// Get the percentage mode setting for the top 10 rule in a spreadsheet.
+// Confirm whether the highlight threshold is expressed as a percent or an item count in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

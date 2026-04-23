@@ -1,8 +1,8 @@
 // Convert points to centimeters in a presentation.
 
-// How do I convert points to centimeters in a presentation?
+// Use the Api object to convert measurement units.
 
-// Convert points to centimeters and display the result in a presentation.
+// Display the conversion result in a shape on the slide.
 
 const points = 1000;
 const centimeters = Api.PointsToCentimeters(points);

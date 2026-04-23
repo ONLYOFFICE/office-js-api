@@ -1,8 +1,8 @@
-// Check whether the totals row is shown for a formatted table.
+// Read whether the totals row is visible at the bottom of a table in a spreadsheet.
 
-// How to determine if the totals row is visible in a table in a spreadsheet.
+// How do I check if a table is showing its summary totals row in a spreadsheet?
 
-// The totals row appears at the bottom of the table and can display aggregation functions per column in a spreadsheet.
+// Confirm the totals row is present before relying on its aggregated values in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

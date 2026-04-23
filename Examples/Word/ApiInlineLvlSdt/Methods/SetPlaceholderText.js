@@ -1,8 +1,8 @@
-// Set the placeholder text to the inline content control in a document.
+// Define the placeholder text of an inline content control in a document.
 
-// How to set placeholder text for the inline content control in a document.
+// How do I set a custom placeholder message for an inline content control in a document?
 
-// Display the placeholder set for inline text element in a document.
+// Guide users with descriptive hint text shown inside an empty content control in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

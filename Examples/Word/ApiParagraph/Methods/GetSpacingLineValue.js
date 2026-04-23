@@ -1,8 +1,8 @@
-// Get the paragraph line spacing value in a document.
+// Read the line spacing value applied to a paragraph in a document.
 
-// How to get the spacing line value of the paragraph and display it in a document.
+// How do I get the numeric line spacing value of a paragraph in a document?
 
-// Get the paragraph spacing line value in a document.
+// Append the measured line spacing number to the paragraph to make it visible in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

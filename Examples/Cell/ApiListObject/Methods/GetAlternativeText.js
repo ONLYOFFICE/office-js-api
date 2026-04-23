@@ -1,8 +1,8 @@
-// Get the alternative text of a formatted table.
+// Read the alternative text assigned to a table in a spreadsheet.
 
-// How to read the accessibility description of a table in a spreadsheet.
+// How do I retrieve the accessibility description of a table in a spreadsheet?
 
-// Alternative text helps screen readers identify the table's purpose for accessibility in a spreadsheet.
+// Check what descriptive label a table carries for assistive technologies in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

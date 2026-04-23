@@ -1,8 +1,8 @@
-// Set the duration of an animation effect in a presentation.
+// Set how long an animation effect takes to complete in a presentation.
 
-// How do I set duration in a presentation?
+// How do I control the speed of an animation in a presentation?
 
-// Set duration using an animation effect object in a presentation.
+// Adjust the time span for an animation to run from start to finish in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

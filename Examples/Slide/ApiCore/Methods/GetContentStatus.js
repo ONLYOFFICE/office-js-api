@@ -1,8 +1,8 @@
-// Set and get the content status of the current presentation using the core properties in a presentation.
+// Read the content status from the presentation's metadata in a presentation.
 
-// How to get the content status for a core properties in a presentation?
+// How do I check what content status is set for a presentation in a presentation?
 
-// Get the content status and display the result in a presentation.
+// Retrieve and display the content status value stored in core properties in a presentation.
 
 const presentation = Api.GetPresentation();
 const core = presentation.GetCore();

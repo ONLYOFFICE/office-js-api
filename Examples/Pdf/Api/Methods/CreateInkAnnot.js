@@ -1,6 +1,6 @@
 // Create an ink annotation and add it to the page.
 
-// How to create the ink annot in a PDF document?
+// Create the ink annot in a PDF document.
 
 // Create the ink annot using the PDF document API.
 

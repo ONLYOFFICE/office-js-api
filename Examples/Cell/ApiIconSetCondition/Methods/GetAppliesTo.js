@@ -1,8 +1,8 @@
-// Get the range to which an icon set rule applies in a spreadsheet.
+// Find which cells an icon set conditional formatting rule covers in a spreadsheet.
 
-// How to retrieve the applied range of icon set conditional formatting.
+// How do I check which range of cells an icon set rule is applied to in a spreadsheet?
 
-// Get the range where icon set formatting is applied.
+// Confirm the exact cell range that an icon set formatting condition targets in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

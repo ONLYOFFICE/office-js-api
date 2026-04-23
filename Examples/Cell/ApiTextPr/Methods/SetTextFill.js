@@ -1,8 +1,8 @@
-// Set the text fill to the current text run in a spreadsheet.
+// Fill text with a solid color in a shape in a spreadsheet.
 
-// How to color a text with solid fill in a spreadsheet.
+// How do I change the color of text using a solid fill in a spreadsheet?
 
-// Set color a text using solid color fill in a spreadsheet.
+// Paint the interior of letters with a chosen color to style text in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

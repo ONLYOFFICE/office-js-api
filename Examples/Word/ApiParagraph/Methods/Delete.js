@@ -1,8 +1,8 @@
-// Delete the paragraph in a document.
+// Remove a paragraph from the content of a document.
 
-// How to remove the paragraph in a document.
+// How do I delete a specific paragraph in a document?
 
-// Create two paragraphs and delete the second one in a document.
+// Clean up unwanted text blocks by eliminating a paragraph in a document.
 
 let doc = Api.GetDocument();
 let paragraph1 = doc.GetElement(0);

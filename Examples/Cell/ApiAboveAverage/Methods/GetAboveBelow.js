@@ -1,8 +1,8 @@
-// Get the above/below setting from an above average conditional formatting rule.
+// Read whether a highlight rule targets values above or below the average in a spreadsheet.
 
-// How to check if the rule is looking for above or below average values in a spreadsheet.
+// How do I check if a conditional formatting rule highlights above-average or below-average cells in a spreadsheet?
 
-// Get whether the rule is checking for above or below average values in a spreadsheet.
+// Determine the direction of an average-based rule to confirm which side of the average it covers in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

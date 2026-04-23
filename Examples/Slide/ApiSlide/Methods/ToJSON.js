@@ -1,8 +1,8 @@
-// Convert the slide object into the JSON object.
+// Convert a slide object to JSON format.
 
-// How to convert a slide object to a JSON object.
+// Export the slide as JSON and reconstruct it from the JSON data.
 
-// Get a slide by its index and convert it to JSON.
+// Verify the class type of the reconstructed slide.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

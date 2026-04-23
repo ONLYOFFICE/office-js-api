@@ -1,8 +1,8 @@
-// Select the current table in a document.
+// Select an entire table in a document.
 
-// How to select a table with a cursor in a document.
+// How do I programmatically select a whole table in a document?
 
-// Add text to the table cell and select it.
+// Highlight a table for further editing or copying in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

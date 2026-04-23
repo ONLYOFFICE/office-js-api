@@ -1,8 +1,8 @@
-// Check the class type returned by a stroke in a PDF document.
+// Find the object type label for a border line in a PDF
 
-// How do I check what type a stroke object is in a PDF document?
+// What class identifier does a border line report in a PDF?
 
-// Retrieve and output the class type string for a stroke in a PDF document.
+// Print the type classification of a border line in a PDF
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// Set a solid fill color to a shape. Creates a rectangle and apply a red fill to it in a PDF document.
+// Change the interior color of a shape in a PDF.
 
-// How do I set fill in a PDF document?
+// How do I apply a background color to a shape in a PDF?
 
-// Set fill using a shape object in a PDF document.
+// Modify a shape's background to use a specific color in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

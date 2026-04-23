@@ -1,8 +1,8 @@
-// Retrieve the class type of a bullet in a PDF document.
+// Identify the class type of a bullet in a PDF.
 
-// How to identify the class type of a bullet in a PDF document?
+// How do I determine what type a bullet object is in a PDF?
 
-// Obtain the class type identifier of a bullet object in a PDF document.
+// Find the object type identifier for a bullet in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

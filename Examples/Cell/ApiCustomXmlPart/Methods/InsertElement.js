@@ -1,8 +1,8 @@
-// Insert a new XML element into a custom XML part in a spreadsheet.
+// Add a child element to an existing XML structure stored in a spreadsheet.
 
-// How can I insert the element using a custom XML part in a spreadsheet?
+// How do I nest a new node inside an XML block already saved in a spreadsheet?
 
-// Insert the element for a custom XML part in a spreadsheet.
+// Expand stored XML data by appending a new element at a chosen location in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const xmlManager = worksheet.GetCustomXmlParts();

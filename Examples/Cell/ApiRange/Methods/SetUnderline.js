@@ -1,8 +1,8 @@
-// Specify that the contents of the current cell is displayed along with a line appearing directly below the character.
+// Add an underline beneath the text in a cell in a spreadsheet.
 
-// How to add underline to the cell value.
+// How do I underline the contents of a cell in a spreadsheet?
 
-// Get a range and add underline to its text in a spreadsheet.
+// Highlight or emphasize cell text by placing a line under it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A2").SetValue("The text underlined with a single line");

@@ -1,8 +1,8 @@
-// Create a square annotation and get its replies in a PDF document.
+// Retrieve all reply annotations attached to an annotation in a PDF.
 
-// How to get the replies for an annotation in a PDF document?
+// What reply annotations are associated with a parent annotation in a PDF?
 
-// Get the replies and display the result in a PDF document.
+// Access the list of reply comments linked to an annotation object in a PDF.
 
 let doc = Api.GetDocument();
 let squareAnnot = Api.CreateSquareAnnot([10, 10, 160, 32]);

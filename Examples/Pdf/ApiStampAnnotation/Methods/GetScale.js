@@ -1,8 +1,8 @@
-// Get scale of stamp annotation in a PDF document.
+// Retrieve the scale value of a stamp annotation in a PDF
 
-// How to get the scale for a stamp annotation in a PDF document?
+// What is the current size setting for a stamp annotation in a PDF?
 
-// Get the scale and display the result in a PDF document.
+// Display the scale measurement retrieved from a stamp annotation in a PDF
 
 let doc = Api.GetDocument();
 let stampAnnot = Api.CreateStampAnnot([10, 10, 0, 0], 'D_Reviewed', 'Joe Doe');

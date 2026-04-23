@@ -1,8 +1,8 @@
 // Update the value of an existing attribute in a custom XML node in a presentation.
 
-// How do I update attribute in a presentation?
+// Change an attribute value on a custom XML node in a presentation.
 
-// Update attribute using a custom XML node object in a presentation.
+// Modify a named property of a custom XML node in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

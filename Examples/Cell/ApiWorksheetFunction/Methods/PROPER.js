@@ -1,8 +1,8 @@
-// Convert a text string to proper case: the first letter in each word to uppercase, and all other letters to lowercase in a spreadsheet.
+// Format text so the first letter of each word is uppercase in a spreadsheet.
 
-// How to make each word's first letter uppercase in a spreadsheet.
+// How do I capitalize the first letter of every word in a spreadsheet?
 
-// Use a function to make proper casing for all text strings in a spreadsheet.
+// Convert mixed-case text to proper case format in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

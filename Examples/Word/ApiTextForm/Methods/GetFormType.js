@@ -1,8 +1,8 @@
-// Get a type of the form in a document.
+// Read the type of a fillable field in a document.
 
-// How to get a type of a text form.
+// How do I determine what kind of fillable field is present in a document?
 
-// Retrieve type of a created text form object and display it.
+// Distinguish a text field from other field varieties by checking its type in a document.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});

@@ -1,8 +1,8 @@
-// Change the priority of a sort field in a spreadsheet.
+// Reorder sort columns by assigning a higher priority to one of them in a spreadsheet.
 
-// How to reorder sort fields by changing a field's priority in a spreadsheet.
+// How do I change which column is sorted first in a spreadsheet?
 
-// Change the priority of a sort field and apply the sort in a spreadsheet.
+// Move a sort column to the top of the sort order so its values take precedence in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

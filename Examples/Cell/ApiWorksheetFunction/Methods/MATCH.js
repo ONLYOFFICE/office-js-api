@@ -1,8 +1,8 @@
-// Return the relative position of an item in a range that matches the specified value in the specified order in a spreadsheet.
+// Find the position of a value within a range in a spreadsheet.
 
-// How to get an index of an element that matches a condition in a spreadsheet.
+// How do I determine which row contains a specific person's name in a spreadsheet?
 
-// Use a function to find an item in a range in a spreadsheet.
+// Locate the row number of a matching value in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

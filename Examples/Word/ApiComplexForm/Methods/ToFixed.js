@@ -1,8 +1,8 @@
-// Convert the current form to a fixed size form.
+// Convert a complex form to a fixed size in a document.
 
-// How can I to fixed using a complex form in a document?
+// How do I set a fixed size for a complex form in a document?
 
-// To fixed for a complex form in a document.
+// Lock the dimensions of a form so it no longer resizes to fit its content in a document.
 
 let doc = Api.GetDocument();
 let complexForm = Api.CreateComplexForm({"key": "Complex1"});

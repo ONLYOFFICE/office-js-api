@@ -1,8 +1,8 @@
-// Create a square annotation and set unique name to it in a PDF document.
+// Assign a unique identifier to an annotation in a PDF.
 
-// How do I set unique name in a PDF document?
+// Give an annotation a distinct name for reference in a PDF.
 
-// Set unique name using an annotation object in a PDF document.
+// Set a unique name to distinguish an annotation from others in a PDF.
 
 let doc = Api.GetDocument();
 let squareAnnot = Api.CreateSquareAnnot([10, 10, 160, 32]);

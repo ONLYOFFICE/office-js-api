@@ -1,8 +1,8 @@
-// Update all fields in the current document.
+// Refresh all fields automatically in a document.
 
-// How to update all forms in the document.
+// How do I update every field at once in a document?
 
-// Edit document fields and then update all of them.
+// Keep page numbers, cross-references, and other dynamic fields current after editing content in a document.
 
 let doc = Api.GetDocument();
 let newDocumentStyle = doc.GetStyle("Heading 1");

@@ -1,6 +1,6 @@
-// Create a chart title. todo_example (no description for this method in code) in a document.
+// Add a visible title to a chart embedded in a document.
 
-// How to create the title for a chart in a document?
+// How do I set a descriptive heading above a chart in a document?
 
-// Create the title and display the result in a document.
+// Label a chart so readers immediately understand what data it represents in a document.
 

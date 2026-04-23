@@ -1,8 +1,8 @@
-// Set the outline to the chart title in a presentation.
+// Add a border around the chart title in a presentation.
 
-// How to outline a chart title in a presentation.
+// Apply a stroke or outline to the title text in a presentation.
 
-// Create a chart, set its properties and its title outline in a presentation.
+// Define the border style and thickness for a chart title in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

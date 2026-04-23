@@ -1,8 +1,8 @@
-// Get nodes from a custom XML part using XPath in a spreadsheet.
+// Select matching elements from stored XML data by path in a spreadsheet.
 
-// How to get nodes from an XML part using XPath in a spreadsheet.
+// How do I pull out specific nodes from a custom XML block saved in a spreadsheet?
 
-// Get the nodes for a custom XML part in a spreadsheet.
+// Navigate an XML structure to collect all elements at a given location in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let xmlManager = worksheet.GetCustomXmlParts();

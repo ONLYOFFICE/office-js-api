@@ -1,8 +1,8 @@
-// Analyzes arc command parameters including radius and angles. Retrieves width radius, height radius, start and sweep angles of an arc in a document.
+// Read the opening angle where an arc begins inside a custom shape in a document.
 
-// How to get the start angle for a path command in a document?
+// How do I find out where an arc starts rotating from in a custom shape in a document?
 
-// Get the start angle and display the result in a document.
+// Retrieve the angle at which an arc segment begins within a drawn shape in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

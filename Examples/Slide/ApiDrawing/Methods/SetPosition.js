@@ -1,6 +1,6 @@
 // Set position to the shape in a presentation.
 
-// How to change a position of a drawing in a presentation.
+// Position defines where a shape appears on the slide.
 
 // Get a shape object from a slide and move it.
 

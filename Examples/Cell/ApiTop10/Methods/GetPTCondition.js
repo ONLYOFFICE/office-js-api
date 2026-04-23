@@ -1,8 +1,8 @@
-// Get the pivot table condition status for the top 10 conditional formatting rule.
+// Check whether a top 10 conditional formatting rule is linked to a pivot table in a spreadsheet.
 
-// How to check if conditional formatting rule is related to pivot tables.
+// How do I tell if a top 10 conditional formatting rule applies to a pivot table in a spreadsheet?
 
-// Get top 10 rule pivot table condition in a spreadsheet.
+// Verify if the top 10 highlight rule targets pivot table data in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

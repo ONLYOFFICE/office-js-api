@@ -1,8 +1,8 @@
-// How to return a number of cells from the row.
+// Count the total number of cells in a table row in a PDF.
 
-// Create a table, count its cells and display the number in the page.
+// How do I find out how many cells are in a row in a PDF?
 
-// Get the cells count using a table row object.
+// Determine the cell count in your table row in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

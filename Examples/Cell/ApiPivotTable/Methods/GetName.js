@@ -1,8 +1,8 @@
-// Get name of a pivot table in a spreadsheet.
+// Read the name assigned to a pivot table in a spreadsheet.
 
-// How to get a table name in a spreadsheet.
+// How do I find out what a pivot table is called in a spreadsheet?
 
-// Create a pivot table, add data to it then get its name in a spreadsheet.
+// Retrieve the identifier of a pivot table to reference or display it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

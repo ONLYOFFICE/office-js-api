@@ -1,8 +1,8 @@
-// Set an attribute value on a custom XML node in a spreadsheet.
+// Attach a named property with a value to an XML element in a spreadsheet.
 
-// How to set attributes on custom XML node elements in a spreadsheet.
+// How do I add an attribute to an XML node in a spreadsheet?
 
-// Set attributes on product node in a spreadsheet.
+// Annotate an XML element with descriptive metadata fields in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let xmlManager = worksheet.GetCustomXmlParts();

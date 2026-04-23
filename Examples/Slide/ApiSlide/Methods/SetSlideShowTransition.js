@@ -1,8 +1,8 @@
-// Set a slide show transition to a slide.
+// Apply a slide show transition effect to a slide.
 
-// How do I set slide show transition in a presentation?
+// Configure the transition with entry effect and speed settings.
 
-// Set slide show transition using a slide object.
+// Set the advance on click property for the transition.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

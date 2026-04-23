@@ -1,8 +1,8 @@
-// Convert millimeters to emus in a document.
+// Convert a millimeter value to English metric units and display the result in a document.
 
-// How do I convert millimeters to emus in a document?
+// How do I translate a measurement from millimeters to English metric units in a document?
 
-// Convert millimeters to emus and display the result in a document.
+// Show the equivalent English metric unit value for a given number of millimeters in a document.
 
 const doc = Api.GetDocument();
 const paragraph = Api.CreateParagraph();

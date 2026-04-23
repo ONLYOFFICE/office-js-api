@@ -1,8 +1,8 @@
-// Change the position for the drawing object in a spreadsheet.
+// Place a drawing at a specific location relative to the cells in a spreadsheet.
 
-// How to change the position of the drawing on the worksheet.
+// How do I control exactly where a drawing appears in a spreadsheet?
 
-// Move a drawing by setting the position in a spreadsheet.
+// Reposition a shape by anchoring it to a chosen cell column and row in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

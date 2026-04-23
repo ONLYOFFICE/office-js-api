@@ -1,8 +1,8 @@
-// Clear the content from the row in a document.
+// Erase all content from a table row in a document.
 
-// How to delete the content of the first row in a document.
+// How do I wipe out everything written inside a row's cells in a document?
 
-// Remove the text from the table row in a document.
+// Empty a row so its cells contain no text or other content in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

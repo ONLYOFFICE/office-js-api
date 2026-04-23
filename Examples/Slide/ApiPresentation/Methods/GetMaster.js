@@ -1,8 +1,8 @@
-// Get a slide master by its position in the presentation.
+// Retrieve a slide master layout by index.
 
-// How to get a slide master from the presentation.
+// Access the master slide object at a specific position.
 
-// Get a slide master of the presentation using its index.
+// Display the master slide class type information.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

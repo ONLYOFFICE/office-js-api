@@ -1,8 +1,8 @@
-// Create a custom shape and add it to a page. Applies custom geometry with specific fill and stroke properties.
+// Set the horizontal size of a shape path in a PDF.
 
-// How to set width for a geometry path in a PDF document?
+// How wide should my custom shape be in a PDF?
 
-// Set width and display the result in a PDF document.
+// Specify the left-to-right dimension of a drawn path in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

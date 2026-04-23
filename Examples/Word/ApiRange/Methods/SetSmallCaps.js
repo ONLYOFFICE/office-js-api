@@ -1,8 +1,8 @@
-// Specify that all the lowercase letter characters in the current text Range are formatted for display only as their capital letter character equivalents which are two points smaller than the actual font size specified for this text.
+// Display lowercase letters as small capital letters within a selected text range in a document.
 
-// How to make range text characters uncapitalized in a document.
+// How do I make text appear in small capitals without retyping it in a document?
 
-// Get a range text, update its style by making its letters uncapitalized in a document.
+// Format a portion of text so that lowercase characters render as reduced-size capitals in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

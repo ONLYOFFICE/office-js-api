@@ -1,8 +1,8 @@
-// Replace each paragraph (or text in cell) in the select with the corresponding text from an array of strings.
+// Replace the text in each selected cell with a new value from a list in a spreadsheet.
 
-// Replace string values of the selected range with a new values in a spreadsheet.
+// How do I swap out the contents of multiple cells at once using a set of replacement values in a spreadsheet?
 
-// Replace cell string values with a new ones.
+// Overwrite selected cell values in bulk using a matching array of strings in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

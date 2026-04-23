@@ -1,8 +1,8 @@
-// Get text field and set regular expression validate for it in a PDF document.
+// Validate field input with a pattern rule in a PDF.
 
-// How do I set regular exp in a PDF document?
+// Can I check that data matches a pattern in a PDF?
 
-// Set regular exp using a combobox field object in a PDF document.
+// Ensure text follows a specific format in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

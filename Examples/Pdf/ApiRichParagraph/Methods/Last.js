@@ -1,8 +1,8 @@
-// Get last element from rich paragraph in a PDF document.
+// Get the final element from a paragraph in a PDF.
 
-// How to last for a rich paragraph in a PDF document?
+// How do I access the last element in a paragraph in a PDF?
 
-// Last and display the result in a PDF document.
+// Obtain the bottom-most item from a paragraph in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);

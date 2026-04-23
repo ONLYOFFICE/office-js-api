@@ -1,8 +1,8 @@
-// Get the tip text of the current form in a document.
+// Retrieve the tooltip hint assigned to a signature field in a document.
 
-// Get a signature form tip text and show it in the document.
+// How do I read the tooltip text that appears when hovering over a signature field in a document?
 
-// Show a tip text of the form.
+// Display the guidance message shown to signers when they interact with a signature field in a document.
 
 let doc = Api.GetDocument();
 let signatureForm = Api.CreateSignatureForm({"key": "Signature", "tip": "Please sign here", "placeholder": "Signature"});

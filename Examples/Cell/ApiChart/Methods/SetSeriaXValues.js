@@ -1,8 +1,8 @@
-// Set the x-axis values from the specified range to the specified series. It is used with the scatter charts only in a spreadsheet.
+// Assign cell range data as the horizontal axis values for a scatter chart series in a spreadsheet.
 
-// How to add values to the horizontal axis of series for scatter charts from the indicated range using addresses in a spreadsheet.
+// How do I set custom x-axis values for a scatter chart series from a cell range in a spreadsheet?
 
-// Fill seria's x-axis of scatter charts with values from the worksheet cells.
+// Control the horizontal positions of scatter chart points by linking them to a row of cells in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

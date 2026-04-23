@@ -1,8 +1,8 @@
-// Add a line break to the run position and start the next element from a new line in a document.
+// Insert a line break within a text run to continue text on the next line in a document.
 
-// How to start a sentence on a new line in a document.
+// How do I split a single text run across two lines without starting a new paragraph in a document?
 
-// Break two lines of a text run with a line in a document.
+// Push the remaining text onto a fresh line while keeping it in the same paragraph in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

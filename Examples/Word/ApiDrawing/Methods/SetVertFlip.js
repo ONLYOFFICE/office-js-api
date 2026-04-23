@@ -1,8 +1,8 @@
-// Flips the drawing vertically in a document.
+// Flip a shape upside down along its vertical axis in a document.
 
-// How to set the vertical flip property of the shape in a document.
+// How do I mirror a drawing vertically in a document?
 
-// Create a drawing, add text to it and flip it vertically in a document.
+// Invert a shape's orientation to create a reflected effect in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

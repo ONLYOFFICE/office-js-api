@@ -1,8 +1,8 @@
-// Get the form tag in a document.
+// Read the tag value attached to a complex form in a document.
 
-// How do I get the tag in a document?
+// How do I retrieve the tag assigned to a form in a document?
 
-// Get the tag using a complex form object.
+// Use the tag to identify or group related forms when processing them programmatically in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

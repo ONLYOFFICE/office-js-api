@@ -1,8 +1,8 @@
-// Set display fields in report filter area value of a table in a spreadsheet.
+// Arrange filter fields across multiple columns or rows in the report filter area in a spreadsheet.
 
-// How to set a display fields in report filter area of a table in a spreadsheet.
+// How do I control how many filter fields appear per row above a pivot table in a spreadsheet?
 
-// Create a pivot table, add data to it then set a display fields in report filter area in a spreadsheet.
+// Adjust the layout of the filter section so it wraps after a set number of fields in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

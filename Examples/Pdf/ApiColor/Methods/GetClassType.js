@@ -1,8 +1,8 @@
-// Check the class type returned by a color in a PDF document.
+// Determine the class type of a color object in a PDF.
 
-// How do I check what type a color object is in a PDF document?
+// What type is a color object in a PDF?
 
-// Retrieve and output the class type string for a color in a PDF document.
+// Get the class type and display it as text in the PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

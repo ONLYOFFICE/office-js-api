@@ -1,8 +1,8 @@
-// Find out the class type of a fill object in a PDF document.
+// Determine the class category of a fill style in a PDF.
 
-// How can I get the class type of a fill in a PDF document?
+// How do I identify what kind of fill is applied to a shape in a PDF?
 
-// Get the class type of a fill and display it in the PDF.
+// Retrieve the classification of a fill pattern in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

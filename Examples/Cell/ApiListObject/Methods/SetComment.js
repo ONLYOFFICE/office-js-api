@@ -1,8 +1,8 @@
-// Set the comment (summary) of a formatted table.
+// Assign a descriptive note to a table object in a spreadsheet.
 
-// How to assign a descriptive comment to a table in a spreadsheet.
+// How do I add a summary comment to a table in a spreadsheet?
 
-// The comment is a descriptive note on the table object, separate from any cell comments.
+// Document the purpose of a table with a short description stored alongside it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

@@ -1,8 +1,8 @@
 // Convert inches to points in a presentation.
 
-// How to convert inches to points in a presentation?
+// Convert measurement units using the Api object.
 
-// Convert inches to points using the presentation API.
+// Display the conversion result in a shape on the slide.
 
 const inches = 100;
 const points = Api.InchesToPoints(inches);

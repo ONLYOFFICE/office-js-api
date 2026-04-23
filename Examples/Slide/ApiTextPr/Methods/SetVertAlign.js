@@ -1,8 +1,8 @@
-// Specify the alignment which will be applied to the contents of the run in relation to the default appearance of the run text in a presentation.
+// Set the vertical alignment of text inside a shape in a presentation.
 
-// How to set a vertical alignment of the text in a presentation.
+// How do I apply superscript or subscript formatting to text in a presentation?
 
-// Get the text properties of the run and make it superscript, subscript, etc in a presentation.
+// Get text properties and apply vertical alignment adjustments in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

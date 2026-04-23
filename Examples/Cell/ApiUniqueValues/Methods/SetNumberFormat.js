@@ -1,8 +1,8 @@
-// Set the number format for an unique values conditional formatting rule.
+// Assign a number display format to cells matched by a unique values rule in a spreadsheet.
 
-// How to apply number formatting to unique values conditional formatting.
+// How do I control how numbers appear in cells highlighted by a unique values rule in a spreadsheet?
 
-// Set the number format pattern for the unique values rule.
+// Format the numeric output of uniquely matched cells using a custom pattern in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

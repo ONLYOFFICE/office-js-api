@@ -1,8 +1,8 @@
-// Get all field widgets and set border color for them in a PDF document.
+// Apply a border color to all field widgets in a PDF.
 
-// How can I set border color using a widget in a PDF document?
+// How do I set the border color for widgets in a PDF?
 
-// Set border color for a widget in a PDF document.
+// Change the outline color of widget borders in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

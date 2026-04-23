@@ -1,8 +1,8 @@
-// Add a new name to a range of cells.
+// Assign a named range to a group of cells for easier reference in a spreadsheet.
 
-// How to name a range of cells.
+// How do I give a cell range a descriptive name in a spreadsheet?
 
-// Name a range according its purpose in a spreadsheet.
+// Label a range of cells so it can be referenced by name instead of address in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

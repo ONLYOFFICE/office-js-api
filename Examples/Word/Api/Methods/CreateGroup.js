@@ -1,8 +1,8 @@
-// Create a group of drawings in a document.
+// Group multiple shapes together so they move and resize as one unit in a document.
 
-// Create two "rect" shapes in the current document and group them.
+// How do I combine several shapes into a single group in a document?
 
-// How to create the group object from an array of drawings in a document.
+// Keep two shapes aligned by bundling them into one grouped object in a document.
 
 let doc = Api.GetDocument();
 let fill1 = Api.CreateSolidFill(Api.RGB(255, 111, 61));

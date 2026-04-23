@@ -1,8 +1,8 @@
-// Find out the class type of a color object in a spreadsheet.
+// Retrieve the class type of a color object in a spreadsheet.
 
-// How can I get the class type of a color in a spreadsheet?
+// How do I find out what class type a color object belongs to in a spreadsheet?
 
-// Get the class type of a color and display it in the spreadsheet.
+// Identify whether a color belongs to a specific class by reading its type label in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let color = Api.CreateColorFromRGB(255, 111, 61);

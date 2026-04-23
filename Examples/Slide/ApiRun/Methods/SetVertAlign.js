@@ -1,8 +1,8 @@
-// Specify the alignment which will be applied to the contents of the current run in relation to the default appearance of the text run in a presentation.
+// Position text above, on, or below the baseline in a presentation.
 
-// How to change a vertical alignment of a text run in a presentation.
+// How do I align text vertically in a presentation?
 
-// Create a new text run and make it subscript, baseline or superscript in a presentation.
+// Create text runs and apply subscript, baseline, and superscript alignment in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

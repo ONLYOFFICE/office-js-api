@@ -1,8 +1,8 @@
-// How to set the cell left margin for the current table cell.
+// Set the left margin of a table cell in a PDF.
 
-// Specify the left margin value for the table cell object.
+// How do I add space to the left of content inside a cell in a PDF?
 
-// Set cell margin left using a table cell object.
+// Adjust the spacing on the left side of your table cell in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

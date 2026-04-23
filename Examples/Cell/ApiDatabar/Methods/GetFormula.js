@@ -1,8 +1,8 @@
-// Get the formula from a data bar conditional formatting rule.
+// Read the formula that drives a data bar rule in a spreadsheet.
 
-// How to retrieve the formula string from a data bar.
+// How do I retrieve the formula expression tied to a data bar in a spreadsheet?
 
-// Get the formula of a data bar conditional formatting rule.
+// Examine the calculation behind a data bar condition to understand its logic in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

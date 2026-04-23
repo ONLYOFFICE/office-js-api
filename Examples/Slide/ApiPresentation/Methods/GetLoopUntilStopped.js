@@ -1,8 +1,8 @@
-// Get the loop-until-stopped setting of the presentation in a presentation.
+// Check the loop-until-stopped playback setting.
 
-// How can I get the loop until stopped using a presentation in a presentation?
+// Enable continuous presentation playback looping.
 
-// Get the loop until stopped for a presentation in a presentation.
+// Display the loop status on the slide.
 
 const presentation = Api.GetPresentation();
 presentation.SetLoopUntilStopped(true);

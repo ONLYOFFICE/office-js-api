@@ -1,8 +1,8 @@
-// Get button widget scale how type and display it in a PDF document.
+// Determine how a button icon is scaled in a PDF.
 
-// How do I get the scale how in a PDF document?
+// How do I check the icon scaling method for a button in a PDF?
 
-// Get the scale how using a button widget object in a PDF document.
+// Retrieve the icon scaling option for a button widget in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

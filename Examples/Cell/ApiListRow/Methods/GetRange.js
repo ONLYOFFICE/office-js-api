@@ -1,8 +1,8 @@
-// Get the range of a data row in a formatted table.
+// Retrieve the full cell range occupied by a table row in a spreadsheet.
 
-// How to retrieve the full row range spanning all table columns in a spreadsheet.
+// How do I get the cells that make up a single row of a table in a spreadsheet?
 
-// Get the range of a row spanning all table columns in a spreadsheet.
+// Access the row's range to read its address or apply formatting across every cell in that row in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

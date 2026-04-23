@@ -1,8 +1,8 @@
-// Set the fill to the chart plot area in a document.
+// Fill the chart plot area with a solid background color in a document.
 
-// How to set a background color for the plot area in a document.
+// How do I change the background color of a chart's plot area in a document?
 
-// Create a chart, set its properties and its plot area color in a document.
+// Give the chart a distinct look by painting the data region with a custom color in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

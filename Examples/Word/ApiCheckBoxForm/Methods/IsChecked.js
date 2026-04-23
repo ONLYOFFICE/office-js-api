@@ -1,8 +1,8 @@
-// Get the state of the checkbox in a document.
+// Read whether a checkbox form is currently checked in a document.
 
-// How to know whether the checkbox form is checked.
+// How do I find out if a checkbox form is checked in a document?
 
-// Get a boolean value representing whether a current form is checked or not.
+// Confirm the checked state of a specific radio button after programmatically selecting it in a document.
 
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});

@@ -1,8 +1,8 @@
-// Create a color in RGB format and use it as a font color in a document.
+// Create a custom color from red, green, and blue values and apply it to text in a document.
 
-// How can I r g b in a document?
+// How do I set text color using red, green, and blue values in a document?
 
-// R g b in a document using the editor API in a document.
+// Color paragraph text with a specific RGB combination in a document.
 
 const doc = Api.GetDocument();
 const color = Api.RGB(186, 218, 85);

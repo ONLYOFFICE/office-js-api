@@ -1,8 +1,8 @@
-// Set the sort-on type of a sort field in a spreadsheet.
+// Switch a sort column from ordering by value to ordering by cell color in a spreadsheet.
 
-// How to change a sort field to sort by cell color instead of values.
+// How do I make a column sort by background color instead of text in a spreadsheet?
 
-// Set the sort-on type for a sort field in a spreadsheet.
+// Change what a sort column is based on so rows group by color rather than content in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

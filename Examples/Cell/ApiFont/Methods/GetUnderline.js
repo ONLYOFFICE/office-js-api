@@ -1,8 +1,8 @@
-// Get the type of underline applied to the specified font in a spreadsheet.
+// Retrieve the underline style applied to a text character in a spreadsheet.
 
-// How to determine whether a font is underlined or not in a spreadsheet.
+// How do I find out which underline style is used on a piece of text in a spreadsheet?
 
-// Get a boolean value that represents whether a font has an underline property or not and show the value in the worksheet.
+// Read the underline setting from a character's font and display the result in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B1");

@@ -1,8 +1,8 @@
-// Find out the class type of a table cell object.
+// Identify the type of a table cell in a PDF.
 
-// How can I get the class type of a table cell?
+// How can I determine the type classification of a cell in a PDF?
 
-// Get the class type of a table cell and display it in the PDF.
+// Retrieve the object type information for a table cell in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

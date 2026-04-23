@@ -1,8 +1,8 @@
-// Convert a date in the form of text to a number that represents the date in the date-time code.
+// Convert a text date string into a date number in a spreadsheet.
 
-// How to convert a date from the form of text.
+// What date value does a text string represent in a spreadsheet?
 
-// Use function to get the date from a text in a spreadsheet.
+// Parse text into a usable date format in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

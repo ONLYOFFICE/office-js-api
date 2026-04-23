@@ -1,8 +1,8 @@
-// Set a border for the entire table in a document.
+// Add a uniform border around and inside a table in a document.
 
-// How to set table border all for a table in a document?
+// How do I apply the same border style to every edge of a table in a document?
 
-// Set table border all and display the result in a document.
+// Give a table a consistent outline and interior grid by setting all borders at once in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

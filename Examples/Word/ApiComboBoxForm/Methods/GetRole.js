@@ -1,8 +1,8 @@
-// Get the form role in a document.
+// Read the role assigned to a combo box form in a document.
 
-// How can I get the role using a combo box form in a document?
+// How do I check the role of a combo box form in a document?
 
-// Get the role for a combo box form in a document.
+// Determine the purpose of a combo box within a form by inspecting its assigned role.
 
 let doc = Api.GetDocument();
 let comboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});

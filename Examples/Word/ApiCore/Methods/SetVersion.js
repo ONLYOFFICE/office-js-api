@@ -1,8 +1,8 @@
-// Set the version of the current document in a document.
+// Store a version string in the core properties of a document in a document.
 
-// How do I set version in a document?
+// How do I tag a document with a version number in its metadata?
 
-// Set version using a core properties object in a document.
+// Track release stages by embedding a version label directly in a document's properties in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

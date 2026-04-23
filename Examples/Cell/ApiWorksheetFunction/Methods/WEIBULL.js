@@ -1,8 +1,8 @@
-// Return the Weibull distribution in a spreadsheet.
+// Calculate the Weibull distribution for statistical analysis in a spreadsheet.
 
-// How to return the Weibull distribution in a spreadsheet.
+// How do I compute the Weibull distribution for probability calculations in a spreadsheet?
 
-// Use a function to calculate the Weibull distribution in a spreadsheet.
+// Evaluate the Weibull probability distribution with specific parameters in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

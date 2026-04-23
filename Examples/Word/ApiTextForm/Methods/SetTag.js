@@ -1,8 +1,8 @@
-// Set the form tag in a document.
+// Attach a custom tag to a text form in a document.
 
-// How can I set tag using a text form in a document?
+// How do I label a text form with a tag so it can be identified later in a document?
 
-// Set tag for a text form in a document.
+// Organize and reference a text form by giving it a searchable tag in a document.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});

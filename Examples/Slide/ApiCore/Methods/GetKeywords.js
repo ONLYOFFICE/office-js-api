@@ -1,8 +1,8 @@
-// Set and get the string of keywords of the current presentation using the core properties in a presentation.
+// Set and display the search keywords in a presentation.
 
-// How to get the keywords for a core properties in a presentation?
+// How do I retrieve keywords associated with a presentation?
 
-// Get the keywords and display the result in a presentation.
+// Access the keyword list stored in a presentation in a presentation.
 
 const presentation = Api.GetPresentation();
 const core = presentation.GetCore();

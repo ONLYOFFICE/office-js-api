@@ -1,8 +1,8 @@
-// Delete all conditional formatting from a range.
+// Remove all formatting rules applied to a group of cells in a spreadsheet.
 
-// How to delete conditional formatting rules from cells.
+// How do I clear every highlight and color rule from a selected range in a spreadsheet?
 
-// Delete all conditional formatting from cells.
+// Strip away previously set visual conditions to return cells to their default look in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

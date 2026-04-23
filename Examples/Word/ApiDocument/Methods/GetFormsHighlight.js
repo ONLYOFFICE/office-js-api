@@ -1,8 +1,8 @@
-// Return the highlight color of the forms in the document.
+// Read back the highlight color applied to all form fields in a document.
 
-// How to get the current highlight color of forms.
+// How do I retrieve the current form highlight color in a document?
 
-// Set a highlight color on the forms and retrieve it.
+// Confirm a highlight was applied correctly by displaying its hex value in a document.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});

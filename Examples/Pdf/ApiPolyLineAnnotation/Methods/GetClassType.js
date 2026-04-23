@@ -1,8 +1,8 @@
-// Check the class type returned by a polyline annotation in a PDF document.
+// Identify what type of object a polyline marking is in a PDF.
 
-// How do I check what type a polyline annotation object is in a PDF document?
+// How do I determine the object type of a polyline marking in a PDF?
 
-// Retrieve and output the class type string for a polyline annotation in a PDF document.
+// Find the classification name for a polyline marking in a PDF.
 
 let doc = Api.GetDocument();
 let vertices = [{x: 100, y: 10}, {x: 150, y: 100}, {x: 50, y: 100}];

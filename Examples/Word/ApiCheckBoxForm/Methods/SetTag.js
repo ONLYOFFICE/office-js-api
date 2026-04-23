@@ -1,8 +1,8 @@
-// Set the form tag in a document.
+// Attach an identifying tag to a checkbox form in a document.
 
-// How to set tag for a checkbox form?
+// How do I label a form field with a custom tag for later retrieval in a document?
 
-// Set tag and display the result in a document.
+// Store a searchable identifier on each checkbox so forms can be grouped or found programmatically in a document.
 
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": false});

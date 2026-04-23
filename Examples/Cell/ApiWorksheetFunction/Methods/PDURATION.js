@@ -1,8 +1,8 @@
-// Return the number of periods required by an investment to reach a specified value in a spreadsheet.
+// Calculate how many periods an investment needs to reach a target amount in a spreadsheet.
 
-// How to get periods required to get a value of an investment in a spreadsheet.
+// How do I find the time required for an investment to grow to a specific value in a spreadsheet?
 
-// Use a function to get the number of periods required by an investment to reach a specified value in a spreadsheet.
+// Determine the number of investment periods until a desired return is achieved in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

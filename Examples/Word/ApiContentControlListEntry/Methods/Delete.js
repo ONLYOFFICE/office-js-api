@@ -1,8 +1,8 @@
-// Delete the specified item in a combo box or drop-down list content control in a document.
+// Delete a specific entry from a combo box dropdown list in a document.
 
-// How can I delete using a content control list entry in a document?
+// How do I remove a single item from a dropdown list content control in a document?
 
-// Delete for a content control list entry in a document.
+// Reduce the available choices in a list control by permanently removing one option in a document.
 
 let doc = Api.GetDocument();
 let cc = Api.CreateComboBoxContentControl([{display: "Mercury", value: "planet1"}, {display: "Venus", value: "planet2"}, {display: "Earth", value: "planet3"}, {display: "Mars", value: "planet4"}], 2);

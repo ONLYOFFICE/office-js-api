@@ -1,8 +1,8 @@
-// Set the paragraph first line indentation in a PDF document.
+// Indent the first line of a paragraph in a PDF.
 
-// How to set the paragraph's first line indentation size in a PDF document.
+// How do I add a first line indent in a PDF?
 
-// Resize the first line indentation of a text in a paragraph in a PDF document.
+// Create space before the first line of text in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

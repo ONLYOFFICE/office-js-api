@@ -1,8 +1,8 @@
-// Remove the field from document.
+// Remove a form field from a PDF.
 
-// How to delete for a base field in a PDF document?
+// How do I delete a form field from a PDF?
 
-// Delete and display the result in a PDF document.
+// Remove a field and all its associated widgets from a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

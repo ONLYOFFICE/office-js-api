@@ -1,8 +1,8 @@
-// Convert the layout object into the JSON object in a presentation.
+// Export a layout as JSON data in a presentation.
 
-// How to convert a layout object to a JSON object in a presentation.
+// How do I save a layout's configuration as JSON in a presentation?
 
-// Get a slide layout object from a slide and convert to JSON.
+// Convert a layout to JSON format and recreate it in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

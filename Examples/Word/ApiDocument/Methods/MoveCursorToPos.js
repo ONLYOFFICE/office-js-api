@@ -1,8 +1,8 @@
-// Move cursor to a specified position inside the range object in a document.
+// Move the cursor to a specific character position in a document.
 
-// How can I move cursor to pos using a document in a document?
+// How do I place the cursor at an exact offset within a document?
 
-// Move cursor to pos for a document in a document.
+// Jump directly to a known position inside a range to begin editing there in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

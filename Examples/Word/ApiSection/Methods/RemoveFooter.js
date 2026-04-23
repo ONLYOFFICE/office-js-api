@@ -1,8 +1,8 @@
-// Remove the footer of the specified type from the section in a document.
+// Delete the footer from a chosen section in a document.
 
-// How to remove the footer of the current section in a document.
+// How do I remove the footer that appears at the bottom of a section in a document?
 
-// Create section from the paragraph and remove its footer in a document.
+// Clear the bottom area of a section so no footer is shown in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

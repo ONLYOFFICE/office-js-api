@@ -1,8 +1,8 @@
-// Delete an XML element from a custom XML part in a spreadsheet.
+// Remove a child element from stored XML data in a spreadsheet.
 
-// How do I delete the element in a spreadsheet?
+// How do I cut out an unwanted XML node from custom data saved in a spreadsheet?
 
-// Delete the element using a custom XML part object in a spreadsheet.
+// Prune a specific branch of an XML structure to keep only the relevant content in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const xmlManager = worksheet.GetCustomXmlParts();

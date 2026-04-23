@@ -1,8 +1,8 @@
-// Get text field and set number format for it.
+// Display numbers with currency and formatting in a PDF.
 
-// How to set number format for a combobox field?
+// Can I show dollar signs and commas with numbers in a PDF?
 
-// Set number format and display the result in a PDF document.
+// Control the appearance of numerical values in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

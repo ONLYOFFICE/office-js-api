@@ -1,8 +1,8 @@
-// Find out whether a text is highlighted in a PDF document.
+// Verify if text has a highlight color applied in a PDF.
 
-// How to know whether a highlight set to the text in a PDF document.
+// How do I determine if text is highlighted in a PDF?
 
-// Get the text properties of the run and find whether it is highlighted or not in a PDF document.
+// Look up the highlight setting from text formatting properties in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// Convert EMUs (english metric units) to points in a presentation.
+// Convert measurement units from emus to points in a presentation.
 
-// How do I convert emus to points in a presentation?
+// How can I convert emus to points for font and size measurements in a presentation?
 
-// Convert emus to points and display the result in a presentation.
+// Transform measurement values to display point equivalents in a presentation.
 
 const emus = 100;
 const points = Api.EmusToPoints(emus);

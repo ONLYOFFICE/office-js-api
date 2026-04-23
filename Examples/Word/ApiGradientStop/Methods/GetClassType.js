@@ -1,8 +1,8 @@
-// Check the class type returned by a gradient stop in a document.
+// Read the class type of a gradient stop object in a document.
 
-// How do I check what type a gradient stop object is in a document?
+// How do I get the class type of a gradient stop in a document?
 
-// Retrieve and output the class type string for a gradient stop in a document.
+// Confirm the object category of a gradient stop when working with mixed fill types in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

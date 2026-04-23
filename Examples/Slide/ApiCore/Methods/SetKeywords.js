@@ -1,8 +1,8 @@
-// Set and get the string of keywords of the current presentation using the core properties in a presentation.
+// Set and retrieve the keywords of a presentation in a presentation.
 
-// How do I set keywords in a presentation?
+// How do I set the keywords of a presentation in a presentation?
 
-// Set keywords using a core properties object in a presentation.
+// Retrieve and display the keywords as text in a presentation.
 
 const presentation = Api.GetPresentation();
 const core = presentation.GetCore();

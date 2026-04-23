@@ -1,8 +1,8 @@
-// Check the class type returned by a theme format scheme.
+// Determine the data type of a theme format scheme in a presentation.
 
-// How do I check what type a theme format scheme object is?
+// How do I identify what kind of object a theme format scheme is in a presentation?
 
-// Retrieve and output the class type string for a theme format scheme.
+// Get the class name identifier for a theme format scheme in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

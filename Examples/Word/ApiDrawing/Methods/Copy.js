@@ -1,8 +1,8 @@
-// Copy the current graphic object in a document.
+// Duplicate a drawing and apply a new fill to the copy in a document.
 
-// How to create a duplicate of a drawing in a document.
+// How do I create a copy of a shape and give it a different fill in a document?
 
-// Add two similar shapes into the document.
+// Reuse an existing shape's geometry by cloning it and styling the clone independently.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// Return a random number greater than or equal to 0 and less than 1, evenly distributed (changes on recalculation) in a spreadsheet.
+// Generate a random number between 0 and 1 in a spreadsheet.
 
-// How to get a number between 0 and 1 in a spreadsheet.
+// How do I create a random decimal value in a spreadsheet?
 
-// Use a function to return a random value more or equal to zero and less than one in a spreadsheet.
+// Insert an unpredictable number that recalculates each time the spreadsheet updates in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

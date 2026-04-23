@@ -1,8 +1,8 @@
-// Set the tip text to the current form.
+// Set a tooltip message on a complex form in a document.
 
-// How do I set tip text in a document?
+// How do I add a helpful tip that appears when a user hovers over a form in a document?
 
-// Set tip text using a complex form object.
+// Provide context or instructions to users through a tooltip shown on a form field.
 
 let doc = Api.GetDocument();
 let complexForm = Api.CreateComplexForm({"key": "Complex1"});

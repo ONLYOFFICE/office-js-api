@@ -1,8 +1,8 @@
-// Specify how the floating object will be horizontally aligned in a document.
+// Align a floating drawing to the horizontal center of the page in a document.
 
-// How to set the drawing to the center of the page.
+// How do I center a shape across the full page width in a document?
 
-// Create a drawing and align it horizontaly to the center in a document.
+// Anchor a shape to the page and have surrounding text wrap around it in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

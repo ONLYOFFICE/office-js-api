@@ -1,8 +1,8 @@
-// Set row stripes for a formatted table.
+// Control whether a table displays alternating row colors in a spreadsheet.
 
-// How to apply alternating row colors to a table style in a spreadsheet.
+// How do I turn alternating row shading on or off for a table in a spreadsheet?
 
-// Row stripes apply alternating background colors to adjacent rows as defined in the table style in a spreadsheet.
+// Toggle row stripes so the table style applies contrasting backgrounds to every other row in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

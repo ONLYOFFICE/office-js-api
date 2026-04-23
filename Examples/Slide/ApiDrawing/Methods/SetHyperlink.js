@@ -1,8 +1,8 @@
-// Set a hyperlink for a shape and an image on a slide.
+// Add clickable links to shapes and images in a presentation.
 
-// How do I set hyperlink in a presentation?
+// How do I add a hyperlink to a shape or image in a presentation?
 
-// Set hyperlink using a drawing object object in a presentation.
+// Attach a web link to a shape and a slide link to an image in a presentation.
 
 const presentation = Api.GetPresentation();
 presentation.AddSlide(Api.CreateSlide());

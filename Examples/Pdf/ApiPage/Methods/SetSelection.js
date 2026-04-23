@@ -1,8 +1,8 @@
-// Select the text on the page.
+// Mark a specific area of text as selected on a page in a PDF.
 
-// How can I set selection using a page in a PDF document?
+// How do I highlight a range of text on a page in a PDF?
 
-// Set selection for a page in a PDF document.
+// Define and activate a text selection within given coordinates in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

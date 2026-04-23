@@ -1,8 +1,8 @@
-// Return an integer representing the data type of a value: number = 1; text = 2; logical value = 4; error value = 16; array = 64; compound data = 128 in a spreadsheet.
+// Identify the data type of a cell value and return a numeric code in a spreadsheet.
 
-// How to get an integer representing the data type of a value in a spreadsheet.
+// How do I determine what type of data is stored in a cell in a spreadsheet?
 
-// Use a function to return the data type of a value in a spreadsheet.
+// Get a numeric identifier that indicates whether a value is text, a number, or a boolean in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

@@ -1,8 +1,8 @@
-// Get your document in Markdown format and paste the result into the document.
+// Convert document content to Markdown and paste the result back in a document.
 
-// Convert a document to Markdown format and insert the result into the document.
+// How do I export the text of a document as Markdown in a document?
 
-// Add a text with different heading levels to the document, convert it to Markdown, and paste it back into the document.
+// Write headings and paragraphs, then append the Markdown version of that content in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

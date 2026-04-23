@@ -1,8 +1,8 @@
-// Get custom properties object of the workbook in a spreadsheet.
+// Access the custom properties stored with a workbook and read one of their values in a spreadsheet.
 
-// How can I get custom properties using a workbook in a spreadsheet?
+// How do I store and retrieve my own metadata on a workbook in a spreadsheet?
 
-// Get custom properties for a workbook in a spreadsheet.
+// Add a named string property to the workbook and display its value in a cell in a spreadsheet.
 
 const workbook = Api.GetActiveWorkbook();
 const customProps = workbook.GetCustomProperties();

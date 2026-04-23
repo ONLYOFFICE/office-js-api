@@ -1,8 +1,8 @@
-// Get the bottom border properties of the current paragraph in a document.
+// Retrieve the bottom border settings applied to a paragraph in a document.
 
-// Get the bottom border of the paragraph and display its type in the document.
+// How do I read the bottom border from a paragraph's formatting in a document?
 
-// How to get the bottom border of the paragraph properties object in a document.
+// Useful when you need to inspect border details such as type and size drawn below a paragraph.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

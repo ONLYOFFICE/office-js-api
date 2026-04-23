@@ -1,8 +1,8 @@
-// Specify that all the small letter characters in the text run are formatted for display only as their capital letter character equivalents which are two points smaller than the actual font size specified for this text.
+// Display lowercase letters as smaller capital letters in a shape in a spreadsheet.
 
-// How to make text uncapitalized in a spreadsheet.
+// How do I format text so all letters appear as small capitals in a spreadsheet?
 
-// Make all characters of a text as a small letter in a spreadsheet.
+// Render every letter in a reduced capital style without changing the original casing in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

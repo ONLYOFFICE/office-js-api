@@ -1,8 +1,8 @@
-// Delete the specified object from the parent slide master if it exists in a presentation.
+// Delete a layout from the presentation master.
 
-// How to delete a layout in a presentation.
+// Remove objects from a layout that belongs to the slide master.
 
-// Remove a layout from a presentation master.
+// The number of layouts decreases after deletion.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

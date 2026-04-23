@@ -1,8 +1,8 @@
-// Check the class type returned by a comment reply in a document.
+// Read the class type of a comment reply object in a document.
 
-// How do I check what type a comment reply object is in a document?
+// How do I confirm the object type of a comment reply in a document?
 
-// Retrieve and output the class type string for a comment reply in a document.
+// Verify that a retrieved object is a comment reply before performing type-specific operations.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// Remove all the objects from the current slide.
+// Remove all objects from a slide.
 
-// How to remove all elements from the slide.
+// Clear the slide content before adding new shapes.
 
-// Get a current slide, remove all its objects and add a new one.
+// Add new objects to the cleaned slide.
 
 const presentation = Api.GetPresentation();
 presentation.SetSizes(254 * 36000, 190 * 36000);

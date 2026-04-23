@@ -1,8 +1,8 @@
-// Retrieve the class type of a chart in a spreadsheet.
+// Identify the internal object category of a chart and write it to a cell in a spreadsheet.
 
-// How to identify the class type of a chart in a spreadsheet?
+// How do I check what kind of object a chart is classified as in a spreadsheet?
 
-// Obtain the class type identifier of a chart object in a spreadsheet.
+// Verify the object category assigned to a chart for use in conditional logic in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

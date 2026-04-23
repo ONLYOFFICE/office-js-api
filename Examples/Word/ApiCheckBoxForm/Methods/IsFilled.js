@@ -1,8 +1,8 @@
-// Check whether the checkbox form is filled.
+// Determine whether a checkbox form has been filled in a document.
 
-// How to check if the checkbox form is checked.
+// How do I tell if a checkbox form is filled in a document?
 
-// Create two checkbox forms, check the second one, and check if each form is filled.
+// Compare the filled status of two checkboxes where only one has been selected in a document.
 
 let doc = Api.GetDocument();
 let checkBoxForm1 = Api.CreateCheckBoxForm({"key": "Option1", "tip": "Select this option", "required": false, "placeholder": "Option"});

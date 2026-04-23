@@ -1,8 +1,8 @@
-// Get rect diff of square annotation in a PDF document.
+// Read the spacing around a square annotation in a PDF.
 
-// How to get the rect diff for a square annotation in a PDF document?
+// How do I find the padding or margin of a square annotation in a PDF?
 
-// Get the rect diff and display the result in a PDF document.
+// Check the distance from the annotation's edges to its borders in a PDF.
 
 let doc = Api.GetDocument();
 let squareAnnot = Api.CreateSquareAnnot([10, 10, 160, 32]);

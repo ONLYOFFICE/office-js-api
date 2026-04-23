@@ -1,8 +1,8 @@
-// Convert the stroke object into the JSON object in a document.
+// Save a border style as a portable data format and reuse it in a document.
 
-// How to get a JSON from the stroke object in a document.
+// How do I export and restore a border style for reuse in a document?
 
-// Convert the stroke to json and add it to the document.
+// Preserve a border configuration so it can be applied again later in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

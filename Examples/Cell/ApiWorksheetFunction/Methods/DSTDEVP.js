@@ -1,8 +1,8 @@
-// Calculate the standard deviation based on the entire population of the selected database entries in a spreadsheet.
+// Calculate the standard deviation based on the entire population of database entries.
 
-// How to estimate the standard deviation based on an entire population in a spreadsheet.
+// Compute population variance to measure data dispersion across all records.
 
-// Use function to estimate the standard deviation based on the entire population from a range in a spreadsheet.
+// Use the DSTDEVP function to find population standard deviation of database values with conditions.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

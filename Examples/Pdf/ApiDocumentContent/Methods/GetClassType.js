@@ -1,8 +1,8 @@
-// Find out the class type of a document content object.
+// Identify the type of a shape's content container in a PDF.
 
-// How can I get the class type of a document content?
+// How can I determine the type of a content element in a PDF?
 
-// Get the class type of a document content and display it in the PDF.
+// Find what category or class an object belongs to in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

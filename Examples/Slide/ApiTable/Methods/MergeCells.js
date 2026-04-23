@@ -1,8 +1,8 @@
-// Merge an array of cells.
+// Merge an array of cells into one.
 
-// How to get two cells by their position index and merge them into one.
+// Get two cells by their position index and merge them.
 
-// Create a table, create cells and merge them into one.
+// Create a table, obtain two cells, and merge them together.
 
 const presentation = Api.GetPresentation();
 

@@ -1,8 +1,8 @@
-// Get the range where above average rule applies in a spreadsheet.
+// Retrieve the cell range covered by an above-average conditional formatting rule in a spreadsheet.
 
-// How to retrieve the range where above average conditional formatting is applied.
+// How do I find out which cells an above-average highlight rule is applied to in a spreadsheet?
 
-// Get the range to which the above average rule applies in a spreadsheet.
+// Confirm the target range of an average-based rule by reading its applied area in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

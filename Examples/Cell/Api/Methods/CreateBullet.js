@@ -1,8 +1,8 @@
-// Create a bullet for a paragraph in a spreadsheet.
+// Add a bullet marker to a paragraph inside a shape in a spreadsheet.
 
-// Add paragraph with a custom bullet in a spreadsheet.
+// How do I add a custom bullet symbol to a paragraph in a spreadsheet?
 
-// How to create a custom bullet for a paragraph in a spreadsheet.
+// Mark a paragraph with a bullet character to create a list item in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

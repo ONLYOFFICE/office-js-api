@@ -1,8 +1,8 @@
-// Set the data to the current OLE object in a document.
+// Update the data string of an embedded OLE object in a document.
 
-// How to add link to the OLE object in a document.
+// How do I change the link or data stored in an OLE object in a document?
 
-// Update content of the OLE object in a document.
+// Replace the existing OLE object content with a new URL or data value in a document.
 
 let doc = Api.GetDocument();
 let oleObject = Api.CreateOleObject(

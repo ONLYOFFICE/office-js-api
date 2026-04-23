@@ -1,8 +1,8 @@
-// Get the next paragraph in a PDF document.
+// Navigate to the paragraph that follows the current one in a PDF.
 
-// How to get the next paragraph of the current one in a PDF document.
+// How do I access the following paragraph after the current one in a PDF?
 
-// Return the next paragraph on the page and make its text bold.
+// Move forward to the next paragraph and apply formatting in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

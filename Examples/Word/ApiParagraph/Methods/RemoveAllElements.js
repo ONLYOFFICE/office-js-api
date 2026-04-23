@@ -1,8 +1,8 @@
-// Remove all the elements from the current paragraph in a document.
+// Clear all content from a paragraph and replace it with new text in a document.
 
-// How to delete the paragraph in a document.
+// How do I remove every element from a paragraph in a document?
 
-// Delete all ellements from the paragraph in a document.
+// Wipe a paragraph clean before inserting fresh content in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

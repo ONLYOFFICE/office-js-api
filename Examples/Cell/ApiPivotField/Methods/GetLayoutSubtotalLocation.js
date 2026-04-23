@@ -1,8 +1,8 @@
-// Get a layout subtotal location of a pivot field in a spreadsheet.
+// Read where subtotals appear for a pivot field — at the top or bottom of each group in a spreadsheet.
 
-// How to get a layout subtotal location of a pivot field in a spreadsheet.
+// How do I find out where subtotals are placed for a pivot table field in a spreadsheet?
 
-// Create a pivot table, add data to it then get a layout subtotal location of a specified pivot field in a spreadsheet.
+// Inspect the subtotal position of a pivot field to confirm whether totals show above or below grouped rows.
 
 let worksheet = Api.GetActiveSheet();
 

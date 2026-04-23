@@ -1,8 +1,8 @@
-// Create a shape with adjustable parameters and guides. Sets up text rectangle and connection points for the custom geometry in a document.
+// Add an adjustment parameter to a custom shape geometry in a document.
 
-// How do I add the adj in a document?
+// How do I define a named adjustment value for a custom shape in a document?
 
-// Add the adj using a geometry object in a document.
+// Control the proportions of a shape dynamically using a named geometry adjustment.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// Remove all sort fields from a sort fields collection in a spreadsheet.
+// Wipe all sort columns from a formatted table so no sorting rules remain in a spreadsheet.
 
-// How to reset all sort fields of a formatted table.
+// How do I remove every sort column from a table at once in a spreadsheet?
 
-// Remove all sort fields from the collection in a spreadsheet.
+// Reset the table's sort setup by discarding all previously defined sort columns in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

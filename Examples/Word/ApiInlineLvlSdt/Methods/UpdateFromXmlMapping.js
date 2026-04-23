@@ -1,8 +1,8 @@
-// Load data from Custom XML into an inline content control using data binding in a document.
+// Refresh an inline content control with updated Custom XML data in a document.
 
-// How can I update from xml mapping using an inline content control in a document?
+// How do I sync an inline content control with changed XML data in a document?
 
-// Update from xml mapping for an inline content control in a document.
+// Bind a content control to an XML node so that edits to the XML are reflected automatically in a document.
 
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();

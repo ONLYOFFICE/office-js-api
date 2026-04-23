@@ -1,8 +1,8 @@
-// Set the scaling condition to the current picture form.
+// Choose when an image is automatically resized to fit its picture field in a document.
 
-// How to set the image scale flag of the form.
+// How do I control whether an image shrinks or grows to match the size of a picture field in a document?
 
-// Make the picture scalable in a document.
+// Decide the conditions under which an image adjusts its size inside a picture field in a document.
 
 let doc = Api.GetDocument();
 let pictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "lockAspectRatio": true, "respectBorders": false, "shiftX": 50, "shiftY": 50});

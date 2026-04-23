@@ -1,8 +1,8 @@
-// Get toggle to off property of checkbox field in a PDF document.
+// Check if a checkbox can toggle off when clicked in a PDF.
 
-// How can I is toggle to off using a checkbox field in a PDF document?
+// How do I find out if a checkbox uses toggle-off behavior in a PDF?
 
-// Is toggle to off for a checkbox field in a PDF document.
+// Determine whether a checked checkbox unselects when clicked again in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

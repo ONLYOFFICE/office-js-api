@@ -1,8 +1,8 @@
-// Add a column break to the run position and start the next element from a new column in a document.
+// Split a text run across two columns at a specific point in a document.
 
-// How to add a column break between the text in a document.
+// How do I push part of a text run into the next column in a document?
 
-// Add text to the text run and separate it with a column break in a document.
+// Force text to continue from the top of the following column in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

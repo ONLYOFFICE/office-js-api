@@ -1,8 +1,8 @@
-// Specify a number of rows which will comprise each table row band for this table style in a document.
+// Group multiple adjacent rows together into a single alternating band in a document.
 
-// How to set row band size in a document.
+// How do I make the striped row pattern span more than one row in a document?
 
-// How to style a row band size in a document.
+// Widen the repeating row highlight bands applied by a table style in a document.
 
 let doc = Api.GetDocument();
 doc.RemoveAllElements();

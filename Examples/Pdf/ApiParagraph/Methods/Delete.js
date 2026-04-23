@@ -1,8 +1,8 @@
-// Delete the paragraph in a PDF document.
+// Remove a paragraph from a PDF.
 
-// How to remove a paragraph from the page.
+// How do I delete a paragraph in a PDF?
 
-// Delete and display the result in a PDF document.
+// Erase a paragraph and display the remaining content in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

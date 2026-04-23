@@ -1,8 +1,8 @@
-// Return the arccosine of a number, in radians in the range from 0 to Pi. The arccosine is the angle whose cosine is a number specified in the parameters in a spreadsheet.
+// Find the angle corresponding to a cosine value in a spreadsheet.
 
-// How to get an arccosine of a number and display it in the worksheet.
+// How do I convert a cosine result back to its angle measurement in a spreadsheet?
 
-// Get a function that gets arccosine of a number in a spreadsheet.
+// Determine the radian angle from a known cosine value in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

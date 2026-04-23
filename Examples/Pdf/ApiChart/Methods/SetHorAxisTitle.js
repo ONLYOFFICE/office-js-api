@@ -1,8 +1,8 @@
-// Title the chart's horizontal axis in a PDF document.
+// Add a title to the horizontal axis in a PDF.
 
-// Create a chart, set its properties and name its horizontal axis in a PDF document.
+// How do I label what the horizontal axis represents in a PDF?
 
-// Set hor axis title for a chart in a PDF document.
+// Set the axis title and configure other chart properties in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

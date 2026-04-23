@@ -1,8 +1,8 @@
-// Create a date form with the common and specific date form properties.
+// Create a date entry field where users input calendar dates in a document.
 
-// How to create a date form and add it to the paragraph.
+// How do I add a date picker field to a document?
 
-// Add a date form specifying its format and language to the document object.
+// Set up a form field that accepts date values with specific formatting in a document.
 
 let doc = Api.GetDocument();
 let dateForm = Api.CreateDateForm({

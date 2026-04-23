@@ -1,8 +1,8 @@
-// Set vertices to polyline annotation in a PDF document.
+// Change the corner points of a polyline marking in a PDF.
 
-// How to set vertices for a polyline annotation in a PDF document?
+// How do I update the corner points of a polyline marking in a PDF?
 
-// Set vertices and display the result in a PDF document.
+// Modify the coordinates that define a polyline marking in a PDF.
 
 let doc = Api.GetDocument();
 let vertices = [{x: 100, y: 10}, {x: 150, y: 100}, {x: 50, y: 100}];

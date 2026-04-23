@@ -1,8 +1,8 @@
-// Remove all the elements from the current document or from the current document element.
+// Remove all content elements from a document.
 
-// How to clear all elements from the document.
+// How do I clear every element out of a document?
 
-// Remove all elements for a document in a document.
+// Start fresh by wiping all existing content before adding new paragraphs in a document.
 
 let doc = Api.GetDocument();
 doc.RemoveAllElements();

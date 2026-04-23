@@ -1,8 +1,8 @@
-// Find out the class type of a fill object in a spreadsheet.
+// Identify the internal category of a fill to understand what kind of object it is in a spreadsheet.
 
-// How can I get the class type of a fill in a spreadsheet?
+// How do I check what category a fill object belongs to in a spreadsheet?
 
-// Get the class type of a fill and display it in the spreadsheet.
+// Confirm the class a fill belongs to by reading its type label and displaying it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let gradientStop1 = Api.CreateGradientStop(Api.RGB(255, 213, 191), 0);

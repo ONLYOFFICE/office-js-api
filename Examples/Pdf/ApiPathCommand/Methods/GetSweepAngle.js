@@ -1,8 +1,8 @@
-// Analyzes arc command parameters in a page shape. Retrieves and display arc radii and angle information.
+// Find the total rotation span of an arc in a PDF.
 
-// How to get the sweep angle for a path command in a PDF document?
+// How much does an arc curve turn in a PDF?
 
-// Get the sweep angle and display the result in a PDF document.
+// Measure the angular distance traveled by an arc in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

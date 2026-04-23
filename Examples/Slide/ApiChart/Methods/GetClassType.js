@@ -1,8 +1,8 @@
-// Retrieve the class type of a chart in a presentation.
+// Get the class type of a chart in a presentation.
 
-// How to identify the class type of a chart in a presentation?
+// How do I identify the class type of a chart in a presentation?
 
-// Obtain the class type identifier of a chart object in a presentation.
+// Retrieve the type identifier for a chart and use it in a title in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

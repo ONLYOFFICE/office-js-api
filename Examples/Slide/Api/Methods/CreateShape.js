@@ -1,8 +1,8 @@
-// Create a shape using the 'flowChartMagneticTape' preset in a presentation.
+// Add a flowchart shape with fill and stroke properties in a presentation.
 
-// How to add a new flowchart shape in a presentation.
+// How do I create a custom shape with colors in a presentation?
 
-// Add a new shape indicating its properties in a presentation.
+// Set up a shape with a fill color, outline, and add text to it in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

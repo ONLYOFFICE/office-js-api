@@ -1,8 +1,8 @@
-// Fill the selected range upward from the values in the bottom row in a spreadsheet.
+// Repeat the content of the bottom row across all rows above it in a spreadsheet.
 
-// How to copy values from the bottom row of a range to all rows above in a spreadsheet.
+// How do I propagate values and formulas upward through a column range in a spreadsheet?
 
-// Set text, number and formula source values, then fill up to show growing numbers.
+// Extend data from the last row into every empty row above it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B5").SetValue("Alice");

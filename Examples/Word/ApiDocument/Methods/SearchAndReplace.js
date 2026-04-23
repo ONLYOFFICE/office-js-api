@@ -1,8 +1,8 @@
-// Make search and replace in a document.
+// Find a word and replace it with another word throughout a document.
 
-// How to search for a specific word and replace it with another one in a document.
+// How do I perform a find-and-replace operation in a document?
 
-// Search the first string and replace it with the second one in a document.
+// Update outdated wording in bulk by substituting one string with another in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

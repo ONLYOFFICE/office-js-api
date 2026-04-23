@@ -1,8 +1,8 @@
-// Set selected value index to field with list of options in a PDF document.
+// Mark items as selected in a dropdown by their position in a PDF.
 
-// How do I set value indexes in a PDF document?
+// How do I select options by index in a dropdown field in a PDF?
 
-// Set value indexes using a list field object in a PDF document.
+// Choose items from a list using their numeric positions in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

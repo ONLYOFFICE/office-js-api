@@ -1,8 +1,8 @@
-// Set the fill color for the top 10 conditional formatting rule.
+// Color the cells that match a top 10 conditional formatting rule in a spreadsheet.
 
-// How to apply fill color to conditional formatting rules.
+// How do I choose a background color for highlighted top values in a spreadsheet?
 
-// Set top 10 rule fill color in a spreadsheet.
+// Make the highest-ranking cells stand out with a custom fill color in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

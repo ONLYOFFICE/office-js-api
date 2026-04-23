@@ -1,8 +1,8 @@
-// Check the class type returned by a comment in a spreadsheet.
+// Verify the object category of a cell comment in a spreadsheet.
 
-// How do I check what type a comment object is in a spreadsheet?
+// How do I confirm what kind of object a cell comment is classified as in a spreadsheet?
 
-// Retrieve and output the class type string for a comment in a spreadsheet.
+// Display the category label that identifies a comment object to distinguish it from other element types in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

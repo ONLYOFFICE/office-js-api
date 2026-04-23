@@ -1,8 +1,8 @@
-// Show get drawing parent sheet in a spreadsheet.
+// Retrieve the sheet that contains a drawing in a spreadsheet.
 
-// How to know a parent sheet of a shape in a spreadsheet.
+// How do I find out which worksheet a drawing belongs to in a spreadsheet?
 
-// Get a shape's parent sheet and display it in the worksheet.
+// Identify the parent sheet of a shape and use its name in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

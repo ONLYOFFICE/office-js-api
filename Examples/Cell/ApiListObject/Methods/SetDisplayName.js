@@ -1,8 +1,8 @@
-// Set the display name of a formatted table.
+// Give a table a display name visible in the properties panel in a spreadsheet.
 
-// How to assign a display name to a table in a spreadsheet.
+// How do I set the label that appears for a table in a spreadsheet?
 
-// The display name is the label shown in the Name Box and table properties panel in a spreadsheet.
+// Brand a table with a friendly name so it is easy to spot in the interface in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

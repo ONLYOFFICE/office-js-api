@@ -1,8 +1,8 @@
-// Get the control data just as it would be filled in mapped xml in a document.
+// Read the text of a content control exactly as it would appear in exported XML in a document.
 
-// How can I get the data for xml mapping using a block-level content control in a document?
+// How do I get the text from a content control in the form used for XML export in a document?
 
-// Get the data for xml mapping for a block-level content control in a document.
+// Extract the plain text value of a content control for use in XML mapping in a document.
 
 let doc = Api.GetDocument();
 let contentControl = Api.CreateBlockLvlSdt();

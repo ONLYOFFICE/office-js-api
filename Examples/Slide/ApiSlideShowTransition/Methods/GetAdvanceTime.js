@@ -1,8 +1,8 @@
 // Get the automatic advance time and display it in a presentation.
 
-// How to get the advance time for a slide show transition?
+// Retrieve the advance time value from a slide show transition object.
 
-// Get the advance time and display the result in a presentation.
+// Display the retrieved advance time as milliseconds in a shape on the slide.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

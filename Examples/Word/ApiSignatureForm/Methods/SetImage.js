@@ -1,8 +1,8 @@
-// Set an image to the current signature form.
+// Place an image inside a signature field to represent a handwritten signature in a document.
 
-// How to set the image of the signature form.
+// How do I fill a signature field with a picture of a signature in a document?
 
-// Set the url of the image to the signature form.
+// Populate a signature field with an image from a URL to complete the signing process in a document.
 
 let doc = Api.GetDocument();
 let signatureForm = Api.CreateSignatureForm({"key": "Signature", "tip": "Please sign here", "required": true, "placeholder": "Signature"});

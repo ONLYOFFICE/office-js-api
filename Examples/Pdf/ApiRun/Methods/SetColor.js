@@ -1,8 +1,8 @@
-// Set the text color for the current text run in the RGB format.
+// Apply text color in a PDF.
 
-// How to change text color in a PDF document.
+// How do I change the text appearance in a PDF?
 
-// Create a new text run and change its font color in a PDF document.
+// Modify the color of text characters in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

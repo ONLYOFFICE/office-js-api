@@ -1,8 +1,8 @@
-// Create a complex curved shape using various bezier and arc commands. Demonstrates different curve types in a single path on a page.
+// Draw a smooth curved line from a control point in a PDF.
 
-// How to quad bez to for a geometry path in a PDF document?
+// How do I create curved shapes in a PDF?
 
-// Quad bez to and display the result in a PDF document.
+// Add a curved segment to a path using control points in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

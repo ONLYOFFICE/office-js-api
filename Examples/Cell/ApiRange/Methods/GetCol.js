@@ -1,8 +1,8 @@
-// Get a column number for the selected cell in a spreadsheet.
+// Look up the column number of a specific cell in a spreadsheet.
 
-// How to get a cell column index.
+// How do I find which column number a cell belongs to in a spreadsheet?
 
-// Get a range and display its column number in a spreadsheet.
+// Read a cell's column position and print that number onto the sheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("D9").GetCol();

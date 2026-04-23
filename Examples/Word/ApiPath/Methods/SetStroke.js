@@ -1,8 +1,8 @@
-// Create a custom triangle geometry and apply it to a shape. Uses basic path drawing commands: MoveTo, LineTo and Close in a document.
+// Enable or disable the outline border on a custom shape's drawing path in a document.
 
-// How do I set stroke in a document?
+// How do I control whether a custom shape's path has a visible border in a document?
 
-// Set stroke using a geometry path object in a document.
+// Toggle the outline visibility for a shape's drawing path in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

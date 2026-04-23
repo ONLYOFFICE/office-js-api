@@ -1,8 +1,8 @@
-// Set the comment reply author's name in a spreadsheet.
+// Change the displayed author name on a comment reply in a spreadsheet.
 
-// How to add author's name to the reply in a spreadsheet.
+// How do I update the name shown as the writer of a comment reply in a spreadsheet?
 
-// Add a reply to the comment and set author name, then show author name in the worksheet.
+// Replace the existing author label on a reply with a different name in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

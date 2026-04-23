@@ -1,8 +1,8 @@
-// Get the name of the current workbook (filename) in a spreadsheet.
+// Read the filename of the open workbook and display it on the sheet in a spreadsheet.
 
-// How can I get the name using a workbook in a spreadsheet?
+// How do I find out what the current file is called in a spreadsheet?
 
-// Get the name for a workbook in a spreadsheet.
+// Embed the workbook's filename inside a shape on the active sheet in a spreadsheet.
 
 const workbook = Api.GetActiveWorkbook();
 const workbookName = workbook.GetName();

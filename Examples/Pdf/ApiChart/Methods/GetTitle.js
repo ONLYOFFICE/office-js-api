@@ -1,8 +1,8 @@
-// Get the chart title text in a PDF document.
+// Read the title text from a chart in a PDF.
 
-// How do I get the title in a PDF document?
+// How do I retrieve what the chart title says in a PDF?
 
-// Get the title using a chart object in a PDF document.
+// Extract and display a chart's title in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

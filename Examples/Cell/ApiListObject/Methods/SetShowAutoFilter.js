@@ -1,8 +1,8 @@
-// Set the AutoFilter visibility for a formatted table.
+// Show or hide the filter controls on a table header row in a spreadsheet.
 
-// How to show or hide the AutoFilter on a table in a spreadsheet.
+// How do I turn the AutoFilter on or off for a table in a spreadsheet?
 
-// Setting to false removes the AutoFilter and all drop-down arrows from the table header row in a spreadsheet.
+// Remove all filter buttons from a table to present a cleaner view in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

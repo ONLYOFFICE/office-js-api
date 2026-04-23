@@ -1,8 +1,8 @@
-// Set the border color to the current form.
+// Change the outline color of a signature field's border in a document.
 
-// How to set border color of the signature form.
+// How do I set a custom border color for a signature field in a document?
 
-// Set the rose color as a border color to the signature form.
+// Make a signature field stand out by styling its border with a specific color in a document.
 
 let doc = Api.GetDocument();
 let signatureForm = Api.CreateSignatureForm({"key": "Signature", "tip": "Please sign here", "placeholder": "Signature"});

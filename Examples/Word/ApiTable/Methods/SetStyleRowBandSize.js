@@ -1,8 +1,8 @@
-// Specify a number of rows which will comprise each table row band for this table style in a document.
+// Set how many rows form a repeating band pattern in a table style in a document.
 
-// How to set row band size in a document.
+// How do I control the height of alternating row groups in a table in a document?
 
-// How to style a row band size in a document.
+// Group multiple rows together so they share the same banded formatting in a document.
 
 let doc = Api.GetDocument();
 doc.RemoveAllElements();

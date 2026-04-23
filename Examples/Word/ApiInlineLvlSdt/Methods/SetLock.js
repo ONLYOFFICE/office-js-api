@@ -1,8 +1,8 @@
-// Set the lock to the inline text content control in a document.
+// Lock the content of an inline text content control in a document.
 
-// How to set lock type for the inline content control in a document.
+// How do I prevent users from editing the content of an inline content control in a document?
 
-// Display the lock type set for inline text element in a document.
+// Verify the active lock type on a content control by reading it back in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

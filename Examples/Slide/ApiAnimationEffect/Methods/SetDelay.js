@@ -1,8 +1,8 @@
-// Set the delay of an animation effect in a presentation.
+// Set the delay before an animation effect starts in a presentation.
 
-// How do I set delay in a presentation?
+// How do I add a pause before an animation plays in a presentation?
 
-// Set delay using an animation effect object in a presentation.
+// Configure the waiting time between the trigger and when the animation begins in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

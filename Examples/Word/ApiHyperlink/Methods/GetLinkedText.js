@@ -1,8 +1,8 @@
-// Get the hyperlink address in a document.
+// Read the URL address stored in a hyperlink in a document.
 
-// How to get the raw link of the hyperlink in a document.
+// How do I get the destination URL of a hyperlink in a document?
 
-// Add a hyperlink to the paragraph and show its address as a text in a document.
+// Retrieve the updated link target after changing the hyperlink address in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// Clear the content from the run in a PDF document.
+// Delete all text from a text element in a PDF.
 
-// How to delete content from the text run in a PDF document.
+// How do I remove text from a text run in a PDF?
 
-// Remove text from the page.
+// Erase content from text in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

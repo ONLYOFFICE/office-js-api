@@ -1,8 +1,8 @@
-// Check whether row stripes are enabled for a formatted table.
+// Read whether alternating row shading is turned on for a table in a spreadsheet.
 
-// How to determine if alternating row colors are applied to a table in a spreadsheet.
+// How do I find out if a table has row stripe formatting applied in a spreadsheet?
 
-// Row stripes apply alternating background colors to adjacent rows as defined in the table style in a spreadsheet.
+// Detect the row stripe setting before adjusting the visual style of the table in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

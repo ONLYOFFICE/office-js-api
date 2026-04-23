@@ -1,8 +1,8 @@
-// Convert the table object into the JSON object in a document.
+// Serialize a table to a portable format and restore it as a new table in a document.
 
-// How to get a JSON from the table object in a document.
+// How do I save a table's structure and recreate it from saved data in a document?
 
-// Convert the table to json and add it to the document.
+// Duplicate a table by converting it to data and rebuilding it with custom borders in a document.
 
 let doc = Api.GetDocument();
 let table = Api.CreateTable(3, 3);

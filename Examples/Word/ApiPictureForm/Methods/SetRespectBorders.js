@@ -1,8 +1,8 @@
-// Respects the form border width when scaling the image.
+// Prevent an image from overlapping the field border when it is scaled in a document.
 
-// How to make borders respected when increasing it in a document.
+// How do I keep a scaled image from overflowing the edges of its picture field in a document?
 
-// Set respect borders property of the picture form.
+// Ensure the border of a picture field stays visible no matter how the image is resized in a document.
 
 let doc = Api.GetDocument();
 let pictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "shiftX": 50, "shiftY": 50});

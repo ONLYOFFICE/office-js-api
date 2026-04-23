@@ -1,8 +1,8 @@
-// Get the keep lines value of the current paragraph in a document.
+// Read whether all lines of a paragraph are kept together on one page in a document.
 
-// Get the keep lines value of the paragraph and display it in the document.
+// How do I check if a paragraph is set to keep all its lines on the same page in a document?
 
-// How to get the keep lines value of the paragraph properties object in a document.
+// Verify the keep-lines setting before modifying pagination rules for multi-line paragraphs.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

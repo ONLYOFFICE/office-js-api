@@ -1,8 +1,8 @@
-// Get bookmark in document in a document.
+// Retrieve a named bookmark from a document.
 
-// Get a bookmark added by its name in a document.
+// How do I find a bookmark by name in a document?
 
-// How to retrieve a bookmark and display its name in a document.
+// Look up a bookmark to read the text it covers in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

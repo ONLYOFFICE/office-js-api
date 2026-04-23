@@ -1,8 +1,8 @@
-// Get value from first text field and set to second text field in a PDF document.
+// Copy the text from one form field to another in a PDF.
 
-// How can I get the value using a base field in a PDF document?
+// How do I read the value entered in a form field in a PDF?
 
-// Get the value for a base field in a PDF document.
+// Transfer text content between form fields in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

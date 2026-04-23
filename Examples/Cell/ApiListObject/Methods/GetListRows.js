@@ -1,8 +1,8 @@
-// Get all data rows of a formatted table.
+// Retrieve all data rows belonging to a table in a spreadsheet.
 
-// How to retrieve the list of list row objects from a table in a spreadsheet.
+// How do I get each data row of a table as a separate object in a spreadsheet?
 
-// The returned array contains only data rows; the header row and totals row are not included in a spreadsheet.
+// Count the entries in a table without including its header or totals row in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

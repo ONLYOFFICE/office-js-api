@@ -1,8 +1,8 @@
-// Extract the characters from the specified string starting from any position and is intended for languages that use the double-byte character set (DBCS) like Japanese, Chinese, Korean etc in a spreadsheet.
+// Extract text from a double-byte character string at a specific position in a spreadsheet.
 
-// How to get an array of characters from the specified position in a spreadsheet.
+// What characters do I get from a DBCS string in a spreadsheet?
 
-// Use a function to get an array of characters from the string in a spreadsheet.
+// Retrieve a substring from a string designed for Asian languages in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

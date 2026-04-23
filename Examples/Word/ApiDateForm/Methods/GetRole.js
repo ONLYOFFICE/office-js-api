@@ -1,8 +1,8 @@
-// Get the role of a form in a document.
+// Read the assigned role of a date form in a document.
 
-// How to get the role for a date form?
+// How do I find the role assigned to a date form in a document?
 
-// Get the role and display the result in a document.
+// Display the role to understand the form's purpose within the document structure.
 
 let doc = Api.GetDocument();
 let dateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});

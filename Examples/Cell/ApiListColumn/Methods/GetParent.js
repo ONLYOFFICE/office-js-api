@@ -1,8 +1,8 @@
-// Get the parent list object of a table column in a spreadsheet.
+// Access the table that a column belongs to in a spreadsheet.
 
-// How to navigate from a column back to its parent formatted table.
+// How do I get back to the parent table from one of its columns in a spreadsheet?
 
-// Get the parent formatted table from a column.
+// Identify which formatted table owns a given column when working with multiple tables in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

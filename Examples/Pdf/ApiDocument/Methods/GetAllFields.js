@@ -1,8 +1,8 @@
-// Get all fields in the document.
+// Access all input fields in a PDF.
 
-// How can I get all fields using a document in a PDF document?
+// How do I retrieve all the form fields from a PDF?
 
-// Get all fields for a document in a PDF document.
+// Locate and list each field's type in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

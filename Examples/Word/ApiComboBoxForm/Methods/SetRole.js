@@ -1,8 +1,8 @@
-// Set the form role in a document.
+// Assign a role to a combo box form in a document.
 
-// How to set role for a combo box form?
+// How do I assign a role to a combo box form in a document?
 
-// Set role and display the result in a document.
+// Restrict a combo box to a specific participant role so only that role can fill it in a document.
 
 let doc = Api.GetDocument();
 let roles = doc.GetFormRoles();

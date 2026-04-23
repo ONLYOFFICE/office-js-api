@@ -1,8 +1,8 @@
-// Get the font size of the text in a document.
+// Read the size of the font applied to a run of text in a document.
 
-// How to know the font size of the form.
+// How do I find out what font size is set on a piece of text in a document?
 
-// Retrieve text properties of the form to find out its font size.
+// Inspect a text run to confirm the current character size used in a document.
 
 let doc = Api.GetDocument();
 let myNewRunStyle = doc.CreateStyle("My New Run Style", "run");

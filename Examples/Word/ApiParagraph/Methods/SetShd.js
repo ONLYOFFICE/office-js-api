@@ -1,8 +1,8 @@
-// Specify the shading applied to the contents of the paragraph in a document.
+// Apply a background shading color to a paragraph in a document.
 
-// How to add shading to the paragraph in a document.
+// How do I fill the background of a paragraph with a specific color in a document?
 
-// Apply the clear shading to the paragraph in a document.
+// Highlight paragraph content by setting its background shade in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

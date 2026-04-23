@@ -1,8 +1,8 @@
-// Apply text settings to the specified style in a document.
+// Store font size and weight settings inside a style so all text using that style looks uniform in a document.
 
-// Create a paragraph, add a text to it, and set the font size and bold property to this text in a document.
+// How do I make every paragraph use the same font size and bold setting by updating a shared style in a document?
 
-// Specify the text properties object and apply its settings to the style object in a document.
+// Control the appearance of all body text at once by embedding character formatting in the default style in a document.
 
 let doc = Api.GetDocument();
 let normalStyle = doc.GetDefaultStyle("paragraph");

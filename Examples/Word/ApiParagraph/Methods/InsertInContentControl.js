@@ -1,8 +1,8 @@
-// Wrap the paragraph object with a rich text content control in a document.
+// Wrap a paragraph inside a rich-text content control in a document.
 
-// How to insert the paragraph object into the another element in a document.
+// How do I place a paragraph into a content control in a document?
 
-// Add paragraph to the content control in a document.
+// Convert a standalone paragraph into a protected content control block in a document.
 
 let doc = Api.GetDocument();
 let paragraph = Api.CreateParagraph();

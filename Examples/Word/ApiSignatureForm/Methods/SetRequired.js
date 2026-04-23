@@ -1,8 +1,8 @@
-// Set the required property for the signature form. Note that the signature form is always required.
+// Mark a signature field as required in a document.
 
-// How to set the required property for the signature form.
+// How do I control whether a signature field must be completed in a document?
 
-// Set the required property for the signature form. The signature form is always required regardless of this setting.
+// Verify that a signature field remains mandatory regardless of the required setting in a document.
 
 let doc = Api.GetDocument();
 let signatureForm = Api.CreateSignatureForm({"key": "Signature", "tip": "Please sign here", "placeholder": "Signature"});

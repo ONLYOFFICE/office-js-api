@@ -1,8 +1,8 @@
-// Get the sort key range of a sort field in a spreadsheet.
+// Read which column range a sort criterion is targeting in a spreadsheet.
 
-// How to retrieve the column range that a sort field is applied to in a spreadsheet.
+// How do I find out which cells a sort field is based on in a spreadsheet?
 
-// Get the column range used as the sort key in a spreadsheet.
+// Confirm the exact data range driving a particular sort rule in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

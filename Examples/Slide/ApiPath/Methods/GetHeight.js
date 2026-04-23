@@ -1,8 +1,8 @@
-// Analyzes cloud shape path properties on a slide. Displays comprehensive path information in a text shape.
+// Retrieve the height value of a custom shape's drawing area in a presentation.
 
-// How to get the height for a geometry path in a presentation?
+// What is the vertical size of a shape path in a presentation?
 
-// Get the height and display the result in a presentation.
+// Check the height dimensions of a geometry path in a presentation.
 
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);

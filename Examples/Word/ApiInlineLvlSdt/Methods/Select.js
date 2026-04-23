@@ -1,8 +1,8 @@
-// Create an inline content control and select it in a document.
+// Select an inline content control to bring it into focus in a document.
 
-// How do I select in a document?
+// How do I programmatically select an inline content control in a document?
 
-// Select using an inline content control object in a document.
+// Highlight a content control so the cursor lands on it when navigating in a document.
 
 let doc = Api.GetDocument();
 let checkbox = doc.AddCheckBoxContentControl();

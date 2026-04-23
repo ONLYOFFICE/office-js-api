@@ -1,6 +1,6 @@
-// Find out the class type of an unsupported annotation object in a document.
+// Read the type identifier of an unrecognized annotation object in a document.
 
-// How can I get the class type of an unsupported annotation in a document?
+// How do I find out what kind of unsupported element I have encountered in a document?
 
-// Get the class type of an unsupported annotation and display it in the document.
+// Confirm the category of an unknown annotation by retrieving its type label in a document.
 

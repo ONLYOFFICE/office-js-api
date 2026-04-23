@@ -1,8 +1,8 @@
-// Get a Range object that represents the part of the document contained in the specified document content in a document.
+// Select a text range by character positions within a document content in a document.
 
-// How to get the range using row and column indexes in a document.
+// How do I get a range of characters from a document content container in a document?
 
-// Make a range text bold using the document content API in a document.
+// Apply bold formatting to a specific word by targeting it with start and end character offsets.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

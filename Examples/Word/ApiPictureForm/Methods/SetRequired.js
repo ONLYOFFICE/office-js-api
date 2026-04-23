@@ -1,8 +1,8 @@
-// Specify if the form should be required.
+// Mark a picture field as mandatory before the document can be submitted in a document.
 
-// How to make the picture form required.
+// How do I make filling in a picture field obligatory in a document?
 
-// Make first form from this document required.
+// Enforce that a picture field must be completed before the form is finished in a document.
 
 let doc = Api.GetDocument();
 let pictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false, "shiftX": 50, "shiftY": 50});

@@ -1,8 +1,8 @@
-// Get current paragraph from rich content in a PDF document.
+// Access the text segment you are currently editing in a PDF.
 
-// How to get current run for a rich content in a PDF document?
+// How do I get the text run I am working on in rich content in a PDF?
 
-// Get current run and display the result in a PDF document.
+// Retrieve the text segment being modified in formatted content in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);

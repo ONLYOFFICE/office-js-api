@@ -1,8 +1,8 @@
-// Get the placeholder text of the current form in a document.
+// Read the hint text shown inside an empty text field in a document.
 
-// How to get the placeholder text of a text form.
+// How do I find out what placeholder text appears in a text entry area in a document?
 
-// Retrieve the placeholder text of a created text form and display it.
+// Check the instructional text displayed before a user fills in a text field in a document.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});

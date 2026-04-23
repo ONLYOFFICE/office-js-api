@@ -1,8 +1,8 @@
-// Get all drawings with the specified names from the workbook in a spreadsheet.
+// Look up specific shapes by name across the workbook and apply changes to them in a spreadsheet.
 
-// Get drawings by their names in a spreadsheet.
+// How do I find shapes by their names and modify them all at once in a spreadsheet?
 
-// How to retrieve drawings by their names and rotate them in a spreadsheet.
+// Rotate only the named shapes while leaving other drawings untouched in a spreadsheet.
 
 const workbook = Api.GetActiveWorkbook();
 const worksheet = workbook.GetActiveSheet();

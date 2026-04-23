@@ -1,8 +1,8 @@
-// Convert color objects of different types to JSON strings in a document.
+// Serialize color objects of different types to JSON strings in a document.
 
-// The color object can be created from a hex value or a theme color.
+// How do I export a color's full definition as a JSON string in a document?
 
-// Convert each color type to a JSON string and display the result.
+// Save or transfer color data by converting RGB, RGBA, hex, theme, and auto colors to JSON in a document.
 
 const doc = Api.GetDocument();
 const paragraph = doc.GetElement(0);

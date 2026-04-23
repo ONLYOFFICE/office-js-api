@@ -1,8 +1,8 @@
 // Check the class type returned by a slide show transition.
 
-// How do I check what type a slide show transition object is?
+// Retrieve the class type identifier from a slide show transition object.
 
-// Retrieve and output the class type string for a slide show transition.
+// Display the class type in a shape on the slide.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

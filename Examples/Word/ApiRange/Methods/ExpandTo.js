@@ -1,8 +1,8 @@
-// Return a new range that goes beyond the specified range in any direction and spans a different range in a document.
+// Stretch a text selection to cover a broader span of content in a document.
 
-// How to expand the first range to the second one in a document.
+// How do I extend one text selection so it also includes another passage in a document?
 
-// Create a range and make it cover a different area in a document.
+// Widen an existing selection to bridge two separate areas of text in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

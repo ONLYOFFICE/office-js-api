@@ -1,8 +1,8 @@
-// How to set the cell bottom margin for the current table cell.
+// Set the bottom margin of a table cell in a PDF.
 
-// Specify the bottom margin value for the table cell object.
+// How do I add space below the content inside a cell in a PDF?
 
-// Set cell margin bottom for a table cell in a PDF document.
+// Adjust the spacing at the bottom of your table cell in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// Get text field and display comb property in a PDF document.
+// Check whether a text field uses comb character spacing in a PDF.
 
-// How can I is comb using a text field in a PDF document?
+// How do I know if a text field is set to display characters in separate boxes in a PDF?
 
-// Is comb for a text field in a PDF document.
+// Verify if the comb format is enabled for a text input field in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

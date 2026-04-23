@@ -1,8 +1,8 @@
-// Get the priority of an unique values conditional formatting rule.
+// Read the evaluation priority of a unique-values conditional formatting rule in a spreadsheet.
 
-// How to retrieve the evaluation priority of unique values conditional formatting.
+// How do I check the order in which a unique-values rule is evaluated against other rules in a spreadsheet?
 
-// Get the priority value of the unique values rule in a spreadsheet.
+// Confirm the precedence number of a unique-values rule to understand its position in the formatting queue in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

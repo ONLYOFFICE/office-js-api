@@ -1,8 +1,8 @@
-// Analyzes path properties of a cloud shape. Retrieves and display path dimensions, stroke and fill information.
+// Read the fill setting applied to a shape's drawing path in a document.
 
-// How do I get the fill in a document?
+// How do I check whether a shape's path has a fill applied in a document?
 
-// Get the fill using a geometry path object in a document.
+// Confirm the current fill mode on a path before making further changes in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

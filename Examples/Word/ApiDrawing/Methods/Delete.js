@@ -1,8 +1,8 @@
-// Delete the current graphic object in a document.
+// Remove a shape from the paragraph it is anchored to in a document.
 
-// How to delete a shape from the document.
+// How do I delete a drawing object that has been inserted into a paragraph in a document?
 
-// Remove the drawing object in a document.
+// Clean up unwanted graphics by programmatically deleting a shape after it has been placed.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

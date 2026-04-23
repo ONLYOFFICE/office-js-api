@@ -1,8 +1,8 @@
-// Get a parent paragraph of run for further manipulation in a document.
+// Access the paragraph that contains a text run in a document.
 
-// How to get the parent paragraph for a text run in a document?
+// How do I get the paragraph that holds a particular text run in a document?
 
-// Get the parent paragraph and display the result in a document.
+// Navigate from a text run up to its surrounding paragraph in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

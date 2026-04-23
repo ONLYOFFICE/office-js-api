@@ -1,8 +1,8 @@
-// Retrieve the class type of a table row in a presentation.
+// Retrieve the class type of a table row object.
 
-// How to identify the class type of a table row in a presentation?
+// Create a table and access the first row to get its class type.
 
-// Obtain the class type identifier of a table row object in a presentation.
+// Display the class type identifier in the slide content.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

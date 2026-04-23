@@ -1,8 +1,8 @@
-// Create a custom triangle shape and add it to the worksheet. Applies custom geometry to a shape with specific fill and stroke.
+// Draw a straight line from the current position to a new point in a custom shape in a spreadsheet.
 
-// How can I line to using a geometry path in a spreadsheet?
+// How do I add a straight segment to a custom shape path in a spreadsheet?
 
-// Line to for a geometry path in a spreadsheet.
+// Extend a shape outline by connecting the current drawing position to a target coordinate in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let customGeometry = Api.CreateCustomGeometry();

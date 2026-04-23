@@ -1,8 +1,8 @@
-// Get the type of color scale conditional formatting rule.
+// Read the category label that identifies what kind of conditional formatting rule is active in a spreadsheet.
 
-// How to identify the type of conditional formatting rule.
+// How do I confirm that a formatting rule is a color scale and not another rule type in a spreadsheet?
 
-// Get the type of the color scale conditional formatting rule.
+// Verify the rule category assigned to a color gradient condition before processing it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

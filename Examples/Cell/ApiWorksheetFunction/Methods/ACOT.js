@@ -1,8 +1,8 @@
-// Return the arccotangent of a number, in radians in the range from 0 to Pi in a spreadsheet.
+// Calculate the arccotangent of a number in radians in a spreadsheet.
 
-// How to get an arccotangent of a number and display it in the worksheet.
+// Get the inverse cotangent value using a trigonometric function in a spreadsheet.
 
-// Get a function that gets arccotangent of a number in a spreadsheet.
+// Place the arccotangent result into a cell for reference in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

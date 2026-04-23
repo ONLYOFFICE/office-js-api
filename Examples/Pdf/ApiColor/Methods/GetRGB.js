@@ -1,8 +1,8 @@
-// Get the RGB components of the color in a PDF document.
+// Extract the RGB components from a color in a PDF.
 
-// How do I get the r g b in a PDF document?
+// How do I get the red, green, and blue values from a color in a PDF?
 
-// Get the r g b using a color object in a PDF document.
+// Retrieve the RGB values and display them as comma-separated numbers.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

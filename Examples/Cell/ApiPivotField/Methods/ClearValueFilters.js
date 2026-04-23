@@ -1,8 +1,8 @@
-// Clear value filters from a pivot field in a spreadsheet.
+// Remove all value filters from a pivot table field in a spreadsheet.
 
-// How to remove previously applied pivot field value filters in a spreadsheet.
+// How do I clear the value filters applied to a pivot field in a spreadsheet?
 
-// Create a pivot table, add data to it then delete value filters from a custom field in a spreadsheet.
+// Reset a pivot field's value filters to show all items without restriction in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

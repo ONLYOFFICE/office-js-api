@@ -1,8 +1,8 @@
-// Retrieve the class type of a comment in a presentation.
+// Get the object type identifier for a comment in a presentation.
 
-// How to identify the class type of a comment in a presentation?
+// How do I find the class type of a comment in a presentation?
 
-// Obtain the class type identifier of a comment object in a presentation.
+// Read the type label that identifies a comment object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

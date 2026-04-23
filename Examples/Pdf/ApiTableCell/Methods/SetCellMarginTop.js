@@ -1,8 +1,8 @@
-// How to set the cell top margin for the current table cell.
+// Set the top margin of a table cell in a PDF.
 
-// Specify the top margin value for the table cell object.
+// How do I add space above the content inside a cell in a PDF?
 
-// Set cell margin top using a table cell object.
+// Adjust the spacing at the top of your table cell in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

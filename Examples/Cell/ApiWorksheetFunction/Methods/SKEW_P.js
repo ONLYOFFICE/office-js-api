@@ -1,8 +1,8 @@
 // Return the skewness of a distribution based on a population: a characterization of the degree of asymmetry of a distribution around its mean in a spreadsheet.
 
-// How to calaculate the skewness of a distribution based on a population in a spreadsheet.
+// Calculate the population skewness of a distribution using the SKEW_P function.
 
-// Use a function to get a characterization of the degree of asymmetry of a distribution around its mean in a spreadsheet.
+// Place values in cells and apply the function to display the asymmetry result.
 
 const worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// Set the bold property to the text character in a document.
+// Apply bold formatting to a text run in a document.
 
-// How to make a text run bold in a document.
+// How do I make a piece of text appear bold in a document?
 
-// Create new run and set its font style in a document.
+// Emphasize a run by making its characters heavier and thicker in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

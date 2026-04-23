@@ -1,8 +1,8 @@
-// Check if the aspect ratio of the current picture form is locked or not.
+// Check whether the proportions of a picture form are kept constant in a document.
 
-// How to find out whether a picture form is fixed or not.
+// How do I find out if a picture form preserves its original proportions in a document?
 
-// Find out whether a picture form's size is fixed.
+// Confirm that resizing a picture form will not distort its image in a document.
 
 let doc = Api.GetDocument();
 let pictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "respectBorders": false, "shiftX": 50, "shiftY": 50});

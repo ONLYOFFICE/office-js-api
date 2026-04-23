@@ -1,8 +1,8 @@
-// Get the fill properties from a shape and display detailed information. Creates a shape with gradient fill, retrieve it and show fill details.
+// Retrieve the fill properties from a shape in a PDF.
 
-// How can I get the fill using a shape in a PDF document?
+// What fill settings does a shape have in a PDF?
 
-// Get the fill for a shape in a PDF document.
+// Get the color or gradient applied to a shape in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

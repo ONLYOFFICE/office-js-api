@@ -1,8 +1,8 @@
-// Return the lognormal distribution of x, where ln(x) is normally distributed with the specified parameters in a spreadsheet.
+// Calculate the lognormal probability distribution for a given value in a spreadsheet.
 
-// How to get the lognormal distribution of x in a spreadsheet.
+// How do I find the cumulative or probability density for a lognormal distributed variable in a spreadsheet?
 
-// Use a function to return the lognormal distribution in a spreadsheet.
+// Determine the probability distribution of a lognormally distributed dataset in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

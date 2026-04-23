@@ -1,8 +1,8 @@
-// Remove an element in a presentation.
+// Remove a specific element from the content inside a shape in a presentation.
 
-// How to remove an elements from the slide shape.
+// How do I delete an element by its position in a shape in a presentation?
 
-// Get a slide shape's content and remove an element from it using its index.
+// Access the shape's content and remove a single text or object element in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

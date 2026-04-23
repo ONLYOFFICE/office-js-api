@@ -1,8 +1,8 @@
-// Get the range address in a spreadsheet.
+// Read the cell address of a range and display it in another cell in a spreadsheet.
 
-// How to get an address of a range in a spreadsheet.
+// How do I find out the address of a selected range in a spreadsheet?
 
-// Get an address of one range and set it for another one in a spreadsheet.
+// Copy a range address into a label cell to document its location on the sheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

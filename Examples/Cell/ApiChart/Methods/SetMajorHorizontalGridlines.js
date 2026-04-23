@@ -1,8 +1,8 @@
-// Specify the visual properties of the major horizontal gridline in a spreadsheet.
+// Style the major horizontal gridlines of a chart in a spreadsheet.
 
-// Set a stroke as a major horizontal gridline in a spreadsheet.
+// How do I change the appearance of the main horizontal gridlines on a chart in a spreadsheet?
 
-// How to add gridlines for the chart in a spreadsheet.
+// Give the primary horizontal gridlines a custom color and thickness to improve chart readability in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

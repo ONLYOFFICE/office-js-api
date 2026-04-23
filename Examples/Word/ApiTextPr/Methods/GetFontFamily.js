@@ -1,8 +1,8 @@
-// Get the font family of the text in a document.
+// Read the typeface name used for a run of text in a document.
 
-// How to know the font name of the form.
+// How do I find out which font family is applied to a piece of text in a document?
 
-// Retrieve text properties of the form to find out its font family.
+// Inspect a text run to discover what font is currently set for it in a document.
 
 let doc = Api.GetDocument();
 let myNewRunStyle = doc.CreateStyle("My New Run Style", "run");

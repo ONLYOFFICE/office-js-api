@@ -1,8 +1,8 @@
-// How to set a major tick mark using predefined symbols in a PDF document.
+// Add major tick marks to the horizontal axis in a PDF.
 
-// Create a chart, set its properties and major tick mark for horizontal axis in a PDF document.
+// How do I display tick marks on the horizontal axis of a chart in a PDF?
 
-// Set hor axis major tick mark using a chart object in a PDF document.
+// Configure tick marks with a cross symbol on the axis in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

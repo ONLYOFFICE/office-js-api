@@ -1,8 +1,8 @@
-// Get end line style to line annotation in a PDF document.
+// Check what kind of ending decoration a line has in a PDF.
 
-// How to get the end style for a line annotation in a PDF document?
+// How do I find what arrow or marker is at the end of a line in a PDF?
 
-// Get the end style and display the result in a PDF document.
+// Retrieve the line ending style of a line annotation in a PDF.
 
 let doc = Api.GetDocument();
 let lineAnnot = Api.CreateLineAnnot([10, 10, 160, 32], {x: 15, y: 15}, {x: 155, y: 30});

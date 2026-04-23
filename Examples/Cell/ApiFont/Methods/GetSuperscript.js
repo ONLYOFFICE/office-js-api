@@ -1,8 +1,8 @@
-// Get the superscript property of the specified font in a spreadsheet.
+// Check whether a text character is displayed as superscript in a spreadsheet.
 
-// How to determine a font superscript property in a spreadsheet.
+// How do I find out if a character is raised above the text baseline in a spreadsheet?
 
-// Get a boolean value that represents whether a font has a superscript property or not and show the value in the worksheet.
+// Read the superscript setting from a character's font and display the result in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B1");

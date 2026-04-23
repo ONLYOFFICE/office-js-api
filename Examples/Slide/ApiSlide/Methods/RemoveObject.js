@@ -1,8 +1,8 @@
-// Remove objects (image, shape or chart) from the current slide.
+// Remove a specific object from a slide by its index.
 
-// How to remove a specific object from the slide.
+// Create multiple shapes on the slide.
 
-// Get a slide by its index, remove its object at the given index.
+// Delete one of them using the RemoveObject method.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

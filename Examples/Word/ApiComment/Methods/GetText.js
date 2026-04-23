@@ -1,8 +1,8 @@
-// Get the comment text in a document.
+// Read the text content of a comment in a document.
 
-// How to get a raw text of a comment in a document.
+// How do I get the message written inside a comment in a document?
 
-// Get all comments from the presentation and the first one's text.
+// Extract a comment's text to display or process reviewer notes programmatically.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

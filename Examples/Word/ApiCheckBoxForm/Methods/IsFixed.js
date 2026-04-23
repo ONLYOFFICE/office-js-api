@@ -1,8 +1,8 @@
-// Check if the current form is fixed size.
+// Verify whether a checkbox form has a fixed size in a document.
 
-// How to know whether the checkbox form is fixed.
+// How do I check if a checkbox form is fixed-size in a document?
 
-// Get a boolean value representing whether a current form is fixed or not.
+// Confirm that a form converted to fixed dimensions reports its fixed state correctly in a document.
 
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});

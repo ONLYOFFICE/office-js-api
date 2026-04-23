@@ -1,8 +1,8 @@
-// Add some text to the paragraph in a PDF document.
+// Add text content to a paragraph in a PDF.
 
-// How to add a text to the paragraph object in a PDF document.
+// How do I insert text into a paragraph in a PDF?
 
-// How to add a text to the shape in a PDF document.
+// Place text inside a paragraph in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

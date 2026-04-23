@@ -1,8 +1,8 @@
-// Get the description of the current workbook using the core properties in a spreadsheet.
+// Read the description stored in the workbook properties in a spreadsheet.
 
-// How do I get the description in a spreadsheet?
+// How do I retrieve the text description of a workbook in a spreadsheet?
 
-// Get the description using a core properties object in a spreadsheet.
+// Extract and display the summary text saved with the workbook in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

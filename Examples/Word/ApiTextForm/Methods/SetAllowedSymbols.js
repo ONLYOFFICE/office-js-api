@@ -1,8 +1,8 @@
-// Restrict input to a specific set of characters in a text field in a document.
+// Restrict a text field to accept only a specific set of characters in a document.
 
-// Create a text form, set allowed symbols to digits only, and add it to the document.
+// How do I limit which characters a user can type into a text field in a document?
 
-// How to set the allowed symbols of the text form object.
+// Prevent unwanted input by defining the exact characters allowed in a text field in a document.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({ key: "Digits", placeholder: "Digits only" });

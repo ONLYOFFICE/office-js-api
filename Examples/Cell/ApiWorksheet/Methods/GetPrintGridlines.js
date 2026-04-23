@@ -1,8 +1,8 @@
-// Get the page PrintGridlines property which specifies whether the sheet gridlines must be printed or not in a spreadsheet.
+// Check whether cell gridlines are set to print on the active sheet in a spreadsheet.
 
-// How to find out whether sheet gridlines should be printed or not in a spreadsheet.
+// How do I find out if gridlines will appear on printed pages in a spreadsheet?
 
-// Get a boolean value representing whether to print gridlines or not in a spreadsheet.
+// Verify the print-gridlines setting and display the result in a cell in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.SetPrintGridlines(true);

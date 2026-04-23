@@ -1,8 +1,8 @@
-// Get a set of the table row properties which will be applied to all the rows within a table which match the conditional formatting type.
+// Access the row formatting tied to a conditional table style in a document.
 
-// How to get table properties and set its height in a document.
+// How do I read and adjust row settings for a conditional style region in a document?
 
-// Update the table row properties by setting its style in a document.
+// Set the height of rows matched by a table style condition in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

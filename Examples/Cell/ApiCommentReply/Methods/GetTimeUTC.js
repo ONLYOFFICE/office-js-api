@@ -1,8 +1,8 @@
-// Get the timestamp of the comment reply creation in UTC format in a spreadsheet.
+// Read the UTC creation time recorded on a comment reply in a spreadsheet.
 
-// How to get a time in UTC when a reply was created in a spreadsheet.
+// How do I get the universal timestamp for when a reply was posted to a comment in a spreadsheet?
 
-// Add a comment reply creation timestamp UTC to a range of the worksheet.
+// Retrieve the timezone-neutral posting time of a reply within a comment thread in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

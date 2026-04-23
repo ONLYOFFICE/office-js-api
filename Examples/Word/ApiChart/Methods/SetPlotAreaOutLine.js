@@ -1,8 +1,8 @@
-// Set the outline to the chart plot area in a document.
+// Draw a border around the chart plot area in a document.
 
-// How to set an outline color for the plot area in a document.
+// How do I add an outline to the chart's data region in a document?
 
-// Create a chart, set its properties and its plot area outline in a document.
+// Frame the chart's data area with a visible border to separate it from the surrounding layout in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// Set layout blank line of a table in a spreadsheet.
+// Insert a blank line after each group in a pivot table layout in a spreadsheet.
 
-// How to set layout blank line of a table in a spreadsheet.
+// How do I add visual spacing between row groups in a pivot table in a spreadsheet?
 
-// Create a pivot table, add data to it then set layout blank line in a spreadsheet.
+// Make a pivot table easier to read by placing an empty row after every group in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

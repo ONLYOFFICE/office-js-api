@@ -1,8 +1,8 @@
-// Replace text from two paragraphs with another text in a presentation.
+// Replace multiple text values across presentation elements.
 
-// How to replace a substring with another one in a presentation.
+// Use Api.ReplaceTextSmart to find and replace text with specified values.
 
-// Replace text from an array with another one in a presentation.
+// Remove all slide objects and add a shape with text content.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

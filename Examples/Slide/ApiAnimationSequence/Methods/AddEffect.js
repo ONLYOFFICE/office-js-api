@@ -1,8 +1,8 @@
 // Add an animation effect to a sequence in a presentation.
 
-// How to add the effect for an animation sequence in a presentation?
+// How do I animate an object in a presentation?
 
-// Add the effect and display the result in a presentation.
+// Create an animation for a shape with timing and trigger settings in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// Retrieve control points and end point from a cubic bezier curve command. Displays all control points coordinates of the bezier curve in a document.
+// Read the second control point's horizontal position from a curve segment in a document.
 
-// How to get the x2 for a path command in a document?
+// How do I find the horizontal coordinate of the second control point of a curve segment in a document?
 
-// Get the x2 and display the result in a document.
+// Inspect the curve geometry to confirm the horizontal offset of its second control handle in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

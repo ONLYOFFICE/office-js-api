@@ -1,8 +1,8 @@
-// Find out the shading type of the text in a document.
+// Read the background shading applied to a run of text in a document.
 
-// Get the shading of the text and apply it to another run in a document.
+// How do I find out what shading color and pattern are set on a piece of text in a document?
 
-// How to know the text shading type in a document.
+// Copy the shading from one text run and apply it to another run in a document.
 
 let doc = Api.GetDocument();
 let firstParagraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// Get the chart title text in a presentation.
+// Read the title text from a chart in a presentation.
 
-// How do I get the title in a presentation?
+// How do I retrieve the title text from a chart in a presentation?
 
-// Get the title using a chart object in a presentation.
+// Get the chart title and display it in a separate text box in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

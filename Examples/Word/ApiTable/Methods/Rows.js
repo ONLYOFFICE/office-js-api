@@ -1,8 +1,8 @@
-// Get all rows of a table in a document.
+// Retrieve every row from a table in a document.
 
-// Creates a 3×3 table, retrieves all rows via the Rows property, and adds text to the first cell of each row.
+// How do I access all rows of a table at once in a document?
 
-// Each row is accessed by index from the returned array.
+// Iterate over each row to fill cells with content in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

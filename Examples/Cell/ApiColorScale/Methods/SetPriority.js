@@ -1,8 +1,8 @@
-// Set the priority value of color scale formatting rule.
+// Assign a specific position in the evaluation order to a color gradient rule in a spreadsheet.
 
-// How to change the evaluation priority of color scale conditional formatting.
+// How do I place a color scale rule at an exact rank among all formatting rules in a spreadsheet?
 
-// Set color scale priority in a spreadsheet.
+// Reorder a color gradient condition by giving it a precise priority number in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

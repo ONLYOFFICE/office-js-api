@@ -1,8 +1,8 @@
-// Get the fill color of a stroke. Creates a shape with a colored border and retrieve its fill properties in a presentation.
+// Read the color or pattern applied to a border line in a presentation.
 
-// How do I get the fill in a presentation?
+// How do I see what color or fill the border has in a presentation?
 
-// Get the fill using a stroke object in a presentation.
+// Access the fill properties of a stroke to check its appearance in a presentation.
 
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);

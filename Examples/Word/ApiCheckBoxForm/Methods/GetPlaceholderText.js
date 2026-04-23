@@ -1,8 +1,8 @@
-// Get the placeholder text of the current form in a document.
+// Read the placeholder text set on a checkbox form in a document.
 
-// How to get the placeholder text of a checkbox form.
+// How do I retrieve the placeholder text of a checkbox form in a document?
 
-// Retrieve the placeholder text of a created checkbox form and display it.
+// Verify the hint text shown inside an unfilled checkbox form before sharing a document.
 
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": false});

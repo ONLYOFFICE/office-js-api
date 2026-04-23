@@ -1,8 +1,8 @@
-// Get a Range object that represents the part of the document contained in the specified run in a document.
+// Select a portion of a text run by character positions in a document.
 
-// Get a range using position index and make it bold in a document.
+// How do I pick out a specific slice of text within a run in a document?
 
-// How to get the range where the run is located in a document.
+// Target a character range inside a text run for formatting in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

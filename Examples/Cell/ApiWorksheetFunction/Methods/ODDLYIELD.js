@@ -1,8 +1,8 @@
-// Return the yield of a security with an odd last period in a spreadsheet.
+// Calculate the yield of a security with an irregular final payment period in a spreadsheet.
 
-// How to get the yield of a security with specified odd last period in a spreadsheet.
+// How do I find the yield of a bond with an odd last period in a spreadsheet?
 
-// Use a function to return the yield of a security in a spreadsheet.
+// Determine the annual return rate of a security when the final coupon period is irregular in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

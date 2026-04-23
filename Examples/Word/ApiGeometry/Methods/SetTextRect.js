@@ -1,8 +1,8 @@
-// Create a shape with adjustable parameters and guides. Sets up text rectangle and connection points for the custom geometry in a document.
+// Define the text bounding rectangle for a custom geometry shape in a document.
 
-// How can I set text rect using a geometry in a document?
+// How do I set the area where text appears inside a custom shape in a document?
 
-// Set text rect for a geometry in a document.
+// Constrain text to a specific region within a non-rectangular custom shape in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

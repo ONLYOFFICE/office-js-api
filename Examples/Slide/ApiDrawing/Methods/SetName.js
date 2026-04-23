@@ -1,8 +1,8 @@
-// Set the name of the current drawing in a presentation.
+// Assign a name to a shape on a slide in a presentation.
 
-// How to set name for a drawing object in a presentation?
+// How do I give a shape a custom name in a presentation?
 
-// Set name and display the result in a presentation.
+// Create a shape, assign it a name, and verify the name was applied in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

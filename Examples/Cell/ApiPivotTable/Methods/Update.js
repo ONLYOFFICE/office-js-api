@@ -1,8 +1,8 @@
-// Update a pivot table in a spreadsheet.
+// Refresh a pivot table so it reflects the latest source data in a spreadsheet.
 
-// How to update a table in a spreadsheet.
+// How do I force a pivot table to recalculate after the data changes in a spreadsheet?
 
-// Create a pivot table, add data to it then update it in a spreadsheet.
+// Keep a pivot table in sync with its underlying data by triggering a full recalculation in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// Check if the current form is required.
+// Confirm whether a signature field must be completed before the document can be submitted in a document.
 
-// How to check if the signature form is required.
+// How do I check if a signature field is marked as mandatory in a document?
 
-// Check the required property of the signature form. The signature form is always required.
+// Identify signature fields that cannot be skipped when filling out a form in a document.
 
 let doc = Api.GetDocument();
 let signatureForm = Api.CreateSignatureForm({"key": "Signature", "tip": "Please sign here", "placeholder": "Signature"});

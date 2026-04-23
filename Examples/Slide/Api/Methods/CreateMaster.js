@@ -1,8 +1,8 @@
-// Create a slide master in a presentation.
+// Add a slide master layout to a presentation.
 
-// How to add master to the slide.
+// How do I create a slide master in a presentation?
 
-// Create new slide master and apply it to the slide.
+// Apply a new master to a presentation at a specific position.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

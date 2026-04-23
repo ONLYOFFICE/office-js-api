@@ -1,8 +1,8 @@
-// Get a formula that the name is defined to refer to in a spreadsheet.
+// Read the formula a named range points to in a spreadsheet.
 
-// How to add a defname that refers to the formula from the specified range.
+// How do I find out which formula a named range refers to in a spreadsheet?
 
-// Add a defname for the formula and then display it in the worksheet.
+// Check what expression is stored behind a range name to verify its target in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

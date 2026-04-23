@@ -1,8 +1,8 @@
-// Set the totals row function for a table column in a spreadsheet.
+// Assign a summary function to the totals row of a table column in a spreadsheet.
 
-// How to assign an aggregate function to the totals row of a column in a spreadsheet.
+// How do I make a table column show a sum or average in its totals row in a spreadsheet?
 
-// Set the aggregate function for the totals row of a column in a spreadsheet.
+// Choose the right calculation type for a column to present meaningful totals to readers in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

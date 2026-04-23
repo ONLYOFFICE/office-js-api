@@ -1,8 +1,8 @@
-// Set the text properties to the current run in a presentation.
+// Apply multiple text properties to a run in a presentation.
 
-// How to create the new text properties and apply it to the text run in a presentation.
+// Configure font size, weight, color, and other formatting options together.
 
-// Create a new text run and set its properties like font size, color, etc in a presentation.
+// Create a text run and set comprehensive text properties including font size and weight.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// Get all annots from page.
+// Retrieve all marked comments and notes from a page in a PDF.
 
-// How do I get all annots in a PDF document?
+// How do I access all the annotations in a PDF?
 
-// Get all annots using a page object.
+// List every comment attached to the current page in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([10, 10, 160, 32]);

@@ -1,8 +1,8 @@
-// Get the RGB components of a shape fill color in a presentation.
+// Extract RGB component values from a color object.
 
-// How do I get the r g b in a presentation?
+// Convert hexadecimal color to separate red, green, blue channels.
 
-// Get the r g b using a color object in a presentation.
+// Get the RGB components of a color and display them within a shape text element.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// Set above average rule as first priority in a spreadsheet.
+// Promote an above-average highlight rule so it takes precedence over all other rules in a spreadsheet.
 
-// How to move above average conditional formatting to first priority.
+// How do I make an above-average rule the highest-priority formatting condition in a spreadsheet?
 
-// Set the above average rule to be evaluated first in a spreadsheet.
+// Ensure a particular highlight rule wins when multiple rules compete for the same cells in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

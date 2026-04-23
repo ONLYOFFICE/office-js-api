@@ -1,8 +1,8 @@
-// Move cursor to a specified position inside the range object in a document.
+// Move the cursor to a specific position within a text range in a document.
 
-// How can I move cursor to pos using a cell range in a document?
+// How do I place the cursor at a chosen location inside a range in a document?
 
-// Move cursor to pos for a cell range in a document.
+// Reposition the cursor to reach a particular spot within selected text in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

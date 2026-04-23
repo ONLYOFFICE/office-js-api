@@ -1,8 +1,8 @@
-// Create a paragraph copy in a document.
+// Duplicate a paragraph and append the copy to the end of a document.
 
-// How to add a duplicate paragraph in a document.
+// How do I copy a paragraph and place it elsewhere in a document?
 
-// Copy a paragraph using the paragraph API in a document.
+// Reuse existing paragraph content without retyping it in a document.
 
 let doc = Api.GetDocument();
 let paragraph1 = doc.GetElement(0);

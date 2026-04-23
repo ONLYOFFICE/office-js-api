@@ -1,8 +1,8 @@
-// Check whether the picture form is filled.
+// Determine whether a picture form contains an image in a document.
 
-// How to check if the picture form has an image set.
+// How do I check if a picture form has been filled with an image in a document?
 
-// Create two picture forms, fill the second one with an image, and check if each form is filled.
+// Verify that an image placeholder has received content before submitting a form in a document.
 
 let doc = Api.GetDocument();
 let pictureForm1 = Api.CreatePictureForm({"key": "Photo1", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false, "shiftX": 50, "shiftY": 50});

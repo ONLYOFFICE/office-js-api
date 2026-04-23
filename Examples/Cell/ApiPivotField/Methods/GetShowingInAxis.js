@@ -1,8 +1,8 @@
-// Get showing in axis of a pivot field in a spreadsheet.
+// Check whether a pivot field is currently visible in the row or column axis of a pivot table in a spreadsheet.
 
-// How to get a pivot field's showing in axis in a spreadsheet.
+// How do I tell if a pivot field is actively shown on an axis in a spreadsheet?
 
-// Create a pivot table, add data to it then get showing in axis of a specified pivot field in a spreadsheet.
+// Confirm the visibility status of a pivot field on the table axes to see which fields are displayed and which are hidden.
 
 let worksheet = Api.GetActiveSheet();
 

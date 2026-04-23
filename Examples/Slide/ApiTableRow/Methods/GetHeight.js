@@ -1,8 +1,8 @@
-// Get the height of a specific table row in a presentation.
+// Get the height of a table row after setting it.
 
-// How do I get the height in a presentation?
+// Create a table, set the row height, and retrieve the value.
 
-// Get the height using a table row object in a presentation.
+// Display the row height in EMU units in the slide.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

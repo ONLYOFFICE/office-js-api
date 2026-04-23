@@ -1,8 +1,8 @@
-// Get the number of sort fields in a sort fields collection in a spreadsheet.
+// Count how many sort columns are currently configured for a formatted table in a spreadsheet.
 
-// How to count the sort fields configured for a formatted table.
+// How do I find out how many sort columns a table has in a spreadsheet?
 
-// Get the number of sort fields in the collection in a spreadsheet.
+// Read the total number of active sort columns to verify the table's sort setup in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

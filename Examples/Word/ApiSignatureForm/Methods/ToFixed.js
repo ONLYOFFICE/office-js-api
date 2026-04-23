@@ -1,8 +1,8 @@
-// Calls the ToFixed method on a signature form. Note that the signature form is always fixed and cannot be inline, so this method does not change the form size.
+// Attempt to set a fixed size on a signature field in a document.
 
-// How to use the ToFixed method on a signature form.
+// How do I confirm that a signature field always keeps a fixed size in a document?
 
-// Call ToFixed on the signature form. Since the signature form is always fixed, its size remains unchanged.
+// Verify that a signature field retains its fixed dimensions regardless of resize attempts in a document.
 
 let doc = Api.GetDocument();
 let signatureForm = Api.CreateSignatureForm({"key": "Signature", "tip": "Please sign here", "placeholder": "Signature"});

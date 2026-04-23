@@ -1,8 +1,8 @@
-// Get the next paragraph in a spreadsheet.
+// Navigate to the paragraph that follows the current one inside a shape in a spreadsheet.
 
-// How to get the next paragraph from the current one in a spreadsheet.
+// How do I move to the next paragraph in a sequence in a spreadsheet?
 
-// Add two paragraphs into the shape content then get the second one using the GetNext method in a spreadsheet.
+// Access the following paragraph to apply changes like bold formatting in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

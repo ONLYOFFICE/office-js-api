@@ -1,8 +1,8 @@
-// Set the fill to the chart legend in a document.
+// Apply a background fill color to the chart legend in a document.
 
-// How to color a chart legend in a document.
+// How do I set a solid background color for the legend of a chart in a document?
 
-// Create a chart and set a solid fill to its legend in a document.
+// Highlight the legend with a distinct fill so it stands out from the chart area in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

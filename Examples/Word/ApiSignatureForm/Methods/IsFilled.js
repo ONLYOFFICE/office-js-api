@@ -1,8 +1,8 @@
-// Check whether the signature form is filled.
+// Determine whether a signature field already contains a submitted signature in a document.
 
-// How to check if the signature form has an image set.
+// How do I tell if a signer has already completed a signature field in a document?
 
-// Create two signature forms, fill the second one with an image, and check if each form is filled.
+// Verify which signature fields have been filled and which remain empty in a document.
 
 let doc = Api.GetDocument();
 let signatureForm1 = Api.CreateSignatureForm({"key": "Signature1", "tip": "Please sign here", "placeholder": "Signature"});

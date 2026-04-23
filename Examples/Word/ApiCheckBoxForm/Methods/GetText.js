@@ -1,8 +1,8 @@
-// Get the text from the form in a document.
+// Extract the text content of a checkbox form field in a document.
 
-// How to get content text of the checkbox form.
+// How do I read the text stored inside a checkbox form in a document?
 
-// Retrieve text of a created checkbox form and display it.
+// Capture a checkbox form's text value to display or compare its content in a document.
 
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": false});

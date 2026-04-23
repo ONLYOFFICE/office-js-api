@@ -1,8 +1,8 @@
-// Specify a highlighting color which is applied as a background to the contents of the run in a spreadsheet.
+// Highlight a text run with a background color in a spreadsheet.
 
-// How to color a text object background in a spreadsheet.
+// How do I add a colored background behind a run of text in a spreadsheet?
 
-// Create a text run object, add color to its background in a spreadsheet.
+// Draw attention to a specific run by filling its background with a named highlight color in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

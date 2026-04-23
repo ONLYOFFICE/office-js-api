@@ -1,8 +1,8 @@
-// Specify the languages which will be used to check spelling and grammar (if requested) when processing the contents of the text run in a document.
+// Assign a spell-check language to text in a document.
 
-// How to set a language to the text for grammar checking in a document.
+// How do I tell the editor which language to use when checking text in a document?
 
-// Create a text run object, change its language to English for grammar check in a document.
+// Ensure correct spelling and grammar rules by setting the text language in a document.
 
 let doc = Api.GetDocument();
 let textPr = doc.GetDefaultTextPr();

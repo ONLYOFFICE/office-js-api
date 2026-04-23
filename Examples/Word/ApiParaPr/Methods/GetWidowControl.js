@@ -1,8 +1,8 @@
-// Get the widow control value of the current paragraph in a document.
+// Read the widow control setting of a paragraph in a document.
 
-// Get the widow control value of the paragraph and display it in the document.
+// How do I check whether widow control is enabled for a paragraph in a document?
 
-// How to get the widow control value of the paragraph properties object in a document.
+// Verify the widow control state after toggling it to ensure the setting was applied.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

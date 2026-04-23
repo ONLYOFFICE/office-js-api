@@ -1,8 +1,8 @@
-// Get the value of a custom property by its name in a document.
+// Retrieve the value of a custom property by name from a document in a document.
 
-// Return null for properties that do not exist.
+// How do I read a custom metadata field stored in a document?
 
-// Get for a custom properties in a document.
+// Access existing custom properties and confirm that missing ones return null in a document.
 
 const doc = Api.GetDocument();
 const customProps = doc.GetCustomProperties();

@@ -1,8 +1,8 @@
-// Delete the checkbox form in a document.
+// Remove a checkbox form field from a document.
 
-// How can I delete using a checkbox form in a document?
+// How do I permanently delete a checkbox from the document in a document?
 
-// Delete for a checkbox form in a document.
+// Clean up a form by removing an unwanted radio button after it is no longer needed in a document.
 
 const doc = Api.GetDocument();
 const checkBoxForm = Api.CreateCheckBoxForm({

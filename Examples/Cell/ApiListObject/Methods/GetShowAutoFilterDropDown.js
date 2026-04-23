@@ -1,8 +1,8 @@
-// Check whether AutoFilter dropdown buttons are visible in a formatted table.
+// Read whether the filter drop-down arrows are visible in a table in a spreadsheet.
 
-// How to determine if the AutoFilter dropdown arrows are displayed in a spreadsheet.
+// How do I find out if the filter drop-down buttons are showing on a table in a spreadsheet?
 
-// Hiding drop-down arrows prevents interactive filter changes while keeping filter criteria active in a spreadsheet.
+// Verify that users can access the column filter menus before presenting the table in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

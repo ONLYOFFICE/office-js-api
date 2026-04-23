@@ -1,8 +1,8 @@
-// Create a gradient stop used for different types of gradients in a document.
+// Define color points for a gradient fill and apply them to a shape in a document.
 
-// Create two gradient stops of the specified RGB colors, create a linear gradient fill with them, and use it to create a shape in the current document.
+// How do I set specific colors at positions along a gradient used on a shape in a document?
 
-// How to create the gradient stop objects for the linear gradient fill in a document.
+// Build a two-color gradient by placing color markers at the start and end of the fill range in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

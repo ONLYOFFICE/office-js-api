@@ -1,8 +1,8 @@
-// Remove a bookmark from the document.
+// Delete a named bookmark from a text range in a document.
 
-// How to delete a bookmark knowing its name in a document.
+// How do I remove a bookmark by name after it is no longer needed in a document?
 
-// Remove the bookmark from the range in a document.
+// Clean up temporary navigation markers once they have served their purpose in a document.
 
 let doc = Api.GetDocument(); 
 let paragraph = doc.GetElement(0); 

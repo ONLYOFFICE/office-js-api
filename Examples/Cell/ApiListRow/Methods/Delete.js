@@ -1,8 +1,8 @@
-// Delete a data row from a formatted table.
+// Remove a specific data row from a table in a spreadsheet.
 
-// How to remove a row from an existing table in a spreadsheet.
+// How do I delete a row from a table without affecting the rest of the data in a spreadsheet?
 
-// Delete a row from the table in a spreadsheet.
+// Target a single row by its position and erase it so the table shrinks accordingly in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

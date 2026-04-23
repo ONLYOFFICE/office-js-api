@@ -1,8 +1,8 @@
-// Get a type of the form in a document.
+// Read the type of a form field to distinguish it from other form elements in a document.
 
-// How to get a type of a checkbox form.
+// How do I find out what type a particular form field is in a document?
 
-// Retrieve type of a created checkbox object and display it in a document.
+// Verify that a form field is the expected type before applying type-specific settings in a document.
 
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});

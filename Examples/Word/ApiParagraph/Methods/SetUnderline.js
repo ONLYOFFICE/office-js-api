@@ -1,8 +1,8 @@
-// Specify that the contents of this paragraph are displayed along with a line appearing directly below the character in a document.
+// Underline all the text in a paragraph to draw attention to it in a document.
 
-// How to create a new text and underline it in a document.
+// How do I display a line beneath every word in a paragraph in a document?
 
-// Create a new text run and underline it in a document.
+// Emphasize paragraph content by enabling underlining for the entire block of text in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

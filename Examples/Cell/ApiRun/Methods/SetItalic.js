@@ -1,8 +1,8 @@
-// Set the italic property to the text character in a spreadsheet.
+// Make a text run italic inside a shape in a spreadsheet.
 
-// How to make a text italic in a spreadsheet.
+// How do I slant a portion of text to italic style in a spreadsheet?
 
-// Create a text run object, change its properties by making it italic in a spreadsheet.
+// Distinguish a run visually by applying an italic style to it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

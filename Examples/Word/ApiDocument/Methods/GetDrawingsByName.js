@@ -1,8 +1,8 @@
-// Get all drawings with the specified names from the document in a document.
+// Retrieve specific drawings by name and rotate them in a document.
 
-// Get drawings by their names in a document.
+// How do I find drawings by their names and apply a transformation in a document?
 
-// How to retrieve drawings by their names and rotate them in a document.
+// Select a subset of shapes from the page and change their orientation in a document.
 
 const doc = Api.GetDocument();
 const paragraph = doc.GetElement(0);

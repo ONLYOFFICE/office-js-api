@@ -1,8 +1,8 @@
-// Set the fill to the data point in a spreadsheet.
+// Color a single data point differently from the rest of its series in a spreadsheet.
 
-// Set the fill to the data point in the specified chart series in a spreadsheet.
+// How do I change the background color of one specific data point on a chart in a spreadsheet?
 
-// How to set data point fill filling it with a solid color in a spreadsheet.
+// Highlight an individual bar or marker by giving it a distinct fill color in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

@@ -1,8 +1,8 @@
-// Retrieve custom XML parts by their namespace in a document.
+// Find custom XML parts that match a given namespace in a document.
 
-// How can I get the by id using a custom XML parts in a document?
+// How do I look up custom XML parts by their namespace in a document?
 
-// Get the by id for a custom XML parts in a document.
+// Filter all embedded XML parts to those belonging to a specific schema in a document.
 
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();

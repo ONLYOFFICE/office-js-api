@@ -1,8 +1,8 @@
-// Create a radial gradient fill to apply to the object using the selected radial gradient as the object background in a spreadsheet.
+// Fill a shape with a color that radiates outward from the center in a spreadsheet.
 
-// How to set a radial gradient background for a shape in a spreadsheet.
+// How do I make a shape's background fade from one color to another in a circular pattern in a spreadsheet?
 
-// Add a shape with a radial gradient color in a spreadsheet.
+// Give a shape a circular color blend that transitions from the middle to the edges in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let gs1 = Api.CreateGradientStop(Api.RGB(255, 213, 191), 0);

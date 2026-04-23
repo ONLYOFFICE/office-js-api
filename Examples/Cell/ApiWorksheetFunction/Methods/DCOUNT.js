@@ -1,8 +1,8 @@
-// Count the cells containing numbers in the field (column) of records in the database that match the conditions you specify in a spreadsheet.
+// Count numeric values in a database column that meet your criteria in a spreadsheet.
 
-// How to count the cells containing numbers in the field (column) of records in the database that match the conditions you specify.
+// How many numeric entries satisfy the conditions you set in a spreadsheet?
 
-// Use function to count numbers from database records that met a condition specified in a spreadsheet.
+// Find how many records match your filter and contain numbers in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

@@ -1,8 +1,8 @@
-// Clear the content from the run in a document.
+// Erase all text from a run while keeping it present in a paragraph in a document.
 
-// How to delete a text from the run object in a document.
+// How do I wipe the content of a text run without removing the run itself in a document?
 
-// Remove the text from the run in a document.
+// Empty a run so its paragraph shows no visible text in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// Return the text from the document content.
+// Extract all text from a shape's content in a presentation.
 
-// How can I get the text using a document content in a presentation?
+// How do I get all the text inside a shape in a presentation?
 
-// Get the text for a document content in a presentation.
+// Retrieve the combined text content from a shape and display it on the slide.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

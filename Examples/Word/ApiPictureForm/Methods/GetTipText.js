@@ -1,8 +1,8 @@
-// Get the tip text of the current form in a document.
+// Read the tooltip text configured for a picture form in a document.
 
-// How to get tip text the picture form.
+// How do I find out what tooltip message a picture form shows in a document?
 
-// Display the tip text of the picture form.
+// Confirm the hint that appears when a user hovers over a picture form in a document.
 
 let doc = Api.GetDocument();
 let pictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false, "shiftX": 50, "shiftY": 50});

@@ -1,8 +1,8 @@
-// Get the parent list object of a sort object in a spreadsheet.
+// Retrieve the formatted table that owns a given sort object in a spreadsheet.
 
-// How to navigate from a sort object back to its parent formatted table.
+// How do I trace a sort back to the table it belongs to in a spreadsheet?
 
-// Get the parent formatted table from a sort object.
+// Access the parent table from a sort object to read its properties in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

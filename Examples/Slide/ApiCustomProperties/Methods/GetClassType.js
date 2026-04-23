@@ -1,8 +1,8 @@
-// Find out the class type of a custom properties object in a presentation.
+// Identify the data type of a custom properties object in a presentation.
 
-// How can I get the class type of a custom properties in a presentation?
+// How do I determine the class of a custom properties collection?
 
-// Get the class type of a custom properties and display it in the presentation.
+// Display the class information for custom properties in a presentation.
 
 const presentation = Api.GetPresentation();
 const customProps = presentation.GetCustomProperties();

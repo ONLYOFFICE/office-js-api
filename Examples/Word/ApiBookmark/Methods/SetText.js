@@ -1,8 +1,8 @@
-// Set bookmark text in a document.
+// Replace the text content inside a bookmark with new text in a document.
 
-// How to set a text to a bookmark in a document.
+// How do I update the words covered by a bookmark in a document?
 
-// Get a bookmark from the document by its name then set its text.
+// Swap out a bookmark's original text for a revised value without removing the bookmark in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

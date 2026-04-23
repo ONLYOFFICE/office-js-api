@@ -1,8 +1,8 @@
-// Set a function for data field in a spreadsheet.
+// Change the calculation type used for a pivot table value field in a spreadsheet.
 
-// How to change a function of a table element in a spreadsheet.
+// How do I switch a data field from summing values to counting them in a spreadsheet?
 
-// Create a pivot table, add data to it then set a custom data field's function in a spreadsheet.
+// Pick a different aggregation method, such as average or count, for a pivot field in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

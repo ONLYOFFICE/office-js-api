@@ -1,8 +1,8 @@
-// Set the fill to the data point in a document.
+// Color an individual data point on a chart in a document.
 
-// How to color chart data point with a solid fill in a document.
+// How do I apply a custom fill color to a single data point on a chart in a document?
 
-// Create a chart and set a color for its data points in a document.
+// Highlight a specific bar or marker to draw attention to a particular value in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

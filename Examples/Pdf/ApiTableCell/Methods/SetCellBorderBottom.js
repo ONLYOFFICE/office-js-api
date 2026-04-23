@@ -1,8 +1,8 @@
-// How to set cell bottom border with its fill color.
+// Add a bottom border to a table cell in a PDF.
 
-// Create table and set its cell bottom border.
+// How do I create a border on the bottom edge of a cell in a PDF?
 
-// Set cell border bottom using a table cell object.
+// Draw a styled line along the bottom of a table cell in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

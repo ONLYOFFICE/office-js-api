@@ -1,8 +1,8 @@
-// Add a Run to the paragraph in a spreadsheet.
+// Insert a formatted text run into a paragraph inside a shape in a spreadsheet.
 
-// How to add text to the paragraph in a spreadsheet.
+// How do I append a styled piece of text to an existing paragraph in a spreadsheet?
 
-// Get the paragraph from the shape and change its text in a spreadsheet.
+// Build a run with custom content and attach it to the paragraph as a new element in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

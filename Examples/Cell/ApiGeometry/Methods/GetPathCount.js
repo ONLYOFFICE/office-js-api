@@ -1,8 +1,8 @@
-// Analyzes cloud shape path properties and display them in cells. Shows path count, dimensions, stroke and fill information.
+// Count how many drawing paths make up a shape's outline in a spreadsheet.
 
-// How can I get the path count using a geometry in a spreadsheet?
+// How do I find out how many separate path segments a shape contains in a spreadsheet?
 
-// Get the path count for a geometry in a spreadsheet.
+// Determine the total number of outline segments that together form a shape in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(100, 150, 200));

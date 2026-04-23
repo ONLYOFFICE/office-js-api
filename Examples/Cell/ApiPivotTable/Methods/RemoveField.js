@@ -1,8 +1,8 @@
-// Remove a field from a table using a name in a spreadsheet.
+// Drop a field from a pivot table by its name in a spreadsheet.
 
-// How to delete specified fields from a table in a spreadsheet.
+// How do I take a field out of a pivot table without deleting the source data in a spreadsheet?
 
-// Create a pivot table, add data to it then remove a field from it in a spreadsheet.
+// Simplify a pivot table report by removing an unwanted field in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange('B1').SetValue('Region');

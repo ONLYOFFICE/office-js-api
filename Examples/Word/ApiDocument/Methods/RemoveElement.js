@@ -1,8 +1,8 @@
-// Remove an element using the position specified in a document.
+// Remove a paragraph at a specified position in a document.
 
-// How to delete the paragraph from the document.
+// How do I delete a specific paragraph by its index in a document?
 
-// Remove the second element of the document.
+// Target and drop one paragraph out of several without affecting the rest in a document.
 
 let doc = Api.GetDocument();
 let paragraph0 = doc.GetElement(0);

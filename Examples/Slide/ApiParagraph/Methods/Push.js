@@ -1,8 +1,8 @@
 // Add an element to the paragraph in a presentation.
 
-// How do I push in a presentation?
+// How do I add a text element to a paragraph in a presentation?
 
-// Push using a paragraph object in a presentation.
+// Insert text runs into a paragraph for display in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

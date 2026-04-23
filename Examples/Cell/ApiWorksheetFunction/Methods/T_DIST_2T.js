@@ -1,8 +1,8 @@
-// Return the two-tailed Student's t-distribution in a spreadsheet.
+// Calculate the two-tail probability of the Student's t-distribution in a spreadsheet.
 
-// How to calculate the two-tailed Student's t-distribution in a spreadsheet.
+// How do I find the two-tailed probability for a given t-value in a spreadsheet?
 
-// Use a function to estimate the Student's t-distribution right-tailed in a spreadsheet.
+// Get the probability for both tails of the t-distribution in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

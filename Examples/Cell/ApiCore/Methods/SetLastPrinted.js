@@ -1,8 +1,8 @@
-// Set the date when the workbook was printed last time in a spreadsheet.
+// Save the most recent print date of a workbook in its document properties in a spreadsheet.
 
-// How do I set last printed in a spreadsheet?
+// How do I log the last time a workbook was printed in a spreadsheet?
 
-// Set last printed using a core properties object in a spreadsheet.
+// Capture the date a workbook was last sent to the printer and store it in the metadata in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

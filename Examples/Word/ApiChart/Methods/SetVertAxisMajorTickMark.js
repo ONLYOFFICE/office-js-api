@@ -1,8 +1,8 @@
-// Specify the major tick mark for the vertical axis in a document.
+// Set the style of major tick marks on the vertical axis of a chart in a document.
 
-// How to set a major tick mark using predefined symbols in a document.
+// How do I choose the shape of the main interval markers on the vertical axis in a document?
 
-// Create a chart, set its properties and major tick mark for vertical axis in a document.
+// Use major tick marks to help readers trace values across a chart grid in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

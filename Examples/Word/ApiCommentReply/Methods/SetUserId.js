@@ -1,8 +1,8 @@
-// Set the user ID to the comment reply author in a document.
+// Assign a user ID to a comment reply author in a document.
 
-// How to change an user ID of a comment reply in a document.
+// How do I set the user ID for a comment reply in a document?
 
-// Get all comments from the presentation and change its first one's reply user ID.
+// Link a reply to a specific user account by updating the identifier attached to it.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

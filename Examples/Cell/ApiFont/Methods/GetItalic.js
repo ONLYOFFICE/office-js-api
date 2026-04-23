@@ -1,8 +1,8 @@
-// Get the italic property of the specified font in a spreadsheet.
+// Read whether a specific range of characters is formatted as italic in a spreadsheet.
 
-// How to know whether a font style of characters is italic in a spreadsheet.
+// How do I check if certain characters in a cell are currently displayed in italic in a spreadsheet?
 
-// Get a boolean value that represents whether a font is italic or not and show the value in the worksheet.
+// Inspect the italic setting of a character range and display the result in a cell in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B1");

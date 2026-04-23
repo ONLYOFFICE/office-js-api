@@ -1,8 +1,8 @@
-// Convert the current form to a fixed size form.
+// Convert a checkbox form to a fixed-size form in a document.
 
-// How to make the form fixed.
+// How do I lock the dimensions of a form field so it does not resize in a document?
 
-// Set form as fixed using the checkbox form API in a document.
+// Prevent layout shifts by giving a checkbox form a precise fixed width and height in a document.
 
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});

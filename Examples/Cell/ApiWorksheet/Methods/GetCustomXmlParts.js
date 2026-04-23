@@ -1,8 +1,8 @@
-// Get the custom XML manager, add a new XML part, and retrieve it by its ID in a spreadsheet.
+// Access the custom XML storage on a worksheet to add and look up XML parts in a spreadsheet.
 
-// How to get custom XML parts from a worksheet.
+// How do I store and retrieve custom XML data on a sheet in a spreadsheet?
 
-// Get the custom XML parts manager in a spreadsheet.
+// Manage structured XML content attached to a worksheet by adding a part and fetching it by ID in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let xmlManager = worksheet.GetCustomXmlParts();

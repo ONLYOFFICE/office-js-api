@@ -1,8 +1,8 @@
-// Get current selection in a presentation.
+// Retrieve the currently selected object or text in a presentation.
 
-// How can I get the selection in a presentation?
+// How do I access the selected content in a presentation in a presentation?
 
-// Get the selection in a presentation.
+// Read the properties of selected elements in a presentation.
 
 const presentation = Api.GetPresentation();
 

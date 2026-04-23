@@ -1,8 +1,8 @@
-// Get the discount rate for a security in a spreadsheet.
+// Get the discount rate for a security.
 
-// How to get a security discount rate in a spreadsheet.
+// Calculate the annual discount rate based on settlement and maturity dates.
 
-// Use function to find security discount rate in a spreadsheet.
+// Use the DISC function to determine the discount rate for an investment security.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

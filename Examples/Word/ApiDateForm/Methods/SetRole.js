@@ -1,8 +1,8 @@
-// Set the role for a form in a document.
+// Assign a role to a date form in a document.
 
-// How can I set role using a date form in a document?
+// How do I assign a role to a date form in a document?
 
-// Set role for a date form in a document.
+// Restrict form access by linking it to a named role in a document.
 
 let doc = Api.GetDocument();
 let roles = doc.GetFormRoles();

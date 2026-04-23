@@ -1,8 +1,8 @@
-// Create no fill and remove the fill from the element in a presentation.
+// Remove the background fill from a shape in a presentation.
 
-// How to remove background fill from the object in a presentation.
+// How do I make an object transparent in a presentation?
 
-// Create no fill and apply it to the element in a presentation.
+// Apply a transparent fill to a shape's outline in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// Get an object that represents the selected range of the sheet in a spreadsheet.
+// Select cells by typing their address in a spreadsheet.
 
-// How to get a range using address in a spreadsheet.
+// Find and modify a specific block of cells using its coordinates in a spreadsheet?
 
-// Get range and set its horizontal alignment in a spreadsheet.
+// Reference any rectangular group to style all cells at once in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A2").SetValue("2");

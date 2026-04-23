@@ -1,8 +1,8 @@
-// Return the rank of a value in a data set as a percentage of the data set in a spreadsheet.
+// Get the rank of a value as a percentage of all values in a spreadsheet.
 
-// How to return the rank of a value in a data set as a percentage in a spreadsheet.
+// How do I find where a number ranks within a dataset as a percentage in a spreadsheet?
 
-// Use a function to get a rank of a value in a data set in a spreadsheet.
+// Calculate what percentage of values fall below a specific number in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

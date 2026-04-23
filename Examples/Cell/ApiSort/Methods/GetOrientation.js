@@ -1,8 +1,8 @@
-// Get the sort orientation of a table sort object in a spreadsheet.
+// Read whether a table is sorted across rows or down columns in a spreadsheet.
 
-// How to check whether the table is sorted by rows or by columns in a spreadsheet.
+// How do I check the direction a sort will run — top to bottom or left to right — in a spreadsheet?
 
-// Get the sort direction of the sort object in a spreadsheet.
+// Retrieve the axis along which the sort rearranges data in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

@@ -1,8 +1,8 @@
-// Enable AI-assisted change tracking in a document.
+// Enable AI-assisted revision tracking with an author name in a document.
 
-// How can I set assistant track revisions using a document in a document?
+// How do I track changes made by an AI assistant in a document?
 
-// Set assistant track revisions for a document in a document.
+// Assign a named author to AI-generated edits so reviewers can identify them separately.
 
 const doc = Api.GetDocument();
 

@@ -1,8 +1,8 @@
-// Remove all the elements from the current paragraph in a spreadsheet.
+// Clear every element from a paragraph inside a shape in a spreadsheet.
 
-// How to clear a content from the paragraph in a spreadsheet.
+// How do I wipe all content out of a paragraph in a spreadsheet?
 
-// Create a paragraph, add a text to it then delete all elements from it in a spreadsheet.
+// Reset a paragraph to empty before refilling it with fresh text in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

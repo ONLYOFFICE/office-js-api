@@ -1,8 +1,8 @@
-// Specify that any lowercase characters in the current text run are formatted for display only as their capital letter character equivalents.
+// Display all letters as uppercase in text in a PDF.
 
-// How to make a text capitalized in a PDF document.
+// How do I show text as all capital letters in a PDF?
 
-// Create a new text run and make each letters capitalized in a PDF document.
+// Convert text characters to capital letter format in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// Replace the current sentence in a document.
+// Replace the sentence at the cursor position with new text in a document.
 
-// How to change the text to another one in a document.
+// How do I substitute a whole sentence based on cursor placement in a document?
 
-// Add the new run instead of another sentence in a document.
+// Position the cursor mid-paragraph and overwrite that sentence with a replacement string in a document.
 
 let doc = Api.GetDocument();
 

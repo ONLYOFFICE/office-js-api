@@ -1,8 +1,8 @@
-// Get field required and display's it in a PDF document.
+// Check if a form field must be filled before submitting in a PDF.
 
-// How can I is required using a base field in a PDF document?
+// How can I determine if a form field is required in a PDF?
 
-// Is required for a base field in a PDF document.
+// Verify whether a form field must have a value in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

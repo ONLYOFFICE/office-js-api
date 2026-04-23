@@ -1,8 +1,8 @@
-// Remove a column containing the cell.
+// Delete an entire column by targeting one of its cells in a document.
 
-// How to delete the column with Cell 1.
+// How do I remove a column from a table using a cell reference in a document?
 
-// Get the first cell and remove its column.
+// Erase a whole table column by selecting any cell within it in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

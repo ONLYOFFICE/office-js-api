@@ -1,8 +1,8 @@
-// Get the totals row cell range for a table column.
+// Locate the totals row cell for a specific table column in a spreadsheet.
 
-// How to access the totals cell for a specific column in a formatted table.
+// How do I find the summary cell at the bottom of a table column in a spreadsheet?
 
-// Get the totals row cell range for a column.
+// Target the totals cell directly to read or update the column summary value in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

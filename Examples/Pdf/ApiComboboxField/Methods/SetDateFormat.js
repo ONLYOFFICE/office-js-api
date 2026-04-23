@@ -1,8 +1,8 @@
-// Get text field and set date format for it.
+// Format dates in a combobox field in a PDF.
 
-// How can I set date format using a combobox field in a PDF document?
+// Can I control how dates appear in a PDF?
 
-// Set date format for a combobox field in a PDF document.
+// Display dates with a specific format in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

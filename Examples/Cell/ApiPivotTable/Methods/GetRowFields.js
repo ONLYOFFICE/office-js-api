@@ -1,8 +1,8 @@
-// Get row fields of a pivot table in a spreadsheet.
+// List the fields placed in the row area of a pivot table in a spreadsheet.
 
-// How to get table row fields as an array of fields in a spreadsheet.
+// How do I see which fields are used as row labels in a pivot table in a spreadsheet?
 
-// Create a pivot table, add data to it then get its row fields in a spreadsheet.
+// Retrieve every row-area field from a pivot table and display their names in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

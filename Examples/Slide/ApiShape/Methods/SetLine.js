@@ -1,8 +1,8 @@
-// Set the outline properties to a shape. Creates a rectangle and change its outline to a thick blue line in a presentation.
+// Change the outline of a shape from no border to a thick blue line.
 
-// How to set line for a shape in a presentation?
+// Create a rectangle with no stroke and display the initial state.
 
-// Set line and display the result in a presentation.
+// Apply a 3-point blue line and show the updated appearance.
 
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);

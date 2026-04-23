@@ -1,8 +1,8 @@
-// Set the paragraph left side indentation in a PDF document.
+// Add left margin spacing to a paragraph in a PDF.
 
-// How to set paragraph's left side indentation size in a PDF document.
+// How do I indent text from the left edge in a PDF?
 
-// Resize the left side indentation of a text from a paragraph in a PDF document.
+// Push paragraph content away from the left side in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

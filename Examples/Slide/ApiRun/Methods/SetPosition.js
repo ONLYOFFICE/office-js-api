@@ -1,8 +1,8 @@
-// Specify an amount by which text is raised or lowered for this run in relation to the default baseline of the surrounding non-positioned text in a presentation.
+// Adjust text position relative to the baseline in a presentation.
 
-// How to change inline position of the text in a presentation.
+// Raise or lower text to create superscript or subscript effects.
 
-// Create a new text run and make its position lower or higher in a presentation.
+// Create text runs and position them above or below the baseline.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// Return an internal ID of the current document content.
+// Get the unique identifier assigned to a shape's content in a PDF.
 
-// How do I get the internal id in a PDF document?
+// How can I find the ID that refers to a shape's content in a PDF?
 
-// Get the internal id using a document content object.
+// Discover the reference code that distinguishes a content container in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

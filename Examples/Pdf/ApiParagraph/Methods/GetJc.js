@@ -1,8 +1,8 @@
-// Get the paragraph contents justification in a PDF document.
+// Find out how text is aligned in a paragraph in a PDF.
 
-// How to get a justification type of a text in a PDF document.
+// How do I check the text alignment of a paragraph in a PDF?
 
-// Return a justification of a paragraph from the page.
+// Retrieve the alignment setting from a paragraph in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// Get the allowed symbols of a text field in a document.
+// Read the set of characters a text field accepts in a document.
 
-// Create a text form, set allowed symbols, then retrieve and display them in the document.
+// How do I find out which symbols are permitted in a text field in a document?
 
-// How to get the allowed symbols of the text form object.
+// Confirm the character restriction applied to a text entry area in a document.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({ key: "Letters", placeholder: "Letters only" });

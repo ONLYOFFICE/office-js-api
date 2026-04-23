@@ -1,8 +1,8 @@
-// Unselects the current graphic object in a spreadsheet.
+// Deselect a drawing while keeping other shapes selected in a spreadsheet.
 
-// How to unselect drawing objects on the worksheet.
+// How do I remove a single drawing from the current selection in a spreadsheet?
 
-// Create three shapes, select all of them, then unselect the second shape in a spreadsheet.
+// Drop one shape from a multi-object selection without affecting the rest in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill1 = Api.CreateSolidFill(Api.RGB(255, 111, 61));

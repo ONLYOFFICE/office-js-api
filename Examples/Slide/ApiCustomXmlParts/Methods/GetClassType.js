@@ -1,8 +1,8 @@
-// Find out the class type of a custom XML parts object in a presentation.
+// Get the class type of a custom XML parts object in a presentation.
 
-// How can I get the class type of a custom XML parts in a presentation?
+// How do I determine the class type of a custom XML parts manager in a presentation?
 
-// Get the class type of a custom XML parts and display it in the presentation.
+// Display the class type of the XML parts manager in a presentation.
 
 let presentation = Api.GetPresentation();
 let xmlManager = presentation.GetCustomXmlParts();

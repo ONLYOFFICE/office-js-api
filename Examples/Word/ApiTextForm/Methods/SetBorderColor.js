@@ -1,8 +1,8 @@
-// Set the border color to the current form.
+// Apply a border color to a text field in a document.
 
-// How to set border color of the text form.
+// How do I change the color of the border around a text field in a document?
 
-// Set the rose color as a border color to the text form.
+// Highlight a text field's boundary by assigning it a specific border color in a document.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});

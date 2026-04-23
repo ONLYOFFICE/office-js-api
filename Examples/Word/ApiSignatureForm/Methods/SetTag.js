@@ -1,8 +1,8 @@
-// Set the form tag in a document.
+// Attach a custom tag to a signature field in a document.
 
-// How to set the tag of a signature form.
+// How do I label a signature field with an identifier for later reference in a document?
 
-// Assign a tag to a signature form and display the result.
+// Give a signature field a searchable tag so it can be found and read back in a document.
 
 let doc = Api.GetDocument();
 let signatureForm = Api.CreateSignatureForm({"key": "Signature", "tip": "Please sign here", "placeholder": "Signature"});

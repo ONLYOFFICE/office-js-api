@@ -1,8 +1,8 @@
-// Return the serial number of the date before or after a specified number of workdays with custom weekend parameters in a spreadsheet.
+// Calculate a workday date with custom weekend definitions in a spreadsheet.
 
-// How to return the serial number of the date adding some workdays in a spreadsheet.
+// How do I find a date by counting workdays with a custom weekend schedule in a spreadsheet?
 
-// Use a function to calculate the serial number of the date in a spreadsheet.
+// Determine a target date based on workdays using custom weekend parameters in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

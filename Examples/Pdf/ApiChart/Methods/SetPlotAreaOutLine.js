@@ -1,8 +1,8 @@
-// How to set an outline color for the plot area in a PDF document.
+// Change the border style of the chart's data area in a PDF.
 
-// Create a chart, set its properties and its plot area outline in a PDF document.
+// How do I add a border to the chart area in a PDF?
 
-// Use chart to set plot area out line in a PDF document.
+// Apply a stroke to the edge of the region where data is displayed in a chart in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

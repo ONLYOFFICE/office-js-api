@@ -1,8 +1,8 @@
-// Show the totals row for a formatted table.
+// Add a totals row to the bottom of a table in a spreadsheet.
 
-// How to display the totals row in a table in a spreadsheet.
+// How do I show or hide the totals row of a table in a spreadsheet?
 
-// The totals row appears at the bottom of the table and can display aggregation functions per column in a spreadsheet.
+// Enable the totals row so each column can display a summary value such as a sum or count in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

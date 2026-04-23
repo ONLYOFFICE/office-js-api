@@ -1,8 +1,8 @@
-// Set value to text field in a PDF document.
+// Enter text into a form field in a PDF.
 
-// How can I set value using a base field in a PDF document?
+// How do I fill in a form field in a PDF?
 
-// Set value for a base field in a PDF document.
+// Set a text value for a form field in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

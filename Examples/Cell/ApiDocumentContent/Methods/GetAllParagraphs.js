@@ -1,8 +1,8 @@
-// Get all paragraphs from the document content of a shape in a spreadsheet.
+// Collect every paragraph stored inside a shape's text area in a spreadsheet.
 
-// How to get all paragraphs for a document content?
+// How do I retrieve the full list of paragraphs from the content of a shape in a spreadsheet?
 
-// Get all paragraphs and display the result in a spreadsheet.
+// Count or iterate all text paragraphs held within a drawing's content block in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

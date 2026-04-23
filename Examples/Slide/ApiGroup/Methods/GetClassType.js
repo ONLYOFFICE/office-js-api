@@ -1,8 +1,8 @@
-// Check the class type returned by a group in a presentation.
+// Get the type of a grouped shape in a presentation.
 
-// How do I check what type a group object is in a presentation?
+// How do I identify what type a grouped shape is in a presentation?
 
-// Retrieve and output the class type string for a group in a presentation.
+// Retrieve the class name for a group object in a presentation.
 
 const presentation = Api.GetPresentation();
 presentation.SetSizes(254 * 36000, 190 * 36000);

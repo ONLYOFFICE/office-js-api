@@ -1,8 +1,8 @@
-// Set the category of the document using the core properties in a document.
+// Assign a category to the document through its core properties in a document.
 
-// How can I set category using a core properties in a document?
+// How do I tag a document with a category in its metadata in a document?
 
-// Set category for a core properties in a document.
+// Record which group or type a document belongs to so it can be filtered later in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

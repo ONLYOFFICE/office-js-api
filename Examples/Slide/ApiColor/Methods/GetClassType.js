@@ -1,8 +1,8 @@
-// Check the class type returned by a color in a presentation.
+// Retrieve the class type identifier string for a color object.
 
-// How do I check what type a color object is in a presentation?
+// Extract and display color object type metadata from a shape.
 
-// Retrieve and output the class type string for a color in a presentation.
+// Get the class type of a color and display it within a shape text element.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

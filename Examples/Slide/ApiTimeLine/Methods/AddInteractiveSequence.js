@@ -1,8 +1,8 @@
-// Create an interactive animation sequence in a presentation.
+// Add an interactive animation triggered by clicking a shape in a presentation.
 
-// How can I add the interactive sequence using a timeline in a presentation?
+// How do I create an animation that responds to user clicks in a presentation?
 
-// Add the interactive sequence for a timeline in a presentation.
+// Define an animation sequence that starts when a specific shape is clicked in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

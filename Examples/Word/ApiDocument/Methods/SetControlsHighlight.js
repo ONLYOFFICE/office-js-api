@@ -1,8 +1,8 @@
-// Set the highlight to the content controls from the document.
+// Apply a background highlight color to all content controls in a document.
 
-// How to highlight thw controls with rose color in a document.
+// How do I change the highlight color of content controls in a document?
 
-// Add elements to the document and color their background.
+// Make form controls stand out visually by setting a custom fill color across the whole document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

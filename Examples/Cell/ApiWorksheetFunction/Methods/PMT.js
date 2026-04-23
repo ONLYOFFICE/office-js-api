@@ -1,8 +1,8 @@
-// Calculate the payment for a loan based on constant payments and a constant interest rate in a spreadsheet.
+// Find the monthly payment amount needed to repay a loan in a spreadsheet.
 
-// How to return the payment for a loan based on different parameters in a spreadsheet.
+// How do I calculate what I need to pay each month on a loan in a spreadsheet?
 
-// Use a function to return the payment for a loan in a spreadsheet.
+// Determine the regular payment required given an interest rate and loan period in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

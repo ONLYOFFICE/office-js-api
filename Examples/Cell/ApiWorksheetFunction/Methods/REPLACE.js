@@ -1,8 +1,8 @@
-// Replace a part of a text string with a different text string in a spreadsheet.
+// Swap part of a text value with different text at a specific position in a spreadsheet.
 
-// How to replace a substring with another one in a spreadsheet.
+// How do I change a portion of text within a larger string in a spreadsheet?
 
-// Use a function to replace one part of a text with another one in a spreadsheet.
+// Remove a section of text and insert new content in its place in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

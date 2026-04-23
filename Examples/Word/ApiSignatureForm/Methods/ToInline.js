@@ -1,8 +1,8 @@
-// Calls the ToInline method on a signature form. Note that the signature form is always fixed and cannot be inline, so this method has no effect.
+// Attempt to switch a signature field to inline layout in a document.
 
-// How to use the ToInline method on a signature form.
+// How do I check whether a signature field can be converted to an inline element in a document?
 
-// Call ToInline on the signature form. Since the signature form is always fixed, it remains fixed after this call.
+// Confirm that a signature field stays fixed even after trying to make it inline in a document.
 
 let doc = Api.GetDocument();
 let signatureForm = Api.CreateSignatureForm({"key": "Signature", "tip": "Please sign here", "placeholder": "Signature"});

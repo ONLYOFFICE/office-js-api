@@ -1,8 +1,8 @@
-// How to color a chart seria in a PDF document.
+// Color the bars or columns of a chart in a PDF.
 
-// Create a chart, set its properties and its series background in a PDF document.
+// How do I apply different colors to each data series in a PDF?
 
-// Set series fill using a chart object in a PDF document.
+// Apply a solid fill color to chart series in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

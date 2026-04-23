@@ -1,8 +1,8 @@
-// Get the last slide of the presentation in a presentation.
+// Access the final slide of a presentation in a presentation.
 
-// How to get the last slide using the Api global object.
+// How can I retrieve the last slide in a presentation in a presentation?
 
-// Get the last slide and add a shape to it.
+// Select the last slide and modify its contents in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide2 = Api.CreateSlide();

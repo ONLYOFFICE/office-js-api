@@ -1,8 +1,8 @@
-// Find out whether a text is outlined in a PDF document.
+// Check if text has an outline border effect in a PDF.
 
-// How to know whether an outline is set to the text in a PDF document.
+// How do I determine if text has an outline applied in a PDF?
 
-// Get the text properties of the run and find whether it is outlined or not in a PDF document.
+// Retrieve the outline properties from text formatting in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

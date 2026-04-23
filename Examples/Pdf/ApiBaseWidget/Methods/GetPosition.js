@@ -1,8 +1,8 @@
-// Create a new field and get position of its widget in a PDF document.
+// Get the coordinates of a form field widget in a PDF.
 
-// How can I get the position using a widget in a PDF document?
+// How do I find the position of a widget in a PDF?
 
-// Get the position for a widget in a PDF document.
+// Retrieve the X and Y coordinates of a form field widget in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

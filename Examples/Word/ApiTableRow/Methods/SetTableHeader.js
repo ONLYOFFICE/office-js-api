@@ -1,8 +1,8 @@
-// Specify that the current table row will be repeated at the top of each new page wherever this table is displayed.
+// Mark a table row to repeat at the top of every page when a table spans multiple pages in a document.
 
-// Rename the header of the table in a document.
+// How do I designate a row as a repeating header so it appears on every page in a document?
 
-// How to set table row as a header in a document.
+// Pin a row as the table header so readers always see column labels regardless of page breaks in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

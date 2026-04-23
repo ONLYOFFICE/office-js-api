@@ -1,8 +1,8 @@
-// Delete the paragraph in a spreadsheet.
+// Remove a paragraph from a shape in a spreadsheet.
 
-// How to remove a paragraph in a spreadsheet.
+// How do I erase a paragraph that was added to a shape in a spreadsheet?
 
-// Delete the paragraph from the shape content in a spreadsheet.
+// Confirm a paragraph is gone by checking the cell value after deleting it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

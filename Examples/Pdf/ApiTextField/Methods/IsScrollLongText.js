@@ -1,8 +1,8 @@
-// Get text field and display scroll long text property in a PDF document.
+// Check if a text field scrolls text that exceeds its boundaries in a PDF.
 
-// How do I is scroll long text in a PDF document?
+// How do I know if long text will scroll instead of wrap in a text field in a PDF?
 
-// Is scroll long text using a text field object in a PDF document.
+// Determine whether a text input allows scrolling for content larger than the field in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

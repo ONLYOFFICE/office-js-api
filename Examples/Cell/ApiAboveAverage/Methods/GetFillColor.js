@@ -1,8 +1,8 @@
-// Get the background color of an above average conditional formatting rule in a spreadsheet.
+// Read the background color used to highlight above-average cells in a spreadsheet.
 
-// How to retrieve the fill color applied when cells are above average.
+// How do I find out what fill color an above-average conditional formatting rule uses in a spreadsheet?
 
-// Get the background color from above average conditional formatting.
+// Inspect the highlight shade assigned to cells that exceed the average value in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

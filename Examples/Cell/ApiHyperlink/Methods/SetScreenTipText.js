@@ -1,8 +1,8 @@
-// Set a tooltip for a hyperlink inside a shape in a spreadsheet.
+// Assign a tooltip message to a hyperlink in a spreadsheet.
 
-// How do I set screen tip text in a spreadsheet?
+// How do I add a hover hint to a hyperlink in a spreadsheet?
 
-// Set screen tip text using a hyperlink object in a spreadsheet.
+// Attach a short description that appears when a user points at the hyperlink in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

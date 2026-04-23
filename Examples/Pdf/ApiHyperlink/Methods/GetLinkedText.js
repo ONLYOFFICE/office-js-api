@@ -1,8 +1,8 @@
-// Get the hyperlink address in a PDF document.
+// Retrieve the text that contains a hyperlink in a PDF.
 
-// How to get the raw link of the hyperlink in a PDF document.
+// What text is associated with a hyperlink in a PDF?
 
-// Add a hyperlink to the paragraph and show its address as a text in a PDF document.
+// Display the actual text of a hyperlink in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

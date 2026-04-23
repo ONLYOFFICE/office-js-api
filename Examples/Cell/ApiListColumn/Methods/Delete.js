@@ -1,8 +1,8 @@
-// Delete a column from a formatted table.
+// Remove a column from a formatted table in a spreadsheet.
 
-// How to remove a column from an existing table in a spreadsheet.
+// How do I delete a specific column from a table in a spreadsheet?
 
-// Delete a column from the table in a spreadsheet.
+// Shrink a table by permanently dropping one of its columns along with all its data.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

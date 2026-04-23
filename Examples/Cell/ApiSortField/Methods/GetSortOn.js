@@ -1,8 +1,8 @@
-// Get the sort-on type of a sort field in a spreadsheet.
+// Read what a sort criterion is based on — cell values, fill color, or icon — in a spreadsheet.
 
-// How to check whether a sort field sorts by values, color, or icon in a spreadsheet.
+// How do I find out whether a sort field reorders rows by content or by formatting in a spreadsheet?
 
-// Check whether the field sorts by values, color, or icon in a spreadsheet.
+// Distinguish between value-based and color-based sorting for a given sort rule in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");

@@ -1,8 +1,8 @@
-// Return the confidence interval for a population mean, using a Student's t distribution in a spreadsheet.
+// Find the confidence interval for an average using t distribution in a spreadsheet.
 
-// How to return the confidence interval for a population mean, using a Student's t distribution in a spreadsheet.
+// What is the reliable range around your estimate in a spreadsheet?
 
-// Use function to get the confidence interval for a population mean in a spreadsheet.
+// Assess the accuracy of your average with statistical confidence in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

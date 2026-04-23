@@ -1,8 +1,8 @@
-// Get a subtotal name of a pivot field in a spreadsheet.
+// Read the custom subtotal label assigned to a pivot field in a spreadsheet.
 
-// How to get a pivot field's subtotal name in a spreadsheet.
+// How do I check what label a pivot field's subtotal row is using in a spreadsheet?
 
-// Create a pivot table, add data to it then get subtotal name of a specified pivot field in a spreadsheet.
+// Confirm the subtotal name after applying a custom label to a pivot field in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

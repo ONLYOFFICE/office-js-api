@@ -1,8 +1,8 @@
-// Set the border which shall be displayed at the right of the table cell.
+// Add a colored border to the right side of a table cell in a presentation.
 
-// How to set cell right border with its fill color.
+// How do I add a colored border to the right side of a table cell in a presentation?
 
-// Create table and set its cell right border.
+// Create a table and apply a right border with a solid color fill in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

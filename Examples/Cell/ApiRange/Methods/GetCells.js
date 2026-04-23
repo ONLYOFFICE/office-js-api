@@ -1,8 +1,8 @@
-// Get a Range object that represents all the cells in the specified range or a specified cell in a spreadsheet.
+// Access a specific cell within a range by its row and column position in a spreadsheet.
 
-// How to get range cells.
+// How do I pick out one cell from a larger range in a spreadsheet?
 
-// Get range cells, fill them with a color and display the result in the worksheet.
+// Target a single cell inside a multi-cell range and fill it with a highlight color.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1:C3");

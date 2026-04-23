@@ -1,8 +1,8 @@
-// Get the paragraph first line indentation in a PDF document.
+// Check the first line indent spacing of a paragraph in a PDF.
 
-// How to return the first line identation of a paragraph in a PDF document.
+// How do I find the first line indentation of a paragraph in a PDF?
 
-// Return the first line indentation of a text from the page.
+// Retrieve the indent distance for the first line of a paragraph in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// Get a collection of image objects in the paragraph in a document.
+// Retrieve all image objects embedded in a paragraph in a document.
 
-// How to retrieve all images from the document.
+// How do I get every image from a paragraph in a document?
 
-// Get all images and get the class type of the first one in a document.
+// Inspect or process multiple pictures at once by collecting all images in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

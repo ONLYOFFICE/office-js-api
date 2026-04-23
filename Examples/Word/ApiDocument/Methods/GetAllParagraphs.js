@@ -1,8 +1,8 @@
-// Get an array of all paragraphs from the document in a document.
+// Retrieve all paragraphs in a document.
 
-// Get all paragraphs added to the document.
+// How do I collect every paragraph present in a document?
 
-// How to retrieve all paragraphs and make the first one bold in a document.
+// Make the first paragraph bold to visually distinguish it from the rest of the content.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

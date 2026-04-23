@@ -1,8 +1,8 @@
-// Move a pivot field in a spreadsheet.
+// Relocate a pivot field to a different area of the pivot table in a spreadsheet.
 
-// How to change the position a pivot field in a spreadsheet.
+// How do I move a pivot field from rows to columns in a spreadsheet?
 
-// Create a pivot table, add data to it then move a specified pivot field by columns in a spreadsheet.
+// Reorganize the pivot table layout by shifting a field to a new position in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

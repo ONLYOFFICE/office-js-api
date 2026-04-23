@@ -1,8 +1,8 @@
-// Get a collection of content control objects in the paragraph in a document.
+// Retrieve all content controls embedded in a paragraph in a document.
 
-// How to retrieve all content controls from the document.
+// How do I get every content control from a paragraph in a document?
 
-// Get all content controls and show the class type of the first one in a document.
+// Inspect or modify structured input fields by collecting all content controls in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// Check whether a block-level content control is a picture control in a document.
+// Check whether a content control holds a picture or plain text in a document.
 
-// How do I is picture in a document?
+// How do I tell if a content control is a picture control in a document?
 
-// Is picture using a block-level content control object in a document.
+// Compare a text content control and a picture content control to see which type each one is in a document.
 
 const doc = Api.GetDocument();
 

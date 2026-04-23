@@ -1,8 +1,8 @@
-// Clear the form.
+// Remove the entered value from a text input field in a document.
 
-// How to delete an answer from the text form.
+// How do I wipe the content of a text field without removing the field itself in a document?
 
-// Delete the text from the first form.
+// Reset a text entry area to its empty state in a document.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});

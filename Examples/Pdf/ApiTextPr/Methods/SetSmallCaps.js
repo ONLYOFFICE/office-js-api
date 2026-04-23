@@ -1,8 +1,8 @@
-// Specify that all the small letter characters in the text run are formatted for display only as their capital letter character equivalents which are two points smaller than the actual font size specified for this text.
+// Convert lowercase letters to small capitals in a PDF.
 
-// How to make a text uncapitalized in a PDF document.
+// How do I display text in small capital letters in a PDF?
 
-// Get the text properties of the run and make its letters lowercase in a PDF document.
+// Transform regular text to display as smaller uppercase characters in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

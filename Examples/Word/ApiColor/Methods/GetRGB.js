@@ -1,8 +1,8 @@
-// Get the RGB components of the color in a document.
+// Extract the red, green, and blue channel values of a color in a document.
 
-// How can I get the r g b using a color in a document?
+// How do I read the individual RGB components of a color in a document?
 
-// Get the r g b for a color in a document.
+// Compare channel values across theme, auto, and hex colors to understand how each type resolves in a document.
 
 const doc = Api.GetDocument();
 

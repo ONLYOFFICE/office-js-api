@@ -1,8 +1,8 @@
-// Get an array of all tables from the document.
+// Retrieve all tables in a document.
 
-// Get all tables added to the document.
+// How do I collect every table present in a document?
 
-// How to retrieve all tables and add a text to its first cell.
+// Insert text into the first cell of the first table to populate it with initial content.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

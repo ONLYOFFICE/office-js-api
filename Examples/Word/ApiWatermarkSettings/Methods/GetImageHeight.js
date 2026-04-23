@@ -1,8 +1,8 @@
-// Set the parameters of the watermark settings and apply them to the document.
+// Read the height of a watermark image in a document.
 
-// How to get the height of the image in a document.
+// How do I find out how tall the watermark image is in a document?
 
-// Get the watermark image height in a document.
+// Check the vertical size of a watermark image in a document.
 
 let doc = Api.GetDocument();
 let watermarkSettings = doc.GetWatermarkSettings();

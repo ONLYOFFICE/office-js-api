@@ -1,8 +1,8 @@
-// Get the cotangent of a number in a spreadsheet.
+// Calculate the cotangent of an angle in a spreadsheet.
 
-// How to find a cotangent in a spreadsheet.
+// What is the reciprocal tangent value in a spreadsheet?
 
-// Use function to get the cotangent of an angle in a spreadsheet.
+// Find the inverted tangent ratio for a given angle in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

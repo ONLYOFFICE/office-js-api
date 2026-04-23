@@ -1,8 +1,8 @@
-// Create a solid fill in a presentation.
+// Fill a shape with a solid color in a presentation.
 
-// How to color a background in a presentation.
+// How do I apply a solid color background to a shape in a presentation?
 
-// Add solid fill color as a shape background in a presentation.
+// Create a solid fill with an RGB color and apply it to a shape in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

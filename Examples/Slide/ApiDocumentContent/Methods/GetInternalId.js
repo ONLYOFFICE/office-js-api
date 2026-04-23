@@ -1,8 +1,8 @@
-// Return an internal ID of the current document content.
+// Get the unique identifier of a shape's text content in a presentation.
 
-// How to get the internal id for a document content?
+// How do I find the internal ID assigned to a shape's text content in a presentation?
 
-// Get the internal id and display the result in a presentation.
+// Retrieve the internal ID from a shape and display it as text on the slide.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

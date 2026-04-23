@@ -1,8 +1,8 @@
-// Handle onWorksheetChange named event in a spreadsheet.
+// Respond to every cell edit by logging the changed range address in a spreadsheet.
 
-// How to attach events, for example, onWorksheetChange one.
+// How do I capture which cells were modified when a user edits data in a spreadsheet?
 
-// Event handling example in a worksheet.
+// Track worksheet edits in real time by wiring up a callback that reports the affected range in a spreadsheet.
 
 Api.attachEvent("onWorksheetChange", function(range){
     console.log("onWorksheetChange");

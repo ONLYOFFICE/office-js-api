@@ -1,8 +1,8 @@
-// Get the table cell that contains the current content control.
+// Retrieve the table cell that contains an inline content control in a document.
 
-// How to display the parent table of the inline text control in a document.
+// How do I get the parent table cell of an inline content control in a document?
 
-// Update the parent table of inline content control in a document.
+// Apply a background color to the cell that holds an inline content control in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

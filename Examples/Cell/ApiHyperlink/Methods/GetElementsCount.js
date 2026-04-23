@@ -1,8 +1,8 @@
-// Get the number of elements in a hyperlink inside a shape in a spreadsheet.
+// Count how many content elements a hyperlink contains in a spreadsheet.
 
-// How can I get the elements count using a hyperlink in a spreadsheet?
+// How do I check the number of items inside a hyperlink in a spreadsheet?
 
-// Get the elements count for a hyperlink in a spreadsheet.
+// Measure the total pieces of content stored within a hyperlink in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

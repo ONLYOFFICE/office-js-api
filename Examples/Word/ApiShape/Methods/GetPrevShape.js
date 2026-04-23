@@ -1,8 +1,8 @@
-// Get the previous inline shape in a document.
+// Retrieve the shape that appears before the current one in a document.
 
-// How to get previous shape from the current one in a document.
+// How do I access the shape positioned just before another shape in a document?
 
-// Color the previous shape with a solid fill in a document.
+// Navigate backward through stacked shapes to find the preceding element in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

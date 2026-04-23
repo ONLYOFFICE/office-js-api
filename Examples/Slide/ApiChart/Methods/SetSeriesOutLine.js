@@ -1,8 +1,8 @@
-// Set the outline to the specified chart series in a presentation.
+// Add a border line to a chart series in a presentation.
 
-// How to outline a chart seria in a presentation.
+// Create an outline or stroke around chart elements in a presentation.
 
-// Create a chart, set its properties and its series outline in a presentation.
+// Define the border style and color for a chart series in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// Convert the paragraph properties object into the JSON object in a document.
+// Serialize paragraph properties to a JSON object in a document.
 
-// How to get a JSON from the paragraph properties in a document.
+// How do I export paragraph formatting settings as JSON in a document?
 
-// Convert the paragraph properties to json and add it to the paragraph in a document.
+// Restore paragraph properties from a JSON representation and verify the class type in a document.
 
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");

@@ -1,8 +1,8 @@
-// Return the number of days between the two dates in a spreadsheet.
+// Calculate how many days exist between two dates in a spreadsheet.
 
-// How to get difference between two dates in days in a spreadsheet.
+// What is the day count from one date to another in a spreadsheet?
 
-// Use function to get days count between two dates in a spreadsheet.
+// Measure the elapsed time between dates in days in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

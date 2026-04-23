@@ -1,8 +1,8 @@
-// Get text field and set mask for entered text for it in a PDF document.
+// Require text input to follow a specific pattern in a PDF text field.
 
-// How do I set mask in a PDF document?
+// How do I enforce a phone number or ID format when users type in a PDF?
 
-// Set mask using a text field object in a PDF document.
+// Set an input pattern that users must follow in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

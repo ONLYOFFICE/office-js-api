@@ -1,8 +1,8 @@
-// Get a number of slides in a presentation.
+// Count the number of slides in a presentation.
 
-// How to count the slides of the presentation using the GetSlideCount method.
+// How do I find out how many slides are in a presentation?
 
-// Get a number of the presentation slides.
+// Display the total slide count on the current slide.
 
 const presentation = Api.GetPresentation();
 const slide1 = presentation.GetSlideByIndex(0);

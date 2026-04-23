@@ -1,8 +1,8 @@
-// Return the price per $100 face value for a security that pays periodic interest in a spreadsheet.
+// Find the price of a bond with periodic interest payments in a spreadsheet.
 
-// How to return the price per $100 face value in a spreadsheet.
+// What is the market price of a security per $100 face value in a spreadsheet?
 
-// Use a function to return the price per $100 face value for a security in a spreadsheet.
+// Calculate the cost of a bond based on yield and maturity dates in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

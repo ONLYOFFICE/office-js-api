@@ -1,8 +1,8 @@
-// Return the confidence interval for a population mean, using a normal distribution in a spreadsheet.
+// Find the confidence interval for an average using normal distribution in a spreadsheet.
 
-// How to return the confidence interval for a population mean, using a normal distribution in a spreadsheet.
+// What range of values likely contains the true average in a spreadsheet?
 
-// Use function to get the confidence interval for a population mean, using a normal distribution in a spreadsheet.
+// Calculate the margin of error around an average estimate in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

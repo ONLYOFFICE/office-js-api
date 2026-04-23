@@ -1,8 +1,8 @@
-// Add new widget - visual representation for field.
+// Add a visual representation for a form field in a PDF.
 
-// How to add the widget for a base field in a PDF document?
+// How do I create a visual instance of a form field in a PDF?
 
-// Add the widget and display the result in a PDF document.
+// Display a form field's widget at a specific location in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

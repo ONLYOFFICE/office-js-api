@@ -1,8 +1,8 @@
-// Copy the signature form.
+// Duplicate a signature field and place the copy in a document.
 
-// How to create a duplicate of the signature form.
+// How do I create an identical copy of a signature field in a document?
 
-// Copy the signature form and add it to the paragraph.
+// Reuse an existing signature field by making a duplicate of it in a document.
 
 let doc = Api.GetDocument();
 let signatureForm = Api.CreateSignatureForm({"key": "Signature", "tip": "Please sign here", "placeholder": "Signature"});

@@ -1,8 +1,8 @@
-// Get the parent sort fields collection from a sort field in a spreadsheet.
+// Access the full list of sort criteria that a single sort field belongs to in a spreadsheet.
 
-// How to navigate from a sort field back to its parent sort fields collection collection in a spreadsheet.
+// How do I step back from one sort field to inspect the whole set of sorting rules in a spreadsheet?
 
-// Navigating back to the collection lets you check the total field count or iterate over all fields in a spreadsheet.
+// Count or review all active sort fields by retrieving the owning collection in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Product");
