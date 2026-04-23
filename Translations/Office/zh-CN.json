@@ -6184,6 +6184,7 @@
     "Check the class type returned by a table row properties in a document.": "检查文档中表格行属性返回的类类型。",
     "Set the height to the current table row within the table in a document.": "设置文档中表格内当前表格行的高度。",
     "Specify that the current table row will be repeated at the top of each new page wherever this table is displayed.": "指定当前表格行在表格显示时在每个新页面的顶部重复。",
+    "Mark the first row of a table as a repeating header displayed at the top of every page.": "将表格的第一行标记为在每页顶部重复显示的标题行。",
     "Convert the table row properties object into the JSON object in a document.": "将文档中的表格行属性对象转换为 JSON 对象。",
     "ApiTableRow is a subclass of [ApiTableRowPr](../ApiTableRowPr/ApiTableRowPr.md).": "ApiTableRow 是 [ApiTableRowPr](../ApiTableRowPr/ApiTableRowPr.md) 的子类。",
     "Retrieve the class type of a table row in a document.": "获取文档中表格行的类类型。",

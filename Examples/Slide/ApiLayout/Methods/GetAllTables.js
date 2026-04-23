@@ -12,7 +12,7 @@ const master = presentation.GetMaster(0);
 const layout = master.GetLayout(0);
 layout.RemoveObject(0, layout.GetAllDrawings().length);
 
-const table = Api.CreateTable(3, 2);
+const table = Api.CreateTable(2, 3);
 table.GetRow(0).GetCell(0).GetContent().GetCurrentParagraph().AddText('US');
 table.GetRow(0).GetCell(1).GetContent().GetCurrentParagraph().AddText('CH');
 table.GetRow(0).GetCell(2).GetContent().GetCurrentParagraph().AddText('Others');
