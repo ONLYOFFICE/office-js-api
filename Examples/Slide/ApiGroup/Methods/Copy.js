@@ -11,11 +11,9 @@ slide.RemoveAllObjects();
 const fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape1 = Api.CreateShape("rect", 100 * 36000, 100 * 36000, fill, stroke);
-shape1.SetPosition(0, 0);
+shape1.SetPosition(608400, 1267200);
 const shape2 = Api.CreateShape("ellipse", 100 * 36000, 100 * 36000, fill, stroke);
-shape2.SetPosition(120 * 36000, 0);
-slide.AddObject(shape1);
-slide.AddObject(shape2);
+shape2.SetPosition(2100000, 1267200);
 const group = Api.CreateGroup([shape1, shape2]);
 slide.AddObject(group);
 

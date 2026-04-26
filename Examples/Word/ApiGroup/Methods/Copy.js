@@ -5,14 +5,14 @@
 // Clone a group of shapes so that the duplicate appears alongside the original in a document.
 
 let doc = Api.GetDocument();
-let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());
 let shape1 = Api.CreateShape("rect", 60 * 36000, 60 * 36000, fill, stroke);
 let shape2 = Api.CreateShape("ellipse", 60 * 36000, 60 * 36000, fill, stroke);
-paragraph.AddDrawing(shape1);
-paragraph.AddDrawing(shape2);
+shape1.SetWrappingStyle("inFront");
+shape2.SetWrappingStyle("inFront");
 let group = Api.CreateGroup([shape1, shape2]);
+let paragraph = doc.GetElement(0);
 paragraph.AddDrawing(group);
 
 let copyGroup = group.Copy();
