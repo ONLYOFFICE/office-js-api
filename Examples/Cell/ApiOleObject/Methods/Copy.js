@@ -1,8 +1,8 @@
-// Duplicate an OLE object on a worksheet and read the class type of the copy.
+// Duplicate an OLE object on a worksheet and place the copy next to the original in a spreadsheet.
 
 // How do I make a copy of an OLE object in a spreadsheet?
 
-// Clone an OLE object and verify the copy preserves the OLE object class in a spreadsheet.
+// Clone an OLE object and add the copy to the sheet at a different cell anchor in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let oleObject = worksheet.AddOleObject(
@@ -14,5 +14,4 @@ let oleObject = worksheet.AddOleObject(
 );
 
 let copyOle = oleObject.Copy();
-worksheet.GetRange("A1").SetValue("Copy class type:");
-worksheet.GetRange("B1").SetValue(copyOle.GetClassType());
+worksheet.AddDrawing(copyOle, 4, 2 * 36000, 2, 3 * 36000);

@@ -1,8 +1,8 @@
-// Duplicate a chart on a worksheet and read the class type of the copy.
+// Duplicate a chart on a worksheet and place the copy next to the original in a spreadsheet.
 
 // How do I make a copy of a chart in a spreadsheet?
 
-// Clone a chart and verify the copy preserves the chart class in a spreadsheet.
+// Clone a chart and add the copy to the sheet at a different cell anchor in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);
@@ -15,5 +15,4 @@ worksheet.GetRange("D2").SetValue(280);
 let chart = worksheet.AddChart("'Sheet1'!$A$1:$D$2", true, "bar3D", 2, 100 * 36000, 70 * 36000, 0, 2 * 36000, 7, 3 * 36000);
 
 let copyChart = chart.Copy();
-worksheet.GetRange("A4").SetValue("Copy class type:");
-worksheet.GetRange("B4").SetValue(copyChart.GetClassType());
+worksheet.AddDrawing(copyChart, 6, 2 * 36000, 7, 3 * 36000);
