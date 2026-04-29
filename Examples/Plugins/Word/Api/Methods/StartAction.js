@@ -3,5 +3,5 @@ window.Asc.plugin.executeMethod ("StartAction", ["Block", "Save to local storage
 
     setTimeout (function () {
         window.Asc.plugin.executeMethod ("EndAction", ["Block", "Save to localstorage..."]);
-    }, 200););
+    }, 200);
 });
