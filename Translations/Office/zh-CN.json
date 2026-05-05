@@ -9299,5 +9299,11 @@
     "Replace all content in a table cell with plain text in a document.": "",
     "Append text to the end of a shape's content in a spreadsheet.": "",
     "Append text to the end of a shape's content in a presentation.": "",
-    "Append text to the end of a shape's content in a PDF.": ""
+    "Append text to the end of a shape's content in a PDF.": "",
+    "Append text to the last paragraph in a table cell in a presentation.": "",
+    "Read the inner text of a table cell in a presentation.": "",
+    "Replace all content in a table cell with plain text in a presentation.": "",
+    "Append text to the last paragraph in a table cell in a PDF.": "",
+    "Read the inner text of a table cell in a PDF.": "",
+    "Replace all content in a table cell with plain text in a PDF.": ""
 }
