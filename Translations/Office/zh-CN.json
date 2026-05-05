@@ -9281,5 +9281,20 @@
     "Set the image of a signature form using a URL or base64 encoded string.": "",
     "Select a radio button in a group by setting the group value in a document.": "",
     "Get the choice name of the currently selected radio button in a group.": "",
-    "Get and set the radio button group selection using the GroupValue property.": ""
+    "Get and set the radio button group selection using the GroupValue property.": "",
+    "Replace all text in a paragraph with a new string in a document.": "",
+    "Replace the text of a paragraph inside a shape in a spreadsheet.": "",
+    "Replace the text content of a paragraph inside a shape in a presentation.": "",
+    "Replace the text of a paragraph inside a shape in a PDF.": "",
+    "Read the text of a paragraph inside a shape in a spreadsheet.": "",
+    "Read the text content of a paragraph inside a shape in a presentation.": "",
+    "Read the text of a paragraph inside a shape in a PDF.": "",
+    "Replace all content in a document content object with plain text in a document.": "",
+    "Replace the text of a shape's content in a spreadsheet.": "",
+    "Replace the text of a shape's content in a presentation.": "",
+    "Replace the text of a shape's content in a PDF.": "",
+    "Append text to the end of a document content object in a document.": "",
+    "Append text to the last paragraph in a table cell in a document.": "",
+    "Read the inner text of a table cell in a document.": "",
+    "Replace all content in a table cell with plain text in a document.": ""
 }
