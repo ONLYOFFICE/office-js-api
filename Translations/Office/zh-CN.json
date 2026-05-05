@@ -9296,5 +9296,8 @@
     "Append text to the end of a document content object in a document.": "",
     "Append text to the last paragraph in a table cell in a document.": "",
     "Read the inner text of a table cell in a document.": "",
-    "Replace all content in a table cell with plain text in a document.": ""
+    "Replace all content in a table cell with plain text in a document.": "",
+    "Append text to the end of a shape's content in a spreadsheet.": "",
+    "Append text to the end of a shape's content in a presentation.": "",
+    "Append text to the end of a shape's content in a PDF.": ""
 }
