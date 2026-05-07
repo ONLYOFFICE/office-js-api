@@ -9305,5 +9305,9 @@
     "Replace all content in a table cell with plain text in a presentation.": "",
     "Append text to the last paragraph in a table cell in a PDF.": "",
     "Read the inner text of a table cell in a PDF.": "",
-    "Replace all content in a table cell with plain text in a PDF.": ""
+    "Replace all content in a table cell with plain text in a PDF.": "",
+    "Apply Api.Color with every supported input format to style separate paragraphs in a document.": "",
+    "Apply Api.Color with every supported input format to fill separate shapes on a worksheet.": "",
+    "Apply Api.Color with every supported input format to fill separate shapes on a slide.": "",
+    "Apply Api.Color with every supported input format to fill separate shapes on a PDF page.": ""
 }
