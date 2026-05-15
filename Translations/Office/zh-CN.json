@@ -415,6 +415,7 @@
     "Groups an array of drawings in the current document.": "在当前文档中将绘图数组分组。",
     "Inserts a blank page to the current location.": "在当前位置插入空白页。",
     "Inserts an array of elements into the current position of the document.": "将元素数组插入到文档的当前位置。",
+    "Insert paragraphs, plain strings, and inline runs as mixed content in a single call.": "在单次调用中将段落、纯字符串和内联文本段作为混合内容插入。",
     "Add paragraph to the document on the cursor position.": "在光标位置向文档添加段落。",
     "Inserts a watermark on each document page.": "在每个文档页面上插入水印。",
     "Checks if change tracking mode is enabled or not.": "检查是否启用了修订跟踪模式。",
