@@ -1,8 +1,8 @@
-// This example shows how to get the spacing after value of the current paragraph.
+// Find the space below a paragraph in a PDF.
 
-// How to get the size of a spacing after a text from a paragraph.
+// How do I check the spacing that appears after a paragraph in a PDF?
 
-// Return a property of the spacing size after a paragraph.
+// Retrieve the amount of space positioned below a paragraph in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -15,7 +15,7 @@ const shape = Api.CreateShape("flowChartMagneticTape", 150 * 36000, 65 * 36000, 
 shape.SetPosition(608400, 1267200);
 page.AddObject(shape);
 
-const docContent = shape.GetDocContent();
+const docContent = shape.GetContent();
 const paragraph1 = docContent.GetElement(0);
 paragraph1.AddText("This is an example of setting a space after a paragraph. ");
 paragraph1.AddText("The second paragraph will have an offset of one inch from the top. ");

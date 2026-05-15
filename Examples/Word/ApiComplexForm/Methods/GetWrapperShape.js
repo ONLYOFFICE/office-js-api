@@ -1,4 +1,9 @@
-// This example shows how to get a shape in which the form is placed to control the position and size of the fixed size form frame.
+// Obtain the wrapper shape that controls the position and size of a fixed-size form in a document.
+
+// How do I reposition or resize a fixed-size form frame in a document?
+
+// Move a form to an exact location on the page by accessing and adjusting its wrapper shape in a document.
+
 let doc = Api.GetDocument();
 let complexForm = Api.CreateComplexForm({"key": "Complex1"});
 let paragraph = doc.GetElement(0);

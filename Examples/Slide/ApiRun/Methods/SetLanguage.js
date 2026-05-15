@@ -1,8 +1,8 @@
-// This example specifies the languages which will be used to check spelling and grammar (if requested) when processing the contents of this text run.
+// Set the language for spell-check and grammar validation of a text run.
 
-// How to change language of the text for grammar check.
+// Configure the language for grammar checking on text content in a presentation.
 
-// Create a new text run and change its language.
+// Create a text run and assign a language code for grammar processing.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

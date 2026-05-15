@@ -1,8 +1,8 @@
-// This example shows how to get the entire columns containing a range.
+// Select full columns that overlap with a given range in a spreadsheet.
 
-// How to select entire columns from a range.
+// How do I highlight all the columns that a range belongs to in a spreadsheet?
 
-// Get a range, get its entire columns and fill them with color.
+// Fill the complete columns of a range with a background color in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("C3:E5");

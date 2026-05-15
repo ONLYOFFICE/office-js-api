@@ -1,4 +1,8 @@
-// This example shows how to set the name of a drawing.
+// Assign a custom name to a drawing in a document.
+
+// How do I label a shape so it can be identified by name in a document?
+
+// Retrieve and display the assigned name inside the shape itself in a document.
 
 const doc = Api.GetDocument();
 const paragraph = doc.GetElement(0);

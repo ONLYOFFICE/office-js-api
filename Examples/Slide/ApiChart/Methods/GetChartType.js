@@ -1,4 +1,8 @@
-// This example shows how to get a type of a chart
+// Identify the type of a chart in a presentation.
+
+// How do I find out what type of chart I have in a presentation?
+
+// Determine the chart type and display it as the title in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

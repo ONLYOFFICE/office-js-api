@@ -1,8 +1,8 @@
-// This example shows how to get the hyperbolic cosine of a number.
+// Compute the hyperbolic cosine of a value in a spreadsheet.
 
-// How to find a hyperbolic cosine.
+// What is the hyperbolic cosine result of a number in a spreadsheet?
 
-// Use function to get the hyperbolic cosine of an angle.
+// Calculate the exponential curve ratio for a given value in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

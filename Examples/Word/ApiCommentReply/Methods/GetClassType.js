@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Read the class type of a comment reply object in a document.
 
-// How to get a class type of ApiCommentReply.
+// How do I confirm the object type of a comment reply in a document?
 
-// Retrieve class type of ApiCommentReply object and insert it to the slide.
+// Verify that a retrieved object is a comment reply before performing type-specific operations.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

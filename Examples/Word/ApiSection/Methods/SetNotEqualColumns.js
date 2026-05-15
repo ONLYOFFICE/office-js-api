@@ -1,8 +1,8 @@
-// This example specifies that all the columns in the current section have the different widths.
+// Divide a section into columns of varying widths in a document.
 
-// How to split the text into 3 columns with different sizes.
+// How do I create columns that each have a different width in a document?
 
-// Get the final section and divide it to columns.
+// Lay out a section with unevenly sized columns to suit a custom design in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

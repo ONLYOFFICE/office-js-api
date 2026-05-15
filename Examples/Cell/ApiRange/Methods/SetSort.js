@@ -1,8 +1,8 @@
-// This example sorts the cells in the given range by the parameters specified in the request.
+// Sort a range of data by multiple columns in ascending or descending order in a spreadsheet.
 
-// How to sort values of cells specifying the order.
+// How do I reorder rows by the values in one or more columns in a spreadsheet?
 
-// Get a range and sort its values.
+// Organize table data by applying multi-column sort rules in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue(2016);

@@ -1,8 +1,8 @@
-// This example shows how to create a gradient stop used for different types of gradients.
+// Add a gradient stop to define a color transition in a presentation.
 
-// How to add a gradient stop for gradient.
+// How do I create a gradient with multiple color points in a presentation?
 
-// Create a stop for a gradient.
+// Set color positions along a gradient fill to create smooth transitions in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

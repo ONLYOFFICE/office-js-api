@@ -1,8 +1,8 @@
-// This example clears the form.
+// Clear the selected value from a combo box form field in a document.
 
-// How to remove selected item from the combobox form.
+// How do I reset a combo box form field to its empty state in a document?
 
-// Clear answer from the combobox form.
+// Remove a previously entered answer from a combo box so the field shows its placeholder again in a document.
 
 let doc = Api.GetDocument();
 let comboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});

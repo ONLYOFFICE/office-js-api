@@ -1,8 +1,8 @@
-// This example sets the hyperlink address.
+// Change the URL of a hyperlink in a document.
 
-// How to change the link address of the hyperlink object.
+// How do I update the address a hyperlink points to in a document?
 
-// Set link of the hyperlink.
+// Point an existing hyperlink to a different website in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

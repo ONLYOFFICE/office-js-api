@@ -1,8 +1,8 @@
-// This example adds a line break to the current position and starts the next element from a new line.
+// Insert a line break in a paragraph in a presentation.
 
-// How to add a line break after a sentence in a paragraph.
+// How do I move text to the next line within a paragraph in a presentation?
 
-// How to split a text with a line break.
+// Start a new line at the current text position in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

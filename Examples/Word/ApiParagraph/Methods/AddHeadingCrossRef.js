@@ -1,8 +1,8 @@
-// This example adds a heading cross-reference to the paragraph.
+// Insert a cross-reference to a heading into a paragraph in a document.
 
-// How to create a heading reference to the paragraph.
+// How do I link paragraph text to an existing heading in a document?
 
-// Add a cross-reference to the heading of the paragraph.
+// Let readers jump to a titled section by embedding a heading reference inside another paragraph in a document.
 
 let doc = Api.GetDocument();
 let newDocumentStyle = doc.GetStyle("Heading 1");

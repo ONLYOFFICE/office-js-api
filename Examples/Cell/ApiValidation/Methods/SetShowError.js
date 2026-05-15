@@ -1,8 +1,8 @@
-// This example sets whether the error message is displayed.
+// Turn the error alert on or off for a cell that has a validation rule in a spreadsheet.
 
-// How to show or hide the validation error message.
+// How do I make sure an error popup appears whenever someone enters a value that breaks a rule in a spreadsheet?
 
-// Set the ShowError setting.
+// Decide whether users see a warning when their input does not meet the required criteria in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");

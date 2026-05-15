@@ -1,4 +1,8 @@
-// This example shows how to set and get the outline level of the specified paragraph via paragraph properties.
+// Assign an outline level to a paragraph inside a shape in a spreadsheet.
+
+// How do I mark a paragraph as a heading tier for document structure in a spreadsheet?
+
+// Read the current outline depth, change it, then confirm the new value in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

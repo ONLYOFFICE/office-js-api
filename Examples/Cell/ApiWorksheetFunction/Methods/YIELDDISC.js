@@ -1,8 +1,8 @@
-// This example shows how to return the annual yield for a discounted security. For example, a Treasury bill.
+// Calculate the annual yield of a discounted security like a Treasury bill in a spreadsheet.
 
-// How to return an annual yield for a discounted security.
+// How do I find the annual yield for a discounted bond or Treasury bill in a spreadsheet?
 
-// Use a function to get an annual yield.
+// Determine the return rate for a discounted security sold at a price below par in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

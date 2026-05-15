@@ -1,8 +1,8 @@
-// This example sets the font size to the characters of the text Range.
+// Change the text size for a range of characters in a document.
 
-// How to change the range text font size.
+// How do I make a section of text larger or smaller in a document?
 
-// Get a range, resize its font.
+// Resize the letters in a chosen portion of text to stand out or fit better in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

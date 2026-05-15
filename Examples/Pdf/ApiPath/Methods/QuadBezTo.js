@@ -1,5 +1,9 @@
-// Creates a complex curved shape using various bezier and arc commands.
-// Demonstrates different curve types in a single path on a page.
+// Draw a smooth curved line from a control point in a PDF.
+
+// How do I create curved shapes in a PDF?
+
+// Add a curved segment to a path using control points in a PDF.
+
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 

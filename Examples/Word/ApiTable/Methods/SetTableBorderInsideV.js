@@ -1,8 +1,8 @@
-// This example specifies the border which will be displayed on all vertical table cell borders which are not on the outmost edge of the parent table.
+// Add vertical borders between interior columns of a table in a document.
 
-// How to set inside vertical border to the table.
+// How do I draw lines between columns inside a table without affecting its outer edges in a document?
 
-// How to create a 3x3 table and add the inside vertical 4 point orange borders.
+// Separate inner columns visually by applying borders only to the vertical dividers between them in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,4 +1,8 @@
-// This example demonstrates how to get the title of the current workbook.
+// Read the title stored in the workbook document properties in a spreadsheet.
+
+// How do I retrieve the title that has been saved for a workbook in a spreadsheet?
+
+// Fetch the document title from the metadata fields of the file in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

@@ -1,8 +1,8 @@
-// This example shows how to count a number of cells in a range that are not empty.
+// Count all occupied cells regardless of content type in a spreadsheet.
 
-// How to find a number of non-empty cells.
+// What is the total number of filled cells in a range in a spreadsheet?
 
-// Use function to get non-empty cells count.
+// Tally cells containing any data, whether text or numbers, in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let numbersArr = [45, 6, 8];

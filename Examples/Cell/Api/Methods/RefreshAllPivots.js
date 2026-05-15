@@ -1,8 +1,8 @@
-// This example how to refresh all pivot tables in the active workbook.
+// Refresh all pivot tables so they reflect the latest source data in a spreadsheet.
 
-// How to refresh all pivot tables in a worksheet.
+// How do I update every pivot table at once when the underlying data changes in a spreadsheet?
 
-// Refresh all values from the pivot table using a method.
+// Synchronize all summary views with the most recent data in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

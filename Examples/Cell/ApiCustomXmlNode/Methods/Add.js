@@ -1,8 +1,8 @@
-// This example shows how to create a new child node and insert it as a child of the current XML node.
+// Insert a new child element under an existing XML node in a spreadsheet.
 
-// How to add a child node to an XML node.
+// How do I append a nested element to a custom XML node in a spreadsheet?
 
-// Add a new child node.
+// Expand an embedded XML structure by adding a sub-node to an existing parent in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let xmlManager = worksheet.GetCustomXmlParts();

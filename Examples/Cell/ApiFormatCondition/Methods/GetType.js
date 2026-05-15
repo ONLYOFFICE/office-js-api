@@ -1,8 +1,8 @@
-// This example gets the type of a conditional formatting rule.
+// Read the category that classifies a conditional formatting rule in a spreadsheet.
 
-// How to retrieve the type of existing conditional formatting rules.
+// How do I find out whether a formatting rule is based on cell value, a formula, or a date period in a spreadsheet?
 
-// Get conditional formatting rule type.
+// Inspect what kind of condition a formatting rule evaluates in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

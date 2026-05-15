@@ -1,4 +1,9 @@
-// This example sets field widgets border width.
+// Set the border thickness for field widgets in a PDF.
+
+// How do I change the border width for widgets in a PDF?
+
+// Apply different border thicknesses to widget outlines in a PDF.
+
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 let textField = Api.CreateTextField([10, 10, 160, 30]);

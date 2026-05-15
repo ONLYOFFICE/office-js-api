@@ -1,4 +1,8 @@
-// This example shows how to get the chart title text.
+// Read the title text from an existing chart in a spreadsheet.
+
+// How do I retrieve the current title of a chart in a spreadsheet?
+
+// Access the label displayed at the top of a chart in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 worksheet.GetRange('B1').SetValue(2014);

@@ -1,8 +1,8 @@
-// This example shows how to get all comments from the worksheet.
+// Collect every comment from all sheets into one list in a spreadsheet.
 
-// How to get all comments from the worksheet.
+// How do I retrieve all comments that exist anywhere in a spreadsheet?
 
-// Get all cell comments.
+// Gather every annotation added by any author in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();Api.AddComment("Comment 1", "John Smith");
 worksheet.GetRange("A4").AddComment("Comment 2", "Mark Potato");

@@ -1,8 +1,8 @@
-// This example shows how to get a name of a pivot field.
+// Read the name of a pivot table field in a spreadsheet.
 
-// How to get a pivot field name.
+// How do I find out the name of a pivot field in a spreadsheet?
 
-// Create a pivot table, add data to it then get a name of a specified pivot field.
+// Retrieve a pivot field label to confirm which column it corresponds to in the source data.
 
 let worksheet = Api.GetActiveSheet();
 

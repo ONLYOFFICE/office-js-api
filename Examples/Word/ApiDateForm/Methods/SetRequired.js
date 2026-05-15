@@ -1,8 +1,8 @@
-// This example specifies if the form should be required.
+// Mark a date form as required in a document.
 
-// How to make a date form required.
+// How do I make a date form mandatory in a document?
 
-// Make sure that there is an answer to the date form.
+// Enable the required flag on a date form and confirm the setting is active in a document.
 
 let doc = Api.GetDocument();
 let dateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": false, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});

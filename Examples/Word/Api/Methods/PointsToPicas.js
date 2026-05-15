@@ -1,4 +1,8 @@
-// This example shows how to convert points to picas.
+// Convert a measurement from points to picas in a document.
+
+// How do I convert points to picas in a document?
+
+// Display the pica equivalent of a point value as text in a document.
 
 const doc = Api.GetDocument();
 const paragraph = Api.CreateParagraph();

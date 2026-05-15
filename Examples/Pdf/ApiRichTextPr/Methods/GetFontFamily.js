@@ -1,4 +1,9 @@
-// This example gets font family property from rich text properties object.
+// Find out which font is applied to text in a PDF.
+
+// How do I check what typeface a text uses in a PDF?
+
+// Read the font selection for formatted text in a PDF.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// This example demonstrates getting the axis color from a data bar conditional formatting rule.
+// Read the color set for the midpoint axis line of a bar rule in a spreadsheet.
 
-// How to retrieve the axis color of a data bar.
+// How do I find out what color the axis line has in a data bar rule in a spreadsheet?
 
-// Get the axis color of a data bar conditional formatting rule.
+// Inspect the axis line color to verify or copy bar formatting settings in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

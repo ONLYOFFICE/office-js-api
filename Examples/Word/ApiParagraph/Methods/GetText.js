@@ -1,8 +1,8 @@
-// This example shows how to get the paragraph text.
+// Extract the plain text content of a paragraph in a document.
 
-// How to get text of the paragraph object.
+// How do I read the text string from a paragraph in a document?
 
-// Get the paragraph text and display it.
+// Retrieve paragraph text with custom separators and print it in a second paragraph in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

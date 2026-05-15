@@ -1,4 +1,8 @@
-// This example shows how to create an auto-color and use it as a font color.
+// Apply automatic text color to a paragraph in a document.
+
+// How do I set text to use the automatic color in a document?
+
+// Let the editor choose the appropriate text color automatically in a document.
 
 const doc = Api.GetDocument();
 const color = Api.AutoColor();

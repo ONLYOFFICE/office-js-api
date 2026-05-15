@@ -1,8 +1,8 @@
-// This example sets a sequence of custom tab stops which will be used for any tab characters in the paragraph.
+// Place custom tab stops at specific positions inside a paragraph in a spreadsheet.
 
-// How to change sizes of tabs between paragraphs.
+// How do I align text columns using tabs at precise distances in a spreadsheet?
 
-// Customize all kind of tabs indicating sizes.
+// Define left, center, and right tab stops so text snaps into tidy columns when a tab character is inserted in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

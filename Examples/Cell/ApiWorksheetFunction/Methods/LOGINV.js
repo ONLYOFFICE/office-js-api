@@ -1,8 +1,8 @@
-// This example shows how to return the inverse of the lognormal cumulative distribution function of x, where ln(x) is normally distributed with the specified parameters.
+// Find the value that corresponds to a given probability in a lognormal distribution in a spreadsheet.
 
-// How to get the lognormal cumulative distribution function of x.
+// How do I calculate the inverse probability for a lognormal distributed dataset in a spreadsheet?
 
-// Use a function to return the lognormal cumulative distribution function.
+// Compute the x value for a specific percentile in a lognormal distribution in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// This example adds an object (image, shape or chart) to the current presentation slide.
+// Create and add a 3D bar chart to a presentation slide.
 
-// How to add an element to the slide.
+// Define chart data with two data series, axis titles, legend position, and styling.
 
-// Create a chart and add it to the ApiSlide object.
+// Apply custom fill colors to chart series and position the chart on the slide.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

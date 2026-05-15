@@ -1,4 +1,8 @@
-// This example demonstrates how to use ApiCustomProperties to configure custom properties in a spreadsheet.
+// Add and read user-defined properties attached to a spreadsheet.
+
+// How do I store custom key-value data inside a spreadsheet?
+
+// Attach extra information of any type to the document itself in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

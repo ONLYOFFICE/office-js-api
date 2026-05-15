@@ -1,8 +1,8 @@
-// This example show how to create a group.
+// Group multiple shapes together in a presentation.
 
-// How to create a group of drawings.
+// How do I combine shapes so they move as one unit in a presentation?
 
-// Group the specified list of shapes.
+// Bundle selected shapes into a single object for coordinated movement in a presentation.
 
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);

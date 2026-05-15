@@ -1,8 +1,8 @@
-// This example shows how to crate a stroke.
+// Add a colored border outline to a shape in a PDF.
 
-// How to add a stroke to the shape.
+// How do I add a stroke to the edge of a shape in a PDF?
 
-// Add solid fill and stroke to the shape properties.
+// Apply a stroke with gradient fill to a shape's outline in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,11 +1,10 @@
-// This example shows how to return the gamma distribution.
+// Return the gamma distribution.
 
-// How to calculate the gamma distribution.
+// Calculate the probability distribution for gamma-distributed values.
 
-// Use a function to get the result from a gamma distribution.
+// Determine gamma distribution using GAMMADIST with shape and scale parameters.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;
 let ans = func.GAMMADIST(10, 9, 2, false);
 worksheet.GetRange("B2").SetValue(ans);
-

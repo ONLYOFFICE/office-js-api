@@ -1,4 +1,9 @@
-// This example gets rich paragraph index in parent rich content.
+// Find a paragraph's position within its container in a PDF.
+
+// How do I locate where a paragraph sits in a PDF?
+
+// Determine the placement order of a paragraph in a PDF.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

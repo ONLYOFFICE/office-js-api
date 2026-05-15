@@ -1,4 +1,8 @@
-// This example shows how to get the internal identifier of a document content element inside a shape.
+// Read the unique identifier assigned to a shape's text area in a spreadsheet.
+
+// How do I obtain the internal identifier of a shape's text area in a spreadsheet?
+
+// Store the text area identifier in a cell for reference in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const fill = Api.CreateSolidFill(Api.RGB(89, 130, 190));

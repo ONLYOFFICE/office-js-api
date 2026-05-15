@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the presentation.
+// Find the class type of a shape in a presentation.
 
-// How to get a class type of ApiShape.
+// How do I identify a shape's class type in a presentation?
 
-// Retrieve class type of ApiShape object and insert it to the slide.
+// Display the class identifier of a shape object in a presentation.
 
 const presentation = Api.GetPresentation();
 presentation.SetSizes(254 * 36000, 190 * 36000);

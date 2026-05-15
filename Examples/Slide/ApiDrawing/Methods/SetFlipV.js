@@ -1,8 +1,8 @@
-// This example shows how to flip the drawing vertically.
+// Mirror an object top-to-bottom on a slide in a presentation.
 
-// How to set the vertical flip property of the shape.
+// How do I flip a shape vertically in a presentation?
 
-// Create a drawing and flip it vertically.
+// Create a shape, reverse it vertically, and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

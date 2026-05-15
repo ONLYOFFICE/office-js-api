@@ -1,5 +1,9 @@
-// Gets the width of a stroke in EMU.
-// Creates shapes with different border widths and displays their widths.
+// Measure the thickness of a border line in a presentation.
+
+// How do I find out how thick a border is in a presentation?
+
+// Read the border width value and display it in a presentation.
+
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 200, 100));

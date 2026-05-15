@@ -1,8 +1,8 @@
-// This example specifies an amount of space which shall be left between the right extent of the current cell contents and the right edge border of a specific individual table cell within a table.
+// Set the spacing between text and the right edge of a table cell in a presentation.
 
-// How to set the cell right margin for the current table cell.
+// How do I add space to the right of text in a table cell in a presentation?
 
-// Specify the right margin value for the ApiTableCell object.
+// Adjust the right margin to control padding in a table cell in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

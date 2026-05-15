@@ -1,8 +1,8 @@
-// This example shows how to get a sheet collection that represents all the sheets in the active workbook.
+// Collect all sheet tabs into a list and display their names in cells in a spreadsheet.
 
-// Get all sheets as an array.
+// How do I loop through every sheet in the workbook and read their names in a spreadsheet?
 
-// How to get array of sheets.
+// Build an inventory of all tabs by gathering their titles and writing them out in a spreadsheet.
 
 Api.AddSheet("new_sheet_name");
 let sheets = Api.GetSheets();

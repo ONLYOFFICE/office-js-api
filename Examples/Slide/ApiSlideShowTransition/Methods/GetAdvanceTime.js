@@ -1,4 +1,8 @@
-// This example gets the automatic advance time and displays it.
+// Get the automatic advance time and display it in a presentation.
+
+// Retrieve the advance time value from a slide show transition object.
+
+// Display the retrieved advance time as milliseconds in a shape on the slide.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

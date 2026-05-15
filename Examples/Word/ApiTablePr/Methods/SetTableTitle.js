@@ -1,8 +1,8 @@
-// This example sets the table title.
+// Assign a descriptive title to a table in a document.
 
-// How to rename the table title.
+// How do I give a table a named title so it can be identified in a document?
 
-// Create a table and indicate its title.
+// Label a table with a title string to make it easier to reference in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

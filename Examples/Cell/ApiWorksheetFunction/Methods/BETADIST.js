@@ -1,8 +1,8 @@
-// This example shows how to return the beta probability distribution function.
+// Determine cumulative probability for beta distribution in a spreadsheet.
 
-// How to get a result from beta probability distribution function.
+// How do I calculate what percentage of outcomes fall below a specific value in a spreadsheet?
 
-// Use function to get the beta probability distribution function.
+// Assess the probability that a random result occurs up to a given threshold in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

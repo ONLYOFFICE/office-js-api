@@ -1,8 +1,8 @@
-// This example sets the border color to the current form.
+// Set a border color on a date form in a document.
 
-// Applies an orange border (RGB: 255, 111, 61) to highlight the date form form visually.
+// How do I change the border color of a date form in a document?
 
-// Define the border color of the date form.
+// Highlight a date form with a colored outline to draw attention to it in a document.
 
 let doc = Api.GetDocument();
 let dateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});

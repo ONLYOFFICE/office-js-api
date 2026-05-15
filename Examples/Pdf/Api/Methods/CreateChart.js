@@ -1,6 +1,8 @@
-// How to add charts to pdf document.
+// Add a 3D bar chart to a PDF.
 
-// Create a 3D bar chart, set its size, position, color and other properties.
+// How do I insert a chart in a PDF?
+
+// Configure a chart's size, position, and styling in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

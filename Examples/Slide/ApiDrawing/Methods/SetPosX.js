@@ -1,4 +1,8 @@
-// This example sets the x position of the drawing on the slide.
+// Move a shape horizontally on a slide in a presentation.
+
+// How do I change the horizontal position of a shape in a presentation?
+
+// Create a shape and move it to a specific distance from the left in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// This example sets a name for a seria of a chart.
+// Rename a data series in a chart in a document.
 
-// How to rename a chart seria.
+// How do I change the label of a chart series in a document?
 
-// Create a chart, set its properties and its series names.
+// Replace an existing series label with a custom name so the legend reflects the correct meaning in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

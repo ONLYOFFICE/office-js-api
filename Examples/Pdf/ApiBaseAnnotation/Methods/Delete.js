@@ -1,4 +1,9 @@
-// This example removes the square annotation from document.
+// Remove an annotation from a PDF.
+
+// How do I delete an annotation in a PDF?
+
+// Erase an annotation that no longer needs to be in a PDF.
+
 let doc = Api.GetDocument();
 let squareAnnot = Api.CreateSquareAnnot([10, 10, 160, 32]);
 let page = doc.GetPage(0);

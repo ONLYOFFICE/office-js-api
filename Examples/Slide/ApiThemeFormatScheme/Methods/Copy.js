@@ -1,8 +1,8 @@
-// This example creates a copy of the current theme format scheme.
+// Duplicate a theme format scheme in a presentation.
 
-// How to create a copy of a format scheme.
+// How do I create a copy of a format scheme in a presentation?
 
-// Get format scheme and create its copy.
+// Make a replica of an existing theme format scheme to apply to another slide in a presentation.
 
 const presentation = Api.GetPresentation();
 var master = presentation.GetMaster(0);

@@ -1,8 +1,8 @@
-// This example sets a locale to the document.
+// Apply a specific regional language setting to the document in a spreadsheet.
 
-// How to set a region to the document.
+// How do I change the language and region used for dates, numbers, and text in a spreadsheet?
 
-// Set or change the locale of the document.
+// Switch the document locale to match the target audience's region in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 Api.SetLocale("en-CA");

@@ -1,8 +1,8 @@
-// This example shows how to the hyperbolic cosecant of an angle.
+// Calculate the hyperbolic cosecant for an angle in a spreadsheet.
 
-// How to return hyperbolic cosecant.
+// What is the hyperbolic cosecant value in a spreadsheet?
 
-// Use function to get the hyperbolic cosecant of an angle.
+// Determine the inverse hyperbolic sine ratio in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

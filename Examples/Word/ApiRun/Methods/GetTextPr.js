@@ -1,8 +1,8 @@
-// This example shows how to get the text properties of the run.
+// Read the text formatting settings applied to a run in a document.
 
-// How to change the text properties.
+// How do I retrieve the current text formatting of a run in a document?
 
-// Create a text object, set its font size, justification, etc.
+// Inspect and reuse the styling options already set on a piece of text in a document.
 
 let doc = Api.GetDocument();
 let myNewRunStyle = doc.CreateStyle("My New Run Style", "run");

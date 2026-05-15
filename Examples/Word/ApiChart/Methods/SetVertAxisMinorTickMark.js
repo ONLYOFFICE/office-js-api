@@ -1,8 +1,8 @@
-// This example specifies the minor tick mark for the vertical axis.
+// Set the style of minor tick marks on the vertical axis of a chart in a document.
 
-// How to set a minor tick mark using predefined symbols.
+// How do I add small subdivision markers between major intervals on the vertical axis in a document?
 
-// Create a chart, set its properties and minor tick mark for vertical axis.
+// Increase axis precision by displaying minor tick marks at sub-interval positions in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

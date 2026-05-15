@@ -1,6 +1,6 @@
-// This example adds a cross-reference to the page containing a table caption.
+// Add a cross-reference to the page number of a table caption.
 
-// How to create a reference to the paragraph with a caption.
+// Create a reference to the paragraph with a caption.
 
 // Use caption to create a cross-reference.
 

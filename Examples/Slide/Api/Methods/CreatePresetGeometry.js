@@ -1,4 +1,9 @@
-// This example demonstrates creating a preset geometry in presentations.
+// Use a built-in shape template in a presentation.
+
+// How do I apply a preset shape to an object in a presentation?
+
+// Create a shape with a predefined geometry like a star in a presentation.
+
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);
 

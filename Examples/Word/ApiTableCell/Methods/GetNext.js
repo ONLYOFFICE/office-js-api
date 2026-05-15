@@ -1,8 +1,8 @@
-// This example shows how to get the next cell.
+// Navigate to the cell that follows a given table cell in a document.
 
-// How to get next cell.
+// How do I move to the next cell after a specific table cell in a document?
 
-// Retrieve the cell from the table and get the next one.
+// Step forward from one table cell to the adjacent one in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

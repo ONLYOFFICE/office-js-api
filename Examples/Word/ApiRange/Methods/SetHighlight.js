@@ -1,8 +1,8 @@
-// This example specifies a highlighting color which is applied as a background to the contents of the Range.
+// Add a background highlight color behind a range of text in a document.
 
-// How to color a range background.
+// How do I highlight a portion of text with a colored background in a document?
 
-// Create a range and add color to its background.
+// Draw attention to specific words by painting a color behind them in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

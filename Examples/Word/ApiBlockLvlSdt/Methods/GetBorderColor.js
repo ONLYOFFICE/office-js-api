@@ -1,4 +1,8 @@
-// This example shows how to get the border color of the block-level container.
+// Read the border color of a content control in a document.
+
+// How do I get the border color set on a content control in a document?
+
+// Check what border color a content control has and display its hex value in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

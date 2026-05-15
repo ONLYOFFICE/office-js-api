@@ -1,8 +1,8 @@
-// This example sets a style to the run.
+// Apply a predefined text style to a run of characters in a spreadsheet.
 
-// How to style a text.
+// How do I give a piece of text a consistent named style in a spreadsheet?
 
-// Create a text run object, create a text style and apply it.
+// Reuse a saved style definition to keep text formatting uniform across a shape in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

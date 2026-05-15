@@ -1,8 +1,8 @@
-// This example shows how to return the number of whole workdays between two dates with custom weekend parameters.
+// Count working days with custom weekend rules in a spreadsheet.
 
-// How to get the number of whole dates with parameters.
+// Calculate business days using a specific weekend pattern in a spreadsheet.
 
-// Use a function to get number of days between two dates.
+// Exclude custom holidays and weekends from workday calculations in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

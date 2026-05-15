@@ -1,8 +1,8 @@
-// This example specifies the properties (size and orientation) for all the pages in the section.
+// Set the width and height of all pages within a section in a document.
 
-// How to set page size.
+// How do I change the physical dimensions of the pages in a section in a document?
 
-// Get the final section and resize its page.
+// Resize the pages of a section to fit a custom paper format in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

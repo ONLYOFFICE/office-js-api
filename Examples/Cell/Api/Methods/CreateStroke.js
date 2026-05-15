@@ -1,8 +1,8 @@
-// This example creates a stroke adding shadows to the element.
+// Draw a colored border around a shape with a chosen width in a spreadsheet.
 
-// How to create a stroke with a gradient fill.
+// How do I add a visible outline to a shape in a spreadsheet?
 
-// Set a gradient stroke for a shape.
+// Surround a shape with a styled border to make its edges clearly defined in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let gs1 = Api.CreateGradientStop(Api.RGB(255, 213, 191), 0);

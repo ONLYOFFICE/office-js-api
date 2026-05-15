@@ -1,8 +1,8 @@
-// This example converts the ApiDrawing object into the JSON object.
+// Serialize a drawing to JSON and restore it as a new shape in a document.
 
-// How to get a JSON object from the drawing.
+// How do I convert a drawing object to JSON in a document?
 
-// Convert the shape to json and add it to the paragraph.
+// Duplicate a shape by exporting it to JSON and rebuilding it from that data in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,6 +1,8 @@
-// How to create new table with two rows and four columns.
+// Insert a table with multiple rows and columns in a PDF.
 
-// Add a table to the pdf document.
+// How do I add a table to a PDF page?
+
+// Create and place a table with specific dimensions in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

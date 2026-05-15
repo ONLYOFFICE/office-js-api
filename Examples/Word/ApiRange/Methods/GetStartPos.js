@@ -1,8 +1,8 @@
-// This example gets the start position of a given range object.
+// Determine where a selected region of text begins within the content in a document.
 
-// Get the start index of the range and display it.
+// How do I find the first character position of a text selection in a document?
 
-// Retrieve a range of the paragraph and show its first position.
+// Pinpoint the opening boundary of a highlighted span to measure its starting point in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

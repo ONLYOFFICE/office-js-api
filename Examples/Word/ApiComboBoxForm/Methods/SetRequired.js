@@ -1,8 +1,8 @@
-// This example specifies if the form should be required.
+// Mark a combo box form as required in a document.
 
-// How to make a combobox required.
+// How do I make a combo box form required in a document?
 
-// Make sure that there is an answer to the combobox.
+// Enforce that a user must fill in a combo box before submitting a form in a document.
 
 let doc = Api.GetDocument();
 let comboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});

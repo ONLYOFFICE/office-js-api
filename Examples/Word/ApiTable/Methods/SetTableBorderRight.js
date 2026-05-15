@@ -1,8 +1,8 @@
-// This example sets the border which will be displayed on the right of the table.
+// Set a border along the right side of a table in a document.
 
-// How to create a 3x3 table and add the right 4 point black border.
+// How do I apply a thick border to the right edge of a table in a document?
 
-// Add right border to the table.
+// Distinguish the right side of a table from surrounding content in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

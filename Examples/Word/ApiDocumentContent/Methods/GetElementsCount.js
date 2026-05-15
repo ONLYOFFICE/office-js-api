@@ -1,8 +1,8 @@
-// This example shows how to get a number of elements in the current document content.
+// Count all elements inside a document content container in a document.
 
-// How to get elements count and push it to the paragraph.
+// How do I get the total number of elements in a document content in a document?
 
-// Count the number of elements in the document.
+// Check how many elements a shape holds after modifying its content programmatically.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

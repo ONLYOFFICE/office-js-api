@@ -1,6 +1,8 @@
-// How to color a data point.
+// Apply a color to an individual data point in a chart in a PDF.
 
-// Create a chart then color its data points.
+// How do I change the color of a single bar or point in a chart in a PDF?
+
+// Fill a specific data point with a color in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

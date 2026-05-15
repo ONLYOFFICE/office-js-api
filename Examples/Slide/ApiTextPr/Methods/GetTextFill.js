@@ -1,8 +1,8 @@
-// This example shows how to find out a color of a text.
+// Read the text color or fill properties in a presentation.
 
-// How to know a color fill of a text.
+// How do I check what color is applied to text in a presentation?
 
-// Get the text properties of the run and display its font color.
+// Get the fill property of text to retrieve the color or fill style in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

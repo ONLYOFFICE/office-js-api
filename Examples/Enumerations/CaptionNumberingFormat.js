@@ -1,4 +1,4 @@
-// This example add a caption with the Arabic numbering format to the paragraph.
+// Add a caption with the Arabic numbering format to the paragraph.
 
 // How to add a caption to the paragraph specifying numbering format.
 

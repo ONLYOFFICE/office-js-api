@@ -1,4 +1,8 @@
-// This example shows how to get the theme color name of an ApiColor object.
+// Retrieve the theme color name from a color object in a document.
+
+// How do I find out which theme slot a color belongs to in a document?
+
+// Distinguish between a color defined by a hex value and one tied to a named theme slot in a document.
 
 const doc = Api.GetDocument();
 const paragraph = doc.GetElement(0);

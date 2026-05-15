@@ -1,8 +1,8 @@
-// This example shows how to get the comment reply text.
+// Read the written content of a reply to a comment in a spreadsheet.
 
-// How to get a raw text of a reply.
+// How do I retrieve the message a user left as a reply to a comment in a spreadsheet?
 
-// Display a reply text to a range of the worksheet.
+// Extract the reply text from a comment thread and show it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

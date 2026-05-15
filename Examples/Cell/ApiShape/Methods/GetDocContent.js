@@ -1,8 +1,8 @@
-// This example shows how to get the shape inner contents where a paragraph or text runs can be inserted.
+// Open the document-level content of a shape and replace its text with a new paragraph in a spreadsheet.
 
-// How to get content of ApiShape.
+// How do I rewrite the document content stored inside a shape in a spreadsheet?
 
-// Get content of ApiShape, remove all its elements and add a new paragraph to it.
+// Clear all existing elements from a shape's document body and push in a fresh paragraph in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

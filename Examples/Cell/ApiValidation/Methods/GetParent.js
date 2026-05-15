@@ -1,8 +1,8 @@
-// This example gets the parent range of the validation.
+// Identify the cell range that owns a given validation rule in a spreadsheet.
 
-// How to retrieve the validation parent range.
+// How do I find out which cells a data validation rule belongs to in a spreadsheet?
 
-// Get the parent range.
+// Trace back from a validation object to the range of cells it is applied to in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1:A5");

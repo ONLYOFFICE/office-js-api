@@ -1,4 +1,9 @@
-// This example gets all field widgets and sets text autofit for them.
+// Enable automatic text fitting for all field widgets in a PDF.
+
+// How do I set autofit for field widgets in a PDF?
+
+// Apply autofit to scale text to fit widget boundaries in a PDF.
+
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 let textField = Api.CreateTextField([10, 10, 160, 30]);

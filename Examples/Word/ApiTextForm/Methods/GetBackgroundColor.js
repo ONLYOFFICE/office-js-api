@@ -1,4 +1,8 @@
-// This example shows how to set and get the background color of the current form.
+// Read the background color applied to a text field in a document.
+
+// How do I retrieve the fill color of a text entry area in a document?
+
+// Inspect the color used behind a text field to verify its appearance in a document.
 
 let doc = Api.GetDocument();
 

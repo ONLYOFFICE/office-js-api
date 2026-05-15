@@ -1,6 +1,8 @@
-// How to get a class type of ApiDrawing.
+// Check what type of shape an object is in a PDF.
 
-// Retrieve class type of ApiDrawing object and insert it to the page.
+// How do I identify the category of a drawing object in a PDF?
+
+// Determine the kind of object you're working with in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

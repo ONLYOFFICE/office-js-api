@@ -1,8 +1,8 @@
-// This example shows how to get the cosine of an angle.
+// Calculate the cosine value of an angle in a spreadsheet.
 
-// How to find a cosine.
+// What is the cosine of a given angle in a spreadsheet?
 
-// Use function to get the cosine of an angle.
+// Find the ratio of a triangle's side using an angle in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

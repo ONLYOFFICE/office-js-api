@@ -1,8 +1,8 @@
-// This example sets the comment author's name.
+// Change the author name on an existing comment in a document.
 
-// How to change a comment's author name.
+// How do I update the author name displayed on a comment in a document?
 
-// Get all comments from the presentation and set an author for the first one.
+// Reassign a comment to a different author by overwriting the stored name.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example shows how to get the default style parameters for the specified document element.
+// Retrieve and update the default style for a specific element type in a document.
 
-// How to get default style of a document element indicating its name.
+// How do I look up the built-in style applied to paragraphs by default in a document?
 
-// Update the default style of the paragraph element.
+// Override paragraph spacing and alignment at the default style level so every matching element is affected in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

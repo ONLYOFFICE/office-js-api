@@ -1,8 +1,8 @@
-// This example shows how to create layout.
+// Create a custom slide layout in a presentation.
 
-// How to create and apply a layout for a slide.
+// How do I design a layout template for multiple slides in a presentation?
 
-// Change a slide layout.
+// Apply a predefined layout to existing and new slides in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide1 = presentation.GetSlideByIndex(0);

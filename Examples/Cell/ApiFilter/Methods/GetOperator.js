@@ -1,8 +1,8 @@
-// This example reads the operator used by a filter.
+// Read the comparison operator used by a column filter in a spreadsheet.
 
-// How to detect the type of filter (values, custom AND/OR, dynamic, top10, etc.).
+// How do I find out what kind of filtering rule is applied to a column in a spreadsheet?
 
-// Use ApiFilter.GetOperator() to identify the filter operator.
+// Identify the filtering logic behind a column's filter to understand how rows are shown or hidden in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

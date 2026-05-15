@@ -1,4 +1,8 @@
-// This example shows how to get an element from a hyperlink inside a shape.
+// Access a specific content element inside a hyperlink in a spreadsheet.
+
+// How do I read the inner content of a hyperlink in a spreadsheet?
+
+// Pull out an individual piece from a hyperlink by its position in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

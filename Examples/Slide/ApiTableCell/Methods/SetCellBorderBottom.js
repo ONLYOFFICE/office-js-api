@@ -1,8 +1,8 @@
-// This example sets the border which shall be displayed at the bottom of the table cell.
+// Apply a border with fill color to the bottom of a table cell.
 
-// How to set cell bottom border with its fill color.
+// Set the bottom border style and fill for the cell.
 
-// Create table and set its cell bottom border.
+// Create a table cell and apply a bottom border with color.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

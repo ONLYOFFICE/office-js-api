@@ -1,8 +1,8 @@
-// This example shows how to count nonblank cells in the field (column) of records in the database that match the conditions you specify.
+// Count all filled cells in a database column that match your filter in a spreadsheet.
 
-// How to count the non-empty cells containing numbers in the field (column) of records in the database that match the conditions you specify.
+// How many non-empty entries satisfy the conditions you set in a spreadsheet?
 
-// Use function to count numbers from non-empty database records that met a condition specified.
+// Find how many records have any value in your filtered database column in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

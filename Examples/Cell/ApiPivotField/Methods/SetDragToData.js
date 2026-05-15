@@ -1,8 +1,8 @@
-// This example shows how to set a drag to data of a pivot field.
+// Control whether a pivot field can be dragged into the values area in a spreadsheet.
 
-// How to rename a pivot field drag to data.
+// How do I prevent a pivot field from being moved to the values area in a spreadsheet?
 
-// Create a pivot table, add data to it then set drag to data of a specified pivot using boolean value.
+// Lock a pivot field so users cannot reposition it as a data value in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// This example sets the placeholder type.
+// Assign a category to a placeholder in a presentation.
 
-// How to set a placeholder type (chart, table, etc.).
+// How do I change the placeholder category in a shape in a presentation?
 
-// Create a shape and set its placeholder type to "chart".
+// Create a placeholder and change its type in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,4 +1,8 @@
-// This example shows how to update an XML element in a custom XML part.
+// Replace the content of a stored XML element with new data in a spreadsheet.
+
+// How do I change the value inside a saved XML structure in a spreadsheet?
+
+// Overwrite an existing XML node to keep embedded data current in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const xmlManager = worksheet.GetCustomXmlParts();

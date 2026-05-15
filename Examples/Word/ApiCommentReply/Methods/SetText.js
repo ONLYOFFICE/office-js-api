@@ -1,8 +1,8 @@
-// This example sets the comment reply text.
+// Replace the text of a comment reply in a document.
 
-// How to change a text of a comment reply.
+// How do I update the text of a comment reply in a document?
 
-// Get all comments from the presentation and set its first one's reply text.
+// Overwrite an existing reply message with new content to correct or revise feedback.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

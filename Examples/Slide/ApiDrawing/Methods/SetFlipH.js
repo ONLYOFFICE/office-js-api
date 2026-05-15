@@ -1,8 +1,8 @@
-// This example shows how to flip the drawing horizontally.
+// Mirror an object left-to-right on a slide in a presentation.
 
-// How to set the horizontal flip property of the shape.
+// How do I flip a shape horizontally in a presentation?
 
-// Create a drawing and flip it horizontally.
+// Create a shape, reverse it horizontally, and display the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

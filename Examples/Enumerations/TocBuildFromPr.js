@@ -1,4 +1,4 @@
-// This example adds a table of contents which is generated from 9 outline levels to the document.
+// Add a table of contents which is generated from 9 outline levels to the document.
 
 // How to create a table of contents properties indicating the source from which it should be generated.
 

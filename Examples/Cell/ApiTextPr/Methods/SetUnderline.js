@@ -1,8 +1,8 @@
-// This example specifies that the contents of the current run are displayed along with a line appearing directly below the character (less than all the spacing above and below the characters on the line).
+// Underline text inside a shape in a spreadsheet.
 
-// How to underline a text.
+// How do I add an underline beneath text in a spreadsheet?
 
-// Add text underline.
+// Emphasize text by placing a line directly below the characters in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

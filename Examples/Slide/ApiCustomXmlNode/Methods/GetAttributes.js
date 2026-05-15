@@ -1,4 +1,8 @@
-// This example shows how to retrieve and display the attributes of the current XML node.
+// List all properties of an XML element in a presentation.
+
+// How do I view all attributes assigned to an XML node in a presentation?
+
+// Retrieve the name-value pairs of an XML element in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

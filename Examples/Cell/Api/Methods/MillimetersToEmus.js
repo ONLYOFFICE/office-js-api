@@ -1,4 +1,8 @@
-// This example shows how to convert millimeters to emus.
+// Turn a millimeter measurement into EMUs in a spreadsheet.
+
+// How do I convert millimeters to EMU units in a spreadsheet?
+
+// Show the EMU equivalent of a given millimeter value in a spreadsheet.
 
 const millimeters = 0.2001;
 const emus = Api.MillimetersToEmus(millimeters);

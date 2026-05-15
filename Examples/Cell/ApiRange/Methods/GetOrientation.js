@@ -1,8 +1,8 @@
-// This example shows how to get the range angle.
+// Read the text rotation angle applied to a cell range in a spreadsheet.
 
-// How to find out cell orientation of a range.
+// How do I find out the current text orientation of a range in a spreadsheet?
 
-// Get a range, get its orientation (upward, downward, etc.) and show it in the worksheet.
+// Confirm the direction cells are tilted after applying a rotation style in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

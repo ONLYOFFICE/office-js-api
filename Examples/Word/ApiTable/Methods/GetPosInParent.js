@@ -1,8 +1,8 @@
-// This example shows how to get the table position within its parent element.
+// Find the index position of a table among its siblings in a document.
 
-// How to find out the location of the table in its parent one.
+// How do I determine where a table sits relative to other elements in a document?
 
-// Get the position index of the table.
+// Identify the numeric position of a table within its parent container in a document.
 
 let doc = Api.GetDocument();
 let paragraph = Api.CreateParagraph();

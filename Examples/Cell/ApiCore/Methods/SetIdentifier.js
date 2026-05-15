@@ -1,4 +1,8 @@
-// This example demonstrates how to set the identifier of the workbook using the ApiCore.
+// Assign a unique identifier to a workbook through its document properties in a spreadsheet.
+
+// How do I tag a workbook with a unique ID in a spreadsheet?
+
+// Label the workbook with a custom reference code stored in its metadata in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

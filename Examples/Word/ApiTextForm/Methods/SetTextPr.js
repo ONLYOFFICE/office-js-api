@@ -1,8 +1,8 @@
-// This example sets the text properties to the current form.
+// Apply custom text formatting to a text form in a document.
 
-// Add text properties to the text form.
+// How do I change the font style and size of text inside a form field in a document?
 
-// How to create a text form and make its text bold and bigger.
+// Style the text inside a form field to stand out visually in a document.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});

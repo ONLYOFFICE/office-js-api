@@ -1,8 +1,8 @@
-// This example specifies the show options for the chart data labels.
+// Configure the data label display for a single chart data point in a spreadsheet.
 
-// How to hide chart data labels using options.
+// How do I control what a data label shows for one specific point on a chart in a spreadsheet?
 
-// Show only values as chart lables with series index equal to 1 from the array of the data used to build the chart from.
+// Display only the numeric value as a label on an individual bar within a chosen chart series in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

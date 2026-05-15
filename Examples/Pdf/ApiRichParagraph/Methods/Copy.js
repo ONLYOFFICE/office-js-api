@@ -1,4 +1,9 @@
-// This example copies rich paragraph.
+// Duplicate a paragraph in a PDF.
+
+// How do I create a copy of a paragraph in a PDF?
+
+// Clone an existing paragraph and add it to content in a PDF.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

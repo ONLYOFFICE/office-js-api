@@ -1,8 +1,8 @@
-// This example shows how to return the cosine of a complex number.
+// Get the cosine of a complex number in a spreadsheet.
 
-// How to get the cosine.
+// How do I calculate the cosine of a complex number in a spreadsheet?
 
-// Use a function to get the cosine of a complex number.
+// Apply the cosine function to a complex number in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

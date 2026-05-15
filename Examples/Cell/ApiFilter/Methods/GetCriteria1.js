@@ -1,8 +1,8 @@
-// This example reads the first criteria of a filter.
+// Retrieve the primary condition applied to a column filter to see what values pass through in a spreadsheet.
 
-// How to inspect the main condition of an AutoFilter column.
+// How do I find out the main filtering condition set on a column in a spreadsheet?
 
-// Use ApiFilter.GetCriteria1() to get the first filter criterion.
+// Examine the first rule of an active column filter and display its value in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

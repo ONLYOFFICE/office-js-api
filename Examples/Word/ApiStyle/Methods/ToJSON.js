@@ -1,8 +1,8 @@
-// This example converts the ApiStyle object into the JSON object.
+// Export a style to a portable data format and restore it as a new style in a document.
 
-// How to get a JSON from the style object.
+// How do I serialize a style so it can be stored, transferred, and recreated in a document?
 
-// Convert the style to json and add it to the document.
+// Duplicate an existing style under a different name by converting it to data and back in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.GetStyle("Bordered");

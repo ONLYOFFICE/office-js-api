@@ -1,8 +1,8 @@
-// This example adds a paragraph to the container.
+// Insert a paragraph into a content control at a specific position in a document.
 
-// Creates a block content control and adds a paragraph with a text to it.
+// How do I place a paragraph inside a content control in a document?
 
-// How to add the ApiParagraph object to the first position of the ApiBlockLvlSdt object.
+// Populate a content control with a text paragraph and add the whole block to the page in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

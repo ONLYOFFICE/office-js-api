@@ -1,6 +1,8 @@
-// How to outline data points.
+// Apply an outline to data points in a PDF.
 
-// Create a chart then apply outline to its data points.
+// How do I add a border around specific data points in a PDF?
+
+// Create a chart and apply a stroke effect to one data point in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

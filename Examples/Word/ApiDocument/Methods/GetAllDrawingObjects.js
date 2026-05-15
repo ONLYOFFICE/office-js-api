@@ -1,8 +1,8 @@
-// This example shows how to get a collection of drawing objects from the document.
+// Retrieve all drawing objects in a document.
 
-// Get all drawing objects added to the document.
+// How do I collect every drawing object present in a document?
 
-// How to retrieve all drawing objects and fill with color its first one.
+// Apply a new fill color to the first drawing when you need to highlight it visually.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

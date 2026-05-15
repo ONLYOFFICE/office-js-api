@@ -1,8 +1,8 @@
-// This example demonstrates getting the type of color scale criterion.
+// Read the threshold type assigned to a color scale rule point in a spreadsheet.
 
-// How to check the type of a color scale criterion.
+// How do I find out what kind of threshold is set for a color scale rule point in a spreadsheet?
 
-// Get the type of a color scale criterion.
+// Inspect the threshold category of a color scale rule entry to understand how its boundary is defined in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// This example checks whether a worksheet currently has an AutoFilter.
+// Check whether any rows are currently hidden by an active filter in a spreadsheet.
 
-// How to detect if filtering is active on a sheet.
+// How do I tell if a filter is hiding rows on a sheet in a spreadsheet?
 
-// Use ApiAutoFilter.GetFilterMode() to test filter state.
+// Confirm that at least one filtering rule is in effect and some data is being suppressed in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

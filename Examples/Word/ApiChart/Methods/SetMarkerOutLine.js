@@ -1,8 +1,8 @@
-// This example sets the outline to the marker in the specified chart series.
+// Apply a border stroke to the data point markers of a chart series in a document.
 
-// How to set an outline to the marker.
+// How do I add an outline around chart markers in a document?
 
-// Create a chart, set its properties and its marker outline.
+// Make data markers stand out by giving their edges a distinct color and thickness in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

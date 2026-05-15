@@ -1,8 +1,8 @@
-// This example gets the first formula in data validation.
+// Read the primary boundary value set in a cell's validation rule in a spreadsheet.
 
-// How to retrieve the validation formula.
+// How do I find out what the first condition value is for a validated cell in a spreadsheet?
 
-// Get the first formula.
+// Verify the lower limit or single threshold defined in a cell's data validation rule in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");

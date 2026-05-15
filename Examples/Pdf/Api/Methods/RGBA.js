@@ -1,4 +1,8 @@
-// This example shows how to create an RGBA color and use it as a shape fill.
+// Create a color with transparency using red, green, blue, and alpha values in a PDF.
+
+// How can I set a color that includes transparency in a PDF?
+
+// Apply a semi-transparent color to a shape fill in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

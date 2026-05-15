@@ -1,8 +1,8 @@
-// This example shows how to get a style by its name.
+// Apply a named style to a paragraph in a document.
 
-// How to get the style of the heading.
+// How do I retrieve and apply a built-in heading style in a document?
 
-// Display the style name of the "Heading 6".
+// Reuse an existing style from the style gallery to format text without defining custom properties.
 
 let doc = Api.GetDocument();
 let noSpacingStyle = doc.GetStyle("Heading 6");

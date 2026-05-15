@@ -1,4 +1,8 @@
-// This example gets the duration of an animation effect.
+// Get the duration of an animation effect in a presentation.
+
+// Duration values specify how long an animation takes to complete.
+
+// Retrieve the duration from an animation effect using GetDuration() and display it.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,6 +1,8 @@
-// How to find a shape's width and display it on the page.
+// Find the horizontal size of a shape in a PDF.
 
-// Get a page shape's width.
+// How do I get the width of a drawn object in a PDF?
+
+// Measure the left-to-right dimension of a shape in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

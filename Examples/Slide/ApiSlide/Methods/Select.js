@@ -1,4 +1,8 @@
-// This example selects the current slide.
+// Select a slide in the presentation.
+
+// Create multiple slides with different content.
+
+// Select the second slide to make it active.
 
 const presentation = Api.GetPresentation();
 const slide1 = presentation.GetSlideByIndex(0);

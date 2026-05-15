@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Read the class type of a border style object in a document.
 
-// How to get a class type of ApiStroke.
+// How do I find out what kind of object a border style is in a document?
 
-// Retrieve class type of ApiStroke object and insert it to the document.
+// Identify the category of a border style and display the result in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

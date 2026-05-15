@@ -1,5 +1,9 @@
-// Creates adjustable geometry with guides and connection points for a pdf document.
-// Displays adjustment value and applies custom geometry to shape.
+// Read the current value of a shape adjustment parameter in a PDF.
+
+// How do I check what value a shape's adjustment is set to in a PDF?
+
+// Retrieve and display an adjustment parameter's current value in a PDF.
+
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 

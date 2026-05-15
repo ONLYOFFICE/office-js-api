@@ -1,8 +1,8 @@
-// This example sets the absolute measurement for the horizontal positioning of the floating object.
+// Position a floating shape at a specific horizontal location in a document.
 
-// How to set the horizontal position property of the shape.
+// How do I place a shape next to a page margin in a document?
 
-// Create a drawing, add text to it and set its horizontal position.
+// Place two shapes at different horizontal offsets relative to page and margin anchors in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

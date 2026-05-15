@@ -1,8 +1,8 @@
-// This example shows how to get the placeholder text from the content control.
+// Read the placeholder text shown inside an empty content control in a document.
 
-// Creates a block content control, sets the placeholder text to it, and returns this placeholder to insert it into the second paragraph of the document.
+// How do I get the placeholder text of a content control in a document?
 
-// How to get the placeholder text from the ApiBlockLvlSdt object.
+// Set a placeholder on a content control and then show that placeholder text as a paragraph in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

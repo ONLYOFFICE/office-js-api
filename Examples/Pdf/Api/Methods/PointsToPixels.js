@@ -1,4 +1,8 @@
-// This example shows how to convert points to pixels.
+// Convert points to pixels in a PDF.
+
+// How can I change points to pixels in a PDF?
+
+// Display the pixel equivalent of a point measurement in a PDF.
 
 const points = 1000;
 const pixels = Api.PointsToPixels(points);

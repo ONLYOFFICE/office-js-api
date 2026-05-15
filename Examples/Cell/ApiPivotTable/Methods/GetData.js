@@ -1,8 +1,8 @@
-// This example shows how to get data from a pivot table using names.
+// Retrieve a specific value from a pivot table by row and column names in a spreadsheet.
 
-// How to get a field data from a pivot table.
+// How do I look up a single summarized value inside a pivot table in a spreadsheet?
 
-// Create a pivot table, add data to it then get some data from it.
+// Pull the aggregated result for a chosen category combination and write it to a cell in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

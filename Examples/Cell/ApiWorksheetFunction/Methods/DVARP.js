@@ -1,8 +1,8 @@
-// This example shows how to calculate variance based on the entire population of the selected database entries.
+// Calculate population variance for all database entries that meet specified conditions in a spreadsheet.
 
-// How to estimate variance form the entire population.
+// How do I find population variance from filtered database records in a spreadsheet?
 
-// Use function to calculate entire population variance.
+// Measure variance across a complete set of database entries matching criteria in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

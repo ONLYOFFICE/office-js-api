@@ -1,10 +1,8 @@
-// This example shows how to create a text properties and use them.
+// Define reusable text formatting settings and apply them to styled text in a document.
 
-// Creates the empty text properties object and sets the bold property, font size, capitalized letters, color, and font family to it.
+// How do I set font, size, bold, and color for decorative text all at once in a document?
 
-// How to create the ApiTextPr object and apply it to the Text Art object.
-
-// Creates a Text Art object using the specified text properties.
+// Bundle text styling options such as font family, size, and capitalization into a single reusable object in a document.
 
 let doc = Api.GetDocument();
 let textPr = Api.CreateTextPr();

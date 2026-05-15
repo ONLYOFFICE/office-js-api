@@ -1,6 +1,8 @@
-// How to show specific chart data labels.
+// Control which data values display as labels on a chart in a PDF.
 
-// Create a chart, set its properties and its specific data labels visibility.
+// How do I show only certain data labels on a chart in a PDF?
+
+// Toggle the visibility of labels for specific data in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// This example shows how to get the slide master of the theme.
+// Get the master slide from a theme in a presentation.
 
-// How to get a master from a theme.
+// How do I access the master slide template from a theme?
 
-// Get a theme master and display its class type.
+// Retrieve the theme master and display its type information in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

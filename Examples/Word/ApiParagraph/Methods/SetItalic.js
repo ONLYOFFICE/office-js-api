@@ -1,8 +1,8 @@
-// This example sets the italic property to the text character.
+// Apply italic styling to the text of a paragraph in a document.
 
-// How to make text italic.
+// How do I make the text in a paragraph appear in italics in a document?
 
-// Create a paragraph and make its text style italic.
+// Slant paragraph text into italic form to add emphasis or distinguish it from surrounding content in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

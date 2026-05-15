@@ -1,8 +1,8 @@
-// This example shows how to return the k-th percentile of values in a range, where k is in the range 0..1, inclusive.
+// Find the k-th percentile value from a range of numbers in a spreadsheet.
 
-// How to get the k-th percentile of values in a range (inclusive).
+// How do I find the k-th percentile value from data in a spreadsheet?
 
-// Use a function to get the k-th percentile of values.
+// Get the percentile that falls between minimum and maximum values in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

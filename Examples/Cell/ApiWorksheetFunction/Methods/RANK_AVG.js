@@ -1,8 +1,8 @@
-// This example shows how to return the rank of a number in a list of numbers: its size relative to other values in the list. If more than one value has the same rank, the average rank is returned.
+// Find the rank of a value in a list, using the average rank if there are ties in a spreadsheet.
 
-// How to estimate a rank of a number from the list.
+// How do I rank a number when multiple values are equal in a spreadsheet?
 
-// Use a function to estimate rank of the a number from the list.
+// Determine a value's position in a list with tied items split evenly in rank in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

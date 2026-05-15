@@ -1,8 +1,8 @@
-// This example shows how to round a number up, to the nearest integer or to the nearest multiple of significance.
+// Round numbers up to the nearest whole value in a spreadsheet.
 
-// How to round a number up.
+// What is the ceiling of a negative or positive number in a spreadsheet?
 
-// Use function to round a number up the nearest integer or to the nearest multiple of significance.
+// Enforce upward rounding regardless of sign in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

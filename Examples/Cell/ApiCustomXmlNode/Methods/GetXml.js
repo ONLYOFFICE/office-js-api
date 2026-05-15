@@ -1,8 +1,8 @@
-// This example shows how to get the XML string representation of a custom XML node.
+// Export a node and all its contents as a raw XML string in a spreadsheet.
 
-// How to retrieve XML string representation from custom XML node elements.
+// How do I get the full XML markup for a specific node in a spreadsheet?
 
-// Get XML string from book node.
+// Capture a node's complete structure as text to inspect or reuse it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let xmlManager = worksheet.GetCustomXmlParts();

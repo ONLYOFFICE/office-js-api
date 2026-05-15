@@ -1,8 +1,8 @@
-// This example shows how to get a position of a data field.
+// Read the position of a data field within a pivot table's values area in a spreadsheet.
 
-// How to get a table element position.
+// How do I find out where a data field sits among other value fields in a pivot table in a spreadsheet?
 
-// Create a pivot table, add data to it then display a custom data field's position.
+// Check the order a data field appears relative to other summarized columns in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

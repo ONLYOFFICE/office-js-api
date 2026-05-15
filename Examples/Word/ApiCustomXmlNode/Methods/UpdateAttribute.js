@@ -1,4 +1,9 @@
-// This example shows how to update the value of an existing attribute in a custom XML node.
+// Update the value of an existing attribute on an XML node in a document.
+
+// How do I change the value of an attribute that already exists on a node in a document?
+
+// Correct outdated metadata on a node without removing and re-adding the attribute in a document.
+
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
 let xmlText = `<?xml version="1.0" encoding="UTF-8"?>

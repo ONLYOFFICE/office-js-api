@@ -1,8 +1,8 @@
-// This example adds some text to the run.
+// Insert text content into a text element in a PDF.
 
-// How to add a text to a text run object.
+// How do I add text to a text run in a PDF?
 
-// How to add a text to the page.
+// Place text on the page in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -12,7 +12,7 @@ const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = Api.CreateShape("flowChartMagneticTape", 150 * 36000, 65 * 36000, fill, stroke);
 shape.SetPosition(608400, 1267200);
 
-const docContent = shape.GetDocContent();
+const docContent = shape.GetContent();
 const paragraph = docContent.GetElement(0);
 const run = Api.CreateRun();
 run.SetFontSize(30);

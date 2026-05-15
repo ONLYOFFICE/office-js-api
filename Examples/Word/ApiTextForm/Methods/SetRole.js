@@ -1,4 +1,9 @@
-// This example shows how to set the form role.
+// Assign a role to a text form in a document.
+
+// How do I designate which role is responsible for filling out a text form in a document?
+
+// Restrict a text form to a specific group of users by giving it a role in a document.
+
 let doc = Api.GetDocument();
 let roles = doc.GetFormRoles();
 roles.Add("Employee");

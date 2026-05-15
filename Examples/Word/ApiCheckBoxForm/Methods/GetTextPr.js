@@ -1,8 +1,8 @@
-// This example returns the text properties from the current form.
+// Access and modify the text formatting properties of a checkbox form in a document.
 
-// How to get the text properties of the current ApiCheckBoxForm object and change its font size.
+// How do I change the font style of a checkbox form's text in a document?
 
-// Make a checkbox form text italic.
+// Apply bold and italic formatting to a checkbox form by reading and updating its text properties in a document.
 
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": false});

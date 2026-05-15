@@ -1,4 +1,8 @@
-// This example demonstrates how to get the value of a custom property by its name.
+// Retrieve a custom property value by name in a presentation.
+
+// How do I read a custom property from a presentation?
+
+// Access custom metadata and handle missing properties in a presentation.
 
 const presentation = Api.GetPresentation();
 const customProps = presentation.GetCustomProperties();

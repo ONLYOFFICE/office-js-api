@@ -1,8 +1,8 @@
-// This example removes an element using the position specified.
+// Delete a single paragraph at a given position from a shape in a spreadsheet.
 
-// How to remove an element from a document knowing its position in the document content.
+// How do I remove one specific paragraph from a shape by its index in a spreadsheet?
 
-// Delete an element from a document and prove it by showing the difference.
+// Eliminate a paragraph at a known position and confirm the result in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

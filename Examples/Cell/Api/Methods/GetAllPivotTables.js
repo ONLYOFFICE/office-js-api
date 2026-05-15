@@ -1,8 +1,8 @@
-// This example shows how to get pivot tables from the worksheet.
+// Retrieve every pivot table across all sheets in a spreadsheet.
 
-// How to  get pivot tables.
+// How do I access all pivot tables at once in a spreadsheet?
 
-// How to work with pivot tables.
+// Loop through each pivot table to apply changes in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange('B1').SetValue('Region');

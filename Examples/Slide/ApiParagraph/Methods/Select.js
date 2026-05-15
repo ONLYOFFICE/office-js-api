@@ -1,4 +1,8 @@
-// This example selects the current paragraph.
+// Select a paragraph for editing in a presentation.
+
+// How do I highlight a paragraph in a presentation?
+
+// Select the entire paragraph content in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

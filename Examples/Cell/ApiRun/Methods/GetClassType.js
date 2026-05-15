@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Read the class type of a text run and display it inside a shape in a spreadsheet.
 
-// How to get a class type of ApiRun.
+// How do I find out what type of object a text run is in a spreadsheet?
 
-// Get a class type of ApiRun and display it in the worksheet.
+// Confirm the kind of element a run represents by checking its type label in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

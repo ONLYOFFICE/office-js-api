@@ -1,5 +1,9 @@
-// Creates a custom shape and adds it to a page.
-// Applies custom geometry with specific fill and stroke properties.
+// Set the vertical size of a shape path in a PDF.
+
+// What is the height of my custom shape in a PDF?
+
+// Define the tall dimension of a drawn path in a PDF.
+
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 

@@ -1,5 +1,9 @@
-// Creates adjustable custom geometry with guides and connection points.
-// Displays adjustment value in a cell and applies geometry to shape.
+// Attach a named connector anchor to a custom shape in a spreadsheet.
+
+// How do I place a fixed connection spot on a custom shape in a spreadsheet?
+
+// Mark a specific position on a custom shape so lines can snap to it in a spreadsheet.
+
 let worksheet = Api.GetActiveSheet();
 let customGeometry = Api.CreateCustomGeometry();
 customGeometry.AddAdj("adj1", 25000);

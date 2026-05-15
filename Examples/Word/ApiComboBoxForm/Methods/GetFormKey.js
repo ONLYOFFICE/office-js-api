@@ -1,8 +1,8 @@
-// This example shows how to get the form key.
+// Read the key assigned to a combo box form in a document.
 
-// How get a key of a combobox form.
+// How do I retrieve the key of a combo box form in a document?
 
-// Retrieve key of a created combobox object and display it.
+// Verify that the correct key was set on a combo box by reading it back and displaying it.
 
 let doc = Api.GetDocument();
 let comboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});

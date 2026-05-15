@@ -1,8 +1,8 @@
-// This example shows how to set table lock.
+// Control which style formatting bands and highlights are applied to a table in a document.
 
-// How to set the table look.
+// How do I choose which parts of a table style are shown in a document?
 
-// Create a table and indicate its look properties.
+// Enable or disable banded rows, banded columns, and corner highlights on a table in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

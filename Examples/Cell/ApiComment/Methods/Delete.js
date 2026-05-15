@@ -1,8 +1,8 @@
-// This example deletes the ApiComment object.
+// Remove a comment from a cell entirely in a spreadsheet.
 
-// How to remove a comment from a range.
+// How do I delete a comment that was added to a cell range in a spreadsheet?
 
-// Get a range add a comment to it and then remove it.
+// Clean up a cell by adding a comment and then erasing it to leave no annotation behind in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

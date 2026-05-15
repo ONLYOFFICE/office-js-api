@@ -1,8 +1,8 @@
-// This example shows how to get items of a pivot field.
+// Retrieve the list of individual items belonging to a pivot field in a spreadsheet.
 
-// How to get a pivot field items.
+// How do I get all the values that appear under a pivot field in a spreadsheet?
 
-// Create a pivot table, add data to it then get items of a specified pivot field as an array.
+// Loop through a pivot field's items to read each distinct value shown in the pivot table.
 
 let worksheet = Api.GetActiveSheet();
 

@@ -1,6 +1,8 @@
-// How to change a X position of a drawing.
+// Move a shape left or right in a PDF.
 
-// Get a shape object from a page and move by X axis.
+// How do I adjust the horizontal position of a shape in a PDF?
+
+// Change the X coordinate of an object in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

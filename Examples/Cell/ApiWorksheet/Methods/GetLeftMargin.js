@@ -1,8 +1,8 @@
-// This example shows how to get the left margin of the sheet.
+// Read the left page margin of the active sheet in a spreadsheet.
 
-// How to get margin of the sheet's left side.
+// How do I find out the left margin width of a sheet in a spreadsheet?
 
-// Get the size of the left margin of the sheet.
+// Retrieve the left margin value in millimeters and show it in a cell in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let leftMargin = worksheet.GetLeftMargin();

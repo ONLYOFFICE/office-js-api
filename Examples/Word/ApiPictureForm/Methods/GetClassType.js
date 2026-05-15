@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Identify the category label of a picture form field in a document.
 
-// How to get a class type of ApiPictureForm.
+// How do I find out what category a picture form field belongs to in a document?
 
-// Retrieve class type of ApiPictureForm object and insert it to the document.
+// Confirm the kind of form element in use by reading its category label in a document.
 
 let doc = Api.GetDocument();
 let pictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false, "shiftX": 50, "shiftY": 50});

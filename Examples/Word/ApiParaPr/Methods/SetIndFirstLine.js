@@ -1,8 +1,8 @@
-// This example sets the paragraph first line indentation.
+// Indent the first line of a paragraph in a document.
 
-// How to set the indentation size for the paragraph first line.
+// How do I set a first-line indent for paragraphs using a paragraph style in a document?
 
-// Create a new paragraph and set its first line indentation.
+// Give paragraphs a classic indented opening line to improve readability and visual structure.
 
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");

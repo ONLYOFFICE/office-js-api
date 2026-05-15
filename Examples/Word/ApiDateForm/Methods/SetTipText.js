@@ -1,8 +1,8 @@
-// This example sets the tip text to the current form.
+// Set tooltip text on a date form in a document.
 
-// Add text as a tip of the form.
+// How do I set a tooltip hint on a date form in a document?
 
-// Create a date form and set its tip text (text that appears on hold).
+// Guide users by displaying a helpful hint when they hover over a date form in a document.
 
 let doc = Api.GetDocument();
 let dateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});

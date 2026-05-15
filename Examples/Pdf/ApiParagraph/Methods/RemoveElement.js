@@ -1,8 +1,8 @@
-// This example removes an element using the position specified.
+// Delete a specific element from a paragraph in a PDF.
 
-// How to remove an element from the paragraph using its position index.
+// How do I remove an element by its position in a paragraph in a PDF?
 
-// Delete an element from the paragraph.
+// Eliminate an element at a given index from a paragraph in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -14,7 +14,7 @@ const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = Api.CreateShape("flowChartMagneticTape", 150 * 36000, 65 * 36000, fill, stroke);
 shape.SetPosition(608400, 1267200);
 
-const docContent = shape.GetDocContent();
+const docContent = shape.GetContent();
 const paragraph = docContent.GetElement(0);
 paragraph.RemoveAllElements();
 

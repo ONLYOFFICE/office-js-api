@@ -1,8 +1,8 @@
-// This example sets the border to the cell with the parameters specified.
+// Add a border to a cell in a spreadsheet.
 
-// How to set the thick bottom border to a cell.
+// How do I draw a border on a specific side of a cell in a spreadsheet?
 
-// Get a range and set its border specifying its side, type and color.
+// Define which edge of a cell gets a border, its thickness, and its color in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.SetColumnWidth(0, 50);

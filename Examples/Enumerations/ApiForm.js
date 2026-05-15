@@ -1,4 +1,4 @@
-// This example copies a text form.
+// Copy a text form.
 
 // Get a form and create its copy. 
 

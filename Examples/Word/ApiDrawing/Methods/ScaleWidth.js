@@ -1,8 +1,8 @@
-// This example scales the width of the figure using the specified coefficient.
+// Scale the width of a drawing by a given factor in a document.
 
-// How to increase the width of the drawing.
+// How do I resize the width of a shape proportionally in a document?
 
-// Make the cube wider.
+// Create several shapes at increasing width scales to compare sizes side by side in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

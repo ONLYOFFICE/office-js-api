@@ -1,8 +1,8 @@
-// This example adds a bookmark cross-reference to the paragraph.
+// Insert a cross-reference that links to a bookmark in a document.
 
-// How to create a bookmark reference to the paragraph.
+// How do I add a navigable reference pointing to a named bookmark in a document?
 
-// Add a cross-reference to the bookmark of the paragraph.
+// Connect one paragraph to another location by referencing a bookmark by name in a document.
 
 let doc = Api.GetDocument(); 
 let paragraph = doc.GetElement(0); 

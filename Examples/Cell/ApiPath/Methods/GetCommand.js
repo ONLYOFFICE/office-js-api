@@ -1,5 +1,9 @@
-// Analyzes path commands of a star shape and displays command details.
-// Shows total command count and first command information in cells.
+// Read a single drawing command from a custom shape path in a spreadsheet.
+
+// How do I inspect one specific step in a shape's drawing sequence in a spreadsheet?
+
+// Retrieve the type and coordinates of a particular path command to examine shape construction in a spreadsheet.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(100, 150, 200));
 let stroke = Api.CreateStroke(18000, Api.CreateSolidFill(Api.RGB(50, 75, 100)));

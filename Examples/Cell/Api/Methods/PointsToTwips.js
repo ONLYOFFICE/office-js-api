@@ -1,4 +1,8 @@
-// This example shows how to convert points to twips.
+// Convert a measurement from points to twips in a spreadsheet.
+
+// How do I express a point value as twips in a spreadsheet?
+
+// Get the twip equivalent of a given number of points in a spreadsheet.
 
 const points = 1000;
 const twips = Api.PointsToTwips(points);

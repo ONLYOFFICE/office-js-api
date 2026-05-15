@@ -1,8 +1,8 @@
-// This example sets the text fill to the current text run.
+// Apply a fill color to text in a presentation.
 
-// How to fill a text run.
+// Set the font color using solid fills, gradients, or patterns.
 
-// Create a new text run and set its font color.
+// Create a text run and apply a color fill to its content.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

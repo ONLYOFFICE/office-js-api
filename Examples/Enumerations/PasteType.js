@@ -1,6 +1,4 @@
-// This example paste data with paste all options.
-
-// How to indicate a paste type.
+// Paste data with paste all options.
 
 // Specifies the part of the range to be pasted.
 

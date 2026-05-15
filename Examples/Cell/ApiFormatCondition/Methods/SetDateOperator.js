@@ -1,8 +1,8 @@
-// This example sets the date operator for a time period conditional formatting rule.
+// Assign the time period that a date-based conditional formatting rule checks in a spreadsheet.
 
-// How to change date operators in time period conditional formatting rules.
+// How do I tell a date formatting rule whether to highlight cells from last week, this month, or another period in a spreadsheet?
 
-// Set conditional formatting rule date operator.
+// Choose which relative date window triggers a formatting rule for date cells in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

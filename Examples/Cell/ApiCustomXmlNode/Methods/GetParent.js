@@ -1,4 +1,8 @@
-// This example shows how to get the parent of a custom XML node.
+// Navigate upward to the containing node of an XML element in a spreadsheet.
+
+// How do I find the parent node of an XML element in a spreadsheet?
+
+// Traverse the XML hierarchy to identify where a node belongs in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const xmlManager = worksheet.GetCustomXmlParts();

@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Read the type label of a scheme color and write it into a cell in a spreadsheet.
 
-// How to get a class type of ApiSchemeColor.
+// How do I find out what type a scheme color object is in a spreadsheet?
 
-// Get a class type of ApiSchemeColor and display it in the worksheet.
+// Confirm the category of a color object by printing its type to the sheet in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let schemeColor = Api.CreateSchemeColor("dk1");

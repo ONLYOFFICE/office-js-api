@@ -1,8 +1,8 @@
-// This example creates a range and sets bold for the first 10 characters.
+// Bold the first several characters of a paragraph by selecting a text range in a document.
 
-// Creates the ApiRange object from the ApiParagraph class and sets the range to bold.
+// How do I select a specific portion of a paragraph and make it bold in a document?
 
-// How to create a range from the paragraph and set a bold property to it.
+// Apply bold formatting to the opening words of a paragraph without affecting the rest of the text in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,4 +1,8 @@
-// This example shows how to get the last element of the paragraph.
+// Get the last element from a paragraph in a presentation.
+
+// How do I retrieve the last element in a paragraph in a presentation?
+
+// Access the last element to modify its formatting in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

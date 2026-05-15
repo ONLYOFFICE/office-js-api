@@ -1,8 +1,8 @@
-// This example demonstrates setting the direction of a data bar conditional formatting rule.
+// Set the growth direction of data bars so they fill cells from right to left in a spreadsheet.
 
-// How to change the reading order direction of a data bar.
+// How do I control which direction data bars extend across a cell in a spreadsheet?
 
-// Set the direction of a data bar conditional formatting rule.
+// Match the visual flow of data bars to the reading orientation of your content in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

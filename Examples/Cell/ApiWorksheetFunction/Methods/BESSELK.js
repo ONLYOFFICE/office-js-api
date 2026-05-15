@@ -1,8 +1,8 @@
-// This example shows how to return the modified Bessel function Kn(x).
+// Evaluate the modified Bessel function of the second kind in a spreadsheet.
 
-// How to get a result from Bessel function Kn(x).
+// How do I find the Bessel K function result for engineering calculations in a spreadsheet?
 
-// Use function to get the Bessel function Kn(x).
+// Apply mathematical modeling for wave propagation and oscillatory behavior in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

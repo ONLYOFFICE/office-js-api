@@ -1,5 +1,9 @@
-// Creates adjustable geometry with guides and connection points for a pdf document.
-// Displays adjustment value and applies custom geometry to shape.
+// Create a measurement line to align elements within a shape in a PDF.
+
+// How do I add helper lines to position content inside a shape in a PDF?
+
+// Set up positioning guides and use them in a custom shape in a PDF.
+
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 

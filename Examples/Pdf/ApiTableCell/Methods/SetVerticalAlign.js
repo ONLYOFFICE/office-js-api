@@ -1,6 +1,8 @@
-// How to set the cell text vertical alignment.
+// Set vertical alignment of text within a table cell in a PDF.
 
-// Create a table and set the text alignment of its cell from the row.
+// How do I position text vertically within a cell in a PDF?
+
+// Align content to the top, middle, or bottom of your table cell in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

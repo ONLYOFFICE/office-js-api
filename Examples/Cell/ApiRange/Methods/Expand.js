@@ -1,8 +1,8 @@
-// This example shows how to get the current region around a range.
+// Select the entire block of filled cells surrounding a given cell in a spreadsheet.
 
-// How to get the contiguous data region.
+// How do I automatically expand a selection to cover all connected data around a cell in a spreadsheet?
 
-// Get a range, find its current region and highlight it.
+// Highlight every adjacent occupied cell that belongs to the same data island in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B2").SetValue("Data");

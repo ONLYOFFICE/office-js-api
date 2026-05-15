@@ -1,8 +1,8 @@
-// This example shows how to insert PivotTable on existing worksheet.
+// Add a pivot table to an existing sheet in a spreadsheet.
 
-// How to insert a pivot table into a range of an existing worksheet using references.
+// How do I place a pivot table on a sheet that already exists in a spreadsheet?
 
-// Get a pivot table and insert it to the range.
+// Summarize data with a pivot table on the current sheet in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

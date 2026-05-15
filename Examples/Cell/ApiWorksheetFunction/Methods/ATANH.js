@@ -1,8 +1,8 @@
-// This example shows how to return the inverse hyperbolic tangent.
+// Calculate the inverse hyperbolic tangent of a number in a spreadsheet.
 
-// How to get return the inverse hyperbolic tangent.
+// Compute the inverse hyperbolic tangent of a value in a spreadsheet.
 
-// Use function to get an inverse hyperbolic tangent.
+// Recover the original input from its hyperbolic tangent in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

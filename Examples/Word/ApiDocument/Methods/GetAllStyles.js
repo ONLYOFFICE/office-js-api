@@ -1,8 +1,8 @@
-// This example shows how to get all styles of the current document.
+// Retrieve all styles defined in a document.
 
-// Get all styles added to the document.
+// How do I list every style available in a document?
 
-// How to retrieve all styles and display their names.
+// Print each style name as a paragraph to audit the complete set of styles in use.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

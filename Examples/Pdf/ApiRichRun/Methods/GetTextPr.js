@@ -1,4 +1,9 @@
-// This example gets rich text properties from rich run object and set some properties to it.
+// Access the formatting properties of a text run in a PDF.
+
+// How do I get the formatting options for a text run in a PDF?
+
+// Work with the style settings of a text element in a PDF.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

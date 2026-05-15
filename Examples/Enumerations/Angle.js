@@ -1,4 +1,4 @@
-// This example specifies that the range contents will be rotated upward.
+// Specify that the range contents will be rotated upward.
 
 // Use angles to set orientation of the range. 
 

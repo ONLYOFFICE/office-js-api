@@ -1,8 +1,8 @@
-// This example sets the text properties to the current row.
+// Apply text formatting to all cells in a table row in a document.
 
-// Make the row text bold.
+// How do I change the text style for an entire row of a table in a document?
 
-// How to apply new text properties to the table row.
+// Style the text across a full table row uniformly in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

@@ -1,8 +1,8 @@
-// This example shows how to apply a style for chart.
+// Apply a numbered visual style to a bar chart in a document.
 
-// How to change the style of the chart by indicating a number that specifies a style type.
+// How do I change the overall look of a chart using a preset style number in a document?
 
-// Create a bar chart and set its style.
+// Give a chart a consistent, branded appearance by assigning it a built-in style in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example shows how to start the mail merge process.
+// Merge a template with data records to generate personalized letters in a document.
 
-// Wraps the text runs in the mail merge fields, loads the mail merge data into the document, and starts the mail merge process.
+// How do I fill a letter template with names and greetings from a data list in a document?
 
-// How to use the mail merge feature starting from the first mail merge record.
+// Automate the creation of multiple personalized copies from a single template in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

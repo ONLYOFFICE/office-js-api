@@ -1,8 +1,8 @@
-// This example returns the text properties from the current form.
+// Retrieve the text formatting settings applied to a form field in a document.
 
-// How to get the properties of the text of the form.
+// How do I access the character style of text inside a form field in a document?
 
-// Get the text properties of one form and apply it to another.
+// Copy the font properties from one form field to reuse them in a document.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});

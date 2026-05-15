@@ -1,8 +1,8 @@
-// This example specifies an amount of space which shall be left between the top extent of the current cell contents and the top edge border of a specific individual table cell within a table.
+// Set the spacing between text and the top edge of a table cell in a presentation.
 
-// How to set the cell top margin for the current table cell.
+// How do I add space above text in a table cell in a presentation?
 
-// Specify the top margin value for the ApiTableCell object.
+// Adjust the top margin to control padding in a table cell in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

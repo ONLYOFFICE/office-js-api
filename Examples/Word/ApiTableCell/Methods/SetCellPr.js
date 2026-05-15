@@ -1,8 +1,8 @@
-// This example sets the cell properties to the current cell.
+// Apply a complete set of formatting properties to a table cell in a document.
 
-// How to add properties to the cell.
+// How do I transfer a group of cell formatting settings to a specific table cell in a document?
 
-// Create a 3x3 table, get its first cell and set its properties.
+// Copy predefined cell styling and assign it to a target cell all at once in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

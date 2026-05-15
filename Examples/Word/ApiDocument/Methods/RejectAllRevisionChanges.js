@@ -1,8 +1,8 @@
-// This example rejects all changes made in review mode.
+// Reject all tracked revision changes at once in a document.
 
-// How to reset all changes after review.
+// How do I discard every pending edit from review mode in a document?
 
-// Do not apply edited text in the review mode.
+// Restore the original content after a review session by dismissing all proposed changes in a document.
 
 let doc = Api.GetDocument();
 let paragraph1 = doc.GetElement(0);

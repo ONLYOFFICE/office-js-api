@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the presentation.
+// Retrieve the class type of a slide master object.
 
-// How to get a class type of ApiMaster.
+// The GetClassType method identifies what type a slide master object is.
 
-// Retrieve class type of ApiMaster object and insert it to the slide.
+// Output the class type string in a text shape on the presentation slide.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

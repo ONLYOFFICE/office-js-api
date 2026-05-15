@@ -1,8 +1,8 @@
-// This example shows how to return the number of permutations for a given number of objects that can be selected from the total objects.
+// Calculate how many ways you can arrange a selection of objects in a spreadsheet.
 
-// How to return the number of permutations for a given number of objects.
+// How do I find the number of arrangements for selected items in a spreadsheet?
 
-// Use a function to claculate the number of permutations.
+// Determine the count of unique permutations from a pool of distinct objects in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

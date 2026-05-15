@@ -1,4 +1,8 @@
-// This example shows how to create an RGBA color and use it as a shape fill.
+// Create an RGBA color with transparency and use it as a shape fill in a presentation.
+
+// Use Api.RGBA to define colors with alpha channel transparency.
+
+// Display the shape with the specified color on a slide.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,4 +1,8 @@
-// This example deletes the form.
+// Delete a complex form from a document.
+
+// How do I remove a complex form from a document?
+
+// Eliminate an unwanted form while keeping any copies that were made beforehand.
 
 const doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example shows how to get the internal id of the current form.
+// Read the internal identifier of a complex form in a document.
 
-// How to get an internal id of a complex form.
+// How do I retrieve the internal ID assigned to a form in a document?
 
-// Retrieve the internal id of a created complex form and display it.
+// Track or reference a specific form programmatically using its unique internal ID in a document.
 
 let doc = Api.GetDocument();
 let complexForm = Api.CreateComplexForm({"key": "Complex", "tip": "Insert here other forms"});

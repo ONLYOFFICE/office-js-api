@@ -1,8 +1,8 @@
-// This example shows how to return the inverse of the right-tailed probability of the chi-squared distribution.
+// Convert an upper-tail probability into the matching chi-squared critical value in a spreadsheet.
 
-// How to return the inverse of the right-tailed probability of the chi-squared distribution.
+// Determine the boundary value for statistical significance at a given right-tail probability in a spreadsheet.
 
-// Use function to return the inverse of the right-tailed probability of the chi-squared distribution.
+// Find the threshold point used to evaluate extreme results in hypothesis testing in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

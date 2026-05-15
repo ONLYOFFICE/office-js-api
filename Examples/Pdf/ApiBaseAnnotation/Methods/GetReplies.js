@@ -1,4 +1,9 @@
-// This example creates a square annotation and gets its replies.
+// Retrieve all reply annotations attached to an annotation in a PDF.
+
+// What reply annotations are associated with a parent annotation in a PDF?
+
+// Access the list of reply comments linked to an annotation object in a PDF.
+
 let doc = Api.GetDocument();
 let squareAnnot = Api.CreateSquareAnnot([10, 10, 160, 32]);
 squareAnnot.SetContents("Annot contents");

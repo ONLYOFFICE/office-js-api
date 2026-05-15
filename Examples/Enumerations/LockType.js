@@ -1,4 +1,4 @@
-// This example sets the "sdtContentLocked" lock type for the inline content control.
+// Set the "sdtContentLocked" lock type for the inline content control.
 
 // How to set a lock type using predefined types.
 

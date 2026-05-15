@@ -1,8 +1,8 @@
-// This example shows how to set name of a pivot field.
+// Rename a pivot field to give it a clearer, custom label in a spreadsheet.
 
-// How to change a pivot field name.
+// How do I change the display name of a pivot field in a spreadsheet?
 
-// Create a pivot table, add data to it then rename a specified pivot.
+// Replace a default field heading with a meaningful title that suits the report in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

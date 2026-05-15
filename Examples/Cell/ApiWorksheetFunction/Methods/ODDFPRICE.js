@@ -1,8 +1,8 @@
-// This example shows how to return the price per $100 face value of a security with an odd first period.
+// Calculate the price of a security with an irregular first payment period in a spreadsheet.
 
-// How to get the price per $100 face value of a security with an odd first period.
+// How do I find the price of a bond with an odd first period in a spreadsheet?
 
-// Use a function to return the price per $100 face value of a security.
+// Determine the per-$100 value of a security when the first coupon period is irregular in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

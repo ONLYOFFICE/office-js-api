@@ -1,8 +1,8 @@
-// This example specifies that the contents of the run are displayed with two horizontal lines through each character displayed on the line.
+// Apply a double strikethrough effect to text in a presentation.
 
-// How to strike out a text with two lines.
+// How do I add two lines through text for strikethrough in a presentation?
 
-// Get the text propertiesof the run and cross it out with two lines.
+// Use the text properties to enable double strikeout formatting on characters in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

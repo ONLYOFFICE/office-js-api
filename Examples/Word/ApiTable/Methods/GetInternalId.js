@@ -1,7 +1,11 @@
-// This example shows how to get the internal ID of a table.
+// Retrieve the unique identifier assigned to a table in a document.
+
+// How do I find the unique identifier of a table in a document?
+
+// Read the built-in ID that distinguishes one table from another in a document.
 
 const doc = Api.GetDocument();
-const table = Api.CreateTable(2, 1);
+const table = Api.CreateTable(2, 2);
 table.SetWidth('percent', 100);
 doc.Push(table);
 

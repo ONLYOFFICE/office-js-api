@@ -1,4 +1,9 @@
-// This example gets selected value indexes from field with list of options.
+// Retrieve the index positions of selected items in a dropdown in a PDF.
+
+// How do I find which items are selected in a dropdown field in a PDF?
+
+// Get the numeric positions of chosen options in a list field in a PDF.
+
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 let comboboxField = Api.CreateComboboxField([10, 10, 160, 30]);

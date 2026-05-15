@@ -1,4 +1,8 @@
-// This example shows how to get the URL of a hyperlink inside a shape.
+// Read the URL address stored in a hyperlink in a spreadsheet.
+
+// How do I retrieve the destination address of a hyperlink in a spreadsheet?
+
+// Extract the web address that a hyperlink points to in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

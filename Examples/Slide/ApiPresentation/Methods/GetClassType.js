@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the presentation.
+// Identify the object type in a presentation.
 
-// How to get a class type of ApiPresentation.
+// How do I verify that an object is a presentation in a presentation?
 
-// Retrieve class type of ApiPresentation object and insert it to the slide.
+// Display the class type identifier for a presentation in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

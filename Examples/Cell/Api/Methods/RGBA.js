@@ -1,4 +1,8 @@
-// This example shows how to create an RGBA color and use it as a shape fill.
+// Create a color from red, green, blue, and alpha values and apply it as a shape fill in a spreadsheet.
+
+// How do I define a semi-transparent custom color using RGBA components in a spreadsheet?
+
+// Fill a shape with a color that has a specific opacity level set via alpha in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const color = Api.RGBA(110, 160, 180, 127);

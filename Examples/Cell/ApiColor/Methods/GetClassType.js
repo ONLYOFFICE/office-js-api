@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the table.
+// Retrieve the class type of a color object in a spreadsheet.
 
-// How to get a color class type.
+// How do I find out what class type a color object belongs to in a spreadsheet?
 
-// Get an RGB color type.
+// Identify whether a color belongs to a specific class by reading its type label in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let color = Api.CreateColorFromRGB(255, 111, 61);

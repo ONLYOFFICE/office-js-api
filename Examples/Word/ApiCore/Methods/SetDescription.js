@@ -1,4 +1,8 @@
-// This example demonstrates how to set the description of the current document using the ApiCore.
+// Write a descriptive summary into the document's core properties in a document.
+
+// How do I add a description to a document's built-in metadata in a document?
+
+// Provide context about a document's purpose by saving a plain-text summary in its properties in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

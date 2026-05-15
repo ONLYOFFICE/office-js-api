@@ -1,8 +1,8 @@
-// This example shows how to create a scheme color with the 'dk1' identifier.
+// Fill a shape with a predefined color scheme in a PDF.
 
-// How to create a new scheme color.
+// How do I use theme colors to fill a shape in a PDF?
 
-// Add a scheme color to create a solid fill.
+// Apply a scheme color to a shape's background in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

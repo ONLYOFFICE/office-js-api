@@ -1,8 +1,8 @@
-// This example sets the parameters of the watermark settings and apply them to the document.
+// Control the dimensions of a watermark image in a document.
 
-// How to set the image size of the watermark.
+// How do I change how large the watermark image appears in a document?
 
-// Resize the image using the watermark settings.
+// Scale the watermark image to a specific size in a document.
 
 let doc = Api.GetDocument();
 let watermarkSettings = doc.GetWatermarkSettings();

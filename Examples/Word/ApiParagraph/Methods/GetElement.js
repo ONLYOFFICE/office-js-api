@@ -1,8 +1,8 @@
-// This example shows how to get a paragraph element using the position specified.
+// Access a specific element inside a paragraph by its index in a document.
 
-// How to get the second element of the paragraph.
+// How do I retrieve a single run from a paragraph by position in a document?
 
-// Get the word from paragraph using its index and make it bold.
+// Target one text run out of many to apply selective formatting in a document.
 
 let doc = Api.GetDocument();
 let paragraph = Api.CreateParagraph();

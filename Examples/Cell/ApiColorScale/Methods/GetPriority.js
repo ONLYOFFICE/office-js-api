@@ -1,8 +1,8 @@
-// This example gets the priority value of color scale formatting rule.
+// Read the evaluation order of a color gradient rule among all formatting rules in a spreadsheet.
 
-// How to retrieve the evaluation priority of color scale conditional formatting.
+// How do I check which position a color scale rule holds in the priority list in a spreadsheet?
 
-// Get color scale priority.
+// Inspect the rank assigned to a color gradient condition to understand its order of evaluation in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// This example shows how to get the border color of the current form.
+// Read the border color of a checkbox form field in a document.
 
-// How to get the border color of a checkbox form.
+// How do I find out what color is applied to the border of a checkbox in a document?
 
-// Retrieve the border color of a created checkbox form and display it.
+// Inspect the border color after styling a checkbox form to confirm the value was applied correctly in a document.
 
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});

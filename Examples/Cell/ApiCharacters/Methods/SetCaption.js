@@ -1,8 +1,8 @@
-// This example sets a string value that represents the text of the specified range of characters.
+// Assign a new text label to a selected range of characters within a cell in a spreadsheet.
 
-// How to add a label for the specified characters.
+// How do I update the visible text of a specific character range inside a cell in a spreadsheet?
 
-// Set a caption for the characters collection.
+// Relabel a portion of cell content without affecting the rest of the cell's text in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B1");

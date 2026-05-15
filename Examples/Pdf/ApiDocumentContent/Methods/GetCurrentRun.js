@@ -1,4 +1,8 @@
-// This example returns the current run from the document content.
+// Access the text segment that is currently active in a shape in a PDF.
+
+// How do I find the text segment being edited in a PDF?
+
+// Retrieve the most recent text portion that was added to a shape in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

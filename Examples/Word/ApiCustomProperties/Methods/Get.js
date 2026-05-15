@@ -1,4 +1,8 @@
-// This example demonstrates how to get the value of a custom property by its name.
+// Retrieve the value of a custom property by name from a document in a document.
+
+// How do I read a custom metadata field stored in a document?
+
+// Access existing custom properties and confirm that missing ones return null in a document.
 
 const doc = Api.GetDocument();
 const customProps = doc.GetCustomProperties();

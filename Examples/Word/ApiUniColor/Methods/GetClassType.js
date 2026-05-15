@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the presentation.
+// Read the type identifier of a color object and display it in a document.
 
-// How to get a class type of ApiUniColor.
+// How do I find out what kind of color object I am working with in a document?
 
-// Retrieve class type of ApiUniColor object and insert it to the document.
+// Confirm the category of a preset color by printing its type label in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

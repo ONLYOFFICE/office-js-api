@@ -1,8 +1,8 @@
-// This example shows how to set the top/bottom direction for top 10 condition.
+// Switch a top 10 conditional formatting rule between highlighting highest and lowest values in a spreadsheet.
 
-// How to configure whether the condition evaluates top or bottom values.
+// How do I make a formatting rule mark the bottom values instead of the top ones in a spreadsheet?
 
-// Set the top/bottom direction for the top 10 rule.
+// Redirect attention to underperformers by flipping a highlight rule to bottom mode in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

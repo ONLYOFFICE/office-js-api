@@ -1,8 +1,8 @@
-// This example shows how to get the paragraph left side indentation.
+// Get the left indentation of a paragraph in a presentation.
 
-// How to return a left side identation of a paragraph.
+// How do I find the left indent value for a paragraph in a presentation?
 
-// Return a left side indentation of a text from the slide.
+// Read and display the left margin setting of formatted text in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

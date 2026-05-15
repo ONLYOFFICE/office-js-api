@@ -1,8 +1,8 @@
-// This example gets the validation alert style.
+// Read the alert style set on a validation rule in a spreadsheet.
 
-// How to retrieve the validation alert style.
+// How do I check what kind of alert appears when invalid data is entered in a spreadsheet?
 
-// Get the validation alert style.
+// Inspect the warning type assigned to a cell's data validation rule in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");

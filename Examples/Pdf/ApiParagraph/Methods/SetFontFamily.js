@@ -1,4 +1,8 @@
-// This example sets all 4 font slots with the specified font family.
+// Set the font type for a paragraph in a PDF.
+
+// How do I change the font family in a paragraph in a PDF?
+
+// Apply a specific typeface to a paragraph in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

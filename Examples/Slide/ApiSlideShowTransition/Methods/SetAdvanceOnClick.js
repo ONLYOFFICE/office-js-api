@@ -1,4 +1,8 @@
-// This example enables advancing to the next slide on mouse click.
+// Enable advancing to the next slide on mouse click.
+
+// Configure the advance on click property of a slide show transition object.
+
+// Display a message indicating the transition will advance on time rather than click.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

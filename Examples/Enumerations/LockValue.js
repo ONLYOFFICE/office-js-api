@@ -1,4 +1,4 @@
-// This example gets the lock value for the specified lock type of the current drawing.
+// Get the lock value for the specified lock type of the current drawing.
 
 // How to get a lock value of the ApiShape object.
 

@@ -1,8 +1,8 @@
-// This example gets the pivot table condition of color scale formatting.
+// Read the pivot table scope setting attached to a color scale rule in a spreadsheet.
 
-// How to retrieve pivot table condition object for color scale conditional formatting.
+// How do I check whether a color scale rule targets a specific part of a pivot table in a spreadsheet?
 
-// Get color scale pivot table condition.
+// Inspect the pivot table condition of a color scale rule and display whether one is set in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

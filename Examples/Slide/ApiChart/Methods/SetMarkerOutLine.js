@@ -1,8 +1,8 @@
-// This example sets the outline to the marker in the specified chart series.
+// Add a border to data point markers in a chart in a presentation.
 
-// How to set an outline to the marker.
+// How do I add an outline around the data point symbols in a chart in a presentation?
 
-// Create a chart, set its properties and its marker outline.
+// Apply different border colors and widths to markers in different data series in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

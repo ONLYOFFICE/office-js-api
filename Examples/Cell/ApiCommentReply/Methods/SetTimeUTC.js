@@ -1,8 +1,8 @@
-// This example sets the timestamp of the comment reply creation in UTC format.
+// Set the UTC time stamp on a comment reply in a spreadsheet.
 
-// How to change a timestamp in UTC when a reply was created.
+// How do I store the creation time of a comment reply as a UTC value in a spreadsheet?
 
-// Add a reply then update its creation time in UTC format and show it in the worksheet.
+// Assign a universal coordinated time to an existing comment reply in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

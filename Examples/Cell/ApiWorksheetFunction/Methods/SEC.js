@@ -1,8 +1,8 @@
-// This example shows how to return the secant of an angle.
+// Return the secant of an angle in a spreadsheet.
 
-// How to get angle's secant.
+// Get the secant value of an angle using the SEC function.
 
-// Use a function to calculate the secant of an angle.
+// Apply the function to calculate and display the result in a cell.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

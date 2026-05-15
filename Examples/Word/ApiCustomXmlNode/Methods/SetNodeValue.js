@@ -1,4 +1,9 @@
-// This example shows how to get the XPath of a custom XML node.
+// Replace the raw value of an XML node stored in a document.
+
+// How do I overwrite the content of a node in the embedded XML data in a document?
+
+// Refresh a node's payload with updated markup when the stored data changes in a document.
+
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
 let xmlText = `

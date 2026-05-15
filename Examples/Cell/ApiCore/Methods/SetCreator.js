@@ -1,4 +1,8 @@
-// This example demonstrates how to set the creator of the current workbook using the ApiCore.
+// Assign an author name to a workbook's document properties in a spreadsheet.
+
+// How do I record who created a workbook in a spreadsheet?
+
+// Store the author's identity in the workbook metadata in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

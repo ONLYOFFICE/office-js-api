@@ -1,8 +1,8 @@
-// This example checks if a comment is solved or not.
+// Check whether a comment has been marked as resolved in a spreadsheet.
 
-// How to find out whether a comment is resolved.
+// How do I tell if a comment has already been resolved or is still open in a spreadsheet?
 
-// Add a comment resolved status to a range of the worksheet.
+// Verify the resolved state of a comment to decide if further action is needed in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

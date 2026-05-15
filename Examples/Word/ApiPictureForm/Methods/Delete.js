@@ -1,4 +1,8 @@
-// This example deletes the form.
+// Remove a picture form field entirely from a document.
+
+// How do I permanently delete a picture form field from a document?
+
+// Discard an unwanted picture form while keeping other content intact in a document.
 
 const doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

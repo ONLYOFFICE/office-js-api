@@ -1,4 +1,8 @@
-// This example gets a class type and pastes it into the presentation.
+// Check the class type returned by a slide show transition.
+
+// Retrieve the class type identifier from a slide show transition object.
+
+// Display the class type in a shape on the slide.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

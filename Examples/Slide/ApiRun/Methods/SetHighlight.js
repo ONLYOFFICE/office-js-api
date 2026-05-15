@@ -1,8 +1,8 @@
-// This example specifies a highlighting color which is applied as a background to the contents of the run.
+// Add a background highlight color to text in a presentation.
 
-// How to set highlight to the text run.
+// What highlight colors are available for text in a presentation?
 
-// Create a new text run and highlight it.
+// Apply highlighting to text runs in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

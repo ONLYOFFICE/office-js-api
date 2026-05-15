@@ -1,5 +1,9 @@
-// Creates adjustable custom geometry with guides and connection points.
-// Displays adjustment value in a cell and applies geometry to shape.
+// Update the numeric value of a named adjustment handle on a custom shape in a spreadsheet.
+
+// How do I change the position of a shape adjustment control to a new value in a spreadsheet?
+
+// Override an existing adjustment handle's value to reshape a custom outline in a spreadsheet.
+
 let worksheet = Api.GetActiveSheet();
 let customGeometry = Api.CreateCustomGeometry();
 customGeometry.AddAdj("adj1", 25000);

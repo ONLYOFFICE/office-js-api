@@ -1,8 +1,8 @@
-// This example shows how to return the false logical value.
+// Return the false logical value in a spreadsheet.
 
-// How to get false value.
+// Get the boolean false value.
 
-// Use function to get a boolean false.
+// Apply FALSE function to return false in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

@@ -1,4 +1,8 @@
-// This example shows how to set the XML content of the current XML node.
+// Set the XML content of the current XML node in a presentation.
+
+// Replace an XML node with different XML markup in a presentation.
+
+// Update a custom XML node with new structured content in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

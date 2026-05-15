@@ -1,6 +1,8 @@
-// This example shows how to create and use the table cell properties.
+// Apply custom shading to individual table cells in a document.
 
-// How to create the table cell properties and set it to table style.
+// How do I change the background color of a specific table cell in a document?
+
+// Style a single cell with gray shading using a custom table style in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

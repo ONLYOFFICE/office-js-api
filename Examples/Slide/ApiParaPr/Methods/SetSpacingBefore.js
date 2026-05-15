@@ -1,8 +1,8 @@
-// This example sets the spacing before the current paragraph.
+// Add space above a paragraph in a presentation.
 
-// How to set the size of a spacing before a text from a paragraph properties.
+// How do I set the distance before a paragraph begins in a presentation?
 
-// Change the size property of a spacing before a paragraph.
+// Configure the gap before a paragraph using paragraph settings in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

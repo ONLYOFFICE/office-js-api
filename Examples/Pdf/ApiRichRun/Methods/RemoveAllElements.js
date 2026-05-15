@@ -1,4 +1,9 @@
-// This example remove all elements from rich run object.
+// Clear all child elements from a text run in a PDF.
+
+// How do I remove everything inside a text run in a PDF?
+
+// Delete all subelements contained within a text element in a PDF.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

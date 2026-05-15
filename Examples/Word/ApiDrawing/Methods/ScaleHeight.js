@@ -1,8 +1,8 @@
-// This example scales the height of the figure using the specified coefficient.
+// Scale the height of a drawing by a given factor in a document.
 
-// How to increase the height of the drawing.
+// How do I resize the height of a shape proportionally in a document?
 
-// Make the cube longer.
+// Create several shapes at different height scales to compare sizes visually in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

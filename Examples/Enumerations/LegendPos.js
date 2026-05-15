@@ -1,4 +1,4 @@
-// This example sets position "bottom" for chart legend.
+// Set position "bottom" for chart legend.
 
 // How to change a legend position.
 

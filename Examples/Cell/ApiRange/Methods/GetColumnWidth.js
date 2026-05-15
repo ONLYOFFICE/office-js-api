@@ -1,8 +1,8 @@
-// This example shows how to get the column width value.
+// Read the width of a column and display the value on the sheet in a spreadsheet.
 
-// How to get width of a range column.
+// How do I find out the current width of a column in a spreadsheet?
 
-// Get a range, get its column width and show it in the worksheet.
+// Measure a column's width and record that measurement in a nearby cell.
 
 let worksheet = Api.GetActiveSheet();
 let width = worksheet.GetRange("A1").GetColumnWidth();

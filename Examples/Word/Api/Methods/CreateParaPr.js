@@ -1,6 +1,8 @@
-// This example shows how to create and use the paragraph properties.
+// Apply custom paragraph alignment to a table row style in a document.
 
-// How to set paragraph properties to the table style.
+// How do I center-align text in the first row of a table style in a document?
+
+// Set up a reusable table style with centered paragraph formatting in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

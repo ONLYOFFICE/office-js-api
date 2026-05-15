@@ -1,4 +1,9 @@
-// This example gets field widgets border style and displays it.
+// Read the border style of a form field widget in a PDF.
+
+// How do I get the border style of a widget in a PDF?
+
+// Retrieve the outline appearance setting of a form field in a PDF.
+
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 let textField = Api.CreateTextField([10, 10, 160, 30]);

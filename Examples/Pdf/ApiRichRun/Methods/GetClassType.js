@@ -1,4 +1,9 @@
-// This example gets class type of rich run object.
+// Identify the type category of a text run in a PDF.
+
+// How do I determine what type of object a text run is in a PDF?
+
+// Check the classification of a text element in a PDF.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

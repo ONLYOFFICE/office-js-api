@@ -1,8 +1,8 @@
-// This example applies text settings to the content of the content control.
+// Apply text formatting to an inline content control in a document.
 
-// How to set text properties for the inline content control.
+// How do I set font size and bold style on an inline content control in a document?
 
-// Display the text properties set for inline text element.
+// Style an inline text field with custom typography to highlight it visually in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

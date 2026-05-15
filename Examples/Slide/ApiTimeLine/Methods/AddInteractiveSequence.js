@@ -1,4 +1,8 @@
-// This example creates an interactive animation sequence.
+// Add an interactive animation triggered by clicking a shape in a presentation.
+
+// How do I create an animation that responds to user clicks in a presentation?
+
+// Define an animation sequence that starts when a specific shape is clicked in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

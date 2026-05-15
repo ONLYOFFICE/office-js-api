@@ -1,8 +1,8 @@
-// This example shows how to get the class type of a custom XML node and display it.
+// Check what type of object represents a custom XML node in a spreadsheet.
 
-// How to get the class type of an XML node.
+// How do I confirm the category of an XML node object before processing it in a spreadsheet?
 
-// Get the class type.
+// Verify the identity of an XML node to ensure it is the expected kind before using it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let xmlManager = worksheet.GetCustomXmlParts();

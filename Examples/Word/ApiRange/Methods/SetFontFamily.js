@@ -1,8 +1,8 @@
-// This example sets all 4 font slots with the specified font family.
+// Apply a specific typeface to a range of text in a document.
 
-// How to change the text font family.
+// How do I change the font used for a portion of text in a document?
 
-// Create a text run object and set the "Comic Sans MS" font faminy to it.
+// Switch the appearance of selected words by assigning them a different typeface in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

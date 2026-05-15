@@ -1,4 +1,8 @@
-// This example shows how to get chart type of the chart.
+// Read the chart type of an existing chart and show it in the title in a spreadsheet.
+
+// How do I find out what kind of chart has been inserted on a sheet in a spreadsheet?
+
+// Confirm the chart variety programmatically to use its name as a label in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

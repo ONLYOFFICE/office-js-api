@@ -1,10 +1,8 @@
-// This example creates no fill and removes the fill from the element.
+// Draw a shape with a transparent border and no outline color in a document.
 
-// How to create the ApiNoFill object and applies it to the shape stroke.
+// How do I make a shape border completely transparent in a document?
 
-// Creates a stroke with no fill.
-
-// How to create the ApiStroke object with no fill and apply it to the shape.
+// Remove all color from a shape's outline so it appears borderless in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

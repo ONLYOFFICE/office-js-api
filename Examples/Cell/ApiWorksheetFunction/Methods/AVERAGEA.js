@@ -1,8 +1,8 @@
-// This example shows how to return the average (arithmetic mean) of the specified arguments.
+// Calculate the average of a list that includes numbers, text, and logical values in a spreadsheet.
 
-// How to find an average (arithmetic mean).
+// Average values when the range contains text or TRUE/FALSE entries in a spreadsheet.
 
-// Use function to get the find an average (arithmetic mean).
+// Include non-numeric cells such as booleans when computing a mean in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

@@ -1,8 +1,8 @@
-// This example show how to get the next chart.
+// Apply gridline styling to the chart that follows the current one in a document.
 
-// How to update minor horizontal gridlines of the next chart.
+// How do I access the next chart and change its gridlines in a document?
 
-// Get the next chart and set its horizontal lines as a stroke. 
+// Style minor horizontal gridlines on a sibling chart without selecting it directly in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

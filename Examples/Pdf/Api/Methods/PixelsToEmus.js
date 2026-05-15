@@ -1,4 +1,8 @@
-// This example shows how to convert pixels to english metric units.
+// Convert pixels to english metric units in a PDF document.
+
+// The API method performs measurement unit conversion.
+
+// The result is displayed in a shape text element.
 
 const pixels = 1080;
 const emus = Api.PixelsToEmus(pixels);

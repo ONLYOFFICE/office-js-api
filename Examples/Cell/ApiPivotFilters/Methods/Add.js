@@ -1,6 +1,8 @@
-// This example demonstrates comprehensive testing of ApiPivotFilters.Add method
-// Creates one comprehensive dataset and 15 pivot tables with different filter types
-// Tests all major filter categories: label, value, top/bottom, and date filters
+// Apply a filter to a pivot table field to narrow down which items appear in the report in a spreadsheet.
+
+// How do I add a label, value, top-bottom, or date filter to a pivot table field in a spreadsheet?
+
+// Restrict pivot data to only the rows that meet a specific condition or ranking criterion in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

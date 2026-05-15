@@ -1,8 +1,8 @@
-// This example shows how to get a grand total name of a pivot table.
+// Read the label used for the grand total row or column in a pivot table in a spreadsheet.
 
-// How to get a grand total name of a table.
+// How do I find out what text appears on the grand total line of a pivot table in a spreadsheet?
 
-// Create a pivot table, add data to it then get its grand total name.
+// Retrieve the custom title assigned to the grand total section of a pivot table in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

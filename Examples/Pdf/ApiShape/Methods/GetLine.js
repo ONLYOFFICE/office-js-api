@@ -1,5 +1,9 @@
-// Gets the outline properties from a shape and displays detailed information.
-// Creates a shape with a stroke, retrieves it and shows stroke details.
+// Retrieve the border properties from a shape in a PDF.
+
+// How do I read the outline details of a shape in a PDF?
+
+// View the border information including width and color in a PDF.
+
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 200, 100));

@@ -1,8 +1,8 @@
-// This example converts the current form to a fixed size form.
+// Lock a text form to a fixed size in a document.
 
-// Create a text form and make its size fixed.
+// How do I prevent a text form from resizing when content changes in a document?
 
-// Fix the width and the height of the text form.
+// Keep a text form at exact dimensions regardless of how much text it contains in a document.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});

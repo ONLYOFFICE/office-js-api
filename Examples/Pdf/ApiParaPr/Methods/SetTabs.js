@@ -1,8 +1,8 @@
-// This example sets a sequence of custom tab stops which will be used for any tab characters in the paragraph.
+// Define custom tab positions for aligning text in a PDF.
 
-// How to set the size of a spacing tabs from a paragraph properties.
+// How do I set where tabs align text in a PDF?
 
-// Change a tabs size property of a paragraph properties.
+// Configure tab stop locations and alignment styles in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -14,7 +14,7 @@ const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = Api.CreateShape("flowChartMagneticTape", 150 * 36000, 65 * 36000, fill, stroke);
 shape.SetPosition(608400, 1267200);
 
-const docContent = shape.GetDocContent();
+const docContent = shape.GetContent();
 const paragraph = docContent.GetElement(0);
 const paraPr = paragraph.GetParaPr();
 paraPr.SetTabs([1440, 4320, 7200], ["left", "center", "right"]);

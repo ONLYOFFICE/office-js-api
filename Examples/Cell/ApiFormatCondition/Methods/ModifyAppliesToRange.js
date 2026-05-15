@@ -1,8 +1,8 @@
-// This example modifies the range where a conditional formatting rule applies.
+// Change the cells that a conditional formatting rule covers in a spreadsheet.
 
-// How to change the cell range for existing conditional formatting rules.
+// How do I reassign a formatting rule to a different group of cells in a spreadsheet?
 
-// Modify conditional formatting rule range.
+// Expand or narrow the area where an existing formatting rule takes effect in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

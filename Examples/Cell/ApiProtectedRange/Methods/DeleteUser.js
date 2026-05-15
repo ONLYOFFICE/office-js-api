@@ -1,8 +1,8 @@
-// This example deletes the the user protected range.
+// Revoke a user's access to a protected range in a spreadsheet.
 
-// How to close an access for the protected range to user specifing user id, name and access type.
+// How do I remove a person's permission to edit a locked range in a spreadsheet?
 
-// Get an active sheet, add protected range to it, add users with rights then delete one of them. 
+// Take away an existing user's rights to a protected range by removing them from the access list in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.AddProtectedRange("protectedRange", "$A$1:$B$1");

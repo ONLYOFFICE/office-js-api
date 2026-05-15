@@ -1,8 +1,8 @@
-// This example shows how to return the quartile of a data set.
+// Find the quartile value of a data set in a spreadsheet.
 
-// How to get the quartile of a data set.
+// What is the value at a specific quartile position in a data set in a spreadsheet?
 
-// Use a function to calculate a part divided by four of a data set.
+// Determine which data point marks a quarter, half, or three-quarters of a distribution in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

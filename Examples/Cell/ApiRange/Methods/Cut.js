@@ -1,8 +1,8 @@
-// This example cuts a range to the clipboard.
+// Move a range of cells from one location to another in a spreadsheet.
 
-// How to cut a range.
+// How do I relocate a group of cells and remove them from their original position in a spreadsheet?
 
-// Get a range, set some value for it and cut it to the clipboard.
+// Transfer cell content to a new spot, leaving the source cells empty in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");

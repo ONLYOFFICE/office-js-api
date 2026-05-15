@@ -1,8 +1,8 @@
-// This example shows how to get the cosecant of an angle.
+// Calculate the cosecant (reciprocal of sine) for an angle in a spreadsheet.
 
-// How to return cosecant.
+// What is the cosecant value in a spreadsheet?
 
-// Use function to get the cosecant of an angle.
+// Determine the trigonometric cosecant ratio in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

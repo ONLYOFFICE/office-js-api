@@ -1,4 +1,9 @@
-// This example shows how to get the value of a custom XML node and display it.
+// Extract the value stored in a custom XML node in a document.
+
+// How do I get the value of a custom XML node in a document?
+
+// Read raw data out of a specific XML element to use or display it in a document.
+
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
 let xmlText = `

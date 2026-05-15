@@ -1,4 +1,8 @@
-// This example gets all interactive animation sequences from a timeline.
+// Retrieve all click-triggered animation sequences on a slide in a presentation.
+
+// How do I access the interactive animations that respond to clicks in a presentation?
+
+// Collect all animation sequences that are activated by user interactions in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

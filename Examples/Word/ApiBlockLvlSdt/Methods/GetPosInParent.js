@@ -1,10 +1,8 @@
-// This example shows how to get the content control position within its parent element.
+// Find the position of a content control among its siblings in a document.
 
-// Creates a block content control, adds it to the current document, and returns its position in the document.
+// How do I get the index position of a content control within its parent in a document?
 
-// How to get the position of the ApiBlockLvlSdt object within the ApiDocument class.
-
-// Specifies the position of the block container within the parent document.
+// Insert a content control and use its position to retrieve and update it in a document.
 
 let doc = Api.GetDocument();
 let paragraph = Api.CreateParagraph();

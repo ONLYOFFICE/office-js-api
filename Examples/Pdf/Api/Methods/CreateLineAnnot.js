@@ -1,4 +1,9 @@
-// This example creates a line annotation and adds it to the page.
+// Create a line annotation and add it to the page.
+
+// Create the line annot in a PDF document.
+
+// Create the line annot and display the result in a PDF document.
+
 let doc = Api.GetDocument();
 let lineAnnot = Api.CreateLineAnnot([10, 10, 160, 32], {x: 11, y: 11}, {x: 155, y: 25});
 lineAnnot.SetEndStyle("openArrow");

@@ -1,5 +1,9 @@
-// Retrieves arc parameters including radii and angles.
-// Displays arc width radius, height radius, start and sweep angles in cells.
+// Read the horizontal radius of an arc path command and write it to a cell in a spreadsheet.
+
+// How do I find the width radius of an arc segment on a shape in a spreadsheet?
+
+// Confirm the horizontal extent of a curved arc drawn inside a shape in a spreadsheet.
+
 let worksheet = Api.GetActiveSheet();
 let customGeometry = Api.CreateCustomGeometry();
 let path = customGeometry.AddPath();

@@ -1,8 +1,8 @@
-// This example shows how to return the quotient of two complex numbers.
+// Divide one complex number by another in a spreadsheet.
 
-// How to get the quotient of two comlex numbers.
+// How do I divide two complex numbers in a spreadsheet?
 
-// Use a function to get the quotient.
+// Get the quotient of complex numbers in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

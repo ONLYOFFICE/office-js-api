@@ -1,8 +1,8 @@
-// This example sets the fill to the chart title.
+// Apply a background color to the chart title in a presentation.
 
-// How to color a chart title.
+// Change the fill color of chart title text in a presentation.
 
-// Create a chart, set its properties and its title color.
+// Add a background or highlight color to a chart heading in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

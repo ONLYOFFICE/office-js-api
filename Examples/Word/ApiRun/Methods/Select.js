@@ -1,8 +1,8 @@
-// This example selects the current run.
+// Highlight a text run as the active selection in a document.
 
-// How to select a text with a cursor.
+// How do I programmatically select a piece of text in a document?
 
-// Select a run.
+// Mark a run so it appears selected for the user in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

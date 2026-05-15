@@ -1,8 +1,8 @@
-// This example specifies how the floating object will be vertically aligned.
+// Align a floating shape vertically relative to the page in a document.
 
-// How to set the vertical alignment of the drawing.
+// How do I control the vertical alignment of a drawing in a document?
 
-// Move the shape to the top of the page.
+// Pin a shape to the top of the page without manually setting its coordinates in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

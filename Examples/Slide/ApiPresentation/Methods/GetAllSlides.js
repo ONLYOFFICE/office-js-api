@@ -1,4 +1,8 @@
-// This example shows how to get all slides from current presentation.
+// List all slides in a presentation.
+
+// How do I access every slide I created in a presentation?
+
+// Add new slides and count the total in a presentation.
 
 const presentation = Api.GetPresentation();
 const firstSlide = presentation.GetSlideByIndex(0);

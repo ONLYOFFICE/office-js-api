@@ -1,8 +1,8 @@
-// This example shows how to find the specified substring within another string and is intended for languages that use the double-byte character set (DBCS) like Japanese, Chinese, Korean etc.
+// Find the position of a substring within text, counting bytes in a spreadsheet.
 
-// How to get an index of a substring from a string and its double-byte character language.
+// How do I search for specific text using byte positions in a spreadsheet?
 
-// Use function to find out a starting position of a substring containing in another text and its character set (DBCS).
+// Locate a text position using byte count instead of character count in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

@@ -1,8 +1,8 @@
-// This example wraps a run in a mail merge field.
+// Turn a text run into a mail merge placeholder in a document.
 
-// How to create a run wrapped in 'Mail Merge Field'.
+// How do I mark a piece of text so it acts as a merge field in a document?
 
-// Add a text run to the mail merge field.
+// Convert a named text run into a field that gets filled during mail merge in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example specifies the alignment which will be applied to the contents of the current run in relation to the default appearance of the text run.
+// Position text as subscript, baseline, or superscript within a paragraph in a document.
 
-// How to set vertical alignment of a text object.
+// How do I raise or lower a portion of text relative to the surrounding line in a document?
 
-// Create a text run object, specify its vertical alignment as "baseline", "subscript" or "superscript".
+// Distinguish chemical formulas or footnote markers by adjusting vertical text placement in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

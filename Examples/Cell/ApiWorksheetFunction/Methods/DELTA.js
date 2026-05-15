@@ -1,8 +1,8 @@
-// This example shows how to test whether two numbers are equal. The function returns 1 if the numbers are equal and 0 otherwise.
+// Check if two numbers are identical in a spreadsheet.
 
-// How to compare two numbers.
+// Are these two values the same or different in a spreadsheet?
 
-// Use function to compare two numbers if it returns 1 they are equal else 0.
+// Verify whether your numbers match by returning 1 for equal or 0 for different in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

@@ -1,8 +1,8 @@
-// This example gets the input message text.
+// Read the guidance message that appears when a user selects a validated cell in a spreadsheet.
 
-// How to retrieve the validation input message.
+// How do I find out what instruction text is shown when clicking on a cell with a validation rule in a spreadsheet?
 
-// Get the input message.
+// Retrieve the tooltip message displayed to guide users entering data into a restricted cell in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");

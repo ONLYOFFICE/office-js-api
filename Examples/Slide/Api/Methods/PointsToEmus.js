@@ -1,4 +1,8 @@
-// This example shows how to convert points to emus.
+// Convert points to emus and display the result in a presentation.
+
+// Use Api.PointsToEmus to convert measurement units.
+
+// Display the converted value in a shape text.
 
 const points = 1000;
 const emus = Api.PointsToEmus(points);

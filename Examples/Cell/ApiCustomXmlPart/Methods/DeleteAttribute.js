@@ -1,4 +1,8 @@
-// This example shows how to delete an attribute from a custom XML part element.
+// Strip an attribute from an XML element stored in a spreadsheet.
+
+// How do I remove a named property from an XML element in a spreadsheet?
+
+// Trim unwanted metadata from an XML node and confirm the result in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const xmlManager = worksheet.GetCustomXmlParts();

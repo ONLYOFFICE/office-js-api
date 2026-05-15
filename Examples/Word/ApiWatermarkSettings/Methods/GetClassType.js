@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the document.
+// Read the type identifier of a watermark settings object in a document.
 
-// How to get a class type of ApiWatermarkSettings.
+// How do I find out what kind of object holds the watermark configuration in a document?
 
-// Retrieve class type of ApiWatermarkSettings object and insert it to the document.
+// Confirm the category of watermark settings by printing its type label in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example shows how to get a row by its index.
+// Access a specific row from a table in a presentation.
 
-// How to get a row object from the table.
+// How do I get a row from a table using its position in a presentation?
 
-// Create a table, add rows and columns, then get its row by index.
+// Retrieve a table row by index and add text to it in a presentation.
 
 const presentation = Api.GetPresentation();
 

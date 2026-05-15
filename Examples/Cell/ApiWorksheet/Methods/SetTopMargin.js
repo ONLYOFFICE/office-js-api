@@ -1,8 +1,8 @@
-// This example sets the top margin of the sheet.
+// Set the top margin width for printed pages in a spreadsheet.
 
-// How to set margin of the top side.
+// How do I control the empty space along the top edge when printing in a spreadsheet?
 
-// Resize the top margin of the sheet.
+// Determine how much blank space appears between the top page boundary and your data in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.SetTopMargin(25.1);

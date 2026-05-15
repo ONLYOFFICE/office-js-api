@@ -1,8 +1,8 @@
-// This example shows how to get the comment author's name.
+// Read the author name from a comment in a document.
 
-// How to find out a comment's author.
+// How do I find out who wrote a comment in a document?
 
-// Get all comments from the presentation and display the first one's author name.
+// Identify the person behind a comment by retrieving the name stored with it.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

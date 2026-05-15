@@ -1,8 +1,8 @@
-// This example showh how to get a parent table cell that contains the graphic object.
+// Retrieve the table cell that contains a drawing object in a document.
 
-// Get an element's parent table cell.
+// How do I find which table cell holds a drawing in a document?
 
-// How to show the shape's wrapper table cell.
+// Useful when you need to add text alongside a shape placed inside a table cell in a document.
 
 let doc = Api.GetDocument();
 let paragraph = Api.CreateParagraph();

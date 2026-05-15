@@ -1,8 +1,8 @@
-// This example sets the paragraph right side indentation.
+// Indent a paragraph from the right edge in a PDF.
 
-// How to set a right side indentation using a paragraph properties.
+// How do I indent a paragraph from the right in a PDF?
 
-// Create a paragraph setting its right side indentation property.
+// Add right margin indentation to a paragraph in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -14,7 +14,7 @@ const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = Api.CreateShape("flowChartMagneticTape", 150 * 36000, 65 * 36000, fill, stroke);
 shape.SetPosition(608400, 1267200);
 
-const docContent = shape.GetDocContent();
+const docContent = shape.GetContent();
 const paragraph = docContent.GetElement(0);
 const paraPr = paragraph.GetParaPr();
 paraPr.SetIndRight(2880);

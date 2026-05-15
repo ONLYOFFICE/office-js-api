@@ -1,5 +1,9 @@
-// Sets the outline properties to a shape.
-// Creates a rectangle and changes its outline to a thick blue line.
+// Change the border of a rectangle to a thick blue line after it is placed on the sheet in a spreadsheet.
+
+// How do I update the border style and color of a shape in a spreadsheet?
+
+// Swap out a shape's existing border for a new stroke with a different thickness and color in a spreadsheet.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 200, 100));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

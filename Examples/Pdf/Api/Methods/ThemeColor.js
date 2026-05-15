@@ -1,4 +1,8 @@
-// This example shows how to create a theme color and use it as a shape fill.
+// Apply a color from the document's theme to a shape in a PDF.
+
+// How do I use a theme color instead of a custom color in a PDF?
+
+// Fill a shape with an accent color from the theme in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

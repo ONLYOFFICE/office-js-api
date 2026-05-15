@@ -1,8 +1,8 @@
-// This example adds a Text Art object to the sheet with the parameters specified.
+// Place a styled decorative text object onto a sheet in a spreadsheet.
 
-// How to add a word art to the worksheet specifying its properties, color, size, etc.
+// How do I add eye-catching artistic text with custom fonts and colors in a spreadsheet?
 
-// Insert a word art to the worksheet.
+// Render a bold curved text banner with a solid fill and outline on the worksheet.
 
 let worksheet = Api.GetActiveSheet();
 let textProps = Api.CreateTextPr();

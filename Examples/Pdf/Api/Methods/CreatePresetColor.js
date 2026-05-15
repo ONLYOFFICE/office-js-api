@@ -1,8 +1,8 @@
-// This example creates a color selecting for create gradient stop.
+// Use a preset color in a gradient fill in a PDF.
 
-// How to create a preset color.
+// How do I select a named color for a gradient in a PDF?
 
-// Add a preset color as a gradient stop.
+// Create a gradient stop with a built-in preset color in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

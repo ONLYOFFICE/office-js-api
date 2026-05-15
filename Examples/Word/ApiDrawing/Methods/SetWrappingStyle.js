@@ -1,8 +1,8 @@
-// This example creates a shape with wrapping style "square".
+// Make text wrap around a shape using the square wrapping style in a document.
 
-// How to wrap the shape with squared style.
+// How do I control how text flows around a drawing in a document?
 
-// Create a drawing, add its properties and set its wrapping style.
+// Keep a fixed gap between surrounding text and all sides of a floating shape in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

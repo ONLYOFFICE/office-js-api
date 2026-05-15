@@ -1,4 +1,9 @@
-// This example shows how to get the ID of the container.
+// Read the ID assigned to a content control in a document.
+
+// How do I get the ID of a content control in a document?
+
+// Retrieve a content control's identifier and display it as text in a document.
+
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();
 blockLvlSdt.SetId("4815162342");

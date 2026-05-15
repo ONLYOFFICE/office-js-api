@@ -1,4 +1,9 @@
-// This example adds some text to rich run object.
+// Insert text content into a text run in a PDF.
+
+// How do I add words to a text run in a PDF?
+
+// Write text into a text element in a PDF.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

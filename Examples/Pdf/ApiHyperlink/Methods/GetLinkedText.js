@@ -1,8 +1,8 @@
-// This example shows how to get the hyperlink address.
+// Retrieve the text that contains a hyperlink in a PDF.
 
-// How to get the raw link of the hyperlink.
+// What text is associated with a hyperlink in a PDF?
 
-// Add a hyperlink to the paragraph and show its address as a text.
+// Display the actual text of a hyperlink in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

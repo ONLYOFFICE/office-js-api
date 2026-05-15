@@ -1,8 +1,8 @@
-// This example shows how to get the paragraph properties.
+// Get the paragraph properties in a presentation.
 
-// How to get a paragraph properties and set its spacing size.
+// How do I access and modify paragraph formatting options in a presentation?
 
-// Change paragraph properties.
+// Retrieve paragraph properties and adjust the spacing in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

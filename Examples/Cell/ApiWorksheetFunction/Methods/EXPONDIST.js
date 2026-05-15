@@ -1,8 +1,8 @@
-// This example shows how to return the exponential distribution.
+// Return the exponential distribution in a spreadsheet.
 
-// How to get the exponential distribution.
+// Calculate exponential distribution values.
 
-// Use function to calculate an exponential distribution.
+// Apply EXPONDIST function to get the exponential distribution in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

@@ -1,8 +1,8 @@
-// This example specifies the major tick mark for the vertical axis.
+// Set major tick mark for the vertical axis using predefined symbols.
 
-// How to set a major tick mark using predefined symbols.
+// Configure chart properties and vertical axis styling in a presentation.
 
-// Create a chart, set its properties and major tick mark for vertical axis.
+// Create a scatter chart with cross-style major tick marks on the vertical axis.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

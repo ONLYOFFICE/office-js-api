@@ -1,8 +1,8 @@
-// This example adds a shape to the sheet with the parameters specified.
+// Draw a shape with a custom fill and position on a sheet in a spreadsheet.
 
-// How to add a shape to the worksheet.
+// How do I place a colored geometric shape onto a worksheet in a spreadsheet?
 
-// Insert a flowchart shape to the worksheet.
+// Decorate a sheet by adding a gradient-filled shape at defined coordinates.
 
 let worksheet = Api.GetActiveSheet();
 let gradientStop1 = Api.CreateGradientStop(Api.RGB(255, 213, 191), 0);

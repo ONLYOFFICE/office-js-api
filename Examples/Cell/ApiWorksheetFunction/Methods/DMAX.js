@@ -1,8 +1,8 @@
-// This example shows how to get the largest number in the field (column) of records in the database that match the conditions you specify.
+// Get the largest number in a database column that matches specified conditions.
 
-// How to get the maximum number from the database column that match the conditions you specify.
+// Find the maximum value among records meeting the given criteria.
 
-// Use function to get the maximum number from the database column that satisfies the conditions.
+// Use the DMAX function to retrieve the highest value from a database field with conditions.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

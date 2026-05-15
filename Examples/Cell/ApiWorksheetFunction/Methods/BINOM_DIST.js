@@ -1,8 +1,8 @@
-// This example shows how to return the individual term binomial distribution probability.
+// Calculate cumulative or individual binomial distribution probability in a spreadsheet.
 
-// How to get an individual term binomial distribution probability.
+// How do I determine the chance of successes in a series of repeated attempts in a spreadsheet?
 
-// Use function to get an individual term binomial distribution probability.
+// Evaluate the probability of reaching a target number of positive outcomes in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

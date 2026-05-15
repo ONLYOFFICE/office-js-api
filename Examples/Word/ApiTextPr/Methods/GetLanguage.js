@@ -1,8 +1,8 @@
-// This example shows how to find out the text language.
+// Read the language assigned to a run of text in a document.
 
-// Get the language of the text properties.
+// How do I find out which language is set on a piece of text in a document?
 
-// How to know the text language property.
+// Inspect a text run to confirm the locale currently applied to it in a document.
 
 let doc = Api.GetDocument();
 let myNewRunStyle = doc.CreateStyle("My New Run Style", "run");

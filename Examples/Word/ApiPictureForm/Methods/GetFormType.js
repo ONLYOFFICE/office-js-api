@@ -1,8 +1,8 @@
-// This example shows how to get a type of the form.
+// Retrieve the type assigned to a picture form in a document.
 
-// How to get a form type of the picture form.
+// How do I find out what type a picture form is in a document?
 
-// Get the type of the form and display it in the document.
+// Check which category a picture form belongs to in a document.
 
 let doc = Api.GetDocument();
 let pictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false, "shiftX": 50, "shiftY": 50});

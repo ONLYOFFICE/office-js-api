@@ -1,8 +1,8 @@
-// This example shows how to estimate the standard deviation based on a sample from the selected database entries.
+// Estimate the standard deviation based on a sample of database entries.
 
-// How to calculate the standard deviation based on a sample.
+// Calculate sample-based variance to measure data dispersion.
 
-// Use function to estimate the standard deviation based on a range sample.
+// Use the DSTDEV function to find sample standard deviation of database values with conditions.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

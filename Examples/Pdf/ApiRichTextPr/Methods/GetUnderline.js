@@ -1,4 +1,9 @@
-// This example gets underline property from rich text properties object.
+// Check if text is underlined in a PDF.
+
+// How do I see whether text has an underline in a PDF?
+
+// Retrieve the underline state of formatted text in a PDF.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// This example sets the text properties to the current form.
+// Apply bold and font-size formatting to a checkbox form in a document.
 
-// How to set text properties of the form.
+// How do I change the text appearance of a form field in a document?
 
-// Make text of the checkbox bold.
+// Style a checkbox form with custom font properties so it stands out visually in a document.
 
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});

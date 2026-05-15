@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Identify the class type of a combo box form in a document.
 
-// How get a class type of ApiComboBoxForm.
+// How do I check what class type a combo box form belongs to in a document?
 
-// Retrieve class type of a created combobox object and display it.
+// Distinguish a combo box form from other form objects by reading its type label.
 
 let doc = Api.GetDocument();
 let comboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});

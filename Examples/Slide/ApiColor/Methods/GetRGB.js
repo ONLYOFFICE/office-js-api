@@ -1,4 +1,8 @@
-// This example shows how to get the RGB components of a shape fill color.
+// Extract RGB component values from a color object.
+
+// Convert hexadecimal color to separate red, green, blue channels.
+
+// Get the RGB components of a color and display them within a shape text element.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,4 +1,9 @@
-// This example gets field widget and displays it's text autofit property.
+// Check if automatic text fitting is enabled for a widget in a PDF.
+
+// How do I determine if a widget has autofit enabled in a PDF?
+
+// Retrieve and display the autofit status for a widget in a PDF.
+
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 let textField = Api.CreateTextField([10, 10, 160, 30]);
@@ -11,4 +16,3 @@ widgets.forEach(function(widget) {
 });
 let bgColor = widgets[0].GetTextColor();
 textField.SetValue('Widgets text autofit is: ' + widgets[0].IsAutoFit());
-

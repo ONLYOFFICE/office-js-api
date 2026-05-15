@@ -1,8 +1,8 @@
-// This example shows how to get the paragraph right side indentation.
+// Retrieve the right margin indentation value from a paragraph in a PDF.
 
-// How to return a right side identation of a paragraph property.
+// How do I get the right side indent measurement in a PDF?
 
-// Return a right side indentation of a text property from the page.
+// Obtain the right edge offset amount in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -15,7 +15,7 @@ const shape = Api.CreateShape("flowChartMagneticTape", 150 * 36000, 65 * 36000, 
 shape.SetPosition(608400, 1267200);
 page.AddObject(shape);
 
-const docContent = shape.GetDocContent();
+const docContent = shape.GetContent();
 let paragraph = docContent.GetElement(0);
 const paraPr = paragraph.GetParaPr();
 paraPr.SetIndRight(2880);

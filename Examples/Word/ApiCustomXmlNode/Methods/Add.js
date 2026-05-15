@@ -1,4 +1,9 @@
-// This example shows how to create a new child node and insert it as a child of the current XML node.
+// Add a new child node to an existing custom XML node in a document.
+
+// How do I insert a child node into a custom XML node in a document?
+
+// Extend stored XML data by nesting a new element under an existing node in a document.
+
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
 let xml = xmlManager.Add("<content xmlns='http://example'><text>Hello World!</text></content>");

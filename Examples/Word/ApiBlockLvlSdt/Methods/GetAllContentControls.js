@@ -1,8 +1,8 @@
-// This example shows how to get a collection of content control objects in the current content control.
+// Collect all nested content controls inside a content control in a document.
 
-// Creates three block content controls, nests two of them inside one, and returns all the inner containers in an array.
+// How do I get a list of all content controls contained within another content control in a document?
 
-// How to return an array of the ApiBlockLvlSdt objects from the specified block content control.
+// Nest multiple content controls inside a parent control and retrieve them all at once in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

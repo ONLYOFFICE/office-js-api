@@ -1,11 +1,10 @@
-// This example shows how to return the natural logarithm of the gamma function.
+// Calculate the natural logarithm of a gamma function value in a spreadsheet.
 
-// How to calculate the natural logarithm of the gamma function.
+// How do I find the natural logarithm of a gamma function in a spreadsheet?
 
-// Use a function to calculate the natural logarithm of the gamma function value.
+// Get the logarithmic equivalent of a gamma function result in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;
 let ans = func.GAMMALN(0.5);
 worksheet.GetRange("B2").SetValue(ans);
-

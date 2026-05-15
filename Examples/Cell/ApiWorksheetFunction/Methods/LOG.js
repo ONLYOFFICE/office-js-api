@@ -1,8 +1,8 @@
-// This example shows how to return the logarithm of a number to the specified base.
+// Calculate the logarithm of a number using a custom base in a spreadsheet.
 
-// How to get the logarithm to the specified base.
+// How do I find the logarithm with a base other than 10 or e in a spreadsheet?
 
-// Use a function to return the logarithm.
+// Get the logarithmic value of a number to any specified base in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

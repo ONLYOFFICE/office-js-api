@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Determine what kind of color object an RGB color is in a spreadsheet.
 
-// How to get a class type of ApiRGBColor.
+// How do I check the category of an RGB color object in a spreadsheet?
 
-// Get a class type of ApiRGBColor and display it in the worksheet.
+// Distinguish an RGB color from other color types by reading its object category in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const rgbColor = Api.CreateRGBColor(255, 213, 191);

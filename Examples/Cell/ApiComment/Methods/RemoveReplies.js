@@ -1,8 +1,8 @@
-// This example removes the specified comment replies.
+// Delete selected replies from a comment thread in a spreadsheet.
 
-// How to remove replies from the comment.
+// How do I remove one or more specific replies from a comment in a spreadsheet?
 
-// Add a comment and replies to it, then remove specified reply and then show replies count.
+// Clean up a comment thread by erasing unwanted replies and confirming the remaining count in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

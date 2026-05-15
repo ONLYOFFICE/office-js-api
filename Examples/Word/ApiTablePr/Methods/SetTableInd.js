@@ -1,8 +1,8 @@
-// This example specifies the indentation which will be added before the leading edge of the table in the document.
+// Set the left indentation of a table in a document.
 
-// How to display the table description in the document.
+// How do I control how far a table is pushed in from the left margin in a document?
 
-// Get the table description from the table properties.
+// Shift a table away from the left edge by applying an indentation value in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

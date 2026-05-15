@@ -1,8 +1,8 @@
-// This example shows how to set an author to a comment reply.
+// Change the author name of a comment reply in a presentation.
 
-// How to change a comment's reply author name.
+// How do I update who replied to a comment in a presentation?
 
-// Get all comments from the presentation and set an author to the first one's reply.
+// Assign a different author name to an existing comment reply in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

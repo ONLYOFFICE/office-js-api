@@ -1,8 +1,8 @@
-// This example shows how to set a position of a pivot field.
+// Change the order of a pivot field within its area in a spreadsheet.
 
-// How to change a pivot field position.
+// How do I reorder pivot fields within the rows or columns section in a spreadsheet?
 
-// Create a pivot table, add data to it then change a position a specified pivot.
+// Shift a pivot field to a specific index to control how data groups are arranged in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 
@@ -34,11 +34,5 @@ pivotTable.AddFields({
 
 pivotTable.AddDataField('Price');
 
-let pivotWorksheet = Api.GetActiveSheet();
-pivotWorksheet.GetRange('A12').SetValue('The Style field position will change soon');
-
 let pivotField = pivotTable.GetPivotFields('Style');
-
-setTimeout(function () {
-    pivotField.SetPosition(1);
-}, 5000);
+pivotField.SetPosition(1);

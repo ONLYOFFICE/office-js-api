@@ -1,4 +1,8 @@
-// This example shows how to convert ApiColor objects of different types to JSON strings.
+// Serialize color objects of different types to JSON strings in a document.
+
+// How do I export a color's full definition as a JSON string in a document?
+
+// Save or transfer color data by converting RGB, RGBA, hex, theme, and auto colors to JSON in a document.
 
 const doc = Api.GetDocument();
 const paragraph = doc.GetElement(0);

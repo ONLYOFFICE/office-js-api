@@ -1,4 +1,8 @@
-// This example shows how to set the background color for the container.
+// Apply a background color to an inline content control in a document.
+
+// How do I highlight an inline content control with a custom background color in a document?
+
+// Shade a content control with a semi-transparent fill to make it stand out visually in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

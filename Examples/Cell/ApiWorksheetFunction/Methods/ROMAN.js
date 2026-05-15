@@ -1,8 +1,8 @@
-// This example shows how to convert an arabic numeral to a roman numeral in the string format.
+// Convert numbers to Roman numerals in a spreadsheet.
 
-// How to get roman numbers from arabic.
+// How do I display a number as Roman numerals in a spreadsheet?
 
-// Use a function to convert numbers from arabic numeral to roman.
+// Change standard numbers into Roman numeral format in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

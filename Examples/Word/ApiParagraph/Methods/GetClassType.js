@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Identify the class type of a paragraph object in a document.
 
-// How to get the class type of the ApiParagraph.
+// How do I determine what type of object a paragraph is in a document?
 
-// Get the class type of the paragraph object.
+// Confirm an object is a paragraph before applying paragraph-specific operations in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

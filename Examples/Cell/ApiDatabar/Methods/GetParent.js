@@ -1,8 +1,8 @@
-// This example demonstrates getting the parent object of a data bar formatting rule.
+// Read the cell range that owns a data bar formatting rule in a spreadsheet.
 
-// How to retrieve the parent range object of a data bar conditional formatting.
+// How do I find out which range a data bar formatting rule belongs to in a spreadsheet?
 
-// Get the parent object of the data bar formatting rule.
+// Trace back a data bar rule to the range it was applied to in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

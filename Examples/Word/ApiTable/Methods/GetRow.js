@@ -1,8 +1,8 @@
-// This example shows how to get a row by its index.
+// Retrieve a specific row from a table by its position in a document.
 
-// How to get a second row from the table.
+// How do I access a particular row of a table by its index in a document?
 
-// Add a row from the another one.
+// Use an existing row as a reference point to insert a new row in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

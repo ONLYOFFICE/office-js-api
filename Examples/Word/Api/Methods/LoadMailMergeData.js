@@ -1,8 +1,8 @@
-// This example shows how to load data for the mail merge.
+// Load recipient data and run a mail merge in a document.
 
-// Wraps the text runs in the mail merge fields, loads the mail merge data into the document, and starts the mail merge process.
+// How do I supply data to mail merge fields and start the merge in a document?
 
-// How to load the data source for mail merge into the document.
+// Fill merge fields with names and greetings, then produce the merged result in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

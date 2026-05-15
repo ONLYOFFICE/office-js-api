@@ -1,6 +1,8 @@
-// How to change a position of tick label.
+// Reposition the tick labels on the horizontal axis in a PDF.
 
-// Create a chart, set its properties and its horizontal axis tick label position.
+// How do I move axis numbers to the top or bottom of the chart in a PDF?
+
+// Place tick labels at the high position on the horizontal axis in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

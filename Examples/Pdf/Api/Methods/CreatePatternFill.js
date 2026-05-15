@@ -1,8 +1,8 @@
-// This example creates a pattern fill and applies it to the object using the selected pattern as the object background.
+// Apply a pattern fill to a shape in a PDF.
 
-// How to apply pattern to the background of a drawing.
+// How do I add a pattern background to a drawing in a PDF?
 
-// Change color of an element using a pattern fill.
+// Fill a shape with a repeating pattern using custom colors in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

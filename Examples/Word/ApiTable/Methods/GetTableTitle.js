@@ -1,8 +1,8 @@
-// This example shows how to get the table title.
+// Read the title assigned to a table in a document.
 
-// How to get the table title.
+// How do I retrieve the title that has been set on a table in a document?
 
-// Display the title of the table in the document.
+// Display the stored title of a table as paragraph text in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

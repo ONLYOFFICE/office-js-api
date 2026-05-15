@@ -1,8 +1,8 @@
-// This example sets the bold property to the text character.
+// Apply bold formatting to text in a presentation.
 
-// How to make a text bold.
+// How do I make text bold in a presentation?
 
-// Get the text properties of the run and set it to bold.
+// Use the text properties to enable bold font weight for characters in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

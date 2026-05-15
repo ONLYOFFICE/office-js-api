@@ -1,4 +1,9 @@
-// This example shows how to set the form tag.
+// Attach a custom tag to a complex form in a document.
+
+// How do I label a form with a tag in a document?
+
+// Organize or categorize forms by tagging them for later lookup or processing.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let complexForm = Api.CreateComplexForm({"key": "Complex1"});

@@ -1,8 +1,8 @@
-// This example creates a new history point.
+// Save an undo checkpoint so changes before this point can be rolled back in a spreadsheet.
 
-// Add history point for a range.
+// How do I mark the current state so I can undo back to it later in a spreadsheet?
 
-// How to make a history point.
+// Preserve a recoverable snapshot of the document at a specific moment in a spreadsheet.
 
 var worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("This is just a sample text.");

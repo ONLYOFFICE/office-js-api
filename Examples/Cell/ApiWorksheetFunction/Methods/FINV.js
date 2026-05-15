@@ -1,8 +1,8 @@
-// This example shows how to find the inverse of the (right-tailed) F probability distribution: if p = FDIST(x,...), then FINV(p,...) = x.
+// Calculate the inverse of an F probability distribution in a spreadsheet.
 
-// How to get an inverse of the (right-tailed) F probability distribution.
+// How do I work backwards from a probability to find a value in a spreadsheet?
 
-// Use function to find out a F probability distribution.
+// Get the value that corresponds to a given F probability level in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

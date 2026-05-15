@@ -1,8 +1,8 @@
-// This example removes an element using the position specified from the inline text content control.
+// Remove a specific element by index from an inline content control in a document.
 
-// How to remove an element from the inline text control.
+// How do I delete one run from an inline content control at a given position in a document?
 
-// Delete the element using its position index from the inline text control.
+// Drop an unwanted run from a content control by its position when editing inline text in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

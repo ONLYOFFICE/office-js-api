@@ -1,4 +1,8 @@
-// This example shows how to get the last element of the paragraph.
+// Access the final element of a paragraph in a PDF.
+
+// How do I get the last element from a paragraph in a PDF?
+
+// Retrieve and modify the final run in a paragraph in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

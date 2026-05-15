@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Identify what kind of drawing object a shape is in a spreadsheet.
 
-// How to get a class type of ApiDrawing.
+// How do I find out the object type of a shape placed on a sheet in a spreadsheet?
 
-// Get a class type of ApiDrawing and display it in the worksheet.
+// Read the object category of a shape and display the result in a cell in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

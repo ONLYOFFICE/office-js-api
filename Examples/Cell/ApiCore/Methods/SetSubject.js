@@ -1,4 +1,8 @@
-// This example demonstrates how to set the subject of the workbook.
+// Define the subject of a workbook by writing it to the document properties in a spreadsheet.
+
+// How do I set a subject line for a workbook's metadata in a spreadsheet?
+
+// Categorize the workbook's content by assigning it a subject in the document properties in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

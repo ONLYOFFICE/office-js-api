@@ -1,8 +1,8 @@
-// This example sets a conditional formatting rule as first priority.
+// Move a conditional formatting rule to the top of the evaluation order in a spreadsheet.
 
-// How to change the priority order of conditional formatting rules.
+// How do I make a formatting rule take precedence over all other formatting rules in a spreadsheet?
 
-// Set conditional formatting rule as first priority.
+// Promote a formatting rule so it is evaluated before any other rules in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

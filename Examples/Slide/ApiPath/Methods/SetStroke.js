@@ -1,5 +1,9 @@
-// Creates a custom shape and adds it to a slide.
-// Applies custom geometry with specific fill and stroke properties.
+// Apply an outline to a custom shape's path in a presentation.
+
+// What options are available for the outline of a shape in a presentation?
+
+// Configure the stroke settings for a geometry path in a presentation.
+
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);
 let customGeometry = Api.CreateCustomGeometry();

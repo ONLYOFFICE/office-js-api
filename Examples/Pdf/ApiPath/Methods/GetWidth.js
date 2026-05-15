@@ -1,5 +1,9 @@
-// Analyzes cloud shape path properties on a page.
-// Displays comprehensive path information in a text shape.
+// Get the horizontal size of a custom shape in a PDF.
+
+// What dimensions do my drawn shapes have in a PDF?
+
+// Retrieve all measurements of a shape path in a PDF.
+
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 

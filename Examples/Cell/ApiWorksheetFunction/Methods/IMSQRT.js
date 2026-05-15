@@ -1,8 +1,8 @@
-// This example shows how to return the square root of a complex number.
+// Calculate the square root of a complex number in a spreadsheet.
 
-// How to get the square root.
+// How do I find the square root of a complex number in a spreadsheet?
 
-// Use a function to get the square root of a complex number.
+// Get the square root result for complex number operations in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

@@ -1,8 +1,8 @@
-// This example shows how to get an orientation of a data field.
+// Read the orientation of a pivot table data field in a spreadsheet.
 
-// How to get a table element orientation.
+// How do I find out whether a data field is placed in rows, columns, or the data area in a spreadsheet?
 
-// Create a pivot table, add data to it then display a custom data field's orientation.
+// Determine the axis a data field occupies within a pivot table layout in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

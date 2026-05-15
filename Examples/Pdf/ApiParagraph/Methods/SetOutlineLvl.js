@@ -1,4 +1,8 @@
-// This example sets the outline level for the specified paragraph.
+// Set the heading level for a paragraph in a PDF.
+
+// How do I create outline structure for document navigation in a PDF?
+
+// Organize text hierarchy by assigning document outline levels in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -12,7 +16,7 @@ page.AddObject(shape);
 
 const outlineLvlIndex = 8;
 
-const content = shape.GetDocContent();
+const content = shape.GetContent();
 const paragraph = content.GetElement(0);
 paragraph.SetOutlineLvl(outlineLvlIndex);
 paragraph.AddText("This is a paragraph with outline level (index) set to " + paragraph.GetOutlineLvl());

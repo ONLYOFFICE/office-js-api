@@ -1,8 +1,9 @@
-// This example shows how to move the cursor down through the document.
+// Move the cursor down by a given number of lines in a document.
 
-// How to move the cursor down by a specified number of lines.
+// How do I shift the cursor downward through several lines in a document?
 
-// Create multiple paragraphs and move cursor.
+// Position the cursor at a lower line to read or insert content at that location in a document.
+
 let doc = Api.GetDocument();
 const paragraphCount = 5;
 for (let i = 0; i < paragraphCount; i++) {

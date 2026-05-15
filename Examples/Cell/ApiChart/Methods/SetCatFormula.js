@@ -1,8 +1,8 @@
-// This example sets a range with the category values to the current chart.
+// Assign a cell range as the source of category labels for a chart in a spreadsheet.
 
-// How to apply range category formula for the chart. 
+// How do I point a chart to a different range for its category labels in a spreadsheet?
 
-// Set category formula for the chart by sheet number and range. 
+// Update the category data driving the horizontal labels of a chart in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

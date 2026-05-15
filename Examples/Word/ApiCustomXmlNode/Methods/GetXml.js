@@ -1,4 +1,9 @@
-// This example shows how to get the XML content of a custom XML node.
+// Read the XML markup of a specific node stored in a document.
+
+// How do I extract the raw XML content of a node embedded in a document?
+
+// Inspect or export a node's full markup when working with structured data in a document.
+
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
 let xmlText = `

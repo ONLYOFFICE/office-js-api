@@ -1,8 +1,8 @@
-// This example specifies that the contents of the run are displayed along with a line appearing directly below the character (less than all the spacing above and below the characters on the line).
+// Add an underline to text in a PDF.
 
-// How to underline a text.
+// How do I underline text in a PDF?
 
-// Get the text properties of the run and underline its text.
+// Display a line beneath characters in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -12,7 +12,7 @@ const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = Api.CreateShape("flowChartMagneticTape", 150 * 36000, 65 * 36000, fill, stroke);
 shape.SetPosition(608400, 1267200);
 
-const docContent = shape.GetDocContent();
+const docContent = shape.GetContent();
 const paragraph = docContent.GetElement(0);
 const run = Api.CreateRun();
 const textPr = run.GetTextPr();

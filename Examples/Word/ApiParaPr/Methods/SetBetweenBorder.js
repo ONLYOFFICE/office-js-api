@@ -1,8 +1,8 @@
-// This example specifies the border which will be displayed between each paragraph in a set of paragraphs which have the same set of paragraph border settings.
+// Add a border between consecutive same-styled paragraphs in a document.
 
-// How to set the border between paragraphs.
+// How do I draw a dividing line between paragraphs that share the same style in a document?
 
-// Create a paragraph, add text to it and the single border between the text.
+// Apply a uniform visual separator across a group of related paragraphs using a shared style.
 
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");

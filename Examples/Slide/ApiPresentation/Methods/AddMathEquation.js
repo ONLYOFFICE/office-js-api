@@ -1,8 +1,8 @@
-// This example adds math equations to the document in three different formats: LaTeX, Unicode, and MathML.
+// Insert mathematical equations in multiple formats into a presentation.
 
-// How to add math equations in different formats.
+// How do I add equations to a presentation using LaTeX, Unicode, or MathML in a presentation?
 
-// Insert math equations using LaTeX, Unicode, and MathML formats.
+// Add mathematical expressions in three different notation styles in a presentation.
 
 const presentation = Api.GetPresentation();
 

@@ -1,8 +1,8 @@
-// This example sets the fonts to the current theme font scheme.
+// Apply fonts to a theme font scheme in a presentation.
 
-// How to set fonts to a theme.
+// How do I change the fonts used in a font scheme in a presentation?
 
-// Retrieve theme and set its font theme by adding fonts.
+// Get a font scheme and replace its fonts with new ones in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

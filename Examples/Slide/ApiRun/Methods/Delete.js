@@ -1,8 +1,8 @@
-// This example deletes the run.
+// Remove a text run from a paragraph in a presentation.
 
-// How to delete a text run object.
+// How do I delete a text run in a presentation?
 
-// Remove text from the slide.
+// Remove content from a slide by deleting a text run in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

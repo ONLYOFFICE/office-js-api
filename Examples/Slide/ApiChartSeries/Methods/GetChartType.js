@@ -1,8 +1,8 @@
-// This example gets the first series of ApiChart class and inserts its type into the presentation.
+// Retrieve the chart series type identifier from a combo chart.
 
-// How to get a chart type and show it on the slide.
+// Extract and display chart series type information in a presentation.
 
-// Change a chart type to the "area" type.
+// Get the chart type of the first series and show it as slide title text.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

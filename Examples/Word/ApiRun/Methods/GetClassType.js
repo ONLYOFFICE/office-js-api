@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Identify the object type of a text run in a document.
 
-// How to get a class type of ApiRun.
+// How do I find out what kind of object a text run is in a document?
 
-// Retrieve class type of ApiRun object and insert it to the document.
+// Confirm the category a text run belongs to in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

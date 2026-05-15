@@ -1,5 +1,9 @@
-// Gets the outline properties from a shape and displays detailed information.
-// Creates a shape with a stroke, retrieves it and shows stroke details.
+// Read the border line properties of a shape in a document.
+
+// How do I inspect the thickness, color, and style of a shape's outline in a document?
+
+// Extract stroke details from a shape to display its border settings in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 200, 100));

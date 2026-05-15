@@ -1,8 +1,8 @@
-// This example specifies the visual properties for the minor vertical gridlines.
+// Format the minor vertical gridlines in a chart in a presentation.
 
-// How to set minor vertical gridlines of the chart.
+// How do I change the appearance of the secondary vertical lines in a chart in a presentation?
 
-// Create a chart, set its properties and its minor gridlines.
+// Apply a custom color and thickness to the minor vertical gridlines in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// This example shows how ot get the paragraph properties of the current style.
+// Access and adjust paragraph layout settings through a style in a document.
 
-// How to get properties of the paragraph.
+// How do I change spacing, indentation, and alignment for all paragraphs at once in a document?
 
-// Display the table properties from the default paragraph style.
+// Control paragraph formatting across the whole document by editing the shared style in a document.
 
 let doc = Api.GetDocument();
 let normalStyle = doc.GetDefaultStyle("paragraph");

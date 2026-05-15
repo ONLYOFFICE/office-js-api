@@ -1,8 +1,8 @@
-// This example shows how to return the future value of an investment based on periodic, constant payments and a constant interest rate.
+// Return the future value of an investment based on periodic, constant payments and a constant interest rate.
 
-// How to get the future value of an investment.
+// Calculate investment growth with monthly payments over a fixed period.
 
-// Use a function to get future value of an investment based on different parameters.
+// Determine total investment value using FV function with interest rate and principal.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

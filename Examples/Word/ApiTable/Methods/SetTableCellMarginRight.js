@@ -1,8 +1,8 @@
-// This example specifies an amount of space which will be left between the right extent of the cell contents and the right border of all table cells within the parent table.
+// Set the spacing between cell content and the right edge of every cell in a table in a document.
 
-// How to set the right margin of the table cell.
+// How do I add breathing room to the right of the text inside every table cell in a document?
 
-// Resize the right margin of the cell.
+// Push cell content away from the right border of each cell in a table in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

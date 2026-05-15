@@ -1,4 +1,8 @@
-// This example shows how to get all images from the current presentation.
+// Find all image files in a presentation.
+
+// How do I access every picture I inserted in a presentation?
+
+// Count images and display the total in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

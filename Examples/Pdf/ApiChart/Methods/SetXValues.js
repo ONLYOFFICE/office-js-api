@@ -1,6 +1,8 @@
-// How to add values to horizontal axis for all series of scatter charts.
+// Add custom values to the horizontal axis of a scatter chart in a PDF.
 
-// Fill all x-axis values of scattered charts series.
+// How do I set custom labels for the horizontal axis in a scatter chart in a PDF?
+
+// Replace the default horizontal axis values with custom text labels in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

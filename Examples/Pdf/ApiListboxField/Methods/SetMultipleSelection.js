@@ -1,4 +1,9 @@
-// This example sets multiple selection for listbox field.
+// Allow a list selection field to accept multiple choices in a PDF.
+
+// How do I enable multiple selections in a PDF?
+
+// Configure the field to permit picking several options in a PDF.
+
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 let listboxField = Api.CreateListboxField([10, 10, 160, 100]);

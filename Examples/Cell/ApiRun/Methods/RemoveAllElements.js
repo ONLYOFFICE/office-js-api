@@ -1,8 +1,8 @@
-// This example removes all the elements from the run.
+// Clear all content from a text run in a spreadsheet.
 
-// How to remove all text elements.
+// How do I wipe out everything inside a text run in a spreadsheet?
 
-// Create a text run object, add a text to it and clear its content.
+// Reset a run to empty before inserting fresh text into a shape in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

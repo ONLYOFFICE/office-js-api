@@ -1,8 +1,8 @@
-// This example gets a text strikeout using its property.
+// Check whether strikeout formatting is enabled for a text run in a spreadsheet.
 
-// How to find out whether a text is stroke out or not.
+// How do I find out if a line is drawn through the text in a spreadsheet?
 
-// Get cross out property of a text.
+// Verify if text is marked as crossed out by reading its strikeout property in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

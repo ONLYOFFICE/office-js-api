@@ -1,8 +1,8 @@
-// This example shows how to get the table description.
+// Read the descriptive text assigned to a table in a document.
 
-// How to get the table description and display it in the document.
+// How do I retrieve the written description stored with a table in a document?
 
-// Add text showing the description of the table.
+// Display the accessibility description associated with a table in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

@@ -1,8 +1,8 @@
-// This example shows how to get all the selected drawings in the current document.
+// Retrieve all drawings that are currently selected in a document.
 
-// How to get the drawing selected on the document.
+// How do I get a reference to the selected drawings in a document?
 
-// Select a drawing and make it bigger.
+// Resize a shape after selecting it by accessing it through the selected drawings collection in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example gets an RGB format of a color and inserts it into the table.
+// Extract the red, green, and blue components of a color in a spreadsheet.
 
-// How to get a RGB color format.
+// How do I read the individual RGB channel values of a color object in a spreadsheet?
 
-// Convert a color to the RGB values.
+// Break down a color into its numeric channel values and write the result to a cell in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let color = Api.CreateColorFromRGB(255, 111, 61);

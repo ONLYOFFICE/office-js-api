@@ -1,8 +1,8 @@
-// This example shows how to extract a substring from a string starting from the right-most character, based on the specified number of characters and is intended for languages that use the double-byte character set (DBCS) like Japanese, Chinese, Korean etc.
+// Extract characters from text for double-byte languages in a spreadsheet.
 
-// How to get characters from the end of a string for languages that use the double-byte character set.
+// How do I get the last characters from text in Asian languages in a spreadsheet?
 
-// Use a function to return n characters from the right part of a text.
+// Retrieve characters from the right side of text that uses multi-byte characters in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

@@ -1,8 +1,8 @@
-// This example specifies an amount of space which will be left between the bottom extent of the cell contents and the border of all table cells within the parent.
+// Set the spacing between cell content and the bottom edge of every cell in a table in a document.
 
-// How to set the bottom margin of the table cell.
+// How do I add breathing room below the text inside every table cell in a document?
 
-// Resize the bottom margin of the cell.
+// Push cell content away from the bottom border of each cell in a table in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

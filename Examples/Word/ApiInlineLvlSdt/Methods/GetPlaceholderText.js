@@ -1,8 +1,8 @@
-// This example shows how to get the placeholder text from the content control.
+// Retrieve the placeholder text set on an inline content control in a document.
 
-// How to display the placeholder text of the inline text control.
+// How do I read the placeholder text of an inline content control in a document?
 
-// Get the inline content control and show its placeholder text.
+// Confirm the placeholder message is stored correctly before displaying it to users in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example shows how to get a collection of tables on a given absolute page.
+// Retrieve all tables on a specific page in a document.
 
-// Get all tables added to the page.
+// How do I collect every table that appears on a given page in a document?
 
-// How to retrieve all tables and add delete its first row.
+// Remove the first row of the first table on the page to delete its header row.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.GetStyle("Bordered");

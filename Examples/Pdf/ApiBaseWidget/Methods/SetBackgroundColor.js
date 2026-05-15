@@ -1,4 +1,9 @@
-// This example gets all field widgets and sets background color for them.
+// Apply a background color to all field widgets in a PDF.
+
+// How do I set the background color for widgets in a PDF?
+
+// Change the fill color of widget backgrounds in a PDF.
+
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 let textField = Api.CreateTextField([10, 10, 160, 30]);

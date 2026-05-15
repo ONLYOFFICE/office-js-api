@@ -1,4 +1,8 @@
-// This example demonstrates how to set and get the string of keywords of the current presentation using the ApiCore.
+// Set and display the search keywords in a presentation.
+
+// How do I retrieve keywords associated with a presentation?
+
+// Access the keyword list stored in a presentation in a presentation.
 
 const presentation = Api.GetPresentation();
 const core = presentation.GetCore();

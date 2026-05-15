@@ -1,8 +1,8 @@
-// This example shows how to get a time of a comment creation.
+// Get a time of a comment creation in a presentation.
 
-// How to know when a comment was added.
+// Retrieve the creation timestamp of a specific comment.
 
-// Get all comments from the presentation and the first one's time of creation.
+// Add a comment to the presentation and display its creation time.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

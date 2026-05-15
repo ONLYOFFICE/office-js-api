@@ -1,4 +1,8 @@
-// This example shows how to convert points to emus.
+// Convert points to emus in a PDF document.
+
+// The API method performs measurement unit conversion.
+
+// The result is displayed in a shape text element.
 
 const points = 1000;
 const emus = Api.PointsToEmus(points);

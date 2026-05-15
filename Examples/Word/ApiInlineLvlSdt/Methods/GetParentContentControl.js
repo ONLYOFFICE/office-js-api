@@ -1,8 +1,8 @@
-// This example shows how to get a content control that contains the content control.
+// Navigate from a nested content control up to its parent content control in a document.
 
-// How to display the parent control of the inline text control.
+// How do I get the parent content control of a nested inline control in a document?
 
-// Set the alias to the parent inline content control.
+// Identify and label the outer content control that wraps an inner inline control in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example sets the specified numeric format to the chart series.
+// Apply a numeric format to the values of a chart series in a document.
 
-// How to set the "0.00" numeric format to the chart seria.
+// How do I control how numbers are displayed in a chart series in a document?
 
-// Create a chart, set its properties and its series numeric format.
+// Format data values with decimal places so the chart communicates precision consistently in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

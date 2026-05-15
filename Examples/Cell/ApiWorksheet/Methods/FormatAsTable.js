@@ -1,8 +1,8 @@
-// This example formats the selected range of cells from the sheet as a table.
+// Convert a cell range into a formatted table in a spreadsheet.
 
-// How to format a range as a table.
+// How do I turn a plain data range into a structured table in a spreadsheet?
 
-// Select a range and format it as a table.
+// Apply table styling to a range so data is easier to read and filter.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.FormatAsTable("A1:E10");

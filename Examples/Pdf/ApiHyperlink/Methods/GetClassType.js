@@ -1,4 +1,8 @@
-// This example shows how to get a class type of a hyperlink.
+// Determine the type of a hyperlink object in a PDF.
+
+// What is the class type of a hyperlink in a PDF?
+
+// Identify the object classification of a hyperlink in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// This example changes the type of the first series of ApiChart class and inserts the new type into the document.
+// Change the visual type of an individual chart series in a document.
 
-// How to change a chart type.
+// How do I switch a single data series to a different chart style in a document?
 
-// Change a chart type to the "area" type.
+// Convert a bar series to an area series so overlapping data trends are easier to read in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,4 +1,8 @@
-// This example applies strikeout formatting to paragraph text.
+// Apply strikeout formatting to paragraph text in a presentation.
+
+// How do I add a line through text in a presentation?
+
+// Strike through text by applying strikeout formatting in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

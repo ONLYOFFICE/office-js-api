@@ -1,8 +1,8 @@
-// This example shows how to get the user ID of the comment reply author.
+// Read the account identifier of the person who wrote a comment reply in a spreadsheet.
 
-// How to get a reply author's user ID.
+// How do I look up the user ID tied to someone who replied to a comment in a spreadsheet?
 
-// Add a reply author's ID to a range of the worksheet.
+// Retrieve the unique user reference linked to a reply author in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

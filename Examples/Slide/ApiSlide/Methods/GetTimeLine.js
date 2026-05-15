@@ -1,4 +1,8 @@
-// This example gets the animation timeline from a slide and adds an animation effect.
+// Get the animation timeline from a slide and add an animation effect.
+
+// Retrieve the timeline using GetTimeLine and access the main animation sequence.
+
+// Add a fade entrance animation effect to a shape.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// This example shows how to create a RGB color for gradient stop.
+// Define a custom color using red, green, and blue values in a presentation.
 
-// How to create a RGB color for a gradient stop.
+// How do I specify a color using RGB numbers in a presentation?
 
-// Add an RGB color as a stop for a gradient.
+// Create a gradient with custom RGB color stops in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

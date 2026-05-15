@@ -1,5 +1,9 @@
-// Analyzes arc command parameters including radius and angles.
-// Retrieves width radius, height radius, start and sweep angles of an arc.
+// Read the horizontal radius of an arc drawn inside a custom shape in a document.
+
+// How do I find out how wide the arc curve is in a custom shape in a document?
+
+// Retrieve the width radius value from an arc segment of a drawn shape in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let customGeometry = Api.CreateCustomGeometry();

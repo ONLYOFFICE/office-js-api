@@ -1,8 +1,8 @@
-// This example shows how to get a value of a pivot item.
+// Read the underlying data value for each item in a pivot table field in a spreadsheet.
 
-// How to get a pivot item value.
+// How do I extract the value stored in a pivot field item in a spreadsheet?
 
-// Create a pivot table, add data to it then get a value of a specified pivot item.
+// Inspect every item's value to verify or display what the pivot field holds in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

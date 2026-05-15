@@ -1,8 +1,8 @@
-// This example shows how to get a Range object that represents the part of the document contained in the specified table.
+// Select a range of content spanning specific cells of a table in a document.
 
-// How to get a range object using an address.
+// How do I target a portion of a table's content by cell coordinates in a document?
 
-// Update a rabge knowing its cell address.
+// Apply formatting to a defined span of table cells in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

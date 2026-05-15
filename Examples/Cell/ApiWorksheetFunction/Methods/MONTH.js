@@ -1,8 +1,8 @@
-// This example shows how to return the month, a number from 1 (January) to 12 (December).
+// Extract the month component from a date in a spreadsheet.
 
-// How to get the month from a date.
+// What month does a date represent in a spreadsheet?
 
-// Use a function to get a month.
+// Get the month as a number from a date in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// This example returns a new range as the intersection of the current range with another range.
+// Produce a new text selection from the overlapping portion of two highlighted regions in a document.
 
-// How to intersect two ranges into the new one.
+// How do I find the shared content between two text selections in a document?
 
-// Create a range by intersection of two and make its text bold.
+// Combine two overlapping spans into their common area for focused formatting in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

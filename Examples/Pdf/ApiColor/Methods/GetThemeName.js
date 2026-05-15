@@ -1,4 +1,8 @@
-// This example shows how to get the theme color name used in a shape fill.
+// Find the theme color name for a color in a PDF.
+
+// How do I identify what theme color is being used in a PDF?
+
+// Check the theme name and display it as text in the document.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

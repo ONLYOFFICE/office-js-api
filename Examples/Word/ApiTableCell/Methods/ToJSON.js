@@ -1,8 +1,8 @@
-// This example converts the ApiTableCellPr object into the JSON object.
+// Export a table cell's properties as a JSON string in a document.
 
-// How to get a JSON from the table cell object.
+// How do I serialize a table cell into a JSON representation in a document?
 
-// Convert the cell to json and add it to the document.
+// Save the full configuration of a table cell as plain text data in a document.
 
 let doc = Api.GetDocument();
 let table = Api.CreateTable(3, 3);

@@ -1,8 +1,8 @@
-// This example shows how to convert real and imaginary coefficients into a complex number.
+// Create a complex number from parts in a spreadsheet.
 
-// How to create a complex number using coefficients.
+// What is a complex number made from two values in a spreadsheet?
 
-// Use function to convert real and imaginary coefficients into a complex number.
+// Combine regular and imaginary parts to build a complex number in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

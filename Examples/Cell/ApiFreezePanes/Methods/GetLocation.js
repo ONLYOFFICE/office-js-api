@@ -1,8 +1,8 @@
-// This example freezes first column and get pastes a freezed range address into the table.
+// Read the address of the currently frozen area and display it in a cell in a spreadsheet.
 
-// How to get location address of a freezed column.
+// How do I find out which rows or columns are currently locked in place in a spreadsheet?
 
-// Get an address of a column from freezed panes and display it in the worksheet.
+// Retrieve the cell reference of the frozen region to confirm what is pinned in a spreadsheet.
 
 Api.SetFreezePanesType('column');
 let worksheet = Api.GetActiveSheet();

@@ -1,8 +1,8 @@
-// This example shows how to return the smallest value for which the cumulative binomial distribution is greater than or equal to a criterion value. 
+// Find the minimum successes required to reach a target probability in a spreadsheet.
 
-// How to get a smallest value for which the cumulative binomial distribution >= criterion value.
+// What is the smallest count of wins needed to hit a certain probability level in a spreadsheet?
 
-// Use function to get a minimum value so that the cumulative binomial distribution >= criterion value.
+// Determine how many successful outcomes satisfy a probability target in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

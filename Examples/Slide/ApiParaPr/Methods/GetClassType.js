@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the presentation.
+// Identify the type of a paragraph properties object in a presentation.
 
-// How to get a class type of ApiParaPr.
+// How do I determine the class type of paragraph properties in a presentation?
 
-// Retrieve class type of ApiParaPr object and insert it to the slide.
+// Get the class type from a paragraph's formatting properties and display it in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

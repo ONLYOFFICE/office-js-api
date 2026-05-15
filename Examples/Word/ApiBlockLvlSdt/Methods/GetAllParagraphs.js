@@ -1,4 +1,9 @@
-// This example shows how to get a collection of paragraph objects in the content control.
+// Retrieve all paragraphs inside a content control in a document.
+
+// How do I get all paragraphs inside a content control in a document?
+
+// Read every paragraph from a content control to apply formatting across them in a document.
+
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();
 let paragraph = Api.CreateParagraph();

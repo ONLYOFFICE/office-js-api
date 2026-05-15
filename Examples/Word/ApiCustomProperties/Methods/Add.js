@@ -1,4 +1,8 @@
-// This example demonstrates how to add string custom properties to a document.
+// Add custom properties of various types to a document in a document.
+
+// How do I store custom metadata fields in a document?
+
+// Attach named values of string, boolean, number, and date types as custom properties in a document.
 
 const doc = Api.GetDocument();
 const customProps = doc.GetCustomProperties();

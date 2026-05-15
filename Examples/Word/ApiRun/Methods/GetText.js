@@ -1,8 +1,8 @@
-// This example returns a text from the text run.
+// Extract the plain text content from a text run in a document.
 
-// How to get a raw text value.
+// How do I read the string of characters stored in a text run in a document?
 
-// Get a run, get its text value and show it in the document.
+// Retrieve the readable text from a run and display it in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

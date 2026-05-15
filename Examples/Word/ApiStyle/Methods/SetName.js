@@ -1,8 +1,8 @@
-// This example sets a name of the current style.
+// Assign a custom name to an existing table style in a document.
 
-// Rename the table style.
+// How do I rename a table style so it appears under a different label in a document?
 
-// How to change the name of the created table style.
+// Give a built-in table style a new identifying name to distinguish it in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.GetStyle("Bordered");

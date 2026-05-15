@@ -1,8 +1,8 @@
-// This example specifies an amount of space which will be left between the bottom extent of the cell contents and the border of all table cells within the parent.
+// Set the spacing between cell content and the bottom edge of every table cell in a document.
 
-// How to add margin to the bottom of the cell.
+// How do I control how much space appears below the text inside table cells in a document?
 
-// Create a 3x3 table and add the bottom cell margin.
+// Push cell content away from the bottom border of each table cell in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

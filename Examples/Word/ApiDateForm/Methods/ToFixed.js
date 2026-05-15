@@ -1,8 +1,8 @@
-// This example converts the current form to a fixed size form.
+// Convert a date form to a fixed-size form in a document.
 
-// How to fix the size of the date form.
+// How do I give a date form a fixed width and height in a document?
 
-// Create a date form and make the size of it fixed.
+// Lock the dimensions of a date form so it does not resize with its content in a document.
 
 let doc = Api.GetDocument();
 let dateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});

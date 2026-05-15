@@ -1,4 +1,9 @@
-// This example shows how to synchronize data from a mapped XML file with a content control using data binding.
+// Refresh a content control to display updated XML data in a document.
+
+// How do I update a content control after its linked XML data changes in a document?
+
+// Change the value in an XML source and pull the new text into a content control in a document.
+
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
 let xmlText = `

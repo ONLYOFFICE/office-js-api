@@ -1,8 +1,8 @@
-// This example shows how to get the XML string representation of a custom XML node.
+// Export an XML element as a string in a presentation.
 
-// How to get XML content from an XML node.
+// How do I get the XML markup of a node in a presentation?
 
-// Get XML node content.
+// Retrieve the serialized form of an XML element in a presentation.
 
 let presentation = Api.GetPresentation();
 let xmlManager = presentation.GetCustomXmlParts();

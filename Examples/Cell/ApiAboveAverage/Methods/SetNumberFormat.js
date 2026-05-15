@@ -1,8 +1,8 @@
-// This example shows how to set number format for above average rule.
+// Apply a display format to cells that match an above-average highlight rule in a spreadsheet.
 
-// How to apply number formatting to above average conditional formatting.
+// How do I control how numbers appear in cells highlighted by an above-average rule in a spreadsheet?
 
-// Set the number format pattern for the above average rule.
+// Change the visual presentation of flagged values without altering the underlying data in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

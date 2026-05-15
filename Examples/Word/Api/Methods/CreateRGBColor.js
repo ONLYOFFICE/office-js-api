@@ -1,8 +1,8 @@
-// This example shows how to create an RGB color for the gradient stop.
+// Define custom colors using red, green, and blue values to fill a shape in a document.
 
-// Creates an RGB color setting the appropriate values for the red, green and blue color components.
+// How do I specify exact RGB color values to create a gradient fill on a shape in a document?
 
-// How to create the ApiRGBColor object and use it to create a gradient stop.
+// Blend two hand-picked RGB colors across a shape using a linear gradient in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

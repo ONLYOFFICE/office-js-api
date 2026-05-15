@@ -1,8 +1,8 @@
-// This example specifies the minor tick mark for the vertical axis.
+// Display minor tick marks between major intervals on the vertical axis in a spreadsheet.
 
-// How to add a minor tick as a out for the vertical axis labels.
+// How do I add small subdivision markers to the vertical axis of a chart in a spreadsheet?
 
-// Specifies minor tick mark for the vertical axis.
+// Break the vertical axis into finer increments using minor tick marks in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

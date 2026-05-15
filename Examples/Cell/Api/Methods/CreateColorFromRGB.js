@@ -1,8 +1,8 @@
-// This example creates an RGB color setting the appropriate values for the red, green and blue color components.
+// Define a custom color from red, green, and blue values to apply to elements in a spreadsheet.
 
-// How to create color using RGB values.
+// How do I build a specific color using red, green, and blue numbers in a spreadsheet?
 
-// Use RGB color to change object colors.
+// Color text or shapes with a precise tone by mixing three numeric channel values in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let color = Api.CreateColorFromRGB(255, 111, 61);

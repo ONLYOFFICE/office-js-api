@@ -1,8 +1,8 @@
-// This example shows how to get a hidden fields of a pivot table.
+// List the fields that are not placed in any area of a pivot table in a spreadsheet.
 
-// How to get a hidden filds of a table.
+// How do I see which source fields are hidden and unused in a pivot table in a spreadsheet?
 
-// Create a pivot table, add data to it then get its invisible fields.
+// Identify fields excluded from rows, columns, and filters in a pivot table in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

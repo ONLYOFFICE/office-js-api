@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Identify the class type of a form object in a document.
 
-// How to get a class type of ApiFormBase.
+// How do I get the class type of a form object in a document?
 
-// Retrieve class type of ApiFormBase object and insert it to the slide.
+// Confirm what kind of object a form belongs to by printing its class type label.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});

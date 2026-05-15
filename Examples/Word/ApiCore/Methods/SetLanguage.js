@@ -1,4 +1,8 @@
-// This example demonstrates how to set the language of the current document using the ApiCore.
+// Set the language for the current document in a document.
+
+// How do I assign a language tag to a document?
+
+// Specify a locale code to control language settings for spell-check and proofing tools in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

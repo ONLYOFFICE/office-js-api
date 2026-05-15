@@ -1,8 +1,8 @@
-// This example shows how to return the annual duration of a security with periodic interest payments.
+// Calculate the annual duration of a security with periodic interest payments in a spreadsheet.
 
-// How to get an annual duration of a security with periodic interest payments.
+// How do I find the duration of a bond or security investment in a spreadsheet?
 
-// Use function to find an annual duration of a security.
+// Measure how long a security will take to repay its cost in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

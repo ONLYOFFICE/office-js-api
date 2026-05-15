@@ -1,8 +1,8 @@
-// This example gets a specific conditional formatting rule by index.
+// Retrieve a single formatting rule from a range by its position in the list in a spreadsheet.
 
-// How to get individual conditional formatting rules from a collection.
+// How do I access one particular highlight rule out of several applied to a range in a spreadsheet?
 
-// Get specific conditional formatting rule by index.
+// Pick out an individual color condition by its order to inspect or modify it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

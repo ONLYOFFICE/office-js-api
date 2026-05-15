@@ -1,8 +1,8 @@
-// This example specifies that the contents of the run are displayed with two horizontal lines through each character displayed on the line.
+// Draw two horizontal lines through text to mark it with a double strikeout in a spreadsheet.
 
-// How to strike out a text with two lines.
+// How do I put two strike-through lines across text in a spreadsheet?
 
-// Cross out a text with two lines.
+// Visually cancel text by applying a double strikeout style to a text run in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

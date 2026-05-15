@@ -1,8 +1,8 @@
-// This example shows how to go to bookmark and select it.
+// Programmatically select the text range of a named bookmark in a document.
 
-// Select a bookmark.
+// How do I highlight a bookmark's content as a selection in a document?
 
-// Select a bookmark from the documnet by getting it by its name.
+// Bring a bookmark's text into focus so it is ready for editing or formatting in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

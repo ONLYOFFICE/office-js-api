@@ -1,8 +1,8 @@
-// This example specifies that the contents of the run are displayed with two horizontal lines through each character displayed on the line.
+// Add two lines through text characters in a PDF.
 
-// How to strike out a text with two lines.
+// How do I apply double strikethrough to text in a PDF?
 
-// Get the text propertiesof the run and cross it out with two lines.
+// Mark text with two crossed lines for emphasis in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -12,7 +12,7 @@ const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = Api.CreateShape("flowChartMagneticTape", 150 * 36000, 65 * 36000, fill, stroke);
 shape.SetPosition(608400, 1267200);
 
-const docContent = shape.GetDocContent();
+const docContent = shape.GetContent();
 const paragraph = docContent.GetElement(0);
 const run = Api.CreateRun();
 const textPr = run.GetTextPr();

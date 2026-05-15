@@ -1,8 +1,8 @@
-// This example shows how to return the hyperbolic tangent of a number.
+// Return the hyperbolic tangent of a number in a spreadsheet.
 
-// How to return the hyperbolic tangent of a number.
+// Calculate the hyperbolic tangent of a number using the TANH function.
 
-// Use a function to calculate angle's hyperbolic tangent.
+// Returns the hyperbolic tangent value of the specified number.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

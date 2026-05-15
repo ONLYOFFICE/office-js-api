@@ -1,8 +1,8 @@
-// This example sets the background color to the current form.
+// Apply a background color to a text field in a document.
 
-// How to color the text form background.
+// How do I change the fill color behind a text field in a document?
 
-// Set the rose color as a background color to the text form.
+// Make a text field stand out visually by giving it a distinct background color in a document.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});

@@ -1,8 +1,8 @@
-// This example adds a tab stop to the run.
+// Insert tab stops into a text run to push following text further along the line in a spreadsheet.
 
-// How to add a tab to a sentence.
+// How do I add spacing between words using tabs inside a shape in a spreadsheet?
 
-// Break two lines of a text run with a tab. 
+// Align text visually by placing multiple tab characters within a single run in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

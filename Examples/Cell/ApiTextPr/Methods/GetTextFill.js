@@ -1,8 +1,8 @@
-// This example gets a text fill using its property.
+// Read the fill applied to a text run to inspect its color type in a spreadsheet.
 
-// How to find out a text color type.
+// How do I find out what kind of fill is used to color text in a spreadsheet?
 
-// Get solid fill color of a text run object.
+// Retrieve the text fill object and identify whether it is a solid, gradient, or other fill in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

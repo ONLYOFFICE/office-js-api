@@ -1,8 +1,8 @@
-// This example shows how to get all items of a pivot field.
+// Check whether a pivot field is set to display all items, including those with no data in a spreadsheet.
 
-// How to get a pivot field's all items.
+// How do I find out if a pivot field shows items that have no matching data in a spreadsheet?
 
-// Create a pivot table, add data to it then get all items of a specified pivot field.
+// Confirm the show-all-items flag for a pivot field to see if empty categories are still listed in the table.
 
 let worksheet = Api.GetActiveSheet();
 

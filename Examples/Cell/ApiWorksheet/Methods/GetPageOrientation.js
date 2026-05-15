@@ -1,8 +1,8 @@
-// This example shows how to get the page orientation.
+// Read the print page orientation of the active sheet in a spreadsheet.
 
-// How to get orientation of the sheet.
+// How do I check whether a sheet is set to portrait or landscape in a spreadsheet?
 
-// Get a sheet orientation.
+// Retrieve the orientation setting and display it in a cell in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let pageOrientation = worksheet.GetPageOrientation();

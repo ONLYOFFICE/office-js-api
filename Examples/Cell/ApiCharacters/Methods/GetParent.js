@@ -1,8 +1,8 @@
-// This example shows how to get the parent object of the specified characters.
+// Retrieve the parent cell that owns a specific range of characters in a spreadsheet.
 
-// How to get a parent of the characters.
+// How do I find which cell a selected group of characters belongs to in a spreadsheet?
 
-// Find a characters parent of the selected range.
+// Trace a character selection back to its containing cell to apply further formatting in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B1");

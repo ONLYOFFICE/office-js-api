@@ -1,8 +1,8 @@
-// This example shows how to get the tag attribute for the container.
+// Read the tag assigned to an inline content control in a document.
 
-// How to get tag of the inline text control.
+// How do I retrieve the tag value of an inline content control in a document?
 
-// Display the tag of the inline content control.
+// Verify that a previously assigned tag is stored and accessible on a content control in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example shows how to get the paragraph right side indentation.
+// Get the right indentation of a paragraph in a presentation.
 
-// How to return a right side identation of a paragraph.
+// How do I find the right indent value for a paragraph in a presentation?
 
-// Return a right side indentation of a text from the slide.
+// Read and display the right margin setting of formatted text in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

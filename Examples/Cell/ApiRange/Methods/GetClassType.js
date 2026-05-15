@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the table.
+// Identify the object type of a cell range in a spreadsheet.
 
-// How to get a class type of ApiRange.
+// How do I find out what kind of object a cell range is in a spreadsheet?
 
-// Get a class type of ApiRange and display it in the worksheet.
+// Write the type label of a range into another cell to confirm its category.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");

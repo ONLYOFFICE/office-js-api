@@ -1,8 +1,8 @@
-// This example shows how to convert the slides from the current ApiPresentation object into the JSON objects.
+// Convert slides to JSON format in a presentation.
 
-// How to convert slides to JSON objects.
+// How do I export slides to JSON in a presentation?
 
-// Get JSON representations of each slide from the presentation.
+// Save each slide as a JSON object and reload it in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

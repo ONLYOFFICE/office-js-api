@@ -1,8 +1,8 @@
-// This example applies text settings to the specified style.
+// Store font size and weight settings inside a style so all text using that style looks uniform in a document.
 
-// Creates a paragraph, adds a text to it, and sets the font size and bold property to this text.
+// How do I make every paragraph use the same font size and bold setting by updating a shared style in a document?
 
-// Specifies the ApiTextPr object and applies its settings to the ApiStyle object.
+// Control the appearance of all body text at once by embedding character formatting in the default style in a document.
 
 let doc = Api.GetDocument();
 let normalStyle = doc.GetDefaultStyle("paragraph");

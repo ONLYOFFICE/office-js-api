@@ -1,8 +1,8 @@
-// This example shows how to calculate standard deviation based on the entire population given as arguments (ignores logical values and text).
+// Calculate the standard deviation of an entire population.
 
-// How to calculate standard deviation based on the entire population.
+// The STDEV_P function computes population standard deviation while ignoring logical values and text.
 
-// Use a function to get the standard deviation.
+// Get the population standard deviation and place it in cell C1.
 
 const worksheet = Api.GetActiveSheet();
 

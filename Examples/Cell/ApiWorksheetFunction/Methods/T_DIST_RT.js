@@ -1,8 +1,8 @@
-// This example shows how to return the right-tailed Student's t-distribution.
+// Calculate the right-tail probability of the Student's t-distribution in a spreadsheet.
 
-// How to calculate the right-tailed Student's t-distribution.
+// How do I find the right-tail probability for a given t-value in a spreadsheet?
 
-// Use a function to estimate the Student's t-distribution right-tailed.
+// Get the probability for the right side of the t-distribution curve in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

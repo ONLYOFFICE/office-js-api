@@ -1,8 +1,8 @@
-// This example checks if a comment is solved or not.
+// Determine whether a comment is marked as resolved in a document.
 
-// How to know whether a comment is resolved or not.
+// How do I check if a comment has been resolved in a document?
 
-// Get a boolean value that indicates that a comment is solved.
+// Filter out already-resolved comments before processing open review threads.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

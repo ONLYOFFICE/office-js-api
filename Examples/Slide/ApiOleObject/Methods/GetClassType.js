@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the presentation.
+// Determine the type of an embedded object in a presentation.
 
-// How to get a class type of ApiOleObject.
+// How do I find the class type of an embedded object in a presentation?
 
-// Retrieve class type of ApiOleObject object and insert it to the slide.
+// Get the class type of a linked or embedded object and display it in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

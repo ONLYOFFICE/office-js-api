@@ -1,8 +1,8 @@
-// This example specifies the chart legend font size.
+// Set the font size of the chart legend text in a document.
 
-// How to resize a legend font size.
+// How do I make the legend text larger or smaller on a chart in a document?
 
-// Create a chart and set a font size of its legend.
+// Adjust the legend font size to ensure the series names remain readable at any chart scale in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

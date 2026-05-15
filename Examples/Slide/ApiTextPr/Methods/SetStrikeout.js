@@ -1,8 +1,8 @@
-// This example specifies that the contents of the run are displayed with a single horizontal line through the center of the line.
+// Draw a line through text to mark it as deleted in a presentation.
 
-// How to strike out a text with one line.
+// Can I add a strikethrough effect to text in a presentation?
 
-// Get the text properties of the run and cross it out.
+// Enable a horizontal line that crosses through the center of the text in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

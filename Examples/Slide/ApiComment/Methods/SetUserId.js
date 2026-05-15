@@ -1,8 +1,8 @@
-// This example shows how to set a user ID.
+// Set a user ID for a comment in a presentation.
 
-// How to change an author's user ID of a comment.
+// How do I assign a user ID to a comment in a presentation?
 
-// Get all comments from the presentation and change its first one's user ID.
+// Change the author's user ID of a comment to track comment ownership in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

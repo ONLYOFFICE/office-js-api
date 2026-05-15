@@ -1,8 +1,8 @@
-// This example specifies the border which will be displayed on all horizontal table cell borders which are not on the outmost edge of the parent table.
+// Add horizontal borders between interior rows of a table in a document.
 
-// How to set inside horizontal border to the table.
+// How do I draw lines between rows inside a table without affecting its outer edges in a document?
 
-// How to create a 3x3 table and add the inside horizontal 4 point orange borders.
+// Separate inner rows visually by applying borders only to the horizontal dividers between them in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

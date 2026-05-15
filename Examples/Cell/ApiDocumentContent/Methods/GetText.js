@@ -1,4 +1,8 @@
-// This example shows how to get all text from the document content of a shape.
+// Extract all text from the content of a shape in a spreadsheet.
+
+// How do I read the full text written inside a shape in a spreadsheet?
+
+// Collect every word inside a shape and write it to a cell in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

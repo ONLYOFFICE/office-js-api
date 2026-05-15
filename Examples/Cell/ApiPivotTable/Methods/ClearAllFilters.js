@@ -1,8 +1,8 @@
-// This example shows how to clear all filters from a pivot table.
+// Remove every active filter from a pivot table in a spreadsheet.
 
-// How to remove previously applied pivot table filters.
+// How do I reset all filters on a pivot table at once in a spreadsheet?
 
-// Create a pivot table, add data to it then delete all filters from it.
+// Restore the full unfiltered view of a pivot table without removing it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

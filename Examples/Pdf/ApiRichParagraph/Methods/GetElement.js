@@ -1,4 +1,9 @@
-// This example gets element from rich paragraph.
+// Access an element from a paragraph in a PDF.
+
+// How can I retrieve items from a paragraph in a PDF?
+
+// Extract a specific element from a paragraph in a PDF.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

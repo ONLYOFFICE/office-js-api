@@ -1,8 +1,8 @@
-// This example adds a comment and makes a reply for it.
+// Add a reply to a comment in a document.
 
-// How to reply to the comment.
+// How do I add a reply to a comment in a document?
 
-// Create a comment from a paragraph and add a reply to its first one.
+// Respond to an existing comment on a paragraph to continue a review thread in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,4 +1,8 @@
-// This example demonstrates how get ApiCore instance and use its methods to manage document metadata.
+// Access and update the core metadata properties of a document.
+
+// How do I read and write document metadata such as title, author, and keywords in a document?
+
+// Populate all built-in metadata fields and then display their values in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

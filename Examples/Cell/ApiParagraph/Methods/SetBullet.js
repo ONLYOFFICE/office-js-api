@@ -1,8 +1,8 @@
-// This example sets the bullet or numbering to the paragraph.
+// Add a dash bullet marker to a paragraph inside a shape in a spreadsheet.
 
-// How to add a dash bullet to the paragraph.
+// How do I turn a paragraph into a bulleted list item in a spreadsheet?
 
-// Numbering and adding custom bullet points to the text.
+// Mark a line of text as a list entry by attaching a custom bullet character in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

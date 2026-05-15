@@ -1,8 +1,8 @@
-// This example converts the current form to an inline form.
+// Convert a fixed-size checkbox form back to an inline form in a document.
 
-// How to make the form inline.
+// How do I remove fixed dimensions from a form field so it flows with the text in a document?
 
-// Set form as inline.
+// Restore natural text flow by switching a checkbox form from fixed to inline mode in a document.
 
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});

@@ -1,8 +1,8 @@
-// This example shows how to get the specified level of the numbering.
+// Access a specific level of a numbered list in a document.
 
-// How to find out the level of the bulleted paragraph.
+// How do I get a particular numbering level from a list definition in a document?
 
-// Print the level of numbering of the text.
+// Assign each paragraph to its own list level to create a multi-level bulleted outline in a document.
 
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("bullet");

@@ -1,5 +1,9 @@
-// Analyzes cloud shape path properties on a slide.
-// Displays comprehensive path information in a text shape.
+// Retrieve all paths from a shape's geometry in a presentation.
+
+// How do I access all drawing paths in a shape in a presentation?
+
+// Extract the complete list of paths that define a shape's outline in a presentation.
+
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);
 let fill = Api.CreateSolidFill(Api.RGB(100, 150, 200));

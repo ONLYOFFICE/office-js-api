@@ -1,7 +1,9 @@
-// Gets the dash type of a stroke.
-// Creates a shape with a solid border and displays its dash type.
-// Returns string value: "dash", "dashDot", "dot", "lgDash", "lgDashDot",
-// "lgDashDotDot", "solid", "sysDash", "sysDashDot", "sysDashDotDot", "sysDot"
+// Read the dash pattern of a shape border in a document.
+
+// How do I find out what dash pattern is applied to a shape's border in a document?
+
+// Retrieve and display the line dash style used on a shape border in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 200, 100));

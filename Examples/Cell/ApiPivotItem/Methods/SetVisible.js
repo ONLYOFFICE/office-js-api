@@ -1,8 +1,8 @@
-// This example shows how to set the visibility of a pivot item.
+// Hide or show specific items in a pivot table field to control what appears in the report in a spreadsheet.
 
-// How to show/hide pivot items using SetVisible method and Visible property.
+// How do I hide certain pivot field items so they are excluded from the pivot table in a spreadsheet?
 
-// Create a pivot table, add data to it then demonstrate setting visibility of pivot items.
+// Toggle individual item visibility to focus the pivot table on only the relevant categories in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

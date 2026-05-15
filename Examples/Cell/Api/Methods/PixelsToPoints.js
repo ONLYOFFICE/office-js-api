@@ -1,4 +1,8 @@
-// This example shows how to convert pixels to points.
+// Express a pixel count as typographic points in a spreadsheet.
+
+// How do I turn a number of pixels into an equivalent number of points in a spreadsheet?
+
+// Record the point equivalent of a pixel measurement in a spreadsheet.
 
 const pixels = 100;
 const points = Api.PixelsToPoints(pixels);

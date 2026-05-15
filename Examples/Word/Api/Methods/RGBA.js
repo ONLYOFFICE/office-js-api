@@ -1,4 +1,8 @@
-// This example shows how to create RGBA color and use it as content control background color
+// Create a semi-transparent color and apply it as a background of an inline text control in a document.
+
+// How do I set a translucent background color on an inline text control in a document?
+
+// Use a color with opacity to highlight an inline text area inside a paragraph in a document.
 
 const doc = Api.GetDocument();
 

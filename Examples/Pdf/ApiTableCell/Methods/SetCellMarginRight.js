@@ -1,6 +1,8 @@
-// How to set the cell right margin for the current table cell.
+// Set the right margin of a table cell in a PDF.
 
-// Specify the right margin value for the ApiTableCell object.
+// How do I add space to the right of content inside a cell in a PDF?
+
+// Adjust the spacing on the right side of your table cell in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

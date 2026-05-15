@@ -1,8 +1,8 @@
-// This example shows how to return the standard normal cumulative distribution (has a mean of zero and a standard deviation of one).
+// Calculate normal distribution probability for a value in a spreadsheet.
 
-// How to calculate the standard normal cumulative distribution.
+// Find the cumulative probability in a distribution with specified mean and standard deviation in a spreadsheet.
 
-// Use a function to get the standard normal cumulative distribution.
+// Determine statistical likelihood using the normal distribution curve in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

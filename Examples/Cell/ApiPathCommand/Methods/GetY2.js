@@ -1,5 +1,9 @@
-// Extracts control points from a cubic bezier curve command.
-// Displays all bezier control points coordinates in spreadsheet cells.
+// Read the ending vertical coordinate of a cubic bezier curve segment in a spreadsheet.
+
+// How do I find the final Y point of a curve path command in a spreadsheet?
+
+// Confirm the destination height of a drawn curve by checking its last vertical point in a spreadsheet.
+
 let worksheet = Api.GetActiveSheet();
 let customGeometry = Api.CreateCustomGeometry();
 let path = customGeometry.AddPath();

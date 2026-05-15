@@ -1,8 +1,8 @@
-// This example shows how to get a label attribute for the container.
+// Read the label assigned to a content control in a document.
 
-// Creates a block content control, sets a label to it, and returns this label to insert it into the second paragraph of the document.
+// How do I get the label of a content control in a document?
 
-// How to get a label from the ApiBlockLvlSdt object.
+// Set a label on a content control and then display that label as text in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

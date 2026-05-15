@@ -1,8 +1,8 @@
-// This example sets the tip text to the current form.
+// Add a tooltip that appears when a user hovers over a picture field in a document.
 
-// How to add a text as a tip to the form.
+// How do I provide a helpful hint that shows up when someone points at a picture field in a document?
 
-// Add tip text to the picture form.
+// Guide users by attaching a short instructional message to a picture field in a document.
 
 let doc = Api.GetDocument();
 let pictureForm = Api.CreatePictureForm({"key": "Personal information", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false, "shiftX": 50, "shiftY": 50});

@@ -1,8 +1,8 @@
-// This example shows how to move a data field.
+// Reorder a pivot table data field by shifting it up or down in a spreadsheet.
 
-// How to change a table element position by moving it by rows.
+// How do I change the position of a value field within a pivot table in a spreadsheet?
 
-// Create a pivot table, add data to it then move data field's by rows.
+// Rearrange which summarized column appears first by moving a data field to a new spot in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 
@@ -35,11 +35,5 @@ pivotTable.AddFields({
 pivotTable.AddDataField('Price');
 pivotTable.AddDataField('Price');
 
-let pivotWorksheet = Api.GetActiveSheet();
 let dataField = pivotTable.GetDataFields('Sum of Price');
-
-pivotWorksheet.GetRange('A16').SetValue('Sum of Price will be moved soon');
-
-setTimeout(function() {
-    dataField.Move("Rows");
-}, 5000);
+dataField.Move("Rows");

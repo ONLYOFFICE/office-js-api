@@ -1,8 +1,8 @@
-// This example shows how to get table style column stripes of a pivot table.
+// Check whether alternating column shading is enabled for a pivot table style in a spreadsheet.
 
-// How to get table style column stripes.
+// How do I find out if a pivot table style uses banded columns in a spreadsheet?
 
-// Create a pivot table, add data to it then get its table style column stripes.
+// Inspect the column stripe setting of a pivot table's visual theme in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

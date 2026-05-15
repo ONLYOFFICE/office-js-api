@@ -1,8 +1,8 @@
-// This example merges an array of cells.
+// Combine multiple table cells into a single cell in a document.
 
-// How to merge cells of the table into one.
+// How do I merge several cells together into one in a document?
 
-// Create a table and merge cells into another one.
+// Reduce cell count by joining adjacent cells into a unified area in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

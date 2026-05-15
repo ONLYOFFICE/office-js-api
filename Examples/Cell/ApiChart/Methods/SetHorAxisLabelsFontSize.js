@@ -1,8 +1,8 @@
-// This example sets the font size to the horizontal axis labels.
+// Adjust the text size of the labels along the bottom axis of a chart in a spreadsheet.
 
-// How to update font size of the horizontal axis labels.
+// How do I make the labels on the horizontal axis of a chart larger or smaller in a spreadsheet?
 
-// Change the size of the horizontal axis labels of the chart.
+// Resize the category label text on the horizontal axis to improve chart legibility in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

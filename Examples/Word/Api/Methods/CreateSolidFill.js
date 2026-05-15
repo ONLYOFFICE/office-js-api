@@ -1,8 +1,8 @@
-// This example shows how to create a solid fill.
+// Fill a shape with a solid color in a document.
 
-// Creates a solid fill to apply to the shape using the selected solid color as the shape background.
+// How do I apply a solid color background to a shape in a document?
 
-// How to create the ApiFill object which represents a solid fill and apply it to the ApiShape class.
+// Set a flat single-color fill on a rounded rectangle shape in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

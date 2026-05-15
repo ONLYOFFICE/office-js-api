@@ -1,8 +1,8 @@
-// This example shows how to get a title pivot table.
+// Read the title of a pivot table in a spreadsheet.
 
-// How to get table title.
+// How do I find out what a pivot table is named in a spreadsheet?
 
-// Create a pivot table, add data to it then get its title.
+// Retrieve the display name assigned to a pivot table in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

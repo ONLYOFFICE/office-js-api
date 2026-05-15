@@ -1,8 +1,8 @@
-// This example shows how to apply a style for chart.
+// Apply a preset style to a chart in a presentation.
 
-// How to change a style of a chart.
+// How do I change the visual style of a chart in a presentation?
 
-// Update chart style.
+// Set a predefined style for a chart and customize its colors in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

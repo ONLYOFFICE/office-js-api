@@ -1,8 +1,8 @@
-// This example shows how to calculate the Poisson distribution.
+// Calculate event probability using the Poisson statistical distribution in a spreadsheet.
 
-// How to return the Poisson distribution.
+// How do I find the probability of events occurring at a given rate in a spreadsheet?
 
-// Use a function to calculate the Poisson distribution.
+// Determine cumulative or individual event probabilities from a Poisson distribution in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

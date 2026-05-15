@@ -1,8 +1,8 @@
-// This example sets the border color to the current form.
+// Apply a color to the border of a picture form in a document.
 
-// How to set the border color of the picture form.
+// How do I change the border color of a picture form in a document?
 
-// Set the border color of the picture form to the rose color.
+// Style the outline of a picture form with a specific color to improve its appearance in a document.
 
 let doc = Api.GetDocument();
 let pictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false, "shiftX": 50, "shiftY": 50});

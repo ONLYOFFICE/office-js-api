@@ -1,8 +1,8 @@
-// This example gets the first series of ApiChart class and inserts its type into the table.
+// Retrieve a specific data series from a chart by its position and display its type in a spreadsheet.
 
-// How to get series using indices.
+// How do I access a single chart series by its index number in a spreadsheet?
 
-// Find series by its location index.
+// Pinpoint one series within a chart to inspect or work with its properties in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

@@ -1,8 +1,8 @@
-// This example shows how to get the paragraph left side indentation.
+// Check the left margin indent of a paragraph in a PDF.
 
-// How to return a left side identation of a paragraph.
+// How do I find the left indentation of a paragraph in a PDF?
 
-// Return a left side indentation of a text from the page.
+// Retrieve the left margin spacing for a paragraph in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -15,7 +15,7 @@ const shape = Api.CreateShape("flowChartMagneticTape", 150 * 36000, 65 * 36000, 
 shape.SetPosition(608400, 1267200);
 page.AddObject(shape);
 
-const docContent = shape.GetDocContent();
+const docContent = shape.GetContent();
 let paragraph = docContent.GetElement(0);
 paragraph.AddText("This is a paragraph with the indent of 2 inches set to it. ");
 paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");

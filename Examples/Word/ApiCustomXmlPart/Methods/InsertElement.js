@@ -1,4 +1,9 @@
-// This example shows how to insert a new XML element into the custom XML part.
+// Add a new child element to a custom XML part in a document.
+
+// How do I insert an XML element at a specific position within a custom XML part in a document?
+
+// Build up an XML structure incrementally by appending or prepending elements in a document.
+
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
 let xml = xmlManager.Add("<content xmlns='http://example'></content>");

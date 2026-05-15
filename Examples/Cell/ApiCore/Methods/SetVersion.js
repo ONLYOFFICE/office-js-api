@@ -1,4 +1,8 @@
-// This example demonstrates how to sets the version of the workbook.
+// Set the document version stored in the core properties in a spreadsheet.
+
+// How do I record a version number in the document metadata in a spreadsheet?
+
+// Store a custom version label alongside the file's built-in properties in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

@@ -1,4 +1,8 @@
-// This example shows how to get the current paragraph from the document content of a shape.
+// Retrieve the paragraph that is currently active inside a shape's text content in a spreadsheet.
+
+// How do I access the paragraph the cursor is on within a shape's content area in a spreadsheet?
+
+// Read the active paragraph from a shape to inspect or display its text in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// This example converts the ApiSection object into the JSON object.
+// Save section settings as a portable data structure in a document.
 
-// How to get a JSON from the section object.
+// How do I export a section's configuration so it can be stored or reused in a document?
 
-// Convert the section to json and add it to the document.
+// Capture and restore the layout properties of a section in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example shows how to get a count of rows in the specified range.
+// Count the number of rows in a selected range in a spreadsheet.
 
-// How to get a count of rows in the range.
+// How do I find out how many rows a range spans in a spreadsheet?
 
-// Get a count of rows in the range and display it in another cell.
+// Verify the total row count of a range by displaying the result in a nearby cell in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1:C4");

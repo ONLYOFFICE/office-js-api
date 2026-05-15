@@ -1,4 +1,8 @@
-// This example gets the repeat count of an animation effect.
+// Get the repeat count of an animation effect in a presentation.
+
+// Repeat count determines how many times an animation plays consecutively.
+
+// Retrieve the repeat count from an animation effect using GetRepeatCount() and display it.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

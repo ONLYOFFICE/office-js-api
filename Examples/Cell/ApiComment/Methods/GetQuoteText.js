@@ -1,8 +1,8 @@
-// This example shows how to get the quote text of the comment.
+// Read the quoted text associated with a cell comment in a spreadsheet.
 
-// How to get a comment quote.
+// How do I retrieve the text that a comment quotes from its target cell in a spreadsheet?
 
-// Add a comment to the range and display its quote text in the worksheet.
+// Capture the source text that a comment references to understand what content it annotates in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

@@ -1,8 +1,8 @@
-// This example shows how to get a shape in which the form is placed to control the position and size of the fixed size form frame.
+// Retrieve the shape that wraps a picture form to control its position and size in a document.
 
-// How to get the wrapper shape.
+// How do I access the container shape of a picture form in a document?
 
-// Get a shape that contains a form.
+// Get the outer shape holding a picture form to adjust its layout in a document.
 
 let doc = Api.GetDocument();
 let pictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false, "shiftX": 50, "shiftY": 50});

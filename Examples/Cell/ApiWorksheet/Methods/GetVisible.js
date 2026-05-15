@@ -1,8 +1,8 @@
-// This example shows how to get the state of sheet visibility.
+// Check if a sheet is hidden or visible in a spreadsheet.
 
-// How to get visibility of the worksheet.
+// Determine the display status of a worksheet for visibility control in a spreadsheet?
 
-// Find out whether a sheet is visible or not and display it in the sheet.
+// Display the visibility state in a cell to confirm sheet access in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.SetVisible(true);

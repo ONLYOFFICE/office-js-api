@@ -1,4 +1,9 @@
-// This example gets a class type and inserts it into the document.
+// Read the object type of a content control and display it in a document.
+
+// How do I find out what type of object a content control is in a document?
+
+// Identify a content control by its type label and write the result as text in a document.
+
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();
 let paragraph = Api.CreateParagraph();

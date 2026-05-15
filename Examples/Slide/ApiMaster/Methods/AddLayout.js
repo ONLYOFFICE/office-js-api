@@ -1,8 +1,8 @@
-// This example adds a layout to the specified slide master.
+// Insert a new layout into a slide master in a presentation.
 
-// Create a layout and add it to the slide master.
+// How do I add a custom layout to a master in a presentation?
 
-// Add layout to the slide master.
+// Create a layout and insert it at a specific position in the master in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

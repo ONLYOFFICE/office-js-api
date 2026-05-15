@@ -1,8 +1,8 @@
-// This example shows how to convert a vertical range of cells to a horizontal range, or vice versa.
+// Convert a vertical range of cells to a horizontal range, or vice versa in a spreadsheet.
 
-// How to change orientation of cells to vertical/horizontal.
+// Flip the orientation of a 2x2 range from rows to columns.
 
-// Use a function to transpose a range.
+// Apply the TRANSPOSE function to rearrange the cell range layout.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

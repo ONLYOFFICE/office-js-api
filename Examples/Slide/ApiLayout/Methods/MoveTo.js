@@ -1,8 +1,8 @@
-// This example shows how to move a layout.
+// Reorder a layout by moving it to a new position in a presentation.
 
-// How to move layout using a position index.
+// How do I change the order of layouts in a presentation?
 
-// Move a layout of a slide.
+// Shift a layout to a specific position within the master's layout collection in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide1 = presentation.GetSlideByIndex(0);

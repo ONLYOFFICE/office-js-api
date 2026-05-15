@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Identify the kind of object a style belongs to in a document.
 
-// How to get a class type of ApiStyle.
+// How do I find out what category a style object falls into in a document?
 
-// Retrieve class type of ApiStyle object and insert it to the document.
+// Read and display the classification label assigned to a style in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.GetStyle("Bordered");

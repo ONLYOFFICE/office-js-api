@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the presentation.
+// Identify the object type of a text properties block in a spreadsheet.
 
-// How to get a class type of ApiTextPr.
+// How do I find out what kind of object holds text formatting settings in a spreadsheet?
 
-// Get a class type of ApiTextPr and display it in the worksheet.
+// Display the type label of a text properties object inside a shape in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

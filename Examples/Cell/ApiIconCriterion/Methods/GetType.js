@@ -1,8 +1,8 @@
-// This example shows how to get the type of an icon criterion.
+// Read the value type of an icon criterion in a spreadsheet.
 
-// How to retrieve the type from an icon set criterion.
+// How do I find out whether an icon criterion uses a number, percent, or formula as its threshold in a spreadsheet?
 
-// Get the criterion type used for threshold comparison.
+// Inspect what kind of threshold an icon criterion is set to compare against in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

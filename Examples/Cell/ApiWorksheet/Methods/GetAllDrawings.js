@@ -1,8 +1,8 @@
-// This example shows how to get all drawings from the sheet.
+// Collect every drawing on the sheet into a list in a spreadsheet.
 
-// How to get all drawings.
+// How do I retrieve all drawings at once to resize or adjust them in a spreadsheet?
 
-// Get all drawings as an array.
+// Loop through all existing drawings and apply a uniform size change to each one.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

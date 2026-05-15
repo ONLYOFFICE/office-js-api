@@ -1,4 +1,8 @@
-// This example shows how to get all chart objects from the current presentation.
+// List all charts in a presentation.
+
+// How do I access every chart across the entire presentation in a presentation?
+
+// Retrieve and count charts to display their total in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

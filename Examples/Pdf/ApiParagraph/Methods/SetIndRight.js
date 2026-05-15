@@ -1,8 +1,8 @@
-// This example sets the paragraph right side indentation.
+// Add right margin spacing to a paragraph in a PDF.
 
-// How to set paragraph's right side indentation size.
+// How do I indent text from the right edge in a PDF?
 
-// Resize the right side indentation of a text from a paragraph.
+// Push paragraph content away from the right side in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -14,7 +14,7 @@ const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = Api.CreateShape("flowChartMagneticTape", 150 * 36000, 65 * 36000, fill, stroke);
 shape.SetPosition(608400, 1267200);
 
-const docContent = shape.GetDocContent();
+const docContent = shape.GetContent();
 let paragraph = docContent.GetElement(0);
 paragraph.AddText("This is a paragraph with the right offset of 2 inches set to it. ");
 paragraph.AddText("We also aligned the text in it by the right side. ");

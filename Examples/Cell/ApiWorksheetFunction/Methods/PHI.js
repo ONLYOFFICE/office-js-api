@@ -1,8 +1,8 @@
-// This example shows how to return the value of the density function for a standard normal distribution.
+// Calculate the height of a normal distribution curve at a specific point in a spreadsheet.
 
-// How to return the value of the density function.
+// How do I get the probability density value for a standard normal distribution in a spreadsheet?
 
-// Use a function to claculate the value of the density function.
+// Find how likely a value is within a bell curve distribution in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

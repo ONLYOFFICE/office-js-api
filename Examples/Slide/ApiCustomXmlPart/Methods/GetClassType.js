@@ -1,8 +1,8 @@
-// This example shows how to get the class type of a custom XML part.
+// Find out the class type of a custom XML part object in a presentation.
 
-// How to get the class type of an XML part.
+// Identify the type of a custom XML part in a presentation.
 
-// Get the class type.
+// Retrieve the class type name of a custom XML part in a presentation.
 
 let presentation = Api.GetPresentation();
 let xmlManager = presentation.GetCustomXmlParts();

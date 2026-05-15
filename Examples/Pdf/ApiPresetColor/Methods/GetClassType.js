@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the pdf document.
+// Identify what type of object a preset color is in a PDF.
 
-// How to get a class type of ApiPresetColor.
+// How do I determine the object type of a preset color in a PDF?
 
-// Retrieve class type of ApiPresetColor object and insert it to the page.
+// Find the classification name for a preset color in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -16,7 +16,7 @@ const shape = Api.CreateShape("flowChartMagneticTape", 300 * 36000, 130 * 36000,
 shape.SetPosition(608400, 1267200);
 shape.SetSize(300 * 36000, 130 * 36000);
 
-const docContent = shape.GetDocContent();
+const docContent = shape.GetContent();
 const classType = presetColor.GetClassType();
 const paragraph = docContent.GetElement(0);
 paragraph.SetJc("left");

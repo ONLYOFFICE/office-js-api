@@ -1,8 +1,8 @@
-// This example creates a chart of the specified type from the selected data range of the sheet.
+// Build a bar chart from a data range and place it on the sheet in a spreadsheet.
 
-// How to add chart to the worksheet.
+// How do I turn a range of numbers into a visual chart in a spreadsheet?
 
-// Create a chart using data from a range from a worksheet.
+// Insert a titled 3D bar chart with custom series colors on top of worksheet data in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

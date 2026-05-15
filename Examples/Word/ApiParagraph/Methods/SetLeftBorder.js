@@ -1,8 +1,8 @@
-// This example specifies the border which will be displayed at the left side of the page around the specified paragraph.
+// Add a colored border along the left edge of a paragraph in a document.
 
-// How to add border to the left side of the paragraph.
+// How do I draw a vertical line on the left side of a paragraph in a document?
 
-// Add left single border.
+// Highlight a paragraph by placing a styled border on its left side in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

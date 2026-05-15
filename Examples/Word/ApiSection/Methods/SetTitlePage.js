@@ -1,8 +1,8 @@
-// This example specifies whether the current section in this document has the different header and footer for the section first page.
+// Mark the first page of a section as a title page in a document.
 
-// How to make a page a title one.
+// How do I give the first page of a section its own distinct header and footer in a document?
 
-// Create a section and make its set its page as a title one.
+// Suppress the regular footer on the opening page of a section in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example specifies the border which will be displayed above a set of paragraphs which have the same set of paragraph border settings.
+// Add a top border above a paragraph in a document.
 
-// Set top border to the paragraph.
+// How do I draw a line above a paragraph in a document?
 
-// Border with single line the text.
+// Separate a paragraph from the content above it using a visible border line in a document.
 
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");

@@ -1,8 +1,8 @@
-// This example shows how to get the alias attribute of the container.
+// Read the alias name assigned to a content control in a document.
 
-// Creates a block content control, adds a text to it, returns its alias, and writes it to the second paragraph of the document.
+// How do I retrieve the alias of a content control in a document?
 
-// How to return an alias of the ApiBlockLvlSdt object.
+// Display the alias label of a content control as visible text in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

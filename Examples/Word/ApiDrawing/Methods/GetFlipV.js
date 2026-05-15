@@ -1,8 +1,8 @@
-// This example checks whether the drawing is flipped vertically.
+// Check whether a drawing is flipped vertically in a document.
 
-// How to get the vertical flip property of the shape.
+// How do I read the vertical flip state of a shape in a document?
 
-// Create a drawing, add text to it, and read its vertical flip value.
+// Display the vertical flip flag of a drawing as a text label in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

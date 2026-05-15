@@ -1,8 +1,8 @@
-// This example removes the current selection.
+// Delete the currently selected text range in a document.
 
-// How to remove the selected part of the document.
+// How do I remove a selected portion of text in a document?
 
-// Select the range and delete it.
+// Programmatically select a range and then erase it to trim content in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

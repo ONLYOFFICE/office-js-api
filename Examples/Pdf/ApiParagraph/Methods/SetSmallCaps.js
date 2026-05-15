@@ -1,4 +1,8 @@
-// This example applies small caps formatting to paragraph text.
+// Display letters as small capitals in a PDF.
+
+// How do I format text with small capital letters in a PDF?
+
+// Render lowercase letters as smaller uppercase versions in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

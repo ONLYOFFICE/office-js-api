@@ -1,4 +1,4 @@
-// This example sets the picture position measured in percent inside the current form.
+// Set the picture position measured in percent inside the current form.
 
 // How to create a pattern fill indicating its pattern type.
 

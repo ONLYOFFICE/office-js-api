@@ -1,8 +1,8 @@
-// This example flips the drawing horizontally.
+// Mirror a shape from left to right in a document.
 
-// How to set the horizontal flip property of the shape.
+// How do I flip a shape horizontally after adding it to a document?
 
-// Create a drawing, add text to it and flip it horizontally.
+// Reverse the orientation of a cube shape so it faces the opposite direction in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

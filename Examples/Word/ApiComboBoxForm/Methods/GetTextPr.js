@@ -1,8 +1,8 @@
-// This example returns the text properties from the current form.
+// Retrieve the text formatting properties of a combo box form in a document.
 
-// How to get text propertiest of a combobox form.
+// How do I access the text formatting settings of a combo box form in a document?
 
-// Make combobox text italic.
+// Modify the combo box text style by first reading its existing properties and then updating them.
 
 let doc = Api.GetDocument();
 let comboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});

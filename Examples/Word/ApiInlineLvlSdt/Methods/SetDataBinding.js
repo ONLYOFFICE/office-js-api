@@ -1,4 +1,9 @@
-// This example shows how to set data binding for a content control.
+// Bind an inline content control to custom XML data in a document.
+
+// How do I link an inline content control to an XML data source in a document?
+
+// Populate a content control automatically from structured XML stored inside the document.
+
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
 let xmlText = `

@@ -1,8 +1,8 @@
-// This example converts the ApiPresetColor object into the JSON object.
+// Save a named color as a portable data structure in a document.
 
-// How to get a JSON from the preset color object.
+// How do I export a named color so it can be restored later in a document?
 
-// Convert the preset color element to json and add it to the paragraph.
+// Preserve a named color value by serializing it for later reuse in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

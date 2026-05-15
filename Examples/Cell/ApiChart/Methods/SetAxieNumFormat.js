@@ -1,8 +1,8 @@
-// This example sets the specified numeric format to the axis values.
+// Apply a custom number format to the values shown on a chart axis in a spreadsheet.
 
-// How to format numbers of the axis.
+// How do I control how numbers are displayed on a chart axis in a spreadsheet?
 
-// Apply number format for the chart axis using an expression.
+// Format axis values with a specific pattern to improve chart readability in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

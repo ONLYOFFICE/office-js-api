@@ -1,10 +1,8 @@
-// This example adds text and comment to the first paragraph.
+// Add a comment to a paragraph with a specified author in a document.
 
-// How to add a comment to the ApiParagraph class.
+// How do I attach a comment to a paragraph in a document?
 
-// How to comment on text.
-
-// Adds a paragraph to the document and comments on it.
+// Annotate a paragraph with reviewer feedback and an author name in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

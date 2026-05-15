@@ -1,4 +1,9 @@
-// This example shows how to move down the specified role.
+// Shift a role to a lower position in the fill order in a document.
+
+// How do I change the order of roles to place one later in the sequence in a document?
+
+// Reposition a role downward in the list and display the updated order in a document.
+
 let doc = Api.GetDocument();
 let roles = doc.GetFormRoles();
 roles.Add("Customer");

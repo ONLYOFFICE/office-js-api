@@ -1,8 +1,8 @@
-// This example shows how to set a comment text.
+// Set a comment text in a presentation.
 
-// How to change a text of a comment.
+// Change the text content of a specific comment.
 
-// Get all comments from the presentation and set its first one's text.
+// Update the first comment's text and display the new content.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

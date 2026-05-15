@@ -1,4 +1,9 @@
-// This example demonstrates creating a custom geometry.
+// Draw a shape with a fully custom outline made from lines and curves in a spreadsheet.
+
+// How do I build a shape with a hand-crafted path instead of a preset form in a spreadsheet?
+
+// Insert an object whose edges follow a unique path defined point by point in a spreadsheet.
+
 let worksheet = Api.GetActiveSheet();
 // Airplane shape in EMU units
 let customGeometry = Api.CreateCustomGeometry();

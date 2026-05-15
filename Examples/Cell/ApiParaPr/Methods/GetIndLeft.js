@@ -1,8 +1,8 @@
-// This example shows how to get the paragraph left side indentation.
+// Read the left-side indent distance applied to a paragraph in a spreadsheet.
 
-// How to get a left indent of a paragraph.
+// How do I check how far a paragraph is pushed in from the left margin in a spreadsheet?
 
-// Get the left paragraph indent by the side.
+// Inspect the left margin offset of a paragraph to verify its horizontal position in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

@@ -1,4 +1,8 @@
-// This example shows how to convert points to twips.
+// Convert points to twips in a PDF.
+
+// How can I convert between different measurement units in a PDF?
+
+// Transform point measurements into twips and show the result in a PDF.
 
 const points = 1000;
 const twips = Api.PointsToTwips(points);

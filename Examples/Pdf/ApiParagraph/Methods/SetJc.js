@@ -1,8 +1,8 @@
-// This example sets the paragraph contents justification.
+// Align paragraph text to the left, center, or right in a PDF.
 
-// How to set justification of the paragraph content.
+// How do I position text alignment in a PDF?
 
-// Change the justification of the paragraph.
+// Justify paragraphs by distributing text across the width in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -14,7 +14,7 @@ const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = Api.CreateShape("flowChartMagneticTape", 150 * 36000, 65 * 36000, fill, stroke);
 shape.SetPosition(608400, 1267200);
 
-const docContent = shape.GetDocContent();
+const docContent = shape.GetContent();
 let paragraph = docContent.GetElement(0);
 paragraph.AddText("This is a paragraph with the text in it aligned by the center. ");
 paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");

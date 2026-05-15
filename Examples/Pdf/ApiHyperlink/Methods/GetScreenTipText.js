@@ -1,8 +1,8 @@
-// This example shows how to get the screen tip text of the hyperlink.
+// Retrieve the tooltip text for a hyperlink in a PDF.
 
-// How to show the screen tip text of the hyperlink.
+// How can I get the screen tip shown for a hyperlink in a PDF?
 
-// Set and display the hyperlink tip text appearing on the screen.
+// Extract the hover message displayed with a hyperlink in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

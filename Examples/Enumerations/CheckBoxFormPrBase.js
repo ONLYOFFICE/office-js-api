@@ -1,4 +1,4 @@
-// This example creates a checkbox form with the specific checkbox form properties.
+// Create a checkbox form with the specific checkbox form properties.
 
 // How to create a checkbox form with its base properties.
 

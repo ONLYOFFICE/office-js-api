@@ -1,6 +1,8 @@
-// How to outline a chart title.
+// Add a border around a chart title in a PDF.
 
-// Create a chart, set its properties and its title outline.
+// How do I add a stroke to the title of a chart in a PDF?
+
+// Apply an outline to the chart title text in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

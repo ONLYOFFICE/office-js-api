@@ -1,8 +1,8 @@
-// This example sets the fill to the chart title.
+// Apply a background fill color to the chart title in a spreadsheet.
 
-// How to color a chart title.
+// How do I change the background color behind a chart title in a spreadsheet?
 
-// Add a solid color for a chart title.
+// Make a chart title stand out by painting its background with a solid color in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

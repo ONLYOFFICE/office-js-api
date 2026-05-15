@@ -1,8 +1,8 @@
-// This example specifies if the form should be required.
+// Mark a checkbox form as mandatory in a document.
 
-// How to make the form required.
+// How do I make a form field required so it cannot be skipped in a document?
 
-// Require a form in the document.
+// Enforce that respondents must interact with a checkbox before submitting a form in a document.
 
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "placeholder": "Marital status", "radio": true});

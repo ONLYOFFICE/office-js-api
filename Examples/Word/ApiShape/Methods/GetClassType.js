@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Identify what kind of object a shape is in a document.
 
-// How to get a class type of ApiShape.
+// How do I find out the category of a drawing element in a document?
 
-// Retrieve class type of ApiShape object and insert it to the document.
+// Confirm whether a drawn element belongs to the expected object type in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

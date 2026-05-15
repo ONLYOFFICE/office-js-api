@@ -1,8 +1,8 @@
-// This example shows how to get the picture position inside the current form.
+// Retrieve the offset of a picture within its form frame in a document.
 
-// How to get a picture position.
+// How do I find out where a picture is positioned inside a form in a document?
 
-// Get the image position in the picture form and display it in the document.
+// Inspect the horizontal and vertical shift of an image inside a picture form in a document.
 
 let doc = Api.GetDocument();
 let pictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false});

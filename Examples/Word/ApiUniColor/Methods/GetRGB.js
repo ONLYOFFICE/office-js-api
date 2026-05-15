@@ -1,4 +1,8 @@
-// This example shows how to get the RGB values of a ApiUniColor (ApiPresetColor is inherited from ApiUniColor).
+// Read the red, green, and blue values of a preset color in a document.
+
+// How do I extract the numeric color components from a named color in a document?
+
+// Inspect exact color channel values of a shape's fill color in a document.
 
 const doc = Api.GetDocument();
 const firstParagraph = doc.GetElement(0);

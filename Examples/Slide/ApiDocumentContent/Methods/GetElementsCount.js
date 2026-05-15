@@ -1,8 +1,8 @@
-// This example gets elements count and inserts this value into the presentation.
+// Count the number of paragraphs in a shape's text content in a presentation.
 
-// How to get a number of elements a slide shape contains.
+// How do I find out how many paragraphs a shape contains in a presentation?
 
-// Get a slide shape's content and display its elements count.
+// Get the paragraph count from a shape and display it as text on the slide.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

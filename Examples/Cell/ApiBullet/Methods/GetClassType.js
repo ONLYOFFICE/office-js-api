@@ -1,8 +1,8 @@
-// This example shows how to get a type of the ApiBullet class and insert it into the table.
+// Read the type label of a bullet point used in a text shape in a spreadsheet.
 
-// How to get a class type of a bullet and show it in the sheet.
+// How do I find out what kind of bullet object I am working with in a spreadsheet?
 
-// Get a class type of an object.
+// Distinguish a numbering bullet from other list styles by checking its type identifier in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

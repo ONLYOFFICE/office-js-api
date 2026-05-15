@@ -1,8 +1,8 @@
-// This example checks if the combo box text can be edited.
+// Determine whether users can type custom text into a combo box form in a document.
 
-// How to know whether a combobox form is editable.
+// How do I check if a combo box form allows free-text input in a document?
 
-// Display a boolean representing editability of a combobox.
+// Show whether a combo box restricts selection to preset options or permits manual entry in a document.
 
 let doc = Api.GetDocument();
 let comboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});

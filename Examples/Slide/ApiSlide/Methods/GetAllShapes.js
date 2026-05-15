@@ -1,8 +1,8 @@
-// This example shows how to get an array with all the shape objects from the slide.
+// Find all shapes on a slide in a presentation.
 
-// How to get all shapes from the slide.
+// How do I access all the shapes in a slide in a presentation?
 
-// Get all shapes from the slide as an array.
+// Retrieve the shape objects and modify their dimensions in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

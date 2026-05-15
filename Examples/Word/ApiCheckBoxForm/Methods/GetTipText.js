@@ -1,8 +1,8 @@
-// This example shows how to get the tip text of the current form.
+// Read the tooltip text associated with a checkbox form in a document.
 
-// Get a checkbox tip text and show it in the document.
+// How do I retrieve the tooltip hint shown when hovering over a checkbox form in a document?
 
-// Show a tip text of the form.
+// Verify the guidance message displayed to users when they point to a checkbox form in a document.
 
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});

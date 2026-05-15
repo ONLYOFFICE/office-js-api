@@ -1,8 +1,8 @@
-// This example adds a comment to the run.
+// Attach a reviewer note with an author name to a piece of text in a document.
 
-// How to comment a specific text.
+// How do I leave a named comment on a specific section of text in a document?
 
-// Insert a comment into the run and add an author to it.
+// Annotate a text passage so collaborators can see feedback and who wrote it in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

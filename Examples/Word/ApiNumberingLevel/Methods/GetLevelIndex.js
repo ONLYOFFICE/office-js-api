@@ -1,8 +1,8 @@
-// This example shows how to get the level index.
+// Retrieve the index of a numbering level in a document.
 
-// How to retrieve the index of the numbering level.
+// How do I get the position of a list level within its numbering definition in a document?
 
-// Get the number of the level.
+// Distinguish parent and child list levels by reading their numeric index values in a document.
 
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("numbered");

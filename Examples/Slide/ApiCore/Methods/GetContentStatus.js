@@ -1,4 +1,8 @@
-// This example demonstrates how to set and get the content status of the current presentation using the ApiCore.
+// Read the content status from the presentation's metadata in a presentation.
+
+// How do I check what content status is set for a presentation in a presentation?
+
+// Retrieve and display the content status value stored in core properties in a presentation.
 
 const presentation = Api.GetPresentation();
 const core = presentation.GetCore();

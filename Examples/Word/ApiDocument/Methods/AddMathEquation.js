@@ -1,8 +1,8 @@
-// This example adds math equations to the document in three different formats: LaTeX, Unicode, and MathML.
+// Add math equations in LaTeX, Unicode, and MathML formats in a document.
 
-// How to add math equations in different formats.
+// How do I insert a mathematical formula into a document?
 
-// Insert math equations using LaTeX, Unicode, and MathML formats.
+// Represent the same or different expressions using three standard equation formats in a document.
 
 let doc = Api.GetDocument();
 doc.AddMathEquation("e^x = 1 + x + \\frac{x^2}{2} + \\frac{x^3}{6} + \\cdots = \\sum_{n\\geq 0} \\frac{x^n}{n!}", "latex");

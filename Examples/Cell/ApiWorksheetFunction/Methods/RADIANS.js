@@ -1,8 +1,8 @@
-// This example shows how to convert degrees to radians.
+// Convert an angle measurement from degrees to radians in a spreadsheet.
 
-// How to get radians from degree.
+// How do I change an angle from degrees to radians in a spreadsheet?
 
-// Use a function to convert degrees to radians.
+// Transform a degree value into its radian equivalent in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

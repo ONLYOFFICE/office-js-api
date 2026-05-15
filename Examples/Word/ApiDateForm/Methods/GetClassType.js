@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the presentation.
+// Identify the class type of a date form field in a document.
 
-// How to get a class type of ApiDateForm.
+// How do I get the class type of a date form object in a document?
 
-// Retrieve class type of ApiDateForm object and insert it to the slide.
+// Confirm the object kind before applying type-specific logic to a date form in a document.
 
 let doc = Api.GetDocument();
 let dateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});

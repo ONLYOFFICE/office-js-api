@@ -1,8 +1,8 @@
-// This example sets the start position of a given range object.
+// Move the beginning of a text selection to a different position in a document.
 
-// How to change the starting index of the range.
+// How do I change where a text range starts without altering where it ends in a document?
 
-// Resize the range by setting new start position.
+// Trim or expand the leading edge of a selected region to cover a different set of words in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

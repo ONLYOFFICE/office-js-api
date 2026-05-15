@@ -1,8 +1,8 @@
-// This example shows how to get the text from the form.
+// Extract the text content held by a picture form in a document.
 
-// How to get text from the picture form.
+// How do I read the text stored inside a picture form in a document?
 
-// Display the text of the picture form.
+// Retrieve the string value associated with a picture form in a document.
 
 let doc = Api.GetDocument();
 let pictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false, "shiftX": 50, "shiftY": 50});

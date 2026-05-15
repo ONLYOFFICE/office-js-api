@@ -1,4 +1,9 @@
-// This example shows how to get a type of the form.
+// Retrieve the type of a complex form in a document.
+
+// How do I find out what type a form is in a document?
+
+// Identify whether a form belongs to a specific category before processing it in a document.
+
 let doc = Api.GetDocument();
 let complexForm = Api.CreateComplexForm({"key": "Complex1"});
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example sets the preferred width to the current table cell.
+// Set the width of a table cell in a document.
 
-// Resize the width of the cell.
+// How do I define how wide a specific table cell should be in a document?
 
-// Change the width of the cell.
+// Resize a table cell to an exact measurement to control column layout in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

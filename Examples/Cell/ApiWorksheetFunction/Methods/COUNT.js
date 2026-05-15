@@ -1,8 +1,8 @@
-// This example shows how to count a number of cells in a range that contains numbers ignoring empty cells or those.
+// Count cells containing only numbers in a spreadsheet.
 
-// How to find a number of cells.
+// What is the total of numeric entries in a range in a spreadsheet?
 
-// Use function to get cells count.
+// Determine which cells have actual values instead of blanks in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let numbersArr = [45, 6, 8];

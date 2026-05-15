@@ -1,8 +1,8 @@
-// This example shows how to add a new custom XML part and then access it.
+// Add a new custom XML part and then access it in a presentation.
 
-// How to add a custom XML part to the presentation.
+// How do I create a new custom XML part in a presentation?
 
-// Add a new XML part.
+// Display the XML content of the added part in a presentation.
 
 let presentation = Api.GetPresentation();
 let xmlManager = presentation.GetCustomXmlParts();

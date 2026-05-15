@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the presentation.
+// Retrieve the class type of a table cell properties object in a document.
 
-// How to get a class type of ApiTableCellPr.
+// How do I identify what type of object holds the table cell properties in a document?
 
-// Retrieve class type of ApiTableCellPr object and insert it to the document.
+// Read and display the category label assigned to a table cell properties object in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

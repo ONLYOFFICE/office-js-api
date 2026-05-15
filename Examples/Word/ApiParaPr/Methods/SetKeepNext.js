@@ -1,8 +1,8 @@
-// This example specifies that when rendering the document using a paginated view, the contents of the paragraph are at least partly rendered on the same page as the following paragraph whenever possible.
+// Keep a paragraph on the same page as the paragraph that follows it in a document.
 
-// How to partly keep lines of the paragraph content.
+// How do I prevent a paragraph from being separated from the next paragraph in a document?
 
-// How to try to keep all lines of the paragraph on the same page.
+// Ensure two consecutive paragraphs always appear together when the page breaks.
 
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");

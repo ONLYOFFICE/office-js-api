@@ -1,8 +1,8 @@
-// This example shows how to get an element by its position in the document.
+// Access a document element by its index and add text to it in a document.
 
-// How to get element knowing its index.
+// How do I retrieve a specific element by position in a document?
 
-// Get the first paragraph and add text to it.
+// Target the first paragraph directly by index to insert a text run in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

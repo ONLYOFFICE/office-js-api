@@ -1,12 +1,8 @@
-// This example shows how to get the current document.
+// Add a new paragraph with text to the current document.
 
-// Returns the current document object and adds a paragraph to it.
+// How do I access the open document and add content to it in a document?
 
-// How to add a paragraph to the current document.
-
-// Creates the ApiParagraph object, adds a text to it, and inserts this object into the ApiDocument object.
-
-// How to get the current document to work with it.
+// Insert a paragraph into the active document using a reference to it in a document.
 
 let doc = Api.GetDocument();
 let paragraph = Api.CreateParagraph();

@@ -1,8 +1,8 @@
-// This example sets a name to the current layout.
+// Assign a custom name to a layout in a presentation.
 
-// How to set name for a layout.
+// How do I rename a layout in a presentation?
 
-// Rename a slide layout.
+// Assign a new name to a layout and verify it in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

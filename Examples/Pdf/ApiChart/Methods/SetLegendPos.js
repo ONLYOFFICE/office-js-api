@@ -1,6 +1,8 @@
-// How to place a chart legend.
+// Position the legend on a chart in a PDF.
 
-// Create a chart, set its properties and its legend's position.
+// How do I move the legend to the top, bottom, left, or right in a PDF?
+
+// Place the legend at the bottom of the chart in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

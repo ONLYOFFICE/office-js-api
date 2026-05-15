@@ -1,4 +1,8 @@
-// This example shows how to restore ApiColor objects of different types from JSON.
+// Rebuild color objects from their JSON representations in a document.
+
+// How do I deserialize saved color data back into usable color objects in a document?
+
+// Round-trip colors through JSON to verify that each restored value matches the original in a document.
 
 const doc = Api.GetDocument();
 const paragraph = doc.GetElement(0);

@@ -1,6 +1,8 @@
-// How to get two cells by their position index and merge them into one.
+// Combine multiple cells into one unified cell in a PDF.
 
-// Create a table, create cells and merge them into one.
+// How can I join cells together within a table in a PDF?
+
+// Join adjacent cells to form a single larger cell in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

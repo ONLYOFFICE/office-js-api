@@ -1,8 +1,8 @@
-// This example creates a duplicate of the specified slide master object, adds the new slide master to the slide masters collection.
+// Add a copy of a slide master to a presentation.
 
-// How to create a duplicate of a slide master.
+// How do I add a copy of a slide master in a presentation?
 
-// Add a duplicate master.
+// Insert a duplicate slide master at a specific position in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

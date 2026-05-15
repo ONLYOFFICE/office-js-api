@@ -1,4 +1,8 @@
-// This example shows how to get the selected shapes from current selection.
+// Retrieve all shapes from the current selection in a presentation.
+
+// How do I get selected shapes in a presentation?
+
+// Access the list of shapes from a selection and count them in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

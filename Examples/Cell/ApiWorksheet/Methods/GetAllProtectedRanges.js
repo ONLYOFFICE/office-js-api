@@ -1,8 +1,8 @@
-// This example shows how to get an object that represents all protected ranges.
+// Retrieve every protected range defined on a worksheet in a spreadsheet.
 
-// How to get all protected ranges.
+// How do I list all protected ranges on a sheet in a spreadsheet?
 
-// Get all protected ranges as an array.
+// Loop through all locked ranges on the worksheet to update their titles in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.AddProtectedRange("protectedRange1", "Sheet1!$A$1:$B$1");

@@ -1,8 +1,8 @@
-// This example sets the scope type of the top 10 conditional formatting rule.
+// Define which portion of the data a top 10 conditional formatting rule evaluates in a spreadsheet.
 
-// How to set the scope of conditional formatting rules.
+// How do I limit a top 10 rule to the current selection rather than the whole range in a spreadsheet?
 
-// Set top 10 rule scope type.
+// Narrow the comparison area for a highlight rule by changing its scope in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// This example shows how to get the previous row.
+// Access the row that immediately precedes a given row in a document.
 
-// Get the previous row from the current row.
+// How do I move from one row to the row directly above it in a document?
 
-// Display the second and the first row.
+// Navigate backward through table rows to reach the one before the current position in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

@@ -1,8 +1,8 @@
-// This example shows how to return the secant of a complex number.
+// Calculate the secant of a complex number in a spreadsheet.
 
-// How to get the secant.
+// How do I find the secant value of a complex number in a spreadsheet?
 
-// Use a function to get the secant of a complex number.
+// Get the secant result for complex number trigonometric operations in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

@@ -1,8 +1,8 @@
-// This example gets drawings by placeholder type and removes it from slide master.
+// Get all drawings by placeholder type from a slide master.
 
-// How to get all drawings as an array by indicating placeholder type from a master.
+// Retrieve drawings using GetDrawingsByPlaceholderType, specifying the placeholder type.
 
-// Get drawings by their placeholder type knowing a slide master.
+// Delete all drawings with the specified placeholder type from the master.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

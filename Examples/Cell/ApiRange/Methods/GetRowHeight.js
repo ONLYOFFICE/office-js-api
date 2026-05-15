@@ -1,8 +1,8 @@
-// This example shows how to get the row height value.
+// Read the height of a row in a spreadsheet.
 
-// How to get a cell row height.
+// How do I find out how tall a row is in a spreadsheet?
 
-// Get a range and display its row height in the worksheet.
+// Capture the current row height and display it alongside the cell content in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let height = worksheet.GetRange("A1").GetRowHeight();

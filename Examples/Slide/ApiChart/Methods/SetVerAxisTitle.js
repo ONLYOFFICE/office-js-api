@@ -1,8 +1,8 @@
-// This example specifies the chart vertical axis title.
+// Add a label to the vertical axis of a chart in a presentation.
 
-// Title the chart's vertical axis.
+// Name the scale or values shown on the Y-axis of a chart in a presentation.
 
-// Create a chart, set its properties and name its vertical axis title.
+// Create a heading for the vertical measurement axis in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

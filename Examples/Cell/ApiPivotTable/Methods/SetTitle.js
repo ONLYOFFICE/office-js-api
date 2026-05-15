@@ -1,8 +1,8 @@
-// This example shows how to set title of a pivot table.
+// Assign a custom title to a pivot table in a spreadsheet.
 
-// How to set table title.
+// How do I give a pivot table its own name in a spreadsheet?
 
-// Create a pivot table, add data to it then set its table title.
+// Label a pivot table with a meaningful title so it is easy to identify in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

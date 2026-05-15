@@ -1,8 +1,8 @@
-// This example shows how to ungroup a group drawing element.
+// Separate grouped shapes back into individual drawings in a document.
 
-// How to remove grouping from the two shapes.
+// How do I ungroup shapes that were combined into a group in a document?
 
-// Ungroup two shapes.
+// Release a group so each shape can be moved or edited independently in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

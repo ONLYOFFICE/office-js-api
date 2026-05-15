@@ -1,4 +1,9 @@
-// Displays preset type and custom status in a text shape.
+// Find out the drawing pattern details of a shape in a PDF.
+
+// How do I check the shape's drawing pattern in a PDF?
+
+// Access the shape's built-in or custom drawing design in a PDF.
+
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 

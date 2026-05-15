@@ -1,4 +1,8 @@
-// This example returns the layout by its type from the slide master.
+// Retrieve a layout from a slide master by its type.
+
+// The GetLayoutByType method finds the layout matching the specified type (e.g. 'title').
+
+// Display the layout class type in a shape on the slide or show an error message if not found.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

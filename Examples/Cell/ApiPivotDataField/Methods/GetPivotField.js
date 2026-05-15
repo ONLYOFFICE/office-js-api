@@ -1,8 +1,8 @@
-// This example shows how to get an index of pivot field of a data field.
+// Trace a pivot table data field back to its source pivot field in a spreadsheet.
 
-// How to use a table element pivot field.
+// How do I find which source field a data field is based on in a pivot table in a spreadsheet?
 
-// Create a pivot table, add data to it then display a custom data field's pivot index.
+// Link a summarized value column to the underlying data column it was created from in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// This example shows how to place cursor in the specifed position in the text.
+// Move the cursor to a specific character position within a run in a document.
 
-// How to move the cursor to the specific position of the text.
+// How do I place the cursor at a chosen position inside a text run in a document?
 
-// Add text to the paragraph and move the cursor to the 16 position.
+// Position the insertion point at an exact offset within a piece of text in a document.
 
 let doc = Api.GetDocument();
 let para = doc.GetElement(0);

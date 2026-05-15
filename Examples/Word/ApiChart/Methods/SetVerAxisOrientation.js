@@ -1,8 +1,8 @@
-// This example specifies the vertical axis orientation.
+// Reverse the direction of the vertical axis on a chart in a document.
 
-// How to set an orientation of vertical axis.
+// How do I flip the vertical axis so values run from high to low in a document?
 
-// Create a chart, set its properties and its vertical axis orientation.
+// Display chart data in descending order along the vertical axis in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

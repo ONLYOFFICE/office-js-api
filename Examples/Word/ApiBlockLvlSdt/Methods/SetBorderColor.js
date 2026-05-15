@@ -1,4 +1,8 @@
-// This example shows how to set the border color for the block-level container.
+// Set a border color on a content control in a document.
+
+// How do I change the border color of a content control in a document?
+
+// Give a content control a colored outline to visually distinguish it from other content in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

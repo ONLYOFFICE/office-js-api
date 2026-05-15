@@ -1,4 +1,9 @@
-// This example shows how to set the ID for the container.
+// Assign a unique identifier to an inline content control in a document.
+
+// How do I give an inline content control a specific ID in a document?
+
+// Tag a content control with a known ID so it can be retrieved by reference later in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let inlineLvlSdt = Api.CreateInlineLvlSdt();

@@ -1,8 +1,8 @@
-// This example shows how to get the border color of the current form.
+// Read the border color of a date form field in a document.
 
-// How to get the border color of a date form.
+// How do I get the border color of a date form in a document?
 
-// Retrieve the border color of a created date form and display it.
+// Verify that a custom border color was applied correctly by reading it back from a date form in a document.
 
 let doc = Api.GetDocument();
 let dateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});

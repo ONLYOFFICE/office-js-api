@@ -1,8 +1,8 @@
-// This example sets the data to the current OLE object.
+// Write new content into an embedded object in a spreadsheet.
 
-// How to change content of OLE object.
+// How do I update the data stored in an embedded object in a spreadsheet?
 
-// Add Ole object, set its data and display it in the worksheet.
+// Replace the existing value inside an embedded object with fresh content in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let oleObject = worksheet.AddOleObject(

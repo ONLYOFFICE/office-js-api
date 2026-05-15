@@ -1,8 +1,8 @@
-// This example removes an element using the position specified.
+// Delete a specific paragraph from a shape's content by its position in a document.
 
-// Remove the element using its index.
+// How do I remove one paragraph at a given index from a shape's content in a document?
 
-// Delete document item.
+// Prune a numbered list of paragraphs inside a shape by targeting the unwanted entry's position.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

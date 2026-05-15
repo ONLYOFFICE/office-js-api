@@ -1,8 +1,8 @@
-// This example applies the specified theme to the current slide.
+// Create and apply a custom theme with color, format, and font schemes to a slide.
 
-// How to create a theme with different properties and apply it to the slide.
+// Define color schemes, gradient fills, pattern fills, format schemes, and font schemes.
 
-// Create a theme, specify its color schemes, formats and patterns, then apply it to the slide.
+// Apply the complete theme to the slide and display a chart using the new theme colors.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

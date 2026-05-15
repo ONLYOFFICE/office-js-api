@@ -1,8 +1,8 @@
-// This example sets the theme colors to the current spreadsheet.
+// Apply a named color theme to change the overall visual style in a spreadsheet.
 
-// How to get all theme colors and apply one of them.
+// How do I pick and activate one of the available color themes for the whole document in a spreadsheet?
 
-// Apply one of the theme colors from the array of available ones.
+// Update the document's palette by selecting a theme from the list of built-in options in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let themes = Api.GetThemesColors();

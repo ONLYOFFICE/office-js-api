@@ -1,8 +1,8 @@
-// This example specifies the indentation which will be added before the leading edge of the table in the document.
+// Shift a table away from the left margin by a set amount in a document.
 
-// How to set the indentation of the table.
+// How do I indent a table from the left edge of the page in a document?
 
-// Create a table and resize its indent.
+// Control the horizontal offset of a table from the page margin in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

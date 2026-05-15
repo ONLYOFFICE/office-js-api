@@ -1,10 +1,8 @@
-// This example sets the fill to the marker in the specified chart series.
+// Color the data point markers in a chart series in a spreadsheet.
 
-// Create the "scatter" chart and apply an RGB color to its markers.
+// How do I fill the markers of a scatter chart with a specific color in a spreadsheet?
 
-// How to use the ApiFill object as a color of the chart markers.
-
-// How to fill the markers of the ApiChart object.
+// Give each series its own marker color to make data points easy to distinguish in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

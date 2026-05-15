@@ -1,4 +1,8 @@
-// This example shows how to set the value of a custom XML node.
+// Write a new value into an XML node to update its stored data in a spreadsheet.
+
+// How do I change the value held by an XML node in a spreadsheet?
+
+// Replace an existing node's content with fresh data in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const xmlManager = worksheet.GetCustomXmlParts();

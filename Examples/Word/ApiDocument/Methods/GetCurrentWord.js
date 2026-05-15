@@ -1,8 +1,8 @@
-// This example shows how to get the current word.
+// Read the word at the cursor position, including the text before or after the cursor, in a document.
 
-// How to get a word where the cursor is set.
+// How do I get the word the cursor is currently placed on in a document?
 
-// Display the parts of the word before or after the cursor.
+// Split the word at the cursor to inspect its left and right portions separately in a document.
 
 let doc = Api.GetDocument();
 let para1 = doc.GetElement(0);
@@ -23,4 +23,3 @@ doc.Push(para2);
 para2 = Api.CreateParagraph();
 para2.AddText("The part of the word before cursor is " + doc.GetCurrentWord("before"));
 doc.Push(para2);
-

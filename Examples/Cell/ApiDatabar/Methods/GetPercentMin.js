@@ -1,8 +1,8 @@
-// This example demonstrates getting the minimum percentage length from a data bar conditional formatting rule.
+// Read the minimum bar-length percentage from a data bar rule in a spreadsheet.
 
-// How to check the minimum length setting of a data bar.
+// How do I find out the lower percentage limit that controls data bar length in a spreadsheet?
 
-// Get the minimum percentage length of a data bar conditional formatting rule.
+// Inspect how narrow the shortest data bar can be relative to the cell in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

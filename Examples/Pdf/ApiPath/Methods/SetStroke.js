@@ -1,5 +1,9 @@
-// Creates a custom shape and adds it to a page.
-// Applies custom geometry with specific fill and stroke properties.
+// Draw an outline around a shape path in a PDF.
+
+// How do I add a border to a shape in a PDF?
+
+// Enable or disable the outline of a custom shape in a PDF.
+
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 

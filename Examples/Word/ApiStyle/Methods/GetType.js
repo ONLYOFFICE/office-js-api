@@ -1,8 +1,8 @@
-// This example shows how to get a type of the current style.
+// Determine what kind of content a style is designed for in a document.
 
-// How to get type of the table style.
+// How do I find out whether a style applies to tables, paragraphs, or characters in a document?
 
-// Display the name of the table style.
+// Read and display the purpose category of a style in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.GetStyle("Bordered");

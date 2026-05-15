@@ -1,4 +1,8 @@
-// This example demonstrates how to add string custom properties to a document.
+// Create custom metadata fields with different data types in a presentation.
+
+// How do I add properties with strings, dates, and numbers to a presentation?
+
+// Store custom information as text, booleans, numbers, or dates in a presentation.
 
 const presentation = Api.GetPresentation();
 const customProps = presentation.GetCustomProperties();

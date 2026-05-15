@@ -1,4 +1,8 @@
-// This example demonstrates how to use ApiCustomProperties to configure custom properties in a document.
+// Add and read custom metadata properties of various types in a document.
+
+// How do I store and retrieve custom string, number, date, and boolean properties in a document?
+
+// Attach structured metadata to a document so it can be read back programmatically in a document.
 
 const doc = Api.GetDocument();
 const customProps = doc.GetCustomProperties();

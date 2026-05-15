@@ -1,8 +1,8 @@
-// This example shows how to get an image in the base64 format from the picture form.
+// Extract the image stored inside a picture form in a document.
 
-// How to get an image from the picture form.
+// How do I read back the image data from a picture form in a document?
 
-// Get the image of the picture form and display it in the document.
+// Access the visual content embedded within a picture form in a document.
 
 let doc = Api.GetDocument();
 let pictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false, "shiftX": 50, "shiftY": 50});

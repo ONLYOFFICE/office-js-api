@@ -1,8 +1,8 @@
-// This example shows how to return the prorated linear depreciation of an asset for each accounting period.
+// Calculate linear depreciation of an asset across accounting periods in a spreadsheet.
 
-// How to get a prorated linear depreciation of an asset for each accounting period and display it in the worksheet.
+// Use the AMORLINC function to compute straight-line asset value decline in a spreadsheet.
 
-// Get a function that gets prorated linear depreciation of an asset for each accounting period.
+// Insert the depreciation figure into a cell for accounting records in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

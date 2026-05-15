@@ -1,5 +1,9 @@
-// Sets a solid fill color to a shape.
-// Creates a rectangle and applies a red fill to it.
+// Change the fill color of a shape from no fill to solid red.
+
+// Create a rectangle with no fill and display the initial state.
+
+// Apply a solid red fill and show the updated appearance.
+
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

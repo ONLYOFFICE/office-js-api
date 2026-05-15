@@ -1,8 +1,8 @@
-// This example specifies that any lowercase characters in the text run are formatted for display only as their capital letter character equivalents.
+// Display all text letters as uppercase in a presentation.
 
-// How to make a text capitalized.
+// How do I convert text to display as all capitals in a presentation?
 
-// Get the text properties of the run and set its letters uppercase.
+// Apply the capitals formatting to text so all characters appear uppercase in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

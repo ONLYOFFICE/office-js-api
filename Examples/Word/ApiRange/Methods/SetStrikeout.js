@@ -1,8 +1,8 @@
-// This example specifies that the contents of the current Range are displayed with a single horizontal line through the range center.
+// Draw a horizontal line through the middle of selected text in a document.
 
-// How to cross the range with one line.
+// How do I mark a portion of text as crossed out with a single line in a document?
 
-// Strike out the range content.
+// Visually cancel or remove words by placing a strikethrough across them in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

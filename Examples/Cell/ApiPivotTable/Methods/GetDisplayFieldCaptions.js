@@ -1,8 +1,8 @@
-// This example shows how to get a display field captions of a pivot table.
+// Read the display field captions setting from a pivot table in a spreadsheet.
 
-// How to get pivot table display field captions.
+// How do I check whether column and row field names are shown in a pivot table in a spreadsheet?
 
-// Create a pivot table, add data to it then get its display field captions.
+// Confirm the caption visibility option on an existing pivot table in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

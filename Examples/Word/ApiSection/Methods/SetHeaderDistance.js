@@ -1,8 +1,8 @@
-// This example specifies the distance from the top edge of the page to the top edge of the header.
+// Control how far the header sits from the top edge of the page in a document.
 
-// How to set header distance of the section.
+// How do I set the gap between the page top and the header area in a document?
 
-// Specify the distance between the page end and the header.
+// Adjust the spacing that separates the header from the upper edge of a page in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

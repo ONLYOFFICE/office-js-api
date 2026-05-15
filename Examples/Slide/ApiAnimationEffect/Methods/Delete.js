@@ -1,4 +1,8 @@
-// This example deletes an animation effect.
+// Delete an animation effect in a presentation.
+
+// Removing animation effects modifies the sequence of object animations on slides.
+
+// Use the Delete() method to remove an effect and verify the count change.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

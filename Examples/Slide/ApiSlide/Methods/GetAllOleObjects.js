@@ -1,8 +1,8 @@
-// This example shows how to get an array with all the OLE objects from the slide.
+// Find all embedded objects on a slide in a presentation.
 
-// How to get all OLE objects from the slide.
+// How do I access all the embedded objects in a slide in a presentation?
 
-// Get all OLE objects from the slide as an array.
+// Retrieve the embedded objects and access their properties in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

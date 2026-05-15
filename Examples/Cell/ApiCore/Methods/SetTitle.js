@@ -1,4 +1,8 @@
-// This example demonstrates how to set the title of the workbook.
+// Give a workbook a descriptive title through its document properties in a spreadsheet.
+
+// How do I assign a title to a workbook's metadata in a spreadsheet?
+
+// Name the workbook by writing a title into its document properties so it is easy to identify in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

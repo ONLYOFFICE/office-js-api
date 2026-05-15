@@ -1,6 +1,8 @@
-// How to insert a row to the table.
+// Insert a new row into a table in a PDF
 
-// Create a 2x4 table, set its position and then insert a row to it.
+// Can I add more rows to an existing table in a PDF?
+
+// Attach a row at a specific position within a table in a PDF
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// This example shows how to get the paragraph properties.
+// Access the formatting settings of a paragraph in a PDF.
 
-// How to get a paragraph properties and set its spacing size.
+// How do I retrieve the properties of a paragraph in a PDF?
 
-// Change paragraph properties.
+// Modify paragraph spacing and other settings in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -14,7 +14,7 @@ const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = Api.CreateShape("flowChartMagneticTape", 150 * 36000, 65 * 36000, fill, stroke);
 shape.SetPosition(608400, 1267200);
 
-const docContent = shape.GetDocContent();
+const docContent = shape.GetContent();
 let paragraph = docContent.GetElement(0);
 const paraPr = paragraph.GetParaPr();
 paraPr.SetSpacingAfter(1440);

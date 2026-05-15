@@ -1,8 +1,8 @@
-// This example shows how to get the height of the drawing.
+// Retrieve the height of a drawing object in a document.
 
-// How to print the height of the drawing.
+// How do I get the height of a shape and display it in millimeters in a document?
 
-// Create a rectangle and then show its height in mm.
+// Print the measured height of a rectangle inside the shape's own content area in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

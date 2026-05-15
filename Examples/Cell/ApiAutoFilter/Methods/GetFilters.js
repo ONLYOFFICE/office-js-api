@@ -1,8 +1,8 @@
-// This example reads filter information from the worksheet AutoFilter.
+// Retrieve the list of active filter conditions applied to columns in a spreadsheet.
 
-// How to inspect the criteria of existing filters.
+// How do I read the criteria that each column filter is using in a spreadsheet?
 
-// Read ApiFilter objects using ApiAutoFilter.GetFilters().
+// Inspect what values or rules each column is being filtered by in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

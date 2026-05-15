@@ -1,5 +1,9 @@
-// Analyzes path commands of a star shape on a presentation slide.
-// Shows command count and first command details in a text shape.
+// Get the command type of a custom shape path in a presentation.
+
+// How do I identify what kind of path command is used in a presentation?
+
+// Check shape geometry commands to find movement or drawing operations in a presentation.
+
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);
 let fill = Api.CreateSolidFill(Api.RGB(100, 150, 200));

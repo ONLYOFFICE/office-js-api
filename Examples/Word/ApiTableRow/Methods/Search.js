@@ -1,8 +1,8 @@
-// This example shows how to make search in table cell.
+// Search for a text string within the cells of a table row in a document.
 
-// Search the word from the row.
+// How do I find specific words inside a table row and work with the results in a document?
 
-// How to find a word from the row and make it bold.
+// Locate matching text across row cells to apply formatting to the found content in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

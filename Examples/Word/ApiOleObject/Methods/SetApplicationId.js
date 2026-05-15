@@ -1,8 +1,8 @@
-// This example sets the application ID to the current OLE object.
+// Assign a new application ID to an embedded OLE object in a document.
 
-// How to set application ID of the OLE object.
+// How do I change the application identifier of an OLE object in a document?
 
-// Update the application ID of the OLE object.
+// Replace the existing application ID on an OLE object to point to a different handler in a document.
 
 let doc = Api.GetDocument();
 let oleObject = Api.CreateOleObject(

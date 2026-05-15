@@ -1,8 +1,8 @@
-// This example demonstrates setting whether the rule looks for above or below average values.
+// Choose whether a highlight rule marks cells above or below the average value in a spreadsheet.
 
-// How to switch between above average and below average conditions.
+// How do I switch a highlight rule between targeting high and low values in a spreadsheet?
 
-// Toggle between above and below average conditional formatting.
+// Flip a conditional rule to focus on below-average cells instead of above-average ones in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

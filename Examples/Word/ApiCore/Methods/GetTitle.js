@@ -1,4 +1,8 @@
-// This example demonstrates how to get the title of the current document.
+// Fetch the title stored in the document's core properties in a document.
+
+// How do I read the title from a document's metadata in a document?
+
+// Confirm the document title is set correctly by inserting it as text into the document body in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

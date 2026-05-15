@@ -1,4 +1,9 @@
-// This example sets intent for freeText annotation.
+// Assign a purpose type to a text annotation in a PDF.
+
+// How do I specify what kind of comment a text annotation is in a PDF?
+
+// Define the annotation's purpose and verify it in a PDF.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

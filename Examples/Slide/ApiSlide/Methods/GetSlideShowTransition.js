@@ -1,4 +1,8 @@
-// This example gets the slide show transition from a slide.
+// Get the slide show transition from a slide.
+
+// Retrieve the transition settings using GetSlideShowTransition after setting a transition.
+
+// Display the transition effect and speed on the slide.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

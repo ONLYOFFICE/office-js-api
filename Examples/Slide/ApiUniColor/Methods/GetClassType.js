@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the presentation.
+// Determine the data type of a color object in a presentation.
 
-// How to get a class type of ApiUniColor.
+// How do I find out what type of color object is being used in a presentation?
 
-// Retrieve class type of ApiUniColor object and insert it to the slide.
+// Get the class name identifier for a color object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

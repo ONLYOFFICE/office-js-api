@@ -1,8 +1,8 @@
-// This example adds a comment to the inline content control.
+// Add a comment to an inline content control in a document.
 
-// How to comment an inline text element.
+// How do I attach a comment to an inline text control in a document?
 
-// Add comment to the text.
+// Annotate an inline control with a reviewer name and note in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

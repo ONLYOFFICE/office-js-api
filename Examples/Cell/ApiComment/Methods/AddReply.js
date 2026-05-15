@@ -1,8 +1,8 @@
-// This example adds a reply to a comment.
+// Post a reply under an existing cell comment in a spreadsheet.
 
-// How to reply to a comment.
+// How do I attach a follow-up response to a comment already placed on a cell in a spreadsheet?
 
-// Add a commnet reply indicating an author and id.
+// Extend a conversation on a cell by adding a reply with an author name to the original comment in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

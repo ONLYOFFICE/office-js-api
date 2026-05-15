@@ -1,8 +1,8 @@
-// This example sets the paragraph line spacing.
+// Adjust the spacing between lines of text in a paragraph in a presentation.
 
-// How to set the size of a spacing line from a paragraph properties.
+// How do I change the line height in a presentation?
 
-// Change a spacing line size property of a paragraph properties.
+// Set the vertical distance between text lines using paragraph properties in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

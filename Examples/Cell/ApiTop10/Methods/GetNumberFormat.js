@@ -1,8 +1,8 @@
-// This example gets the number format for the top 10 conditional formatting rule.
+// Read the number format assigned to a top 10 conditional formatting rule in a spreadsheet.
 
-// How to retrieve number format of conditional formatting rules.
+// How do I find what number format a top 10 conditional formatting rule uses in a spreadsheet?
 
-// Get top 10 rule number format.
+// Check the display format applied to highlighted top values in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

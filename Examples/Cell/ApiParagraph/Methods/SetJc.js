@@ -1,8 +1,8 @@
-// This example sets the paragraph contents justification.
+// Align paragraph text to the left, center, or right inside a shape in a spreadsheet.
 
-// How to center a paragraph text.
+// How do I change the horizontal alignment of a paragraph in a spreadsheet?
 
-// Get a paragraph from the shape's content then add a text specifying its justification type.
+// Position text within a paragraph at different alignment points to improve layout in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

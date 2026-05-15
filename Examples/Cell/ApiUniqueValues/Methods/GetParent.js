@@ -1,8 +1,8 @@
-// This example demonstrates getting the parent object of a unique values conditional formatting rule.
+// Retrieve the range that owns a unique-values conditional formatting rule in a spreadsheet.
 
-// How to retrieve the parent object that contains unique values conditional formatting.
+// How do I find the parent range of a unique-values formatting rule in a spreadsheet?
 
-// Get the parent object of the unique values rule.
+// Trace a unique-values rule back to the range it belongs to in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

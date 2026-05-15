@@ -1,5 +1,9 @@
-// Creates a custom triangle geometry and applies it to a shape.
-// Uses basic path drawing commands: MoveTo, LineTo and Close.
+// Replace the outline of a shape with a custom drawn path in a document.
+
+// How do I give a shape a custom geometric outline in a document?
+
+// Define a unique silhouette for a shape by providing hand-drawn path coordinates in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let customGeometry = Api.CreateCustomGeometry();

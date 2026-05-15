@@ -1,8 +1,8 @@
-// This example shows how to get the quote text of the comment.
+// Retrieve the quoted text associated with a comment in a document.
 
-// How to retrieve a quote text from a comment.
+// How do I get the text passage that a comment refers to in a document?
 
-// Get all comments from the presentation and the first one's quote text.
+// Extract the exact excerpt a reviewer highlighted when leaving a comment.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

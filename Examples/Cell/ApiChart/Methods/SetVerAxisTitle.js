@@ -1,8 +1,8 @@
-// This example specifies the chart vertical axis title.
+// Add a descriptive label to the vertical axis of a chart in a spreadsheet.
 
-// How to add title for the chart vertical axis.
+// How do I give the vertical axis of a chart its own title in a spreadsheet?
 
-// Specify the chart vertical axis title.
+// Label the vertical axis so readers know what the values represent in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

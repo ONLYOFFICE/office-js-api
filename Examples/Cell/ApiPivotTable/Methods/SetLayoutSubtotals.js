@@ -1,8 +1,8 @@
-// This example shows how to set layout subtotals of a table.
+// Control whether subtotals appear in a pivot table layout in a spreadsheet.
 
-// How to set subtotals of a table.
+// How do I turn subtotals on or off in a pivot table in a spreadsheet?
 
-// Create a pivot table, add data to it then set subtotals using a boolean value.
+// Hide or show subtotal rows to simplify the pivot table view in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

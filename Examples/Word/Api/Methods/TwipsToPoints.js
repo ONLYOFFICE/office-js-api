@@ -1,4 +1,8 @@
-// This example shows how to convert twips to points.
+// Convert a measurement from twips to points in a document.
+
+// How do I convert twips to points in a document?
+
+// Display the point equivalent of a twip value as text in a document.
 
 const doc = Api.GetDocument();
 const paragraph = Api.CreateParagraph();

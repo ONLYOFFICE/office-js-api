@@ -1,8 +1,8 @@
-// This example deletes the run.
+// Remove a text run from a paragraph inside a shape in a spreadsheet.
 
-// How to delete a text run object.
+// How do I delete a run of text from a shape in a spreadsheet?
 
-// Create the ApiRun object, add it into the paragraph and remove it from it.
+// Add a run to a paragraph and then discard it so nothing appears in the shape in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

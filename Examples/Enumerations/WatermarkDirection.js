@@ -1,4 +1,4 @@
-// In this example sets the direction of the watermark within the document.
+// Set the direction of the watermark within the document.
 
 // How to set a watermark direction.
 

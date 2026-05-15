@@ -1,4 +1,8 @@
-// This example shows how to restore a shape fill color from JSON.
+// Deserialize color object from JSON and apply it to shape fill.
+
+// Parse JSON color data and reconstruct the color object representation.
+
+// Restore a color from JSON format and compare original and restored hex values.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

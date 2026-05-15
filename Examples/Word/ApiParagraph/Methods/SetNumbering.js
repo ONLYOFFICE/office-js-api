@@ -1,8 +1,8 @@
-// This example specifies that the current paragraph references the numbering definition instance in the current document.
+// Apply a bullet or numbered list style to paragraphs in a document.
 
-// How to add numbering to the paragraph.
+// How do I create a multi-level bulleted list from a set of paragraphs in a document?
 
-// Make paragraph bulleted.
+// Turn plain paragraphs into an ordered or unordered list in a document.
 
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("bullet");

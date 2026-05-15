@@ -1,8 +1,8 @@
-// This example demonstrates getting the range to which a data bar formatting rule applies.
+// Find out which cells a bar-style formatting rule is applied to in a spreadsheet.
 
-// How to retrieve the range that a data bar conditional formatting affects.
+// How do I check what range is covered by a data bar formatting rule in a spreadsheet?
 
-// Get the range to which the data bar formatting rule applies.
+// Identify the exact cell range targeted by a bar visual rule in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

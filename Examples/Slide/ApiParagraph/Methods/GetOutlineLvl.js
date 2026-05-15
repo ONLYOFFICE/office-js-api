@@ -1,4 +1,8 @@
-// This example shows how to get the outline level of the specified paragraph.
+// Get the outline level of the specified paragraph in a presentation.
+
+// How do I check the hierarchy level of a paragraph in a presentation?
+
+// Read and display the outline level setting in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

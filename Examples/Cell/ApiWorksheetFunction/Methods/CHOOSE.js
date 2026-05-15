@@ -1,8 +1,8 @@
-// This example shows how to choose a value or action to perform from a list of values, based on an index number.
+// Select one value from a list by specifying its position number in a spreadsheet.
 
-// How to choose a value or action to perform from a list of values, based on an index number.
+// Return the item at a specific index from a collection of values in a spreadsheet.
 
-// Use function to choose a value or action to perform from a list of values, based on an index number.
+// Use an index to access a particular entry in your choice options in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

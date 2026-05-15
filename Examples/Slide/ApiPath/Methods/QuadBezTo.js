@@ -1,5 +1,9 @@
-// Creates a complex curved shape using various bezier and arc commands.
-// Demonstrates different curve types in a single path on a slide.
+// Add smooth curved line segments to a custom shape's path in a presentation.
+
+// How do I create curved lines between points in a shape in a presentation?
+
+// Draw smooth curves using control points in a geometry path in a presentation.
+
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);
 let customGeometry = Api.CreateCustomGeometry();

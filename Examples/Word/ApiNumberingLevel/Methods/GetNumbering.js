@@ -1,8 +1,8 @@
-// This example shows how to get the numbering definition.
+// Retrieve the numbering definition that owns a given list level in a document.
 
-// How to retrieve the numbering.
+// How do I get the parent numbering definition from a numbering level in a document?
 
-// Get the numbering of the level.
+// Reuse an existing list definition to append more numbered items without creating a new list in a document.
 
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("numbered");

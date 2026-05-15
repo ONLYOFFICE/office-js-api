@@ -1,8 +1,8 @@
-// This example shows how to return the N/A error value which means "no value is available".
+// Insert an N/A error value into a cell in a spreadsheet.
 
-// How to return the N/A.
+// Display "no value available" in a spreadsheet using a function.
 
-// Use a function to get a N/A error value.
+// Add an error indicator when data is not available in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet(); 
 let func = Api.WorksheetFunction;

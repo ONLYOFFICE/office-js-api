@@ -1,8 +1,8 @@
-// This example creates a text form with the common and specific text form properties.
+// Add a text input field for users to enter information in a document.
 
-// How to create a text form and add it to the paragraph.
+// How do I create a text box field in a document?
 
-// Add a text form to the ApiDocument object, set its properties like characters limit, etc.
+// Insert a fillable text area where users can type their responses in a document.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({

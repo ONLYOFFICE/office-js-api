@@ -1,10 +1,8 @@
-// This example shows how to create a stroke.
+// Add a colored border to a shape in a document.
 
-// Create a stroke using the specified width and fill and apply it to the shape from the first paragraph.
+// How do I set the border color and thickness of a shape in a document?
 
-// How to create the ApiStroke object and use it to create the ApiShape object.
-
-// Specifies the parameters of the shape stroke.
+// Give a shape a visible outline with a custom width and color in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

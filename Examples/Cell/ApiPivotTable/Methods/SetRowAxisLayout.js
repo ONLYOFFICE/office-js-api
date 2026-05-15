@@ -1,8 +1,8 @@
-// This example shows how to set row axis layout of a pivot table.
+// Choose how row fields are arranged in a pivot table in a spreadsheet.
 
-// How to set row axis layout of a table.
+// How do I switch a pivot table to tabular or outline layout in a spreadsheet?
 
-// Create a pivot table, add data to it then set its row axis layout.
+// Change the visual structure of row categories to match a preferred report format in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

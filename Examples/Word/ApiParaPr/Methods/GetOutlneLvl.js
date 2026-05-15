@@ -1,4 +1,8 @@
-// This example shows how to get the outline level of the specified paragraph via paragraph properties.
+// Compare the original and updated outline levels of a paragraph in a document.
+
+// How do I check the outline level of a paragraph before and after changing it in a document?
+
+// Track outline level changes on a paragraph to confirm that the new level was applied in a document.
 
 const doc = Api.GetDocument();
 

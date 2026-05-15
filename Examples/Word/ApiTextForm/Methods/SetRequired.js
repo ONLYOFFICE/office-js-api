@@ -1,8 +1,8 @@
-// This example specifies if the form should be required.
+// Mark a text form as required in a document.
 
-// How to make the form required.
+// How do I make a text form mandatory for the user to fill out in a document?
 
-// Require a form in the document.
+// Enforce completion of a text form before the document can be submitted in a document.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});

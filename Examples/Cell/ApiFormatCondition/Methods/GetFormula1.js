@@ -1,8 +1,8 @@
-// This example gets the first formula of a conditional formatting rule.
+// Read the primary threshold value of a conditional formatting rule in a spreadsheet.
 
-// How to retrieve the first formula from conditional formatting rules.
+// How do I find the first comparison value that a conditional formatting rule uses in a spreadsheet?
 
-// Get conditional formatting rule first formula.
+// Verify the lower or sole boundary of a formatting condition to confirm it is correctly defined in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

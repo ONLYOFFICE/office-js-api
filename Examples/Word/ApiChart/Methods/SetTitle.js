@@ -1,8 +1,8 @@
-// This example specifies the chart title.
+// Add a descriptive title to a chart in a document.
 
-// How to rename a chart.
+// How do I give a chart a meaningful heading in a document?
 
-// Create a chart, set its properties and its title.
+// Label a chart so readers immediately understand what the data represents in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

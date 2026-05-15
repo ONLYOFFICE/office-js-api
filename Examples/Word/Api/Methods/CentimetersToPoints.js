@@ -1,4 +1,8 @@
-// This example shows how to convert centimeters to points.
+// Display the points equivalent of a centimeter value in a document.
+
+// How do I convert a measurement from centimeters to points in a document?
+
+// Insert the result of a centimeters-to-points conversion as text in a document.
 
 const doc = Api.GetDocument();
 const paragraph = Api.CreateParagraph();

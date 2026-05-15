@@ -1,8 +1,8 @@
-// This example shows how to get an array of document elements from the document content.
+// Retrieve all elements from a document content container in a document.
 
-// Retrieve each document element.
+// How do I get an array of all elements stored in a document content in a document?
 
-// Update properties of document elements knowing their order position.
+// Access individual paragraphs, tables, and controls by their position after listing all content elements.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

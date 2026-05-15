@@ -1,8 +1,8 @@
-// This example shows how to convert a text string to all uppercase letters.
+// Convert a text string to all uppercase letters in a spreadsheet.
 
-// How to make a string characters uppercase.
+// The UPPER function transforms text by converting lowercase characters to uppercase.
 
-// Use a function to convert all letters to uppercase.
+// Apply the function to convert all letters to uppercase in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

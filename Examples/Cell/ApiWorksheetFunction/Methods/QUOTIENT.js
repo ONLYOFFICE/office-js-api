@@ -1,8 +1,8 @@
-// This example shows how to return the integer portion of a division.
+// Get the whole number result of dividing one value by another in a spreadsheet.
 
-// How to get the integer part from the result of division.
+// How do I find the integer portion of a division in a spreadsheet?
 
-// Use a function to integer part from division.
+// Extract the quotient without the remainder from two numbers in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

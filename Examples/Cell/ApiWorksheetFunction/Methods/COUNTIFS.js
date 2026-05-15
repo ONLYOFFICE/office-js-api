@@ -1,8 +1,8 @@
-// This example shows how to count a number of cells specified by a given set of conditions or criteria.
+// Count cells that meet multiple criteria at once in a spreadsheet.
 
-// How to find a number of cells that satisfy a list of conditions.
+// What is the total of rows matching all your conditions in a spreadsheet?
 
-// Use function to get cells if conditions are met.
+// Find entries that pass every requirement across different columns in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

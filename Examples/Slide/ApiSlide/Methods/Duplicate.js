@@ -1,8 +1,8 @@
-// This example creates a duplicate of the specified slide object, adds the new slide to the slides collection.
+// Create a duplicate of a slide in a presentation.
 
-// How to create a duplicate slide.
+// How do I duplicate a slide in a presentation?
 
-// Get a slide by its index and create its copy.
+// Select a slide and create a copy of it in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

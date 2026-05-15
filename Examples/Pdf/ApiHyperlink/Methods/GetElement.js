@@ -1,8 +1,8 @@
-// This example shows how to get the hyperlink element using the position specified.
+// Retrieve a specific element from a hyperlink in a PDF.
 
-// How to get the element of the hyperlink knowing its index.
+// How do I access individual elements within a hyperlink in a PDF?
 
-// Add a hyperlink to the paragraph and get its element.
+// Extract a hyperlink component by its position in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

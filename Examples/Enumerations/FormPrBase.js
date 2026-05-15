@@ -1,4 +1,4 @@
-// This example creates a text form with the common form properties.
+// Create a text form with the common form properties.
 
 // How to create a text form using its base properties.
 

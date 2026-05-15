@@ -1,8 +1,8 @@
-// This example sets font size for labels of the horizontal axis.
+// Change the font size of labels on a chart's horizontal axis in a presentation.
 
-// How to resize a font size of the horizontal axis labels.
+// How do I make the numbers along the bottom of a chart larger in a presentation?
 
-// Create a chart then change a font size of axis labels.
+// Create a chart and adjust the text size of the horizontal axis labels in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

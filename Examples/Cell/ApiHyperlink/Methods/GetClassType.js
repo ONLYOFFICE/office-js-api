@@ -1,4 +1,8 @@
-// This example shows how to get the class type of an ApiHyperlink object inside a shape.
+// Read the class type of a hyperlink object in a spreadsheet.
+
+// How do I find out what type a hyperlink object is in a spreadsheet?
+
+// Confirm the category of a hyperlink by checking its type label in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// This example gets a text capitalization using its property.
+// Check whether text is set to display in capital letters in a spreadsheet.
 
-// How to find out whether a text is capitalized or not.
+// How do I find out if all-caps formatting is applied to text in a spreadsheet?
 
-// Get a text capitalized property.
+// Read the capitalization setting from a text style and display the result in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

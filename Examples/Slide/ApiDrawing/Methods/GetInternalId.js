@@ -1,4 +1,8 @@
-// This example returns an internal ID of the current drawing object.
+// Get the unique identifier of a shape in a presentation.
+
+// How do I retrieve the internal ID assigned to a shape in a presentation?
+
+// Extract and display the unique internal ID of a drawing object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

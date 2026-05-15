@@ -1,8 +1,8 @@
-// This example sets a style to the table.
+// Apply a predefined visual style to a table in a document.
 
-// How to set style of the table.
+// How do I give a table a consistent look and feel in a document?
 
-// Create a bordered table.
+// Dress up a table using one of the built-in formatting styles in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

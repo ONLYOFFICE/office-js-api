@@ -1,8 +1,8 @@
-// This example shows how to create and set text run properties which will be applied to all the text runs within the table which match the conditional formatting type.
+// Apply text formatting to a conditional region of a table style in a document.
 
-// How to set text properties to the table style and make it bold.
+// How do I make the text bold in a specific part of a table style in a document?
 
-// Update the table style text properties.
+// Define the text appearance for a targeted section of a styled table in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

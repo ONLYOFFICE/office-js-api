@@ -1,8 +1,8 @@
-// This example shows how to get the hyperbolic cotangent of a number.
+// Calculate the hyperbolic cotangent of a number in a spreadsheet.
 
-// How to find a hyperbolic cotangent.
+// What is the hyperbolic cotangent of an angle in a spreadsheet?
 
-// Use function to get the hyperbolic cotangent of an angle.
+// Find the inverse hyperbolic tangent relationship in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

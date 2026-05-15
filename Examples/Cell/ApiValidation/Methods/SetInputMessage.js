@@ -1,8 +1,8 @@
-// This example sets the input message text.
+// Write the guidance text that appears when a user selects a cell with a validation rule in a spreadsheet.
 
-// How to set the validation input message.
+// How do I add a helpful hint that shows up before someone types a value into a restricted cell in a spreadsheet?
 
-// Set the input message.
+// Guide users toward acceptable entries by displaying instructions when they click on a validated cell in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");

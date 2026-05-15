@@ -1,8 +1,8 @@
-// This example shows how to remove the specified series from the current chart.
+// Remove a data series from a chart in a presentation.
 
-// How to delete a chart seria indicating its index.
+// How do I delete a specific series from a chart by its index in a presentation?
 
-// Create a chart then delete a seria from it.
+// Create a chart and remove one of its data series in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

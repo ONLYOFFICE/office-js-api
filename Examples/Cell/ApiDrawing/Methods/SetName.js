@@ -1,4 +1,8 @@
-// This example shows how to set the name for a drawing object.
+// Assign a custom name to a drawing so it can be identified by that name in a spreadsheet.
+
+// How do I give a drawing a recognizable label in a spreadsheet?
+
+// Label a shape with a specific name to make it easier to reference later in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// This example sets a style to the run.
+// Apply a named character style to a text run in a document.
 
-// How to update the style of the text run.
+// How do I attach a predefined style to a specific run of text in a document?
 
-// Create a new style and apply it to the run.
+// Reuse a saved set of formatting rules by linking it to a text run in a document.
 
 let doc = Api.GetDocument();
 let myNewRunStyle = doc.CreateStyle("My New Run Style", "run");

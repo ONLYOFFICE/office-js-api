@@ -1,8 +1,8 @@
-// This example shows how to get a parent paragraph that contains the graphic object.
+// Retrieve the parent paragraph that contains a drawing object in a document.
 
-// Get an element's parent paragraph.
+// How do I find the paragraph that holds a drawing in a document?
 
-// How to show the shape's wrapper paragraph.
+// Access the enclosing paragraph to append a line break and label text after a shape in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

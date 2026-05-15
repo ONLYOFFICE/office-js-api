@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the presentation.
+// Identify the type of a shape's text content in a presentation.
 
-// How to get a class type of ApiDocumentContent.
+// How do I find out what type of text content a shape has in a presentation?
 
-// Retrieve class type of ApiDocumentContent object and insert it to the slide.
+// Retrieve the class type of a shape's content and display it on the slide.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

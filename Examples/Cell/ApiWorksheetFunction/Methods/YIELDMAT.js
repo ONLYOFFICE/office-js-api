@@ -1,8 +1,8 @@
-// This example shows how to return the annual yield of a security that pays interest at maturity.
+// Calculate the annual yield of a security that pays interest at maturity in a spreadsheet.
 
-// How to return annual yield of a security.
+// How do I find the yield of a bond that only pays interest when it matures in a spreadsheet?
 
-// Use a function to get a security annual yield.
+// Determine the annual return for a security with a single interest payment at maturity in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

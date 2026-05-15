@@ -1,6 +1,8 @@
-// How to set values to the specified ApiChart object.
+// Replace the data numbers in a chart series in a PDF.
 
-// Create a chart, set its properties and its series values.
+// How do I change the values displayed in a chart series in a PDF?
+
+// Update the numeric data that makes up a data series in a chart in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

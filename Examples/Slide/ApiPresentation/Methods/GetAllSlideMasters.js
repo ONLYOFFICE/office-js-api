@@ -1,4 +1,8 @@
-// This example shows how to get all slide masters from current presentation.
+// Access slide templates in a presentation.
+
+// How do I retrieve every slide master design in a presentation?
+
+// Add new masters and display the total count in a presentation.
 
 const presentation = Api.GetPresentation();
 const firstSlide = presentation.GetSlideByIndex(0);

@@ -1,4 +1,8 @@
-// This example sets the paragraph text properties.
+// Apply text formatting properties to a paragraph in a PDF.
+
+// How do I style paragraph text with font settings in a PDF?
+
+// Modify appearance of text through property settings in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

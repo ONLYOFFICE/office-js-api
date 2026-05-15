@@ -1,8 +1,8 @@
-// This example shows how to find out a color of a text.
+// Get the text color applied to text in a PDF.
 
-// How to know a color fill of a text.
+// How do I find out the text color in a PDF?
 
-// Get the run and display its font color.
+// Read the fill color settings of text in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -12,7 +12,7 @@ const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = Api.CreateShape("flowChartMagneticTape", 150 * 36000, 65 * 36000, fill, stroke);
 shape.SetPosition(608400, 1267200);
 
-const docContent = shape.GetDocContent();
+const docContent = shape.GetContent();
 let paragraph = docContent.GetElement(0);
 const run = Api.CreateRun();
 run.AddText("This is just a sample text. ");

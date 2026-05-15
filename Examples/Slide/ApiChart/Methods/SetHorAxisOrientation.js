@@ -1,8 +1,8 @@
-// This example specifies the horizontal axis orientation.
+// Reverse the direction of the horizontal axis on a chart in a presentation.
 
-// How to set an orientation of horizontal axis.
+// How do I flip the horizontal axis of a chart in a presentation?
 
-// Create a chart, set its properties and its horizontal axis orientation.
+// Create a chart and change the orientation of its horizontal axis in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

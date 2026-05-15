@@ -1,8 +1,8 @@
-// This example specifies that the current paragraph references a numbering definition instance in the current document.
+// Assign a specific numbering level from an existing list to a paragraph in a document.
 
-// How to add numbering to the paragraph.
+// How do I link a paragraph to a particular level of a numbered or bulleted list in a document?
 
-// Make the paragraph bulleted.
+// Place a paragraph at a chosen depth within a list hierarchy in a document.
 
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");

@@ -1,8 +1,8 @@
-// This example shows how to get all custom XML parts.
+// Collect every stored XML block from a workbook in a spreadsheet.
 
-// How to retrieve all custom XML parts from the workbook.
+// How do I retrieve all embedded XML data at once from a workbook in a spreadsheet?
 
-// Get all XML parts.
+// Loop through each saved XML entry to inspect or process it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let xmlManager = worksheet.GetCustomXmlParts();

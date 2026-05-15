@@ -1,5 +1,9 @@
-// Gets the width of a stroke in EMU.
-// Creates shapes with different border widths and displays their widths.
+// Retrieve the border width of a shape in a document.
+
+// How do I find out how thick a shape's border is in a document?
+
+// Check the measured thickness of each shape's outline in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 

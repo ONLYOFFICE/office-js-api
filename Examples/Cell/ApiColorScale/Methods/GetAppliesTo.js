@@ -1,8 +1,8 @@
-// This example gets the range to which color scale formatting applies.
+// Identify the cell range covered by a color scale formatting rule in a spreadsheet.
 
-// How to retrieve the target range of color scale conditional formatting.
+// How do I find out which cells a color scale rule is applied to in a spreadsheet?
 
-// Get color scale applied range.
+// Read back the target range of an active color scale rule and display its address in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the presentation.
+// Retrieve the class type of a fill in a presentation.
 
-// How to get a class type of ApiFill.
+// Class type identifies what kind of fill is applied to a shape.
 
-// Retrieve class type of ApiFill object and insert it to the slide.
+// Obtain the class type identifier of a fill object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

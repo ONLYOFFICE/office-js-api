@@ -1,8 +1,8 @@
-// This example converts the current form to an inline form.
+// Switch a text form to inline layout in a document.
 
-// How to make the form inline.
+// How do I make a text form flow with the surrounding text instead of sitting in a fixed position in a document?
 
-// Set form as inline one.
+// Embed a text form directly within a line of text so it moves with the content in a document.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});

@@ -1,8 +1,8 @@
-// This example modifies the range where a top 10 conditional formatting rule applies.
+// Reassign a top 10 conditional formatting rule to a different cell range in a spreadsheet.
 
-// How to change the cell range for existing conditional formatting rules.
+// How do I change which cells a top 10 formatting rule covers in a spreadsheet?
 
-// Modify top 10 rule application range.
+// Extend an existing highlight rule to include additional columns in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

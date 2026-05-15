@@ -1,8 +1,8 @@
-// This example sets the outline to the specified chart series.
+// Apply a border outline to a specific data series on a chart in a document.
 
-// How to outline a chart seria.
+// How do I add a visible border around a single data series on a chart in a document?
 
-// Create a chart, set its properties and its series outline.
+// Style individual series differently to distinguish them from the rest of the chart in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

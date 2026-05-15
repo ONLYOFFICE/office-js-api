@@ -1,8 +1,8 @@
-// This example shows how to replace the current sentence.
+// Replace the sentence at the cursor position with new text in a document.
 
-// How to change the text to another one.
+// How do I substitute a whole sentence based on cursor placement in a document?
 
-// Add the new run instead of another sentence.
+// Position the cursor mid-paragraph and overwrite that sentence with a replacement string in a document.
 
 let doc = Api.GetDocument();
 
@@ -15,4 +15,3 @@ doc.Push(para2);
 let run = para2.AddText(text);
 run.MoveCursorToPos(80);
 doc.ReplaceCurrentSentence("The quick brown fox jumps over the lazy dog.");
-

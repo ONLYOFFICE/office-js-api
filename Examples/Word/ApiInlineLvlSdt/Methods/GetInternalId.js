@@ -1,4 +1,8 @@
-// This example shows how to get the internal ID of an inline-level content control.
+// Read the internal identifier of an inline content control in a document.
+
+// How do I obtain the internal ID of an inline content control in a document?
+
+// Display the system-assigned internal ID of an inline content control alongside its text in a document.
 
 const doc = Api.GetDocument();
 const firstParagraph = doc.GetElement(0);

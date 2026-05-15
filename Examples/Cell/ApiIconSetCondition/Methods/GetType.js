@@ -1,4 +1,8 @@
-// This example shows how to get the type of an icon set conditional formatting rule.
+// Read the type identifier of an icon set conditional formatting rule in a spreadsheet.
+
+// How do I find out what type an icon set formatting rule is in a spreadsheet?
+
+// Distinguish an icon set rule from other formatting rule types in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

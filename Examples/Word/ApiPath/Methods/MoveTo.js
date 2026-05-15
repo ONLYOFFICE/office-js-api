@@ -1,5 +1,9 @@
-// Creates a custom triangle geometry and applies it to a shape.
-// Uses basic path drawing commands: MoveTo, LineTo and Close.
+// Set the starting point of a custom shape's drawing path in a document.
+
+// How do I position the pen at a specific point before drawing a shape's outline in a document?
+
+// Begin a new path segment from a chosen coordinate to control where lines start in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let customGeometry = Api.CreateCustomGeometry();

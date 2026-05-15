@@ -1,4 +1,8 @@
-// This example enables automatic slide advance after time.
+// Enable automatic slide advance after time.
+
+// Configure the advance on time property of a slide show transition object.
+
+// Apply the transition and display a confirmation message on the slide.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

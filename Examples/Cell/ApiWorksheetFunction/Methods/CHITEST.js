@@ -1,8 +1,8 @@
-// This example shows how to return the test for independence: the value from the chi-squared distribution for the statistic and the appropriate degrees of freedom.
+// Compare observed versus expected counts to determine if two categories are independent in a spreadsheet.
 
-// How to return the value from the chi-squared distribution for the statistic and the appropriate degrees of freedom.
+// Calculate the probability that differences between actual and expected data occur by chance in a spreadsheet.
 
-// Use function to return the value from the chi-squared distribution for the statistic and the appropriate degrees of freedom.
+// Assess whether patterns in your data are statistically meaningful or just random variation in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

@@ -1,8 +1,8 @@
-// This example copies the form.
+// Duplicate a text input field and place the copy in a document.
 
-// How to create a copy of the text form.
+// How do I create an identical second text field from an existing one in a document?
 
-// Insert a duplicate form into the paragraph.
+// Reproduce a text entry field so it can be reused elsewhere in a document.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});

@@ -1,8 +1,8 @@
-// This example shows how to return the year of a date, an integer in the range 1900-9999.
+// Extract the year from a date value in a spreadsheet.
 
-// How to return the year of a date.
+// How do I get the year portion of a date in a spreadsheet?
 
-// Use a function to get a year from a date object.
+// Retrieve the four-digit year number from any date in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

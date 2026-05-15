@@ -1,8 +1,8 @@
-// This example shows how to replace the document content with the mail merge data.
+// Run a mail merge and collect each recipient's result before restoring the template in a document.
 
-// Starts the mail merge process and replaces the resulting document content with the mail merge template document.
+// How do I perform a mail merge and save each recipient's output separately in a document?
 
-// How to replace the main document content with another document content.
+// Reuse a mail merge template across multiple recipients by resetting the content after each merge in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

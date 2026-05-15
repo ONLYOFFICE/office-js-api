@@ -1,4 +1,4 @@
-// This example sets horizontal aligment for a drawing object.
+// Set horizontal alignment for a drawing object.
 
 // How to align a drawing to the center.
 

@@ -1,5 +1,9 @@
-// Analyzes arc command parameters in a presentation shape.
-// Retrieves and displays arc radii and angle information.
+// Get the sweep angle of an arc shape in a presentation.
+
+// How do I find how far an arc sweeps in a presentation?
+
+// Read angle properties to check arc span in a presentation.
+
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);
 let customGeometry = Api.CreateCustomGeometry();

@@ -1,4 +1,9 @@
-// This example shows how to retrieve custom XML parts by their namespace.
+// Retrieve all custom XML parts that match a specific namespace in a document.
+
+// How do I filter custom XML parts by namespace in a document?
+
+// Narrow down embedded XML data to only the parts belonging to a given namespace in a document.
+
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
 let xmlText = "<content xmlns='http://example.com'><text>Example XML</text></content>";

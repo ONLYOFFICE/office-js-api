@@ -1,4 +1,8 @@
-// This example shows how to set and get the outline level of the specified paragraph.
+// Assign an outline level to paragraphs to structure the document hierarchy in a document.
+
+// How do I mark a paragraph as a heading level for the document outline in a document?
+
+// Control which paragraphs appear as headings in the navigation pane of a document.
 
 const doc = Api.GetDocument();
 const firstParagraph = doc.GetElement(0);

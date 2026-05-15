@@ -1,8 +1,8 @@
-// This example shows how to look up a value either from a one-row or one-column range. Provided for backwards compatibility.
+// Search for a value in a row or column and return a corresponding result from another row or column in a spreadsheet.
 
-// How to look up a value from a one-row or one-column range.
+// How do I find a phone number for a specific person's name in a list in a spreadsheet?
 
-// Use a function to find a value from a row or a column range.
+// Retrieve a matching value from a parallel row or column in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

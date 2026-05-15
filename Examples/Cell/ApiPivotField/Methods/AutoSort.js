@@ -1,8 +1,8 @@
-// This example shows how to establish automatic field-sorting rules for PivotTable reports.
+// Sort a pivot table field automatically by its values in a spreadsheet.
 
-// How to use the AutoSort method to sort pivot field data.
+// How do I make a pivot table sort a row or column field in ascending or descending order in a spreadsheet?
 
-// Create a pivot table, add data to it then apply automatic sorting to a specified field.
+// Configure automatic sorting rules so a pivot field stays ordered whenever the data refreshes in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

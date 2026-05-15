@@ -1,4 +1,9 @@
-// This example gets button widget behavior type and displays it.
+// Retrieve the behavior type of a button widget in a PDF.
+
+// How do I find the button behavior setting in a PDF?
+
+// Display the behavior configuration for a button widget in a PDF.
+
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 let buttonField = Api.CreateImageField([10, 10, 120, 100]);

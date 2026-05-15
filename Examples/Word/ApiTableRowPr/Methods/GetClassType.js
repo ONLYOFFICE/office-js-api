@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the presentation.
+// Read the class type of a table row properties object in a document.
 
-// How to get a class type of ApiTableRowPr.
+// How do I find out what kind of object holds the row formatting settings in a document?
 
-// Retrieve class type of ApiTableRowPr object and insert it to the document.
+// Identify the type label assigned to a table row properties object in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

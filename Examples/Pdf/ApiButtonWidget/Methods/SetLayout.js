@@ -1,4 +1,9 @@
-// This example sets button widget layout type.
+// Set button widget layout type in a PDF document.
+
+// Apply layout type such as 'iconTextV' to a button widget.
+
+// Display the set layout value using the widget label.
+
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 let buttonField = Api.CreateImageField([10, 10, 120, 100]);

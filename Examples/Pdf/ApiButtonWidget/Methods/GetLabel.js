@@ -1,4 +1,9 @@
-// This example gets button widget labels and displays it.
+// Retrieve button labels in different states in a PDF.
+
+// How do I access the text displayed on a button in a PDF?
+
+// Get the label for each button state (normal, hover, down) in a PDF.
+
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 let buttonField = Api.CreateImageField([10, 10, 120, 100]);

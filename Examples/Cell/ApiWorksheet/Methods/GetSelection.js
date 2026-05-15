@@ -1,8 +1,8 @@
-// This example shows how to get an object that represents the selected range.
+// Operate on cells the user currently has chosen in a spreadsheet.
 
-// How to get selected range.
+// Identify which cells are active and modify them regardless of their location in a spreadsheet?
 
-// Get selection from the worksheet and set its value.
+// Put text into selected cells without knowing their exact position in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetSelection().SetValue("selected");

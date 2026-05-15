@@ -1,4 +1,9 @@
-// This example creates a square annotation and sets opacity to it.
+// Make an annotation transparent or opaque in a PDF.
+
+// Adjust the transparency level of an annotation in a PDF.
+
+// Control how solid or see-through an annotation appears in a PDF.
+
 let doc = Api.GetDocument();
 let squareAnnot = Api.CreateSquareAnnot([10, 10, 160, 32]);
 let page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// This example sets highlight color "lightGray" for the paragraph.
+// Add background color to paragraph text in a PDF.
 
-// How to create a paragraph and highlight it with color.
+// How do I highlight text in a paragraph in a PDF?
 
-// Set a light gray highlight color to a paragraph and insert it to the page shape.
+// Apply a highlight color to text in a paragraph in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -14,7 +14,7 @@ const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = Api.CreateShape("flowChartMagneticTape", 150 * 36000, 65 * 36000, fill, stroke);
 shape.SetPosition(608400, 1267200);
 
-const docContent = shape.GetDocContent();
+const docContent = shape.GetContent();
 const paragraph = docContent.GetElement(0);
 paragraph.AddText("This is just a sample text. ");
 paragraph.SetHighlight("lightGray");

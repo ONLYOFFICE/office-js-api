@@ -1,4 +1,8 @@
-// This example shows how to get all font names used in a paragraph inside a shape.
+// List every font used across a paragraph inside a shape in a spreadsheet.
+
+// How do I find out which fonts a paragraph is using in a spreadsheet?
+
+// Collect the font names from a styled paragraph and write them into a cell in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const fill = Api.CreateSolidFill(Api.RGB(140, 120, 160));

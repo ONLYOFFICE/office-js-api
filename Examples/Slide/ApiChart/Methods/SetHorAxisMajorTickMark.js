@@ -1,8 +1,8 @@
-// This example specifies the major tick mark "cross" for the horizontal axis.
+// Set the style of major tick marks on a chart's horizontal axis in a presentation.
 
-// How to set a major tick mark using predefined symbols.
+// How do I choose the appearance of tick marks on a chart's horizontal axis in a presentation?
 
-// Create a chart, set its properties and major tick mark for horizontal axis.
+// Create a chart and apply a specific tick mark style to the horizontal axis in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

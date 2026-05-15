@@ -1,8 +1,8 @@
-// This example sets the paragraph right side indentation.
+// Move the entire right edge of a paragraph inward from the page margin in a document.
 
-// How to set the indentation for the paragraph right side.
+// How do I shift a paragraph away from the right margin by a specific amount in a document?
 
-// Create a new paragraph and set its right side indentation.
+// Narrow a paragraph from the right side to create white space or set it apart from other content in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

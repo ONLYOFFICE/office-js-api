@@ -1,5 +1,9 @@
-// Gets the fill type and displays it.
-// Creates shapes with different fill types and shows their types.
+// Get the fill type and display it in a presentation.
+
+// Different fill types include solid, gradient, and none.
+
+// Create shapes with different fills and display their types.
+
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);
 

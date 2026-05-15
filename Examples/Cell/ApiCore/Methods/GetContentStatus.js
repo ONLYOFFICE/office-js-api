@@ -1,4 +1,8 @@
-// This example demonstrates how to get the content status of the workbook using the ApiCore.
+// Read the content status stored in the workbook properties in a spreadsheet.
+
+// How do I check the current content status of a workbook in a spreadsheet?
+
+// Retrieve and display the publication or review status of a workbook in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

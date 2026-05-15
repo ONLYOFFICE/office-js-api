@@ -1,8 +1,8 @@
-// This example gets a watermark settings direction and pastes it into the document.
+// Retrieve the rotation direction of a watermark and display it in a document.
 
-// How to get the direction of the text in watermark. 
+// How do I read the diagonal angle at which a watermark text is displayed in a document?
 
-// Get the angle and the direction (for example, "clockwise45") of the watermark text.
+// Verify the orientation of a watermark by reading its direction setting in a document.
 
 let doc = Api.GetDocument();
 let watermarkSettings = doc.GetWatermarkSettings();

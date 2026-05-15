@@ -1,4 +1,8 @@
-// This example shows how to get a class type of the color used in a shape fill.
+// Retrieve the class type identifier string for a color object.
+
+// Extract and display color object type metadata from a shape.
+
+// Get the class type of a color and display it within a shape text element.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

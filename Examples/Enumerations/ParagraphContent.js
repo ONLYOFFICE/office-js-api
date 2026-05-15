@@ -1,4 +1,4 @@
-// This example adds an element called 'text run' to the paragraph.
+// Add an element called 'text run' to the paragraph.
 
 // How to add an element to paragraph.
 

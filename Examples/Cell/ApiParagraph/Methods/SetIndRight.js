@@ -1,8 +1,8 @@
-// This example sets the paragraph right side indentation.
+// Indent a paragraph from the right inside a shape in a spreadsheet.
 
-// How to change the sentence's right side indentation of the paragraph.
+// How do I push paragraph text away from the right edge in a spreadsheet?
 
-// Get a paragraph from the shape's content then add a text specifying the right side indentation.
+// Narrow the text area from the right so lines wrap before reaching the shape's border in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

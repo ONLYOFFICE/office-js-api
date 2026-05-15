@@ -1,8 +1,8 @@
-// This example shows how to return the probability of a trial result using a binomial distribution.
+// Calculate the probability of success within a specific range in a spreadsheet.
 
-// How to get a probability of a trial result.
+// What is the chance of getting between X and Y successes in N attempts in a spreadsheet?
 
-// Use function to get a probability of a trial result using binomial distribution.
+// Estimate outcomes when trials have consistent success rates in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

@@ -1,8 +1,8 @@
-// This example creates an Ole object and inserts it into the document.
+// Embed an external object with a preview image into a document.
 
-// Creates the ApiOleObject object and adds it to the first paragraph of the document.
+// How do I insert an embedded application object into a paragraph in a document?
 
-// How to create an Ole object using the specified image source, width, height, Ole data, application ID and insert it into the ApiParagraph class. 
+// Link a third-party data source to a visual placeholder and place it inside a paragraph in a document.
 
 let doc = Api.GetDocument();
 let oleObject = Api.CreateOleObject(

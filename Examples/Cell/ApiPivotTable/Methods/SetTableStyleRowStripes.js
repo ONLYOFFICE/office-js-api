@@ -1,8 +1,8 @@
-// This example shows how to set table style row stripes of a pivot table.
+// Turn on alternating row shading for a pivot table in a spreadsheet.
 
-// How to set table style row stripes of a table.
+// How do I apply striped row formatting to a pivot table in a spreadsheet?
 
-// Create a pivot table, add data to it then set its table style row stripes.
+// Make a pivot table easier to read by enabling banded row colors in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

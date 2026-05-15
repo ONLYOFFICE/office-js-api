@@ -1,8 +1,8 @@
-// This example shows how to calculate the Poisson distribution.
+// Calculate the probability using the Poisson distribution model in a spreadsheet.
 
-// How to return the Poisson distribution.
+// How do I use the Poisson distribution to find event probabilities in a spreadsheet?
 
-// Use a function to calculate the Poisson distribution.
+// Get the likelihood of a certain number of events occurring in a fixed timeframe in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

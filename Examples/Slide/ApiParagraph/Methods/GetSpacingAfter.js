@@ -1,8 +1,8 @@
-// This example shows how to get the spacing after value of the current paragraph.
+// Get the spacing after value of the current paragraph in a presentation.
 
-// How to get the size of a spacing after a text from a paragraph.
+// How do I find the space below a paragraph in a presentation?
 
-// Return a property of the spacing size after a paragraph.
+// Check and display the bottom spacing of a paragraph in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

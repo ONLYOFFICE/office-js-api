@@ -1,8 +1,8 @@
-// This example sets the tip text to the current form.
+// Add a tooltip hint to a text form in a document.
 
-// Add text as a tip to the text form.
+// How do I provide guidance to users about what to enter in a text form in a document?
 
-// How to create a text form and specify its tip text.
+// Guide users by displaying a short hint when they hover over a text form in a document.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});

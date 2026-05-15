@@ -1,4 +1,8 @@
-// This example shows how to check if the color is a theme color.
+// Determine whether a color is linked to a theme slot in a document.
+
+// How do I check if a color comes from the document theme in a document?
+
+// Distinguish a fixed hex color from a theme-bound color that changes with the theme in a document.
 
 const doc = Api.GetDocument();
 const hexColor = Api.HexColor('#FF0000');

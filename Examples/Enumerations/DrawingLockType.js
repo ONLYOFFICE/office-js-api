@@ -1,4 +1,4 @@
-// This example shows how to get the lock value for the specified lock type of a drawing.
+// Get the lock value for the specified lock type of a drawing.
 
 // How to get a lock value of the drawing.
 

@@ -1,8 +1,8 @@
-// This example adds a hyperlink to the specified range.
+// Turn a selected portion of text into a clickable hyperlink in a document.
 
-// Insert a link to the range.
+// How do I attach a web address to a specific word or phrase in a document?
 
-// Get range and add a hyperlink to it. 
+// Make a passage navigable by binding it to an external URL in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

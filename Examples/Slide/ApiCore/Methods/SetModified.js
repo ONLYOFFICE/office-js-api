@@ -1,4 +1,8 @@
-// This example demonstrates how to set and get the date when the current presentation was modified last time.
+// Mark the last modification date of a presentation in a presentation.
+
+// How do I set when a presentation was last edited?
+
+// Update and display the modification timestamp for a presentation.
 
 const presentation = Api.GetPresentation();
 const core = presentation.GetCore();

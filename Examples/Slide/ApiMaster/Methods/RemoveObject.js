@@ -1,8 +1,8 @@
-// This example removes objects (image, shape or chart) from the current slide master.
+// Remove a drawing object from a slide master by index.
 
-// How to delete an object from a master.
+// Add multiple copies of a shape to the master, then delete one using RemoveObject.
 
-// Delete an object from a slide master indicating its podition index.
+// Verify the removal by displaying a message in the remaining object.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// This example shows how to get the parent slide master of the current layout.
+// Access the slide master from a layout in a presentation.
 
-// How to get a master of a layout.
+// How do I find the parent master of a layout in a presentation?
 
-// Get layout slide master.
+// Retrieve the master and display its class type in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

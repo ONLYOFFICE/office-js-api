@@ -1,8 +1,8 @@
-// This example gets the fill color for the top 10 conditional formatting rule.
+// Read the background color set by a top 10 conditional formatting rule in a spreadsheet.
 
-// How to retrieve fill color of conditional formatting rules.
+// How do I find out what fill color a top 10 conditional formatting rule uses in a spreadsheet?
 
-// Get top 10 rule fill color.
+// Confirm which highlight color marks the top values in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

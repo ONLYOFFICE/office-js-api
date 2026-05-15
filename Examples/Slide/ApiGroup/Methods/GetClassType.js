@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the presentation.
+// Get the type of a grouped shape in a presentation.
 
-// How to get a class type of ApiGroup.
+// How do I identify what type a grouped shape is in a presentation?
 
-// Retrieve class type of ApiGroup object and insert it to the slide.
+// Retrieve the class name for a group object in a presentation.
 
 const presentation = Api.GetPresentation();
 presentation.SetSizes(254 * 36000, 190 * 36000);

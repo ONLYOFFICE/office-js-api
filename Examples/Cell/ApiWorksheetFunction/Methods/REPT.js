@@ -1,8 +1,8 @@
-// This example shows how to repeat text a given number of times. Use this function to fill a cell with a number of instances of a text string.
+// Repeat text multiple times in a spreadsheet.
 
-// How to create an indicated number of copies.
+// How do I duplicate text in a cell in a spreadsheet?
 
-// Use a function to repeat a text n times.
+// Fill a cell with copies of the same text in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

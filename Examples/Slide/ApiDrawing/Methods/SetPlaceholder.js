@@ -1,8 +1,8 @@
-// This example sets a placeholder for the shape.
+// Mark a shape as a placeholder in a presentation.
 
-// How to set a placeholder for a shape.
+// How do I designate a shape as a placeholder for content in a presentation?
 
-// Select a shape object from a slide and change its placeholder.
+// Create a shape and define what type of content it will accept in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

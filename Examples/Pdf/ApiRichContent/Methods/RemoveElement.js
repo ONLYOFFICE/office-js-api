@@ -1,4 +1,9 @@
-// This example removes an element from rich content.
+// Delete an element from rich content in a PDF.
+
+// How can I remove elements from rich content in a PDF?
+
+// Take out a specific item from the content area in a PDF.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

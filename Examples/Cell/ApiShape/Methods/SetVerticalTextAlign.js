@@ -1,8 +1,8 @@
-// This example sets the vertical alignment to the shape content where a paragraph or text runs can be inserted.
+// Align text vertically inside a shape in a spreadsheet.
 
-// How to specify a vertical alignment of a shape content.
+// How do I position text at the top, middle, or bottom of a shape in a spreadsheet?
 
-// Set text vertical alignment of a shape to bottom.
+// Control where text sits vertically within a shape's boundaries in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

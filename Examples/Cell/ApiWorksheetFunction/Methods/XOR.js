@@ -1,8 +1,8 @@
-// This example shows how to return the logical Exclusive Or value of all arguments. The function returns true when the number of true inputs is odd and false when the number of true inputs is even.
+// Perform an exclusive OR operation on multiple logical values in a spreadsheet.
 
-// How to return the logical Exclusive Or value of all arguments.
+// How do I test whether an odd number of conditions are true in a spreadsheet?
 
-// Use a function to calculate Exclusive Or.
+// Determine if exactly one or an odd number of values are true in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

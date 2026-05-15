@@ -1,8 +1,8 @@
-// This example sets the border which will be displayed at the bottom of the table.
+// Add a border along the bottom edge of a table in a document.
 
-// How to set border to the bottom of the table.
+// How do I draw a line under the last row of a table in a document?
 
-// How to create a 3x3 table and add the bottom 4 point black border.
+// Emphasize the end of a table by placing a visible border on its bottom side in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

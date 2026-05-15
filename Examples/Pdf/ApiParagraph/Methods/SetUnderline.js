@@ -1,4 +1,8 @@
-// This example applies underline formatting to paragraph text.
+// Underline paragraph text in a PDF.
+
+// How do I add underline formatting to text in a PDF?
+
+// Apply underline styling to paragraph content in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

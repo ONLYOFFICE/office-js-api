@@ -1,8 +1,8 @@
-// This example sets the spacing before the current paragraph.
+// Add space above a paragraph in a PDF.
 
-// How to set the size of a spacing before a text from a paragraph properties.
+// How do I add space before a paragraph in a PDF?
 
-// Change the size property of a spacing before a paragraph.
+// Set the space above a paragraph in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -14,7 +14,7 @@ const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = Api.CreateShape("flowChartMagneticTape", 150 * 36000, 65 * 36000, fill, stroke);
 shape.SetPosition(608400, 1267200);
 
-const docContent = shape.GetDocContent();
+const docContent = shape.GetContent();
 const paragraph = docContent.GetElement(0);
 const paraPr = paragraph.GetParaPr();
 paragraph.AddText("This is an example of setting a space before a paragraph. ");

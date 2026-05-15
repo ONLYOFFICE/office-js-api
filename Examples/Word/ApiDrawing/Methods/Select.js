@@ -1,10 +1,8 @@
-// This example selects the current graphic object.
+// Programmatically select one or more drawing objects in a document.
 
-// How to select drawing objects with the cursor.
+// How do I select a shape or group of shapes in a document?
 
-// Create three shapes, select the first one,
-// then select the second shape with isReplace=true (replacing the selection),
-// and finally select the third shape without isReplace parameter (adding to selection).
+// Control which shapes are highlighted by combining replace and additive selection modes in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

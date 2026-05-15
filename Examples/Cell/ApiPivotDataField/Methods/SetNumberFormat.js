@@ -1,8 +1,8 @@
-// This example shows how to set a number format for data field.
+// Apply a number format to a pivot table value field in a spreadsheet.
 
-// How to change a number format a table element.
+// How do I control how numbers are displayed in a pivot table data field in a spreadsheet?
 
-// Create a pivot table, add data to it then set a custom data field's number format.
+// Format the values in a pivot field as currency, percentages, or scientific notation in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

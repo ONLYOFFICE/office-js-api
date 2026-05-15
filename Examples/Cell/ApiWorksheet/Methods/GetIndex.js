@@ -1,8 +1,8 @@
-// This example shows how to get the left margin of the sheet.
+// Find the position of a sheet among all sheets in a spreadsheet.
 
-// How to get margin of the sheet's left side.
+// How do I get the tab number of the active sheet in a spreadsheet?
 
-// Get the size of the left margin of the sheet.
+// Identify the sheet order index and display it in a cell in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let leftMargin = worksheet.GetLeftMargin();

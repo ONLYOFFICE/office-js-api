@@ -1,5 +1,9 @@
-// Gets the width of a stroke in EMU.
-// Creates shapes with different border widths and displays their widths.
+// Read the border thickness of a shape in a spreadsheet.
+
+// How do I find out how wide a shape border is in a spreadsheet?
+
+// Measure the exact border width and display it as a readable value in a spreadsheet.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 200, 100));
 

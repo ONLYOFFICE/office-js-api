@@ -1,8 +1,8 @@
-// This example shows how to convert a hexadecimal number to octal.
+// Convert a hexadecimal number to octal in a spreadsheet.
 
-// How to get an octal from hexadecimal number.
+// How do I convert hexadecimal values to octal format in a spreadsheet?
 
-// Use a function to convert a hexadecimal number to octal.
+// Transform a hex value into its octal representation in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

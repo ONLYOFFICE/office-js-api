@@ -1,8 +1,8 @@
-// This example specifies the distance from the bottom edge of the page to the bottom edge of the footer.
+// Control how far the footer sits from the bottom edge of the page in a document.
 
-// How to set footer distance of the section.
+// How do I set the gap between the page bottom and the footer area in a document?
 
-// Specify the distance between the page end and the footer.
+// Adjust the spacing that separates the footer from the lower edge of a page in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

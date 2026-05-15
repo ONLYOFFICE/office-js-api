@@ -1,8 +1,8 @@
-// This example shows how to create and set the paragraph properties which will be applied to all the paragraphs within a table which match the conditional formatting type.
+// Apply paragraph formatting to a conditional region of a table style in a document.
 
-// How to set paragraph properties to the table style.
+// How do I control paragraph alignment for a specific part of a table style in a document?
 
-// Update the table style paragraph properties.
+// Assign paragraph layout settings to a targeted section of a styled table in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

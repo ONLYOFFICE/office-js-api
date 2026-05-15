@@ -1,8 +1,8 @@
-// This example converts the ApiParagraph object into the JSON object.
+// Serialize a paragraph into a portable data format for storage or transfer in a document.
 
-// How to get a JSON from the inline text control.
+// How do I export a paragraph's structure and content as a JSON object in a document?
 
-// Convert the inline text control to json and add it to the paragraph.
+// Save a paragraph's formatting and text as structured data so it can be reconstructed later in a document.
 
 let doc = Api.GetDocument();
 let paragraph = Api.CreateParagraph();

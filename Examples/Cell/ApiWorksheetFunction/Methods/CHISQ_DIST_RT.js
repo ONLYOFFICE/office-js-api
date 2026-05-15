@@ -1,8 +1,8 @@
-// This example shows how to return the right-tailed probability of the chi-squared distribution.
+// Find what percentage of results exceed a certain value in a chi-squared distribution in a spreadsheet.
 
-// How to return the right-tailed probability of the chi-squared distribution.
+// Determine the upper tail probability for comparing observed versus expected frequencies in a spreadsheet.
 
-// Use function to return the right-tailed probability of the chi-squared distribution.
+// Assess how unusual a chi-squared test result is by measuring its right-tail probability in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

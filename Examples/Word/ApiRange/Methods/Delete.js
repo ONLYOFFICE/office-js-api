@@ -1,8 +1,8 @@
-// This example deletes all the contents from the range.
+// Remove a selected portion of text entirely from a document.
 
-// How to clear the content of the range.
+// How do I erase a specific stretch of words from the body of a document?
 
-// Delete the text from the content.
+// Wipe out a passage so it no longer appears anywhere in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

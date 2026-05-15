@@ -1,4 +1,8 @@
-// This example shows how to set a border for the entire table.
+// Apply a uniform border around and inside every edge of a table in a document.
+
+// How do I add borders to all sides of every cell in a table in a document?
+
+// Draw consistent lines along all internal and external table edges in a document.
 
 const doc = Api.GetDocument();
 const paragraph = doc.GetElement(0);

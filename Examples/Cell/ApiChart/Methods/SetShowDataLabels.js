@@ -1,8 +1,8 @@
-// This example specifies which chart data labels are shown for the chart.
+// Control which data label elements are displayed on a chart in a spreadsheet.
 
-// How to hide chart data labels.
+// How do I choose what information appears in chart data labels in a spreadsheet?
 
-// Show only values as chart lables.
+// Show only the numeric values on chart bars while hiding category names and percentages in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

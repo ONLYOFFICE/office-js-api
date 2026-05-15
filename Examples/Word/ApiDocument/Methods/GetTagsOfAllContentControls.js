@@ -1,8 +1,8 @@
-// This example shows how to get a list of all tags that are used for all content controls in the document.
+// Collect the tags assigned to all content controls in a document.
 
-// How to get the style of the heading.
+// How do I list every content control tag present in a document?
 
-// Display the style name of the "Heading 6".
+// Identify and display the tag values of both inline and block-level content controls for auditing purposes.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

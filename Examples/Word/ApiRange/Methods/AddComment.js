@@ -1,8 +1,8 @@
-// This example adds a comment to the range.
+// Attach a reviewer note to a selected portion of text in a document.
 
-// How to comment a range of document.
+// How do I add a comment with an author name to a text selection in a document?
 
-// Insert a comment into the 'ONLYOFFICE' range and add an author to it.
+// Annotate a passage with feedback and an author attribution in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

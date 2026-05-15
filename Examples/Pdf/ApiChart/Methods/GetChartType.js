@@ -1,4 +1,8 @@
-// How to get a chart type of a chart.
+// Determine what kind of chart is displayed in a PDF.
+
+// How do I find out if a chart is a bar chart or line chart in a PDF?
+
+// Retrieve the chart type and show it as text in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// This example shows how to clear a pivot table.
+// List the column fields configured in a pivot table in a spreadsheet.
 
-// How to remove all elements from a pivot table.
+// How do I find out which fields are placed in the column area of a pivot table in a spreadsheet?
 
-// Create a pivot table, add data to it then delete all its content.
+// Read the names of every column field to inspect or log the pivot table layout in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

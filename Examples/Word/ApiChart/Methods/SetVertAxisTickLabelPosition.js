@@ -1,8 +1,8 @@
-// This example spicifies tick label position for the vertical axis.
+// Set the position of tick labels on the vertical axis of a chart in a document.
 
-// How to change a position of tick label.
+// How do I control where tick labels appear on the vertical axis in a document?
 
-// Create a chart, set its properties and its vertical axis tick label position.
+// Place tick labels at the far end of the vertical axis to keep them away from the chart area in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

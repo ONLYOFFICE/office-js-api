@@ -1,8 +1,8 @@
-// This example sets a sequence of custom tab stops which will be used for any tab characters in the paragraph.
+// Set custom tab stops for a paragraph in a document.
 
-// Add tabs to the paragraph.
+// How do I control where text jumps when pressing Tab in a document?
 
-// Create a text in a paragraph and add tab stops to it.
+// Place text at precise horizontal positions using left, center, and right tab stops in a document.
 
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");

@@ -1,8 +1,8 @@
-// This example specifies that the current table row will be repeated at the top of each new page wherever this table is displayed.
+// Mark a table row to repeat as a header on every page in a document.
 
-// Rename the header of the table.
+// How do I make a row appear at the top of a table on each new page in a document?
 
-// How to set table row as a header.
+// Designate a table row as a repeating header across page breaks in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

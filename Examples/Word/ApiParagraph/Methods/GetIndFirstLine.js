@@ -1,8 +1,8 @@
-// This example shows how to get the paragraph first line indentation.
+// Read the first-line indentation value set on a paragraph in a document.
 
-// How to get the indentation of the first sentence line of the paragraph.
+// How do I find out how far the first line of a paragraph is indented in a document?
 
-// Print the identation of the line of a paragraph.
+// Verify a programmatically applied first-line indent by reading it back in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

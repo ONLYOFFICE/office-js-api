@@ -1,8 +1,8 @@
-// This example demonstrates getting the bar border color from a data bar conditional formatting rule.
+// Read the border color applied to data bars in a spreadsheet.
 
-// How to retrieve the border color of a data bar.
+// How do I find out what border color is used on data bars in a spreadsheet?
 
-// Get the bar border color of a data bar conditional formatting rule.
+// Inspect the outline color of data bars to verify their visual style in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

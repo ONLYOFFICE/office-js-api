@@ -1,8 +1,8 @@
-// This example shows how to set the placeholder text for the content control.
+// Add placeholder text to an empty content control in a document.
 
-// Creates a block content control and sets the placeholder text to it.
+// How do I set hint text that appears inside an unfilled content control in a document?
 
-// How to add the placeholder text to the ApiBlockLvlSdt object.
+// Guide users with a prompt message shown inside a blank content control in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

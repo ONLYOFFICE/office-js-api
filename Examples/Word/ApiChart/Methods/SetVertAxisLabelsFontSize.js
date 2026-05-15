@@ -1,8 +1,8 @@
-// This example specifies font size for the labels of the vertical axis.
+// Resize the text of vertical axis labels on a chart in a document.
 
-// How to resize a font size of the vertical axis labels.
+// How do I change the font size of the numbers along the vertical axis in a document?
 
-// Create a chart then change a font size of axis labels.
+// Make vertical axis labels larger or smaller to improve chart readability in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

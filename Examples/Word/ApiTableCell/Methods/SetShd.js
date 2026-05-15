@@ -1,8 +1,8 @@
-// This example specifies the shading applied to the contents of the table cell.
+// Add a colored shading to a table cell in a document.
 
-// Create a 3x3 table and add an orange shading to cell #1.
+// How do I apply a background shading to a specific table cell in a document?
 
-// Set shading to the table cell.
+// Highlight a table cell with a solid fill to make it stand out in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

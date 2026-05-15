@@ -1,8 +1,8 @@
-// This example shows how to multiply the values in the field (column) of records in the database that match the conditions you specify.
+// Multiply values in a database column that match specified conditions.
 
-// How to multiply the values under condition.
+// Compute the product of field values based on given criteria.
 
-// Use function to multiply the values from columns if they satisfy a condition.
+// Use the DPRODUCT function to multiply database entries that satisfy conditions.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

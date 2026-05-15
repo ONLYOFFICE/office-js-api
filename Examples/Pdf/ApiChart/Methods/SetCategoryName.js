@@ -1,6 +1,8 @@
-// How to rename a chart category.
+// Change the label of a category on a chart in a PDF.
 
-// Create a chart then name its category.
+// How do I rename the x-axis categories of a chart in a PDF?
+
+// Update a category name to display different text in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

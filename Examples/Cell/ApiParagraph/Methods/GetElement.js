@@ -1,8 +1,8 @@
-// This example shows how to get a paragraph element using the position specified.
+// Access a specific text run inside a paragraph by its position in a spreadsheet.
 
-// How to get an element of a paragraph using its index.
+// How do I pick out one piece of a paragraph to change its style in a spreadsheet?
 
-// Find a paragraph element using its index and change its properties.
+// Bold the third text run in a paragraph by targeting it through its index in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

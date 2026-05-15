@@ -1,8 +1,8 @@
-// This example sets the parameters of the watermark settings and apply them to the document.
+// Configure and update watermark settings on every page in a document.
 
-// How to get watermark settings and update them.
+// How do I change watermark text, font, and color in a document?
 
-// Set text and type for the watermark.
+// Customize the appearance of a text watermark including style, size, and highlight before saving it.
 
 let doc = Api.GetDocument();
 let watermarkSettings = doc.GetWatermarkSettings();

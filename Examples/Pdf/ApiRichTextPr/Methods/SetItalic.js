@@ -1,4 +1,9 @@
-// This example sets italic property to rich text properties object.
+// Make text slanted in a PDF.
+
+// How do I apply italic formatting to text in a PDF?
+
+// Enable italics for text in a PDF.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

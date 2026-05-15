@@ -1,4 +1,4 @@
-// This example creates the "picture" placeholder.
+// Create the "picture" placeholder.
 
 // How to create the ApiPlaceholder object of the specified type.
 

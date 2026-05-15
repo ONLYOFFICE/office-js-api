@@ -1,5 +1,9 @@
-// Analyzes path commands of a star shape and displays command details.
-// Shows total command count and first command information in cells.
+// Count the total number of drawing commands in a custom shape path in a spreadsheet.
+
+// How do I find out how many steps make up a shape's outline in a spreadsheet?
+
+// Check the length of a path's instruction list to understand the shape's complexity in a spreadsheet.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(100, 150, 200));
 let stroke = Api.CreateStroke(18000, Api.CreateSolidFill(Api.RGB(50, 75, 100)));

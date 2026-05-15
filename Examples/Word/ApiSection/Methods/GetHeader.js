@@ -1,8 +1,8 @@
-// This example shows how to get the content for the specified header type.
+// Access the header area of a section in a document.
 
-// How to get the header of the page.
+// How do I retrieve the header from a specific section in a document?
 
-// Get the default header from the final section.
+// Open the header region to add or inspect text that appears at the top of pages in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

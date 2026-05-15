@@ -1,6 +1,8 @@
-// How to get a seria from a chart using its index.
+// Access a specific data series from a chart by its position in a PDF.
 
-// Find a chart seria.
+// How do I select one series from a chart in a PDF?
+
+// Retrieve a chart series at a specific index in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

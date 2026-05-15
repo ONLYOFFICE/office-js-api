@@ -1,4 +1,8 @@
-// This example selects the current paragraph.
+// Highlight and select a paragraph in a PDF.
+
+// How do I mark a paragraph as selected in a PDF?
+
+// Activate selection on a paragraph in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

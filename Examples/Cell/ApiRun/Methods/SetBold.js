@@ -1,8 +1,8 @@
-// This example sets the bold property to the text character.
+// Make a text run bold inside a shape in a spreadsheet.
 
-// How to make text bold.
+// How do I display part of a text in bold inside a spreadsheet?
 
-// Create a text run object, update its style by making it bold.
+// Emphasize a specific portion of text by applying bold weight to a run in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

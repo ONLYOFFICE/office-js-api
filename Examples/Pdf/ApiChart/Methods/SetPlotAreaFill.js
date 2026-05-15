@@ -1,6 +1,8 @@
-// How to set a background color for the plot area.
+// Change the background color of the chart's data area in a PDF.
 
-// Create a chart, set its properties and its plot area color.
+// How do I set a background color for the chart area in a PDF?
+
+// Apply a fill color to the region where data is displayed in a chart in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

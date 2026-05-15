@@ -1,8 +1,8 @@
-// This example shows how to make search in paragraph.
+// Search for a word inside a paragraph and bold the first match in a document.
 
-// How to find a word in the paragraph.
+// How do I find a specific word within a paragraph in a document?
 
-// Make the search result word bold.
+// Highlight a search result by applying bold formatting to the found text in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

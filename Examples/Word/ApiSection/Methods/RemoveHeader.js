@@ -1,8 +1,8 @@
-// This example removes the header of the specified type from the section.
+// Delete the header from a chosen section in a document.
 
-// How to remove the header of the current section.
+// How do I remove the header that appears at the top of a section in a document?
 
-// Create section from the paragraph and remove its header.
+// Clear the top area of a section so no header is shown in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

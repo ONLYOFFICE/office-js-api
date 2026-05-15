@@ -1,8 +1,8 @@
-// This example sets the text fill to the current text run.
+// Fill the letters of a text run with a solid color in a spreadsheet.
 
-// How to color a text object.
+// How do I change the color of specific words inside a shape in a spreadsheet?
 
-// Create a text run object, add color to it using solid fill.
+// Paint selected text in a chosen color to make it visually distinct from surrounding content in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

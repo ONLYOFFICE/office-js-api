@@ -1,4 +1,9 @@
-// This example gets button widget scale when type and displays it.
+// Determine when a button icon is scaled in a PDF.
+
+// How do I check the icon scaling timing for a button in a PDF?
+
+// Retrieve the icon scaling trigger condition for a button widget in a PDF.
+
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 let buttonField = Api.CreateImageField([10, 10, 120, 100]);

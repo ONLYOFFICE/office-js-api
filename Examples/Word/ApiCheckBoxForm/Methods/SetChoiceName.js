@@ -1,6 +1,8 @@
-// This example shows how to create a form with three radio buttons and specify choice names for each radio button.
-// The radio buttons are grouped together by setting the same radio group key for each radio button.
-// The radio group key is displayed at the end of the document.
+// Assign a named value to each radio button in a group so the selected option can be identified in a document.
+
+// How do I label individual radio button choices in a grouped form in a document?
+
+// Build a grouped set of radio buttons with distinct choice labels and retrieve the selected label in a document.
 
 let doc = Api.GetDocument();
 

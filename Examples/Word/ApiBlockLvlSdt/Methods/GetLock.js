@@ -1,8 +1,8 @@
-// This example shows how to get the lock type of the container.
+// Read the editing restriction applied to a content control in a document.
 
-// Creates a block content control, sets its lock to "sdtContentLocked", and returns the lock type to insert it into the second paragraph of the document.
+// How do I check what lock type is set on a content control in a document?
 
-// How to get the lock type of the ApiBlockLvlSdt object.
+// Apply a content lock to a content control and then verify what restriction is active in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

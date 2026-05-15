@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Retrieve the class type of an image element in a document.
 
-// How to get a class type of ApiImage.
+// How do I get the type identifier of an image object in a document?
 
-// Retrieve class type of ApiImage object and insert it to the slide.
+// Display what kind of drawing element an image is classified as in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

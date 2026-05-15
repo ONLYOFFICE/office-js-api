@@ -1,8 +1,8 @@
-// This example pushes 5 paragraphs to actually add its to the document content.
+// Append a new paragraph to the end of a shape's content in a spreadsheet.
 
-// How to insert paragraphs into a document.
+// How do I add a paragraph to the bottom of a shape's text area in a spreadsheet?
 
-// Add text to a newly created paragraph and add this paragraph into document.
+// Build a paragraph separately and place it at the end of a shape in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

@@ -1,8 +1,8 @@
-// This example deletes a content control and its content.
+// Remove a content control and all its text from a document.
 
-// Creates the ApiBlockLvlSdt object in the current document, adds a text to it, and deletes it and its content from the document.
+// How do I delete a content control along with everything inside it in a document?
 
-// How to delete the block level container from the ApiDocument class.
+// Permanently erase a content control and its contents in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

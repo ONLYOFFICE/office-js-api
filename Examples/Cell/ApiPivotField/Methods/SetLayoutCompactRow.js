@@ -1,8 +1,8 @@
-// This example shows how to set a layout compact row line of a pivot field.
+// Switch a pivot field between compact and expanded row display in a spreadsheet.
 
-// How to change a pivot field layout compact row.
+// How do I turn off the compact row layout for a pivot field in a spreadsheet?
 
-// Create a pivot table, add data to it then set layout compact row of a specified pivot.
+// Spread pivot field rows across individual columns by disabling compact mode in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

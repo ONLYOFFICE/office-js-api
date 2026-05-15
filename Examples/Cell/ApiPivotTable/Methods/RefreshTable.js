@@ -1,8 +1,8 @@
-// This example shows how to refresh a table.
+// Update a pivot table so it reflects the latest data in a spreadsheet.
 
-// How to refresh table values.
+// How do I force a pivot table to recalculate after the source data changes in a spreadsheet?
 
-// Create a pivot table, add data to it then refresh it.
+// Keep a pivot table in sync with its underlying data by triggering a refresh in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

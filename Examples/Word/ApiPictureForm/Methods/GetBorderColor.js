@@ -1,8 +1,8 @@
-// This example shows how to get the border color of the current form.
+// Read the border color applied to a picture form field in a document.
 
-// How to get the border color of a picture form.
+// How do I find out what color the border of a picture form field is in a document?
 
-// Retrieve the border color of a created picture form and display it.
+// Verify the border color of a picture form by retrieving its RGB values in a document.
 
 let doc = Api.GetDocument();
 let pictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false, "shiftX": 50, "shiftY": 50});

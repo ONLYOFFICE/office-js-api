@@ -1,8 +1,8 @@
-// This example gets the placeholder type.
+// Read the category of a placeholder in a presentation.
 
-// How to get a placeholder type (chart, table, etc.).
+// How do I find what type of placeholder is assigned to a shape in a presentation?
 
-// Create a shape and get its placeholder type.
+// Create a shape with a placeholder and retrieve its category in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

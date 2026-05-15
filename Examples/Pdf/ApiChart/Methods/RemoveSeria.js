@@ -1,6 +1,8 @@
-// How to delete a chart seria indicating its index.
+// Delete a data series from a chart using its position in a PDF.
 
-// Create a chart then delete a seria from it.
+// How do I remove one series from a chart in a PDF?
+
+// Take away a series by its index to simplify a chart in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

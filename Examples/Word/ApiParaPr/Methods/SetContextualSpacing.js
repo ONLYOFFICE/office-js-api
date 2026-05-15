@@ -1,8 +1,8 @@
-// This example specifies that any space before or after this paragraph set using the [ApiParaPr#SetSpacingBefore](./SetSpacingBefore.md) or [ApiParaPr#SetSpacingAfter](./SetSpacingAfter.md) spacing element, should not be applied when the preceding and following paragraphs are of the same paragraph style, affecting the top and bottom spacing respectively.
+// Suppress spacing between adjacent same-styled paragraphs in a document.
 
-// Set the contextual spacing for paragraph.
+// How do I remove extra space between paragraphs that share the same style in a document?
 
-// Get the first paragraph and set the spacing for its two ends.
+// Keep visually grouped paragraphs compact by ignoring before/after spacing within a style.
 
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");

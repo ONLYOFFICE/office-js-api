@@ -1,4 +1,8 @@
-// This example shows how to use a document visitor to traverse document elements.
+// Traverse all paragraphs and tables using a document visitor in a document.
+
+// How do I walk through every element in a document content with a visitor in a document?
+
+// Count paragraphs and tables automatically without iterating element indexes by hand.
 
 const doc = Api.GetDocument();
 

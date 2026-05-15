@@ -1,8 +1,8 @@
-// This example sets font size for labels of the horizontal axis.
+// Set the font size of the horizontal axis labels on a chart in a document.
 
-// How to resize a horizontal axis labels font.
+// How do I change the text size of horizontal axis labels in a document?
 
-// Create a chart and set its horizontal axis labels font to 8.
+// Make axis labels smaller to keep the chart area uncluttered in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

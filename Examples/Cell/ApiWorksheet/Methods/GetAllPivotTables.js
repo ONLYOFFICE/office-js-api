@@ -1,8 +1,8 @@
-// This example shows how to get all pivot tables from the sheet.
+// Retrieve every pivot table present on a worksheet in a spreadsheet.
 
-// How to get all pivot tables.
+// How do I list all pivot tables on a sheet in a spreadsheet?
 
-// Get all pivot tables as an array.
+// Access each pivot table on the worksheet to apply changes in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

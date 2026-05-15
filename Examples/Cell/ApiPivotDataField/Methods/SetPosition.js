@@ -1,8 +1,8 @@
-// This example shows how to set a position for data field.
+// Move a value field to a specific position in a pivot table in a spreadsheet.
 
-// How to change a position of a table element.
+// How do I reorder data fields in the values area of a pivot table in a spreadsheet?
 
-// Create a pivot table, add data to it then move a custom data field chnaging its position.
+// Place a pivot field at a chosen index to control the column order in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

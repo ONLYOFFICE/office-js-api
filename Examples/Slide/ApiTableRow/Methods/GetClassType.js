@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the presentation.
+// Retrieve the class type of a table row object.
 
-// How to get a class type of ApiTableRow.
+// Create a table and access the first row to get its class type.
 
-// Retrieve class type of ApiTableRow object and insert it to the slide.
+// Display the class type identifier in the slide content.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

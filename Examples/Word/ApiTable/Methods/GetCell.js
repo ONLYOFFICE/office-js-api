@@ -1,8 +1,8 @@
-// This example shows how to get a cell by its position.
+// Access a specific cell by its row and column position in a document.
 
-// How to get cell from the table.
+// How do I retrieve a particular cell from a table in a document?
 
-// Get the first table cell and add text to it.
+// Target an individual cell using its coordinates to write content in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

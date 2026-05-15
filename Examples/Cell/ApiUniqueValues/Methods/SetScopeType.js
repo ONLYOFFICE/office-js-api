@@ -1,8 +1,8 @@
-// This example demonstrates setting the scope type of a unique values conditional formatting rule.
+// Define the scope boundary for a unique values formatting rule in a spreadsheet.
 
-// How to configure the scope type setting for unique values conditional formatting.
+// How do I specify what area a unique values formatting rule covers in a spreadsheet?
 
-// Set the scope type of the unique values rule.
+// Narrow or widen the scope a unique values rule uses when detecting entries in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

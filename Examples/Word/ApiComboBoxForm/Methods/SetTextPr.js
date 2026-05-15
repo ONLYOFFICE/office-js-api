@@ -1,8 +1,8 @@
-// This example sets the text properties to the current form.
+// Apply text formatting to a combo box form in a document.
 
-// Add text properties to the combobox.
+// How do I apply text formatting to a combo box form in a document?
 
-// How to create a combobox and make its text bold and bigger.
+// Make the combo box text bold and larger to highlight it visually in a document.
 
 let doc = Api.GetDocument();
 let comboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});

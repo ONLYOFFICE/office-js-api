@@ -1,4 +1,9 @@
-// This example shows how to set the rotation angle to the drawing.
+// Rotate a drawing by a given angle to change its orientation in a spreadsheet.
+
+// How do I tilt or rotate a shape to a specific angle in a spreadsheet?
+
+// Turn a drawing to a desired degree to adjust how it appears visually in a spreadsheet.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

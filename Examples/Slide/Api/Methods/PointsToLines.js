@@ -1,4 +1,8 @@
-// This example shows how to convert points to lines.
+// Convert points to lines and display the result in a presentation.
+
+// Use Api.PointsToLines to convert measurement units.
+
+// Display the converted value in a shape text.
 
 const points = 100;
 const lines = Api.PointsToLines(points);

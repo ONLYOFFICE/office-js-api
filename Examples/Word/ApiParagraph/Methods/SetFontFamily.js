@@ -1,8 +1,8 @@
-// This example sets all 4 font slots with the specified font family.
+// Apply a specific typeface to all text in a paragraph in a document.
 
-// How to set font family to the text.
+// How do I change the font family used for a paragraph's text in a document?
 
-// Create a paragraph and change its font family.
+// Switch a paragraph to a different typeface to match a desired visual style in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

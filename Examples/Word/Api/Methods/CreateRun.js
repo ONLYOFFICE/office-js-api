@@ -1,12 +1,8 @@
-// This example creates a run and inserts it into the document.
+// Add a formatted text segment to the first paragraph in a document.
 
-// Creates a run, adds a text to it, and inserts it into the first paragraph of the document.
+// How do I create a standalone piece of text and append it to an existing paragraph in a document?
 
-// How to create the ApiRun object and adds it to the ApiParagraph class.
-
-// How to add a text to the paragraph.
-
-// How to add a text to the ApiRun object.
+// Insert new text into a paragraph as a separate block that can carry its own formatting in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

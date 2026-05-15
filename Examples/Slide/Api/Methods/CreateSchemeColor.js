@@ -1,8 +1,8 @@
-// This example shows how to create a scheme color with the 'dk1' identifier.
+// Create a scheme color using a theme identifier in a presentation.
 
-// How to create a new scheme color.
+// How do I apply a theme color to a shape in a presentation?
 
-// Add a scheme color to create a solid fill.
+// Use a scheme color to fill a shape with a color from the presentation theme in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// This example demonstrates getting the type of above average conditional formatting rule.
+// Read the category of a conditional formatting rule applied to a range in a spreadsheet.
 
-// How to identify the type of conditional formatting rule.
+// How do I find out what kind of conditional formatting rule is active in a spreadsheet?
 
-// Get the type of the above average conditional formatting rule.
+// Retrieve the rule category to confirm which formatting condition is in use in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

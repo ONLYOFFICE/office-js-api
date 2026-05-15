@@ -1,4 +1,8 @@
-// This example shows how to get the notes page from a slide.
+// Get the notes page from a slide in a presentation.
+
+// Retrieve the notes page using GetNotesPage and check its availability.
+
+// Display the notes page status on the slide.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

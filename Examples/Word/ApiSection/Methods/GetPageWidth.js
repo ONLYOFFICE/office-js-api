@@ -1,8 +1,8 @@
-// This example shows how to get the page width.
+// Read the width of the pages defined by a section in a document.
 
-// How to get the page width.
+// How do I find out the page width for a section in a document?
 
-// Get the final section of the page and get its width.
+// Retrieve the horizontal page size to verify or display layout dimensions in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

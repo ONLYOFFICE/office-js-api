@@ -1,5 +1,9 @@
-// Sets a solid fill color to a shape.
-// Creates a rectangle and applies a red fill to it.
+// Apply a solid color fill to a shape in a document.
+
+// How do I change the background color of a shape in a document?
+
+// Give a shape a distinct appearance by filling it with a chosen color in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());

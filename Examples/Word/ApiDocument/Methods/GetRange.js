@@ -1,8 +1,8 @@
-// This example shows how to get a Range object that represents the part of the document contained in the specified document.
+// Select a specific text range by character positions in a document.
 
-// How to get the range using row and column indexes.
+// How do I get a range of characters using start and end indexes in a document?
 
-// Make a range text bold.
+// Apply bold formatting to a precise word by targeting it with index-based range selection in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

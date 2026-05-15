@@ -1,8 +1,8 @@
-// This example shows how to return the square root of a number.
+// Calculate the square root of a number.
 
-// How to calculate the square root of a number.
+// The SQRT function returns the positive square root of a numeric value.
 
-// Use a function to get the square root of a number.
+// Get the square root of 100 and place it in cell A1.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

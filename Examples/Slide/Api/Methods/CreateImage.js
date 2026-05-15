@@ -1,8 +1,8 @@
-// This example creates an image and pastes it into the document.
+// Insert an image from a URL in a presentation.
 
-// How to create an image object using a url and specifying its width and height.
+// How do I add an image with specific dimensions to a slide in a presentation?
 
-// Create an image and insert it to the slide.
+// Place an image on a slide by specifying its source and size in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

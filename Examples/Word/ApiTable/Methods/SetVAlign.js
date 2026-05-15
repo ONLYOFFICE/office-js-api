@@ -1,8 +1,8 @@
-// This example sets the vertical alignment to the table.
+// Control where cell content sits vertically within each row of a table in a document.
 
-// How to indicate the vertical alignment of the table cell.
+// How do I push text to the bottom of a table cell instead of the top in a document?
 
-// Align the content of the table as bottom.
+// Position content at the bottom edge of every cell to create a cleaner layout in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

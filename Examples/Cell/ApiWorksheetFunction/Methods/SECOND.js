@@ -1,8 +1,8 @@
-// This example shows how to return the second, a number from 0 to 59.
+// Return the second, a number from 0 to 59 in a spreadsheet.
 
-// How to get seconds from time.
+// Extract the seconds component from a time value using the SECOND function.
 
-// Use a function to return seconds from time object.
+// Apply the function to retrieve and display the seconds in a cell.
 
 const worksheet = Api.GetActiveSheet();
 

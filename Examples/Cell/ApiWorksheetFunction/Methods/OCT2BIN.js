@@ -1,8 +1,8 @@
-// This example shows how to convert an octal number to binary.
+// Convert an octal number to its binary representation in a spreadsheet.
 
-// How to get a binary number form an octal.
+// How do I change an octal value to binary in a spreadsheet?
 
-// Use a function to convert an octal number to binary.
+// Transform a base-8 number into a base-2 format in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

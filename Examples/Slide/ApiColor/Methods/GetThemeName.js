@@ -1,4 +1,8 @@
-// This example shows how to get the theme color name used in a shape fill.
+// Identify the design theme color name applied to a shape fill in a presentation.
+
+// How do I determine which theme color is used for a fill in a presentation?
+
+// Retrieve the theme color label from a shape's fill in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

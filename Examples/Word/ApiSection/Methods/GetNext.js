@@ -1,8 +1,8 @@
-// This example shows how to get the next section.
+// Navigate to the section that follows the current one in a document.
 
-// How to get the next section after the current one.
+// How do I access the section that comes right after a given section in a document?
 
-// Update the margins of the next section.
+// Move forward to the next section to adjust its layout settings in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

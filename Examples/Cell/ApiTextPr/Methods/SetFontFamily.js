@@ -1,8 +1,8 @@
-// This example sets all 4 font slots with the specified font family.
+// Change the font family of a text run to a different typeface in a spreadsheet.
 
-// How to change a font family of a text.
+// How do I assign a specific font to text inside a shape in a spreadsheet?
 
-// Set text font family.
+// Switch the typeface of a text run to give it a distinct visual style in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

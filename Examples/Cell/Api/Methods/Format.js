@@ -1,8 +1,8 @@
-// This example shows how to get a class formatted according to the instructions contained in the format expression.
+// Apply a number format pattern to a value in a spreadsheet.
 
-// How to set a format for a cell or a range using a format expression.
+// How do I format a number using a custom pattern in a spreadsheet?
 
-// Change a format of a range using an expression.
+// Display a value with a specific formatting style in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let format = Api.Format("123456", "$#,##0");

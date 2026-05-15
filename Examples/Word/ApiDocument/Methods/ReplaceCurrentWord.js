@@ -1,8 +1,8 @@
-// This example shows how to replace the current word.
+// Replace the word at the cursor position with a new word in a document.
 
-// How to change the word to another one.
+// How do I overwrite a single word based on where the cursor sits in a document?
 
-// Add the new word instead of another using cursor position.
+// Move the cursor into a word and swap it out without retyping surrounding text in a document.
 
 let doc = Api.GetDocument();
 let para1 = doc.GetElement(0);
@@ -12,4 +12,3 @@ para1.AddText(" jumps over the lazy dog");
 run.MoveCursorToPos(1);
 
 doc.ReplaceCurrentWord("fox");
-

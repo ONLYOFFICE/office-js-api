@@ -1,8 +1,8 @@
-// This example shows how to get the class type of the custom XML parts manager.
+// Read the type label of the XML storage manager object in a spreadsheet.
 
-// How to get the class type of the XML parts manager.
+// How do I find out what type of object manages XML data in a spreadsheet?
 
-// Get the class type.
+// Confirm the category of the XML manager to handle it correctly in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let xmlManager = worksheet.GetCustomXmlParts();

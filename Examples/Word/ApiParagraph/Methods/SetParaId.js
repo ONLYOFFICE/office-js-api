@@ -1,4 +1,8 @@
-// This example shows how to set the paragraph ID.
+// Assign a unique identifier to a paragraph in a document.
+
+// How do I give a paragraph a custom ID so it can be referenced later in a document?
+
+// Tag a paragraph with a specific identifier and confirm it was applied in a document.
 
 const doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

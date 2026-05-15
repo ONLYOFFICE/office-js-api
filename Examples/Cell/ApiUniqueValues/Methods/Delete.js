@@ -1,8 +1,8 @@
-// This example demonstrates deleting a unique values conditional formatting rule.
+// Remove a conditional formatting rule that highlights unique values in a spreadsheet.
 
-// How to remove unique values conditional formatting from a range.
+// How do I delete a unique-values highlighting rule from a cell range in a spreadsheet?
 
-// Delete the unique values formatting rule.
+// Clear an unwanted unique-values rule so the range returns to its default appearance in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

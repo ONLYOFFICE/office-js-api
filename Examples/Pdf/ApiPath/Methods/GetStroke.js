@@ -1,5 +1,9 @@
-// Analyzes cloud shape path properties on a page.
-// Displays comprehensive path information in a text shape.
+// Check if a shape's outline is drawn and what its border looks like in a PDF.
+
+// Does a custom shape have a visible border in a PDF?
+
+// Read the outline settings of a shape to see its stroke properties in a PDF.
+
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 

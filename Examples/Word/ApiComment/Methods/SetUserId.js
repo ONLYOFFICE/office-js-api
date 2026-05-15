@@ -1,8 +1,8 @@
-// This example sets the user ID to the comment author.
+// Assign a user ID to the author of a comment in a document.
 
-// How to change an author's user ID of a comment.
+// How do I set the user ID for the author of a comment in a document?
 
-// Get all comments from the presentation and change its first one's user ID.
+// Link a comment to a specific user account by updating the stored author identifier.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

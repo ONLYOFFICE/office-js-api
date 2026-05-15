@@ -1,8 +1,8 @@
-// This example specifies an amount of space which will be left between the upper extent of the cell contents and the border of a specific table cell within a table.
+// Set the spacing between the cell content and the top edge of a table cell in a document.
 
-// How to add margin to the top of the cell.
+// How do I control the gap between text and the top border of a table cell in a document?
 
-// Create a 3x3 table and add the top cell margin.
+// Push cell content away from the top boundary of a table cell in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

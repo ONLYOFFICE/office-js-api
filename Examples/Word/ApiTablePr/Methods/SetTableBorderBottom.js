@@ -1,8 +1,8 @@
-// This example sets the border which will be displayed at the bottom of the table.
+// Apply a bottom border to a table in a document.
 
-// How to find out a style that will be applied to the table elements whish satisfy the condition.
+// How do I add a border along the bottom edge of a table in a document?
 
-// Retrieve a conditional table style.
+// Style the lower edge of a table with a visible border line in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example shows how to return an index of a complex numbers.
+// Get a value from a specific row and column in a table in a spreadsheet.
 
-// How to get an index of a complex numbers.
+// How do I retrieve a value at a specific position in a table in a spreadsheet?
 
-// Use a function to get the index.
+// Access a cell's value using row and column numbers in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

@@ -1,8 +1,8 @@
-// This example adds a line break to the current position and starts the next element from a new line.
+// Force text onto a new line without starting a new paragraph in a document.
 
-// How to split the text of the paragraph.
+// How do I break a line mid-paragraph so the next text begins on a fresh line in a document?
 
-// Add a line break to the text.
+// Keep two lines inside the same paragraph block while visually separating them with a hard line break in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

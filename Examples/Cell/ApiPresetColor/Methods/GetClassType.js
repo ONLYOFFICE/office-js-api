@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Read the object type identifier of a preset color in a spreadsheet.
 
-// How to get a class type of ApiPresetColor.
+// How do I find out what kind of color object a preset color is in a spreadsheet?
 
-// Get a class type of ApiPresetColor and display it in the worksheet.
+// Confirm the category of a preset color by reading its type label in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let presetColor = Api.CreatePresetColor("peachPuff");

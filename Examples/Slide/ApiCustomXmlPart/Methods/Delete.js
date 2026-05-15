@@ -1,8 +1,8 @@
-// This example demonstrates how to delete a custom XML part.
+// Delete a custom XML part in a presentation.
 
-// How to delete a custom XML part from the presentation.
+// Remove a custom XML part and show remaining parts in a presentation.
 
-// Delete an XML part.
+// Discard an XML part from the document in a presentation.
 
 let presentation = Api.GetPresentation();
 let xmlManager = presentation.GetCustomXmlParts();

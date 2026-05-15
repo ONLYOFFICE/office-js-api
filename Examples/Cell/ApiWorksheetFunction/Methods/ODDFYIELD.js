@@ -1,8 +1,8 @@
-// This example shows how to return the yield of a security with an odd first period.
+// Calculate the yield of a security with an irregular first payment period in a spreadsheet.
 
-// How to get the yield of a security.
+// How do I find the yield of a bond with an odd first period in a spreadsheet?
 
-// Use a function to return a security yield.
+// Determine the annual return rate of a security when the first coupon period is irregular in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

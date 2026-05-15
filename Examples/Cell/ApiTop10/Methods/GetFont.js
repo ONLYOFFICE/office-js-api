@@ -1,8 +1,8 @@
-// This example gets the font formatting for the top 10 conditional formatting rule.
+// Read the text style applied by a top 10 conditional formatting rule in a spreadsheet.
 
-// How to access font properties of conditional formatting rules.
+// How do I access the font settings of a top 10 conditional formatting rule in a spreadsheet?
 
-// Get top 10 rule font formatting.
+// Inspect bold, color, and other text properties that mark top values in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

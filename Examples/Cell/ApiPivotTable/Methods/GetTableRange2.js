@@ -1,8 +1,8 @@
-// Returns a Range object that represents the entire pivot table report, including page fields.
+// Select the full area of a pivot table, including filter fields, in a spreadsheet.
 
-// How to get a pivot table range with page fields.
+// How do I get a range that covers every part of a pivot table, filters included, in a spreadsheet?
 
-// Create the ApiPivotTable object, add data to it then get the ApiRange object for the entire pivot table report, including page fields.
+// Capture the complete footprint of a pivot table with its page-level filters in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

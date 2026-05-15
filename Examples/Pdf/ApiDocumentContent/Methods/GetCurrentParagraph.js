@@ -1,4 +1,8 @@
-// This example returns the current paragraph from the document content.
+// Access the paragraph that is currently active in a shape in a PDF.
+
+// How do I find the paragraph being edited in a PDF?
+
+// Retrieve the most recent paragraph that was added to a shape in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

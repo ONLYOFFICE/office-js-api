@@ -1,8 +1,8 @@
-// This example specifies that the current paragraph references a numbering definition instance in the current document.
+// Attach a numbering definition to a paragraph to make it part of a list in a document.
 
-// How to add numbering to the paragraph.
+// How do I apply a bullet or numbered list style to a paragraph in a document?
 
-// Make the paragraph bulleted.
+// Format a paragraph as a bulleted list item using a shared numbering definition.
 
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");

@@ -1,8 +1,8 @@
-// This example shows how to return the negative binomial distribution, the probability that there will be the specified number of failures before the last success, with the specified probability of a success.
+// Calculate the negative binomial distribution probability in a spreadsheet.
 
-// How to return the negative binomial distribution.
+// Find the likelihood of failures before success using distribution analysis in a spreadsheet.
 
-// Use a function to get the probability of the specified number of failures before the last success (negative binomial distribution).
+// Determine failure probability in repeated trials within a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

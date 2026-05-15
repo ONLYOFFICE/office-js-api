@@ -1,8 +1,8 @@
-// This example shows how to get an array with all the image objects from the slide layout.
+// Get all image objects from a slide layout as an array.
 
-// How to get all images from the layout of presentation.
+// Images in layouts can be retrieved and their class type determined.
 
-// Get all images from the presentation as an array.
+// Display the class type of the first image in the layout.
 
 const presentation = Api.GetPresentation();
 const master = presentation.GetMaster(0);

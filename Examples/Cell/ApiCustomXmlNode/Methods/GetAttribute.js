@@ -1,8 +1,8 @@
-// This example shows how to get an attribute value from a custom XML node.
+// Read a single named attribute from an XML node embedded in a spreadsheet.
 
-// How to get an attribute from an XML node.
+// How do I extract the value of a specific attribute from a custom XML element in a spreadsheet?
 
-// Get an XML node attribute.
+// Pull individual attribute values out of stored XML data and display them in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let xmlManager = worksheet.GetCustomXmlParts();

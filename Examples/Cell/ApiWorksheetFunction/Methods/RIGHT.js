@@ -1,8 +1,8 @@
-// This example shows how to the specified number of characters from the end of a text string.
+// Extract characters from the end of text in a spreadsheet.
 
-// How to get characters from the end of a string.
+// How do I get the last characters from a text string in a spreadsheet?
 
-// Use a function to return n characters from the right part of a text.
+// Retrieve a specific number of characters from the right side of a cell in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

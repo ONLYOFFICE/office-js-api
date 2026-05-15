@@ -1,4 +1,8 @@
-// This example shows how to get the text fill of the existing run.
+// Read the fill color applied to a text run in a document.
+
+// How do I copy the text fill from one run and apply it to another in a document?
+
+// Transfer the color fill setting between two text runs in a document.
 
 const doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

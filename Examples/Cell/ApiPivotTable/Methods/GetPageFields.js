@@ -1,8 +1,8 @@
-// This example shows how to get page fields of a pivot table.
+// List the fields placed in the report filter area of a pivot table in a spreadsheet.
 
-// How to get table page fields as an array of fields.
+// How do I see which fields act as page-level filters on a pivot table in a spreadsheet?
 
-// Create a pivot table, add data to it then get its page fields.
+// Retrieve every filter-area field from a pivot table and display their names in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

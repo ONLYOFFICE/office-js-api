@@ -1,8 +1,8 @@
-// This example adds an endnote cross-reference to the paragraph.
+// Insert a cross-reference to an endnote into a paragraph in a document.
 
-// How to create an endnote reference to the paragraph.
+// How do I reference an endnote from within paragraph text in a document?
 
-// Add a cross-reference to the endnote of the paragraph.
+// Link a paragraph to a specific endnote so readers can locate supplementary notes by page number in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0); 

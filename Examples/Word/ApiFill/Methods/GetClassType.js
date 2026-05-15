@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Read the class type of a fill object and display it in a document.
 
-// How get a class type of ApiFill.
+// How do I identify the class type of a fill in a document?
 
-// Retrieve class type of a created radial gradient fill and display it.
+// Distinguish a fill object from other object types by checking its class identifier in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

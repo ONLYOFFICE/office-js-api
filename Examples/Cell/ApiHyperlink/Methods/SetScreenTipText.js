@@ -1,4 +1,8 @@
-// This example shows how to set a tooltip for a hyperlink inside a shape.
+// Assign a tooltip message to a hyperlink in a spreadsheet.
+
+// How do I add a hover hint to a hyperlink in a spreadsheet?
+
+// Attach a short description that appears when a user points at the hyperlink in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

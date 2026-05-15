@@ -1,8 +1,8 @@
-// This example shows how to get the entire rows containing a range.
+// Select full rows that overlap with a given range in a spreadsheet.
 
-// How to select entire rows from a range.
+// How do I highlight all the rows that a range belongs to in a spreadsheet?
 
-// Get a range, get its entire rows and fill them with color.
+// Fill the complete rows of a range with a background color in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("C3:E5");

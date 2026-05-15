@@ -1,4 +1,4 @@
-// This example sets wrapping style "square" for drawing object.
+// Set wrapping style "square" for drawing object.
 
 // How to wrap a shape as square.
 

@@ -1,4 +1,9 @@
-// This example shows how to get the control data just as it would be filled in mapped xml
+// Extract the text value of an inline content control as it appears in XML mapping in a document.
+
+// How do I retrieve the XML-mapped data from an inline content control in a document?
+
+// Output the raw control value to verify what would be written to a bound XML store in a document.
+
 let doc = Api.GetDocument();
 let contentControl = Api.CreateInlineLvlSdt();
 contentControl.AddText("This is an inline content control.");

@@ -1,8 +1,8 @@
-// This example shows how to add a reply to the comment.
+// Write a response message to an existing comment in a presentation.
 
-// How to reply to the comment.
+// How do I add a reply to a comment in a presentation?
 
-// Get all comments from the presentation and reply to the first one.
+// Create a new reply thread beneath a comment in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// This example shows how to return the average of the absolute deviations of data points from their mean.
+// Calculate the arithmetic mean of a set of numbers in a spreadsheet.
 
-// How to get an average of the absolute deviations.
+// Find the average of several values in a spreadsheet.
 
-// Use function to get the average of the absolute deviations of data points from their mean.
+// Add up all numbers and divide by their count to get a central value in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

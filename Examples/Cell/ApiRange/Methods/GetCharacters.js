@@ -1,8 +1,8 @@
-// This example shows how to get the ApiCharacters object that represents a range of characters within the object text.
+// Select a substring of text inside a cell and format it separately in a spreadsheet.
 
-// How to get range characters.
+// How do I bold just a few characters within a cell's text in a spreadsheet?
 
-// Get the range characters, get their font object and set it to bold.
+// Extract a slice of text by position and apply bold formatting to those characters only.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B1");

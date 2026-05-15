@@ -1,8 +1,8 @@
-// This example shows how to crate a stroke.
+// Add an outline to a shape in a presentation.
 
-// How to add a stroke to the shape.
+// How do I draw a border around a shape in a presentation?
 
-// Add solid fill and stroke to the shape properties.
+// Create a stroke with a custom width and fill color for a shape in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

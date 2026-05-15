@@ -1,8 +1,8 @@
-// This example sets the fill formatting properties to the current graphic object.
+// Apply a radial gradient fill to a copied shape in a document.
 
-// How to color a drawing with a radiant fill.
+// How do I set a gradient fill on a drawing object in a document?
 
-// Change the background color of the shape.
+// Differentiate two identical shapes by filling the duplicate with a radial gradient while leaving the original solid.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

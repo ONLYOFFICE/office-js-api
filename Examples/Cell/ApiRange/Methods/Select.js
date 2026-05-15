@@ -1,8 +1,8 @@
-// This example selects the current range.
+// Select a cell range in a spreadsheet.
 
-// How to select a range.
+// How do I highlight a specific group of cells in a spreadsheet?
 
-// Select a range and get a selection from the worksheet.
+// Mark a range as the active selection so further actions apply to it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1:C1");

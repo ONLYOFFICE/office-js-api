@@ -1,8 +1,8 @@
-// This example adds icon set conditional formatting to a range.
+// Display small status icons inside cells to indicate whether values are low, medium, or high in a spreadsheet.
 
-// How to add icon set conditional formatting rules to display icons based on values.
+// How do I place visual symbols next to numbers to show their relative standing at a glance in a spreadsheet?
 
-// Add icon set conditional formatting to cells.
+// Represent data tiers with icons so readers can judge cell values without reading exact numbers in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

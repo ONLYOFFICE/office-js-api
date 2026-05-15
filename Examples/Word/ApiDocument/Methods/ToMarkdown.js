@@ -1,8 +1,8 @@
-// This example converts a document to Markdown.
+// Convert the document content to a Markdown string in a document.
 
-// How to get a markdown object from the document content.
+// How do I export a document with headings and paragraphs as Markdown in a document?
 
-// Convert the document to markdown.
+// Produce a Markdown representation of the document so the text can be used in version-controlled or plain-text workflows.
 
 let doc = Api.GetDocument();
 let paragraph1 = doc.GetElement(0);

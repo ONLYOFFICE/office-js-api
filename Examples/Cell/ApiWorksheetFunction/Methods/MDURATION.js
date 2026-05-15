@@ -1,8 +1,8 @@
-// This example shows how to return modified Macauley duration of a security with an assumed par value of $100.
+// Calculate the modified duration of a bond to measure its price sensitivity in a spreadsheet.
 
-// How to get a modified Macauley duration of a security.
+// How do I assess how a bond's price will change with interest rate shifts in a spreadsheet?
 
-// Use a function to get a result from modified Macauley duration.
+// Compute the weighted average time to receive a bond's cash flows in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

@@ -1,5 +1,9 @@
-// Creates a custom triangle geometry and applies it to a shape.
-// Uses basic path drawing commands: MoveTo, LineTo and Close.
+// Apply a fill setting to a custom shape's drawing path in a document.
+
+// How do I control whether the interior of a custom shape's path is filled in a document?
+
+// Enable or disable the fill on a path to change how the shape's interior appears in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let customGeometry = Api.CreateCustomGeometry();

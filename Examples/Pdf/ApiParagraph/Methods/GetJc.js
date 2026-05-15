@@ -1,8 +1,8 @@
-// This example shows how to get the paragraph contents justification.
+// Find out how text is aligned in a paragraph in a PDF.
 
-// How to get a justification type of a text.
+// How do I check the text alignment of a paragraph in a PDF?
 
-// Return a justification of a paragraph from the page.
+// Retrieve the alignment setting from a paragraph in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -15,7 +15,7 @@ const shape = Api.CreateShape("flowChartMagneticTape", 150 * 36000, 65 * 36000, 
 shape.SetPosition(608400, 1267200);
 page.AddObject(shape);
 
-const docContent = shape.GetDocContent();
+const docContent = shape.GetContent();
 let paragraph = docContent.GetElement(0);
 paragraph.AddText("This is a paragraph with the text in it aligned by the center. ");
 paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");

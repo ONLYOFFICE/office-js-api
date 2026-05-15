@@ -1,4 +1,8 @@
-// This example shows how to get the internal identifier of a paragraph inside a shape.
+// Retrieve the unique identifier assigned to a paragraph inside a shape in a spreadsheet.
+
+// How do I read the internal ID of a paragraph in a spreadsheet?
+
+// Confirm which paragraph is being referenced by checking its identifier in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const fill = Api.CreateSolidFill(Api.RGB(89, 130, 190));

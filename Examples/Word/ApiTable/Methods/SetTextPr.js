@@ -1,8 +1,8 @@
-// This example applies the text settings to the entire contents of the table.
+// Apply a shared text style to every cell across an entire table in a document.
 
-// How to create a text properties and apply it to the table.
+// How do I make all the text in a table bold and larger at once in a document?
 
-// Create a table and make its text bold and bigger.
+// Uniform the font formatting throughout a table without editing each cell separately in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

@@ -1,5 +1,9 @@
-// Creates a custom triangle geometry and applies it to a shape.
-// Uses basic path drawing commands: MoveTo, LineTo and Close.
+// Draw a straight line from the current position to a new point on a custom shape in a document.
+
+// How do I add a straight edge between two points on a custom shape's path in a document?
+
+// Build an angular outline by connecting corners with straight segments in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let customGeometry = Api.CreateCustomGeometry();

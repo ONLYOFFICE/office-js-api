@@ -1,8 +1,8 @@
-// This example shows how to set a subtotal name of a pivot field.
+// Assign a custom label to the subtotal row of a pivot table field in a spreadsheet.
 
-// How to change a pivot field subtotal name.
+// How do I rename the subtotal row of a pivot field to something more descriptive in a spreadsheet?
 
-// Create a pivot table, add data to it then set subtotal name of a specified pivot.
+// Replace the default subtotal heading with a meaningful title for clearer reporting in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

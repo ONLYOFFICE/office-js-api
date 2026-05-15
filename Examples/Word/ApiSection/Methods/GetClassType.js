@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Read the type label assigned to a section in a document.
 
-// How to get a class type of ApiSection.
+// How do I find out what kind of object a section is in a document?
 
-// Retrieve class type of ApiSection object and insert it to the document.
+// Confirm the category of a section by checking its type identifier in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,4 +1,8 @@
-// This example shows how to get the internal ID of a table row.
+// Read the unique identifier assigned to a table row in a document.
+
+// How do I obtain the built-in identifier that distinguishes one row from another in a document?
+
+// Capture the hidden ID of a table row for tracking or comparison purposes in a document.
 
 const doc = Api.GetDocument();
 const table = Api.CreateTable(3, 3);

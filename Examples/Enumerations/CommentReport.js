@@ -1,4 +1,4 @@
-// This example shows how to get a report on all comments.
+// Get a report on all comments.
 
 // How to return all comment reports.
 

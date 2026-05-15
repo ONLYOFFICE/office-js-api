@@ -1,8 +1,8 @@
-// This example specifies the chart legend position.
+// Position the chart legend at the bottom of the chart in a document.
 
-// How to set legend position of the chart.
+// How do I move the legend to a different side of the chart in a document?
 
-// Create a chart and move its legend to the bottom.
+// Relocate the legend below the chart to keep it from overlapping the data area in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

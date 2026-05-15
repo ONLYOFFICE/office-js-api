@@ -1,8 +1,8 @@
-// This example shows how to find the average (arithmetic mean) for the cells specified by a given set of conditions or criteria.
+// Average only the cells that satisfy multiple conditions at once in a spreadsheet.
 
-// How to find an average if list of conditions are met.
+// Calculate the mean of values matching several criteria simultaneously in a spreadsheet.
 
-// Use function to get an average (arithmetic mean) of the cells if the set of requirements is satisfied.
+// Apply more than one filter to a dataset and compute the mean of qualifying rows in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

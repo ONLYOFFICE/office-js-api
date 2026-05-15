@@ -1,6 +1,8 @@
-// How to set minor vertical gridlines of the chart.
+// Change the style of the minor vertical grid lines in a chart in a PDF.
 
-// Create a chart, set its properties and its minor gridlines.
+// How do I format the minor vertical grid lines in a chart in a PDF?
+
+// Add a custom border to the minor vertical reference lines in a chart in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

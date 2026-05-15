@@ -1,8 +1,8 @@
-// This example sets the end position of a given range object.
+// Adjust where a text range ends by setting its last character position in a document.
 
-// Get the end index of the range and display it.
+// How do I change the ending boundary of a selected text range in a document?
 
-// Retrieve a range of the paragraph and show its last position.
+// Shorten or extend a range by moving its closing edge to a new position in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

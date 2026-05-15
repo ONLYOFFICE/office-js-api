@@ -1,4 +1,9 @@
-// How to create a new rich paragraph and add it to rich content
+// Add a formatted text paragraph to a PDF annotation.
+
+// How do I insert multiple paragraphs with different formatting in a PDF?
+
+// Create a new paragraph and add it to a rich text annotation in a PDF.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

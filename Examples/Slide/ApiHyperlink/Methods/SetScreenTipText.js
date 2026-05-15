@@ -1,4 +1,8 @@
-// This example sets the screen tip text of the hyperlink.
+// Set the screen tip text of a hyperlink in a presentation.
+
+// How do I assign tooltip text to a hyperlink in a presentation?
+
+// Configure the screen tip text and verify the result in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

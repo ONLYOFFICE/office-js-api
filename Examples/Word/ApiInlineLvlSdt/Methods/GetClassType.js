@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Identify the class type of an inline content control in a document.
 
-// How to get a class type of ApiInlineLvlSdt.
+// How do I get the class type of an inline content control in a document?
 
-// Retrieve class type of ApiInlineLvlSdt object and insert it to the document.
+// Verify the object type at runtime to distinguish content controls from other elements in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example specifies the shading which shall be applied to the extents of the table.
+// Apply shading color to a table in a presentation.
 
-// How to add a shading to the table background.
+// Set the background shading for the entire table.
 
-// Create a table, set its shading color and add it to the slide.
+// Create a table, apply a shading color, and add it to the slide.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

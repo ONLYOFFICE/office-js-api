@@ -1,8 +1,8 @@
-// This example sets the bold property to the text character.
+// Apply bold formatting to a text run inside a shape in a spreadsheet.
 
-// How to make text bold.
+// How do I make text appear bold in a spreadsheet?
 
-// Set bold property of a text.
+// Strengthen the visual weight of text by enabling the bold style in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

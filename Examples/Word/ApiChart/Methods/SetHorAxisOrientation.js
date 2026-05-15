@@ -1,8 +1,8 @@
-// This example specifies the horizontal axis orientation.
+// Reverse the direction of the horizontal axis on a chart in a document.
 
-// How to change an axis orientation.
+// How do I flip the horizontal axis so values run right to left in a document?
 
-// Create a chart and set its horizontal axis orientation.
+// Mirror the axis order to match a layout where the newest data should appear on the left in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,5 +1,9 @@
-// Extracts control points from a cubic bezier curve in a presentation.
-// Displays all control point coordinates in a text shape.
+// Get the Y coordinate of the second control point from a curve in a presentation.
+
+// How do I access the Y coordinate of a control point in a shape path in a presentation?
+
+// Extract and display all control points from a curved shape in a presentation.
+
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);
 let customGeometry = Api.CreateCustomGeometry();

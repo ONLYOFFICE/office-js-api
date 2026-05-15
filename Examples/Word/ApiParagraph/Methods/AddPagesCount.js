@@ -1,8 +1,8 @@
-// This example inserts a number of pages in the current document into the paragraph.
+// Insert a total page count field into a paragraph in a document.
 
-// How to add the number of pages to the text.
+// How do I show the total number of pages inside a header or footer paragraph in a document?
 
-// Insert a pages count to the pxaragraph.
+// Combine a page-number field with a page-count field to produce a "Page X of Y" indicator in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

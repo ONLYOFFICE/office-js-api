@@ -1,8 +1,8 @@
-// This example shows how to get a shape in which the form is placed to control the position and size of the fixed size form frame.
+// Access the wrapper shape that controls the position and size of a date form in a document.
 
-// Get wrapper shape of the date form.
+// How do I get the shape that wraps a fixed-size date form in a document?
 
-// Set outline to the shape which contains the current form.
+// Apply a colored border to the wrapper shape to visually highlight the form's frame.
 
 let doc = Api.GetDocument();
 let dateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});

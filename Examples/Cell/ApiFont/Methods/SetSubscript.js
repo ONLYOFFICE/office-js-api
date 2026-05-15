@@ -1,8 +1,8 @@
-// This example sets the subscript property to the specified font.
+// Lower selected text characters below the baseline as subscript in a spreadsheet.
 
-// How to change a regular text to a subscript.
+// How do I format part of the text as subscript in a spreadsheet?
 
-// Get a font object of characters and make it subscript.
+// Shift a run of characters downward to create subscript notation in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const range = worksheet.GetRange("B1");

@@ -1,8 +1,8 @@
-// This example adds the new columns to the table.
+// Add extra columns to an existing table in a document.
 
-// How to insert columns to the table.
+// How do I insert additional columns into a table in a document?
 
-// Get a table cell and insert two new columns after it.
+// Expand a table sideways by placing new columns at a chosen position in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

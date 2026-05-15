@@ -1,8 +1,8 @@
-// This example sets the value hiding property.
+// Hide rows so their contents are not visible in a spreadsheet.
 
-// How to hide cells from a range.
+// How do I make certain rows disappear from view in a spreadsheet?
 
-// Get a range and make specified cells invisible.
+// Keep data in place but prevent specific rows from showing in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRows("1:3");

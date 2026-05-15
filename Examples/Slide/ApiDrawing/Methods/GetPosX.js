@@ -1,4 +1,8 @@
-// This example gets the x position of the drawing on the slide.
+// Get the horizontal position of a shape in a presentation.
+
+// How do I find the left edge coordinate of an object in a presentation?
+
+// Read and display the X position of a shape in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

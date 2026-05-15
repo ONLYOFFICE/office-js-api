@@ -1,4 +1,8 @@
-// This example shows how to set the vertical flip for a drawing.
+// Flip a drawing vertically in a document.
+
+// How do I invert a shape upside down in a document?
+
+// Place an original arrow and its vertically mirrored copy side by side in a document.
 
 const doc = Api.GetDocument();
 const paragraph = doc.GetElement(0);

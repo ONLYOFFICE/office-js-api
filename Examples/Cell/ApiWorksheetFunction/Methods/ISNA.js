@@ -1,8 +1,8 @@
-// This example shows how to check whether a value is N/A, and returns true or false. 
+// Identify whether a cell displays an N/A error in a spreadsheet.
 
-// How to check if the cell contains N/A value.
+// How do I check if a cell contains the N/A error in a spreadsheet?
 
-// Use a function to check whether a range data is an N/A value.
+// Use a function to find cells with N/A errors and handle them appropriately in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

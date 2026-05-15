@@ -1,4 +1,8 @@
-// This example demonstrates how to get the value of a custom property by its name.
+// Read the value of a named custom property from a spreadsheet.
+
+// How do I look up a specific custom metadata field by name in a spreadsheet?
+
+// Retrieve stored custom data and handle missing fields gracefully in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const customProps = Api.GetCustomProperties();

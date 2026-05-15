@@ -1,5 +1,9 @@
-// Gets geometry information from a preset star shape.
-// Displays the preset type and checks if the geometry is custom.
+// Read the preset type name from a shape's geometry in a document.
+
+// How do I get the preset identifier of a shape's geometry in a document?
+
+// Identify which built-in shape template a geometry is based on before applying further changes in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.RGB(255, 200, 100));

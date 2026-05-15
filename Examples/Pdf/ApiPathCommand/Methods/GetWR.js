@@ -1,5 +1,9 @@
-// Analyzes arc command parameters in a page shape.
-// Retrieves and displays arc radii and angle information.
+// Extract the width radius value from an arc path command in a PDF.
+
+// How can I get the width radius of an arc in a PDF?
+
+// Retrieve the arc's horizontal radius measurement in a PDF.
+
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 

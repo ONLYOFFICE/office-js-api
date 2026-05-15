@@ -1,8 +1,8 @@
-// This example shows how to get the next inline drawing object if exists.
+// Get the next inline drawing object following a shape in a document.
 
-// How to set horizontal flip for the next drawing.
+// How do I access the drawing that comes after a given shape in a document?
 
-// Get the next drawing and update its properties.
+// Traverse sibling drawings and modify the properties of the following shape in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example sets an alias attribute to the container.
+// Give a content control a custom alias name in a document.
 
-// Creates a block content control and sets an alias to it.
+// How do I assign an alias to a content control in a document?
 
-// How to set an alias to the ApiBlockLvlSdt object.
+// Label a content control with a short name so it can be identified by title in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

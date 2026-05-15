@@ -1,8 +1,8 @@
-// This example sets the screen tip text of the hyperlink.
+// Set the tooltip text that appears when hovering over a hyperlink in a document.
 
-// How to specify the hyperlink screen tip text.
+// How do I add a screen tip to a hyperlink in a document?
 
-// Set the screen tip text of the link.
+// Provide a descriptive hover message for a link to guide readers in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

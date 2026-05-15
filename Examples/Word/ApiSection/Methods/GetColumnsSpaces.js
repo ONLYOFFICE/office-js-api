@@ -1,4 +1,9 @@
-// This example specifies that all the columns in the current section have the different widths.
+// Read the gap sizes between columns in a section in a document.
+
+// How do I find out the spacing between each column in a document?
+
+// Retrieve the distances separating adjacent columns from a multi-column layout in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let section = doc.GetFinalSection();

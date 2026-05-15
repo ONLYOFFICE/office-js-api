@@ -1,8 +1,8 @@
-// This example sets the paragraph left side indentation.
+// Set left indentation for a paragraph in a presentation.
 
-// How to set paragraph's left side indentation size.
+// How do I indent the left side of a paragraph in a presentation?
 
-// Resize the left side indentation of a text from a paragraph.
+// Apply a specific left margin distance to paragraph text in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

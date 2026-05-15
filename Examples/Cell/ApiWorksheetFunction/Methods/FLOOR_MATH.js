@@ -1,8 +1,8 @@
-// This example shows how to round a number down, to the nearest integer or to the nearest multiple of significance.
+// Round a number down to the nearest integer or multiple in a spreadsheet.
 
-// How to round a number down to the nearest integer.
+// How do I round down a negative or positive number in a spreadsheet?
 
-// Use function to round down a number with specified decimal points.
+// Decrease a number to the nearest whole number or custom increment in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

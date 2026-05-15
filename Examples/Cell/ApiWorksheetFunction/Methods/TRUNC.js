@@ -1,8 +1,8 @@
-// This example shows how to truncate a number to an integer by removing the decimal, or fractional, part of the number.
+// Remove decimal places from a number without rounding in a spreadsheet.
 
-// How to truncate a number to an integer.
+// How do I truncate a number to a specific number of decimal places in a spreadsheet?
 
-// Use a function to truncate a number.
+// Cut off the decimal portion of a number in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

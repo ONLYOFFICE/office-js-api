@@ -1,5 +1,9 @@
-// Retrieves geometry information from a star shape in a spreadsheet.
-// Displays preset type and custom status in cells.
+// Check whether a shape uses a hand-drawn outline rather than a built-in template in a spreadsheet.
+
+// How do I tell if a shape's geometry was defined manually instead of chosen from a preset list in a spreadsheet?
+
+// Verify that a shape carries a fully custom outline rather than one of the standard shapes in a spreadsheet.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 200, 100));
 let stroke = Api.CreateStroke(36000, Api.CreateSolidFill(Api.RGB(200, 100, 0)));

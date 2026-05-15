@@ -1,4 +1,8 @@
-// This example shows how to get the background color of the block-level container.
+// Read the background color of a content control in a document.
+
+// How do I get the background color set on a content control in a document?
+
+// Check what background color a content control has and display its hex value in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

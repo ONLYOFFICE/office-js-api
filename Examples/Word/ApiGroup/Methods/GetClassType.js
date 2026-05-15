@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Read the class type identifier of a grouped drawing in a document.
 
-// How to get a class type of ApiGroup.
+// How do I retrieve the class type of a group object in a document?
 
-// Retrieve class type of ApiGroup object and insert it to the document.
+// Confirm that grouped shapes return the expected type label when inspected in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

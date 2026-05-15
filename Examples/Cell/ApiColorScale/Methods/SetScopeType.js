@@ -1,8 +1,8 @@
-// This example sets the scope type of color scale formatting rule.
+// Define how broadly a color gradient rule is applied across the selected cells in a spreadsheet.
 
-// How to change the scope type of color scale conditional formatting.
+// How do I control whether a color scale rule covers each cell independently or the entire range together in a spreadsheet?
 
-// Set color scale scope type.
+// Adjust the coverage mode of a color gradient condition to change which cells it treats as a group in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

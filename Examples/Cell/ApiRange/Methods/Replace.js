@@ -1,8 +1,8 @@
-// This example replaces specific information to another one in a range.
+// Swap out an old value for a new one across a range of cells in a spreadsheet.
 
-// How to replace one data value with another in a range.
+// How do I find and replace a specific value throughout a range in a spreadsheet?
 
-// Create a range and replace its data field value with a new one.
+// Update multiple cells at once by substituting a target value wherever it appears in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

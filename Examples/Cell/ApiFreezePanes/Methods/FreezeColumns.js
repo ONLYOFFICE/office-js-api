@@ -1,8 +1,8 @@
-// This example freezes the the first column.
+// Lock one or more leftmost columns so they remain visible while scrolling right in a spreadsheet.
 
-// How to freeze columns using their indices.
+// How do I stop columns from moving out of view when scrolling horizontally in a spreadsheet?
 
-// Get freeze panes and freeze a column using its index.
+// Pin the leading columns in place to keep key labels visible at all times in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let freezePanes = worksheet.GetFreezePanes();

@@ -1,4 +1,8 @@
-// This example demonstrates how to set the identifier of the current document using the ApiCore.
+// Assign a unique identifier to the document through its core properties in a document.
+
+// How do I store a custom ID string in a document's metadata in a document?
+
+// Link a document to an external system by embedding its tracking ID in the built-in properties in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

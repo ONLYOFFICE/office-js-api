@@ -1,8 +1,8 @@
-// This example shows how to get an orientation of a pivot field.
+// Read the orientation of a pivot field — whether it is placed in rows, columns, or another area in a spreadsheet.
 
-// How to get a pivot field orientation.
+// How do I find out where a pivot field is positioned in a pivot table layout in a spreadsheet?
 
-// Create a pivot table, add data to it then get an orientation of a specified pivot field.
+// Check the area assignment of a pivot field to understand how it contributes to the table structure.
 
 let worksheet = Api.GetActiveSheet();
 

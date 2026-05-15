@@ -1,8 +1,8 @@
-// This example demonstrates getting the font formatting from a unique values conditional formatting rule.
+// Access the font settings defined by a unique-values conditional formatting rule in a spreadsheet.
 
-// How to retrieve font settings from unique values conditional formatting.
+// How do I retrieve and modify the text style applied by a unique-values rule in a spreadsheet?
 
-// Get the font object from the unique values rule.
+// Adjust the font appearance of cells highlighted by a unique-values rule in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

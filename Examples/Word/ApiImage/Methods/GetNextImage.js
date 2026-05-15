@@ -1,8 +1,8 @@
-// This example shows how to get the next inline image if exists.
+// Get the next image after a given image and copy it into a paragraph in a document.
 
-// How to add the next drawing to the paragraph.
+// How do I access the image that follows another image in a document?
 
-// Get the next drawing and add it separated with a line break.
+// Copy a sibling image by navigating forward through inline images in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

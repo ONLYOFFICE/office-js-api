@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Identify the internal category of a fill to understand what kind of object it is in a spreadsheet.
 
-// How to get a class type of ApiFill.
+// How do I check what category a fill object belongs to in a spreadsheet?
 
-// Get a class type of ApiFill and display it in the worksheet.
+// Confirm the class a fill belongs to by reading its type label and displaying it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let gradientStop1 = Api.CreateGradientStop(Api.RGB(255, 213, 191), 0);

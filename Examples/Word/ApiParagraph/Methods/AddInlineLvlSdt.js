@@ -1,8 +1,8 @@
-// This example adds an inline container to the paragraph.
+// Insert an inline content control into a paragraph in a document.
 
-// How to create an inline content control and add it to the paragraph.
+// How do I place a structured text field inside a paragraph in a document?
 
-// Add an inline text element to the paragraph.
+// Wrap a run of text in a bounded inline control so it can be managed or restricted separately within the paragraph in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

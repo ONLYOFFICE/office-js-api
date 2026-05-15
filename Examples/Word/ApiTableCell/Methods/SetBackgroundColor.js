@@ -1,13 +1,13 @@
-// This example sets the background color to the table cell.
+// Apply a background color to a table cell in a document.
 
-// How to color the cell.
+// How do I fill a table cell with a specific color in a document?
 
-// Get the first cell from the table and set its background color.
+// Give a cell a colored background to highlight it visually in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
-let table = Api.CreateTable(4, 2);
+let table = Api.CreateTable(2, 2);
 table.SetWidth("percent", 100);
 table.SetStyle(tableStyle);
 let cell = table.GetRow(0).GetCell(0);

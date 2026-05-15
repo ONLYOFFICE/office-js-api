@@ -1,8 +1,8 @@
-// This example shows how to get the paragraph line spacing value.
+// Read the numeric line spacing value of a paragraph inside a shape in a spreadsheet.
 
-// How to get the spacing line value between sentences of a paragraph.
+// How do I check the exact line height set for a paragraph in a spreadsheet?
 
-// Create a paragraph, set the spacing line between the sentences and retrieve the value.
+// Confirm the line spacing amount after applying a custom multiplier to a paragraph in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

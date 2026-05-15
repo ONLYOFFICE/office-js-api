@@ -1,8 +1,8 @@
-// This example sets the border which will be displayed at the top of the table cell.
+// Add a border to the top side of a table cell in a document.
 
-// How to add border to the top of the cell.
+// How do I apply a border to the top edge of a table cell in a document?
 
-// Create a 3x3 table and add the top 4 point black border to cell #1.
+// Style a table cell with a visible top-side border in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

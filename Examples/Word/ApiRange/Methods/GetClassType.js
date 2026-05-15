@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Identify the type of a selected region of text in a document.
 
-// How to get a class type of ApiRange.
+// How do I check what kind of object a text selection is in a document?
 
-// Retrieve class type of ApiRange object and insert it to the document.
+// Confirm the category of a highlighted portion before applying further changes in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

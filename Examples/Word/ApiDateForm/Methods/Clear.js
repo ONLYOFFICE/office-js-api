@@ -1,8 +1,8 @@
-// This example clears the form.
+// Clear the selected date from a date form field in a document.
 
-// How to remove selected date from the date form.
+// How do I reset a date form to its empty state in a document?
 
-// Clear answer from the date form.
+// Remove a previously set date value so the form field appears blank again in a document.
 
 let doc = Api.GetDocument();
 let dateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});

@@ -1,4 +1,8 @@
-// This example demonstrates how to set and get the description of the current presentation using the ApiCore.
+// Set and retrieve the summary text in a presentation.
+
+// How do I access the description of a presentation?
+
+// Read the descriptive text associated with a presentation in a presentation.
 
 const presentation = Api.GetPresentation();
 const core = presentation.GetCore();

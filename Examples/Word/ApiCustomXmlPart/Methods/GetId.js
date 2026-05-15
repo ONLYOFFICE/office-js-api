@@ -1,4 +1,9 @@
-// This example shows how to retrieve the ID of a custom XML part.
+// Read the unique identifier of a custom XML part in a document.
+
+// How do I get the ID assigned to a custom XML part in a document?
+
+// Store or reference a custom XML part by its ID for later lookup in a document.
+
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
 let xml = xmlManager.Add("<content xmlns='http://example'></content>");

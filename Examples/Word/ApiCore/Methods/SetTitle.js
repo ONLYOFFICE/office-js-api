@@ -1,4 +1,8 @@
-// This example demonstrates how to set the title of the current document.
+// Set the title in the core properties of a document in a document.
+
+// How do I give a document a formal title in its metadata?
+
+// Name a document for easier identification in file managers and document management systems in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

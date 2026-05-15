@@ -1,5 +1,9 @@
-// Creates a complex curve shape using different bezier and arc commands.
-// Combines multiple curve types in a single path.
+// Draw an arc segment as part of a custom shape path in a spreadsheet.
+
+// How do I add a curved arc to a custom shape outline in a spreadsheet?
+
+// Extend a shape's path with a sweeping arc to round off corners or form circular sections in a spreadsheet.
+
 let worksheet = Api.GetActiveSheet();
 let customGeometry = Api.CreateCustomGeometry();
 let path = customGeometry.AddPath();

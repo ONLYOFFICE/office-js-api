@@ -1,8 +1,8 @@
-// This example sets the application ID to the current OLE object.
+// Assign an application identifier to an embedded object in a presentation.
 
-// Set an application ID for an OLE object.
+// How do I set the application ID for an embedded object in a presentation?
 
-// Create an OLE object and set its application ID.
+// Configure which application should handle an embedded object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

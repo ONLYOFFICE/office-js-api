@@ -1,8 +1,8 @@
-// This example shows how to create a blip fill to apply to the object using the selected image as the object background.
+// Fill a shape with an image in a presentation.
 
-// How to set an image as a background.
+// How do I set an image as the background of a shape in a presentation?
 
-// Use blip fill to fill a background with an image.
+// Apply an image to a shape's background using a tiled fill pattern in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

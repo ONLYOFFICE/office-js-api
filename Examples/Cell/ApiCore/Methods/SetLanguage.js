@@ -1,4 +1,8 @@
-// This example demonstrates how to set the language of the workbook using the ApiCore.
+// Record the primary language of a workbook in its document properties in a spreadsheet.
+
+// How do I specify the language used in a workbook's metadata in a spreadsheet?
+
+// Mark the workbook with a locale code so readers know which language it targets in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

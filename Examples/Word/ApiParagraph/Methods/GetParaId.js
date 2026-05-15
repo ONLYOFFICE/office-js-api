@@ -1,4 +1,8 @@
-// This example shows how to get the paragraph ID.
+// Retrieve the unique identifier assigned to a paragraph in a document.
+
+// How do I read the ID of a paragraph in a document?
+
+// Identify each paragraph by its numeric ID to distinguish them in a document.
 
 const doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

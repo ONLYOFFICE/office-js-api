@@ -1,8 +1,8 @@
-// This example sets the paragraph contents justification.
+// Control the horizontal alignment of paragraph text in a document.
 
-// How to set justification of the paragraph content.
+// How do I apply left, right, center, or justified alignment to paragraphs in a document?
 
-// Change the justification of the paragraph.
+// Demonstrate multiple alignment styles side by side to choose the right layout for content.
 
 let doc = Api.GetDocument();
 let myStyleLeft = doc.CreateStyle("My style with left text alignment");

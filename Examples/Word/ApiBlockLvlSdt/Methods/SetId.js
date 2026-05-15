@@ -1,4 +1,9 @@
-// This example shows how to set the ID of the container.
+// Assign a unique identifier to a content control in a document.
+
+// How do I give a content control a specific ID in a document?
+
+// Label a content control with a custom ID and verify it was applied in a document.
+
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();
 blockLvlSdt.SetId("4815162342");

@@ -1,8 +1,8 @@
-// This example gets a text bold using its property.
+// Check whether text is formatted as bold in a spreadsheet.
 
-// How to find out whether a text is bold or not.
+// How do I find out if text is bold in a spreadsheet?
 
-// Get a text bold property.
+// Read the bold setting from a text style and display the result in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

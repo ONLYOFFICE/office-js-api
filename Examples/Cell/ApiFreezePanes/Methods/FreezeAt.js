@@ -1,8 +1,8 @@
-// This example freezes the specified range in top-and-left-most pane of the worksheet.
+// Lock a specific area of the sheet so it stays visible while scrolling in a spreadsheet.
 
-// How to freeze a specified range of panes.
+// How do I pin a chosen block of rows and columns in place during scrolling in a spreadsheet?
 
-// Get freeze panes and freeze the specified part.
+// Keep a defined region always on screen by anchoring it to the corner of the view in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let freezePanes = worksheet.GetFreezePanes();

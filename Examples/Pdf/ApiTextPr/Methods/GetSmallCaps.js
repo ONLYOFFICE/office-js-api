@@ -1,8 +1,8 @@
-// This example shows how to find out whether a text is uncapitalized.
+// Check if text is displayed in small capitals in a PDF.
 
-// How to know whether the text letters are lowercase or not.
+// How do I determine if text has small capital formatting in a PDF?
 
-// Get the text properties of the run and find whether it is uncapitalized or not.
+// Retrieve and verify the small capitals setting applied to text in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -12,7 +12,7 @@ const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = Api.CreateShape("flowChartMagneticTape", 150 * 36000, 65 * 36000, fill, stroke);
 shape.SetPosition(608400, 1267200);
 
-const docContent = shape.GetDocContent();
+const docContent = shape.GetContent();
 let paragraph = docContent.GetElement(0);
 const run = Api.CreateRun();
 run.AddText("This is just a sample text. ");

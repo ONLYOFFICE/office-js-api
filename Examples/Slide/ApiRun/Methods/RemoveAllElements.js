@@ -1,8 +1,8 @@
-// This example removes all the elements from the run.
+// Remove all elements from a text run in a presentation.
 
-// How to remove all elements from the text run object.
+// Delete content stored in a text run in a presentation?
 
-// Delete text from the slide.
+// Clear a text run before adding new text in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

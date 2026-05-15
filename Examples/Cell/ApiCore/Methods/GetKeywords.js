@@ -1,4 +1,8 @@
-// This example demonstrates how to get the string of keywords of the current workbook using the ApiCore.
+// Read the keywords stored in the workbook properties in a spreadsheet.
+
+// How do I find the search keywords associated with a workbook in a spreadsheet?
+
+// Extract and display the tag words saved with the workbook in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

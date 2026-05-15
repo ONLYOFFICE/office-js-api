@@ -1,8 +1,8 @@
-// This example gets the first series of ApiChart class and inserts its type into the document.
+// Read the type of a specific data series from a chart in a document.
 
-// How to get first series from the chart and show its type in the document.
+// How do I find out what chart type a particular series uses in a document?
 
-// Display first chart series type in the document.
+// Verify the series type when a chart mixes different visualization styles in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

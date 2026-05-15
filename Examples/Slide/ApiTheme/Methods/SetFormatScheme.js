@@ -1,8 +1,8 @@
-// This example sets the format scheme to the current presentation theme.
+// Apply a new format scheme to a presentation's theme.
 
-// How to get a theme and set a new format scheme.
+// How do I change the formatting styles used throughout a presentation?
 
-// Create a new format scheme and apply it to the slide theme.
+// Create a custom format scheme and assign it to the theme in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

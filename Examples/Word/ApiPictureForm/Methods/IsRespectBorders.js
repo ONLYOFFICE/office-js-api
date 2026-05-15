@@ -1,8 +1,8 @@
-// This example checks if the form border width is respected or not.
+// Check whether a picture form keeps the image within its border boundaries in a document.
 
-// How to find out whether the borders of the image are respected.
+// How do I find out if a picture form prevents the image from overlapping its borders in a document?
 
-// Find out whether the borders of the picture form in this document are respected when scaling the image.
+// Verify that the image inside a picture form stays within its frame when scaled in a document.
 
 let doc = Api.GetDocument();
 let pictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "shiftX": 50, "shiftY": 50});

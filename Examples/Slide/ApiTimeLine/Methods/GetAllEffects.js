@@ -1,4 +1,8 @@
-// This example gets all animation effects from a timeline.
+// Retrieve all animation effects on a slide in a presentation.
+
+// How do I access the list of all animations on a slide in a presentation?
+
+// Collect every animation effect that has been added to a presentation slide.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,4 +1,9 @@
-// This example shows how to get the color of role.
+// Retrieve the color assigned to a role in a document.
+
+// How do I find out what color a role uses in a document?
+
+// Check the color value for a specific role in a document.
+
 let doc = Api.GetDocument();
 let roles = doc.GetFormRoles();
 roles.Add("Customer");

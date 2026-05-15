@@ -1,5 +1,9 @@
-// Creates a complex curve using cubic bezier, quadratic bezier and arc commands.
-// Demonstrates different types of curve drawing methods.
+// Draw an arc segment along a custom shape path to create curved geometry in a document.
+
+// How do I add a curved arc portion to a shape's outline path in a document?
+
+// Extend a shape's boundary with a smooth elliptical arc connecting two points in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let customGeometry = Api.CreateCustomGeometry();

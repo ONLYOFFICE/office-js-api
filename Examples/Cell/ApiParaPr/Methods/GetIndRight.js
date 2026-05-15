@@ -1,8 +1,8 @@
-// This example shows how to get the paragraph right side indentation.
+// Read the right-side indent distance applied to a paragraph in a spreadsheet.
 
-// How to get a right indent of a paragraph.
+// How do I check how far a paragraph is pushed in from the right margin in a spreadsheet?
 
-// Get the right paragraph indent by the side.
+// Inspect the right margin offset of a paragraph to verify its horizontal boundary in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

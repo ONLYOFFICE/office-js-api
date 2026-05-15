@@ -1,8 +1,8 @@
-// This example sets the text value for a text-based conditional formatting rule.
+// Update the word or phrase that triggers a text-based formatting rule in a spreadsheet.
 
-// How to change text values in text-based conditional formatting rules.
+// How do I change which text a conditional highlight rule looks for in a spreadsheet?
 
-// Set conditional formatting rule text value.
+// Replace the search string in a rule so different cell content gets highlighted in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

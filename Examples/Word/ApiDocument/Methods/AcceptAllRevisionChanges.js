@@ -1,8 +1,8 @@
-// This example accepts all changes made in review mode.
+// Accept all tracked revision changes in a document.
 
-// How to apply all changes and fixes after review.
+// How do I accept all pending revision changes at once in a document?
 
-// Change the status of the document to the review mode and apply all changes.
+// Finalize a reviewed document by approving every tracked edit in a document.
 
 let doc = Api.GetDocument();
 let paragraph1 = doc.GetElement(0);

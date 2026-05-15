@@ -1,8 +1,8 @@
-// This example shows how to return the complementary error function integrated between the specified lower limit and infinity.
+// Calculate the complementary error function for a specified value in a spreadsheet.
 
-// How to get the complementary error function (from lower limit and infinity).
+// How do I compute the complementary error function in a spreadsheet?
 
-// Use function to get a complementary error function set between the specified lower limit and infinity.
+// Evaluate the complement of the error function from a value to infinity in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

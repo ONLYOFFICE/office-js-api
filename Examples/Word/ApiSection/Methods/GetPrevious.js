@@ -1,8 +1,8 @@
-// This example shows how to get the previous section.
+// Access the section that comes before the current one in a document.
 
-// How to get prevoius section from the current one.
+// How do I retrieve the section preceding the one I am working with in a document?
 
-// Update the margins of the next section.
+// Navigate backward through sections to reach an earlier part of a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

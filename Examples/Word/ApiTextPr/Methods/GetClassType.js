@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the document.
+// Read the type name of a text properties object in a document.
 
-// How to get a class type of ApiTextPr.
+// How do I find out what kind of object holds the text formatting settings in a document?
 
-// Retrieve class type of ApiTextPr object and insert it to the document.
+// Identify the category of a text properties object to confirm its type in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

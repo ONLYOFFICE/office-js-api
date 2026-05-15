@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Identify the type name of a text content object attached to a shape in a spreadsheet.
 
-// How to get a class type of ApiDocumentContent.
+// How do I find out what kind of content object a shape's text area returns in a spreadsheet?
 
-// Get a class type of ApiDocumentContent and display it in the worksheet.
+// Confirm the content category of a shape by reading its type label in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

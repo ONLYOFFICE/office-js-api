@@ -1,7 +1,9 @@
-// Gets the dash type of a stroke.
-// Creates a shape with a solid border and displays its dash type.
-// Returns string value: "dash", "dashDot", "dot", "lgDash", "lgDashDot",
-// "lgDashDotDot", "solid", "sysDash", "sysDashDot", "sysDashDotDot", "sysDot"
+// Determine the line pattern of a border in a presentation.
+
+// How do I find out if a border line is solid or dashed in a presentation?
+
+// Retrieve the line pattern style from a stroke and check its settings in a presentation.
+
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 200, 100));

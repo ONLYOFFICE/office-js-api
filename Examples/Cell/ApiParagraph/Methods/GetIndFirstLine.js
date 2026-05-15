@@ -1,8 +1,8 @@
-// This example shows how to get the paragraph first line indentation.
+// Read the first-line indent value set on a paragraph in a spreadsheet.
 
-// How to get first line indent of a paragraph.
+// How do I find out how far the first line of a paragraph is pushed in in a spreadsheet?
 
-// Get paragraph lines using the indent order.
+// Apply a first-line indent to a paragraph and then retrieve the measured value in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

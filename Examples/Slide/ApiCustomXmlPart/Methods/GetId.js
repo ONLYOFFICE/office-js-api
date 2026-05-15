@@ -1,8 +1,8 @@
-// This example shows how to get the ID of a custom XML part.
+// Get the ID of a custom XML part in a presentation.
 
-// How to get the ID of an XML part.
+// Retrieve the unique identifier for a custom XML part in a presentation.
 
-// Get an XML part ID.
+// Access the ID value of a custom XML part in a presentation.
 
 let presentation = Api.GetPresentation();
 let xmlManager = presentation.GetCustomXmlParts();

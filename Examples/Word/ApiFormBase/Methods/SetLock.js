@@ -1,8 +1,8 @@
-// This example specifies if the current form should be locked.
+// Lock a form field to prevent editing in a document.
 
-// How to lock a form.
+// How do I lock a form field so it cannot be changed in a document?
 
-// Make sure that the form cannot be edited.
+// Protect specific fields from modification while keeping others editable.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});

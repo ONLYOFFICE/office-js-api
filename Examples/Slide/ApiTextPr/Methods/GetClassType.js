@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the presentation.
+// Retrieve the class type of a text properties object.
 
-// How to get a class type of ApiTextPr.
+// Create a shape with a text run and get its text properties.
 
-// Retrieve class type of ApiTextPr object and insert it to the slide.
+// Display the class type identifier in the slide.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

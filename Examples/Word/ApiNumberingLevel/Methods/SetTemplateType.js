@@ -1,8 +1,8 @@
-// This example sets one of the existing predefined numbering templates.
+// Apply a predefined numbering template to a list level in a document.
 
-// How to set template type of the numbering.
+// How do I switch a list to use an alphabetic "A., B., C." numbering template in a document?
 
-// Set "A." template to the numbering.
+// Choose from built-in list styles to quickly format a numbered list without defining a custom type in a document.
 
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("numbered");

@@ -1,8 +1,8 @@
-// This example gets a text italic property.
+// Check whether text is formatted as italic in a spreadsheet.
 
-// How to find out whether a text is italic or not.
+// How do I find out if text is displayed in italic style in a spreadsheet?
 
-// Get a text italic property as a boolean value.
+// Read the italic setting from a text style and display the result in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

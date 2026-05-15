@@ -1,8 +1,8 @@
-// This example shows how to create a chart and paste it into the document.
+// Insert a 3D bar chart with colored data series into a document.
 
-// Creates a "bar3D" chart, adds it to the ApiParagraph class, and fills its series with the created solid fills.
+// How do I add a bar chart with custom series colors to a document?
 
-// How to create the ApiChart object and add it to the first paragraph of the document.
+// Visualize revenue and cost data for multiple years as a colored 3D bar chart in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

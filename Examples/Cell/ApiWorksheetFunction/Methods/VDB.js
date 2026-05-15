@@ -1,8 +1,8 @@
-// This example shows how to return a depreciation of an asset for any specified period, including partial periods, using the double-declining balance method or some other method specified.
+// Calculate asset depreciation using the double-declining balance method in a spreadsheet.
 
-// How to estimate depreciation of an asset for any specified period.
+// How do I calculate asset depreciation over a specific time period in a spreadsheet?
 
-// Use a depreciation of an asset for any specified period including partial periods.
+// Determine the depreciation amount for an asset including partial periods in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

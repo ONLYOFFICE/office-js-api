@@ -1,8 +1,8 @@
-// This example shows how to get all drawings with the specified names from the current presentation.
+// Retrieve shapes and drawings by their names.
 
-// Get drawings by their names.
+// Find and select multiple drawings using name-based lookup.
 
-// How to retrieve drawings by their names and rotate them.
+// Apply transformations like rotation to retrieved drawings.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

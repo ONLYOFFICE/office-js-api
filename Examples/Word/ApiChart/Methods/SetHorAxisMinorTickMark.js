@@ -1,8 +1,8 @@
-// This example specifies the minor tick mark for the horizontal axis.
+// Set the minor tick mark style on the horizontal axis of a chart in a document.
 
-// How to change a tickmark of a minor horizontal axis.
+// How do I show minor interval markers on the horizontal axis in a document?
 
-// Create a chart and set its minor horizontal axis tickmark as a out symbol.
+// Add fine-grained tick marks between major intervals to improve readability in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

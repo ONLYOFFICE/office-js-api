@@ -1,8 +1,8 @@
-// This example shows how to get the XML content of a custom XML part.
+// Read the full raw XML text stored in a custom block in a spreadsheet.
 
-// How to get the XML content of an XML part.
+// How do I retrieve the complete XML string from a stored block of data in a spreadsheet?
 
-// Get XML content.
+// Export the current XML content of a stored block so it can be inspected or reused in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let xmlManager = worksheet.GetCustomXmlParts();

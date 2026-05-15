@@ -1,8 +1,8 @@
-// This example shows how to return the sum of two complex numbers expressed in the x + yi or x + yj form.
+// Add two complex numbers in a spreadsheet.
 
-// How to add two complex numbers.
+// How do I add two complex numbers in a spreadsheet?
 
-// Use a function to get the sum of two complex number.
+// Calculate the sum of multiple complex values in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

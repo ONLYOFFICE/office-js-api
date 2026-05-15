@@ -1,8 +1,8 @@
-// This example creates a pattern fill and applies it to the object using the selected pattern as the object background.
+// Apply a repeating pattern as a shape's background in a presentation.
 
-// How to apply pattern to the background of a drawing.
+// How do I fill a shape with a pattern in a presentation?
 
-// Change color of an element using a pattern fill.
+// Set a two-color pattern fill on a shape in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

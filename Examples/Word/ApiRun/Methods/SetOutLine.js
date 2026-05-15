@@ -1,8 +1,8 @@
-// In this example, add the text with a text outline to the WordArt.
+// Draw a visible border around the letters of a text run in a document.
 
-// How to change outline of the text.
+// How do I add an outline stroke around text characters in a document?
 
-// Create a new text run and outline it with the stroke object.
+// Give text a defined edge by applying a colored outline in a document.
 
 let doc = Api.GetDocument();
 let textPr = Api.CreateTextPr();

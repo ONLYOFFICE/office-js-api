@@ -1,8 +1,8 @@
-// This example shows how to return the internal rate of return for a schedule of cash flows.
+// Calculate the internal rate of return for a series of dated cash flows in a spreadsheet.
 
-// How to return the internal rate of return.
+// How do I find the internal rate of return when cash flows occur on specific dates in a spreadsheet?
 
-// Use a function to return the internal rate of return.
+// Determine the annual rate of return based on irregular payment timing in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

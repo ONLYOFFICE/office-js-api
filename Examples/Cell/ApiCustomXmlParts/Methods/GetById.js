@@ -1,8 +1,8 @@
-// This example shows how to get a custom XML part by its ID.
+// Look up a specific stored XML block using its unique identifier in a spreadsheet.
 
-// How to retrieve a custom XML part using its ID.
+// How do I find a particular XML entry by its ID in a spreadsheet?
 
-// Get an XML part by its ID.
+// Locate a single XML block precisely when its identifier is already known in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let xmlManager = worksheet.GetCustomXmlParts();

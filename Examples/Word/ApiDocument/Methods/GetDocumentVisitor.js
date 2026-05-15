@@ -1,4 +1,8 @@
-// This example shows how to use a document visitor to collect text from all paragraphs.
+// Collect text from every paragraph using a visitor and list the results in a document.
+
+// How do I traverse all paragraphs and gather their text in a document?
+
+// Aggregate paragraph content into a summary paragraph without iterating elements manually in a document.
 
 const doc = Api.GetDocument();
 

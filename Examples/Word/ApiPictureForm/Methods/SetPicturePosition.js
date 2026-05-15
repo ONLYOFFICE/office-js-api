@@ -1,8 +1,8 @@
-// This example sets the picture position inside the form.
+// Control where the image sits within a picture field in a document.
 
-// How to move the picture inside the form.
+// How do I shift an image to a specific spot inside a picture field in a document?
 
-// Specify the picture position of the form.
+// Reposition the image horizontally and vertically inside a picture field in a document.
 
 let doc = Api.GetDocument();
 let pictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false});

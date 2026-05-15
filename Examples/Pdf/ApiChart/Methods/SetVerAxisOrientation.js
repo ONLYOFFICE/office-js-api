@@ -1,6 +1,8 @@
-// How to set an orientation of vertical axis.
+// Reverse or rotate the direction of the vertical axis in a PDF.
 
-// Create a chart, set its properties and its vertical axis orientation.
+// How do I change which way the vertical axis runs in a PDF?
+
+// Flip the orientation of values on a chart's vertical axis in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

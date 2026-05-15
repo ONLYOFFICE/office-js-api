@@ -1,8 +1,8 @@
-// This example demonstrates setting the axis position of a data bar conditional formatting rule.
+// Control where the dividing axis is placed inside data bar cells in a spreadsheet.
 
-// How to change the axis position setting of a data bar.
+// How do I choose whether the data bar axis sits at the midpoint or follows the data in a spreadsheet?
 
-// Set the axis position of a data bar conditional formatting rule.
+// Reposition the axis that separates positive and negative bars within cells in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

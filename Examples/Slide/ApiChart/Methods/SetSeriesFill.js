@@ -1,8 +1,8 @@
-// This example sets the fill to the specified chart series.
+// Apply a solid fill color to a chart series in a presentation.
 
-// How to color a chart seria.
+// Change the background color of chart bars or areas in a presentation.
 
-// Create a chart, set its properties and its series background.
+// Shade a chart series with a specific color in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

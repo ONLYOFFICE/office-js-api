@@ -1,8 +1,8 @@
-// This example shows how to ugroup a group drawing element.
+// Separate grouped shapes back into individual objects in a presentation.
 
-// How to ungroup a grouped drawings.
+// How do I ungroup shapes that are grouped together in a presentation?
 
-// How to remove a grouping from objects.
+// Remove the grouping from multiple shapes in a presentation.
 
 const presentation = Api.GetPresentation();
 presentation.SetSizes(254 * 36000, 190 * 36000);

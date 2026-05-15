@@ -1,8 +1,8 @@
-// This example shows how to set a repeate labels of a pivot field.
+// Repeat a pivot field's labels on every row instead of showing them only once in a spreadsheet.
 
-// How to change a pivot field repeated labels.
+// How do I make a pivot field label appear on each row of the pivot table in a spreadsheet?
 
-// Create a pivot table, add data to it then add repeat labels of a specified pivot.
+// Fill in blank label cells so every row in a pivot group is clearly identified in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

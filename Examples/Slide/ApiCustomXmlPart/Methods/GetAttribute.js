@@ -1,8 +1,8 @@
-// This example shows how to get an attribute from the root element of a custom XML part.
+// Get an attribute from the root element of a custom XML part in a presentation.
 
-// How to get an attribute from an XML part element.
+// Read a named property from a custom XML node in a presentation.
 
-// Get an XML attribute.
+// Retrieve the value of an attribute in an XML element in a presentation.
 
 let presentation = Api.GetPresentation();
 let xmlManager = presentation.GetCustomXmlParts();

@@ -1,8 +1,8 @@
-// This example converts the ApiTableRowPr object into the JSON object.
+// Export table row formatting settings to a JSON representation in a document.
 
-// How to get a JSON from the table row properties.
+// How do I save the formatting settings of a table row as reusable data in a document?
 
-// Convert the table row properties to json and add it to the document.
+// Preserve row formatting by converting its properties to a JSON string in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

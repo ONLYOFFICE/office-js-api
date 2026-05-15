@@ -1,8 +1,8 @@
-// This example shows how to get the timestamp of the comment creation in the current time zone format.
+// Read the creation timestamp of a comment in local time zone format in a document.
 
-// How to know when a comment was added.
+// How do I find out when a comment was created in a document?
 
-// Get all comments from the presentation and the first one's time of creation.
+// Display a comment's creation time in the user's local time zone for human-readable audit trails.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example specifies the chart legend font size.
+// Change the text size of a chart legend in a presentation.
 
-// How to resize a font of a chart legend.
+// How do I make the legend text larger or smaller in a presentation?
 
-// Create a chart, set its properties and its legend's font size.
+// Create a chart and adjust the font size of the text in its legend in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

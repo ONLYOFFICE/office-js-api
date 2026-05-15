@@ -1,8 +1,8 @@
-// This example modifies a data validation rule for a range of cells.
+// Update the restriction rule on a group of cells without removing it first in a spreadsheet.
 
-// How to change data validation for a range of cells.
+// How do I change the data rule that controls what values are allowed in selected cells in a spreadsheet?
 
-// Get a range from the worksheet and modify its data validation.
+// Replace an existing entry limit with new conditions so the affected cells enforce different criteria in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Data Validation for decimal to be more than 10 for A2 and A5");

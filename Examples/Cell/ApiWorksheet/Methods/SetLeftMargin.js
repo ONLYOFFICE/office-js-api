@@ -1,8 +1,8 @@
-// This example sets the left margin of the sheet.
+// Define the left page margin for a sheet in a spreadsheet.
 
-// How to set margin of the left side.
+// How do I set the left margin of a worksheet in a spreadsheet?
 
-// Resize the left margin of the sheet.
+// Adjust the spacing on the left side of the printed page in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.SetLeftMargin(20.8);

@@ -1,8 +1,8 @@
-// This example shows how to get a collection of shape objects from the document content.
+// Retrieve all shapes embedded in document content in a document.
 
-// Get all shapes added to the document.
+// How do I collect every shape from a content container in a document?
 
-// How to retrieve all shapes and fill with color the second one.
+// Read the class type of the first shape and write it as text at the bottom of the shape in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

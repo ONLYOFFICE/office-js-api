@@ -1,8 +1,8 @@
-// This example modifies the range to which color scale formatting applies.
+// Change the cells that a color gradient rule covers to a different range in a spreadsheet.
 
-// How to change the target range for color scale conditional formatting.
+// How do I reassign a color scale rule so it targets a new group of cells in a spreadsheet?
 
-// Modify color scale range.
+// Expand or shift the area affected by a color gradient condition without removing the rule in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// This example specifies that the contents of the current run are displayed along with a line appearing directly below the character (less than all the spacing above and below the characters on the line).
+// Display text with an underline in a presentation.
 
-// How to create a new text and underline it.
+// Add underline formatting to emphasize or highlight text content.
 
-// Create a new text run and underline it.
+// Create a text run and apply underline formatting.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

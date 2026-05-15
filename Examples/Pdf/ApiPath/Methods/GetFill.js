@@ -1,5 +1,9 @@
-// Analyzes cloud shape path properties on a page.
-// Displays comprehensive path information in a text shape.
+// Check what color or pattern fills the interior of a shape in a PDF.
+
+// What fill does a custom shape have in a PDF?
+
+// Find out if and how the inside of a shape is filled in a PDF.
+
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 

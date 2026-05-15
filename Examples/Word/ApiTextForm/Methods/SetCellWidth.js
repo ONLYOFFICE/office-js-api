@@ -1,8 +1,8 @@
-// This example sets the cell width to the applied comb of characters.
+// Set the width of each character cell in a comb-style text field in a document.
 
-// How to set the width of the cell of the text form.
+// How do I control the width of individual character boxes in a text field in a document?
 
-// Resize the text form cell.
+// Adjust character cell width to ensure uniform spacing across a comb text field in a document.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "maxCharacters": 10, "multiLine": false, "autoFit": false});

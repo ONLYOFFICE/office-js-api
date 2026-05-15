@@ -1,5 +1,9 @@
-// Creates adjustable geometry with guides and connection points for a presentation.
-// Displays adjustment value and applies custom geometry to shape.
+// Create adjustable geometry with guides and connection points in a presentation.
+
+// Guides define calculation formulas for custom shape dimensions and proportions.
+
+// Add a guide formula to control geometry positioning in a shape.
+
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);
 let customGeometry = Api.CreateCustomGeometry();

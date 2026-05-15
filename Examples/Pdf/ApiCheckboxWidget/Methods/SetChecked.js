@@ -1,4 +1,9 @@
-// This example sets checkbox widget checked in group of checkbox widgets.
+// Mark a checkbox as selected or deselected in a PDF.
+
+// How do I toggle a checkbox widget between checked and unchecked in a PDF?
+
+// Set the checked state of a checkbox widget in a PDF.
+
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 let radiobuttonField = Api.CreateRadiobuttonField([10, 10, 25, 25]);

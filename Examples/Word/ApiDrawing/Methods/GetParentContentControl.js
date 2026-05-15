@@ -1,8 +1,8 @@
-// This example shows how to get a parent content control that contains the graphic object.
+// Retrieve the parent content control that contains a drawing object in a document.
 
-// Get an element's parent control.
+// How do I find the content control that wraps a drawing in a document?
 
-// How to show the shape's wrapper control.
+// Access the enclosing block-level content control to add text alongside a shape in a document.
 
 let doc = Api.GetDocument();
 let paragraph = Api.CreateParagraph();

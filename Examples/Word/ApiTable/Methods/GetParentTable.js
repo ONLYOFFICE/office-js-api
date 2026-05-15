@@ -1,8 +1,8 @@
-// This example shows how to get a table that contains the table.
+// Access the outer table that contains a nested table in a document.
 
-// How to get the parent table and delete its row.
+// How do I navigate from a nested table up to its surrounding table in a document?
 
-// Retrieve the parent table, get its cell and remove the row of it.
+// Locate the enclosing table so its rows can be modified in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

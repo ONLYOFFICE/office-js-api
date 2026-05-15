@@ -1,4 +1,9 @@
-// This example gets justification from rich paragraph properties.
+// Read the text alignment of a paragraph in a PDF.
+
+// How do I check the alignment of a paragraph in a PDF?
+
+// Find out what alignment setting is applied to a paragraph in a PDF.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

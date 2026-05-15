@@ -1,8 +1,8 @@
-// This example sets the size of the shape bounding box.
+// Resize a shape to specific width and height dimensions in a document.
 
-// How to resize the drawing.
+// How do I change the size of a drawing in a document?
 
-// Set the height and the width of the shape. 
+// Adjust a shape's bounding box after it has already been placed on the page in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

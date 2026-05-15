@@ -1,8 +1,8 @@
-// This example sets a theme to the slide master. Sets a copy of the theme object.
+// Create a custom theme and apply it to a slide master.
 
-// How to set a theme of a slide master.
+// Define color, format, and font schemes, then create a complete theme object.
 
-// Create a theme, set its properties and apply it to a slide master.
+// Set the theme on the master and display the result using a styled chart.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

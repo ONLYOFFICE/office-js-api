@@ -1,8 +1,8 @@
-// This example specifies the amount by which text is raised or lowered for the Range in relation to the default baseline of the surrounding non-positioned text.
+// Raise or lower selected text relative to the surrounding baseline in a document.
 
-// How to set an inline position of a range text.
+// How do I shift a portion of text up or down without changing its size in a document?
 
-// Get a range text, specify its position to move down or up.
+// Adjust the vertical offset of highlighted words to create superscript or subscript effects in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example shows how to get a paragraph from all the paragraphs that are in the range.
+// Pick a specific paragraph by position from the paragraphs within a text selection in a document.
 
-// Get a paragraph using its index position.
+// How do I access a particular paragraph inside a highlighted region in a document?
 
-// Make bold the second paragraph of the range.
+// Target one paragraph among several in a selected area to apply formatting in a document.
 
 let doc = Api.GetDocument();
 let firstParagraph = doc.GetElement(0);

@@ -1,4 +1,8 @@
-// This example sets the text spacing measured in twentieths of a point.
+// Control the space between characters in text in a presentation.
+
+// How do I adjust character spacing in a paragraph in a presentation?
+
+// Apply custom spacing measurements to text for readability in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

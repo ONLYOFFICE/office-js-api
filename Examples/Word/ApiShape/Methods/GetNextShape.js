@@ -1,8 +1,8 @@
-// This example shows how to get the next inline shape.
+// Navigate from one shape to the following shape in a document.
 
-// How to get next shape from the current one.
+// How do I reach the shape that comes immediately after a given shape in a document?
 
-// Color the next shape with a solid fill.
+// Apply a fill to a shape by stepping to its neighbor in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

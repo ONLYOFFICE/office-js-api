@@ -1,8 +1,8 @@
-// This example creates no fill and removes the fill from the element.
+// Remove the background fill from a shape in a presentation.
 
-// How to remove background fill from the object.
+// How do I make an object transparent in a presentation?
 
-// Create no fill and apply it to the element.
+// Apply a transparent fill to a shape's outline in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

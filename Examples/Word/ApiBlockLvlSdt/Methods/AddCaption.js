@@ -1,10 +1,8 @@
-// This example adds a caption paragraph after (or before) the current content control.
+// Add a numbered figure caption below a content control in a document.
 
-// Adds a figure caption after the block content control and sets the Arabic caption numbering format.
+// How do I label a content control with a figure caption in a document?
 
-// How to add a caption for the ApiBlockLvlSdt object.
-
-// Creates a block content control, adds a paragraph with an image to it, and adds a figure caption for the current content control.
+// Insert an image into a content control and attach a caption with automatic numbering in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

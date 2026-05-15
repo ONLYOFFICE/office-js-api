@@ -1,8 +1,8 @@
-// This example sets the fill formatting properties to the current graphic object.
+// Apply a gradient color fill to a shape in a presentation.
 
-// How to color a drawing with a radiant fill.
+// How do I add a color gradient effect to a shape in a presentation?
 
-// Change the background color of the shape.
+// Set the background fill of a shape with a radial gradient in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

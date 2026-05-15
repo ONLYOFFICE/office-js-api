@@ -1,6 +1,8 @@
-// How to set a table look with options.
+// Configure the styling options for a table in a PDF.
 
-// Create the ApiTable object and set its look.
+// How do I customize how a table looks in a PDF?
+
+// Apply formatting rules to change the table appearance in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

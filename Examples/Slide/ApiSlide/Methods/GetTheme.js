@@ -1,8 +1,8 @@
-// This example shows how to get a theme of the current slide.
+// Get a theme of the current slide in a presentation.
 
-// How to return a theme of the slide.
+// Retrieve the slide theme using GetTheme and modify its color scheme.
 
-// Get a slide, get its theme and its properties.
+// Apply the new theme color scheme and display a chart with the updated colors.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

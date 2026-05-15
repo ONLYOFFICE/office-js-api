@@ -1,8 +1,8 @@
-// This example shows how to return the inverse of the cumulative beta probability density function (BETA_DIST).
+// Find the value corresponding to a specific probability in the beta distribution in a spreadsheet.
 
-// How to get a result from the inverse of the cumulative beta probability density function.
+// How do I locate the data point that matches a given probability level in a spreadsheet?
 
-// Use function to get the inverse of the cumulative beta probability distribution function.
+// Reverse-calculate from probability to the original data value in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

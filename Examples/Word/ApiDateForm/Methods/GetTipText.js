@@ -1,8 +1,8 @@
-// This example shows how to get the tip text of the current form.
+// Read the tooltip text of a date form in a document.
 
-// Get a date form tip text and show it in the document.
+// How do I get the tooltip message shown for a date form in a document?
 
-// Show a tip text of the form.
+// Output the tip text to verify what guidance is displayed when a user hovers over the form.
 
 let doc = Api.GetDocument();
 let dateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});

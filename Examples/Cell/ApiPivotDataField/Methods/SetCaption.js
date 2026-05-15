@@ -1,8 +1,8 @@
-// This example shows how to set a caption for data field.
+// Give a pivot table value field a custom display label in a spreadsheet.
 
-// How to rename a caption of a table element.
+// How do I rename the heading shown for a data field in a pivot table in a spreadsheet?
 
-// Create a pivot table, add data to it then set a custom data field's caption.
+// Replace the default field caption with a friendlier title so readers understand the data in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

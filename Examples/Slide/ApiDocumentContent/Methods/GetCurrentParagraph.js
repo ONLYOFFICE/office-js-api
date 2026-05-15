@@ -1,4 +1,8 @@
-// This example returns the current paragraph from the document content.
+// Access the current paragraph in a shape's text content in a presentation.
+
+// How do I get the paragraph where the cursor is positioned in a shape in a presentation?
+
+// Retrieve the active paragraph from a shape and append additional text to it.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

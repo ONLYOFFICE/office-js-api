@@ -1,4 +1,8 @@
-// This example shows how to set the horizontal flip for a drawing.
+// Flip a drawing horizontally in a document.
+
+// How do I mirror a shape along its vertical axis in a document?
+
+// Produce a mirrored copy of an arrow to compare original and flipped orientations in a document.
 
 const doc = Api.GetDocument();
 const paragraph = doc.GetElement(0);

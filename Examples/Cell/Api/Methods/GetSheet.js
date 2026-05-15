@@ -1,8 +1,8 @@
-// This example shows how to get an object that represents a sheet.
+// Open a specific sheet by name and write content into one of its cells in a spreadsheet.
 
-// How to get a sheet knowing its name.
+// How do I navigate to a particular sheet using its tab name in a spreadsheet?
 
-// Find and get a sheet object by its name.
+// Target a named sheet directly and place a value into it without switching tabs in a spreadsheet.
 
 let worksheet = Api.GetSheet("Sheet1");
 worksheet.GetRange("A1").SetValue("This is a sample text on 'Sheet1'.");

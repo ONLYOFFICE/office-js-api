@@ -1,8 +1,8 @@
-// This example specifies the chart legend position.
+// Move the chart legend to a specific position in a spreadsheet.
 
-// Change the positions of the chart legend.
+// How do I place the chart legend on the right side of the chart in a spreadsheet?
 
-// How to set right the chart legend.
+// Reposition the legend so it does not overlap the chart data in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

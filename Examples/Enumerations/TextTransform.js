@@ -1,4 +1,4 @@
-// This example creates a Text Art object with the "textArchUp" text transform type.
+// Create a Text Art object with the "textArchUp" text transform type.
 
 // How to create a word art with adding properties like fill color, size, and transform type to it.
 

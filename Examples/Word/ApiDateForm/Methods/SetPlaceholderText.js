@@ -1,8 +1,8 @@
-// This example sets the placeholder text to the current form.
+// Set placeholder text on a date form in a document.
 
-// Add text as a placeholder of the form.
+// How do I add hint text to an empty date form in a document?
 
-// Create a date form and set its placeholder text.
+// Replace the default prompt inside a date form with custom guidance text in a document.
 
 let doc = Api.GetDocument();
 let dateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});

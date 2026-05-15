@@ -1,4 +1,8 @@
-// This example shows how to get the last Run with text in the paragraph.
+// Get the last Run with text in the paragraph in a presentation.
+
+// How do I access the final text element in a paragraph in a presentation?
+
+// Find the last text item in a paragraph and modify it in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// This example adds a data validation rule to a range of cells.
+// Attach a data validation rule to a cell range in a spreadsheet.
 
-// How to apply data validation to a range of cells.
+// How do I restrict what values a user can enter into a cell range in a spreadsheet?
 
-// Get a range from the worksheet and add data validation to it.
+// Enforce an input constraint on specific cells to prevent invalid entries in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("Data Validation for decimal to be more than 10");

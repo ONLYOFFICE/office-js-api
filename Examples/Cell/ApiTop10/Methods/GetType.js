@@ -1,4 +1,8 @@
-// This example shows how to get the type of a top 10 conditional formatting rule.
+// Read the rule type from a top 10 conditional formatting rule in a spreadsheet.
+
+// How do I find out what kind of conditional formatting rule is applied in a spreadsheet?
+
+// Confirm the rule category after creating a top 10 condition in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

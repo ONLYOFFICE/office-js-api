@@ -1,8 +1,8 @@
-// This example specifies the alignment which will be applied to the contents of the current run in relation to the default appearance of the text run.
+// Position a text run above, below, or on the baseline of surrounding text in a document.
 
-// How to change a vertical alignment of a text run.
+// How do I make text appear as a superscript or subscript in a document?
 
-// Create a new text run and make it subscript, baseline or superscript.
+// Raise or lower a portion of text relative to the normal line height in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

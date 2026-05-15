@@ -1,8 +1,8 @@
-// This example sets the font size to the characters of the current text run.
+// Adjust the font size applied to text in a document.
 
-// How to change the text font size.
+// How do I make text larger or smaller in a document?
 
-// Create a text run object, resize its font.
+// Control how big characters appear by setting a custom font size in a document.
 
 let doc = Api.GetDocument();
 let textPr = doc.GetDefaultTextPr();

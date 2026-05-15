@@ -1,5 +1,9 @@
-// Analyzes path properties of a cloud shape.
-// Retrieves and displays path dimensions, stroke and fill information.
+// Count the number of paths that make up a shape's geometry in a document.
+
+// How do I find out how many paths a shape's geometry contains in a document?
+
+// Verify the total path count before iterating over a shape's geometry paths in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.RGB(255, 200, 100));

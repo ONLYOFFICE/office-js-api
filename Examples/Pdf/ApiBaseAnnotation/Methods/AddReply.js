@@ -1,4 +1,9 @@
-// This example creates a square annotation and adds reply to it.
+// Add a response to an annotation in a PDF.
+
+// How can I reply to an annotation comment in a PDF?
+
+// Attach a text response to an existing annotation in a PDF.
+
 let doc = Api.GetDocument();
 let squareAnnot = Api.CreateSquareAnnot([10, 10, 160, 32]);
 squareAnnot.SetContents("Annot contents");

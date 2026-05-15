@@ -1,4 +1,8 @@
-// This example demonstrates how to set the date when the workbook was modified last time.
+// Record the date a workbook was last changed in its document properties in a spreadsheet.
+
+// How do I write a custom last-modified date into a workbook's metadata in a spreadsheet?
+
+// Update the modification timestamp stored in the workbook so the history reflects a specific date in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

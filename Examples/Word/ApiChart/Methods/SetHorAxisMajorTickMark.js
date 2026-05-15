@@ -1,8 +1,8 @@
-// This example specifies the major tick mark "cross" for the horizontal axis.
+// Set the major tick mark style on the horizontal axis of a chart in a document.
 
-// How to change a tickmark of a major horizontal axis.
+// How do I display cross-shaped tick marks on the horizontal axis in a document?
 
-// Create a chart and set its major horizontal axis tickmark as a cross symbol.
+// Control where major interval markers appear so readers can follow values precisely in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

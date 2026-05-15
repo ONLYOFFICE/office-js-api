@@ -1,8 +1,8 @@
-// This example sets the text fill to the current text run.
+// Change the color of text in a PDF.
 
-// How to change a font color.
+// How do I set the text color in a PDF?
 
-// Get the text properties of the run and color its font.
+// Apply a color to font characters in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -12,7 +12,7 @@ const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = Api.CreateShape("flowChartMagneticTape", 150 * 36000, 65 * 36000, fill, stroke);
 shape.SetPosition(608400, 1267200);
 
-const docContent = shape.GetDocContent();
+const docContent = shape.GetContent();
 const paragraph = docContent.GetElement(0);
 const run = Api.CreateRun();
 const textPr = run.GetTextPr();

@@ -1,8 +1,8 @@
-// This example demonstrates getting the negative bar color from a data bar conditional formatting rule.
+// Read the fill color used for bars that represent negative values in a spreadsheet.
 
-// How to retrieve the color of negative value bars.
+// How do I find out what color is applied to negative data bars in a spreadsheet?
 
-// Get the negative bar color of a data bar conditional formatting rule.
+// Confirm the distinct color assigned to bars that display below-zero values in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

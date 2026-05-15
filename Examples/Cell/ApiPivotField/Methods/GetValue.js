@@ -1,8 +1,8 @@
-// This example shows how to get a value of a pivot field.
+// Read the current value setting of a pivot field in a spreadsheet.
 
-// How to get a pivot field's value.
+// How do I find out what value a pivot field is set to in a spreadsheet?
 
-// Create a pivot table, add data to it then get a value of a specified pivot field.
+// Display a pivot field's value to verify how it is configured in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

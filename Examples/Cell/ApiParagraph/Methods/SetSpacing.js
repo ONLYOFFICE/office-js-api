@@ -1,4 +1,8 @@
-// This example shows how to set character spacing for all text in a paragraph inside a shape.
+// Expand the space between individual characters in a paragraph inside a shape in a spreadsheet.
+
+// How do I widen or tighten the gaps between letters in a paragraph in a spreadsheet?
+
+// Adjust letter spacing to make text looser or more compact within a shape in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const fill = Api.CreateSolidFill(Api.RGB(150, 130, 100));

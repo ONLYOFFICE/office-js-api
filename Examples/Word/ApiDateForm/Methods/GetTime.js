@@ -1,8 +1,8 @@
-// This example shows how to get the date timestamp from a date form.
+// Read the timestamp stored in a date form in a document.
 
-// How to get a time enetered to the date form.
+// How do I get the date and time value entered into a date form in a document?
 
-// Display the time from the date and time answer.
+// Convert the returned timestamp to a readable date to display it as a formatted string.
 
 let doc = Api.GetDocument();
 let dateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});

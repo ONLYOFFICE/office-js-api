@@ -1,8 +1,8 @@
-// This example specifies that all the small letter characters in this text run are formatted for display only as their capital letter character equivalents which are two points smaller than the actual font size specified for this text.
+// Display lowercase letters as smaller capital letters within a text run in a spreadsheet.
 
-// How to make text characters uncapitalized.
+// How do I format text so lowercase letters appear as small capitals in a spreadsheet?
 
-// Create a text run object, update its style by making its letters uncapitalized.
+// Style a word or phrase using small caps to give it a distinctive typographic look in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

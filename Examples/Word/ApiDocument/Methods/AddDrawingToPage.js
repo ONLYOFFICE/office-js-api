@@ -1,8 +1,8 @@
-// This example shows how to get a collection of tables on a given absolute page.
+// Place an image at a fixed position on a page in a document.
 
-// How to add the drawing to the document.
+// How do I add a drawing to a specific page in a document?
 
-// Create an image from the URL and insert it to the page.
+// Anchor a logo or illustration at exact coordinates without disrupting text flow in a document.
 
 let doc = Api.GetDocument();
 let drawing = Api.CreateImage(

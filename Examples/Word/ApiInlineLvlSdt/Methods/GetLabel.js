@@ -1,8 +1,8 @@
-// This example shows how to get the label attribute for the container.
+// Retrieve the label value assigned to an inline content control in a document.
 
-// How to display the label of the inline text control in the document.
+// How do I read the label of an inline content control in a document?
 
-// Set the label of the inline text element and print it.
+// Confirm the numeric label set on an inline content control by printing it to the page in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

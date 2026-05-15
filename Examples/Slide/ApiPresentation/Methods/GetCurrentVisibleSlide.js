@@ -1,4 +1,8 @@
-// This example shows how to get an object for a Slide that is currently visible.
+// Retrieve the slide object currently visible on screen.
+
+// Access the slide displayed in the presentation view.
+
+// Add a label to the visible slide.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetCurrentVisibleSlide();

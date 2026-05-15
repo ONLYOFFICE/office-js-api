@@ -1,4 +1,4 @@
-// In this example sets the type of the watermark within the document.
+// Set the type of the watermark within the document.
 
 // How to set a watermark type.
 

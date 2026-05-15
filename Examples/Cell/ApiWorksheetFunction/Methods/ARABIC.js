@@ -1,8 +1,8 @@
-// This example shows how to convert a Roman numeral to Arabic.
+// Convert Roman numerals to regular numbers in a spreadsheet.
 
-// How to convert numbers to Arabic numerical.
+// Transform text Roman numerals using the ARABIC function in a spreadsheet.
 
-// Use function to convert numbers to Arabic numerical.
+// Place the converted number into a cell for calculations in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

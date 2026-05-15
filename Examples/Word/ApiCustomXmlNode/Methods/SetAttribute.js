@@ -1,4 +1,9 @@
-// This example shows how to get the XPath of a custom XML node.
+// Add a new attribute to an XML node embedded in a document.
+
+// How do I attach extra metadata to a node in the XML data stored in a document?
+
+// Tag a node with a category or label so it can be filtered or identified later in a document.
+
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
 let xmlText = `

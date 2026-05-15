@@ -1,5 +1,9 @@
-// Creates a complex curve shape using different bezier and arc commands.
-// Combines multiple curve types in a single path.
+// Add a quadratic curved segment to a custom shape path in a spreadsheet.
+
+// How do I draw a smooth single-control-point curve on a shape in a spreadsheet?
+
+// Build a gently curved outline by guiding the path through one control point to an endpoint in a spreadsheet.
+
 let worksheet = Api.GetActiveSheet();
 let customGeometry = Api.CreateCustomGeometry();
 let path = customGeometry.AddPath();

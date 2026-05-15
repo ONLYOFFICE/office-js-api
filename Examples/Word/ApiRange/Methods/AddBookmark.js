@@ -1,8 +1,8 @@
-// This example adds a bookmark to the specified range.
+// Mark a specific section of text with a named bookmark in a document.
 
-// How to bookmark a range of document.
+// How do I attach a named bookmark to a selected portion of text in a document?
 
-// Insert a bookmark into the 'ONLYOFFICE' range.
+// Label a text selection so it can be referenced or navigated to later in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

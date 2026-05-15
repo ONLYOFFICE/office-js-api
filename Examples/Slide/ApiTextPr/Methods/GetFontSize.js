@@ -1,8 +1,8 @@
-// This example shows how to find out a text font size.
+// Retrieve the font size from text run properties.
 
-// How to know font size of a text run.
+// Create a shape with a text run and set a specific font size.
 
-// Get the text properties of the run and display its font size.
+// Get and display the font size used in the text.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

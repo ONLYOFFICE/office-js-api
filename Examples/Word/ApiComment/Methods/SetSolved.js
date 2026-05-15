@@ -1,8 +1,8 @@
-// This example marks a comment as solved.
+// Mark a comment as resolved in a document.
 
-// How to make a comment solved.
+// How do I set a comment's status to solved in a document?
 
-// Get all comments from the presentation and set it solved.
+// Close out a review thread by flagging the comment as no longer needing attention.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

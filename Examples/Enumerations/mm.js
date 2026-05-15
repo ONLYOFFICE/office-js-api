@@ -1,4 +1,4 @@
-// This example set the cell width measured in millimeters to the applied comb of characters.
+// Set the cell width measured in millimeters to the applied comb of characters.
 
 // How to set a cell width in millimeters.
 

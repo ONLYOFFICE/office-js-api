@@ -1,4 +1,8 @@
-// This example shows how to set and get the outline level of the specified paragraph.
+// Read the outline level assigned to each paragraph in a document.
+
+// How do I find out the outline level of a paragraph in a document?
+
+// Create paragraphs at every outline level and display each level number in a document.
 
 const doc = Api.GetDocument();
 const firstParagraph = doc.GetElement(0);

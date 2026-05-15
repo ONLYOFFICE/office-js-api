@@ -1,8 +1,8 @@
-// This example creates a new paragraph and inserts it into the document.
+// Add a new paragraph with text to the end of a document.
 
-// Creates the ApiParagraph object, adds a text to it, and inserts it into the ApiDocument class.
+// How do I create a blank paragraph, fill it with text, and append it to a document?
 
-// How to create a paragraph with the specified text and add it to the current document.
+// Build a paragraph from scratch and place it at the bottom of a document.
 
 let doc = Api.GetDocument();
 let paragraph = Api.CreateParagraph();

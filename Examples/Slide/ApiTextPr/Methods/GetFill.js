@@ -1,8 +1,8 @@
-// This example shows how to find out a text color.
+// Retrieve the fill property from text run properties.
 
-// How to know with which color a text is filled.
+// Create a shape with a text run and apply fill color.
 
-// Get the text properties of the run and get its font color.
+// Get and display the text fill type.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

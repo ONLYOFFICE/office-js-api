@@ -1,8 +1,8 @@
-// This example shows how to get a name of the current style.
+// Read the name assigned to a table style in a document.
 
-// How to get name of the table style.
+// How do I find out what a table style is called in a document?
 
-// Display the table style name.
+// Display the label attached to the active table style in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.GetStyle("Bordered");

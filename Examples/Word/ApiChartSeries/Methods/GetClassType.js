@@ -1,8 +1,8 @@
-// This example gets a type of ApiChartSeries class and inserts it into the document.
+// Retrieve the class type identifier of a chart series object in a document.
 
-// How get a class type of ApiChartSeries.
+// How do I determine the object type of a chart series at runtime in a document?
 
-// Retrieve class type of ApiChartSeries object and insert it to the slide.
+// Confirm the kind of object you are working with before applying series-specific operations in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

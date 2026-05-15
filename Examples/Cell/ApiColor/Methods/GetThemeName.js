@@ -1,4 +1,8 @@
-// This example shows how to get the theme color name used in a shape fill.
+// Retrieve the name of the theme color applied to a shape in a spreadsheet.
+
+// How do I find out which theme color name is assigned to a fill in a spreadsheet?
+
+// Look up the built-in theme color label behind a shape's fill and print it to a cell in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const themeColor = Api.ThemeColor('accent1');

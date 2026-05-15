@@ -1,8 +1,8 @@
-// This example shows how to multiply all the numbers given as arguments.
+// Multiply a set of numbers in a spreadsheet.
 
-// How to return the result after multiplication.
+// What is the product of multiple numbers in a spreadsheet?
 
-// Use a function to multiply a list of numbers.
+// Calculate the result of multiplying a series of values together in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

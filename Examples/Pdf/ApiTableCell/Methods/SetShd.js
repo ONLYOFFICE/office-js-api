@@ -1,6 +1,8 @@
-// How to set shading fill to the cell.
+// Apply a background fill color to a table cell in a PDF.
 
-// Create table and set its cell shading color.
+// How do I change the background color of a table cell in a PDF?
+
+// Color the background of your table cell in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

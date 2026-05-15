@@ -1,8 +1,8 @@
-// This example shows how to get the paragraph left side indentation.
+// Read the left indentation value set on a paragraph in a document.
 
-// Get the left indentation of the paragraph and show it in the document.
+// How do I find out how far a paragraph is indented from the left margin in a document?
 
-// How to know the number of inches of the left indentation.
+// Check the left indent size before synchronizing paragraph layout across multiple styles.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the pdf document.
+// Find out what type of color object an RGB color is in a PDF.
 
-// How to get a class type of ApiRGBColor.
+// How do I check the category of an RGB color in a PDF?
 
-// Retrieve class type of ApiRGBColor object and insert it to the page.
+// Determine the classification of a red-green-blue color in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -16,7 +16,7 @@ const shape = Api.CreateShape("flowChartMagneticTape", 300 * 36000, 130 * 36000,
 shape.SetPosition(608400, 1267200);
 shape.SetSize(300 * 36000, 130 * 36000);
 
-const docContent = shape.GetDocContent();
+const docContent = shape.GetContent();
 const classType = rgbColor.GetClassType();
 const paragraph = docContent.GetElement(0);
 paragraph.SetJc("left");

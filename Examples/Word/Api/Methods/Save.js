@@ -1,8 +1,8 @@
-// This example saves changes to the specified document.
+// Add text to a paragraph and save the changes in a document.
 
-// Adds a text to the first paragraph of the document and saves these changes.
+// How do I save changes after editing a paragraph in a document?
 
-// How to save changes made to the ApiParagraph object.
+// Write text into the first paragraph and persist the result to the file in a document.
 
 let paragraph = Api.GetDocument().GetElement(0);
 paragraph.AddText("This sample text is saved to the document.");

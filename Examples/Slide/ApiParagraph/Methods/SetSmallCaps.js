@@ -1,4 +1,8 @@
-// This example applies small caps formatting to paragraph text.
+// Apply small capitals formatting to text in a presentation.
+
+// How do I use small caps styling on paragraph text in a presentation?
+
+// Format letters as small capitals for text effects in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

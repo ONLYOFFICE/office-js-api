@@ -1,4 +1,8 @@
-// This example sets the placeholder index.
+// Assign a position index to a placeholder in a presentation.
+
+// How do I change the index number of a placeholder in a presentation?
+
+// Set a placeholder's index and verify it was applied in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

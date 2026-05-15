@@ -1,8 +1,8 @@
-// This example shows how to get the date language from a date form.
+// Read the language setting of a date form in a document.
 
-// How to know which language is used for a date form.
+// How do I find out which language is set on a date form in a document?
 
-// Create a date form and diplay its language info in the document.
+// Verify the locale after updating it to confirm the change was applied.
 
 let doc = Api.GetDocument();
 let dateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});

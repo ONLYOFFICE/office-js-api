@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Read the class type of an embedded OLE object in a document.
 
-// How to get a class type of ApiOleObject.
+// How do I find out the class type of an OLE object in a document?
 
-// Retrieve class type of ApiOleObject object and insert it to the document.
+// Identify what kind of embedded object is inserted by checking its class type string in a document.
 
 let doc = Api.GetDocument();
 let oleObject = Api.CreateOleObject(

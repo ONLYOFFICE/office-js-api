@@ -1,8 +1,8 @@
-// This example sets the paragraph contents justification.
+// Center text alignment in a paragraph in a presentation.
 
-// How to set justification using a paragraph properties.
+// How do I change the alignment of text in a presentation?
 
-// Create a paragraph setting its justification property.
+// Apply text alignment to a paragraph using paragraph properties in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

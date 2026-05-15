@@ -1,5 +1,9 @@
-// Analyzes path commands of a star shape on a pdf document page.
-// Shows command count and first command details in a text shape.
+// Retrieve the y coordinate from a path command in a PDF.
+
+// What is the vertical position value in a PDF?
+
+// Extract the y position of a path command in a PDF.
+
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 

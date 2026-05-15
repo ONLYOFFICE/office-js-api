@@ -1,5 +1,9 @@
-// Sets the outline properties to a shape.
-// Creates a rectangle and changes its outline to a thick blue line.
+// Change the border style and color of a shape in a document.
+
+// How do I customize the outline stroke around a shape in a document?
+
+// Make a shape stand out by giving its border a specific thickness and color in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 200, 100));

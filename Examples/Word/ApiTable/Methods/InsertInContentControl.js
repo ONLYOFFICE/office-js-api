@@ -1,8 +1,8 @@
-// This example wraps the current table object with a content control.
+// Wrap a table inside a content control in a document.
 
-// How to add the table to the block level control.
+// How do I place a table inside a content control in a document?
 
-// Create a table and then insert it to the another content control.
+// Protect table content by enclosing it in a reusable control in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

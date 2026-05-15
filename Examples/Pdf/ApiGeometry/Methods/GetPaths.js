@@ -1,5 +1,9 @@
-// Analyzes cloud shape path properties on a page.
-// Displays comprehensive path information in a text shape.
+// Extract all outline segments from a shape in a PDF.
+
+// How do I retrieve every path that makes up a shape in a PDF?
+
+// Access all paths from a shape and review their details in a PDF.
+
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 

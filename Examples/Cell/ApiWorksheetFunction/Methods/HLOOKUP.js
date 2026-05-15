@@ -1,8 +1,8 @@
-// This example shows how to look for a value in the top row of a table or array of values and returns the value in the same column from the specified row.
+// Search for a value in the top row of a table and retrieve the value from a specified row in the same column in a spreadsheet.
 
-// How to find a value from the row of a table.
+// How do I find values in a horizontal table using a lookup formula in a spreadsheet?
 
-// Use a function to look up a value from a table or an array and return found value.
+// Retrieve a specific cell value from a table by searching horizontally in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

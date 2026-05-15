@@ -1,8 +1,8 @@
-// This example shows how to get all font names from all elements inside the run.
+// Collect all font names used within a text run in a document.
 
-// How to get all font names from the ApiRun object elements.
+// How do I find out which fonts are applied to a text run in a document?
 
-// Get all font names from a text run as an array and display it in the worksheet.
+// List every font family assigned to the pieces of a text run in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

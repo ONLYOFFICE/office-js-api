@@ -1,8 +1,8 @@
-// This example sets the paragraph left side indentation.
+// Indent a paragraph from the left inside a shape in a spreadsheet.
 
-// How to change the sentence's left side indentation of the paragraph.
+// How do I push paragraph text away from the left edge in a spreadsheet?
 
-// Get a paragraph from the shape's content then add a text specifying the left side indentation.
+// Control how far a block of text starts from the left side of a shape in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

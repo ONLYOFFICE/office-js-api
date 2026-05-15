@@ -1,8 +1,8 @@
-// This example sets the tip text to the current form.
+// Add tooltip text to a checkbox form in a document.
 
-// How to add a text as a tip to the form.
+// How do I display a helpful hint when a user hovers over a form field in a document?
 
-// Set a tip text to the form.
+// Guide respondents by attaching an instructional tooltip to each checkbox in a document.
 
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});

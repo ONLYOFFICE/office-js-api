@@ -1,4 +1,8 @@
-// This example deletes the form.
+// Delete a date form field from a document.
+
+// How do I remove a date form from a document?
+
+// Keep only a copied version of a date field by deleting the original form in a document.
 
 const doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example shows how to get the specified comment reply.
+// Access a specific reply to a comment by its index in a document.
 
-// Get a comment reply by knowing its index.
+// How do I retrieve a particular reply from a comment thread in a document?
 
-// How to get the first comment reply text and display it in the document.
+// Read a reply's text to display or process individual responses in a comment thread.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,4 +1,8 @@
-// This example gets the class type of the ApiAnimationEffect object.
+// Retrieve the class type of an animation effect in a presentation.
+
+// Class type identifiers distinguish different object types in the animation system.
+
+// Call GetClassType() on an animation effect object and display the result.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

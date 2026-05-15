@@ -1,8 +1,8 @@
-// This example converts the ApiRGBColor object into the JSON object.
+// Save a custom color value as a portable data structure in a document.
 
-// How to get a JSON from the color object.
+// How do I export a custom color so it can be restored later in a document?
 
-// Convert the RGB color object to json and add it to the document.
+// Preserve a custom color value by serializing it for later reuse in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

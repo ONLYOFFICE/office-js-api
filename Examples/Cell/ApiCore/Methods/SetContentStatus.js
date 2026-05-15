@@ -1,4 +1,8 @@
-// This example demonstrates how to set the content status of the current workbook using the ApiCore.
+// Record a content status value in the workbook document properties in a spreadsheet.
+
+// How do I mark the content status of a workbook in a spreadsheet?
+
+// Save a status label such as "Final" or "Draft" in the file metadata in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

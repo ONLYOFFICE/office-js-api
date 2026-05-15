@@ -1,4 +1,9 @@
-// This example creates a square annotation and gets its dash pattern.
+// Retrieve the dash pattern of a dashed border on an annotation in a PDF.
+
+// What dash pattern is used for an annotation's border in a PDF?
+
+// Check the spacing and length of dashes on an annotation's border in a PDF.
+
 let doc = Api.GetDocument();
 let squareAnnot = Api.CreateSquareAnnot([10, 10, 160, 32]);
 squareAnnot.SetBorderStyle("dashed");

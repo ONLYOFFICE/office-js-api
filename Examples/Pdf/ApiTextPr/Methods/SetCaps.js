@@ -1,8 +1,8 @@
-// This example specifies that any lowercase characters in the text run are formatted for display only as their capital letter character equivalents.
+// Display lowercase letters as uppercase in a PDF.
 
-// How to make a text capitalized.
+// How do I convert text to all capitals in a PDF?
 
-// Get the text properties of the run and set its letters uppercase.
+// Apply uppercase formatting to all text characters in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -12,7 +12,7 @@ const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = Api.CreateShape("flowChartMagneticTape", 150 * 36000, 65 * 36000, fill, stroke);
 shape.SetPosition(608400, 1267200);
 
-const docContent = shape.GetDocContent();
+const docContent = shape.GetContent();
 const paragraph = docContent.GetElement(0);
 const run = Api.CreateRun();
 const textPr = run.GetTextPr();

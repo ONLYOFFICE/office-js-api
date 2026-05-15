@@ -1,8 +1,8 @@
-// This example showh how to get the first paragraphs from all footnotes in the document.
+// Add a footnote and write bold text into its first paragraph in a document.
 
-// How to get the first footnote paragraph, add text to it and make it bold.
+// How do I access the first paragraph of each footnote to add formatted text in a document?
 
-// Retrieve all footnote first paragraph for further manipulation.
+// Populate footnote content by writing directly to each footnote's opening paragraph in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0); 

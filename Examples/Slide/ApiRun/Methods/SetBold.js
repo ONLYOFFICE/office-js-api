@@ -1,8 +1,8 @@
-// This example sets the bold property to the text character.
+// Make text bold in a presentation.
 
-// How to make a text bold.
+// What is bold text formatting in a presentation?
 
-// Create a new text run and set it bold.
+// Add bold formatting to a text run in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

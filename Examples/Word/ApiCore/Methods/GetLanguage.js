@@ -1,4 +1,8 @@
-// This example demonstrates how to get the language of the current document using the ApiCore.
+// Read the language setting stored in the core properties of a document.
+
+// How do I get the language value from the core properties in a document?
+
+// Detect the declared locale of a document to apply the correct spell-check or formatting rules in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

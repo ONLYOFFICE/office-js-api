@@ -1,8 +1,8 @@
-// This example shows how to find out a text font family.
+// Retrieve the font family from text run properties.
 
-// How to know font name of a text run.
+// Create a shape with a text run and set a specific font family.
 
-// Get the text properties of the run and display its font family.
+// Get and display the font name used in the text.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

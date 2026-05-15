@@ -1,4 +1,9 @@
-// This example gets text field and sets mask for entered text for it.
+// Apply an input pattern to a field in a PDF.
+
+// What format should user input follow in a PDF?
+
+// Enforce a specific input structure in a PDF.
+
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 let comboboxField = Api.CreateComboboxField([10, 10, 160, 30]);

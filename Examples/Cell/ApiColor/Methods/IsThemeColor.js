@@ -1,4 +1,8 @@
-// This example shows how to check if the color used in a shape fill is a theme color.
+// Determine whether a color is linked to the document theme in a spreadsheet.
+
+// How do I check if a given color comes from the theme palette rather than a custom value in a spreadsheet?
+
+// Compare a plain hex color and a theme color to verify which one is theme-based in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const hexColor = Api.HexColor('#FF0000');

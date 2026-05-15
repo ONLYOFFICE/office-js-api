@@ -1,8 +1,8 @@
-// This example sets the paragraph text properties.
+// Apply shared text formatting to all text within a paragraph in a document.
 
-// Add text properties to the paragraph.
+// How do I set the same font style and size for every character in a paragraph in a document?
 
-// Make paragraph text bold and bigger.
+// Uniformly style all text in a paragraph by defining its appearance once in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

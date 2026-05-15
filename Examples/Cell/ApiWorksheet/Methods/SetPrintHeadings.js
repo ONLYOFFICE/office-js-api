@@ -1,8 +1,8 @@
-// This example specifies whether the current sheet row/column headers must be printed or not.
+// Add row numbers and column letters to printed output in a spreadsheet.
 
-// How to set whether sheet headings should be printed or not.
+// How do I include row and column identifiers on my printed pages in a spreadsheet?
 
-// Set a boolean value representing whether to print row/column headings or not.
+// Display the grid labels (A, B, C and 1, 2, 3) when printing your spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.SetPrintHeadings(true);

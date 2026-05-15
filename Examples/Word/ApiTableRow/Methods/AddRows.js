@@ -1,8 +1,8 @@
-// This example adds the new rows to the table.
+// Insert additional rows into a table in a document.
 
-// How to add rows to the row.
+// How do I expand a table by adding more rows above or below an existing row in a document?
 
-// Get a table row and insert two new rows after it.
+// Grow a table by placing new blank rows next to a chosen row in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

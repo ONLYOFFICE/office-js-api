@@ -1,8 +1,8 @@
-// This example creates an image and pastes it into the document.
+// Insert an image from a URL into a paragraph in a document.
 
-// Creates the ApiImage object and adds it to the ApiParagraph class.
+// How do I add an image with a specific width and height to a document?
 
-// How to create the ApiImage object using the URL to the image, its width and height.
+// Place a remotely hosted picture at a fixed size inside a paragraph in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

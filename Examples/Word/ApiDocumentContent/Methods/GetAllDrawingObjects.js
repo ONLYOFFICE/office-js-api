@@ -1,8 +1,8 @@
-// This example shows how to get a collection of drawing objects from the document content.
+// Retrieve all drawing objects embedded in document content in a document.
 
-// Get all drawing objects added to the document.
+// How do I collect every drawing object from a content container in a document?
 
-// How to retrieve all drawing objects and fill with color its first one.
+// Change the fill color of the first drawing object found inside a shape in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

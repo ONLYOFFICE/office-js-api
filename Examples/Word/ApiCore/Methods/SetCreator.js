@@ -1,4 +1,8 @@
-// This example demonstrates how to set the creator of the current document using the ApiCore.
+// Store the author's name in the document's core properties in a document.
+
+// How do I set the creator field in a document's metadata in a document?
+
+// Attribute ownership of the document by writing the author's name into the built-in properties in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

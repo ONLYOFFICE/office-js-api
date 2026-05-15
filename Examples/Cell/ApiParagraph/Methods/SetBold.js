@@ -1,4 +1,8 @@
-// This example shows how to set bold formatting for all text in a paragraph inside a shape.
+// Make all text in a paragraph bold inside a shape in a spreadsheet.
+
+// How do I apply bold formatting to an entire paragraph in a spreadsheet?
+
+// Emphasize a paragraph's text by turning on bold weight for every character in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const fill = Api.CreateSolidFill(Api.RGB(160, 100, 110));

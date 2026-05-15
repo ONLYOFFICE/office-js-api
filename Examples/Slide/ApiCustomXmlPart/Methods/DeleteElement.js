@@ -1,4 +1,8 @@
-// This example demonstrates how to delete an XML element from a custom XML part.
+// Delete an XML element from a custom XML part in a presentation.
+
+// Remove a child element from custom XML in a presentation.
+
+// Discard an XML node from a custom XML part in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

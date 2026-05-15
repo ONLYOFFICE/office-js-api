@@ -1,6 +1,8 @@
-// How to get a class type of ApiChart.
+// Identify the class type of a chart object in a PDF.
 
-// Retrieve class type of ApiChart object and insert it to the page.
+// How do I determine what kind of object a chart is in a PDF?
+
+// Retrieve and display the class type of a chart in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

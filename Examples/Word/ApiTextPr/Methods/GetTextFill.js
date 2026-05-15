@@ -1,4 +1,8 @@
-// This example shows how to get the text fill of the text properties.
+// Read the fill color applied to decorative text in a document.
+
+// How do I find out what color fills the inside of styled text in a document?
+
+// Reuse the fill from one text shape to paint another shape with the same color in a document.
 
 const doc = Api.GetDocument();
 

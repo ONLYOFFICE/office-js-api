@@ -1,8 +1,8 @@
-// This example removes all the elements from the paragraph.
+// Remove all content from a paragraph in a PDF.
 
-// How to delete all elements from the paragraph.
+// How do I clear a paragraph completely in a PDF?
 
-// Clear all elements from the paragraph.
+// Delete every element in a paragraph in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -14,7 +14,7 @@ const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = Api.CreateShape("flowChartMagneticTape", 150 * 36000, 65 * 36000, fill, stroke);
 shape.SetPosition(608400, 1267200);
 
-const docContent = shape.GetDocContent();
+const docContent = shape.GetContent();
 const paragraph = docContent.GetElement(0);
 paragraph.AddText("This is the first text run in the current paragraph.");
 paragraph.RemoveAllElements();

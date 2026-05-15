@@ -1,8 +1,8 @@
-// This example sets the placeholder text to the current form.
+// Set placeholder text on a combo box form in a document.
 
-// Add text as a placeholder of the form.
+// How do I add placeholder text to a combo box form in a document?
 
-// Create a combobox and set its placeholder text.
+// Guide users on what to select by displaying hint text inside an empty combo box in a document.
 
 let doc = Api.GetDocument();
 let comboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});

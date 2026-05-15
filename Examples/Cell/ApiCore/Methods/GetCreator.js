@@ -1,4 +1,8 @@
-// This example demonstrates how to get the creator of the current workbook using the ApiCore.
+// Read the author name recorded in the workbook properties in a spreadsheet.
+
+// How do I find out who created a workbook in a spreadsheet?
+
+// Retrieve and display the name of the person who originally authored the workbook in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

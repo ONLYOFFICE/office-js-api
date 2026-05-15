@@ -1,8 +1,8 @@
-// This example creates a 3x3 table and inserts it into the document.
+// Insert a 3x3 table spanning the full page width in a document.
 
-// Creates a table, adds it to the document, and sets its width to 100%.
+// How do I add a table to a document?
 
-// How to create the ApiTable object and add it to the ApiDocument class.
+// Build a new table and stretch it to fill the entire line width in a document.
 
 let doc = Api.GetDocument();
 let table = Api.CreateTable(3, 3);

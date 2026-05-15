@@ -1,8 +1,8 @@
-// This example deletes the run.
+// Remove a text run from a paragraph in a document.
 
-// How to delete the text from the document.
+// How do I delete a piece of text that was added as a run in a document?
 
-// Remove the text run.
+// Erase a specific run so it no longer appears in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

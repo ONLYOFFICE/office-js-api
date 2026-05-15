@@ -1,8 +1,8 @@
-// This example shows how to return the internal rate of return for a series of cash flows.
+// Calculate the internal rate of return for cash flows in a spreadsheet.
 
-// How to calculate the internal rate of the return for a series of cash flows.
+// How do I find the rate of return on a series of investments in a spreadsheet?
 
-// Use a function to get the internal rate.
+// Determine the yield from a sequence of cash flows in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

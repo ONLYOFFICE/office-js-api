@@ -1,4 +1,9 @@
-// This example gets text field and displays char limit property.
+// Check the maximum character limit for a text field in a PDF.
+
+// How do I find out how many characters a text field accepts in a PDF?
+
+// Read the character limit restriction of a text input field in a PDF.
+
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 let textField = Api.CreateTextField([10, 10, 160, 30]);

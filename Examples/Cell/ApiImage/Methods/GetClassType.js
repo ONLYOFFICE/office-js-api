@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Read the class type of an image inserted into a spreadsheet.
 
-// How to get a class type of ApiImage.
+// How do I find out what class type an image object belongs to in a spreadsheet?
 
-// Get a class type of ApiImage and display it in the worksheet.
+// Identify the object category of an image to distinguish it from other drawing elements.
 
 let worksheet = Api.GetActiveSheet();
 let image = worksheet.AddImage(

@@ -1,8 +1,8 @@
-// This example shows how to set a description of a table.
+// Assign a custom description to a pivot table in a spreadsheet.
 
-// How to rename a description of a table.
+// How do I add or change the description text for a pivot table in a spreadsheet?
 
-// Create a pivot table, add data to it then set its description.
+// Label a pivot table with a meaningful note so its purpose is clear in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

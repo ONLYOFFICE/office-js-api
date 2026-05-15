@@ -1,4 +1,9 @@
-// This example shows how to get a table that contains the current content control.
+// Find the table that contains a content control in a document.
+
+// How do I access the table that holds a content control in a document?
+
+// Place a content control inside a table cell and then remove a row from that table in a document.
+
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));

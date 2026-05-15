@@ -1,8 +1,8 @@
-// This example shows how to get the shape inner contents where a paragraph or text runs can be inserted.
+// Access the text content inside a shape in a presentation.
 
-// How to get a content of a shape.
+// How do I edit the text inside a shape in a presentation?
 
-// Retrieve a slide content and insert a paragraph to it.
+// Add a new paragraph to a shape and align it vertically in a presentation.
 
 const presentation = Api.GetPresentation();
 presentation.SetSizes(254 * 36000, 190 * 36000);

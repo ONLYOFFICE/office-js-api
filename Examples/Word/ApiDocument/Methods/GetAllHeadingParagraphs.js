@@ -1,8 +1,8 @@
-// This example shows how to get all heading paragraphs from the document.
+// Retrieve all heading paragraphs in a document.
 
-// Get all heading paragraphs added to the document.
+// How do I collect every heading paragraph present in a document?
 
-// How to retrieve all heading paragraphs and make capitalized the first one.
+// Apply capitalization to the first heading when enforcing a consistent title style.
 
 let doc = Api.GetDocument();
 let newDocumentStyle = doc.GetStyle("Heading 1");

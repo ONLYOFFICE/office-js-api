@@ -1,4 +1,8 @@
-// This example shows how to get the name of the current workbook (filename)
+// Retrieve the sheet that is currently open and display its name in a spreadsheet.
+
+// How do I find out which sheet the user is looking at right now in a spreadsheet?
+
+// Capture the active sheet's name and write it into a shape on the same sheet in a spreadsheet.
 
 const workbook = Api.GetActiveWorkbook();
 const worksheet = workbook.GetActiveSheet();

@@ -1,8 +1,8 @@
-// This example shows how to get a set of the text run properties which will be applied to all the text runs within the table which match the conditional formatting type.
+// Retrieve the text formatting applied to a conditional region of a table style in a document.
 
-// How to get text properties of the table style and make it bold.
+// How do I read the text styling assigned to a specific part of a table style in a document?
 
-// Make the table text bold.
+// Access the text appearance settings for a targeted section of a styled table in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

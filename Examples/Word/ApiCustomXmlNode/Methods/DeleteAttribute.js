@@ -1,4 +1,9 @@
-// This example shows how to delete an attribute from the current XML node.
+// Remove a named attribute from a custom XML node in a document.
+
+// How do I delete an attribute from a custom XML node in a document?
+
+// Strip unwanted metadata from an XML element by dropping one of its attributes in a document.
+
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
 let xmlText = `

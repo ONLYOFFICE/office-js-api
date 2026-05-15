@@ -1,8 +1,8 @@
-// This example shows how to create a solid fill.
+// Apply a solid color fill to a shape in a PDF.
 
-// How to color a background.
+// How do I set the background color of a shape in a PDF?
 
-// Add solid fill color as a shape background.
+// Use an RGB color to fill a shape's background in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

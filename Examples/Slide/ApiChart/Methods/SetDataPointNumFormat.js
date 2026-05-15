@@ -1,8 +1,8 @@
-// This example sets "0.00" numeric format for chart.
+// Apply a number format to data points in a chart in a presentation.
 
-// How to change a number format of a data point.
+// How do I format numbers displayed on a chart in a presentation?
 
-// Create a chart then apply specified numeric format to its data points.
+// Create a chart and set a specific numeric format to display its data values in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

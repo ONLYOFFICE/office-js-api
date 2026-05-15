@@ -1,8 +1,8 @@
-// This example creates a color for the gradient stop selecting it from one of the available color presets.
+// Use a named preset color as one of the stops in a gradient-filled shape in a document.
 
-// Creates the ApiPresetColor object and applies it to the ApiGradientStop class.
+// How do I pick a preset color by name and use it as the start of a gradient fill in a document?
 
-// How to create a preset color and use it for the gradient stop.
+// Build a radial gradient that blends from a named color to an orange tone on a shape in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

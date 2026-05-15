@@ -1,8 +1,8 @@
-// This example checks whether the drawing is flipped horizontally.
+// Check whether a drawing is flipped horizontally in a document.
 
-// How to get the horizontal flip property of the shape.
+// How do I read the horizontal flip state of a shape in a document?
 
-// Create a drawing, add text to it, and read its horizontal flip value.
+// Display the horizontal flip flag of a drawing as a text label in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

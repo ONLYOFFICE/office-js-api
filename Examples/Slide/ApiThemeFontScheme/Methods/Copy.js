@@ -1,8 +1,8 @@
-// This example creates a copy of the theme font scheme.
+// Duplicate a font scheme in a presentation.
 
-// How to create a copy of a font scheme.
+// How do I make a copy of an existing font scheme in a presentation?
 
-// Get font scheme and create its copy.
+// Get a font scheme and create a duplicate of it in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide1 = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// This example shows how to get a number of elements in the current document.
+// Count all elements in the document and display the totals before and after adding paragraphs in a document.
 
-// How to get elements count and push it to the paragraph.
+// How do I check how many elements exist at different points while building a document?
 
-// Count the number of elements in the document.
+// Track the element count dynamically as new paragraphs are pushed into a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

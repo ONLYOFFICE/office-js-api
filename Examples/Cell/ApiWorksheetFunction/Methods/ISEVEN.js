@@ -1,8 +1,8 @@
-// This example shows how to return true if a number is even. 
+// Check if a number is even in a spreadsheet.
 
-// How to check if the number is even.
+// How do I determine if a number is even in a spreadsheet?
 
-// Use a function to check whether a number is even or not.
+// Test whether a value is an even number in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

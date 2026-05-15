@@ -1,4 +1,8 @@
-// This example demonstrates how to set and get the date when the current presentation was printed last time.
+// Record when a presentation was last printed in a presentation.
+
+// How do I track the last print date of a presentation?
+
+// Store and retrieve the last printed timestamp for a presentation.
 
 const presentation = Api.GetPresentation();
 const core = presentation.GetCore();

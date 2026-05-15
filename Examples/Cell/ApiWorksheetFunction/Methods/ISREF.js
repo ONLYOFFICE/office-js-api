@@ -1,8 +1,8 @@
-// This example shows how to check whether a value is a reference, and returns true or false.
+// Determine whether a value is a cell reference in a spreadsheet.
 
-// How to know whether a value is a reference.
+// How do I verify if a value points to a cell or range in a spreadsheet?
 
-// Use a function to find out whether a value is a reference.
+// Use a function to distinguish between cell references and literal values in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

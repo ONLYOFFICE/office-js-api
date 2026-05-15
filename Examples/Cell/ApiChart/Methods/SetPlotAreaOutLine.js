@@ -1,8 +1,8 @@
-// This example sets the outline to the chart plot area.
+// Apply a border around the chart plot area in a spreadsheet.
 
-// How to color chart plot area outline.
+// How do I add a colored outline to the chart plot area in a spreadsheet?
 
-// Add a stroke for plot area outline.
+// Highlight the boundary of the chart data region with a visible stroke in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

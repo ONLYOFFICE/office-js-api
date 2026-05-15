@@ -1,8 +1,8 @@
-// This example shows how to return the cosecant of a complex number.
+// Get the cosecant of a complex number in a spreadsheet.
 
-// How to get the cosecant.
+// How do I calculate the cosecant of a complex number in a spreadsheet?
 
-// Use a function to get the cosecant of a complex number.
+// Apply the cosecant function to a complex number in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

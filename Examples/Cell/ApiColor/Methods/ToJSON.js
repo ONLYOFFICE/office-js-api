@@ -1,4 +1,8 @@
-// This example shows how to convert a shape fill color to JSON.
+// Serialize a shape fill color into a JSON string in a spreadsheet.
+
+// How do I export a color object as a JSON-formatted string for storage or inspection in a spreadsheet?
+
+// Capture the full color definition as structured text and write it to a cell in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const color = Api.RGB(64, 128, 192);

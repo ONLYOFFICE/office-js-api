@@ -1,5 +1,9 @@
-// Analyzes arc command parameters including radius and angles.
-// Retrieves width radius, height radius, start and sweep angles of an arc.
+// Read how many degrees an arc spans inside a custom shape in a document.
+
+// How do I find out how far around an arc extends in a custom shape in a document?
+
+// Retrieve the total angular span of an arc segment within a drawn shape in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let customGeometry = Api.CreateCustomGeometry();

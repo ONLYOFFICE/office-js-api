@@ -1,8 +1,8 @@
-// This example shows how to get font from above average formatting rule.
+// Access the text styling settings of an above-average conditional formatting rule in a spreadsheet.
 
-// How to retrieve font formatting from above average conditional formatting.
+// How do I read and modify the font used when a cell value is above average in a spreadsheet?
 
-// Get the font object from the above average rule.
+// Retrieve the typography settings from an average-based rule to apply bold or colored text in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

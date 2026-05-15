@@ -1,8 +1,8 @@
-// This example specifies an amount of space which will be left between the left extent of the cell contents and the left border of all table cells within the parent table.
+// Set the spacing between cell content and the left edge of every cell in a table in a document.
 
-// How to set the left margin of the table cell.
+// How do I add breathing room to the left of the text inside every table cell in a document?
 
-// Resize the left margin of the cell.
+// Push cell content away from the left border of each cell in a table in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

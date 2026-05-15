@@ -1,5 +1,9 @@
-// Analyzes cloud shape path properties on a slide.
-// Displays comprehensive path information in a text shape.
+// Count the drawing paths in a shape's geometry in a presentation.
+
+// How do I find how many paths a shape has in a presentation?
+
+// Determine the number of paths that make up a shape's outline in a presentation.
+
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);
 let fill = Api.CreateSolidFill(Api.RGB(100, 150, 200));

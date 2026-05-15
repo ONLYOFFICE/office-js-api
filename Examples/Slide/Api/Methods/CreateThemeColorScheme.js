@@ -1,8 +1,8 @@
-// This example shows how to create a new theme color scheme.
+// Build a custom color palette for a presentation's theme in a presentation.
 
-// How to change color scheme of the theme.
+// How do I define custom colors for the presentation theme in a presentation?
 
-// Add color scheme to the theme.
+// Create a named color scheme with multiple custom colors and assign it to the presentation in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

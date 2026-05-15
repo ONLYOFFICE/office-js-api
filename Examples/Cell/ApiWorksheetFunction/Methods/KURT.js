@@ -1,8 +1,8 @@
-// This example shows how to return the kurtosis of a data set.
+// Calculate the kurtosis of a set of numbers in a spreadsheet.
 
-// How to know a data set kurtosis.
+// How do I measure the shape of a data distribution in a spreadsheet?
 
-// Use a function to find out kurtosis of a data set.
+// Find the kurtosis value that describes the peakedness of a dataset in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

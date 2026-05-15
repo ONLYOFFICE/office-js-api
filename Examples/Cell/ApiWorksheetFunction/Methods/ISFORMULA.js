@@ -1,8 +1,8 @@
-// This example shows how to check whether a reference to a cell contains a formula, and returns true or false. 
+// Detect whether a cell contains a formula in a spreadsheet.
 
-// How to check if the cell contains formula or not.
+// How do I find out if a cell has a formula in a spreadsheet?
 
-// Use a function to check whether a range data is a formula or not.
+// Use a function to identify cells with formulas versus static values in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

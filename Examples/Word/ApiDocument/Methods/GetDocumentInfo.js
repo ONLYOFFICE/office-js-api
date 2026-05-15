@@ -1,8 +1,8 @@
-// This example shows how to get the document info represented as an object and paste the application name into the last paragraph.
+// Retrieve document metadata and display the application name in a document.
 
-// How to get information such as application with which the document was created.
+// How do I read document properties like the creating application in a document?
 
-// Display the document information.
+// Add a paragraph showing which application produced the document in a document.
 
 let doc = Api.GetDocument();
 let docInfo = doc.GetDocumentInfo();

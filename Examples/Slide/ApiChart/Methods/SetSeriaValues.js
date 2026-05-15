@@ -1,8 +1,8 @@
-// This example sets values to the specified chart series.
+// Modify the numbers displayed in a specific chart series in a presentation.
 
-// How to set values to the specified ApiChart object.
+// Change the data values of a chart series in a presentation.
 
-// Create a chart, set its properties and its series values.
+// Update a chart series with new numerical data in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

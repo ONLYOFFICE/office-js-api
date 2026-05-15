@@ -1,4 +1,8 @@
-// This example shows how to get the HEX string of a shape fill color.
+// Read the hexadecimal representation of a color used in a spreadsheet.
+
+// How do I obtain the hex code of a fill color applied to a shape in a spreadsheet?
+
+// Inspect a shape's fill color and extract its hex value for display in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const color = Api.RGB(255, 111, 61);

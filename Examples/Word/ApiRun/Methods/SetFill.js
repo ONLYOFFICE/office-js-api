@@ -1,8 +1,8 @@
-// This example sets the text color to the current text run.
+// Fill the text of a run with a solid color in a document.
 
-// How to set solid fill to the text.
+// How do I apply a solid color fill to the characters of a text run in a document?
 
-// Create a new text run and set its font color.
+// Color the text itself using a fill rather than a simple color property in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

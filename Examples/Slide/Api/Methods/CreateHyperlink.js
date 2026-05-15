@@ -1,4 +1,8 @@
-// This example shows how to create a hyperlink and set it to an image.
+// Add a clickable link to an image in a presentation.
+
+// How do I make an image open a website when clicked in a presentation?
+
+// Attach a URL to an image so it navigates to a webpage in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

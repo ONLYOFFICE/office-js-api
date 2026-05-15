@@ -1,8 +1,8 @@
-// This example shows how to create a group of drawings.
+// Group multiple shapes together so they move and resize as one unit in a document.
 
-// Creates two "rect" shapes in the current document and groups them.
+// How do I combine several shapes into a single group in a document?
 
-// How to create the ApiGroup object from an array of drawings.
+// Keep two shapes aligned by bundling them into one grouped object in a document.
 
 let doc = Api.GetDocument();
 let fill1 = Api.CreateSolidFill(Api.RGB(255, 111, 61));

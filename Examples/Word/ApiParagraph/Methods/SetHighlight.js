@@ -1,8 +1,8 @@
-// This example sets highlight color "lightGray" for the paragraph.
+// Add a background highlight color to paragraph text in a document.
 
-// How to set highlight to the text.
+// How do I highlight the text of a paragraph with a color in a document?
 
-// Create a new paragraph and highlight it.
+// Draw attention to paragraph content by painting its background with a chosen color in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

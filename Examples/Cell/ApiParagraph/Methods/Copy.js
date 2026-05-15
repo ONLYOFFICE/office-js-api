@@ -1,8 +1,8 @@
-// This example creates a paragraph copy.
+// Duplicate a paragraph and append it to a shape in a spreadsheet.
 
-// How to create an identical paragraph.
+// How do I reuse an existing paragraph without rewriting it in a spreadsheet?
 
-// Get a paragraph from the content of the shape create its copy and add it to the shape.
+// Clone a formatted paragraph and attach the duplicate at the end of the shape content in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

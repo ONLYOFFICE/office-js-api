@@ -1,4 +1,9 @@
-// This example sets start point to line annotation.
+// Reposition where a line annotation begins in a PDF.
+
+// How do I move the starting position of a line in a PDF?
+
+// Update the coordinates for the line's starting location in a PDF.
+
 let doc = Api.GetDocument();
 let lineAnnot = Api.CreateLineAnnot([10, 10, 160, 32], {x: 12, y: 12}, {x: 155, y: 30});
 lineAnnot.SetEndStyle("openArrow");

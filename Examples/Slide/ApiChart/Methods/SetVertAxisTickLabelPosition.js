@@ -1,8 +1,8 @@
-// This example spicifies tick label position for the vertical axis.
+// Position tick labels on the vertical axis at the top of the chart area.
 
-// How to change a position of tick label.
+// Configure chart styling with axis label placement in a presentation.
 
-// Create a chart, set its properties and its vertical axis tick label position.
+// Create a 3D bar chart with vertical axis tick labels positioned at the top.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

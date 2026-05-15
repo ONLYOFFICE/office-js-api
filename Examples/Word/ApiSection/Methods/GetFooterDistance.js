@@ -1,8 +1,8 @@
-// This example sets the footer distance and then reads it back.
+// Read the gap between the page bottom edge and the footer in a document.
 
-// How to get footer distance of the section.
+// How do I find out how much space separates the footer from the page bottom in a document?
 
-// Retrieve the current distance between the end of the page and the footer.
+// Check the footer spacing to verify that the layout matches the intended design in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example shows how to round a number up, away from zero.
+// Round a number up to the nearest integer in a spreadsheet.
 
-// How to round a number up.
+// How do I round numbers up in a cell in a spreadsheet?
 
-// Use a function to round a number away from zero.
+// Increase a number to its higher whole number or specified decimal place in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

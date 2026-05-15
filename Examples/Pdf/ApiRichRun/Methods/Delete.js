@@ -1,4 +1,9 @@
-// This example delete rich run object from parent rich paragraph.
+// Remove a text run from its paragraph in a PDF.
+
+// How do I delete a text run in a PDF?
+
+// Take out a text element from a paragraph in a PDF.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

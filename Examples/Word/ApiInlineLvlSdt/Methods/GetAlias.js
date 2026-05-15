@@ -1,8 +1,8 @@
-// This example showh how to get the alias attribute for the container.
+// Read the alias of an inline content control in a document.
 
-// How to get an alias of the inline text element.
+// How do I get the alias assigned to an inline content control in a document?
 
-// Retrieve the alias of the text element and display it in the document.
+// Display the alias label of a named content control to verify its identity in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

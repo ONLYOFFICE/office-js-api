@@ -1,4 +1,9 @@
-// This example shows how to get the text content of a custom XML node and its children.
+// Extract the combined text content of a custom XML node and its descendants in a document.
+
+// How do I get the text from a custom XML node in a document?
+
+// Collect all readable text nested inside an XML element, including child nodes, in a document.
+
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
 let xmlText = `

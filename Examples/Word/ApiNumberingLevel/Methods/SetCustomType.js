@@ -1,8 +1,8 @@
-// This example sets your own customized numbering type.
+// Apply a custom numbering type to list levels in a document.
 
-// How to set the custom type of the numbering.
+// How do I set a lower-roman numbering style across multiple list levels in a document?
 
-// Apply the lower roman style to the numbering level.
+// Build a multi-level list where each level uses a custom format string and start value in a document.
 
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("numbered");

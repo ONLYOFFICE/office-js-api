@@ -1,4 +1,8 @@
-// This example demonstrates how to get the internal ID of a block-level container
+// Read the unique identifier assigned to a content control in a document.
+
+// How do I retrieve the unique ID of a content control in a document?
+
+// Display the ID of a content control to identify it programmatically in a document.
 
 const doc = Api.GetDocument();
 const blockLvlSdt = Api.CreateBlockLvlSdt();

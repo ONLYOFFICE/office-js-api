@@ -1,8 +1,8 @@
-// This example shows how to create a scheme color with the 'dk1' identifier.
+// Fill a shape using a color taken from the document's active theme palette in a document.
 
-// Creates a complex color scheme using the 'dk1' scheme identifier.
+// How do I use one of the document's theme colors as the solid fill for a shape in a document?
 
-// How to create the ApiSchemeColor object and use it as a background for the ApiShape object.
+// Apply a theme-aware color to a shape so it updates automatically when the theme changes in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example shows how to get the table row properties of the current style.
+// Set a minimum height for table rows through a style in a document.
 
-// How to get table row and set its height.
+// How do I define the row height for a table using a style in a document?
 
-// Resize the row of the table.
+// Enforce a consistent row size across a table by updating the style in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

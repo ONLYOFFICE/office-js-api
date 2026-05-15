@@ -1,8 +1,8 @@
-// This example shows how to get the paragraph properties.
+// Access the formatting properties of a paragraph inside a shape in a spreadsheet.
 
-// How to get properites of a paragraph and set the spacing.
+// How do I read and adjust the layout settings of a paragraph in a spreadsheet?
 
-// Get the paragraph properites, change them, add a text and add the paragraph to the shape content.
+// Modify paragraph spacing through its properties object and observe the effect in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

@@ -1,5 +1,9 @@
-// Analyzes path commands of a star shape.
-// Retrieves information about the first command including type and coordinates.
+// Read the vertical position of a drawing command's endpoint in a document.
+
+// How do I find the vertical coordinate of the first drawing command on a shape in a document?
+
+// Inspect a shape's path to confirm the vertical position of its starting point in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.RGB(255, 200, 100));

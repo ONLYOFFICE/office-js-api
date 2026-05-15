@@ -1,8 +1,8 @@
-// This example shows how to get an author of a comment.
+// Retrieve the name of the person who wrote a comment in a presentation.
 
-// How to find out a comment's author.
+// How do I find out who created a comment in a presentation?
 
-// Get all comments from the presentation and display the first one's author name.
+// Display the author's name for a comment in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

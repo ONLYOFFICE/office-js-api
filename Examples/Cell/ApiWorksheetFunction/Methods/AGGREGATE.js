@@ -1,8 +1,8 @@
-// This example shows how to return an aggregate in a list or database.
+// Summarize numbers while skipping errors and hidden rows in a spreadsheet.
 
-// How to get an aggregate of a numbers and display it in the worksheet.
+// Use the AGGREGATE function to calculate totals with filtering options in a spreadsheet.
 
-// Get a function that gets an aggregate from a list of numbers.
+// Get a single result value by choosing which calculation method to apply in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

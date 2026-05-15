@@ -1,8 +1,8 @@
-// This example shows how to delete an above average conditional formatting rule.
+// Remove a highlight rule that marks values above the average in a spreadsheet.
 
-// How to remove above average conditional formatting from a range.
+// How do I delete a conditional formatting rule that highlights above-average cells in a spreadsheet?
 
-// Delete the above average formatting rule.
+// Clear an above-average rule from a range so cells return to their default appearance in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// This example sets the italic property to the text character.
+// Display text in italics in a presentation.
 
-// How to make a text italic.
+// Can I slant text to make it italicized in a presentation?
 
-// Get the text properties of the run and set it to italic.
+// Enable italic formatting for the text characters in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

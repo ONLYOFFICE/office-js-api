@@ -1,8 +1,8 @@
-// This example shows how to return the day of the date given in the numerical format, a number from 1 to 31.
+// Extract the day number (1-31) from a date in a spreadsheet.
 
-// How to get a day from a date.
+// What day of the month does a date represent in a spreadsheet?
 
-// Use function to get day from provided date.
+// Pull the day component from a date value in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

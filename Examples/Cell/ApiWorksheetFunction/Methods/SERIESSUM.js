@@ -1,8 +1,8 @@
-// This example shows how to return the sum of a power series based on the formula.
+// Return the sum of a power series based on the formula in a spreadsheet.
 
-// How to calculate the sum of a power series.
+// Calculate the sum of a power series using the SERIESSUM function.
 
-// Use a function to sum up a power series using a formula.
+// Apply the function to compute and display the result in a cell.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

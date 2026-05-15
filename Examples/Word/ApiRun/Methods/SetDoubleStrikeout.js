@@ -1,8 +1,8 @@
-// This example specifies that the contents of the current run are displayed with two horizontal lines through each character displayed on the line.
+// Draw two horizontal lines through the characters of a text run in a document.
 
-// How to strike out a text with two lines.
+// How do I apply a double strikethrough to a piece of text in a document?
 
-// Create a new text run and set double strikeout to it.
+// Cross out text with a double line to indicate deletion or emphasis in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example specifies the visual properties for the major vertical gridlines.
+// Format the major vertical gridlines in a chart in a presentation.
 
-// How to set a stroke as major vertical gridlines.
+// How do I customize the appearance of the main vertical lines in a chart in a presentation?
 
-// Create a chart, set its properties and its vertical gridlines properties.
+// Apply a custom color and thickness to the major vertical gridlines in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

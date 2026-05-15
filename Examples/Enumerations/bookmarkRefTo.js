@@ -1,4 +1,4 @@
-// This example adds a cross-reference to the page containing a bookmark.
+// Add a cross-reference to the page containing a bookmark.
 
 // How to add reference to the bookmarked page.
 

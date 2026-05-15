@@ -1,8 +1,8 @@
-// This example show how to get the previous chart.
+// Apply gridline styling to the chart that precedes the current one in a document.
 
-// How to update minor horizontal gridlines of the previous chart.
+// How do I access the previous chart and update its gridlines in a document?
 
-// Get the previous chart and set its horizontal lines as a stroke. 
+// Reach back to an earlier chart and assign a custom stroke to its minor horizontal gridlines in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

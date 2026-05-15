@@ -1,8 +1,8 @@
-// This example adds some text to the run.
+// Add text to a text run in a presentation.
 
-// How to add a text to a text run object.
+// How do I insert text into a text run in a presentation?
 
-// How to add a text to the slide.
+// Include text content on a slide in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// This example specifies that the contents of this paragraph are displayed with a single horizontal line through the center of the line.
+// Draw a horizontal line through the text of a paragraph in a document.
 
-// How to cross the paragraph with onle line.
+// How do I display paragraph text with a line crossed through it in a document?
 
-// Create a paragraph with the text struck out with a single line.
+// Mark paragraph content as struck through with a single line in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

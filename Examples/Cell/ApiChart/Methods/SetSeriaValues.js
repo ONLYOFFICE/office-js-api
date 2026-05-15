@@ -1,8 +1,8 @@
-// This example sets values from the specified range to the specified series.
+// Assign cell range data as the values for a chart series in a spreadsheet.
 
-// How to add values to series from the indicated range using addresses.
+// How do I point a chart series to a different range of cells for its values in a spreadsheet?
 
-// Fill series with values obtained from the worksheet cells.
+// Update the data a chart series displays by linking it to a new range of cells in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

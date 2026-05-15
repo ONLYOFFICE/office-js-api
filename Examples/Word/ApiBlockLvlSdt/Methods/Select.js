@@ -1,8 +1,8 @@
-// This example selects the content control.
+// Select a content control in a document.
 
-// Creates a block content control and selects it.
+// How do I select a content control in a document?
 
-// How to select the ApiBlockLvlSdt object in the current document.
+// Highlight an entire content control to make it active and ready for editing in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

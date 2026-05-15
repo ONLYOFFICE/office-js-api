@@ -1,8 +1,8 @@
-// This example finds out whether a text has the properties set.
+// Read the named style attached to a text run in a document.
 
-// How to know whether a text's style is changed or not.
+// How do I find out which style is applied to a piece of text in a document?
 
-// Retrieve text properties of the form and display its style name.
+// Retrieve the style name from a text run to verify its formatting origin in a document.
 
 let doc = Api.GetDocument();
 let myNewRunStyle = doc.CreateStyle("My New Run Style", "run");

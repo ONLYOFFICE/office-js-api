@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the presentation.
+// Identify the kind of formatting object attached to a table in a document.
 
-// How to get a class type of ApiTablePr.
+// How do I confirm what category a table's settings object belongs to in a document?
 
-// Retrieve class type of ApiTablePr object and insert it to the document.
+// Verify the object type of a table's property container in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

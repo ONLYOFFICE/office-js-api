@@ -1,8 +1,8 @@
-// This example show how to set the outline to the data point.
+// Add a visible border around a single data point on a chart in a spreadsheet.
 
-// Sets the outline to the data point in the specified chart series.
+// How do I draw an outline on one specific data point in a chart series in a spreadsheet?
 
-// How to set data point outline using a stroke.
+// Distinguish an individual bar or marker by giving it a colored border in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

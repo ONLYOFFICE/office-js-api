@@ -1,8 +1,8 @@
-// This example specifies the border which will be displayed below a set of paragraphs which have the same paragraph border settings.
+// Add a bottom border to a paragraph via its style in a document.
 
-// Add the bottom border to the paragraph.
+// How do I place a line below a paragraph using paragraph border settings in a document?
 
-// Get the first paragraph and set its border.
+// Visually separate a styled paragraph from content below it by drawing a bottom edge.
 
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");

@@ -1,4 +1,9 @@
-// This example converts the form to an inline form.
+// Convert a fixed-size complex form back to an inline form in a document.
+
+// How do I switch a complex form from fixed size to inline in a document?
+
+// Remove fixed dimensions from a copied form so it flows with the surrounding text in a document.
+
 let doc = Api.GetDocument();
 let complexForm = Api.CreateComplexForm({"key": "Complex1"});
 complexForm.Add('Complex form');

@@ -1,4 +1,9 @@
-// This example shows how to retrieve all custom XML parts in the document and display them.
+// List every custom XML part stored in a document.
+
+// How do I retrieve all custom XML parts at once in a document?
+
+// Iterate over every embedded XML part to audit or process stored data in a document.
+
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
 let xmlText1 = '<products><item><name>Laptop</name><price>999</price></item></products>';

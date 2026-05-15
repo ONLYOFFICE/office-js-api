@@ -1,8 +1,8 @@
-// This example shows how to create a blip fill to apply to the object using the selected image as the object background.
+// Fill a shape with an image in a PDF.
 
-// How to set an image as a background.
+// How do I use an image as a fill in a PDF?
 
-// Use blip fill to fill a background with an image.
+// Apply a repeating image pattern to a shape in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

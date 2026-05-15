@@ -1,8 +1,8 @@
-// This example converts the ApiDocument object into the JSON object.
+// Serialize the document object to a JSON representation in a document.
 
-// How to get a JSON object from the document content.
+// How do I convert a document to JSON so its structure can be reused in a document?
 
-// Convert the document to json file.
+// Export a document as JSON and then reconstruct its elements to insert shapes or other objects into a new context.
 
 let doc = Api.GetDocument();
 let json = doc.ToJSON(true, true, true, true, true, true);

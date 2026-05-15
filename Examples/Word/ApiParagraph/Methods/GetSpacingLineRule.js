@@ -1,8 +1,8 @@
-// This example shows how to get the paragraph line spacing rule.
+// Read the line spacing rule applied to a paragraph in a document.
 
-// How to get the spacing line rule of the paragraph and display it.
+// How do I find out which line spacing rule a paragraph uses in a document?
 
-// Get the paragraph spacing line rule.
+// Display the spacing rule name alongside paragraph text to confirm the setting in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

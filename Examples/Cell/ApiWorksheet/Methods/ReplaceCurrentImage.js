@@ -1,8 +1,8 @@
-// This example replaces the image with a new one.
+// Swap a selected image for a different one in a spreadsheet.
 
-// How to replace an image to another one.
+// How do I replace an existing image with a new one in a spreadsheet?
 
-// Replace an image from one to another using their urls.
+// Substitute the current image with another using its URL in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let drawing = worksheet.AddImage(

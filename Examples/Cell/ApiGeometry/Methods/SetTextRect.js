@@ -1,5 +1,9 @@
-// Creates adjustable custom geometry with guides and connection points.
-// Displays adjustment value in a cell and applies geometry to shape.
+// Define the text area boundaries within a custom shape in a spreadsheet.
+
+// How do I control where text appears inside a shape in a spreadsheet?
+
+// Restrict the writable region of a shape so text fits within a specific zone in a spreadsheet.
+
 let worksheet = Api.GetActiveSheet();
 let customGeometry = Api.CreateCustomGeometry();
 customGeometry.AddAdj("adj1", 25000);

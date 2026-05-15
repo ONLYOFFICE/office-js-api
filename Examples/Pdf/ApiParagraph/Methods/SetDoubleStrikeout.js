@@ -1,4 +1,8 @@
-// This example applies double strikeout formatting to paragraph text.
+// Apply double strikeout to paragraph text in a PDF.
+
+// How do I cross out text with two lines in a paragraph in a PDF?
+
+// Strike through text with a double line in a paragraph in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// This example adds a run to the container.
+// Insert a text run into an inline content control at a specific position in a document.
 
-// How to add text run to the inline text element.
+// How do I add a run element to an inline content control in a document?
 
-// Add text to the inline control indicating the starting index.
+// Populate an inline content control by placing a run at a chosen index in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

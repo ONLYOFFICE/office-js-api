@@ -1,4 +1,8 @@
-// This example deletes the form.
+// Remove a combo box form field from a document.
+
+// How do I permanently delete a combo box form field in a document?
+
+// Keep a copy of a form field and delete the original to leave only the duplicate in a document.
 
 const doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example adds an inline container to the document.
+// Insert an inline text container with editable content into a document.
 
-// How to create an inline text content control, add a text run to it, and add this container to the document.
+// How do I add an inline text box that sits inside a paragraph in a document?
 
-// Creates an inline container and adds it to the ApiParagraph class.
+// Wrap typed text inside an inline field that flows with the surrounding paragraph in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

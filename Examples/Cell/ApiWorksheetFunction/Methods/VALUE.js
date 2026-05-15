@@ -1,8 +1,8 @@
-// This example shows how to convert a text string that represents a number to a number.
+// Convert a text string that represents a number to a number in a spreadsheet.
 
-// How to get number from a text.
+// The VALUE function parses numeric text and returns actual numeric values.
 
-// Use a function to return a number from a string.
+// Apply the function to convert numeric text strings to numbers in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

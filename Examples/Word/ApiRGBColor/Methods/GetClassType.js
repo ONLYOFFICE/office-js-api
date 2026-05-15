@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Check what category a custom color value belongs to in a document.
 
-// How to get a class type of ApiRGBColor.
+// How do I find out the type of a custom color used for a shape fill in a document?
 
-// Retrieve class type of ApiRGBColor object and insert it to the document.
+// Confirm the color category before reusing a custom color object in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

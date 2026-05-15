@@ -1,8 +1,8 @@
-// This example gets the first series of ApiChart class and inserts its type into the presentation.
+// Access a specific data series from a chart and display its type in a presentation.
 
-// How to get a seria from a chart using its index.
+// How do I get a particular series from a chart by its index in a presentation?
 
-// Find a chart seria.
+// Retrieve a series from a chart and show its type in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

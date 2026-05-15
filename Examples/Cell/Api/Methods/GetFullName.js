@@ -1,8 +1,8 @@
-// This example shows how to get the full name of the currently opened file.
+// Retrieve the complete file path of the currently opened document in a spreadsheet.
 
-// How to get a full name of the file.
+// How do I display the full name and location of the current file in a spreadsheet?
 
-// Insert a full name of the file into a cell.
+// Write the entire file path into a cell so the source is always visible in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let name = Api.GetFullName();

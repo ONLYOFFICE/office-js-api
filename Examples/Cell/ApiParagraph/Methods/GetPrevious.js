@@ -1,8 +1,8 @@
-// This example shows how to get the previous paragraph.
+// Navigate to the paragraph that comes before the current one inside a shape in a spreadsheet.
 
-// How to get the previous paragraph from the current one.
+// How do I move back to the preceding paragraph in a sequence in a spreadsheet?
 
-// Add two paragraphs into the shape content then get the first one using the GetPrevious method.
+// Access the earlier paragraph to apply changes like bold formatting in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

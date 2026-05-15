@@ -1,8 +1,8 @@
-// This example creates a picture form with the common and specific picture form properties.
+// Insert an image upload field where users can add photos in a document.
 
-// How to create a picture form and add it to the paragraph.
+// How do I create an image field for users to upload pictures in a document?
 
-// Add the ApiPictureForm object to the document to upload a photo and set its image by a URL.
+// Enable users to fill in a form by selecting or uploading image files in a document.
 
 let doc = Api.GetDocument();
 let pictureForm = Api.CreatePictureForm({

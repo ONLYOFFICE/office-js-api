@@ -1,8 +1,8 @@
-// This example sets the selection to the specified range.
+// Highlight a specific range of text as the active selection in a document.
 
-// How to select a range with a cursor.
+// How do I make a portion of text become the current selection in a document?
 
-// Get range of the paragraph and select it.
+// Mark a segment of text so it is selected and ready for further actions in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

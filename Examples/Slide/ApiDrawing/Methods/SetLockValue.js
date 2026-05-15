@@ -1,8 +1,8 @@
-// This example sets the lock value to the specified lock type of the shape.
+// Prevent a shape from being selected on a slide in a presentation.
 
-// How to set a lock value to a shape which means that the shape cannot be selected.
+// How do I lock a shape so it cannot be changed in a presentation?
 
-// Select a shape object from a slide and set its lock value.
+// Create a shape and restrict access to it by preventing selection in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

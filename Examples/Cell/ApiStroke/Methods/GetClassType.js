@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Read the type label of a border object attached to a shape in a spreadsheet.
 
-// How to get a class type of ApiStroke.
+// How do I find out what kind of object a shape's border is in a spreadsheet?
 
-// Get a class type of ApiStroke and display it in the worksheet.
+// Check the category name of a stroke to confirm it is the expected border type in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let gradientStop1 = Api.CreateGradientStop(Api.RGB(255, 213, 191), 0);

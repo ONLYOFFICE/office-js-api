@@ -1,8 +1,8 @@
-// This example shows how to set a pivot field caption.
+// Give a pivot field a custom display caption in a spreadsheet.
 
-// How to rename a pivot field caption.
+// How do I change the label shown for a pivot field header in a spreadsheet?
 
-// Create a pivot table, add data to it then rename a specified pivot field's caption.
+// Rename a pivot field's heading so it reads more clearly to viewers in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

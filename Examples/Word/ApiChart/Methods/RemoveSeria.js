@@ -1,8 +1,8 @@
-// This example shows how to remove the specified series from the current chart.
+// Remove a data series from a chart by its position in a document.
 
-// How to remove seria from the chart indicating its index.
+// How do I delete one of the data series from a chart in a document?
 
-// Create a chart, add series to it and then remove the second one. 
+// Trim a chart down to fewer series when some data is no longer needed in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

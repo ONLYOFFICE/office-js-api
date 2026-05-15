@@ -1,8 +1,8 @@
-// This example adds a chart to the paragraph.
+// Embed a bar chart into a paragraph in a document.
 
-// How to add a drawing to the paragraph.
+// How do I insert a drawing object into a paragraph in a document?
 
-// Add a chart to the paragraph.
+// Visualize financial data by placing a formatted 3D bar chart inside a paragraph in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example specifies which chart data labels are shown for the chart.
+// Control which data label elements are visible on a chart in a document.
 
-// How to show specific chart data labels.
+// How do I choose which parts of data labels appear on a chart in a document?
 
-// Create a chart, set its properties and its specific data labels visibility.
+// Hide or reveal values, percentages, and category names on chart data labels in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

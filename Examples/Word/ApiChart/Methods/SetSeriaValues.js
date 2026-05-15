@@ -1,8 +1,8 @@
-// This example sets values to the specified chart series.
+// Update the data values of a chart series in a document.
 
-// How to set values to the specified ApiChart object.
+// How do I replace the numbers in a chart series in a document?
 
-// Create a chart, set its properties and its series values.
+// Refresh a chart with revised figures without rebuilding the entire chart from scratch in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

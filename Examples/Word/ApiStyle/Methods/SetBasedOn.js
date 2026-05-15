@@ -1,8 +1,8 @@
-// This example specifies the reference to the parent style which this style inherits from in the style hierarchy.
+// Base a custom table style on an existing style in a document.
 
-// How to get the specific style from the document and create table style based on it.
+// How do I build a new table style that inherits formatting from another style in a document?
 
-// Inherit bordered style of the document.
+// Reuse a built-in style as the foundation for a custom table style in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

@@ -1,8 +1,8 @@
-// This example shows how to move the cursor outside of the inline content control.
+// Place the cursor outside an inline content control in a document.
 
-// How to move the cursor out of the form.
+// How do I move the cursor beyond the boundaries of an inline content control in a document?
 
-// Move the cursor out of the inline text control.
+// Programmatically exit a content control so subsequent input lands outside it in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

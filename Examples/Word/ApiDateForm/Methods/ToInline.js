@@ -1,8 +1,8 @@
-// This example converts the current form to an inline form.
+// Convert a date form to an inline form in a document.
 
-// How to make the date form inline.
+// How do I change a fixed-size date form back to inline in a document?
 
-// Create a date form and make its position inline.
+// Switch a date form from fixed dimensions to flow naturally with surrounding text in a document.
 
 let doc = Api.GetDocument();
 let dateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});

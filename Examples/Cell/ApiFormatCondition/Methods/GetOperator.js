@@ -1,8 +1,8 @@
-// This example gets the operator of a conditional formatting rule.
+// Read the comparison type of a conditional formatting rule in a spreadsheet.
 
-// How to retrieve the operator from conditional formatting rules.
+// How do I find out which comparison a conditional formatting rule uses to evaluate cell values in a spreadsheet?
 
-// Get conditional formatting rule operator.
+// Verify the logical condition of a formatting rule to ensure it highlights the right cells in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

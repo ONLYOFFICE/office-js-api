@@ -1,10 +1,8 @@
-// This example selects the current graphic object.
+// Select a drawing object on the sheet in a spreadsheet.
 
-// How to select drawing objects on the worksheet.
+// How do I programmatically choose which drawings are selected in a spreadsheet?
 
-// Create three shapes, select the first one,
-// then select the second shape with isReplace=true (replacing the selection),
-// and finally select the third shape without isReplace parameter (adding to selection).
+// Build a multi-shape selection by adding shapes one at a time or replacing the current selection in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill1 = Api.CreateSolidFill(Api.RGB(255, 111, 61));

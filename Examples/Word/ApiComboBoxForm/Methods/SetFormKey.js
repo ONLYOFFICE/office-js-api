@@ -1,8 +1,8 @@
-// This example sets a unique key identifier for the combo box form.
+// Assign a unique identifier key to a combo box form field in a document.
 
-// Use SetFormKey to assign a key, which can be used to reference or validate the form later.
+// How do I label a combo box form with a key so it can be referenced later in a document?
 
-// Retrieves the assigned key and displays it in a new paragraph within the document.
+// Tag a form field with a custom key and then read it back to confirm the assignment in a document.
 
 let doc = Api.GetDocument();
 let comboBoxForm = Api.CreateComboBoxForm({"tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});

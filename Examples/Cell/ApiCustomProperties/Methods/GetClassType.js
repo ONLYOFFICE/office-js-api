@@ -1,4 +1,8 @@
-// This example demonstrates how to get the class type of ApiCustomProperties.
+// Check what type of object manages custom properties in a spreadsheet.
+
+// How do I confirm the category of the custom properties container in a spreadsheet?
+
+// Verify the identity of the metadata handler before working with custom fields in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const customProps = Api.GetCustomProperties();

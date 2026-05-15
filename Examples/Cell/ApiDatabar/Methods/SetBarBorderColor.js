@@ -1,8 +1,8 @@
-// This example demonstrates setting the bar border color of a data bar conditional formatting rule.
+// Change the border color of a data bar used for conditional formatting in a spreadsheet.
 
-// How to change the border color of a data bar.
+// How do I apply a custom border color to a data bar rule in a spreadsheet?
 
-// Set the bar border color of a data bar conditional formatting rule.
+// Distinguish data bar ranges visually by giving each bar outline a specific color in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

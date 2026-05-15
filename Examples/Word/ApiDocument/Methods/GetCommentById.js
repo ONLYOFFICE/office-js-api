@@ -1,8 +1,8 @@
-// This example shows how to get a comment from the document by its ID.
+// Fetch a specific comment by its unique ID in a document.
 
-// Search the comment by its ID.
+// How do I look up a comment using its ID in a document?
 
-// Get comment author knowing its ID.
+// Read the author name of a known comment by retrieving it with its ID in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

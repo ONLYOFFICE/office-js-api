@@ -1,8 +1,8 @@
-// This example shows how to get a number of elements in the current paragraph.
+// Count the number of elements inside a paragraph in a spreadsheet.
 
-// Get paragraph elements count.
+// How do I check how many pieces of content a paragraph holds in a spreadsheet?
 
-// How to get number of elements of the paragraph and show it in the worksheet.
+// Track the element count before and after adding a text run to a paragraph in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

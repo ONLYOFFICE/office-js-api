@@ -1,8 +1,8 @@
-// This example inserts a break at the specified location in the main document.
+// Insert a page or line break before a drawing in a document.
 
-// How to add some space from the drawing.
+// How do I place a break at a specific position relative to a drawing in a document?
 
-// Insert a drawing and text into document and add a break to them.
+// Force content to start on a new page by adding a break before an existing shape.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

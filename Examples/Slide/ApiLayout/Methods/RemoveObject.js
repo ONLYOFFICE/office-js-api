@@ -1,8 +1,8 @@
-// This example shows how to remove objects from a slide layout.
+// Delete a shape or object from a layout in a presentation.
 
-// How to remove objects from a layout using their index position.
+// How do I remove an element from a layout by its position in a presentation?
 
-// Delete an element from the slide.
+// Remove a specific shape using its index on a layout in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

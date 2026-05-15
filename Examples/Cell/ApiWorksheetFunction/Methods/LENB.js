@@ -1,8 +1,8 @@
-// This example shows how to analyse the specified string and returns the number of characters it contains and is intended for languages that use the double-byte character set (DBCS) like Japanese, Chinese, Korean etc.
+// Count the byte length of text for languages with multi-byte characters in a spreadsheet.
 
-// How to analyse the specified string and get its length.
+// How do I measure text length in Chinese, Japanese, or other double-byte languages in a spreadsheet?
 
-// Use a function to analyse a string, get length of a string and its intended language.
+// Get the byte count of text instead of character count in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

@@ -1,4 +1,9 @@
-// This example demonstrates creating a preset geometry.
+// Change a rectangle into a five-pointed star shape in a document.
+
+// How do I apply a built-in star shape outline to an existing shape in a document?
+
+// Replace a plain rectangle with a named preset shape and display its properties in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 

@@ -1,8 +1,8 @@
-// This example shows how to round a positive number up and negative number down to the nearest even integer.
+// Round a positive number up and negative number down to the nearest even integer in a spreadsheet.
 
-// How to round up a number.
+// Round numbers to the nearest even integer.
 
-// Use function to round up positive/negative numbers.
+// Apply EVEN function to round positive and negative numbers in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

@@ -1,4 +1,9 @@
-// This example clears content from rich run object.
+// Remove all text from a text run in a PDF.
+
+// How do I empty the text in a text run in a PDF?
+
+// Delete the content of a text element in a PDF.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// This example adds a paragraph in document content.
+// Insert a new paragraph into the text area of a shape placed on a sheet in a spreadsheet.
 
-// How to add text to the document using ApiParagraph.
+// How do I append a paragraph to the content inside a drawing or shape in a spreadsheet?
 
-// Update the document content adding a paragraph to it.
+// Populate an empty shape with a text block by adding a paragraph to its content in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

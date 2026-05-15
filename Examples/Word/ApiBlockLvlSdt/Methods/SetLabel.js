@@ -1,8 +1,8 @@
-// This example sets a label attribute to the container.
+// Assign a numeric label to a content control in a document.
 
-// Creates a block content control and sets a label to it.
+// How do I attach a label value to a content control in a document?
 
-// How to set a label to the ApiBlockLvlSdt object.
+// Mark a content control with a label and confirm the value in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

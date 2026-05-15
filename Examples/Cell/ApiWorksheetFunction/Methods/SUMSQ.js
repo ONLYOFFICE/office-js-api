@@ -1,8 +1,8 @@
-// This example shows how to return the sum of the squares of the arguments.
+// Return the sum of the squares of the arguments in a spreadsheet.
 
-// How to calculate the sum of the squares.
+// Calculate the sum of squared values using the SUMSQ function.
 
-// Use a function to estimate the sum of the squares.
+// Returns the total of all squared arguments.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

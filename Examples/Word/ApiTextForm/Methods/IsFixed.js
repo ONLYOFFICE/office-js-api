@@ -1,8 +1,8 @@
-// This example checks if the current form is fixed size.
+// Check whether a text field has a fixed size in a document.
 
-// How to know whether the first text form from this document is fixed.
+// How do I find out if a form field is locked to a set width and height in a document?
 
-// Get the boolean that represents the fixed property of the text form.
+// Determine if a text field will resize or stay at a fixed frame size in a document.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});

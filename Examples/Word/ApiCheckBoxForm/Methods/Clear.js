@@ -1,8 +1,8 @@
-// This example clears the form.
+// Uncheck a checked checkbox form field in a document.
 
-// How to remove check from the checkbox form.
+// How do I reset a checkbox back to its unchecked state in a document?
 
-// Clear answer from the checkbox form.
+// Remove a previously selected answer from a radio button group so the form appears blank again in a document.
 
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});

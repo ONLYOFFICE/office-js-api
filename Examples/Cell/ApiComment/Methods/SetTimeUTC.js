@@ -1,8 +1,8 @@
-// This example sets the timestamp of the comment creation in UTC format.
+// Store the creation time of a comment as a UTC timestamp in a spreadsheet.
 
-// How to change a timestamp in UTC when a comment was created.
+// How do I record when a comment was created using a universal time value in a spreadsheet?
 
-// Add a comment then update its creation time in UTC format and show it in the worksheet.
+// Assign a UTC-based creation time to a comment so all users see the same timestamp in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

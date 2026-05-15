@@ -1,8 +1,8 @@
-// This shows how to link numbering level with the specified heading style.
+// Link a numbering level to a heading style in a document.
 
-// How to link the numbering with the style of another element.
+// How do I connect a list numbering level to a paragraph heading style in a document?
 
-// Apply the style of the element to the numbering.
+// Combine custom numbered lists with styled headings to create a formatted outline in a document.
 
 const doc = Api.GetDocument();
 const headings = [];

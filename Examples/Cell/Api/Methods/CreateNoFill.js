@@ -1,8 +1,8 @@
-// This example creates no fill and removes the fill from the element.
+// Remove the background fill from a shape so its interior becomes transparent in a spreadsheet.
 
-// How to remove fill from the element.
+// How do I make a shape's background fully transparent by removing its fill in a spreadsheet?
 
-// Set no fill color for the element.
+// Clear any color or pattern from a shape's background to leave it see-through in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let gs1 = Api.CreateGradientStop(Api.RGB(255, 213, 191), 0);

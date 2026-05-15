@@ -1,4 +1,8 @@
-// This example shows how to get the current run from the document content of a shape.
+// Retrieve the text run that is currently active inside a shape's content area in a spreadsheet.
+
+// How do I access the specific run of text the cursor is positioned on within a shape in a spreadsheet?
+
+// Read the active inline text segment from a shape's content to inspect its value in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

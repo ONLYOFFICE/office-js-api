@@ -1,8 +1,8 @@
-// This example sets the properties from another drawing to the drawing.
+// Copy layout properties from one drawing to another in a document.
 
-// How to apply the properties of one shape to another.
+// How do I make two shapes share the same wrapping and alignment settings in a document?
 
-// Create the second drawing with the same style.
+// Reuse the position, wrapping, and spacing configuration of an existing shape on a new shape in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

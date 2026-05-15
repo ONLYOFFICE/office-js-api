@@ -1,8 +1,8 @@
-// This example specifies the visual properties for the major vertical gridlines.
+// Style the major vertical gridlines of a chart in a document.
 
-// How to set a stroke as major vertical gridlines.
+// How do I change the appearance of major vertical gridlines in a document?
 
-// Create a chart, set its properties and its vertical gridlines properties.
+// Apply a custom color and weight to vertical reference lines to improve chart readability in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

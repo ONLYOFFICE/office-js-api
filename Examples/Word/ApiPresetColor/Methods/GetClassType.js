@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Check what category a named color belongs to in a document.
 
-// How to get a class type of ApiPresetColor.
+// How do I find out the type of a named color used for a shape fill in a document?
 
-// Retrieve class type of ApiPresetColor object and insert it to the document.
+// Confirm the color category before reusing a named color value in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

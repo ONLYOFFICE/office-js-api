@@ -1,8 +1,8 @@
-// This example shows how to get the internal id of the current form.
+// Read the unique identifier assigned to a picture form in a document.
 
-// How to get an internal id of a picture form.
+// How do I obtain the unique identifier of a picture form in a document?
 
-// Retrieve the internal id of a created picture form and display it.
+// Identify a picture form by looking up its internal identifier in a document.
 
 let doc = Api.GetDocument();
 let pictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false, "shiftX": 50, "shiftY": 50});

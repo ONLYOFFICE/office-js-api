@@ -1,8 +1,8 @@
-// This example demonstrates how to delete a top 10 conditional formatting rule.
+// Remove a top-10 conditional formatting rule from a range in a spreadsheet.
 
-// How to remove conditional formatting rules from a range.
+// How do I delete a conditional formatting rule that highlights top values in a spreadsheet?
 
-// Delete top 10 conditional formatting rule.
+// Clear a highlight rule for top values and confirm the rule count dropped in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// This example sets a key to the current form.
+// Assign a unique key to each checkbox form to identify it later in a document.
 
-// How to set a form key.
+// How do I set a unique identifier on a checkbox form in a document?
 
-// Set a key to the form.
+// Label multiple checkbox forms with distinct keys and read back the key to verify the assignment in a document.
 
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": false});

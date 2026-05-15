@@ -1,8 +1,8 @@
-// This example specifies a one-based index which determines when a numbering level should restart to its starting value.
+// Control whether a nested numbering level restarts after each parent item in a document.
 
-// How to restart the numbering.
+// How do I prevent a child list level from resetting its counter when the parent list continues in a document?
 
-// Reset the numbering of the bulleted text.
+// Keep a sub-list counting continuously across multiple parent list items in a document.
 
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("numbered");

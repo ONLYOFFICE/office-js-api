@@ -1,8 +1,8 @@
-// This example adds an object (image, shape or chart) to the current pdf page.
+// Insert a visual element onto a page in a PDF.
 
-// How to add an element to the page.
+// How do I add content to the page in a PDF?
 
-// Create a chart and add it to the ApiPage object.
+// Place a chart or shape on the current page in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

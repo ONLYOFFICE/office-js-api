@@ -1,8 +1,8 @@
-// This example shows how to get a set of the table properties which will be applied to all the regions within a table which match the conditional formatting type.
+// Access the table formatting tied to a conditional table style in a document.
 
-// How to get table properties and set its bottom border.
+// How do I read and update the overall table settings for a conditional style region in a document?
 
-// Update the table style by setting its border.
+// Set a border on a table region by modifying its conditional style properties in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

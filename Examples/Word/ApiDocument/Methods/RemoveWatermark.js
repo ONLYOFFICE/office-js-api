@@ -1,8 +1,8 @@
-// This example sets the parameters of the watermark settings and apply them to the document.
+// Remove a watermark after applying it with custom settings in a document.
 
-// How to remove the watermark.
+// How do I add and then delete a watermark in a document?
 
-// Add the watermark with settings and then delete it.
+// Verify that a watermark can be cleared by checking the type before and after removal in a document.
 
 let doc = Api.GetDocument();
 let watermarkSettings = doc.GetWatermarkSettings();

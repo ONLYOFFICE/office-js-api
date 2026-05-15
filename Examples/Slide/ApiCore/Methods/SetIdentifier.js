@@ -1,4 +1,8 @@
-// This example demonstrates how to set and get the identifier of the current presentation using the ApiCore.
+// Set and retrieve the identifier of a presentation in a presentation.
+
+// How do I set the identifier of a presentation in a presentation?
+
+// Retrieve and display the identifier as text in a presentation.
 
 const presentation = Api.GetPresentation();
 const core = presentation.GetCore();

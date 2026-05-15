@@ -1,8 +1,8 @@
-// This example shows how to return the argument Theta, an angle expressed in radians.
+// Get the angle of a complex number in radians in a spreadsheet.
 
-// How to get an angle expressed in radians.
+// How do I find the argument of a complex number in a spreadsheet?
 
-// Use a function to get an angle expressed in radians.
+// Calculate the phase angle of a complex number in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

@@ -1,8 +1,8 @@
-// This example shows how to get selected shapes from the sheet.
+// Get all shapes that are currently highlighted by the user in a spreadsheet.
 
-// How to get seletectd shapes.
+// Work with shape objects after a user marks them in the document in a spreadsheet?
 
-// Get selected shapes as an array.
+// Update text and positioning for every selected shape simultaneously in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let gradientStop1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);

@@ -1,8 +1,8 @@
-// This example specifies whether a number in the cell should be treated like number, currency, date, time, etc. or just like text.
+// Control how numbers are displayed — as currency, dates, percentages, or plain text in a spreadsheet.
 
-// How to set number format of cells.
+// How do I change the way a number looks without changing its value in a spreadsheet?
 
-// Get a range and specify number format of its cells.
+// Apply formatting patterns so the same number renders differently in each cell in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.SetColumnWidth(0, 30);

@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Retrieve the class type identifier of a checkbox form field in a document.
 
-// How get a class type of ApiCheckBoxForm.
+// How do I confirm the object type of a checkbox form at runtime in a document?
 
-// Retrieve class type of a created checkbox object and display it.
+// Verify that a form element is a checkbox before applying checkbox-specific operations in a document.
 
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "required": true, "placeholder": "Marital status", "radio": true});

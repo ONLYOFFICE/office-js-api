@@ -1,8 +1,8 @@
-// This example sets the paragraph right side indentation.
+// Set right indentation for a paragraph in a presentation.
 
-// How to set paragraph's right side indentation size.
+// How do I indent the right side of a paragraph in a presentation?
 
-// Resize the right side indentation of a text from a paragraph.
+// Apply a specific right margin distance to paragraph text in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

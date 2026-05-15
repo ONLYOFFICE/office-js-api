@@ -1,5 +1,9 @@
-// Creates a custom shape and adds it to a slide.
-// Applies custom geometry with specific fill and stroke properties.
+// Close a shape path to complete a custom shape outline in a presentation.
+
+// How do I finish drawing a closed shape in a presentation?
+
+// Complete a custom geometry path by connecting the endpoints in a presentation.
+
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);
 let customGeometry = Api.CreateCustomGeometry();

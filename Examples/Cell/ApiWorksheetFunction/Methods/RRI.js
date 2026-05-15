@@ -1,8 +1,8 @@
-// This example shows how to return an equivalent interest rate for the growth of an investment.
+// Calculate the interest rate from an investment's growth in a spreadsheet.
 
-// How to get an investment growth interest rate.
+// How do I find the interest rate when I know the investment's start and end value in a spreadsheet?
 
-// Use a function to an equivalent interest rate for the increase of an investment.
+// Determine the annual growth rate from investment performance data in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

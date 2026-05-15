@@ -1,6 +1,8 @@
-// How to return a cell using its row index.
+// Access a specific cell from a table row in a PDF.
 
-// Create a table, get its row and get a cell from this row.
+// How do I retrieve a single cell from a row in a PDF?
+
+// Get any cell you want from a table row in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

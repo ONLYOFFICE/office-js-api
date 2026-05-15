@@ -1,8 +1,8 @@
-// This example shows how to clear label filters from a pivot field.
+// Remove label-based filters from a pivot table field in a spreadsheet.
 
-// How to remove previously applied pivot field label filters.
+// How do I clear text or name filters from a pivot field without affecting other filter types in a spreadsheet?
 
-// Create a pivot table, add data to it then delete label filters from a custom field.
+// Reset only the label filters on a pivot field so its item names are no longer restricted in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

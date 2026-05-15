@@ -1,8 +1,8 @@
-// This example adds a tab stop to the run.
+// Insert spacing between text using tabs in a PDF.
 
-// How to add a tab after a string in a text run.
+// How do I add a tab space in text within a PDF?
 
-// How to split a text with a tab.
+// Place a tab character in text in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -12,7 +12,7 @@ const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = Api.CreateShape("flowChartMagneticTape", 150 * 36000, 65 * 36000, fill, stroke);
 shape.SetPosition(608400, 1267200);
 
-const docContent = shape.GetDocContent();
+const docContent = shape.GetContent();
 const paragraph = docContent.GetElement(0);
 const run = Api.CreateRun();
 run.SetFontSize(30);

@@ -1,8 +1,8 @@
-// This example specifies that the contents of the current run are displayed with a single horizontal line through the center of the line.
+// Draw a line through text in a PDF.
 
-// How to strike out a text run.
+// What method adds a strikethrough effect to text in a PDF?
 
-// Create a new text run and set cross it out.
+// Mark text with a horizontal line passing through it in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -12,7 +12,7 @@ const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = Api.CreateShape("flowChartMagneticTape", 150 * 36000, 65 * 36000, fill, stroke);
 shape.SetPosition(608400, 1267200);
 
-const docContent = shape.GetDocContent();
+const docContent = shape.GetContent();
 const paragraph = docContent.GetElement(0);
 let run = Api.CreateRun();
 run.AddText("This is just a sample text. ");

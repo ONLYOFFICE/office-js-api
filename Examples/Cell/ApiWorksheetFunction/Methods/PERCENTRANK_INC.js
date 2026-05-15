@@ -1,8 +1,8 @@
-// This example shows how to return the rank of a value in a data set as a percentage (0..1, inclusive) of the data set.
+// Get the rank of a value as a percentage within a range, including edges in a spreadsheet.
 
-// How to return the rank of a value in a data set as a percentage.
+// How do I rank a number as a percentage relative to other values in a spreadsheet?
 
-// Use a function to get a rank of a value in a data set.
+// Find where a value stands percentually between the smallest and largest numbers in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

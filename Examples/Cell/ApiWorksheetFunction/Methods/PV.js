@@ -1,8 +1,8 @@
-// This example shows how to return the present value of an investment: the total amount that a series of future payments is worth now.
+// Calculate the present value of a series of future payments in a spreadsheet.
 
-// How to get the present value of an investment.
+// What is an investment worth today given future payment amounts in a spreadsheet?
 
-// Use a function to calculate the total amount that a series of future payments is worth now.
+// Determine the lump sum needed now for a stream of future payments in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

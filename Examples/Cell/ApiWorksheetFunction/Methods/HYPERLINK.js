@@ -1,8 +1,8 @@
-// This example shows how create a shortcut that jumps to another location in the current workbook, or opens a document stored on your hard drive, a network server, or on the Internet.
+// Create a clickable hyperlink to a URL or workbook location in a spreadsheet.
 
-// How to create a hyperlink.
+// How do I add a hyperlink to text in a spreadsheet?
 
-// Use a function to add url to the text.
+// Link text to a website or file using a hyperlink in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

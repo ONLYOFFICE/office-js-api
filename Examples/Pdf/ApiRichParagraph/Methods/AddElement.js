@@ -1,4 +1,9 @@
-// This example adds new element to rich paragraph.
+// Insert an element into a paragraph in a PDF.
+
+// How do I add items to a paragraph in a PDF?
+
+// Place a new element at a specific position in a paragraph in a PDF.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

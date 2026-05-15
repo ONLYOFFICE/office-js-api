@@ -1,4 +1,4 @@
-// This example sets a gradient stop position in 100%.
+// Set a gradient stop position in 100%.
 
 // How to create a gradient stop using positive percentage.
 

@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Retrieve the class type of a document content object in a document.
 
-// How get a class type of ApiDocumentContent.
+// How do I identify what type a document content object is in a document?
 
-// Retrieve class type of a created document content and display it.
+// Confirm whether a shape's inner container is a document content before processing it further.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

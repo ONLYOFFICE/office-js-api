@@ -1,8 +1,8 @@
-// This example adds a caption paragraph after the current table.
+// Insert a labeled caption below a table to identify it in a document.
 
-// How to add caption to the table.
+// How do I add a numbered caption beneath a table so readers can reference it in a document?
 
-// Add text as a table caption specifying its properties.
+// Attach a descriptive label with a sequence number to a table in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

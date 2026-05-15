@@ -1,5 +1,9 @@
-// Gets geometry information from a preset star shape.
-// Displays the preset type and checks if the geometry is custom.
+// Check whether a shape's geometry is custom or uses a built-in preset in a document.
+
+// How do I tell if a shape's geometry is custom-defined in a document?
+
+// Distinguish between preset and hand-crafted geometry before deciding how to modify a shape in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.RGB(255, 200, 100));

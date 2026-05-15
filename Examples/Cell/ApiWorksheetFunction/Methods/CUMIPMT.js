@@ -1,8 +1,8 @@
-// This example shows how to get the cumulative interest paid between two periods.
+// Sum up the interest payments across a loan period range in a spreadsheet.
 
-// How to return the cumulative interest paid between two periods.
+// What is the total interest paid during a specific loan period in a spreadsheet?
 
-// Use function to get cumulative interest paid between two periods.
+// Calculate the accumulated interest between payment periods in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

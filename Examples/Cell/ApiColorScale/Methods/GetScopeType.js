@@ -1,8 +1,8 @@
-// This example gets the scope type of color scale formatting rule.
+// Retrieve the scope setting that controls how a color gradient rule is applied across cells in a spreadsheet.
 
-// How to retrieve the scope type of color scale conditional formatting.
+// How do I find out whether a color scale rule applies to the whole range or only selected parts in a spreadsheet?
 
-// Get color scale scope type.
+// Determine the coverage mode of a color gradient condition to understand its boundaries in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

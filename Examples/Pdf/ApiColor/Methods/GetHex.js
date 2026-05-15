@@ -1,4 +1,8 @@
-// This example shows how to get the RGB components of the color.
+// Get the hex color value in a PDF.
+
+// How do I convert a color to hex format in a PDF?
+
+// Retrieve the hex code and display it as text in the PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

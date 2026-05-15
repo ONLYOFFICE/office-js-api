@@ -1,8 +1,8 @@
-// This example shows how to set an orientation of a pivot field.
+// Move a pivot field to the rows, columns, or values area in a spreadsheet.
 
-// How to change a pivot field orientation.
+// How do I reassign a pivot field to a different area of the pivot table in a spreadsheet?
 
-// Create a pivot table, add data to it then change an orientation a specified pivot.
+// Reorganize a pivot table by switching a field from rows to columns in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 
@@ -34,11 +34,5 @@ pivotTable.AddFields({
 
 pivotTable.AddDataField('Price');
 
-let pivotWorksheet = Api.GetActiveSheet();
-pivotWorksheet.GetRange('A12').SetValue('The Style field orientation will change soon');
-
 let pivotField = pivotTable.GetPivotFields('Style');
-
-setTimeout(function () {
-    pivotField.SetOrientation("Columns");
-}, 5000);
+pivotField.SetOrientation("Columns");

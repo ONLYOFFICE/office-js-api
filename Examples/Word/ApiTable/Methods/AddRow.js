@@ -1,8 +1,8 @@
-// This example adds a new row to the table.
+// Insert a new row into a table in a document.
 
-// How to add row to the table.
+// How do I add an extra row to a table in a document?
 
-// Get row cell and add it as row. 
+// Extend a table by appending a row after a chosen position in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

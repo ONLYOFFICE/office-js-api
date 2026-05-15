@@ -1,8 +1,8 @@
-// This example shows how to estimate standard deviation based on a sample (ignores logical values and text in the sample).
+// Estimate the standard deviation of a sample.
 
-// How to calculate the standard deviation based on a sample.
+// The STDEV_S function calculates sample standard deviation while ignoring logical values and text.
 
-// Use a function to get the standard deviation.
+// Get the standard deviation of the sample values and place it in cell C1.
 
 const worksheet = Api.GetActiveSheet();
 

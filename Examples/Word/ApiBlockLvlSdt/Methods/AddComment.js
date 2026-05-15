@@ -1,10 +1,8 @@
-// This example adds a comment to the block content control.
+// Attach a reviewer comment to a content control in a document.
 
-// Creates a block content control in the ApiDocument class, adds a paragraph with a text to it, and adds a comment to the content control.
+// How do I add a comment with an author name to a content control in a document?
 
-// How to add a comment written by John Smith to the ApiBlockLvlSdt object.
-
-// John Smith comments on the block content control in the current document.
+// Let a named reviewer leave a comment on a content control for collaborative review in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

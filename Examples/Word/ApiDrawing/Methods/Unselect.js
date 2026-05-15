@@ -1,9 +1,8 @@
-// This example unselects the current graphic object.
+// Remove a shape from the current selection while keeping other shapes selected in a document.
 
-// How to unselect drawing objects with the cursor.
+// How do I deselect a single drawing without clearing the whole selection in a document?
 
-// Create three shapes, select all of them,
-// then unselect the second shape.
+// Fine-tune a multi-shape selection by excluding one specific shape in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
@@ -32,4 +31,3 @@ drawing1.Select(true);
 drawing2.Select();
 drawing3.Select();
 drawing2.Unselect();
-

@@ -1,9 +1,8 @@
-// This example shows how to calculate variance based on the entire population, including logical values and text. Text and the false logical value have the value 0; the true logical value has the value 1.
+// Calculate variance based on the entire population, including logical values and text. Text and the false logical value have the value 0; the true logical value has the value 1 in a spreadsheet.
 
-// How to estimate variance based on the entire population considering logical values and text.
+// The VARPA function computes population variance by treating logical and text values as numbers.
 
-// Use a function to estimate variance based on population not ignoring logical values and text.
-
+// Apply the function to calculate variance based on population including logical and text values in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// This example shows how to get a collection of shape objects in the paragraph.
+// Retrieve all shape objects embedded in a paragraph in a document.
 
-// How to retrieve all shapes from the document.
+// How do I get every shape from a paragraph in a document?
 
-// Get all shapes and color the first one.
+// Apply consistent styling to multiple shapes at once by collecting them from a paragraph in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

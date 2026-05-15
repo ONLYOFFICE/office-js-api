@@ -1,8 +1,8 @@
-// This example specifies the alignment which will be applied to the contents of the current run in relation to the default appearance of the text run.
+// Position text above, below, or on the baseline inside a shape in a spreadsheet.
 
-// How to set vertical alignment of a text object.
+// How do I control whether text appears as superscript or subscript in a spreadsheet?
 
-// Create a text run object, specify its vertical alignment as "baseline", "subscript" or "superscript".
+// Raise or lower individual text runs relative to the normal line height in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

@@ -1,8 +1,8 @@
-// This example shows how to get a paragraph element using the position specified.
+// Retrieve a text element from a paragraph by position in a PDF.
 
-// How to return an element from the ApiPargaraph object.
+// How do I access a specific text element in a paragraph in a PDF?
 
-// Get an object from the paragraph.
+// Extract an element at a given position from a paragraph in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -13,7 +13,7 @@ const fill = Api.CreateRadialGradientFill([gs1, gs2]);
 const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = Api.CreateShape("flowChartMagneticTape", 150 * 36000, 65 * 36000, fill, stroke);
 shape.SetPosition(608400, 1267200);
-const docContent = shape.GetDocContent();
+const docContent = shape.GetContent();
 const paragraph = docContent.GetElement(0);
 paragraph.RemoveAllElements();
 

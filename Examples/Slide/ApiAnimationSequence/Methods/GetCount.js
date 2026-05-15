@@ -1,4 +1,8 @@
-// This example gets the number of effects in an animation sequence.
+// Count the number of animations in a sequence in a presentation.
+
+// How do I find out how many animations are applied to a slide in a presentation?
+
+// Get the total number of animation effects in a sequence in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

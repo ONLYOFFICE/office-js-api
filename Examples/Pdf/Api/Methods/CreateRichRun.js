@@ -1,4 +1,9 @@
-// How to create a rich run and add it to rich paragraph.
+// Add a text element to an annotation in a PDF.
+
+// How do I insert text into an annotation in a PDF?
+
+// Create and place formatted text inside a callout box in a PDF.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

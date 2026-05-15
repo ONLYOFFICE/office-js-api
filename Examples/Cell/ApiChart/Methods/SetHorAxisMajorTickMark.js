@@ -1,8 +1,8 @@
-// This example specifies the major tick mark "cross" for the horizontal axis.
+// Control where the major tick marks appear on the horizontal axis of a chart in a spreadsheet.
 
-// How to specify major tick mark for the horizontal axis.
+// How do I set the style of major tick marks on the horizontal axis of a chart in a spreadsheet?
 
-// Major mark the horizontal axis of the chart.
+// Place crossing tick marks at each major interval along the bottom axis of a chart in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

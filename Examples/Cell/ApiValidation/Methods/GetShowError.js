@@ -1,8 +1,8 @@
-// This example gets whether the error message is displayed.
+// Check whether the error alert is turned on for a validated cell in a spreadsheet.
 
-// How to check if validation shows an error message.
+// How do I find out if an error message appears when someone enters a wrong value in a spreadsheet?
 
-// Get the ShowError setting.
+// Confirm that invalid entries will trigger a visible warning in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");

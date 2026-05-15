@@ -1,4 +1,8 @@
-// This example shows how to get the last Run with text in the paragraph.
+// Access the final text element in a paragraph in a PDF.
+
+// How do I find the last text element within a paragraph in a PDF?
+
+// Locate and modify the final text segment of a paragraph in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,4 +1,8 @@
-// This example show how to get an array with all tables from the presentation.
+// Find all tables in a presentation.
+
+// How do I access every table on slides, layouts, and masters in a presentation?
+
+// Count tables from all locations and display the results in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

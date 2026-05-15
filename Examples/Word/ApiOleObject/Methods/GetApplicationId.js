@@ -1,8 +1,8 @@
-// This example shows how to get the application ID from the OLE object.
+// Read the application ID of an embedded OLE object in a document.
 
-// How to get an application ID of the OLE object.
+// How do I retrieve the application identifier from an OLE object in a document?
 
-// Display the application ID of the OLE object.
+// Inspect which application is associated with an embedded object by displaying its ID in a document.
 
 let doc = Api.GetDocument();
 let oleObject = Api.CreateOleObject(

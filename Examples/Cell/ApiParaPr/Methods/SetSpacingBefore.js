@@ -1,8 +1,8 @@
-// This example sets the spacing before the current paragraph.
+// Add extra space above a paragraph inside a shape in a spreadsheet.
 
-// How to add the spacing before the paragraphs using points.
+// How do I increase the gap between one paragraph and the one before it in a spreadsheet?
 
-// Get a paragraph from the shape's content then add a text specifying the spacing before a custom text.
+// Separate two paragraphs visually by applying a top spacing value to the second one in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

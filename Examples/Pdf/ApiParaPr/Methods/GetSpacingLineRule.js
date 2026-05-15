@@ -1,8 +1,8 @@
-// This example shows how to get the paragraph line spacing rule.
+// Find out how line spacing is measured in a PDF.
 
-// How to get the size of a spacing line rule of a text from a paragraph.
+// How do I check the line spacing rule for a paragraph in a PDF?
 
-// Return a spacing line rule property of a paragraph.
+// Identify the line spacing rule applied to a paragraph in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -15,7 +15,7 @@ const shape = Api.CreateShape("flowChartMagneticTape", 150 * 36000, 65 * 36000, 
 shape.SetPosition(608400, 1267200);
 page.AddObject(shape);
 
-const docContent = shape.GetDocContent();
+const docContent = shape.GetContent();
 let paragraph = docContent.GetElement(0);
 const paraPr = paragraph.GetParaPr();
 paraPr.SetSpacingLine(3 * 240, "auto");

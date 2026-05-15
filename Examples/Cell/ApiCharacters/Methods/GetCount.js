@@ -1,8 +1,8 @@
-// This example shows how to get a value that represents a number of objects in the collection.
+// Count the number of characters in a selected text range within a cell in a spreadsheet.
 
-// How to get collection objects count.
+// How do I find out how many characters are in a specific portion of a cell's text in a spreadsheet?
 
-// How to get array length.
+// Measure the length of a character selection taken from a cell value in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B1");

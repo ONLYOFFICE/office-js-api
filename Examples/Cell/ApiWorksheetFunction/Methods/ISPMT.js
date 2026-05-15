@@ -1,8 +1,8 @@
-// This example shows how to return the interest paid during a specific period of an investment.
+// Calculate the interest payment for a specific period of a loan in a spreadsheet.
 
-// How to get the investment interest paid during a specific period.
+// How do I find the interest amount for a particular payment period in a spreadsheet?
 
-// Use a function to get an interest paid during a specific period.
+// Use a function to break down loan payments into principal and interest components in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

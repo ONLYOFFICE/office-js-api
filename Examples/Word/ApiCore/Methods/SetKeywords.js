@@ -1,4 +1,8 @@
-// This example demonstrates how to set the keywords of the current document using the ApiCore.
+// Save a list of keywords in the document's core properties in a document.
+
+// How do I add searchable keywords to a document's metadata in a document?
+
+// Improve discoverability by tagging the document with relevant terms stored in its built-in properties in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

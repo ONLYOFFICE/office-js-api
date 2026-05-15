@@ -1,8 +1,8 @@
-// This example adds a tab stop to the paragraph.
+// Insert tab stops to align text within a paragraph in a document.
 
-// How to separate two texts with tabs.
+// How do I add horizontal spacing between words using tab characters in a document?
 
-// Insert tabs to the paragraph.
+// Position a block of text further along the line by placing multiple tab stops after an opening sentence in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

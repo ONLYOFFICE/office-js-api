@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the presentation.
+// Identify the object type of a table row in a document.
 
-// How to get a class type of ApiTableRow.
+// How do I confirm that an object represents a table row rather than another element in a document?
 
-// Retrieve class type of ApiTableRow object and insert it to the document.
+// Read the type label of a table row to distinguish it from other document objects in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

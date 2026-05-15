@@ -1,6 +1,8 @@
-// How to rename a chart seria.
+// Change the label of a data series in a chart in a PDF.
 
-// Create a chart, set its properties and its series names.
+// How do I rename a data series in a chart in a PDF?
+
+// Give a custom name to a data series to display in the chart legend in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

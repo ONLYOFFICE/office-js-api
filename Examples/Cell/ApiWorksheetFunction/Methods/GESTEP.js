@@ -1,8 +1,8 @@
-// This example shows how to test whether a number is greater than a threshold value. The function returns 1 if the number is greater than or equal to the threshold value and 0 otherwise.
+// Check if a number is greater than or equal to a threshold value in a spreadsheet.
 
-// How to compare a number with a threshold value.
+// How do I test whether a value meets a minimum requirement in a spreadsheet?
 
-// Use a function to find out whether a value greater than a limit.
+// Get a binary result showing if one number exceeds another in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

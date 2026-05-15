@@ -1,8 +1,8 @@
-// This example shows how to create and set the formatting properties which will be conditionally applied to the parts of a table that match the requirement specified in the sType parameter.
+// Apply different formatting to specific regions of a table using conditional rules in a document.
 
-// How to create a style that will be applied to the table elements whish satisfy the condition.
+// How do I style individual parts of a table differently depending on their position in a document?
 
-// Create a conditional table style.
+// Target table sections such as the whole table or header row with distinct formatting rules in a document.
 
 let doc = Api.GetDocument();
 let table = Api.CreateTable(2, 2);

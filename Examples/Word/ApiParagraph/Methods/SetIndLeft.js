@@ -1,8 +1,8 @@
-// This example sets the paragraph left side indentation.
+// Move the entire left edge of a paragraph inward from the page margin in a document.
 
-// How to set the indentation for the paragraph left side.
+// How do I shift a paragraph away from the left margin by a specific amount in a document?
 
-// Create a new paragraph and set its left side indentation.
+// Push a paragraph's left boundary inward to create a visual offset from surrounding text in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

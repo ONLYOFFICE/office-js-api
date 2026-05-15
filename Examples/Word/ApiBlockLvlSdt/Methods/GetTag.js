@@ -1,8 +1,8 @@
-// This example shows how to get a tag attribute for the container.
+// Read the tag value attached to a content control in a document.
 
-// Creates a block content control, sets a tag to it, and returns this tag to insert it into the second paragraph of the document.
+// How do I get the tag of a content control in a document?
 
-// How to get a tag from the ApiBlockLvlSdt object.
+// Assign a tag to a content control and then display that tag as text in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

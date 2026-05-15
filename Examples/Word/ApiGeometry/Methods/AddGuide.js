@@ -1,5 +1,9 @@
-// Creates a shape with adjustable parameters and guides.
-// Sets up text rectangle and connection points for the custom geometry.
+// Add a guide to a custom geometry shape in a document.
+
+// How do I add a guide to a shape's geometry in a document?
+
+// Use a guide to reference a calculated position when defining a shape's outline in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let customGeometry = Api.CreateCustomGeometry();

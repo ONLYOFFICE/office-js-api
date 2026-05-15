@@ -1,8 +1,8 @@
-// This example sets a name to the specified chart series.
+// Change the name of a data series in a chart in a presentation.
 
-// How to rename a chart seria.
+// How do I rename the labels shown in a chart legend in a presentation?
 
-// Create a chart, set its properties and its series names.
+// Update the display name for a specific data series to appear correctly in the chart legend in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

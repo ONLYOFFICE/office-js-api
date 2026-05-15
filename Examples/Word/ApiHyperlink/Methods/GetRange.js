@@ -1,8 +1,8 @@
-// This example shows how to get a Range object that represents the document part contained in the specified hyperlink.
+// Obtain a text range that spans part of a hyperlink in a document.
 
-// Get the range where the hyperlink is located.
+// How do I select a portion of a hyperlink as a range in a document?
 
-// Make the hyperlink range bold.
+// Apply bold formatting to a subset of hyperlink characters using a range in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

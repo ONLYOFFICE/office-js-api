@@ -1,8 +1,8 @@
-// This example specifies that when rendering the document using a page view, all lines of the paragraph are maintained on a single page whenever possible.
+// Prevent a paragraph from splitting across pages in a document.
 
-// How to set keep lines property of the paragraph content.
+// How do I keep all lines of a paragraph together on one page in a document?
 
-// Keep all lines of the paragraph on the same page.
+// Ensure that long paragraphs always start on a new page rather than breaking mid-content.
 
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");

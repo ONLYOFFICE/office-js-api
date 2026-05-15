@@ -1,8 +1,8 @@
-// This example adds a run to the paragraph.
+// Insert a text element into a paragraph in a presentation.
 
-// Insert a text run to the ApiParagraph object.
+// How do I add styled text to a paragraph in a presentation?
 
-// How to add the ApiRun object to the slide.
+// Add a run with specific formatting to a paragraph in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

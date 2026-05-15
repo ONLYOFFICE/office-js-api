@@ -1,8 +1,8 @@
-// This example converts the ApiThemeColorScheme object into the JSON object.
+// Convert a color scheme to JSON format in a presentation.
 
-// How to convert a ApiThemeColorScheme object to a JSON object.
+// How can I export a color scheme as JSON data in a presentation?
 
-// Create a ApiThemeColorScheme, convert it to JSON and create a new object from it.
+// Create a color scheme, export it to JSON, and recreate it from the JSON in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

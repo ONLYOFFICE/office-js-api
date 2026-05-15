@@ -1,8 +1,8 @@
-// This example shows how to set the value of an icon criterion.
+// Assign a threshold value to an icon criterion in a spreadsheet.
 
-// How to modify the threshold value for an icon set criterion.
+// How do I change the cutoff number that determines which icon a cell displays in a spreadsheet?
 
-// Set the value used for criterion threshold comparison.
+// Update the boundary value for one of the icon set thresholds so cells are colored differently in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

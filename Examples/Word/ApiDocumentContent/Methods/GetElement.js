@@ -1,8 +1,8 @@
-// This example shows how to get an element by its position in the document content.
+// Retrieve a specific element by its index from a document content in a document.
 
-// How to get element knowing its index.
+// How do I get a single element at a known position inside a document content in a document?
 
-// Get the first paragraph and add text to it.
+// Add text to a header paragraph by fetching it directly through its position index.
 
 let doc = Api.GetDocument();
 let section = doc.GetFinalSection();

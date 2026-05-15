@@ -1,8 +1,8 @@
-// This example adds the slide master to the presentation slide masters collection.
+// Add a new master slide to a presentation.
 
-// How to add a presentation master.
+// How do I create and add a master slide to a presentation?
 
-// Create a shape and set its placeholder type to "chart".
+// Create a master slide and add it to the presentation's master collection.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

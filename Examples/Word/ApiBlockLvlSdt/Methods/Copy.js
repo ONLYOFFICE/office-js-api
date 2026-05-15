@@ -1,10 +1,8 @@
-// This example creates a copy of a block level content control.
+// Duplicate a content control and place the copy in a document.
 
-// Creates a block content control in the current document, copies it, and adds a copy to the same document.
+// How do I copy a content control and add the duplicate to the same document?
 
-// How to create a copy of the ApiBlockLvlSdt object.
-
-// Creates a block level container in the ApiDocument class, adds a text to it, and copies it into the same document.
+// Reuse a content control by making an exact copy and appending it elsewhere in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

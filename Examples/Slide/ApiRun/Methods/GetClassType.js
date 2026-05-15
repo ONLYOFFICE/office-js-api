@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the presentation.
+// Identify the type of a text run in a presentation.
 
-// How to get a class type of ApiRun.
+// How do I determine the type of a text run in a presentation?
 
-// Retrieve class type of ApiRun object and insert it to the slide.
+// Display the text run type name on the slide in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

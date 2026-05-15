@@ -1,8 +1,8 @@
-// This example shows how to calculate standard deviation based on the entire population, including logical values and text. Text and the false logical value have the value 0; the true logical value has the value 1.
+// Calculate the standard deviation of a population including logical values and text.
 
-// How to calculate standard deviation based on the entire population considering logical and text data types.
+// The STDEVPA function treats text as 0 and logical values as 0 (false) or 1 (true) in population calculations.
 
-// Use a function to get the standard deviation.
+// Get the population standard deviation including logical and text values, and place it in cell C1.
 
 const worksheet = Api.GetActiveSheet();
 

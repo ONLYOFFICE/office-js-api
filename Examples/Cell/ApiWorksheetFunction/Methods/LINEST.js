@@ -1,8 +1,8 @@
-// This example shows how to return statistics that describe a linear trend matching known data points, by fitting a straight line using the least squares method.
+// Fit a straight line to data points and get trend statistics in a spreadsheet.
 
-// How to get statistics that describe a linear trend matching known data points.
+// How do I analyze the relationship between x and y values to predict a trend in a spreadsheet?
 
-// Use a function to return statistics that describe a linear trend matching known data points using the least squares method.
+// Get the slope, intercept, and accuracy metrics for a linear regression in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 
@@ -30,4 +30,3 @@ let ans = func.LINEST(yRange, xRange, constant, stats);
 
 //print answer 
  worksheet.GetRange("D1").SetValue(ans);
-

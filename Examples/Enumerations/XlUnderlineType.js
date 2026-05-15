@@ -1,4 +1,4 @@
-// This example sets underline "single" for the range.
+// Set underline "single" for the range.
 
 // How to underline a text from a range.
 

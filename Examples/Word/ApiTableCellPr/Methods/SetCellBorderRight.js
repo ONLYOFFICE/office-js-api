@@ -1,8 +1,8 @@
-// This example sets the border which will be displayed to the right of the table cell.
+// Add a border to the right side of a table cell in a document.
 
-// How to add margin to the right of the cell.
+// How do I apply a border to the right edge of a table cell in a document?
 
-// Create a 3x3 table and add the right cell margin.
+// Style a table cell with a visible right-side border in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

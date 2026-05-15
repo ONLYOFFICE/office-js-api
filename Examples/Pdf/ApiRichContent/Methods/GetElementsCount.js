@@ -1,4 +1,9 @@
-// This example gets elements count of rich content.
+// Find out how many paragraphs are in formatted text in a PDF.
+
+// How do I count the text elements in rich content in a PDF?
+
+// Check the total number of paragraphs inside formatted content in a PDF.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

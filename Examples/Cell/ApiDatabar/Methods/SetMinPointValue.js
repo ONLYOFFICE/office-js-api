@@ -1,8 +1,8 @@
-// This example demonstrates setting the minimum point value of a data bar conditional formatting rule.
+// Specify the lower threshold at which a data bar begins to appear in a spreadsheet.
 
-// How to change the value of the minimum condition.
+// How do I set the exact number that represents the minimum bar length in a spreadsheet?
 
-// Set the minimum point value of a data bar conditional formatting rule.
+// Start the data bar scale at a specific value so bars below that point are not shown in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

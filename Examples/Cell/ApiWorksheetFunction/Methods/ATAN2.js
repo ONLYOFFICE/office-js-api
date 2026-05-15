@@ -1,8 +1,8 @@
-// This example shows how to return the arctangent of the specified x and y coordinates, in radians between -Pi and Pi, excluding -Pi.
+// Calculate the arctangent of a point defined by x and y coordinates in a spreadsheet.
 
-// How to get an arctangent of the specified x and y coordinates.
+// Get the angle in radians from a pair of coordinates in a spreadsheet.
 
-// Use function to get an arctangent of the specified x and y coordinates in radians.
+// Determine direction from the origin to a specific point in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

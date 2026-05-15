@@ -1,8 +1,8 @@
-// This example shows how to get an array with all the chart objects from the slide.
+// Find all charts on a slide in a presentation.
 
-// How to get all charts from the slide.
+// How do I access all the charts in a slide in a presentation?
 
-// Get all charts from the slide as an array.
+// Retrieve the chart objects and modify their properties in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

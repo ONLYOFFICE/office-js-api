@@ -1,5 +1,9 @@
-// Analyzes path commands of a star shape and displays command details.
-// Shows total command count and first command information in cells.
+// Identify what kind of drawing instruction a path command represents and display it in a spreadsheet.
+
+// How do I find out the type of a path command on a shape in a spreadsheet?
+
+// Distinguish between move, line, curve, and arc steps in a shape's drawing path in a spreadsheet.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(100, 150, 200));
 let stroke = Api.CreateStroke(18000, Api.CreateSolidFill(Api.RGB(50, 75, 100)));

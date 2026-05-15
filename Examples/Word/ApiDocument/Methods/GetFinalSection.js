@@ -1,8 +1,8 @@
-// This example shows how to get the document final section.
+// Access the final section and add text to its default header in a document.
 
-// How to get the last section of the document.
+// How do I get the last section of a document to modify its header in a document?
 
-// Update the header of the final section.
+// Set default text and paragraph styles while inserting a header into the closing section in a document.
 
 let doc = Api.GetDocument();
 let section = doc.GetFinalSection();

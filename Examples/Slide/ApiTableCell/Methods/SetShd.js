@@ -1,8 +1,8 @@
-// This example specifies the shading which shall be applied to the extents of the current table cell.
+// Apply a background color to a table cell in a presentation.
 
-// How to set shading fill to the cell.
+// How do I fill a table cell with a color in a presentation?
 
-// Create table and set its cell shading color.
+// Create a table and set a solid color background for a cell in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// This example specifies an amount of space which will be left between the right extent of the cell contents and the border of a specific table cell within a table.
+// Set the spacing between the cell content and its right edge in a document.
 
-// How to add margin to the right of the cell.
+// How do I add padding to the right side of text inside a table cell in a document?
 
-// Create a 3x3 table and add the right cell margin.
+// Push the content away from the right border by controlling the inner gap in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

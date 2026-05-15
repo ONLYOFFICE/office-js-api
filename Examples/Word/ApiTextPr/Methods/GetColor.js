@@ -1,8 +1,8 @@
-// This example gets a color property of the text.
+// Read the color applied to a run of text in a document.
 
-// How to get a text color and apply it to the paragraph.
+// How do I find out what color a piece of text is set to in a document?
 
-// Retrieve color properties of the text.
+// Check the exact color value assigned to styled text in a document.
 
 let doc = Api.GetDocument();
 let myNewRunStyle = doc.CreateStyle("My New Run Style", "run");

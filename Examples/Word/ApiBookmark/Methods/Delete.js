@@ -1,8 +1,8 @@
-// This example shows how to delete bookmark from document.
+// Remove a bookmark from a text range in a document.
 
-// How to get a bookmark from the document by its name and remove it.
+// How do I delete a specific bookmark by name in a document?
 
-// Add two bookmarks to the two ranges and delete the first one.
+// Add two bookmarks to different text ranges and then remove one of them in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example shows how to get a layout of the specified slide master by its position.
+// Retrieve a layout from a slide master by its index position.
 
-// How to get a master layout knowing its index.
+// Access the master and create a layout object to apply to a slide.
 
-// Get a layout object from the master.
+// Add the layout to the master and apply it to the current slide.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

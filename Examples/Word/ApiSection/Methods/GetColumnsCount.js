@@ -1,4 +1,9 @@
-// This example specifies that all the columns in the current section have the different widths.
+// Count the number of columns defined in a section in a document.
+
+// How do I find out how many columns a section has in a document?
+
+// Retrieve the total column count from a multi-column layout in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let section = doc.GetFinalSection();

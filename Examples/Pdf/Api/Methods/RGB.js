@@ -1,4 +1,8 @@
-// This example shows how to create a color in RGB format and use it as a shape fill.
+// Create a color using red, green, and blue values in a PDF.
+
+// How do I define a custom color in a PDF?
+
+// Set a shape's fill color using RGB values in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

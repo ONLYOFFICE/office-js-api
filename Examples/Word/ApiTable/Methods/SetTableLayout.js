@@ -1,8 +1,8 @@
-// This example specifies the algorithm which will be used to lay out the contents of the table within the document.
+// Choose whether a table sizes its columns automatically or keeps them fixed in a document.
 
-// How to set the table layout.
+// How do I lock a table's column widths so they do not change in a document?
 
-// Create a table and make its layout fixed.
+// Prevent a table from resizing its columns when content changes in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,6 +1,8 @@
-// How to get a row object from the table.
+// Access a specific row from a table in a PDF.
 
-// Create a table, add rows and columns, then get its row by index.
+// How do I select a table row by its position in a PDF?
+
+// Extract the row you need from a table in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

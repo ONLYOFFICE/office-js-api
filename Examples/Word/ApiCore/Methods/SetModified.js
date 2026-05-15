@@ -1,4 +1,8 @@
-// This example demonstrates how to get the date when the current document was last modified.
+// Set the last-modified date for a document in a document.
+
+// How do I update the modification timestamp of a document?
+
+// Correct or backdate the recorded edit time to reflect when a document was actually changed in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

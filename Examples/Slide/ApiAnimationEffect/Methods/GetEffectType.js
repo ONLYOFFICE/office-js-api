@@ -1,4 +1,8 @@
-// This example gets the effect type of an animation effect.
+// Get the effect type of an animation effect in a presentation.
+
+// Effect types categorize animations (entrance, emphasis, exit, motion paths).
+
+// Retrieve the effect type using GetEffectType() and display the result.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

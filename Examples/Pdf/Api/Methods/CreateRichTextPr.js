@@ -1,4 +1,9 @@
-// How to create a new rich text properties and set it for rich run.
+// Format text in an annotation with bold and underline styles in a PDF.
+
+// How can I apply bold and underline formatting to text in a PDF?
+
+// Set text properties like bold and underline on a text element in a PDF.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

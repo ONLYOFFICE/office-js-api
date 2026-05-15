@@ -1,8 +1,8 @@
-// This example specifies the vertical alignment for the text contents within the table cell.
+// Control where text sits vertically inside a table cell in a document.
 
-// Set text vertical alignment to the cell.
+// How do I align text to the top, center, or bottom of a table cell in a document?
 
-// Align the text to bottom of the cell.
+// Position cell content at a specific vertical location within a table cell in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

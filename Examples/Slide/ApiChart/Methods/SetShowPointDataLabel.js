@@ -1,8 +1,8 @@
-// This example specifies the show options for the chart data labels.
+// Display custom labels for individual data points on a chart in a presentation.
 
-// How to show specific chart data labels with options.
+// Show the values and names of specific data points in a presentation.
 
-// Create a chart, set its properties and the visibility of its data labels options.
+// Configure which information appears as labels for chart data points in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

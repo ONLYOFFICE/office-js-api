@@ -1,8 +1,8 @@
-// This example specifies an amount by which text is raised or lowered for this paragraph in relation to the default baseline of the surrounding non-positioned text.
+// Raise or lower paragraph text relative to the surrounding baseline in a document.
 
-// How to set the line position of the text.
+// How do I shift a paragraph's text up or down from its normal vertical position in a document?
 
-// Lower the paragraph by 15 points.
+// Offset a paragraph vertically to achieve a superscript or subscript-like effect in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

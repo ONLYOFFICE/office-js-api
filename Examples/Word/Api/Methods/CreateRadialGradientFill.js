@@ -1,10 +1,8 @@
-// This example shows how to create a radial gradient fill.
+// Apply a radial gradient that fades from one color to another on a shape in a document.
 
-// Creates the ApiFill object which represents a radial gradient fill and applies it to the created shape.
+// How do I fill a shape with a color that radiates outward from the center in a document?
 
-// How to create a radial gradient fill and apply it to the object using the selected radial gradient as the object background.
-
-// Creates a radial gradient fill from an array of the gradient color stops and uses it as a background for the ApiShape class.
+// Give a shape a circular color transition by setting gradient stops for the fill in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

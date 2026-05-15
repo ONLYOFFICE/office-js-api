@@ -1,8 +1,8 @@
-// This example sets the fill formatting properties to the current graphic object.
+// Apply a gradient fill to a shape already placed on a sheet in a spreadsheet.
 
-// How to color a drawing with a radiant fill.
+// How do I change the background of a shape to a radial gradient in a spreadsheet?
 
-// Change the background color of the shape.
+// Replace a solid fill with a smooth color blend across a shape in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));

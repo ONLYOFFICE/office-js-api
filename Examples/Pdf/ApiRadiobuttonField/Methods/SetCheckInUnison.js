@@ -1,4 +1,9 @@
-// This example sets radiobutton field check in unison property.
+// Link radio button options so only one can be selected at a time in a PDF.
+
+// How do I make radio buttons work together in a PDF?
+
+// Enable synchronized selection across radio button choices in a PDF.
+
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 let radiobuttonField = Api.CreateRadiobuttonField([10, 10, 25, 25]);

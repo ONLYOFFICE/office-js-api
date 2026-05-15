@@ -1,4 +1,8 @@
-// This example sets the transition duration to 2000 milliseconds.
+// Set the transition duration to 2000 milliseconds in a presentation.
+
+// Configure the duration property of a slide show transition object.
+
+// Apply the transition and display the set duration on the slide.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

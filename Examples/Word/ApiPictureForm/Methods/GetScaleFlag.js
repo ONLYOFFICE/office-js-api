@@ -1,8 +1,8 @@
-// This example shows how to get the current scaling condition of the picture form.
+// Read the scaling rule applied to a picture form in a document.
 
-// How to enable a picture scaling.
+// How do I check how a picture is scaled inside a form in a document?
 
-// Set picture scale flag to true.
+// Determine whether a picture shrinks, grows, or stays fixed within a form in a document.
 
 let doc = Api.GetDocument();
 let pictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false, "shiftX": 50, "shiftY": 50});

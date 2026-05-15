@@ -1,8 +1,8 @@
-// This example shows how to get the font scheme of the theme.
+// Get the font scheme from a theme in a presentation.
 
-// How to get a font scheme from a theme.
+// How do I access the fonts defined in a presentation's theme?
 
-// Get a font scheme and display its class type.
+// Retrieve the font scheme and display its type information in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

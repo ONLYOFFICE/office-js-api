@@ -1,8 +1,8 @@
-// This example creates a copy of slide layout and apply it for other slide.
+// Create a copy of a slide layout in a presentation.
 
-// How to create a copy of a layout.
+// How do I duplicate a layout from a presentation master in a presentation?
 
-// Copy a layout of a presentation master.
+// Copy a layout and apply it to another slide in a presentation.
 
 const presentation = Api.GetPresentation();
 const master = presentation.GetMaster(0);

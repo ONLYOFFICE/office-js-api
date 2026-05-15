@@ -1,8 +1,8 @@
-// This example creates a shape using the 'rect' preset.
+// Insert a rectangle shape into a paragraph in a document.
 
-// Creates the "rect" shape and adds it to the first paraghraph of the document.
+// How do I add a shape to a paragraph in a document?
 
-// How to create the ApiShape object and add it to the ApiParagraph class.
+// Place a colored gradient-filled rectangle inside existing text content in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

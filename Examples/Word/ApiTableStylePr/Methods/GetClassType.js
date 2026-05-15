@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the presentation.
+// Read the class type of a table style properties object in a document.
 
-// How to get a class type of ApiTableStylePr.
+// How do I find out what kind of object represents conditional table style settings in a document?
 
-// Retrieve class type of ApiTableStylePr object and insert it to the document.
+// Identify the type label of a table style properties object in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

@@ -1,8 +1,8 @@
-// This example gets the pivot table condition from a conditional formatting rule.
+// Check whether a conditional formatting rule is linked to a pivot table scope in a spreadsheet.
 
-// How to retrieve pivot table conditions from conditional formatting rules.
+// How do I find out if a conditional formatting rule applies within a pivot table context in a spreadsheet?
 
-// Get conditional formatting rule pivot table condition.
+// Determine the pivot table association of a formatting condition to understand its scope in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

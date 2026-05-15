@@ -1,5 +1,9 @@
-// Creates a custom shape and adds it to a slide.
-// Applies custom geometry with specific fill and stroke properties.
+// Apply custom geometry with specific paths to create a unique shape.
+
+// Define a custom path with multiple points and line segments for a star-like shape.
+
+// Apply the custom geometry to a shape along with solid fill and stroke properties.
+
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);
 let customGeometry = Api.CreateCustomGeometry();

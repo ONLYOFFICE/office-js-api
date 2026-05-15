@@ -1,32 +1,35 @@
-// This example shows how to find out the shading type of the text.
+// Read the background shading applied to a run of text in a document.
 
-// Get the shading of the text and display it in the document.
+// How do I find out what shading color and pattern are set on a piece of text in a document?
 
-// How to know the text shading type.
+// Copy the shading from one text run and apply it to another run in a document.
 
-const doc = Api.GetDocument();
-const firstParagraph = doc.GetElement(0);
+let doc = Api.GetDocument();
+let firstParagraph = doc.GetElement(0);
 
-const myNewRunStyle = doc.CreateStyle('My New Run Style', 'run');
-const styleTextPr = myNewRunStyle.GetTextPr();
+let myNewRunStyle = doc.CreateStyle('My New Run Style', 'run');
+let styleTextPr = myNewRunStyle.GetTextPr();
 styleTextPr.SetCaps(true);
 styleTextPr.SetFontFamily('Calibri Light');
 
-const firstRun = Api.CreateRun();
+let firstRun = Api.CreateRun();
 firstRun.AddText('This is just a sample text. ');
-firstRun.AddText('The text properties are changed and the style is added to the paragraph. ');
 firstParagraph.AddElement(firstRun);
 
-const secondRun = Api.CreateRun();
+let secondRun = Api.CreateRun();
 secondRun.SetStyle(myNewRunStyle);
-secondRun.AddText('This is a text run with its own style.');
+secondRun.AddText('A text run with shd applied to it.');
 
-const secondRunTextPr = secondRun.GetTextPr();
+let secondRunTextPr = secondRun.GetTextPr();
 secondRunTextPr.SetShd('clear', Api.RGBA(255, 111, 61));
 firstParagraph.AddElement(secondRun);
 
-const secondParagraph = Api.CreateParagraph();
-const color = secondRunTextPr.GetShd();
-const type = color.GetClassType();
-secondParagraph.AddText('Shading type: ' + type);
+let shd = secondRunTextPr.GetShd();
+
+let secondParagraph = Api.CreateParagraph();
+let thirdRun = Api.CreateRun();
+thirdRun.AddText('This run has the shading from the last run in the first paragraph.');
+let thirdRunTextPr = thirdRun.GetTextPr();
+thirdRunTextPr.SetShd(shd.Type, shd.Color);
+secondParagraph.AddElement(thirdRun);
 doc.Push(secondParagraph);

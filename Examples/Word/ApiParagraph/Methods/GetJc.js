@@ -1,8 +1,8 @@
-// This example shows how to get the paragraph contents justification.
+// Read the text alignment setting applied to a paragraph in a document.
 
-// Get the justification of the paragraph and show it in the document.
+// How do I find out the justification type of a paragraph in a document?
 
-// How to know the justification type of the paragraph.
+// Verify a center-aligned paragraph by printing its justification value in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,4 +1,8 @@
-// This example shows how to convert pixels to english metric units.
+// Express a pixel count as english metric units in a spreadsheet.
+
+// How do I turn a number of pixels into english metric units in a spreadsheet?
+
+// Store the equivalent english metric unit value for a pixel measurement in a spreadsheet.
 
 const pixels = 1080;
 const emus = Api.PixelsToEmus(pixels);

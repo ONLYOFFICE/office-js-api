@@ -1,8 +1,8 @@
-// This example demonstrates getting the value of color scale criterion.
+// Read the threshold value stored in a color scale rule point in a spreadsheet.
 
-// How to retrieve the value of a color scale criterion.
+// How do I retrieve the numeric boundary set for a color scale rule point in a spreadsheet?
 
-// Get the value of a color scale criterion.
+// Confirm what boundary number a color scale rule entry holds before applying the gradient in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

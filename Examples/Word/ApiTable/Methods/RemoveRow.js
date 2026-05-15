@@ -1,8 +1,8 @@
-// This example removes a table row with the specified cell.
+// Delete a row from a table in a document.
 
-// How to remove the row from the table.
+// How do I remove a specific row from a table in a document?
 
-// Create a table, get one of its cells and delete the row.
+// Shorten a table by eliminating an unwanted row in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

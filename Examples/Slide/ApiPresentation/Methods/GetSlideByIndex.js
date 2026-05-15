@@ -1,8 +1,8 @@
-// This example shows how to get a slide by its position in the presentation.
+// Access a slide by its position in a presentation.
 
-// How to find a slide from the presentation using its index.
+// How do I find a specific slide using its index in a presentation?
 
-// Get slide from the presentation by its index.
+// Retrieve the first slide from the presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

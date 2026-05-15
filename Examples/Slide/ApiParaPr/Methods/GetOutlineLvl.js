@@ -1,4 +1,8 @@
-// This example shows how to get the outline level of the specified paragraph via paragraph properties.
+// Check the heading level of a paragraph in a presentation.
+
+// How do I read the outline level of a paragraph in a presentation?
+
+// Retrieve the hierarchical level assigned to a paragraph for outline or table of contents purposes in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

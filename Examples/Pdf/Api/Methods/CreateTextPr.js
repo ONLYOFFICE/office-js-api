@@ -1,8 +1,8 @@
-// This example shows how to create a text properties and use it.
+// Format text with custom font size and bold styling in a PDF.
 
-// How to change text style, size and font.
+// How do I change text style and size in a PDF?
 
-// Change text properties.
+// Set bold formatting and increase font size for text in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -12,7 +12,7 @@ const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = Api.CreateShape("flowChartMagneticTape", 150 * 36000, 65 * 36000, fill, stroke);
 shape.SetPosition(608400, 1267200);
 
-const docContent = shape.GetDocContent();
+const docContent = shape.GetContent();
 docContent.RemoveAllElements();
 const textPr = Api.CreateTextPr();
 textPr.SetFontSize(50);

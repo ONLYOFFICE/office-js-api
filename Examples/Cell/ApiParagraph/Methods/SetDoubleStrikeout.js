@@ -1,4 +1,8 @@
-// This example shows how to apply double strikeout formatting to a paragraph inside a shape.
+// Draw two horizontal lines through all text in a paragraph inside a shape in a spreadsheet.
+
+// How do I mark a paragraph's text with a double strikeout in a spreadsheet?
+
+// Visually cross out content with a double line to indicate deletion or cancellation in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const fill = Api.CreateSolidFill(Api.RGB(150, 110, 90));

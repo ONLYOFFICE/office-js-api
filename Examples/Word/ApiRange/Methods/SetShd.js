@@ -1,8 +1,8 @@
-// This example specifies the shading applied to the contents of the current text Range.
+// Apply a background color to a selected portion of text in a document.
 
-// How to set a shading for a range text.
+// How do I highlight a range of words with a custom background shade in a document?
 
-// Get a range text, specify its shading options.
+// Color the area behind specific text to make it stand out visually in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

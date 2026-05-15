@@ -1,8 +1,8 @@
-// This example checks whether the drawing is flipped horizontally.
+// Determine if a shape is flipped left-to-right in a presentation.
 
-// How to get the horizontal flip property of the shape.
+// How do I check if a shape has been flipped horizontally in a presentation?
 
-// Create a drawing and read its horizontal flip value.
+// Create a shape and retrieve its horizontal flip status in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

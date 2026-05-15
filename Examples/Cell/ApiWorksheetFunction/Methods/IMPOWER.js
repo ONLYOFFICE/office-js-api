@@ -1,8 +1,8 @@
-// This example shows how to return a complex number raised to an integer power.
+// Raise a complex number to a specified power in a spreadsheet.
 
-// How to get the result from raising into power of a complex number.
+// How do I calculate a complex number raised to an integer power in a spreadsheet?
 
-// Use a function to get the result from the power.
+// Get the exponential result of complex number calculations in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

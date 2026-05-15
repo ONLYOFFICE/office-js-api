@@ -1,8 +1,8 @@
-// This example gets a double strikeout property of a text.
+// Check whether text has a double strikethrough line applied in a spreadsheet.
 
-// How to find out whether a text is stroke out with double lines or not.
+// How do I find out if text is crossed out with two lines in a spreadsheet?
 
-// Get a text double cross out property.
+// Read the double strikethrough setting from a text style and display the result in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

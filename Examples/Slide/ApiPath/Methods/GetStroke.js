@@ -1,5 +1,9 @@
-// Analyzes cloud shape path properties on a slide.
-// Displays comprehensive path information in a text shape.
+// Retrieve the stroke settings of a custom shape's outline in a presentation.
+
+// What outline properties are set on a shape path in a presentation?
+
+// Display the stroke status and properties of a geometry path in a presentation.
+
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);
 let fill = Api.CreateSolidFill(Api.RGB(100, 150, 200));

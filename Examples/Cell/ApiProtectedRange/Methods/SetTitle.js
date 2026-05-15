@@ -1,8 +1,8 @@
-// This example changes the the user protected range title.
+// Assign a new title to a protected range in a spreadsheet.
 
-// How to set a title for a protected range.
+// How do I rename a protected range in a spreadsheet?
 
-// Rename a title of a protected range.
+// Update the label on a locked area so collaborators know what it protects in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.AddProtectedRange("protectedRange", "Sheet1!$A$1:$B$1");

@@ -1,8 +1,8 @@
-// This example shows how to get an object that represents the selected range.
+// Access the currently highlighted cells and write a value into them in a spreadsheet.
 
-// How to get selected range object.
+// How do I work with whatever cells the user has selected at the moment in a spreadsheet?
 
-// Update the value of the selected range.
+// Fill the active selection with text without specifying a fixed address in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 Api.GetSelection().SetValue("selected");

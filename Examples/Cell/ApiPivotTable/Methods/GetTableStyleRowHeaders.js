@@ -1,8 +1,8 @@
-// This example shows how to get table style raw headers of a pivot table.
+// Check whether row header formatting is enabled for a pivot table style in a spreadsheet.
 
-// How to get table style raw headers.
+// How do I find out if a pivot table style highlights row headers in a spreadsheet?
 
-// Create a pivot table, add data to it then get its table style raw headers.
+// Inspect the row header setting of a pivot table's visual theme in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

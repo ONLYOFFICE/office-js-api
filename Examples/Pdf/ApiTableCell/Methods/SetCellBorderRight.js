@@ -1,6 +1,8 @@
-// How to set cell right border with its fill color.
+// Set the right border of a table cell with a fill color in a PDF.
 
-// Create table and set its cell right border.
+// How do I customize the appearance of the right edge of a cell in a PDF?
+
+// Style the border on the right side of your table cell in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// This example shows how to check whether a condition is met, and returns one value if true, and another value if false.
+// Return different values based on whether a condition is true or false in a spreadsheet.
 
-// How to check a condition.
+// How do I test a condition and display different results in a spreadsheet?
 
-// Use a function to use IF condition checker.
+// Execute conditional logic to display specific values when criteria are met in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

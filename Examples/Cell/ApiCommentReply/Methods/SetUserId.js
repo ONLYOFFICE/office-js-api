@@ -1,8 +1,8 @@
-// This example sets the user ID to the comment reply author.
+// Assign a user identifier to the author of a comment reply in a spreadsheet.
 
-// How to change a reply author ID.
+// How do I change which user is credited as the author of a comment reply in a spreadsheet?
 
-// Replace a reply author ID to a new one.
+// Update the author identity linked to an existing comment reply in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

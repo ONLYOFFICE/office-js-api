@@ -1,8 +1,8 @@
-// This example shows how to get a set of default properties for the text run in the current document.
+// Read and modify the default text formatting properties for the entire document in a document.
 
-// How to get default text properties of a document.
+// How do I set the default font family, size, and language for all text in a document?
 
-// Update the default text properties of the text elements.
+// Change font settings at the document level so every text run inherits the new defaults in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

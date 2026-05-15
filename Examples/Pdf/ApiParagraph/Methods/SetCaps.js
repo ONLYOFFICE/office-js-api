@@ -1,4 +1,8 @@
-// This example sets all characters in the paragraph to display as capitals.
+// Convert paragraph text to capital letters in a PDF.
+
+// How do I display all text as capitals in a paragraph in a PDF?
+
+// Apply uppercase styling to a paragraph in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

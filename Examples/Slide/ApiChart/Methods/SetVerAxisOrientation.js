@@ -1,8 +1,8 @@
-// This example specifies the vertical axis orientation.
+// Reverse the direction of the vertical axis on a chart in a presentation.
 
-// How to set an orientation of vertical axis.
+// Change the order and direction of scale on the vertical axis in a presentation.
 
-// Create a chart, set its properties and its vertical axis orientation.
+// Flip or reorient the vertical axis values in a chart in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

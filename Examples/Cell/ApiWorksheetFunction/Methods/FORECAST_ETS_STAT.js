@@ -1,8 +1,8 @@
-// This example shows how to return the requested statistic for the forecast.
+// Return the requested statistic for the forecast.
 
-// How to return the requested forecast statistic.
+// Retrieve forecast statistics from time series data using dates and values arrays.
 
-// Use function to return the forecast.
+// Calculate the forecast statistic using FORECAST_ETS_STAT.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

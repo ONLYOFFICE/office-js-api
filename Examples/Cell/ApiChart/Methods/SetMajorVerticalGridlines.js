@@ -1,8 +1,8 @@
-// This example specifies the visual properties of the major vertical gridline.
+// Style the major vertical gridlines of a chart in a spreadsheet.
 
-// Set a stroke as a major vertical gridline.
+// How do I change the appearance of the main vertical gridlines on a chart in a spreadsheet?
 
-// How to add gridlines for the chart.
+// Give the primary vertical gridlines a custom color and thickness to guide the eye across the chart in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

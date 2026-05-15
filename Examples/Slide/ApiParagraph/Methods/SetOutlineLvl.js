@@ -1,4 +1,8 @@
-// This example sets the outline level for the specified paragraph.
+// Set the outline level for paragraph text in a presentation.
+
+// How do I assign an outline level to a paragraph in a presentation?
+
+// Configure paragraph hierarchy using outline levels in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,6 +1,8 @@
-// How to delete a row from the table.
+// Delete a row from a table in a PDF.
 
-// Create a table, create cells and remove the whole row by its cell.
+// How do I remove an unwanted row from a table in a PDF?
+
+// Take out a horizontal row of cells from your table in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

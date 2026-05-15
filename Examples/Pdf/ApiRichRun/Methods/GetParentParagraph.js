@@ -1,4 +1,9 @@
-// This example gets parent rich paragraph of rich run object and set justification property to it.
+// Access the paragraph that contains a text run in a PDF.
+
+// How do I reach the parent paragraph from a text run in a PDF?
+
+// Locate the paragraph holding a specific text element in a PDF.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

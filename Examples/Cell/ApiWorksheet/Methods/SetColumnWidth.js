@@ -1,8 +1,8 @@
-// This example sets the width of the specified column.
+// Assign a specific width to one or more columns in a spreadsheet.
 
-// How to set a column width.
+// How do I change the width of a column in a spreadsheet?
 
-// Resize column width.
+// Widen or narrow columns to control how much content fits in each cell in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.SetColumnWidth(0, 10);

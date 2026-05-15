@@ -1,8 +1,8 @@
-// This example shows how to get the ApiName object by the worksheet name.
+// Retrieve a named range from the active sheet by its name in a spreadsheet.
 
-// How to get def name object.
+// How do I look up a named range on a worksheet in a spreadsheet?
 
-// Get ApiName object using its name.
+// Find a specific named range and read its title in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

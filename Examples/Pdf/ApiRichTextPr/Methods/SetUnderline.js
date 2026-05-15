@@ -1,4 +1,9 @@
-// This example sets underline property to rich text properties object.
+// Add an underline to text in a PDF.
+
+// How do I underline text in a PDF?
+
+// Apply underline formatting in a PDF.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

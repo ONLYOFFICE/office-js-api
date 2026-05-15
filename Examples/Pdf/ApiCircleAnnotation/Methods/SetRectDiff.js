@@ -1,4 +1,9 @@
-// This example sets rect diff to circle annotation.
+// Adjust the border width difference of a circle annotation in a PDF.
+
+// How do I control the border thickness offset for a circle annotation in a PDF?
+
+// Apply rect difference values to a circle annotation in a PDF.
+
 let doc = Api.GetDocument();
 let circleAnnot = Api.CreateCircleAnnot([10, 10, 160, 32]);
 let page = doc.GetPage(0);

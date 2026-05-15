@@ -1,8 +1,8 @@
-// This example shows how to check if there is an error in the formula in the first argument. The function returns the specified value if the formula returns the N/A error value, otherwise returns the result of the formula.
+// Display a custom value when a formula returns N/A error in a spreadsheet.
 
-// How to check whether a formula result is N/A.
+// How do I handle missing values in lookup results with a fallback message in a spreadsheet?
 
-// Use a function to get a result from a formula if an error occurs show specified error message.
+// Replace N/A errors with a specified value in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

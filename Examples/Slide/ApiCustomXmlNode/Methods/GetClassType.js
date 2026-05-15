@@ -1,8 +1,8 @@
-// This example shows how to get the class type of a custom XML node and display it.
+// Determine the class type of an XML node in a presentation.
 
-// How to get the class type of an XML node.
+// How do I find out what type an XML node object is in a presentation?
 
-// Get the class type.
+// Get the class name of an XML element in a presentation.
 
 let presentation = Api.GetPresentation();
 let xmlManager = presentation.GetCustomXmlParts();

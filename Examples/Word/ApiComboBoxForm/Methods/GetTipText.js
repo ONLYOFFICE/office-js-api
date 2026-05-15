@@ -1,8 +1,8 @@
-// This example shows how to get the tip text of the current form.
+// Read the tooltip hint text from a combo box form in a document.
 
-// How to get text properties of a combobox form.
+// How do I retrieve the tooltip message shown on a combo box in a document?
 
-// Make combobox text italic.
+// Confirm that the hint text set on a form field matches the expected prompt in a document.
 
 let doc = Api.GetDocument();
 let comboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});

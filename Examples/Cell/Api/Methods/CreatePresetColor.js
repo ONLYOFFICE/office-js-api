@@ -1,8 +1,8 @@
-// This example creates a color selecting it from one of the available color presets.
+// Apply a named preset color to a shape background in a spreadsheet.
 
-// How to get a color from a preset.
+// How do I use a built-in color preset to fill a shape in a spreadsheet?
 
-// Color a shape background using a color from a preset. 
+// Give a shape a ready-made color without entering custom values in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let presetColor = Api.CreatePresetColor("peachPuff");

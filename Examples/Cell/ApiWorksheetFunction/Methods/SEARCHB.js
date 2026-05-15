@@ -1,8 +1,8 @@
-// This example shows how to return the location of the specified substring in a string and is intended for languages that use the double-byte character set (DBCS) like Japanese, Chinese, Korean etc.
+// Find where text appears in cells with double-byte character languages in a spreadsheet.
 
-// How to get number of characters counting from the first occurance of search text for double-byte character set languages.
+// How do I search for text in Asian language content in a spreadsheet?
 
-// Use a function to count characters starting from the index at which the search text appears.
+// Locate a word in cells that use multi-byte characters in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

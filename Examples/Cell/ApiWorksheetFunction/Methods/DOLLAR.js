@@ -1,8 +1,8 @@
-// This example shows how to convert a number to text, using a currency format $#.##.
+// Convert a number to text using currency format with dollar sign.
 
-// How to convert a number to text.
+// Format numeric values as currency strings with specified decimal places.
 
-// Use function to get text from a number using dollar format.
+// Use the DOLLAR function to convert numbers to formatted currency text.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

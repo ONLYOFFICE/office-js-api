@@ -1,8 +1,8 @@
-// This example shows how to get the current sentence.
+// Extract the sentence that contains the cursor position in a document.
 
-// How to get current sentence of the document.
+// How do I read the full sentence the cursor is placed within in a document?
 
-// Find the current position sentence and add it to the paragraph.
+// Display the sentence at a given cursor offset to verify text parsing behavior in a document.
 
 let doc = Api.GetDocument();
 let para1 = doc.GetElement(0);

@@ -1,4 +1,9 @@
-// This example sets field required.
+// Mark a form field as required in a PDF.
+
+// How do I make a form field required in a PDF?
+
+// Check whether a field is marked as required in a PDF.
+
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 let textField = Api.CreateTextField([10, 10, 160, 30]);

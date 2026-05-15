@@ -1,4 +1,9 @@
-// This example gets rich content of freeText annotation.
+// Retrieve the text content from an annotation in a PDF.
+
+// How do I read what is written in a comment note in a PDF?
+
+// Extract the message text from an annotation element in a PDF.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

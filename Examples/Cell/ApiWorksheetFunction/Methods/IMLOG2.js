@@ -1,8 +1,8 @@
-// This example shows how to return the base-2 logarithm of a complex number.
+// Calculate the base-2 logarithm of a complex number in a spreadsheet.
 
-// How to get the logarithm of base 2 of a comlex numbers.
+// How do I find the logarithm with base 2 of a complex number in a spreadsheet?
 
-// Use a function to get the base 2 logarithm.
+// Get the base-2 logarithmic result for complex number operations in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

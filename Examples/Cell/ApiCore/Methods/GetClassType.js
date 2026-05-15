@@ -1,4 +1,8 @@
-// This example gets a class type and pastes it into the worksheet.
+// Read the type label of the document properties object in a spreadsheet.
+
+// How do I find out what kind of object holds the document properties in a spreadsheet?
+
+// Identify the internal type of the core document properties in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

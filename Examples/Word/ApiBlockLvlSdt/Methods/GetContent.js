@@ -1,4 +1,9 @@
-// This example shows how to get the content of the container.
+// Access the inner content of a content control to add text to it in a document.
+
+// How do I add text to the inside of a content control in a document?
+
+// Write additional text into an existing content control by reading its contents in a document.
+
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();
 let paragraph = Api.CreateParagraph();

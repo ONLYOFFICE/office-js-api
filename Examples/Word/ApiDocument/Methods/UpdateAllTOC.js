@@ -1,8 +1,8 @@
-// This example updates all tables of contents in the current document.
+// Refresh all tables of contents after adding new headings in a document.
 
-// How to update all table of contents.
+// How do I keep tables of contents up to date in a document?
 
-// Edit document content and update the table of contents.
+// Reflect the latest heading structure in every table of contents without rebuilding it manually in a document.
 
 let doc = Api.GetDocument();
 let newDocumentStyle = doc.GetStyle("Heading 1");

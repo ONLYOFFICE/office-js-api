@@ -1,12 +1,11 @@
-// This example shows how to return the median, or the number in the middle of the set of given numbers.
+// Find the middle value from a set of numbers in a spreadsheet.
 
-// How to get a median from the list.
+// What is the median number in a list in a spreadsheet?
 
-// Use a function to get a value that located in the middle of the list.
+// Extract the median value from a range of values in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;
 let median = func.MEDIAN(4,45,12,34,3,54,2,2);
 worksheet.GetRange("C1").SetValue(median);
-
 

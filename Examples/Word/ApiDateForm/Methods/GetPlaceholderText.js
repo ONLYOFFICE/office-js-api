@@ -1,8 +1,8 @@
-// This example shows how to get the placeholder text of the current form.
+// Read the placeholder text displayed inside a date form in a document.
 
-// How to get the placeholder text of a date form.
+// How do I get the placeholder text shown in a date form in a document?
 
-// Retrieve the placeholder text of a created date form and display it.
+// Confirm the hint text after updating it to ensure it reflects the new value.
 
 let doc = Api.GetDocument();
 let dateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});

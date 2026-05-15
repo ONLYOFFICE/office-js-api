@@ -1,6 +1,8 @@
-// How to delete a column from the table.
+// Delete a column from a table in a PDF.
 
-// Create a table, create cells and remove the whole column by its cell.
+// How do I remove an unwanted column from a table in a PDF?
+
+// Take out a vertical column of cells from your table in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

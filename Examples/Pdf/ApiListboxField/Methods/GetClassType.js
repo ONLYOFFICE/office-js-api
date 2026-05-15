@@ -1,4 +1,9 @@
-// This example gets field type and display it.
+// Identify the object type of a list selection field in a PDF.
+
+// How do I determine what kind of field this is in a PDF?
+
+// Retrieve the classification name for this field in a PDF.
+
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 let listboxField = Api.CreateListboxField([10, 10, 160, 100]);

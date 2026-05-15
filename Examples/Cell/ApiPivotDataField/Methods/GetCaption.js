@@ -1,8 +1,8 @@
-// This example shows how to get a caption of a data field.
+// Read the display caption of a pivot table data field in a spreadsheet.
 
-// How to get a table element caption.
+// How do I find the label shown for a data field in a pivot table in a spreadsheet?
 
-// Create a pivot table, add data to it then display a custom data field's caption text.
+// Verify the visible heading text assigned to a summarized value column in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

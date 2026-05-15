@@ -1,4 +1,8 @@
-// This example shows how to set the reading order of the text in the cell range.
+// Set the direction text is read across a cell range in a spreadsheet.
+
+// How do I switch text to read right-to-left in a spreadsheet?
+
+// Support languages like Arabic or Hebrew by adjusting the text flow direction in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B2").SetValue("Hello, أهلاً, 你好");

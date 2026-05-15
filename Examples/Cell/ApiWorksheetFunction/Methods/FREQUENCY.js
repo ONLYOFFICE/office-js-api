@@ -1,8 +1,8 @@
-// This example shows how to calculate how often values occur within a range of values and then returns the first value of the returned vertical array of numbers.
+// Calculate how often values occur within a range of values and return a vertical array.
 
-// How to get frequency of first value from a range.
+// Count the frequency of data points that fall within specified bin intervals.
 
-// Use a function to count how often values occur within a range.
+// Determine value distribution across bins using FREQUENCY function.
 
 const worksheet = Api.GetActiveSheet();
 

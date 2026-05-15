@@ -1,8 +1,8 @@
-// This example sets the font name property to the specified font.
+// Change the typeface used for specific text characters in a spreadsheet.
 
-// How to change name of a font.
+// How do I assign a different font family to part of the text in a spreadsheet?
 
-// Get a font object of characters and set a new name for it.
+// Switch selected characters to a named typeface and confirm the change in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B1");

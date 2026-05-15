@@ -1,8 +1,8 @@
-// This example sets the table paddings.
+// Set the spacing between cell content and cell edges in a table in a document.
 
-// How to set paddings of the table.
+// How do I add inner spacing to all cells of a table in a document?
 
-// Create a table and specify its paddings.
+// Control how much breathing room text has inside each table cell in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

@@ -1,4 +1,8 @@
-// This example shows how to convert centimeters to points.
+// Convert a distance from centimeters to points in a PDF.
+
+// How do I convert centimeters to points in a PDF?
+
+// Display a measurement conversion in a shape in a PDF.
 
 const centimeters = 1000;
 const points = Api.CentimetersToPoints(centimeters);

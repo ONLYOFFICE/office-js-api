@@ -1,8 +1,8 @@
-// This example converts the ApiInlineLvlSdt object into the JSON object.
+// Serialize an inline content control to JSON and restore it in a document.
 
-// How to get a JSON from the inline text control.
+// How do I convert an inline content control to JSON format in a document?
 
-// Convert the inline text control to json and add it to the paragraph.
+// Preserve and reuse a configured inline content control by round-tripping it through JSON in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

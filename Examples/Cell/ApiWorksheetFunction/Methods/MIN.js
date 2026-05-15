@@ -1,8 +1,8 @@
-// This example shows how to return the smallest number in a set of values. Ignores logical values and text.
+// Find the smallest number in a list of values in a spreadsheet.
 
-// How to get a minimum number from a list of numbers.
+// What is the minimum number in a set in a spreadsheet?
 
-// Use a function to find a minimum from a list.
+// Identify the lowest numeric value from a range in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

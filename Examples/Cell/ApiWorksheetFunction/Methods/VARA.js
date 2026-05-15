@@ -1,9 +1,8 @@
-// This example shows how to estimate variance based on a sample, including logical values and text. Text and the false logical value have the value 0; the true logical value has the value 1.
+// Estimate variance based on a sample, including logical values and text. Text and the false logical value have the value 0; the true logical value has the value 1 in a spreadsheet.
 
-// How to estimate variance based on a sample considering logical and text data types.
+// The VARA function calculates sample variance by treating logical and text values as numbers.
 
-// Use a function to estimate variance not ignoring logical and text values.
-
+// Apply the function to estimate variance including logical and text values in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

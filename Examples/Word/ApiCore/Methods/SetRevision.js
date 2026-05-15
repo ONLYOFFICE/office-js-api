@@ -1,4 +1,8 @@
-// This example demonstrates how to set the revision of the current document.
+// Assign a revision label to a document in a document.
+
+// How do I mark a document with a specific revision identifier?
+
+// Version-control a document by embedding a revision string in its core metadata in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

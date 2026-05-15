@@ -1,8 +1,8 @@
-// This example shows how to return the ratio of the factorial of a sum of numbers to the product of factorials.
+// Calculate the multinomial coefficient of a set of numbers in a spreadsheet.
 
-// How to get a result from the ratio of the factorial of a sum of numbers to the product of factorials.
+// What is the multinomial coefficient value for a group of numbers in a spreadsheet?
 
-// Use a function to find the ratio of the factorial of a sum of numbers to the product of factorials.
+// Find the ratio of combined factorial to individual factorials in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

@@ -1,8 +1,8 @@
-// This example gets the error message text.
+// Read the error message shown when a cell's validation rule is violated in a spreadsheet.
 
-// How to retrieve the validation error message.
+// How do I find out what error message appears after an invalid entry in a spreadsheet?
 
-// Get the error message.
+// Retrieve the text displayed to users when they enter a value that fails validation in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");

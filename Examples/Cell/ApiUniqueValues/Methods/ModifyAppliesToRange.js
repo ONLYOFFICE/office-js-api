@@ -1,8 +1,8 @@
-// This example demonstrates modifying the range to which a unique values conditional formatting rule applies.
+// Change the cell range covered by a unique values formatting rule in a spreadsheet.
 
-// How to change the range for existing conditional formatting rule.
+// How do I update which cells a unique values formatting rule applies to in a spreadsheet?
 
-// Modify the applies to range of unique values formatting rule.
+// Expand or narrow the area a unique values rule highlights in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

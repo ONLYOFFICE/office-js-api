@@ -1,8 +1,8 @@
-// This example shows how to get all font names from all elements inside the run.
+// List all fonts used in text in a PDF.
 
-// How to get all font names used in the text.
+// How do I see all the font names used in a text element in a PDF?
 
-// Retrieve ApiRun font names and display them in the page.
+// Display the fonts applied to text in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -12,7 +12,7 @@ const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = Api.CreateShape("flowChartMagneticTape", 150 * 36000, 65 * 36000, fill, stroke);
 shape.SetPosition(608400, 1267200);
 
-const docContent = shape.GetDocContent();
+const docContent = shape.GetContent();
 let paragraph = docContent.GetElement(0);
 let run = Api.CreateRun();
 run.AddText("This is just a sample text. ");

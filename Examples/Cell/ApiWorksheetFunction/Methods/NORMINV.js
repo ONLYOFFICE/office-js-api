@@ -1,8 +1,8 @@
-// This example shows how to return the inverse of the normal cumulative distribution for the specified mean and standard deviation.
+// Find the value for a given probability in a normal distribution in a spreadsheet.
 
-// How to calculate the inverse of the normal cumulative distribution.
+// Calculate the inverse of cumulative probability with custom mean and standard deviation in a spreadsheet.
 
-// Use a function to get the inverse of the normal cumulative distribution.
+// Determine the threshold value corresponding to a percentile in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 let valueArr = [0.34, 7, 3];

@@ -1,8 +1,8 @@
-// This example shows how to get the form key.
+// Read the unique key assigned to a text field in a document.
 
-// How get a key of a text form.
+// How do I look up the identifier key of a text entry area in a document?
 
-// Retrieve key of a created text form object and display it.
+// Verify the label used to reference a text field by name in a document.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});

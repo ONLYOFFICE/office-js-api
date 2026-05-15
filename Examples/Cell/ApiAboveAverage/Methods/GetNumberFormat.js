@@ -1,8 +1,8 @@
-// This example shows how to get number format from above average rule.
+// Read the numeric display pattern applied by an above-average conditional formatting rule in a spreadsheet.
 
-// How to retrieve number formatting from above average conditional formatting.
+// How do I retrieve the number format string assigned to an above-average highlight rule in a spreadsheet?
 
-// Get the number format pattern from the above average rule.
+// Inspect the display format a rule applies to cells that exceed the average value in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

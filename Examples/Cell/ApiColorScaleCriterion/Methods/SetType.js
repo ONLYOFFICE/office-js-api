@@ -1,8 +1,8 @@
-// This example demonstrates setting the type of color scale criterion.
+// Change the threshold type for a color scale rule point in a spreadsheet.
 
-// How to change the type of a color scale criterion.
+// How do I update what kind of boundary a color scale rule point uses in a spreadsheet?
 
-// Set the type of a color scale criterion.
+// Switch a color scale rule entry from one threshold category to another to adjust how the gradient is anchored in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

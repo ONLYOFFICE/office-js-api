@@ -1,6 +1,8 @@
-// This example shows how to create and use the table properties.
+// Apply a custom border to a table in a document.
 
-// How to create table properties and set it to table style.
+// How do I add a border to the bottom of a table in a document?
+
+// Style a table with a black bottom border using a custom table style in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

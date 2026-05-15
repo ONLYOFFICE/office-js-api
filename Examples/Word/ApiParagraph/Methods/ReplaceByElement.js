@@ -1,8 +1,8 @@
-// This example replaces the paragraph with a block level content control.
+// Swap a paragraph for a block-level content control in a document.
 
-// How to replace paragraph with another element.
+// How do I replace an existing paragraph with a content control in a document?
 
-// Add a block level content control instead of the paragraph.
+// Substitute plain text with a structured content container to enable form-like editing in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

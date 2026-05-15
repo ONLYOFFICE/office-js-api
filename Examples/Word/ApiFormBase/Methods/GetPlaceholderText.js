@@ -1,8 +1,8 @@
-// This example shows how to get the placeholder text of a form.
+// Read the placeholder text of a form field in a document.
 
-// How to get the placeholder text of a text form.
+// How do I get the placeholder text of a form field in a document?
 
-// Retrieve the placeholder text of a created text form and display it.
+// Confirm a hint label by retrieving the placeholder text after setting it on a form.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});

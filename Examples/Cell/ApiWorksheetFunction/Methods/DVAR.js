@@ -1,8 +1,8 @@
-// This example shows how to estimate variance based on a sample from the selected database entries.
+// Calculate sample variance for database entries that meet specified conditions in a spreadsheet.
 
-// How to estimate variance.
+// How do I estimate variance from filtered database records in a spreadsheet?
 
-// Use function to calculate a variance from a range sample.
+// Find the spread of values in a database subset using sample variance in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

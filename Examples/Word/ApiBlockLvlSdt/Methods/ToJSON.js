@@ -1,8 +1,8 @@
-// This example converts the ApiBlockLvlSdt object into the JSON object.
+// Save a content control as JSON and restore it in a document.
 
-// Creates a block content control and converts it into the JSON object.
+// How do I serialize a content control to JSON and recreate it in a document?
 
-// How to create the JSON object from the ApiBlockLvlSdt object.
+// Export a content control to JSON format and insert the restored copy into a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

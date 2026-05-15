@@ -1,4 +1,8 @@
-// This example demonstrates how to get the creator of the current document using the ApiCore.
+// Read the name of the author stored in the core properties of a document.
+
+// How do I get the creator's name from the core properties in a document?
+
+// Identify who originally authored a document without opening its file dialog in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

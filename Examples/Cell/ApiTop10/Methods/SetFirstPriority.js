@@ -1,8 +1,8 @@
-// This example sets the top 10 conditional formatting rule to have the highest priority.
+// Move a top 10 conditional formatting rule ahead of all other rules in a spreadsheet.
 
-// How to set conditional formatting rule priority to first position.
+// How do I make a top 10 rule take precedence over other formatting rules in a spreadsheet?
 
-// Set top 10 rule as first priority.
+// Ensure the top values highlight always wins when multiple rules compete in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

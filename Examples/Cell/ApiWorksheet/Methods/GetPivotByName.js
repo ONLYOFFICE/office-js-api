@@ -1,8 +1,8 @@
-// This example shows how to get a pivot table by its name.
+// Look up an existing pivot table by name and add fields to it in a spreadsheet.
 
-// How to find a pivot table.
+// How do I access a pivot table by its name in a spreadsheet?
 
-// Get a pivot table and by its name and update its fields.
+// Find a pivot table, then assign row and data fields to it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

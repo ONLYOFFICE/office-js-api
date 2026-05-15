@@ -1,4 +1,8 @@
-// This example shows how to move the cursor to the end of the document.
+// Move the cursor to the very end of a document.
+
+// How do I place the cursor at the last position in a document?
+
+// Append text after all existing content by jumping the cursor to the end in a document.
 
 const doc = Api.GetDocument();
 const paragraph = doc.GetElement(0);

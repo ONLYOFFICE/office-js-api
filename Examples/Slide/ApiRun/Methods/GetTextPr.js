@@ -1,8 +1,8 @@
-// This example shows how to get the text properties of the run.
+// Get text properties from a text run in a presentation.
 
-// How to get the text properties of the current ApiRun object and change its font size.
+// What text formatting properties can be read from a run?
 
-// Resize a font of a text run.
+// Retrieve text properties and modify font size in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

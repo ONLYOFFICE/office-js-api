@@ -1,8 +1,8 @@
-// This example shows how to get data fields.
+// Retrieve all value fields from a pivot table in a spreadsheet.
 
-// How to get data fields from a pivot table.
+// How do I access every data field in a pivot table to rename or reconfigure them in a spreadsheet?
 
-// Create a pivot table, add data to it then get data fields from it.
+// Loop through the value fields of a pivot table and update their names and summary functions in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

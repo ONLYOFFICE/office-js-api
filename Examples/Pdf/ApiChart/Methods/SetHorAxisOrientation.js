@@ -1,6 +1,8 @@
-// How to set an orientation of horizontal axis.
+// Reverse the direction of the horizontal axis in a PDF.
 
-// Create a chart, set its properties and its horizontal axis orientation.
+// How do I flip the left-to-right order of axis values in a PDF?
+
+// Invert the horizontal axis scale for a chart in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

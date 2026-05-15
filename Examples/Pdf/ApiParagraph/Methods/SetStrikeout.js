@@ -1,4 +1,8 @@
-// This example applies strikeout formatting to paragraph text.
+// Strike through paragraph text in a PDF.
+
+// How do I apply strikeout formatting in a PDF?
+
+// Use strikeout effect on text within a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

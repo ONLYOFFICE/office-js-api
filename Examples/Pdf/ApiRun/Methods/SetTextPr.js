@@ -1,8 +1,8 @@
-// This example sets the text properties to the current run.
+// Adjust multiple text characteristics at once in a PDF.
 
-// How to create the new text properties and apply it to the text run.
+// Which properties can I modify for text in a PDF?
 
-// Create a new text run and set its properties like font size, color, etc.
+// Set font size, weight, and other text attributes in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -12,7 +12,7 @@ const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = Api.CreateShape("flowChartMagneticTape", 150 * 36000, 65 * 36000, fill, stroke);
 shape.SetPosition(608400, 1267200);
 
-const docContent = shape.GetDocContent();
+const docContent = shape.GetContent();
 const paragraph = docContent.GetElement(0);
 const run = Api.CreateRun();
 run.AddText("This is a sample text with the font size set to 15 points and the font weight set to bold.");

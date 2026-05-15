@@ -1,8 +1,8 @@
-// This example specifies that when rendering the document using a paginated view, the contents of the current paragraph are rendered at the beginning of a new page in the document.
+// Force a paragraph to always start at the top of a new page in a document.
 
-// How to set a page break before the current paragraph.
+// How do I make a paragraph begin on a fresh page in a document?
 
-// Move the paragraph to the new page while rendering.
+// Push a paragraph onto the next page by inserting a break before it in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

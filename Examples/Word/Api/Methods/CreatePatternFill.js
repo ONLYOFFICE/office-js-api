@@ -1,8 +1,8 @@
-// This example creates a pattern fill and applies it to the object using the selected pattern as the object background.
+// Fill a shape with a patterned background using two colors in a document.
 
-// Creates the ApiFill object using the "dashDnDiag" pattern type and applies it to the created shape.
+// How do I apply a diagonal dash pattern as the background of a shape in a document?
 
-// How to create a pattern fill for the ApiShape object background.
+// Give a shape a decorative patterned fill instead of a solid color in a document.
 
 const bgColor = Api.HexColor('#abcdef');
 const fgColor = Api.ThemeColor('accent3');

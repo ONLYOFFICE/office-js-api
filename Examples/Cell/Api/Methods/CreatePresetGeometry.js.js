@@ -1,5 +1,9 @@
-// Analyzes cloud shape path properties and displays them in cells.
-// Shows path count, dimensions, stroke and fill information.
+// Read the path data from a built-in shape and display its properties in a spreadsheet.
+
+// How do I inspect the outline paths of a shape and list their dimensions in a spreadsheet?
+
+// Extract path count and size details from a shape's outline definition in a spreadsheet.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(100, 150, 200));
 let stroke = Api.CreateStroke(18000, Api.CreateSolidFill(Api.RGB(50, 75, 100)));

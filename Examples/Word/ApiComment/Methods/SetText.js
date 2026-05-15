@@ -1,8 +1,8 @@
-// This example sets the comment text.
+// Replace the text of an existing comment in a document.
 
-// How to change a text of a comment.
+// How do I change the message written inside a comment in a document?
 
-// Get all comments from the presentation and set its first one's text.
+// Update a comment's content to correct or revise the original feedback.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example shows how to set subtotals of a pivot field.
+// Choose which summary calculations appear as subtotals for a pivot table field in a spreadsheet.
 
-// How to change a pivot field subtotals.
+// How do I control which subtotal types a pivot field displays, such as count or sum, in a spreadsheet?
 
-// Create a pivot table, add data to it then set subtotals of a specified pivot.
+// Enable specific aggregation functions on a field to give readers the breakdown they need in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

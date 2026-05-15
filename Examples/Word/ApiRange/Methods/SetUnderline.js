@@ -1,8 +1,8 @@
-// This example specifies that the contents of the current Range are displayed along with a line appearing directly below the character.
+// Add an underline beneath a selected portion of text in a document.
 
-// Underline the range.
+// How do I draw a line under specific words to emphasize them in a document?
 
-// Get a range and underline it with one line.
+// Highlight key phrases by placing a continuous underline below the chosen text in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

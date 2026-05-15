@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the pdf document.
+// Determine the type of a gradient stop object in a PDF.
 
-// How to get a class type of ApiGradientStop.
+// How can I find the object type of a gradient stop in a PDF?
 
-// Retrieve class type of ApiGradientStop object and insert it to the page.
+// Retrieve the class type information for a gradient color stop in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -15,7 +15,7 @@ const shape = Api.CreateShape("flowChartMagneticTape", 300 * 36000, 130 * 36000,
 shape.SetPosition(608400, 1267200);
 shape.SetSize(300 * 36000, 130 * 36000);
 
-const docContent = shape.GetDocContent();
+const docContent = shape.GetContent();
 const classType = gs1.GetClassType();
 const paragraph = docContent.GetElement(0);
 paragraph.SetJc("left");

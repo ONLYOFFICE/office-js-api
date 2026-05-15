@@ -1,8 +1,8 @@
-// This example shows how to create a new theme format scheme.
+// Define colors, fills, and outlines for a presentation theme in a presentation.
 
-// How to change theme format of the theme.
+// How can I customize the appearance settings of a presentation theme in a presentation?
 
-// Add theme format to the theme.
+// Set up a new color and stroke scheme for a presentation theme in a presentation.
 
 const presentation = Api.GetPresentation();
 const master = presentation.GetMaster(0);

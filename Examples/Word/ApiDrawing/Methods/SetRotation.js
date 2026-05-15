@@ -1,4 +1,9 @@
-// This example shows how to set the rotation angle to the drawing.
+// Rotate a drawing by a specified angle in a document.
+
+// How do I tilt a shape to a particular degree in a document?
+
+// Turn a wide rectangle ninety degrees and display the resulting angle inside it in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let gs1 = Api.CreateGradientStop(Api.RGB(255, 213, 191), 0);

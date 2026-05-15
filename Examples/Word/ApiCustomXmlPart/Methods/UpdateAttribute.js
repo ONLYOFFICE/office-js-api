@@ -1,4 +1,9 @@
-// This example shows how to update the value of an attribute in a custom XML node.
+// Change the value of an existing attribute in a custom XML part in a document.
+
+// How do I update an attribute on an XML node within a custom XML part in a document?
+
+// Modify stored metadata by overwriting an attribute value in place in a document.
+
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
 let xml = xmlManager.Add("<content xmlns='http://example' version='1.0'></content>");

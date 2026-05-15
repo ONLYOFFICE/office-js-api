@@ -1,5 +1,9 @@
-// Analyzes path properties of a cloud shape.
-// Retrieves and displays path dimensions, stroke and fill information.
+// Retrieve a specific path from a shape's geometry in a document.
+
+// How do I get a path by index from a shape's geometry in a document?
+
+// Inspect a shape's individual path to read its size, stroke, and fill settings in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.RGB(255, 200, 100));

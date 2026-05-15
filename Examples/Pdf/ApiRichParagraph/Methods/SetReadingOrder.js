@@ -1,4 +1,9 @@
-// This example sets rtl to rich paragraph.
+// Specify text reading direction for a paragraph in a PDF.
+
+// How do I set the reading direction for a paragraph in a PDF?
+
+// Configure how text flows through a paragraph in a PDF.
+
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
 let page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// This example sets the alias attribute to the container.
+// Assign a human-readable alias to an inline content control in a document.
 
-// How to set a "№1" alias to the inline content control.
+// How do I label an inline content control with an alias in a document?
 
-// Display the alias set for inline text element.
+// Give a content control a friendly name so it can be identified easily by alias in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

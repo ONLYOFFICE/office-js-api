@@ -1,8 +1,8 @@
-// This example sets the spacing after the paragraph.
+// Add extra space below a paragraph inside a shape in a spreadsheet.
 
-// How to add the spacing after the paragraphs using points.
+// How do I increase the gap between a paragraph and the one that follows it in a spreadsheet?
 
-// Get a paragraph from the shape's content then add a text specifying the spacing after a custom text.
+// Push the next paragraph down by setting a bottom margin on the current paragraph in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

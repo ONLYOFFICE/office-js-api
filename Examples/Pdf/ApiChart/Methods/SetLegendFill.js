@@ -1,6 +1,8 @@
-// How to color a chart legend.
+// Change the background color of a legend in a PDF.
 
-// Create a chart, set its properties and background color of a legend.
+// How do I set a solid color fill for the legend box in a PDF?
+
+// Apply a gray fill to the legend area of a chart in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

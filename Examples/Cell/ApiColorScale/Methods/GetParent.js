@@ -1,8 +1,8 @@
-// This example gets the parent range object of color scale formatting.
+// Retrieve the cell range that a color scale rule is applied to in a spreadsheet.
 
-// How to retrieve the parent range that contains color scale conditional formatting.
+// How do I find out which cells are covered by a color scale rule in a spreadsheet?
 
-// Get color scale parent range.
+// Identify the source range behind an existing color gradient rule in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

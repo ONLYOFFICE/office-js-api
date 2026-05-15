@@ -1,4 +1,8 @@
-// This example demonstrates how to set and get the title of the current presentation.
+// Add a title to the presentation metadata in a presentation.
+
+// How do I set the title that identifies my presentation?
+
+// Retrieve and display the presentation title in a presentation.
 
 const presentation = Api.GetPresentation();
 const core = presentation.GetCore();

@@ -1,8 +1,8 @@
-// This example specifies the border which will be displayed at the right side of the page around the specified paragraph.
+// Add a border to the right side of a paragraph in a document.
 
-// How to add border to the right side of the paragraph.
+// How do I place a visible border on the right edge of a paragraph in a document?
 
-// Add right single border.
+// Highlight a paragraph by drawing a colored line along its right margin.
 
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");

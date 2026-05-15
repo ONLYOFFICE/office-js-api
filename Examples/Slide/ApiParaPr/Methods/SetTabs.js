@@ -1,8 +1,8 @@
-// This example sets a sequence of custom tab stops which will be used for any tab characters in the paragraph.
+// Define custom tab stop positions in a paragraph in a presentation.
 
-// How to set the size of a spacing tabs from a paragraph properties.
+// How do I add tabs to control text spacing in a presentation?
 
-// Change a tabs size property of a paragraph properties.
+// Configure tab stops for text alignment using paragraph settings in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

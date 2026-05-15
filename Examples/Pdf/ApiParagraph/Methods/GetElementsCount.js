@@ -1,10 +1,8 @@
-// This example shows how to get a number of elements in the current paragraph.
+// Count all text elements in a paragraph in a PDF.
 
-// How to return a number of paragraph elements.
+// How do I find out how many elements a paragraph contains in a PDF?
 
-// Find out how many elements a paragraph has.
-
-// Return a number of element from the ApiParagraph object.
+// Get the total number of elements within a paragraph in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -15,7 +13,7 @@ const fill = Api.CreateRadialGradientFill([gs1, gs2]);
 const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = Api.CreateShape("flowChartMagneticTape", 150 * 36000, 65 * 36000, fill, stroke);
 shape.SetPosition(608400, 1267200);
-const docContent = shape.GetDocContent();
+const docContent = shape.GetContent();
 const paragraph = docContent.GetElement(0);
 paragraph.RemoveAllElements();
 

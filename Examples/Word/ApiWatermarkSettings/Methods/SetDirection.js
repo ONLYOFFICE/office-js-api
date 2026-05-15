@@ -1,8 +1,8 @@
-// This example sets the parameters of the watermark settings and apply them to the document.
+// Control the angle at which a watermark is displayed in a document.
 
-// How to set the direction of the watermark.
+// How do I change the rotation direction of a watermark in a document?
 
-// Indicate the direction "clockwise45" in the watermark settings.
+// Tilt the watermark diagonally across the page in a document.
 
 let doc = Api.GetDocument();
 let watermarkSettings = doc.GetWatermarkSettings();

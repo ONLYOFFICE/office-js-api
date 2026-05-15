@@ -1,8 +1,8 @@
-// This example shows how to get the paragraph style.
+// Retrieve the style applied to a paragraph and display its name in a document.
 
-// How to get the style of the paragraph.
+// How do I get the current style of a paragraph in a document?
 
-// Get the paragraph style and display its name.
+// Confirm which named style is active on a paragraph by reading and printing the style name in a document.
 
 let doc = Api.GetDocument();
 let heading6Style = doc.GetStyle("Heading 6");

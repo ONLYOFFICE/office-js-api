@@ -1,8 +1,8 @@
-// This example shows how to get a layout subtotals of a pivot field.
+// Read which subtotal types are enabled for a pivot field in a spreadsheet.
 
-// How to get a layout subtotals of a pivot field.
+// How do I check what subtotals are active for a pivot table field in a spreadsheet?
 
-// Create a pivot table, add data to it then get a layout subtotals of a specified pivot field.
+// Retrieve the list of subtotal calculations applied to a pivot field to review its summary configuration.
 
 let worksheet = Api.GetActiveSheet();
 

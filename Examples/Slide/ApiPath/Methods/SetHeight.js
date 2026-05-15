@@ -1,5 +1,9 @@
-// Creates a custom shape and adds it to a slide.
-// Applies custom geometry with specific fill and stroke properties.
+// Define the vertical dimension of a custom shape's drawing area in a presentation.
+
+// How do I control the vertical size of a shape path in a presentation?
+
+// Adjust the height value of a geometry path in a presentation.
+
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);
 let customGeometry = Api.CreateCustomGeometry();

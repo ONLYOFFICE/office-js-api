@@ -1,8 +1,8 @@
-// This example specifies the direction of the data displayed on the vertical axis.
+// Reverse the value direction on a chart's vertical axis in a spreadsheet.
 
-// How to indicate the direction of values of the chart vertical axis.
+// How do I flip the order in which values are displayed on the vertical axis in a spreadsheet?
 
-// Specify the vertical axis orientation.
+// Control whether the vertical axis counts upward or downward in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

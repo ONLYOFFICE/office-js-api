@@ -1,8 +1,8 @@
-// This example shows how to return the number (code point) corresponding to the first character of the text.
+// Return the number (code point) corresponding to the first character of the text in a spreadsheet.
 
-// How to get a Unicode of a character.
+// The UNICODE function converts characters to their numeric Unicode values.
 
-// Use a function to return the character's Unicode.
+// Apply the function to obtain a character's code point from text in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

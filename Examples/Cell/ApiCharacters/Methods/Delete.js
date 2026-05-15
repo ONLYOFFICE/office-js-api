@@ -1,8 +1,8 @@
-// This example deletes the ApiCharacters object.
+// Remove a specific sequence of characters from a cell's text in a spreadsheet.
 
-// How to delete characters from an array.
+// How do I erase a portion of text inside a cell by position in a spreadsheet?
 
-// Remove all characters.
+// Trim unwanted characters out of a cell value without replacing the entire contents in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B1");

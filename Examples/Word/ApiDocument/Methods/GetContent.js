@@ -1,8 +1,8 @@
-// This example shows how to get an array of document elements from the document.
+// Get all top-level elements of a document as an array in a document.
 
-// Retrieve each document element.
+// How do I access every element in a document by its position in a document?
 
-// Update properties of document elements knowing their order position.
+// Style individual paragraphs, tables, and content controls by iterating the element array in a document.
 
 let doc = Api.GetDocument();
 let paragraph = Api.CreateParagraph();

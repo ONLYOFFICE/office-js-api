@@ -1,4 +1,4 @@
-// This example sets the axis values to the top position of the chart.
+// Set the axis values to the top position of the chart.
 
 // How to change the axis labels format of the chart.
 

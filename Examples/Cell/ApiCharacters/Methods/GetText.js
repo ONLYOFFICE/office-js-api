@@ -1,8 +1,8 @@
-// This example shows how to get the text of the specified range of characters.
+// Read the plain text content of a selected group of characters in a spreadsheet.
 
-// How to get a raw text from the characters.
+// How do I extract just the text from a specific portion of a cell's value in a spreadsheet?
 
-// Retrieve a text from the character collection.
+// Capture a substring of cell text for comparison or display elsewhere in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B1");

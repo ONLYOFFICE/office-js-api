@@ -1,4 +1,8 @@
-// This example shows how to get all layouts of the specified slide master.
+// Retrieve all slide layouts from a master in a presentation.
+
+// How do I access all slide layouts in a master in a presentation?
+
+// List every layout associated with a slide master in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

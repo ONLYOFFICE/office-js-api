@@ -1,8 +1,8 @@
-// This example shows how to get the paragraph line spacing rule.
+// Find out the line spacing type used in a paragraph in a PDF.
 
-// How to get the spacing information of the paragraph lines.
+// How do I determine which line spacing rule applies to a paragraph in a PDF?
 
-// Create a paragraph, set the spacing line between the sentences and show it. 
+// Read the line spacing method assigned to a paragraph in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -15,7 +15,7 @@ const shape = Api.CreateShape("flowChartMagneticTape", 150 * 36000, 65 * 36000, 
 shape.SetPosition(608400, 1267200);
 page.AddObject(shape);
 
-const docContent = shape.GetDocContent();
+const docContent = shape.GetContent();
 const paragraph = docContent.GetElement(0);
 paragraph.SetSpacingLine(3 * 240, "auto");
 paragraph.AddText("Paragraph 1. Spacing: 3 times of a common paragraph line spacing.");

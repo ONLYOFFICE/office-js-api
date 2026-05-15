@@ -1,8 +1,8 @@
-// This example shows how to get the internal id of the current form.
+// Obtain the unique internal identifier of a combo box form in a document.
 
-// How to get an internal id of a combo box form.
+// How do I get the internal identifier of a combo box form in a document?
 
-// Retrieve the internal id of a created combo box form and display it.
+// Use the identifier to reference or track a specific combo box form programmatically.
 
 let doc = Api.GetDocument();
 let comboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});

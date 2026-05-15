@@ -1,8 +1,8 @@
-// This example sets the timestamp of the comment creation in UTC format.
+// Set the creation timestamp of a comment in UTC format in a document.
 
-// How to change a creation time of a comment in UTC format.
+// How do I store a comment's creation time as a UTC value in a document?
 
-// Get all comments from the presentation and change its first one's creation UTC time.
+// Synchronize comment timestamps across time zones by recording the time in UTC.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

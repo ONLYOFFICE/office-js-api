@@ -1,8 +1,8 @@
-// This example show how to get a presentation.
+// Access the current presentation and work with its content in a presentation.
 
-// How to get the ApiPresentation object.
+// How can I reference the active presentation in a presentation?
 
-// Retrieve the current presentation object and work with its slides.
+// Get the presentation object and add a chart to a slide in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

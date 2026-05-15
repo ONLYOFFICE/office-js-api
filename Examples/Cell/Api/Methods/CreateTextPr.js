@@ -1,8 +1,8 @@
-// This example creates the empty text properties.
+// Define font size and weight settings to apply to a paragraph of text in a spreadsheet.
 
-// How to set custom properties for an empty text.
+// How do I configure text styling such as size and bold before adding it to a shape in a spreadsheet?
 
-// Change a new text properties like font size, font style, etc.
+// Prepare a reusable set of text style rules and attach them to a paragraph in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

@@ -1,4 +1,8 @@
-// This example demonstrates how to set and get the name of the last user who modified the current presentation.
+// Set and view the name of the last person to edit a presentation in a presentation.
+
+// How do I find who last modified a presentation?
+
+// Retrieve the name of the user who made the most recent changes in a presentation.
 
 const presentation = Api.GetPresentation();
 const core = presentation.GetCore();

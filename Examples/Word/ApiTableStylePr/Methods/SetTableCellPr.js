@@ -1,8 +1,8 @@
-// This example shows how to create and set the table cell properties which will be applied to all the cells within a table which match the conditional formatting type.
+// Apply cell formatting to a conditional region of a table style in a document.
 
-// How to set the table cell properties to table style.
+// How do I set the background shading for cells in a specific part of a table style in a document?
 
-// Update the table style table cell properties.
+// Assign visual cell appearance to a targeted section of a styled table in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

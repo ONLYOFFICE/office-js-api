@@ -1,8 +1,8 @@
-// This example specifies the chart horizontal axis title.
+// Add a title to the horizontal axis of a chart in a document.
 
-// How to change a position of a horizontal axis title.
+// How do I label the horizontal axis to describe the data category in a document?
 
-// Create a chart and move its horizontal axis title.
+// Give the horizontal axis a descriptive name so viewers understand what the values represent in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

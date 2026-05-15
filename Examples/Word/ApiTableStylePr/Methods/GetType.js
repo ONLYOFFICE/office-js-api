@@ -1,8 +1,8 @@
-// This example shows how to get a type of the current table conditional style.
+// Read the conditional region identifier assigned to a table style in a document.
 
-// How to get the table style type and display it in the document.
+// How do I find out which part of a table a style condition targets in a document?
 
-// Retrieve the type of the style.
+// Identify the area of the table that a conditional formatting rule applies to in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.GetStyle("Bordered");

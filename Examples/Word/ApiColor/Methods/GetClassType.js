@@ -1,4 +1,8 @@
-// This example shows how to get the class type of ApiColor object.
+// Retrieve the class type of a color object in a document.
+
+// How do I identify what kind of color object is used in a document?
+
+// Useful when you need to confirm the object type before processing color properties.
 
 const doc = Api.GetDocument();
 const color = Api.ThemeColor('accent1');

@@ -1,8 +1,8 @@
-// This example shows how to return the complex conjugate of a complex number.
+// Get the complex conjugate of a number in a spreadsheet.
 
-// How to get the complex conjugate.
+// How do I find the conjugate of a complex number in a spreadsheet?
 
-// Use a function to get the complex conjugate of a complex number.
+// Reflect a complex number across the real axis in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

@@ -1,8 +1,8 @@
-// This example gets a class type and pastes it into the presentation.
+// Get the class type of a theme in a presentation.
 
-// How to get a class type of ApiTheme.
+// How do I identify the type of a theme object in a presentation?
 
-// Retrieve class type of ApiTheme object and insert it to the slide.
+// Retrieve the theme class type and display it as text in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

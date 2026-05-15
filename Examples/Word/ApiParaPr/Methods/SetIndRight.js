@@ -1,8 +1,8 @@
-// This example sets the paragraph right side indentation.
+// Push a paragraph inward from the right margin in a document.
 
-// How to set the indentation for the paragraph right side.
+// How do I set a right indent on paragraphs using a paragraph style in a document?
 
-// Create a new paragraph and set its right side indentation.
+// Narrow paragraph text from the right edge to create visual emphasis or a quoted-block effect.
 
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");

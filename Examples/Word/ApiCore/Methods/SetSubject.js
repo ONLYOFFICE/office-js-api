@@ -1,4 +1,8 @@
-// This example demonstrates how to set the subject of the current document.
+// Set the subject field in the core properties of a document in a document.
+
+// How do I define a subject for a document's metadata?
+
+// Categorize or describe document content by writing a subject string to its metadata in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

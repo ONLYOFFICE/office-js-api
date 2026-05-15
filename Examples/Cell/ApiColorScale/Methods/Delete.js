@@ -1,8 +1,8 @@
-// This example deletes a color scale conditional formatting rule.
+// Remove a color scale formatting rule from a range in a spreadsheet.
 
-// How to remove color scale formatting from a range.
+// How do I delete an existing color scale rule that was applied to a data range in a spreadsheet?
 
-// Delete color scale rule.
+// Clear gradient-based cell shading from a column and confirm the rule count drops in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

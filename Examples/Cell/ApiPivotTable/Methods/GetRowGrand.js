@@ -1,8 +1,8 @@
-// This example shows how to get row grand of a pivot table.
+// Check whether row grand totals are displayed in a pivot table in a spreadsheet.
 
-// How to get table row grand.
+// How do I find out if a pivot table shows a grand total row at the bottom in a spreadsheet?
 
-// Create a pivot table, add data to it then get its row grand.
+// Verify the row grand total setting on a pivot table to see if totals are turned on in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

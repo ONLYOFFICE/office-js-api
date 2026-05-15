@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Identify the object type of a table in a document.
 
-// How to get a class type of ApiTable.
+// How do I check what kind of object a table is in a document?
 
-// Retrieve class type of ApiTable object and insert it to the document.
+// Confirm the category of a table element and display the result in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

@@ -1,8 +1,8 @@
-// This example shows how to return the inverse of the (right-tailed) F probability distribution: if p = F.DIST.RT(x,...), then F.INV.RT(p,...) = x.
+// Return the inverse of the (right-tailed) F probability distribution.
 
-// How to get the inverse of the (right-tailed) F probability distribution.
+// Calculate the inverse function where p = F.DIST.RT(x,...) implies F.INV.RT(p,...) = x.
 
-// Use function to calculate an inverse of the F probability distribution.
+// Determine critical F values using F_INV_RT with probability and degrees of freedom.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

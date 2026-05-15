@@ -1,4 +1,9 @@
-// This example moves option in field with list of options.
+// Reorder choices in a dropdown field in a PDF.
+
+// How do I rearrange the order of options in a dropdown in a PDF?
+
+// Change the position of an item in a list field in a PDF.
+
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 let comboboxField = Api.CreateComboboxField([10, 10, 160, 30]);

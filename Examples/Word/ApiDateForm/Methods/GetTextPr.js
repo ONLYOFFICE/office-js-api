@@ -1,8 +1,8 @@
-// This example returns the text properties from the current form.
+// Retrieve the text formatting properties of a date form in a document.
 
-// How to get a text properties of a date form.
+// How do I get the text properties applied to a date form in a document?
 
-// How to increase a font size of the date form and make its text bold.
+// Modify the retrieved properties to further adjust the form's appearance, such as adding italic style.
 
 let doc = Api.GetDocument();
 let dateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});

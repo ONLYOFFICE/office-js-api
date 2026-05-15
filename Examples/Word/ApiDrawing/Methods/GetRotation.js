@@ -1,4 +1,9 @@
-// This example shows how to get the rotation angle of the drawing.
+// Read the rotation angle of a drawing object in a document.
+
+// How do I get the rotation angle of a shape in a document?
+
+// Display the current tilt of a drawing as text inside the shape itself in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let gs1 = Api.CreateGradientStop(Api.RGB(255, 213, 191), 0);

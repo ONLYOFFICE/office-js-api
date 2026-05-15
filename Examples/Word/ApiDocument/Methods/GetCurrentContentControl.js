@@ -1,4 +1,8 @@
-// This example shows how to get the currently selected content control from a document.
+// Retrieve the content control that is currently selected in a document.
+
+// How do I get the active content control at the cursor position in a document?
+
+// Check which control the user is interacting with by reading the current selection in a document.
 
 const doc = Api.GetDocument();
 

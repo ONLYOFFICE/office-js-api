@@ -1,8 +1,8 @@
-// This example shows how to return the confidence interval for a population mean, using a normal distribution.
+// Determine the range of accuracy for an estimated average in a spreadsheet.
 
-// How to return the confidence interval for a population mean, using a normal distribution.
+// What uncertainty level should you expect around your average in a spreadsheet?
 
-// Use function to confidence interval for a population mean.
+// Measure how confident you can be in your average calculation in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

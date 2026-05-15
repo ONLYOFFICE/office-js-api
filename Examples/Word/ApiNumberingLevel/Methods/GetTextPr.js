@@ -1,8 +1,8 @@
-// This example shows how to get the text properties which will be applied to the text in the numbering level itself, not to the text in the subsequent paragraph.
+// Apply text formatting to the numbering label of a list level in a document.
 
-// How to retrieve the text properties of the numbering.
+// How do I change the font and size of a list level's numbering label in a document?
 
-// Update text properties of the numbering.
+// Style the numbering marker itself with bold and a custom typeface without affecting the paragraph text in a document.
 
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("numbered");

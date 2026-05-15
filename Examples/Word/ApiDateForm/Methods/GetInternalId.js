@@ -1,8 +1,8 @@
-// This example shows how to get the internal id of the current form.
+// Retrieve the unique internal identifier of a date form in a document.
 
-// How to get an internal id of a date form.
+// How do I get the internal ID assigned to a date form in a document?
 
-// Retrieve the internal id of a created date form and display it.
+// Use the identifier to distinguish one date form from another when multiple forms exist.
 
 let doc = Api.GetDocument();
 let dateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});

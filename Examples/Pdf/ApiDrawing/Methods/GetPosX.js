@@ -1,6 +1,8 @@
-// How to get and display a X position of a drawing.
+// Find the left-to-right position of a shape in a PDF.
 
-// Get a shape object from a page and get its X position.
+// How do I check the X coordinate of an object in a PDF?
+
+// Read the horizontal distance of a shape from the left edge in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

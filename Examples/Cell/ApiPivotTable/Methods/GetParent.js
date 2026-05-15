@@ -1,8 +1,8 @@
-// This example shows how to get parent of a pivot table.
+// Find the worksheet that contains a pivot table in a spreadsheet.
 
-// How to get table parent and show its name.
+// How do I identify which sheet a pivot table belongs to in a spreadsheet?
 
-// Create a pivot table, add data to it then get its parent.
+// Access the parent sheet of a pivot table to read or display its name in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

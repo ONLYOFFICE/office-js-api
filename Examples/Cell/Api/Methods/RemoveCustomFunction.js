@@ -1,8 +1,8 @@
-// This example clear current custom function.
+// Unregister a custom formula so it is no longer available for use in a spreadsheet.
 
-// How to delete custom created function from the library.
+// How do I delete a previously added custom formula from the available functions in a spreadsheet?
 
-// Remove custom function library.
+// Clean up unused custom formulas to keep the function list tidy in a spreadsheet.
 
 Api.AddCustomFunctionLibrary("LibraryName", function(){
     /**

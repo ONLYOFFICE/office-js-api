@@ -1,8 +1,8 @@
-// In this example, add the text with a text fill to the WordArt.
+// Fill the interior of text characters with a solid color in a document.
 
-// How to fill a text run.
+// How do I change the color that fills the inside of letters in a document?
 
-// Create a new text run and set its font color.
+// Paint text with a custom fill so characters display a chosen color in a document.
 
 let doc = Api.GetDocument();
 let textPr = Api.CreateTextPr();

@@ -1,8 +1,8 @@
-// This example specifies an amount of space which shall be left between the left extent of the current cell contents and the left edge border of a specific individual table cell within a table.
+// Set the spacing between text and the left edge of a table cell in a presentation.
 
-// How to set the cell left margin for the current table cell.
+// How do I add space to the left of text in a table cell in a presentation?
 
-// Specify the left margin value for the ApiTableCell object.
+// Adjust the left margin to control padding in a table cell in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

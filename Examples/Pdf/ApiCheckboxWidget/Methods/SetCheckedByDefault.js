@@ -1,4 +1,9 @@
-// This example sets checkbox widget checked by default property.
+// Make a checkbox appear selected when the PDF form first opens in a PDF.
+
+// How do I configure a checkbox to be pre-selected by default in a PDF?
+
+// Set the initial checked state for a checkbox widget in a PDF.
+
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);
 let radiobuttonField = Api.CreateRadiobuttonField([10, 10, 25, 25]);

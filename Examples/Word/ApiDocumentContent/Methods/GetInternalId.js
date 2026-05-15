@@ -1,4 +1,8 @@
-// This example shows how to get the internal ID of a document content.
+// Retrieve the unique internal ID of a document content object in a document.
+
+// How do I get the internal identifier assigned to a document content in a document?
+
+// Display the internal ID inside a shape to track or reference that content container later.
 
 const doc = Api.GetDocument();
 const paragraph = doc.GetElement(0);

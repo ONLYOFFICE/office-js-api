@@ -1,8 +1,8 @@
-// This example deletes the worksheet.
+// Remove a sheet from the workbook in a spreadsheet.
 
-// How to delete sheets.
+// How do I delete a worksheet that is no longer needed in a spreadsheet?
 
-// Remove a worksheet.
+// Permanently discard a sheet and confirm the removal with a message.
 
 Api.AddSheet("New sheet");
 let sheet = Api.GetActiveSheet();

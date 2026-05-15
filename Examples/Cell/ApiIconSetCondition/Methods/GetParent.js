@@ -1,8 +1,8 @@
-// This example demonstrates getting the parent object of an icon set rule.
+// Retrieve the formatting collection that owns an icon set rule in a spreadsheet.
 
-// How to retrieve the parent object that contains icon set conditional formatting.
+// How do I access the parent collection that contains an icon set formatting rule in a spreadsheet?
 
-// Get the parent object of the icon set rule.
+// Trace an icon set rule back to the formatting collection it belongs to in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

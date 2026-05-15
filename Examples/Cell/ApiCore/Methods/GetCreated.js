@@ -1,4 +1,8 @@
-// This example demonstrates how to get the creation date of a workbook using the ApiCore.
+// Read the creation date recorded in the workbook properties in a spreadsheet.
+
+// How do I find out when a workbook was originally created in a spreadsheet?
+
+// Retrieve and display the date the workbook was first made in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

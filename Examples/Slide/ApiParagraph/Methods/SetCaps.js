@@ -1,4 +1,8 @@
-// This example sets all characters in the paragraph to display as capitals.
+// Convert paragraph text to all capital letters in a presentation.
+
+// How do I display text in uppercase in a presentation?
+
+// Format text to show only uppercase characters in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

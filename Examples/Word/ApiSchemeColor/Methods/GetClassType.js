@@ -1,8 +1,8 @@
-// This example gets a class type and inserts it into the document.
+// Read the type label assigned to a scheme color in a document.
 
-// How to get a class type of ApiSchemeColor.
+// How do I find out what kind of object a scheme color is in a document?
 
-// Retrieve class type of ApiSchemeColor object and insert it to the document.
+// Confirm the category of a color object by checking its type identifier in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

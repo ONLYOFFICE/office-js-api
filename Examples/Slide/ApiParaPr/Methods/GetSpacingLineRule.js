@@ -1,8 +1,8 @@
-// This example shows how to get the paragraph line spacing rule.
+// Check the line spacing mode of a paragraph in a presentation.
 
-// How to get the size of a spacing line rule of a text from a paragraph.
+// How do I read the line spacing rule from a paragraph in a presentation?
 
-// Return a spacing line rule property of a paragraph.
+// Retrieve whether line spacing is automatic, fixed, or measured in multiples in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

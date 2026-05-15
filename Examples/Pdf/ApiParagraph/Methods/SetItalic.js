@@ -1,4 +1,8 @@
-// This example sets the italic property to the text character.
+// Make paragraph text slanted in a PDF.
+
+// How do I apply italic formatting to text in a PDF?
+
+// Display text with a tilted appearance in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

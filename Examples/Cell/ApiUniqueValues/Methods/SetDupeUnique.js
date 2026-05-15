@@ -1,8 +1,8 @@
-// This example demonstrates setting the duplicate/unique value setting for a unique values conditional formatting rule.
+// Switch a unique values formatting rule to highlight duplicates instead in a spreadsheet.
 
-// How to change between highlighting unique or duplicate values.
+// How do I make a unique values rule target duplicates rather than unique entries in a spreadsheet?
 
-// Set unique values rule to highlight duplicates instead.
+// Choose whether a formatting rule marks repeated or one-of-a-kind values in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

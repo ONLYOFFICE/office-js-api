@@ -1,8 +1,8 @@
-// This example shows how to get a Range object that represents the end in the specified direction in the specified range.
+// Jump to the last occupied cell in a chosen direction within a range in a spreadsheet.
 
-// Get a left end part of a range and fill it with color.
+// How do I find the boundary cell of a data block by moving in a specific direction in a spreadsheet?
 
-// Get a specified direction end of a range.
+// Locate the edge of filled cells going left, right, up, or down and highlight it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("C4:D5");

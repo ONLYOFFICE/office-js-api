@@ -1,8 +1,8 @@
-// This example gets the application ID from the current OLE object.
+// Retrieve the application identifier associated with an embedded object in a presentation.
 
-// How to return an application ID of the current OLE object.
+// How do I get the application ID of an embedded object in a presentation?
 
-// Get an application ID of a specified OLE object.
+// Read the application ID from a linked or embedded object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

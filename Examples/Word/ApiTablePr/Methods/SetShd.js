@@ -1,8 +1,8 @@
-// This example specifies the shading which shall be applied to the extents of the table.
+// Fill the background of an entire table with a color in a document.
 
-// How to add shading to the paragraph.
+// How do I apply a background shade to a whole table in a document?
 
-// Apply the clear shading to the paragraph.
+// Give a table a colored backdrop to highlight it visually in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

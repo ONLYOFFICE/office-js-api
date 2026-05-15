@@ -1,4 +1,8 @@
-// This example demonstrates how to use ApiCore to manage spreadsheet metadata.
+// Read and write built-in document properties such as author and title in a spreadsheet.
+
+// How do I set or retrieve metadata like creator, subject, and keywords in a spreadsheet?
+
+// Store descriptive information about the document itself in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

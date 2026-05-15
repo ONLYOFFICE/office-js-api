@@ -1,5 +1,9 @@
-// Gets the fill color of a stroke.
-// Creates a shape with a colored border and retrieves its fill properties.
+// Retrieve the fill color applied to a shape border in a document.
+
+// How do I read the color used for a shape's border fill in a document?
+
+// Extract and display the fill type from a shape's border to inspect its color settings in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 200, 100));

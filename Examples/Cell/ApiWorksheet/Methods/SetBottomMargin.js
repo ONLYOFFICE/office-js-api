@@ -1,8 +1,8 @@
-// This example sets the bottom margin of the sheet.
+// Define the bottom page margin for a sheet in a spreadsheet.
 
-// How to set margin of the bottom.
+// How do I set the bottom margin of a worksheet in a spreadsheet?
 
-// Resize the bottom margin of the sheet.
+// Adjust the spacing at the bottom of the printed page in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.SetBottomMargin(25.1);

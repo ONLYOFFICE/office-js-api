@@ -1,8 +1,8 @@
-// This example gets the priority value of the top 10 conditional formatting rule.
+// Read the priority order of a top 10 conditional formatting rule in a spreadsheet.
 
-// How to retrieve the priority of conditional formatting rules.
+// How do I find the priority assigned to a top 10 conditional formatting rule in a spreadsheet?
 
-// Get top 10 rule priority.
+// Check which position a top 10 highlight rule occupies in the formatting order in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

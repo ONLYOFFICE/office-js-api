@@ -1,8 +1,8 @@
-// This example specifies the alignment which will be applied to the contents of the current run in relation to the default appearance of the text run.
+// Raise text to superscript position inside a shape in a spreadsheet.
 
-// How to change vertical alignment of a text.
+// How do I position text above or below the normal line in a spreadsheet?
 
-// Make text superscript.
+// Lift characters above the baseline to create a superscript effect in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

@@ -1,4 +1,8 @@
-// This example shows how to get content of a drawing.
+// Get the inner content of a drawing object to add text inside it in a document.
+
+// How do I access the editable content area inside a drawing shape in a document?
+
+// Insert a paragraph with custom text directly into a shape's content container in a document.
 
 const doc = Api.GetDocument();
 let firstParagraph = doc.GetElement(0);

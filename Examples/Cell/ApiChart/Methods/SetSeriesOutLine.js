@@ -1,8 +1,8 @@
-// This example sets the outline to the specified chart series.
+// Apply a colored border to a chart data series in a spreadsheet.
 
-// How to outline chart series.
+// How do I add an outline stroke to a specific chart series in a spreadsheet?
 
-// Add colored stroke for a chart seria.
+// Make a chart series stand out by surrounding its bars with a visible colored edge in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

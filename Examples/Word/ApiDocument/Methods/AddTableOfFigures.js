@@ -1,8 +1,8 @@
-// This example adds a table of figures to the current document.
+// Generate a table of figures from captioned drawings in a document.
 
-// How to add drawings to the document and generate a table of figures.
+// How do I build a table of figures based on chart captions in a document?
 
-// Insert a table of figures specifying its properties.
+// Configure page numbers, leader dots, and label numbers when inserting a table of figures in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

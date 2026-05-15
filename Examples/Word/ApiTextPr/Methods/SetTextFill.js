@@ -1,8 +1,8 @@
-// In this example, the WordArt text has a text fill.
+// Fill WordArt text with a solid color in a document.
 
-// How to color a text object.
+// How do I change the fill color of decorative text in a document?
 
-// Create a text run object, add color to it using solid fill.
+// Give artistic text a distinct appearance by applying a colored fill in a document.
 
 let doc = Api.GetDocument();
 let textPr = Api.CreateTextPr();

@@ -1,8 +1,8 @@
-// This example shows how to return the character specified by the code number from your computer's character set.
+// Convert a numeric code to its character symbol in a spreadsheet.
 
-// How to return the character specified by the code number from your computer's character set.
+// What character does a number code represent in a spreadsheet?
 
-// Use function to return the character specified by the code number from your computer's character set.
+// Display the letter or symbol matching a code value in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

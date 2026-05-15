@@ -1,8 +1,8 @@
-// This example sets the font size to the characters of the cell range.
+// Change the font size for text in a cell range in a spreadsheet.
 
-// How to resize a cell font size.
+// How do I make text larger or smaller in a group of cells in a spreadsheet?
 
-// Get a range and set its font size.
+// Adjust the point size of characters across a range to improve readability in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A2").SetValue("2");

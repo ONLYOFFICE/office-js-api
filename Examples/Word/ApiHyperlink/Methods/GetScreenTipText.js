@@ -1,8 +1,8 @@
-// This example shows how to get the screen tip text of the hyperlink.
+// Read the tooltip text assigned to a hyperlink in a document.
 
-// How to show the screen tip text of the hyperlink.
+// How do I get the screen tip message that appears when hovering over a hyperlink in a document?
 
-// Set and display the hyperlink tip text appearing on the screen.
+// Set a custom tooltip on a hyperlink and then retrieve its value to confirm it in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// This example sets the text outline to the current text run
+// Apply a colored border around the letters of a text run in a spreadsheet.
 
-// How to set an outline to the text.
+// How do I add an outline stroke to text in a spreadsheet?
 
-// Create a text run object, change its property by outlining it with a color.
+// Give text a visible edge by drawing a colored line around each character in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

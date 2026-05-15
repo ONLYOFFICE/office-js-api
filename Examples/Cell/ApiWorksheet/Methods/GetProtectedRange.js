@@ -1,8 +1,8 @@
-// This example shows how to get an object that represents the protected range.
+// Access a protected range by name and update its title in a spreadsheet.
 
-// How to get protected range.
+// How do I retrieve a protected range from a worksheet in a spreadsheet?
 
-// Get protected range and set its title.
+// Locate a locked cell range and rename it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.AddProtectedRange("protectedRange", "Sheet1!$A$1:$B$1");

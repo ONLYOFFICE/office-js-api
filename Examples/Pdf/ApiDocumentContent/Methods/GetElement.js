@@ -1,8 +1,8 @@
-// This example shows how to get element.
+// Retrieve a paragraph from a shape by its position in a PDF.
 
-// How to get an element from the content of a page shape.
+// How do I access a specific paragraph inside a shape in a PDF?
 
-// Find an element from the shape using its index.
+// Extract a text block from a shape using its number in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -14,7 +14,7 @@ shape.SetPosition(608400, 1267200);
 
 const oBullet = Api.CreateNumbering("ArabicParenR", 1);
 
-const docContent = shape.GetDocContent();
+const docContent = shape.GetContent();
 let oParagraph = docContent.GetElement(0);
 oParagraph.SetBullet(oBullet);
 oParagraph.AddText(" This is an example of the numbered paragraph.");

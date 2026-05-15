@@ -1,8 +1,8 @@
-// This example sets the paragraph line spacing.
+// Adjust the distance between lines of text in a PDF.
 
-// How to set the size of a spacing line a text from a paragraph.
+// How do I change line height in a paragraph in a PDF?
 
-// Change a spacing line size property of a paragraph.
+// Control vertical spacing to make text more compact or spaced out in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -14,7 +14,7 @@ const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = Api.CreateShape("flowChartMagneticTape", 150 * 36000, 65 * 36000, fill, stroke);
 shape.SetPosition(608400, 1267200);
 
-const docContent = shape.GetDocContent();
+const docContent = shape.GetContent();
 let paragraph = docContent.GetElement(0);
 paragraph.SetSpacingLine(2 * 240, "auto");
 paragraph.AddText("Paragraph 1. Spacing: 2 times of a common paragraph line spacing.");

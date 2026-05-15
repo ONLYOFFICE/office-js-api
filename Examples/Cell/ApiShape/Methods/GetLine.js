@@ -1,5 +1,9 @@
-// Gets the outline properties from a shape and displays detailed information.
-// Creates a shape with a stroke, retrieves it and shows stroke details.
+// Read the border properties of a shape and list its width, color, and dash style in a spreadsheet.
+
+// How do I inspect the border line applied to a shape in a spreadsheet?
+
+// Pull the outline details from a shape and write each property into a separate cell in a spreadsheet.
+
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 200, 100));
 let stroke = Api.CreateStroke(2.5 * 12700, Api.CreateSolidFill(Api.CreateRGBColor(200, 100, 0)));

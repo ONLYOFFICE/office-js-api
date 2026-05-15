@@ -1,4 +1,8 @@
-// This example shows how to get the RGBA components of the color.
+// Extract the red, green, blue, and alpha channel values of a color in a document.
+
+// How do I read the RGBA components of a color in a document?
+
+// Inspect opacity alongside color channels for theme, auto, and hex color types in a document.
 
 const doc = Api.GetDocument();
 

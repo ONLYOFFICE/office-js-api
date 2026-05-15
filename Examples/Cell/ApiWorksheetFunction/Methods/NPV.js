@@ -1,8 +1,8 @@
-// This example shows how to return the net present value of an investment based on a discount rate and a series of future payments (negative values) and income (positive values).
+// Calculate the net present value of an investment using a discount rate in a spreadsheet.
 
-// How to get the net present value of an investment.
+// How do I find the net present value of future cash flows in a spreadsheet?
 
-// Use a function to get the net present value of an investment based on different parameters.
+// Evaluate an investment by discounting future payments and income in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

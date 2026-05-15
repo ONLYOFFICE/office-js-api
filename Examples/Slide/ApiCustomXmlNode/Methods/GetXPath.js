@@ -1,4 +1,8 @@
-// This example returns the absolute XPath of the current XML node.
+// Get the full location path of an XML node in a presentation.
+
+// How do I find the path to an XML element in a presentation?
+
+// Retrieve the XPath address of an XML node in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

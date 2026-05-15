@@ -1,8 +1,8 @@
-// This example moves the current slide to a specific location within the same collection.
+// Move a slide to a specific position in the presentation.
 
-// How to move a slide to the position index.
+// Create a new slide and add it to the presentation.
 
-// Create a slide and change its position.
+// Reposition the slide using the MoveTo method.
 
 const presentation = Api.GetPresentation();
 const slide = Api.CreateSlide();

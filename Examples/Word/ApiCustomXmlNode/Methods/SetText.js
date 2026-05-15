@@ -1,4 +1,9 @@
-// This example shows how to get the XPath of a custom XML node.
+// Change the text content of specific XML nodes embedded in a document.
+
+// How do I update the plain text inside a node in the XML data stored in a document?
+
+// Correct or refresh the human-readable values in structured XML fields in a document.
+
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
 let xmlText = `

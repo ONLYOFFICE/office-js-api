@@ -1,8 +1,8 @@
-// This example shows how to resize a range to a different number of rows and columns.
+// Expand or shrink a range by changing its row and column count in a spreadsheet.
 
-// How to resize a range.
+// How do I adjust the size of a selected range to cover more or fewer cells in a spreadsheet?
 
-// Get a range, resize it and fill the resized range with color.
+// Stretch an existing range to a larger area and mark its boundaries with borders in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let originalRange = worksheet.GetRange("B2:C3");

@@ -1,8 +1,8 @@
-// This example demonstrates how to set the background color for an above average conditional formatting rule.
+// Color the background of cells whose values exceed the average in a spreadsheet.
 
-// How to apply a fill color to cells that are above average.
+// How do I highlight above-average cells with a specific background color in a spreadsheet?
 
-// Set background color for above average conditional formatting.
+// Make standout values easy to spot by filling their cells with a chosen color in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

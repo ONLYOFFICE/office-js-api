@@ -1,8 +1,8 @@
-// This example adds a caption cross-reference to the paragraph.
+// Insert a cross-reference that links to a figure caption in a document.
 
-// How to create a caption reference to the paragraph.
+// How do I add a reference to a numbered caption from another paragraph in a document?
 
-// Add a cross-reference to the caption of the paragraph.
+// Point readers to a specific captioned figure using an automated cross-reference link in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

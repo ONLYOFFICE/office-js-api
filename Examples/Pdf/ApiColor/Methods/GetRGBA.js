@@ -1,4 +1,8 @@
-// This example shows how to get the RGBA components of a shape fill color.
+// Get the RGBA values including transparency from a color in a PDF.
+
+// How do I extract red, green, blue, and alpha from a color in a PDF?
+
+// Retrieve all four color components and display them in the PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

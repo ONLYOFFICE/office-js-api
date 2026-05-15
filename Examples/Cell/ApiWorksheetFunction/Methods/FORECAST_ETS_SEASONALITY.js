@@ -1,8 +1,8 @@
-// This example shows how to return the length of the repetitive pattern an application detects for the specified time series.
+// Return the length of the repetitive pattern an application detects for the specified time series.
 
-// How to return the length of the repetitive pattern.
+// Detects seasonal patterns in time series data using dates and values arrays.
 
-// Use function to return the length of the repetitive pattern for the specified time series.
+// Calculate the seasonality period for the forecasted data using FORECAST_ETS_SEASONALITY.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

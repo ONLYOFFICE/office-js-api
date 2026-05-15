@@ -1,8 +1,8 @@
-// This example shows how to get the text properties of the current style.
+// Change the default font, size, and color for all text through a style in a document.
 
-// How to update text properties.
+// How do I update the text appearance for the entire document using a style in a document?
 
-// Get the default style text properties of the paragraph.
+// Adjust typeface, color, and size globally by modifying the shared text style in a document.
 
 let doc = Api.GetDocument();
 let normalStyle = doc.GetDefaultStyle("paragraph");

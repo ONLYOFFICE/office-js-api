@@ -1,8 +1,8 @@
-// This example specifies that the contents of the run are displayed with two horizontal lines through each character displayed on the line.
+// Draw two horizontal lines through the default text characters in a document.
 
-// How to strikethrough a text with two lines.
+// How do I cross out text with a double strikethrough in a document?
 
-// Create a text run object, double cross out it.
+// Mark the default font with a double strikeout to visually indicate deleted or superseded content in a document.
 
 let doc = Api.GetDocument();
 let textPr = doc.GetDefaultTextPr();

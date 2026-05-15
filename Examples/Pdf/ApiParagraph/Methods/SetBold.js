@@ -1,4 +1,8 @@
-// This example sets the bold property to the text of the paragraph.
+// Make paragraph text bold in a PDF.
+
+// How do I apply bold formatting to a paragraph in a PDF?
+
+// Strengthen text weight in a paragraph in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

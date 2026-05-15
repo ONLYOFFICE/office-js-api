@@ -1,8 +1,8 @@
-// This example shows how to get all OLE objects from the sheet.
+// Retrieve every embedded OLE object from a worksheet in a spreadsheet.
 
-// How to get all OLE objects images.
+// How do I list all OLE objects on a sheet in a spreadsheet?
 
-// Get all OLE objects as an array.
+// Collect the full set of embedded objects from a worksheet in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.AddOleObject(

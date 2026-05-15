@@ -1,5 +1,9 @@
-// Analyzes path commands of a star shape.
-// Retrieves information about the first command including type and coordinates.
+// Retrieve a single drawing path step by its position in a document.
+
+// How do I read one specific step from a shape's outline path in a document?
+
+// Inspect the type and coordinates of any individual path step in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let fill = Api.CreateSolidFill(Api.RGB(255, 200, 100));

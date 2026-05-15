@@ -1,8 +1,8 @@
-// This example clears all the hyperlinks in the range.
+// Remove all hyperlinks from a cell range while keeping the displayed text in a spreadsheet.
 
-// How to clear hyperlinks for a range.
+// How do I detach links from cells without deleting their text in a spreadsheet?
 
-// Get a range, clear hyperlinks and show the result.
+// Turn linked cells back into plain text by stripping away their URLs in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1:B1").SetValue("http://example.com");

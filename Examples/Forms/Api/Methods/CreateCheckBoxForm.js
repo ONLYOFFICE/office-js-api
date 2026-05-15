@@ -1,8 +1,8 @@
-// This example creates two radiobuttons and the checkbox.
+// Add checkboxes and radio buttons for multiple choice questions in a document.
 
-// How to create a radiobutton or a checkbox form and add it to the paragraph.
+// How do I insert checkboxes or radio buttons in a document?
 
-// Add two radiobuttons and the checkbox to the ApiDocument object.
+// Create selectable options that let users pick from predefined choices in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

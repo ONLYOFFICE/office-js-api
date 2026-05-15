@@ -1,8 +1,8 @@
-// This example inserts an array of elements into the current position of the document.
+// Insert a collection of elements at the current position in a document.
 
-// How to insert the paragraph to the document.
+// How do I add multiple paragraphs at once to a document?
 
-// Create a paragraph and show it.
+// Programmatically place pre-built content blocks into the document without appending them one by one.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

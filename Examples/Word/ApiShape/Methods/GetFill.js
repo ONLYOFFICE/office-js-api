@@ -1,5 +1,9 @@
-// Gets the fill properties from a shape and displays detailed information.
-// Creates a shape with gradient fill, retrieves it and shows fill details.
+// Read the background fill applied to a shape in a document.
+
+// How do I inspect the color or gradient covering the inside of a shape in a document?
+
+// Extract fill details from a shape to display its visual properties in a document.
+
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let gs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);

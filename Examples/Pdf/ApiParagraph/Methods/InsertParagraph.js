@@ -1,4 +1,8 @@
-// This example inserts a paragraph at the specified position.
+// Place a new paragraph next to an existing paragraph in a PDF.
+
+// How do I add a paragraph at a specific location relative to another paragraph in a PDF?
+
+// Position a paragraph before or after an existing one in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
