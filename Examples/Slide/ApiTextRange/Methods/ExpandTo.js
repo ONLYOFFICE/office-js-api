@@ -1,0 +1,25 @@
+// This example expands two overlapping or adjacent ranges into their union.
+
+// How to merge two text ranges into a single covering range.
+
+// Create two sub-ranges and expand them into one union range.
+
+const presentation = Api.GetPresentation();
+const slide = presentation.GetSlideByIndex(0);
+slide.RemoveAllObjects();
+
+const fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
+const stroke = Api.CreateStroke(0, Api.CreateNoFill());
+const shape = Api.CreateShape("rect", 300 * 36000, 130 * 36000, fill, stroke);
+shape.SetPosition(608400, 1267200);
+
+const docContent = shape.GetDocContent();
+docContent.GetElement(0).AddText("Hello World");
+slide.AddObject(shape);
+
+const range = shape.GetTextRange();
+const range1 = range.GetRange(0, 5);
+const range2 = range.GetRange(6, 11);
+
+const union = range1.ExpandTo(range2);
+union.Select()
