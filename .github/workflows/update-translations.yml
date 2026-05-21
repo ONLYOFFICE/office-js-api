@@ -100,7 +100,7 @@ jobs:
 
       - name: Create output directories
         run: |
-          mkdir -p api.onlyoffice.com/text-document-api
+          mkdir -p api.onlyoffice.com/document-api
           mkdir -p api.onlyoffice.com/spreadsheet-api
           mkdir -p api.onlyoffice.com/presentation-api
           mkdir -p api.onlyoffice.com/form-api
