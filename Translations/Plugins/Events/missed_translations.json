@@ -1,1 +1,10 @@
-{}
+{
+    "An alias of the content control.": "An alias of the content control.",
+    "The visualization type of the content control: **1** - frame (bounding box), **2** - hidden.": "The visualization type of the content control: **1** - frame (bounding box), **2** - hidden.",
+    "The border color of the content control. Present only if the border color is set.": "The border color of the content control. Present only if the border color is set.",
+    "The tag color of the content control. Present only if the tag color is set.": "The tag color of the content control. Present only if the tag color is set.",
+    "A unique form key. Present only if the content control is a form field.": "A unique form key. Present only if the content control is a form field.",
+    "The current value of the form field. Present only if the content control is a form field.": "The current value of the form field. Present only if the content control is a form field.",
+    "A group key of the radio button. Present only if the content control is a radio button form field .": "A group key of the radio button. Present only if the content control is a radio button form field .",
+    "The shading color of the content control. Present only if the shading color is set.": "The shading color of the content control. Present only if the shading color is set."
+}
