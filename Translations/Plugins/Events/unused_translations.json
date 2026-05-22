@@ -1,5 +1,1 @@
-{
-    "The function called when the specified comment is changed with the [ChangeComment](../../../../../docs/plugin-and-macros/interacting-with-editors/text-document-api/Methods/ChangeComment.md) method.": "使用 [ChangeComment](../../../../../docs/plugin-and-macros/interacting-with-editors/text-document-api/Methods/ChangeComment.md) 方法更改指定评论时调用的函数。",
-    "The function called when the specified comment is removed with the [RemoveComments](../../../../../docs/plugin-and-macros/interacting-with-editors/text-document-api/Methods/RemoveComments.md) method.": "使用 [RemoveComments](../../../../../docs/plugin-and-macros/interacting-with-editors/text-document-api/Methods/RemoveComments.md) 方法删除指定评论时调用的函数。",
-    "The function called when a comment is added to the document with the [AddComment](../../../../../docs/plugin-and-macros/interacting-with-editors/text-document-api/Methods/AddComment.md) method.": "使用 [AddComment](../../../../../docs/plugin-and-macros/interacting-with-editors/text-document-api/Methods/AddComment.md) 方法向文档添加评论时调用的函数。"
-}
+{}

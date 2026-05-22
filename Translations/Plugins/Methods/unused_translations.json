@@ -1,3 +1,1 @@
-{
-    "Inserts the content control containing data. The data is specified by the JS code for [Document](../../../../../docs/office-api/usage-api/text-document-api/text-document-api.md), or by a link to the shared document.": "插入包含数据的内容控件。数据由 [Document](../../../../../docs/office-api/usage-api/text-document-api/text-document-api.md) 的 JS 代码指定，或通过共享文档的链接指定。"
-}
+{}

@@ -69,9 +69,6 @@
     "The object containing slide information.": "包含幻灯片信息的对象。",
     "The index of the new slide.": "新幻灯片的索引。",
     "The index of the previous slide (-1 if it's the first slide).": "上一张幻灯片的索引（如果是第一张幻灯片则为 -1）。",
-    "The function called when a comment is added to the document with the [AddComment](../../../../../docs/plugin-and-macros/interacting-with-editors/text-document-api/Methods/AddComment.md) method.": "使用 [AddComment](../../../../../docs/plugin-and-macros/interacting-with-editors/text-document-api/Methods/AddComment.md) 方法向文档添加评论时调用的函数。",
-    "The function called when the specified comment is changed with the [ChangeComment](../../../../../docs/plugin-and-macros/interacting-with-editors/text-document-api/Methods/ChangeComment.md) method.": "使用 [ChangeComment](../../../../../docs/plugin-and-macros/interacting-with-editors/text-document-api/Methods/ChangeComment.md) 方法更改指定评论时调用的函数。",
-    "The function called when the specified comment is removed with the [RemoveComments](../../../../../docs/plugin-and-macros/interacting-with-editors/text-document-api/Methods/RemoveComments.md) method.": "使用 [RemoveComments](../../../../../docs/plugin-and-macros/interacting-with-editors/text-document-api/Methods/RemoveComments.md) 方法删除指定评论时调用的函数。",
     "An alias of the content control.": "内容控件的别名。",
     "The visualization type of the content control: **1** - frame (bounding box), **2** - hidden.": "内容控件的可视化类型：**1** - 边框（边界框），**2** - 隐藏。",
     "The border color of the content control. Present only if the border color is set.": "内容控件的边框颜色。仅在设置了边框颜色时存在。",
@@ -80,5 +77,8 @@
     "The current value of the form field. Present only if the content control is a form field.": "表单字段的当前值。仅在内容控件为表单字段时存在。",
     "A group key of the radio button. Present only if the content control is a radio button form field .": "单选按钮的组键。仅在内容控件为单选按钮表单字段时存在。",
     "The shading color of the content control. Present only if the shading color is set.": "内容控件的底纹颜色。仅在设置了底纹颜色时存在。",
-    "The function called after a slide has been changed and displayed during a slide show presentation.": "幻灯片放映演示期间幻灯片更改并显示后调用的函数。"
+    "The function called after a slide has been changed and displayed during a slide show presentation.": "幻灯片放映演示期间幻灯片更改并显示后调用的函数。",
+    "The function called when a comment is added to the document with the [AddComment](../../../../../docs/plugin-and-macros/interacting-with-editors/document-api/Methods/AddComment.md) method.": "使用 [AddComment](../../../../../docs/plugin-and-macros/interacting-with-editors/document-api/Methods/AddComment.md) 方法向文档添加评论时调用的函数。",
+    "The function called when the specified comment is removed with the [RemoveComments](../../../../../docs/plugin-and-macros/interacting-with-editors/document-api/Methods/RemoveComments.md) method.": "使用 [RemoveComments](../../../../../docs/plugin-and-macros/interacting-with-editors/document-api/Methods/RemoveComments.md) 方法删除指定评论时调用的函数。",
+    "The function called when the specified comment is changed with the [ChangeComment](../../../../../docs/plugin-and-macros/interacting-with-editors/document-api/Methods/ChangeComment.md) method.": "使用 [ChangeComment](../../../../../docs/plugin-and-macros/interacting-with-editors/document-api/Methods/ChangeComment.md) 方法更改指定评论时调用的函数。"
 }

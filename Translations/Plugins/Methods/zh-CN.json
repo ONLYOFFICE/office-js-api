@@ -388,7 +388,6 @@
     "Specifies whether each paragraph will be created in a separate shape.": "指定是否在单独的形状中创建每个段落。",
     "Options to replace the XML page content.": "替换 XML 页面内容的选项。",
     "An array with XML shapes to be replaced.": "要替换的 XML 形状数组。",
-    "Inserts the content control containing data. The data is specified by the JS code for [Document](../../../../../docs/office-api/usage-api/text-document-api/text-document-api.md), or by a link to the shared document.": "插入包含数据的内容控件。数据由 [Document](../../../../../docs/office-api/usage-api/text-document-api/text-document-api.md) 的 JS 代码指定，或通过共享文档的链接指定。",
     "The plugin [config](../../../../../docs/plugin-and-macros/structure/configuration/configuration.md).": "插件 [config](../../../../../docs/plugin-and-macros/structure/configuration/configuration.md)。",
     "The type which specifies the preset shape geometry for the current watermark.": "指定当前水印预设形状几何的类型。",
     "The [config](../../../../../docs/plugin-and-macros/structure/configuration/configuration.md) of the installed plugin. The version is taken from the config and compared with the current one to check for updates.": "已安装插件的 [config](../../../../../docs/plugin-and-macros/structure/configuration/configuration.md)。从配置中获取版本并与当前版本进行比较以检查更新。",
@@ -436,5 +435,6 @@
     "The type of encrypting operation:": "加密操作的类型：",
     "The drag&drop event type:": "拖放事件类型：",
     "The display mode:": "显示模式：",
-    "A format in which the date will be displayed.": "日期的显示格式。"
+    "A format in which the date will be displayed.": "日期的显示格式。",
+    "Inserts the content control containing data. The data is specified by the JS code for [Document](../../../../../docs/office-api/usage-api/document-api/document-api.md), or by a link to the shared document.": "插入包含数据的内容控件。数据由 [Document](../../../../../docs/office-api/usage-api/document-api/document-api.md) 的 JS 代码指定，或通过共享文档的链接指定。"
 }
