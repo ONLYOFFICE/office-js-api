@@ -1,15 +1,1 @@
-{
-    "Specifies the end action for long operations.": "Specifies the end action for long operations.",
-    "Returns all OLE object data for objects which can be opened by the specified plugin.": "Returns all OLE object data for objects which can be opened by the specified plugin.",
-    "Moves a cursor to the end of the current editing area (document body, footer/header, footnote, or autoshape).": "Moves a cursor to the end of the current editing area (document body, footer/header, footnote, or autoshape).",
-    "Moves a cursor to the beginning of the current editing area (document body, footer/header, footnote, or autoshape).": "Moves a cursor to the beginning of the current editing area (document body, footer/header, footnote, or autoshape).",
-    "Replaces the first selected drawing with the image specified in the parameters.": "Replaces the first selected drawing with the image specified in the parameters.",
-    "Configures plugins from an external source. The settings can be set for all plugins or for a specific plugin.": "Configures plugins from an external source. The settings can be set for all plugins or for a specific plugin.",
-    "Specifies the start action for long operations.": "Specifies the start action for long operations.",
-    "The action type:": "The action type:",
-    "For **\"Information\"** and **\"Block\"** types: a string description displayed during the action.": "For **\"Information\"** and **\"Block\"** types: a string description displayed during the action.",
-    "The type of encrypting operation:": "The type of encrypting operation:",
-    "The drag&drop event type:": "The drag&drop event type:",
-    "The display mode:": "The display mode:",
-    "A format in which the date will be displayed.": "A format in which the date will be displayed."
-}
+{}
