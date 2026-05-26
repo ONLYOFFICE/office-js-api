@@ -1,1 +1,8 @@
-{}
+{
+    "Specifies if the whole text or only its part will be returned or replaced:\n-**entirely** - replaces/returns the whole text,\n-**beforeCursor** - replaces/returns only the part of the text before the cursor,\n-**afterCursor** - replaces/returns only the part of the text after the cursor.": "指定是返回或替换整个文本还是仅其部分：\n-**entirely** - 替换/返回整个文本，\n-**beforeCursor** - 仅替换/返回光标之前的文本部分，\n-**afterCursor** - 仅替换/返回光标之后的文本部分。",
+    "Moves a cursor to the end of the current editing area (document body, footer/header, footnote, or autoshape).\nThis method is similar to pressing the -**Ctrl + End** keyboard shortcut.": "将光标移动到当前编辑区域（文档正文、页眉/页脚、脚注或自选图形）的末尾。\n此方法类似于按 **Ctrl + End** 键盘快捷键。",
+    "Moves a cursor to the beginning of the current editing area (document body, footer/header, footnote, or autoshape).\nThis method is similar to pressing the -**Ctrl + Home** keyboard shortcut.": "将光标移动到当前编辑区域（文档正文、页眉/页脚、脚注或自选图形）的开头。\n此方法类似于按 **Ctrl + Home** 键盘快捷键。",
+    "A numeric value that specifies the content control type:\n-**1** - block content control\n-**2** - inline content control\n-**3** - row content control\n-**4** - cell content control": "指定内容控件类型的数值：\n-**1** - 块内容控件\n-**2** - 内联内容控件\n-**3** - 行内容控件\n-**4** - 单元格内容控件",
+    "A value that defines if it is possible to delete and/or edit the content control or not:\n-**0** - only deleting\n-**1** - disable deleting or editing\n-**2** - only editing\n-**3** - full access": "定义是否可以删除和/或编辑内容控件的值：\n-**0** - 仅删除\n-**1** - 禁止删除或编辑\n-**2** - 仅编辑\n-**3** - 完全访问",
+    "The document editing restrictions:\n-**none** - no editing restrictions,\n-**comments** - allows editing comments,\n-**forms** - allows editing form fields,\n-**readOnly** - does not allow editing.": "文档编辑限制：\n-**none** - 无编辑限制，\n-**comments** - 允许编辑批注，\n-**forms** - 允许编辑表单字段，\n-**readOnly** - 不允许编辑。"
+}
