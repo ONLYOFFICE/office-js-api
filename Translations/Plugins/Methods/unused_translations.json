@@ -1,16 +1,1 @@
-{
-    "A format in which the date will be displayed.": "日期的显示格式。",
-    "If <em>false</em>, the editor will not scroll to the target after the group operation ends.": "如果为 <em>false</em>，则在组操作结束后编辑器不会滚动到目标位置。",
-    "If <em>true</em>, the group operation is cancelled and rolled back instead of committed.": "如果为 <em>true</em>，则组操作将被取消并回滚，而不是提交。",
-    "Moves a cursor to the end of the current editing area (document body, footer/header, footnote, or autoshape).\nThis method is similar to pressing the -**Ctrl + End** keyboard shortcut.": "将光标移动到当前编辑区域（文档正文、页眉/页脚、脚注或自选图形）的末尾。\n此方法类似于按 **Ctrl + End** 键盘快捷键。",
-    "The type of encrypting operation:": "加密操作的类型：",
-    "The drag&drop event type:": "拖放事件类型：",
-    "If <em>true</em>, the cursor position and selection will be preserved after the group operation ends.": "如果为 <em>true</em>，则在组操作结束后将保留光标位置和选区。",
-    "The action type:": "操作类型：",
-    "Specifies the end action for long operations.\n:::note\nGroupActions are available only for [ONLYOFFICE Docs Enterprise](https://www.onlyoffice.com/docs-enterprise-prices.aspx?from=api) and [ONLYOFFICE Docs Developer](https://www.onlyoffice.com/developer-edition-prices.aspx?from=api).\n:::": "指定长时间操作的结束操作。\n:::note\nGroupActions 仅适用于 [ONLYOFFICE Docs Enterprise](https://www.onlyoffice.com/docs-enterprise-prices.aspx?from=api) 和 [ONLYOFFICE Docs Developer](https://www.onlyoffice.com/developer-edition-prices.aspx?from=api)。\n:::",
-    "Moves a cursor to the beginning of the current editing area (document body, footer/header, footnote, or autoshape).\nThis method is similar to pressing the -**Ctrl + Home** keyboard shortcut.": "将光标移动到当前编辑区域（文档正文、页眉/页脚、脚注或自选图形）的开头。\n此方法类似于按 **Ctrl + Home** 键盘快捷键。",
-    "The display mode:": "显示模式：",
-    "For **\"Information\"** and **\"Block\"** types: a string description displayed during the action.": "对于 **\"Information\"** 和 **\"Block\"** 类型：操作期间显示的字符串描述。",
-    "Specifies the start action for long operations.\n:::note\nGroupActions are available only for [ONLYOFFICE Docs Enterprise](https://www.onlyoffice.com/docs-enterprise-prices.aspx?from=api) and [ONLYOFFICE Docs Developer](https://www.onlyoffice.com/developer-edition-prices.aspx?from=api).\n:::": "指定长时间操作的开始操作。\n:::note\nGroupActions 仅适用于 [ONLYOFFICE Docs Enterprise](https://www.onlyoffice.com/docs-enterprise-prices.aspx?from=api) 和 [ONLYOFFICE Docs Developer](https://www.onlyoffice.com/developer-edition-prices.aspx?from=api)。\n:::",
-    "If <em>true</em>, the editor scroll position will be locked during the group operation.": "如果为 <em>true</em>，则在组操作期间编辑器的滚动位置将被锁定。"
-}
+{}

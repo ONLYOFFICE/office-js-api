@@ -76,9 +76,9 @@
     "The current value of the form field. Present only if the content control is a form field.": "表单字段的当前值。仅在内容控件为表单字段时存在。",
     "A group key of the radio button. Present only if the content control is a radio button form field .": "单选按钮的组键。仅在内容控件为单选按钮表单字段时存在。",
     "The shading color of the content control. Present only if the shading color is set.": "内容控件的底纹颜色。仅在设置了底纹颜色时存在。",
-    "The function called after a slide has been changed and displayed during a slide show presentation.": "幻灯片放映演示期间幻灯片更改并显示后调用的函数。",
     "The function called when a comment is added to the document with the [AddComment](../../../../../docs/plugin-and-macros/interacting-with-editors/document-api/Methods/AddComment.md) method.": "使用 [AddComment](../../../../../docs/plugin-and-macros/interacting-with-editors/document-api/Methods/AddComment.md) 方法向文档添加评论时调用的函数。",
     "The function called when the specified comment is removed with the [RemoveComments](../../../../../docs/plugin-and-macros/interacting-with-editors/document-api/Methods/RemoveComments.md) method.": "使用 [RemoveComments](../../../../../docs/plugin-and-macros/interacting-with-editors/document-api/Methods/RemoveComments.md) 方法删除指定评论时调用的函数。",
     "The function called when the specified comment is changed with the [ChangeComment](../../../../../docs/plugin-and-macros/interacting-with-editors/document-api/Methods/ChangeComment.md) method.": "使用 [ChangeComment](../../../../../docs/plugin-and-macros/interacting-with-editors/document-api/Methods/ChangeComment.md) 方法更改指定评论时调用的函数。",
-    "Defines the access restrictions for a content control.\nPossible values:\n- **0** - only deleting,\n- **1** - disable deleting or editing,\n- **2** - only editing,\n- **3** - full access.": "定义内容控件的访问限制。\n可能的值：\n- **0** - 仅删除，\n- **1** - 禁止删除或编辑，\n- **2** - 仅编辑，\n- **3** - 完全访问。"
+    "Defines the access restrictions for a content control.\nPossible values:\n- **0** - only deleting,\n- **1** - disable deleting or editing,\n- **2** - only editing,\n- **3** - full access.": "定义内容控件的访问限制。\n可能的值：\n- **0** - 仅删除，\n- **1** - 禁止删除或编辑，\n- **2** - 仅编辑，\n- **3** - 完全访问。",
+    "The function called after a slide has been changed and displayed during a slide show presentation.\nFires before the slide content is actually displayed.": "在幻灯片放映演示过程中，幻灯片更改并显示后调用的函数。\n在幻灯片内容实际显示之前触发。"
 }
