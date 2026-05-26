@@ -9310,5 +9310,11 @@
     "Apply Api.Color with every supported input format to style separate paragraphs in a document.": "",
     "Apply Api.Color with every supported input format to fill separate shapes on a worksheet.": "",
     "Apply Api.Color with every supported input format to fill separate shapes on a slide.": "",
-    "Apply Api.Color with every supported input format to fill separate shapes on a PDF page.": ""
+    "Apply Api.Color with every supported input format to fill separate shapes on a PDF page.": "",
+    "Retrieve the table that currently contains the cursor in a document.": "",
+    "Retrieve the currently selected cells from a table in a document.": "",
+    "Retrieve all cells from the columns that contain selected cells in a document.": "",
+    "Retrieve all rows that contain currently selected cells in a document.": "",
+    "Set the formatting properties for a table row in a document.": "",
+    "Create empty table cell properties and apply custom width to a cell in a presentation.": ""
 }

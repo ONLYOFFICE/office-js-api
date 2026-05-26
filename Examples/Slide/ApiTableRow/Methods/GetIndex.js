@@ -1,0 +1,17 @@
+// This example shows how to get the row index.
+
+// How to get the index of a table row.
+
+// Get the index of the second row and display it in the first cell.
+
+const presentation = Api.GetPresentation();
+const slide = presentation.GetSlideByIndex(0);
+const table = Api.CreateTable(2, 3);
+const row = table.GetRow(1);
+const cell = row.GetCell(0);
+const content = cell.GetContent();
+const paragraph = Api.CreateParagraph();
+paragraph.AddText("Row index: " + row.GetIndex());
+content.Push(paragraph);
+slide.RemoveAllObjects();
+slide.AddObject(table);
