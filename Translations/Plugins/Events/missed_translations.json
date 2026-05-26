@@ -1,3 +1,1 @@
-{
-    "Defines the access restrictions for a content control.\nPossible values:\n- **0** - only deleting,\n- **1** - disable deleting or editing,\n- **2** - only editing,\n- **3** - full access.": "Defines the access restrictions for a content control.\nPossible values:\n- **0** - only deleting,\n- **1** - disable deleting or editing,\n- **2** - only editing,\n- **3** - full access."
-}
+{}
