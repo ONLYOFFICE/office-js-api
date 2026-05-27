@@ -1,3 +1,1 @@
-{
-    "Specifies how to shift cells to replace the deleted cells. If omitted, the direction is determined automatically: *\"up\"* if the range has more columns than rows, otherwise *\"left\"*.": "Specifies how to shift cells to replace the deleted cells. If omitted, the direction is determined automatically: *\"up\"* if the range has more columns than rows, otherwise *\"left\"*."
-}
+{}

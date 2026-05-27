@@ -2252,7 +2252,6 @@
     "The sort order for the values specified in Key3.": "Key3 中指定值的排序顺序。",
     "Specifies whether the first row contains header information.": "指定第一行是否包含标题信息。",
     "Specifies if the sort should be by row (default) or column.": "指定排序应按行（默认）还是按列。",
-    "Specifies how to shift cells to replace the deleted cells.": "指定如何移动单元格以替换已删除的单元格。",
     "Specifies which way to shift the cells (\"right\", \"down\").": "指定移动单元格的方向（“right”、“down”）。",
     "Specifies if the width of the columns will be autofit.": "指定列宽是否自动适应。",
     "Specifies if the height of the rows will be autofit.": "指定行高是否自动适应。",
@@ -10281,5 +10280,6 @@
     "Search options used when performing text search operations.": "执行文本搜索操作时使用的搜索选项。",
     "A tuple representing a list option with a display value and an export value.": "表示具有显示值和导出值的列表选项的元组。",
     "The value displayed to the user.": "向用户显示的值。",
-    "The value exported when the option is selected.": "选择该选项时导出的值。"
+    "The value exported when the option is selected.": "选择该选项时导出的值。",
+    "Specifies how to shift cells to replace the deleted cells. If omitted, the direction is determined automatically: *\"up\"* if the range has more columns than rows, otherwise *\"left\"*.": "指定如何移动单元格以替换已删除的单元格。如果省略，方向将自动确定：如果范围的列数多于行数，则为 *\"up\"*，否则为 *\"left\"*。"
 }
