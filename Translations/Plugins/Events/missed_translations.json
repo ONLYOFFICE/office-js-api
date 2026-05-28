@@ -1,1 +1,9 @@
-{}
+{
+    "Defines the access restrictions for a content control.": "Defines the access restrictions for a content control.",
+    "Possible values:": "Possible values:",
+    "- **0** - only deleting,": "- **0** - only deleting,",
+    "- **1** - disable deleting or editing,": "- **1** - disable deleting or editing,",
+    "- **2** - only editing,": "- **2** - only editing,",
+    "- **3** - full access.": "- **3** - full access.",
+    "The function called after a slide has been changed and displayed during a slide show presentation. Fires before the slide content is actually displayed.": "The function called after a slide has been changed and displayed during a slide show presentation. Fires before the slide content is actually displayed."
+}
