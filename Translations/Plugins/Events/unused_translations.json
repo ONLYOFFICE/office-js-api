@@ -1,4 +1,3 @@
 {
-    "Defines the access restrictions for a content control.\nPossible values:\n- **0** - only deleting,\n- **1** - disable deleting or editing,\n- **2** - only editing,\n- **3** - full access.": "定义内容控件的访问限制。\n可能的值：\n- **0** - 仅删除，\n- **1** - 禁止删除或编辑，\n- **2** - 仅编辑，\n- **3** - 完全访问。",
     "The function called after a slide has been changed and displayed during a slide show presentation.\nFires before the slide content is actually displayed.": "在幻灯片放映演示过程中，幻灯片更改并显示后调用的函数。\n在幻灯片内容实际显示之前触发。"
 }
