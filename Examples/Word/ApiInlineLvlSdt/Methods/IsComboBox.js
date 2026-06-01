@@ -1,8 +1,8 @@
-// Check if the content control is a combobox list in a document.
+// Determine whether an inline content control is a combo box in a document.
 
-// How to is combo box for an inline content control in a document?
+// How do I verify that a content control is a combo box in a document?
 
-// Is combo box and display the result in a document.
+// Distinguish a combo box from other list-type controls before processing its selected value in a document.
 
 let doc = Api.GetDocument();
 let comboboxControl = doc.AddComboBoxContentControl();

@@ -1,8 +1,8 @@
-// Get the text properties from the form in a document.
+// Read the text formatting properties applied to a form field in a document.
 
-// How to get a text properties of a text form.
+// How do I access the font and style settings of a form field in a document?
 
-// How to make italic the text of the form.
+// Retrieve the current text properties of a form so they can be adjusted and reapplied in a document.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});

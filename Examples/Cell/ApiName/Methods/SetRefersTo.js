@@ -1,8 +1,8 @@
-// Set a formula that the name is defined to refer to.
+// Point a named range at a specific formula in a spreadsheet.
 
-// How to add a name and refer it to the formula.
+// How do I make a named range refer to a formula instead of plain cells in a spreadsheet?
 
-// Create new ranges and a formula, refer a name to the formula then display it in the worksheet.
+// Reassign a range name so it targets a calculated expression in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

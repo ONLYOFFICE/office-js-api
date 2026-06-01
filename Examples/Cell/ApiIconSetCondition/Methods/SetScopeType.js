@@ -1,8 +1,8 @@
-// Set the scope type of an icon set rule in a spreadsheet.
+// Define which cells an icon set formatting rule applies to in a spreadsheet.
 
-// How to configure the scope type setting for icon set conditional formatting.
+// How do I control the scope of an icon set rule so it targets the right cells in a spreadsheet?
 
-// Set the scope type of the icon set rule in a spreadsheet.
+// Limit or expand the range of cells affected by an icon set rule based on selection or the entire sheet.
 
 let worksheet = Api.GetActiveSheet();
 

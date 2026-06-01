@@ -1,8 +1,8 @@
-// Get an object that represents an active cell in a spreadsheet.
+// Read the currently selected cell and write a value into it in a spreadsheet.
 
-// How to get selected active cell.
+// How do I find out which cell is active and put content into it in a spreadsheet?
 
-// Get an active cell and insert data to it.
+// Target the focused cell and populate it with custom text.
 
 let worksheet = Api.GetActiveSheet();
 let activeCell = worksheet.GetActiveCell();

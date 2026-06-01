@@ -1,8 +1,8 @@
-// Get the tip text of the current form in a document.
+// Read the tooltip text configured for a complex form in a document.
 
-// How to get the tip text for a complex form?
+// How do I retrieve the tooltip that guides users filling in a form in a document?
 
-// Get the tip text and display the result in a document.
+// Confirm the correct instructional hint is set on a form before sharing the document.
 
 let doc = Api.GetDocument();
 let complexForm = Api.CreateComplexForm({"key": "Complex", "tip": "Insert here other forms"});

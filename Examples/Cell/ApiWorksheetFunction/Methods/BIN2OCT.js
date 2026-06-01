@@ -1,8 +1,8 @@
-// Convert a binary number to octal in a spreadsheet.
+// Transform binary notation into octal format in a spreadsheet.
 
-// How to get an octal representation of a binary number.
+// How do I change a binary code into octal notation for legacy systems in a spreadsheet?
 
-// Use function to convert a binary to octal in a spreadsheet.
+// Translate base-2 values to base-8 representation for Unix and file permissions in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

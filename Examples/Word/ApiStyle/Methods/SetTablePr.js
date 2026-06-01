@@ -1,8 +1,8 @@
-// Set the table properties to the style in a document.
+// Attach overall table layout settings to a style so every table using it looks consistent in a document.
 
-// How to create table properties for style and set its cells margins.
+// How do I define cell margins and table indentation once inside a style instead of per table in a document?
 
-// Update table properties in the style in a document.
+// Standardize spacing and alignment across multiple tables by storing those settings in a shared style in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

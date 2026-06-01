@@ -1,8 +1,8 @@
-// Set the height of the specified row measured in points in a spreadsheet.
+// Modify row height for better visibility in a spreadsheet.
 
-// How to resize the height of the row in a spreadsheet.
+// How do I resize a row to be taller or shorter in a spreadsheet?
 
-// Set row height for a worksheet in a spreadsheet.
+// Set the vertical dimension of a row to match your content needs in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.SetRowHeight(0, 30);

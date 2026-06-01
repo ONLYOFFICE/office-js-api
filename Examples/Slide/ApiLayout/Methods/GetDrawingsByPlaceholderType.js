@@ -1,8 +1,8 @@
-// Get drawings by placeholder type and remove it from layout in a presentation.
+// Get drawings by placeholder type from a layout and remove them.
 
-// How to get all drawings as an array by indicating placeholder type in a presentation.
+// Drawings with specific placeholder types can be filtered and deleted.
 
-// Get drawings by their placeholder type in a presentation.
+// Delete all drawings with the "ctrTitle" placeholder type from the layout.
 
 const presentation = Api.GetPresentation();
 const master = presentation.GetMaster(0);

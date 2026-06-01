@@ -1,8 +1,8 @@
-// Create a text annotation and add it to the page.
+// Add a text annotation to a page in a PDF.
 
-// How to create the text annot in a PDF document?
+// How do I add a text annotation to a PDF?
 
-// Create the text annot using the PDF document API.
+// Create and insert a text annotation at specified coordinates in a PDF.
 
 let doc = Api.GetDocument();
 let textAnnot = Api.CreateTextAnnot([10, 10, 160, 32]);

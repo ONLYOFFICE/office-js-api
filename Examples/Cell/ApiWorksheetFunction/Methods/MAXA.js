@@ -1,8 +1,8 @@
-// Return the largest value in a set of values. Does not ignore logical values and text in a spreadsheet.
+// Find the largest value in a set that includes numbers, text, and logical values in a spreadsheet.
 
-// How to get a maximum from a list including text and logical values in a spreadsheet.
+// How do I find the maximum value when my list contains mixed data types in a spreadsheet?
 
-// Use a function to find a maximum from a list of objects in a spreadsheet.
+// Get the highest value from a collection of mixed data in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1:A5").GetValue();

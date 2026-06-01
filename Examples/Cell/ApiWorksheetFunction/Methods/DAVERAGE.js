@@ -1,8 +1,8 @@
-// Average the values in a field (column) of records in a list or database that match conditions you specify in a spreadsheet.
+// Find the average of values in a column where rows meet your criteria in a spreadsheet.
 
-// How to find an average from the column values in a spreadsheet.
+// What is the average value for records matching your filter in a spreadsheet?
 
-// Use function to get the average of the values that match conditions specified in a spreadsheet.
+// Calculate the mean across filtered rows in a database table in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

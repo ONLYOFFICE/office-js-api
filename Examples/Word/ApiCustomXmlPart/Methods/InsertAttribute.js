@@ -1,8 +1,8 @@
-// Insert an attribute into a custom XML node in a document.
+// Add a new attribute to an XML node in a custom XML part in a document.
 
-// How to insert the attribute for a custom XML part in a document?
+// How do I attach an attribute to an existing XML element in a document?
 
-// Insert the attribute and display the result in a document.
+// Extend an XML node with extra metadata by inserting a named attribute in a document.
 
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();

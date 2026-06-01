@@ -1,8 +1,8 @@
-// Round a number to a specified number of digits in a spreadsheet.
+// Round a number to a specific decimal place in a spreadsheet.
 
-// How to round a number in a spreadsheet.
+// How do I round numbers to a certain number of digits in a spreadsheet?
 
-// Use a function to round a number to indicated number of digits in a spreadsheet.
+// Adjust a number's precision by rounding it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

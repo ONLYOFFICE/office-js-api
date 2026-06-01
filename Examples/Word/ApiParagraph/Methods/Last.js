@@ -1,8 +1,8 @@
-// Get the last element of the paragraph which is not empty in a document.
+// Retrieve the last non-empty run in a paragraph in a document.
 
-// How to get the last paragraph in a document.
+// How do I access the final run element of a paragraph in a document?
 
-// Get the last paragraph and make it bold in a document.
+// Bold the last run of a paragraph to highlight the closing text in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

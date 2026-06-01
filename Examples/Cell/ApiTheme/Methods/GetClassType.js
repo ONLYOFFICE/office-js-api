@@ -1,8 +1,8 @@
-// Retrieve the class type of a theme in a spreadsheet.
+// Read the class type of the active workbook theme in a spreadsheet.
 
-// How to identify the class type of a theme in a spreadsheet?
+// How do I identify what type of object a theme is in a spreadsheet?
 
-// Obtain the class type identifier of a theme object in a spreadsheet.
+// Confirm the category of a theme object and write the result to a cell in a spreadsheet.
 
 const workbook = Api.GetActiveWorkbook();
 const theme = workbook.GetTheme();

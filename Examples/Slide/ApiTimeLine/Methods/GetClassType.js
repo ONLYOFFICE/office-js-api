@@ -1,8 +1,8 @@
-// Check the class type returned by a timeline in a presentation.
+// Determine the data type of a timeline in a presentation.
 
-// How do I check what type a timeline object is in a presentation?
+// How do I find out what type of object a timeline is in a presentation?
 
-// Retrieve and output the class type string for a timeline in a presentation.
+// Get the class name identifier for a timeline in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

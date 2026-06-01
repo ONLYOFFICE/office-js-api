@@ -1,8 +1,8 @@
-// How to change a position of a drawing in a PDF document.
+// Move a shape to a different location in a PDF.
 
-// Get a shape object from a page and move it.
+// How do I reposition an object on the page in a PDF?
 
-// Set position using a drawing object object in a PDF document.
+// Place a shape at new coordinates in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

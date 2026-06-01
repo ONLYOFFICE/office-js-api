@@ -1,8 +1,8 @@
-// Remove all contents of the shape and add a new paragraph inside it in a document.
+// Append a new paragraph to the content of a shape in a document.
 
-// Insert an element to the document.
+// How do I add a paragraph at the end of a shape's content in a document?
 
-// Push the paragraph to the content of the document.
+// Clear a shape's existing content and place a fresh paragraph inside it to replace all prior text.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

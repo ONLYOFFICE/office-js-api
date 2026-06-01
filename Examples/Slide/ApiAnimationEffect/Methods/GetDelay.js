@@ -1,8 +1,8 @@
 // Get the delay of an animation effect in a presentation.
 
-// How do I get the delay in a presentation?
+// Delay values control the timing offset before an animation starts.
 
-// Get the delay using an animation effect object in a presentation.
+// Retrieve the delay from an animation effect using GetDelay() and display it.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

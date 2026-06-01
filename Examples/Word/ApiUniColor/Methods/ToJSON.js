@@ -1,8 +1,8 @@
-// Convert the uni color object into the JSON object in a document.
+// Serialize a color object to JSON and restore it for use in a document.
 
-// How to get a JSON from the uni color object in a document.
+// How do I convert a named color into a portable JSON format for reuse in a document?
 
-// Convert the uni color to json and add it to the document.
+// Preserve a preset color definition by round-tripping it through JSON in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

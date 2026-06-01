@@ -1,8 +1,8 @@
-// Get the screen tip text of a hyperlink inside a shape in a spreadsheet.
+// Read the tooltip text that appears when hovering over a hyperlink in a spreadsheet.
 
-// How do I get the screen tip text in a spreadsheet?
+// How do I find out what tooltip is set on a hyperlink in a spreadsheet?
 
-// Get the screen tip text using a hyperlink object in a spreadsheet.
+// Retrieve the hover hint message attached to a hyperlink in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

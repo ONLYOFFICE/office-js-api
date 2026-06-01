@@ -1,8 +1,8 @@
-// Analyzes path commands of a star shape. Retrieves information about the first command including type and coordinates.
+// Read what kind of drawing instruction a path segment uses inside a shape in a document.
 
-// How to get the type for a path command in a document?
+// How do I find out what type of move a specific step in a shape's outline represents in a document?
 
-// Get the type and display the result in a document.
+// Identify the category of a drawing step within a shape's outline path in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

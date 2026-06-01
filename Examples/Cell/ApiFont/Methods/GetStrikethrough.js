@@ -1,8 +1,8 @@
-// Get the strikethrough property of the specified font in a spreadsheet.
+// Read whether a specific range of characters has strikethrough formatting in a spreadsheet.
 
-// How to determine a font strikethrough property in a spreadsheet.
+// How do I check if certain characters in a cell are displayed with a line through them in a spreadsheet?
 
-// Get a boolean value that represents whether a font is strikethrough or not and show the value in the worksheet.
+// Inspect the strikethrough setting of a character range and display the result in a cell in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B1");

@@ -1,8 +1,8 @@
-// Delete an attribute from a custom XML node in a spreadsheet.
+// Remove a named attribute from an XML node stored in a spreadsheet.
 
-// How to delete the attribute for a custom XML node in a spreadsheet?
+// How do I strip a specific attribute from a custom XML element in a spreadsheet?
 
-// Delete the attribute and display the result in a spreadsheet.
+// Clean up XML metadata by dropping an attribute and confirming the change in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const xmlManager = worksheet.GetCustomXmlParts();

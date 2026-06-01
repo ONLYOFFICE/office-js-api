@@ -1,8 +1,8 @@
-// Create a color selecting for create gradient stop in a presentation.
+// Use a named color for gradient color stops in a presentation.
 
-// How to create a preset color in a presentation.
+// How do I apply a preset color in a presentation?
 
-// Add a preset color as a gradient stop in a presentation.
+// Create a gradient with a predefined color stop in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

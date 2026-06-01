@@ -1,8 +1,8 @@
-// Calculate predicted exponential growth by using existing data in a spreadsheet.
+// Predict future values based on exponential growth patterns in existing data in a spreadsheet.
 
-// How to calculate predicted exponential growth by using existing data in a spreadsheet.
+// How do I forecast exponential growth from my historical data in a spreadsheet?
 
-// Use a function to calculate predicted exponential growth in a spreadsheet.
+// Get projected values using an exponential regression model in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

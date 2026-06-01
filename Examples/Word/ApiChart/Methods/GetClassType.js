@@ -1,8 +1,8 @@
-// Check the class type returned by a chart in a document.
+// Retrieve the class type of a chart in a document.
 
-// How do I check what type a chart object is in a document?
+// How do I identify what kind of object a chart is in a document?
 
-// Retrieve and output the class type string for a chart in a document.
+// Confirm the object category of a chart when working with mixed drawing types in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

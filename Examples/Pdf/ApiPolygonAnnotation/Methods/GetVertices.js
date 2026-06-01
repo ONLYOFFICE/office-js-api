@@ -1,8 +1,8 @@
-// Get vertices from polygon annotation in a PDF document.
+// Retrieve corner points of a polygon marking in a PDF.
 
-// How can I get the vertices using a polygon annotation in a PDF document?
+// How do I find the corner points of a polygon marking in a PDF?
 
-// Get the vertices for a polygon annotation in a PDF document.
+// Extract all coordinates that define the shape of a polygon marking in a PDF.
 
 let doc = Api.GetDocument();
 let vertices = [{x: 100, y: 10}, {x: 150, y: 100}, {x: 50, y: 100}];

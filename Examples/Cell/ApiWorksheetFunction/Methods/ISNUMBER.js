@@ -1,8 +1,8 @@
-// Check whether a value is a number, and return true or false in a spreadsheet.
+// Verify whether a cell contains a numeric value in a spreadsheet.
 
-// How to check if the cell contains a number.
+// How do I check if a cell holds a number in a spreadsheet?
 
-// Use a function to check whether a range data is a numerical value in a spreadsheet.
+// Use a function to filter cells by numeric content in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

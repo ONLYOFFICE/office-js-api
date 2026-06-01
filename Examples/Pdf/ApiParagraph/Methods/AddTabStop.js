@@ -1,8 +1,8 @@
-// Add a tab stop to the paragraph in a PDF document.
+// Insert spacing stops to align text in a paragraph in a PDF.
 
-// How to add a tab after a sentence in a paragraph in a PDF document.
+// How do I indent text using tabs in a paragraph in a PDF?
 
-// How to split a text string with a tab in a PDF document.
+// Add tab positions to organize and position text content in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// Get the timestamp of the comment creation in the current time zone format in a spreadsheet.
+// Read when a comment was created using the local time zone in a spreadsheet.
 
-// How to get a time when a comment was created in a spreadsheet.
+// How do I find out the exact date and time a comment was posted, in my local time, in a spreadsheet?
 
-// Add a comment creation timestamp to a range of the worksheet.
+// Capture the creation timestamp of a comment to record the local time it was added in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

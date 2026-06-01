@@ -1,8 +1,8 @@
-// Get button widget layout type in a PDF document.
+// Find the layout style of a button widget in a PDF.
 
-// How to get the layout for a button widget in a PDF document?
+// How do I check the button layout arrangement in a PDF?
 
-// Get the layout and display the result in a PDF document.
+// Retrieve the icon and text arrangement setting for a button in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

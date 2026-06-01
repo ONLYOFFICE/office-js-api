@@ -1,8 +1,8 @@
-// Set the outline to the chart title in a document.
+// Draw a border outline around the chart title area in a document.
 
-// How to outline a chart title in a document.
+// How do I add a visible border to the chart title box in a document?
 
-// Create a chart, set its properties and its title outline in a document.
+// Frame a chart title with a stroke to separate it visually from the rest of the chart in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

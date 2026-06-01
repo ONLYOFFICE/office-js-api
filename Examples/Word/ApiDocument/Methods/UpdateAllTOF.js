@@ -1,8 +1,8 @@
-// Update all tables of figures in the current document.
+// Refresh all tables of figures after inserting new drawings in a document.
 
-// How to update all table of figures in a document.
+// How do I keep tables of figures current when new images or shapes are added in a document?
 
-// Edit document content, add drawings and update the table of figures.
+// Synchronize figure captions and page numbers across every table of figures in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// Get the show value setting from a data bar conditional formatting rule.
+// Check whether cell values are visible alongside data bars in a spreadsheet.
 
-// How to check if the data bar shows the value in a spreadsheet.
+// How do I find out if numbers are displayed inside data bar cells in a spreadsheet?
 
-// Get the show value setting of a data bar conditional formatting rule.
+// Verify whether a data bar rule keeps the underlying values visible to the reader in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

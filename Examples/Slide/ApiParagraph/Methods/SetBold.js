@@ -1,8 +1,8 @@
-// Set the bold property to the text of the paragraph in a presentation.
+// Make paragraph text bold in a presentation.
 
-// How to set bold for a paragraph in a presentation?
+// How do I apply bold formatting to a paragraph in a presentation?
 
-// Set bold and display the result in a presentation.
+// Display text in bold weight in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

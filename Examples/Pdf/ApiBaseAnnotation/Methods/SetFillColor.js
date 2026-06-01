@@ -1,8 +1,8 @@
-// Create a square annotation and set red fill color to it in a PDF document.
+// Set the background color of an annotation in a PDF.
 
-// How can I set fill color using an annotation in a PDF document?
+// Apply a fill color to make an annotation stand out in a PDF.
 
-// Set fill color for an annotation in a PDF document.
+// Change the interior color of an annotation in a PDF.
 
 let doc = Api.GetDocument();
 let squareAnnot = Api.CreateSquareAnnot([10, 10, 160, 32]);

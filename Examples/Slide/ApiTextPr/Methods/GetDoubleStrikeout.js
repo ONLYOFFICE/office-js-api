@@ -1,8 +1,8 @@
-// Find out whether a text has a double strikethrough in a presentation.
+// Retrieve the double strikeout property from text run properties.
 
-// How to know whether a text is crossed with two horizontal lines in a presentation.
+// Create a shape with a text run and apply double strikeout formatting.
 
-// Get the text properties of the run and find whether it has a double strikethrough in a presentation.
+// Get and display whether the text has double strikethrough.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

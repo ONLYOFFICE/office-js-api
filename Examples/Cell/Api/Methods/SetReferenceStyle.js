@@ -1,8 +1,8 @@
-// Set reference style in a spreadsheet.
+// Switch the cell addressing style between letter-column and row-column notation in a spreadsheet.
 
-// How to set a style of a reference in a spreadsheet.
+// How do I change the way cell addresses are displayed across the entire workbook in a spreadsheet?
 
-// Set reference style using ID in a spreadsheet.
+// Choose a preferred coordinate style for all cell references and formulas in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 Api.SetReferenceStyle("xlR1C1");

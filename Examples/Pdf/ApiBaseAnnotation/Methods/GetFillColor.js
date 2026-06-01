@@ -1,8 +1,8 @@
-// Create a square annotation and get its fill color in a PDF document.
+// Retrieve the fill color of an annotation in a PDF.
 
-// How to get the fill color for an annotation in a PDF document?
+// What color is used to fill an annotation in a PDF?
 
-// Get the fill color and display the result in a PDF document.
+// Check the background or fill color applied to an annotation in a PDF.
 
 let doc = Api.GetDocument();
 let squareAnnot = Api.CreateSquareAnnot([10, 10, 160, 32]);

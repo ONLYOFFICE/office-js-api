@@ -1,8 +1,8 @@
-// Get drawings by placeholder type and remove it from slide.
+// Get drawings by placeholder type and remove them from the slide.
 
-// How to get all drawings knowing its placeholder as an array in a presentation.
+// Find all drawings with a specific placeholder type using GetDrawingsByPlaceholderType.
 
-// Retrieve drawings with the specified placeholder and delete them in a presentation.
+// Delete the retrieved drawings from the presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

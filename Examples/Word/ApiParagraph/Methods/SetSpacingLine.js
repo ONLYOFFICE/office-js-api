@@ -1,8 +1,8 @@
-// Set the paragraph line spacing in a document.
+// Set the line spacing within a paragraph in a document.
 
-// How to set the size of a spacing line from a paragraph properties in a document.
+// How do I adjust the vertical distance between lines of text in a paragraph in a document?
 
-// Change a spacing line size property of a paragraph properties in a document.
+// Control how tightly or loosely the lines of a paragraph are stacked in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

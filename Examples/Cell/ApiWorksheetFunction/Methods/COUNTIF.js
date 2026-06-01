@@ -1,8 +1,8 @@
-// Count a number of cells within a range that meet the given condition in a spreadsheet.
+// Count cells matching a specific criteria in a spreadsheet.
 
-// How to find a number of cells that satisfies some condition.
+// What is the total of entries that match your pattern in a spreadsheet?
 
-// Use function to get cells if a condition is met.
+// Find how many cells contain values that meet your requirement in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

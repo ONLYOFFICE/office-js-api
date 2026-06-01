@@ -1,8 +1,8 @@
-// Check if the text field is multiline in a document.
+// Check whether a text field accepts multiple lines of input in a document.
 
-// How to know whether the first text form from this document is multiline.
+// How do I find out if a form field allows line breaks and wrapping in a document?
 
-// Get the boolean that represents the multiline property of the text form.
+// Confirm that a text field supports more than one line of text in a document.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});

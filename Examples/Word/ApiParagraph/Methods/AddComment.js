@@ -1,8 +1,8 @@
-// Add a comment to the paragraph in a document.
+// Attach a reviewer comment to a paragraph in a document.
 
-// How to add a comment with an author to the paragraph in a document.
+// How do I add an author-attributed comment to a paragraph in a document?
 
-// Add the comment and display the result in a document.
+// Annotate a paragraph with feedback that identifies the commenter by name in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

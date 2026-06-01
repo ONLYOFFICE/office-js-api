@@ -1,8 +1,8 @@
-// Create a copy of the specified slide master object in a presentation.
+// Duplicate a slide master in a presentation.
 
-// How to create a copy of a master in a presentation.
+// How do I duplicate a slide master in a presentation?
 
-// Copy the slide master object.
+// Create a new slide master from an existing one in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

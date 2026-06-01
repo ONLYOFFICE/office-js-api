@@ -1,8 +1,8 @@
-// Set table style column stripes of a pivot table in a spreadsheet.
+// Enable alternating column shading in a pivot table style in a spreadsheet.
 
-// How to set table style column stripes of a table in a spreadsheet.
+// How do I add column stripe formatting to a pivot table in a spreadsheet?
 
-// Create a pivot table, add data to it then set its table style column stripes in a spreadsheet.
+// Apply banded column colors to make pivot table data easier to scan in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

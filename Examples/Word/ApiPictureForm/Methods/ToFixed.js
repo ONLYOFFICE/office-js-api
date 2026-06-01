@@ -1,8 +1,8 @@
-// Convert the current form to a fixed size form.
+// Lock a picture field to a specific width and height in a document.
 
-// How to make the size of the form fixed.
+// How do I stop a picture field from changing its dimensions when content is added in a document?
 
-// Create an image form and set fixed height and width to it.
+// Freeze the size of a picture field so it never grows or shrinks in a document.
 
 let doc = Api.GetDocument();
 let pictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false, "shiftX": 50, "shiftY": 50});

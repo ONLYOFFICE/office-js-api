@@ -1,8 +1,8 @@
-// Find the next cell that matches those same conditions.
+// Continue a search to find the next matching cell after an initial result in a spreadsheet.
 
-// How to get the next cell from a range that meets search requirements.
+// How do I move to the next cell that shares the same value as the one already found in a spreadsheet?
 
-// Get a range, find the next cell that satisfies search conditions and fill it with color.
+// Step through every matching cell in a range one by one and mark each occurrence in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

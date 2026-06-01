@@ -1,8 +1,8 @@
-// Apply text settings to the content of the content control in a document.
+// Apply font size and bold formatting to the text inside a content control in a document.
 
-// Create a block content control, add a text to it, and set the font size and bold property to this text in a document.
+// How do I change the font style of text inside a content control in a document?
 
-// Specify the text properties object and apply its settings to the block-level content control object in a document.
+// Style the text of a content control with a larger font and bold weight in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

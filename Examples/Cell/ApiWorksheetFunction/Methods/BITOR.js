@@ -1,8 +1,8 @@
-// Return a bitwise "OR" of two numbers in a spreadsheet.
+// Combine two numbers using bitwise OR in a spreadsheet.
 
-// How to get a result from OR operation in a spreadsheet.
+// Which bits are set in either number in a spreadsheet?
 
-// Use function to calculate bitwise "OR" operation in a spreadsheet.
+// Merge binary values to include all active bits in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

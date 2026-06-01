@@ -1,8 +1,8 @@
-// How to get and display a Y position of a drawing in a PDF document.
+// Find the top-to-bottom position of a shape in a PDF.
 
-// Get a shape object from a page and get its Y position.
+// How do I check the Y coordinate of an object in a PDF?
 
-// Use drawing object to get the pos y in a PDF document.
+// Read the vertical distance of a shape from the top edge in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

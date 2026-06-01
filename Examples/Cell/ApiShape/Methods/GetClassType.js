@@ -1,8 +1,8 @@
-// Retrieve the class type of a shape in a spreadsheet.
+// Read the type label of a shape and write it into a cell in a spreadsheet.
 
-// How to identify the class type of a shape in a spreadsheet?
+// How do I find out what type a shape object is in a spreadsheet?
 
-// Obtain the class type identifier of a shape object in a spreadsheet.
+// Confirm the category of a shape by printing its type label to the sheet in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

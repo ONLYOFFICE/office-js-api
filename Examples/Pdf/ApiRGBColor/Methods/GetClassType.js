@@ -1,8 +1,8 @@
-// Retrieve the class type of a RGB color in a PDF document.
+// Find out what type of color object an RGB color is in a PDF.
 
-// How to identify the class type of a RGB color in a PDF document?
+// How do I check the category of an RGB color in a PDF?
 
-// Obtain the class type identifier of a RGB color object in a PDF document.
+// Determine the classification of a red-green-blue color in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

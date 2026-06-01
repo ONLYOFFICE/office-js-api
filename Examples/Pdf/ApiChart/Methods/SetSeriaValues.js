@@ -1,8 +1,8 @@
-// How to set values to the specified chart object in a PDF document.
+// Replace the data numbers in a chart series in a PDF.
 
-// Create a chart, set its properties and its series values in a PDF document.
+// How do I change the values displayed in a chart series in a PDF?
 
-// Set seria values using a chart object in a PDF document.
+// Update the numeric data that makes up a data series in a chart in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

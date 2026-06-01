@@ -1,8 +1,8 @@
-// Get first element of rich content in a PDF document.
+// Access a specific paragraph by position in formatted text in a PDF.
 
-// How can I get the element using a rich content in a PDF document?
+// How do I get a particular text element from rich content in a PDF?
 
-// Get the element for a rich content in a PDF document.
+// Retrieve a single paragraph from a list of formatted text in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);

@@ -1,8 +1,8 @@
-// Convert the theme color scheme object into the JSON object in a presentation.
+// Convert a color scheme to JSON format in a presentation.
 
-// How to convert a theme color scheme object to a JSON object in a presentation.
+// How can I export a color scheme as JSON data in a presentation?
 
-// Create a theme color scheme, convert it to JSON and create a new object from it in a presentation.
+// Create a color scheme, export it to JSON, and recreate it from the JSON in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

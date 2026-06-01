@@ -1,8 +1,8 @@
-// Modify the range where an above average rule applies in a spreadsheet.
+// Update the cells covered by an existing above-average highlight rule in a spreadsheet.
 
-// How to change the range for existing above average conditional formatting.
+// How do I expand or change which cells an above-average formatting rule targets in a spreadsheet?
 
-// Modify the range where the above average rule is applied in a spreadsheet.
+// Reassign a highlight rule to a different set of cells without recreating it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

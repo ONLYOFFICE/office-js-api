@@ -1,8 +1,8 @@
-// Check if a content control is a datepicker in a document.
+// Determine whether an inline content control is a date picker in a document.
 
-// How do I is date picker in a document?
+// How do I verify that a content control is a date picker in a document?
 
-// Is date picker using an inline content control object in a document.
+// Identify date picker controls to handle date input fields separately from other control types in a document.
 
 let doc = Api.GetDocument();
 let contentControl = doc.AddDatePickerContentControl();

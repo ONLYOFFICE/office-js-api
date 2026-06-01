@@ -1,8 +1,8 @@
-// Get a cell by its position in a document.
+// Access a specific cell by its position within a table row in a document.
 
-// How to get cell from the table.
+// How do I select a single cell from a row using its index in a document?
 
-// Get the first table cell and add text to it.
+// Pinpoint one cell in a row by its numbered position to work with its content in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

@@ -1,8 +1,8 @@
-// Find out whether a text is italic in a PDF document.
+// Check if text is displayed in italic style in a PDF.
 
-// How to know whether a text is set to italic or not in a PDF document.
+// How do I check whether text is styled as italic in a PDF?
 
-// Get the run and find whether it is italic or not in a PDF document.
+// Read the italic formatting status of text content in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

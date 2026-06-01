@@ -1,8 +1,8 @@
-// How to select a drawing object of the page.
+// Highlight a shape for editing in a PDF.
 
-// Select an object from a page.
+// How do I select a drawing object on a page in a PDF?
 
-// Select using a drawing object object in a PDF document.
+// Pick an object to activate it for changes in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

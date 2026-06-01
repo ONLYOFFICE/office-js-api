@@ -1,8 +1,8 @@
-// Reapply an existing AutoFilter after the data changes in a spreadsheet.
+// Reapply the current filter rules to refresh which rows are visible in a spreadsheet.
 
-// How to reuse filter criteria without redefining them in a spreadsheet.
+// How do I update the filtered view after data has changed in a spreadsheet?
 
-// Reapply an AutoFilter using ApiAutoFilter.ApplyFilter() in a spreadsheet.
+// Refresh the visible rows without changing or removing the filter conditions in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

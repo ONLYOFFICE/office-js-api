@@ -1,8 +1,8 @@
-// How to insert a column to the table in a PDF document.
+// Insert a new column into a table in a PDF
 
-// Create a 2x4 table, set its position and then insert a column to it in a PDF document.
+// Can I add more columns to an existing table in a PDF?
 
-// Add the column using a table object in a PDF document.
+// Attach a column at a specific position within a table in a PDF
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// How to set a stroke as major vertical gridlines in a PDF document.
+// Change the style of the vertical grid lines in a chart in a PDF.
 
-// Create a chart, set its properties and its vertical gridlines properties in a PDF document.
+// How do I format the vertical grid lines in a chart in a PDF?
 
-// Set major vertical gridlines using a chart object in a PDF document.
+// Add a custom border to the vertical reference lines in a chart in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

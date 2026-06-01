@@ -1,8 +1,8 @@
-// Get all attributes of a custom XML node in a spreadsheet.
+// Retrieve every attribute attached to an XML node in a spreadsheet.
 
-// How can I get the attributes using a custom XML node in a spreadsheet?
+// How do I list all attributes of a custom XML element in a spreadsheet?
 
-// Get the attributes for a custom XML node in a spreadsheet.
+// Loop through the complete set of attributes on an embedded XML node and display them in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const xmlManager = worksheet.GetCustomXmlParts();

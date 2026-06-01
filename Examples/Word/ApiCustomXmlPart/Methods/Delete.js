@@ -1,8 +1,8 @@
-// Delete a custom XML part in a document.
+// Remove an embedded XML data block from a document.
 
-// How to delete for a custom XML part in a document?
+// How do I delete one of the XML data blocks stored inside a document?
 
-// Delete and display the result in a document.
+// Clean up stale or unwanted structured data by removing it from the document entirely.
 
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();

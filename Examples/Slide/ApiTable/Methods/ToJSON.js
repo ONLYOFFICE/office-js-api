@@ -1,8 +1,8 @@
-// Convert the table object into the JSON object in a presentation.
+// Convert a table to JSON and recreate it from the JSON representation.
 
-// How to get JSON object from the table in a presentation.
+// Export table structure to JSON format and import it back.
 
-// Get a slide by its index, convert its table to JSON and create another one from the JSON.
+// Get a slide, convert its table to JSON, and create a new table from that JSON.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

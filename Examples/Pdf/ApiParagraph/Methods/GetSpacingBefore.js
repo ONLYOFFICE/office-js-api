@@ -1,8 +1,8 @@
-// Get the spacing before value of the current paragraph in a PDF document.
+// Find the space above a paragraph in a PDF.
 
-// How to get the size of a spacing before a text from a paragraph in a PDF document.
+// How do I check the spacing that appears before a paragraph in a PDF?
 
-// Return a property of the spacing size before a paragraph in a PDF document.
+// Retrieve the amount of space positioned above a paragraph in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

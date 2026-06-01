@@ -1,8 +1,8 @@
-// Get the creator of the current workbook using the core properties in a spreadsheet.
+// Read the author name recorded in the workbook properties in a spreadsheet.
 
-// How to get the creator for a core properties in a spreadsheet?
+// How do I find out who created a workbook in a spreadsheet?
 
-// Get the creator and display the result in a spreadsheet.
+// Retrieve and display the name of the person who originally authored the workbook in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

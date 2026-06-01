@@ -1,8 +1,8 @@
 // Set button widget scale when type in a PDF document.
 
-// How to set scale when for a button widget in a PDF document?
+// Configure when to scale the button icon using scale when property.
 
-// Set scale when and display the result in a PDF document.
+// Display the set scale when value using the widget label.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// Set the form role in a document.
+// Assign a named role to a picture field in a document.
 
-// How to set role for a picture form?
+// How do I link a picture field to a specific signer or contributor role in a document?
 
-// Set role and display the result in a document.
+// Tie a picture field to a particular participant so only they fill it in in a document.
 
 let doc = Api.GetDocument();
 let roles = doc.GetFormRoles();

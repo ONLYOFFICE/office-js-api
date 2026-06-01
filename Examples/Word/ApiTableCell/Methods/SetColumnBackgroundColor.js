@@ -1,13 +1,13 @@
-// Set the background color to all cells in the column containing the cell.
+// Apply a background color to every cell in a table column in a document.
 
-// How to color the cell column background.
+// How do I change the background color of an entire column of table cells in a document?
 
-// Set the rose color as a background color of the cell column.
+// Give all cells in the same column a consistent fill color in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
-let table = Api.CreateTable(4, 2);
+let table = Api.CreateTable(4, 4);
 table.SetWidth("percent", 100);
 table.SetStyle(tableStyle);
 let cell = table.GetRow(0).GetCell(0);

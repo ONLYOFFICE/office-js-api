@@ -1,8 +1,8 @@
-// Create a square annotation and get its author name in a PDF document.
+// Read the author of an annotation in a PDF.
 
-// How do I get the author name in a PDF document?
+// How can I find out who created an annotation in a PDF?
 
-// Get the author name using an annotation object in a PDF document.
+// Retrieve the name of the person who added an annotation in a PDF.
 
 let doc = Api.GetDocument();
 let squareAnnot = Api.CreateSquareAnnot([10, 10, 160, 32]);

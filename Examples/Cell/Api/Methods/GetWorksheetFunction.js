@@ -1,8 +1,8 @@
-// Use built-in functions using worksheet function objects in a spreadsheet.
+// Access and run built-in calculation functions in a spreadsheet.
 
-// How to use system functions in a spreadsheets.
+// How do I use built-in math and text functions in a spreadsheet?
 
-// Use built-in functions in a worksheet.
+// Apply a built-in function to a cell value in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.GetWorksheetFunction();

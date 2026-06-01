@@ -1,8 +1,8 @@
-// Get the value of the specified form using a key.
+// Read the current values of form fields by their keys and print them in a document.
 
-// How do I get the form value by key in a document?
+// How do I retrieve what a user entered in a named form field in a document?
 
-// Get the form value by key using a document object.
+// Verify filled-in form data by looking up field values by key in a document.
 
 let doc = Api.GetDocument();
 let paragraph1 = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// Find out the class type of a custom XML node object in a document.
+// Identify the class type of a custom XML node object in a document.
 
-// How can I get the class type of a custom XML node in a document?
+// How do I get the class type of a custom XML node in a document?
 
-// Get the class type of a custom XML node and display it in the document.
+// Confirm what kind of object a node is before working with it programmatically in a document.
 
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();

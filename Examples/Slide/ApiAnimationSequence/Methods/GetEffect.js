@@ -1,8 +1,8 @@
-// Get an effect at a specified index from an animation sequence in a presentation.
+// Get an animation effect from a sequence by its position in a presentation.
 
-// How do I get the effect in a presentation?
+// How do I access a specific animation from a list of animations in a presentation?
 
-// Get the effect using an animation sequence object in a presentation.
+// Retrieve an animation effect at a given index in a sequence in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

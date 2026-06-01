@@ -1,8 +1,8 @@
-// Set the date to a date form in a document.
+// Set a timestamp value on a date form in a document.
 
-// How to add a time to the date form.
+// How do I set the current date and time on a date form in a document?
 
-// Set the current time to the date form.
+// Pre-fill a date form with a specific point in time to reflect today's date in a document.
 
 let doc = Api.GetDocument();
 let dateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});

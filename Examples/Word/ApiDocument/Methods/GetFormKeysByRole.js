@@ -1,8 +1,8 @@
-// Get a list of all form keys attached to the specified role in a document.
+// List all form field keys assigned to a specific role and display them in a document.
 
-// How to get the form keys by role for a document?
+// How do I find which form fields belong to a particular role in a document?
 
-// Get the form keys by role and display the result in a document.
+// Separate form responsibilities by role so each participant sees only their required fields in a document.
 
 let doc = Api.GetDocument();
 let roles = doc.GetFormRoles();

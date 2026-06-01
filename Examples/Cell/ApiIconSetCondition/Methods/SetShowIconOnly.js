@@ -1,8 +1,8 @@
-// Display only icons without cell values in a spreadsheet.
+// Hide cell values and show only the icons from an icon set rule in a spreadsheet.
 
-// How to configure icon set to hide cell values and show only icons.
+// How do I make cells display just the icon without the underlying number in a spreadsheet?
 
-// Set the icon set rule to display only icons in a spreadsheet.
+// Let icons carry the full visual message by removing the numeric values from view.
 
 let worksheet = Api.GetActiveSheet();
 

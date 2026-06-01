@@ -1,8 +1,8 @@
-// Enable percentile values for icon set thresholds in a spreadsheet.
+// Switch icon set thresholds to use percentile values instead of fixed numbers in a spreadsheet.
 
-// How to configure icon set to use percentile values instead of actual values in a spreadsheet.
+// How do I make icon set boundaries based on percentiles rather than exact values in a spreadsheet?
 
-// Enable percentile values for icon set threshold calculation in a spreadsheet.
+// Compare cell values by their relative position in the data range instead of their absolute amounts.
 
 let worksheet = Api.GetActiveSheet();
 

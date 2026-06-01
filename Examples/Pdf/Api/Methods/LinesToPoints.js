@@ -1,8 +1,8 @@
-// Convert lines to points in a PDF document.
+// Convert measurement units from lines to points in a PDF.
 
-// How can I convert lines to points in a PDF document?
+// How do I convert line measurements to points in a PDF?
 
-// Convert lines to points in a PDF document.
+// Translate line values to point measurements and display the result in a PDF.
 
 const lines = 100;
 const points = Api.LinesToPoints(lines);

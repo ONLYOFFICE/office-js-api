@@ -1,8 +1,8 @@
-// Get the form key in a document.
+// Read the unique identifier assigned to a picture form field in a document.
 
-// How to get a form key of the picture form.
+// How do I find the identifier that links a picture form field to other fields in a document?
 
-// Get the key of the form and display it in the document.
+// Confirm which key is associated with a picture form field by retrieving it in a document.
 
 let doc = Api.GetDocument();
 let pictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false, "shiftX": 50, "shiftY": 50});

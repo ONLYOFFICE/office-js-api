@@ -1,8 +1,8 @@
-// Get the hypergeometric distribution in a spreadsheet.
+// Calculate the hypergeometric distribution with cumulative or probability density in a spreadsheet.
 
-// How to get a result from a hypergeometric distribution in a spreadsheet.
+// How do I compute hypergeometric probabilities with different distribution types in a spreadsheet?
 
-// Use a function to get the result of hypergeometric distribution in a spreadsheet.
+// Return cumulative or probability density values from a hypergeometric distribution in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

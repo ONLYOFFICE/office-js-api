@@ -1,8 +1,8 @@
-// Set the fill to the chart legend in a spreadsheet.
+// Apply a background color to the chart legend in a spreadsheet.
 
-// How to fill the chart legend with the solid fill in a spreadsheet.
+// How do I fill the chart legend with a custom color in a spreadsheet?
 
-// Color the legend of the chart in a spreadsheet.
+// Give the legend a solid background to make it stand out from the chart area in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

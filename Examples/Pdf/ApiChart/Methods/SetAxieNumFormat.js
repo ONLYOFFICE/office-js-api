@@ -1,8 +1,8 @@
-// How to change a numeric format of left axis Labels.
+// Format the numbers on a chart axis in a PDF.
 
-// Create a chart then set its axis number format.
+// How do I control how numbers appear on a chart's axis in a PDF?
 
-// Set axie num format using a chart object.
+// Change the number format of axis labels in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// Specify that all the small letter characters in this text run are formatted for display only as their capital letter character equivalents which are two points smaller than the actual font size specified for this text.
+// Display lowercase letters as smaller capital letters in a text run in a document.
 
-// How to make text uncapitalized in a document.
+// How do I make text appear in small capitals without changing the original letters in a document?
 
-// Create a new text run and make its letters lowercase in a document.
+// Style a run so that all characters render as compact uppercase glyphs in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

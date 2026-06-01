@@ -1,8 +1,8 @@
-// Specify that all the small letter characters in the text run are formatted for display only as their capital letter character equivalents which are two points smaller than the actual font size specified for this text.
+// Convert lowercase letters to small capital letters in a presentation.
 
-// How to make a text uncapitalized in a presentation.
+// Can I display text with smaller capital letters in a presentation?
 
-// Get the text properties of the run and make its letters lowercase in a presentation.
+// Format all lowercase characters to appear as small capitals in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

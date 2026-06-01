@@ -1,8 +1,8 @@
-// Add a paragraph to pdf document.
+// Insert a text block into a shape in a PDF.
 
-// How to create an element, add it to a shape and insert the shape to the page.
+// How do I add content inside a drawn shape in a PDF?
 
-// Create a shape, insert a paragraph to it and then add the shape to the page.
+// Create a shape, fill it with text, and place it on a page in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

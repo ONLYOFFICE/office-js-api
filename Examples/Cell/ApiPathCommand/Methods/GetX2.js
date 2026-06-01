@@ -1,8 +1,8 @@
-// Extracts control points from a cubic bezier curve command. Displays all bezier control points coordinates in spreadsheet cells.
+// Read the horizontal position of the endpoint of a bezier curve and write it to a cell in a spreadsheet.
 
-// How do I get the x2 in a spreadsheet?
+// How do I find the X coordinate of the final destination point on a curve path command in a spreadsheet?
 
-// Get the x2 using a path command object in a spreadsheet.
+// Confirm where a cubic curve segment ends horizontally within a shape's path in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let customGeometry = Api.CreateCustomGeometry();

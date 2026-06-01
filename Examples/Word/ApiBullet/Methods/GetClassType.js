@@ -1,8 +1,8 @@
-// Find out the class type of a bullet object in a document.
+// Identify the class type of a bullet object used in a document.
 
-// How can I get the class type of a bullet in a document?
+// How do I find out what kind of object a bullet is in a document?
 
-// Get the class type of a bullet and display it in the document.
+// Verify that a bullet belongs to the expected object category before processing it in a document.
 
 let doc = Api.GetDocument();
 let bullet = Api.CreateBullet("- ");

@@ -1,8 +1,8 @@
-// Retrieve the class type of a strikeout annotation in a PDF document.
+// Get the classification code for a strikeout annotation in a PDF
 
-// How to identify the class type of a strikeout annotation in a PDF document?
+// What is the internal type identifier for a strikeout annotation in a PDF?
 
-// Obtain the class type identifier of a strikeout annotation object in a PDF document.
+// Find and display the class name of a strikeout annotation in a PDF
 
 let doc = Api.GetDocument();
 let caretAnnot = Api.CreateCaretAnnot([84, 60, 231, 70]);

@@ -1,8 +1,8 @@
-// Copy the form.
+// Duplicate a complex form and insert the copy in a document.
 
-// How can I copy using a complex form in a document?
+// How do I copy a complex form to reuse it in a document?
 
-// Copy for a complex form in a document.
+// Create an identical second form from an existing one to repeat the same input structure.
 
 let doc = Api.GetDocument();
 let complexForm = Api.CreateComplexForm({"key": "Complex1"});

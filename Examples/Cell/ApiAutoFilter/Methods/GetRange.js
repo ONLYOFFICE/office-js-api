@@ -1,8 +1,8 @@
-// Obtain the range to which an AutoFilter is applied in a spreadsheet.
+// Find the exact cells covered by the active filter drop-downs in a spreadsheet.
 
-// How to find the AutoFilter range and work with it as a normal cell range in a spreadsheet.
+// How do I get the cell range that the current filter is applied to in a spreadsheet?
 
-// Use ApiAutoFilter.GetRange() to get the filtered area in a spreadsheet.
+// Identify the full span of rows and columns under filter control so you can format or read them in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

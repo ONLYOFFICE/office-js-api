@@ -1,8 +1,8 @@
-// Copy the form.
+// Duplicate a picture form field and place the copy in a document.
 
-// How to create a duplicate of the form.
+// How do I make an exact copy of a picture form field in a document?
 
-// Copy the picture form and add it to the paragraph.
+// Reuse an existing picture form by cloning it and inserting the duplicate into a document.
 
 let doc = Api.GetDocument();
 let pictureForm = Api.CreatePictureForm({"key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false, "shiftX": 50, "shiftY": 50});

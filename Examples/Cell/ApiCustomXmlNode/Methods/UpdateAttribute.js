@@ -1,8 +1,8 @@
-// Update the value of an existing attribute in a custom XML node in a spreadsheet.
+// Change the value of an existing attribute on an XML element in a spreadsheet.
 
-// How do I update attribute in a spreadsheet?
+// How do I modify the value of an attribute already set on an XML node in a spreadsheet?
 
-// Update attribute using a custom XML node object in a spreadsheet.
+// Revise a previously assigned attribute to reflect updated information in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const xmlManager = worksheet.GetCustomXmlParts();

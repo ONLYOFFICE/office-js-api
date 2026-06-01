@@ -1,8 +1,8 @@
-// Add a page break and start the next element from a new page.
+// Insert a page break inside a text run to continue text on the next page in a document.
 
-// How to start a sentence from the new page.
+// How do I make part of a text run appear on the following page in a document?
 
-// Break two lines of a text run with a page break.
+// Force the remaining text in a run to start at the top of a new page in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

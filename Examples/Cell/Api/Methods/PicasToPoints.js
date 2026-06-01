@@ -1,8 +1,8 @@
-// Convert picas to points in a spreadsheet.
+// Express a pica measurement as points in a spreadsheet.
 
-// How to convert picas to points in a spreadsheet?
+// How do I turn a value in picas into its equivalent in points in a spreadsheet?
 
-// Convert picas to points using the spreadsheet API.
+// Display a typographic size converted from picas to points in a spreadsheet.
 
 const picas = 100;
 const points = Api.PicasToPoints(picas);

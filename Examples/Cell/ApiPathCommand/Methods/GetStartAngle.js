@@ -1,8 +1,8 @@
-// Retrieve arc parameters including radii and angles. Displays arc width radius, height radius, start and sweep angles in cells.
+// Read the angle where a drawn arc begins and write it to a cell in a spreadsheet.
 
-// How to get the start angle for a path command in a spreadsheet?
+// How do I find the starting angle of an arc path command in a spreadsheet?
 
-// Get the start angle and display the result in a spreadsheet.
+// Inspect an arc segment to confirm the exact degree at which the curve opens in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let customGeometry = Api.CreateCustomGeometry();

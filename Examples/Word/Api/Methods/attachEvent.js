@@ -1,8 +1,8 @@
-// Subscribe to the hyperlink click event in a document.
+// Run a custom action whenever a hyperlink is clicked in a document.
 
-// How to attach the "asc_onHyperlinkClick" event in a document.
+// How do I run a function automatically when a hyperlink is clicked in a document?
 
-// Subscribes to the "asc_onHyperlinkClick" event and calls the callback function which displays the "HYPERLINK!!!" message in the console log when the event fires in a document.
+// Listen for hyperlink clicks and trigger a response without manual intervention in a document.
 
 Api.attachEvent("asc_onHyperlinkClick", function() {
 	console.log("HYPERLINK!!!");

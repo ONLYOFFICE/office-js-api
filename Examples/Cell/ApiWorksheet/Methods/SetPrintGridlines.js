@@ -1,8 +1,8 @@
-// Specify whether the sheet gridlines must be printed or not in a spreadsheet.
+// Enable or disable gridlines on printed pages in a spreadsheet.
 
-// How to set whether sheet gridlines should be printed or not in a spreadsheet.
+// How do I include or exclude the grid pattern when printing my spreadsheet?
 
-// Set a boolean value representing whether to print gridlines or not in a spreadsheet.
+// Specify whether printed output shows the cell boundary lines in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.SetPrintGridlines(true);

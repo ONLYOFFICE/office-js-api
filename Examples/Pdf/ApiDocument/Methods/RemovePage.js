@@ -1,8 +1,8 @@
-// Remove page from document in a PDF document.
+// Delete a page from a PDF.
 
-// How can I remove the page using a document in a PDF document?
+// How do I remove an unwanted page from a PDF?
 
-// Remove the page for a document in a PDF document.
+// Delete a specific page number from a PDF.
 
 let doc = Api.GetDocument();
 doc.AddPage(1);

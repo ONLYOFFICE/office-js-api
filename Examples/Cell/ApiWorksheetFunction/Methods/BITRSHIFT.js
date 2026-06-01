@@ -1,8 +1,8 @@
-// Return a number shifted right by the specified number of bits in a spreadsheet.
+// Shift a number right by a given number of bits in a spreadsheet.
 
-// How to get a result from bits right shift in a spreadsheet.
+// What happens when you move the binary representation rightward in a spreadsheet?
 
-// Use function to calculate bitwise right shift operation in a spreadsheet.
+// Divide a value by moving its bits toward lower positions in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

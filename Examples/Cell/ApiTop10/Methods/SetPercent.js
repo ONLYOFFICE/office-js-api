@@ -1,8 +1,8 @@
-// Set the percentage mode for top 10 condition in a spreadsheet.
+// Switch a top 10 rule from counting items to using a percentage threshold in a spreadsheet.
 
-// How to configure if the condition uses percentage values instead of count values in a spreadsheet.
+// How do I highlight the top percentage of values instead of a fixed count in a spreadsheet?
 
-// Set the percentage mode for the top 10 rule in a spreadsheet.
+// Target the top portion of data by enabling percentage mode on a highlight rule in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

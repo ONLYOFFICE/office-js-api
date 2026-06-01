@@ -1,8 +1,8 @@
-// Set whether a dropdown list is displayed in a spreadsheet.
+// Enable or disable the drop-down arrow that lets users pick from allowed values in a spreadsheet.
 
-// How to show or hide the validation dropdown list in a spreadsheet.
+// How do I show a selectable list inside a cell that has a list-based validation rule in a spreadsheet?
 
-// Set the InCellDropdown setting.
+// Make it easier for users to enter valid data by displaying a clickable menu of options in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");

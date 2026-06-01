@@ -1,8 +1,8 @@
-// Get field read only and display's it in a PDF document.
+// Check whether a form field is locked from editing in a PDF.
 
-// How can I is read only using a base field in a PDF document?
+// How can I determine if a form field is read-only in a PDF?
 
-// Is read only for a base field in a PDF document.
+// Verify the read-only status of a form field in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

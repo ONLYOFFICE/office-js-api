@@ -1,8 +1,8 @@
-// Set the default hyperlink style in a document.
+// Apply the default built-in style to a hyperlink in a document.
 
-// How to set the default style to the hyperlink in a document.
+// How do I reset a hyperlink to its default style in a document?
 
-// Create a hyperlink and apply the default properties to it in a document.
+// Compare a styled hyperlink against one reset to the default appearance in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// Splits the cell into a given number of rows and columns.
+// Divide one table cell into a grid of smaller cells in a document.
 
-// How to divide the table cell.
+// How do I break a single cell into multiple rows and columns in a document?
 
-// Split the table cell into specific number of rows and columns.
+// Subdivide a cell to create a nested grid structure inside a table in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

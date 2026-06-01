@@ -1,8 +1,8 @@
-// Get next rich paragraph and add some text to it in a PDF document.
+// Move to the following paragraph in a PDF.
 
-// How do I get next in a PDF document?
+// How do I navigate to the next paragraph in a PDF?
 
-// Get next using a rich paragraph object in a PDF document.
+// Jump to the subsequent paragraph and work with it in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);

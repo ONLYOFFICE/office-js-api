@@ -1,8 +1,8 @@
-// Set the bullet or numbering to the current paragraph in a PDF document.
+// Add a bullet point to a paragraph in a PDF.
 
-// How to set a bullet type to the paragraph properties in a PDF document.
+// How do I add a bullet to a paragraph in a PDF?
 
-// Create a bulleted paragraph setting its bullet type in a PDF document.
+// Create a bulleted list item in a paragraph in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

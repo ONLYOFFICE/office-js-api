@@ -1,8 +1,8 @@
-// Return the two-tailed inverse of the Student's t-distribution in a spreadsheet.
+// Find the t-value for a given two-tail probability in a spreadsheet.
 
-// How to calculate the two-tailed inverse of Student's t-distribution in a spreadsheet.
+// How do I find the critical t-value for a two-tailed test in a spreadsheet?
 
-// Use a function to estimate the Student's t-distribution two-tailed inverse in a spreadsheet.
+// Get the inverse of the two-tailed t-distribution for hypothesis testing in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

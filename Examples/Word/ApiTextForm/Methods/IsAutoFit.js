@@ -1,8 +1,8 @@
-// Check if the text field content is autofit in a document.
+// Check whether a text field automatically resizes its content in a document.
 
-// How to know whether the first text form from this document is autofit.
+// How do I find out if a text field is set to shrink text to fit in a document?
 
-// Get the boolean that represents the autofit property of the text form.
+// Confirm the auto-fit setting on a form field before adjusting its layout in a document.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});

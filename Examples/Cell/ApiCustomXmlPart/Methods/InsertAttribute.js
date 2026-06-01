@@ -1,8 +1,8 @@
-// Insert an attribute into a custom XML part element in a spreadsheet.
+// Add a new named property to an XML element stored in a spreadsheet.
 
-// How do I insert the attribute in a spreadsheet?
+// How do I attach extra metadata to an existing XML node in a spreadsheet?
 
-// Insert the attribute using a custom XML part object in a spreadsheet.
+// Enrich an XML element with an additional attribute to carry more structured data in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const xmlManager = worksheet.GetCustomXmlParts();

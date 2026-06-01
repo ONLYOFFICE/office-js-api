@@ -1,8 +1,8 @@
-// Get an Id of a protected range user in a spreadsheet.
+// Read the unique identifier of a user who has access to a protected range in a spreadsheet.
 
-// How to get an user info of a protected range and show its Id in a spreadsheet.
+// How do I find a user's ID for a protected range in a spreadsheet?
 
-// Get an user id of a protected range and add it to the worksheet.
+// Confirm which user account is linked to a locked area by checking its ID in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.AddProtectedRange("protectedRange", "$A$1:$B$1").AddUser("userId", "name", "CanView");

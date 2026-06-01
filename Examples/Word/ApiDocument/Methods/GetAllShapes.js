@@ -1,8 +1,8 @@
-// Get a collection of shape objects from the document in a document.
+// Retrieve all shapes in a document.
 
-// Get all shapes added to the document.
+// How do I collect every shape object present in a document?
 
-// How to retrieve all shapes and fill with color the second one in a document.
+// Change the fill color of the second shape to distinguish it from the others.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

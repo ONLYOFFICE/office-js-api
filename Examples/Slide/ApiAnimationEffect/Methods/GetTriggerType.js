@@ -1,8 +1,8 @@
 // Get the trigger type of an animation effect in a presentation.
 
-// How can I get the trigger type using an animation effect in a presentation?
+// How do I read the trigger type of an animation effect in a presentation?
 
-// Get the trigger type for an animation effect in a presentation.
+// Retrieve the setting that controls when an animation plays in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

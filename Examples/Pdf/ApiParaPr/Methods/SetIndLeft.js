@@ -1,8 +1,8 @@
-// Set the paragraph left side indentation in a PDF document.
+// Indent a paragraph from the left edge in a PDF.
 
-// How to set a left side indentation using a paragraph properties in a PDF document.
+// How do I indent a paragraph from the left in a PDF?
 
-// Create a paragraph setting its left side indentation property in a PDF document.
+// Add left margin indentation to a paragraph in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

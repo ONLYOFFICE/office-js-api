@@ -1,7 +1,7 @@
-// Send the "Hello, I'm John." message to the co-authoring chat in a document.
+// Send a message to the co-authoring chat while editing a document.
 
-// How to send greetings to the co-authoring chat in a document.
+// How do I post a chat message to other collaborators in a document?
 
-// todo_example this method doesn't have description in code in a document.
+// Communicate with co-authors by sending a text message through the shared chat in a document.
 
 Api.CoAuthoringChatSendMessage("Hello, I'm John.");

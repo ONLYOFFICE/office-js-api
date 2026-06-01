@@ -1,8 +1,8 @@
-// Create a new child node and insert it as a child of the current XML node in a presentation.
+// Add a child element to an XML structure in a presentation.
 
-// How to add a child node to an XML node in a presentation.
+// How do I create and attach a new XML node to an existing one?
 
-// Add and display the result in a presentation.
+// Build nested XML elements and verify their types in a presentation.
 
 let presentation = Api.GetPresentation();
 let xmlManager = presentation.GetCustomXmlParts();

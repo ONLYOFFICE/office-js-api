@@ -1,8 +1,8 @@
-// Set the italic property to the text character in a spreadsheet.
+// Make text italic inside a shape in a spreadsheet.
 
-// How to make text italic in a spreadsheet.
+// How do I apply italic formatting to text in a spreadsheet?
 
-// Set italic property of a text in a spreadsheet.
+// Style text with a slanted font to emphasize content in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

@@ -1,8 +1,8 @@
-// Get a set of the table cell properties which will be applied to all the cells within a table which match the conditional formatting type.
+// Access the cell formatting tied to a conditional table style in a document.
 
-// How to get the table cell properties.
+// How do I read and change cell appearance settings for a specific area of a table in a document?
 
-// Get the table cell properties and set shading to its background.
+// Apply background shading to cells matched by a table style condition in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// Add a paragraph to the presentation.
+// Add a new paragraph to the end of a shape's text content in a presentation.
 
-// How to insert an element into a slide shape.
+// How do I append a new paragraph to a shape's existing content in a presentation?
 
-// Get a slide shape's content and add a text to it.
+// Get a shape, clear its existing text, and add a new paragraph with text to it.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

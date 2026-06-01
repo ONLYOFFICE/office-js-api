@@ -1,8 +1,8 @@
 // Return the Student's t-distribution in a spreadsheet.
 
-// How to calculate a Student's t-distribution in a spreadsheet.
+// Calculate the probability for the t-distribution with given degrees of freedom.
 
-// Use a function to estimate a Student's t-distribution in a spreadsheet.
+// Apply the TDIST function with t-value and degrees of freedom parameters.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

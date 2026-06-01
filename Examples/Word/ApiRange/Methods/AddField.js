@@ -1,8 +1,8 @@
-// Add the field to the specified range by field instruction code. Note: This method removes text within range in a document.
+// Replace a text selection with an automatically updated field in a document.
 
-// How do I add the field in a document?
+// How do I insert a dynamic field that replaces existing text in a document?
 
-// Add the field using a range object.
+// Swap out a passage for a field that updates its value automatically in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

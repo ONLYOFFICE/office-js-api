@@ -1,8 +1,8 @@
-// Convert the block-level content control object into the JSON object in a document.
+// Save a content control as JSON and restore it in a document.
 
-// Create a block content control and convert it into the JSON object in a document.
+// How do I serialize a content control to JSON and recreate it in a document?
 
-// How to create the JSON object from the block-level content control object in a document.
+// Export a content control to JSON format and insert the restored copy into a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

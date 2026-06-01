@@ -1,8 +1,8 @@
-// Find out the class type of a stroke object in a presentation.
+// Identify the type of a border line in a presentation.
 
-// How can I get the class type of a stroke in a presentation?
+// How do I check what kind of object a border line is in a presentation?
 
-// Get the class type of a stroke and display it in the presentation.
+// Read the class type from a stroke and display it in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// Replace the current image with an image specified in a presentation.
+// Swap an image for a different one in a presentation.
 
-// How to replace an image with another one in a presentation.
+// How do I replace an image with another image in a presentation?
 
-// Replace the current image with another image on the slide.
+// Replace the selected image by loading a new one from a URL.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

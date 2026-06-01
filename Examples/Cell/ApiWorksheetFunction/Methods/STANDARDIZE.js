@@ -1,8 +1,8 @@
-// Return a normalised value from a distribution characterised by a mean and standard deviation in a spreadsheet.
+// Calculate a normalized value from a distribution with mean and standard deviation.
 
-// How to calculate the normalised value from a distribution in a spreadsheet.
+// The STANDARDIZE function converts a value to a z-score using the distribution's mean and standard deviation.
 
-// Use a function to get the normalised value from a distribution by different parameters in a spreadsheet.
+// Get the normalized value and place it in cell C1.
 
 const worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// Add some text to the paragraph in a document.
+// Add text to an existing paragraph in a document.
 
-// How to insert the text to the paragraph in a document.
+// How do I insert a text string into a paragraph in a document?
 
-// Add the text and display the result in a document.
+// Place custom text inside a paragraph to build document content in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

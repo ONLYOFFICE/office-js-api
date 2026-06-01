@@ -1,8 +1,8 @@
-// Create a linear gradient fill to apply to the drawing using the selected linear gradient as the object background in a document.
+// Fill a shape with a smooth two-color gradient in a document.
 
-// Create the ApiLinearGradientFill object using two gradient stops and apply it to the created shape in a document.
+// How do I apply a linear gradient background to a shape in a document?
 
-// How to create a shape using a linear gradient fill in a document.
+// Style a rectangle with a blended color transition from one shade to another in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

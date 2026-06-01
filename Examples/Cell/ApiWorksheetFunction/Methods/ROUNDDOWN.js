@@ -1,8 +1,8 @@
-// Round a number down, toward zero in a spreadsheet.
+// Round a number down to the nearest integer in a spreadsheet.
 
-// How to round a number down in a spreadsheet.
+// How do I round numbers down while keeping decimals in a spreadsheet?
 
-// Use a function to round a number towards zero in a spreadsheet.
+// Decrease a number to its lower whole number or specified decimal place in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

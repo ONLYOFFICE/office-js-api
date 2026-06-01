@@ -1,8 +1,8 @@
-// Get the next paragraph in a document.
+// Navigate to the next paragraph and apply bold formatting to it in a document.
 
-// Get the next paragraph and make it bold in a document.
+// How do I get a reference to the paragraph that follows the current one in a document?
 
-// How to access the next paragraph in a document.
+// Bold the second paragraph by traversing from the first paragraph in a document.
 
 let doc = Api.GetDocument();
 let paragraph1 = doc.GetElement(0);

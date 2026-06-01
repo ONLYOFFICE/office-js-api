@@ -1,8 +1,8 @@
-// Get the paragraph line spacing value in a PDF document.
+// Read the line spacing amount for a paragraph in a PDF.
 
-// / How to get the spacing line value between sentences of a paragraph in a PDF document.
+// How do I check the space between lines in a paragraph in a PDF?
 
-// Create a paragraph, set the spacing line between the sentences and retrieve the value in a PDF document.
+// Find the line spacing distance used in a paragraph in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

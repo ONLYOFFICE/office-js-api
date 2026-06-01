@@ -1,8 +1,8 @@
-// Convert radians to degrees in a spreadsheet.
+// Convert angle measurements from radians to degrees in a spreadsheet.
 
-// How to convert radians to degrees in a spreadsheet.
+// What is a radian value expressed in degrees in a spreadsheet?
 
-// Use function to get degrees from radians in a spreadsheet.
+// Transform radian angles into their degree equivalents in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

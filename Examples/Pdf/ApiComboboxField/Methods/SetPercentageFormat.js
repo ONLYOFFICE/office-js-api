@@ -1,8 +1,8 @@
-// Get text field and set percentage format for it.
+// Present values as percentages in a field in a PDF.
 
-// How to set percentage format for a combobox field?
+// Can I show numbers as percentages in a PDF?
 
-// Set percentage format and display the result in a PDF document.
+// Convert numerical input to percentage display in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

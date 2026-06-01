@@ -1,8 +1,8 @@
-// Get text field and set special format for it.
+// Format field values as phone numbers in a PDF.
 
-// How to set special format for a combobox field?
+// Can I make phone numbers display correctly in a PDF?
 
-// Set special format and display the result in a PDF document.
+// Apply phone number formatting to a field in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

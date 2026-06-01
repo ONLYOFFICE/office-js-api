@@ -1,8 +1,8 @@
-// Get the language of the current document using the core properties in a document.
+// Read the language setting stored in the core properties of a document.
 
-// How can I get the language using a core properties in a document?
+// How do I get the language value from the core properties in a document?
 
-// Get the language for a core properties in a document.
+// Detect the declared locale of a document to apply the correct spell-check or formatting rules in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

@@ -1,8 +1,8 @@
-// Get the internal ID of a paragraph in a presentation.
+// Retrieve the internal ID of a paragraph in a presentation.
 
-// How do I get the internal id in a presentation?
+// How do I find the unique identifier for a paragraph in a presentation?
 
-// Get the internal id using a paragraph object in a presentation.
+// Access and display the internal ID associated with a specific paragraph in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

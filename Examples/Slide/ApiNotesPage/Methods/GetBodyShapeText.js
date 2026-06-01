@@ -1,8 +1,8 @@
-// Get text from the body shape of the notes page in a presentation.
+// Read the text from the notes section of a slide in a presentation.
 
-// How do I get the body shape text in a presentation?
+// How do I get the content of the slide notes in a presentation?
 
-// Get the body shape text using a notes page object.
+// Retrieve text that was added to the notes page and display it in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

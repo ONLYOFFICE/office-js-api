@@ -1,8 +1,8 @@
-// Clear the form.
+// Remove all child elements from a complex form in a document.
 
-// How can I clear using a complex form in a document?
+// How do I clear all elements out of a complex form in a document?
 
-// Clear for a complex form in a document.
+// Reset a complex form to an empty state by stripping every field it contains.
 
 let doc = Api.GetDocument()
 let complexForm = Api.CreateComplexForm({"key": "Complex", "tip": "Insert here other forms", "required": true, "placeholder": "Complex form"});

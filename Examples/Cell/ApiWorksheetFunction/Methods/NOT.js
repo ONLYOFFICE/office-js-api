@@ -1,8 +1,8 @@
-// Сheck if the specified logical value is true or false. The function returns true if the argument is false and false if the argument is true in a spreadsheet.
+// Reverse a boolean value in a spreadsheet.
 
-// How to negate a boolean value in a spreadsheet.
+// How do I negate a true or false value in a spreadsheet?
 
-// Use a function to get the opposite of the boolean value in a spreadsheet.
+// Get the opposite result of a logical condition in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

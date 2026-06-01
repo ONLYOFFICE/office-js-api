@@ -1,8 +1,8 @@
-// Return the text from the document content.
+// Extract all text content from a shape in a PDF.
 
-// How to get the text for a document content?
+// How do I read all the text that is inside a shape in a PDF?
 
-// Get the text and display the result in a PDF document.
+// Gather the combined text from all paragraphs within a shape in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

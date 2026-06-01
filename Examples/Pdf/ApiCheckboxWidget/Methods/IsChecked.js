@@ -1,8 +1,8 @@
-// Get checkbox widget checked prop in group of checkbox widgets in a PDF document.
+// Check if a checkbox widget is selected in a PDF.
 
-// How can I is checked using a checkbox widget in a PDF document?
+// How do I find out whether a checkbox is marked or unmarked in a PDF?
 
-// Is checked for a checkbox widget in a PDF document.
+// Determine the current state of a checkbox widget in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

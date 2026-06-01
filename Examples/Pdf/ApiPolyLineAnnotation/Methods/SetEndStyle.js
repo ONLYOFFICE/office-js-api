@@ -1,8 +1,8 @@
-// Set line end style to polyline annotation in a PDF document.
+// Change the line ending appearance of a polyline marking in a PDF.
 
-// How can I set end style using a polyline annotation in a PDF document?
+// How do I update the line ending style on a polyline marking in a PDF?
 
-// Set end style for a polyline annotation in a PDF document.
+// Modify the appearance of the endpoint shown on a polyline marking in a PDF.
 
 let doc = Api.GetDocument();
 let vertices = [{x: 100, y: 10}, {x: 150, y: 100}, {x: 50, y: 100}];

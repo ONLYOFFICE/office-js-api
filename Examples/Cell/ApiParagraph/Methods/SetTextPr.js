@@ -1,8 +1,8 @@
-// Apply text properties to all text in a paragraph inside a shape in a spreadsheet.
+// Apply bold, italic, and font size settings to all text in a paragraph inside a shape in a spreadsheet.
 
-// How can I set text pr using a paragraph in a spreadsheet?
+// How do I style all the text in a paragraph at once in a spreadsheet?
 
-// Set text pr for a paragraph in a spreadsheet.
+// Change the appearance of paragraph text by assigning a shared set of formatting properties in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const fill = Api.CreateSolidFill(Api.RGB(110, 140, 130));

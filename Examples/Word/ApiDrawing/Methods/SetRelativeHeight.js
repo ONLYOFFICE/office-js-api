@@ -1,8 +1,8 @@
-// Relative height shape sizing to page dimensions.
+// Size a shape's height as a percentage of the page in a document.
 
-// How to set shape width and height as percentages of the page.
+// How do I make a shape's height scale proportionally with the page in a document?
 
-// Create a responsive rectangle that scales with page size.
+// Stretch a rectangle to fill a quarter of the page height so it adapts to different page sizes in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

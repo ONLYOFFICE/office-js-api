@@ -1,8 +1,8 @@
-// Set the text fill to the current text run in a PDF document.
+// Apply a color or fill to text in a PDF.
 
-// How to fill a text run in a PDF document.
+// How can I change the text color in a PDF?
 
-// Create a new text run and set its font color in a PDF document.
+// Give text its color using a fill in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

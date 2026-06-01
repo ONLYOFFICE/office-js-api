@@ -1,8 +1,8 @@
-// Get the index of color scale criterion in a spreadsheet.
+// Retrieve the position number of a breakpoint within a color gradient rule in a spreadsheet.
 
-// How to determine which threshold a criterion represents in a spreadsheet.
+// How do I find out which stop number a particular criterion occupies in a color scale in a spreadsheet?
 
-// Get the index of a color scale criterion in a spreadsheet.
+// Identify the sequential order of a color scale breakpoint to understand its place in the gradient in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

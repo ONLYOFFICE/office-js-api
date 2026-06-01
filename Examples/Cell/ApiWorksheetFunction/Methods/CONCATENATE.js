@@ -1,8 +1,8 @@
-// Combine multiple text strings into one text string in a spreadsheet.
+// Merge several text strings into a single string in a spreadsheet.
 
-// How to add multiple text strings into one text string in a spreadsheet.
+// What happens when you join different text values together in a spreadsheet?
 
-// Use function to create one text string from multiple ones in a spreadsheet.
+// Link multiple pieces of text to form one combined string in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

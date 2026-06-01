@@ -1,8 +1,8 @@
-// Check if the color is a theme color in a PDF document.
+// Determine if a color is a theme color in a PDF.
 
-// How to is theme color for a color in a PDF document?
+// How can I tell whether a color comes from the theme in a PDF?
 
-// Is theme color and display the result in a PDF document.
+// Compare a regular color and a theme color to see which one is theme-based.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

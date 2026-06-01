@@ -1,8 +1,8 @@
-// Set the spacing before the paragraph in a document.
+// Set the amount of space that appears before a paragraph in a document.
 
-// How to set the size of a spacing before a text from a paragraph properties in a document.
+// How do I add extra space above a paragraph to separate it from the previous one in a document?
 
-// Change the size property of a spacing before a paragraph in a document.
+// Push a paragraph down from the preceding content by adjusting its top gap in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

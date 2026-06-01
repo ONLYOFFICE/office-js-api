@@ -1,8 +1,8 @@
-// Set justification for rich paragraph properties in a PDF document.
+// Change the text alignment of a paragraph in a PDF.
 
-// How do I set jc in a PDF document?
+// How do I align text differently in a PDF?
 
-// Set jc using a rich paragraph properties object in a PDF document.
+// Apply a specific alignment option to a paragraph in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);

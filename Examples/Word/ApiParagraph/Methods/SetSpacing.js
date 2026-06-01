@@ -1,8 +1,8 @@
-// Set the text spacing measured in twentieths of a point in a document.
+// Set the character spacing for text in a paragraph in a document.
 
-// How to specify the spacing value of paragraph in a document.
+// How do I control the amount of space between characters in a paragraph in a document?
 
-// Indicate the paragraph text space in a document.
+// Expand or compress the gaps between letters within a paragraph in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

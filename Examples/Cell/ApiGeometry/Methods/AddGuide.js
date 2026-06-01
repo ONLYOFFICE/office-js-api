@@ -1,8 +1,8 @@
-// Create adjustable custom geometry with guides and connection points. Displays adjustment value in a cell and apply geometry to shape.
+// Define a named layout guide for a custom shape in a spreadsheet.
 
-// How can I add the guide using a geometry in a spreadsheet?
+// How do I set up a reusable reference line for positioning parts of a custom shape in a spreadsheet?
 
-// Add the guide for a geometry in a spreadsheet.
+// Store a calculated reference value under a name so other shape properties can depend on it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let customGeometry = Api.CreateCustomGeometry();

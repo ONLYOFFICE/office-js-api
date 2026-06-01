@@ -1,8 +1,8 @@
-// Set the specified font family as the font name for the cell range.
+// Change the font family used in a cell range in a spreadsheet.
 
-// How to change a cell font family.
+// How do I switch the typeface for a group of cells in a spreadsheet?
 
-// Get a range and set its font family using its name in a spreadsheet.
+// Apply a named font to all text within a range of cells in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A2").SetValue("2");

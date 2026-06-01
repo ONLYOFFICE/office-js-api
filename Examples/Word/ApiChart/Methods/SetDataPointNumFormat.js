@@ -1,8 +1,8 @@
-// Set "0.00" numeric format for chart.
+// Format the number displayed on a specific data point label in a document.
 
-// How to set a numeric format of the data points.
+// How do I control the numeric format of individual data point labels on a chart in a document?
 
-// Create a chart and set its data points number format to two decimal places.
+// Show data point values with consistent decimal precision when labels are visible on a chart in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

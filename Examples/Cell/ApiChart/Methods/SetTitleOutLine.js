@@ -1,8 +1,8 @@
-// Set the outline to the chart title in a spreadsheet.
+// Apply a border outline to a chart title in a spreadsheet.
 
-// How to outline a chart title in a spreadsheet.
+// How do I add a visible border around a chart title in a spreadsheet?
 
-// Add a stroke for the chart title outline in a spreadsheet.
+// Style a chart title with a custom outline stroke in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

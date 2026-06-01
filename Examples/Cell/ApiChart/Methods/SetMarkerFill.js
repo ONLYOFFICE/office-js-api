@@ -1,8 +1,8 @@
-// Set the fill to the marker in the specified chart series in a spreadsheet.
+// Color the data point markers in a chart series in a spreadsheet.
 
-// Create the "scatter" chart and apply an RGB color to its markers in a spreadsheet.
+// How do I fill the markers of a scatter chart with a specific color in a spreadsheet?
 
-// Apply an RGB fill to the chart markers using a fill object.
+// Give each series its own marker color to make data points easy to distinguish in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

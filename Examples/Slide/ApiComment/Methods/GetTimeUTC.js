@@ -1,8 +1,8 @@
 // Get a time of a comment creation in UTC in a presentation.
 
-// How to know when a comment was added in a presentation.
+// Retrieve the UTC timestamp of a specific comment.
 
-// Get all comments from the presentation and the first one's time of creation in UTC format.
+// Add a comment to the presentation and display its creation time in UTC format.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// Set and get the creation date of a presentation using the core properties in a presentation.
+// Set and retrieve the creation date of a presentation in a presentation.
 
-// How can I set created using a core properties in a presentation?
+// How do I set the creation date of a presentation in a presentation?
 
-// Set created for a core properties in a presentation.
+// Retrieve and display the creation date as text in a presentation.
 
 const presentation = Api.GetPresentation();
 const core = presentation.GetCore();

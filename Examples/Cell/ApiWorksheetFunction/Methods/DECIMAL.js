@@ -1,8 +1,8 @@
-// Convert a text representation of a number in a given base into a decimal number in a spreadsheet.
+// Convert text numbers from any base to base 10 format in a spreadsheet.
 
-// How to get a decimal value from a text in a spreadsheet.
+// What is a text number in a different base expressed as decimal in a spreadsheet?
 
-// Use function to convert a text value to decimal using base in a spreadsheet.
+// Transform your base-encoded text values into regular decimal numbers in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

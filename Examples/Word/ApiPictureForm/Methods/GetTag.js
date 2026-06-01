@@ -1,8 +1,8 @@
-// Get the form tag in a document.
+// Retrieve the tag label attached to a picture form in a document.
 
-// How can I get the tag using a picture form in a document?
+// How do I read the tag that was set on a picture form in a document?
 
-// Get the tag for a picture form in a document.
+// Look up the custom label stored with a picture form in a document.
 
 let doc = Api.GetDocument();
 let pictureForm = Api.CreatePictureForm({"tag" : "Personal", "key": "Personal information", "tip": "Upload your photo", "required": true, "placeholder": "Photo", "scaleFlag": "tooBig", "lockAspectRatio": true, "respectBorders": false, "shiftX": 50, "shiftY": 50});

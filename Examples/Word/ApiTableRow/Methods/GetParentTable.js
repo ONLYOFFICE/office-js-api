@@ -1,8 +1,8 @@
-// Get the parent table of the row in a document.
+// Retrieve the table that contains a specific row in a document.
 
-// Get the parent table of the table row in a document.
+// How do I get a reference to the whole table from one of its rows in a document?
 
-// Display the first and the second row in a document.
+// Reach back from a row to its containing table to apply changes at the table level in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

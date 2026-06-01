@@ -1,8 +1,8 @@
-// Add a footnote cross-reference to the paragraph in a document.
+// Insert a cross-reference to a footnote into a paragraph in a document.
 
-// How to create a footnote reference to the paragraph in a document.
+// How do I reference a footnote from within paragraph text in a document?
 
-// Add a cross-reference to the footnote of the paragraph in a document.
+// Point readers from body text to a specific footnote number so they can find source details in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0); 

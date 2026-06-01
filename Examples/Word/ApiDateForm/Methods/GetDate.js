@@ -1,8 +1,8 @@
-// Get the date to a date form in a document.
+// Retrieve the date value stored in a date form field in a document.
 
-// How do I get the date in a document?
+// How do I read the current date from a date form in a document?
 
-// Get the date using a date form object.
+// Display the date a user entered into a date form by fetching its stored value in a document.
 
 let doc = Api.GetDocument();
 let dateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});

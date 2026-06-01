@@ -1,8 +1,8 @@
-// How to outline a chart legend in a PDF document.
+// Add a border around the legend in a PDF.
 
-// Create a chart, set its properties and its legend's outline in a PDF document.
+// How do I apply a stroke outline to the legend box in a PDF?
 
-// Set legend out line using a chart object in a PDF document.
+// Draw a thin border around the legend with a solid stroke in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

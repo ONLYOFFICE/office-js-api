@@ -1,8 +1,8 @@
-// Create a preset geometry in presentations.
+// Create a custom shape using drawing paths in a presentation.
 
-// How can I create custom geometry in a presentation?
+// How do I design a custom shape with precise point coordinates in a presentation?
 
-// Create custom geometry in a presentation.
+// Build a complex shape from lines and curves defined by coordinates in a presentation.
 
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);

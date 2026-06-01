@@ -1,8 +1,8 @@
-// Get field widget and display it's text color in a PDF document.
+// Read the text color of a form field widget in a PDF.
 
-// How to get the text color for a widget in a PDF document?
+// How do I get the text color of a widget in a PDF?
 
-// Get the text color and display the result in a PDF document.
+// Retrieve and display the font color of a form field in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// Get a number of slide masters in a presentation.
+// Get the number of slide masters in a presentation.
 
-// How to get a master count from the presentation.
+// How do I count the slide masters in a presentation?
 
-// Count masters of the presentation.
+// Display the total count of masters on the slide.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

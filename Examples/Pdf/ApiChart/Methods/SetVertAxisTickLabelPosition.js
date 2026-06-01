@@ -1,8 +1,8 @@
-// How to change a position of tick label in a PDF document.
+// Position tick labels on a chart's vertical axis in a PDF.
 
-// Create a chart, set its properties and its vertical axis tick label position in a PDF document.
+// How do I place tick labels on the vertical axis of a chart in a PDF?
 
-// Use chart to set vert axis tick label position in a PDF document.
+// Set where numbers appear on the vertical axis of a chart in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

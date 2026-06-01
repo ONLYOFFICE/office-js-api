@@ -1,8 +1,8 @@
-// Check the class type returned by a text widget in a PDF document.
+// Identify the type of a text input field in a PDF.
 
-// How do I check what type a text widget object is in a PDF document?
+// How do I determine what kind of form field this is in a PDF?
 
-// Retrieve and output the class type string for a text widget in a PDF document.
+// Read the classification of a text widget element in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

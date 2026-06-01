@@ -1,8 +1,8 @@
-// Set a key to the current form.
+// Assign an identifying key to a text field in a document.
 
-// How to specify the form key of the text form.
+// How do I give a text field a unique identifier for referencing it later in a document?
 
-// Change the key to the text form.
+// Label a text field with a key so it can be found and grouped with related fields in a document.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"tip": "Enter your first name", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});

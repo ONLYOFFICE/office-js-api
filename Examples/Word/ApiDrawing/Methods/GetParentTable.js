@@ -1,8 +1,8 @@
-// Get a parent table that contains the graphic object in a document.
+// Retrieve the parent table that contains a drawing object in a document.
 
-// Get an element's parent table in a document.
+// How do I find the table that holds a drawing in a document?
 
-// How to show the shape's wrapper table in a document.
+// Access the enclosing table to apply a style after placing a shape inside one of its cells in a document.
 
 let doc = Api.GetDocument();
 let paragraph = Api.CreateParagraph();

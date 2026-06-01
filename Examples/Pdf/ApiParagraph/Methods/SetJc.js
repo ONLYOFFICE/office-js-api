@@ -1,8 +1,8 @@
-// Set the paragraph contents justification in a PDF document.
+// Align paragraph text to the left, center, or right in a PDF.
 
-// How to set justification of the paragraph content in a PDF document.
+// How do I position text alignment in a PDF?
 
-// Change the justification of the paragraph in a PDF document.
+// Justify paragraphs by distributing text across the width in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

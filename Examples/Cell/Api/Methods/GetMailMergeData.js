@@ -1,8 +1,8 @@
-// Get the mail merge data in a spreadsheet.
+// Extract a row of mail merge recipient data by its index position in a spreadsheet.
 
-// Get mail merge data from the worksheet.
+// How do I pull contact details from a mail merge table at a specific row in a spreadsheet?
 
-// How to get mail merge information using index.
+// Access a particular record from the merge data set and display the result in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.SetColumnWidth(0, 20);

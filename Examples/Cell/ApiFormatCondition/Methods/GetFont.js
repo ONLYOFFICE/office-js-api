@@ -1,8 +1,8 @@
-// Get the font applied by a conditional formatting rule.
+// Access the font settings that a conditional formatting rule applies to matching cells in a spreadsheet.
 
-// How to retrieve font settings from conditional formatting rules.
+// How do I retrieve the text style that a conditional formatting rule uses for highlighted cells in a spreadsheet?
 
-// Get conditional formatting rule font.
+// Inspect and adjust the font of a formatting condition to ensure consistent text styling in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

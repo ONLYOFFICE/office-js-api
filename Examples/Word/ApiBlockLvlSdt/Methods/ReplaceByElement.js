@@ -1,8 +1,8 @@
-// Replace the content control with a paragraph in a document.
+// Replace a content control with a regular paragraph in a document.
 
-// Create the block-level content control object and replace it with the paragraph object in a document.
+// How do I replace a content control with a paragraph in a document?
 
-// Replace the block level content control with a text in a document.
+// Swap out a content control for plain text when the structured field is no longer needed in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

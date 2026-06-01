@@ -1,8 +1,8 @@
-// Create a bullet for paragraphs in a presentation.
+// Create numbered bullets for text in a presentation.
 
-// How to create a numbered paragraph specifying its numerical in a presentation.
+// How do I add paragraph numbering to text in a presentation?
 
-// Add numbered paragraph to the slide.
+// Format text lines with automatic numbering in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

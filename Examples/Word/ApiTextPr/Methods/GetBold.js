@@ -1,8 +1,8 @@
-// Convert the current form to an inline form.
+// Check whether bold formatting is applied to text in a document.
 
-// How to find out whether a text is bold or not in a document.
+// How do I find out if a piece of text has bold formatting turned on in a document?
 
-// Get the bold property of the text in a document.
+// Read the bold state of text to verify its current formatting in a document.
 
 let doc = Api.GetDocument();
 let myNewRunStyle = doc.CreateStyle("My New Run Style", "run");

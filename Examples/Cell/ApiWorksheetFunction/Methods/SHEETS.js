@@ -1,8 +1,8 @@
 // Return the number of sheets in a reference in a spreadsheet.
 
-// The SHEETS function counts all sheets in the current workbook.
+// Count all sheets in the current workbook using the SHEETS function.
 
-// Add additional sheets and return their total count.
+// Add additional sheets and retrieve their total count in a cell.
 
 Api.AddSheet("Sheet2")
 Api.AddSheet("Sheet3")

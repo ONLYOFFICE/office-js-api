@@ -1,8 +1,8 @@
-// Get the top margin of the sheet in a spreadsheet.
+// Check the top margin distance on your page setup in a spreadsheet.
 
-// How to get margin of the sheet's top side in a spreadsheet.
+// Measure the blank space above your printed content in a spreadsheet?
 
-// Get the size of the top margin of the sheet in a spreadsheet.
+// Show margin dimensions in cells for layout verification in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let topMargin = worksheet.GetTopMargin();

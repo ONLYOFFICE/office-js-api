@@ -1,8 +1,8 @@
-// Set the spacing before the paragraph in a PDF document.
+// Add space above a paragraph in a PDF.
 
-// How to set the size of a spacing before a text from a paragraph in a PDF document.
+// How do I create gap before a paragraph in a PDF?
 
-// Change the size property of a spacing before a paragraph in a PDF document.
+// Control the margin between an element and a paragraph in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

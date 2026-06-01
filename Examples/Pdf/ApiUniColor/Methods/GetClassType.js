@@ -1,8 +1,8 @@
-// Find out the class type of a uni color object in a PDF document.
+// Find out what kind of color object you're working with in a PDF.
 
-// How can I get the class type of a uni color in a PDF document?
+// How do I identify the type of color being used in a PDF?
 
-// Get the class type of a uni color and display it in the PDF.
+// Determine what color system defines a color in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

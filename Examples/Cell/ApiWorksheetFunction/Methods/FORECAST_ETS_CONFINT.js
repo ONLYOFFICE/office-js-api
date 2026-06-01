@@ -1,8 +1,8 @@
-// Return a confidence interval for the forecast value at the specified target date in a spreadsheet.
+// Calculate a confidence range for a forecasted value in a spreadsheet.
 
-// How to calculate or predict a confidence interval for the forecast value in a spreadsheet.
+// How do I measure uncertainty around a predicted value in a spreadsheet?
 
-// Use a function to get a confidence interval for the forecast value at target date in a spreadsheet.
+// Get the upper and lower bounds of a forecast estimate in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

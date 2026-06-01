@@ -1,8 +1,8 @@
-// Analyzes path commands of a star shape on a presentation slide. Shows command count and first command details in a text shape.
+// Retrieve a specific drawing command from a shape's geometry path in a presentation.
 
-// How to get the command for a geometry path in a presentation?
+// How do I access individual drawing commands in a custom shape in a presentation?
 
-// Get the command and display the result in a presentation.
+// Get and inspect a single path command from a shape's geometry in a presentation.
 
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);

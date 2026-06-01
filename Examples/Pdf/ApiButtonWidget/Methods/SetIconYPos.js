@@ -1,8 +1,8 @@
-// Set field with image icon position Y to 0 in a PDF document.
+// Set field image icon Y position in a PDF document.
 
-// How do I set icon y pos in a PDF document?
+// Configure the vertical position of an icon in an image field.
 
-// Set icon y pos using a button widget object in a PDF document.
+// Apply the Y position value to a button widget.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

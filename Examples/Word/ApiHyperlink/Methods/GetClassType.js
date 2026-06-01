@@ -1,8 +1,8 @@
-// Find out the class type of a hyperlink object in a document.
+// Read the class type of a hyperlink object in a document.
 
-// How can I get the class type of a hyperlink in a document?
+// How do I identify the type of a hyperlink element in a document?
 
-// Get the class type of a hyperlink and display it in the document.
+// Verify that a hyperlink returns the correct class type label when queried in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

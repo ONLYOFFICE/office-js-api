@@ -1,8 +1,8 @@
 // Estimate variance based on a sample (ignores logical values and text in the sample) in a spreadsheet.
 
-// How to estimate variance based on a sample in a spreadsheet.
+// The VAR_S function calculates sample variance from numeric data only.
 
-// Use a function to estimate variance ignoring logical and text values in a spreadsheet.
+// Apply the function to estimate variance ignoring logical and text values in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

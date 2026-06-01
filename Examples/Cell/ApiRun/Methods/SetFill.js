@@ -1,8 +1,8 @@
-// Set the text color to the current text run in a spreadsheet.
+// Apply a solid fill color to a text run in a spreadsheet.
 
-// How to color a text object in a spreadsheet.
+// How do I color the text in a run using an RGB value in a spreadsheet?
 
-// Create a text run object, add a color to it using RGB format.
+// Paint a run's characters with a custom solid color to highlight it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

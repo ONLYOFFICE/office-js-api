@@ -1,8 +1,8 @@
-// Specify which chart data labels are shown for the chart in a presentation.
+// Control the visibility of data labels on a chart in a presentation.
 
-// How to show specific chart data labels in a presentation.
+// Choose which values appear as labels on chart bars or points in a presentation.
 
-// Create a chart, set its properties and its specific data labels visibility in a presentation.
+// Display selected data labels for different elements of a chart in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

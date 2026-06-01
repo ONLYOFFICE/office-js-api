@@ -1,8 +1,8 @@
-// Get the last element of the paragraph in a PDF document.
+// Access the final element of a paragraph in a PDF.
 
-// How do I last in a PDF document?
+// How do I get the last element from a paragraph in a PDF?
 
-// Last using a paragraph object in a PDF document.
+// Retrieve and modify the final run in a paragraph in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// Set the text paddings to the current shape in a presentation.
+// Set internal spacing for text content within a shape.
 
-// How to update paddings of the drawing in a presentation.
+// Create a rectangle shape with text content and apply asymmetric padding values.
 
-// Create a shape and set its paddings in a presentation.
+// Configure left, top, right, and bottom margins to control text position inside the shape.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

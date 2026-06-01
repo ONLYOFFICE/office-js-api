@@ -1,8 +1,8 @@
-// Set the fill to the specified chart series in a document.
+// Color a chart series with a solid fill in a document.
 
-// How to color a chart seria in a document.
+// How do I change the fill color of a chart series in a document?
 
-// Create a chart, set its properties and its series background in a document.
+// Visually separate data series from each other by assigning each one a distinct background color in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

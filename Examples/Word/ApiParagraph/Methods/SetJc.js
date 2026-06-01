@@ -1,8 +1,8 @@
-// Set the paragraph contents justification in a document.
+// Align paragraph text to the left, right, center, or both sides in a document.
 
-// How to set justification of the paragraph content in a document.
+// How do I control the horizontal alignment of a paragraph in a document?
 
-// Change the justification of the paragraph in a document.
+// Apply different text alignment options to paragraphs in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

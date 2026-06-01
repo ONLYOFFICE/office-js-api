@@ -1,8 +1,8 @@
-// Set the outline to the marker in the specified chart series in a spreadsheet.
+// Add a colored border to the data point markers in a chart series in a spreadsheet.
 
-// Create the "scatter" chart and set an outline of the specified width and color to its markers in a spreadsheet.
+// How do I outline the markers of a scatter chart with a specific color and width in a spreadsheet?
 
-// Apply a stroke outline to the chart markers using a stroke object.
+// Give each series marker a distinct border to make individual data points easier to identify in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

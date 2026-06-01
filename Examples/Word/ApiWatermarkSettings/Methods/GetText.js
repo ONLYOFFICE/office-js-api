@@ -1,8 +1,8 @@
-// Get a watermark text and paste it into the document.
+// Read the label text shown as a watermark in a document.
 
-// How to retrieve the text from the watermark and display it in the document.
+// How do I find out what text is used as the watermark in a document?
 
-// Get the text form the watermark settings.
+// Retrieve the words displayed as a watermark overlay in a document.
 
 let doc = Api.GetDocument();
 let watermarkSettings = doc.GetWatermarkSettings();

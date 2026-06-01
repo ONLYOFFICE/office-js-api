@@ -1,8 +1,8 @@
-// Set and get the subject of the current presentation in a presentation.
+// Define the subject line for a presentation in a presentation.
 
-// How to set subject for a core properties in a presentation?
+// How do I add a subject to my presentation metadata?
 
-// Set subject and display the result in a presentation.
+// Store and access the subject text in a presentation.
 
 const presentation = Api.GetPresentation();
 const core = presentation.GetCore();

@@ -1,8 +1,8 @@
-// Get a presentation name and insert it into the presentation.
+// Access the full file path and name of a presentation in a presentation.
 
-// How to get a presentation name.
+// How can I get the complete filename of a presentation in a presentation?
 
-// Retrieve name of presentation.
+// Display the presentation's file path as text in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

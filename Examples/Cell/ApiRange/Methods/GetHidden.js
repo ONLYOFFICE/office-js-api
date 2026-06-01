@@ -1,8 +1,8 @@
-// Get the value hiding property in a spreadsheet.
+// Check whether rows in a selected range are hidden in a spreadsheet.
 
-// How to find out hidden property from a range in a spreadsheet.
+// How do I find out if a range of rows is currently hidden in a spreadsheet?
 
-// Get a range, get its cell hiding property and show it in the worksheet.
+// Reveal the visibility state of a row group without scrolling through the sheet in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRows("1:3");

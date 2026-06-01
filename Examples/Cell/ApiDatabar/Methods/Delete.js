@@ -1,8 +1,8 @@
-// Delete a data bar conditional formatting rule.
+// Remove a bar-style visual rule from a range of cells in a spreadsheet.
 
-// How to remove a data bar conditional formatting from a range.
+// How do I delete a data bar formatting rule applied to a cell range in a spreadsheet?
 
-// Delete a data bar conditional formatting rule.
+// Clear bar-based conditional formatting so a range returns to its plain appearance in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

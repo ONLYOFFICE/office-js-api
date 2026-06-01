@@ -1,8 +1,8 @@
-// Get the spacing before value of the paragraph in a spreadsheet.
+// Read the amount of space added above a paragraph inside a shape in a spreadsheet.
 
-// How to get the spacing information which is before the paragraph.
+// How do I check how much gap precedes a paragraph in a spreadsheet?
 
-// Get two consecutive paragraphs, add spacing between them then get the spacing before the second one and display it in the worksheet.
+// Measure the top spacing of a paragraph after setting it and display the value in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

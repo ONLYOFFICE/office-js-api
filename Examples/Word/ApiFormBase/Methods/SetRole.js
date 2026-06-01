@@ -1,8 +1,8 @@
-// Set a role for a form element in a document.
+// Assign a role to a form field to control who fills it in a document.
 
-// How can I set role using a form base in a document?
+// How do I associate a form field with a specific role in a document?
 
-// Set role for a form base in a document.
+// Restrict which signers or participants are responsible for a given field.
 
 const doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// Return the remainder after a number is divided by a divisor in a spreadsheet.
+// Get the remainder when one number is divided by another in a spreadsheet.
 
-// How to get the modulo from the division in a spreadsheet.
+// What is the remainder from division in a spreadsheet?
 
-// Use a function to calculate the remainder from the division operation in a spreadsheet.
+// Calculate what is left over after dividing two numbers in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

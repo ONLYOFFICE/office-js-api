@@ -1,8 +1,8 @@
-// Analyzes arc command parameters in a presentation shape. Retrieves and display arc radii and angle information.
+// Get the height radius of an arc shape in a presentation.
 
-// How can I get the h r using a path command in a presentation?
+// How do I read the arc height radius in a presentation?
 
-// Get the h r for a path command in a presentation.
+// Extract arc dimensions to display size information in a presentation.
 
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);

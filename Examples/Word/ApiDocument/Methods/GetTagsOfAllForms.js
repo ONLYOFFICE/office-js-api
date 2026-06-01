@@ -1,8 +1,8 @@
-// Get a list of all tags that are used for all forms in the document.
+// Collect the tags assigned to all form fields in a document.
 
-// How to get tags of all forms and print their names in the document.
+// How do I retrieve every form tag from a document?
 
-// Display the style name of the "Heading 6" in a document.
+// Verify which tags are attached to text and combo-box form fields after filling them with values.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "tag": "form_1", "required": true, "placeholder": "First name", "comb": true, "maxCharacters": 10, "cellWidth": 3, "multiLine": false, "autoFit": false});

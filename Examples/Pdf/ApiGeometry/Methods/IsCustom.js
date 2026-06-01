@@ -1,8 +1,8 @@
-// Get geometry information from a star shape on a pdf document page. Displays preset type and custom status in a text shape.
+// Identify whether a shape uses custom geometry in a PDF.
 
-// How do I is custom in a PDF document?
+// How can I check if a shape has custom geometry in a PDF?
 
-// Is custom using a geometry object in a PDF document.
+// Determine custom geometry status for a star shape in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

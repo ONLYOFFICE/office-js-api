@@ -1,8 +1,8 @@
-// Return the net present value for a schedule of cash flows in a spreadsheet.
+// Calculate the net present value of cash flows occurring on specific dates in a spreadsheet.
 
-// How to return the net present value for a schedule of cash flows in a spreadsheet.
+// How do I find the net present value when payments happen on irregular dates in a spreadsheet?
 
-// Use a function to return the net present value in a spreadsheet.
+// Evaluate the current value of future cash flows with custom payment dates in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

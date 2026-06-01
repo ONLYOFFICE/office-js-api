@@ -1,8 +1,8 @@
-// Get a collection of the ranges in a spreadsheet.
+// Break a multi-area selection into its individual ranges in a spreadsheet.
 
-// How to get range areas in a spreadsheet.
+// How do I count the separate areas that make up a range in a spreadsheet?
 
-// Get range areas, count them and display the result in the worksheet.
+// Tally the distinct sub-ranges within a selection and write the total to a cell.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B1:D1");

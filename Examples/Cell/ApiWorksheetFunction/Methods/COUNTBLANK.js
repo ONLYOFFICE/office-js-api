@@ -1,8 +1,8 @@
-// Counts a number of empty cells in a specified range of cells in a spreadsheet.
+// Count the empty cells in a range in a spreadsheet.
 
-// How to find a number of empty cells.
+// What is the number of blank spaces in a selected area in a spreadsheet?
 
-// Use function to get empty cells count.
+// Identify unused cells to track unfilled entries in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let numbersArr = [45, 6, 8];

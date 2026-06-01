@@ -1,8 +1,8 @@
-// Find out whether a text is uncapitalized in a PDF document.
+// Check if text uses small capitals formatting in a PDF.
 
-// How to know whether the text letters are lowercase or not in a PDF document.
+// How do I see if text is displayed as small caps in a PDF?
 
-// Get the run and find whether it is uncapitalized or not in a PDF document.
+// Determine the small caps setting of text in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

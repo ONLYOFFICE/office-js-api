@@ -1,8 +1,8 @@
-// Check if the text field is a comb of characters with the same cell width.
+// Check whether a text field splits its input into evenly spaced cells in a document.
 
-// How to know whether the first text form from this document is comb.
+// How do I determine if a text field uses a comb layout for its characters in a document?
 
-// Get the boolean that represents the comb property of the text form.
+// Verify that equal-width character cells are active on a text field in a document.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "maxCharacters": 10, "multiLine": false, "autoFit": false});

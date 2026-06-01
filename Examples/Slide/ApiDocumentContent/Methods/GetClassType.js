@@ -1,8 +1,8 @@
-// Retrieve the class type of a document content in a presentation.
+// Identify the type of a shape's text content in a presentation.
 
-// How to identify the class type of a document content?
+// How do I find out what type of text content a shape has in a presentation?
 
-// Obtain the class type identifier of a document content object.
+// Retrieve the class type of a shape's content and display it on the slide.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

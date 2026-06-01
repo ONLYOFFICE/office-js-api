@@ -1,8 +1,8 @@
-// Get the outline level of the specified paragraph via paragraph properties in a PDF document.
+// Determine the outline hierarchy level of a paragraph in a PDF.
 
-// How do I get the outline lvl in a PDF document?
+// How do I check the outline level for document structure in a PDF?
 
-// Get the outline lvl using a paragraph properties object in a PDF document.
+// Get the nesting level used in document outline in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

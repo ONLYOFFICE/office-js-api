@@ -1,8 +1,8 @@
-// Freeze first column and get pastes a freezed range address into the table in a spreadsheet.
+// Read the frozen pane area and display its address on the sheet in a spreadsheet.
 
-// How to get freezed panes in a spreadsheet.
+// How do I find out which rows or columns are frozen in a spreadsheet?
 
-// Get all freezed panes, its location and show it on the worksheet.
+// Check where the freeze boundary is and write its location to a cell in a spreadsheet.
 
 Api.SetFreezePanesType('column');
 let worksheet = Api.GetActiveSheet();

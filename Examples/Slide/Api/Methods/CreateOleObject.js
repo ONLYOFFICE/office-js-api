@@ -1,8 +1,8 @@
-// Create an Ole object and insert it into the slide.
+// Add an embedded object with a thumbnail image to a presentation.
 
-// How to create an Ole object in a presentation.
+// How do I insert a linked object in a presentation?
 
-// Add an Ole object to the slide.
+// Create an object that displays an image and links to external content in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

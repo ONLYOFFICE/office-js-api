@@ -1,8 +1,8 @@
-// Set the visibility to the current presentation slide.
+// Control the visibility of a slide in the presentation.
 
-// How to change visibility of the slide.
+// Create a new slide in the presentation.
 
-// Create a slide and make it hidden.
+// Hide the slide using the SetVisible method.
 
 const presentation = Api.GetPresentation();
 const slide = Api.CreateSlide();

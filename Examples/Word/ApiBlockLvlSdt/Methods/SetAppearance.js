@@ -1,8 +1,8 @@
-// Add a content control and change its appearance in a document.
+// Change the visual appearance of a content control in a document.
 
-// How do I set appearance in a document?
+// How do I hide the border and frame of a content control in a document?
 
-// Set appearance using a block-level content control object in a document.
+// Make a content control invisible to users while keeping its content visible in a document.
 
 let doc = Api.GetDocument();
 let contentControl = Api.CreateBlockLvlSdt();

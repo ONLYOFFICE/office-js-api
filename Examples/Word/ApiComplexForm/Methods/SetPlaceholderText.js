@@ -1,8 +1,8 @@
-// Set the placeholder text to the complex form.
+// Set placeholder text on a complex form in a document.
 
-// How do I set placeholder text in a document?
+// How do I add instructional placeholder text to a form in a document?
 
-// Set placeholder text using a complex form object.
+// Guide users by displaying a hint inside an empty form before they begin filling it in.
 
 let doc = Api.GetDocument();
 let complexForm = Api.CreateComplexForm();

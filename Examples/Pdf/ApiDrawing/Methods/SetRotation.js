@@ -1,8 +1,8 @@
-// How to rotate a drawing object of the page.
+// Rotate a drawing object to a specific angle in a PDF.
 
-// Rotate an object from a page.
+// How do I spin a shape to face a different direction in a PDF?
 
-// Use drawing object to set rotation in a PDF document.
+// Change the rotation of a drawing element in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

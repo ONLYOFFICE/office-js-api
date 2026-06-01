@@ -1,8 +1,8 @@
-// Specify that the contents of the cell is displayed with a single horizontal line through the center of the contents.
+// Draw a horizontal line through the middle of cell text in a spreadsheet.
 
-// How to add strikeout to the cell value.
+// How do I cross out the text in a cell in a spreadsheet?
 
-// Get a range and add strikeout to its text in a spreadsheet.
+// Mark content as deleted or outdated by striking through it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A2").SetValue("Struckout text");

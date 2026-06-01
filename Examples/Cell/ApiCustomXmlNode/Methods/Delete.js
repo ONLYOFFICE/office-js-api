@@ -1,8 +1,8 @@
-// Delete a custom XML node in a spreadsheet.
+// Remove a specific node from an embedded XML structure in a spreadsheet.
 
-// How to remove custom XML node elements from the document.
+// How do I delete an unwanted element from custom XML data in a spreadsheet?
 
-// Delete and display the result in a spreadsheet.
+// Trim embedded XML content by eliminating a node and verifying what remains in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let xmlManager = worksheet.GetCustomXmlParts();

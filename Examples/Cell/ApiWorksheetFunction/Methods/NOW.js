@@ -1,8 +1,8 @@
-// Return the current date and time in the MM/dd/yy hh:mm format in a spreadsheet.
+// Get the current date and time in a spreadsheet.
 
-// How to get a current date in the specified format.
+// How do I insert today's date and the current time in a spreadsheet?
 
-// Use a function to get a current date and time in the specified format.
+// Display the current moment as a date and time value in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

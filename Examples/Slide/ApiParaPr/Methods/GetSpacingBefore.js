@@ -1,8 +1,8 @@
-// Get the spacing before value of the current paragraph in a presentation.
+// Check the space above a paragraph in a presentation.
 
-// How to get the size of a spacing before a text from a paragraph in a presentation.
+// How do I read the spacing value before a paragraph in a presentation?
 
-// Return a property of the spacing size before a paragraph in a presentation.
+// Retrieve the distance between the previous element and the start of a paragraph in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

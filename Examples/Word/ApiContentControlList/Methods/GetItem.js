@@ -1,8 +1,8 @@
-// Get the item of values of combobox/dropdown list in a document.
+// Retrieve a specific entry from a combo box dropdown list by index in a document.
 
-// How do I get the item in a document?
+// How do I access a single item from a dropdown list content control in a document?
 
-// Get the item using a content control list object in a document.
+// Read the value of a particular option in a list control by referencing its position in a document.
 
 let doc = Api.GetDocument();
 let cc = Api.CreateComboBoxContentControl([{display: "Mercury", value: "planet1"}, {display: "Venus", value: "planet2"}, {display: "Earth", value: "planet3"}, {display: "Mars", value: "planet4"}], 2);

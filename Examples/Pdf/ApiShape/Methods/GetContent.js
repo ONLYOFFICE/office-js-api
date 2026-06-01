@@ -1,8 +1,8 @@
-// How to get a content of a shape in a PDF document.
+// Access the inner content of a shape in a PDF.
 
-// Retrieve a shape content and insert a paragraph to it in a PDF document.
+// How do I get what is inside a shape in a PDF?
 
-// Use shape to get the content in a PDF document.
+// Extract and work with a shape's content in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// Set the text color to the text Range in a document.
+// Change the color of a range of text in a document.
 
-// How to color the text of the range in a document.
+// How do I apply a specific color to a portion of text in a document?
 
-// Set the text color to middle washed rose in a document.
+// Give selected words a distinct color to draw attention to them in a document.
 
 const doc = Api.GetDocument();
 const firstParagraph = doc.GetElement(0);

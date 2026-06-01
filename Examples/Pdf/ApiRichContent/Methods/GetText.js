@@ -1,8 +1,8 @@
-// Get text from rich content in a PDF document.
+// Extract text from rich content in a PDF.
 
-// How do I get the text in a PDF document?
+// How can I access text stored in rich content in a PDF?
 
-// Get the text using a rich content object in a PDF document.
+// Retrieve and display text from annotated content in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);

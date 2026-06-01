@@ -1,8 +1,8 @@
-// Get the user ID of the comment author in a document.
+// Retrieve the user ID of the comment author in a document.
 
-// How to get ID of the user who left the first comment in a document.
+// How do I get the identifier of the user who posted a comment in a document?
 
-// Get the comment author ID in a document.
+// Match a comment to a user account by reading the author's unique user ID.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

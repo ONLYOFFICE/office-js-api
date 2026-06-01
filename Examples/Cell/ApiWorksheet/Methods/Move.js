@@ -1,8 +1,8 @@
-// Move the sheet to another location in the workbook in a spreadsheet.
+// Reorder sheets by shifting one before or after another in a spreadsheet.
 
-// How to change an order of the sheet in a spreadsheet.
+// Change the tab position of a sheet relative to your other sheets in a spreadsheet?
 
-// Move for a worksheet in a spreadsheet.
+// Reorganize sheet sequence to group related data together in a spreadsheet.
 
 let sheet1 = Api.GetActiveSheet();
 Api.AddSheet("Sheet2");

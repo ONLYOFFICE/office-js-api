@@ -1,8 +1,8 @@
-// How get core properties instance and use its methods to manage presentation metadata.
+// Access core properties instance to manage presentation metadata.
 
-// How to get the core for a presentation?
+// Get the core object from the active presentation.
 
-// Get the core and display the result in a presentation.
+// Display all core property values in a shape on the slide.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

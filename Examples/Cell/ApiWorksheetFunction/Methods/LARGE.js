@@ -1,8 +1,8 @@
-// Return the k-th largest value in a data set. For example, the fifth largest number in a spreadsheet.
+// Get the n-th largest value from a list of numbers in a spreadsheet.
 
-// How to find the k-th largest value in a data set in a spreadsheet.
+// How do I find the fourth largest number or any ranked value in a spreadsheet?
 
-// Use a function to find out the largest value in a data set specifying its order number in a spreadsheet.
+// Retrieve a specific ranked number by position in a sorted list in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

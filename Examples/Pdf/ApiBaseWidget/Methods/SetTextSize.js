@@ -1,8 +1,8 @@
-// Get all field widgets and set text color for them in a PDF document.
+// Set text size for input field widgets in a PDF.
 
-// How can I set text size using a widget in a PDF document?
+// How do I change the font size of text in form fields in a PDF?
 
-// Set text size for a widget in a PDF document.
+// Adjust the text display size for all widgets in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

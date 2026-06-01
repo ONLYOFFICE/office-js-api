@@ -1,8 +1,8 @@
-// Set a custom date format for a datepicker content control in a document.
+// Apply a custom date format to a date picker content control in a document.
 
-// How to set date format for an inline content control?
+// How do I control how a date is displayed in a date picker content control in a document?
 
-// Set date format and display the result in a document.
+// Enforce a consistent date style across forms by setting a format pattern in a document.
 
 let doc = Api.GetDocument();
 let contentControl = doc.AddDatePickerContentControl();

@@ -1,8 +1,8 @@
-// Get the fill color of a stroke. Creates a shape with a colored border and retrieve its fill properties in a PDF document.
+// Determine the color or pattern applied to a border in a PDF
 
-// How to get the fill for a stroke in a PDF document?
+// What color is the border line filled with in a PDF?
 
-// Get the fill and display the result in a PDF document.
+// Check and display the fill properties of a border in a PDF
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// Set the italic property to the text character in a document.
+// Format a text run with italic styling in a document.
 
-// How to make text run italic in a document.
+// How do I make a portion of text appear slanted or italicized in a document?
 
-// Create a new text run and make its style italic in a document.
+// Emphasize words by switching a run to italic lettering in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

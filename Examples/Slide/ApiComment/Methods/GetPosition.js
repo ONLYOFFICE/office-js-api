@@ -1,8 +1,8 @@
-// Get the position of the comment in the presentation.
+// Read the X and Y coordinates where a comment is anchored in a presentation.
 
-// How to get the position for a comment in a presentation?
+// How do I find the location of a comment in a presentation?
 
-// Get the position and display the result in a presentation.
+// Retrieve the position of a comment on a slide in a presentation.
 
 const presentation = Api.GetPresentation();
 presentation.GetAllComments().forEach(comment => {

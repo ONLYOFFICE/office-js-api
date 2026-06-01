@@ -1,8 +1,8 @@
-// Set table style row headers of a pivot table in a spreadsheet.
+// Turn row header formatting on or off for a pivot table style in a spreadsheet.
 
-// How to set table style row headers of a table in a spreadsheet.
+// How do I control whether row headers use special style formatting in a pivot table in a spreadsheet?
 
-// Create a pivot table, add data to it then set its table style row headers in a spreadsheet.
+// Remove or restore the distinct appearance of row header cells in a pivot table in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

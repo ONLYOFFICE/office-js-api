@@ -1,8 +1,8 @@
-// Set the number format for the top 10 conditional formatting rule.
+// Apply a custom number format to cells matched by a top 10 rule in a spreadsheet.
 
-// How to apply number format to conditional formatting rules.
+// How do I display highlighted top values in a specific number format in a spreadsheet?
 
-// Set top 10 rule number format.
+// Format the winning cells as currency when a top 10 condition is triggered in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

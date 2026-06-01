@@ -1,8 +1,8 @@
-// Convert text to a number, in a locale-independent way in a spreadsheet.
+// Convert text to a number using custom decimal and thousands separators in a spreadsheet.
 
-// How to get a number from text in a spreadsheet.
+// How do I parse a text value as a number in a spreadsheet?
 
-// Use a function to convert a text to a number in a spreadsheet.
+// Transform text with different regional number formats into numeric values in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

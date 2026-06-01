@@ -1,8 +1,8 @@
-// Check the class type returned by a document content.
+// Identify the type name of a text content object attached to a shape in a spreadsheet.
 
-// How do I check what type a document content object is?
+// How do I find out what kind of content object a shape's text area returns in a spreadsheet?
 
-// Retrieve and output the class type string for a document content.
+// Confirm the content category of a shape by reading its type label in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

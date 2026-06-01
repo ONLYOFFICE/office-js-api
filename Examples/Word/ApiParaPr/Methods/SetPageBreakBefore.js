@@ -1,8 +1,8 @@
-// Specify that when rendering the document using a paginated view, the contents of the current paragraph are rendered at the beginning of a new page in the document.
+// Force a paragraph to start at the top of a new page in a document.
 
-// How to set a page break before the current paragraph.
+// How do I insert a page break before a paragraph in a document?
 
-// Move the paragraph to the new page while rendering.
+// Push a section of text onto a fresh page so it always begins on its own page.
 
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");

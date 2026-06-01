@@ -1,8 +1,8 @@
-// Set font size property to rich text properties object in a PDF document.
+// Adjust the size of text in a PDF.
 
-// How to set font size for a rich text properties in a PDF document?
+// How do I change how large text appears in a PDF?
 
-// Set font size and display the result in a PDF document.
+// Modify text size in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);

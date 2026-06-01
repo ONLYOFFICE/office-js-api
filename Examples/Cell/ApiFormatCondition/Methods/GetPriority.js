@@ -1,8 +1,8 @@
-// Get the priority of a conditional formatting rule.
+// Read the priority level assigned to a conditional formatting rule in a spreadsheet.
 
-// How to retrieve the priority value from conditional formatting rules.
+// How do I find out what priority order a formatting rule has in a spreadsheet?
 
-// Get conditional formatting rule priority.
+// Check which position a formatting rule holds among all active rules in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

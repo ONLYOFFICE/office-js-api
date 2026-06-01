@@ -1,8 +1,8 @@
-// Specify that the contents of the current run are displayed along with a line appearing directly below the character (less than all the spacing above and below the characters on the line) in a document.
+// Add an underline beneath a text run in a document.
 
-// How to create a new text and underline it in a document.
+// How do I display text with a line drawn under it in a document?
 
-// Create a new text run and underline it in a document.
+// Mark a portion of text so that it appears underlined when rendered in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

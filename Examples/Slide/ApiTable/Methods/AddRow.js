@@ -1,8 +1,8 @@
-// Add a new row to the table in a presentation.
+// Insert a new row into a table in a presentation.
 
-// How to insert a row to the table in a presentation.
+// How do I add a new row to a table in a presentation?
 
-// Create a 2x4 table, set its position and then insert a row to it in a presentation.
+// Create a table and add an extra row with content in a presentation.
 
 const presentation = Api.GetPresentation();
 

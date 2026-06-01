@@ -1,8 +1,8 @@
-// Get the presentation width in English measure units in a presentation.
+// Find the width of a presentation in a presentation.
 
-// How to get a width of the presentation.
+// How do I check the width of a presentation?
 
-// Get a width of the presentation object.
+// Display the width measurement on a shape in the presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

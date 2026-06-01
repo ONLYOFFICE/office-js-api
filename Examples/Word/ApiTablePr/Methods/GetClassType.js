@@ -1,8 +1,8 @@
-// Check the class type returned by a table properties in a document.
+// Identify the kind of formatting object attached to a table in a document.
 
-// How do I check what type a table properties object is in a document?
+// How do I confirm what category a table's settings object belongs to in a document?
 
-// Retrieve and output the class type string for a table properties in a document.
+// Verify the object type of a table's property container in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

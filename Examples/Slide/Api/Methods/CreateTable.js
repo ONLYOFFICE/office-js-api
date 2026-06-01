@@ -1,8 +1,8 @@
-// Create a 2x4 table and insert it into the presentation.
+// Add a table with multiple rows and columns to a presentation.
 
-// How to create new table with two rows and four columns in a presentation.
+// How do I insert a table with specific dimensions in a presentation?
 
-// Add a table to the presentation.
+// Create a table with 2 rows and 4 columns and place it on a slide in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

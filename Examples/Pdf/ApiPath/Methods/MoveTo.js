@@ -1,8 +1,8 @@
-// Create a custom shape and add it to a page. Applies custom geometry with specific fill and stroke properties.
+// Set the starting point for drawing a shape in a PDF.
 
-// How to move to for a geometry path in a PDF document?
+// Where do I begin drawing a custom shape in a PDF?
 
-// Move to and display the result in a PDF document.
+// Position the cursor before adding lines to a shape in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

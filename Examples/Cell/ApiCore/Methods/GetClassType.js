@@ -1,8 +1,8 @@
-// Check the class type returned by a core properties in a spreadsheet.
+// Read the type label of the document properties object in a spreadsheet.
 
-// How do I check what type a core properties object is in a spreadsheet?
+// How do I find out what kind of object holds the document properties in a spreadsheet?
 
-// Retrieve and output the class type string for a core properties in a spreadsheet.
+// Identify the internal type of the core document properties in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

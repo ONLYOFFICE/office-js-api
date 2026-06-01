@@ -1,8 +1,8 @@
-// Get the content control position within its parent element in a document.
+// Find the position of a content control among its siblings in a document.
 
-// Create a block content control, add it to the current document, and return its position in the document.
+// How do I get the index position of a content control within its parent in a document?
 
-// Specify the position of the block container within the parent document.
+// Insert a content control and use its position to retrieve and update it in a document.
 
 let doc = Api.GetDocument();
 let paragraph = Api.CreateParagraph();

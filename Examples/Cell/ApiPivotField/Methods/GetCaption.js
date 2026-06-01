@@ -1,8 +1,8 @@
-// Get a caption of a pivot field in a spreadsheet.
+// Read the display name of a pivot table field in a spreadsheet.
 
-// How to get a pivot field caption in a spreadsheet.
+// How do I find out what caption a pivot field is using in a spreadsheet?
 
-// Create a pivot table, add data to it then get a caption of a specified pivot field in a spreadsheet.
+// Check the label shown for a pivot field in the pivot table header in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

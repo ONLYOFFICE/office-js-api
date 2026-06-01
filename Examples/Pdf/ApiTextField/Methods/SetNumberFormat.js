@@ -1,8 +1,8 @@
-// Get text field and set number format for it.
+// Display numbers with currency symbols and formatting in a PDF text field.
 
-// How can I set number format using a text field in a PDF document?
+// How do I show dollar amounts and decimal places correctly in a PDF?
 
-// Set number format for a text field in a PDF document.
+// Configure number formatting with currency and decimal precision in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

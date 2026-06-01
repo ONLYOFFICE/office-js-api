@@ -1,8 +1,8 @@
-// Return a bitwise "AND" of two numbers in a spreadsheet.
+// Compare two numbers using bitwise AND in a spreadsheet.
 
-// How to get a two numbers bitwise AND in a spreadsheet.
+// What do two numbers share at the binary level in a spreadsheet?
 
-// Use function to calculate bitwise AND opertation in a spreadsheet.
+// Get the common bits between two values in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

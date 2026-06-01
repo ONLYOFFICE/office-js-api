@@ -1,8 +1,8 @@
-// How to set a table look with options in a PDF document.
+// Configure the styling options for a table in a PDF.
 
-// Create the table object and set its look in a PDF document.
+// How do I customize how a table looks in a PDF?
 
-// Use table to set table look in a PDF document.
+// Apply formatting rules to change the table appearance in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

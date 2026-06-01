@@ -1,8 +1,8 @@
-// Retrieve the class type of a drawing object in a spreadsheet.
+// Identify what kind of drawing object a shape is in a spreadsheet.
 
-// How to identify the class type of a drawing object in a spreadsheet?
+// How do I find out the object type of a shape placed on a sheet in a spreadsheet?
 
-// Obtain the class type identifier of a drawing object object in a spreadsheet.
+// Read the object category of a shape and display the result in a cell in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

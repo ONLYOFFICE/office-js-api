@@ -1,8 +1,8 @@
-// Set a layout blank line of a pivot field in a spreadsheet.
+// Add a blank line after each group in a pivot field to improve readability in a spreadsheet.
 
-// How to change a pivot field layout blank line in a spreadsheet.
+// How do I insert a blank row after each pivot field group in a spreadsheet?
 
-// Create a pivot table, add data to it then set layout blank line of a specified pivot in a spreadsheet.
+// Visually separate pivot groups by toggling the blank line spacing option in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

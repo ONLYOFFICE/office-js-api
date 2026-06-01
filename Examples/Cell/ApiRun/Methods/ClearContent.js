@@ -1,8 +1,8 @@
-// Clear the content from the run in a spreadsheet.
+// Remove all text from a run without deleting the run itself in a spreadsheet.
 
-// How to create a text run object, add a text to it and clear its value in a spreadsheet.
+// How do I erase the text inside a run while keeping the run in place in a spreadsheet?
 
-// Clear content of an text run object in a spreadsheet.
+// Wipe a run's content so it appears empty in the final document in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

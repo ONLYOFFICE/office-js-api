@@ -1,8 +1,8 @@
-// Set a key to the current form.
+// Assign a unique key to a complex form in a document.
 
-// How can I set form key using a complex form in a document?
+// How do I set or update the key of a form in a document?
 
-// Set form key for a complex form in a document.
+// Link a form to a specific identifier so it can be referenced or grouped with related fields.
 
 let doc = Api.GetDocument();
 let complexForm = Api.CreateComplexForm({"key": "Complex1"});

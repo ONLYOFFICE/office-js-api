@@ -1,8 +1,8 @@
-// Return a number that is rounded up to the nearest integer or to the nearest multiple of significance. The number is always rounded up regardless of its sing in a spreadsheet.
+// Round any number upward consistently in a spreadsheet.
 
-// How to round a number up precisely in a spreadsheet.
+// What is the precise ceiling for positive and negative values in a spreadsheet?
 
-// Use function to round a negative or positive number up the nearest integer or to the nearest multiple of significance in a spreadsheet.
+// Always round toward positive infinity by a specified interval in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

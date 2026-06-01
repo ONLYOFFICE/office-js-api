@@ -1,8 +1,8 @@
-// Get a text font family in a spreadsheet.
+// Read the font family name assigned to text in a spreadsheet.
 
-// How to find out a text font family in a spreadsheet.
+// How do I find out which font family is used for text in a spreadsheet?
 
-// Get a text font family name and display it in the worksheet.
+// Display the typeface name stored in a text style inside a shape in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

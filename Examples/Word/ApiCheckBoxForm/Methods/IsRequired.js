@@ -1,8 +1,8 @@
-// Check if the current form is required.
+// Confirm whether a checkbox form is marked as required in a document.
 
-// How to know whether the checkbox form is required or not.
+// How do I check if a checkbox form is required in a document?
 
-// Get a boolean value representing whether a current form is required.
+// Enforce mandatory selection by verifying the required flag on a form field in a document.
 
 let doc = Api.GetDocument();
 let checkBoxForm = Api.CreateCheckBoxForm({"key": "Marital status", "tip": "Specify your marital status", "placeholder": "Marital status", "radio": true});

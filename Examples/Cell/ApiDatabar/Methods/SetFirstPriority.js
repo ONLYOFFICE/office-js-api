@@ -1,8 +1,8 @@
-// Set the priority of a data bar formatting rule to first.
+// Move a data bar formatting rule to the top of the evaluation order in a spreadsheet.
 
-// How to make a data bar rule evaluate before all other conditional formatting rules.
+// How do I make a data bar rule take precedence over all other formatting rules in a spreadsheet?
 
-// Set the data bar formatting rule to have the highest priority.
+// Ensure a data bar rule is applied before any conflicting rules are considered in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

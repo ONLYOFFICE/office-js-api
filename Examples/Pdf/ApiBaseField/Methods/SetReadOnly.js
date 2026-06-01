@@ -1,8 +1,8 @@
-// Set field read only in a PDF document.
+// Lock a form field to prevent editing in a PDF.
 
-// How can I set read only using a base field in a PDF document?
+// How do I make a form field read-only in a PDF?
 
-// Set read only for a base field in a PDF document.
+// Disable editing on a form field in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

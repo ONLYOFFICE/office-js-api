@@ -1,8 +1,8 @@
-// Convert the form to an inline form.
+// Convert a combo box form to an inline form in a document.
 
-// How to make the combobox inline in a document.
+// How do I change a combo box form to an inline form in a document?
 
-// Create a combobox and make its position inline in a document.
+// Switch a fixed-size combo box back to inline flow so it sits naturally within a paragraph in a document.
 
 let doc = Api.GetDocument();
 let comboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});

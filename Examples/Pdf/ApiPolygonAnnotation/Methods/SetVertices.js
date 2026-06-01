@@ -1,8 +1,8 @@
-// Set vertices to polygon annotation in a PDF document.
+// Change the corner points of a polygon marking in a PDF.
 
-// How can I set vertices using a polygon annotation in a PDF document?
+// How do I update the corner points of a polygon marking in a PDF?
 
-// Set vertices for a polygon annotation in a PDF document.
+// Modify the coordinates that define a polygon marking in a PDF.
 
 let doc = Api.GetDocument();
 let vertices = [{x: 100, y: 10}, {x: 150, y: 100}, {x: 50, y: 100}];

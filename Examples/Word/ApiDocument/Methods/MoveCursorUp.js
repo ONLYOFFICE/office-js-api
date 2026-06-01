@@ -1,8 +1,8 @@
-// Move the cursor up through the document in a document.
+// Move the cursor up by a given number of lines in a document.
 
-// How to move the cursor up by a specified number of paragraphs in a document.
+// How do I shift the cursor upward through several lines in a document?
 
-// Create multiple paragraphs, move cursor down, then move it up with selection in a document.
+// Return to an earlier line after reaching the end to read content at that position in a document.
 
 let doc = Api.GetDocument();
 const paragraphCount = 5;

@@ -1,8 +1,8 @@
-// Convert points to millimeters in a spreadsheet.
+// Convert a measurement from points to millimeters in a spreadsheet.
 
-// How can I convert points to millimeters in a spreadsheet?
+// How do I express a point value as millimeters in a spreadsheet?
 
-// Convert points to millimeters in a spreadsheet.
+// Get the millimeter equivalent of a given number of points in a spreadsheet.
 
 const points = 100;
 const millimeters = Api.PointsToMillimeters(points);

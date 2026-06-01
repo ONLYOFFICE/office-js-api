@@ -1,8 +1,8 @@
-// Move the cursor right in the document.
+// Move the cursor right by a specified number of characters in a document.
 
-// How to move the cursor right by a specified number of characters in a document.
+// How do I advance the cursor forward through text in a document?
 
-// Add text and move cursor right with selection in a document.
+// Skip past a known number of characters to land on a specific word for reading in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

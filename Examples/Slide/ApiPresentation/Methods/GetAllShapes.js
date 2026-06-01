@@ -1,8 +1,8 @@
-// Get all shapes from the current presentation in a presentation.
+// List all shapes in a presentation.
 
-// How to get all shapes for a presentation?
+// How do I find every rectangle, circle, heart, or custom shape in a presentation?
 
-// Get all shapes and display the result in a presentation.
+// Count and display shapes after removing master slides in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// Convert EMUs (english metric units) to points in a PDF document.
+// Convert measurement units from emus to points in a PDF.
 
-// How to convert emus to points in a PDF document?
+// How do I convert emus to points for sizing in a PDF?
 
-// Convert emus to points using the PDF document API.
+// Translate emu values to point measurements and show the result in a PDF.
 
 const emus = 100;
 const points = Api.EmusToPoints(emus);

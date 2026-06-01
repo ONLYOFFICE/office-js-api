@@ -1,8 +1,8 @@
-// Find out the class type of a text annotation object in a PDF document.
+// Determine the type of a text annotation in a PDF.
 
-// How can I get the class type of a text annotation in a PDF document?
+// How do I check what class a text annotation belongs to in a PDF?
 
-// Get the class type of a text annotation and display it in the PDF.
+// Identify the object type of an annotation comment in a PDF.
 
 let doc = Api.GetDocument();
 let textAnnot = Api.CreateTextAnnot([10, 10, 20, 20]);

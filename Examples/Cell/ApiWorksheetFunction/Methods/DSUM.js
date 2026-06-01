@@ -1,8 +1,8 @@
-// Add the numbers in the field (column) of records in the database that match the conditions you specify in a spreadsheet.
+// Sum numeric values from a database field that meet specified criteria in a spreadsheet.
 
-// How to calculate the sum in a spreadsheet.
+// How do I add numbers from filtered database records in a spreadsheet?
 
-// Use function to add values from a range in a spreadsheet.
+// Calculate totals for database entries matching specific conditions in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

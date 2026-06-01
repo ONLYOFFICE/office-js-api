@@ -1,8 +1,8 @@
-// Retrieve the class type of a paragraph properties in a presentation.
+// Identify the type of a paragraph properties object in a presentation.
 
-// How to identify the class type of a paragraph properties in a presentation?
+// How do I determine the class type of paragraph properties in a presentation?
 
-// Obtain the class type identifier of a paragraph properties object in a presentation.
+// Get the class type from a paragraph's formatting properties and display it in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

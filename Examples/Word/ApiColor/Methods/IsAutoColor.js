@@ -1,8 +1,8 @@
-// Check if the color is an auto color in a document.
+// Check whether a color is set to automatic in a document.
 
-// How to is auto color for a color in a document?
+// How do I tell if a color uses the automatic setting in a document?
 
-// Is auto color and display the result in a document.
+// Confirm which color objects resolve to the automatic color and which do not in a document.
 
 const doc = Api.GetDocument();
 const themeColor = Api.ThemeColor('accent1');

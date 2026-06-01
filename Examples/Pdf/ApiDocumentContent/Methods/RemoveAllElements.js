@@ -1,8 +1,8 @@
-// Remove all elements from a shape in a PDF document.
+// Delete all paragraphs from a shape's content in a PDF.
 
-// How to remove all elements from the page shape.
+// How do I clear all text blocks from inside a shape in a PDF?
 
-// Get a page shape's content and remove all elements from it.
+// Erase every paragraph and line from a shape in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

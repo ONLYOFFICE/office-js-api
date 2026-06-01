@@ -1,8 +1,8 @@
-// Get icon Y position from field with image in a PDF document.
+// Find the vertical position of an icon in a button widget in a PDF.
 
-// How can I get the icon y pos using a button widget in a PDF document?
+// How do I get the Y coordinate of an icon in a PDF button?
 
-// Get the icon y pos for a button widget in a PDF document.
+// Retrieve the icon's top position in a button widget in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

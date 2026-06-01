@@ -1,8 +1,8 @@
-// Delete the paragraph in a presentation.
+// Remove a paragraph from a text box in a presentation.
 
-// How to remove a paragraph from the slide.
+// How do I delete a paragraph in a presentation?
 
-// Delete and display the result in a presentation.
+// Remove a paragraph and verify the deletion by displaying remaining content in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

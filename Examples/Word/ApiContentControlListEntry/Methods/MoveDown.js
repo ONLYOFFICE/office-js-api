@@ -1,8 +1,8 @@
-// Move an item in a drop-down list or combo box content control down one item, so that it is after the item that originally followed it in a document.
+// Shift a dropdown or combo box list entry one position lower in a document.
 
-// How to move down for a content control list entry in a document?
+// How do I move a list item down in a dropdown control in a document?
 
-// Move down and display the result in a document.
+// Reorder entries by pushing an item toward the end of the list when adjusting option priority in a document.
 
 let doc = Api.GetDocument();
 let cc = Api.CreateComboBoxContentControl([{display: "Mercury", value: "planet1"}, {display: "Venus", value: "planet2"}, {display: "Earth", value: "planet3"}, {display: "Mars", value: "planet4"}], 2);

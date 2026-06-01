@@ -1,8 +1,8 @@
-// Remove element from rich paragraph in a PDF document.
+// Delete a specific element from a paragraph in a PDF.
 
-// How can I remove the element using a rich paragraph in a PDF document?
+// How do I remove a single element from a paragraph in a PDF?
 
-// Remove the element for a rich paragraph in a PDF document.
+// Eliminate an item at a certain position from a paragraph in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);

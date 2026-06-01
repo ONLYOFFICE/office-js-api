@@ -1,8 +1,8 @@
-// Find out the class type of a layout object in a presentation.
+// Get the class type of a layout object in a presentation.
 
-// How can I get the class type of a layout in a presentation?
+// The class type identifies the type of the object in the API.
 
-// Get the class type of a layout and display it in the presentation.
+// Display the class type of the layout.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

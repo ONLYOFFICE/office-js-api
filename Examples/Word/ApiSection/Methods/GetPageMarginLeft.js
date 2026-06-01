@@ -1,8 +1,8 @@
-// Specify the page margins for all the pages in this section and return it back.
+// Read the left margin of the pages in a section in a document.
 
-// How to get left page margin.
+// How do I find out the size of the left page margin for a section in a document?
 
-// Use section to get the page margin left.
+// Retrieve the left spacing value to verify the page layout is correct in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

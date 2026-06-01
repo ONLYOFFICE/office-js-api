@@ -1,8 +1,8 @@
-// Get the rank value for top 10 condition in a spreadsheet.
+// Read how many top or bottom values a top 10 conditional formatting rule highlights in a spreadsheet.
 
-// How to retrieve the number of top or bottom values to highlight in the condition in a spreadsheet.
+// How do I find the count of values highlighted by a top 10 conditional formatting rule in a spreadsheet?
 
-// Get the rank value for the top 10 rule in a spreadsheet.
+// Confirm the number of items targeted by a top or bottom highlight rule in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

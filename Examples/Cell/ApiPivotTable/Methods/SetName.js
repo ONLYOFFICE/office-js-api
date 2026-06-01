@@ -1,8 +1,8 @@
-// Set name of a pivot table in a spreadsheet.
+// Assign a custom name to a pivot table in a spreadsheet.
 
-// How to set name of a table in a spreadsheet.
+// How do I rename a pivot table in a spreadsheet?
 
-// Create a pivot table, add data to it then set its name in a spreadsheet.
+// Give a pivot table a recognizable label to identify it later in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

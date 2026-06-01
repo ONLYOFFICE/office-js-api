@@ -1,8 +1,8 @@
-// Return the largest value in a set of values. Ignores logical values and text in a spreadsheet.
+// Find the largest number in a set of values in a spreadsheet.
 
-// How to get a maximum number from a list of numbers in a spreadsheet.
+// How do I identify the highest sales amount from a list of quarterly results in a spreadsheet?
 
-// Use a function to find a maximum from a list in a spreadsheet.
+// Get the maximum value from a collection of numbers in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

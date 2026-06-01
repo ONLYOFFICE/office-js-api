@@ -1,8 +1,8 @@
-// Add a new series to the chart in a spreadsheet.
+// Expand an existing chart by adding a new data series to it in a spreadsheet.
 
-// How to add a new series to create a chart in a spreadsheet.
+// How do I include an additional row of data as a separate line or bar in a chart in a spreadsheet?
 
-// Add a new series to update a chart in a spreadsheet.
+// Enrich a chart with extra data to make comparisons more complete in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

@@ -1,8 +1,8 @@
-// Get bookmark name in a document.
+// Read the name of an existing bookmark in a document.
 
-// How to add a bookmark indicating its name and then display it in a document.
+// How do I retrieve the name of a bookmark added to a text range in a document?
 
-// Show current bookmark name in a document.
+// Insert a bookmark and display its name as text in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

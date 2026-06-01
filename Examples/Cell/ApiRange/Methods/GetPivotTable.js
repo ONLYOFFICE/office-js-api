@@ -1,8 +1,8 @@
-// Get a pivot table of the current range in a spreadsheet.
+// Access the pivot table associated with a cell range in a spreadsheet.
 
-// How to get a pivot table of a cell.
+// How do I retrieve a pivot table linked to a specific cell in a spreadsheet?
 
-// Get a range, get its pivot table and add some data fields to it in a spreadsheet.
+// Connect to an existing pivot table through a range to add rows, columns, and data fields in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

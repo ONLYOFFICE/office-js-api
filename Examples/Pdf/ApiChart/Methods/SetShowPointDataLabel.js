@@ -1,8 +1,8 @@
-// How to show specific chart data labels with options in a PDF document.
+// Show or hide the label for a specific data point on a chart in a PDF.
 
-// Create a chart, set its properties and the visibility of its data labels options in a PDF document.
+// How do I control what information appears next to a single data point in a PDF?
 
-// Set show point data label for a chart in a PDF document.
+// Toggle labels for individual data points with formatting options in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

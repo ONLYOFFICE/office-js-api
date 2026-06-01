@@ -1,8 +1,8 @@
-// Get the string data from the current OLE object in a presentation.
+// Read the data stored in an embedded object in a presentation.
 
-// How to get data from an OLE object in a presentation.
+// How do I retrieve the data from an embedded object in a presentation?
 
-// Retrieve a content of an OLE object as a string in a presentation.
+// Extract the content or URL from a linked object and display it in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

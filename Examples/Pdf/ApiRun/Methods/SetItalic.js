@@ -1,8 +1,8 @@
-// Set the italic property to the text character in a PDF document.
+// Make text slanted in a PDF.
 
-// How to make text run italic in a PDF document.
+// How do I add italic style to text in a PDF?
 
-// Create a new text run and make its style italic in a PDF document.
+// Apply slanted formatting to characters in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

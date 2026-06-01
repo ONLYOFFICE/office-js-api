@@ -1,8 +1,8 @@
-// Retrieve the class type of a watermark settings in a document.
+// Read the type identifier of a watermark settings object in a document.
 
-// How to identify the class type of a watermark settings in a document?
+// How do I find out what kind of object holds the watermark configuration in a document?
 
-// Obtain the class type identifier of a watermark settings object in a document.
+// Confirm the category of watermark settings by printing its type label in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

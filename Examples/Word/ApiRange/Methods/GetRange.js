@@ -1,8 +1,8 @@
-// Get a Range object that represents the document part contained in the specified range in a document.
+// Extract a narrower text selection from within an existing highlighted region in a document.
 
-// Get the range from the range indicating its start and end positions in a document.
+// How do I cut out a smaller portion of text from an already selected region in a document?
 
-// Retrieve a range and make them italic in a document.
+// Trim a wider selection down to a tighter span for targeted editing in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

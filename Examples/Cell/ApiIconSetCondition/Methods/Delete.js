@@ -1,8 +1,8 @@
-// Delete an icon set conditional formatting rule.
+// Remove an icon set conditional formatting rule from a range in a spreadsheet.
 
-// How to remove icon set conditional formatting from a range.
+// How do I delete an icon set rule so cells no longer show icons based on their values in a spreadsheet?
 
-// Delete the icon set formatting rule.
+// Clear an icon set condition to stop cells from displaying colored icons automatically in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

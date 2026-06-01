@@ -1,8 +1,8 @@
-// Set repeat all labels of a pivot table in a spreadsheet.
+// Repeat row and column labels on every row of a pivot table in a spreadsheet.
 
-// How to set repeat all labels of a table in a spreadsheet.
+// How do I make category labels appear on every row in a pivot table in a spreadsheet?
 
-// Create a pivot table, add data to it then set its repeat all labels in a spreadsheet.
+// Fill in blank label cells so each row clearly shows its category in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// Clear content from rich run object in a PDF document.
+// Remove all text from a text run in a PDF.
 
-// How do I clear content in a PDF document?
+// How do I empty the text in a text run in a PDF?
 
-// Clear content using a rich text run object in a PDF document.
+// Delete the content of a text element in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);

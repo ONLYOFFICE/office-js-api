@@ -1,8 +1,8 @@
-// Get the specified comment reply in a spreadsheet.
+// Read a specific reply from a comment thread in a spreadsheet.
 
-// How to get a reply to the comment in a spreadsheet.
+// How do I access a particular reply within a comment thread in a spreadsheet?
 
-// Add a cooment reply text to a range of the worksheet.
+// Retrieve the text of a chosen reply to inspect its contents in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

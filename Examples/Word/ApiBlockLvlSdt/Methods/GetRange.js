@@ -1,8 +1,8 @@
-// Get a Range object that represents the part of the document contained in the specified content control in a document.
+// Select a portion of text inside a content control and apply formatting to it in a document.
 
-// Create a block content control, add a text to it, and return a range between positions 10 and 16 of the element in a document.
+// How do I select a specific range of text within a content control in a document?
 
-// Return the range object from the container and set a bold property to it in a document.
+// Bold a section of text inside a content control by specifying start and end positions in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

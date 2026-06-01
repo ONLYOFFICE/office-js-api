@@ -1,8 +1,8 @@
-// Get checkbox widget checked by default property in a PDF document.
+// Find out if a checkbox is pre-selected by default in a PDF.
 
-// How to is checked by default for a checkbox widget in a PDF document?
+// How do I check whether a checkbox widget is set to be checked when the form first opens in a PDF?
 
-// Is checked by default and display the result in a PDF document.
+// Read the default checked state of a checkbox widget in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

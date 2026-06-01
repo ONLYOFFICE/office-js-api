@@ -1,8 +1,8 @@
-// Get the current run from the document content in a document.
+// Retrieve the run at the current cursor position from a document content in a document.
 
-// How to get current run for a document content?
+// How do I get the active text run inside a document content container in a document?
 
-// Get current run and display the result in a document.
+// Insert text into the focused run without needing to locate it by paragraph index.
 
 const doc = Api.GetDocument();
 const paragraph = doc.GetElement(0);

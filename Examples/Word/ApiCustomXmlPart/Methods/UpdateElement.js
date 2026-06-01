@@ -1,8 +1,8 @@
-// Update an XML element in a custom XML part in a document.
+// Replace an XML element's content inside a custom XML part in a document.
 
-// How to update element for a custom XML part in a document?
+// How do I update an existing XML element within a custom XML part in a document?
 
-// Update element and display the result in a document.
+// Overwrite a child element with new markup to reflect changed data in a document.
 
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();

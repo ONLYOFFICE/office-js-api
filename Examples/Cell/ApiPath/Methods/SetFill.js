@@ -1,8 +1,8 @@
-// Create a custom triangle shape and add it to the worksheet. Applies custom geometry to a shape with specific fill and stroke.
+// Control whether the interior of a custom shape path is filled with color in a spreadsheet.
 
-// How do I set fill in a spreadsheet?
+// How do I turn on the fill for a custom shape path in a spreadsheet?
 
-// Set fill using a geometry path object in a spreadsheet.
+// Define the fill rule for a drawn path so its enclosed area receives a color in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let customGeometry = Api.CreateCustomGeometry();

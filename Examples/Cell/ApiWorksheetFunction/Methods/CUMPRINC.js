@@ -1,8 +1,8 @@
-// Get the cumulative principal paid on a loan between two periods in a spreadsheet.
+// Sum up the principal payments on a loan during a period range in a spreadsheet.
 
-// How to return the cumulative principal paid on a loan between two periods in a spreadsheet.
+// What is the total principal paid down during a specific loan period in a spreadsheet?
 
-// Use function to get the cumulative principal paid on a loan between two periods in a spreadsheet.
+// Calculate the accumulated principal reduction between payment periods in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

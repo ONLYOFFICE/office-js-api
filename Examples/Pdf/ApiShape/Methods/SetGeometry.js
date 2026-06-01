@@ -1,8 +1,8 @@
-// Apply custom geometry with specific fill and stroke properties in a PDF document.
+// Use a custom drawing pattern for a shape in a PDF.
 
-// How to set geometry for a shape in a PDF document?
+// How do I apply a custom shape design in a PDF?
 
-// Set geometry and display the result in a PDF document.
+// Replace a shape's default pattern with a personalized drawing outline in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// Set the paragraph first line indentation in a presentation.
+// Indent the first line of a paragraph in a presentation.
 
-// How to set a size of the first line indentation using a paragraph properties in a presentation.
+// How do I set the first line indentation for a paragraph in a presentation?
 
-// Create a paragraph setting its first line indentation in a presentation.
+// Apply a specific indentation distance to just the first line of text in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// Get the name of the last user who modified the current workbook in a spreadsheet.
+// Retrieve the name of the person who last edited the workbook in a spreadsheet.
 
-// How to get last modified by for a core properties in a spreadsheet?
+// How do I find out who made the most recent change to a workbook in a spreadsheet?
 
-// Get last modified by and display the result in a spreadsheet.
+// Look up the last editor's name recorded in the document properties in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

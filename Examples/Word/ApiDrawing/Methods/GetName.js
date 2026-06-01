@@ -1,8 +1,8 @@
-// Get the name of a drawing in a document.
+// Retrieve the name assigned to a drawing object in a document.
 
-// How to get the name for a drawing object in a document?
+// How do I get the name of a drawing shape in a document?
 
-// Get the name and display the result in a document.
+// Assign a custom name to a shape and then read it back as text in a document.
 
 const doc = Api.GetDocument();
 const paragraph = doc.GetElement(0);

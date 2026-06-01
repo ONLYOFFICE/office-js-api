@@ -1,8 +1,8 @@
-// Get the current footnote in the document.
+// Retrieve the active footnote at the current cursor position in a document.
 
-// How to add footnote to the document.
+// How do I get the footnote the cursor is currently inside in a document?
 
-// Get text from the current footnote in a document.
+// Read the text of the active footnote to display or process it elsewhere in a document.
 
 let doc = Api.GetDocument();
 let footnote = doc.AddFootnote();

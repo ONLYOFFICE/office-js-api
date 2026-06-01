@@ -1,8 +1,8 @@
-// Create a square annotation and get its display in a PDF document.
+// Retrieve the display preference setting of an annotation in a PDF.
 
-// How do I get the display in a PDF document?
+// How is the visibility of an annotation configured in a PDF?
 
-// Get the display using an annotation object in a PDF document.
+// Check whether an annotation is displayed or hidden in a PDF.
 
 let doc = Api.GetDocument();
 let squareAnnot = Api.CreateSquareAnnot([10, 10, 160, 32]);

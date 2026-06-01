@@ -1,8 +1,8 @@
-// Return the yield on a security that pays periodic interest in a spreadsheet.
+// Calculate the annual yield of a bond or periodic-interest security in a spreadsheet.
 
-// How to return the yield on a security in a spreadsheet.
+// How do I find the yield rate for a bond with regular interest payments in a spreadsheet?
 
-// Use a function to calculate the yield on a security that pays periodic interest in a spreadsheet.
+// Determine the annual return rate of a periodic-paying security in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

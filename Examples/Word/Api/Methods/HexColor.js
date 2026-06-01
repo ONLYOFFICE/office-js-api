@@ -1,8 +1,8 @@
-// Create a hex color and use it as a font color in a document.
+// Apply a custom color defined by a hex code to text in a document.
 
-// How do I hex color in a document?
+// How do I set a font color using a hex value in a document?
 
-// Hex color and display the result in a document.
+// Color paragraph text with a specific hex color in a document.
 
 const doc = Api.GetDocument();
 const color = Api.HexColor('#DECADE');

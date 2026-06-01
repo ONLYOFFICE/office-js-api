@@ -1,8 +1,8 @@
-// Create a linear gradient fill to apply to the object using the selected linear gradient as the object background in a spreadsheet.
+// Fill a shape with a smooth color transition that flows in a straight direction in a spreadsheet.
 
-// How to create a gradient background using gradient fill in a spreadsheet.
+// How do I apply a background that blends from one color to another along a straight angle in a spreadsheet?
 
-// Create a shape with a gradient background using gradient fill in a spreadsheet.
+// Give a shape a gradient background by blending colors across a linear path in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let gs1 = Api.CreateGradientStop(Api.RGB(255, 213, 191), 0);

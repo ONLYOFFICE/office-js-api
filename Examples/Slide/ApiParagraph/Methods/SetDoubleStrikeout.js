@@ -1,8 +1,8 @@
-// Apply double strikeout formatting to paragraph text.
+// Apply double strikeout formatting to paragraph text in a presentation.
 
-// How can I set double strikeout using a paragraph in a presentation?
+// How do I add double strikethrough to text in a presentation?
 
-// Set double strikeout for a paragraph in a presentation.
+// Format text with two lines struck through in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

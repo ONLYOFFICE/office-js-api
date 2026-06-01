@@ -1,8 +1,8 @@
-// Create a new smaller text block to be inserted to the paragraph or table in a spreadsheet.
+// Add independently styled text segments to a paragraph inside a shape in a spreadsheet.
 
-// Create a text to construct a paragraph in a spreadsheet.
+// How do I insert multiple text pieces with different formatting into one paragraph in a spreadsheet?
 
-// Add a text in a paragraph in a spreadsheet.
+// Build a paragraph from separate text portions so each portion can carry its own style in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

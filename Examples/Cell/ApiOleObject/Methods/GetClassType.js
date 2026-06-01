@@ -1,8 +1,8 @@
-// Retrieve the class type of an OLE object in a spreadsheet.
+// Read the class type of an embedded object in a spreadsheet.
 
-// How to identify the class type of an OLE object in a spreadsheet?
+// How do I find out what class type an embedded object has in a spreadsheet?
 
-// Obtain the class type identifier of an OLE object object in a spreadsheet.
+// Inspect the type label of an embedded object to identify its category in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let oleObject = worksheet.AddOleObject(

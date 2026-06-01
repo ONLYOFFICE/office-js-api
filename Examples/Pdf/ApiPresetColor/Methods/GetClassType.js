@@ -1,8 +1,8 @@
-// Retrieve the class type of a preset color in a PDF document.
+// Identify what type of object a preset color is in a PDF.
 
-// How to identify the class type of a preset color in a PDF document?
+// How do I determine the object type of a preset color in a PDF?
 
-// Obtain the class type identifier of a preset color object in a PDF document.
+// Find the classification name for a preset color in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

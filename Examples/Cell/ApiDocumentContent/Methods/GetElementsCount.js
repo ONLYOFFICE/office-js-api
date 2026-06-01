@@ -1,8 +1,8 @@
-// Get a number of elements in the current document content in a spreadsheet.
+// Count the total number of paragraphs inside a shape in a spreadsheet.
 
-// How to get a number of elements of a shape from a document content.
+// How do I find out how many paragraphs are contained within a shape in a spreadsheet?
 
-// Get a shape than count number of elements and display it using paragraph in a spreadsheet.
+// Display the paragraph count of a shape's contents as text in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

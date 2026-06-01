@@ -1,8 +1,8 @@
-// Get start point of line annotation in a PDF document.
+// Find where a line annotation begins in a PDF.
 
-// How do I get the start point in a PDF document?
+// How do I find the starting position of a line in a PDF?
 
-// Get the start point using a line annotation object in a PDF document.
+// Retrieve the coordinates of the line's starting point in a PDF.
 
 let doc = Api.GetDocument();
 let lineAnnot = Api.CreateLineAnnot([10, 10, 160, 32], {x: 12, y: 12}, {x: 155, y: 30});

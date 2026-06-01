@@ -1,8 +1,8 @@
-// Return the number of days in the coupon period that contains the settlement date in a spreadsheet.
+// Calculate the total days in a coupon period in a spreadsheet.
 
-// Find the number of days in the coupon period that contains the settlement date in a spreadsheet.
+// What is the length of the coupon interval including settlement in a spreadsheet?
 
-// Use function to get the number of days in the coupon period that contains the settlement date in a spreadsheet.
+// Determine the coupon cycle duration relevant to your transaction in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

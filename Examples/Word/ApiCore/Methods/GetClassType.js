@@ -1,8 +1,8 @@
-// Find out the class type of a core properties object in a document.
+// Read the class type of the core properties object in a document.
 
-// How can I get the class type of a core properties in a document?
+// How do I find out what class type the core properties object belongs to in a document?
 
-// Get the class type of a core properties and display it in the document.
+// Confirm the object identity before calling type-specific methods in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

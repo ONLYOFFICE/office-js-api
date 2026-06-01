@@ -1,8 +1,8 @@
-// Rerpli number of replies of a comment in a presentation.
+// Count the number of replies attached to a comment in a presentation.
 
-// How to get a number of replies a comment has in a presentation.
+// How many replies does a comment have in a presentation?
 
-// Get all comments from the presentation and the first one's number of replies.
+// Check the reply count for a specific comment in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

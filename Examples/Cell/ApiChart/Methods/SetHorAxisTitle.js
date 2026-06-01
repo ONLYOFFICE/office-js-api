@@ -1,8 +1,8 @@
-// Specify the chart horizontal axis title in a spreadsheet.
+// Set a title for the horizontal axis of a chart in a spreadsheet.
 
-// How to set title for horizontal axis in a spreadsheet.
+// How do I label the horizontal axis on a chart in a spreadsheet?
 
-// Add title for the axis using the chart API in a spreadsheet.
+// Give the bottom axis a descriptive name to clarify the data categories in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

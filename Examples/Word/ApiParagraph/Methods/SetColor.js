@@ -1,8 +1,8 @@
-// Set the text color to the current paragraph in a document.
+// Change the text color of a paragraph in a document.
 
-// Color the paragraph text with orange in a document.
+// How do I apply a specific color to the text of a paragraph in a document?
 
-// Get the first paragraph and make its font color orange in a document.
+// Give paragraph text a custom color to make it visually distinct in a document.
 
 const doc = Api.GetDocument();
 const firstParagraph = doc.GetElement(0);

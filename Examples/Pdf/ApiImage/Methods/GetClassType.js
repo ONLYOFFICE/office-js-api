@@ -1,8 +1,8 @@
-// Retrieve the class type of an image in a PDF document.
+// Identify what type of object an image is in a PDF.
 
-// How to identify the class type of an image in a PDF document?
+// How do I find out what kind of image object I'm working with in a PDF?
 
-// Obtain the class type identifier of an image object in a PDF document.
+// Retrieve the classification of an image element in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

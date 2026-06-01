@@ -1,8 +1,8 @@
-// Set radiobutton field check in unison property in a PDF document.
+// Link radio button options so only one can be selected at a time in a PDF.
 
-// How to set check in unison for a radio button field in a PDF document?
+// How do I make radio buttons work together in a PDF?
 
-// Set check in unison and display the result in a PDF document.
+// Enable synchronized selection across radio button choices in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// Return the average of the absolute deviations of data points from their mean in a spreadsheet.
+// Measure how spread out a set of numbers is from their average in a spreadsheet.
 
-// How to get an average of the absolute deviations in a spreadsheet.
+// Find the average distance of values from their mean in a spreadsheet.
 
-// Use function to get the average of the absolute deviations of data points from their mean in a spreadsheet.
+// Summarize data variability by averaging all absolute deviations in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

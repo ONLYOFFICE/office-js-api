@@ -1,8 +1,8 @@
-// Check whether a filter is active on a column in a spreadsheet.
+// Check whether a filter is currently active on a column in a spreadsheet.
 
-// How to see if a given column currently has any filter definition in a spreadsheet.
+// How do I tell if a column has an active filter applied to it in a spreadsheet?
 
-// Use ApiFilter.GetOn() to test if a filter is applied in a spreadsheet.
+// Confirm filtering is turned on for a specific column before reading its data in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

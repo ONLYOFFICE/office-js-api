@@ -1,8 +1,8 @@
-// Get vert align property from rich text properties object in a PDF document.
+// Check the vertical alignment of text in a PDF.
 
-// How to get the vert align for a rich text properties in a PDF document?
+// How do I find out if text is positioned higher or lower than normal in a PDF?
 
-// Get the vert align and display the result in a PDF document.
+// Retrieve the vertical alignment setting of formatted text in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);

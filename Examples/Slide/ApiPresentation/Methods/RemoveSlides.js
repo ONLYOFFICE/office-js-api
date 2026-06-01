@@ -1,8 +1,8 @@
-// Remove a range of slides from the presentation in a presentation.
+// Delete multiple slides from a presentation.
 
-// How to remove the slides from the presentation.
+// How do I remove a range of slides from a presentation?
 
-// Delete a range of the slide objects from the presentation.
+// Remove slides starting from a specific index and show a message.
 
 const presentation = Api.GetPresentation();
 const slide = Api.CreateSlide();

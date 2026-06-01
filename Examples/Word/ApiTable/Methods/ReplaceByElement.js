@@ -1,8 +1,8 @@
-// Replace the current table with a paragraph in a document.
+// Swap out a table for a paragraph in a document.
 
-// How to replace table with a paragraph in a document.
+// How do I replace a table with a paragraph in a document?
 
-// Create paragraph and put it instead of the table in a document.
+// Substitute a table with a block of text to simplify content in a document.
 
 let doc = Api.GetDocument();
 let table = Api.CreateTable(3, 3);

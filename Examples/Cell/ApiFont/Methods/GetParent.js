@@ -1,8 +1,8 @@
-// Get the parent characters object of the specified font in a spreadsheet.
+// Retrieve the characters object that a font setting belongs to in a spreadsheet.
 
-// How to determine a font object's parent in a spreadsheet.
+// How do I get back to the characters object from a font so I can change its text in a spreadsheet?
 
-// Get a parent of a font and add text to it in a spreadsheet.
+// Navigate from a font up to its owning characters object to update the displayed text in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B1");

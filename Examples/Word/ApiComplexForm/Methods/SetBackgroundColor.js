@@ -1,8 +1,8 @@
-// Set the background color to the current form.
+// Set the background color of a complex form in a document.
 
-// How to set background color for a complex form?
+// How do I change the background color of a form in a document?
 
-// Set background color and display the result in a document.
+// Apply a custom fill color to a form to match a document's visual style.
 
 let doc = Api.GetDocument();
 let complexForm = Api.CreateComplexForm({"key": "Complex1"});

@@ -1,8 +1,8 @@
-// Return the error function integrated between 0 and the specified lower limit in a spreadsheet.
+// Calculate the complementary error function with higher precision in a spreadsheet.
 
-// How to get an error function (from 0 to lower) in a spreadsheet.
+// How do I compute the complementary error function precisely in a spreadsheet?
 
-// Use function to get an error function set between 0 and lower limits in a spreadsheet.
+// Evaluate the precise complement of the error function from 0 to a limit in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

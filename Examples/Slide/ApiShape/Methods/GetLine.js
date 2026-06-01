@@ -1,8 +1,8 @@
-// Get the outline properties from a shape and display detailed information. Creates a shape with a stroke, retrieve it and show stroke details.
+// Get the outline properties from a shape and display detailed information.
 
-// How to get the line for a shape in a presentation?
+// Retrieve stroke properties including width, fill type, and dash type from a shape.
 
-// Get the line and display the result in a presentation.
+// Display stroke details such as class type, width in EMU and points, fill type, and dash type.
 
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);

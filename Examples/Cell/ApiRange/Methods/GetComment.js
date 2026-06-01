@@ -1,8 +1,8 @@
-// Get the comment object of the range in a spreadsheet.
+// Read the comment attached to a cell range in a spreadsheet.
 
-// How to get a range comment in a spreadsheet.
+// How do I retrieve the text of a comment on a cell in a spreadsheet?
 
-// Get a range, get its comment and show its text in the worksheet.
+// Display a cell's comment text in another cell in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");

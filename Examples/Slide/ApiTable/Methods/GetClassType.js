@@ -1,8 +1,8 @@
-// Retrieve the class type of a table in a presentation.
+// Identify what type of object a table is in a presentation.
 
-// How to identify the class type of a table in a presentation?
+// How do I check what kind of object a table is in a presentation?
 
-// Obtain the class type identifier of a table object in a presentation.
+// Read the class type identifier from a table and display it in a presentation.
 
 const presentation = Api.GetPresentation();
 

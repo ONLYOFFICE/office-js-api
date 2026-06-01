@@ -1,8 +1,8 @@
-// Get a list of all the content controls from the document in a document.
+// Retrieve all content controls from a document and bold the text inside the first one in a document.
 
-// Get all content controls added to the document.
+// How do I get every content control in a document so I can read or modify their contents in a document?
 
-// How to retrieve all content controls and display the class type of the first one in a document.
+// Apply bold formatting to the run inside a content control after collecting all controls from the document in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

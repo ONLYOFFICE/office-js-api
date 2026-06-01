@@ -1,8 +1,8 @@
-// Get the comment reply author's name in a spreadsheet.
+// Read the name of the person who wrote a reply to a comment in a spreadsheet.
 
-// How to get the name of who wrote a reply in a spreadsheet.
+// How do I find out who authored a specific comment reply in a spreadsheet?
 
-// Get reply author's name and display it in the worksheet.
+// Display the reply writer's name from a comment thread in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

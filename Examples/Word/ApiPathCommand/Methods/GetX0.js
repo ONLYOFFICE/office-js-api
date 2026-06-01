@@ -1,8 +1,8 @@
-// Retrieve control points and end point from a cubic bezier curve command. Displays all control points coordinates of the bezier curve in a document.
+// Read the horizontal position of the first control point of a curve in a document.
 
-// How do I get the x0 in a document?
+// How do I find the left-right coordinate of the first handle that shapes a curve in a document?
 
-// Get the x0 using a path command object in a document.
+// Retrieve the horizontal coordinate of the first guiding point of a curved path segment in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// Get the text properties of the paragraph mark which is used to mark the paragraph end in a document.
+// Access the text formatting applied to the paragraph end mark in a document.
 
-// Get the mark text properties of the paragraph in a document.
+// How do I retrieve the text properties of the paragraph mark in a document?
 
-// How to update the text properties of the paragraph mark in a document.
+// Change the font size, color, and spacing of the invisible paragraph mark symbol in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

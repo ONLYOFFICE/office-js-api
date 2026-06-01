@@ -1,8 +1,8 @@
-// Set the fill to the chart plot area in a presentation.
+// Apply a background color to the chart plot area in a presentation.
 
-// How to set a background color for the plot area in a presentation.
+// How do I change the background color of the area where the data is displayed in a presentation?
 
-// Create a chart, set its properties and its plot area color in a presentation.
+// Set a solid fill color for the plot area to customize the chart appearance in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

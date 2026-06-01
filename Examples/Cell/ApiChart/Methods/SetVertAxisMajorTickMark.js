@@ -1,8 +1,8 @@
-// Specify the major tick mark for the vertical axis in a spreadsheet.
+// Display major tick marks along the vertical axis of a chart in a spreadsheet.
 
-// How to add a major tick as a cross for the vertical axis labels in a spreadsheet.
+// How do I show large interval markers on the vertical axis of a chart in a spreadsheet?
 
-// Specify major tick mark for the vertical axis in a spreadsheet.
+// Mark key value intervals on the vertical axis with prominent ticks in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

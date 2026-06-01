@@ -1,8 +1,8 @@
-// Get text field and set regular expression validate for it in a PDF document.
+// Validate text entries using pattern matching rules in a PDF text field.
 
-// How can I set regular exp using a text field in a PDF document?
+// How do I check that users enter valid email addresses or specific formats in a PDF?
 
-// Set regular exp for a text field in a PDF document.
+// Apply validation rules to ensure text matches a required pattern in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

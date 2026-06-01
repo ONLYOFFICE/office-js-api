@@ -1,8 +1,8 @@
-// Check the class type returned by a placeholder in a presentation.
+// Identify the class type of a placeholder in a presentation.
 
-// How do I check what type a placeholder object is in a presentation?
+// How do I determine what class a placeholder belongs to in a presentation?
 
-// Retrieve and output the class type string for a placeholder in a presentation.
+// Create a placeholder and retrieve its class type in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

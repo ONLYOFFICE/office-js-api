@@ -1,8 +1,8 @@
-// Find out the class type of a uni color object in a presentation.
+// Determine the data type of a color object in a presentation.
 
-// How can I get the class type of a uni color in a presentation?
+// How do I find out what type of color object is being used in a presentation?
 
-// Get the class type of a uni color and display it in the presentation.
+// Get the class name identifier for a color object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

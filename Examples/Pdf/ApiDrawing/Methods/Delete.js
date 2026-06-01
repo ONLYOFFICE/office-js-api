@@ -1,8 +1,8 @@
-// How to delete a page drawing.
+// Remove a drawing from a page in a PDF.
 
-// Get a page drawing and delete it.
+// How do I delete an object that's on a page in a PDF?
 
-// Delete using a drawing object object in a PDF document.
+// Eliminate a selected shape from the document in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

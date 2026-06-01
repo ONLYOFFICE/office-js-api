@@ -1,8 +1,8 @@
-// Set the form tag in a document.
+// Attach a tag to a date form in a document.
 
-// How can I set tag using a date form in a document?
+// How do I attach a tag to a date form in a document?
 
-// Set tag for a date form in a document.
+// Label a date form with a custom identifier for later retrieval in a document.
 
 let doc = Api.GetDocument();
 let dateForm = Api.CreateDateForm({"tag" : "Hello", "key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});

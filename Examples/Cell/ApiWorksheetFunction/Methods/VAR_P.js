@@ -1,8 +1,8 @@
 // Calculate variance based on the entire population (ignores logical values and text in the population) in a spreadsheet.
 
-// How to get variance based on the population in a spreadsheet.
+// The VAR_P function computes population variance from numeric data only.
 
-// Use a function to calculate variance based on the entire population in a spreadsheet.
+// Apply the function to calculate variance based on the entire population in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

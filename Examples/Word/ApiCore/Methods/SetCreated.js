@@ -1,8 +1,8 @@
-// Set the creation date of the current document in a document.
+// Record the creation date in the document's core properties in a document.
 
-// How do I set created in a document?
+// How do I store the date a document was originally created in a document?
 
-// Set created using a core properties object in a document.
+// Embed an explicit creation timestamp in the metadata so the document's origin date is preserved in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

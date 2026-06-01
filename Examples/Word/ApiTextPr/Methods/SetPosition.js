@@ -1,8 +1,8 @@
-// Specify an amount by which text is raised or lowered for this run in relation to the default baseline of the surrounding non-positioned text in a document.
+// Raise or lower text relative to the surrounding baseline in a document.
 
-// How to set an inline position of a text in a document.
+// How do I shift text up or down without changing the line height in a document?
 
-// Create a text run object, specify its position to move down or up in a document.
+// Fine-tune vertical placement of words by moving them above or below the baseline in a document.
 
 let doc = Api.GetDocument();
 let myNewRunStyle1 = doc.CreateStyle("My New Run Style 1", "run");

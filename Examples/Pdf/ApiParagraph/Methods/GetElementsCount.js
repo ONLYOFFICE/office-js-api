@@ -1,8 +1,8 @@
-// Get a number of elements in the current paragraph in a PDF document.
+// Count all text elements in a paragraph in a PDF.
 
-// Find out how many elements a paragraph has in a PDF document.
+// How do I find out how many elements a paragraph contains in a PDF?
 
-// Return a number of elements from the paragraph object in a PDF document.
+// Get the total number of elements within a paragraph in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

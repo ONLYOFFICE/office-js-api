@@ -1,8 +1,8 @@
-// Return the inverse hyperbolic sine of a number in a spreadsheet.
+// Calculate the inverse hyperbolic sine of a number in a spreadsheet.
 
-// How to get an inverse hyperbolic sine in a spreadsheet.
+// Apply the ASINH function for hyperbolic calculations in a spreadsheet.
 
-// Use function to get an inverse hyperbolic sine of a number in a spreadsheet.
+// Obtain the inverse hyperbolic sine result for mathematical operations in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

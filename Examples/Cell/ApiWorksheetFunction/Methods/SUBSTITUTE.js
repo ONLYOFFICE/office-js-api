@@ -1,8 +1,8 @@
 // Replace existing text with new text in a text string in a spreadsheet.
 
-// How to substitute a substring with another one in a spreadsheet.
+// Substitute a substring with another one using the SUBSTITUTE function.
 
-// Use a function to replace a text with another one in a spreadsheet.
+// Returns the modified text with the specified replacement applied.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

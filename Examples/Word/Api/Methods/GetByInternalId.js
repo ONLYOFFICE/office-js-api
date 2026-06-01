@@ -1,8 +1,8 @@
-// Get an object by its internal ID in a document.
+// Look up a paragraph by its unique ID and display its content in a document.
 
-// How to get the by internal id in a document?
+// How do I find a specific element by its ID in a document?
 
-// Get the by internal id using the document API.
+// Retrieve a paragraph using its identifier and show its type and text in a document.
 
 const doc = Api.GetDocument();
 

@@ -1,8 +1,8 @@
-// Show details of a pivot table in a spreadsheet.
+// Expand the underlying detail rows for a pivot table item in a spreadsheet.
 
-// How to display details of a field using its position in a spreadsheet.
+// How do I drill down into the source data behind a pivot table value in a spreadsheet?
 
-// Create a pivot table, add data to it then get and show its fiels details in a spreadsheet.
+// Reveal the individual records that make up a summarized pivot table entry in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

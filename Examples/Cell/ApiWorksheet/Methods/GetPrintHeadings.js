@@ -1,8 +1,8 @@
-// Get the page PrintHeadings property which specifies whether the sheet row/column headings must be printed or not in a spreadsheet.
+// Check whether row and column headings are set to print on the active sheet in a spreadsheet.
 
-// How to find out whether sheet headings should be printed or not in a spreadsheet.
+// How do I find out if row and column labels will appear on printed pages in a spreadsheet?
 
-// Get a boolean value representing whether to print row and column headings or not in a spreadsheet.
+// Confirm the print-headings setting and write the result to a cell in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.SetPrintHeadings(true);

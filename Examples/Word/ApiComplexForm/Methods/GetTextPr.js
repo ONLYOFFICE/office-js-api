@@ -1,8 +1,8 @@
-// Return the text properties from the current form.
+// Access the text formatting properties of a complex form in a document.
 
-// How do I get the text pr in a document?
+// How do I get the text properties of a form so I can change its style in a document?
 
-// Get the text pr using a complex form object.
+// Apply bold or resize text by first obtaining the form's text properties object in a document.
 
 let doc = Api.GetDocument();
 let complexForm = Api.CreateComplexForm({"key": "Complex1"});

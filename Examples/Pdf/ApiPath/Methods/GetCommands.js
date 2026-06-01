@@ -1,8 +1,8 @@
-// Analyzes path commands of a star shape on a pdf document page. Shows command count and first command details in a text shape.
+// Retrieve all the drawing instructions that define a shape's outline in a PDF.
 
-// How to get the commands for a geometry path in a PDF document?
+// How do I access all steps of a shape's outline in a PDF?
 
-// Get the commands and display the result in a PDF document.
+// Get the complete list of commands that build a shape in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

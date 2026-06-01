@@ -1,8 +1,8 @@
-// Apply all-caps formatting to a paragraph inside a shape in a spreadsheet.
+// Display all text in a paragraph as capital letters inside a shape in a spreadsheet.
 
-// How do I set caps in a spreadsheet?
+// How do I make every letter in a paragraph appear uppercase in a spreadsheet?
 
-// Set caps using a paragraph object in a spreadsheet.
+// Enforce an all-caps style on a paragraph without changing the underlying text in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const fill = Api.CreateSolidFill(Api.RGB(110, 130, 170));

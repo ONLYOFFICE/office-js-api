@@ -1,8 +1,8 @@
-// Analyzes cloud shape path properties on a slide. Displays comprehensive path information in a text shape.
+// Access a path from a shape's geometry in a presentation.
 
-// How can I get the path using a geometry in a presentation?
+// How do I get a drawing path from a shape in a presentation?
 
-// Get the path for a geometry in a presentation.
+// Retrieve a specific path object from a preset or custom shape in a presentation.
 
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);

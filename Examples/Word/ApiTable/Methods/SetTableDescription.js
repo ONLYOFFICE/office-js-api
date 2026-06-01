@@ -1,8 +1,8 @@
-// Set the table description in a document.
+// Attach a plain-text description to a table in a document.
 
-// How to set the description of the table in a document.
+// How do I store a written summary alongside a table in a document?
 
-// Add description to the table in a document.
+// Provide accessible alternative text for a table in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

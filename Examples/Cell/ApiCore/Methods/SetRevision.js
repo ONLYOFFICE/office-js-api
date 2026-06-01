@@ -1,8 +1,8 @@
-// Set the revision of the workbook in a spreadsheet.
+// Store a revision label in a workbook's document properties in a spreadsheet.
 
-// How to set revision for a core properties in a spreadsheet?
+// How do I track the revision number of a workbook in a spreadsheet?
 
-// Set revision and display the result in a spreadsheet.
+// Mark the workbook with a version string so collaborators know which revision they are viewing in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

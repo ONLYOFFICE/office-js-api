@@ -1,8 +1,8 @@
-// Get the nested tables of the specified table in a document.
+// Collect all nested tables contained within a table in a document.
 
-// How to get all tables from the table object in a document.
+// How do I get a list of every table embedded inside another table in a document?
 
-// Get array of tables and update their width in a document.
+// Adjust the width of each nested table retrieved from a parent table in a document.
 
 let doc = Api.GetDocument();
 let table1 = Api.CreateTable(3, 3);

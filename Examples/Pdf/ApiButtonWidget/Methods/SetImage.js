@@ -1,8 +1,8 @@
-// Set image for field with image in a PDF document.
+// Set image for button widget in a PDF document.
 
-// How do I set image in a PDF document?
+// Assign an image resource to an image field with normal state.
 
-// Set image using a button widget object in a PDF document.
+// Add the image field to a PDF page.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

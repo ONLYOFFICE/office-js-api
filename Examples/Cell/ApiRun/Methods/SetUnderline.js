@@ -1,8 +1,8 @@
-// Specify that the contents of the current run are displayed along with a line appearing directly below the character (less than all the spacing above and below the characters on the line) in a spreadsheet.
+// Add an underline beneath the characters of a text run in a spreadsheet.
 
-// How to underline a text object in a spreadsheet.
+// How do I underline specific words inside a shape in a spreadsheet?
 
-// Create a text run object, underline it with a single line in a spreadsheet.
+// Emphasize a word or phrase by drawing a line directly below its letters in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

@@ -1,8 +1,8 @@
-// Get the first series of chart class and insert its type into the presentation.
+// Access a specific data series from a chart and display its type in a presentation.
 
-// How to get a seria from a chart using its index in a presentation.
+// How do I get a particular series from a chart by its index in a presentation?
 
-// Get the series for a chart in a presentation.
+// Retrieve a series from a chart and show its type in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

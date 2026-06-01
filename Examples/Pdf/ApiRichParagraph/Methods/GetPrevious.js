@@ -1,8 +1,8 @@
-// Get previous rich paragraph and add some text to it in a PDF document.
+// Access the preceding paragraph and modify it in a PDF.
 
-// How do I get previous in a PDF document?
+// How do I get the previous paragraph in a PDF?
 
-// Get previous using a rich paragraph object in a PDF document.
+// Navigate backward to the previous paragraph in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);

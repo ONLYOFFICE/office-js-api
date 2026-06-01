@@ -1,8 +1,8 @@
-// Set a sequence of custom tab stops which will be used for any tab characters in the paragraph in a presentation.
+// Set custom tab stops to control text alignment in a presentation.
 
-// How to set sequence of custom tabs of a text from a paragraph in a presentation.
+// How do I position text at specific tab locations in a presentation?
 
-// Change a sequence of custom tabs of a paragraph in a presentation.
+// Configure tab stops at different positions within a paragraph in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

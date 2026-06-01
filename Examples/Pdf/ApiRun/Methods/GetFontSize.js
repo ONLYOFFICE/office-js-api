@@ -1,8 +1,8 @@
-// Find out a text font size in a PDF document.
+// Get the font size of text in a PDF.
 
-// How to know font size of a text run in a PDF document.
+// How do I find out how large the text is in a PDF?
 
-// Get the run and display its font size in a PDF document.
+// Read the font size setting of text in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

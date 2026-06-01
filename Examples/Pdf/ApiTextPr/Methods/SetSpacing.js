@@ -1,8 +1,8 @@
-// Set the text spacing measured in twentieths of a point in a PDF document.
+// Adjust the space between letters in a PDF.
 
-// How to change a spacing size of a text in a PDF document.
+// How do I change character spacing in a PDF?
 
-// Get the text properties of the run and resize its spacing (20 * point) in a PDF document.
+// Modify the gap between characters to affect text density in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

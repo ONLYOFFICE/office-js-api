@@ -1,8 +1,8 @@
-// Create a checkbox content control in a document.
+// Insert a checked checkbox into a document.
 
-// How can I create the check box content control in a document?
+// How do I add a checkbox that is already checked to a document?
 
-// Create the check box content control in a document.
+// Place a pre-checked checkbox control on a new line in a document.
 
 let doc = Api.GetDocument();
 let cc = Api.CreateCheckBoxContentControl({checked: true});

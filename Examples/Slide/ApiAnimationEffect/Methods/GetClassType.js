@@ -1,8 +1,8 @@
-// Check the class type returned by an animation effect in a presentation.
+// Retrieve the class type of an animation effect in a presentation.
 
-// How do I check what type an animation effect object is in a presentation?
+// Class type identifiers distinguish different object types in the animation system.
 
-// Retrieve and output the class type string for an animation effect in a presentation.
+// Call GetClassType() on an animation effect object and display the result.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

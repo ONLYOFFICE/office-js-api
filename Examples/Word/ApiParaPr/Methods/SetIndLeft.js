@@ -1,8 +1,8 @@
-// Set the paragraph left side indentation in a document.
+// Push a paragraph inward from the left margin in a document.
 
-// How to set the indentation for the paragraph left side in a document.
+// How do I set a left indent on paragraphs using a paragraph style in a document?
 
-// Create a new paragraph and set its left side indentation in a document.
+// Offset paragraph text from the left edge to create visual hierarchy or emphasize content.
 
 let doc = Api.GetDocument();
 let myStyle = doc.CreateStyle("My document style");

@@ -1,8 +1,8 @@
-// How to color a chart title in a PDF document.
+// Change the color of a chart title in a PDF.
 
-// Create a chart, set its properties and its title color in a PDF document.
+// How do I apply a fill color to the title text in a PDF?
 
-// Use chart to set title fill in a PDF document.
+// Apply a solid fill to the title of a chart in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

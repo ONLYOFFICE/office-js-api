@@ -1,8 +1,8 @@
-// Get bookmark text in a document.
+// Read and display the text content stored inside a bookmark in a document.
 
-// How to add a bookmark and then display its content's text in a document.
+// How do I extract the text from a named bookmark in a document?
 
-// Show a bookmark text in the document.
+// Confirm what words are covered by a bookmark by printing its content in a document.
 
 let doc = Api.GetDocument()
 let paragraph = doc.GetElement(0)

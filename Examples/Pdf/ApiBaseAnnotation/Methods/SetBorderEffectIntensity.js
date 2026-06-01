@@ -1,8 +1,8 @@
-// Create a square annotation and set border effect intensity in a PDF document.
+// Control the strength of a border effect on an annotation in a PDF.
 
-// How to set border effect intensity for an annotation in a PDF document?
+// How strong should a border effect appear on an annotation in a PDF?
 
-// Set border effect intensity and display the result in a PDF document.
+// Adjust the intensity level of a visual effect applied to an annotation's border in a PDF.
 
 let doc = Api.GetDocument();
 let squareAnnot = Api.CreateSquareAnnot([10, 10, 160, 32]);

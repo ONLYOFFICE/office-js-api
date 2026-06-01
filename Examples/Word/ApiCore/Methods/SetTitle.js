@@ -1,8 +1,8 @@
-// Set the title of the current document in a document.
+// Set the title in the core properties of a document in a document.
 
-// How to set title for a core properties in a document?
+// How do I give a document a formal title in its metadata?
 
-// Set title and display the result in a document.
+// Name a document for easier identification in file managers and document management systems in a document.
 
 const doc = Api.GetDocument();
 const core = doc.GetCore();

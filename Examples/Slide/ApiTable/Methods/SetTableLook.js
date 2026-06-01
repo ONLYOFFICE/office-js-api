@@ -1,12 +1,12 @@
-// Set a table look in a presentation.
+// Configure visual styling options for a table.
 
-// How to set a table look with options in a presentation.
+// Set formatting flags to control table appearance and style.
 
-// Create the table object and set its look in a presentation.
+// Create a table and apply visual styling with configuration flags.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);
-const table = Api.CreateTable(2, 4);
+const table = Api.CreateTable(4, 4);
 table.SetTableLook(true, false, false, false, false, true);
 slide.RemoveAllObjects();
 slide.AddObject(table);

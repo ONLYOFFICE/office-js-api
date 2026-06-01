@@ -1,6 +1,6 @@
-// Todo_example It's not implemented yet in a presentation.
+// Change the effect styles in a theme format scheme in a presentation.
 
-// How to change effect styles for a theme format scheme?
+// How do I update the visual effects for shapes in a format scheme in a presentation?
 
-// Change effect styles and display the result in a presentation.
+// Modify effect styles and apply them to objects in a presentation.
 

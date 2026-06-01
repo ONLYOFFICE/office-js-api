@@ -1,8 +1,8 @@
-// Set the bold property to the specified font in a spreadsheet.
+// Make selected text characters appear bold in a spreadsheet.
 
-// How to make a text bold in a spreadsheet.
+// How do I apply bold formatting to specific characters in a spreadsheet?
 
-// Get a font object of characters and make it bold in a spreadsheet.
+// Turn on bold weight for a portion of cell text to make it stand out in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B1");

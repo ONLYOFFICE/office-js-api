@@ -1,8 +1,8 @@
-// Set the parameters of the watermark settings and apply them to the document.
+// Set the watermark text and apply styled formatting to it in a document.
 
-// How to set the text of the watermark in a document.
+// How do I assign custom text to a watermark in a document?
 
-// Add text to the watermark using its settings in a document.
+// Customize the watermark label with bold, italic, and colored text in a document.
 
 let doc = Api.GetDocument();
 let watermarkSettings = doc.GetWatermarkSettings();

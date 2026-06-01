@@ -1,8 +1,8 @@
-// Add a paragraph using its position in the cell.
+// Place a new paragraph at a specific position inside a table cell in a document.
 
-// Insert new paragraph into the current cell.
+// How do I insert a paragraph at a chosen spot within a table cell in a document?
 
-// Get the cell, add an element to it.
+// Populate a cell with a paragraph of text by targeting its exact index in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

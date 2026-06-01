@@ -1,8 +1,8 @@
-// Return a bitwise "XOR" of two numbers in a spreadsheet.
+// Find bits that differ between two numbers in a spreadsheet.
 
-// How to get a result from XOR operation in a spreadsheet.
+// Which bits are active in one number but not the other in a spreadsheet?
 
-// Use function to calculate bitwise "XOR" operation in a spreadsheet.
+// Highlight the unique bits when comparing two values in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

@@ -1,8 +1,8 @@
-// Add a line break to the run position and start the next element from a new line in a presentation.
+// Add a line break in text to move content to a new line in a presentation.
 
-// How to add a line break after a sentence in a text run in a presentation.
+// How do I insert a line break in text in a presentation?
 
-// How to split a text with a line break in a presentation.
+// Split text across multiple lines using line breaks in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

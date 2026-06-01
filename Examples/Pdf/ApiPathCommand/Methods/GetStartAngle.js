@@ -1,8 +1,8 @@
-// Analyzes arc command parameters in a page shape. Retrieves and display arc radii and angle information.
+// Get the starting angle of a curved arc in a PDF.
 
-// How to get the start angle for a path command in a PDF document?
+// Where does an arc begin in terms of angle in a PDF?
 
-// Get the start angle and display the result in a PDF document.
+// Find the initial rotation point of an arc shape in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

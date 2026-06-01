@@ -1,8 +1,8 @@
-// Set the background color to the cell range with the previously created color object.
+// Fill the background of a cell range with a color in a spreadsheet.
 
-// How to color a cell.
+// How do I set a background color on a group of cells in a spreadsheet?
 
-// Get a range and apply a solid fill to its background color in a spreadsheet.
+// Paint the background of cells with a chosen color to visually distinguish them in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.SetColumnWidth(0, 50);

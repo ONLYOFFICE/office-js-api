@@ -1,8 +1,8 @@
-// Find the previous cell that matches those same conditions.
+// Search backward through a range to find the previous matching cell in a spreadsheet.
 
-// How to get the previous cell from a range that meets search requirements.
+// How do I step back to the previous search result in a spreadsheet?
 
-// Get a range, find the previous cell that satisfies search conditions and fill it with color.
+// Highlight the cell found just before the current match to navigate results in reverse.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

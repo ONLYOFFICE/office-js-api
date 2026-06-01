@@ -1,8 +1,8 @@
-// Set field with image icon position X to 0 in a PDF document.
+// Set field image icon X position in a PDF document.
 
-// How to set icon x pos for a button widget in a PDF document?
+// Configure the horizontal position of an icon in an image field.
 
-// Set icon x pos and display the result in a PDF document.
+// Apply the X position value to a button widget.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// Find out the class type of a shape object in a presentation.
+// Find the class type of a shape in a presentation.
 
-// How can I get the class type of a shape in a presentation?
+// How do I identify a shape's class type in a presentation?
 
-// Get the class type of a shape and display it in the presentation.
+// Display the class identifier of a shape object in a presentation.
 
 const presentation = Api.GetPresentation();
 presentation.SetSizes(254 * 36000, 190 * 36000);

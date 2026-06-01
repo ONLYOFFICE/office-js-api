@@ -1,8 +1,8 @@
-// Create no fill and remove the fill from the element in a document.
+// Draw a shape with a transparent border and no outline color in a document.
 
-// The no-fill object removes any existing fill from the shape stroke.
+// How do I make a shape border completely transparent in a document?
 
-// Create a stroke with no fill in a document.
+// Remove all color from a shape's outline so it appears borderless in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

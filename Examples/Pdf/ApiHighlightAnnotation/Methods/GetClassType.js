@@ -1,8 +1,8 @@
-// Retrieve the class type of a highlight annotation in a PDF document.
+// Determine the type of a highlight annotation in a PDF.
 
-// How to identify the class type of a highlight annotation in a PDF document?
+// What class type does a highlight annotation have in a PDF?
 
-// Obtain the class type identifier of a highlight annotation object in a PDF document.
+// Check the object classification for a highlight annotation in a PDF.
 
 let doc = Api.GetDocument();
 let highlightAnnot = Api.CreateHighlightAnnot([84, 55, 231, 72]);

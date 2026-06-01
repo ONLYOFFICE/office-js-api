@@ -1,8 +1,8 @@
-// Check if an inline content control is a checkbox in a document.
+// Determine whether an inline content control is a checkbox in a document.
 
-// How do I is check box in a document?
+// How do I check whether a content control acts as a checkbox in a document?
 
-// Is check box using an inline content control object in a document.
+// Distinguish a checkbox control from other control types before applying checkbox-specific logic in a document.
 
 let doc = Api.GetDocument();
 let inlineControl = doc.AddCheckBoxContentControl();

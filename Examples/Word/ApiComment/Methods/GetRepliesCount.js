@@ -1,8 +1,8 @@
-// Get a number of the comment replies in a document.
+// Count the replies attached to a comment in a document.
 
-// How to get a number of replies a comment has in a document.
+// How do I find out how many replies a comment has in a document?
 
-// Get all comments from the presentation and the first one's number of replies.
+// Check the reply count before iterating over a comment thread to avoid out-of-range errors.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

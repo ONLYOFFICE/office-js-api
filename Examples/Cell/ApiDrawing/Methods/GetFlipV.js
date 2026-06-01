@@ -1,8 +1,8 @@
-// Check whether the drawing is flipped vertically in a spreadsheet.
+// Read the vertical flip state of a drawing in a spreadsheet.
 
-// How to get the vertical flip property of the shape in a spreadsheet.
+// How do I find out whether a drawing is mirrored top to bottom in a spreadsheet?
 
-// Create a drawing, flip it vertically, and read its vertical flip value in a spreadsheet.
+// Confirm whether a shape has been reversed along its horizontal axis in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

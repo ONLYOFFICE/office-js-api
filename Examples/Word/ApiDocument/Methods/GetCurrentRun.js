@@ -1,8 +1,8 @@
-// Get a current run for further manipulation in a document.
+// Retrieve the text run at the cursor position and apply italic formatting in a document.
 
-// How to get current run for a document?
+// How do I get the run the cursor is currently inside in a document?
 
-// Get current run and display the result in a document.
+// Style only the specific run being edited without affecting the rest of the paragraph in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

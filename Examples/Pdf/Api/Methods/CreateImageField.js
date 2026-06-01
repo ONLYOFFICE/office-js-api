@@ -1,6 +1,6 @@
-// How to create and add a field with image to document.
+// Create and add a field with image to document.
 
-// How do I create the image field in a PDF document?
+// Create the image field in a PDF document.
 
 // Create the image field and display the result in a PDF document.
 

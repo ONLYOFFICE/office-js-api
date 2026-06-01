@@ -1,8 +1,8 @@
-// Set the unique values conditional formatting rule to have the highest priority.
+// Move a unique values formatting rule to the top of the priority order in a spreadsheet.
 
-// How to set conditional formatting rule priority to first position.
+// How do I make a unique values formatting rule evaluate before all others in a spreadsheet?
 
-// Set unique values rule as first priority in a spreadsheet.
+// Ensure a unique values rule takes precedence over competing formatting rules in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

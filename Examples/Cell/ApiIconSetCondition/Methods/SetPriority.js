@@ -1,8 +1,8 @@
-// Set the priority of an icon set rule in a spreadsheet.
+// Assign a specific priority order to an icon set formatting rule in a spreadsheet.
 
-// How to change the evaluation priority of icon set conditional formatting.
+// How do I control when an icon set rule is evaluated relative to other rules in a spreadsheet?
 
-// Set the priority value of the icon set rule in a spreadsheet.
+// Reorder formatting rules so the icon set runs at the desired position in the evaluation sequence.
 
 let worksheet = Api.GetActiveSheet();
 

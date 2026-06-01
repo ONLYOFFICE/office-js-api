@@ -1,8 +1,8 @@
-// Add data bar conditional formatting to a range.
+// Show in-cell progress bars that represent each value proportionally within a range in a spreadsheet.
 
-// How to add data bar conditional formatting rules to visualize cell values with bars.
+// How do I add visual bars inside cells to compare numbers without creating a separate chart in a spreadsheet?
 
-// Add data bar conditional formatting to cells.
+// Turn a column of numbers into an instant bar-chart view using built-in cell formatting in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

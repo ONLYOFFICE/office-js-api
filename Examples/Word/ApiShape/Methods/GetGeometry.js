@@ -1,8 +1,8 @@
-// Get geometry information from a preset star shape. Displays the preset type and check if the geometry is custom.
+// Read the geometric outline and preset type of a shape in a document.
 
-// How can I get the geometry using a shape in a document?
+// How do I find out the exact outline definition used by a shape in a document?
 
-// Get the geometry for a shape in a document.
+// Inspect whether a shape uses a built-in or custom outline path in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

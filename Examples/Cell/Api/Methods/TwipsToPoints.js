@@ -1,8 +1,8 @@
-// Convert twips to points in a spreadsheet.
+// Convert a measurement from twips into its equivalent value in points in a spreadsheet.
 
-// How do I convert twips to points in a spreadsheet?
+// How do I translate a twip-based size into points for use with drawing or layout properties in a spreadsheet?
 
-// Convert twips to points and display the result in a spreadsheet.
+// Express a twip value as points so it can be applied consistently to document elements in a spreadsheet.
 
 const twips = 100;
 const points = Api.TwipsToPoints(twips);

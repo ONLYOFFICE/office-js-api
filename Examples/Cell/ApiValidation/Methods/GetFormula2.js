@@ -1,8 +1,8 @@
-// Get the second formula in data validation.
+// Read the upper boundary value from a range-based validation rule in a spreadsheet.
 
-// How to retrieve the second validation formula.
+// How do I find out the second condition value used in a between-range validation in a spreadsheet?
 
-// Get the second formula using the validation API in a spreadsheet.
+// Confirm the maximum limit defined when a validation rule checks values between two numbers in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");

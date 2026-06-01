@@ -1,8 +1,8 @@
-// Set a name to the specified series in a spreadsheet.
+// Rename a data series shown in a chart legend in a spreadsheet.
 
-// How to name chart series in a spreadsheet.
+// How do I change the label of a particular chart series in a spreadsheet?
 
-// Set seria name for a chart in a spreadsheet.
+// Replace the default series title with a custom name to clarify the chart data in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

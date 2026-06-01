@@ -1,8 +1,8 @@
-// Analyzes cloud shape path properties on a page. Displays comprehensive path information in a text shape.
+// Measure the vertical size of a shape's drawing area in a PDF.
 
-// How do I get the height in a PDF document?
+// How do I find the height of a custom shape in a PDF?
 
-// Get the height using a geometry path object in a PDF document.
+// Read the vertical measurement of a shape's outline bounds in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

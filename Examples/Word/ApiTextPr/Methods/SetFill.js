@@ -1,8 +1,8 @@
-// Set the text color to the current text run in a document.
+// Fill the default text characters with a solid color in a document.
 
-// How to color a text object in a document.
+// How do I apply a color fill to text in a document?
 
-// Create a text run object, add a color to it using RGB format.
+// Paint the default font with an orange solid fill so the text stands out visually in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

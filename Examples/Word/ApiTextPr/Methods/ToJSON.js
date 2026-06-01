@@ -1,8 +1,8 @@
-// Convert the text properties object into the JSON object in a document.
+// Export text formatting settings to JSON and reapply them in a document.
 
-// How to get a JSON from the text properties in a document.
+// How do I serialize text formatting so it can be restored and reused in a document?
 
-// Convert the text properties to json and add it to the document.
+// Save and reload a set of text properties through a JSON snapshot in a document.
 
 let doc = Api.GetDocument();
 let textPr = doc.GetDefaultTextPr();

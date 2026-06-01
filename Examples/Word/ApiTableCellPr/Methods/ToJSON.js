@@ -1,8 +1,8 @@
-// Convert the table cell properties object into the JSON object.
+// Export table cell formatting as a portable data snapshot in a document.
 
-// How to get a JSON from the table cell object.
+// How do I save and reuse the formatting of a table cell in a document?
 
-// Convert the cell to json and add it to the document.
+// Preserve cell styling by converting its properties to a transferable format in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

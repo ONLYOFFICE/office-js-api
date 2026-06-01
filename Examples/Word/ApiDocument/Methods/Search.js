@@ -1,8 +1,8 @@
-// Make a search in a document.
+// Search for all occurrences of a word and apply bold to one result in a document.
 
-// How to search all paragraph objects in a document.
+// How do I find every match of a string and format a specific result in a document?
 
-// Search paragraphs and make the second one bold in a document.
+// Collect search results by keyword and style the second match to highlight it in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// Set the background color of the combo box form using RGB values.
+// Apply a background color to a combo box form field in a document.
 
-// Apply an RGB background color to the ComboBox form element.
+// How do I change the fill color of a combo box form in a document?
 
-// How to change background color of the combobox in a document.
+// Highlight a combo box by giving it a distinct background tint to draw attention in a document.
 
 let doc = Api.GetDocument();
 let comboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});

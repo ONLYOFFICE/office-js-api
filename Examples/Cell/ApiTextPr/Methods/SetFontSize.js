@@ -1,8 +1,8 @@
-// Set the font size to the characters of the current text run in a spreadsheet.
+// Change the font size of a text run to make it larger or smaller in a spreadsheet.
 
-// How to change a font size of a text in a spreadsheet.
+// How do I set a specific font size for text inside a shape in a spreadsheet?
 
-// Set text font size using the text properties API in a spreadsheet.
+// Adjust the point size of text to control how big it appears in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

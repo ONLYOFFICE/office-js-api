@@ -1,8 +1,8 @@
-// Set the index of a content control list item in the collection of list items in a document.
+// Assign a new position to a dropdown or combo box list entry in a document.
 
-// How to set index for a content control list entry in a document?
+// How do I change the order of a list item by setting its index in a document?
 
-// Set index and display the result in a document.
+// Reposition an entry to a specific slot when you need to reorganize a list programmatically in a document.
 
 let doc = Api.GetDocument();
 let cc = Api.CreateComboBoxContentControl([{display: "Mercury", value: "planet1"}, {display: "Venus", value: "planet2"}, {display: "Earth", value: "planet3"}, {display: "Mars", value: "planet4"}], 2);

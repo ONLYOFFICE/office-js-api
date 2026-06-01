@@ -1,8 +1,8 @@
-// Get an object that represents the active sheet in a spreadsheet.
+// Access the currently open sheet to read or write data in a spreadsheet.
 
-// How to get an active sheet object in a spreadsheet.
+// How do I work with the sheet that is currently visible in a spreadsheet?
 
-// Get active sheet for an editor in a spreadsheet.
+// Target the active tab to place values into cells in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue("2");

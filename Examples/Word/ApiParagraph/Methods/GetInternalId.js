@@ -1,8 +1,8 @@
-// Get the internal ID of a paragraph in a document.
+// Retrieve the unique internal identifier assigned to a paragraph in a document.
 
-// How to get the internal id for a paragraph in a document?
+// How do I obtain the internal ID of a paragraph in a document?
 
-// Get the internal id and display the result in a document.
+// Display the internal ID alongside the paragraph text to identify it in a document.
 
 const doc = Api.GetDocument();
 const paragraph = doc.GetElement(0);

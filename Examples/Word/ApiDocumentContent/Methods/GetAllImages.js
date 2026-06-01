@@ -1,8 +1,8 @@
-// Get a collection of image objects from the document content in a document.
+// Retrieve all images embedded in document content in a document.
 
-// Get all images added to the document.
+// How do I get every image from a content container in a document?
 
-// How to retrieve all images and display the class type of the first one in a document.
+// Read the class type of the first image found inside a shape and display it as text in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
 // Find out if the comment is solved or not in a presentation.
 
-// How can I is solved using a comment in a presentation?
+// Check the resolved status of a comment before and after marking it as solved.
 
-// Is solved for a comment in a presentation.
+// Display the comment's solved status, then mark it as resolved and check again.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

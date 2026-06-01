@@ -1,8 +1,8 @@
-// Get the type of the unique values conditional formatting rule in a spreadsheet.
+// Read the type identifier of a unique values formatting rule in a spreadsheet.
 
-// How to retrieve the formatting rule type from unique values conditional formatting.
+// How do I check what type a unique values formatting rule is in a spreadsheet?
 
-// Get the type of the unique values rule in a spreadsheet.
+// Confirm the rule category after adding a unique values condition in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

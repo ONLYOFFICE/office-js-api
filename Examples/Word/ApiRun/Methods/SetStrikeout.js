@@ -1,8 +1,8 @@
-// Specify that the contents of the current run are displayed with a single horizontal line through the center of the line in a document.
+// Draw a horizontal line through the middle of a text run in a document.
 
-// How to strike out a text run in a document.
+// How do I cross out a word or phrase to show it has been removed in a document?
 
-// Create a new text run and set cross it out in a document.
+// Mark text as deleted or negated by adding a strikethrough line in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

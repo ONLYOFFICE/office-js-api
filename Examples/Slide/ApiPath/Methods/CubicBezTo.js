@@ -1,8 +1,8 @@
-// Create a complex curved shape using various bezier and arc commands. Demonstrates different curve types in a single path on a slide.
+// Draw a cubic Bézier curve as part of a custom shape in a presentation.
 
-// How do I cubic bez to in a presentation?
+// How do I create a smooth curved segment in a custom shape in a presentation?
 
-// Cubic bez to using a geometry path object in a presentation.
+// Add a cubic Bézier curve to a geometry path on a slide in a presentation.
 
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);

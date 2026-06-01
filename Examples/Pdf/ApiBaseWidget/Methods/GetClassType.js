@@ -1,8 +1,8 @@
-// Find out the class type of a widget object in a PDF document.
+// Get the widget type classification in a PDF.
 
-// How can I get the class type of a widget in a PDF document?
+// How do I identify what kind of widget this is in a PDF?
 
-// Get the class type of a widget and display it in the PDF.
+// Determine the class category of a form field widget in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

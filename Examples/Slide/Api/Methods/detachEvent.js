@@ -1,7 +1,7 @@
-// Unsubscribe on hyperlink click event in a presentation.
-
-// How to detach an event on hyperlink click in a presentation.
-
 // Unsubscribe from the hyperlink click event in a presentation.
+
+// Detaching events removes previously registered listeners to stop event handling.
+
+// Remove the listener from the asc_onHyperlinkClick event using Api.detachEvent().
 
 Api.detachEvent("asc_onHyperlinkClick");

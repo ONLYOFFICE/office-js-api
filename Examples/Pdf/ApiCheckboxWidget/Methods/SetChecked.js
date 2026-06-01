@@ -1,8 +1,8 @@
-// Set checkbox widget checked in group of checkbox widgets in a PDF document.
+// Mark a checkbox as selected or deselected in a PDF.
 
-// How can I set checked using a checkbox widget in a PDF document?
+// How do I toggle a checkbox widget between checked and unchecked in a PDF?
 
-// Set checked for a checkbox widget in a PDF document.
+// Set the checked state of a checkbox widget in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

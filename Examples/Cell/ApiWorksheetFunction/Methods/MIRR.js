@@ -1,8 +1,8 @@
-// Return the internal rate of return for a series of periodic cash flows, considering both cost of investment and interest on reinvestment of cash in a spreadsheet.
+// Calculate the modified internal rate of return for an investment with varying interest rates in a spreadsheet.
 
-// How to get the internal rate of return for a series of periodic cash flows in a spreadsheet.
+// What is the return rate on an investment with different borrowing and lending costs in a spreadsheet?
 
-// Use a function to calculate the internal rate of return in a spreadsheet.
+// Find the effective rate of return on cash flows with separate rates in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

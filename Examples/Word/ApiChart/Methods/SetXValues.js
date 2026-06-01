@@ -1,8 +1,8 @@
-// Set the x-axis values to all chart series. It is used with the scatter charts only in a document.
+// Assign horizontal axis values to all series of a scatter chart in a document.
 
-// How to add values to horizontal axis for all series of scatter charts in a document.
+// How do I update the x-axis data points for every series in a scatter chart in a document?
 
-// Fill all x-axis values of scattered charts series in a document.
+// Replace the default horizontal values with a custom range to reflect the correct time period in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

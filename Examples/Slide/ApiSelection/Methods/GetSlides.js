@@ -1,8 +1,8 @@
-// Get the selected slides from current selection in a presentation.
+// Retrieve the slides from the current selection in a presentation.
 
-// How do I get the slides in a presentation?
+// How do I access selected slides in a presentation?
 
-// Get the slides using a selection object.
+// Get the count of selected slides using the selection object in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);
@@ -10,16 +10,6 @@ slide.RemoveAllObjects();
 
 const selection = Api.GetSelection();
 let text = 'Initial selected slides count: ' + selection.GetSlides().length + '\n';
-
-/*
-
-const secondSlide = Api.CreateSlide();
-presentation.AddSlide(secondSlide);
-secondSlide.Select();
-
-text += 'Selected slides count after adding a new slide: ' + selection.GetSlides().length;
-
-*/
 
 const outShapeFill = Api.CreateSolidFill(Api.RGB(50, 70, 180));
 const outShapeStroke = Api.CreateStroke(0, Api.CreateNoFill());

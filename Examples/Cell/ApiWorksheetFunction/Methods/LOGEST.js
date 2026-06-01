@@ -1,8 +1,8 @@
-// Return statistics that describe an exponential curve matching known data points in a spreadsheet.
+// Calculate statistics that describe an exponential curve for data points in a spreadsheet.
 
-// How to get the statistics of exponential curve matching the data points in a spreadsheet.
+// How do I analyze the trend of exponentially growing data in a spreadsheet?
 
-// Use a function to return the statistics of exponential curve matching the data points in a spreadsheet.
+// Use curve statistics to predict future values based on exponential growth patterns in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

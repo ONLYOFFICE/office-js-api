@@ -1,8 +1,8 @@
-// Set the priority of an unique values conditional formatting rule.
+// Assign a specific evaluation priority to a unique values formatting rule in a spreadsheet.
 
-// How to change the evaluation priority of unique values conditional formatting.
+// How do I set the exact priority number of a unique values formatting rule in a spreadsheet?
 
-// Set the priority value of the unique values rule in a spreadsheet.
+// Control the order in which a unique values rule is applied relative to others in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

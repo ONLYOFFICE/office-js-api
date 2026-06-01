@@ -1,8 +1,8 @@
-// Calculate custom function result in a spreadsheet.
+// Bundle related custom functions into a named library and use them in cells in a spreadsheet.
 
-// A custom function library groups related functions under a single namespace.
+// How do I group custom functions under a shared library name in a spreadsheet?
 
-// Add cell values using a custom function library.
+// Organize reusable calculation logic inside a function library in a spreadsheet.
 
 Api.AddCustomFunctionLibrary("LibraryName", function(){
 	/**

@@ -1,8 +1,8 @@
-// Clear the content from the cell.
+// Erase all content from a table cell in a document.
 
-// Remove the content of the table cell.
+// How do I remove everything inside a table cell in a document?
 
-// Get the table cell and clear its value.
+// Empty a cell so it is ready to receive fresh content in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

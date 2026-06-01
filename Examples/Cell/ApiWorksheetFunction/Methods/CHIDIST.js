@@ -1,8 +1,8 @@
-// Return the right-tailed probability of the chi-squared distribution in a spreadsheet.
+// Find what percentage of results fall beyond a certain point in a chi-squared distribution in a spreadsheet.
 
-// How to return the right-tailed probability of the chi-squared distribution in a spreadsheet.
+// Determine the upper tail probability for a chi-squared value and degrees of freedom in a spreadsheet.
 
-// Use function to return the right-tailed probability of the chi-squared distribution in a spreadsheet.
+// Use statistical testing to assess whether observed values are extreme or typical in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

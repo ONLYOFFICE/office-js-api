@@ -1,8 +1,8 @@
-// Set all 4 font slots with the specified font family in a PDF document.
+// Change the font typeface for text in a PDF.
 
-// How to change a text font family in a PDF document.
+// How do I select a different font for text in a PDF?
 
-// Get the text properties of the run and set its font family in a PDF document.
+// Set which font family to use for displaying text in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

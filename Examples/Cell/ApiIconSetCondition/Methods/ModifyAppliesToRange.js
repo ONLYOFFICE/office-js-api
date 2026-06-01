@@ -1,8 +1,8 @@
-// Modifye the range to which an icon set formatting rule applies.
+// Change the cell range that an icon set formatting rule covers in a spreadsheet.
 
-// How to change the range where icon set conditional formatting is applied.
+// How do I reassign an icon set formatting rule to a different range of cells in a spreadsheet?
 
-// Modify the range for the icon set formatting rule.
+// Expand or shift the cells an icon set rule applies to in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

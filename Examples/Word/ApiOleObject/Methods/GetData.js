@@ -1,8 +1,8 @@
-// Get the string data from the OLE object in a document.
+// Extract the data string stored inside an embedded OLE object in a document.
 
-// How to get raw data from the OLE object content in a document.
+// How do I read the raw data value from an OLE object in a document?
 
-// Retrieve content of the OLE object and insert it to the document.
+// Display the stored data of an OLE object as text in a paragraph in a document.
 
 let doc = Api.GetDocument();
 let oleObject = Api.CreateOleObject(

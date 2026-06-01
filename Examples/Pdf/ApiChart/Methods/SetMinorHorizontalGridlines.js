@@ -1,8 +1,8 @@
-// How to set minor horizontal gridlines of the chart in a PDF document.
+// Change the style of the minor horizontal grid lines in a chart in a PDF.
 
-// Create a chart, set its properties and its minor gridlines in a PDF document.
+// How do I format the minor horizontal grid lines in a chart in a PDF?
 
-// Set minor horizontal gridlines using a chart object in a PDF document.
+// Add a custom border to the minor horizontal reference lines in a chart in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

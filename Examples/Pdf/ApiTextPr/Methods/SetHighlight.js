@@ -1,8 +1,8 @@
-// Specify a highlighting color which is added to the text properties and applied as a background to the contents of the run in a PDF document.
+// Add a background color to text in a PDF.
 
-// How to highlight a text with a color in a PDF document.
+// How do I add highlighting to text in a PDF?
 
-// Get the text properties of the run and highlight it in a PDF document.
+// Apply a colored background to selected text in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

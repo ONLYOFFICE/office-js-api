@@ -1,8 +1,8 @@
-// Set the bar fill type of a data bar conditional formatting rule.
+// Control whether data bars are displayed with a solid or gradient fill in a spreadsheet.
 
-// How to change the fill type setting of a data bar in a spreadsheet.
+// How do I switch between solid and gradient fill styles for data bars in a spreadsheet?
 
-// Set the bar fill type of a data bar conditional formatting rule.
+// Give data bars a uniform look by choosing a consistent fill appearance across cells in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

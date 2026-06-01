@@ -1,8 +1,8 @@
-// Copy the form.
+// Duplicate an existing date form and insert the copy into a document.
 
-// How to create the same date form.
+// How do I create an identical copy of a date form in a document?
 
-// Create two same date forms to the document separated by a line break.
+// Reuse the same date field settings without reconfiguring them by copying the form in a document.
 
 let doc = Api.GetDocument();
 let dateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});

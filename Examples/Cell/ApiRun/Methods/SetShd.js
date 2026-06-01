@@ -1,8 +1,8 @@
-// Specify the shading applied to the contents of the current text run in a spreadsheet.
+// Add a background color behind the letters of a text run in a spreadsheet.
 
-// How to set a shading for a text in a spreadsheet.
+// How do I highlight text with a background shade in a spreadsheet?
 
-// Create a text run object, specify its shading options in a spreadsheet.
+// Color the area behind specific words to make them stand out in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

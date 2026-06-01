@@ -1,8 +1,8 @@
-// Create and use the table row properties in a document.
+// Set a fixed height for all rows in a table in a document.
 
-// How to create table row properties and set it to table style in a document.
+// How do I control the row height of a table in a document?
 
-// Create the table row pr in a document.
+// Apply uniform row height to every row of a table using a custom style in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

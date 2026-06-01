@@ -1,8 +1,8 @@
-// Set the paragraph line spacing in a presentation.
+// Set the line spacing between paragraphs in a presentation.
 
-// How to set the size of a spacing line a text from a paragraph in a presentation.
+// How do I adjust the spacing between lines of text in a presentation?
 
-// Change a spacing line size property of a paragraph in a presentation.
+// Apply different line spacing values to paragraphs in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

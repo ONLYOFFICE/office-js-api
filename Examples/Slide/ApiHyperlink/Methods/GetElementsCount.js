@@ -1,6 +1,6 @@
-// Return a number of elements in the current hyperlink in a presentation.
+// Count the elements in a hyperlink in a presentation.
 
-// How do I get the elements count in a presentation?
+// How do I determine the number of child elements within a hyperlink in a presentation?
 
 // Get the elements count using a hyperlink object in a presentation.
 

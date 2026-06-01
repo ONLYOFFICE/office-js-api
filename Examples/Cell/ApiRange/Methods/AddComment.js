@@ -1,8 +1,8 @@
-// Add a comment to the range in a spreadsheet.
+// Attach a note to a cell range in a spreadsheet.
 
-// How to comment a range in a spreadsheet.
+// How do I add a comment to a range of cells in a spreadsheet?
 
-// Get a range from the worksheet, add a comment to it and then show the comments text.
+// Leave a written remark on a cell so other users see context when they open it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");

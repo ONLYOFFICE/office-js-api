@@ -1,8 +1,8 @@
-// Set the outline to the data point in a document.
+// Add a border outline to an individual data point on a chart in a document.
 
-// How to set a numeric format of the data points.
+// How do I apply a custom stroke to a single data point on a chart in a document?
 
-// Create a chart and set its data points number format to round to two decimal places.
+// Make a specific bar or marker stand out by giving it a colored border in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// Get a collection of image objects from the document in a document.
+// Retrieve all images in a document.
 
-// Get all images added to the document.
+// How do I collect every image object present in a document?
 
-// How to retrieve all images and display the class type of the first one in a document.
+// Check the class type of the first image to verify what kind of object was inserted.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

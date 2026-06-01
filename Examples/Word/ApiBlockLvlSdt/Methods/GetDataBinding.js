@@ -1,8 +1,8 @@
-// Retrieve a data binding from a content control in a document.
+// Read the XML data binding linked to a content control in a document.
 
-// How can I get the data binding using a block-level content control in a document?
+// How do I get the XML data binding attached to a content control in a document?
 
-// Get the data binding for a block-level content control in a document.
+// Inspect which XML source a content control is connected to and display its ID in a document.
 
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();

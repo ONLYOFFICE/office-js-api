@@ -1,8 +1,8 @@
-// Check whether a value is an error, and return true or false in a spreadsheet.
+// Check if a value is any type of error in a spreadsheet.
 
-// How to check if the cell contains an error.
+// How do I determine if a cell contains an error in a spreadsheet?
 
-// Use a function to check whether the value is error or not in a spreadsheet.
+// Test whether a value is an error result in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

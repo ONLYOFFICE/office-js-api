@@ -1,8 +1,8 @@
-// Get checkbox widget export (checked) value in a PDF document.
+// Retrieve the export value of a checkbox widget in a PDF.
 
-// How can I get the export value using a checkbox widget in a PDF document?
+// How do I read what value is exported when a checkbox is selected in a PDF?
 
-// Get the export value for a checkbox widget in a PDF document.
+// Access the assigned export value for a checkbox widget in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// Find out the class type of a document content object.
+// Retrieve the class type of a document content object in a document.
 
-// How can I get the class type of a document content?
+// How do I identify what type a document content object is in a document?
 
-// Get the class type of a document content and display it in the document.
+// Confirm whether a shape's inner container is a document content before processing it further.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

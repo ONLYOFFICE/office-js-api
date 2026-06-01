@@ -1,8 +1,8 @@
-// Specify the visual properties for the minor vertical gridlines in a document.
+// Style the minor vertical gridlines of a chart in a document.
 
-// How to set minor vertical gridlines of the chart in a document.
+// How do I control the appearance of minor vertical gridlines in a document?
 
-// Create a chart, set its properties and its minor gridlines as a stroke in a document.
+// Add fine vertical reference lines between major intervals to increase horizontal scale precision in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

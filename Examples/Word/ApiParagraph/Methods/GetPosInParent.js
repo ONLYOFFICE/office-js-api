@@ -1,8 +1,8 @@
-// Get the paragraph position within its parent element in a document.
+// Determine the index position of a paragraph within its parent element in a document.
 
-// How to get the position of the paragraph in the control that contains it in a document.
+// How do I find where a paragraph sits inside its containing element in a document?
 
-// Get the paragraph position inside the parent control in a document.
+// Use a paragraph's position to re-select and bold it after inserting additional elements in a document.
 
 let doc = Api.GetDocument();
 let paragraph = Api.CreateParagraph();

@@ -1,8 +1,8 @@
-// Delete a custom XML part in a spreadsheet.
+// Remove a stored block of custom XML data from a spreadsheet.
 
-// How to delete a custom XML part from the workbook in a spreadsheet.
+// How do I permanently remove a custom XML block I no longer need in a spreadsheet?
 
-// Delete an XML part using the custom XML part API in a spreadsheet.
+// Clean up unused XML storage to keep the workbook tidy in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let xmlManager = worksheet.GetCustomXmlParts();

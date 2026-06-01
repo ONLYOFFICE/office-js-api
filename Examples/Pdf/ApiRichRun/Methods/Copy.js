@@ -1,8 +1,8 @@
-// Copy rich run object and add it to parent rich paragraph in a PDF document.
+// Duplicate a text run and place it in a paragraph in a PDF.
 
-// How do I copy in a PDF document?
+// How do I make a copy of a text run in a PDF?
 
-// Copy using a rich text run object in a PDF document.
+// Create a duplicate of a text run and add it to a paragraph in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);

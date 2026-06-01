@@ -1,8 +1,8 @@
-// Get the paragraph properties in a PDF document.
+// Access the formatting settings of a paragraph in a PDF.
 
-// How to get a paragraph properties and set its spacing size in a PDF document.
+// How do I retrieve the properties of a paragraph in a PDF?
 
-// Change paragraph properties in a PDF document.
+// Modify paragraph spacing and other settings in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

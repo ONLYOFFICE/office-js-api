@@ -1,8 +1,8 @@
-// Return the k-th smallest value in a data set. For example, the fifth smallest number in a spreadsheet.
+// Return the k-th smallest value from a data set.
 
-// How to return the k-th smallest value from data set in a spreadsheet.
+// The SMALL function finds the smallest value at a specified position in a sorted data range.
 
-// Use a function to get the smallest value from data set indicated in a spreadsheet.
+// Get the 8th smallest value from the data range and display it in cell C1.
 
 const worksheet = Api.GetActiveSheet();
 

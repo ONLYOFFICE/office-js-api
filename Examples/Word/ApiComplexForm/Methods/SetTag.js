@@ -1,8 +1,8 @@
-// Set the form tag in a document.
+// Attach a custom tag to a complex form in a document.
 
-// How do I set tag in a document?
+// How do I label a form with a tag in a document?
 
-// Set tag using a complex form object.
+// Organize or categorize forms by tagging them for later lookup or processing.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

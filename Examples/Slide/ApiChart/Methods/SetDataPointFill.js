@@ -1,8 +1,8 @@
-// Set the fill to the data point in a presentation.
+// Change the color of a single data point in a chart in a presentation.
 
-// How to color a data point in a presentation.
+// How do I color an individual data point in a chart in a presentation?
 
-// Create a chart then color its data points in a presentation.
+// Create a chart and apply a fill color to one specific data point in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// Check the class type returned by a chart in a PDF document.
+// Identify the class type of a chart object in a PDF.
 
-// How do I check what type a chart object is in a PDF document?
+// How do I determine what kind of object a chart is in a PDF?
 
-// Retrieve and output the class type string for a chart in a PDF document.
+// Retrieve and display the class type of a chart in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

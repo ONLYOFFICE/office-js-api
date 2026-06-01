@@ -1,8 +1,8 @@
-// Add an oRun to the paragraph in a document.
+// Append multiple text runs to a paragraph in a document.
 
-// How to insert text to the paragraph in a document.
+// How do I add several runs to the end of a paragraph in a document?
 
-// Get the last paragraph and make it bold in a document.
+// Build a paragraph by pushing new text runs one by one in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// Get the form role in a document.
+// Retrieve the assigned role of a complex form in a document.
 
-// How to get the role for a complex form?
+// How do I check which role is assigned to a form in a document?
 
-// Get the role and display the result in a document.
+// Confirm that a form is linked to the correct signer or respondent role before sending the document.
 
 let doc = Api.GetDocument();
 let roles = doc.GetFormRoles();

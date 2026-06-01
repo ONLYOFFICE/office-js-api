@@ -1,8 +1,8 @@
-// Create adjustable geometry with guides and connection points for a presentation. Displays adjustment value and apply custom geometry to shape.
+// Define the text bounding box for a custom shape in a presentation.
 
-// How to set text rect for a geometry in a presentation?
+// How do I set where text appears inside a custom shape in a presentation?
 
-// Set text rect and display the result in a presentation.
+// Specify the drawing area where text will render in a custom geometry in a presentation.
 
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);

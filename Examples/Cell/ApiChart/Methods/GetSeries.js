@@ -1,8 +1,8 @@
-// Get the first series of chart class and insert its type into the table in a spreadsheet.
+// Retrieve a specific data series from a chart by its position and display its type in a spreadsheet.
 
-// How to get series using indices in a spreadsheet.
+// How do I access a single chart series by its index number in a spreadsheet?
 
-// Find series by its location index in a spreadsheet.
+// Pinpoint one series within a chart to inspect or work with its properties in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

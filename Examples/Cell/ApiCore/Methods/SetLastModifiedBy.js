@@ -1,8 +1,8 @@
-// Set the name of the last user who modified the current workbook in a spreadsheet.
+// Record the name of the person who last edited a workbook in a spreadsheet.
 
-// How can I set last modified by using a core properties in a spreadsheet?
+// How do I store the last editor's name in a workbook's metadata in a spreadsheet?
 
-// Set last modified by for a core properties in a spreadsheet.
+// Track who made the most recent changes by writing their name to the document properties in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const core = Api.GetCore();

@@ -1,8 +1,8 @@
-// Convert the scheme color object into the JSON object in a document.
+// Serialize a scheme color into a transferable data format in a document.
 
-// How to get a JSON from the color object in a document.
+// How do I export a scheme color as structured data for later use in a document?
 
-// Convert the RGB color object to json and add it to the document.
+// Capture a color definition as a portable object that can be recreated in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

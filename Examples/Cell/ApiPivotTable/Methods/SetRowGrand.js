@@ -1,8 +1,8 @@
-// Set row grand of a pivot table in a spreadsheet.
+// Show or hide the grand total row at the bottom of a pivot table in a spreadsheet.
 
-// How to set row grand of a table in a spreadsheet.
+// How do I remove the grand total row from a pivot table in a spreadsheet?
 
-// Create a pivot table, add data to it then set its row grand in a spreadsheet.
+// Toggle the overall row totals to keep the pivot table output focused in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

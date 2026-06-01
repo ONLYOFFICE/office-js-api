@@ -1,8 +1,8 @@
-// Set the lock value to the specified lock type of the current drawing in a spreadsheet.
+// Prevent a drawing from being selected or modified by setting a lock on it in a spreadsheet.
 
-// How to set a lock type of a drawing in a spreadsheet.
+// How do I restrict what a user can do with a drawing in a spreadsheet?
 
-// Create a drawing, set its lock value and display it in the worksheet.
+// Protect a shape from user interaction by applying a specific lock type to it in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

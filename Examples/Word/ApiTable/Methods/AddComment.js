@@ -1,8 +1,8 @@
-// Add a comment to all contents of the table in a document.
+// Attach a reviewer comment to a table in a document.
 
-// How to add comment to the table indicating its author name in a document.
+// How do I add a named comment to a table in a document?
 
-// Insert a comment into a table in a document.
+// Annotate a table with feedback and an author name in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

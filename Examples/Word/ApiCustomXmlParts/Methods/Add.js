@@ -1,8 +1,8 @@
-// Add a new custom XML part and then access it in a document.
+// Attach a new custom XML part to a document.
 
-// How to add for a custom XML parts in a document?
+// How do I add a custom XML part with specific content to a document?
 
-// Add and display the result in a document.
+// Embed structured XML data into a document to store metadata alongside the content in a document.
 
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();

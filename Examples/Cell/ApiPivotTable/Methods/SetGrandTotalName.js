@@ -1,8 +1,8 @@
-// Set grand total name of a table in a spreadsheet.
+// Rename the grand total label shown in a pivot table in a spreadsheet.
 
-// How to set a grand total name of a table in a spreadsheet.
+// How do I replace the default "Grand Total" caption with a custom name in a spreadsheet?
 
-// Create a pivot table, add data to it then set a grand total name in a spreadsheet.
+// Give the totals row or column a meaningful title instead of the built-in label in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

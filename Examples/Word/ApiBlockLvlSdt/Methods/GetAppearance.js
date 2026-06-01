@@ -1,8 +1,8 @@
-// Add a text to the content control and get its appearance in a document.
+// Read the visual appearance setting of a content control in a document.
 
-// How do I get the appearance in a document?
+// How do I check how a content control is displayed in a document?
 
-// Get the appearance using a block-level content control object in a document.
+// Display whether a content control shows a bounding box, tags, or is hidden in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

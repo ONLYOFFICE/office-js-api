@@ -1,8 +1,8 @@
-// Check the class type returned by a line annotation in a PDF document.
+// Determine what type of annotation a line is in a PDF.
 
-// How do I check what type a line annotation object is in a PDF document?
+// How do I identify the category of a line annotation in a PDF?
 
-// Retrieve and output the class type string for a line annotation in a PDF document.
+// Check the classification of a line annotation in a PDF.
 
 let doc = Api.GetDocument();
 let lineAnnot = Api.CreateLineAnnot([10, 10, 160, 32], {x: 12, y: 12}, {x: 155, y: 30});

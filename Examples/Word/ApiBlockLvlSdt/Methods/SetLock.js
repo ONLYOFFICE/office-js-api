@@ -1,8 +1,8 @@
-// Set the lock to the block text content control in a document.
+// Prevent editing of a content control's text in a document.
 
-// Create a block content control and set its lock to "sdtContentLocked", which means that the content cannot be edited and the container cannot be deleted in a document.
+// How do I lock a content control so its content cannot be changed in a document?
 
-// How to set the lock to the block-level content control object in a document.
+// Protect a content control from modification and display the applied lock type in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

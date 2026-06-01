@@ -1,8 +1,8 @@
-// Get the cell range object that represents the rectangular intersection of two or more ranges in a spreadsheet.
+// Find the overlapping cells shared by two ranges in a spreadsheet.
 
-// How to find intersection of two ranges and highlight it in a spreadsheet.
+// How do I get only the cells that belong to both of two selected ranges in a spreadsheet?
 
-// Find common cells of two ranges and fill them with a color.
+// Highlight the area where two ranges meet in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range1 = worksheet.GetRange("A1:C5");

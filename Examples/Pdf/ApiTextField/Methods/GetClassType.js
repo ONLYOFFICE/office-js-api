@@ -1,8 +1,8 @@
-// Find out the class type of a text field object in a PDF document.
+// Determine the object type of a text field in a PDF.
 
-// How can I get the class type of a text field in a PDF document?
+// How do I find out what class a text field belongs to in a PDF?
 
-// Get the class type of a text field and display it in the PDF.
+// Identify the type category of a text input box in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

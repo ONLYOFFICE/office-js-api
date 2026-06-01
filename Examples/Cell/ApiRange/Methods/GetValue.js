@@ -1,8 +1,8 @@
-// Get a value of the specified range in a spreadsheet.
+// Read the value stored in a cell in a spreadsheet.
 
-// How to get a cell value.
+// How do I retrieve what a cell contains in a spreadsheet?
 
-// Get a range, get its value and show it in the worksheet.
+// Display the contents of a cell in another location in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("1");

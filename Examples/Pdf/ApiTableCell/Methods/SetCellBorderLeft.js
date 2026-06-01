@@ -1,8 +1,8 @@
-// How to set cell left border with its fill color.
+// Add a left border to a table cell in a PDF.
 
-// Create table and set its cell left border.
+// How do I create a border on the left edge of a cell in a PDF?
 
-// Use table cell to set cell border left.
+// Draw a styled line along the left side of a table cell in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

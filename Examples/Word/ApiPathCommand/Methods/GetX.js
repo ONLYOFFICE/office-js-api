@@ -1,8 +1,8 @@
-// Analyzes path commands of a star shape. Retrieves information about the first command including type and coordinates.
+// Read the horizontal position of a point in a shape's outline path in a document.
 
-// How can I get the x using a path command in a document?
+// How do I find the left-right coordinate of a specific point along a shape's outline in a document?
 
-// Get the x for a path command in a document.
+// Retrieve the horizontal coordinate from a drawing step within a shape's path in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

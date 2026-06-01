@@ -1,8 +1,8 @@
-// Specify the page margins for all the pages in this section.
+// Set the top, bottom, left, and right margins for pages in a section in a document.
 
-// How to set page margins.
+// How do I define the blank space around the edges of each page in a document?
 
-// Update the margins of the page.
+// Adjust the border spacing on all sides of the pages within a section in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

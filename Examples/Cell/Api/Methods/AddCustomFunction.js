@@ -1,8 +1,8 @@
-// Calculate custom function result in a spreadsheet.
+// Register a custom function and call it from a cell formula in a spreadsheet.
 
-// A custom function can perform calculations not available in standard functions.
+// How do I define my own calculation function for use in cells in a spreadsheet?
 
-// Add cell values using a custom function.
+// Extend built-in formulas with a user-written function that sums two numbers in a spreadsheet.
 
 /**
  * Function that returns the argument

@@ -1,8 +1,8 @@
-// Get text field and set validate range for it in a PDF document.
+// Limit field values to a numeric range in a PDF.
 
-// How to set validate range for a combobox field in a PDF document?
+// Can I restrict numbers to a minimum and maximum in a PDF?
 
-// Set validate range and display the result in a PDF document.
+// Accept only numbers within specified bounds in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

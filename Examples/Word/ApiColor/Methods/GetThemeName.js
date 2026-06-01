@@ -1,8 +1,8 @@
-// Get the theme color name of a color object in a document.
+// Retrieve the theme color name from a color object in a document.
 
-// The color object can be created from a hex value or a theme color.
+// How do I find out which theme slot a color belongs to in a document?
 
-// Get the theme name using a color object in a document.
+// Distinguish between a color defined by a hex value and one tied to a named theme slot in a document.
 
 const doc = Api.GetDocument();
 const paragraph = doc.GetElement(0);

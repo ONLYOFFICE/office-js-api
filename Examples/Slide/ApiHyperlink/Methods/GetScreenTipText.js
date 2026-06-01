@@ -1,8 +1,8 @@
-// Return the screen tip text of the hyperlink in a presentation.
+// Get the screen tip text of a hyperlink in a presentation.
 
-// How to get the screen tip text for a hyperlink in a presentation?
+// How do I retrieve the tooltip text associated with a hyperlink in a presentation?
 
-// Get the screen tip text and display the result in a presentation.
+// Access the screen tip text and display it in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

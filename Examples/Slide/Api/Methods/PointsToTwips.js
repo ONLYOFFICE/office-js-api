@@ -1,8 +1,8 @@
-// Convert points to twips in a presentation.
-
-// How do I convert points to twips in a presentation?
-
 // Convert points to twips and display the result in a presentation.
+
+// Use Api.PointsToTwips to convert measurement units.
+
+// Display the converted value in a shape text.
 
 const points = 1000;
 const twips = Api.PointsToTwips(points);

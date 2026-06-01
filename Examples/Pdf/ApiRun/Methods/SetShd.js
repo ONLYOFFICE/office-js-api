@@ -1,8 +1,8 @@
-// Specify the shading applied to the contents of the current text run in a PDF document.
+// Apply shading to text in a PDF.
 
-// How to add shading to the text in a PDF document.
+// How do I add a background shade to text in a PDF?
 
-// Create a new text run and apply shading to it in a PDF document.
+// Apply background shading pattern to text in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

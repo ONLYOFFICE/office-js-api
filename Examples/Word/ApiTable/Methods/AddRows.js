@@ -1,8 +1,8 @@
-// Add the new rows to the table in a document.
+// Insert multiple rows into a table at once in a document.
 
-// How to add rows to the table in a document.
+// How do I add several rows to a table in a document?
 
-// Get a table cell and insert two new rows after it.
+// Grow a table by placing a batch of new rows after a selected cell in a document.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");

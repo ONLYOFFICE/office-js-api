@@ -1,8 +1,8 @@
-// Add a column break to the current position and start the next element from a new column in a document.
+// Insert a column break to continue text in the next column in a document.
 
-// How to add a column break between the text of paragraph in a document.
+// How do I force text to start at the top of the next column in a document?
 
-// Split paragraph with a coulumn break in a document.
+// Divide a paragraph across two columns by placing a break at a specific position in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
 // Delete an animation effect in a presentation.
 
-// How to delete for an animation effect in a presentation?
+// Removing animation effects modifies the sequence of object animations on slides.
 
-// Delete and display the result in a presentation.
+// Use the Delete() method to remove an effect and verify the count change.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

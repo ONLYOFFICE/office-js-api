@@ -1,8 +1,8 @@
-// Set a tag attribute for a container in a document.
+// Attach a tag to a content control for identification in a document.
 
-// Create a block content control and set a tag to it in a document.
+// How do I add a custom tag string to a content control in a document?
 
-// How to add a tag to the block-level content control object in a document.
+// Mark a content control with a tag so it can be identified or processed later in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

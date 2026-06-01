@@ -1,8 +1,8 @@
-// Add a list item to a combobox in a document.
+// Add items to a combobox content control and select one in a document.
 
-// How to add the list item for an inline content control in a document?
+// How do I populate a combobox content control with list items in a document?
 
-// Add the list item and display the result in a document.
+// Build a dropdown list inside a content control and set its active value in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

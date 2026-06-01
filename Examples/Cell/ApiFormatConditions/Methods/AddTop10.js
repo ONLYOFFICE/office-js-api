@@ -1,8 +1,8 @@
-// Add top 10 conditional formatting to a range.
+// Highlight the top-ranked values with a special color in a spreadsheet.
 
-// How to add top 10 conditional formatting rules to highlight highest values.
+// How do I automatically mark the highest entries in a list of numbers in a spreadsheet?
 
-// Add top 10 conditional formatting to cells.
+// Apply color-based ranking to stand out the best-performing cells in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

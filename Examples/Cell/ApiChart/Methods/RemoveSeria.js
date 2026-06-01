@@ -1,8 +1,8 @@
-// Remove the specified series from the current chart in a spreadsheet.
+// Delete a data series from a chart by its position in a spreadsheet.
 
-// How to delete series using indices in a spreadsheet.
+// How do I remove one of the data series from a chart in a spreadsheet?
 
-// Remove seria from the chart using idex number in a spreadsheet.
+// Strip an unwanted series out of a chart to simplify its data in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("B1").SetValue(2014);

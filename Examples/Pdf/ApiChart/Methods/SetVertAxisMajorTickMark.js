@@ -1,8 +1,8 @@
-// How to set a major tick mark using predefined symbols in a PDF document.
+// Add tick marks to the vertical axis of a chart in a PDF.
 
-// Create a chart, set its properties and major tick mark for vertical axis in a PDF document.
+// How do I display tick marks on a chart's vertical axis in a PDF?
 
-// Set vert axis major tick mark for a chart in a PDF document.
+// Apply a preset tick mark style to the vertical axis in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

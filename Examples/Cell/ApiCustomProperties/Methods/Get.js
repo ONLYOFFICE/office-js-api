@@ -1,8 +1,8 @@
-// Get the value of a custom property by its name in a spreadsheet.
+// Read the value of a named custom property from a spreadsheet.
 
-// Return null for properties that do not exist.
+// How do I look up a specific custom metadata field by name in a spreadsheet?
 
-// Get for a custom properties in a spreadsheet.
+// Retrieve stored custom data and handle missing fields gracefully in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const customProps = Api.GetCustomProperties();

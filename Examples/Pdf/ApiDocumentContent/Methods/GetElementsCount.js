@@ -1,8 +1,8 @@
-// Get elements count and insert this value into the pdf document.
+// Count the number of paragraphs inside a shape in a PDF.
 
-// How to get a number of elements a page shape contains.
+// How do I find out how many text blocks are in a shape in a PDF?
 
-// Get a page shape's content and display its elements count.
+// Determine the total of content sections that a shape holds in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

@@ -1,8 +1,8 @@
-// Create a text properties and use it in a PDF document.
+// Format text with custom font size and bold styling in a PDF.
 
-// How to change text style, size and font in a PDF document.
+// How do I change text style and size in a PDF?
 
-// Change text properties using the editor API in a PDF document.
+// Set bold formatting and increase font size for text in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

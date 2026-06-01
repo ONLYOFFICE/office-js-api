@@ -1,8 +1,8 @@
-// Get an array with all tables from the slide master.
+// Retrieve all tables from a slide master in a presentation.
 
-// How can I get all tables using a slide master in a presentation?
+// How do I find all tables on a slide master in a presentation?
 
-// Get all tables for a slide master in a presentation.
+// List every table in a slide master in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);
@@ -13,7 +13,7 @@ master.RemoveObject(0, master.GetAllDrawings().length);
 
 const layout = master.GetLayout(0);
 
-const table = Api.CreateTable(3, 2);
+const table = Api.CreateTable(2, 3);
 table.GetRow(0).GetCell(0).GetContent().GetCurrentParagraph().AddText('US');
 table.GetRow(0).GetCell(1).GetContent().GetCurrentParagraph().AddText('CH');
 table.GetRow(0).GetCell(2).GetContent().GetCurrentParagraph().AddText('Others');

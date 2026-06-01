@@ -1,8 +1,8 @@
-// Get the outline level of the specified paragraph in a PDF document.
+// Check the heading level assigned to a paragraph in a PDF.
 
-// How can I get the outline lvl using a paragraph in a PDF document?
+// How do I determine the outline level of a paragraph in a PDF?
 
-// Get the outline lvl for a paragraph in a PDF document.
+// Read the current heading level setting for a paragraph in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

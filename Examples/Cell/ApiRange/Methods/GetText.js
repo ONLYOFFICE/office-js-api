@@ -1,8 +1,8 @@
-// Get the text of the specified range in a spreadsheet.
+// Read the raw text content from a cell range in a spreadsheet.
 
-// How to get a cell raw text value.
+// How do I extract the text stored in a range of cells in a spreadsheet?
 
-// Get a range, get its text value and show it in the worksheet.
+// Pull the displayed text from a range and write it into another cell in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1").SetValue("text1");

@@ -1,8 +1,8 @@
-// Read the second criteria of a filter in a spreadsheet.
+// Retrieve the secondary condition of a column filter to see both rules applied to the data in a spreadsheet.
 
-// How to inspect the additional condition of an AutoFilter column in a spreadsheet.
+// How do I check the second filtering rule on a column when two conditions are combined in a spreadsheet?
 
-// Use ApiFilter.GetCriteria2() to get the second filter criterion in a spreadsheet.
+// Inspect the additional constraint set on a filter and display its value alongside the first rule in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

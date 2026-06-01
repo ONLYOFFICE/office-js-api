@@ -1,8 +1,8 @@
-// Get the current cell content in a presentation.
+// Get the content object from a table cell.
 
-// How to get a content of the table cell object.
+// Access the document content that the cell contains.
 
-// Return the document content object from the table cell.
+// Retrieve the content object and add text to a table cell.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,8 +1,8 @@
-// Retrieve the class type of a numbering level in a document.
+// Retrieve the class type of a numbering level object in a document.
 
-// How to identify the class type of a numbering level in a document?
+// How do I identify the class type of a numbering level in a document?
 
-// Obtain the class type identifier of a numbering level object in a document.
+// Verify the object type of a list level before using it in further processing in a document.
 
 let doc = Api.GetDocument();
 let numbering = doc.CreateNumbering("bullet");

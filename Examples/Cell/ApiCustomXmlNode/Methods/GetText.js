@@ -1,8 +1,8 @@
-// Get the text content of a custom XML node in a spreadsheet.
+// Read the plain text stored inside an XML element in a spreadsheet.
 
-// How to retrieve text content from custom XML node elements in a spreadsheet.
+// How do I extract readable text from an XML node in a spreadsheet?
 
-// Get text from message node in a spreadsheet.
+// Pull out the human-readable content of an XML entry in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let xmlManager = worksheet.GetCustomXmlParts();

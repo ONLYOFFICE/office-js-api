@@ -1,8 +1,8 @@
-// Create a datepicker content control in a document.
+// Add a date picker field to a document.
 
-// How to create the date picker content control in a document?
+// How do I insert a date picker field into a document?
 
-// Create the date picker content control using the document API.
+// Let readers pick a date from a calendar by inserting a date picker control in a document.
 
 let doc = Api.GetDocument();
 let cc = Api.CreateDatePickerContentControl({format: 'yyyy.mm.dd'});

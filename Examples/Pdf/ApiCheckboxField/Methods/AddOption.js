@@ -1,8 +1,8 @@
-// Add an option for checkbox field group in a PDF document.
+// Add a selectable option to a checkbox field in a PDF.
 
-// How do I add the option in a PDF document?
+// How do I create multiple choices for a checkbox field in a PDF?
 
-// Add the option using a checkbox field object in a PDF document.
+// Create an additional choice that users can select in a checkbox field in a PDF.
 
 let doc = Api.GetDocument();
 let page = doc.GetPage(0);

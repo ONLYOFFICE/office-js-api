@@ -1,8 +1,8 @@
-// Get the scope type of a data bar formatting rule.
+// Read how broadly a data bar rule applies across the selection in a spreadsheet.
 
-// How to retrieve the scope type of a data bar conditional formatting.
+// How do I find out whether a data bar rule covers the entire range or only parts of it in a spreadsheet?
 
-// Get the scope type of the data bar formatting rule.
+// Determine the reach of a data bar rule over the cells it targets in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

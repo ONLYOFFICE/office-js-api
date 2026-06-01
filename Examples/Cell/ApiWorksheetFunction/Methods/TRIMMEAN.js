@@ -1,8 +1,8 @@
-// Return the mean of the interior portion of a set of data values in a spreadsheet.
+// Calculate the average of the middle values in a dataset by excluding extremes in a spreadsheet.
 
-// How to delete the mean of the data values interior portion in a spreadsheet.
+// How do I find the average of interior data points in a spreadsheet?
 
-// Use a function to remove the mean from the interior portion of a set of data values in a spreadsheet.
+// Get the trimmed mean that excludes outliers from a dataset in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let argumentsArr = [1, 2, 3, 4];

@@ -1,8 +1,8 @@
-// Get all worksheets from the workbook in a spreadsheet.
+// List every sheet in the workbook and write their names to cells in a spreadsheet.
 
-// How can I get the sheets using a workbook in a spreadsheet?
+// How do I get the full list of sheets that exist in a workbook in a spreadsheet?
 
-// Get the sheets for a workbook in a spreadsheet.
+// Enumerate all tabs by index and record each sheet's name in a spreadsheet.
 
 Api.AddSheet('new_sheet_name');
 

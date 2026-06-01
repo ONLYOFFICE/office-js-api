@@ -1,8 +1,8 @@
-// Create a square annotation and set red border color to it in a PDF document.
+// Change the border color of an annotation in a PDF.
 
-// How to set border color for an annotation in a PDF document?
+// What color should the border of an annotation be in a PDF?
 
-// Set border color and display the result in a PDF document.
+// Apply a color to the border outline of an annotation object in a PDF.
 
 let doc = Api.GetDocument();
 let squareAnnot = Api.CreateSquareAnnot([10, 10, 160, 32]);

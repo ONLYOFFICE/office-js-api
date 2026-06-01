@@ -1,8 +1,8 @@
-// Get the range where a top 10 conditional formatting rule applies.
+// Read which cell range a top 10 conditional formatting rule covers in a spreadsheet.
 
-// How to retrieve the cell range of existing conditional formatting rules.
+// How do I find the cell range a top 10 conditional formatting rule is applied to in a spreadsheet?
 
-// Get applies to and display the result in a spreadsheet.
+// Check the address of cells targeted by a top 10 highlight rule in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

@@ -1,8 +1,8 @@
-// Retrieve the class type of a polygon annotation in a PDF document.
+// Retrieve the class type of a polygon annotation in a PDF.
 
-// How to identify the class type of a polygon annotation in a PDF document?
+// How can I identify the annotation type in a PDF?
 
-// Obtain the class type identifier of a polygon annotation object in a PDF document.
+// Find the class type identifier for a polygon annotation in a PDF.
 
 let doc = Api.GetDocument();
 let vertices = [{x: 100, y: 10}, {x: 150, y: 100}, {x: 50, y: 100}];

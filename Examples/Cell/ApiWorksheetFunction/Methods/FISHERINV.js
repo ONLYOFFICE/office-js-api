@@ -1,8 +1,8 @@
-// Get an inverse of the Fisher transformation: if y = FISHER(x), then FISHERINV(y) = x in a spreadsheet.
+// Reverse a Fisher transformation to get a correlation value in a spreadsheet.
 
-// How to get an inverse of the Fisher transformation.
+// How do I convert a Fisher transformation back to a correlation in a spreadsheet?
 
-// Use function to find out an inverse of Fisher transformation.
+// Extract the original correlation value from its Fisher transformation in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

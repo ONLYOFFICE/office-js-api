@@ -1,8 +1,8 @@
-// Add fields to a pivot table specifing rows and columns in a spreadsheet.
+// Assign row and column fields to organize a pivot table in a spreadsheet.
 
-// How to add new fields to the table in a spreadsheet.
+// How do I arrange source columns into rows and columns of a pivot table in a spreadsheet?
 
-// Create a pivot table, add data to it then add new data fields in a spreadsheet.
+// Group data by two categories at once to build a two-dimensional summary in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

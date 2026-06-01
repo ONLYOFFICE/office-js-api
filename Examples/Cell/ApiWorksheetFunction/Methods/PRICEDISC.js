@@ -1,8 +1,8 @@
-// Return the price per $100 face value for a discounted security in a spreadsheet.
+// Find the price of a discounted bond in a spreadsheet.
 
-// How to return the price per $100 face value for a discounted security in a spreadsheet.
+// What is the price of a discounted security per $100 face value in a spreadsheet?
 
-// Use a function to return the price per $100 face value for a discounted security in a spreadsheet.
+// Determine the cost of a short-term security based on discount rate in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

@@ -1,8 +1,8 @@
-// Get justification from rich paragraph properties in a PDF document.
+// Read the text alignment of a paragraph in a PDF.
 
-// How can I get the jc using a rich paragraph properties in a PDF document?
+// How do I check the alignment of a paragraph in a PDF?
 
-// Get the jc for a rich paragraph properties in a PDF document.
+// Find out what alignment setting is applied to a paragraph in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);

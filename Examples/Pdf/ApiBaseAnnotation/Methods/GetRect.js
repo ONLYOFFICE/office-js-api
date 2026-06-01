@@ -1,8 +1,8 @@
-// Create a square annotation and get its rect in a PDF document.
+// Get the rectangular boundary of an annotation in a PDF.
 
-// How to get the rect for an annotation in a PDF document?
+// What is the area occupied by an annotation in a PDF?
 
-// Get the rect and display the result in a PDF document.
+// Read the bounding rectangle coordinates of an annotation object in a PDF.
 
 let doc = Api.GetDocument();
 let squareAnnot = Api.CreateSquareAnnot([10, 10, 160, 32]);

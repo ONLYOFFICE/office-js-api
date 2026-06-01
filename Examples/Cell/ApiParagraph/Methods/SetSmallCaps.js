@@ -1,8 +1,8 @@
-// Set small caps formatting for all text in a paragraph inside a shape in a spreadsheet.
+// Display all text in a paragraph using small capital letters inside a shape in a spreadsheet.
 
-// How can I set small caps using a paragraph in a spreadsheet?
+// How do I make lowercase letters appear as small capitals in a paragraph in a spreadsheet?
 
-// Set small caps for a paragraph in a spreadsheet.
+// Transform the capitalization style of a paragraph so every letter renders as a small cap in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const fill = Api.CreateSolidFill(Api.RGB(110, 120, 160));

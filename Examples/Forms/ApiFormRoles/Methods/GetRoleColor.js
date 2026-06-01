@@ -1,8 +1,8 @@
-// Get the color of role in a form document.
+// Retrieve the color assigned to a role in a document.
 
-// How do I get the role color in a form document?
+// How do I find out what color a role uses in a document?
 
-// Get the role color using a form roles object.
+// Check the color value for a specific role in a document.
 
 let doc = Api.GetDocument();
 let roles = doc.GetFormRoles();

@@ -1,8 +1,8 @@
-// Delete a drawing object in a presentation.
+// Remove a chart or shape from a presentation.
 
-// How to delete a slide drawing.
+// How do I delete an object that is no longer needed in a presentation?
 
-// Get a slide drawing and delete it.
+// Select and delete a specific drawing object from a slide in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

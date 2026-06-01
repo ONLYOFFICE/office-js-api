@@ -1,8 +1,8 @@
-// Create adjustable geometry with guides and connection points for a pdf document. Displays adjustment value and apply custom geometry to shape.
+// Mark a spot where connectors can attach to a shape in a PDF.
 
-// How to add the connection point for a geometry in a PDF document?
+// How do I specify where lines can connect to my shape in a PDF?
 
-// Add the connection point and display the result in a PDF document.
+// Define attachment points and apply them to a custom shape in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

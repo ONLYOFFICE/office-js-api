@@ -1,8 +1,8 @@
-// Add a caption paragraph after the paragraph in a document.
+// Insert a caption below an image paragraph in a document.
 
-// How to add caption to the paragraph in a document.
+// How do I label a figure with a numbered caption in a document?
 
-// Add a caption to the text specifying its properties in a document.
+// Automatically number an inserted image using a formatted figure caption in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

@@ -1,8 +1,8 @@
-// Get text from rich run object in a PDF document.
+// Read the text content from a text run in a PDF.
 
-// How to get the text for a rich text run in a PDF document?
+// How do I extract the text from a text run in a PDF?
 
-// Get the text and display the result in a PDF document.
+// Retrieve what words are stored in a text element in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);

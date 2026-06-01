@@ -1,8 +1,8 @@
-// Set a layout subtotal location of a pivot field in a spreadsheet.
+// Place subtotals at the top or bottom of each pivot field group in a spreadsheet.
 
-// How to change a pivot field layout subtotal location in a spreadsheet.
+// How do I move the subtotal row above or below a pivot field group in a spreadsheet?
 
-// Create a pivot table, add data to it then set layout subtotal location of a specified pivot in a spreadsheet.
+// Reposition where calculated totals appear within a pivot field's layout in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

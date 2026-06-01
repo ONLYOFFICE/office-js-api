@@ -1,8 +1,8 @@
-// Get a string value that represents the text of the specified range of characters in a spreadsheet.
+// Extract the text string from a selected range of characters within a cell in a spreadsheet.
 
-// Get a value that represents the label text for the pivot field in a spreadsheet.
+// How do I read the actual text that a character selection represents in a spreadsheet?
 
-// How to get and display caption of the text in a spreadsheet.
+// Pull out a substring from a cell by selecting characters at a given position in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B1");

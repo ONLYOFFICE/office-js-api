@@ -1,8 +1,8 @@
-// Set the text for the specified characters in a spreadsheet.
+// Replace the text of a targeted group of characters inside a cell in a spreadsheet.
 
-// Update characters collection by setting a new text in a spreadsheet.
+// How do I change the actual text stored in a specific character selection within a cell in a spreadsheet?
 
-// Set text for the characters of the range in a spreadsheet.
+// Rewrite a defined portion of cell content to reflect updated information in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("B1");

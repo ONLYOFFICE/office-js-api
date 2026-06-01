@@ -1,8 +1,8 @@
-// Get the range to which an unique values conditional formatting rule applies.
+// Find the cell range covered by a unique-values conditional formatting rule in a spreadsheet.
 
-// How to retrieve the range where unique values conditional formatting is applied.
+// How do I check which cells a unique-values highlighting rule is applied to in a spreadsheet?
 
-// Get the range to which the unique values rule applies in a spreadsheet.
+// Confirm the exact address of the range a unique-values rule targets in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

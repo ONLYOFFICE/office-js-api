@@ -1,8 +1,8 @@
-// Specify if the text field should be a comb of characters with the same cell width.
+// Divide a text field into equal-width character boxes in a document.
 
-// How to specify the comb property of the text form.
+// How do I split a text field into evenly spaced individual character cells in a document?
 
-// Set the comb property of the text form.
+// Give a text field a structured grid appearance by enabling its comb layout in a document.
 
 let doc = Api.GetDocument();
 let textForm = Api.CreateTextForm({"key": "Personal information", "tip": "Enter your first name", "required": true, "placeholder": "First name", "maxCharacters": 10, "multiLine": false, "autoFit": false});

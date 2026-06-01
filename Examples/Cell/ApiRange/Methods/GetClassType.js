@@ -1,8 +1,8 @@
-// Retrieve the class type of a cell range in a spreadsheet.
+// Identify the object type of a cell range in a spreadsheet.
 
-// How to identify the class type of a cell range?
+// How do I find out what kind of object a cell range is in a spreadsheet?
 
-// Obtain the class type identifier of a cell range object.
+// Write the type label of a range into another cell to confirm its category.
 
 let worksheet = Api.GetActiveSheet();
 let range = worksheet.GetRange("A1");

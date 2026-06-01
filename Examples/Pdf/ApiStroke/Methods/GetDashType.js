@@ -1,8 +1,8 @@
-// Get the dash type of a stroke. Creates a shape with a solid border and display its dash type. Returns string value: "dash", "dashDot", "dot", "lgDash", "lgDashDot", "lgDashDotDot", "solid", "sysDash", "sysDashDot", "sysDashDotDot", "sysDot" in a PDF document.
+// Identify the line pattern style of a border in a PDF
 
-// How to get the dash type for a stroke in a PDF document?
+// What dash pattern is applied to a border line in a PDF?
 
-// Get the dash type and display the result in a PDF document.
+// Extract and show the line style for a border in a PDF
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

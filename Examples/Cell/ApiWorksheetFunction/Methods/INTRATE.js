@@ -1,8 +1,8 @@
-// Return an interest rate for a fully invested security in a spreadsheet.
+// Calculate the interest rate for a security in a spreadsheet.
 
-// How to calculate an interest rate for a fully invested security in a spreadsheet.
+// How do I find the interest rate based on investment values in a spreadsheet?
 
-// Use a function to get a fully invested security's interest rate in a spreadsheet.
+// Determine the return rate on a security investment in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

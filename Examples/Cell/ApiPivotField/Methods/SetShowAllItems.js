@@ -1,8 +1,8 @@
-// Set a show all items of a pivot field in a spreadsheet.
+// Force a pivot table field to display all items, including those with no data, in a spreadsheet.
 
-// How to change a pivot field show all items value in a spreadsheet.
+// How do I make a pivot field show every item even when it has no matching data in a spreadsheet?
 
-// Create a pivot table, add data to it then set show all items of a specified pivot in a spreadsheet.
+// Keep empty categories visible so the pivot table layout stays consistent in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 

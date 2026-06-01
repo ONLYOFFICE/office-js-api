@@ -1,8 +1,8 @@
-// Copy the form.
+// Duplicate a combo box form field and insert the copy into a document.
 
-// How to remove selected item from the combobox form.
+// How do I create a copy of an existing combo box form field in a document?
 
-// Clear answer from the combobox form.
+// Reuse a configured combo box by cloning it so both fields share the same options in a document.
 
 let doc = Api.GetDocument();
 let comboBoxForm = Api.CreateComboBoxForm({"key": "Personal information", "tip": "Choose your country", "required": true, "placeholder": "Country", "editable": false, "autoFit": false, "items": ["Latvia", "USA", "UK"]});

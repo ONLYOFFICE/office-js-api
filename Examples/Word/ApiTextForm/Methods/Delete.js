@@ -1,8 +1,8 @@
-// Delete the form.
+// Remove a text input field entirely from a document.
 
-// How do I delete in a document?
+// How do I permanently take out a text field while keeping its copy in a document?
 
-// Delete using a text form object.
+// Erase a specific text entry field without affecting other fields in a document.
 
 const doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

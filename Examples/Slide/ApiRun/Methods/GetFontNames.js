@@ -1,8 +1,8 @@
-// Get all font names from all elements inside the run in a presentation.
+// Get all font names used in text runs in a presentation.
 
-// How to get all font names used in the text in a presentation.
+// What font families are applied to text in a presentation?
 
-// Retrieve text run font names and display them in the slide.
+// Retrieve and list the font names of text runs in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

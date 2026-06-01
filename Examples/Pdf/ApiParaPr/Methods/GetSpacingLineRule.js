@@ -1,8 +1,8 @@
-// Get the paragraph line spacing rule in a PDF document.
+// Find out how line spacing is measured in a PDF.
 
-// How to get the size of a spacing line rule of a text from a paragraph in a PDF document.
+// How do I check the line spacing rule for a paragraph in a PDF?
 
-// Return a spacing line rule property of a paragraph in a PDF document.
+// Identify the line spacing rule applied to a paragraph in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);

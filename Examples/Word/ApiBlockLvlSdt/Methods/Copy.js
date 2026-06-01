@@ -1,8 +1,8 @@
-// Create a copy of a block level content control in a document.
+// Duplicate a content control and place the copy in a document.
 
-// Create a block content control in the current document, copy it, and add a copy to the same document.
+// How do I copy a content control and add the duplicate to the same document?
 
-// Create a block level container in the document class, add a text to it, and copy it into the same document.
+// Reuse a content control by making an exact copy and appending it elsewhere in a document.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();

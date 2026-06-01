@@ -1,8 +1,8 @@
-// Get bold property from rich text properties object in a PDF document.
+// Check if text is bold in a PDF.
 
-// How do I get bold in a PDF document?
+// How do I find out whether text is bold in a PDF?
 
-// Get bold using a rich text properties object in a PDF document.
+// Retrieve the bold state of formatted text in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);

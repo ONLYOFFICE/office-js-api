@@ -1,8 +1,8 @@
-// Create a blip fill to apply to the object using the selected image as the object background in a document.
+// Fill a shape with a tiled image background in a document.
 
-// A shape with the "star10" type uses a tiled blip fill as its background.
+// How do I use an image as a repeating background fill for a shape in a document?
 
-// Create a blip fill with the specified image url and the "tile" fill type and use it to fill the created shape in the document.
+// Insert a star shape whose background is covered with a tiled photo in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

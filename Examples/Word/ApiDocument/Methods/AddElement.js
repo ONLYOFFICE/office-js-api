@@ -1,8 +1,8 @@
-// Add a paragraph to the document.
+// Insert a paragraph at a specific position in a document.
 
-// How to add the element to the document.
+// How do I add a paragraph at a chosen index in a document?
 
-// Create a paragraph and insert it to the document as the first element.
+// Build a paragraph with text runs and place it before existing content in a document.
 
 let doc = Api.GetDocument();
 let paragraph = Api.CreateParagraph();

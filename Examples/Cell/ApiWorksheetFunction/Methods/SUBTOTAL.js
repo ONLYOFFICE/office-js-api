@@ -1,8 +1,8 @@
 // Return a subtotal in a list or database in a spreadsheet.
 
-// How to calculate a subtotal in a spreadsheet.
+// Calculate a subtotal using the SUBTOTAL function on numeric values.
 
-// Use a function to estimate a subtotal from the list in a spreadsheet.
+// Returns the calculated subtotal based on the specified function number.
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;

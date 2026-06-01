@@ -1,8 +1,8 @@
-// Get a source name of a pivot field in a spreadsheet.
+// Read the original data source name of a pivot field in a spreadsheet.
 
-// How to get a pivot field's source name in a spreadsheet.
+// How do I find out what column a pivot field was built from in a spreadsheet?
 
-// Create a pivot table, add data to it then get source name of a specified pivot field in a spreadsheet.
+// Distinguish a field's display name from its underlying source column name in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 
