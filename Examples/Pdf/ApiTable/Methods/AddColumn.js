@@ -9,7 +9,7 @@ const page = doc.GetPage(0);
 
 const table = Api.CreateTable(2, 4);
 table.SetPosition(3, 170);
-table.AddColumn(1, true);
+table.AddColumn(table.GetRow(0).GetCell(1), true);
 const row = table.GetRow(0);
 const cell = row.GetCell(1);
 const content = cell.GetContent();

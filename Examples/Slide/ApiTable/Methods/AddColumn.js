@@ -9,7 +9,7 @@ presentation.SetSizes(300 * 36000, 190 * 36000);
 
 const table = Api.CreateTable(4, 2);
 table.SetPosition(0 * 36000, 60 * 36000);
-table.AddColumn(1, true);
+table.AddColumn(table.GetRow(0).GetCell(1), true);
 const row = table.GetRow(0);
 const cell = row.GetCell(1);
 const content = cell.GetContent();
