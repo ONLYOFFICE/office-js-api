@@ -5,7 +5,10 @@
 // Extract recognized elements from a page to work with them in a PDF.
 
 const doc = Api.GetDocument();
-const page = doc.GetPage(0);
+doc.AddPage();
+const page = doc.GetPage(doc.GetPagesCount() - 1);
 
 let drawings = page.RecognizeContent();
-drawings[0].Select();
+if (drawings.length > 0) {
+	drawings[0].Select();
+}

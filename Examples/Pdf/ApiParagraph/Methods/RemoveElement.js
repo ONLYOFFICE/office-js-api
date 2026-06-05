@@ -19,26 +19,25 @@ const paragraph = docContent.GetElement(0);
 paragraph.RemoveAllElements();
 
 let run = Api.CreateRun();
-run.AddText("This is the first paragraph element. ");
+run.AddText("Run 1. ");
 paragraph.AddElement(run);
 
 run = Api.CreateRun();
-run.AddText("This is the second paragraph element. ");
+run.AddText("Run 2. ");
 paragraph.AddElement(run);
 
 run = Api.CreateRun();
-run.AddText("This is the third paragraph element (it will be removed from the paragraph and we will not see it). ");
+run.AddText("Run 3. ");
 paragraph.AddElement(run);
-paragraph.AddLineBreak();
 
 run = Api.CreateRun();
-run.AddText("This is the fourth paragraph element - it became the third, because we removed the previous run from the paragraph. ");
+run.AddText("Run 4. ");
 paragraph.AddElement(run);
-paragraph.AddLineBreak();
 
 run = Api.CreateRun();
-run.AddText("Please note that line breaks are not counted into paragraph elements!");
+run.AddText("Run 5. ");
 paragraph.AddElement(run);
+
 paragraph.RemoveElement(3);
 
 page.AddObject(shape);
