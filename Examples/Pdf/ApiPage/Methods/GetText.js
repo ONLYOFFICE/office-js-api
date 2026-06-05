@@ -1,8 +1,8 @@
-// Find and locate all instances of a word on a page in a PDF.
+// Get all text content from a page in a PDF.
 
-// How do I search for text on a page in a PDF?
+// How do I read the text on a PDF page?
 
-// Look up a specific word and identify all matching locations in a PDF.
+// Extract page text after adding a shape with text content in a PDF.
 
 let doc = Api.GetDocument();
 doc.AddPage();
@@ -16,9 +16,4 @@ paragraph.SetJc("left");
 paragraph.AddText("Lorem selected text");
 page.AddObject(shape);
 
-let quads = page.Search({text: "Lorem", matchCase: false, wholeWords: false});
-if (quads.length > 0) {
-	let annot = Api.CreateHighlightAnnot(quads);
-	page.AddObject(annot);
-}
-console.log('We added a highlight annotations searched word');
+console.log(`Page text is: ${page.GetText()}`);

@@ -6,8 +6,9 @@
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([10, 10, 160, 32]);
-let page = doc.GetPage(0);
+doc.AddPage();
+let page = doc.GetPage(doc.GetPagesCount() - 1);
 page.AddObject(freeTextAnnot);
 
 let annots = page.GetAllAnnots();
-annots[0].SetPosition({x: 30, y: 30});
+annots[annots.length - 1].SetPosition({x: 30, y: 30});
