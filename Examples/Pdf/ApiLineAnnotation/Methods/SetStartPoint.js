@@ -10,4 +10,4 @@ lineAnnot.SetEndStyle("openArrow");
 lineAnnot.SetStartPoint({x: 20, y: 20});
 let page = doc.GetPage(0);
 page.AddObject(lineAnnot);
-console.log(`Start point set to: ${lineAnnot.GetEndPoint()}`);
+console.log(`Start point set to: ${lineAnnot.GetStartPoint()}`);
