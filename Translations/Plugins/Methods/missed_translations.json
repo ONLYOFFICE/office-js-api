@@ -1,1 +1,6 @@
-{}
+{
+    "The plugin [config](../../../../../docs/plugins/fundamentals/configuration/config-json.md).": "The plugin [config](../../../../../docs/plugins/fundamentals/configuration/config-json.md).",
+    "The [config](../../../../../docs/plugins/fundamentals/configuration/config-json.md) of the installed plugin. The version is taken from the config and compared with the current one to check for updates.": "The [config](../../../../../docs/plugins/fundamentals/configuration/config-json.md) of the installed plugin. The version is taken from the config and compared with the current one to check for updates.",
+    "Zero-based page index to navigate to.": "Zero-based page index to navigate to.",
+    "If specified only x1, y1 (ex. [10, 10]) - then moves to them with inherited zoom, if specified whole rect (ex. [10, 10, 100, 100]) then zoom to rect": "If specified only x1, y1 (ex. [10, 10]) - then moves to them with inherited zoom, if specified whole rect (ex. [10, 10, 100, 100]) then zoom to rect"
+}

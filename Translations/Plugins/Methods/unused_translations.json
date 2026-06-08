@@ -1,1 +1,5 @@
-{}
+{
+    "if specified only x1, y1 (ex. [10, 10]) - then moves to them with inherited zoom, if specified whole rect (ex. [10, 10, 100, 100]) then zoom to rect": "如果仅指定 x1、y1（例如 [10, 10]），则以继承的缩放比例移动到该位置；如果指定完整矩形（例如 [10, 10, 100, 100]），则缩放到该矩形",
+    "The [config](../../../../../docs/plugin-and-macros/structure/configuration/configuration.md) of the installed plugin. The version is taken from the config and compared with the current one to check for updates.": "已安装插件的 [config](../../../../../docs/plugin-and-macros/structure/configuration/configuration.md)。从配置中获取版本并与当前版本进行比较以检查更新。",
+    "The plugin [config](../../../../../docs/plugin-and-macros/structure/configuration/configuration.md).": "插件 [config](../../../../../docs/plugin-and-macros/structure/configuration/configuration.md)。"
+}
