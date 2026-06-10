@@ -1,10 +1,10 @@
 // Add a table of contents which is generated from 9 outline levels to the document.
 
-// How to create a table of contents properties indicating the source from which it should be generated.
+// Define the source that the table of contents is generated from, bounding the outline range.
 
-// Add a table of contents from the nine outline levels of the document.
+// Add a table of contents spanning the outline levels from the start level up to level 9.
 
-let tocBuildFromPr = { "OutlineLvls": 9 };
+let tocBuildFromPr = { "OutlineLvlStart": 1, "OutlineLvls": 9 };
 let tocPr = {
 	"ShowPageNums": true,
 	"RightAlgn": true,
