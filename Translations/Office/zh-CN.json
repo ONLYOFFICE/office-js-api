@@ -6141,6 +6141,7 @@
     "Retrieve the user ID of the comment author in a document.": "检索文档中批注作者的用户 ID。",
     "Assign a user ID to the author of a comment in a document.": "为文档中批注的作者分配用户 ID。",
     "Determine whether a comment is marked as resolved in a document.": "确定文档中的批注是否标记为已解决。",
+    "Check whether the current paragraph has no content elements.": "检查当前段落是否没有内容元素。",
     "Mark a comment as resolved in a document.": "将文档中的批注标记为已解决。",
     "Read the creation timestamp of a comment in UTC format in a document.": "读取文档中批注的 UTC 格式创建时间戳。",
     "Set the creation timestamp of a comment in UTC format in a document.": "设置文档中批注的 UTC 格式创建时间戳。",
