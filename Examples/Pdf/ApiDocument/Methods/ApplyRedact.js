@@ -6,7 +6,8 @@
 
 let doc = Api.GetDocument();
 let redactAnnot = Api.CreateRedactAnnot([84, 60, 231, 70]);
-let page = doc.GetPage(0);
+doc.AddPage();
+let page = doc.GetPage(doc.GetPagesCount() - 1);
 page.AddObject(redactAnnot);
 doc.ApplyRedact();
 console.log('We added a redact annot to first page and applied it');

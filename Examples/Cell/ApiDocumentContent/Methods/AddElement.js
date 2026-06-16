@@ -12,5 +12,4 @@ let content = shape.GetContent();
 content.RemoveAllElements();
 let paragraph = Api.CreateParagraph();
 paragraph.AddText("We removed all elements from the shape and added a new paragraph inside it.");
-content.AddElement(paragraph);
-content.Push(paragraph);
+content.AddElement(0, paragraph);

@@ -15,23 +15,23 @@ const shape = Api.CreateShape("flowChartMagneticTape", 150 * 36000, 65 * 36000, 
 shape.SetPosition(608400, 1267200);
 
 const docContent = shape.GetContent();
-let paragraph = docContent.GetElement(0);
+const paragraph = docContent.GetElement(0);
 paragraph.AddText("This is a paragraph with the text in it aligned by the center. ");
 paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
 paragraph.AddText("These sentences are used to add lines for demonstrative purposes.");
 paragraph.SetJc("center");
 
-paragraph = Api.CreateParagraph();
-paragraph.AddText("This is a paragraph with the text in it aligned by the right side. ");
-paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-paragraph.AddText("These sentences are used to add lines for demonstrative purposes.");
-paragraph.SetJc("right");
-docContent.Push(paragraph);
+const paragraph2 = Api.CreateParagraph();
+paragraph2.AddText("This is a paragraph with the text in it aligned by the right side. ");
+paragraph2.AddText("These sentences are used to add lines for demonstrative purposes. ");
+paragraph2.AddText("These sentences are used to add lines for demonstrative purposes.");
+paragraph2.SetJc("right");
+docContent.Push(paragraph2);
 
-paragraph = Api.CreateParagraph();
-paragraph.AddText("This is a paragraph with the text in it aligned by the left side. ");
-paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-paragraph.AddText("These sentences are used to add lines for demonstrative purposes.");
-paragraph.SetJc("left");
-docContent.Push(paragraph);
+const paragraph3 = Api.CreateParagraph();
+paragraph3.AddText("This is a paragraph with the text in it aligned by the left side. ");
+paragraph3.AddText("These sentences are used to add lines for demonstrative purposes. ");
+paragraph3.AddText("These sentences are used to add lines for demonstrative purposes.");
+paragraph3.SetJc("left");
+docContent.Push(paragraph3);
 page.AddObject(shape);

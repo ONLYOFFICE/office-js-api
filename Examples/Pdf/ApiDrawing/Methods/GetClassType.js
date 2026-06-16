@@ -14,8 +14,7 @@ drawing.SetPosition(608400, 1267200);
 drawing.SetSize(150 * 36000, 65 * 36000);
 page.AddObject(drawing);
 
-const aDrawings = page.GetAllDrawings();
-const sType = aDrawings[0].GetClassType();
+const sType = drawing.GetClassType();
 const docContent = drawing.GetContent();
 const paragraph = docContent.GetElement(0);
 paragraph.SetJc("left");

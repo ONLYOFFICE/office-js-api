@@ -5,7 +5,8 @@
 // Show the page count in a text field in a PDF.
 
 let doc = Api.GetDocument();
-let page = doc.GetPage(0);
+doc.AddPage();
+let page = doc.GetPage(doc.GetPagesCount() - 1);
 let textField = Api.CreateTextField([10, 10, 160, 32]);
 page.AddObject(textField);
 textField.SetValue(doc.GetPagesCount());

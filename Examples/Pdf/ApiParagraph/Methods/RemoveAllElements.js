@@ -19,5 +19,4 @@ const paragraph = docContent.GetElement(0);
 paragraph.AddText("This is the first text run in the current paragraph.");
 paragraph.RemoveAllElements();
 paragraph.AddText("We removed all the paragraph elements and added a new text run inside it.");
-docContent.Push(paragraph);
 page.AddObject(shape);

@@ -20,24 +20,27 @@ jobs:
         uses: actions/checkout@v4
         with:
           path: office-js-api
+          fetch-depth: 1
 
-      - name: Checkout build_tools repository (branch)
-        id: checkout_build_tools
+      - name: Checkout onlyoffice repository (branch)
+        id: checkout_onlyoffice
         continue-on-error: true
         uses: actions/checkout@v4
         with:
-          repository: ONLYOFFICE/build_tools
+          repository: ONLYOFFICE/onlyoffice
           token: ${{ secrets.READ_PAT }}
           ref: ${{ github.ref_name }}
-          path: build_tools
+          path: onlyoffice
+          fetch-depth: 1
 
-      - name: Checkout build_tools repository (default)
-        if: steps.checkout_build_tools.outcome == 'failure'
+      - name: Checkout onlyoffice repository (default)
+        if: steps.checkout_onlyoffice.outcome == 'failure'
         uses: actions/checkout@v4
         with:
-          repository: ONLYOFFICE/build_tools
+          repository: ONLYOFFICE/onlyoffice
           token: ${{ secrets.READ_PAT }}
-          path: build_tools
+          path: onlyoffice
+          fetch-depth: 1
 
       - name: Checkout sdkjs repository (branch)
         id: checkout_sdkjs
@@ -48,6 +51,7 @@ jobs:
           token: ${{ secrets.READ_PAT }}
           ref: ${{ github.ref_name }}
           path: sdkjs
+          fetch-depth: 1
 
       - name: Checkout sdkjs repository (default)
         if: steps.checkout_sdkjs.outcome == 'failure'
@@ -56,6 +60,7 @@ jobs:
           repository: ONLYOFFICE/sdkjs
           token: ${{ secrets.READ_PAT }}
           path: sdkjs
+          fetch-depth: 1
 
       - name: Checkout sdkjs-forms repository (branch)
         id: checkout_sdkjs_forms
@@ -66,6 +71,7 @@ jobs:
           token: ${{ secrets.READ_PAT }}
           ref: ${{ github.ref_name }}
           path: sdkjs-forms
+          fetch-depth: 1
 
       - name: Checkout sdkjs-forms repository (default)
         if: steps.checkout_sdkjs_forms.outcome == 'failure'
@@ -74,6 +80,27 @@ jobs:
           repository: ONLYOFFICE/sdkjs-forms
           token: ${{ secrets.READ_PAT }}
           path: sdkjs-forms
+          fetch-depth: 1
+
+      - name: Checkout sdkjs-ext repository (branch)
+        id: checkout_sdkjs_ext
+        continue-on-error: true
+        uses: actions/checkout@v4
+        with:
+          repository: ONLYOFFICE/sdkjs-ext
+          token: ${{ secrets.READ_PAT }}
+          ref: ${{ github.ref_name }}
+          path: sdkjs-ext
+          fetch-depth: 1
+
+      - name: Checkout sdkjs-ext repository (default)
+        if: steps.checkout_sdkjs_ext.outcome == 'failure'
+        uses: actions/checkout@v4
+        with:
+          repository: ONLYOFFICE/sdkjs-ext
+          token: ${{ secrets.READ_PAT }}
+          path: sdkjs-ext
+          fetch-depth: 1
 
       - name: Set up Git
         run: |
@@ -82,7 +109,7 @@ jobs:
 
       - name: Create output directories
         run: |
-          mkdir -p api.onlyoffice.com/text-document-api
+          mkdir -p api.onlyoffice.com/document-api
           mkdir -p api.onlyoffice.com/spreadsheet-api
           mkdir -p api.onlyoffice.com/presentation-api
           mkdir -p api.onlyoffice.com/form-api
@@ -91,12 +118,12 @@ jobs:
       - name: Build office-js-api
         run: |
           WORKSPACE_ROOT=$(pwd)
-          cd build_tools/scripts/sdkjs_common/jsdoc
+          cd onlyoffice/tools/docs
           npm install
           python office-api/generate_docs_md.py "$WORKSPACE_ROOT/api.onlyoffice.com/" --translations "$WORKSPACE_ROOT/office-js-api/Translations/Office/zh-CN.json"
           python plugins/generate_docs_methods_md.py "$WORKSPACE_ROOT/api.onlyoffice.com/" --translations "$WORKSPACE_ROOT/office-js-api/Translations/Plugins/Methods/zh-CN.json"
           python plugins/generate_docs_events_md.py "$WORKSPACE_ROOT/api.onlyoffice.com/" --translations "$WORKSPACE_ROOT/office-js-api/Translations/Plugins/Events/zh-CN.json"
-          cd ../../../../office-js-api
+          cd ../../../office-js-api
 
           if ! git diff --exit-code; then
               git add .

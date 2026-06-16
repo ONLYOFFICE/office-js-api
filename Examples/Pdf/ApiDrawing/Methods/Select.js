@@ -18,8 +18,4 @@ const paragraph = docContent.GetElement(0);
 paragraph.AddText("Example drawing");
 page.AddObject(shape);
 
-const allDrawings = page.GetAllDrawings();
-if (allDrawings.length > 0) {
-	const drawing = allDrawings[0];
-	drawing.Select();
-}
+shape.Select();

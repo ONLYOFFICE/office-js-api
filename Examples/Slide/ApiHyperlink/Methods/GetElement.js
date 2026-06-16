@@ -39,7 +39,6 @@ hyperlink = shape.GetHyperlink();
 element = hyperlink.GetElement(0);
 if (element) {
 	infoParagraph.AddText('The element at position 0 in the shape hyperlink is: ' + element.GetText());
-	infoParagraph.AddElement(element);
 } else {
 	infoParagraph.AddText('There is no element at position 0 in the shape hyperlink.');
 }
