@@ -398,7 +398,7 @@
     "A unique form key. Present only if the content control is a form field.": "唯一的表单键。仅在内容控件为表单字段时显示。",
     "The current value of the form field. Present only if the content control is a form field.": "表单字段的当前值。仅在内容控件为表单字段时显示。",
     "A unique content control identifier. It can be used to search for a certain content control and make reference to it in your code.": "唯一的内容控件标识符。可用于搜索特定的内容控件并在代码中引用它。",
-    "A group key of the radio button. Present only if the content control is a radio button form field .": "单选按钮的组键。仅在内容控件为单选按钮表单字段时显示。",
+    "A group key of the radio button. Present only if the content control is a radio button form field.": "单选按钮的组键。仅在内容控件为单选按钮表单字段时显示。",
     "The shading color of the content control. Present only if the shading color is set.": "内容控件的底纹颜色。仅在设置了底纹颜色时显示。",
     "A tag assigned to the content control. The same tag can be assigned to several content controls so that you can make reference to them in your code.": "分配给内容控件的标签。同一标签可以分配给多个内容控件，以便在代码中引用它们。",
     "Moves to specified page.": "移动到指定页面。",
