@@ -382,9 +382,7 @@
     "Specifies whether each paragraph will be created in a separate shape.": "指定是否在单独的形状中创建每个段落。",
     "Options to replace the XML page content.": "替换 XML 页面内容的选项。",
     "An array with XML shapes to be replaced.": "要替换的 XML 形状数组。",
-    "The plugin [config](../../../../../docs/plugin-and-macros/structure/configuration/configuration.md).": "插件 [config](../../../../../docs/plugin-and-macros/structure/configuration/configuration.md)。",
     "The type which specifies the preset shape geometry for the current watermark.": "指定当前水印预设形状几何的类型。",
-    "The [config](../../../../../docs/plugin-and-macros/structure/configuration/configuration.md) of the installed plugin. The version is taken from the config and compared with the current one to check for updates.": "已安装插件的 [config](../../../../../docs/plugin-and-macros/structure/configuration/configuration.md)。从配置中获取版本并与当前版本进行比较以检查更新。",
     "This type specifies the preset shape geometry that will be used for a shape.": "此类型指定将用于形状的预设形状几何。",
     "Moves the cursor outside a field to the position before or after it.": "将光标移动到字段外部，定位在字段之前或之后。",
     "Moves the cursor to the beginning or end of a field.": "将光标移动到字段的开头或末尾。",
@@ -400,11 +398,10 @@
     "A unique form key. Present only if the content control is a form field.": "唯一的表单键。仅在内容控件为表单字段时显示。",
     "The current value of the form field. Present only if the content control is a form field.": "表单字段的当前值。仅在内容控件为表单字段时显示。",
     "A unique content control identifier. It can be used to search for a certain content control and make reference to it in your code.": "唯一的内容控件标识符。可用于搜索特定的内容控件并在代码中引用它。",
-    "A group key of the radio button. Present only if the content control is a radio button form field .": "单选按钮的组键。仅在内容控件为单选按钮表单字段时显示。",
+    "A group key of the radio button. Present only if the content control is a radio button form field.": "单选按钮的组键。仅在内容控件为单选按钮表单字段时显示。",
     "The shading color of the content control. Present only if the shading color is set.": "内容控件的底纹颜色。仅在设置了底纹颜色时显示。",
     "A tag assigned to the content control. The same tag can be assigned to several content controls so that you can make reference to them in your code.": "分配给内容控件的标签。同一标签可以分配给多个内容控件，以便在代码中引用它们。",
     "Moves to specified page.": "移动到指定页面。",
-    "if specified only x1, y1 (ex. [10, 10]) - then moves to them with inherited zoom, if specified whole rect (ex. [10, 10, 100, 100]) then zoom to rect": "如果仅指定 x1、y1（例如 [10, 10]），则以继承的缩放比例移动到该位置；如果指定完整矩形（例如 [10, 10, 100, 100]），则缩放到该矩形",
     "Axis-aligned rectangle represented as a tuple.\n\nInvariants:\n - rect[0] < rect[2] (x1 < x2)\n - rect[1] < rect[3] (y1 < y2)": "以元组表示的轴对齐矩形。\n\n不变量：\n - rect[0] < rect[2] (x1 < x2)\n - rect[1] < rect[3] (y1 < y2)",
     "x1 (left)": "x1（左）",
     "y1 (top)": "y1（上）",
@@ -464,5 +461,9 @@
     "The drag&drop event type: **onbeforedrop** - an event that is fired when the selected text or element is dragged; **ondrop** - an event that is fired when the selected text or element is dropped on a valid drop target.": "拖放事件类型：**onbeforedrop** - 当所选文本或元素被拖动时触发的事件；**ondrop** - 当所选文本或元素放置在有效的放置目标上时触发的事件。",
     "The display mode: **edit** - all changes are displayed, **simple** - all changes are displayed but the balloons are turned off, **final** - all accepted changes are displayed, **original** - all rejected changes are displayed.": "显示模式：**edit** - 显示所有更改，**simple** - 显示所有更改但关闭气泡提示，**final** - 显示所有已接受的更改，**original** - 显示所有已拒绝的更改。",
     "This functionality is available in paid ONLYOFFICE Docs editions.": "此功能在 ONLYOFFICE Docs 付费版本中可用。",
-    "A format in which the date will be displayed. For example: *\"MM/DD/YYYY\", \"dddd\\,\\ mmmm\\ dd\\,\\ yyyy\", \"DD\\ MMMM\\ YYYY\", \"MMMM\\ DD\\,\\ YYYY\", \"DD-MMM-YY\", \"MMMM\\ YY\", \"MMM-YY\", \"MM/DD/YYYY\\ hh:mm\\ AM/PM\", \"MM/DD/YYYY\\ hh:mm:ss\\ AM/PM\", \"hh:mm\", \"hh:mm:ss\", \"hh:mm\\ AM/PM\", \"hh:mm:ss:\\ AM/PM\"*.": "日期的显示格式。例如：*\"MM/DD/YYYY\"、\"dddd\\,\\ mmmm\\ dd\\,\\ yyyy\"、\"DD\\ MMMM\\ YYYY\"、\"MMMM\\ DD\\,\\ YYYY\"、\"DD-MMM-YY\"、\"MMMM\\ YY\"、\"MMM-YY\"、\"MM/DD/YYYY\\ hh:mm\\ AM/PM\"、\"MM/DD/YYYY\\ hh:mm:ss\\ AM/PM\"、\"hh:mm\"、\"hh:mm:ss\"、\"hh:mm\\ AM/PM\"、\"hh:mm:ss:\\ AM/PM\"*。"
+    "A format in which the date will be displayed. For example: *\"MM/DD/YYYY\", \"dddd\\,\\ mmmm\\ dd\\,\\ yyyy\", \"DD\\ MMMM\\ YYYY\", \"MMMM\\ DD\\,\\ YYYY\", \"DD-MMM-YY\", \"MMMM\\ YY\", \"MMM-YY\", \"MM/DD/YYYY\\ hh:mm\\ AM/PM\", \"MM/DD/YYYY\\ hh:mm:ss\\ AM/PM\", \"hh:mm\", \"hh:mm:ss\", \"hh:mm\\ AM/PM\", \"hh:mm:ss:\\ AM/PM\"*.": "日期的显示格式。例如：*\"MM/DD/YYYY\"、\"dddd\\,\\ mmmm\\ dd\\,\\ yyyy\"、\"DD\\ MMMM\\ YYYY\"、\"MMMM\\ DD\\,\\ YYYY\"、\"DD-MMM-YY\"、\"MMMM\\ YY\"、\"MMM-YY\"、\"MM/DD/YYYY\\ hh:mm\\ AM/PM\"、\"MM/DD/YYYY\\ hh:mm:ss\\ AM/PM\"、\"hh:mm\"、\"hh:mm:ss\"、\"hh:mm\\ AM/PM\"、\"hh:mm:ss:\\ AM/PM\"*。",
+    "The plugin [config](../../../../../docs/plugins/configuration/configuration.md).": "插件 [config](../../../../../docs/plugins/configuration/configuration.md)。",
+    "The [config](../../../../../docs/plugins/configuration/configuration.md) of the installed plugin. The version is taken from the config and compared with the current one to check for updates.": "已安装插件的 [config](../../../../../docs/plugins/configuration/configuration.md)。从配置中获取版本并与当前版本进行比较以检查更新。",
+    "Zero-based page index to navigate to.": "要导航到的从零开始的页面索引。",
+    "If specified only x1, y1 (ex. [10, 10]) - then moves to them with inherited zoom, if specified whole rect (ex. [10, 10, 100, 100]) then zoom to rect": "如果仅指定 x1、y1（例如 [10, 10]），则以继承的缩放比例移动到该位置；如果指定完整矩形（例如 [10, 10, 100, 100]），则缩放到该矩形"
 }
