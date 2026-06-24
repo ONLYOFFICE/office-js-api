@@ -1,6 +1,6 @@
 // Retrieve all marked comments and notes from a page in a PDF.
 
-// How do I access all the annotations in a PDF?
+// Useful for accessing all the annotations in a PDF.
 
 // List every comment attached to the current page in a PDF.
 

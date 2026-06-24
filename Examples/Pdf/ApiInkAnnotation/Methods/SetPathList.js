@@ -1,6 +1,6 @@
 // Set the path list of an ink annotation in a PDF.
 
-// How do I change the lines that make up an ink drawing in a PDF?
+// Useful for changing the lines that make up an ink drawing in a PDF.
 
 // Replace the path coordinates for an ink annotation in a PDF.
 

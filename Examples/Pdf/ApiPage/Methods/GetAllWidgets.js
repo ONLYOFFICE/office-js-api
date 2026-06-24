@@ -1,6 +1,6 @@
 // Retrieve all interactive fields from a page in a PDF.
 
-// How do I access all the form fields in a PDF?
+// Useful for accessing all the form fields in a PDF.
 
 // List every interactive element on the current page in a PDF.
 

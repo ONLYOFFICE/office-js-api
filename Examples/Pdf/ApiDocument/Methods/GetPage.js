@@ -1,6 +1,6 @@
 // Access a single page from a PDF.
 
-// How do I work with a specific page in a PDF?
+// Useful for working with a specific page in a PDF.
 
 // Retrieve a page and rotate it in a PDF.
 

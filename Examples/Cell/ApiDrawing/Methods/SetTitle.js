@@ -1,6 +1,6 @@
-// This example sets the title of a drawing.
+// Set the title of a drawing in a spreadsheet.
 
-// How to set the title (alternative text) of a drawing.
+// Useful for assigning the alternative text title of a drawing.
 
 // Create a drawing and set its title.
 

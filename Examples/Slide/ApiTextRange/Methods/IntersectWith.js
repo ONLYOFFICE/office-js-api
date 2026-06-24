@@ -1,6 +1,6 @@
-// This example intersects two overlapping text ranges and returns the common part.
+// Intersect two overlapping text ranges and return their common part.
 
-// How to get the intersection of two text ranges.
+// Useful for finding the shared portion between two selections.
 
 // Create two partially overlapping ranges and get their intersection.
 

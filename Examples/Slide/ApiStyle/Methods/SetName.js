@@ -1,6 +1,6 @@
-// This example sets a new name for the style.
+// Set a new name for the table style in a presentation.
 
-// How to rename a table style.
+// Helps when renaming a table style.
 
 // Get a table style, rename it, and display the new name.
 

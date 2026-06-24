@@ -1,6 +1,6 @@
 // Get the class type of an ink annotation in a PDF.
 
-// How do I verify the category of an ink annotation in a PDF?
+// Useful for verifying the category of an ink annotation in a PDF.
 
 // Determine the classification of an ink annotation in a PDF.
 

@@ -1,6 +1,6 @@
 // Get the path list of an ink annotation in a PDF.
 
-// How do I retrieve the path coordinates from an ink drawing in a PDF?
+// Useful for retrieving the path coordinates from an ink drawing in a PDF.
 
 // Read the collection of drawn lines in an ink annotation in a PDF.
 

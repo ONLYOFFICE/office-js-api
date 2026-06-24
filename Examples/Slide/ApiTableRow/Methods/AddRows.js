@@ -1,6 +1,6 @@
-// This example adds new rows to the table.
+// Add new rows to the table from a row in a presentation.
 
-// How to add rows after a specific row.
+// Useful for adding rows after a specific row.
 
 // Insert two new rows after the first row.
 

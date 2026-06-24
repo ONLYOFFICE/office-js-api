@@ -1,6 +1,6 @@
 // Obtain the exact boundaries of selected text on a page in a PDF.
 
-// How do I find the coordinates of highlighted text in a PDF?
+// Useful for finding the coordinates of highlighted text in a PDF.
 
 // Fetch the selection areas to mark them with visual highlights in a PDF.
 

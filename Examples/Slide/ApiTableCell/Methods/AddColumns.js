@@ -1,6 +1,6 @@
-// This example adds new columns to the table via a cell.
+// Add new columns to the table via a cell in a presentation.
 
-// How to insert columns after a specific cell.
+// Useful for inserting columns after a specific cell.
 
 // Add two columns after the first cell.
 

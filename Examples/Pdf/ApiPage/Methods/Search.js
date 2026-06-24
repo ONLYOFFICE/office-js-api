@@ -1,6 +1,6 @@
 // Find and locate all instances of a word on a page in a PDF.
 
-// How do I search for text on a page in a PDF?
+// Useful for searching for text on a page in a PDF.
 
 // Look up a specific word and identify all matching locations in a PDF.
 

@@ -1,6 +1,6 @@
 // Read the chart type name assigned to a specific data series in a spreadsheet.
 
-// How do I get the chart type name a particular series is using in a spreadsheet?
+// Useful for confirming which chart type a specific data series uses in a spreadsheet.
 
 // Retrieve a series chart type and write the result to a cell in a spreadsheet.
 

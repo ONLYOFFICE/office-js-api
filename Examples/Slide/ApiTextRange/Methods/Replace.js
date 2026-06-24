@@ -1,6 +1,6 @@
-// This example replaces all occurrences of a word in the text range.
+// Replace all occurrences of a word within a text range.
 
-// How to replace text within a text range.
+// Useful for bulk text substitution inside a shape.
 
 // Replace every occurrence of "foo" with "bar".
 

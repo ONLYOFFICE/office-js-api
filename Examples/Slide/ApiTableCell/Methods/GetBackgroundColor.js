@@ -1,6 +1,6 @@
-// This example gets the background color of a table cell.
+// Get the background color of a table cell in a presentation.
 
-// How to read the background color of a cell.
+// Needed when reading the background color of a cell.
 
 // Set a background color and read it back.
 

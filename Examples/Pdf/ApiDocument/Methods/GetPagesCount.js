@@ -1,6 +1,6 @@
 // Count the total number of pages in a PDF.
 
-// How do I find out how many pages my PDF has?
+// Useful for finding out how many pages a PDF has.
 
 // Show the page count in a text field in a PDF.
 

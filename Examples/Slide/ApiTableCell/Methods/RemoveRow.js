@@ -1,6 +1,6 @@
-// This example removes the row containing the cell.
+// Remove the row containing the cell in a presentation.
 
-// How to delete a row by its cell.
+// Useful for deleting a row by its cell.
 
 // Get the first cell and remove its entire row.
 

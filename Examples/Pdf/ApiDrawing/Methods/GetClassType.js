@@ -1,6 +1,6 @@
 // Check what type of shape an object is in a PDF.
 
-// How do I identify the category of a drawing object in a PDF?
+// Useful for identifying the category of a drawing object in a PDF.
 
 // Determine the kind of object you're working with in a PDF.
 

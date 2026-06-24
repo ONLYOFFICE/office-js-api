@@ -1,6 +1,6 @@
 // Read the chart type name of a data series in a PDF.
 
-// How do I get the chart type name a particular series uses in a PDF?
+// Useful for getting the chart type name a particular series uses in a PDF.
 
 // Display the chart type of a series as text in a PDF.
 

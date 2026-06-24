@@ -1,6 +1,6 @@
-// This example deletes the table from the slide.
+// Delete the table from the slide in a presentation.
 
-// How to remove a table from the presentation slide.
+// Useful for removing a table from the presentation slide.
 
 // Create a table and then delete it from the slide.
 

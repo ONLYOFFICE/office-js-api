@@ -1,6 +1,6 @@
-// This example inserts text at the end of the text range.
+// Insert text at the end of a text range in a presentation shape.
 
-// How to append text to a text range.
+// Useful for appending text to a shape without replacing the existing content.
 
 // Append " World" after the existing text in the shape.
 

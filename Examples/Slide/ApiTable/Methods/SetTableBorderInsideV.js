@@ -1,6 +1,6 @@
-// This example sets the border displayed between vertical columns inside the table.
+// Set the border displayed between vertical columns inside the table in a presentation.
 
-// How to add inner vertical borders to a table.
+// Useful for adding inner vertical borders to a table.
 
 // Create a 3x3 table and set the vertical inner borders.
 

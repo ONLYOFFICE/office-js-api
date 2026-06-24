@@ -1,6 +1,6 @@
-// This example gets the title of a drawing.
+// Get the title of a drawing in a presentation.
 
-// How to get the title (alternative text) of a drawing.
+// Needed when reading the alternative text title of a drawing.
 
 // Create a drawing, set its title, and read it back.
 

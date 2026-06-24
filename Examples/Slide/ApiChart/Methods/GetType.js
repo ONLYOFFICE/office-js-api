@@ -1,6 +1,6 @@
 // Identify the chart type using the chart type name in a presentation.
 
-// How do I get the chart type name of a chart in a presentation?
+// Useful for confirming a chart's type before applying type-specific formatting in a presentation.
 
 // Determine the chart type and display it as the title in a presentation.
 

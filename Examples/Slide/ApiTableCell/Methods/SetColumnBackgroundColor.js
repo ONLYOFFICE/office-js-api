@@ -1,6 +1,6 @@
-// This example sets the background color for all cells in the column containing the cell.
+// Set the background color for all cells in the column containing the cell in a presentation.
 
-// How to color an entire column background.
+// Useful for coloring an entire column background.
 
 // Set an orange background for the entire first column.
 

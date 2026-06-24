@@ -1,6 +1,6 @@
 // Identify the object type of a page in a PDF.
 
-// How do I determine what kind of object this is in a PDF?
+// Useful for determining what kind of object this is in a PDF.
 
 // Retrieve the classification name for this element in a PDF.
 

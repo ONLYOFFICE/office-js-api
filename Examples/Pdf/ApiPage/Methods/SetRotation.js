@@ -1,6 +1,6 @@
 // Rotate a page to a specific angle in a PDF.
 
-// How do I turn a page to face the right direction in a PDF?
+// Useful for turning a page to face the right direction in a PDF.
 
 // Apply a rotation transformation to change the page orientation in a PDF.
 

@@ -1,6 +1,6 @@
-// This example merges all cells in a table row.
+// Merge all cells in a table row in a presentation.
 
-// How to merge cells of a row into one.
+// Useful for merging cells of a row into one.
 
 // Merge all cells of the first row.
 

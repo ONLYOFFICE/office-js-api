@@ -1,6 +1,6 @@
-// This example sets the background color of a table cell.
+// Set the background color of a table cell in a presentation.
 
-// How to color the background of a cell.
+// Useful for coloring the background of a cell.
 
 // Set an orange background for the first cell.
 

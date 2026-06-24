@@ -1,6 +1,6 @@
 // Add a hint text that appears before you type in a combobox field in a PDF.
 
-// How do I add a hint text to an empty combobox field in a PDF?
+// Useful for adding a hint text to an empty combobox field in a PDF.
 
 // Configure what example text shows when a combobox field is empty in a PDF.
 

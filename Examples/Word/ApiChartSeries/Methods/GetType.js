@@ -1,6 +1,6 @@
 // Read the chart type name of a specific data series in a document.
 
-// How do I get the chart type name a data series is using in a document?
+// Useful for confirming which chart type a specific data series uses in a document.
 
 // Verify the type assigned to a series before deciding whether to change it in a document.
 

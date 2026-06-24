@@ -1,6 +1,6 @@
 // Set a tooltip for a form field in a PDF.
 
-// How do I add helper text to a field?
+// Useful for adding helper text to a field.
 
 // Assign a tooltip to a text field.
 

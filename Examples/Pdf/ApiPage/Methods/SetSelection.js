@@ -1,6 +1,6 @@
 // Mark a specific area of text as selected on a page in a PDF.
 
-// How do I highlight a range of text on a page in a PDF?
+// Useful for highlighting a range of text on a page in a PDF.
 
 // Define and activate a text selection within given coordinates in a PDF.
 

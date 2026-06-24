@@ -1,6 +1,6 @@
-// This example sets a uniform border for the entire table.
+// Set a uniform border for the entire table in a presentation.
 
-// How to set a single border style for all table borders at once.
+// Useful for setting a single border style for all table borders at once.
 
 // Create a 3x3 table and apply a border to all sides.
 

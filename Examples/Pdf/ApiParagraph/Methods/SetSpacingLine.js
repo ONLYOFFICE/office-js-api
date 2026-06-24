@@ -1,6 +1,6 @@
 // Adjust the distance between lines of text in a PDF.
 
-// How do I change line height in a paragraph in a PDF?
+// Useful for changing line height in a paragraph in a PDF.
 
 // Control vertical spacing to make text more compact or spaced out in a PDF.
 

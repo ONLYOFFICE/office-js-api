@@ -1,6 +1,6 @@
-// This example sets the character spacing for all runs within the text range.
+// Set the character spacing for all runs within a text range.
 
-// How to adjust the character spacing of a text range.
+// Useful for tightening or loosening letter spacing in a selection.
 
 // Apply 80 twentieths-of-a-point spacing to the entire text range.
 

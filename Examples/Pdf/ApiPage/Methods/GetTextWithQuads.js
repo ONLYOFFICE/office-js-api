@@ -1,6 +1,6 @@
 // Get text content and its coordinates from a page in a PDF.
 
-// How do I read PDF page text together with its location?
+// Useful for reading PDF page text together with its location.
 
 // Extract page text lines with quadrilateral coordinates in a PDF.
 

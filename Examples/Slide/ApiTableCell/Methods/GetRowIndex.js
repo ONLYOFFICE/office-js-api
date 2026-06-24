@@ -1,6 +1,6 @@
-// This example shows how to get the row index of a table cell.
+// Get the row index of a table cell in a presentation.
 
-// How to get the row index of the cell.
+// Useful for getting the row index of the cell.
 
 // Retrieve the row index and display it in the cell.
 

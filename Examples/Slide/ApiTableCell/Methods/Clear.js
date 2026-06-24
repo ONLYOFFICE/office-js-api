@@ -1,6 +1,6 @@
-// This example clears the content of a table cell.
+// Clear the content of a table cell in a presentation.
 
-// How to remove all content from a cell.
+// Useful for removing all content from a cell.
 
 // Add text to a cell and then clear it.
 

@@ -1,6 +1,6 @@
-// This example gets all paragraphs covered by the text range.
+// Get all paragraphs covered by a text range in a presentation shape.
 
-// How to get an array of all paragraphs in a text range.
+// Useful for iterating over every paragraph within a selection.
 
 // Retrieve all paragraphs and display their count.
 

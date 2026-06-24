@@ -1,6 +1,6 @@
-// This example shows how to get the parent table of a row.
+// Get the parent table of a row in a presentation.
 
-// How to get the table that contains the row.
+// Useful for getting the table that contains the row.
 
 // Get the parent table from a row and set its border.
 

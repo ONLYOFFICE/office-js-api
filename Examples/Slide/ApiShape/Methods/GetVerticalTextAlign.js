@@ -1,6 +1,6 @@
 // Read the vertical text alignment of a shape in a presentation.
 
-// How do I find out whether shape text is aligned to the top, middle, or bottom in a presentation?
+// Useful for verifying vertical text placement before adjusting shape layout in a presentation.
 
 // Retrieve the current vertical alignment of a shape's inner content in a presentation.
 

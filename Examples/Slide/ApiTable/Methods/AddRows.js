@@ -1,6 +1,6 @@
-// This example adds new rows to the table.
+// Add new rows to the table in a presentation.
 
-// How to add multiple rows to a table at once.
+// Useful for adding multiple rows to a table at once.
 
 // Create a table and add two rows after the first row.
 

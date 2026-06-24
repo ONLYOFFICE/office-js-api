@@ -1,6 +1,6 @@
-// This example sets the preferred width of the table.
+// Set the preferred width of the table in a presentation.
 
-// How to set the width of a table.
+// Useful for setting the width of a table.
 
 // Create a table and set its width to a fixed value.
 

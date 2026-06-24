@@ -1,6 +1,6 @@
-// This example shows how to get the number of rows in the table.
+// Get the number of rows in the table in a presentation.
 
-// How to count the number of rows in a table.
+// Useful for counting the number of rows in a table.
 
 // Create a table, add a row, and display the row count in the first cell.
 

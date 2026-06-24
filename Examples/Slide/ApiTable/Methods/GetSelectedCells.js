@@ -1,6 +1,6 @@
-// This example gets the selected cells from the table.
+// Get the selected cells from the table in a presentation.
 
-// How to retrieve currently selected cells in a table.
+// Useful for retrieving currently selected cells in a table.
 
 // Create a table and get the list of selected cells (returns empty when no selection).
 

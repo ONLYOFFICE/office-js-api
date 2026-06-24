@@ -1,6 +1,6 @@
 // Access the inner content of a shape in a PDF.
 
-// How do I get what is inside a shape in a PDF?
+// Useful for inspecting or modifying a shape's nested content in a PDF.
 
 // Extract and work with a shape's content in a PDF.
 

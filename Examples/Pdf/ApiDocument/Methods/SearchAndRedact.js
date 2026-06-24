@@ -1,6 +1,6 @@
 // Find and hide sensitive text in a PDF.
 
-// How do I black out certain words throughout a PDF?
+// Useful for blacking out certain words throughout a PDF.
 
 // Search for a word and apply redaction to all matches in a PDF.
 

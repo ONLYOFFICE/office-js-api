@@ -1,6 +1,6 @@
-// This example sets the border displayed at the left side of the table.
+// Set the border displayed at the left side of the table in a presentation.
 
-// How to add a left border to a table.
+// Useful for adding a left border to a table.
 
 // Create a 3x3 table and set a thick left border.
 

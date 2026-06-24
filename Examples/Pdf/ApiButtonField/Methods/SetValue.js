@@ -1,6 +1,6 @@
 // Set an image value for all button field widgets in a PDF.
 
-// How do I assign an image to a button field?
+// Useful for assigning an image to a button field.
 
 // Create an image field and set the image for its widgets.
 

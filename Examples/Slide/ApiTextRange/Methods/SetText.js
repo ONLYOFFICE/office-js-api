@@ -1,6 +1,6 @@
-// This example sets new text content to the range, replacing existing text.
+// Set new text content to a range, replacing the existing text.
 
-// How to replace the text in a shape using a text range.
+// Useful for swapping out a shape's text without recreating the range.
 
 // Replace the shape text with new content and verify the result.
 

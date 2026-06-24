@@ -1,6 +1,6 @@
 // Add left margin spacing to a paragraph in a PDF.
 
-// How do I indent text from the left edge in a PDF?
+// Useful for indenting text from the left edge in a PDF.
 
 // Push paragraph content away from the left side in a PDF.
 

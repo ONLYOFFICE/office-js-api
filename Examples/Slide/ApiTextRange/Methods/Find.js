@@ -1,6 +1,6 @@
-// This example searches for a word in the text range and returns its sub-range.
+// Search for a word within a text range and return its sub-range.
 
-// How to find a substring within a text range.
+// Useful for locating a substring and acting on its exact position.
 
 // Find the word "World" in the shape text and display its start position.
 

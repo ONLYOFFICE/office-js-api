@@ -1,6 +1,6 @@
-// This example shows how to get the row index.
+// Get the row index in a presentation.
 
-// How to get the index of a table row.
+// Useful for getting the index of a table row.
 
 // Get the index of the second row and display it in the first cell.
 

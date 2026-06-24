@@ -1,6 +1,6 @@
 // Get field widget actions as JSON in a PDF.
 
-// How do I inspect actions assigned to a widget?
+// Useful for inspecting actions assigned to a widget.
 
 // Read the actions JSON object from a field widget.
 

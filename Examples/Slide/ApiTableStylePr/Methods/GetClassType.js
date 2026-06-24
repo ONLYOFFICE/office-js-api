@@ -1,6 +1,6 @@
-// This example gets the class type of the ApiTableStylePr object.
+// Get the class type of the ApiTableStylePr object in a presentation.
 
-// How to get the class type of a table style part.
+// Helps when checking the class type of a table style part.
 
 // Get the table style part from the presentation and display its class type.
 

@@ -1,4 +1,4 @@
-// This example gets the current selection in the document.
+// Get the current selection in a PDF document.
 let doc = Api.GetDocument();
 doc.AddPage();
 let pageIndex = doc.GetPagesCount() - 1;

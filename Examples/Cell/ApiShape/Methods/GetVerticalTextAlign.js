@@ -1,6 +1,6 @@
 // Read the vertical text alignment of a shape in a spreadsheet.
 
-// How do I find out whether shape text is aligned to the top, middle, or bottom in a spreadsheet?
+// Useful for verifying vertical text placement before adjusting shape layout in a spreadsheet.
 
 // Retrieve the current vertical alignment of a shape's inner content in a spreadsheet.
 

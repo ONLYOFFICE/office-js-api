@@ -1,6 +1,6 @@
-// Add space below a paragraph in a PDF.
+// Add space below a paragraph directly in a PDF.
 
-// How do I create gap after a paragraph in a PDF?
+// Useful for creating a gap after a paragraph in a PDF.
 
 // Control the margin between a paragraph and the next element in a PDF.
 

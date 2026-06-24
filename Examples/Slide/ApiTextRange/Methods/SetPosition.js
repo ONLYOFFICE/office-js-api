@@ -1,6 +1,6 @@
-// This example raises the first 10 characters of the text above the baseline using a sub-range.
+// Raise the first 10 characters of a text range above the baseline using a sub-range.
 
-// How to shift part of a text range above the baseline in a presentation shape.
+// Useful for creating superscript-like offsets on part of a string.
 
 // Extract a sub-range with GetRange and apply a 50 half-point (25 pt) upward offset.
 

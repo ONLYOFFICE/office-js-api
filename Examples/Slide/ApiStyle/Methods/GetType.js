@@ -1,6 +1,6 @@
-// This example gets the type of the current style.
+// Get the type of the current table style in a presentation.
 
-// How to get the type of a table style.
+// Helps when reading the type of a table style.
 
 // Get a table style and display its type in the first cell.
 

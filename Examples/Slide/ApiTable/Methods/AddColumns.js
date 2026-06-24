@@ -1,6 +1,6 @@
-// This example adds new columns to the table.
+// Add new columns to the table in a presentation.
 
-// How to add multiple columns to a table at once.
+// Useful for adding multiple columns to a table at once.
 
 // Create a table and add two columns after the first column.
 

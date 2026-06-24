@@ -1,6 +1,6 @@
-// This example sets whether the aspect ratio of the drawing is locked.
+// Set whether the aspect ratio of the drawing is locked in a spreadsheet.
 
-// How to lock the aspect ratio of a shape in a spreadsheet.
+// Useful for locking the aspect ratio of a shape in a spreadsheet.
 
 // Create a shape, lock its aspect ratio and display the result.
 

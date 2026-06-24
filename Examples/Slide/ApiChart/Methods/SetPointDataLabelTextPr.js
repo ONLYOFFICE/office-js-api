@@ -1,4 +1,4 @@
-// This example sets the text properties for a specific chart point data label.
+// Set the text properties for a specific chart point data label in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

@@ -1,6 +1,6 @@
-// This example sets the properties for a table row.
+// Set the properties for a table row in a presentation.
 
-// How to apply row properties to a table row.
+// Useful for applying row properties to a table row.
 
 // Set the height of the first row using row properties.
 

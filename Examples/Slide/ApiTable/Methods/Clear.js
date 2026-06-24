@@ -1,6 +1,6 @@
-// This example clears the content from the table.
+// Clear the content from the table in a presentation.
 
-// How to clear all content from a table.
+// Useful for clearing all content from a table.
 
 // Create a table with text in a cell, then clear the table content.
 

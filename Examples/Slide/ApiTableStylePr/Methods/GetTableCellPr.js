@@ -1,6 +1,6 @@
-// This example gets the cell properties from the table style part.
+// Get the cell properties from the table style part in a presentation.
 
-// How to get cell properties from a conditional table style.
+// Useful for getting cell properties from a conditional table style.
 
 // Get the wholeTable style part and display its cell properties class type.
 

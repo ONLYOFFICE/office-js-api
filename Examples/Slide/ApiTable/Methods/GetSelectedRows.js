@@ -1,6 +1,6 @@
-// This example gets the selected rows from the table.
+// Get the selected rows from the table in a presentation.
 
-// How to retrieve currently selected rows in a table.
+// Useful for retrieving currently selected rows in a table.
 
 // Create a table and get the list of selected rows (returns empty when no selection).
 

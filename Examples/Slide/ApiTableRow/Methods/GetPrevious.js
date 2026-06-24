@@ -1,6 +1,6 @@
-// This example shows how to get the previous row.
+// Get the previous row in a presentation.
 
-// How to get the previous row from a table row.
+// Useful for getting the previous row from a table row.
 
 // Display text in the second and first rows using GetPrevious.
 

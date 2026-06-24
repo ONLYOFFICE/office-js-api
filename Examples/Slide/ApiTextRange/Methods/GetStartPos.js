@@ -1,6 +1,6 @@
-// This example gets the 0-based start position of the text range.
+// Get the 0-based start position of a text range in a presentation shape.
 
-// How to get the zero-based start position of a text range.
+// Useful for knowing exactly where a range begins within the text.
 
 // Retrieve the 0-based start position and display it on the slide.
 

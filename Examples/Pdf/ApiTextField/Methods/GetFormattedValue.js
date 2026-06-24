@@ -1,6 +1,6 @@
 // Get the formatted value of a text input field in a PDF.
 
-// How do I retrieve a currency value as it appears in a PDF text field?
+// Useful for retrieving a currency value as it appears in a PDF text field.
 
 // Read the displayed value of a formatted text field in a PDF.
 

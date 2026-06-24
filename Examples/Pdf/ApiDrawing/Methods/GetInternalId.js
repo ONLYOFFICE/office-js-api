@@ -1,6 +1,6 @@
 // Get the internal identifier of a drawing in a PDF.
 
-// How do I retrieve a drawing object's internal ID?
+// Useful for retrieving a drawing object's internal ID.
 
 // Create a shape and print its internal ID.
 

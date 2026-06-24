@@ -1,6 +1,6 @@
-// This example returns whether the drawing is allowed to overlap other drawing objects.
+// Return whether the drawing is allowed to overlap other drawing objects in a document.
 
-// How to get the allow overlap state of a shape in a text document.
+// Useful for getting the allow overlap state of a shape in a text document.
 
 // Create a shape, enable overlap and display the result.
 

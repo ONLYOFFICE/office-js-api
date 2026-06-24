@@ -1,6 +1,6 @@
-// This example applies double strikeout formatting to all runs within the text range.
+// Apply double strikeout formatting to all runs within a text range.
 
-// How to apply double strikethrough to text in a presentation shape.
+// Useful for marking text as removed with a double-line strikethrough.
 
 // Apply double strikeout to the entire text range.
 

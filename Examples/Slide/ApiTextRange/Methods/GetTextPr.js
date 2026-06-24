@@ -1,6 +1,6 @@
-// This example gets the text properties object from the text range.
+// Get the text properties object from a text range in a presentation shape.
 
-// How to retrieve text formatting properties from a text range.
+// Useful for inspecting the current formatting before changing it.
 
 // Get the ApiTextPr object from the range and use it to read formatting.
 

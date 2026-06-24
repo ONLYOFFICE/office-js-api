@@ -1,6 +1,6 @@
-// This example sets the border displayed between horizontal rows inside the table.
+// Set the border displayed between horizontal rows inside the table in a presentation.
 
-// How to add inner horizontal borders to a table.
+// Useful for adding inner horizontal borders to a table.
 
 // Create a 3x3 table and set the horizontal inner borders.
 

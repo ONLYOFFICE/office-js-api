@@ -1,6 +1,6 @@
 // Get all text content from a page in a PDF.
 
-// How do I read the text on a PDF page?
+// Useful for reading the text on a PDF page.
 
 // Extract page text after adding a shape with text content in a PDF.
 

@@ -1,6 +1,6 @@
-// This example sets the description of the table.
+// Set the description of the table in a presentation.
 
-// How to set and retrieve a table description.
+// Useful for setting and retrieving a table description.
 
 // Create a table, set its description, and display it in the first cell.
 

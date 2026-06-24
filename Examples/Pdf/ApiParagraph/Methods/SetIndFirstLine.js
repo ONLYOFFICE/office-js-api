@@ -1,6 +1,6 @@
-// Indent the first line of a paragraph in a PDF.
+// Indent the first line of a paragraph directly in a PDF.
 
-// How do I add a first line indent in a PDF?
+// Useful for adding a first line indent in a PDF.
 
 // Create space before the first line of text in a PDF.
 

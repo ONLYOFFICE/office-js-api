@@ -1,6 +1,6 @@
 // Get the formatted value of a combobox field in a PDF.
 
-// How do I retrieve a currency value as it appears in a PDF combobox field?
+// Useful for retrieving a currency value as it appears in a PDF combobox field.
 
 // Read the displayed value of a formatted combobox field in a PDF.
 

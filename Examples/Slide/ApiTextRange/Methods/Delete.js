@@ -1,6 +1,6 @@
-// This example deletes the characters covered by the text range.
+// Delete the characters covered by a text range in a presentation shape.
 
-// How to delete a portion of text using a text range.
+// Useful for removing a portion of a shape's text without recreating the whole run.
 
 // Select the first five characters of the text and delete them.
 

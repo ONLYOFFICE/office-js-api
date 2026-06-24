@@ -1,6 +1,6 @@
 // Read which table style formatting bands and highlights are applied in a document.
 
-// How do I check which parts of a table style are enabled in a document?
+// Useful for checking which formatting bands and highlights apply to a table before changing its style in a document.
 
 // Retrieve the banded rows, banded columns, and corner highlight flags of a table in a document.
 

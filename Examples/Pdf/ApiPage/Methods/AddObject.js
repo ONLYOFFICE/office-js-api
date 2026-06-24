@@ -1,6 +1,6 @@
 // Insert a visual element onto a page in a PDF.
 
-// How do I add content to the page in a PDF?
+// Useful for adding content to the page in a PDF.
 
 // Place a chart or shape on the current page in a PDF.
 

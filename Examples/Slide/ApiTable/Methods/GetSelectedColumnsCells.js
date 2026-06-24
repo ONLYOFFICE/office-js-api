@@ -1,6 +1,6 @@
-// This example gets the cells from the selected columns in the table.
+// Get the cells from the selected columns in the table in a presentation.
 
-// How to retrieve cells belonging to the currently selected columns.
+// Useful for retrieving cells belonging to the currently selected columns.
 
 // Create a table and get the selected column cells (returns empty when no selection).
 

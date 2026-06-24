@@ -1,6 +1,6 @@
 // Read the chart type using the chart type name in a document.
 
-// How do I get the chart type name of a chart in a document?
+// Useful for confirming a chart's type before applying type-specific formatting in a document.
 
 // Confirm a chart's type at runtime by showing its name in the chart title in a document.
 

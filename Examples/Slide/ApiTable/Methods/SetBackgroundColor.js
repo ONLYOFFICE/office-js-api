@@ -1,6 +1,6 @@
-// This example sets the background color for all cells in the table.
+// Set the background color for all cells in the table in a presentation.
 
-// How to set a background color for the entire table.
+// Useful for setting a background color for the entire table.
 
 // Create a table and apply an orange background color to all cells.
 

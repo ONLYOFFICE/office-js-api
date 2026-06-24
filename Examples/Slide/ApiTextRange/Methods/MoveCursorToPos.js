@@ -1,6 +1,6 @@
-// This example moves the editor cursor to a specific position within the text range.
+// Move the editor cursor to a specific position within a text range.
 
-// How to place the cursor at a given character offset inside a text range.
+// Useful for placing the cursor precisely before further editing.
 
 // Move the cursor to position 6 inside the shape text.
 

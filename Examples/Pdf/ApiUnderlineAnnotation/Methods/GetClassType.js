@@ -1,6 +1,6 @@
 // Check what type of markup is applied to text in a PDF.
 
-// How do I find out what type of annotation mark has been used in a PDF?
+// Useful for finding out what type of annotation mark has been used in a PDF.
 
 // Determine the kind of highlight or underline effect on text in a PDF.
 

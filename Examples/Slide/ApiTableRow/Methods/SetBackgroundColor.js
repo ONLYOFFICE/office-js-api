@@ -1,6 +1,6 @@
-// This example sets the background color for all cells in a table row.
+// Set the background color for all cells in a table row in a presentation.
 
-// How to color the background of a row.
+// Useful for coloring the background of a row.
 
 // Set an orange background for the second row.
 

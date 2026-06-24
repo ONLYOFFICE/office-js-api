@@ -1,6 +1,6 @@
 // Highlight selected text regions in a PDF.
 
-// How do I mark the areas where text is selected in a PDF?
+// Useful for marking the areas where text is selected in a PDF.
 
 // Get the boundaries of selected text and apply highlighting in a PDF.
 

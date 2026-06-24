@@ -1,6 +1,6 @@
 // Align paragraph text to the left, center, or right in a PDF.
 
-// How do I position text alignment in a PDF?
+// Useful for positioning text alignment in a PDF.
 
 // Justify paragraphs by distributing text across the width in a PDF.
 

@@ -1,6 +1,6 @@
-// This example gets the class type of the ApiStyle object.
+// Get the class type of the ApiStyle object in a presentation.
 
-// How to get the class type of a style.
+// Helps when checking the class type of a table style.
 
 // Get a table style from the presentation and display its class type.
 

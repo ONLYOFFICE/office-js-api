@@ -1,6 +1,6 @@
 // Add right margin spacing to a paragraph in a PDF.
 
-// How do I indent text from the right edge in a PDF?
+// Useful for indenting text from the right edge in a PDF.
 
 // Push paragraph content away from the right side in a PDF.
 

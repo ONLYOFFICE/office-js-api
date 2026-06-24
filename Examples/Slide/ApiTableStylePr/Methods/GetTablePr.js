@@ -1,6 +1,6 @@
-// This example gets the table properties from the table style part.
+// Get the table properties from the table style part in a presentation.
 
-// How to get table properties from a conditional table style.
+// Useful for getting table properties from a conditional table style.
 
 // Get the wholeTable style part and set a border using its table properties.
 

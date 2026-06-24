@@ -1,6 +1,6 @@
-// This example shows how to get the next row.
+// Get the next row in a presentation.
 
-// How to get the next row from a table row.
+// Useful for getting the next row from a table row.
 
 // Display text in the first and second rows using GetNext.
 

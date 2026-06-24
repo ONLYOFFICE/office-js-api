@@ -1,6 +1,6 @@
 // Retrieve all shapes and graphics from a page in a PDF.
 
-// How do I access all the drawings in a PDF?
+// Useful for accessing all the drawings in a PDF.
 
 // List every visual element on the current page in a PDF.
 

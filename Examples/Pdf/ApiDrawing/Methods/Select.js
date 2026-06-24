@@ -1,6 +1,6 @@
 // Highlight a shape for editing in a PDF.
 
-// How do I select a drawing object on a page in a PDF?
+// Useful for selecting a drawing object on a page in a PDF.
 
 // Pick an object to activate it for changes in a PDF.
 

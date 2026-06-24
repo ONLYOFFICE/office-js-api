@@ -1,6 +1,6 @@
-// This example shows how to get the next cell in a row.
+// Get the next cell in a row in a presentation.
 
-// How to get the cell following the current one.
+// Useful for getting the cell following the current one.
 
 // Add text to the first cell and bold the next one.
 

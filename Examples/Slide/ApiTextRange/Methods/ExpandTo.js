@@ -1,6 +1,6 @@
-// This example expands two overlapping or adjacent ranges into their union.
+// Expand two overlapping or adjacent text ranges into a single union range.
 
-// How to merge two text ranges into a single covering range.
+// Useful for merging adjacent or overlapping selections into one range.
 
 // Create two sub-ranges and expand them into one union range.
 

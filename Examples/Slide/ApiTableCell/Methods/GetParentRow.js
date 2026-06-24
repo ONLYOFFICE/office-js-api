@@ -1,6 +1,6 @@
-// This example shows how to get the parent row of a table cell.
+// Get the parent row of a table cell in a presentation.
 
-// How to get the row that contains the cell.
+// Useful for getting the row that contains the cell.
 
 // Get the parent row and set its height.
 

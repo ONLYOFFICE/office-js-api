@@ -1,6 +1,6 @@
-// This example sets the text color for all runs within the text range.
+// Set the text color for all runs within a text range.
 
-// How to change the color of text in a presentation shape.
+// Useful for highlighting a selection with a specific color.
 
 // Apply a red color to the entire text range.
 

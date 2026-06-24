@@ -1,6 +1,6 @@
-// This example gets the description of a drawing.
+// Get the description of a drawing in a presentation.
 
-// How to get the description (alternative text) of a drawing.
+// Needed when reading the alternative text of a drawing.
 
 // Create a drawing, set its description, and read it back.
 

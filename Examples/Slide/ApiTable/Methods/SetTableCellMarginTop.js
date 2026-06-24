@@ -1,6 +1,6 @@
-// This example specifies the amount of space left between the top of the cell content and the cell border.
+// Specify the amount of space left between the top of the cell content and the cell border in a presentation.
 
-// How to set the top cell margin for all cells in the table.
+// Useful for setting the top cell margin for all cells in the table.
 
 // Create a table and set a top cell margin of 36 points.
 

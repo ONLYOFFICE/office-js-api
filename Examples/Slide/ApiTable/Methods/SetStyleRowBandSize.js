@@ -1,6 +1,6 @@
-// This example specifies the number of rows that comprise each row band in the table style.
+// Specify the number of rows that comprise each row band in the table style in a presentation.
 
-// How to set row band size for a table.
+// Useful for setting the row band size for a table.
 
 // Create a table and set row band size to 3.
 

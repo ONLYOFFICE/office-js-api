@@ -1,6 +1,6 @@
-// This example sets the start position of the text range and retrieves the sub-range text.
+// Set the start position of a text range and retrieve the sub-range text.
 
-// How to narrow a text range by setting its start position.
+// Useful for narrowing a range from its head end.
 
 // Set a new start position to select only part of the text.
 

@@ -1,6 +1,6 @@
-// This example clears the content from a table row.
+// Clear the content from a table row in a presentation.
 
-// How to remove all content from a row.
+// Useful for removing all content from a row.
 
 // Add text to the first row and then clear it.
 

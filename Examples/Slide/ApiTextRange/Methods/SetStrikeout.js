@@ -1,6 +1,6 @@
-// This example applies single strikeout formatting to all runs within the text range.
+// Apply single strikeout formatting to all runs within a text range.
 
-// How to strike out text in a presentation shape.
+// Useful for visually marking text as deleted while keeping it in place.
 
 // Apply single strikeout to the entire text range.
 

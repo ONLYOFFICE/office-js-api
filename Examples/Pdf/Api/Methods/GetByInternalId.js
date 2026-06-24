@@ -1,6 +1,6 @@
 // Get an object by its internal ID in a PDF.
 
-// How do I find a PDF API object by its internal identifier?
+// Useful for finding a PDF API object by its internal identifier.
 
 // Create a field, get its internal ID, and retrieve the same field by that ID.
 

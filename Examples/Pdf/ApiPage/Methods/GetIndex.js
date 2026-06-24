@@ -1,6 +1,6 @@
 // Retrieve the sequential position of a page in a PDF.
 
-// How do I find which page number I'm on in a PDF?
+// Useful for finding which page number a page is in a PDF.
 
 // Access the page position to identify its location in a PDF.
 

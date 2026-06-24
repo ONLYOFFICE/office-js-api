@@ -1,6 +1,6 @@
 // Extract the text that has been highlighted on a page in a PDF.
 
-// How do I capture the text I've selected in a PDF?
+// Useful for capturing the text selected in a PDF.
 
 // Retrieve what text is currently marked on a page in a PDF.
 

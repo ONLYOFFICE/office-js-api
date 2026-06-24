@@ -1,6 +1,6 @@
 // Read the chart type using the chart type name and show it in the title in a spreadsheet.
 
-// How do I get the chart type name of a chart on a sheet in a spreadsheet?
+// Useful for confirming a chart's type before applying type-specific formatting in a spreadsheet.
 
 // Confirm the chart type programmatically to use its name as a label in a spreadsheet.
 

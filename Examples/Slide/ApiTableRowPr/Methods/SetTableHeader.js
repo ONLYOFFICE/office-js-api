@@ -1,6 +1,6 @@
-// This example marks the first row as a repeated table header.
+// Mark the first row as a repeated table header in a presentation.
 
-// How to set a table row as a header row.
+// Useful for setting a table row as a header row.
 
 // Mark the first row as a header that repeats on each page.
 

@@ -1,6 +1,6 @@
-// Delete a specific element from a paragraph in a PDF.
+// Delete a specific element from a paragraph object in a PDF.
 
-// How do I remove an element by its position in a paragraph in a PDF?
+// Useful for removing an element by its position in a paragraph in a PDF.
 
 // Eliminate an element at a given index from a paragraph in a PDF.
 

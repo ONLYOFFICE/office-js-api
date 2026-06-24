@@ -1,6 +1,6 @@
-// This example specifies the number of columns in each column band of the table style.
+// Specify the number of columns in each column band of the table style in a presentation.
 
-// How to set column band size for a table.
+// Useful for setting the column band size for a table.
 
 // Create a table and set column band size to 2.
 

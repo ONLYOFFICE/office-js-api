@@ -1,6 +1,6 @@
 // Read the styling options applied to a table in a PDF.
 
-// How do I check which table style formatting flags are enabled in a PDF?
+// Useful for checking which formatting options apply to a table before changing its style in a PDF.
 
 // Retrieve the conditional formatting flags of a table in a PDF.
 

@@ -1,6 +1,6 @@
-// This example sets whether the drawing is allowed to overlap other drawing objects.
+// Set whether the drawing is allowed to overlap other drawing objects in a document.
 
-// How to allow a drawing to overlap other drawings in a text document.
+// Useful for allowing a drawing to overlap other drawings in a text document.
 
 // Create a shape, enable overlap and display the result.
 

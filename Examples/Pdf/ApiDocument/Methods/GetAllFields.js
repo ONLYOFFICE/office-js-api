@@ -1,6 +1,6 @@
 // Access all input fields in a PDF.
 
-// How do I retrieve all the form fields from a PDF?
+// Useful for retrieving all the form fields from a PDF.
 
 // Locate and list each field's type in a PDF.
 

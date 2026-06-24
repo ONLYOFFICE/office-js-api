@@ -1,6 +1,6 @@
 // Read the height of a table row in a PDF.
 
-// How do I find out how tall a table row is in a PDF?
+// Useful for checking row dimensions before resizing a table in a PDF.
 
 // Retrieve the current row height measurement in a PDF.
 

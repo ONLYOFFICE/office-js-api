@@ -1,6 +1,6 @@
 // Determine the chart type using the chart type name in a PDF.
 
-// How do I get the chart type name of a chart in a PDF?
+// Useful for confirming a chart's type before applying type-specific formatting in a PDF.
 
 // Retrieve the chart type and show it as text in a PDF.
 

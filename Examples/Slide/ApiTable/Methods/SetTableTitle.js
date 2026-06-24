@@ -1,6 +1,6 @@
-// This example sets the title of the table.
+// Set the title of the table in a presentation.
 
-// How to set and retrieve a table title.
+// Useful for setting and retrieving a table title.
 
 // Create a table, set its title, and display the title in the first cell.
 

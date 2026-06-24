@@ -1,4 +1,4 @@
-// This example gets the fill formatting properties from a drawing.
+// Get the fill formatting properties from a drawing in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const gs1 = Api.CreateGradientStop(Api.RGB(200, 230, 180), 0);

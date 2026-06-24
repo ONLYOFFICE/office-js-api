@@ -1,6 +1,6 @@
 // Select a text area in a PDF.
 
-// How do I mark a portion of text as selected in a PDF?
+// Useful for marking a portion of text as selected in a PDF.
 
 // Choose a region of text and mark it as selected in a PDF.
 

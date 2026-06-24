@@ -1,6 +1,6 @@
 // Read a form field tooltip in a PDF.
 
-// How do I get the helper text assigned to a field?
+// Useful for getting the helper text assigned to a field.
 
 // Set a field tooltip and read it back.
 

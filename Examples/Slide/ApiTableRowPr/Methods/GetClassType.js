@@ -1,6 +1,6 @@
-// This example gets the class type of the table row properties object.
+// Get the class type of the table row properties object in a presentation.
 
-// How to get a class type of ApiTableRowPr.
+// Helps when checking the class type of ApiTableRowPr.
 
 // Retrieve the class type and display it in the first cell.
 

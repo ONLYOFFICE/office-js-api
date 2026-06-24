@@ -1,4 +1,4 @@
-// This example selects the text in the document and returns it.
+// Select the text in a PDF document and return it.
 let doc = Api.GetDocument();
 doc.AddPage();
 let pageIndex = doc.GetPagesCount() - 1;

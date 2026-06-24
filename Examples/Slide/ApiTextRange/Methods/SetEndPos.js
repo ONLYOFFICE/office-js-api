@@ -1,6 +1,6 @@
-// This example sets the end position of the text range to select only part of the text.
+// Set the end position of a text range to select only part of the text.
 
-// How to narrow a text range by setting its end position.
+// Useful for narrowing a range from its tail end.
 
 // Set a new end position and display the resulting sub-range text.
 

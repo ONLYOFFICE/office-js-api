@@ -1,6 +1,6 @@
-// This example selects the text covered by the range in the editor.
+// Select the text covered by a range in the presentation editor.
 
-// How to programmatically select text in a presentation shape.
+// Useful for highlighting a range for the user to see in the editor view.
 
 // Select the text range in the presentation editor view.
 

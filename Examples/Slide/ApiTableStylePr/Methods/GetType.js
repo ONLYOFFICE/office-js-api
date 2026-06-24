@@ -1,6 +1,6 @@
-// This example gets the type of the conditional formatting region.
+// Get the type of the conditional formatting region in a presentation.
 
-// How to get the type of a table style part.
+// Useful for getting the type of a table style part.
 
 // Get the table style part and display its type.
 

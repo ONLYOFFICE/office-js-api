@@ -1,6 +1,6 @@
-// This example removes a table row.
+// Remove a table row in a presentation.
 
-// How to delete a row from the table.
+// Useful for deleting a row from the table.
 
 // Remove the first row from the table.
 

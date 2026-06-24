@@ -1,6 +1,6 @@
-// This example gets the class type of the ApiTextRange object and displays it in the shape.
+// Get the class type of an ApiTextRange object and display it in a presentation shape.
 
-// How to get the class type of a text range.
+// Useful for confirming the object type before calling range-specific methods.
 
 // Retrieve the class type and insert it into the paragraph.
 

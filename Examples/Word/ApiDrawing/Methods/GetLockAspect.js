@@ -1,6 +1,6 @@
-// This example returns whether the aspect ratio of the drawing is locked.
+// Return whether the aspect ratio of the drawing is locked in a document.
 
-// How to get the lock aspect ratio state of a shape in a text document.
+// Useful for getting the lock aspect ratio state of a shape in a text document.
 
 // Create a shape, lock its aspect ratio and display the result.
 

@@ -1,6 +1,6 @@
-// This example returns whether the aspect ratio of the drawing is locked.
+// Return whether the aspect ratio of the drawing is locked in a spreadsheet.
 
-// How to get the lock aspect ratio state of a shape in a spreadsheet.
+// Useful for checking the lock aspect ratio state of a shape in a spreadsheet.
 
 // Create a shape, lock its aspect ratio and display the result.
 

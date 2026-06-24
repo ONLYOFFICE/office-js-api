@@ -1,6 +1,6 @@
-// This example specifies the amount of space left between the right side of the cell content and the cell border.
+// Specify the amount of space left between the right side of the cell content and the cell border in a presentation.
 
-// How to set the right cell margin for all cells in the table.
+// Useful for setting the right cell margin for all cells in the table.
 
 // Create a table and set a right cell margin of 36 points.
 

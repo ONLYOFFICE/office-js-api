@@ -1,4 +1,4 @@
-// This example sets the text properties for all chart data labels.
+// Set the text properties for all chart data labels in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

@@ -1,6 +1,6 @@
-// This example applies underline formatting to all runs within the text range.
+// Apply underline formatting to all runs within a text range.
 
-// How to underline text in a presentation shape.
+// Useful for emphasizing a selection with an underline.
 
 // Apply underline formatting to the entire text range.
 

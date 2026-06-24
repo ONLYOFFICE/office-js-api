@@ -1,6 +1,6 @@
-// This example shows how to get the parent table of a table cell.
+// Get the parent table of a table cell in a presentation.
 
-// How to get the table that contains the cell.
+// Useful for getting the table that contains the cell.
 
 // Get the parent table and set its border.
 

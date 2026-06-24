@@ -1,6 +1,6 @@
 // Get the internal identifier of a form field in a PDF.
 
-// How do I retrieve a field's internal ID?
+// Useful for retrieving a field's internal ID.
 
 // Create a text field and print its internal ID.
 

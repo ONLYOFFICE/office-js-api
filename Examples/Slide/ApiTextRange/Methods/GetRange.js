@@ -1,6 +1,6 @@
-// This example creates a sub-range from an existing text range using relative offsets.
+// Create a sub-range from an existing text range using relative offsets.
 
-// How to extract a portion of a text range by start and end offsets.
+// Useful for narrowing a range down to a smaller portion of text.
 
 // Get the sub-range "World" from "Hello World" and select it.
 

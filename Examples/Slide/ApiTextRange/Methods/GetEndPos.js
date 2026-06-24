@@ -1,6 +1,6 @@
-// This example gets the end position of the text range.
+// Get the end position of a text range in a presentation shape.
 
-// How to get the end position of a text range.
+// Useful for knowing exactly where a range stops within the text.
 
 // Retrieve the end position and display it on the slide.
 

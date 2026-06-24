@@ -1,6 +1,6 @@
 // Get the internal identifier of an annotation in a PDF.
 
-// How do I retrieve an annotation's internal ID?
+// Useful for retrieving an annotation's internal ID.
 
 // Create an annotation and print its internal ID.
 

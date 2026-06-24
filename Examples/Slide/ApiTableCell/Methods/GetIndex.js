@@ -1,6 +1,6 @@
-// This example shows how to get the column index of a table cell.
+// Get the column index of a table cell in a presentation.
 
-// How to get the position index of the cell.
+// Useful for getting the position index of the cell.
 
 // Retrieve the cell index and display it in the cell.
 

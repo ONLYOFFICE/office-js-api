@@ -1,6 +1,6 @@
-// This example sets the border displayed at the bottom of the table.
+// Set the border displayed at the bottom of the table in a presentation.
 
-// How to add a bottom border to a table.
+// Useful for adding a bottom border to a table.
 
 // Create a 3x3 table and set a thick bottom border.
 

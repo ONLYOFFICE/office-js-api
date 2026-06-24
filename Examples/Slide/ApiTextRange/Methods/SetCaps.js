@@ -1,6 +1,6 @@
-// This example applies all-caps formatting to all runs within the text range.
+// Apply all-caps formatting to all runs within a text range.
 
-// How to display text in all capitals in a presentation shape.
+// Useful for changing letter case display without altering the underlying text.
 
 // Apply all caps formatting to the entire text range.
 

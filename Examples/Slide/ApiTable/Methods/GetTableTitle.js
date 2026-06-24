@@ -1,6 +1,6 @@
-// This example shows how to get the title of the table.
+// Get the title of the table in a presentation.
 
-// How to retrieve a table title.
+// Needed when retrieving a table title.
 
 // Create a table, set its title, and display the title in the first cell.
 

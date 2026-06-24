@@ -1,6 +1,6 @@
-// This example specifies the default spacing between cells in the table.
+// Specify the default spacing between cells in the table in a presentation.
 
-// How to set the cell spacing for a table.
+// Useful for setting the cell spacing for a table.
 
 // Create a table and set cell spacing to half an inch.
 

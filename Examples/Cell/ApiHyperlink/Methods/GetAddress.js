@@ -1,6 +1,6 @@
-// This example gets the address of a hyperlink.
+// Get the address of a hyperlink.
 
-// How to read the URL of a hyperlink in a cell.
+// Needed when reading the URL of a hyperlink in a cell.
 
 // Get the address of a hyperlink.
 

@@ -1,6 +1,6 @@
-// This example shows how to get a table cell by its row and column index.
+// Get a table cell by its row and column index in a presentation.
 
-// How to access a specific cell in a table.
+// Useful for accessing a specific cell in a table.
 
 // Create a table and add text to the cell at row 0, column 1.
 

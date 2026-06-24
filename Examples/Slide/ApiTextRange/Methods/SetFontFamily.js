@@ -1,6 +1,6 @@
-// This example sets the font family for all runs within the text range.
+// Set the font family for all runs within a text range.
 
-// How to change the font family of a text range.
+// Useful for applying a custom typeface to a specific selection.
 
 // Apply the "Comic Sans MS" font to the entire text range.
 

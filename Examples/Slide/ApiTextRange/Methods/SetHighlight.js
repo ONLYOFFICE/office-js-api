@@ -1,6 +1,6 @@
-// This example highlights the text within the range with a named color.
+// Highlight the text within a range using a named color.
 
-// How to highlight text in a presentation shape.
+// Useful for drawing attention to a specific portion of text.
 
 // Apply a red highlight to the entire text range.
 

@@ -1,6 +1,6 @@
-// This example sets the bold property on all runs within the text range.
+// Set the bold property on all runs within a text range.
 
-// How to make a text range bold.
+// Useful for emphasizing a portion of text without affecting the rest.
 
 // Apply bold formatting to the entire text range.
 

@@ -1,6 +1,6 @@
-// This example gets the subaddress of a hyperlink.
+// Get the subaddress of a hyperlink.
 
-// How to read the internal location of a hyperlink in a cell.
+// Needed when reading the internal location of a hyperlink in a cell.
 
 // Get the subaddress of a hyperlink.
 

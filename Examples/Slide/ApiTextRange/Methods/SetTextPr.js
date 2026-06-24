@@ -1,6 +1,6 @@
-// This example applies an ApiTextPr object to all runs within the text range.
+// Apply an ApiTextPr object to all runs within a text range.
 
-// How to apply a text properties object to a text range.
+// Useful for applying a reusable formatting profile to a selection.
 
 // Build an ApiTextPr with bold and large font, then apply it to the range.
 

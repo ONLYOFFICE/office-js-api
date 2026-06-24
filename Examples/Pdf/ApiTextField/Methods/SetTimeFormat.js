@@ -1,6 +1,6 @@
 // Display times in a consistent format like hours and minutes in a PDF.
 
-// How do I show time input in a specific format in a PDF?
+// Useful for showing time input in a specific format in a PDF.
 
 // Configure time display patterns for a text field in a PDF.
 

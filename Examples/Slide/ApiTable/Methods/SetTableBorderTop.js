@@ -1,6 +1,6 @@
-// This example sets the border displayed at the top of the table.
+// Set the border displayed at the top of the table in a presentation.
 
-// How to add a top border to a table.
+// Useful for adding a top border to a table.
 
 // Create a 3x3 table and set a thick top border.
 

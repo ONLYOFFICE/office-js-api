@@ -1,6 +1,6 @@
-// This example returns whether the aspect ratio of the drawing is locked.
+// Return whether the aspect ratio of the drawing is locked in a presentation.
 
-// How to get the lock aspect ratio state of a shape in a presentation.
+// Useful for getting the lock aspect ratio state of a shape in a presentation.
 
 // Create a shape, lock its aspect ratio and display the result.
 

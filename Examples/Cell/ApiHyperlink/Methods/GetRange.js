@@ -1,6 +1,6 @@
-// This example gets the range a hyperlink is attached to.
+// Get the range a hyperlink is attached to.
 
-// How to get the cell range of a hyperlink.
+// Useful for getting the cell range of a hyperlink.
 
 // Get the range of a hyperlink.
 

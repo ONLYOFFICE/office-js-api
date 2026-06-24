@@ -1,6 +1,6 @@
-// This example gets the name of the current style.
+// Get the name of the current table style in a presentation.
 
-// How to get the name of a table style.
+// Helps when reading the name of a table style.
 
 // Get a table style and display its name in the first cell.
 

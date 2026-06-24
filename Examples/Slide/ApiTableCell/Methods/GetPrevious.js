@@ -1,6 +1,6 @@
-// This example shows how to get the previous cell in a row.
+// Get the previous cell in a row in a presentation.
 
-// How to get the cell preceding the current one.
+// Useful for getting the cell preceding the current one.
 
 // Add text to the second cell and bold the previous one.
 

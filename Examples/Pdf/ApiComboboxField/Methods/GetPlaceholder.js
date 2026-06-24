@@ -1,6 +1,6 @@
 // Retrieve the placeholder text from a combobox field in a PDF.
 
-// How do I read the hint text in a combobox field in a PDF?
+// Useful for reading the hint text in a combobox field in a PDF.
 
 // Access the placeholder message displayed in a combobox field in a PDF.
 

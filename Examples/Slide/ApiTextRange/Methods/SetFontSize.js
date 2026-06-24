@@ -1,6 +1,6 @@
-// This example sets the font size for all runs within the text range.
+// Set the font size for all runs within a text range.
 
-// How to change the font size of a text range.
+// Useful for resizing text within a selection independently of the rest.
 
 // Apply a 36 pt font size to the entire text range.
 

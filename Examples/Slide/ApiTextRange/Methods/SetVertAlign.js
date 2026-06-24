@@ -1,6 +1,6 @@
-// This example sets the vertical alignment of runs within the text range to superscript.
+// Set the vertical alignment of runs within a text range to superscript.
 
-// How to apply superscript or subscript alignment to a text range.
+// Useful for creating superscript or subscript effects on part of text.
 
 // Apply superscript vertical alignment to the entire text range.
 

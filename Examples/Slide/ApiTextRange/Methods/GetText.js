@@ -1,6 +1,6 @@
-// This example gets the text content of the range and displays it in a second shape.
+// Get the text content of a range and display it in a second shape.
 
-// How to get text from a text range.
+// Useful for reading the text covered by a range without modifying it.
 
 // Retrieve the text content of the range and show it on the slide.
 

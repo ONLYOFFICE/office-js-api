@@ -1,6 +1,6 @@
 // Read the vertical text alignment of a shape in a PDF.
 
-// How do I find out whether shape text is aligned to the top, middle, or bottom in a PDF?
+// Useful for verifying vertical text placement before adjusting shape layout in a PDF.
 
 // Retrieve the current vertical alignment of a shape's inner content in a PDF.
 

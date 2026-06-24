@@ -1,6 +1,6 @@
-// This example specifies the amount of space left between the bottom of the cell content and the cell border.
+// Specify the amount of space left between the bottom of the cell content and the cell border in a presentation.
 
-// How to set the bottom cell margin for all cells in the table.
+// Useful for setting the bottom cell margin for all cells in the table.
 
 // Create a table and set a bottom cell margin.
 

@@ -1,6 +1,6 @@
-// This example gets a paragraph by index from the text range and displays its text.
+// Get a paragraph by index from a text range and display its text.
 
-// How to access a specific paragraph inside a text range.
+// Useful for accessing a specific paragraph inside a multi-paragraph range.
 
 // Retrieve the second paragraph of a multi-paragraph shape.
 

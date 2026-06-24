@@ -1,6 +1,6 @@
-// This example sets the description of a drawing.
+// Set the description of a drawing in a spreadsheet.
 
-// How to set the description (alternative text) of a drawing.
+// Useful for assigning the alternative text of a drawing.
 
 // Create a drawing and set its description.
 

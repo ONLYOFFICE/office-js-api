@@ -1,6 +1,6 @@
-// This example applies small caps formatting to all runs within the text range.
+// Apply small caps formatting to all runs within a text range.
 
-// How to display text in small capitals in a presentation shape.
+// Useful for a stylistic case change without retyping the text.
 
 // Apply small caps formatting to the entire text range.
 

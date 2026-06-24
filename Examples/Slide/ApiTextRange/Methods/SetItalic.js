@@ -1,6 +1,6 @@
-// This example applies italic formatting to all runs within the text range.
+// Apply italic formatting to all runs within a text range.
 
-// How to make a text range italic.
+// Useful for emphasizing a selection with slanted text.
 
 // Apply italic formatting to the entire text range.
 

@@ -1,6 +1,6 @@
-// This example gets the internal identifier of the table cell.
+// Get the internal identifier of the table cell in a presentation.
 
-// How to get a unique identifier of a cell.
+// Useful for getting a unique identifier of a cell.
 
 // Retrieve the internal id and display it in the cell.
 

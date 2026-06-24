@@ -1,6 +1,6 @@
-// This example sets a new address for a hyperlink.
+// Set a new address for a hyperlink.
 
-// How to change the URL of an existing hyperlink in a cell.
+// Useful for changing the URL of an existing hyperlink in a cell.
 
 // Set a new address for a hyperlink.
 

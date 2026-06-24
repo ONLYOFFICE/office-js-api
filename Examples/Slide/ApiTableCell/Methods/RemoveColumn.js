@@ -1,6 +1,6 @@
-// This example removes the column containing the cell.
+// Remove the column containing the cell in a presentation.
 
-// How to delete a column by its cell.
+// Useful for deleting a column by its cell.
 
 // Get the first cell and remove its entire column.
 
