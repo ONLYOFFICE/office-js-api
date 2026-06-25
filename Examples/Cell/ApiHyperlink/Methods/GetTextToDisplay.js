@@ -1,6 +1,6 @@
-// This example gets the display text of a hyperlink.
+// Get the display text of a hyperlink.
 
-// How to read the text shown in a cell for a hyperlink.
+// Needed when reading the text shown in a cell for a hyperlink.
 
 // Get the display text of a hyperlink.
 

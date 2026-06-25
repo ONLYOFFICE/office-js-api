@@ -1,6 +1,6 @@
-// This example gets the type of a hyperlink.
+// Get the type of a hyperlink.
 
-// How to check the type of a hyperlink attached to a cell range.
+// Useful for checking the type of a hyperlink attached to a cell range.
 
 // Get the type of a hyperlink.
 

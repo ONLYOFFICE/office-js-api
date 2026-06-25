@@ -1,4 +1,4 @@
-// This example sets different text fit types to shapes on the slide.
+// Set different text fit types to shapes on a slide.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

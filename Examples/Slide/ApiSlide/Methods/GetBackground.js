@@ -1,4 +1,4 @@
-// This example returns the background of the current presentation slide.
+// Return the background of the current presentation slide.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);

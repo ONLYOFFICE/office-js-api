@@ -1,6 +1,6 @@
-// This example gets all the hyperlinks from the worksheet.
+// Get all the hyperlinks from the worksheet.
 
-// How to retrieve all hyperlinks on a worksheet as an array.
+// Useful for retrieving all hyperlinks on a worksheet as an array.
 
 // Get all hyperlinks from the worksheet.
 

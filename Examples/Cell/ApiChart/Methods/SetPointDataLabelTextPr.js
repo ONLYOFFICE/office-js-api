@@ -1,4 +1,4 @@
-// This example sets the text properties for a specific chart point data label.
+// Set the text properties for a specific chart point data label in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 

@@ -15,5 +15,5 @@ paragraph.AddElement(run2, 1);
 let hyperlink = paragraph.AddHyperlink("https://api.onlyoffice.com/docbuilder/basic");
 let element = hyperlink.GetElement(1);
 paragraph = Api.CreateParagraph();
-paragraph.AddElement(element);
+paragraph.AddText("Element text: " + element.GetText());
 doc.Push(paragraph);

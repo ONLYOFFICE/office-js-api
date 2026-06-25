@@ -1,4 +1,4 @@
-// This example sets the fill formatting properties to a shape and an image.
+// Set the fill formatting properties to a shape and an image in a spreadsheet.
 
 const worksheet = Api.GetActiveSheet();
 const noFill = Api.CreateNoFill();

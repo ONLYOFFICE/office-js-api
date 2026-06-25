@@ -1,6 +1,6 @@
-// This example sets a new subaddress for a hyperlink.
+// Set a new subaddress for a hyperlink.
 
-// How to change the internal location of an existing hyperlink in a cell.
+// Useful for changing the internal location of an existing hyperlink in a cell.
 
 // Set a new subaddress for a hyperlink.
 

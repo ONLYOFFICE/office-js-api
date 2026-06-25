@@ -1,9 +1,10 @@
 // Rotate a page to a specific angle in a PDF.
 
-// How do I turn a page to face the right direction in a PDF?
+// Useful for turning a page to face the right direction in a PDF.
 
 // Apply a rotation transformation to change the page orientation in a PDF.
 
 let doc = Api.GetDocument();
-let page = doc.GetPage(0);
+doc.AddPage();
+let page = doc.GetPage(doc.GetPagesCount() - 1);
 page.SetRotation(90);

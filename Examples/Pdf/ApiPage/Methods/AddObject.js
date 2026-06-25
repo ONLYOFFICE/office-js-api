@@ -1,11 +1,12 @@
 // Insert a visual element onto a page in a PDF.
 
-// How do I add content to the page in a PDF?
+// Useful for adding content to the page in a PDF.
 
 // Place a chart or shape on the current page in a PDF.
 
 const doc = Api.GetDocument();
-const page = doc.GetPage(0);
+doc.AddPage();
+const page = doc.GetPage(doc.GetPagesCount() - 1);
 
 const chart = Api.CreateChart("bar3D", [
 	[200, 240, 280],

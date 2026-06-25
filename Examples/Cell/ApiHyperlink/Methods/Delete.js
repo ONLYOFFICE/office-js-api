@@ -1,6 +1,6 @@
-// This example deletes a hyperlink from a cell.
+// Delete a hyperlink from a cell.
 
-// How to remove a hyperlink while keeping the cell text.
+// Useful for removing a hyperlink while keeping the cell text.
 
 // Delete a hyperlink.
 

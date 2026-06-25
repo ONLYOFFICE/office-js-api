@@ -1,6 +1,6 @@
-// This example sets a new display text for a hyperlink.
+// Set a new display text for a hyperlink.
 
-// How to change the text shown in a cell for a hyperlink.
+// Useful for changing the text shown in a cell for a hyperlink.
 
 // Set a new display text for a hyperlink.
 

@@ -1,6 +1,6 @@
-// This example gets the name of a hyperlink.
+// Get the name of a hyperlink.
 
-// How to read the name of a hyperlink in a cell.
+// Needed when reading the name of a hyperlink in a cell.
 
 // Get the name of a hyperlink.
 

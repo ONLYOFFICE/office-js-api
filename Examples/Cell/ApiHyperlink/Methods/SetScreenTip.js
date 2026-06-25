@@ -1,6 +1,6 @@
-// This example sets a new screen tip text for a hyperlink.
+// Set a new screen tip text for a hyperlink.
 
-// How to change the tooltip of an existing hyperlink in a cell.
+// Useful for changing the tooltip of an existing hyperlink in a cell.
 
 // Set a new screen tip for a hyperlink.
 

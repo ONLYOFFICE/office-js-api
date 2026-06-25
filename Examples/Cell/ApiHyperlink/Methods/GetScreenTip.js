@@ -1,6 +1,6 @@
-// This example gets the screen tip text of a hyperlink.
+// Get the screen tip text of a hyperlink.
 
-// How to read the tooltip of a hyperlink in a cell.
+// Needed when reading the tooltip of a hyperlink in a cell.
 
 // Get the screen tip text of a hyperlink.
 

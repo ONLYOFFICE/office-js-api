@@ -1,4 +1,4 @@
-// This example sets the text properties for a specific chart point data label.
+// Set the text properties for a specific chart point data label in a document.
 
 const doc = Api.GetDocument();
 const paragraph = doc.GetElement(0);

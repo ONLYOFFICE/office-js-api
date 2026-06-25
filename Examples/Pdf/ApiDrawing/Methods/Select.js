@@ -1,6 +1,6 @@
 // Highlight a shape for editing in a PDF.
 
-// How do I select a drawing object on a page in a PDF?
+// Useful for selecting a drawing object on a page in a PDF.
 
 // Pick an object to activate it for changes in a PDF.
 
@@ -18,8 +18,4 @@ const paragraph = docContent.GetElement(0);
 paragraph.AddText("Example drawing");
 page.AddObject(shape);
 
-const allDrawings = page.GetAllDrawings();
-if (allDrawings.length > 0) {
-	const drawing = allDrawings[0];
-	drawing.Select();
-}
+shape.Select();

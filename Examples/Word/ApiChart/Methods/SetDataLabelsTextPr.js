@@ -1,4 +1,4 @@
-// This example sets the text properties for all chart data labels.
+// Set the text properties for all chart data labels in a document.
 
 const doc = Api.GetDocument();
 const paragraph = doc.GetElement(0);

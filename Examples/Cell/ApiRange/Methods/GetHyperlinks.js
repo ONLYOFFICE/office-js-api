@@ -1,6 +1,6 @@
-// This example gets all the hyperlinks from the range.
+// Get all the hyperlinks from the range.
 
-// How to retrieve hyperlinks within a specific cell range.
+// Useful for retrieving hyperlinks within a specific cell range.
 
 // Get all hyperlinks from the range.
 

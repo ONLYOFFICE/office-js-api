@@ -1,11 +1,12 @@
 // Access all input fields in a PDF.
 
-// How do I retrieve all the form fields from a PDF?
+// Useful for retrieving all the form fields from a PDF.
 
 // Locate and list each field's type in a PDF.
 
 let doc = Api.GetDocument();
-let page = doc.GetPage(0);
+doc.AddPage();
+let page = doc.GetPage(doc.GetPagesCount() - 1);
 
 let textField = Api.CreateTextField([10, 10, 160, 30]);
 let comboboxField = Api.CreateComboboxField([10, 40, 160, 60]);
