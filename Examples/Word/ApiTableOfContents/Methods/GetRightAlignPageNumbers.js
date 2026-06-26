@@ -11,3 +11,6 @@ paragraph.SetStyle(style);
 paragraph.AddText("Chapter 1");
 let toc = doc.AddTableOfContents({"BuildFrom": {"OutlineLvls": 9}});
 let isRightAlign = toc.GetRightAlignPageNumbers();
+let resultParagraph = Api.CreateParagraph();
+resultParagraph.AddText("Page numbers right-aligned: " + isRightAlign);
+doc.Push(resultParagraph);

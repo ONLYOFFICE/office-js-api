@@ -7,3 +7,6 @@
 let doc = Api.GetDocument();
 let tablesOfContents = doc.GetTablesOfContents();
 let classType = tablesOfContents.GetClassType();
+let resultParagraph = Api.CreateParagraph();
+resultParagraph.AddText("Class type: " + classType);
+doc.Push(resultParagraph);

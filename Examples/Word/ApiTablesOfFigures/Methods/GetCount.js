@@ -11,3 +11,6 @@ paragraph.AddCaption(" - Sample figure", "Figure", false, "Arabic", false, undef
 let tablesOfFigures = doc.GetTablesOfFigures();
 tablesOfFigures.Add({"BuildFrom": "Figure", "LabelNumber": true});
 let count = tablesOfFigures.GetCount();
+let resultParagraph = Api.CreateParagraph();
+resultParagraph.AddText("Tables of figures count: " + count);
+doc.Push(resultParagraph);

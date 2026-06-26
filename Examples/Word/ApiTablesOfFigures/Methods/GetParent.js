@@ -7,3 +7,6 @@
 let doc = Api.GetDocument();
 let tablesOfFigures = doc.GetTablesOfFigures();
 let parent = tablesOfFigures.GetParent();
+let resultParagraph = Api.CreateParagraph();
+resultParagraph.AddText("Parent class type: " + parent.GetClassType());
+doc.Push(resultParagraph);

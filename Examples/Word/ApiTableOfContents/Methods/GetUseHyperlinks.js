@@ -11,3 +11,6 @@ paragraph.SetStyle(style);
 paragraph.AddText("Chapter 1");
 let toc = doc.AddTableOfContents({"BuildFrom": {"OutlineLvls": 9}});
 let isUseHyperlinks = toc.GetUseHyperlinks();
+let resultParagraph = Api.CreateParagraph();
+resultParagraph.AddText("Entries use hyperlinks: " + isUseHyperlinks);
+doc.Push(resultParagraph);

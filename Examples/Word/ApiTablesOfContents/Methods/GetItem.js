@@ -12,3 +12,6 @@ paragraph.AddText("Chapter 1");
 let tablesOfContents = doc.GetTablesOfContents();
 tablesOfContents.Add({"BuildFrom": {"OutlineLvls": 9}});
 let toc = tablesOfContents.GetItem(0);
+let resultParagraph = Api.CreateParagraph();
+resultParagraph.AddText("Item class type: " + toc.GetClassType());
+doc.Push(resultParagraph);

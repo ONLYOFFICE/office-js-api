@@ -11,3 +11,6 @@ paragraph.AddCaption(" - Sample figure", "Figure", false, "Arabic", false, undef
 let tablesOfFigures = doc.GetTablesOfFigures();
 tablesOfFigures.Add({"BuildFrom": "Figure", "LabelNumber": true});
 let tof = tablesOfFigures.GetItem(0);
+let resultParagraph = Api.CreateParagraph();
+resultParagraph.AddText("Item class type: " + tof.GetClassType());
+doc.Push(resultParagraph);

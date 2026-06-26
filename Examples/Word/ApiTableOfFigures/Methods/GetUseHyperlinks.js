@@ -10,3 +10,6 @@ paragraph.AddText("Figure 1");
 paragraph.AddCaption(" - Sample figure", "Figure", false, "Arabic", false, undefined, "hyphen");
 let tof = doc.AddTableOfFigures({"BuildFrom": "Figure", "LabelNumber": true});
 let isUseHyperlinks = tof.GetUseHyperlinks();
+let resultParagraph = Api.CreateParagraph();
+resultParagraph.AddText("Entries use hyperlinks: " + isUseHyperlinks);
+doc.Push(resultParagraph);

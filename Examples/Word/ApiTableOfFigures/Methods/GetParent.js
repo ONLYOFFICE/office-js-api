@@ -10,3 +10,6 @@ paragraph.AddText("Figure 1");
 paragraph.AddCaption(" - Sample figure", "Figure", false, "Arabic", false, undefined, "hyphen");
 let tof = doc.AddTableOfFigures({"BuildFrom": "Figure", "LabelNumber": true});
 let parent = tof.GetParent();
+let resultParagraph = Api.CreateParagraph();
+resultParagraph.AddText("Parent class type: " + parent.GetClassType());
+doc.Push(resultParagraph);

@@ -11,3 +11,6 @@ paragraph.SetStyle(style);
 paragraph.AddText("Chapter 1");
 let toc = doc.AddTableOfContents({"BuildFrom": {"OutlineLvls": 9}});
 let isInclude = toc.GetIncludePageNumbers();
+let resultParagraph = Api.CreateParagraph();
+resultParagraph.AddText("Page numbers included: " + isInclude);
+doc.Push(resultParagraph);

@@ -11,3 +11,6 @@ paragraph.SetStyle(style);
 paragraph.AddText("Chapter 1");
 let toc = doc.AddTableOfContents({"BuildFrom": {"OutlineLvls": 9}});
 let classType = toc.GetClassType();
+let resultParagraph = Api.CreateParagraph();
+resultParagraph.AddText("Class type: " + classType);
+doc.Push(resultParagraph);

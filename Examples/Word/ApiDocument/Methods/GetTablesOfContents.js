@@ -12,3 +12,6 @@ paragraph.AddText("Chapter 1");
 let tablesOfContents = doc.GetTablesOfContents();
 tablesOfContents.Add({"BuildFrom": {"OutlineLvls": 9}});
 let count = tablesOfContents.GetCount();
+let resultParagraph = Api.CreateParagraph();
+resultParagraph.AddText("Tables of contents count: " + count);
+doc.Push(resultParagraph);

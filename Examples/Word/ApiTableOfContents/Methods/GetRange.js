@@ -11,3 +11,6 @@ paragraph.SetStyle(style);
 paragraph.AddText("Chapter 1");
 let toc = doc.AddTableOfContents({"BuildFrom": {"OutlineLvls": 9}});
 let range = toc.GetRange();
+let resultParagraph = Api.CreateParagraph();
+resultParagraph.AddText("Range class type: " + range.GetClassType());
+doc.Push(resultParagraph);

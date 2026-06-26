@@ -4,10 +4,13 @@
 
 // Return the parent document of the table of contents.
 
-let doc = Api.GetDocument();
-let style = doc.GetStyle("Heading 1");
-let paragraph = doc.GetElement(0);
-paragraph.SetStyle(style);
-paragraph.AddText("Chapter 1");
-let toc = doc.AddTableOfContents({"BuildFrom": {"OutlineLvls": 9}});
-let parent = toc.GetParent();
+	let doc = Api.GetDocument();
+	let style = doc.GetStyle("Heading 1");
+	let paragraph = doc.GetElement(0);
+	paragraph.SetStyle(style);
+	paragraph.AddText("Chapter 1");
+	let toc = doc.AddTableOfContents({"BuildFrom": {"OutlineLvls": 9}});
+	let parent = toc.GetParent();
+	let resultParagraph = Api.CreateParagraph();
+	resultParagraph.AddText("Parent class type: " + parent.GetClassType());
+	doc.Push(resultParagraph);

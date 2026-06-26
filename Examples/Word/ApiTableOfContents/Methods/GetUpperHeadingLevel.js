@@ -11,3 +11,6 @@ paragraph.SetStyle(style);
 paragraph.AddText("Chapter 1");
 let toc = doc.AddTableOfContents({"BuildFrom": {"OutlineLvlStart": 2, "OutlineLvls": 4}});
 let upperLevel = toc.GetUpperHeadingLevel();
+let resultParagraph = Api.CreateParagraph();
+resultParagraph.AddText("Upper heading level: " + upperLevel);
+doc.Push(resultParagraph);

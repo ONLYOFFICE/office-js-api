@@ -10,3 +10,6 @@ paragraph.AddText("Figure 1");
 paragraph.AddCaption(" - Sample figure", "Figure", false, "Arabic", false, undefined, "hyphen");
 let tof = doc.AddTableOfFigures({"BuildFrom": "Figure", "LabelNumber": true});
 let isRightAlign = tof.GetRightAlignPageNumbers();
+let resultParagraph = Api.CreateParagraph();
+resultParagraph.AddText("Page numbers right-aligned: " + isRightAlign);
+doc.Push(resultParagraph);
