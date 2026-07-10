@@ -14,5 +14,5 @@ let fill = Api.CreateSolidFill(Api.RGB(51, 51, 51));
 chart.SetSeriesFill(fill, 0, false);
 fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 chart.SetSeriesFill(fill, 1, false);
-chart.SetAxieNumFormat("0.00", "left");
+chart.SetAxisNumFormat("0.00", "left");
 paragraph.AddDrawing(chart);
