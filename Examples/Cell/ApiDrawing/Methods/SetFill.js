@@ -1,5 +1,9 @@
 // Set the fill formatting properties to a shape and an image in a spreadsheet.
 
+// SetFill applies an ApiFill to any drawing object added to a worksheet, not only shapes.
+
+// Fill a shape with a solid color and an image with a semi-transparent overlay.
+
 const worksheet = Api.GetActiveSheet();
 const noFill = Api.CreateNoFill();
 const stroke = Api.CreateStroke(0, noFill);

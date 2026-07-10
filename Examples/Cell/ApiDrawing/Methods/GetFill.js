@@ -1,5 +1,9 @@
 // Get the fill formatting properties from a drawing in a spreadsheet.
 
+// GetFill returns the ApiFill of a drawing object, or null when the object has no fill.
+
+// Read the fill type from a filled shape and an image and write the values into cells.
+
 const worksheet = Api.GetActiveSheet();
 const gs1 = Api.CreateGradientStop(Api.RGB(200, 230, 180), 0);
 const gs2 = Api.CreateGradientStop(Api.RGB(110, 170, 150), 100000);
