@@ -1,8 +1,8 @@
-// Select one or more drawing objects on a page in a PDF form.
+// Remove a shape from the current selection while keeping other shapes selected on a page in a PDF form.
 
-// Combine replace mode and additive mode to control which shapes stay selected.
+// Deselect a single drawing without clearing the whole multi-shape selection.
 
-// Create three shapes, replace the selection with each of the first two, then add the third to it.
+// Create three shapes, select all of them, then unselect the second one so the first and third stay selected.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -22,5 +22,6 @@ const drawing3 = Api.CreateShape("rect", 60 * 36000, 35 * 36000, fill3, stroke3)
 page.AddObject(drawing3);
 drawing3.SetPosition(140 * 36000, 0);
 drawing1.Select(true);
-drawing2.Select(true);
+drawing2.Select();
 drawing3.Select();
+drawing2.Unselect();

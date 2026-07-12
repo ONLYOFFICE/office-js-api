@@ -1,6 +1,6 @@
 // Select a drawing object on the sheet in a spreadsheet.
 
-// How do I programmatically choose which drawings are selected in a spreadsheet?
+// Choose which drawings are selected in a spreadsheet.
 
 // Build a multi-shape selection by adding shapes one at a time or replacing the current selection in a spreadsheet.
 
