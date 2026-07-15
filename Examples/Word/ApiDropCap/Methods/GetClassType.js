@@ -10,3 +10,6 @@ paragraph.AddText('Once upon a time, there was a paragraph that started with a l
 doc.Push(paragraph);
 const dropCap = paragraph.SetDropCap('drop');
 const classType = dropCap.GetClassType();
+const result = Api.CreateParagraph();
+result.AddText('The ApiDropCap class type: ' + classType);
+doc.Push(result);

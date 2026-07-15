@@ -11,3 +11,6 @@ doc.Push(paragraph);
 const dropCap = paragraph.SetDropCap('drop');
 dropCap.SetDistance(72);
 const distance = dropCap.GetDistance();
+const result = Api.CreateParagraph();
+result.AddText('The distance between the drop cap and the text: ' + distance + ' twips');
+doc.Push(result);

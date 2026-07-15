@@ -11,3 +11,6 @@ doc.Push(paragraph);
 const dropCap = paragraph.SetDropCap('drop');
 dropCap.SetLines(3);
 const lines = dropCap.GetLines();
+const result = Api.CreateParagraph();
+result.AddText('The drop cap spans ' + lines + ' lines');
+doc.Push(result);
