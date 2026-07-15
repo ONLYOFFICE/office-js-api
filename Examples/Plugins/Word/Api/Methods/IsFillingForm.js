@@ -1,0 +1,1 @@
+Asc.plugin.executeMethod('IsFillingForm', [], result => console.log('Is filling form mode: ' + result));
