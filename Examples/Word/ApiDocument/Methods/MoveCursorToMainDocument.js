@@ -8,5 +8,5 @@ const doc = Api.GetDocument();
 doc.MoveCursorToFooter();
 doc.EnterText('Text in the page footer.');
 
-doc.MoveCursorToDocumentContent();
+doc.MoveCursorToMainDocument();
 doc.EnterText('Text in the main document.');
