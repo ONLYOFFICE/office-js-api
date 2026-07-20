@@ -9,7 +9,7 @@ const paragraph = Api.CreateParagraph();
 paragraph.AddText('Once upon a time, there was a paragraph that started with a large decorative letter.');
 doc.Push(paragraph);
 const dropCap = paragraph.SetDropCap('margin');
-const type = dropCap.GetType();
+const type = dropCap.GetPosition();
 const result = Api.CreateParagraph();
 result.AddText('The drop cap type: ' + type);
 doc.Push(result);

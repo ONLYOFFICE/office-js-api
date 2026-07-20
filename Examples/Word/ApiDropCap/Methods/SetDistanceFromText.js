@@ -9,4 +9,4 @@ const paragraph = Api.CreateParagraph();
 paragraph.AddText('Once upon a time, there was a paragraph that started with a large decorative letter.');
 doc.Push(paragraph);
 const dropCap = paragraph.SetDropCap('drop');
-dropCap.SetDistance(72);
+dropCap.SetDistanceFromText(72);

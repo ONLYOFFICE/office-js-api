@@ -10,4 +10,4 @@ paragraph.AddText('Once upon a time, there was a paragraph that started with a l
 doc.Push(paragraph);
 paragraph.SetDropCap('drop');
 const dropCap = paragraph.GetDropCap();
-dropCap.SetLines(2);
+dropCap.SetLinesToDrop(2);

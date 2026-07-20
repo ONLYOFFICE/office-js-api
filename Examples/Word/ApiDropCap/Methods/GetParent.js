@@ -9,5 +9,5 @@ const paragraph = Api.CreateParagraph();
 paragraph.AddText('Once upon a time, there was a paragraph that started with a large decorative letter.');
 doc.Push(paragraph);
 const dropCap = paragraph.SetDropCap('drop');
-const letter = dropCap.GetParagraph();
+const letter = dropCap.GetParent();
 letter.SetColor(255, 0, 0);
