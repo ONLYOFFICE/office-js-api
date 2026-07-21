@@ -10,9 +10,9 @@ const page = doc.GetPage(0);
 const schemeColor = Api.CreateSchemeColor("dk1");
 const fill = Api.CreateSolidFill(schemeColor);
 const stroke = Api.CreateStroke(0, Api.CreateNoFill());
-const shape = Api.CreateShape("flowChartMagneticTape", 300 * 36000, 130 * 36000, fill, stroke);
+const shape = Api.CreateShape("flowChartMagneticTape", 150 * 36000, 65 * 36000, fill, stroke);
 shape.SetPosition(608400, 1267200);
-shape.SetSize(300 * 36000, 130 * 36000);
+shape.SetSize(150 * 36000, 65 * 36000);
 
 const docContent = shape.GetContent();
 const classType = schemeColor.GetClassType();

@@ -8,7 +8,7 @@ const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 const fill = Api.CreateSolidFill(Api.CreateRGBColor(96, 125, 139));
 const stroke = Api.CreateStroke(0, Api.CreateNoFill());
-const drawing = Api.CreateShape("rect", 100 * 36000, 50 * 36000, fill, stroke);
+const drawing = Api.CreateShape("rect", 50 * 36000, 50 * 36000, fill, stroke);
 drawing.SetPosition(2000000, 1000000);
 page.AddObject(drawing);
 const currentFill = drawing.GetFill();

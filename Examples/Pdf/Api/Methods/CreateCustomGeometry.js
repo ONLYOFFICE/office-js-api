@@ -10,8 +10,8 @@ const page = doc.GetPage(0);
  // Airplane shape in EMU units
 let customGeometry = Api.CreateCustomGeometry();
 let path = customGeometry.AddPath();
-path.SetWidth(100 * 36000);
-path.SetHeight(100 * 36000);
+path.SetWidth(50 * 36000);
+path.SetHeight(50 * 36000);
 path.SetFill("norm");
 path.SetStroke(true);
 
@@ -68,25 +68,25 @@ path.CubicBezTo(
 
 path.CubicBezTo(
     99 * 36000, 1 * 36000,
-    100 * 36000, 2 * 36000,
-    100 * 36000, 4 * 36000
+    50 * 36000, 2 * 36000,
+    50 * 36000, 4 * 36000
 );
 
 path.CubicBezTo(
     102 * 36000, 8 * 36000,
-    100 * 36000, 14 * 36000,
+    50 * 36000, 14 * 36000,
     95 * 36000, 20 * 36000
 );
 
 // Right side fuselage
 path.LineTo(77 * 36000, 37 * 36000);
 path.LineTo(93 * 36000, 94 * 36000);
-path.LineTo(88 * 36000, 100 * 36000);
+path.LineTo(88 * 36000, 50 * 36000);
 
 path.CubicBezTo(
     87 * 36000, 101 * 36000,
     86 * 36000, 101 * 36000,
-    86 * 36000, 100 * 36000
+    86 * 36000, 50 * 36000
 );
 
 // Right wing
@@ -97,7 +97,7 @@ path.LineTo(41 * 36000, 98 * 36000);
 path.CubicBezTo(
     41 * 36000, 99 * 36000,
     41 * 36000, 99 * 36000,
-    40 * 36000, 100 * 36000
+    40 * 36000, 50 * 36000
 );
 
 // Tail section

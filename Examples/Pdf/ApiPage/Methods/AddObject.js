@@ -17,7 +17,7 @@ chart.SetHorAxisTitle("Year", 11);
 chart.SetLegendPos("bottom");
 chart.SetShowDataLabels(false, false, true, false);
 chart.SetTitle("Financial Overview", 13);
-chart.SetSize(300 * 36000, 130 * 36000);
+chart.SetSize(150 * 36000, 65 * 36000);
 chart.SetPosition(608400, 1267200);
 
 let fill = Api.CreateSolidFill(Api.RGB(51, 51, 51));
