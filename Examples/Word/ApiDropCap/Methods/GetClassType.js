@@ -1,6 +1,6 @@
 // Get the class type of a drop cap object in a document.
 
-// How do I determine the class type of a drop cap object in a document?
+// Determine the class type of a drop cap object in a document.
 
 // Read the "dropCap" class type from a drop cap created for a paragraph in a document.
 

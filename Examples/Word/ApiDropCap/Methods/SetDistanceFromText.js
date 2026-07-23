@@ -1,6 +1,6 @@
 // Set the distance between a drop cap and the paragraph text in a document.
 
-// How do I add spacing between a drop cap and the surrounding paragraph text in a document?
+// Add spacing between a drop cap and the surrounding paragraph text in a document.
 
 // Increase the horizontal gap between the decorative initial letter and the paragraph text in a document.
 

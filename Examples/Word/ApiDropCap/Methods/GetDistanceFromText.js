@@ -1,6 +1,6 @@
 // Read the distance between a drop cap and the paragraph text in a document.
 
-// How do I find out the gap between a drop cap and the paragraph text in a document?
+// Find out the gap between a drop cap and the paragraph text in a document.
 
 // Retrieve the horizontal distance between the drop cap and the paragraph text in a document.
 

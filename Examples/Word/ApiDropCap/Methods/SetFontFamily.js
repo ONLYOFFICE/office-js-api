@@ -1,6 +1,6 @@
 // Set the font family of a drop cap letter in a document.
 
-// How do I use a different font for the drop cap letter of a paragraph in a document?
+// Use a different font for the drop cap letter of a paragraph in a document.
 
 // Apply a specific font family to the decorative initial letter of a paragraph in a document.
 

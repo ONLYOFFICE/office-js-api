@@ -1,6 +1,6 @@
 // Read the number of lines a drop cap spans in a document.
 
-// How do I find out how many lines the drop cap of a paragraph drops down in a document?
+// Find out how many lines the drop cap of a paragraph drops down in a document.
 
 // Retrieve the line count that the drop cap of a paragraph occupies in a document.
 

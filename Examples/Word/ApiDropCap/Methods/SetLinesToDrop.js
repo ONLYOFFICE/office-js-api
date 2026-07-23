@@ -1,6 +1,6 @@
 // Set the number of lines a drop cap spans in a document.
 
-// How do I control how many lines the drop cap of a paragraph drops down in a document?
+// Control how many lines the drop cap of a paragraph drops down in a document.
 
 // Resize the decorative initial letter so that it occupies the specified number of text lines in a document.
 

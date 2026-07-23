@@ -1,6 +1,6 @@
 // Read the type of a drop cap in a document.
 
-// How do I check whether a drop cap is placed in the text or in the margin in a document?
+// Check whether a drop cap is placed in the text or in the margin in a document.
 
 // Retrieve the current drop cap type from a paragraph drop cap in a document.
 

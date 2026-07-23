@@ -1,6 +1,6 @@
 // Access the paragraph that holds the drop cap letter in a document.
 
-// How do I format the drop cap letter itself, such as its color, in a document?
+// Format the drop cap letter itself, such as its color, in a document.
 
 // Get the drop cap paragraph and colour its letter red in a document.
 
