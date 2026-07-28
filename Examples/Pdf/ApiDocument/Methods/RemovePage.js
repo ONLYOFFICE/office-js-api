@@ -5,5 +5,5 @@
 // Delete a specific page number from a PDF.
 
 let doc = Api.GetDocument();
-doc.AddPage(1);
+doc.AddPage(0);
 doc.RemovePage(0);

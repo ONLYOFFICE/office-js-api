@@ -12,5 +12,5 @@ image.SetPosition(608400, 1267200);
 page.AddObject(image);
 
 const copyImage = image.Copy();
-const newPage = doc.AddPage(1);
+const newPage = doc.AddPage(0);
 newPage.AddObject(copyImage);

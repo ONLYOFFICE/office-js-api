@@ -5,8 +5,8 @@
 // List every visual element on the current page in a PDF.
 
 const doc = Api.GetDocument();
-doc.AddPage();
-const page = doc.GetPage(doc.GetPagesCount() - 1);
+doc.AddPage(0);
+const page = doc.GetPage(0);
 
 const fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
 const stroke = Api.CreateStroke(0, Api.CreateNoFill());

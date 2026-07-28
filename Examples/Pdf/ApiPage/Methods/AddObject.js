@@ -5,8 +5,8 @@
 // Place a chart or shape on the current page in a PDF.
 
 const doc = Api.GetDocument();
-doc.AddPage();
-const page = doc.GetPage(doc.GetPagesCount() - 1);
+doc.AddPage(0);
+const page = doc.GetPage(0);
 
 const chart = Api.CreateChart("bar3D", [
 	[200, 240, 280],

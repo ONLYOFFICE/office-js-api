@@ -5,8 +5,8 @@
 // Retrieve a field and set its value by name in a PDF.
 
 let doc = Api.GetDocument();
-doc.AddPage();
-let page = doc.GetPage(doc.GetPagesCount() - 1);
+doc.AddPage(0);
+let page = doc.GetPage(0);
 let textField = Api.CreateTextField([10, 10, 160, 30]);
 page.AddObject(textField);
 

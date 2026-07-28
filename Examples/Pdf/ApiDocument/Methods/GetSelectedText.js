@@ -1,9 +1,9 @@
 // Select the text in a PDF document and return it.
 let doc = Api.GetDocument();
-doc.AddPage();
+doc.AddPage(0);
 let pageIndex = doc.GetPagesCount() - 1;
 let page = doc.GetPage(pageIndex);
-let fill = Api.CreateSolidFill(Api.RGB(255, 255, 255));
+let fill = Api.CreateSolidFill(Api.RGB(50, 150, 250));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());
 let shape = Api.CreateShape("rect", 150 * 36000, 80 * 36000, fill, stroke);
 shape.SetPosition(10 * 12700, 10 * 12700);
@@ -12,7 +12,8 @@ paragraph.SetJc("left");
 paragraph.AddText("Lorem selected text");
 page.AddObject(shape);
 
-let quads = page.Search({text: "Lorem selected text", matchCase: true, wholeWords: false});
+let results = page.Search({text: "Lorem selected text", matchCase: true, wholeWords: false});
+let quads = results[0];
 let firstQuad = quads[0];
 let lastQuad = quads[quads.length - 1];
 doc.SetSelection({

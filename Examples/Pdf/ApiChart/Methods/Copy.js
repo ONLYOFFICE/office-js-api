@@ -15,5 +15,5 @@ chart.SetPosition(608400, 1267200);
 page.AddObject(chart);
 
 const copyChart = chart.Copy();
-const newPage = doc.AddPage(1);
+const newPage = doc.AddPage(0);
 newPage.AddObject(copyChart);

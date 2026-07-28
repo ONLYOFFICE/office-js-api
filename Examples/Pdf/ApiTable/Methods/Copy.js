@@ -12,5 +12,5 @@ table.SetPosition(608400, 1267200);
 page.AddObject(table);
 
 const copyTable = table.Copy();
-const newPage = doc.AddPage(1);
+const newPage = doc.AddPage(0);
 newPage.AddObject(copyTable);

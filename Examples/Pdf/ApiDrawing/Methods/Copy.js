@@ -15,5 +15,5 @@ shape.SetSize(150 * 36000, 65 * 36000);
 page.AddObject(shape);
 
 const copyShape = shape.Copy();
-const newPage = doc.AddPage(1);
+const newPage = doc.AddPage(0);
 newPage.AddObject(copyShape);
