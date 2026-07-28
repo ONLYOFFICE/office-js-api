@@ -13,8 +13,8 @@ let docContent = shape.GetContent();
 let paragraph = docContent.GetElement(0);
 let math = Api.CreateMath("dx/dy", "unicode");
 paragraph.AddElement(math);
-let unicodeText = math.GetText(false);
-let latexText = math.GetText(true);
+let unicodeText = math.GetText("unicode");
+let latexText = math.GetText("latex");
 
 let paragraph2 = Api.CreateParagraph();
 paragraph2.AddText("Unicode: " + unicodeText + ", LaTeX: " + latexText);
