@@ -1,6 +1,6 @@
 // Clear the content of a table row in a PDF.
 
-// How do I remove all content from a row while keeping the row itself in a PDF?
+// Remove all content from a row while keeping the row itself in a PDF.
 
 // Add text to the first row and then clear it in a PDF.
 

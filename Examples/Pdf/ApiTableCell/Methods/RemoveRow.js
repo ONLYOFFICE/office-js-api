@@ -1,6 +1,6 @@
 // Remove the row containing a cell in a PDF.
 
-// How do I delete a table row by referencing one of its cells in a PDF?
+// Delete a table row by referencing one of its cells in a PDF.
 
 // Get the first cell and remove its entire row in a PDF.
 

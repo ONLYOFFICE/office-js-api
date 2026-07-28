@@ -1,6 +1,6 @@
 // Get the background color of a table cell in a PDF.
 
-// How do I read back the background color applied to a table cell in a PDF?
+// Read back the background color applied to a table cell in a PDF.
 
 // Set a background color and read it back in a PDF.
 

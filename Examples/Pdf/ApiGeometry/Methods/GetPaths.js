@@ -1,6 +1,6 @@
 // Extract all outline segments from a shape in a PDF.
 
-// How do I retrieve every path that makes up a shape in a PDF?
+// Retrieve every path that makes up a shape in a PDF.
 
 // Access all paths from a shape and review their details in a PDF.
 

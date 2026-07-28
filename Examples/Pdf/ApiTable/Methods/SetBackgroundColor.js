@@ -1,6 +1,6 @@
 // Set the background color for all cells in a table in a PDF.
 
-// How do I apply one background color to an entire table in a PDF?
+// Apply one background color to an entire table in a PDF.
 
 // Create a table and apply an orange background color to all cells in a PDF.
 

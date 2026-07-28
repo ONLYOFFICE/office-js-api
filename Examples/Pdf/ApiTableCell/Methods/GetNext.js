@@ -1,6 +1,6 @@
 // Get the next cell in a table row in a PDF.
 
-// How do I access the cell that follows the current one in a row in a PDF?
+// Access the cell that follows the current one in a row in a PDF.
 
 // Add text to the first cell and to the next one in a PDF.
 

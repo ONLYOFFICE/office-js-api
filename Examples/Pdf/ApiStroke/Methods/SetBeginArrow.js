@@ -1,6 +1,6 @@
 // Add an arrowhead to the start of a line in a PDF.
 
-// How do I set the beginning arrow of a line's stroke in a PDF?
+// Set the beginning arrow of a line's stroke in a PDF.
 
 // Create a line, retrieve its stroke, apply a triangle arrow to the start, and label the result in a PDF.
 

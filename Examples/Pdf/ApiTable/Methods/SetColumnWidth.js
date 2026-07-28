@@ -1,6 +1,6 @@
 // Set the width of table columns in a PDF.
 
-// How do I make one table column wider or narrower than the others in a PDF?
+// Make one table column wider or narrower than the others in a PDF.
 
 // Create a table and set custom widths for specific columns in a PDF.
 

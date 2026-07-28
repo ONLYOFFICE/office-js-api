@@ -1,6 +1,6 @@
 // Export table row formatting settings to a JSON representation in a PDF.
 
-// How do I save the formatting settings of a table row as reusable data in a PDF?
+// Save the formatting settings of a table row as reusable data in a PDF.
 
 // Build row properties, convert them to a JSON string, and display the result length in a PDF.
 

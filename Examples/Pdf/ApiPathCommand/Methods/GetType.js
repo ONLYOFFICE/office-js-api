@@ -1,6 +1,6 @@
 // Retrieve the type of a path command in a PDF.
 
-// How do I find out the command type in a PDF?
+// Find out the command type in a PDF.
 
 // Identify the type value from a path command in a PDF.
 

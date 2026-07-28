@@ -1,6 +1,6 @@
 // Set the total height of a table in a PDF.
 
-// How do I make a table a specific overall height in a PDF?
+// Make a table a specific overall height in a PDF.
 
 // Distribute the requested height proportionally among the table rows in a PDF.
 

@@ -1,6 +1,6 @@
 // Apply a fill color inside a shape path in a PDF.
 
-// How do I color the interior of a shape in a PDF?
+// Color the interior of a shape in a PDF.
 
 // Enable shading for a custom drawn shape in a PDF.
 

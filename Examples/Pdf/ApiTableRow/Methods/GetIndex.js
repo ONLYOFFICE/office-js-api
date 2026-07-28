@@ -1,6 +1,6 @@
 // Get the index of a table row in a PDF.
 
-// How do I find out the position of a row within a table in a PDF?
+// Find out the position of a row within a table in a PDF.
 
 // Get the index of the second row and display it in the first cell in a PDF.
 

@@ -1,6 +1,6 @@
 // Add new columns to a table in a PDF.
 
-// How do I insert several columns into a table at once in a PDF?
+// Insert several columns into a table at once in a PDF.
 
 // Create a table and add two columns after the first cell in a PDF.
 

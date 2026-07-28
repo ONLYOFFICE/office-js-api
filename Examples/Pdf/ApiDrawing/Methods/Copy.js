@@ -1,6 +1,6 @@
 // Create a duplicate of a shape on a different page in a PDF.
 
-// How do I copy a shape to another location in a PDF?
+// Copy a shape to another location in a PDF.
 
 // Make an identical copy of a drawing object in a PDF.
 

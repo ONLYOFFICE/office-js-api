@@ -1,6 +1,6 @@
 // Set the background color for all cells in a table row in a PDF.
 
-// How do I color the background of an entire table row in a PDF?
+// Color the background of an entire table row in a PDF.
 
 // Set an orange background for the second row in a PDF.
 

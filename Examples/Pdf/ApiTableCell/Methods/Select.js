@@ -1,6 +1,6 @@
 // Select a table cell in a PDF to make it the current selection.
 
-// How do I programmatically select a single cell inside a table in a PDF?
+// Programmatically select a single cell inside a table in a PDF.
 
 // Create a table, select one of its cells, then change its background color.
 

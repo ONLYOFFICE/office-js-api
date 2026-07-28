@@ -1,6 +1,6 @@
 // Apply uniform text formatting to all content inside a table cell in a PDF.
 
-// How do I change the font style and size of all text in a table cell at once in a PDF?
+// Change the font style and size of all text in a table cell at once in a PDF.
 
 // Style every character in a table cell by setting shared text properties in a PDF.
 

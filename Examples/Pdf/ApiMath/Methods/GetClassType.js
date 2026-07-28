@@ -1,6 +1,6 @@
 // Identify the object type of a math equation in a PDF.
 
-// How do I find out what kind of object a formula is in a PDF?
+// Find out what kind of object a formula is in a PDF.
 
 // Confirm the category a math equation belongs to in a PDF.
 

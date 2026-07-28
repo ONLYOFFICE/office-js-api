@@ -1,6 +1,6 @@
 // Measure the vertical size of a shape's drawing area in a PDF.
 
-// How do I find the height of a custom shape in a PDF?
+// Find the height of a custom shape in a PDF.
 
 // Read the vertical measurement of a shape's outline bounds in a PDF.
 

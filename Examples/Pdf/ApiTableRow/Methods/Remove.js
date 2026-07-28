@@ -1,6 +1,6 @@
 // Remove a table row in a PDF.
 
-// How do I delete a row from a table in a PDF?
+// Delete a row from a table in a PDF.
 
 // Remove the first row from the table in a PDF.
 

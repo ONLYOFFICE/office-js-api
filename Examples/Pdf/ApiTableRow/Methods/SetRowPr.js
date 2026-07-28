@@ -1,6 +1,6 @@
 // Set the properties for a table row in a PDF.
 
-// How do I apply a set of row properties to a table row at once in a PDF?
+// Apply a set of row properties to a table row at once in a PDF.
 
 // Set the height of the first row using row properties in a PDF.
 

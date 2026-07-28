@@ -1,6 +1,6 @@
 // Add an arrowhead to the end of a line in a PDF.
 
-// How do I set the ending arrow of a line's stroke in a PDF?
+// Set the ending arrow of a line's stroke in a PDF.
 
 // Create a line, retrieve its stroke, apply a stealth arrow to the end, and label the result in a PDF.
 

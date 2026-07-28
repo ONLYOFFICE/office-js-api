@@ -1,4 +1,9 @@
 // Select the text in a PDF document and return it.
+
+// Set a selection over the found text, then read the plain text it contains.
+
+// Search for a phrase, select the matching range, and log the selected text.
+
 let doc = Api.GetDocument();
 doc.AddPage(0);
 let pageIndex = doc.GetPagesCount() - 1;

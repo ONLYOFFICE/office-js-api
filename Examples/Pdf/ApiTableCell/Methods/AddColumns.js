@@ -1,6 +1,6 @@
 // Add new columns to a table via one of its cells in a PDF.
 
-// How do I insert columns right after a specific cell in a PDF table?
+// Insert columns right after a specific cell in a PDF table.
 
 // Add two columns after the first cell in a PDF.
 

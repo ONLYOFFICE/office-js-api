@@ -1,6 +1,6 @@
 // Set the background color of a table cell in a PDF.
 
-// How do I color the background of a single table cell in a PDF?
+// Color the background of a single table cell in a PDF.
 
 // Set an orange background for the first cell in a PDF.
 

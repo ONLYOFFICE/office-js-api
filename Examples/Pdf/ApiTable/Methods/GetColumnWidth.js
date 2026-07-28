@@ -1,6 +1,6 @@
 // Measure the width of a table column in a PDF.
 
-// How do I find out how wide a table column is in a PDF?
+// Find out how wide a table column is in a PDF.
 
 // Read the column width value and display it in a PDF.
 

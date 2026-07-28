@@ -1,6 +1,6 @@
 // Find out the drawing pattern details of a shape in a PDF.
 
-// How do I check the shape's drawing pattern in a PDF?
+// Check the shape's drawing pattern in a PDF.
 
 // Access the shape's built-in or custom drawing design in a PDF.
 

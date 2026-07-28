@@ -1,6 +1,6 @@
 // Extract a single path from a shape's outline in a PDF.
 
-// How do I access one of the outline segments from a shape in a PDF?
+// Access one of the outline segments from a shape in a PDF.
 
 // Retrieve a specific path and examine its properties in a PDF.
 

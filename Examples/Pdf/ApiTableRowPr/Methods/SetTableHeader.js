@@ -1,6 +1,6 @@
 // Mark the first row as a repeated table header in a PDF.
 
-// How do I make a table row repeat as a header row in a PDF?
+// Make a table row repeat as a header row in a PDF.
 
 // Mark the first row as a header that repeats on each page in a PDF.
 

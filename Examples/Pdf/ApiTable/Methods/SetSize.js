@@ -1,6 +1,6 @@
 // Set the width and height of a table in a PDF.
 
-// How do I give a table specific dimensions in a PDF?
+// Give a table specific dimensions in a PDF.
 
 // Create a table and set custom width and height values in a PDF.
 

@@ -1,6 +1,6 @@
 // Retrieve the first control point y coordinate from a cubic curve in a PDF.
 
-// How can I get the first control point's vertical position in a PDF?
+// Get the first control point's vertical position in a PDF.
 
 // Extract the first control point's y value from a path in a PDF.
 

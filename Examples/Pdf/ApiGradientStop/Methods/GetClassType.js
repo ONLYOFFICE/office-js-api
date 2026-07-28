@@ -1,6 +1,6 @@
 // Determine the type of a gradient stop object in a PDF.
 
-// How can I find the object type of a gradient stop in a PDF?
+// Find the object type of a gradient stop in a PDF.
 
 // Retrieve the class type information for a gradient color stop in a PDF.
 

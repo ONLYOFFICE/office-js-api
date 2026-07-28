@@ -1,6 +1,6 @@
 // Draw the outline of a custom shape in a PDF.
 
-// How do I create the boundary of a unique shape in a PDF?
+// Create the boundary of a unique shape in a PDF.
 
 // Define the shape's outline using lines and curves in a PDF.
 

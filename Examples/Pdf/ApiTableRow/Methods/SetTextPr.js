@@ -1,6 +1,6 @@
 // Apply text formatting to all cells in a table row in a PDF.
 
-// How do I change the text style for an entire row of a table in a PDF?
+// Change the text style for an entire row of a table in a PDF.
 
 // Style the text across a full table row uniformly in a PDF.
 

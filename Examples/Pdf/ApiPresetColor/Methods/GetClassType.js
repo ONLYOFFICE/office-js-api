@@ -1,6 +1,6 @@
 // Identify what type of object a preset color is in a PDF.
 
-// How do I determine the object type of a preset color in a PDF?
+// Determine the object type of a preset color in a PDF.
 
 // Find the classification name for a preset color in a PDF.
 

@@ -1,6 +1,6 @@
 // Modify adjustment values for a shape's geometry in a PDF.
 
-// How do I change adjustment parameters for a shape in a PDF?
+// Change adjustment parameters for a shape in a PDF.
 
 // Apply custom adjustment settings to geometry in a PDF.
 

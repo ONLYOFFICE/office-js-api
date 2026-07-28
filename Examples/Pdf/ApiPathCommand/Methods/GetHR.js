@@ -1,6 +1,6 @@
 // Read the vertical radius of an arc in a PDF.
 
-// How do I find the height measurement of an arc in a PDF?
+// Find the height measurement of an arc in a PDF.
 
 // Retrieve the vertical span of a curved arc segment in a PDF.
 

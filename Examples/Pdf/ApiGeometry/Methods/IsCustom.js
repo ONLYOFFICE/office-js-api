@@ -1,6 +1,6 @@
 // Identify whether a shape uses custom geometry in a PDF.
 
-// How can I check if a shape has custom geometry in a PDF?
+// Check if a shape has custom geometry in a PDF.
 
 // Determine custom geometry status for a star shape in a PDF.
 

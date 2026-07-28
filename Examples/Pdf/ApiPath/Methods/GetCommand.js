@@ -1,6 +1,6 @@
 // Retrieve a specific drawing instruction from a shape's outline in a PDF.
 
-// How do I access one step of a shape's outline in a PDF?
+// Access one step of a shape's outline in a PDF.
 
 // Find and inspect an individual command that builds a shape in a PDF.
 

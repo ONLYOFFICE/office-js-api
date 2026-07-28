@@ -1,6 +1,6 @@
 // Extract the width radius value from an arc path command in a PDF.
 
-// How can I get the width radius of an arc in a PDF?
+// Get the width radius of an arc in a PDF.
 
 // Retrieve the arc's horizontal radius measurement in a PDF.
 

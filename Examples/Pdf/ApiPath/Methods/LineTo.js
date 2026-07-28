@@ -1,6 +1,6 @@
 // Draw a straight line within a shape path in a PDF.
 
-// How do I connect points with lines in a PDF?
+// Connect points with lines in a PDF.
 
 // Add line segments to create custom shapes in a PDF.
 

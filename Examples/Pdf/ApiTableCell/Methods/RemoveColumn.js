@@ -1,6 +1,6 @@
 // Remove the column containing a cell in a PDF.
 
-// How do I delete a table column by referencing one of its cells in a PDF?
+// Delete a table column by referencing one of its cells in a PDF.
 
 // Get the first cell and remove its entire column in a PDF.
 

@@ -1,6 +1,6 @@
 // Get the description of a table in a PDF.
 
-// How do I read back the accessible description of a table in a PDF?
+// Read back the accessible description of a table in a PDF.
 
 // Create a table, set its description, and display it in the first cell in a PDF.
 

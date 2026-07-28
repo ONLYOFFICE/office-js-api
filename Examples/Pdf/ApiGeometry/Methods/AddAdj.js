@@ -1,6 +1,6 @@
 // Create a parameter that controls the shape's appearance in a PDF.
 
-// How do I add a value that changes how a shape is drawn in a PDF?
+// Add a value that changes how a shape is drawn in a PDF.
 
 // Define an adjustment control and apply it to a shape in a PDF.
 

@@ -1,6 +1,6 @@
 // Add new rows to a table in a PDF.
 
-// How do I insert several rows into a table at once in a PDF?
+// Insert several rows into a table at once in a PDF.
 
 // Create a table and add two rows after the first cell in a PDF.
 

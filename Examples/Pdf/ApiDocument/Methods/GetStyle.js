@@ -1,6 +1,6 @@
 // Get a named table style and apply it to a table in a PDF.
 
-// How do I look up a built-in table style by name in a PDF document?
+// Look up a built-in table style by name in a PDF document.
 
 // Fetch "Dark Style 1 - Accent 2", rename it, and apply it to a 3x3 table in a PDF.
 

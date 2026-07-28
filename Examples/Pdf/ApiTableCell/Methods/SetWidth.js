@@ -1,6 +1,6 @@
 // Set a preferred width on individual table cells in a PDF.
 
-// How do I give specific cells a fixed width in a PDF table?
+// Give specific cells a fixed width in a PDF table.
 
 // Create a table and set the first column cells width in a PDF.
 

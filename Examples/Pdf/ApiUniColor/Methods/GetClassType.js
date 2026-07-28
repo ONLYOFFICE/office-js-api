@@ -1,6 +1,6 @@
 // Find out what kind of color object you're working with in a PDF.
 
-// How do I identify the type of color being used in a PDF?
+// Identify the type of color being used in a PDF.
 
 // Determine what color system defines a color in a PDF.
 

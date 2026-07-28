@@ -1,6 +1,6 @@
 // Add a paragraph at a specific position inside a table cell in a PDF.
 
-// How do I insert a document element into a specific cell of a table in a PDF?
+// Insert a document element into a specific cell of a table in a PDF.
 
 // Create a table and add a paragraph as the first element of its first cell in a PDF.
 

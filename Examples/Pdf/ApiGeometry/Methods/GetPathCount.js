@@ -1,6 +1,6 @@
 // Count the number of outline segments in a shape in a PDF.
 
-// How do I find out how many separate paths a shape contains in a PDF?
+// Find out how many separate paths a shape contains in a PDF.
 
 // Get the total number of paths and display it in a PDF.
 

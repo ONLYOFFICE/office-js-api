@@ -1,6 +1,6 @@
 // Mark a spot where connectors can attach to a shape in a PDF.
 
-// How do I specify where lines can connect to my shape in a PDF?
+// Specify where lines can connect to my shape in a PDF.
 
 // Define attachment points and apply them to a custom shape in a PDF.
 

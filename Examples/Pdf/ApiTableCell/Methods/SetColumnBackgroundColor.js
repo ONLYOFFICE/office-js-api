@@ -1,6 +1,6 @@
 // Set the background color for an entire table column in a PDF.
 
-// How do I color the background of a whole column via one of its cells in a PDF?
+// Color the background of a whole column via one of its cells in a PDF.
 
 // Set an orange background for the entire first column in a PDF.
 

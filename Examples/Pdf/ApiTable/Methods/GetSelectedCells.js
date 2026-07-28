@@ -1,6 +1,6 @@
 // Get the selected cells from a table in a PDF.
 
-// How do I find out which cells are currently selected in a table in a PDF?
+// Find out which cells are currently selected in a table in a PDF.
 
 // Select a cell and read back the list of selected cells in a PDF.
 

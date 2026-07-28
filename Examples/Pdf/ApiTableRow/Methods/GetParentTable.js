@@ -1,6 +1,6 @@
 // Get the parent table of a row in a PDF.
 
-// How do I access the table that contains a given row in a PDF?
+// Access the table that contains a given row in a PDF.
 
 // Get the parent table from a row and change its background color in a PDF.
 

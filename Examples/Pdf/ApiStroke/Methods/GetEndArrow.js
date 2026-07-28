@@ -1,6 +1,6 @@
 // Read the ending arrow of a line in a PDF.
 
-// How do I find out which arrow is applied to the end of a line in a PDF?
+// Find out which arrow is applied to the end of a line in a PDF.
 
 // Apply an ending arrow to a line's stroke, read it back, and label the result in a PDF.
 

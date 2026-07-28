@@ -1,6 +1,6 @@
 // Get the previous cell in a table row in a PDF.
 
-// How do I access the cell that precedes the current one in a row in a PDF?
+// Access the cell that precedes the current one in a row in a PDF.
 
 // Add text to the second cell and to the previous one in a PDF.
 

@@ -1,6 +1,6 @@
 // Retrieve the border properties from a shape in a PDF.
 
-// How do I read the outline details of a shape in a PDF?
+// Read the outline details of a shape in a PDF.
 
 // View the border information including width and color in a PDF.
 

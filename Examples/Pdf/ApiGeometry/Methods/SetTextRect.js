@@ -1,6 +1,6 @@
 // Define text boundaries within a shape's geometry in a PDF.
 
-// How can I set where text appears inside a shape in a PDF?
+// Set where text appears inside a shape in a PDF.
 
 // Establish custom text placement boundaries in a PDF.
 

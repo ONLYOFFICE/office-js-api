@@ -1,6 +1,6 @@
 // Get the number of rows in a table in a PDF.
 
-// How do I find out how many rows a table has in a PDF?
+// Find out how many rows a table has in a PDF.
 
 // Create a table, add a row, and display the row count in the first cell in a PDF.
 

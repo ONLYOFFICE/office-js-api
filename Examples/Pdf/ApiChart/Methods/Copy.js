@@ -1,6 +1,6 @@
 // Duplicate a chart and place the copy on another page in a PDF.
 
-// How do I make a copy of a chart in a PDF?
+// Make a copy of a chart in a PDF.
 
 // Create an exact duplicate of a chart and add it to a new page in a PDF.
 

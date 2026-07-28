@@ -1,6 +1,6 @@
 // Add a border to a shape in a PDF.
 
-// How do I customize the outline of a shape in a PDF?
+// Customize the outline of a shape in a PDF.
 
 // Give a shape a colored border with specific thickness in a PDF.
 

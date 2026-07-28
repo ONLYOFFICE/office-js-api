@@ -1,6 +1,6 @@
 // Find out what type of color object an RGB color is in a PDF.
 
-// How do I check the category of an RGB color in a PDF?
+// Check the category of an RGB color in a PDF.
 
 // Determine the classification of a red-green-blue color in a PDF.
 

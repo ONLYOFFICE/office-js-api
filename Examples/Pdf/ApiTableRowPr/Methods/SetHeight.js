@@ -1,6 +1,6 @@
 // Set a minimum row height in a PDF table using row properties.
 
-// How do I apply the same minimum row height to every row of a table in a PDF?
+// Apply the same minimum row height to every row of a table in a PDF.
 
 // Create a table, build row properties with a fixed minimum height, and apply them to each row in a PDF.
 

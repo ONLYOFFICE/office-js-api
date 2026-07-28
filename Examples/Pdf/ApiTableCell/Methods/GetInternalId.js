@@ -1,6 +1,6 @@
 // Get the internal identifier of a table cell in a PDF.
 
-// How do I get a unique identifier for a table cell in a PDF?
+// Get a unique identifier for a table cell in a PDF.
 
 // Retrieve the internal id and display it in the cell in a PDF.
 

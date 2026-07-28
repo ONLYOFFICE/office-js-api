@@ -1,6 +1,6 @@
 // Select a range of cells in a table in a PDF.
 
-// How do I select several adjacent cells in a table at once in a PDF?
+// Select several adjacent cells in a table at once in a PDF.
 
 // Create a table and select a 2x2 block of cells starting from the top-left corner.
 

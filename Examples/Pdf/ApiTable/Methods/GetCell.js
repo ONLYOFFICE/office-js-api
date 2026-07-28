@@ -1,6 +1,6 @@
 // Get a table cell by its row and column index in a PDF.
 
-// How do I access a specific cell in a table in a PDF?
+// Access a specific cell in a table in a PDF.
 
 // Create a table and add text to the cell at row 0, column 1 in a PDF.
 

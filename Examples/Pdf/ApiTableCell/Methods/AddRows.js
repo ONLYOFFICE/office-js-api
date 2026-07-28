@@ -1,6 +1,6 @@
 // Add new rows to a table via one of its cells in a PDF.
 
-// How do I insert rows right after a specific cell in a PDF table?
+// Insert rows right after a specific cell in a PDF table.
 
 // Add two rows after the first cell in a PDF.
 

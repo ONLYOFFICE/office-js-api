@@ -1,6 +1,6 @@
 // Set the title of a table in a PDF.
 
-// How do I give a table an accessible title in a PDF?
+// Give a table an accessible title in a PDF.
 
 // Create a table, set its title, and display the title in the first cell in a PDF.
 

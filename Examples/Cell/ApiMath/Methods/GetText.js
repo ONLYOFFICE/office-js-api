@@ -1,6 +1,6 @@
 // Read the text representation of a math equation, either as unicode linear text or as LaTeX, in a spreadsheet.
 
-// How do I get the formula of an equation back as plain text or as LaTeX in a spreadsheet?
+// Get the formula of an equation back as plain text or as LaTeX in a spreadsheet.
 
 // Build a fraction equation, then read it back both as unicode text and as LaTeX.
 

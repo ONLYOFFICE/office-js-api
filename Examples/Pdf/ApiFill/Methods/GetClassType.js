@@ -1,6 +1,6 @@
 // Determine the class category of a fill style in a PDF.
 
-// How do I identify what kind of fill is applied to a shape in a PDF?
+// Identify what kind of fill is applied to a shape in a PDF.
 
 // Retrieve the classification of a fill pattern in a PDF.
 

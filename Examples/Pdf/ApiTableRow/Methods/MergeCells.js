@@ -1,6 +1,6 @@
 // Merge all cells in a table row in a PDF.
 
-// How do I combine all the cells of one row into a single cell in a PDF?
+// Combine all the cells of one row into a single cell in a PDF.
 
 // Merge all cells of the first row in a PDF.
 

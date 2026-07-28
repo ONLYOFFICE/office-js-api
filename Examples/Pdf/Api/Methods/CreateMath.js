@@ -1,6 +1,6 @@
 // Build a math equation object and insert it into a shape's paragraph like a text run in a PDF.
 
-// How do I insert a formula into a shape as if it were a run of text in a PDF?
+// Insert a formula into a shape as if it were a run of text in a PDF.
 
 // Produce a reusable equation object and place it into a shape's paragraph content in a PDF.
 

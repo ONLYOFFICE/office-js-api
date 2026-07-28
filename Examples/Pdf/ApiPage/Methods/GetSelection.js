@@ -1,4 +1,9 @@
 // Get the current selection on a page in a PDF.
+
+// Read back the selection range set on a single page as start and end points.
+
+// Search for text on the page, select it, then log the selection's start and end coordinates.
+
 let doc = Api.GetDocument();
 doc.AddPage(0);
 let page = doc.GetPage(0);

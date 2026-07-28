@@ -1,6 +1,6 @@
 // Set different text fit types to shapes in a PDF.
 
-// How do I make text shrink or stay the same size when it overflows a shape in a PDF?
+// Make text shrink or stay the same size when it overflows a shape in a PDF.
 
 // Create three shapes and apply each of the available text autofit types in a PDF.
 

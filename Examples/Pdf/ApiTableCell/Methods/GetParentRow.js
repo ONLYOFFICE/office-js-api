@@ -1,6 +1,6 @@
 // Get the parent row of a table cell in a PDF.
 
-// How do I access the row that contains a given cell in a PDF?
+// Access the row that contains a given cell in a PDF.
 
 // Get the parent row and set its height in a PDF.
 

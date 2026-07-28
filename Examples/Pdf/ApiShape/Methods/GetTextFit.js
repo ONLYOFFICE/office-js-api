@@ -1,6 +1,6 @@
 // Read the text autofit type currently applied to a shape in a PDF.
 
-// How do I check which text fit mode is applied to a shape in a PDF?
+// Check which text fit mode is applied to a shape in a PDF.
 
 // Apply an autofit type with SetTextFit, then retrieve it back and display it in the shape in a PDF.
 

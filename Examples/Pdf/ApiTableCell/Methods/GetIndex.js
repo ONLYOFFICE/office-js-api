@@ -1,6 +1,6 @@
 // Get the column index of a table cell in a PDF.
 
-// How do I find out the position of a cell within its row in a PDF?
+// Find out the position of a cell within its row in a PDF.
 
 // Retrieve the cell index and display it in the cell in a PDF.
 

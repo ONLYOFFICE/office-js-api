@@ -1,6 +1,6 @@
 // Clear the content of a table cell in a PDF.
 
-// How do I remove all content from a single table cell in a PDF?
+// Remove all content from a single table cell in a PDF.
 
 // Add text to a cell and then clear it in a PDF.
 

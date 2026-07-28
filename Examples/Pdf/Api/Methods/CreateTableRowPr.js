@@ -1,6 +1,6 @@
 // Create a reusable table row properties object in a PDF.
 
-// How do I build row formatting settings before applying them to a table row in a PDF?
+// Build row formatting settings before applying them to a table row in a PDF.
 
 // Create empty row properties, set a minimum height, and apply them to every row of a table in a PDF.
 

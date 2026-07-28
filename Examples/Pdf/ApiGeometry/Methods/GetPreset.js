@@ -1,6 +1,6 @@
 // Identify which built-in shape template was used for a shape in a PDF.
 
-// How do I find out what preset shape type is being used in a PDF?
+// Find out what preset shape type is being used in a PDF.
 
 // Check whether a shape is using a preset or a custom design in a PDF.
 

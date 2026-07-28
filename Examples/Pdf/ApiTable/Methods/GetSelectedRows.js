@@ -1,6 +1,6 @@
 // Get the selected rows from a table in a PDF.
 
-// How do I retrieve the rows that contain the currently selected cells in a table in a PDF?
+// Retrieve the rows that contain the currently selected cells in a table in a PDF.
 
 // Select a cell and read back the rows that contain the selection in a PDF.
 

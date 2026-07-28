@@ -1,6 +1,6 @@
 // Get the class type of a table row properties object in a PDF.
 
-// How do I check that an object is a table row properties object in a PDF?
+// Check that an object is a table row properties object in a PDF.
 
 // Create empty row properties and display their class type in a table cell in a PDF.
 

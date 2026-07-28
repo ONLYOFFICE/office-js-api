@@ -1,6 +1,6 @@
 // Duplicate a shape and place the copy on another page in a PDF.
 
-// How do I make a copy of a shape in a PDF?
+// Make a copy of a shape in a PDF.
 
 // Create an exact duplicate of a shape and add it to a new page in a PDF.
 

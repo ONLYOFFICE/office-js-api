@@ -1,6 +1,6 @@
 // Use a custom drawing pattern for a shape in a PDF.
 
-// How do I apply a custom shape design in a PDF?
+// Apply a custom shape design in a PDF.
 
 // Replace a shape's default pattern with a personalized drawing outline in a PDF.
 

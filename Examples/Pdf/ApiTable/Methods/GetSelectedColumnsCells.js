@@ -1,6 +1,6 @@
 // Get the cells from the selected columns of a table in a PDF.
 
-// How do I retrieve all cells belonging to the currently selected columns in a table in a PDF?
+// Retrieve all cells belonging to the currently selected columns in a table in a PDF.
 
 // Select a cell and read back the cells of its column in a PDF.
 

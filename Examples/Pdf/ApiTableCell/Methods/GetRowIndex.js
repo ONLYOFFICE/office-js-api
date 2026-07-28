@@ -1,6 +1,6 @@
 // Get the row index of a table cell in a PDF.
 
-// How do I find out which row a table cell belongs to in a PDF?
+// Find out which row a table cell belongs to in a PDF.
 
 // Retrieve the row index and display it in the cell in a PDF.
 

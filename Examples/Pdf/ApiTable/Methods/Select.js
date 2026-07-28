@@ -1,6 +1,6 @@
 // Select a table in a PDF to make it the current selection.
 
-// How do I programmatically select a table in a PDF?
+// Programmatically select a table in a PDF.
 
 // Add a table to the page, select it, then change its background color.
 

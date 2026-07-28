@@ -1,6 +1,6 @@
 // Get the next row of a table in a PDF.
 
-// How do I access the row that follows the current one in a table in a PDF?
+// Access the row that follows the current one in a table in a PDF.
 
 // Display text in the first and second rows using GetNext in a PDF.
 

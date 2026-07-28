@@ -1,6 +1,6 @@
 // Get the previous row of a table in a PDF.
 
-// How do I access the row that precedes the current one in a table in a PDF?
+// Access the row that precedes the current one in a table in a PDF.
 
 // Display text in the second and first rows using GetPrevious in a PDF.
 
