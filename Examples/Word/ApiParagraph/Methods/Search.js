@@ -1,6 +1,6 @@
-// Search a paragraph by a string and by a regular expression, then bold the matches.
+// Find text in a paragraph by a string and by a regular expression, then bold the matches.
 
-// Find a keyword and also match every digit sequence with a RegExp in one paragraph.
+// Look up a keyword and also match every digit sequence with a RegExp in one paragraph.
 
 // Bold the first keyword match, then bold each number found by the /\d+/g expression.
 

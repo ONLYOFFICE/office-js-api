@@ -1,6 +1,6 @@
-// Search a document by a string and by a regular expression, then bold the matched ranges.
+// Find text in a document by a string and by a regular expression, then bold the matches.
 
-// Combine a plain keyword search with a RegExp search that matches every numbered label.
+// Combine a keyword lookup with a RegExp that matches every numbered label.
 
 // Bold the second keyword match, then bold each label found by the /№\d+/g expression.
 
