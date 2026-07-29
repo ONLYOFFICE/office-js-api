@@ -2,7 +2,7 @@
 
 // Highlight a block of cells spanning several rows and columns for further editing.
 
-// Select the cells from the first cell of the first row to the second cell of the second row.
+// Select the cells from the first cell of the first row to the second cell of the third row.
 
 let doc = Api.GetDocument();
 let table = Api.CreateTable(3, 3);
