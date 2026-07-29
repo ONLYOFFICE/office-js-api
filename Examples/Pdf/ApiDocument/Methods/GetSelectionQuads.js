@@ -5,19 +5,20 @@
 // Get the boundaries of selected text and apply highlighting in a PDF.
 
 let doc = Api.GetDocument();
-doc.AddPage();
+doc.AddPage(0);
 let pageIndex = doc.GetPagesCount() - 1;
 let textPage = doc.GetPage(pageIndex);
-let fill = Api.CreateSolidFill(Api.RGB(255, 255, 255));
+let fill = Api.CreateSolidFill(Api.RGB(50, 150, 250));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());
-let shape = Api.CreateShape("rect", 300 * 36000, 80 * 36000, fill, stroke);
+let shape = Api.CreateShape("rect", 150 * 36000, 80 * 36000, fill, stroke);
 shape.SetPosition(10 * 12700, 10 * 12700);
 let paragraph = shape.GetContent().GetElement(0);
 paragraph.SetJc("left");
 paragraph.AddText("Lorem selected text");
 textPage.AddObject(shape);
 
-let textQuads = textPage.Search({text: "Lorem selected text", matchCase: true, wholeWords: false});
+let results = textPage.Search({text: "Lorem selected text", matchCase: true, wholeWords: false});
+let textQuads = results[0];
 let firstQuad = textQuads[0];
 let lastQuad = textQuads[textQuads.length - 1];
 doc.SetSelection({

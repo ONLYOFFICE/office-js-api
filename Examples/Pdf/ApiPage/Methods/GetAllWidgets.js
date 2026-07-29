@@ -5,8 +5,8 @@
 // List every interactive element on the current page in a PDF.
 
 let doc = Api.GetDocument();
-doc.AddPage();
-let page = doc.GetPage(doc.GetPagesCount() - 1);
+doc.AddPage(0);
+let page = doc.GetPage(0);
 
 let textField = Api.CreateTextField([10, 10, 160, 30]);
 let comboboxField = Api.CreateComboboxField([10, 40, 160, 60]);

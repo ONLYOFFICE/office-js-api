@@ -1,12 +1,16 @@
-// Select a rectangular range of cells in a table in a PDF.
+// Select a range of cells in a table in a PDF.
 
-// Highlight a block of cells spanning several rows and columns to apply changes to them.
+// Select several adjacent cells in a table at once in a PDF.
 
-// Select the cells from the first cell of the first row to the second cell of the second row.
+// Create a table and select a 2x2 block of cells starting from the top-left corner.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
+
 const table = Api.CreateTable(3, 3);
 page.AddObject(table);
+
 table.SelectRange(0, 0, 1, 1);
-const selectedCells = table.GetSelectedCells();
+const paragraph = Api.CreateParagraph();
+paragraph.AddText('Selected cells: ' + table.GetSelectedCells().length);
+table.GetCell(0, 0).GetContent().Push(paragraph);

@@ -1,0 +1,1 @@
+Asc.plugin.executeMethod('IsFillingPdfForm', [], result => console.log('Is filling PDF form mode: ' + result));

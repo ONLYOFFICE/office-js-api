@@ -5,6 +5,6 @@
 // Apply a rotation transformation to change the page orientation in a PDF.
 
 let doc = Api.GetDocument();
-doc.AddPage();
-let page = doc.GetPage(doc.GetPagesCount() - 1);
+doc.AddPage(0);
+let page = doc.GetPage(0);
 page.SetRotation(90);

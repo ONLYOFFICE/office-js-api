@@ -1,6 +1,6 @@
 // Identify the object type of a math equation in a document.
 
-// How do I find out what kind of object a formula is in a document?
+// Find out what kind of object a formula is in a document.
 
 // Confirm the category a math equation belongs to in a document.
 
