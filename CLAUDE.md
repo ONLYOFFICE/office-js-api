@@ -21,7 +21,7 @@ code here;
 ### Comment style
 
 - Use **imperative or descriptive** form. Never use "How to...", "This example...", "In this example...", "Show how...", or similar phrasing.
-- Each file's first comment serves as a **translation key** in `Translations/` zh-CN.json files (`Translations/Office/zh-CN.json`, `Translations/Plugins/Events/zh-CN.json`, `Translations/Plugins/Methods/zh-CN.json`). Changing it requires updating the key (and value if needed) in the corresponding translation file.
+- Each file's first comment serves as a **translation key** in `Translations/` zh-CN.json files (`Translations/Office/zh-CN.json`, `Translations/Plugins/Events/zh-CN.json`, `Translations/Plugins/Methods/zh-CN.json`). Changing it requires updating the key (and value if needed) in the corresponding translation file. Insert new keys immediately **above** the trailing `"": ""` sentinel entry, which must remain the last line before the closing `}` to keep it stable and avoid merge conflicts — never remove or edit the `"": ""` line.
 - First comments must be **unique** across all example files to avoid duplicate translation keys.
 
 ### Code style
