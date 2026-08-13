@@ -17,7 +17,6 @@ let dataRange = worksheet.GetRange("A2:A6");
 let formatConditions = dataRange.GetFormatConditions();
 
 let colorScale = formatConditions.AddColorScale();
-colorScale.SetStopIfTrue(true);
 
 worksheet.GetRange("C1").SetValue("Stop if true:");
 worksheet.GetRange("C2").SetValue(colorScale.GetStopIfTrue() ? "Yes" : "No");

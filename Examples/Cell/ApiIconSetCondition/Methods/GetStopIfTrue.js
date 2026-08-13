@@ -17,7 +17,6 @@ let dataRange = worksheet.GetRange("A2:A6");
 let formatConditions = dataRange.GetFormatConditions();
 
 let iconSet = formatConditions.AddIconSetCondition();
-iconSet.SetStopIfTrue(true);
 
 worksheet.GetRange("C1").SetValue("Stop if true:");
 worksheet.GetRange("C2").SetValue(iconSet.GetStopIfTrue() ? "Yes" : "No");
