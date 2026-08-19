@@ -2,7 +2,7 @@
 
 // ApiTableStylePr.SetTablePr updates the table properties stored in a conditional style part.
 
-// Get the wholeTable part of a presentation style, set cell spacing, and apply the style to a table.
+// Get the wholeTable part of a presentation style, set its borders, and apply the style to a table.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);
@@ -11,7 +11,7 @@ const style = presentation.GetStyle("Medium Style 2 - Accent 2");
 table.SetStyle(style);
 const stylepr = style.GetConditionalTableStyle("wholeTable");
 const tablePr = stylepr.GetTablePr();
-tablePr.SetCellSpacing(300);
+tablePr.SetTableBorderAll("single", 0.5, Api.CreateSolidFill(Api.CreateRGBColor(255, 0, 0)));
 stylepr.SetTablePr(tablePr);
 slide.RemoveAllObjects();
 slide.AddObject(table);
