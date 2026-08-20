@@ -13,3 +13,14 @@ let searchRange = range.Find({
 	SearchDirection: "xlNext",
 	MatchCase: true
 });
+let wildcardRange = range.Find({
+	What: "2?0",
+	LookIn: "xlValues",
+	LookAt: "xlWhole",
+	Wildcards: true
+});
+let regExpRange = range.Find({
+	What: /\d{3}/,
+	LookIn: "xlValues",
+	LookAt: "xlPart"
+});
