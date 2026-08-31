@@ -2,17 +2,11 @@
 
 // How do I find every rectangle, circle, heart, or custom shape in a presentation?
 
-// Count and display shapes after removing master slides in a presentation.
+// Retrieve shapes from slides and count them in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);
 slide.RemoveAllObjects();
-
-const slideMasters = presentation.GetAllSlideMasters();
-for (let i = 0; i < slideMasters.length; i++) {
-	const slideMaster = slideMasters[i];
-	slideMaster.Delete();
-}
 
 const shapeTypes = ['heart', 'rect', 'ellipse'];
 for (let i = 0; i < shapeTypes.length; i++) {
@@ -32,4 +26,4 @@ slide.AddObject(label);
 const docContent = label.GetDocContent();
 const paragraph = docContent.GetElement(0);
 const shapesCount = presentation.GetAllShapes().length;
-paragraph.AddText('Shapes: ' + shapesCount);
+paragraph.AddText('Shapes in presentation excluding slide layouts and master slides: ' + shapesCount);

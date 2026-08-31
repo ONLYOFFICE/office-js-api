@@ -1,15 +1,12 @@
 // Collect all images, shapes, charts, and embedded objects in a presentation.
 
-// How do I find every drawing element across the entire presentation in a presentation?
+// How do I find every drawing element in a presentation?
 
-// Count and display all drawings from slides and masters in a presentation.
+// Retrieve drawings from slides and count them in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);
-const slideMaster = presentation.GetMaster(0);
 slide.RemoveAllObjects();
-slideMaster.RemoveLayout(0, slideMaster.GetAllLayouts().length);
-slideMaster.RemoveObject(0, slideMaster.GetAllDrawings().length);
 
 const image = Api.CreateImage('https://static.onlyoffice.com/assets/docs/samples/img/presentation_sky.png', 174 * 36000, 38 * 36000);
 image.SetPosition(0, 0);
@@ -38,21 +35,14 @@ slide.AddObject(shape);
 slide.AddObject(chart);
 slide.AddObject(oleObject);
 
-const masterImage = image.Copy();
-masterImage.SetPosition(0, 48 * 36000);
-slideMaster.AddObject(masterImage);
-
-const masterShape = shape.Copy();
-masterShape.SetPosition(184 * 36000, 48 * 36000);
-slideMaster.AddObject(masterShape);
-
 const labelFill = Api.CreateSolidFill(Api.RGB(255, 230, 150));
 const labelStroke = Api.CreateStroke(0, Api.CreateNoFill());
 const label = Api.CreateShape('rect', 60 * 36000, 20 * 36000, labelFill, labelStroke);
+label.SetPosition(0, 144 * 36000);
+slide.AddObject(label);
+
 const drawings = presentation.GetAllDrawings();
 const docContent = label.GetDocContent();
 const paragraph = docContent.GetElement(0);
-paragraph.AddText('Drawings: ' + drawings.length);
-label.SetPosition(0, 144 * 36000);
-slide.AddObject(label);
+paragraph.AddText('Drawings in presentation excluding slide layouts and master slides: ' + drawings.length);
 label.Select();

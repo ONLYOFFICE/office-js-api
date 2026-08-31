@@ -1,23 +1,18 @@
-// Find all tables in a presentation.
+// Compare the tables placed on a slide with those on its layout and master.
 
-// How do I access every table on slides, layouts, and masters in a presentation?
+// How do I check that GetAllTables on a slide only returns that slide's own tables, not the ones on its layout or master?
 
-// Count tables from all locations and display the results in a presentation.
+// Add a table to a slide, its layout, and its master, then compare the table counts for each.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);
 const master = presentation.GetMaster(0);
 const layout = master.GetLayout(0);
 
-const slideTable = Api.CreateTable(2, 2);
 slide.RemoveAllObjects();
+
+const slideTable = Api.CreateTable(2, 2);
 slide.AddObject(slideTable);
-
-const masterTable = Api.CreateTable(2, 2);
-master.AddObject(masterTable);
-
-const layoutTable = Api.CreateTable(2, 2);
-layout.AddObject(layoutTable);
 
 const fillColor = Api.RGB(100, 100, 200);
 const fill = Api.CreateSolidFill(fillColor);
@@ -28,10 +23,9 @@ slide.AddObject(shape);
 
 const docContent = shape.GetDocContent();
 const paragraph = docContent.GetElement(0);
-paragraph.AddText("Number of tables on slide: " + slide.GetAllTables().length);
+paragraph.AddText("Number of tables in presentation excluding slide layouts and master slides:: " + slide.GetAllTables().length);
 paragraph.AddLineBreak();
 paragraph.AddText("Number of tables on slide layout: " + layout.GetAllTables().length);
 paragraph.AddLineBreak();
 paragraph.AddText("Number of tables on slide master: " + master.GetAllTables().length);
 paragraph.AddLineBreak();
-paragraph.AddText("Total number of tables in presentation: " + presentation.GetAllTables().length);
