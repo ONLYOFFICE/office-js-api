@@ -16,7 +16,7 @@ for (let i = 0; i < shapeTypes.length; i++) {
 	shape.SetPosition(i * 48 * 36000, 0);
 	slide.AddObject(shape);
 }
-
+const shapesCount = presentation.GetAllShapes().length;
 const labelFill = Api.CreateSolidFill(Api.RGB(255, 230, 150));
 const labelStroke = Api.CreateStroke(0, Api.CreateNoFill());
 const label = Api.CreateShape('rect', 60 * 36000, 20 * 36000, labelFill, labelStroke);
@@ -25,5 +25,4 @@ slide.AddObject(label);
 
 const docContent = label.GetDocContent();
 const paragraph = docContent.GetElement(0);
-const shapesCount = presentation.GetAllShapes().length;
 paragraph.AddText('Shapes in presentation excluding slide layouts and master slides: ' + shapesCount);

@@ -35,13 +35,13 @@ slide.AddObject(shape);
 slide.AddObject(chart);
 slide.AddObject(oleObject);
 
+const drawings = presentation.GetAllDrawings();
 const labelFill = Api.CreateSolidFill(Api.RGB(255, 230, 150));
 const labelStroke = Api.CreateStroke(0, Api.CreateNoFill());
 const label = Api.CreateShape('rect', 60 * 36000, 20 * 36000, labelFill, labelStroke);
 label.SetPosition(0, 144 * 36000);
 slide.AddObject(label);
 
-const drawings = presentation.GetAllDrawings();
 const docContent = label.GetDocContent();
 const paragraph = docContent.GetElement(0);
 paragraph.AddText('Drawings in presentation excluding slide layouts and master slides: ' + drawings.length);
