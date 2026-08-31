@@ -1,6 +1,6 @@
 // Create a measurement line to align elements within a shape in a PDF.
 
-// How do I add helper lines to position content inside a shape in a PDF?
+// Add helper lines to position content inside a shape in a PDF.
 
 // Set up positioning guides and use them in a custom shape in a PDF.
 
@@ -24,7 +24,7 @@ path.LineTo("x1", "hd2");
 path.Close();
 let fill = Api.CreateSolidFill(Api.RGB(100, 150, 200));
 let stroke = Api.CreateStroke(36000, Api.CreateSolidFill(Api.RGB(50, 75, 100)));
-let shape = Api.CreateShape("rect", 100 * 36000, 100 * 36000, fill, stroke);
+let shape = Api.CreateShape("rect", 50 * 36000, 50 * 36000, fill, stroke);
 shape.SetGeometry(customGeometry);
 shape.GetContent().GetElement(0).AddText("Adj value: " + customGeometry.GetAdjValue("adj1"));
 shape.SetPosition(1500000, 1500000);

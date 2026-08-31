@@ -1,11 +1,12 @@
-// Insert a collection of elements at the current position in a document.
+// Insert paragraphs, plain strings, and inline runs as mixed content in a single call.
 
-// How do I add multiple paragraphs at once to a document?
+// Consecutive inline items are automatically grouped into one new paragraph.
 
-// Programmatically place pre-built content blocks into the document without appending them one by one.
+// All element types — block-level, string literals, and runs — are accepted in the same array.
 
 let doc = Api.GetDocument();
-let paragraph = doc.GetElement(0);
-paragraph = Api.CreateParagraph();
-paragraph.AddText("This is a sample text. It was inserted here.");
-doc.InsertContent([paragraph]);
+let para = Api.CreateParagraph();
+para.AddText("Block paragraph");
+let run = Api.CreateRun();
+run.AddText(" and a run");
+doc.InsertContent([para, "Plain string", run]);

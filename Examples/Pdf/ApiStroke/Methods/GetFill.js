@@ -9,7 +9,7 @@ const page = doc.GetPage(0);
 
 let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 200, 100));
 let stroke = Api.CreateStroke(2 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(0, 0, 255)));
-let shape = Api.CreateShape("rect", 100 * 36000, 50 * 36000, fill, stroke);
+let shape = Api.CreateShape("rect", 50 * 36000, 50 * 36000, fill, stroke);
 shape.SetPosition(2000000, 1000000);
 page.AddObject(shape);
 let content = shape.GetContent();

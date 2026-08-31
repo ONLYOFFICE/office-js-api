@@ -1,6 +1,6 @@
 // Duplicate a shape and place the copy on another page in a PDF.
 
-// How do I make a copy of a shape in a PDF?
+// Make a copy of a shape in a PDF.
 
 // Create an exact duplicate of a shape and add it to a new page in a PDF.
 
@@ -14,5 +14,5 @@ shape.SetPosition(608400, 1267200);
 page.AddObject(shape);
 
 const copyShape = shape.Copy();
-const newPage = doc.AddPage(1);
+const newPage = doc.AddPage(0);
 newPage.AddObject(copyShape);

@@ -1,8 +1,8 @@
-// Search for a word inside a content control in a document.
+// Find text in a content control by a string and by a regular expression, then bold the matches.
 
-// How do I find and highlight a word inside a content control in a document?
+// Look up a keyword across the content control paragraphs and match it with a RegExp.
 
-// Locate specific text within a content control and apply formatting to it in a document.
+// Bold the second keyword match, then bold every match found by the /paragraph/g expression.
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();
@@ -13,4 +13,10 @@ let paragraph2 = Api.CreateParagraph();
 paragraph2.AddText("This is the second paragraph in the content control.");
 blockLvlSdt.AddElement(paragraph2, 1);
 doc.AddElement(0, blockLvlSdt);
-blockLvlSdt.Search("paragraph")[1].SetBold(true);
+
+let byKeyword = blockLvlSdt.Search("paragraph");
+byKeyword[1].SetBold(true);
+
+let byRegExp = blockLvlSdt.Search(/paragraph/g);
+for (let index = 0; index < byRegExp.length; index++)
+	byRegExp[index].SetBold(true);
