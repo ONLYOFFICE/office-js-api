@@ -1,13 +1,12 @@
 // Get a named table style, rename it, and apply it to a table.
 
-// Use GetStyle to retrieve a built-in table style by name and customize it.
+// A built-in table style can be retrieved by name and then customized.
 
 // Fetch "Dark Style 1 - Accent 2", rename it, and apply it to a 3×3 table.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);
 const table = Api.CreateTable(3, 3);
-table.SetWidth("percent", 100);
 const style = presentation.GetStyle("Dark Style 1 - Accent 2");
 style.SetName("My Custom Table Style");
 const paragraph = Api.CreateParagraph();

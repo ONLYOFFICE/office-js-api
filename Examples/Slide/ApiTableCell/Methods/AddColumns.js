@@ -18,4 +18,3 @@ lastCell.GetContent().Push(paragraph2);
 cell.AddColumns(2, false);
 slide.RemoveAllObjects();
 slide.AddObject(table);
-table.SetWidth("twips", 15000);

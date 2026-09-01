@@ -7,7 +7,6 @@
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);
 const table = Api.CreateTable(3, 3);
-table.SetWidth("percent", 100);
 const style = presentation.GetStyle("Dark Style 1 - Accent 2");
 style.SetName("My Custom Table Style");
 table.SetStyle(style);
