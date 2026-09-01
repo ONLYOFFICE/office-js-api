@@ -1,6 +1,6 @@
 // Create a reusable table row properties object in a presentation.
 
-// Api.CreateTableRowPr returns empty row properties that can be filled once and applied to several rows.
+// The new object holds empty row properties that can be filled once and applied to several rows.
 
 // Build row properties with a minimum height and apply the same object to every row of a table on a slide.
 

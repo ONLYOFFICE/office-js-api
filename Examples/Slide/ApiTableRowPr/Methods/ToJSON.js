@@ -1,6 +1,6 @@
 // Convert the table row properties into their JSON representation in a presentation.
 
-// ToJSON serializes an ApiTableRowPr created with Api.CreateTableRowPr so its settings can be stored or transferred.
+// The row properties are serialized into a string so their settings can be stored or transferred.
 
 // Build row properties with a minimum height, apply them to the first row, and write their JSON string into the first cell.
 
