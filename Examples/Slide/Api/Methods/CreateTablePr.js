@@ -1,6 +1,6 @@
 // Create a reusable table properties object in a presentation.
 
-// Api.CreateTablePr returns empty table properties that can be filled and applied to a table style.
+// The new object holds empty table properties that can be filled and applied to a table style.
 
 // Build table properties with a dark gray grid and apply them to the style of a table.
 

@@ -1,6 +1,6 @@
 // Check the class type of the table properties object in a presentation.
 
-// GetClassType returns "tablePr" for any table properties object.
+// The class type is "tablePr" for any table properties object.
 
 // Read the class type of the table style properties and write it into the first cell.
 

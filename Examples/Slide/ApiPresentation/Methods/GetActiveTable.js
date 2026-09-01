@@ -1,6 +1,6 @@
 // Select a table and retrieve it as the active table to apply a background color.
 
-// GetActiveTable returns the table currently selected or being edited in the presentation.
+// The active table is the one currently selected or being edited in the presentation.
 
 // Add two tables to the slide, select the first, and color it using the returned active table.
 

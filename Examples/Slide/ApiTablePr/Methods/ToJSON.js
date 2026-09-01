@@ -1,6 +1,6 @@
 // Serialize the table properties of a presentation table style into JSON.
 
-// ToJSON returns the string that can be converted back with the Api.FromJSON method.
+// The resulting string can be converted back with the Api.FromJSON method.
 
 // Write the JSON representation of the table style properties into the first cell.
 

@@ -1,6 +1,6 @@
 // Modify the wholeTable conditional style of a named table style and apply it to a table.
 
-// ApiTableStylePr.SetTablePr updates the table properties stored in a conditional style part.
+// The table properties stored in a conditional style part are updated.
 
 // Get the wholeTable part of a presentation style, set its borders, and apply the style to a table.
 
