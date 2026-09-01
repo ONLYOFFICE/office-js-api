@@ -1,6 +1,6 @@
 // Find all image files in a presentation.
 
-// How do I access every picture I inserted in a presentation?
+// Access every picture inserted on the presentation slides.
 
 // Retrieve images from slides and count them in a presentation.
 

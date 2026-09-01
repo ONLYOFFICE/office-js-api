@@ -1,6 +1,6 @@
 // Find all tables in a presentation.
 
-// How do I access every table on slides, layouts, and masters in a presentation?
+// Access every table on the slides, layouts, and masters.
 
 // Count tables from all locations and display the results in a presentation.
 

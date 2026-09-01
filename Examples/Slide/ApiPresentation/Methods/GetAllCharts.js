@@ -1,6 +1,6 @@
 // List all charts in a presentation.
 
-// How do I access every chart in a presentation?
+// Access every chart placed on the presentation slides.
 
 // Retrieve charts from slides and count them in a presentation.
 

@@ -1,6 +1,6 @@
 // Collect all images, shapes, charts, and embedded objects in a presentation.
 
-// How do I find every drawing element in a presentation?
+// Access every drawing element across the presentation.
 
 // Retrieve drawings from slides and count them in a presentation.
 

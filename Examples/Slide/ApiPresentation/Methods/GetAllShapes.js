@@ -1,6 +1,6 @@
 // List all shapes in a presentation.
 
-// How do I find every rectangle, circle, heart, or custom shape in a presentation?
+// Access every rectangle, circle, heart, or custom shape in the presentation.
 
 // Retrieve shapes from slides and count them in a presentation.
 

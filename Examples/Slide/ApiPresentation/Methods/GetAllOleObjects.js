@@ -1,6 +1,6 @@
 // List all embedded or linked files in a presentation.
 
-// How do I find every linked video, spreadsheet, or external file in a presentation?
+// Access every linked video, spreadsheet, or external file in the presentation.
 
 // Retrieve OLE objects from slides and count them in a presentation.
 
