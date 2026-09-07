@@ -6,6 +6,8 @@
 
 let worksheet = Api.GetActiveSheet();
 worksheet.GetRange("A1:B1").SetValue("Example text");
+worksheet.GetRange("A1:B1").SetBold(true);
+worksheet.GetRange("A1:B1").SetFillColor(Api.CreateColorFromRGB(255, 213, 191));
 let range = worksheet.GetRange("A1");
 range.ClearContents();
-worksheet.GetRange("A2").SetValue("Result is contents cleared for A1 cell.");
+worksheet.GetRange("A2").SetValue("Result is contents cleared for A1 cell, its bold font and fill color kept.");

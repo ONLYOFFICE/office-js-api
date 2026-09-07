@@ -10,4 +10,4 @@ table.SetWidth("percent", 100);
 doc.Push(table);
 table.GetCell(0, 0).SetText("Start of the selected range.");
 table.GetCell(2, 1).SetText("End of the selected range.");
-table.SelectRange(0, 0, 1, 2);
+table.SelectRange(0, 0, 2, 1);
