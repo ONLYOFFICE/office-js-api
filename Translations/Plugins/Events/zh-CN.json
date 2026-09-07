@@ -80,5 +80,6 @@
     "The function called after a slide has been changed and displayed during a slide show presentation. Fires before the slide content is actually displayed.": "在幻灯片放映演示中，当幻灯片更改并显示后调用的函数。在幻灯片内容实际显示之前触发。",
     "The function called when a comment is added to the document with the [AddComment](../../../../../docs/plugins/interacting-with-editors/document-api/Methods/AddComment.md) method.": "使用 [AddComment](../../../../../docs/plugins/interacting-with-editors/document-api/Methods/AddComment.md) 方法向文档添加评论时调用的函数。",
     "The function called when the specified comment is changed with the [ChangeComment](../../../../../docs/plugins/interacting-with-editors/document-api/Methods/ChangeComment.md) method.": "使用 [ChangeComment](../../../../../docs/plugins/interacting-with-editors/document-api/Methods/ChangeComment.md) 方法更改指定评论时调用的函数。",
-    "The function called when the specified comment is removed with the [RemoveComments](../../../../../docs/plugins/interacting-with-editors/document-api/Methods/RemoveComments.md) method.": "使用 [RemoveComments](../../../../../docs/plugins/interacting-with-editors/document-api/Methods/RemoveComments.md) 方法删除指定评论时调用的函数。"
+    "The function called when the specified comment is removed with the [RemoveComments](../../../../../docs/plugins/interacting-with-editors/document-api/Methods/RemoveComments.md) method.": "使用 [RemoveComments](../../../../../docs/plugins/interacting-with-editors/document-api/Methods/RemoveComments.md) 方法删除指定评论时调用的函数。",
+    "Handle a click on a floating action button.": "处理悬浮操作按钮的点击。"
 }
