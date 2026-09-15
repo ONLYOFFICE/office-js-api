@@ -1,6 +1,6 @@
 // Apply different formatting to specific regions of a table based on their position in a presentation.
 
-// How do I style certain parts of a table differently depending on where they appear in a presentation?
+// Table styles let you apply distinct formatting to structural regions of a table in a presentation.
 
 // Target individual table areas such as the whole table, banded rows or corner cells to give them unique visual treatment in a presentation.
 
