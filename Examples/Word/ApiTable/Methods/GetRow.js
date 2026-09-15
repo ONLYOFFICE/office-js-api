@@ -1,12 +1,12 @@
 // Retrieve a specific row from a table by its position in a document.
 
-// How do I access a particular row of a table by its index in a document?
+// Get a row by its zero-based index to work with its cells in a document.
 
 // Use an existing row as a reference point to insert a new row in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
-paragraph.AddText("We create a 2x2 table and add a new row, so that it becomes 2x3:");
+paragraph.AddText("We create a table with 2 rows and 2 columns, get the second row and insert a new row before it, so that the table has 3 rows:");
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
 let table = Api.CreateTable(2, 2);
