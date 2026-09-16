@@ -10406,5 +10406,6 @@
     "Stops the traversal. No further hooks are called after the current one returns.": "停止遍历。当前钩子函数返回后不再调用其他钩子函数。",
     "Find text in a presentation by a string and by a regular expression, then bold the matches.": "在演示文稿中使用字符串和正则表达式查找文本，然后将匹配项设为粗体。",
     "Apply different formatting to specific regions of a table based on their position in a presentation.": "根据表格区域在演示文稿中的位置为其应用不同的格式。",
+    "Attach a hyperlink to part of a shape's text in a presentation.": "在演示文稿中为形状文本的一部分添加超链接。",
     "": ""
 }
