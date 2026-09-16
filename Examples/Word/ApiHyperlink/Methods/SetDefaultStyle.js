@@ -10,6 +10,6 @@ paragraph.AddText("Api Document Builder");
 paragraph.SetColor(Api.HexColor('#FF6F3D'));
 let copyParagraph = paragraph.Copy();
 doc.Push(copyParagraph);
-let hyperlink = paragraph.AddHyperlink("http://api.teamlab.info/docbuilder/basic");
-let copyHyperlink = copyParagraph.AddHyperlink("http://api.teamlab.info/docbuilder/basic");
+let hyperlink = paragraph.AddHyperlink("http://api.onlyoffice.com/docbuilder/basic");
+let copyHyperlink = copyParagraph.AddHyperlink("http://api.onlyoffice.com/docbuilder/basic");
 copyHyperlink.SetDefaultStyle();
