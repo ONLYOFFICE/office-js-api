@@ -11,7 +11,7 @@ const slide = presentation.GetSlideByIndex(0);
 const shape = Api.CreateShape(
 	'star5',
 	120 * 36000, 120 * 36000,
-	Api.CreateSolidFill(Api.CreateRGBColor(255, 200, 0)),
+	Api.CreateSolidFill(Api.RGB(255, 200, 0)),
 	Api.CreateStroke(0, Api.CreateNoFill())
 );
 shape.SetPosition(150 * 36000, 60 * 36000);
@@ -29,7 +29,7 @@ effect.SetDelay(500);      // 0.5 second delay
 const infoShape = Api.CreateShape(
 	'rect',
 	200 * 36000, 50 * 36000,
-	Api.CreateSolidFill(Api.CreateRGBColor(200, 200, 200)),
+	Api.CreateSolidFill(Api.RGB(200, 200, 200)),
 	Api.CreateStroke(0, Api.CreateNoFill())
 );
 infoShape.SetPosition(20 * 36000, 10 * 36000);

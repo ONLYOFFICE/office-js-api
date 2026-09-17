@@ -22,7 +22,7 @@ let condition1 = formatConditions.Add("xlCellValue", "xlGreater", "200");
 worksheet.GetRange("C1").SetValue("Original color:");
 worksheet.GetRange("C2").SetValue("No Fill");
 
-let fillColor = Api.CreateColorFromRGB(255, 255, 0);
+let fillColor = Api.RGB(255, 255, 0);
 condition1.SetFillColor(fillColor);
 
 worksheet.GetRange("C4").SetValue("New color:");

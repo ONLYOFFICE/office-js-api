@@ -17,7 +17,7 @@ let dataRange = worksheet.GetRange("A2:A6");
 let formatConditions = dataRange.GetFormatConditions();
 
 let uniqueValues = formatConditions.AddUniqueValues();
-uniqueValues.SetFillColor(Api.CreateColorFromRGB(255, 0, 0));
+uniqueValues.SetFillColor(Api.RGB(255, 0, 0));
 uniqueValues.SetStopIfTrue(true);
 
 worksheet.GetRange("C1").SetValue("Stop if true:");

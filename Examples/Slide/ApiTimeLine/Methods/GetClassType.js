@@ -12,7 +12,7 @@ const classType = timeLine.GetClassType();
 const shape = Api.CreateShape(
 	'rect',
 	200 * 36000, 50 * 36000,
-	Api.CreateSolidFill(Api.CreateRGBColor(61, 74, 107)),
+	Api.CreateSolidFill(Api.RGB(61, 74, 107)),
 	Api.CreateStroke(0, Api.CreateNoFill())
 );
 shape.SetPosition(100 * 36000, 100 * 36000);

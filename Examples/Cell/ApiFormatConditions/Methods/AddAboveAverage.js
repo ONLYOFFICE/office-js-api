@@ -21,5 +21,5 @@ let formatConditions = dataRange.GetFormatConditions();
 
 let aboveAverageCondition = formatConditions.AddAboveAverage();
 if (aboveAverageCondition) {
-    aboveAverageCondition.SetFillColor(Api.CreateColorFromRGB(144, 238, 144));
+    aboveAverageCondition.SetFillColor(Api.RGB(144, 238, 144));
 }

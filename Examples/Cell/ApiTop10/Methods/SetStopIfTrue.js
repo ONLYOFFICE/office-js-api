@@ -20,7 +20,7 @@ let top10 = formatConditions.AddTop10();
 let condition = formatConditions.Add("xlCellValue", "xlGreater", "20");
 
 top10.SetRank(2);
-top10.SetFillColor(Api.CreateColorFromRGB(255, 0, 0));
+top10.SetFillColor(Api.RGB(255, 0, 0));
 top10.SetStopIfTrue(true);
 
 condition.SetNumberFormat("0.00");

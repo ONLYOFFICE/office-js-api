@@ -19,7 +19,7 @@ let formatConditions = dataRange.GetFormatConditions();
 let uniqueValues = formatConditions.AddUniqueValues();
 let condition = formatConditions.Add("xlCellValue", "xlGreater", "20");
 
-uniqueValues.SetFillColor(Api.CreateColorFromRGB(255, 0, 0));
+uniqueValues.SetFillColor(Api.RGB(255, 0, 0));
 uniqueValues.SetStopIfTrue(true);
 
 condition.SetNumberFormat("0.00");

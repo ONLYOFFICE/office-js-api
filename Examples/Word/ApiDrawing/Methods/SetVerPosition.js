@@ -23,7 +23,7 @@ paragraph.AddText("The shape is aligned to the top of the page, and outstands fr
 doc.Push(paragraph);
 paragraph = Api.CreateParagraph();
 paragraph.AddText("The next blue shape is aligned vertically by 50% relative to the page.");
-fill = Api.CreateSolidFill(Api.CreateRGBColor(91, 155, 213));
+fill = Api.CreateSolidFill(Api.RGB(91, 155, 213));
 stroke = Api.CreateStroke(0, Api.CreateNoFill());
 drawing = Api.CreateShape("rect", 1908000, 1404000, fill, stroke);
 drawing.SetDistances(457200, 457200, 457200, 0);

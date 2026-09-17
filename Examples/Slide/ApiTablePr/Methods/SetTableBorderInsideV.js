@@ -10,7 +10,7 @@ const table = Api.CreateTable(3, 3);
 const style = presentation.GetStyle("No Style, Table Grid");
 table.SetStyle(style);
 const tablePr = style.GetTablePr();
-tablePr.SetTableBorderInsideV("single", 0.5, Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61)));
+tablePr.SetTableBorderInsideV("single", 0.5, Api.CreateSolidFill(Api.RGB(255, 111, 61)));
 style.SetTablePr(tablePr);
 slide.RemoveAllObjects();
 slide.AddObject(table);

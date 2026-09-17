@@ -19,7 +19,7 @@ let formatConditions = dataRange.GetFormatConditions();
 let aboveAverage = formatConditions.AddAboveAverage();
 let condition = formatConditions.Add("xlCellValue", "xlGreater", "20");
 
-aboveAverage.SetFillColor(Api.CreateColorFromRGB(255, 255, 0));
+aboveAverage.SetFillColor(Api.RGB(255, 255, 0));
 aboveAverage.SetStopIfTrue(true);
 
 condition.SetNumberFormat("0.00");

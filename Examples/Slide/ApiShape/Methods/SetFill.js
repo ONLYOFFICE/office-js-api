@@ -13,7 +13,7 @@ slide.AddObject(shape);
 let content = shape.GetDocContent();
 let paragraph = content.GetElement(0);
 paragraph.AddText("Original shape with no fill");
-let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 0, 0));
+let fill = Api.CreateSolidFill(Api.RGB(255, 0, 0));
 shape.SetFill(fill);
 paragraph.AddLineBreak();
 paragraph.AddText("Fill changed to red");

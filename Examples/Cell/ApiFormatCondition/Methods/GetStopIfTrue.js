@@ -17,7 +17,7 @@ let dataRange = worksheet.GetRange("A2:A6");
 let formatConditions = dataRange.GetFormatConditions();
 
 let condition = formatConditions.Add("xlCellValue", "xlGreater", "200");
-condition.SetFillColor(Api.CreateColorFromRGB(255, 0, 0));
+condition.SetFillColor(Api.RGB(255, 0, 0));
 condition.SetStopIfTrue(true);
 
 worksheet.GetRange("C1").SetValue("Stop if true:");

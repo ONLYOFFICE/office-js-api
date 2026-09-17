@@ -9,5 +9,5 @@ let range = worksheet.GetRange("B1");
 range.SetValue("This is just a sample text.");
 let characters = range.GetCharacters(9, 4);
 let font = characters.GetFont();
-let color = Api.CreateColorFromRGB(255, 111, 61);
+let color = Api.RGB(255, 111, 61);
 font.SetColor(color);

@@ -10,7 +10,7 @@ const table = Api.CreateTable(3, 3);
 const style = presentation.GetStyle("Medium Style 2 - Accent 1");
 table.SetStyle(style);
 const tablePr = style.GetTablePr();
-tablePr.SetTableBorderAll("single", 0.5, Api.CreateSolidFill(Api.CreateRGBColor(255, 0, 0)));
+tablePr.SetTableBorderAll("single", 0.5, Api.CreateSolidFill(Api.RGB(255, 0, 0)));
 const paragraph = Api.CreateParagraph();
 paragraph.AddText(tablePr.ToJSON());
 table.GetCell(0, 0).GetContent().Push(paragraph);

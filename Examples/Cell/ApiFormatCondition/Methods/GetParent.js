@@ -14,7 +14,7 @@ worksheet.GetRange('A4').SetValue(150);
 const dataRange = worksheet.GetRange('A2:A4');
 const formatConditions = dataRange.GetFormatConditions();
 const condition = formatConditions.Add('xlCellValue', 'xlGreater', '200');
-condition.SetFillColor(Api.CreateColorFromRGB(200, 100, 100));
+condition.SetFillColor(Api.RGB(200, 100, 100));
 
 const parentRange = condition.GetParent();
 worksheet.GetRange('C1').SetValue('Parent range:');

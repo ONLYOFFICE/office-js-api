@@ -8,7 +8,7 @@ const doc = Api.GetDocument();
 doc.AddPage(0);
 const page = doc.GetPage(0);
 
-const fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+const fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = Api.CreateShape("flowChartMagneticTape", 425, 184, fill, stroke);
 shape.SetPosition(48, 100);
