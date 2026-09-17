@@ -20,7 +20,7 @@ let dataRange = worksheet.GetRange("A2:A8");
 let formatConditions = dataRange.GetFormatConditions();
 
 let condition1 = formatConditions.Add("xlCellValue", "xlGreater", "200");
-condition1.SetFillColor(Api.CreateColorFromRGB(255, 0, 0));
+condition1.SetFillColor(Api.RGB(255, 0, 0));
 
 worksheet.GetRange("C1").SetValue("Original range:");
 worksheet.GetRange("C2").SetValue(condition1.GetAppliesTo().GetAddress());

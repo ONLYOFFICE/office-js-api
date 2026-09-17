@@ -5,8 +5,8 @@
 // Add a shape to a worksheet and give it a dark solid outline.
 
 const worksheet = Api.GetActiveSheet();
-const fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+const fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 const noStroke = Api.CreateStroke(0, Api.CreateNoFill());
 const drawing = worksheet.AddShape("rect", 90 * 36000, 27 * 36000, fill, noStroke, 0, 2 * 36000, 0, 3 * 36000);
-const outline = Api.CreateStroke(36000, Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51)));
+const outline = Api.CreateStroke(36000, Api.CreateSolidFill(Api.RGB(51, 51, 51)));
 drawing.SetLine(outline);

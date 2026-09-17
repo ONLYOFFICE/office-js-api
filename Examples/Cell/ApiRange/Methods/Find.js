@@ -31,17 +31,17 @@ let searchData = {
     MatchCase: true
 };
 let searchRange = range.Find(searchData);
-searchRange.SetFillColor(Api.CreateColorFromRGB(255, 213, 191));
+searchRange.SetFillColor(Api.RGB(255, 213, 191));
 let wildcardRange = range.Find({
     What: "Cost*",
     LookIn: "xlValues",
     LookAt: "xlPart",
     Wildcards: true
 });
-wildcardRange.SetFillColor(Api.CreateColorFromRGB(255, 244, 191));
+wildcardRange.SetFillColor(Api.RGB(255, 244, 191));
 let regExpRange = range.Find({
     What: /price/i,
     LookIn: "xlValues",
     LookAt: "xlPart"
 });
-regExpRange.SetFillColor(Api.CreateColorFromRGB(213, 255, 191));
+regExpRange.SetFillColor(Api.RGB(213, 255, 191));

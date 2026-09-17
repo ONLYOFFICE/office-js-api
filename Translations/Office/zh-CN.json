@@ -10427,5 +10427,7 @@
     "Make the whole text of a free text annotation in a PDF bold through a text range.": "通过文本区域将 PDF 中自由文本批注的全部文本设置为粗体。",
     "Strike out a part of a paragraph of a free text annotation in a PDF.": "为 PDF 中自由文本批注段落的一部分添加删除线。",
     "Change the font size of a part of a text run of a free text annotation in a PDF.": "更改 PDF 中自由文本批注文本块一部分的字号。",
+    "Split a spreadsheet color into separate red, green, and blue numbers.": "将电子表格中的颜色拆分为独立的红、绿、蓝数值。",
+    "Check the class label reported by a color object built for a spreadsheet.": "查看为电子表格创建的颜色对象所报告的类类型。",
     "": ""
 }

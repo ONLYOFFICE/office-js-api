@@ -4,5 +4,5 @@
 
 // Get a range and change its border line style to dotted.
 
-const color = Api.CreateColorFromRGB(0, 0, 0);
+const color = Api.RGB(0, 0, 0);
 worksheet.GetRange("E2").SetBorders("Bottom", "Dotted", color);

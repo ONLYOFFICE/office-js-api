@@ -16,7 +16,7 @@ worksheet.GetRange("C5").SetValue(300);
 
 let startRange = worksheet.GetRange("C3");
 let currentRegion = startRange.CurrentRegion;
-currentRegion.SetBorders("Top", "Thick", Api.CreateColorFromRGB(255, 111, 61));
-currentRegion.SetBorders("Bottom", "Thick", Api.CreateColorFromRGB(255, 111, 61));
-currentRegion.SetBorders("Left", "Thick", Api.CreateColorFromRGB(255, 111, 61));
-currentRegion.SetBorders("Right", "Thick", Api.CreateColorFromRGB(255, 111, 61));
+currentRegion.SetBorders("Top", "Thick", Api.RGB(255, 111, 61));
+currentRegion.SetBorders("Bottom", "Thick", Api.RGB(255, 111, 61));
+currentRegion.SetBorders("Left", "Thick", Api.RGB(255, 111, 61));
+currentRegion.SetBorders("Right", "Thick", Api.RGB(255, 111, 61));

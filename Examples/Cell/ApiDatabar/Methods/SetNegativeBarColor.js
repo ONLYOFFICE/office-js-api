@@ -21,7 +21,7 @@ let dataBar = formatConditions.AddDatabar();
 worksheet.GetRange("C1").SetValue("Before:");
 worksheet.GetRange("C2").SetValue(dataBar.GetNegativeBarColor() ? "Set" : "None");
 
-let negativeColor = Api.CreateColorFromRGB(255, 0, 0);
+let negativeColor = Api.RGB(255, 0, 0);
 dataBar.SetNegativeBarColor(negativeColor);
 
 worksheet.GetRange("C3").SetValue("After:");

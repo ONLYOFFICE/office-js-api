@@ -17,7 +17,7 @@ let dataRange = worksheet.GetRange("A2:A6");
 let formatConditions = dataRange.GetFormatConditions();
 
 let aboveAverage = formatConditions.AddAboveAverage();
-aboveAverage.SetFillColor(Api.CreateColorFromRGB(255, 255, 0));
+aboveAverage.SetFillColor(Api.RGB(255, 255, 0));
 aboveAverage.SetStopIfTrue(true);
 
 worksheet.GetRange("C1").SetValue("Stop if true:");

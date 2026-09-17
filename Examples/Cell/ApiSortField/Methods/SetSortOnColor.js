@@ -11,8 +11,8 @@ worksheet.GetRange("A3").SetValue("Oranges");
 worksheet.GetRange("A4").SetValue("Bananas");
 worksheet.GetRange("A5").SetValue("Grapes");
 
-let redColor    = Api.CreateColorFromRGB(255, 0,   0);
-let yellowColor = Api.CreateColorFromRGB(255, 255, 0);
+let redColor    = Api.RGB(255, 0,   0);
+let yellowColor = Api.RGB(255, 255, 0);
 
 worksheet.GetRange("A3").FillColor = redColor;
 worksheet.GetRange("A4").FillColor = yellowColor;

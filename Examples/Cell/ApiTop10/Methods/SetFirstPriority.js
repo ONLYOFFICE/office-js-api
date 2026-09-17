@@ -17,10 +17,10 @@ let dataRange = worksheet.GetRange("A2:A6");
 let formatConditions = dataRange.GetFormatConditions();
 
 let condition1 = formatConditions.Add("xlCellValue", "xlGreater", "200");
-condition1.SetFillColor(Api.CreateColorFromRGB(255, 0, 0));
+condition1.SetFillColor(Api.RGB(255, 0, 0));
 
 let condition2 = formatConditions.AddTop10();
-condition2.SetFillColor(Api.CreateColorFromRGB(0, 255, 0));
+condition2.SetFillColor(Api.RGB(0, 255, 0));
 
 let priorityBefore = condition2.GetPriority();
 condition2.SetFirstPriority();

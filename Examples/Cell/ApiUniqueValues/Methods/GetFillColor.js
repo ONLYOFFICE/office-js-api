@@ -16,7 +16,7 @@ let range = worksheet.GetRange("A2:A5");
 let formatConditions = range.GetFormatConditions();
 let uniqueValuesCondition = formatConditions.AddUniqueValues();
 
-uniqueValuesCondition.SetFillColor(Api.CreateColorFromRGB(255, 255, 0));
+uniqueValuesCondition.SetFillColor(Api.RGB(255, 255, 0));
 
 let fillColor = uniqueValuesCondition.GetFillColor();
 let rgbValue = fillColor.GetRGB();
