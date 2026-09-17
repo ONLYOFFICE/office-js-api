@@ -11,8 +11,8 @@ slide.RemoveAllObjects();
 const master = presentation.GetMaster(0);
 const theme = master.GetTheme();
 const colorScheme = theme.GetColorScheme();
-colorScheme.ChangeColor(0, Api.CreateRGBColor(255, 111, 61));
-colorScheme.ChangeColor(1, Api.CreateRGBColor(51, 51, 51));
+colorScheme.ChangeColor(0, Api.RGB(255, 111, 61));
+colorScheme.ChangeColor(1, Api.RGB(51, 51, 51));
 
 const chart = Api.CreateChart("bar3D", [
 	[200, 240, 280],

@@ -2,7 +2,7 @@
 
 // A range may span several paragraphs, which are addressed by index.
 
-// Append text to the second paragraph of the range.
+// Append text to the second paragraph of the range and make it bold.
 
 let worksheet = Api.GetActiveSheet();
 let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
@@ -22,5 +22,4 @@ let range = shape.GetTextRange();
 
 let secondParagraph = range.GetParagraph(1);
 secondParagraph.AddText(" (edited)");
-
-worksheet.GetRange("A1").SetValue("GetParagraph: " + secondParagraph.GetText({ "NewLineSeparator": "" }));
+secondParagraph.SetBold(true);
