@@ -6,8 +6,8 @@
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);
-const fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
-const stroke = Api.CreateStroke(36000, Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51)));
+const fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
+const stroke = Api.CreateStroke(36000, Api.CreateSolidFill(Api.RGB(51, 51, 51)));
 const drawing = Api.CreateShape("rect", 150 * 36000, 80 * 36000, fill, stroke);
 drawing.SetPosition(608400, 1267200);
 slide.AddObject(drawing);

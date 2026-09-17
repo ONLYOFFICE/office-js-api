@@ -6,8 +6,8 @@
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
-let fill = Api.CreateSolidFill(Api.CreateRGBColor(91, 155, 213));
-let stroke = Api.CreateStroke(0.4 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(65, 113, 156)));
+let fill = Api.CreateSolidFill(Api.RGB(91, 155, 213));
+let stroke = Api.CreateStroke(0.4 * 36000, Api.CreateSolidFill(Api.RGB(65, 113, 156)));
 let drawing = Api.CreateShape("rect", 1 * 36000, 1 * 36000, fill, stroke);
 drawing.SetWrappingStyle("inFront");
 drawing.SetVerPosition("page", 50 * 36000);

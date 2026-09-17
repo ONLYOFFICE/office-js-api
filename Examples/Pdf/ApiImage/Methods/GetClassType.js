@@ -13,8 +13,8 @@ const image = Api.CreateImage(
 );
 page.AddObject(image);
 
-const gs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);
-const gs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);
+const gs1 = Api.CreateGradientStop(Api.RGB(255, 213, 191), 0);
+const gs2 = Api.CreateGradientStop(Api.RGB(255, 111, 61), 100000);
 const fill = Api.CreateRadialGradientFill([gs1, gs2]);
 const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = Api.CreateShape('flowChartMagneticTape', 150 * 36000, 65 * 36000, fill, stroke);

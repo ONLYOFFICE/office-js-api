@@ -10,7 +10,7 @@ const table = Api.CreateTable(3, 3);
 const style = presentation.GetStyle("Medium Style 2 - Accent 1");
 table.SetStyle(style);
 const tablePr = style.GetTablePr();
-tablePr.SetShd(Api.CreateSolidFill(Api.CreateRGBColor(255, 213, 79)));
+tablePr.SetShd(Api.CreateSolidFill(Api.RGB(255, 213, 79)));
 style.SetTablePr(tablePr);
 table.Cells.forEach(function (row) { row.forEach(function (cell) { cell.SetShd("nil"); }); });
 slide.RemoveAllObjects();

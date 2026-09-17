@@ -10,7 +10,7 @@ const table = Api.CreateTable(3, 3);
 const style = presentation.GetStyle("Medium Style 2 - Accent 1");
 table.SetStyle(style);
 const tablePr = Api.CreateTablePr();
-tablePr.SetTableBorderAll("single", 0.5, Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51)));
+tablePr.SetTableBorderAll("single", 0.5, Api.CreateSolidFill(Api.RGB(51, 51, 51)));
 style.SetTablePr(tablePr);
 slide.RemoveAllObjects();
 slide.AddObject(table);

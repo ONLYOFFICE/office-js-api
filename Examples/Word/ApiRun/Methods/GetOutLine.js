@@ -13,8 +13,8 @@ textPr.SetFontFamily("Comic Sans MS");
 const textArt = Api.CreateWordArt(textPr, "<DEFAULT_COLOR />", "textWave1", null, null, 0, 1550 * 36000, 50 * 36000);
 paragraph.AddDrawing(textArt);
 
-const fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 200, 221));
-const outline = Api.CreateStroke(0.2 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(255, 175, 204)));
+const fill = Api.CreateSolidFill(Api.RGB(255, 200, 221));
+const outline = Api.CreateStroke(0.2 * 36000, Api.CreateSolidFill(Api.RGB(255, 175, 204)));
 
 const firstRun = Api.CreateRun();
 firstRun.AddText("<PINK_COLOR />");

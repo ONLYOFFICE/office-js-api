@@ -11,7 +11,7 @@ const style = presentation.GetStyle("Medium Style 2 - Accent 2");
 table.SetStyle(style);
 const stylepr = style.GetConditionalTableStyle("wholeTable");
 const tablePr = stylepr.GetTablePr();
-tablePr.SetTableBorderAll("single", 0.5, Api.CreateSolidFill(Api.CreateRGBColor(255, 0, 0)));
+tablePr.SetTableBorderAll("single", 0.5, Api.CreateSolidFill(Api.RGB(255, 0, 0)));
 stylepr.SetTablePr(tablePr);
 slide.RemoveAllObjects();
 slide.AddObject(table);

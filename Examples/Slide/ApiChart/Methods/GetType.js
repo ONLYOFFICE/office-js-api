@@ -14,8 +14,8 @@ const chart = Api.CreateChart('3DColumnClustered', [
 	[250, 260, 280]
 ], ['Projected Revenue', 'Estimated Costs'], [2014, 2015, 2016], chartWidth, chartHeight, 24);
 
-const solidGrey = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));
-const solidOrange = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));
+const solidGrey = Api.CreateSolidFill(Api.RGB(51, 51, 51));
+const solidOrange = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 chart.SetSeriesFill(solidGrey, 0, false);
 chart.SetSeriesFill(solidOrange, 1, false);
 const chartType = chart.GetType();

@@ -10,5 +10,5 @@ const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const drawing = Api.CreateShape("rect", 50 * 36000, 50 * 36000, Api.CreateNoFill(), stroke);
 drawing.SetPosition(2000000, 1000000);
 page.AddObject(drawing);
-const fill = Api.CreateSolidFill(Api.CreateRGBColor(96, 125, 139));
+const fill = Api.CreateSolidFill(Api.RGB(96, 125, 139));
 drawing.SetFill(fill);

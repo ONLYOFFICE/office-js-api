@@ -21,10 +21,10 @@ const stroke3 = Api.CreateStroke(1 * 36000, fill3);
 
 const formatScheme = Api.CreateThemeFormatScheme([fill1, fill2, fill3], [bgFill1, bgFill2, bgFill3], [stroke1, stroke2, stroke3], "New format scheme");
 const colorScheme = Api.CreateThemeColorScheme([
-	Api.CreateRGBColor(255, 111, 61), Api.CreateRGBColor(51, 51, 51), Api.CreateRGBColor(230, 179, 117),
-	Api.CreateRGBColor(235, 235, 235), Api.CreateRGBColor(163, 21, 21), Api.CreateRGBColor(128, 43, 43),
-	Api.CreateRGBColor(0, 0, 0), Api.CreateRGBColor(128, 128, 128), Api.CreateRGBColor(176, 196, 222),
-	Api.CreateRGBColor(65, 105, 225), Api.CreateRGBColor(255, 255, 255), Api.CreateRGBColor(255, 213, 191)
+	Api.RGB(255, 111, 61), Api.RGB(51, 51, 51), Api.RGB(230, 179, 117),
+	Api.RGB(235, 235, 235), Api.RGB(163, 21, 21), Api.RGB(128, 43, 43),
+	Api.RGB(0, 0, 0), Api.RGB(128, 128, 128), Api.RGB(176, 196, 222),
+	Api.RGB(65, 105, 225), Api.RGB(255, 255, 255), Api.RGB(255, 213, 191)
 ], "New color scheme");
 
 const fontScheme = Api.CreateThemeFontScheme("Arial", "Noto Sans Simplified Chinese", "Arabic", "Times New Roman", "Noto Serif Simplified Chinese", "Arabic", "New font scheme");
