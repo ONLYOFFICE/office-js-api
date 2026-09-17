@@ -9,6 +9,6 @@ const slide = presentation.GetSlideByIndex(0);
 const shape = Api.CreateShape("rect", 3000000, 1000000);
 slide.RemoveAllObjects();
 slide.AddObject(shape);
-shape.CreateTextRange().SetText("Hello World");
-shape.GetTextRange().MoveCursorToPos(6);
+const range = shape.GetTextRange().SetText("Hello World");
+range.MoveCursorToPos(6);
 presentation.EnterText("Beautiful ");

@@ -10,7 +10,7 @@ const master = presentation.GetMaster(0);
 const shape = Api.CreateShape("rect", 300 * 36000, 100 * 36000);
 shape.SetPosition(608400, 1267200);
 master.AddObject(shape);
-shape.CreateTextRange().SetText("Quarterly summary and quarterly outlook.");
+shape.GetTextRange().SetText("Quarterly summary and quarterly outlook.");
 
 const results = master.Search("quarterly");
 results[0].SetBold(true);
