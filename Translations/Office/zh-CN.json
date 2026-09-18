@@ -7363,9 +7363,7 @@
     "Determine what kind of color object an RGB color is in a spreadsheet.": "确定电子表格中 RGB 颜色是何种颜色对象。",
     "Read the type label of a scheme color and write it into a cell in a spreadsheet.": "读取配色方案颜色的类型标签并写入电子表格的单元格。",
     "Read the object type identifier of a preset color in a spreadsheet.": "读取电子表格中预设颜色的对象类型标识符。",
-    "Retrieve the class type of a color object in a spreadsheet.": "检索电子表格中颜色对象的类类型。",
     "Determine whether a color is linked to the document theme in a spreadsheet.": "确定电子表格中的颜色是否链接到文档主题。",
-    "Extract the red, green, and blue components of a color in a spreadsheet.": "提取电子表格中颜色的红、绿、蓝分量。",
     "Read the red, green, blue, and alpha values of a fill color in a spreadsheet.": "读取电子表格中填充颜色的红、绿、蓝和透明度值。",
     "Read the hexadecimal representation of a color used in a spreadsheet.": "读取电子表格中使用的颜色的十六进制表示。",
     "Retrieve the name of the theme color applied to a shape in a spreadsheet.": "检索应用于电子表格中形状的主题颜色名称。",
@@ -10497,5 +10495,9 @@
     "Apply a set of text properties to a range at once in a shape on a PDF page.": "在 PDF 页面的形状中一次性为范围应用一组文本属性。",
     "Underline the text of a range in a shape on a PDF page.": "在 PDF 页面的形状中为范围内的文本添加下划线。",
     "Raise the text of a range above the baseline in a shape on a PDF page.": "在 PDF 页面的形状中将范围内的文本提升到基线之上。",
+    "Read the luminance shift stored in a theme color in a document.": "读取文档中主题颜色所存储的亮度偏移量。",
+    "Read the luminance shift stored in a theme color in a spreadsheet.": "读取电子表格中主题颜色所存储的亮度偏移量。",
+    "Read the luminance shift stored in a theme color in a presentation.": "读取演示文稿中主题颜色所存储的亮度偏移量。",
+    "Read the luminance shift stored in a theme color on a PDF page.": "读取 PDF 页面上主题颜色所存储的亮度偏移量。",
     "": ""
 }

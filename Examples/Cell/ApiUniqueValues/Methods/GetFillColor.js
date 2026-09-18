@@ -22,4 +22,4 @@ let fillColor = uniqueValuesCondition.GetFillColor();
 let rgbValue = fillColor.GetRGB();
 
 worksheet.GetRange("C1").SetValue("Fill Color RGB:");
-worksheet.GetRange("C2").SetValue(rgbValue);
+worksheet.GetRange("C2").SetValue(rgbValue.r + ", " + rgbValue.g + ", " + rgbValue.b);
