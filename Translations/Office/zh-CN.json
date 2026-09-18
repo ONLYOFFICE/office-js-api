@@ -10499,5 +10499,13 @@
     "Read the luminance shift stored in a theme color in a spreadsheet.": "读取电子表格中主题颜色所存储的亮度偏移量。",
     "Read the luminance shift stored in a theme color in a presentation.": "读取演示文稿中主题颜色所存储的亮度偏移量。",
     "Read the luminance shift stored in a theme color on a PDF page.": "读取 PDF 页面上主题颜色所存储的亮度偏移量。",
+    "Replace the whole text of a run in one call in a document.": "在文档中通过一次调用替换文本运行的全部文本。",
+    "Replace the whole text of a run in one call in a spreadsheet.": "在电子表格中通过一次调用替换文本运行的全部文本。",
+    "Replace the whole text of a run in one call in a presentation.": "在演示文稿中通过一次调用替换文本运行的全部文本。",
+    "Replace the whole text of a run in one call in a PDF.": "在 PDF 中通过一次调用替换文本运行的全部文本。",
+    "Read the color back from the fill of a shape in a document.": "在文档中读取形状填充的颜色。",
+    "Read the color back from the fill of a shape in a spreadsheet.": "在电子表格中读取形状填充的颜色。",
+    "Read the color back from the fill of a shape in a presentation.": "在演示文稿中读取形状填充的颜色。",
+    "Read the color back from the fill of a shape in a PDF.": "在 PDF 中读取形状填充的颜色。",
     "": ""
 }
