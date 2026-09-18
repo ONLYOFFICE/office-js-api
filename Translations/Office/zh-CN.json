@@ -10499,5 +10499,6 @@
     "Read the luminance shift stored in a theme color in a spreadsheet.": "读取电子表格中主题颜色所存储的亮度偏移量。",
     "Read the luminance shift stored in a theme color in a presentation.": "读取演示文稿中主题颜色所存储的亮度偏移量。",
     "Read the luminance shift stored in a theme color on a PDF page.": "读取 PDF 页面上主题颜色所存储的亮度偏移量。",
+    "Insert a table in the middle of existing paragraph text in a document.": "在文档中现有段落文本的中间插入一个表格。",
     "": ""
 }
