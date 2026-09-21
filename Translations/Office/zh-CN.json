@@ -10507,5 +10507,9 @@
     "Read the color back from the fill of a shape in a spreadsheet.": "在电子表格中读取形状填充的颜色。",
     "Read the color back from the fill of a shape in a presentation.": "在演示文稿中读取形状填充的颜色。",
     "Read the color back from the fill of a shape in a PDF.": "在 PDF 中读取形状填充的颜色。",
+    "Move the cursor to the next cell of a table in a document.": "将光标移动到文档中表格的下一个单元格。",
+    "Move the cursor to the previous cell of a table in a document.": "将光标移动到文档中表格的上一个单元格。",
+    "Move the cursor to the next cell of a table on a slide.": "将光标移动到幻灯片中表格的下一个单元格。",
+    "Move the cursor to the previous cell of a table on a slide.": "将光标移动到幻灯片中表格的上一个单元格。",
     "": ""
 }
