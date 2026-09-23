@@ -9,7 +9,7 @@ const slide = presentation.GetSlideByIndex(0);
 slide.RemoveAllObjects();
 
 const fill = Api.CreateSolidFill(Api.RGB(255, 200, 100));
-fill.SetTransparent(39);
+fill.SetTransparent(0.39);
 const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = Api.CreateShape("flowChartMagneticTape", 300 * 36000, 130 * 36000, fill, stroke);
 shape.SetPosition(608400, 1267200);

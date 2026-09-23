@@ -9,7 +9,7 @@ let paragraph = doc.GetElement(0);
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());
 
 let fill = Api.CreateSolidFill(Api.RGB(255, 200, 100));
-fill.SetTransparent(39);
+fill.SetTransparent(0.39);
 let shape = Api.CreateShape("rect", 50 * 36000, 30 * 36000, fill, stroke);
 paragraph.AddDrawing(shape);
 
