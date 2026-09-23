@@ -10524,5 +10524,11 @@
     "Get the selected text of a shape as a text range in a presentation.": "在演示文稿中将形状中选中的文本作为文本范围获取。",
     "Export a part of a paragraph as an HTML string in a presentation.": "在演示文稿中将段落的一部分导出为 HTML 字符串。",
     "Export a part of a paragraph as an HTML string in a spreadsheet.": "在电子表格中将段落的一部分导出为 HTML 字符串。",
+    "Read the word at the cursor, including the part before or after the cursor, in a presentation.": "在演示文稿中读取光标处的单词，包括光标之前或之后的部分。",
+    "Replace the word at the cursor with another word in a presentation.": "在演示文稿中将光标处的单词替换为另一个单词。",
+    "Select the word at the cursor in a presentation.": "在演示文稿中选中光标处的单词。",
+    "Read the sentence at the cursor in a presentation.": "在演示文稿中读取光标所在的句子。",
+    "Replace the sentence at the cursor with new text in a presentation.": "在演示文稿中将光标所在的句子替换为新文本。",
+    "Select the sentence at the cursor in a presentation.": "在演示文稿中选中光标处的句子。",
     "": ""
 }
