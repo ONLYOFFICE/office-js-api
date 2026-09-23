@@ -7,7 +7,7 @@
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let run = Api.CreateRun();
-run.AddText("ONLYOFFICE Document Builder");
+run.AddText("Visit ONLYOFFICE for developers");
 paragraph.AddElement(run);
-let hyperlink = paragraph.AddHyperlink("https://api.onlyoffice.com/docbuilder/basic");
-hyperlink.SetDisplayedText("Api ONLYOFFICE DocBuilder");
+let hyperlink = paragraph.AddHyperlink("https://api.onlyoffice.com");
+hyperlink.SetDisplayedText("ONLYOFFICE API reference");

@@ -16,12 +16,12 @@ const docContent = shape.GetContent();
 let paragraph = docContent.GetElement(0);
 
 let run1 = Api.CreateRun();
-run1.AddText("Api Document Builder.");
+run1.AddText("Visit ONLYOFFICE");
 paragraph.AddElement(run1, 0);
 let run2 = Api.CreateRun();
-run2.AddText(" ONLYOFFICE for developers");
+run2.AddText(" for developers");
 paragraph.AddElement(run2, 1);
-let hyperlink = paragraph.AddHyperlink("https://api.onlyoffice.com/docbuilder/basic");
+let hyperlink = paragraph.AddHyperlink("https://api.onlyoffice.com");
 let element = hyperlink.GetElement(1);
 paragraph = Api.CreateParagraph();
 paragraph.AddText("Element text: " + element.GetText());
