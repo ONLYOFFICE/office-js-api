@@ -10515,5 +10515,13 @@
     "Read back the transparency of a shape's fill on a slide in a presentation.": "在演示文稿的幻灯片中读取形状填充的透明度。",
     "Make a shape's fill semi-transparent on a page in a PDF.": "在 PDF 的页面中使形状的填充半透明。",
     "Read back the transparency of a shape's fill on a page in a PDF.": "在 PDF 的页面中读取形状填充的透明度。",
+    "Move the cursor to the next cell of a table in a document.": "将光标移动到文档中表格的下一个单元格。",
+    "Move the cursor to the previous cell of a table in a document.": "将光标移动到文档中表格的上一个单元格。",
+    "Move the cursor to the next cell of a table on a slide.": "将光标移动到幻灯片中表格的下一个单元格。",
+    "Move the cursor to the previous cell of a table on a slide.": "将光标移动到幻灯片中表格的上一个单元格。",
+    "Read whether the pivot table column widths are refitted on every update in a spreadsheet.": "读取电子表格中数据透视表列宽是否在每次更新时重新适应。",
+    "Keep the pivot table column widths unchanged when the pivot table is updated in a spreadsheet.": "在电子表格中更新数据透视表时保持列宽不变。",
+    "Export a paragraph's content as an HTML string for use outside the editor in a presentation.": "在演示文稿中将段落内容导出为 HTML 字符串以便在编辑器外使用。",
+    "Export a paragraph's content as an HTML string for use outside the editor in a spreadsheet.": "在电子表格中将段落内容导出为 HTML 字符串以便在编辑器外使用。",
     "": ""
 }
