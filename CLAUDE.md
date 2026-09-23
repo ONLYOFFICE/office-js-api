@@ -21,7 +21,7 @@ code here;
 ### Comment style
 
 - Use **imperative or descriptive** form. Never use "How to...", "This example...", "In this example...", "Show how...", or similar phrasing.
-- Each file's first comment serves as a **translation key** in `Translations/` zh-CN.json files (`Translations/Office/zh-CN.json`, `Translations/Plugins/Events/zh-CN.json`, `Translations/Plugins/Methods/zh-CN.json`). Changing it requires updating the key (and value if needed) in the corresponding translation file. Insert new keys immediately **above** the trailing `"": ""` sentinel entry, which must remain the last line before the closing `}` to keep it stable and avoid merge conflicts — never remove or edit the `"": ""` line.
+- Each file's first comment serves as a **translation key** in `Translations/` zh-CN.json files (`Translations/Office/zh-CN.json`, `Translations/Plugins/Events/zh-CN.json`, `Translations/Plugins/Methods/zh-CN.json`). Changing it requires updating the key (and value if needed) in the corresponding translation file. Append new keys at the end of the file, before the closing `}`.
 - First comments must be **unique** across all example files to avoid duplicate translation keys.
 
 ### Code style
@@ -29,3 +29,7 @@ code here;
 - Do not include builder boilerplate (`builder.CreateFile`, `builder.SaveFile`, `builder.CloseFile`).
 - Do not duplicate variable declarations (e.g. `var chart` declared twice).
 - Do not add inline comments within the code section.
+- Images use `https://static.onlyoffice.com/assets/docs/samples/img/`: `onlyoffice_logo.png` by default, `presentation_sky.png` for photo examples.
+- `https://example.com/...` is the placeholder for template snippets — those with fill-in tokens like `"{data}"`. Snippets that run as written take a real URL.
+- Write the brand as `ONLYOFFICE` (all caps), including in sample text and form values. Lowercase only inside domains and emails (`onlyoffice.com`).
+- Link text, displayed text and screen tips name their target: `https://www.onlyoffice.com` is "ONLYOFFICE website", `https://api.onlyoffice.com` is "ONLYOFFICE for developers".

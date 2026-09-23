@@ -6,10 +6,10 @@
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
-paragraph.AddText("Api Document Builder");
+paragraph.AddText("Visit ONLYOFFICE for developers");
 paragraph.SetColor(Api.HexColor('#FF6F3D'));
 let copyParagraph = paragraph.Copy();
 doc.Push(copyParagraph);
-let hyperlink = paragraph.AddHyperlink("http://api.teamlab.info/docbuilder/basic");
-let copyHyperlink = copyParagraph.AddHyperlink("http://api.teamlab.info/docbuilder/basic");
+let hyperlink = paragraph.AddHyperlink("https://api.onlyoffice.com");
+let copyHyperlink = copyParagraph.AddHyperlink("https://api.onlyoffice.com");
 copyHyperlink.SetDefaultStyle();

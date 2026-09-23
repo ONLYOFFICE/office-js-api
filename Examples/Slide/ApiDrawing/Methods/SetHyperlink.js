@@ -22,7 +22,7 @@ const image = Api.CreateImage(
 image.SetPosition(160 * 36000, 0);
 slide.AddObject(image);
 
-const urlHyperlink = Api.CreateHyperlink('https://onlyoffice.com', 'Link to OnlyOffice website');
+const urlHyperlink = Api.CreateHyperlink('https://www.onlyoffice.com', 'Link to ONLYOFFICE website');
 const pageHyperlink = Api.CreateHyperlink('ppaction://hlinksldjumpslide1', 'Link to the second slide');
 shape.SetHyperlink(urlHyperlink);
 image.SetHyperlink(pageHyperlink);

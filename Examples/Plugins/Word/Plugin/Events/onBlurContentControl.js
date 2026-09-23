@@ -13,7 +13,7 @@ window.Asc.plugin.attachEditorEvent("onBlurContentControl", (oPr) => {
 
             window.Asc.plugin.executeMethod("GetFormsByTag", ["BankName"], function(forms) {
                 for (let i = 0; i < forms.length; ++i) {
-                    window.Asc.plugin.executeMethod("SetFormValue", [forms[i]["InternalId"], "OnlyOffice BANK"], null);
+                    window.Asc.plugin.executeMethod("SetFormValue", [forms[i]["InternalId"], "ONLYOFFICE BANK"], null);
                 }
             });
 

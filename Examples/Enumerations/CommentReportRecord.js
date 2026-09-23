@@ -29,7 +29,7 @@ const oCommentReportRecord4 = {
 	"CommentMessage": "We need to add a link",
 	"Date": 1688587967245,
 	"DateUTC": 1688569967245,
-	"QuoteText": "OnlyOffice"
+	"QuoteText": "ONLYOFFICE"
 };
 
 const oCommentReport = {

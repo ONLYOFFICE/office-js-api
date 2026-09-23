@@ -243,7 +243,6 @@
     "The content control list element.": "内容控件列表元素。",
     "The element display text.": "元素显示文本。",
     "The element value.": "元素值。",
-    "No description provided.": "未提供描述。",
     "The content control parent properties.": "内容控件父级属性。",
     "A number of elements in the parent object.": "父对象中的元素数量。",
     "The content control parent. For example, oParagraph.": "内容控件的父级。例如，oParagraph。",
@@ -445,10 +444,8 @@
     "A numeric value that specifies the content control type:\n- **1** - block content control\n- **2** - inline content control\n- **3** - row content control\n- **4** - cell content control": "指定内容控件类型的数值：\n- **1** - 块内容控件\n- **2** - 内联内容控件\n- **3** - 行内容控件\n- **4** - 单元格内容控件",
     "A value that defines if it is possible to delete and/or edit the content control or not:\n- **0** - only deleting\n- **1** - disable deleting or editing\n- **2** - only editing\n- **3** - full access": "定义是否可以删除和/或编辑内容控件的值：\n- **0** - 仅删除\n- **1** - 禁止删除或编辑\n- **2** - 仅编辑\n- **3** - 完全访问",
     "The document editing restrictions:\n- **none** - no editing restrictions,\n- **comments** - allows editing comments,\n- **forms** - allows editing form fields,\n- **readOnly** - does not allow editing.": "文档编辑限制：\n- **none** - 无编辑限制，\n- **comments** - 允许编辑批注，\n- **forms** - 允许编辑表单字段，\n- **readOnly** - 不允许编辑。",
-    "Specifies the start action for long operations.\n\n:::note\nGroupActions are available only for [ONLYOFFICE Docs Enterprise](https://www.onlyoffice.com/docs-enterprise-prices.aspx?from=api) and [ONLYOFFICE Docs Developer](https://www.onlyoffice.com/developer-edition-prices.aspx?from=api).\n:::": "指定长时间操作的开始操作。\n\n:::note\nGroupActions 仅适用于 [ONLYOFFICE Docs Enterprise](https://www.onlyoffice.com/docs-enterprise-prices.aspx?from=api) 和 [ONLYOFFICE Docs Developer](https://www.onlyoffice.com/developer-edition-prices.aspx?from=api)。\n:::",
     "If *true*, the editor scroll position will be locked during the group operation.": "如果为 *true*，编辑器的滚动位置将在组操作期间被锁定。",
     "If *true*, the cursor position and selection will be preserved after the group operation ends.": "如果为 *true*，组操作结束后将保留光标位置和选区。",
-    "Specifies the end action for long operations.\n\n:::note\nGroupActions are available only for [ONLYOFFICE Docs Enterprise](https://www.onlyoffice.com/docs-enterprise-prices.aspx?from=api) and [ONLYOFFICE Docs Developer](https://www.onlyoffice.com/developer-edition-prices.aspx?from=api).\n:::": "指定长时间操作的结束操作。\n\n:::note\nGroupActions 仅适用于 [ONLYOFFICE Docs Enterprise](https://www.onlyoffice.com/docs-enterprise-prices.aspx?from=api) 和 [ONLYOFFICE Docs Developer](https://www.onlyoffice.com/developer-edition-prices.aspx?from=api)。\n:::",
     "If *false*, the editor will not scroll to the target after the group operation ends.": "如果为 *false*，组操作结束后编辑器将不会滚动到目标位置。",
     "If *true*, the group operation is cancelled and rolled back instead of committed.": "如果为 *true*，组操作将被取消并回滚，而不是提交。",
     "Moves a cursor to the beginning of the current editing area (document body, footer/header, footnote, or autoshape).\nThis method is similar to pressing the - **Ctrl + Home** keyboard shortcut.": "将光标移动到当前编辑区域（文档正文、页眉/页脚、脚注或自选图形）的开头。\n此方法类似于按下 **Ctrl + Home** 键盘快捷键。",
@@ -467,5 +464,9 @@
     "Zero-based page index to navigate to.": "要导航到的从零开始的页面索引。",
     "If specified only x1, y1 (ex. [10, 10]) - then moves to them with inherited zoom, if specified whole rect (ex. [10, 10, 100, 100]) then zoom to rect": "如果仅指定 x1、y1（例如 [10, 10]），则以继承的缩放比例移动到该位置；如果指定完整矩形（例如 [10, 10, 100, 100]），则缩放到该矩形",
     "Add floating action buttons over the editor area.": "在编辑器区域上方添加悬浮操作按钮。",
-    "Update floating action buttons over the editor area.": "更新编辑器区域上方的悬浮操作按钮。"
+    "Update floating action buttons over the editor area.": "更新编辑器区域上方的悬浮操作按钮。",
+    "Specifies the start action for long operations.\n\n:::note\nGroupActions are available only for [ONLYOFFICE Docs Enterprise](https://www.onlyoffice.com/docs-enterprise-prices?from=api) and [ONLYOFFICE Docs Developer](https://www.onlyoffice.com/developer-edition-prices?from=api).\n:::": "指定长时间操作的开始操作。\n\n:::note\nGroupActions 仅适用于 [ONLYOFFICE Docs Enterprise](https://www.onlyoffice.com/docs-enterprise-prices?from=api) 和 [ONLYOFFICE Docs Developer](https://www.onlyoffice.com/developer-edition-prices?from=api)。\n:::",
+    "Specifies the end action for long operations.\n\n:::note\nGroupActions are available only for [ONLYOFFICE Docs Enterprise](https://www.onlyoffice.com/docs-enterprise-prices?from=api) and [ONLYOFFICE Docs Developer](https://www.onlyoffice.com/developer-edition-prices?from=api).\n:::": "指定长时间操作的结束操作。\n\n:::note\nGroupActions 仅适用于 [ONLYOFFICE Docs Enterprise](https://www.onlyoffice.com/docs-enterprise-prices?from=api) 和 [ONLYOFFICE Docs Developer](https://www.onlyoffice.com/developer-edition-prices?from=api)。\n:::",
+    "Identifies an annotation range within a paragraph.": "标识段落中的注解范围。",
+    "Defines a text range within a paragraph to be highlighted as an annotation.": "定义段落中要作为注解突出显示的文本范围。"
 }

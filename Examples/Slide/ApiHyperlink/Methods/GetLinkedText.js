@@ -16,17 +16,17 @@ shape.SetPosition(Api.MillimetersToEmus(20), Api.MillimetersToEmus(35));
 const docContent = shape.GetContent();
 const paragraph = docContent.GetElement(0);
 const run = Api.CreateRun();
-run.AddText('ONLYOFFICE Document Builder');
+run.AddText('Visit ONLYOFFICE for developers');
 paragraph.AddElement(run);
 
 const infoParagraph = Api.CreateParagraph();
 let hyperlink;
 
-hyperlink = paragraph.AddHyperlink('https://api.onlyoffice.com/docbuilder/basic');
+hyperlink = paragraph.AddHyperlink('https://api.onlyoffice.com');
 infoParagraph.AddText('Text hyperlink linked text: ' + hyperlink.GetLinkedText());
 infoParagraph.AddLineBreak();
 
-shape.SetHyperlink(Api.CreateHyperlink('https://api.onlyoffice.com/'));
+shape.SetHyperlink(Api.CreateHyperlink('https://api.onlyoffice.com'));
 hyperlink = shape.GetHyperlink();
 infoParagraph.AddText('Shape hyperlink linked text: ' + hyperlink.GetLinkedText());
 
