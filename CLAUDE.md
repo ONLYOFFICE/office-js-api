@@ -29,3 +29,4 @@ code here;
 - Do not include builder boilerplate (`builder.CreateFile`, `builder.SaveFile`, `builder.CloseFile`).
 - Do not duplicate variable declarations (e.g. `var chart` declared twice).
 - Do not add inline comments within the code section.
+- Images use `https://static.onlyoffice.com/assets/docs/samples/img/`: `onlyoffice_logo.png` by default, `presentation_sky.png` for photo examples.
