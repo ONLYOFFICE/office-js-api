@@ -1,6 +1,6 @@
 // Determine the class type of an XML node in a presentation.
 
-// How do I find out what type an XML node object is in a presentation?
+// Find out what type an XML node object is in a presentation.
 
 // Get the class name of an XML element in a presentation.
 

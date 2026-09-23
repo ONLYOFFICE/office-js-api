@@ -1,6 +1,6 @@
 // Get all custom XML parts in a presentation.
 
-// How do I retrieve all custom XML parts from a presentation?
+// Retrieve all custom XML parts from a presentation.
 
 // Display the count and content of each XML part in a presentation.
 

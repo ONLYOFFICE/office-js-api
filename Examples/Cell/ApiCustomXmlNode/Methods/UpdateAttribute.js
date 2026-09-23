@@ -1,6 +1,6 @@
 // Change the value of an existing attribute on an XML element in a spreadsheet.
 
-// How do I modify the value of an attribute already set on an XML node in a spreadsheet?
+// Modify the value of an attribute already set on an XML node in a spreadsheet.
 
 // Revise a previously assigned attribute to reflect updated information in a spreadsheet.
 

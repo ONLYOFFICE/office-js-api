@@ -1,6 +1,6 @@
 // Read the value of a specific attribute from a custom XML node in a document.
 
-// How do I get a single attribute value from a custom XML node in a document?
+// Get a single attribute value from a custom XML node in a document.
 
 // Look up stored metadata on an XML element by fetching one of its named attributes in a document.
 

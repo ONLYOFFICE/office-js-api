@@ -1,6 +1,6 @@
 // Find XML elements matching a path in a presentation.
 
-// How do I select multiple XML nodes using a path in a presentation?
+// Select multiple XML nodes using a path in a presentation.
 
 // Retrieve child elements from an XML node in a presentation.
 

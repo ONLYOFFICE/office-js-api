@@ -1,6 +1,6 @@
 // Read the data binding settings of an inline content control in a document.
 
-// How do I get the data binding of an inline content control in a document?
+// Get the data binding of an inline content control in a document.
 
 // Inspect the XML store reference linked to a content control to confirm its data source in a document.
 

@@ -1,6 +1,6 @@
 // Find and collect matching child nodes within an XML structure in a spreadsheet.
 
-// How do I search for specific nodes inside an XML tree in a spreadsheet?
+// Search for specific nodes inside an XML tree in a spreadsheet.
 
 // Gather a set of related XML nodes by their shared path in a spreadsheet.
 

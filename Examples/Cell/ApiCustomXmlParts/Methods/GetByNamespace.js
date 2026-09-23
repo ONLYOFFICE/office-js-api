@@ -1,6 +1,6 @@
 // Filter stored XML blocks by their declared namespace in a spreadsheet.
 
-// How do I find all XML entries that belong to a specific namespace in a spreadsheet?
+// Find all XML entries that belong to a specific namespace in a spreadsheet.
 
 // Narrow down embedded XML data to only those matching a given namespace in a spreadsheet.
 

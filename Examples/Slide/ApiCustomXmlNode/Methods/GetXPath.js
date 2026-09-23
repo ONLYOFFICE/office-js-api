@@ -1,6 +1,6 @@
 // Get the full location path of an XML node in a presentation.
 
-// How do I find the path to an XML element in a presentation?
+// Find the path to an XML element in a presentation.
 
 // Retrieve the XPath address of an XML node in a presentation.
 

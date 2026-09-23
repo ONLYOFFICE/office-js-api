@@ -1,6 +1,6 @@
 // Overwrite an XML node with entirely new markup in a spreadsheet.
 
-// How do I replace the contents of an XML node with different XML in a spreadsheet?
+// Replace the contents of an XML node with different XML in a spreadsheet.
 
 // Swap out a node's structure by supplying a fresh XML fragment in a spreadsheet.
 

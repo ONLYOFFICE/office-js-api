@@ -1,6 +1,6 @@
 // Read the text of a content control exactly as it would appear in exported XML in a document.
 
-// How do I get the text from a content control in the form used for XML export in a document?
+// Get the text from a content control in the form used for XML export in a document.
 
 // Extract the plain text value of a content control for use in XML mapping in a document.
 

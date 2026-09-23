@@ -1,6 +1,6 @@
 // Get custom XML parts by their namespace in a presentation.
 
-// How do I find all XML parts that use a specific namespace in a presentation?
+// Find all XML parts that use a specific namespace in a presentation.
 
 // Display the matching XML parts in a presentation.
 

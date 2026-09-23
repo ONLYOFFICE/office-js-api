@@ -1,6 +1,6 @@
 // Attach a named property with a value to an XML element in a spreadsheet.
 
-// How do I add an attribute to an XML node in a spreadsheet?
+// Add an attribute to an XML node in a spreadsheet.
 
 // Annotate an XML element with descriptive metadata fields in a spreadsheet.
 
