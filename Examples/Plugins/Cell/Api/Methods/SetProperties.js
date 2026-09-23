@@ -42,7 +42,7 @@ var initSettings = {
             "111" : {
                 "text" : "Text in form with tag 111",
                 "checkBox" : "true",
-                "picture" : "https://upload.wikimedia.org/wikipedia/commons/9/91/ONLYOFFICE_logo.png",
+                "picture" : "https://static.onlyoffice.com/assets/docs/samples/img/onlyoffice_logo.png",
                 "comboBox" : "item1"
             },
             "222" : {
