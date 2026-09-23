@@ -1,14 +1,14 @@
 // Read back the transparency of a shape's fill on a page in a PDF.
 
-// How do I find out how transparent a shape's fill is in a PDF?
+// Find out how transparent a shape's fill is in a PDF.
 
-// Check the opacity that was applied to a shape's fill in a PDF.
+// Check the transparency that was applied to a shape's fill in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 
 const fill = Api.CreateSolidFill(Api.RGB(255, 200, 100));
-fill.SetTransparent(0.39);
+fill.SetTransparent(0.4);
 const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = Api.CreateShape("flowChartMagneticTape", 150 * 36000, 65 * 36000, fill, stroke);
 shape.SetPosition(608400, 1267200);
