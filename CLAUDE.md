@@ -30,3 +30,4 @@ code here;
 - Do not duplicate variable declarations (e.g. `var chart` declared twice).
 - Do not add inline comments within the code section.
 - Images use `https://static.onlyoffice.com/assets/docs/samples/img/`: `onlyoffice_logo.png` by default, `presentation_sky.png` for photo examples.
+- Write the brand as `ONLYOFFICE` (all caps), including in sample text and form values. Lowercase only inside domains and emails (`onlyoffice.com`).
