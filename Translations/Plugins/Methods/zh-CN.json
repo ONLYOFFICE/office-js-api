@@ -468,5 +468,6 @@
     "Specifies the start action for long operations.\n\n:::note\nGroupActions are available only for [ONLYOFFICE Docs Enterprise](https://www.onlyoffice.com/docs-enterprise-prices?from=api) and [ONLYOFFICE Docs Developer](https://www.onlyoffice.com/developer-edition-prices?from=api).\n:::": "指定长时间操作的开始操作。\n\n:::note\nGroupActions 仅适用于 [ONLYOFFICE Docs Enterprise](https://www.onlyoffice.com/docs-enterprise-prices?from=api) 和 [ONLYOFFICE Docs Developer](https://www.onlyoffice.com/developer-edition-prices?from=api)。\n:::",
     "Specifies the end action for long operations.\n\n:::note\nGroupActions are available only for [ONLYOFFICE Docs Enterprise](https://www.onlyoffice.com/docs-enterprise-prices?from=api) and [ONLYOFFICE Docs Developer](https://www.onlyoffice.com/developer-edition-prices?from=api).\n:::": "指定长时间操作的结束操作。\n\n:::note\nGroupActions 仅适用于 [ONLYOFFICE Docs Enterprise](https://www.onlyoffice.com/docs-enterprise-prices?from=api) 和 [ONLYOFFICE Docs Developer](https://www.onlyoffice.com/developer-edition-prices?from=api)。\n:::",
     "Identifies an annotation range within a paragraph.": "标识段落中的注解范围。",
-    "Defines a text range within a paragraph to be highlighted as an annotation.": "定义段落中要作为注解突出显示的文本范围。"
+    "Defines a text range within a paragraph to be highlighted as an annotation.": "定义段落中要作为注解突出显示的文本范围。",
+    "": ""
 }
