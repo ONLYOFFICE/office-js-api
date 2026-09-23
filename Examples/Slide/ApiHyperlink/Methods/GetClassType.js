@@ -13,7 +13,7 @@ const stroke = Api.CreateStroke(0, Api.CreateNoFill());
 const shape = Api.CreateShape('rect', 150 * 36000, 150 * 36000, fill, stroke);
 slide.AddObject(shape);
 
-const hyperlink = Api.CreateHyperlink('https://onlyoffice.com', 'Link to OnlyOffice website');
+const hyperlink = Api.CreateHyperlink('https://www.onlyoffice.com', 'Link to ONLYOFFICE website');
 shape.SetHyperlink(hyperlink);
 const classType = hyperlink.GetClassType();
 

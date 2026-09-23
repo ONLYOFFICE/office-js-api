@@ -10,7 +10,7 @@ let checkBox = Api.CreateCheckBoxForm({key: "BestCompany"});
 checkBox.SetChecked(true);
 paragraph1.Push(checkBox);
 let textForm = Api.CreateTextForm({key: "CompanyName"});
-textForm.SetText("OnlyOffice");
+textForm.SetText("ONLYOFFICE");
 paragraph1.Push(textForm);
 
 let paragraph = Api.CreateParagraph();

@@ -51,7 +51,7 @@ var initSettings = {
                 "comboBox" : "item2"
             },
             "333" : {
-                "text" : "OnlyOffice"
+                "text" : "ONLYOFFICE"
             }
         }
     })
