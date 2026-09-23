@@ -30,5 +30,6 @@ code here;
 - Do not duplicate variable declarations (e.g. `var chart` declared twice).
 - Do not add inline comments within the code section.
 - Images use `https://static.onlyoffice.com/assets/docs/samples/img/`: `onlyoffice_logo.png` by default, `presentation_sky.png` for photo examples.
+- `https://example.com/...` is the placeholder for template snippets — those with fill-in tokens like `"{data}"`. Snippets that run as written take a real URL.
 - Write the brand as `ONLYOFFICE` (all caps), including in sample text and form values. Lowercase only inside domains and emails (`onlyoffice.com`).
 - Link text, displayed text and screen tips name their target: `https://www.onlyoffice.com` is "ONLYOFFICE website", `https://api.onlyoffice.com` is "ONLYOFFICE for developers".
