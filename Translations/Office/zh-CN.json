@@ -10521,5 +10521,8 @@
     "Creates a chart with the parameters specified.\n\n:::note\nValues of *nStyleIndex* outside - **1 - 48** are interpreted as a chart style id from the *cs:chartStyle* element (e.g. 201, 215, 284) and are available only for [ONLYOFFICE Docs Enterprise](https://www.onlyoffice.com/docs-enterprise-prices?from=api) and [ONLYOFFICE Docs Developer](https://www.onlyoffice.com/developer-edition-prices?from=api).\n:::": "使用指定的参数创建图表。\n\n:::note\n*nStyleIndex* 超出 **1 - 48** 范围的值将被解释为来自 *cs:chartStyle* 元素的图表样式 ID（例如 201、215、284），且仅适用于 [ONLYOFFICE Docs Enterprise](https://www.onlyoffice.com/docs-enterprise-prices?from=api) 和 [ONLYOFFICE Docs Developer](https://www.onlyoffice.com/developer-edition-prices?from=api)。\n:::",
     "The font size measured in half-points (1/144 of an inch).": "以半磅（1/144 英寸）为单位测量的字体大小。",
     "Update an attribute of an element found by path in a custom XML part in a spreadsheet.": "在电子表格中更新自定义 XML 部件中按路径找到的元素的属性。",
+    "Get the selected text of a shape as a text range in a presentation.": "在演示文稿中将形状中选中的文本作为文本范围获取。",
+    "Export a part of a paragraph as an HTML string in a presentation.": "在演示文稿中将段落的一部分导出为 HTML 字符串。",
+    "Export a part of a paragraph as an HTML string in a spreadsheet.": "在电子表格中将段落的一部分导出为 HTML 字符串。",
     "": ""
 }
