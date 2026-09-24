@@ -10530,6 +10530,7 @@
     "Read the sentence at the cursor in a presentation.": "在演示文稿中读取光标所在的句子。",
     "Replace the sentence at the cursor with new text in a presentation.": "在演示文稿中将光标所在的句子替换为新文本。",
     "Select the sentence at the cursor in a presentation.": "在演示文稿中选中光标处的句子。",
+    "Export a part of a paragraph as an HTML string in a PDF document.": "在 PDF 文档中将段落的一部分导出为 HTML 字符串。",
     "Set a square cap for the ends of a shape border in a document.": "在文档中为形状边框的端点设置方形线端。",
     "Set a square cap for the ends of a shape border in a spreadsheet.": "在电子表格中为形状边框的端点设置方形线端。",
     "Set a square cap for the ends of a shape border in a presentation.": "在演示文稿中为形状边框的端点设置方形线端。",
