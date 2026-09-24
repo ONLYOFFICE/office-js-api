@@ -11,7 +11,7 @@ slide.RemoveAllObjects();
 const shape = Api.CreateShape("rect", 300 * 36000, 100 * 36000);
 shape.SetPosition(608400, 1267200);
 slide.AddObject(shape);
-shape.CreateTextRange().SetText("Sample item №1, sample item №2 and one more sample.");
+shape.GetTextRange().SetText("Sample item №1, sample item №2 and one more sample.");
 
 const byKeyword = presentation.Search("sample", false);
 byKeyword[byKeyword.length - 1].SetBold(true);

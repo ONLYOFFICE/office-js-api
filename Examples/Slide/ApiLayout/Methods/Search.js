@@ -11,7 +11,7 @@ const layout = master.GetLayout(0);
 const shape = Api.CreateShape("rect", 300 * 36000, 100 * 36000);
 shape.SetPosition(608400, 1267200);
 layout.AddObject(shape);
-shape.CreateTextRange().SetText("Preliminary layout draft and preliminary review.");
+shape.GetTextRange().SetText("Preliminary layout draft and preliminary review.");
 
 const results = layout.Search("preliminary");
 results[0].SetBold(true);
