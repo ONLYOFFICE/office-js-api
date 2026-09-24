@@ -10416,14 +10416,12 @@
     "Make the text of a hyperlink in a shape on a worksheet italic through a text range.": "通过文本区域将工作表上图形中超链接的文本设置为斜体。",
     "Read the whole text of a drawing on a worksheet through a text range.": "通过文本区域读取工作表上图形对象的全部文本。",
     "Check whether a drawing on a worksheet can carry text before working with it.": "在操作之前检查工作表上的图形对象是否可以包含文本。",
-    "Add text to a drawing on a worksheet that has no text body yet.": "为工作表上尚无文本主体的图形对象添加文本。",
     "Take a text range over the whole text of a shape on a PDF page and make it bold.": "获取 PDF 页面上图形全部文本的文本区域，并将其设置为粗体。",
     "Underline a part of a paragraph of a shape on a PDF page through a text range.": "通过文本区域为 PDF 页面上图形段落的一部分添加下划线。",
     "Colour a part of a text run of a shape on a PDF page through a text range.": "通过文本区域为 PDF 页面上图形文本块的一部分设置颜色。",
     "Make the text of a hyperlink in a shape on a PDF page italic through a text range.": "通过文本区域将 PDF 页面上图形中超链接的文本设置为斜体。",
     "Read the whole text of a drawing on a PDF page through a text range.": "通过文本区域读取 PDF 页面上图形对象的全部文本。",
     "Check whether a drawing on a PDF page can carry text before working with it.": "在操作之前检查 PDF 页面上的图形对象是否可以包含文本。",
-    "Add text to a drawing on a PDF page that has no text body yet.": "为 PDF 页面上尚无文本主体的图形对象添加文本。",
     "Make the whole text of a free text annotation in a PDF bold through a text range.": "通过文本区域将 PDF 中自由文本批注的全部文本设置为粗体。",
     "Strike out a part of a paragraph of a free text annotation in a PDF.": "为 PDF 中自由文本批注段落的一部分添加删除线。",
     "Change the font size of a part of a text run of a free text annotation in a PDF.": "更改 PDF 中自由文本批注文本块一部分的字号。",
@@ -10497,6 +10495,7 @@
     "Apply a set of text properties to a range at once in a shape on a PDF page.": "在 PDF 页面的形状中一次性为范围应用一组文本属性。",
     "Underline the text of a range in a shape on a PDF page.": "在 PDF 页面的形状中为范围内的文本添加下划线。",
     "Raise the text of a range above the baseline in a shape on a PDF page.": "在 PDF 页面的形状中将范围内的文本提升到基线之上。",
-    "Get the full text range of a shape.": "获取形状的完整文本范围。",
+    "Get the full text range of a shape and use it to set formatted text.": "获取形状的完整文本范围并用它设置格式化文本。",
+    "Check whether a shape has an associated text body before and after adding text.": "在添加文本前后检查形状是否具有关联的文本主体。",
     "": ""
 }
