@@ -10531,5 +10531,7 @@
     "Replace the sentence at the cursor with new text in a presentation.": "在演示文稿中将光标所在的句子替换为新文本。",
     "Select the sentence at the cursor in a presentation.": "在演示文稿中选中光标处的句子。",
     "Export a part of a paragraph as an HTML string in a PDF document.": "在 PDF 文档中将段落的一部分导出为 HTML 字符串。",
+    "Get the range covering the whole text of a shape and make it bold in a document.": "在文档中获取覆盖形状全部文本的范围并将其设为粗体。",
+    "Check whether a shape has an associated text body before and after adding text in a document.": "在文档中添加文本前后检查形状是否具有关联的文本主体。",
     "": ""
 }
