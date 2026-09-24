@@ -1,6 +1,6 @@
 // Export an XML element as a string in a presentation.
 
-// How do I get the XML markup of a node in a presentation?
+// Get the XML markup of a node in a presentation.
 
 // Retrieve the serialized form of an XML element in a presentation.
 

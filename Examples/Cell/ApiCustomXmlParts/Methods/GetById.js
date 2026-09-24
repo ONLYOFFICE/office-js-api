@@ -1,6 +1,6 @@
 // Look up a specific stored XML block using its unique identifier in a spreadsheet.
 
-// How do I find a particular XML entry by its ID in a spreadsheet?
+// Find a particular XML entry by its ID in a spreadsheet.
 
 // Locate a single XML block precisely when its identifier is already known in a spreadsheet.
 

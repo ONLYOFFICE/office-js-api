@@ -1,6 +1,6 @@
 // Read the plain text stored inside an XML element in a spreadsheet.
 
-// How do I extract readable text from an XML node in a spreadsheet?
+// Extract readable text from an XML node in a spreadsheet.
 
 // Pull out the human-readable content of an XML entry in a spreadsheet.
 

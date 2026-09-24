@@ -1,17 +1,18 @@
-// Find custom XML parts that match a given namespace in a document.
+// Get a custom XML part by its ID in a document.
 
-// How do I look up custom XML parts by their namespace in a document?
+// Find a custom XML part using its unique ID in a document.
 
-// Filter all embedded XML parts to those belonging to a specific schema in a document.
+// Display the retrieved XML part's content in a document.
 
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
-let xmlText = "<content xmlns='http://example.com'><text>Example XML</text></content>";
-let xml = xmlManager.Add(xmlText);
-let namespace = "http://example.com";
-let xmlParts = xmlManager.GetByNamespace(namespace);
-let infoParagraph = Api.CreateParagraph();
-xmlParts.forEach(part => {
-    infoParagraph.AddText("XML part: " + part.GetXml());
-});
-doc.Push(infoParagraph);
+let xml = xmlManager.Add("<inventory xmlns='http://example.com'><item>Book</item></inventory>");
+let id = xml.GetId();
+let retrievedXml = xmlManager.GetById(id);
+let paragraph = Api.CreateParagraph();
+if (retrievedXml) {
+    paragraph.AddText("Found XML part: " + retrievedXml.GetXml());
+} else {
+    paragraph.AddText("XML part not found");
+}
+doc.Push(paragraph);

@@ -1,6 +1,6 @@
 // Write readable text into an XML element to update its content in a spreadsheet.
 
-// How do I change the text inside an XML node in a spreadsheet?
+// Change the text inside an XML node in a spreadsheet.
 
 // Store a new text value inside an existing XML entry in a spreadsheet.
 

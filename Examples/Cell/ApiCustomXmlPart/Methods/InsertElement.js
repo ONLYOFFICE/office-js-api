@@ -1,6 +1,6 @@
 // Add a child element to an existing XML structure stored in a spreadsheet.
 
-// How do I nest a new node inside an XML block already saved in a spreadsheet?
+// Nest a new node inside an XML block already saved in a spreadsheet.
 
 // Expand stored XML data by appending a new element at a chosen location in a spreadsheet.
 

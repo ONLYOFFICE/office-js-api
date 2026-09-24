@@ -1,6 +1,6 @@
 // Embed a custom XML part and retrieve it by its generated ID in a document.
 
-// How do I add and look up custom XML data stored inside a document?
+// Add and look up custom XML data stored inside a document.
 
 // Store structured XML payloads within a document and confirm they can be fetched back by identifier in a document.
 

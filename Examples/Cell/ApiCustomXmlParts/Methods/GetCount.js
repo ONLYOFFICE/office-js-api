@@ -1,6 +1,6 @@
 // Count how many XML blocks are stored in a workbook in a spreadsheet.
 
-// How do I find out how many embedded XML entries exist in a spreadsheet?
+// Find out how many embedded XML entries exist in a spreadsheet.
 
 // Check the total number of saved XML blocks before iterating over them in a spreadsheet.
 

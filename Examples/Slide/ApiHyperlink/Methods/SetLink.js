@@ -16,20 +16,20 @@ shape.SetPosition(Api.MillimetersToEmus(20), Api.MillimetersToEmus(35));
 const docContent = shape.GetContent();
 const paragraph = docContent.GetElement(0);
 const run = Api.CreateRun();
-run.AddText('ONLYOFFICE Document Builder');
+run.AddText('Visit ONLYOFFICE for developers');
 paragraph.AddElement(run);
 
 const infoParagraph = Api.CreateParagraph();
 let hyperlink;
 
-hyperlink = paragraph.AddHyperlink('https://api.onlyoffice.com/docbuilder/basic');
-hyperlink.SetLink('https://api.onlyoffice.com/');
+hyperlink = paragraph.AddHyperlink('https://www.onlyoffice.com');
+hyperlink.SetLink('https://api.onlyoffice.com');
 infoParagraph.AddText('Text hyperlink updated link: ' + hyperlink.GetLinkedText());
 infoParagraph.AddLineBreak();
 
-shape.SetHyperlink(Api.CreateHyperlink('https://api.onlyoffice.com/docbuilder/basic', 'DocBuilder'));
+shape.SetHyperlink(Api.CreateHyperlink('https://www.onlyoffice.com', 'ONLYOFFICE website'));
 hyperlink = shape.GetHyperlink();
-hyperlink.SetLink('https://api.onlyoffice.com/');
+hyperlink.SetLink('https://api.onlyoffice.com');
 infoParagraph.AddText('Shape hyperlink updated link: ' + hyperlink.GetLinkedText());
 
 docContent.Push(infoParagraph);

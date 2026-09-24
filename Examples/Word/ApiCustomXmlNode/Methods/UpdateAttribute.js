@@ -1,6 +1,6 @@
 // Update the value of an existing attribute on an XML node in a document.
 
-// How do I change the value of an attribute that already exists on a node in a document?
+// Change the value of an attribute that already exists on a node in a document.
 
 // Correct outdated metadata on a node without removing and re-adding the attribute in a document.
 

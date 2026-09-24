@@ -1,6 +1,6 @@
 // Export a node and all its contents as a raw XML string in a spreadsheet.
 
-// How do I get the full XML markup for a specific node in a spreadsheet?
+// Get the full XML markup for a specific node in a spreadsheet.
 
 // Capture a node's complete structure as text to inspect or reuse it in a spreadsheet.
 

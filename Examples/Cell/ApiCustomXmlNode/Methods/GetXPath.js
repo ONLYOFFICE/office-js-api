@@ -1,6 +1,6 @@
 // Determine the full path address of an XML node within a document in a spreadsheet.
 
-// How do I find out where an XML node sits in the overall structure in a spreadsheet?
+// Find out where an XML node sits in the overall structure in a spreadsheet.
 
 // Identify the exact location of a node by reading its path expression in a spreadsheet.
 

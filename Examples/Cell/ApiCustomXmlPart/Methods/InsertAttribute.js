@@ -1,6 +1,6 @@
 // Add a new named property to an XML element stored in a spreadsheet.
 
-// How do I attach extra metadata to an existing XML node in a spreadsheet?
+// Attach extra metadata to an existing XML node in a spreadsheet.
 
 // Enrich an XML element with an additional attribute to carry more structured data in a spreadsheet.
 

@@ -1,6 +1,6 @@
 // Select child nodes from a custom XML node using a path query in a document.
 
-// How do I retrieve matching child nodes from a custom XML node in a document?
+// Retrieve matching child nodes from a custom XML node in a document.
 
 // Traverse embedded XML data by querying for a set of elements under a given node in a document.
 
