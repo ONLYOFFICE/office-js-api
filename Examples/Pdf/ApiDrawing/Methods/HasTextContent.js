@@ -19,8 +19,8 @@ report.SetPosition(608400, 4000000);
 page.AddObject(report);
 
 const reportParagraph = report.GetContent().GetElement(0);
-reportParagraph.AddText("before: " + shape.HasTextRange());
+reportParagraph.AddText("before: " + shape.HasTextContent());
 
-shape.CreateTextRange().SetText("Sample");
+shape.GetTextRange().SetText("Sample");
 
-reportParagraph.AddText(" after: " + shape.HasTextRange());
+reportParagraph.AddText(" after: " + shape.HasTextContent());
