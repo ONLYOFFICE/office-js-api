@@ -10530,5 +10530,6 @@
     "Read the sentence at the cursor in a presentation.": "在演示文稿中读取光标所在的句子。",
     "Replace the sentence at the cursor with new text in a presentation.": "在演示文稿中将光标所在的句子替换为新文本。",
     "Select the sentence at the cursor in a presentation.": "在演示文稿中选中光标处的句子。",
+    "Export a part of a paragraph as an HTML string in a PDF document.": "在 PDF 文档中将段落的一部分导出为 HTML 字符串。",
     "": ""
 }
