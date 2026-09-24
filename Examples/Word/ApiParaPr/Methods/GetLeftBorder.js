@@ -7,7 +7,7 @@
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 let paraPr = paragraph.GetParaPr();
-paraPr.SetLeftBorder("single", 24, 0, 255, 111, 61);
+paraPr.SetLeftBorder("single", 24, 0, Api.Color(255, 111, 61));
 paragraph.AddText("This is a paragraph with a left border.");
 let border = paraPr.GetLeftBorder();
 let paragraph2 = Api.CreateParagraph();

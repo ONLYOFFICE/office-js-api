@@ -13,5 +13,5 @@ let table = Api.CreateTable(3, 3);
 table.SetWidth("percent", 100);
 table.SetStyle(tableStyle);
 table.SetTableLook(true, true, true, true, true, true);
-tableStyle.GetConditionalTableStyle("topLeftCell").GetTableCellPr().SetShd("clear", Api.HexColor('#FF6F3D'));
+tableStyle.GetConditionalTableStyle("topLeftCell").GetTableCellPr().SetShd(Api.CreateShd("clear", Api.HexColor('#FF6F3D')));
 doc.Push(table);

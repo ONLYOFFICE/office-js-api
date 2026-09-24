@@ -12,7 +12,7 @@ tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
 let tablePr = tableStyle.GetTablePr();
 let table = Api.CreateTable(3, 3);
 table.SetWidth("percent", 100);
-tablePr.SetTableBorderTop("single", 32, 0, 51, 51, 51);
+tablePr.SetTableBorderTop("single", 32, 0, Api.Color(51, 51, 51));
 table.SetTableLook(true, true, true, true, false, false);
 table.SetStyle(tableStyle);
 doc.Push(table);

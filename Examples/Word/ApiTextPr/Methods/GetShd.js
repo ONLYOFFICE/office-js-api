@@ -21,7 +21,7 @@ secondRun.SetStyle(myNewRunStyle);
 secondRun.AddText('A text run with shd applied to it.');
 
 let secondRunTextPr = secondRun.GetTextPr();
-secondRunTextPr.SetShd('clear', Api.RGBA(255, 111, 61));
+secondRunTextPr.SetShd(Api.CreateShd('clear', Api.RGBA(255, 111, 61)));
 firstParagraph.AddElement(secondRun);
 
 let shd = secondRunTextPr.GetShd();
@@ -30,6 +30,6 @@ let secondParagraph = Api.CreateParagraph();
 let thirdRun = Api.CreateRun();
 thirdRun.AddText('This run has the shading from the last run in the first paragraph.');
 let thirdRunTextPr = thirdRun.GetTextPr();
-thirdRunTextPr.SetShd(shd.Type, shd.Color);
+thirdRunTextPr.SetShd(shd);
 secondParagraph.AddElement(thirdRun);
 doc.Push(secondParagraph);

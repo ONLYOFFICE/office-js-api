@@ -1,6 +1,6 @@
 // Export a part of a paragraph as an HTML string in a PDF document.
 
-// How do I get the HTML markup of only a fragment of the text in a PDF document?
+// A text range limits the HTML export to the characters between its start and end positions.
 
 // Convert the end of a sentence with its bold words to HTML and show the markup in a second paragraph of the shape on a PDF page.
 

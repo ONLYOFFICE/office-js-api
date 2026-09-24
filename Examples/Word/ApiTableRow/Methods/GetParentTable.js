@@ -12,5 +12,5 @@ table.SetStyle(tableStyle);
 table.SetWidth("percent", 100);
 let row = table.GetRow(0);
 let parentTable = row.GetParentTable();
-parentTable.SetTableBorderBottom("single", 32, 0, 51, 51, 51);
+parentTable.SetTableBorderBottom("single", 32, 0, Api.Color(51, 51, 51));
 doc.Push(parentTable);
