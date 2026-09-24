@@ -121,8 +121,8 @@ jobs:
           cd onlyoffice/tools/docs
           npm install
           python office-api/generate_docs_md.py "$WORKSPACE_ROOT/api.onlyoffice.com/" --translations "$WORKSPACE_ROOT/office-js-api/Translations/Office/zh-CN.json"
-          python plugins/generate_docs_methods_md.py "$WORKSPACE_ROOT/api.onlyoffice.com/" --translations "$WORKSPACE_ROOT/office-js-api/Translations/Plugins/Methods/zh-CN.json"
-          python plugins/generate_docs_events_md.py "$WORKSPACE_ROOT/api.onlyoffice.com/" --translations "$WORKSPACE_ROOT/office-js-api/Translations/Plugins/Events/zh-CN.json"
+          python plugins/generate_docs_methods_md.py "$WORKSPACE_ROOT/api.onlyoffice.com/" --translations "$WORKSPACE_ROOT/office-js-api/Translations/Plugins/zh-CN.json"
+          python plugins/generate_docs_events_md.py "$WORKSPACE_ROOT/api.onlyoffice.com/" --translations "$WORKSPACE_ROOT/office-js-api/Translations/Plugins/zh-CN.json"
           cd ../../../office-js-api
 
           if ! git diff --exit-code; then

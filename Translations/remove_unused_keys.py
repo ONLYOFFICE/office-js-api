@@ -5,8 +5,7 @@ script_dir = Path(__file__).parent
 
 directories = [
     'Office',
-    'Plugins/Events',
-    'Plugins/Methods',
+    'Plugins',
 ]
 
 total_removed = 0
