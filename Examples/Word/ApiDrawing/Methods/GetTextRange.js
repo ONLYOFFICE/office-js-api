@@ -1,6 +1,6 @@
 // Get the range covering the whole text of a shape and make it bold in a document.
 
-// Creates a text body if the shape does not have one yet; returns null for drawings that are not shapes.
+// Returns null for drawings that are not shapes, such as images or charts.
 
 // Add a shape with text, get its text range, then apply bold formatting to it.
 
