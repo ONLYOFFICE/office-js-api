@@ -14,7 +14,7 @@ const chart = Api.CreateChart("bar3D", [
 ], ["Projected Revenue", "Estimated Costs"], [2014, 2015, 2016], 4051300, 2347595, 24);
 chart.SetSize(300 * 36000, 130 * 36000);
 chart.SetPosition(608400, 1267200);
-chart.SetTitle("Financial Overview", 13);
+chart.SetTitle("Financial Overview", 26);
 
 let fill = Api.CreateSolidFill(Api.RGB(51, 51, 51));
 chart.SetSeriesFill(fill, 0, false);

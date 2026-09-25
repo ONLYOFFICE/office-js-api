@@ -9,6 +9,6 @@ const page = doc.GetPage(0);
 
 const table = Api.CreateTable(3, 4);
 const cell = table.GetRow(0).GetCell(0);
-cell.SetColumnBackgroundColor(255, 111, 61, false);
+cell.SetColumnBackgroundColor(Api.RGB(255, 111, 61));
 
 page.AddObject(table);

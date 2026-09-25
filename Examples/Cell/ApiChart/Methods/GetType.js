@@ -19,4 +19,4 @@ worksheet.GetRange("D2").SetValue(280);
 worksheet.GetRange("D3").SetValue(280);
 const chart = worksheet.AddChart("'Sheet1'!$A$1:$D$3", true, "3DColumnClustered", 2, 100 * 36000, 70 * 36000, 0, 2 * 36000, 5, 3 * 36000);
 
-chart.SetTitle('This is the ' + chart.GetType() + ' chart', 15);
+chart.SetTitle('This is the ' + chart.GetType() + ' chart', 30);

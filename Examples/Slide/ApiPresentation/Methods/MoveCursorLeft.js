@@ -11,7 +11,7 @@ slide.RemoveAllObjects();
 slide.AddObject(shape);
 const range = shape.GetTextRange();
 range.SetText("Hello World");
-range.SetColor(0,0,0);
+range.SetColor(Api.RGB(0, 0, 0));
 range.MoveCursorToPos(range.GetEndPos());
 presentation.MoveCursorLeft(5, false, false);
 presentation.EnterText("Beautiful ");

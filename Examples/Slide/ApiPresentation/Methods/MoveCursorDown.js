@@ -11,7 +11,7 @@ slide.RemoveAllObjects();
 slide.AddObject(shape);
 const range = shape.GetTextRange();
 range.SetText("First line\nSecond line");
-range.SetColor(0,0,0);
+range.SetColor(Api.RGB(0, 0, 0));
 range.MoveCursorToPos(0);
 presentation.MoveCursorDown(1, false);
 presentation.EnterText("[cursor] ");

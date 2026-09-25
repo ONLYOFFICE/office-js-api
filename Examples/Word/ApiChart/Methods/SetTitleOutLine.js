@@ -16,5 +16,5 @@ chart.SetSeriesFill(fill, 0, false);
 fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 chart.SetSeriesFill(fill, 1, false);
 let stroke = Api.CreateStroke(0.5 * 36000, Api.CreateSolidFill(Api.RGB(51, 51, 51)));
-chart.SetTitle("Financial Overview", 13);
+chart.SetTitle("Financial Overview", 26);
 chart.SetTitleOutLine(stroke);

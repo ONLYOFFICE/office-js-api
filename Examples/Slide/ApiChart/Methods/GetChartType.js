@@ -17,7 +17,7 @@ const solidOrange = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 chart.SetSeriesFill(solidGrey, 0, false);
 chart.SetSeriesFill(solidOrange, 1, false);
 const chartType = chart.GetChartType();
-chart.SetTitle('This chart is of the ' + chartType + ' type', 14);
+chart.SetTitle('This chart is of the ' + chartType + ' type', 28);
 
 slide.RemoveAllObjects();
 slide.AddObject(chart);

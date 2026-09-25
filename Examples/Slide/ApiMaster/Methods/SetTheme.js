@@ -24,7 +24,7 @@ const bgFill1 = Api.CreateRadialGradientFill([gs1, gs2]);
 const bgFill2 = Api.CreatePatternFill("dashDnDiag", Api.RGB(255, 111, 61), Api.RGB(51, 51, 51));
 const bgFill3 = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 const stroke1 = Api.CreateStroke(0, fill2);
-const stroke2 = Api.CreateStroke(0, Api.CreateRGBColor(51, 51, 51));
+const stroke2 = Api.CreateStroke(0, Api.CreateSolidFill(Api.RGB(51, 51, 51)));
 const stroke3 = Api.CreateStroke(0, fill1);
 
 const formatScheme = Api.CreateThemeFormatScheme([fill1, fill2, fill3], [bgFill1, bgFill2, bgFill3], [stroke1, stroke2, stroke3], "New format scheme");
@@ -36,11 +36,11 @@ const chart = Api.CreateChart("bar3D", [
 	[200, 240, 280],
 	[250, 260, 280]
 ], ["Projected Revenue", "Estimated Costs"], [2014, 2015, 2016], 4051300, 2347595, 24);
-chart.SetVerAxisTitle("USD In Hundred Thousands", 10);
-chart.SetHorAxisTitle("Year", 11);
+chart.SetVerAxisTitle("USD In Hundred Thousands", 20);
+chart.SetHorAxisTitle("Year", 22);
 chart.SetLegendPos("bottom");
 chart.SetShowDataLabels(false, false, true, false);
-chart.SetTitle("Financial Overview", 20);
+chart.SetTitle("Financial Overview", 40);
 chart.SetSize(300 * 36000, 130 * 36000);
 chart.SetPosition(608400, 1267200);
 

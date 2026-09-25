@@ -9,7 +9,7 @@ const slide = presentation.GetSlideByIndex(0);
 const shape = Api.CreateShape("rect", 3000000, 1500000);
 const range = shape.GetTextRange();
 range.SetText("Hello World");
-range.SetColor(0,0,0);
+range.SetColor(Api.RGB(0, 0, 0));
 range.MoveCursorToPos(5);
 presentation.InsertParagraphBreak();
 slide.RemoveAllObjects();

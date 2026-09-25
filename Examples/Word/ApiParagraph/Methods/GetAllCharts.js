@@ -23,7 +23,7 @@ fill = Api.CreateSolidFill(Api.RGB(51, 51, 51));
 chart2.SetSeriesFill(fill, 0, false);
 fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 chart2.SetSeriesFill(fill, 1, false);
-chart2.SetTitle("Financial Overview", 13);
+chart2.SetTitle("Financial Overview", 26);
 paragraph.AddDrawing(chart2);
 let charts = paragraph.GetAllCharts();
 let stroke = Api.CreateStroke(1 * 150, Api.CreateSolidFill(Api.RGB(255, 111, 61)));

@@ -11,4 +11,4 @@ const table = Api.CreateTable(3, 3);
 page.AddObject(table);
 const cell = table.GetRow(1).GetCell(1);
 cell.Select();
-cell.SetBackgroundColor(0, 122, 204, false);
+cell.SetBackgroundColor(Api.RGB(0, 122, 204));

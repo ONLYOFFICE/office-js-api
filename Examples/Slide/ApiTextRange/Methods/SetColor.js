@@ -19,4 +19,4 @@ paragraph.AddText("This text will be displayed in red using the text range API."
 slide.AddObject(shape);
 
 const range = shape.GetTextRange();
-range.SetColor(255, 0, 0);
+range.SetColor(Api.RGB(255, 0, 0));
