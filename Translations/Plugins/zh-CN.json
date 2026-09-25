@@ -1,5 +1,4 @@
 {
-    "Represents the Api class.": "表示 Api 类。",
     "Methods": "方法",
     "Method": "方法",
     "Returns": "返回值",
@@ -522,5 +521,16 @@
     "The function called when the specified comment is changed with the [ChangeComment](../../../../../docs/plugins/interacting-with-editors/document-api/Methods/ChangeComment.md) method.": "使用 [ChangeComment](../../../../../docs/plugins/interacting-with-editors/document-api/Methods/ChangeComment.md) 方法更改指定评论时调用的函数。",
     "The function called when the specified comment is removed with the [RemoveComments](../../../../../docs/plugins/interacting-with-editors/document-api/Methods/RemoveComments.md) method.": "使用 [RemoveComments](../../../../../docs/plugins/interacting-with-editors/document-api/Methods/RemoveComments.md) 方法删除指定评论时调用的函数。",
     "Handle a click on a floating action button.": "处理悬浮操作按钮的点击。",
+    "The following table lists the available methods.": "下表列出了可用的方法。",
+    "Inserts the content control containing data. The data is specified by the JS code for [Document](./../../../../docs/office-api/usage-api/document-api/document-api.md), or by a link to the shared document.": "插入包含数据的内容控件。数据由 [Document](./../../../../docs/office-api/usage-api/document-api/document-api.md) 的 JS 代码指定，或通过共享文档的链接指定。",
+    "The following table lists the available events.": "下表列出了可用的事件。",
+    "The function called when a comment is added to the document with the [AddComment](./../../../../docs/plugins/interacting-with-editors/document-api/Methods/AddComment.md) method.": "使用 [AddComment](./../../../../docs/plugins/interacting-with-editors/document-api/Methods/AddComment.md) 方法向文档添加批注时调用的函数。",
+    "The function called when the specified comment is changed with the [ChangeComment](./../../../../docs/plugins/interacting-with-editors/document-api/Methods/ChangeComment.md) method.": "使用 [ChangeComment](./../../../../docs/plugins/interacting-with-editors/document-api/Methods/ChangeComment.md) 方法更改指定批注时调用的函数。",
+    "The function called when the specified comment is removed with the [RemoveComments](./../../../../docs/plugins/interacting-with-editors/document-api/Methods/RemoveComments.md) method.": "使用 [RemoveComments](./../../../../docs/plugins/interacting-with-editors/document-api/Methods/RemoveComments.md) 方法删除指定批注时调用的函数。",
+    "The Document API contains the methods and events available to a plugin\nin the ONLYOFFICE Document editor.": "Document API 包含 ONLYOFFICE 文档编辑器中\n可供插件使用的方法和事件。",
+    "The Spreadsheet API contains the methods and events available to a plugin\nin the ONLYOFFICE Spreadsheet editor.": "Spreadsheet API 包含 ONLYOFFICE 电子表格编辑器中\n可供插件使用的方法和事件。",
+    "The Presentation API contains the methods and events available to a plugin\nin the ONLYOFFICE Presentation editor.": "Presentation API 包含 ONLYOFFICE 演示文稿编辑器中\n可供插件使用的方法和事件。",
+    "The Forms API contains the methods and events available to a plugin\nin the ONLYOFFICE Forms editor.": "Forms API 包含 ONLYOFFICE 表单编辑器中\n可供插件使用的方法和事件。",
+    "The PDF API contains the methods and events available to a plugin\nin the ONLYOFFICE PDF editor.": "PDF API 包含 ONLYOFFICE PDF 编辑器中\n可供插件使用的方法和事件。",
     "": ""
 }
