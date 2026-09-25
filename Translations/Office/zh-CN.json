@@ -10555,5 +10555,13 @@
     "Write a heading in the major font of a presentation theme.": "使用演示文稿主题的主要字体书写标题。",
     "Write body text in the minor font of a presentation theme.": "使用演示文稿主题的次要字体书写正文。",
     "Get the east asian major font of a theme font scheme.": "获取主题字体方案中用于东亚文本的主要字体。",
+    "Set the spell-check language for a range of text in a document.": "为文档中的文本范围设置拼写检查语言。",
+    "Set the spell-check language for all text in a paragraph in a document.": "为文档中段落的全部文本设置拼写检查语言。",
+    "Set the spell-check language for a paragraph inside a shape in a spreadsheet.": "为电子表格中形状内的段落设置拼写检查语言。",
+    "Set the spell-check language for a paragraph in a presentation.": "为演示文稿中的段落设置拼写检查语言。",
+    "Set the spell-check language for a paragraph in a PDF.": "为 PDF 中的段落设置拼写检查语言。",
+    "Set the spell-check language for a text range in a presentation.": "为演示文稿中的文本范围设置拼写检查语言。",
+    "Set the spell-check language for a text range in a shape on a worksheet.": "为工作表上形状中的文本范围设置拼写检查语言。",
+    "Set the spell-check language for a text range in a shape on a PDF page.": "为 PDF 页面上形状中的文本范围设置拼写检查语言。",
     "": ""
 }
