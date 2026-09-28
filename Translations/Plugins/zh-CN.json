@@ -97,7 +97,6 @@
     "Updates the addin fields with the specified data.": "使用指定的数据更新加载项字段。",
     "Updates a plugin using the specified plugin config.": "使用指定的插件配置更新插件。",
     "Syntax": "语法",
-    "A variable that represents a [Api](Methods.md) class.": "表示 [Api](Methods.md) 类的变量。",
     "Parameters": "参数",
     "Name": "名称",
     "Required/Optional": "必需/可选",
@@ -528,5 +527,6 @@
     "The Spreadsheet API contains the methods and events available to a plugin\nin the ONLYOFFICE Spreadsheet editor.": "Spreadsheet API 包含 ONLYOFFICE 电子表格编辑器中\n可供插件使用的方法和事件。",
     "The Presentation API contains the methods and events available to a plugin\nin the ONLYOFFICE Presentation editor.": "Presentation API 包含 ONLYOFFICE 演示文稿编辑器中\n可供插件使用的方法和事件。",
     "The Forms API contains the methods and events available to a plugin\nin the ONLYOFFICE Forms editor.": "Forms API 包含 ONLYOFFICE 表单编辑器中\n可供插件使用的方法和事件。",
-    "The PDF API contains the methods and events available to a plugin\nin the ONLYOFFICE PDF editor.": "PDF API 包含 ONLYOFFICE PDF 编辑器中\n可供插件使用的方法和事件。"
+    "The PDF API contains the methods and events available to a plugin\nin the ONLYOFFICE PDF editor.": "PDF API 包含 ONLYOFFICE PDF 编辑器中\n可供插件使用的方法和事件。",
+    "A variable that represents an [Api](Methods.md) class.": "表示 [Api](Methods.md) 类的变量。"
 }
