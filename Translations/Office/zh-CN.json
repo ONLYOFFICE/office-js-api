@@ -1,5 +1,4 @@
 {
-    "Represents the Api class.": "表示 Api 类。",
     "Methods": "方法",
     "Method": "方法",
     "Returns": "返回值",
@@ -10056,7 +10055,6 @@
     "Creates a chart with the parameters specified.\n\n:::note\nValues of *nStyleIndex* outside - **1 - 48** are interpreted as a chart style id from the *cs:chartStyle* element (e.g. 201, 215, 284) and are available only for [ONLYOFFICE Docs Enterprise](https://www.onlyoffice.com/docs-enterprise-prices?from=api) and [ONLYOFFICE Docs Developer](https://www.onlyoffice.com/developer-edition-prices?from=api).\n:::": "使用指定的参数创建图表。\n\n:::note\n*nStyleIndex* 超出 **1 - 48** 范围的值将被解释为来自 *cs:chartStyle* 元素的图表样式 ID（例如 201、215、284），且仅适用于 [ONLYOFFICE Docs Enterprise](https://www.onlyoffice.com/docs-enterprise-prices?from=api) 和 [ONLYOFFICE Docs Developer](https://www.onlyoffice.com/developer-edition-prices?from=api)。\n:::",
     "The font size measured in half-points (1/144 of an inch).": "以半磅（1/144 英寸）为单位测量的字体大小。",
     "The following table lists the available methods.": "下表列出了可用的方法。",
-    "Base class": "基类",
     "Class representing a bookmark in the document.": "表示文档中书签的类。",
     "Class representing a container for paragraphs and tables.": "表示段落和表格容器的类。",
     "Class representing a continuous region in a document. \nEach Range object is determined by the position of the start and end characters.": "表示文档中连续区域的类。\n每个 Range 对象由起始字符和结束字符的位置确定。",
@@ -10116,7 +10114,6 @@
     "Class representing a custom XML part.": "表示自定义 XML 部件的类。",
     "Class representing a custom XML node.": "表示自定义 XML 节点的类。",
     "Class representing a smart art.": "表示 SmartArt 的类。",
-    "Base class.": "基类。",
     "Class representing a range.": "表示范围的类。",
     "Class representing a paragraph bullet.": "表示段落项目符号的类。",
     "Class representing an OLE object.": "表示 OLE 对象的类。",
@@ -10352,5 +10349,10 @@
     "A variable that represents an [ApiRichParaPr](../ApiRichParaPr.md) class.": "表示 [ApiRichParaPr](../ApiRichParaPr.md) 类的变量。",
     "A variable that represents an [ApiRichParagraph](../ApiRichParagraph.md) class.": "表示 [ApiRichParagraph](../ApiRichParagraph.md) 类的变量。",
     "A variable that represents an [ApiRichTextPr](../ApiRichTextPr.md) class.": "表示 [ApiRichTextPr](../ApiRichTextPr.md) 类的变量。",
-    "A variable that represents an [ApiRichRun](../ApiRichRun.md) class.": "表示 [ApiRichRun](../ApiRichRun.md) 类的变量。"
+    "A variable that represents an [ApiRichRun](../ApiRichRun.md) class.": "表示 [ApiRichRun](../ApiRichRun.md) 类的变量。",
+    "The main class of the Document API. Use it to get the current document and to create\ndocument elements, such as paragraphs, tables, images, and charts.": "Document API 的主类。用于获取当前文档，以及创建段落、表格、图像和图表等文档元素。",
+    "The main class of the Spreadsheet API. Use it to get the active workbook, worksheets,\nranges, and the current selection, and to add worksheets, defined names, and custom\nfunctions.": "Spreadsheet API 的主类。用于获取活动工作簿、工作表、区域和当前选区，以及添加工作表、定义名称和自定义函数。",
+    "The main class of the Presentation API. Use it to get the current presentation and to\ncreate slides and slide elements, such as shapes, images, tables, and charts.": "Presentation API 的主类。用于获取当前演示文稿，以及创建幻灯片和形状、图像、表格、图表等幻灯片元素。",
+    "The main class of the Form API. Use it to create forms: text fields, combo boxes,\ncheckboxes and radio buttons, date fields, picture forms, signature forms, and complex\nfields.": "Form API 的主类。用于创建表单：文本字段、组合框、复选框和单选按钮、日期字段、图片表单、签名表单和复杂字段。",
+    "The main class of the PDF API. Use it to get the current document and to create page\ncontent, such as paragraphs, tables, images, annotations, and form fields.": "PDF API 的主类。用于获取当前文档，以及创建段落、表格、图像、批注和表单字段等页面内容。"
 }
