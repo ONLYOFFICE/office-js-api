@@ -1,6 +1,6 @@
 // Group the dates of a pivot table field by months and years in a spreadsheet.
 
-// How do I show pivot table totals by month and year instead of by day?
+// How do I show pivot table totals by month and year instead of by day in a spreadsheet?
 
 // Summarize daily sales by month within each year using date grouping in a pivot table.
 
