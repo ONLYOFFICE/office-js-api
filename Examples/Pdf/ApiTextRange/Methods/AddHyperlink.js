@@ -1,6 +1,6 @@
 // Turn a fragment of text into a hyperlink in a shape on a PDF page.
 
-// The range must stay within a single paragraph, and either a link or a bookmark name is required, not both.
+// The range must stay within a single paragraph, otherwise no hyperlink is added.
 
 // Turn the word "here" into a link to the ONLYOFFICE website.
 
