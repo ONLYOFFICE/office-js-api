@@ -12,7 +12,7 @@ let fill = Api.CreateLinearGradientFill([gs1, gs2], 5400000);
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());
 let drawing1 = Api.CreateShape("rect", 3212465, 963295, fill, stroke);
 paragraph.AddDrawing(drawing1);
-let drawing2 = Api.CreateChart("bar3D", [
+let drawing2 = Api.CreateChart("3DColumnClustered", [
 	[200, 240, 280],
 	[250, 260, 280]
 ], ["Projected Revenue", "Estimated Costs"], [2014, 2015, 2016], 4051300, 2347595, 24);

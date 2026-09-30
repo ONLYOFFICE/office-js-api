@@ -7,7 +7,7 @@
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 
-const chart = Api.CreateChart("scatter", [
+const chart = Api.CreateChart("XYScatter", [
 	[200, 240, 280],
 	[250, 260, 280]
 ], ["Projected Revenue", "Estimated Costs"], [2014, 2015, 2016], 4051300, 2347595, 24);

@@ -6,7 +6,7 @@
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
-let chart = Api.CreateChart("comboBarLine", [
+let chart = Api.CreateChart("ComboColumnClusteredLine", [
 	[200, 240, 280],
 	[250, 260, 280]
 ], ["Projected Revenue", "Estimated Costs"], [2014, 2015, 2016], 4051300, 2347595, 24);
@@ -25,7 +25,7 @@ let seriesType = series.GetChartType();
 paragraph = Api.CreateParagraph();
 paragraph.AddText("Old Series Type = " + seriesType);
 doc.Push(paragraph);
-series.ChangeChartType("area");
+series.ChangeChartType("Area");
 seriesType = series.GetChartType();
 paragraph = Api.CreateParagraph();
 paragraph.AddText("New Series Type = " + seriesType);

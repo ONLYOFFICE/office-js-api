@@ -4392,7 +4392,7 @@
     "Set vertical alignment for a drawing object.": "为绘图对象设置垂直对齐方式。",
     "Set the size of the drawing to be created as 100 mm (10 cm) in width and 100 mm (10 cm) in height.": "将要创建的绘图尺寸设置为宽 100 毫米（10 厘米）、高 100 毫米（10 厘米）。",
     "Create a shape using the 'diamond' preset.": "使用 'diamond' 预设创建形状。",
-    "Create the \"bar3D\" chart.": "创建 “bar3D” 图表。",
+    "Create the \"3DColumnClustered\" chart.": "创建 “3DColumnClustered” 图表。",
     "Get the lock value for the specified lock type of a drawing.": "获取绘图对象指定锁定类型的锁定值。",
     "Add the inner text for the created shape aligned vertically closer to the shape upper part.": "为创建的形状添加垂直对齐到更靠近形状上部位置的内部文本。",
     "Create a scheme color with the 'accent2' identifier.": "创建具有 'accent2' 标识符的主题颜色。",

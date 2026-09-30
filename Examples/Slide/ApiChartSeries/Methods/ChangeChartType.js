@@ -8,7 +8,7 @@ const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);
 slide.RemoveAllObjects();
 
-const chart = Api.CreateChart("comboBarLine", [
+const chart = Api.CreateChart("ComboColumnClusteredLine", [
 	[200, 240, 280],
 	[250, 260, 280]
 ], ["Projected Revenue", "Estimated Costs"], [2014, 2015, 2016], 4051300, 2347595, 24);
@@ -21,7 +21,7 @@ const series = chart.GetSeries(0);
 let seriesType = series.GetChartType();
 let title = "Old Series Type = " + seriesType + "\n";
 
-series.ChangeChartType("area");
+series.ChangeChartType("Area");
 seriesType = series.GetChartType();
 title += "New Series Type = " + seriesType;
 

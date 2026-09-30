@@ -15,7 +15,7 @@ const drawing1 = Api.CreateShape("rect", 3212465, 963295, fill, stroke);
 page.AddObject(drawing1);
 drawing1.SetPosition(100000, 100000);
 
-const drawing2 = Api.CreateChart("bar3D", [
+const drawing2 = Api.CreateChart("3DColumnClustered", [
 	[200, 240, 280],
 	[250, 260, 280]
 ], ["Projected Revenue", "Estimated Costs"], [2014, 2015, 2016], 4051300, 2347595, 24);

@@ -10,7 +10,7 @@ let fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());
 let shape = Api.CreateShape("rect", 100 * 36000, 100 * 36000, fill, stroke);
 paragraph.AddDrawing(shape);
-let chart = Api.CreateChart("bar3D", [
+let chart = Api.CreateChart("3DColumnClustered", [
 	[200, 240, 280],
 	[250, 260, 280]
 ], ["Projected Revenue", "Estimated Costs"], [2014, 2015, 2016], 95 * 36000, 70 * 36000, 24);
