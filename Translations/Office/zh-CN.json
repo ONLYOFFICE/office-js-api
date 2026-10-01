@@ -10627,5 +10627,6 @@
     "Quadrilateral represented as a flat tuple of vertices.\n\nVertices order is fixed:  · left-top → right-top → left-bottom → right-bottom\n\nInvariants:  · x1 <= x2 (top edge goes left → right)  · x3 <= x4 (bottom edge goes left → right)  · y1 <= y3 (left edge goes top → bottom)  · y2 <= y4 (right edge goes top → bottom)": "以顶点平铺元组表示的四边形。\n\n顶点顺序固定：  · 左上 → 右上 → 左下 → 右下\n\n不变条件：  · x1 <= x2（上边从左 → 右）  · x3 <= x4（下边从左 → 右）  · y1 <= y3（左边从上 → 下）  · y2 <= y4（右边从上 → 下）",
     "The border style: `\"solid\"` or `\"dashed\"`.": "边框样式：`\"solid\"` 或 `\"dashed\"`。",
     "Sets annotation dash pattern.\n\n:::note\nThe border style must be set to `\"dashed\"` using the [ApiBaseAnnotation#SetBorderStyle](../../ApiBaseAnnotation/Methods/SetBorderStyle.md) method.\n:::": "设置批注虚线图案。\n\n:::note\n必须使用 [ApiBaseAnnotation#SetBorderStyle](../../ApiBaseAnnotation/Methods/SetBorderStyle.md) 方法将边框样式设置为 `\"dashed\"`。\n:::",
+    "Find the first paragraph that mentions a word and stop the document visitor there.": "找到第一个提及某个词的段落并在此停止文档访问者。",
     "": ""
 }
