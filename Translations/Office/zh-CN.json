@@ -9392,7 +9392,6 @@
     "The new bounding rectangle for the annotation.": "批注的新边界矩形。",
     "The new position of the annotation.": "批注的新位置。",
     "The border width in points.": "以磅为单位的边框宽度。",
-    "The border style: **\"solid\"** or **\"dashed\"**.": "边框样式：**\"solid\"** 或 **\"dashed\"**。",
     "The author name.": "作者姓名。",
     "The annotation text contents.": "批注文本内容。",
     "The annotation creation date as a numeric timestamp.": "批注创建日期，以数字时间戳表示。",
@@ -10274,7 +10273,6 @@
     "Gets the text field character limit.\n\n:::note\nIf the character limit is 0, the field has no character limit.\n:::": "获取文本字段的字符限制。\n\n:::note\n如果字符限制为 0，则该字段没有字符限制。\n:::",
     "Sets whether the text field uses comb formatting.\n\n:::note\nThe character limit must be greater than 0.\n:::": "设置文本字段是否使用梳状格式。\n\n:::note\n字符限制必须大于 0。\n:::",
     "Sets validate range for field.\n\n:::note\nCan only be applied to fields with a percentage or number format.\n:::": "设置字段的验证范围。\n\n:::note\n只能应用于具有百分比或数字格式的字段。\n:::",
-    "Sets annotation dash pattern.\n\n:::note\nThe border style property must be set to \"dashed\".\n:::": "设置批注虚线图案。\n\n:::note\n边框样式属性必须设置为 “dashed”。\n:::",
     "Sets annotation border effect style.\n\n:::note\nCan be applied to circle, square, freeText and polygon annotations.\n:::": "设置批注边框效果样式。\n\n:::note\n可应用于圆形、方形、自由文本和多边形批注。\n:::",
     "Sets annotation border effect intensity.\n\n:::note\nCan be applied to circle, square, freeText and polygon annotations.\n:::": "设置批注边框效果强度。\n\n:::note\n可应用于圆形、方形、自由文本和多边形批注。\n:::",
     "NumberSepStyle — defines number formatting style:\n\n- \"us\"        — 1,234.56   (English style)\n- \"plain\"     — 1234.56    (No separators)\n- \"euro\"      — 1.234,56   (European style)\n- \"europlain\" — 1234,56    (European without separators)\n- \"ch\"        — 1'234.56   (Swiss style)": "NumberSepStyle — 定义数字格式样式：\n\n- “us”        — 1,234.56（英文样式）\n- “plain”     — 1234.56（无分隔符）\n- “euro”      — 1.234,56（欧洲样式）\n- “europlain” — 1234,56（欧洲样式无分隔符）\n- “ch”        — 1'234.56（瑞士样式）",
@@ -10333,5 +10331,7 @@
     "Returns the value (color or null) by which this sort field is sorted.": "返回此排序字段用于排序的值（颜色或 null）。",
     "Returns the value (color or null) by which this sort field is sorted.\n\nFor color-based sorts returns the fill/font color; otherwise returns null.": "返回此排序字段用于排序的值（颜色或 null）。\n\n对于基于颜色的排序，返回填充/字体颜色；否则返回 null。",
     "Specifies the data source for the ListObject.\n\nOnly **\"xlSrcRange\"** is currently supported.": "指定 ListObject 的数据源。\n\n当前仅支持 **\"xlSrcRange\"**。",
-    "Quadrilateral represented as a flat tuple of vertices.\n\nVertices order is fixed:  · left-top → right-top → left-bottom → right-bottom\n\nInvariants:  · x1 <= x2 (top edge goes left → right)  · x3 <= x4 (bottom edge goes left → right)  · y1 <= y3 (left edge goes top → bottom)  · y2 <= y4 (right edge goes top → bottom)": "以顶点平铺元组表示的四边形。\n\n顶点顺序固定：  · 左上 → 右上 → 左下 → 右下\n\n不变条件：  · x1 <= x2（上边从左 → 右）  · x3 <= x4（下边从左 → 右）  · y1 <= y3（左边从上 → 下）  · y2 <= y4（右边从上 → 下）"
+    "Quadrilateral represented as a flat tuple of vertices.\n\nVertices order is fixed:  · left-top → right-top → left-bottom → right-bottom\n\nInvariants:  · x1 <= x2 (top edge goes left → right)  · x3 <= x4 (bottom edge goes left → right)  · y1 <= y3 (left edge goes top → bottom)  · y2 <= y4 (right edge goes top → bottom)": "以顶点平铺元组表示的四边形。\n\n顶点顺序固定：  · 左上 → 右上 → 左下 → 右下\n\n不变条件：  · x1 <= x2（上边从左 → 右）  · x3 <= x4（下边从左 → 右）  · y1 <= y3（左边从上 → 下）  · y2 <= y4（右边从上 → 下）",
+    "The border style: `\"solid\"` or `\"dashed\"`.": "边框样式：`\"solid\"` 或 `\"dashed\"`。",
+    "Sets annotation dash pattern.\n\n:::note\nThe border style must be set to `\"dashed\"` using the [ApiBaseAnnotation#SetBorderStyle](../../ApiBaseAnnotation/Methods/SetBorderStyle.md) method.\n:::": "设置批注虚线图案。\n\n:::note\n必须使用 [ApiBaseAnnotation#SetBorderStyle](../../ApiBaseAnnotation/Methods/SetBorderStyle.md) 方法将边框样式设置为 `\"dashed\"`。\n:::"
 }
