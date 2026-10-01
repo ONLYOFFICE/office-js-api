@@ -2,7 +2,7 @@ var config = {
     "variations": [
         {
             "buttons": [
-                { 
+                {
                     "text": "Cancel",
                     "primary": false,
                     "isviewer": false,
@@ -11,8 +11,7 @@ var config = {
                         "es": "Cancelar"
                     }
                 }
-            ],
-            ...
+            ]
         }
     ]
 };
