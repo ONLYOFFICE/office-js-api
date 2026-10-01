@@ -1,4 +1,1 @@
-{
-    "The border style: `\"solid\"` or `\"dashed\"`.": "The border style: `\"solid\"` or `\"dashed\"`.",
-    "Sets annotation dash pattern.\n\n:::note\nThe border style must be set to `\"dashed\"` using the [ApiBaseAnnotation#SetBorderStyle](../../ApiBaseAnnotation/Methods/SetBorderStyle.md) method.\n:::": "Sets annotation dash pattern.\n\n:::note\nThe border style must be set to `\"dashed\"` using the [ApiBaseAnnotation#SetBorderStyle](../../ApiBaseAnnotation/Methods/SetBorderStyle.md) method.\n:::"
-}
+{}

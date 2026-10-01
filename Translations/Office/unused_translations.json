@@ -1,4 +1,1 @@
-{
-    "Sets annotation dash pattern.\n\n:::note\nThe border style property must be set to \"dashed\".\n:::": "设置批注虚线图案。\n\n:::note\n边框样式属性必须设置为 “dashed”。\n:::",
-    "The border style: **\"solid\"** or **\"dashed\"**.": "边框样式：**\"solid\"** 或 **\"dashed\"**。"
-}
+{}
