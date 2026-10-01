@@ -5,8 +5,7 @@ var config = {
             "nameLocale": {
                 "fr": "french plugin name",
                 "es": "spanish plugin name"
-            },
-            ...
+            }
         }
     ]
 };

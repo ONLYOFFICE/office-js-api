@@ -1,8 +1,7 @@
 var config = {
     "variations": [
         {
-            "events": ["onClick"],
-            ...
+            "events": ["onClick"]
         }
     ]
 };

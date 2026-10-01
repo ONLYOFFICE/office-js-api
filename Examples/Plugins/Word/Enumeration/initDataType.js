@@ -1,8 +1,7 @@
 var config = {
     "variations": [
         {
-            "initDataType": "ole",
-            ...
+            "initDataType": "ole"
         }
     ]
 };
