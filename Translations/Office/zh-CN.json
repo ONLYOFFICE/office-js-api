@@ -11110,5 +11110,7 @@
     "Apply a color or fill to text in a PDF.": "在 PDF 中为文本应用颜色或填充。",
     "Get the text color applied to text in a PDF.": "在 PDF 中获取文本所应用的文本颜色。",
     "Add an outline border to text in a PDF.": "在 PDF 中为文本添加轮廓边框。",
-    "Check if text has an outline border applied in a PDF.": "在 PDF 中检查文本是否应用了轮廓边框。"
+    "Check if text has an outline border applied in a PDF.": "在 PDF 中检查文本是否应用了轮廓边框。",
+    "Get the internal identifier of a drawing in a spreadsheet.": "获取电子表格中绘图的内部标识符。",
+    "Find a drawing by its internal ID in a spreadsheet.": "在电子表格中通过内部 ID 查找绘图。"
 }
