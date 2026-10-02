@@ -1,4 +1,4 @@
-// Duplicate a shape and place the copy on another slide in a presentation.
+// Duplicate a drawing and place the copy on another slide in a presentation.
 
 // How do I make a copy of a shape in a presentation?
 

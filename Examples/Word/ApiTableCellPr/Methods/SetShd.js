@@ -1,4 +1,4 @@
-// Apply a background color to a table cell in a document.
+// Apply a background shading to all table cells using the table cell properties of a style in a document.
 
 // How do I fill a table cell with a specific background color in a document?
 

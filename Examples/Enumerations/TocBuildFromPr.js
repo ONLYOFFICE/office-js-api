@@ -1,6 +1,6 @@
 // Add a table of contents which is generated from 9 outline levels to the document.
 
-// Define the source that the table of contents is generated from, bounding the outline range.
+// How do I create table of contents properties that set the source it is built from?
 
 // Add a table of contents spanning the outline levels from the start level up to level 9.
 

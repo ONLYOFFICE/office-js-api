@@ -1,6 +1,6 @@
 // Add a green shadow to the table.
 
-// How to change a table shadow type.
+// How do I change the shading type of a table?
 
 // Indicate a clear shadow type of the table.
 

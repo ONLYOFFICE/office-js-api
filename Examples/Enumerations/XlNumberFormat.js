@@ -1,6 +1,6 @@
 // Set "General" number format for the range.
 
-// How to indicate number format of the cells.
+// How do I set the number format of cells?
 
 // Get a range and set its number format to general.
 

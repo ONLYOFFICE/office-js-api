@@ -1,4 +1,4 @@
-// Position text above or below the baseline in a PDF.
+// Position text above or below the baseline using the text properties in a PDF.
 
 // How do I create superscript or subscript text in a PDF?
 

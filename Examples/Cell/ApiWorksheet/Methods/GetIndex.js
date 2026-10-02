@@ -5,5 +5,5 @@
 // Identify the sheet order index and display it in a cell in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
-let leftMargin = worksheet.GetLeftMargin();
-worksheet.GetRange("A1").SetValue("Left margin: " + leftMargin + " mm");
+let index = worksheet.GetIndex();
+worksheet.GetRange("A1").SetValue("Sheet index: " + index);

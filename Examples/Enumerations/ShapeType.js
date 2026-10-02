@@ -1,6 +1,6 @@
 // Create a shape using the 'diamond' preset.
 
-// How to change a shape type of a drawing.
+// How do I change the shape type of a drawing?
 
 // Create a diamond shaped drawing with indicationg its size and color.
 

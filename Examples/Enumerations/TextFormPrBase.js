@@ -1,6 +1,6 @@
 // Create a text form with the specific text form properties.
 
-// How to create a text form with adding base properties like max characters limit, cell width, etc. to it.
+// How do I create a text form with base properties such as the character limit and cell width?
 
 // Create a text form with base properties.
 

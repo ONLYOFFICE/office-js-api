@@ -1,6 +1,6 @@
 // Set the distance between columns equal to 36 points.
 
-// How to set a column distance in twips.
+// How do I set the column spacing in twips?
 
 // Set column distance in twips.
 

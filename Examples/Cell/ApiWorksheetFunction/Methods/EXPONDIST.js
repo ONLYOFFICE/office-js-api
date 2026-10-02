@@ -1,4 +1,4 @@
-// Return the exponential distribution in a spreadsheet.
+// Return the exponential distribution using the EXPONDIST compatibility function in a spreadsheet.
 
 // Calculate exponential distribution values.
 
@@ -6,5 +6,5 @@
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;
-let ans = func.F_DIST(10, 6, 4, false);
+let ans = func.EXPONDIST(0.5, 3, false);
 worksheet.GetRange("B2").SetValue(ans);

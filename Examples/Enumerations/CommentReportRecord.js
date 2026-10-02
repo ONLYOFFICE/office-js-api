@@ -1,8 +1,8 @@
 // Show a record of one comment from the comment report.
 
-// Report on all comments that contains two comments from each user.
+// How do I get the records of a comment report?
 
-// How to get comment report records.
+// Report on all comments that contain two comments from each user.
 
 const oCommentReportRecord1 = {
 	"IsAnswer": false,

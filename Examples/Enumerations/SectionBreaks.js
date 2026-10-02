@@ -1,6 +1,6 @@
 // Set section break type "continuous".
 
-// How to change a break type of a section.
+// How do I change the break type of a section?
 
 // Set continuous section break.
 

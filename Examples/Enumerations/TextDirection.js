@@ -1,6 +1,6 @@
 // Set flow direction "tbrl" for a cell.
 
-// How to change a text direction.
+// How do I change the text direction?
 
 // Set "tbrl" text direction to the cell.
 

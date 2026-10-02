@@ -1,4 +1,4 @@
-// Apply a background shading color to a paragraph in a document.
+// Apply a background shading color to a paragraph using the paragraph properties of a style in a document.
 
 // How do I fill the background of a paragraph with a color in a document?
 

@@ -1,4 +1,4 @@
-// Calculate variance based on the entire population (ignores logical values and text in the population) in a spreadsheet.
+// Calculate variance based on the entire population using the VARP compatibility function in a spreadsheet.
 
 // The VARP function computes population variance from numeric data only.
 

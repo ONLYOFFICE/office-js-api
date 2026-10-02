@@ -1,6 +1,6 @@
 // Set wrapping style "square" for drawing object.
 
-// How to wrap a shape as square.
+// How do I wrap text around a shape in a square?
 
 // Change a wrapping style of a drawing.
 

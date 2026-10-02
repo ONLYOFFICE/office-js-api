@@ -1,4 +1,4 @@
-// Read the first-line indentation value set on a paragraph in a document.
+// Read the first-line indentation value from the paragraph properties in a document.
 
 // How do I find out how far the first line of a paragraph is indented in a document?
 

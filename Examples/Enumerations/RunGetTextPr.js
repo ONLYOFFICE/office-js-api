@@ -1,6 +1,6 @@
 // Return a text from the text run.
 
-// How to get a text in specified format.
+// How do I get the text in a specific format?
 
 // Retrieve a text from a run with separator and tab symbol.
 

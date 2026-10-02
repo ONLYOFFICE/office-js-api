@@ -9,7 +9,7 @@ let range = worksheet.GetRange("C3:E5");
 range.SetValue("Range");
 range.SetFillColor(Api.RGB(173, 216, 230));
 
-let entireColumns = range.EntireColumn;
+let entireColumns = range.GetEntireColumn();
 entireColumns.SetFillColor(Api.RGB(255, 213, 191));
 
 worksheet.GetRange("A1").SetValue("Entire columns of C3:E5 are highlighted");

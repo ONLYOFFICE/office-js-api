@@ -1,4 +1,4 @@
-// Duplicate a paragraph in a PDF.
+// Duplicate a paragraph in a free text annotation in a PDF.
 
 // How do I create a copy of a paragraph in a PDF?
 

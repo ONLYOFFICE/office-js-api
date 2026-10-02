@@ -1,4 +1,4 @@
-// Look up an existing pivot table by name and add fields to it in a spreadsheet.
+// Find a pivot table by name on the active sheet and add fields to it in a spreadsheet.
 
 // How do I access a pivot table by its name in a spreadsheet?
 

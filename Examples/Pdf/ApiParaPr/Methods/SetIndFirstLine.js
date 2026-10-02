@@ -1,4 +1,4 @@
-// Indent the first line of a paragraph in a PDF.
+// Indent the first line of a paragraph using the paragraph properties in a PDF.
 
 // How do I indent the first line of a paragraph in a PDF?
 

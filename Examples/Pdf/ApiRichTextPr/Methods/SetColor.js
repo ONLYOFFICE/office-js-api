@@ -1,4 +1,4 @@
-// Change the color of text in a PDF.
+// Change the color of text in a free text annotation in a PDF.
 
 // How do I change text color in a PDF?
 

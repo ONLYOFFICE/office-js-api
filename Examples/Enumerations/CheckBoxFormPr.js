@@ -1,6 +1,6 @@
 // Create a checkbox form with the common and specific checkbox form properties.
 
-// How to create a checkbox form with its properties.
+// How do I create a checkbox form with its properties?
 
 // Create the checkbox properties and apply them to the ApiCheckBoxForm object.
 

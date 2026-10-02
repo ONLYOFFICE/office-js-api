@@ -1,6 +1,6 @@
 // Set underline "single" for the range.
 
-// How to underline a text from a range.
+// How do I underline text in a range?
 
 // Set an underline style to "single".
 

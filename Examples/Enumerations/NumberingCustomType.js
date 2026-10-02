@@ -1,6 +1,6 @@
 // Set your own customized numbering type.
 
-// How to set a lower Roman numbering with format and alignment.
+// How do I set lower Roman numbering with a format and alignment?
 
 // Set custom "lowerRoman" type to numbering.
 

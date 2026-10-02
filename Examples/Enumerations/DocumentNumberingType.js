@@ -1,6 +1,6 @@
 // Create a "bullet" numbering.
 
-// How to create a numbering specifying the symbol.
+// How do I create numbering with a specific symbol?
 
 // Create a bullet numbering.
 

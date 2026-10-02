@@ -1,6 +1,6 @@
-// This example shows how to get an array of all ApiName objects defined in the workbook.
+// Get all defined names in a workbook in a spreadsheet.
 
-// How to get all def names from the workbook across all scopes.
+// How do I get all defined names from a workbook across all scopes?
 
 // Get all workbook-level and sheet-level def names as an array.
 

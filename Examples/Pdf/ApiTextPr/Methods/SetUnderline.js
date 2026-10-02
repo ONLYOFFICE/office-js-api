@@ -1,4 +1,4 @@
-// Add an underline to text in a PDF.
+// Add an underline to text using the text properties in a PDF.
 
 // How do I underline text in a PDF?
 

@@ -1,6 +1,6 @@
 // Set a single 3 point wide green bottom border with a 1 point offset from the bottom paragraph edge.
 
-// How to set a bottom border indicating weight points and color.
+// How do I set a bottom border with a weight in points and a color?
 
 // Add bottom border with its type, weight, color, etc.
 

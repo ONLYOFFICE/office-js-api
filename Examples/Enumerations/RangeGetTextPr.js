@@ -1,6 +1,6 @@
 // Return a text from the specified range.
 
-// How to retrieve a text from a range with the specified properties.
+// How do I get the text from a range with specific properties?
 
 // Get a text from a range of cells.
 

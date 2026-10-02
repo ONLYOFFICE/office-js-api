@@ -1,4 +1,4 @@
-// Keep a paragraph on the same page as the paragraph that follows it in a document.
+// Keep a paragraph on the same page as the next one using the paragraph properties of a style in a document.
 
 // How do I prevent a paragraph from being separated from the next paragraph in a document?
 

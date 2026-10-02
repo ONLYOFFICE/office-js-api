@@ -1,6 +1,6 @@
 // Get the paragraph contents justification.
 
-// How to return a content justification.
+// How do I get the content justification?
 
 // Get a paragraph justification.
 
