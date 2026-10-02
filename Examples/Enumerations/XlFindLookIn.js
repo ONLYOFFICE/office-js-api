@@ -1,6 +1,6 @@
 // Search for a value among the cell values in a range.
 
-// How to indicate from where the text should be searched.
+// How do I specify where to look for the searched text?
 
 // Search inside a range specifying which values to look in.
 

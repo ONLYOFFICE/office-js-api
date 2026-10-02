@@ -1,6 +1,6 @@
 // Set the type of the watermark within the document.
 
-// How to set a watermark type.
+// How do I set the watermark type?
 
 // Set type in watermark settings to "text".
 

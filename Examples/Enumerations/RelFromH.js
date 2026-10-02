@@ -1,6 +1,6 @@
 // Center a drawing horizontally relative to the page.
 
-// How to align a drawing to the center.
+// How do I center a drawing horizontally relative to the page?
 
 // Set a drawing horizontal aligment.
 

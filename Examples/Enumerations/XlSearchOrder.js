@@ -1,6 +1,6 @@
 // Search a range column by column.
 
-// How to search a text indicating search order.
+// How do I search for text in a specific order?
 
 // Find a text from a range with column wise search order.
 

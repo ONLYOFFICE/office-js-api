@@ -1,6 +1,6 @@
 // Specify that the sort order for the values specified in "A1:A5" is ascending.
 
-// How to specify a sorting order (ascending or descending) for each range.
+// How do I set the sort order (ascending or descending) for each range?
 
 // Sort a range of cells indicating sorting orders for sub ranges.
 

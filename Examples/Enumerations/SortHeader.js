@@ -1,6 +1,6 @@
 // Specify that the first row contains header information.
 
-// How to specify a sorting header for a range.
+// How do I specify a sort header for a range?
 
 // Sort a range of cells indicating sorting header.
 

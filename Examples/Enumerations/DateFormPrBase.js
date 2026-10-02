@@ -1,6 +1,6 @@
 // Create a date form with the specific date form properties.
 
-// How to create a date form with its base properties.
+// How do I create a date form with its base properties?
 
 // Create the base properties and apply them to the ApiDateForm object.
 

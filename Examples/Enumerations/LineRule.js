@@ -1,6 +1,6 @@
 // Set the paragraph line rule.
 
-// How to change a line rule of the ApiParagraph object.
+// How do I change the line rule of a paragraph?
 
 // Set the paragraph line rule to "exact".
 

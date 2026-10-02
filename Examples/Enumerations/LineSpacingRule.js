@@ -1,6 +1,6 @@
 // Get the paragraph spacing line rule.
 
-// How to get a spacing line rule that determines the measuring units of the line spacing.
+// How do I get the line spacing rule that sets the units of the line spacing?
 
 // Return the paragraph spacing line rule of the ApiParagraph object.
 

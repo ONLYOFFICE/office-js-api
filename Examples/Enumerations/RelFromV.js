@@ -1,6 +1,6 @@
 // Center a drawing vertically relative to the page.
 
-// How to align a drawing to the center.
+// How do I center a drawing vertically relative to the page?
 
 // Set a drawing vertical aligment.
 

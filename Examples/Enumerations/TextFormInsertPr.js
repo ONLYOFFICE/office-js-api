@@ -1,6 +1,6 @@
 // Insert a text box with the specified text box properties over the selected text.
 
-// How to insert a text form with adding properties like tip text, placeholder, etc. to it.
+// How do I insert a text form with properties such as a tip and a placeholder?
 
 // Add a text form with properties.
 

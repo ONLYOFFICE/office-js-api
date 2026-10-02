@@ -1,6 +1,6 @@
 // Add a table of contents with the dot leader to the document.
 
-// How to create a table of contents properties indicating its leader type.
+// How do I create table of contents properties with a specific leader type?
 
 // Add a table of contents with dot leader type.
 

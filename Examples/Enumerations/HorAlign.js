@@ -1,6 +1,6 @@
 // Set horizontal alignment for a drawing object.
 
-// How to align a drawing object to the center.
+// How do I center a drawing object horizontally?
 
 // Change a horizontal alignment of a drawing.
 

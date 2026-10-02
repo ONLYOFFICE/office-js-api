@@ -1,6 +1,6 @@
 // Set the dotted line style for a cell border.
 
-// How to set a style of a border line.
+// How do I set the style of a border line?
 
 // Get a range and change its border line style to dotted.
 
