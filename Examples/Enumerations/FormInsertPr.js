@@ -1,4 +1,4 @@
-// Insert a text box with the specified text box properties over the selected text.
+// Use the selected text as a placeholder when inserting a text form.
 
 // How to create a text form with its properties and insert it into the ApiDocument object.
 

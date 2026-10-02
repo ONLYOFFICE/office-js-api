@@ -1,4 +1,4 @@
-// Specify that the whole text match will be searched in the range.
+// Search a range for the next matching value.
 
 // How to search a text indicating search direction as "xlNext".
 

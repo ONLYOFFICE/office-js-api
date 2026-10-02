@@ -1,4 +1,4 @@
-// Specify that the whole text match will be searched in the range.
+// Search a range column by column.
 
 // How to search a text indicating search order.
 

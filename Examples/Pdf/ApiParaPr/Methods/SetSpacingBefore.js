@@ -1,4 +1,4 @@
-// Add space above a paragraph in a PDF.
+// Add space above a paragraph using the paragraph properties in a PDF.
 
 // How do I add space before a paragraph in a PDF?
 

@@ -1,4 +1,4 @@
-// Perform a z-test and return the one-tailed probability value in a spreadsheet.
+// Perform a z-test and return the one-tailed probability value using the ZTEST compatibility function in a spreadsheet.
 
 // How do I run a one-tailed z-test for statistical hypothesis testing in a spreadsheet?
 

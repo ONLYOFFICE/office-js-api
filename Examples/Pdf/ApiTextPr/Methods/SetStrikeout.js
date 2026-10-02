@@ -1,4 +1,4 @@
-// Draw a line through text in a PDF.
+// Draw a line through text using the text properties in a PDF.
 
 // How do I add strikethrough formatting to text in a PDF?
 

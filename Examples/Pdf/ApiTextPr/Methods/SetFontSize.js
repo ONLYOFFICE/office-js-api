@@ -1,4 +1,4 @@
-// Adjust the text size in a PDF.
+// Adjust the text size using the text properties in a PDF.
 
 // How do I make text larger or smaller in a PDF?
 

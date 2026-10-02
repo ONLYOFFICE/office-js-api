@@ -1,4 +1,4 @@
-// Read the descriptive text assigned to a table in a document.
+// Read the table description from the table properties of a style in a document.
 
 // How do I retrieve the written description stored with a table in a document?
 

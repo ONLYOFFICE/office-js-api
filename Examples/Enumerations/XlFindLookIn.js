@@ -1,4 +1,4 @@
-// Specify that the whole text match will be searched in the range.
+// Search for a value among the cell values in a range.
 
 // How to indicate from where the text should be searched.
 

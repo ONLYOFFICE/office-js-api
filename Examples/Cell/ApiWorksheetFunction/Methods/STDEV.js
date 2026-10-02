@@ -1,4 +1,4 @@
-// Estimate the standard deviation of a sample.
+// Estimate the standard deviation of a sample using the STDEV compatibility function in a spreadsheet.
 
 // The STDEV function calculates sample standard deviation while ignoring logical values and text.
 

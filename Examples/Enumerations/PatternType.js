@@ -1,4 +1,4 @@
-// Set the picture position measured in percent inside the current form.
+// Create a pattern fill with the dashed downward diagonal pattern.
 
 // How to create a pattern fill indicating its pattern type.
 

@@ -1,4 +1,4 @@
-// Set a bottom black dotted border for a cell.
+// Set the dotted line style for a cell border.
 
 // How to set a style of a border line.
 

@@ -1,4 +1,4 @@
-// Apply a named style to a paragraph in a document.
+// Get a built-in style by its name and apply it to a paragraph in a document.
 
 // How do I retrieve and apply a built-in heading style in a document?
 

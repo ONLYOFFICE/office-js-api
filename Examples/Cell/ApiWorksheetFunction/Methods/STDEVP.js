@@ -1,4 +1,4 @@
-// Calculate the standard deviation of an entire population.
+// Calculate the standard deviation of an entire population using the STDEVP compatibility function in a spreadsheet.
 
 // The STDEVP function computes population standard deviation while ignoring logical values and text.
 

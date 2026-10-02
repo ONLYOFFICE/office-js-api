@@ -1,4 +1,4 @@
-// Return the exponential distribution in a spreadsheet.
+// Return the exponential distribution using the EXPONDIST compatibility function in a spreadsheet.
 
 // Calculate exponential distribution values.
 
