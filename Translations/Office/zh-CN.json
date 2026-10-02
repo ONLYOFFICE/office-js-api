@@ -6355,7 +6355,7 @@
     "Retrieve the value of a custom property by name from a document in a document.": "按名称从文档中检索自定义属性的值。",
     "Attach a new custom XML part to a document.": "向文档附加新的自定义 XML 部件。",
     "Identify the class type of a custom XML parts manager in a document.": "识别文档中自定义 XML 部件管理器的类类型。",
-    "Find custom XML parts that match a given namespace in a document.": "查找文档中匹配给定命名空间的自定义 XML 部件。",
+    "Find a custom XML part by its ID in a document.": "通过 ID 查找文档中的自定义 XML 部件。",
     "Retrieve all custom XML parts that match a specific namespace in a document.": "检索文档中匹配特定命名空间的所有自定义 XML 部件。",
     "Count how many custom XML parts are stored in a document.": "计算文档中存储的自定义 XML 部件数量。",
     "List every custom XML part stored in a document.": "列出文档中存储的每个自定义 XML 部件。",
