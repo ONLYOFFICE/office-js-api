@@ -1,4 +1,4 @@
-// Add a border along the bottom edge of a table cell in a document.
+// Add a bottom border to all table cells using the table cell properties of a style in a document.
 
 // How do I draw a line at the bottom of a table cell in a document?
 

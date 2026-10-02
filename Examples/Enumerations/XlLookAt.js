@@ -1,6 +1,6 @@
 // Specify that the whole text match will be searched in the range.
 
-// How to indicate how the text should be searched.
+// How do I specify how the searched text is matched?
 
 // Search a whole text from a range.
 

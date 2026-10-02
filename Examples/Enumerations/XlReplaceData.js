@@ -1,6 +1,6 @@
 // Replace specific information to another one in a range.
 
-// How to replace a text in a range.
+// How do I replace text in a range?
 
 // Find a text from a range and replace it with another one.
 

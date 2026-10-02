@@ -1,6 +1,6 @@
 // Set the position of the vertical tick labels next to the main vertical label.
 
-// How to set tick label positions for the chart.
+// How do I set the tick label position of a chart?
 
 // Set a chart vertical tick label position to "nextTo".
 

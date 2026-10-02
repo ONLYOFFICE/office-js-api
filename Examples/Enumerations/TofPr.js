@@ -1,6 +1,6 @@
 // Add a table of figures with the specified properties to the document.
 
-// How to create a table of figures properties.
+// How do I create table of figures properties?
 
 // Add a table of figures from created properties.
 

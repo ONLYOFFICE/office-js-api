@@ -1,6 +1,6 @@
 // Set vertical alignment for a drawing object.
 
-// How to set a vertical alignment of the drawing.
+// How do I set the vertical alignment of a drawing?
 
 // Set a drawing to the top of the page.
 

@@ -1,6 +1,6 @@
-// Insert a text box with the specified text box properties over the selected text.
+// Use the selected text as a placeholder when inserting a text form.
 
-// How to create a text form with its properties and insert it into the ApiDocument object.
+// How do I create a text form with its properties and insert it into a document?
 
 // Create the ApiTextForm object and insert it into the document using the specified properties.
 

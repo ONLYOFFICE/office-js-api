@@ -1,6 +1,6 @@
-// Specify that the whole text match will be searched in the range.
+// Find text in a range by specifying the search data.
 
-// How to search a text using search data.
+// How do I search for text using search data?
 
 // Find a text from a range specifying data.
 

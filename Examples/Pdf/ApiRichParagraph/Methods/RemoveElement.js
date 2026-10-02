@@ -1,4 +1,4 @@
-// Delete a specific element from a paragraph in a PDF.
+// Delete an element from a paragraph in a free text annotation in a PDF.
 
 // How do I remove a single element from a paragraph in a PDF?
 

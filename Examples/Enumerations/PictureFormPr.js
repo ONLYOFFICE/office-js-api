@@ -1,6 +1,6 @@
 // Create a picture form with the common and specific picture form properties.
 
-// How to set the properties to the ApiPictureForm object.
+// How do I set the properties of a picture form?
 
 // Specify the picture form properties like placeholder, tip text, position, key, etc.
 

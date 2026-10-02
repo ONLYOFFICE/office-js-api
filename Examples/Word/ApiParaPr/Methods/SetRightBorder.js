@@ -1,4 +1,4 @@
-// Add a border to the right side of a paragraph in a document.
+// Add a border to the right side of a paragraph using the paragraph properties of a style in a document.
 
 // How do I place a visible border on the right edge of a paragraph in a document?
 

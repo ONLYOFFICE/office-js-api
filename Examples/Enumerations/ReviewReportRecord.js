@@ -1,6 +1,6 @@
 // Report on all review changes that contains two review records for every user.
 
-// How to create a review report record.
+// How do I create a review report record?
 
 // Create review report records and add them to review report.
 

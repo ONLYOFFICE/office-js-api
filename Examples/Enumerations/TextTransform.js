@@ -1,6 +1,6 @@
 // Create a Text Art object with the "textArchUp" text transform type.
 
-// How to create a word art with adding properties like fill color, size, and transform type to it.
+// How do I create Word Art with properties such as fill color, size, and transform type?
 
 // Create a text art with transform type.
 

@@ -1,6 +1,6 @@
 // Get the paragraph text using the specified paragraph text properties.
 
-// How to return a text of the ApiParagraph object formatted with the specified parameters.
+// How do I get the text of a paragraph formatted with specific parameters?
 
 // Get the paragraph text.
 

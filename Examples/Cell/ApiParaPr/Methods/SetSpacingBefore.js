@@ -1,4 +1,4 @@
-// Add extra space above a paragraph inside a shape in a spreadsheet.
+// Add extra space above a paragraph using the paragraph properties in a spreadsheet.
 
 // How do I increase the gap between one paragraph and the one before it in a spreadsheet?
 

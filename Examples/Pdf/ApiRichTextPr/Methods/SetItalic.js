@@ -1,4 +1,4 @@
-// Make text slanted in a PDF.
+// Make text slanted in a free text annotation in a PDF.
 
 // How do I apply italic formatting to text in a PDF?
 
