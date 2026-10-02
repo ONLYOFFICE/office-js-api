@@ -15,7 +15,7 @@ chart.SetVerAxisTitle("USD In Hundred Thousands", 20);
 chart.SetHorAxisTitle("Year", 22);
 chart.SetTitle("Financial Overview", 26);
 chart.SetSize(150 * 36000, 65 * 36000);
-chart.SetVertAxisLabelsFontSize(26);
+chart.SetVertAxisLabelsFontSize(20);
 chart.SetPosition(608400, 1267200);
 
 let fill = Api.CreateSolidFill(Api.RGB(51, 51, 51));
