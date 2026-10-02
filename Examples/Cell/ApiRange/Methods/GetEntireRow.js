@@ -9,7 +9,7 @@ let range = worksheet.GetRange("C3:E5");
 range.SetValue("Range");
 range.SetFillColor(Api.CreateColorFromRGB(173, 216, 230));
 
-let entireRows = range.EntireRow;
+let entireRows = range.GetEntireRow();
 entireRows.SetFillColor(Api.CreateColorFromRGB(255, 213, 191));
 
 worksheet.GetRange("A1").SetValue("Entire rows of C3:E5 are highlighted");
