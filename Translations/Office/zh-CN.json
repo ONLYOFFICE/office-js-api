@@ -11128,5 +11128,6 @@
     "Read the join type of a shape border in a document.": "在文档中读取形状边框的连接类型。",
     "Read the join type of a shape border in a spreadsheet.": "在电子表格中读取形状边框的连接类型。",
     "Read the join type of a shape border in a presentation.": "在演示文稿中读取形状边框的连接类型。",
-    "Read the join type of a shape border in a PDF.": "在 PDF 中读取形状边框的连接类型。"
+    "Read the join type of a shape border in a PDF.": "在 PDF 中读取形状边框的连接类型。",
+    "": ""
 }
