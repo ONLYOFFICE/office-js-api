@@ -16,8 +16,8 @@ table.SetWidth("percent", 100);
 
 let tableStylePr = tableStyle.GetConditionalTableStyle("wholeTable");
 table.SetTableLook(true, true, true, true, true, true);
-let tablePr = tableStylePr.GetTablePr();
-tablePr.SetTableBorderBottom("single", 32, 0, 51, 51, 51);
+let tablePr = Api.CreateTablePr();
+tablePr.SetTableBorderBottom("single", 32, 0, Api.Color(51, 51, 51));
 tableStylePr.SetTablePr(tablePr);
 
 table.SetStyle(tableStyle);

@@ -12,6 +12,6 @@ table.SetStyle(style);
 const tablePr = style.GetTablePr();
 tablePr.SetShd(Api.CreateSolidFill(Api.RGB(255, 213, 79)));
 style.SetTablePr(tablePr);
-table.Cells.forEach(function (row) { row.forEach(function (cell) { cell.SetShd("nil"); }); });
+table.Cells.forEach(function (row) { row.forEach(function (cell) { cell.SetShd(Api.CreateShd("nil")); }); });
 slide.RemoveAllObjects();
 slide.AddObject(table);

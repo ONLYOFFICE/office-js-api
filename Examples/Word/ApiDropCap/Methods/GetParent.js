@@ -10,4 +10,4 @@ paragraph.AddText('Once upon a time, there was a paragraph that started with a l
 doc.Push(paragraph);
 const dropCap = paragraph.SetDropCap('drop');
 const parent = dropCap.GetParent();
-parent.SetColor(255, 0, 0);
+parent.SetColor(Api.RGB(255, 0, 0));

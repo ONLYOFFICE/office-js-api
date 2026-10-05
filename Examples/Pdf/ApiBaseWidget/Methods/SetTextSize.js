@@ -15,5 +15,5 @@ let widgets = textField.GetAllWidgets();
 let rgbColor = Api.RGB(255, 100, 0);
 widgets.forEach(function(widget) {
     widget.SetTextColor(rgbColor);
-    widget.SetTextSize(15);
+    widget.SetTextSize(30);
 });

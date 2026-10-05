@@ -1,4 +1,4 @@
-// Prevent text from wrapping inside a table cell in a document.
+// Prevent text from wrapping inside table cells using the table cell properties of a style in a document.
 
 // How do I stop text from breaking onto multiple lines inside a table cell in a document?
 

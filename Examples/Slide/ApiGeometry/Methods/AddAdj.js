@@ -1,4 +1,4 @@
-// Create adjustable geometry with guides and connection points in a presentation.
+// Add an adjustment parameter to a custom geometry in a presentation.
 
 // Adjustable parameters allow shapes to be customized without changing their geometry.
 

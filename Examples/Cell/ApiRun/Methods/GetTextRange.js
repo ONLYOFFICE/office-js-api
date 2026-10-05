@@ -16,4 +16,4 @@ run.AddText("Hello World");
 paragraph.AddElement(run);
 
 let range = run.GetTextRange(0, 5);
-range.SetColor(255, 0, 0);
+range.SetColor(Api.RGB(255, 0, 0));

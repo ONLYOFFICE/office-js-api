@@ -12,7 +12,7 @@ let fill = Api.CreateLinearGradientFill([gs1, gs2], 5400000);
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());
 let drawing1 = Api.CreateShape("rect", 3212465, 963295, fill, stroke);
 paragraph.AddDrawing(drawing1);
-let drawing2 = Api.CreateChart("bar3D", [
+let drawing2 = Api.CreateChart("3DColumnClustered", [
 	[200, 240, 280],
 	[250, 260, 280]
 ], ["Projected Revenue", "Estimated Costs"], [2014, 2015, 2016], 4051300, 2347595, 24);
@@ -20,11 +20,11 @@ fill = Api.CreateSolidFill(Api.RGB(51, 51, 51));
 drawing2.SetSeriesFill(fill, 0, false);
 fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 drawing2.SetSeriesFill(fill, 1, false);
-drawing2.SetVerAxisTitle("USD In Hundred Thousands", 10);
-drawing2.SetHorAxisTitle("Year", 11);
+drawing2.SetVerAxisTitle("USD In Hundred Thousands", 20);
+drawing2.SetHorAxisTitle("Year", 22);
 drawing2.SetLegendPos("bottom");
 drawing2.SetShowDataLabels(false, false, true, false);
-drawing2.SetTitle("Financial Overview", 13);
+drawing2.SetTitle("Financial Overview", 26);
 paragraph.AddDrawing(drawing2);
 let drawings = paragraph.GetAllDrawingObjects();
 fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));

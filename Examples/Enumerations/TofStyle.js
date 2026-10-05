@@ -1,6 +1,6 @@
 // Add a table of figures of the distinctive style to the document.
 
-// How to create a table of figures with distinctive style property.
+// How do I create a table of figures with a specific style?
 
 // Create a property for table of figures indicating its style.
 

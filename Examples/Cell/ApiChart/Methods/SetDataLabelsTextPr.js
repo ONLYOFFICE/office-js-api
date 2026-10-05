@@ -20,7 +20,7 @@ const chart = worksheet.AddChart(
 	0, Api.MillimetersToEmus(2),
 	5, Api.MillimetersToEmus(3)
 );
-chart.SetTitle('Financial Overview', 13);
+chart.SetTitle('Financial Overview', 26);
 chart.SetShowDataLabels(false, false, true, false);
 chart.SetSeriesFill(Api.CreateSolidFill(Api.RGB(55, 71, 79)), 0, false);
 chart.SetSeriesFill(Api.CreateSolidFill(Api.RGB(21, 101, 131)), 1, false);

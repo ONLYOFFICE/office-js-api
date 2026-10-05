@@ -1,6 +1,6 @@
 // Turn a fragment of text into a hyperlink in a shape on a worksheet.
 
-// The range must stay within a single paragraph, and either a link or a bookmark name is required, not both.
+// The range must stay within a single paragraph, and besides a web address the link can point to a cell range in the workbook, for example, "#Sheet1!A1".
 
 // Turn the word "here" into a link to the ONLYOFFICE website.
 

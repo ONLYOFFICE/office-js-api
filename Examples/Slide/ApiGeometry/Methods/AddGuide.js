@@ -1,4 +1,4 @@
-// Create adjustable geometry with guides and connection points in a presentation.
+// Add a guide formula to a custom geometry in a presentation.
 
 // Guides define calculation formulas for custom shape dimensions and proportions.
 

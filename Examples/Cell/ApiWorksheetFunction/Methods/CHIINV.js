@@ -6,5 +6,5 @@
 
 let worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;
-let ans = func.CHIDIST(0.4, 10);
+let ans = func.CHIINV(0.4, 10);
 worksheet.GetRange("B2").SetValue(ans);

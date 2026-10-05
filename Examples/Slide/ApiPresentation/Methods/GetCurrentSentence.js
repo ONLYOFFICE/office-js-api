@@ -14,7 +14,7 @@ const shape = Api.CreateShape("rect", 300 * 36000, 130 * 36000, fill, stroke);
 shape.SetPosition(608400, 1267200);
 slide.AddObject(shape);
 
-shape.CreateTextRange().SetText("Slides tell a story. Every slide makes one point. Keep the text short.");
+shape.GetTextRange().SetText("Slides tell a story. Every slide makes one point. Keep the text short.");
 shape.GetTextRange().MoveCursorToPos(25);
 
 const sentence = presentation.GetCurrentSentence();

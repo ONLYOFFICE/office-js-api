@@ -1,6 +1,6 @@
 // Set vertical align "subscript" for paragraph.
 
-// How to set a vertical alignment of a paragraph.
+// How do I set the vertical alignment of a paragraph?
 
 // Make a paragraph subscript.
 

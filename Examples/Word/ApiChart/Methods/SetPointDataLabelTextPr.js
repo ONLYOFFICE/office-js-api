@@ -15,11 +15,11 @@ const chart = Api.CreateChart(
 );
 chart.SetSeriesFill(Api.CreateSolidFill(Api.RGB(69, 90, 100)), 0, false);
 chart.SetSeriesFill(Api.CreateSolidFill(Api.RGB(38, 80, 109)), 1, false);
-chart.SetVerAxisTitle('USD In Hundred Thousands', 10);
-chart.SetHorAxisTitle('Year', 11);
+chart.SetVerAxisTitle('USD In Hundred Thousands', 20);
+chart.SetHorAxisTitle('Year', 22);
 chart.SetLegendPos('bottom');
 chart.SetShowDataLabels(false, false, true, false);
-chart.SetTitle('Financial Overview', 13);
+chart.SetTitle('Financial Overview', 26);
 
 const textPr = Api.CreateTextPr();
 textPr.SetFontSize(24);

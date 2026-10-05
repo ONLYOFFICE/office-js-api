@@ -1,6 +1,6 @@
 // Attach a hyperlink to part of a shape's text in a presentation.
 
-// The range must stay within a single paragraph, and either a link or a bookmark name is required, not both.
+// The range must stay within a single paragraph, and besides a web address the link can be a slide action, for example, "ppaction://hlinksldjumpslide1" for the second slide.
 
 // Turn the word "here" into a link to the ONLYOFFICE website.
 

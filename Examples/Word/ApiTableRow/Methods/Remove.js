@@ -1,4 +1,4 @@
-// Delete a row from a table in a document.
+// Remove the first row of a table in a document.
 
 // How do I permanently remove an unwanted row from a table in a document?
 

@@ -10,7 +10,7 @@ tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
 let table = Api.CreateTable(3, 3);
 table.SetWidth("percent", 100);
 let tableCellPr = tableStyle.GetTableCellPr();
-tableCellPr.SetCellBorderBottom("single", 32, 0, 51, 51, 51);
+tableCellPr.SetCellBorderBottom("single", 32, 0, Api.Color(51, 51, 51));
 table.SetStyle(tableStyle);
 doc.Push(table);
 let json = tableCellPr.ToJSON();

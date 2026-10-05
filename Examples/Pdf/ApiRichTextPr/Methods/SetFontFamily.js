@@ -1,4 +1,4 @@
-// Change the font typeface for text in a PDF.
+// Change the font typeface for text in a free text annotation in a PDF.
 
 // How do I choose a different font for text in a PDF?
 

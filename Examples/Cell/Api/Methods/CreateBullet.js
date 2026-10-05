@@ -1,4 +1,4 @@
-// Add a bullet marker to a paragraph inside a shape in a spreadsheet.
+// Create a dash bullet and apply it to a paragraph inside a shape in a spreadsheet.
 
 // How do I add a custom bullet symbol to a paragraph in a spreadsheet?
 

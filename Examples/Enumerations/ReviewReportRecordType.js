@@ -1,6 +1,6 @@
 // Report on all review changes that contains review records of four different types: "TextRem" - removing text, "TextAdd" - adding text, "ParaRem" - removing a paragraph, "TextPr" - changing text properties.
 
-// How to create a review report record indicating its type.
+// How do I create a review report record of a specific type?
 
 // Create review report records with types.
 

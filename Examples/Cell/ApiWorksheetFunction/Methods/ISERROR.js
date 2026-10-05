@@ -6,6 +6,6 @@
 
 const worksheet = Api.GetActiveSheet();
 let func = Api.WorksheetFunction;
-worksheet.GetRange("B3").SetValue("#N/A")
-let result = func.ISERR("B3");
-worksheet.GetRange("C3").SetValue(result)
+worksheet.GetRange("A1").SetValue(func.ISERROR("#N/A"));
+worksheet.GetRange("A2").SetValue(func.ISERROR("#DIV/0!"));
+worksheet.GetRange("A3").SetValue(func.ISERROR(255));

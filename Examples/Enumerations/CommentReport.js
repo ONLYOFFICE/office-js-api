@@ -1,6 +1,6 @@
 // Get a report on all comments.
 
-// How to return all comment reports.
+// How do I get a report on all comments?
 
 // Get a report reports on all ApiComment objects.
 

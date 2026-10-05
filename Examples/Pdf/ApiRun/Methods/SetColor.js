@@ -17,5 +17,5 @@ const paragraph = docContent.GetElement(0);
 const run = Api.CreateRun();
 run.AddText("This is a text run with the font color set to black.");
 paragraph.AddElement(run);
-run.SetColor(51, 51, 51);
+run.SetColor(Api.RGB(51, 51, 51));
 page.AddObject(shape);

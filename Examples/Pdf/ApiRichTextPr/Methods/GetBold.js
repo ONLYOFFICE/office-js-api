@@ -1,4 +1,4 @@
-// Check if text is bold in a PDF.
+// Check if text in a free text annotation is bold in a PDF.
 
 // How do I find out whether text is bold in a PDF?
 

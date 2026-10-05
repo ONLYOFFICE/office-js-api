@@ -1,4 +1,4 @@
-// Apply a background color to a table cell in a document.
+// Apply a background shading to all table cells using the table cell properties of a style in a document.
 
 // How do I fill a table cell with a specific background color in a document?
 
@@ -12,6 +12,6 @@ tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
 let table = Api.CreateTable(3, 3);
 table.SetWidth("percent", 100);
 let tableCellPr = tableStyle.GetTableCellPr();
-tableCellPr.SetShd("clear", Api.HexColor('#FF6F3D'));
+tableCellPr.SetShd(Api.CreateShd("clear", Api.HexColor('#FF6F3D')));
 table.SetStyle(tableStyle);
 doc.Push(table);

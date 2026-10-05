@@ -1,4 +1,4 @@
-// Calculate the Weibull distribution for statistical analysis in a spreadsheet.
+// Calculate the Weibull distribution using the WEIBULL compatibility function in a spreadsheet.
 
 // How do I compute the Weibull distribution for probability calculations in a spreadsheet?
 

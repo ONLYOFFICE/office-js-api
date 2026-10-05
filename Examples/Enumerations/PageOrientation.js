@@ -1,6 +1,6 @@
 // Set the page orientation to portrait.
 
-// How to change an orientation of a page.
+// How do I change the page orientation?
 
 // Set a page orientation to portrait.
 

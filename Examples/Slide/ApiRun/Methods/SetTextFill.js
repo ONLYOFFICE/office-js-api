@@ -1,4 +1,4 @@
-// Apply a fill color to text in a presentation.
+// Apply a text fill color to a text run in a presentation.
 
 // Set the font color using solid fills, gradients, or patterns.
 

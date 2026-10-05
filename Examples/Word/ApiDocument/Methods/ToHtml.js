@@ -22,7 +22,7 @@ paragraph3.SetStyle(heading2Style);
 let paragraph4 = Api.CreateParagraph();
 paragraph4.AddText("There is an example of two heading levels.");
 doc.Push(paragraph4);
-let html = Api.ConvertDocument("html", false, false, false, true);
+let html = doc.ToHtml(false, false, false, true);
 let paragraph5 = Api.CreateParagraph();
 paragraph5.AddLineBreak();
 paragraph5.AddText("HTML").SetBold(true);

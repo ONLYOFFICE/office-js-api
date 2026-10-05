@@ -1,6 +1,6 @@
 // Set position "bottom" for chart legend.
 
-// How to change a legend position.
+// How do I change the legend position?
 
 // Move a chart legend to the bottom.
 

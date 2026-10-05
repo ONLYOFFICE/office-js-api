@@ -1,6 +1,6 @@
 // Set a bottom black dotted border for a cell.
 
-// How to add a border to the cell.
+// How do I add a border to a cell?
 
 // Use a border index to set borders with properties.
 

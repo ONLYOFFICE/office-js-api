@@ -1,8 +1,7 @@
 var config = {
     "variations": [
         {
-            "EditorsSupport": ["word", "cell", "slide"],
-            ...
+            "EditorsSupport": ["word", "cell", "slide"]
         }
     ]
 };

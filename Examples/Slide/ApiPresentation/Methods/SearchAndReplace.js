@@ -11,7 +11,7 @@ slide.RemoveAllObjects();
 const shape = Api.CreateShape("rect", 8000000, 900000);
 shape.SetPosition(600000, 3200000);
 slide.AddObject(shape);
-shape.CreateTextRange().SetText("The first draft. The first review. The first release.");
+shape.GetTextRange().SetText("The first draft. The first review. The first release.");
 
 const original = shape.Copy();
 

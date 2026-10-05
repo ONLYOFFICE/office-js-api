@@ -15,12 +15,12 @@ table.SetTableLook(true, true, true, true, true, true);
 
 let tableStylePr = Api.CreateTableStylePr('wholeTable');
 let tablePr = tableStyle.GetTablePr();
-tablePr.SetTableBorderTop("single", 4, 0, 51, 51, 51);
-tablePr.SetTableBorderBottom("single", 4, 0, 51, 51, 51);
-tablePr.SetTableBorderLeft("single", 4, 0, 51, 51, 51);
-tablePr.SetTableBorderRight("single", 4, 0, 51, 51, 51);
-tablePr.SetTableBorderInsideV("single", 4, 0, 255, 111, 61);
-tablePr.SetTableBorderInsideH("single", 4, 0, 255, 111, 61);
+tablePr.SetTableBorderTop("single", 4, 0, Api.Color(51, 51, 51));
+tablePr.SetTableBorderBottom("single", 4, 0, Api.Color(51, 51, 51));
+tablePr.SetTableBorderLeft("single", 4, 0, Api.Color(51, 51, 51));
+tablePr.SetTableBorderRight("single", 4, 0, Api.Color(51, 51, 51));
+tablePr.SetTableBorderInsideV("single", 4, 0, Api.Color(255, 111, 61));
+tablePr.SetTableBorderInsideH("single", 4, 0, Api.Color(255, 111, 61));
 tableStylePr.GetTextPr().SetItalic(true);
 
 tableStyle.SetConditionalTableStyle(tableStylePr);

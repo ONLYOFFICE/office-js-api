@@ -1,6 +1,6 @@
 // Create the "picture" placeholder.
 
-// How to create the ApiPlaceholder object of the specified type.
+// How do I create a placeholder of a specific type?
 
 // Create a picture placeholder.
 
