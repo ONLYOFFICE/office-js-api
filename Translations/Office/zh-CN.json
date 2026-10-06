@@ -11129,5 +11129,9 @@
     "Read the join type of a shape border in a spreadsheet.": "在电子表格中读取形状边框的连接类型。",
     "Read the join type of a shape border in a presentation.": "在演示文稿中读取形状边框的连接类型。",
     "Read the join type of a shape border in a PDF.": "在 PDF 中读取形状边框的连接类型。",
+    "Get the current selection from the presentation object.": "从演示文稿对象获取当前选区。",
+    "Recalculate the text autofit of shapes after their text is changed.": "在形状的文本更改后，重新计算其文本自动适应。",
+    "Recalculates the text autofit of the current shape according to its text autofit type.": "根据当前形状的文本自动适应类型重新计算其文本自动适应。",
+    "Recalculates the text autofit of the current shape according to its text autofit type.\nThe \"autoFit\" type resizes the shape to fit the text, the \"normAutoFit\" type reduces the font size and line spacing to fit the text into the shape.\nThe recalculation is performed after the script is executed.\n💡 This method is not supported in the document builder and works only in the editor.": "根据当前形状的文本自动适应类型重新计算其文本自动适应。\n\"autoFit\" 类型会调整形状的大小以适应文本，\"normAutoFit\" 类型会缩小字号和行距以使文本适应形状。\n重新计算在脚本执行完毕后进行。\n💡 此方法在文档生成器中不受支持，仅在编辑器中有效。",
     "": ""
 }
