@@ -11134,5 +11134,9 @@
     "Merge two overlapping shapes into a single shape on a slide.": "将幻灯片上两个重叠的形状合并为一个形状。",
     "Merge two overlapping shapes into a single shape on a worksheet.": "将工作表上两个重叠的形状合并为一个形状。",
     "Merge two overlapping shapes into a single shape in a PDF.": "将 PDF 中两个重叠的形状合并为一个形状。",
+    "Get the current selection from the presentation object.": "从演示文稿对象获取当前选区。",
+    "Recalculate the text autofit of shapes after their text is changed.": "在形状的文本更改后，重新计算其文本自动适应。",
+    "Recalculates the text autofit of the current shape according to its text autofit type.": "根据当前形状的文本自动适应类型重新计算其文本自动适应。",
+    "Recalculates the text autofit of the current shape according to its text autofit type.\nThe \"autoFit\" type resizes the shape to fit the text, the \"normAutoFit\" type reduces the font size and line spacing to fit the text into the shape.\nThe recalculation is performed after the script is executed.\n💡 This method is not supported in the document builder and works only in the editor.": "根据当前形状的文本自动适应类型重新计算其文本自动适应。\n\"autoFit\" 类型会调整形状的大小以适应文本，\"normAutoFit\" 类型会缩小字号和行距以使文本适应形状。\n重新计算在脚本执行完毕后进行。\n💡 此方法在文档生成器中不受支持，仅在编辑器中有效。",
     "": ""
 }
