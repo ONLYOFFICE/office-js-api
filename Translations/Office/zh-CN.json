@@ -10817,5 +10817,13 @@
     "Apply a color or fill to text in a PDF.": "在 PDF 中为文本应用颜色或填充。",
     "Get the text color applied to text in a PDF.": "在 PDF 中获取文本所应用的文本颜色。",
     "Add an outline border to text in a PDF.": "在 PDF 中为文本添加轮廓边框。",
-    "Check if text has an outline border applied in a PDF.": "在 PDF 中检查文本是否应用了轮廓边框。"
+    "Check if text has an outline border applied in a PDF.": "在 PDF 中检查文本是否应用了轮廓边框。",
+    "Removes the character before the cursor or the selected content, as the Backspace key does.": "删除光标前的字符或所选内容，与 Backspace 键的作用相同。",
+    "Removes the character after the cursor or the selected content, as the Delete key does.": "删除光标后的字符或所选内容，与 Delete 键的作用相同。",
+    "Number of removals.": "删除次数。",
+    "Specifies whether to remove by words instead of by character.": "指定是按单词删除还是按字符删除。",
+    "Remove the last word of a paragraph in a document.": "删除文档中段落的最后一个单词。",
+    "Remove the first word of a paragraph in a document.": "删除文档中段落的第一个单词。",
+    "Remove characters before the text cursor within a shape text range.": "删除形状文本范围内文本光标前的字符。",
+    "Remove characters after the text cursor within a shape text range.": "删除形状文本范围内文本光标后的字符。"
 }
