@@ -1,6 +1,6 @@
 // Read the full raw XML text stored in a custom block in a spreadsheet.
 
-// How do I retrieve the complete XML string from a stored block of data in a spreadsheet?
+// Retrieve the complete XML string from a stored block of data in a spreadsheet.
 
 // Export the current XML content of a stored block so it can be inspected or reused in a spreadsheet.
 

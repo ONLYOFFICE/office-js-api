@@ -1,8 +1,8 @@
-// Find text within a table in a document.
+// Find text in a table by a string and by a regular expression, then bold the matches.
 
-// How do I search for specific text inside a table in a document?
+// Combine a keyword lookup across cells with a RegExp that matches every cell number.
 
-// Locate matching words across all table cells and highlight the results in a document.
+// Bold the first keyword match, then bold each number found by the /\d+/g expression.
 
 let doc = Api.GetDocument();
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
@@ -14,5 +14,10 @@ table.GetCell(0, 0).GetContent().GetElement(0).AddText("Cell 1");
 table.GetCell(0, 1).GetContent().GetElement(0).AddText("Cell 2");
 table.GetCell(0, 2).GetContent().GetElement(0).AddText("Cell 3");
 doc.Push(table);
-let searchResults = table.Search("Cell");
-searchResults[0].SetBold(true);
+
+let byKeyword = table.Search("Cell");
+byKeyword[0].SetBold(true);
+
+let byRegExp = table.Search(/\d+/g);
+for (let index = 0; index < byRegExp.length; index++)
+	byRegExp[index].SetBold(true);

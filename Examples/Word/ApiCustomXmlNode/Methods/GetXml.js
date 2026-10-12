@@ -1,6 +1,6 @@
 // Read the XML markup of a specific node stored in a document.
 
-// How do I extract the raw XML content of a node embedded in a document?
+// Extract the raw XML content of a node embedded in a document.
 
 // Inspect or export a node's full markup when working with structured data in a document.
 

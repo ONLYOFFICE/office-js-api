@@ -10,4 +10,4 @@ paragraph.AddText("This is the first paragraph. We will add a two point orange b
 paragraph.AddText("The space between the right side of the paragraph and the border is 8 points. ");
 paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
 paragraph.AddText("These sentences are used to add lines for demonstrative purposes.");
-paragraph.SetRightBorder("single", 16, 8, 255, 111, 61);
+paragraph.SetRightBorder("single", 16, 8, Api.Color(255, 111, 61));

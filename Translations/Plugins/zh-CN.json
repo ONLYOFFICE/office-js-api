@@ -443,6 +443,8 @@
     "The [config](../../../../../docs/plugins/configuration/configuration.md) of the installed plugin. The version is taken from the config and compared with the current one to check for updates.": "已安装插件的 [config](../../../../../docs/plugins/configuration/configuration.md)。从配置中获取版本并与当前版本进行比较以检查更新。",
     "Zero-based page index to navigate to.": "要导航到的从零开始的页面索引。",
     "If specified only x1, y1 (ex. [10, 10]) - then moves to them with inherited zoom, if specified whole rect (ex. [10, 10, 100, 100]) then zoom to rect": "如果仅指定 x1、y1（例如 [10, 10]），则以继承的缩放比例移动到该位置；如果指定完整矩形（例如 [10, 10, 100, 100]），则缩放到该矩形",
+    "Add floating action buttons over the editor area.": "在编辑器区域上方添加悬浮操作按钮。",
+    "Update floating action buttons over the editor area.": "更新编辑器区域上方的悬浮操作按钮。",
     "Specifies the start action for long operations.\n\n:::note\nGroupActions are available only for [ONLYOFFICE Docs Enterprise](https://www.onlyoffice.com/docs-enterprise-prices?from=api) and [ONLYOFFICE Docs Developer](https://www.onlyoffice.com/developer-edition-prices?from=api).\n:::": "指定长时间操作的开始操作。\n\n:::note\nGroupActions 仅适用于 [ONLYOFFICE Docs Enterprise](https://www.onlyoffice.com/docs-enterprise-prices?from=api) 和 [ONLYOFFICE Docs Developer](https://www.onlyoffice.com/developer-edition-prices?from=api)。\n:::",
     "Specifies the end action for long operations.\n\n:::note\nGroupActions are available only for [ONLYOFFICE Docs Enterprise](https://www.onlyoffice.com/docs-enterprise-prices?from=api) and [ONLYOFFICE Docs Developer](https://www.onlyoffice.com/developer-edition-prices?from=api).\n:::": "指定长时间操作的结束操作。\n\n:::note\nGroupActions 仅适用于 [ONLYOFFICE Docs Enterprise](https://www.onlyoffice.com/docs-enterprise-prices?from=api) 和 [ONLYOFFICE Docs Developer](https://www.onlyoffice.com/developer-edition-prices?from=api)。\n:::",
     "Identifies an annotation range within a paragraph.": "标识段落中的注解范围。",
@@ -498,6 +500,7 @@
     "The function called when a comment is added to the document with the [AddComment](../../../../../docs/plugins/interacting-with-editors/document-api/Methods/AddComment.md) method.": "使用 [AddComment](../../../../../docs/plugins/interacting-with-editors/document-api/Methods/AddComment.md) 方法向文档添加评论时调用的函数。",
     "The function called when the specified comment is changed with the [ChangeComment](../../../../../docs/plugins/interacting-with-editors/document-api/Methods/ChangeComment.md) method.": "使用 [ChangeComment](../../../../../docs/plugins/interacting-with-editors/document-api/Methods/ChangeComment.md) 方法更改指定评论时调用的函数。",
     "The function called when the specified comment is removed with the [RemoveComments](../../../../../docs/plugins/interacting-with-editors/document-api/Methods/RemoveComments.md) method.": "使用 [RemoveComments](../../../../../docs/plugins/interacting-with-editors/document-api/Methods/RemoveComments.md) 方法删除指定评论时调用的函数。",
+    "Handle a click on a floating action button.": "处理悬浮操作按钮的点击。",
     "The following table lists the available methods.": "下表列出了可用的方法。",
     "The following table lists the available events.": "下表列出了可用的事件。",
     "The function called when a comment is added to the document with the [AddComment](./../../../../docs/plugins/interacting-with-editors/document-api/Methods/AddComment.md) method.": "使用 [AddComment](./../../../../docs/plugins/interacting-with-editors/document-api/Methods/AddComment.md) 方法向文档添加批注时调用的函数。",
@@ -529,5 +532,6 @@
     "Axis-aligned rectangle represented as a tuple.\n\nInvariants:\n\n- `rect[0] < rect[2]` (x1 < x2)\n- `rect[1] < rect[3]` (y1 < y2)": "以元组表示的轴对齐矩形。\n\n不变量：\n\n- `rect[0] < rect[2]` (x1 < x2)\n- `rect[1] < rect[3]` (y1 < y2)",
     "Defines the access restrictions for a content control.\n\nPossible values:\n\n- **0** - only deleting,\n- **1** - disable deleting or editing,\n- **2** - only editing,\n- **3** - full access.": "定义内容控件的访问限制。\n\n可能的值：\n\n- **0** - 仅删除，\n- **1** - 禁止删除或编辑，\n- **2** - 仅编辑，\n- **3** - 完全访问。",
     "Replaces all content of the specified paragraph with the content parsed from the given HTML string.": "用从给定 HTML 字符串解析的内容替换指定段落的所有内容。",
-    "Replaces all content of the specified paragraph with the content parsed from the given HTML string.\n\nIf the HTML contains multiple block-level elements, their inline content is merged into the target paragraph.": "用从给定 HTML 字符串解析的内容替换指定段落的所有内容。\n\n如果 HTML 包含多个块级元素，其内联内容将合并到目标段落中。"
+    "Replaces all content of the specified paragraph with the content parsed from the given HTML string.\n\nIf the HTML contains multiple block-level elements, their inline content is merged into the target paragraph.": "用从给定 HTML 字符串解析的内容替换指定段落的所有内容。\n\n如果 HTML 包含多个块级元素，其内联内容将合并到目标段落中。",
+    "": ""
 }

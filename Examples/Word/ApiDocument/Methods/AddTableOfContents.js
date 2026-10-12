@@ -1,8 +1,8 @@
 // Generate a table of contents from headings in a document.
 
-// How do I build a table of contents based on heading styles in a document?
+// Build the heading outline, then add an anchor paragraph where the table of contents should appear.
 
-// Configure page numbers, leader dots, and outline depth when inserting a table of contents in a document.
+// Insert the table of contents so it replaces the anchor range.
 
 let doc = Api.GetDocument();
 let newDocumentStyle = doc.GetStyle("Heading 1");
@@ -14,5 +14,8 @@ paragraph = Api.CreateParagraph();
 paragraph.SetStyle(newDocumentStyle);
 paragraph.AddText("Heading 2");
 doc.Push(paragraph);
-let tocPr = {"ShowPageNums": true, "RightAlgn": true, "LeaderType": "dot", "FormatAsLinks": true, "BuildFrom": {"OutlineLvls": 9}, "TocStyle": "standard"};
-doc.AddTableOfContents(tocPr);
+let anchor = Api.CreateParagraph();
+anchor.AddText("Table of contents goes here");
+doc.Push(anchor);
+let tocPr = {"ShowPageNums": true, "RightAlgn": true, "LeaderType": "dot", "FormatAsLinks": true, "BuildFrom": {"OutlineLvlStart": 1, "OutlineLvls": 9}, "TocStyle": "standard"};
+doc.AddTableOfContents(tocPr, anchor.GetRange());

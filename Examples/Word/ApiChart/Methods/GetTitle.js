@@ -16,7 +16,7 @@ const chart = Api.CreateChart(
 	24
 );
 chart.SetShowDataLabels(false, false, true, false);
-chart.SetTitle('Financial Overview', 13);
+chart.SetTitle('Financial Overview', 26);
 
 let fill = Api.CreateSolidFill(Api.RGB(51, 51, 51));
 chart.SetSeriesFill(fill, 0, false);

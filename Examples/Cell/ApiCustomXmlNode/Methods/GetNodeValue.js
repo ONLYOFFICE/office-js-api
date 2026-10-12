@@ -1,6 +1,6 @@
 // Read the stored value of a specific XML node in a spreadsheet.
 
-// How do I retrieve what value is saved inside an XML node in a spreadsheet?
+// Retrieve the value saved inside an XML node in a spreadsheet.
 
 // Extract a node's raw value to inspect embedded data in a spreadsheet.
 

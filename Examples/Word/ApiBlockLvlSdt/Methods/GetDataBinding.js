@@ -1,6 +1,6 @@
 // Read the XML data binding linked to a content control in a document.
 
-// How do I get the XML data binding attached to a content control in a document?
+// Get the XML data binding attached to a content control in a document.
 
 // Inspect which XML source a content control is connected to and display its ID in a document.
 

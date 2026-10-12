@@ -7,4 +7,4 @@
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("This is the first paragraph. We will add a thick orange border above it.");
-paragraph.SetTopBorder("single", 24, 0, 255, 111, 61);
+paragraph.SetTopBorder("single", 24, 0, Api.Color(255, 111, 61));

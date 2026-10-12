@@ -1,6 +1,6 @@
 // Check what type of object represents a custom XML node in a spreadsheet.
 
-// How do I confirm the category of an XML node object before processing it in a spreadsheet?
+// Confirm the category of an XML node object before processing it in a spreadsheet.
 
 // Verify the identity of an XML node to ensure it is the expected kind before using it in a spreadsheet.
 

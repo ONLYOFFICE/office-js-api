@@ -1,6 +1,6 @@
 // Insert an attribute into a custom XML node in a presentation.
 
-// How do I add a new attribute to an XML element in a presentation?
+// Add a new attribute to an XML element in a presentation.
 
 // Show the updated XML with the new attribute in a presentation.
 
@@ -9,7 +9,7 @@ const slide = presentation.GetSlideByIndex(0);
 slide.RemoveAllObjects();
 
 const xmlManager = presentation.GetCustomXmlParts();
-const xml = xmlManager.Add('<content xmlns="http://example"></content>');
+const xml = xmlManager.Add('<content xmlns="http://example.com"></content>');
 xml.InsertAttribute('/content', 'version', '1.0');
 
 const fill = Api.CreateSolidFill(Api.RGB(191, 127, 63));

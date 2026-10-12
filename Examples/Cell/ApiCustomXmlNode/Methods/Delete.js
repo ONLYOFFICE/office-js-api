@@ -1,6 +1,6 @@
 // Remove a specific node from an embedded XML structure in a spreadsheet.
 
-// How do I delete an unwanted element from custom XML data in a spreadsheet?
+// Delete an unwanted element from custom XML data in a spreadsheet.
 
 // Trim embedded XML content by eliminating a node and verifying what remains in a spreadsheet.
 

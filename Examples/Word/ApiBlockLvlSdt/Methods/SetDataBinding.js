@@ -1,6 +1,6 @@
 // Link a content control to an XML data source in a document.
 
-// How do I connect a content control to custom XML data in a document?
+// Connect a content control to custom XML data in a document.
 
 // Bind a content control to a specific XML field so it displays live data in a document.
 

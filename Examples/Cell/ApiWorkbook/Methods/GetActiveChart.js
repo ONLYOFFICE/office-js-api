@@ -18,7 +18,7 @@ const chart = worksheet.AddChart(
 	Api.MillimetersToEmus(100), Api.MillimetersToEmus(70),
 	0, 0, 3, Api.MillimetersToEmus(1)
 );
-chart.SetTitle('Full Names Length', 15);
+chart.SetTitle('Full Names Length', 30);
 chart.Select();
 
 const activeChart = workbook.GetActiveChart();

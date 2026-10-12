@@ -16,7 +16,7 @@ const chart = worksheet.AddChart(
 	true, 'bar3D', 2,
 	100 * 36000, 70 * 36000, 0, 0, 4, 0
 );
-chart.SetTitle('Financial Overview', 13);
+chart.SetTitle('Financial Overview', 26);
 
 const chartTitle = chart.GetTitle();
 worksheet.GetRange('E1').SetValue('Chart Title: ' + chartTitle);

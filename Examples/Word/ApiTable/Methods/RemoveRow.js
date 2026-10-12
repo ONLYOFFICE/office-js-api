@@ -1,12 +1,12 @@
 // Delete a row from a table in a document.
 
-// How do I remove a specific row from a table in a document?
+// Remove the row that contains a specified cell from a table in a document.
 
 // Shorten a table by eliminating an unwanted row in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
-paragraph.AddText("We create a 3x3 table and remove one row (the second one), so that it becomes 3x2:");
+paragraph.AddText("We create a table with 3 rows and 3 columns and remove the second row, so that the table has 2 rows:");
 let tableStyle = doc.CreateStyle("CustomTableStyle", "table");
 tableStyle.SetBasedOn(doc.GetStyle("Bordered"));
 let table = Api.CreateTable(3, 3);

@@ -21,7 +21,7 @@ let settingBefore = uniqueValuesCondition.GetDupeUnique();
 uniqueValuesCondition.SetDupeUnique("xlDuplicate");
 let settingAfter = uniqueValuesCondition.GetDupeUnique();
 
-uniqueValuesCondition.SetFillColor(Api.CreateColorFromRGB(255, 0, 0));
+uniqueValuesCondition.SetFillColor(Api.RGB(255, 0, 0));
 
 worksheet.GetRange("C1").SetValue("Setting before: " + settingBefore);
 worksheet.GetRange("C2").SetValue("Setting after: " + settingAfter);

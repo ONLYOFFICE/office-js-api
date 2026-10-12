@@ -1,14 +1,33 @@
 // Highlight selected text regions in a PDF.
 
-// How do I mark the areas where text is selected in a PDF?
+// Useful for marking the areas where text is selected in a PDF.
 
 // Get the boundaries of selected text and apply highlighting in a PDF.
 
 let doc = Api.GetDocument();
-doc.SetSelection(0, {x: 10, y: 10}, 0, {x: 100, y: 100});
+doc.AddPage(0);
+let pageIndex = doc.GetPagesCount() - 1;
+let textPage = doc.GetPage(pageIndex);
+let fill = Api.CreateSolidFill(Api.RGB(50, 150, 250));
+let stroke = Api.CreateStroke(0, Api.CreateNoFill());
+let shape = Api.CreateShape("rect", 150 * 36000, 80 * 36000, fill, stroke);
+shape.SetPosition(10 * 12700, 10 * 12700);
+let paragraph = shape.GetContent().GetElement(0);
+paragraph.SetJc("left");
+paragraph.AddText("Lorem selected text");
+textPage.AddObject(shape);
+
+let results = textPage.Search({text: "Lorem selected text", matchCase: true, wholeWords: false});
+let textQuads = results[0];
+let firstQuad = textQuads[0];
+let lastQuad = textQuads[textQuads.length - 1];
+doc.SetSelection({
+	start: { page: pageIndex, point: { x: firstQuad[0], y: firstQuad[1] } },
+	end:   { page: pageIndex, point: { x: lastQuad[2], y: lastQuad[3] } }
+});
 let docQuads = doc.GetSelectionQuads();
 Object.entries(docQuads).forEach(([pageIdx, quads]) => {
-    let page = doc.GetPage(pageIdx);
+    let page = doc.GetPage(Number(pageIdx));
     let annot = Api.CreateHighlightAnnot(quads);
     page.AddObject(annot);
 });

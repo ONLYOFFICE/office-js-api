@@ -1,6 +1,6 @@
 // Deselect a drawing while keeping other shapes selected in a spreadsheet.
 
-// How do I remove a single drawing from the current selection in a spreadsheet?
+// Remove a single drawing from the current selection in a spreadsheet.
 
 // Drop one shape from a multi-object selection without affecting the rest in a spreadsheet.
 
