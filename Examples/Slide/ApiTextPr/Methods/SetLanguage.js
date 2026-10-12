@@ -1,8 +1,8 @@
-// Apply background shading to text in a presentation.
+// Set the spell-check language through the text properties of a run in a presentation.
 
-// Add color shading to text for highlighting or visual emphasis.
+// How do I choose the proofing language with text properties in a presentation?
 
-// Create a text run and apply shading with a specified color.
+// Get the text properties of a run and assign a language code so the text is checked against the matching dictionary in a presentation.
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);
@@ -16,7 +16,10 @@ shape.SetPosition(608400, 1267200);
 const docContent = shape.GetDocContent();
 const paragraph = docContent.GetElement(0);
 const run = Api.CreateRun();
-run.AddText("This is a text run with the text shading set to black.");
+const textPr = run.GetTextPr();
+textPr.SetFontSize(50);
+textPr.SetLanguage("en-CA");
+paragraph.SetJc("left");
+run.AddText("This is a sample text.");
 paragraph.AddElement(run);
-run.SetShd(Api.CreateShd("clear", Api.HexColor('#333333')));
 slide.AddObject(shape);
