@@ -1,1 +1,5 @@
-{}
+{
+    "Checks if the document is in the editing PDF form mode.": "Checks if the document is in the editing PDF form mode.",
+    "Checks if the document is in the filling form mode.": "Checks if the document is in the filling form mode.",
+    "Checks if the document is in the filling PDF form mode.": "Checks if the document is in the filling PDF form mode."
+}
