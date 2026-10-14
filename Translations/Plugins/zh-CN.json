@@ -560,5 +560,8 @@
     "the x coordinate": "x 坐标",
     "the y coordinate": "y 坐标",
     "The function called was when selection was canceled.": "取消选择时调用的函数。",
+    "Checks if the document is in the editing PDF form mode.": "检查文档是否处于 PDF 表单编辑模式。",
+    "Checks if the document is in the filling form mode.": "检查文档是否处于表单填写模式。",
+    "Checks if the document is in the filling PDF form mode.": "检查文档是否处于 PDF 表单填写模式。",
     "": ""
 }
