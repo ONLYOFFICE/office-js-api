@@ -1,8 +1,8 @@
-// Apply shading to text in a PDF.
+// Set the font color through the text properties of a run in a PDF.
 
-// How do I add a background shade to text in a PDF?
+// How do I change the text color with text properties in a PDF?
 
-// Apply background shading pattern to text in a PDF.
+// Get the text properties of a run and apply a dark blue color to its characters in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -15,7 +15,10 @@ shape.SetPosition(608400, 1267200);
 const docContent = shape.GetContent();
 const paragraph = docContent.GetElement(0);
 const run = Api.CreateRun();
-run.AddText("This is a text run with the text shading set to black.");
+const textPr = run.GetTextPr();
+textPr.SetFontSize(50);
+textPr.SetColor(Api.RGB(31, 56, 100));
+paragraph.SetJc("left");
+run.AddText("This is a sample text inside the shape with the font color set to dark blue using the text properties.");
 paragraph.AddElement(run);
-run.SetShd(Api.CreateShd("clear", Api.Color(51, 51, 51)));
 page.AddObject(shape);
