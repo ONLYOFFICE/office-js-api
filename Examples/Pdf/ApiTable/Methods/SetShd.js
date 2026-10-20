@@ -8,6 +8,6 @@ const doc = Api.GetDocument();
 const page = doc.GetPage(0);
 
 const table = Api.CreateTable(2, 4);
-table.SetShd("clear", 255, 111, 61);
+table.SetShd(Api.CreateShd("clear", Api.Color(255, 111, 61)));
 
 page.AddObject(table);

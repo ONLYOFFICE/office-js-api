@@ -18,7 +18,7 @@ let aboveAverageCondition = formatConditions.AddAboveAverage();
 
 let font = aboveAverageCondition.GetFont();
 font.SetBold(true);
-font.SetColor(Api.CreateColorFromRGB(0, 0, 255));
+font.SetColor(Api.RGB(0, 0, 255));
 
 worksheet.GetRange("C1").SetValue("Font formatting applied");
 worksheet.GetRange("C2").SetValue("Bold blue text for above average");

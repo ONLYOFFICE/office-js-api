@@ -11,7 +11,7 @@ const slide = presentation.GetSlideByIndex(0);
 const triggerShape = Api.CreateShape(
 	'ellipse',
 	80 * 36000, 80 * 36000,
-	Api.CreateSolidFill(Api.CreateRGBColor(255, 100, 100)),
+	Api.CreateSolidFill(Api.RGB(255, 100, 100)),
 	Api.CreateStroke(0, Api.CreateNoFill())
 );
 triggerShape.SetPosition(50 * 36000, 100 * 36000);
@@ -21,7 +21,7 @@ slide.AddObject(triggerShape);
 const animatedShape = Api.CreateShape(
 	'rect',
 	150 * 36000, 100 * 36000,
-	Api.CreateSolidFill(Api.CreateRGBColor(61, 74, 107)),
+	Api.CreateSolidFill(Api.RGB(61, 74, 107)),
 	Api.CreateStroke(0, Api.CreateNoFill())
 );
 animatedShape.SetPosition(180 * 36000, 100 * 36000);
@@ -38,7 +38,7 @@ const sequences = timeLine.GetInteractiveSequences();
 const infoShape = Api.CreateShape(
 	'rect',
 	200 * 36000, 40 * 36000,
-	Api.CreateSolidFill(Api.CreateRGBColor(200, 200, 200)),
+	Api.CreateSolidFill(Api.RGB(200, 200, 200)),
 	Api.CreateStroke(0, Api.CreateNoFill())
 );
 infoShape.SetPosition(20 * 36000, 10 * 36000);

@@ -19,7 +19,7 @@ let formatConditions = dataRange.GetFormatConditions();
 let condition1 = formatConditions.AddTop10();
 
 let colorBefore = condition1.GetFillColor();
-condition1.SetFillColor(Api.CreateColorFromRGB(0, 255, 0));
+condition1.SetFillColor(Api.RGB(0, 255, 0));
 let colorAfter = condition1.GetFillColor();
 
 worksheet.GetRange("C1").SetValue("Fill color changed");

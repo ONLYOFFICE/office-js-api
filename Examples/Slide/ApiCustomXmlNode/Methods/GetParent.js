@@ -1,6 +1,6 @@
 // Access the parent element of an XML node in a presentation.
 
-// How do I find the parent of an XML element in a presentation?
+// Find the parent of an XML element in a presentation.
 
 // Retrieve the containing XML element of a node in a presentation.
 

@@ -12,6 +12,6 @@ paragraph.AddDrawing(shape);
 paragraph.AddLineBreak();
 paragraph.AddText("Original shape with no fill");
 paragraph.AddLineBreak();
-let fill = Api.CreateSolidFill(Api.CreateRGBColor(255, 0, 0));
+let fill = Api.CreateSolidFill(Api.RGB(255, 0, 0));
 shape.SetFill(fill);
 paragraph.AddText("Fill changed to red");

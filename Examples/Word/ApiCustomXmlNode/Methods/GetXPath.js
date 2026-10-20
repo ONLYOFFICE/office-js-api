@@ -1,6 +1,6 @@
 // Retrieve the path of a specific node within embedded XML data in a document.
 
-// How do I find the location of a node in embedded XML data in a document?
+// Find the location of a node in embedded XML data in a document.
 
 // Read a node's position to navigate or reference it programmatically in a document.
 

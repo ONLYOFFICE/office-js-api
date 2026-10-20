@@ -1,6 +1,6 @@
 // Select matching elements from stored XML data by path in a spreadsheet.
 
-// How do I pull out specific nodes from a custom XML block saved in a spreadsheet?
+// Pull out specific nodes from a custom XML block saved in a spreadsheet.
 
 // Navigate an XML structure to collect all elements at a given location in a spreadsheet.
 

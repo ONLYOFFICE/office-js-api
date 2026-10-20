@@ -16,10 +16,10 @@ let range = worksheet.GetRange("A2:A5");
 let formatConditions = range.GetFormatConditions();
 let uniqueValuesCondition = formatConditions.AddUniqueValues();
 
-uniqueValuesCondition.SetFillColor(Api.CreateColorFromRGB(255, 255, 0));
+uniqueValuesCondition.SetFillColor(Api.RGB(255, 255, 0));
 
 let fillColor = uniqueValuesCondition.GetFillColor();
 let rgbValue = fillColor.GetRGB();
 
 worksheet.GetRange("C1").SetValue("Fill Color RGB:");
-worksheet.GetRange("C2").SetValue(rgbValue);
+worksheet.GetRange("C2").SetValue(rgbValue.r + ", " + rgbValue.g + ", " + rgbValue.b);

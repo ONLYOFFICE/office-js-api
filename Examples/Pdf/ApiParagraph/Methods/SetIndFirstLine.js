@@ -1,6 +1,6 @@
-// Indent the first line of a paragraph in a PDF.
+// Indent the first line of a paragraph directly in a PDF.
 
-// How do I add a first line indent in a PDF?
+// Useful for adding a first line indent in a PDF.
 
 // Create space before the first line of text in a PDF.
 
@@ -15,16 +15,16 @@ const shape = Api.CreateShape("flowChartMagneticTape", 150 * 36000, 65 * 36000, 
 shape.SetPosition(608400, 1267200);
 
 const docContent = shape.GetContent();
-let paragraph = docContent.GetElement(0);
+const paragraph = docContent.GetElement(0);
 paragraph.AddText("This is a paragraph with the indent of 1 inch set to the first line. ");
 paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
 paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
 paragraph.AddText("These sentences are used to add lines for demonstrative purposes.");
 paragraph.SetIndFirstLine(1440);
 
-paragraph = Api.CreateParagraph();
-paragraph.AddText("This is a paragraph without any indent set to the first line. ");
-paragraph.AddText("These sentences are used to add lines for demonstrative purposes. ");
-paragraph.AddText("These sentences are used to add lines for demonstrative purposes.");
-docContent.Push(paragraph);
+const paragraph2 = Api.CreateParagraph();
+paragraph2.AddText("This is a paragraph without any indent set to the first line. ");
+paragraph2.AddText("These sentences are used to add lines for demonstrative purposes. ");
+paragraph2.AddText("These sentences are used to add lines for demonstrative purposes.");
+docContent.Push(paragraph2);
 page.AddObject(shape);

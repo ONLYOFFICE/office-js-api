@@ -17,7 +17,7 @@ let dataRange = worksheet.GetRange("A2:A6");
 let formatConditions = dataRange.GetFormatConditions();
 
 let aboveAvgCondition = formatConditions.AddAboveAverage();
-aboveAvgCondition.SetFillColor(Api.CreateColorFromRGB(255, 255, 0));
+aboveAvgCondition.SetFillColor(Api.RGB(255, 255, 0));
 
 let fillColor = aboveAvgCondition.GetFillColor();
 

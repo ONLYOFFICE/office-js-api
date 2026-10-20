@@ -13,6 +13,6 @@ let table = Api.CreateTable(3, 3);
 table.SetWidth("percent", 100);
 let tableStylePr = tableStyle.GetConditionalTableStyle("wholeTable");
 table.SetTableLook(true, true, true, true, true, true);
-tableStylePr.GetTablePr().SetTableBorderBottom("single", 32, 0, 51, 51, 51);
+tableStylePr.GetTablePr().SetTableBorderBottom("single", 32, 0, Api.Color(51, 51, 51));
 table.SetStyle(tableStyle);
 doc.Push(table);

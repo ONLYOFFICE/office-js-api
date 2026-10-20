@@ -10,8 +10,8 @@ const textPr = Api.CreateTextPr();
 textPr.SetFontSize(100);
 textPr.SetBold(true);
 textPr.SetCaps(true);
-textPr.SetOutLine(Api.CreateStroke(1 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(255, 175, 204))));
-textPr.SetTextFill(Api.CreateSolidFill(Api.CreateRGBColor(255, 200, 221)));
+textPr.SetOutLine(Api.CreateStroke(1 * 36000, Api.CreateSolidFill(Api.RGB(255, 175, 204))));
+textPr.SetTextFill(Api.CreateSolidFill(Api.RGB(255, 200, 221)));
 textPr.SetFontFamily('Comic Sans MS');
 
 const textArt = Api.CreateWordArt(textPr, 'ONLYOFFICE', 'textArchUp', null, null, 0, 200 * 36000, 100 * 36000);

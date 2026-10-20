@@ -1,0 +1,17 @@
+// Get the row index of a table cell in a PDF.
+
+// Find out which row a table cell belongs to in a PDF.
+
+// Retrieve the row index and display it in the cell in a PDF.
+
+const doc = Api.GetDocument();
+const page = doc.GetPage(0);
+
+const table = Api.CreateTable(2, 3);
+const cell = table.GetRow(1).GetCell(0);
+const content = cell.GetContent();
+const paragraph = Api.CreateParagraph();
+paragraph.AddText('Row index: ' + cell.GetRowIndex());
+content.Push(paragraph);
+
+page.AddObject(table);

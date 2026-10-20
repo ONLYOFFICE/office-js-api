@@ -6,7 +6,7 @@
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
-let chart1 = Api.CreateChart("bar3D", [
+let chart1 = Api.CreateChart("3DColumnClustered", [
 	[200, 240, 280],
 	[250, 260, 280]
 ], ["Projected Revenue", "Estimated Costs"], [2014, 2015, 2016], 4051300, 2347595, 24);
@@ -15,7 +15,7 @@ let fill = Api.CreateSolidFill(Api.RGB(51, 51, 51));
 chart1.SetSeriesFill(fill, 0, false);
 fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 chart1.SetSeriesFill(fill, 1, false);
-let chart2 = Api.CreateChart("bar3D", [
+let chart2 = Api.CreateChart("3DColumnClustered", [
 	[200, 240, 280],
 	[250, 260, 280]
 ], ["Projected Revenue", "Estimated Costs"], [2014, 2015, 2016], 4051300, 2347595, 24);
@@ -23,7 +23,7 @@ fill = Api.CreateSolidFill(Api.RGB(51, 51, 51));
 chart2.SetSeriesFill(fill, 0, false);
 fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 chart2.SetSeriesFill(fill, 1, false);
-chart2.SetTitle("Financial Overview", 13);
+chart2.SetTitle("Financial Overview", 26);
 paragraph.AddDrawing(chart2);
 let charts = paragraph.GetAllCharts();
 let stroke = Api.CreateStroke(1 * 150, Api.CreateSolidFill(Api.RGB(255, 111, 61)));

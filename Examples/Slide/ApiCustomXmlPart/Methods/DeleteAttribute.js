@@ -9,7 +9,7 @@ const slide = presentation.GetSlideByIndex(0);
 slide.RemoveAllObjects();
 
 const xmlManager = presentation.GetCustomXmlParts();
-const xml = xmlManager.Add('<content xmlns="http://example" version="1.0"></content>');
+const xml = xmlManager.Add('<content xmlns="http://example.com" version="1.0"></content>');
 xml.DeleteAttribute('/content', 'version');
 
 const fill = Api.CreateSolidFill(Api.HexColor('#7E57C2'));

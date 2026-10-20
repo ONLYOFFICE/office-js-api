@@ -1,6 +1,6 @@
 // Remove an attribute from an XML node in a presentation.
 
-// How do I remove an attribute from XML data in a presentation?
+// Drop an attribute from custom XML data in a presentation.
 
 // Delete a specific property from an XML element in a presentation.
 
