@@ -10824,6 +10824,6 @@
     "Specifies whether to remove by words instead of by character.": "指定是按单词删除还是按字符删除。",
     "Remove the last word of a paragraph in a document.": "删除文档中段落的最后一个单词。",
     "Remove the first word of a paragraph in a document.": "删除文档中段落的第一个单词。",
-    "Remove characters before the text cursor within a shape text range.": "删除形状文本范围内文本光标前的字符。",
-    "Remove characters after the text cursor within a shape text range.": "删除形状文本范围内文本光标后的字符。"
+    "Remove characters before the text cursor in a shape on a slide.": "删除幻灯片上形状中文本光标前的字符。",
+    "Remove characters after the text cursor in a shape on a slide.": "删除幻灯片上形状中文本光标后的字符。"
 }

@@ -15,5 +15,5 @@ paragraph.AddText("Hello World");
 slide.AddObject(shape);
 
 paragraph.Select();
-presentation.MoveCursorRight();
+presentation.MoveCursorRight(1);
 presentation.RemoveBackward(6);
