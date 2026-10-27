@@ -2,12 +2,12 @@
 
 // Remove a custom XML part and show remaining parts in a presentation.
 
-// Discard an XML part from the document in a presentation.
+// Discard an unneeded XML part from the presentation.
 
 let presentation = Api.GetPresentation();
 let xmlManager = presentation.GetCustomXmlParts();
-let xml1 = xmlManager.Add("<user xmlns='http://example'>John</user>");
-let xml2 = xmlManager.Add("<customer xmlns='http://example'>Alex</customer>");
+let xml1 = xmlManager.Add("<user xmlns='http://example.com'>John</user>");
+let xml2 = xmlManager.Add("<customer xmlns='http://example.com'>Alex</customer>");
 xml1.Delete();
 let count = xmlManager.GetCount();
 let xmlParts = xmlManager.GetAll();

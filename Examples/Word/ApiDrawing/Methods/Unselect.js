@@ -1,6 +1,6 @@
 // Remove a shape from the current selection while keeping other shapes selected in a document.
 
-// How do I deselect a single drawing without clearing the whole selection in a document?
+// Deselect a single drawing without clearing the whole selection in a document.
 
 // Fine-tune a multi-shape selection by excluding one specific shape in a document.
 

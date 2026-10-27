@@ -5,4 +5,4 @@
 // Color a row range uniformly by treating it as a single collection in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
-worksheet.GetRows("1:4").SetFillColor(Api.CreateColorFromRGB(255, 213, 191));
+worksheet.GetRows("1:4").SetFillColor(Api.RGB(255, 213, 191));

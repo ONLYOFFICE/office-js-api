@@ -1,6 +1,6 @@
 // Insert a new XML element into the custom XML part in a presentation.
 
-// How do I add a new element to an existing XML structure in a presentation?
+// Add a new element to an existing XML structure in a presentation.
 
 // Display the updated XML with the inserted element in a presentation.
 
@@ -9,7 +9,7 @@ const slide = presentation.GetSlideByIndex(0);
 slide.RemoveAllObjects();
 
 const xmlManager = presentation.GetCustomXmlParts();
-const xml = xmlManager.Add('<content xmlns="http://example"></content>');
+const xml = xmlManager.Add('<content xmlns="http://example.com"></content>');
 xml.InsertElement('/content', '<description>Main content</description>');
 xml.InsertElement('/content', '<title>Introduction</title>', 0);
 

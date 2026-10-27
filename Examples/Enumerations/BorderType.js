@@ -4,4 +4,4 @@
 
 // Use a border index to set borders with properties.
 
-paraPr.SetBottomBorder("single", 24, 0, 0, 255, 0);
+paraPr.SetBottomBorder("single", 24, 0, Api.Color(0, 255, 0));

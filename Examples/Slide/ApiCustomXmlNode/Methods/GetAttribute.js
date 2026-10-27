@@ -1,6 +1,6 @@
 // Read a property value from an XML element in a presentation.
 
-// How do I extract an attribute from an XML node in a presentation?
+// Extract an attribute from an XML node in a presentation.
 
 // Access a specific property of an XML element in a presentation.
 

@@ -1,6 +1,6 @@
 // Remove a named attribute from a custom XML node in a document.
 
-// How do I delete an attribute from a custom XML node in a document?
+// Delete an attribute from a custom XML node in a document.
 
 // Strip unwanted metadata from an XML element by dropping one of its attributes in a document.
 

@@ -18,7 +18,7 @@ let formatConditions = dataRange.GetFormatConditions();
 
 let aboveAvgCondition = formatConditions.AddAboveAverage();
 
-let greenColor = Api.CreateColorFromRGB(0, 255, 0);
+let greenColor = Api.RGB(0, 255, 0);
 aboveAvgCondition.SetFillColor(greenColor);
 
 worksheet.GetRange("B1").SetValue("Above average cells are highlighted in green");

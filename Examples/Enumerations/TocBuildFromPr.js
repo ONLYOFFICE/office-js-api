@@ -2,9 +2,9 @@
 
 // How do I create table of contents properties that set the source it is built from?
 
-// Add a table of contents from the nine outline levels of the document.
+// Add a table of contents spanning the outline levels from the start level up to level 9.
 
-let tocBuildFromPr = { "OutlineLvls": 9 };
+let tocBuildFromPr = { "OutlineLvlStart": 1, "OutlineLvls": 9 };
 let tocPr = {
 	"ShowPageNums": true,
 	"RightAlgn": true,

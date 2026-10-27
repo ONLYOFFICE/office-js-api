@@ -1,28 +1,34 @@
-// Separate grouped shapes back into individual drawings in a document.
+// Group two shapes in a document, copy the group beside the original, then ungroup the copy in a document.
 
-// How do I ungroup shapes that were combined into a group in a document?
+// Keep the original group intact and split its copy into drawings to compare grouped and ungrouped side by side.
 
-// Release a group so each shape can be moved or edited independently in a document.
+// Ungroup the copy so its drawings become individually editable next to the untouched original group.
 
-let doc = Api.GetDocument();
-let paragraph = doc.GetElement(0);
-let fill1 = Api.CreateSolidFill(Api.RGB(255, 111, 61));
-let fill2 = Api.CreateSolidFill(Api.RGB(111, 255, 61));
-let stroke = Api.CreateStroke(0, Api.CreateNoFill());
-let shape1 = Api.CreateShape("rect", 3212465, 963295, fill1, stroke);
-let shape2 = Api.CreateShape("rect", 1606232, 481647, fill2, stroke);
-shape1.SetWrappingStyle("inFront");
-shape2.SetWrappingStyle("inFront");
-shape2.SetHorPosition("page", 1606232);
+const doc = Api.GetDocument();
+const paragraph = doc.GetElement(0);
+
+const fill1 = Api.CreateSolidFill(Api.RGB(255, 111, 61));
+const fill2 = Api.CreateSolidFill(Api.RGB(61, 155, 255));
+const stroke = Api.CreateStroke(0, Api.CreateNoFill());
+
+const shape1 = Api.CreateShape("rect", 40 * 36000, 25 * 36000, fill1, stroke);
 paragraph.AddDrawing(shape1);
+shape1.SetWrappingStyle("inFront");
+shape1.SetHorPosition("page", 20 * 36000);
+shape1.SetVerPosition("page", 20 * 36000);
+
+const shape2 = Api.CreateShape("ellipse", 40 * 36000, 25 * 36000, fill2, stroke);
 paragraph.AddDrawing(shape2);
-let group = doc.GroupDrawings([shape1, shape2]);
-let docContent1 = shape1.GetContent();
-paragraph = Api.CreateParagraph();
-paragraph.AddText("Shapes are ungrouped");
-docContent1.AddElement(0, paragraph);
-let docContent2 = shape2.GetContent();
-paragraph = Api.CreateParagraph();
-paragraph.AddText("Shapes are ungrouped");
-docContent2.AddElement(0, paragraph);
-group.Ungroup();
+shape2.SetWrappingStyle("inFront");
+shape2.SetHorPosition("page", 20 * 36000);
+shape2.SetVerPosition("page", 55 * 36000);
+
+const group = doc.GroupDrawings([shape1, shape2]);
+if (group) {
+	const copy = group.Copy();
+	paragraph.AddDrawing(copy);
+	copy.SetWrappingStyle("inFront");
+	copy.SetHorPosition("page", 90 * 36000);
+	copy.SetVerPosition("page", 20 * 36000);
+	copy.Ungroup();
+}

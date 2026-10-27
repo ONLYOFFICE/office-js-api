@@ -8,7 +8,7 @@ const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);
 slide.RemoveAllObjects();
 
-let rgb = Api.CreateRGBColor(50, 100, 150);
+let rgb = Api.RGB(50, 100, 150);
 let fill = Api.CreateSolidFill(rgb);
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());
 let shape = Api.CreateShape('rect', 300 * 36000, 100 * 36000, fill, stroke);
@@ -19,7 +19,7 @@ shape.SetPlaceholder(placeholder);
 placeholder.SetIndex(42);
 slide.AddObject(shape);
 
-rgb = Api.CreateRGBColor(50, 100, 150);
+rgb = Api.RGB(50, 100, 150);
 fill = Api.CreateSolidFill(rgb);
 stroke = Api.CreateStroke(0, Api.CreateNoFill());
 shape = Api.CreateShape('rect', 300 * 36000, 10 * 36000, fill, stroke);

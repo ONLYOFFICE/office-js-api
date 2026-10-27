@@ -8,7 +8,7 @@ const doc = Api.GetDocument();
 let firstParagraph = doc.GetElement(0);
 
 const stroke = Api.CreateStroke(0, Api.CreateNoFill());
-const fill = Api.CreateSolidFill(Api.CreateRGBColor(100, 150, 200));
+const fill = Api.CreateSolidFill(Api.RGB(100, 150, 200));
 const drawing = Api.CreateShape("rect", 100 * 36000, 20 * 36000, fill, stroke);
 firstParagraph.AddDrawing(drawing);
 

@@ -25,5 +25,5 @@ let formatConditions = dataRange.GetFormatConditions();
 
 let top10Condition = formatConditions.AddTop10();
 if (top10Condition) {
-    top10Condition.SetFillColor(Api.CreateColorFromRGB(255, 215, 0));
+    top10Condition.SetFillColor(Api.RGB(255, 215, 0));
 }

@@ -1,6 +1,6 @@
 // Identify the class type of a custom XML node object in a document.
 
-// How do I get the class type of a custom XML node in a document?
+// Get the class type of a custom XML node in a document.
 
 // Confirm what kind of object a node is before working with it programmatically in a document.
 

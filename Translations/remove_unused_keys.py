@@ -35,6 +35,8 @@ for dir_name in directories:
     removed_count = 0
 
     for key in unused_keys.keys():
+        if key == '':
+            continue
         if key in target:
             del target[key]
             removed_count += 1

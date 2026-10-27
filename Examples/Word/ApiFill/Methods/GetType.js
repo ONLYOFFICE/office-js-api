@@ -8,7 +8,7 @@ let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 
 // Solid fill
-let solidFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 200, 100));
+let solidFill = Api.CreateSolidFill(Api.RGB(255, 200, 100));
 let stroke = Api.CreateStroke(0, Api.CreateNoFill());
 let shape1 = Api.CreateShape("rect", 50 * 36000, 30 * 36000, solidFill, stroke);
 paragraph.AddDrawing(shape1);
@@ -17,8 +17,8 @@ paragraph.AddText("Solid fill type: " + fill1.GetType());
 paragraph.AddLineBreak();
 
 // Gradient fill
-let gs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);
-let gs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);
+let gs1 = Api.CreateGradientStop(Api.RGB(255, 213, 191), 0);
+let gs2 = Api.CreateGradientStop(Api.RGB(255, 111, 61), 100000);
 let gradientFill = Api.CreateLinearGradientFill([gs1, gs2], 5400000);
 let shape2 = Api.CreateShape("rect", 50 * 36000, 30 * 36000, gradientFill, stroke);
 paragraph.AddDrawing(shape2);

@@ -5,6 +5,7 @@
 // Display the classification of a PDF document in a PDF.
 
 let doc = Api.GetDocument();
+doc.AddPage(0);
 let page = doc.GetPage(0);
 let textField = Api.CreateTextField([10, 10, 160, 32]);
 page.AddObject(textField);

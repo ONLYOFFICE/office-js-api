@@ -41,6 +41,9 @@ for dir_name in directories:
         else:
             print(f'[{dir_name}] Already exists: "{key[:50]}..."')
 
+    if '' in target:
+        target[''] = target.pop('')
+
     with open(target_path, 'w', encoding='utf-8') as f:
         json.dump(target, f, indent=4, ensure_ascii=False)
 

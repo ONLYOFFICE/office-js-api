@@ -1,6 +1,6 @@
 // Retrieve every attribute attached to an XML node in a spreadsheet.
 
-// How do I list all attributes of a custom XML element in a spreadsheet?
+// List all attributes of a custom XML element in a spreadsheet.
 
 // Loop through the complete set of attributes on an embedded XML node and display them in a spreadsheet.
 

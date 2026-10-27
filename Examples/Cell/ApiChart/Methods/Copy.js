@@ -12,7 +12,7 @@ worksheet.GetRange("A2").SetValue("Projected Revenue");
 worksheet.GetRange("B2").SetValue(200);
 worksheet.GetRange("C2").SetValue(240);
 worksheet.GetRange("D2").SetValue(280);
-let chart = worksheet.AddChart("'Sheet1'!$A$1:$D$2", true, "bar3D", 2, 100 * 36000, 70 * 36000, 0, 2 * 36000, 7, 3 * 36000);
+let chart = worksheet.AddChart("'Sheet1'!$A$1:$D$2", true, "3DColumnClustered", 2, 100 * 36000, 70 * 36000, 0, 2 * 36000, 7, 3 * 36000);
 
 let copyChart = chart.Copy();
 worksheet.AddDrawing(copyChart, 6, 2 * 36000, 7, 3 * 36000);

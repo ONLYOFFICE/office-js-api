@@ -23,7 +23,7 @@ if (criteria && criteria.length > 0) {
     worksheet.GetRange("C1").SetValue("Before Color:");
     worksheet.GetRange("C2").SetValue(criteria[0].GetColor() ? "Set" : "None");
     
-    let newColor = Api.CreateColorFromRGB(255, 0, 0);
+    let newColor = Api.RGB(255, 0, 0);
     criteria[0].SetColor(newColor);
     
     worksheet.GetRange("C3").SetValue("After Color:");
