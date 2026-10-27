@@ -1,6 +1,6 @@
 // Add a colored border to the left side of a table cell in a presentation.
 
-// How do I add a colored border to the left side of a table cell in a presentation?
+// Set the border type, size, and color of the left edge of a cell in a presentation.
 
 // Create a table and apply a left border with a solid color fill in a presentation.
 

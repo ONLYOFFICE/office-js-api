@@ -1,6 +1,6 @@
 // Apply a background color to a table cell in a presentation.
 
-// How do I fill a table cell with a color in a presentation?
+// Use cell shading to highlight a table cell in a presentation.
 
 // Create a table and set a solid color background for a cell in a presentation.
 

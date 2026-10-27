@@ -1,6 +1,6 @@
 // Add a colored border to the top side of a table cell in a presentation.
 
-// How do I add a colored border to the top of a table cell in a presentation?
+// Set the border type, size, and color of the top edge of a cell in a presentation.
 
 // Create a table and apply a top border with a solid color fill in a presentation.
 
