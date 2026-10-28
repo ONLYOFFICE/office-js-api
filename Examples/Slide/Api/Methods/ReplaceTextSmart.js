@@ -21,8 +21,8 @@ firstParagraph.AddText("This is the text for the first line. The line break is a
 firstParagraph.AddLineBreak();
 
 const secondParagraph = Api.CreateParagraph();
-secondParagraph.AddTabStop();
-secondParagraph.AddText("This is just a sample text with a tab stop before it.");
+secondParagraph.AddText("\t");
+secondParagraph.AddText("This is just a sample text with a tab character before it.");
 docContent.AddElement(secondParagraph);
 slide.AddObject(shape);
 // todo_example problem (how to make select in slide)

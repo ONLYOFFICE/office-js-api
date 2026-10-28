@@ -20,11 +20,11 @@ paragraph.RemoveAllElements();
 
 let run = Api.CreateRun();
 run.AddText("Number of paragraph elements at this point: ");
-run.AddTabStop();
+run.AddText("\t");
 run.AddText("" + paragraph.GetElementsCount());
 run.AddLineBreak();
 paragraph.AddElement(run);
 run.AddText("Number of paragraph elements after we added a text run: ");
-run.AddTabStop();
+run.AddText("\t");
 run.AddText("" + paragraph.GetElementsCount());
 slide.AddObject(shape);
