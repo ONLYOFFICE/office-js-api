@@ -563,11 +563,8 @@
     "Checks if the document is in the editing PDF form mode.": "检查文档是否处于 PDF 表单编辑模式。",
     "Checks if the document is in the filling form mode.": "检查文档是否处于表单填写模式。",
     "Checks if the document is in the filling PDF form mode.": "检查文档是否处于 PDF 表单填写模式。",
-    "Enables or disables the plugin button displayed in the editor interface. The plugin button state is managed by the editor unless the plugin variation sets the manageButtonState flag.": "启用或禁用编辑器界面中显示的插件按钮。除非插件变体设置了 manageButtonState 标志，否则插件按钮的状态由编辑器管理。",
-    "Specifies whether to disable (**true**) or enable (**false**) the plugin button.": "指定是禁用（**true**）还是启用（**false**）插件按钮。",
     "The function called when the editor changes the list of reasons for disabling the plugin button.": "当编辑器更改禁用插件按钮的原因列表时调用的函数。",
     "The reasons why the plugin button must be disabled. An empty array means that nothing blocks the button.": "插件按钮必须被禁用的原因。空数组表示没有任何因素阻止该按钮。",
-    "Disable the plugin button while the plugin prepares its data.": "插件准备数据时禁用插件按钮。",
-    "Decide whether the plugin button must be disabled when the editor toolbar is masked.": "当编辑器工具栏被遮罩时，决定是否禁用插件按钮。",
+    "Disable the plugin toolbar button only when the connection to the server is lost.": "仅在与服务器的连接断开时禁用插件工具栏按钮。",
     "": ""
 }
