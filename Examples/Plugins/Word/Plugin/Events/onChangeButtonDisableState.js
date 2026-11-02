@@ -1,8 +1,8 @@
 // Disable the plugin toolbar button only when the connection to the server is lost.
 
-// How do I keep the plugin button available while the editor toolbar is blocked for other reasons?
+// How do I keep the plugin toolbar button available while the editor toolbar is blocked for other reasons?
 
-// Let the plugin manage the state of its toolbar button and disable it only when the editor is reconnecting to the server.
+// Let the plugin disable its toolbar button only on reconnecting, while the editor still disables it when the document is loading or being refreshed, or the About panel is open.
 
 window.Asc.plugin.init = function() {
     let tab = new Asc.ButtonToolbar(null);

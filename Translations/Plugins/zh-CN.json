@@ -564,7 +564,7 @@
     "Checks if the document is in the filling form mode.": "检查文档是否处于表单填写模式。",
     "Checks if the document is in the filling PDF form mode.": "检查文档是否处于 PDF 表单填写模式。",
     "The function called when the editor changes the list of reasons for disabling the plugin button.": "当编辑器更改禁用插件按钮的原因列表时调用的函数。",
-    "The reasons why the plugin button must be disabled. An empty array means that nothing blocks the button.": "插件按钮必须被禁用的原因。空数组表示没有任何因素阻止该按钮。",
+    "The reasons why the plugin button must be disabled. An empty array means that the editor toolbar is not blocked.": "插件按钮必须被禁用的原因。空数组表示编辑器工具栏未被阻止。",
     "Disable the plugin toolbar button only when the connection to the server is lost.": "仅在与服务器的连接断开时禁用插件工具栏按钮。",
     "": ""
 }
