@@ -1690,7 +1690,7 @@
     "The possible values for the base which the relative horizontal positioning of an object will be calculated from.": "用于计算对象相对水平定位的基准的可能值。",
     "The possible values for the base which the relative vertical positioning of an object will be calculated from.": "用于计算对象相对垂直定位的基准的可能值。",
     "English measure unit. 1 mm = 36000 EMUs, 1 inch = 914400 EMUs.": "英制度量单位。1 毫米 = 36000 EMU，1 英寸 = 914400 EMU。",
-    "This type specifies the preset shape geometry that will be used for a shape.": "此类型指定将用于形状的预设形状几何图形。",
+    "This type specifies the preset shape geometry that will be used for a shape. Unknown values are replaced with \"rect\". The \"textRect\" value means a text box with the \"rect\" geometry.": "此类型指定将用于形状的预设形状几何图形。未知值将被替换为 \"rect\"。\"textRect\" 值表示几何图形为 \"rect\" 的文本框。",
     "This type specifies the formula type that will be used for a geometry guide.": "此类型指定将用于几何参考线的公式类型。",
     "This type specifies the available chart types which can be used to create a new chart.": "此类型指定可用于创建新图表的可用图表类型。",
     "This type specifies the type of drawing lock.": "此类型指定绘图锁的类型。",
@@ -11795,7 +11795,7 @@
     "Create a shadow and apply it to a shape in a presentation.": "在演示文稿中创建阴影并将其应用于形状。",
     "Convert pixels to english metric units in a presentation.": "在演示文稿中将像素转换为英制度量单位。",
     "Set of colors which are referred to as a color scheme. The color scheme is responsible for defining a list of twelve colors. The array must hold exactly twelve colors in this order: accent1, accent2, accent3, accent4, accent5, accent6, dk1, dk2, folHlink, hlink, lt1, lt2. A color may also be given as a HEX string (\"#1a2b3c\" or \"#abc\", with or without the leading \"#\").": "称为配色方案的一组颜色。配色方案负责定义包含十二种颜色的列表。该数组必须按以下顺序恰好包含十二种颜色：accent1、accent2、accent3、accent4、accent5、accent6、dk1、dk2、folHlink、hlink、lt1、lt2。颜色也可以以 HEX 字符串形式给出（\"#1a2b3c\" 或 \"#abc\"，可带或不带前导 \"#\"）。",
-    "The shape type which specifies the preset shape geometry. The \"textRect\" type creates a text box: it has no fill and no outline, uses the theme text color, and its height follows the text.": "指定预设形状几何图形的形状类型。\"textRect\" 类型会创建文本框：它没有填充和轮廓，使用主题文本颜色，且其高度随文本变化。",
+    "The shape type which specifies the preset shape geometry. An unknown type is replaced with \"rect\". The \"textRect\" type creates a text box with the \"rect\" geometry: it has no fill and no outline, uses the theme text color, and its height follows the text.": "指定预设形状几何图形的形状类型。未知类型将被替换为 \"rect\"。\"textRect\" 类型会创建几何图形为 \"rect\" 的文本框：它没有填充和轮廓，使用主题文本颜色，且其高度随文本变化。",
     "The color or pattern used to fill the shape. If not specified, the default shape style fill (theme accent) is used, a text box has no fill.": "用于填充形状的颜色或图案。如果未指定，则使用默认形状样式填充（主题强调色），文本框没有填充。",
     "The stroke used to draw the shape outline. If not specified, the default shape style outline (theme accent) is used, a text box has no outline.": "用于绘制形状轮廓的笔触。如果未指定，则使用默认形状样式轮廓（主题强调色），文本框没有轮廓。",
     "Creates a group of drawings.\n\n:::note\nThe drawings must not be added to the presentation. To group the drawings which are already in the presentation, use the [ApiSlide#GroupDrawings](../../ApiSlide/Methods/GroupDrawings.md) method.\n:::": "创建绘图对象组。\n\n:::note\n绘图对象不得已添加到演示文稿中。要组合已在演示文稿中的绘图对象，请使用 [ApiSlide#GroupDrawings](../../ApiSlide/Methods/GroupDrawings.md) 方法。\n:::",
@@ -12086,7 +12086,7 @@
     "The position of the upper-left corner of the annotation. For a Rect, only x1 and y1 are used.": "注释左上角的位置。对于 Rect，仅使用 x1 和 y1。",
     "The image source where the image should be taken from (currently, only internet URL or Base64 encoded images are supported).": "图像的来源（目前仅支持 Internet URL 或 Base64 编码的图像）。",
     "Add an image stamp annotation to a PDF page.": "向 PDF 页面添加图像图章注释。",
-    "The shape type which specifies the preset shape geometry. The \"textRect\" type creates a text box: it has no fill and no outline, and its height follows the text.": "指定预设形状几何图形的形状类型。\"textRect\" 类型会创建文本框：它没有填充和轮廓，且其高度随文本变化。",
+    "The shape type which specifies the preset shape geometry. An unknown type is replaced with \"rect\". The \"textRect\" type creates a text box with the \"rect\" geometry: it has no fill and no outline, and its height follows the text.": "指定预设形状几何图形的形状类型。未知类型将被替换为 \"rect\"。\"textRect\" 类型会创建几何图形为 \"rect\" 的文本框：它没有填充和轮廓，且其高度随文本变化。",
     "Create a reusable table row properties object in a PDF.": "在 PDF 中创建可重用的表格行属性对象。",
     "Get an object by its internal ID in a PDF.": "在 PDF 中按内部 ID 获取对象。",
     "Gets document calculate fields order": "获取文档字段计算顺序",
@@ -12528,5 +12528,6 @@
     "Move the cursor to the end of a signature form in a document.": "将光标移动到文档中签名表单的末尾。",
     "Get a conditional formatting part of a presentation table style.": "获取演示文稿表格样式的条件格式部分。",
     "Extract the plain text content from a text run in a PDF.": "从 PDF 中的文本运行提取纯文本内容。",
+    "The shape type which specifies the preset shape geometry. An unknown type is replaced with \"rect\". The \"textRect\" type creates a text box with the \"rect\" geometry, as the editor inserts it: a light fill and a thin black outline.": "指定预设形状几何图形的形状类型。未知类型将被替换为 \"rect\"。\"textRect\" 类型会以编辑器插入文本框的方式创建几何图形为 \"rect\" 的文本框：浅色填充和黑色细轮廓。",
     "": ""
 }
