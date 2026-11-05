@@ -21,7 +21,7 @@ const run = Api.CreateRun();
 run.AddText('Visit ONLYOFFICE for developers');
 paragraph.AddElement(run, 0);
 
-const hyperlink = run.AddHyperlink('https://api.onlyoffice.com', 'NO SCREEN TIP');
+const hyperlink = shape.GetTextRange().AddHyperlink('https://api.onlyoffice.com', 'NO SCREEN TIP');
 
 hyperlink.SetScreenTipText('ONLYOFFICE for developers');
 worksheet.GetRange('A1').SetValue('Screen tip: ' + hyperlink.GetScreenTipText());

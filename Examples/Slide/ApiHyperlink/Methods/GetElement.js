@@ -25,7 +25,7 @@ paragraph.AddElement(run2, 1);
 const infoParagraph = Api.CreateParagraph();
 let hyperlink, element;
 
-hyperlink = paragraph.AddHyperlink('https://api.onlyoffice.com');
+hyperlink = shape.GetTextRange().AddHyperlink('https://api.onlyoffice.com');
 element = hyperlink.GetElement(0);
 if (element) {
 	infoParagraph.AddText('The element at position 0 in the text hyperlink is: ' + element.GetText());

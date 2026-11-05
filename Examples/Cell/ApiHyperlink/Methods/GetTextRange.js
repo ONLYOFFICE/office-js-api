@@ -10,9 +10,8 @@ let stroke = Api.CreateStroke(0, Api.CreateNoFill());
 let shape = worksheet.AddShape("rect", 150 * 36000, 65 * 36000, fill, stroke, 0, 2 * 36000, 2, 3 * 36000);
 
 let docContent = shape.GetContent();
-let paragraph = docContent.GetElement(0);
-paragraph.AddText("Open ");
-let hyperlink = paragraph.AddHyperlink("https://www.onlyoffice.com", "ONLYOFFICE");
+docContent.GetElement(0).AddText("Open ONLYOFFICE website");
+let hyperlink = shape.GetTextRange().GetRange(5, 23).AddHyperlink("https://www.onlyoffice.com", "ONLYOFFICE website");
 
 let range = hyperlink.GetTextRange();
 range.SetItalic(true);

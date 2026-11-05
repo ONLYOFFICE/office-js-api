@@ -25,7 +25,7 @@ paragraph.AddElement(run2, 1);
 const infoParagraph = Api.CreateParagraph();
 let hyperlink;
 
-hyperlink = paragraph.AddHyperlink('https://api.onlyoffice.com');
+hyperlink = shape.GetTextRange().AddHyperlink('https://api.onlyoffice.com');
 infoParagraph.AddText('Text hyperlink elements count: ' + hyperlink.GetElementsCount());
 infoParagraph.AddLineBreak();
 

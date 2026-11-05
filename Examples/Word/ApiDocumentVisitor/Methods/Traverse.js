@@ -1,6 +1,6 @@
 // Traverse a document with a document visitor and count its paragraphs, tables and characters.
 
-// How do I walk through all paragraphs, tables and text of a document?
+// The visitor calls the assigned hooks for every paragraph, table and piece of text, including the content of table cells.
 
 // Add a paragraph and a table, count what the visitor finds and write the result into a new paragraph.
 

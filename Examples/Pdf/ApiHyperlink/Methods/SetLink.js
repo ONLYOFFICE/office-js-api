@@ -18,5 +18,5 @@ let paragraph = docContent.GetElement(0);
 let run = Api.CreateRun();
 run.AddText("Visit ONLYOFFICE for developers");
 paragraph.AddElement(run);
-let hyperlink = paragraph.AddHyperlink("https://www.onlyoffice.com");
+let hyperlink = shape.GetTextRange().AddHyperlink("https://www.onlyoffice.com");
 hyperlink.SetLink("https://api.onlyoffice.com");

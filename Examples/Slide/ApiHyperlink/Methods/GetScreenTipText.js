@@ -22,7 +22,7 @@ paragraph.AddElement(run);
 const infoParagraph = Api.CreateParagraph();
 let hyperlink;
 
-hyperlink = paragraph.AddHyperlink('https://api.onlyoffice.com');
+hyperlink = shape.GetTextRange().AddHyperlink('https://api.onlyoffice.com');
 hyperlink.SetScreenTipText('ONLYOFFICE for developers');
 infoParagraph.AddText('Text hyperlink screen tip: ' + hyperlink.GetScreenTipText());
 infoParagraph.AddLineBreak();

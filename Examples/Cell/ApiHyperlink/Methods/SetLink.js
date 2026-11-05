@@ -21,7 +21,7 @@ const run = Api.CreateRun();
 run.AddText('Visit ONLYOFFICE for developers');
 paragraph.AddElement(run, 0);
 
-const hyperlink = run.AddHyperlink('https://api.onlyoffice.com', 'ONLYOFFICE for developers');
+const hyperlink = shape.GetTextRange().AddHyperlink('https://api.onlyoffice.com', 'ONLYOFFICE for developers');
 
 hyperlink.SetLink('https://helpcenter.onlyoffice.com');
 worksheet.GetRange('A1').SetValue('New link: ' + hyperlink.GetLinkedText());

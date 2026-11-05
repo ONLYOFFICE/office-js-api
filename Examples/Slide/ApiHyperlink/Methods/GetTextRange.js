@@ -15,9 +15,8 @@ shape.SetPosition(608400, 1267200);
 slide.AddObject(shape);
 
 const docContent = shape.GetDocContent();
-const paragraph = docContent.GetElement(0);
-paragraph.AddText("Open ");
-const hyperlink = paragraph.AddHyperlink("https://www.onlyoffice.com", "ONLYOFFICE");
+docContent.GetElement(0).AddText("Open ONLYOFFICE website");
+const hyperlink = shape.GetTextRange().GetRange(5, 23).AddHyperlink("https://www.onlyoffice.com", "ONLYOFFICE website");
 
 const range = hyperlink.GetTextRange();
 range.SetItalic(true);

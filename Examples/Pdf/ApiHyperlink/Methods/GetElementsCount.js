@@ -21,7 +21,7 @@ paragraph.AddElement(run1, 0);
 let run2 = Api.CreateRun();
 run2.AddText(" for developers");
 paragraph.AddElement(run2, 1);
-let hyperlink = paragraph.AddHyperlink("https://api.onlyoffice.com");
+let hyperlink = shape.GetTextRange().AddHyperlink("https://api.onlyoffice.com");
 let elementsCount = hyperlink.GetElementsCount();
 paragraph = Api.CreateParagraph();
 paragraph.AddText("Number of elements in hyperlink: " + elementsCount);
