@@ -1194,7 +1194,7 @@
     "The stroke used to create the shape outline.": "用于创建形状轮廓的笔触。",
     "Sets a style to the current chart by style ID.": "通过样式 ID 为当前图表设置样式。",
     "Returns all series from the chart space.": "返回图表空间中的所有系列。",
-    "Returns a type of the chart object.": "返回图表对象的类型。",
+    "Returns a type of the chart object using the legacy chart type names. To get a chart type name that can be used to create a chart, use the GetType method.": "使用旧版图表类型名称返回图表对象的类型。若要获取可用于创建图表的图表类型名称，请使用 GetType 方法。",
     "Returns a type of the ApiChart class.": "返回 ApiChart 类的类型。",
     "Returns the next inline chart if exists.": "返回下一个内联图表（如果存在）。",
     "Returns the previous inline chart if exists.": "返回上一个内联图表（如果存在）。",
