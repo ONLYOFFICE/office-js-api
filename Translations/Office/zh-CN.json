@@ -12526,5 +12526,7 @@
     "Move the cursor to the end of a complex form in a document.": "将光标移动到文档中复合表单的末尾。",
     "Move the cursor to the start of a signature form in a document.": "将光标移动到文档中签名表单的开头。",
     "Move the cursor to the end of a signature form in a document.": "将光标移动到文档中签名表单的末尾。",
+    "Get a conditional formatting part of a presentation table style.": "获取演示文稿表格样式的条件格式部分。",
+    "Extract the plain text content from a text run in a PDF.": "从 PDF 中的文本运行提取纯文本内容。",
     "": ""
 }
