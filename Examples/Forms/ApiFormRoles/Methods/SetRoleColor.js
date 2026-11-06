@@ -7,7 +7,7 @@
 let doc = Api.GetDocument();
 let roles = doc.GetFormRoles();
 roles.Add("Customer");
-roles.SetRoleColor("Customer", "#C6E0B3");
+roles.SetRoleColor("Customer", Api.RGB(198, 224, 179));
 doc.InsertTextForm({
 	key: "Name",
 	role: "Customer",

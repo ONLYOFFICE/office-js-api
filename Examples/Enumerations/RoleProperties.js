@@ -4,5 +4,5 @@
 
 // Add a "customer" role with the specified color.
 
-let rolePr = {"color": "#ffefbf"};
+let rolePr = {"color": Api.RGB(255, 239, 191)};
 formRoles.Add("customer", rolePr);

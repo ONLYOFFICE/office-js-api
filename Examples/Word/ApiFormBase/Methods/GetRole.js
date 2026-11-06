@@ -8,7 +8,7 @@ const doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 
 const roles = doc.GetFormRoles();
-const rolePr = { "color": "#ffefbf" };
+const rolePr = { "color": Api.RGB(255, 239, 191) };
 roles.Add("MY_ROLE", rolePr);
 
 const textForm = Api.CreateTextForm({
