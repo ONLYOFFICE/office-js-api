@@ -563,10 +563,10 @@
     "Checks if the document is in the editing PDF form mode.": "检查文档是否处于 PDF 表单编辑模式。",
     "Checks if the document is in the filling form mode.": "检查文档是否处于表单填写模式。",
     "Checks if the document is in the filling PDF form mode.": "检查文档是否处于 PDF 表单填写模式。",
-    "The function called when the editor changes the list of reasons for disabling the plugin button.": "当编辑器更改禁用插件按钮的原因列表时调用的函数。",
-    "The reasons why the plugin button must be disabled. An empty array means that the editor toolbar is not blocked.": "插件按钮必须被禁用的原因。空数组表示编辑器工具栏未被阻止。",
+    "The function called when the list of reasons for disabling the editor toolbar changes.": "当禁用编辑器工具栏的原因列表发生更改时调用的函数。",
+    "The reasons why the editor toolbar is disabled. An empty array means that the editor toolbar is not disabled.": "编辑器工具栏被禁用的原因。空数组表示编辑器工具栏未被禁用。",
     "Disable the plugin toolbar button only when the connection to the server is lost.": "仅在与服务器的连接断开时禁用插件工具栏按钮。",
-    "Returns the reasons why the plugin button must be disabled, the same as the onChangeButtonDisableState event passes.": "返回插件按钮必须被禁用的原因，与 onChangeButtonDisableState 事件传递的相同。",
-    "Log the reasons why the editor toolbar is blocked when the plugin starts.": "记录插件启动时编辑器工具栏被阻止的原因。",
+    "Returns the reasons why the editor toolbar is disabled, the same as the onChangeToolbarDisableReasons event passes.": "返回编辑器工具栏被禁用的原因，与 onChangeToolbarDisableReasons 事件传递的相同。",
+    "Log the reasons why the editor toolbar is disabled when the plugin starts.": "记录插件启动时编辑器工具栏被禁用的原因。",
     "": ""
 }
