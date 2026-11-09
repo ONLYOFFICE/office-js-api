@@ -1,6 +1,6 @@
 // Disable the plugin toolbar button only when the connection to the server is lost.
 
-// How do I keep the plugin toolbar button available while the editor toolbar is disabled for other reasons?
+// Keep the plugin toolbar button available while the editor toolbar is disabled for other reasons.
 
 // Let the plugin disable its toolbar button only on reconnecting, while the editor still disables it when the document is loading or being refreshed, or the About panel is open.
 
