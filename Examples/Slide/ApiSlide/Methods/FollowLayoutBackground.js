@@ -7,8 +7,8 @@
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);
 
-const master = presentation.GetMaster(0);
-const layout = master.GetLayout(0);
+const layout = slide.GetLayout();
 const fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 layout.SetBackground(fill);
+slide.SetBackground(Api.CreateSolidFill(Api.RGB(255, 255, 255)));
 slide.FollowLayoutBackground();

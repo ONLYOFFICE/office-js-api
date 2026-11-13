@@ -37,4 +37,5 @@ pivotTable.AddDataField('Price');
 
 let pivotWorksheet = Api.GetActiveSheet();
 let pivotField = pivotTable.GetPivotFields('Region');
+pivotField.GetPivotItems()[0].SetVisible(false);
 pivotField.ClearManualFilters();

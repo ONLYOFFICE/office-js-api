@@ -21,4 +21,5 @@ Api.GetPivotByName(pivotTable.GetName()).AddFields({
 });
 
 Api.GetPivotByName(pivotTable.GetName()).AddDataField('Price');
+worksheet.GetRange('C2').SetValue(100);
 Api.RefreshAllPivots();

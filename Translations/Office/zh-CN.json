@@ -5981,7 +5981,7 @@
     "Add a label to the vertical axis of a chart in a document.": "为文档中图表的垂直轴添加标签。",
     "Reverse the direction of the vertical axis on a chart in a document.": "反转文档中图表垂直轴的方向。",
     "Reverse the direction of the horizontal axis on a chart in a document.": "反转文档中图表水平轴的方向。",
-    "Position the chart legend at the bottom of the chart in a document.": "将文档中图表的图例定位在图表底部。",
+    "Position the chart legend on the right of the chart in a document.": "将文档中图表的图例定位在图表右侧。",
     "Set the font size of the chart legend text in a document.": "设置文档中图表图例文本的字体大小。",
     "Control which data label elements are visible on a chart in a document.": "控制文档中图表上哪些数据标签元素可见。",
     "Display the data table beneath a chart in a document.": "在文档中图表下方显示数据表。",

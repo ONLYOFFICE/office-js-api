@@ -8,8 +8,6 @@ const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);
 slide.RemoveAllObjects();
 
-const master = presentation.GetMaster(0);
-
 const colorScheme = Api.CreateThemeColorScheme([
 	Api.RGB(255, 111, 61), Api.RGB(51, 51, 51), Api.RGB(230, 179, 117), Api.RGB(235, 235, 235),
 	Api.RGB(163, 21, 21), Api.RGB(128, 43, 43), Api.RGB(0, 0, 0), Api.RGB(128, 128, 128),
@@ -32,7 +30,8 @@ const formatScheme = Api.CreateThemeFormatScheme([fill1, fill2, fill3], [bgFill1
 
 const fontScheme = Api.CreateThemeFontScheme("Arial", "Noto Sans Simplified Chinese", "Arabic", "Times New Roman", "Noto Serif Simplified Chinese", "Arabic", "New font scheme");
 
-const theme = Api.CreateTheme("New theme", master, colorScheme, formatScheme, fontScheme);
+const themeMaster = presentation.GetMaster(0).Copy();
+const theme = Api.CreateTheme("New theme", themeMaster, colorScheme, formatScheme, fontScheme);
 slide.ApplyTheme(theme);
 
 const chart = Api.CreateChart("3DColumnClustered", [

@@ -6,7 +6,8 @@
 
 const presentation = Api.GetPresentation();
 const slide = presentation.GetSlideByIndex(0);
-const master = presentation.GetMaster(0);
+const master = Api.CreateMaster();
+presentation.AddMaster(presentation.GetMastersCount(), master);
 
 const countBefore = presentation.GetMastersCount();
 master.Delete();

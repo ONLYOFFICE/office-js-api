@@ -29,7 +29,8 @@ const stroke3 = Api.CreateStroke(0, fill1);
 
 const formatScheme = Api.CreateThemeFormatScheme([fill1, fill2, fill3], [bgFill1, bgFill2, bgFill3], [stroke1, stroke2, stroke3], "New format scheme");
 const fontScheme = Api.CreateThemeFontScheme("Arial", "Noto Sans Simplified Chinese", "Arabic", "Times New Roman", "Noto Serif Simplified Chinese", "Arabic", "New font scheme");
-const theme = Api.CreateTheme("New theme", master, colorScheme, formatScheme, fontScheme);
+const themeMaster = Api.CreateMaster();
+const theme = Api.CreateTheme("New theme", themeMaster, colorScheme, formatScheme, fontScheme);
 master.SetTheme(theme);
 
 const chart = Api.CreateChart("3DColumnClustered", [

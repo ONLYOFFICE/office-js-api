@@ -35,4 +35,5 @@ pivotTable.AddFields({
 
 pivotTable.AddDataField('Price');
 
+worksheet.GetRange('D2').SetValue(100);
 pivotTable.Update();

@@ -11,6 +11,7 @@ let stroke = Api.CreateStroke(0, Api.CreateNoFill());
 let drawing = Api.CreateShape("rect", 3212465, 963295, fill, stroke);
 paragraph.AddDrawing(drawing);
 let docContent = drawing.GetDocContent();
+docContent.GetElement(0).AddText("Temporary text to remove.");
 docContent.RemoveAllElements();
 paragraph = Api.CreateParagraph();
 paragraph.SetJc("left");

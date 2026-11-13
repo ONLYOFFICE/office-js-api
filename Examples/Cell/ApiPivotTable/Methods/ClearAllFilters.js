@@ -28,4 +28,7 @@ worksheet.GetRange('D5').SetValue(24.8);
 let dataRef = Api.GetRange("'Sheet1'!$B$1:$D$5");
 let pivotTable = Api.InsertPivotNewWorksheet(dataRef);
 
+pivotTable.AddFields({rows: 'Region', columns: 'Style'});
+pivotTable.AddDataField('Price');
+pivotTable.GetPivotFields('Region').PivotFilters.Add("xlCaptionEquals", null, "East");
 pivotTable.ClearAllFilters();

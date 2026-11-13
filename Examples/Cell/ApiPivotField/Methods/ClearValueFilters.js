@@ -37,4 +37,5 @@ pivotTable.AddDataField('Price');
 
 let pivotWorksheet = Api.GetActiveSheet();
 let pivotField = pivotTable.GetPivotFields('Region');
+pivotField.PivotFilters.Add("xlValueIsGreaterThan", pivotTable.GetDataFields()[0], 55);
 pivotField.ClearValueFilters();

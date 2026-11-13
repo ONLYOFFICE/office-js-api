@@ -25,10 +25,6 @@ secondParagraph.AddText("\t");
 secondParagraph.AddText("This is just a sample text with a tab character before it.");
 docContent.AddElement(secondParagraph);
 slide.AddObject(shape);
-// todo_example problem (how to make select in slide)
-// const range1 = firstParagraph.GetRange();
-// const range2 = secondParagraph.GetRange();
-// const range3 = range1.ExpandTo(range2);
-// range3.Select();
+shape.GetTextRange().Select();
 const arr = ["test_1", "test_2"];
 Api.ReplaceTextSmart(arr, "", "");

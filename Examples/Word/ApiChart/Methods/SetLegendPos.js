@@ -1,8 +1,8 @@
-// Position the chart legend at the bottom of the chart in a document.
+// Position the chart legend on the right of the chart in a document.
 
 // How do I move the legend to a different side of the chart in a document?
 
-// Relocate the legend below the chart to keep it from overlapping the data area in a document.
+// Relocate the legend beside the chart to keep it from overlapping the data area in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
@@ -16,7 +16,7 @@ fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 chart.SetSeriesFill(fill, 1, false);
 chart.SetVerAxisTitle("USD In Hundred Thousands", 20);
 chart.SetHorAxisTitle("Year", 22);
-chart.SetLegendPos("bottom");
+chart.SetLegendPos("right");
 chart.SetShowDataLabels(false, false, true, false);
 chart.SetTitle("Financial Overview", 26);
 paragraph.AddDrawing(chart);

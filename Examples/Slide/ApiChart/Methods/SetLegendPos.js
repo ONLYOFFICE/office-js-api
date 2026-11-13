@@ -14,7 +14,7 @@ const chart = Api.CreateChart("3DColumnClustered", [
 ], ["Projected Revenue", "Estimated Costs"], [2014, 2015, 2016], 4051300, 2347595, 24);
 chart.SetVerAxisTitle("USD In Hundred Thousands", 20);
 chart.SetHorAxisTitle("Year", 22);
-chart.SetLegendPos("bottom");
+chart.SetLegendPos("right");
 chart.SetShowDataLabels(false, false, true, false);
 chart.SetTitle("Financial Overview", 26);
 chart.SetSize(300 * 36000, 130 * 36000);

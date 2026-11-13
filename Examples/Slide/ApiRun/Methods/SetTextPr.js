@@ -18,7 +18,7 @@ const paragraph = docContent.GetElement(0);
 const run = Api.CreateRun();
 run.AddText("This is a sample text with the font size set to 15 points and the font weight set to bold.");
 
-const textPr = run.GetTextPr();
+const textPr = Api.CreateTextPr();
 textPr.SetFontSize(30);
 textPr.SetBold(true);
 run.SetTextPr(textPr);
