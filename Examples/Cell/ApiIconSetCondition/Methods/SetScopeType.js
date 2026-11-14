@@ -16,7 +16,7 @@ let formatConditions = range.GetFormatConditions();
 
 let iconCondition = formatConditions.AddIconSetCondition();
 
-iconCondition.SetScopeType("xlSelectionScope");
+iconCondition.SetScopeType("xlDataFieldScope");
 
 let scopeType = iconCondition.GetScopeType();
 

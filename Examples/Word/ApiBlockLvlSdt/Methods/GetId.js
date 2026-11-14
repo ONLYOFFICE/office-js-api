@@ -6,7 +6,7 @@
 
 let doc = Api.GetDocument();
 let blockLvlSdt = Api.CreateBlockLvlSdt();
-blockLvlSdt.SetId("4815162342");
+blockLvlSdt.SetId(15162342);
 blockLvlSdt.GetContent().GetElement(0).AddText("This is a block text content control with an ID set to it.");
 doc.AddElement(0, blockLvlSdt);
 

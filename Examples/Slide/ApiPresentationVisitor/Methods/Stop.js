@@ -2,7 +2,7 @@
 
 // How do I stop walking a presentation as soon as the first match is found?
 
-// Add text to two slides, then stop at the first paragraph containing the search word.
+// Add text to three slides, then stop at the first paragraph containing the search word.
 
 const presentation = Api.GetPresentation();
 const first = presentation.GetSlideByIndex(0);
@@ -20,6 +20,12 @@ const budget = Api.CreateShape("rect", 300 * 36000, 60 * 36000, fill, stroke);
 budget.SetPosition(608400, 1267200);
 budget.GetDocContent().GetElement(0).AddText("Budget overview");
 second.AddObject(budget);
+const third = Api.CreateSlide();
+presentation.AddSlide(third);
+const details = Api.CreateShape("rect", 300 * 36000, 60 * 36000, fill, stroke);
+details.SetPosition(608400, 1267200);
+details.GetDocContent().GetElement(0).AddText("Budget details");
+third.AddObject(details);
 
 let slideNumber = 0;
 let foundOn = -1;

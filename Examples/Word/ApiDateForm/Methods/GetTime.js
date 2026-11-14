@@ -8,7 +8,7 @@ let doc = Api.GetDocument();
 let dateForm = Api.CreateDateForm({"key": "Nowadays", "tip": "Enter current date", "required": true, "placeholder": "Your date here", "format": "mm.dd.yyyy", "lang": "en-US"});
 let paragraph = doc.GetElement(0);
 paragraph.AddElement(dateForm);
-dateForm.SetTime(new Date().getTime());
+dateForm.SetTime(Date.UTC(2024, 0, 15));
 let timeStamp = dateForm.GetTime();
 paragraph = Api.CreateParagraph();
 paragraph.AddText("The first date form from this document has setted time: " + new Date(timeStamp));

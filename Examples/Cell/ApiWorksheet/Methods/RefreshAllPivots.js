@@ -22,4 +22,5 @@ worksheet.GetAllPivotTables().forEach(function (pivot) {
     pivot.AddDataField('Price');
 });
 
+worksheet.GetRange('C2').SetValue(100);
 worksheet.RefreshAllPivots();

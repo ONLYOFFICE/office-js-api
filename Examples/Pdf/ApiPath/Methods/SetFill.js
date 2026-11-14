@@ -1,8 +1,8 @@
-// Apply a fill color inside a shape path in a PDF.
+// Set the fill mode of a shape path in a PDF.
 
-// Color the interior of a shape in a PDF.
+// Draw the path filled with a lighter shade of the shape fill in a PDF.
 
-// Enable shading for a custom drawn shape in a PDF.
+// Use the lighten fill mode for a custom path; the color itself comes from the shape fill.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -12,7 +12,7 @@ let path = customGeometry.AddPath();
 path.SetWidth(50 * 36000);
 path.SetHeight(50 * 36000);
 path.SetStroke(true);
-path.SetFill("norm");
+path.SetFill("lighten");
 path.MoveTo(50 * 36000, 0);
 path.LineTo(70 * 36000, 45 * 36000);
 path.LineTo(55 * 36000, 70 * 36000);

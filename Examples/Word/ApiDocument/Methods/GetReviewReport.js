@@ -50,7 +50,7 @@ for (let userName in reviewReport) {
     for (let index = 0, count = userChanges.length; index < count; ++index, ++curRow) {
         let changeInfo = userChanges[index];
         cells.push(privateFillCell(curRow, 0, "").Cell);
-        privateFillCell(curRow, 1, (new Date(changeInfo["Date"])).toString());
+        privateFillCell(curRow, 1, (new Date(changeInfo["Date"])).toISOString().slice(0, 10));
         let type = changeInfo["Type"];
         if ("TextAdd" === type) {
             privateFillCell(curRow, 2, "Added text");
@@ -75,7 +75,7 @@ for (let userName in reviewReport) {
         let cellContent = mergedCell.GetContent();
         cellContent.GetElement(0).AddText(userName);
     } else if (cells.length > 0) {
-        cellContent = cells[0].GetContent();
+        let cellContent = cells[0].GetContent();
         cellContent.GetElement(0).AddText(userName);
     }
 }

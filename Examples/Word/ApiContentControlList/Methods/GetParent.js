@@ -6,6 +6,7 @@
 
 let doc = Api.GetDocument();
 let cc = Api.CreateComboBoxContentControl([{display: "Mercury", value: "planet1"}, {display: "Venus", value: "planet2"}, {display: "Earth", value: "planet3"}, {display: "Mars", value: "planet4"}], 2);
+doc.GetElement(0).AddElement(cc);
 let contentControlList = cc.GetDropdownList();
 let parentControl = contentControlList.GetParent();
 let paragraph = Api.CreateParagraph();

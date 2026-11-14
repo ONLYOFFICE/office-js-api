@@ -10,12 +10,12 @@ paragraph.AddText('This paragraph will have a custom ID.');
 
 const customId = 920;
 paragraph.SetParaId(customId);
+const retrievedId = paragraph.GetParaId();
 
 paragraph = Api.CreateParagraph();
 paragraph.AddText('Custom paragraph ID was set to: ' + customId);
 doc.Push(paragraph);
 
-const retrievedId = paragraph.GetParaId();
 paragraph = Api.CreateParagraph();
 paragraph.AddText('Retrieved paragraph ID: ' + retrievedId);
 doc.Push(paragraph);

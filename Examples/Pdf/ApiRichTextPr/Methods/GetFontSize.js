@@ -2,7 +2,7 @@
 
 // How do I see what size the text has been set to in a PDF?
 
-// Retrieve the font point size from formatted text in a PDF.
+// Retrieve the font size in half-points from formatted text in a PDF.
 
 let doc = Api.GetDocument();
 let freeTextAnnot = Api.CreateFreeTextAnnot([160, 50, 360, 135]);
@@ -18,5 +18,6 @@ let run = para.GetElement(0);
 run.AddText("Some example text");
 
 let textPr = run.GetTextPr();
+textPr.SetFontSize(36);
 
-console.log(`The font size property is: ${textPr.GetFontSize()}`);
+console.log(`The font size property is: ${textPr.GetFontSize()} half-points (${textPr.GetFontSize() / 2} pt)`);

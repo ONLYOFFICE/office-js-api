@@ -18,6 +18,7 @@ let table = worksheet.AddListObject("xlSrcRange", "A1:B4");
 let sort = table.GetSort();
 let sortFields = sort.GetSortFields();
 sortFields.Add(worksheet.GetRange("A2:A4"), "xlSortOnValues", "xlAscending");
+worksheet.GetRange("A2").SetValue("Pears");
 sort.Apply();
 
 worksheet.GetRange("D1").SetValue("First product after sort:");

@@ -10,7 +10,7 @@ let customGeometry = Api.CreateCustomGeometry();
 let path = customGeometry.AddPath();
 path.SetWidth(100 * 36000);
 path.SetHeight(100 * 36000);
-path.SetStroke(true);
+path.SetStroke(false);
 path.SetFill("norm");
 path.MoveTo(50 * 36000, 0);
 path.LineTo(70 * 36000, 45 * 36000);

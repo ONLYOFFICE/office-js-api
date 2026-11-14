@@ -24,7 +24,7 @@ let receptions = [];
 for (let i = 0; i < receptionsCount; ++i) 
 {
 	Api.MailMerge(i, i);
-	receptions.push(doc.GetElement(0));
+	receptions.push(doc.GetElement(0).Copy());
 	Api.ReplaceDocumentContent(template);
 }
 paragraph = Api.CreateParagraph();

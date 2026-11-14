@@ -17,8 +17,9 @@ let dataRange = worksheet.GetRange("A2:A6");
 let formatConditions = dataRange.GetFormatConditions();
 
 let dataBar = formatConditions.AddDatabar();
+dataBar.SetNegativeBorderColor(Api.RGB(192, 0, 0));
 
 let negativeBorderColor = dataBar.GetNegativeBorderColor();
 
 worksheet.GetRange("C1").SetValue("Negative Border:");
-worksheet.GetRange("C2").SetValue(negativeBorderColor ? "Set" : "None");
+worksheet.GetRange("C2").SetValue(negativeBorderColor ? negativeBorderColor.GetHex() : "None");

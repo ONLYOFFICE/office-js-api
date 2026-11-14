@@ -6,4 +6,4 @@
 
 let worksheet = Api.GetActiveSheet();
 let pageSetup = worksheet.GetPageSetup();
-pageSetup.SetHeaderMargin(12.7);
+pageSetup.SetHeaderMargin(10);

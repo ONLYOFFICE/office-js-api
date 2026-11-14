@@ -7,8 +7,7 @@
 let presentation = Api.GetPresentation();
 let slide = presentation.GetSlideByIndex(0);
 let customGeometry = Api.CreateCustomGeometry();
-customGeometry.AddAdj("adj1", 25000);
-customGeometry.SetAdjValue("adj1", 30000);
+customGeometry.AddAdj("adj1", 30000);
 customGeometry.AddGuide("x1", "*/", "adj1", "w", "100000");
 customGeometry.SetTextRect("x1", "0", "w", "h");
 customGeometry.AddConnectionPoint("0", "hc", "0");

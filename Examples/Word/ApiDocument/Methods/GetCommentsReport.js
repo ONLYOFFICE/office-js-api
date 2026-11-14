@@ -24,6 +24,10 @@ let paragraph5 = Api.CreateParagraph();
 paragraph5.AddText("The document side bar will contain the Comment menu option.");
 doc.Push(paragraph5);
 Api.AddComment(paragraph4, "You can set the comment option in the permissions section of the document initialization", "Mark Pottato");
+doc.GetAllComments().forEach(function (comment) {
+	comment.SetTime(1705276800000);
+	comment.SetTimeUTC(1705276800000);
+});
 let commentsReport = doc.GetCommentsReport();
 let paragraph = Api.CreateParagraph();
 paragraph.AddLineBreak();

@@ -10,7 +10,7 @@ let inlineLvlSdt = Api.CreateInlineLvlSdt();
 let run = Api.CreateRun();
 run.AddText("This is an inline text content control with an ID set to it.");
 inlineLvlSdt.AddElement(run, 0);
-inlineLvlSdt.SetId("4815162342");
+inlineLvlSdt.SetId(1234567890);
 paragraph.AddInlineLvlSdt(inlineLvlSdt);
 let contentControlId = inlineLvlSdt.GetId();
 paragraph = Api.CreateParagraph();

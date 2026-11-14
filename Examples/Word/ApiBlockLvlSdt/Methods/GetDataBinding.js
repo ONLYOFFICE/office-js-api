@@ -2,7 +2,7 @@
 
 // Get the XML data binding attached to a content control in a document.
 
-// Inspect which XML source a content control is connected to and display its ID in a document.
+// Inspect the XPath linked to a content control to confirm its XML data source in a document.
 
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
@@ -21,5 +21,5 @@ contentControl.SetDataBinding({
 });
 let dataBinding = contentControl.GetDataBinding();
 let paragraph = Api.CreateParagraph();
-paragraph.AddText(dataBinding.storeItemID);
+paragraph.AddText(dataBinding.xpath);
 doc.Push(paragraph);

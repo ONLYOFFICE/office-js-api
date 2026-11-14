@@ -13,7 +13,7 @@ let shape = Api.CreateShape("star5", 50 * 36000, 50 * 36000, fill, stroke);
 let geometry = shape.GetGeometry();
 let path = geometry.GetPath(0);
 let commands = path.GetCommands();
-let cmd = path.GetCommand(0);
+let cmd = commands[0];
 let paragraph = shape.GetContent().GetElement(0);
 paragraph.AddText("Commands: " + path.GetCommandCount());
 paragraph.AddText(", First: " + cmd.GetType() + " at (" + cmd.GetX() + ", " + cmd.GetY() + ")");

@@ -22,6 +22,6 @@ let criteria = colorScale.GetColorScaleCriteria();
 if (criteria && criteria.length > 0) {
     let criterionColor = criteria[0].GetColor();
     
-    worksheet.GetRange("C1").SetValue("Has Color:");
-    worksheet.GetRange("C2").SetValue(criterionColor ? "Yes" : "No");
+    worksheet.GetRange("C1").SetValue("Criterion color:");
+    worksheet.GetRange("C2").SetValue(criterionColor.GetHex());
 }

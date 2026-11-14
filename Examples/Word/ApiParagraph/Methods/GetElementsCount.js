@@ -6,13 +6,14 @@
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
-paragraph.RemoveAllElements();
-let run = Api.CreateRun();
-run.AddText("Number of paragraph elements at this point: ");
-run.AddText("\t");
-run.AddText("" + paragraph.GetElementsCount());
-run.AddLineBreak();
-paragraph.AddElement(run);
-run.AddText("Number of paragraph elements after we added a text run: ");
-run.AddText("\t");
-run.AddText("" + paragraph.GetElementsCount());
+let firstRun = paragraph.GetElement(0);
+firstRun.AddText("The first paragraph element. ");
+firstRun.SetBold(true);
+let secondRun = Api.CreateRun();
+secondRun.AddText("The second paragraph element.");
+secondRun.SetItalic(true);
+paragraph.AddElement(secondRun);
+let count = paragraph.GetElementsCount();
+let report = Api.CreateParagraph();
+report.AddText("Number of paragraph elements: " + count);
+doc.Push(report);

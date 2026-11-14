@@ -1,8 +1,8 @@
-// Read the web address of a watermark image in a document.
+// Read the image source of a watermark in a document.
 
-// How do I find out where the watermark image is loaded from in a document?
+// How do I reuse the image displayed by a watermark in a document?
 
-// Retrieve the source link of a watermark image in a document.
+// Retrieve the watermark image source and insert a copy into the document.
 
 let doc = Api.GetDocument();
 let watermarkSettings = doc.GetWatermarkSettings();
@@ -13,5 +13,7 @@ watermarkSettings.SetDirection("clockwise45");
 watermarkSettings.SetOpacity(200);
 doc.SetWatermarkSettings(watermarkSettings);
 let paragraph = Api.CreateParagraph();
-paragraph.AddText("Watermark URL = " + doc.GetWatermarkSettings().GetImageURL());
+let source = doc.GetWatermarkSettings().GetImageURL();
+let image = Api.CreateImage(source, 70 * 36000, 80 * 36000);
+paragraph.AddDrawing(image);
 doc.Push(paragraph);

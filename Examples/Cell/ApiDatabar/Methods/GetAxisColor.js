@@ -17,8 +17,9 @@ let dataRange = worksheet.GetRange("A2:A6");
 let formatConditions = dataRange.GetFormatConditions();
 
 let dataBar = formatConditions.AddDatabar();
+dataBar.SetAxisColor(Api.RGB(255, 0, 0));
 
 let axisColor = dataBar.GetAxisColor();
 
-worksheet.GetRange("C1").SetValue("Has Axis Color:");
-worksheet.GetRange("C2").SetValue(axisColor ? "Yes" : "No");
+worksheet.GetRange("C1").SetValue("Axis Color:");
+worksheet.GetRange("C2").SetValue(axisColor ? axisColor.GetHex() : "None");

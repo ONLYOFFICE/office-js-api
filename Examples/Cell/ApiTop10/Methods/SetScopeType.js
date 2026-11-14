@@ -1,8 +1,8 @@
 // Define which portion of the data a top 10 conditional formatting rule evaluates in a spreadsheet.
 
-// How do I limit a top 10 rule to the current selection rather than the whole range in a spreadsheet?
+// How do I extend a top 10 rule from the current selection to the whole sheet in a spreadsheet?
 
-// Narrow the comparison area for a highlight rule by changing its scope in a spreadsheet.
+// Widen the comparison area for a highlight rule by changing its scope in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 
@@ -20,7 +20,7 @@ let condition1 = formatConditions.AddTop10();
 condition1.SetFillColor(Api.RGB(255, 255, 0));
 
 let scopeBefore = condition1.GetScopeType();
-condition1.SetScopeType("xlSelectionScope");
+condition1.SetScopeType("xlDataFieldScope");
 let scopeAfter = condition1.GetScopeType();
 
 worksheet.GetRange("C1").SetValue("Scope before: " + scopeBefore);

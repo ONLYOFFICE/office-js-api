@@ -2,7 +2,7 @@
 
 // Get the data binding of an inline content control in a document.
 
-// Inspect the XML store reference linked to a content control to confirm its data source in a document.
+// Inspect the XPath linked to a content control to confirm its XML data source in a document.
 
 let doc = Api.GetDocument();
 let xmlManager = doc.GetCustomXmlParts();
@@ -23,5 +23,5 @@ paragraph.Push(contentControl);
 
 let dataBinding = contentControl.GetDataBinding();
 paragraph = Api.CreateParagraph();
-paragraph.AddText(dataBinding.storeItemID);
+paragraph.AddText(dataBinding.xpath);
 doc.Push(paragraph);

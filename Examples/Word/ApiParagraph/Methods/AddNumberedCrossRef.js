@@ -10,7 +10,7 @@ for (let i = 0; i < 8; ++i) {
 	let numLvl = numbering.GetLevel(i);
 	let formatString = "";
 	for (let nTempLvl = 0; nTempLvl <= i; ++nTempLvl) 
-		formatString += "%" + nTempLvl + ".";
+		formatString += "%" + (nTempLvl + 1) + ".";
 	numLvl.SetCustomType("lowerRoman", formatString, "left");
 	numLvl.SetStart(i + 1);
 	numLvl.SetSuff("space");
@@ -22,6 +22,6 @@ for (let i = 0; i < 8; ++i) {
 }
 let numberedParagraphs = doc.GetAllNumberedParagraphs();
 let paragraph = Api.CreateParagraph();
-paragraph.AddText("An example of the customized numbering type can be found in the paragraph № ");
+paragraph.AddText("An example of the customized numbering type can be found in the paragraph \u2116 ");
 doc.Push(paragraph);
 paragraph.AddNumberedCrossRef("paraNum", numberedParagraphs[1], true, true);

@@ -17,6 +17,9 @@ shape.SetSize(300 * 36000, 130 * 36000);
 const placeholder = Api.CreatePlaceholder("chart");
 shape.SetPlaceholder(placeholder);
 slide.AddObject(shape);
+const note = Api.CreateShape("rect", 100 * 36000, 30 * 36000, fill, stroke);
+note.SetPosition(608400, 6000000);
+slide.AddObject(note);
 const drawingsWithPh = slide.GetDrawingsByPlaceholderType("chart");
 for (let i = 0; i < drawingsWithPh.length; i++) {
 	drawingsWithPh[i].Delete();

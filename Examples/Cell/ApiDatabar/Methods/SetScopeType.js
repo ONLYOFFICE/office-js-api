@@ -1,8 +1,8 @@
 // Define which cells a data bar formatting rule applies to within a range in a spreadsheet.
 
-// How do I control whether a data bar rule covers the entire table or only the selected cells in a spreadsheet?
+// How do I extend a data bar rule from its range to the entire worksheet in a spreadsheet?
 
-// Narrow or broaden the reach of a data bar rule by choosing its application scope in a spreadsheet.
+// Set the worksheet scope for a data bar rule created on a range and display the new scope in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 
@@ -15,7 +15,7 @@ let formatConditions = dataRange.GetFormatConditions();
 
 let dataBar = formatConditions.AddDatabar();
 
-dataBar.SetScopeType("xlSelectionScope");
+dataBar.SetScopeType("xlDataFieldScope");
 
 let scopeType = dataBar.GetScopeType();
 

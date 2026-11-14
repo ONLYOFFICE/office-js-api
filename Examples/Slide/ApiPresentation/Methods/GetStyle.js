@@ -9,6 +9,7 @@ const slide = presentation.GetSlideByIndex(0);
 const table = Api.CreateTable(3, 3);
 const style = presentation.GetStyle("Dark Style 1 - Accent 2");
 style.SetName("My Custom Table Style");
+table.SetStyle(style);
 const paragraph = Api.CreateParagraph();
 paragraph.AddText("New style name: " + style.GetName());
 table.GetCell(0, 0).GetContent().Push(paragraph);

@@ -6,7 +6,7 @@
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
-paragraph.AddText("Intro ");
+paragraph.GetElement(0).AddText("Intro ");
 let run = Api.CreateRun();
 run.AddText("measured run");
 paragraph.AddElement(run);

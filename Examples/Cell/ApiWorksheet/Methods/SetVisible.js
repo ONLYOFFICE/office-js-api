@@ -5,5 +5,8 @@
 // Control whether a sheet appears in the tab list or remains inaccessible in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
-worksheet.SetVisible(true);
-worksheet.GetRange("A1").SetValue("The current worksheet is visible.");
+Api.AddSheet("Archive");
+let archive = Api.GetSheet("Archive");
+worksheet.SetActive();
+archive.SetVisible(false);
+worksheet.GetRange("A1").SetValue("The Archive sheet is hidden.");

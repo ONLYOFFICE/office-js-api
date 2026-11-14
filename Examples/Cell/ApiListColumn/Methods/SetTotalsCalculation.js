@@ -15,7 +15,7 @@ let table = worksheet.AddListObject("xlSrcRange", "A1:B3");
 table.SetShowTotals(true);
 
 let column = table.GetListColumns()[1];
-column.SetTotalsCalculation("xlTotalsCalculationSum");
+column.SetTotalsCalculation("xlTotalsCalculationAverage");
 
 worksheet.GetRange("D1").SetValue("Totals calculation set to:");
 worksheet.GetRange("E1").SetValue(column.GetTotalsCalculation());

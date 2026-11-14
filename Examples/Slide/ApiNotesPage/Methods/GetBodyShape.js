@@ -13,6 +13,7 @@ let message = 'No notes page available.';
 if (notesPage) {
 	const bodyShape = notesPage.GetBodyShape();
 	if (bodyShape) {
+		bodyShape.GetDocContent().GetElement(0).AddText('Speaker notes go here.');
 		message = 'Body shape exists.';
 	} else {
 		message = 'No body shape available.';

@@ -15,5 +15,5 @@ let rgbColor = Api.RGB(255, 100, 0);
 widgets.forEach(function(widget) {
     widget.SetBorderColor(rgbColor);
 });
-let borderColor = widgets[0].GetBorderColor();
-textField.SetValue('Widgets border color is: ' + borderColor.R + ',' + borderColor.G + ',' + borderColor.B);
+let borderColor = widgets[0].GetBorderColor().GetRGB();
+textField.SetValue('Widgets border color is: ' + borderColor.r + ',' + borderColor.g + ',' + borderColor.b);

@@ -15,9 +15,8 @@ const colorScheme = Api.CreateThemeColorScheme([
 	Api.RGB(163, 21, 21), Api.RGB(128, 43, 43), Api.RGB(0, 0, 0), Api.RGB(128, 128, 128),
 	Api.RGB(176, 196, 222), Api.RGB(65, 105, 225), Api.RGB(255, 255, 255), Api.RGB(255, 213, 191)
 ], "New color scheme");
-theme.SetColorScheme(colorScheme);
-
 colorScheme.SetSchemeName("New color scheme name");
+theme.SetColorScheme(colorScheme);
 
 const fill = Api.CreateSolidFill(Api.RGB(255, 111, 61));
 const stroke = Api.CreateStroke(0, Api.CreateNoFill());

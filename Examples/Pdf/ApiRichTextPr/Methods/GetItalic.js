@@ -18,5 +18,6 @@ let run = para.GetElement(0);
 run.AddText("Some example text");
 
 let textPr = run.GetTextPr();
+textPr.SetItalic(true);
 
 console.log(`The italic property is: ${textPr.GetItalic()}`);

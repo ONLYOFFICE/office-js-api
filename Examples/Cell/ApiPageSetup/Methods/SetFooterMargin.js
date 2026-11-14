@@ -6,4 +6,4 @@
 
 let worksheet = Api.GetActiveSheet();
 let pageSetup = worksheet.GetPageSetup();
-pageSetup.SetFooterMargin(12.7);
+pageSetup.SetFooterMargin(10);

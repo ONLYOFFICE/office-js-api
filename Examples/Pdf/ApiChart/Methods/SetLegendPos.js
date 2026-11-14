@@ -2,7 +2,7 @@
 
 // How do I move the legend to the top, bottom, left, or right in a PDF?
 
-// Place the legend at the bottom of the chart in a PDF.
+// Place the legend at the top of the chart in a PDF.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -13,7 +13,7 @@ const chart = Api.CreateChart("3DColumnClustered", [
 ], ["Projected Revenue", "Estimated Costs"], [2014, 2015, 2016], 4051300, 2347595, 24);
 chart.SetVerAxisTitle("USD In Hundred Thousands", 20);
 chart.SetHorAxisTitle("Year", 22);
-chart.SetLegendPos("bottom");
+chart.SetLegendPos("top");
 chart.SetShowDataLabels(false, false, true, false);
 chart.SetTitle("Financial Overview", 26);
 chart.SetSize(150 * 36000, 65 * 36000);

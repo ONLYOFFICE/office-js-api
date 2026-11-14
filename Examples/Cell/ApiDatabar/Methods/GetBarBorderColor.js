@@ -17,8 +17,9 @@ let dataRange = worksheet.GetRange("A2:A6");
 let formatConditions = dataRange.GetFormatConditions();
 
 let dataBar = formatConditions.AddDatabar();
+dataBar.SetBarBorderColor(Api.RGB(0, 0, 255));
 
 let borderColor = dataBar.GetBarBorderColor();
 
 worksheet.GetRange("C1").SetValue("Border Color:");
-worksheet.GetRange("C2").SetValue(borderColor ? "Set" : "None");
+worksheet.GetRange("C2").SetValue(borderColor ? borderColor.GetHex() : "None");

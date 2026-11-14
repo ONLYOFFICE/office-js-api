@@ -6,7 +6,7 @@
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
-paragraph.AddText("Field: ");
+paragraph.GetElement(0).AddText("Field: ");
 let form = Api.CreateTextForm({ "key": "Name", "placeholder": "Enter text" });
 paragraph.Push(form);
 let position = form.GetPosInParent();

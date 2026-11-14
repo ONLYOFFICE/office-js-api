@@ -14,8 +14,8 @@ worksheet.GetRange("A4").SetValue(45);
 let range = worksheet.GetRange("A2:A4");
 let formatConditions = range.GetFormatConditions();
 
-let iconCondition = formatConditions.AddIconSetCondition();
 let dataBarCondition = formatConditions.AddDatabar();
+let iconCondition = formatConditions.AddIconSetCondition();
 
 worksheet.GetRange("B1").SetValue("Priority before: " + iconCondition.GetPriority());
 

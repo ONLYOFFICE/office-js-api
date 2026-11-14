@@ -1,4 +1,4 @@
-// Apply an outline to a custom shape's path in a presentation.
+// Remove the outline from a custom shape's path in a presentation.
 
 // What options are available for the outline of a shape in a presentation?
 
@@ -10,7 +10,7 @@ let customGeometry = Api.CreateCustomGeometry();
 let path = customGeometry.AddPath();
 path.SetWidth(100 * 36000);
 path.SetHeight(100 * 36000);
-path.SetStroke(true);
+path.SetStroke(false);
 path.SetFill("norm");
 path.MoveTo(50 * 36000, 0);
 path.LineTo(70 * 36000, 45 * 36000);

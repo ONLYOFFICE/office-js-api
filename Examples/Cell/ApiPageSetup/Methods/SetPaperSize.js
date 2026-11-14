@@ -6,4 +6,4 @@
 
 let worksheet = Api.GetActiveSheet();
 let pageSetup = worksheet.GetPageSetup();
-pageSetup.SetPaperSize("xlPaperA4");
+pageSetup.SetPaperSize("xlPaperLetter");

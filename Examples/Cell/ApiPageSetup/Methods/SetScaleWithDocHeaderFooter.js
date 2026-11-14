@@ -1,9 +1,9 @@
-// Scale the header and footer together with the worksheet when printing in a spreadsheet.
+// Stop scaling the header and footer together with the worksheet when printing in a spreadsheet.
 
-// How do I keep the header/footer font size in sync with the print scaling in a spreadsheet?
+// How do I keep the header/footer font size fixed regardless of the print scaling in a spreadsheet?
 
-// Make the header and footer shrink or grow with the document scale when printing in a spreadsheet.
+// Keep the header and footer at their own size when the document is scaled for printing in a spreadsheet.
 
 let worksheet = Api.GetActiveSheet();
 let pageSetup = worksheet.GetPageSetup();
-pageSetup.SetScaleWithDocHeaderFooter(true);
+pageSetup.SetScaleWithDocHeaderFooter(false);

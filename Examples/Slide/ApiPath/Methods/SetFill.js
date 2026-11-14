@@ -11,7 +11,7 @@ let path = customGeometry.AddPath();
 path.SetWidth(100 * 36000);
 path.SetHeight(100 * 36000);
 path.SetStroke(true);
-path.SetFill("norm");
+path.SetFill("darken");
 path.MoveTo(50 * 36000, 0);
 path.LineTo(70 * 36000, 45 * 36000);
 path.LineTo(55 * 36000, 70 * 36000);

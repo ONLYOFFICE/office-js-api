@@ -7,9 +7,8 @@
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.RemoveAllElements();
-let run = Api.CreateRun();
+let run = paragraph.GetElement(0);
 run.AddText("This is the first paragraph element. ");
-paragraph.AddElement(run);
 run = Api.CreateRun();
 run.AddText("This is the second paragraph element. ");
 paragraph.AddElement(run);

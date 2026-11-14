@@ -6,6 +6,7 @@
 
 let doc = Api.GetDocument();
 let cc = Api.CreateDropDownListContentControl([{display: 'one', value: '1'}, {display: 'two', value: '2'}], 1);
+doc.GetElement(0).AddElement(cc);
 let paragraph = Api.CreateParagraph();
 let contentControlList = cc.GetDropdownList();
 paragraph.AddText("Class Type = " + contentControlList.GetClassType());

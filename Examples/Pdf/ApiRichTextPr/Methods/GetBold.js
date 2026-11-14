@@ -18,5 +18,6 @@ let run = para.GetElement(0);
 run.AddText("Some example text");
 
 let textPr = run.GetTextPr();
+textPr.SetBold(true);
 
 console.log(`The bold property is: ${textPr.GetBold()}`);

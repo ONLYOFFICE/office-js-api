@@ -1,8 +1,8 @@
 // Set the vertical size of a shape path in a PDF.
 
-// What is the height of my custom shape in a PDF?
+// Set the height of the path coordinate space, measured in EMUs, in a PDF.
 
-// Define the tall dimension of a drawn path in a PDF.
+// A path height of 100 mm in a 50 mm shape draws the path at half of its height.
 
 const doc = Api.GetDocument();
 const page = doc.GetPage(0);
@@ -10,7 +10,7 @@ const page = doc.GetPage(0);
 let customGeometry = Api.CreateCustomGeometry();
 let path = customGeometry.AddPath();
 path.SetWidth(50 * 36000);
-path.SetHeight(50 * 36000);
+path.SetHeight(100 * 36000);
 path.SetStroke(true);
 path.SetFill("norm");
 path.MoveTo(50 * 36000, 0);

@@ -1,6 +1,6 @@
-// Draw an outline around a shape path in a PDF.
+// Remove the outline around a shape path in a PDF.
 
-// Add a border to a shape in a PDF.
+// Remove the border from a shape in a PDF.
 
 // Enable or disable the outline of a custom shape in a PDF.
 
@@ -11,7 +11,7 @@ let customGeometry = Api.CreateCustomGeometry();
 let path = customGeometry.AddPath();
 path.SetWidth(50 * 36000);
 path.SetHeight(50 * 36000);
-path.SetStroke(true);
+path.SetStroke(false);
 path.SetFill("norm");
 path.MoveTo(50 * 36000, 0);
 path.LineTo(70 * 36000, 45 * 36000);

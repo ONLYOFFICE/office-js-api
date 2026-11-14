@@ -15,5 +15,5 @@ let rgbColor = Api.RGB(255, 100, 0);
 widgets.forEach(function(widget) {
     widget.SetBackgroundColor(rgbColor);
 });
-let bgColor = widgets[0].GetBackgroundColor();
-textField.SetValue('Widgets background color is: ' + bgColor.R + ',' + bgColor.G + ',' + bgColor.B);
+let bgColor = widgets[0].GetBackgroundColor().GetRGB();
+textField.SetValue('Widgets background color is: ' + bgColor.r + ',' + bgColor.g + ',' + bgColor.b);

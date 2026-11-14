@@ -18,5 +18,6 @@ let run = para.GetElement(0);
 run.AddText("Some example text");
 
 let textPr = run.GetTextPr();
+textPr.SetUnderline(true);
 
 console.log(`The underline property is: ${textPr.GetUnderline()}`);

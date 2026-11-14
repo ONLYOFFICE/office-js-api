@@ -16,6 +16,6 @@ let range = worksheet.GetRange("A2:A5");
 let formatConditions = range.GetFormatConditions();
 let uniqueValuesCondition = formatConditions.AddUniqueValues();
 
-uniqueValuesCondition.SetScopeType(0);
+uniqueValuesCondition.SetScopeType("xlDataFieldScope");
 
-worksheet.GetRange("C1").SetValue("Scope type set to 0");
+worksheet.GetRange("C1").SetValue("Scope type set to xlDataFieldScope");

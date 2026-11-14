@@ -6,7 +6,7 @@
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
-paragraph.AddText("Before ");
+paragraph.GetElement(0).AddText("Before ");
 let inlineSdt = Api.CreateInlineLvlSdt();
 inlineSdt.AddText("control");
 paragraph.AddInlineLvlSdt(inlineSdt);

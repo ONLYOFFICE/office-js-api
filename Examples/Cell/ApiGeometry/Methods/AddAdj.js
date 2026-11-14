@@ -6,8 +6,7 @@
 
 let worksheet = Api.GetActiveSheet();
 let customGeometry = Api.CreateCustomGeometry();
-customGeometry.AddAdj("adj1", 25000);
-customGeometry.SetAdjValue("adj1", 30000);
+customGeometry.AddAdj("adj1", 30000);
 worksheet.GetRange("A7").SetValue("Adjustment: " + customGeometry.GetAdjValue("adj1"));
 customGeometry.AddGuide("x1", "*/", "adj1", "w", "100000");
 customGeometry.SetTextRect("x1", "0", "w", "h");

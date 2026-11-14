@@ -18,5 +18,6 @@ let run = para.GetElement(0);
 run.AddText("Some example text");
 
 let textPr = run.GetTextPr();
+textPr.SetVertAlign("superscript");
 
 console.log(`The vert align property is: ${textPr.GetVertAlign()}`);

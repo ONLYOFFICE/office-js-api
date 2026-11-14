@@ -12,4 +12,6 @@ let copyParagraph = paragraph.Copy();
 doc.Push(copyParagraph);
 let hyperlink = paragraph.AddHyperlink("https://api.onlyoffice.com");
 let copyHyperlink = copyParagraph.AddHyperlink("https://api.onlyoffice.com");
+hyperlink.GetElement(0).SetColor(Api.RGB(192, 0, 0));
+copyHyperlink.GetElement(0).SetColor(Api.RGB(192, 0, 0));
 copyHyperlink.SetDefaultStyle();

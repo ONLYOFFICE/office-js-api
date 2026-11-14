@@ -17,7 +17,7 @@ paragraph.AddText("We removed all elements from the shape and added a new paragr
 let json = docContent.ToJSON(false, true);
 let docContentFromJSON = Api.FromJSON(json);
 let type = docContentFromJSON.GetClassType();
-docContentFromJSON.RemoveAllElements();
 paragraph = docContentFromJSON.GetElement(0);
+paragraph.AddLineBreak();
 paragraph.AddText("Class type = " + type);
 Api.ReplaceDocumentContent(docContentFromJSON);
