@@ -5,7 +5,7 @@
 // Replace the path coordinates for an ink annotation in a PDF.
 
 let doc = Api.GetDocument();
-let inkPaths = [[{x: 328.002, y: 222.017}, {x: 328.648, y: 222.017}, {x: 329.294, y: 222.017}]];
+let inkPaths = [[{x: 20, y: 28}, {x: 55, y: 14}, {x: 90, y: 28}, {x: 125, y: 14}, {x: 150, y: 28}]];
 let inkAnnot = Api.CreateInkAnnot([10, 10, 160, 32], inkPaths);
 inkAnnot.SetBorderColor(Api.RGB(255, 0, 0));
 inkAnnot.SetPathList([[{x: 10, y: 10}, {x: 50, y: 50}]]);
