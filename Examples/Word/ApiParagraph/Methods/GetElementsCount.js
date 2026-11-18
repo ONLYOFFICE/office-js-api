@@ -2,7 +2,7 @@
 
 // How do I count the elements that make up a paragraph in a document?
 
-// Track how the element count changes as new runs are added to a paragraph in a document.
+// Fill the first run, add a second one and display the resulting element count in a document.
 
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);

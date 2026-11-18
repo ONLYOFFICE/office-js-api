@@ -7,11 +7,10 @@
 let doc = Api.GetDocument();
 let paragraph = doc.GetElement(0);
 paragraph.AddText("Visit ONLYOFFICE for developers");
-paragraph.SetColor(Api.HexColor('#FF6F3D'));
 let copyParagraph = paragraph.Copy();
 doc.Push(copyParagraph);
 let hyperlink = paragraph.AddHyperlink("https://api.onlyoffice.com");
 let copyHyperlink = copyParagraph.AddHyperlink("https://api.onlyoffice.com");
-hyperlink.GetElement(0).SetColor(Api.RGB(192, 0, 0));
-copyHyperlink.GetElement(0).SetColor(Api.RGB(192, 0, 0));
+hyperlink.GetRange().SetColor(Api.HexColor('#FF6F3D'));
+copyHyperlink.GetRange().SetColor(Api.HexColor('#FF6F3D'));
 copyHyperlink.SetDefaultStyle();

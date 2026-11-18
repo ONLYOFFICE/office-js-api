@@ -22,6 +22,6 @@ for (let i = 0; i < 8; ++i) {
 }
 let numberedParagraphs = doc.GetAllNumberedParagraphs();
 let paragraph = Api.CreateParagraph();
-paragraph.AddText("An example of the customized numbering type can be found in the paragraph \u2116 ");
+paragraph.AddText("An example of the customized numbering type can be found in the paragraph № ");
 doc.Push(paragraph);
 paragraph.AddNumberedCrossRef("paraNum", numberedParagraphs[1], true, true);

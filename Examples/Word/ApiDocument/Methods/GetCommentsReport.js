@@ -64,7 +64,7 @@ for (let userName in commentsReport) {
 		let commentInfo = commentsReport[userName][i];
 		fillCell(rowIndex, 0, "");
 		cells.push(table.GetRow(rowIndex).GetCell(0));
-		fillCell(rowIndex, 1, (new Date(commentInfo["Date"])).toString());
+		fillCell(rowIndex, 1, (new Date(commentInfo["Date"])).toISOString().slice(0, 10));
 		fillCell(rowIndex, 2, commentInfo["IsAnswer"] === true ? "answer" : "comment");
 		if (commentInfo["IsAnswer"] !== true) 
 		{

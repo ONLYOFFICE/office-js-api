@@ -6245,7 +6245,7 @@
     "Control the angle at which a watermark is displayed in a document.": "控制文档中水印显示的角度。",
     "Retrieve the rotation direction of a watermark and display it in a document.": "检索水印的旋转方向并在文档中显示。",
     "Assign a web image as the watermark in a document.": "将网络图像分配为文档中的水印。",
-    "Read the web address of a watermark image in a document.": "读取文档中水印图像的网址。",
+    "Read the image source of a watermark in a document.": "读取文档中水印图像的来源。",
     "Read the width of a watermark image in a document.": "读取文档中水印图像的宽度。",
     "Read the height of a watermark image in a document.": "读取文档中水印图像的高度。",
     "Control the dimensions of a watermark image in a document.": "控制文档中水印图像的尺寸。",
@@ -12622,6 +12622,5 @@
     "Underline the bold runs of a presentation with a presentation visitor.": "使用演示文稿访问者为演示文稿中的粗体文本块添加下划线。",
     "Find the longest text run of a presentation with a presentation visitor.": "使用演示文稿访问者查找演示文稿中最长的文本块。",
     "Count the words of a presentation, including speaker notes, with a presentation visitor.": "使用演示文稿访问者统计演示文稿（包括演讲者备注）的单词数。",
-    "Read the image source of a watermark in a document.": "读取文档中水印图像的来源。",
     "": ""
 }

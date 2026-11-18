@@ -6,13 +6,12 @@
 
 const doc = Api.GetDocument();
 const firstParagraph = doc.GetElement(0);
+firstParagraph.SetOutlineLvl(1);
 firstParagraph.AddText('Outline level of this paragraph is ' + firstParagraph.GetOutlineLvl() + '.');
 
-for (let levelIndex = 0; levelIndex < 9; levelIndex++) {
+for (let level = 1; level <= 9; level++) {
 	const paragraph = Api.CreateParagraph();
-	paragraph.SetOutlineLvl(levelIndex);
-
-	const level = paragraph.GetOutlineLvl() + 1;
-	paragraph.AddText('This is a paragraph with outline level ' + level + '.');
+	paragraph.SetOutlineLvl(level);
+	paragraph.AddText('This is a paragraph with outline level ' + paragraph.GetOutlineLvl() + '.');
 	doc.Push(paragraph);
 }
