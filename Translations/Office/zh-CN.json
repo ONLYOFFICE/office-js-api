@@ -12632,6 +12632,6 @@
     "Fit the text of shapes on a slide by changing its font size.": "通过更改字号使幻灯片上形状的文本适应形状。",
     "Fit the text of shapes on a worksheet by changing its font size.": "通过更改字号使工作表上形状的文本适应形状。",
     "Fit the text of shapes on a PDF page by changing its font size.": "通过更改字号使 PDF 页面上形状的文本适应形状。",
-    "Changes the font size of the shape text so that the text fills the shape height without overflowing it. The text is reduced if it does not fit the shape and enlarged if the shape has free space. All the text sizes are changed in the same proportion, the line spacing is not changed. The text is only reduced if it is not wrapped or the shape is resized to fit the text.": "更改形状文本的字号，使文本在不溢出的情况下填满形状的高度。如果文本不适合形状，则缩小文本；如果形状有剩余空间，则放大文本。所有文本大小按相同比例更改，行距保持不变。如果文本不换行或形状会根据文本调整大小，则文本只会缩小。",
+    "Changes the font size of the shape text so that the text fits the shape height. The text is reduced if it does not fit the shape. If canEnlarge is true, the text is also enlarged to fill the free space of the shape. All the text sizes are changed in the same proportion, the line spacing is not changed. The text is never enlarged if it is not wrapped or the shape is resized to fit the text.": "更改形状文本的字号，使文本适应形状的高度。如果文本不适合形状，则缩小文本。如果 canEnlarge 为 true，文本还会放大以填满形状的剩余空间。所有文本大小按相同比例更改，行距保持不变。如果文本不换行或形状会根据文本调整大小，则文本永远不会放大。",
     "": ""
 }

@@ -17,4 +17,4 @@ const shortRun = shortShape.GetDocContent().GetElement(0).AddText("Quarterly rep
 shortRun.SetFontSize(20);
 
 worksheet.GetRange("A1").SetValue("The long text fits the shape: " + longShape.FitText());
-worksheet.GetRange("F1").SetValue("The short text fits the shape: " + shortShape.FitText(16, 96));
+worksheet.GetRange("F1").SetValue("The short text fits the shape: " + shortShape.FitText(true));

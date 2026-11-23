@@ -24,4 +24,4 @@ const shortRun = shortShape.GetDocContent().GetElement(0).AddText("Quarterly rep
 shortRun.SetFontSize(24);
 
 longShape.FitText();
-shortShape.FitText(24, 144);
+shortShape.FitText(true);

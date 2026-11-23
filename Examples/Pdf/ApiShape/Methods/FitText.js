@@ -22,4 +22,4 @@ shortRun.SetFontSize(20);
 page.AddObject(shortShape);
 
 longShape.FitText();
-shortShape.FitText(16, 96);
+shortShape.FitText(true);

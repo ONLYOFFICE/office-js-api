@@ -20,7 +20,7 @@ shortRun.SetFontSize(20);
 paragraph.AddDrawing(shortShape);
 
 const isLongTextFit = longShape.FitText();
-const isShortTextFit = shortShape.FitText(16, 96);
+const isShortTextFit = shortShape.FitText(true);
 
 const resultParagraph = Api.CreateParagraph();
 resultParagraph.AddText("The long text fits the shape: " + isLongTextFit + ". The short text fits the shape: " + isShortTextFit + ".");
