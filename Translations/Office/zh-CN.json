@@ -12622,5 +12622,11 @@
     "Underline the bold runs of a presentation with a presentation visitor.": "使用演示文稿访问者为演示文稿中的粗体文本块添加下划线。",
     "Find the longest text run of a presentation with a presentation visitor.": "使用演示文稿访问者查找演示文稿中最长的文本块。",
     "Count the words of a presentation, including speaker notes, with a presentation visitor.": "使用演示文稿访问者统计演示文稿（包括演讲者备注）的单词数。",
+    "Delete a custom property by its name from a document.": "按名称从文档中删除自定义属性。",
+    "Delete all custom properties from a document.": "删除文档中的所有自定义属性。",
+    "Delete a custom property by its name from a spreadsheet.": "按名称从电子表格中删除自定义属性。",
+    "Delete all custom properties from a spreadsheet.": "删除电子表格中的所有自定义属性。",
+    "Delete a custom property by its name from a presentation.": "按名称从演示文稿中删除自定义属性。",
+    "Delete all custom properties from a presentation.": "删除演示文稿中的所有自定义属性。",
     "": ""
 }
