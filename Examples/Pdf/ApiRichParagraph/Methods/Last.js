@@ -14,7 +14,8 @@ freeTextAnnot.SetRectDiff([100, 64, 0.5, 0.5]);
 
 let richContent = freeTextAnnot.GetContent();
 let para = richContent.GetElement(0);
-let run = para.GetElement(0);
-run.AddText("Last rich run element");
-
-console.log("We gets last rich run element from rich paragraph and added some text to it");
+para.GetElement(0).AddText("First run");
+const second = Api.CreateRichRun();
+second.AddText("Last run");
+para.Push(second);
+console.log(para.Last().GetText());

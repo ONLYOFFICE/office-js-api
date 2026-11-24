@@ -15,6 +15,6 @@ for (let nLvl = 0; nLvl < 8; ++nLvl) {
 	doc.Push(paragraph);
 }
 let classType = numbering.GetClassType();
-paragraph = Api.CreateParagraph();
+let paragraph = Api.CreateParagraph();
 paragraph.AddText("Class Type = " + classType);
 doc.Push(paragraph);

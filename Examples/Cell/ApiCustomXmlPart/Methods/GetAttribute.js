@@ -9,7 +9,7 @@ let xmlManager = worksheet.GetCustomXmlParts();
 let xml = xmlManager.Add("<config version='1.0' xmlns='http://example.com'><setting>value</setting></config>");
 let rootNodes = xml.GetNodes('/config');
 if (rootNodes.length > 0) {
-    let version = rootNodes[0].GetAttribute('version');
+    let version = xml.GetAttribute('/config', 'version');
     worksheet.GetRange("A1").SetValue("Config version: " + version);
 } else {
     worksheet.GetRange("A1").SetValue("No root node found");

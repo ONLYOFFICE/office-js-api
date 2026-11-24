@@ -19,7 +19,7 @@ let paragraph = docContent.GetElement(0);
 let run = Api.CreateRun();
 run.SetFontSize(60);
 if (rootNodes.length > 0) {
-    let version = rootNodes[0].GetAttribute('version');
+    let version = xml.GetAttribute('/config', 'version');
     run.AddText("Config version: " + version);
 } else {
     run.AddText("No root node found");
