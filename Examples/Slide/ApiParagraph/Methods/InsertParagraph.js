@@ -18,5 +18,5 @@ paragraph.AddText('This is the first paragraph.');
 
 const paragraph2 = Api.CreateParagraph();
 paragraph2.AddText('This paragraph was inserted after the first one.');
-paragraph.InsertParagraph(paragraph2, 'after', true);
+paragraph.InsertParagraph(paragraph2, 'after');
 slide.AddObject(shape);
